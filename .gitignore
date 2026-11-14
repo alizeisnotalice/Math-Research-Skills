@@ -1,0 +1,25 @@
+# Local evidence, machine state and reversible installation backups
+.local/
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+# Downloads, full texts, original archives and generated/compiled assets
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.pcm
+*.swiftmodule
+*.png
+*.jpg
+*.jpeg
+*.log
+.swift-cache/
+swift-cache/
+.cache/
