@@ -1,0 +1,23 @@
+# AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023 — connectivity of a thinned USF union
+
+**Source and read copy.** Eleanor Archer, Asaf Nachmias, Matan Shalev, and Pengfei Tang, “The Union of Independent USFs on $\mathbb Z^d$ Is Transient,” arXiv:2311.09183v1 (15 November 2023). Read the complete 10-physical-page local PDF at `evidence/fulltexts/AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023.pdf`, SHA-256 `f038f787ca463ebf1f55679791e3fa282384ddbf81f2d7134524a498b73d76ae`. The arXiv record and the D05 title-page/final-page, page-count, and hash checks verified identity; D05 did not read the proof. W07 read pp. 1–10 in full.
+
+## Main theorem and box process (§§1–2; PDF pp. 1–5)
+
+The underlying graph is $\mathbb Z^d$ with $d\ge3$. The paper uses that the free and wired USFs coincide on $\mathbb Z^d$. A subgraph $\Lambda$ is **everywhere percolating** when every vertex lies in an infinite connected component of $\Lambda$. Given one WUSF sample, an $\varepsilon$-WUSF is obtained by independently retaining each of its edges with probability $\varepsilon$.
+
+**Theorem 1.1 (PDF p. 1).** For every everywhere-percolating $\Lambda\subseteq\mathbb Z^d$ and every $\varepsilon>0$, the union of $\Lambda$ and an independent $\varepsilon$-WUSF is almost surely connected and transient. **Corollary 1.2 (p. 2)** applies this to two independent WUSF samples. The theorem also strictly strengthens the cited Bernoulli-percolation augmentation result. Conjecture 1.3 asks whether the componentwise transience conclusion extends to all transitive transient graphs; it is not proved here.
+
+Definition 1.5 introduces $\varphi_k(\varepsilon)$: for every $z\in(2k\mathbb Z)^d$, independently choose a uniform edge from a designated set $Q_k^z$ and retain it with probability $\varepsilon$. Claim 2.2 (PDF pp. 4–5) proves that these sets partition the lattice edges and every cycle has two edges assigned to the same $Q_k^z$. Hence the selected edges form a forest. Claim 2.1 orders any acyclic set so each next edge has conditional WUSF inclusion probability at least $1/(2d)$ after previous edge-presence/absence conditions; spatial Markov plus Kirchhoff's formula express this as effective resistance in the contracted/deleted network, and Nash–Williams gives the lower bound. Lemma 2.3 then yields stochastic domination of $\varphi_k(\varepsilon/(2d))$ by an $\varepsilon$-WUSF. Thus Theorem 1.1 follows from the box-process theorem.
+
+## Renormalization proof (§3; PDF pp. 5–9)
+
+Theorem 1.6 (PDF p. 3) states that $\Lambda\cup\varphi_k(\varepsilon)$ is a.s. connected and transient for every $d\ge3$, $k\ge1$, and $0<\varepsilon\le1$. The authors reduce this to exponentially high-probability connectivity inside large boxes. In §3.1, a finite-range indicator field records whether all neighboring box-boundary points connect inside an enlarged box; Liggett–Schonmann–Stacey domination gives a supercritical Bernoulli site cluster, and the rough-equivalence comparison plus Rayleigh monotonicity transfers transience to the union.
+
+In §3.2, the proof handles the dependence created by box percolation using spatial sprinkling across separated annuli. Lemma 3.1 and Claim 3.2 show that each annulus reduces the number of components by a factor $n^{1/4}$ except with probability $Ce^{-c\sqrt n}$; edge-boundary size follows because each base component crosses annuli to infinity. Lemma 3.3 and Claim 3.4 handle components entering from inside by contracting the special interior component. Lemma 3.5 iterates the bound across scales; Lemma 3.6 then gives the required box-connectivity estimate. Constants may depend on $d,k,\varepsilon$ but not on the everywhere-percolating graph $\Lambda$.
+
+## Use for invariant augmentation and exact boundary
+
+For B064, this gives a genuine **special case** on $\mathbb Z^d$, $d\ge3$: take the base sample $\Lambda$ to be one WUSF (which is everywhere percolating there) and add an independently thinned second WUSF. The added set is translation-invariant and each edge has added probability at most the thinning parameter, so it can be made smaller than any prescribed $\epsilon$. This does not solve the question for arbitrary Cayley graphs. For C105, it is USF union information only; it does not determine minimal-spanning-forest connectivity or a critical dimension.
+
+All physical pages 1–10 were read, including references. `evidence/W07/reading_coverage.json` records introduction and theorem statements (pp. 1–2), box-process definition and domination reduction (pp. 3–5), renormalization setup and annular component reduction (pp. 5–8), final box-connectivity proof and references (pp. 9–10). Keep the lattice, $d\ge3$, WUSF/USF, everywhere-percolating base, and independent thinning hypotheses explicit.

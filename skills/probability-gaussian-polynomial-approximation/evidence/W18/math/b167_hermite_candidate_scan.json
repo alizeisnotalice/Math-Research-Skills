@@ -1,0 +1,80 @@
+{
+  "input": "Z standard normal; p_d(Z)=He_d(Z)/sqrt(d!), d=1,...,12.",
+  "normalization": "Probabilists Hermite polynomial He_d; E[p_d]=0 and Var[p_d]=1.",
+  "method": "SciPy adaptive quadrature of (|p_d|-1)^2 times standard normal density, split at all real Hermite roots.",
+  "records": [
+    {
+      "degree": 1,
+      "objective": 0.40423087839426936,
+      "estimated_abs_quad_error": 1.2563946462921467e-11,
+      "sqrt_degree_times_objective": 0.40423087839426936
+    },
+    {
+      "degree": 2,
+      "objective": 0.6312068787511338,
+      "estimated_abs_quad_error": 4.713846196639347e-12,
+      "sqrt_degree_times_objective": 0.8926613285930433
+    },
+    {
+      "degree": 3,
+      "objective": 0.7670795482370478,
+      "estimated_abs_quad_error": 3.2046836503182793e-12,
+      "sqrt_degree_times_objective": 1.3286207509935481
+    },
+    {
+      "degree": 4,
+      "objective": 0.8566597149136393,
+      "estimated_abs_quad_error": 2.893843307095034e-12,
+      "sqrt_degree_times_objective": 1.7133194298272787
+    },
+    {
+      "degree": 5,
+      "objective": 0.9209708929557401,
+      "estimated_abs_quad_error": 1.762632201944809e-12,
+      "sqrt_degree_times_objective": 2.0593535219477173
+    },
+    {
+      "degree": 6,
+      "objective": 0.9702461950940384,
+      "estimated_abs_quad_error": 8.642818891062112e-13,
+      "sqrt_degree_times_objective": 2.376608102857253
+    },
+    {
+      "degree": 7,
+      "objective": 1.009820452215942,
+      "estimated_abs_quad_error": 6.835580048795206e-13,
+      "sqrt_degree_times_objective": 2.6717337853901664
+    },
+    {
+      "degree": 8,
+      "objective": 1.0426978839071235,
+      "estimated_abs_quad_error": 1.0962253010995225e-12,
+      "sqrt_degree_times_objective": 2.949194977758362
+    },
+    {
+      "degree": 9,
+      "objective": 1.0706998255236284,
+      "estimated_abs_quad_error": 1.469055968792014e-12,
+      "sqrt_degree_times_objective": 3.2120994765708852
+    },
+    {
+      "degree": 10,
+      "objective": 1.0950037585173513,
+      "estimated_abs_quad_error": 1.6915939599634948e-12,
+      "sqrt_degree_times_objective": 3.462705923359831
+    },
+    {
+      "degree": 11,
+      "objective": 1.1164123155797658,
+      "estimated_abs_quad_error": 1.7511311049993605e-12,
+      "sqrt_degree_times_objective": 3.7027207621099274
+    },
+    {
+      "degree": 12,
+      "objective": 1.1354964243766221,
+      "estimated_abs_quad_error": 1.6732232500079227e-12,
+      "sqrt_degree_times_objective": 3.9334749976662016
+    }
+  ],
+  "interpretation": "Each value is a numerical feasible-point upper bound on the one-dimensional infimum for that degree. It is not a lower bound, does not show asymptotic optimality, and does not determine the all-dimensional sharp constant."
+}

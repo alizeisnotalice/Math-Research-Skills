@@ -1,0 +1,119 @@
+{
+  "worker": "W10",
+  "skill": "probability-boolean-fourier-invariance",
+  "updated_at": "2026-11-14",
+  "phase": "Thirty active unique W10 works have full-text evidence integrated; six L10 and five L08 batch3 additions remain review pending.",
+  "scope": [
+    "Boolean Fourier analysis",
+    "coordinate influence and total influence",
+    "noise sensitivity and stability",
+    "low-influence invariance",
+    "bounded independence for Boolean/Gaussian PTFs",
+    "influential coalitions"
+  ],
+  "source_target": "30-100 relevant bibliographic candidates per tool",
+  "counts": {
+    "registry_rows": 55,
+    "active_bibliographic_sources": 53,
+    "audit_only_identity_conflicts": 1,
+    "duplicate_work_aliases": 1,
+    "seed375_expected": 37,
+    "seed375_present": 37,
+    "relevant_topic_tagged_sources": 48,
+    "verified_metadata_active": 37,
+    "pending_metadata_active": 16,
+    "verified_identity_active": 35,
+    "pending_identity_active": 18,
+    "local_pdf_paths_active": 33,
+    "active_fulltext_read": 30,
+    "active_selected_chapters_read": 0,
+    "active_partial_read": 4,
+    "active_not_read": 19,
+    "audit_partial_read": 1,
+    "review_pending": 55
+  },
+  "completed": [
+    "All 37 assigned seed375 source IDs M0110–M0146 remain in the ledger; this batch fully read M0113 and M0114 from D02 PDFs after title-page and hash checks.",
+    "R05 mathematical corrections applied to Huang Theorem 1.3, BGP2012 moment normalization/Theorem 16 pages/parity choice, BKS Theorem 1.9 positive levels, Kane bound/error/section proof coverage, and the parity Fourier-dimension computation.",
+    "A019 and A166 have exact formal-problem mappings with explicit unproved interfaces; A166 distinguishes input support from Fourier support.",
+    "Finite exact Walsh enumeration through n=4 and the five-bit parity witness are recorded in the math artifact; they do not establish an asymptotic theorem.",
+    "Full-text read and physically covered BKS1999 (46pp), HKM-PTF (20pp), DKN-PTF2 (36pp), BEL-PTF (30pp), and M0235/MOO (50pp); hashes rechecked and review_status kept pending.",
+    "L08 full-text read M0118 (correct 18-page CWI copy), KKL2014 (21 pages), and CG2026 (18 pages); identity, hashes, physical page ranges, full section coverage, and cards are integrated. Each keeps review_status=pending; the rejected M0118 physics artifact remains audit-only.",
+    "D04 batch07 identities, hashes, page counts, versions, and paths were independently rechecked and imported for eight new works plus two existing-file links. M0111’s two-author CCC 2012 manuscript is explicitly an unread alternate; it does not verify/acquire the registered 2018 three-author journal version. M0134 is canonical for the same FKN2002 DOI/work, avoiding duplicate-work counts.",
+    "L08 batch2 read M0123, DKN-HS, MZ-PTF, M0136, and M0124 in full; local identities, hashes, physical page counts, full section coverage, canonical cards and theorem assumptions are integrated. All five remain review pending.",
+    "D04 batch08 imported identity/version/path/SHA-256/page-count evidence for M0128, M0129, M0132, M0137, M0138, M0140, M0141, and M0142. All eight remain not_read unless separate reader evidence is later integrated; D04 performed no body reading.",
+    "L10 read M0122, M0130, M0134 (canonical FKN2002 work), M0140, M0141, and M0142 in full. Local identities/hashes and 25/11/12/14/25/23 physical-page coverage are recorded; fragile results were rendered against source pages; cards and coverage are integrated. All six remain review pending.",
+    "L08 batch3 full-text evidence integrated for M0128, M0129, M0132, M0137, and M0138 after matching each local PDF SHA-256 and physical page count; full cards and section coverage copied into the canonical W10 card/ledger, and each remains review pending.",
+    "R05 targeted repairs completed for M0141 (exponential BH constant in main/homogeneous statements), M0130 (linear p in both codimension bounds), M0129 (0/1 versus sign encoding and coefficient conversion), M0140 (Boolean-candidate difference g−g0), and M0134 (squared-L2/normalized-Hamming equivalence). Original formula pages were rendered; exact finite checks are saved in reader_batches/L10_final_R05/math_checks.py/.json. All source reviews remain pending."
+  ],
+  "gaps": [
+    "Most Fourier sparsity/dimension candidates are not read; validate titles/authors and acquire accessible full text before relying on them.",
+    "No current exhaustive literature search establishes whether A165 or the discrete fixed-error B162 conjecture is resolved; do not label either currently open without further checking.",
+    "The B162 2026 continuous-cube coalition theorem does not imply the discrete O(log n) conclusion.",
+    "The B170 Kane upper bound is not sharp; matching lower bounds and optimal k(d,epsilon) remain queued.",
+    "W18 owns sharp Gaussian polynomial/sign approximation; do not duplicate that work inside this skill.",
+    "MOO/BKS/DKN/BEL/HKM are now full-text read; independent review and any further quantitative theorem checks remain pending. Most Fourier-sparsity/dimension candidates are still unread.",
+    "M0111’s registered 2018 three-author journal edition is not acquired; only the complete 2011/CCC 2012 two-author manuscript is available, identity-verified as that alternate, and remains unread.",
+    "D04 batch07’s other newly verified local copies remain unread until their assigned or queued full-text passes; acquisition/identity evidence alone is not reading evidence."
+  ],
+  "seed_reading_queue": [
+    "M0115",
+    "M0117",
+    "M0135",
+    "M0146",
+    "M0111",
+    "M0116",
+    "M0119",
+    "M0120",
+    "M0121",
+    "M0125",
+    "M0126",
+    "M0127",
+    "M0133",
+    "M0139",
+    "M0143",
+    "M0144"
+  ],
+  "topical_not_read_queue": [
+    "M0115",
+    "M0117",
+    "M0135",
+    "M0146",
+    "M0111",
+    "M0236",
+    "Talagrand1994",
+    "ODsurvey2008",
+    "M0120",
+    "M0126",
+    "M0133",
+    "M0139",
+    "M0143",
+    "M0144"
+  ],
+  "partial_deepening_queue": [
+    "M0112",
+    "M0145",
+    "M0110",
+    "FRIEDGUT2004"
+  ],
+  "next_steps": [
+    "Submit the integrated 30-full-text W10 ledger/cards/coverage and the prior BKS/HKM/DKN/MOO revisions to independent R05 review; keep every review status pending until accepted.",
+    "Continue candidate/identity and resolution-status checks for the remaining Fourier-sparsity/dimension sources; A165 and discrete B162 are not claimed resolved or open without a current primary-source check."
+  ],
+  "math_evidence": {
+    "script": "evidence/W10/math/enumerate_boolean_spectrum.py",
+    "output": "evidence/W10/math/a165_enum_n1_n4.json",
+    "method": "exact integer Walsh transform; exhaustive truth-table enumeration for n=1..4; parity witness n=5",
+    "limitation": "finite examples only; no asymptotic proof"
+  },
+  "review_status": "pending",
+  "verified_local_unread_queue": {
+    "assigned_to_L08_batch2": [],
+    "W10_followup_unread": [
+      "M0111",
+      "M0117"
+    ],
+    "M0111_version_note": "Only the 2011 two-author CCC 2012 version is locally available; the registered 2018 journal version remains pending.",
+    "assigned_to_L08_batch3": []
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-14",
+  "runtime": "Python 3 standard library, math",
+  "scope": "Finite arithmetic/numerical checks only; no universal theorem is proved or independently re-proved.",
+  "AEP-026": {
+    "orthogonal_constant_checks": [
+      {
+        "p": 1.3333333333333333,
+        "p_star": 4.000000000000001,
+        "p_star_minus_1": 3.000000000000001,
+        "orthogonal_cot_constant": 2.414213562373096,
+        "dual_identity_comparison": 2.4142135623730945,
+        "identity_abs_error": 1.3322676295501878e-15
+      },
+      {
+        "p": 2.0,
+        "p_star": 2.0,
+        "p_star_minus_1": 1.0,
+        "orthogonal_cot_constant": 1.0000000000000002,
+        "dual_identity_comparison": 0.9999999999999999,
+        "identity_abs_error": 3.3306690738754696e-16
+      },
+      {
+        "p": 4.0,
+        "p_star": 4.0,
+        "p_star_minus_1": 3.0,
+        "orthogonal_cot_constant": 2.414213562373095,
+        "dual_identity_comparison": 2.414213562373095,
+        "identity_abs_error": 0.0
+      }
+    ],
+    "norm_to_moment_coefficient_checks": [
+      {
+        "norm_factor_c": 2.0,
+        "p": 2,
+        "moment_coefficient_c_to_p": 4.0,
+        "recovered_norm_factor": 2.0,
+        "absolute_error": 0.0
+      },
+      {
+        "norm_factor_c": 2.0,
+        "p": 3,
+        "moment_coefficient_c_to_p": 8.0,
+        "recovered_norm_factor": 2.0,
+        "absolute_error": 0.0
+      },
+      {
+        "norm_factor_c": 1.5,
+        "p": 4,
+        "moment_coefficient_c_to_p": 5.0625,
+        "recovered_norm_factor": 1.5,
+        "absolute_error": 0.0
+      }
+    ],
+    "D1_source_decimal_check": {
+      "source_equation": "D1=pi^2/(8 beta(2))",
+      "source_printed_beta2_approx": 0.9159655,
+      "source_printed_D1_approx": 1.328434313301,
+      "formula_evaluated_from_printed_beta2": 1.3468853904826872,
+      "absolute_discrepancy": 0.01845107718168726,
+      "meaning": "The source formula plus its printed Catalan approximation evaluates to about 1.346885, not the source-printed 1.328434; preserve the formula and flag the decimal inconsistency, without revising the theorem statement."
+    },
+    "weak_L1_conditional_expectation_example": {
+      "space": "([0,1], Lebesgue measure)",
+      "N": 256,
+      "input": "f_N(x)=x^(-1) 1_[1/N,1](x)",
+      "input_weak_L1_quasinorm_exact": 0.99609375,
+      "conditional_sigma_field": "trivial",
+      "conditional_expectation_constant": 5.545177444479562,
+      "output_weak_L1_quasinorm_exact": 5.545177444479562,
+      "ratio_output_to_input": 5.566923238379482,
+      "meaning": "A weak-L1 bound on a martingale-transform output cannot simply be passed through conditional expectation as a weak-L1 operator bound; this finite N example is illustrative, while N can be increased without bound."
+    }
+  },
+  "AEP-040": {
+    "dimension": 1,
+    "kernel_Holder_alpha": 1.0,
+    "source_gamma": 0.25,
+    "representation_decay_exponent_alpha_over_2": 0.5,
+    "weighted_testing_growth_exponent_gamma_N_over_2": 0.125,
+    "net_decay_exponent_delta": 0.375,
+    "strict_source_inequality_alpha_over_2_minus_gamma_N_over_2_gt_alpha_over_4": true,
+    "grouped_uv_sum_first_100_levels": 1314.3984496544747,
+    "grouping_identity": "For max(u,v)=m and nonnegative integer u,v, sum u*v over that level is m^3; the resulting series is sum_m m^3 2^(-delta*m)."
+  }
+}

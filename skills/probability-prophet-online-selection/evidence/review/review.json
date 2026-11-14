@@ -1,0 +1,2865 @@
+{
+  "reviewer": "R07",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "workers": [
+    "W13",
+    "W14",
+    "W15"
+  ],
+  "source_decisions": [
+    {
+      "worker": "W13",
+      "local_id": "M0034",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0034_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "0bd4d075e6ce60eed8d6ee4332286b28a2109f7d5915de75426bdc070ac8f178",
+      "reviewed_card_sha256": "1efd5d36192aaffb753b600b3cb7492c296156b3b64b9f0ca7638907cb3055fb",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0035",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0036",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,4–5 Theorems1–2; pp.12–14 Lemmas5–7 and ODE comparison"
+      ],
+      "reason": "Specific physical-page/section locators corrected and rechecked; prior mathematical/reading evidence accepted.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ],
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_card_sha256": "17f7ff492db87684e64a9b3541ae9aa37419607e197251f640c9062993c2909d",
+      "source_sha256": "eb8d27610e65b2183a235fd8c7bfe7247900ac44fd6b5c7ea1ab7c3b5598b691",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0037",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,6,31–32,58–59 Theorem10 and proof"
+      ],
+      "reason": "Complete section/appendix coverage map now supplied and hash/page-union checked; previously independently audited mathematical scope accepted.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ],
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "source_sha256": "c85b3d02ba8c0e29aad96e6c5c127536a8943eb5a23ac949f1f0dfe01161b0f7",
+      "reviewed_card_sha256": "d08978b2cc5ea90ff2a376f823ccdfe86a1f5436d1596e124c83adfd384e4f77",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0038",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,3–4 Eq4,28 conclusion"
+      ],
+      "reason": "Complete section/appendix coverage map now supplied and hash/page-union checked; previously independently audited mathematical scope accepted.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ],
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "source_sha256": "2f16fa163ba67d72e9c5cdf7bcea8b436698e290c60ae6b8c749348a9512dd68",
+      "reviewed_card_sha256": "a96a7da200b73a9c884a029816211c5f0556ac5b40c9bbf4d77cb29dc3aa9091",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0039",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0040",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0041",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0041_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "8a00346086b977c8ff211b9c3c406147078fb8e464471fa23b4be5eb97836ad9",
+      "reviewed_card_sha256": "88d822453ec5db9d42bd8bdaba57f3dbe79c440629845be08b56cc1c0be58f81",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0042",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0042_final_extract.txt; complete section/appendix coverage hash/page-union verified.",
+        "Terminal review: M0048 physical8 Remark3.2; M0042 physical1 identity/coverage; M0051 physical10 footnote11; M0062 physical5 Remark1 and physical8 Theorem3; S016 Theorem1 vs Theorems2–3; current card/method/case text crosschecked."
+      ],
+      "reason": "Terminal correction checked against primary PDF; prior identity, theorem/proof and complete section coverage checks retained.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "198536c337b7b561c01b9ddae6b15bc051cb03d779ae0df7d5e0f2f7aff361c6",
+      "reviewed_card_sha256": "dea7b0a070c371078521154dc451ae227280d6f5ba9683e7f1d9d7d616d0969e",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0043",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0044",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0045",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0046",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0046_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "31f8a0ec4abc9bd8f6feb537cfd043c82fe233f85ee3127e91827b6b6f3f24a4",
+      "reviewed_card_sha256": "dbe0198b80756a153ab45dacd0bc53fe7709acbb7782046be25e059f81f4e5ae",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0047",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0047_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "a33b39886e4009de3df10df78aa3ea098e14cd538ac7c5245418f10074dcf78f",
+      "reviewed_card_sha256": "dd9e19fbb22ffe4b02d39d0f3b40ed0cbec4b6400327344c872a346befa01632",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0048",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0048_final_extract.txt; complete section/appendix coverage hash/page-union verified.",
+        "Terminal review: M0048 physical8 Remark3.2; M0042 physical1 identity/coverage; M0051 physical10 footnote11; M0062 physical5 Remark1 and physical8 Theorem3; S016 Theorem1 vs Theorems2–3; current card/method/case text crosschecked."
+      ],
+      "reason": "Terminal correction checked against primary PDF; prior identity, theorem/proof and complete section coverage checks retained.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "9e9a59f133a91aa06c8151ba31d3d553f9c0a099f8c7c79b504b5725a4592e97",
+      "reviewed_card_sha256": "a711e5e5711421e29afdc6d15747e78aaee0b367e9bd9073a913adc4ec288374",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0049",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0049_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "64d5a6daf051e8db5650328d9577e90605e8eaa6d70174d1f1fca5c4f7e93a1c",
+      "reviewed_card_sha256": "657c17837e27464c4cff2bd7ef6930383f5eccc91c29d581dc2ce2d668e2d389",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0050",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0050_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "855b7b7fd44b15d2f9aa5572a6869ed3045371bb35589c62db12790ea542fded",
+      "reviewed_card_sha256": "b981faf667397c9656f608ffcf166d76cbfec4e40d0e369ebb829c39805b50d6",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0051",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/M0051_final_extract.txt; complete section/appendix coverage hash/page-union verified.",
+        "Terminal review: M0048 physical8 Remark3.2; M0042 physical1 identity/coverage; M0051 physical10 footnote11; M0062 physical5 Remark1 and physical8 Theorem3; S016 Theorem1 vs Theorems2–3; current card/method/case text crosschecked."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "15311c9faf443bac56611570af8096d3b8bd261248fe6ac819a4e028e11b37c4",
+      "reviewed_card_sha256": "7c7a7daa7b0884732cf12cca517ec1baa9a4b2bc8113007e6d7ed139e3690938",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0052",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0053",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0054",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0055",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0056",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0057",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0058",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0059",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0060",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,20,24,30–31,59,61,66; Theorems2–4 Lemma5 Proposition3"
+      ],
+      "reason": "Complete section/appendix coverage map now supplied and hash/page-union checked; previously independently audited mathematical scope accepted.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ],
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "source_sha256": "9138080d52517d945006ee2941e9f77d09a7c37a79fc37fcf9b393e298891119",
+      "reviewed_card_sha256": "47f9debdfc03197feb647c57608c4424409094e682d8ee27a72a61170010423b",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0061",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0062",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,4–5,24 Theorems1–2 stockout conjecture",
+        "Terminal review: M0048 physical8 Remark3.2; M0042 physical1 identity/coverage; M0051 physical10 footnote11; M0062 physical5 Remark1 and physical8 Theorem3; S016 Theorem1 vs Theorems2–3; current card/method/case text crosschecked."
+      ],
+      "reason": "Complete section/appendix coverage map now supplied and hash/page-union checked; previously independently audited mathematical scope accepted.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ],
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "source_sha256": "d0980da884d5edb50385e5b4529f5ed4dffc0fa4ad448a5719593dde8bbda5cb",
+      "reviewed_card_sha256": "7b9e19354a6fd1b057fc4c573346071d85b458ba3bbe89db4a80df5d27a984ad",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0063",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0064",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0065",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF physical pages [1, 4, 5, 19, 20, 26, 27]; core result/status/model and selected proof mechanisms checked"
+      ],
+      "reason": "Accepted only as explicitly partial source support for version-specific cancellation characterization or stated probing theorem/open-interface; not counted as fulltext or independent proof of cited lower bound.",
+      "flags": [],
+      "source_sha256": "8f82977063e9de9969190d30b930ea4c7bf5be1a22efcc3a53c0e63d349cb59f",
+      "evidence_scope": "partial_read_only_not_fulltext_quota"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0066",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0067",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0068",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0069",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0070",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0071",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0072",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0073",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Official UCLA Contents page lists chapters1–7 Solutions References Index; all10 local component hashes/page counts verified and extracted page text exactly matches155page assembly",
+        "Complete selected Ch1 pp1–8; Ch3 pp24–36; p26 Theorem1 regularizing/maximizing proof; pp28–30 Bellman/essential supremum and optimal rule; pp30–31 Wald; pp32–35 median prophet bound"
+      ],
+      "reason": "Verified official10-component complete collection155pages (d4c0c58e…cf3434); complete selected Chapters1/3 reading evidence accepted, with independent proof checks and complete-unit coverage. Other chapters/solutions/reference/index acquired but not counted read.",
+      "flags": [
+        "official_contents_independently_opened",
+        "all10component_hashes_and_merge_text_verified",
+        "selected_complete_chapters_only"
+      ],
+      "full_book_acquired": true,
+      "source_sha256": "d4c0c58ed653e69069068673f119cfe309b8eb7acb38bcf9526ba4d539cf3434",
+      "reviewed_card_sha256": "c410b019198e5ee22a91f029d9a5cccf0564627e4cc0cd35ddda1eaa26cb90d1",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0074",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0075",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0076",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0077",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0078",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0079",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0080",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0081",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0082",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0083",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0084",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0085",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0086",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0087",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0088",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0089",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "M0090",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "S001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity; p4 Theorems1.4/1.5 Corollary1.6 and known-order restriction; pp9–13 revenue/utility proof and random-timestamp integration"
+      ],
+      "reason": "Specific physical-page/section locators corrected and rechecked; prior mathematical/reading evidence accepted.",
+      "flags": [
+        "actual_first_page_identity_checked",
+        "source_coverage_sha256_match",
+        "reader_fulltext_evidence_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "e6e0452e8145dd49b84d5fbff929dafbb093b6f4e130f839e13f2ab2c8b5279c",
+      "reviewed_card_sha256": "781327f189815164c613c77ff58d32c95686076c8d0fd76e7f8fbb6968cbb661",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity; pp4,6 Theorems1–2 homogeneous departure/common-rate availability; pp17,20–22 LP dual bound; p25 Conjecture1; p41 Theorem3 two-type restriction"
+      ],
+      "reason": "Fulltext identity/hash/coverage accepted; mathematical model and policy/benchmark restrictions verified with primary proof locations. No cross-model extension inferred.",
+      "flags": [
+        "actual_first_page_identity_checked",
+        "source_coverage_sha256_match",
+        "reader_fulltext_evidence_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "6a395c9ba96b83509dc184fb61705704ae8b5c2d1bd3468d931ea080a05d8e35",
+      "reviewed_card_sha256": "a872de5344d75d8faf12d3db00ca3ea53358e7831d44df633213b40487c70ce7",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity; pp4–5 headline theorems; p14 fixed-epsilon total-cost bound/offline scale; pp31–32 hybrid setup; physical p30 actual AppendixA.4 sublinear excess; appendix proof sections sampled"
+      ],
+      "reason": "Specific physical-page/section locators corrected and rechecked; prior mathematical/reading evidence accepted.",
+      "flags": [
+        "actual_first_page_identity_checked",
+        "source_coverage_sha256_match",
+        "reader_fulltext_evidence_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "de77d66b70bd4bfb25315440c130593da3859214b0040118945767457197a344",
+      "reviewed_card_sha256": "e21f63b4b4076c2f41829799c56067009b35a99bf08c21a1879dea54d90c04bd",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S004",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "S005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity/tutorial attribution; pp5,7 state-flow LP; p9 random-order rationing; p12 hiring; p18 time-indexed knapsack; pp20–21 matching LP reduction"
+      ],
+      "reason": "Fulltext identity/hash/coverage accepted; mathematical model and policy/benchmark restrictions verified with primary proof locations. No cross-model extension inferred.",
+      "flags": [
+        "actual_first_page_identity_checked",
+        "source_coverage_sha256_match",
+        "reader_fulltext_evidence_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "e4d1372e2c5b3933f55d36f2bc2bb21a63a85ecb1b7406e6485119aadf2fe782",
+      "reviewed_card_sha256": "603d6abbafe15b1c1e34664170ce80b4d6d2b0e6ab1b3cabdb58f9edf9dc80b0",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity; pp15,17 reductions/model loss; p22 affine plane; p27 kappa formula; p30 RCRS formula; pp35–36 integral selection inequality/Kloss; pp53,66 appendices"
+      ],
+      "reason": "Fulltext identity/hash/coverage accepted; mathematical model and policy/benchmark restrictions verified with primary proof locations. No cross-model extension inferred.",
+      "flags": [
+        "actual_first_page_identity_checked",
+        "source_coverage_sha256_match",
+        "reader_fulltext_evidence_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "c261f8e86fbe5f17f85b3b20715f4d12fc98b42ab8e517f146049e9bffdde279",
+      "reviewed_card_sha256": "269d8520f72ad7155bb597b9cd419ff84aabccde28e46f68686f51a8110f56e5",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity/version; pp3–4 Theorems1–3; p7 generalized arrival-time density/ASD; pp11–12 schemes; p14 LP monotone-transform proof; pp16–17 stopping recursion/Eq7/epsilon limit; pp27–28 adverseness proof"
+      ],
+      "reason": "Single-choice order-selection vs order-aware random-order separation and finite-support ASD conversion match; original proof uses numerical constants. Reviewer reran limiting DP/MAX formula: 0.725395750304766, the already-disclosed 2.25e-6 discrepancy from paper persists and is not a certified universal proof. Complete143-page batch coverage across5sources accepted on independently sampled mathematical evidence; parent W13 ledger labels do not erase new read. Integration into mother ledger/skill remains pending.",
+      "flags": [
+        "identity_first_page_checked",
+        "PDF_source_patch_coverage_sha256_match",
+        "continuous_full_page_coverage_accepted",
+        "key_claims_and_proofs_independently_checked",
+        "batch_integration_pending"
+      ],
+      "source_sha256": "23b2fa687f5b1455a337804e1ce9f6bf1553bdd324d1f1ede84070a371301c4d",
+      "reviewed_card_sha256": "215497db02e013a727ed7582cca7b55573493e594e67a9716553ac6f23d394a4",
+      "coverage_file": "workers/W13/reader_batches/L09_batch1/reading_coverage.json",
+      "source_ledger": "workers/W13/reader_batches/L09_batch1/sources_patch.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json",
+      "integration_status": "verified_mother_ledger_card_coverage",
+      "reader": "L09",
+      "evidence_scope": "reader_batches/L09_batch1",
+      "integration_check": "Same reviewed source PDF hash and mathematically unchanged card; metadata/paths and prior nonblocking Corollary5.9 fix only; see L09_integration_diff.txt.",
+      "integrated_card_sha256": "215497db02e013a727ed7582cca7b55573493e594e67a9716553ac6f23d394a4",
+      "integrated_coverage_file": "workers/W13/reading_coverage.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity; p5 Theorem1; pp13–14 activation bounds; p15 Theorems17–18; pp23–24 CAR; pp33–35 Lemma35 computer search and rounding error bound13"
+      ],
+      "reason": "Activation framework, 0.688 computer-assisted guarantee, distinct typed vertex-arrival matching 0.641 hybrid and query-commit reduction match. Reader explicitly labels grid verification; reviewer did not independently rerun full brute-force search. Complete143-page batch coverage across5sources accepted on independently sampled mathematical evidence; parent W13 ledger labels do not erase new read. Integration into mother ledger/skill remains pending.",
+      "flags": [
+        "identity_first_page_checked",
+        "PDF_source_patch_coverage_sha256_match",
+        "continuous_full_page_coverage_accepted",
+        "key_claims_and_proofs_independently_checked",
+        "batch_integration_pending"
+      ],
+      "source_sha256": "9df8cdd5fdc859f38fac81cc050743cec239072627d298e435b15fa5710185e9",
+      "reviewed_card_sha256": "3535ffec1245f9930a38d7898509f52b883c8ef775c8e4007d2ae747443c4f1f",
+      "coverage_file": "workers/W13/reader_batches/L09_batch1/reading_coverage.json",
+      "source_ledger": "workers/W13/reader_batches/L09_batch1/sources_patch.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json",
+      "integration_status": "verified_mother_ledger_card_coverage",
+      "reader": "L09",
+      "evidence_scope": "reader_batches/L09_batch1",
+      "integration_check": "Same reviewed source PDF hash and mathematically unchanged card; metadata/paths and prior nonblocking Corollary5.9 fix only; see L09_integration_diff.txt.",
+      "integrated_card_sha256": "3535ffec1245f9930a38d7898509f52b883c8ef775c8e4007d2ae747443c4f1f",
+      "integrated_coverage_file": "workers/W13/reading_coverage.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S009",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "S010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity/version; p5 model/adaptive adversary; pp7–8 Theorem1 coupling/safe-edge charging; pp9–10 Theorem2 vertex batch; p12 Theorem3 posted-pricing/maximal-matching proof"
+      ],
+      "reason": "Independent per-edge single-sample model, adversarial/adaptive order, 16/8/16 model-specific guarantees and coupling/charging/truthfulness mechanisms match. Complete143-page batch coverage across5sources accepted on independently sampled mathematical evidence; parent W13 ledger labels do not erase new read. Integration into mother ledger/skill remains pending.",
+      "flags": [
+        "identity_first_page_checked",
+        "PDF_source_patch_coverage_sha256_match",
+        "continuous_full_page_coverage_accepted",
+        "key_claims_and_proofs_independently_checked",
+        "batch_integration_pending"
+      ],
+      "source_sha256": "9a921f9041563c429bdd76cde37920f31e7bfde9b38aceb1d8909c32c0d566c6",
+      "reviewed_card_sha256": "9d0816e8155eb2a5b7e58ab001872b532d5aabdd11b5c337bc70adb29f417ea7",
+      "coverage_file": "workers/W13/reader_batches/L09_batch1/reading_coverage.json",
+      "source_ledger": "workers/W13/reader_batches/L09_batch1/sources_patch.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json",
+      "integration_status": "verified_mother_ledger_card_coverage",
+      "reader": "L09",
+      "evidence_scope": "reader_batches/L09_batch1",
+      "integration_check": "Same reviewed source PDF hash and mathematically unchanged card; metadata/paths and prior nonblocking Corollary5.9 fix only; see L09_integration_diff.txt.",
+      "integrated_card_sha256": "9d0816e8155eb2a5b7e58ab001872b532d5aabdd11b5c337bc70adb29f417ea7",
+      "integrated_coverage_file": "workers/W13/reading_coverage.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity/version; pp10–11 Lemma2.5 Theorem2.6 Corollary2.7 tightness; pp15–16 AOSp bounds; pp18–19 Theorem4.6 reduction and4.8 hardness; p26 Theorem5.8 Corollary5.9"
+      ],
+      "reason": "Order-oblivious, AOSp and two-faced models/benchmarks stay separate; ratios and tightness/reduction arguments match. Minor nomenclature:5.9 is Corollary, not Theorem. Complete143-page batch coverage across5sources accepted on independently sampled mathematical evidence; parent W13 ledger labels do not erase new read. Integration into mother ledger/skill remains pending.",
+      "flags": [
+        "identity_first_page_checked",
+        "PDF_source_patch_coverage_sha256_match",
+        "continuous_full_page_coverage_accepted",
+        "key_claims_and_proofs_independently_checked",
+        "batch_integration_pending"
+      ],
+      "source_sha256": "298bcafbf88cad5a8501474942c353109cc1fa8afbd5b3d7b787ea2d641c9565",
+      "reviewed_card_sha256": "cc6aebb2613e0e5ac37bc4672ccfbf20804a2f025cf1461a3aee7d90cfbcb2f3",
+      "coverage_file": "workers/W13/reader_batches/L09_batch1/reading_coverage.json",
+      "source_ledger": "workers/W13/reader_batches/L09_batch1/sources_patch.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json",
+      "integration_status": "verified_mother_ledger_card_coverage",
+      "reader": "L09",
+      "evidence_scope": "reader_batches/L09_batch1",
+      "integration_check": "Same reviewed source PDF hash and mathematically unchanged card; metadata/paths and prior nonblocking Corollary5.9 fix only; see L09_integration_diff.txt.",
+      "integrated_card_sha256": "cc6aebb2613e0e5ac37bc4672ccfbf20804a2f025cf1461a3aee7d90cfbcb2f3",
+      "integrated_coverage_file": "workers/W13/reading_coverage.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity/version; p5 Theorem1.1 and Proposition1.2; pp6–7 Proposition1.5 minimax/reach probabilities; p9 Proposition1.7 geometric-mean approximation; pp13,15–16 estimation/finite-support LP; pp17–18 polynomial symmetry reduction"
+      ],
+      "reason": "Constant-per-distribution sample complexity, epsilon loss and finite-support polynomial LP conditions match; no numerical values for optimal constants inferred. Geometric-mean reduction retains smallness/size hypotheses. Complete143-page batch coverage across5sources accepted on independently sampled mathematical evidence; parent W13 ledger labels do not erase new read. Integration into mother ledger/skill remains pending.",
+      "flags": [
+        "identity_first_page_checked",
+        "PDF_source_patch_coverage_sha256_match",
+        "continuous_full_page_coverage_accepted",
+        "key_claims_and_proofs_independently_checked",
+        "batch_integration_pending"
+      ],
+      "source_sha256": "2f4fc5602f16bb2ffc527dff9bbbd4bb60250de59ed0796ecdbd695a2153f9b9",
+      "reviewed_card_sha256": "6c20da60786ad7583b084d5b9efe61e2b4ae37f112f6b86740ae00be3eeb8ad7",
+      "coverage_file": "workers/W13/reader_batches/L09_batch1/reading_coverage.json",
+      "source_ledger": "workers/W13/reader_batches/L09_batch1/sources_patch.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json",
+      "integration_status": "verified_mother_ledger_card_coverage",
+      "reader": "L09",
+      "evidence_scope": "reader_batches/L09_batch1",
+      "integration_check": "Same reviewed source PDF hash and mathematically unchanged card; metadata/paths and prior nonblocking Corollary5.9 fix only; see L09_integration_diff.txt.",
+      "integrated_card_sha256": "6c20da60786ad7583b084d5b9efe61e2b4ae37f112f6b86740ae00be3eeb8ad7",
+      "integrated_coverage_file": "workers/W13/reading_coverage.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/S013_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "61de0ad8f1bb820725d25314fbb23d28ecad7756c31062b3f50777098d8f2565",
+      "reviewed_card_sha256": "90b68565fe983ab4250b47d85b69530c5a438afab0c93c318f375975f9997af4",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S014",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/S014_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "e73a886242785f95f190300e7b0df720a492bf86620a701b0acbe4cf2bd7d4c5",
+      "reviewed_card_sha256": "adf7fe191e42037f518f87c15a8cd9b5753804b6a2da75820f06f3fb07c651a0",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S015",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/S015_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "1ea6c1be6cceec03e0ef78943c7ef466fea745256c1f00de9c698802a754178b",
+      "reviewed_card_sha256": "d3c15190997db08a92de00d3908b3c500f39a906c437b1cd8310d62aefd44936",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S016",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/S016_final_extract.txt; complete section/appendix coverage hash/page-union verified.",
+        "Terminal review: M0048 physical8 Remark3.2; M0042 physical1 identity/coverage; M0051 physical10 footnote11; M0062 physical5 Remark1 and physical8 Theorem3; S016 Theorem1 vs Theorems2–3; current card/method/case text crosschecked."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "ff47abe1f824a969cf02178721965ce4946a0b587a4e4c029ddcae79b1726e81",
+      "reviewed_card_sha256": "ad7886b56b63368eccc21b572f1b78a2b5d231f3c074e533a0fe6ab084e72ce5",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S017",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/S017_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "1af5c4b36bb4e44920e32026ce339b6d875ed7443f0722fbed7764569c20f80b",
+      "reviewed_card_sha256": "ec901fea34cef40d798f10ee9e242027b8551a52e9651281236a0751ee535461",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W13",
+      "local_id": "S018",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Primary PDF identity and theorem/proof pages extracted in reviews/R07/S018_final_extract.txt; complete section/appendix coverage hash/page-union verified."
+      ],
+      "reason": "Identity/fulltext reader coverage accepted with independent primary checks of stated theorem, hypotheses, normalization/adversary/benchmark and proof mechanism. Finite scalar checks not treated as universal proofs.",
+      "flags": [
+        "actual_primary_identity_checked",
+        "current_source_coverage_hash_bound",
+        "complete_sections_appendices_covered",
+        "key_math_and_proof_checked"
+      ],
+      "source_sha256": "4f7b40f4477bc8fb72a09d37c935a2e771806b454041a64085e4548941b19967",
+      "reviewed_card_sha256": "289bdf6954b5a054b97eebbf908afde5de1f5a116485b777d1294edc76dd5fbc",
+      "coverage_file": "workers/W13/reading_coverage.json",
+      "reviewed_artifact_manifest": "reviews/R07/W13_final_hash_manifest.json"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,3–5,7; Eq4 boundary correction, Eq7, Conjecture4.2 and open problems"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "8071919c7b7182597728c1d6fde6ec33ee675457af9dc472a7e64a023fa34b93",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "bec5c86266c85d5c4997465169a77c9662791bf4baf8a8fb251ac40a9a7f70a2"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,5–6 Theorems1–2 Corollary1; pp.15–16 fluid instability/non-tight Eq3.14 discussion"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "cf77f04f2754956e78b0fa1c32f5ff1f9af366ca49c494d083e953be223885d1",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "856b7e238b01f04f5a7d1169ae9eb7827eaa23f23881d813a68daf8a47c27fea"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-003",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,3–5 embedded chain, Theorem1, sufficiency and necessity"
+      ],
+      "reason": "Prior specific correction verified in latest card/runtime against previously checked source: nonnegative drift, physical p7 locator, projected-normal/IID second-tail/arbitrary-discipline conditions, and expected workload finite-epsilon coefficient respectively.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_coverage_sha256_match",
+        "fulltext_reading_evidence_accepted",
+        "prior_specific_correction_verified"
+      ],
+      "source_sha256": "3fc736b0e13167a3515a1e66357c87eea2808e0881672b9338bb47042dccbc92",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "fcd68564f73ca65a18a50bee7c6b5204e6d3a882669720cf4d5a467d4074a02e"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,15–17 Eq7/8 Conjecture1 Theorem4; current three-class inclusion correction"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "3cb38458d93d1c196148ca21b7d778b24902962fb476fb790c121bd0faf6eaeb",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "4a57ce6e79dd6fdd9f05f01cb28cdbab08f77f121a076ce95fd1c4d7f34516d3"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,3–4 model; p.7 Theorem1; p.14 Theorem3 reduction equivalence"
+      ],
+      "reason": "Prior specific correction verified in latest card/runtime against previously checked source: nonnegative drift, physical p7 locator, projected-normal/IID second-tail/arbitrary-discipline conditions, and expected workload finite-epsilon coefficient respectively.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_coverage_sha256_match",
+        "fulltext_reading_evidence_accepted",
+        "prior_specific_correction_verified"
+      ],
+      "source_sha256": "9b25510d9c80d2a8de8d74caac2fcf13b26857b508623ca388653f47a861e039",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "f65b308806da8f0c63e199e0b1ecb62c7b55cf8f2998edd8f88f71371b80ddb8"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-007",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original scanned PDF p1 identity; pp12,20 rendered Theorem3.1 Definition4.1 Theorem4.2/UI proof; OCR pp18–19,25 compactness/application"
+      ],
+      "reason": "Complete coverage and primary identity/hash accepted; listed skill assertions and proof mechanisms independently checked. No BAR/probability-transform uniqueness or general-dimensional stability transfer inferred.",
+      "flags": [
+        "identity_actual_first_page_checked",
+        "source_coverage_sha256_match",
+        "continuous_fulltext_coverage_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "b9f204de686a3ad66d55882bd0be481b8afd9edbd32c5ff92aba2091814136ac",
+      "reviewed_card_sha256": "9c2f65b6282c6a012743c1016bed24fd6d44fb47b2fa1790e93014d1198ac3f5",
+      "coverage_file": "workers/W14/reading_coverage.json"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,6,8–10,12–13; corrected beta/mu0/u0 and Eq4.8"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "518833dda3ed2999f5ffffa2ccd2ef9855da640a2e792b71d9d5c330d2700342",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "9d9e9d7768842652fed5f9f077ad89994386855315f65ed08d39b29bdefea5c3"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,5–6,8,12–14 fluid-to-Harris/max-Lyapunov/Lu–Kumar boundary"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "c6996d4db0bd840c13a0ee8b9d778d234291d311ffdf7b7f1bcabb84e2214706",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "8cfa7dd0d7d9108ff7048c1f60ba25c924a0bcd632bb759ab4ffdc6939c12666"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,14–16 Theorems6–7 Corollaries1–2; pp.18,33,37 FDP and block/restart proof"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "2fc271b4896469bd2211e754a0656b368c2b473de3b321f799ec060f34e77681",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "087979532aa328afc04a413cb3e7bba2cb9712b0b8e4fc3e338256ec4bf21dff"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,9–10 model; pp.14–17 assumptions8–16, Theorem1, stationary conjecture; pp.27,41,44,51 attraction/reflection"
+      ],
+      "reason": "Prior specific correction verified in latest card/runtime against previously checked source: nonnegative drift, physical p7 locator, projected-normal/IID second-tail/arbitrary-discipline conditions, and expected workload finite-epsilon coefficient respectively.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_coverage_sha256_match",
+        "fulltext_reading_evidence_accepted",
+        "prior_specific_correction_verified"
+      ],
+      "source_sha256": "60291ce2831345cd6fb0aece8d02f3a8ec2cb4108c244036251cd0f9ef3140a3",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "cc1b542f7a73050582c40f27cbf5714445522fe8819de8efd000288c234fdc7a"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,8,12–13,17,19,22,24–25,30; corrected n^(2-1/r) B1/B2"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "a68bfb58d63ef4ab05832ec16486d425562f86f3072c8e5368733a9995bcf1b2",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "8a911f10fe01a1cb4695b3dfc1a83bb12b8a0757c7d11a659dd3dd85e7b95259"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-014",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,8–9 Proposition2/Theorem1; pp.19,24–26,34,40 mean equations, projected drift and appendices"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "8b7e0289568dd2c34afc000c6a10b249e1e8fac6b992446f00c9e2153361d7bc",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "cdd072216a6e32bf73a041aab4a839ace99989238516f3b37bd179be2315128e"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-015",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–2,5–9 Lemmas10–22 Theorems2/21 stationary differential convergence and non-CRP extension"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "10c86700fd49e9f57a6f2fe3ad8dfa2712405d8e78ef1d175502a5a90911978a",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "57368916eed3696ddf6cb2151ed91c3e92f008d44b379b451ed6df582a6bed32"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-016",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,10–11 Lemmas6–7; pp.18,22–24 Proposition4/5; pp.32,34 higher-moment proof"
+      ],
+      "reason": "Prior specific correction verified in latest card/runtime against previously checked source: nonnegative drift, physical p7 locator, projected-normal/IID second-tail/arbitrary-discipline conditions, and expected workload finite-epsilon coefficient respectively.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_coverage_sha256_match",
+        "fulltext_reading_evidence_accepted",
+        "prior_specific_correction_verified"
+      ],
+      "source_sha256": "fe42b39f75c1032842f37260e7c7dd5ac54617b5cbab30f29d8776e417305303",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "2e0f9f23d9f9b52b8e8fdf96291224998194bf9e3d56a4a78d5c776be2ce7d03"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-017",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,5,8–9,12–14 weak SSC, schedule duration and proof"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "ea0e4f407840c7873471182d5887c93a65a58ab2e18cb04f34bb232d1ae2a469",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "96ed874475e7d0f5e256c16210fe4c9bd78c6789c91728ce1339f3a102ef29bc"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-018",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,9–12 Theorems2–5 and attraction proof; pp.15,30,37–38 finite-n lower bound, martingale convergence and open questions"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "4e501bfe4eddd5af47608d9e1d27b862d7df78dfc8b2f01ffea6be57e7d033a0",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "e5edb5685b1910e025338ba3a3712b2aecc7733f985ded3df706ff0a9e055bac"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-019",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,7,9–10,14–15 workload factorization and Eq3.22"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "7df23d50dc922a7748eab69e56176f5ae9557466ac791f58f57255381996d660",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "b1d199d9239b369b341ec771e05c9c6cb5fa2605f6e06788e0ba943b1050ccbe"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-020",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original report p1 identity; p14 rendered Theorem5 and log-moment criterion; OCR pp7,9–12 branching immigration every-state vs state-zero and PGF compositions"
+      ],
+      "reason": "Complete coverage and primary identity/hash accepted; listed skill assertions and proof mechanisms independently checked. No BAR/probability-transform uniqueness or general-dimensional stability transfer inferred.",
+      "flags": [
+        "identity_actual_first_page_checked",
+        "source_coverage_sha256_match",
+        "continuous_fulltext_coverage_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "a19bcd6990530c31d5f3d22cc9674e7b21b087dd59796d96afce35270afec16b",
+      "reviewed_card_sha256": "5aeb297d3715c11f46eac0a60453ea23dfce25dd0ec4defd66a37c63d2fa0595",
+      "coverage_file": "workers/W14/reading_coverage.json"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-021",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p1 identity; p6 rendered Eq6 tν_i/2, Eq7 face1/2 and Proposition4; OCR pp4–5,7,9–10 L2/positivity converse and conjecture; p12 rendered Proposition9 Eq26–28 product-form"
+      ],
+      "reason": "Original physicalp11 Definition5 standard diagonal/inverse/norm convention actually image-checked; corrected p12 Eq26gamma/Eq27without gamma factors/Eq28density matches actual page. Prior BAR1/2/L2/admissible-converse checks retained.",
+      "flags": [
+        "identity_actual_first_page_checked",
+        "source_coverage_sha256_match",
+        "fulltext_reading_evidence_accepted",
+        "product_form_and_standard_normalization_image_verified"
+      ],
+      "source_sha256": "362a9db1e321b219de1493ccec473f9f5f13a8f1fdc6ce75f81dd9886a975e0f",
+      "reviewed_card_sha256": "b65b7df39305a99bc2df3b66e59d4a8d00b74404a7c6fb27ecd56091cb17e6f2",
+      "coverage_file": "workers/W14/reading_coverage.json"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-022",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity; pp4–5 Theorem1.3 simple/nonsimple scope; pp22–23 oscillation/boundary intersection mechanism; p37 Appendix test-function proof"
+      ],
+      "reason": "Complete coverage and primary identity/hash accepted; listed skill assertions and proof mechanisms independently checked. No BAR/probability-transform uniqueness or general-dimensional stability transfer inferred.",
+      "flags": [
+        "identity_actual_first_page_checked",
+        "source_coverage_sha256_match",
+        "continuous_fulltext_coverage_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "aaa759a14a0a6a584bbfb32aec84e3e0e46412b834e22917ae6d7e74af3fc742",
+      "reviewed_card_sha256": "35765c71cb1884d6d4c9a5b4178db11dc050163a96ca91978b0bf8d7f2e52b1a",
+      "coverage_file": "workers/W14/reading_coverage.json"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-023",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 identity; pp3–4 conditions1.6 and dimensional scope; pp8–9 Theorems2–4 and gain; pp14,24 category/face proof; p31 necessity appendix"
+      ],
+      "reason": "Complete coverage and primary identity/hash accepted; listed skill assertions and proof mechanisms independently checked. No BAR/probability-transform uniqueness or general-dimensional stability transfer inferred.",
+      "flags": [
+        "identity_actual_first_page_checked",
+        "source_coverage_sha256_match",
+        "continuous_fulltext_coverage_accepted",
+        "key_math_and_proof_locations_checked"
+      ],
+      "source_sha256": "f41d7a35e663fcde0723956f1a582c8fd24262653c9b2c216f519a6885db8fd5",
+      "reviewed_card_sha256": "33d82a73f33819a971d333c8e6ffac340ef12e639a3a3e6458b2fb360127bcdc",
+      "coverage_file": "workers/W14/reading_coverage.json"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-024",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,3,5,7–10 Theorems1.1/2.1/3.1 Lyapunov/UI/return-time and petite-set proof"
+      ],
+      "reason": "Complete section/appendix map matches exact full PDF structure and page count; source identity/hash and listed skill assertions/proof mechanisms independently checked. Accepted reader evidence is not reviewer whole-paper rereading.",
+      "flags": [
+        "identity_first_page_checked",
+        "source_and_coverage_sha256_match",
+        "full_page_coverage_no_gaps",
+        "key_claims_and_proofs_checked"
+      ],
+      "source_sha256": "67c9fac291f5dd656178f6f5e7cc1a07c1ef78e746cb2fdadc249a96f3032580",
+      "coverage_file": "workers/W14/reading_coverage.json",
+      "reviewed_card_sha256": "fc39f816a88295078f1b768c39fab52d125b2caa144a10e9abcfc0e7f48c710e"
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-025",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-026",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-027",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-028",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-029",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-030",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-031",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-032",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-033",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-034",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-035",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-036",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-037",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W14",
+      "local_id": "W14-038",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 identity; pp.3–4 sections3.2–3.3"
+      ],
+      "reason": "Direct Ber(f(x)), finite-X logT and Bernoulli KL target matched. This is an open-problem source in its version, not evidence of current unresolved status.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "bounded_theorem_support_audit_only"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-002",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-003",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF p.1 identity; pp.8,11,18 Theorems4/6/12 and change-of-measure construction"
+      ],
+      "reason": "KL orientation and fixed-budget/confidence split matched. Card contains literal escaped newlines but mathematical support sampled correctly. Accept whole-paper reading evidence after continuous per-section/appendix coverage map and any mathematical corrections below; reviewer whole-paper rereading is not required.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-004",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF p.1 identity; pp.12–13 Proposition13/Theorem14 expected stopping coefficient"
+      ],
+      "reason": "Fixed-confidence tracking result with alpha*Tstar coefficient preserved; not cumulative regret. Accept whole-paper reading evidence after continuous per-section/appendix coverage map and any mathematical corrections below; reviewer whole-paper rereading is not required.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-005",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF pp.1,3–5 Theorems1–2 KL-UCB c=3"
+      ],
+      "reason": "Finite-time pulls with n^-beta remainder and bounded/Bernoulli model split match. Accept whole-paper reading evidence after continuous per-section/appendix coverage map and any mathematical corrections below; reviewer whole-paper rereading is not required.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-006",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF p.1 identity; p.4 Eq6 visually rendered; p.5 Theorems2–3"
+      ],
+      "reason": "Specific formula correction verified against original rendered source page. Whole-paper acceptance awaits W15 complete coverage evidence audit.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "formula_correction_verified",
+        "whole_reading_coverage_audit_pending"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-007",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-008",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-009",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF p.1 identity; pp.4–5 Lemma1 Theorems1–4; p.4 Eq12 visually rendered"
+      ],
+      "reason": "Specific formula correction verified against original rendered source page. Whole-paper acceptance awaits W15 complete coverage evidence audit.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "formula_correction_verified",
+        "whole_reading_coverage_audit_pending"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-010",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-011",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-012",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-013",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-014",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-015",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF pp.1–2,4–8 model Theorems1–2; pp.10–12 AppendixB.2 continuity proof",
+        "Rendered PDF p12 workers/W15/rendered/W15-015-p12-rerender.png actual image: all closure overlines present"
+      ],
+      "reason": "Missing-closure/source-compactness criticism withdrawn after actual rendered p12 inspection; restored card accurately includes closure. Remaining B056 compact parameter-image, empirical-domain, optimizer uniqueness and repeated-oracle/rate interfaces remain pending. Whole-paper reader-coverage audit not yet completed by R07.",
+      "flags": [
+        "closure_criticism_withdrawn_reviewer_OCR_error",
+        "candidate_transfer_pending",
+        "whole_reading_coverage_audit_pending"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-016",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-017",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-018",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-019",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF p.1 identity; p.6 Theorem3 agnostic model/Theorem4 spectral bound"
+      ],
+      "reason": "Squared RKHS norm convention and bounded martingale noise correct; auxiliary worst-case regret only. Accept whole-paper reading evidence after continuous per-section/appendix coverage map and any mathematical corrections below; reviewer whole-paper rereading is not required.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-020",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-021",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-022",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-023",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-024",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-025",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": [
+        "full_book_and_complete_selected_chapter_audit_pending"
+      ],
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-026",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-027",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-028",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-029",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-030",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-031",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF p.1 identity; p.4 Theorem4; pp.7–8 Theorem8 proof/monotonicity/counting setup"
+      ],
+      "reason": "Unique-best-arm bounded-support asymptotic coefficient and instance-dependent O(1) remainder match. Accept whole-paper reading evidence after continuous per-section/appendix coverage map and any mathematical corrections below; reviewer whole-paper rereading is not required.",
+      "flags": [
+        "local_pdf_parse_and_sha256_verified",
+        "key_claims_independently_checked",
+        "section_coverage_missing_at_snapshot"
+      ]
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-032",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-033",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W15",
+      "local_id": "W15-034",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Outside first targeted batch; acquisition/reading labels not independently accepted.",
+      "flags": []
+    },
+    {
+      "worker": "W13",
+      "local_id": "S019",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF physical pages [1, 4, 38, 39, 45, 46, 47]; core result/status/model and selected proof mechanisms checked"
+      ],
+      "reason": "Accepted only as explicitly partial source support for version-specific cancellation characterization or stated probing theorem/open-interface; not counted as fulltext or independent proof of cited lower bound.",
+      "source_sha256": "c14ae23bf1ad9b296864bc41df57b6e03dc96a67b840dffc89390e3f08758d75",
+      "evidence_scope": "partial_read_only_not_fulltext_quota"
+    }
+  ],
+  "skill_decisions": [
+    {
+      "skill": "probability-prophet-online-selection",
+      "decision": "passed",
+      "reason": "Final scoped audit passed after all five terminal corrections. Exact quota:30 fulltext papers +1 complete-acquired book with complete selected Chapters1/3. Partial M0065/S019 support remains restricted; no unproved A001/A002/other interface promoted to theorem.",
+      "file_hash_manifest": "reviews/R07/W13_final_hash_manifest.json",
+      "quota": {
+        "fulltext_papers": 30,
+        "selected_complete_book": 1,
+        "total_qualifying_sources": 31
+      },
+      "release_status_rebind": "reviews/R07/W13_release_status_rebind.json"
+    },
+    {
+      "skill": "probability-queueing-heavy-traffic",
+      "decision": "needs_revision",
+      "reason": "Stage evidence accepted; W13 has physical-locator corrections and below30quota; W14 all22fulltext sources passed but below30quota. No final publication approval.",
+      "file_hash_manifest": "reviews/R07/W14_round6_hash_manifest.json"
+    },
+    {
+      "skill": "probability-bandit-information-bounds",
+      "decision": "needs_revision",
+      "reason": "Direct/logistic and OSSB candidate-transfer distinctions retained. Specific006/009 formulas corrected; false missing-closure/source-compactness criticism withdrawn after original page image inspection. Remaining fulltext evidence and other source coverage not yet completely audited; no publication approval."
+    }
+  ],
+  "mapping_decisions": [
+    {
+      "problem_id": "A001",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "A001",
+      "tool": "probability-prophet-online-selection",
+      "role": "auxiliary",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "A002",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "A002",
+      "tool": "probability-prophet-online-selection",
+      "role": "auxiliary",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "A005",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "A005",
+      "tool": "probability-prophet-online-selection",
+      "role": "auxiliary",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B041",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B042",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B043",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B044",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B045",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B046",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B048",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B049",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "B052",
+      "tool": "probability-prophet-online-selection",
+      "role": "direct",
+      "decision": "passed",
+      "reason": "Current mapping accepted within the explicitly conditional method and source scopes. Open interfaces remain open; partial/unread candidate sources do not count as fulltext or prove assigned targets."
+    },
+    {
+      "problem_id": "A006",
+      "tool": "probability-queueing-heavy-traffic",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Direct target and unproved interfaces align with primary polling/adaptive-stability/deterministic-undecidability/normalized probability-transform scopes; auxiliary CRP/mean/SSC theorems do not settle targets. The source-card corrections listed remain required for use."
+    },
+    {
+      "problem_id": "A007",
+      "tool": "probability-queueing-heavy-traffic",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Direct target and unproved interfaces align with primary polling/adaptive-stability/deterministic-undecidability/normalized probability-transform scopes; auxiliary CRP/mean/SSC theorems do not settle targets. The source-card corrections listed remain required for use."
+    },
+    {
+      "problem_id": "A008",
+      "tool": "probability-queueing-heavy-traffic",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Direct target and unproved interfaces align with primary polling/adaptive-stability/deterministic-undecidability/normalized probability-transform scopes; auxiliary CRP/mean/SSC theorems do not settle targets. The source-card corrections listed remain required for use."
+    },
+    {
+      "problem_id": "A011",
+      "tool": "probability-queueing-heavy-traffic",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Direct target and unproved interfaces align with primary polling/adaptive-stability/deterministic-undecidability/normalized probability-transform scopes; auxiliary CRP/mean/SSC theorems do not settle targets. The source-card corrections listed remain required for use."
+    },
+    {
+      "problem_id": "B054",
+      "tool": "probability-queueing-heavy-traffic",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Direct target and unproved interfaces align with primary polling/adaptive-stability/deterministic-undecidability/normalized probability-transform scopes; auxiliary CRP/mean/SSC theorems do not settle targets. The source-card corrections listed remain required for use."
+    },
+    {
+      "problem_id": "B157",
+      "tool": "probability-queueing-heavy-traffic",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Direct target and unproved interfaces align with primary polling/adaptive-stability/deterministic-undecidability/normalized probability-transform scopes; auxiliary CRP/mean/SSC theorems do not settle targets. The source-card corrections listed remain required for use."
+    },
+    {
+      "problem_id": "B056",
+      "tool": "probability-bandit-information-bounds",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Targeted source scope supports stated model separation; auxiliary sources beyond audited core remain unreviewed."
+    },
+    {
+      "problem_id": "B056",
+      "tool": "probability-bandit-information-bounds",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "Targeted source scope supports stated model separation; auxiliary sources beyond audited core remain unreviewed."
+    },
+    {
+      "problem_id": "B056",
+      "tool": "probability-bandit-information-bounds",
+      "role": "auxiliary",
+      "decision": "needs_revision",
+      "reason": "Source-level audit incomplete; B054 additionally needs normalization clarification."
+    },
+    {
+      "problem_id": "B050",
+      "tool": "probability-bandit-information-bounds",
+      "role": "direct",
+      "decision": "needs_revision",
+      "reason": "Source-level audit incomplete; B054 additionally needs normalization clarification."
+    },
+    {
+      "problem_id": "B050",
+      "tool": "probability-bandit-information-bounds",
+      "role": "auxiliary",
+      "decision": "needs_revision",
+      "reason": "Source-level audit incomplete; B054 additionally needs normalization clarification."
+    }
+  ],
+  "findings": [
+    {
+      "priority": "high",
+      "worker": "W14",
+      "source_local_id": "W14-005",
+      "file": "skills/probability-queueing-heavy-traffic/references/method.md",
+      "issue": "Eq7 is homogeneous in (L,M), and Eq8 admits scalar multiples; Conjecture1 as literally displayed has no L(0)=1 normalization. Its unnormalized uniqueness is therefore obstructed even before higher-dimensional analysis.",
+      "required_fix": "Explicitly identify this source-level normalization omission. State any repaired normalized analytic class as an added assumption, separately from the probability-admissible transform class. Do not call literal Conjecture1 a coherent stronger uniqueness target without this repair.",
+      "status": "resolved",
+      "resolution": "Exact source and corrected card rechecked this round; three-class inclusion is now conditional on membership."
+    },
+    {
+      "priority": "medium",
+      "worker": "W13",
+      "source_local_id": null,
+      "file": "workers/W13/status.json",
+      "issue": "Status file absent at first-batch snapshot; most source records acquired or partial, not completed fulltext distillation.",
+      "required_fix": "Write actual inventory counts and phase state; continue first batch; do not count title-page-only supplements as theorem support.",
+      "status": "resolved",
+      "resolution": "Current mother ledger complete per-section/appendix coverage supplied and checked; individual locator corrections separate."
+    },
+    {
+      "priority": "low",
+      "worker": "W15",
+      "source_local_id": "W15-015",
+      "file": "workers/W15/cards/W15-015.md",
+      "issue": "Finite-time theorem is useful but not automatic RKHS transfer; current cautious treatment appropriate.",
+      "required_fix": "Retain current candidate status and explicit uniqueness/compactness/empirical-domain/oracle/rate conditions in future updates."
+    },
+    {
+      "priority": "medium",
+      "worker": "W14",
+      "source_local_id": "W14-005",
+      "file": "workers/W14/cards/W14-005.md",
+      "issue": "Class(c) inclusion logic: normalized analytic uniqueness does imply probability-class uniqueness if all admissible pairs belong to the normalized analytic class. Current unconditional negative last sentence is misleading.",
+      "required_fix": "Replace with implication conditional on proving inclusion/membership (and existence). Keep three target classes distinct; do not claim proof of either intended uniqueness problem.",
+      "status": "resolved",
+      "resolution": "Exact source and corrected card rechecked this round; three-class inclusion is now conditional on membership."
+    },
+    {
+      "priority": "high",
+      "worker": "W14",
+      "source_local_id": "W14-013",
+      "file": "workers/W14/cards/W14-013.md",
+      "issue": "Theorem1 B1/B2 source p17 factors n^(2-1/r) are written n*(2-1/r) in the card.",
+      "required_fix": "Use B1=-nε/2+n+3 n^{2-1/r} ε^{-1/r} M_r and B2=n(1+ε)/2+2 n^{2-1/r} ε^{-1/r} M_r. Check all exported formulas.",
+      "status": "resolved",
+      "resolution": "Exact source and corrected card rechecked this round; three-class inclusion is now conditional on membership."
+    },
+    {
+      "priority": "medium",
+      "worker": "W14",
+      "source_local_id": "W14-009",
+      "file": "workers/W14/cards/W14-009.md",
+      "issue": "Token-ring u^0 is written sum beta_k^-1, but beta_k in source Eq4.8 is class load alpha_k/mu_k, while switch-over rates are mu_k^0.",
+      "required_fix": "Define beta_k=alpha_k/mu_k and u^0=sum_k 1/mu_k^0; keep Eq4.8 beta_k<(1-rho0)ell_k/(mu_k u^0). Formula located on PDF p8, not p9.",
+      "status": "resolved",
+      "resolution": "Exact source and corrected card rechecked this round; three-class inclusion is now conditional on membership."
+    },
+    {
+      "priority": "high",
+      "worker": "W15",
+      "source_local_id": "W15-009",
+      "file": "workers/W15/cards/W15-009.md",
+      "issue": "Theorem2 SE Eq12 lacks the square root of the whole expression; changes horizon exponent.",
+      "required_fix": "Restore Ω(sqrt(T σ² [log(B²T/(σ² log(1/δ)))]^{d/2} log(1/δ))). State exists bad f and probability at least δ; retain scale condition. Independently checked rendered PDF p4.",
+      "status": "resolved",
+      "resolution": "Restored sqrt(det) / whole sqrt and source locators verified against already rendered primary pages."
+    },
+    {
+      "priority": "medium",
+      "worker": "W15",
+      "source_local_id": "W15-006",
+      "file": "workers/W15/cards/W15-006.md",
+      "issue": "Theorem1 Eq6 uses log(sqrt(det(...))/δ), card uses log(det(...)/δ) and locates theorem p5 instead of p4.",
+      "required_fix": "Restore square-root determinant and PDF p4 locator; if deliberately weakening bound, label that separately from exact theorem. Render checked.",
+      "status": "resolved",
+      "resolution": "Restored sqrt(det) / whole sqrt and source locators verified against already rendered primary pages."
+    },
+    {
+      "priority": "high",
+      "worker": "W15",
+      "source_local_id": "W15-015",
+      "file": "workers/W15/cards/W15-015.md",
+      "issue": "Source AppendixB.2 p12 says Lambda prime subset compact Theta implies compact, although Lambda prime uses strict improvement > (p11). Subset compactness is not valid generally. Source also uses infinite best-arm allocation and claims all gap coordinates strictly positive, requiring explicit conventions.",
+      "required_fix": "Record the exact source-level continuity-proof gaps and restrict transfer accordingly. Do not require reader to repair general theorem or assert theorem false. Any use of Lemma1 as a generic transfer must supply closure/attainment and best-arm-coordinate conventions or a valid alternative theorem.",
+      "status": "withdrawn_reviewer_error",
+      "resolution": "Actual rendered source p12 has closure overlines; OCR omitted them. Both missing-closure criticism and attribution criticism withdrawn. Current restored source card accurately reports closure argument. B056 transfer remains pending.",
+      "retraction_evidence": "workers/W15/rendered/W15-015-p12-rerender.png actual image inspected"
+    },
+    {
+      "priority": "medium",
+      "worker": "W13",
+      "source_local_id": null,
+      "file": "workers/W13/sources.json",
+      "issue": "New fulltext_read records have all-page ranges and detailed cards but no continuous section_coverage map in current sources/cards snapshot.",
+      "required_fix": "Provide each actual section/subsection/appendix page range and content/proof mechanism summary; cover every used proof dependency. Reading evidence can pass without reviewer full reread once map and sampled assertions agree.",
+      "status": "resolved",
+      "resolution": "Current mother ledger complete per-section/appendix coverage supplied and checked; individual locator corrections separate."
+    },
+    {
+      "priority": "medium",
+      "worker": "W14",
+      "source_local_id": null,
+      "file": "workers/W14/sources.json",
+      "issue": "New fulltext_read records have all-page ranges and detailed cards but no continuous section_coverage map in current sources/cards snapshot.",
+      "required_fix": "Provide each actual section/subsection/appendix page range and content/proof mechanism summary; cover every used proof dependency. Reading evidence can pass without reviewer full reread once map and sampled assertions agree.",
+      "status": "resolved",
+      "resolution": "17 complete reading_coverage entries checked against hashes/pages; new individual mathematical revisions remain separate."
+    },
+    {
+      "priority": "medium",
+      "worker": "W15",
+      "source_local_id": null,
+      "file": "workers/W15/sources.json",
+      "issue": "New fulltext_read records have all-page ranges and detailed cards but no continuous section_coverage map in current sources/cards snapshot.",
+      "required_fix": "Provide each actual section/subsection/appendix page range and content/proof mechanism summary; cover every used proof dependency. Reading evidence can pass without reviewer full reread once map and sampled assertions agree.",
+      "status": "open"
+    },
+    {
+      "priority": "medium",
+      "worker": "W14",
+      "source_local_id": "W14-012",
+      "file": "workers/W14/cards/W14-012.md",
+      "issue": "Card describes stronger/special conditions as exact theorem assumptions: bounded arrivals, approach along normal, and SSS-only comparison; source HT assumptions are IID plus uniform second-tail condition, projected normal approach and comparison with arbitrary discipline G.",
+      "required_fix": "State source assumptions precisely: base model ergodic countable-state Markov arrivals; HT Theorem1 assumes per-flow IID, second-moment convergence and uniform-tail condition14; r(ζ·λr−ζ·λ)→a. Theorem1(ii) compares all disciplines G. Stationary conjecture is RBM stationary law times invariant-manifold vector, not a deterministic invariant point.",
+      "status": "resolved",
+      "resolution": "Round5 corrected card/runtime rechecked against primary source scope and exact formulas."
+    },
+    {
+      "priority": "high",
+      "worker": "W14",
+      "source_local_id": "W14-016",
+      "file": "workers/W14/cards/W14-016.md",
+      "issue": "Card lower/upper bounds omit expectation around random workload; Lemma6 finite-epsilon zeta omits +epsilon². Source Proposition5 later abbreviates zeta inconsistently; distinguish finite-epsilon formulas from common limit coefficient.",
+      "required_fix": "Restore E[<c,Q>] in both mean inequalities. State Lemma6 p10 ζε=<c²,σε²>+ε² and B1=b(k)/2. Explain finite-epsilon notation difference in Proposition5 rather than silently conflating; common limiting ζ unaffected.",
+      "status": "resolved",
+      "resolution": "Round5 corrected card/runtime rechecked against primary source scope and exact formulas."
+    },
+    {
+      "priority": "low",
+      "worker": "W14",
+      "source_local_id": "W14-004",
+      "file": "workers/W14/cards/W14-004.md",
+      "issue": "Necessity proof includes nonnegative drift (including critical zero drift), not only positive drift as card says.",
+      "required_fix": "Use nonnegative drift; note equality case is excluded from positive recurrence too.",
+      "status": "resolved",
+      "resolution": "Round5 corrected card/runtime rechecked against primary source scope and exact formulas."
+    },
+    {
+      "priority": "low",
+      "worker": "W14",
+      "source_local_id": "W14-006",
+      "file": "workers/W14/cards/W14-006.md",
+      "issue": "Theorem1 is physical PDF p7, not card p8.",
+      "required_fix": "Change Theorem1 physical-page locator to p7; keep deterministic boundedness and model restrictions.",
+      "status": "resolved",
+      "resolution": "Round5 corrected card/runtime rechecked against primary source scope and exact formulas."
+    },
+    {
+      "priority": "medium",
+      "worker": "W15",
+      "source_local_id": "W15-015",
+      "file": "workers/W15/cards/W15-015.md",
+      "issue": "New source-gap paragraph wrongly defines Lambda-prime by <c*,D>>1 and attributes a closure compactness statement to author. Source p11 defines Lambda-prime by a strict reward improvement, and p12 directly asserts Lambda-prime compact.",
+      "required_fix": "Quote Λ′(θ)={λ∈Θ:max_{x≠x*(θ)}μ(x,λ)>μ(x*(θ),λ)}. Say source asserts subset of compact implies compact, and clearly label closure/attainment as a proposed repair needing justification, not original text.",
+      "status": "withdrawn_reviewer_error",
+      "resolution": "Actual rendered source p12 has closure overlines; OCR omitted them. Both missing-closure criticism and attribution criticism withdrawn. Current restored source card accurately reports closure argument. B056 transfer remains pending.",
+      "retraction_evidence": "workers/W15/rendered/W15-015-p12-rerender.png actual image inspected"
+    },
+    {
+      "priority": "low",
+      "worker": "W13",
+      "source_local_id": "S007",
+      "file": "workers/W13/reader_batches/L09_batch1/computations/s007_theorem3_ratio.py",
+      "issue": "Computation step comment says mass1/N in diverging tail; source tail has probability epsilon and value1/(N epsilon), contributing limiting expectation1/N. Implemented step is correct.",
+      "required_fix": "Clarify comment as limiting tail expectation1/N rather than probability mass1/N; no numerical formula change required.",
+      "status": "resolved",
+      "resolution": "L13 integration corrected code comment/Corollary label; mathematical card unchanged."
+    },
+    {
+      "priority": "low",
+      "worker": "W13",
+      "source_local_id": "S011",
+      "file": "workers/W13/reader_batches/L09_batch1/cards/S011.md",
+      "issue": "Card calls5.9 Theorem, source p26 labels Corollary5.9; supported numerical guarantee itself correct.",
+      "required_fix": "Use Corollary5.9 in integration.",
+      "status": "resolved",
+      "resolution": "L13 integration corrected code comment/Corollary label; mathematical card unchanged."
+    },
+    {
+      "priority": "high",
+      "worker": "W14",
+      "source_local_id": "W14-021",
+      "file": "workers/W14/cards/W14-021.md",
+      "issue": "Proposition9 standard-SRBM product-form skew condition p12 Eq27 is 2Γ_jk=R_kj+R_jk for j≠k; card inserts y_i/y_j factors, which changes the criterion.",
+      "required_fix": "Remove y factors: retain y=-R^-1μ>0 (Eq26), 2Γij=Rij+Rji under standard normalization (Eq27), density Cexp(-2y·z) (Eq28). Keep general nonstandard scaling separate. Original p12 image actually viewed.",
+      "status": "resolved",
+      "resolution": "Round6 standard Definition5 and corrected Proposition9 checked against actual physical11–12 images; runtime scope inspected."
+    },
+    {
+      "priority": "low",
+      "worker": "W13",
+      "source_local_id": "S001",
+      "file": "workers/W13/cards/S001.md",
+      "issue": "Theorems1.4/1.5 and Corollary1.6 are physicalp4, notp5.",
+      "required_fix": "Correct physical-page locators to4; proof/model claims unchanged.",
+      "status": "resolved",
+      "resolution": "Final card corrected physical/printed and §4 vs AppendixD locations."
+    },
+    {
+      "priority": "low",
+      "worker": "W13",
+      "source_local_id": "S003",
+      "file": "workers/W13/cards/S003.md",
+      "issue": "AppendixA.4 is physicalp30/printed28, notphysical28/printed26; several appendix ranges use contents printed pages as physical.",
+      "required_fix": "Audit appendix D/E/F/H–I locators against actual page headers; contents numbers after unnumbered initial2pages need+2 for physical pages. Preserve fixed-epsilon/sublinear distinction.",
+      "status": "resolved",
+      "resolution": "Final card corrected physical/printed and §4 vs AppendixD locations."
+    },
+    {
+      "priority": "low",
+      "worker": "W13",
+      "source_local_id": "M0036",
+      "file": "workers/W13/cards/M0036.md",
+      "issue": "Theorem2 proof pp12–14 lies in main §4, not AppendixA as card says.",
+      "required_fix": "Correct section label to§4; AppendixA begins later and is for other supporting arguments.",
+      "status": "resolved",
+      "resolution": "Final card corrected physical/printed and §4 vs AppendixD locations."
+    },
+    {
+      "priority": "high",
+      "worker": "W13",
+      "source_local_id": "M0048",
+      "file": "workers/W13/cards/M0048.md",
+      "issue": "Remark3.2 sourcephysical8 shows universal prophet/optimal-mortal factor cannot be below5/4; card reverses it to at-most5/4 and mortal guaranteeatleast4/5.",
+      "required_fix": "State impossibility of any universal mortal ratio strictlyabove4/5; not a proved4/5algorithm or statement about everypolicy. Correct locatorphysical8.",
+      "status": "resolved",
+      "resolution": "Current source/card/runtime/coverage correction independently checked in terminal review; exact Fraction computations rerun in R07, examples only."
+    },
+    {
+      "priority": "high",
+      "worker": "W13",
+      "source_local_id": "S016",
+      "file": "skills/probability-prophet-online-selection/references/method.md",
+      "issue": "Runtime calls non-bipartite matching stationary factor optimal; source gives1/3lower guarantee with optimality open.",
+      "required_fix": "Say1/3forgeneral matchings and optimal factors onlyforbipartitematchings/k-uniformmatroids.",
+      "status": "resolved",
+      "resolution": "Current source/card/runtime/coverage correction independently checked in terminal review; exact Fraction computations rerun in R07, examples only."
+    },
+    {
+      "priority": "medium",
+      "worker": "W13",
+      "source_local_id": "M0042",
+      "file": "workers/W13/reading_coverage.json",
+      "issue": "Fulltext map omits physicalpage1 title/abstract; actualPDF33pages matcheshash.",
+      "required_fix": "Add explicit p1 frontmatter reading coverage; no need to reread since readerdeclares1–33.",
+      "status": "resolved",
+      "resolution": "Current source/card/runtime/coverage correction independently checked in terminal review; exact Fraction computations rerun in R07, examples only."
+    },
+    {
+      "priority": "medium",
+      "worker": "W13",
+      "source_local_id": "M0062",
+      "file": "skills/probability-prophet-online-selection/examples/positive.md",
+      "issue": "After introducing atom tie probabilityp, example still computes threecalibrations using strictD_t, which doesnotdependonp.",
+      "required_fix": "Define effective D_(t,p)=sum[1{V>t}+1{V=t}B_i] with independentBer(p)coins; compute allthree functionalswiththatcount.",
+      "status": "resolved",
+      "resolution": "Current source/card/runtime/coverage correction independently checked in terminal review; exact Fraction computations rerun in R07, examples only."
+    },
+    {
+      "priority": "medium",
+      "worker": "W13",
+      "source_local_id": "M0051",
+      "file": "workers/W13/cards/M0051.md",
+      "issue": "Theorem6 strictthreshold equationmaynotbeattainableat atoms; sourcep10footnote11assumesnopointmassesforexposition.",
+      "required_fix": "State continuous/noatom premise or explicitquantiletierandomization modification.",
+      "status": "resolved",
+      "resolution": "Current source/card/runtime/coverage correction independently checked in terminal review; exact Fraction computations rerun in R07, examples only."
+    }
+  ],
+  "limitations": [
+    "20 source identities/PDF hashes checked cumulatively; theorem-support audits bounded to listed locations. No independent web metadata verification in this review.",
+    "Latest fulltext reading evidence requires per-section/appendix coverage maps, not reviewer whole-paper rereading.",
+    "Books remain unreviewed for full acquisition/complete selected-unit proof dependencies; no book passed.",
+    "Rendered W14-009 p8 and W15-006/W15-009 p4 to disambiguate extraction; review-owned extracts/renders retained.",
+    "B054 literal scaling defect now documented by reader; normalized analytic/probability uniqueness remains unproved here.",
+    "Existing finite computations are not extrapolated.",
+    "Round3 W14: 17 source hashes/coverage/page unions checked and all skill-supported mechanisms sampled at primary locations. W15 only named formula/source-gap corrections revisited; W13 deferred until next reader batch. Stage manifest is not publication approval.",
+    "L09_batch1 five fulltext sources143pages accepted with integration_status pending; batch hash manifest separate from mother W13 ledger. S007 numerical DP reproduced, S008 large computer-assisted proof not independently recomputed. OSSB false missing-closure criticism withdrawn after actual rendered p12.",
+    "Round5 accepts reader coverage22full/583physical pages with hash/page verification and bounded independent proof-location checks; does not assert reviewer reread all pages.21passed/1needs_revision. W13L09 prior pass preserved without repeat audit; stage publication not approved.",
+    "Round6 W13 mother15fulltext plus one complete-book selected-chapter evidence checked; full book official contents verified online,10components hash/text assembly verified. Three locator corrections remain. L09 integration mathematically consistent. W14 all22passed. Both tools below30; stage-only manifests."
+  ],
+  "review_complete": false,
+  "review_round": "W13_final_terminal_corrections_passed",
+  "W13_review_complete": true
+}

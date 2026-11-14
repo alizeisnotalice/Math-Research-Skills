@@ -1,0 +1,4386 @@
+[
+  {
+    "local_id": "M0112",
+    "title": "The influence of variables on Boolean functions",
+    "authors": [
+      "J. Kahn",
+      "G. Kalai",
+      "N. Linial"
+    ],
+    "year": 1988,
+    "kind": "paper",
+    "doi": "10.1109/sfcs.1988.21923",
+    "url": "https://doi.org/10.1109/sfcs.1988.21923",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "KKL connects coordinate influences to first-level Fourier energy and prevents confusing coordinate influence with dependence or Fourier support.",
+    "topics": [
+      "A165",
+      "B162"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "partial_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "review_status": "pending",
+    "note": "KKL author-hosted primary PDF first pages and influence/Fourier setup checked online; bibliographic record verified via FOCS/Dagstuhl DOI metadata. A local file formerly named KKL1988_influence_arxiv_reprint.pdf was arXiv:math/9811157v2, actually BKS (hash-identical to BKS1999_noise_sensitivity.pdf); mislabeled duplicate removed and conflict recorded here. No TLS bypass.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0113",
+    "title": "Learning Decision Trees Using the Fourier Spectrum",
+    "authors": [
+      "Eyal Kushilevitz",
+      "Yishay Mansour"
+    ],
+    "year": 1993,
+    "kind": "paper",
+    "doi": "10.1137/0222080",
+    "url": "https://doi.org/10.1137/0222080",
+    "alternate_urls": [
+      "https://www.cs.princeton.edu/courses/archive/spring09/cos522/KushilevitsMansour.pdf"
+    ],
+    "version": "D02 author manuscript, 22 printed pages with reversed physical PDF order; preliminary version appeared at STOC 1991, pp. 455–464; journal version SIAM J. Comput. 22(6), 1331–1348 (1993).",
+    "reason": "Full-text background on Fourier-sparse learning and parity decision trees; it distinguishes spectral sparsity/L1 learning from the input-support conditional-bias problem and proves no A165 L0 lower bound.",
+    "topics": [
+      "A165",
+      "A166"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0113.pdf",
+    "sha256": "38413e97bcb74ec2305f7afb2601515e074afcbb5ab20f65e0ebe74551f02920",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "D02 copy title page is physical PDF p.22; the 22 physical pages are in reverse printed order. Title/authors match the full Princeton manuscript; SIAM journal metadata confirms DOI, volume/issue, year, and pagination. Full text was read in printed order.",
+    "seed_origin": "seed375",
+    "section_coverage": [
+      {
+        "section": "§1 introduction and model",
+        "physical_pdf_pages": [
+          20,
+          22
+        ],
+        "summary": "Problem setup, Fourier-learning context, and abstract.",
+        "printed_pages": "1–3"
+      },
+      {
+        "section": "§2 preliminaries",
+        "physical_pdf_pages": [
+          17,
+          19
+        ],
+        "summary": "Uniform-cube Fourier model, membership queries, and parity decision-tree model.",
+        "printed_pages": "4–6"
+      },
+      {
+        "section": "§3 Fourier-sparse learning",
+        "physical_pdf_pages": [
+          11,
+          16
+        ],
+        "summary": "Recursive prefix-energy estimates and recovery of large Fourier coefficients.",
+        "printed_pages": "7–12"
+      },
+      {
+        "section": "§4 polynomial Fourier L1 norm",
+        "physical_pdf_pages": [
+          7,
+          10
+        ],
+        "summary": "Thresholding yields a sparse L2 approximant; deterministic learning for polynomial spectral norm.",
+        "printed_pages": "13–16"
+      },
+      {
+        "section": "§5 parity decision trees",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "summary": "Lemma 5.1: Fourier L1 norm at most the number of nodes; exact depth-d identification.",
+        "printed_pages": "17–19"
+      },
+      {
+        "section": "§6 extensions and references",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Extensions/open problems and references.",
+        "printed_pages": "20–22"
+      }
+    ]
+  },
+  {
+    "local_id": "M0114",
+    "title": "On the degree of boolean functions as real polynomials",
+    "authors": [
+      "Noam Nisan",
+      "Mario Szegedy"
+    ],
+    "year": 1994,
+    "kind": "paper",
+    "doi": "10.1007/bf01263419",
+    "url": "https://doi.org/10.1007/bf01263419",
+    "alternate_urls": [],
+    "version": "Journal article, Computational Complexity 4(4), 301–313 (1994).",
+    "reason": "Real multilinear degree and decision-tree/approximate-degree relations; boundary source separating variable dependence and polynomial degree from Fourier support.",
+    "topics": [
+      "A164",
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0114.pdf",
+    "sha256": "059743f397f0a148e9117ee2f7762bd9a73b80b023c033ffca1e5fae6c2f9abe",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "The 13-page local PDF title page and full article were checked; DOI, journal volume, year, and printed pages match the cited record. All physical pages read.",
+    "seed_origin": "seed375",
+    "section_coverage": [
+      {
+        "section": "Front matter and abstract",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Title, authors, abstract, and main contributions.",
+        "printed_pages": "301"
+      },
+      {
+        "section": "§1 results and definitions",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "summary": "Unique multilinear representation; Theorems 1.2, 1.3, and 1.5.",
+        "printed_pages": "302–304"
+      },
+      {
+        "section": "§2 minimum-degree proof",
+        "physical_pdf_pages": [
+          5,
+          7
+        ],
+        "summary": "Influence identity, Schwartz zero-count lemma, and proof that dependence on n variables forces logarithmic real degree.",
+        "printed_pages": "305–307"
+      },
+      {
+        "section": "§3 decision trees and approximation",
+        "physical_pdf_pages": [
+          8,
+          11
+        ],
+        "summary": "Symmetrization, approximation-theory bounds, block sensitivity, and examples.",
+        "printed_pages": "308–311"
+      },
+      {
+        "section": "§4 open questions and references",
+        "physical_pdf_pages": [
+          12,
+          13
+        ],
+        "summary": "Open problems, acknowledgements, references.",
+        "printed_pages": "312–313"
+      }
+    ]
+  },
+  {
+    "local_id": "M0115",
+    "title": "Boolean Functions With Low Average Sensitivity Depend On Few Coordinates",
+    "authors": [
+      "Ehud Friedgut"
+    ],
+    "year": 1998,
+    "kind": "paper",
+    "doi": "10.1007/pl00009809",
+    "url": "https://doi.org/10.1007/pl00009809",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Low average sensitivity/junta theorem is a possible structural tool for B162, but its exponential junta-size dependence does not give the target O(log n) coalition.",
+    "topics": [
+      "B162"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0117",
+    "title": "On the fourier tails of bounded functions over the discrete cube",
+    "authors": [
+      "Irit Dinur",
+      "Ehud Friedgut",
+      "Guy Kindler",
+      "Ryan O'Donnell"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.1145/1132516.1132580",
+    "url": "https://doi.org/10.1145/1132516.1132580",
+    "alternate_urls": [],
+    "version": "Author manuscript dated 29 June 2005; 25 physical pages; corresponding journal article Israel Journal of Mathematics 160 (2007), 389–412. Reused from D02; no duplicate D04 copy.",
+    "reason": "Fourier-tail inequalities for bounded cube functions; auxiliary to B169 and noise stability.",
+    "topics": [
+      "B169"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0117.pdf",
+    "sha256": "9a86be92ae587fabc0bfe1fe7e9b55284337753626999d78937dbc509aa63391",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "D04 batch07 artifact identity, local path, SHA-256, file size, and 25-page physical extent rechecked; full text remains unread. Version details are recorded exactly from the batch identity evidence.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 25,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-009",
+    "acquired_by": "D04"
+  },
+  {
+    "local_id": "M0118",
+    "title": "A Brief Introduction to Fourier Analysis on the Boolean Cube",
+    "authors": [
+      "Ronald de Wolf"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.4086/toc.gs.2008.001",
+    "url": "https://theoryofcomputing.org/articles/gs001/",
+    "alternate_urls": [],
+    "version": "2008 author copy held by the Computational Complexity Foundation; 18-page PDF",
+    "reason": "Primary concise reference for Boolean Fourier basis, influence, noise operator, hypercontractivity, and KKL.",
+    "topics": [
+      "A165",
+      "B161",
+      "B169"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0118.pdf",
+    "sha256": "af3e5ab244e4c6c89fcf2ad4bdfa8945138ef400f3d53ff7eca1cfc0f5d81e85",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "review_status": "pending",
+    "note": "Full physical PDF pp. 1–18 read by L08; SHA-256 and page count rechecked during W10 integration. Detailed section coverage and theorem/proof locators are in evidence/W10/reader_batches/L08_batch1/reading_coverage.json and the canonical W10 card. Review remains pending. §4.2 was additionally checked against rendered physical p.8: optimizer delta=k/(2 ln R), feasible iff k<=2 ln R, and Eq. (3) is O((ln R/n)^k), with its implicit constant raised to k; no k<=n/2 condition is stated.",
+    "reader": "W10",
+    "seed_origin": "seed375",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "Abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Scope, cube setting and paper roadmap."
+      },
+      {
+        "unit": "§2.1 Vector space of functions on the Boolean cube",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "coverage": "Uniform inner product and Boolean function space."
+      },
+      {
+        "unit": "§2.2 Fourier transform",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "coverage": "Characters, orthogonality, inversion, Fourier coefficients and Parseval."
+      },
+      {
+        "unit": "§2.3 Convolution",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "coverage": "Convolution definition, transform/product identity and application to noise."
+      },
+      {
+        "unit": "§3.1 Approximating functions by parities",
+        "pdf_pages": [
+          4,
+          4
+        ],
+        "coverage": "Sparse parity approximation/correlation argument."
+      },
+      {
+        "unit": "§3.2 List decoding the Hadamard code",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "coverage": "Parseval bound on the number of codewords with large correlation."
+      },
+      {
+        "unit": "§3.3 Learning under the uniform distribution",
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "coverage": "Sampling Fourier coefficients and prediction error via Parseval."
+      },
+      {
+        "unit": "§4.1 Bonami–Beckner and KKL",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "coverage": "Noise operator, hypercontractivity statement and KKL Fourier-weight corollary; proof of BB deferred as noted in card."
+      },
+      {
+        "unit": "§4.2 Random parities over a fixed set",
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "coverage": "Derives E_S[beta_S^2]=O((ln(2^n/|A|)/n)^k) from the weighted KKL bound; optimizes at delta=k/(2 ln(2^n/|A|)) when k<=2 ln(2^n/|A|); records the subcube example. No separate k<=n/2 premise."
+      },
+      {
+        "unit": "§4.3 Influences of variables",
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "coverage": "Coordinate influence definitions, Talagrand inequality and the Fourier-level proof."
+      },
+      {
+        "unit": "§4.4 Relation between influences, sensitivity and degree",
+        "pdf_pages": [
+          10,
+          11
+        ],
+        "coverage": "Average sensitivity, polynomial approximation inequality and Nisan–Szegedy degree consequence."
+      },
+      {
+        "unit": "§5 A guide to literature",
+        "pdf_pages": [
+          12,
+          14
+        ],
+        "coverage": "Further application areas, surveys, courses and pointers."
+      },
+      {
+        "unit": "Acknowledgments and References",
+        "pdf_pages": [
+          14,
+          18
+        ],
+        "coverage": "Acknowledgments and all bibliography entries read."
+      }
+    ]
+  },
+  {
+    "local_id": "M0122",
+    "title": "Testing Fourier Dimensionality and Sparsity",
+    "authors": [
+      "Parikshit Gopalan",
+      "Ryan O'Donnell",
+      "Rocco A. Servedio",
+      "Amir Shpilka",
+      "Karl Wimmer"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.1137/100785429",
+    "url": "https://doi.org/10.1137/100785429",
+    "alternate_urls": [],
+    "version": "Complete SIAM Journal on Computing author manuscript; 25 physical pages; journal version 40(4) (2011), pp. 1075–1100. Reused from D02; no duplicate D04 copy.",
+    "reason": "Directly distinguishes Fourier dimension from Fourier support sparsity for A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0122.pdf",
+    "sha256": "81e9b1c9c7ff530d146f87a3453f8c3d259f624660f666b017d7126c47318e21",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "D04 batch07 artifact identity, local path, SHA-256, file size, and 25-page physical extent rechecked; full text remains unread. Version details are recorded exactly from the batch identity evidence. Full physical pages 1–25 read; identity, local SHA-256, and section coverage recorded in the L10_W10_six batch. Review pending.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 25,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-010",
+    "acquired_by": "D04",
+    "section_coverage": [
+      {
+        "section": "§1 introduction, definitions, and results",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "printed_pages": "1–5",
+        "summary": "Uniform Walsh model; Fourier sparsity versus Fourier dimension and degree; testing, learning, and decoding overview."
+      },
+      {
+        "section": "§2 random coset hashing preliminaries",
+        "physical_pdf_pages": [
+          5,
+          7
+        ],
+        "printed_pages": "5–7",
+        "summary": "Coset projections, bucket weights, query estimates, pairwise hashing, and collision probabilities."
+      },
+      {
+        "section": "§3 close-to-sparse granularity",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "printed_pages": "7–9",
+        "summary": "Theorems 3.3–3.4; isolate large coefficients by hashing and round a small-tail approximation to a Boolean sparse function."
+      },
+      {
+        "section": "§4 sparsity tester",
+        "physical_pdf_pages": [
+          9,
+          11
+        ],
+        "printed_pages": "9–11",
+        "summary": "Test-Sparsity query bound and soundness through pairwise-independence hashing and the close-to-sparse theorem."
+      },
+      {
+        "section": "§5 dimension tester",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "printed_pages": "11–13",
+        "summary": "Invariance characterization and Fourier-dimensionality testing with large coefficients and tail control."
+      },
+      {
+        "section": "§6 implicit truth-table learning",
+        "physical_pdf_pages": [
+          13,
+          19
+        ],
+        "printed_pages": "13–19",
+        "summary": "Reconstruct the character table and test fixed subclasses of functions depending on all k input bits."
+      },
+      {
+        "section": "§7 adaptive lower bounds",
+        "physical_pdf_pages": [
+          19,
+          21
+        ],
+        "printed_pages": "19–21",
+        "summary": "Volume and query-path collision arguments for Fourier-dimension and sparsity lower bounds."
+      },
+      {
+        "section": "§8 learning and unique decoding",
+        "physical_pdf_pages": [
+          21,
+          24
+        ],
+        "printed_pages": "21–24",
+        "summary": "Fourier coefficient granularity, noisy sparse decoding, and dimension decoding with explicit small-error thresholds."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          24,
+          25
+        ],
+        "printed_pages": "24–25",
+        "summary": "Complete bibliography."
+      }
+    ],
+    "reading_coverage": "evidence/W10/reader_batches/L10_W10_six/reading_coverage.json#sources.M0122",
+    "card_path": "evidence/W10/cards/M0122.md"
+  },
+  {
+    "local_id": "M0123",
+    "title": "The Fourier Entropy–Influence Conjecture for Certain Classes of Boolean Functions",
+    "authors": [
+      "Ryan O’Donnell",
+      "John Wright",
+      "Yuan Zhou"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.1007/978-3-642-22006-7_28",
+    "url": "https://doi.org/10.1007/978-3-642-22006-7_28",
+    "alternate_urls": [
+      "https://www.math.ias.edu/files/ODonnell_Fourier.pdf",
+      "https://www.ias.edu/sites/default/files/math/ODonnell_Fourier.pdf"
+    ],
+    "version": "Complete IAS-hosted author manuscript for ICALP 2011 / Springer LNCS pp.330–341; 13 physical pages; no separate revision date printed.",
+    "reason": "FEI theorem and Fourier-analytic proof mechanisms for symmetric, fixed-product-symmetry, and read-once-tree classes.",
+    "topics": [
+      "boolean-fourier",
+      "entropy-influence",
+      "noise-stability"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0123.pdf",
+    "sha256": "fc23b34306d0d859089f68096a05a0645af8eb8e9d3c6f86d65d126f333890f0",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "The recursively read-once extension is only a closing remark; Theorem 3 uses a numerical supremum check for 4.88. Full physical PDF pp.1–13 read by L08; D04 SHA-256 and page count rechecked, with complete section coverage in evidence/W10/reader_batches/L08_batch2/reading_coverage.json. Independent review pending.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 13,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-001",
+    "acquired_by": "D04",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "Title, abstract, author/acknowledgment matter",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Verified document identity and complete available conference-manuscript scope; read abstract and support note."
+      },
+      {
+        "unit": "§1 Introduction, §§1.1–1.3",
+        "physical_pdf_pages": [
+          2,
+          3
+        ],
+        "summary": "FEI statement, applications/prior work, exact three theorem classes and proof overview."
+      },
+      {
+        "unit": "§2 Definitions and notation, §§2.1–2.2",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Boolean Fourier/influence/entropy conventions and symmetric, part-symmetric, read-once classes."
+      },
+      {
+        "unit": "§3 Symmetric and d-part-symmetric functions, §3.1",
+        "physical_pdf_pages": [
+          6,
+          8
+        ],
+        "summary": "Theorems 4 and 6; discrete-derivative noise stability proof via interlacing, unimodality and binomial point-mass bound."
+      },
+      {
+        "unit": "§3.2 Spectral-level entropy versus influence",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Theorem 5 proof using entropy of Fourier level and edge-isoperimetric influence estimate."
+      },
+      {
+        "unit": "§3.3 Extension to d-part symmetry",
+        "physical_pdf_pages": [
+          9,
+          10
+        ],
+        "summary": "Block-degree vector entropy and blockwise stability; derivation of the additive log2 d term."
+      },
+      {
+        "unit": "§4 Read-once decision trees",
+        "physical_pdf_pages": [
+          10,
+          12
+        ],
+        "summary": "Two-child induction and Lemma 3 analytic inequality; source notes numerical verification of the 4.88 supremum."
+      },
+      {
+        "unit": "§5 Closing remarks, acknowledgments and references",
+        "physical_pdf_pages": [
+          12,
+          13
+        ],
+        "summary": "Open FEI extensions and conjectural recursively read-once remark distinguished from proved theorem; all bibliography entries read."
+      }
+    ]
+  },
+  {
+    "local_id": "M0124",
+    "title": "Fourier Sparsity, Spectral Norm, and the Log-rank Conjecture",
+    "authors": [
+      "Hing Yin Tsang",
+      "Chung Hoi Wong",
+      "Ning Xie",
+      "Shengyu Zhang"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.1304.1245",
+    "url": "https://arxiv.org/abs/1304.1245",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1304.1245"
+    ],
+    "version": "arXiv:1304.1245v2, 9 April 2013; 25 physical pages, article pagination ends at 24; FOCS 2013, pp.658–667.",
+    "reason": "Parity decision-tree, Fourier sparsity/spectral norm, constant F2-degree and XOR communication-complexity bounds.",
+    "topics": [
+      "boolean-fourier",
+      "fourier-sparsity",
+      "spectral-norm",
+      "parity-decision-trees",
+      "communication-complexity"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0124.pdf",
+    "sha256": "7166921ba69f96e259226d8c83735a62db757632d00d739bfd4445eee02fbc6f",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "Theorem 11 requires small squared Fourier tail, not Hamming-distance approximation; the general log-rank conjecture remains distinct from the XOR-matrix conclusion. Full physical PDF pp.1–25 read by L08; D04 SHA-256 and page count rechecked, with complete section coverage in evidence/W10/reader_batches/L08_batch2/reading_coverage.json. Independent review pending.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 25,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-005",
+    "acquired_by": "D04",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "Abstract",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Principal constant-degree, spectral-norm, XOR communication and light-tail results."
+      },
+      {
+        "unit": "§1 Introduction, §§1.1–1.2",
+        "physical_pdf_pages": [
+          2,
+          7
+        ],
+        "summary": "Definitions/roadmap, exact theorem statements, prior work and conjectures."
+      },
+      {
+        "unit": "§2 Preliminaries and notation",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Fourier norms, restrictions, rank/PDT/communication notions and basic lemmas."
+      },
+      {
+        "unit": "§3 Polynomial rank and Main PDT algorithm, §3.1",
+        "physical_pdf_pages": [
+          10,
+          12
+        ],
+        "summary": "Rank decomposition and parity-query degree-reduction protocol (Theorem 22)."
+      },
+      {
+        "unit": "§4 Low 2-degree, §§4.1–4.2",
+        "physical_pdf_pages": [
+          13,
+          16
+        ],
+        "summary": "Cubic and constant-degree structure; proof of Lemma 26 by derivative restriction and spectral-norm recurrence."
+      },
+      {
+        "unit": "§5 Small spectral norm",
+        "physical_pdf_pages": [
+          17,
+          18
+        ],
+        "summary": "Lemma 30 greedy Fourier folding and affine-subspace constant restriction; implications for parity complexity."
+      },
+      {
+        "unit": "§6 Light Fourier tail",
+        "physical_pdf_pages": [
+          18,
+          20
+        ],
+        "summary": "Chang dimension, coefficient granularity, low-density/rounding lemmas and Theorem 11 combination."
+      },
+      {
+        "unit": "§7 Concluding remarks and References",
+        "physical_pdf_pages": [
+          20,
+          23
+        ],
+        "summary": "Conjectures/limitations and complete references; no conjecture promoted to theorem."
+      },
+      {
+        "unit": "Appendix A: Restriction of functions on affine subspace",
+        "physical_pdf_pages": [
+          23,
+          24
+        ],
+        "summary": "Proof of Lemma 16, including Fourier pairing under restriction and norm monotonicity."
+      },
+      {
+        "unit": "Appendix B: Proof of Lemma 33",
+        "physical_pdf_pages": [
+          24,
+          25
+        ],
+        "summary": "Bonami–Beckner inequality is quoted; proof of the paper’s low-density Fourier-span lemma follows."
+      }
+    ]
+  },
+  {
+    "local_id": "M0128",
+    "title": "Near-Optimal Upper Bound on Fourier Dimension of Boolean Functions in Terms of Fourier Sparsity",
+    "authors": [
+      "Swagato Sanyal"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1007/978-3-662-47672-7_84",
+    "url": "https://doi.org/10.1007/978-3-662-47672-7_84",
+    "alternate_urls": [
+      "https://eccc.weizmann.ac.il/report/2014/088/revision/1/download/"
+    ],
+    "version": "ECCC Report 2014/088, revision 1: local PDF title matter says 9 August 2014, while the ECCC revision page lists 11 August 2014; preserve both dates. Complete 9-page author report preceding the 2015 Springer LNCS chapter DOI 10.1007/978-3-662-47672-7_84.",
+    "reason": "Fourier dimension upper bounds in terms of support size; auxiliary comparison for A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0128.pdf",
+    "sha256": "333607798f572fc1f51b4a5309dbb7d8c9035f4e3e73024ee149247b0197fc1b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "review_status": "pending",
+    "reader": "L08",
+    "note": "D04 batch08 verified local identity, version, SHA-256, and 9-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 verified identity; L08 read the complete body. Relevant-use boundary: Direct comparison of Fourier dimension versus Fourier support size; reader should preserve its Boolean-function and Fourier-sparsity hypotheses. Complete available author report; upper bound relates Fourier dimension to Fourier sparsity. This is the ECCC revision, not a separately downloaded Springer chapter. L08 completed the 9-page full-text read; proof coverage and theorem boundaries are in the canonical card.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 9,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-001",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-001",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "batch": "L08_batch3",
+    "fullcard": "evidence/W10/cards/M0128.md",
+    "usage_card": "evidence/W10/cards/M0128.md",
+    "section_coverage": [
+      {
+        "unit": "Title, abstract, and §1 opening",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Verified ECCC revision 1 title/author/date; read abstract, Fourier-dimension/sparsity motivation and definitions."
+      },
+      {
+        "unit": "§1 Introduction and Theorem 1.2",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "coverage": "Read dimension-versus-sparsity inequalities, address-function example, main bound, cited affine-constant-subspace lemma, proof roadmap, and conjecture discussion."
+      },
+      {
+        "unit": "§2 Preliminaries",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "coverage": "Read Fourier convention, Parseval/Cauchy bound, uncertainty principle, cited TWXZ lemma, and proof that non-adaptive parity complexity equals Fourier dimension."
+      },
+      {
+        "unit": "§3 Non-adaptive parity decision tree construction",
+        "pdf_pages": [
+          5,
+          8
+        ],
+        "coverage": "Read all algorithm definitions and proof: occupied support cosets, Proposition 3.2, Lemmas 3.3–3.4, telescoping query count, and conclusion of Theorem 1.2."
+      },
+      {
+        "unit": "Discussion, acknowledgments and references",
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "coverage": "Read limitations/discussion, acknowledgments, and all references; no appendix."
+      }
+    ],
+    "section_coverage_path": "evidence/W10/reader_batches/L08_batch3/reading_coverage.json#sources.M0128",
+    "read_notes": "Independent complete read of ECCC revision 1, pp.1–9. Auxiliary for A165: Fourier dimension upper bound from sparsity is not a lower bound on sparsity from nonzero singleton coefficients; Theorem 2.5 is imported from TWXZ13."
+  },
+  {
+    "local_id": "M0129",
+    "title": "On the Structure of Boolean Functions with Small Spectral Norm",
+    "authors": [
+      "Amir Shpilka",
+      "Avishay Tal",
+      "Ben lee Volk"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1007/s00037-015-0110-y",
+    "url": "https://doi.org/10.1007/s00037-015-0110-y",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1304.0371"
+    ],
+    "version": "arXiv:1304.0371v2, revised 22 May 2013; complete 26-physical-page manuscript corresponding to the journal work registered under DOI 10.1007/s00037-015-0110-y.",
+    "reason": "Structure under small Fourier L1 norm; keep spectral norm distinct from Fourier L0 support.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0129.pdf",
+    "sha256": "8d1df8814ffdde75a6d9cf34535248cf4833ab7c35c735c71d13f0792fd0038a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "review_status": "pending",
+    "reader": "L08",
+    "note": "D04 batch08 verified local identity, version, SHA-256, and 26-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 verified identity; L08 read the complete body. Relevant-use boundary: Spectral-norm structural results and a conditional bridge to Fourier sparsity when both L1 norm and support-size hypotheses hold; do not conflate L1 norm with L0 sparsity. Complete available arXiv article manuscript; includes structure for small Fourier L1 spectral norm and results additionally assuming at most s nonzero Fourier coefficients. It is not the separate publisher-formatted journal file. L08 completed the 26-page full-text read; proof coverage and theorem boundaries are in the canonical card.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 26,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-002",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-002",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "batch": "L08_batch3",
+    "fullcard": "evidence/W10/cards/M0129.md",
+    "usage_card": "evidence/W10/cards/M0129.md",
+    "section_coverage": [
+      {
+        "unit": "Title page and abstract",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Verified arXiv v2, title/authors and full-paper extent; read abstract and scope."
+      },
+      {
+        "unit": "§1 Introduction, §§1.1–1.5",
+        "pdf_pages": [
+          2,
+          6
+        ],
+        "coverage": "Read Theorems 1.1–1.4, comparisons, proof idea, later cited TWXZ improvement, organization and all Boolean-cube/p-ary scope notes."
+      },
+      {
+        "unit": "§2 Notation and basic results, §§2.1–2.2",
+        "pdf_pages": [
+          6,
+          8
+        ],
+        "coverage": "Read parity decision-tree and Fourier notation, restrictions/coset coefficient folding, Parseval and preliminaries."
+      },
+      {
+        "unit": "§3 Boolean functions with small spectral norm, §§3.1–3.2",
+        "pdf_pages": [
+          8,
+          14
+        ],
+        "coverage": "Read Lemmas 3.1–3.7 and full proofs of Theorems 1.1–1.4, including hyperplane restriction, spectral-norm decrease, size/depth induction, functional decision tree, and coefficient-learning interface."
+      },
+      {
+        "unit": "§4 Functions over Z_p^n, §4.1 preliminaries",
+        "pdf_pages": [
+          14,
+          15
+        ],
+        "coverage": "Read complex Fourier convention and p-ary preliminaries."
+      },
+      {
+        "unit": "§4.2 Basic tools",
+        "pdf_pages": [
+          15,
+          20
+        ],
+        "coverage": "Read p-ary restriction lemmas, angular geometry, multiplicity control and proof dependencies, including rendered formulas."
+      },
+      {
+        "unit": "§4.3 Analogs of Theorems 1.1–1.4",
+        "pdf_pages": [
+          20,
+          22
+        ],
+        "coverage": "Read p-ary affine-subspace, tree-size/depth and approximation analogues and their induction proofs."
+      },
+      {
+        "unit": "§5 Conclusions and open problems; references",
+        "pdf_pages": [
+          22,
+          24
+        ],
+        "coverage": "Read conclusion/open-problem qualifications and complete bibliography."
+      },
+      {
+        "unit": "Appendix A: Proof of Lemma 2.5",
+        "pdf_pages": [
+          24,
+          25
+        ],
+        "coverage": "Read affine-subspace indicator Fourier sparsity/L1 lemma and parity-tree sparsity bounds."
+      },
+      {
+        "unit": "Appendix B: Proof of Lemma 4.3",
+        "pdf_pages": [
+          25,
+          26
+        ],
+        "coverage": "Read complex triangle-geometry proof."
+      },
+      {
+        "unit": "Appendix C: Proof of Lemma 4.5",
+        "pdf_pages": [
+          26,
+          26
+        ],
+        "coverage": "Read the p-cyclic sum/multiplicity argument."
+      }
+    ],
+    "section_coverage_path": "evidence/W10/reader_batches/L08_batch3/reading_coverage.json#sources.M0129",
+    "read_notes": "Independent complete read of arXiv v2, pp.1–26, including Appendices A–C. Auxiliary for A165: small Fourier L1 results are distinct from L0; Theorem 1.3 additionally assumes sparsity s, and no result proves the general quadratic L0 lower bound."
+  },
+  {
+    "local_id": "M0131",
+    "title": "Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture",
+    "authors": [
+      "Hao Huang"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.4007/annals.2019.190.3.6",
+    "url": "https://doi.org/10.4007/annals.2019.190.3.6",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Sensitivity/degree result is a boundary example: it does not prove A165’s Fourier-sparsity lower bound.",
+    "topics": [
+      "A165",
+      "B161"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0131.pdf",
+    "sha256": "e681931d5dd46ed5637825770e18bc53c0f6fdd0a0dea4f6ecc541f8669937a9",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review_status": "pending",
+    "note": "Front page, all 7 PDF pages read; Theorems 1.1, 1.3, 1.4, 1.5 and interlacing proof chain checked.",
+    "reader": "W10",
+    "seed_origin": "seed375",
+    "section_coverage": [
+      {
+        "section": "Abstract and Theorem 1.1",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Induced-subgraph degree theorem and statement of sensitivity result.",
+        "printed_pages": "949"
+      },
+      {
+        "section": "Introduction/setup",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "summary": "Signed cube matrix setup and context.",
+        "printed_pages": "950"
+      },
+      {
+        "section": "Theorems 1.2–1.5",
+        "physical_pdf_pages": [
+          3,
+          3
+        ],
+        "summary": "Gotsman–Linial equivalence with monotone h and Gamma(H)=max of both side degrees; sensitivity and block-sensitivity consequences.",
+        "printed_pages": "951"
+      },
+      {
+        "section": "Spectral lemmas",
+        "physical_pdf_pages": [
+          4,
+          4
+        ],
+        "summary": "Recursive signed adjacency matrix, eigenvalue calculation, Lemmas 2.2–2.3.",
+        "printed_pages": "952"
+      },
+      {
+        "section": "Interlacing proof",
+        "physical_pdf_pages": [
+          5,
+          5
+        ],
+        "summary": "Principal submatrix, Cauchy interlacing, completion of Theorem 1.1 proof.",
+        "printed_pages": "953"
+      },
+      {
+        "section": "End matter",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "summary": "Conclusion and references.",
+        "printed_pages": "954–955"
+      }
+    ]
+  },
+  {
+    "local_id": "M0134",
+    "title": "Boolean Functions whose Fourier Transform is Concentrated on the First Two Levels",
+    "authors": [
+      "Ehud Friedgut",
+      "Gil Kalai",
+      "Assaf Naor"
+    ],
+    "year": 2002,
+    "kind": "paper",
+    "doi": "10.1016/s0196-8858(02)00024-6",
+    "url": "https://doi.org/10.1016/s0196-8858(02)00024-6",
+    "alternate_urls": [
+      "https://doi.org/10.1016/S0196-8858(02)00024-6"
+    ],
+    "version": "Princeton-hosted author manuscript, 12 physical pages; published Advances in Applied Mathematics 29(3) (2002), pp. 427–437 (11 journal pages). W10 local IDs M0134 and FKN2002 refer to this same DOI/work; this row counts it once.",
+    "reason": "FKN-type first-two-level concentration; nearby spectral structure, not the nonzero-singleton premise of A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0134.pdf",
+    "sha256": "7c88ad69256ea8315b4695f0424f7c9279c675bbf7113275b497f14abf0731c9",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "D04 batch07 artifact identity, local path, SHA-256, file size, and 12-page physical extent rechecked; full text remains unread. Version details are recorded exactly from the batch identity evidence. Full 12-page Princeton author manuscript read; theorem statement/influence page and proof-II estimate visually checked. Alias FKN2002 is the same DOI/work and is not counted twice. The printed denominator in Lemma 3.1 requires ε<1/4 for the displayed bound to be defined.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 12,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-008",
+    "acquired_by": "D04",
+    "section_coverage": [
+      {
+        "section": "§1 introduction and Theorem 1.1",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "printed_pages": "1",
+        "summary": "Low-level Fourier concentration implies constant, dictator, or complementary-dictator closeness."
+      },
+      {
+        "section": "Corollary 1.2 and influence application",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "printed_pages": "2",
+        "summary": "Near-minimal edge boundary stability, normalized total-influence identity, and cited social-choice application."
+      },
+      {
+        "section": "§2 Proof I: weighted-majority reduction",
+        "physical_pdf_pages": [
+          3,
+          7
+        ],
+        "printed_pages": "3–7",
+        "summary": "First-level inner-product extremizer and Rademacher-sum variance rigidity, with KSTJ and elementary Chernoff proofs."
+      },
+      {
+        "section": "§3 Proof II: hypercontractive proof",
+        "physical_pdf_pages": [
+          8,
+          10
+        ],
+        "printed_pages": "8–10",
+        "summary": "Balanced extension, low-degree truncation, quadratic residual, Bonami–Beckner fourth-moment control, and first-level coefficient conclusion."
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          11,
+          12
+        ],
+        "printed_pages": "11–12",
+        "summary": "Acknowledgment and complete bibliography."
+      }
+    ],
+    "reading_coverage": "evidence/W10/reader_batches/L10_W10_six/reading_coverage.json#sources.M0134",
+    "card_path": "evidence/W10/cards/M0134.md"
+  },
+  {
+    "local_id": "M0135",
+    "title": "On the distribution of the fourier spectrum of Boolean functions",
+    "authors": [
+      "J. Bourgain"
+    ],
+    "year": 2002,
+    "kind": "paper",
+    "doi": "10.1007/bf02785861",
+    "url": "https://doi.org/10.1007/bf02785861",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Distribution of Boolean Fourier spectrum; background only, no direct A165 lower bound.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0136",
+    "title": "On the Fourier Spectrum of Symmetric Boolean Functions",
+    "authors": [
+      "Mihail N. Kolountzakis",
+      "Richard J. Lipton",
+      "Evangelos Markakis",
+      "Aranyak Mehta",
+      "Nisheeth K. Vishnoi"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.1007/s00493-009-2310-z",
+    "url": "https://doi.org/10.1007/s00493-009-2310-z",
+    "alternate_urls": [
+      "https://www.cs.yale.edu/homes/vishnoi/Publications_files/KLMMVjunta.pdf"
+    ],
+    "version": "Complete Yale-hosted author manuscript, 18 physical pages; revision date unspecified; Combinatorica 29 (2009), 363–387.",
+    "reason": "Low-order Fourier support theorem for symmetric Boolean functions with an explicit recurrence/number-theoretic proof and learning consequence.",
+    "topics": [
+      "boolean-fourier",
+      "symmetric-functions",
+      "fourier-support",
+      "learning"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0136.pdf",
+    "sha256": "e893cf464a57efb7566e44853db78ecd37bbb8245c7dd1d5cabf6da18b747156",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "Rendered source confirms tau(k) <= 4k/log(k), not 4k log(k); constants and parity are excluded in tau's definition. Full physical PDF pp.1–18 read by L08; D04 SHA-256 and page count rechecked, with complete section coverage in evidence/W10/reader_batches/L08_batch2/reading_coverage.json. Independent review pending.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 18,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-004",
+    "acquired_by": "D04",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Defines tau(k), symmetric Boolean functions and the constants/parity exceptions."
+      },
+      {
+        "unit": "§2 Results, §§2.1–2.3",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "summary": "Self-similarity theorem, exact 4k/log k statement, proof strategy and related work."
+      },
+      {
+        "unit": "§3 Notation and §4 Diophantine formulation",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "summary": "Fourier-nullness/moment equations translated to symmetric 0/1 binomial system."
+      },
+      {
+        "unit": "§5 Self-similarity theorem, §§5.1–5.2",
+        "physical_pdf_pages": [
+          6,
+          9
+        ],
+        "summary": "Prime-modulus graph proof of k/2 bound and block/Lucas proof of Theorem 2.1."
+      },
+      {
+        "unit": "§6 O(k/log k) bound",
+        "physical_pdf_pages": [
+          9,
+          16
+        ],
+        "summary": "Difference recurrence, integer-valued polynomial, prime periodicity, Lucas propagation and moment/variance contradiction."
+      },
+      {
+        "unit": "§7 Learning symmetric juntas, §§7.1–7.2",
+        "physical_pdf_pages": [
+          16,
+          17
+        ],
+        "summary": "Uniform PAC learning algorithm and use of the Fourier support bound."
+      },
+      {
+        "unit": "§8 Discussion and References",
+        "physical_pdf_pages": [
+          17,
+          18
+        ],
+        "summary": "Discussion and full bibliography read."
+      }
+    ]
+  },
+  {
+    "local_id": "M0137",
+    "title": "Hypercontractive inequality for pseudo-Boolean functions of bounded Fourier width",
+    "authors": [
+      "Gregory Gutin",
+      "Anders Yeo"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1016/j.dam.2012.04.020",
+    "url": "https://doi.org/10.1016/j.dam.2012.04.020",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1106.1049"
+    ],
+    "version": "arXiv:1106.1049v3 (latest arXiv revision, 1 December 2012); complete 10-physical-page author manuscript corresponding to the Discrete Applied Mathematics article DOI 10.1016/j.dam.2012.04.020.",
+    "reason": "Hypercontractivity for bounded Fourier-width pseudo-Boolean functions; proof-tool context when width hypotheses fit.",
+    "topics": [
+      "B169"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0137.pdf",
+    "sha256": "e1fe1a86b69d0222a37a239d981c913298858603338ff39379ca83458bd6b50d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "review_status": "pending",
+    "reader": "L08",
+    "note": "D04 batch08 verified local identity, version, SHA-256, and 10-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 verified identity; L08 read the complete body. Relevant-use boundary: Hypercontractive moment control under the paper’s bounded-width condition; use only when that support-width hypothesis is satisfied. Complete available article manuscript on hypercontractivity under bounded Fourier width; it is the author preprint, not a separate journal-formatted PDF. L08 completed the 10-page full-text read; proof coverage and theorem boundaries are in the canonical card.",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 10,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-004",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-004",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "batch": "L08_batch3",
+    "fullcard": "evidence/W10/cards/M0137.md",
+    "usage_card": "evidence/W10/cards/M0137.md",
+    "section_coverage": [
+      {
+        "unit": "Title page and abstract",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Verified title/authors and arXiv v3 side metadata; noted the manuscript's internally printed 20 November 2021 date conflict."
+      },
+      {
+        "unit": "§1 Introduction",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "coverage": "Read Fourier width definition, relation to degree, norm conventions, and main theorem roadmap."
+      },
+      {
+        "unit": "§2 (4,2)-Hypercontractive Inequality",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "coverage": "Read and checked Theorem 1 and complete sharp fourth-moment proof, including exact m-dependent factor and examples."
+      },
+      {
+        "unit": "§3 Hypercontractive Inequality",
+        "pdf_pages": [
+          4,
+          7
+        ],
+        "coverage": "Read full even-moment proof, minimally-even support counting, Theorem 2, and Corollary 1."
+      },
+      {
+        "unit": "§4 Application of Theorem 1",
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "coverage": "Read the MaxLin-AA application and its imported moment argument."
+      },
+      {
+        "unit": "§5 Further Research, acknowledgments and references",
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "coverage": "Read research questions (including the explicitly conjectural sharper bound), acknowledgments and all references."
+      }
+    ],
+    "section_coverage_path": "evidence/W10/reader_batches/L08_batch3/reading_coverage.json#sources.M0137",
+    "read_notes": "Independent complete read of arXiv v3 manuscript, pp.1–10. The PDF title page prints “November 20, 2021” while arXiv v3 metadata/side strip says 1 December 2012; discrepancy recorded without reconciliation. Auxiliary moment bounds require bounded Fourier width and do not prove A165."
+  },
+  {
+    "local_id": "M0145",
+    "title": "Analysis of Boolean Functions",
+    "authors": [
+      "Ryan O'Donnell"
+    ],
+    "year": 2014,
+    "kind": "book",
+    "doi": "10.1017/cbo9781139814782",
+    "url": "https://doi.org/10.1017/cbo9781139814782",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Textbook reference for Boolean Fourier, influence/noise, hypercontractivity, and invariance; only selected passages read.",
+    "topics": [
+      "A018",
+      "A164",
+      "A165",
+      "B161",
+      "B162",
+      "B169",
+      "B170"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0145.pdf",
+    "sha256": "c230d3688d587b83f43eff34be18713f534d58557e583643c50e64e44ae946c4",
+    "reading_status": "partial_read",
+    "read_pages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      265,
+      266,
+      267,
+      268,
+      269,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370
+    ],
+    "review_status": "pending",
+    "note": "Full 419-page PDF identity verified against Cambridge publisher metadata. Read selected complete passages: Ch. 1 §§1.2–1.4; Ch. 2 §§2.2–2.4; Ch. 9 §9.6; Ch. 11 §§11.6–11.7 (PDF pp. 20–27, 46–56, 265–269, 357–370). Not a full-book or full-chapter read.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0146",
+    "title": "Noise Sensitivity of Boolean Functions and Percolation",
+    "authors": [
+      "Christophe Garban",
+      "Jeffrey E. Steif"
+    ],
+    "year": 2014,
+    "kind": "book",
+    "doi": "10.1017/cbo9781139924160",
+    "url": "https://doi.org/10.1017/cbo9781139924160",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Noise-sensitivity monograph; background for B169. Not a bounded-independence result.",
+    "topics": [
+      "B169"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0235",
+    "title": "Noise stability of functions with low influences: Invariance and optimality",
+    "authors": [
+      "Elchanan Mossel",
+      "Ryan O’Donnell",
+      "Krzysztof Oleszkiewicz"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": "10.4007/annals.2010.171.295",
+    "url": "https://doi.org/10.4007/annals.2010.171.295",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Low-influence invariance principle and Majority Is Stablest; the low-influence assumption cannot be replaced by small maximum Fourier coefficient without proof.",
+    "topics": [
+      "B161",
+      "B169"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0235.pdf",
+    "sha256": "9921329b11b0343888adf35ad7a0257655340f27cc6f14775def083639cc2f2c",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "review_status": "pending",
+    "note": "Verified local PDF identity/hash; full text read on every physical PDF page 1–50. Detailed theorem conditions, proof interfaces, and complete physical-page coverage are in evidence/W10/cards/MOO2010.md. Independent review remains pending.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "Front matter",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Journal title page and blank physical page."
+      },
+      {
+        "section": "§1 introduction",
+        "physical_pdf_pages": [
+          3,
+          7
+        ],
+        "summary": "Abstract, influence/noise stability definitions, Majority Is Stablest and reveal conjectures, outline."
+      },
+      {
+        "section": "§2 theorem overview",
+        "physical_pdf_pages": [
+          8,
+          15
+        ],
+        "summary": "Invariance statement, applications, product-space noise, and low-influence consequences."
+      },
+      {
+        "section": "§3.1–3.4 invariance setup and Theorem 3.18",
+        "physical_pdf_pages": [
+          16,
+          21
+        ],
+        "summary": "Ensembles, Fourier identities, low-degree influence, hypercontractivity, moment hypotheses, main smooth-test theorem."
+      },
+      {
+        "section": "Proof of Theorem 3.18 and §3.5 statements",
+        "physical_pdf_pages": [
+          22,
+          25
+        ],
+        "summary": "Lindeberg replacement proof and setup for distributional/smoothed extensions."
+      },
+      {
+        "section": "Theorems 3.19–3.20 and proofs",
+        "physical_pdf_pages": [
+          26,
+          31
+        ],
+        "summary": "L1/Lévy/distributional comparisons, smoothing/truncation, and degree-tail arguments."
+      },
+      {
+        "section": "§4 Gaussian noise stability and applications",
+        "physical_pdf_pages": [
+          32,
+          39
+        ],
+        "summary": "Borell inequality, Majority Is Stablest, and reveal/prediction theorem."
+      },
+      {
+        "section": "§5 low-level counterexample",
+        "physical_pdf_pages": [
+          40,
+          41
+        ],
+        "summary": "Hermite/Fourier levels 1 and 3 exceed the majority benchmark."
+      },
+      {
+        "section": "Appendices A–C",
+        "physical_pdf_pages": [
+          42,
+          44
+        ],
+        "summary": "Hypercontractivity, Gaussian threshold-noise facts, and Theorem 4.5 proof."
+      },
+      {
+        "section": "Appendix D and references",
+        "physical_pdf_pages": [
+          45,
+          49
+        ],
+        "summary": "Boolean symmetric-sequence proof, acknowledgements, and references."
+      },
+      {
+        "section": "End matter",
+        "physical_pdf_pages": [
+          50,
+          50
+        ],
+        "summary": "Blank terminal page."
+      }
+    ]
+  },
+  {
+    "local_id": "M0111",
+    "title": "Gaussian noise sensitivity and Fourier tails",
+    "authors": [
+      "Guy Kindler",
+      "Naomi Kirshner",
+      "Ryan O’Donnell"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1007/s11856-018-1646-8",
+    "url": "https://doi.org/10.1007/s11856-018-1646-8",
+    "alternate_urls": [
+      "https://doi.org/10.1109/CCC.2012.35",
+      "https://www.cs.cmu.edu/~odonnell/papers/gaussian-noise-sensitivity.pdf"
+    ],
+    "version": "Registered source is the 2018 three-author Israel Journal of Mathematics article; only an earlier two-author 2011/CCC 2012 author manuscript (16 physical PDF pages) is currently acquired. The 2018 journal-version PDF remains unavailable.",
+    "reason": "Auxiliary Fourier-tail/noise-sensitivity boundary relevant to B169 and Gaussian PTF noise; sharp polynomial/Gaussian approximation is deferred to W18.",
+    "topics": [
+      "B169",
+      "B170"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "The acquired 16-page copy is the complete two-author 2011/CCC 2012 manuscript, not the registered 2018 three-author journal version. Its artifact identity/hash/page count are verified; no local_pdf is assigned to the registered journal version, and the conference-version body remains unread. Do not count it as reading the 2018 source. ",
+    "seed_origin": "seed375",
+    "available_alternate_versions": [
+      {
+        "version": "Two-author author manuscript dated 8 December 2011, associated with CCC 2012, pp. 137–147; 16 physical pages with article pagination ending at p. 15. This is the earlier conference manuscript, not the later 2018 Israel Journal of Mathematics article (225(1), pp. 71–109) registered in W10, which adds Naomi Kirshner and is longer.",
+        "local_pdf": "evidence/fulltexts/M0111-CCC2012-alternate.pdf",
+        "sha256": "8690b738f24f8a2f126793d9dece0b219f6fa8423b263c5687aa7a9707229779",
+        "physical_pdf_pages": 16,
+        "artifact_identity_status": "verified",
+        "reading_status": "not_read",
+        "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-006"
+      }
+    ],
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-006"
+  },
+  {
+    "local_id": "M0236",
+    "title": "The Gaussian Surface Area and Noise Sensitivity of Degree-d Polynomial Threshold Functions",
+    "authors": [
+      "Daniel M. Kane"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": "10.1109/ccc.2010.27",
+    "url": "https://doi.org/10.1109/ccc.2010.27",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Degree-d PTF surface area/noise sensitivity is a boundary reference; W18 owns sharp Gaussian approximation constants.",
+    "topics": [
+      "B170"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "reader": "W10",
+    "note": "",
+    "seed_origin": "topical"
+  },
+  {
+    "local_id": "BGP2012",
+    "title": "On K-wise Independent Distributions and Boolean Functions",
+    "authors": [
+      "Itai Benjamini",
+      "Ori Gurel-Gurevich",
+      "Ron Peled"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1201.3261",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1201.3261"
+    ],
+    "version": "arXiv:1201.3261v1; source PDF title page prints 27 Nov 2024 despite arXiv ID/version dated 16 Jan 2012",
+    "reason": "Direct analysis of K1/K2 fooling thresholds for Majority, Tribes, and majority-of-majorities; key source for finite independence and moment duality.",
+    "topics": [
+      "A018",
+      "A019"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/BGP2012.pdf",
+    "sha256": "8cddcf831d7084645bae8bdb1dcf5aaab32c101f6883a1a5c9c343422f94897e",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "review_status": "pending",
+    "note": "20-page local PDF front page and all pages checked. arXiv 1201.3261 metadata verifies 2012 title/authors. Title page separately prints Nov 27, 2024; anomaly retained.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "Title page and abstract",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Bibliographic identity, abstract, and overview of K1/K2 for k-wise independent inputs."
+      },
+      {
+        "section": "§1 introduction",
+        "physical_pdf_pages": [
+          2,
+          3
+        ],
+        "summary": "Sharp-threshold setting; definitions and distinction of K1 and K2."
+      },
+      {
+        "section": "§2 basic definitions",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "The family A(n,k,p), marginal and k-wise independence conventions."
+      },
+      {
+        "section": "§3.1 duality",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Proposition 4: extremal laws and degree-k real polynomial sandwiching."
+      },
+      {
+        "section": "§§3.2–3.3 moment problem",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Moment determinacy; Theorem 7 and equations (5)–(6), including unstandardized Bin(n,1/2) and Krawtchouk estimate."
+      },
+      {
+        "section": "§4.1–4.5 Boolean examples",
+        "physical_pdf_pages": [
+          6,
+          8
+        ],
+        "summary": "Majority, Tribes, AC0, two-level majority, Theorems 10 and 16 and XOR construction."
+      },
+      {
+        "section": "§§4.6–4.9",
+        "physical_pdf_pages": [
+          8,
+          12
+        ],
+        "summary": "Composition, percolation, Fourier transform/K2, maximum/minimum all-ones probability and parity-dependent XOR choice."
+      },
+      {
+        "section": "§5 open questions",
+        "physical_pdf_pages": [
+          13,
+          13
+        ],
+        "summary": "Question 4 asks K2 for iterated majority of threes; source does not resolve it."
+      },
+      {
+        "section": "References and appendix §§6.1–6.2",
+        "physical_pdf_pages": [
+          14,
+          16
+        ],
+        "summary": "Bibliography; K1/K2 and percolation appendix material."
+      },
+      {
+        "section": "Appendix §6.3 classical moment problem",
+        "physical_pdf_pages": [
+          16,
+          18
+        ],
+        "summary": "Moment bounds and §6.3.1 Krawtchouk proof of equation (6); §6.4 Majority."
+      },
+      {
+        "section": "Appendix §§6.5–6.6",
+        "physical_pdf_pages": [
+          19,
+          20
+        ],
+        "summary": "Further maximum/minimum atom probability estimates."
+      }
+    ]
+  },
+  {
+    "local_id": "BKS1999",
+    "title": "Noise Sensitivity of Boolean Functions and Applications to Percolation",
+    "authors": [
+      "Itai Benjamini",
+      "Gil Kalai",
+      "Oded Schramm"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": "10.1007/BF02698830",
+    "url": "https://numdam.org/item/PMIHES_1999__90__5_0/",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/9811157",
+      "https://www.numdam.org/item/PMIHES_1999__90__5_0.pdf"
+    ],
+    "version": "arXiv:math/9811157v2",
+    "reason": "Noise-sensitivity criteria in Fourier language and percolation examples; distinguishes low-degree spectral mass from total influence.",
+    "topics": [
+      "B169"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/BKS1999.pdf",
+    "sha256": "adc24916cb06729d09f8d68221fbb2fdae535b144091468c0e0d2560ec1152f1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "review_status": "pending",
+    "note": "Verified local PDF identity/hash; full text read on every physical PDF page 1–46. Detailed theorem conditions, proof interfaces, and complete physical-page coverage are in evidence/W10/cards/BKS1999.md. Independent review remains pending.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "Front matter and contents",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Abstract and contents; pages 2–3 give the article outline."
+      },
+      {
+        "section": "§1 definitions and main results",
+        "physical_pdf_pages": [
+          4,
+          11
+        ],
+        "summary": "Influence/noise definitions and Theorems 1.2–1.9, including positive low-level Fourier criterion."
+      },
+      {
+        "section": "§2 noise operator and proofs",
+        "physical_pdf_pages": [
+          12,
+          19
+        ],
+        "summary": "Noise/Fourier identities, hypercontractivity, and proofs of the influence/noise criteria."
+      },
+      {
+        "section": "§3 majority correlations",
+        "physical_pdf_pages": [
+          20,
+          28
+        ],
+        "summary": "Unweighted/weighted majority comparisons and associated proofs."
+      },
+      {
+        "section": "§4 percolation crossing",
+        "physical_pdf_pages": [
+          29,
+          31
+        ],
+        "summary": "Exploration coupling, radial connection estimates, and crossing-event noise sensitivity."
+      },
+      {
+        "section": "§§5–8 conjectures and examples",
+        "physical_pdf_pages": [
+          32,
+          40
+        ],
+        "summary": "Fourier/percolation consequences, examples, complexity discussion, and random-walk example."
+      },
+      {
+        "section": "§9 fixed-size noise",
+        "physical_pdf_pages": [
+          41,
+          43
+        ],
+        "summary": "Theorem 9.1 and need for both low and high spectral-level control."
+      },
+      {
+        "section": "References and end matter",
+        "physical_pdf_pages": [
+          44,
+          46
+        ],
+        "summary": "References and closing pages."
+      }
+    ]
+  },
+  {
+    "local_id": "DKN-HS",
+    "title": "Bounded Independence Fools Halfspaces",
+    "authors": [
+      "Ilias Diakonikolas",
+      "Parikshit Gopalan",
+      "Ragesh Jaiswal",
+      "Rocco A. Servedio",
+      "Emanuele Viola"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": "10.1137/100783030",
+    "url": "https://epubs.siam.org/doi/10.1137/100783030",
+    "alternate_urls": [
+      "https://www.cs.columbia.edu/~rocco/Public/bifh-final.pdf",
+      "https://www.ccs.neu.edu/home/viola/papers/bifh-final.pdf"
+    ],
+    "version": "Complete author manuscript dated 27 May 2010; SIAM J. Comput. 39(8) (2010), 3441–3462; 27 physical pages, article pagination ends at 26; preliminary FOCS 2009 version noted.",
+    "reason": "Direct bounded-independence fooling theorem for arbitrary real halfspaces and critical-index proof.",
+    "topics": [
+      "bounded-independence",
+      "halfspaces",
+      "polynomial-approximation"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/DKN-HS.pdf",
+    "sha256": "46a01e50a63e5693e46c79ce11007cfcc8ba6ed93712c07e0887763e9c6cb6ba",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "review_status": "pending",
+    "note": "The conclusion compares to uniform cube measure; preserve the k-wise-independence and error hypotheses. Full physical PDF pp.1–27 read by L08; D04 SHA-256 and page count rechecked, with complete section coverage in evidence/W10/reader_batches/L08_batch2/reading_coverage.json. Independent review pending.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "physical_pdf_pages": 27,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-002",
+    "acquired_by": "D04",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "Title, abstract and publication note",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Verified five authors, 27-page full manuscript, date and preliminary FOCS note."
+      },
+      {
+        "unit": "§1 Introduction and §1.1 Techniques",
+        "physical_pdf_pages": [
+          2,
+          6
+        ],
+        "summary": "Main k-wise independence theorem, tightness context, regularity/critical-index roadmap and proof strategy."
+      },
+      {
+        "unit": "§2 Probability Background",
+        "physical_pdf_pages": [
+          7,
+          8
+        ],
+        "summary": "Concentration, anti-concentration and approximation tools used later."
+      },
+      {
+        "unit": "§3 Fooling regular halfspaces, including §3.1",
+        "physical_pdf_pages": [
+          8,
+          14
+        ],
+        "summary": "Regularity definition, Theorem 3.2, sandwich-polynomial construction and Theorems 3.5/3.10."
+      },
+      {
+        "unit": "§4 Proof of Theorem 3.2",
+        "physical_pdf_pages": [
+          15,
+          17
+        ],
+        "summary": "Case split and application of polynomial approximation, anti-concentration and tail bounds."
+      },
+      {
+        "unit": "§5 Fooling non-regular halfspaces",
+        "physical_pdf_pages": [
+          18,
+          22
+        ],
+        "summary": "Critical-index definition, small-index conditioning, geometric decay, separated blocks and large-index margin proof."
+      },
+      {
+        "unit": "§5.1 Proof of the main theorem",
+        "physical_pdf_pages": [
+          23,
+          23
+        ],
+        "summary": "Combines the two critical-index regimes and tracks independence/error orders."
+      },
+      {
+        "unit": "Acknowledgments and References",
+        "physical_pdf_pages": [
+          23,
+          27
+        ],
+        "summary": "Acknowledgment and all bibliography entries read."
+      }
+    ]
+  },
+  {
+    "local_id": "DKN-PTF2",
+    "title": "Bounded Independence Fools Degree-2 Threshold Functions",
+    "authors": [
+      "Ilias Diakonikolas",
+      "Daniel M. Kane",
+      "Jelani Nelson"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": "10.1109/FOCS.2010.8",
+    "url": "https://arxiv.org/abs/0911.3389",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0911.3389",
+      "https://cseweb.ucsd.edu/~dakane/deg2ptf.pdf"
+    ],
+    "version": "arXiv:0911.3389v2",
+    "reason": "Proves polynomial-in-1/epsilon-wise independence fools degree-2 PTFs on Boolean cube and Gaussian coordinates; supplies a theorem-level upper bound, not the optimal k(d,epsilon).",
+    "topics": [
+      "B170"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/DKN-PTF2.pdf",
+    "sha256": "e561e485d702f10e3ec05ed17ba01f7143258e1d58e352f1287676509378797e",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "review_status": "pending",
+    "note": "Verified local PDF identity/hash; full text read on every physical PDF page 1–36. Detailed theorem conditions, proof interfaces, and complete physical-page coverage are in evidence/W10/cards/DKN_PTF2.md. Independent review remains pending.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "Abstract and introduction",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Identity, Boolean/Gaussian model, Theorem 1.1, related work, and notation."
+      },
+      {
+        "section": "§3 FT-mollification overview",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Univariate obstruction and low-dimensional multivariate strategy."
+      },
+      {
+        "section": "§4–5 mollifier and spectral moments",
+        "physical_pdf_pages": [
+          5,
+          11
+        ],
+        "summary": "FT-mollification estimates and quadratic-form spectral moment theorem."
+      },
+      {
+        "section": "§6 regular quadratic PTFs",
+        "physical_pdf_pages": [
+          12,
+          16
+        ],
+        "summary": "Regular-case theorem, anti-concentration, and main proof."
+      },
+      {
+        "section": "§§7–8 regularity reduction/intersections",
+        "physical_pdf_pages": [
+          17,
+          18
+        ],
+        "summary": "Decision-tree reduction and intersection theorem."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          19,
+          21
+        ],
+        "summary": "References."
+      },
+      {
+        "section": "Appendices A–C",
+        "physical_pdf_pages": [
+          22,
+          25
+        ],
+        "summary": "Linear-algebra, polynomial moment/tail, and failed univariate-approximation arguments."
+      },
+      {
+        "section": "Appendix D",
+        "physical_pdf_pages": [
+          25,
+          28
+        ],
+        "summary": "Boolean omitted proofs and Gaussian-coordinate Theorem D.1."
+      },
+      {
+        "section": "Appendix E–F",
+        "physical_pdf_pages": [
+          29,
+          31
+        ],
+        "summary": "Regularity-tree proof and intersections of halfspaces."
+      },
+      {
+        "section": "Appendix G",
+        "physical_pdf_pages": [
+          32,
+          36
+        ],
+        "summary": "Quantitative improvements, including Gaussian halfspace-intersection k bounds."
+      }
+    ]
+  },
+  {
+    "local_id": "BEL-PTF",
+    "title": "Polynomial Threshold Functions: Structure, Approximation and Pseudorandomness",
+    "authors": [
+      "Ido Ben-Eliezer",
+      "Shachar Lovett",
+      "Ariel Yadin"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0911.3473",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0911.3473"
+    ],
+    "version": "arXiv:0911.3473v3",
+    "reason": "Relates PTF approximation, influential variables, and k-wise fooling for PTFs representable through a bounded number of halfspaces; not a general all-degree solution.",
+    "topics": [
+      "B170"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/BEL-PTF.pdf",
+    "sha256": "646d2645b5929885ae7f74d56d62a92a1d586d3a5f8d8d094dbd005a591319e1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "review_status": "pending",
+    "note": "Verified local PDF identity/hash; full text read on every physical PDF page 1–30. Detailed theorem conditions, proof interfaces, and complete physical-page coverage are in evidence/W10/cards/BEL_PTF.md. Independent review remains pending.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "Abstract and §1 introduction",
+        "physical_pdf_pages": [
+          1,
+          7
+        ],
+        "summary": "Model, main theorems, relation to influences, pseudorandomness plan, and limitations."
+      },
+      {
+        "section": "§2 preliminaries",
+        "physical_pdf_pages": [
+          8,
+          13
+        ],
+        "summary": "k-wise fooling, decision trees, hypercontractivity, and concentration/anti-concentration."
+      },
+      {
+        "section": "§3 partial assignments",
+        "physical_pdf_pages": [
+          14,
+          19
+        ],
+        "summary": "Structural lemma and approximation lower bound for functions with many influential coordinates."
+      },
+      {
+        "section": "§4 few-linear-form PTF fooling",
+        "physical_pdf_pages": [
+          20,
+          28
+        ],
+        "summary": "Composition theorem, Jackson approximation, zero-set control, and proof."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          28,
+          30
+        ],
+        "summary": "References."
+      }
+    ]
+  },
+  {
+    "local_id": "HKM-PTF",
+    "title": "Bounding the Sensitivity of Polynomial Threshold Functions",
+    "authors": [
+      "Prahladh Harsha",
+      "Adam Klivans",
+      "Raghu Meka"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.4086/toc.2014.v010a001",
+    "url": "https://theoryofcomputing.org/articles/v010a001/",
+    "alternate_urls": [
+      "https://arxiv.org/abs/0909.5175",
+      "https://arxiv.org/pdf/0909.5175"
+    ],
+    "version": "arXiv:0909.5175v4",
+    "reason": "PTF noise sensitivity / sensitivity via regularity, invariance, anti-concentration; used only as an interface and not to duplicate W18’s sharp Gaussian estimates.",
+    "topics": [
+      "B161",
+      "B169"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/HKM-PTF.pdf",
+    "sha256": "ee1e56bea2e59a4ea30e227c9ae0d513c56be256752fe52a0f7cb0f0882f3bc0",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "review_status": "pending",
+    "note": "Verified local PDF identity/hash; full text read on every physical PDF page 1–20. Detailed theorem conditions, proof interfaces, and complete physical-page coverage are in evidence/W10/cards/HKM_PTF.md. Independent review remains pending.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "Abstract and title",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Title, authors, abstract."
+      },
+      {
+        "section": "§1 main results",
+        "physical_pdf_pages": [
+          2,
+          6
+        ],
+        "summary": "Definitions, Theorems 1.3–1.6, applications, and proof outline."
+      },
+      {
+        "section": "§§3–4 analytic tools",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "summary": "Regularity, hypercontractivity, Carbery–Wright, and invariance inputs."
+      },
+      {
+        "section": "§5 random restrictions",
+        "physical_pdf_pages": [
+          7,
+          10
+        ],
+        "summary": "Critical-index/regularity structural lemmas."
+      },
+      {
+        "section": "§6 Gaussian noise sensitivity",
+        "physical_pdf_pages": [
+          10,
+          11
+        ],
+        "summary": "Gaussian perturbation and anti-concentration argument."
+      },
+      {
+        "section": "§7 Boolean noise sensitivity",
+        "physical_pdf_pages": [
+          11,
+          14
+        ],
+        "summary": "Regular and general Boolean PTF bounds."
+      },
+      {
+        "section": "§8 average sensitivity",
+        "physical_pdf_pages": [
+          14,
+          16
+        ],
+        "summary": "Noise-derived and combinatorial average-sensitivity bounds."
+      },
+      {
+        "section": "References and Appendix A",
+        "physical_pdf_pages": [
+          16,
+          20
+        ],
+        "summary": "References and Hermite expansion/Gaussian perturbation-norm proof."
+      }
+    ]
+  },
+  {
+    "local_id": "Talagrand1994",
+    "title": "On Russo's Approximate Zero-One Law",
+    "authors": [
+      "Michel Talagrand"
+    ],
+    "year": 1994,
+    "kind": "paper",
+    "doi": "10.1214/aop/1176989121",
+    "url": "https://doi.org/10.1214/aop/1176989121",
+    "alternate_urls": [
+      "https://eclass.uoa.gr/modules/document/file.php/MATH654/04.%20%CE%98%CE%AD%CE%BC%CE%B1%CF%84%CE%B1%20%CE%B3%CE%B9%CE%B1%20%CE%95%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B5%CF%82/Russo.pdf"
+    ],
+    "version": null,
+    "reason": "Quantitative sharp-threshold inequality from small individual influences for monotone product-space events; relevant boundary, not the influential-coalition statement itself.",
+    "topics": [
+      "B162"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Bibliographic source located; PDF identity/access pending.",
+    "reader": "W10",
+    "seed_origin": "topical"
+  },
+  {
+    "local_id": "MZ-PTF",
+    "title": "Pseudorandom Generators for Polynomial Threshold Functions",
+    "authors": [
+      "Raghu Meka",
+      "David Zuckerman"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.0910.4122",
+    "url": "https://arxiv.org/abs/0910.4122",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0910.4122"
+    ],
+    "version": "arXiv:0910.4122v5, dated 15 November 2011; complete 28 physical pages; SIAM J. Comput. 2013 journal version and STOC 2010 preliminary version noted by the paper.",
+    "reason": "Explicit PRGs for halfspaces, low-degree PTFs, and spherical caps with distinct regularity and error regimes.",
+    "topics": [
+      "pseudorandom-generators",
+      "halfspaces",
+      "polynomial-threshold-functions",
+      "invariance"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/MZ-PTF.pdf",
+    "sha256": "2546fc2c3c232371b31438c8c04cb2db96dd8821cb6f3403edaeb59c0c6bdf45",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "review_status": "pending",
+    "note": "The regular degree-d PTF error is O(d epsilon^{2/(4d+1)}); caps require epsilon greater than a constant times log(n)/n^{1/4}. Full physical PDF pp.1–28 read by L08; D04 SHA-256 and page count rechecked, with complete section coverage in evidence/W10/reader_batches/L08_batch2/reading_coverage.json. Independent review pending.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "physical_pdf_pages": 28,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-003",
+    "acquired_by": "D04",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "Title and abstract",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Verified title, authors and complete article scope."
+      },
+      {
+        "unit": "§1 Introduction, §§1.1–1.2",
+        "physical_pdf_pages": [
+          2,
+          5
+        ],
+        "summary": "Theorems 1.2–1.4, halfspace/PTF construction roadmaps and applications."
+      },
+      {
+        "unit": "§2 PRGs for monotone ROBPs",
+        "physical_pdf_pages": [
+          5,
+          8
+        ],
+        "summary": "INW input and acceptance-probability interval reduction to logarithmic width."
+      },
+      {
+        "unit": "§3 Main generator construction",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Hashing/bucketing generator, construction parameters and test-family table."
+      },
+      {
+        "unit": "§4 PRGs for halfspaces, §§4.1–4.3",
+        "physical_pdf_pages": [
+          9,
+          14
+        ],
+        "summary": "Regular halfspace invariance proof; arbitrary-halfspace structural dichotomy/balanced hashing; INW derandomization."
+      },
+      {
+        "unit": "§5 PRGs for PTFs, §§5.1–5.3",
+        "physical_pdf_pages": [
+          14,
+          23
+        ],
+        "summary": "Regular PTF theorem and exact error exponent; random restriction/block-tree decomposition; conditioning and arbitrary-PTF theorem."
+      },
+      {
+        "unit": "§6 PRGs for spherical caps",
+        "physical_pdf_pages": [
+          23,
+          25
+        ],
+        "summary": "Gaussian/sphere comparison, fourth-moment lemma, 8-wise-independence reduction and cap theorem."
+      },
+      {
+        "unit": "Acknowledgments and References",
+        "physical_pdf_pages": [
+          25,
+          27
+        ],
+        "summary": "Acknowledgment and complete bibliography read."
+      },
+      {
+        "unit": "Appendix A: Non-Explicit Bounds",
+        "physical_pdf_pages": [
+          28,
+          28
+        ],
+        "summary": "Read the separate probabilistic-existence bound; distinguished it from explicit generator constructions."
+      }
+    ]
+  },
+  {
+    "local_id": "FKN2002",
+    "title": "Boolean Functions Whose Fourier Transform Is Concentrated on the First Two Levels and Neutral Social Choice",
+    "authors": [
+      "Ehud Friedgut",
+      "Gil Kalai",
+      "Assaf Naor"
+    ],
+    "year": 2002,
+    "kind": "paper",
+    "doi": "10.1016/S0196-8858(02)00024-6",
+    "url": "https://doi.org/10.1016/S0196-8858(02)00024-6",
+    "alternate_urls": [],
+    "version": "Alias of seed record M0134 for the same DOI/work; the sole acquired author-manuscript PDF is attached to M0134.",
+    "reason": "Stability for Fourier mass concentrated on levels 0 and 1; adjacent rigidity context, distinct from requiring every singleton coefficient to be nonzero.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Duplicate catalog label for M0134 (same DOI, title/work, and authors); do not count as a separate research work or PDF. M0134 is the canonical seed375 row.",
+    "reader": "W10",
+    "seed_origin": "topical",
+    "duplicate_of": "M0134",
+    "duplicate_work": true
+  },
+  {
+    "local_id": "ODsurvey2008",
+    "title": "Some Topics in Analysis of Boolean Functions",
+    "authors": [
+      "Ryan O’Donnell"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.cs.cmu.edu/afs/cs/Web/People/odonnell/papers/analysis-survey.pdf",
+    "alternate_urls": [
+      "https://eccc.weizmann.ac.il/report/2008/055/"
+    ],
+    "version": null,
+    "reason": "Survey-level bridge for Fourier, influence, noise, and hypercontractivity; used as a selective overview, not a theorem source when a primary proof is available.",
+    "topics": [
+      "A165",
+      "B169"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Bibliographic source located; PDF identity/access pending.",
+    "reader": "W10",
+    "seed_origin": "topical"
+  },
+  {
+    "local_id": "rejected-artifact-M0118",
+    "title": "Magneto-orbital helices and multiferroicity",
+    "authors": [
+      "N. J. Perks",
+      "R. D. Johnson",
+      "C. Martin",
+      "L. C. Chapon",
+      "P. G. Radaelli"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1208.0775",
+    "alternate_urls": [],
+    "version": "arXiv:1208.0775v1",
+    "reason": "Rejected as a wrong local artifact formerly associated with M0118; first pages identify an unrelated condensed-matter physics paper, not Boolean Fourier analysis. This entry is an audit record and does not count toward W10’s relevant-source target.",
+    "topics": [],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/rejected-artifact-M0118.pdf",
+    "sha256": "b51fcf4f379757a1612d85c1b8ec4fca40cb4c00f3f7272ee23297c8a487ed39",
+    "reading_status": "partial_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "review_status": "pending",
+    "note": "First pages read from PDF: title “Magneto-orbital helices and multiferroicity”, arXiv:1208.0775v1; unrelated to Boolean analysis. Audit-only; excluded from relevance counts.",
+    "reader": "W10",
+    "seed_origin": "audit_only"
+  },
+  {
+    "local_id": "M0110",
+    "title": "Real Analysis in Computer Science: A Collection of Open Problems",
+    "authors": [
+      "Yuval Filmus",
+      "Hamed Hatami",
+      "Steven Heilman",
+      "Elchanan Mossel",
+      "Ryan O’Donnell",
+      "Sushant Sachdeva",
+      "Andrew Wan",
+      "Karl Wimmer"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://simons.berkeley.edu/sites/default/files/openprobsmerged.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Direct problem statements for A165 and B162; historical degree-versus-largest-influence and Gaussian PTF finite-independence question also inform W10. Open-problem compilation only, not proof source.",
+    "topics": [
+      "A165",
+      "A166",
+      "B162",
+      "B170"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0110.pdf",
+    "sha256": "d56fc4aa92c3826e59679cab1cc474ff2dca7e715c1abb5a4b564ac17ff3f2ab",
+    "reading_status": "partial_read",
+    "read_pages": [
+      1,
+      6,
+      11,
+      13,
+      14
+    ],
+    "review_status": "pending",
+    "note": "Simons PDF front page verifies compilation title/authors/year. Read PDF pp. 1, 6, 11, 13–14 for Boolean problems. Fixed-error B162 statement is checked against Friedgut 2004, Conjecture 2.6.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0116",
+    "title": "A polynomial bound in Freiman's theorem",
+    "authors": [
+      "Mei-Chu Chang"
+    ],
+    "year": 2002,
+    "kind": "paper",
+    "doi": "10.1215/s0012-7094-02-11331-3",
+    "url": "https://doi.org/10.1215/s0012-7094-02-11331-3",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Retained from seed375 as assigned; Freiman/additive-combinatorics topic has no verified direct Boolean-Fourier interface in this pass, so excluded from W10 relevant-source count.",
+    "topics": [],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0119",
+    "title": "A quantitative version of the idempotent theorem in harmonic analysis",
+    "authors": [
+      "Benjamin Green",
+      "Tom Sanders"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.4007/annals.2008.168.1025",
+    "url": "https://doi.org/10.4007/annals.2008.168.1025",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Retained from seed375 as assigned; general idempotent theorem is not a verified Boolean-cube source in this pass, so excluded from W10 relevant-source count.",
+    "topics": [],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0120",
+    "title": "Boolean Functions with small Spectral Norm",
+    "authors": [
+      "Ben Green",
+      "Tom Sanders"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1007/s00039-008-0654-y",
+    "url": "https://doi.org/10.1007/s00039-008-0654-y",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Boolean small spectral norm results; adjacent to A165 but L1 spectral norm must remain distinct from L0 support.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0121",
+    "title": "On the boundedness of Bernoulli processes over thin sets",
+    "authors": [
+      "Rafał Latała"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.mimuw.edu.pl/~rlatala/papers/ECP-2008-1987.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Retained from seed375 as assigned; Bernoulli-process boundedness is outside W10’s verified Boolean-Fourier scope, so excluded from relevant-source count.",
+    "topics": [],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0125",
+    "title": "On the suprema of Bernoulli processes",
+    "authors": [
+      "Rafał Latała",
+      "W. Bednorz"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.mimuw.edu.pl/~rlatala/papers/Berncras.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Retained from seed375 as assigned; Bernoulli-process suprema are outside W10’s verified Boolean-Fourier scope, so excluded from relevant-source count.",
+    "topics": [],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0126",
+    "title": "Communication is bounded by root of rank",
+    "authors": [
+      "Shachar Lovett"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1145/2591796.2591799",
+    "url": "https://doi.org/10.1145/2591796.2591799",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Log-rank/communication-complexity relation is adjacent to Fourier sparsity, but does not directly address influence hypotheses; auxiliary only.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0127",
+    "title": "On the boundedness of Bernoulli processes",
+    "authors": [
+      "Rafał Latała",
+      "W. Bednorz"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.mimuw.edu.pl/~rlatala/papers/Bernfinal.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Retained from seed375 as assigned; Bernoulli-process boundedness is outside W10’s verified Boolean-Fourier scope, so excluded from relevant-source count.",
+    "topics": [],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0130",
+    "title": "Boolean Functions with Small Spectral Norm, Revisited",
+    "authors": [
+      "Tom Sanders"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1017/s030500411800035x",
+    "url": "https://doi.org/10.1017/s030500411800035x",
+    "alternate_urls": [
+      "https://doi.org/10.1017/S030500411800035X"
+    ],
+    "version": "Accepted manuscript in Oxford University Research Archive; Cambridge Philosophical Society article, Mathematical Proceedings of the Cambridge Philosophical Society 167(2) (2019), pp. 335–344; 11 physical pages.",
+    "reason": "Boolean small-spectral-norm structure, auxiliary to A165; spectral norm is not support sparsity.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0130.pdf",
+    "sha256": "06f037b26d4c3681bc793f63f9d12bb3eb4485a650986e7d3eea06025c0c6212",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "review_status": "pending",
+    "note": "D04 batch07 artifact identity, local path, SHA-256, file size, and 11-page physical extent rechecked; full text remains unread. Version details are recorded exactly from the batch identity evidence. Full body read in arXiv:1804.04050v3 text corresponding to the locally verified Oxford accepted manuscript; the local embedded text layer is garbled. Physical-page alignment is 1–11; theorem and tester pages were rendered. Review pending.",
+    "reader": "W10",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 11,
+    "acquisition_ref": "downloads/D04/batch07/pdf_identity.jsonl#batch07:D04-W10-B07-007",
+    "acquired_by": "D04",
+    "section_coverage": [
+      {
+        "section": "§1 introduction and main results",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "printed_pages": "1–2",
+        "summary": "Fourier A-norm, integer-valued signed-subspace structure theorem, Boolean small-group comparison, and proof outline."
+      },
+      {
+        "section": "§2 conditional proof of main theorem",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "printed_pages": "2–4",
+        "summary": "Propositions 2.1–2.3, Lemma 2.4, Theorem 2.5, and iterative spectral-norm reduction."
+      },
+      {
+        "section": "§3 quantitative continuity",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "printed_pages": "5–6",
+        "summary": "Croot–Laba–Sisask character approximation and iterative subspace refinement in local Lp norms."
+      },
+      {
+        "section": "§4 small spectral norm to small doubling",
+        "physical_pdf_pages": [
+          7,
+          8
+        ],
+        "printed_pages": "7–8",
+        "summary": "Almost-integer support, arithmetic connectivity, Chebyshev polynomials, and Balog–Szemerédi–Gowers."
+      },
+      {
+        "section": "§5 variant of Freiman's theorem",
+        "physical_pdf_pages": [
+          8,
+          10
+        ],
+        "printed_pages": "8–10",
+        "summary": "Plünnecke, Croot–Sisask, covering and Chang lemmas yield a dense subspace piece."
+      },
+      {
+        "section": "Acknowledgment and references",
+        "physical_pdf_pages": [
+          10,
+          11
+        ],
+        "printed_pages": "10–11",
+        "summary": "Acknowledgment and complete bibliography."
+      }
+    ],
+    "reading_coverage": "evidence/W10/reader_batches/L10_W10_six/reading_coverage.json#sources.M0130",
+    "card_path": "evidence/W10/cards/M0130.md"
+  },
+  {
+    "local_id": "M0132",
+    "title": "Fast Fourier Sparsity Testing",
+    "authors": [
+      "Grigory Yaroslavtsev",
+      "Samson Zhou"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1137/1.9781611976014.10",
+    "url": "https://doi.org/10.1137/1.9781611976014.10",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1910.05686"
+    ],
+    "version": "arXiv:1910.05686v1, submitted 13 October 2019; complete 19-physical-page author preprint corresponding to the SIAM proceedings work DOI 10.1137/1.9781611976014.10.",
+    "reason": "Algorithmic Fourier-sparsity testing; auxiliary computational context for A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0132.pdf",
+    "sha256": "5885727cc0bbff9156867d1bf74c60ef2148981a0eef1bbbc749cfbf24a338e8",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current D04 verified the local PDF identity and physical extent. D04 batch08 verified local identity, version, SHA-256, and 19-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 verified identity; L08 read the complete body. Relevant-use boundary: Algorithmic Fourier-sparsity testing and noisy-spectrum distance estimation; auxiliary to structural Fourier/influence claims. Complete available arXiv article; studies query-efficient estimation/testing of distance to Fourier-sparse functions, including noisy spectra. Only one version of the work acquired. L08 completed the 19-page full-text read; proof coverage and theorem boundaries are in the canonical card.",
+    "reader": "L08",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 19,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-003",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-003",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "batch": "L08_batch3",
+    "fullcard": "evidence/W10/cards/M0132.md",
+    "usage_card": "evidence/W10/cards/M0132.md",
+    "section_coverage": [
+      {
+        "unit": "Title page, abstract, and §1 opening",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Verified arXiv v1 identity; read abstract and distinction between Hamming testing and squared-L2 distance estimation."
+      },
+      {
+        "unit": "§1 Introduction, §§1.1–1.2",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "coverage": "Read definitions, related work, exact Theorems 1.1–1.2, parameter regimes, and motivation."
+      },
+      {
+        "unit": "§2 Preliminaries",
+        "pdf_pages": [
+          4,
+          6
+        ],
+        "coverage": "Read real-valued Fourier/L2 conventions, sparse projection, subspace hashing and Poisson summation."
+      },
+      {
+        "unit": "§3 Algorithm and proof of Theorem 1.1, §§3.1–3.3",
+        "pdf_pages": [
+          7,
+          14
+        ],
+        "coverage": "Read Algorithms 1–2, bucket-energy identity, hashing bias/variance, estimator concentration/median bounds, and the complete distance-estimation proof."
+      },
+      {
+        "unit": "§4 Lower bounds",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "coverage": "Read the Yao/Gaussian-prior construction, covariance/total-variation comparison, and non-adaptive Omega(sqrt(s)) query lower bound."
+      },
+      {
+        "unit": "Acknowledgments and references",
+        "pdf_pages": [
+          16,
+          18
+        ],
+        "coverage": "Read acknowledgment and complete bibliography."
+      },
+      {
+        "unit": "Appendix A",
+        "pdf_pages": [
+          19,
+          19
+        ],
+        "coverage": "Read supplementary lower-bound detail; no further appendix."
+      }
+    ],
+    "section_coverage_path": "evidence/W10/reader_batches/L08_batch3/reading_coverage.json#sources.M0132",
+    "read_notes": "Independent complete read of arXiv v1, pp.1–19, including Appendix A. Auxiliary algorithmic result estimates squared L2 distance to real-valued s-sparse Fourier functions under non-adaptive oracle access; it does not imply A165’s Boolean structural L0 lower bound."
+  },
+  {
+    "local_id": "M0133",
+    "title": "Dimension of Projections in Boolean Functions",
+    "authors": [
+      "Ramamohan Paturi",
+      "Francis Zane"
+    ],
+    "year": 1998,
+    "kind": "paper",
+    "doi": "10.1137/s0895480197318313",
+    "url": "https://doi.org/10.1137/s0895480197318313",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Fourier dimension of projections; auxiliary to support-span distinctions in A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0138",
+    "title": "Spectral Norm of Symmetric Functions",
+    "authors": [
+      "Anil Ada",
+      "Omar Fawzi",
+      "Hamed Hatami"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1007/978-3-642-32512-0_29",
+    "url": "https://doi.org/10.1007/978-3-642-32512-0_29",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1205.5282"
+    ],
+    "version": "arXiv:1205.5282v1, submitted 23 May 2012; complete 17-physical-page author manuscript corresponding to the 2012 conference proceedings chapter DOI 10.1007/978-3-642-32512-0_29.",
+    "reason": "Spectral norm of symmetric functions; special-class auxiliary source for A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0138.pdf",
+    "sha256": "33bb67f476c391339fa7c9e2c77199c2bbbb325ae78de04f0dacba96bf1793c8",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current D04 verified the local PDF identity and physical extent. D04 batch08 verified local identity, version, SHA-256, and 17-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 verified identity; L08 read the complete body. Relevant-use boundary: Specialized comparison of Fourier L1 spectral norm on symmetric Boolean functions; not a theorem about Fourier support cardinality by itself. Complete available arXiv article; authors characterize spectral norm for symmetric Boolean functions. This is one preprint version of the registered proceedings work. L08 completed the 17-page full-text read; proof coverage and theorem boundaries are in the canonical card.",
+    "reader": "L08",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 17,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-005",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-005",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "batch": "L08_batch3",
+    "fullcard": "evidence/W10/cards/M0138.md",
+    "usage_card": "evidence/W10/cards/M0138.md",
+    "section_coverage": [
+      {
+        "unit": "Title page and §1 Introduction",
+        "pdf_pages": [
+          1,
+          4
+        ],
+        "coverage": "Verified arXiv v1 and title-page date discrepancy; read spectral norm, symmetry/r-parameter definitions, Theorem 1.1, corollaries and proof overview."
+      },
+      {
+        "unit": "§2 Preliminaries",
+        "pdf_pages": [
+          4,
+          6
+        ],
+        "coverage": "Read Fourier normalization, symmetric levels, derivatives, and R(f) identities."
+      },
+      {
+        "unit": "§3 Proof of Theorem 1.1, §3.1 Upper Bound",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "coverage": "Read binomial-tail/symmetry proof for the upper bound."
+      },
+      {
+        "unit": "§3.2 Lower Bound, §3.2.1: r well below n/2",
+        "pdf_pages": [
+          7,
+          10
+        ],
+        "coverage": "Read endpoint derivative-energy estimates, nonconstant mass bound, middle-level Fourier mass, and spectral-L1 conversion."
+      },
+      {
+        "unit": "§3.2 Lower Bound, §3.2.2: r near n/2",
+        "pdf_pages": [
+          11,
+          13
+        ],
+        "coverage": "Read noise-sensitivity derivative lemma, imported interleaving/unimodality input, parameter choices and completion of the lower bound."
+      },
+      {
+        "unit": "§4 Proof of Corollary 1.2",
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "coverage": "Read parity-decision-tree lower bound via Fourier L1 and upper bound via pruning by Hamming-tail constancy."
+      },
+      {
+        "unit": "§5 Conclusion and Future Work",
+        "pdf_pages": [
+          14,
+          15
+        ],
+        "coverage": "Read conclusions and approximate-spectral-norm conjectures, explicitly distinguished from proved results."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          16,
+          17
+        ],
+        "coverage": "Read complete bibliography."
+      }
+    ],
+    "section_coverage_path": "evidence/W10/reader_batches/L08_batch3/reading_coverage.json#sources.M0138",
+    "read_notes": "Independent complete read of arXiv v1, pp.1–17. The title page prints “September 19, 2018” while arXiv v1 metadata/side strip says 23 May 2012; discrepancy recorded without reconciliation. Symmetric-function spectral L1 theorem is auxiliary only, not a general L0 lower bound."
+  },
+  {
+    "local_id": "M0139",
+    "title": "On the minimal fourier degree of symmetric Boolean functions",
+    "authors": [
+      "Amir Shpilka",
+      "Avishay Tal"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1007/s00493-014-2875-z",
+    "url": "https://doi.org/10.1007/s00493-014-2875-z",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Minimal Fourier degree in symmetric Boolean functions; degree context, not Fourier support size.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0140",
+    "title": "The List-Decoding Size of Fourier-Sparse Boolean Functions",
+    "authors": [
+      "Ishay Haviv",
+      "Oded Regev"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.1145/2898439",
+    "url": "https://doi.org/10.1145/2898439",
+    "alternate_urls": [
+      "https://drops.dagstuhl.de/storage/00lipics/lipics-vol033-ccc2015/LIPIcs.CCC.2015.58/LIPIcs.CCC.2015.58.pdf"
+    ],
+    "version": "Official LIPIcs CCC 2015 proceedings paper, vol. 33, pp. 58–71; DOI 10.4230/LIPIcs.CCC.2015.58; 14 physical pages. The W10 registry’s ACM DOI 10.1145/2898439 identifies this same CCC work; only the official Dagstuhl full PDF was acquired.",
+    "reason": "List-decoding size for Fourier-sparse Boolean functions; auxiliary combinatorial context for A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0140.pdf",
+    "sha256": "5913c5536612ed9e8f1fe937cac2bc3113b4619cc4ddc2d7d6d9ecd1df7fa7bc",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round. D04 batch08 verified local identity, version, SHA-256, and 14-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 did not read the body. Relevant-use boundary: List-decoding bounds and learning/property-testing consequences for Fourier-sparse Boolean functions; auxiliary, not an influence inequality. Complete official open-access proceedings paper; not a sample. The proceedings landing page states CC BY 3.0 Unported. The official Dagstuhl CCC 2015 DOI 10.4230/LIPIcs.CCC.2015.58 and the registry ACM DOI 10.1145/2898439 identify the same work; only one version/work is counted. Full physical pages 1–14 read; identity, local SHA-256, and section coverage recorded in the L10_W10_six batch. Review pending.",
+    "reader": "W10",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 14,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-006",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-006",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "section_coverage": [
+      {
+        "section": "§1 introduction and results",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "printed_pages": "58–62",
+        "summary": "Definitions of Fourier sparsity/distance; list-size, exact learning, and Booleanity-testing results and proof overview."
+      },
+      {
+        "section": "§2 Fourier preliminaries",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "printed_pages": "63–64",
+        "summary": "Uncertainty principle, distinct sparse-function distance, non-Boolean support, affine-subspace indicators, and Chernoff bound."
+      },
+      {
+        "section": "§3 list decoding and sample complexity",
+        "physical_pdf_pages": [
+          8,
+          10
+        ],
+        "printed_pages": "65–67",
+        "summary": "Spectral-norm sampling approximation, list-size proof, randomized exact-learning theorem, and sample lower bound."
+      },
+      {
+        "section": "§4 Booleanity testing",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "printed_pages": "68–70",
+        "summary": "Random-subspace restriction, O(k log^2 k) upper bound, and nonadaptive one-sided Ω(k log k) lower bound."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "printed_pages": "70–71",
+        "summary": "Complete bibliography."
+      }
+    ],
+    "reading_coverage": "evidence/W10/reader_batches/L10_W10_six/reading_coverage.json#sources.M0140",
+    "card_path": "evidence/W10/cards/M0140.md"
+  },
+  {
+    "local_id": "M0141",
+    "title": "On the Fourier spectrum of functions on Boolean cubes",
+    "authors": [
+      "Andreas Defant",
+      "Mieczysław Mastyło",
+      "Antonio Pérez"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1007/s00208-018-1756-y",
+    "url": "https://doi.org/10.1007/s00208-018-1756-y",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1706.03670"
+    ],
+    "version": "arXiv:1706.03670v1, submitted 12 June 2017; complete 25-physical-page author manuscript corresponding to the journal article DOI 10.1007/s00208-018-1756-y.",
+    "reason": "Boolean-cube Fourier spectrum results; auxiliary to A165.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0141.pdf",
+    "sha256": "312f3f2106f27dd7be6830b4a6e01a2f6decc6e0377dc7c44ea432baa34ced31",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round. D04 batch08 verified local identity, version, SHA-256, and 25-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 did not read the body. Relevant-use boundary: Degree-conditioned Fourier coefficient norm inequality; auxiliary analytic estimate, with degree and bounded-range assumptions to be checked by reader. Complete available arXiv article; proves Fourier-coefficient norm bounds for bounded degree-d Boolean-cube functions. This is one preprint version of the journal work. Full physical pages 1–25 read; identity, local SHA-256, and section coverage recorded in the L10_W10_six batch. Review pending.",
+    "reader": "W10",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 25,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-007",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-007",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "section_coverage": [
+      {
+        "section": "§1 introduction and Bohnenblust–Hille statement",
+        "physical_pdf_pages": [
+          1,
+          7
+        ],
+        "printed_pages": "1–7",
+        "summary": "Boolean-cube Fourier model, norm comparisons, theorem statement, and real-polynomial boundary estimates."
+      },
+      {
+        "section": "§2 homogeneous case",
+        "physical_pdf_pages": [
+          7,
+          12
+        ],
+        "printed_pages": "7–12",
+        "summary": "Blei mixed-norm inequality, hypercontractivity, multilinear polarization, and degree-reduction recurrence."
+      },
+      {
+        "section": "§3 degree-d case",
+        "physical_pdf_pages": [
+          12,
+          21
+        ],
+        "printed_pages": "12–21",
+        "summary": "Tetrahedral/multiaffine extension, Bernstein–Chebyshev interpolation, and proof of the full coefficient norm bound."
+      },
+      {
+        "section": "§4 remarks and open problems",
+        "physical_pdf_pages": [
+          21,
+          24
+        ],
+        "printed_pages": "21–24",
+        "summary": "Aaronson–Ambainis discussion, known substitute, Lorentz refinement, and homogeneous-part norm question."
+      },
+      {
+        "section": "References and author addresses",
+        "physical_pdf_pages": [
+          24,
+          25
+        ],
+        "printed_pages": "24–25",
+        "summary": "Complete bibliography and affiliations."
+      }
+    ],
+    "reading_coverage": "evidence/W10/reader_batches/L10_W10_six/reading_coverage.json#sources.M0141",
+    "card_path": "evidence/W10/cards/M0141.md"
+  },
+  {
+    "local_id": "M0142",
+    "title": "On parity decision trees for Fourier-sparse Boolean functions",
+    "authors": [
+      "Nikhil Shekhar Mande",
+      "Swagato Sanyal"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.1145/3647629",
+    "url": "https://doi.org/10.1145/3647629",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2008.00266"
+    ],
+    "version": "arXiv:2008.00266v1, submitted 1 August 2020; complete 23-physical-page author manuscript corresponding to the ACM work DOI 10.1145/3647629.",
+    "reason": "Parity decision trees for Fourier-sparse functions; algorithmic context, not a support lower bound.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0142.pdf",
+    "sha256": "2d97008998aa802838094a72afb2334d9467dd6cd40f92858c9d6f71ff9df7fa",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round. D04 batch08 verified local identity, version, SHA-256, and 23-page physical extent; title/authors and final-page scope checked. Complete article PDF; D04 did not read the body. Relevant-use boundary: Parity decision-tree results for Fourier-sparse functions; reader must keep the O(sqrt(k)) upper-bound statement and extra folding hypotheses distinct from a lower-bound claim. Complete available arXiv article; parity decision-tree upper bounds and Fourier-spectrum folding results. One author-preprint version only. Full physical pages 1–23 read; identity, local SHA-256, and section coverage recorded in the L10_W10_six batch. Review pending.",
+    "reader": "W10",
+    "seed_origin": "seed375",
+    "physical_pdf_pages": 23,
+    "acquired_by": "D04",
+    "acquisition_ref": "downloads/D04/batch08/acquisition.json#D04-W10-B08-008",
+    "identity_evidence_ref": "downloads/D04/batch08/pdf_identity.jsonl#D04-W10-B08-008",
+    "identity_status_detail": "verified_title_authors_version_and_document_scope",
+    "section_coverage": [
+      {
+        "section": "§1 introduction",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "printed_pages": "1–2",
+        "summary": "XOR log-rank/PDT motivation and overview of unconditional and conditional results."
+      },
+      {
+        "section": "§2 notation and preliminaries",
+        "physical_pdf_pages": [
+          3,
+          6
+        ],
+        "printed_pages": "3–6",
+        "summary": "Fourier support and sparsity, Titsworth identity, restriction to affine subspaces, bucket complexity, and exact folding definition."
+      },
+      {
+        "section": "§3 contributions",
+        "physical_pdf_pages": [
+          7,
+          10
+        ],
+        "printed_pages": "7–10",
+        "summary": "Statements and proof ideas for random parity sampling, conditional folding improvements, and structural theorems."
+      },
+      {
+        "section": "§4 proof of Theorem 3.2",
+        "physical_pdf_pages": [
+          11,
+          14
+        ],
+        "printed_pages": "11–14",
+        "summary": "Warm-up and two-stage random parity sampling proof of expected bucket-complexity reduction."
+      },
+      {
+        "section": "§5 proof of Theorem 3.3",
+        "physical_pdf_pages": [
+          14,
+          15
+        ],
+        "printed_pages": "14–15",
+        "summary": "Degree cutoff and two-phase sampling proof under the explicit folding premise."
+      },
+      {
+        "section": "§6 proofs of Theorems 3.7 and 3.8",
+        "physical_pdf_pages": [
+          15,
+          20
+        ],
+        "printed_pages": "15–20",
+        "summary": "Sign-class parity, plateauedness, granularity, Parseval, and addressing-function construction."
+      },
+      {
+        "section": "Appendix A",
+        "physical_pdf_pages": [
+          21,
+          22
+        ],
+        "printed_pages": "21–22",
+        "summary": "A pairwise-sum condition necessary for Fourier support is not sufficient for Booleanity."
+      },
+      {
+        "section": "Appendix B and references",
+        "physical_pdf_pages": [
+          23,
+          23
+        ],
+        "printed_pages": "23",
+        "summary": "Addressing-function folding estimates and complete bibliography."
+      }
+    ],
+    "reading_coverage": "evidence/W10/reader_batches/L10_W10_six/reading_coverage.json#sources.M0142",
+    "card_path": "evidence/W10/cards/M0142.md"
+  },
+  {
+    "local_id": "M0143",
+    "title": "Fourier Analysis on Finite Groups and Applications",
+    "authors": [
+      "Audrey Terras"
+    ],
+    "year": 1999,
+    "kind": "book",
+    "doi": "10.1017/cbo9780511626265",
+    "url": "https://doi.org/10.1017/cbo9780511626265",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Finite-group Fourier reference; Boolean cube is an elementary abelian 2-group, so use only for shared harmonic-analysis definitions.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "M0144",
+    "title": "Boolean Function Complexity: Advances and Frontiers",
+    "authors": [
+      "Stasys Jukna"
+    ],
+    "year": 2012,
+    "kind": "book",
+    "doi": "10.1007/978-3-642-24508-4",
+    "url": "https://doi.org/10.1007/978-3-642-24508-4",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Edited volume on Boolean-function complexity; selected chapters must be identified before any claim is attributed.",
+    "topics": [
+      "A165"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "note": "Imported from seed375. Current metadata and source-file identity have not yet been independently checked this round.",
+    "reader": "W10",
+    "seed_origin": "seed375"
+  },
+  {
+    "local_id": "KANE2011",
+    "title": "k-Independent Gaussians Fool Polynomial Threshold Functions",
+    "authors": [
+      "Daniel M. Kane"
+    ],
+    "year": 2011,
+    "doi": null,
+    "url": "https://arxiv.org/abs/1012.1614",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1012.1614",
+      "https://cseweb.ucsd.edu/~dakane/foolingPTFs.pdf"
+    ],
+    "version": "arXiv:1012.1614v3",
+    "reason": "Direct source for B170: k-wise independent standard Gaussian marginals fool all degree-d PTFs with explicit but nonoptimal dependence on degree and error.",
+    "topics": [
+      "B170"
+    ],
+    "local_pdf": "evidence/fulltexts/KANE2011.pdf",
+    "sha256": "185a034b7cd99367f9d8c664676b14c207edfb12a8be196fe52b0186cab5a802",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "note": "Local 10-page PDF title/author verified; arXiv v3 metadata/abstract checked. Full text read.",
+    "kind": "paper",
+    "reader": "W10",
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "review_status": "pending",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "§§I–II introduction and overview",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Theorem 1, Proposition 2, model, and comparison plan."
+      },
+      {
+        "section": "§III moment bounds",
+        "physical_pdf_pages": [
+          2,
+          3
+        ],
+        "summary": "Moments and decoupling for multilinear Gaussian forms."
+      },
+      {
+        "section": "§IV structure",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Structured decomposition used in the proof."
+      },
+      {
+        "section": "§V FT-mollification",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Smooth threshold approximation by Fourier mollification."
+      },
+      {
+        "section": "§VI Taylor error",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Taylor expansion and moment matching under k-wise independence."
+      },
+      {
+        "section": "§VII approximation error",
+        "physical_pdf_pages": [
+          6,
+          9
+        ],
+        "summary": "Error terms, Theorem 13 anti-concentration, sign sandwich, and explicit k choice on p.8."
+      },
+      {
+        "section": "§§VIII–IX general polynomials and conclusion",
+        "physical_pdf_pages": [
+          9,
+          10
+        ],
+        "summary": "Reduction to multilinear polynomials, proof of Theorem 1, O(epsilon) expectation error, limitations."
+      }
+    ]
+  },
+  {
+    "local_id": "FRIEDGUT2004",
+    "title": "Influences in Product Spaces: KKL and BKKKL Revisited",
+    "authors": [
+      "Ehud Friedgut"
+    ],
+    "year": 2004,
+    "doi": "10.1017/S0963548303005832",
+    "url": "https://doi.org/10.1017/S0963548303005832",
+    "alternate_urls": [
+      "https://www.researchgate.net/publication/2840412_Influences_in_product_spaces_KKL_and_BKKKL_revisited"
+    ],
+    "version": null,
+    "reason": "Primary source of Conjecture 2.6 on discrete fixed-error influential tribes and Conjecture 2.2 on continuous-cube coalitions; resolves M0110 notation mismatch.",
+    "topics": [
+      "B162"
+    ],
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "partial_read",
+    "read_pages": [],
+    "note": "Cambridge issue metadata and author-uploaded full text checked; read Conjectures 2.2, 2.6, Theorem 1.4 and related discussion in online rendered text. No local PDF retained.",
+    "kind": "paper",
+    "reader": "W10",
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "review_status": "pending",
+    "seed_origin": "topical"
+  },
+  {
+    "local_id": "KKL2014",
+    "title": "Influential coalitions for Boolean Functions",
+    "authors": [
+      "Jean Bourgain",
+      "Jeff Kahn",
+      "Gil Kalai"
+    ],
+    "year": 2014,
+    "doi": null,
+    "url": "https://arxiv.org/abs/1409.3033",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1409.3033"
+    ],
+    "version": "arXiv:1409.3033v1",
+    "reason": "Follow-up on coalition influence; boundary source for B162, not the small O(log n) conditional-bias conjecture.",
+    "topics": [
+      "B162"
+    ],
+    "local_pdf": "evidence/fulltexts/KKL2014.pdf",
+    "sha256": "e0fe2d0a2f34a89ac905ba98fa5714f365b368f2e90043ec5a8ff205e43d41e5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "note": "Full physical PDF pp. 1–21 read by L08; SHA-256 and page count rechecked during W10 integration. Detailed section coverage and theorem/proof locators are in evidence/W10/reader_batches/L08_batch1/reading_coverage.json and the canonical W10 card. Review remains pending.",
+    "kind": "paper",
+    "reader": "W10",
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "review_status": "pending",
+    "seed_origin": "topical",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "Abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "coverage": "Coalition definitions, theorem statements 1.1–1.3, context and motivating conjectures."
+      },
+      {
+        "unit": "§2 Background and perspective: influence, pseudojuntas/low-influence coalitions, tribes, traces, and Two problems (Questions 2.6–2.7)",
+        "pdf_pages": [
+          4,
+          7
+        ],
+        "coverage": "Coordinate and set influence, classical isoperimetry/KKL tools, tribes comparison, trace projection and Sauer–Shelah, then open questions."
+      },
+      {
+        "unit": "§3 Boolean functions without influential coalitions",
+        "pdf_pages": [
+          7,
+          12
+        ],
+        "coverage": "Random-clause constructions proving Theorems 1.1 and 1.2; Lemmas 3.1–3.2 and Claims A–E, with concentration, second moment and incidence-graph/Hamming-ball estimates."
+      },
+      {
+        "unit": "§4 Influential coalitions for Boolean functions, including §§4.1–4.3",
+        "pdf_pages": [
+          13,
+          19
+        ],
+        "coverage": "Full proof of Theorem 1.3 via total influence/Fourier cutoff, iterative projection, hypercontractive fiber estimates, pigeonholing and Sauer–Shelah shattering."
+      },
+      {
+        "unit": "References and author information",
+        "pdf_pages": [
+          20,
+          21
+        ],
+        "coverage": "Complete bibliography and author affiliations/contact details."
+      }
+    ]
+  },
+  {
+    "local_id": "CG2026",
+    "title": "A Resolution of Friedgut's Conjecture on Influential Coalitions",
+    "authors": [
+      "Eshan Chattopadhyay",
+      "Mohit Gurumukhani"
+    ],
+    "year": 2026,
+    "doi": null,
+    "url": "https://arxiv.org/abs/2609.16401",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2609.16401"
+    ],
+    "version": "arXiv:2609.16401v2",
+    "reason": "Current resolution of continuous-cube/finite-alphabet influential coalition conjecture; separates it from Friedgut's discrete Boolean fixed-error conjecture.",
+    "topics": [
+      "B162"
+    ],
+    "local_pdf": "evidence/fulltexts/CG2026.pdf",
+    "sha256": "b11a4f3d2a44d93ad4eea4ce42085886cca20527c884ac0a2a07e268bc554b6d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "note": "Full physical PDF pp. 1–18 read by L08; SHA-256 and page count rechecked during W10 integration. Detailed section coverage and theorem/proof locators are in evidence/W10/reader_batches/L08_batch1/reading_coverage.json and the canonical W10 card. Review remains pending.",
+    "kind": "paper",
+    "reader": "W10",
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "review_status": "pending",
+    "seed_origin": "topical",
+    "read_by": "L08",
+    "section_coverage": [
+      {
+        "unit": "Abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          4
+        ],
+        "coverage": "Motivation, theorem roadmap, finite-alphabet/continuous-cube setting, comparison bounds and relation to prior coalition questions."
+      },
+      {
+        "unit": "§2 Preliminaries, including §§2.1–2.3",
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "coverage": "Definitions of p-biased resampling influence and coalition probabilities; Claim 2.2 monotonization, Claim 2.3 discretization, and total-variation/data-processing facts."
+      },
+      {
+        "unit": "§3 A bound on influential coalition size and §3.1 direction-switching lemma",
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "coverage": "Theorem 3.1 and Corollary 3.2; Lemma 3.3; proof by imported Hatami pseudo-junta theorem plus encoding lemma, and iterative argument for Theorem 3.1."
+      },
+      {
+        "unit": "§4 From functions in product space to p-biased space, including §§4.1–4.3",
+        "pdf_pages": [
+          10,
+          15
+        ],
+        "coverage": "Max-selector encoding and influence bound, near-uniform encoded distribution, total-variation and influence comparison, and complete proof of Lemma 3.5."
+      },
+      {
+        "unit": "Conclusion",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "coverage": "Limits, future directions, and attribution of a later improved bound to separate work [Fri26]."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          16,
+          18
+        ],
+        "coverage": "All bibliography entries read."
+      }
+    ]
+  },
+  {
+    "local_id": "FRIEDGUT2026",
+    "title": "Small Influential Coalitions in [0,1]^n via the Junta Theorem",
+    "authors": [
+      "Ehud Friedgut"
+    ],
+    "year": 2026,
+    "doi": null,
+    "url": "https://arxiv.org/abs/2610.03086",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2610.03086"
+    ],
+    "version": "arXiv:2610.03086v1",
+    "reason": "Simplified proof of continuous-cube coalition bound; boundary source, not B162 resolution.",
+    "topics": [
+      "B162"
+    ],
+    "local_pdf": "evidence/fulltexts/FRIEDGUT2026.pdf",
+    "sha256": "c6a89aa8da5fd27b63a72c9f08560fd48b9a50ad95081275c59f6a89dd46381a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "note": "Full six-page local PDF read; arXiv metadata identifies version/date/authors. Abstract reports AI-assisted simplification of CG proof.",
+    "kind": "paper",
+    "reader": "W10",
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "review_status": "pending",
+    "seed_origin": "topical",
+    "section_coverage": [
+      {
+        "section": "Front matter and overview",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Title/abstract; continuous-cube conjecture, context, theorem overview and AI-assisted note."
+      },
+      {
+        "section": "§2.1 theorem statement",
+        "physical_pdf_pages": [
+          3,
+          3
+        ],
+        "summary": "Theorem 1: monotone f:[0,1]^n to {0,1}, n>=2, 0<epsilon<1/2, coalition fixed before remaining coordinates are sampled."
+      },
+      {
+        "section": "§2.2 Lemma 1",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Low total influence K(h)<=L implies a one-sided coalition of size exp(cL/eta); discretize [0,1] to M=2^m grid, bound Boolean total influence, apply junta theorem and move assignment to endpoint."
+      },
+      {
+        "section": "§2.3 proof: derivative path",
+        "physical_pdf_pages": [
+          4,
+          4
+        ],
+        "summary": "Mixture nu_t=(1-rho)mu+(rho-t)delta_0+t delta_1; F prime equals K_t and integral bounds select t with K_t<=1/rho."
+      },
+      {
+        "section": "§2.3 proof: transfer and parameter choice",
+        "physical_pdf_pages": [
+          5,
+          5
+        ],
+        "summary": "Monotone transport to nu_t, apply Lemma 1 with eta=epsilon/2, replace endpoint atoms by favorable b, sample R before remaining inputs, Markov bound, choose rho=2A/(epsilon log n) or use all n coordinates."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "References and end matter."
+      }
+    ]
+  }
+]

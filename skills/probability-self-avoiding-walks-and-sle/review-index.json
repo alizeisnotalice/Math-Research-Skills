@@ -1,0 +1,1173 @@
+{
+  "reviewer": "R03",
+  "scope": "W23 final mother binding and inherited source-specific reviews",
+  "final_mother_decision": "passed",
+  "final_mother_accepted_source_count": 30,
+  "publication_approved": false,
+  "final_scope_package_decision": "pending",
+  "final_mother_review": {
+    "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/review.json",
+    "sha256": "2414ac8601e35c3958bff53bdea31002266adca4fbc454a3f1def473cf84aca4"
+  },
+  "cumulative_old_28_preserved": true,
+  "source_decisions": [
+    {
+      "local_id": "W23S001",
+      "title": "The connective constant of the honeycomb lattice equals sqrt(2+sqrt(2))",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_calibration_review.json",
+        "sha256": "82788deaeb3c4dabe092b8049e458e5564078b88146594ac2f20fc173c61a02c",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "11335571f5118514b5f761ad3d750e11b5537b1390aa3444742339b86e65bb8a",
+      "card_path": "evidence/root/workers/W23/cards/W23S001.md",
+      "card_sha256": "4a84a986a308d513c3d63197c746e2efa2a2bb79ca150ec67988ea3bfeeded10",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S001"
+    },
+    {
+      "local_id": "W23S002",
+      "title": "Bounding the number of self-avoiding walks: Hammersley-Welsh with polygon insertion",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_calibration_review.json",
+        "sha256": "82788deaeb3c4dabe092b8049e458e5564078b88146594ac2f20fc173c61a02c",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "a9fa6fda92abda1a20eca0f378b1565e37e8afa69f58a2a57acc0482b270d8f3",
+      "card_path": "evidence/root/workers/W23/cards/W23S002.md",
+      "card_sha256": "d0148c3378f2d14eeee251501430c4c13cd63547ff516b34c301cc77320a5016",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S002"
+    },
+    {
+      "local_id": "W23S003",
+      "title": "Non-coincidence of Quenched and Annealed Connective Constants on the Supercritical Planar Percolation Cluster",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_calibration_review.json",
+        "sha256": "82788deaeb3c4dabe092b8049e458e5564078b88146594ac2f20fc173c61a02c",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "1a681dbf7831f0f5ecf8d555083fbf60367592e550d11cd4a384566182bbcb69",
+      "card_path": "evidence/root/workers/W23/cards/W23S003.md",
+      "card_sha256": "fd325325e37a22ef23eeb2a07e062b90db10b1fd3937ab255371299ed54a49f2",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S003"
+    },
+    {
+      "local_id": "W23S004",
+      "title": "The dimension of the SLE curves",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_calibration_review.json",
+        "sha256": "82788deaeb3c4dabe092b8049e458e5564078b88146594ac2f20fc173c61a02c",
+        "decision": "passed",
+        "reading_evidence_accepted": false,
+        "usage_evidence_accepted": true,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+      "card_path": "evidence/root/workers/W23/cards/W23S004-usage.md",
+      "card_sha256": "76eae78c2694c606a7abb2700e084f9c20fd1c2c6625ffec325f5c2fdcaca39a",
+      "coverage_pointer": "evidence/root/workers/W08/reading_coverage.json#/sources/M0179"
+    },
+    {
+      "local_id": "W23S005",
+      "title": "Basic properties of SLE",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_calibration_review.json",
+        "sha256": "82788deaeb3c4dabe092b8049e458e5564078b88146594ac2f20fc173c61a02c",
+        "decision": "passed",
+        "reading_evidence_accepted": false,
+        "usage_evidence_accepted": true,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+      "card_path": "evidence/root/workers/W23/cards/W23S005-usage.md",
+      "card_sha256": "d545d05eaa1554fdc93b54fa2edd633e5d11d6dc3d9ec4c55bad75ca9c497285",
+      "coverage_pointer": "evidence/root/workers/W08/reading_coverage.json#/sources/W08-R006"
+    },
+    {
+      "local_id": "W23S006",
+      "title": "Lectures on Self-Avoiding Walks",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_batch2_review.json",
+        "sha256": "f0a40498852917fdee9d50fb40c8163b865546f63d49acca61f5b7c852518262",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "48c4c9d89ff352a28de9e3e43dc92b7e2bca4e7a758cacac3503aaa58e6727a6",
+      "card_path": "evidence/root/workers/W23/cards/W23S006.md",
+      "card_sha256": "0ccf1df9ae26f3953ea896b61ab5aaaae2287a3588d2f48784dc2f1033e64539",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S006"
+    },
+    {
+      "local_id": "W23S007",
+      "title": "Self-avoiding walk is sub-ballistic",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_batch2_review.json",
+        "sha256": "f0a40498852917fdee9d50fb40c8163b865546f63d49acca61f5b7c852518262",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "305f1a61d23c0bd2241530e054874f74bea0a95b08010fc9087e6ad7f1f7c8d6",
+      "card_path": "evidence/root/workers/W23/cards/W23S007.md",
+      "card_sha256": "d124489e0e529b1848f1ba39d64b9f4859e4da33c61de2e7e0178fe788b7cb49",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S007"
+    },
+    {
+      "local_id": "W23S008",
+      "title": "Bounds on connective constants of regular graphs",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L08_B2_review.json",
+        "sha256": "7c3ef742177315a5b98add22cfa37f48be5f3a0509d3b54fc100f0f767016f32",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "6c51e9b417bf6ac4817731e6d2d9695ea577a72b5fa7daefcca03406c2bd1bed",
+      "card_path": "evidence/root/workers/W23/cards/W23S008.md",
+      "card_sha256": "167098c073ef5297635b1ee11fb0051a5b61e44c14d31f274ab82fe1f3ed4a6e",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S008"
+    },
+    {
+      "local_id": "W23S009",
+      "title": "Strict Inequalities for Connective Constants of Transitive Graphs",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L08_B2_review.json",
+        "sha256": "7c3ef742177315a5b98add22cfa37f48be5f3a0509d3b54fc100f0f767016f32",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "d6e97e8cc626ab63ff78c9e71341ac334f6c085538c5a6699ae1291a7ba60b70",
+      "card_path": "evidence/root/workers/W23/cards/W23S009.md",
+      "card_sha256": "dfaeae307e90a66706764ad832d529afd5b30e578cb8100dc409830a6108d9b2",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S009"
+    },
+    {
+      "local_id": "W23S010",
+      "title": "Extendable self-avoiding walks",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L08_B2_review.json",
+        "sha256": "7c3ef742177315a5b98add22cfa37f48be5f3a0509d3b54fc100f0f767016f32",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "f1db55afeaf19319764f8f6c5f87616f300e3d7f25de5834316bf602ce3874ba",
+      "card_path": "evidence/root/workers/W23/cards/W23S010.md",
+      "card_sha256": "b29be7fc67a76741d6b8c587aa71dde388c9f6b913137d4b320b40bade0f1225",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S010"
+    },
+    {
+      "local_id": "W23S011",
+      "title": "Locality of connective constants",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L06_B4_review.json",
+        "sha256": "d36a029633b8f5895bb7e57600329ab5ff253e83be99a954c4fb139711b13997",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "0db12154d0cf548abf542dd67fa8d2d7dd714f3b1e1dd874e878fd17d9c20dc0",
+      "card_path": "evidence/root/workers/W23/cards/W23S011.md",
+      "card_sha256": "0590a4eefd51a11a5055a5aa1394dea9c277ab0a663b890b1c6213dd754629d5",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S011"
+    },
+    {
+      "local_id": "W23S012",
+      "title": "Weighted self-avoiding walks",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L06_B4_review.json",
+        "sha256": "d36a029633b8f5895bb7e57600329ab5ff253e83be99a954c4fb139711b13997",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "faf14f9216dc2588d7b7eb8c5e0d6ef1968c10c57358a0d23078bec6f6139cc9",
+      "card_path": "evidence/root/workers/W23/cards/W23S012.md",
+      "card_sha256": "7c1b55e74da98de13c9ce17c7c6a852b7b5836a940dffa365a665068da53c4c8",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S012"
+    },
+    {
+      "local_id": "W23S013",
+      "title": "A general bridge theorem for self-avoiding walks",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L06_B4_review.json",
+        "sha256": "d36a029633b8f5895bb7e57600329ab5ff253e83be99a954c4fb139711b13997",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "554b3d961903e16ce3bd14cbba9d8b816ac447299f889203daa6ae5cf52e44cb",
+      "card_path": "evidence/root/workers/W23/cards/W23S013.md",
+      "card_sha256": "ad0bcac73e451125ba1ea0884fe602898520d599d5922fe91965221a927d27be",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S013"
+    },
+    {
+      "local_id": "W23S014",
+      "title": "The Hammersley-Welsh bound for self-avoiding walk revisited",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L08_B5_review.json",
+        "sha256": "d8e5cf4cd8a56b033f2de9151f203618350ed04932ab8a05be567d7e7a24dd44",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "195f25f1669c44a1c7ad9e1a7c498955eb1299101fa9269e528777e1f9985c89",
+      "card_path": "evidence/root/workers/W23/cards/W23S014.md",
+      "card_sha256": "bbc0923b036438c69530167764d7cca09d967c98be3af4dbbf1ee9d80ef16373",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S014"
+    },
+    {
+      "local_id": "W23S015",
+      "title": "Quantitative sub-ballisticity of self-avoiding walk on the hexagonal lattice",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L08_B5_review.json",
+        "sha256": "d8e5cf4cd8a56b033f2de9151f203618350ed04932ab8a05be567d7e7a24dd44",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "fc97832c6fa06e4e2e5ad69d1b56edee7f34ebc63d5a325c637776a431baed9a",
+      "card_path": "evidence/root/workers/W23/cards/W23S015.md",
+      "card_sha256": "2aed2f9af72bef6db299698c6ba3bc80ccbf1dd9a0269c64cd517d33be3945f0",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S015"
+    },
+    {
+      "local_id": "W23S016",
+      "title": "The critical fugacity for surface adsorption of self-avoiding walks on the honeycomb lattice is 1+sqrt(2)",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L08_B5_review.json",
+        "sha256": "d8e5cf4cd8a56b033f2de9151f203618350ed04932ab8a05be567d7e7a24dd44",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "05fe44729563afec09bdefd046ce96c9216fc6034fa959d6376f455eff2d5772",
+      "card_path": "evidence/root/workers/W23/cards/W23S016.md",
+      "card_sha256": "7546fbadc4999fc43ec02c34a1e1e100b81c851cfda3eb4bf0d45cf1ff816968",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S016"
+    },
+    {
+      "local_id": "W23S017",
+      "title": "Existence of a non-averaging regime for the self-avoiding walk on a high-dimensional infinite percolation cluster",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L06_B6_review.json",
+        "sha256": "304cc87ba7f00a982259e2b3e2907051c92f6911f34b76ce240fd8ffe020de52",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "313cb1b9c440371cf59559d6d07ef9260170c184fa6bb3d2cb88556c40301457",
+      "card_path": "evidence/root/workers/W23/cards/W23S017.md",
+      "card_sha256": "43eebb27a2a4603b6cf1911cb439f33456c7c737f39dc40f7fe5e95dc963c6f4",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S017"
+    },
+    {
+      "local_id": "W23S018",
+      "title": "New Lower Bounds on the Self-Avoiding-Walk Connective Constant",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L06_B6_review.json",
+        "sha256": "304cc87ba7f00a982259e2b3e2907051c92f6911f34b76ce240fd8ffe020de52",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "4bbc701b44c6b5cf3455f0dcb4935b71a3f95db9933ffcc6a96dcccc17059163",
+      "card_path": "evidence/root/workers/W23/cards/W23S018.md",
+      "card_sha256": "db9b61e12c7834bb4a710b87a9bf82a40aac2dae46b133c9e93cf5baf4d5e7d7",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S018"
+    },
+    {
+      "local_id": "W23S019",
+      "title": "Decay of correlations in nearest-neighbor self-avoiding walk, percolation, lattice trees and animals",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L06_B6_review.json",
+        "sha256": "304cc87ba7f00a982259e2b3e2907051c92f6911f34b76ce240fd8ffe020de52",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "34368f98803701fe89ea64bc7f7d39c7f527815b30d65c11062b8e8c04f19008",
+      "card_path": "evidence/root/workers/W23/cards/W23S019.md",
+      "card_sha256": "492a73b5e4c9033a9d4fe8e92663239c8b1cd798817a9b6bf85cb19c72d7da3b",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S019"
+    },
+    {
+      "local_id": "W23S020",
+      "title": "Self-avoiding walks and the Fisher transformation",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L10_B7_review.json",
+        "sha256": "66751e4da40b217856ce9c948d6a6cd5f2b63a487a363649b9fdd7c630f95b0d",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "c4d3fa8747287baf4528408c0c2d70e845d2fa585f6a34ca0e9fca934b67f986",
+      "card_path": "evidence/root/workers/W23/cards/W23S020.md",
+      "card_sha256": "40da37f3869d07d81cea2bf4bb6a38422368a16b59f27782ce22a84e1ca55292",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S020"
+    },
+    {
+      "local_id": "W23S021",
+      "title": "Self-avoiding walks and amenability",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L10_B7_review.json",
+        "sha256": "66751e4da40b217856ce9c948d6a6cd5f2b63a487a363649b9fdd7c630f95b0d",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "37bfbea410ab03d473fb65faa3f4133ead27caa9003e56e7326e2a95dfe1186d",
+      "card_path": "evidence/root/workers/W23/cards/W23S021.md",
+      "card_sha256": "c60f1428c352b2265bf5b838423b6f6a9549eafad7da4ab01866d30511530d66",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S021"
+    },
+    {
+      "local_id": "W23S022",
+      "title": "Self-avoiding walks and polygons on hyperbolic graphs",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L10_B7_review.json",
+        "sha256": "66751e4da40b217856ce9c948d6a6cd5f2b63a487a363649b9fdd7c630f95b0d",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "34081c628865d11cd0945905f6f01760c4bb853043ca42d297793cb6f94e44c1",
+      "card_path": "evidence/root/workers/W23/cards/W23S022.md",
+      "card_sha256": "f574641f8310ad16db2b330ac5c5729fd2dd40de8e57b717f560e700000857b7",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S022"
+    },
+    {
+      "local_id": "W23S023",
+      "title": "Discretely holomorphic parafermions and integrable loop models",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.json",
+        "sha256": "e975634279e288c219f5d2ee18995bb45e656bb0413eabcb63011a4fdcc9aaba",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "4e688bd1f86fdeca54423d7b861d23d3327d52a4d05fc62eb1ef4cc175973682",
+      "card_path": "evidence/root/workers/W23/cards/W23S023.md",
+      "card_sha256": "6d743bdf64e84e9056d64ed627b36dc4c28e8b1974b271f0b1ef08030be223bb",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S023"
+    },
+    {
+      "local_id": "W23S024",
+      "title": "Convergence of the self-avoiding walk on random quadrangulations to SLE_8/3 on sqrt(8/3)-Liouville quantum gravity",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.json",
+        "sha256": "e975634279e288c219f5d2ee18995bb45e656bb0413eabcb63011a4fdcc9aaba",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "861ea5f8700e5b213b17bfc5a0b8f961306d1abdd1ef3514dde32d3a379ccfda",
+      "card_path": "evidence/root/workers/W23/cards/W23S024.md",
+      "card_sha256": "24eef9e21f953f981f365089b27a6e69cb846db8fb04e74fb8d6dd81f4485b2a",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S024"
+    },
+    {
+      "local_id": "W23S025",
+      "title": "Self-avoiding walk on the hypercube",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.json",
+        "sha256": "e975634279e288c219f5d2ee18995bb45e656bb0413eabcb63011a4fdcc9aaba",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "8d2098873244bf55233954e401f3ad03e2c1318203bbbfd9f7d7f5389ed439b3",
+      "card_path": "evidence/root/workers/W23/cards/W23S025.md",
+      "card_sha256": "beb362b78288692801dec6ecfb6a3f249084a5627750a2de2f0b34cee11d24db",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S025"
+    },
+    {
+      "local_id": "W23S026",
+      "title": "Quantitative sub-ballisticity of self-avoiding walk on Z^d",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.json",
+        "sha256": "e975634279e288c219f5d2ee18995bb45e656bb0413eabcb63011a4fdcc9aaba",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "5a2268f796ece0ea6140d05073e698101be6f0b8d33ac1d54c99cd7fd2de13b9",
+      "card_path": "evidence/root/workers/W23/cards/W23S026.md",
+      "card_sha256": "b4bd95a547b2833113ca3e554ef7ef1e4a9b9d8941ef21753b978f7e81dc2735",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S026"
+    },
+    {
+      "local_id": "W23S027",
+      "title": "Connective constants of Grigorchuk graphs",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.json",
+        "sha256": "e975634279e288c219f5d2ee18995bb45e656bb0413eabcb63011a4fdcc9aaba",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "6503fb5b5d89e4d21e4b7ab9ce1bfcad65234b0554cd419c53098e7da021e451",
+      "card_path": "evidence/root/workers/W23/cards/W23S027.md",
+      "card_sha256": "96db4bfac4682fd8b4ba8681c28910cbf612c5ed87d28c0e5d3869972e9a1509",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S027"
+    },
+    {
+      "local_id": "W23S028",
+      "title": "Critical two-point functions and the lace expansion for spread-out high-dimensional percolation and related models",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.json",
+        "sha256": "e975634279e288c219f5d2ee18995bb45e656bb0413eabcb63011a4fdcc9aaba",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "f7b394e4a5ba6a746fbc3ee511c8627f68fb9f75aecbdff911da500b729bc35d",
+      "card_path": "evidence/root/workers/W23/cards/W23S028.md",
+      "card_sha256": "0dd6e5d95257d5e9a4a2fba393b061281268dd6671fdb36d359ac7135d6d58fb",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S028"
+    },
+    {
+      "local_id": "W23S029",
+      "title": "SAWs, trails, kites, patterns",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/review.json",
+        "sha256": "2414ac8601e35c3958bff53bdea31002266adca4fbc454a3f1def473cf84aca4",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "card_path": "evidence/root/workers/W23/cards/W23S029.md",
+      "card_sha256": "848d249cbfb4d08a5b9acdebf8adeb19185fd66834bb317fc43fffe16c4de34d",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S029"
+    },
+    {
+      "local_id": "W23S030",
+      "title": "Logarithmic correction for the susceptibility of the 4-dimensional weakly self-avoiding walk: a renormalisation group analysis",
+      "stage_or_usage_review": {
+        "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/review.json",
+        "sha256": "2414ac8601e35c3958bff53bdea31002266adca4fbc454a3f1def473cf84aca4",
+        "decision": "passed",
+        "reading_evidence_accepted": true,
+        "usage_evidence_accepted": false,
+        "quota_eligible": true
+      },
+      "final_cumulative_mother_status": "passed_in_R03_final_30_source_binding",
+      "final_scope_review_status": "pending",
+      "legacy_mother_review_status": "pending",
+      "pdf_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "card_path": "evidence/root/workers/W23/cards/W23S030.md",
+      "card_sha256": "29908e5d74052c6e42af592d93fa945cff2a326d0ce54c647481337908bc6308",
+      "coverage_pointer": "reading_coverage.json#/sources/W23S030"
+    }
+  ],
+  "snapshot_policy": "All referenced review snapshots are exact byte copies. Earlier helper-stage pending labels are historical; the final mother approval supersedes only their binding state, not any theorem caveat.",
+  "immutable_R03_W23_review_snapshot_files": [
+    {
+      "path": "evidence/root/reviews/R03/history/central_before_w23_stage_merge.json",
+      "sha256": "beb99115931eacbf5f757f43e8a63cce05a1d8c9e21e82e50d41341cfa8102af",
+      "bytes": 186626
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/pre_coverage_fix_w23_mirror_L06_B6_review.json",
+      "sha256": "de440c246a98f56246582e690dfb0a89ccdfcb6011aec38c1b5bf8a7d0b45229",
+      "bytes": 3929
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/pre_coverage_fix_w23_mirror_L06_B6_review.md",
+      "sha256": "3697c672b2d433c196091b9c7c0e7edd68d3d65fee50314f3873999817f755fb",
+      "bytes": 518
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/pre_coverage_fix_w23_mirror_L06_B6_stage_hashes.json",
+      "sha256": "db2f02a66fa171f2f659717f2988588def1cd886ed05491ab676a4a02b4b9abf",
+      "bytes": 14098
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/round1_w23_L08_B8_review.json",
+      "sha256": "d5dcd742d1b46932eb3d7c98b88d65d7053d483b84f9c18fb41768579fdc2aac",
+      "bytes": 7565
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/round1_w23_L08_B8_review.md",
+      "sha256": "b4a09e6682e9aad3688bfec9c1822ff4bade2611f7d925c2b623825c882927e2",
+      "bytes": 966
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/round1_w23_L08_B8_stage_hashes.json",
+      "sha256": "0c0fad83b96ff28712ceb3f4f9b94b811e81d85ec0df6705c50b2c38908bad1b",
+      "bytes": 7952
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/round1_w23_L10_B7_review.json",
+      "sha256": "064ccc398eadecc1cceb58af07bdef9740c3c83c3e0f5286a7b3eb6b2d5c1dc8",
+      "bytes": 5567
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/round1_w23_L10_B7_review.md",
+      "sha256": "ece7c7df0d0911f43a8cc795ae41e05047c3451ae928c5de084fcde2fef85c39",
+      "bytes": 886
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/round1_w23_L10_B7_stage_hashes.json",
+      "sha256": "0e432e8c52f4084c2402f293558d1c7886eaea42df333c7b1859f2b1954765f1",
+      "bytes": 9387
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/round1_w23_mirror_L10_B7_pending.json",
+      "sha256": "4f6519892bdc7aa589e8ae2eab503f6b2cc2b4b06e543d26eef01344ef3814f0",
+      "bytes": 1009
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_L06_B6_round1_review.json",
+      "sha256": "76e4a6266d0c3be757303cedd550528a847530c9eb3ca39773c257ca0dadb248",
+      "bytes": 5375
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_L06_B6_round1_stage_hashes.json",
+      "sha256": "f03a5d4af6b61d4800610045308107795c875d4f0d35f8ee5c239a9272064cd5",
+      "bytes": 142
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_L08_B2_round1_review.json",
+      "sha256": "c66a3aca2a57d337e3ad94037b3d2e75cb9e0e56dbc4befd7c72738591fdde69",
+      "bytes": 10149
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_L08_B5_round1_review.json",
+      "sha256": "8c13f6d0663930547ae2b66822d5174438c64782b947abfad6e25d79d5a3ad83",
+      "bytes": 4926
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_L08_B5_round1_stage_hashes.json",
+      "sha256": "9c40d619ff573952fe5ce4f1c50c2c06d0f91370cd34ffb081ac206cb5d58ecb",
+      "bytes": 7159
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_batch2_before_revision_review.json",
+      "sha256": "ab72960308a8fba43abe95bb54468cdeabd8db4b698bed0a75a21a0a99a85883",
+      "bytes": 5674
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_round1_w23_calibration_review.json",
+      "sha256": "2fff028a4147bc2ea0b249425a4a8a08487c7abdf871ce19d50914b10c63b9bc",
+      "bytes": 7339
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_round1_w23_calibration_review.md",
+      "sha256": "c7b64ddf1b29236a5e0cd65a2bbaf9379798543848c63c74bb44d09ebfab69ae",
+      "bytes": 1340
+    },
+    {
+      "path": "evidence/root/reviews/R03/history/w23_round1_w23_stage_hashes.json",
+      "sha256": "42d66cdd9ed4de603ae95a352e4965f71939baf76fb0555b6b0f498ec4815843",
+      "bytes": 3166
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B4_math_actual.json",
+      "sha256": "79b64b236ec2177529df07e07441fe30a056edba712d900830d661e4720ff93b",
+      "bytes": 829
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B4_math_check.m",
+      "sha256": "49941539ca02fb22cd21b21edd80c5bf0c26416958ae21b61b7cf36485003ad1",
+      "bytes": 2785
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B4_math_check.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B4_review.json",
+      "sha256": "afc9706e80ed4b6a88790fcdc0248a426b55aa0505f1da1572f59072248b9209",
+      "bytes": 5677
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B4_review.md",
+      "sha256": "b16657757b0f4d6044d48220a7146496e2bfdf8e257dacd7a6151b7c3391b2ba",
+      "bytes": 750
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B4_stage_hashes.json",
+      "sha256": "7e69d77bf674f43cff0a274fc8753cafad2fdbe14c6749511d4f20cf2665b378",
+      "bytes": 3674
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_P41_erratum_review.json",
+      "sha256": "d2d139b22fa18e71b65291edf7cc15c52a35eaf3abbabc04d52f07b805a2647b",
+      "bytes": 940
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_evidence/P31-p5.png",
+      "sha256": "18a6a7719e47cfe79248fde0d53866c978f17f06951ca5ff57632a201b36baaf",
+      "bytes": 486692
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_evidence/P41-erratum.pdf",
+      "sha256": "27c4bb2ff0d160c8ec526302d5bc2f27d4e40a14ec8a7e01e60542074806aabf",
+      "bytes": 62542
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_evidence/P41-p11.png",
+      "sha256": "e95ff68b6529fa5cec3a84fecb9dae46450f9a3e0766d1c3a35b6555f32becf8",
+      "bytes": 767714
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_math_check.json",
+      "sha256": "16afc48df9535815f3797002bd064e544d3f3f6d9b0191f96e2790874b0013b9",
+      "bytes": 349
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_review.json",
+      "sha256": "3b34400fdeb534f43dbe010e7b75caed0c89f620439fba9faef55f47daa215e5",
+      "bytes": 6382
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_review.md",
+      "sha256": "22153f26a6b222996ccf5cfd63ff811d0ee424c2f2210409e9e9807e90a8d644",
+      "bytes": 525
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B6_stage_hashes.json",
+      "sha256": "07945a48a34713ecdf2ed1610e052e131c027594ca9e72887f849eb875bf9e87",
+      "bytes": 10193
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/S006-official-contribution-title.png",
+      "sha256": "b83c106df79d7e561efd5882102682b8cad80af8ddd2707626b9e2190ed32ee8",
+      "bytes": 469160
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/S006_type_identity.json",
+      "sha256": "849d2452875c965553a08f08b7157908833d58d637f3600425f225a477d0ecfb",
+      "bytes": 2679
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/math_actual.json",
+      "sha256": "af987c41c683f90e715eaf8dd5e11c4ff4306976feaae01552c1ab548dbdf176",
+      "bytes": 1397
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/math_check.py",
+      "sha256": "4f648e2c6e01e1e007e31e405fa07a1eca3a3f480f5cf2c35bc74bcbe5f2a41b",
+      "bytes": 1285
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/official_Clay_Math_Proceedings_15.pdf",
+      "sha256": "8c2ea36e49e5a697f5188bfa901cef1761edb3a4fd20fc0bd1335d116dc5f835",
+      "bytes": 7487783
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/review.json",
+      "sha256": "1329ed6f7bd6cb4861d9b0012df3e31404d33b4e44ee712280a61bd4ac0e01b3",
+      "bytes": 7230
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/review.md",
+      "sha256": "fdae4f39a0e945ac72db3a8fd8d2d90edf943eddee08c86380b0ad000847fc0f",
+      "bytes": 595
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/round1_review.json",
+      "sha256": "1db8c15c26083e6050a1b6d65a57cbb005a4d02123d8b73c159b11ee7184e49c",
+      "bytes": 7221
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/round1_review.md",
+      "sha256": "bcbc0836faac905699cd67ab77004279f6c87cf2ea090ebb62fe85bdce976bda",
+      "bytes": 1171
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/round1_stage_hashes.json",
+      "sha256": "c8178446a84aca9046cfcf8c55ff9f66ded6c2f78e0f5d2b3497ca3f5b2a91f7",
+      "bytes": 5731
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L06_B9/stage_hashes.json",
+      "sha256": "c9fe58a19cbf000156894760e9aa23cdfef08ebfd677cafba2712370be1dc262",
+      "bytes": 5990
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/P56-p16.png",
+      "sha256": "261ce20ca3c68d6d22eda82eb08c4f20acd31d0e87b84170565e143bfef73f12",
+      "bytes": 268062
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/continuity_countermodel.json",
+      "sha256": "7371880698e7b4a0e910b8b209c41b5f36fa8fe6b81ee48679b29b092e60d809",
+      "bytes": 434
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/final_independent_math_rerun.txt",
+      "sha256": "518eb9ed3776bc1de41078a608b885a59b3fbd3315ed7d66efff5465180cfedd",
+      "bytes": 871
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/final_review.json",
+      "sha256": "6ad4af2eba20316e9555d77837cc557f6b45d71eb4f673166532bd1369e3feaf",
+      "bytes": 6561
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/final_review.md",
+      "sha256": "b7ab062fb086924bf51faff6ca00c4a7f24f6fd62d0473a5a68b20bdbf044277",
+      "bytes": 1239
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/final_stage_hashes.json",
+      "sha256": "89157e38f8c85b0fd7cc86c528da44eb5f621c2a3eafd455156cccb4a234b836",
+      "bytes": 4825
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/independent_math_rerun.txt",
+      "sha256": "d04f4258117f5a0cbb973951517f120b5d30ea106c0c7df80e7218051efd3efe",
+      "bytes": 533
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/review.json",
+      "sha256": "46fa524d1a69bf604205dba5b71f1c80ba9dcba0a38ba9433b3104784f3b113b",
+      "bytes": 5338
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/review.md",
+      "sha256": "4852d149ed15588ed7b58792e9f01f39815bbb6361f44c5650c6f43488fd017e",
+      "bytes": 968
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L07_B10/stage_hashes.json",
+      "sha256": "f2b6e8e6ced73fa829f9497ee17d9421f83b988591908175d6c5e0363407705a",
+      "bytes": 4274
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B2_review.json",
+      "sha256": "8462849d6433977b960fab33d1e4764cb47b818502fe7c6c674b30e339b1574c",
+      "bytes": 10796
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B2_review.md",
+      "sha256": "03bedb094baeda4aeb29841209239255fb67cd0506819a0db8e930664ba9b4be",
+      "bytes": 585
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B2_stage_hashes.json",
+      "sha256": "d5c07bf07d034ebf0dedddb7abf7c09e36632c23d87820f1f2f35a48e0486567",
+      "bytes": 4553
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B5_math_check.json",
+      "sha256": "a9bd9f86b31fe03922d674983aff488fe7202ef920b8478021fe1cb778754f7e",
+      "bytes": 1082
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B5_review.json",
+      "sha256": "cb897db6eb2d576241134427830731a0090337c68af65f31ab82fa2270d0262f",
+      "bytes": 6312
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B5_review.md",
+      "sha256": "7c91f2fd8d0c5472c259d05515846e6709610c88388d72c6baaf66f69d7fb59b",
+      "bytes": 540
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B5_stage_hashes.json",
+      "sha256": "b194778f6405148bd000e5cdde08c807e799b443bb81a3ebffc535d8fcb5bd5f",
+      "bytes": 7580
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_evidence/P54-p5.png",
+      "sha256": "33acb226e6eb1c33d1fe337c6af49dc6cbf67245a4f03a15f702a326a408dead",
+      "bytes": 543158
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_evidence/constant_omega_actual.json",
+      "sha256": "26c65f6fce017e82bc234b2971150587af7e3771e5da0d1be2d75822007148e3",
+      "bytes": 2127
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_evidence/constant_omega_check.py",
+      "sha256": "49cd632d99c8c853a66b4665d66e937a1c68d3eb34c7ba4d9e93653162e471cb",
+      "bytes": 1819
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_evidence/numeric_checks_actual.txt",
+      "sha256": "b0b4af0e8484e5a4620c6cf2ecc03530d0fc00fea2acfeed1806c43e02d65fa0",
+      "bytes": 658
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_review.json",
+      "sha256": "eec6e90e8106c298e5048cfa7e9d1f940333fe74f09635fe80bd5109e1072d8d",
+      "bytes": 9539
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_review.md",
+      "sha256": "48afc345a838ffc2f680119d9a0fc0fd5e70afd1e4da6f5d7958a0dcaefff461",
+      "bytes": 1182
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_revision_method_check.json",
+      "sha256": "fb3b9e3fc4bf67b57a393cd123980f968c558445f64f8260aa7610e6419a98ed",
+      "bytes": 1280
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L08_B8_stage_hashes.json",
+      "sha256": "155c9a6b9d9a364b58fdf47604e8d61b9704107b8780554994aae521d614ca95",
+      "bytes": 8207
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L10_B7_math_check.json",
+      "sha256": "b21806332e7df104407d06176117a5c145082e542fb6336b8b3bf8ab2001ba27",
+      "bytes": 477
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L10_B7_review.json",
+      "sha256": "385c4ee1b10bb4b7de14cac3869e2fc9b71a7f37162fba1040a619c13889339d",
+      "bytes": 5314
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L10_B7_review.md",
+      "sha256": "f5e775664df299e7b0785af15657fa6510d4e85add19bebe8ecfe75b7a6aa2cd",
+      "bytes": 564
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L10_B7_revision_math.json",
+      "sha256": "630b7c6a40dfdeaba98cda78fc9f8589cee30faa1864d3bde24cd045df744198",
+      "bytes": 607
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_L10_B7_stage_hashes.json",
+      "sha256": "3565fa6e6740f7b73979aae11c5b1af0fc5f997a6b6b4b683bea3139c2f06db8",
+      "bytes": 9646
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_batch2_boundary_check.json",
+      "sha256": "03538513aad46b55135229aea0ce710c0a4d20dce7b28fd9a4374e08dc308135",
+      "bytes": 624
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_batch2_review.json",
+      "sha256": "f0a40498852917fdee9d50fb40c8163b865546f63d49acca61f5b7c852518262",
+      "bytes": 6041
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_batch2_review.md",
+      "sha256": "5248d11a7007148131d80d5a7c32d7b14f37f51daa72e56d486deefa6d61f4c5",
+      "bytes": 321
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_batch2_stage_hashes.json",
+      "sha256": "7c1488ac17e56b6c3e99105cfea42db1071527485613e4b53df2d00a1503414a",
+      "bytes": 2430
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_calibration_math.json",
+      "sha256": "2d560f297be3540eb80a6ecd8436a726ca466fda95e3ffc351a79d4db66dad0f",
+      "bytes": 511
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_calibration_review.json",
+      "sha256": "82788deaeb3c4dabe092b8049e458e5564078b88146594ac2f20fc173c61a02c",
+      "bytes": 9040
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_calibration_review.md",
+      "sha256": "98787cdbc589332102a2cf5bfe8a971555dc623e8793167f305034e76e0418a2",
+      "bytes": 810
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_honeycomb_p6.png",
+      "sha256": "51429d9d4ee666340e709a1dab8747cd147724ac5dfd317d49dfae6b34ee2da5",
+      "bytes": 422524
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.json",
+      "sha256": "e975634279e288c219f5d2ee18995bb45e656bb0413eabcb63011a4fdcc9aaba",
+      "bytes": 12829
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_review.md",
+      "sha256": "a06e890d2d041677b1a3de98f2b104ed38913390841e8fb42ae9492954d83707",
+      "bytes": 961
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_B9_B8_stage_hashes.json",
+      "sha256": "3816e6b103668cdb825202d083acabf5dbf742af9a8c0b40aca44c4de947820d",
+      "bytes": 45224
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L06_B4_review.json",
+      "sha256": "d36a029633b8f5895bb7e57600329ab5ff253e83be99a954c4fb139711b13997",
+      "bytes": 6574
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L06_B4_review.md",
+      "sha256": "1742fd7845c5008028486a060ac8c32308f8b8ec5040063c85c3393214b2553b",
+      "bytes": 732
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L06_B4_stage_hashes.json",
+      "sha256": "b604c225707d66e3784599d5a14e6489ac7d49b78d5fd6547164d5337e9c104c",
+      "bytes": 3606
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L06_B6_review.json",
+      "sha256": "304cc87ba7f00a982259e2b3e2907051c92f6911f34b76ce240fd8ffe020de52",
+      "bytes": 5189
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L06_B6_review.md",
+      "sha256": "5e9b5aab2a9e5963b62d65e2b2dfafcb3dbae7f5bea8e097fee2207b034b32f3",
+      "bytes": 569
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L06_B6_stage_hashes.json",
+      "sha256": "95c940f7c9a5b13e1b8828fe8fd7fff9a4927da46450369240fc9476ac5b20e1",
+      "bytes": 23664
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/central_before_snapshot.json",
+      "sha256": "d96605ebe0b6230058f7123a2b6791aeffdc70405feac4ff6b0f3cbcd3f28afa",
+      "bytes": 230533
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/coverage_old_reconstructed.json",
+      "sha256": "00b7896d4c27b88fc80a9f8875ba6d68b5b5428e81e426c6f80cb246c4c4990b",
+      "bytes": 121369
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/review.json",
+      "sha256": "2414ac8601e35c3958bff53bdea31002266adca4fbc454a3f1def473cf84aca4",
+      "bytes": 5535
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/review.md",
+      "sha256": "9c7949fca1db517874b6ef5c5c3f25788a0d0c7353364dbd09763f01f802ea6c",
+      "bytes": 1113
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/round1_mother_review.json",
+      "sha256": "0552a4ef8780e146615a1a5e7dfa67acce183d0d5cf0304db045177f515cad1b",
+      "bytes": 5642
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/round1_mother_review.md",
+      "sha256": "9000b94b932547c961e9c33083e8deb4d1e24d5bfcb2a1c0f5f383dbd7ba8cf9",
+      "bytes": 834
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L07_B10/stage_hashes.json",
+      "sha256": "b8338806cdb5b48445c7551f9aa109a9dfe4d4d541082d0d667744eb79f814c1",
+      "bytes": 8938
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L08_B2_review.json",
+      "sha256": "7c3ef742177315a5b98add22cfa37f48be5f3a0509d3b54fc100f0f767016f32",
+      "bytes": 7092
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L08_B2_review.md",
+      "sha256": "c22737a60c3779de50f40b28741198fe5a4f36c0e411048d586ccb690ab06f10",
+      "bytes": 535
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L08_B2_stage_hashes.json",
+      "sha256": "e8f837cc5eaf801f771a263977de7341d817b5d917a8f8f5a2adbaa230ae0a11",
+      "bytes": 4778
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L08_B5_review.json",
+      "sha256": "d8e5cf4cd8a56b033f2de9151f203618350ed04932ab8a05be567d7e7a24dd44",
+      "bytes": 4711
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L08_B5_review.md",
+      "sha256": "0de9530f04b9c33ab98d1f1091b90857c72850d73d1e93a5e26037ba0778dd6e",
+      "bytes": 404
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L08_B5_stage_hashes.json",
+      "sha256": "4cc500e54616ebf27d33b9fede2ae4397838eed8f54327e857216802a801d721",
+      "bytes": 6855
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L10_B7_review.json",
+      "sha256": "66751e4da40b217856ce9c948d6a6cd5f2b63a487a363649b9fdd7c630f95b0d",
+      "bytes": 4884
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L10_B7_review.md",
+      "sha256": "bdd08ed5d3aa54528a2a5c174f7c6b65de7f698d2da5019c87408b3b086bb412",
+      "bytes": 625
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_mirror_L10_B7_stage_hashes.json",
+      "sha256": "d6506eb99521c2341ffc8ca5a1ef0375709c1e62a87f9b55121fb8efda2a4020",
+      "bytes": 29638
+    },
+    {
+      "path": "evidence/root/reviews/R03/w23_stage_hashes.json",
+      "sha256": "eb2416eb969cb43327de6b3cd821adac1b3fc93a343b4d03e036e87a1ba49df4",
+      "bytes": 3506
+    }
+  ],
+  "canonical_reuse_R05_review_snapshots": [
+    {
+      "path": "evidence/root/reviews/R05/review.json",
+      "sha256": "2805d84a9cbe4f7edbf1fd9c9be8b12f9d484bfca0392d396d3aaebd01f248ad",
+      "purpose": "Immutable R05 snapshot retained with the W23 canonical reuse evidence; this exact file is cited by the W23 canonical usage record."
+    },
+    {
+      "path": "evidence/root/reviews/R05/review.md",
+      "sha256": "8f6aa54baa5bcde639a80478ffbcc4f695b694c35d05bc976fa4c15746143945",
+      "purpose": "Human-readable archived R05 snapshot."
+    },
+    {
+      "path": "evidence/root/reviews/R05/review_current_after_W23_scope.json",
+      "sha256": "914bfede004e9fee90fd20f7342b8cbc92918aea47b6b526814cf605761f5a9e",
+      "purpose": "Later current R05 global JSON snapshot; both canonical source rows remain passed with matching PDF hashes. Global review_complete is false, so this is supplementary and does not replace the W23 R03 decision."
+    },
+    {
+      "path": "evidence/root/catalogue/canonical_read_index_current_after_W23_scope.json",
+      "sha256": "8cc956ac8ef5ab73657d06a537802d069a3d4350127c685841b02f20193718fc",
+      "purpose": "Later current canonical index snapshot; the W23-linked exact earlier index snapshot remains at canonical_read_index.json."
+    }
+  ],
+  "final_scope_review_status": "pending_R03_review_of_this_new_package",
+  "final_R03_global_review_snapshot": {
+    "path": "evidence/root/reviews/R03/review.json",
+    "sha256": "1271517545da5d0a3cfcef95f6288152b115a85c534b0f5854f0713cc11b4764",
+    "binding_status": "exact file hash appears in final 76-binding mother manifest"
+  },
+  "R05_snapshot_transition": {
+    "archived_W23_linked_R05_review_sha256": "2805d84a9cbe4f7edbf1fd9c9be8b12f9d484bfca0392d396d3aaebd01f248ad",
+    "later_current_R05_review_sha256": "914bfede004e9fee90fd20f7342b8cbc92918aea47b6b526814cf605761f5a9e",
+    "note": "The source R05 review.json changed after the W23-referenced copy was captured. Both exact byte versions are preserved under separate paths; the earlier one remains the W23-linked snapshot, and the later one is supplementary."
+  },
+  "canonical_reuse_snapshot_transition": {
+    "earlier_W23_linked_canonical_index_path": "evidence/root/catalogue/canonical_read_index.json",
+    "earlier_W23_linked_canonical_index_sha256": "bbf422107836610e91282e3753fd213cf9eea1eca1bc97c5b9b13163bcf74665",
+    "later_current_canonical_index_path": "evidence/root/catalogue/canonical_read_index_current_after_W23_scope.json",
+    "later_current_canonical_index_sha256": "8cc956ac8ef5ab73657d06a537802d069a3d4350127c685841b02f20193718fc",
+    "note": "The original canonical read index changed after the W23-linked snapshot was copied. Both exact versions are preserved and the two source entries are linked in canonical_reuse_evidence.json."
+  }
+}

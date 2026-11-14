@@ -1,0 +1,167 @@
+[
+  {
+    "problem_id": "A202",
+    "tool": "probability-bernoulli-factory",
+    "role": "direct",
+    "needed_lemma": "For each fixed polynomial degree d, translate integer coefficients into the unique degree-N unnormalized Bernstein coefficients a_{N,j}; certify 0<=a_{N,j}<=binom(N,j) exactly. Wästlund Lemma 4.1 gives the finite-depth event criterion, Theorem 4.5 gives finite-event realizability for integer polynomials mapping (0,1) strictly into (0,1), and Theorem 4.6 proves only that the set at fixed d is finite, hence N(d)<infinity. Goyal–Sigman Theorem 2.3 is an auxiliary fixed-depth criterion in normalized Bernstein coefficients [0,1]; it is not the integer unnormalized-coefficient maximum theorem and does not supply N(m).",
+    "source_local_ids": [
+      "W17-X005",
+      "W17-X009"
+    ],
+    "unproved_interface": "The open target asks for a sharp uniform bound or exact N(d). Theorem 4.6 is a compactness/finiteness proof and supplies no sharp effective upper bound. The manuscript says N(3)=46 'seems' and gives N(4)>=735; the exact local check establishes this quartic example first becomes admissible at degree 735, not that it maximizes N(4). The theorem concerns finite deterministic-depth events; a.s.-finite random stopping time factories are a different model.",
+    "technique": "finite-event Bernoulli factory degree and exact Bernstein-coefficient certification"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "direct",
+    "needed_lemma": "Fix the access model and cost convention for N before comparing sources. Nacu–Peres uses the unknown-p input-toss filtration and its exact representation gives consistent Bernstein envelopes with P_p(N>n)=h_n(p)-g_n(p). Holtz–Nazarov–Peres uses fair-coin-assisted paired input stages; its p.28 moment question describes N as counting p-coin and fair-coin tosses, so do not relabel its N as p-only without an explicit per-stage conversion. A full answer needs necessary and sufficient conditions for E_p[N^r]<infinity under the exact target model, with pointwise and uniform-in-p conclusions separate. HNP Theorem 8 supplies an iff for noninteger alpha and a uniform boundary-aware tail rate, while Nacu–Peres Propositions 22–23 require uniform moment-tail decay for the C^k implication.",
+    "source_local_ids": [
+      "W17-X001",
+      "W17-X002",
+      "W17-X003",
+      "W17-X004",
+      "W17-X009",
+      "W17-X010",
+      "W17-X011",
+      "W17-X012"
+    ],
+    "unproved_interface": "No read source gives the requested full iff characterization of pointwise finite r-th moments. HNP's theorem is for noninteger alpha, fair-coin-assisted factories, and a uniform tail bound; it does not settle integer-order sufficiency or pointwise moment finiteness, and its N convention must be translated before applying it to a p-only target. Nacu–Peres do not replace uniform integrability of moment tails by pointwise finite moments. Mendo's lower bound/optimality applies only to differentiable functions in the stated fast-factory class. Łatuszyński et al. give an exact iteration-count tail-width identity under reverse-time martingale hypotheses; input-toss moments need a bound on stage costs. HNP PDF p.28 prints a nonstandard tail-sum equality; do not use it as the standard moment formula. For integer-valued N>=0, E[N^r]=sum_{n>=0}((n+1)^r-n^r)P(N>n). The Occil question page does not specify extra uniformity; do not add it to the target. The added finite-depth criterion (X009), linear-target expected-cost bounds (X010–X011), and smooth-target exact-sampling algorithm (X012) are scoped auxiliary cases; none is a necessary-and-sufficient characterization of all pointwise finite r-th input-toss moments.",
+    "technique": "Bernoulli-factory stopping-time tails, nested Bernstein envelopes, and moment regularity"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Peres (1992) proves fair-bit output and an almost-sure long-run extraction rate for the iterated von Neumann procedure; Stout–Warren (1984) analyze expected input tosses for tree extraction and multi-outcome generation; Jacob–Thiery (2015) give the bounded-support f-factory iff for nonnegative unbiased estimators under arbitrary iid input laws.",
+    "source_local_ids": [
+      "W17-X013",
+      "W17-X017",
+      "W17-X040"
+    ],
+    "unproved_interface": "These are explicitly auxiliary boundary sources. The Peres rate is a long-run output/input ratio, not a per-output stopping-time moment; Stout–Warren expectations are target-specific extraction costs; Jacob–Thiery output is a nonnegative real unbiased estimator from arbitrary bounded-support iid inputs, not a Bernoulli output from p-coins. No conclusion transfers to pointwise E_p[N^r] without a model- and cost-preserving reduction, which these sources do not establish.",
+    "technique": "auxiliary biased-coin random-bit extraction and estimator-model boundaries"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Beskos–Roberts (2005) give exact diffusion rejection sampling using an iid uniform sequence on a rectangle and Taylor/factorial alternating events, with expected tested-point bounds under bounded-potential/range assumptions; Beskos–Papaspiliopoulos–Roberts (2006) use a Poisson process and extend the proposal via path-minimum decomposition, with a sufficient integrability condition for finite expected Poisson-point count.",
+    "source_local_ids": [
+      "W17-X030",
+      "W17-X031"
+    ],
+    "unproved_interface": "X030 counts iid uniform rectangle points/events; X031 counts Poisson-process points. Both also use Brownian paths/bridges, not iid p-coin tosses. These application papers do not provide a cost-preserving reduction to C204 input tosses or a general r-th moment criterion; use them only to distinguish their algorithm-specific work counts from Bernoulli-factory stopping times.",
+    "technique": "auxiliary exact-event and diffusion-simulation cost models"
+  },
+  {
+    "problem_id": "A202",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Guan–Wang Theorem 2 gives boundary-sensitive approximation by positive-real-coefficient multivariate Bernstein-type polynomials for a smooth function bounded below by m>0; Lemma 1 controls the centered binomial moments and the proof uses a Taylor-corrected Bernstein operator plus degree elevation.",
+    "source_local_ids": [
+      "W17-X046"
+    ],
+    "unproved_interface": "A202 finite events require exact integer unnormalized Bernstein coefficients 0≤a_{N,j}≤binom(N,j). X046’s positive coefficients are real and its approximation error does not provide such a coefficient conversion, a fixed event depth, or a bound on the maximum degree N(d).",
+    "technique": "positive-coefficient polynomial approximation as an analytic boundary"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "For a verified fine connected ladder, Propositions 3.4–3.6 construct a reversible chain and exact CFTP sample. Theorem 3.1 is literally stated for open-simplex rational maps, but its proof constructs a finite fixed aggregation of ladder coordinates with a denominator nonzero on the closed simplex; R02 exhibits an open-simplex rational map with incompatible boundary path limits. Use the conversion only for verified closed-positive-denominator/nonnegative-representation subclasses. For scalar coins Corollary 3.11 gives a degree-elevated ladder and a uniform expected count N of p-input CFTP updates; Proposition 3.12 gives pointwise geometric tail for the same update-count under strict log-concavity.",
+    "source_local_ids": [
+      "W17-X007"
+    ],
+    "unproved_interface": "This does not characterize pointwise r-th moments for all factories. The unrestricted open-simplex rational-map conversion is not supported by the displayed closed-denominator/fixed-partition proof for boundary-singular maps; this limitation does not disprove their factory existence. N counts source p-input updates; the update also needs an auxiliary uniform. Appendix A die-based fair-bit generation has p-dependent extra toss cost, so Corollary 3.11 does not give a uniform total die-only bound.",
+    "technique": "rational-map Bernoulli factories by ladder stationary laws and CFTP"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Vats et al. Algorithms 2–4 and Theorems 1–6 give exact Barker and modified portkey acceptance probabilities from local p_x,p_y coins, upper/lower density bounds, and a tunable β; the two-coin loop mean is (c_x+c_y)/(c_xp_x+c_yp_y), while for each fixed β<1 the loop termination chance is at least 1−β, giving a geometric loop and bounded-opportunity clock with all moments uniformly over local p_x,p_y; primitive local-coin generation costs are separate. Reversibility requires symmetric d; reverse efficiency comparisons need both coin biases bounded below.",
+    "source_local_ids": [
+      "W17-X047"
+    ],
+    "unproved_interface": "The output is an MCMC accept event; the fixed-β<1 loop/opportunity moments are source-supported, but nested primitive p_x/p_y simulation costs can be bias-dependent. Bounds remain target-specific and do not give a general scalar-factory moment criterion.",
+    "technique": "target-specific two-coin MCMC acceptance and portkey factory costs"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Schmon et al. Proposition 2 samples exactly with probability c_i b_i/Σ_k c_kb_k using proposal weights c_i and b_i coins; the number of proposal trials is geometric with success probability ρ_N=Σc_i b_i/Σc_i. The paper’s O(N) regime requires ρ_N bounded away from zero/asymptotically converging to a positive limit. Propositions 4–5 use the MVUE ratio only for N>=2; at N=1, 1{C1=1} is a separately derived unbiased estimator, not the printed formula.",
+    "source_local_ids": [
+      "W17-X048"
+    ],
+    "unproved_interface": "The output is a categorical particle index, not an arbitrary Bernoulli f(p), and each b_i factory’s own cost remains external. There is no general pointwise or uniform r-th moment conclusion.",
+    "technique": "Bernoulli-race categorical resampling with unknown weight factors"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Flajolet–Pelletier–Soria define realizability by finite expected coin count and strong realizability by pointwise exponential tail, prove rational-coefficient polynomial/rational-function realizability by finite graphs using unbounded-precision arithmetic, and give exact von Neumann, discrete-law and integration constructions. Preserve their cost counters: Theorem 2.1’s C excludes calls to the external λ-Bernoulli generator.",
+    "source_local_ids": [
+      "W17-X049"
+    ],
+    "unproved_interface": "Strong realizability’s exponential-tail constants may depend on λ; this does not give uniform parameter moments. The machine result is not the fixed-depth integer event model or a full characterization of pointwise finite r-th moments.",
+    "technique": "Buffon-machine exact functions and strong realizability"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Thomas–Blanchet provide exact nested terminal/continuation set cascades for stated linear, concave or convex f on [0,1]; Bernstein lower/upper envelopes plus nested string sets preserve exact output. Their practical elbow example uses finite checkpoints; the linear case has a pointwise tail bound; the elbow tail is exponential only for small p and polynomial elsewhere, and the example checkpoint is n5=2^37.",
+    "source_local_ids": [
+      "W17-N001"
+    ],
+    "unproved_interface": "No arbitrary-f moment characterization, sharp uniform checkpoint bound, or practical bound on envelope construction follows. The large displayed checkpoint in their example is not a runtime recommendation.",
+    "technique": "Bernstein-envelope cascade implementation for scalar factories"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Koskela–Łatuszyński–Spanò use a polynomially bounded factory condition for Wright–Fisher diffusion and ancestral-process limits and establish Bernstein-coefficient duality under their stated model assumptions.",
+    "source_local_ids": [
+      "W17-N002"
+    ],
+    "unproved_interface": "On p.2, [0,3/4] bounds the unscaled residual (so f_{k+1}∈[0,1]); Algorithm 1 line 3 prints BinCount/L while Eq.(2)/prose use BinCount/η(f,L). The random input count η(f,L) has no supplied growth bound, so the construction gives no general stopping moments. The printed Theorem 4 statement points to Eq. (11) with λf(u), while its first-branch proof derives λ[f(q)−q]; retain this source-internal mismatch and do not cite the proof as establishing the printed PDE.",
+    "technique": "Wright–Fisher factory, ancestral duality and model-specific branching representation"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Koskela et al. Theorem 2 constructs a bounded [0,1]-valued unbiased estimator from compatible Bernstein envelopes for f∈C^ρ, ρ>3, with 1<λ<(ρ−1)/2 and a sufficiently large start k₀. The independent p-coin sample count L has P(L=n) proportional to n^(−λ). A derived construction-level moment consequence is existence of finite E[L^r] when one can choose r+1<λ<(ρ−1)/2, hence ρ>2r+3.",
+    "source_local_ids": [
+      "W17-N003"
+    ],
+    "unproved_interface": "This is a sufficient smoothness/cost route for one estimator construction, not an iff for all factory stopping times. The uniform bound ψ∈[0,1] requires the theorem’s large-start condition; do not apply it for arbitrary k₀.",
+    "technique": "bounded unbiased estimator debiasing with independent random truncation"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Stumpf-Fétizon–Gonçalves prove exact reversibility of their factorized recursive C2C construction under the required independent coins and symmetric escape term, and provide stochastic merge-overhead regimes under the iid latent DGP, local smoothness/MGF, posterior concentration, proposal and estimator cost assumptions.",
+    "source_local_ids": [
+      "W17-N004"
+    ],
+    "unproved_interface": "Theorem 1’s O_Gn(1) merge-overhead statement is stochastic boundedness; the paper warns expected overhead need not be finite absent stronger tail assumptions. Complexity is application- and likelihood-ratio-cost-specific, not a generic factory moment theorem. Appendix C Proposition 7 is a direct Jensen lower bound; Proposition 8’s (86)–(87) conclusion is not certified under its stated unconditional positive-mean assumption because the martingale is centered at a random predictable compensator. Do not use its O(ρ^n) consequence without an added control.",
+    "technique": "factorized Barker-within-Gibbs MCMC using recursive two-coin factories"
+  },
+  {
+    "problem_id": "C204",
+    "tool": "probability-bernoulli-factory",
+    "role": "auxiliary",
+    "needed_lemma": "Huber’s FTPS states that local correctness plus almost-sure finite recursion termination implies exact target output. The paper applies it to BF1 for Cp/(1+Cp) and to BF2 for (Cp)^i (linear when i=1) under C≥1, 0<ε<1 and Cp<1−ε, with the source-displayed expected-count expression for that linear construction, whose p.16 ceiling-sum proof does not establish the RHS as written.",
+    "source_local_ids": [
+      "W17-N005"
+    ],
+    "unproved_interface": "Almost-sure termination alone gives no general finite expected cost. BF1/BF2 exactness is target-specific; Lemma 11’s displayed cost bound is not proof-verified because its ceiling-sum derivation does not yield the printed RHS; no arbitrary-f moment criterion follows.",
+    "technique": "local-correctness criterion for exact recursive perfect simulation and one linear factory"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "worker": "W02",
+  "skill": "probability-martingale-stopping",
+  "status": "batch_7_full_document_read_pending_review",
+  "date": "2026-11-14",
+  "unique_local_pdfs": 33,
+  "pdf_page_hash_validation_count": 33,
+  "reading_status": {
+    "fulltext_read": 30,
+    "selected_chapters_read": 0,
+    "selected_sections_read": 0,
+    "partial_read": 0,
+    "not_read": 3
+  },
+  "cards_written": 30,
+  "mapped_problem_ids": [
+    "A127",
+    "C112",
+    "C207"
+  ],
+  "review_status": "pending for every source; independent review incomplete",
+  "math_check": "Batch-4 Fraction enumeration of a 5-step symmetric random walk: P(max S_k>=3)=7/32=0.21875, below the S007 variance-budget bound exp(-9/10)=0.406569659741; numerical conditional normalizer at lambda=0.6 is 0.990183783462. SymPy computed the S024 p=4 sharp scalar component constant cot(pi/8)=1+sqrt(2)=2.414213562373 and the d=4 componentwise Minkowski factor 4.828427124746. These are finite/algebraic diagnostics only, not proofs or a solution of C207.",
+  "remaining_gap": "The 30 complete-reading minimum is met by 29 full research-paper reads plus one full 29-page course-notes document (S001, §§1–11 and references), subject to independent acceptance. S032 remains excluded as an identity/scope-unverified fragment; three records remain unread (S012, S015, S032). Independent review is pending for every source and may change the accepted count. C207 remains auxiliary only: W02-S024 supplies the sharp scalar Riesz-component bound/lower benchmark, but no source here proves the dimension-free vector upper bound, exact A_p, or matching sharpness. C112 interfaces also remain unproved: conditioned-model tightness, effective generator, uniqueness, and variance. The reading quota is not equivalent to independent acceptance or resolution of these open problem interfaces.",
+  "retrieval_counts": {
+    "newly_downloaded_open_pdfs": 9,
+    "reused_local_collection_unique_pdfs": 24,
+    "duplicate_pdf_removed": 1
+  },
+  "skill_validation_note": "Batch 7 completed the full original 29-page S001 University of Bristol course-notes document: all physical pages, §§1–11 and references, including a recheck of §§5–10. S001 is classified as document_type=course_notes (protocol kind=paper) and fulltext_read; complete physical-page section coverage is tied to its PDF SHA-256 in reading_coverage.json. Inventory: 30 fulltext reads (29 papers + one course-notes document), 0 selected chapters/sections, 0 partial reads and 3 not-read records. S032 remains excluded as an unverified fragment. Key formulas in the stopping, convergence, UI, Doob inequality and binomial pricing sections were rendered and visually checked. All source review_status values remain pending; independent review is incomplete.",
+  "source_method_records": [
+    "M0347",
+    "M0354"
+  ],
+  "unverified_pdf_candidates_excluded_from_accepted_count": [
+    "W02-S032"
+  ],
+  "accepted_identity_count": 32
+}

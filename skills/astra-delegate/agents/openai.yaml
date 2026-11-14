@@ -1,0 +1,4 @@
+interface:
+  display_name: "Astra 协助"
+  short_description: "使用 Astra 子 Agent 或 API 进行独立分析"
+  default_prompt: "请使用 $astra-delegate 按我的任务范围调用 Astra 协助，并独立核验结果。"

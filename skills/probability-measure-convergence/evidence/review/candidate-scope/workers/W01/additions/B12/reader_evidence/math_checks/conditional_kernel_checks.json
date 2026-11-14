@@ -1,0 +1,26 @@
+{
+  "gaussian_completion_square_residual": "0",
+  "conditional_rate_from_Thm1_2_or_Thm1_3": "r**2*y**2/2 - r*x*y + x**2/2",
+  "scaled_log_mgf": "lam**2/2 + lam*r*y",
+  "legendre_optimizing_lambda": "-r*y + x",
+  "legendre_transform_of_scaled_log_mgf": "(r*y - x)**2/2",
+  "printed_Example_9_1_rate_as_extracted": "(-r*y + x)**2",
+  "Example_9_1_normalizer_quadratic_matrix_determinant": "-(r - 1)*(r + 1)",
+  "Example_9_1_normalizer_quadratic_matrix_eigenvalues": [
+    "r + 1",
+    "1 - r"
+  ],
+  "Example_9_1_finite_normalizer_condition": "positive definite iff 1-r**2>0, i.e. |r|<1; combined with the source's r!=0 gives 0<|r|<1",
+  "printed_rate_minus_legendre_rate": "(r*y - x)**2/2",
+  "finite_joint_weak_but_conditional_gap": {
+    "joint_masses_for_each_n": [
+      "1/2",
+      "1/2"
+    ],
+    "E_n_X_given_Y_eq_1_over_n": "0",
+    "limit_E_X_given_Y_eq_0": "1/2",
+    "conditional_weak_test_gap_for_phi(x)=x": "1/2",
+    "joint_weak_convergence": "yes: Y-coordinates converge uniformly to 0 on the two atoms; X-marginal is unchanged"
+  },
+  "scope": "Symbolic algebra verifies the Gaussian exponent/rate normalization, positive-definiteness determinant condition for a finite 2D normalizer, and an exact finite conditional-kernel discontinuity example. It does not establish the large-deviation theorem or repair the source's Example 9.1 sentence."
+}

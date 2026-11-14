@@ -1,0 +1,57 @@
+{
+  "check": "q_star >= 2q iff q >= n/2, with q_star=nq/(n-q), 1<q<n",
+  "exact_arithmetic": "fractions.Fraction",
+  "rational_cases_checked": 1711,
+  "all_assertions_passed": true,
+  "examples": [
+    {
+      "n": 4,
+      "q": "3/2",
+      "q_star": "12/5",
+      "two_q": "3",
+      "q_star_ge_two_q": false,
+      "q_ge_n_over_two": false
+    },
+    {
+      "n": 4,
+      "q": "2",
+      "q_star": "4",
+      "two_q": "4",
+      "q_star_ge_two_q": true,
+      "q_ge_n_over_two": true
+    },
+    {
+      "n": 4,
+      "q": "3",
+      "q_star": "12",
+      "two_q": "6",
+      "q_star_ge_two_q": true,
+      "q_ge_n_over_two": true
+    },
+    {
+      "n": 5,
+      "q": "2",
+      "q_star": "10/3",
+      "two_q": "4",
+      "q_star_ge_two_q": false,
+      "q_ge_n_over_two": false
+    },
+    {
+      "n": 5,
+      "q": "5/2",
+      "q_star": "5",
+      "two_q": "5",
+      "q_star_ge_two_q": true,
+      "q_ge_n_over_two": true
+    },
+    {
+      "n": 5,
+      "q": "4",
+      "q_star": "20",
+      "two_q": "8",
+      "q_star_ge_two_q": true,
+      "q_ge_n_over_two": true
+    }
+  ],
+  "scope": "finite algebraic sanity check only; no operator theorem is verified"
+}

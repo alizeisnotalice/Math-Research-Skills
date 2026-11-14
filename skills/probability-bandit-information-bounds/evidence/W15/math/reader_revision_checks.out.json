@@ -1,0 +1,47 @@
+{
+  "runtime": "Python standard library: Fraction and math",
+  "W15_023": {
+    "exact_second_term_exponent_at_alpha_11_over_10": "1/5",
+    "exact_ratio_exponent_to_sqrt_log_over_sqrt_n": "3/10",
+    "direct_bound_condition": "2(alpha-1) >= 1/2 iff alpha >= 5/4",
+    "finite_rate_ratio_examples": {
+      "1000000": {
+        "alpha_11_over_10_ratio_second_term_to_target_scale": 16.975263737641924,
+        "alpha_5_over_4_ratio_at_boundary": 0.2690397993802069
+      },
+      "1000000000000": {
+        "alpha_11_over_10_ratio_second_term_to_target_scale": 757.3585499901889,
+        "alpha_5_over_4_ratio_at_boundary": 0.1902398665508126
+      }
+    },
+    "scope": "Numerical exponent-scale checks only; not a counterexample to the algorithm's claimed rate."
+  },
+  "W15_029": {
+    "endpoint_bound_examples": {
+      "1": "1/2",
+      "16": "32/289",
+      "994646472819573284310764496293641680200912301594695434880927953786318994025066751066112": "1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224/989321605892418136242010084078588760140525396404847359656252224371588900426127468681267593537917819104959307233057144640765861961830194230739946476315145309654477222096928769"
+    },
+    "finite_three_arm_example": [
+      {
+        "block": 1,
+        "arm": 1,
+        "previous_endpoint": "1",
+        "endpoint": "16",
+        "expected_regret": "48/5",
+        "optimal_arm_block": false,
+        "expected_regret_le_previous_endpoint": null
+      },
+      {
+        "block": 2,
+        "arm": 2,
+        "previous_endpoint": "16",
+        "endpoint": "994646472819573284310764496293641680200912301594695434880927953786318994025066751066112",
+        "expected_regret": "48/5",
+        "optimal_arm_block": true,
+        "expected_regret_le_previous_endpoint": true
+      }
+    ],
+    "scope": "Exact finite arithmetic examples only; the all-p proof is stated in the card and R02 adjudication."
+  }
+}

@@ -1,0 +1,2299 @@
+{
+  "worker": "W23-final-v1",
+  "batch": "Final R03-approved 30-source scope; section coverage applies to 28 original full-text reads only",
+  "coverage_standard": "Sequential full-PDF reads reconstructed against PDFKit physical-page extraction; theorem, constant and figure pages listed for visual checks. Coverage means read, not independent review. Helper section/page and formula coverage was mapped into the mother record with source IDs remapped by D01 pool ID and PDF SHA-256. B9 section units were mapped to the mother schema with physical page ranges preserved; rendered evidence remains under the immutable helper batch. L08_B8 section physical-page endpoint pairs were mapped to full ranges; rendered evidence remains under the immutable helper batch. L07_B10 section page-endpoint pairs were mapped to physical-page ranges; exact render files remain in the immutable helper batch.",
+  "sources": {
+    "W23S001": {
+      "physical_pdf_pages_read": "1-11 (complete article, including references)",
+      "sections": [
+        {
+          "unit": "Abstract, §1 Introduction and model setup",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Defines rooted honeycomb SAW counts c_n, submultiplicative connective constant μ, mid-edge partition function Z(x), critical fugacity x_c=1/μ, and states Theorem 1. The physical rendering of p.2 verifies μ=√(2+√2), which PDF text extraction drops a radical from."
+        },
+        {
+          "unit": "§2 Parafermionic observable, Definition 1, Lemma 1 and proof",
+          "physical_pdf_pages": "2-4",
+          "mechanism_or_content": "On simply connected finite domains, defines F(z)=Σ exp(-iσW)x^ℓ; at x=x_c and σ=5/8 proves the local three-mid-edge relation by pairing paths visiting all three incident mid-edges and grouping one-edge/two-edge extensions into triplets. Figure 1 fixes the winding convention; Figure 2 depicts the two cancellations."
+        },
+        {
+          "unit": "§3 Counting argument in a strip and proof of Theorem 1",
+          "physical_pdf_pages": "5-9",
+          "mechanism_or_content": "Sums the local relation over a finite strip to obtain 1=c_αA_T+B_T+c_εE_T with c_α=cos(3π/8), c_ε=cos(π/4); passes to infinite height. Either some E_T>0 makes Z(x_c)=∞, or E_T=0 for every T and the bridge partition functions satisfy a harmonic lower bound through A_{T+1}-A_T≤x_c B_{T+1}². For x<x_c, canonical decreasing-width bridge decomposition bounds Z(x) by 2∏_T(1+B_T(x))²<∞. Figures 3-4 show the domain and bridge decomposition."
+        },
+        {
+          "unit": "Remark 2 and §4 Conjectures 1-2",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Records the proved critical bridge bounds and then separates exponent/SLE scaling predictions from the theorem. Conjecture 1 is chordal SAW convergence to SLE(8/3); Conjecture 2 is a normalized observable limit. The paper explicitly says the local relation alone does not determine the observable's scaling limit."
+        },
+        {
+          "unit": "References and author affiliations",
+          "physical_pdf_pages": "11",
+          "mechanism_or_content": "Read complete bibliography and end matter; confirms cited sources and article termination."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        2,
+        6
+      ],
+      "render_notes": "Physical p.2 visually confirms the full radical in Theorem 1 and x_c; p.6 visually confirms the boundary identity and bridge-square recurrence. Physical p.3 Figure 1 and p.5 Figure 3 were inspected in extracted/rendered context."
+    },
+    "W23S002": {
+      "physical_pdf_pages_read": "1-56 (complete article, appendices, figures and references)",
+      "sections": [
+        {
+          "unit": "Abstract, §1 Introduction, definitions, results and structure",
+          "physical_pdf_pages": "1-6",
+          "mechanism_or_content": "Defines rooted SAWs on Z² and H, bridge and polygon counts, line-width, and polygon convention. States Hammersley-Welsh, square-lattice subsequential improvement, honeycomb all-large-n improvement, and the separate conditional universal-cover polynomial bound. Lemma 1.5 is the multi-valued-map counting inequality; Lemma 1.6 converts bridge pairs into polygons."
+        },
+        {
+          "unit": "§2.1-2.2 Hammersley-Welsh bridge lists and unfolding proof",
+          "physical_pdf_pages": "6-8",
+          "mechanism_or_content": "Strictly decreasing bridge heights and integer-partition counting give exp(C√n) multiplicity; record-point decomposition injects half-space walks into bridge lists, and cutting at the final minimum reduces arbitrary walks to half-space walks."
+        },
+        {
+          "unit": "§2.3 Polygon-insertion heuristic and entropy-cost comparison",
+          "physical_pdf_pages": "8-12",
+          "mechanism_or_content": "Identifies many tall-branch near-touches in horizontally confined walks and explains polygon insertion as a many-valued perturbation of the Hammersley-Welsh map. Separates insertion-slot entropy from scarcity |WSAP_m^u|μ^-m and derives the heuristic exponent restrictions; this overview is not the rigorous proof. Figures 1-2 illustrate the cover and local surgery."
+        },
+        {
+          "unit": "§3.1 Polygon definitions, abundance on Z², and proof of Proposition 3.1",
+          "physical_pdf_pages": "13-17",
+          "mechanism_or_content": "Defines wide polygons by line-width≥u and height≤16u. Lemma 3.3 bins polygon diameter, uses bridge-to-polygon counting and an injective plaquette join, then Cauchy-Schwarz over matching heights; divergence of the critical bridge generating series yields a subsequence abundance bound for every α>29. Proposition 3.2 states the stronger all-u honeycomb abundance bound for later proof."
+        },
+        {
+          "unit": "§3.2 Madras joining, Lemma 3.4 and application notation",
+          "physical_pdf_pages": "17-20",
+          "mechanism_or_content": "Reviews local polygon-polygon/bridge-polygon surgery. Under vertical containment (3.4), the Z² join remains a bridge, increases length by m+16, has junction-edge chemical distance m+7, preserves all but at most two branch edges, commutes for vertically separated insertions, and has at most four presurgical inputs per output/junction."
+        },
+        {
+          "unit": "§4 Polygon insertion reduction, Proposition 4.1 and proof of Theorem 1.2",
+          "physical_pdf_pages": "20-25",
+          "mechanism_or_content": "Sets the parameter restrictions, reduces to horizontally confined walks with many branches, and proves the square-lattice exponent result from Proposition 4.4 plus subsequential polygon abundance. The long-range statement covers every n in [j,j^(4/3)] for infinitely many j; it does not assert the bound at all n."
+        },
+        {
+          "unit": "§5.1-5.2 Tall branches, viable joins, and multi-valued-map bounds",
+          "physical_pdf_pages": "25-29",
+          "mechanism_or_content": "Defines the rectangle, tall crossings, viable join indices and separated join-location lists. Lemmas 5.1-5.2 prove overlap with the adjacent branch and quantify the number of choices; Lemma 5.3 bounds outgoing arrows below and incoming multiplicity above. Proposition 4.4 follows by the multi-valued-map inequality."
+        },
+        {
+          "unit": "§5.3-5.5 Construction, inverse recovery, and limitations of Φ",
+          "physical_pdf_pages": "29-35",
+          "mechanism_or_content": "Iterates Madras joins at separated heights, then recovers surgeries from self-intersections in the unfolded non-self-avoiding output. Right-detachable adjacency Lemma 5.5 controls ambiguity; at most twelve choices per insertion give multiplicity 12^(κr) on Z². The final subsection discusses parameter/abundance limits and possible refinements. Figures 5-6 illustrate surgery and the planar recovery argument."
+        },
+        {
+          "unit": "§6.1-6.3 Honeycomb model definitions, observable, and Proposition 3.2 proof",
+          "physical_pdf_pages": "35-41",
+          "mechanism_or_content": "Defines rooted oriented midpoint-walks and polygon traces on H, critical two-point function, and the σ=5/8 parafermionic relation. Boundary winding turns the observable identity into positive partition-function identities in a strip and triangle. Three crossing walks are concatenated in an upper half-plane domain and paired with a reflection to create round polygons; the O(u²) possible lengths and at most 16u representatives per trace yield the u^-10 abundance. Figures 8-9 identify the geometry."
+        },
+        {
+          "unit": "§7.1-7.3 Universal-cover setup, roadmap and first reduction",
+          "physical_pdf_pages": "41-44",
+          "mechanism_or_content": "Defines branch-cut, universal and 8-fold covers and the polygonal domains Λ_k. Theorem 1.4 assumes a k with μ(U_k^∞)=μ(H). Proposition 7.1 reduces the count to a polynomial bound for two-point functions; Lemma 7.2 uses the 8-fold cover and an observable boundary relation."
+        },
+        {
+          "unit": "§7.4-7.6 Proofs of Lemmas 7.2-7.3 and Corollary 7.4",
+          "physical_pdf_pages": "45-49",
+          "mechanism_or_content": "Proves the cover observable estimate, constructs outer paths of length O(n²) with weight at least c n^-103 between lifted boundary points, and decomposes inner walks into excursions to manufacture polygons avoiding Λ_k. The map multiplicity and 6k+7 polygon factors give the corollary. Figures 10-11 display the path and join geometry."
+        },
+        {
+          "unit": "§7.7-7.8 Polynomial polygon bound and general Proposition 7.1",
+          "physical_pdf_pages": "49-53",
+          "mechanism_or_content": "Under equality of the universal-cover connective constant with μ(H), good polygons in U_k^∞ have exponential growth at most μ(H); joining a polygon with useful planar polygons makes it good with controlled polynomial multiplicity. This yields a polynomial two-point bound and completes the conditional theorem for arbitrary interior endpoints. The result is conditional on Conjecture 1 or the weaker good-polygon growth condition."
+        },
+        {
+          "unit": "Appendix A.1-A.3 Hexagonal Madras join and theorem transfer",
+          "physical_pdf_pages": "53-55",
+          "mechanism_or_content": "Defines the H-lattice face-based join; join length increases by m+18 (not m+16), the junction hexagon replaces the square plaquette, and chemical distance is m+3. Appendix A.3 explains the α threshold change 29→10, all-u polygon availability, and inverse multiplicity L(H)=3. Figure 12 appears on physical p.53 and Figure 13 on p.54."
+        },
+        {
+          "unit": "References and author affiliations",
+          "physical_pdf_pages": "55-56",
+          "mechanism_or_content": "Read complete bibliography and end matter; article references span both physical pages."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        2,
+        3,
+        4,
+        14,
+        21,
+        22,
+        28,
+        29,
+        37,
+        39,
+        40,
+        54,
+        55
+      ],
+      "render_notes": "Rendered theorem/parameter pages verify the square and honeycomb ε ranges, the conditional cover conjecture, polygon abundance formula, and the +18 honeycomb join. Rendered pp.39-40 verify the triangular-domain boundary identity and positive-coefficient subtraction in Lemma 6.2. Figures/geometry were inspected at pp.3, 14-15, 23, 30, 33, 38-41, 47, 51, 53-54."
+    },
+    "W23S003": {
+      "physical_pdf_pages_read": "1-25 (complete article, including all references)",
+      "sections": [
+        {
+          "unit": "Abstract and §1.1-1.6 Model, definitions, theorems and comparison",
+          "physical_pdf_pages": "1-5",
+          "mechanism_or_content": "Defines iid Bernoulli bond dilution on Z^d, rooted n-step SAW count Z_N and annealed p^N s_N, then states Proposition 1.1 and Theorem 1.4. The central quenched quantity is limsup Z_N(x)^(1/N); Remark 1.2 explicitly leaves existence of the full limit as a conjecture. The strict separation theorem is planar, p∈(1/2,1), and compares against the unconditioned environment expectation."
+        },
+        {
+          "unit": "§2.1 Proof of Proposition 1.1: root independence and nonrandomness",
+          "physical_pdf_pages": "6-7",
+          "mechanism_or_content": "For neighboring roots, decomposes walks by first hit of the neighboring vertex and bounds counts by convolutions of rooted counts; limsup nth-root growth is therefore root invariant. Finite environment changes preserve the rate by edge/pendant-vertex operations; the rate is tail measurable and Kolmogorov's zero-one law makes it deterministic."
+        },
+        {
+          "unit": "§2.2 Monotonicity of quenched/annealed ratio",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Couples p<p' percolations by common iid uniforms. Conditional expectation given the denser environment gives E[Z_N(ω_p)|F_p']=(p/p')^N Z_N(ω_p'); Markov plus Borel-Cantelli yields μ_d(p)/μ_d(p')≤p/p'."
+        },
+        {
+          "unit": "§3.1-3.2 Strategy and volume-exponent change-of-measure proposition",
+          "physical_pdf_pages": "8-10",
+          "mechanism_or_content": "Explains fractional moments/coarse graining; Proposition 3.1 assumes dν_d<2 and only proves Z_N/E Z_N→0 in probability, not exponentially. A spatially inhomogeneous Bernoulli tilt in a box of radius N^α makes the confined contribution small while its Radon–Nikodym cost remains bounded."
+        },
+        {
+          "unit": "§3.3 Animal decomposition and fractional moment reduction",
+          "physical_pdf_pages": "11-12",
+          "mechanism_or_content": "Partitions edges into N_0-boxes, maps each SAW to its connected lattice animal, uses (Σa_i)^θ≤Σa_i^θ and a_m≤49^m, then reduces the theorem to a per-animal θ=1/2 estimate. Equations (3.23)-(3.26) show the resulting strict connective-constant gap."
+        },
+        {
+          "unit": "§3.4-3.5 Change-of-measure inequality and small-animal case",
+          "physical_pdf_pages": "12-14",
+          "mechanism_or_content": "Lemma 3.3 is Cauchy-Schwarz for arbitrary positive f_A. For small m, lowers edge-open intensity blockwise; the inverse-density cost grows at most 10^m while the tilted path weight falls as 10^-5m once C_2 is large."
+        },
+        {
+          "unit": "§3.6 Large-animal case and completion of Theorem 1.4",
+          "physical_pdf_pages": "14-18",
+          "mechanism_or_content": "Select separated blocks and use a weighted centered quadratic form Q_x with 1/d(e,e') kernel. Its variance is uniformly bounded, while conditioning on a path being open forces its mean to grow like (1-p)log N_0; Chebyshev bounds the tilted expectation. Combined with the fractional moment and Borel-Cantelli this gives μ_2(p)≤4^(-1/N_0²)pμ_2(1)<pμ_2(1), with N_0=exp(C_2/(1-p)²)."
+        },
+        {
+          "unit": "§4 Strict monotonicity of the ratio",
+          "physical_pdf_pages": "18-19",
+          "mechanism_or_content": "Repeats the animal/change-of-measure argument starting from a p'-dilute graph and parameter q=p/p', proving strict monotonicity rather than only nondecrease of the ratio in dimension two."
+        },
+        {
+          "unit": "§5.1-5.4 Self-avoiding walk in an iid random potential",
+          "physical_pdf_pages": "19-23",
+          "mechanism_or_content": "For iid mean-zero unit-variance site potentials with finite log-mgf for every real parameter, proves limsup quenched free-energy growth is strictly below annealed growth for β≠0. Uses FKG to reduce to small β, animal coarse graining, linear tilt for small animals, and a quadratic-form tilt for large animals. This is a separate site-potential model, not the percolation theorem."
+        },
+        {
+          "unit": "§6 Site percolation and lattice trees/animals extensions",
+          "physical_pdf_pages": "23-24",
+          "mechanism_or_content": "States adaptations to site percolation and to lattice trees, including an analogous limsup strict separation; these are extension claims with model-specific definitions and are not needed for edge-SAW C108."
+        },
+        {
+          "unit": "References and author address",
+          "physical_pdf_pages": "24-25",
+          "mechanism_or_content": "Read complete 31-item bibliography and end matter."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        3,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "render_notes": "Physical p.1 verifies limsup wording; p.3 verifies μ_d(p)=limsup, root-independent/nonrandom proposition, the annealed pμ_d bound, and the explicit full-limit conjecture; p.12 checks the θ=1/2 per-animal estimate and strict factor. Rendered pp.13–15 verify the small-animal tilt, separated-block construction, quadratic form Q_x, its 1/d(e,e') kernel, and the inverse-density moment estimate. Rendered p.17 verifies the long path forcing a harmonic sum and the conditional mean/variance estimates; p.18 checks the choice N_0=exp(C_2/(1-p)^2), large constant C_2, Chebyshev step, and strict monotonicity proof start."
+    },
+    "W23S006": {
+      "physical_pdf_pages_read": "1-73 (complete lecture-notes chapter, including all tutorials, solutions, acknowledgements, and references)",
+      "sections": [
+        {
+          "unit": "Front matter, abstract, contents, and foreword",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Verified arXiv v1/title/authors and full contents map. Abstract identifies the chapter scope: Hammersley–Welsh bridges/polygons, exact honeycomb connective constant, high-dimensional lace expansion, and integral representation/4D RG."
+        },
+        {
+          "unit": "§1 Introduction and critical-behaviour overview",
+          "physical_pdf_pages": "2-11",
+          "mechanism_or_content": "Defines strict/weak SAW, rooted counts and connective constant; states elementary submultiplicativity, numerical/conjectural exponents, exact theorem dependencies and model caveats. Separates proven d≥5 strict-SAW results from predictions in d=2,3,4 and from continuous-time weak-SAW RG. Includes exercises on random-walk comparison and intersection integrals."
+        },
+        {
+          "unit": "§2 Bridges, Hammersley–Welsh bound, polygons",
+          "physical_pdf_pages": "11-17",
+          "mechanism_or_content": "For nearest-neighbor Z^d strict SAW, defines bridges, half-space walks and spans; strictly decreasing bridge heights encode partitions. Theorem 2.4 on physical p.12 gives log P_D(A)~pi*sqrt(A/3). Theorem 2.6 on p.13 uses two partition factors in the last-minimum split of an arbitrary SAW, producing the larger B>pi*sqrt(2/3) threshold. Bridge growth equals mu; polygon concatenation and the bridge-pair injection/Cauchy–Schwarz yield polygon growth mu."
+        },
+        {
+          "unit": "§3 Honeycomb connective constant and observable",
+          "physical_pdf_pages": "17-25",
+          "mechanism_or_content": "With midpoint walks on the honeycomb lattice, proves μ_H=√(2+√2). A winding-weighted observable at σ=5/8 and x_c=1/μ_H has a local three-mid-edge relation by pair/triplet path cancellation; summed strip-boundary identities give divergence at x_c and finite susceptibility below it. Sections 3.3–3.4 explicitly present SAW-to-SLE and O(n) phase claims as conjectural/predicted, separate from the exact connective-constant theorem."
+        },
+        {
+          "unit": "§4 Lace expansion: differential inequality and inclusion–exclusion derivation",
+          "physical_pdf_pages": "25-34",
+          "mechanism_or_content": "States previously proved nearest-neighbor strict-SAW mean-field theorems for d≥5 (not proved in full in this chapter). Derives the fixed-length lace recursion by repeated inclusion–exclusion and compatible-lace decomposition, Fourier-transforming to the two-point denominator. The bubble condition on Σ_x G_z(x)^2 implies linear susceptibility divergence via d(zχ)/dz≥χ²/Bubble. Completes the formal/tutorial development through the start of §5."
+        },
+        {
+          "unit": "§5 Lace analysis in d>4",
+          "physical_pdf_pages": "34-42",
+          "mechanism_or_content": "Bounds lace terms by diagrammatic norms; uses a simple-random-walk comparison and bootstrap/continuity to prove critical bubble finiteness when β is small. Nearest-neighbor β≤K/(d−4) gives sufficiently high dimensions; spread-out β≤K L^(−d) works for d>4 at sufficiently large L. Corollary 5.4 yields χ(z) asymp (1−z/zc)^(−1). Proof details are partly sketched/referred to the lace-expansion literature."
+        },
+        {
+          "unit": "§6 Integral representations: Gaussian and differential-form identities",
+          "physical_pdf_pages": "42-49",
+          "mechanism_or_content": "Builds the finite-volume boson/fermion representation. Gaussian integrations generate a SAW with loop background; Grassmann/differential forms self-normalize the residual product and eliminate loops. Theorem 6.11 Eq. (6.43), physical p.48, is the identity sum_{omega in S_ab(Lambda)} C_omega = integral e^{-S_A} bar(phi_a)phi_b product_{x in Lambda\\{a,b}}(1+tau_x), for finite Lambda and C=A^{-1} with positive Hermitian part. Definition 6.4 specifies the form integral; this is not a scalar pointwise identity or an infinite-volume asymptotic theorem."
+        },
+        {
+          "unit": "§7.1 Continuous-time weak SAW and Theorem 7.1",
+          "physical_pdf_pages": "49-51",
+          "mechanism_or_content": "Defines rate-2d continuous-time SRW, local times L_v,T, weight exp(−g Σ_v L_v,T²), critical ν_c(g), and states the critical two-point asymptotic for d≥4 and sufficiently small g≥0. The theorem is attributed to Brydges–Slade; section compares hierarchical-lattice and long-range results without transferring them to strict planar SAW."
+        },
+        {
+          "unit": "§7.2–7.3 Finite-volume approximation and integral representation",
+          "physical_pdf_pages": "51-53",
+          "mechanism_or_content": "Theorem 7.2 takes a subcritical parameter limit and growing-torus limit to recover the infinite-volume two-point function. Theorem 7.3 gives the finite-volume supersymmetric integral representation, then introduces mass/external-field parameters for the critical asymptotic problem."
+        },
+        {
+          "unit": "§7.4–7.5 Superexpectation and finite-range covariance decomposition",
+          "physical_pdf_pages": "53-55",
+          "mechanism_or_content": "Defines Gaussian superexpectation and its convolution property; Theorem 7.5 decomposes the massive torus covariance into finite-range positive-definite covariances with derivative bounds for fixed order p, d>2, sufficiently large dyadic scale L."
+        },
+        {
+          "unit": "§7.6–7.8 Polymer recursion, RG flow, and discrete-time tutorial",
+          "physical_pdf_pages": "56-59",
+          "mechanism_or_content": "Sets up polymer activities and circle products, gives the RG recursion and flow equations as a summary with technical details omitted, and begins the discrete-time weak-SAW Simon–Lieb tutorial. The detailed fixed-point derivation is deferred to cited work; the version bibliography lists one account as in preparation."
+        },
+        {
+          "unit": "Appendix A.1 Solutions to Tutorial 1",
+          "physical_pdf_pages": "59-62",
+          "mechanism_or_content": "Reads solutions to the elementary count/radius/connective-constant, random-walk Fourier Green function and intersection-integrability exercises."
+        },
+        {
+          "unit": "Appendix A.2 Solutions to Tutorial 4.4 (lace expansion)",
+          "physical_pdf_pages": "62-66",
+          "mechanism_or_content": "Works through connected graph/lace decomposition, compatibility sets, and the walk-avoidance patterns for the first several lace orders; identifies which lace intervals may have zero length."
+        },
+        {
+          "unit": "Appendix A.3 Solutions to Tutorial 5.4 (high-dimensional estimates)",
+          "physical_pdf_pages": "66-68",
+          "mechanism_or_content": "Derives Fourier-integral monotonicity, high-dimensional bounds for long SAW segments and first lace coefficients, then the stated 1/d expansion μ=2d−1−(2d)^(−1)+O((2d)^(−2)). These are theorem/exercise calculations under the lace estimates, not finite numerical evidence."
+        },
+        {
+          "unit": "Appendix A.4 Solutions to Tutorial 7.8 (finite-volume approximation)",
+          "physical_pdf_pages": "68-70",
+          "mechanism_or_content": "Proves submultiplicativity for weak-SAW weights, torus comparison, Simon–Lieb inequality, exponential decay, and convergence of finite-torus two-point functions under ν>ν_c."
+        },
+        {
+          "unit": "Acknowledgements and full references",
+          "physical_pdf_pages": "70-73",
+          "mechanism_or_content": "Read all acknowledgements and bibliography entries through reference [72], plus author affiliations/end matter; no pages omitted."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        12,
+        13,
+        17,
+        20,
+        26,
+        48,
+        50
+      ],
+      "render_notes": "Rendered physical p.12 to verify Theorem 2.4 log P_D(A)~pi*sqrt(A/3); p.13 to verify the strict B>pi*sqrt(2/3) threshold and dimension-uniform n0; p.17 for the bridge/polygon comparison; p.20 for parafermionic cancellation; p.26 for d>=5 strict-SAW theorem statements; p.48 for the full integral sign and integrand in Eq. (6.43); and p.50 for the continuous-time weak-SAW model and Theorem 7.1. The p.12/p.13 distinction is the source of the threshold accounting correction."
+    },
+    "W23S007": {
+      "physical_pdf_pages_read": "1-27 (complete article, including all references and author end matter)",
+      "sections": [
+        {
+          "unit": "Abstract and §1.1 model, Theorem 1.1, Corollary 1.2",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Defines rooted uniform nearest-neighbor strict SAW on Z^d, d≥2, and prints the prefactor-free exponential tail for maximum Euclidean displacement ≥vn for every n at fixed v>0. The literal n=1,v=1/2 boundary case is impossible; the card preserves the source wording but limits tool use to sufficiently large n or a finite-prefactor form."
+        },
+        {
+          "unit": "§1.2–1.3 predictions and finite-domain two-point ensemble",
+          "physical_pdf_pages": "2-4",
+          "mechanism_or_content": "Separates predicted mean-square exponents/SLE from proved claims; defines the boundary-to-boundary finite-domain weighted SAW and states critical length corollary. Subcritical fluctuation/geodesic discussion is qualified; supercritical space-filling is cited as a separate result."
+        },
+        {
+          "unit": "§1.4–1.6 other graphs, open questions, acknowledgements",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "States graph-dependent scope/open questions and acknowledges support. Does not prove ballisticity on non-amenable graphs or resolve exponent/tightness questions."
+        },
+        {
+          "unit": "§2 Preliminaries: bridges, irreducibility, theorem roadmap, proof of Theorem 1.1",
+          "physical_pdf_pages": "5-11",
+          "mechanism_or_content": "Defines vertical bridges and renewal points, proves the Hammersley–Welsh walk/bridge comparison and Kesten irreducible-bridge probability identity, and states the ballistic assumption and contradiction roadmap. Under that assumption, Theorem 2.3 gives renewal-rich bridges at subexponential cost along a subsequence; Corollary 2.4 says ballisticity forces finite irreducible-bridge mean, while Theorem 2.5 states the incompatible infinite-mean result. The proof direction for Corollary 2.4 is on physical p.18 in §3 and is recorded there."
+        },
+        {
+          "unit": "§3 Positive density of renewal points at subexponential cost",
+          "physical_pdf_pages": "11-18",
+          "mechanism_or_content": "Theorem 3.1 obtains renewal-rich bridges along a subsubsequence. Proposition 3.2 reduces height-band visits via zigzag unfoldings, with three cases and a multivalued-map/preimage bound; the reduction is explicitly subsequential. The physical p.18 proof of Corollary 2.4 assumes infinite iSAB mean, truncates block lengths, and uses exponential Markov plus the exp(C sqrt(n)) bridge-conditioning loss to bound renewal-rich bridges by exp(-epsilon n+C sqrt(n)); this contradicts Theorem 2.3's subexponential lower cost under ballisticity, so ballisticity forces finite mean."
+        },
+        {
+          "unit": "§4 Incompatibility of bridge renewal theory and stickbreak proof",
+          "physical_pdf_pages": "18-25",
+          "mechanism_or_content": "Constructs stationary ergodic bi-infinite concatenated iSAB paths; finite mean implies positive density of diamond points. Stickbreaks at separated diamond points preserve self-avoidance, add two edges, create a macroscopic width excursion and reduce renewal count. Weighted input/output counting contradicts the finite-mean typical-width law, proving E_iSAB|γ|=∞."
+        },
+        {
+          "unit": "§5 Corollaries 1.2 and 1.3",
+          "physical_pdf_pages": "25-26",
+          "mechanism_or_content": "Corollary 1.2 is immediate from Theorem 1.1. Corollary 1.3’s proof is a sketch reducing the critical finite-domain length estimate to subcritical Ornstein–Zernike estimates and divergence of the susceptibility."
+        },
+        {
+          "unit": "Complete references and author affiliations",
+          "physical_pdf_pages": "26-27",
+          "mechanism_or_content": "Read all 23 references and affiliation/contact end matter through the final physical page."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        10,
+        13,
+        18,
+        24
+      ],
+      "render_notes": "Rendered physical p.1 to check the source’s literal all-n prefactor-free Theorem 1.1 wording; p.10 for the stickbreak/Hammersley–Welsh bridge comparison; p.13 for zigzag unfolding and the three-case renewal reduction; p.18 for the proof of Corollary 2.4, where the infinite-mean assumption gives the exponential upper tail; and p.24 for stickbreak geometry and weighted counting. The exact n=1,v=1/2 finite-size counterexample is also documented in the card. The full article was sequentially read, including p.27 end matter."
+    },
+    "W23S008": {
+      "physical_pdf_pages_read": "1–15 (complete source PDF; all references/end matter read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "mechanism_or_content": "Read definitions of connective constant, Theorem 1.1, context, and the paper's statement of scope."
+        },
+        {
+          "unit": "§2 Notation",
+          "physical_pdf_pages": "2–3",
+          "mechanism_or_content": "Read graph/SAW conventions, parallel-edge conventions, root-independent growth notation."
+        },
+        {
+          "unit": "§3 Basic facts for general graphs",
+          "physical_pdf_pages": "3–6",
+          "mechanism_or_content": "Read cited existence theorem and paper proof/comparison of rooted growth rates, including all cases and inequalities."
+        },
+        {
+          "unit": "§4 Connective constants of regular graphs",
+          "physical_pdf_pages": "6–9",
+          "mechanism_or_content": "Read Theorems 4.1–4.3, conditions Π/Πv, the local cubic equivalence and separate sufficient graph-level bi-infinite-SAW criterion, bridge graph example, and realizable interval claim."
+        },
+        {
+          "unit": "§5 Proofs of Theorems 4.1–4.3",
+          "physical_pdf_pages": "9–14",
+          "mechanism_or_content": "Read complete extendable-SAW branch-count liminf proof, edge-disjoint paths argument, nonsimple degree cases, and strict upper-bound proof."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "14–15",
+          "mechanism_or_content": "Read correction acknowledgment and entire bibliography; noted v2's Theorem 3.2 fix separately from body proof."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        14
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P07-p1.png",
+        "evidence/root/workers/W23/text/SAW-P07-p3.png",
+        "evidence/root/workers/W23/text/SAW-P07-p5.png",
+        "evidence/root/workers/W23/text/SAW-P07-p6.png",
+        "evidence/root/workers/W23/text/SAW-P07-p8.png",
+        "evidence/root/workers/W23/text/SAW-P07-p14.png"
+      ],
+      "render_notes": "Rendered p.3 verifies separate rooted liminf/limsup and global sup-root limit; rendered p.8 verifies Theorem 4.3's rooted liminf bar, cubic local-equivalence statement, and the merely sufficient graph-level bi-infinite-SAW criterion. Theorem 1.1 radical, honeycomb connective-constant display, Theorem 4.1 lower bound, and p.14 earlier-version acknowledgment were also inspected.",
+      "reader": "L08",
+      "pool_id": "SAW-P07",
+      "reader_batch": "L08_B2",
+      "source_sha256": "6c51e9b417bf6ac4817731e6d2d9695ea577a72b5fa7daefcca03406c2bd1bed",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P07.txt",
+      "math_check_paths": [
+        "evidence/root/workers/W23/math/tree_saw_counts.py",
+        "evidence/root/workers/W23/math/tree_saw_counts_result.json"
+      ]
+    },
+    "W23S009": {
+      "physical_pdf_pages_read": "1–37 (complete source PDF; all references/end matter read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read abstract, motivation, and exact organizing statements for quotient and augmentation theorems."
+        },
+        {
+          "unit": "§2 Notation and definitions",
+          "physical_pdf_pages": "3–4",
+          "mechanism_or_content": "Read SAW/multigraph/root-growth definitions and cited existence theorem."
+        },
+        {
+          "unit": "§3.1–3.3 Quasi-transitive augmentation and algebra",
+          "physical_pdf_pages": "4–9",
+          "mechanism_or_content": "Read standing transitive/simple finite-degree assumptions, Theorem 3.2, finite-coset property, Proposition 3.3, examples, counterexample to quasi-transitive-only relaxation, and algebraic lemmas."
+        },
+        {
+          "unit": "§3.4–3.6 Quotients, unimodularity, and quantitative/algorithmic results",
+          "physical_pdf_pages": "9–13",
+          "mechanism_or_content": "Read quotient edge multiplicity/lift construction, subgroup types, Theorem 3.8 and conditions (i)/(ii), type-2 necessity example, unimodularity lemma, Theorems 3.11–3.12 and their limitations."
+        },
+        {
+          "unit": "§4 Strict inequalities for Cayley graphs",
+          "physical_pdf_pages": "13–15",
+          "mechanism_or_content": "Read presentation assumptions and complete Corollaries 4.1 and 4.3 with examples."
+        },
+        {
+          "unit": "§5 Proofs of Theorems 3.8 and 3.11",
+          "physical_pdf_pages": "16–26",
+          "mechanism_or_content": "Read Assumption 5.2, pattern-count lemmas, all cases in Lemma 5.4, cycle-replacement counting estimates, Theorem 3.8 proof, Remark 5.5 proof sketch, and Theorem 3.11 algorithm proof."
+        },
+        {
+          "unit": "§6 Proof of Theorem 3.2",
+          "physical_pdf_pages": "27–35",
+          "mechanism_or_content": "Read new-cycle construction, lemmas on cycle-avoiding walk growth and edge-orbit deletion, finite-coset reduction, cycle insertion and reconstruction bounds, complete strict-augmentation proof."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "36–37",
+          "mechanism_or_content": "Read entire end matter and reference list."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        5,
+        10,
+        19,
+        20,
+        24,
+        25,
+        28,
+        31,
+        33,
+        35
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P09-p5.png",
+        "evidence/root/workers/W23/text/SAW-P09-p10.png",
+        "evidence/root/workers/W23/text/SAW-P09-p19.png",
+        "evidence/root/workers/W23/text/SAW-P09-p20.png",
+        "evidence/root/workers/W23/text/SAW-P09-p24.png",
+        "evidence/root/workers/W23/text/SAW-P09-p25.png",
+        "evidence/root/workers/W23/text/SAW-P09-p28.png",
+        "evidence/root/workers/W23/text/SAW-P09-p31.png",
+        "evidence/root/workers/W23/text/SAW-P09-p33.png",
+        "evidence/root/workers/W23/text/SAW-P09-p35.png"
+      ],
+      "render_notes": "Rendered images checked Theorems 3.2/3.8, event-count inequalities (5.9)–(5.22), binomial comparison (5.32)–(5.36), Lemmas 6.2–6.3, and augmentation bounds including (6.31).",
+      "reader": "L08",
+      "pool_id": "SAW-P09",
+      "reader_batch": "L08_B2",
+      "source_sha256": "d6e97e8cc626ab63ff78c9e71341ac334f6c085538c5a6699ae1291a7ba60b70",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P09.txt",
+      "proof_detail_note": "Remark 5.5 itself identifies type-2 condition (b)(ii) as remaining after the main proof under Assumption 5.2; pp.25–26 provide a reduction sketch. Preserve this as a distinct proof-evidence qualification."
+    },
+    "W23S010": {
+      "physical_pdf_pages_read": "1–15 (complete source PDF; all references/end matter read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read walk-extension definitions, Theorem 1, pointwise forward-rate conclusion, explicit limitation for backward/doubly counts, and lattice context."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "3–6",
+          "mechanism_or_content": "Read directed-graph conventions, ordinary SAW growth, rooted trees/branching number, Furstenberg subperiodicity theorem, weights and mass-transport principle."
+        },
+        {
+          "unit": "§3 SAW trees",
+          "physical_pdf_pages": "6–8",
+          "mechanism_or_content": "Read Lemma 5 and full SAW-tree/forward-pruning proof, plus good/bad vertex argument for rootwise forward limits."
+        },
+        {
+          "unit": "§4 The unimodular case",
+          "physical_pdf_pages": "8–9",
+          "mechanism_or_content": "Read mass-transport comparison Lemma 6 and complete equality proof in the unimodular case."
+        },
+        {
+          "unit": "§5 Geodesics",
+          "physical_pdf_pages": "9–14",
+          "mechanism_or_content": "Read undirected reduction, non-unimodular weight-to-quasi-geodesic construction, loop erasure, intersection decomposition, convolution estimate, and contradiction proof."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "14–15",
+          "mechanism_or_content": "Read all acknowledgements, bibliography, and author affiliations."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        2,
+        6,
+        11,
+        13
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P10-p2.png",
+        "evidence/root/workers/W23/text/SAW-P10-p6.png",
+        "evidence/root/workers/W23/text/SAW-P10-p11.png",
+        "evidence/root/workers/W23/text/SAW-P10-p13.png"
+      ],
+      "render_notes": "Rendered theorem and non-unimodular proof pages; checked the exponential powers/ratios in Lemma 6, weight ratio (5.1) and quasi-geodesic estimate (5.3), and two-case bound (5.4).",
+      "reader": "L08",
+      "pool_id": "SAW-P10",
+      "reader_batch": "L08_B2",
+      "source_sha256": "f1db55afeaf19319764f8f6c5f87616f300e3d7f25de5834316bf602ce3874ba",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P10.txt"
+    },
+    "W23S011": {
+      "physical_pdf_pages_read": "1–25 (complete source PDF; all references/end matter read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction and summary of results",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read locality statement, rooted-ball agreement, height-function hypothesis, bridge strategy, quotient application, and organization."
+        },
+        {
+          "unit": "§2 Notation and background",
+          "physical_pdf_pages": "3–4",
+          "mechanism_or_content": "Read graph and rooted-SAW conventions, submultiplicativity, connective-constant limit, quasi-transitivity, and quotient-graph definitions."
+        },
+        {
+          "unit": "§3 Quasi-transitive graphs and graph height functions",
+          "physical_pdf_pages": "4–10",
+          "mechanism_or_content": "Read height-function and unimodularity definitions, d and orbit-connector r bounds, examples, Proposition 3.2 proof, and terminal examples."
+        },
+        {
+          "unit": "§4 Bridges and the bridge constant",
+          "physical_pdf_pages": "10–12",
+          "mechanism_or_content": "Read half-space/reversed-bridge definitions, span counts, supermultiplicativity, Proposition 4.2, Theorem 4.3, unimodularity necessity example, and Proposition 4.2 proof."
+        },
+        {
+          "unit": "§5 Locality of connective constants",
+          "physical_pdf_pages": "12–15",
+          "mechanism_or_content": "Read Theorems 5.1–5.2, quotient application, Proposition 5.4(a,b), quantitative matched-ball comparison, and proof."
+        },
+        {
+          "unit": "§6 Proof of Theorem 4.3: transitive case",
+          "physical_pdf_pages": "15–20",
+          "mechanism_or_content": "Read distinct-partition estimate, mass-transport multiplicity lemmas, bridge-unwrapping surgery and counting bound, then the SAW-to-half-space decomposition."
+        },
+        {
+          "unit": "§7 Theorem 4.3: quasi-transitive case",
+          "physical_pdf_pages": "20–23",
+          "mechanism_or_content": "Read orbit-type mass-transport comparison, connector insertion of length at most r, multiplicity bounds, and final subexponential loss."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "23–25",
+          "mechanism_or_content": "Read support statements, all references, and terminal author addresses; no appendix or separate supplement occurs in this PDF."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        12,
+        19
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P11-p1.png",
+        "evidence/root/workers/W23/text/SAW-P11-p12.png",
+        "evidence/root/workers/W23/text/SAW-P11-p19.png"
+      ],
+      "render_notes": "Rendered p.12 verifies Theorem 5.1 hypotheses D,R and matched rooted balls. Rendered p.19 verifies multiplicity inequalities (6.8)–(6.11), including the exp(A sqrt(d n)) loss.",
+      "formula_audit": "Rendered p.12 verifies Theorem 5.1 hypotheses D,R and matched rooted balls. Rendered p.19 verifies multiplicity inequalities (6.8)–(6.11), including the exp(A sqrt(d n)) loss.",
+      "reader": "L06",
+      "pool_id": "SAW-P11",
+      "reader_batch": "L06_B4",
+      "source_sha256": "0db12154d0cf548abf542dd67fa8d2d7dd714f3b1e1dd874e878fd17d9c20dc0",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P11.txt",
+      "math_check_paths": [
+        "evidence/root/workers/W23/math/check_finite_saw_and_bridge_roots.m",
+        "evidence/root/workers/W23/math/finite_math_check.txt",
+        "evidence/root/workers/W23/math/finite_math_check.json",
+        "evidence/root/workers/W23/math/finite_math_check.empty_diary_diagnostic.txt"
+      ]
+    },
+    "W23S012": {
+      "physical_pdf_pages_read": "1–27 (complete source PDF; all references/end matter read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1–4",
+          "mechanism_or_content": "Read weighted-SAW definitions, main-result overview, bounded/unbounded support distinction, generalized-length motivation, and roadmap."
+        },
+        {
+          "unit": "§2 Weighted walks and bridges on locally finite graphs",
+          "physical_pdf_pages": "4–8",
+          "mechanism_or_content": "Read invariant positive edge weights, aggregate path weights, bridge constants, weighted bridge theorem, sup-metric continuity estimate, and proof dependency summary."
+        },
+        {
+          "unit": "§3 Weight functions with unbounded support",
+          "physical_pdf_pages": "8–13",
+          "mechanism_or_content": "Read virtual indicability and strong height functions, summable symmetric spanning weights, generalized length, binned SAW/bridge constants, condition (3.9), Theorem 3.10, and limitations/examples."
+        },
+        {
+          "unit": "§4 Continuity of the connective constant",
+          "physical_pdf_pages": "13",
+          "mechanism_or_content": "Read normalized distance on weight/length pairs and Theorem 4.1, with common C, exponent, and connective-constant bounds."
+        },
+        {
+          "unit": "§5 Proofs of Theorems 3.2 and 3.7",
+          "physical_pdf_pages": "13–17",
+          "mechanism_or_content": "Read virtual-indicability equivalence, sufficient length-height condition, orbit connectors, binned bridge limit, and proof of the general binned SAW limit."
+        },
+        {
+          "unit": "§6 Proof of Theorem 3.10",
+          "physical_pdf_pages": "17–22",
+          "mechanism_or_content": "Read Hardy–Ramanujan bridge-unwrapping under subquadratic height-length control, connector weights, multiplicity bound, and SAW splitting proof."
+        },
+        {
+          "unit": "§7 Proof of Theorem 4.1",
+          "physical_pdf_pages": "22–25",
+          "mechanism_or_content": "Read metric comparison inequalities, continuity argument, and weight-truncation convergence under continuity-at-zero."
+        },
+        {
+          "unit": "§8 Proof of Theorem 2.5; acknowledgements and references",
+          "physical_pdf_pages": "25–27",
+          "mechanism_or_content": "Read proof summary for the locally finite weighted bridge theorem, acknowledgements, every reference, and terminal addresses; detailed proof is explicitly omitted and referred to earlier methods."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        12,
+        20
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P13-p1.png",
+        "evidence/root/workers/W23/text/SAW-P13-p12.png",
+        "evidence/root/workers/W23/text/SAW-P13-p20.png"
+      ],
+      "render_notes": "Rendered p.12 verifies Theorem 3.10's full binned limit, bridge equality, and exponent range. Rendered p.20 verifies connector length shifts and multiplicative weight factor theta squared. Theorem 2.5's proof is only summarized in §8.",
+      "formula_audit": "Rendered p.12 verifies Theorem 3.10's full binned limit, bridge equality, and exponent range. Rendered p.20 verifies connector length shifts and multiplicative weight factor theta squared. Theorem 2.5's proof is only summarized in §8.",
+      "reader": "L06",
+      "pool_id": "SAW-P13",
+      "reader_batch": "L06_B4",
+      "source_sha256": "faf14f9216dc2588d7b7eb8c5e0d6ef1968c10c57358a0d23078bec6f6139cc9",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P13.txt",
+      "math_check_paths": [
+        "evidence/root/workers/W23/math/check_finite_saw_and_bridge_roots.m",
+        "evidence/root/workers/W23/math/finite_math_check.txt",
+        "evidence/root/workers/W23/math/finite_math_check.json",
+        "evidence/root/workers/W23/math/finite_math_check.empty_diary_diagnostic.txt"
+      ]
+    },
+    "W23S013": {
+      "physical_pdf_pages_read": "1–14 (complete source PDF; all references/end matter read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction and results",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read graph-SAW setup, height-function definition pointer, earlier unimodular bridge theorem, and exact two-direction main theorem."
+        },
+        {
+          "unit": "§2 Terminology and preliminaries",
+          "physical_pdf_pages": "3–5",
+          "mechanism_or_content": "Read graph class and height-function assumptions, increasing/decreasing bridges and half-space walks, span decomposition, and Fekete limits."
+        },
+        {
+          "unit": "§3 The bridge theorem",
+          "physical_pdf_pages": "5–11",
+          "mechanism_or_content": "Read Theorem 3.2 and transitive proof: alternating bridge decomposition, distinct-partition count, Hardy–Ramanujan bound, SAW split at last minimum, and quasi-transitive connector extension."
+        },
+        {
+          "unit": "§4 Bridges in the Grandparent graph",
+          "physical_pdf_pages": "11–14",
+          "mechanism_or_content": "Read non-unimodularity argument, both bridge generating-function recurrences and smallest-positive-root criteria, connective-constant maximum, complete references and author address."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        5,
+        7,
+        13,
+        14
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P14-p1.png",
+        "evidence/root/workers/W23/text/SAW-P14-p13.png",
+        "evidence/root/workers/W23/text/SAW-P14-p14.png",
+        "evidence/root/workers/W23/text/SAW-P14-p5.png",
+        "evidence/root/workers/W23/text/SAW-P14-p7.png"
+      ],
+      "render_notes": "Rendered p.5 verifies mu=max(beta(h),beta(-h)); p.7 verifies B>pi sqrt(d/3) for the half-space count. Rendered pp.13–14 verify both Grandparent-graph quartics and quoted reciprocal-root values. No appendix or separate supplement occurs in this PDF.",
+      "formula_audit": "Rendered p.5 verifies mu=max(beta(h),beta(-h)); p.7 verifies B>pi sqrt(d/3) for the half-space count. Rendered pp.13–14 verify both Grandparent-graph quartics and quoted reciprocal-root values. No appendix or separate supplement occurs in this PDF.",
+      "reader": "L06",
+      "pool_id": "SAW-P14",
+      "reader_batch": "L06_B4",
+      "source_sha256": "554b3d961903e16ce3bd14cbba9d8b816ac447299f889203daa6ae5cf52e44cb",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P14.txt",
+      "math_check_paths": [
+        "evidence/root/workers/W23/math/check_finite_saw_and_bridge_roots.m",
+        "evidence/root/workers/W23/math/finite_math_check.txt",
+        "evidence/root/workers/W23/math/finite_math_check.json",
+        "evidence/root/workers/W23/math/finite_math_check.empty_diary_diagnostic.txt"
+      ]
+    },
+    "W23S014": {
+      "physical_pdf_pages_read": "1–9 (complete source PDF; all body and references/end matter read)",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–4",
+          "mechanism_or_content": "Read model and connective-constant setup, Hammersley–Welsh Theorem 1.1, qualitative Theorem 1.2, bridge definition, Theorem 1.3 hypotheses and complete rate statement, definitions of Φ, ψ, Ψ, Theorem 1.4, Corollary 1.5, remarks and scope."
+        },
+        {
+          "unit": "§2.1 Proof of Hammersley–Welsh",
+          "physical_pdf_pages": "4–6",
+          "mechanism_or_content": "Read the Madras–Slade susceptibility inequality, bridge generating function, Proposition 2.2 coefficient estimate, and full simplified classical bound proof."
+        },
+        {
+          "unit": "§2.2 Proof of the improvement",
+          "physical_pdf_pages": "6–8",
+          "mechanism_or_content": "Read Lemma 2.4 split-at-λn argument, bridge decay estimate, generating-function/susceptibility transfer to Theorem 1.4, and complete qualitative/power-rate corollary derivations including the ν≤1 exclusion."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": "8–9",
+          "mechanism_or_content": "Read all acknowledgments and complete bibliography; verified terminal page and no omitted body page."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P16-p2.png",
+        "evidence/root/workers/W23/text/SAW-P16-p3.png",
+        "evidence/root/workers/W23/text/SAW-P16-p4.png",
+        "evidence/root/workers/W23/text/SAW-P16-p5.png",
+        "evidence/root/workers/W23/text/SAW-P16-p6.png",
+        "evidence/root/workers/W23/text/SAW-P16-p7.png",
+        "evidence/root/workers/W23/text/SAW-P16-p8.png"
+      ],
+      "render_notes": "Rendered theorem/definition page 3 to check the exact bridge event, Φ/ψ/Ψ formula and n+1 factor; checked Corollary 1.5 page 4 and proof formulas on pages 6–7. MATLAB exact algebra check is stored in math/l08_b5_exact_checks.json. Literal endpoint defect checked: at d=2,n=m=1, b1=event_count=1 conflicts with positive phi(1); see math/p16_literal_endpoint_check.json. Flagged without repair.",
+      "formula_audit": "Rendered theorem/definition page 3 to check the exact bridge event, Φ/ψ/Ψ formula and n+1 factor; checked Corollary 1.5 page 4 and proof formulas on pages 6–7. MATLAB exact algebra check is stored in math/l08_b5_exact_checks.json. Literal endpoint defect checked: at d=2,n=m=1, b1=event_count=1 conflicts with positive phi(1); see math/p16_literal_endpoint_check.json. Flagged without repair.",
+      "reader": "L08",
+      "pool_id": "SAW-P16",
+      "reader_batch": "L08_B5",
+      "source_sha256": "195f25f1669c44a1c7ad9e1a7c498955eb1299101fa9269e528777e1f9985c89",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P16.txt",
+      "math_check_paths": [
+        "evidence/root/workers/W23/math/l08_b5_exact_checks.m",
+        "evidence/root/workers/W23/math/l08_b5_exact_checks.json",
+        "evidence/root/workers/W23/math/p16_literal_endpoint_check.m",
+        "evidence/root/workers/W23/math/p16_literal_endpoint_check.json"
+      ]
+    },
+    "W23S015": {
+      "physical_pdf_pages_read": "1–21 (complete source PDF; all body and references/end matter read)",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read uniform honeycomb SAW model and critical fugacity, Theorem 1 displacement event, Theorem 2 bridge decay, prior bounds, and explicit distinction between proof and predicted n^(3/4+o(1)) scale."
+        },
+        {
+          "unit": "§2 Preliminary observations and notations; §2.1 Parafermionic observable",
+          "physical_pdf_pages": "4–5",
+          "mechanism_or_content": "Read embedding, critical weight/spin, observable definition, local relation and domain-summed identities."
+        },
+        {
+          "unit": "§2.2 Domains and partition functions of interest",
+          "physical_pdf_pages": "6–8",
+          "mechanism_or_content": "Read strip bridge, triangle-walk and upper-half-plane-walk definitions and Lemmas 2.2–2.3, including comparison constants."
+        },
+        {
+          "unit": "§3.1 Number of renewal times",
+          "physical_pdf_pages": "8–9",
+          "mechanism_or_content": "Read renewal-point definitions and the expected renewal count estimate, Lemma 3.1."
+        },
+        {
+          "unit": "§3.2 Geometric construction and recurrence inequalities",
+          "physical_pdf_pages": "10–15",
+          "mechanism_or_content": "Read both geometric cases, connecting walks, probability/error terms, and Corollary 3.1 recurrence (11) with its integer floor conventions."
+        },
+        {
+          "unit": "§3.3 Proof of polynomial decay of B_T",
+          "physical_pdf_pages": "15–17",
+          "mechanism_or_content": "Read sequence lemma 3.4, parameter choices and proof of Theorem 3 for D_T; tracked the B_T≤D_T comparison proving Theorem 2."
+        },
+        {
+          "unit": "§4 Quantitative sub-ballisticity",
+          "physical_pdf_pages": "18–20",
+          "mechanism_or_content": "Read Lemma 4.1 bridge-height tail proof, block scale, bridge/connectors exponent comparison, unfolding/projection argument and Theorem 1."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "20–21",
+          "mechanism_or_content": "Read full bibliography, author notes and terminal page."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P18-p2.png",
+        "evidence/root/workers/W23/text/SAW-P18-p3.png",
+        "evidence/root/workers/W23/text/SAW-P18-p5.png",
+        "evidence/root/workers/W23/text/SAW-P18-p6.png",
+        "evidence/root/workers/W23/text/SAW-P18-p7.png",
+        "evidence/root/workers/W23/text/SAW-P18-p8.png",
+        "evidence/root/workers/W23/text/SAW-P18-p9.png",
+        "evidence/root/workers/W23/text/SAW-P18-p11.png",
+        "evidence/root/workers/W23/text/SAW-P18-p12.png",
+        "evidence/root/workers/W23/text/SAW-P18-p13.png",
+        "evidence/root/workers/W23/text/SAW-P18-p14.png",
+        "evidence/root/workers/W23/text/SAW-P18-p15.png",
+        "evidence/root/workers/W23/text/SAW-P18-p16.png",
+        "evidence/root/workers/W23/text/SAW-P18-p17.png",
+        "evidence/root/workers/W23/text/SAW-P18-p18.png",
+        "evidence/root/workers/W23/text/SAW-P18-p19.png"
+      ],
+      "render_notes": "Rendered Theorem 1 and Theorem 2 pages 2–3 and proof pages across §§3–4; checked threshold 10^11 n/log(n+1), exponent n^(2/3), B_T≤100T^(-10^-10), and recurrence proof symbols visually. MATLAB checks log(4)<5/3; numerical check only. Domain audit: Definition 2.2 defines only integer strip indices k; theorem card applies to integer T and makes no real-T rounding/interpolation claim.",
+      "formula_audit": "Rendered Theorem 1 and Theorem 2 pages 2–3 and proof pages across §§3–4; checked threshold 10^11 n/log(n+1), exponent n^(2/3), B_T≤100T^(-10^-10), and recurrence proof symbols visually. MATLAB checks log(4)<5/3; numerical check only. Domain audit: Definition 2.2 defines only integer strip indices k; theorem card applies to integer T and makes no real-T rounding/interpolation claim.",
+      "reader": "L08",
+      "pool_id": "SAW-P18",
+      "reader_batch": "L08_B5",
+      "source_sha256": "fc97832c6fa06e4e2e5ad69d1b56edee7f34ebc63d5a325c637776a431baed9a",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P18.txt",
+      "math_check_paths": [
+        "evidence/root/workers/W23/math/l08_b5_exact_checks.m",
+        "evidence/root/workers/W23/math/l08_b5_exact_checks.json"
+      ]
+    },
+    "W23S016": {
+      "physical_pdf_pages_read": "1–25 (complete source PDF; all body and references/end matter read)",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read O(n) loop/SAW half-plane model, bulk critical point, conjectured general-n surface formula, exact n=0 theorem, and paper plan/limits."
+        },
+        {
+          "unit": "§2 Smirnov identity in the presence of a boundary",
+          "physical_pdf_pages": "3–8",
+          "mechanism_or_content": "Read observable, both local parameter branches and interior/boundary identities, trapezoidal domain summation, global identity Proposition 4 and sign/positivity setup."
+        },
+        {
+          "unit": "§3 Confined self-avoiding walks; §§3.1–3.2",
+          "physical_pdf_pages": "8–13",
+          "mechanism_or_content": "Read half-plane surface growth and critical fugacity properties, strip generating functions/radii, monotone strip thresholds and convergence to y_c, including all propositions."
+        },
+        {
+          "unit": "§4 Critical surface fugacity; §§4.1–4.5",
+          "physical_pdf_pages": "13–15",
+          "mechanism_or_content": "Read n=0 global identity, y*=1+sqrt(2), lower bound, Proposition 9 limit identity, Theorem 10 statement and proof dependency, and upper-bound factorization completing equality."
+        },
+        {
+          "unit": "Appendix: Proof of Theorem 10",
+          "physical_pdf_pages": "16–24",
+          "mechanism_or_content": "Read the full bridge renewal setup, Kesten relation, expected-height contradiction, finite-width proposition, stationary/ergodic two-sided renewal process, positive-density diamond points, typical-prefix lemma, stick-break map and multiplicity contradiction."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": "24–25",
+          "mechanism_or_content": "Read acknowledgments and full bibliography, including the SLE prediction citation and source distinction."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        13,
+        14,
+        15,
+        16,
+        18,
+        21,
+        22,
+        23,
+        24
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P24-p1.png",
+        "evidence/root/workers/W23/text/SAW-P24-p3.png",
+        "evidence/root/workers/W23/text/SAW-P24-p4.png",
+        "evidence/root/workers/W23/text/SAW-P24-p5.png",
+        "evidence/root/workers/W23/text/SAW-P24-p7.png",
+        "evidence/root/workers/W23/text/SAW-P24-p13.png",
+        "evidence/root/workers/W23/text/SAW-P24-p14.png",
+        "evidence/root/workers/W23/text/SAW-P24-p15.png",
+        "evidence/root/workers/W23/text/SAW-P24-p16.png",
+        "evidence/root/workers/W23/text/SAW-P24-p18.png",
+        "evidence/root/workers/W23/text/SAW-P24-p21.png",
+        "evidence/root/workers/W23/text/SAW-P24-p22.png",
+        "evidence/root/workers/W23/text/SAW-P24-p23.png",
+        "evidence/root/workers/W23/text/SAW-P24-p24.png"
+      ],
+      "render_notes": "Rendered title/constants, local/global parafermionic identities, Proposition 9/Theorem 10 page 14, and appendix proof pages. Verified radicals x_c=1/sqrt(2+sqrt(2)) and y_c=1+sqrt(2); MATLAB symbolic check stored.",
+      "formula_audit": "Rendered title/constants, local/global parafermionic identities, Proposition 9/Theorem 10 page 14, and appendix proof pages. Verified radicals x_c=1/sqrt(2+sqrt(2)) and y_c=1+sqrt(2); MATLAB symbolic check stored.",
+      "reader": "L08",
+      "pool_id": "SAW-P24",
+      "reader_batch": "L08_B5",
+      "source_sha256": "05fe44729563afec09bdefd046ce96c9216fc6034fa959d6376f455eff2d5772",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P24.txt",
+      "math_check_paths": [
+        "evidence/root/workers/W23/math/l08_b5_exact_checks.m",
+        "evidence/root/workers/W23/math/l08_b5_exact_checks.json"
+      ]
+    },
+    "W23S017": {
+      "physical_pdf_pages_read": "1–21 (complete primary source PDF; all body and end matter read)",
+      "sections": [
+        {
+          "unit": "Title, abstract, §1 Introduction and §1.1 Model and results",
+          "physical_pdf_pages": "1–4",
+          "mechanism_or_content": "Definitions of the percolation-cluster SAW count and quenched limsup; Proposition 1.1 is explicitly cited from prior work; Theorem 1.3 and the p_c high-d expansion are stated. The introduction separates rigorous count claims from heuristic localization/trajectory interpretation.",
+          "printed_folios": "1–4"
+        },
+        {
+          "unit": "§2 Decomposing the proof of Theorem 1.3: size bias, spine identity, path-count proposition",
+          "physical_pdf_pages": "5–6",
+          "mechanism_or_content": "W_N normalization and size-biased tail criterion; forcing a uniform SAW spine gives the finite-N change-of-measure identity; Proposition 2.3 establishes a high-probability lower bound on the open-path count in the spine environment; equivalently, the event that the count is below its threshold is exponentially rare.",
+          "printed_folios": "5–6"
+        },
+        {
+          "unit": "§3 Strategy for Proposition 2.3; §§3.1–3.2 bridge construction and good spines",
+          "physical_pdf_pages": "6–9",
+          "mechanism_or_content": "Three bridge geometries, path recombination count (3.3), overlap-free selection, candidate/bad-site definitions, and reduction to showing that good spine patterns and many separated bridges occur with exponentially high probability.",
+          "printed_folios": "6–9"
+        },
+        {
+          "unit": "§4 Proof of Proposition 3.2",
+          "physical_pdf_pages": "10–13",
+          "mechanism_or_content": "Bridge-overlap and bad-site estimates are combined with a separated-site selection; concentration and combinatorial bounds control the exceptional event and yield the path-count estimate.",
+          "printed_folios": "10–13"
+        },
+        {
+          "unit": "§5 Proof of Proposition 3.1",
+          "physical_pdf_pages": "14–20",
+          "mechanism_or_content": "The typical SAW spine has the required turn/return statistics with an exponential exceptional bound, via comparison to finite-memory/nonbacktracking walk counts and stopping-time estimates. Constants are not made explicit.",
+          "printed_folios": "14–20"
+        },
+        {
+          "unit": "References and terminal author information",
+          "physical_pdf_pages": "20–21",
+          "mechanism_or_content": "All references and terminal address/contact material were read; the final physical page was rendered and checked.",
+          "printed_folios": "20–21"
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        10,
+        12,
+        13,
+        15,
+        18,
+        20
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P31-p1.png",
+        "evidence/root/workers/W23/text/SAW-P31-p10.png",
+        "evidence/root/workers/W23/text/SAW-P31-p12.png",
+        "evidence/root/workers/W23/text/SAW-P31-p13.png",
+        "evidence/root/workers/W23/text/SAW-P31-p15.png",
+        "evidence/root/workers/W23/text/SAW-P31-p18.png",
+        "evidence/root/workers/W23/text/SAW-P31-p20.png",
+        "evidence/root/workers/W23/text/SAW-P31-p3.png",
+        "evidence/root/workers/W23/text/SAW-P31-p4.png",
+        "evidence/root/workers/W23/text/SAW-P31-p6.png",
+        "evidence/root/workers/W23/text/SAW-P31-p9.png"
+      ],
+      "render_notes": "Helper rendered pages [1, 3, 4, 6, 9, 10, 12, 13, 15, 18, 20]; mirrored images are byte-identical in evidence/root/workers/W23/text/. Primary PDF SHA-256 313cb1b9c440371cf59559d6d07ef9260170c184fa6bb3d2cb88556c40301457.",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P31.txt",
+      "source_pdf_sha256": "313cb1b9c440371cf59559d6d07ef9260170c184fa6bb3d2cb88556c40301457",
+      "source_pdf_physical_pages": 21,
+      "math_check": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.txt",
+      "math_check_json": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.json",
+      "helper_coverage_path": "evidence/root/workers/W23/reader_batches/L06_B6/reading_coverage.json#sources.W23-L06-P31"
+    },
+    "W23S018": {
+      "physical_pdf_pages_read": "1–35 (complete primary source PDF; all body and end matter read)",
+      "sections": [
+        {
+          "unit": "Title page, abstract, §1 Introduction",
+          "physical_pdf_pages": "1–4",
+          "mechanism_or_content": "Scope and motivation; memory walks, connective constant, comparison to earlier methods, and roadmap. The PDF is the 1993 arXiv v1 manuscript, not the separately paginated journal issue.",
+          "printed_folios": "1–4"
+        },
+        {
+          "unit": "§2 Loop erasure and restoration: definitions and injective decomposition",
+          "physical_pdf_pages": "4–8",
+          "mechanism_or_content": "Memory-τ walk convention, loop and taboo Green functions, self-avoiding backbone encoding, and reversal/restoration conditions. The attached loops must avoid earlier backbone sites; τ=2 forbids immediate reversals while τ=4 also forbids elementary squares.",
+          "printed_folios": "4–8"
+        },
+        {
+          "unit": "§2 first-version lower bounds and taboo-set relaxation",
+          "physical_pdf_pages": "8–10",
+          "mechanism_or_content": "Relax avoidance to a finite k-site taboo set, maximize its loop Green function over admissible SAW-generated geometries, and use convergence of the generating-function comparison to derive Eq. (2.29). The d≤2 divergence at τ=0,k=0 is distinguished from finite k≥1 alternatives.",
+          "printed_folios": "8–10"
+        },
+        {
+          "unit": "§2 second version and optimized straight/bent bounds",
+          "physical_pdf_pages": "10–15",
+          "mechanism_or_content": "A next-to-last-site taboo yields the second-version loop weight; straight/bent incoming backbones are separated and their proportions bounded, followed by Stirling optimization. The required straight/bent numerical comparison is not promoted to a general analytic theorem.",
+          "printed_folios": "10–15"
+        },
+        {
+          "unit": "§3 Evaluation of loop generating functions",
+          "physical_pdf_pages": "16–19",
+          "mechanism_or_content": "Finite taboo Green functions are reduced to free-field random-walk propagators using inclusion–exclusion recursion. Memory-walk recursions account for dependent pieces after cutting at first hit and solve a symmetry-reduced finite linear system.",
+          "printed_folios": "16–19"
+        },
+        {
+          "unit": "§4 Discussion of results",
+          "physical_pdf_pages": "19–22",
+          "mechanism_or_content": "Comparison of numerical lower bounds for d≥3 and d=2, memory choices, and comparison to the Ising/infrared bound. The authors explicitly disclaim rigorous error analysis for their d=2 numerical calculations.",
+          "printed_folios": "19–22"
+        },
+        {
+          "unit": "§5 High-dimensional behavior of lower bounds",
+          "physical_pdf_pages": "22–27",
+          "mechanism_or_content": "Older bridge bounds, Kesten’s loop-erasure precursor, asymptotic expansions of the method’s lower bounds, and Ising-based comparisons. Expansions are for lower bounds, not exact μ.",
+          "printed_folios": "22–27"
+        },
+        {
+          "unit": "Appendix A: numerical simple-random-walk Green functions and d expansions",
+          "physical_pdf_pages": "27–34",
+          "mechanism_or_content": "One-dimensional modified-Bessel integral, quadrature and tail bounds, rounding controls, taboo Green-function tables, and high-d expansions. Acknowledgment material begins within the final appendix pages.",
+          "printed_folios": "27–34"
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": "32–35",
+          "mechanism_or_content": "Acknowledgments and all references were read through the terminal physical page. The 1995 same-work erratum is not in the primary PDF and is separately read/bound in the supplementary coverage below.",
+          "printed_folios": "32–35"
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        24,
+        25,
+        26,
+        27,
+        28,
+        32,
+        33,
+        34,
+        35
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P41-p1.png",
+        "evidence/root/workers/W23/text/SAW-P41-p10.png",
+        "evidence/root/workers/W23/text/SAW-P41-p12.png",
+        "evidence/root/workers/W23/text/SAW-P41-p13.png",
+        "evidence/root/workers/W23/text/SAW-P41-p14.png",
+        "evidence/root/workers/W23/text/SAW-P41-p15.png",
+        "evidence/root/workers/W23/text/SAW-P41-p16.png",
+        "evidence/root/workers/W23/text/SAW-P41-p17.png",
+        "evidence/root/workers/W23/text/SAW-P41-p18.png",
+        "evidence/root/workers/W23/text/SAW-P41-p19.png",
+        "evidence/root/workers/W23/text/SAW-P41-p2.png",
+        "evidence/root/workers/W23/text/SAW-P41-p20.png",
+        "evidence/root/workers/W23/text/SAW-P41-p21.png",
+        "evidence/root/workers/W23/text/SAW-P41-p24.png",
+        "evidence/root/workers/W23/text/SAW-P41-p25.png",
+        "evidence/root/workers/W23/text/SAW-P41-p26.png",
+        "evidence/root/workers/W23/text/SAW-P41-p27.png",
+        "evidence/root/workers/W23/text/SAW-P41-p28.png",
+        "evidence/root/workers/W23/text/SAW-P41-p29.png",
+        "evidence/root/workers/W23/text/SAW-P41-p3.png",
+        "evidence/root/workers/W23/text/SAW-P41-p32.png",
+        "evidence/root/workers/W23/text/SAW-P41-p33.png",
+        "evidence/root/workers/W23/text/SAW-P41-p34.png",
+        "evidence/root/workers/W23/text/SAW-P41-p35.png",
+        "evidence/root/workers/W23/text/SAW-P41-p4.png",
+        "evidence/root/workers/W23/text/SAW-P41-p5.png",
+        "evidence/root/workers/W23/text/SAW-P41-p6.png",
+        "evidence/root/workers/W23/text/SAW-P41-p7.png",
+        "evidence/root/workers/W23/text/SAW-P41-p8.png",
+        "evidence/root/workers/W23/text/SAW-P41-p9.png"
+      ],
+      "render_notes": "Helper rendered pages [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 32, 33, 34, 35]; mirrored images are byte-identical in evidence/root/workers/W23/text/. Primary PDF SHA-256 4bbc701b44c6b5cf3455f0dcb4935b71a3f95db9933ffcc6a96dcccc17059163.",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P41.txt",
+      "source_pdf_sha256": "4bbc701b44c6b5cf3455f0dcb4935b71a3f95db9933ffcc6a96dcccc17059163",
+      "source_pdf_physical_pages": 35,
+      "math_check": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.txt",
+      "math_check_json": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.json",
+      "helper_coverage_path": "evidence/root/workers/W23/reader_batches/L06_B6/reading_coverage.json#sources.W23-L06-P41",
+      "supplementary_same_work_erratum": {
+        "title": "Erratum: New lower bounds on the self-avoiding-walk connective constant",
+        "identity": "Journal of Statistical Physics 78(3–4) (1995), printed pp. 1187–1188; DOI 10.1007/BF02183717.",
+        "provenance": "R03 review evidence PDF, read by L06 and copied byte-identically into this helper; not downloaded by L06.",
+        "physical_pdf_pages_total": 2,
+        "all_physical_pages_read": true,
+        "coverage": [
+          {
+            "unit": "Erratum p. 1: correction notice, Table II diagonal value, exact return Green expression, error bound for d≥4",
+            "physical_pdf_pages": "1",
+            "mechanism_or_content": "Read the notice identifying a coding error in the last four digits of original Table IV second-column d=3 entries; the erratum states error <10^-17 for d≥4 and corrects d=3 C_0(0,0) to 3.956776 with a gamma-product expression.",
+            "printed_pages": "1187"
+          },
+          {
+            "unit": "Erratum p. 2: corrected Table I and Table II typographical correction",
+            "physical_pdf_pages": "2",
+            "mechanism_or_content": "Read all 16 corrected d=3 propagator entries in Table I, the gamma-product numerical cross-reference, and correction of the d=3 (2,2)_opt entry to 4.476141.",
+            "printed_pages": "1188"
+          }
+        ],
+        "rendered_pages_inspected": [
+          1,
+          2
+        ],
+        "rendered_artifacts": [
+          "evidence/root/workers/W23/text/SAW-P41-erratum-p1.png",
+          "evidence/root/workers/W23/text/SAW-P41-erratum-p2.png"
+        ],
+        "text_evidence": "evidence/root/workers/W23/text/SAW-P41-erratum.txt",
+        "local_pdf": "evidence/root/workers/W23/text/SAW-P41-erratum.pdf",
+        "sha256": "27c4bb2ff0d160c8ec526302d5bc2f27d4e40a14ec8a7e01e60542074806aabf",
+        "quota_credit": 0,
+        "not_a_new_unique_work": true,
+        "helper_review_and_freeze_sha256": "4ec8427935dea9bb8cc127f2143416cf2588a8d9295f6c42c59a454f2969d580"
+      }
+    },
+    "W23S019": {
+      "physical_pdf_pages_read": "1–66 (complete primary source PDF; all body and end matter read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction, models, theorem, lace-expansion framework, and proof reduction",
+          "physical_pdf_pages": "1–13",
+          "mechanism_or_content": "Model definitions and Theorem 1.1; lace representation and model-specific functions; Theorem 1.4 Gaussian lemma and Corollary 1.6; reduction to weighted diagram estimates; the proof-in-paper versus sharper omitted d=19 percolation estimate distinction.",
+          "printed_folios": "1–13"
+        },
+        {
+          "unit": "§2 Proof of Gaussian lemma, Theorem 1.4",
+          "physical_pdf_pages": "14–26",
+          "mechanism_or_content": "Integral/Fourier proof split into large-t and small-t contributions, leading quadratic dispersion and coefficient, error estimates, counterexample to relaxing the pointwise tail, and the separately sketched proof of the second asymptotic. The improved error exponent in remarks is not proved here.",
+          "printed_folios": "14–26"
+        },
+        {
+          "unit": "§3 Diagrammatic estimates",
+          "physical_pdf_pages": "27–38",
+          "mechanism_or_content": "Model-by-model diagram bounds for SAW, percolation and LTLA, including separate proofs of Lemmas 1.7 and 1.8; these feed pointwise and weighted lace-coefficient decay.",
+          "printed_folios": "27–38"
+        },
+        {
+          "unit": "§4 Proof of Lemma 1.9 and Fourier/fractional-derivative estimates",
+          "physical_pdf_pages": "39–56",
+          "mechanism_or_content": "Integrability reductions, even integer exponents, noninteger weights, Fourier analysis of fractional powers, and bounds for Fourier transforms of fractionally weighted two-point functions; this transfers diagram moments to the estimates needed for J and g.",
+          "printed_folios": "39–56"
+        },
+        {
+          "unit": "Appendix A: quantities at p=pc",
+          "physical_pdf_pages": "57–61",
+          "mechanism_or_content": "Extends lace-expansion bounds and Fourier representation from p<pc to criticality by left continuity and dominated convergence. Percolation coefficient continuity uses increasing/decreasing finite-volume event approximants.",
+          "printed_folios": "57–61"
+        },
+        {
+          "unit": "Appendix B: basic properties of convolution",
+          "physical_pdf_pages": "61–65",
+          "mechanism_or_content": "Lemma B.1 gives convolution decay and leading asymptotics; its parts (iii)–(iv) are proved by partitioning into near-origin, near-x and middle regions and using summability.",
+          "printed_folios": "61–65"
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": "65–66",
+          "mechanism_or_content": "Acknowledgments and all terminal references were read; physical page 66 is the end of the reference list.",
+          "printed_folios": "65–66"
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        3,
+        8,
+        10,
+        15,
+        57,
+        61,
+        62,
+        65,
+        66
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P45-p1.png",
+        "evidence/root/workers/W23/text/SAW-P45-p10.png",
+        "evidence/root/workers/W23/text/SAW-P45-p15.png",
+        "evidence/root/workers/W23/text/SAW-P45-p3.png",
+        "evidence/root/workers/W23/text/SAW-P45-p57.png",
+        "evidence/root/workers/W23/text/SAW-P45-p61.png",
+        "evidence/root/workers/W23/text/SAW-P45-p62.png",
+        "evidence/root/workers/W23/text/SAW-P45-p65.png",
+        "evidence/root/workers/W23/text/SAW-P45-p66.png",
+        "evidence/root/workers/W23/text/SAW-P45-p8.png"
+      ],
+      "render_notes": "Helper rendered pages [1, 3, 8, 10, 15, 57, 61, 62, 65, 66]; mirrored images are byte-identical in evidence/root/workers/W23/text/. Primary PDF SHA-256 34368f98803701fe89ea64bc7f7d39c7f527815b30d65c11062b8e8c04f19008.",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P45.txt",
+      "source_pdf_sha256": "34368f98803701fe89ea64bc7f7d39c7f527815b30d65c11062b8e8c04f19008",
+      "source_pdf_physical_pages": 66,
+      "math_check": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.txt",
+      "math_check_json": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.json",
+      "helper_coverage_path": "evidence/root/workers/W23/reader_batches/L06_B6/reading_coverage.json#sources.W23-L06-P45"
+    },
+    "W23S020": {
+      "physical_pdf_pages_read": "1–15 (complete primary PDF, including end matter/appendix)",
+      "sections": [
+        {
+          "unit": "Title, abstract, §§1–2 Introduction and model setup",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read the paper's SAW/connective-constant setup, quasi-transitive graph assumptions, midpoint SAWs, critical exponent definitions, and motivation for Fisher transformation.",
+          "source_section_title": "Title, abstract, §§1–2 Introduction and model setup"
+        },
+        {
+          "unit": "§3 Fisher transformation and Theorems 3.1–3.3",
+          "physical_pdf_pages": "4–8",
+          "mechanism_or_content": "Read the cubic-graph transformation, exact connective-constant recurrences, monotone convergence and the literal one-sided bounds in Theorem 3.1, critical-exponent hypotheses, and the colored-bipartite black-vertex variant. The card separately derives an inverse-iteration contraction.",
+          "source_section_title": "§3 Fisher transformation and Theorems 3.1–3.3"
+        },
+        {
+          "unit": "§4 Proofs of Theorems 3.1–3.2",
+          "physical_pdf_pages": "8–12",
+          "mechanism_or_content": "Read the midpoint partition functions, endpoint-shortening comparison, exact lift/collapse identity, radius argument, and the conditional critical-exponent comparison.",
+          "source_section_title": "§4 Proofs of Theorems 3.1–3.2"
+        },
+        {
+          "unit": "§5 Proof of Theorem 3.3",
+          "physical_pdf_pages": "12–13",
+          "mechanism_or_content": "Read the colored-bipartite partition-function proof and the application to the hexagonal lattice connective constant.",
+          "source_section_title": "§5 Proof of Theorem 3.3"
+        },
+        {
+          "unit": "Acknowledgements, references, terminal author information",
+          "physical_pdf_pages": "14–15",
+          "mechanism_or_content": "Read the full references and terminal information; verified the PDF ends at physical page 15.",
+          "source_section_title": "Acknowledgements, references, terminal author information"
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P46-p1.png",
+        "evidence/root/workers/W23/text/SAW-P46-p2.png",
+        "evidence/root/workers/W23/text/SAW-P46-p4.png",
+        "evidence/root/workers/W23/text/SAW-P46-p5.png",
+        "evidence/root/workers/W23/text/SAW-P46-p7.png",
+        "evidence/root/workers/W23/text/SAW-P46-p8.png",
+        "evidence/root/workers/W23/text/SAW-P46-p9.png",
+        "evidence/root/workers/W23/text/SAW-P46-p10.png",
+        "evidence/root/workers/W23/text/SAW-P46-p11.png",
+        "evidence/root/workers/W23/text/SAW-P46-p12.png",
+        "evidence/root/workers/W23/text/SAW-P46-p13.png",
+        "evidence/root/workers/W23/text/SAW-P46-p14.png"
+      ],
+      "render_notes": "Copied byte-identically from the R03-passed helper renders; visual page checks, not replacements for the source PDF.",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P46.txt",
+      "source_pdf_sha256": "c4d3fa8747287baf4528408c0c2d70e845d2fa585f6a34ca0e9fca934b67f986",
+      "source_pdf_physical_pages": 15,
+      "helper_coverage_path": "evidence/root/workers/W23/reader_batches/L10_B7/reading_coverage.json#sources.W23-L10-B7-P46",
+      "formula_audit": "Rendered physical p.2 to verify interval (1.1), the hex-lattice identity, and p.5 to verify the literal Theorem 3.1(b) upper factor [(7-sqrt(5))/2]^k for k>=1. Its base is about 2.381966, so this source upper bound is not a decaying rate. The card separately derives a contraction from the inverse recurrence and interval (1.1), with local derivative 2/(7-sqrt(5)); proof recurrence checked on physical p.10. MATLAB independently solved the hex-lattice scalar identity and checked the local derivative, with output recorded separately; this is numerical evidence only."
+    },
+    "W23S021": {
+      "physical_pdf_pages_read": "1–27 (complete primary PDF, including end matter/appendix)",
+      "sections": [
+        {
+          "unit": "Abstract, §1 Introduction, §§2.1–2.3 graph/SAW/group preliminaries",
+          "physical_pdf_pages": "1–6",
+          "mechanism_or_content": "Read the graph class G, edge-isoperimetric amenability, connective-constant definition, Cayley graph conventions, and SAW extendability.",
+          "source_section_title": "Abstract, §1 Introduction, §§2.1–2.3 graph/SAW/group preliminaries"
+        },
+        {
+          "unit": "§3 Height functions",
+          "physical_pdf_pages": "6–7",
+          "mechanism_or_content": "Read graph and group height-function definitions, difference invariance, strong finite-index Cayley subgroup condition, harmonicity, and their roles for bridges and connective constants.",
+          "source_section_title": "§3 Height functions"
+        },
+        {
+          "unit": "§4 Elementary amenable groups; §5 Grigorchuk group",
+          "physical_pdf_pages": "7–9",
+          "mechanism_or_content": "Read Theorem 4.1 and the elementary amenable setup, plus the Grigorchuk group definition and no-height-function theorem statement.",
+          "source_section_title": "§4 Elementary amenable groups; §5 Grigorchuk group"
+        },
+        {
+          "unit": "§6 Connective constants of nonamenable graphs",
+          "physical_pdf_pages": "9–12",
+          "mechanism_or_content": "Read the spectral-bottom definition, Theorem 6.2 and full red/blue extendable-edge proof including Lemma 6.4, and the spectral/nonamenability relationships.",
+          "source_section_title": "§6 Connective constants of nonamenable graphs"
+        },
+        {
+          "unit": "§7 Large-girth graphs; §8 Higman groups",
+          "physical_pdf_pages": "12–13",
+          "mechanism_or_content": "Read Theorem 7.1 and its percolation-threshold proof, the continuity caveat, and both Higman-type no-height-function statements.",
+          "source_section_title": "§7 Large-girth graphs; §8 Higman groups"
+        },
+        {
+          "unit": "§9 Proof of Theorem 4.1",
+          "physical_pdf_pages": "13–16",
+          "mechanism_or_content": "Read the stronger Theorem 9.1 and its transfinite induction through extensions, directed unions, and finite/infinite quotients.",
+          "source_section_title": "§9 Proof of Theorem 4.1"
+        },
+        {
+          "unit": "§10 criteria; §§11–13 group-specific proofs",
+          "physical_pdf_pages": "16–25",
+          "mechanism_or_content": "Read the no-height criteria and the Grigorchuk/Higman/Higman-type stabilizer and group-relation arguments, keeping those examples separate from general graph bounds.",
+          "source_section_title": "§10 criteria; §§11–13 group-specific proofs"
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "25–27",
+          "mechanism_or_content": "Read full bibliography and terminal author information; verified final physical page 27.",
+          "source_section_title": "Acknowledgements and references"
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        18,
+        20,
+        23,
+        24,
+        25,
+        26
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P47-p1.png",
+        "evidence/root/workers/W23/text/SAW-P47-p7.png",
+        "evidence/root/workers/W23/text/SAW-P47-p8.png",
+        "evidence/root/workers/W23/text/SAW-P47-p9.png",
+        "evidence/root/workers/W23/text/SAW-P47-p10.png",
+        "evidence/root/workers/W23/text/SAW-P47-p11.png",
+        "evidence/root/workers/W23/text/SAW-P47-p12.png",
+        "evidence/root/workers/W23/text/SAW-P47-p13.png",
+        "evidence/root/workers/W23/text/SAW-P47-p16.png",
+        "evidence/root/workers/W23/text/SAW-P47-p18.png",
+        "evidence/root/workers/W23/text/SAW-P47-p20.png",
+        "evidence/root/workers/W23/text/SAW-P47-p23.png",
+        "evidence/root/workers/W23/text/SAW-P47-p24.png",
+        "evidence/root/workers/W23/text/SAW-P47-p25.png",
+        "evidence/root/workers/W23/text/SAW-P47-p26.png"
+      ],
+      "render_notes": "Copied byte-identically from the R03-passed helper renders; visual page checks, not replacements for the source PDF.",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P47.txt",
+      "source_pdf_sha256": "37bfbea410ab03d473fb65faa3f4133ead27caa9003e56e7326e2a95dfe1186d",
+      "source_pdf_physical_pages": 27,
+      "helper_coverage_path": "evidence/root/workers/W23/reader_batches/L10_B7/reading_coverage.json#sources.W23-L10-B7-P47",
+      "formula_audit": "Rendered height-function, spectral-bottom, Theorem 6.2/Lemma 6.4, Theorem 7.1, and group-proof pages. Theorem 6.2's sentence says 'spectral bottom of P', but equation (6.1) and the surrounding definition set lambda for I-P and lambda=1-rho(P); the card preserves this source wording mismatch. The contents list is misaligned for some later sections, so physical body-page coverage is recorded."
+    },
+    "W23S022": {
+      "physical_pdf_pages_read": "1–35 (complete primary PDF, including end matter/appendix)",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read the hyperbolic tessellation setup, walk/polygon conventions, Theorems 1–4, and exact distinction between proved bounds, predictions, and open questions.",
+          "source_section_title": "Abstract and §1 Introduction"
+        },
+        {
+          "unit": "§2 Preliminaries: walks and percolation; §3 results of Madras–Wu",
+          "physical_pdf_pages": "3–7",
+          "mechanism_or_content": "Read SAW/SAP and nonbacktracking definitions, percolation inputs, the prior-bound correction, and tessellation-family conditions for inherited estimates.",
+          "source_section_title": "§2 Preliminaries: walks and percolation; §3 results of Madras–Wu"
+        },
+        {
+          "unit": "§4 Polygon gap implies ballisticity",
+          "physical_pdf_pages": "7–8",
+          "mechanism_or_content": "Read the complete geodesic-closing/decomposition proof that mu_p<mu_w yields exponential ballisticity on vertex-transitive graphs. The polygon family is only almost edge-disjoint: off-geodesic edges occur in at most one SAP, geodesic edges in at most two; the source derives M<=epsilon*n and total polygon length <=(1+epsilon)*n.",
+          "source_section_title": "§4 Polygon gap implies ballisticity"
+        },
+        {
+          "unit": "§5 Upper bounds for mu_p",
+          "physical_pdf_pages": "9–20",
+          "mechanism_or_content": "Read plane-graph class S(d,k), inner-chord/inner-boundary definitions, Theorem 6 isoperimetric proof, mixed percolation Theorem 7, the d=3 Theorem 8 interface argument, and comparison bounds.",
+          "source_section_title": "§5 Upper bounds for mu_p"
+        },
+        {
+          "unit": "§6 Lower bounds for mu_w and recursive layer counts",
+          "physical_pdf_pages": "20–29",
+          "mechanism_or_content": "Read layer construction, almost-Markovian walk classes, finite-type recurrence matrices, eigenvalue comparisons, Theorems 2–3 and the proof of the polygon/walk gap including Theorem 9.",
+          "source_section_title": "§6 Lower bounds for mu_w and recursive layer counts"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "30–32",
+          "mechanism_or_content": "Read the complete reference list and checked that the body ends before the terminal references.",
+          "source_section_title": "References"
+        },
+        {
+          "unit": "Appendix A, Lemma A.1",
+          "physical_pdf_pages": "33–35",
+          "mechanism_or_content": "Read the full induction proving every layer is a SAP containing prior layers; checked the separate d>3 and d=3 dual-graph cases and the chord/forest contradiction.",
+          "source_section_title": "Appendix A, Lemma A.1"
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": [],
+      "rendered_pages": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        33,
+        34,
+        35
+      ],
+      "rendered_artifacts": [
+        "evidence/root/workers/W23/text/SAW-P49-p1.png",
+        "evidence/root/workers/W23/text/SAW-P49-p2.png",
+        "evidence/root/workers/W23/text/SAW-P49-p3.png",
+        "evidence/root/workers/W23/text/SAW-P49-p5.png",
+        "evidence/root/workers/W23/text/SAW-P49-p6.png",
+        "evidence/root/workers/W23/text/SAW-P49-p8.png",
+        "evidence/root/workers/W23/text/SAW-P49-p9.png",
+        "evidence/root/workers/W23/text/SAW-P49-p10.png",
+        "evidence/root/workers/W23/text/SAW-P49-p13.png",
+        "evidence/root/workers/W23/text/SAW-P49-p16.png",
+        "evidence/root/workers/W23/text/SAW-P49-p17.png",
+        "evidence/root/workers/W23/text/SAW-P49-p18.png",
+        "evidence/root/workers/W23/text/SAW-P49-p19.png",
+        "evidence/root/workers/W23/text/SAW-P49-p20.png",
+        "evidence/root/workers/W23/text/SAW-P49-p21.png",
+        "evidence/root/workers/W23/text/SAW-P49-p22.png",
+        "evidence/root/workers/W23/text/SAW-P49-p23.png",
+        "evidence/root/workers/W23/text/SAW-P49-p24.png",
+        "evidence/root/workers/W23/text/SAW-P49-p25.png",
+        "evidence/root/workers/W23/text/SAW-P49-p26.png",
+        "evidence/root/workers/W23/text/SAW-P49-p27.png",
+        "evidence/root/workers/W23/text/SAW-P49-p28.png",
+        "evidence/root/workers/W23/text/SAW-P49-p29.png",
+        "evidence/root/workers/W23/text/SAW-P49-p33.png",
+        "evidence/root/workers/W23/text/SAW-P49-p34.png",
+        "evidence/root/workers/W23/text/SAW-P49-p35.png"
+      ],
+      "render_notes": "Copied byte-identically from the R03-passed helper renders; visual page checks, not replacements for the source PDF.",
+      "fulltext_text_path": "evidence/root/workers/W23/text/SAW-P49.txt",
+      "source_pdf_sha256": "34081c628865d11cd0945905f6f01760c4bb853043ca42d297793cb6f94e44c1",
+      "source_pdf_physical_pages": 35,
+      "helper_coverage_path": "evidence/root/workers/W23/reader_batches/L10_B7/reading_coverage.json#sources.W23-L10-B7-P49",
+      "formula_audit": "Theorem 1–4, the correction/layer setup, Theorem 6's SAP isoperimetric coefficients, Theorem 8's N_k formula, and Appendix A were checked against rendered physical pages. MATLAB recomputed dominant eigenvalues from the displayed p.22 and p.23 matrices and solved the P46 hex equation; output is numerical only and saved in math/. The source-specific SAP edge-set counting convention is preserved in the card."
+    },
+    "W23S023": {
+      "physical_pdf_pages_read": "1–13 (complete PDF; all listed pages read)",
+      "sections": [
+        {
+          "unit": "Title / author material",
+          "physical_pdf_pages": "1–1",
+          "mechanism_or_content": "Checked title, authors, affiliations, and the arXiv version stamp against the official v2 record.",
+          "source_section_title": "Title / author material"
+        },
+        {
+          "unit": "Abstract and §1 Introduction / discrete holomorphicity setup",
+          "physical_pdf_pages": "2–4",
+          "mechanism_or_content": "Read the article's purpose, parafermion definition, local discrete Cauchy–Riemann face relation, SLE/CFT motivation, and the authors' warning that discrete holomorphicity alone does not imply a scaling limit. Physical p. 4 also begins §2.",
+          "source_section_title": "Abstract and §1 Introduction / discrete holomorphicity setup"
+        },
+        {
+          "unit": "§2 The self-dual Potts model on the square lattice",
+          "physical_pdf_pages": "4–7",
+          "mechanism_or_content": "Read FK loop representation, observable, the Potts parameterization sqrt(Q)=2 cos(gamma) in physical p. 5, local paired-connectivity cancellation, the linear system (9), determinant (10), selected spin (11), weight ratio (12), and rhombus/spectral relation (13), including its stated mismatch with the usual spectral-angle relation.",
+          "source_section_title": "§2 The self-dual Potts model on the square lattice"
+        },
+        {
+          "unit": "§3 The O(n) loop model on the square lattice",
+          "physical_pdf_pages": "7–10",
+          "mechanism_or_content": "Read the dilute O(n) local system, the v=0 degeneracies/trivial-spin branch, the v≠0 determinant condition and integrable weights, plus the limits on interpreting continuum claims as rigorous SLE convergence.",
+          "source_section_title": "§3 The O(n) loop model on the square lattice"
+        },
+        {
+          "unit": "§4 The C_2^(1) loop model",
+          "physical_pdf_pages": "11–12",
+          "mechanism_or_content": "Read the two-colour local cancellation equations, spin relation (23), and Yang–Baxter-compatible weights (24).",
+          "source_section_title": "§4 The C_2^(1) loop model"
+        },
+        {
+          "unit": "§5 Summary",
+          "physical_pdf_pages": "12–12",
+          "mechanism_or_content": "Read the authors' summary and scope of the examples.",
+          "source_section_title": "§5 Summary"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "12–13",
+          "mechanism_or_content": "Read all reference entries and checked the final physical page.",
+          "source_section_title": "References"
+        }
+      ],
+      "appendix_or_supplement_check": "No appendix or separate supplement in the official v2 manuscript; references through physical p. 13 were read.",
+      "rendered_pages_visually_inspected": [
+        1,
+        3,
+        5,
+        6,
+        10,
+        12
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/P52-p1.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p26-p3.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p26-p5.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p26-p6.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p26-p10.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p26-p12.png"
+      ],
+      "pool_id": "SAW-P52",
+      "prior_D01_pool_id": "SAW-P26",
+      "same_work_aliases": [
+        "D01/SAW-P26",
+        "D02/SAW-P52"
+      ],
+      "pdf_sha256": "4e688bd1f86fdeca54423d7b861d23d3327d52a4d05fc62eb1ef4cc175973682",
+      "physical_pdf_pages": 13,
+      "helper_local_id": "W23-L06-P26",
+      "source_binding_status": "R03 helper stage passed; mother binding pending"
+    },
+    "W23S024": {
+      "physical_pdf_pages_read": "1–81 (complete PDF; all listed pages read)",
+      "sections": [
+        {
+          "unit": "Title, abstract, contents, and §1 Introduction",
+          "physical_pdf_pages": "1–12",
+          "mechanism_or_content": "Read the abstract, all of §1 (overview, main results and proof outline), UIHPQS model setup, Theorems 1.1–1.3, local GHPU topology/scaling constants, and the explicit distinction between the proved random-map limit and the GM16 SLE/LQG identification.",
+          "source_section_title": "Title, abstract, contents, and §1 Introduction"
+        },
+        {
+          "unit": "§2 Preliminaries (2.1–2.5)",
+          "physical_pdf_pages": "13–20",
+          "mechanism_or_content": "Read metric and curve-decorated-space definitions, local GHPU metric, Brownian half-plane construction, and LQG background. The text notes that the Brownian half-plane/LQG discussion in 2.4–2.5 is background and not needed for the peeling proof.",
+          "source_section_title": "§2 Preliminaries (2.1–2.5)"
+        },
+        {
+          "unit": "§3 Peeling of the UIHPQ with simple boundary (3.1–3.3)",
+          "physical_pdf_pages": "20–27",
+          "mechanism_or_content": "Read peeling rules, spatial Markov structure, one-vertex and boundary-arc explorations, distributional tails, and Lemma 3.4 estimates used for subsequent glued peeling.",
+          "source_section_title": "§3 Peeling of the UIHPQ with simple boundary (3.1–3.3)"
+        },
+        {
+          "unit": "§4 Peeling the glued map (4.1–4.2)",
+          "physical_pdf_pages": "27–31",
+          "mechanism_or_content": "Read the coupled glued-peeling process and jump-size bounds, including the truncation/large-jump control used before moment estimates.",
+          "source_section_title": "§4 Peeling the glued map (4.1–4.2)"
+        },
+        {
+          "unit": "§5 Moment bounds for the glued peeling process (5.1–5.4)",
+          "physical_pdf_pages": "31–44",
+          "mechanism_or_content": "Read first-moment peeling-time bounds, martingale estimates, full proof of Proposition 5.1, and consequences. The boundary-cluster moment range is p∈[1,3/2), reflecting the heavy-tailed peeling law; no p≥3/2 claim is inferred.",
+          "source_section_title": "§5 Moment bounds for the glued peeling process (5.1–5.4)"
+        },
+        {
+          "unit": "§6 Properties of geodesics in the glued map (6.1–6.2)",
+          "physical_pdf_pages": "44–62",
+          "mechanism_or_content": "Read good-scale construction, all lemmas leading to Propositions 6.1 and 6.2, and both proposition proofs. The multiscale estimates prevent geodesic/path collapse onto the gluing interface.",
+          "source_section_title": "§6 Properties of geodesics in the glued map (6.1–6.2)"
+        },
+        {
+          "unit": "§7 Proof of main theorems (7.1–7.4)",
+          "physical_pdf_pages": "62–77",
+          "mechanism_or_content": "Read tightness and subsequential limits, limit-curve properties, maps from Brownian half-planes to the glued limit, quotient metric and measure arguments, and the final isometry proof of Theorem 1.1. Theorems 1.2–1.3 are stated as analogous variants with essentially identical proofs.",
+          "source_section_title": "§7 Proof of main theorems (7.1–7.4)"
+        },
+        {
+          "unit": "Appendix A: Index of notation",
+          "physical_pdf_pages": "77–78",
+          "mechanism_or_content": "Read the full index and checked the transition to references; this appendix is not a missing technical proof.",
+          "source_section_title": "Appendix A: Index of notation"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "79–81",
+          "mechanism_or_content": "Read the complete bibliography and terminal page.",
+          "source_section_title": "References"
+        }
+      ],
+      "appendix_or_supplement_check": "Appendix A is the full notation index on pp. 77–78 and was read. References pp. 79–81 were read. The official version record did not list another supplement.",
+      "rendered_pages_visually_inspected": [
+        1,
+        2,
+        7,
+        11,
+        12,
+        45,
+        47,
+        64,
+        72,
+        74
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/P53-p1.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p2.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p7.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p11.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p12.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p45.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p47.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p64.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p72.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p29-p74.png"
+      ],
+      "pool_id": "SAW-P53",
+      "prior_D01_pool_id": "SAW-P29",
+      "same_work_aliases": [
+        "D01/SAW-P29",
+        "D02/SAW-P53"
+      ],
+      "pdf_sha256": "861ea5f8700e5b213b17bfc5a0b8f961306d1abdd1ef3514dde32d3a379ccfda",
+      "physical_pdf_pages": 81,
+      "helper_local_id": "W23-L06-P29",
+      "source_binding_status": "R03 helper stage passed; mother binding pending"
+    },
+    "W23S025": {
+      "physical_pdf_pages_read": "1–45 (complete PDF; all listed pages read)",
+      "sections": [
+        {
+          "unit": "§1 Introduction (1.1–1.6)",
+          "physical_pdf_pages": "1–7",
+          "mechanism_or_content": "Read the hypercube model, finite susceptibility parameterization, Theorems 1.1–1.5, exact short-walk counts, expansion coefficients, explicit conjectural status of the critical window/dense phase, infinite-graph background, notation and proof roadmap.",
+          "source_section_title": "§1 Introduction (1.1–1.6)"
+        },
+        {
+          "unit": "§2 Analysis of the susceptibility (2.1–2.2)",
+          "physical_pdf_pages": "7–12",
+          "mechanism_or_content": "Read the submultiplicative/Tauberian proof of the all-n exponential bound and the coefficient/extraction argument for the n≤V^p asymptotic, including the fixed p∈(0,1/2) restriction and detailed error estimate.",
+          "source_section_title": "§2 Analysis of the susceptibility (2.1–2.2)"
+        },
+        {
+          "unit": "§3 The lace expansion (3.1–3.5)",
+          "physical_pdf_pages": "12–20",
+          "mechanism_or_content": "Read the hypercube Fourier transform, lace recursion, graph/lace definitions, lace coefficients, diagrammatic estimates, and full local derivations.",
+          "source_section_title": "§3 The lace expansion (3.1–3.5)"
+        },
+        {
+          "unit": "§4 Random walk on the hypercube",
+          "physical_pdf_pages": "20–22",
+          "mechanism_or_content": "Read Lemma 4.1 and its elementary transition-probability/Fourier proof, which supplies the random-walk estimates used in the lace bootstrap.",
+          "source_section_title": "§4 Random walk on the hypercube"
+        },
+        {
+          "unit": "§5 Convergence of the lace expansion (5.1–5.2)",
+          "physical_pdf_pages": "22–27",
+          "mechanism_or_content": "Read bootstrap setup and convergence proof, including the nonzero Fourier modes and bubble/diagram bounds.",
+          "source_section_title": "§5 Convergence of the lace expansion (5.1–5.2)"
+        },
+        {
+          "unit": "§6 Consequences of lace expansion convergence (6.1–6.5)",
+          "physical_pdf_pages": "27–36",
+          "mechanism_or_content": "Read susceptibility and expected-length bounds, first derivative bounds, proposition proofs, fractional derivative framework, and estimates for lace coefficients.",
+          "source_section_title": "§6 Consequences of lace expansion convergence (6.1–6.5)"
+        },
+        {
+          "unit": "§7 1/N expansion (7.1–7.4)",
+          "physical_pdf_pages": "36–42",
+          "mechanism_or_content": "Read fugacity-independence argument, lace bounds, induction establishing all-orders integer expansions, and the finite lace-graph coefficient enumeration used for the first displayed coefficients.",
+          "source_section_title": "§7 1/N expansion (7.1–7.4)"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "42–45",
+          "mechanism_or_content": "Read all references through the terminal page.",
+          "source_section_title": "References"
+        }
+      ],
+      "appendix_or_supplement_check": "No appendix or separate supplement in the official v2 manuscript; complete references end at physical p. 45.",
+      "rendered_pages_visually_inspected": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        23,
+        26,
+        40,
+        42
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/P55-p1.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p2.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p3.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p4.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p10.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p23.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p26.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p40.png",
+        "evidence/root/workers/W23/reader_batches/L06_B9/rendered/p43-p42.png"
+      ],
+      "pool_id": "SAW-P55",
+      "prior_D01_pool_id": "SAW-P43",
+      "same_work_aliases": [
+        "D01/SAW-P43",
+        "D02/SAW-P55"
+      ],
+      "pdf_sha256": "8d2098873244bf55233954e401f3ad03e2c1318203bbbfd9f7d7f5389ed439b3",
+      "physical_pdf_pages": 45,
+      "helper_local_id": "W23-L06-P43",
+      "source_binding_status": "R03 helper stage passed; mother binding pending"
+    },
+    "W23S026": {
+      "physical_pdf_pages_read": "1–33 (complete primary PDF; all pages including references read)",
+      "sections": [
+        {
+          "unit": "Title, abstract, §1 Introduction and main results",
+          "physical_pdf_pages": "1–5",
+          "mechanism_or_content": "Read title/authors/version, scope and nearest-neighbour Zd model, Theorems 1.1–1.5, the printed Theorem 1.4 denominator/range issue, and proof overview.",
+          "source_section_title": "Title, abstract, §1 Introduction and main results"
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "5–8",
+          "mechanism_or_content": "Read lattice/SAW/bridge notation, Hammersley–Welsh Proposition 2.1, irreducible bridge law, Kesten tail and renewal/Cesàro identities.",
+          "source_section_title": "§2 Preliminaries"
+        },
+        {
+          "unit": "§3 Connections to proof theory",
+          "physical_pdf_pages": "8–11",
+          "mechanism_or_content": "Read the Dialectica interpretation, formal logical structure of the qualitative proof, extracted quantitative components and summary of what proof theory contributes.",
+          "source_section_title": "§3 Connections to proof theory"
+        },
+        {
+          "unit": "§4 Explicit bound on displacement",
+          "physical_pdf_pages": "11–20",
+          "mechanism_or_content": "Read renewal-point concentration, bridge unfolding, zigzag estimates, parameter choices, and transfer from bridges to SAW proving Theorem 1.2 and Corollary 1.3.",
+          "source_section_title": "§4 Explicit bound on displacement"
+        },
+        {
+          "unit": "§5 Proof of Theorem 1.5",
+          "physical_pdf_pages": "21–31",
+          "mechanism_or_content": "Read diamond-point estimates, truncated expectation, modified stickbreak construction, contradiction argument, and final bridge-average derivation.",
+          "source_section_title": "§5 Proof of Theorem 1.5"
+        },
+        {
+          "unit": "Acknowledgements and References",
+          "physical_pdf_pages": "31–33",
+          "mechanism_or_content": "Read acknowledgements, AI-assisted proof-checking statement, footnotes and complete references through terminal physical page 33.",
+          "source_section_title": "Acknowledgements and References"
+        }
+      ],
+      "appendix_or_supplement_check": "No separate supplement was listed; all physical pages through the terminal references were read. ",
+      "rendered_pages_visually_inspected": [
+        2,
+        3,
+        4,
+        7,
+        13,
+        17,
+        20,
+        27,
+        30,
+        31
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p2.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p3.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p4.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p7.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p13.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p17.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p20.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p27.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p30.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P48-p31.png"
+      ],
+      "pool_id": "SAW-P48",
+      "prior_D01_pool_id": "SAW-P19",
+      "same_work_aliases": [
+        "D01/SAW-P19",
+        "D02/SAW-P48"
+      ],
+      "pdf_sha256": "5a2268f796ece0ea6140d05073e698101be6f0b8d33ac1d54c99cd7fd2de13b9",
+      "physical_pdf_pages": 33,
+      "helper_local_id": "W23-L08-B8-P48",
+      "source_binding_status": "R03 helper stage and method eligibility passed; mother binding pending"
+    },
+    "W23S027": {
+      "physical_pdf_pages_read": "1–21 (complete primary PDF; all pages including references read)",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read exact arXiv v2 and manuscript dates, Grigorchuk sequence/group model, connective constant, Theorems 1.2–1.3, and organization.",
+          "source_section_title": "Abstract and §1 Introduction"
+        },
+        {
+          "unit": "§2 The Grigorchuk groups",
+          "physical_pdf_pages": "3–6",
+          "mechanism_or_content": "Read recursive automorphisms and relations, Cayley graphs, Schreier graphs, kite decomposition and deleted-generator notation.",
+          "source_section_title": "§2 The Grigorchuk groups"
+        },
+        {
+          "unit": "§3 Main theorem",
+          "physical_pdf_pages": "6–7",
+          "mechanism_or_content": "Read all cases and interval bounds in Theorem 3.1, roots/generating functions, strictness condition, and Remarks 3.4–3.5.",
+          "source_section_title": "§3 Main theorem"
+        },
+        {
+          "unit": "§4 Frequencies in orbital Schreier graphs",
+          "physical_pdf_pages": "8–13",
+          "mechanism_or_content": "Read word/cycle construction, recursive period argument, label frequencies, Theorem 4.1 and its proof.",
+          "source_section_title": "§4 Frequencies in orbital Schreier graphs"
+        },
+        {
+          "unit": "§5 Proof of Theorem 3.1",
+          "physical_pdf_pages": "13–19",
+          "mechanism_or_content": "Read all three deleted-generator cases, SAW subset and upper-bound generating functions, strict lower-bound mechanism, and visually verified the literal Eq. (5.8) formula.",
+          "source_section_title": "§5 Proof of Theorem 3.1"
+        },
+        {
+          "unit": "Acknowledgements, declaration and References",
+          "physical_pdf_pages": "19–21",
+          "mechanism_or_content": "Read acknowledgements including computational provenance, declaration, and full references through terminal page 21.",
+          "source_section_title": "Acknowledgements, declaration and References"
+        }
+      ],
+      "appendix_or_supplement_check": "No separate supplement was listed; all physical pages through the terminal references were read. ",
+      "rendered_pages_visually_inspected": [
+        6,
+        7,
+        11,
+        13,
+        15,
+        16,
+        18,
+        19
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p6.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p7.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p11.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p13.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p15.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p16.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p18.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P51-p19.png"
+      ],
+      "pool_id": "SAW-P51",
+      "prior_D01_pool_id": "SAW-P22",
+      "same_work_aliases": [
+        "D01/SAW-P22",
+        "D02/SAW-P51"
+      ],
+      "pdf_sha256": "6503fb5b5d89e4d21e4b7ab9ce1bfcad65234b0554cd419c53098e7da021e451",
+      "physical_pdf_pages": 21,
+      "helper_local_id": "W23-L08-B8-P51",
+      "source_binding_status": "R03 helper stage and method eligibility passed; mother binding pending"
+    },
+    "W23S028": {
+      "physical_pdf_pages_read": "1–53 (complete primary PDF; all pages including references read)",
+      "sections": [
+        {
+          "unit": "Title page, abstract and §1 Introduction/results",
+          "physical_pdf_pages": "1–12",
+          "mechanism_or_content": "Read the conflicting title-page date/sidebar identity, abstract, spread-out model definitions, critical dimensions, Theorem 1.2, Corollaries 1.3–1.5, lace identity and all four proposition hypotheses.",
+          "source_section_title": "Title page, abstract and §1 Introduction/results"
+        },
+        {
+          "unit": "§2 Proof of the main results",
+          "physical_pdf_pages": "12–18",
+          "mechanism_or_content": "Read bootstrap Lemma 2.1 and Proposition 2.2, SAW/percolation/tree cases, critical bounds, proof of Theorem 1.2 via G= S1*H, mass constant A and corollaries.",
+          "source_section_title": "§2 Proof of the main results"
+        },
+        {
+          "unit": "§3 The lace expansion",
+          "physical_pdf_pages": "18–26",
+          "mechanism_or_content": "Read bead decomposition and inclusion-exclusion, combinatorial models, percolation nested pivotal-bond expansion, theorem assumptions, convergence/remainder statements.",
+          "source_section_title": "§3 The lace expansion"
+        },
+        {
+          "unit": "§4 Lace expansion diagrams",
+          "physical_pdf_pages": "26–39",
+          "mechanism_or_content": "Read SAW diagram estimates, general diagram lemma, tree and animal branches, and percolation BK/diagram estimates used to prove Proposition 1.8.",
+          "source_section_title": "§4 Lace expansion diagrams"
+        },
+        {
+          "unit": "§5 Convolution bounds",
+          "physical_pdf_pages": "39–41",
+          "mechanism_or_content": "Read the elementary convolution estimate and proof, including the symmetry/moment-sensitive asymptotic convolution expansion.",
+          "source_section_title": "§5 Convolution bounds"
+        },
+        {
+          "unit": "§6 Random-walk two-point function",
+          "physical_pdf_pages": "41–48",
+          "mechanism_or_content": "Read uniform bounds, integral representation, long-time and short-time integral estimates, Fourier expansion, and random-walk asymptotic proof.",
+          "source_section_title": "§6 Random-walk two-point function"
+        },
+        {
+          "unit": "§7 Main error estimate",
+          "physical_pdf_pages": "48–51",
+          "mechanism_or_content": "Read bounds on Ez and the complete proof of Proposition 1.9, including zeroth/second-moment cancellations and convolution split.",
+          "source_section_title": "§7 Main error estimate"
+        },
+        {
+          "unit": "Acknowledgements and References",
+          "physical_pdf_pages": "51–53",
+          "mechanism_or_content": "Read acknowledgements and full bibliography through terminal physical page 53.",
+          "source_section_title": "Acknowledgements and References"
+        }
+      ],
+      "appendix_or_supplement_check": "No separate supplement was listed; all physical pages through the terminal references were read. The disputed manuscript/sidebar dates are preserved in the source card.",
+      "rendered_pages_visually_inspected": [
+        1,
+        2,
+        6,
+        10,
+        11,
+        12,
+        14,
+        16,
+        17,
+        18,
+        23,
+        25,
+        26,
+        30,
+        33,
+        34,
+        39,
+        40,
+        46,
+        47,
+        48,
+        49,
+        53
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p1.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p2.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p6.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p10.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p11.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p12.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p14.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p16.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p17.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p18.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p23.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p25.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p26.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p30.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p33.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p34.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p39.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p40.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p46.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p47.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p48.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p49.png",
+        "evidence/root/workers/W23/reader_batches/L08_B8/rendered/P54-p53.png"
+      ],
+      "pool_id": "SAW-P54",
+      "prior_D01_pool_id": "SAW-P39",
+      "same_work_aliases": [
+        "D01/SAW-P39",
+        "D02/SAW-P54"
+      ],
+      "pdf_sha256": "f7b394e4a5ba6a746fbc3ee511c8627f68fb9f75aecbdff911da500b729bc35d",
+      "physical_pdf_pages": 53,
+      "helper_local_id": "W23-L08-B8-P54",
+      "source_binding_status": "R03 helper stage and method eligibility passed; mother binding pending"
+    },
+    "W23S029": {
+      "physical_pdf_pages_read": "1–34 (complete PDF; all physical pages including references read)",
+      "sections": [
+        {
+          "unit": "Title, abstract, §1 Introduction and main results",
+          "physical_pdf_pages": "1–4",
+          "mechanism_or_content": "Read title/version, SAW/trail definitions, ambient graph class, connective constants, Question 1.1, Theorem 1.2 and the role of transitive height functions.",
+          "source_section_title": "Title, abstract, §1 Introduction and main results"
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "4–6",
+          "mechanism_or_content": "Read graph/walk notation, connective and bridge constants, prime-bridge decomposition, patterns, reflection/reversal, and bridgeability.",
+          "source_section_title": "§2 Preliminaries"
+        },
+        {
+          "unit": "§3 Pattern theorem for hypercubic lattices",
+          "physical_pdf_pages": "6–10",
+          "mechanism_or_content": "Read Theorem 3.3, Proposition 3.7 and proof; checked prime-bridge renewal identity, critical generating-function equation, forbidden-pattern radius gap, bridge-to-SAW transfer and cited positive-frequency step.",
+          "source_section_title": "§3 Pattern theorem for hypercubic lattices"
+        },
+        {
+          "unit": "§4 Pattern theorem for general crystals",
+          "physical_pdf_pages": "10–16",
+          "mechanism_or_content": "Read Definition 4.1 and height-function assumptions, bridge/cut-edge definitions, Theorem 4.5 and trail Theorems 4.6–4.7; recorded quasi-transitive exceptional set and omitted trail-proof caveat.",
+          "source_section_title": "§4 Pattern theorem for general crystals"
+        },
+        {
+          "unit": "§5 Proof of Theorem 4.5",
+          "physical_pdf_pages": "16–27",
+          "mechanism_or_content": "Read transitive and quasi-transitive cases, bridge-frequency estimates, connector construction, exceptional patterns Π, and the source’s note that trail proofs are omitted and concatenation can create trail-patterns.",
+          "source_section_title": "§5 Proof of Theorem 4.5"
+        },
+        {
+          "unit": "§6 Theorem 1.2 proof and extension",
+          "physical_pdf_pages": "27–30",
+          "mechanism_or_content": "Read exact iff Theorem 6.1, Proposition 6.2 and all cases of its doubly-infinite-trail proof; recorded open Question 6.3 and degree-4 branching step.",
+          "source_section_title": "§6 Theorem 1.2 proof and extension"
+        },
+        {
+          "unit": "§7 SAWs on line graphs",
+          "physical_pdf_pages": "30–32",
+          "mechanism_or_content": "Read kite/line-graph construction, Σ/Σ1/Σ− constraints, Eq. 7.1 and Theorem 7.2 with coefficient formula and K_d path-count argument.",
+          "source_section_title": "§7 SAWs on line graphs"
+        },
+        {
+          "unit": "Acknowledgement, declaration and references",
+          "physical_pdf_pages": "32–34",
+          "mechanism_or_content": "Read acknowledgement, no-conflicts/no-data/no-AI declaration, and references through terminal physical page 34.",
+          "source_section_title": "Acknowledgement, declaration and references"
+        }
+      ],
+      "appendix_or_supplement_check": "No separate supplement listed; all 34 physical pages through references were read.",
+      "rendered_pages_visually_inspected": [
+        2,
+        7,
+        9,
+        13,
+        14,
+        24,
+        28,
+        29,
+        31
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p2.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p7.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p9.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p13.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p14.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p24.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p28.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p29.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p50-p31.png"
+      ],
+      "render_note": "Rendered and visually checked physical pp. 2, 7, 9, 13–14, 24, 28–31. R03 targeted check confirms that Eq. 3.17 on p. 9 and Eq. 5.23 on p. 24 move from a boundary value to a strict right-neighborhood while citing continuity inside the convergence ball; the additional radius/boundary input is not established by that displayed reason alone. The source theorem remains source-stated; the exact series example only tests this inference form.",
+      "pool_id": "SAW-P50",
+      "prior_D01_pool_id": "SAW-P21",
+      "same_work_aliases": [
+        "D01/SAW-P21",
+        "D02/SAW-P50"
+      ],
+      "pdf_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "physical_pdf_pages": 34,
+      "helper_local_id": "W23-L07-B10-P50",
+      "source_binding_status": "R03 final helper review and method eligibility passed; mother binding pending"
+    },
+    "W23S030": {
+      "physical_pdf_pages_read": "1–63 (complete PDF; all physical pages including references read)",
+      "sections": [
+        {
+          "unit": "Title, abstract and §1 Introduction/main results/discussion",
+          "physical_pdf_pages": "1–6",
+          "mechanism_or_content": "Read exact arXiv v2 identity, weak-SAW model, intersection local time/susceptibility, Theorems 1.1–1.2, bubble constant, Tauberian caveat and organization.",
+          "source_section_title": "Title, abstract and §1 Introduction/main results/discussion"
+        },
+        {
+          "unit": "§2 Finite-volume approximation",
+          "physical_pdf_pages": "7–8",
+          "mechanism_or_content": "Read torus susceptibility setup and Lemma 2.1 proof by folded-walk coupling, monotonicity, limiting expectations and analytic convergence.",
+          "source_section_title": "§2 Finite-volume approximation"
+        },
+        {
+          "unit": "§3 Integral representation",
+          "physical_pdf_pages": "8–13",
+          "mechanism_or_content": "Read differential-form integration, boson/fermion fields, exact finite-volume two-point identity and Gaussian super-expectation/partition normalization.",
+          "source_section_title": "§3 Integral representation"
+        },
+        {
+          "unit": "§4 Reformulation in renormalised parameters",
+          "physical_pdf_pages": "13–20",
+          "mechanism_or_content": "Read random-walk approximation, parameter changes, susceptibility/derivative identities, Theorem 4.1 statement, Lemma 4.3 proof and deduction of Theorem 1.1.",
+          "source_section_title": "§4 Reformulation in renormalised parameters"
+        },
+        {
+          "unit": "§5 Renormalisation-group setup",
+          "physical_pdf_pages": "21–27",
+          "mechanism_or_content": "Read finite-range covariance decomposition, field-size bounds, polymer/relevant directions, interaction functional, circle product and error coordinate.",
+          "source_section_title": "§5 Renormalisation-group setup"
+        },
+        {
+          "unit": "§6 Renormalisation-group map",
+          "physical_pdf_pages": "27–36",
+          "mechanism_or_content": "Read perturbative quadratic flow and assumptions, transformed coordinates, norms, map specification, Theorems 6.3–6.4 statements and in-/finite-volume relation; tracked cited proof dependencies.",
+          "source_section_title": "§6 Renormalisation-group map"
+        },
+        {
+          "unit": "§7 Renormalisation-group flow",
+          "physical_pdf_pages": "36–46",
+          "mechanism_or_content": "Read Proposition 7.1 and proof, quoted Theorem 7.2/Corollary 7.3 hypotheses and conclusions, centre-stable boundary conditions, and continuity/regularity steps.",
+          "source_section_title": "§7 Renormalisation-group flow"
+        },
+        {
+          "unit": "§8 Proof of main result",
+          "physical_pdf_pages": "46–56",
+          "mechanism_or_content": "Read finite-volume flow and susceptibility identities, Lemmas 8.4–8.6, beta-sum/bubble relation, derivative estimates, error suppression, proof of Theorem 4.1 and recurrence proof of Theorem 1.2.",
+          "source_section_title": "§8 Proof of main result"
+        },
+        {
+          "unit": "Appendix A: Existence of critical value",
+          "physical_pdf_pages": "56–59",
+          "mechanism_or_content": "Read Lemma A.1 and proof: subadditivity/Jensen for d>2 and separate strictly self-avoiding trajectory/Poisson-order-statistic argument for d=1,2.",
+          "source_section_title": "Appendix A: Existence of critical value"
+        },
+        {
+          "unit": "Acknowledgements and References",
+          "physical_pdf_pages": "59–63",
+          "mechanism_or_content": "Read acknowledgements and references through terminal physical page 63; recorded cited RG papers invoked in the body but not independently read.",
+          "source_section_title": "Acknowledgements and References"
+        }
+      ],
+      "appendix_or_supplement_check": "No separate supplement listed; all 63 physical pages, Appendix A and references were read; no comparison to journal PDF claimed.",
+      "rendered_pages_visually_inspected": [
+        3,
+        15,
+        16,
+        20,
+        28,
+        39,
+        40,
+        50,
+        52,
+        54,
+        57
+      ],
+      "rendered_page_files": [
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p3.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p15.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p16.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p20.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p28.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p39.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p40.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p50.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p52.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p54.png",
+        "evidence/root/workers/W23/reader_batches/L07_B10/text/p56-p57.png"
+      ],
+      "render_note": "Rendered and visually checked physical pp. 3, 15–16, 20, 28, 39–40, 50, 52, 54, 57. Theorem 4.1 Eq. 4.28 on p. 16 has −m^−4 c(g-hat)/(g-hat B)^gamma; Eq. 4.59 on p. 20 has c0(g)/(g-tilde(0)b)^gamma times (−log F)^−gamma; Eq. 4.61 confirms A_g=(g-tilde(0)b)^gamma/c0(g). These rendered checks support the corrected reciprocal transcriptions.",
+      "pool_id": "SAW-P56",
+      "prior_D01_pool_id": "SAW-P44",
+      "same_work_aliases": [
+        "D01/SAW-P44",
+        "D02/SAW-P56"
+      ],
+      "pdf_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "physical_pdf_pages": 63,
+      "helper_local_id": "W23-L07-B10-P56",
+      "source_binding_status": "R03 final helper review and method eligibility passed; mother binding pending"
+    }
+  },
+  "coverage_updated_on": "2026-11-14",
+  "historical_mother_batch": "W23 master; L07_B10 mirrored sources W23S029–W23S030 pending R03 mother binding; prior L10_B7/L06_B9/L08_B8 bindings remain pending.",
+  "source_count": 30,
+  "fulltext_read_sources": 28,
+  "canonical_reuse_sources_not_reread": [
+    "W23S004",
+    "W23S005"
+  ],
+  "canonical_reuse_coverage_notice": "These two sources have no duplicated section_coverage entries here; their original W08 full-read cards and coverage records are linked in canonical_reuse_evidence.json."
+}

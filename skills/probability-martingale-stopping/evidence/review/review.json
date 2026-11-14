@@ -1,0 +1,2414 @@
+{
+  "reviewer": "R01",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "workers": [
+    "W01",
+    "W02"
+  ],
+  "snapshot_date": "2026-11-14",
+  "source_decisions": [
+    {
+      "worker": "W01",
+      "local_id": "W01-L01",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 48,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.9–12: Definitions 1.9/1.14, Theorems 1.15/1.17/1.19",
+        "PDF pp.20–21: Theorems 2.16–2.18 (not recorded pp.18–19)",
+        "PDF pp.41–43: Theorems 4.2/4.5",
+        "Revision: actual pp.13–14 complete §1.5 ending; p.19 §2.3 start; pp.20–21 UI statements; pp.43–44 §4.2 ending before §4.3",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest revision closes the exact page-boundary/read-unit issues or truthfully marks the original proof gaps and restricts skill use to separately checked classical Polish representation. Complete declared teaching-text units accepted; no repair of a general author theorem is required.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "379a184345d659b36e3a4e74940b613661918f32458ceb5879467c6715850fb5",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L02",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 134,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.52–53: UI, Proposition 5.14, Theorem 5.15",
+        "PDF pp.72–75: Theorems 9.1/9.4",
+        "PDF pp.97–98/102–104: Theorems 12.5/12.7",
+        "Revision: actual p.72 disintegration beginning; pp.102/104–106 complete Prokhorov proof ending, p.107 CLT ending",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest revision closes the exact page-boundary/read-unit issues or truthfully marks the original proof gaps and restricts skill use to separately checked classical Polish representation. Complete declared teaching-text units accepted; no repair of a general author theorem is required.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "4668915d0fe387b3fcc2395dde06f21e67ad50e1ec9fc2c56be38565e3c02b4f",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L03",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 133,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.21–22: Theorem 1.37",
+        "PDF p.42: Theorem 2.12",
+        "Revision: actual pp.19–22 §1.4 and pp.41–42 §2.5; p.43 next section boundary",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest revision closes the exact page-boundary/read-unit issues or truthfully marks the original proof gaps and restricts skill use to separately checked classical Polish representation. Complete declared teaching-text units accepted; no repair of a general author theorem is required.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "3c1dac8a71c151708e2f728ecd10e1ec59e786b7940d4802cd5d38a6d81aff6a",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L04",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 99,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.39: Theorem 3.2",
+        "PDF pp.40–41: proof and Theorem 3.3",
+        "PDF p.42: Lemma 3.4",
+        "Revision: actual pp.39–41 §3.1 and p.42 next section; source min/max erratum retained",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest revision closes the exact page-boundary/read-unit issues or truthfully marks the original proof gaps and restricts skill use to separately checked classical Polish representation. Complete declared teaching-text units accepted; no repair of a general author theorem is required.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "c3c4a5c9669d89713125e0a433fc32d81ee2e2b77afa00d3f7d7219fb49b842a",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L05",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 39,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.24: Definition 8.31 and Theorems 8.33–8.35",
+        "Latest actual PDF pp.23–25 §8.3 boundaries, exact p.24 definitions/statements and absent proof text",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Complete available39-page notes acquired and complete selected §8.3 physical p.24 checked with p.23/p.25 boundaries. Missing author proofs are explicitly unclaimed; prior checked proof sources support skill usage. selected_sections_read accepted.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "3391e1644097b1dabe322ca76a56439cf0cefc4ec0ac6dfff5babbe5f8539e98",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L06",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 2,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.1–2: all text, rare spike, Definition 4, Theorems 1–2",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "3ff674c85f85f3ade0a117e4a903a1fbaa2783741015167f6c10ec136646b245",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L07",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 6,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.1–6: Theorems 1.1/1.4/1.7 and proof; Definition 1.2",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "b507ba119aaf19c7c396373b82bf6aea3a01f01306d93dd90e3998f1415d9b8c",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L08",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 76,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.56–59: Theorems 5.4/5.8",
+        "PDF pp.66–67: Theorem 5.29 and proof beginning",
+        "Revision: actual p.56 preceding Chapter4; p.57 Chapter5 start; p.67 Skorokhod proof ending; pp.68–72 Wasserstein; p.73 Appendix start",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest revision closes the exact page-boundary/read-unit issues or truthfully marks the original proof gaps and restricts skill use to separately checked classical Polish representation. Complete declared teaching-text units accepted; no repair of a general author theorem is required.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "3cd3ce60054974397f7d14c1196389ff29e562c2d6b023930918fc6a546f7c50",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L09",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 77,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.26–27: Theorem 2.1 and proof",
+        "Revision: actual pp.25/28/31–33/40–42, p.43 Chapter3 start",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Full Chapter2 pp.25–42 boundaries confirmed against start of Chapter3 p.43. Source Portmanteau typo now explicitly corrected and path-space/sup-topology limits preserved.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "2e12a50f2b2b1da94afa7c9dc727a0aa1a8893a6ce90af81fa6571a998a55933",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L10",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 47,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.5: Theorem 1.16",
+        "PDF pp.11–13: Theorems 3.7/3.9/3.10 and direct-part proof",
+        "Revision: actual pp.3/6–7 Chapter1 boundary; pp.10/13–14 Chapter3 proof/ending; p.15 next chapter",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest revision closes the exact page-boundary/read-unit issues or truthfully marks the original proof gaps and restricts skill use to separately checked classical Polish representation. Complete declared teaching-text units accepted; no repair of a general author theorem is required.",
+      "full_book_scope": "complete available lecture-notes document, not an external book edition",
+      "pdf_sha256": "cc9e3867d088cf76c3a27772ea2788d308cce5d66119eb31d83869edc521d404",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "document_type": "course_notes",
+      "reviewed_scope": "Previously accepted complete selected units only; not complete document reading",
+      "quota_eligible_under_current_policy": false
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L11",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 22,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.14: Theorem 2.5 and proof beginning",
+        "Latest actual PDF pp.4–5 original Levy and all-closed-set Prohorov definitions",
+        "Actual pp.6–8 example/Theorem1.4/proof and exact finite two-point-law counterexample; remaining Polish references preserved",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches.",
+        "Batch6 original Definitions1.4/1.5 pp4–5 and erroneous Theorem1.4 proof pp7–8; card/runtime now isolate equality and retain Levy<=Prohorov. Exact Fraction counterexample rerun in review copy."
+      ],
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "46013c05909ef453bd7b56cfa7a947465b13112a23705b29f593512c8ba3d0fd",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L12",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 11,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.2: Theorem 1.1",
+        "PDF pp.3–4: disjoint-union metric proof beginning",
+        "Revision: actual pp.2–5 Theorem1.1, proof, Lemma3.2; quantified counterexample recorded",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "7533411205d9d620a168d030f9e7389afc3fd803e1de101387246cfbe58734ad",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L13",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 5,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.1–2: preliminary results and Portmanteau statement",
+        "PDF pp.2–5: implication proof",
+        "Primary https://arxiv.org/abs/2609.09689: Benjamin Smith, v1 9 September2026; actual PDF pp.1–4 statement/proof",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "3aa0bfdc44ec4735a9df8733d7b4a0a2fa4ec060b92eaf1155ba9961ac3aee73",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L14",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 21,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.1–2: title/abstract and scope; no theorem accepted",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches.",
+        "Batch6 actual original pp7–9 Theorems2.8/2.10/2.12; pp11–14 tightness/fdd theorem and two-level moduli proof; pp16–18 maximal criteria, Theorem4.7 bad dyadic grid explicitly excluded."
+      ],
+      "reason": "Full-paper reader ranges and substantive section coverage accepted after actual original theorem/proof checks. Former title/abstract-only partial review superseded for the locations now listed. Source defects/imported results remain bounded and unclaimed where applicable.",
+      "pdf_sha256": "4cea4f5f97590597003700e0f414e201a6a98fc00d162e726d8bff466a22cdbc",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L15",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 24,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.1–2: archive cover, title/abstract only; no theorem accepted",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches.",
+        "Batch6 actual original pp7–8 scalar tests/topology; pp10/13 Borel qualifications; pp15–16 Theorem3.1/Lemmas3.2–3.3 compact-containment proof; pp18/20 infinite-time and flat concentration; pp22–24 strong nuclear-dual topology and Mitoma proof."
+      ],
+      "reason": "Full-paper reader ranges and substantive section coverage accepted after actual original theorem/proof checks. Former title/abstract-only partial review superseded for the locations now listed. Source defects/imported results remain bounded and unclaimed where applicable.",
+      "pdf_sha256": "562aa49cafed1e74e6186928377af733a99163f66c8025a680b7cd2f9f506506",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0345",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0351",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0352",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0355",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0357",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0358",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0360",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0363",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0364",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": true,
+      "checked_locations": [
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches.",
+        "Original title p1, contents/front/back structure and490 physical pages; complete local book hash matches D04/source.",
+        "Original Ch1 measure/integration/Fubini chapter boundary pp9–50/51; p39 Theorem1.6.8 integrability-transfer assumptions and truncation proof.",
+        "Original pp126/128/131–132/133 inverse-CDF, Portmanteau and Helly/tightness boundaries; pp140–142 characteristic-function averaged-tail argument.",
+        "Original pp204/208/212–213 finite-dimensional Portmanteau/tightness/Cramer–Wold/CLT; pp218–224 conditional expectation and nice-space kernel construction.",
+        "Original pp225/229–232 upcrossings/a.s. convergence and counterexamples; pp252–256 UI/Vitali/conditional expectations; p257 independently rendered/viewed: Exercises4.6.2–4.6.7 precede §4.7.",
+        "Final attempt: current card/source/runtime pp252–257 and exact Theorem1.6.8 compared to already inspected p39/p257; all three repairs verified."
+      ],
+      "reason": "Actual complete490-page book retained; p257 exercises4.6.2–4.6.7 now read and recorded to shared §4.7 boundary. Theorem1.6.8 exact hypotheses/bounded-convergence/Fatou/tail proof restored; status count corrected. All eight named units accepted, one source only.",
+      "sha256_verified": true,
+      "pdf_page_count": 490,
+      "pdf_sha256": "aeac36cbf5e44c53d69fa60a2d29a393e2d0e8c955ee103bd845d925fd910886",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "full_document_acquired": true,
+      "reading_scope_evidence_complete": true,
+      "accepted_read_units": [
+        "Chapter1 pp9–50",
+        "§3.2.2 pp126–132",
+        "§3.3.2 pp140–141",
+        "§3.10 pp204–212",
+        "§4.1.2 pp218–221",
+        "§4.1.3 pp222–224",
+        "§4.2 pp225–231",
+        "§4.6 pp252–257 through Exercises4.6.2–4.6.7"
+      ]
+    },
+    {
+      "worker": "W01",
+      "local_id": "M0365",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 29,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.1: dated 12 November 2026, complete 29-page notes",
+        "PDF pp.16–17: Theorems 5.12/5.14",
+        "PDF pp.19/23/25: convergence/UI/maximal sections",
+        "Final-attempt actual p1 contents lists Sections5–10, no named chapter; p26 contains end of §10 proof/Example10.2 before §11 starts. Full29-page note already acquired.",
+        "Final approval recheck: current diff compared to already rendered original source page(s); updated source/coverage/runtime and boundary examples inspected.",
+        "Fulltext follow-up original pp1–15 Sections1–4 definitions/integration/conditional expectation/probability toolbox/modes; exact source and coverage inspected.",
+        "Fulltext follow-up original pp26–29 §11 finite binomial risk-neutral parameter, Lemmas11.3/11.5 representation/discounted-wealth proof and Theorem11.2 replication; finalp29 references. No continuous-time pricing result imported."
+      ],
+      "reason": "Previously verified §§5–10 retained. Added complete-document reader evidence, source-specific whole-note map and new §§1–4/§11 key statements/proof chains independently checked against the unchanged original; correctly retyped as paper/course_notes. Qualifies as one complete source under the uniform policy.",
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "reading_type": "fulltext_read",
+      "accepted_read_units": [
+        "Entire physical PDF pp1–29: Sections1–11 and references"
+      ],
+      "document_type": "course_notes",
+      "quota_eligible_under_current_policy": true,
+      "reviewed_scope": "Complete29-page course notes; all Sections1–11 and references",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "PDF p.4–5: Definition2.1, construction, UI conventions",
+        "PDF pp.8–12: Theorems3.1/3.2/3.6/3.7, upcrossing proof, finite-measure Lean hypotheses",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Actual theorem/proof sections and complete source scope support this detailed full-read card; no current Lean revision claim made.",
+      "full_document_acquired": true,
+      "pdf_page_count": 14,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 38,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.5: Definition 2.1",
+        "PDF pp.13–14: Theorem 2.28, Lemma 2.29, proof",
+        "Latest actual PDF pp.25–26 Theorem4.3/proof",
+        "Actual PDF pp.28–30 Theorem4.6 and modified tilde C characteristic",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Actual original theorem/proof positions and current source-specific card agree. Previous source separation/directional/modified-characteristic corrections verified where applicable. Hash-bound continuous section coverage accepted as reader evidence; reviewer did not reread every page.",
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual PDF pp.5–6 Theorems2.1–2.2",
+        "Actual PDF pp.14–15 tightness and pp.22–23 directional covariance/martingale-problem uniqueness",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Actual original theorem/proof positions and current source-specific card agree. Previous source separation/directional/modified-characteristic corrections verified where applicable. Hash-bound continuous section coverage accepted as reader evidence; reviewer did not reread every page.",
+      "full_document_acquired": true,
+      "pdf_page_count": 28,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 19,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.2: assumption (1.1), Lemma 1.3, supermartingale",
+        "PDF p.3/journal p.102: Theorem 1.6",
+        "PDF p.8/journal p.107: Section 4 crossing proof",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Original locations support the bounded claims and migration warnings. Acceptance covers recorded scope only; partial sources do not become complete reads.",
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 63,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.9: Definition 1",
+        "PDF pp.12–13: transforms and Theorem 1",
+        "PDF p.15: proof/Ville",
+        "PDF footer: December 18, 2025; v8 not established from PDF",
+        "Primary version record https://arxiv.org/abs/1808.03204v8 independently opened: v8 revised 17 Dec 2025, 63 pages; journal article separately 2020.",
+        "Actual PDF pp.9/12–13/15 sub-psi and main theorem/proof",
+        "Actual pp.39–41 continuous-time/application boundaries; version independently verified previously",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Batch5: current card and repaired section map rechecked; S024 pp7/9 constants and regularity, S026 pp5/14 normalization and dual, S009 p5 optimizer, or source-specific appendix locations from batch4."
+      ],
+      "reason": "Previously checked original mathematics retained. Current formula/initial-value/optimizer corrections and specific section/appendix coverage repairs verified against previously inspected original positions; complete hash-bound reader evidence accepted.",
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual PDF pp.1–2 title/source identity",
+        "Actual PDF pp.4–7 true Theorem2.1 and Corollaries2.2–2.7",
+        "Actual pp.13–18 proof Sections4–5; mismatch to card confirmed",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Actual PDF pp.4–7 rechecked rewritten conditional-normalizer theorem and distinct corollaries",
+        "Actual pp.14/18 finite stopped density and conditional upper-increment mgf proof"
+      ],
+      "reason": "Actual original theorem/proof positions and current source-specific card agree. Previous source separation/directional/modified-characteristic corrections verified where applicable. Hash-bound continuous section coverage accepted as reader evidence; reviewer did not reread every page.",
+      "full_document_acquired": true,
+      "pdf_page_count": 22,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 20,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.4–5: Theorem 2.1, equations 9/10/15",
+        "PDF pp.8–9: proof setup",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Original locations support the bounded claims and migration warnings. Acceptance covers recorded scope only; partial sources do not become complete reads.",
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Actual PDF pp.2–3 Theorems2.1/2.2 and Corollary2.1",
+        "Actual pp.4–5 truncation/moment proof and precise u optimizer; pp.7–8 Freedman truncation/corollary",
+        "Local PDF first-page arXiv revision/date/title/authors independently verified; Dirksen also displays journal/year/DOI.",
+        "Batch5: current card and repaired section map rechecked; S024 pp7/9 constants and regularity, S026 pp5/14 normalization and dual, S009 p5 optimizer, or source-specific appendix locations from batch4."
+      ],
+      "reason": "Previously checked original mathematics retained. Current formula/initial-value/optimizer corrections and specific section/appendix coverage repairs verified against previously inspected original positions; complete hash-bound reader evidence accepted.",
+      "pdf_page_count": 9,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "PDF pp.4–5: Theorems2.1–2.3, G^y and beta constant",
+        "PDF pp.7–11: exponential product, Lemmas4.1/5.1, stopped change of measure",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Previously checked original theorem/proof pages and latest corrected card agree: exponential brackets, title/revision dates, finite-moment zero covariance, !=-1 restriction and atom/no-atom endpoint split repaired. Acceptance preserves recorded scope.",
+      "full_document_acquired": true,
+      "pdf_page_count": 15,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual pp3/5 A1/A2, Theorem2.1 and xhat; p6 Cor2.2 independently rendered/viewed",
+        "Actual p7 Theorem2.3 optimizer; pp13–14 tilted integral proof, pp16–17 stopped variance-fill, pp18–20 regression/symmetry/AppendixA",
+        "Final approval recheck: current diff compared to already rendered original source page(s); updated source/coverage/runtime and boundary examples inspected."
+      ],
+      "reason": "Final corrections independently agree with actual original pages and final runtime/coverage: precise selected-section type; original x² Cor2.2 exponent; separated S013 all-Borel/two-tail result; explicit optional-bracket clarification/ambiguity isolation; or threshold-vs-exact-error ties and corrected physical coverage.",
+      "pdf_sha256": "46138b2ed0e4d49943c50766a7630db89d64b3d6e36d000352cddb6d44d5adbc",
+      "pdf_page_count": 21,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "full_document_acquired": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S012",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual pp1–3 conditional Cramer, both-tail expansions and all-Borel MDP; p3 independently rendered/viewed",
+        "Actual pp3–5 change of measure and Lemmas3.1–3.4; p5 main proof sketch/reference; pp6–7 actual drift/cumulant Taylor proofs (no mixing applications)",
+        "Final approval recheck: current diff compared to already rendered original source page(s); updated source/coverage/runtime and boundary examples inspected."
+      ],
+      "reason": "Final corrections independently agree with actual original pages and final runtime/coverage: precise selected-section type; original x² Cor2.2 exponent; separated S013 all-Borel/two-tail result; explicit optional-bracket clarification/ambiguity isolation; or threshold-vs-exact-error ties and corrected physical coverage.",
+      "pdf_sha256": "a3e2357596f3eb7f52bc152e990bb34659578414a502518167592bb7cec5cd77",
+      "pdf_page_count": 7,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "full_document_acquired": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S014",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual pp3–5 one-sided A1/A2, Theorem1, half-side MDP; p3 independently rendered/viewed",
+        "Actual pp6–8 separate coupling/mixing statements; pp9–12 drift/cumulant/tilted CLT supplement dependency",
+        "Actual pp13/15 separate upper/lower tilt equations; pp18–23 application proof dependencies"
+      ],
+      "reason": "Actual identity/hash and source-specific full reader coverage accepted; original theorem and key proof positions checked within card/runtime use.",
+      "pdf_sha256": "f0f8ac43c027b3b06824d34e3c403e7b1d5b7ff1d6a1cc836ce308111229a5f2",
+      "pdf_page_count": 24,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "full_document_acquired": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S015",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "checked_locations": [],
+      "reason": "No actual reading card in this first-batch snapshot; candidate/download status does not count as reviewed or completed."
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S016",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Actual PDF p.4 A1/A2; pp.5–7 Theorems2.1/2.2, stopping corollaries and maximal increment term",
+        "Actual pp.8/15–16 proof/augmented Rademacher clock; p.17 appendix",
+        "Local PDF first-page arXiv revision/date/title/authors independently verified; Dirksen also displays journal/year/DOI."
+      ],
+      "reason": "Actual original theorem/proof positions and current source-specific card agree. Previous source separation/directional/modified-characteristic corrections verified where applicable. Hash-bound continuous section coverage accepted as reader evidence; reviewer did not reread every page.",
+      "pdf_page_count": 18,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S017",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "PDF p.1: title date and Definition1.2",
+        "PDF pp.6–7: Theorems2.1/2.3",
+        "PDF pp.9–12: Theorems3.1–3.3, Corollary4.3 and dyadic proof",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Previously checked original theorem/proof pages and latest corrected card agree: exponential brackets, title/revision dates, finite-moment zero covariance, !=-1 restriction and atom/no-atom endpoint split repaired. Acceptance preserves recorded scope.",
+      "full_document_acquired": true,
+      "pdf_page_count": 16,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S018",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 16,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.1: usual conditions",
+        "PDF pp.3/7: compensator proof and Theorem 2.3",
+        "PDF p.11: Theorem 3.2",
+        "Batch2 actual PDF pp.1/3/7: usual conditions, variation-local-integrability, predictable uniqueness difference.",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Batch5: current card and repaired section map rechecked; S024 pp7/9 constants and regularity, S026 pp5/14 normalization and dual, S009 p5 optimizer, or source-specific appendix locations from batch4."
+      ],
+      "reason": "Previously checked original mathematics retained. Current formula/initial-value/optimizer corrections and specific section/appendix coverage repairs verified against previously inspected original positions; complete hash-bound reader evidence accepted.",
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S019",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 18,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF p.2: Hypothesis 2.1 in full",
+        "PDF pp.3–5: Theorem 2.1 and proof beginning",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Batch5: current card and repaired section map rechecked; S024 pp7/9 constants and regularity, S026 pp5/14 normalization and dual, S009 p5 optimizer, or source-specific appendix locations from batch4."
+      ],
+      "reason": "Previously checked original mathematics retained. Current formula/initial-value/optimizer corrections and specific section/appendix coverage repairs verified against previously inspected original positions; complete hash-bound reader evidence accepted.",
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S020",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "PDF pp.8–10: Definitions2.2/2.3, Propositions2.6/2.12",
+        "PDF p.11: Theorem3.1 and proof; condition (3.1)",
+        "PDF pp.14–15: Theorem4.1",
+        "PDF pp.22–23: Proposition5.3 and Theorem5.4",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Previously checked original theorem/proof pages and latest corrected card agree: exponential brackets, title/revision dates, finite-moment zero covariance, !=-1 restriction and atom/no-atom endpoint split repaired. Acceptance preserves recorded scope.",
+      "full_document_acquired": true,
+      "pdf_page_count": 30,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S021",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual original first-page title/authors/version checked; physical page count and PDF SHA256 recomputed, matching source and section-coverage records.",
+        "PDF pp1–3 Theorems1.1/1.2 and innovation proof; pp4–6 Brownian scalar representation; pp7–10 matrix factorization/Theorem5.4",
+        "Final-attempt current card/coverage/runtime compared to rendered original and batch5 exact finding; correction verified."
+      ],
+      "reason": "Batch5 precise original-page issues repaired: residual energy/only fixed-component temporal independence, final OU log(1+aT), or closed-half-space state/test/initial domains. Current runtime limits agree with previously inspected originals.",
+      "pdf_page_count": 11,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "pdf_sha256": "80406995e906c6699b08fb1d23c9266526ab2c5f0991c5335c1bd9a28d5986d1",
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S022",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual pp3–4 weak formulation, coefficient/noise/density conditions and existence-only conclusion",
+        "Actual p7 Lemmas2.3/2.4 independently rendered/viewed; source uses angle notation but calls it quadratic variation",
+        "Actual pp10/14 stopping/energy; p20 time increments; pp23/26–29 law transfer, UI/Vitali, direct mollified stochastic-integral limit",
+        "Final approval recheck: current diff compared to already rendered original source page(s); updated source/coverage/runtime and boundary examples inspected."
+      ],
+      "reason": "Final corrections independently agree with actual original pages and final runtime/coverage: precise selected-section type; original x² Cor2.2 exponent; separated S013 all-Borel/two-tail result; explicit optional-bracket clarification/ambiguity isolation; or threshold-vs-exact-error ties and corrected physical coverage.",
+      "pdf_sha256": "020260a5fca4f4df4f08b77b889f311a370d5b188ba582e8a55b249e3cb52f0b",
+      "pdf_page_count": 32,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "full_document_acquired": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S023",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "PDF p.8: Lemma3.1",
+        "PDF pp.10–12: Lemma3.4, Theorem3.5, mass change",
+        "PDF pp.16–18: Proposition4.1/Theorem4.2 and bounded deterministic integrand proof",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Batch5: current card and repaired section map rechecked; S024 pp7/9 constants and regularity, S026 pp5/14 normalization and dual, S009 p5 optimizer, or source-specific appendix locations from batch4."
+      ],
+      "reason": "Previously checked original mathematics retained. Current formula/initial-value/optimizer corrections and specific section/appendix coverage repairs verified against previously inspected original positions; complete hash-bound reader evidence accepted.",
+      "full_document_acquired": true,
+      "pdf_page_count": 21,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S024",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Actual PDF pp.5/7–9 scalar Riesz baseline, sharp martingale inequalities, stability and Bellman hypotheses; p.7 independently rendered",
+        "Actual pp.37–38 Theorem3.5/Lemma3.7 background-radiation representation and stability transfer",
+        "Batch5: current card and repaired section map rechecked; S024 pp7/9 constants and regularity, S026 pp5/14 normalization and dual, S009 p5 optimizer, or source-specific appendix locations from batch4."
+      ],
+      "reason": "Previously checked original mathematics retained. Current formula/initial-value/optimizer corrections and specific section/appendix coverage repairs verified against previously inspected original positions; complete hash-bound reader evidence accepted.",
+      "pdf_page_count": 42,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S025",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual original first-page title/authors/version checked; physical page count and PDF SHA256 recomputed, matching source and section-coverage records.",
+        "PDF pp7–10 Theorems3.1/3.6 and good-lambda proof",
+        "PDF p12 Theorem4.1 independently rendered/viewed; pp12–13 time-rescaling/block proof",
+        "PDF pp23–24 Theorem9.1 and pp26–28 1D PAM/Green kernel",
+        "Final-attempt current card/coverage/runtime compared to rendered original and batch5 exact finding; correction verified."
+      ],
+      "reason": "Batch5 precise original-page issues repaired: residual energy/only fixed-component temporal independence, final OU log(1+aT), or closed-half-space state/test/initial domains. Current runtime limits agree with previously inspected originals.",
+      "pdf_page_count": 29,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "pdf_sha256": "dcda9e5b9edd61942aad3df1849da2d079b14c81aac79e25e2cb0ff85f73b0cf",
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S026",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Actual PDF pp.3–5 integrability and nonzero-A0/zero-M0 convention",
+        "Actual pp.9–12 Assumption3.2/Theorem3.3 compensator domination",
+        "Actual pp.14–15 dual theorem with M0,UI restriction",
+        "Local PDF first-page arXiv revision/date/title/authors independently verified; Dirksen also displays journal/year/DOI.",
+        "Batch5: current card and repaired section map rechecked; S024 pp7/9 constants and regularity, S026 pp5/14 normalization and dual, S009 p5 optimizer, or source-specific appendix locations from batch4."
+      ],
+      "reason": "Previously checked original mathematics retained. Current formula/initial-value/optimizer corrections and specific section/appendix coverage repairs verified against previously inspected original positions; complete hash-bound reader evidence accepted.",
+      "pdf_page_count": 27,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S027",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual p1 title/author/arXiv margin and47 physical pages; pp5–9 definitions and fixed/sequential error",
+        "Actual pp12–13 catastrophic first bet proof; pp18–19 conditional Holder factorization/equality; p25 ceiling/nonattainment",
+        "Actual pp29–31 threshold, optimizer and lattice tie caveat (p31 rendered/viewed); pp38–44 filtered extension; pp45–47 quoted tools",
+        "Final approval recheck: current diff compared to already rendered original source page(s); updated source/coverage/runtime and boundary examples inspected."
+      ],
+      "reason": "Final corrections independently agree with actual original pages and final runtime/coverage: precise selected-section type; original x² Cor2.2 exponent; separated S013 all-Borel/two-tail result; explicit optional-bracket clarification/ambiguity isolation; or threshold-vs-exact-error ties and corrected physical coverage.",
+      "pdf_sha256": "1de97d7700ddbf8cb99c03f6753a2dd371ebc4e47ed5bffdaad4cec2eb80aa4e",
+      "pdf_page_count": 47,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "full_document_acquired": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S028",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual original first-page title/authors/version checked; physical page count and PDF SHA256 recomputed, matching source and section-coverage records.",
+        "PDF pp1–5 original bounded-continuous payoff, Lemma2.1 and finite-support controls",
+        "PDF pp6–7 Theorem3.1/Perron classes; p12 projection/comparison/concave-envelope proof; p14 examples"
+      ],
+      "reason": "Source-specific original statements and key proof positions agree within stated use. Complete continuous reader range and substantive section/appendix coverage accepted; not a reviewer full reread.",
+      "pdf_page_count": 18,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "pdf_sha256": "295b0c9d7dce14c293d5ca962790e2f8092d44e03aff33f4f72146581ba75aae",
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S029",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual original first-page title/authors/version checked; physical page count and PDF SHA256 recomputed, matching source and section-coverage records.",
+        "PDF pp4–7 dual class, Doob decomposition and optimizer characterizations",
+        "PDF pp8–9 perturbation/Proposition3.1/Theorem3.2/Corollary3.3; p18 strictness proof"
+      ],
+      "reason": "Source-specific original statements and key proof positions agree within stated use. Complete continuous reader range and substantive section/appendix coverage accepted; not a reviewer full reread.",
+      "pdf_page_count": 27,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "pdf_sha256": "dc4c75ab5a20aa34340c524c5810c940a43cae6de58bac65f6b818bbf70c03de",
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S030",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash.",
+        "Actual PDF pp.3–4 six I_pq regimes and q=1 upper-only form",
+        "Actual pp.20–21 Poisson-adaptedness/independence and proof",
+        "Actual pp.41–42 Theorem7.1 noncommutative row/column extension",
+        "Local PDF first-page arXiv revision/date/title/authors independently verified; Dirksen also displays journal/year/DOI."
+      ],
+      "reason": "Actual original theorem/proof positions and current source-specific card agree. Previous source separation/directional/modified-characteristic corrections verified where applicable. Hash-bound continuous section coverage accepted as reader evidence; reviewer did not reread every page.",
+      "pdf_page_count": 51,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S031",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual original first-page title/authors/version checked; physical page count and PDF SHA256 recomputed, matching source and section-coverage records.",
+        "PDF p3 Definition1.1 and Theorem1.3 independently rendered/viewed (closed half-space)",
+        "PDF pp5–6 SDE/mimicking hypotheses; pp12–13 Assumption2.2 and imported PDE Theorem2.5",
+        "PDF p19 epsilon-shift Ito duality; pp24–25 Markov/marginal matching",
+        "Final-attempt current card/coverage/runtime compared to rendered original and batch5 exact finding; correction verified."
+      ],
+      "reason": "Batch5 precise original-page issues repaired: residual energy/only fixed-component temporal independence, final OU log(1+aT), or closed-half-space state/test/initial domains. Current runtime limits agree with previously inspected originals.",
+      "pdf_page_count": 27,
+      "sha256_verified": true,
+      "coverage_hash_verified": true,
+      "pdf_sha256": "838e89ac3ef9070a523b1211f3e1ae66afa7eafbd7f4325f94dcca2a97414c38",
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S032",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 32,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF first page extraction attempted; unreadable encoding"
+      ],
+      "reason": "Correctly downgraded to not_read/unverified and card removed; excluded from counts. This repairs status honesty but does not verify identity, book scope or mathematics."
+    },
+    {
+      "worker": "W02",
+      "local_id": "W02-S033",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 43,
+      "sha256_verified": true,
+      "checked_locations": [
+        "PDF pp.17–18: Theorem 5.1/proof",
+        "PDF p.21: Theorem 6.1/proof",
+        "Actual PDF pp.25–26 Theorem7.3/Corollary7.4 integral domain and gamma norm; previous actual pp.17–22 main BDG retained",
+        "Batch4 actual first page re-opened for title/authors/version; physical count/SHA256 recomputed and matched coverage hash."
+      ],
+      "reason": "Actual original theorem/proof positions and current source-specific card agree. Previous source separation/directional/modified-characteristic corrections verified where applicable. Hash-bound continuous section coverage accepted as reader evidence; reviewer did not reread every page.",
+      "coverage_hash_verified": true,
+      "stage_hash_manifest": "reviews/R01/w02_final_attempt_snapshot_hashes.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L16",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual PDF pp.3/7/8: Proposition1.2/2.2, Lemma2.3",
+        "Actual PDF pp.11–13: Lemmas4.1/4.10 and proof; p.13 Corollary3.3 weaker-metric invocation",
+        "Latest actual p.10 weaker-metric Proposition3.2/Corollary3.3 and p.13 proof order",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "full_document_acquired": true,
+      "pdf_page_count": 16,
+      "sha256_verified": true,
+      "reason": "Actual previously checked theorem/proof positions and latest corrected card now agree: weaker-d coupling, integrable supremum/continuous A, explicit convolution uniqueness, and completed section coverage. Full-paper reader evidence accepted without reviewer full reread.",
+      "pdf_sha256": "27e26a11e1d4e9b072b7e5ac46081160c32a113a1f9d39ebd03dd14f7e61823d",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L17",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual PDF pp.2–3 definitions",
+        "Actual PDF pp.14/16/18: Theorems1–3; p.16 rendered image confirms integrable supremum",
+        "Latest actual pp.14/16–17 continuity/sup-integrability conditions and two-stage step approximation",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "full_document_acquired": true,
+      "pdf_page_count": 24,
+      "sha256_verified": true,
+      "reason": "Actual previously checked theorem/proof positions and latest corrected card now agree: weaker-d coupling, integrable supremum/continuous A, explicit convolution uniqueness, and completed section coverage. Full-paper reader evidence accepted without reviewer full reread.",
+      "pdf_sha256": "cf7c79afdf76a801b27224caa14c61ae8b09a0a966edfe8a370e11f0cc7918a2",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L18",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual PDF pp.3–5 Theorem2.1/Corollary2.2/Proposition2.3/Lemma2.4",
+        "Actual pp.7/14–18 Hilbert convolution/conditioning/CLT; rendered p.16 confirms equation4.9 and separate uniqueness",
+        "Latest actual pp.16–17 convolution equation/explicit uniqueness and scaled-sequence Theorem4.3",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "full_document_acquired": true,
+      "pdf_page_count": 20,
+      "sha256_verified": true,
+      "reason": "Actual previously checked theorem/proof positions and latest corrected card now agree: weaker-d coupling, integrable supremum/continuous A, explicit convolution uniqueness, and completed section coverage. Full-paper reader evidence accepted without reviewer full reread.",
+      "pdf_sha256": "767beff11441982ea41f38fbdebaee4f1c9a2c24e21da67ec6077e0e10dbf0d8",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L19",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual PDF pp.6–7/10–11 path topology and compactness",
+        "Actual PDF pp.14–16 law convergence/Theorems3.5/3.8/3.10",
+        "Actual pp.18–19 UT/semimartingale closure",
+        "Latest actual p.17 Theorem3.11/Remark3.12; complete section map compared",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "full_document_acquired": true,
+      "pdf_page_count": 21,
+      "sha256_verified": true,
+      "reason": "Actual previously checked theorem/proof positions and latest corrected card now agree: weaker-d coupling, integrable supremum/continuous A, explicit convolution uniqueness, and completed section coverage. Full-paper reader evidence accepted without reviewer full reread.",
+      "pdf_sha256": "72a6a41ee4b00d259c92d6cff649f390b380daf8525e42091765dd1654176a1b",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L20",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual pp.6/8/10/15 Theorem2/Lemma3/Theorem4/Theorem7",
+        "Actual pp.17–20 Theorems10–12 with UI and continuous bracket assumptions",
+        "Latest actual pp.16–17 Lemma8/Corollary9/Theorem10, p.21 appendix and references",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches."
+      ],
+      "full_document_acquired": true,
+      "pdf_page_count": 21,
+      "sha256_verified": true,
+      "reason": "Actual previously checked theorem/proof positions and latest corrected card now agree: weaker-d coupling, integrable supremum/continuous A, explicit convolution uniqueness, and completed section coverage. Full-paper reader evidence accepted without reviewer full reread.",
+      "pdf_sha256": "00379e3315466b8c145b7791000a0470ef142991c4ba572c3c80dfbe55a66215",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L21",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual archive cover confirms Meyer1978,14pages/hash",
+        "Actual p.2 fuzzy-variable normalization rendered/viewed; p.6 regularity examples",
+        "Actual pp.4–7 compactness/regular tests, pp.9–11 Portmanteau/classD, pp.13–14 appendix",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches.",
+        "Batch6 original p2 fuzzy-time M0-minus=1; p6 regular-supermartingale examples and predictable-jump criterion; card now exact."
+      ],
+      "pdf_page_count": 14,
+      "sha256_verified": true,
+      "full_document_acquired": true,
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "50f17f024e4c5d006fa3016b796c438ec0f7a63091efc2f5b27c861133ed7b69",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L22",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual cover confirms Pavia091/2009 working paper,16pages/hash",
+        "Actual pp.6–8 stable-convergence definition/Theorems1–2 and density/UI proof",
+        "Actual pp.12–15 equations4–5, Lemma6, Theorem7 and sketch limitation",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches.",
+        "Batch6 original p12 equations4/5 full conditional independence; p14 Theorem7 strict0<a<b bounds; unread technical-report proof remains unclaimed."
+      ],
+      "pdf_page_count": 16,
+      "sha256_verified": true,
+      "full_document_acquired": true,
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "6110a816b3806048e38bcf47bc899b7076f23a1bda1e3a3a55d8aca2e8468f49",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-L23",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "checked_locations": [
+        "Actual cover confirms Pavia109/January2010 working paper,13pages/hash",
+        "Actual pp.4–6 Proposition1/2/Theorem4 and Corollary5",
+        "Actual pp.10–13 Appendix Lemmas11–13 and main proof",
+        "Batch6 actual local first page and PDF count/SHA256 rechecked; source hash matches.",
+        "Batch6 original pp4–5 coupling mismatch probability tending to zero; p10 appendix start and source-stated Lemma11; source coverage now correctly separates §3 and Appendix."
+      ],
+      "pdf_page_count": 13,
+      "sha256_verified": true,
+      "full_document_acquired": true,
+      "reason": "Latest card and exact source-specific section coverage accepted. Previous original positions rechecked for changed conditions. Known source proof errors/omissions remain explicitly isolated; acceptance only covers the bounded verified uses.",
+      "pdf_sha256": "574f766c3f1b9096c62c07d766241c0877cb6d22d6f21474ccf2cf848d588bb8",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-D04-B06-001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 31,
+      "sha256_verified": true,
+      "pdf_sha256": "64b4d074b831d2f33b3254af5edfdea367afa6e6ef181d4305dd737e6d1be144",
+      "checked_locations": [
+        "Actual pp6–10 Definitions1/Theorems1–3 Radon/countable target/normalization/density",
+        "Actual pp29–30 countable determining cone/RN/Riesz/graph support/common-null uniqueness proof; pp11–12 composition"
+      ],
+      "reason": "Complete identity/hash-bound reader range and detailed coverage accepted after actual original statements/key proof checks; bounded use agrees with card unless a finding below remains.",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-D04-B06-002",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 9,
+      "sha256_verified": true,
+      "pdf_sha256": "cec212836e9116a30fb9a62ed943bbe6cd36beb624a1a77a8dd80a0b34fe1db3",
+      "checked_locations": [
+        "Actual pp1–2 kernel definition/process claim; pp4–6 finite-operator-M inverse and Gaussian splitting proof",
+        "Actual p5 independently rendered: Y0 is closure of covariance range, not range itself",
+        "Actual p7 independently rendered: Theorem3 intersection closure is present; p8 X-norm/H-norm Pythagoras step and scalar-ratio Theorem4 proof are not validated"
+      ],
+      "reason": "Specific topology/proof-chain or missing filtration condition below must be isolated/corrected; retain narrower verified conclusions. No need to repair an author theorem in unsupported generality.",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-D04-B06-003",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 31,
+      "sha256_verified": true,
+      "pdf_sha256": "01bea4dd10b4de38ea9aed603bef3ea7b2bd810406d089a938d6cb2719317d2a",
+      "checked_locations": [
+        "Actual pp4–9 finite-covariance Hilbert construction; p8 Th2.5/fn38 independently rendered; p9 ambient inverse/Cor2.6 and OLS extension",
+        "Actual pp13–15 stochastic residual construction/Th5.6–5.7; pp25–29 Appendix proof dependencies",
+        "Independent compact observation example gives a rigorous obstruction to the unconditional ambient-topology claims; see root certificate copied/rerun under review"
+      ],
+      "reason": "Specific topology/proof-chain or missing filtration condition below must be isolated/corrected; retain narrower verified conclusions. No need to repair an author theorem in unsupported generality.",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-D04-B06-004",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 28,
+      "sha256_verified": true,
+      "pdf_sha256": "796f910fa30ea18868f95015ffff60ccc03d739afec5721b17244b399b03abf0",
+      "checked_locations": [
+        "Actual pp9–13 Definitions/Th6–9; p11 Cor5 minus sign independently rendered and confirmed inconsistent with Th6 plus formula",
+        "Actual pp18–22 finite-rank/sequential proof; pp23–24 infinite-rank series/full-measure argument inspected for gaps",
+        "Actual contents and physical headings: Intro p2, background p4, disintegration p9, conclusion p15, appendices16/18/25, references25"
+      ],
+      "reason": "Specific topology/proof-chain or missing filtration condition below must be isolated/corrected; retain narrower verified conclusions. No need to repair an author theorem in unsupported generality.",
+      "fulltext_evidence_missing": "Actual section structure differs substantially: Intro2–4, background4–9, disintegration9–15, conclusion15–16; references begin25 after AppendixC. Current card/map call Intro3–7 and background8–9, omitting conclusion as distinct unit.",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-D04-B06-005",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 59,
+      "sha256_verified": true,
+      "pdf_sha256": "d4edc45b20c8791f03df4c50397ac83cec45757591dd17fe670c7d982ab7d7a4",
+      "checked_locations": [
+        "Actual pp7–9 finite-vector conditional-mean/UI proof and weak-law consequence",
+        "Actual pp22–23 Theorem3.2.1; pp28/33–34 Theorem4.3.1 natural-filtration construction; pp37–41 special construction and explicit F!=FX warning",
+        "Official Numdam1989 erratum text independently web-checked: delete path-continuity-implies-right-continuity assertion; usual conditions already assume it."
+      ],
+      "reason": "Specific topology/proof-chain or missing filtration condition below must be isolated/corrected; retain narrower verified conclusions. No need to repair an author theorem in unsupported generality.",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    },
+    {
+      "worker": "W01",
+      "local_id": "W01-D04-B06-006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "full_book_acquired": false,
+      "full_document_acquired": true,
+      "pdf_page_count": 7,
+      "sha256_verified": true,
+      "pdf_sha256": "b607802f0ebdcb54f82687878f148c97eaa1cbc25cdedeb90bab695c00cbd7b0",
+      "checked_locations": [
+        "Actual p3 Theorem1 H1/canonical decomposition/expected variation and path-sup hypotheses independently rendered",
+        "Actual pp4–6 Proposition3 p>1/2 and theorem integration-by-parts/quasimartingale closure proof; references beginp6 and continuep7"
+      ],
+      "reason": "Complete identity/hash-bound reader range and detailed coverage accepted after actual original statements/key proof checks; bounded use agrees with card unless a finding below remains.",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json"
+    }
+  ],
+  "skill_decisions": [
+    {
+      "skill": "probability-measure-convergence",
+      "decision": "needs_revision",
+      "reason": "Root uniformly tightened course-note eligibility:8 complete lecture-note PDFs retain selected-unit mathematical acceptance but require complete-document reading and paper/course_notes classification before source-quota eligibility. Four current mathematical repairs are in targeted re-review. No release.",
+      "stage_hash_manifest": "reviews/R01/w01_final_attempt_snapshot_hashes.json",
+      "quota_eligible_source_inventory": 22
+    },
+    {
+      "skill": "probability-martingale-stopping",
+      "decision": "passed",
+      "reason": "Uniform course-notes policy satisfied:30 unique complete paper/report/course-note sources. S001 now has complete29-page reader evidence and actual added-unit original checks; all other previously approved mathematics/runtime/mapping/cases unchanged apart from accurate inventory scope. Final approval binds the newly recomputed fulltext-version manifest only.",
+      "accepted_source_count": 30,
+      "review_complete": true,
+      "previous_approved_file_hash_manifest": "reviews/R01/w02_final_file_hash_manifest.json",
+      "file_hash_manifest": "reviews/R01/w02_final_fulltext_file_hash_manifest.json"
+    }
+  ],
+  "mapping_decisions": [
+    {
+      "problem_id": "A022",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A001",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A030",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A007",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A008",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A011",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A020",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A023",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A025",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A027",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A028",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A124",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A127",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A136",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A137",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "B049",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "B054",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "B126",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "B133",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "B134",
+      "tool": "probability-measure-convergence",
+      "decision": "confirmed",
+      "reason": "Confirmed as auxiliary method applicability only, not as a theorem solving this model. Model-specific interface is explicitly unproved."
+    },
+    {
+      "problem_id": "A127",
+      "tool": "probability-martingale-stopping",
+      "decision": "confirmed",
+      "reason": "Batch2 confirms only actual problem IDs A127/C112 remain; both auxiliary and unread source citations removed. A127 must explicitly state S019 implies zero cross-covariance under its hypotheses, even with dependent clocks."
+    },
+    {
+      "problem_id": "C112",
+      "tool": "probability-martingale-stopping",
+      "decision": "confirmed",
+      "reason": "S003 general martingale-problem method and S031 specialized half-space PDE route are auxiliary only. Current mapping explicitly leaves conditioned tightness/effective generator/uniqueness/variance positivity unproved; S031 domain transcription must be repaired before its card passes."
+    },
+    {
+      "problem_id": "C207",
+      "tool": "probability-martingale-stopping",
+      "decision": "confirmed",
+      "reason": "Actual formal120 C207 asks the dimension-uniform sharp vector Riesz constant. S024 scalar component cot(pi/(2p*)) and real orthogonal inequality checked on PDF pp.5/7; source pp.37–38 gives scalar Brownian representation/stability. Auxiliary-only lower baseline and crude sqrt(d) componentwise upper bound are valid; vector Bellman/projection/sharpness interfaces explicitly unproved. This does not accept the erroneous stability constants elsewhere in the card."
+    },
+    {
+      "problem_id": "A121",
+      "tool": "weak-topology limit-point interface for iterated probability laws (cross-tool auxiliary)",
+      "decision": "confirmed",
+      "reason": "Actual formal120 statement and current W01 topological interface checked. Compact simplex/P([0,1]) supplies accumulation only; continuity is explicitly unproved, full support is not weakly closed, fixed-theta chain mixing does not prove nonlinear orbit convergence. Auxiliary-only; no W01 solution of the nonlinear problem is claimed."
+    },
+    {
+      "problem_id": "A122",
+      "tool": "weak compactness and closed fixed-set limit passage on P([0,1]) (cross-tool auxiliary)",
+      "decision": "confirmed",
+      "reason": "Actual formal120 statement and current W01 topological interface checked. Compact simplex/P([0,1]) supplies accumulation only; continuity is explicitly unproved, full support is not weakly closed, fixed-theta chain mixing does not prove nonlinear orbit convergence. Auxiliary-only; no W01 solution of the nonlinear problem is claimed."
+    }
+  ],
+  "findings": [
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": null,
+      "file": "workers/W02/mapping.json",
+      "issue": "M0347 and M0354 are bibliography IDs in seed375.json, not problem IDs in dossiers208/formal120. A direct problem mapping to Freedman itself is circular and does not cover any formal task.",
+      "required_fix": "Remove these rows from problem mapping or move them to an explicitly named source-to-method map. Add actual formal problem IDs only after reading the corresponding task and proving the needed interface.",
+      "resolution_status": "resolved_in_batch2"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S019",
+      "file": "workers/W02/cards/W02-S019.md",
+      "issue": "Theorem 2.1 is summarized using unspecified stated assumptions; missing Hypothesis 2.1 includes diagonal limiting cross-bracket Aij=0 (i≠j), divergence of each bracket at infinity, and expectation convergence. This is material for a proposed two-leaf correlation application.",
+      "required_fix": "Transcribe Hypothesis 2.1(a),(b)(i–iii), jump condition and auxiliary Bn hypotheses exactly; explain why a correlated joint limit may not fit the diagonal version. Preserve A127 as auxiliary with this extra gap.",
+      "resolution_status": "original_missing_hypotheses_fixed_but_new_covariance_error"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L01",
+      "file": "workers/W01/cards/W01-L01.md",
+      "issue": "Theorems 2.16/2.17 are on physical PDF p.20 and 2.18 on p.21, outside recorded reading pp.18–19. The card is mathematically consistent but the reading evidence is not.",
+      "required_fix": "Actually read pp.20–21, correct both physical/printed page locators in card, sources and references, and update reading scope without backdating evidence.",
+      "resolution_status": "resolved_in_w01_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L04",
+      "file": "workers/W01/cards/W01-L04.md",
+      "issue": "Theorem 3.2 statement is physical PDF p.39, not pp.40–42; printed page numbers equal physical pages here, not shifted by one.",
+      "required_fix": "Correct page ranges and include p.39 in actual reading. Note the draft proof p.40 prints min where max is needed for the closed-set approximation; use the correct max(0,1−d/epsilon) formula.",
+      "resolution_status": "resolved_in_w01_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": null,
+      "file": "workers/W01/sources.json",
+      "issue": "Seven selected_chapters_read records only describe scattered theorem pages/sections, without evidence of complete selected chapter coverage. L03 explicitly says selected sections; L08 Skorokhod proof continues beyond the shown proof opening. Lecture notes are typed paper despite chapter-based treatment.",
+      "required_fix": "Give exact selected chapter/subsection names and complete page intervals with proof coverage; otherwise downgrade to partial_read. Treat substantial course texts consistently as teaching texts and record full-document acquisition (all current lecture-note PDFs are present, no excerpt-only PDF was found). Recompute status/skill counts.",
+      "resolution_status": "partly_resolved_named_scope_but_schema_and_boundaries_remain"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L02",
+      "file": "workers/W01/cards/W01-L02.md",
+      "issue": "The disintegration theorem 9.1 begins on PDF p.72, outside recorded pp.73–75. UI p.53 states a.e. convergence, while the card adds in-measure convergence without showing the subsequence argument.",
+      "required_fix": "Read/add p.72; attribute the in-measure extension to a matching source or write the subsequence argument explicitly. Remove the stray trailing backtick.",
+      "resolution_status": "resolved_in_w01_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L06",
+      "file": "workers/W01/sources.json",
+      "issue": "The two-page PDF establishes title and theorem text but does not name Ariel Neufeld or give a year. The institutional URL alone is not independent author metadata evidence.",
+      "required_fix": "Record author attribution as inferred from hosting path pending a course/author page, or supply a primary author-page link confirming authorship; retain year null.",
+      "resolution_status": "resolved_in_w01_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S032",
+      "file": "workers/W02/cards/W02-S032.md",
+      "issue": "Actual local PDF extraction is encoded garbage; claimed web-parsed chapter has no saved page-specific readable artifact. Author/year remain unresolved and full-book scope cannot be established from this chapter-like PDF.",
+      "required_fix": "Render/OCR or independently read the actual PDF, save reliable page locators and verify author/title. If it is a book chapter, obtain the full book before selected-chapter acceptance; until then exclude from accepted source count.",
+      "resolution_status": "resolved_by_exclusion_not_acceptance"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S006",
+      "file": "workers/W02/sources.json",
+      "issue": "Local title page has journal placeholder Vol.0(0000), and footer says 18 December 2025; the claim local version is arXiv v8 and publication metadata are not independently demonstrated by local PDF. The mathematical master theorem matches.",
+      "required_fix": "Bind exact arXiv revision to this file through versioned primary URL or metadata record; distinguish the 2020 published article from the local preprint revision, and keep unverified metadata pending.",
+      "resolution_status": "resolved_in_batch2"
+    },
+    {
+      "priority": "low",
+      "worker": "W02",
+      "source_local_id": "W02-S001",
+      "file": "workers/W02/cards/W02-S001.md",
+      "issue": "Theorem 5.12 is on physical PDF p.16, not p.17. The notes are complete 29 pages and current date is on front page.",
+      "required_fix": "Correct the optional stopping locator to PDF p.16; keep p.17 for Theorem 5.14. Add pdf_scope=full_lecture_notes for this book-typed item.",
+      "resolution_status": "resolved_in_batch2"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S018",
+      "file": "workers/W02/cards/W02-S018.md",
+      "issue": "The source assumes a filtered probability space satisfying the usual conditions in its opening paragraph. The compensator card does not state that assumption.",
+      "required_fix": "Add the usual conditions and define locally integrable finite variation before the theorem; distinguish finite-variation local martingales from predictable ones in the uniqueness step.",
+      "resolution_status": "resolved_in_batch2"
+    },
+    {
+      "priority": "low",
+      "worker": "W01",
+      "source_local_id": "W01-L12",
+      "file": "workers/W01/cards/W01-L12.md",
+      "issue": "Fulltext_read is supported by complete page range, but the card records only the result and recoupling warning, without the requested proof dependency chain.",
+      "required_fix": "Add disjoint union T, special metric, continuous-map case via Dudley and measurable-map reduction via Lusin/Borel–Cantelli, with exact pages; do not treat the theorem statement alone as full proof distillation.",
+      "resolution_status": "proof_chain_added_but_original_proof_gaps_newly_identified"
+    },
+    {
+      "priority": "low",
+      "worker": "W01",
+      "source_local_id": "W01-L13",
+      "file": "workers/W01/cards/W01-L13.md",
+      "issue": "Portmanteau statement starts PDF p.1, and the date/version arXiv:2609.09689v1 is not visible in this PDF first page.",
+      "required_fix": "Correct statement range to pp.1–2 and retain version/date as unverified until bound to a primary version record.",
+      "resolution_status": "resolved_in_w01_revision"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S019",
+      "file": "workers/W02/cards/W02-S019.md",
+      "issue": "Full Hypothesis 2.1 and off-diagonal-zero condition are now accurately restored. However the last paragraph says the theorem does not say the time-changed coordinates have zero covariance. This is false: W is independent of the entire A and Brownian coordinates are independent. Conditional on A, E[W_i(Aii(s))W_j(Ajj(t))|A]=0 for i≠j; finite second moments justify conditioning. Random clocks can cause dependence but not nonzero cross-covariance here.",
+      "required_fix": "Replace the covariance sentence with the conditional-expectation calculation and state that coordinates can be dependent through clocks while uncorrelated. For A127, identify a suitable correlated-bracket CLT or a martingale decomposition before application; add this restriction in mapping unproved_interface. State covariance only when the relevant second/cross moments exist; here Hypothesis2.1(b)(ii) supplies finite clock expectations. Without such integrability covariance can be undefined.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S020",
+      "file": "workers/W02/cards/W02-S020.md",
+      "issue": "Theorem 3.1 condition (3.1) on actual PDF p.11 and Theorem 5.4 p.22 is Delta B^{L(Z)} != -1, not > -1. The source allows complex Z, for which > is undefined. The same transcription error has propagated to skill method.md.",
+      "required_fix": "Replace >-1 by !=-1 in card and method; if deliberately restricting to real positive setting, state this as a stricter sufficient special case, not the original theorem. Keep exact stochastic intervals and specialness conditions.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S010",
+      "file": "workers/W02/cards/W02-S010.md",
+      "issue": "The beta-moment proof writes exp(z)−(z+)^beta <= 1+z+(z−)^beta. Actual PDF p.10 Lemma 5.1 requires exp(z−(z+)^beta) <= 1+z+(z−)^beta. The displayed card inequality is false, e.g. z=4,beta=3/2. Main probability bound and optimizer match the source.",
+      "required_fix": "Move the positive-part power inside the exponential. Retain the exact conditional-normalizer formula. Add an explicit definition of y=0 bound exp(−x^2/(2v^2)).",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S023",
+      "file": "workers/W02/cards/W02-S023.md",
+      "issue": "After the correct atom/no-atom Theorem 3.5 split, the mass-change paragraph says a nonintegrable endpoint is a separate non-semimartingale case. That is only true when Delta G(tG)>0. Without an endpoint atom, Theorem 3.5(a) gives a local martingale even with a nonintegrable terminal value; the card own Theorem 4.2 example uses precisely that case.",
+      "required_fix": "Qualify non-semimartingale assertion with Delta G(tG)>0. Explicitly preserve the atomless nonintegrable-terminal strict-local-martingale case, consistent with the integration counterexample.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "low",
+      "worker": "W02",
+      "source_local_id": "W02-S017",
+      "file": "workers/W02/cards/W02-S017.md",
+      "issue": "The actual PDF front page is dated August 7, 2026, while the card says August 6 in the local PDF (possibly arXiv submission timestamp). Corollary4.3 p.11 concerns partial sums with EX_k>=0, not necessarily centered; the card calls them centered.",
+      "required_fix": "Separate arXiv revision date from displayed title-page date and correct title-page date; replace centered partial sums by partial sums of the stated variables or add an explicit centering transformation and its conditions.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "high",
+      "worker": "W01",
+      "source_local_id": "W01-L12",
+      "file": "workers/W01/cards/W01-L12.md",
+      "issue": "The newly expanded proof copies two invalid general steps from the original. Lemma3.2 (actual PDF p.5) proves a threshold n depending on x0 but asserts one uniform n for all B0. Example S0=N and Sn copies, phi identity, epsilon_n=1/n, B=union_k ball_delta((0,k),1/(2k)): B0=N but (n,n) is never in B, so asserted inclusion fails for every n. The Lusin step on p.4 also claims arbitrary measurable metric-valued maps admit globally continuous approximations with tiny mismatch. For [0,1]→discrete {0,1}, the half-interval indicator cannot be approximated this way: continuous global maps are constant and mismatch measure is at least 1/2.",
+      "required_fix": "Explicitly record these original proof gaps and stop presenting that chain as a verified proof under merely separable metric hypotheses. Supply a valid repaired proof/reference, or restrict the usable proof route to hypotheses ensuring legal approximation and replace the uniform open-set step by an inner-core/compact localization argument with all limits justified. Keep theorem as author-stated pending proof audit until then.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L08",
+      "file": "workers/W01/cards/W01-L08.md",
+      "issue": "Actual PDF p.67 Skorokhod construction asserts nested half-open partition atoms with shrinking diameter have exactly one intersection point for every u. This does not follow: (0,2^{-k}] are nested with diameter→0 and empty intersection. Card now presents the construction as a completed proof without marking this issue. Wasserstein subsection also needs its separable-Hilbert and p∈[1,∞) setup explicitly retained (actual p.68).",
+      "required_fix": "Mark the source construction gap. Use a closure-limit construction and justify the correct law and exclusion of boundary coding failures a.s., or cite a separately verified complete Skorokhod proof (e.g. L10 with its exact hypotheses). Add the Wasserstein space/p-range assumptions; do not present a compressed invalid step as a rigorous proof.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L01",
+      "file": "workers/W01/sources.json",
+      "issue": "Correct UI theorem pages are now read, and §§1.4–1.5 are complete. But claimed complete §§4.1–4.2 pp.41–43 still omit part of §4.2: Proposition4.7 begins on p.43 and continues onto p.44 before §4.3. UI pp.20–21 are a theorem span within §2.3, not the complete §2.3.",
+      "required_fix": "Read p.44 through the start of §4.3 if claiming complete §4.2; alternatively mark §4.2 partial and accept the already-complete §§1.4–1.5 as selected sections, with UI theorem pages separately partial. Use selected_sections_read and read_units; no need to read unrelated whole chapters.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L10",
+      "file": "workers/W01/cards/W01-L10.md",
+      "issue": "Claimed complete Chapter1 pp.3–6 omits Example1.27 on actual p.7 before Chapter2 begins. Chapter3 pp.10–14 does include its full ending, as claimed.",
+      "required_fix": "Include/read p.7 through Chapter2 boundary for complete Chapter1, or name the actual complete §1.1–1.3 span ending at that boundary. Correct read_units/page inventory accordingly; retain Chapter3 acceptance.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": null,
+      "file": "workers/W01/sources.json",
+      "issue": "New protocol explicitly permits complete selected sections/subsections, but current seven entries still say selected_chapters_read and have no read_units; full_document_acquired is present, pdf_scope/full_book_acquired absent. This is a status/schema issue distinct from mathematics.",
+      "required_fix": "For L01/L02/L03/L04 use selected_sections_read with explicit unit names, exact continuous start/end including proof dependencies; retain selected_chapters_read only for actually complete declared chapters L08/L09/L10 after boundary corrections. Add pdf_scope=full_available_lecture_notes and full_book_acquired:true for the complete teaching-text files; count each document once. Partial adjunct theorem pages must remain labeled partial coverage, not whole-section reads.",
+      "resolution_status": "resolved_in_latest_revision"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S007",
+      "file": "workers/W02/cards/W02-S007.md",
+      "issue": "The central card is misattributed to another paper. Actual S007 PDF p.4 Theorem2.1 assumes E[exp{lambda xi_i-g(lambda)xi_i^2}|F_{i-1}]<=1+f(lambda)V_{i-1} and bounds a joint [S]/predictable-V crossing by exp{-lambda x+g(lambda)v^2+n log(1+f(lambda)w/n)}. Actual p.5 Corollary2.2 concerns third negative-part moments, not the card beta-moment Theorem2.2. The card G_k^y/B1/B2 and Lemma5.1 copy the different 15-page S010 source.",
+      "required_fix": "Rewrite from the actual 22-page S007. Give exact Theorem2.1 conditions/budgets and proof pp.13–16; correctly label Corollaries2.2–2.5, Theorem2.6 and Corollary2.7; summarize actual regression/autoregression/branching applications and proof Sections4–6. Do not count this current card as a complete reading/distillation.",
+      "resolution_status": "resolved_in_w02_batch4"
+    },
+    {
+      "priority": "high",
+      "worker": "W01",
+      "source_local_id": "W01-L17",
+      "file": "workers/W01/cards/W01-L17.md",
+      "issue": "Theorem2 is weakened from integrability of sup_{t<=T}|X_t| to integrability of every fixed X_t. Actual PDF p.16 was rendered and visually checked: the supremum is explicitly required. These are different assumptions. Theorem1 does not require A finite variation, although the card proof calls A the finite-variation part.",
+      "required_fix": "Restore E sup_{t<=T}|X_t|<infinity in Theorem2 and all uses. For Theorem1 call A a continuous process with integrable supremum; its step approximation needs no finite-variation assumption. Recheck optional-projection usage against the exact assumptions.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L16",
+      "file": "workers/W01/cards/W01-L16.md",
+      "issue": "The proof conclusion says a J1 representation/coupling yields convergence in a path metric before proving J1 convergence. Actual PDF p.13 invokes Corollary3.3 to couple in the weaker d_{L+1} metric, obtained from the finite-dimensional premise. This distinction is the noncircular bridge to the stopping-time criterion.",
+      "required_fix": "Replace the J1-coupling sentence by the exact Corollary3.3 weaker-metric construction, including Section3 pp.9–10 and why the fdd premise permits it; only then use Lemma4.10 to force uniform/J1 convergence to the continuous limit.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S004",
+      "file": "workers/W02/cards/W02-S004.md",
+      "issue": "The multidimensional covariance statement says strict positivity fails only when the centered vector observable is a coboundary. Actual proof PDF p.22 tests each direction v: v^T sigma^2 v=0 implies scalar <v,hat omega> is a coboundary. A vector can have one degenerate direction without all coordinates being coboundaries.",
+      "required_fix": "State the directional nondegeneracy criterion: positive definiteness requires excluding coboundaries in every nonzero direction. Preserve nonnegative covariance always; flag the shorthand in the displayed source theorem rather than repeating it as an unrestricted matrix criterion.",
+      "resolution_status": "resolved_in_w02_batch4"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S003",
+      "file": "workers/W02/cards/W02-S003.md",
+      "issue": "For Theorem4.6 actual PDF p.28 requires convergence and stopped bounds for the modified second characteristic tilde C, not merely the continuous characteristic C written in the card. Jump contributions matter, especially at fixed discontinuities.",
+      "required_fix": "Write tilde C explicitly and define it using the source preceding setup/truncation convention. Keep the stopped bound on tilde C and g^2*nu, and state that convergence of continuous C alone is insufficient.",
+      "resolution_status": "resolved_in_w02_batch4"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L18",
+      "file": "workers/W01/cards/W01-L18.md",
+      "issue": "Theorem4.2 is correctly conditional on uniqueness of nu*mu=mu*mu, but its proof summary says cancellation on a nonzero characteristic-function neighborhood extends by continuity. Nonvanishing on one neighborhood does not justify cancellation at arbitrary zeros elsewhere. Original PDF pp.16–17 keeps the convolution equation and separately assumes uniqueness.",
+      "required_fix": "Do not imply automatic global cancellation. Keep the convolution equation and explicit uniqueness assumption; cancellation/continuity can identify globally only with an appropriate dense nonvanishing set or another stated uniqueness argument.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L16",
+      "file": "workers/W01/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: Section3 pp.9–10 (the weaker L1-type convergence/Corollary3.3 bridge) is not covered in the card; Section1/2/4 are discussed but no complete section_coverage map or references/closing-page coverage is supplied.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L17",
+      "file": "workers/W01/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: SectionII pp.6–12 examples of weak convergence of filtrations and SectionIV pp.20–23 BSDE stability lack page-by-page section summaries and mechanism/assumptions; references pp.23–24 not mapped.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L18",
+      "file": "workers/W01/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: Section4.3 scaling-a-single-sequence theorem p.17 and the full Section5 pp.18–19 Hilbert CLT conditions/proof mechanism are only hinted at; introduction/references and the complete section map are not recorded.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L19",
+      "file": "workers/W01/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: Section3 later results (Theorems3.10–3.12, pp.16–17), introduction pp.2–5 and references pp.20–21 are not given an explicit coverage entry; card mentions Theorem3.11 without its statement/proof summary.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L20",
+      "file": "workers/W01/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: The integrable-variation/absolute-continuity results Theorems8–10 around pp.16–17 are absent from the stated theorem coverage; complete section/subsection and reference-page coverage is not mapped.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w01_latest"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S003",
+      "file": "workers/W02/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: Section3.1–3.3 pp.16–23 (Ethier–Kurtz, Volterra, Jacod–Shiryaev comparison) and later Section4.3.2–4.3.3 applications pp.31–36 lack coverage summaries; references pp.37–38 not mapped.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w02_batch4"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S004",
+      "file": "workers/W02/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: AppendicesA–C pp.24–27 (including shadowing and martingale/Itô calculus) are claimed read without separate mechanism summaries; no complete sections1–7/appendices/references map.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w02_batch4"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S006",
+      "file": "workers/W02/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: Sections3–6 conditions/applications/proofs pp.21–55 are summarized only as regime names; AppendicesA–E pp.60–63 (rank factors, Dubins–Savage, graph comparison, general boundary theorem, sub-exponential equivalence) have no per-appendix coverage summaries; references pp.56–59 not mapped.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "coverage_added_but_specific_appendix_summaries_remain"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S007",
+      "file": "workers/W02/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: The entire mathematical structure is mismatched to S010. Actual S007 Section3 applications pp.9–12 and proof Sections4–6 pp.13–20 plus references pp.21–22 need a fresh full coverage map.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w02_batch4"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S033",
+      "file": "workers/W02/sources.json",
+      "issue": "Fulltext reading evidence lacks the required section_coverage map: Sections2–4 pp.6–16 Gaussian characteristics/preliminaries, Sections6.2–6.3, Sections7.2–7.7 pp.28–35 and Section8 pp.35–38 Banach function spaces are not covered by a section map; references pp.38–43 not mapped.",
+      "required_fix": "Supply every numbered section/subsection and appendix page range with a concise actual content/proof-mechanism summary, including the specifically missing portions above; retain full continuous range and identity/hash. This is verifiable reader evidence, not a request for another reviewer full read.",
+      "resolution_status": "resolved_in_w02_batch4"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S024",
+      "file": "workers/W02/cards/W02-S024.md",
+      "issue": "Both explicit Theorem2.3 stability constants differ from the original PDF p.7 (independently rendered/viewed). For 1<p<2 the numerator is (p/(p−1))^((3−p)/2), not p/(p−1) times (3−p)/2. For p>2 the constant is (p−1)[2*p*e/((p−2)(e−2))]^(1/p), not [(p−1)*2^p*e/((p−2)(e−2))]^(1/p).",
+      "required_fix": "Correct both constants exactly, including exponent placement, the factor 2*p rather than 2^p, and the factor p−1 outside the root. Check every affected card/reference/example. The scalar Riesz cotangent baseline itself is unchanged.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S024",
+      "file": "workers/W02/cards/W02-S024.md",
+      "issue": "The summarized Bellman Theorem2.5 omits the stated C1 regularity away from |x||y|=0 and local annular bounds on c_i. A piecewise-C2 function with the displayed Hessian inequality alone is not the full sufficient hypothesis.",
+      "required_fix": "Preserve Theorem2.5(i) and the finite M_{i,n} annular bound in (ii), as shown on actual PDF p.9; distinguish a sufficient theorem with all regularity hypotheses from a heuristic Hessian recipe.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S026",
+      "file": "workers/W02/cards/W02-S026.md",
+      "issue": "The card mixes incompatible initial-value conventions and states an unnormalized dual. Original PDF p.5 explicitly takes M* in M_{0,UI} (M*_0=0), S=M*−A, and deliberately does NOT assume A_0=0. Card imposes A_0=0 too. Original dual p.14 minimizes over martingales starting at zero, while card writes all UI martingales; allowing arbitrary constant shifts makes inf E sup(G−M)=−infinity even for G=0.",
+      "required_fix": "Use the source convention M*_0=0,A_0=−S_0 and explicitly restrict the dual to M_{0,UI}; alternatively normalize A_0=0,M*_0=S_0 and use M*−M*_0 as the dual optimizer. Keep all formulas consistent. The increment-measure domination dA=mu dD− is invariant under these initial shifts.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S009",
+      "file": "workers/W02/cards/W02-S009.md",
+      "issue": "The main deviation inequalities match, but the Theorem2.1 proof sets the truncation level proportional to x*n^(−1+alpha). Actual PDF p.5 uses t=1/sqrt(2), u=(x/(4*sqrt(n)))^(1−alpha) for a crossing at x; replacing x by n*x gives u=(x*sqrt(n)/4)^(1−alpha). The card scale can decrease with n and does not balance the two exponents.",
+      "required_fix": "Correct the proof optimization with distinct notation for crossing threshold and per-step deviation. Also call sum E[Xi²|past] the conditional-second-moment budget under supermartingale differences; it equals conditional variance only under conditional mean zero, even though the source uses loose variance terminology.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S006",
+      "file": "workers/W02/reading_coverage.json",
+      "issue": "The map labels Section6 pp.45–55 as proving the master theorem, but that proof is Section2.3 pp.13–18; Section6 proves supporting lemmas/corollaries. Appendix A(rank-prefactor), B(Dubins–Savage), C(graphical psi comparison), D(general boundary crossing) and E(sub-exponential equivalence) need actual separate content summaries; current entries say only technical supplements and even call C–D mixture calculations.",
+      "required_fix": "Correct the exact original section/appendix names and page spans and add a concise actual content/proof-mechanism summary for each missing unit. Preserve PDF hash binding; no reviewer full reread is requested.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S018",
+      "file": "workers/W02/reading_coverage.json",
+      "issue": "Appendix A starts actual p.14 and supplies monotone-series/cadlag auxiliary lemmas on pp.14–15; it is absent from the map, which incorrectly assigns all pp.12–15 to Discussion. Add the actual appendix and its proof mechanism.",
+      "required_fix": "Correct the exact original section/appendix names and page spans and add a concise actual content/proof-mechanism summary for each missing unit. Preserve PDF hash binding; no reviewer full reread is requested.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S019",
+      "file": "workers/W02/reading_coverage.json",
+      "issue": "Actual Appendix A Auxiliary results is pp.14–16, with A.1 Lenglart/tightness/compensator results and A.2 expression for mu_v on p.16. Map calls this section6 pp.14–15 and misassigns pp.15–18 to examples/references, leaving A.2 unaccounted for.",
+      "required_fix": "Correct the exact original section/appendix names and page spans and add a concise actual content/proof-mechanism summary for each missing unit. Preserve PDF hash binding; no reviewer full reread is requested.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S023",
+      "file": "workers/W02/reading_coverage.json",
+      "issue": "Section4 proof continues onto actual p.18; Appendix B definitions/elementary stochastic integrals and Lemma B.5/B.6 continue on p.20 before References. Map Section4 pp.16–17 and Appendices18–19 omits these proof portions, assigning p.20 entirely to bibliography.",
+      "required_fix": "Correct the exact original section/appendix names and page spans and add a concise actual content/proof-mechanism summary for each missing unit. Preserve PDF hash binding; no reviewer full reread is requested.",
+      "resolution_status": "resolved_in_w02_batch5"
+    },
+    {
+      "priority": "high",
+      "worker": "W01",
+      "source_local_id": "W01-L11",
+      "file": "workers/W01/cards/W01-L11.md",
+      "issue": "The source own standard definitions do NOT support its Theorem1.4 Levy=Prohorov assertion, now repeated in the full card. Actual Def1.4/1.5 pp.4–5 use CDF shifts vs all closed sets and ordinary Euclidean epsilon-neighborhoods. Counterexample mu=(delta0+delta2)/2, nu=(delta1+delta3)/2: Levy=1/2, while Prohorov=1 (closed A={0,2} has mu(A)=1, nu(A^epsilon)=0 for epsilon<1). Original p.7 proof first obtains 2*epsilon for intervals then illegitimately replaces epsilon by arbitrary eta; membership in its Q1 is not preserved.",
+      "required_fix": "Mark original Theorem1.4 and its proof as erroneous; do not state metric equality as verified. Retain only the correct Levy<=Prohorov relation and separately checked metric/Polish tightness statements with explicit source limits. Keep the finite counterexample in the card. No repair of the original general theorem is required.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L21",
+      "file": "workers/W01/cards/W01-L21.md",
+      "issue": "Actual French PDF p.2 (rendered/viewed) sets M_{0-}=1, not M_0=1, to allow a randomized time atom at zero. Card M_0=1 excludes ordinary stopping time T=0. Actual p.6 examples say martingales or regular supermartingales (surmartingales regulieres); card drops regular from supermartingales. A deterministic downward jump at time1 is a bounded cadlag supermartingale but violates E[Delta X_1|F_{1-}]=0.",
+      "required_fix": "Restore M_{0-}=1 and mention possible jumps at0/infinity. Restore regular supermartingales in the examples and retain the exact predictable-stopping-time conditional jump condition; do not generalize it to all supermartingales.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L22",
+      "file": "workers/W01/cards/W01-L22.md",
+      "issue": "The generalized Polya-urn setup references an unspecified weight condition rather than stating source equation(5): law(Z_{n+1}|X1,...,Xn,Y_{n+1})=law(Z1), hence iid weights independent of the current sampled color/past. Theorem7 actual p.14 additionally states 0<a<b with a<=Z1<=b. Bounds plus the predictive Y recursion alone do not provide the source c.i.d./CLT hypothesis.",
+      "required_fix": "Write equations(4) and(5) and the resulting independence condition explicitly before Lemma6/Theorem7; include 0<a<b. Preserve the source-declared sketch/external unread technical-report limitation, which is appropriately recorded.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L23",
+      "file": "workers/W01/cards/W01-L23.md",
+      "issue": "Proposition2 actual PDF p.4 requires P*(Y_n != Y_0)->0, not equality of Y_n and Y_0 for each n. Card wording says they are equal in outer probability without the limiting qualifier, which can falsely require identical first marginal laws. Its coverage also places Lemmas11–13 in §3 pp.5–7 although they are in the Appendix pp.10–13; Proposition2 proof is actually pp.4–5, not Appendix.",
+      "required_fix": "State explicitly P*(Y_n != Y_0)->0 and Z_n->Z0 in probability. Correct coverage §3 to Theorem4/Corollary5/Examples6–7, Appendix to Lemmas11–13 and Theorem4 proof, with Lemma11 explicitly stated without proof by the source. Keep Proposition2 construction under §2 pp.4–5.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "low",
+      "worker": "W01",
+      "source_local_id": "W01-L17",
+      "file": "workers/W01/sources.json",
+      "issue": "The theorem card correctly says A is merely continuous with integrable supremum, but §III section_coverage still says deterministic-grid approximation for continuous finite variation.",
+      "required_fix": "Remove finite variation from that coverage phrase to keep the evidence summary consistent with the corrected theorem; nonblocking for the now accurate core card.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L06",
+      "file": "workers/W01/sources.json",
+      "issue": "Missing section_coverage for complete two-page note: §1 modes of convergence/rare-spike example on p.1, §2 UI definition and §3 key theorem statements on p.2; explicitly note these are statements without full proofs and anonymous authorship remains unresolved.",
+      "required_fix": "Add an identity/hash-bound map of each named section/unit with exact physical page range and a concise actual content/proof-mechanism summary, retaining missing-proof and metadata caveats; no new source or general-proof repair is required.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L07",
+      "file": "workers/W01/sources.json",
+      "issue": "Missing section_coverage for Theorem1.1 concentration pp.1–2, Definition1.2 pp.2–3, Theorem1.4/Vitali proof pp.3–5, Theorem1.5 generalized dominated convergence p.5, and Theorem1.7 concentration criterion pp.5–6.",
+      "required_fix": "Add an identity/hash-bound map of each named section/unit with exact physical page range and a concise actual content/proof-mechanism summary, retaining missing-proof and metadata caveats; no new source or general-proof repair is required.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L12",
+      "file": "workers/W01/sources.json",
+      "issue": "Missing section_coverage for introduction/Theorem1.1 pp.1–2, main proof/graph-metric results pp.3–5, technical lemmas pp.5–6, applications pp.6–10, references/end p.11. Known proof gaps remain correctly flagged; no broader use is accepted.",
+      "required_fix": "Add an identity/hash-bound map of each named section/unit with exact physical page range and a concise actual content/proof-mechanism summary, retaining missing-proof and metadata caveats; no new source or general-proof repair is required.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-L13",
+      "file": "workers/W01/sources.json",
+      "issue": "Missing section_coverage for preliminaries/source dependencies p.1, theorem statement pp.1–2, complete implication proof pp.2–4, references p.5. Preserve finite-dimensional scope and noted source notation corrections.",
+      "required_fix": "Add an identity/hash-bound map of each named section/unit with exact physical page range and a concise actual content/proof-mechanism summary, retaining missing-proof and metadata caveats; no new source or general-proof repair is required.",
+      "resolution_status": "resolved_in_w01_batch6"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S021",
+      "file": "workers/W02/cards/W02-S021.md",
+      "issue": "Card proof calls the innovation series L2-orthogonal and conditionally independent across summands. Actual PDF p2 proves a residual best-independent approximation/Pythagorean energy identity, and independence only of each innovation from the past, hence across time for fixed component n. It does not establish pairwise orthogonality or conditional independence across n. Coverage section1 repeats the ambiguous conditional-independence wording.",
+      "required_fix": "Replace with exact residual approximation and energy identity; explicitly distinguish fixed-n temporal independence from relations across n. Update coverage section1. Preserve imported [4] lemma and the correct no-mutual-independence runtime warning.",
+      "resolution_status": "resolved_in_w02_final_attempt"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S025",
+      "file": "workers/W02/cards/W02-S025.md",
+      "issue": "Card attributes 18D sqrt(p+log T) a^(-1/2) to the printed general Theorem4.1. Actual PDF p12 (rendered/viewed) equation4.6 is 18D sqrt(p+log(1+aT)) a^(-1/2). logT occurs in the integer-block a=1 intermediate proof, not the final theorem. The claimed source/intro distinction is false.",
+      "required_fix": "Transcribe equation4.6 exactly, remove the false printed-logT statement and preview distinction, and check any examples/references. Keep already-correct Th3.6 weights 13(p+log j),14D sqrt(p+log j). Record source title-page date September23 vs arXiv margin20 if dates are discussed.",
+      "resolution_status": "resolved_in_w02_final_attempt"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S031",
+      "file": "workers/W02/cards/W02-S031.md",
+      "issue": "Actual original PDF p3 uses the closed half-space barH for canonical continuous paths, test C0²(barH), and all initial points in barH. Card defines open H then drops all these bars, changing the boundary martingale problem. Inward normal drift and boundary-degenerate covariance make this a material domain error.",
+      "required_fix": "Keep H as interior, restore barH for state/path/test/initial domains exactly as Definition1.1/Theorem1.3. Check all source and runtime uses for boundary consistency; preserve imported PDE result and one-time-marginal limitation.",
+      "resolution_status": "resolved_in_w02_final_attempt"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "M0364",
+      "file": "workers/W01/sources.json",
+      "issue": "Claimed complete §4.6 pp252–256 omits actual p257 upper portion containing Exercises4.6.2–4.6.7. The §4.7 running header/starting section on p257 does not mean the entire page belongs to §4.7. Card and runtime sources.md repeat incomplete span as complete with all exercises.",
+      "required_fix": "Actually read p257 through Exercise4.6.7; extend source read_units/read_pages/section_coverage/card/runtime sources.md to252–257 with shared-page boundary; update distinct-read-page totals. Preserve the already accepted theorem proofs and other complete units.",
+      "resolution_status": "resolved_in_w01_final_attempt"
+    },
+    {
+      "priority": "low",
+      "worker": "W01",
+      "source_local_id": "M0364",
+      "file": "workers/W01/status.json",
+      "issue": "source_counts.local_pdf_parsed=1379 is the total page count, not the number of parsed PDFs; pdf_counts.pdfs correctly says24.",
+      "required_fix": "Set local_pdf_parsed to24 and keep1379 only as page total. Do not count five sections of M0364 as five sources.",
+      "resolution_status": "resolved_in_w01_final_attempt"
+    },
+    {
+      "priority": "low",
+      "worker": "W01",
+      "source_local_id": "M0364",
+      "file": "workers/W01/cards/M0364.md",
+      "issue": "Chapter1 summary calls Theorem1.6.8 a weak-convergence-type truncation argument without its actual a.s. hypothesis/relative growth restriction. Actual p39 assumes Xn->X a.s., continuous g,h, g>=0 coercive, |h|/g->0 and sup Eg(Xn)<infinity; bounded convergence, not a prior weak theorem, handles truncations.",
+      "required_fix": "State these exact conditions and the bounded-convergence/Fatou/tail-ratio proof if retaining the Theorem1.6.8 description. Keep it distinct from the later weak-convergence extension/exercise.",
+      "resolution_status": "resolved_in_w01_final_attempt"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S001",
+      "file": "workers/W02/sources.json",
+      "issue": "The actual book/notes contents labels §§5–10 as sections, not a complete chapter, but reading_status/count/runtime call it selected_chapters_read. read_units and exact shared-page boundary are absent.",
+      "required_fix": "Use selected_sections_read with named complete §§5–10 read_units; mark §10 through p26 before §11. Extra p27 reading can be context. Preserve one-source count and complete available29-page acquisition; synchronize status/runtime terminology.",
+      "resolution_status": "resolved_in_w02_final_approval"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S011",
+      "file": "workers/W02/cards/W02-S011.md",
+      "issue": "Corollary2.2 original p6 Eq23 second term is (E|bracket−1|+epsilon²)^(1/3) exp(-x²/6). Card substitutes exp(-tilde-x²/6). The latter is a weaker consequence, not the stated source formula.",
+      "required_fix": "Restore x² in the second exponential; keep tilde-x in the first. If retaining a weakened consequence label it separately. Recheck saved formula and all related runtime assertions.",
+      "resolution_status": "resolved_in_w02_final_approval"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S013",
+      "file": "workers/W02/cards/W02-S013.md",
+      "issue": "Card/coverage/runtime sources.md call the MDP one-sided and invent an explicit negative-side warning; actual p3 gives both tail ratios Eq6/7 and MDP for each Borel B on R. Card additionally attributes nonexistent §§3.2–3.3 beta/psi mixing applications to this7-page note; those are S014 material.",
+      "required_fix": "Remove the nonexistent mixing paragraph and wrong half-side restriction/warning from S013 card, coverage, sources.md and any source reason. Record S013 all-Borel MDP with a_n→infinity,a_n/sqrt(n)→0,delta→0; preserve proof-sketch/external2013 dependency and actual pp6–7 lemma proofs. Independently recheck separation from S014.",
+      "resolution_status": "resolved_in_w02_final_approval"
+    },
+    {
+      "priority": "high",
+      "worker": "W02",
+      "source_local_id": "W02-S022",
+      "file": "workers/W02/cards/W02-S022.md",
+      "issue": "The card reproduces the source p7 angle-bracket BDG while global skill convention defines angle brackets as predictable bracket. The source calls its angle symbol quadratic variation. For jumping martingales a two-sided p>=1 BDG with predictable bracket is false: one centered jump ±N each with probability1/(2N²), otherwise0, has predictable bracket1 but E max|M|=1/N (and fourth moment N²).",
+      "required_fix": "Explicitly translate the source quadratic variation to optional [M] for BDG, retain original notation only with a warning, or isolate the ambiguity rather than export it as a predictable-bracket theorem. Carry the distinction into method.md S022 paragraph. The specialized PDE localization method can remain accepted; no need to repair the whole PDE paper.",
+      "resolution_status": "resolved_in_w02_final_approval"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S027",
+      "file": "workers/W02/cards/W02-S027.md",
+      "issue": "The statement that beta1 likelihood ratio is optimal in the family exactly at the crossover horizon overstates exact-error uniqueness. Original p31 Remark5.7 says only threshold B_t improves strictly; lattice G_t can give identical exact errors at other horizons. Review computation at Bern(.5)/Bern(.6),alpha=.05,t149 gives beta*=.9992412, different thresholds but same binomial cutoff89 and error.",
+      "required_fix": "Say beta1 uniquely minimizes the threshold B_t at the crossover (when the interior minimizer exists). Exact error minimization need not be unique; strict improvement requires P1 mass between thresholds, as Remark5.7 states. Preserve the valid conditional-Hölder exponent and i.i.d. scope.",
+      "resolution_status": "resolved_in_w02_final_approval"
+    },
+    {
+      "priority": "medium",
+      "worker": "W02",
+      "source_local_id": "W02-S027",
+      "file": "workers/W02/reading_coverage.json",
+      "issue": "Coverage omits actual title/abstract/contents p1 and shifts shared-page starts: §2 begins p5, §4 p16, §5 p27, §6 p35, AppendixA p38. Current ranges start6/17/28/36/39, respectively.",
+      "required_fix": "Add front matter p1 and use original shared-page section boundaries; AppendixA runs38–44 before B begins45. Check actual subsection contents rather than copying contents page offsets; preserve hash binding.",
+      "resolution_status": "resolved_in_w02_final_approval"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-002",
+      "file": "workers/W01/cards/W01-D04-B06-002.md",
+      "issue": "Actual p5 Theorem2 defines Y0=closure(eta K eta*Y*), while card drops the closure. Card correctly restores the different Y-prime closure in Theorem3, but that does not fix this theorem domain.",
+      "required_fix": "Restore Y0 closure and residual covariance support closures where used. Preserve abstract full-operator-M<infinity sufficient theorem. Do not replace the closed full-measure support by the generally null covariance range.",
+      "resolution_status": "open_w01_final_attempt"
+    },
+    {
+      "priority": "high",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-002",
+      "file": "workers/W01/cards/W01-D04-B06-002.md",
+      "issue": "Source p8 necessity proof replaces ||iota h||_X by ||h||_H and uses Pythagoras to deduce ambient distance; iota is a continuous covariance embedding, not generally an isometry for the ambient norm. External unreviewed-dependency warning alone does not identify this internal gap. Source Theorem4 also identifies an operator norm ratio with a ratio tested only on Dirac evaluations. The finite Gaussian example Z=(U,U+epsilon V,V), observed first2 coordinates, has pointwise covariance M=1 but y=(0,epsilon) gives mean(0,epsilon,1), violating its printed norm bound for epsilon<1.",
+      "required_fix": "Explicitly isolate both source proof/interface gaps. Use only abstract Theorem2 after directly proving its full dual-operator M bound; do not certify it from the scalar pointwise covariance ratio or export the Theorem4 norm bound. Record Theorem3 internal X/H norm issue without asserting the general necessity conclusion false. Synchronize coverage/runtime source limits.",
+      "resolution_status": "open_w01_final_attempt"
+    },
+    {
+      "priority": "high",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-003",
+      "file": "workers/W01/cards/W01-D04-B06-003.md",
+      "issue": "Actual p8 Th2.5 proves an isomorphism for Cameron–Martin Hilbert norms; footnote38 and p9 then claim ambient-subspace continuous inverse/OLS extension and Cor2.6 unconditional continuous Gaussian disintegration. This promotion is false in general: ell2 Gaussian covariance diag4^-n, eta=diag1/n has finite trace and full support, eta^-1(e_n/n)=e_n, so no continuous ambient inverse. The independent certificate also proves no weakly continuous disintegration on the full closed support. Card/runtime currently present these as usable results.",
+      "required_fix": "Retain valid Hilbert-space geometry with its topology explicit. Isolate ambient-continuity claims, Cor2.6, unconditional OLS extension and any Th5.7 continuous-disintegration conclusion that depends on that unproved extension; require a separately verified bounded ambient inverse/extension before use. Independent residual-convolution identity with an already given continuous estimator may remain. Update method/source/coverage and limits; no broad theorem repair required.",
+      "resolution_status": "open_w01_final_attempt"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-004",
+      "file": "workers/W01/cards/W01-D04-B06-004.md",
+      "issue": "Cor5 sign conflict is correctly isolated. Additional infinite-rank AppendixB p24 proof infers full-measure representing-series convergence merely from density/closure of covariance range, without the required convergence/boundedness argument, and says the mean belongs to Cameron–Martin space (not true for arbitrary Gaussian mean). Th8 p13 even claims continuity of the infinite-rank mean without an ambient inverse bound. Current card records the infinite-rank proof as established.",
+      "required_fix": "Keep finite-rank Th6/7 as the usable route. Mark the specific Th8/9 proof/continuity claims unverified in this source and avoid runtime export unless separately justified; full-measure measurability and ambient continuity are distinct. Do not declare the general existence of Gaussian conditional laws false. Retain the correct plus-sign formula and bounded-operator assumptions.",
+      "resolution_status": "open_w01_final_attempt"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-004",
+      "file": "workers/W01/sources.json",
+      "issue": "Card/coverage structure says Intro3–7, background7/8–9 and disintegration10–16; actual headings are Intro2, background4, disintegration9, conclusion15, AppendixA16, B18, C25, references25. The conclusion is not separately covered.",
+      "required_fix": "Correct shared-page spans in card and section_coverage; add conclusion15–16, frontmatter1–2, background4–9 and references25–28, preserving actual content summaries/hash.",
+      "resolution_status": "open_w01_final_attempt"
+    },
+    {
+      "priority": "medium",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-005",
+      "file": "workers/W01/cards/W01-D04-B06-005.md",
+      "issue": "The continuous-time theorem summary lists continuity/adaptedness/integrability but omits that information convergence in Theorem4.3.1 actual p33 is to the completed natural filtration FX. Source p41 explicitly says for F!=FX the same construction generally only approximates paths and information convergence fails.",
+      "required_fix": "State FX/minimal-natural filtration and the assumed usual conditions explicitly in theorem/method summary; separate path convergence under a larger F from recovery of all F information. An identically zero path with independent information in a larger filtration illustrates why the distinction is necessary. Keep the correctly checked erratum.",
+      "resolution_status": "open_w01_final_attempt"
+    },
+    {
+      "priority": "low",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-001",
+      "file": "workers/W01/cards/W01-D04-B06-001.md",
+      "issue": "Acknowledgements and references start on actual p30 after the existence proof, not onlyp31; source map similarly assigns §7 onlyp31.",
+      "required_fix": "Record shared p30–31 acknowledgement/reference span. This is nonblocking for the checked theorem/proof scope.",
+      "resolution_status": "open_w01_final_attempt"
+    },
+    {
+      "priority": "low",
+      "worker": "W01",
+      "source_local_id": "W01-D04-B06-006",
+      "file": "workers/W01/cards/W01-D04-B06-006.md",
+      "issue": "References start on actual p6 immediately after the theorem proof and continuep7, rather than p7 only.",
+      "required_fix": "Record shared p6–7 bibliography span; core theorem and proof are accepted.",
+      "resolution_status": "open_w01_final_attempt"
+    }
+  ],
+  "limitations": [
+    "Reviewer checked actual PDF first pages, page counts and SHA-256 for all 24 cards; theorem pages/proof openings checked as listed. Reviewer did not independently reread every page of every fulltext_read paper.",
+    "Lecture-note complete files are acquired; this does not prove complete chapter reading. S032 full-book status unestablished.",
+    "Fulltext_read evidence is accepted only when a complete range and meaningful proof chain are recorded; this is evidence review, not a claim to observe the worker’s cognition.",
+    "Existing finite scripts were actually executed; results support only finite examples.",
+    "Batch2: actual key theorem/proof pages checked for five new complete-paper cards; no independent rereading of every page claimed.",
+    "Howard exact v8 metadata independently checked via primary arXiv version record; other metadata only checked against actual local PDF.",
+    "30 sources remain without accepted readable cards (including excluded S032); no completed quota accepted.",
+    "Batch2 SymPy optimizer script copied into reviewer directory and executed there. Independent finite symbolic boundary diagnostics also saved there.",
+    "W01 revision: complete available lecture-note files accepted as full-document acquisition; section-only study is allowed. Missing read_units/status fields do not imply the file itself is incomplete.",
+    "Bai–Hu original-proof counterexamples are analytic quantifier/topology checks, with finite instances saved in w01_proof_boundary_checks.txt. They flag proof gaps, not a proved counterexample to Theorem1.1 itself.",
+    "Root shared-clock finite-mixture artifact checked: E[T]=5/2, E[T²]=17/2, Cov(X1,X2)=0, Cov(X1²,X2²)=9/4; consistent with finite-moment conditions.",
+    "Latest protocol applied to the ten new/upgraded fulltext claims: metadata/continuous page range alone is insufficient without per-section/appendix coverage. Exact missing units are recorded per source; bounded theorem checks are independently documented.",
+    "W02 batch4: all19 claimed full-paper title pages were actually reopened; identity_verified=true reflects that observation. Counts/SHA256 all matched sources and coverage.",
+    "The coverage manifest numerically covers every PDF page but has four semantic appendix/section mismatches; union-of-page-ranges alone is not full-reading proof.",
+    "New S024/S026/S009 full-reading evidence is accepted despite specific mathematical transcription/proof errors; evidence acceptance does not override needs_revision on mathematics.",
+    "W01 untouched during this W02-only batch.",
+    "W01 latest:23 local PDFs actually re-opened/counts and hashes checked; new L21–L23 identity_verified explicitly true. Reader maps accepted where structurally correct, independently of mathematical typo decisions.",
+    "L11 counterexample uses the exact original definitions, not external name conventions: standard CDF Levy distance and Euclidean all-closed-set Prohorov distance.",
+    "W01 has30 relevant inventory records but ten unread inherited rows and missing/erroneous reading evidence; no quota acceptance. W02 decisions untouched this batch.",
+    "Batch5: new five full-reader evidence records accepted under light-review protocol, with actual identity/hash and all runtime mathematical uses checked at original locations; S021/S025/S031 retain mathematical needs_revision.",
+    "Current W02 claimed completed reader units are24 full papers+1 selected chapter. This is below30 even before mathematical acceptance; no publication approval.",
+    "Reviewer reran reviews/R01/batch4_martingale_checks.py using PYTHONPATH=.runtime; finite walk and cotangent algebra results match, with no general theorem inference.",
+    "W01 unchanged in this W02-only batch.",
+    "W01 batch6:24 local PDFs identity/count/SHA256 rechecked; 15 full-paper/report records plus9 book/teaching-text source records, deduplicated by actual document. One M0364 book contributes one source regardless of eight selected units.",
+    "M0364 acquired full book accepted; seven correctly delimited units accepted, §4.6 core theorem proof accepted but current complete-unit scope needs p257 exercises. This is not a request to read unrelated chapters.",
+    "W01-L06 remains anonymous/undated and metadata_verified=false; matching local two-page document identity verified, only its accurate unproved statement/rare-spike uses accepted.",
+    "Reviewer copied/reran exact L11 rational diagnostic under reviews/R01; confirms only the stated finite two-law counterexample.",
+    "W02 unchanged in this W01-only batch; batch5 three mathematical fixes remain pending.",
+    "W02 final attempt: five new local originals fully identified,33 PDF hashes/counts rechecked; S032 remains identity-unverified and excluded. Unread S012/S015 remain not_reviewed.",
+    "All unchanged earlier accepted W02 cards were compared to prior actual-review snapshot hashes; only S021/S025/S031 changed, and their specific fixes were checked. New runtime method/source paragraphs and all examples/mappings read.",
+    "All five worker calculation scripts were copied and rerun under reviews/R01/w02_final_checks with PYTHONPATH=.runtime. New exact rare-jump moments and a finite Bernoulli threshold/error tie check were run there; numerical evidence has only the stated instance scope.",
+    "No final publication manifest is approved while five sources need revision; current hash snapshot binds the rejected-attempt files for follow-up, not a stale passed state.",
+    "W01 unchanged and not final-reviewed in this W02-only attempt.",
+    "W01 final attempt:30 complete local PDFs with1544 pages recomputed and hash matched; all30 identities actually checked. Nine inherited unread seed rows stay not_reviewed. One Durrett book counts once.",
+    "Prior W01 card hashes unchanged except M0364; its exact requested repairs verified. New runtime Gaussian paragraphs were read and cannot be approved until identified ambient-topology exports are isolated.",
+    "Chang–Pollard and Barlow–Protter core conclusions accepted; minor shared-page bibliography locators remain nonblocking low findings.",
+    "Independent Numdam1989 erratum text checked via official search at https://www.numdam.org/item/SPS_1989__23__583_1.pdf; confirms deletion and usual-filtration preservation.",
+    "All worker mathematics scripts copied/rerun under reviews/R01/w01_final_checks; exact finite Gaussian checks and the root compact-observation certificate copied/rerun there. General compact-inverse obstruction rests on the written proof, not tested finite dimensions.",
+    "W02 reader final corrections received but not reviewed in this W01-only attempt.",
+    "W02 final approval supersedes earlier W02 provisional counts/findings:30 passed relevant sources, three unread/excluded records. Historical limitations remain historical audit trail, not unresolved current W02 findings.",
+    "Source S022 angle notation remains explicitly ambiguous; the approved method distinguishes optional[M] from predictable bracket and does not attribute an unstated definition to the source. Imported/unproved lemma dependencies remain marked throughout.",
+    "C112/A127/C207 mappings remain auxiliary; this approves a general tool, not any target open-problem solution. No installation/publication action was taken by R01.",
+    "Final approval is invalid for a changed bound file until corresponding review and a new manifest; W01 is not approved.",
+    "W02 fulltext approval supersedes the selected-section classification hold. Balazs source is now one complete29-page paper/course_notes source; it is not treated as a book. Old89-file manifest remains separately preserved and does not cover this new version.",
+    "W01 course-note full-reading policy and mathematical follow-ups are not approved by this W02 decision.",
+    "Approval-status-only sources.md update independently checked by reconstructing exact prior bytes against old approved SHA-256; new source guide SHA-256 57757e7cc1bfdb80af26704ee1e5e0abce356044f41c8cd65b503ab0b15e38d5; other90 files rehashed unchanged. W01 hold unchanged."
+  ],
+  "review_complete": false,
+  "first_batch_review_complete": true,
+  "batch": "W02 uniform-policy fulltext final approval; W01 remains held for notes/fulltext and four targeted repairs",
+  "batch2_review_complete": true,
+  "w01_revision_review_complete": true,
+  "latest_batch_review_complete": true,
+  "w02_batch4_review_complete": true,
+  "w01_latest_review_complete": true,
+  "w02_batch5_review_complete": true,
+  "w01_batch6_review_complete": true,
+  "w02_final_attempt_complete": true,
+  "w01_final_attempt_complete": true,
+  "w02_final_review_complete": true,
+  "w02_release_approved": true,
+  "w01_publication_hold": "Root requires full reading of8 course-note documents; selected-unit mathematical review retained; actual Durrett book exception unchanged"
+}

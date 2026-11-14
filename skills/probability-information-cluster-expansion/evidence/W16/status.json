@@ -1,0 +1,293 @@
+{
+  "worker": "W16",
+  "skill": "probability-information-cluster-expansion",
+  "batch_status": "sixth_batch_reading_continuation_review_pending",
+  "scope": [
+    "B051",
+    "A007"
+  ],
+  "source_category_counts": {
+    "information_and_deletion_channels": 16,
+    "cluster_gibbs_and_virial_expansions": 15,
+    "renewal_regeneration_and_polling": 12,
+    "total": 43,
+    "canonical_reuse_usage_records": 1
+  },
+  "reading_status_counts": {
+    "fulltext_read": 29,
+    "selected_chapters_read": 1,
+    "partial_read": 1,
+    "not_read": 12,
+    "reuses_canonical": 1
+  },
+  "card_count": 32,
+  "fulltext_local_retrieval": {
+    "valid_local_pdfs": 14,
+    "accessible_shared_handoff_pdfs": [
+      {
+        "path": "evidence/fulltexts/I14.pdf",
+        "sha256": "c5b63f59eaf9527d7be0e7bdf52b71238b39589200aa60d25a5e2c7eb18c638d",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I07.pdf",
+        "sha256": "2aba7dbe0a14fad0044462f599bb1f0419b571733e35dff9af0f29d571d85179",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I08.pdf",
+        "sha256": "4c24d1553249bc804b1cca3e9aeb80950dc281ab1986d9fc436a46ffb6447f7e",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I09.pdf",
+        "sha256": "7b0779b2967b73277633b8af86066ff14809a353922c5b7f7447caaa3d8a3ffc",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I12.pdf",
+        "sha256": "4a838a35bf788aa1be04b2b1fd1f0a1dd72af21396b9b3c25e3c6988d9973fbf",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/C13.pdf",
+        "sha256": "644f3e1331a2945188901fdf7a89195b455e0a6173e12488405b719206138ca1",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I11.pdf",
+        "sha256": "8da4378d15073ae7fb3d5d3a3945265ef7c3e50dad7fba27dcecf5fcdaa6a230",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I13.pdf",
+        "sha256": "c7478ee7f4cc70cad9e71f0f00bba783daa37455d0fc7d4317d00df9b3bf0fa1",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/R04.pdf",
+        "sha256": "846a78b0c7e5bb2ef77becc3113d4ef8feb403fd2a4485b82296b2b154fae90a",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/R06.pdf",
+        "sha256": "db52e247f57f466491394f5049de27ee1aa8f0b801c0a938da791345e8cbf10c",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I10.pdf",
+        "sha256": "d6b511019c184487f3f7fb9ec9c05c3e114313732f22d2ebe76b89b902ab12b3",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/C05.pdf",
+        "sha256": "62116fa01808d58fc9b43d67629d1386b4ca9758be44aa679b9d28c44cda28ba",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/C12.pdf",
+        "sha256": "1cbfec10c35765ca4b913e4984d64f17920a11dd44f982d4e9c28d961618034e",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/C15.pdf",
+        "sha256": "49886a5c29117d7d6e0498f279d17b4424da3a0a3940c3f1eb121d202ad4797f",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/I01.pdf",
+        "sha256": "6e4e3411984f3edf99dbfe8b941cb5e8a321379ff0cae6ae5c1f592ad8882ca8",
+        "reader_worker": "W15"
+      },
+      {
+        "path": "evidence/fulltexts/C10.pdf",
+        "sha256": "191484953805cfcf606b4add0c873c25caa6a99ec74b27804765480902ddd2b4",
+        "reader_worker": "W15"
+      }
+    ],
+    "invalid_or_non_pdf_responses": 1,
+    "withdrawn_fulltext_claims": [
+      "C01"
+    ],
+    "partial_read_without_local_pdf": [
+      "I02"
+    ],
+    "rejected_response_path": "evidence/W16/papers/rejected/Kotecky-Preiss-1986-response.html",
+    "d01_handoff_assignments": [
+      {
+        "local_id": "I06",
+        "path": "downloads/D01/papers/W16-I06_A-Survey-of-Results-for-Deletion-Channels-and-Related-Synchr.pdf",
+        "sha256": "a7149e974559fdc1515c9bc192eec9dd8dd93ddb4d86f776269da2946243ac9a",
+        "read_location": "evidence/fulltexts/I06.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "C06",
+        "path": "downloads/D01/papers/W16-C06_Cluster-Expansions-Necessary-and-Sufficient-Convergence-Cond.pdf",
+        "sha256": "ec19cbc3218cce7adb44075b13a709741d034929f15a4e99c99f84f1a1587df8",
+        "read_location": "evidence/fulltexts/C06.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I14",
+        "path": "evidence/fulltexts/I14.pdf",
+        "sha256": "c5b63f59eaf9527d7be0e7bdf52b71238b39589200aa60d25a5e2c7eb18c638d",
+        "read_location": "evidence/fulltexts/I14.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I07",
+        "path": "evidence/fulltexts/I07.pdf",
+        "sha256": "2aba7dbe0a14fad0044462f599bb1f0419b571733e35dff9af0f29d571d85179",
+        "read_location": "evidence/fulltexts/I07.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I08",
+        "path": "evidence/fulltexts/I08.pdf",
+        "sha256": "4c24d1553249bc804b1cca3e9aeb80950dc281ab1986d9fc436a46ffb6447f7e",
+        "read_location": "evidence/fulltexts/I08.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I09",
+        "path": "evidence/fulltexts/I09.pdf",
+        "sha256": "7b0779b2967b73277633b8af86066ff14809a353922c5b7f7447caaa3d8a3ffc",
+        "read_location": "Rendered every page; source PDF remains in D01 handoff",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I12",
+        "path": "evidence/fulltexts/I12.pdf",
+        "sha256": "4a838a35bf788aa1be04b2b1fd1f0a1dd72af21396b9b3c25e3c6988d9973fbf",
+        "read_location": "evidence/fulltexts/I12.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "C13",
+        "path": "evidence/fulltexts/C13.pdf",
+        "sha256": "644f3e1331a2945188901fdf7a89195b455e0a6173e12488405b719206138ca1",
+        "read_location": "evidence/fulltexts/C13.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I11",
+        "path": "evidence/fulltexts/I11.pdf",
+        "sha256": "8da4378d15073ae7fb3d5d3a3945265ef7c3e50dad7fba27dcecf5fcdaa6a230",
+        "read_location": "evidence/fulltexts/I11.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I13",
+        "path": "evidence/fulltexts/I13.pdf",
+        "sha256": "c7478ee7f4cc70cad9e71f0f00bba783daa37455d0fc7d4317d00df9b3bf0fa1",
+        "read_location": "evidence/fulltexts/I13.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "R04",
+        "path": "evidence/fulltexts/R04.pdf",
+        "sha256": "846a78b0c7e5bb2ef77becc3113d4ef8feb403fd2a4485b82296b2b154fae90a",
+        "read_location": "evidence/fulltexts/R04.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "R06",
+        "path": "evidence/fulltexts/R06.pdf",
+        "sha256": "db52e247f57f466491394f5049de27ee1aa8f0b801c0a938da791345e8cbf10c",
+        "read_location": "evidence/fulltexts/R06.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I10",
+        "path": "evidence/fulltexts/I10.pdf",
+        "sha256": "d6b511019c184487f3f7fb9ec9c05c3e114313732f22d2ebe76b89b902ab12b3",
+        "read_location": "evidence/fulltexts/I10.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "C05",
+        "path": "evidence/fulltexts/C05.pdf",
+        "sha256": "62116fa01808d58fc9b43d67629d1386b4ca9758be44aa679b9d28c44cda28ba",
+        "read_location": "evidence/fulltexts/C05.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "C12",
+        "path": "evidence/fulltexts/C12.pdf",
+        "sha256": "1cbfec10c35765ca4b913e4984d64f17920a11dd44f982d4e9c28d961618034e",
+        "read_location": "evidence/fulltexts/C12.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "C15",
+        "path": "evidence/fulltexts/C15.pdf",
+        "sha256": "49886a5c29117d7d6e0498f279d17b4424da3a0a3940c3f1eb121d202ad4797f",
+        "read_location": "evidence/fulltexts/C15.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "I01",
+        "path": "evidence/fulltexts/I01.pdf",
+        "sha256": "6e4e3411984f3edf99dbfe8b941cb5e8a321379ff0cae6ae5c1f592ad8882ca8",
+        "read_location": "evidence/fulltexts/I01.pdf",
+        "reader_worker": "W15"
+      },
+      {
+        "local_id": "C10",
+        "path": "evidence/fulltexts/C10.pdf",
+        "sha256": "191484953805cfcf606b4add0c873c25caa6a99ec74b27804765480902ddd2b4",
+        "read_location": "Rendered every page; source scan remains in D01 handoff",
+        "reader_worker": "W15"
+      }
+    ],
+    "canonical_reuse_records": [
+      {
+        "local_id": "R13",
+        "canonical_source_id": "PR-9e6384b2ee2f",
+        "sha256": "3fc736b0e13167a3515a1e66357c87eea2808e0881672b9338bb47042dccbc92",
+        "usage_evidence_accepted": false,
+        "reader_worker": "W15"
+      }
+    ]
+  },
+  "source_target": {
+    "target_range": [
+      30,
+      100
+    ],
+    "source_record_count_within_range": true,
+    "full_text_reading_complete": false,
+    "remaining_unread_records": 12,
+    "source_record_count": 43,
+    "qualifying_read_sources": 30,
+    "remaining_to_minimum": 0,
+    "remaining_partial_records": 1,
+    "canonical_reuse_not_yet_accepted": 1,
+    "inventory_record_count_including_canonical_reuse": 44,
+    "identity_verified_underlying_sources": 42,
+    "citation_unverified_candidates": 1
+  },
+  "mathematical_validation": {
+    "script": "evidence/W16/validate_constants.py",
+    "actual_run_output": "evidence/W16/validation-output.txt",
+    "scope": "50-digit Decimal arithmetic for the displayed Kanoria-Montanari constants at finite series cutoffs; arithmetic check only, no rigorous tail estimate and no capacity-series convergence result",
+    "additional_checks": [
+      {
+        "script": "evidence/W16/lebowitz_penrose_constant_check.py",
+        "actual_run_output": "evidence/W16/lebowitz_penrose_constant_check_results.txt",
+        "scope": "70-digit Decimal bisection check of the scalar maximizer and the hard-rod substitution in Lebowitz–Penrose Eq. (3.11); arithmetic only, not a proof of the virial-radius theorem."
+      }
+    ]
+  },
+  "material_gaps": [
+    "The higher-order coefficient and convergence question in B051 remain unresolved by the read sources; no all-orders expansion or convergence radius is proved.",
+    "The general-renewal large-switch-over polling conjecture remains unproved; no A007 steady-state fluid limit or induced waiting-time law is established.",
+    "The 30-source minimum is now met by 29 full-paper reads and one complete selected book chapter. Twelve inventory candidates remain unread, one source is partial, and canonical R13 reuse remains pending W16 usage review; neither unread nor pending items are counted.",
+    "C01 Kotecký–Preiss has bibliographic metadata only and no verifiable full text; its former theorem card is withdrawn and must not be used as verified evidence.",
+    "C09 remains unread because no accessible full text was identified; C14 is a citation-unverified candidate (its DOI/title-author identity was not confirmed), not a validated distinct source.",
+    "Dobrushin I02 remains partial and has no local PDF. Gray I15 has a complete selected Chapter 2; the inspected Chapter 9 sections remain partial, and the entire book is not claimed as read.",
+    "Independent review remains pending for every source and skill artifact."
+  ],
+  "review_status": "pending"
+}

@@ -1,0 +1,42 @@
+{
+  "method": "SymPy exact/symbolic checks; not a substitute for source reading or a general theorem proof",
+  "P027": {
+    "increments": "xi_i=R_i/sqrt(n), natural filtration",
+    "epsilon": "1/sqrt(n)",
+    "A1_even_k_rhs_over_lhs": "k!/2 >= 1 for every even integer k>=2; odd conditional moments are zero",
+    "A1_even_examples": {
+      "2": "1",
+      "4": "12",
+      "6": "360",
+      "8": "20160"
+    },
+    "bracket": "1",
+    "A2_event_probability": 0,
+    "delta": "exp(-n)"
+  },
+  "P028": {
+    "increments": "X_i=R_i, natural filtration",
+    "rho": 1,
+    "B": "sqrt(n)",
+    "gamma": "1/sqrt(n)",
+    "A2_moment_lhs": "1",
+    "A2_moment_rhs": "1",
+    "bracket": "n",
+    "A1_event_probability": 0,
+    "delta": "exp(-n)"
+  },
+  "both": {
+    "printed_min_product": "n*exp(-n) -> 0 for n>=1",
+    "support_bound_for_normalized_statistic_divided_by_a": "1/sqrt(n)",
+    "open_set": "(1,2)",
+    "probability": 0,
+    "required_Gaussian_MDP_lower_bound": "-1/2",
+    "actual_log_probability_limit": "-infinity",
+    "eventually_a_max_parameter": "a*max(epsilon,delta) does not tend to 0; it equals sqrt(n) for all sufficiently large n"
+  },
+  "safe_scale_from_main_tail_range": {
+    "P027": "a*max(epsilon,delta)->0",
+    "P028": "a*max(gamma,delta)->0",
+    "status": "derived sufficient condition, conditional on the respective main tail theorem; distinct from printed Corollary 2.2"
+  }
+}

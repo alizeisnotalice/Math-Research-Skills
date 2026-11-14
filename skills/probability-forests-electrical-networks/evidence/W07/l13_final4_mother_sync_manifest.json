@@ -1,0 +1,158 @@
+{
+  "batch": "evidence/W07/reader_batches/L13_final4",
+  "integration_status": "integrated_pending_R04",
+  "source_count_before": 37,
+  "source_count_after": 41,
+  "fulltext_read_count_before": 26,
+  "fulltext_read_count_after": 30,
+  "coverage_count_before": 26,
+  "coverage_count_after": 30,
+  "sources": [
+    {
+      "local_id": "AUX-W07-REFLECTED-INFINITY-2025",
+      "helper_pdf_path": "evidence/fulltexts/AUX-W07-REFLECTED-INFINITY-2025.pdf",
+      "mother_pdf_path": "evidence/fulltexts/AUX-W07-REFLECTED-INFINITY-2025.pdf",
+      "sha256": "d4e716f01b0825e3445308d2682a23e6ba516e12abc4d4fddb38c73d686a08af",
+      "physical_pdf_pages": 53,
+      "helper_coverage_complete": true,
+      "mother_coverage_pages": [
+        1,
+        53
+      ],
+      "review_status": "pending"
+    },
+    {
+      "local_id": "AUX-W07-HARMONIC-DIRICHLET-2017",
+      "helper_pdf_path": "evidence/fulltexts/AUX-W07-HARMONIC-DIRICHLET-2017.pdf",
+      "mother_pdf_path": "evidence/fulltexts/AUX-W07-HARMONIC-DIRICHLET-2017.pdf",
+      "sha256": "1885fa47f8cf347bce6508f78bf91c3ad7035565b84c522fa882d3dc7ca09dcb",
+      "physical_pdf_pages": 25,
+      "helper_coverage_complete": true,
+      "mother_coverage_pages": [
+        1,
+        25
+      ],
+      "review_status": "pending"
+    },
+    {
+      "local_id": "AUX-W07-CYCLE-FORESTS-2024",
+      "helper_pdf_path": "evidence/fulltexts/AUX-W07-CYCLE-FORESTS-2024.pdf",
+      "mother_pdf_path": "evidence/fulltexts/AUX-W07-CYCLE-FORESTS-2024.pdf",
+      "sha256": "b21225a1e95d038b21735aa10d179847cbec5ccd58b6b2dc5dd31eb2ceb6d663",
+      "physical_pdf_pages": 41,
+      "helper_coverage_complete": true,
+      "mother_coverage_pages": [
+        1,
+        41
+      ],
+      "review_status": "pending"
+    },
+    {
+      "local_id": "AUX-W07-CYCLE-MATROIDS-2024",
+      "helper_pdf_path": "evidence/fulltexts/AUX-W07-CYCLE-MATROIDS-2024.pdf",
+      "mother_pdf_path": "evidence/fulltexts/AUX-W07-CYCLE-MATROIDS-2024.pdf",
+      "sha256": "c57ef51bafad319a47f7b6dddb4a8755b9600f18f5ef66d67b87e0acb0942be0",
+      "physical_pdf_pages": 19,
+      "helper_coverage_complete": true,
+      "mother_coverage_pages": [
+        1,
+        19
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "card_byte_sync": [
+    {
+      "local_id": "AUX-W07-REFLECTED-INFINITY-2025",
+      "helper_card": "evidence/W07/reader_batches/L13_final4/cards/AUX-W07-REFLECTED-INFINITY-2025.md",
+      "mother_card": "evidence/W07/cards/AUX-W07-REFLECTED-INFINITY-2025.md",
+      "prior_mother_sha256_before_final_mirror": "d757d82ceedd7ff46a98c104a1b700d661266cc120c7feeef884407cbdcfca0a",
+      "helper_sha256": "723a58ac4812d339d78bb10518a60f79bded4f1edec05f18522c916bd789b0b0",
+      "mother_sha256": "23c04528416f18b644a98f31c6f4ac84b9543b948fd3937741bc266417243a06",
+      "path_rewrites": [
+        "../reading_coverage.json#sources.AUX-W07-REFLECTED-INFINITY-2025 -> ../reading_coverage.json (entry local_id=AUX-W07-REFLECTED-INFINITY-2025)"
+      ],
+      "byte_content_rule": "Mother card equals the frozen helper card after only the listed relative-path substitutions."
+    },
+    {
+      "local_id": "AUX-W07-HARMONIC-DIRICHLET-2017",
+      "helper_card": "evidence/W07/reader_batches/L13_final4/cards/AUX-W07-HARMONIC-DIRICHLET-2017.md",
+      "mother_card": "evidence/W07/cards/AUX-W07-HARMONIC-DIRICHLET-2017.md",
+      "prior_mother_sha256_before_final_mirror": "bbcaa88542617128f9bd54978e98722dc1947deb4910128c4e7205b8da176011",
+      "helper_sha256": "9f0eba8c3cc7d41fc15e737fd0b271c2d19085187fc169212a1bd3cac739e6c9",
+      "mother_sha256": "6ed8de2df70972e89b7334d446b154b8f41fb4d61bbdd71ade0ef3fd4f57301d",
+      "path_rewrites": [
+        "../reading_coverage.json#sources.AUX-W07-HARMONIC-DIRICHLET-2017 -> ../reading_coverage.json (entry local_id=AUX-W07-HARMONIC-DIRICHLET-2017)"
+      ],
+      "byte_content_rule": "Mother card equals the frozen helper card after only the listed relative-path substitutions."
+    },
+    {
+      "local_id": "AUX-W07-CYCLE-FORESTS-2024",
+      "helper_card": "evidence/W07/reader_batches/L13_final4/cards/AUX-W07-CYCLE-FORESTS-2024.md",
+      "mother_card": "evidence/W07/cards/AUX-W07-CYCLE-FORESTS-2024.md",
+      "prior_mother_sha256_before_final_mirror": "1ac2f39daed5399306a2b417e4ec07223c54a92de5f319f7de975aac98168253",
+      "helper_sha256": "63fd62732d3e9b75283e23be99281f700d18d35352cc14a4bb8d716344b40c81",
+      "mother_sha256": "2f3537408bfcf30ff841e5668c9fe8996e9f7cab779af09e3b3cd3526b3bd976",
+      "path_rewrites": [
+        "../reading_coverage.json#sources.AUX-W07-CYCLE-FORESTS-2024 -> ../reading_coverage.json (entry local_id=AUX-W07-CYCLE-FORESTS-2024)",
+        "../math/cyclepopping_triangle_exact_check.py -> ../reader_batches/L13_final4/math/cyclepopping_triangle_exact_check.py",
+        "../math/cyclepopping_triangle_exact_check.txt -> ../reader_batches/L13_final4/math/cyclepopping_triangle_exact_check.txt"
+      ],
+      "byte_content_rule": "Mother card equals the frozen helper card after only the listed relative-path substitutions."
+    },
+    {
+      "local_id": "AUX-W07-CYCLE-MATROIDS-2024",
+      "helper_card": "evidence/W07/reader_batches/L13_final4/cards/AUX-W07-CYCLE-MATROIDS-2024.md",
+      "mother_card": "evidence/W07/cards/AUX-W07-CYCLE-MATROIDS-2024.md",
+      "prior_mother_sha256_before_final_mirror": "c27375a507171d767a3f04b16077b13ea39b74b7d594024dfc3c9b8fdccb6b7c",
+      "helper_sha256": "c27375a507171d767a3f04b16077b13ea39b74b7d594024dfc3c9b8fdccb6b7c",
+      "mother_sha256": "0d29c2a358157e6e0ca168b0ad1aa955f3d3d8637bee9154a560fe75bd2f29f5",
+      "path_rewrites": [
+        "../reading_coverage.json#sources.AUX-W07-CYCLE-MATROIDS-2024 -> ../reading_coverage.json (entry local_id=AUX-W07-CYCLE-MATROIDS-2024)"
+      ],
+      "byte_content_rule": "Mother card equals the frozen helper card after only the listed relative-path substitutions."
+    }
+  ],
+  "status_preserved": {
+    "PTN2026": "partial_read",
+    "DOYLE_SNELL1984": "acquired_unread"
+  },
+  "formal_mapping_changes": [
+    "A025 auxiliary row for AUX-W07-HARMONIC-DIRICHLET-2017 only"
+  ],
+  "no_mapping_changes_for": [
+    "AUX-W07-REFLECTED-INFINITY-2025",
+    "AUX-W07-CYCLE-FORESTS-2024",
+    "AUX-W07-CYCLE-MATROIDS-2024"
+  ],
+  "note": "The four existing mother card copies were older pending drafts. They were replaced by the frozen L13_final4 cards. The helper batch remains unchanged. Final mother copies equal the frozen helper cards after only the listed relative-path substitutions.",
+  "helper_pdf_path_root_correction": {
+    "reason": "L13 helper records the root-relative D05 local_pdf; the prior manifest prepended the helper folder and pointed to nonexistent paths. No PDF was copied.",
+    "path_changes": [
+      {
+        "local_id": "AUX-W07-REFLECTED-INFINITY-2025",
+        "old_helper_pdf_path": "evidence/W07/reader_batches/L13_final4/evidence/fulltexts/AUX-W07-REFLECTED-INFINITY-2025.pdf",
+        "new_helper_pdf_path": "evidence/fulltexts/AUX-W07-REFLECTED-INFINITY-2025.pdf",
+        "target_exists": true
+      },
+      {
+        "local_id": "AUX-W07-HARMONIC-DIRICHLET-2017",
+        "old_helper_pdf_path": "evidence/W07/reader_batches/L13_final4/evidence/fulltexts/AUX-W07-HARMONIC-DIRICHLET-2017.pdf",
+        "new_helper_pdf_path": "evidence/fulltexts/AUX-W07-HARMONIC-DIRICHLET-2017.pdf",
+        "target_exists": true
+      },
+      {
+        "local_id": "AUX-W07-CYCLE-FORESTS-2024",
+        "old_helper_pdf_path": "evidence/W07/reader_batches/L13_final4/evidence/fulltexts/AUX-W07-CYCLE-FORESTS-2024.pdf",
+        "new_helper_pdf_path": "evidence/fulltexts/AUX-W07-CYCLE-FORESTS-2024.pdf",
+        "target_exists": true
+      },
+      {
+        "local_id": "AUX-W07-CYCLE-MATROIDS-2024",
+        "old_helper_pdf_path": "evidence/W07/reader_batches/L13_final4/evidence/fulltexts/AUX-W07-CYCLE-MATROIDS-2024.pdf",
+        "new_helper_pdf_path": "evidence/fulltexts/AUX-W07-CYCLE-MATROIDS-2024.pdf",
+        "target_exists": true
+      }
+    ]
+  }
+}

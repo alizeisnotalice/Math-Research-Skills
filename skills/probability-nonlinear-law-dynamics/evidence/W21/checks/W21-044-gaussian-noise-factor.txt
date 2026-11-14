@@ -1,0 +1,8 @@
+n=1: mean coefficient=1; variance/sigma^2=1 (<2)
+n=2: mean coefficient=2; variance/sigma^2=3/2 (<2)
+n=5: mean coefficient=5; variance/sigma^2=31/16 (<2)
+n=20: mean coefficient=20; variance/sigma^2=1048575/524288 (<2)
+n=50: mean coefficient=50; variance/sigma^2=1125899906842623/562949953421312 (<2)
+For m != 0, mean(G^{ {n} })=n*m and variances stay below 2*sigma^2.
+Chebyshev: P(|G^{ {n} }|<=R) <= 2*sigma^2/(n*|m|-R)^2 -> 0 for fixed R.
+Hence the noise-factor sequence is not tight and has no weak limit.

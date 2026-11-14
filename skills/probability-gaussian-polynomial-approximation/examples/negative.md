@@ -1,0 +1,3 @@
+# Negative example: do not import an invariance hypothesis
+
+A general polynomial $p(Z)$ under a standard Gaussian vector need not be represented as a low-influence multilinear polynomial on independent non-Gaussian coordinates. MOO Theorem 2.1 assumes independent centered variance-one coordinates, a degree-at-most-$d$ multilinear polynomial with normalized nonconstant coefficient energy, and every coordinate influence at most $\tau$. Applying its distributional comparison to arbitrary $p$ without checking these conditions is invalid. Even when invariance applies, its error bound does not determine B167’s sharp asymptotic constant.

@@ -1,0 +1,5 @@
+# Positive example: separate a Jordan-arc infimum from frontier dimension
+
+**Question.** Does the planar Brownian trace contain a Jordan arc of Hausdorff dimension at most \(5/4\), and does that prove the infimum is 1?
+
+**Good approach.** Zhan’s Theorem 2.1 (W08-R007) applies in a strict simply connected domain \(D\subsetneq\mathbb C\) containing 0 and gives a Brownian loop-erasure whose reversal is radial SLE2. Beffara’s theorem (M0179) gives dimension 5/4 for chordal SLE2. Use the localized radial/chordal absolute-continuity statement (M0224 Appendix 11; equivalence citation W08-R006) to transfer the dimension to the needed radial segment, carefully verifying the stopping-segment and full-curve step. A Jordan arc has dimension at least 1, so this yields a possible interval \([1,5/4]\) for the infimum once the transfer is completed. It does not establish that the infimum equals 1. The 4/3 frontier theorem (M0175) concerns the outer boundary, and Burdzy’s labyrinth theorem (W08-R001) gives the **supremum** over Jordan arcs, equal to 2.

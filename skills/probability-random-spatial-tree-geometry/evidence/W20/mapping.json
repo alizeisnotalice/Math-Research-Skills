@@ -1,0 +1,719 @@
+[
+  {
+    "problem_id": "A124",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Establish a bound uniform over all minimizers μ of Var_μ(C/E_μ C), with a dimension-free ψ(Δ)→0 for rate-one Poisson seeding and unit-speed ball growth on compact connected metric spaces.",
+    "source_local_ids": [
+      "M0109"
+    ],
+    "unproved_interface": "Formal120 A124 (最优播种测度下增长覆盖时间的弱集中) asks: 速率1的 Poisson 种子到达紧连通度量空间 S，中心 IID 服从 μ，每个球半径以速率1增长，C为全覆盖时间。设 μ 达到 min_μ E_μ C，Δ=diam(S)。是否存在与 S 无关、当 Δ↑∞ 时趋于0的 ψ(Δ)，使 Var_μ(C/E_μ C)≤ψ(Δ)？模型已按种子及生长速率标准化。 W20 evidence boundary: M0109 Chapter 4 supplies Mecke/factorial identities for Poisson occurrence counts only; it gives no growing-ball cover-time variance, optimizer, or diameter-uniform concentration theorem. Missing interface: Establish a bound uniform over all minimizers μ of Var_μ(C/E_μ C), with a dimension-free ψ(Δ)→0 for rate-one Poisson seeding and unit-speed ball growth on compact connected metric spaces. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "M0103",
+      "M0106"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "cover_growing_balls"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0106"
+    ],
+    "scope_classification": "auxiliary_only",
+    "source_use": "M0109 Chapter 4 supplies Mecke/factorial identities for Poisson occurrence counts only; it gives no growing-ball cover-time variance, optimizer, or diameter-uniform concentration theorem.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A125",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove that Haar seeding minimizes E_μ C for the stated compact-group invariant metric and linearly expanding random-ball model.",
+    "source_local_ids": [
+      "M0109"
+    ],
+    "unproved_interface": "Formal120 A125 (紧群增长覆盖的 Haar 播种最优性) asks: 在带群作用不变度量的紧群上，速率1的 Poisson 种子、半径以速率1增长的随机球模型中，Haar 测度是否最小化期望全覆盖时间 E_μ C？固定半径模型的离散播种反例不能直接替代增长模型。 W20 evidence boundary: M0109 Chapter 4 gives Poisson counting identities, not an extremal theorem for a dynamic covering-time functional or its Haar optimizer. Missing interface: Prove that Haar seeding minimizes E_μ C for the stated compact-group invariant metric and linearly expanding random-ball model. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "M0103",
+      "M0106",
+      "M0109"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "cover_growing_balls"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0106"
+    ],
+    "scope_classification": "auxiliary_only",
+    "source_use": "M0109 Chapter 4 gives Poisson counting identities, not an extremal theorem for a dynamic covering-time functional or its Haar optimizer.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove the stated correlation limit ρ(n,r_n)→1−α for adjacent-in-circular-order leaf heights in CTCS(n), with the uniform cyclic shift and log r_n/log n→α.",
+    "source_local_ids": [],
+    "unproved_interface": "Formal120 A127 (临界 Beta 分裂树相邻叶高的相关极限) asks: 按原文§3.9把CTCS(n)的区间叶序视作循环，用均匀随机循环平移选取相隔1≤r_n<n 的两叶，使两者各自都有均匀随机叶高度D_n的边际分布。令ρ(n,r_n)=[E(D_n^(1)D_n^(2))−(ED_n)²]/Var(D_n)。若 log r_n/log n→α∈[0,1]，是否ρ(n,r_n)→1−α？不采用任意重新置换的叶标签距离。 W20 evidence boundary: The W20 read set contains no beta-splitting/CTCS leaf-height theorem; the inherited generic-geometric textbook IDs are unacquired and are not evidence for this model. Missing interface: Prove the stated correlation limit ρ(n,r_n)→1−α for adjacent-in-circular-order leaf heights in CTCS(n), with the uniform cyclic shift and log r_n/log n→α. No proof or theorem transfer is claimed.",
+    "mapping_status": "not_covered",
+    "matrix_source_local_ids": [
+      "M0103",
+      "M0106"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "beta_tree_open"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0106"
+    ],
+    "scope_classification": "not_covered",
+    "source_use": "The W20 read set contains no beta-splitting/CTCS leaf-height theorem; the inherited generic-geometric textbook IDs are unacquired and are not evidence for this model.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A136",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "direct",
+    "needed_lemma": "在同一SIRSN realization中控制 Y_i=len r(0,U_i) 的最大值尾：证明 ∫_0^∞ P(sup_i Y_i>t)dt<∞，或在公理不足时给出反例及足以成立的附加条件。",
+    "source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0093",
+      "M0094",
+      "M0096",
+      "M0100",
+      "M0102",
+      "M0097",
+      "M0098",
+      "M0099",
+      "M0101",
+      "M0109",
+      "AUX-ALDOUS-LINEAR-ROUTE-2021",
+      "AUX-ALDOUS-SHAPE-2009"
+    ],
+    "unproved_interface": "M0092 Open Problem 34 asks whether E sup_i len r(0,U_i)<infinity for iid uniform disk endpoints in one shared SIRSN. M0091 gives the one-route axiom; M0093 Thm5.1 gives moments for a specified pair and Thm6.1 a truncated Poisson-endpoint union-length bound; M0094 Thm5.2 gives one specified planar route mean and Thm6.4 only a.s. local finiteness for a Poisson endpoint network. M0096 concerns speed recurrence of a random flight on one Poisson-line SIRSN. M0102 concerns geodesic structure of a Poisson roads metric. M0100 proves an infinite mean and a lower tail of order r/d for D_r, the route length of a typical unordered Poisson-point pair sampled from pair intensity conditional on Euclidean separation at most r. Its pair-count proof is not a global all-pairs maximum and does not imply the fixed-origin iid-star conclusion. No read source supplies the needed tail integral or a counterexample for the A136 random variable; the interface remains open. M0097 defines R as a supremum over distance scales of mean stretch, not a maximum over realized pairs; M0098 is a telecom Palm-typical LLC-to-HLC route-density model; M0099 proves fixed-direction geodesic coalescence and sublinear expected branch counts; M0101 proves condensation for a different power-weighted edge-sum functional under (FIN)/(FIN2)/(STA)/(CON)/(INF). None controls the shared-origin iid endpoint maximum. These four complete readings leave A136 unresolved. M0109 Chapter 4 (Theorems 4.1/4.4 and Corollary 4.10) supplies Mecke/factorial identities for Poisson occurrence counts: (4.10) sums over distinct occurrence indices, which need not be distinct spatial locations in a non-simple measure, and Theorem 4.5 removes selected occurrences successively on the left. It contains no route-network dependence or fixed-origin supremum tail bound. M0098 is the read 2009 Ulm author manuscript (singular local title), distinct from the 2011 published plural-title record in Stochastic Models 27(1), pp. 141–167; it studies a Palm-typical telecom service route only. M0108 is a lattice-FPP book comparator; time-constant/shape and capacity-cutset theorems do not transfer to the shared-SIRSN iid endpoint maximum without a new proof. Batch 5 adds Aldous Theorem 1 on pair-summed CIDRPP linearity under asymptotic essential connectedness of frozen-core graphs and the separate L1 shape theorem under a uniform L2 pair-sum bound. Both are pair-average or typical-pair statements; neither uses a common fixed origin with an iid endpoint sequence nor bounds the expectation of its realized route-length supremum. Conjecture 3 in the shape paper is an a.s. shape conjecture, not a proved maximum bound.",
+    "mapping_status": "exact primary question/model source confirmed; target remains unresolved; no theorem-coverage claim",
+    "matrix_source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0093",
+      "M0094",
+      "M0096",
+      "M0100",
+      "M0102",
+      "M0097",
+      "M0098",
+      "M0099",
+      "M0101",
+      "M0109",
+      "AUX-ALDOUS-LINEAR-ROUTE-2021",
+      "AUX-ALDOUS-SHAPE-2009"
+    ],
+    "matrix_source_ids_note": "Exact primary-question/model sources are separated from theorem evidence; all conclusions remain unresolved.",
+    "candidate_source_keys": [
+      "sirsn"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "exact_primary_question_open",
+    "review_status": "pending",
+    "source_use": "M0092 is the exact SIRSN Open Problem 34 source; M0091 and the read route papers provide model axioms/adjacent route statistics with explicit incompatible random variables. None proves integrability of the fixed-origin iid-endpoint supremum."
+  },
+  {
+    "problem_id": "A137",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Show E len span(Z_1,…,Z_k)∼ℓk for k iid uniform points in the area-k square, including the required binomial-to-Poisson/scaling and uniform-integrability steps.",
+    "source_local_ids": [
+      "M0091",
+      "M0092"
+    ],
+    "unproved_interface": "Formal120 A137 (尺度不变路网随机生成子网的期望长度大数律) asks: 面积 k 的正方形中取 k 个均匀独立点 Z_1,…,Z_k。证明 SIRSN 路线生成子网的总长度满足 E len span(Z_1,…,Z_k)∼ℓ k，其中 ℓ 是单位强度 Poisson 点生成子网的长度强度。 W20 evidence boundary: M0091 gives SIRSN axioms and a finite one-route mean; M0092 states the route-subnetwork construction and its intensity context. Neither proves the asserted expectation asymptotic for the binomial k-point sample. Missing interface: Show E len span(Z_1,…,Z_k)∼ℓk for k iid uniform points in the area-k square, including the required binomial-to-Poisson/scaling and uniform-integrability steps. No proof or theorem transfer is claimed.",
+    "mapping_status": "candidate_scope_only",
+    "matrix_source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0093",
+      "M0094",
+      "M0095",
+      "M0096",
+      "M0098",
+      "M0100",
+      "M0101",
+      "M0102",
+      "M0104",
+      "M0105",
+      "M0106"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "sirsn"
+    ],
+    "candidate_source_local_ids": [
+      "M0104",
+      "M0105",
+      "M0106"
+    ],
+    "scope_classification": "candidate_scope_only",
+    "source_use": "M0091 gives SIRSN axioms and a finite one-route mean; M0092 states the route-subnetwork construction and its intensity context. Neither proves the asserted expectation asymptotic for the binomial k-point sample.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A147",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove or disprove ν₂⊥ν₃ for the two deterministic b-adic encodings of the middle-third Cantor set, on the same pushed-forward measurable space; dimension values alone do not decide singularity.",
+    "source_local_ids": [
+      "LPP1996BIASED",
+      "LIN2017HARMONIC",
+      "ROUSSELIN2017HARMONIC",
+      "CURIENLEGALL2017BALLHARM",
+      "AUX-LPP-TREE-OPEN-1997"
+    ],
+    "unproved_interface": "Formal120 A147 (Cantor 集二进与三进树调和测度是否互相奇异) asks: E 为中三分 Cantor 集。以 b 进区间编码 E 得到树 T^[b](E)，其简单随机游走边界调和测度推到 E 上记为 ν_b。ν_3 是 Cantor–Lebesgue 测度；是否 ν_2⊥ν_3？必须核对原 PDF 的奇异符号，不能改写为仅问维数。 W20 evidence boundary: The cited cards concern biased harmonic measure on GW trees, invariant measures in a different GW setup, critical finite-radius tree exit measure, and the exact GW monotonicity question. None identifies the two deterministic Cantor coding measures or proves their mutual singularity. Missing interface: Prove or disprove ν₂⊥ν₃ for the two deterministic b-adic encodings of the middle-third Cantor set, on the same pushed-forward measurable space; dimension values alone do not decide singularity. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1995ERGODIC",
+      "LIN2017HARMONIC",
+      "ROUSSELIN2017HARMONIC",
+      "CURIENLEGALL2017BALLHARM"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [
+      "LPP1995ERGODIC"
+    ],
+    "scope_classification": "auxiliary_only",
+    "source_use": "The cited cards concern biased harmonic measure on GW trees, invariant measures in a different GW setup, critical finite-radius tree exit measure, and the exact GW monotonicity question. None identifies the two deterministic Cantor coding measures or proves their mutual singularity.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B049",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Determine the expected total online matching cost across s_n=o(n) extra iid uniform servers, including the transition from zero to linear redundancy in the original one-dimensional fully random model.",
+    "source_local_ids": [],
+    "unproved_interface": "Formal120 B049 (一维随机匹配的次线性冗余服务器阈值) asks: 原文 fully random 一维在线最小费用匹配模型：n 个均匀随机请求和 n+s_n 个独立均匀随机服务器，s_n=o(n)，请求到达时贪心配给最近空闲服务器。确定期望总费用随 s_n 的渐近阶及从无冗余到线性冗余之间的过渡。二维外推不计为原问题。 W20 evidence boundary: W20 has no read source for the cited one-dimensional online matching theorem; its spatial-network optimization and telecom-route cards do not establish the server-redundancy threshold. Missing interface: Determine the expected total online matching cost across s_n=o(n) extra iid uniform servers, including the transition from zero to linear redundancy in the original one-dimensional fully random model. No proof or theorem transfer is claimed.",
+    "mapping_status": "not_covered",
+    "matrix_source_local_ids": [
+      "M0095",
+      "M0098",
+      "M0103",
+      "M0106"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "ordos_primary_84"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0106"
+    ],
+    "scope_classification": "not_covered",
+    "source_use": "W20 has no read source for the cited one-dimensional online matching theorem; its spatial-network optimization and telecom-route cards do not establish the server-redundancy threshold.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B076",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "direct",
+    "needed_lemma": "对原文 parent-weight λ 偏置RW的GW边界调和测度维数 d(λ)，在规定的非退化有限均值 offspring law 下证明严格递增，或给出同一模型内反例；速度函数的导数不能替代 d′(λ) 的估计。",
+    "source_local_ids": [
+      "LPP1996BIASED",
+      "PZ2008CLT",
+      "AIDEKON2014SPEED",
+      "LIN2017HARMONIC",
+      "ROUSSELIN2017HARMONIC",
+      "CURIENLEGALL2017BALLHARM",
+      "AUX-LPP-TREE-OPEN-1997",
+      "AUX-BOWDITCH-TOKUSHIGE-2020",
+      "AUX-MEHRDAD-SEN-ZHU-2015"
+    ],
+    "unproved_interface": "LIN2017HARMONIC proves strict harmonic-dimension improvement over visibility and explicitly leaves monotonicity of d_lambda open; its walk-path degree statistic is nonmonotone. ROUSSELIN2017HARMONIC supplies invariant densities and dimension formulas under flow-rule/integrability assumptions, not a monotonicity proof. The required dependent-recursion derivative/comparison bound remains unproved. AIDEKON2014SPEED gives a speed formula only for the toward-root model in λ∈(λc,m); speed comparisons do not establish harmonic-measure-dimension monotonicity. PZ2008CLT proves walk-position CLTs in leafless GW models, while CURIENLEGALL2017BALLHARM concerns simple exit measure on critical finite-radius trees; neither varies the biased harmonic-dimension parameter. LPP1996 Theorem 5.1 proves fixed-λ dimension drop and mutual singularity for λ1<λ2 but §6 says its methods do not analyze λ-dependence; LPP1997 updated chapter Question 3.4 asks the exact GW dimension-monotonicity question (nonmonotone examples there concern general trees, not GW). Bowditch–Tokushige Theorem 1.1 differentiates speed υλ under an exponential-moment/ballistic-CLT regime using regeneration and discrete Girsanov, but it is only a proof-technique comparator and contains no derivative or comparison for harmonic-measure dimension. B076 therefore remains unresolved. Mehrdad–Sen–Zhu (AUX-MEHRDAD-SEN-ZHU-2015) compare speeds across stochastically ordered no-leaves offspring laws only for sufficiently high childward bias β; its speed variable is not d(λ), so the B076 dimension-order interface remains open.",
+    "mapping_status": "exact primary question/model source confirmed; target remains unresolved; no theorem-coverage claim",
+    "matrix_source_local_ids": [
+      "LPP1995ERGODIC",
+      "LPP1996BIASED",
+      "PZ2008CLT",
+      "AIDEKON2014SPEED",
+      "LIN2017HARMONIC",
+      "ROUSSELIN2017HARMONIC",
+      "BAFS2014HIGHBIAS",
+      "SONG2025LOWBIAS",
+      "TOKUSHIGE2018SPEEDREG",
+      "CURIENLEGALL2017BALLHARM",
+      "AUX-LPP-TREE-OPEN-1997",
+      "AUX-BOWDITCH-TOKUSHIGE-2020",
+      "AUX-MEHRDAD-SEN-ZHU-2015"
+    ],
+    "matrix_source_ids_note": "Exact primary-question/model sources are separated from theorem evidence; all conclusions remain unresolved.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [
+      "LPP1995ERGODIC",
+      "BAFS2014HIGHBIAS",
+      "SONG2025LOWBIAS",
+      "TOKUSHIGE2018SPEEDREG"
+    ],
+    "scope_classification": "exact_primary_question_open",
+    "review_status": "pending",
+    "source_use": "AUX-LPP-TREE-OPEN-1997 Question 3.4 is the exact GW harmonic-dimension monotonicity question; LPP1996/Lin/Rousselin give fixed-parameter dimension results or formulas only. Speed/RWRE and finite-ball sources are comparators; d(λ) monotonicity remains open."
+  },
+  {
+    "problem_id": "B126",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove the original normalized limit (C(L)−t₀(L))/σ(L)⇒Gumbel using the source-defined centering/scaling and dependent overlapping empty-cone events.",
+    "source_local_ids": [
+      "M0109"
+    ],
+    "unproved_interface": "Formal120 B126 (圆周增长覆盖时间的 Gumbel 极限) asks: 圆周长度 L，速率1 Poisson 种子中心均匀、球半径以单位速率增长。证明原文式(18)的极值极限：(C(L)−t_0(L))/σ(L) 分布收敛至标准 Gumbel；t_0、σ 沿原文式(19)及其后定义，不以数值拟合代替中心化。 W20 evidence boundary: M0109 Chapter 4 supplies Poisson Mecke/factorial-count identities for counts, but no dynamic circle-covering extreme-value theorem, clustering estimate, or Gumbel centering. Missing interface: Prove the original normalized limit (C(L)−t₀(L))/σ(L)⇒Gumbel using the source-defined centering/scaling and dependent overlapping empty-cone events. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "M0103",
+      "M0104",
+      "M0106",
+      "M0109"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "cover_growing_balls"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0104",
+      "M0106"
+    ],
+    "scope_classification": "auxiliary_only",
+    "source_use": "M0109 Chapter 4 supplies Poisson Mecke/factorial-count identities for counts, but no dynamic circle-covering extreme-value theorem, clustering estimate, or Gumbel centering.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B133",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Establish compactness/closedness of the admissible SIRSN class at fixed attainable Δ sufficient to attain ℓ*(Δ), and prove the requested strict quantitative improvement beyond Proposition 16.",
+    "source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0097",
+      "AUX-ALDOUS-LINEAR-ROUTE-2021",
+      "AUX-ALDOUS-SHAPE-2009"
+    ],
+    "unproved_interface": "Formal120 B133 (尺度不变随机路网的最优长度是否达到) asks: 在 SIRSN 公理类中，固定可达到的平均伸长 Δ=E D_1，令 ℓ*(Δ) 为边长强度 ℓ 的下确界。是否存在达到 ℓ*(Δ) 的 SIRSN？同时寻找原文 Proposition 16 之外的严格定量界，整体作为同一个变分问题。 W20 evidence boundary: M0091–M0092 define the SIRSN class and route-length objective; M0097 and Aldous’s two read papers give mean-stretch or pair-summed results. They do not prove compactness/attainment for ℓ*(Δ) or the requested strict bound. Missing interface: Establish compactness/closedness of the admissible SIRSN class at fixed attainable Δ sufficient to attain ℓ*(Δ), and prove the requested strict quantitative improvement beyond Proposition 16. No proof or theorem transfer is claimed.",
+    "mapping_status": "candidate_scope_only",
+    "matrix_source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0093",
+      "M0094",
+      "M0095",
+      "M0096",
+      "M0097",
+      "M0100",
+      "M0101",
+      "M0102"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "sirsn"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "candidate_scope_only",
+    "source_use": "M0091–M0092 define the SIRSN class and route-length objective; M0097 and Aldous’s two read papers give mean-stretch or pair-summed results. They do not prove compactness/attainment for ℓ*(Δ) or the requested strict bound.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B134",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove local finiteness on E(∞,1) of the specific route-traffic measure weighted by |z₂−z₁|^(−β), for 2<β<4, or identify sufficient extra regularity.",
+    "source_local_ids": [
+      "M0091",
+      "M0093",
+      "M0094"
+    ],
+    "unproved_interface": "Formal120 B134 (尺度不变路网交通强度的局部有限性) asks: SIRSN 中按 dz_1·|z_2−z_1|^(−β) dz_2 给源终点对加权，沿每条路线加上一维长度测度，得到交通测度。对2<β<4，证明该测度在原文主路集合 E(∞,1) 上局部有限，或明确必需的附加正则条件。 W20 evidence boundary: M0091 records finite mean length for a specified route; M0093 gives a Poisson-line SIRSN and truncated-network intensity; M0094 gives pre-SIRSN local-finiteness results. None establishes local finiteness of the dossier’s β-weighted traffic measure on the SIRSN main-route set. Missing interface: Prove local finiteness on E(∞,1) of the specific route-traffic measure weighted by |z₂−z₁|^(−β), for 2<β<4, or identify sufficient extra regularity. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0093",
+      "M0094",
+      "M0095",
+      "M0096",
+      "M0097",
+      "M0098",
+      "M0100",
+      "M0101",
+      "M0102"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "sirsn"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "auxiliary_only",
+    "source_use": "M0091 records finite mean length for a specified route; M0093 gives a Poisson-line SIRSN and truncated-network intensity; M0094 gives pre-SIRSN local-finiteness results. None establishes local finiteness of the dossier’s β-weighted traffic measure on the SIRSN main-route set.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B135",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Show that the SIRSN main-route set E(∞,1) has exactly one unbounded connected component a.s., or give a counterexample within the stated axioms.",
+    "source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0102"
+    ],
+    "unproved_interface": "Formal120 B135 (尺度不变路网主干的唯一无界分量) asks: 任意满足原文公理的 SIRSN，其 E(∞,1) 主路集合是否几乎处处只有一个无界连通分量？不要求所有有界零散路段也连通。 W20 evidence boundary: M0091–M0092 specify SIRSN and route-network structure; M0102 studies geodesic hubs/cut loci in a Poisson-road metric. These do not prove connectivity or uniqueness for E(∞,1) under arbitrary SIRSN axioms. Missing interface: Show that the SIRSN main-route set E(∞,1) has exactly one unbounded connected component a.s., or give a counterexample within the stated axioms. No proof or theorem transfer is claimed.",
+    "mapping_status": "candidate_scope_only",
+    "matrix_source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0093",
+      "M0094",
+      "M0096",
+      "M0099",
+      "M0100",
+      "M0102"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "sirsn"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "candidate_scope_only",
+    "source_use": "M0091–M0092 specify SIRSN and route-network structure; M0102 studies geodesic hubs/cut loci in a Poisson-road metric. These do not prove connectivity or uniqueness for E(∞,1) under arbitrary SIRSN axioms.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B138",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Determine whether the exact history-dependent walk on Z² revisits a vertex infinitely often with positive probability; a recurrence criterion must apply to the augmented history process, not merely a reversible Markov chain.",
+    "source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1996BIASED"
+    ],
+    "unproved_interface": "Formal120 B138 (首次访问横走、重访竖走的二维游走常返性) asks: 从原点出发；位于此前未访问的顶点时，下一步等概率向左右走；位于已访问过的顶点时，下一步等概率向上下走。该非 Markov 二维最近邻过程是否以正概率无限次访问某个顶点？首次时刻采用原书约定。 W20 evidence boundary: Lyons gives electrical/branching criteria for ordinary reversible walks on trees; LPP1996 treats a tree-biased Markov walk. The dossier walk changes its allowed axis by first-visit status and is non-Markov on Z², so those electrical criteria do not apply without a new state-space/reversibility argument. Missing interface: Determine whether the exact history-dependent walk on Z² revisits a vertex infinitely often with positive probability; a recurrence criterion must apply to the augmented history process, not merely a reversible Markov chain. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1996BIASED",
+      "PZ2008CLT"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "auxiliary_only",
+    "source_use": "Lyons gives electrical/branching criteria for ordinary reversible walks on trees; LPP1996 treats a tree-biased Markov walk. The dossier walk changes its allowed axis by first-visit status and is non-Markov on Z², so those electrical criteria do not apply without a new state-space/reversibility argument.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B140",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove br(T)=b for every geodesic spanning tree T of the Cayley graph, or construct a geodesic tree violating it; the known lexicographic construction only proves existence of one such tree.",
+    "source_local_ids": [
+      "LYONS1990RWPT"
+    ],
+    "unproved_interface": "Formal120 B140 (任意测地生成树的分枝数是否等于群增长率) asks: G 为增长率 b 的有限生成群 Cayley 图，T 是根于单位元的任意测地生成树，即每个顶点到根的 T 距离等于 G 距离。是否总有 br(T)=b？已知特定字典序构造达到 b，本题问任意 T。 W20 evidence boundary: Lyons’s branching-number results are intrinsic to a fixed tree and do not identify its branching number with ambient group growth for every geodesic spanning tree. Missing interface: Prove br(T)=b for every geodesic spanning tree T of the Cayley graph, or construct a geodesic tree violating it; the known lexicographic construction only proves existence of one such tree. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "M0091",
+      "M0092",
+      "M0093",
+      "M0094",
+      "M0099",
+      "M0100",
+      "M0102",
+      "LYONS1990RWPT"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "auxiliary_only",
+    "source_use": "Lyons’s branching-number results are intrinsic to a fixed tree and do not identify its branching number with ambient group growth for every geodesic spanning tree.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C108",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove an a.s. connective-constant limit for the number of n-step self-avoiding paths from v in the supercritical bond-percolation infinite cluster, and prove independence of v within that cluster.",
+    "source_local_ids": [],
+    "unproved_interface": "Formal120 C108 (超临界渗流簇自避行走的连接常数) asks: 二维超临界键渗流无限簇上，从顶点 v 出发 n 步自避路径数的 n 次根是否几乎处处收敛，且无限簇内与起点无关？ W20 evidence boundary: W20 has no read source for self-avoiding-walk connective constants on supercritical percolation clusters; lattice FPP, route-geodesic and Poisson-road sources concern different path ensembles. Missing interface: Prove an a.s. connective-constant limit for the number of n-step self-avoiding paths from v in the supercritical bond-percolation infinite cluster, and prove independence of v within that cluster. No proof or theorem transfer is claimed.",
+    "mapping_status": "not_covered",
+    "matrix_source_local_ids": [
+      "M0099",
+      "M0102",
+      "M0103",
+      "M0108"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "grimmett"
+    ],
+    "candidate_source_local_ids": [
+      "M0103"
+    ],
+    "scope_classification": "not_covered",
+    "source_use": "W20 has no read source for self-avoiding-walk connective constants on supercritical percolation clusters; lattice FPP, route-geodesic and Poisson-road sources concern different path ensembles.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C112",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "For fixed rationally supported outgoing angle α, prove the stated conditional-on-I_α diffusion/CLT with finite positive variance coefficient and the dossier’s two-dimensional covariance interpretation.",
+    "source_local_ids": [],
+    "unproved_interface": "Formal120 C112 (有理角随机镜面光线的扩散极限) asks: 角度分布 mu 非退化且支撑在 πQ；Poisson 中心、独立角度、等长线段镜面模型，固定出射角 alpha。在光线无界事件 I_alpha 上，是否有 sigma²=lim_(t→∞)t^(-1) Var(X_alpha(t))∈(0,∞)，且适当标准化位置渐近正态？按原文理解二维协方差／扩散系数，不擅自升级成功能 CLT。 W20 evidence boundary: W20 has no read mirror-ray or rational-angle billiard source; generic Poisson process identities do not supply ray dynamics or a diffusion theorem. Missing interface: For fixed rationally supported outgoing angle α, prove the stated conditional-on-I_α diffusion/CLT with finite positive variance coefficient and the dossier’s two-dimensional covariance interpretation. No proof or theorem transfer is claimed.",
+    "mapping_status": "not_covered",
+    "matrix_source_local_ids": [
+      "M0103",
+      "M0104",
+      "M0105",
+      "M0106",
+      "M0109"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "grimmett"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0104",
+      "M0105",
+      "M0106"
+    ],
+    "scope_classification": "not_covered",
+    "source_use": "W20 has no read mirror-ray or rational-angle billiard source; generic Poisson process identities do not supply ray dynamics or a diffusion theorem.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C113",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Determine whether every positive mirror density q gives almost-sure bounded trajectories in the directed Manhattan mirror model.",
+    "source_local_ids": [],
+    "unproved_interface": "Formal120 C113 (Manhattan 弹珠模型是否处处局域化) asks: 在原文有向 Manhattan 格点斜镜模型中，是否每个正镜面密度 q 都使光线几乎必然有界？ W20 evidence boundary: W20 has no read source on Manhattan mirror billiards or localization for every q; spatial route networks and tree walks are different processes. Missing interface: Determine whether every positive mirror density q gives almost-sure bounded trajectories in the directed Manhattan mirror model. No proof or theorem transfer is claimed.",
+    "mapping_status": "not_covered",
+    "matrix_source_local_ids": [
+      "M0103",
+      "M0104",
+      "M0106"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "grimmett"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0104",
+      "M0106"
+    ],
+    "scope_classification": "not_covered",
+    "source_use": "W20 has no read source on Manhattan mirror billiards or localization for every q; spatial route networks and tree walks are different processes.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C139",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove existence and strict positivity of lim dist(o,X_n)/n for the dossier’s reversible Cayley-graph walk for every 1<λ<b, or produce a counterexample; this requires group-graph estimates, not just GW-tree speed criteria.",
+    "source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1996BIASED",
+      "PZ2008CLT",
+      "AIDEKON2014SPEED",
+      "BAFGH2012LEAVES",
+      "AUX-MEHRDAD-SEN-ZHU-2015",
+      "AUX-FARAUD-HU-SHI-2011",
+      "AUX-AIDEKON-LDV-2010",
+      "AUX-AIDEKON-TRANSIENT-RWRE-2008"
+    ],
+    "unproved_interface": "Formal120 C139 (Cayley 图偏置游走的正速度区间) asks: G为增长率b的有限生成群Cayley图，根为单位元。RW_λ是原书§3.4的可逆游走：距根层级为|e|的边赋电导λ^(−|e|)，再按相邻电导比例选择下一步。对每个1<λ<b，dist(o,X_n)/n是否几乎必然存在且严格为正？电导的层级采用原书边距根定义。 W20 evidence boundary: The listed read sources prove transience, speed, CLT, displacement or RWRE results on trees under their own offspring, bias and environment hypotheses. They provide model comparators only; no source establishes the Cayley-graph dead-end depth/tail estimate or a transfer to this radial conductance walk. Missing interface: Prove existence and strict positivity of lim dist(o,X_n)/n for the dossier’s reversible Cayley-graph walk for every 1<λ<b, or produce a counterexample; this requires group-graph estimates, not just GW-tree speed criteria. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1996BIASED",
+      "PZ2008CLT",
+      "AIDEKON2014SPEED",
+      "BAFS2014HIGHBIAS",
+      "SONG2025LOWBIAS",
+      "BAFGH2012LEAVES",
+      "TOKUSHIGE2018SPEEDREG",
+      "AUX-MEHRDAD-SEN-ZHU-2015",
+      "AUX-FARAUD-HU-SHI-2011",
+      "AUX-AIDEKON-LDV-2010",
+      "AUX-AIDEKON-TRANSIENT-RWRE-2008"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [
+      "BAFS2014HIGHBIAS",
+      "SONG2025LOWBIAS",
+      "TOKUSHIGE2018SPEEDREG"
+    ],
+    "scope_classification": "auxiliary_only",
+    "source_use": "The listed read sources prove transience, speed, CLT, displacement or RWRE results on trees under their own offspring, bias and environment hypotheses. They provide model comparators only; no source establishes the Cayley-graph dead-end depth/tail estimate or a transfer to this radial conductance walk.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C142",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Show that every infinite Bernoulli-percolation cluster on any Cayley graph with transient simple random walk itself supports a transient SRW a.s., or give a counterexample.",
+    "source_local_ids": [
+      "LYONS1990RWPT"
+    ],
+    "unproved_interface": "Formal120 C142 (暂留 Cayley 图的无限渗流簇是否均暂留) asks: 若 Cayley 图 G 上简单随机游走暂留，则对 Bernoulli 边渗流，几乎处处每个无限簇上的简单随机游走也暂留。非可和、欧氏等已知类不能替代一般暂留群图。 W20 evidence boundary: Lyons’s percolation/electrical results concern trees and branching number, not arbitrary Cayley graphs or all infinite clusters; the required comparison of effective resistance on the cluster is absent. Missing interface: Show that every infinite Bernoulli-percolation cluster on any Cayley graph with transient simple random walk itself supports a transient SRW a.s., or give a counterexample. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1996BIASED",
+      "M0108"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "auxiliary_only",
+    "source_use": "Lyons’s percolation/electrical results concern trees and branching number, not arbitrary Cayley graphs or all infinite clusters; the required comparison of effective resistance on the cluster is absent.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C143",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove the stated equivalence between positive speed on the Cayley graph and a.s. positive speed on its Bernoulli-percolation infinite cluster in the specified infinite-cluster regime.",
+    "source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1996BIASED",
+      "PZ2008CLT"
+    ],
+    "unproved_interface": "Formal120 C143 (Cayley 图与无限渗流簇的正速度等价性) asks: 对 Cayley 图 G，原图简单随机游走有正速度是否当且仅当 Bernoulli 渗流的无限簇上简单随机游走几乎处处有正速度？在有无限簇的参数范围内解释，非可和情形已有正面结果。 W20 evidence boundary: The read walk sources are tree-based; none compares original-group and percolation-cluster speeds or proves either implication for general Cayley graphs. Missing interface: Prove the stated equivalence between positive speed on the Cayley graph and a.s. positive speed on its Bernoulli-percolation infinite cluster in the specified infinite-cluster regime. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "LYONS1990RWPT",
+      "LPP1996BIASED",
+      "PZ2008CLT"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "auxiliary_only",
+    "source_use": "The read walk sources are tree-based; none compares original-group and percolation-cluster speeds or proves either implication for general Cayley graphs.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C144",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove p_u(G)<1 for every infinite locally finite one-ended quasi-transitive graph, or provide a counterexample; known bounded-cycle-generation group cases do not settle the general class.",
+    "source_local_ids": [
+      "LYONS1990RWPT"
+    ],
+    "unproved_interface": "Formal120 C144 (单端拟传递图的渗流唯一性阈值是否小于1) asks: 无限局部有限单端拟传递图 G 是否总满足 p_u(G)<1？有限表示群 Cayley 图等已解类不覆盖一般拟传递图。 W20 evidence boundary: Lyons’s theorem gives the percolation threshold p_c=1/br(T) for trees. It is not a uniqueness-threshold result for one-ended quasi-transitive graphs and supplies no p_u<1 bound here. Missing interface: Prove p_u(G)<1 for every infinite locally finite one-ended quasi-transitive graph, or provide a counterexample; known bounded-cycle-generation group cases do not settle the general class. No proof or theorem transfer is claimed.",
+    "mapping_status": "auxiliary_only",
+    "matrix_source_local_ids": [
+      "LYONS1990RWPT",
+      "M0093",
+      "M0108"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "auxiliary_only",
+    "source_use": "Lyons’s theorem gives the percolation threshold p_c=1/br(T) for trees. It is not a uniqueness-threshold result for one-ended quasi-transitive graphs and supplies no p_u<1 bound here.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C146",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Establish the equivalence between amenability and the all-generating-sets/all-neighbor-rules zero-one property for the dossier’s full-occupation bootstrap threshold p(G,k).",
+    "source_local_ids": [],
+    "unproved_interface": "Formal120 C146 (可和群是否由自助渗流零一临界值刻画) asks: 群 Γ 是否可和，当且仅当对任意有限生成集及任意 k 邻居自助渗流规则，Cayley 图的全占据临界概率 p(G,k) 总属于{0,1}？取原书全占据定义，不与局部激活阈值混淆。 W20 evidence boundary: W20 has no read bootstrap-percolation source; its tree percolation/electrical criteria do not prove the group-amenability characterization. Missing interface: Establish the equivalence between amenability and the all-generating-sets/all-neighbor-rules zero-one property for the dossier’s full-occupation bootstrap threshold p(G,k). No proof or theorem transfer is claimed.",
+    "mapping_status": "not_covered",
+    "matrix_source_local_ids": [
+      "LYONS1990RWPT",
+      "M0108"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "trees_networks"
+    ],
+    "candidate_source_local_ids": [],
+    "scope_classification": "not_covered",
+    "source_use": "W20 has no read bootstrap-percolation source; its tree percolation/electrical criteria do not prove the group-amenability characterization.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "C149",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Prove the stated CLT for the centered, variance-normalized Euclidean TSP tour length in the unit square, including variance nondegeneracy and its needed lower bound.",
+    "source_local_ids": [],
+    "unproved_interface": "Formal120 C149 (平面欧氏旅行商长度的中心极限定理) asks: X_1,…,X_n为单位正方形内IID均匀点，L_n为经过全部点的最短闭合欧氏旅行商路线总长度。证明 (L_n−E L_n)/sqrt(Var L_n) 分布趋于 N(0,1)；相应方差非零与所需下界必须包括在论证中。 W20 evidence boundary: W20 has no read source for the Euclidean TSP CLT; route-network length averages, FPP passage times and Poisson-road geodesics are different functionals. Missing interface: Prove the stated CLT for the centered, variance-normalized Euclidean TSP tour length in the unit square, including variance nondegeneracy and its needed lower bound. No proof or theorem transfer is claimed.",
+    "mapping_status": "not_covered",
+    "matrix_source_local_ids": [
+      "M0095",
+      "M0097",
+      "M0098",
+      "M0103",
+      "M0106"
+    ],
+    "matrix_source_ids_note": "Inherited from catalogue/problem_tool_matrix.json as an unvalidated candidate association only; not evidence for the W20 use.",
+    "candidate_source_keys": [
+      "stein_survey"
+    ],
+    "candidate_source_local_ids": [
+      "M0103",
+      "M0106"
+    ],
+    "scope_classification": "not_covered",
+    "source_use": "W20 has no read source for the Euclidean TSP CLT; route-network length averages, FPP passage times and Poisson-road geodesics are different functionals.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A027",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "等价测度不自动消除环境链的不变子结构；需要把树流规则诱导的环境变换、其不变测度及不变σ代数写明。",
+    "source_local_ids": [],
+    "unproved_interface": "等价测度不自动消除环境链的不变子结构；W20 尚无已读来源卡证明目标环境链的遍历性。",
+    "mapping_status": "scope-routed auxiliary candidate; source theorem and exact problem statement not yet validated"
+  },
+  {
+    "problem_id": "B148",
+    "tool": "probability-random-spatial-tree-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "沿射线的有线最小生成森林灌木分布需要精确定义观察窗口、极限拓扑与一般群上的独立/单调结构。",
+    "source_local_ids": [],
+    "unproved_interface": "一般群上不一定有独立灌木或可用的单调出水口参数；W07 森林文献可提供背景，但本 W20 队列尚无对应全文阅读。",
+    "mapping_status": "scope-routed auxiliary candidate; source theorem and exact problem statement not yet validated"
+  }
+]

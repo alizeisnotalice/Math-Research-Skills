@@ -1,0 +1,1086 @@
+[
+  {
+    "local_id": "W02-S001",
+    "title": "Martingale theory lecture notes",
+    "authors": [
+      "Márton Balázs"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://people.maths.bris.ac.uk/~mb13434/mart_thy_notes.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Complete University of Bristol course notes covering measure/probability foundations, discrete martingale transforms and optional stopping, upcrossing and L2 convergence, Doob decomposition/brackets, uniform integrability, Doob maximal inequality, and a finite binomial option-pricing application; all 29 physical pages read.",
+    "topics": [],
+    "metadata_status": "verified official course page and PDF front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S001.pdf",
+    "sha256": "53deb50892600899a091d0cdbdc859d653954b3cf275f981cd7880c73aa3c591",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–29 (all physical pages read: front matter, §§1–11, and references)"
+    ],
+    "review_status": "pending",
+    "pdf_scope": "complete 29-page University of Bristol course-notes document",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "document_type": "course_notes",
+    "full_document_read": true,
+    "strict_type": "course_notes",
+    "qualifies_for_tool_source_count": false,
+    "quota_eligibility_reason": "complete course-notes read retained as background; excluded from independent scholarly source count"
+  },
+  {
+    "local_id": "W02-S002",
+    "title": "A Formalization of Doob’s Martingale Convergence Theorems in mathlib",
+    "authors": [
+      "Kexing Ying",
+      "Rémy Degenne"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": "10.1145/3573105.3575675",
+    "url": "https://arxiv.org/abs/2212.05578",
+    "alternate_urls": [
+      "https://doi.org/10.1145/3573105.3575675"
+    ],
+    "version": "arXiv:2212.05578v1",
+    "reason": "Formal proof assistant development of discrete martingale convergence results; full paper read for precise theorem assumptions and proof dependencies.",
+    "topics": [],
+    "metadata_status": "verified arXiv and ACM metadata",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S002.pdf",
+    "sha256": "56bd37e5f6bdf191f73ca53b1f7b3f75a27a53b3902098db7f0e7c42b6c29b63",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–14 (Full paper, all physical PDF pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S003",
+    "title": "The Martingale Problem Method Revisited",
+    "authors": [
+      "David Criens",
+      "Peter Pfaffelhuber",
+      "Thorsten Schmidt"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2108.11930",
+    "alternate_urls": [],
+    "version": "arXiv:2108.11930v1",
+    "reason": "Full-paper source for martingale-problem identification and semimartingale stability; Theorem 2.28, Corollary 2.31, and fixed-discontinuity applications support weak-limit proof interfaces.",
+    "topics": [
+      "C112"
+    ],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S003.pdf",
+    "sha256": "c16b91ee97ccd0ff62c17e3cca16f165581dde1189f34cd4c678beef85e69da5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–38 (all physical pages read); Definitions 2.1–2.25, Theorem 2.28/Corollary 2.31 and proofs, Theorems 4.3 and 4.6 and proof dependencies, examples, appendices, and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S004",
+    "title": "The Martingale Approach after Varadhan and Dolgopyat",
+    "authors": [
+      "Jacopo De Simoi",
+      "Carlangelo Liverani"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1402.0090",
+    "alternate_urls": [],
+    "version": "arXiv:1402.0090v3",
+    "reason": "Full-paper source for the specialized martingale-problem proof of averaging and fluctuation limits in uniformly expanding fast–slow systems.",
+    "topics": [
+      "C112"
+    ],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S004.pdf",
+    "sha256": "74f1977b6e8f7768c9aa0f543e85553dba0db12668c33e1aafc1f388a7bf4595",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–28 (all physical pages read); model assumptions, Theorems 2.1–2.2, averaging and fluctuation proof sections, appendices, and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S005",
+    "title": "On Tail Probabilities for Martingales",
+    "authors": [
+      "David A. Freedman"
+    ],
+    "year": 1975,
+    "kind": "paper",
+    "doi": "10.1214/aop/1176996452",
+    "url": "https://doi.org/10.1214/aop/1176996452",
+    "alternate_urls": [
+      "https://projecteuclid.org/journals/annals-of-probability/volume-3/issue-1/On-Tail-Probabilities-for-Martingales/10.1214/aop/1176996452.full"
+    ],
+    "version": null,
+    "reason": "Core source for bounded-increment, predictable-variance crossing bounds and the role of stopping.",
+    "topics": [],
+    "metadata_status": "verified IMS/DOI and paper front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S005.pdf",
+    "sha256": "51f17db7951702ea0e536e38325a8da33eeabe0c57472e41d266bd9bced4d332",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–19 (all pages read in extracted text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S006",
+    "title": "Time-uniform Chernoff bounds via nonnegative supermartingales",
+    "authors": [
+      "Steven R. Howard",
+      "Aaditya Ramdas",
+      "Jon D. McAuliffe",
+      "Jasjeet Sekhon"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1214/18-PS321",
+    "url": "https://arxiv.org/abs/1808.03204v8",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1808.03204v8",
+      "https://doi.org/10.1214/18-PS321"
+    ],
+    "version": "arXiv:1808.03204v8; official arXiv record says last revised 17 Dec 2025; published article in Probability Surveys 17 (2020), 257–317",
+    "reason": "Full read of local arXiv v8 preprint for time-uniform exponential line-crossing bounds via nonnegative supermartingales; distinct from the 2020 journal publication.",
+    "topics": [],
+    "metadata_status": "2020 journal citation verified separately; local preprint revision bound to official arXiv v8 record (version-specific URL)",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S006.pdf",
+    "sha256": "7d0a6788b11fe9bbcc36ae19b0c7c18cf39d9e12ab82c6cce59834244efa7cd2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–63 (all physical pages read); Definitions 1–2, Theorem 1 and proof, sub-ψ sufficient conditions, applications, proofs, Appendices A–E, and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S007",
+    "title": "Exponential inequalities for martingales with applications",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v20-3496",
+    "url": "https://arxiv.org/abs/1311.6273",
+    "alternate_urls": [
+      "https://doi.org/10.1214/EJP.v20-3496"
+    ],
+    "version": "arXiv:1311.6273v3",
+    "reason": "Full-paper source for discrete finite-horizon exponential inequalities for supermartingale differences using conditional exponential-normalizer, negative-third-moment, conditional Bernstein, conditional-symmetry, and one-sided sub-Gaussian hypotheses; includes regression, autoregression, and branching-process applications.",
+    "topics": [],
+    "metadata_status": "verified EJP DOI and arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S007.pdf",
+    "sha256": "048bfe95a33fe7e79a22541b53b7e0685108d054e8a37d6cdabcddc2d97ab7e1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–22 (all physical pages read); Theorems 2.1–2.7, proof arguments, applications, appendices, and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S008",
+    "title": "Hoeffding’s inequality for supermartingales",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1016/j.spa.2012.06.009",
+    "url": "https://arxiv.org/abs/1109.4359",
+    "alternate_urls": [
+      "https://doi.org/10.1016/j.spa.2012.06.009"
+    ],
+    "version": "arXiv:1109.4359v5",
+    "reason": "Full-read source for one-sided bounded supermartingale-difference maximal tail bounds; finite-n exact refinement of Freedman/Hoeffding.",
+    "topics": [],
+    "metadata_status": "verified publisher metadata and arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S008.pdf",
+    "sha256": "a6e215ea2623c82f1e3b2b17016eb093d37a3d18a81a463d0e2f3f44d6e943a6",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–20 (all pages read in extracted text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S009",
+    "title": "Large deviation exponential inequalities for supermartingales",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1214/ECP.v17-2318",
+    "url": "https://arxiv.org/abs/1111.1407",
+    "alternate_urls": [
+      "https://doi.org/10.1214/ECP.v17-2318"
+    ],
+    "version": "arXiv:1111.1407v3",
+    "reason": "Complete local paper gives unbounded-increment maximal deviation inequalities under two-sided or positive-part exponential moments, with explicit bracket and tail remainder.",
+    "topics": [],
+    "metadata_status": "verified ECP/arXiv metadata",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S009.pdf",
+    "sha256": "d349bcb7490d61cf14a0751fcc46f4a101be94725fdde491e98736eec77451b7",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–9 (all physical pages); Theorems 2.1–2.2, Corollary 2.1, proofs and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S010",
+    "title": "Martingale inequalities of type Dzhaparidze and van Zanten",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.1080/02331888.2017.1318138",
+    "url": "https://arxiv.org/abs/1404.4776",
+    "alternate_urls": [
+      "https://doi.org/10.1080/02331888.2017.1318138"
+    ],
+    "version": "arXiv:1404.4776v2",
+    "reason": "Unbounded-increment refinements to Freedman-type bounds; full paper read for truncation and moment assumptions.",
+    "topics": [],
+    "metadata_status": "verified arXiv metadata and article DOI",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S010.pdf",
+    "sha256": "8dfcc8ef6c48f47ef7071c1a091563d6ff9c1fc9ec03985826a984862d1ca076",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–15 (Full paper, all physical PDF pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S011",
+    "title": "Nonuniform Berry-Esseen bounds for martingales with applications to statistical estimation",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1608.05217",
+    "alternate_urls": [],
+    "version": "arXiv:1608.05217v1",
+    "reason": "Nonuniform Berry–Esseen and Cramér-tail bounds for martingale arrays under conditional Bernstein and predictable-bracket assumptions; also supplies regression and self-normalized applications under separate hypotheses. Corollary 2.2’s bracket-fluctuation term has exp(-x^2/6), while its first term alone uses the corrected threshold from equation (13).",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S011.pdf",
+    "sha256": "46138b2ed0e4d49943c50766a7630db89d64b3d6e36d000352cddb6d44d5adbc",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–21 (all physical pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S012",
+    "title": "Cramér large deviation expansions for martingales under Bernstein’s condition",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1210.2198",
+    "alternate_urls": [],
+    "version": "arXiv:1210.2198v3",
+    "reason": "Moderate/large deviations for martingale differences under conditional Bernstein conditions; not theorem-read.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S012.pdf",
+    "sha256": "53739dd293f0de1c466a278829271bd71c72b1e68af9504a9ae48a8cdab2dd83",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "strict_type": null,
+    "qualifies_for_tool_source_count": false,
+    "quota_eligibility_reason": "not in the strict-type full-read source set; candidate/unread records remain excluded"
+  },
+  {
+    "local_id": "W02-S013",
+    "title": "A generalization of Cramér large deviations for martingales",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1503.06627",
+    "alternate_urls": [],
+    "version": "arXiv:1503.06627v1",
+    "reason": "Two-sided Cramér tail-ratio expansion and full-line MDP for martingale differences under an absolute conditional exponential-moment condition and almost-sure bracket closeness; brief proof sketch and separate lemma proofs are mapped to their physical pages.",
+    "topics": [],
+    "metadata_status": "verified arXiv identifier in local PDF; external record pending",
+    "identity_status": "verified_pdf",
+    "local_pdf": "evidence/fulltexts/W02-S013.pdf",
+    "sha256": "a3e2357596f3eb7f52bc152e990bb34659578414a502518167592bb7cec5cd77",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–7 (all physical pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S014",
+    "title": "Cramér moderate deviation expansion for martingales with one-sided Sakhanenko’s condition and its applications",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1909.05112",
+    "alternate_urls": [],
+    "version": "arXiv:1909.05112v2",
+    "reason": "One-sided conditional exponential-moment Cramér moderate deviations and positive-tail MDP; the tilted-CLT lemma is deferred to the cited supplement, and the negative-tail and mixing conclusions require their separate hypotheses.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S014.pdf",
+    "sha256": "f0f8ac43c027b3b06824d34e3c403e7b1d5b7ff1d6a1cc836ce308111229a5f2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–24 (all physical pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S015",
+    "title": "Cramér’s moderate deviations for martingales with applications",
+    "authors": [
+      "Xiequan Fan",
+      "Qi-Man Shao"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2204.02562",
+    "alternate_urls": [],
+    "version": "arXiv:2204.02562v2",
+    "reason": "Self-normalized and standardized martingale moderate deviations; candidate only.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S015.pdf",
+    "sha256": "89b06ed0b40f2292d5f6500358000b4baeb4bf5e4eca84cbe9aa98bae584c131",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "strict_type": null,
+    "qualifies_for_tool_source_count": false,
+    "quota_eligibility_reason": "not in the strict-type full-read source set; candidate/unread records remain excluded"
+  },
+  {
+    "local_id": "W02-S016",
+    "title": "Exact rates of convergence in some martingale central limit theorems",
+    "authors": [
+      "Xiequan Fan"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1608.08887",
+    "alternate_urls": [],
+    "version": "arXiv:1608.08887v9",
+    "reason": "Complete local paper proves exact Berry–Esseen rates for discrete martingale CLTs under conditional (2+rho)-moment and predictable-bracket assumptions; relevant to the A127 limit-theorem interface.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S016.pdf",
+    "sha256": "b2d6984a752b840b2043883969507a2abd6fc372b1e52425699ed44012beacf0",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–18 (all physical pages); Theorems 2.1–2.2, stopping corollary, proof sections, appendix and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S017",
+    "title": "Doob-type optional sampling theorems for demimartingales with applications to associated sequences",
+    "authors": [
+      "Milto Hadjikyriakou",
+      "B. L. S. Prakasa Rao"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2507.05023",
+    "alternate_urls": [],
+    "version": "arXiv:2507.05023v4",
+    "reason": "Recent optional-sampling extensions beyond martingales; scope is demimartingales and associated sequences, not interchangeable with martingale OST.",
+    "topics": [],
+    "metadata_status": "verified arXiv v4 front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S017.pdf",
+    "sha256": "5a7bb4e396c37014b10257afdb1b6fd251fbd2433a62872d1f5368ed01b8ac13",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–16 (Full paper, all physical PDF pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S018",
+    "title": "Proving existence results in martingale theory using a subsequence principle",
+    "authors": [
+      "Alexander Sokol"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1205.2482",
+    "alternate_urls": [],
+    "version": "arXiv:1205.2482v2",
+    "reason": "Full-read construction of compensators and quadratic variation by an L2 subsequence principle, then a route to stochastic integration.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter and university thesis record",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S018.pdf",
+    "sha256": "a35003649db447192f4ab2676d41e9be580f65f1f30dd6c903785e18a566ac33",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–16 (all pages read in extracted text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S019",
+    "title": "Central limit theorems for martingales-I: continuous limits",
+    "authors": [
+      "Bruno Rémillard",
+      "Jean Vaillancourt"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2301.07267",
+    "url": "https://arxiv.org/abs/2301.07267",
+    "alternate_urls": [],
+    "version": "arXiv:2301.07267v3",
+    "reason": "Full-read functional martingale CLT with continuous compensator limits, Brownian time change, and occupation-time examples.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified arXiv metadata",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S019.pdf",
+    "sha256": "47ce785925aa8f2c062c8f464c9874294ad1fc7dcd4b7f8af4cc4b1a6fc95aa3",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–18 (all pages read in extracted text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S020",
+    "title": "Simplified Calculus for Semimartingales: Multiplicative Compensators and Changes of Measure",
+    "authors": [
+      "Aleš Černý",
+      "Johannes Ruf"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": "10.1016/j.spa.2023.04.010",
+    "url": "https://doi.org/10.1016/j.spa.2023.04.010",
+    "alternate_urls": [
+      "https://arxiv.org/search/?query=Simplified+Calculus+for+Semimartingales&searchtype=title"
+    ],
+    "version": null,
+    "reason": "Semimartingale representation, multiplicative compensation, and Girsanov results; full paper read for stochastic-integral domain and localization boundaries.",
+    "topics": [],
+    "metadata_status": "verified publisher DOI and local PDF front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S020.pdf",
+    "sha256": "a652ce850f79785940892921856962e0f0b87e8ecab8a7f64dece0fda9d65272",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–30 (Full paper, all physical PDF pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S021",
+    "title": "Martingales with Independent Increments",
+    "authors": [
+      "Freddy Delbaen"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2406.18716",
+    "alternate_urls": [],
+    "version": "arXiv:2406.18716v3",
+    "reason": "Freddy Delbaen’s L2 decomposition for discrete martingales with conditionally atomless innovations and Brownian-filtration Gaussian decompositions.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S021.pdf",
+    "sha256": "80406995e906c6699b08fb1d23c9266526ab2c5f0991c5335c1bd9a28d5986d1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–11; all physical pages read; Theorems 1.1, 1.2, 2.1, 3.4, 5.4 and their proof sections."
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S022",
+    "title": "Martingale solutions for the three-dimensional stochastic nonhomogeneous incompressible Navier-Stokes equations driven by Lévy processes",
+    "authors": [
+      "Robin Ming Chen",
+      "Dehua Wang",
+      "Huaqiao Wang"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1801.06696",
+    "alternate_urls": [],
+    "version": "arXiv:1801.06696v1",
+    "reason": "Specialized 3D stochastic nonhomogeneous Navier–Stokes martingale-solution existence proof; useful as a concrete Lévy-noise BDG/localization/tightness/stochastic-integral passage, not a general martingale-problem or uniqueness theorem. The source calls its angle-bracket process quadratic variation without defining the jump-bracket convention; the card isolates this ambiguity and prevents a predictable-bracket lower-BDG misapplication.",
+    "topics": [
+      "C112"
+    ],
+    "metadata_status": "verified_arXiv_front_matter",
+    "identity_status": "verified_arXiv_front_matter",
+    "local_pdf": "evidence/fulltexts/W02-S022.pdf",
+    "sha256": "020260a5fca4f4df4f08b77b889f311a370d5b188ba582e8a55b249e3cb52f0b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–32 (all physical pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S023",
+    "title": "Single Jump Processes and Strict Local Martingales",
+    "authors": [
+      "Martin Herdegen",
+      "Sebastian Herrmann"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1510.03192",
+    "alternate_urls": [],
+    "version": "arXiv:1510.03192v1",
+    "reason": "Explicit strict-local-martingale examples diagnose when localization fails to preserve expectations; complete read documents the stated scope and limitations.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S023.pdf",
+    "sha256": "44c2855f0d5bbff434951a7b76dac0dce5e198dc034baad9859f4115f46cc9de",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–21 (Full paper, all physical PDF pages read)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S024",
+    "title": "Stability in Burkholder’s differentially subordinate martingales inequalities and applications to Fourier multipliers",
+    "authors": [
+      "Rodrigo Bañuelos",
+      "Adam Osękowski"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1609.08672",
+    "alternate_urls": [],
+    "version": "arXiv:1609.08672v1",
+    "reason": "Complete local paper develops sharp differential-subordination/Bellman inequalities and a sharp scalar Riesz-transform component estimate; auxiliary only for C207 vector-constant question.",
+    "topics": [
+      "C207"
+    ],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S024.pdf",
+    "sha256": "db7350b06e390122213ea8e70375eb42de9d4801e19146645b5c271ad8e5d310",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–42 (all physical pages); sharp differential-subordination and stability theorems, Bellman proofs, Fourier/Riesz applications and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S025",
+    "title": "Sharp supremum and Hölder bounds for stochastic integrals indexed by a parameter",
+    "authors": [
+      "Sonja Cox",
+      "Joris van Winden"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2409.13615",
+    "alternate_urls": [],
+    "version": "arXiv:2409.13615v1",
+    "reason": "Cox–van Winden’s countable stochastic-convolution and martingale suprema, parameter-Hölder stochastic integral estimates, OU bounds and 1D parabolic Anderson application.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S025.pdf",
+    "sha256": "dcda9e5b9edd61942aad3df1849da2d079b14c81aac79e25e2cb0ff85f73b0cf",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–29; all physical pages read; §§1–10, Appendix A and references."
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S026",
+    "title": "On the compensator in the Doob-Meyer decomposition of the Snell envelope",
+    "authors": [
+      "Saul D. Jacka",
+      "Dominykas Norgilas"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1703.08413",
+    "alternate_urls": [],
+    "version": "arXiv:1703.08413v4",
+    "reason": "Complete local paper proves absolute continuity and domination of the Snell-envelope compensator under class-D, special-semimartingale and local-H1 hypotheses, and gives Markov-generator/duality applications.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S026.pdf",
+    "sha256": "1fd3611ce73c9da3ef0dc483be97d9672715de99fab936dcea7599cbb1cc1895",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–27 (all physical pages); Snell envelope decomposition, compensator theorem, Markov generator, duality, smooth fit, appendices and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S027",
+    "title": "The Type-II Error of Test Supermartingales: e-Power versus the Chernoff–Stein Exponent",
+    "authors": [
+      "Patrick Forré"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2609.27765",
+    "alternate_urls": [],
+    "version": "arXiv:2609.27765v1",
+    "reason": "Finite-horizon and asymptotic type-II error bounds for test supermartingales under simple hypotheses; distinguishes arbitrary filtrations from the i.i.d. matching construction and shows why e-power alone gives no uniform finite-horizon guarantee.",
+    "topics": [],
+    "metadata_status": "verified arXiv v1 front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S027.pdf",
+    "sha256": "1de97d7700ddbf8cb99c03f6753a2dd371ebc4e47ed5bffdaad4cec2eb80aa4e",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–47 (all physical pages read, including Appendices A–B and references)"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S028",
+    "title": "Martingale Optimal Transport with Stopping",
+    "authors": [
+      "Erhan Bayraktar",
+      "Alexander M. G. Cox",
+      "Yavor Stoev"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1701.06231",
+    "alternate_urls": [],
+    "version": "arXiv:1701.06231v4",
+    "reason": "Finite-support martingale optimal transport with stopping via measure-valued martingales, stochastic Perron and a viscosity/concave-envelope characterization.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S028.pdf",
+    "sha256": "295b0c9d7dce14c293d5ca962790e2f8092d44e03aff33f4f72146581ba75aae",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–18; all physical pages read; §§1–4, Appendix A and references."
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S029",
+    "title": "From optimal martingales to randomized dual optimal stopping",
+    "authors": [
+      "Denis Belomestny",
+      "John Schoenmakers"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2102.01533",
+    "alternate_urls": [],
+    "version": "arXiv:2102.01533v1",
+    "reason": "Finite-grid Snell-envelope duality, characterization of weak/surely optimal martingales and the randomized dual perturbation theorem.",
+    "topics": [],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S029.pdf",
+    "sha256": "dc4c75ab5a20aa34340c524c5810c940a43cae6de58bac65f6b818bbf70c03de",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–27; all physical pages read; §§1–5 and references."
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S030",
+    "title": "Itô isomorphisms for Lp-valued Poisson stochastic integrals",
+    "authors": [
+      "Sjoerd Dirksen"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1214/13-AOP906",
+    "url": "https://arxiv.org/abs/1208.3885",
+    "alternate_urls": [
+      "https://doi.org/10.1214/13-AOP906"
+    ],
+    "version": "arXiv:1208.3885v3",
+    "reason": "Complete local paper proves Lp-valued compensated-Poisson integral isomorphisms for simple adapted integrands in classical and noncommutative Lq spaces, under UMD/independent-increment assumptions.",
+    "topics": [],
+    "metadata_status": "verified Annals/arXiv metadata",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S030.pdf",
+    "sha256": "c7a4dec8102c2b5b63bb6c62f4cdab69271cb89fdcf184d039d5487ae3c49f8d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–51 (all physical pages); classical and noncommutative Poisson Itô isomorphisms, Rosenthal proofs, appendices and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S031",
+    "title": "On the martingale problem for degenerate-parabolic partial differential operators with unbounded coefficients and a mimicking theorem for Itô processes",
+    "authors": [
+      "Paul M. N. Feehan",
+      "Camelia Pop"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1211.4636",
+    "alternate_urls": [],
+    "version": "arXiv:1211.4636v3",
+    "reason": "Specialized half-space degenerate-diffusion martingale-problem well-posedness, weak-SDE strong Markov property and one-time marginal mimicking; auxiliary to C112 only.",
+    "topics": [
+      "C112"
+    ],
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S031.pdf",
+    "sha256": "838e89ac3ef9070a523b1211f3e1ae66afa7eafbd7f4325f94dcca2a97414c38",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–27; all physical pages read; §§1–3 and references."
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "local_id": "W02-S032",
+    "title": "Convergence Theorems for Martingales",
+    "authors": [],
+    "year": null,
+    "kind": "book",
+    "doi": null,
+    "url": "https://www.mi.uni-koeln.de/~moerters/lectures/martingales.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Unverified 32-page PDF candidate. Local encoding is unreadable; do not use as evidence until title/author and readable original are verified.",
+    "topics": [],
+    "metadata_status": "unverified candidate; local PDF text is unreadable and source identity/full-book scope unresolved",
+    "identity_status": "unverified_candidate_not_counted",
+    "local_pdf": "evidence/fulltexts/W02-S032.pdf",
+    "sha256": "40752072e4edad8c2fcc42eec5b837b60fbbf733f8360ce3dcf5443e7a9caf83",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "strict_type": null,
+    "qualifies_for_tool_source_count": false,
+    "quota_eligibility_reason": "not in the strict-type full-read source set; candidate/unread records remain excluded"
+  },
+  {
+    "local_id": "W02-S033",
+    "title": "Burkholder-Davis-Gundy Inequalities in UMD Banach Spaces",
+    "authors": [
+      "Ivan S. Yaroslavtsev"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1007/s00220-020-03845-7",
+    "url": "https://arxiv.org/abs/1807.05573",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00220-020-03845-7"
+    ],
+    "version": "arXiv:1807.05573v4",
+    "reason": "Full-paper source for UMD Banach-valued continuous-time BDG, jump versions, and stochastic-integral norm estimates with Gaussian-radonifying covariation.",
+    "topics": [],
+    "metadata_status": "verified arXiv and Communications in Mathematical Physics record",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W02-S033.pdf",
+    "sha256": "cfb774d17351855496df9bf7efb57987e9a8bcbd851484feb0df540b35260427",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF 1–43 (all physical pages read); Theorems 1.1, 5.1, 6.1, 6.5, 7.3, Corollary 7.4, proof dependencies, and references"
+    ],
+    "review_status": "pending",
+    "section_coverage_file": "evidence/W02/reading_coverage.json",
+    "strict_type": "independent_scholarly_article",
+    "document_type": "independent_scholarly_article",
+    "qualifies_for_tool_source_count": true,
+    "quota_eligibility_reason": "approved independent scholarly source in the v1 strict-type set"
+  },
+  {
+    "title": "Stopping Times and Tightness II",
+    "authors": [
+      "David Aldous"
+    ],
+    "year": 1987,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://digicoll.lib.berkeley.edu/record/86028?ln=en",
+    "alternate_urls": [
+      "https://digicoll.lib.berkeley.edu/record/86028/files/124.pdf",
+      "https://www.stat.berkeley.edu/~pitman/aldbib/bydate.html"
+    ],
+    "version": "Berkeley Statistics Technical Report No. 124, November 1987; later published in Annals of Probability 17(2) (1989), 586–595; local PDF is the report version.",
+    "reason": "Canonical A007 auxiliary: conditional process-convergence templates only; transfer requires separately proving the relevant process representation, f.d.d. convergence, fixed-time UI or full stopping-time Gamma conditions, and continuity.",
+    "topics": [
+      "A007",
+      "A008",
+      "A127"
+    ],
+    "metadata_status": "verified_from_title_page_and_official_Berkeley_record",
+    "identity_status": "verified_pdf_title_page_and_report_record",
+    "pages": 16,
+    "document_type": "independent_scholarly_article",
+    "pdf_scope": "complete 16-page Berkeley Technical Report 124 (1987 report version)",
+    "sha256": "27e26a11e1d4e9b072b7e5ac46081160c32a113a1f9d39ebd03dd14f7e61823d",
+    "download_status": "acquired_by_D04; PDF parsed and fulltext read by W01",
+    "full_document_acquired": true,
+    "document_pages": 16,
+    "full_book_acquired": false,
+    "read_units": [
+      {
+        "unit": "entire technical report",
+        "pdf_pages": [
+          1,
+          16
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All 16 physical pages read; §§1–4 occupy PDF pp.3–14 (printed pp.1–12), references pp.15–16 (printed pp.13–14). Key theorem/proof pages rendered and checked."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "local_id": "W02-CANON-ALDOUS-1987",
+    "local_pdf": "evidence/fulltexts/W02-CANON-ALDOUS-1987.pdf",
+    "reading_status": "reuses_canonical",
+    "read_pages": [],
+    "review_status": "pending",
+    "canonical_source_id": "PR-bfe99a3417b7",
+    "canonical_local_id": "W01-L16",
+    "canonical_full_read_accepted": true,
+    "canonical_source_approval": "evidence/W02/source_approvals/W01-L16-read-decision.json",
+    "usage_evidence_accepted": true,
+    "source_use_approval": "evidence/W02/source_approvals/R04-PR-bfe99a3417b7-usage-decision.json",
+    "section_coverage_file": "evidence/canonical_reads/PR-bfe99a3417b7/W01-reading_coverage.json",
+    "qualifies_for_tool_source_count": true,
+    "strict_type": "independent_scholarly_article",
+    "quota_candidate_for_v2": true,
+    "counts_as_new_fulltext_read": false,
+    "reader_worker": "W01 canonical full read; W02 use independently accepted by R04",
+    "usage_card": "evidence/W02/cards/W02-CANON-ALDOUS-1987.md",
+    "local_pdf_base": "skill_root",
+    "counts_as_new_global_source": false
+  }
+]

@@ -1,0 +1,1784 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "skill": "math-paper-writing",
+      "assets": [
+        {
+          "path": "references/user-writing-guidelines.pdf",
+          "anchor": "asset-e4e986445439",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 209119,
+          "sha256": "0da43c8f091b4d024eab1a23f7f7ddfe3200b108b4ddf2cc57ee3eba2a0c708f"
+        }
+      ]
+    },
+    {
+      "skill": "probability-analytic-endpoint-methods",
+      "assets": [
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p2.png",
+          "anchor": "asset-77f214417a79",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 615472,
+          "sha256": "da4a44f93fcd2fb0694e4a5ebfc55af8e7222b8a3c70f80efcc52c5926501d96"
+        },
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p5.png",
+          "anchor": "asset-a8b7f231bbd0",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 387797,
+          "sha256": "434a09390243e2412d52de775964a2cd33e6c503e4eacf5f8a2658df66660776"
+        },
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p10.png",
+          "anchor": "asset-bc69d6437e45",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 385175,
+          "sha256": "216d8691fb6585c820762c7efb6ebd5f122fa4f2120a648fdc62ced65ea3a04f"
+        },
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p11.png",
+          "anchor": "asset-8f522623f27e",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 392451,
+          "sha256": "9f037e1cbb4b087c8fc03dc0bd45cca576a17535821e7fd7a1ddc7f187092b96"
+        },
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p12.png",
+          "anchor": "asset-1a3ee084d31a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 443778,
+          "sha256": "08298303fe8f7a1c696095ebd821fea6ed386be83d3211ae5b5ba03cc8d18cfb"
+        },
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p13.png",
+          "anchor": "asset-58e1651b6230",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 390106,
+          "sha256": "05a8349f8402777864629146321ddfc1ad75918667266243666206854f1138c2"
+        },
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p14.png",
+          "anchor": "asset-8a3e010301ac",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 497445,
+          "sha256": "1c3d640e71cc72dee0f227d4450c6c96990f0280091613eb0ac7cbac047119d9"
+        },
+        {
+          "path": "evidence/W25/artifacts/L01_B1/rendered/CZ-03/analytic-CZ03-Spector-Stockdale-arXiv-v2-p16.png",
+          "anchor": "asset-38033b46a5b9",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 768376,
+          "sha256": "ae968fe075a93eb0c11fc754e2638ef921bce19e71fa3550cb2ba49bb1f0b5d0"
+        },
+        {
+          "path": "evidence/runtime_assets/f966b43cd6884fff-AEP019-p01.png",
+          "anchor": "asset-49d754fad422",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 300640,
+          "sha256": "f966b43cd6884fff389121ff2c78e1873407be15e090bdf163cf4892247c0c65"
+        },
+        {
+          "path": "evidence/runtime_assets/05618ccc5b225457-AEP019-p03.png",
+          "anchor": "asset-e4c973e15c4d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1148584,
+          "sha256": "05618ccc5b2254575aff62149e57eec66e248b1b326a727d586111040d3ad4bf"
+        },
+        {
+          "path": "evidence/runtime_assets/f39193f38849cbc2-AEP019-p04.png",
+          "anchor": "asset-fef2b6a005ac",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1056765,
+          "sha256": "f39193f38849cbc22189e60bd93cadd77feed9c7a1456b2b578115d152aacea3"
+        },
+        {
+          "path": "evidence/runtime_assets/3b8f06e842c7eda1-AEP019-p05.png",
+          "anchor": "asset-683730f12fbd",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 890786,
+          "sha256": "3b8f06e842c7eda1cdc0efb4726ca9bdcc73edff9b56baa10acc4049a76bb029"
+        },
+        {
+          "path": "evidence/runtime_assets/b8403890fbdee4ad-AEP019-p06.png",
+          "anchor": "asset-bc6a520944aa",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1022636,
+          "sha256": "b8403890fbdee4ade858b8eab84c4129437529b5d004c45b9c9f4390f3ec9747"
+        },
+        {
+          "path": "evidence/runtime_assets/91c54311d96f5aad-AEP019-p09.png",
+          "anchor": "asset-ac81a4feb92c",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 912024,
+          "sha256": "91c54311d96f5aadc52099c66ab1a11da322d53307c989543196071a7cb52f96"
+        },
+        {
+          "path": "evidence/runtime_assets/069ea486544ce1c2-AEP019-p10.png",
+          "anchor": "asset-a880235708ca",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1016481,
+          "sha256": "069ea486544ce1c2a91369fbf96652e81518346d3838b0bf506179a452307e1f"
+        },
+        {
+          "path": "evidence/runtime_assets/215b6802f07b59c3-AEP019-p12.png",
+          "anchor": "asset-c328c842467c",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 994126,
+          "sha256": "215b6802f07b59c398fe09cf54e3ee8322509917e9ff90dfc3f15a32065a9647"
+        },
+        {
+          "path": "evidence/runtime_assets/3527357b16695095-AEP019-p14.png",
+          "anchor": "asset-a58e6c392b99",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1034731,
+          "sha256": "3527357b16695095f78ff45c76d12431e3c2eb3e4ae1d66dfcab364e4e8ddc7e"
+        },
+        {
+          "path": "evidence/runtime_assets/4e28619b7d308a9a-AEP019-p16.png",
+          "anchor": "asset-3ace8e82fe52",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 703412,
+          "sha256": "4e28619b7d308a9adec09c026335900a1d5c54efa324d427efa6d21d84d32dce"
+        },
+        {
+          "path": "evidence/runtime_assets/cd8016a18ee84719-AEP018-p01.png",
+          "anchor": "asset-9ee058a14e62",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 523581,
+          "sha256": "cd8016a18ee84719dc2e6d14c2de9829856702990b3f3f38c87979a49c2ba455"
+        },
+        {
+          "path": "evidence/runtime_assets/9b387b69f8e29c12-AEP018-p04.png",
+          "anchor": "asset-2649b824d269",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 582928,
+          "sha256": "9b387b69f8e29c12a768683f61d54a697f31c3df6e6aaebf238674682b07b52f"
+        },
+        {
+          "path": "evidence/runtime_assets/47576446b330900f-AEP018-p05.png",
+          "anchor": "asset-7a466881b0e0",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 575101,
+          "sha256": "47576446b330900fcd0a18e01d0642fdc86ad9196445460537a9545e5e0731a6"
+        },
+        {
+          "path": "evidence/runtime_assets/9a5fedeb5500ab5c-AEP018-p11.png",
+          "anchor": "asset-a8a27a31d20b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 490049,
+          "sha256": "9a5fedeb5500ab5c239d526316874f740978eadde948af38ad59063925fbe78f"
+        },
+        {
+          "path": "evidence/runtime_assets/6d8a38a3f0ce2a24-AEP018-p12.png",
+          "anchor": "asset-2e699eedbd3f",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 494450,
+          "sha256": "6d8a38a3f0ce2a24e733b6bb3d11196ceeb10fa7aa8f7e97ef605c157360c283"
+        },
+        {
+          "path": "evidence/runtime_assets/c564c77845a27bce-AEP018-p13.png",
+          "anchor": "asset-cc080471492a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 524523,
+          "sha256": "c564c77845a27bce27ac6f6fe0a17c889dcc19cf4ca8cbc7ab797e1581b0d3b9"
+        },
+        {
+          "path": "evidence/runtime_assets/87b241bf8fe5bb98-AEP018-p14.png",
+          "anchor": "asset-54d6eed4f5b0",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 512598,
+          "sha256": "87b241bf8fe5bb98b5af588607f706b1d1513f640b135198c1371983a2403cca"
+        },
+        {
+          "path": "evidence/runtime_assets/71af14b66c87fe75-AEP018-p15.png",
+          "anchor": "asset-6ab1c9a369c1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 673257,
+          "sha256": "71af14b66c87fe75ceaebd85443307590d8489cb9927a818893f11cc0943e81d"
+        },
+        {
+          "path": "evidence/runtime_assets/e1cb55b909649c1c-AEP018-p16.png",
+          "anchor": "asset-52fc94d0e8ea",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 512802,
+          "sha256": "e1cb55b909649c1ce73fb96957b0ab4ee5412702e5f4687260b964a00178f15a"
+        },
+        {
+          "path": "evidence/runtime_assets/0168d3081fadc025-AEP-EXT-003-p02.png",
+          "anchor": "asset-3f021e1c0bf8",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 669748,
+          "sha256": "0168d3081fadc02536292317651909e693df55de32741620a11fd925d0bf293c"
+        },
+        {
+          "path": "evidence/runtime_assets/06613f5c8627dc5b-AEP-EXT-003-p03.png",
+          "anchor": "asset-966739a497b4",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 629442,
+          "sha256": "06613f5c8627dc5ba23553d3af76bd20cc9225424bfc047e36c1cb9ca05b7faa"
+        },
+        {
+          "path": "evidence/runtime_assets/b06ce9a2b7928661-AEP-EXT-003-p04.png",
+          "anchor": "asset-d83e36594ea5",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 641402,
+          "sha256": "b06ce9a2b7928661f00652a835339378065119ce5397ef9cca877dcd1b593eb0"
+        },
+        {
+          "path": "evidence/runtime_assets/b0a7286526117b65-AEP-EXT-003-p10.png",
+          "anchor": "asset-ccf59cb350e6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 545815,
+          "sha256": "b0a7286526117b65ead472db298b4b5beeca6ca0e47e438a36402eecb6eb32ce"
+        },
+        {
+          "path": "evidence/runtime_assets/051785f13fa26773-AEP-EXT-003-p11.png",
+          "anchor": "asset-bc6bdbf50d1a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 725250,
+          "sha256": "051785f13fa26773ab77763f241b71c3a3b2211a4680221e3b8d9774ecafcd11"
+        },
+        {
+          "path": "evidence/runtime_assets/c3d6063915c66e2e-AEP-EXT-003-p12.png",
+          "anchor": "asset-9ec165bea987",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 550566,
+          "sha256": "c3d6063915c66e2e83f2b4b3bbd54c025f3d6ead7c6f38a30274a2d2e1556fb6"
+        },
+        {
+          "path": "evidence/runtime_assets/768108ccacfe48ec-AEP-EXT-003-p13.png",
+          "anchor": "asset-2557f3a9bc32",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 602090,
+          "sha256": "768108ccacfe48ec8f06ed2a18eff455f1ecf1e1ea90a98f83e825a791f7d082"
+        },
+        {
+          "path": "evidence/runtime_assets/137e77b324712c4a-AEP-EXT-003-p15.png",
+          "anchor": "asset-434dcc0e348b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 436179,
+          "sha256": "137e77b324712c4acf856169ea47f92b013f55e854304ef422c350786a8f43dd"
+        },
+        {
+          "path": "evidence/runtime_assets/7f14a3ac5030c9a1-AEP-EXT-003-p16.png",
+          "anchor": "asset-36f6ace2ac1d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 408625,
+          "sha256": "7f14a3ac5030c9a108c2c7102111e1ab1d44e64c91c31da338b10f1bf6c5ebab"
+        },
+        {
+          "path": "evidence/runtime_assets/cd72d0aae9fee4e5-AEP-EXT-003-p17.png",
+          "anchor": "asset-beab56a78999",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 471258,
+          "sha256": "cd72d0aae9fee4e5d082899992979d8ac1472965ce7713d3322b20025ec5a298"
+        },
+        {
+          "path": "evidence/runtime_assets/8c3c52403be7567f-AEP-EXT-003-p18.png",
+          "anchor": "asset-3a326c3ecf41",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 448230,
+          "sha256": "8c3c52403be7567f1b00900a1ccd8692b5ea173645a44bb7ca49f18ae94e73b0"
+        },
+        {
+          "path": "evidence/runtime_assets/ea52469249828ea1-AEP-EXT-003-p19.png",
+          "anchor": "asset-54389c8e3ccc",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 451042,
+          "sha256": "ea52469249828ea187a660488323c50b5d42749f03315fbd6ffa4a1e14152de6"
+        },
+        {
+          "path": "evidence/runtime_assets/8b88da14428c97b3-AEP-EXT-003-p20.png",
+          "anchor": "asset-ddcf65f9eca6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 460895,
+          "sha256": "8b88da14428c97b31f5c09bf217d8df9500fb2d7816c99d895a1ef5a7d7f5dd7"
+        },
+        {
+          "path": "evidence/runtime_assets/a64b0771463c9f78-AEP-EXT-003-p21.png",
+          "anchor": "asset-d5407ce75c8b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 522306,
+          "sha256": "a64b0771463c9f78742a63cbab4fa23034f6795842b96704fb14f4af4905af5a"
+        },
+        {
+          "path": "evidence/runtime_assets/31c79872bba6a080-AEP-EXT-003-p22.png",
+          "anchor": "asset-81715cfbadbc",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 407661,
+          "sha256": "31c79872bba6a0803a797e64d1ffb78d99556312bb2f1b1f3e25ff08ca1d7df7"
+        },
+        {
+          "path": "evidence/runtime_assets/077712e1ecb93b16-AEP-EXT-003-p23.png",
+          "anchor": "asset-e9d447f34d59",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 386491,
+          "sha256": "077712e1ecb93b16d000f143a01fc0a2f0a2e1a73e688deff395efe5856d7f32"
+        },
+        {
+          "path": "evidence/runtime_assets/df365efe9a17c245-AEP-EXT-003-p24.png",
+          "anchor": "asset-38b43668a943",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 456600,
+          "sha256": "df365efe9a17c245fb6d1ebbd2300b8c9d411891b9af74f42a3008ac63395686"
+        },
+        {
+          "path": "evidence/runtime_assets/8b1ec3fe1760093a-AEP-EXT-003-p25.png",
+          "anchor": "asset-abb8681dbfa3",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 445300,
+          "sha256": "8b1ec3fe1760093abfaad370583b94531b4104312e7a129a7d54d28dce5323a2"
+        },
+        {
+          "path": "evidence/runtime_assets/b569a5a184d7e500-AEP-EXT-003-p26.png",
+          "anchor": "asset-cedfb01eb083",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 686683,
+          "sha256": "b569a5a184d7e500f565599b4a9938315d833601fc50ff7e79400cf32c9f3b9c"
+        },
+        {
+          "path": "evidence/runtime_assets/f153684a19b3a51e-AEP-EXT-003-p27.png",
+          "anchor": "asset-3c88ca32406b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 511393,
+          "sha256": "f153684a19b3a51e2d6ce2ad49894d04e4ac9f6968c9701cf6b35ce9a4a0204b"
+        },
+        {
+          "path": "evidence/runtime_assets/e166571f1be0179e-AEP-EXT-003-p35.png",
+          "anchor": "asset-7ad77ae00b2a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 448302,
+          "sha256": "e166571f1be0179e51fa40ab780ea90d02c5912fb48e5f56c6aed26c997da081"
+        },
+        {
+          "path": "evidence/runtime_assets/ac1371433d678af5-AEP-EXT-003-p37.png",
+          "anchor": "asset-f62f06ecef99",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 586562,
+          "sha256": "ac1371433d678af59b0e4e04e7f9ed4c8ad252292296a58b3750264fc1abdaef"
+        },
+        {
+          "path": "evidence/runtime_assets/ed049675834fd363-AEP-EXT-010.txt",
+          "anchor": "asset-ce09ba242558",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 19901,
+          "sha256": "ed049675834fd3632d11cec719d5ed10e892a91350bae6ebd0f7fb8361968f26"
+        },
+        {
+          "path": "evidence/W25/support/AEP020-1986-correction.pdf",
+          "anchor": "asset-e43648f5d23a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 79611,
+          "sha256": "af610080deedbc3b07a8e103c77312514681bedeaf93cf58e2f44efed82a514e"
+        },
+        {
+          "path": "evidence/runtime_assets/47a11e08d992487a-AEP020-p01.png",
+          "anchor": "asset-f431963eb044",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 302967,
+          "sha256": "47a11e08d992487a20a97cefa417c7fed78c709f5878932a68aabb2b947686c3"
+        },
+        {
+          "path": "evidence/runtime_assets/d0b1008751d59e9b-AEP020-p03.png",
+          "anchor": "asset-0470dc3e1e95",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1014174,
+          "sha256": "d0b1008751d59e9bac4f18d9c6a3bcb1cc840d0cf9069e3ff4966def9ff2044f"
+        },
+        {
+          "path": "evidence/runtime_assets/cfcdb48e41b8786a-AEP020-p06.png",
+          "anchor": "asset-d7f6e7be13e3",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 845815,
+          "sha256": "cfcdb48e41b8786a7d18b2850c3d3eed409dfcb3f2634eb200bcb7fc9f7d32d5"
+        },
+        {
+          "path": "evidence/runtime_assets/61dd45f0939accc1-AEP020-p07.png",
+          "anchor": "asset-6b335314716a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 917488,
+          "sha256": "61dd45f0939accc1ebee7f986d2daac37b7365b8a6ed58b62848bd50389fe702"
+        },
+        {
+          "path": "evidence/runtime_assets/7e409f18e156abff-AEP020-p15.png",
+          "anchor": "asset-5f706f45fab6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 979652,
+          "sha256": "7e409f18e156abff5376b780efa88acaba56825d6e0ae255e9e3f66ca35b2996"
+        },
+        {
+          "path": "evidence/runtime_assets/b5ba05ade0983b03-AEP020-p16.png",
+          "anchor": "asset-8da7ca90edc2",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 974336,
+          "sha256": "b5ba05ade0983b03889ea67da0467fd5eb6172db65405caf86692914a5f5c4c7"
+        },
+        {
+          "path": "evidence/runtime_assets/b824fa3b7a197ea4-AEP020-p17.png",
+          "anchor": "asset-8efb41944722",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 826387,
+          "sha256": "b824fa3b7a197ea40fe90d9b9b3e826c748215bba854ab26ee21c801c814716f"
+        },
+        {
+          "path": "evidence/runtime_assets/8c5831329740f0bc-AEP020-p28.png",
+          "anchor": "asset-2facce0e2c56",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 956947,
+          "sha256": "8c5831329740f0bca4cf2e056c352f05c7caa7961ab93a5ff999b7cb98b25b00"
+        },
+        {
+          "path": "evidence/runtime_assets/bbd7f1078030f4d8-AEP020-p29.png",
+          "anchor": "asset-f6c283f2f3d7",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 960447,
+          "sha256": "bbd7f1078030f4d873446b383f2bad7a26cafe263572efb7fae98428debd869c"
+        },
+        {
+          "path": "evidence/runtime_assets/848b3ee48444fb4a-AEP020-p30.png",
+          "anchor": "asset-83ab218d547d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 896007,
+          "sha256": "848b3ee48444fb4a5d0400a9ed32363fa56410c25120842fe3ab70e6e7d3bef3"
+        },
+        {
+          "path": "evidence/runtime_assets/826016d199d9a626-AEP020-p31.png",
+          "anchor": "asset-fb8efe64bd14",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 591339,
+          "sha256": "826016d199d9a62660f029d5e5029198914ea0a40700fa8f97ed87040b152887"
+        },
+        {
+          "path": "evidence/runtime_assets/6e2f274433666bbf-AEP020-corr-1.png",
+          "anchor": "asset-505faf3b1e0d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 149933,
+          "sha256": "6e2f274433666bbf910dcc847ba432f97a4431c05b4fd06ca8faa572fbd227c5"
+        },
+        {
+          "path": "evidence/runtime_assets/37cf65b75d788448-AEP020-corr-2.png",
+          "anchor": "asset-703d19733e0a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 22747,
+          "sha256": "37cf65b75d788448d46c8949c9e51ea68d8043c05f39a7f70fed84e134c12ec0"
+        },
+        {
+          "path": "evidence/runtime_assets/de99e221d599c52b-AEP-EXT-009.txt",
+          "anchor": "asset-3a8ed5c844e1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 25642,
+          "sha256": "de99e221d599c52bd51427f1cb65ecd4c978be99a87547769ee1a74d293a7591"
+        }
+      ]
+    },
+    {
+      "skill": "probability-bandit-information-bounds",
+      "assets": [
+        {
+          "path": "evidence/W15/bernoulli_complexity_counterexample_results.txt",
+          "anchor": "asset-5fc9ca4e7e1f",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 600,
+          "sha256": "01c18c7e5ef2bd8b20c6d86e15c5fac56080c1b18dd3b74ba6592c1a79c8266a"
+        }
+      ]
+    },
+    {
+      "skill": "probability-nonlinear-law-dynamics",
+      "assets": [
+        {
+          "path": "evidence/fulltexts/W21-039.pdf",
+          "anchor": "asset-0b7ebd65b8c0",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 132611,
+          "sha256": "3a7a9c35f0a130181c03ff7c24311e849435cc27dbdf77885b26e6ec98c9fddb"
+        },
+        {
+          "path": "evidence/fulltexts/W21-003.pdf",
+          "anchor": "asset-aa8935193dea",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 374231,
+          "sha256": "554d3dedd465ca892e090174774a7aa04e1810ff4bb7a1b6ed3565e00bc76767"
+        },
+        {
+          "path": "evidence/fulltexts/W21-018.pdf",
+          "anchor": "asset-8cb94a6cc1b6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 156846,
+          "sha256": "3ecdbb61e9ec2b70fd077b5d2336938af389dab34c91050481e37cfde504ef90"
+        },
+        {
+          "path": "evidence/fulltexts/W21-023.pdf",
+          "anchor": "asset-c40120182619",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 154018,
+          "sha256": "5e203cc0ed675eaf72132febaaa564e7a3eaa3dc5d45c5ff467d8ebefbd24418"
+        },
+        {
+          "path": "evidence/fulltexts/W21-024.pdf",
+          "anchor": "asset-c83cf3d2b09b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1026088,
+          "sha256": "35568fd1ca08b1c804ed47a0432e1b99b66b1e2aafc31d3db6e0599e93144499"
+        },
+        {
+          "path": "evidence/fulltexts/W21-036.pdf",
+          "anchor": "asset-34a9f7719c85",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 426961,
+          "sha256": "93774aa86f61e3855c1d0a4afc55a1864bab49e8beff3597b08a5f3c74bdca63"
+        },
+        {
+          "path": "evidence/fulltexts/W21-004.pdf",
+          "anchor": "asset-50db08aff5b9",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 235732,
+          "sha256": "eab8ab19fb5369ba740e317508b9d76572d3b03586ba4f31ec35925b76aabf5c"
+        },
+        {
+          "path": "evidence/fulltexts/W21-007.pdf",
+          "anchor": "asset-ddf2ef33103d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 115478,
+          "sha256": "5a5bcec67c3bab51e4fdc29dfbe33a9562315fc46cf130af6b3d99321e25a8b0"
+        },
+        {
+          "path": "evidence/fulltexts/W21-012.pdf",
+          "anchor": "asset-757c567508ff",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 539057,
+          "sha256": "13142f48f4c12936e39a967a897d626c1ea5a67def83767ce724252759836791"
+        },
+        {
+          "path": "evidence/fulltexts/W21-025.pdf",
+          "anchor": "asset-1f1609119e70",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 2129048,
+          "sha256": "99ae9d43bc6303ec09d3d15912b63242f72e3e5f5656a5bca2a9ca5916ae48dd"
+        },
+        {
+          "path": "evidence/fulltexts/W21-027.pdf",
+          "anchor": "asset-2fc972b0b30e",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1173239,
+          "sha256": "7366d2107b761d254b8b1cfe697f9ddb9501836e2054b6c8f2c9b4d0cb765bbb"
+        },
+        {
+          "path": "evidence/fulltexts/W21-029.pdf",
+          "anchor": "asset-cb1afddd7c71",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 360751,
+          "sha256": "4537f1a96c4081f4522c09be566c00c65a9a6a5b48597cb69ea1300fdbcd6f29"
+        },
+        {
+          "path": "evidence/fulltexts/W21-040.pdf",
+          "anchor": "asset-33083ab4d550",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 392085,
+          "sha256": "816321be63f77e1bb8f8e9da8cd8b5ca18279030d2d4f6f706921b64d063c480"
+        },
+        {
+          "path": "evidence/fulltexts/W21-030.pdf",
+          "anchor": "asset-25c5a1555b97",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 341181,
+          "sha256": "2118f65acc30bab639237391c4753d6ec4f70e503756749edae64043511ecd83"
+        },
+        {
+          "path": "evidence/fulltexts/W21-031.pdf",
+          "anchor": "asset-41f5345cad17",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 159279,
+          "sha256": "831f3d086dc6105f3e66b6bff8f36ff76c0645dd7bb4005324b193f975087343"
+        },
+        {
+          "path": "evidence/fulltexts/W21-032.pdf",
+          "anchor": "asset-11ec214d2cb6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 265711,
+          "sha256": "81a5c6047a02ffaa2c9cfa0d5870203dc09c228866282acf93a30ff73cca18bf"
+        },
+        {
+          "path": "evidence/fulltexts/W21-034.pdf",
+          "anchor": "asset-861d87d5ab6c",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 203444,
+          "sha256": "0ad6ade5513644b6aa7c99580d59201fdb54cf8a074d6336283f36c8823a0f70"
+        },
+        {
+          "path": "evidence/fulltexts/W21-035.pdf",
+          "anchor": "asset-5ea6f52e08b1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 577734,
+          "sha256": "8a91f5e68bbff5afb750581b6f59552684c5a80268215f1ee4aff914106339f5"
+        },
+        {
+          "path": "evidence/fulltexts/W21-013.pdf",
+          "anchor": "asset-0e5ed2df8630",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 443710,
+          "sha256": "014c6d4facfe99ec2a09455111c1f552f2da290af338ab5d70f97b871a963a4b"
+        },
+        {
+          "path": "evidence/fulltexts/W21-014.pdf",
+          "anchor": "asset-3fc98ed0e2b7",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 431911,
+          "sha256": "2c39e47ba180136308c0795c9ddc54196a1516511f152a8f23da64c385050ac9"
+        },
+        {
+          "path": "evidence/fulltexts/W21-015.pdf",
+          "anchor": "asset-161612215650",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 174567,
+          "sha256": "c27d3d2bbb3b4b54609f28be9854049dcf7bd6038eb771df5724d3646453c634"
+        },
+        {
+          "path": "evidence/fulltexts/W21-019.pdf",
+          "anchor": "asset-e9af3551bca8",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 230968,
+          "sha256": "4a031b498ba069d3f055a0a2bb6c1ff2fb4525e1f5205ebeb8aebf3d19e64c5c"
+        },
+        {
+          "path": "evidence/fulltexts/W21-021.pdf",
+          "anchor": "asset-682f36dff28b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 170867,
+          "sha256": "7311c84fd87829adf4c994e509970684ea9967f54bc1b3a9390df132e417a0e4"
+        },
+        {
+          "path": "evidence/fulltexts/W21-041.pdf",
+          "anchor": "asset-4ffa51e6644e",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 457975,
+          "sha256": "81d9c45efed6618e3031936f47939fd27781bbda37b227acf4918992edd5d6e4"
+        },
+        {
+          "path": "evidence/fulltexts/W21-042.pdf",
+          "anchor": "asset-0a510f3648bf",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 606371,
+          "sha256": "7b689a4d692222ec2e3052f2059df7b1fe4e51a98632d1ca71cdfe8e35e92c67"
+        },
+        {
+          "path": "evidence/fulltexts/W21-043.pdf",
+          "anchor": "asset-1b83d0bf33a1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 264440,
+          "sha256": "1abcd228c69683b086ae10a5e2d6db92376234ff687c3683d809d8307925db2c"
+        },
+        {
+          "path": "evidence/fulltexts/W21-044.pdf",
+          "anchor": "asset-b93cafd54c21",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 521079,
+          "sha256": "6e8b3da935c63aa7253bd7e846ccf6439f6a35a2284ee99cfa39bedb1c6f8620"
+        },
+        {
+          "path": "evidence/fulltexts/W21-045.pdf",
+          "anchor": "asset-0f0be5e3608c",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 395500,
+          "sha256": "097bc799a1ddf418a04dcd3b28b8717b3b99fe297022f99dd4a866d96b069e7d"
+        },
+        {
+          "path": "evidence/W21/checks/rendered_review/W21-041-MALLEIN-p29-F-growth.png",
+          "anchor": "asset-c231cca69cb5",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 276958,
+          "sha256": "5536fc4180a335f07597fac6eec189e2966c32eadb3a6337f677e89a674d7fc6"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C019-p4.png",
+          "anchor": "asset-d6a195936f5d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 422809,
+          "sha256": "6d05eeb7f8a7cbf4f1bf1134d12d116a64bc5bdc304fc53eb0faea3ad5e6b241"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C038-p6.png",
+          "anchor": "asset-8315e5e0a92c",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 491004,
+          "sha256": "df88bfcb534988b23e9a1c30c1400769b1850f817eba78f0551bb910321ef16d"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C038-p7.png",
+          "anchor": "asset-d6d1186a9f88",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 520838,
+          "sha256": "bece9a0cfc05063c366e64a9f1e2e22f33a3a844e90cf31032305eb49c0878c5"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C038-p13.png",
+          "anchor": "asset-42484aff7250",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 603727,
+          "sha256": "3672f3dd5233f101bec09a1d5b41df301d0aa0bf2591d5a58cfbb73b8777af66"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C038-p14.png",
+          "anchor": "asset-b4204b6b5f14",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 443806,
+          "sha256": "8d43dafe89aea2edff75b523ec2ad0e55786751e7017c7ac78f5872bf86d87ba"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C038-p15.png",
+          "anchor": "asset-1c545a2305f3",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 527987,
+          "sha256": "28180057e2c32c502f609b3c5eeef7a91feb3a479ae59b6043fae46394419389"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C036-p1.png",
+          "anchor": "asset-9b660b9e58bd",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 774630,
+          "sha256": "b271b5679b0bad7c65b972dacfd1f7131215a0f8bb7124f5ffa26aecd3e6af85"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C036-p2.png",
+          "anchor": "asset-f16350a1a478",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 686072,
+          "sha256": "f2c965690d86f991ac027a840c362f2374a4dc8be8b34ec70887217ac42bf20a"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C027-p6.png",
+          "anchor": "asset-7d7c97935c94",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 647076,
+          "sha256": "b659ef25e0b4f7e3adc9a5f194cccaf9d0195be0f735b98f8c8dcec1cb283477"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C027-p7.png",
+          "anchor": "asset-03a6efaf6bcb",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 655122,
+          "sha256": "e51ee589364716618fbf519230ae39478284286ca841c9c21d4a71ffb83cadc0"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C027-p20.png",
+          "anchor": "asset-f87e0af0c6ce",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 614602,
+          "sha256": "2e07976f7c0138c8aa3c0f74f9e9c990ec0e8f31888a7f5c7768bcd50d9f59ab"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C027-p21.png",
+          "anchor": "asset-3708623abe52",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 615445,
+          "sha256": "7a7da4363470594cf670ecfffa8ec6792eda66e8e7b4db5020b82a55b183bbf2"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C027-p29.png",
+          "anchor": "asset-4d8edddeb916",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 697775,
+          "sha256": "cb55c08dd73984c813d9122b3b774c596faabf33519977c1e53884b83b5e7098"
+        },
+        {
+          "path": "evidence/W21/reader_batches/L12_batch03/rendered/C027-p30.png",
+          "anchor": "asset-ede476ed1c9d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 773163,
+          "sha256": "26073b4fde38bacf307ae84a730517d11af627bcd34d4cdfc746730a5a3aeadd"
+        }
+      ]
+    },
+    {
+      "skill": "probability-percolation-renormalization",
+      "assets": [
+        {
+          "path": "evidence/fulltexts/bbdm12.pdf",
+          "anchor": "asset-680df40730e1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 364834,
+          "sha256": "5599d289240e3f2ba310f9bcb29f9ef9309ab3aafbd46056ae76997569ae4b1d"
+        },
+        {
+          "path": "evidence/review/candidate-scope/scope/source_approvals/W05/bbdm12/reader_batch/text/bbdm12.txt",
+          "anchor": "asset-ea24d57ff4a5",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 82686,
+          "sha256": "2d6eb406f9deb9c307a5d54f6b960e8d0ae4fbfe4ee14f406fa3dadc28efdcb5"
+        },
+        {
+          "path": "evidence/review/candidate-scope/scope/source_approvals/W05/bbdm12/reader_batch/rendered/p02.png",
+          "anchor": "asset-2153e8973c2d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 617772,
+          "sha256": "7264e510c75cbd2bd9c337ee6b527aec9396a19f479e404000223f5dae100b10"
+        }
+      ]
+    },
+    {
+      "skill": "probability-queueing-heavy-traffic",
+      "assets": [
+        {
+          "path": "evidence/fulltexts/W14-001.pdf",
+          "anchor": "asset-4052366cdd47",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 162910,
+          "sha256": "8071919c7b7182597728c1d6fde6ec33ee675457af9dc472a7e64a023fa34b93"
+        },
+        {
+          "path": "evidence/fulltexts/W14-002.pdf",
+          "anchor": "asset-72af40032248",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 254788,
+          "sha256": "cf77f04f2754956e78b0fa1c32f5ff1f9af366ca49c494d083e953be223885d1"
+        },
+        {
+          "path": "evidence/fulltexts/W14-003.pdf",
+          "anchor": "asset-dbb725e54c35",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 128281,
+          "sha256": "27d2e13cf2f8a81af7a1f9e9aa9472e8d514baa15adb844ce6f07e4023e585f0"
+        },
+        {
+          "path": "evidence/fulltexts/W14-004.pdf",
+          "anchor": "asset-4c9772327c2e",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 100271,
+          "sha256": "3fc736b0e13167a3515a1e66357c87eea2808e0881672b9338bb47042dccbc92"
+        },
+        {
+          "path": "evidence/fulltexts/W14-005.pdf",
+          "anchor": "asset-55b2e4d72a77",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 745095,
+          "sha256": "3cb38458d93d1c196148ca21b7d778b24902962fb476fb790c121bd0faf6eaeb"
+        },
+        {
+          "path": "evidence/fulltexts/W14-006.pdf",
+          "anchor": "asset-b592100cc549",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 495290,
+          "sha256": "9b25510d9c80d2a8de8d74caac2fcf13b26857b508623ca388653f47a861e039"
+        },
+        {
+          "path": "evidence/fulltexts/W14-008.pdf",
+          "anchor": "asset-bd1d7f38b53e",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 386815,
+          "sha256": "b9f204de686a3ad66d55882bd0be481b8afd9edbd32c5ff92aba2091814136ac"
+        },
+        {
+          "path": "evidence/fulltexts/W14-009.pdf",
+          "anchor": "asset-e5610b78a6c2",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1493418,
+          "sha256": "518833dda3ed2999f5ffffa2ccd2ef9855da640a2e792b71d9d5c330d2700342"
+        },
+        {
+          "path": "evidence/fulltexts/W14-010.pdf",
+          "anchor": "asset-d125eff3410f",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 778285,
+          "sha256": "c6996d4db0bd840c13a0ee8b9d778d234291d311ffdf7b7f1bcabb84e2214706"
+        },
+        {
+          "path": "evidence/fulltexts/W14-011.pdf",
+          "anchor": "asset-b97e6cd81300",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 386694,
+          "sha256": "2fc271b4896469bd2211e754a0656b368c2b473de3b321f799ec060f34e77681"
+        },
+        {
+          "path": "evidence/fulltexts/W14-012.pdf",
+          "anchor": "asset-00fa8965288f",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 418964,
+          "sha256": "60291ce2831345cd6fb0aece8d02f3a8ec2cb4108c244036251cd0f9ef3140a3"
+        },
+        {
+          "path": "evidence/fulltexts/W14-013.pdf",
+          "anchor": "asset-b50d09bea4f0",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 316978,
+          "sha256": "a68bfb58d63ef4ab05832ec16486d425562f86f3072c8e5368733a9995bcf1b2"
+        },
+        {
+          "path": "evidence/fulltexts/W14-014.pdf",
+          "anchor": "asset-05408db66620",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1205101,
+          "sha256": "8b7e0289568dd2c34afc000c6a10b249e1e8fac6b992446f00c9e2153361d7bc"
+        },
+        {
+          "path": "evidence/fulltexts/W14-015.pdf",
+          "anchor": "asset-6f2a4000cad6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 170632,
+          "sha256": "10c86700fd49e9f57a6f2fe3ad8dfa2712405d8e78ef1d175502a5a90911978a"
+        },
+        {
+          "path": "evidence/fulltexts/W14-016.pdf",
+          "anchor": "asset-6fbe7ae606d8",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 560689,
+          "sha256": "fe42b39f75c1032842f37260e7c7dd5ac54617b5cbab30f29d8776e417305303"
+        },
+        {
+          "path": "evidence/fulltexts/W14-017.pdf",
+          "anchor": "asset-e1f54ac60633",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 566575,
+          "sha256": "ea0e4f407840c7873471182d5887c93a65a58ab2e18cb04f34bb232d1ae2a469"
+        },
+        {
+          "path": "evidence/fulltexts/W14-018.pdf",
+          "anchor": "asset-98b05785bd6e",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 311387,
+          "sha256": "4e501bfe4eddd5af47608d9e1d27b862d7df78dfc8b2f01ffea6be57e7d033a0"
+        },
+        {
+          "path": "evidence/fulltexts/W14-019.pdf",
+          "anchor": "asset-81006fa185e7",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 2156765,
+          "sha256": "7df23d50dc922a7748eab69e56176f5ae9557466ac791f58f57255381996d660"
+        },
+        {
+          "path": "evidence/fulltexts/W14-020.pdf",
+          "anchor": "asset-4d45c53459af",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 3416428,
+          "sha256": "a19bcd6990530c31d5f3d22cc9674e7b21b087dd59796d96afce35270afec16b"
+        },
+        {
+          "path": "evidence/fulltexts/W14-021.pdf",
+          "anchor": "asset-5dff7508243a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 343577,
+          "sha256": "362a9db1e321b219de1493ccec473f9f5f13a8f1fdc6ce75f81dd9886a975e0f"
+        },
+        {
+          "path": "evidence/fulltexts/W14-022.pdf",
+          "anchor": "asset-aedb434177b6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 4533257,
+          "sha256": "aaa759a14a0a6a584bbfb32aec84e3e0e46412b834e22917ae6d7e74af3fc742"
+        },
+        {
+          "path": "evidence/fulltexts/W14-023.pdf",
+          "anchor": "asset-8ea19cc4006d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 473442,
+          "sha256": "f41d7a35e663fcde0723956f1a582c8fd24262653c9b2c216f519a6885db8fd5"
+        },
+        {
+          "path": "evidence/fulltexts/W14-024.pdf",
+          "anchor": "asset-1e63707c8089",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 175537,
+          "sha256": "67c9fac291f5dd656178f6f5e7cc1a07c1ef78e746cb2fdadc249a96f3032580"
+        },
+        {
+          "path": "evidence/fulltexts/W14-030.pdf",
+          "anchor": "asset-bc57365465da",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 753475,
+          "sha256": "f75a803fcf52309fdb722a1bf55b17110cfa01f8664c275e86ec8874be6c52cc"
+        },
+        {
+          "path": "evidence/fulltexts/W14-031.pdf",
+          "anchor": "asset-3fac5f41970a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1245107,
+          "sha256": "9c1601349d97c804f1a123bbe144f5f980b9d6a322830ee3f1ccb3cce58dfb10"
+        },
+        {
+          "path": "evidence/fulltexts/W14-039.pdf",
+          "anchor": "asset-dff93c261723",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 275084,
+          "sha256": "e7d81511e3a1a379f19d7a5527dd1eee89da13c67fcafbc89efc94435b7b8666"
+        },
+        {
+          "path": "evidence/fulltexts/W14-040.pdf",
+          "anchor": "asset-a42a6477aa81",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 275151,
+          "sha256": "7d81d08341e14b89b21b4f85b851d29cc25c3867f59e65a44df5d04f3ad7adac"
+        },
+        {
+          "path": "evidence/fulltexts/W14-041.pdf",
+          "anchor": "asset-34f1bfe802f0",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 258883,
+          "sha256": "0a54915251b9825dbb20c113cec7263a075362de1129f92af8cb1eda3d1c2e29"
+        },
+        {
+          "path": "evidence/fulltexts/W14-042.pdf",
+          "anchor": "asset-9c48360dbb3b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 9252632,
+          "sha256": "b7551d94624aaaa872ddb5db63ca3b60a7d92dd25a4dca35094032d51d64ea3f"
+        },
+        {
+          "path": "evidence/fulltexts/W14-043.pdf",
+          "anchor": "asset-141800467cd6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 428229,
+          "sha256": "cdf3ae437a2f3eedfcf40eb4d7ddb9fa2e901344e93cc10ea19369739999976a"
+        },
+        {
+          "path": "evidence/fulltexts/W14-044.pdf",
+          "anchor": "asset-16611d30707e",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1293079,
+          "sha256": "7cced2fb87d5e1d7299df6c9849f31d7adf4a53877cd3ef073f242b7b1895361"
+        }
+      ]
+    },
+    {
+      "skill": "probability-random-graph-energy-landscapes",
+      "assets": [
+        {
+          "path": "sources/pdfs/PGEL-001.pdf",
+          "anchor": "asset-3dcebd9ee888",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 559765,
+          "sha256": "dc1a69bcf5f2dee0be85f4dec77bad21a283a3400201957bb66ddf64f57e1cb1"
+        },
+        {
+          "path": "sources/pdfs/PGEL-002.pdf",
+          "anchor": "asset-ebad0378aa46",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 224924,
+          "sha256": "efcbd4e7c7e68d3460a5cd9cbbe2e5b418f95fd4c7b958dc360424af33d136b5"
+        },
+        {
+          "path": "sources/pdfs/PGEL-003.pdf",
+          "anchor": "asset-1e5e26e42ed6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 757647,
+          "sha256": "f70f8f651dbac9199b1eea03017ba649adf3d236a32e1f631d85eb59d8605798"
+        },
+        {
+          "path": "sources/pdfs/PGEL-004.pdf",
+          "anchor": "asset-ae2eec8f6234",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 218887,
+          "sha256": "115182e6aeb65b31726d8e4ebdc409133ce14b79537ca72fe18a91d7fccb36b2"
+        },
+        {
+          "path": "sources/pdfs/PGEL-005.pdf",
+          "anchor": "asset-79c35eb7e199",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 166783,
+          "sha256": "cb25a266410f4be91663f2ba0e515164fb55e1c3170a83bd5b8984cbfad9223d"
+        },
+        {
+          "path": "sources/pdfs/PGEL-006.pdf",
+          "anchor": "asset-fd654c99e3e3",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 169499,
+          "sha256": "841b88e00295b691598e044b59778f22355f7f9b6f6c254f2797e74936c82688"
+        },
+        {
+          "path": "sources/pdfs/PGEL-007.pdf",
+          "anchor": "asset-f78e0b21c5ca",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 773021,
+          "sha256": "e9545189087e353b84932d5c06dac282bf2ad576b4e55d388af83f1f53fad1bd"
+        },
+        {
+          "path": "sources/pdfs/PGEL-008.pdf",
+          "anchor": "asset-e34e6678bcba",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 419661,
+          "sha256": "e4968f7cd2858b9154ad630eb72661b2dd1418c05ba5a2ee8cf4cac3cef5ef47"
+        },
+        {
+          "path": "sources/pdfs/PGEL-009.pdf",
+          "anchor": "asset-a3c4a93bfc02",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 180896,
+          "sha256": "1429ddba0df2f4a33af15f6b65e912394de83365003643fa63f0f49775a5802a"
+        },
+        {
+          "path": "sources/pdfs/PGEL-010.pdf",
+          "anchor": "asset-e78037db75cd",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 209388,
+          "sha256": "e8cdbd8c6b0d36b8a3eb87b7ac21b7a2318c2f3ae72addaebd82cc741132effc"
+        },
+        {
+          "path": "sources/pdfs/PGEL-011.pdf",
+          "anchor": "asset-08fb950b2bff",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 206136,
+          "sha256": "6fd995cd07bfc86927603c687f6c008b335dbc4ff69738cfc54f4df13d58fea6"
+        },
+        {
+          "path": "sources/pdfs/PGEL-012.pdf",
+          "anchor": "asset-ed1e03515edd",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1318571,
+          "sha256": "c9e66d032a0100724fef45d3fb174ae7fa49a0ff99bbc57b06777bb8efd5c887"
+        },
+        {
+          "path": "sources/pdfs/PGEL-015.pdf",
+          "anchor": "asset-92684911ebdd",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1827429,
+          "sha256": "b6aede88f5a5ade09c8e53f8acbf923f5e0c4fa51b0e5c027beefa6c38cb1538"
+        },
+        {
+          "path": "sources/pdfs/PGEL-016.pdf",
+          "anchor": "asset-eadf5e48288f",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 2668332,
+          "sha256": "5c1bf38a2969f633fe52413329e10d52dea1dadc67165a04e73c4cd92d302471"
+        },
+        {
+          "path": "sources/pdfs/PGEL-017.pdf",
+          "anchor": "asset-19db7f312c13",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1117893,
+          "sha256": "01ec601706615d902d871271971743dc61951d07337023a80d857a927487284b"
+        },
+        {
+          "path": "sources/pdfs/PGEL-018.pdf",
+          "anchor": "asset-c335bfdb1e66",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 293396,
+          "sha256": "8546628e25dfe3798eb8b62fcd49bb02df2b1a5a489c1a4fb9d8961c36df81c3"
+        },
+        {
+          "path": "sources/pdfs/PGEL-019.pdf",
+          "anchor": "asset-3651b7667cbf",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 484011,
+          "sha256": "51d84dbb4b2edbc74322ee92c6b57d129d789bb9f1c8e4f273e4debc1db698be"
+        },
+        {
+          "path": "sources/pdfs/PGEL-020.pdf",
+          "anchor": "asset-15a1c7fa73c6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 2229955,
+          "sha256": "a544832a2e3b8575fe0acbd798751b3e94fdc5051dc2681186e2f6625ed61425"
+        },
+        {
+          "path": "sources/pdfs/PGEL-021.pdf",
+          "anchor": "asset-1606055734a5",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1021224,
+          "sha256": "e68915c58e27084a126226246d223a806815f428b3d3fed71dccdd8d2bc2b9da"
+        },
+        {
+          "path": "sources/pdfs/PGEL-022.pdf",
+          "anchor": "asset-627acd6c590d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 337459,
+          "sha256": "a7fb5e229de6022d183afd5cbba3ed139a2be636015fbe2d25c63c6304538a65"
+        },
+        {
+          "path": "sources/pdfs/PGEL-023.pdf",
+          "anchor": "asset-aa73253f1ec8",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 5872845,
+          "sha256": "ad7a30a2735b823124210a62361906ff06ba6f8cf61d0b2a5ce58bdd28d89cdd"
+        },
+        {
+          "path": "sources/pdfs/PGEL-024.pdf",
+          "anchor": "asset-cc7b2bdd327b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 262304,
+          "sha256": "17fc44e9b76f147c1ba06dd1278a5f99d9f6f0aaefe9e2245955e01121351662"
+        },
+        {
+          "path": "sources/pdfs/PGEL-026.pdf",
+          "anchor": "asset-df9f694ac394",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 862835,
+          "sha256": "6f820a5bd2a1a53929c58283c12ddd452ac2ab6f437954bd66b215b0789b3ca7"
+        },
+        {
+          "path": "sources/pdfs/PGEL-030.pdf",
+          "anchor": "asset-351081c571a9",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1233105,
+          "sha256": "19892042e73f9b60912f4d47c1e131c2fc0f5091cb29160f0f3d3b169fee9081"
+        },
+        {
+          "path": "sources/pdfs/PGEL-031.pdf",
+          "anchor": "asset-a67b31e3310a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 2420566,
+          "sha256": "47db43994c0bb652c0eae136c3038d8d334c60a7926a790202c0c6a08cce0ee8"
+        },
+        {
+          "path": "sources/pdfs/PGEL-032.pdf",
+          "anchor": "asset-d120551253df",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 686451,
+          "sha256": "ecdffbee9a5350c5ffc1d8dbb603df8791cb725f352a02f3262e6caf7d25a1b4"
+        },
+        {
+          "path": "sources/pdfs/PGEL-033.pdf",
+          "anchor": "asset-42cd16a34ff4",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1042563,
+          "sha256": "920906a63714c95e17b8fcd3182e489f9fca2ac09ccf1c1ead37715e0e64a5bc"
+        },
+        {
+          "path": "sources/pdfs/PGEL-040.pdf",
+          "anchor": "asset-e7b99ed913b1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 506974,
+          "sha256": "efbf80c3a92afd1af83d45ddad56408c7c17e222cfa994795e707f75d96bf6a3"
+        },
+        {
+          "path": "sources/pdfs/PGEL-041.pdf",
+          "anchor": "asset-9f6dfbdaac3d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 144620,
+          "sha256": "c4b9b8fff56834009a041db1122e68b0bade7fd2a39dcaa0b97c156c1c40cd3f"
+        },
+        {
+          "path": "sources/pdfs/PGEL-045.pdf",
+          "anchor": "asset-6e989143cdca",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 2175396,
+          "sha256": "8d635dd3c083972a6a1f8fff2df2a8e0fb0693b81f5568d07f11d6984457af49"
+        },
+        {
+          "path": "sources/pdfs/PGEL-029.pdf",
+          "anchor": "asset-d8e9606637df",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1879735,
+          "sha256": "1df63bb7365423ec4d2cea7de6609536960c619b3d4e4d388cd984bf49d96049"
+        }
+      ]
+    },
+    {
+      "skill": "probability-random-recursive-trees-asymptotics",
+      "assets": [
+        {
+          "path": "evidence/W22/papers/RT031-PR-0ea5521d329f.pdf",
+          "anchor": "asset-0d03396f669b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 770067,
+          "sha256": "aa3db9b40ac20bbc9097440d829b5003ba8b5a5fa9196a62b9f639cc7c5a94ff"
+        },
+        {
+          "path": "evidence/W22/papers/RT034-PR-608ee87a4a99.pdf",
+          "anchor": "asset-1a46cf911a5a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 249823,
+          "sha256": "83682982a65dfd22bd2005f76ff12e14d56bab954d9593253266dedc3f945808"
+        },
+        {
+          "path": "evidence/W22/papers/RT014-PR-aa07a681c4ea.pdf",
+          "anchor": "asset-a3280384faa7",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 545379,
+          "sha256": "0544cdc2b4b31811af054f68aaad1ed9b1d75e11eb8e6f1c7d67c4e8b91c62b2"
+        },
+        {
+          "path": "evidence/W22/papers/RT030-PR-2ed2fdfb690d.pdf",
+          "anchor": "asset-0bbc9c230143",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 500308,
+          "sha256": "42bb1005fce749990c81ea63d281e8826255d48926585cf960b7fbae9b539ef9"
+        },
+        {
+          "path": "evidence/W22/papers/RT017-PR-13d7ecb0c0d6.pdf",
+          "anchor": "asset-d09fef1da5f7",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 196103,
+          "sha256": "111bad73c353b0a2b04e68adce991987fe66780d50ae9ea33a3da1e103ade44d"
+        },
+        {
+          "path": "evidence/W22/papers/RT022-PR-dd6180e29a54.pdf",
+          "anchor": "asset-bc860fc8f85c",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1091480,
+          "sha256": "aa574855b4a998e22fc3eb119b990793e12eeab2c681f4de4f5e1b61d0bf8808"
+        },
+        {
+          "path": "evidence/W22/papers/RT016-PR-9d3d0558925e.pdf",
+          "anchor": "asset-3e6860b09ec3",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 439262,
+          "sha256": "b9c4ff13c1c7209a4fe8f87ac48abadf7fe14fc5631c4e618c685b88d6e562f2"
+        },
+        {
+          "path": "evidence/W22/papers/RT029-PR-ee9c9bb5cec5.pdf",
+          "anchor": "asset-cc55319c4045",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 468890,
+          "sha256": "d8e3b3eb17a966e0548454efc6b29db4b7eea4d3b6ad1ed2c98215ce45d3d60d"
+        },
+        {
+          "path": "evidence/W22/papers/RT028-PR-1ed61b47713d.pdf",
+          "anchor": "asset-4f59c67e5c85",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 610278,
+          "sha256": "2ab707eb8d8093e807b7dcddb84dd32b0362eb4dc7f918aea1f436db33787813"
+        },
+        {
+          "path": "evidence/W22/papers/RT038-PR-35d3980c5d6e.pdf",
+          "anchor": "asset-11b9da976e97",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 344497,
+          "sha256": "5f88a5adcafb9e9d1089a9dd4c732b815644e572e6aa19c83a91935b7fe5c2fd"
+        },
+        {
+          "path": "evidence/W22/papers/RT018-PR-be0c1e00fba0.pdf",
+          "anchor": "asset-c4081fe712ec",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 172685,
+          "sha256": "5b8b001fdbcecdfe0fdceeb869d06d8000048c991686666ef08c5db5989bc35f"
+        }
+      ]
+    },
+    {
+      "skill": "probability-self-avoiding-walks-and-sle",
+      "assets": [
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/honeycomb.pdf",
+          "anchor": "asset-e830f90414bc",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 340228,
+          "sha256": "11335571f5118514b5f761ad3d750e11b5537b1390aa3444742339b86e65bb8a"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/polygon_insertion.pdf",
+          "anchor": "asset-21d245260f4a",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 1391823,
+          "sha256": "a9fa6fda92abda1a20eca0f378b1565e37e8afa69f58a2a57acc0482b270d8f3"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/lacoin_planar.pdf",
+          "anchor": "asset-b0d9e0345eb7",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 325501,
+          "sha256": "1a681dbf7831f0f5ecf8d555083fbf60367592e550d11cd4a384566182bbcb69"
+        },
+        {
+          "path": "evidence/root/workers/W08/papers/beffara_sle_dimension.pdf",
+          "anchor": "asset-8fc834628646",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 388590,
+          "sha256": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc"
+        },
+        {
+          "path": "evidence/root/workers/W08/papers/rohde_schramm_basic_sle.pdf",
+          "anchor": "asset-1c3cb3c1f2fe",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 570261,
+          "sha256": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/lecture_notes.pdf",
+          "anchor": "asset-574c2a7b8e6d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 873839,
+          "sha256": "48c4c9d89ff352a28de9e3e43dc92b7e2bca4e7a758cacac3503aaa58e6727a6"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/subballistic.pdf",
+          "anchor": "asset-6c18ccfdc711",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 334164,
+          "sha256": "305f1a61d23c0bd2241530e054874f74bea0a95b08010fc9087e6ad7f1f7c8d6"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P07-connective-regular-graphs.pdf",
+          "anchor": "asset-8bc0819a1413",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 385523,
+          "sha256": "6c51e9b417bf6ac4817731e6d2d9695ea577a72b5fa7daefcca03406c2bd1bed"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P09-strict-connective-constants.pdf",
+          "anchor": "asset-a3faa2196915",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 573067,
+          "sha256": "d6e97e8cc626ab63ff78c9e71341ac334f6c085538c5a6699ae1291a7ba60b70"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P10-extendable-walks.pdf",
+          "anchor": "asset-52b9f071ab0f",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 208108,
+          "sha256": "f1db55afeaf19319764f8f6c5f87616f300e3d7f25de5834316bf602ce3874ba"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P11-locality-connective-constants.pdf",
+          "anchor": "asset-3192762f4ba3",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 538239,
+          "sha256": "0db12154d0cf548abf542dd67fa8d2d7dd714f3b1e1dd874e878fd17d9c20dc0"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P13-weighted-self-avoiding-walks.pdf",
+          "anchor": "asset-ef4dd51ed804",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 536006,
+          "sha256": "faf14f9216dc2588d7b7eb8c5e0d6ef1968c10c57358a0d23078bec6f6139cc9"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P14-general-bridge-theorem.pdf",
+          "anchor": "asset-4c2c53ca3f3b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 204095,
+          "sha256": "554b3d961903e16ce3bd14cbba9d8b816ac447299f889203daa6ae5cf52e44cb"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P16-hammersley-welsh-revisited.pdf",
+          "anchor": "asset-646b95ed6b54",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 149687,
+          "sha256": "195f25f1669c44a1c7ad9e1a7c498955eb1299101fa9269e528777e1f9985c89"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P18-quantitative-hex-subballistic.pdf",
+          "anchor": "asset-4386b9555d2b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 595173,
+          "sha256": "fc97832c6fa06e4e2e5ad69d1b56edee7f34ebc63d5a325c637776a431baed9a"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P24-honeycomb-adsorption.pdf",
+          "anchor": "asset-31f0180e79f1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 778227,
+          "sha256": "05fe44729563afec09bdefd046ce96c9216fc6034fa959d6376f455eff2d5772"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P31-high-d-quenched-separation.pdf",
+          "anchor": "asset-bff8c4a1bf78",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 269573,
+          "sha256": "313cb1b9c440371cf59559d6d07ef9260170c184fa6bb3d2cb88556c40301457"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P41-connective-constant-lower-bounds.pdf",
+          "anchor": "asset-d022d1f46d5c",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 338270,
+          "sha256": "4bbc701b44c6b5cf3455f0dcb4935b71a3f95db9933ffcc6a96dcccc17059163"
+        },
+        {
+          "path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P45-high-d-correlation-decay.pdf",
+          "anchor": "asset-6fae7d3fdaa9",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 782311,
+          "sha256": "34368f98803701fe89ea64bc7f7d39c7f527815b30d65c11062b8e8c04f19008"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P46-fisher-transformation.pdf",
+          "anchor": "asset-17b669ee6ae2",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 374310,
+          "sha256": "c4d3fa8747287baf4528408c0c2d70e845d2fa585f6a34ca0e9fca934b67f986"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P47-amenability.pdf",
+          "anchor": "asset-ef6f38c5a619",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 544337,
+          "sha256": "37bfbea410ab03d473fb65faa3f4133ead27caa9003e56e7326e2a95dfe1186d"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P49-hyperbolic-graphs.pdf",
+          "anchor": "asset-ca3092821ac1",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 589888,
+          "sha256": "34081c628865d11cd0945905f6f01760c4bb853043ca42d297793cb6f94e44c1"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P52-discrete-holomorphic-parafermions.pdf",
+          "anchor": "asset-a67254eeff22",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 188476,
+          "sha256": "4e688bd1f86fdeca54423d7b861d23d3327d52a4d05fc62eb1ef4cc175973682"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P53-random-quadrangulations-SLE.pdf",
+          "anchor": "asset-27ba3541ed39",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 2262327,
+          "sha256": "861ea5f8700e5b213b17bfc5a0b8f961306d1abdd1ef3514dde32d3a379ccfda"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P55-hypercube.pdf",
+          "anchor": "asset-cb41e6d1217d",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 556982,
+          "sha256": "8d2098873244bf55233954e401f3ad03e2c1318203bbbfd9f7d7f5389ed439b3"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P48-quantitative-subballisticity-Zd.pdf",
+          "anchor": "asset-b67bf9202aa5",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 527718,
+          "sha256": "5a2268f796ece0ea6140d05073e698101be6f0b8d33ac1d54c99cd7fd2de13b9"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P51-grigorchuk-connective-constants.pdf",
+          "anchor": "asset-b899e3713916",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 944252,
+          "sha256": "6503fb5b5d89e4d21e4b7ab9ce1bfcad65234b0554cd419c53098e7da021e451"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P54-spreadout-lace-expansion.pdf",
+          "anchor": "asset-91fd3e6691a6",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 550765,
+          "sha256": "f7b394e4a5ba6a746fbc3ee511c8627f68fb9f75aecbdff911da500b729bc35d"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P50-trails-kites-patterns.pdf",
+          "anchor": "asset-37bdb0550748",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 586513,
+          "sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688"
+        },
+        {
+          "path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P56-weak-SAW-4D-RG.pdf",
+          "anchor": "asset-4e323a2f141b",
+          "source_present": true,
+          "kind": "file",
+          "bytes": 817386,
+          "sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c"
+        },
+        {
+          "path": "evidence/root/reviews",
+          "anchor": "asset-bf58c783a1e6",
+          "source_present": true,
+          "kind": "directory"
+        }
+      ]
+    }
+  ]
+}

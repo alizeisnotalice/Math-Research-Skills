@@ -1,0 +1,572 @@
+{
+  "B18-002_example_3_2_printed_vs_derived_sign": {
+    "source_printed_value": "+1/2 (PDF p.13; transcribed unchanged)",
+    "derived_identity": "for every K>1, terms with n>=K have tail integral (-n)*(1/n)*(1/2)=-1/2 and all other terms are 0; hence inf over all n is -1/2",
+    "sampled_exact_fraction_rows": [
+      {
+        "K": "3/2",
+        "n": 1,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "0",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "0"
+      },
+      {
+        "K": "3/2",
+        "n": 2,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 3,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 4,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 5,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 6,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 7,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 8,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 9,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 10,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 11,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "3/2",
+        "n": 12,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 1,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "0",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "0"
+      },
+      {
+        "K": "2",
+        "n": 2,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 3,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 4,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 5,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 6,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 7,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 8,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 9,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 10,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 11,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "2",
+        "n": 12,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 1,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "0",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "0"
+      },
+      {
+        "K": "5/2",
+        "n": 2,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "0",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "0"
+      },
+      {
+        "K": "5/2",
+        "n": 3,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 4,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 5,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 6,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 7,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 8,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 9,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 10,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 11,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "5/2",
+        "n": 12,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 1,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "0",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "0"
+      },
+      {
+        "K": "4",
+        "n": 2,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "0",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "0"
+      },
+      {
+        "K": "4",
+        "n": 3,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "0",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "0"
+      },
+      {
+        "K": "4",
+        "n": 4,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 5,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 6,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 7,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 8,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 9,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 10,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 11,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      },
+      {
+        "K": "4",
+        "n": 12,
+        "source_printed_all_n_infimum": "+1/2",
+        "computed_first_branch_tail_integral": "-1/2",
+        "computed_second_branch_tail_integral": "0",
+        "computed_total_tail_integral": "-1/2"
+      }
+    ],
+    "scope_note": "The rows verify selected finite (K,n) substitutions with exact Fraction arithmetic. The all-n conclusion follows from the source's two-branch definitions and the stated symbolic calculation; the source display remains +1/2 and is not altered."
+  },
+  "B18-001_point_mass_example": {
+    "identity": "pointwise-liminf left=1 > 0=liminf integral; joint (n,s'->s) lower envelope at 0=0",
+    "rows": [
+      {
+        "n": 1,
+        "pointwise_left_integral": 1,
+        "right_integral": 0,
+        "test_x_integral_under_mu_n": "1",
+        "test_x_integral_under_mu": 0,
+        "approaching_point": "1/2",
+        "f_n_at_approaching_point": 0
+      },
+      {
+        "n": 2,
+        "pointwise_left_integral": 1,
+        "right_integral": 0,
+        "test_x_integral_under_mu_n": "1/2",
+        "test_x_integral_under_mu": 0,
+        "approaching_point": "1/4",
+        "f_n_at_approaching_point": 0
+      },
+      {
+        "n": 10,
+        "pointwise_left_integral": 1,
+        "right_integral": 0,
+        "test_x_integral_under_mu_n": "1/10",
+        "test_x_integral_under_mu": 0,
+        "approaching_point": "1/20",
+        "f_n_at_approaching_point": 0
+      },
+      {
+        "n": 100,
+        "pointwise_left_integral": 1,
+        "right_integral": 0,
+        "test_x_integral_under_mu_n": "1/100",
+        "test_x_integral_under_mu": 0,
+        "approaching_point": "1/200",
+        "f_n_at_approaching_point": 0
+      },
+      {
+        "n": 1000,
+        "pointwise_left_integral": 1,
+        "right_integral": 0,
+        "test_x_integral_under_mu_n": "1/1000",
+        "test_x_integral_under_mu": 0,
+        "approaching_point": "1/2000",
+        "f_n_at_approaching_point": 0
+      }
+    ],
+    "scope_note": "Exact evaluation of the paper's counterexample; weak convergence of delta_(1/n) to delta_0 follows analytically by continuity of test functions."
+  },
+  "B18-002_example_3_3": {
+    "rows": [
+      {
+        "n": 1,
+        "pieces": 4,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      },
+      {
+        "n": 2,
+        "pieces": 8,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      },
+      {
+        "n": 3,
+        "pieces": 16,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      },
+      {
+        "n": 4,
+        "pieces": 32,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      },
+      {
+        "n": 5,
+        "pieces": 64,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      },
+      {
+        "n": 6,
+        "pieces": 128,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      },
+      {
+        "n": 7,
+        "pieces": 256,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      },
+      {
+        "n": 8,
+        "pieces": 512,
+        "mu_n_total": "1",
+        "integral_f_n_dmu_n": "1",
+        "integral_f_dmu": "1",
+        "mu_of_f_n_le_2_3": "1/2",
+        "total_variation_bounded_test_norm": "1/2",
+        "measure_discrepancy_on_g_equals_1_2_set": "1/4"
+      }
+    ],
+    "identity": "all rows give mu_n(S)=1, int f_n dmu_n=int 1 dmu=1, mu{f_n<=2/3}=1/2, and bounded-test TV norm=1/2",
+    "scope_note": "Exact dyadic-partition arithmetic only; the paper supplies the separate approximation argument establishing setwise convergence for every Borel set."
+  },
+  "B18-003_example_6_1": {
+    "rows": [
+      {
+        "n": 1,
+        "integral_f_n_dmu_n": "1/2",
+        "integral_f_dmu": "0",
+        "continuous_test_x_under_mu_n": "1/2",
+        "continuous_test_x_under_mu": "0"
+      },
+      {
+        "n": 2,
+        "integral_f_n_dmu_n": "1/2",
+        "integral_f_dmu": "0",
+        "continuous_test_x_under_mu_n": "1/4",
+        "continuous_test_x_under_mu": "0"
+      },
+      {
+        "n": 10,
+        "integral_f_n_dmu_n": "1/2",
+        "integral_f_dmu": "0",
+        "continuous_test_x_under_mu_n": "1/20",
+        "continuous_test_x_under_mu": "0"
+      },
+      {
+        "n": 100,
+        "integral_f_n_dmu_n": "1/2",
+        "integral_f_dmu": "0",
+        "continuous_test_x_under_mu_n": "1/200",
+        "continuous_test_x_under_mu": "0"
+      },
+      {
+        "n": 1000,
+        "integral_f_n_dmu_n": "1/2",
+        "integral_f_dmu": "0",
+        "continuous_test_x_under_mu_n": "1/2000",
+        "continuous_test_x_under_mu": "0"
+      }
+    ],
+    "identity": "the varying-measure integrals remain 1/2 although the limit integral is 0; the example violates the required upper-semicontinuity of f",
+    "scope_note": "Exact integration of the displayed piecewise-linear density/function; weak convergence is justified analytically by the support shrinking to 0."
+  },
+  "interpretation": "All arithmetic is an example-level consistency check. It verifies neither weak/setwise convergence for arbitrary test sets nor any theorem."
+}

@@ -1,0 +1,83 @@
+{
+  "worker": "W14",
+  "skill": "probability-queueing-heavy-traffic",
+  "status": "30 fulltext PDFs read; independent review pending; distinct-work count provisional",
+  "scope_problem_ids": [
+    "A006",
+    "A007",
+    "A008",
+    "A011",
+    "B054",
+    "B157"
+  ],
+  "source_count": 44,
+  "source_status_counts": {
+    "fulltext_read": 30,
+    "partial_read": 1,
+    "pdf_acquired_not_yet_read": 0,
+    "metadata_only_not_read": 13
+  },
+  "unique_source_pdfs": 30,
+  "local_pdf_files_in_data_including_duplicate_copies": 26,
+  "local_html_fulltexts": 1,
+  "fully_read_pdf_pages": 856,
+  "partially_read_pdf_sources": [],
+  "partially_read_non_pdf_sources": [
+    "W14-003"
+  ],
+  "acquired_not_read_local_ids": [],
+  "key_math_run": {
+    "file": "evidence/W14/experiments/b054_candidate_marginal.m",
+    "tool": "MATLAB",
+    "seed": 20261113,
+    "n": 3,
+    "sigma2": 2,
+    "samples": 500000,
+    "empirical_mean": 1.66934435,
+    "predicted_mean": 1.66666667,
+    "max_absolute_cdf_error_on_grid": 0.0011856,
+    "interpretation": "Monte Carlo consistency check of the candidate coordinate marginal only; not evidence for Eq. (7), uniqueness, SSC, or Theorem 4.",
+    "output_file": "evidence/W14/experiments/b054_candidate_marginal_output.txt"
+  },
+  "limitations": [
+    "A008 two-column source W14-002 text extraction garbles part of the sufficient/unstable inequalities; its card preserves only unambiguous statements and records the gap.",
+    "A011 Foss HTML §1.1 was read; the Foss PDF text is corrupted. The open-problem status search was bounded, not exhaustive.",
+    "Several historical scan sources were read using local MATLAB OCR; theorem/formula pages were rendered and visually checked. OCR errors outside the checked pages remain possible.",
+    "Books are metadata-only; no selected chapters/sections were acquired or read, so the skill routes to chapters without claiming book distillation.",
+    "W14-039 is the expanded 2002 journal article, distinct from the unread 2000 SODA W14-007; it proves undecidability only for its generalized-priority model, not ordinary FIFO/priority.",
+    "W14-040 is the complete 2005 arXiv v1 preprint of a 2001 journal article; the read version is not the final journal layout.",
+    "W14-043 is arXiv:1010.1751v1; its first page says submitted to Annals of Applied Probability, and no later journal publication is asserted.",
+    "The two-page Dai–Williams 2005 correction note is merged as a supplement to W14-022 and excluded from the independent-source count; the changed source card is pending fresh R07 review.",
+    "Thirteen curated entries remain metadata-only.",
+    "W14-044 is the Springer 2026 version of record; all 58 physical PDF pages were read (article pp. 1–57, publisher note p. 58). D01 preflight found no title/DOI/SHA duplicate among 889 local PDFs; independent R07 confirmation of the 30-work count remains pending.",
+    "There are 30 fulltext_read PDF records covering 856 physical pages, each with a distinct recorded SHA-256. The 30–100 independent complete-source target is provisionally met at 30; final work-level count awaits R07 identity review. One HTML source is partial and 13 curated entries remain metadata-only.",
+    "R07 locator correction: W14-031 Theorem 1(c) requires X in C[0,1] almost surely for C-tightness (not nonnegative-path support); W14-030 Theorem 2.2 statement is physical p. 7/printed p. 156, proof continues on p. 8/printed p. 157. Cards and coverage are synchronized; R07 confirmation pending."
+  ],
+  "review_status": "pending",
+  "actual_sources_read": 31,
+  "partial_read_pdf_pages": 0,
+  "skill_validation": {
+    "quick_validate": "passed: python scripts/quick_validate_all.py skills/probability-queueing-heavy-traffic",
+    "local_markdown_links": "passed: 26 local Markdown targets across W14-030/031 cards, reading coverage, R07 response, and method guide",
+    "sources_json_hash_check": "unchanged; prior pass for all 30 PDFs and correction supplement",
+    "quick_validate_skill_sha256": "69954ae96340179edafbc809d3558aa6a8b9647f7ceb78058c40b88520f42e48"
+  },
+  "additional_math_check": {
+    "source": "W14-013 Theorem 2, uniform-Bernoulli specialization",
+    "script": "evidence/W14/experiments/w14_013_mean_coefficient_exact_check.py",
+    "tool": "Python standard-library fractions.Fraction",
+    "input_range": "integer n=1,...,8",
+    "result": "Exact rational equality checked at each listed n: (1-1/(2n))(n-1)=n-3/2+1/(2n).",
+    "interpretation": "Finite-n arithmetic consistency check only; the identity is algebraic and the calculation is not a proof of the paper theorem or of any heavy-traffic limit."
+  },
+  "additional_math_checks": [
+    {
+      "source": "W14-044 Heyda (2026), Theorems 2.2, 2.4, 2.5; Eqs. (2.3.1)–(2.4.3)",
+      "script": "evidence/W14/experiments/w14_044_exact_checks.py",
+      "tool": "Python fractions.Fraction",
+      "result": "Exact checks passed for 4D covariance eigenvalues at beta=2.00046; theta+R e1=delta1 e4/e5 for the displayed divergent paths; and H Sigma H^T=I with transformed drift in the 5D scaling.",
+      "interpretation": "Algebraic consistency only; no recurrence, predator-prey tail, or numerical eigenvalue-threshold proof."
+    }
+  ],
+  "distinct_work_count_status": "30 candidate independent full-text works based on 30 SHA-distinct PDF records and D01 title/DOI/SHA preflight for W14-044; R07 confirmation pending."
+}

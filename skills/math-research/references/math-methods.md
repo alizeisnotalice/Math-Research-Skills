@@ -1,0 +1,96 @@
+# 数学方法索引
+
+先检索当前问题的对象与方法，只读取相关技能。以下描述用于选路，具体定理与假设以技能及原文为准。
+
+## A · 归一化、外放松与紧性
+
+- [math-a01-fractional-normalization](../../math-a01-fractional-normalization/SKILL.md)：审查齐次归一化与分式规划中的正分母、Charnes–Cooper 变换、松弛方向及达到条件。
+- [math-a02-outer-relaxation-budget](../../math-a02-outer-relaxation-budget/SKILL.md)：构造或审查外放松映射，核对正支配、约束保持、界方向和误差预算。
+- [math-a03-compactness-concentration](../../math-a03-compactness-concentration/SKILL.md)：分析近极值序列的紧性、集中、逃逸与极限传递，核对归一化和质量保持。
+- [math-a04-shared-nonanticipative-mip](../../math-a04-shared-nonanticipative-mip/SKILL.md)：审查共同选择的混合整数模型与非前视约束，检查不同情形是否由同一决策实现。
+## B · 对偶、矩问题与交换
+
+- [math-b01-lagrange-farkas](../../math-b01-lagrange-farkas/SKILL.md)：推导或核验 Lagrange 对偶与 Farkas 证书，检查约束资格、对偶方向及不可行性证据。
+- [math-b02-semi-infinite-exchange](../../math-b02-semi-infinite-exchange/SKILL.md)：处理半无限规划与约束生成，核对分离子问题、交换步骤、停止条件和全域覆盖。
+- [math-b03-generalized-moments](../../math-b03-generalized-moments/SKILL.md)：用广义矩问题组织概率或解析界，核对矩约束、对偶多项式和达到条件。
+- [math-b04-qualification-facial-minimax](../../math-b04-qualification-facial-minimax/SKILL.md)：检查约束资格、面约化及极小极大交换，定位强对偶或量词交换所需的假设。
+## C · 锥规划、SOS 与全局优化
+
+- [math-c01-semidefinite-lifting](../../math-c01-semidefinite-lifting/SKILL.md)：审查半定提升的建模、秩约束与松弛方向，区分 SDP 界和原问题可行解。
+- [math-c02-completely-positive-copositive](../../math-c02-completely-positive-copositive/SKILL.md)：分析完全正锥和共正锥表述，核对锥对偶、有限近似及最优性证书范围。
+- [math-c03-moment-sos-certificates](../../math-c03-moment-sos-certificates/SKILL.md)：构建或核验矩与 SOS 层级，检查正多项式证书、截断阶数、紧性和解恢复。
+- [math-c04-branch-and-bound](../../math-c04-branch-and-bound/SKILL.md)：组织分支定界中的可行界、松弛界、剪枝和终止证书，检查全局覆盖。
+## D · 输运、熵与自由能
+
+- [math-d01-kantorovich-duality](../../math-d01-kantorovich-duality/SKILL.md)：核验 Kantorovich 输运对偶及势函数，检查代价、可积性和原始对偶可行性。
+- [math-d02-gibbs-entropy-duality](../../math-d02-gibbs-entropy-duality/SKILL.md)：推导 Gibbs 变分与熵对偶，检查参考测度、归一化、有限熵和等号条件。
+- [math-d03-parameterized-free-energy](../../math-d03-parameterized-free-energy/SKILL.md)：分析指定参数的自由能弱式，核对参数范围、变分方向和与目标问题的接口。
+- [math-d04-entropy-chain-rule](../../math-d04-entropy-chain-rule/SKILL.md)：使用熵链式分解分析联合与条件分布，核对可测性、条件核和积分合法性。
+## E · 占用测度、Bellman 与停止
+
+- [math-e01-occupation-measure-flow-lp](../../math-e01-occupation-measure-flow-lp/SKILL.md)：建立占用测度 LP 与流守恒模型，核对真实过程、边界通量和可实现性。
+- [math-e02-nonlocal-hjb-supersolution](../../math-e02-nonlocal-hjb-supersolution/SKILL.md)：构造或审查非局部 HJB 超解，核对生成元、边界条件与验证不等式方向。
+- [math-e03-tree-bellman-cross-layer-budget](../../math-e03-tree-bellman-cross-layer-budget/SKILL.md)：分析树 Bellman 跨层预算势，核对层间递推、公共预算与终端结算。
+- [math-e04-snell-envelope-optimal-stopping](../../math-e04-snell-envelope-optimal-stopping/SKILL.md)：处理最优停止与 Snell 包络，核对滤过、可积性、停止时及极限传递。
+## F · Fourier、谱与平方函数
+
+- [math-f01-geometric-mean-kernel-two-winner-audit](../../math-f01-geometric-mean-kernel-two-winner-audit/SKILL.md)：审查几何平均核与两赢家分支估计，检查同输入耦合和分支选择条件。
+- [math-f02-tensor-fourier-positivity-soft-square-supremum](../../math-f02-tensor-fourier-positivity-soft-square-supremum/SKILL.md)：核验张量 Fourier 正性及软度平方上确界估计，区分频域正性与所需最大界。
+- [math-f03-hilbert-schmidt-radial-layer-square-envelope](../../math-f03-hilbert-schmidt-radial-layer-square-envelope/SKILL.md)：审查 Hilbert–Schmidt 径向层叠与平方包络，检查层间求和和核的适用条件。
+- [math-f04-poisson-gamma-abel-square-function](../../math-f04-poisson-gamma-abel-square-function/SKILL.md)：使用 Poisson–Gamma 与 Abel 平方函数方法，核对参数积分、权重和接口条件。
+- [math-f05-l2-spectral-parameter-schur-test](../../math-f05-l2-spectral-parameter-schur-test/SKILL.md)：推导 L² 谱参数估计与 Schur 检验，检查核界、测度、权重和常数依赖。
+- [math-f06-menshov-rademacher-maximal-partial-sums](../../math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md)：核验 Rademacher–Menshov 最大部分和估计，检查正交性、索引与对数损失。
+- [math-f07-marcinkiewicz-zygmund-vector-extension](../../math-f07-marcinkiewicz-zygmund-vector-extension/SKILL.md)：审查 Marcinkiewicz–Zygmund 向量值延拓，核对算子类型、指数范围和随机化条件。
+## G · Carleson 与树结构
+
+- [math-g01-carleson-measure-box-and-tent-test](../../math-g01-carleson-measure-box-and-tent-test/SKILL.md)：检验 Carleson 测度的盒、帐篷与嵌入条件，核对几何族、尺度及常数。
+- [math-g02-outer-lp-size-and-tree-stopping](../../math-g02-outer-lp-size-and-tree-stopping/SKILL.md)：使用外测度 Lp、大小函数和树停止方法，核对外测度结构与嵌入假设。
+- [math-g03-directional-capture-tree-quadratic-audit](../../math-g03-directional-capture-tree-quadratic-audit/SKILL.md)：审查方向性捕获树的二次型及来源算子，核对方向、选择器和耦合结构。
+- [math-g04-rubio-de-francia-square-function-scope-check](../../math-g04-rubio-de-francia-square-function-scope-check/SKILL.md)：核验树上 Rubio de Francia 平方函数估计的适用范围与频率几何条件。
+- [math-g05-tree-carleson-square-function-tc-a4-audit](../../math-g05-tree-carleson-square-function-tc-a4-audit/SKILL.md)：审查 TC-A4 Carleson 型平方函数界，核对树结构、输入范围和具体假设。
+## H · 中偏差与指数倾斜
+
+- [math-h01-uniform-cramer-moderate-deviations](../../math-h01-uniform-cramer-moderate-deviations/SKILL.md)：核验一致 Cramér 中偏差和三角阵尾估计，检查一致参数范围、矩条件和误差。
+- [math-h02-exponential-tilting-saddlepoint](../../math-h02-exponential-tilting-saddlepoint/SKILL.md)：分析指数倾斜与鞍点尾近似，核验鞍点、精确倾斜恒等式、Mills 界及误差范围。
+- [math-h03-fan-grama-liu-martingale-expansion](../../math-h03-fan-grama-liu-martingale-expansion/SKILL.md)：应用或审查 Fan–Grama–Liu 鞅展开，核对条件矩、滤过及展开误差。
+- [math-h04-exact-rate-function-variance-strata](../../math-h04-exact-rate-function-variance-strata/SKILL.md)：计算或核对精确率函数与方差分层，保持参数域和各层尾估计的一致性。
+- [math-h05-chernoff-hoeffding-bernstein](../../math-h05-chernoff-hoeffding-bernstein/SKILL.md)：选择和核验 Chernoff、Hoeffding、Bernstein 尾界，检查独立性、矩条件和常数。
+## I · 滤过、补偿与随机占用
+
+- [math-i01-ordered-increment-conditional-bernstein](../../math-i01-ordered-increment-conditional-bernstein/SKILL.md)：在有序滤过下核验条件 Bernstein 矩并推导指数超鞅与尾界，区分条件和无条件假设。
+- [math-i02-filtration-projections-compensators](../../math-i02-filtration-projections-compensators/SKILL.md)：处理滤过、可选或可预测投影及补偿子，核对适应性、可积性和版本。
+- [math-i03-fourth-moment-suffix-maximal-comparison](../../math-i03-fourth-moment-suffix-maximal-comparison/SKILL.md)：审查后缀四阶矩与最大值到末端比较，核对过程结构、矩界及比较范围。
+- [math-i04-random-carleson-occupancy-llogl](../../math-i04-random-carleson-occupancy-llogl/SKILL.md)：分析随机 Carleson 占用与 LlogL 条件，检查随机测度、占用结构和可积性。
+## J · 非齐次跳跃过程
+
+- [math-j01-inhomogeneous-jump-generator](../../math-j01-inhomogeneous-jump-generator/SKILL.md)：推导非齐次跳跃过程的真实生成元，核对时间依赖、跳核及状态空间。
+- [math-j02-killed-process-duhamel-first-jump](../../math-j02-killed-process-duhamel-first-jump/SKILL.md)：使用杀死过程、Duhamel 或首次跳跃标签分解，核对杀死项和边界结算。
+- [math-j03-nonlocal-balayage-exit-measure](../../math-j03-nonlocal-balayage-exit-measure/SKILL.md)：分析非局部 balayage 与退出测度，核对退出规则、调和条件和核表示。
+- [math-j04-jump-compensation-fubini-exit-settlement](../../math-j04-jump-compensation-fubini-exit-settlement/SKILL.md)：核验跳跃补偿、随机 Fubini 与退出财富结算，检查可积性及停止边界项。
+- [math-j05-frozen-coordinate-iterated-compensation-interface](../../math-j05-frozen-coordinate-iterated-compensation-interface/SKILL.md)：审查非齐次跳跃中的冻结坐标与迭代补偿，核对条件结构、标签和合法换序。
+## K · 随机场极值与集中
+
+- [math-k01-chan-lai-asymptotically-gaussian-fields](../../math-k01-chan-lai-asymptotically-gaussian-fields/SKILL.md)：核验 Chan–Lai 渐近高斯场方法，检查局部协方差、尾近似和一致性条件。
+- [math-k02-pickands-piterbarg-double-sum](../../math-k02-pickands-piterbarg-double-sum/SKILL.md)：使用 Pickands–Piterbarg 双重求和分析极值尾，核对局部结构、重叠项和余项。
+- [math-k03-dirksen-mixed-tail-generic-chaining](../../math-k03-dirksen-mixed-tail-generic-chaining/SKILL.md)：应用 Dirksen 混合尾泛链界，检查增量尾、半度量、熵或泛链泛函。
+- [math-k04-anti-concentration-empirical-process](../../math-k04-anti-concentration-empirical-process/SKILL.md)：审查反集中与经验过程估计，核对指标集、过程假设和概率误差范围。
+- [math-k05-talagrand-convex-concentration](../../math-k05-talagrand-convex-concentration/SKILL.md)：核验 Talagrand 凸集中方法，检查乘积结构、凸距离及所用版本。
+## L · 计算搜索与严格证书
+
+- [math-l01-lower-bound-test-parameters](../../math-l01-lower-bound-test-parameters/SKILL.md)：选择下界测试参数向量，核对输入可行性、归一化和可认证的下界范围。
+- [math-l02-adversarial-input-search](../../math-l02-adversarial-input-search/SKILL.md)：开展对抗输入优化与反例搜索，区分有限搜索证据、可行构造和全局断言。
+- [math-l03-rational-and-interval-certificates](../../math-l03-rational-and-interval-certificates/SKILL.md)：构造或核验区间算术、有理对偶与证明型数值证书，检查舍入和全域覆盖。
+- [math-l04-mathematical-programming-workflow](../../math-l04-mathematical-programming-workflow/SKILL.md)：组织数学规划软件的建模与结果核验，检查求解器、容差、可行性和界方向。
+- [math-l05-csp-sat-smt-encoding](../../math-l05-csp-sat-smt-encoding/SKILL.md)：将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、完备性及可检查证书。
+## M · 凸性、极点与选择
+
+- [math-m01-convex-hull-extreme-points](../../math-m01-convex-hull-extreme-points/SKILL.md)：使用 Carathéodory 与 Krein–Milman 极点方法，核对凸包、拓扑与紧性条件。
+- [math-m02-separation-support-certificate](../../math-m02-separation-support-certificate/SKILL.md)：构造 Hahn–Banach 分离或支撑函数证书，检查闭性、拓扑和分离方向。
+- [math-m03-near-extremizer-stability](../../math-m03-near-extremizer-stability/SKILL.md)：分析近极值稳定性与刚性，核对亏损量、对称性、距离和紧性缺口。
+- [math-m04-measurable-supremum-selection](../../math-m04-measurable-supremum-selection/SKILL.md)：处理可测上确界、解析投影和可测选择，核对参数空间、可测性及选择器范围。
+## N · 凸几何、振荡与误差
+
+- [math-n01-john-loewner-ellipsoid](../../math-n01-john-loewner-ellipsoid/SKILL.md)：使用 John 或 Löwner 椭球与容量方法，核对凸体假设、归一化和常数依赖。
+- [math-n02-log-concave-marginal-inequalities](../../math-n02-log-concave-marginal-inequalities/SKILL.md)：核验 Prékopa–Leindler、BBL 与对数凹边际不等式，检查指数、积分和等号条件。
+- [math-n03-oscillation-and-geometric-remainder](../../math-n03-oscillation-and-geometric-remainder/SKILL.md)：分析 van der Corput、半密度与振荡抵消的几何余项，核对相位和一致参数范围。
+- [math-n04-summable-error-entropy-descent](../../math-n04-summable-error-entropy-descent/SKILL.md)：组织可求和误差与熵递减论证，检查逐层预算、收敛传递和累计误差。

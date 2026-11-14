@@ -1,0 +1,6 @@
+P= Matrix([[3/4, 1/4], [1/4, 3/4]])
+P_tilde= Matrix([[17/20, 3/20], [1/4, 3/4]])
+pi= Matrix([[1/2, 1/2]]) pi_tilde= Matrix([[5/8, 3/8]])
+tau_1(P)= 1/2 ||E||_row= 1/5
+||pi_tilde-pi||_1= 1/4 bound= 2/5
+Exact inequality holds in this example; this is a sanity check, not the general theorem proof.

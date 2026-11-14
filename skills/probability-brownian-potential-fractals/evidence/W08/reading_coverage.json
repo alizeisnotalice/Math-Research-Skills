@@ -1,0 +1,1359 @@
+{
+  "worker": "W08",
+  "as_of": "2026-11-14",
+  "page_basis": "1-based physical PDF pages, not printed pagination",
+  "sources": {
+    "M0171": {
+      "items": [
+        {
+          "unit": "Definitions and theorem; construction proof",
+          "pdf_pages": [
+            1,
+            6
+          ],
+          "coverage_summary": "Defines the connected-set percolation dimension and constructs planar compacta with independently prescribed path, boundary and Hausdorff dimensions by nested Jordan barriers and summable covers."
+        }
+      ]
+    },
+    "M0172": {
+      "items": [
+        {
+          "unit": "§1 Introduction and exponent setup",
+          "pdf_pages": [
+            1,
+            6
+          ],
+          "coverage_summary": "Sets the frontier dimension problem and defines the finite-scale non-disconnection exponent used in the proof."
+        },
+        {
+          "unit": "§3 Brownian motion estimates and dimension proof",
+          "pdf_pages": [
+            7,
+            18
+          ],
+          "coverage_summary": "Uses uniform one- and two-point Brownian estimates, covering for the upper bound and an energy/Frostman argument for the lower bound."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            19,
+            19
+          ],
+          "coverage_summary": "Lists the exponent and dimension sources used in the article."
+        }
+      ]
+    },
+    "M0175": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "coverage_summary": "States frontier/cut/pioneer dimension results and places them in the exponent program."
+        },
+        {
+          "unit": "§2 Intersection exponents",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "coverage_summary": "Defines the Brownian intersection-exponent quantities used in the frontier formula."
+        },
+        {
+          "unit": "§3 Restriction property and universality",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "coverage_summary": "Records restriction and universality inputs for the exponent identities."
+        },
+        {
+          "unit": "§4 Stochastic Loewner evolution",
+          "pdf_pages": [
+            7,
+            9
+          ],
+          "coverage_summary": "Sets up the SLE calculation and its conformal observables."
+        },
+        {
+          "unit": "§5 Exponents for SLE6",
+          "pdf_pages": [
+            10,
+            11
+          ],
+          "coverage_summary": "Derives the SLE6 exponent identities used for the frontier exponent."
+        },
+        {
+          "unit": "§6 Analyticity and references",
+          "pdf_pages": [
+            12,
+            15
+          ],
+          "coverage_summary": "States the analyticity input and references; the article gives an announcement/outline rather than all supporting proofs."
+        }
+      ]
+    },
+    "M0179": {
+      "items": [
+        {
+          "unit": "Setup, dimension criterion and one-point estimate, §§1–3",
+          "pdf_pages": [
+            1,
+            10
+          ],
+          "coverage_summary": "Introduces chordal SLE and reduces dimension to sharp one-point and two-point neighborhood probabilities; the one-point bound follows from a conformal-angle diffusion."
+        },
+        {
+          "unit": "§§3–5 two-point estimate, dimension conclusion and references",
+          "pdf_pages": [
+            11,
+            33
+          ],
+          "coverage_summary": "Controls fjords by crosscuts, harmonic measure and a reduction lemma, then applies the random-set dimension criterion to the trace and discusses the hull boundary separately; references are included."
+        }
+      ]
+    },
+    "M0195": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            4
+          ],
+          "coverage_summary": "Defines cut times and states cut-time and cut-point dimension results."
+        },
+        {
+          "unit": "§2 Proof of Main Theorem",
+          "pdf_pages": [
+            5,
+            8
+          ],
+          "coverage_summary": "Covers cut times for the upper bound and constructs the random measure for the lower bound."
+        },
+        {
+          "unit": "§3 Estimate for Intersection Probabilities",
+          "pdf_pages": [
+            9,
+            17
+          ],
+          "coverage_summary": "Proves the scale-dependent two-path non-intersection estimates used in the second moment."
+        },
+        {
+          "unit": "§4 Moment Bound and references",
+          "pdf_pages": [
+            18,
+            20
+          ],
+          "coverage_summary": "Completes the moment estimate and records references."
+        }
+      ]
+    },
+    "M0204": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            5
+          ],
+          "coverage_summary": "States the half-plane exponent problem and its relation to Brownian non-intersection."
+        },
+        {
+          "unit": "§2 SLE6 and its locality property",
+          "pdf_pages": [
+            6,
+            24
+          ],
+          "coverage_summary": "Develops chordal SLE6 locality, expanding hulls and restriction identities."
+        },
+        {
+          "unit": "§3 Exponents for SLE6",
+          "pdf_pages": [
+            25,
+            33
+          ],
+          "coverage_summary": "Derives the SLE6 crossing exponents from generalized Cardy and conformal estimates."
+        },
+        {
+          "unit": "§4 The Brownian half-plane exponents",
+          "pdf_pages": [
+            34,
+            38
+          ],
+          "coverage_summary": "Transfers the SLE/excursion exponents to Brownian paths using excursion measure and extremal distance."
+        },
+        {
+          "unit": "§5 Crossing exponents for critical percolation",
+          "pdf_pages": [
+            39,
+            40
+          ],
+          "coverage_summary": "States the percolation crossing exponent application."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            41,
+            44
+          ],
+          "coverage_summary": "Bibliography and author information."
+        }
+      ]
+    },
+    "M0205": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            5
+          ],
+          "coverage_summary": "States the plane intersection-exponent results and frontier application."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "coverage_summary": "Fixes notation and the radial/chordal SLE setup."
+        },
+        {
+          "unit": "§3 Annulus crossing exponents for SLE",
+          "pdf_pages": [
+            8,
+            16
+          ],
+          "coverage_summary": "Derives derivative, harmonic-measure and extremal-distance exponents."
+        },
+        {
+          "unit": "§4 Properties of SLE6",
+          "pdf_pages": [
+            17,
+            21
+          ],
+          "coverage_summary": "Establishes the SLE6 comparison and crossing-exponent inputs."
+        },
+        {
+          "unit": "§5 Brownian intersection exponents",
+          "pdf_pages": [
+            22,
+            30
+          ],
+          "coverage_summary": "Transfers the SLE and excursion estimates to planar Brownian exponents."
+        },
+        {
+          "unit": "§6 The universality argument and references",
+          "pdf_pages": [
+            31,
+            37
+          ],
+          "coverage_summary": "Completes the universality argument and gives the references."
+        }
+      ]
+    },
+    "M0207": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "States sharp Brownian non-intersection probability estimates and the resulting exponent consequences."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "pdf_pages": [
+            4,
+            8
+          ],
+          "coverage_summary": "Develops excursion measure, extremal distance and auxiliary lemmas."
+        },
+        {
+          "unit": "§3 Lower bound",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "coverage_summary": "Proves the lower probability estimate by a separated-configuration construction."
+        },
+        {
+          "unit": "§4 The upper bound",
+          "pdf_pages": [
+            11,
+            15
+          ],
+          "coverage_summary": "Builds nice configurations and pastes excursions to derive the upper estimate."
+        },
+        {
+          "unit": "§5 Non-intersection probabilities",
+          "pdf_pages": [
+            16,
+            16
+          ],
+          "coverage_summary": "Converts the excursion bounds to non-intersection probabilities."
+        },
+        {
+          "unit": "§6 Separation lemma",
+          "pdf_pages": [
+            17,
+            18
+          ],
+          "coverage_summary": "Proves the separation estimate needed to control configurations."
+        },
+        {
+          "unit": "§7 Other exponents and exact values; references",
+          "pdf_pages": [
+            19,
+            22
+          ],
+          "coverage_summary": "Records further exponent consequences and bibliography."
+        }
+      ]
+    },
+    "M0208": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "States the two-sided exponent questions and main formulae."
+        },
+        {
+          "unit": "§2 Notations and terminology",
+          "pdf_pages": [
+            4,
+            4
+          ],
+          "coverage_summary": "Defines the two-sided Brownian events and notation."
+        },
+        {
+          "unit": "§3 Derivative SLE exponents",
+          "pdf_pages": [
+            5,
+            8
+          ],
+          "coverage_summary": "Computes derivative exponents via the SLE martingale method."
+        },
+        {
+          "unit": "§4 Extremal distance exponents",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "coverage_summary": "Relates the estimates to extremal distance."
+        },
+        {
+          "unit": "§5 The universality argument",
+          "pdf_pages": [
+            11,
+            13
+          ],
+          "coverage_summary": "Transfers the exponent identities to Brownian motion."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            14,
+            15
+          ],
+          "coverage_summary": "Bibliography and author information."
+        }
+      ]
+    },
+    "W08-R001": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            1
+          ],
+          "coverage_summary": "Defines labyrinth dimension as a supremum over Jordan arcs and states the Brownian trace theorem."
+        },
+        {
+          "unit": "§2 Proofs",
+          "pdf_pages": [
+            2,
+            33
+          ],
+          "coverage_summary": "Proves the Brownian gauge and arc-capture results; includes the appendix argument used to construct the contained arcs."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            34,
+            35
+          ],
+          "coverage_summary": "Bibliography; the last physical PDF page contains the references."
+        }
+      ]
+    },
+    "W08-R002": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "Introduces the second Neumann eigenfunction and mirror-coupling approach."
+        },
+        {
+          "unit": "§2 Assumptions and the main result",
+          "pdf_pages": [
+            4,
+            6
+          ],
+          "coverage_summary": "States and defines the five geometric hypotheses for the spectral simplicity theorem."
+        },
+        {
+          "unit": "§3 Mirror coupling analysis",
+          "pdf_pages": [
+            7,
+            21
+          ],
+          "coverage_summary": "Constructs the reflected marginals and analyzes mirror-line/hinge geometry and invariant separation."
+        },
+        {
+          "unit": "§4 Multiplicity of the second eigenvalue",
+          "pdf_pages": [
+            22,
+            31
+          ],
+          "coverage_summary": "Completes the eigenvalue-multiplicity and eigenfunction sign arguments."
+        },
+        {
+          "unit": "§5 Examples and references",
+          "pdf_pages": [
+            32,
+            37
+          ],
+          "coverage_summary": "Checks geometric examples and lists references."
+        }
+      ]
+    },
+    "W08-R003": {
+      "items": [
+        {
+          "unit": "§1 Introduction and main results",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "coverage_summary": "States the smooth-domain synchronous-coupling convergence and rate results with geometric assumptions."
+        },
+        {
+          "unit": "§2 Examples and open problems",
+          "pdf_pages": [
+            3,
+            8
+          ],
+          "coverage_summary": "Gives examples, limitations and open problems for the stated domain class."
+        },
+        {
+          "unit": "§3 Analysis of Skorokhod transforms",
+          "pdf_pages": [
+            9,
+            39
+          ],
+          "coverage_summary": "Proves the principal distance and curvature estimates through Skorokhod-transform analysis."
+        },
+        {
+          "unit": "§4 Arguments based on excursion theory",
+          "pdf_pages": [
+            40,
+            68
+          ],
+          "coverage_summary": "Uses boundary excursion theory and ergodic estimates to finish the convergence/rate proof."
+        }
+      ]
+    },
+    "W08-R004": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            4
+          ],
+          "coverage_summary": "Defines coupling efficiency and introduces the symmetric Markov-chain setup."
+        },
+        {
+          "unit": "§2 Couplings for symmetric Markov chains",
+          "pdf_pages": [
+            5,
+            19
+          ],
+          "coverage_summary": "Develops efficient coupling criteria and examples for symmetric chains."
+        },
+        {
+          "unit": "§3 Reflected Brownian motion in a triangle",
+          "pdf_pages": [
+            20,
+            41
+          ],
+          "coverage_summary": "Studies mirror-coupling efficiency and inefficiency for triangle geometries; physical p.21 contains the normalization example discussed in the card."
+        },
+        {
+          "unit": "§4 Some further examples",
+          "pdf_pages": [
+            42,
+            43
+          ],
+          "coverage_summary": "Records additional coupling examples."
+        },
+        {
+          "unit": "References and figure pages",
+          "pdf_pages": [
+            44,
+            57
+          ],
+          "coverage_summary": "Contains the bibliography and physical figure pages."
+        }
+      ]
+    },
+    "W08-R006": {
+      "items": [
+        {
+          "unit": "§1 Introduction and §2 Definitions and background",
+          "pdf_pages": [
+            1,
+            7
+          ],
+          "coverage_summary": "Defines chordal/radial SLE and the Loewner setup."
+        },
+        {
+          "unit": "§3 Derivative expectation",
+          "pdf_pages": [
+            8,
+            18
+          ],
+          "coverage_summary": "Proves derivative-moment and derivative-bound estimates."
+        },
+        {
+          "unit": "§4 Reduction; §5 Continuity",
+          "pdf_pages": [
+            19,
+            22
+          ],
+          "coverage_summary": "Reduces the trace problem and proves continuity of the Loewner trace in the stated regime."
+        },
+        {
+          "unit": "§6 Phases; §7 Transience",
+          "pdf_pages": [
+            23,
+            34
+          ],
+          "coverage_summary": "Establishes simplicity, swallowing and phase-dependent trace/hull behavior."
+        },
+        {
+          "unit": "§8 Dimensions",
+          "pdf_pages": [
+            35,
+            42
+          ],
+          "coverage_summary": "Derives expected-covering and hull-boundary bounds, including delta(kappa)=1+2/kappa for kappa>4."
+        },
+        {
+          "unit": "§9 Further discussion and references",
+          "pdf_pages": [
+            43,
+            51
+          ],
+          "coverage_summary": "Discusses extensions/open problems and includes the references."
+        }
+      ]
+    },
+    "W08-R007": {
+      "items": [
+        {
+          "unit": "Loop-erasure definition and conditioned Brownian motion, §§1–2",
+          "pdf_pages": [
+            1,
+            4
+          ],
+          "coverage_summary": "Defines continuous loop-erasure and conditions Brownian exit by a Poisson-kernel h-transform to couple it with radial SLE2."
+        },
+        {
+          "unit": "Commutation coupling and existence proof, §3",
+          "pdf_pages": [
+            4,
+            8
+          ],
+          "coverage_summary": "Builds a two-time local-martingale density, localizes with Jordan separators and passes through exhaustion/weak limits to obtain the loop-erasure."
+        },
+        {
+          "unit": "Discussion and references",
+          "pdf_pages": [
+            9,
+            10
+          ],
+          "coverage_summary": "States existence limitations and records cited sources; it does not prove uniqueness or a dimension theorem."
+        }
+      ]
+    },
+    "W08-R009": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "Introduces reflection coupling and the radial curvature condition."
+        },
+        {
+          "unit": "§2 Main results for reflection coupling",
+          "pdf_pages": [
+            4,
+            10
+          ],
+          "coverage_summary": "States Euclidean contraction, consequences, examples and local contractivity."
+        },
+        {
+          "unit": "§3 Componentwise reflection couplings",
+          "pdf_pages": [
+            11,
+            13
+          ],
+          "coverage_summary": "Develops product-space coupling and applications."
+        },
+        {
+          "unit": "§4 Proofs for Reflection Coupling",
+          "pdf_pages": [
+            14,
+            17
+          ],
+          "coverage_summary": "Proves the main contraction theorem using the separation SDE and concave cost."
+        },
+        {
+          "unit": "§5 Examples; §6 Couplings on product spaces; §7 Interacting diffusions",
+          "pdf_pages": [
+            18,
+            24
+          ],
+          "coverage_summary": "Gives examples and product/manifold applications, including the smooth bounded convex normal-reflection remark limited to G=I_d."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            25,
+            28
+          ],
+          "coverage_summary": "Bibliography and final blank/author pages."
+        }
+      ]
+    },
+    "W08-R011": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "States synchronous reflected-Brownian convergence questions and the main theorem."
+        },
+        {
+          "unit": "§2 Construction of synchronous couplings",
+          "pdf_pages": [
+            4,
+            11
+          ],
+          "coverage_summary": "Constructs reflected synchronous couplings in the relevant domain classes."
+        },
+        {
+          "unit": "§3 Polygonal domains",
+          "pdf_pages": [
+            12,
+            26
+          ],
+          "coverage_summary": "Proves convergence for polygonal domains through vertex/local geometry arguments."
+        },
+        {
+          "unit": "§4 Lip domains",
+          "pdf_pages": [
+            27,
+            31
+          ],
+          "coverage_summary": "Proves the separate lip-domain result under its strict Lipschitz bound."
+        }
+      ]
+    },
+    "W08-R012": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "coverage_summary": "Sets up the Neumann hot-spots problem and the spectral expansion convention."
+        },
+        {
+          "unit": "§2 Main theorems on the hot-spots problem",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "coverage_summary": "Reviews domain classes and established hot-spots results."
+        },
+        {
+          "unit": "§3 Results related to the hot-spots problem",
+          "pdf_pages": [
+            5,
+            5
+          ],
+          "coverage_summary": "Summarizes nearby results and counterexamples."
+        },
+        {
+          "unit": "§4 Review of selected probabilistic techniques",
+          "pdf_pages": [
+            6,
+            13
+          ],
+          "coverage_summary": "Reviews mirror and scaling coupling methods, their time changes and limitations."
+        }
+      ]
+    },
+    "W08-R013": {
+      "items": [
+        {
+          "unit": "Title page, author/version identity and abstract",
+          "pdf_pages": [
+            1,
+            1
+          ],
+          "coverage_summary": "Visually checked the title page identity and abstract; mathematical introduction begins on physical PDF p. 2."
+        },
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            2,
+            13
+          ],
+          "coverage_summary": "Defines LERW/UST, explains SLE background and states the convergence theorems."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "pdf_pages": [
+            14,
+            19
+          ],
+          "coverage_summary": "Sets up Loewner evolution and discrete harmonic-measure estimates."
+        },
+        {
+          "unit": "§3 Conformal invariance of LERW",
+          "pdf_pages": [
+            20,
+            38
+          ],
+          "coverage_summary": "Proves driving-process and path convergence for discrete LERW."
+        },
+        {
+          "unit": "§4 The UST Peano curve",
+          "pdf_pages": [
+            39,
+            53
+          ],
+          "coverage_summary": "Proves the Peano-curve convergence and consequences."
+        },
+        {
+          "unit": "§5 Random walk estimates",
+          "pdf_pages": [
+            54,
+            63
+          ],
+          "coverage_summary": "Establishes the discrete hitting and Green-function estimates."
+        },
+        {
+          "unit": "§6 Other lattices; references",
+          "pdf_pages": [
+            64,
+            72
+          ],
+          "coverage_summary": "Discusses other lattice variants and gives references."
+        }
+      ]
+    },
+    "W08-R014": {
+      "items": [
+        {
+          "unit": "§1 Introduction",
+          "pdf_pages": [
+            1,
+            2
+          ],
+          "coverage_summary": "Introduces finitely connected LERW and target types."
+        },
+        {
+          "unit": "§2 Some notation",
+          "pdf_pages": [
+            3,
+            6
+          ],
+          "coverage_summary": "Defines LERW, domain connectivity, positive harmonic functions, hulls and Loewner chains."
+        },
+        {
+          "unit": "§3 Continuous LERW",
+          "pdf_pages": [
+            7,
+            14
+          ],
+          "coverage_summary": "Constructs the continuous process and proves conformal invariance for interior and other targets."
+        },
+        {
+          "unit": "§4 Observables generated by martingales",
+          "pdf_pages": [
+            15,
+            20
+          ],
+          "coverage_summary": "Proves local-martingale and discrete-approximation results."
+        },
+        {
+          "unit": "§5 Existence and uniqueness",
+          "pdf_pages": [
+            21,
+            32
+          ],
+          "coverage_summary": "Establishes the Loewner solution and uniqueness under the specified regularity."
+        },
+        {
+          "unit": "§6 Convergence of the driving functions",
+          "pdf_pages": [
+            33,
+            42
+          ],
+          "coverage_summary": "Proves convergence to the Brownian driving function."
+        },
+        {
+          "unit": "§7 Convergence of the curves",
+          "pdf_pages": [
+            43,
+            56
+          ],
+          "coverage_summary": "Upgrades driving convergence to local/global path convergence."
+        },
+        {
+          "unit": "§8 Other kinds of targets; references",
+          "pdf_pages": [
+            57,
+            65
+          ],
+          "coverage_summary": "Treats prime-end and side-arc targets with extra assumptions and includes references."
+        }
+      ]
+    },
+    "W08-R005": {
+      "items": [
+        {
+          "unit": "Introduction and random tile criterion, §§1–2",
+          "pdf_pages": [
+            1,
+            12
+          ],
+          "coverage_summary": "Defines frontier geometry and the Gosper-tile conditional surround-or-miss criterion, then organizes successful tiles in a Whitney scale tree."
+        },
+        {
+          "unit": "Tree dimension mechanism, §§3–5",
+          "pdf_pages": [
+            13,
+            23
+          ],
+          "coverage_summary": "Uses Jones’ travelling-salesman beta-square estimate and a branching/filtration argument to produce a frontier subset of dimension above one."
+        },
+        {
+          "unit": "Brownian verification and discussion, §§6–7",
+          "pdf_pages": [
+            24,
+            32
+          ],
+          "coverage_summary": "Verifies the conditional tile event using exponential killing, strong Markov and Harnack estimates; the final flatness proof is expressly omitted. Physical pages 33–35 are blank and were inspected, but are not part of the mathematical section coverage."
+        }
+      ]
+    },
+    "W08-R008": {
+      "items": [
+        {
+          "unit": "Introduction, definitions and graph Brownian motion, §§1–3",
+          "pdf_pages": [
+            1,
+            20
+          ],
+          "coverage_summary": "Defines shy Markov couplings, constructs a graph coupling with a positive separation barrier, and proves the degree-at-least-three graph theorem."
+        },
+        {
+          "unit": "Reflected Brownian motions and open problems, §4",
+          "pdf_pages": [
+            21,
+            34
+          ],
+          "coverage_summary": "Separates co-adapted convex-domain estimates from the planar C1 no-segment universal-coupling theorem and lists geometric limitations."
+        }
+      ]
+    },
+    "W08-R010": {
+      "items": [
+        {
+          "unit": "Introduction, definitions and coupling lemmas, §§1–2",
+          "pdf_pages": [
+            1,
+            5
+          ],
+          "coverage_summary": "Sets up co-adapted Brownian couplings and proves compact-set potential criteria that force finite epsilon-coupling."
+        },
+        {
+          "unit": "Potential construction and convex-domain theorems, §§3–4",
+          "pdf_pages": [
+            6,
+            13
+          ],
+          "coverage_summary": "Uses pole potentials for boundaries without segments and a regularized finite minimum for all bounded convex planar domains."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            14,
+            15
+          ],
+          "coverage_summary": "Records the source bibliography; all physical pages were rendered and visually checked because text extraction was garbled."
+        }
+      ]
+    },
+    "W08-R015": {
+      "items": [
+        {
+          "unit": "Introduction and CAT(0) metric geometry, §§1–2",
+          "pdf_pages": [
+            1,
+            25
+          ],
+          "coverage_summary": "States the CAT(0) theorem and proves intrinsic-distance/geodesic regularity under uniform exterior-sphere and interior-cone assumptions."
+        },
+        {
+          "unit": "Lion-and-man pursuit and coupling conversion, §§3–4",
+          "pdf_pages": [
+            26,
+            38
+          ],
+          "coverage_summary": "Proves uniform deterministic epsilon capture and transfers it to co-adapted reflected Brownian motion through Girsanov, vanishing-noise limits and compactness."
+        },
+        {
+          "unit": "Conjectures and references, §5",
+          "pdf_pages": [
+            39,
+            42
+          ],
+          "coverage_summary": "Lists extensions as open questions and the references; the planar theorem remains restricted to simply connected bounded domains with the stated boundary regularity."
+        }
+      ]
+    },
+    "M0177": {
+      "items": [
+        {
+          "unit": "Introduction and restriction setup, §§1–3",
+          "pdf_pages": [
+            1,
+            15
+          ],
+          "coverage_summary": "Defines chordal restriction samples and derives the conformal-derivative avoidance formula from scale invariance and covariance."
+        },
+        {
+          "unit": "Brownian excursion and SLE martingales, §§4–6",
+          "pdf_pages": [
+            16,
+            25
+          ],
+          "coverage_summary": "Identifies filled Brownian excursion restriction and characterizes SLE8/3 with exponent 5/8 by a bounded conformal-derivative martingale."
+        },
+        {
+          "unit": "Bubble construction and one-sided restriction, §§7–8",
+          "pdf_pages": [
+            26,
+            43
+          ],
+          "coverage_summary": "Constructs P_alpha for alpha at least 5/8 by adding Brownian bubbles and identifies the SLE(8/3,rho) one-sided family."
+        },
+        {
+          "unit": "SLE6/Brownian hull relations and closing section, §§9–10",
+          "pdf_pages": [
+            44,
+            54
+          ],
+          "coverage_summary": "Compares stopped filled hulls/frontiers and gives applications; these statements are not equalities of complete traces."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            55,
+            58
+          ],
+          "coverage_summary": "Bibliography; confirms the paper’s attribution chain and supporting exponent sources."
+        }
+      ]
+    },
+    "M0192": {
+      "items": [
+        {
+          "unit": "§1 Introduction and identity",
+          "pdf_pages": [
+            1,
+            1
+          ],
+          "coverage_summary": "Introduces the cut-point question and identifies the planar Brownian motion setting."
+        },
+        {
+          "unit": "§2 Main results and proof outline",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "coverage_summary": "States Theorems 2.1–2.3 and corollary, with exact existence and angular-separation quantifiers."
+        },
+        {
+          "unit": "§3 Preliminaries",
+          "pdf_pages": [
+            3,
+            5
+          ],
+          "coverage_summary": "Sets up h-processes and the Doob/potential-theory notation used below."
+        },
+        {
+          "unit": "§4 Lemmas 4.1–4.4",
+          "pdf_pages": [
+            5,
+            13
+          ],
+          "coverage_summary": "Boundary Harnack and geometric missed-ball estimates for conditioned Brownian motion."
+        },
+        {
+          "unit": "§4 Proof of Theorem 2.1",
+          "pdf_pages": [
+            13,
+            17
+          ],
+          "coverage_summary": "Builds approximate cut points with a renewal construction and passes to a true cut point."
+        },
+        {
+          "unit": "§4 Proofs of Theorems 2.2–2.3 and corollaries",
+          "pdf_pages": [
+            17,
+            22
+          ],
+          "coverage_summary": "Uses time reversal, scaling and strong Markov arguments for cut points near 0 and around time 1/2."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            23,
+            23
+          ],
+          "coverage_summary": "Bibliography; inspected as part of complete physical-PDF reading."
+        }
+      ]
+    },
+    "M0193": {
+      "items": [
+        {
+          "unit": "Title, summary and §1 introduction/main results",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "Defines exit-ball and fixed-time packet events and states existence/equality of Brownian and random-walk exponents."
+        },
+        {
+          "unit": "§2 preliminaries and estimates",
+          "pdf_pages": [
+            3,
+            6
+          ],
+          "coverage_summary": "Sets up the comparison events, separation controls and estimates used in the invariance-principle proof."
+        },
+        {
+          "unit": "§3.1–3.2 exponent bracketing and reductions",
+          "pdf_pages": [
+            7,
+            13
+          ],
+          "coverage_summary": "Rephrases the exponent limit and compares separated Brownian configurations through scaling, Harnack and invariance estimates."
+        },
+        {
+          "unit": "§3.3–3.11 random-walk comparison lemmas",
+          "pdf_pages": [
+            13,
+            17
+          ],
+          "coverage_summary": "Establishes separated opportunities and non-isolated-intersection control for the reverse inequality."
+        },
+        {
+          "unit": "§3 completion and references",
+          "pdf_pages": [
+            17,
+            18
+          ],
+          "coverage_summary": "Closes the limiting comparison and includes the final bibliography page."
+        }
+      ]
+    },
+    "M0196": {
+      "items": [
+        {
+          "unit": "§1 Introduction and propositions",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "Defines disconnection/nonintersection exponents and states the large-packet limits."
+        },
+        {
+          "unit": "§2 Proof of Proposition 1",
+          "pdf_pages": [
+            3,
+            6
+          ],
+          "coverage_summary": "Subadditivity, finite path nets and Beurling estimates yield the disconnection exponent per path."
+        },
+        {
+          "unit": "§3.1–3.2 preliminaries and reduction",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "coverage_summary": "Defines packet exponents by radial exit probabilities and reduces real weights to integer weights."
+        },
+        {
+          "unit": "§3.3 upper bound and §3.4 conformal-invariance estimates",
+          "pdf_pages": [
+            8,
+            14
+          ],
+          "coverage_summary": "Uses angular cones for one side and extremal-distance/area allocation estimates for the other."
+        },
+        {
+          "unit": "§3.5–3.7 spiders, colorings and conclusion",
+          "pdf_pages": [
+            14,
+            20
+          ],
+          "coverage_summary": "Controls multi-packet path geometry and completes the optimized square-root allocation limit."
+        },
+        {
+          "unit": "§4 remarks and conjectures",
+          "pdf_pages": [
+            20,
+            21
+          ],
+          "coverage_summary": "Records consequences and open conjectures, clearly separate from proven propositions."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "pdf_pages": [
+            22,
+            22
+          ],
+          "coverage_summary": "Bibliography; inspected as part of complete physical-PDF reading."
+        }
+      ]
+    },
+    "M0201": {
+      "items": [
+        {
+          "unit": "§1 Introduction and identity",
+          "pdf_pages": [
+            1,
+            3
+          ],
+          "coverage_summary": "Defines planar Brownian packet intersection exponents and motivates the bridge-measure universality theorem."
+        },
+        {
+          "unit": "§2.1–2.3 bridge preliminaries and CCI measures",
+          "pdf_pages": [
+            4,
+            8
+          ],
+          "coverage_summary": "Defines oriented bridges, crossing exponents, restriction/conformal invariance, and the CCI framework."
+        },
+        {
+          "unit": "§2.4 Brownian excursion example",
+          "pdf_pages": [
+            9,
+            12
+          ],
+          "coverage_summary": "Constructs Brownian excursion bridge measure and verifies CCI with exponent one."
+        },
+        {
+          "unit": "§2.5 unions of bridges",
+          "pdf_pages": [
+            12,
+            13
+          ],
+          "coverage_summary": "Shows how independent bridge unions preserve the CCI class and add crossing exponents."
+        },
+        {
+          "unit": "§3.1–3.2 generalized exponents and Brownian identities",
+          "pdf_pages": [
+            13,
+            16
+          ],
+          "coverage_summary": "Defines ordered intersection exponents and reviews Brownian half-plane exponent/cascade relations."
+        },
+        {
+          "unit": "§3.3 universality, Theorems 6–7 and Corollary 8",
+          "pdf_pages": [
+            16,
+            19
+          ],
+          "coverage_summary": "Uses integration order, complete conformal invariance, strict concavity and induction to identify exponents."
+        },
+        {
+          "unit": "§4.1–4.3 annular setup and Brownian exponents",
+          "pdf_pages": [
+            20,
+            25
+          ],
+          "coverage_summary": "Defines annular bridge measures and relates annular Brownian intersection exponents."
+        },
+        {
+          "unit": "§4.4 annular universality, Theorems 11–12",
+          "pdf_pages": [
+            25,
+            27
+          ],
+          "coverage_summary": "Proves existence and identifies annular intersection exponents for CCI samples."
+        },
+        {
+          "unit": "§5 nonrigorous conjectures and predictions",
+          "pdf_pages": [
+            28,
+            37
+          ],
+          "coverage_summary": "Discusses SAW and percolation heuristically; it explicitly does not prove their scaling limits satisfy CCI."
+        },
+        {
+          "unit": "References",
+          "pdf_pages": [
+            37,
+            38
+          ],
+          "coverage_summary": "Complete bibliography, read."
+        }
+      ]
+    },
+    "M0206": {
+      "items": [
+        {
+          "unit": "Title, abstract and §1 introduction",
+          "pdf_pages": [
+            1,
+            4
+          ],
+          "coverage_summary": "Defines conditional-probability exponents, states analyticity and consequences, and outlines the spectral method."
+        },
+        {
+          "unit": "§2 The operator",
+          "pdf_pages": [
+            4,
+            7
+          ],
+          "coverage_summary": "Builds the weighted path-pair Banach space and defines the transfer operator."
+        },
+        {
+          "unit": "§3 Previous estimates for the exponent",
+          "pdf_pages": [
+            7,
+            9
+          ],
+          "coverage_summary": "Reviews subadditivity, sharp probability bounds and exponent identification needed for spectral theory."
+        },
+        {
+          "unit": "§4 Analyticity of the operator",
+          "pdf_pages": [
+            10,
+            15
+          ],
+          "coverage_summary": "Uses h-process coupling and power-series bounds to prove operator-valued analytic dependence."
+        },
+        {
+          "unit": "§5 Spectral gap",
+          "pdf_pages": [
+            16,
+            22
+          ],
+          "coverage_summary": "Uses weighted path coupling and normalized iterates to establish a simple isolated leading eigenvalue."
+        },
+        {
+          "unit": "Proof completion, references and end matter",
+          "pdf_pages": [
+            22,
+            24
+          ],
+          "coverage_summary": "Completes analytic perturbation argument; bibliography and author-end matter inspected."
+        }
+      ]
+    }
+  },
+  "selected_book_units": {
+    "M0224": [
+      {
+        "unit": "Chapter 4 — Hausdorff dimension",
+        "pdf_pages": [
+          106,
+          127
+        ],
+        "printed_pages": [
+          96,
+          117
+        ],
+        "complete": true,
+        "coverage_summary": "Dimension/energy methods for Brownian sets; physical p.127 is the final Notes and comments page."
+      },
+      {
+        "unit": "Chapter 8 — Potential theory",
+        "pdf_pages": [
+          234,
+          264
+        ],
+        "printed_pages": [
+          224,
+          254
+        ],
+        "complete": true,
+        "coverage_summary": "Hitting probabilities, equilibrium/Martin capacity and Wiener regularity; physical p.264 is the final page with harmonic-measure/frontier context."
+      },
+      {
+        "unit": "Chapter 9 — Intersections",
+        "pdf_pages": [
+          265,
+          299
+        ],
+        "printed_pages": [
+          255,
+          289
+        ],
+        "complete": true,
+        "coverage_summary": "Brownian intersection dimensions and simultaneous dimension-doubling tools."
+      },
+      {
+        "unit": "Appendix Chapter 11 — Schramm–Werner SLE overview",
+        "pdf_pages": [
+          337,
+          355
+        ],
+        "printed_pages": [
+          327,
+          345
+        ],
+        "complete": true,
+        "coverage_summary": "Local radial/chordal absolute-continuity bridge and SLE6 frontier/cut-point overview; appendix is expository and has partial proofs."
+      }
+    ]
+  }
+}

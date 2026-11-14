@@ -1,0 +1,82 @@
+{
+  "worker": "W17",
+  "skill": "probability-bernoulli-factory",
+  "batch": "D02-B6 and D02-B7 integrated; reader-side full-text scope reached",
+  "updated_utc": "2026-11-14",
+  "review_status": "pending",
+  "formal120_mappings": [
+    "A202",
+    "C204"
+  ],
+  "source_count": 54,
+  "minimum_source_target": 30,
+  "candidate_source_target_met": true,
+  "downloaded_pdf_count": 30,
+  "fulltext_read_count": 30,
+  "downloaded_not_fulltext_read_count": 0,
+  "metadata_or_bibliography_candidates_not_read_count": 24,
+  "source_cards": 30,
+  "section_coverage": "evidence/W17/reading_coverage.json",
+  "numerical_evidence": {
+    "script": "evidence/W17/experiments/exact_checks.py",
+    "output": "evidence/W17/experiments/exact_checks.out",
+    "scope": "Exact integer degree-elevation check for one quartic example; deterministic N=2 check of the displayed versus standard tail-sum expression.",
+    "limitation": "The calculation verifies only the stated example and identity check; it does not prove a sharp general N(d) bound or a moment-class characterization."
+  },
+  "known_gaps": [
+    "The 54-row candidate ledger and 30 complete source reads meet the initial minimum; 24 candidates remain unread. Auxiliary applications, a chapter excerpt, and positive-polynomial approximation are scoped and not promoted to direct moment characterizations.",
+    "No necessary-and-sufficient characterization of pointwise finite r-th input-toss moments is obtained.",
+    "A202 has fixed-degree finiteness, a checked N(4)>=735 example, and an auxiliary fixed-depth Bernstein criterion, but no sharp general N(d) bound or exact N(d) for d>=3.",
+    "The Keane–O’Brien full original paper was not acquired (two HTTP 403 attempts in D02 log); no claim of reading its proof is made.",
+    "X007’s scalar expected update-count bound excludes the extra die toss cost of its appendix fair-bit/uniform generation; no uniform total die-only cost follows near p=0 or 1.",
+    "N002’s Theorem 4 statement/proof PDE mismatch remains source-internal: the printed statement has λf(u), while the proof derives λ[f(q)−q]. This cannot be silently repaired or treated as proof of the printed PDE.",
+    "X003 gives one bounded unbiased estimator construction with a sufficient smoothness/moment implication; it is not an iff for arbitrary factory stopping times. X005 and X010–X012/N005 are finite-event, linear-target, or target-specific expected-cost results only.",
+    "B201 remains an isolated boundary target: X006 proves pushdown simulable implies algebraic but not the converse. A203 remains unmapped because its derivative/oracle access model is unresolved.",
+    "X010 Theorem 1's exact linear factory and 9.5C/epsilon expected-cost upper bound remain separate; the Theorem 2 lower-bound route is not certified because Lemma 11's precision claim has an exact admissible counterexample (R02).",
+    "X007's broad open-simplex rational-map statement is not supported for boundary-singular maps by the displayed finite ladder representation, which requires a closed-nonvanishing denominator and fixed aggregation; use only verified subclasses. This does not disprove factory existence or CFTP for valid ladders.",
+    "X012's Theorem 1 tail index is called iterations in the statement but is a doubled input-prefix length in the algorithm/proof; no exact iteration- or input-toss-moment conversion is claimed.",
+    "X045's literal Algorithm 1 conditional-tree normalization can give the wrong marginal; keep its exact counterexample separate from Theorem 3's valid polynomial identities and do not claim an unverified repair.",
+    "N005's Lemma 11 expected-cost display is not established by the printed p.16 ceiling-sum/constant argument; FTPS and BF2 exactness remain separate.",
+    "X048 Propositions 4–5 MVUE expression requires N>=2; the N=1 indicator estimator is a separate derived fact, not the printed formula.",
+    "X044 uniform exponential-tail impossibility applies to the source's one-c<1 uniform-over-depth-and-input strong-factory definition; pointwise and non-generic interior results have narrower scopes.",
+    "N004 Appendix C Proposition 8's displayed (86)–(87) tail bridge is not certified from the printed unconditional positive-mean assumptions because the martingale is centered at a random predictable compensator; Proposition 7 Jensen and main IID Theorem 1 remain separate."
+  ],
+  "next_steps": [
+    "Submit the 30-read source pack, precise cards, coverage maps and model boundaries to independent R08 review; keep all review statuses pending until that review.",
+    "If the project later seeks more than the minimum source count, select from the 24 unread candidates by proven relevance, not by ledger size."
+  ],
+  "validation": {
+    "mapping_problem_ids_checked_against_formal120": true,
+    "all_source_local_ids_exist": true,
+    "review_status_values": "pending",
+    "fulltext_read_count_matches_cards_and_coverage": true
+  },
+  "formal120_mapping_scope_note": "A202 and C204 wording was checked against inputs/formal120.json; B201 remains an isolated dossier boundary source (X006), and A203 is not opened because its executable derivative/oracle interface is unresolved.",
+  "status_counts_ledger_checked": true,
+  "mathematical_verification": {
+    "script": "evidence/W17/experiments/mendo_theorem4_algebra_check.py",
+    "output": "evidence/W17/experiments/mendo_theorem4_algebra_check.out",
+    "scope": "SymPy simplification of the Theorem 3 sequential Cramer–Rao bound after substituting f_prime >= C*f/p; verifies the ratio (1-p)/(1-f) and its lower bound 1/2 for p<=1/2, f>=0.",
+    "limitation": "Checks only the algebraic implication. The theorem assumptions and source proof remain verified from Mendo (2019), Theorem 4 and §7.7; this is not an independent proof.",
+    "stout_warren_theorem1_sign": {
+      "script": "evidence/W17/experiments/stout_warren_sign_check.py",
+      "output": "evidence/W17/experiments/stout_warren_sign_check.out",
+      "scope": "SymPy exact factorization of p^9 q^4(q−p)+p^4 q^9(p−q) into a nonpositive certificate, with equality at p=q=1/2 and exact rational sample checks.",
+      "limitation": "Checks the algebraic sign only; the exchange-tree construction, theorem statement, and assumptions are grounded in the rendered original physical p.6."
+    },
+    "b6_exact_checks": {
+      "script": "evidence/W17/experiments/b6_exact_checks.py",
+      "output": "evidence/W17/experiments/b6_exact_checks.out",
+      "scope": "Exact algebra checks for the von Neumann pair fair-bit expected toss cost; portkey one-loop termination probability; and two-index Bernoulli-race conditional output law.",
+      "limitation": "These checks verify displayed source-level formulas only; they do not prove the papers’ general claims or supply a uniform total die-only cost."
+    },
+    "b7_exact_checks": {
+      "script": "evidence/W17/experiments/verify_b7.py",
+      "output": "evidence/W17/experiments/verify_b7_results.json",
+      "scope": "Reader-helper exact checks for a von Neumann fair-bit factory example, N003 affine debiasing example, N004 C2C tree recursion, and N005 local factory algebra.",
+      "limitation": "Finite examples and recurrence identities only; they do not prove the source general theorems or the C204 moment characterization."
+    }
+  },
+  "fulltext_source_target_met": true,
+  "source_count_scope_note": "30 complete source reads/cards/coverage include 29 complete papers plus one complete three-page von Neumann contribution excerpt (not a full book). Twenty-four additional source records remain unread discovery candidates; source relevance and final disposition remain subject to R08 review."
+}

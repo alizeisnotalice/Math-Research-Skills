@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模·论文排版"
+  short_description: "按指定基线处理页数、摘要加粗和图表位置，验收 PDF 最小改动"
+  default_prompt: "请使用 $math-modeling-paper 处理这份数学建模论文，先确认本届规则、指定基线和允许改动范围，保留无关格式并交付经过渲染核验的 PDF。"

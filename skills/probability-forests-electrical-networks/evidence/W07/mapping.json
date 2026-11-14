@@ -1,0 +1,244 @@
+[
+  {
+    "problem_id": "A023",
+    "tool": "probability-forests-electrical-networks",
+    "role": "auxiliary",
+    "needed_lemma": "Mass-transport/unimodularity and the chapter-6 isoperimetric framework are the structural inputs; this skill does not contain a new sharp formula for the uncovered face sizes.",
+    "source_local_ids": [
+      "PTN2026",
+      "AL2007",
+      "BLPS1999GIP"
+    ],
+    "unproved_interface": "Need derive the sharp vertex-isoperimetric constant for the unresolved regular/coregular parameter range; the MTP alone does not give the extremal finite sets."
+  },
+  {
+    "problem_id": "A025",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Distinguish FSF=WSF via harmonic Dirichlet functions from mutual singularity. PTN Corollary 10.19's singularity theorem requires every vertex to have an infinite orbit; do not weaken this to an infinite orbit somewhere. The 2026 swap-zero-one result makes stated swap-invariant events zero-one, but does not itself give a separating event for every distinct FSF/WSF pair. HL2003 is only the spherical-tree change-tolerance criterion and does not supply a separating event for arbitrary FSF/WSF laws.",
+    "source_local_ids": [
+      "PTN2026",
+      "BLPS2001",
+      "LYO2003DPP",
+      "HN2017USF",
+      "LIYU2026",
+      "HL2003"
+    ],
+    "unproved_interface": "Need construct a measurable separating event for every nonidentical pair of FSF/WSF laws; separate zero-one properties under each measure are insufficient."
+  },
+  {
+    "problem_id": "A141",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Use the finite weighted UST distinct-edge determinant from BLPS’s unnumbered Transfer Current Theorem, eqs. (4.4)–(4.5), PDF p. 12 (proof pp. 12–13); BLPS Theorem 4.1, p. 10, is only the single-edge current identity. Burton–Pemantle Theorem 1.1 (primary arXiv v1 read copy, physical PDF p. 4 / printed article p. 3) supplies the finite unweighted D-regular formula, while Lyons DPP/PTN supplies the weighted positive-contraction kernel. Keep fixed-coordinate negative association separate from random disjoint certificates.",
+    "source_local_ids": [
+      "PTN2026",
+      "BP1993",
+      "LYO2003DPP",
+      "ALDOUS1990",
+      "REIMER2000"
+    ],
+    "unproved_interface": "Need prove the BK disjoint-occurrence inequality for all increasing events under weighted UST, or find a counterexample; no cited source gives it, and transfer-current determinants/negative association alone do not prove it."
+  },
+  {
+    "problem_id": "B063",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Strassen gives an ordinary monotone coupling from FSF stochastic domination; test whether the joint law can be chosen invariant under the full automorphism group.",
+    "source_local_ids": [
+      "PTN2026",
+      "BLPS2001",
+      "AL2007"
+    ],
+    "unproved_interface": "Need an invariant coupling for arbitrary graphs beyond established sofic/amenable cases; a monotone coupling by itself has no invariance guarantee."
+  },
+  {
+    "problem_id": "B064",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Keep the target marginal equal to FSF while adding a jointly invariant random edge set of arbitrarily small individual edge probabilities and making the union connected.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF"
+    ],
+    "unproved_interface": "Need an FSF-specific invariant augmentation; LPS only proves FMSF plus independent Bernoulli(ε) edges is connected."
+  },
+  {
+    "problem_id": "B065",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Compare FSF connectivity for two Cayley graphs of the same group; separate this cross-graph invariant from tail or component-count zero-one laws on one graph.",
+    "source_local_ids": [
+      "PTN2026",
+      "BLPS2001",
+      "HN2017USF",
+      "LIYU2026"
+    ],
+    "unproved_interface": "Need show FSF connectivity depends only on the group, or construct two generating sets with different connectivity; each forest’s component count being deterministic does not compare the two graphs."
+  },
+  {
+    "problem_id": "B067",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Trace where the WMSF one-end proof uses unimodularity and θ(pc)=0; preserve all other local-finiteness/transitivity hypotheses.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "LMS2008WUSFEnds",
+      "BLPS1999GIP"
+    ],
+    "unproved_interface": "Need a one-endedness theorem for WMSF on nonunimodular transitive graphs or a counterexample; the cited MTP proof cannot be used unweighted."
+  },
+  {
+    "problem_id": "B068",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Apply Timár/LPS end results only in the unimodular settings and separate the end-number claim from full component indistinguishability. Timár WIT inserts e and, if needed, deletes a measurable f in C_x∩B(x,r)^c; it is a nonlocal deletion. Keep Theorem 1.2/Corollary 1.5 (FMSF≠WMSF) distinct from Lemma 1.4’s separate θ(p_c)=0 premise.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "TIMAR2006FMSF",
+      "TIMAR2018MSF",
+      "LS1999IND"
+    ],
+    "unproved_interface": "Need extend “every FMSF tree has infinitely many ends when FMSF≠WMSF” beyond unimodularity for quasi-transitive graphs."
+  },
+  {
+    "problem_id": "B069",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Combine the FMSF/WMSF equality criterion with the percolation-cluster correspondence at pu; identify which direction of the requested connectivity equivalence is missing. Alexander Theorem 2.6 is only for an ambiguity-free lattice-like planar embedding; its invasion equivalence additionally requires the Theorem 2.5 framework and strict simultaneous uniqueness a.s.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "ALEX1995MSF"
+    ],
+    "unproved_interface": "Need bridge the per-edge correspondence with global connectedness of FMSF and uniqueness at pu under the exact nonamenable quasi-transitive hypotheses."
+  },
+  {
+    "problem_id": "B070",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Use component indistinguishability and weak insertion tolerance only where their unimodularity and FMSF≠WMSF assumptions hold. Timár WIT inserts e while deleting a possibly far-away edge f in C_x∩B(x,r)^c; retain the exact WIT definition and distinguish Theorem 1.2/Corollary 1.5 (FMSF≠WMSF) from Lemma 1.4’s separate θ(p_c)=0 premise.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "TIMAR2018MSF"
+    ],
+    "unproved_interface": "Need resolve the equal-forest and/or nonunimodular regimes to conclude the one-or-infinity component alternative for both FMSF and WMSF in all quasi-transitive graphs."
+  },
+  {
+    "problem_id": "B071",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Record each of the two stated hypotheses as a sufficient condition for FMSF disconnection; do not infer that two sufficient conditions imply one another.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "BLPS1999GIP"
+    ],
+    "unproved_interface": "Need prove either implication between multiple infinite pu-clusters and nonexistence of an invariant spanning tree, or provide counterexamples."
+  },
+  {
+    "problem_id": "B072",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Use Timár’s FMSF≠WMSF result as a partial answer; distinguish FMSF from WMSF and the equal-forest regime. Timár WIT inserts e while deleting a possibly far-away edge f in C_x∩B(x,r)^c; retain the exact WIT definition and distinguish Theorem 1.2/Corollary 1.5 (FMSF≠WMSF) from Lemma 1.4’s separate θ(p_c)=0 premise.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "TIMAR2006FMSF",
+      "TIMAR2018MSF",
+      "LS1999IND"
+    ],
+    "unproved_interface": "Need indistinguishability for the remaining WMSF and equal-forest cases on unimodular transitive graphs; nonunimodular transitive graphs are a separate boundary."
+  },
+  {
+    "problem_id": "B073",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Treat rough-isometry-to-a-tree as a geometric hypothesis, not as equality with a tree or a quasi-tree boundary condition.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "TIMAR2006FMSF"
+    ],
+    "unproved_interface": "Need prove FMSF connected for every locally finite graph roughly isometric to a tree or produce an example; the cited “FMSF plus ε-percolation” theorem is weaker."
+  },
+  {
+    "problem_id": "C105",
+    "tool": "probability-forests-electrical-networks",
+    "role": "direct",
+    "needed_lemma": "Keep the established USF threshold d≤4 distinct from minimal-forest connectivity and compare the competing d<6/d<8 predictions. Alexander Theorem 2.6 is only a planar dual statement for an ambiguity-free lattice-like embedding; do not use it as a higher-dimensional minimal-forest connectivity theorem. Hutchcroft–Peres Theorem 1.1 has the direction high-dimension ubiquity implies low-dimension ubiquity, with a witness ubiquitous only in the lower dimension; Theorem 1.2 and the edge-coarsening/vertex-quotient criteria refine USF component geometry above dimension 8 but do not decide minimal-forest connectivity.",
+    "source_local_ids": [
+      "PTN2026",
+      "LPS2006MSF",
+      "PEM1991",
+      "BKPS2004",
+      "ALEX1995MSF",
+      "HP2019COMP"
+    ],
+    "unproved_interface": "Need determine exactly which dimensions give connected minimal spanning forest on Zd; uniform-spanning-forest phase results do not settle the minimal model. The HP2019COMP monotonicity, tree-ratio, coarsening, and quotient criteria concern USF, so the minimal-forest connectivity threshold remains unresolved by that source. When invoking Proposition 2.2, retain its simultaneous distinct-component event for the prescribed family (K_i); it is not an unconditional product estimate for arbitrary disjoint-set connections."
+  },
+  {
+    "problem_id": "A141",
+    "tool": "probability-forests-electrical-networks",
+    "role": "auxiliary",
+    "needed_lemma": "Use the projection-determinantal representation of finite matroid basis laws (including the weighted UST after scaling incidence columns by sqrt(c(e))) and the rooted-forest/effective-resistance minor identities as exact finite-law context. Lyons's Proposition 4.9 is a higher-dimensional density statement only under an amenable group acting freely on X, cocompact k-skeleton, and b~_{k−1}(X)=0; it is not an additional BK estimate.",
+    "source_local_ids": [
+      "AUX-W07-LYONS-RANDOM-COMPLEXES-2009",
+      "AUX-W07-TEUFL-WAGNER-FORESTS-ELECTRICAL-2009"
+    ],
+    "unproved_interface": "Neither source controls the union over configuration-dependent disjoint witnesses. Fixed-coordinate negative association and determinant/rooted-forest identities do not prove the weighted UST BK inequality; A141 remains open."
+  },
+  {
+    "problem_id": "B064",
+    "tool": "probability-forests-electrical-networks",
+    "role": "auxiliary",
+    "needed_lemma": "Theorem 1.1 gives a lattice special case: for d≥3, one WUSF sample is the everywhere-percolating base and an independently thinned second WUSF with arbitrarily small retention parameter yields a connected union; its added edge-set is translation-invariant and each edge probability is bounded by the thinning parameter.",
+    "source_local_ids": [
+      "AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023"
+    ],
+    "unproved_interface": "B064 asks for every Cayley graph. This paper covers only ℤ^d with d≥3 and does not settle other Cayley graphs or dimensions below 3."
+  },
+  {
+    "problem_id": "B067",
+    "tool": "probability-forests-electrical-networks",
+    "role": "auxiliary",
+    "needed_lemma": "Use the interlacement Aldous–Broder capacity method for WUSF one-endedness under the exact anchored-isoperimetric hypotheses of Theorem 2.1, and Theorem 2.4 for transient unimodular random rooted networks. These are uniform-wired-model comparison results, not minimal-forest claims.",
+    "source_local_ids": [
+      "AUX-W07-INTERLACEMENTS-2015"
+    ],
+    "unproved_interface": "No step transfers these WUSF results to FMSF/WMSF; a minimal-forest end theorem under B067 assumptions remains to be established."
+  },
+  {
+    "problem_id": "C105",
+    "tool": "probability-forests-electrical-networks",
+    "role": "auxiliary",
+    "needed_lemma": "Use the high-dimensional WUSF mean-field exponents and past-geometry theorem under the stated bubble/regularity assumptions only as a uniform-spanning-forest comparator when separating known USF behavior from the minimal-forest connectivity question.",
+    "source_local_ids": [
+      "AUX-W07-UNIVERSALITY-2018"
+    ],
+    "unproved_interface": "The paper contains no minimal-spanning-forest connectivity conclusion, so it does not determine the C105 dimension threshold."
+  },
+  {
+    "problem_id": "B067",
+    "tool": "probability-forests-electrical-networks",
+    "role": "auxiliary",
+    "needed_lemma": "For recurrent unimodular random rooted unweighted graphs, Theorem 1 gives equality of UST and graph end counts; Theorem 15 (PDF p. 18) gives the one-ended iff unique-harmonic-measure criterion without finite expected root degree. Proposition 12 (PDF p. 16) is only a one-sided lower bound from a countable family of extremal measures to UST ends. Use as a uniform-tree comparison with its model hypotheses intact.",
+    "source_local_ids": [
+      "AUX-W07-ENDS-2023"
+    ],
+    "unproved_interface": "The source does not treat minimal spanning forests or general weighted networks; no transfer to FMSF/WMSF end counts is proved."
+  },
+  {
+    "problem_id": "A025",
+    "tool": "probability-forests-electrical-networks",
+    "role": "auxiliary",
+    "needed_lemma": "On a transient bounded-geometry planar triangulation with a suitable circle packing, Corollary 1.2 identifies harmonic Dirichlet functions with Douglas-integrable boundary data. A nonconstant Douglas-integrable trace therefore supplies a nonconstant finite-energy harmonic function in this restricted model; combined with the existing FSF=WSF iff HD=R criterion, it gives examples with FSF != WSF.",
+    "source_local_ids": [
+      "AUX-W07-HARMONIC-DIRICHLET-2017"
+    ],
+    "unproved_interface": "This only supplies a witness in the stated planar packing class. It does not prove mutual singularity, address arbitrary infinite networks, or resolve A025; apply only after checking transience, the precise triangulation/double-packing, bounded geometry/codegree, and trace hypotheses."
+  }
+]

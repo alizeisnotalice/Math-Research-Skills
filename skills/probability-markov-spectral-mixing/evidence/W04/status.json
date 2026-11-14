@@ -1,0 +1,143 @@
+{
+  "worker": "W04",
+  "skill": "probability-markov-spectral-mixing",
+  "batch": "W04 source-page corrections after R02 final findings",
+  "updated_utc": "2026-11-14",
+  "review_status": "pending",
+  "source_count": 33,
+  "downloaded_pdf_count": 31,
+  "reading_status_counts": {
+    "selected_chapters_read": 1,
+    "selected_sections_read": 1,
+    "fulltext_read": 28,
+    "partial_read": 1,
+    "not_read": 2
+  },
+  "source_cards": 31,
+  "minimum_source_target": 30,
+  "remaining_sources_to_minimum": 0,
+  "required_artifacts": {
+    "sources_json": true,
+    "search_log": true,
+    "mapping_json": true,
+    "skill_entrypoint": true,
+    "method_reference": true,
+    "sources_reference": true,
+    "positive_example": true,
+    "negative_example": true,
+    "numerical_script": true,
+    "numerical_result": true,
+    "reading_coverage": true
+  },
+  "A040_status": "Open for arbitrary finite graphs. Nacu verifies zero-field cycles; Kargin's printed nonzero-uniform-field theorem is not declared false, but this evidence pack audits only H=0 because the proof reflection f_k=-f_{n-k} is not automatic at H≠0. Static FKG/GKS/Holley do not imply finite-time or spectral-gap monotonicity. Sambale–Sinulis supplies only a sufficient weak-dependence route after both conditional-marginal and influence-norm bounds are verified; Paulin supplies fixed-chain mixing/concentration tools. Neither proves edgewise Ising gap monotonicity. Shirai refutes only a stronger fixed-time expectation statement. Diaconis–Stroock's printed Cheeger upper half β₁≤1−h² is flagged as internally inconsistent with the displayed h²/2 proof and an exact reversible-chain example; W04 uses only the weaker proof-supported form, pending review.",
+  "numerical_evidence": {
+    "engine": "MATLAB R2026b Update 1 + Symbolic Math Toolbox",
+    "scope": "all connected labelled simple graphs n=2,3,4; 12 seeded connected n=5 samples; edge grid [0,0.1,0.4,1,2,4]",
+    "limitation": "finite grid/sample and double-precision eigenvalue scan are exploratory, not proof",
+    "source_formula_audit": {
+      "source": "W04S027 Diaconis–Stroock (1991), Proposition 6 printed p.52/PDF p.18 and §3C equation (3.4) printed p.56/PDF p.22, derived through equations (3.5)–(3.7), PDF pp.22–24",
+      "engine": "Python 3 + SymPy from project .runtime; exact rationals and symbolic radical comparison",
+      "artifact": "evidence/W04/numerical/s027_cheeger_printed_bound_audit.py and .json",
+      "result": "4-state reversible irreducible aperiodic chain: h=10000/11011; beta1=(21+500*sqrt(70))/21021 > 1-h^2; proof-supported beta1<=1-h^2/2 holds",
+      "limitation": "Exact finite source-formula counterexample, not an Ising gap claim; independent review pending"
+    },
+    "two_state_spectral_mixing_check": {
+      "engine": "Python 3 + SymPy from project .runtime; exact rational arithmetic",
+      "artifact": "evidence/W04/numerical/paulin_two_state_exact_check.py and .json",
+      "scope": "Two-state reversible lazy kernel P=[[1-p,p],[p,1-p]] with p=1/8; verifies row sums, uniform stationarity, eigenvalues, Poincare/absolute gap, and exact TV distance from a point mass for n=0..12.",
+      "limitation": "Finite exact arithmetic sanity check of a special chain only; not a proof of Paulin’s general theorem or an Ising edge-monotonicity result."
+    },
+    "S002_lemma329_lower_formula_audit": {
+      "engine": "Python 3 + SymPy from project .runtime; exact rational matrices and eigenvalues",
+      "artifact": "evidence/W04/numerical/s002_lemma329_lower_audit.py and .json",
+      "result": "Two states with loop weights 2 and connecting edge weights 1 vs 1/2: tau2/tau2*=3/5; printed lower=5/3; proof-derived lower=3/5; printed upper=3/5.",
+      "limitation": "Exact counterexample only to the printed lower formula; the corrected lower follows from the proof’s displayed general inequality. It is not a broad claim about the monograph."
+    },
+    "S002_lemma332_mixture_remark_audit": {
+      "engine": "Python 3 + SymPy from project .runtime; exact rational matrices",
+      "artifact": "evidence/W04/numerical/s002_lemma332_mixture_audit.py and .json",
+      "result": "P all 1/2; P* diagonal 9/10/off-diagonal 1/10; δ=4/5. Common uniform stationary law and the lemma off-diagonal hypothesis hold. The source mixture residual Q has diagonal −11/10 and off-diagonal 21/10, so it is not a Markov kernel. The direct relaxation-time comparison still holds: τ₂(P)=1 ≤ δ⁻¹τ₂(P*)=25/4.",
+      "limitation": "Exact audit of the following remark’s mixture interpretation only; it does not refute Lemma 3.32."
+    }
+  },
+  "known_gaps": [
+    "Two original Griffiths GKS papers (W04S009–S010) remain metadata-only because publisher PDFs returned 403; primary proof details for those two items remain uncovered.",
+    "No arbitrary-graph edgewise gap proof or certified counterexample found.",
+    "A121/A122 are distribution-map/invariant-measure questions; W04S025/026 provide only the stated inner-kernel or k=2 interface and are not spectral-gap comparison tools.",
+    "W04S027’s printed Cheeger upper bound β₁≤1−h² conflicts with its proof-supported h²/2 bound and the exact reversible-chain check; this source-level discrepancy remains pending independent review.",
+    "LPW Theorem 15.10 author proof retains a source-level display discrepancy: p.239 prints factor 4, while p.240 counts 4^M pairs and the intermediate congestion bound does not imply the final printed factor. R02 separately accepted a library-derived alternate proof under the card’s finite zero-field homogeneous Ising and matching uniform discrete clock assumptions; this does not fix or replace the source proof.",
+    "Aldous–Fill Lemma 3.29 prints a lower edge/vertex ratio that is contradicted by an exact two-state lazy chain; the displayed proof yields the corrected min-vertex/max-edge lower factor. Card and skill now preserve the printed expression and isolate the proof-derived correction pending final review.",
+    "Documented evidence tally: 28 completed full-paper reads plus two books with complete selected units (30 source units). W04S025 specific A121/A122 tool relevance is for R02 to decide; keep reader-side status pending and treat independent decisions as authoritative. No separate 30-full-text-paper target applies.",
+    "Aldous–Fill Lemma 3.32’s following mixture remark is not justified by off-diagonal domination alone: its residual Q may have negative diagonal entries. The main same-π comparison remains valid by Dirichlet-form domination; the limitation and exact example are in the card and local audit."
+  ],
+  "next_steps": [
+    "Find a lawful full-text route for Griffiths 1967 I–II or keep missing GKS proof details explicitly scoped.",
+    "Keep review_status pending until independent Sol review is complete.",
+    "Do not claim arbitrary-graph A040 edgewise gap monotonicity; none is established by the current sources or finite numerical scans."
+  ],
+  "validation": {
+    "sources_and_mapping_json_invariants": "33 unique source records; 31 core candidates; 31 local PDFs; 31 source cards for all read records; all source review_status values pending; mapping JSON valid.",
+    "skill_frontmatter": "parsed successfully with project .runtime PyYAML.",
+    "skill_creator_quick_validate": "passed after W04 integration; script returned Skill is valid!",
+    "matlab_code_analyzer": "passed after removing the only unused helper warning",
+    "matlab_numeric_execution": "completed; result saved in numerical/a040_scan.json",
+    "S012_followup": "Original Theorem 1 is now bounded to product state space Ω=C^V, coordinate updates, Hamming distance and the displayed β; a general path-metric extension is separately labeled as a derivation.",
+    "S016_followup": "Title and read version reconciled to arXiv:0909.5162v2 (last revised 2013-09-25, appendix added after v1) and 2011 journal citation via arXiv and journal archive.",
+    "reading_coverage": "28 completed full-paper coverage maps, plus complete selected-unit maps for LPW (§§12.1–12.2 pp.177–181 with the p.181 overlap, Chapter 15, and Question 2) and Aldous–Fill; W04S026 is a targeted partial read. Neither book is claimed fully read.",
+    "mapping_formal120_ids": [
+      "A040",
+      "A121",
+      "A122"
+    ],
+    "core_quota": "Documented tally: 28 completed full-paper reads + 2 books with fully read selected units = 30 source units. W04S025 specific A121/A122 relevance remains subject to R02 independent determination; source ledger review stays reader-side pending, and independent decisions are authoritative. No 30-full-text-paper requirement.",
+    "source_formula_audit": "exact SymPy rational cut enumeration and symbolic eigenvalue comparison reproduced successfully; artifact saved; source discrepancy flagged, review pending",
+    "S028_followup": "Rendered physical p.3 confirms spectral decay exp(-t/beta) and Proposition 8; original pp.1–4 define finite-state continuous-time chain via rate matrix Q and semigroup. Card, coverage, source ledger, and method entry now restrict these tau parameters to the source CT clock; discrete-time transfer requires a separate clock/periodicity argument.",
+    "S027_followup": "Original Proposition 6 defines h with the inclusive cut constraint π(S)≤1/2 on physical p.18/printed p.52. The exact audit contains half-mass cuts, but neither minimizes the ratio; `{0,1}` with mass 1/11 attains h=10000/11011. Thus replacing the earlier strict locator with the source’s inclusive definition does not change the audit. The proof-supported h²/2 bound and exact discrepancy remain pending review.",
+    "S032_followup": "Full 23-page local arXiv v2 read; Theorem 2.2/4.1 exact weak-dependence hypotheses and clock are in card; no blanket Ising theorem or edgewise monotonicity claim. Corollary 2.3 statement is physical p.5 and proof p.16; coverage/source/card synchronized.",
+    "Paulin_followup": "Full 42-page local arXiv v5 read; local version/pagination distinguished from the 32-page 2015 journal version; corrected-v5 Bernstein proof scope and discrete-time/fixed-chain use recorded.",
+    "two_state_numeric_check": "exact rational SymPy check is saved; it is a formula sanity check only, not general theorem evidence.",
+    "S001_followup": "LPW Chapter 15 proof chains are documented. Rendered pp.239–240 show Theorem 15.10 prints factor 4 while its displayed proof counts 4^M pairs and its intermediate bound does not yield the final printed factor for general M. This source-proof discrepancy remains explicit. R02 independently accepted a separate library-derived conditional-variance/Walsh proof of γ_B≤M M_*exp(2βΔM)γ under finite zero-field homogeneous Ising, 0≤β<∞, uniform-site/block selection among covering blocks, common π and same discrete-time per-update clocks. The alternate proof is not attributed to LPW; the overall W04 pack remains pending final review. Chapter 12 §§12.1–12.2 are complete at physical pp.177–181, with §12.2 ending in the upper portion of p.181 and §12.3 starting below; additional selected §12.3 material on pp.181–185 and the opening of §12.4 are recorded separately, with no complete-section claim for either.",
+    "S002_followup": "Aldous–Fill selected units cover physical pp.87–94 and 131–141. Rendered p.93 shows the Lemma 3.29 printed lower edge/vertex factor; its proof through p.94 implies the corrected min_i(w_i/w_i*)/max_e(w_e/w_e*) lower bound, while the printed upper side follows by reversing weights. Exact local two-state lazy counterexample is saved in evidence/W04/numerical/s002_lemma329_lower_audit.py/.json. Examples 3.30–3.31 occupy p.94; Lemma 3.32 is same-π entrywise comparison. No broad book-level error is claimed. The p.94 mixture remark is not used as a proof: off-diagonal domination alone can leave its residual Q negative, while the lemma conclusion follows directly from Dirichlet forms. Exact local audit is evidence/W04/numerical/s002_lemma332_mixture_audit.py/.json.",
+    "S014_followup": "Separated Lemma 2’s ||R|| condition from Lemma 22’s full-scan product ||R⃗|| condition; systematic-scan clock remains complete scans.",
+    "S024_followup": "Rendered physical pp.6–7 and 9: Lemma 2.3 and Theorem 1.9 both have (θ/2)^(2η+7); Lemma 2.4 multiplies by the minimum pinned Glauber gap. Coverage §7.1=pp.30–31, §7.2=31–32, §7.3=33–38.",
+    "S020_S011_followup": "S020 §1.1 coverage is physical pp.3–7 (overlapping §1.2 start at p.7); S011 §3 includes Lemma 3.2 on p.23 and overlaps the start of §4 there.",
+    "S001_source_statement_proof_audit": "Rendered original physical pp.239–240. Theorem 15.10 statement p.239 prints factor 4; proof p.240 counts 4^M pairs, obtains R≤2(n/b)M M_*4^M exp(2βΔ(M+1)), then n/b≤M gives R≤2M²M_*4^M exp(2βΔ(M+1)); the source prints a final line not derived from those displayed estimates. R02 accepted a distinct library-derived alternate proof from evidence/shared/catalogue/integration_math_checks/lpw_block_comparison_repair.md under the restricted model and clock stated in the card. It proves a stronger coefficient and implies the source statement, but is not the author proof or a claim the source theorem is false.",
+    "S001_alternate_proof_bound": {
+      "decision": "accepted_by_R02_independent_adjudication",
+      "claim": "gamma_block <= M Mstar exp(2 beta Delta M) gamma_single",
+      "assumptions": "Finite graph; finite zero-field homogeneous Ising; beta>=0; uniform random-site and uniform among b covering block heat-bath; common pi; same discrete-time per-update clock.",
+      "proof": "evidence/shared/catalogue/integration_math_checks/lpw_block_comparison_repair.md",
+      "finite_checks": [
+        "evidence/shared/catalogue/integration_math_checks/lpw_block_comparison_check.py",
+        "evidence/shared/catalogue/integration_math_checks/lpw_block_comparison_check.json"
+      ],
+      "adjudication": "evidence/shared/reviews/R02/batch18-lpw-block-adjudication.md",
+      "hash_manifest": "evidence/shared/reviews/R02/batch18-lpw-repair-hashes.json",
+      "attribution": "Independent library-derived alternate proof; not LPW original proof."
+    }
+  },
+  "cross_tool_mappings": [
+    "A121",
+    "A122"
+  ],
+  "cross_tool_note": "W04S025 is a complete source for the nearest-order-statistic kernel and k=2 boundary; its specific A121/A122 relevance to this tool quota awaits independent review. W04S026 is a targeted partial read and does not count as a complete source. A121/A122 remain distribution-map/invariant-measure questions.",
+  "core_source_count": 31,
+  "core_source_candidate_target_met": true,
+  "core_reading_status_counts": {
+    "fulltext_read": 27,
+    "partial_read": 0,
+    "selected_chapters_read": 1,
+    "selected_sections_read": 1,
+    "not_read": 2
+  },
+  "unread_core_candidates": [
+    "W04S009",
+    "W04S010"
+  ],
+  "mapping_formal120_ids": [
+    "A040",
+    "A121",
+    "A122"
+  ],
+  "batch_final_reader_status": "Reader-side pending; final fixes staged for R02. Documented unit count is 28 completed paper reads plus two books with complete selected units; no independent approval is claimed until R02 final decision."
+}

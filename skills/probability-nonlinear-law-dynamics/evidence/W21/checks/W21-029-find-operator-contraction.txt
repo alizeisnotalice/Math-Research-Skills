@@ -1,0 +1,6 @@
+C027 Find-process PDF p.29, p=3 exact coefficient check:
+Printed sufficient-condition coefficient = 2/(2p+1)^(1/p).
+Its cube at p=3 is 8/7 > 1, so the printed condition is false at p=3.
+Independent disjoint-support calculation: E[U^(p+1)+(1-U)^(p+1)] = 2/(p+2).
+The derived contraction factor is (2/(p+2))^(1/p); its cube at p=3 is 2/5 < 1.
+The check distinguishes the source display from the separate integral derivation; it is not a substitute for the proof hypotheses.

@@ -1,0 +1,1515 @@
+{
+  "worker": "W17",
+  "coverage_standard": "Every listed physical page of each fulltext_read source was read; scanned article pages were visually inspected. Complex theorem/formula pages cited in cards were rendered and checked.",
+  "sources": {
+    "W17-X001": {
+      "physical_pdf_pages_read": "1-23 (entire article)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Defines the unknown-bias coin/stopping-time model, fast exponential tails, and the analytic characterization goal."
+        },
+        {
+          "unit": "§2 Simulation as an approximation problem",
+          "physical_pdf_pages": "3-6",
+          "mechanism_or_content": "Derives nested lower/upper Bernstein polynomials from finite input words, proves consistency, and constructs a factory whose exact tail equals the envelope gap."
+        },
+        {
+          "unit": "§3 Simulating linear functions",
+          "physical_pdf_pages": "6-12",
+          "mechanism_or_content": "Builds a doubling algorithm for a clipped linear function and bounds its tail using binomial/hypergeometric concentration."
+        },
+        {
+          "unit": "§4 Fast simulation for other functions",
+          "physical_pdf_pages": "13-17",
+          "mechanism_or_content": "Closure constructions and positive power-series operations yield fast algorithms on specified domains."
+        },
+        {
+          "unit": "§5 Necessary conditions for fast simulations",
+          "physical_pdf_pages": "17-19",
+          "mechanism_or_content": "Proves analyticity necessity and derives smoothness from finite moments only under uniform moment-tail decay; finite expectation has a separate compact-uniform Lipschitz result."
+        },
+        {
+          "unit": "§6 An approximate algorithm for doubling",
+          "physical_pdf_pages": "20-21",
+          "mechanism_or_content": "Approximates the doubling step for algorithmic constructions; does not change the main characterization."
+        },
+        {
+          "unit": "§7 Continuous functions revisited",
+          "physical_pdf_pages": "21-22",
+          "mechanism_or_content": "Gives a terminating construction using a positive-polynomial representation."
+        },
+        {
+          "unit": "§8 Open problems and references",
+          "physical_pdf_pages": "22-23",
+          "mechanism_or_content": "Lists unresolved rate/moment questions and bibliographic sources."
+        }
+      ],
+      "rendered_pages_viewed": [
+        4,
+        5
+      ]
+    },
+    "W17-X002": {
+      "physical_pdf_pages_read": "1-29 (entire arXiv v3 paper)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "States the paired p-coin/fair-coin input-stage model, stopping rule, rate definition and smoothness goal; rendered p.2 confirms Δ_n(x)=max{sqrt(x(1−x)/n),1/n}."
+        },
+        {
+          "unit": "§2 Preliminaries and statement of results",
+          "physical_pdf_pages": "2-6",
+          "mechanism_or_content": "Defines Bernstein-positive order and consistent envelope sequences; distinguishes pure p-only integer condition (ii) from the fair-coin-assisted dyadic-multiple condition (ii′), and states Theorem 8 for noninteger α."
+        },
+        {
+          "unit": "§3 Consistent approximation implies smoothness",
+          "physical_pdf_pages": "7-10",
+          "mechanism_or_content": "Uses Bernstein-positive derivative inequalities on dyadic increments, splits sums at the scale |x−y|, and proves the C^α necessity; integer case gives only Zygmund necessity."
+        },
+        {
+          "unit": "§4 Lorentz operators and simultaneous approximation",
+          "physical_pdf_pages": "10-18",
+          "mechanism_or_content": "Polynomial-reproducing corrected Bernstein operators, coefficient recurrences, derivative bounds, and boundary-sensitive simultaneous approximation lemmas."
+        },
+        {
+          "unit": "§5 The iterative construction",
+          "physical_pdf_pages": "18-24",
+          "mechanism_or_content": "Builds geometric-degree approximants inductively, controls derivatives/norms/coefficients, then adds a positive Bernstein majorant and checks coefficient monotonicity to obtain the tail gap."
+        },
+        {
+          "unit": "§6 Revisiting Lorentz’s claim",
+          "physical_pdf_pages": "24-27",
+          "mechanism_or_content": "Constructs a counterexample to a claimed converse from positive Bernstein approximation alone, using zero-free Taylor polynomials, Gaussian convolution and Poisson summation."
+        },
+        {
+          "unit": "§7 Further questions and remarks",
+          "physical_pdf_pages": "27-28",
+          "mechanism_or_content": "Defines the integer-order generalized Lipschitz/Zygmund class, states a conjectural integer-order sufficiency, and poses finite-α-moment classification as an open problem."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "29",
+          "mechanism_or_content": "Lists approximation, Bernoulli-factory and probability sources cited in the paper."
+        }
+      ],
+      "rendered_pages_viewed": [
+        2,
+        4,
+        5,
+        6,
+        8,
+        23,
+        28
+      ],
+      "formula_audit_note": "Rendered pp.2,4–6,28 were checked. On p.4, (ii′) requires integer multiples of 2^{-n}; the theorem’s interior rate is O(n^{-α/2}) because Δ_n(p)≈n^{-1/2} for fixed p∈(0,1). At p.28 the authors describe N as counting tosses of both p-coins and fair coins. The printed parenthetical weighted-tail equality is not the standard moment identity; see experiments/exact_checks.out."
+    },
+    "W17-X003": {
+      "physical_pdf_pages_read": "1-21 (entire article)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "Introduces the power-series class, stopping rules, auxiliary uniforms and fastness criterion."
+        },
+        {
+          "unit": "§2 Simulation algorithm; average number of inputs",
+          "physical_pdf_pages": "3-5",
+          "mechanism_or_content": "Defines the conditional continuation probabilities d_k, telescopes coefficients, and proves exactness plus E_pN=f(p)/p and exponential tails."
+        },
+        {
+          "unit": "§3 Asymptotic optimality",
+          "physical_pdf_pages": "5-8",
+          "mechanism_or_content": "Theorem 3 gives a sequential Cramér–Rao expected-count lower bound; Theorem 4 gives E[N]=Ω(f(p)/p) under its p↓0 hypotheses, and Corollary 1 calls Algorithm 1 asymptotically optimal only up to constants within the fast-factory class."
+        },
+        {
+          "unit": "§4 Non-randomized algorithm",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Uses fair bits to realize auxiliary randomization and bounds the total input count."
+        },
+        {
+          "unit": "§5 Extensions of the algorithms",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Shows closure under stated power-series transformations/compositions."
+        },
+        {
+          "unit": "§6 Conclusions and future work",
+          "physical_pdf_pages": "10",
+          "mechanism_or_content": "Summarizes the scope and remaining efficiency questions."
+        },
+        {
+          "unit": "§7 Proofs, §§7.1–7.9",
+          "physical_pdf_pages": "10-20",
+          "mechanism_or_content": "Supplies full coefficient/tail proofs, the Wolfowitz sequential-information argument, power-series estimates and composition details."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "20-21",
+          "mechanism_or_content": "Lists factory, sequential-estimation and analytic references."
+        }
+      ],
+      "rendered_pages_viewed": [
+        6
+      ]
+    },
+    "W17-X004": {
+      "physical_pdf_pages_read": "1-12 (entire local accepted manuscript; physical p.1 is WRAP cover, article pp.2-12)",
+      "sections": [
+        {
+          "unit": "WRAP title/citation cover",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Identifies the accepted manuscript and final DOI; not part of article pagination."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "2-3",
+          "mechanism_or_content": "Introduces exact simulation of an unknown probability and motivates the Bernoulli-factory and diffusion applications."
+        },
+        {
+          "unit": "§2 Simulation of Events with Unknown Probability",
+          "physical_pdf_pages": "3–7",
+          "mechanism_or_content": "Proves bounded unbiased-estimator equivalence and nested interval algorithm; Theorem 2.5’s reverse-time recursion gives exact output and an iteration-count tail; Theorem 2.7 statement and affine-rescaling proof are on physical p.7."
+        },
+        {
+          "unit": "§3 Application to the Bernoulli Factory Problem",
+          "physical_pdf_pages": "7–9",
+          "mechanism_or_content": "Proposition 3.1 statement is on physical p.7 and its proof is on p.8; identifies Bernstein envelopes with head-count bounds and verifies reverse-time conditional inequalities by hypergeometric conditioning."
+        },
+        {
+          "unit": "§4 Application to exact simulation of diffusions",
+          "physical_pdf_pages": "10-11",
+          "mechanism_or_content": "Applies the event coin to diffusion rejection under additional drift and Girsanov assumptions."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "12",
+          "mechanism_or_content": "Lists acknowledgements and cited sources."
+        }
+      ],
+      "rendered_pages_viewed": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "formula_audit_note": "Rendered physical p.5 confirms pointwise bracketing L_n≤s≤U_n is not assumed. Rendered p.6 shows Algorithm 4/Theorem 2.5. Rendered p.7 contains Theorem 2.7 and Proposition 3.1 statements; rendered physical p.8 contains the Proposition 3.1 hypergeometric-conditioning proof. The cost-boundary citation now distinguishes the p.7 statement from the p.8 proof; Theorem 2.5 counts iterations and only the p-coin-prefix specialization directly ties those to tosses."
+    },
+    "W17-X005": {
+      "physical_pdf_pages_read": "1-22 (entire author manuscript)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1-5",
+          "mechanism_or_content": "Defines observable events and states the prior Keane–O’Brien characterization; develops boundary/null-event context."
+        },
+        {
+          "unit": "§2 Some methods for constructing an event",
+          "physical_pdf_pages": "5-9",
+          "mechanism_or_content": "Constructs events from blocks and combines observable events to obtain functions and constants."
+        },
+        {
+          "unit": "§3 Proof of Theorems 1.2 and 1.3",
+          "physical_pdf_pages": "10-16",
+          "mechanism_or_content": "Proves necessity from continuity/lower semicontinuity and constructs sufficiency using approximation and event transformations."
+        },
+        {
+          "unit": "§4 Finite events",
+          "physical_pdf_pages": "16-21",
+          "mechanism_or_content": "Characterizes degree-N events by integer Bernstein coefficients, proves the integer-polynomial criterion, and uses compactness of a finite-dimensional coefficient unit ball to prove finitely many polynomials at each fixed degree."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "21-22",
+          "mechanism_or_content": "Lists classical approximation, coin extraction and probability references."
+        }
+      ],
+      "rendered_pages_viewed": [
+        17,
+        21
+      ]
+    },
+    "W17-X009": {
+      "physical_pdf_pages_read": "1–5 (entire author manuscript)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Sets the fixed computable-in-advance input-sample model and contrasts it with random stopping."
+        },
+        {
+          "unit": "§2 Main result: Algorithm A and Proposition 2.1",
+          "physical_pdf_pages": "3–4",
+          "mechanism_or_content": "Constructs the fixed-depth factory from the head count and one independent Uniform(0,1); disjoint head-count events yield the Bernstein sum."
+        },
+        {
+          "unit": "§2 converse: Proposition 2.2 and Theorem 2.3",
+          "physical_pdf_pages": "4–5",
+          "mechanism_or_content": "Aggregates auxiliary acceptance probabilities over all input words of each head count to obtain coefficients in [0,1], proving necessity."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "5",
+          "mechanism_or_content": "Bibliographic list; manuscript publication fields remain placeholders."
+        }
+      ],
+      "rendered_pages_viewed": [
+        3,
+        5
+      ],
+      "formula_audit_note": "The ACM-hosted full-text search result verifies canonical article identity. The locally read author manuscript has placeholder citation fields; PDF pp. 3 and 5 were rendered to inspect the algorithm and converse. The fixed-depth theorem is not a random-stopping characterization."
+    },
+    "W17-X010": {
+      "physical_pdf_pages_read": "1–18 (entire arXiv v2 PDF)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–4",
+          "mechanism_or_content": "Defines iid p-coin factories, stopping cost, linear target domain and states exact upper/lower bounds."
+        },
+        {
+          "unit": "§2 Algorithm: intuition, pseudocode, correctness",
+          "physical_pdf_pages": "4–9",
+          "mechanism_or_content": "Stages a linear factory through martingale-preserving transitions; bounded martingale optional stopping proves Bernoulli correctness and subsequent lemmas establish almost-sure termination."
+        },
+        {
+          "unit": "§3 Upper bound on running time",
+          "physical_pdf_pages": "9–15",
+          "mechanism_or_content": "Bounds first-stage cost, later-stage cost and stage-reaching probabilities, sums the geometric series, calibrates parameters and reports source-run experiments."
+        },
+        {
+          "unit": "§4 Lower bound on running time",
+          "physical_pdf_pages": "15–17",
+          "mechanism_or_content": "Reduces a hypothetical low-cost factory to relative-accuracy Bernoulli-mean estimation and applies a sequential information lower bound."
+        },
+        {
+          "unit": "Conclusion and references",
+          "physical_pdf_pages": "17–18",
+          "mechanism_or_content": "Restates the linear-target cost result and bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        4,
+        16,
+        17
+      ],
+      "formula_audit_note": "Rendered p.4,16,17. R02 verified the p.16 Lemma 11 precision counterexample C=2,p=1/4,epsilon=1/100: A~NegBin(4,1/2), the estimator 4/(CA) lies in [9/40,11/40] only at A=8, with probability 35/256<3/4. Exact local check: evidence/W17/experiments/x010_precision_counterexample.py/.out. Thus the Theorem 2 lower-bound proof route is not certified; preserve p.4 literal statement and p.17 conditional algebra separately. Theorem 1's 9.5C/epsilon upper bound is unaffected."
+    },
+    "W17-X011": {
+      "physical_pdf_pages_read": "1–21 (entire arXiv v2 PDF)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–5",
+          "mechanism_or_content": "Introduces the small-mean linear factory, exact cost question, and states the small-mean/multivariate theorem bounds; explicitly labels first-order random-factory optimality conjectural."
+        },
+        {
+          "unit": "§2 The algorithm for small Cp",
+          "physical_pdf_pages": "6–9",
+          "mechanism_or_content": "Uses independent Poisson-process superposition and thinning for logistic Bernoulli coins; derives expected input-flip cost and the small-r recursive factory."
+        },
+        {
+          "unit": "§3 Large-r algorithm and its proofs, §§3.1–3.5",
+          "physical_pdf_pages": "9–18",
+          "mechanism_or_content": "Uses gambler’s-ruin and high-power logistic constructions, a recursively generated p-prime coin, and a generation contraction to prove exactness and expected cost."
+        },
+        {
+          "unit": "§4 Lower bound",
+          "physical_pdf_pages": "19",
+          "mechanism_or_content": "Derives a fixed-sample unbiased-estimator variance bound, then explicitly limits it to evidence rather than a random-stopping lower-bound theorem."
+        },
+        {
+          "unit": "§5 Multivariate Bernoulli factory",
+          "physical_pdf_pages": "20",
+          "mechanism_or_content": "Extends Poisson thinning and the linear factory to a weighted sum of several unknown coin biases."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "21",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        5
+      ],
+      "formula_audit_note": "Theorem 1’s display was rendered on p. 5. Lemma 10 is headed 7.67 C/epsilon, but the proof concludes 469/62 <= 7.57; introduction/abstract state 7.57. The card records this source-internal discrepancy instead of silently reconciling it."
+    },
+    "W17-X012": {
+      "physical_pdf_pages_read": "1–28 (entire journal article; printed pp. 10–37)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Motivates exact sampling and Bernoulli-factory cost in MCMC."
+        },
+        {
+          "unit": "§2 Exact sampling via a mixture distribution",
+          "physical_pdf_pages": "4–8",
+          "mechanism_or_content": "Splitting/minorization yields an accessible atom and a stationary-mixture representation; a dominating regeneration-tail proposal gives a rejection sampler."
+        },
+        {
+          "unit": "§3 Bernoulli factory",
+          "physical_pdf_pages": "8–11",
+          "mechanism_or_content": "Recalls factory boundary conditions, smooths the linear target, then applies recursive Bernstein coefficient envelopes and proves Theorem 1."
+        },
+        {
+          "unit": "§4 Exact sampling algorithm",
+          "physical_pdf_pages": "11–12",
+          "mechanism_or_content": "Combines the regeneration-mixture rejection sampler and factory coin."
+        },
+        {
+          "unit": "§5 Toy examples",
+          "physical_pdf_pages": "12–16",
+          "mechanism_or_content": "Works out Metropolis–Hastings and Gibbs drift/minorization examples and reports simulation diagnostics."
+        },
+        {
+          "unit": "§6 Bayesian random-effects model and §6.1 styrene example",
+          "physical_pdf_pages": "16–19",
+          "mechanism_or_content": "Proves a balanced-design drift/minorization theorem and applies exact sampling to a one-way random-effects posterior; timings are paper-reported."
+        },
+        {
+          "unit": "§7 Discussion",
+          "physical_pdf_pages": "19–20",
+          "mechanism_or_content": "Summarizes computational scope and limitations."
+        },
+        {
+          "unit": "Appendix A: proof of Theorem 1",
+          "physical_pdf_pages": "20",
+          "mechanism_or_content": "Checks concavity and the curvature-based upper envelope using hypergeometric degree elevation, then invokes the reverse-time factory theorem."
+        },
+        {
+          "unit": "Appendix B: toy Gibbs drift/minorization",
+          "physical_pdf_pages": "20–22",
+          "mechanism_or_content": "Supplies the model-specific drift and minorization calculations."
+        },
+        {
+          "unit": "Appendix C: one-way random-effects drift/minorization",
+          "physical_pdf_pages": "23–25",
+          "mechanism_or_content": "Supplies the balanced-design drift/minorization proof."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "25–28",
+          "mechanism_or_content": "Bibliography through printed page 37."
+        }
+      ],
+      "rendered_pages_viewed": [
+        9,
+        10
+      ],
+      "formula_audit_note": "Rendered pp.9-10 and read Appendix A p.20. Source calls N an iteration count but Algorithm I doubles its p-prefix n=2^m and Appendix A derives the envelope-gap tail at that prefix index; the two indices are not reconciled. Do not promote the printed tail to an accepted iteration-count or input-toss moment bound."
+    },
+    "W17-X006": {
+      "physical_pdf_pages_read": "1–19 (entire arXiv v1 manuscript with appended Hillar appendix)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction, §§1.1–1.4",
+          "physical_pdf_pages": "1–5",
+          "mechanism_or_content": "Defines finite-state/pushdown simulation models, gives examples and states rationality/algebraicity boundaries."
+        },
+        {
+          "unit": "§2 Rationality and finite automata, §§2.1–2.4",
+          "physical_pdf_pages": "5–9",
+          "mechanism_or_content": "Proves finite automaton iff rational function using a harmonic linear system, block procedure, integer coefficient bounds and Pólya positive-coefficient theorem; includes dice extensions."
+        },
+        {
+          "unit": "§3 Pushdown automata and algebraic functions; nonrational example",
+          "physical_pdf_pages": "9–13",
+          "mechanism_or_content": "A bounded stack-hitting solution of a finite polynomial system is semialgebraic/algebraic; a stack random walk supplies a square-root example."
+        },
+        {
+          "unit": "§4 Related models and open problems",
+          "physical_pdf_pages": "13–15",
+          "mechanism_or_content": "Discusses context-free languages, computability, exact sampling and open converse problems."
+        },
+        {
+          "unit": "References before appendix",
+          "physical_pdf_pages": "15",
+          "mechanism_or_content": "Bibliography for automata results."
+        },
+        {
+          "unit": "Hillar Appendix A: algebraic functions, Theorems A.1–A.6",
+          "physical_pdf_pages": "16–18",
+          "mechanism_or_content": "Uses real-closed fields, semialgebraic projections and quantifier elimination to show the bounded probability solutions satisfy polynomial equations over Q."
+        },
+        {
+          "unit": "Final appendix references",
+          "physical_pdf_pages": "19",
+          "mechanism_or_content": "References for the appended algebraic-function proof."
+        }
+      ],
+      "rendered_pages_viewed": [
+        12
+      ],
+      "formula_audit_note": "All 19 pages were read; physical p. 12 was rendered to inspect the pushdown square-root example. Theorem 1.2 is only a necessary algebraicity condition, not an algebraic-to-pushdown converse."
+    },
+    "W17-X013": {
+      "physical_pdf_pages_read": "1–9 (entire file; article pp.590–597 on physical pp.2–9)",
+      "sections": [
+        {
+          "unit": "JSTOR terms/title sheet",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Scan identity, source citation and personal/non-commercial use restriction."
+        },
+        {
+          "unit": "Introduction and recursive procedure definition",
+          "physical_pdf_pages": "2–3",
+          "mechanism_or_content": "Unknown-bias iid input; first pairwise extraction; exact recursion Ψν=Ψ1*Ψν−1(u)*Ψν−1(v), with u_j=x_(2j−1) XOR x_(2j) and v_j the bit retained from an equal pair."
+        },
+        {
+          "unit": "Proposition 1 statement and proof",
+          "physical_pdf_pages": "3–4",
+          "mechanism_or_content": "The statement is on p.3; proof on p.4 uses exchangeability and independence of output, XOR/equality-indicator and retained-equal-pair vectors to establish uniform output strings."
+        },
+        {
+          "unit": "Proposition 2 and proof",
+          "physical_pdf_pages": "5",
+          "mechanism_or_content": "Almost-sure output-rate recursion derived from first-pass counts, strong law and induction on two output/residual streams."
+        },
+        {
+          "unit": "Entropy bound and Proposition 3 proof",
+          "physical_pdf_pages": "6–7",
+          "mechanism_or_content": "Monotone operator bounds rates by binary entropy and proves uniform convergence in iteration depth."
+        },
+        {
+          "unit": "Remarks and §5 exchangeable extension",
+          "physical_pdf_pages": "7–8",
+          "mechanism_or_content": "Fixed-output/block caveat, exchangeable-input extension and de Finetti mixture corollary."
+        },
+        {
+          "unit": "Closing remarks and references",
+          "physical_pdf_pages": "9",
+          "mechanism_or_content": "Concluding scope and bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "formula_audit_note": "Image-only scan read page by page. Rendered physical pp.3–4 were rechecked: Ψν recursively acts on u_j=x_(2j−1) XOR x_(2j) and equal-pair retained bits v_j; Proposition 1 is stated on p.3 and proved on p.4. This is not recursion on already emitted fair bits."
+    },
+    "W17-X017": {
+      "physical_pdf_pages_read": "1–12 (entire file; article pp.212–222 on physical pp.2–12)",
+      "sections": [
+        {
+          "unit": "JSTOR terms/title sheet",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Scan identity, journal citation and personal/non-commercial use restriction."
+        },
+        {
+          "unit": "§1 Introduction and tree motivation",
+          "physical_pdf_pages": "2–3",
+          "mechanism_or_content": "Unknown-bias coin model; full history tree instead of head-count lattice; expected-input efficiency criterion."
+        },
+        {
+          "unit": "§2 tree definitions and algorithms",
+          "physical_pdf_pages": "3–5",
+          "mechanism_or_content": "Continuation/termination sequences, E-optimality definitions, figures and Theorem 1 subtree-exchange argument."
+        },
+        {
+          "unit": "§§3–5 restricted algorithms and lower bounds",
+          "physical_pdf_pages": "6–8",
+          "mechanism_or_content": "Theorem 1 (physical p.6) uniformly improves Q3, with equality only at p=1/2; the printed exchange factor is nonpositive on both sides. Theorem 2 (p.7) restricts continuation sequences to {R^n,L^n}, and its corollary states the broader strict benchmark. Theorem 3 (pp.7–8) proves no E-optimal algorithm; Lemma 2 constructs V and bounds its near-boundary expected cost."
+        },
+        {
+          "unit": "§6 multi-outcome extension",
+          "physical_pdf_pages": "9–11",
+          "mechanism_or_content": "Generalization to uniform N-outcome generation; Theorems 4–5 and logarithmic expected input bounds."
+        },
+        {
+          "unit": "§7 remarks and references",
+          "physical_pdf_pages": "11–12",
+          "mechanism_or_content": "Open questions, remarks on algorithm classes, and references."
+        }
+      ],
+      "rendered_pages_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "formula_audit_note": "The image-only scan was visually checked on physical pp.6–8. Theorem 1’s factor is p^4q^4(q−p)(p^5−q^5), nonpositive with equality only at p=q=1/2; Theorem 2’s continuation-sequence restriction and its following corollary are separately recorded; Theorem 3 is the no-E-optimality result and Lemma 2 gives the V construction on p.8. Exact symbolic sign check: evidence/W17/experiments/stout_warren_sign_check.py and .out."
+    },
+    "W17-X030": {
+      "physical_pdf_pages_read": "1–23 (complete version-of-record article)",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "mechanism_or_content": "Defines exact finite-dimensional SDE simulation and contrasts it with time-discretization approximations."
+        },
+        {
+          "unit": "§2 Rejection sampling preliminaries",
+          "physical_pdf_pages": "2–3",
+          "mechanism_or_content": "Proposition 1 formulates rejection sampling with unordered random-element acquisition; introduces target SDE."
+        },
+        {
+          "unit": "§3.1 Girsanov setup and Conditions 1–3′",
+          "physical_pdf_pages": "3–6",
+          "mechanism_or_content": "Proposition 2/Girsanov and Itô formula, biased Brownian proposal, endpoint integrability, bounded potential range and segment-length restriction."
+        },
+        {
+          "unit": "§3.2 iid uniform rectangle-point/Taylor-factorial Exact Algorithm",
+          "physical_pdf_pages": "6–9",
+          "mechanism_or_content": "Theorem 1 uses iid uniform points on (0,T)×(0,1/T) and independent U with factorial thresholds. Conditional on path, P(Γ_n|ω)=H^n/n! for H=∫φ; the alternating event limits have probability exp(−H). This is not a unit-intensity PPP construction."
+        },
+        {
+          "unit": "§3.3 skeleton factorization",
+          "physical_pdf_pages": "10–11",
+          "mechanism_or_content": "Factorizes target diffusion measure into Brownian bridges conditional on the accepted random skeleton law."
+        },
+        {
+          "unit": "§4 efficiency",
+          "physical_pdf_pages": "11–13",
+          "mechanism_or_content": "Proposition 4 bounds acceptance. Proposition 5 counts tested alternating events E_n and proves E[N]≤e using P(N≥n)≤1/(n−1)!. Proposition 6 counts the total tested iid uniform rectangle points and proves E[N_l]≤⌈lR⌉e² for the stated identifiable-range segmentation. Neither is a Poisson-count bound."
+        },
+        {
+          "unit": "§5 sin-drift application",
+          "physical_pdf_pages": "13–14",
+          "mechanism_or_content": "Works through a concrete bounded drift example and simulation comparisons."
+        },
+        {
+          "unit": "§6 maxima and hitting times",
+          "physical_pdf_pages": "14–17",
+          "mechanism_or_content": "Uses Brownian-bridge extrema and first-passage laws, inverse-Gaussian calculations and an exact hitting-time procedure."
+        },
+        {
+          "unit": "§7 discussion and Appendix proofs",
+          "physical_pdf_pages": "17–22",
+          "mechanism_or_content": "States limitations/extensions and proves the rejection proposition, Poisson event theorem and efficiency bounds."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "23",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        7,
+        11,
+        12
+      ],
+      "formula_audit_note": "Theorem 1 event definition and independence of the iid uniform rectangle sequence were visually checked on physical p.7; Propositions 5–6 and the factorial tail/uniform-point cost statements were visually checked on pp.11–12. Do not call the X030 point stream a Poisson process."
+    },
+    "W17-X031": {
+      "physical_pdf_pages_read": "1–22 (complete accepted manuscript)",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "mechanism_or_content": "Unit-volatility transformation, Exact Algorithm background, relaxed tail condition and inference applications."
+        },
+        {
+          "unit": "§2 Retrospective rejection sampling",
+          "physical_pdf_pages": "3–5",
+          "mechanism_or_content": "Girsanov representation and Theorem 1 Poisson construction; EA1 for bounded potential."
+        },
+        {
+          "unit": "§3 unbounded one-tail potential extension",
+          "physical_pdf_pages": "5–9",
+          "mechanism_or_content": "Tail condition, Brownian minimum/attainment-time law, Proposition 2 inverse-Gaussian mixture, Theorem 2 independent Bessel(3) bridges and EA2."
+        },
+        {
+          "unit": "§4 efficiency and user-impatience bias",
+          "physical_pdf_pages": "9–11",
+          "mechanism_or_content": "Expected proposed Poisson-point bounds, Proposition 4 sufficient integrability condition, and output-dependent interruption bias."
+        },
+        {
+          "unit": "§5 logistic-growth model",
+          "physical_pdf_pages": "11–12",
+          "mechanism_or_content": "Checks the exact-algorithm tail condition for logistic drift and develops the model example."
+        },
+        {
+          "unit": "§6 likelihood and conditioned-diffusion applications",
+          "physical_pdf_pages": "12–18",
+          "mechanism_or_content": "Conditional skeleton transition calculations, Monte Carlo likelihood estimation, bridge sampling and numerical illustrations."
+        },
+        {
+          "unit": "§7 conclusion",
+          "physical_pdf_pages": "18–19",
+          "mechanism_or_content": "Summary of exactness and applicability limitations."
+        },
+        {
+          "unit": "References and Appendix proofs",
+          "physical_pdf_pages": "19–22",
+          "mechanism_or_content": "Bibliography and proofs of path-minimum, bridge-decomposition and efficiency propositions."
+        }
+      ],
+      "rendered_pages_viewed": [
+        7
+      ],
+      "formula_audit_note": "Theorem 2’s two independent rescaled Bessel-3 bridge representation was visually checked on physical p.7; Proposition 2’s inverse-Gaussian mixture formula was separately rendered and checked."
+    },
+    "W17-X040": {
+      "physical_pdf_pages_read": "1–17 (complete arXiv electronic reprint)",
+      "sections": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–5",
+          "mechanism_or_content": "Motivates debiasing; §1.2 states N is independent of the entire estimator sequence (S_n) and may take arbitrarily large values; gives the Rhee–Glynn finite-second-moment sufficient condition; then relates to Bernoulli factories."
+        },
+        {
+          "unit": "§2 algorithm definitions and impossibility",
+          "physical_pdf_pages": "6–10",
+          "mechanism_or_content": "Theorem 2.1 on physical p.7 rules out nonconstant f on R. Its proof (pp.7–9) starts from distinct fixed means λX and λY with different f-values and uses rare contamination of one law so any fixed finite prefix agrees with high probability; it does not match the means."
+        },
+        {
+          "unit": "§3.1 half-line support",
+          "physical_pdf_pages": "10–11",
+          "mechanism_or_content": "Positive power-series constructions and Poisson estimator on [a,∞)."
+        },
+        {
+          "unit": "§3.2 bounded support and Theorem 3.1",
+          "physical_pdf_pages": "11–13",
+          "mechanism_or_content": "Reduces bounded-support estimation to a normalized Bernoulli factory; proves the exact boundary lower-bound iff; necessity expands expected stopped output as a nonnegative series."
+        },
+        {
+          "unit": "§4 discussion",
+          "physical_pdf_pages": "13–15",
+          "mechanism_or_content": "Explains model implications, cost caveats and unresolved increasing-function case."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "15–17",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        3,
+        7,
+        8,
+        9,
+        12,
+        13
+      ],
+      "formula_audit_note": "Rendered physical pp.3 and 7–9 were checked against the reprint. Theorem 1.1 requires N independent of (S_n). Theorem 2.1 proof uses distinct fixed means and rare contamination, with the common-prefix probability tending to one; Theorem 3.1 and its necessity proof remain rendered on pp.12–13."
+    },
+    "W17-X014": {
+      "physical_pdf_pages_read": "1-3; complete three-page contribution excerpt only, not the full symposium book",
+      "complete": true,
+      "document_scope": "The complete von Neumann contribution excerpt; scan pagination 768-770, contribution citation NBS AMS 12, pp. 36-38.",
+      "sections": [
+        {
+          "unit": "Title/author, opening discussion, and pair rejection of successive biased-coin tosses",
+          "physical_pdf_pages": "1",
+          "printed_pages": "768",
+          "mechanism_or_content": "Read the source’s construction: reject equal pairs and map HT/TH to opposite outputs; checked the independent-toss and symmetry argument against the rendered scan."
+        },
+        {
+          "unit": "Quadratic pseudo-random map; inverse transform and density rejection sampling",
+          "physical_pdf_pages": "2",
+          "printed_pages": "769",
+          "mechanism_or_content": "Read the source’s warning about deterministic dependence/roundoff in the squaring map and its rejection rule accepting X with probability proportional to the target density."
+        },
+        {
+          "unit": "Angle-rejection example; exponential sampling by decreasing uniforms and retrials; closing remarks",
+          "physical_pdf_pages": "3",
+          "printed_pages": "770",
+          "mechanism_or_content": "Read the derivation of the angle-law method and the odd-index order-statistic calculation for the exponential density, including the retrial offset for rejected mass."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        1,
+        2,
+        3
+      ]
+    },
+    "W17-X038": {
+      "physical_pdf_pages_read": "1-8; complete author manuscript",
+      "complete": true,
+      "document_scope": "Full eight-page author manuscript, not the journal version of record.",
+      "sections": [
+        {
+          "unit": "Title, abstract, introduction, statement of quantitative Pólya theorem, and example",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Read the normalized coefficient convention, strict simplex minimum, theorem bound, and the bivariate quadratic example. Legacy font extraction is not reliable; rendered page images were read."
+        },
+        {
+          "unit": "Proof of Theorem 1 and coefficient perturbation",
+          "physical_pdf_pages": "3-4",
+          "mechanism_or_content": "Read the multinomial coefficient normalization, falling-factorial evaluation, Vandermonde-Chu collapse, and uniform perturbation estimate giving positivity under the strict N bound."
+        },
+        {
+          "unit": "Section 3: positive polynomials on polyhedra and proof of representation result",
+          "physical_pdf_pages": "4-7",
+          "mechanism_or_content": "Read the simplex lift/homogenization, affine-kernel sum-of-squares correction, application of the Pólya bound, pullback identity, and computational remarks."
+        },
+        {
+          "unit": "References and manuscript end matter",
+          "physical_pdf_pages": "8",
+          "mechanism_or_content": "Read the complete final page and references; confirmed this is the end of the eight-page author manuscript."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "formula_audit_note": "Rendered all physical pages. Theorem 2 (p.4) includes nonempty interior for its polyhedron. The quadratic example's stated lambda=delta/4 and L=1 require 0<delta<=2; keep this valid parameter range with the example."
+    },
+    "W17-X039": {
+      "physical_pdf_pages_read": "1-31; full arXiv v2 article, appendix and references",
+      "complete": true,
+      "document_scope": "Complete 31-page arXiv v2 manuscript of one STOC 2017 work.",
+      "sections": [
+        {
+          "unit": "Abstract, §1 Introduction and organization",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "Read the problem statement, application overview, and the distinction between scalar Bernoulli factories and expected-sample selection."
+        },
+        {
+          "unit": "§2 Basics of Bernoulli factories",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "Read Definition 2.1, scalar open-domain model, multiparameter and [0,1]-sample extensions, and each listed down-scaling/doubling/PGF/exponentiation/averaging/addition construction with its domain/cost."
+        },
+        {
+          "unit": "§3 Expectations-from-samples model; §§3.1-3.3 races",
+          "physical_pdf_pages": "5-8",
+          "mechanism_or_content": "Read Definition 3.1, the geometric proof of Theorem 3.3, basic exponential weights, maximum estimation, fast race Algorithm 3 and its sample bound."
+        },
+        {
+          "unit": "§4 Single-agent multiple-urns problem and incentive-compatible approximation",
+          "physical_pdf_pages": "8-10",
+          "mechanism_or_content": "Read the sample-only valuation model, maximal-in-range/payment interface, entropy-regularized exponential-weight choice, and Theorem 4.4 expected welfare/runtime statement and proof."
+        },
+        {
+          "unit": "§5 Bayesian BIC black-box reduction: §§5.1-5.5",
+          "physical_pdf_pages": "10-17",
+          "mechanism_or_content": "Read Bayesian assumptions, replica-surrogate matching, entropy-regularized matching, price/utility range normalization in Lemma 5.7, online matching Algorithm 4, and BIC Theorem 5.8."
+        },
+        {
+          "unit": "§5.6 Social welfare loss and proof of Theorem 5.9",
+          "physical_pdf_pages": "17-27",
+          "mechanism_or_content": "Read the online convex-optimization/regret argument, concentration and parameter estimates, entropy-loss comparison, and end-to-end welfare/runtime conclusion."
+        },
+        {
+          "unit": "§§5.7-7, implicit payment conditions, summary and references",
+          "physical_pdf_pages": "27-29",
+          "mechanism_or_content": "Read market-size/doubling-dimension corollary, star-convex-at-zero payment condition, summary, and complete references."
+        },
+        {
+          "unit": "Appendix A: surrogate selection stationarity and BIC proof",
+          "physical_pdf_pages": "30-31",
+          "mechanism_or_content": "Read Lemmas A.1-A.2 and their proofs: uniform selection of a surrogate from a feasible perfect k-to-1 matching gives stationarity, then truthful replica behavior yields BIC after conditioning and averaging."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        5,
+        7,
+        8,
+        10,
+        15,
+        17,
+        26,
+        27,
+        30,
+        31
+      ],
+      "formula_audit_note": "Rendered physical p.7. For Theorem 3.5, the race success mass is Sλ=Σ_i exp(λ(v_i−1)), so its exact geometric expected input-sample cost is λm/Sλ. Since Sλ≥exp(λ(vmax−1)), the displayed λm exp(λ(1−vmax)) is a valid upper bound; do not call it exact equality."
+    },
+    "W17-X044": {
+      "physical_pdf_pages_read": "1-42; complete article and all included supplementary appendices",
+      "complete": true,
+      "document_scope": "Full arXiv v2 / journal-corresponding article PDF; one version of the work.",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction/model overview",
+          "physical_pdf_pages": "1-4",
+          "mechanism_or_content": "Read scalar versus combinatorial motivation, input/output model, examples, and the general factory recipe outline."
+        },
+        {
+          "unit": "§2 Preliminaries: general factories, Bernstein polynomials, combinatorial factories",
+          "physical_pdf_pages": "5-8",
+          "mechanism_or_content": "Read finite-decision-tree/Bernstein representation, monomial and polynomial implementation, race corollary, strong-factory definition, and Theorem 2.8 vector-identity criterion."
+        },
+        {
+          "unit": "§3 Matching factory and proof of Theorem 3.4",
+          "physical_pdf_pages": "8-14",
+          "mechanism_or_content": "Read matching output polynomials, Matrix-Tree/cofactor root independence, permutation/arborescence correspondence, bi-tree counting proof, and the marginal identity."
+        },
+        {
+          "unit": "§4 Necessary affine-section condition and §5 generic-section setup",
+          "physical_pdf_pages": "14-16",
+          "mechanism_or_content": "Read Theorems 4.1-4.2 and the face-based proof sketch; introduced generic affine sections, valid partitions, determinant polynomials, and Theorem 5.1."
+        },
+        {
+          "unit": "§5.1 proof: partition identity and zonotope tiling",
+          "physical_pdf_pages": "16-24",
+          "mechanism_or_content": "Read positivity of valid partition weights, coordinate decomposition, Cramer determinant ratios, half-open parallelotope/zono­tope tiling cancellation, and the general-k geometric lemma proof."
+        },
+        {
+          "unit": "§6 Non-generic polytopes and §6.1 Sampford sampling",
+          "physical_pdf_pages": "24-27",
+          "mechanism_or_content": "Read perturbation/subsequence limit proof, interior-only termination, k-subset vertices, both k±ε Sampford variants, and endpoint/non-strong-factory discussion."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": "27-28",
+          "mechanism_or_content": "Read acknowledgments and all references."
+        },
+        {
+          "unit": "Supplementary Appendices A-B: missing proofs for matching construction",
+          "physical_pdf_pages": "29-33",
+          "mechanism_or_content": "Read full cofactor and matching/permutation/tree proof details, including the algebraic proof of the matching identity."
+        },
+        {
+          "unit": "Supplementary Appendix C: proofs of Theorems 4.1-4.2",
+          "physical_pdf_pages": "34-36",
+          "mechanism_or_content": "Read open-face characterization and the complete necessity arguments for affine-section polytopes."
+        },
+        {
+          "unit": "Supplementary Appendix D: missing proofs for Section 5",
+          "physical_pdf_pages": "37-38",
+          "mechanism_or_content": "Read geometric disjointness/tiling proofs used to justify the signed zonotope identity."
+        },
+        {
+          "unit": "Supplementary Appendix E: boundary and exponential-tail impossibility",
+          "physical_pdf_pages": "38-42",
+          "mechanism_or_content": "Read finite-depth leaf divisibility, derivative-at-other-vertices lemmas, differentiability impossibility, and the exponential convergence to differentiability argument."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        4,
+        8,
+        16,
+        18,
+        24,
+        25,
+        26,
+        39,
+        40,
+        41,
+        42
+      ],
+      "formula_audit_note": "Rendered physical p.38 definition: source strong/exponential convergence uses one c<1 uniformly over depth and x in S; Theorem E.1 excludes that uniform class for 1<k<n-1. Generic Theorem 5.1 has the source's uniform strong-factory property; non-generic Theorem 6.1 is pointwise a.s. termination only. Separately, the finite race's positive continuous success probability gives pointwise geometric rounds and compact-interior derived uniformity for its bounded per-round count."
+    },
+    "W17-X045": {
+      "physical_pdf_pages_read": "1-18; complete preprint, proof appendix and references",
+      "complete": true,
+      "document_scope": "Complete 18-page arXiv v1 manuscript.",
+      "sections": [
+        {
+          "unit": "§1 Introduction, motivating example, Algorithm 1 and Theorem 1",
+          "physical_pdf_pages": "1-4",
+          "mechanism_or_content": "Read the flow-polytope problem, model assumptions, edge-flip/arborescence construction, theorem statement, and overview of the polynomial proof."
+        },
+        {
+          "unit": "§2 Preliminaries: multiparameter factories, Bernstein polynomials, Matrix-Tree theorem, flow and circulation polytopes",
+          "physical_pdf_pages": "5-7",
+          "mechanism_or_content": "Read exact definitions and the affine difference-of-flows circulation fact needed by the later flip transformation."
+        },
+        {
+          "unit": "§3 Bernoulli factory construction and §§3.1-3.4 proofs/conditions",
+          "physical_pdf_pages": "8-15",
+          "mechanism_or_content": "Read the output Bernstein polynomial, root independence, edge marginal bijection, positivity via circulation-connectedness, and relaxations for endpoints, interior coordinates and disconnected graphs."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "16",
+          "mechanism_or_content": "Read the complete bibliography and confirmed the article ends before the proof appendix."
+        },
+        {
+          "unit": "Appendix A: proof of Lemma 1",
+          "physical_pdf_pages": "17-18",
+          "mechanism_or_content": "Read the complete auxiliary Bernoulli-race and polynomial implementation proof, including the appendix’s source attribution and closing proof."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        4,
+        8,
+        11,
+        15,
+        16,
+        18
+      ],
+      "formula_audit_note": "R02 independently enumerated the admissible graph and rechecked source pp.4,8,16. Conditional-uniform eligible-tree choice creates a 1/N_f normalization; exact first-edge marginal is 179/875, not 1/5. Separate Theorem 3 polynomial identities/common-weight race from literal Algorithm 1. Theorem 3 identities are not refuted; no general repair is certified. See evidence/shared/reviews/R02/w17_x045_adjudication.md."
+    },
+    "W17-X007": {
+      "physical_pdf_pages_read": "1–40; complete arXiv v2 article, Appendices A–B and references",
+      "complete": true,
+      "document_scope": "Full 40-page article. Title page lists Giulio Morina, Krzysztof Łatuszyński, Piotr Nayar, Alex Wendland. CFTP input-die update count is separated from auxiliary-uniform generation cost.",
+      "sections": [
+        {
+          "unit": "Title, abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read the scalar and open-simplex rational-map factory models, claimed exact CFTP construction and stated scalar cost claims."
+        },
+        {
+          "unit": "§2 Definitions and multivariate/univariate ladders",
+          "physical_pdf_pages": "4–8",
+          "mechanism_or_content": "Read ladder, disaggregation, augmentation/thinning, fine/connected conditions, and the univariate positive-coefficient form."
+        },
+        {
+          "unit": "§3.1 Ladder representation of a rational map",
+          "physical_pdf_pages": "8–10",
+          "mechanism_or_content": "Read Theorem 3.1 statement and explicit reduction steps from rational coordinates to a fine connected ladder."
+        },
+        {
+          "unit": "§3.2 Stationary reversible chain construction",
+          "physical_pdf_pages": "9–13",
+          "mechanism_or_content": "Read face-neighbour sets, transition matrices V and W, iterative max-outflow rule, detailed balance, row sums, Peskun comparison, and worked ladder example."
+        },
+        {
+          "unit": "§§3.3–3.4 CFTP and scalar monotone update",
+          "physical_pdf_pages": "13–14",
+          "mechanism_or_content": "Read update-function derivation, exact CFTP construction, and nearest-neighbour monotonicity for the binary input case."
+        },
+        {
+          "unit": "§3.5 Efficiency, degree elevation and log-concavity",
+          "physical_pdf_pages": "14–17",
+          "mechanism_or_content": "Read Theorem 3.9, Propositions 3.10 and 3.12, Corollary 3.11, the p-dependent geometric tail, uniform expected update-count bound, and augmentation lemma."
+        },
+        {
+          "unit": "§§4–6 Examples, conclusions and acknowledgments",
+          "physical_pdf_pages": "17–24",
+          "mechanism_or_content": "Read ladder-cost examples, the logistic factory, independent-coin Bernoulli race, conclusions/open questions, and acknowledgments."
+        },
+        {
+          "unit": "Appendix A: fair bits, known categorical draws and CFTP",
+          "physical_pdf_pages": "24–27",
+          "mechanism_or_content": "Read the die-based von Neumann comparison, fair-bit-to-uniform refinement with tail bound, update definitions, and monotone CFTP; auxiliary randomness has its own input cost."
+        },
+        {
+          "unit": "Appendix B: full proofs",
+          "physical_pdf_pages": "27–38",
+          "mechanism_or_content": "Read connectedization, Pólya positive-coefficient lemma, Theorem 3.1 construction, detailed-balance/Peskun proofs, log-concavity proof, and CFTP geometric/expected-cost arguments."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "38–40",
+          "mechanism_or_content": "Read the complete terminal bibliography; final proof of Lemma 3.14 ends on p.38."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        1,
+        5,
+        9,
+        16,
+        25,
+        28
+      ],
+      "formula_audit_note": "R02 independently checked Definition 2.2 (p.5), Theorem 3.1 (p.9), and Appendix B (pp.28-30): open-simplex rational hypotheses do not ensure the finite fixed aggregation of closed-nonvanishing-denominator ladder states. The exact ratio map (p0/(p0+p1),p1/(p0+p1)) has path limits 1/2 and 1/3 at (0,0,1). Appendix B Pólya's open-positivity condition also does not justify coefficient positivity. This limits this conversion tool, not rational-factory existence or CFTP for valid ladders. See evidence/shared/reviews/R02/w17_x007_adjudication.md."
+    },
+    "W17-X046": {
+      "physical_pdf_pages_read": "1–7; complete arXiv v2 manuscript",
+      "complete": true,
+      "document_scope": "Complete short note; arXiv v2 posted 29 Nov. 2016, while title page separately prints 18 May 2019.",
+      "sections": [
+        {
+          "unit": "Title, abstract, §1 and multivariate positive-coefficient setup",
+          "physical_pdf_pages": "1–2",
+          "mechanism_or_content": "Read polynomial-with-positive-coefficients model, smoothness class, derivative bounds, and definitions of δ_n, Δ_n and moduli."
+        },
+        {
+          "unit": "§3: Lemma 1 and Theorem 2 statements",
+          "physical_pdf_pages": "3",
+          "mechanism_or_content": "Read boundary-sensitive binomial-moment bound and univariate/multivariate approximation error statements; rendered formulas checked."
+        },
+        {
+          "unit": "Proof of Theorem 2",
+          "physical_pdf_pages": "4–6",
+          "mechanism_or_content": "Read Taylor-corrected Bernstein operator, moment-controlled remainder, induction on smoothness order, and strict-positive-lower-bound degree elevation for positive real coefficients."
+        },
+        {
+          "unit": "Conclusion and references",
+          "physical_pdf_pages": "6–7",
+          "mechanism_or_content": "Read conclusion on boundary error factors and all references."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        3,
+        6
+      ],
+      "formula_audit_note": "Rendered p.3 verifies Lemma 1’s δ_n^(2∧s)Δ_n^((s−2)∨0) factor and Theorem 2 error bounds; p.6 verifies the inductive remainder estimate and positivity step. Positive real coefficients are not finite-event integer Bernstein coefficients."
+    },
+    "W17-X047": {
+      "physical_pdf_pages_read": "1–22; complete article and references",
+      "complete": true,
+      "document_scope": "Complete arXiv v3 version; 22 physical pages, no separate proof appendix.",
+      "sections": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "mechanism_or_content": "Read intractable posterior motivation, Barker target, proposed modified acceptance probabilities, and application outline."
+        },
+        {
+          "unit": "§2 Barker method and two-coin algorithm",
+          "physical_pdf_pages": "3–5",
+          "mechanism_or_content": "Read local upper-bound factorization, exact two-coin acceptance proof, and geometric loop mean."
+        },
+        {
+          "unit": "§3 Portkey Barker method and Theorems 1–4",
+          "physical_pdf_pages": "5–9",
+          "mechanism_or_content": "Read symmetry iff reversibility, Algorithm 3 and exact portkey probability, Peskun/asymptotic-variance comparisons, and reverse comparison under lower bounds."
+        },
+        {
+          "unit": "§4 Flipped portkey algorithm and Theorems 5–6",
+          "physical_pdf_pages": "9–10",
+          "mechanism_or_content": "Read reciprocal-bound coin model, exact flipped acceptance probability and variance comparison; rendered denominator checked."
+        },
+        {
+          "unit": "§5 Examples",
+          "physical_pdf_pages": "10–19",
+          "mechanism_or_content": "Read Weibull-mixture, constrained-correlation, and Wright–Fisher diffusion examples; separate empirical runtime/autocorrelation observations from theorem claims."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": "20–22",
+          "mechanism_or_content": "Read complete end matter and bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        5,
+        6,
+        8,
+        10
+      ],
+      "formula_audit_note": "Rendered pp.5-8,10. For fixed beta<1, Theorem 2's continuation probability is at most beta, hence loop count is geometric with success at least 1-beta and all loop/opportunity moments finite uniformly in local p_x,p_y. Nested primitive coin-generation costs are not included; beta->1 loses the bound."
+    },
+    "W17-X048": {
+      "physical_pdf_pages_read": "1–19; full main paper and supplementary material",
+      "complete": true,
+      "document_scope": "Complete arXiv file with proof supplement, application material and references.",
+      "sections": [
+        {
+          "unit": "Abstract, §1 introduction and particle-filter setup",
+          "physical_pdf_pages": "1–2",
+          "mechanism_or_content": "Read exact-weight and random-weight PF models and motivation from intractable diffusion weights."
+        },
+        {
+          "unit": "§2 particle filters with intractable weights and Proposition 1",
+          "physical_pdf_pages": "2–3",
+          "mechanism_or_content": "Read extended-space random-weight PF and asymptotic variance comparison with exact-weight PF."
+        },
+        {
+          "unit": "§3 Bernoulli races: Proposition 2 and efficient implementation",
+          "physical_pdf_pages": "3–5",
+          "mechanism_or_content": "Read c_i b_i target, race proof, geometric success rate, alias-table cost discussion, CLT condition, and geometric-count estimators."
+        },
+        {
+          "unit": "§4 Bernoulli-race particle filter and Theorem 6",
+          "physical_pdf_pages": "5–6",
+          "mechanism_or_content": "Read conversion of [0,1]-valued unbiased estimates into coins, particle-filter resampling interface and unbiased likelihood estimator."
+        },
+        {
+          "unit": "§5 numerical and diffusion applications",
+          "physical_pdf_pages": "6–8",
+          "mechanism_or_content": "Read Gaussian locally optimal proposal and diffusion experiments; empirical results are not uniform theorem bounds."
+        },
+        {
+          "unit": "Main-text references",
+          "physical_pdf_pages": "9",
+          "mechanism_or_content": "Read references for the main paper."
+        },
+        {
+          "unit": "Supplementary Appendix A: proofs",
+          "physical_pdf_pages": "10–13",
+          "mechanism_or_content": "Read proofs of Propositions 3–5 and Theorem 6, including geometric-array CLT and conditional unbiasedness steps."
+        },
+        {
+          "unit": "Supplementary simulations and diffusion details",
+          "physical_pdf_pages": "14–18",
+          "mechanism_or_content": "Read implementation comparisons, nonnegative unbiased Brownian-bridge estimator construction, diffusion-model derivations and simulation output."
+        },
+        {
+          "unit": "Supplementary references",
+          "physical_pdf_pages": "19",
+          "mechanism_or_content": "Read final references and document end."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        3,
+        4,
+        10,
+        12
+      ],
+      "formula_audit_note": "Rendered p.4 and supplement p.10. Propositions 4-5's MVUE formula requires N>=2; for N=1 the displayed ratio fails at C1=1 and is not valid generally. 1{C1=1} is recorded as a separate derived unbiased estimator only."
+    },
+    "W17-X049": {
+      "physical_pdf_pages_read": "1–12; full arXiv v2 manuscript",
+      "complete": true,
+      "document_scope": "Full 12-page arXiv v2 manuscript including Appendix A, figures and bibliography; SODA 2011 work.",
+      "sections": [
+        {
+          "unit": "Abstract, §1 model and realization definitions",
+          "physical_pdf_pages": "1–4",
+          "mechanism_or_content": "Read Buffon-machine definition, a.s. and strong realizability, polynomial/rational-function theorem, and decision-tree operations."
+        },
+        {
+          "unit": "§2 von Neumann scheme and Theorem 2.1",
+          "physical_pdf_pages": "4–6",
+          "mechanism_or_content": "Read permutation classes, exact law of N, iterations, digital-tree construction, probability generating function and its distinct cost counter."
+        },
+        {
+          "unit": "§3 algebraic constants and Buffon numbers",
+          "physical_pdf_pages": "6–8",
+          "mechanism_or_content": "Read compositions, rational constants, power-series examples and pushdown-machine constructions."
+        },
+        {
+          "unit": "§4 geometric-bag integration and Theorems 4.1–4.2",
+          "physical_pdf_pages": "8–10",
+          "mechanism_or_content": "Read exact integration from a machine, strong-realizability examples, arctangent/arcsine/exponential integrals, π/4 code and simulations."
+        },
+        {
+          "unit": "Conclusion, discussion and references",
+          "physical_pdf_pages": "10–12",
+          "mechanism_or_content": "Read computation model limitations, open problems, closing appendix material and full bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        3,
+        4,
+        5,
+        9
+      ],
+      "formula_audit_note": "Rendered pp.3-5,9. Definition 2 p.3: realizable means finite expected coin count; strong means pointwise exponential tail. Theorem 1.1 p.4 uses unbounded-precision arithmetic; the earlier unrestricted-device phrase pertains to cited Lipschitz/analytic results. Theorem 2.1 cost C excludes external lambda-coin calls."
+    },
+    "W17-N001": {
+      "version": "arXiv:1106.2508v3; local PDF title-page date 29 Oct. 2018, arXiv history revision 17 Apr. 2012",
+      "pdf_pages": 23,
+      "sha256": "b915362ed38b55d009e9a781cc2f2ea3dcaadd07c6dcdb2c69472505d61ec0d3",
+      "physical_pdf_pages_read": "1-23",
+      "complete": true,
+      "document_scope": "Complete 23-page arXiv v3 paper; one work/version, retaining the PDF-date versus arXiv-history discrepancy.",
+      "sections": [
+        {
+          "unit": "Title, abstract, and §1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Read the unknown-p coin/factory definition, function-class overview, motivating examples and paper roadmap."
+        },
+        {
+          "unit": "§1.1 Fair Coins and the von Neumann Algorithm",
+          "physical_pdf_pages": "2-4",
+          "mechanism_or_content": "Read equal-pair rejection, exact fairness by symmetry, expected input draws and the endpoint/nontermination boundary."
+        },
+        {
+          "unit": "§1.2 From Simple Alchemy to the Full Factory",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "Read the construction motivation and the continuity/polynomial-boundedness background attributed to Keane–O’Brien and Nacu–Peres."
+        },
+        {
+          "unit": "§2 Bernstein Polynomial Expansions and Set Approximations",
+          "physical_pdf_pages": "5-7",
+          "mechanism_or_content": "Read Bernstein expectation identities, lower approximants for f and 1−f, integer set sizes, nested descendants, and continuation sets A/B/C."
+        },
+        {
+          "unit": "§2.1 Example: f(p) Constant or Linear",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Read exact Bernstein representation, at-most-one continuation word per Hamming weight, and the stated pointwise survival bound."
+        },
+        {
+          "unit": "§3 Canonical Piecewise-Linear Concave/Convex Case and envelope cascade",
+          "physical_pdf_pages": "8-12",
+          "mechanism_or_content": "Read the elbow target, checkpoint construction, envelope nesting constraints, and exact trinomial/set-size continuation implementation."
+        },
+        {
+          "unit": "§3.1 Practical Justification and Improvement",
+          "physical_pdf_pages": "12-16",
+          "mechanism_or_content": "Read checkpoint/evaluation choices and Table 3 simulation; kept reported finite-run costs separate from theorem claims."
+        },
+        {
+          "unit": "§3.2 Theoretical Justification",
+          "physical_pdf_pages": "16-17",
+          "mechanism_or_content": "Read existence/convergence argument and coupling to fast Nacu–Peres envelopes; noted the impractical m5=2^37 checkpoint example."
+        },
+        {
+          "unit": "§4 Extending to General Convex or Concave Functions; §§4.1–4.2",
+          "physical_pdf_pages": "17-22",
+          "mechanism_or_content": "Read smoothed-elbow and differentiable-function extensions, envelope-side certification limitations, and practical constraints."
+        },
+        {
+          "unit": "References and end matter",
+          "physical_pdf_pages": "22-23",
+          "mechanism_or_content": "Read complete bibliography and confirmed physical page 23 is the paper end."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        6,
+        16,
+        17
+      ],
+      "computation": "evidence/W17/experiments/verify_b7_results.json#N001_von_neumann",
+      "rendered_image_paths": [
+        "evidence/W17/reader_batches/L09_B7/rendered/N001-p6.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N001-p16.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N001-p17.png"
+      ],
+      "formula_audit_note": "Rendered pp.6,16-17. The p.16 footnote gives exponential-tail envelopes only for small p and polynomial tails for other p. The fifth example checkpoint is n5=2^37, not m5."
+    },
+    "W17-N002": {
+      "version": "Theoretical Population Biology 156 (2024), pp. 40–45; publisher OA final PDF",
+      "pdf_pages": 6,
+      "sha256": "19685270a25f329ce6cdb11b7a264cdcb42546279f5d59175a346eb04eeb6c11",
+      "physical_pdf_pages_read": "1-6",
+      "complete": true,
+      "document_scope": "Complete six-page publisher version, including discussion and references.",
+      "sections": [
+        {
+          "unit": "Title, abstract, and §1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Read the model motivation, scope and theorem roadmap."
+        },
+        {
+          "unit": "§2 The Keane–O’Brien factory",
+          "physical_pdf_pages": "2",
+          "mechanism_or_content": "Read the polynomial-boundedness condition, finite p-independent sample sizes η(f,k), threshold factory, and uniform geometric-mixture identity."
+        },
+        {
+          "unit": "§3 The frequency-dependent Wright–Fisher diffusion",
+          "physical_pdf_pages": "2-4",
+          "mechanism_or_content": "Read Theorems 1–3 and proofs: generator convergence, isolated merger/branching events in the N-scale limit, and Bernstein/hypergeometric duality."
+        },
+        {
+          "unit": "§4 The Allen–Cahn model of spatial genetics",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "Compared printed Eq. (11)/Theorem 4 with the first-branch-time derivation; the latter yields λ[f(q)−q], while Eq. (11) prints λf(q), so the statement/proof mismatch is retained explicitly."
+        },
+        {
+          "unit": "§5 Discussion and references",
+          "physical_pdf_pages": "5-6",
+          "mechanism_or_content": "Read the relation to earlier drift classes, extensions/limitations, and complete bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "source_issue": "Theorem 4 as printed refers to Eq. (11), ∂t u−Δu=λf(u); its own proof derives ∂t q−Δq=λ[f(q)−q]. Eq. (12) and the voting interpretation support the latter. This is a source statement/proof mismatch, not silently corrected in the card.",
+      "computation": "No separate numerical calculation; exact statements and proof steps were checked against the article.",
+      "rendered_image_paths": [
+        "evidence/W17/reader_batches/L09_B7/rendered/N002-p2.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N002-p3.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N002-p4.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N002-p5.png"
+      ],
+      "formula_audit_note": "Rendered p.2. [0,3/4] bounds the unscaled residual before multiplication by 4/3, so f_{k+1} is in [0,1]. Algorithm 1 line 3 prints BinCount/L; Eq.(2) and prose use BinCount/eta(f,L), which is the construction recorded in the card. Theorem 4 PDE mismatch remains isolated."
+    },
+    "W17-N003": {
+      "version": "arXiv:2510.01941v2, revised 1 Sep. 2026; PDF title page dated 2 Sep. 2026",
+      "pdf_pages": 10,
+      "sha256": "85bc6a2ec6b57416f3b492bb6d45d5fe0cd5353061f77f95ac2a946cb95bca18",
+      "physical_pdf_pages_read": "1-10",
+      "complete": true,
+      "document_scope": "Complete 10-page arXiv v2 article including proofs, implementability/open problems, and references.",
+      "sections": [
+        {
+          "unit": "Title, abstract, and §1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Read the debiasing motivation, target function domain/range and contribution overview."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "2-3",
+          "mechanism_or_content": "Read Bernstein coefficient compatibility, hypergeometric thinning and lower/upper polynomial approximants."
+        },
+        {
+          "unit": "§3 A debiased Bernoulli factory",
+          "physical_pdf_pages": "4-8",
+          "mechanism_or_content": "Read Theorems 1–2, the full telescoping unbiasedness proof, monotone nonnegative increments, Stirling/binomial denominator bound and power-tail summation; distinguished theorem assumptions from derived moments."
+        },
+        {
+          "unit": "§4 Implementability and §5 Open problems",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Read coefficient construction difficulty, affine example, variance discussion, endpoint restrictions and stated open questions."
+        },
+        {
+          "unit": "References and end matter",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Read complete reference list and confirmed final physical page."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "computation": "evidence/W17/experiments/verify_b7_results.json#N003_linear_debiasing",
+      "rendered_image_paths": [
+        "evidence/W17/reader_batches/L09_B7/rendered/N003-p4.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N003-p5.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N003-p6.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N003-p7.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N003-p8.png"
+      ],
+      "formula_audit_note": "Official arXiv v2 metadata order is Jere Koskela, Toni Karvonen, Krzysztof Łatuszyński, Dario Spanò. The title page uses a 2x2 layout (top row Jere/Toni; bottom row Krzysztof/Dario), which is consistent by rows. PDF dated 2 Sep. 2026; arXiv v2 revised 1 Sep. 2026."
+    },
+    "W17-N004": {
+      "version": "arXiv:2505.05438v3, revised 29 Aug. 2026; PDF title-page date 1 Sep. 2026",
+      "pdf_pages": 42,
+      "sha256": "2a9f1106b9793ba7708e5323c8f514e2baad7935a528bda9a994ea26c77e90a6",
+      "physical_pdf_pages_read": "1-42",
+      "complete": true,
+      "document_scope": "Complete 42-page arXiv v3 paper: both applications, discussion/references, Appendices A–C, and supporting lemmas.",
+      "sections": [
+        {
+          "unit": "Title and abstract",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Read the contribution statement and model/cost scope."
+        },
+        {
+          "unit": "§1 Introduction; §§1.1–1.2",
+          "physical_pdf_pages": "2-8",
+          "mechanism_or_content": "Read the intractable posterior setting, Barker two-coin factory, valid factorization inputs, and baseline exponential scaling problem."
+        },
+        {
+          "unit": "§2 Recursive 2-coin Algorithms; §§2.1–2.2",
+          "physical_pdf_pages": "8-13",
+          "mechanism_or_content": "Read C2C binary-tree merge, Proposition 1 exactness under independent input coins, Proposition 2 expected merge cost recursion, and recursive portkey construction/reversibility."
+        },
+        {
+          "unit": "§3 Complexity Analysis; §§3.1–3.3",
+          "physical_pdf_pages": "13-18",
+          "mechanism_or_content": "Read balanced merge cost, Assumptions 2–4 and Theorem 1, likelihood-ratio leaf scaling/Proposition 6, batching alternatives, and conditional total-cost regimes."
+        },
+        {
+          "unit": "§4 Computer Experiments; §§4.1–4.2 and subsections",
+          "physical_pdf_pages": "19-27",
+          "mechanism_or_content": "Read diffusion and Cox-process simulation/real-data applications; treated reported empirical scaling as observations, not theorem proof."
+        },
+        {
+          "unit": "§5 Discussion",
+          "physical_pdf_pages": "27-28",
+          "mechanism_or_content": "Read conclusions and the model/estimator-dependent complexity limits."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "28-31",
+          "mechanism_or_content": "Read complete bibliography; verified appendix transition."
+        },
+        {
+          "unit": "Appendix A Technical Appendices for Simulation Experiments",
+          "physical_pdf_pages": "32-33",
+          "mechanism_or_content": "Read diffusion- and Cox-application data/simulation details."
+        },
+        {
+          "unit": "Appendix B Proofs of Main Text Propositions; §§B.1–B.7",
+          "physical_pdf_pages": "33-39",
+          "mechanism_or_content": "Read proofs of Propositions 1–6 and Theorem 1, including exact node probabilities, expected-cost path expansion, likelihood-ratio bounds, total-variation transfer and Markov step."
+        },
+        {
+          "unit": "Appendix C Further Lemmas",
+          "physical_pdf_pages": "39-42",
+          "mechanism_or_content": "Read Lemmas 1–3 and their likelihood-ratio/portkey proofs; read Proposition 7's Jensen lower bound and Proposition 8's conditional-MGF argument, including the printed (86)–(87) conclusion. The Proposition 8 proof interface is isolated: the martingale is centered by random A_n=Σ_i E[r_i|F_{i−1}], whereas (86) is centered at unconditional E[S_n], and the stated unconditional E[r_i] bounds do not control their difference. Rendered and visually checked pp. 37–42."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        11,
+        15,
+        17,
+        18,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "computation": "evidence/W17/experiments/verify_b7_results.json#N004_C2C_cost_recursion",
+      "rendered_image_paths": [
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p11.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p15.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p17.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p18.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p37.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p38.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p39.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p40.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p41.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N004-p42.png"
+      ],
+      "formula_audit_note": "Rendered physical pp.15,41–42. Proposition 7 Jensen bound is direct. Proposition 8 defines a martingale centered by the random predictable compensator A_n=ΣE[r_i|F_{i−1}], but (86) centers S_n at unconditional E[S_n]; the stated E[r_i] lower bounds do not control A_n−E[S_n] pathwise/tailwise. Isolate (86)–(87)/O(ρ^n) as unsupported under the printed assumptions; main IID Theorem 1 and Prop.7 remain separate."
+    },
+    "W17-N005": {
+      "version": "arXiv:1907.06748v1, submitted 15 Jul. 2019; PDF first page says Version 17 Jul. 2019; physical PDF has 18 pages although arXiv advertises 17",
+      "pdf_pages": 18,
+      "sha256": "722dc708c68a9d06fc003725ea21dfad8fe0828a1b4d143ad7d2c26d8ad0aab4",
+      "physical_pdf_pages_read": "1-18",
+      "complete": true,
+      "document_scope": "Complete 18-page physical arXiv PDF; physical p. 18 continues the references and is included.",
+      "sections": [
+        {
+          "unit": "Title, abstract, and §1 Introduction",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "Read probabilistic recursive schemes, target distributions and the local-correctness setup."
+        },
+        {
+          "unit": "§2 Proof of the Fundamental Theorem of Perfect Simulation",
+          "physical_pdf_pages": "4-7",
+          "mechanism_or_content": "Read Theorem 1 and complete truncation/coupling proof; explicitly separated almost-sure termination from finite expected runtime."
+        },
+        {
+          "unit": "§3 Perfect simulation protocols; §§3.1–3.4",
+          "physical_pdf_pages": "7-14",
+          "mechanism_or_content": "Read rejection sampling, CFTP, linear Bernoulli factories/BF1–BF2, and additional protocols; checked recurrence branch algebra and termination argument."
+        },
+        {
+          "unit": "§4 Models of Computation",
+          "physical_pdf_pages": "14",
+          "mechanism_or_content": "Read exact-uniform idealized model versus probabilistic Turing machine limitation and tolerance discussion."
+        },
+        {
+          "unit": "§5 Appendix: Expected running time of BF2",
+          "physical_pdf_pages": "14-17",
+          "mechanism_or_content": "Read Lemmas 9–11 and full expected-cost argument, including gambler’s-ruin estimate, recursive escape bounds and constants 3.55, 5.53 and 9.5."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "17-18",
+          "mechanism_or_content": "Read acknowledgements and the complete bibliography; included p. 18 as the physical final reference page."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        13,
+        15,
+        16
+      ],
+      "computation": "evidence/W17/experiments/verify_b7_results.json#N005_local_factory_algebra",
+      "rendered_image_paths": [
+        "evidence/W17/reader_batches/L09_B7/rendered/N005-p13.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N005-p15.png",
+        "evidence/W17/reader_batches/L09_B7/rendered/N005-p16.png"
+      ],
+      "formula_audit_note": "Rendered physical pp.15-16. The literal Lemma 11 cost display is preserved, but its preceding geometric/ceiling sum does not reduce to that RHS under ceil(x)<=x+1; the final note D<=5.53 does not yield the stated 5.53C/epsilon. A finite epsilon=1/8 diagnostic is in evidence/W17/experiments/review_point_fixes.py/.out. This is an unsupported proof route/constant, not a disproof of the cost theorem or the exactness result."
+    }
+  }
+}

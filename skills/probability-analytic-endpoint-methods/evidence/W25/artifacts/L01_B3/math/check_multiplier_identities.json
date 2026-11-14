@@ -1,0 +1,60 @@
+{
+  "tool": "Python 3 + SymPy from project .runtime",
+  "source": "AEP-017 arXiv:2003.02077v2, physical pp. 15–16 and 20–22",
+  "checks": {
+    "brownian_drift_vertical_diffusion_phi_integrand": "lambda*exp(2*m*y/sigma**2)*exp(-2*y*sqrt(lambda + m**2/sigma**2)/sigma)/(2*m) - lambda*exp(-2*y*sqrt(lambda + m**2/sigma**2)/sigma)/(2*m) + m*exp(2*m*y/sigma**2)*exp(-2*y*sqrt(lambda + m**2/sigma**2)/sigma)/sigma**2 - m*exp(-2*y*sqrt(lambda + m**2/sigma**2)/sigma)/sigma**2 - sqrt(lambda + m**2/sigma**2)*exp(2*m*y/sigma**2)*exp(-2*y*sqrt(lambda + m**2/sigma**2)/sigma)/sigma + sqrt(lambda + m**2/sigma**2)*exp(-2*y*sqrt(lambda + m**2/sigma**2)/sigma)/sigma",
+    "brownian_drift_vertical_diffusion_phi_integral_minus_printed_formula": "0",
+    "remark_4_7_sigma_to_zero_operator_multiplier_limit": "2/x"
+  },
+  "numeric_convergence_checks": [
+    {
+      "x": "1/2",
+      "m": "3/2",
+      "checks": [
+        {
+          "sigma": "1/10",
+          "value": "3.997781474636081",
+          "target_2_over_x": "4.000000000000000",
+          "absolute_error": "0.002218525363919310"
+        },
+        {
+          "sigma": "1/100",
+          "value": "3.999977778148141",
+          "target_2_over_x": "4.000000000000000",
+          "absolute_error": "2.222185185873915e-5"
+        },
+        {
+          "sigma": "1/1000",
+          "value": "3.999999777777815",
+          "target_2_over_x": "4.000000000000000",
+          "absolute_error": "2.222221852088424e-7"
+        }
+      ]
+    },
+    {
+      "x": "2",
+      "m": "1",
+      "checks": [
+        {
+          "sigma": "1/10",
+          "value": "0.9950737714883372",
+          "target_2_over_x": "1.000000000000000",
+          "absolute_error": "0.004926228511662842"
+        },
+        {
+          "sigma": "1/100",
+          "value": "0.9999500074987502",
+          "target_2_over_x": "1.000000000000000",
+          "absolute_error": "4.999250124977650e-5"
+        },
+        {
+          "sigma": "1/1000",
+          "value": "0.9999995000007500",
+          "target_2_over_x": "1.000000000000000",
+          "absolute_error": "4.999992500032135e-7"
+        }
+      ]
+    }
+  ],
+  "limitation": "These calculations verify scalar algebra and one-parameter numerical convergence only; they do not prove the martingale representation, Lp bounds, operator-domain claims, or endpoint estimates."
+}

@@ -1,0 +1,28 @@
+
+
+---
+## 引用核对（R25）
+
+- 步骤 3 与源卡 HK-P-53739dd293f0de1c **逐字一致**：(A1) 条件 Bernstein ε、
+  (A2) |V_n−1|≤δ²、上界固定 α∈(0,1)、0≤x≤α/ε、下界需 α₀ 与 δ≤α₀、
+  误差项 x³ε+x²δ²+(1+x)(ε|log ε|+δ) ✓
+- 步骤 1 的 V_n 定义与辨明（常数/集中/随机）方法正确；R13 案例 E[S_n²]=n 通过 ✓
+## 档位提升依据（R25）
+待证据 → **部分可用**（源引用逐字一致 + 案例通过 + 方法步骤正确）。
+仍待证据：Fan–Grama–Liu 定理证明本身；随机方差/重尾降级分支的实例。
+
+
+---
+
+## 更正条目（R42）：卡↔PDF——H03 通过；f06 自有推导核验
+
+- **H03 Theorems 2.1/2.2 + Cor 2.1**（PDF p4）：上界 α∈(0,1)/0≤x≤αε⁻¹、下界
+  **δ≤α₀**、误差项 x³ε+x²δ²+(1+x)(ε|log ε|+δ)、θᵢ 依赖声明——全部逐字吻合 ✓
+- **f06 (m+1)² 界归属澄清**：不来自源论文，是 skill 自有"已检查推导"（归属正确）。
+  推导核验：(m+1)² 的两个因子定位——一个来自 Cauchy–Schwarz、一个来自二进层数
+  （每层正交消交叉项、每层总能量 Σ‖fⱼ‖²）；与 R8 的 1400 例数值互证 ✓
+
+## 覆盖历史更正（2026-10-07）
+旧 HK 卡标 full_read，而 shared-reading/revise_f 当时实际仅 page 1；这两个记录当时冲突，页1卡不支撑全文状态。当前 P-53739 匹配 SHA 已重新逐页读完26页并核对主要公式，现行卡为 `audit_current/shared-reading/revise_hi/53739dd293f0de1c466a278829271bd71c72b1e68af9504a9ae48a8cdab2dd83.json`。这只更新阅读覆盖/可引用范围，原文证明未独立重证。
+
+Package-relative `audit_current/...` locators in this file are resolved with the package-root resolver described in [portable audit access](portable-audit-access.md); they are not Skill-local file links.

@@ -1,0 +1,1671 @@
+{
+  "reviewer": "R02",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "workers": [
+    "W03",
+    "W04",
+    "W21"
+  ],
+  "source_decisions": [
+    {
+      "worker": "W03",
+      "local_id": "P001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp3–5 Theorems1.1–1.6; pp9–12 Laplace/Lieb/cgf chain; pp28–32 martingale and bounded differences"
+      ],
+      "reason": "Delivered section_coverage now matches main sections/appendices and continuous full-read declaration. Audited toolkit statements and key proof mechanisms match source.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "8493f656243215ea4b42b607e5325d92e8107c706a4e955c238add636dc1d051",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp4–9 Theorems3.2/3.5 and telescoping/partition proof (retained batch2 raw extracts)"
+      ],
+      "reason": "Delivered section_coverage now matches main sections/appendices and continuous full-read declaration. Audited toolkit statements and key proof mechanisms match source.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "344b1492ed4785516e79df0455857f80e1399240360b847f6bbd5486379594d0",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF p8 printed metric theorem and revised discrepancy isolation; previously checked p3/pp9–13 verified Theorems3.1–3.3"
+      ],
+      "reason": "Prior issue resolved by faithfully quoting source p8 and isolating printed/derived discrepancy; only verified3.1–3.3 reused. No requirement to repair author theorem.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "22520ae526a2ba8ada28707537e58e9bfcdd295594c0b23e9f8a697212b82f51",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp9–17 prior exact theorem audit; appendices physical60–63 matched corrected coverage"
+      ],
+      "reason": "Complete continuous reading declaration and section_coverage match source structure; toolkit assertions/key proofs checked. Stage pass only, not30-item completion.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "004cbd7b1c00576a3a21f86ffe01bcea510242798ba959e26e555f0f2ffeb741",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–3 MGF chord/Taylor proof and sums vs average equations23–36"
+      ],
+      "reason": "Prior sum/average normalization, raremass coefficient1, and random empiricalvariance corrections match checked source; source error faithfully isolated where applicable.",
+      "reviewed_card_sha256": "bc7d31e66513614bfd850e875ecf4e83d2b3c34d6e4baf5a1cd9914d6b2eadef",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1,3–5,8–9,12–13 geometric mixing, Theorems1–3 and rare-mass split"
+      ],
+      "reason": "Prior sum/average normalization, raremass coefficient1, and random empiricalvariance corrections match checked source; source error faithfully isolated where applicable.",
+      "reviewed_card_sha256": "2258c99e06f88b4acf280cd07299cb842c69d81b6541a0f6236fc04fb5b0b219",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–2 notation, p5 Theorems4–6, pp10–15 permutation-average/martingale and random-variance proof"
+      ],
+      "reason": "Prior sum/average normalization, raremass coefficient1, and random empiricalvariance corrections match checked source; source error faithfully isolated where applicable.",
+      "reviewed_card_sha256": "b2d73187fa615fe2184cc231b82dcc60b2a76d6ba1d8a2b03e16ebd28108d6c7",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–6,9–12 modifiedLSI, Thm2.2 constant proof and Hoeffding-statistic proofs/appendices"
+      ],
+      "reason": "Source C1C2/C1² discrepancy faithfully recorded; keeping weaker C1² through final minimum still supports constants36/46 (independent check saved). Other stated permutation results checked.",
+      "reviewed_card_sha256": "2914e5bf2e8c4cf67841ec4e31558d2882dfb8aacae3d2efbac55d53f31fcea8",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–2 statements; pp16–18 convexdistance Herbst; pp20–23 semigroup variance/transport; pp24–28 empirical entropy/truncation"
+      ],
+      "reason": "Complete read/coverage and stated toolkit proof scope checked; stage pass only.",
+      "reviewed_card_sha256": "0ef0613911735fce237c6ae8ad612742df1f513d33f7af028b4079fbba6a3d52",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp9–10 transport-info eq14; pp13–16 Theorems4.2/4.3 and martingale range/MGF proof; pp17–20 Dobrushin application"
+      ],
+      "reason": "Requested square-root/canonicaltangent normalization fixes checked against raw source; prior result/proof audit and full coverage accepted.",
+      "reviewed_card_sha256": "8c1caa4a970eb413ede985b2edf33eefb5e0e8a5a2986fd242c6e248bd96f608",
+      "mathematical_assertions_verified": false,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp3,5–8 Theorem1.1/rearrangement/variance-scale/moments/PaleyZygmund Theorem2.8; p11 norm tilt"
+      ],
+      "reason": "Complete declared coverage and raw core statements/proof mechanisms checked; stage acceptance only.",
+      "reviewed_card_sha256": "c426461208fbb6b506d949bc96992208e7830efefade5e389109c2b26980c3a8",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp7,11,17,26–31 prior statement/proof audit; corrected section3/4 and appendicesA–D coverage"
+      ],
+      "reason": "Complete continuous reading declaration and section_coverage match source structure; toolkit assertions/key proofs checked. Stage pass only, not30-item completion.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "61db48dea784e753d6e1ba5f8efb552f79c97620a63ede4c9b0e09e002603263",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P013",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "No source cards or skill entrypoint delivered at snapshot; reading status cannot yet be accepted. PDF parsing/hash inventory saved separately."
+    },
+    {
+      "worker": "W03",
+      "local_id": "P014",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "No source cards or skill entrypoint delivered at snapshot; reading status cannot yet be accepted. PDF parsing/hash inventory saved separately."
+    },
+    {
+      "worker": "W03",
+      "local_id": "P015",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDFp3 canonicalGaussian metric eq1.2; p5 centering/essentialsup",
+        "Raw pp15,22,29–31 upper/partition/Gaussian lower proof; externalSudakov/LSI citations bounded"
+      ],
+      "reason": "Identity, complete coverage and toolkit assertions/key proof mechanisms accepted; external proof/computational dependencies explicitly retained.",
+      "accepted_reading_scope": "fulltext_read",
+      "reviewed_card_sha256": "e8a93c07f99580d25ed081f6bed37166221ec3d9c9e323a22d9fa0de8221adbf",
+      "external_proof_dependency_verified": false
+    },
+    {
+      "worker": "W03",
+      "local_id": "P016",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1,3–4 identity, LDP set bounds, entropy/Laplace statements; survey proof-scope"
+      ],
+      "reason": "Complete continuous reading declaration and section_coverage match source structure; toolkit assertions/key proofs checked. Stage pass only, not30-item completion.",
+      "accepted_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "18cd17f599e87e3e830d4b35b99504929192ff088f7e093cfdbca5e1f7917323"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P018",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp7,10–11 main coupling/VC corollary; pp21,24–28 finite-vector proof; pp31–33 net approximation; pp37–53 supplement structure"
+      ],
+      "reason": "Delivered section_coverage now matches main sections/appendices and continuous full-read declaration. Audited toolkit statements and key proof mechanisms match source.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "f2fc48b2ce688a64a17c0972b1333c9b29abc89f4f8ecb4942fb664dcfd2cef9",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P019",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw Prior raw pp5,9–10,15–18 plus corrected Lemma3 derivative ratio in current card"
+      ],
+      "reason": "Ratio/d correction matches source; previous mathematical finding resolved.",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "0e9d92f6e11888063fd2272887da266b4820ab952801c535ea9f032080daf321",
+      "declared_reading_scope": "fulltext_read",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P020",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw Prior raw pp15–21 Lemma7/Prop4 dependency; current card explicitly isolates proof gap and excludes upper-bound reuse"
+      ],
+      "reason": "Full read/dependency audit accepted only with originalLemma7 gap and upper-bound reuse exclusion; no certification of its defective upper-bound proof.",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "07ee3179e031b473ec58507e60b6d3634a0b956025819adfb91a5e84cb64df9d",
+      "declared_reading_scope": "fulltext_read",
+      "accepted_reading_scope": "fulltext_read",
+      "proof_status": "original_upper_bound_proof_gap_recorded"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P021",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1,3–5 Theorems1/2; pp8–9 anti-concentration; pp13–17 interpolation smoothing/density proofs"
+      ],
+      "reason": "Complete continuous reading declaration and section_coverage match source structure; toolkit assertions/key proofs checked. Stage pass only, not30-item completion.",
+      "accepted_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "8d53b4862b5b7e75f0255dc1a497aec0620ef367d3051cd422fac2d22d984ffb"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P022",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1,10–13 spectral scale, comparison/density/bands; pp16–20 spectral-case Fourier and interpolation proofs"
+      ],
+      "reason": "Complete continuous reading declaration and section_coverage match source structure; toolkit assertions/key proofs checked. Stage pass only, not30-item completion.",
+      "accepted_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "8ba11c76528658aebb6cb1d9d537b0d5d6a77965bcdbcc7fc683018125f4f7e0"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P023",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–5 Theorem1.2, PSD representation, Laplace/Schur complement, Lemmas2.1–2.4 and two-case proof"
+      ],
+      "reason": "Identity/hash and complete section coverage accepted; toolkit assertions and key proof steps checked. Stage acceptance only.",
+      "accepted_reading_scope": "fulltext_read",
+      "reviewed_card_sha256": "c065c9359aa87e85958ade45f7de7431fd84679c33220db042b62d8b85da1b3a",
+      "mathematical_assertions_verified": true
+    },
+    {
+      "worker": "W03",
+      "local_id": "P024",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–2 Theorems1.1–1.4; pp6,8–11 convex/asymmetric-Laplace comparisons, moment/discrete formulas; pp13–14 crossing proof"
+      ],
+      "reason": "Identity/hash and complete section coverage accepted; toolkit assertions and key proof steps checked. Stage acceptance only.",
+      "accepted_reading_scope": "fulltext_read",
+      "reviewed_card_sha256": "b6ea62c579751ca8b0406fcdccf2c56d3f08482811f3277c827cbdbfb71f9c4a",
+      "mathematical_assertions_verified": true
+    },
+    {
+      "worker": "W03",
+      "local_id": "P025",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp3–5 conditions/tail/MDP; pp7–8 tiltedCLT; pp11,14–16 tilt proof; pp23–24 smoothing/equivalences"
+      ],
+      "reason": "Identity/hash and complete section coverage accepted; toolkit assertions and key proof steps checked. Stage acceptance only.",
+      "accepted_reading_scope": "fulltext_read",
+      "reviewed_card_sha256": "7695d8b3435aa80510eac52c9fa0c474e10bc87a23afa2fcbb0bb856944d1cbf",
+      "mathematical_assertions_verified": true
+    },
+    {
+      "worker": "W03",
+      "local_id": "P026",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–2 BPREannealed assumptions; pp5–7 main estimates; pp9–12 decomposition/harmonic moment; pp20–21 finite-moment proof"
+      ],
+      "reason": "Complete declared coverage and raw core statements/proof mechanisms checked; stage acceptance only.",
+      "reviewed_card_sha256": "f09df5e119dc8df5291755daf8d8a4da23a33dac9a46e890179ef3a240e17e4b",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P027",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp4–6 conditions and Cor2.2; pp13–15 tilted lemmas and missing supplement reference; pp16–17,20–21 main tilt proof"
+      ],
+      "reason": "Complete main-PDF reading accepted; printed min-MDP error excluded; external supplement remains unreviewed and no main-proof closure claimed.",
+      "accepted_reading_scope": "main_PDF_fulltext_read",
+      "reviewed_card_sha256": "6ae54d95381baf11488476fd28c29492edb3edfa03c1b4d75ceba2dfd1e50a5d",
+      "mathematical_assertions_verified": false,
+      "external_proof_dependency_verified": false,
+      "missing_proof_units": [
+        "External supplement[22], detailed smoothing proof of Lemma4.5"
+      ]
+    },
+    {
+      "worker": "W03",
+      "local_id": "P028",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp4–7 assumptions/normalization/Theorem2.1/Cor2.2 and supplement reference; pp11–13,18–21 application proof chains"
+      ],
+      "reason": "Complete main-PDF reading accepted; printed min-MDP error excluded; external supplement remains unreviewed and no main-proof closure claimed.",
+      "accepted_reading_scope": "main_PDF_fulltext_read",
+      "reviewed_card_sha256": "c392aad158beb473fee66bdabdd57a12d2bbca3db79b8fd6f213dc07dcd9689f",
+      "mathematical_assertions_verified": false,
+      "external_proof_dependency_verified": false,
+      "missing_proof_units": [
+        "External supplement[18], detailed proof of central Theorem2.1"
+      ]
+    },
+    {
+      "worker": "W03",
+      "local_id": "P029",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1,3–4 comparison/tangent2D; p7 Lemma4 tangent covariance/variance2 normalization; pp11–16 Pickands blocking proof"
+      ],
+      "reason": "Requested square-root/canonicaltangent normalization fixes checked against raw source; prior result/proof audit and full coverage accepted.",
+      "reviewed_card_sha256": "cb0b2b1b5f09cbd52221f430383602725269ba214ef39a611322466436917b2e",
+      "mathematical_assertions_verified": false,
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P030",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–3 setup; pp6–8 Conditions3–5/local tangent conditioning; pp10–15 r=d unitvariance and separate other regimes/stratum assembly"
+      ],
+      "reason": "Full paper read/coverage accepted, with source external proof outlines accurately noted. Unitvariance locally homogeneous Theorem1 hasr=d; not a dimension typo. Nonconstantvariance r<d uses separate§§3.2–3.5 propositions; no extension implied.",
+      "reviewed_card_sha256": "d74b6b6b2cb053863ffe17f4a47f05c307d9a1cdff08e849ffd9f481433e4a29",
+      "mathematical_assertions_verified": true,
+      "accepted_reading_scope": "main_PDF_fulltext_read",
+      "external_proof_dependency_verified": false
+    },
+    {
+      "worker": "W03",
+      "local_id": "P031",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "RawPDFtitlep1,contentspp3–5,lastindexp341: complete341pagebook",
+        "RawPDFpp33–66 fullCh2structure; p38Theorem2.2.6 and exerciseproofscope; pp55–57Bernstein/notes; p67nextchapter",
+        "C168 independentfinitecandidate conditionalHoeffding proof reviewed separately"
+      ],
+      "reason": "Complete book acquired, full selectedChapter2 coverage accepted; assignedexercise proof not falsely claimed reproduced. Counts once.",
+      "full_book_acquired": true,
+      "accepted_reading_scope": "selected_chapters_read",
+      "read_units": [
+        {
+          "unit": "Chapter2",
+          "physical_pdf_pages": "33–66",
+          "complete": true
+        }
+      ],
+      "reviewed_card_sha256": "2fc21388cc5543dc1b38d66435bcdf692549766270445391bf1814ed6c6e543c"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P032",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Incomplete68pagebookscan; excluded from full-book/selectedbook quota.",
+      "full_book_acquired": false
+    },
+    {
+      "worker": "W03",
+      "local_id": "P033",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Selectedsection of course notes not reviewed in final30 and not counted as book/fullpaper."
+    },
+    {
+      "worker": "W03",
+      "local_id": "P034",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "RawPDFp4intro andpp7–8 numberedThm2.6/Cor2.7; positivity/predictability ofcontrols",
+        "Rawpp14,17–19 exponentialproduct/stoppingtime/Jensen proofs"
+      ],
+      "reason": "Identity, complete coverage and toolkit assertions/key proof mechanisms accepted; external proof/computational dependencies explicitly retained.",
+      "accepted_reading_scope": "fulltext_read",
+      "reviewed_card_sha256": "bdc363b4989291de7ce17d8297e001d13a05fef65fdc54803b5ac50db507fbfc"
+    },
+    {
+      "worker": "W03",
+      "local_id": "P035",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "RawPDFpp1–2 identity/statistic/Theorem1 and computation split",
+        "Rawpp4–6 reflectioncounts/factorialbounds; pp13–16 analyticfinitecase/unequalcase boundary",
+        "Independentexact-integerreflectioncounts evaluated at70digits for n1,4,457,458; finitecheck only"
+      ],
+      "reason": "Identity, complete coverage and toolkit assertions/key proof mechanisms accepted; external proof/computational dependencies explicitly retained.",
+      "accepted_reading_scope": "fulltext_read",
+      "reviewed_card_sha256": "78a9e933a161a3db4c4913ab3b4a2129bc3eded06f637ff1391f6676a260b0f0"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S001",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count",
+        "PDF p375 Chapter26 Question2; p376 continuation"
+      ],
+      "reason": "Full book acquired; stated problem/variational fact confirmed. Selected-chapter reading evidence lacks section-by-section proof coverage; retain pending.",
+      "full_book_acquired": true,
+      "pdf_scope_verified": "461-page full book"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S002",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count",
+        "PDF pp88–90, equations3.76–3.79, Theorem3.25"
+      ],
+      "reason": "Full book acquired; stated problem/variational fact confirmed. Selected-chapter reading evidence lacks section-by-section proof coverage; retain pending.",
+      "full_book_acquired": true,
+      "pdf_scope_verified": "516-page full unfinished monograph"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S003",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Raw PDF pp1–4,6–9: model clock Theorem1 Lemmas3/4/7/9 Corollary6 Proposition8 derivative12"
+      ],
+      "reason": "Math/proof claim verified; exact coverage map requires correction: Coverage §2 should include pp3–4, §3 begins p5 and proof ends p8; current3 and4–7 are wrong.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "472a8562c278470a4c8cf36f99f50a7e0ea91852954ba48b2bf0a5f566a1e456",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1–6: printed uniform-H theorem; p5 invalid nonzero-H reflection isolated and H0 use retained"
+      ],
+      "reason": "Expanded fulltext card and continuous coverage supplied; mathematical claims/key proofs checked in present or recorded earlier raw PDF locations. Stage pass only.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "11760eeb85c6cd30512c20cb7e8ddc2d24320cfe05dd17d882d801785d7ade53",
+      "accepted_reading_scope": "fulltext_read",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp2–6: theorem, Proposition3, lazy Corollary5 and continuity extension"
+      ],
+      "reason": "Expanded fulltext card and continuous coverage supplied; mathematical claims/key proofs checked in present or recorded earlier raw PDF locations. Stage pass only.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "32a6c712d5b5bf19d2cf60c7c0ee1bc0639f5ee8b4fdc8c9aea2209678cc7eda",
+      "accepted_reading_scope": "fulltext_read",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF p3 Proposition1 and induction; revised static-scope card"
+      ],
+      "reason": "Expanded fulltext card and continuous coverage supplied; mathematical claims/key proofs checked in present or recorded earlier raw PDF locations. Stage pass only.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "4e5a9bbf0ab7f4cd527266a82494534c7c504dc3cac456231ca43d1ccf817511",
+      "accepted_reading_scope": "fulltext_read",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S007",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Raw PDF pp2–5 Theorem6 Corollaries11–12 and coupling proof"
+      ],
+      "reason": "Math/proof claim verified; exact coverage map requires correction: References are on physical p5; p6 is blank, not bibliography.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "977e7171663b2c0fd41e8a1d3ec57d22e1ce1bb2937c9843abad223290a01920",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp3–5 Theorem1 coefficient bound; pp8–11 continuum passage and stability"
+      ],
+      "reason": "Expanded fulltext card and continuous coverage supplied; mathematical claims/key proofs checked in present or recorded earlier raw PDF locations. Stage pass only.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "659591a060ed15e8816e15e29e8c89ba942c33f35330816ed698b19c6211df3c",
+      "accepted_reading_scope": "fulltext_read",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S009",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S010",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S011",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp2–5 Theorems1/2; full-product condition and proof"
+      ],
+      "reason": "Expanded fulltext card and continuous coverage supplied; mathematical claims/key proofs checked in present or recorded earlier raw PDF locations. Stage pass only.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "79f170350af9a85d64bb82f33151b529f22fb44374719e6cd6408c2521ad254a",
+      "accepted_reading_scope": "fulltext_read",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S013",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S014",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S015",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Raw PDF pp4–7 Theorem1.1 Lemmas2.1–2.4 Theorem2.5"
+      ],
+      "reason": "Math/proof claim verified; exact coverage map requires correction: Section3 begins on physical p7, not p8.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "153c8bba080959a01d4353ea7c76a6964ffd1d7f88396bf579962058cd1ab7ea",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S016",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF pp1,3–4,10–12 Theorem1 and 2013 appendix improved bound"
+      ],
+      "reason": "Expanded fulltext card and continuous coverage supplied; mathematical claims/key proofs checked in present or recorded earlier raw PDF locations. Stage pass only.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "dd0e73f47a1b7152c91580f505f4e6a62a633af716609b0b19ab77d7d29601c4",
+      "accepted_reading_scope": "fulltext_read",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S017",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S018",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S019",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S020",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S021",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S022",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count",
+        "PDF pp2–3 equations4–6 and generator"
+      ],
+      "reason": "Stated core result checked in raw PDF; expand card with exact proof dependencies/equations and locators before accepting claimed reading scope."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S023",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Raw PDF pp1,5,8–19 Theorem1.1 down-up identification, block factorization, Proposition3.7 and AppendixA"
+      ],
+      "reason": "Math/proof claim verified; exact coverage map requires correction: Applications are physical pp13–14; AppendixA begins at bottom ofp14, notp15, and ends p17; references pp17–19.",
+      "declared_reading_scope": "fulltext_read",
+      "mathematical_assertions_verified": true,
+      "reviewed_card_sha256": "fb3f9cf862ff0c728f5148b2b4fb1fab7ec4aec795230a437fbd18464fc15652",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c"
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S024",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "PDF first/title pages; SHA256 and parsed page count"
+      ],
+      "reason": "No result-level audit in this first-batch review."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S025",
+      "decision": "needs_revision",
+      "reading_evidence_accepted": false,
+      "mathematical_assertions_verified": false,
+      "reason": "Fixed-theta mixing result and proof are correct; interval Lemma5 original p10 reverses an inclusion direction. Repair by transferring invariant law to nearest kernel via Theorem3 before deriving F inequality; identify source typo rather than inheriting it silently. Fulltext coverage otherwise supplied.",
+      "reviewed_card_sha256": "e28bc765db559c738eeda5ac6fe4d363e0bdfa9ad79b3b1855a1a538c0008308",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "checked_locations": [
+        "Raw PDF pp1–6 identity, fixed-theta Theorem1 coupling/TV and support bounds",
+        "Raw PDF pp8–12 Theorem3 stationary-map equivalence; Theorem4/Lemmas5–6; pp12–15 tree and end matter"
+      ]
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S026",
+      "reviewed_card_sha256": "5b996cf6045a8f00bd283652e707e6503ab7d2b41bd3901911d2ab3f88f2f1e7",
+      "coverage_file": "workers/W04/reading_coverage.json",
+      "coverage_sha256": "a462fc1f7ba9e4ed9421c1cbe58627f084338892d8d91f8bae5547143f5c828c",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "accepted_reading_scope": "partial_read",
+      "checked_locations": [
+        "Raw PDF pp1–3 definition/context; pp14–15 Conjecture5 and simplex reference measure; pp21–22 interval full-support question and Theorem9"
+      ],
+      "reason": "Targeted partial evidence accepted only as partial. Numerical/conjectural companion does not prove nonlinear convergence; density-only boundary is not general singular-measure exclusion."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-001",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Raw PDF p1 identity; pp5–6 Theorem1 fixed-theta coupling and support",
+        "Raw pp7–9 Theorem2/3 (no Proposition2 continuity here)",
+        "Raw pp10–12 interval proof/Theorem3 nearest repair; pp12–15 tree/end matter"
+      ],
+      "reason": "Two material card issues: continuity Proposition2 belongs to W21-002 p7 proof8–9; interval Lemma5 repeats source farthest/nearest inclusion typo without nearest reduction. Core frozen mixing proof and k2 theorem scope match.",
+      "reviewed_card_sha256": "1c2ad26746deb0edfdb8debc300d8d6efb87eab4ddd16316e5fcb87713ea9854",
+      "reviewed_pdf_sha256": "82a5a440004f967038f7603420b0f9881e0c783663487ef55a19d4cd07ef0a91",
+      "coverage_file": "workers/W21/reading_coverage.json",
+      "coverage_sha256": "712b5589374b97239b9dd745657e18b2480bbb34e755009a747588b1451e3881",
+      "declared_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Raw PDF p1 identity, pp7–9 Proposition2 no-distance-ties continuity and coupling proof",
+        "Raw pp14–15 Conjecture5 and simplex reference measure; pp21–22 interval question/density criterion",
+        "Full29page coverage map compared to manuscript section structure"
+      ],
+      "reason": "Complete read/section coverage accepted; no-tie continuity, conjectural/numerical status and density-only extension accurately bounded. Adjacent RDE/nonlinear-chain transfer claims are only gated leads.",
+      "reviewed_card_sha256": "eb5f6f053b344cea74b2ffd512ec5dd149975d54e341ceb470a1b2b3c37b97d1",
+      "reviewed_pdf_sha256": "b6d6a98febfd612528f2aec1e23a1989ff1caaba588f95d0efb32f461eaa078f",
+      "coverage_file": "workers/W21/reading_coverage.json",
+      "coverage_sha256": "712b5589374b97239b9dd745657e18b2480bbb34e755009a747588b1451e3881",
+      "declared_reading_scope": "fulltext_read",
+      "accepted_reading_scope": "fulltext_read"
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-003",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-004",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-005",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-006",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-007",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-008",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-009",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-010",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-011",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-012",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-013",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-014",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-015",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-016",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-017",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-018",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-019",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-020",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-021",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-022",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-023",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-024",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-025",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-026",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-027",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-028",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-029",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-030",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-031",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-032",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-033",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-034",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-035",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-036",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-037",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-038",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-039",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W21",
+      "local_id": "W21-040",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate metadata only; no original PDF/result audit, not counted as fulltext."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S027",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Rendered original scan physicalp18/printed52 Prop6/h(3.1): finite ergodic reversible;strict pi(S)<1/2;no laziness/positive spectrum required",
+        "Rendered original physicalp24/printed58 (3.7), argument forlambda1>=h²/2; historical refinement",
+        "Independent copied SymPy run plus strict-cut/row-sum/detailed-balance audit"
+      ],
+      "reviewed_card_sha256": "6267814fbff7703500470e56e2a54111834750188f30fd42a5a0f690fac621c1",
+      "reviewed_pdf_sha256": "87cd8a3c3b6f326a887eff52dd1bf4882f1521796fcfb5c772b509692b87355a",
+      "reason": "Printed stronger Cheeger upper half is indeed false for reader example under actual source assumptions; weak h²/2 proof accepted. Card/coverage wrong Prop6 location and coverage still calls false stronger bound proved; correct before fulltext evidence acceptance."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S028",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "accepted_reading_scope": "fulltext_read",
+      "checked_locations": [
+        "Raw PDF pp1–4 continuous-time setup, definitions, Theorems5/6 and proof start",
+        "Rendered physicalp3/printed566 spectralexp(-t/beta) and Prop8 exact factor1/2",
+        "Raw pp10–11 Lemma38 proof"
+      ],
+      "reviewed_card_sha256": "c98590fd614ac89c65e2e2e2fab33a136e17942f7ad633a5853a2adaaa7161a8",
+      "reviewed_pdf_sha256": "ae7e609798e2b4590c75f60d42fb49bdc16338a6de2cc1f2f34aa98758d3a584",
+      "reason": "Complete source read accepted, but card omits continuous-time setup and inverts source beta relaxation-time parameter; Prop8 reciprocal/factor transcribed wrong."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S029",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "accepted_reading_scope": "fulltext_read",
+      "checked_locations": [
+        "Raw PDF pp1–4 symmetric form, scaled operator-norm condition, Theorems1.1–1.2 and bounded specialization",
+        "Raw pp6–11 Cauchy–Schwarz, killing extension, median/shift/localization proofs"
+      ],
+      "reviewed_card_sha256": "9046e2e4bbc8ffdd2ccd4c5a25b0f961ef546f98d4a09d2958665d620a11c1ac",
+      "reviewed_pdf_sha256": "0c19cf5a4f25871afd32d73e6b725dbe72acea1669826efb90a00db1a72deee1",
+      "reason": "Scaled symmetric-form theorem statements and key proof steps match source; domain/killing/operator-norm boundary retained. Fulltext evidence accepted."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S030",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "accepted_reading_scope": "fulltext_read",
+      "checked_locations": [
+        "Raw PDF pp1–5 L²centered gap convention, k/K/k2 and Theorem2 spectral enclosure",
+        "Raw pp6–10 Lemmas4–6 conductance/periodicity and three-case bound"
+      ],
+      "reviewed_card_sha256": "a9984b7b2409c8f089e744819e6d84bd951a2ee56ce67cea01f831cf222f61fb",
+      "reviewed_pdf_sha256": "9a009c8b281d5e8278f007e151569b0d080250f7a4b5818ae846c0284092afdb",
+      "reason": "Main gap criterion and proof scope checked; enclosure must explicitly be on centered subspace, since constants give full-space eigenvalue1. Source notation itself elides restriction; card must clarify."
+    },
+    {
+      "worker": "W04",
+      "local_id": "W04S031",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "accepted_reading_scope": "fulltext_read",
+      "checked_locations": [
+        "Raw PDF pp4–5 flow definitions and Theorems1/2",
+        "Raw pp7–11 endpoint eigenvalues/mixing and odd-flow comparison",
+        "Raw pp12,15–16,18–21 nonreversible conductance/continuous-time/auxiliary chain distinction"
+      ],
+      "reviewed_card_sha256": "08eb0fb69f482f15228fc78730e671ea6cc1cf08bbca59e3f06ea60403d8bfc5",
+      "reviewed_pdf_sha256": "834c8fe69c07fa6c9ac9d8c6cf53fb03e2a46fd47756367d4535a24b39e6a1fe",
+      "reason": "Flow parity, congestion and reversible/nonreversible proof boundaries match; exact locator needs correction Theorem1 physicalp5 notp4."
+    }
+  ],
+  "skill_decisions": [
+    {
+      "skill": "probability-concentration-chaining",
+      "decision": "passed",
+      "reason": "Finalcontent/evidence accepted:29distinct full-main-paper reads plus one completeChapter2 from full341pagebook. Source errors/unread externalproofs remain explicitly isolated; actualC168 finiteholdout interface only. Approval is bound to exact manifest; later changes invalidate corresponding approval.",
+      "file_hash_manifest": "reviews/R02/W03-final-file-hashes.json",
+      "accepted_quota": {
+        "fulltext_papers": 29,
+        "complete_selected_book_chapters": 1,
+        "distinct_sources": 30,
+        "excluded": [
+          "P013",
+          "P014",
+          "P032",
+          "P033"
+        ]
+      }
+    },
+    {
+      "skill": "probability-markov-spectral-mixing",
+      "decision": "needs_revision",
+      "reason": "New symmetric-form and comparison boundaries mostly checked. S027 printed stronger Cheeger bound independently refuted under actual assumptions; weak proof accepted. S028 beta/clock error, S030 centered-spectrum restriction and coverage/locator corrections required. Still no release approval/minimum30 evidence closure."
+    },
+    {
+      "skill": "probability-nonlinear-law-dynamics",
+      "decision": "needs_revision",
+      "reason": "Three-operator typing and no-inner-mixing-to-outer-convergence gates are sound. Fix continuity source attribution and S025 nearest-reduction proof boundary; qualify omega-limit fixedpoint gate.2read+38candidate is calibration only, not30fullread completion."
+    }
+  ],
+  "mapping_decisions": [
+    {
+      "problem_id": "A040",
+      "tool": "finite reversible-chain spectral-gap variational analysis with fixed heat-bath clock",
+      "decision": "confirmed",
+      "reason": "Direct/auxiliary distinction and remaining interface correctly stated, including H=0 homogeneous subcase and no static-to-gap implication."
+    },
+    {
+      "problem_id": "A040",
+      "tool": "equilibrium correlation inequalities (GKS / FKG / Holley)",
+      "decision": "confirmed",
+      "reason": "Direct/auxiliary distinction and remaining interface correctly stated, including H=0 homogeneous subcase and no static-to-gap implication."
+    },
+    {
+      "problem_id": "A040",
+      "tool": "finite-state heat-bath kernel enumeration and eigenvalue search",
+      "decision": "confirmed",
+      "reason": "Direct/auxiliary distinction and remaining interface correctly stated, including H=0 homogeneous subcase and no static-to-gap implication."
+    },
+    {
+      "problem_id": "A040",
+      "tool": "comparison / path-coupling / high-temperature gap bounds",
+      "decision": "confirmed",
+      "reason": "Direct/auxiliary distinction and remaining interface correctly stated, including H=0 homogeneous subcase and no static-to-gap implication."
+    },
+    {
+      "problem_id": "C120",
+      "tool": "probability-concentration-chaining",
+      "decision": "confirmed",
+      "reason": "Auxiliary only; mapping explicitly retains missing tensor reduction, increment metric, independence or supermartingale interface."
+    },
+    {
+      "problem_id": "C168",
+      "tool": "probability-concentration-chaining",
+      "decision": "confirmed",
+      "reason": "Actualsine-kernel objective rewritten as Gaussianexpectation; finitefixed/independentlytrained candidate holdout bound verified. No uniformall-measurable/globaloptimum/approximation claim."
+    },
+    {
+      "problem_id": "A018",
+      "tool": "probability-concentration-chaining",
+      "decision": "confirmed",
+      "reason": "Auxiliary only; mapping explicitly retains missing tensor reduction, increment metric, independence or supermartingale interface."
+    },
+    {
+      "problem_id": "B179",
+      "tool": "probability-concentration-chaining",
+      "decision": "confirmed",
+      "reason": "Auxiliary only; mapping explicitly retains missing tensor reduction, increment metric, independence or supermartingale interface."
+    },
+    {
+      "problem_id": "A121",
+      "tool": "cross-tool stationary-order-statistic kernel reduction",
+      "decision": "confirmed",
+      "reason": "Fixed-theta inner mixing does not imply nonlinear map convergence. A122 k2 result is restricted; repair interval proof direction through Theorem3 as noted. Exclude both leads from core Ising quota."
+    },
+    {
+      "problem_id": "A122",
+      "tool": "cross-tool stationary-order-statistic kernel reduction",
+      "decision": "confirmed",
+      "reason": "Fixed-theta inner mixing does not imply nonlinear map convergence. A122 k2 result is restricted; repair interval proof direction through Theorem3 as noted. Exclude both leads from core Ising quota."
+    },
+    {
+      "problem_id": "A121",
+      "tool": "nonlinear probability-law dynamics on a finite simplex",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A121",
+      "tool": "finite-state stationary-law elimination and perturbation analysis",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A122",
+      "tool": "nonlinear-kernel invariant-law and support analysis",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A122",
+      "tool": "fixed-point existence theorem with topology and support constraints",
+      "decision": "needs_revision",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A121",
+      "tool": "finite-simplex/QSO dynamics candidate methods",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A121",
+      "tool": "nonlinear Markov and stationary-law perturbation candidates",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A121",
+      "tool": "RDE contraction and global law-iteration candidate methods",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A122",
+      "tool": "measure-valued nonlinear operator and nonlinear Markov fixedpoint candidates",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    },
+    {
+      "problem_id": "A122",
+      "tool": "RDE classification and contraction candidates",
+      "decision": "confirmed",
+      "reason": "Role/operator-match gate appropriate; candidate links remain unproved leads. Correct Proposition2 attribution to W21-002 p7 proof8–9 wherever used; no inner-chain theorem establishes outer convergence."
+    }
+  ],
+  "findings": [
+    {
+      "priority": "medium",
+      "worker": "W04",
+      "source_local_id": "W04S003",
+      "file": "workers/W04/reading_coverage.json",
+      "issue": "Coverage §2 should include pp3–4, §3 begins p5 and proof ends p8; current3 and4–7 are wrong.",
+      "required_fix": "Correct these physical-page unit ranges; source math does not need rereading."
+    },
+    {
+      "priority": "medium",
+      "worker": "W04",
+      "source_local_id": "W04S007",
+      "file": "workers/W04/reading_coverage.json",
+      "issue": "References are on physical p5; p6 is blank, not bibliography.",
+      "required_fix": "Correct these physical-page unit ranges; source math does not need rereading."
+    },
+    {
+      "priority": "medium",
+      "worker": "W04",
+      "source_local_id": "W04S015",
+      "file": "workers/W04/reading_coverage.json",
+      "issue": "Section3 begins on physical p7, not p8.",
+      "required_fix": "Correct these physical-page unit ranges; source math does not need rereading."
+    },
+    {
+      "priority": "medium",
+      "worker": "W04",
+      "source_local_id": "W04S023",
+      "file": "workers/W04/reading_coverage.json",
+      "issue": "Applications are physical pp13–14; AppendixA begins at bottom ofp14, notp15, and ends p17; references pp17–19.",
+      "required_fix": "Correct these physical-page unit ranges; source math does not need rereading."
+    },
+    {
+      "priority": "high",
+      "worker": "W04",
+      "source_local_id": "W04S025",
+      "file": "workers/W04/cards/W04S025.md",
+      "issue": "Lemma5 proof copied from source has a farthest/nearest inequality mismatch at physicalp10. A2 usesY>=mid but next claimed event inclusion usesY<=larger midpoint and is false.",
+      "required_fix": "Explicitly record original display mismatch. Before Lemma5 use Theorem3 to transfer fixed law fromπ2,2 toπ1,2, defineX as nearest sample, useY<=mid inA2/A3, and then derive the statedF inequality. Preserve original source statement versus this justified repair; do not call theorem false."
+    },
+    {
+      "priority": "high",
+      "worker": "W21",
+      "source_local_id": "W21-001",
+      "file": "workers/W21/cards/W21-001.md",
+      "issue": "Proposition2 no-distance-ties continuity incorrectly attributed to15page first paper; it occurs in29page companion.",
+      "required_fix": "Move this claim/proof toW21-002, statement physicalp7/proofpp8–9; fix method anchor/mapping/source reference and card crosslink. First paperpp7–9 are two/threepoint and k2 results."
+    },
+    {
+      "priority": "high",
+      "worker": "W21",
+      "source_local_id": "W21-001",
+      "file": "workers/W21/cards/W21-001.md",
+      "issue": "Lemma5 farthest-sample event decomposition repeats source p10 invalid direction.",
+      "required_fix": "Record source typo and first use Theorem3 to transfer invariance toπ1,2 nearest; defineX nearest, A2 usesY<=midpoint, then displayed F inequality is justified. Cite existing R02 batch5-S025-direction-check.json; do not call main theorem false."
+    },
+    {
+      "priority": "medium",
+      "worker": "W21",
+      "source_local_id": null,
+      "file": "skills/probability-nonlinear-law-dynamics/references/method.md",
+      "issue": "Gate7 suggests continuity identifies arbitrary omega-limit points as fixed; continuous maps can have cycles.",
+      "required_fix": "State: continuity gives omega-limit invariance; identifying individual points as fixed needs asymptotic regularity or another no-cycle argument. ExamplePhi(p)=1-p on[0,1] has nonfixed two-cycle."
+    },
+    {
+      "priority": "high",
+      "worker": "W21",
+      "source_local_id": "W21-001",
+      "file": "workers/W21/cards/W21-001.md",
+      "issue": "Many inline math identifiers have broken escapes, e.g.theta in mathcal and kge2, impairing exact hypothesis review.",
+      "required_fix": "Repair inline math syntax without changing claims; keep exact k>=2 and1<=j<=k domains readable."
+    },
+    {
+      "priority": "high",
+      "worker": "W04",
+      "source_local_id": "W04S027",
+      "file": "workers/W04/reading_coverage.json",
+      "issue": "Prop6 is physical18/printed52, h uses strictpi(S)<1/2. Coverage§3 currently19–23 excludes statement and says strongerh²bound proved.",
+      "required_fix": "Correct locators toProp6physical18; §3pp18–24. Mark stronger statement refuted by admissible counterexample and only weakh²/2 proof used. Source has no lazy/positive-spectrum assumption. Proposition1 statement is physicalp3/printed37; physicalp4/printed38 is its proof."
+    },
+    {
+      "priority": "high",
+      "worker": "W04",
+      "source_local_id": "W04S028",
+      "file": "workers/W04/cards/W04S028.md",
+      "issue": "Source is continuous time. beta is relaxation time in exp(-t/beta), not exponential rate. Prop8 is beta<=tau1<=beta(1+0.5log(1/pimin)); card inverts beta and omits0.5.",
+      "required_fix": "Define continuous-time kernelPt=e^(tQ), beta=1/gap(-Q); copy exact Prop8. If using ratealpha=1/beta define new symbol and rewrite bounds explicitly. Correct printed/physical locator to566/p3."
+    },
+    {
+      "priority": "medium",
+      "worker": "W04",
+      "source_local_id": "W04S030",
+      "file": "workers/W04/cards/W04S030.md",
+      "issue": "Spectral enclosure sigma(P) omits restriction toL²0(pi); full Markov operator has eigenvalue1 and cannot satisfy printed interval.",
+      "required_fix": "Write sigma(P restricted toL²0(pi)), or centered operatorP-Pi. Note source shorthand; keep constant eigenspace separate."
+    },
+    {
+      "priority": "low",
+      "worker": "W04",
+      "source_local_id": "W04S031",
+      "file": "workers/W04/cards/W04S031.md",
+      "issue": "Theorem1 physical locator wrong.",
+      "required_fix": "Both Theorems1/2 appear on physicalp5/printed93; p4 defines flow/congestion."
+    }
+  ],
+  "limitations": [
+    "W03 approval only for exact W03-final-file-hashes.json; any changedboundfile requires recheck.",
+    "W03 externalproof details remain unverified where explicitly noted, especiallyP027[22]/P028[18]; readingquota does not certify excluded sourceclaims.",
+    "W04/W21 independent outstanding reviews remain; overallreview_completefalse."
+  ],
+  "review_complete": false,
+  "batch": "W03 final30content/evidence approval; W04/W21 stillseparatepending"
+}

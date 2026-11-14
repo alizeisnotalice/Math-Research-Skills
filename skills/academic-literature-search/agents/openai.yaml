@@ -1,0 +1,6 @@
+interface:
+  display_name: "学术文献检索"
+  short_description: "检索与核验中英文学术文章，提供相关性说明、可追溯记录和引用文件"
+  default_prompt: "请使用 $academic-literature-search 检索与我的研究主题相关的中英文论文，筛选并核验题录，提供中文推荐清单、BibTeX 和检索记录。"
+policy:
+  allow_implicit_invocation: true

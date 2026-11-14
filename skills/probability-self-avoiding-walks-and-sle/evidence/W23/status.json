@@ -1,0 +1,34 @@
+{
+  "worker": "W23",
+  "skill": "probability-self-avoiding-walks-and-sle",
+  "stage_status": "portable_first_publication_candidate_pending_R07_stage_review",
+  "scope_review": {
+    "reviewer": "R03",
+    "decision": "passed",
+    "publication_approved": true,
+    "review_sha256": "4bb0b3072265913799af8d4420c0a6c8b1d282043539cc66325449fdd1c300fb"
+  },
+  "quota_accounting": {
+    "accepted_distinct_works": 30,
+    "qualifying_fulltext_reads": 28,
+    "canonical_usage_credits": 2,
+    "whole_monographs_read": 0,
+    "proceedings_chapter_contributions_read": 1,
+    "W23S006": "Complete 73-page separately authored Clay Mathematics Proceedings 15 contribution; not a whole-book read."
+  },
+  "canonical_usage_ids": [
+    "W23S004",
+    "W23S005"
+  ],
+  "publisher": "No W23 publisher script has been assigned; publisher path/hash are intentionally absent.",
+  "publication_performed": false,
+  "installation_performed": false,
+  "interfaces_and_limits": [
+    "C107: no proof of tightness for the fixed-lattice SAW curve, discrete domain-Markov/conditioning interface, curve-topology convergence, or SLE(8/3) identification.",
+    "C108: Lacoin proves a deterministic root-independent limsup rate and a strict planar quenched/annealed gap; the almost-sure full nth-root limit and root independence for that limit remain unproved/conjectural in the cited source."
+  ],
+  "runtime_ledgers": {
+    "sources": "evidence/W23/sources.json",
+    "reading_coverage": "evidence/W23/reading_coverage.json"
+  }
+}

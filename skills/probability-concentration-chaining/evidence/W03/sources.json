@@ -1,0 +1,4091 @@
+[
+  {
+    "local_id": "P001",
+    "title": "User-Friendly Tail Bounds for Sums of Random Matrices",
+    "authors": [
+      "Joel A. Tropp"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1007/s10208-011-9099-z",
+    "url": "https://arxiv.org/abs/1004.4389",
+    "alternate_urls": [],
+    "version": "v7",
+    "reason": "Matrix Chernoff/Hoeffding/Bernstein; complete first paper read.",
+    "topics": [
+      "C120"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and 32-page PDF title verified",
+    "local_pdf": "evidence/fulltexts/P001.pdf",
+    "sha256": "0536851fddb683a2c46da844e2e75c9f1a343320b43366683baa5916c60efba5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 32,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and roadmap",
+        "physical_pdf_pages": [
+          1,
+          7
+        ],
+        "summary": "Introduces matrix-sum tail problem, indexes inequalities, surveys related methods, and previews the Laplace-transform route.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Algebra, analysis, and probability with matrices",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "summary": "Sets matrix order, probability conventions, exponentials/logarithms, dilation, and expectation conventions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Tail bounds via the Laplace transform method",
+        "physical_pdf_pages": [
+          9,
+          14
+        ],
+        "summary": "Builds matrix mgf/cgf bounds using Lieb concavity and derives independent-sum master tails.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Case study: matrix Gaussian series",
+        "physical_pdf_pages": [
+          14,
+          20
+        ],
+        "summary": "Proves Gaussian/Rademacher series tails and discusses expectation and dimension factors.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Sums of random positive-semidefinite matrices",
+        "physical_pdf_pages": [
+          20,
+          23
+        ],
+        "summary": "States and proves matrix Chernoff bounds for independent PSD summands.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Matrix Bennett and Bernstein inequalities",
+        "physical_pdf_pages": [
+          23,
+          27
+        ],
+        "summary": "Derives bounded and subexponential matrix Bennett/Bernstein inequalities.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Matrix Hoeffding, Azuma, and McDiarmid inequalities",
+        "physical_pdf_pages": [
+          27,
+          30
+        ],
+        "summary": "Treats matrix martingales, bounded increments, and bounded differences.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          31,
+          32
+        ],
+        "summary": "End matter and cited sources.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P002",
+    "title": "Tail Bounds via Generic Chaining",
+    "authors": [
+      "Sjoerd Dirksen"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1309.3522",
+    "alternate_urls": [],
+    "version": "v2",
+    "reason": "Generic chaining moment/tail bounds, mixed-tail empirical-process and chaos applications; full 27-page paper read.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P002.pdf",
+    "sha256": "9ecc39a3d40ae7fe18fca07a7ab9b891bb200bf446fb71ca497a409d65e25795",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 27,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Motivates generic chaining and summarizes tail-bound contributions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Preliminaries",
+        "physical_pdf_pages": [
+          3,
+          3
+        ],
+        "summary": "Defines admissible nets, gamma functionals, and process-tail conditions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Suprema of ψα and mixed-tail processes",
+        "physical_pdf_pages": [
+          4,
+          8
+        ],
+        "summary": "Proves moment/tail bounds through scale-by-scale chaining, including the mixed-tail theorem.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Restricted isometry constants of subsampled unitary matrices",
+        "physical_pdf_pages": [
+          8,
+          11
+        ],
+        "summary": "Applies chaining to random matrix restricted isometry estimates.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Supremum of an empirical process",
+        "physical_pdf_pages": [
+          12,
+          18
+        ],
+        "summary": "Bounds suprema of empirical averages and squared averages under stated envelope and metric assumptions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Supremum of a second-order chaos process",
+        "physical_pdf_pages": [
+          19,
+          22
+        ],
+        "summary": "Derives chaining bounds for second-order chaos and random matrix classes.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A",
+        "physical_pdf_pages": [
+          23,
+          25
+        ],
+        "summary": "Collects supporting technical estimates.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          26,
+          27
+        ],
+        "summary": "Bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P003",
+    "title": "Some Hoeffding- and Bernstein-type Concentration Inequalities",
+    "authors": [
+      "Andreas Maurer",
+      "Massimiliano Pontil"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2102.06304",
+    "alternate_urls": [],
+    "version": "v4",
+    "reason": "Entropy-method Hoeffding/Bernstein concentration for functions of independent inputs; full 15-page paper read.",
+    "topics": [
+      "A018",
+      "A019"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified; last-page extraction ends mid-proof",
+    "local_pdf": "evidence/fulltexts/P003.pdf",
+    "sha256": "0ffaa6bbd1b43f47f0b4dc3fa9115d42e0c4ec830bd9e1acd23231062e85e334",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 15,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Positions Hoeffding/Bernstein inequalities for functions of independent variables.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Notation and conventions",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "summary": "Defines coordinate-replacement differences and Orlicz/moment notation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Results",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "States the principal concentration inequalities.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Applications",
+        "physical_pdf_pages": [
+          4,
+          8
+        ],
+        "summary": "Develops sub-exponential, vector-valued, PSA, Rademacher-complexity, and stability applications.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proofs of Theorems 3.1 and 3.2",
+        "physical_pdf_pages": [
+          8,
+          11
+        ],
+        "summary": "Uses tensorization/entropy and conditional replacement controls.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Conclusion and references",
+        "physical_pdf_pages": [
+          11,
+          11
+        ],
+        "summary": "Summarizes scope and lists references.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Appendix",
+        "physical_pdf_pages": [
+          12,
+          15
+        ],
+        "summary": "Completes proofs for Sections 3 and 4.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P004",
+    "title": "Time-uniform Chernoff bounds via nonnegative supermartingales",
+    "authors": [
+      "Steven R. Howard",
+      "Aaditya Ramdas",
+      "Jon McAuliffe",
+      "Jasjeet Sekhon"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1214/18-PS321",
+    "url": "https://arxiv.org/abs/1808.03204",
+    "alternate_urls": [],
+    "version": "v8",
+    "reason": "Time-uniform Chernoff/line-crossing bounds from nonnegative supermartingale domination; full 63-page paper read.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv v8 front page and PDF title verified; volume fields remain placeholders",
+    "local_pdf": "evidence/fulltexts/P004.pdf",
+    "sha256": "7d0a6788b11fe9bbcc36ae19b0c7c18cf39d9e12ab82c6cce59834244efa7cd2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 63,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          2,
+          8
+        ],
+        "summary": "Motivates time-uniform Chernoff bounds and gives paper organization/context.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Main results",
+        "physical_pdf_pages": [
+          9,
+          20
+        ],
+        "summary": "Defines sub-ψ processes and proves the master line-crossing theorem with its interpretations and examples.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Sufficient conditions for sub-ψ processes",
+        "physical_pdf_pages": [
+          21,
+          29
+        ],
+        "summary": "Lists standard ψ families and verifies process conditions from increments/filtrations.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Applications of Theorem 1",
+        "physical_pdf_pages": [
+          30,
+          40
+        ],
+        "summary": "Derives fixed-time, line-crossing, self-normalized, Banach-space, continuous-time, and sequential-testing applications.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Discussion and extensions",
+        "physical_pdf_pages": [
+          41,
+          44
+        ],
+        "summary": "Discusses sharpness and future extensions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Proofs",
+        "physical_pdf_pages": [
+          45,
+          55
+        ],
+        "summary": "Supplies proofs of the master theorem and auxiliary results/corollaries.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Acknowledgments and references",
+        "physical_pdf_pages": [
+          55,
+          59
+        ],
+        "summary": "End matter and bibliography before the appendices.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A: Sharpened pre-factors based on rank",
+        "physical_pdf_pages": [
+          60,
+          60
+        ],
+        "summary": "Improves prefactors when the relevant matrix range lies in a lower-dimensional subspace.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix B: Relation to the Dubins–Savage inequality",
+        "physical_pdf_pages": [
+          60,
+          61
+        ],
+        "summary": "Compares a time-uniform martingale crossing bound with fixed-time Chebyshev/Cramér–Chernoff bounds.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix C: Graphical comparison of ψ functions",
+        "physical_pdf_pages": [
+          61,
+          61
+        ],
+        "summary": "Plots and compares standard ψ functions under matched variance processes.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix D: A more general boundary-crossing result",
+        "physical_pdf_pages": [
+          61,
+          62
+        ],
+        "summary": "States a time-varying transform condition and resulting boundary-crossing inequalities.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix E: Equivalent sub-exponential conditions",
+        "physical_pdf_pages": [
+          62,
+          63
+        ],
+        "summary": "Shows equivalence of two one-sided sub-exponential mgf conditions.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P005",
+    "title": "Improved Hoeffding’s Lemma and Hoeffding’s Tail Bounds",
+    "authors": [
+      "David Hertz"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://ccsenet.org/journal/index.php/ijsp/article/view/0/45793",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2012.03535"
+    ],
+    "version": null,
+    "reason": "Full-text read: left-skew improvement to scalar Hoeffding MGF and independent one-/two-sided bounds; journal fields on PDF are placeholders.",
+    "topics": [],
+    "metadata_status": "arXiv identifier/date verified from PDF first page; displayed IEEE bibliographic fields are placeholders",
+    "identity_status": "PDF title and arXiv:2012.03535v1 verified; IEEE volume/issue/month fields are placeholders and publication metadata is unresolved",
+    "local_pdf": "evidence/fulltexts/P005.pdf",
+    "sha256": "14bb456bd53bdaeba4ffa0c13b02b33c140296598e9fbece37b20fed15e1f522",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 3,
+    "section_coverage": [
+      {
+        "section": "Abstract and §I Introduction",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "States the left-skew-only MGF improvement and the independent-sum program.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§II Proof of improved lemma",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Uses the chord bound and Taylor expansion; maximizes τ(1−τ) on its parameter interval.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§III Improved one-sided tail bound",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "summary": "Splits intervals by skew and optimizes the resulting Chernoff exponent.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§IV Improved two-sided bound",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "summary": "Applies the bound to −S_n and uses the complementary quadratic proxy.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§V Conclusion and references",
+        "physical_pdf_pages": [
+          3,
+          3
+        ],
+        "summary": "Restates the skew restriction and lists references.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P006",
+    "title": "Uniform Chernoff and Dvoretzky-Kiefer-Wolfowitz-type inequalities for Markov chains and related processes",
+    "authors": [
+      "Aryeh Kontorovich",
+      "Roi Weiss"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1207.4678",
+    "alternate_urls": [],
+    "version": "v2",
+    "reason": "Full-text read: geometric-ergodic Markov/HMM concentration, DKW-type histogram bound and uniform occupation Chernoff bound.",
+    "topics": [],
+    "metadata_status": "title/authors/arXiv version verified from PDF first page; date discrepancy retained for review",
+    "identity_status": "arXiv ID/version and title verified on first page; PDF date line differs from author-line date",
+    "local_pdf": "evidence/fulltexts/P006.pdf",
+    "sha256": "89977bf85e2353ed510443f8f9bcf4490ee33dba032b8bc82621f91d2473a1af",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 16,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and results",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "summary": "Defines η-mixing and geometric ergodicity; states concentration, histogram and uniform-occupation bounds.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.1 Preliminaries",
+        "physical_pdf_pages": [
+          5,
+          7
+        ],
+        "summary": "Defines Markov/HMM laws, emission mechanism, stationary distributions and associated notions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.2 Markov contraction",
+        "physical_pdf_pages": [
+          7,
+          8
+        ],
+        "summary": "Relates inverse mixing time and transition contraction.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.3 Proof of main inequality",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Bounds η-mixing coefficients by geometric ergodicity and applies the Lipschitz concentration inequality.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.4 Proof of DKW-type inequality",
+        "physical_pdf_pages": [
+          9,
+          12
+        ],
+        "summary": "Bounds expected histogram error using coordinate covariance sums, then concentrates the Hamming-Lipschitz statistic.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.5 Proof of uniform Chernoff bound",
+        "physical_pdf_pages": [
+          12,
+          13
+        ],
+        "summary": "Splits frequent/rare atoms in the expected total-variation error and applies Theorem 1.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.6 Stationarity assumption",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "summary": "Uses path-law total variation and burn-in to handle a nonstationary initial law.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.7 Auxiliary lemma",
+        "physical_pdf_pages": [
+          14,
+          14
+        ],
+        "summary": "Checks Hamming-Lipschitz constants for the empirical maps.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          15,
+          16
+        ],
+        "summary": "Full bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P007",
+    "title": "Hoeffding and Bernstein inequalities for weighted sums of exchangeable random variables",
+    "authors": [
+      "Rina Foygel Barber"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2404.06457",
+    "alternate_urls": [],
+    "version": "v3",
+    "reason": "Full-text read: weighted Hoeffding and Bernstein bounds for bounded exchangeable samples; current local version is arXiv v3.",
+    "topics": [
+      "A018",
+      "A019"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P007.pdf",
+    "sha256": "a5bd3fb7ca76dca7c41ed709b059a27b966258263dffbe348c54c9b6227e9d85",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 16,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Motivates finite exchangeable weighted sums, iid recovery and permutation-invariant weights.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Background",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Reviews iid Hoeffding/Bernstein bounds, sampling without replacement and exchangeable counterexamples.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.1–3.2 Main exchangeable results",
+        "physical_pdf_pages": [
+          5,
+          5
+        ],
+        "summary": "Defines the finite-population correction and states Theorems 4–6.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.3 From exchangeable to iid",
+        "physical_pdf_pages": [
+          6,
+          6
+        ],
+        "summary": "Recovers iid inequalities by strong-law convergence and dominated convergence.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Related work",
+        "physical_pdf_pages": [
+          6,
+          10
+        ],
+        "summary": "Compares weighted, finite-population and time-uniform results.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A",
+        "physical_pdf_pages": [
+          10,
+          12
+        ],
+        "summary": "Proves Theorem 4 using a martingale MGF and permutation averaging of a quadratic form.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix B",
+        "physical_pdf_pages": [
+          12,
+          13
+        ],
+        "summary": "Proves the nonnegative-weight refinement by ordering weights and controlling the quadratic form.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix C",
+        "physical_pdf_pages": [
+          13,
+          15
+        ],
+        "summary": "Proves the Bernstein MGF and its exchangeable random-variance tail consequence.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          15,
+          16
+        ],
+        "summary": "Full bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P008",
+    "title": "Concentration bounds for sampling without replacement and Hoeffding statistics",
+    "authors": [
+      "Bartłomiej Polaczyk"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2301.03096",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Full-text read: Bennett-type concentration for no-replacement empirical suprema and permutation Hoeffding statistics; printed proof-line mismatch recorded in card.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P008.pdf",
+    "sha256": "f5c10b75dd7310bbf4a4607870097d1f593fa18dcd9080f5edf9395e8f841a41",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 12,
+    "section_coverage": [
+      {
+        "section": "§1 Preliminaries",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Introduces the interchange process, generator, Dirichlet form and modified log-Sobolev constant.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Sampling without replacement",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "summary": "Defines the empirical supremum and replacement proxies; proves the Bennett bound and compares prior estimates.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Single Hoeffding statistic",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "summary": "States and proves bounds for random-permutation linear statistics, including a nonnegative-coefficient case.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Supremum of Hoeffding statistics",
+        "physical_pdf_pages": [
+          6,
+          8
+        ],
+        "summary": "Extends the modified log-Sobolev argument to a family of permutation statistics.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A",
+        "physical_pdf_pages": [
+          9,
+          9
+        ],
+        "summary": "Proves the convex-order comparison for sampling with/without replacement.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix B",
+        "physical_pdf_pages": [
+          9,
+          10
+        ],
+        "summary": "Proves the Ledoux MGF estimate used in the Bennett argument.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix C",
+        "physical_pdf_pages": [
+          10,
+          11
+        ],
+        "summary": "Gives Herbst argument variants and analytic estimates.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix D",
+        "physical_pdf_pages": [
+          12,
+          12
+        ],
+        "summary": "Gives a comparison example for the empirical-process bound.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "End matter and bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P009",
+    "title": "Four Talagrand inequalities under the same umbrella",
+    "authors": [
+      "Michel Ledoux"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1909.00363",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Full-text read: entropy-method proofs of convex-distance, L1-L2 variance, Gaussian T2 and empirical-process Talagrand inequalities.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P009.pdf",
+    "sha256": "b7ea4e1f39a3af1b45395996e93fddd717c43abcd4fb39095eedb4922a771914",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 35,
+    "section_coverage": [
+      {
+        "section": "§1 Four statements and setup",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "States the four Talagrand inequalities and attributes the results.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Introduction",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "summary": "Explains the common entropy-method viewpoint and gives the proof roadmap.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Entropy, log-Sobolev and hypercontractivity",
+        "physical_pdf_pages": [
+          5,
+          14
+        ],
+        "summary": "Develops entropy duality/tensorization, cube semigroup tools, hypercontractivity and Gaussian LSI.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Convex-distance inequality",
+        "physical_pdf_pages": [
+          14,
+          19
+        ],
+        "summary": "Identifies the convex-distance supremum and proves the exponential-integrability bound using both Herbst branches.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 L1–L2 variance inequality",
+        "physical_pdf_pages": [
+          19,
+          22
+        ],
+        "summary": "Uses semigroup variance representation, Poincaré decay and hypercontractivity to derive the coordinate-gradient inequality.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Quadratic transport inequality",
+        "physical_pdf_pages": [
+          22,
+          24
+        ],
+        "summary": "Combines Kantorovich duality, Hopf–Lax evolution and Gaussian LSI to obtain T2.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Empirical-process supremum",
+        "physical_pdf_pages": [
+          24,
+          29
+        ],
+        "summary": "Proves Poisson tails for nonnegative classes and a Bennett-style tail for bounded signed classes by entropy and truncation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          30,
+          35
+        ],
+        "summary": "Full bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P010",
+    "title": "Concentration of Measure without Independence: a Unified Approach via the Martingale Method",
+    "authors": [
+      "Aryeh Kontorovich",
+      "Maxim Raginsky"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1602.00721",
+    "alternate_urls": [],
+    "version": "v3",
+    "reason": "Concentration of Measure without Independence: a Unified Approach via the Martingale Method; full text read with theorem/assumption/proof coverage recorded; independent review pending.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P010.pdf",
+    "sha256": "23069a4d6dfcc309d36e04b04ce6a5f537ee891d3a3822a0592ec2f58c1214e4",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 27,
+    "section_coverage": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Scope, related work, Wasserstein-matrix program and chapter roadmap.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.1–2.4 Metric/product spaces, couplings, kernels and Wasserstein matrices",
+        "physical_pdf_pages": [
+          3,
+          8
+        ],
+        "summary": "Coordinate metrics, oscillations, contractions, kernels and Wasserstein-matrix definitions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.5 Relative entropy; §3 concentration and product case",
+        "physical_pdf_pages": [
+          8,
+          11
+        ],
+        "summary": "Pinsker, transport-information equivalence, Herbst argument and independent tensorization.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4.1–4.2 Abstract martingale method and bounded-metric theorem",
+        "physical_pdf_pages": [
+          12,
+          14
+        ],
+        "summary": "Coordinate-reveal kernels, martingale differences, Theorem 4.2 and its Azuma proof.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4.3–4.4 Transport-information and block-filtration variants",
+        "physical_pdf_pages": [
+          14,
+          17
+        ],
+        "summary": "Conditional transport bounds, sub-Gaussian tensorization and block reveal theorem.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5.1 Dobrushin uniqueness",
+        "physical_pdf_pages": [
+          17,
+          20
+        ],
+        "summary": "Dobrushin comparison and inverse-influence matrix.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5.2 Coupling method and Markov/Gibbs examples",
+        "physical_pdf_pages": [
+          20,
+          23
+        ],
+        "summary": "Conditional couplings, maximal coupling, Markov contraction and Gibbs example.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Open questions",
+        "physical_pdf_pages": [
+          24,
+          25
+        ],
+        "summary": "Approximate entropy tensorization, general matrices and exchangeable-pairs directions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          26,
+          27
+        ],
+        "summary": "Acknowledgments and complete bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P011",
+    "title": "On the Tightness of Gaussian Concentration for Convex Functions",
+    "authors": [
+      "Petros Valettas"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1706.09446",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "On the Tightness of Gaussian Concentration for Convex Functions; full text read with theorem/assumption/proof coverage recorded; independent review pending.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P011.pdf",
+    "sha256": "91917be58249a2644201e99dfcb415e8041896b8a1b5b02057f3c573fdf54976",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 14,
+    "section_coverage": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Gaussian isoperimetry, convex examples, over-/super-concentration parameters and Theorem 1.1.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Proof of the main result",
+        "physical_pdf_pages": [
+          4,
+          8
+        ],
+        "summary": "Ehrhard rearrangement, Talagrand/Bobkov–Houdré estimates, Lemma 2.5, Proposition 2.6, Corollary 2.7, Theorem 2.8 and Corollary 2.9 with proof.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.1.1 Skewness of convex Gaussian functions",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Proposition 2.12 and rearrangement-profile proof.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.1.2 Small-deviation inequality",
+        "physical_pdf_pages": [
+          9,
+          9
+        ],
+        "summary": "Theorem 2.13, proof and nonconvex counterexample 2.14.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.1.3 Chi-square applications",
+        "physical_pdf_pages": [
+          9,
+          10
+        ],
+        "summary": "Proposition 2.15 and Corollary 2.16.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.1 Tilted norms and concentration instability",
+        "physical_pdf_pages": [
+          10,
+          11
+        ],
+        "summary": "Theorem 3.1, tilted norm, Lemma 3.2 and Proposition 3.3.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.2 Random almost-spherical sections",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "summary": "Dvoretzky background, Theorem 3.5, proof and Lemma 3.6.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "summary": "Acknowledgments and complete bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P012",
+    "title": "Anti-concentration and honest, adaptive confidence bands",
+    "authors": [
+      "Victor Chernozhukov",
+      "Denis Chetverikov",
+      "Kengo Kato"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1214/14-AOS1235",
+    "url": "https://arxiv.org/abs/1303.7152",
+    "alternate_urls": [],
+    "version": "v4",
+    "reason": "Gaussian anti-concentration and honest adaptive confidence bands; full 34-page paper read.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv and DOI shown on first page; PDF identity verified",
+    "local_pdf": "evidence/fulltexts/P012.pdf",
+    "sha256": "d05115882f3cf9894b7ca992941a45d36e42d67d49e94e2e9bbc530a69aec6a7",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 34,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction, related references, organization, and notation",
+        "physical_pdf_pages": [
+          1,
+          6
+        ],
+        "summary": "Sets up Gaussian anti-concentration and generalized-SBR motivation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Anti-concentration of suprema of Gaussian processes",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "summary": "States the unit-variance separable Gaussian supremum Levy concentration bound.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Generic construction of honest confidence bands",
+        "physical_pdf_pages": [
+          7,
+          17
+        ],
+        "summary": "Gives the generic coverage theorem and verifies coupling, variance, critical-value, and multiplier-bootstrap conditions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Honest and adaptive confidence bands in Hölder classes",
+        "physical_pdf_pages": [
+          17,
+          23
+        ],
+        "summary": "Applies the generic theorem to adaptive band construction under the stated regularity conditions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A: Coupling inequalities",
+        "physical_pdf_pages": [
+          23,
+          25
+        ],
+        "summary": "States Slepian–Stein couplings for empirical and conditional multiplier process suprema.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix B: Technical tools",
+        "physical_pdf_pages": [
+          25,
+          26
+        ],
+        "summary": "Collects lemmas and maximal inequalities used in the proofs.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix C: Proofs for Section 2",
+        "physical_pdf_pages": [
+          26,
+          27
+        ],
+        "summary": "Proves the Gaussian anti-concentration theorem.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix D: Proofs for Section 3",
+        "physical_pdf_pages": [
+          27,
+          31
+        ],
+        "summary": "Proves the generic confidence-band theorem and its construction-specific results.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          31,
+          34
+        ],
+        "summary": "End matter and bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P013",
+    "title": "The Tight Constant in the Dvoretzky-Kiefer-Wolfowitz Inequality",
+    "authors": [
+      "Pascal Massart"
+    ],
+    "year": 1990,
+    "kind": "paper",
+    "doi": "10.1214/aop/1176990746",
+    "url": "https://doi.org/10.1214/aop/1176990746",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Classic sharp DKW inequality; DOI record retained, Project Euclid PDF request returned HTTP 403.",
+    "topics": [
+      "A001"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "DOI/title metadata recorded; no local full text",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_acquired",
+    "read_pages": [],
+    "review_status": "pending",
+    "fulltext_status": "not_acquired",
+    "pdf_page_count": null,
+    "retrieval_failure": "Project Euclid PDF request returned HTTP 403; no local PDF; not counted as acquired."
+  },
+  {
+    "local_id": "P014",
+    "title": "Concentration Inequalities Using the Entropy Method",
+    "authors": [
+      "Stéphane Boucheron",
+      "Gábor Lugosi",
+      "Pascal Massart"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1214/aop/1055425791",
+    "url": "https://doi.org/10.1214/aop/1055425791",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Entropy method and concentration for independent sums; DOI record retained, Project Euclid PDF request returned HTTP 403.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "DOI/title metadata recorded; no local full text",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_acquired",
+    "read_pages": [],
+    "review_status": "pending",
+    "fulltext_status": "not_acquired",
+    "pdf_page_count": null,
+    "retrieval_failure": "Project Euclid PDF request returned HTTP 403; no local PDF; not counted as acquired."
+  },
+  {
+    "local_id": "P015",
+    "title": "Majorizing Measures: The Generic Chaining",
+    "authors": [
+      "Michel Talagrand"
+    ],
+    "year": 1996,
+    "kind": "paper",
+    "doi": "10.1214/aop/1065725175",
+    "url": "https://doi.org/10.1214/aop/1065725175",
+    "alternate_urls": [
+      "https://michel.talagrand.net/preprints/"
+    ],
+    "version": "author-hosted DVI, locally converted to PDF",
+    "reason": "Complete 69-page author-hosted DVI conversion read; card P015 records the source-version caveat and the §5 cross-reference caveat: use the canonical Gaussian metric from Eq. (1.2), not an arbitrary metric satisfying increment condition (1.1), for the two-sided bound.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "Converted 69-page PDF title page verified; source DVI also retained; author-hosted preprint may differ from journal publication",
+    "local_pdf": "evidence/fulltexts/P015.pdf",
+    "sha256": "2602e6e39b9a70096db7e74b21aab8ec1ef8d7a68cba9ff8f12c37a53001b0ae",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 69,
+    "local_source_artifacts": [
+      "evidence/W03/papers/W03-P015_talagrand-1996.dvi"
+    ],
+    "section_coverage": [
+      {
+        "section": "Abstract and contents",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Scope and nine-section roadmap; title and author identity.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "General increment-tail condition, canonical Gaussian metric in Eq. (1.2), and motivation for majorizing measures.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Generic chaining",
+        "physical_pdf_pages": [
+          5,
+          15
+        ],
+        "summary": "Admissible approximations, scale-wise increment control, probability weights, Proposition 2.4 and Theorem 2.5.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 A first look at ellipsoids",
+        "physical_pdf_pages": [
+          16,
+          21
+        ],
+        "summary": "Entropy versus majorizing measures and ellipsoid examples.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 The Partition Scheme",
+        "physical_pdf_pages": [
+          21,
+          29
+        ],
+        "summary": "Partition construction and measure conversion later used in Gaussian lower bounds.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Gaussian processes",
+        "physical_pdf_pages": [
+          29,
+          31
+        ],
+        "summary": "Theorem 5.1, Sudakov minoration, Gaussian concentration, cluster comparison and proof dependencies; §5 references distance (1.1), while safe Gaussian use takes the canonical metric from Eq. (1.2), p. 3.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 The Ellipsoids Theorem and matchings",
+        "physical_pdf_pages": [
+          32,
+          42
+        ],
+        "summary": "2-convexity, ellipsoid geometry, matching construction and empirical-process application.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Restriction of operators",
+        "physical_pdf_pages": [
+          43,
+          55
+        ],
+        "summary": "Operator restriction inequalities and Banach-space applications.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§8 Convex hull and open problems",
+        "physical_pdf_pages": [
+          55,
+          61
+        ],
+        "summary": "Convex hull estimates and open questions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§9 Families of distances",
+        "physical_pdf_pages": [
+          62,
+          67
+        ],
+        "summary": "Extension to multiple distance structures; Theorem 9.3.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          68,
+          69
+        ],
+        "summary": "Complete bibliography.",
+        "coverage_status": "read"
+      }
+    ],
+    "card_path": "evidence/W03/cards/P015.md"
+  },
+  {
+    "local_id": "P016",
+    "title": "Large Deviations",
+    "authors": [
+      "S. R. S. Varadhan"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1214/07-AOP348",
+    "url": "https://arxiv.org/abs/0804.2330",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Full-text read of the 24-page Varadhan large-deviations survey; first page states the electronic reprint differs from the original in pagination and typographic detail, so cited pages are physical PDF pages.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv and DOI shown on first page; PDF identity verified",
+    "local_pdf": "evidence/fulltexts/P016.pdf",
+    "sha256": "5b985803a88a065414bf7cdf7e042cf01f3c13046081f73aa30539451ca09b3b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 24,
+    "section_coverage": [
+      {
+        "section": "§1 Large deviations for sums",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Motivates exponential scales with sums and empirical frequencies, defines Polish-space LDP bounds and introduces Sanov entropy.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Rate functions, duality, and generating functions",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "States Cramér’s Legendre rate and the Laplace/entropy variational duality.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Markov processes",
+        "physical_pdf_pages": [
+          5,
+          7
+        ],
+        "summary": "Relates empirical-measure rates to principal eigenvalues and entropy minimization.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Small random perturbations and the exit problem",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "summary": "Gives Brownian path action and small-noise ODE examples with entropy-cost interpretation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Gibbs measures and statistical mechanics",
+        "physical_pdf_pages": [
+          9,
+          10
+        ],
+        "summary": "States the free-energy variational principle in terms of specific relative entropy.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Interacting particle systems",
+        "physical_pdf_pages": [
+          10,
+          11
+        ],
+        "summary": "Introduces exclusion dynamics and hydrodynamic-scale behavior.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Superexponential estimates",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "summary": "Explains exponential equivalence of local and mesoscopic averages and the entropy inequality.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§8 Hydrodynamical limits",
+        "physical_pdf_pages": [
+          13,
+          15
+        ],
+        "summary": "Derives heat-equation scaling and local-equilibrium replacement for a weakly biased exclusion model.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§9 Large deviations in hydrodynamical limits",
+        "physical_pdf_pages": [
+          15,
+          16
+        ],
+        "summary": "Describes profile-level rate costs for atypical hydrodynamic trajectories.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§10 Large deviations for random walks in random environments",
+        "physical_pdf_pages": [
+          16,
+          20
+        ],
+        "summary": "Distinguishes quenched/annealed rates and gives entropy and convex-duality formulations.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§11 Homogenization of Hamilton–Jacobi–Bellman equations",
+        "physical_pdf_pages": [
+          21,
+          22
+        ],
+        "summary": "Connects stochastic homogenization and convex dual control representations.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§12 History and references",
+        "physical_pdf_pages": [
+          22,
+          24
+        ],
+        "summary": "Gives historical context and bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P018",
+    "title": "Gaussian Approximation of Suprema of Empirical Processes",
+    "authors": [
+      "Victor Chernozhukov",
+      "Denis Chetverikov",
+      "Kengo Kato"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1212.6885",
+    "alternate_urls": [],
+    "version": "v6",
+    "reason": "Gaussian coupling of empirical-process suprema, including non-Donsker local and series applications; full 53-page PDF read.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P018.pdf",
+    "sha256": "52fde473d714f0b2d62e5c9a4ce9e7a4d6b84c9128029bf8387c8570c4c55dc1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 53,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and notation",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "summary": "Introduces Gaussian approximation for empirical-process suprema and records the setup.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Abstract approximation theorem",
+        "physical_pdf_pages": [
+          6,
+          11
+        ],
+        "summary": "States the main coupling theorem, assumptions, rate terms, and VC-type corollary.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Applications",
+        "physical_pdf_pages": [
+          12,
+          19
+        ],
+        "summary": "Treats local/kernel and series empirical-process suprema.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Coupling inequality for maxima of sums of random vectors",
+        "physical_pdf_pages": [
+          20,
+          28
+        ],
+        "summary": "Develops the finite-dimensional Gaussian coupling used by the main theorem.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Inequalities for empirical processes",
+        "physical_pdf_pages": [
+          29,
+          30
+        ],
+        "summary": "Collects deviation and maximal inequalities.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Proof of Theorem 2.1",
+        "physical_pdf_pages": [
+          31,
+          33
+        ],
+        "summary": "Combines finite-net coupling with local process control to establish the abstract theorem.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          33,
+          36
+        ],
+        "summary": "End matter and bibliography.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A",
+        "physical_pdf_pages": [
+          37,
+          48
+        ],
+        "summary": "Additional proofs and empirical-process inequalities.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix B",
+        "physical_pdf_pages": [
+          49,
+          50
+        ],
+        "summary": "Motivating examples for series empirical processes.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix C",
+        "physical_pdf_pages": [
+          51,
+          53
+        ],
+        "summary": "Almost-sure bounds from probability bounds.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P019",
+    "title": "Sharp Anti-Concentration Inequalities for Extremum Statistics via Copulas",
+    "authors": [
+      "Matias D. Cattaneo",
+      "Ricardo P. Masini",
+      "William G. Underwood"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2502.07699",
+    "alternate_urls": [],
+    "version": "v2",
+    "reason": "Full-text read of the 25-page copula anti-concentration paper.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P019.pdf",
+    "sha256": "2613283e8195a4db872c3f47d987db4141a995614a287f4342077096a4fb5c70",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 25,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction, notation, and preliminaries",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "summary": "Sets up pointwise concentration of maxima with common marginals and the copula-diagonal representation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Anti-concentration inequalities for arbitrary copulas",
+        "physical_pdf_pages": [
+          5,
+          9
+        ],
+        "summary": "Proves sharp pointwise upper/lower extrema using copula diagonal constraints and explicit extremizers.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Anti-concentration inequalities for diagonally convex copulas",
+        "physical_pdf_pages": [
+          9,
+          12
+        ],
+        "summary": "Introduces the convex-diagonal assumption, proves the sharper maximum bound, and verifies Gaussian/Archimedean examples.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Application to high-dimensional statistical inference",
+        "physical_pdf_pages": [
+          12,
+          15
+        ],
+        "summary": "Applies copula bounds to Gaussian-mixture and chi-square approximations.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proofs",
+        "physical_pdf_pages": [
+          15,
+          21
+        ],
+        "summary": "Proves the sharp bounds, Gaussian diagonal convexity, generator criterion, and marginal-distribution examples.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Conclusion and §7 acknowledgments",
+        "physical_pdf_pages": [
+          21,
+          22
+        ],
+        "summary": "Summarizes scope and acknowledgments.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          22,
+          25
+        ],
+        "summary": "Bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P020",
+    "title": "Anti-concentration of Suprema of Gaussian Processes and Gaussian Order Statistics",
+    "authors": [
+      "Alexander Giessing"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2310.12119",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Full-text read of the 26-page Gaussian-suprema anti-concentration paper.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P020.pdf",
+    "sha256": "7c5071d32603e0f2a7822f361846f51f7780f41535bf903681e4f3ec46052701",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "review_status": "pending",
+    "mathematical_review_note": "The source's Lemma 7 (PDF p. 18) claims unrestricted closure under sums of negative-s-concave functions; an exact s=-1 counterexample is documented at catalogue/integration_math_checks/negative_concavity_sum.json. Consequently Proposition 4 and the Theorem 1/2 upper-bound proof chain are not certified by the displayed proof; this is not a claim that the theorem statements are false. Lower bounds in Remark 1 remain separate.",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 26,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Defines the concentration function and motivates variance-sensitive Gaussian anti-concentration.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Anti-concentration inequalities for Gaussian fields and processes",
+        "physical_pdf_pages": [
+          2,
+          5
+        ],
+        "summary": "States the finite-field order-statistic inequalities, maximum corollary, separable-process theorem, and density-mode form.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Recovering and improving results from the literature",
+        "physical_pdf_pages": [
+          5,
+          8
+        ],
+        "summary": "Compares the variance-sensitive bound with existing high-dimensional anti-concentration results.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Lower and upper bounds on variances of Gaussian suprema",
+        "physical_pdf_pages": [
+          8,
+          12
+        ],
+        "summary": "Proves lower/upper variance estimates and gives sharpness/correlation discussion.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proof of Theorem 1",
+        "physical_pdf_pages": [
+          13,
+          22
+        ],
+        "summary": "Develops the order-statistic density representation and s-concavity/variance-mode argument. The displayed proof relies on Lemma 7 (PDF p. 18), whose unrestricted negative-s sum-closure claim has an explicit counterexample; thus this section does not establish the stated upper anti-concentration bound as written. Theorem 2's upper proof invokes Theorem 1.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          23,
+          26
+        ],
+        "summary": "Bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P021",
+    "title": "Comparison and Anti-Concentration Bounds for Maxima of Gaussian Random Vectors",
+    "authors": [
+      "Victor Chernozhukov",
+      "Denis Chetverikov",
+      "Kengo Kato"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1301.4807",
+    "alternate_urls": [],
+    "version": "v4",
+    "reason": "Full-text read of the 22-page Gaussian comparison and anti-concentration paper.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P021.pdf",
+    "sha256": "fbc49cdca0a78f8263965cf896d6293369bc85b6e998f3e2726b6b6b970d1f7e",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 22,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Motivates comparison and anti-concentration for Gaussian vector maxima.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Comparison bounds and multiplier bootstrap",
+        "physical_pdf_pages": [
+          3,
+          8
+        ],
+        "summary": "Proves smooth-max and Kolmogorov comparison inequalities and states the conditional multiplier CLT.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Anti-concentration bounds",
+        "physical_pdf_pages": [
+          8,
+          11
+        ],
+        "summary": "States and proves Levy concentration bounds for equal- and unequal-variance Gaussian maxima; discusses sharpness and small-ball distinction.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Proofs for Section 2",
+        "physical_pdf_pages": [
+          11,
+          15
+        ],
+        "summary": "Uses Gaussian interpolation, smoothing, and anti-concentration to prove comparison bounds.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proof of Theorem 3",
+        "physical_pdf_pages": [
+          15,
+          19
+        ],
+        "summary": "Derives density bounds for equal and unequal variances.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A, acknowledgments, and references",
+        "physical_pdf_pages": [
+          19,
+          22
+        ],
+        "summary": "Proves a technical lemma and provides end matter.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P022",
+    "title": "Large Ball Probabilities, Gaussian Comparison and Anti-Concentration",
+    "authors": [
+      "Friedrich Götze",
+      "Alexey Naumov",
+      "Vladimir Spokoiny",
+      "Vladimir Ulyanov"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1708.08663",
+    "alternate_urls": [],
+    "version": "v2",
+    "reason": "Full-text read of the 27-page Gaussian Hilbert-ball comparison paper.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P022.pdf",
+    "sha256": "4bf4c1435b29fffb5f49e8dc8e10af4eb09ee35c2e58d5ac9df84c78f54dea41",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 27,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and application examples",
+        "physical_pdf_pages": [
+          1,
+          10
+        ],
+        "summary": "Motivates Gaussian Hilbert-ball comparison with MLE, Bayesian-prior, nonparametric-Bayes, and CLT applications.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Main results",
+        "physical_pdf_pages": [
+          10,
+          15
+        ],
+        "summary": "Defines the covariance spectral scale and states large-ball comparison, density, and squared-norm anti-concentration results.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Proofs of the main results",
+        "physical_pdf_pages": [
+          15,
+          20
+        ],
+        "summary": "Proves uniform density bounds by spectral cases/Fourier inversion and obtains comparison through covariance and shift interpolation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments",
+        "physical_pdf_pages": [
+          20,
+          20
+        ],
+        "summary": "Acknowledges support.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A: Technical results",
+        "physical_pdf_pages": [
+          20,
+          23
+        ],
+        "summary": "Provides Fourier-integral and auxiliary estimates used in the spectral density bounds.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix B: Non-uniform density bound",
+        "physical_pdf_pages": [
+          23,
+          25
+        ],
+        "summary": "Derives a non-uniform shifted squared-norm density estimate.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          25,
+          27
+        ],
+        "summary": "Bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P023",
+    "title": "An Elementary Proof of Anti-Concentration for Degree Two Non-Negative Gaussian Polynomials",
+    "authors": [
+      "Stephen Tu",
+      "Ross Boczar"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2301.05992",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Full-text read of the degree-two Gaussian-polynomial anti-concentration proof.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P023.pdf",
+    "sha256": "6d836a3f30fbd5fbc4bdc37e5ae5e8b0ddd8ddf1cb4af2062b3cec5276e69d56",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 6,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Recalls the cited Carbery–Wright theorem and states the degree-two nonnegative standard-Gaussian special case.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Proof of Theorem 1.2",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "summary": "Represents the polynomial by a PSD block quadratic form; proves an exponential-moment estimate, a Chernoff small-value bound, a scalar Gaussian small-ball lemma, and a two-case reduction to the theorem.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgements and references",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Acknowledges proof input and lists the sources; the general Carbery–Wright result is cited background, not proved in this note.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P024",
+    "title": "Anti-Concentration Inequalities for Log-Concave Variables on the Real Line",
+    "authors": [
+      "Tulio Gaxiola",
+      "James Melbourne",
+      "Vincent Pigno",
+      "Emma Pollard"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2505.05793",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Full-text read of continuous and discrete anti-concentration inequalities for one-dimensional log-concave laws; Theorem 3.8's convex-order comparator is centered uniform on [-1/(2M),1/(2M)].",
+    "topics": [
+      "C153",
+      "C154"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P024.pdf",
+    "sha256": "9dec1113f304933f4ea611684461a2fa916ca5cbda1d15f60879ce4ae8b82147",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 15,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "States the continuous and discrete variance/density and moment anti-concentration results and outlines the paper.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Definitions",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Defines log-concavity relative to Lebesgue/counting measure, stochastic orders, and one-/two-crossing majorization lemmas.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Lebesgue measure",
+        "physical_pdf_pages": [
+          4,
+          9
+        ],
+        "summary": "Builds an asymmetric-Laplace comparison in convex order, proving variance-density, centered Orlicz, and moment inequalities for continuous log-concave laws; Theorem 3.8 uses the centered uniform comparator on [-1/(2M),1/(2M)].",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 The Counting Measure",
+        "physical_pdf_pages": [
+          9,
+          12
+        ],
+        "summary": "Develops the lattice asymmetric-Laplace comparison and sharp variance and fourth-moment bounds for log-concave integer-valued laws.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Majorization and derivatives",
+        "physical_pdf_pages": [
+          12,
+          14
+        ],
+        "summary": "Proves the multi-crossing sign/moment theorem that powers the stochastic-order reductions.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          14,
+          15
+        ],
+        "summary": "Bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P025",
+    "title": "Cramér Large Deviation Expansions for Martingales under Bernstein’s Condition",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": "10.1016/j.spa.2013.06.010",
+    "url": "https://arxiv.org/abs/1210.2198",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1210.2198v3"
+    ],
+    "version": "v3",
+    "reason": "Full-text read of two-sided Cramér-type martingale tail expansions under conditional Bernstein and quadratic-variation assumptions.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P025.pdf",
+    "sha256": "53739dd293f0de1c466a278829271bd71c72b1e68af9504a9ae48a8cdab2dd83",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 26,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Motivates the extension of Cramér expansions to martingales and states conditional Bernstein and quadratic-variation normalization.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Main results",
+        "physical_pdf_pages": [
+          3,
+          6
+        ],
+        "summary": "Defines (A1)–(A2) and proves upper/lower Gaussian-tail ratio bounds, relative expansions, iid-normalized corollaries, and the MDP implication.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Rates of convergence in the CLT",
+        "physical_pdf_pages": [
+          7,
+          8
+        ],
+        "summary": "Uses the conjugate multiplicative martingale and tilted law to bound the conjugate martingale normal approximation error.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Auxiliary results",
+        "physical_pdf_pages": [
+          8,
+          11
+        ],
+        "summary": "Derives conditional moment, tilted-drift, and predictable-cumulant estimates under (A1)–(A2).",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proof of Theorem 2.1",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "summary": "Optimizes a lower exponential tilt and combines the conjugate CLT with Gaussian tail comparisons for upper bounds.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Proof of Theorem 2.2",
+        "physical_pdf_pages": [
+          13,
+          15
+        ],
+        "summary": "Uses an upper tilt and small-/large-tilt cases to establish lower bounds on both tails.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Proof of Lemma 3.1",
+        "physical_pdf_pages": [
+          16,
+          23
+        ],
+        "summary": "Proves a tilted martingale CLT estimate by Gaussian smoothing, telescoping, and control of cubic remainders and quadratic variation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§8 Equivalent conditions",
+        "physical_pdf_pages": [
+          23,
+          24
+        ],
+        "summary": "Shows Bernstein, Sakhanenko, and (in the iid setting) Cramér exponential-moment equivalences.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgements and references",
+        "physical_pdf_pages": [
+          25,
+          26
+        ],
+        "summary": "Acknowledgements and bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P026",
+    "title": "Uniform Cramér Moderate Deviations and Berry-Esseen Bounds for a Supercritical Branching Process in a Random Environment",
+    "authors": [
+      "Xiequan Fan",
+      "Haijuan Hu",
+      "Quansheng Liu"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2002.00310",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Uniform Cramér Moderate Deviations and Berry-Esseen Bounds for a Supercritical Branching Process in a Random Environment; full text read with theorem/assumption/proof coverage recorded; independent review pending.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P026.pdf",
+    "sha256": "90d38802ec47287e7d8eef5125d13c39bfb0b554b88230faed80ec3dfaf81026",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 23,
+    "section_coverage": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "BPRE model, prior results, uniform-in-baseline objective and theorem roadmap.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Main results",
+        "physical_pdf_pages": [
+          4,
+          7
+        ],
+        "summary": "Standing martingale assumptions, normalized increment/decomposition, Theorems 2.1–2.4 and MDP/tail/BE corollaries.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Confidence-interval applications",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "summary": "Propositions 3.1–3.2, risk-level sequences and their admissible ranges.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Proof of Theorem 2.1",
+        "physical_pdf_pages": [
+          9,
+          14
+        ],
+        "summary": "Upper/lower tail comparisons, iid Cramér deviations and harmonic moments.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proof of Corollary 2.1",
+        "physical_pdf_pages": [
+          14,
+          15
+        ],
+        "summary": "Uniform MDP upper/lower bounds over Borel sets and starting indices.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Proof of Theorem 2.2",
+        "physical_pdf_pages": [
+          15,
+          17
+        ],
+        "summary": "Stretched-exponential moment bound for log W and Linnik-type argument.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Proof of Theorem 2.3",
+        "physical_pdf_pages": [
+          18,
+          19
+        ],
+        "summary": "Four-region Kolmogorov-distance estimate.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§8 Proof of Theorem 2.4",
+        "physical_pdf_pages": [
+          19,
+          21
+        ],
+        "summary": "Uniform log W_n moment lemma and two-sided Berry–Esseen argument; δ/ρ notation mismatch recorded.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgments and references",
+        "physical_pdf_pages": [
+          22,
+          23
+        ],
+        "summary": "Acknowledgments and bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P027",
+    "title": "Cramér’s Moderate Deviations for Martingales with Applications",
+    "authors": [
+      "Xiequan Fan",
+      "Qi-Man Shao"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2204.02562",
+    "alternate_urls": [],
+    "version": "v2",
+    "reason": "Full-text read of the martingale Cramér moderate-deviation theorem and its random-walk/AR applications.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv ID verified on first page; extraneous template string arXiv:0000.0000 also appears",
+    "local_pdf": "evidence/fulltexts/P027.pdf",
+    "sha256": "89b06ed0b40f2292d5f6500358000b4baeb4bf5e4eca84cbe9aa98bae584c131",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 36,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Motivates martingale Cramér deviations, reviews classical and normalized results, and introduces the two applications.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Main results",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "summary": "States conditional Bernstein (A1), probabilistic bracket concentration (A2), the normalized martingale tail comparison, MDP, Berry–Esseen and unnormalized corollary.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.1 Elephant random walks",
+        "physical_pdf_pages": [
+          7,
+          10
+        ],
+        "summary": "Defines the random-step elephant walk and gives piecewise moderate-deviation, Berry–Esseen and self-normalized results.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.2 Autoregressive processes",
+        "physical_pdf_pages": [
+          10,
+          11
+        ],
+        "summary": "States the least-squares self-normalized moderate-deviation theorem and confidence intervals for a stable AR(1) model.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Preliminary lemmas",
+        "physical_pdf_pages": [
+          12,
+          15
+        ],
+        "summary": "Develops exponential tilting, conditional moment and cumulant estimates, bracket control under tilt, and a tilted Berry–Esseen lemma; smoothing details are referred to the supplement.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proof of Theorem 2.1",
+        "physical_pdf_pages": [
+          16,
+          22
+        ],
+        "summary": "Proves both logarithmic tail-ratio sides by optimizing exponential tilts, using tilted normal approximation and controlling the exceptional bracket event.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Proof of Corollary 2.3",
+        "physical_pdf_pages": [
+          23,
+          24
+        ],
+        "summary": "Derives the uniform Berry–Esseen bound by splitting central and tail regions and applying Theorem 2.1.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§7 Proofs of Theorems 3.1 and 3.2",
+        "physical_pdf_pages": [
+          24,
+          31
+        ],
+        "summary": "Builds martingales for the random-step elephant walk, controls brackets and observed step-size denominators, then transfers the main theorem.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§8 Proof of Theorem 3.3 and corollaries",
+        "physical_pdf_pages": [
+          31,
+          34
+        ],
+        "summary": "Represents the stable autoregression estimator as a martingale ratio, controls the denominator by Azuma–Hoeffding, and derives interval statements.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgements and references",
+        "physical_pdf_pages": [
+          34,
+          36
+        ],
+        "summary": "Acknowledgement and bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P028",
+    "title": "Self-Normalized Cramér Type Moderate Deviations for Martingales and Applications",
+    "authors": [
+      "Xiequan Fan",
+      "Qi-Man Shao"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2309.05266",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "Full-text read of self-normalized martingale Cramér deviations and applications to stationary blocks and BPRE; main theorem proof is in the separate supplement.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P028.pdf",
+    "sha256": "f16e5ef64bbe9b6bdd5db1b665aadcda942bb8e4eaf84ba70f6db755d8238423",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 24,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Reviews classical and self-normalized Cramér deviations and motivates a martingale theorem under conditional moments and exponential bracket concentration.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Main result",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "summary": "Defines square and predictable brackets, conditions (A1)–(A2), and states the self-normalized theorem, MDP and Berry–Esseen consequences; detailed proof is assigned to a separate supplement.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.1 Student’s t-statistic",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "summary": "Relates Student’s statistic to the self-normalized martingale statistic by an exact transformation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.2 Stationary martingale difference sequences",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "summary": "States block self-normalized deviations under conditional block-variance concentration and block moments, including a stronger uniform-approximation variant.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.3 Branching processes in a random environment",
+        "physical_pdf_pages": [
+          9,
+          12
+        ],
+        "summary": "Defines the BPRE and Lotka–Nagaev Student statistic, gives self-normalized and standardized moderate deviations and their MDP/Berry–Esseen corollaries.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Proofs of Theorems 3.1 and 3.2",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "summary": "Reduces block sums to the main martingale theorem using block moment and conditional-variance concentration bounds.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proof of Theorem 3.3",
+        "physical_pdf_pages": [
+          15,
+          20
+        ],
+        "summary": "Centers Lotka–Nagaev ratios into martingale differences, proves reciprocal-population and moment controls, applies the self-normalized theorem, and transfers through the t-statistic identity.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Proof of Theorem 3.4",
+        "physical_pdf_pages": [
+          20,
+          22
+        ],
+        "summary": "Verifies conditional Bernstein moments for the BPRE estimator martingale and applies a Cramér martingale bound.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgements and references",
+        "physical_pdf_pages": [
+          22,
+          24
+        ],
+        "summary": "Acknowledgements and bibliography, including the separately identified supplement [18].",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P029",
+    "title": "Remarks on Pickands Theorem",
+    "authors": [
+      "Zbigniew Michna"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0904.3832",
+    "alternate_urls": [],
+    "version": "v3",
+    "reason": "Remarks on Pickands Theorem; full text read with theorem/assumption/proof coverage recorded; independent review pending.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P029.pdf",
+    "sha256": "6c5bcc98b64321b61b1dffa9f439ab208372a0adf77367ff0a09bfa65f3598c2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 17,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and Pickands statement",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Exact stationary Gaussian assumptions, asymptotic formula and complete-proof roadmap.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Lemmas and auxiliary theorems",
+        "physical_pdf_pages": [
+          2,
+          11
+        ],
+        "summary": "Gaussian tail, regression decomposition, Bonferroni proof, Pickands-constant lower bound, Slepian/Borell inequalities, local block limits and joint-block bound.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Pickands theorem and proof",
+        "physical_pdf_pages": [
+          11,
+          16
+        ],
+        "summary": "Theorem 4 and double-sum proof with adjacent, intermediate and separated block estimates; positivity/finiteness of the constant.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          16,
+          17
+        ],
+        "summary": "Complete bibliography.",
+        "coverage_status": "read"
+      }
+    ]
+  },
+  {
+    "local_id": "P030",
+    "title": "High Excursion Probabilities for Gaussian Fields on Smooth Manifolds",
+    "authors": [
+      "Vladimir I. Piterbarg"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2108.07473",
+    "alternate_urls": [],
+    "version": "v1",
+    "reason": "High Excursion Probabilities for Gaussian Fields on Smooth Manifolds; full text read with theorem/assumption/proof coverage recorded; independent review pending.",
+    "topics": [
+      "C168"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P030.pdf",
+    "sha256": "34344393523fdc5e2f2a5b610ab87d230a8177d860c1254dd15b976fc1b11098",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 17,
+    "section_coverage": [
+      {
+        "section": "Abstract and §1 Introduction, including §§1.1–1.3",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Scope, maximum-variance manifold, chi-square/Bessel examples, double-sum overview and stationary-like/transition/Talagrand trichotomy.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Extracting of an informative set",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Borell–TIS reduction to a neighborhood and entropy/Dmitrovsky refinement to M_u.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 setup, Conditions 3–5, Proposition 1, local Lemma 2 and splitting",
+        "physical_pdf_pages": [
+          5,
+          9
+        ],
+        "summary": "Local correlation and anisotropic regular variation, variance-loss regimes, tangent field, conditional block proof and partition.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.1 Locally homogeneous fields and Proposition 2",
+        "physical_pdf_pages": [
+          9,
+          11
+        ],
+        "summary": "Unit-variance local-homogeneity theorem and maximum-manifold integral, with Slepian/double-sum proof outline.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.2 Homogeneous-like fields",
+        "physical_pdf_pages": [
+          11,
+          12
+        ],
+        "summary": "Laplace factor for variance decay and Proposition 3.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.3 Talagrand case",
+        "physical_pdf_pages": [
+          12,
+          12
+        ],
+        "summary": "Proposition 4 reducing the leading asymptotic to the maximum-variance manifold.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.4 Transition case",
+        "physical_pdf_pages": [
+          12,
+          13
+        ],
+        "summary": "Proposition 5 and integrated local Pickands factor.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.5 General case and §4 conclusion",
+        "physical_pdf_pages": [
+          13,
+          15
+        ],
+        "summary": "Stratum decomposition, Condition 6, Lemma 3, Proposition 6, finite-atlas assembly and transfer to the full parameter set.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          16,
+          17
+        ],
+        "summary": "Complete bibliography and cited proof dependencies.",
+        "coverage_status": "read"
+      }
+    ],
+    "reading_notes": "Theorem 1 is for the locally homogeneous unit-variance setting (full parameter dimension r=d); do not transfer its scale factors to nonconstant-variance strata with r<d. Several later proof details are outlines referring to cited works."
+  },
+  {
+    "local_id": "P031",
+    "title": "High-Dimensional Probability: An Introduction with Applications in Data Science",
+    "authors": [
+      "Roman Vershynin"
+    ],
+    "year": 2026,
+    "kind": "book",
+    "doi": "10.1017/9781009490672",
+    "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf",
+    "alternate_urls": [],
+    "version": "2nd ed., pre-publication PDF dated 2026-10-23",
+    "reason": "Complete second-edition prepublication book PDF acquired and verified by D04; complete Chapter 2 read as a selected chapter.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "Author-hosted title page verified; page states personal-use only and no redistribution/derivative works",
+    "local_pdf": "evidence/fulltexts/P031.pdf",
+    "sha256": "6a13eea20e3749e01a421a1aa722e90963e70f5e1ba462281b45ffdbc26800f6",
+    "reading_status": "selected_chapters_read",
+    "read_pages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "review_status": "pending",
+    "fulltext_status": "selected_chapters_read",
+    "pdf_page_count": 341,
+    "copyright_note": "Author-hosted 2nd-edition PDF allows viewing/downloading for personal use only; do not redistribute or create derivative works.",
+    "pdf_scope": "complete_prepublication_second_edition_pdf",
+    "full_book_acquired": true,
+    "document_type": "prepublication second-edition textbook PDF",
+    "read_units": [
+      {
+        "unit_type": "chapter",
+        "number": "Chapter 2",
+        "title": "Concentration of Sums of Independent Random Variables",
+        "physical_pdf_pages": [
+          33,
+          66
+        ],
+        "printed_pages": [
+          25,
+          58
+        ],
+        "complete": true,
+        "coverage_summary": "All sections 2.1–2.10, notes, and exercises read; Theorem 2.2.6 proof is assigned to an exercise."
+      }
+    ],
+    "section_coverage": [
+      {
+        "section": "Chapter 2 introduction",
+        "physical_pdf_pages": [
+          33,
+          34
+        ],
+        "summary": "Chapter outline and concentration motivation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.1 Why concentration inequalities?",
+        "physical_pdf_pages": [
+          34,
+          36
+        ],
+        "summary": "Gaussian/binomial examples, tail estimates, and motivation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.2 Hoeffding inequality",
+        "physical_pdf_pages": [
+          36,
+          38
+        ],
+        "summary": "Rademacher exponential-moment derivation and bounded-variable Theorem 2.2.6 statement; proof assigned as exercise.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.3 Chernoff inequality",
+        "physical_pdf_pages": [
+          39,
+          40
+        ],
+        "summary": "Bernoulli sum MGF bound and optimization.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.4 Median-of-means estimator",
+        "physical_pdf_pages": [
+          41,
+          42
+        ],
+        "summary": "Block averages, Chebyshev control and median aggregation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.5 Application to random graphs",
+        "physical_pdf_pages": [
+          42,
+          44
+        ],
+        "summary": "Degree concentration for G(n,p) in the dense regime.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.6 Sub-Gaussian distributions",
+        "physical_pdf_pages": [
+          44,
+          47
+        ],
+        "summary": "Equivalent tails, moments, MGF and exponential-square characterizations.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.7 Sub-Gaussian Hoeffding and Khintchine inequalities",
+        "physical_pdf_pages": [
+          47,
+          51
+        ],
+        "summary": "Weighted sums, MGF tensorization, maximal and moment inequalities.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.8 Sub-exponential distributions",
+        "physical_pdf_pages": [
+          51,
+          55
+        ],
+        "summary": "Tail/moment/MGF properties and products.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.9 Bernstein inequality",
+        "physical_pdf_pages": [
+          55,
+          57
+        ],
+        "summary": "Sub-exponential and bounded variance-sensitive inequalities.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.10 Notes and exercises",
+        "physical_pdf_pages": [
+          57,
+          66
+        ],
+        "summary": "References and all chapter exercises, including proof exercise for Theorem 2.2.6.",
+        "coverage_status": "read"
+      }
+    ],
+    "card_path": "evidence/W03/cards/P031.md"
+  },
+  {
+    "local_id": "P032",
+    "title": "Large Deviations",
+    "authors": [
+      "Frank den Hollander"
+    ],
+    "year": 2000,
+    "kind": "book",
+    "doi": null,
+    "url": null,
+    "alternate_urls": [],
+    "version": "Fields Institute Monographs 14; AMS",
+    "reason": "Potential large-deviations textbook source; local scan is incomplete and cannot serve as a complete-book acquisition or selected-chapter reading unit.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "Local scan is incomplete: 68 physical pages but printed pages end at 61 while contents list later sections through p. 143; not a complete book.",
+    "local_pdf": "evidence/fulltexts/P032.pdf",
+    "sha256": "6464f2ae13638e20be7c17190658b734f65ed9d3da03aa6195fadf1e33448119",
+    "reading_status": "downloaded_not_fulltext_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "fulltext_status": "not_read",
+    "pdf_page_count": 68,
+    "scan_status": "complete_pdf_image_scan_no_extractable_text",
+    "pdf_scope": "partial",
+    "full_book_acquired": false
+  },
+  {
+    "local_id": "P033",
+    "title": "An Introduction to Large Deviations",
+    "authors": [
+      "Vitalii Konarovskyi"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.math.uni-hamburg.de/forschung/bereiche/st/stopro/personen/konarovskyi-vitalii/dokumente/ldp.pdf",
+    "alternate_urls": [],
+    "version": "course notes, 2021",
+    "reason": "Complete available 51-page University of Hamburg course-notes PDF identity/scope checked by D04; complete §2 read as one selected section.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "Hamburg author/title/date identity and complete available course-notes scope verified in D04 record; not a published book",
+    "local_pdf": "evidence/fulltexts/P033.pdf",
+    "sha256": "9cb23d788d46832907683f88736b16c991f080a5f6c6254b5171e9bc3caf3bb3",
+    "reading_status": "selected_sections_read",
+    "read_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "review_status": "pending",
+    "fulltext_status": "selected_sections_read",
+    "pdf_page_count": 51,
+    "document_type": "complete available course notes; not a published book",
+    "pdf_scope": "complete_available_course_notes_pdf",
+    "complete_available_document_acquired": true,
+    "read_units": [
+      {
+        "unit_type": "section",
+        "number": "§2 (subsections 2.1–2.3)",
+        "title": "Cramér’s theorem",
+        "physical_pdf_pages": [
+          5,
+          11
+        ],
+        "complete": true,
+        "coverage_summary": "Cumulant generating function, Fenchel–Legendre transform, full stated theorem and proof; the non-everywhere-finite cumulant case is referred to Kal02 p. 541."
+      }
+    ],
+    "section_coverage": [
+      {
+        "section": "§2.1 Cumulant generating function and Chernoff bound",
+        "physical_pdf_pages": [
+          5,
+          7
+        ],
+        "summary": "MGF examples, Chernoff upper bound and convex rate setup.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.2 Fenchel–Legendre transform",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "summary": "Convex conjugate definition, examples and rate-function calculation.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2.3 Cramér’s theorem",
+        "physical_pdf_pages": [
+          9,
+          11
+        ],
+        "summary": "Theorem 2.1, Chernoff upper bound and exponential-tilt lower bound; external reference for non-finite-domain case.",
+        "coverage_status": "read"
+      }
+    ],
+    "card_path": "evidence/W03/cards/P033.md"
+  },
+  {
+    "local_id": "P034",
+    "title": "Exponential Inequalities for Martingales with Applications",
+    "authors": [
+      "Xiequan Fan",
+      "Ion Grama",
+      "Quansheng Liu"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v20-3496",
+    "url": "https://arxiv.org/abs/1311.6273",
+    "alternate_urls": [],
+    "version": "v3",
+    "reason": "Complete 22-page paper read with theorem hypotheses and proof checks; physical p. 7 (complete Theorem 2.6 / Corollary 2.7 statements) and p. 14 (Theorem 2.1 proof) are rendered and noted in card P034.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "Article identity verified; PDF text layer has unusual spacing on p.1",
+    "local_pdf": "evidence/fulltexts/P034.pdf",
+    "sha256": "048bfe95a33fe7e79a22541b53b7e0685108d054e8a37d6cdabcddc2d97ab7e1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 22,
+    "section_coverage": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Problem setup, prior results, martingale notation, and roadmap.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Main results",
+        "physical_pdf_pages": [
+          4,
+          8
+        ],
+        "summary": "Theorems 2.1 and 2.6, Corollaries 2.2–2.7, exact conditional MGF assumptions and predictable controls; Theorem 2.6 requires positive V, Corollary 2.7 nonnegative U.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3 Applications",
+        "physical_pdf_pages": [
+          9,
+          13
+        ],
+        "summary": "Linear regression, autoregressive processes, and Galton–Watson applications.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§4 Proof of Theorem 2.1 and corollaries",
+        "physical_pdf_pages": [
+          13,
+          17
+        ],
+        "summary": "Exponential supermartingale/change of measure, stopping-time crossing and Jensen refinement.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§5 Proof of Theorem 2.6 and corollaries",
+        "physical_pdf_pages": [
+          17,
+          19
+        ],
+        "summary": "Sub-Gaussian-difference specialization and consequences.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§6 Proofs of applications",
+        "physical_pdf_pages": [
+          19,
+          21
+        ],
+        "summary": "Model-specific regression, autoregressive and branching-process estimates.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Acknowledgment and references",
+        "physical_pdf_pages": [
+          21,
+          22
+        ],
+        "summary": "Acknowledgment and complete references.",
+        "coverage_status": "read"
+      }
+    ],
+    "card_path": "evidence/W03/cards/P034.md"
+  },
+  {
+    "local_id": "P035",
+    "title": "Dvoretzky–Kiefer–Wolfowitz Inequalities for the Two-Sample Case",
+    "authors": [
+      "Fan Wei",
+      "R. M. Dudley"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1107.5356",
+    "alternate_urls": [],
+    "version": "v2",
+    "reason": "Complete 32-page paper read, including computational sections and appendices; visual statement/proof-scope checks on physical pages 2 and 14.",
+    "topics": [],
+    "metadata_status": "bibliographic_metadata_recorded_from_pdf_front_page_or_primary_catalogue",
+    "identity_status": "arXiv front page and PDF title verified",
+    "local_pdf": "evidence/fulltexts/P035.pdf",
+    "sha256": "38296a2c6b028991a6005f95a2f95ce3b19c9d99ce77f5fefbd5ff49f8057b3f",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "review_status": "pending",
+    "fulltext_status": "fulltext_read",
+    "pdf_page_count": 32,
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and main results",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Two-sample statistic, DKW/DKWM definitions, Theorem 1 and proof/computation distinction.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§2 Equal-sample proof",
+        "physical_pdf_pages": [
+          4,
+          14
+        ],
+        "summary": "Exact combinatorial/reflection formula, analytic bounds and finite computation completing the equal-size result.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.1 One- and two-sided probabilities",
+        "physical_pdf_pages": [
+          14,
+          15
+        ],
+        "summary": "Tail and p-value definitions and symmetry.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.2 Computational methods",
+        "physical_pdf_pages": [
+          15,
+          16
+        ],
+        "summary": "Finite-sample computation procedure for unequal sample sizes.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.3 Results",
+        "physical_pdf_pages": [
+          16,
+          17
+        ],
+        "summary": "Reported computed unequal-size ranges.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.4 p-value approximations",
+        "physical_pdf_pages": [
+          17,
+          19
+        ],
+        "summary": "Approximation comparisons.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "§3.5 Asymptotic approximation",
+        "physical_pdf_pages": [
+          19,
+          20
+        ],
+        "summary": "Lattice correction and oscillatory asymptotic expansion.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix A",
+        "physical_pdf_pages": [
+          20,
+          21
+        ],
+        "summary": "Equal-size finite-computation table.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "Appendix B",
+        "physical_pdf_pages": [
+          22,
+          31
+        ],
+        "summary": "Unequal-size numerical tables.",
+        "coverage_status": "read"
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          31,
+          32
+        ],
+        "summary": "Complete bibliography.",
+        "coverage_status": "read"
+      }
+    ],
+    "card_path": "evidence/W03/cards/P035.md"
+  }
+]

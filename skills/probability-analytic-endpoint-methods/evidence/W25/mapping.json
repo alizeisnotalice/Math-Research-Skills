@@ -1,0 +1,215 @@
+[
+  {
+    "problem_id": "C207",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "needed_lemma": "Keep scalar-coordinate weak-(1,1) and scalar-coordinate weak-Lp results separate from the Euclidean vector Lp operator norm problem for 1<p<∞. CZ-04 supplies a vector weak-(1,1) upper bound 2, CZ-05 claims a sharp real-input scalar-coordinate weak-(1,1) constant, AEP-006 gives Riesz-specific singular-measure tail information, and AEP-007 gives sharp real scalar-coordinate weak-Lp constants in its f** norm; none determines the best dimension-free vector A_p in formal C207. AEP-016 supplies specified manifold/group/sphere/finite-Gauss logarithmic and p>1 event estimates from martingale differential subordination; AEP-017 supplies a concrete stopped-extension / Green-kernel / spectral-calculus / conditional-expectation representation under diffusion and vertical-process hypotheses, with strong-Lp consequences only for 1<p<infinity. R01 approved the AEP-017 source binding as a method-source; its operator estimates remain strong-Lp for p>1 and do not establish weak-(1,1) or the formal sharp vector-Lp constant. Its generic linear-C Theorem 4.11 and all-index second-order diagonal scopes are quarantined as stated in the W25 card. AEP-018 contributes the weighted-complete-manifold Bellman/Bochner bilinear bound 3(p*−1) and nonsharp vector Riesz bound 12(p*−1) under Ric_phi≥−a²g and its stated closure/domain conditions. AEP-019 contributes a one-dimensional Jacobi martingale comparison and H¹→L¹ result, not Lebesgue weak-(1,1) or a multidimensional vector theorem. AEP-020 gives the Γ₂ method: diffusion-only C≤c_p√Γ for 1<p<∞, general symmetric Γ₂≥0 reverse bound √Γ≤c_p C for p>2 on its good core, and an all-p equivalence only under the extra §4.3 commutation/common-h structure. The official M(3,4) correction is (f,f)(f,g) with leading 2 retained; R01 independently checks M34=2Γ(f,f)Γ(f,g) locally. AEP-023 adds a manifold good-λ strong-type criterion only under all-f/all-x/all-ball bounds, the separate Tf∈Lp whenever f∈Lp condition, and the Riesz uniform truncation/L2-limit route (2<p<p0). AEP-024 controls H^(1/2)f for f∈C0∞ by the Sobolev-energy L1 seminorm under V∈A∞; this is not scalar Riesz L1 weak-(1,1). AEP-041 gives sparse domination for the standard centered maximal truncation under the stated CZ/L2 assumptions; the printed origin-centered epsilon<|y|<nu annulus defect is quarantined, use requires the classical weak-(1,1) input, c(n)m is for m≥1, and m=0 is the direct sparse average. These sources are included in the R01-approved mother30 inventory; their source-specific limits remain in force.",
+    "source_local_ids": [
+      "CZ-04",
+      "CZ-05",
+      "AEP-006",
+      "AEP-007",
+      "AEP-016",
+      "AEP-017",
+      "AEP-018",
+      "AEP-019",
+      "AEP-020",
+      "AEP-023",
+      "AEP-024",
+      "AEP-041",
+      "AEP-021",
+      "AEP-044",
+      "AEP-045"
+    ],
+    "unproved_interface": "No theorem in the read sources bounds or identifies the optimal vector A_p for 1<p<∞. AEP-007 concerns one real scalar coordinate with its rearrangement weak-Lp norm, not a vector norm. Any use in C207 is endpoint-scope calibration only; the Cotlar/martingale route and conditional-expectation loss remain to be handled independently. AEP-016 explicitly notes weak-(1,1) as unknown for general nonnegative-Ricci manifolds and infinite-dimensional Gauss space; AEP-017 gives a stopped-extension/Green/spectral/conditional-expectation method and strong-Lp results for p>1, not weak-(1,1); R01 approved its source binding as a concrete method source; its operator estimates remain strong-Lp for p>1. Neither it nor the other cited sources supplies the target Euclidean dimension-free sharp vector constant. AEP-018/019/020 are R01 accepted and mother-integrated; their cards remain frozen. None identifies C207 best vector constants: AEP-018 is a nonsharp upper estimate; AEP-019 is one-dimensional Jacobi; AEP-020 has only the stated p>2 general Γ₂ upper route, with low-p dual direction opposite and stronger all-p route requiring §4.3 structure. AEP-020 coefficient check is local Hessian algebra, not its general theorem proof. AEP-023, AEP-024, and AEP-041 do not supply a scalar Euclidean weak-(1,1) proof for C207: their geometric strong-Lp, H^(1/2)/Sobolev-energy, and centered-CZ sparse-domination inputs respectively require separate operator/domain matching. In particular, do not silently replace AEP-041’s printed origin-centered truncation notation with the centered one.",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted."
+  },
+  {
+    "problem_id": "C207",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "source_local_ids": [
+      "AEP-EXT-009",
+      "AEP-EXT-010"
+    ],
+    "source_stable_ids": [
+      "PR-eee959237b12",
+      "PR-1494449791b1"
+    ],
+    "mapping_status": "R01 mother30 source binding approved; this mapping remains auxiliary/nonformal and the final candidate scope review is pending.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "method": "Orthogonal differential-subordination, subharmonic and Brownian-maximal weak-endpoint methods.",
+    "inputs": "Exact orthogonality/differential-subordination, semimartingale, harmonic-domain and stopping assumptions in each card; reader-derived corrections are separated from source statements.",
+    "output": "Source-scoped martingale/harmonic maximal estimates and examples; no Euclidean vector best constant.",
+    "needed_lemma": "Tool-method evidence only; no theorem transfer to a target problem is certified by this mirror.",
+    "unproved_interface": "No reduction from the Euclidean vector Riesz Lp operator to the source probability/harmonic classes; C208 weak-(1,1) is not proved.",
+    "source_scope": "Method comparisons only; source-local sign/domain issues and independent reader repairs remain explicit.",
+    "reader_batch": "L07_B7",
+    "endpoint_separation": "C207 asks for the best vector L^p operator norm for 1<p<infinity. Scalar weak-(1,1), martingale endpoint, weak-(p,p), and weighted strong-L2 statements are distinct and do not identify that vector constant.",
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted.",
+    "historical_mapping_status": "R01 reader-stage passed; W25 mother binding pending",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings."
+  },
+  {
+    "problem_id": "C208",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "source_local_ids": [
+      "AEP-EXT-009",
+      "AEP-EXT-010"
+    ],
+    "source_stable_ids": [
+      "PR-eee959237b12",
+      "PR-1494449791b1"
+    ],
+    "mapping_status": "R01 mother30 source binding approved; this mapping remains auxiliary/nonformal and the final candidate scope review is pending.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "method": "Isolated-dossier context: weak-endpoint martingale and harmonic-maximal analogies.",
+    "inputs": "Only source-stated and separately attributed repaired model classes in the reader cards.",
+    "output": "Auxiliary model-class methods only.",
+    "needed_lemma": "Tool-method evidence only; no theorem transfer to a target problem is certified by this mirror.",
+    "unproved_interface": "No scalar Euclidean Riesz weak-(1,1) reduction, dimension-free estimate, formal mapping, or resolution.",
+    "source_scope": "This C208 reference is isolation-only, not an active formal open-problem statement.",
+    "reader_batch": "L07_B7",
+    "endpoint_separation": "C207 asks for the best vector L^p operator norm for 1<p<infinity. Scalar weak-(1,1), martingale endpoint, weak-(p,p), and weighted strong-L2 statements are distinct and do not identify that vector constant.",
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted.",
+    "historical_mapping_status": "R01 reader-stage passed; W25 mother binding pending",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings."
+  },
+  {
+    "problem_id": "C207",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "source_local_ids": [
+      "AEP-EXT-001",
+      "AEP-EXT-014"
+    ],
+    "source_stable_ids": [
+      "PR-c0c0313d3bf2",
+      "PR-19b81605a852"
+    ],
+    "mapping_status": "R01 mother30 source binding approved; this mapping remains auxiliary/nonformal and the final candidate scope review is pending.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "method": "Hilbert/conjugate-function rearrangement endpoints and operator-adapted CZ decomposition under self-adjoint Gaussian hypotheses.",
+    "inputs": "EXT-001: real-line Hilbert transform and stated odd homogeneous L1 angular kernel. EXT-014: doubling infinite-measure space, nonnegative self-adjoint generator, Gaussian upper heat-kernel bound, L2-bounded sublinear T and T:Hp_L→Lp; the non-self-adjoint route stays quarantined.",
+    "output": "Scalar Hilbert/conjugate estimates and the conditional self-adjoint operator weak-(1,1) theorem in the source model.",
+    "needed_lemma": "Tool-method evidence only; no theorem transfer to a target problem is certified by this mirror.",
+    "unproved_interface": "No proof that the formal vector Riesz Lp operator satisfies all source hypotheses; no vector best constant or isolated C208 scalar-coordinate Riesz weak-(1,1) result.",
+    "source_scope": "Exact coefficients, oddness/homogeneity, and source proof-defect restrictions remain those in the cards.",
+    "reader_batch": "L01_B8",
+    "endpoint_separation": "C207 asks for the best vector L^p operator norm for 1<p<infinity. Scalar weak-(1,1), martingale endpoint, weak-(p,p), and weighted strong-L2 statements are distinct and do not identify that vector constant.",
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted.",
+    "historical_mapping_status": "R01 reader-stage passed; W25 mother binding pending",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings."
+  },
+  {
+    "problem_id": "C207",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "source_local_ids": [
+      "AEP-EXT-002",
+      "AEP-EXT-006",
+      "AEP-EXT-011"
+    ],
+    "source_stable_ids": [
+      "PR-082e6b4a9c5e",
+      "PR-d531bba45148",
+      "PR-650f7eab3c36"
+    ],
+    "mapping_status": "R01 mother30 source binding approved; this mapping remains auxiliary/nonformal and the final candidate scope review is pending.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "method": "Near-p=1 Yano extrapolation, conditional multilinear H1 factorization, and martingale/Levy structured-multiplier endpoints.",
+    "inputs": "EXT-002: finite-measure real input/output, countable subadditivity, sign symmetry and Ap≲(p−1)^−k. EXT-006: multilinear CZ/Hölder inputs plus verified partial-adjoint denominator bound for every atom configuration. EXT-011: the exact Levy multiplier class and p-range in its card.",
+    "output": "Source-scoped Llog^kL→L1, factorization under a certified denominator, and weak-(p,p) multiplier outputs; no p=1 scalar Riesz weak-(1,1) conclusion.",
+    "needed_lemma": "Tool-method evidence only; no theorem transfer to a target problem is certified by this mirror.",
+    "unproved_interface": "No uniform vector Lp constant, no general Riesz weak-(1,1), and no identification of the C207 best vector constant. Verify each source-specific input separately.",
+    "source_scope": "Source print defects and independent reader-derived conditions are kept distinct.",
+    "reader_batch": "L01_B10",
+    "endpoint_separation": "C207 asks for the best vector L^p operator norm for 1<p<infinity. Scalar weak-(1,1), martingale endpoint, weak-(p,p), and weighted strong-L2 statements are distinct and do not identify that vector constant.",
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted.",
+    "historical_mapping_status": "R01 reader-stage passed; W25 mother binding pending",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings."
+  },
+  {
+    "problem_id": "C208",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "source_local_ids": [
+      "AEP-EXT-004"
+    ],
+    "source_stable_ids": [
+      "PR-ea1f69b89b5e"
+    ],
+    "mapping_status": "R01 mother30 source binding approved; this mapping remains auxiliary/nonformal and the final candidate scope review is pending.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "method": "Analytic Hardy-space Yano extrapolation: H^p(T) growth C0(p−1)^−r implies Llog^rL→L1 for analytic trigonometric polynomials.",
+    "inputs": "One-dimensional torus; analytic input class; source sublinearity/homogeneity; every 1<p≤2 growth bound; Hardy–Orlicz extension requires the stated pointwise-difference condition.",
+    "output": "The source theorem in analytic-polynomial model only; auxiliary tool-method context.",
+    "needed_lemma": "Tool-method evidence only; no theorem transfer to a target problem is certified by this mirror.",
+    "unproved_interface": "No reduction from isolated C208 Euclidean scalar Riesz weak-(1,1) to analytic H^p(T), and no formal C208 mapping or dimension-free estimate.",
+    "source_scope": "C208 remains isolated; this entry is context only, not a formal mapping.",
+    "reader_batch": "L15_B11",
+    "endpoint_separation": "C207 asks for the best vector L^p operator norm for 1<p<infinity. Scalar weak-(1,1), martingale endpoint, weak-(p,p), and weighted strong-L2 statements are distinct and do not identify that vector constant.",
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted.",
+    "historical_mapping_status": "R01 reader-stage passed; W25 mother binding pending",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings."
+  },
+  {
+    "problem_id": "C208",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "source_local_ids": [
+      "AEP-026"
+    ],
+    "source_stable_ids": [
+      "PR-81915612222f"
+    ],
+    "mapping_status": "R01 mother30 source binding approved; this mapping remains auxiliary/nonformal and the final candidate scope review is pending.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "method": "Martingale subordination/orthogonality, Bellman-majorant and stochastic-representation proof templates with the source-stated conditional-expectation weak-type obstruction.",
+    "inputs": "Exact martingale classes, differential subordination/orthogonality, continuous stopped/localized Itô setting, justified initial E U(X0,Y0)≤0 or zero start, c^p moment coefficient, and imported approximation/integrability conditions in the revised card.",
+    "output": "Martingale weak-L1 before projection and strong-Lp Riesz bounds after conditional expectation; not weak-(1,1) after projection.",
+    "needed_lemma": "Tool-method evidence only; no theorem transfer to a target problem is certified by this mirror.",
+    "unproved_interface": "The source explicitly says conditional expectation need not preserve weak type; no dimension-free scalar Riesz weak-(1,1) reduction or formal mapping.",
+    "source_scope": "Isolated-dossier method context only; no active open-problem or resolution assertion.",
+    "reader_batch": "L15_B12",
+    "endpoint_separation": "C207 asks for the best vector L^p operator norm for 1<p<infinity. Scalar weak-(1,1), martingale endpoint, weak-(p,p), and weighted strong-L2 statements are distinct and do not identify that vector constant.",
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted.",
+    "historical_mapping_status": "R01 reader-stage passed; W25 mother binding pending",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings."
+  },
+  {
+    "problem_id": "C208",
+    "tool": "probability-analytic-endpoint-methods",
+    "role": "auxiliary",
+    "source_local_ids": [
+      "AEP-040"
+    ],
+    "source_stable_ids": [
+      "PR-7ab45da760dc"
+    ],
+    "mapping_status": "R01 mother30 source binding approved; this mapping remains auxiliary/nonformal and the final candidate scope review is pending.",
+    "formal_mapping": false,
+    "problem_solved": false,
+    "method": "Random good-cube representation, good dyadic-shift expansion, parameter-dependent weak-(1,1) control for bounded shifts, and sharp weighted-A2 testing.",
+    "inputs": "Standard CZ kernel and L2 operator assumptions with dimension/regularity data in C(T), A2 weight inputs for main theorem, and bounded dyadic-shift class for Proposition 5.1.",
+    "output": "Weighted strong L2(w) for standard CZ operators; weak-(1,1) only for each bounded dyadic shift with O(u) dependence.",
+    "needed_lemma": "Tool-method evidence only; no theorem transfer to a target problem is certified by this mirror.",
+    "unproved_interface": "No transfer/summation to dimension-free weak-(1,1) for a scalar Riesz coordinate; no formal C208 mapping or resolution.",
+    "source_scope": "Isolated-dossier method context only.",
+    "reader_batch": "L15_B12",
+    "endpoint_separation": "C207 asks for the best vector L^p operator norm for 1<p<infinity. Scalar weak-(1,1), martingale endpoint, weak-(p,p), and weighted strong-L2 statements are distinct and do not identify that vector constant.",
+    "C208_isolation": "C208 remains an isolated dossier; no formal mapping or resolution is asserted.",
+    "historical_mapping_status": "R01 reader-stage passed; W25 mother binding pending",
+    "source_quota_counted_by": "evidence/W25/sources.json and source_approval_matrix.json; do not sum duplicated problem mappings."
+  }
+]

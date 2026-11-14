@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学论文写作"
+  short_description: "以用户PDF写作规范为准，落实数学论文结构、方法动机、完整证明与自然表达"
+  default_prompt: "请使用 $math-paper-writing，以我提供的PDF写作规范为准，起草或修改数学论文，落实引言、预备知识、主要证明和应用，说明方法动机并保持自然准确的数学表达。"

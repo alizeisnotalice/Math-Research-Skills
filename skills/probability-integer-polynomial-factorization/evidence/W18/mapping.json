@@ -1,0 +1,263 @@
+[
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "direct",
+    "needed_lemma": "The exact PGF equivalence between uniform convolution on an arbitrary finite integer support (possibly with gaps) and a monic 0–1 polynomial C=AB with monic nonnegative real factors. For bounded candidates, diagonal coefficient constraints can be certified by trinary propagation/branching/QE. W18-X002 is usable only after monic normalization (or positive reciprocal rescaling) and after excluding its n=0, v=w=1 corner where the output is 2, not 0–1.",
+    "source_local_ids": [
+      "M0147",
+      "M0149",
+      "M0150",
+      "M0151",
+      "W18-X001",
+      "W18-X002",
+      "W18-X004",
+      "W18-X005",
+      "W18-X006",
+      "W18-X007",
+      "W18-X008",
+      "W18-X009",
+      "W18-X010",
+      "W18-X011"
+    ],
+    "unproved_interface": "No source in this stage proves or refutes the unrestricted conjecture for all monic nonnegative real factors. Hare’s finite degree/cofactor caps and Dvorsky’s trinomial family do not close the global problem; epsilon constructions use negative coefficients. W18-X002 does not state the normalization needed for its [0,1] factor-coefficient step; the A175 transfer is restricted to monic factors, and its n=0 overlap corner is excluded."
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Use the batch-specific restricted interfaces only: Behrends connects independent dice to interval-uniform probability-polynomial factors and unique sumsets; Kolountzakis supplies only tiling-period context, and its physical pp.7–8 displayed sum has an isolated reciprocal-coefficient error, while the generic-constant argument still supports the stated exponent; the other works supply exact finite-set tiling/spectral context under their own hypotheses. Keep full-interval and prime-geometric targets separate from arbitrary finite supports and unrestricted nonnegative-real factors.",
+    "source_local_ids": [
+      "M0156",
+      "M0157",
+      "M0159",
+      "M0161",
+      "W18-X013",
+      "W18-X016",
+      "W18-X017"
+    ],
+    "unproved_interface": "These sources leave A175 in general unresolved. Behrends is restricted to full-interval uniform targets and equal-degree fair-square cases; Raikov proves only the prime geometric polynomial case and explicitly identifies the more general Krasner–Ranulac note as separate/unavailable; the tiling results require their stated finite-set/cyclotomic assumptions. None yields arbitrary finite-support nonnegative real factors."
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "When an integer mask/PGF is independently known to be cyclotomic, characterize its roots and q-integer ratio and use its independent-uniform-sum representation. This does not establish the premise for general nonnegative-real A175 factors.",
+    "source_local_ids": [
+      "W18-D04-EXT-001"
+    ],
+    "unproved_interface": "No result here implies that an arbitrary factor of a uniform finite-support PGF has only roots of unity, integer coefficients, nonnegative-integer coefficients, or a q-integer quotient form.",
+    "review_status": "pending",
+    "helper_review_status": "passed",
+    "helper_source": "evidence/W18/reader_batches/L03_integer_B9/mapping.json"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "For a finite set A whose mask polynomial corresponds to a unique translational tiling of Z, record cyclotomic T1/T2 criteria and the source's restricted T2 necessity theorem.",
+    "source_local_ids": [
+      "M0155"
+    ],
+    "unproved_interface": "Set tilings impose 0–1 supports and unique additive representations; they do not classify arbitrary probability-generating-polynomial factorizations. T2 necessity is not established here for every tile.",
+    "review_status": "pending",
+    "helper_review_status": "passed",
+    "helper_source": "evidence/W18/reader_batches/L03_integer_B9/mapping.json"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Under a strict prime-sum condition, constrain the minimum degree of a nonnegative-coefficient multiple of a specified cyclotomic polynomial using the geometric/Farkas certificate construction.",
+    "source_local_ids": [
+      "W18-D04-EXT-003"
+    ],
+    "unproved_interface": "A cyclotomic divisibility minimum-degree theorem does not characterize arbitrary probability factors; the paper's general conjecture remains open outside its proved cases.",
+    "review_status": "pending",
+    "helper_review_status": "passed",
+    "helper_source": "evidence/W18/reader_batches/L03_integer_B9/mapping.json"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Conditional classification or obstruction only after a finite-support probability polynomial has independently been shown to be an integer/monic polynomial with suitable root-location, height, irreducibility, or cyclic-mask structure. EXT-005 is asymptotic background only on this mapping; EXT-004, EXT-006, and EXT-007 are conditional related methods. The sources do not furnish the bridge from A175 factors.",
+    "source_local_ids": [
+      "W18-D04-EXT-004",
+      "W18-D04-EXT-005",
+      "W18-D04-EXT-006",
+      "W18-D04-EXT-007"
+    ],
+    "unproved_interface": "A175 allows arbitrary finite supports with gaps and nonnegative real factor coefficients. Damianou requires monic Z[x] and all roots in the closed unit disk; Pritsker studies integer-polynomial sequences with height/simple-root/capacity hypotheses; Ounaies' sharp results require specified integer/monic/irreducible and endpoint conditions; Lagarias–Wang works with finite group 0–1 masks modulo a cyclic relation and unique complements. No source proves an arbitrary real nonnegative A175 factor has any of these properties. In particular, finite-group mask equality modulo X^N−1 cannot be substituted for equality in Z[x].",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Cautionary interface only: before applying real-algebraic positivity or SOS tools to a probability-generating polynomial, separately prove that it is globally nonnegative on all real inputs and that the relevant degree/form setting matches. The coefficientwise nonnegative condition in A175 gives nonnegativity only on x>=0 and does not imply global psd or an SOS certificate.",
+    "source_local_ids": [
+      "M0158"
+    ],
+    "unproved_interface": "The paper's theorems classify SOS/psd cone structure for homogeneous forms of degrees 6 in 3 variables and 4 in 4 variables. A175 concerns univariate finite-support polynomials with nonnegative real coefficients and 0–1 product coefficients; no transformation to the paper's global-psd forms, no relevant Cayley–Bacharach configuration, and no implication from SOS to uniform coefficients is proved. Conjecture 7.3 in the paper is itself open and must not be used as a theorem.",
+    "review_status": "pending",
+    "qualifies_for_tool_source_count": false
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "direct",
+    "needed_lemma": "Direct model source: characterizes positive factorizations of normalized finite-support counting PGFs; includes support obstructions, real-rooted/Hurwitz sectors and exact low-degree regions.",
+    "source_local_ids": [
+      "W18-D04-B10-001"
+    ],
+    "unproved_interface": "A175 can be encoded as a finite-support PGF factorization after normalization. A175 additionally requires target coefficients in {0,1}; this paper does not prove that any factors of an arbitrary 0–1 target are themselves 0–1.",
+    "transfer_limit": "No general resolution of the unfair 0–1 factor conjecture; Monte Carlo calculations in the source are not proof certificates.",
+    "tool_source_count_candidate": true,
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "direct",
+    "needed_lemma": "Direct finite-distribution decomposition source: translates finite-support distribution divisibility/decomposability to factorization of nonnegative characteristic/PGF polynomials and gives algorithmic complexity results.",
+    "source_local_ids": [
+      "W18-D04-B10-002"
+    ],
+    "unproved_interface": "Use the finite-support probability-polynomial correspondence and normalization. Complexity classifications concern encoded decision problems, not the structural classification of 0–1 targets.",
+    "transfer_limit": "Does not prove factors of an arbitrary 0–1 polynomial have 0–1 coefficients.",
+    "tool_source_count_candidate": true,
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Conditional 0–1 mask/cyclotomic certificate: bounds the lowest degree of a 0–1 polynomial divisible by a specified cyclotomic polynomial through minimal vanishing sums of roots of unity.",
+    "source_local_ids": [
+      "W18-D04-B10-003"
+    ],
+    "unproved_interface": "Applicable only after an A175 factor or target is shown to have the required cyclotomic root/divisibility structure and n satisfies the stated arithmetic restrictions.",
+    "transfer_limit": "No general root-of-unity condition for A175 factors and no general 0–1 factorization theorem.",
+    "tool_source_count_candidate": true,
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Given real univariate Q without nonnegative real zeros, Corollary 2.7 gives a multiplier R with only negative real zeros and RQ positive, optionally strict coefficient positivity for RQ and integral coefficients for R. For a quadratic with roots re^{±iθ}, Theorem 2.1 gives the least possible degree n from (n−1)θ<π≤nθ and degree-n extremal multiples. The multivariate results require Q nonzero on the orthant and its leading homogeneous part nonzero on the orthant unit sphere; if Q(0)=0, also match the trailing homogeneous-part hypothesis.",
+    "source_local_ids": [
+      "W18-D04-B10-004"
+    ],
+    "unproved_interface": "A175's 0–1 target factorization does not provide a need for or classification from a positive multiplier; the source does not prove that its real polynomial input is an integer/0–1 factor or that the multiplier method settles uniform convolution. The source's separate polynomial root-angle and positivity methods remain valid under their stated hypotheses.",
+    "transfer_limit": "No claim that every factor of a 0–1 polynomial satisfies the source hypotheses or that it settles A175.",
+    "tool_source_count_candidate": true,
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Conditional factorization methods in nonnegative-integer polynomial monoids, finite cyclic group mask algebras with signatures restricted to period-dividing orders, and finite-group uniform-product models. Apply only after independently checking coefficient field, normalization, ordinary versus period-relative conditions, no-wrap versus modular operation, positive-definiteness, and set-tile/cyclotomic hypotheses for the target.",
+    "source_local_ids": [
+      "W18-D04-B10-005",
+      "W18-D04-B10-006",
+      "W18-D04-B10-007",
+      "W18-D04-B10-008"
+    ],
+    "unproved_interface": "A175 concerns an ordinary finite-support product of probability generating polynomials, with target coefficients in {0,1} and factors allowed arbitrary nonnegative real coefficients. Source 005 works only in N0[x] and cannot establish integrality of real factors. Sources 006/007 use cyclic convolution or polynomial congruences modulo X^M−1 (wraparound); source 006's functional-pd counterexamples are not proper set tilings, and source 007's explicit rational weak complements are not positive definite. Source 008 multiplies in a finite group and its subgroup factors induce uniform laws only modulo that group law. A no-wrap lift and exact coefficient/measure correspondence, plus any source-specific tile, cyclotomic, PD or coefficient hypotheses, remain unproved.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "If a proposed nonnegative-real probability factor P is independently shown to be divisible by a specified Φ_N, Theorem 1.1 bounds its support diameter and gives the equality shape; no such divisibility is supplied by A175.",
+    "source_local_ids": [
+      "W18-D04-B11-001"
+    ],
+    "unproved_interface": "A175 permits arbitrary finite support with gaps and real nonnegative coefficients. This paper does not prove either factor has a cyclotomic divisor or rational/integer coefficients; its integer-tiling corollaries also require both (T1) and (T2).",
+    "review_status": "pending",
+    "tool_source_count_candidate": true,
+    "helper_review_decision": "passed"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "For an exact candidate coefficient vector P and hypothesized order N with deg(P)≥φ(N), test Φ_N|P by the Möbius-weighted residue-class equalities of Theorem 1.1.",
+    "source_local_ids": [
+      "W18-D04-B11-002"
+    ],
+    "unproved_interface": "The coefficient vector and divisor order must already be known exactly. The criterion does not find the unknown real factors of C, prove their coefficients rational, or force a cyclotomic divisor.",
+    "review_status": "pending",
+    "tool_source_count_candidate": true,
+    "helper_review_decision": "passed"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "For the sparse integer 0–1 target mask C, Algorithm B decides whether C has a cyclotomic divisor; Algorithm A checks one proposed order with exact coefficient arithmetic modulo x^m−1.",
+    "source_local_ids": [
+      "W18-D04-B11-003"
+    ],
+    "unproved_interface": "The method requires an input in Z[x] and the quotient-ring residue is only an internal cyclotomic-divisibility certificate. A positive result does not factor C; a negative result only excludes cyclotomic divisors of C, not positive real non-cyclotomic factors.",
+    "review_status": "pending",
+    "tool_source_count_candidate": true,
+    "helper_review_decision": "passed"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Use Theorem 3.1 or Theorem 4.1 only for structured 0–1 masks satisfying their exact subset/exponent hypotheses. Theorem 4.1 indexes coefficients at a_{4^j}; Lemma 4.6 applies only to F=c_0+Σc_j x^{4^{k' _j}} with integer coefficients and gives m|2^{2k'_1+1}. It excludes cyclotomic factors in that nested-power class, not arbitrary multiples-of-four exponents.",
+    "source_local_ids": [
+      "W18-D04-B11-004"
+    ],
+    "unproved_interface": "A175 imposes none of the special exponent-family hypotheses, and irreducibility over Q does not exclude nonnegative-real factorization. No bridge from these integer-mask results to arbitrary probability factors is proved.",
+    "review_status": "pending",
+    "tool_source_count_candidate": true,
+    "helper_review_decision": "passed"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "If independent verification has already represented the target as a 0–1 tiling A⊕B=Z_M in a specified finite cyclic group with M=p²q²r², Theorems 1.1 and 3.1 classify the stated square-signature unsupported-Φ_pqr case; Theorem 7.1 gives explicit cyclic examples when r∈⟨p,q⟩, and Theorem 7.4 lists every complement of its constructed tile.",
+    "source_local_ids": [
+      "W18-D04-B11-005"
+    ],
+    "unproved_interface": "A175 supplies independent finite-support laws with nonnegative-real PGF coefficients, not 0–1 set masks or a finite cyclic tiling. This paper does not prove integerization, the required square signature, or an ordinary-convolution-to-cyclic/no-wrap transfer; its three-prime classification does not settle the general Coven–Meyerowitz problem.",
+    "review_status": "pending",
+    "tool_source_count_candidate": true,
+    "helper_review_decision": "passed"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "Once finite 0–1 masks and a cyclic period are already established, Theorem 2.5 tests tiling by size and divisor exclusion; Theorems 4.4/4.7 and Proposition 5.5 give exact box/Fourier/cuboid criteria for integer masks; subgroup and slab reductions are usable only under their stated hypotheses.",
+    "source_local_ids": [
+      "W18-D04-B11-006"
+    ],
+    "unproved_interface": "The hypotheses are finite cyclic integer tilings (or integer-weighted masks for the Fourier/cuboid statements). The source leaves broad reduction questions open and does not show that arbitrary nonnegative-real PGF factors have integer coefficients, are 0–1 masks, or form a unique-representation cyclic tiling. No no-wrap bridge is supplied.",
+    "review_status": "pending",
+    "tool_source_count_candidate": true,
+    "helper_review_decision": "passed"
+  },
+  {
+    "problem_id": "A175",
+    "tool": "probability-integer-polynomial-factorization",
+    "role": "auxiliary",
+    "needed_lemma": "If a coefficient vector is already a nonnegative integer relation among m-th roots of unity, Main Theorem 5.2 restricts its total weight to the additive semigroup generated by the distinct prime divisors of m; Theorem 4.8 lower-bounds support/weight of asymmetric minimal relations. Use the C30 counterexample as a guard against assuming every specific positive relation decomposes into translated prime cycles.",
+    "source_local_ids": [
+      "W18-D04-B11-007"
+    ],
+    "unproved_interface": "The theorem requires nonnegative integer multiplicities in a finite cyclic group ring. It neither integerizes arbitrary real PGF coefficients nor implies positive prime-cycle decomposition of each concrete relation; Remark 5.3 gives an explicit counterexample. The A175 root-order and cyclic/no-wrap interfaces remain unproved.",
+    "review_status": "pending",
+    "tool_source_count_candidate": true,
+    "helper_review_decision": "passed"
+  }
+]

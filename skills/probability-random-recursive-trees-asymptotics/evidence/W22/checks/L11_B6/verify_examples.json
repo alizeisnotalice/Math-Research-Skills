@@ -1,0 +1,91 @@
+{
+  "RT015_E_X2_from_Corollary1_gamma_expression": 1.0471975511965972,
+  "RT015_E_X2_from_fixed_point": 1.0471975511965972,
+  "RT015_abs_difference": 0.0,
+  "RT015_alpha": 0.5,
+  "RT015_first_moment_rhs": 1.0,
+  "RT024_binary_leaf_mean_exact_recurrence_samples": {
+    "1": {
+      "exact_fraction": "1/1",
+      "ratio_to_n": 1.0
+    },
+    "10": {
+      "exact_fraction": "11/3",
+      "ratio_to_n": 0.36666666666666664
+    },
+    "100": {
+      "exact_fraction": "101/3",
+      "ratio_to_n": 0.33666666666666667
+    },
+    "1000": {
+      "exact_fraction": "1001/3",
+      "ratio_to_n": 0.33366666666666667
+    },
+    "100000": {
+      "exact_fraction": "100001/3",
+      "ratio_to_n": 0.33333666666666667
+    },
+    "2": {
+      "exact_fraction": "1/1",
+      "ratio_to_n": 0.5
+    },
+    "3": {
+      "exact_fraction": "4/3",
+      "ratio_to_n": 0.4444444444444444
+    }
+  },
+  "RT024_leaf_limit_formula_d2_k1": 0.3333333333333333,
+  "RT035_integrand_from_source_formula": [
+    [
+      "3*exp(-s)/4",
+      "-3*exp(-s)/4"
+    ],
+    [
+      "-3*exp(-s)/4",
+      "3*exp(-s)/4"
+    ]
+  ],
+  "RT035_lambda1": 3,
+  "RT035_lambda2": 1.0,
+  "RT035_sigma_exact_difference": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "RT035_sigma_from_Example7.2_formula": [
+    [
+      "3/4",
+      "-3/4"
+    ],
+    [
+      "-3/4",
+      "3/4"
+    ]
+  ],
+  "RT035_sigma_from_source_integral": [
+    [
+      "3/4",
+      "-3/4"
+    ],
+    [
+      "-3/4",
+      "3/4"
+    ]
+  ],
+  "RT035_two_type_A": [
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "checks_are_numeric_or_finite_recurrence_not_proofs": true
+}

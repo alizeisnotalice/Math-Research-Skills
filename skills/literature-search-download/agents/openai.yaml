@@ -1,0 +1,4 @@
+interface:
+  display_name: "文献检索与下载"
+  short_description: "中英文学术文献检索、题录核验、开放全文下载与可追溯清单交付"
+  default_prompt: "使用 $literature-search-download 检索指定主题的论文，核验题录并下载可获取的全文。"

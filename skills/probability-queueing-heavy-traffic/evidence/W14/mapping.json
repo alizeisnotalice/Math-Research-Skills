@@ -1,0 +1,101 @@
+[
+  {
+    "problem_id": "A006",
+    "tool": "probability-queueing-heavy-traffic",
+    "role": "direct",
+    "needed_lemma": "Start from Boon–Boxma–Winands Eq. (4), retain the 1-limited boundary term, and derive a solution for the shifted two-variable PGF equation in the specified polling-epoch model.",
+    "source_local_ids": [
+      "W14-001",
+      "W14-020",
+      "W14-019"
+    ],
+    "unproved_interface": "A shifted Riemann–Hilbert boundary problem and admissible PGF uniqueness are not solved by the branching-type recursion; preserve the Poisson/IID/stationarity and embedded-epoch assumptions."
+  },
+  {
+    "problem_id": "A007",
+    "tool": "probability-queueing-heavy-traffic",
+    "role": "direct",
+    "needed_lemma": "Prove convergence to the deterministic cyclic fluid system for independent general renewal arrivals when deterministic switch-over times grow proportionally, including the scaled stationary waiting/queue quantities requested by the dossier.",
+    "source_local_ids": [
+      "W14-001",
+      "W14-019",
+      "W14-020"
+    ],
+    "unproved_interface": "Control renewal ages/residual times uniformly over cycles and justify exchanging long-run stationarity with the large-switch-over limit; Poisson Eq. (7) and the simulation tables do not supply this step."
+  },
+  {
+    "problem_id": "A008",
+    "tool": "probability-queueing-heavy-traffic",
+    "role": "direct",
+    "needed_lemma": "Close the necessary/sufficient stability gap for the exact three-queue adaptive limited-service model when l2>1, or produce a rigorous counterexample to a proposed finite-moment criterion.",
+    "source_local_ids": [
+      "W14-002",
+      "W14-011",
+      "W14-004",
+      "W14-008",
+      "W14-009",
+      "W14-024"
+    ],
+    "unproved_interface": "The fluid inequality (3.14) is not tight for l2>1; any replacement must preserve the paper's Markov state, independent IID primitive sequences, unbounded/spread-out arrivals, and positive-Harris/transience definitions. The two-queue whole-distribution example is not a solution of this model. Gamarnik–Hasenbein (W14-011) give a converse only under assumptions A–C and FDP, and the conclusion is instability under some non-idling policy; it does not settle the exact adaptive limited-service criterion."
+  },
+  {
+    "problem_id": "A011",
+    "tool": "probability-queueing-heavy-traffic",
+    "role": "direct",
+    "needed_lemma": "For FCFS G/G/m, m>1, from Kiefer–Wolfowitz initial state zero under stationary ergodic paired input and E[sigma_1]<m E[t_1], prove total-variation convergence to the minimal stationary law or give a counterexample.",
+    "source_local_ids": [
+      "W14-003",
+      "W14-009",
+      "W14-034",
+      "W14-035",
+      "W14-030",
+      "W14-031"
+    ],
+    "unproved_interface": "Coordinatewise monotone weak convergence does not give a finite coupling time or total-variation convergence; mixing/Harris/renovation assumptions used in known cases exceed mere stationarity and ergodicity. Iglehart–Whitt (W14-030/031) establish functional weak limits under renewal/channel assumptions; they do not establish stationary convergence in total variation or finite-time coupling."
+  },
+  {
+    "problem_id": "B054",
+    "tool": "probability-queueing-heavy-traffic",
+    "role": "direct",
+    "needed_lemma": "For the n-by-n input-queued switch and a stated SSC-achieving policy, prove uniqueness of the pair (L,M) satisfying Eq. (7) at least within the probability-admissible transform/boundary-measure class, and state separately whether the source's broader analytic Conjecture 1 is proved.",
+    "source_local_ids": [
+      "W14-005",
+      "W14-012",
+      "W14-013",
+      "W14-014",
+      "W14-015",
+      "W14-016",
+      "W14-021",
+      "W14-022",
+      "W14-023",
+      "W14-025",
+      "W14-026",
+      "W14-027",
+      "W14-028",
+      "W14-029",
+      "W14-030",
+      "W14-031",
+      "W14-040",
+      "W14-041",
+      "W14-042",
+      "W14-043",
+      "W14-044"
+    ],
+    "unproved_interface": "The paper's class L(Theta) is the nonzero bounded holomorphic continuous analytic class; probability admissibility requires additional derivation of normalization, support/complete-monotonicity and boundary-measure constraints. Do not substitute an arbitrary analytic solution, a 2D BAR solution, or a numerical marginal fit for a probability transform or a uniqueness proof. Theorem 4 is conditional on Conjecture 1 and symmetric variance. Mean-drift/SSC results in W14-014 and W14-016 bound selected means/moments but do not identify a joint transform. Dai–Harrison (W14-021) provide a BAR converse for a normalized probability interior density with nonnegative integrable face densities, but their Conjecture 1 is precisely the stronger nonnegativity assertion; it remains unproved there. Its numerical L2 method is conditional and does not resolve probability-admissible Eq. (7) uniqueness. The added sources are scoped complements: W14-030/031 are finite-time process limits; W14-040/041 treat constrained diffusions under Lipschitz Skorokhod-map and drift-cone conditions; W14-042 proves stationary convergence for SBP networks under its explicit stability/moment-SSC/tightness hypotheses; W14-043 gives the earlier six-dimensional example; Heyda (W14-044) lowers the threshold to four dimensions with correlated covariance and supplies a five-dimensional identity-covariance example, while leaving the four-dimensional identity-covariance case open. These SRBM results do not prove B054 switch-transform uniqueness. None proves probability-admissible uniqueness for the B054 switch equation."
+  },
+  {
+    "problem_id": "B157",
+    "tool": "probability-queueing-heavy-traffic",
+    "role": "direct",
+    "needed_lemma": "Resolve whether the Gamarnik–Katz undecidability reduction persists for deterministic multiclass networks under static nonpreemptive buffer priorities when every buffer is infinite and every service time is strictly positive.",
+    "source_local_ids": [
+      "W14-006",
+      "W14-007",
+      "W14-032",
+      "W14-033",
+      "W14-034",
+      "W14-039"
+    ],
+    "unproved_interface": "The existing theorem permits finite buffers and zero service times and uses deterministic boundedness of trajectories; the extension must preserve the exact encoding, policy and stability definition, not replace it with stochastic positive Harris recurrence. Gamarnik (W14-039) proves undecidability for a generalized-priority single-station model that permits intentional idling; the article leaves ordinary FIFO/priority undecidability conjectural, so it does not close this static-priority extension."
+  }
+]

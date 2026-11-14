@@ -1,0 +1,3064 @@
+{
+  "reviewer": "R03",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "workers": [
+    "W05",
+    "W06"
+  ],
+  "source_decisions": [
+    {
+      "worker": "W05",
+      "local_id": "ab87",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.4–5 Theorems1.1–1.2 and differential inequalities; pp.15–16 self-determined cluster and Lemma3.5 trichotomy; pp.21–22 Lemma4.1/Theorem4.2 explicitly for small h"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "source_binding": {
+        "source_item_sha256": "f155e44adac5475906476df4ab2aebf82855eb0db64c82f0cf672453529a4060",
+        "card_sha256": "9d94d9c77e364c5634039c716c4a95b3ed61aecca61feb1caef4d89e9e4af7bb",
+        "coverage_item_sha256": "61d5e8e060f4d1a2006592514167800047e13376063dca3d7be8c011debf42e3",
+        "pdf_sha256": "47ae1af48674f5d6b20cf58b756ca173360596ac969a396bd683a6f645bc1eba",
+        "pdf_pages": 38,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "ag91",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.3 Theorem 1; pp.4,11 strictness/essentiality and Russo setup",
+        "PDF pp.12–15 Lemma 2; p.14 statement that Fig.4 replaces formal geometrical proof",
+        "Grimmett Selected Problems PDF pp.10–11 §6 and Question6.1, documenting omitted site-surgery details and dimension distinction"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "pdf_check": {
+        "pages": 19,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "e54fb7569d3da2b7ae6cd0947252cb985fb995559c13917a18311da8614b4ecc",
+        "card_sha256": "42f90f7a8a5877cf25fcb245fbc313d09a6acf9acc34a06584fabbb942640cbc",
+        "coverage_item_sha256": "b056606a54d4cae9bef46ee4b7c4767a8828a214b744028059e9d2ae6ce3b29a",
+        "pdf_sha256": "7d92e9f60906be1940887327125c7e66417686c301236de33e44c2d9e224999b",
+        "pdf_pages": 19,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "al88",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.2–4 setup, Theorem1, formulas(1.4)–(1.7); pp.9–10 Lemma5 and independent critical-droplet opportunities; p.12 Theorem2 and (5.5); §5.1 time-density conjecture"
+      ],
+      "reason": "Complete bound PDF identity/version, page count and hash checked; source/card/section coverage compared at main claims and key proof steps. The finite-box versus infinite-time boundary (AL) / update-family and separately asserted torus boundary (BSU) is preserved. No general infection-tail or cross-model conclusion accepted.",
+      "source_binding": {
+        "source_item_sha256": "867f8a3b5f6968b887e2d9400e2900d0738b65416692e75c3d398af80c6cc880",
+        "card_sha256": "3bb1b47127708c402f3774755675d40023b3cfb11567c1540cc6876ea3bb4c9a",
+        "coverage_item_sha256": "842a62d088b01805205c98e8b23d11c2e114e6294491edee641bca265c48427c",
+        "pdf_sha256": "efe0b30dcd3eda5c41050dded083c215d03343e13815138afc4066097ec87f87",
+        "pdf_pages": 14,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "aldous95",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Local21p scan title p1; p15 rendered eq20–21 negative correlation/Fatou c=2; continuum Dilworth/reflection corollary"
+      ],
+      "reason": "Bound original identity, full declared coverage and used theorem/proof locations checked. Current statements accepted within the model and limiting-order restrictions.",
+      "source_binding": {
+        "source_item_sha256": "995eb3504b79b4da6a70fd3cb3d4eeaace0c8f7f17b3ade2cccdd0a2b274d5b9",
+        "card_sha256": "96b937e460ad0401a9857efbc4b873361bf9abd5fafde769bea374761f5fb089",
+        "coverage_item_sha256": "28762d6077aad7c2f6598c50f6cd42e13c75a5e8db0c341284a1eb546ebbe027",
+        "pdf_sha256": "a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c",
+        "pdf_pages": 21,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "ap96",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.3 Theorems 1.1–1.2, Corollary 1.3; pp.4–7 block setup",
+        "Original PDF pp.2–3 model, l1 norm and Theorem 1.1 joint-event formula; revised positive example FKG/uniqueness derivation"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "pdf_check": {
+        "pages": 14,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "90ef0edfcd394db4d4e4a758d1969e0c62118081e73a81bc16d30f050b2bbb08",
+        "card_sha256": "28c210cf0c8bffdd8b1779b710ca5a9d6bd931547466ae7803666612580f437e",
+        "coverage_item_sha256": "565beefc3304897d21c3c9af574186864512a245720f4654a87876f24c0fb262",
+        "pdf_sha256": "ff0b2b4bda6cd34dfb132c478138a0fe56a6a566f503f4776dda54ab0fe4d411",
+        "pdf_pages": 14,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "balister16",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.3–4 update-family/stability definitions, Theorem1 and Corollary2; p.16 Theorem6; p.17 k-scale independence/bad-square bound; pp.22–23 p_c=1 converse and opposite-stable-direction coupling"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "b922e2dcacaf8da2e0551bf83c1733f9165f46808172becdde8ffc7d32168ece",
+        "card_sha256": "1bd620323cc4775513aff7091ca54c779cc0d8535face39b13a18d16a8a811ab",
+        "coverage_item_sha256": "64a591492fb2524ea98242dc89ef5f14b75ca3adaf2289b7d99763a0643bd9bd",
+        "pdf_sha256": "7eff74194c26a771125ef87b41a2a68d949c52c1b1402788f71e44b1419fe9d2",
+        "pdf_pages": 27,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bbm3d09",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p3 sharp threshold definitions; p30 Lemma24 disjoint witness/last chance; p43 layered comparison/FKG; p49 Lemma37 intermediate internally-filled component"
+      ],
+      "reason": "Bound original identity, full declared coverage and used theorem/proof locations checked. Current statements accepted within the model and limiting-order restrictions.",
+      "source_binding": {
+        "source_item_sha256": "655f16f0d9e6d9e929c224a7c8485d93c266df290f9b4c2490940ed4e4d9fc08",
+        "card_sha256": "b489920db4cf99113f776e787b6589f2504517dfff1a3038aa4667f8c1336bba",
+        "coverage_item_sha256": "a37ddf9497970331edee5821a4b1a064aa6cfe9e9f80e425a7c3bbacaecfea47",
+        "pdf_sha256": "25f6de418c1896a3c7a5c7565803445211a02b4aedc8563af921f73461867d14",
+        "pdf_pages": 53,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bbm12",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.3 rendered: corrected Theorems1–2 and correction footnote; pp.10–11 witness-set Lemmas9–11; p.18 internally spanned clique count; p.21 corrected Proposition23/Chebyshev-sprinkling"
+      ],
+      "reason": "Complete bound original identity/page count/hash, section coverage and key theorem/proof positions checked. Corrected-v2 bounds verified visually, including n^(-1/lambda)/(c log n), K4 constants 1/4 and 24, and correction note. Eventual random-host closure is not maximum synchronous running time.",
+      "source_binding": {
+        "source_item_sha256": "ffadc47f4ba7055a580fe77e4f4ee9916dd55d30fd60d382d40f528a6b9b1495",
+        "card_sha256": "f2966647f001aebe1030def8317da76b6f2a271e65a48631cfffeab1f3a73ac9",
+        "coverage_item_sha256": "b58a842d19267dbb35bfa3a5b5a449f03ec857ddceeda9d8c949e1af6912b47e",
+        "pdf_sha256": "d3835e6e8274f94eb883d1f58c6451ba457f634c1c32fa14af7bd1a7a54db2f6",
+        "pdf_pages": 27,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bbmhd10",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p3 theorem constants/base2 logs; p11 sequential spanning inclusion–exclusion recurrence; p26 Theorem13 induction; p40 first-moment lower-bound calculation"
+      ],
+      "reason": "Bound original identity, full declared coverage and used theorem/proof locations checked. Current statements accepted within the model and limiting-order restrictions.",
+      "source_binding": {
+        "source_item_sha256": "8ca52c7663a6eda5479ba8dcfd1cc15b9ef261d07fdff24dc6238689c71fff66",
+        "card_sha256": "32cb70f5f560f559f6419028901052460122359b8a9c9f399c438553e540a8e9",
+        "coverage_item_sha256": "4b98647fc378bd174e9041a1efd9e17dffbc3b645464d72232eeaf6f4775f6de",
+        "pdf_sha256": "6d08d1fac61c45173971194526b8d867c481656ee805462f638ab558761e56b8",
+        "pdf_pages": 51,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bpp06",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.2–3 Proposition1.2 and Theorems1.1,1.3,1.4; p.5 regular-tree recursion setup; pp.9–11 flow/capacity pruning; p.12 boundary accounting (4.1), Bernoulli rate and animal count"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "5cb6cd08643bb69026f68fcac74fd4f31a80441fb037932ee0138fbc1d9bf2ce",
+        "card_sha256": "91db3d3af47583fde934cc5326cdba9d67a8555cc21f88db30bf6ff2e7ceea72",
+        "coverage_item_sha256": "168038b9475e08e57c3771d8a5ef2360c96ae8e474f73729687e3cb985e54274",
+        "pdf_sha256": "3c9e234c2c73baf8b1547107878bd496d3ab3f0ac096dbc53c8c1185c6b5cb1b",
+        "pdf_pages": 17,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bbdm12",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 identity; p.3 Theorem 1; pp.4–5 proof setup"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 36,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "e5366e49bb47da39b2045c7d4f7ba83c920ceec874ca14ef933884b499a3a2c8",
+        "card_sha256": "929999206d862c28b181f218cd098fd4888288c97ce4f40a620c633ab0249c6d",
+        "coverage_item_sha256": null,
+        "pdf_sha256": "5599d289240e3f2ba310f9bcb29f9ef9309ab3aafbd46056ae76997569ae4b1d",
+        "pdf_pages": 36,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "accepted_reading_status": "partial_read",
+      "quota_eligible": false,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bsu15",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.6 Theorems1.4,1.5,1.7 and explicit omission of separate torus proof; p.16 Lemma4.5 covering algorithm closure; p.18 Lemmas4.9–4.10 breakthrough-block counts; p.30 supercritical empty-block proof and Theorem7.1"
+      ],
+      "reason": "Complete bound PDF identity/version, page count and hash checked; source/card/section coverage compared at main claims and key proof steps. The finite-box versus infinite-time boundary (AL) / update-family and separately asserted torus boundary (BSU) is preserved. No general infection-tail or cross-model conclusion accepted.",
+      "source_binding": {
+        "source_item_sha256": "88fc22ba9f2a3e349e171383c096a0b134e7e41fd18157df8966f7eb662d0315",
+        "card_sha256": "a552b261d58da71b4f95d20ff9c619c985a0a62717c360dda3417ea1b3cb38eb",
+        "coverage_item_sha256": "990e7e2784e886670e5246e35a9c6fb75ccb44844ef685a2ca8be6fa26f7aca3",
+        "pdf_sha256": "3803d598341080269f4b95ba764167fa8bb281869ba82e241818288c9832e089",
+        "pdf_pages": 33,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bpr17",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 identity/version; p.3 Theorems 1–2 and Lemma 3",
+        "PDF pp.3–5 Theorem1, Observation4 and Lemma5 with t+3+d clique induction; pp.5–8 chain definition, C0–C2, dangerous sets and minimal chain-cover benefit/cost",
+        "Original PDF p.5 contains conclusion of §2 K4 upper bound before §3 begins"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "pdf_check": {
+        "pages": 17,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "682ed20c9a789c0772553b5939cf5b37570c2b2a72057f2150231abd268120aa",
+        "card_sha256": "f2541a7329297cd552078a4e8ac33913b434451a5bed1c6f3a65f9638eec35f6",
+        "coverage_item_sha256": "e83937d588e5cb4ce70002a1bf4bbcb7eb2ef65ecc1cd44276c5087c62a39ad9",
+        "pdf_sha256": "e5b9cfa59cebf8349becbe7b99a701caea7c963f956affb0d130a05f815fb8cd",
+        "pdf_pages": 17,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "curtis22",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.3 Theorem 1.3 and threshold definition; p.20 Conjecture 6.1, Problem 6.2"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 22,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "ea29fbb4310ea6f78359cb70bb7d469a8648f2d484f2f04df8329bdff16c3f97",
+        "card_sha256": "9ef7619590dd1224cc013650945e11a86b0c7e632887fe096e8d78353cee08e7",
+        "coverage_item_sha256": null,
+        "pdf_sha256": "0aea49f53c850eb66fd288442167e526834d5138b954b8f8d68d22e7f51b99e1",
+        "pdf_pages": 22,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "accepted_reading_status": "partial_read",
+      "quota_eligible": false,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "dctgen15",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–2 model, Theorem1.1 and finite-range restriction; p.7 finite susceptibility and finite-range iteration; pp.8–9 Proposition1.3 ghost field; p.9 Theorem2.1; pp.20–21 modified Simon inequality and Proposition2.3 critical external-field lower bound"
+      ],
+      "reason": "Previous round correction specifically rechecked: half-line unconditional speed versus singleton survival-conditioned speed; ghost-field and Ising-field proof sections; original two-unbounded-direction slab versus separate codimension-one thickening. Current reading evidence accepted under bound hash.",
+      "source_binding": {
+        "source_item_sha256": "384cfec97d8d33484308dfc9d0c5008bac98e8ac69562ee3f0d079f4ac12c0ad",
+        "card_sha256": "c343ca72e4aa15d84d56c89170672201394df060d62ba00fbc38f2861b9c4a54",
+        "coverage_item_sha256": "d1254115a4a6b4c240e3d8169b0dc0b6f6a9c70b34d7bb69a21724a28d78d7da",
+        "pdf_sha256": "8c204312d67bfd156d09ac803316922bffa629c64c65f9c6a1121d95123aae04",
+        "pdf_pages": 23,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "dctzd16",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–2 model and Theorem 1.1; pp.4–5 Lemma 2.1 and independence factorization",
+        "Original PDF p.3 §2.1 exploration proof of subcritical decay; pp.4–5 §2.2 Russo differential inequality and integration for supercritical lower bound"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "pdf_check": {
+        "pages": 6,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "1e3bb49e19c00dde362bb9d9055c110084c934018bd77d83f9c2f30a3f8125f1",
+        "card_sha256": "690d9ad1e0dea038ed13ae10b272f0546d294b1f42c16e82e2a08d3a6215130d",
+        "coverage_item_sha256": "85c7b903ec275cb03dbc060d94c68ee2d357e6cbda0981d17cd02816af73ec00",
+        "pdf_sha256": "addd81ba90c02368ea064a67ac638e0e813fd38addedb8e652cd176bef3a7b27",
+        "pdf_pages": 6,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "durrett84",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.5–6 singleton r_n versus half-line enlarged edge definitions; p.8 (7) singleton convergence ON survival; pp.13–14 stationary increments/survival estimate; p.34 §12 restart bound uniformly in initial A"
+      ],
+      "reason": "Previous round correction specifically rechecked: half-line unconditional speed versus singleton survival-conditioned speed; ghost-field and Ising-field proof sections; original two-unbounded-direction slab versus separate codimension-one thickening. Current reading evidence accepted under bound hash.",
+      "source_binding": {
+        "source_item_sha256": "d06c3d35a967d2dfc33409608590e66610d0016309d5938fa567414bcdf9ae14",
+        "card_sha256": "b7630b829b66140c5e8c2555dde9f3720e79c94feed1b91479411420730040dc",
+        "coverage_item_sha256": "6ab0dc616944ac0a0b7520b774844983a3513df08ad5fec47238fcccc6840830",
+        "pdf_sha256": "d04e2889157dd82d92d7d668445c8ad580558e340fc5f66457d6b90c535b5c31",
+        "pdf_pages": 43,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "english21",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.5 Theorem1.3 and logarithm bases; pp.18–20 alternative forcing domination, sparse conditional resampling and eta recurrence; pp.26–27 concluding discussion/references",
+        "Original PDF pp.24–26 auxiliary-proof conclusion then §6 concluding remarks; references start p.26"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "3ac000a8c8b3b8181f31e28b383b9ee58f418ff768df2feac6fb4e4d879a178d",
+        "card_sha256": "aceee80b0751b949d5605074e08a0fcebae6253da5bd30863ba49126d39cff38",
+        "coverage_item_sha256": "db12bab84588cdac50a458d72f2cba1bc163300181fc0e887a5f510e61bc8a08",
+        "pdf_sha256": "cc972918976151dcdb97873daab837a99cff4c009015469af2894aac4dcc196c",
+        "pdf_pages": 27,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "fabian26",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p15 Theorem4.2 and original proof; p22 Thm5.1; p32 Thm7.10; p35 Thm8.3"
+      ],
+      "reason": "Round7 correction rechecked against actual original locations: Theorem4.2 original proof in §4.3 distinguished from attributed survey summaries.",
+      "source_binding": {
+        "source_item_sha256": "8891d8de56f2db564bbb7082c902d2735ce28c7cecd0a73e174e71d3c5598f7c",
+        "card_sha256": "3665b40974e30d8cf07816c64f5465df78fc9ac9e98f0a100aa0f84d6039dcf7",
+        "coverage_item_sha256": "7abec1465c5577bc9f00f6814b39bfdc12ab6d13bb122e0d05046cd4df531e5d",
+        "pdf_sha256": "11d4c4e4454b37f5a9f420457cd92a4a984ae57999dac57071bc8c6e17ff043d",
+        "pdf_pages": 42,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "fabian24",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.3 Theorems1.2,1.4; p.4 Theorems1.6–1.8 and Proposition1.5; p.8 Proposition3.3; p.9 star/nonstar reduction and tree bound; pp.16–18 Definition6.1 exact simulation/K7-free invariant; pp.20–21 bipartite locked construction; p.22 Claim7.3 clique-merging proof"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "9ad367265278747c11835db80ef3bdfeafc9a93c45286f209bbfc5281db4ec43",
+        "card_sha256": "c2efca53067a5760a1b87869e9ded61d50e88b5188f9a95f23dd78848f4adaa8",
+        "coverage_item_sha256": "09d1b6d3e2fc4d07d2e5c44edfa54af6b66353ef192b7798078655b2c2e4c9f0",
+        "pdf_sha256": "d9891438ae432a8119676b24c5d1746ff4b717a1d1155e6bd6f8850d79daccf3",
+        "pdf_pages": 27,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "fabian23",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.3 Theorem1.2 and large-n caveat; p.7 Lemma4.1 distance contraction; p.10 parity induction; p.14 Lemmas6.2–6.3 difference sets; p.18 shortest odd walk; p.22 multi-cycle lower/upper routes"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "3ad61a400249f808612c9160e9e507d6af8cdf3f9f527c5ea34dc19f7cec6099",
+        "card_sha256": "561fa87eda6886c2c0ab25fba7d5887bbe4de14dc367486c3a5b801491da848e",
+        "coverage_item_sha256": "9636fbc7c6ca2fbace7cf7279f39a06443800b4bfc0fedaf35168e775a8a436d",
+        "pdf_sha256": "4210bf6c42a9ff3cee56a544285fab646384c4f6e56a1411a275381e78eacd7b",
+        "pdf_pages": 26,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "gravner17",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p4 finite rectangle/infinite spanning equivalence and Thm1.2; p26 Cor5.2 fixed alpha,beta in [0,1]"
+      ],
+      "reason": "Round7 correction rechecked against actual original locations: Rectangle-to-plane equivalence is for exact Hamming rule and seed contained in rectangle covering Z; Cor5.2 fixed alpha,beta in[0,1]; stronger general half-area seed bound remains unsupported.",
+      "source_binding": {
+        "source_item_sha256": "0ece038fc93668a42cbecfa434be9a762c07874b85535ed7d4efcfee1371c5ff",
+        "card_sha256": "717f42641f0751445332fcff153584b54e61f607d64beb2a97241f91bf65eed2",
+        "coverage_item_sha256": "6169e361a228828f2cc2c9ba4610805da110b7a968eb40d4018ef330f666194e",
+        "pdf_sha256": "47db59ad443a71031066aa7b296bb7b2ca5fc66b33c9615e4e8babc4a97925c8",
+        "pdf_pages": 55,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "gravner19",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.4–5 Theorems1.1–1.4 and thin/enhanced definitions; p.14 enhanced-to-thin transfer; pp.16–18 saturation/counting upper bound; pp.18–19 staircase lower-bound proof"
+      ],
+      "reason": "Complete bound original identity/page count/hash, section coverage and key theorem/proof positions checked. Hamming-plane maximum spanning-time bounds and thin/enhanced comparison checked; no minimum seed-size inequality inferred.",
+      "source_binding": {
+        "source_item_sha256": "226b5eb3c920470c8794e79dd522dfcc374fdd8f3fa319320483c5266e28af10",
+        "card_sha256": "716be68c4f54cdba0b1d2a5c44f4025017eeeab91aa1e94b414e4b93f7e243e4",
+        "coverage_item_sha256": "813128617d4502025acdcfd6102a2c3a42dc4a2f7cffaa653e6da0499e9d9333",
+        "pdf_sha256": "8779c413da4ec12f02adb8ad9bca20d2114ebcff12e822755d3c306e126daafb",
+        "pdf_pages": 22,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "gm90",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.10 TheoremA and original choice F=Z^2; pp.8–10 Lemma6 conditional sprinkling; pp.17–18 supercritical consequences, annulus conditional connection bound and chemical-distance discussion"
+      ],
+      "reason": "Previous round correction specifically rechecked: half-line unconditional speed versus singleton survival-conditioned speed; ghost-field and Ising-field proof sections; original two-unbounded-direction slab versus separate codimension-one thickening. Current reading evidence accepted under bound hash.",
+      "source_binding": {
+        "source_item_sha256": "1d47e80113fb34737b2026f2adecd9f050999570cb89a8a1fcecca665b549537",
+        "card_sha256": "4d67331167afca2207b02aeb4e8ca6f3cacc6db2bef585a47ffe8a48701061fe",
+        "coverage_item_sha256": "dd7c1bc43b6a78db338f4c78f988faaec5f26808990d06b9e765c6bde0f36e31",
+        "pdf_sha256": "83b65ef74a60243f2b5a62530c8db9bb976667802226a9316d4d932e848d73ad",
+        "pdf_pages": 20,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "grimmett-problems",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.10–11 §6 Question6.1 and omitted site-surgery discussion; pp.11–12 epidemic-rule comparison; full 15-page problem-paper structure"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "0c4c3eb460c42ccccc22fc7db77dbf178e2bd6aea4190ec6d40fe0009d8497cc",
+        "card_sha256": "9dda59bb77b12a195b3af3ff1e1f630560accd9bec4ee97c98fb6721c454b6db",
+        "coverage_item_sha256": "a5175daa496f4e00a0e57cb3272b7d05bd1b099573d460a818a795d16762bf72",
+        "pdf_sha256": "5d13ba96c4e6cc1d549b9320db03a355742fbc027bd640714922f5d26ce4e3c4",
+        "pdf_pages": 15,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "hartarsky21",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 version; p.14 Theorem 3.5; pp.32–33 randomized-algorithm proof locations"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 43,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "aee4cd44d25761551f04ca4eb3ff093b830d8f61ab6e3541209d7fed6e8d06b6",
+        "card_sha256": "e8612df3a78e861a918109586326aef912641f52221cbb161a18017016defede",
+        "coverage_item_sha256": null,
+        "pdf_sha256": "98276f50f7adff93ec69cecb946026a8e0cc43f141728ac7e567e9a19ada153d",
+        "pdf_pages": 43,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "accepted_reading_status": "partial_read",
+      "quota_eligible": false,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "holroyd03",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.2–3 Theorems1–4; pp.8–9 beta/g and Proposition5(ii); p.24 Proposition22; pp.28–29 rectangles algorithm; pp.36–37 pod estimate and (42)–(44)"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "1bd27cc332e5cbf51bcc3cda2024d73d55f70494598a66007d2893beb30ed574",
+        "card_sha256": "8e8fee11859248b5c20c8f0d08f7ded5c4b7b88512a471e3b949c431b15b7c70",
+        "coverage_item_sha256": "618afe416be8c0e8479f8c8c40785ecb1d99336aa8a7c3ae02f93b2096bf9eef",
+        "pdf_sha256": "3670dee8d74bd8cdcd8f1ed0094f3260c3445320cabab7980bf4d4e0a84f2767",
+        "pdf_pages": 40,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "janson12",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.9–10 Theorems3.1–3.4; p.16 external+internal infection rule and Theorem4.4"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "8c8a263de6084d7970662e8b73f162ab77b23e10bed11d64ffa5b2549f2eae42",
+        "card_sha256": "7e9537063f74785493429d1801a3d44bfc5f0470743cc2648104da01efb49420",
+        "coverage_item_sha256": "60f34aeb8ae00c424a192416f28b7bc5ba08c3438b6ea7925265c60727800cf0",
+        "pdf_sha256": "b5e9b50bc1eb5752959f9b0f3f8c3bacef8873c961c768d6e3fe8d6979440d37",
+        "pdf_pages": 59,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "kalinichenko24",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.4 rendered Theorems1.3–1.4 and actual >= premise; pp.8–10 upper increment bound, common-neighborhood Hamilton powers, monotone integer offset and exact stability; p.10 Remark3.11; pp.11–12 Theorem4.2 copy-count proof"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "source_binding": {
+        "source_item_sha256": "dcb0b24716ea38e30ed29673f58155aa32019b9334f0d1fcc1825e3f410f53e0",
+        "card_sha256": "ad64050542c2892164fbd85ca67b71e46bbb7e366850e3d8f2bbb376553baf30",
+        "coverage_item_sha256": "8f47d02830c4fca05a2832f33a40381d2e0a76b600a27154737457478779de36",
+        "pdf_sha256": "e46ef8c3d67abb2720ce7406e2f5ad009b87bd7990ab3c573d3c4e4d05293cd6",
+        "pdf_pages": 13,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "kesten82",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Rendered PDF pp.77,78,80,83,85,86 = printed pp.69,70,72,75,77,78: Lemma 4.1, Propositions 4.1–4.2",
+        "Full432p PDF title physicalp3 rendered; entire selected Chapter4 physical77–88/printed69–80 visually inspected: coupling, FKG induction, Russo coordinate proof"
+      ],
+      "reason": "Full432p book acquired, title physicalp3 correct; completeChapter4 physical77–88/printed69–80 visually checked. Product coupling, FKG induction and Russo pivotal proof accepted.",
+      "pdf_check": {
+        "pages": 432,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "full_book_acquired": true,
+      "source_binding": {
+        "source_item_sha256": "6c3069f202ce980458e8d2b1b40d4d090bd349dc96eca1ac57ecd53afd1ac9fa",
+        "card_sha256": "0d5f06da5b039d688cf9b95a01b4be81028545888dd4bfbd21c6ab56a88cbc2a",
+        "coverage_item_sha256": "7c9fa4fae6731985b772e81fe5152696591c4cb6f1869c637933ab139238101b",
+        "pdf_sha256": "09f54c11196f1a36d30d535bcf3ba1ae169df45c71dfba3464cf5d4179fad5d2",
+        "pdf_pages": 432,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "selected_chapters_read",
+      "read_units": [
+        "Chapter4 physical77–88, printed69–80"
+      ],
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "liu26",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.2–3 Theorems 1.1–1.3; p.4 supersaturation and proof setup"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "pdf_check": {
+        "pages": 8,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "4640ca127928724c9de2b7c1e1ec4ab26a20db1ee5a6a5b50c954effa23201ba",
+        "card_sha256": "cf5b77e8e54d4a21e0c3cfe0539df7f60bfc85652d6d191022dc1a49cd8621ee",
+        "coverage_item_sha256": "594e5626bcf679fccaaf67b6e217aaf0b34e959fb57defd7f81bcd0acfe3707c",
+        "pdf_sha256": "47dd93834662a84454d6f9bb94f26bc879e2c052655a818029494a57d303672d",
+        "pdf_pages": 8,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "pete-notes",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–4 informal questions; p.1 explicit error warning"
+      ],
+      "reason": "Prior mathematical checks retained and previous round exact corrections rechecked against current bound file: DCT exploration/differential roles, BPR closing p5, English closing pages, BPP 2<=k<=d plus supremum, Fabian II p3 plus separate star case are corrected. Full-paper coverage accepted; no new unrestricted mathematical claim certified.",
+      "pdf_check": {
+        "pages": 4,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "accepted_reading_status": "fulltext_read",
+      "source_binding": {
+        "source_item_sha256": "9648e3990b089e1d73cba01b18a168e7f70a5a79821b2bebc681704481510433",
+        "card_sha256": "50f0d3a751e83b1fffe50d5f9ad1f5331db7aa60d8d2905f4d9e9f8b3d0b4009",
+        "coverage_item_sha256": "dc020ba5adcd4c09a74e536ba7e565b3d529f9cf07e68ff59f877c3da70f3f67",
+        "pdf_sha256": "edd939c2bf0b6eae6c75a02a1d1856afed7dedae9cee2c1a2fef149d73da7069",
+        "pdf_pages": 4,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "coverage_units_checked": true,
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W05",
+      "local_id": "aldous-flow",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Entire local author HTML statement, source/sink sets, L1 limit and heuristic final paragraph"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "source_binding": {
+        "source_item_sha256": "ccbc578758fa3b119de80b2cf046978835298aee2f9e1495cca0a91173e0cc8f",
+        "card_sha256": "d3bad6f1f9e1b5ed08fd89839a1d20e7ff3d74cb8fbd8c260cf99c346f549ba7",
+        "coverage_item_sha256": null
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "accepted_reading_status": "partial_read",
+      "quota_eligible": false,
+      "final_binding": "reviews/R03/final_W05_bindings.json",
+      "evidence_kind": "web_reference"
+    },
+    {
+      "worker": "W05",
+      "local_id": "bkp26",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.2–3 Theorems4–5; pp.3–4 Definition7 custom induced-H-free and Lemma8; p.5 4n+40-vertex quadratic construction; p.7 3AP-free transverse-edge/triangle claims"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "source_binding": {
+        "source_item_sha256": "cd212db1f3b6509244eb777c03bfa28875dd99bfb3ba078c4b0dcbca11827c5c",
+        "card_sha256": "ca50845b083287ccfe637457f3457fb4fd0247242544c49a0a9c25174171b7f3",
+        "coverage_item_sha256": "03cbb341000f384709ade2e2b60530d71b4821aa8c5000d0e4cf8bd3aa31d1fe",
+        "pdf_sha256": "dd122366f97677603fa06945a715487c328f255b791d00041409b412ba6b9db7",
+        "pdf_pages": 10,
+        "hash_matches": true
+      },
+      "coverage_sha256": "ffb6a25236e2c0e47f449abaad8f70de848a2041e34cf59e0a78704213e689a2",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "469dbbb9dd1c13a5752fae9b7405a8a6dcc3f18d722cfb786b72b69f303d3726",
+      "quota_eligible": true,
+      "final_binding": "reviews/R03/final_W05_bindings.json"
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–3 title and contents; pp.8–19 moment/shape statements; pp.128–130 Eq.(6.1), Eden definition; p.130 Question 33",
+        "PDF pp.128–130 uniform-frontier vertex model and Eq.(6.1); revised card exact partial §3.3 range; full 160-page PDF"
+      ],
+      "reason": "Revision correctly separates vertex-clock from edge-clock Eden, labels §3.3 partial through p.45, and uses edge-source evidence for archived edge-FPP C100. Full-book acquisition accepted; only explicitly complete selected sections count as selected_sections_read, not full monograph reading.",
+      "pdf_check": {
+        "pages": 160,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "full_book_acquired": true,
+      "accepted_reading_status": "selected_sections_read",
+      "source_binding": {
+        "source_item_sha256": "b3ce6fa7179c3985a00ea7482e74603690d6fc6b66f50e96a249e9f744301f7d",
+        "card_sha256": "f6106a1eb8d6bfd1110a2e5b337b040dbd1381ee22f1ecee3f923eadf932745c",
+        "coverage_item_sha256": "0a156b87ffa942846e8c41dfcbc57ac4e6820d1921d2a23ac61a4c8084b4a86a",
+        "pdf_sha256": "89ab8416bc42814c3d529475ad7e5608a7c67ba368fcf7c6192c54eb82bf424d",
+        "pdf_pages": 160,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "mathematics_decision": "passed",
+      "quota_eligible": true,
+      "read_units": [
+        {
+          "unit": "§§2.1–2.3",
+          "physical_pdf_pages": [
+            8,
+            19
+          ],
+          "complete": true,
+          "coverage_note": "Defines passage-time and time-constant setup, establishes the norm/shape framework and states foundational limit-shape results used by later FPP arguments."
+        },
+        {
+          "unit": "§§3.6–3.7",
+          "physical_pdf_pages": [
+            65,
+            72
+          ],
+          "complete": true,
+          "coverage_note": "Surveys large-deviation and fluctuation estimates, separating assumptions for upper/lower tails and recording the limits of existing bounds."
+        },
+        {
+          "unit": "§4.1",
+          "physical_pdf_pages": [
+            73,
+            77
+          ],
+          "complete": true,
+          "coverage_note": "Introduces the geodesic framework and uniqueness/direction questions used in planar FPP."
+        },
+        {
+          "unit": "§§4.4–4.5",
+          "physical_pdf_pages": [
+            90,
+            106
+          ],
+          "complete": true,
+          "coverage_note": "Develops directional geodesic and coalescence results, with differentiability/uniqueness hypotheses tracked separately from conjectural behavior."
+        },
+        {
+          "unit": "Chapter 5, §§5.1–5.6",
+          "physical_pdf_pages": [
+            107,
+            127
+          ],
+          "complete": true,
+          "coverage_note": "Introduces Busemann limits, their existence mechanisms and uses for infinite geodesics and directional structure."
+        },
+        {
+          "unit": "Chapter 6, §§6.1–6.5",
+          "physical_pdf_pages": [
+            128,
+            137
+          ],
+          "complete": true,
+          "coverage_note": "Treats Eden/Richardson growth and competing growth, including the growth rule and its relation to passage-time models."
+        },
+        {
+          "unit": "§7.1",
+          "physical_pdf_pages": [
+            138,
+            145
+          ],
+          "complete": true,
+          "coverage_note": "Sets up max-flow/min-cut formulations and the principal flow asymptotics discussed in the survey."
+        },
+        {
+          "unit": "Open problems",
+          "physical_pdf_pages": [
+            146,
+            148
+          ],
+          "complete": true,
+          "coverage_note": "Checked the survey’s open-question statements relevant to archived FPP, geodesic and growth problems."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            149,
+            160
+          ],
+          "complete": true,
+          "coverage_note": "Read for source tracing and to distinguish cited theorems from the survey’s own discussion."
+        }
+      ]
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.3–4 good measure definition, Theorem 2; pp.5–6 ray Busemann monotonicity and Lemmas 1–2"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 10,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "4e83258eb9d145afcdd82aacfae9bddd0c10434a422a2c239a354adb17441183",
+        "card_sha256": "49c83d42d5d67afea82c8abf74cccf6d60291dcf4fd6907b26a5ca2f48921c73",
+        "coverage_item_sha256": "20c943412597a45a9fabc88c4c29835f8409da419c8886a9c1dc3b070a2e6a5a",
+        "pdf_sha256": "cc8ad6c9d34a53053b8e52a6c215f105ff8bb621d012e90c45343f36e5c4abc2",
+        "pdf_pages": 10,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 Theorem 1; pp.5–6 Lemma 3, equations (8)–(9) and randomized endpoints"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 11,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "bc8e8e3e62c37ef7dff15361801df304062a3587eeb0e19e7b6339b48924fed6",
+        "card_sha256": "2b112ae433f882841db4f4e29dda966326addb253c7d2beb0e3c6c9e77b873e4",
+        "coverage_item_sha256": "82ed2951bb1ff32346507c26badc35a59763fd8c5b3158bb591958091fbbe7d4",
+        "pdf_sha256": "ced62f244e34547f2a79ef15a87f10fb6f49d9c76b8f0dafb5384f32a4e09724",
+        "pdf_pages": 11,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–3 directed exponential vertex model and Theorem 1; p.2 local-modification/competition-interface dependencies"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 10,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "8cc87cf0ba293a1f79bf1af5f48bc2a6a38601f429f5f4cbbd00b778b2d2d6b0",
+        "card_sha256": "dc19c3b094d749d9ea0442ef85f79fa0f18d20004b3a450937ac61e23c16777f",
+        "coverage_item_sha256": "7cbb42ce16f6f91ae000f593fa862d2fc870e08e8d3f6fadf8effa3c9c281577",
+        "pdf_sha256": "0c1a2e2065973d19ff5c0a4a3b1a5c7696bc9ceb6f9e613289ae8e368ae382b1",
+        "pdf_pages": 10,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.2–3 (A1),(A2), Theorem 1.1; pp.6–7 Proposition 1.7 and 1.8"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 20,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "4884ab9c567b3519c0704ab43a613a27fc23b51c3a2a196d2c360f2aecf72674",
+        "card_sha256": "bb274e7e2ca00a30b3ea2a88d429fc12ba552d1854adeb1055f2ed5319ccb1d3",
+        "coverage_item_sha256": "75c02b9483bac4d4ab1241ae0a92518d0157a450ec256f3d5ff3f9a27e5a7175",
+        "pdf_sha256": "7cb52bd065526d549e50ce673ea5581d65d44aa3fb7494d1eb08e93bd13be87c",
+        "pdf_pages": 20,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–4 critical square model, Theorems 1.2,1.5,1.6 and Corollary 1.3"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 28,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "a1c2b617d3bd3390a5ba65f649ad783f902b85cf8b1c860b6b7698f811a4fe1d",
+        "card_sha256": "132896cbc1214d94bd3fc81ca036d3d1543041f9060bb3be0ecdb625f2f5a4c2",
+        "coverage_item_sha256": "b43672a41f97cdaf2f53d8d541857b32da3d169daebf2940f4d55ddaee7bc7ac",
+        "pdf_sha256": "07eb0023eebf9703521af8ce160a256c41f18c2c7a78b5a9e90729fdd16e27d6",
+        "pdf_pages": 28,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 exponential edge model; pp.5–6 Theorem 2 and Corollary 4; p.7 references"
+      ],
+      "reason": "Checked the stated theorem/model and specified proof ingredients against local original. Reading scope accepted only as recorded; partial_read remains partial and does not count as a full paper. Publication metadata not visible in the PDF was not independently certified.",
+      "pdf_check": {
+        "pages": 7,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "44da77d238e4f3d381169a404fe7a5a7a66836900e893a7f37a74d4df41c64e9",
+        "card_sha256": "536af8a081b7452588f1e5467d58acb1962addcb8ede00ba80f9c0976b26a204",
+        "coverage_item_sha256": "bc7708a7ac44e043cda04132295223c26986b54650f2d89abeeadba91ab89f62",
+        "pdf_sha256": "81fcf21128b77f7eb2bd39b8d3c34cad235891b509f6703233634fbc9a77cfce",
+        "pdf_pages": 7,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–2 edge infection model and Theorem 1; p.3 boundary bound and recursion setup",
+        "PDF pp.1–2 edge model and Theorem 1 dimension 22; revised card/mapping and CEG PDF p.6 Corollary 4"
+      ],
+      "reason": "Revision limits BP theorem claim to d=22 and separately reports CEG stated d>=35. No inference for d23–34 or all d>=22 is certified.",
+      "pdf_check": {
+        "pages": 11,
+        "hash_ok": true,
+        "first": "See pdf_identity_checks.json"
+      },
+      "source_binding": {
+        "source_item_sha256": "91e5f75f6b0fb4ed71e4be8e87d9fbfbf9d4b406837435c5adbaf15caad75ef9",
+        "card_sha256": "0aac962c6f971aab1e51d8d370fb8acc23148594c021e5d18080c597e8ad498d",
+        "coverage_item_sha256": "e4a5aa74544d6262968fb9c8589b092789c189f4c2705de804d3b0793635b1f8",
+        "pdf_sha256": "bf6e56f65c7a614ee5c307bc3cfc78f816eb798655a0bbe992d720d8cd2d05f5",
+        "pdf_pages": 11,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF titlep1 v1header2013/title-date2018 explicitly scoped; pp3–5 Th1.1–1.6; p12 last-contact limit; pp18–19 concave single-edge replacement and strict-detour construction; p23 cylinder-renewal deviation appendix"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope. Bound local copy identity and reading are accepted; unresolved version relationship is preserved, so page-specific external citations require checking the target version.",
+      "source_binding": {
+        "source_item_sha256": "607dfef0e12a8313aa3e19ad5abb736998e6b16992cc9c784114095f45fa8489",
+        "card_sha256": "c95ad7a1f04aa1a01bc7cfd53cec048496ab96f0f8c6d5b22392a99bf1b708f9",
+        "coverage_item_sha256": "b4fd75e21ddab9f665f4ec4e0ed73962510e8e1e2f927a72e3e87855f3d36971",
+        "pdf_sha256": "df99825219f142a6aff59b73e007de8ed5b426c050d2388e740f3812e39b1790",
+        "pdf_pages": 25,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true,
+      "version_equivalence_verified": false,
+      "reviewed_version_scope": "Exact local binary under bound SHA only; header/title-date or journal-layout relationship recorded as unresolved. No assertion of equivalence to terminal journal/arXiv layout."
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1,5–6 identity, Definition 2.1, Theorem 2.2 and Lemma 2.3; pp.9–11 covariance identity (20), duality and coarse-grained path argument; pp.16–17 Proposition 3.6",
+        "Original PDF p.9 covariance identity; p.10 heading §3.2; p.16 Proposition3.6 within §3.3; general local-mgf model, not exponential-only"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "source_binding": {
+        "source_item_sha256": "c661953dc4c992fb0d127a12e89ca04e4a00b477c0b7943db4ae42b09564ffdc",
+        "card_sha256": "a0d3a56f7468f57d3e93b968ce5cfb1bb15d717a28784e338e3d9dec378ad23e",
+        "coverage_item_sha256": "fa793e03020de915d85b8dd008b4253d00c865df42a8a8ad4233ab06927b856f",
+        "pdf_sha256": "c0cf564821b58361d3ffb830353394659fadf4c922ca8a5fb9097d861a336c31",
+        "pdf_pages": 22,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p4 endpoint differentiability/Cor2.1; p6 Thm2.2 infinite-species coexistence; pp12,18 bypass/sprinkling contradiction; p23 variance support-gap argument",
+        "Physicalp6 rendered Theorems2.2/2.3 infinite species/ends; p7 Th2.5; p8 Th2.6/2.7; p9 attribution"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope.",
+      "source_binding": {
+        "source_item_sha256": "59068cb7fe24149f7d027894378fc4e062a97f8c0f4f8c3141f8144f906a8f85",
+        "card_sha256": "a33b518106abb8cffae7fb211713554d2cd45519218133d20b6933ee5162b8ba",
+        "coverage_item_sha256": "47f5c891e886548ef17559fe2df709d3d8cfc08637875c819f7b5a998c82c4fc",
+        "pdf_sha256": "aa0b2cd695d1f46f4982307bf25fab80ea147ffb2938509a1477fc2d45964735",
+        "pdf_pages": 32,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF titlep1 electronic reprint; pp4–6 Th1.1/1.3/1.5 and A/B alternatives; pp6–9 Jordan crossing/finite separator; pp22–23 positive-density edge modifications; pp25–27 existence appendix; pp30–33 no-bigeodesic contradiction"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope.",
+      "source_binding": {
+        "source_item_sha256": "8615ce3bb40484fed0b82b0574511a30dfef12e549139114f84fc607c4f19616",
+        "card_sha256": "e7131cdc1e916e1c2190aac6ca7b1e5687b7731f216981e17c5d1721201cb8f5",
+        "coverage_item_sha256": "ee08a9e2bc693b7995ad821736cb08ce4f9ec69b8e6b885ecb28d202c4932e7f",
+        "pdf_sha256": "0e8dd3e6aadcabe553e2a1f2a3edad3e808ad805e7492cacf0f0c30a7bb7a529",
+        "pdf_pages": 34,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF pp.2–4 Theorems1.1–1.2 and Poissonized Toeplitz identity(1.12); pp.51–54 de-Poissonization, tail control and moment convergence; pp.54–57 AppendixA determinant derivation/heuristic"
+      ],
+      "reason": "Permutation/Poissonized LIS F2 distribution and all positive-integer moment convergence checked, including tail/de-Poissonization proof and Appendix. No undirected-FPP transfer.",
+      "source_binding": {
+        "source_item_sha256": "56daf32a6a1672da2e465b6d4493de999696a60982aa0645d3d53a1baafee026",
+        "card_sha256": "f4eb76453ddde573fd8cf2a23b9c81d7c4a8552487c3fa2a917113ca5bd2b7b1",
+        "coverage_item_sha256": "3bcb3d5bfbb559b9e73e60db2376851e7ecd39826be35f629082d764613346cd",
+        "pdf_sha256": "0a432946234949c12a3e379e42d8f79fa646b9002810ffe97817d52aca184a7a",
+        "pdf_pages": 60,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-014",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "d87cc52a9eb4540d0155ac3e183412cd27f4c280308099c8b2d1ea1c2c7d861f",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "4c4efd3459dfed7f0c413e98e351f9ef5959b9a1b10fdddff3cf4b1c0adc18eb",
+        "pdf_pages": 44,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-015",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.3 rendered visually: Theorem 1 geometry, exponential moment, n^(d-1), a.s. LLN and positivity iff Lambda(0)<1-pc; local original pp.1–3 network definitions",
+        "Original PDF physical p.14 rendered: §3.2 Large deviations; physical p.18 rendered: §4 Polyhedral approximation, Theorem11 and equality of continuum values before LLN"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "source_binding": {
+        "source_item_sha256": "c85937579064c4c964c26c37813c06c2ccecf3fbd850e868893731c15a1fc4a2",
+        "card_sha256": "6c0b984f15d01538e4ac3d64bbe4d40ee7a4b89e3f1f9f967079d37d3cd451cf",
+        "coverage_item_sha256": "24bc13391a8caaadcae0cf7add51b9ac6e9f7e148b774adc70f4292cf6d8399b",
+        "pdf_sha256": "e89d65caf6e2343bee94839ab0c0f7b9a5b773a30efe3a9c48c90ce57cc7adff",
+        "pdf_pages": 41,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-016",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p3 lower-tail theorem; p16 rendered local G-event union bound; local surgery and cylinder input inspected",
+        "Physicalp16 local G-event finite-cover union bound; p23 current local scope"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope.",
+      "source_binding": {
+        "source_item_sha256": "87d2ddd661b05cda2015b1ab8d3b21036052870024cfd02089ab6e84970a4163",
+        "card_sha256": "70a22b4d742b6c904a2a13639ff4cede77e1b6b8ce7bf2130d918d57544be16b",
+        "coverage_item_sha256": "7e42b30f3ffa62bbfb4c0e1e6b520bc3e3ea55961691e183f6e4ae04db54165d",
+        "pdf_sha256": "0215863fe2d703e802d721608cf47aa259110ce68afef38801d5d7b0be591f1f",
+        "pdf_pages": 23,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-017",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p3 volume-order theorem; p31 connector cardinalities and independent parallel-layer product"
+      ],
+      "reason": "Bound original identity, full declared coverage and used theorem/proof locations checked. Current statements accepted within the model and limiting-order restrictions.",
+      "source_binding": {
+        "source_item_sha256": "a3581e8838fb9bd3507b9eabc6644a9cb03be62d7c251de3e37e7d68e70a6981",
+        "card_sha256": "fea77bdb64b67f11f31dacc97bd96c2f8668f02a2f52d3a4b952195ab756596c",
+        "coverage_item_sha256": "ac4bd1a19f64464b3f59c1ed5d1437a7d39423f0736ff76cbc1f9cddc4f3c039",
+        "pdf_sha256": "63dd1b9e431ad83eb73c1f6c60aafe62f08b2556064e8f1b1711aae57f765e1d",
+        "pdf_pages": 35,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-018",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF pp.3–4 Theorem1.1 and Proposition1.3; p.7 Theorem2.1; p.32 Theorem8.10 assumptions; pp.18–20 independent crossing blocks and connector error; p.26 recursive exponent inequalities"
+      ],
+      "reason": "Sufficient thin-width exponent and p>2 condition checked; fixed-width exception and conditional wider result retain their unproved regularity/variance assumptions.",
+      "source_binding": {
+        "source_item_sha256": "9e7fbf2cb2aa586ca83e394025cd4cb30548cc2c65e1b5943c10534c4e103898",
+        "card_sha256": "9e2c8d6072bb7b0e88153f04a4c4a3878304661fe0974e1466a2b8f9b0122e40",
+        "coverage_item_sha256": "4ab03d15169c86d84f1dbea7f983edb009eb2afb9cbbfa90e842aa2b01ebc989",
+        "pdf_sha256": "875a332b1a96b1f93794ebdf79204a1bb226e4d0c08dd32e09664fa16241703a",
+        "pdf_pages": 40,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-019",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF titlep1 v3; pp3–4 four exponent definitions/Theorem1.1; p17 curvature lower relation; p22 separated block comparisons; p26 FKG variance bootstrap endpoint; p29 chi0 perturbation; §2 startsphysical4 Proof sketch"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope.",
+      "source_binding": {
+        "source_item_sha256": "3fa953b387a00bf8f4eb2e0fcb31d4e621576af3887358fc1e478da8760b8c88",
+        "card_sha256": "be668d849f1cb6de40c14d818595943586d0307a3c257fcea37c542f60932c44",
+        "coverage_item_sha256": "65c7de9e7cecf2148b98c4e2ea1e150b82903c62eb7f760a937824614d7f12c8",
+        "pdf_sha256": "e8a8b1aad02a838a59ceeb29331649363c39fec59099a6999e48c92bf690adae",
+        "pdf_pages": 33,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-020",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "25b2102ee1d90fac3bc7cdca9f5185a994c16a4dc1b2b54977e887b6aca156a1",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "6c428acac5fb33c309295c0fbadad6e60b69ba4a9c16ce482ae1c5dc5e372247",
+        "pdf_pages": 49,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-021",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "310668a349b0862a8af9fa069b1132e068080d8de139c680bae7f8f94e36c3bb",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "a097f0c5a31aeabd77d2e2be5821e7c69342d5b9963131b72f0944d80607f3c1",
+        "pdf_pages": 40,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-022",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.2 A1-prime; pp.3–5 sector assumptions and Theorems 1–2; p.6 Theorem 2.1; pp.24–26 planar Busemann slope comparison/coalescence and backward-branch proof",
+        "Original PDF p.2 A1-prime and revised card explicit square inside expectation",
+        "Original PDF p.15 §4.2 Definition of ordering; revised square-inside-expectation card verified"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "source_binding": {
+        "source_item_sha256": "8b1fb21cc718f09a9e9f3dfc0e72aca871602c428ea60d6a980824e4f962ee97",
+        "card_sha256": "218c77c3d710a4b813046fb830affb6ef2a262287de7913edb39355b5390349b",
+        "coverage_item_sha256": "5f9c59c0b9fa395d42a0b4e2d7f794c7a96286d4fae33625ae21e338439d2f21",
+        "pdf_sha256": "63c7b9b8aaeb0f54163d14e2cd45477e6216c4736ecd384c7a05ff331db73ba8",
+        "pdf_pages": 28,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-023",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Local 50-page PDF pp.5–9 Theorems1.1,1.6,1.10,1.11 and A1/A2 packages; Theorem1.10 p.8 fixes v before choosing full-probability event; local version caveat on title/header"
+      ],
+      "reason": "Fixed-v statement corrected. Actual local50-page manuscript identity is verified, but relation to listed arXiv52-page/date version remains unresolved; do not certify exact version equivalence. Bound local copy identity and reading are accepted; unresolved version relationship is preserved, so page-specific external citations require checking the target version.",
+      "source_binding": {
+        "source_item_sha256": "4be753a139c9e5aecbad64e72e5c433b1e5e01589e7179042110cfdfdcaa0ce8",
+        "card_sha256": "bb57f408cf1e5b58c69b8979f50855cae7558a0f20e948fa5ba70d8a3aaf9677",
+        "coverage_item_sha256": "a03253471056159498dee15e8b515af99bfc495b229931ec28faeebcfb868057",
+        "pdf_sha256": "1bd7cc9f750cdf9f49de8363278748f214f936006444302b31355ff7f672b1a6",
+        "pdf_pages": 50,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true,
+      "version_equivalence_verified": false,
+      "reviewed_version_scope": "Exact local binary under bound SHA only; header/title-date or journal-layout relationship recorded as unresolved. No assertion of equivalence to terminal journal/arXiv layout."
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-024",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–3 triangular vertex model, Theorem 1.1, Remark 1 mean/moment conditions; p.4 Bernoulli coupling; pp.13–14 upper bound and RSW/BK circuit-count control",
+        "Original PDF p.14 finishes time-constant proof before §5 variance begins"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "source_binding": {
+        "source_item_sha256": "547bb4f54159283c753f74b4ca60fc03f9326b2fa1e6d40110ec663b495b2645",
+        "card_sha256": "13cb2fadc85771de375d7ac2880cb12a1b0edf97b1ade68b15a74e16d3444940",
+        "coverage_item_sha256": "6396d83a9f1e270777f69b4dd57960e22f40bfc1b785d16ce0e7ee952025e74f",
+        "pdf_sha256": "311891e56e3df9b26f2d23997ac5d7e0dcbabacbc0be0f5a226d79a5b3032421",
+        "pdf_pages": 29,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-025",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p3 rendered Theorem1.1 sqrt(n/log n); p14 Bernoulli encoding; p21 weighted lattice animals; p25 entropy conclusion",
+        "Physicalp3 rendered exact lambda sqrt(norm/lognorm), separate two-sided and lower-tail moment hypotheses"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope. Bound local copy identity and reading are accepted; unresolved version relationship is preserved, so page-specific external citations require checking the target version.",
+      "source_binding": {
+        "source_item_sha256": "4a95870ed21a67e51b088acbde5765af4820431b5863ad192c76cebb16ef0c2b",
+        "card_sha256": "3876eea6cfab1ea28d7f1de83e63a884437581d35b0ef42af581124053ccfe10",
+        "coverage_item_sha256": "dfe3ff4a94cb8643e7178e74bef014942527fa8f223238d67feb3e10776f4090",
+        "pdf_sha256": "2654e92cef3b5e79631253497c218ac6c15c27a7c1dba760bd20817482b9132d",
+        "pdf_pages": 31,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": true,
+      "version_equivalence_verified": false,
+      "reviewed_version_scope": "Exact local binary under bound SHA only; header/title-date or journal-layout relationship recorded as unresolved. No assertion of equivalence to terminal journal/arXiv layout."
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-026",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p3 variance theorem; pp18–19 Bernoulli encoding; p26 derivative/geodesic estimates; pp29–30 lattice-animal conclusion"
+      ],
+      "reason": "Bound original identity, full declared coverage and used theorem/proof locations checked. Current statements accepted within the model and limiting-order restrictions.",
+      "source_binding": {
+        "source_item_sha256": "4ac00540f12205a9dd388d4c61bd50a827b7b237a5421443fe1487a12caa590c",
+        "card_sha256": "7bf11f8718971ddd927b07a1ff5f9b9f890514ae7f8b1a613e5e3bcf13dd3898",
+        "coverage_item_sha256": "99e7029cf7223ea7f2189a8508ea4244cdb3eb221491fc7f8c3818be8238a423",
+        "pdf_sha256": "6d2fc6eb8f9f52ddfcef99e231d6c02bdcffec2ebcce93a885af0a4b81775ca5",
+        "pdf_pages": 32,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-027",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–2 assumptions A1/A2, Proposition 1.1, Theorem 1.2; p.4 Theorem 2.1; pp.5–7 entropy tensorization, block resampling, pivotal count and Kesten input",
+        "Original PDF p.5 §2.1 entropy and §2.2 BLM start; pp.6–7 block/pivotal estimates"
+      ],
+      "reason": "Specific earlier quantifier/definition/mapping or physical-page/section-attribution correction rechecked and accepted against previously checked original locations; current binding recorded.",
+      "mathematical_assertions_checked": true,
+      "mathematics_decision": "passed",
+      "source_binding": {
+        "source_item_sha256": "3955eb2fc5716f3a375038d916d34c243c0a64ac90e7e04c0008d384a8b0d1c0",
+        "card_sha256": "47b4b4b4eb360a93f3b1af8635b711b56b218c374234eb95429730b8c3e2d5db",
+        "coverage_item_sha256": "b6f353ed49ae610f4fd60fa62938ec4358d5c0e8182c6b5e0dc944a53844fecb",
+        "pdf_sha256": "483ccfc000bfcabb4f985bdc9adb57fea43a1a93e615f3db0681d4420a0df991",
+        "pdf_pages": 13,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-028",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF titlep1; pp2–3 Th1.1–1.3 >32/>40 and powers; p5 Th1.4/1.5; p17 restricted-time tail; pp20,25–26 Harris/Gaussian perturbation; pp30,34 trapping/averaging; pp37–39 rotation alternative; pp49–51 many-side proof"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope.",
+      "source_binding": {
+        "source_item_sha256": "d0acefd43416839b7a1f1e768c05068d3e87af60d41a88908de5d770f56c890f",
+        "card_sha256": "fbfda4e73ea6458b03e08c04114ad80e2555663273618706e93561616e1050be",
+        "coverage_item_sha256": "15d60cf79dca6b4b62df69575d547391cc92c0a00a001ead5b621237a89c8541",
+        "pdf_sha256": "6868646910f480f3771bc07a6c4c9ecd0e74ac3dc2fca2b64f0fbec740f98e03",
+        "pdf_pages": 54,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-029",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "539b1fee8cdbd7335c0838b4af2b510e09cc3e52bc949ab2144249480f246026",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "059b11c5c124c802fc505c1da69fb83447ac85c74228bb9f7517af628c914bdd",
+        "pdf_pages": 51,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-030",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF titlep1 v2; pp8–12 Theorems2.1–2.8; pp20–21 Theorem4.5 sketch expressly refers to omitted v1 coalescence appendix; p21 Theorem4.6 finite-ancestor tree; p26 cocycle sign characterization; p30 existing v2 AppendixA A1 uniform ergodic/A2 passage-gradient monotonicity"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope.",
+      "source_binding": {
+        "source_item_sha256": "7fcd3c1f5f5c9e92d6efcafce3cde070b552de4aa4a279de62a40ee26918f1a8",
+        "card_sha256": "7e0033847b14546183d1f3c616895821709b6b991af0635d4e8330d47d651ae7",
+        "coverage_item_sha256": "a92665e6b65a82740dc9d5449fd63cd3fb9fddb262062230f52ec54fc082f703",
+        "pdf_sha256": "01827617eef63cc2f7de8aa3fa4766e7edad01ab35dbb922a7084c477c0ac219",
+        "pdf_pages": 32,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true,
+      "omitted_v1_coalescence_detailed_proof_verified": false,
+      "proof_scope": "All present v2 text/technical AppendixA checked; Theorem4.5 detailed v1 proof not read. Statements accepted as local theorem/template with explicitly imported dependency, not a fully verified reproduction of omitted proof."
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-031",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF pp.10–11 Theorems3.1–3.2; pp.19–21 Theorems5.2–5.3 and regularity/one-sided-null-set caveat; p.25 limit sandwich; pp.32–33 tandem queue Lindley recursion and mean preservation"
+      ],
+      "reason": "Directed vertex-LPP cocycle construction, original-environment measurability under endpoint differentiability, sector Busemann limits and variational uses checked. Queue mean/recovery mechanism and directional null-set limitations retained.",
+      "source_binding": {
+        "source_item_sha256": "73e9e85399315182a39a52fb8b15305e88012e6ae46a79f1f44f49702b78e7c3",
+        "card_sha256": "a5a58392ff52a3c7e4f66cdd98fad46f9526c8b2e5f02c764c9e4e868f9a0016",
+        "coverage_item_sha256": "4b9abe8c3129d30ea6e7ec0b7ca6ea4e12849900ddd6c6a2405c07d104649fc1",
+        "pdf_sha256": "3122d75c756f95bf1ab2ce3c0084ad0d367d7e7bf9df964f234778b55d434d4a",
+        "pdf_pages": 44,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-032",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "b4ddb82f296234055df6d4f7408be6886b54ed78b7f3fccb881e5346426fac23",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "e4c5a73d07964ccbb41028ec1fdd456a069a1776c6bf92f6e8b1be6fa380f749",
+        "pdf_pages": 69,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-033",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF titlep1 v4, physical42 blank; p8 Theorem2.4 allows infinite limits; p10 Th3.2 infimum; p12 adapted-cocycle sublinearity; p17 rendered Th4.4 finite-gpl assumption/duality proof; pp20,22 telescoping, expectation/integrability; p26 invariant measures; p38 AppendixA"
+      ],
+      "reason": "Current original mathematical assertions/key proof steps and declared complete local-text coverage checked; final corrections accepted within exact model/quantifier/limit scope.",
+      "source_binding": {
+        "source_item_sha256": "894b23681fdd3d3e16787317feb1656aa684f1c4778c3db572696e88e0f4b284",
+        "card_sha256": "2cd2ec45e38bcbc8f8860df955c7f98d06ad67415705673c2e4d741a576d66df",
+        "coverage_item_sha256": "e4cc3a3d7a386ed36c951f52c44faac80464d5b8162238c5042e6e935c175aab",
+        "pdf_sha256": "47ea01965b98a24907088bbf3003aca2db110efacd2bd24ede1af77f82ef2237",
+        "pdf_pages": 42,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-034",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF pp.5–6 Theorems1.1–1.2 and explicit no-moment-convergence statement; p.9 exponential endpoint centering(1.22); pp.24–25 Fredholm convergence lemma; p.41 Meixner kernel steepest-descent estimates"
+      ],
+      "reason": "Geometric/exponential directed shape, F2 scaling and distinct deviation speeds checked; source explicitly does not prove normalized moment convergence. No generic-FPP exponent inferred.",
+      "source_binding": {
+        "source_item_sha256": "05b17ac01d4bc54f6af69ef6d40d33f473651047d39bd35885e7eb19f013403e",
+        "card_sha256": "25382223488c77e231315a48a2fcb344b81619a6563a4cd43d6c239bafa5a886",
+        "coverage_item_sha256": "6e11b940f04458f7dd84ddfbc3f1f45ec7e6d8d6a752839dfd5a6cc9894cdfa4",
+        "pdf_sha256": "7ec8ed86cd46123c5a47f2c798791713a81c763dd46518cce37f6e080cc1d8f6",
+        "pdf_pages": 51,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "quota_eligible": true
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-035",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "f7e4f1d7933e5bb12a05f84cbcfa8b328973d9745e7daa08680b1cfe6374ce1e",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "15736cf021e66cbe4cba0a02cccdb98092e33e4909feb7636ff84bbdfa7c51a9",
+        "pdf_pages": 70,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-036",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "8efb7de669c1acd50b09f3a67f9ce5a178f7e1ff18c0a65a290e69f0561d60d8",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "fc1849abfa90f90921af69e147384b876e7aee96278b6f522aee9ad86f15b2c0",
+        "pdf_pages": 63,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-037",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Candidate not read; no theorem/proof use accepted, excluded from quota.",
+      "source_binding": {
+        "source_item_sha256": "bf532149b9b8401637986f5e8b16b85efc3ba3d1fe03b35bf0cdbde4145f354d",
+        "card_sha256": null,
+        "coverage_item_sha256": null,
+        "pdf_sha256": "dadbbfec4690093a15a76582e442c46c5c1d49674d2be608ec7523ff7af1d25e",
+        "pdf_pages": 42,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": false
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-038",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Entire local HTML note: oriented graph, source/sink sets, L1 limit, conjecture and exchange-of-limits caveat",
+        "Entire original local HTML, especially displayed Poisson scaling relation; new full HTML card and graph/source/sink definitions",
+        "Entire local HTML source and revised source-level scaling/coefficient-defect section; root integration_math_checks/poisson_scale_and_coefficient.json"
+      ],
+      "reason": "Revised card faithfully separates original inverse-scale and c=1 statements from corrected intensity scaling sqrt(delta)n and derived coefficient c sqrt(delta)/2. c=2 is only the coefficient needed for the conjecture, not asserted proved. The conjecture itself is neither disproved nor certified by this consistency check.",
+      "accepted_source_kind": "web_reference",
+      "counts_toward_paper_quota": false,
+      "source_binding": {
+        "source_item_sha256": "f6b24e5cad2c273a5db1eb8ff089889a6d67c76780bc49d7cbafda2ee534ee62",
+        "card_sha256": "ec4860ebbd47d716445a25ba0003a0dc7b35cc890833110488a9a38070690712",
+        "coverage_item_sha256": "0a937210e2845ba30f2c7058e0fb22bd79270a1c29aa5b29662fd07cd21cf2ce"
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "accepted_reading_status": "fulltext_read",
+      "mathematics_decision": "passed",
+      "quota_eligible": false,
+      "evidence_kind": "web_reference"
+    },
+    {
+      "worker": "W06",
+      "local_id": "W06-039",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Local21p scan title p1; p15 rendered eq20–21 negative correlation/Fatou c=2; continuum Dilworth/reflection corollary"
+      ],
+      "reason": "Actual local21p scan identity/hash and complete reading coverage now accepted. Exact final-journal version relation remains pending; superseded institutional page conventions are not used. Original p15 eq20–21 supports c2; continuum cover corollary is valid, with no discrete Bernoulli limit interchange. Bound local copy identity and reading are accepted; unresolved version relationship is preserved, so page-specific external citations require checking the target version.",
+      "source_binding": {
+        "source_item_sha256": "5354160d6d3338fba8a168e319941843e03a98f82f19959d5ffe42352653b806",
+        "card_sha256": "5e3ffffdd703fe2db1a508bd8fdbc5a7e11da6e08c276cdea3c6c4b145f8152b",
+        "coverage_item_sha256": "9c1c4edc3dbb9556b11e305ead9870d614a74682a6068dd3f8f6bf98c2fc36d3",
+        "pdf_sha256": "a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c",
+        "pdf_pages": 21,
+        "hash_matches": true
+      },
+      "coverage_sha256": "2d9df3a2bf2ec6b8b9ce1bfd1c63af2b5448fada9013993e4265a1c2dc94f094",
+      "mathematics_decision": "passed",
+      "reading_copy_identity_verified": true,
+      "reading_copy_physical_pages_verified": 21,
+      "reading_copy_hash_verified": true,
+      "archive_hash_is_reading_copy": true,
+      "accepted_reading_status": "fulltext_read",
+      "source_registry_sha256": "fb844d898cb9283c2d67cf069fb83c67c3d9275d6bb34251b3d001e653901a9e",
+      "final_binding": "reviews/R03/final_W06_bindings.json",
+      "quota_eligible": true,
+      "version_equivalence_verified": false,
+      "reviewed_version_scope": "Exact local binary under bound SHA only; header/title-date or journal-layout relationship recorded as unresolved. No assertion of equivalence to terminal journal/arXiv layout."
+    }
+  ],
+  "skill_decisions": [
+    {
+      "skill": "probability-percolation-renormalization",
+      "decision": "passed",
+      "reason": "Final W05 passed; three workflow-state files subsequently checked and rebound. Release manifest covers all current W05/skill files.29completepapers+onecompletebookchapter count30; partial readings excluded. W06 remains pending.",
+      "file_hash_manifest": "reviews/R03/file_hash_manifest_W05.json"
+    },
+    {
+      "skill": "probability-first-passage-growth",
+      "decision": "passed",
+      "reason": "Final29 complete local paper texts+full acquired monograph complete selected sections accepted as30 distinct works. All final model/moment/quantifier/coverage corrections, mapping and cases checked. Missing v1 coalescence proof and unresolved local-vs-journal relationships explicitly limit uses; unread candidates/web not quota. Final file manifest binds current versions.",
+      "file_hash_manifest": "reviews/R03/file_hash_manifest_W06.json"
+    }
+  ],
+  "mapping_decisions": [
+    {
+      "worker": "W05",
+      "problem_id": "A030",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A182",
+      "tool": "probability-percolation-renormalization",
+      "decision": "confirmed",
+      "reason": "Conservative tool route and explicit missing interface supported by checked local originals; confirmed is a route assessment, not a solution or current-global-open-status certification."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A183",
+      "tool": "probability-percolation-renormalization",
+      "decision": "confirmed",
+      "reason": "Conservative tool route and explicit missing interface supported by checked local originals; confirmed is a route assessment, not a solution or current-global-open-status certification."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A185",
+      "tool": "probability-percolation-renormalization",
+      "decision": "confirmed",
+      "reason": "Conservative tool route and explicit missing interface supported by checked local originals; confirmed is a route assessment, not a solution or current-global-open-status certification."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A188",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A190",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A193",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A199",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "A200",
+      "tool": "probability-percolation-renormalization",
+      "decision": "confirmed",
+      "reason": "Correctly separates supplied same-rule finite rectangle equivalence/minimum-seed reduction from unsupported stronger gamma>=|Z|/2 target; no global open-status certification."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "B177",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "B178",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "B179",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "B180",
+      "tool": "probability-percolation-renormalization",
+      "decision": "confirmed",
+      "reason": "Conditional exact Theorem1.4 and its structural premise now correctly recorded; general-F gap retained."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "B184",
+      "tool": "probability-percolation-renormalization",
+      "decision": "confirmed",
+      "reason": "Conservative tool route and explicit missing interface supported by checked local originals; confirmed is a route assessment, not a solution or current-global-open-status certification."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "B186",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "B187",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C115",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C116",
+      "tool": "probability-percolation-renormalization",
+      "decision": "confirmed",
+      "reason": "Current card uses Grimmett as historical provenance and explicitly requires independent dimension/model-correct universal surgery before applying AG comparison. Confirmed as a conditional research route, not a solved interface or current-global-open-status claim."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C118",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C189",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C197",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C198",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C102",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C108",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C142",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C143",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C144",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W05",
+      "problem_id": "C146",
+      "tool": "probability-percolation-renormalization",
+      "decision": "needs_revision",
+      "reason": "Plausible proposed route with explicit missing interface, but at least one cited source is unread/unreviewed (or no source); retain as provisional and verify original problem/theorem before claiming confirmed mapping."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "A030",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C081",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C084",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C087",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C088",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C089",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C090",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C091",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C092",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C093",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C094",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C097",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C098",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C099",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C100",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C101",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    },
+    {
+      "worker": "W06",
+      "problem_id": "C102",
+      "tool": "probability-first-passage-growth",
+      "decision": "confirmed",
+      "reason": "Current route correctly separates source theorem from remaining target interface and preserves model/dimension/law/quantifier conditions. C097 fixed deterministic-direction target differs from simultaneous all-direction event; unread candidates excluded from verified input. No global current-open-status certification."
+    }
+  ],
+  "findings": [
+    {
+      "priority": "high",
+      "worker": "W06",
+      "source_local_id": "W06-001",
+      "file": "skills/probability-first-passage-growth/references/method.md",
+      "issue": "The word Eden conflates two clock rules. Survey p.128 has vertex weights and uniformly chooses a boundary vertex; W06-007/008 use exponential edge weights and rate equal to the number of infected neighbors. Memorylessness does not equate these growth laws.",
+      "required_fix": "Define both variants explicitly; state which theorem concerns each. C100 input explicitly asks edge weights, so W06-007/008 match it; qualify any inference from survey vertex description and flag its model discrepancy.",
+      "status": "resolved_in_followup"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "ap96",
+      "file": "skills/probability-percolation-renormalization/examples/positive.md",
+      "issue": "Example describes a conditional tail whereas original Theorem 1.1 is P(0 connected to y, D>rho|y|), a joint-event bound.",
+      "required_fix": "Use the joint formula as in the card, or explicitly derive the conditional tail using a positive connection-probability lower bound for fixed p>pc.",
+      "status": "resolved_in_followup"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-008",
+      "file": "workers/W06/cards/W06-008.md",
+      "issue": "Displayed Theorem 1 states dimension 22, whereas card/status use d>=22. A dimension-indexed model is not automatically monotone in comparison between axis and normalized diagonal constants.",
+      "required_fix": "Identify the paper location/computation proving the full dimension range, or state dimension 22 and independently established d>=35, without filling dimensions 23–34 by assumption.",
+      "status": "resolved_in_followup"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-001",
+      "file": "workers/W06/cards/W06-001.md",
+      "issue": "Some section labels overstate read coverage: §§3.1–3.3 include p.46 but recorded range ends p.45. The primary Chatterjee/DHS papers remain unread although method references their results.",
+      "required_fix": "Give exact fully read sections versus partial passages; label secondary-survey support for unread primaries. Do not count unread primaries toward 30 full reads.",
+      "status": "resolved_in_followup"
+    },
+    {
+      "priority": "low",
+      "worker": "W05",
+      "source_local_id": "bpr17",
+      "file": "workers/W05/verify_k4_bootstrap.py",
+      "issue": "Initial observed script omitted the edge between the two common neighbors, implementing a different rule; concurrent correction was already present before independent execution.",
+      "required_fix": "Resolved in current script SHA256 aeeffad504bf5022d7375a05d0c7b7bf1761e18c1c49230e231474fff4762443. Preserve corrected output counts 8,6,90,1800 and finite-only caveat.",
+      "status": "resolved_in_followup"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-022",
+      "file": "workers/W06/cards/W06-022.md",
+      "issue": "A1-prime notation puts square outside expectation brackets; may falsely weaken second moment to first moment.",
+      "required_fix": "Write E[(min_{1<=i<=4} t_i)^2]<infinity explicitly.",
+      "status": "resolved_math_in_round2"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-038",
+      "file": "workers/W06/cards/W06-038.md",
+      "issue": "Poisson rescaling copied source inverse factor without flagging dimensional inconsistency. Expected point counts delta*n^2 and n^2/delta disagree.",
+      "required_fix": "Quote source formula as a source typo, then state correct unit-intensity side sqrt(delta)*n; distinguish dimensional correction from unproved Hammersley/limit-exchange steps. See poisson_scale_check.json.",
+      "status": "resolved_math_in_round2"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "ag91",
+      "file": "workers/W05/cards/ag91.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §1 introduction (including Ising/general approach), §2 applications, §3 percolation comparison, §4 ferromagnetic/random-current proof and references; existing card chiefly covers §3, with short §4 claim.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "holroyd03",
+      "file": "workers/W05/cards/holroyd03.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §§1–10 including analytic properties of f/g, basic rectangle/traversability lemmas, lower bound, threshold/time reduction, variational principles, border events, disjoint spanning, hierarchy/pod construction, upper-bound counting, references.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "janson12",
+      "file": "workers/W05/cards/janson12.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §§1–11: exploration, all main results including Gaussian windows/generations, dynamical and boundary cases, empirical approximation, proofs of Thms3.1–3.4, proofs of 3.6–3.8/4.5, generation proof, and §11 boundary-case proofs; existing card has no coverage map for these latter sections.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "english21",
+      "file": "workers/W05/cards/english21.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §§1–6 including preliminaries/alternative forcing, each upper-bound growth phase, dense and sparse lower bounds, auxiliary lemma proofs, concluding conjectures and references.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "bpr17",
+      "file": "workers/W05/cards/bpr17.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §1 model, §2 K4 induction, §3 probabilistic Kr chains (dangerous sets/chain covers/counting), §4 deterministic construction, §5 discussion and references.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-010",
+      "file": "workers/W06/cards/W06-010.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §§1–3 and both Appendix A (Busemann existence prerequisites) and Appendix B (conditional KPZ argument), plus references; current main proof summary is not a per-unit coverage map.",
+      "status": "superseded_round5_specific_coverage_audit"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-015",
+      "file": "workers/W06/cards/W06-015.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: All original sections/subsections on continuum variational definitions, equality of continuum cut functionals, deviation summaries, regularization/covering and approximation proofs, plus references; extraction is glyph-damaged so page-keyed visual/alternative-text reading evidence is especially useful.",
+      "status": "superseded_round5_specific_coverage_audit"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-022",
+      "file": "workers/W06/cards/W06-022.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §§1–6 including §2.3 ferromagnet connection, §2.4 midpoint, §3 background, all §4 ordering/coalescence subsections, §5 Busemann equality and §6 final proofs, plus references.",
+      "status": "superseded_round5_specific_coverage_audit"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-024",
+      "file": "workers/W06/cards/W06-024.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §1 model/proof sketches, §2 circuit inputs, §3 low-weight path, §4 time constant, complete §5 variance proof and references.",
+      "status": "superseded_round5_specific_coverage_audit"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-027",
+      "file": "workers/W06/cards/W06-027.md",
+      "issue": "Full-text reading evidence lacks required section_coverage map under latest protocol.",
+      "required_fix": "Add exact section/subsection/appendix names, continuous page ranges and a content/proof summary; specifically cover: §1 model/results/related work, §2.1–2.3 entropy/tensorization/pivotal estimate, complete §3 outer/inner shape proof and references.",
+      "status": "superseded_round5_specific_coverage_audit"
+    },
+    {
+      "priority": "high",
+      "worker": "W05",
+      "source_local_id": "ag91",
+      "file": "workers/W05/cards/ag91.md",
+      "issue": "Card treats essentiality as supplying fully established bounded surgery despite source p14 omitting proof and local Grimmett §6 documenting dimension-specific gap.",
+      "required_fix": "Record exact omitted step and condition application on independent valid surgery; distinguish bond/site and dimension. No requirement to solve general open surgery.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "holroyd03",
+      "file": "workers/W05/cards/holroyd03.md",
+      "issue": "Leading hierarchy cost written 2lambda B instead of integral-dependent exponent.",
+      "required_fix": "Use equation(43) and limiting coefficient 2lambda/p with auxiliary-limit order.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "high",
+      "worker": "W05",
+      "source_local_id": "janson12",
+      "file": "workers/W05/cards/janson12.md",
+      "issue": "Missing Thm3.2 a=o(n)/almost-percolation hypotheses and external marks incorrectly described as still needing r internal marks.",
+      "required_fix": "State exact hypotheses and r external-or-internal total marks; distinguish final-tail Poisson from initial seed-window law.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "low",
+      "worker": "W05",
+      "source_local_id": "english21",
+      "file": "workers/W05/cards/english21.md",
+      "issue": "Card author initials J. English/K. MacRury disagree with original Sean English/Calum MacRury.",
+      "required_fix": "Use S. English/C. MacRury or complete verified names.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "english21",
+      "file": "workers/W05/cards/english21.md",
+      "issue": "Sparse lower-bound comparison is called slower, but original PDF pp18–19 uses denominator d_L below actual degrees, hence larger forcing probabilities and a faster dominating process; the refreshed graph G2 also contains G1.",
+      "required_fix": "Say faster dominating comparison: prove a lower bound on the faster process to obtain a lower bound on original propagation time. Keep this model-specific alternative process monotonicity separate from ordinary PZF edge-monotonicity.",
+      "status": "resolved_or_superseded_round3"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "dctzd16",
+      "file": "workers/W05/reading_coverage.json",
+      "issue": "reading_coverage.json swaps the actual proof mechanisms: §2.1 is exploration/finite-witness geometric decay; §2.2 is Russo/pivotal differential inequality and integration for the supercritical density bound.",
+      "required_fix": "Correct these summaries and section spans to source pp.3–5; do not say the differential inequality itself yields both items in §2.2.",
+      "status": "resolved_round4",
+      "bound_pdf_sha256": "addd81ba90c02368ea064a67ac638e0e813fd38addedb8e652cd176bef3a7b27",
+      "bound_card_sha256": "690d9ad1e0dea038ed13ae10b272f0546d294b1f42c16e82e2a08d3a6215130d",
+      "bound_coverage_sha256": "4bf12708ad2b4739009dad0a4f11b013972dfa98075478bd93229de122c38727"
+    },
+    {
+      "priority": "low",
+      "worker": "W05",
+      "source_local_id": "bpr17",
+      "file": "workers/W05/reading_coverage.json",
+      "issue": "Coverage §2 ends at p.4 although the K4 upper-bound conclusion is at p.5.",
+      "required_fix": "Set §2 coverage pp.3–5 (shared p.5 with §3 is normal).",
+      "status": "resolved_round4",
+      "bound_pdf_sha256": "e5b9cfa59cebf8349becbe7b99a701caea7c963f956affb0d130a05f815fb8cd",
+      "bound_card_sha256": "f2541a7329297cd552078a4e8ac33913b434451a5bed1c6f3a65f9638eec35f6",
+      "bound_coverage_sha256": "4bf12708ad2b4739009dad0a4f11b013972dfa98075478bd93229de122c38727"
+    },
+    {
+      "priority": "low",
+      "worker": "W05",
+      "source_local_id": "english21",
+      "file": "workers/W05/reading_coverage.json",
+      "issue": "Coverage assigns §6 concluding remarks to p.24 and references pp.25–27; original conclusion runs pp.25–26 and references start p.26.",
+      "required_fix": "Correct closing-section physical page labels; the full file itself is complete.",
+      "status": "resolved_round4",
+      "bound_pdf_sha256": "cc972918976151dcdb97873daab837a99cff4c009015469af2894aac4dcc196c",
+      "bound_card_sha256": "aceee80b0751b949d5605074e08a0fcebae6253da5bd30863ba49126d39cff38",
+      "bound_coverage_sha256": "4bf12708ad2b4739009dad0a4f11b013972dfa98075478bd93229de122c38727"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "bpp06",
+      "file": "workers/W05/cards/bpp06.md",
+      "issue": "Proposition1.2 root equation lacks the original 2<=k<=d scope and supremum characterization in the card.",
+      "required_fix": "State for 2<=k<=d on (d+1)-regular tree that p(T_d,k) is the supremum of p for which a real root x in (0,1) exists. Keep asymptotic k_d within stated range.",
+      "status": "resolved_round4",
+      "bound_pdf_sha256": "3c9e234c2c73baf8b1547107878bd496d3ab3f0ac096dbc53c8c1185c6b5cb1b",
+      "bound_card_sha256": "3c3c70c3277f8c800f6b3293dce1f4c51b68e3cd41887d4b20863349234aecd3",
+      "bound_coverage_sha256": "4bf12708ad2b4739009dad0a4f11b013972dfa98075478bd93229de122c38727"
+    },
+    {
+      "priority": "low",
+      "worker": "W05",
+      "source_local_id": "fabian24",
+      "file": "workers/W05/cards/fabian24.md",
+      "issue": "Card locates Theorem1.2 at PDF p.2; its actual physical page is p.3. Tree-proof sketch also skips separate star case before use of leaf-free cover.",
+      "required_fix": "Correct p.3 and note stars are handled separately before the nonstar rooted-cover argument.",
+      "status": "resolved_round4",
+      "bound_pdf_sha256": "d9891438ae432a8119676b24c5d1746ff4b717a1d1155e6bd6f8850d79daccf3",
+      "bound_card_sha256": "2ee4c226fe6902655840559141deb9d0862d5ceb081749eaf10b4d9a6dafdf4c",
+      "bound_coverage_sha256": "4bf12708ad2b4739009dad0a4f11b013972dfa98075478bd93229de122c38727"
+    },
+    {
+      "priority": "high",
+      "worker": "W05",
+      "source_local_id": "durrett84",
+      "file": "workers/W05/cards/durrett84.md",
+      "issue": "Singleton right edge r_n is defined as -infinity after extinction, so r_n/n cannot have a deterministic finite unconditional a.s. limit for p_c<p<1. Original p8(7) conditions that statement on survival; unconditional Kingman limit uses the enlarged half-line edge.",
+      "required_fix": "Use distinct notation for half-line bar-r_n and singleton r_n; define a(p) from half-line process a.s., and state singleton r_n/n→a(p), l_n/n→-a(p) only on Omega_infinity. Preserve this distinction in tail claims.",
+      "status": "resolved_round6",
+      "bound_pdf_sha256": "d04e2889157dd82d92d7d668445c8ad580558e340fc5f66457d6b90c535b5c31",
+      "bound_card_sha256": "0924bce6a8a778e7fc2367870cc09b0f446e21b2eb4b302cb92a2fb162709b7a",
+      "bound_coverage_sha256": "d0257f5c4f098a542ac05a4038ca7029f49fb5bfd17bd7cbe146bfff08c5b303"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "dctgen15",
+      "file": "workers/W05/reading_coverage.json",
+      "issue": "Section coverage misidentifies §1.5 as site adaptation and §2.6 as finite-set threshold relations. Original §1.5 proves ghost-field lower bound c sqrt(h); §2.6 proves Ising critical field bound c h^(1/3).",
+      "required_fix": "Replace both coverage summaries with M(beta,h), derivative inequality and critical-field conclusion. Site adaptation belongs to §1.2. Add corresponding short proof mechanisms to card if counting these as full reading.",
+      "status": "resolved_round6",
+      "bound_pdf_sha256": "8c204312d67bfd156d09ac803316922bffa629c64c65f9c6a1121d95123aae04",
+      "bound_card_sha256": "468293b62a57859eb0f00983b39cad07bb09bdaa882fc57f828dbf37220a990d",
+      "bound_coverage_sha256": "d0257f5c4f098a542ac05a4038ca7029f49fb5bfd17bd7cbe146bfff08c5b303"
+    },
+    {
+      "priority": "low",
+      "worker": "W05",
+      "source_local_id": "gm90",
+      "file": "workers/W05/cards/gm90.md",
+      "issue": "Card uses F=Z^(d-1) to describe slab approximation, while original p10 selects F=Z^2 and its S(k) has two unbounded directions; for d>=4 these are different slab geometries. The codimension-one consequence is valid but should not be conflated with the original S(k).",
+      "required_fix": "Define original S(k) and state F=Z^2 yields the source theorem; if retaining F=Z^(d-1), label as a separate valid thickening consequence.",
+      "status": "resolved_round6",
+      "bound_pdf_sha256": "83b65ef74a60243f2b5a62530c8db9bb976667802226a9316d4d932e848d73ad",
+      "bound_card_sha256": "f35bb6d0785646a6a3d3ec1b406ac089f06f235e35ba356aadca5b510899481d",
+      "bound_coverage_sha256": "d0257f5c4f098a542ac05a4038ca7029f49fb5bfd17bd7cbe146bfff08c5b303"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-010",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage invents §4/§5 for content that is actually §3.2/§3.3 and labels the general iid local-mgf model exponential in §1.",
+      "required_fix": "Correct original section/subsection labels and model. Keep covariance identity and sufficient Bernoulli criterion, which are verified.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "c0cf564821b58361d3ffb830353394659fadf4c922ca8a5fb9097d861a336c31",
+      "bound_card_sha256": "e8b72d56f8478ed57abc48988ff1cc18c4d80785da48cdbc36885899590c26b8",
+      "bound_coverage_sha256": "d01853c78ca43b4c042a31962949e67e79e2aa6a127c54aa10a4c325a97cc9b7"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-015",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage/card overattribute the main proof to new discrete exponential-deviation estimates in §4. Original p14 is still §3.2 summarizing companion deviations; §4 is Polyhedral approximation and Theorem11 supplies continuum-value equality.",
+      "required_fix": "Separate imported companion-LDP input from this paper's polyhedral approximation, equality of continuum cut values, and LLN assembly. Correct section title and physical start page; do not claim companion LDP is fully proved here.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "e89d65caf6e2343bee94839ab0c0f7b9a5b773a30efe3a9c48c90ce57cc7adff",
+      "bound_card_sha256": "0e59bda7247aab39122d15fa1f9d683cd5ef072dd9303c65f2789def9adccd1d",
+      "bound_coverage_sha256": "d01853c78ca43b4c042a31962949e67e79e2aa6a127c54aa10a4c325a97cc9b7"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-023",
+      "file": "workers/W06/cards/W06-023.md",
+      "issue": "Exact local version remains unresolved (50 local pages/header v1/title2018 versus official 52-page record), and Theorem1.10 card wording risks a common event for every nonzero real vector v.",
+      "required_fix": "Keep local-only use pending confirmed version; state for each FIXED v there is a probability-one event (allowed to depend on v). Do not claim simultaneous uncountable-v event from p8.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_pdf_sha256": "1bd7cc9f750cdf9f49de8363278748f214f936006444302b31355ff7f672b1a6",
+      "bound_card_sha256": "df24eceee3e3b5ee3938ccaa565c7c6b24eb6c00ed649d47bc09ed197f0b24dd",
+      "bound_coverage_sha256": "d01853c78ca43b4c042a31962949e67e79e2aa6a127c54aa10a4c325a97cc9b7"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-039",
+      "file": "workers/W06/cards/W06-039.md",
+      "issue": "Actual institutional PDF has 16 physical pages including repository cover, while card/coverage call the 15 article pages physical1–15. Hash belongs to a different 21-page archive scan, not actual reading copy.",
+      "required_fix": "Bind actual institutional reading-copy binary/hash and use physical2–16=printed199–213, or explicitly call them article-page indices with correct offset. Preserve exact c=2/Dilworth corollary and unproved discrete interchange boundary.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c",
+      "bound_card_sha256": "db0dd1e8c4ddaffd687859b7331f119f8c9908b4af8cfa34bb1edefd83ef29bc",
+      "bound_coverage_sha256": "d01853c78ca43b4c042a31962949e67e79e2aa6a127c54aa10a4c325a97cc9b7"
+    },
+    {
+      "priority": "low",
+      "worker": "W06",
+      "source_local_id": "W06-022",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage §4.2 is called Half-plane limits, but original pp15–16 heading is Definition of ordering.",
+      "required_fix": "Use exact source heading; mechanism can mention half-plane ordering as context.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "63c7b9b8aaeb0f54163d14e2cd45477e6216c4736ecd384c7a05ff331db73ba8",
+      "bound_card_sha256": "218c77c3d710a4b813046fb830affb6ef2a262287de7913edb39355b5390349b",
+      "bound_coverage_sha256": "d01853c78ca43b4c042a31962949e67e79e2aa6a127c54aa10a4c325a97cc9b7"
+    },
+    {
+      "priority": "low",
+      "worker": "W06",
+      "source_local_id": "W06-024",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage §4 ends p13 while original time-constant proof concludes on physical p14 before §5.",
+      "required_fix": "Extend §4 to p14; shared boundary page is appropriate.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "311891e56e3df9b26f2d23997ac5d7e0dcbabacbc0be0f5a226d79a5b3032421",
+      "bound_card_sha256": "13cb2fadc85771de375d7ac2880cb12a1b0edf97b1ade68b15a74e16d3444940",
+      "bound_coverage_sha256": "d01853c78ca43b4c042a31962949e67e79e2aa6a127c54aa10a4c325a97cc9b7"
+    },
+    {
+      "priority": "low",
+      "worker": "W06",
+      "source_local_id": "W06-027",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage places entropy §2.1 at pp4–6 and BLM §2.2 beginning p6, while both subsection headings begin on p5.",
+      "required_fix": "Correct subsection page anchors, retaining verified block entropy and pivotal mechanism summaries.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "483ccfc000bfcabb4f985bdc9adb57fea43a1a93e615f3db0681d4420a0df991",
+      "bound_card_sha256": "47b4b4b4eb360a93f3b1af8635b711b56b218c374234eb95429730b8c3e2d5db",
+      "bound_coverage_sha256": "d01853c78ca43b4c042a31962949e67e79e2aa6a127c54aa10a4c325a97cc9b7"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "ab87",
+      "file": "workers/W05/cards/ab87.md",
+      "issue": "Card asserts M(beta_tau,h)>=c sqrt(h) for every h>0. Original Lemma4.1/Theorem4.2 pp21–22 state small h; a fixed positive c cannot give that inequality globally since M<=1.",
+      "required_fix": "Restrict to 0<h<=h0 (or h downarrow0), with c,h0 interaction-dependent; retain no-power-law-existence claim.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "47ae1af48674f5d6b20cf58b756ca173360596ac969a396bd683a6f645bc1eba",
+      "bound_card_sha256": "bbe03d065f9d3f8642990c0a32cd70b839125069f878c1ce4aec73db8598ff0a",
+      "bound_coverage_sha256": "62ff25c27d3e5039bc7f3cac0ab31ca8b0f18afec503d9794e094e25f977a104"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "bkp26",
+      "file": "workers/W05/cards/bkp26.md",
+      "issue": "Card turns the special hypergraph induced-H-free condition into ordinary induced-H-freeness of the 2-skeleton. These are not equivalent.",
+      "required_fix": "State Definition7 explicitly: every (not necessarily induced) copy of Kr-minus in the 2-skeleton is contained in a single hyperedge. Then state the ordered-pair incidence condition and Lemma8 process induction. Avoid ordinary graph induced-free terminology.",
+      "status": "resolved_round7",
+      "bound_pdf_sha256": "dd122366f97677603fa06945a715487c328f255b791d00041409b412ba6b9db7",
+      "bound_card_sha256": "8646b9a3532c5a921c5c8ffc5a9c64f5c40af9a048ed9c3ec9d66c68709855e0",
+      "bound_coverage_sha256": "62ff25c27d3e5039bc7f3cac0ab31ca8b0f18afec503d9794e094e25f977a104"
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "kalinichenko24",
+      "file": "workers/W05/mapping.json",
+      "issue": "B180 says the source supplies only asymptotic equality and no exact equality, but the same paper Theorem1.4 proves exact stability for a stated structural lower-bound class.",
+      "required_fix": "Record Theorem1.4 condition and covered graph families; keep general-F exact equality as missing interface only where the condition is unproved. Do not promote conditional exact theorem to all F.",
+      "status": "resolved_round7",
+      "bound_mapping_sha256": "3a5fe2bbda26b29430f73fa16ef438fba8c24a3f20970d3f93e9e3fefbced8a2"
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-011",
+      "file": "workers/W06/cards/W06-011.md",
+      "issue": "Theorem2.2 is stated as coexistence of two infections; original p6 states infinitely many species. Exact theorem anchors for later results also need alignment.",
+      "required_fix": "Restore the exact infinite-species conclusion and actual physical page anchors; weaker two-species corollary may be labelled separately.",
+      "status": "resolved_final_W06_local_version_scope",
+      "source_binding": {
+        "pdf_sha256": "aa0b2cd695d1f46f4982307bf25fab80ea147ffb2938509a1477fc2d45964735",
+        "hash_matches": true,
+        "pdf_pages": 32,
+        "card_sha256": "46dc17b3d1edc1b56fc08829dbcecf0604e85fab6d8093ff289d1f8b5b0ea4ba",
+        "frontmatter": "arXiv:1105.4172v2  [math.PR]  28 Feb 2012\nDiﬀerentiability at the edge of the percolation cone and\nrelated results in ﬁrst-passage percolation\nAntonio Auﬃnger ∗ Michael Damron †\nFebruary 2012\nAbstract\nWe study ﬁrst-passage percolation in two dimensions, using measures µ on passage times\nwith b := inf supp(µ) > 0 and µ({b}) = p ≥ ⃗ pc, the threshold for oriented percolation. We\nﬁrst show that for each such µ, the boundary of the limit shape for µ is diﬀerentiable at the\nendpoints of ﬂat edges in the so-called percolation cone. We then conclude that the limit shape\nmust be non-polygonal for all of these measures. Furthermor e, the associated Richardson-\ntype growth model admits inﬁnite coexistence and if µ is not purely atomic the graph of\ninfection has inﬁnitely many ends. We go on to show that lower bounds for ﬂuctuations of\nthe passage time given by Newman-Piza extend to these measur es. We establish a lower\nbound for the variance of the passage time to distance n of order log n in any direction\noutside the percolation cone under a condition of ﬁnite expo nential moments for µ. This\nresult conﬁrms a prediction of Newman and Piza [26] and Zhang [32]. Under the assumption\nof ﬁnite radius of curvature for the limit shape in these dire ctions, we obtain a power-law\nlower bound for the variance and an inequality between the ex ponents χ and ξ.\n1 Introduction\nIn this paper, we consider i.i.d. ﬁrst-passage percolation (FPP) on Z2. This model was originally\nintroduced by Hammersley and Welsh [15] in 1965 as a model of ﬂuid ﬂow through a random\nmedium. It has been a topic of resear"
+      }
+    },
+    {
+      "priority": "medium",
+      "worker": "W06",
+      "source_local_id": "W06-016",
+      "file": "workers/W06/cards/W06-016.md",
+      "issue": "Proof narrative/coverage multiplies independent boundary-ball probabilities; original p16 uses a sum/union bound over local G events after compactness cover.",
+      "required_fix": "Replace this mechanism with local-event union bound and surgery/cylinder estimate; distinguish independent parallel-layer product in 017.",
+      "status": "resolved_final_W06_local_version_scope",
+      "source_binding": {
+        "pdf_sha256": "0215863fe2d703e802d721608cf47aa259110ce68afef38801d5d7b0be591f1f",
+        "hash_matches": true,
+        "pdf_pages": 23,
+        "card_sha256": "06a16440e4590c735148d5a673e57de35ae4daae91a6d4417fdd6bb6b08ca72b",
+        "frontmatter": "arXiv:0907.5501v1  [math.PR]  31 Jul 2009\n/C4/D3 /DB /CT/D6 /D0/CP/D6/CV/CT /CS/CT/DA/CX/CP/D8/CX/D3/D2/D7 /CU/D3/D6 /D8/CW/CT /D1/CP/DC/CX/D1/CP/D0 /AT/D3 /DB /D8/CW/D6/D3/D9/CV/CW /CP\n/CS/D3/D1/CP/CX/D2 /D3/CU Rd /CX/D2 /AS/D6/D7/D8 /D4/CP/D7/D7/CP/CV/CT /D4 /CT/D6\r/D3/D0/CP/D8/CX/D3/D2\n/CA/CP/D4/CW/CP/GJ/D0 /BV/CT/D6/CU\n/CD/D2/CX/DA/CT/D6/D7/CX/D8/GH /C8/CP/D6/CX/D7 /CB/D9/CS/B8 /C4 /CP/CQ /D3/D6 /CP/D8/D3/CX/D6 /CT /CS/CT /C5/CP/D8/CW/GH/D1/CP/D8/CX/D5/D9/CT/D7/B8 /CQ /GA/D8/CX/D1/CT/D2/D8 /BG/BE/BH\n/BL/BD/BG/BC/BH /C7/D6/D7/CP/DD /BV/CT /CS/CT/DC/B8 /BY /D6 /CP/D2\r /CT\n/BX/B9/D1/CP/CX/D0/BM /D6\r/CT/D6/CU\b/D1/CP/D8/CW/BA/D9/B9/D4/D7/D9/CS/BA/CU/D6\n/CP/D2/CS\n/C5/CP/D6/CX/CT /CC/CW/GH/D6/CT/D8\n/FL\r /D3/D0/CT /C6/D3/D6/D1/CP/D0/CT /CB/D9/D4 /GH/D6/CX/CT/D9/D6 /CT/B8 /BW/GH/D4 /CP/D6/D8/CT/D1/CT/D2/D8 /C5/CP/D8/CW/GH/D1/CP/D8/CX/D5/D9/CT/D7 /CT/D8 /BT/D4/D4/D0/CX\r /CP/D8/CX/D3/D2/D7/B8 /BG/BH /D6/D9/CT /CS/B3/CD/D0/D1\n/BJ/BH/BE/BF/BC /C8/CP/D6/CX/D7 /BV/CT /CS/CT/DC /BC/BH/B8 /BY /D6 /CP/D2\r /CT\n/BX/B9/D1/CP/CX/D0/BM /D1/CP/D6/CX/CT/BA/D8/CW/CT/D6/CT/D8\b/CT/D2/D7/BA/CU/D6\n/BT/CQ/D7/D8/D6/CP\r/D8/BM /CF /CT \r/D3/D2/D7/CX/CS/CT/D6 /D8/CW/CT /D7/D8/CP/D2/CS/CP/D6/CS /AS/D6/D7/D8 /D4/CP/D7/D7/CP/CV/CT /D4 /CT/D6\r/D3/D0/CP/D8/CX/D3/D2 /D1/D3 /CS/CT/D0 /CX/D2 /D8/CW/CT /D6/CT/D7\r/CP/D0/CT/CS /CV/D6/CP/D4/CW Zd/n\n/CU/D3/D6 d ≥ 2/B8 /CP/D2/CS /CP /CS/D3/D1/CP/CX/D2 Ω /D3/CU /CQ /D3/D9/D2/CS/CP/D6/DD Γ /CX/D2 Rd /BA /C4/CT/D8 Γ1 /CP/D2/CS Γ2 /CQ /CT /D8 /DB /D3 /CS/CX/D7/CY/D3/CX/D2 /D8 /D3/D4 /CT/D2 /D7/D9/CQ/D7/CT/D8/D7 /D3/CU Γ /B8\n/D6/CT/D4/D6/CT/D7/CT/D2 /D8/CX/D2/CV /D8/CW/CT /"
+      }
+    },
+    {
+      "priority": "high",
+      "worker": "W06",
+      "source_local_id": "W06-025",
+      "file": "workers/W06/cards/W06-025.md",
+      "issue": "Theorem1.1 tails and transfer paragraph replace sqrt(n/log n) by sqrt(n log n), losing the published subdiffusive scale.",
+      "required_fix": "Use division by log n in both displayed tails and transfer scale; retain distinct moment assumptions.",
+      "status": "resolved_final_W06_local_version_scope",
+      "source_binding": {
+        "pdf_sha256": "2654e92cef3b5e79631253497c218ac6c15c27a7c1dba760bd20817482b9132d",
+        "hash_matches": true,
+        "pdf_pages": 31,
+        "card_sha256": "d2fc5a5498c4f1f6a168e883de96738fc05d3bca1d4d1799f6734455b2e0d78f",
+        "frontmatter": "arXiv:1401.0917v2  [math.PR]  10 Nov 2014\nSubdiﬀusive concentration in ﬁrst-passage percolation\nMichael Damron ∗\nIndiana University, Bloomington\nPrinceton University\nJack Hanson\nIndiana University, Bloomington\nPrinceton University\nPhilippe Sosoe †\nPrinceton University\nJuly 19, 2018\nAbstract\nWe prove exponential concentration in i.i.d. ﬁrst-passage percolation in Zd for all d ≥ 2 and general\nedge-weights ( te). Precisely, under an exponential moment assumption ( Eeαte < ∞ for some α > 0)\non the edge-weight distribution, we prove the inequality\nP\n(\n|T (0, x) − ET (0, x)| ≥ λ\n√\n‖x‖1\nlog ‖x‖1\n)\n≤ ce−c′λ, ‖x‖1 > 1\nfor the point-to-point passage time T (0, x). Under a weaker assumption Et2 e(log te)+ < ∞ we show a\ncorresponding inequality for the lower-tail of the distrib ution of T (0, x). These results extend work of\nBena ¨ ım-Rossignol [6] to general distributions.\n1 Introduction\n1.1 The model\nLet ( te)e∈E d be a collection of non-negative random variables indexed by the nearest-neighbor edges\nE d of Zd. For x, y ∈ Zd, deﬁne the passage time\nT (x, y) = inf\nγ:x→y\nT (γ) ,\nwhere T (γ) = ∑ e∈γ te and the inﬁmum is over all lattice paths γ from x to y. T deﬁnes a pseudo-\nmetric on Zd and First-Passage Percolation is the study of the asymptoti c properties of T . The model\nwas introduced by Hammersley and Welsh [16] in 1965 and has re cently been the object of much\nrigorous mathematical progress (see [7, 14, 17] for recent s urveys).\n∗The research of M. D. is supported by NSF grant DMS-0901534.\n†The research of P. S. is supported by an NSERC postgraduate fello wship.\n1"
+      }
+    },
+    {
+      "priority": "low",
+      "worker": "W05",
+      "source_local_id": "fabian26",
+      "file": "workers/W05/cards/fabian26.md",
+      "issue": "Card groups selected statements as attributed primary-paper summaries, but Thm4.2 is explicitly proved here (original p15: previously noted, not proven).",
+      "required_fix": "Distinguish this survey original proof from externally attributed results.",
+      "status": "resolved_final_W05",
+      "source_binding": {
+        "pdf_sha256": "11d4c4e4454b37f5a9f420457cd92a4a984ae57999dac57071bc8c6e17ff043d",
+        "hash_matches": true,
+        "pdf_pages": 42,
+        "card_sha256": "b9bbd07619d88cb6e7a227b499c15ce48c726f8671cc3ec8e119799ef27c5ece",
+        "frontmatter": "GRAPH BOOTSTRAP PERCOLA TION\n— A DISCOVER Y OF SLOWNESS\nDA VID F ABIAN, PATRICK MORRIS1,∗, AND TIBOR SZAB ´O 2,†\nAbstract.Graph bootstrap percolation is a discrete-time process capturing the spread of a\nvirus on the edges ofK n. Given an initial setG⊆K n of infected edges, the transmission of\nthe virus is governed by a fixed graphH: in each round of the process any edgeeofK n that\nis the last uninfected edge in a copy ofHinK n gets infected as well. Once infected, edges\nremain infected forever. The process was introduced by Bollob´ as in 1968 in the context of weak\nsaturation and has since inspired a vast array of beautiful mathematics. The main focus of this\nsurvey is the extremal question ofhow longthe infection process can last before stabilising.\nWe give an exposition of our recent systematic study of thismaximum running timeand the\ninfluence of the infection ruleH. The topic turns out to possess a wide variety of interesting\nbehaviour, with connections to additive, extremal and probabilistic combinatorics. Along the\nway we encounter a number of surprises and attractive open problems.\nA survey prepared for the occasion of the\n31st British Combinatorial Conference (BCC) 2026\nCardiff University, Cardiff, Wales.\n1 Departament de Matem`atiques, Universitat Polit`ecnica de Catalunya (UPC), Barcelona, Spain.\n2 Institute of Mathematics, Freie Universit ¨at Berlin, Germany\nE-mail addresses:dfabian@mailbox.org, pmorrismaths@gmail.com, szabo@math.fu-berlin.de.\nDate: March 17, 2026.\n∗ Research supported by the DFG Walter Benjamin program - project number 504502205, and by the Euro"
+      }
+    },
+    {
+      "priority": "medium",
+      "worker": "W05",
+      "source_local_id": "gravner17",
+      "file": "workers/W05/cards/gravner17.md",
+      "issue": "Cor5.2 omits fixed alpha,beta in [0,1]; card and A200 mapping call finite-to-infinite equivalence missing although original p4 supplies it for this same Hamming rule.",
+      "required_fix": "Add parameter range; record rectangle containing Z equivalence and Thm1.2 finite search. Keep gamma>=|Z|/2 as unsupported general inequality.",
+      "status": "resolved_final_W05",
+      "source_binding": {
+        "pdf_sha256": "47db59ad443a71031066aa7b296bb7b2ca5fc66b33c9615e4e8babc4a97925c8",
+        "hash_matches": true,
+        "pdf_pages": 55,
+        "card_sha256": "7bb3fe1b6d56b47745408470273f5aa8889ff38dd25d7b04f2e7a83d50c869fb",
+        "frontmatter": "Neighborhood growth dynamics on the Hamming plane 1\nJanko Gravner\nMathematics Department\nUniversity of California\nDavis, CA 95616, USA\ngravner@math.ucdavis.edu\nDavid Sivakoff\nDepartments of Statistics and Mathematics\nThe Ohio State University\nColumbus, OH 43210, USA\ndsivakoff@stat.osu.edu\nErik Slivken\nMathematics Department\nUniversity of California\nDavis, CA 95616, USA\nerikslivken@math.ucdavis.edu\nAbstract\nWe initiate the study of general neighborhood growth dynamics on two dimensional\nHamming graphs. The decision to add a point is made by counting the currently occupied\npoints on the horizontal and the vertical line through it, and checking whether the pair of\ncounts lies outside a ﬁxed Young diagram. We focus on two related extremal quantities. The\nﬁrst is the size of the smallest set that eventually occupies the entire plane. The second is the\nminimum of an energy-entropy functional that comes from the scaling of the probability of\neventual full occupation versus the density of the initial product measure within a rectangle.\nWe demonstrate the existence of this scaling and study these quantities for large Young\ndiagrams.\n1 Introduction\nWe consider a long-range deterministic growth process on the discrete plane, restricted for\nconvenience to the ﬁrst quadrant Z2 +. This dynamics iteratively enlarges a subset of Z2 + by\nadding points based on counts on the entire horizontal and vertical lines through them. The\nconnectivity is therefore that of a two-dimensional Hamming graph, that is, a Cartesian product\n1Version 1, December 1, 2021\nAMS 2000 subject classiﬁcation . 05D99, "
+      }
+    },
+    {
+      "worker": "W06",
+      "source_local_id": "W06-033",
+      "priority": "medium",
+      "file": "workers/W06/cards/W06-033.md",
+      "issue": "Theorem4.4 omits g_pl^beta(0)<infinity, explicit original physical17 hypothesis; classL alone permits infinity.",
+      "required_fix": "Add finite free-energy assumption to theorem entry and transfer boundary.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": "W06-009",
+      "priority": "low",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage section boundaries do not match original: section2 begins6, section3=8–12, section4=12–16, section5=16–18.",
+      "required_fix": "Correct exact physical section ranges.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": "W06-019",
+      "priority": "low",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage section1 extends through7 and section2 is labelled Preliminary estimates5–8; original section2 Proof sketch beginsphysical4.",
+      "required_fix": "Use section1=1–4, section2 Proof sketch4–8.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": "W06-028",
+      "priority": "low",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage section2 begins8, but original Proof of attractive geodesics proposition beginsphysical14; long introduction continues to14.",
+      "required_fix": "Use section1=1–14 and section2=14–29.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": "W06-030",
+      "priority": "medium",
+      "file": "workers/W06/reading_coverage.json",
+      "issue": "Coverage misses actual v2 AppendixA onphysical30 and misassigns main section ranges. Omitted old v1 coalescence appendix is distinct from existing v2 technical appendix.",
+      "required_fix": "Read/map physical30 A1 uniform ergodic and A2 gradient monotonicity; use sections1=1–5,2=5–14,3=14–16,4=16–25,5=25–30. Keep v1 detailed proof unverified.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": null,
+      "priority": "medium",
+      "file": "workers/W06/mapping.json",
+      "problem_id": "C097",
+      "issue": "neededlemma every fixed deterministic direction differs from interface simultaneous all-direction uniqueness.",
+      "required_fix": "Keep exact archived every-fixed-direction a.s. target; distinguish stronger simultaneous event.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": null,
+      "priority": "low",
+      "file": "workers/W06/mapping.json",
+      "problem_id": "C100",
+      "issue": "Dimensions2–21 remain open wording implies global current-state claim.",
+      "required_fix": "State only that cited results do not resolve these archived dimensions.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": null,
+      "priority": "medium",
+      "file": "workers/W06/mapping.json",
+      "problem_id": "C081",
+      "issue": "Formal source list includes unread035/037 without cards and LDP mathematical summary not independently read.",
+      "required_fix": "Remove unread inputs/summary or mark separately as candidate not verified input.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    },
+    {
+      "worker": "W06",
+      "source_local_id": null,
+      "priority": "low",
+      "file": "workers/W06/mapping.json",
+      "problem_id": "C094",
+      "issue": "Formal source list includes unread036 without card.",
+      "required_fix": "Remove unread input or mark separately as candidate not verified input.",
+      "status": "resolved_final_W06_local_version_scope",
+      "bound_manifest": "reviews/R03/W06_final_candidate_hashes.json"
+    }
+  ],
+  "limitations": [
+    "Calibration review only; all unread candidates explicitly not_reviewed. Neither 34 nor 38 inventory records constitute 30 completed readings.",
+    "Checked local-original theorem statements and selected proof ingredients, not independent reproof or repeat end-to-end reading of every article.",
+    "No fresh global literature search establishing current open status. Original report status claims are not globally certified.",
+    "W06 MATLAB finite enumeration was code-reviewed for oriented graph/source/sink match; not independently rerun in MATLAB. W05 corrected finite enumeration was independently run in Python.",
+    "Kesten scan chapter claims visually spot checked, but title/edition and whole selected-chapter evidence acceptance remain incomplete.",
+    "Metadata acceptance uses visible preprint/journal front matter only; final publisher records not independently browsed.",
+    "Follow-up accepts five new PDF reading cards by checking their original theorem/model and key proof locations; not an independent full reproduction of every proof.",
+    "HTML full reading is recorded separately and does not count toward 30-paper quota. W06 current 12 full PDF papers plus 1 HTML remains incomplete.",
+    "Latest protocol now explicitly requires section_coverage. Prior mathematical checks remain valid, but lack of per-section evidence prevents accepting the ten new/current fulltext_read claims; this is not a demand that reviewer reread every page.",
+    "W05 round3 binds all 14 current fulltext_read PDFs/cards plus reading_coverage hash; 13 reading-evidence records accepted, DCT pending correction of swapped section mechanisms. Minor page-label corrections do not require repeating full reading.",
+    "W06 unchanged this round while its reader prepares the next batch.",
+    "W05 round4: 19 current full-PDF identities/hashes explicitly verified; 18 full-reading evidence records accepted, DCT-general coverage correction pending. Mathematical source decision can still need revision after reading acceptance.",
+    "W06 not reopened this round. No fresh current-global-open-status certification.",
+    "W06 round5 checked 11 bound archive PDFs/cards; actual institutional AD95 reading copy is 16 pages in primary PDF viewer and differs from the hashed 21-page archive. Reviewer curl returned an empty file, which was removed rather than treated as a verified download.",
+    "Seven of the eleven current reading-evidence records accepted; 010/015 structural proof-coverage corrections, 023 version/quantifier clarification and 039 actual reading-copy binding remain pending.",
+    "Finite chain-cover DP check for all permutations n<=6 is saved separately; the general continuum corollary uses Dilworth and value reflection, not that computation. W05 untouched this round.",
+    "W05 round6 binds 24 complete-PDF reading records and accepts their coverage evidence; mathematical needs_revision on AB/BKPS is separate from acceptance of full-reading evidence.",
+    "BBM and Kalinichenko inequality signs independently checked from rendered original pages; no reinterpretation of >= premise was made.",
+    "W06 not reopened this round. Finite symbolic and hypergraph illustrations in round6_boundary_checks.json clarify claim boundaries, not the general published theorems.",
+    "Round7 accepts actual21p039 local manuscript coverage, but does not certify equivalence to final journal layout. Same local AD scan reused across workers is one work, not duplicate canonical quota.",
+    "Kesten full432p book identity and entire selected Chapter4 now visually verified; title physicalp3, not p2.",
+    "New full reading evidence is separate from card mathematical approval. 023 version relation remains unresolved; unread candidates remain not_reviewed.",
+    "Final W05 review complete under final_W05_bindings.json only. W06 remains at round7 decisions, awaiting next reader revision. Subsequent file changes require rebinding; historical workflow-status prose may be synchronized to this verdict without claiming it was already current at hash time.",
+    "Final independent K4 oracle rerun verifies all33864 initial graphs for n3..6; lambda truncation rerun is normalization/numerical evidence, never an all-n proof.",
+    "Final W05 status-only reconciliation checked: exactly SKILL.md, references/sources.md and status.json changed; current hashes explicitly rebound in file_hash_manifest_W05.json. W06 source/skill/mapping decisions unchanged.",
+    "Final W06 accepted quota29papers+one selected-section book=30; unread candidate decisions remain not_reviewed and web038 excluded. Reading acceptance is not reviewer full rereading.",
+    "030 omitted v1 detailed coalescence proof remains unverified; present v2 sketch and AppendixA are distinguished.023/039 and header-date discrepancies are accepted only under exact local binary identity, never as confirmed terminal-version equivalence.",
+    "Final W05 decisions and manifest unchanged during W06 finalization. Mathematical symbolic checks are identities only; finite MATLAB flow/chain enumeration does not prove A030 asymptotics.",
+    "W06 release-status-only synchronization independently checked by reversing both exact text replacements and reproducing prior SHA values; new hashes verified, other121manifestfiles unchanged. final_W06_bindings/file_hash_manifest refreshed only at two skill reference entries. W05 manifest/decisions untouched."
+  ],
+  "review_complete": true,
+  "review_round": "final_W05_and_W06",
+  "worker_review_complete": {
+    "W05": true,
+    "W06": true
+  }
+}

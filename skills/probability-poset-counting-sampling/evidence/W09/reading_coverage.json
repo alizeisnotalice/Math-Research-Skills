@@ -1,0 +1,2979 @@
+{
+  "worker": "W09",
+  "skill": "probability-poset-counting-sampling",
+  "scope_note": "This map records the actual coverage claimed for each fulltext_read item; section titles and physical page ranges are evidence locators, not substitutes for the attached card-level theorem/proof checks.",
+  "sources": [
+    {
+      "local_id": "M0001",
+      "title": "Permutations with given peak set",
+      "pdf_path": "evidence/fulltexts/M0001.pdf",
+      "sha256": "222b5395164154ca4ede6579e6c3e67db2f934e86251ab4022fb817cc911f98b",
+      "physical_page_count": 18,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Defines peak positions and the fixed-set counting problem."
+        },
+        {
+          "unit": "§2 The main enumeration theorem",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Proves the recurrence by splitting permutations at the index max(S)−1 and subtracting the two neighboring peak-set classes."
+        },
+        {
+          "unit": "§3 Specific peak sets with constant elements",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Evaluates the peak polynomial for several fixed index sets."
+        },
+        {
+          "unit": "§4 Peak sets depending on n",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Derives explicit families of peak polynomials when peak positions vary with n."
+        },
+        {
+          "unit": "§5 A positivity conjecture",
+          "physical_pdf_pages": [
+            10,
+            12
+          ],
+          "coverage": "Studies coefficients and positivity for the enumerating polynomials and states the conjectural pattern."
+        },
+        {
+          "unit": "§6 Equidistribution",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "coverage": "Establishes equidistribution results for statistics on permutations with a prescribed peak set."
+        },
+        {
+          "unit": "§7 Peaks and valleys",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Relates peak and valley statistics through permutation transformations."
+        },
+        {
+          "unit": "§8 Fixing the number of peaks and future research",
+          "physical_pdf_pages": [
+            16,
+            16
+          ],
+          "coverage": "Records fixed-peak-count consequences and open directions."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            16,
+            16
+          ],
+          "coverage": "Acknowledges support and discussions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            17,
+            18
+          ],
+          "coverage": "Lists the cited combinatorics and probability literature."
+        }
+      ]
+    },
+    {
+      "local_id": "M0002",
+      "title": "Counting peaks on graphs",
+      "pdf_path": "evidence/fulltexts/M0002.pdf",
+      "sha256": "99b293f4ea4b56ba0c067f47a65a48d0895505aa1c52e75264621e22b2a43932",
+      "physical_page_count": 11,
+      "read_basis": "Complete local arXiv:1708.08493v1 manuscript read (11 physical pages); the later 16-page journal pagination is metadata only and was not the read copy.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Defines graph peaks and motivates counting labelings with a prescribed peak set."
+        },
+        {
+          "unit": "§2 Recursive Construction for Peaks on Graphs",
+          "physical_pdf_pages": [
+            2,
+            7
+          ],
+          "coverage": "Builds a recursive labeling-set algorithm whose state includes the dynamically updated low-degree allowance set L."
+        },
+        {
+          "unit": "§2.1 Cycles",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Works out the recursive peak-count structure for cycle graphs."
+        },
+        {
+          "unit": "§2.2 General constructive algorithm for graphs",
+          "physical_pdf_pages": [
+            4,
+            7
+          ],
+          "coverage": "Specifies Algorithm 1 and proves its output-set guarantee by induction on vertex deletion."
+        },
+        {
+          "unit": "§3 Graph Joins",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "coverage": "Relates peak-set counts under graph-join operations."
+        },
+        {
+          "unit": "§4 Future Considerations",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Discusses implementation limits and possible extensions."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Acknowledges contributions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            10,
+            11
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0003",
+      "title": "Floodings of metric graphs",
+      "pdf_path": "evidence/fulltexts/M0003.pdf",
+      "sha256": "1eb943f6a5369ad3d2619f58b313549572da3333a119bf5007073f19dcbe910c",
+      "physical_page_count": 37,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces continuous-time labelings, metric graphs, and the flooding limit."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Defines labelings and establishes the multinomial large-deviation estimate used later."
+        },
+        {
+          "unit": "§2.1 Labelings",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Fixes the finite-graph labeling and peak conventions."
+        },
+        {
+          "unit": "§2.2 Large deviations for multinomial distribution",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Derives the entropy-rate estimate for multinomial label counts."
+        },
+        {
+          "unit": "§3 Metric graphs and floodings",
+          "physical_pdf_pages": [
+            4,
+            13
+          ],
+          "coverage": "Defines metric graph floodings and proves convergence of discrete subdivision labelings to the continuous model."
+        },
+        {
+          "unit": "§3.1 Metric graphs",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Sets the metric graph and length-measure framework."
+        },
+        {
+          "unit": "§3.2 Subdivision graphs",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Relates discrete graph subdivisions to the underlying metric graph."
+        },
+        {
+          "unit": "§3.3 Normal vectors",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "coverage": "Introduces edge-direction coordinates used to describe local flooding geometry."
+        },
+        {
+          "unit": "§3.4 Floodings",
+          "physical_pdf_pages": [
+            6,
+            13
+          ],
+          "coverage": "Defines flooding configurations and proves the principal entropy and convergence estimates."
+        },
+        {
+          "unit": "§4 Properties of floodings",
+          "physical_pdf_pages": [
+            14,
+            28
+          ],
+          "coverage": "Establishes structural, continuity, and asymptotic properties of flooding functions."
+        },
+        {
+          "unit": "§5 Examples",
+          "physical_pdf_pages": [
+            29,
+            35
+          ],
+          "coverage": "Works through concrete graph examples and compares their flooding profiles."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            36,
+            36
+          ],
+          "coverage": "Acknowledges support and discussions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            37,
+            37
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0004",
+      "title": "Twin peaks",
+      "pdf_path": "evidence/fulltexts/M0004.pdf",
+      "sha256": "0c18403431de50d53950c8797f008fd76b5e74f1fb2c613555fc66e338fb606d",
+      "physical_page_count": 28,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces the random-labeling peak problem and the paper’s square and tree results."
+        },
+        {
+          "unit": "§2 Models and simulations",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Defines the random-labeling models and presents motivating simulations."
+        },
+        {
+          "unit": "§3 Preliminaries",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Sets notation and elementary probabilistic tools for the proofs."
+        },
+        {
+          "unit": "§4 Roughness of level boundaries",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Studies boundary fluctuations in level sets of random labelings."
+        },
+        {
+          "unit": "§5 Ladder graphs",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Analyzes peak behavior on ladder graphs using the induced one-dimensional structure."
+        },
+        {
+          "unit": "§6 Random labelings of trees",
+          "physical_pdf_pages": [
+            10,
+            15
+          ],
+          "coverage": "Develops the tree-labeling recursion and bounds needed for the regular-tree theorem."
+        },
+        {
+          "unit": "§7 Twin peaks on regular trees",
+          "physical_pdf_pages": [
+            16,
+            26
+          ],
+          "coverage": "Proves the regular-tree twin-peak estimates under the stated degree and parameter restrictions."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            27,
+            27
+          ],
+          "coverage": "Acknowledges support and discussions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            28,
+            28
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0006",
+      "title": "Two poset polytopes",
+      "pdf_path": "evidence/fulltexts/M0006.pdf",
+      "sha256": "5e5bc631f9f36377f80c6f39d3ff19660f3d21ed16aff655960141fde9a61f28",
+      "physical_page_count": 15,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 The Order Polytope",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Defines the order polytope and establishes its basic vertices and volume properties."
+        },
+        {
+          "unit": "§2 The Chain Polytope",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Defines the chain polytope through chain inequalities and analyzes its basic structure."
+        },
+        {
+          "unit": "§3 A Connection Between O(P) and C(P)",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Constructs the transfer map between order and chain polytopes."
+        },
+        {
+          "unit": "§4 The Ehrhart Polynomial",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "coverage": "Uses lattice-point counts and the transfer map to identify Ehrhart data."
+        },
+        {
+          "unit": "§5 Triangulations",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Constructs compatible triangulations and relates their simplices to linear extensions."
+        },
+        {
+          "unit": "§6 Mixed Volumes",
+          "physical_pdf_pages": [
+            10,
+            14
+          ],
+          "coverage": "Applies the polytope framework to mixed volumes and related inequalities."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0007",
+      "title": "Counting Linear Extensions",
+      "pdf_path": "evidence/fulltexts/M0007.pdf",
+      "sha256": "0555b28282bd2d6c14dbefee4db795fa933d4074feb527a9e000fcce6a4fb645",
+      "physical_page_count": 10,
+      "read_basis": "The complete institutional-mirror PDF-parser article text (indexed lines 0–359, printed pp. 225–242) was read; the local 10-page two-up scan was used for identity checking only. Physical scan-page ranges below map the printed pages to the imposed sheets and may overlap adjacent units.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Positions exact counting, approximate counting, and linear-extension applications; local pages are two-up scans.",
+          "printed_pages": "225–229"
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Defines poset and linear-extension notation used in the algorithms and reductions.",
+          "printed_pages": "229–230"
+        },
+        {
+          "unit": "§3 Approximating the number of linear extensions",
+          "physical_pdf_pages": [
+            3,
+            6
+          ],
+          "coverage": "Reviews the approximation and sampling procedures and develops the comparison-probability estimator.",
+          "printed_pages": "229–234"
+        },
+        {
+          "unit": "§4 Proof of #P-completeness",
+          "physical_pdf_pages": [
+            6,
+            9
+          ],
+          "coverage": "Reduces #3SAT counting to #LE through modular oracle counts and gadget posets.",
+          "printed_pages": "234–240"
+        },
+        {
+          "unit": "§5 Related problems",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Discusses related counting questions such as average heights and probabilities in a random extension.",
+          "printed_pages": "240–242"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Lists cited work through printed p. 242; the next article begins on the same scanned sheet.",
+          "printed_pages": "242"
+        }
+      ],
+      "page_mapping_note": "Printed pages 225–242 are imposed two-up in physical PDF pp. 1–10; article text was read from the searchable parser, not the scan."
+    },
+    {
+      "local_id": "M0009",
+      "title": "Exact sampling with coupled Markov chains and applications to statistical mechanics",
+      "pdf_path": "evidence/fulltexts/M0009.pdf",
+      "sha256": "29e8ed8f7cd07a74b9d87d4338bad28f1caecd7ac17d86bf2ef4c51d0ba5665d",
+      "physical_page_count": 27,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Motivates exact sampling without a known mixing-time cutoff and outlines the paper’s applications."
+        },
+        {
+          "unit": "Coupling from the past",
+          "physical_pdf_pages": [
+            3,
+            9
+          ],
+          "coverage": "Constructs past-map CFTP, proves exact stationary output under the stated random-map/coalescence conditions, and develops monotone and doubling variants."
+        },
+        {
+          "unit": "Combinatorial applications",
+          "physical_pdf_pages": [
+            10,
+            13
+          ],
+          "coverage": "Applies CFTP to order ideals, permutations, independent sets, and related combinatorial objects."
+        },
+        {
+          "unit": "Applications to Statistical Mechanics",
+          "physical_pdf_pages": [
+            14,
+            20
+          ],
+          "coverage": "Uses monotone CFTP for Ising, Potts, random-cluster, and related spin systems."
+        },
+        {
+          "unit": "Running Time",
+          "physical_pdf_pages": [
+            21,
+            23
+          ],
+          "coverage": "Relates the CFTP coupling time and its tail to total-variation mixing behavior."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            24,
+            24
+          ],
+          "coverage": "Acknowledges discussions and support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            24,
+            27
+          ],
+          "coverage": "Lists the full cited literature."
+        }
+      ]
+    },
+    {
+      "local_id": "M0010",
+      "title": "Path Coupling: A Technique for Proving Rapid Mixing in Markov Chains",
+      "pdf_path": "evidence/fulltexts/M0010.pdf",
+      "sha256": "90ef44bf9059c6b053cc463d74665ef920312d8ac6d21f57c603cca139d7f0ef",
+      "physical_page_count": 9,
+      "read_basis": "Complete 9-page FOCS proceedings PDF from the recorded CMU-hosted alternate URL read; the 9-page local seed PDF is not the full text.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces path coupling as a way to prove rapid mixing without a global conductance calculation."
+        },
+        {
+          "unit": "§1.1 Notation and preliminaries",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Defines the metric and coupling notation used in the contraction arguments."
+        },
+        {
+          "unit": "§2 Two convergence theorems",
+          "physical_pdf_pages": [
+            2,
+            5
+          ],
+          "coverage": "Proves two path-coupling convergence bounds by averaging one-step coupled distances."
+        },
+        {
+          "unit": "§3 Applications",
+          "physical_pdf_pages": [
+            5,
+            8
+          ],
+          "coverage": "Applies the bounds to colorings, orientations, and independent-set chains."
+        },
+        {
+          "unit": "§3.1 Graph colourings and the Potts model",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Derives rapid-mixing conditions for graph and hypergraph coloring chains."
+        },
+        {
+          "unit": "§3.2 Sink-free graph orientations and TWICE",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Analyzes the orientation chain under its specified local update."
+        },
+        {
+          "unit": "§3.3 Sink- and source-free graph orientations",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Applies path coupling to constrained graph orientations."
+        },
+        {
+          "unit": "§3.4 Independent sets and conserved hard-core model",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "coverage": "Treats independent-set and hard-core updates."
+        },
+        {
+          "unit": "§4 Conclusions and further work",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "coverage": "Summarizes the method and lists further applications."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0011",
+      "title": "Faster random generation of linear extensions",
+      "pdf_path": "evidence/fulltexts/M0011.pdf",
+      "sha256": "31159ff97949b13c8a0e5131b6c8e89abb6fafde835e4553311562d1f62f6164",
+      "physical_page_count": 8,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces the adjacent-transposition chain and its rapid-mixing objective."
+        },
+        {
+          "unit": "§2 Notation and preliminaries",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Defines the weighted adjacent-position proposal and the comparison metrics."
+        },
+        {
+          "unit": "§3 The coupling",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Constructs a path coupling and bounds contraction to obtain the mixing estimate."
+        },
+        {
+          "unit": "§4 Lower bounds and related chains",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Compares lower bounds and nearby Markov-chain choices."
+        },
+        {
+          "unit": "§5 Conclusions",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Summarizes the rapid-generation result."
+        },
+        {
+          "unit": "Appendix A. Equivalence of transposition distance to Spearman’s footrule",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Proves the equivalence between adjacent-transposition distance and the footrule metric."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0012",
+      "title": "Fast perfect sampling from linear extensions",
+      "pdf_path": "evidence/fulltexts/M0012.pdf",
+      "sha256": "165c818167122ec947eb618a2a68e4e186905a9a1c698cfd9e2311941315378d",
+      "physical_page_count": 9,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 The problem",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Defines the exact linear-extension sampling task and reviews earlier chains."
+        },
+        {
+          "unit": "§2 The Karzanov/Khachiyan chain",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Specifies the adjacent-swap chain and its state transitions."
+        },
+        {
+          "unit": "§3 The bounding chain",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Constructs a partial-state bounding process and derives its coupling-time estimate."
+        },
+        {
+          "unit": "§4 Non-Markovian coupling from the past",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "coverage": "Reuses a history-dependent coupling to obtain exact output when the coalescence condition holds."
+        },
+        {
+          "unit": "§5 Conclusions",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Summarizes correctness and running-time implications."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0013",
+      "title": "Practical graph isomorphism, II",
+      "pdf_path": "evidence/fulltexts/M0013.pdf",
+      "sha256": "2173fcd10d99c269eec4d28d2089887452eb972456c52a1b961a2bf186194029",
+      "physical_page_count": 22,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "Front matter and abstract",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "States the canonical-labeling algorithm and its practical motivation."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Frames graph isomorphism and the paper’s implementation goals."
+        },
+        {
+          "unit": "§2 Generic Algorithm",
+          "physical_pdf_pages": [
+            3,
+            6
+          ],
+          "coverage": "Defines the individualization-refinement search tree and its correctness conditions."
+        },
+        {
+          "unit": "§2.1 Colourings",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Defines the vertex colorings that partition refinement acts on."
+        },
+        {
+          "unit": "§2.2 Group actions and isomorphisms",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Connects the search to group actions and canonical forms."
+        },
+        {
+          "unit": "§2.3 Search tree",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Specifies the recursive branching tree."
+        },
+        {
+          "unit": "§2.4 Automorphisms and canonical forms",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Explains automorphism pruning and canonical representative selection."
+        },
+        {
+          "unit": "§3 Implementation strategies",
+          "physical_pdf_pages": [
+            7,
+            14
+          ],
+          "coverage": "Details refinement, target-cell choice, invariants, tree generation, automorphism detection, and low-degree reductions."
+        },
+        {
+          "unit": "§3.1 Refinement",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Describes partition refinement and its implementation."
+        },
+        {
+          "unit": "§3.2 Target cell selection",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Compares rules for selecting the next branch cell."
+        },
+        {
+          "unit": "§3.3 Node invariants",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Uses invariants to prune equivalent search branches."
+        },
+        {
+          "unit": "§3.4 Strategies for tree generation",
+          "physical_pdf_pages": [
+            10,
+            12
+          ],
+          "coverage": "Develops practical search-tree ordering and pruning strategies."
+        },
+        {
+          "unit": "§3.5 Detection of automorphisms",
+          "physical_pdf_pages": [
+            13,
+            13
+          ],
+          "coverage": "Describes automorphism discovery and its use in pruning."
+        },
+        {
+          "unit": "§3.6 Low degree vertices",
+          "physical_pdf_pages": [
+            14,
+            14
+          ],
+          "coverage": "Gives special handling for low-degree vertices."
+        },
+        {
+          "unit": "§4 Performance",
+          "physical_pdf_pages": [
+            14,
+            14
+          ],
+          "coverage": "Reports empirical performance on graph families."
+        },
+        {
+          "unit": "§5 Conclusions",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Summarizes the implementation and its practical limits."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            16,
+            22
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0014",
+      "title": "Three tutorial lectures on entropy and counting",
+      "pdf_path": "evidence/fulltexts/M0014.pdf",
+      "sha256": "e4bb6110ed418b92eb4bf6fb99b3021677d83219dace3cfd847534d7b5404919",
+      "physical_page_count": 36,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "Front matter and contents",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Provides the lecture title, abstract, and table of contents."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Motivates entropy as a tool for converting information bounds into counting bounds."
+        },
+        {
+          "unit": "§2 The basic notions of entropy",
+          "physical_pdf_pages": [
+            4,
+            12
+          ],
+          "coverage": "Defines Shannon entropy, proves subadditivity and Shearer’s lemma, and develops conditional variants."
+        },
+        {
+          "unit": "§2.1 Definition of entropy",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Axiomatizes the logarithmic information measure."
+        },
+        {
+          "unit": "§2.2 Binary entropy",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Introduces the binary entropy function and its basic bounds."
+        },
+        {
+          "unit": "§2.3 The connection between entropy and counting",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "coverage": "Uses entropy to bound the size of finite sets."
+        },
+        {
+          "unit": "§2.4 Subadditivity",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Establishes entropy subadditivity for joint random variables."
+        },
+        {
+          "unit": "§2.5 Shearer’s lemma",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "States the covering inequality that drives several counting applications."
+        },
+        {
+          "unit": "§2.6 Hiding the entropy in Shearer’s lemma",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Recasts Shearer’s inequality to expose an entropy term useful in applications."
+        },
+        {
+          "unit": "§2.7 Conditional entropy",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Introduces conditional entropy and its chain-rule behavior."
+        },
+        {
+          "unit": "§2.8 Proofs of subadditivity and Shearer’s lemma",
+          "physical_pdf_pages": [
+            10,
+            11
+          ],
+          "coverage": "Proves both inequalities from conditional entropy and chain rules."
+        },
+        {
+          "unit": "§2.9 Conditional versions of the basic properties",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Establishes conditional forms of the entropy inequalities."
+        },
+        {
+          "unit": "§3 Four quick applications",
+          "physical_pdf_pages": [
+            12,
+            15
+          ],
+          "coverage": "Applies entropy to binomial sums, coin weighing, Loomis–Whitney, and intersecting families."
+        },
+        {
+          "unit": "§3.1 Sums of binomial coefficients",
+          "physical_pdf_pages": [
+            12,
+            12
+          ],
+          "coverage": "Bounds a binomial coefficient sum by an entropy calculation."
+        },
+        {
+          "unit": "§3.2 The coin-weighing problem",
+          "physical_pdf_pages": [
+            13,
+            13
+          ],
+          "coverage": "Uses information per weighing to bound the number of distinguishable configurations."
+        },
+        {
+          "unit": "§3.3 The Loomis–Whitney theorem",
+          "physical_pdf_pages": [
+            14,
+            14
+          ],
+          "coverage": "Derives the projection inequality from Shearer’s lemma."
+        },
+        {
+          "unit": "§3.4 Intersecting families",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Bounds intersecting set systems with entropy."
+        },
+        {
+          "unit": "§4 Embedding copies of one graph in another",
+          "physical_pdf_pages": [
+            16,
+            18
+          ],
+          "coverage": "Uses fractional coverings and independent sets to bound graph embeddings."
+        },
+        {
+          "unit": "§4.1–§4.3",
+          "physical_pdf_pages": [
+            16,
+            18
+          ],
+          "coverage": "Introduces graph embedding counts, the fractional-cover framework, and proofs of the two main bounds."
+        },
+        {
+          "unit": "§5 Brégman’s theorem (the Minc conjecture)",
+          "physical_pdf_pages": [
+            19,
+            22
+          ],
+          "coverage": "Presents entropy proofs for the permanent bound and the Kahn–Lovász theorem."
+        },
+        {
+          "unit": "§5.1 Introduction to the problem",
+          "physical_pdf_pages": [
+            19,
+            19
+          ],
+          "coverage": "Sets up the permanent and matrix-counting problem."
+        },
+        {
+          "unit": "§5.2 Radhakrishnan’s proof of Brégman’s theorem",
+          "physical_pdf_pages": [
+            20,
+            21
+          ],
+          "coverage": "Uses entropy of random row-neighbor choices to prove the permanent upper bound."
+        },
+        {
+          "unit": "§5.3 Alon–Friedland proof of the Kahn–Lovász theorem",
+          "physical_pdf_pages": [
+            22,
+            22
+          ],
+          "coverage": "Gives the entropy argument for the corresponding graph-theoretic inequality."
+        },
+        {
+          "unit": "§6 Counting proper colorings of a regular graph",
+          "physical_pdf_pages": [
+            23,
+            27
+          ],
+          "coverage": "Proves coloring-count bounds, separating the bipartite case from the general case."
+        },
+        {
+          "unit": "§6.1 Introduction to the problem",
+          "physical_pdf_pages": [
+            23,
+            25
+          ],
+          "coverage": "Introduces the coloring-count problem and the regular-graph setup."
+        },
+        {
+          "unit": "§6.2 A tight bound in the bipartite case",
+          "physical_pdf_pages": [
+            26,
+            26
+          ],
+          "coverage": "Derives the sharp entropy bound for bipartite regular graphs."
+        },
+        {
+          "unit": "§6.3 A weaker bound in the general case",
+          "physical_pdf_pages": [
+            27,
+            27
+          ],
+          "coverage": "Explains the available entropy bound without bipartiteness."
+        },
+        {
+          "unit": "§7 Open problems",
+          "physical_pdf_pages": [
+            28,
+            29
+          ],
+          "coverage": "Lists entropy-counting questions about matchings and homomorphisms."
+        },
+        {
+          "unit": "§7.1 Counting matchings",
+          "physical_pdf_pages": [
+            28,
+            28
+          ],
+          "coverage": "Discusses entropy approaches to matching counts."
+        },
+        {
+          "unit": "§7.2 Counting homomorphisms",
+          "physical_pdf_pages": [
+            29,
+            29
+          ],
+          "coverage": "Discusses entropy approaches to graph homomorphism counts."
+        },
+        {
+          "unit": "§8 Bibliography of applications of entropy to combinatorics",
+          "physical_pdf_pages": [
+            30,
+            32
+          ],
+          "coverage": "Surveys further combinatorial applications organized by topic."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            33,
+            36
+          ],
+          "coverage": "Lists the full references."
+        }
+      ],
+      "page_mapping_note": "Ranges are physical PDF pages; the first two pages are unnumbered/front matter and the printed pagination is two pages behind at cited locators (for example printed p. 5 is physical p. 7)."
+    },
+    {
+      "local_id": "M0016",
+      "title": "A random polynomial-time algorithm for approximating the volume of convex bodies",
+      "pdf_path": "evidence/fulltexts/M0016.pdf",
+      "sha256": "c67dc011b787b4e15fc6fe3545a4ef52e14ff1486fd3421cbb99cac072882952",
+      "physical_page_count": 17,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction and notation",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "States the volume-approximation guarantee and specifies the well-guaranteed membership-oracle input."
+        },
+        {
+          "unit": "§2–§3 Random walk and volume-ratio algorithm",
+          "physical_pdf_pages": [
+            3,
+            7
+          ],
+          "coverage": "Builds the rounded-body random walk and estimates a telescoping product of successive volume ratios."
+        },
+        {
+          "unit": "§4 The Markov chain is rapidly mixing",
+          "physical_pdf_pages": [
+            7,
+            10
+          ],
+          "coverage": "Transfers geometric isoperimetry to the grid chain and derives the conductance-based mixing input."
+        },
+        {
+          "unit": "§5 Technical results",
+          "physical_pdf_pages": [
+            10,
+            14
+          ],
+          "coverage": "Proves the geometric and probabilistic lemmas used by the sampling and mixing analysis."
+        },
+        {
+          "unit": "§6 Remarks",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Records extensions and limitations of the volume algorithm."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            16,
+            17
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0017",
+      "title": "Optimizing Linear Extensions",
+      "pdf_path": "evidence/fulltexts/M0017.pdf",
+      "sha256": "76eaefdb115b44cf30fe9ff1ea7fd4f77bb331aedc7cca860d7b3d6b106e15fb",
+      "physical_page_count": 5,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction and definitions",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Defines the minimum poset size λ(n) for realizing n linear extensions."
+        },
+        {
+          "unit": "§2 Examples and arithmetic of poset operations",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Shows how ordinal and disjoint-sum operations combine extension counts."
+        },
+        {
+          "unit": "§3 Bounds",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Proves upper and lower bounds for λ(n) by decomposing integers into poset-operation factors."
+        },
+        {
+          "unit": "§4 A special case",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Refines the bound under the stated factorization condition."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0018",
+      "title": "On meteors, earthworms and WIMPs",
+      "pdf_path": "evidence/fulltexts/M0018.pdf",
+      "sha256": "25865026dbea485514ab24bf3a9f71b19198d89ca912d1cf9310ff010e5431a8",
+      "physical_page_count": 54,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Introduces the meteor mass-redistribution process and stationary questions."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Defines the graph, Poisson clocks, crater and mound variables."
+        },
+        {
+          "unit": "§3 Basic properties and convergence to equilibrium",
+          "physical_pdf_pages": [
+            5,
+            20
+          ],
+          "coverage": "Proves process invariants, convergence, and stationary representation results."
+        },
+        {
+          "unit": "§4 Meteor craters in circular graphs",
+          "physical_pdf_pages": [
+            21,
+            32
+          ],
+          "coverage": "Derives exact cycle crater probabilities and large-cycle separation estimates."
+        },
+        {
+          "unit": "§5 Mass distribution",
+          "physical_pdf_pages": [
+            33,
+            38
+          ],
+          "coverage": "Analyzes the spatial distribution of mass in the stationary and transient regimes."
+        },
+        {
+          "unit": "§6 Meteor processes on noncircular graphs",
+          "physical_pdf_pages": [
+            39,
+            48
+          ],
+          "coverage": "Extends the process analysis to finite graphs beyond cycles."
+        },
+        {
+          "unit": "§7 Earthworm effect",
+          "physical_pdf_pages": [
+            49,
+            51
+          ],
+          "coverage": "Studies the linked earthworm process and its displacement behavior."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            52,
+            52
+          ],
+          "coverage": "Acknowledges discussions and support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            52,
+            54
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0019",
+      "title": "Poset Entropy Versus Number of Linear Extensions: The Width-2 Case",
+      "pdf_path": "evidence/fulltexts/M0019.pdf",
+      "sha256": "b88be4c14d966e245ac1f6935c1edb8694d6b006732270c77e1137aa5e897118",
+      "physical_page_count": 18,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "States the width-two entropy-versus-extension-count inequality."
+        },
+        {
+          "unit": "§2 Graph Entropy",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Defines graph entropy and recalls the bipartite graph characterization."
+        },
+        {
+          "unit": "§3 Poset Entropy",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Translates graph-entropy structure to posets and their incomparability graphs."
+        },
+        {
+          "unit": "§4 Structure of the proof of Theorem 3",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Outlines the induction and the structural reductions."
+        },
+        {
+          "unit": "§5 The structure of G(P) and G(I(P))",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Builds the interval-order representation while tracking components and entropy."
+        },
+        {
+          "unit": "§6 Phantom edges",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Adds selected incomparabilities to connect components without changing entropy."
+        },
+        {
+          "unit": "§7 Removing an incomparability with a small overlap",
+          "physical_pdf_pages": [
+            11,
+            14
+          ],
+          "coverage": "Controls changes in entropy and extension counts through phantom-edge and epoch cases."
+        },
+        {
+          "unit": "§7.1 Removing a phantom edge",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Handles removal of a phantom edge under the small-overlap condition."
+        },
+        {
+          "unit": "§7.2 Removing an edge within an epoch",
+          "physical_pdf_pages": [
+            11,
+            14
+          ],
+          "coverage": "Handles the complementary edge-removal case by analyzing epoch structure."
+        },
+        {
+          "unit": "§8 The final discussion",
+          "physical_pdf_pages": [
+            15,
+            16
+          ],
+          "coverage": "Summarizes equality and the width-two conclusion."
+        },
+        {
+          "unit": "§9 Special cases",
+          "physical_pdf_pages": [
+            16,
+            16
+          ],
+          "coverage": "Checks exceptional cases needed by the main induction."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            17,
+            17
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            17,
+            18
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "M0020",
+      "title": "Entropic Uniform Sampling of Linear Extensions in Series-Parallel Posets",
+      "pdf_path": "evidence/fulltexts/M0020.pdf",
+      "sha256": "9cf72b454a48375aaacc118bda62543350af7875113496b3fc474d3869aa3498",
+      "physical_page_count": 19,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces exact uniform sampling of linear extensions for series-parallel posets with low random-bit cost."
+        },
+        {
+          "unit": "§2 Canonical representation of Series-Parallel posets",
+          "physical_pdf_pages": [
+            2,
+            5
+          ],
+          "coverage": "Encodes the poset by an SP-DAG with white auxiliary nodes and proves the representation rules."
+        },
+        {
+          "unit": "§3 Random generation of linear extensions",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "coverage": "Gives bottom-up and top-down recursive samplers and proves uniformity using uniform shuffles/splits."
+        },
+        {
+          "unit": "§4 Entropic sampling core",
+          "physical_pdf_pages": [
+            9,
+            12
+          ],
+          "coverage": "Constructs the exact random-combination routine and proves its correctness and random-bit accounting."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            12,
+            12
+          ],
+          "coverage": "Lists cited work."
+        },
+        {
+          "unit": "Appendix A. SP Posets representation",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "coverage": "Proves by structural induction that the construction Ψ maps embedded cover DAGs to SP DAGs and is bijective."
+        },
+        {
+          "unit": "Appendix B. Proof of Theorem 4",
+          "physical_pdf_pages": [
+            14,
+            16
+          ],
+          "coverage": "Proves uniformity of the bottom-up sampler by induction and derives the average memory-write complexity from generating functions."
+        },
+        {
+          "unit": "Appendix C. Entropy of Algorithm 4",
+          "physical_pdf_pages": [
+            16,
+            18
+          ],
+          "coverage": "Analyzes the Bernoulli stopping time for the random-combination sampler, using Stirling expansion to obtain the half-normal asymptotics and expected cost."
+        },
+        {
+          "unit": "Appendix D. Entropy of Algorithms 6 and 5",
+          "physical_pdf_pages": [
+            18,
+            19
+          ],
+          "coverage": "Bounds random-bit use for the Bernoulli and k-Bernoulli routines and compares the expected cost with the target entropy."
+        }
+      ]
+    },
+    {
+      "local_id": "M0021",
+      "title": "A Sequential Importance Sampling Algorithm for Estimating Linear Extensions",
+      "pdf_path": "evidence/fulltexts/M0021.pdf",
+      "sha256": "7770eea888b101dc0bf21a6446ec114063590487b0c0e1e16062e94a51385558",
+      "physical_page_count": 14,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Introduces sequential importance sampling for estimating the number of linear extensions."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Defines the maximal-element proposal and the estimator’s path weights."
+        },
+        {
+          "unit": "§3 The Algorithm",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Shows that inverse path-probability weighting yields an unbiased estimate and specifies the sampler."
+        },
+        {
+          "unit": "§4 Variance",
+          "physical_pdf_pages": [
+            5,
+            7
+          ],
+          "coverage": "Derives the relative-variance identity, recurrence, and product bound."
+        },
+        {
+          "unit": "§5 The Importance Function",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Analyzes descendant-count weights and their variance bounds."
+        },
+        {
+          "unit": "§5.1 The Number of Descendants",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Specializes the importance weight to the number of descendants."
+        },
+        {
+          "unit": "§5.2 The Available Spaces Quotient",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Defines and motivates a second empirical importance function."
+        },
+        {
+          "unit": "§6 Improvements on the Algorithm",
+          "physical_pdf_pages": [
+            10,
+            11
+          ],
+          "coverage": "Factors independent components and gives the improved recursive estimator."
+        },
+        {
+          "unit": "§7 Numerical Results",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Reports experiments on sampled posets without claiming a worst-case guarantee."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X002",
+      "title": "Counting Linear Extensions of Sparse Posets",
+      "pdf_path": "evidence/fulltexts/W09-X002.pdf",
+      "sha256": "ffab7150f8d6e5b3bf27ef1ca109887c67e5e74db8908c91218f02205128b7ed",
+      "physical_page_count": 7,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces exact counting on sparse posets and the treewidth-based goal."
+        },
+        {
+          "unit": "§1.1 Related Work",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Places the algorithm among earlier counting and elimination methods."
+        },
+        {
+          "unit": "§1.2 Preliminaries",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Defines cover-graph and tree-decomposition notation."
+        },
+        {
+          "unit": "§2 Counting by Recursion",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Uses recursive decomposition to count extensions under the stated structural assumptions."
+        },
+        {
+          "unit": "§3 Counting by Variable Elimination",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Gives a dynamic program whose complexity depends on cover-treewidth and a supplied decomposition."
+        },
+        {
+          "unit": "§4 Experiments",
+          "physical_pdf_pages": [
+            4,
+            6
+          ],
+          "coverage": "Compares the recursive and elimination algorithms on test instances."
+        },
+        {
+          "unit": "§4.1 Recursive Algorithms",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Reports timings and count comparisons for the recursive method."
+        },
+        {
+          "unit": "§4.2 Variable Elimination",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Reports experimental behavior of the tree-decomposition algorithm."
+        },
+        {
+          "unit": "§5 Conclusion",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Summarizes the parameterized exact-counting results."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X003",
+      "title": "Counting Linear Extensions of Restricted Posets",
+      "pdf_path": "evidence/fulltexts/W09-X003.pdf",
+      "sha256": "b625f3af81de60aaf4a4532f369d255d56649d29f02f6432698881c72c291e3a",
+      "physical_page_count": 34,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "States restricted #LE hardness results and outlines the circuit reductions."
+        },
+        {
+          "unit": "§2 Basic definitions and notation",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Defines posets, permutations, and the Bruhat-order notation."
+        },
+        {
+          "unit": "§2.1 Posets",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Fixes the order-theoretic conventions."
+        },
+        {
+          "unit": "§2.2 Permutations",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Sets permutation conventions for Bruhat comparisons."
+        },
+        {
+          "unit": "§2.3 Other notation",
+          "physical_pdf_pages": [
+            5,
+            5
+          ],
+          "coverage": "Defines the remaining notation used in constructions."
+        },
+        {
+          "unit": "§3 Setup for #D2LE and #Bruhat",
+          "physical_pdf_pages": [
+            5,
+            7
+          ],
+          "coverage": "Relates linear extensions to Bruhat intervals and introduces rigid circuits and prime parameters."
+        },
+        {
+          "unit": "§3.1 Linear extensions and the Bruhat order",
+          "physical_pdf_pages": [
+            5,
+            5
+          ],
+          "coverage": "Establishes the order-theoretic connection used in the reduction."
+        },
+        {
+          "unit": "§3.2 Rigid circuits",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Defines the circuit gadgets that encode Boolean computation."
+        },
+        {
+          "unit": "§3.3 Primes and circuits in the Bruhat order",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Explains modular recovery and why the reduction is not parsimonious."
+        },
+        {
+          "unit": "§4 Circuit constructions",
+          "physical_pdf_pages": [
+            7,
+            15
+          ],
+          "coverage": "Builds Bruhat circuits, logic gates, and a mod-p construction implementing the main reduction."
+        },
+        {
+          "unit": "§4.1–§4.7 Circuit and gate subsections",
+          "physical_pdf_pages": [
+            7,
+            15
+          ],
+          "coverage": "Constructs primitive and compound gates, initializes wires, parameterizes gates, and proves the main circuit lemma."
+        },
+        {
+          "unit": "§5 Proof of lemmas",
+          "physical_pdf_pages": [
+            15,
+            18
+          ],
+          "coverage": "Supplies the detailed combinatorial and modular proofs behind the circuit constructions."
+        },
+        {
+          "unit": "§6 Height two posets",
+          "physical_pdf_pages": [
+            19,
+            20
+          ],
+          "coverage": "Transfers hardness to height-two posets."
+        },
+        {
+          "unit": "§7 Incidence posets",
+          "physical_pdf_pages": [
+            21,
+            24
+          ],
+          "coverage": "Encodes graph counting problems in incidence posets and proves the relevant count relation."
+        },
+        {
+          "unit": "§8 Final remarks",
+          "physical_pdf_pages": [
+            25,
+            27
+          ],
+          "coverage": "Discusses applications, complexity implications, and open questions."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            27,
+            27
+          ],
+          "coverage": "Acknowledges discussions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            28,
+            29
+          ],
+          "coverage": "Lists cited work."
+        },
+        {
+          "unit": "Appendix A. Gate equations",
+          "physical_pdf_pages": [
+            30,
+            34
+          ],
+          "coverage": "Records polynomial gate equations used in the modular circuit construction."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X004",
+      "title": "Counting Linear Extensions: Parameterizations by Treewidth",
+      "pdf_path": "evidence/fulltexts/W09-X004.pdf",
+      "sha256": "4576c62fc80b4819b35f5a415945d90eb58211f7ab75906c3a524a023ed26127",
+      "physical_page_count": 27,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "States the parameterized hardness and tractability results for cover-graph treewidth."
+        },
+        {
+          "unit": "§1.1 Results",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Lists the exact theorem claims and parameterization."
+        },
+        {
+          "unit": "§1.2 Organization of the Paper",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Maps the proof sections."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            3,
+            6
+          ],
+          "coverage": "Defines treewidth, MSO, posets, and parameterized complexity."
+        },
+        {
+          "unit": "§2.1 Treewidth",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Fixes tree-decomposition conventions."
+        },
+        {
+          "unit": "§2.2 Monadic Second Order Logic",
+          "physical_pdf_pages": [
+            5,
+            5
+          ],
+          "coverage": "Introduces the MSO language used for the algorithmic result."
+        },
+        {
+          "unit": "§2.3 Posets",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Defines cover and incomparability graph notions."
+        },
+        {
+          "unit": "§2.4 Parameterized Complexity",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "States the FPT and W[1] conventions."
+        },
+        {
+          "unit": "§3 Fixed-Parameter Intractability of Counting Linear Extensions",
+          "physical_pdf_pages": [
+            7,
+            16
+          ],
+          "coverage": "Gives the parameterized reduction showing no FPT algorithm by cover-treewidth unless W[1]=FPT."
+        },
+        {
+          "unit": "§4 Fixed-Parameter Tractability of Counting Linear Extensions",
+          "physical_pdf_pages": [
+            17,
+            24
+          ],
+          "coverage": "Builds a tree-decomposition algorithm for the incomparability-graph parameter."
+        },
+        {
+          "unit": "§4.1 The Treewidth of Combined Graphs",
+          "physical_pdf_pages": [
+            18,
+            22
+          ],
+          "coverage": "Constructs and bounds a combined decomposition used by the dynamic program."
+        },
+        {
+          "unit": "§4.2 MSO Formulation",
+          "physical_pdf_pages": [
+            23,
+            24
+          ],
+          "coverage": "Expresses the counting property in MSO and applies the decomposition algorithm."
+        },
+        {
+          "unit": "§5 Conclusions and Future Work",
+          "physical_pdf_pages": [
+            25,
+            26
+          ],
+          "coverage": "Summarizes the parameter distinction and possible extensions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            26,
+            27
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X005",
+      "title": "Sorting under Partial Information (without the Ellipsoid Algorithm)",
+      "pdf_path": "evidence/fulltexts/W09-X005.pdf",
+      "sha256": "95fa173e00c8301cbe91d5240e17efe916c8a44b6de4bbb4d1ac65a1199f76dd",
+      "physical_page_count": 29,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "Front matter",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Contains the title and abstract framing comparison-based sorting under partial information."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            2,
+            4
+          ],
+          "coverage": "States comparison and running-time bounds in terms of the number of linear extensions."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Defines incomparability graphs and entropy notation for partial orders."
+        },
+        {
+          "unit": "§3 A Tight Bound on the Entropy of an Incomparability Graph",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Proves the entropy estimate that controls comparison complexity."
+        },
+        {
+          "unit": "§4 Insertion Sort",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Analyzes insertion by comparisons against currently available elements."
+        },
+        {
+          "unit": "§5 Merge Sort",
+          "physical_pdf_pages": [
+            11,
+            11
+          ],
+          "coverage": "Bounds comparison cost for ordinary merging."
+        },
+        {
+          "unit": "§6 Cautious Merge Sort",
+          "physical_pdf_pages": [
+            12,
+            12
+          ],
+          "coverage": "Introduces a conservative merge procedure with an explicit comparison bound."
+        },
+        {
+          "unit": "§7 Merging under Partial Information",
+          "physical_pdf_pages": [
+            13,
+            22
+          ],
+          "coverage": "Develops the core merge algorithm, local rebalancing, and its global complexity proof."
+        },
+        {
+          "unit": "§7.1 Entropy of Bipartite Graphs",
+          "physical_pdf_pages": [
+            14,
+            14
+          ],
+          "coverage": "Bounds the entropy of the bipartite incomparability graph."
+        },
+        {
+          "unit": "§7.2 Local Optimality and rebalancing",
+          "physical_pdf_pages": [
+            14,
+            16
+          ],
+          "coverage": "Shows how local comparison choices are rebalanced."
+        },
+        {
+          "unit": "§7.3 Core of the Algorithm",
+          "physical_pdf_pages": [
+            17,
+            20
+          ],
+          "coverage": "Defines the merging procedure and its invariant."
+        },
+        {
+          "unit": "§7.4 Final Algorithm and §7.5 Complexity",
+          "physical_pdf_pages": [
+            21,
+            22
+          ],
+          "coverage": "Combines the pieces and proves the stated comparison and running-time bounds."
+        },
+        {
+          "unit": "§8 Reducing the Sorting Complexity",
+          "physical_pdf_pages": [
+            23,
+            25
+          ],
+          "coverage": "Uses preprocessing and a final sorting stage to improve overall complexity."
+        },
+        {
+          "unit": "Acknowledgments and a Final Remark",
+          "physical_pdf_pages": [
+            25,
+            25
+          ],
+          "coverage": "Records acknowledgments and the final observation."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            26,
+            29
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X006",
+      "title": "On Entropy and Extensions of Posets",
+      "pdf_path": "evidence/fulltexts/W09-X006.pdf",
+      "sha256": "33d8f46fa105e6ae19cab15232de9934d70ac908b41f0dc8397cb8072794aeff",
+      "physical_page_count": 13,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "Front matter",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "States the local-to-global entropy objective and summarizes the result."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Introduces the entropy inequality for linear extensions and states the main quantitative claims."
+        },
+        {
+          "unit": "§1.1 Our Results",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Lists the theorem and lower-bound statements."
+        },
+        {
+          "unit": "§2 Definitions",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Defines the distribution, test sets, and entropy quantities."
+        },
+        {
+          "unit": "§3 Outline",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Sketches the random-test and potential-function proof strategy."
+        },
+        {
+          "unit": "§4 A Local to Global Entropy Bound",
+          "physical_pdf_pages": [
+            7,
+            11
+          ],
+          "coverage": "Chooses local tests and a potential to turn passing-test information into a global entropy bound."
+        },
+        {
+          "unit": "§4.1 Choosing Tests",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Constructs the test family from the combinatorial constraints."
+        },
+        {
+          "unit": "§4.2 Implications of Passing a Test",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Bounds the number and structure of permutations consistent with test outcomes."
+        },
+        {
+          "unit": "§4.3 An Offline Testing Strategy",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Reorders tests to obtain the offline guarantee."
+        },
+        {
+          "unit": "§4.4 Choosing a Potential Function",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Defines the potential that controls accumulated local information."
+        },
+        {
+          "unit": "§4.5 Good and Bad Permutations",
+          "physical_pdf_pages": [
+            11,
+            11
+          ],
+          "coverage": "Separates typical and exceptional permutations to finish the entropy estimate."
+        },
+        {
+          "unit": "§5 Acknowledgments",
+          "physical_pdf_pages": [
+            12,
+            12
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            12,
+            13
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X007",
+      "title": "A Scalable Scheme for Counting Linear Extensions",
+      "pdf_path": "evidence/fulltexts/W09-X007.pdf",
+      "sha256": "ee5511cfb50b480392839b13ea406347e1db037a844d42cc07f38156b26eb435",
+      "physical_page_count": 7,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces relaxation-based approximate counting and the exact-sampling side of the method."
+        },
+        {
+          "unit": "§2 The Problem and Existing Techniques",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Reviews TPA, adaptive relaxation Monte Carlo, and Boolean-model counting."
+        },
+        {
+          "unit": "§2.1 Telescopic Product",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Introduces the product estimator used by TPA."
+        },
+        {
+          "unit": "§2.2 Tootsie Pop Algorithm",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "States the baseline TPA routine."
+        },
+        {
+          "unit": "§2.3 Adaptive Relaxation Monte Carlo",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Explains adaptive choice of nested relaxations."
+        },
+        {
+          "unit": "§2.4 Boolean Model Counting",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Relates the method to Boolean counting instances."
+        },
+        {
+          "unit": "§3 Relaxation Tootsie Pop",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Defines the relaxed-set procedure and its continuous relocation chain."
+        },
+        {
+          "unit": "§3.1 Relaxation Finding",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Constructs admissible relaxed instances from the input poset."
+        },
+        {
+          "unit": "§4 The Sampler",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Proves exact uniform output by monotone CFTP for the continuous auxiliary chain."
+        },
+        {
+          "unit": "§4.1 Continuous Relocation Chain",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Defines the continuous-state transitions and invariant distribution."
+        },
+        {
+          "unit": "§4.2 Perfect Sampling",
+          "physical_pdf_pages": [
+            5,
+            5
+          ],
+          "coverage": "Uses the order-preserving coupling to obtain a perfect sample."
+        },
+        {
+          "unit": "§5 Experiments",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Reports approximate-counting experiments on the stated instances."
+        },
+        {
+          "unit": "§6 Discussion",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Summarizes performance and limitations."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X008",
+      "title": "Markov Chains for Linear Extensions, the Two-Dimensional Case",
+      "pdf_path": "evidence/fulltexts/W09-X008.pdf",
+      "sha256": "17f7e72d0b346f1fc769c41e7fac3a898a16ab037fff7a00be8494863e60229c",
+      "physical_page_count": 13,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Distinguishes width-two and dimension-two classes and frames exact CFTP sampling."
+        },
+        {
+          "unit": "Coupling from the past",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "States the general coalescence criterion for exact stationary output."
+        },
+        {
+          "unit": "Random linear extensions of width-two orders",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Encodes extensions as constrained lattice paths and proves the width-two coupling-time bound."
+        },
+        {
+          "unit": "Linear extensions of two-dimensional orders",
+          "physical_pdf_pages": [
+            5,
+            11
+          ],
+          "coverage": "Represents extensions in weak Bruhat order and proves monotonicity for the adjacent-transposition maps."
+        },
+        {
+          "unit": "Coupling-time and mixing discussion",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Derives the dimension-two bound from the general CFTP/mixing relation and records the sharper-rate conjecture."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            13,
+            13
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X009",
+      "title": "Using TPA to count linear extensions",
+      "pdf_path": "evidence/fulltexts/W09-X009.pdf",
+      "sha256": "03dcce364c99c2f7d16ac2ff6d6199f5356588b6b9a61c0b459775264509da60",
+      "physical_page_count": 17,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Introduces the TPA count estimator and the continuous embedding of linear extensions."
+        },
+        {
+          "unit": "§2 The Tootsie Pop Algorithm",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "States the estimator and confidence-controlled repetition scheme."
+        },
+        {
+          "unit": "§3 Continuous embedding: simple example",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Explains the embedding and induced measure on a small example."
+        },
+        {
+          "unit": "§4 Continuous embedding: linear extensions",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Defines the embedding weights for poset extensions."
+        },
+        {
+          "unit": "§5 Sampling from the continuous embedding",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "coverage": "Constructs an exact weighted sample through the continuous state representation."
+        },
+        {
+          "unit": "§6 TPA for linear extensions",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Specializes the estimator to the linear-extension count."
+        },
+        {
+          "unit": "§7 Analysis",
+          "physical_pdf_pages": [
+            9,
+            12
+          ],
+          "coverage": "Proves the confidence/runtime guarantees and analyzes coalescence and weight variation."
+        },
+        {
+          "unit": "§8 Conclusion",
+          "physical_pdf_pages": [
+            12,
+            12
+          ],
+          "coverage": "Summarizes the algorithm and limitations."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            13,
+            17
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X010",
+      "title": "Generating uniform linear extensions using few random bits",
+      "pdf_path": "evidence/fulltexts/W09-X010.pdf",
+      "sha256": "6446e4a2d98e6a6bf033b47007dc65fd3b0ba4cdfc5175c1a5085919b0c5e438",
+      "physical_page_count": 16,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Introduces exact uniform generation by CFTP with few random bits."
+        },
+        {
+          "unit": "§2 Adjacent transposition Markov chains for linear extensions",
+          "physical_pdf_pages": [
+            3,
+            6
+          ],
+          "coverage": "Specifies fair-coin adjacent updates and the deterministic left-to-right scan, then constructs a bounding chain for the CFTP proof."
+        },
+        {
+          "unit": "§2.1 Adjacent position transposition bounding chain",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Defines the partial-permutation bounding process."
+        },
+        {
+          "unit": "§2.2 Combining the adjacent transposition Markov chain",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Combines local moves while preserving the desired stationary chain."
+        },
+        {
+          "unit": "§2.3 Deterministic versus random scan",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "coverage": "Compares scan schedules and specifies the random-bit use."
+        },
+        {
+          "unit": "§3 Analysis",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Bounds the expected coalescence time and proves exactness of the output."
+        },
+        {
+          "unit": "§4 Implementation",
+          "physical_pdf_pages": [
+            10,
+            14
+          ],
+          "coverage": "Gives the deterministic scan and implementation details, including the primitive-operation accounting."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            15,
+            16
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X011",
+      "title": "An efficient data structure for counting all linear extensions of a poset, calculating its jump number, and the likes",
+      "pdf_path": "evidence/fulltexts/W09-X011.pdf",
+      "sha256": "f27046bc87b133fdea1e08bc1cc6af27d6f1bbaa01c31c5178f004577c81d045",
+      "physical_page_count": 9,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "Introduces a compressed ideal-lattice data structure for extension counts and related statistics."
+        },
+        {
+          "unit": "§2 The key data structure",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Defines the lossless compression and transition representation."
+        },
+        {
+          "unit": "§3 Counting all linear extensions",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Uses the compressed recurrence to count extensions and describes parallelization."
+        },
+        {
+          "unit": "§4 Calculating the average ranks",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Computes expected ranks from the propagated ideal weights."
+        },
+        {
+          "unit": "§5 Rank probabilities and the 1/3 law",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Derives pairwise rank probabilities and the associated special identity."
+        },
+        {
+          "unit": "§6 Calculating the weighted jump number",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "coverage": "Extends the recurrence to weighted jump costs and optimal extensions."
+        },
+        {
+          "unit": "§7 Further applications and generalizations",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Applies the data structure to weighted set systems and related problems."
+        },
+        {
+          "unit": "§8 Numerics",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "coverage": "Reports finite computational examples."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X012",
+      "title": "Poset probability in two-row partition posets",
+      "pdf_path": "evidence/fulltexts/W09-X012.pdf",
+      "sha256": "2e07c2da9beb7aad3ed9edbea716f1bc2cb976b34b1ac8834f8eb58c1cc987f1",
+      "physical_page_count": 27,
+      "read_basis": "Complete arXiv v5 PDF (27 physical pages) read; the version and SHA-256 are recorded in sources.json.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            5
+          ],
+          "coverage": "Defines poset probability and partition-poset notation, then states the two-row results."
+        },
+        {
+          "unit": "§1.1 Poset elements",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Fixes the element and order conventions."
+        },
+        {
+          "unit": "§1.2 Poset probability",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Defines the probability that one poset element precedes another in a uniform extension."
+        },
+        {
+          "unit": "§1.3 Partition posets",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Introduces the Young-diagram partial order."
+        },
+        {
+          "unit": "§1.4 Linear extensions of partition posets",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Relates extensions to standard Young tableaux."
+        },
+        {
+          "unit": "§1.5 Poset probability for partition posets",
+          "physical_pdf_pages": [
+            5,
+            5
+          ],
+          "coverage": "States the probability questions studied later."
+        },
+        {
+          "unit": "§2 Blocking ideals: filtering linear extensions",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "coverage": "Partitions saturated ideal chains according to whether they add one specified element before another."
+        },
+        {
+          "unit": "§2.1 Blocking ideals and linear extensions",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "coverage": "Relates blocking ideal families to extension counts."
+        },
+        {
+          "unit": "§2.2 Structure of blocking ideals",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Decomposes the relevant ideal into fixed and variable parts."
+        },
+        {
+          "unit": "§3 Partition posets",
+          "physical_pdf_pages": [
+            8,
+            10
+          ],
+          "coverage": "Specializes blocking expansions and recovers hook-length and Jacobi–Trudi–Aitken formulas."
+        },
+        {
+          "unit": "§3.1 Blocking ideals for partition posets",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "coverage": "Identifies the blocking ideal structure for diagrams."
+        },
+        {
+          "unit": "§3.2 Blocking expansion for partition posets",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Derives the partition-poset expansion."
+        },
+        {
+          "unit": "§3.3 Hook-length formula",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Recovers the standard-tableau count from the expansion."
+        },
+        {
+          "unit": "§3.4 Jacobi–Trudi–Aitken formula",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Recovers the skew-tableau determinant formula."
+        },
+        {
+          "unit": "§3.5 Reduction",
+          "physical_pdf_pages": [
+            11,
+            11
+          ],
+          "coverage": "Reduces the target comparisons to the two-row setting."
+        },
+        {
+          "unit": "§4 Partitions with two rows",
+          "physical_pdf_pages": [
+            11,
+            22
+          ],
+          "coverage": "Derives explicit comparison probabilities and fixed-parameter limit results for two-row shapes."
+        },
+        {
+          "unit": "§4.1 Catalan-poset warmup",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Handles touching cells via Catalan-path counting."
+        },
+        {
+          "unit": "§4.2 Blocking expansion for two-row partitions",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "coverage": "Calculates the relevant blocking terms explicitly."
+        },
+        {
+          "unit": "§4.3 Two-row and skew two-row tableau counts",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Applies tableau formulas to the two-row cases."
+        },
+        {
+          "unit": "§4.4 Specified-cell comparison probabilities",
+          "physical_pdf_pages": [
+            16,
+            22
+          ],
+          "coverage": "Treats the ordered-cell cases, worked examples, and the fixed-a limit theorem."
+        },
+        {
+          "unit": "§5 Concluding remarks",
+          "physical_pdf_pages": [
+            23,
+            24
+          ],
+          "coverage": "Summarizes the pair-specific probability results and open questions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            25,
+            27
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    },
+    {
+      "local_id": "W09-X013",
+      "title": "Linear Extensions of N-free Orders",
+      "pdf_path": "evidence/fulltexts/W09-X013.pdf",
+      "sha256": "8b5a9564aba9f8905acc83f70f2db38b343f19553c32f01cba70a2483a75a372",
+      "physical_page_count": 11,
+      "read_basis": "Complete searchable PDF read; physical page ranges below refer to this exact local PDF and its recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "Front matter",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "coverage": "States the extension-count bounds for N-free orders."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Introduces N-free posets and summarizes the algorithmic bounds."
+        },
+        {
+          "unit": "§1.1 Definitions and background on N-free orders",
+          "physical_pdf_pages": [
+            2,
+            2
+          ],
+          "coverage": "Defines the forbidden-subposet condition and prior results."
+        },
+        {
+          "unit": "§2 Bounds for the linear extensions of an N-free order",
+          "physical_pdf_pages": [
+            3,
+            6
+          ],
+          "coverage": "Proves upper and lower bounds using active sets and a supplied optimal order."
+        },
+        {
+          "unit": "§3 A dynamic programming algorithm for enumerating linear extensions",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Presents the dynamic program and bounds its active-state count."
+        },
+        {
+          "unit": "§3.1 Bounding the size of active sets",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Uses the width/spread hypotheses to control active-set size."
+        },
+        {
+          "unit": "Conclusion",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Summarizes complexity and the supplied-order limitation."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            10,
+            11
+          ],
+          "coverage": "Lists cited work."
+        }
+      ]
+    }
+  ]
+}

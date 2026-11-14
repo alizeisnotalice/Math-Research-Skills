@@ -1,0 +1,21 @@
+{
+  "tool": "local MATLAB Symbolic Math Toolbox",
+  "script": "verify_asymptotic_coefficients.m",
+  "check_p31": {
+    "source": "SAW-P31, Theorem 1.3; p_c expansion on physical p.3",
+    "epsilon": "1/2",
+    "theorem_threshold_order_2d_minus3_coefficient": "3*log(2) + 3/2",
+    "pc_order_2d_minus3_coefficient": "7/2",
+    "difference": "log(8) - 2",
+    "difference_decimal": 0.079441541679835928,
+    "verified": true,
+    "limit": "Coefficient comparison plus the cited O(d^-4) expansion gives a nonempty interval for sufficiently large d; it does not compute an explicit dimension threshold."
+  },
+  "check_p41": {
+    "source": "SAW-P41, Eqs. (2.31) and (2.34)",
+    "tau2_to_tau0_bound_factor": "(2*d - 1)^2/(4*d*(d - 1))",
+    "factor_minus_one": "1/(4*d*(d - 1))",
+    "verified": true,
+    "limit": "Exact algebraic consistency check only; it is not a proof of either Green-function inequality."
+  }
+}

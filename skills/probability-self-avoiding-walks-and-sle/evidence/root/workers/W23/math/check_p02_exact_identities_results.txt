@@ -1,0 +1,13 @@
+Actual run: 2026-11-14 via the connected local MATLAB MCP service.
+Script: workers/W23/math/check_p02_exact_identities.m
+
+2*cos(pi/8)          = 1.847759065022573
+sqrt(2+sqrt(2))       = 1.847759065022573
+connective residual   = 0
+paired phase sum      = -3.67e-16
+critical fugacity     = 0.541196100146197
+closed-form xc        = 0.541196100146197
+fugacity residual     = 0
+Hammersley-Welsh B threshold pi*sqrt(2/3) = 2.565099660323728
+
+Scope: floating-point consistency of the identities transcribed from W23S006, plus the numeric value of its exact threshold. This checks no limit, theorem, inequality for all walks, or scaling claim. The proof evidence remains the complete original PDF and the proof dependencies recorded in W23S006.

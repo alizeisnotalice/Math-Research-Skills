@@ -1,0 +1,296 @@
+{
+  "worker": "W21",
+  "phase": "expanded_fulltext_research_draft_pending_R02_review",
+  "updated_at": "2026-11-14 Asia/Shanghai",
+  "scope": "Distributional fixed points and nonlinear dynamics of probability measures; formal problems A121/A122",
+  "fulltext_read_unique_works": 31,
+  "fulltext_read_entries": [
+    "W21-001",
+    "W21-002",
+    "W21-003",
+    "W21-004",
+    "W21-007",
+    "W21-012",
+    "W21-013",
+    "W21-014",
+    "W21-015",
+    "W21-018",
+    "W21-019",
+    "W21-021",
+    "W21-023",
+    "W21-024",
+    "W21-025",
+    "W21-027",
+    "W21-029",
+    "W21-030",
+    "W21-031",
+    "W21-032",
+    "W21-034",
+    "W21-035",
+    "W21-036",
+    "W21-038",
+    "W21-039",
+    "W21-040",
+    "W21-041",
+    "W21-042",
+    "W21-043",
+    "W21-044",
+    "W21-045"
+  ],
+  "duplicate_work_note": "W21-001 and W21-002 are two distinct works, each also canonicalized under W04; they count once each toward W21’s source quota but add no new global unique works. The 45-row ledger has no duplicate canonical works. C037 is one existing candidate upgraded in place at W21-039; five distinct supplementary works W21-041–045 are outside the original C001–C038 inventory.",
+  "candidate_screened_distinct_sources": 38,
+  "candidate_screening": "The original 38-work C001–C038 candidate inventory has 24 full-text reads and 14 candidate-only works after C037/W21-039 was read. The five supplementary full-text sources W21-041–045 are distinct works outside that inventory. The 45-entry W21 source ledger has 31 fulltext_read and 14 candidate_only_not_read records, including the two W04-shared core works; candidate metadata is not proof evidence.",
+  "downloads_by_W21": 0,
+  "skills_created_or_catalogue_changed": true,
+  "review_status": "pending",
+  "tool_division_recommendation": "An independent typed nonlinear-law-dynamics skill is approved for this scope; W01 remains the weak-convergence/compactness interface. Keep the three operator adapters separate and gate every transfer on exact operator, topology, and hypothesis matching.",
+  "completed": [
+    "Read A121/A122 formal statements and nonlinear-law-dynamics proposal.",
+    "Read complete 15-page W04S025 and complete 29-page W04S026 PDFs; hashes checked.",
+    "Added exact theorem/proof cards and full section/physical-page coverage.",
+    "Rendered core mathematical formulas from S025 pp.5,10,11 and S026 p.22.",
+    "Built problem-method matrix with explicit inner-chain versus outer-law-map distinction.",
+    "Ran and saved exact two-point k=2 formula simplification; computation does not claim a general theorem.",
+    "Screened 38 distinct, method-relevant original-source candidates without counting candidate metadata as full-text reading.",
+    "Recorded candidate-family boundaries and evidence-weighted W01 versus standalone nonlinear-law-dynamics recommendation.",
+    "Prepared ten prioritized full-text acquisition requests for the download worker; W21 downloaded none.",
+    "Integrated 38 candidate metadata/use/boundary records with the 2 full-read core records into the 40-entry W21 source ledger without duplicate candidate/version counting.",
+    "Created the pending skill entrypoint, method reference, source map, and checked positive/negative scope examples.",
+    "Extended A121/A122 method mapping with candidate-only simplex, nonlinear-Markov, RDE, and stationary-perturbation interfaces.",
+    "Corrected continuity Proposition 2 attribution to W21-002 PDF p.7/proof pp.8-9 in card, coverage, method, matrix and mapping.",
+    "Recorded W21-001 source Lemma 5 farthest/nearest direction typo and the explicit Theorem 3 nearest-kernel proof repair.",
+    "Qualified omega-limit claims and added an exactly verified synthetic frozen-kernel-mixing / outer-two-cycle negative example.",
+    "Removed repeated shared theorem-proof exposition from W21-002 in favor of the single W21-001 shared core card.",
+    "D03 identity-verified five acquired PDFs; W21 independently read all five complete PDFs and checked hashes/page counts against the handoff.",
+    "Added five exact theorem/proof cards and section-by-section physical PDF coverage; visually rendered key formula pages for each source.",
+    "Recorded and bounded source-text defects in W21-023 rather than silently correcting its printed kernel/domain/convergence statements.",
+    "Updated source ledger, candidate read statuses, method map, problem mapping, source directory, positive/negative examples, and R02 revision note.",
+    "R02 precheck fixes: corrected W21-018 Theorem 3.9 to moving/current support cosets; isolated the undefined printed Theorem 3.11 rate and derived the valid rate from its quadratic recurrence; audited W21-023 finite/continuous p/q conflict and the unsupported unrestricted endpoint convergence claims.",
+    "Integrated five L11 batch01 full-text proof cards (C028/C029/C030/C032/C033) after checking local SHA-256/page counts against D03 batch02; preserved version-date/pagination caveats.",
+    "Added complete section-by-section physical-page coverage for all five L11 cards and kept their theorem transfer boundaries explicit.",
+    "Updated source/candidate ledgers, RDE mappings, skill source map/method/examples, and problem-method matrix; all review states remain pending.",
+    "Corrected W21-027's unsupported printed geometric prefactor after direct p.9 render; recorded the valid 3+sqrt(6) bound and exact SymPy check without weakening the Banach conclusion.",
+    "Corrected W21-032's literal Gaussian-sign/source-prose discrepancy and stated continuous C2 plus discrete D2/D3 Theorem 9.4 conditions; fixed Appendix/reference page coverage.",
+    "Corrected W21-030/034/035 and W21-012 coverage boundaries/formula note, and fixed W21-004 positive-example common-mass coefficient; all W21 entries remain pending R02 review.",
+    "D03 W21 batch03 L12 read C027/C036/C038 and L11 read C011/C012/C013/C017/C019; all eight batch03 reads have exact proof cards and complete per-section physical-page coverage, and their D03/local hashes and page counts were checked. All eight remain pending R02 review.",
+    "Integrated L11_batch2 full-text reads C011/C012/C013/C017/C019 into W21-013/014/015/019/021 cards, coverage and source records after local SHA/page/version checks; kept C019 statement scope and C017 proof dependency explicitly pending review.",
+    "R02 final-stage repairs: W21-013 Theorem 5.2 all-deterministic-stationary irreducibility and occupation-array reverse inclusion; W21-015 exact triple-intersection/outside-neighborhood scope plus Theorem 1/2 proof caveats and Note 1 conflict; W21-019 global transversality and intro Volterra reclassification; W21-040 positive-n zero-power C enlargement with exact two-state witnesses; and W21-029 §9 printed p=3 estimate isolated from a separate disjoint-support contraction derivation.",
+    "Integrated L08_B05: upgraded the existing C037/W21-039 record and added five distinct supplementary full-text method sources W21-041–045; verified six D03 SHA-256 hashes/page counts, imported complete section/page coverage and proof cards, and separated provisional skill-level source eligibility from A121/A122 exact-interface flags.",
+    "R02 W21-stage22 targeted corrections: W21-045 A4a total-weight xlogx and §12 physical pp.32–34 corrected from the rendered source; W21-043 Prop.1 liminf separated from Theorem 2 full drift and R07-neutral-confirmed Prop.1(b)/Prop.3(c) scope isolated to the read arXiv v1; W21-044 Theorem 5 weak-limit premise restored and nonzero-mean Gaussian non-tightness checked; W21-041 left-continuity/killed-walk assumptions and rendered Prop.4.1 source-growth display discrepancy recorded. Skill/mapping/source metadata updated; all four remain pending R02 re-review."
+  ],
+  "remaining": [
+    "Obtain R02 review of all current cards and use only accepted findings; all current read entries remain pending.",
+    "A121 outer almost-everywhere convergence remains unresolved; no cited source proves it for the target map.",
+    "A122 general-parameter arbitrary-Borel full-support existence/nonexistence remains unresolved; density-only results do not settle singular or mixed laws.",
+    "Obtain R02 independent review of the eight new pending sources W21-013/014/015/019/021/029/038/040; all have proof cards and complete physical-page coverage.",
+    "Obtain R02 review of the six L08_B05 mother integrations; source-level tool-count eligibility remains provisional until independent review.",
+    "C020 remains not acquired; none of W21-041–045 substitutes for it or proves an A121/A122 exact interface.",
+    "R02 stage22 re-review of W21-041/043/044/045 after targeted fixes; do not treat the four findings as passed until reviewed. W21-041 Prop.4.1 physical p.18 displays a growth supremum over x≤0 while adjacent prose says at-most-linear growth; this source-version mismatch is isolated in the card for independent adjudication."
+  ],
+  "math_gaps": [
+    "A121's almost-everywhere convergence remains open in the cited source; no numerical search can replace orbit and basin proofs.",
+    "A122 remains open for general k and arbitrary full-support measures; density-only criteria do not cover singular full-support laws."
+  ],
+  "source_ledger_entries": 45,
+  "source_ledger_counts": {
+    "fulltext_read": 31,
+    "candidate_only_not_read": 14
+  },
+  "skill_created_by_W21": true,
+  "skill_path": "skills/probability-nonlinear-law-dynamics",
+  "catalogue_changed_by_W21": false,
+  "last_review_response": "R02 W21-stage22: 27 source entries accepted, 4 targeted revisions required (W21-041/043/044/045), and 14 unread. Targeted fixes and source-render/calculation evidence are now recorded in revision-response.md; statuses remain pending R02 re-review. R07 independently confirmed the W21-043 source-v1 arithmetic counterexample only for Proposition 1(b) and Proposition 3(c), with no journal-version equivalence claim. The 31 full-read/14 candidate-only count is unchanged.",
+  "math_checks": [
+    "SymPy verified synthetic K_p=[[p,1-p],[p,1-p]] satisfies K_p^2=K_p, unique stationary law Bernoulli(1-p), and outer Phi(p)=1-p has the nonfixed 2-cycle 0<->1; saved at evidence/W21/checks/frozen_kernel_two_cycle.txt.",
+    "Rendered C001 PDF pp.11–12, C016 pp.6–7, C021 pp.3 and 9, C022 pp.3,6,19, and C034 pp.5,16; exact statements and formula/page anchors recorded in reading_coverage.json. C021 rendering confirmed its printed p/p kernel inconsistency.",
+    "Rendered and visually checked W21-018 PDF pp.7–8 and W21-023 PDF pp.2–9. SymPy check in evidence/W21/checks/source_formula_audit.py verifies the finite/continuous coefficient difference and recurrence rescaling; the saved output is source_formula_audit.txt. General support preservation and the weak-limit contradiction are proved in W21-023 card, not inferred from finite numerical data.",
+    "L11 provided a symbolic integral check for the cyclic-urn contraction in W21-035: E|U^(2ω)|+E|(1−U)^(2ω)|=2/(1+2λ), strict iff λ>1/2; the m=7 value 0.8900837358252576 is illustrative only. Evidence: evidence/W21/reader_batches/L11_batch1/calculations/C033-cyclic-contraction.json.",
+    "SymPy exact two-state check of Seneta (1988) equation (3): tau_1(P)=1/2, row perturbation norm=1/5, stationary-law L1 difference=1/4 <= exact bound 2/5. Saved script/output in evidence/W21/checks/seneta_stationary_perturbation.py/.txt; example only, not a proof of the theorem.",
+    "SymPy 1.14.0 executed and saved exact identity checks for C013 product descent and a literal standalone C019 Theorem 3.4 normalization test at evidence/W21/checks/l11_batch02_symbolic_checks.py/.txt. The latter does not resolve whether U1 is an intended standing restriction.",
+    "Python exact-rational two-state kernels plus Decimal evaluation verify W21-040 Theorem 3.1/3.2 positive-n constant witnesses and C′ repair; saved evidence/W21/checks/W21-040-positive-n-constant.py/.txt. This is witness arithmetic, not a theorem proof.",
+    "Python exact-rational p=3 comparison verifies W21-029 §9 source coefficient cube 8/7>1 and independently derived disjoint-support factor cube 2/5<1; saved evidence/W21/checks/W21-029-find-operator-contraction.py/.txt.",
+    "Rendered W21-041 Proposition 4.1 PDF p.18, W21-044 Theorem 5 PDF p.13, and W21-045 A4a PDF p.4; images in checks/rendered_review. Exact Fraction computation for W21-044 Gaussian noise factors verifies variance coefficients Σ_{j<n}2^{-j}<2; Chebyshev yields non-tightness for m≠0; output is checks/W21-044-gaussian-noise-factor.txt. R07 adjudication independently confirms W21-043 source-v1 Prop.1(b)/Prop.3(c) counterexample; see its linked rigorous proof (not a numerical inference)."
+  ],
+  "canonical_read_audit": {
+    "W21_distinct_fulltext_sources": 31,
+    "candidate_inventory_fulltext_works": 23,
+    "cross_tool_shared_sources_counted_once_within_W21": 2,
+    "within_W21_duplicate_groups": [],
+    "existing_canonical_read_index_matches": 17,
+    "existing_canonical_ids": [
+      {
+        "local_id": "W21-001",
+        "title": "Markov chains and mappings of distributions on compact spaces",
+        "canonical_source_id": "PR-452b1dea025a"
+      },
+      {
+        "local_id": "W21-002",
+        "title": "Markov chains and mappings of distributions on compact spaces II: Numerics and Conjectures",
+        "canonical_source_id": "PR-4124d7b68725"
+      },
+      {
+        "local_id": "W21-003",
+        "title": "Nonlinear Markov Chains with Finite State Space: Invariant Distributions and Long-Term Behaviour",
+        "canonical_source_id": "PR-81eb005a402e"
+      },
+      {
+        "local_id": "W21-004",
+        "title": "On Ergodic Properties of Nonlinear Markov Chains and Stochastic McKean-Vlasov Equations",
+        "canonical_source_id": "PR-d85aece9e23d"
+      },
+      {
+        "local_id": "W21-007",
+        "title": "On Mean Field Convergence and Stationary Regime",
+        "canonical_source_id": "PR-bf78ae2e2705"
+      },
+      {
+        "local_id": "W21-012",
+        "title": "Quantitative Harris-Type Theorems for Diffusions and McKean-Vlasov Processes",
+        "canonical_source_id": "PR-a0977052ad49"
+      },
+      {
+        "local_id": "W21-018",
+        "title": "(G,mu)-Quadratic Stochastic Operators",
+        "canonical_source_id": "PR-b94b5f7eb81a"
+      },
+      {
+        "local_id": "W21-023",
+        "title": "On the Lebesgue Nonlinear Transformations",
+        "canonical_source_id": "PR-5884d6dad63d"
+      },
+      {
+        "local_id": "W21-024",
+        "title": "Fixed Points of the Smoothing Transformation",
+        "canonical_source_id": "PR-dd5c0a8b0398"
+      },
+      {
+        "local_id": "W21-025",
+        "title": "Fixed Points of a Generalized Smoothing Transformation and Applications to Branching Processes",
+        "canonical_source_id": "PR-7c548623fa11"
+      },
+      {
+        "local_id": "W21-027",
+        "title": "A Limit Theorem for Quicksort",
+        "canonical_source_id": "PR-27a8f6d183fa"
+      },
+      {
+        "local_id": "W21-030",
+        "title": "A General Limit Theorem for Recursive Algorithms and Combinatorial Structures",
+        "canonical_source_id": "PR-b34cb697b0ef"
+      },
+      {
+        "local_id": "W21-031",
+        "title": "On the Contraction Method with Degenerate Limit Equation",
+        "canonical_source_id": "PR-269e0aba4b8d"
+      },
+      {
+        "local_id": "W21-032",
+        "title": "A Stochastic Fixed Point Equation Related to Weighted Branching with Deterministic Weights",
+        "canonical_source_id": "PR-25ea6e93136f"
+      },
+      {
+        "local_id": "W21-034",
+        "title": "A Stochastic Fixed Point Equation for Weighted Minima and Maxima",
+        "canonical_source_id": "PR-9c3443d14d4e"
+      },
+      {
+        "local_id": "W21-035",
+        "title": "Pólya Urns Via the Contraction Method",
+        "canonical_source_id": "PR-01109a3110f5"
+      },
+      {
+        "local_id": "W21-036",
+        "title": "Solutions to Recursive Distributional Equations for the Mean-Field TSP and Related Problems",
+        "canonical_source_id": "PR-6076caa59fcb"
+      }
+    ],
+    "fulltext_pending_without_canonical_index_id": [
+      {
+        "local_id": "W21-013",
+        "candidate_id": "C011",
+        "title": "Stationary Equilibria of Mean Field Games with Finite State and Action Space",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-014",
+        "candidate_id": "C012",
+        "title": "A Myopic Adjustment Process for Mean Field Games with Finite State and Action Space",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-015",
+        "candidate_id": "C013",
+        "title": "On the Behaviour of Trajectories and the Ergodic Hypothesis for Quadratic Mappings of a Simplex",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-019",
+        "candidate_id": "C017",
+        "title": "On Regularity, Transitivity, and Ergodic Principle for Quadratic Stochastic Volterra Operators",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-021",
+        "candidate_id": "C019",
+        "title": "Doubly Stochastic Quadratic Operators and Birkhoff's Problem",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-029",
+        "candidate_id": "C027",
+        "title": "The Contraction Method for Recursive Algorithms",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-038",
+        "candidate_id": "C036",
+        "title": "Perturbation of the Stationary Distribution Measured by Ergodicity Coefficients",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-040",
+        "candidate_id": "C038",
+        "title": "Perturbation Theory for Markov Chains via Wasserstein Distance",
+        "status": "pending"
+      },
+      {
+        "local_id": "W21-039",
+        "candidate_id": "C037",
+        "title": "Sensitivity and Convergence of Uniformly Ergodic Markov Chains",
+        "status": "pending; new L08_B05 mother integration"
+      },
+      {
+        "local_id": "W21-041",
+        "candidate_id": null,
+        "title": "A Simple Method to Find All Solutions to the Functional Equation of the Smoothing Transform",
+        "status": "pending; new L08_B05 mother integration"
+      },
+      {
+        "local_id": "W21-042",
+        "candidate_id": null,
+        "title": "Regular Variation of Fixed Points of the Smoothing Transform",
+        "status": "pending; new L08_B05 mother integration"
+      },
+      {
+        "local_id": "W21-043",
+        "candidate_id": null,
+        "title": "Elementary Fixed Points of the BRW Smoothing Transforms with Infinite Number of Summands",
+        "status": "pending; new L08_B05 mother integration"
+      },
+      {
+        "local_id": "W21-044",
+        "candidate_id": null,
+        "title": "Weak Stability of Centred Quadratic Stochastic Operators",
+        "status": "pending; new L08_B05 mother integration"
+      },
+      {
+        "local_id": "W21-045",
+        "candidate_id": null,
+        "title": "The Functional Equation of the Smoothing Transform",
+        "status": "pending; new L08_B05 mother integration"
+      }
+    ],
+    "candidate_only_unread": 15,
+    "additional_distinct_reads_to_reach_minimum_30": 5
+  }
+}

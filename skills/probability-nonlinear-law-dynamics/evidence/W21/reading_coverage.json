@@ -1,0 +1,1618 @@
+{
+  "W21-001": {
+    "source_title": "Markov chains and mappings of distributions on compact spaces",
+    "pdf_sha256": "82a5a440004f967038f7603420b0f9881e0c783663487ef55a19d4cd07ef0a91",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–4",
+        "coverage": "Defines the law-indexed nearest-order-statistic kernel and outer map; states support preservation, ubiquitous fixed points, motivation, known/unknown results, and limitations of inferred limit fixed points."
+      },
+      {
+        "section": "§2 Existence and uniqueness; Theorem 1",
+        "pdf_pages": "5–6",
+        "coverage": "Full theorem and coupling proof: partition convexity bound, common-sample two-step coalescence, geometric TV tail, Cauchy convergence/uniqueness, and support inequalities."
+      },
+      {
+        "section": "§3 Two or 3 points",
+        "pdf_pages": "7–8",
+        "coverage": "Two-point binomial stationary-map formula and observed orbit classes; exact contradiction proof for a three-point space with strict distance ordering."
+      },
+      {
+        "section": "§4 The k=2 case; Theorem 3",
+        "pdf_pages": "8–9",
+        "coverage": "Full RN-density argument equating greater- and smaller-distance probabilities and proving equality of the π1,2 and π2,2 invariant sets."
+      },
+      {
+        "section": "§5 The case S=[0,1]; Theorem 4, Lemmas 5–6",
+        "pdf_pages": "9–12",
+        "coverage": "Full Theorem 4 and proof: support-endpoint scaling; Lemma 5 endpoint-CDF contradiction, with the source printed farthest-sample event-direction typo explicitly isolated and the valid repair using Theorem 3 to transfer to the nearest kernel; Lemma 6 endpoint-mass inequalities and equality cases. Rendered formula checks on pp.10–11."
+      },
+      {
+        "section": "§6 A class of tree spaces; Theorem 7",
+        "pdf_pages": "12–14",
+        "coverage": "Full finite binary-tree-leaf no-full-support proof via heavy-atom and centroid cases, explicit output-mass lower bound, and impossible three-cell mass inequality."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "15",
+        "coverage": "Checked cited works and page closure."
+      }
+    ]
+  },
+  "W21-002": {
+    "source_title": "Markov chains and mappings of distributions on compact spaces II: Numerics and Conjectures",
+    "pdf_sha256": "b6d6a98febfd612528f2aec1e23a1989ff1caaba588f95d0efb32f461eaa078f",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–3",
+        "coverage": "Defines kernel, stationary-law map, outer iteration and fixed-point terminology; emphasizes no stochastic-process interpretation of the outer iteration and identifies the two ubiquitous fixed laws."
+      },
+      {
+        "section": "§1.1 Formulating a program",
+        "pdf_pages": "4",
+        "coverage": "Separates limit convergence from fixed-point identification because global continuity is unavailable; frames full-support invariant laws and attainable limits as distinct tasks."
+      },
+      {
+        "section": "§1.2–§1.3 Heuristic picture and outline",
+        "pdf_pages": "4–6",
+        "coverage": "Summarizes simulation conjectures and the rigorous results delegated to companion I; maps the manuscript's sections and proof versus heuristic status."
+      },
+      {
+        "section": "§2 Theorem 1 / §2.1 Feller property and Proposition 2",
+        "pdf_pages": "6–9",
+        "coverage": "Restates the shared frozen-kernel coupling/support theorem; gives the tie-based non-Feller example; Proposition 2 is stated on physical p.7 and proved on pp.8–9, establishing weak continuity of pi at no-distance-tie laws via finite-time coupled convergence plus the uniform frozen-chain mixing tail."
+      },
+      {
+        "section": "§3 Symmetry and k=2 fixed points",
+        "pdf_pages": "9–10",
+        "coverage": "Symmetry-preservation consequences and restatement of equality of π1,2/π2,2 invariant sets."
+      },
+      {
+        "section": "§4 Two elements: binomial case",
+        "pdf_pages": "10–11",
+        "coverage": "Derives the two-state transition probabilities and stationary map from binomial tails; classifies numerically observed orbit types and marks unstable fixed points as observations."
+      },
+      {
+        "section": "§5.1 Non-uniform invariant distributions",
+        "pdf_pages": "11–14",
+        "coverage": "Presents numerical five-state invariant law discovery, a four-state exact rational invariant law with an instability example, notes rank-matrix feasibility limits, and states Conjecture 5."
+      },
+      {
+        "section": "§5.2 Uniform invariant distributions",
+        "pdf_pages": "14–15",
+        "coverage": "States the Latin-square rank-matrix sufficient condition and Lemma 6 feasibility criterion (feasible iff symmetric)."
+      },
+      {
+        "section": "§5.3 Finite Euclidean examples",
+        "pdf_pages": "15–16",
+        "coverage": "Monte Carlo behavior for perturbed 2D/3D point patterns and Conjecture 7; empirical outcomes only."
+      },
+      {
+        "section": "§6 Discrete tree space",
+        "pdf_pages": "16–18",
+        "coverage": "Defines finite binary-tree-leaf metric and restates companion I's k=2 theorem; no new proof here."
+      },
+      {
+        "section": "§7.1 Initial uniform law; §7.2 tilted initial laws",
+        "pdf_pages": "18–21",
+        "coverage": "Interval simulations, scaling-limit heuristic and tilted-law experiments; the authors distinguish observations from proved claims."
+      },
+      {
+        "section": "§7.3 Rigorous results for [0,1]",
+        "pdf_pages": "21–22",
+        "coverage": "States open general fixed-point/attainable-limit questions, the companion-I k=2 theorem, and a density-only parameter inequality; rendered inequality checked on p.22."
+      },
+      {
+        "section": "§7.4 Discrete points within [0,1]",
+        "pdf_pages": "22–23",
+        "coverage": "Exact four-point π3,4 invariant law and doubly stochastic transition matrix; finite-support example only."
+      },
+      {
+        "section": "§8 The circle",
+        "pdf_pages": "24–25",
+        "coverage": "Symmetry-preserved invariant uniform laws and observed symmetry breaking/wave behavior under simulation."
+      },
+      {
+        "section": "§9 High-dimensional example",
+        "pdf_pages": "25–26",
+        "coverage": "Simulation setup on weighted ℓ1 metric in [0,1]^10 and observed endpoint/point concentration; no proof claim."
+      },
+      {
+        "section": "§10 Final remarks",
+        "pdf_pages": "27–28",
+        "coverage": "States j≈3k/4 heuristic, notes explicit calculations are the only completed continuous-space analyses, and says proposed monotonicity argument remains unimplemented."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "29",
+        "coverage": "Checked references and final page."
+      }
+    ]
+  },
+  "W21-003": {
+    "source_title": "Nonlinear Markov Chains with Finite State Space: Invariant Distributions and Long-Term Behaviour",
+    "pdf_sha256": "554d3dedd465ca892e090174774a7aa04e1810ff4bb7a1b6ed3565e00bc76767",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–3",
+        "coverage": "Read motivation, finite-state continuous-time nonlinear Markov model, announced results, and section map; authors note periodic and non-ergodic marginal behavior can occur."
+      },
+      {
+        "section": "§2 Definitions, semigroup and generator; Theorem 2.1",
+        "pdf_pages": "3–4",
+        "coverage": "Read nonlinear forward ODE, generator/invariant-law definitions, and Lipschitz-generator existence/uniqueness statement; proof completed in Appendix A."
+      },
+      {
+        "section": "§3 Existence and uniqueness; Theorems 3.1–3.2",
+        "pdf_pages": "4–7",
+        "coverage": "Read Kakutani stationary-correspondence existence proof and irreducibility/Jacobian/Brouwer-degree uniqueness proof, including simplex-coordinate reduction and boundary exclusion."
+      },
+      {
+        "section": "§4.1–§4.2 Non-ergodic and periodic examples",
+        "pdf_pages": "7–10",
+        "coverage": "Read the three-state periodic-marginal example and the irreducible two-state generator with three equilibria and different attraction basins."
+      },
+      {
+        "section": "§5 Two-/three-state ergodicity criteria; Theorems 5.1–5.2",
+        "pdf_pages": "10–14",
+        "coverage": "Read scalar sign proof, planar reduction, divergence/Bendixson and Poincaré–Bendixson argument, local non-saddle condition, and example; p.11 and p.12 formulas visually rendered."
+      },
+      {
+        "section": "Appendix A and references",
+        "pdf_pages": "14–16",
+        "coverage": "Read McShane extension and tangent-cone proof of Theorem 2.1, flow-invariance Lemma A.1, references and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "p.11: Theorem 5.1 scalar field and unique-equilibrium hypothesis.",
+      "p.12: planar field and Theorem 5.2 divergence and local-equilibrium conditions."
+    ]
+  },
+  "W21-018": {
+    "source_title": "(G, μ)-Quadratic Stochastic Operators",
+    "pdf_sha256": "3ecdbb61e9ec2b70fd077b5d2336938af389dab34c91050481e37cfde504ef90",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–3",
+        "coverage": "Read group-indexed heredity coefficients, QSO motivation, and fixedpoint/periodic-orbit results overview."
+      },
+      {
+        "section": "§2 Preliminaries and known results",
+        "pdf_pages": "3–5",
+        "coverage": "Read simplex/QSO definitions, regularity versus ergodicity, earlier group-QSO result, A-invariant subgroups, and coset characterization."
+      },
+      {
+        "section": "§3 Asymptotic behaviour of (G,μ)-QSOs",
+        "pdf_pages": "5–9",
+        "coverage": "Read support-sum identity, support-size stabilization as cosets of an invariant subgroup (the coset can move by g↦2g+a), Theorem 3.9 convergence to the uniform law on the contemporaneous support coset, its rearrangement/minimum-mass proof, the p.8 quadratic error recurrence, the printed Theorem 3.11 rate expression and its domain defect, periodic-orbit classification, and regularity criteria/corollaries."
+      },
+      {
+        "section": "Acknowledgements and references",
+        "pdf_pages": "9–10",
+        "coverage": "Read closing corollaries, acknowledgements, complete references and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.6: Theorem 3.9 compares V^n x to u(s(V^n x)); the uniform reference law has the current, possibly moving support.",
+      "PDF p.7: Theorem 3.11 is printed as (1/n) log log ||error|| ≤ log 2, with no minus sign or reciprocal inside the logarithm.",
+      "PDF p.8: proof recurrence max-coordinate error ε(Vy) ≤ k ε(y)^2; symbolic rescaling z=kε gives z_next ≤ z^2 and the derived rate direction is liminf (1/r)log(-log ε) ≥ log 2.",
+      "PDF pp.8–9: support-coset periodicity and regularity criteria, checked against Theorem 3.12/Proposition 3.13."
+    ]
+  },
+  "W21-023": {
+    "source_title": "On the Lebesgue Nonlinear Transformations",
+    "pdf_sha256": "5e203cc0ed675eaf72132febaaa564e7a3eaa3dc5d45c5ff467d8ebefbd24418",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–3",
+        "coverage": "Read measure-valued QSO definition, strong/weak regularity terminology, finite-simplex background, and Borel-space setup."
+      },
+      {
+        "section": "§2 Construction of the Lebesgue QSO",
+        "pdf_pages": "3–4",
+        "coverage": "Read finite atomic cases, especially the exact two-point recurrence α′=α[α+2p(1−α)] on PDF p.4; under a valid endpoint rule this uses lower-point p / upper-point q."
+      },
+      {
+        "section": "§3.1 Discrete initial measures",
+        "pdf_pages": "4–6",
+        "coverage": "Read the continuous interval-mass formula and RN density on PDF p.6, then the scalar CDF recursion and density product on p.7. Rendered formulas show these equations instead correspond to lower-point q / upper-point p, opposite to §3.1 when p≠q."
+      },
+      {
+        "section": "§3.2 Continuous initial measures",
+        "pdf_pages": "6–8",
+        "coverage": "Read monotonicity and expanding-interval arguments, Theorems 4.4–4.6, and endpoint claims on PDF pp.8–9. Rendered p.9 shows an arbitrary-continuous-law quantifier and bounds whose proof needs gλ(x)≤Bn (or reflected control), not implied by x≤Bn; an atomless interior-support example contradicts the claimed endpoint limit."
+      },
+      {
+        "section": "§4 Regularity and endpoint convergence",
+        "pdf_pages": "8–9",
+        "coverage": "Read monotonicity, expanding-interval estimates for p>1/2 and p<1/2, Theorems 4.4–4.6 and endpoint conclusion; visually checked the exponent and limits on p.9."
+      },
+      {
+        "section": "Corollary 4.7, acknowledgements, references",
+        "pdf_pages": "9–11",
+        "coverage": "Read regularity corollary, acknowledgement, complete references and final-page closure; recorded ambiguity of “strong limit”."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.3: Eq. (2.1) assigns p to both endpoints although p+q=1; X is declared [0,1).",
+      "PDF p.4: finite two-atom recurrence α′=α[α+2p(1−α)], corresponding to lower-p / upper-q selection.",
+      "PDF p.6: continuous interval formula places p on left exterior mass and q on right; under parent-selection this is lower-q / upper-p.",
+      "PDF p.7: continuous density and CDF formulae confirm the reversed p/q convention; G(u)=u(u+2q(1−u)).",
+      "PDF p.8: expansion/proof step uses gλ(x) within an expanding interval without deriving this from x≤Bn.",
+      "PDF p.9: Theorems 4.4–4.6 displayed bounds and unrestricted continuous-law endpoint assertion; checked the missing-support-step counterexample."
+    ]
+  },
+  "W21-024": {
+    "source_title": "Fixed Points of the Smoothing Transformation",
+    "pdf_sha256": "35568fd1ca08b1c804ed47a0432e1b99b66b1e2aafc31d3db6e0599e93144499",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Summary and §1 Introduction; Theorems 1–3 overview",
+        "pdf_pages": "1–8 (printed pp.275–282)",
+        "coverage": "Read smoothing transform, arbitrary joint nonnegative weights, moment assumption, existence criterion, fixedpoint-tail classification, convergence statement and proof roadmap."
+      },
+      {
+        "section": "§2 Associated Random Walk",
+        "pdf_pages": "8–18 (printed pp.282–292)",
+        "coverage": "Read size-biased increments, D/G identities, auxiliary lemmas, finite-mean construction, random-walk harmonic/renewal necessity, and lattice/nonlattice transform asymptotics."
+      },
+      {
+        "section": "§3 Stable Transformation",
+        "pdf_pages": "18–21 (printed pp.292–295)",
+        "coverage": "Read stable-subordination construction for interior roots and rescaling/limit construction for tangent roots."
+      },
+      {
+        "section": "§4 Associated Branching Random Walk",
+        "pdf_pages": "21–23 (printed pp.295–297)",
+        "coverage": "Read iterated Laplace-transform branching representation, rightmost-particle lemma, and shift-matching convergence proof."
+      },
+      {
+        "section": "§5 Totality of Fixedpoints; Moments and references",
+        "pdf_pages": "23–27 (printed pp.297–301)",
+        "coverage": "Read periodic parameter class, construction of fixedpoints realizing allowed parameters, moment criterion and proof, full references and added-in-proof note."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.3 / printed p.277: Theorem 1 root criterion and v definition.",
+      "PDF p.6 / printed p.280: Theorem 2 fixedpoint classification and convergence asymptotics.",
+      "PDF p.19 / printed p.293: endpoint-mass fixedpoint equation."
+    ]
+  },
+  "W21-036": {
+    "source_title": "Solutions to Recursive Distributional Equations for the Mean-Field TSP and Related Problems",
+    "pdf_sha256": "93774aa86f61e3855c1d0a4afc55a1864bab49e8beff3597b08a5f3c74bdca63",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–5",
+        "coverage": "Read PWIT motivation, matching/d-factor/TSP recursion, complementary-CDF transform, domain D, Theorem 1 and proof strategy."
+      },
+      {
+        "section": "§2 Proof of Theorem 1",
+        "pdf_pages": "5–16",
+        "coverage": "Read all six lemmas and complete proof: regularization, shift envelopes, boundedness, strict sup/inf improvement, uniform shifts/tails, compactness, construction/uniqueness of fixedpoint and even/odd iterate convergence."
+      },
+      {
+        "section": "Acknowledgements and references",
+        "pdf_pages": "16–17",
+        "coverage": "Read acknowledgements, all references and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "p.5: RDE, transform (3), domain D and alternating shifted convergence statement.",
+      "p.16: uniqueness argument and final even/odd translate limits."
+    ]
+  },
+  "W21-004": {
+    "source_title": "On Ergodic Properties of Nonlinear Markov Chains and Stochastic McKean–Vlasov Equations",
+    "pdf_sha256": "eab8ab19fb5369ba740e317508b9d76572d3b03586ba4f31ec35925b76aabf5c",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–2",
+        "coverage": "Read model motivation, definition of law-dependent nonlinear Markov chain, and distinction from standard Markov-chain ergodicity."
+      },
+      {
+        "section": "§2 Nonlinear Markov-chain assumptions and Theorem 2.2",
+        "pdf_pages": "2–4",
+        "coverage": "Read the local/global Dobrushin setup, cross-state/law condition (2.3), same-state law Lipschitz condition (2.4), two-cycle counterexample, sharp threshold statement, and transition to the McKean–Vlasov part. Rendered and checked assumptions on p.3 and Theorem 2.2 on p.4."
+      },
+      {
+        "section": "§3 McKean–Vlasov equation with small perturbation",
+        "pdf_pages": "4–6",
+        "coverage": "Read the stochastic McKean–Vlasov model, dissipativity and bounded-Lipschitz perturbation hypotheses, Theorem 3.1, and outline of weighted-TV contraction."
+      },
+      {
+        "section": "§4 Proofs of Theorems 2.2 and 3.1",
+        "pdf_pages": "6–15",
+        "coverage": "Read common-part/residual decomposition and exact recurrence (4.1), Cauchy/invariance/uniqueness proof and all three sharpness examples; then read Hairer–Mattingly weighted-TV lemma, Harnack local overlap proof, Lyapunov estimates, Girsanov/Pinsker perturbation control, moment bounds, and final sampled-time contraction/extension argument for Theorem 3.1."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "16–17",
+        "coverage": "Read the complete reference list and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.3: global Dobrushin condition (2.3) takes a supremum over both laws and compares x,y states.",
+      "PDF p.4: Theorem 2.2 threshold λ≤α, geometric rate for λ<α, harmonic rate at λ=α, and sharpness range 0<α<λ≤1."
+    ]
+  },
+  "W21-007": {
+    "source_title": "On Mean Field Convergence and Stationary Regime",
+    "pdf_sha256": "5a5bcec67c3bab51e4fdc29dfbe33a9562315fc46cf130af6b3d99321e25a8b0",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–2",
+        "coverage": "Read the stationary-regime question, fixed-time convergence setup, Feller condition, and the distinction between deterministic-process invariant limits and trajectory convergence."
+      },
+      {
+        "section": "§2.1 Random processes and invariant probabilities",
+        "pdf_pages": "2",
+        "coverage": "Read Polish state-space setup, discrete/continuous time convention, initial support E_N, Feller property, and definition of invariant Π_N."
+      },
+      {
+        "section": "§2.2 Deterministic measurable process; §2.3 Hypothesis 1; §2.4 Examples",
+        "pdf_pages": "3",
+        "coverage": "Read measurability-only deterministic maps with no assumed semiflow/continuity, exact converging-initial-condition hypothesis for every fixed t, and discrete/continuous examples."
+      },
+      {
+        "section": "§3.1 Main theorem and proof",
+        "pdf_pages": "4",
+        "coverage": "Read Theorem 1 and complete Skorohod-representation proof: subsequential invariant laws, almost-sure initial-state convergence, conditional-law hypothesis, bounded convergence, and invariant identity for the deterministic process."
+      },
+      {
+        "section": "§3.2 Continuous semiflow corollary and references",
+        "pdf_pages": "5–6",
+        "coverage": "Read Poincaré-recurrence support statement, tightness plus unique global deterministic attractor corollary, references, and last-page closure."
+      }
+    ],
+    "rendered_formula_checks": []
+  },
+  "W21-012": {
+    "source_title": "Quantitative Harris-Type Theorems for Diffusions and McKean–Vlasov Processes",
+    "pdf_sha256": "13142f48f4c12936e39a967a897d626c1ea5a67def83767ce724252759836791",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1–3",
+        "coverage": "Read diffusion setup, explicit-constant objective, reflection coupling/concave-distance method, weak-Harris background, and section roadmap."
+      },
+      {
+        "section": "§2.1 Geometric ergodicity with additive metric",
+        "pdf_pages": "3–9",
+        "coverage": "Read curvature and Lyapunov assumptions, additive growth condition, definitions of R1/R2/ε/f, Theorem 2.1 and examples/corollaries. Rendered the exact growth condition and theorem constants on p.6–7."
+      },
+      {
+        "section": "§2.2 Geometric ergodicity with multiplicative semimetric",
+        "pdf_pages": "9–13",
+        "coverage": "Read logarithmic Lyapunov-gradient bound, Q(ε), admissibility condition (2.25), multiplicative cost, Theorem 2.2, optimization corollary and gradient consequences. Rendered exact theorem constants on p.11; recorded that the statement prints assumption 2.2 twice while its proof/setup uses 2.1, 2.2 and 2.4."
+      },
+      {
+        "section": "§2.3 McKean–Vlasov diffusions",
+        "pdf_pages": "13–15",
+        "coverage": "Read nonlinear SDE and interacting-particle motivation, Lipschitz interaction, strict-contractivity-at-infinity result, quadratic dissipativity result, local/global small-interaction bounds, and explicit non-sharp-threshold caveat. Rendered Theorem 2.4 on p.15."
+      },
+      {
+        "section": "§2.4 Subgeometric ergodicity",
+        "pdf_pages": "15–17",
+        "coverage": "Read subgeometric Lyapunov condition, growth condition, coupling-time transform H, Theorem 2.5 and invariant-law tail corollary."
+      },
+      {
+        "section": "§3 Discussion",
+        "pdf_pages": "17–22",
+        "coverage": "Read comparisons with classical Harris and functional inequalities, dimension dependence, extensions, McKean–Vlasov scope, and subgeometric interpretation."
+      },
+      {
+        "section": "§4 Couplings",
+        "pdf_pages": "22–24",
+        "coverage": "Read synchronous/reflection coupling, blended reflection/synchronous coupling for two McKean–Vlasov marginals, and construction of marginal Brownian motions."
+      },
+      {
+        "section": "§5.1 Proofs for §2.1 and additive contraction",
+        "pdf_pages": "24–29",
+        "coverage": "Read concave distance construction, generalized second derivative, additive contraction proof via Itô–Tanaka/reflection coupling/Lyapunov drift/localization, and corollaries."
+      },
+      {
+        "section": "§5.2 Proofs for §2.2 and multiplicative contraction",
+        "pdf_pages": "29–32",
+        "coverage": "Read product-rule proof, covariance/cross-variation estimate canceled by the Q(ε) distance term, multiplicative cost supermartingale, and gradient bound."
+      },
+      {
+        "section": "§5.3 Proofs for §2.3 and McKean–Vlasov bounds",
+        "pdf_pages": "32–39",
+        "coverage": "Read reflected/synchronous cutoff coupling, interaction estimate, strict-contraction-at-infinity proof for Theorem 2.3, a priori Lyapunov lemma, and complete small-interaction local/global contraction proof for Theorem 2.4."
+      },
+      {
+        "section": "§5.4 Subgeometric proofs",
+        "pdf_pages": "39–41",
+        "coverage": "Read the transform-supermartingale proof for hitting-time Lemma 3.1, reflection-coupling application to Theorem 2.5, and invariant-law tail estimate."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "42–45",
+        "coverage": "Read all four reference pages and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.6: additive growth condition (2.10), with (4C/λ)[1+α(∫₀ᴿ¹ϕ(r)⁻¹dr)Φ(|x−y|)] as the bracketed factor.",
+      "PDF p.7: additive contraction rate c=min{β,α,λ}/2 and β integral.",
+      "PDF p.11: multiplicative contraction constant c=min{β,λ,4Cελ}/2 and exact β integral.",
+      "PDF p.15: Theorem 2.4 local bound and the separate all-initial-law estimate with the squared initial Lyapunov moments inside the exp(−ct) parentheses."
+    ]
+  },
+  "W21-025": {
+    "source_title": "Fixed Points of a Generalized Smoothing Transformation and Applications to Branching Processes",
+    "pdf_sha256": "99ae9d43bc6303ec09d3d15912b63242f72e3e5f5656a5bca2a9ca5916ae48dd",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Archive cover",
+        "pdf_pages": "1",
+        "coverage": "Checked Numdam archive title/author/year and 54-page printed extent; archive front matter is one additional physical PDF page."
+      },
+      {
+        "section": "Summary and §1 Introduction/main results",
+        "pdf_pages": "2–10",
+        "coverage": "Read weighted-sum transform definition, H0/H1/H2 and p(x), Theorem 0 finite-mean criterion, Theorem 1 existence/root criterion, Theorem 2 regular variation, Theorem 3 iteration convergence, lattice profile definition and Theorem 4 totality. Rendered exact statements on pp.7–10."
+      },
+      {
+        "section": "§2 Applications",
+        "pdf_pages": "11–15",
+        "coverage": "Read Poincaré equation, Crump–Mode and Bellman–Harris recursions, branching-random-walk transform and application theorem."
+      },
+      {
+        "section": "§3 Sufficient conditions",
+        "pdf_pages": "16–18",
+        "coverage": "Read extinction-probability lemma, weight/count truncation, subsequential Laplace-transform construction, and proof of nontrivial fixedpoint existence."
+      },
+      {
+        "section": "§4 Necessary conditions and basic fixedpoint properties",
+        "pdf_pages": "19–29",
+        "coverage": "Read tilted random-walk increment, Laplace-deficit identity, compactness/equicontinuity lemmas, harmonic-function classification, renewal arguments, and transient/recurrent lattice/nonlattice asymptotic proof."
+      },
+      {
+        "section": "§5 Stable transformation and canonical fixedpoints",
+        "pdf_pages": "29–31",
+        "coverage": "Read stable-subordination conjugacy, transfer of fixedpoints, construction of scaled solutions, and canonical/noncanonical distinction."
+      },
+      {
+        "section": "§6 Regular variation under first-moment conditions",
+        "pdf_pages": "31–33",
+        "coverage": "Read slowly varying lemma and Tauberian/asymptotic argument extending the fixedpoint regular-variation result beyond H2."
+      },
+      {
+        "section": "§7 Iterations: convergence to fixedpoints",
+        "pdf_pages": "33–37",
+        "coverage": "Read branching-tree representation, maximal-product decay, comparison lemma, matched-asymptotic squeeze proof, and scaled-tail corollary."
+      },
+      {
+        "section": "§8 Kesten–Stigum extension",
+        "pdf_pages": "37–40",
+        "coverage": "Read Wasserstein-like d_α metric, contraction estimate for T, strictness conditions, and finite-mean iteration/no-nontrivial-limit criterion."
+      },
+      {
+        "section": "§9 Limit theorem when inf p(x)>1",
+        "pdf_pages": "40–43",
+        "coverage": "Read extinction mass, supercritical iterated-law limit, compact truncation comparison, and nonexistence criteria."
+      },
+      {
+        "section": "§10 Totality and further convergence",
+        "pdf_pages": "43–48",
+        "coverage": "Read realization of periodic lattice profiles, canonical fixedpoints, convergence under matched tails, and alternatives for initial laws with heavier/lighter tails."
+      },
+      {
+        "section": "§11 Moments and tails",
+        "pdf_pages": "48–53",
+        "coverage": "Read Tauberian lemma, tail and low-moment consequences, exact power/log-power tail theorem, and higher-moment threshold results."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "53–55",
+        "coverage": "Read complete bibliography and last-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.7: Theorem 1 root criterion EN>1 and inf_[0,1]p≤1, with converse under (H1).",
+      "PDF p.8: Theorem 2 regular-variation bounds and H2 profiles for p′(α)<0 versus p′(α)=0.",
+      "PDF p.9: Theorem 3 matched-small-Laplace-asymptotic convergence and size-biased increment definition.",
+      "PDF p.10: lattice/nonlattice profile class and Theorem 4 totality correspondence."
+    ]
+  },
+  "W21-027": {
+    "source_title": "A Limit Theorem for “Quicksort”",
+    "pdf_sha256": "7366d2107b761d254b8b1cfe697f9ddb9501836e2054b6c8f2c9b4d0cb765bbb",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Archive cover",
+        "pdf_pages": "1",
+        "coverage": "Checked Numdam title/author/journal citation; archive cover precedes article pages 85–100."
+      },
+      {
+        "section": "Abstract and §0 Introduction",
+        "pdf_pages": "2–5",
+        "coverage": "Read randomized Quicksort setup, normalized centered comparisons, Wasserstein-p context, asserted fixedpoint limit, exponential-tail objective and scope notes."
+      },
+      {
+        "section": "§1 Recursive equation",
+        "pdf_pages": "6–7",
+        "coverage": "Read pivot-rank recurrence, exact centering term C_n, uniform-rank limit, and limiting toll C(u)."
+      },
+      {
+        "section": "§2 Fixedpoint argument",
+        "pdf_pages": "7–9",
+        "coverage": "Read complete centered finite-variance law space, W₂ metric, definition of S, exact coupling contraction calculation, Cauchy estimate and Banach fixedpoint conclusion. Rendered and checked theorem/proof formulas on pp.8–9."
+      },
+      {
+        "section": "§3 Convergence to the fixedpoint",
+        "pdf_pages": "9–12",
+        "coverage": "Read finite recursive operator, uniform toll approximation, scalar sequence lemma, and proof that normalized centered Quicksort comparisons converge in W₂."
+      },
+      {
+        "section": "§4 Laplace transforms",
+        "pdf_pages": "12–15",
+        "coverage": "Read induction for uniform exponential-moment bounds, passage to finite Laplace transforms of the limit, and Markov inequality consequence for Quicksort bad-performance probability."
+      },
+      {
+        "section": "§5 Miscellanea and references",
+        "pdf_pages": "15–17",
+        "coverage": "Read higher-moment recurrences, cumulant discussion, infinite-tree-sum representation, k-median variant, conclusion, bibliography, and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.8: exact W₂ contraction squared coefficient E[τ²+(1−τ)²]=2/3.",
+      "PDF p.9: source's printed Cauchy estimate uses the false generic bound Σ_{j=m}^{n−1}q^j≤3q^m for q=√(2/3); the valid bound has factor 1/(1−q)=3+√6. The p.8 contraction remains exact. Rendered and visually checked."
+    ]
+  },
+  "W21-030": {
+    "source_title": "A General Limit Theorem for Recursive Algorithms and Combinatorial Structures",
+    "pdf_sha256": "2118f65acc30bab639237391c4753d6ec4f70e503756749edae64043511ecd83",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract, introduction, recursive algorithm/combinatorial structure model, normalization and overview of transfer result.",
+        "pdf_pages": "1-5",
+        "coverage": "Abstract, introduction, recursive algorithm/combinatorial structure model, normalization and overview of transfer result."
+      },
+      {
+        "section": "Section 3: affine distributional maps, Zolotarev metrics, invariant fixed-moment classes, contraction lemmas 3.1-3.3 and Corollary 3.4; proofs read.",
+        "pdf_pages": "6-10",
+        "coverage": "Section 3: affine distributional maps, Zolotarev metrics, invariant fixed-moment classes, contraction lemmas 3.1-3.3 and Corollary 3.4; proofs read."
+      },
+      {
+        "section": "Section 4.1: multivariate transfer Theorem 4.1 and full accompanying-sequence proof; Section 4.2 begins; theorem page p11 visually checked.",
+        "pdf_pages": "11-14",
+        "coverage": "Section 4.1: multivariate transfer Theorem 4.1 and full accompanying-sequence proof; Section 4.2 begins; theorem page p11 visually checked."
+      },
+      {
+        "section": "Smoothing metric regularity, local/global convergence corollaries and proof mechanisms; random number of recursive branches, Theorem 4.6 and discussion.",
+        "pdf_pages": "15-19",
+        "coverage": "Smoothing metric regularity, local/global convergence corollaries and proof mechanisms; random number of recursive branches, Theorem 4.6 and discussion."
+      },
+      {
+        "section": "Section 5.1: univariate transfer Theorem 5.1, stabilization, normal Corollary 5.2 and proof; p20 theorem visually checked.",
+        "pdf_pages": "20-22",
+        "coverage": "Section 5.1: univariate transfer Theorem 5.1, stabilization, normal Corollary 5.2 and proof; p20 theorem visually checked."
+      },
+      {
+        "section": "Algorithm/data-structure applications and their recurrences, toll/mean/variance checks and normal-limit deductions (Quickselect/Quicksort, search trees, tries/digital structures, mergesort/key comparisons, maxima and related examples).",
+        "pdf_pages": "23-33",
+        "coverage": "Algorithm/data-structure applications and their recurrences, toll/mean/variance checks and normal-limit deductions (Quickselect/Quicksort, search trees, tries/digital structures, mergesort/key comparisons, maxima and related examples)."
+      },
+      {
+        "section": "Section 5.4 multivariate central-limit applications and proof fragments, including random recursive and plane-oriented recursive tree examples.",
+        "pdf_pages": "34-39",
+        "coverage": "Section 5.4 multivariate central-limit applications and proof fragments, including random recursive and plane-oriented recursive tree examples."
+      },
+      {
+        "section": "Complete references section.",
+        "pdf_pages": "39-41",
+        "coverage": "Complete references beginning on physical p.39, including the p.39 boundary shared with the end of §5.4, through p.41 and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L11_batch1/rendered/C028-p11.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C028-p20.png"
+    ],
+    "coverage_basis": "L11 full-text read and proof card; W21 verified the acquired PDF page count and SHA-256 against D03 handoff. Physical page intervals cover the complete PDF; see the batch sectioncoverage.json for the section-by-section reader notes."
+  },
+  "W21-031": {
+    "source_title": "On the Contraction Method with Degenerate Limit Equation",
+    "pdf_sha256": "831f3d086dc6105f3e66b6bff8f36ff76c0645dd7bb4005324b193f975087343",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Introduction, degenerate one-branch recursion, normalization motivation, organization and hypotheses context.",
+        "pdf_pages": "1-4",
+        "coverage": "Introduction, degenerate one-branch recursion, normalization motivation, organization and hypotheses context."
+      },
+      {
+        "section": "Theorem 2.1 exact hypotheses/rate, Lemma 3.1 weighted logarithmic recursion, Lemma 3.2 calculus estimate, start of full normal-comparison proof; theorem p5 visually checked.",
+        "pdf_pages": "5-8",
+        "coverage": "Theorem 2.1 exact hypotheses/rate, Lemma 3.1 weighted logarithmic recursion, Lemma 3.2 calculus estimate, start of full normal-comparison proof; theorem p5 visually checked."
+      },
+      {
+        "section": "Remainder of Theorem 2.1 proof, variance-matched Gaussian comparison, Lemma 3.3 characterization, applications and discussion.",
+        "pdf_pages": "9-13",
+        "coverage": "Remainder of Theorem 2.1 proof, variance-matched Gaussian comparison, Lemma 3.3 characterization, applications and discussion."
+      },
+      {
+        "section": "Multi-branch extension Theorem 5.1, Lemma 5.2 and explicitly sketched proof, applications including random-node/broadcast examples.",
+        "pdf_pages": "14-18",
+        "coverage": "Multi-branch extension Theorem 5.1, Lemma 5.2 and explicitly sketched proof, applications including random-node/broadcast examples."
+      },
+      {
+        "section": "Complete references page.",
+        "pdf_pages": "19",
+        "coverage": "Complete references page."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L11_batch1/rendered/C029-p5.png"
+    ],
+    "coverage_basis": "L11 full-text read and proof card; W21 verified the acquired PDF page count and SHA-256 against D03 handoff. Physical page intervals cover the complete PDF; see the batch sectioncoverage.json for the section-by-section reader notes."
+  },
+  "W21-032": {
+    "source_title": "A Stochastic Fixed Point Equation Related to Weighted Branching with Deterministic Weights",
+    "pdf_sha256": "81a5c6047a02ffaa2c9cfa0d5870203dc09c228866282acf93a30ff73cca18bf",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract, introduction, operator and infinite-sum convention, standing assumptions, proof strategy and weighted-branching preview.",
+        "pdf_pages": "1-5",
+        "coverage": "Abstract, introduction, operator and infinite-sum convention, standing assumptions, proof strategy and weighted-branching preview."
+      },
+      {
+        "section": "Preliminaries, closure under convolution/reflection, elementary weight cases and existence/exponent restrictions.",
+        "pdf_pages": "6-7",
+        "coverage": "Preliminaries, closure under convolution/reflection, elementary weight cases and existence/exponent restrictions."
+      },
+      {
+        "section": "Infinite divisibility, weighted branching, Levy-measure harmonicity, regularity and Choquet-Deny machinery; proofs read.",
+        "pdf_pages": "8-13",
+        "coverage": "Infinite divisibility, weighted branching, Levy-measure harmonicity, regularity and Choquet-Deny machinery; proofs read."
+      },
+      {
+        "section": "Theorems 7.1-7.4 / Corollary 7.5, continuous and discrete multiplicative groups, stable-law classes, group quotient mixture and drift restrictions.",
+        "pdf_pages": "14-18",
+        "coverage": "Theorems 7.1-7.4 / Corollary 7.5, continuous and discrete multiplicative groups, stable-law classes, group quotient mixture and drift restrictions. Theorem 7.3(b), PDF p.16, literally prints exp(+σ²t²/2) in the non-unit-sum α=2 branch; following prose and characteristic-function validity require the centered Gaussian minus sign, so the source display error is isolated."
+      },
+      {
+        "section": "Proofs of continuous/discrete classifications and evaluation of drift constraints (including Theorem 7.4).",
+        "pdf_pages": "19-23",
+        "coverage": "Proofs of continuous/discrete classifications and evaluation of drift constraints (including Theorem 7.4)."
+      },
+      {
+        "section": "Nonzero constant C: Theorems 9.2-9.4, shifts/nonexistence cases and proof; p15, p16, p24 and p26 theorem pages rendered/visually checked.",
+        "pdf_pages": "24-26",
+        "coverage": "Read Theorems 9.2–9.4 and proofs. Theorem 9.4 PDF p.26 includes continuous C2 (GΛ=R+, α=1) as well as discrete D2 and D3 cases; exact drift/group conditions are recorded in the card. Rendered and visually checked p.26. Theorem 9.4(a) displayed formula omits i before β, while its proof on the same p.26 derives the standard iβ stable form; this internal source discrepancy is isolated in the card."
+      },
+      {
+        "section": "Further weighted-branching/integrability lemmas and section 10 discussion.",
+        "pdf_pages": "27-28",
+        "coverage": "Read the further weighted-branching/integrability lemmas and §10 associated-random-walk discussion; Appendix A begins at the end of physical p.28 and continues on p.29."
+      },
+      {
+        "section": "Appendix A: Deny and Choquet-Deny theorem statements and decomposition.",
+        "pdf_pages": "28-29",
+        "coverage": "Read Appendix A: Deny and Choquet–Deny theorem statements and decomposition, beginning on physical p.28 and continuing through p.29."
+      },
+      {
+        "section": "Complete references page.",
+        "pdf_pages": "29-30",
+        "coverage": "Read complete references, beginning on physical p.29, and final-page closure on p.30."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L11_batch1/rendered/C030-p15.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C030-p16.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C030-p24.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C030-p26.png"
+    ],
+    "coverage_basis": "L11 full-text read and proof card; W21 verified the acquired PDF page count and SHA-256 against D03 handoff. Physical page intervals cover the complete PDF; see the batch sectioncoverage.json for the section-by-section reader notes."
+  },
+  "W21-034": {
+    "source_title": "A Stochastic Fixed Point Equation for Weighted Minima and Maxima",
+    "pdf_sha256": "0ad6ade5513644b6aa7c99580d59201fdb54cf8a074d6336283f36c8823a0f70",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Introduction, weighted min/max equations, positive/negative/mixed sign cases, harmonic transform and paper structure.",
+        "pdf_pages": "1-4",
+        "coverage": "Introduction, weighted min/max equations, positive/negative/mixed sign cases, harmonic transform and paper structure. At physical p.3, checked the separate singleton |J|=1,T1=1 identity-operator case before the paper imposes standing |J|≥2; under the standing all-unit case only Dirac laws are fixed."
+      },
+      {
+        "section": "Tree representation, necessary condition, Corollary 2.2 and Proposition 2.3 cases A1-A4; complete proofs.",
+        "pdf_pages": "5-6",
+        "coverage": "Tree representation, necessary condition, Corollary 2.2 and Proposition 2.3 cases A1-A4; complete proofs."
+      },
+      {
+        "section": "Section 3 characteristic exponent, multiplicative harmonic measures, Choquet-Deny representation, Proposition 3.3 branching-tree Markov-chain/martingale proof for countably infinite A6.",
+        "pdf_pages": "7-11",
+        "coverage": "Section 3 characteristic exponent, multiplicative harmonic measures, Choquet-Deny representation, Proposition 3.3 branching-tree Markov-chain/martingale proof for countably infinite A6."
+      },
+      {
+        "section": "Section 4 and Theorem 4.2 positive fixed-law classification; full proof and continuation. Theorem page p12 and proof continuation p13 rendered/visually checked.",
+        "pdf_pages": "12-13",
+        "coverage": "Section 4 and Theorem 4.2 positive fixed-law classification; full proof and continuation. Theorem page p12 and proof continuation p13 rendered/visually checked."
+      },
+      {
+        "section": "Section 5 negative and mixed signs; Theorems 5.1 and 5.2, proof and explicit existence caveat for finite all-negative case.",
+        "pdf_pages": "13-14",
+        "coverage": "Section 5 negative and mixed signs; Theorems 5.1 and 5.2, proof and explicit existence caveat for finite all-negative case."
+      },
+      {
+        "section": "Complete references page.",
+        "pdf_pages": "15",
+        "coverage": "Complete references page."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L11_batch1/rendered/C032-p12.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C032-p13.png"
+    ],
+    "coverage_basis": "L11 full-text read and proof card; W21 verified the acquired PDF page count and SHA-256 against D03 handoff. Physical page intervals cover the complete PDF; see the batch sectioncoverage.json for the section-by-section reader notes."
+  },
+  "W21-035": {
+    "source_title": "Pólya Urns Via the Contraction Method",
+    "pdf_sha256": "8a91f5e68bbff5afb750581b6f59552684c5a80268215f1ee4aff914106339f5",
+    "complete": true,
+    "entries": [
+      {
+        "section": "Abstract/introduction, balanced urn setup, three asymptotic regimes and plan.",
+        "pdf_pages": "1-3",
+        "coverage": "Abstract/introduction, balanced urn setup, three asymptotic regimes and plan."
+      },
+      {
+        "section": "Tree embedding and recursive equations, subtree split lemma and balance/Dirichlet proportions.",
+        "pdf_pages": "4-7",
+        "coverage": "Tree embedding and recursive equations, subtree split lemma and balance/Dirichlet proportions."
+      },
+      {
+        "section": "Mean asymptotics, normalization choices, marginal law systems and regime preview.",
+        "pdf_pages": "7-10",
+        "coverage": "Mean asymptotics, normalization choices, marginal law systems and regime preview."
+      },
+      {
+        "section": "Probability-law metric spaces, product metrics, prescribed mean/variance classes and operator definitions.",
+        "pdf_pages": "11-13",
+        "coverage": "Probability-law metric spaces, product metrics, prescribed mean/variance classes and operator definitions."
+      },
+      {
+        "section": "Theorems 5.1-5.3; complete Banach contraction proofs, including real, normal, and complex-mean cases.",
+        "pdf_pages": "14-17",
+        "coverage": "Theorems 5.1-5.3; complete Banach contraction proofs, including real, normal, and complex-mean cases."
+      },
+      {
+        "section": "Section 6.1 deterministic two-color urn: nonnormal and normal regimes, Theorems 6.1-6.2, accompanying variables, zeta-3 argument and boundary/exclusion remarks.",
+        "pdf_pages": "17-24",
+        "coverage": "Section 6.1 deterministic two-color urn: nonnormal and normal regimes, Theorems 6.1-6.2, accompanying variables, zeta-3 argument and boundary/exclusion remarks."
+      },
+      {
+        "section": "Section 6.2 random two-color replacement urn: exact recurrences/means/variance, Theorems 6.4/6.6, boundary discussion.",
+        "pdf_pages": "24-28",
+        "coverage": "Section 6.2 random two-color replacement urn: exact recurrences/means/variance, Theorems 6.4/6.6, boundary discussion."
+      },
+      {
+        "section": "Section 6.3 cyclic urn: exact mean formula, complex system, Lemmas 6.8-6.9, Theorem 6.10 and complete coupling/limsup proof. Scalar fixed-point equation at p31 rendered and visually checked.",
+        "pdf_pages": "28-34",
+        "coverage": "Section 6.3 cyclic urn: exact mean formula, complex system, Lemmas 6.8-6.9, Theorem 6.10 and complete coupling/limsup proof. Scalar fixed-point equation at p31 rendered and visually checked."
+      },
+      {
+        "section": "Section 7 remarks comparing marginal-system method with artificial multivariate coupling and its covariance/contraction limitations.",
+        "pdf_pages": "34-36",
+        "coverage": "Section 7 remarks comparing marginal-system method with artificial multivariate coupling and its covariance/contraction limitations."
+      },
+      {
+        "section": "Complete references section.",
+        "pdf_pages": "36-39",
+        "coverage": "Read the complete references, which begin on physical p.36 (Section 7 also ends on p.36), through p.39 and final-page closure."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L11_batch1/rendered/C033-p14.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C033-p16.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C033-p22.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C033-p30.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C033-p31.png",
+      "evidence/W21/reader_batches/L11_batch1/rendered/C033-p32.png"
+    ],
+    "coverage_basis": "L11 full-text read and proof card; W21 verified the acquired PDF page count and SHA-256 against D03 handoff. Physical page intervals cover the complete PDF; see the batch sectioncoverage.json for the section-by-section reader notes."
+  },
+  "W21-029": {
+    "source_title": "The Contraction Method for Recursive Algorithms",
+    "pdf_sha256": "4537f1a96c4081f4522c09be566c00c65a9a6a5b48597cb69ea1300fdbcd6f29",
+    "complete": true,
+    "version_scope": "Complete 35-physical-page author-hosted paper. Publisher citation Algorithmica 29 (2001), 3–33, DOI 10.1007/BF02679611; publisher text equivalence not checked.",
+    "entries": [
+      {
+        "section": "Title, abstract, §1 Introduction, and opening of §2",
+        "pdf_pages": "1–3",
+        "coverage": "Read the stated four-step contraction method, probabilistic-metric motivation, and general recursive divide-and-conquer cost equation with its independence and indexing conventions."
+      },
+      {
+        "section": "§2 Analysis of divide-and-conquer algorithms; Lemma 1, Theorems 2–3",
+        "pdf_pages": "3–7",
+        "coverage": "Read expectation/normalization/fixedpoint steps, Mallows metrics, the full quantile-coupling proof of Lemma 1 (p.6), Banach theorem, and the centered finite-variance affine-RDE contraction theorem (p.7). Lemma and theorem formulas visually checked."
+      },
+      {
+        "section": "§3 Quicksort-type recursions",
+        "pdf_pages": "8–13",
+        "coverage": "Read the Quicksort comparison-cost recursion and limiting toll/fixedpoint; median Quicksort, random recursive trees, quad trees, Quickselect/Find, and mergesort examples, with separate assumptions and convergence methods."
+      },
+      {
+        "section": "§4 Weighted branching processes",
+        "pdf_pages": "13–16",
+        "coverage": "Read the countable-tree construction, sibling dependence allowed within a family but independent coefficient families across vertices, random weights/states, and forward process setup."
+      },
+      {
+        "section": "§5 Forward and backward views of weighted branching",
+        "pdf_pages": "16–19",
+        "coverage": "Read the forward martingale and backward distributional iteration, their distinct probabilistic versus measure-functional conclusions, the affine RDE identity, and Quicksort/tree examples."
+      },
+      {
+        "section": "§6 Alternative probability metrics",
+        "pdf_pages": "19–21",
+        "coverage": "Read why the Mallows coefficient can equal one for variance-preserving recursions, the Zolotarev regularity metric and its scaling/addition properties, and the asymptotic-normality proof; the source states order r>2 is essential for that proof. Theorem 4 and proof pages visually checked."
+      },
+      {
+        "section": "§7 Logarithmic rates and weak contraction factors",
+        "pdf_pages": "21–23",
+        "coverage": "Read the cases where finite-step contraction coefficients approach one, the trivial limiting recursion obstacle, and the alternate metric/error iteration used for logarithmic convergence rates; Theorem 5 statement and proof."
+      },
+      {
+        "section": "§8 Branching dynamical systems",
+        "pdf_pages": "23–27",
+        "coverage": "Read the general tree/state-space construction, random child maps, grave state, generation evolution, and links to branching Markov processes and iterated-function systems; the authors state concrete applications require substantial additional work."
+      },
+      {
+        "section": "§9 Find process and references",
+        "pdf_pages": "27–35",
+        "coverage": "Read the function-valued Find-process fixedpoint, Lp(Ω×[0,1]) coupling metric, source-printed uniform-split sufficient condition and recursive law through references. The p.29 displayed coefficient is checked at p=3; a separate disjoint-support integral derives factor (2/(p+2))^(1/p)<1. The p.30 regular-version limitation remains separate."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF pp.6–7 Lemma 1 and Theorem 3",
+      "PDF p.20 Theorem 4 and recursion (6.5)",
+      "PDF p.21 order r>2 proof caveat",
+      "PDF p.29 Find-process law operator and source-printed contraction estimate; exact p=3 comparison is saved in evidence/W21/checks/W21-029-find-operator-contraction.py/.txt; independent disjoint-support integral recorded in W21-029 card.",
+      "PDF p.30 regular-version limitation"
+    ],
+    "physical_page_count": 35
+  },
+  "W21-038": {
+    "source_title": "Perturbation of the Stationary Distribution Measured by Ergodicity Coefficients",
+    "pdf_sha256": "02ea5da334d253223b9bc1ec059f98faf8c2250012e7f0d551c79047d0778674",
+    "complete": true,
+    "version_scope": "Official Cambridge publisher PDF; Advances in Applied Probability 20 (1988), 228–230, DOI 10.2307/1427277.",
+    "entries": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1 (printed p.228)",
+        "coverage": "Read finite row-stochastic P and P-tilde with one irreducible class each, the Schweitzer fundamental-matrix identity, definition of tau_1, scrambling condition, and exact relative stationary-distribution inequality (3); rendered and checked."
+      },
+      {
+        "section": "§2 Use of ergodicity coefficients; §3 Applications; §4 A related result",
+        "pdf_pages": "2 (printed p.229)",
+        "coverage": "Read tau_p on zero-sum row vectors, submultiplicativity, the Neumann-series proof of (4), aperiodicity condition, examples comparing tau_1 and tau_infinity, and residual-contraction observation."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "3 (printed p.230)",
+        "coverage": "Read and checked all seven references and DOI footer. No appendix."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.1 equation (3), including relative-norm denominator",
+      "PDF p.2 equation (4) and Neumann-series argument"
+    ],
+    "physical_page_count": 3
+  },
+  "W21-040": {
+    "source_title": "Perturbation Theory for Markov Chains via Wasserstein Distance",
+    "pdf_sha256": "816321be63f77e1bb8f8e9da8cd8b5ca18279030d2d4f6f706921b64d063c480",
+    "complete": true,
+    "version_scope": "Complete official arXiv:1503.04123v3 author preprint, last revised 23 Feb 2017; published counterpart Bernoulli 24(4A) (2018), 2610–2639, DOI 10.3150/17-BEJ938. Publisher-layout equivalence not checked.",
+    "entries": [
+      {
+        "section": "Abstract, §1 Introduction, §1.1 Related literature",
+        "pdf_pages": "1–3",
+        "coverage": "Read motivation, MCMC approximation context, exact role of Wasserstein perturbation results, and distinctions from earlier perturbation bounds."
+      },
+      {
+        "section": "§2 Wasserstein ergodicity",
+        "pdf_pages": "4–5",
+        "coverage": "Read Polish state-space and lower-semicontinuous metric setup, coupling Wasserstein distance and duality, Markov-kernel action, generalized Dobrushin coefficient, submultiplicativity/contractivity, finite first-moment stationary-law condition, and Assumption 2.1 on p.5. The source explicitly defines N_0 as nonnegative at the transition to §3 but leaves N undefined; positive-integer reading exposes the zero-power constant issue."
+      },
+      {
+        "section": "§3.1 Wasserstein perturbation bound",
+        "pdf_pages": "6–8",
+        "coverage": "Read Theorem 3.1 and full telescoping/geometric-sum proof, including the P^0 term; printed use of C needs C′=max(C,1) under positive-integer N. Also read weighted one-step error, Corollary 3.1 and printed cross-reference typo, Corollary 3.2, and comparison table."
+      },
+      {
+        "section": "§3.2 Perturbation bounds for geometrically ergodic chains",
+        "pdf_pages": "9–15",
+        "coverage": "Read V-uniform ergodicity, Wasserstein/V-norm lemmas, Corollaries 3.3–3.4, operator norm, Theorem 3.2 hypotheses and interpolation proof; its telescoping sum includes P^0, requiring C′=max(C,1) under positive-integer N. Read stationary Remark 3.7; theorem and exponent visually checked."
+      },
+      {
+        "section": "§4.1 Autoregressive process",
+        "pdf_pages": "16–20",
+        "coverage": "Read AR(1) Wasserstein perturbation application and sharpness argument when the innovation mean is nonzero; checked parameter and moment dependencies."
+      },
+      {
+        "section": "§4.2 Noisy Metropolis–Hastings",
+        "pdf_pages": "20–24",
+        "coverage": "Read acceptance-kernel perturbation lemma and application of the Wasserstein/geometric-ergodicity corollaries; retain proposal, acceptance-error and drift hypotheses."
+      },
+      {
+        "section": "§4.3 Noisy stochastic Langevin algorithm",
+        "pdf_pages": "24–28",
+        "coverage": "Read assumptions, Lyapunov/geometric-ergodicity results, and quantitative approximation bound for the specified discretized/noisy algorithm."
+      },
+      {
+        "section": "Acknowledgements and references",
+        "pdf_pages": "28–31",
+        "coverage": "Read acknowledgements and all references through the last physical page. No appendix."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.5 Assumption 2.1 and explicit N_0={0,1,2,...} notation; N itself is not defined.",
+      "PDF pp.6–7 Theorem 3.1/proof and Corollary 3.1; zero-power constant counterexample and C′ repair saved in evidence/W21/checks/W21-040-positive-n-constant.py/.txt.",
+      "PDF p.13 Theorem 3.2 statement continuation",
+      "PDF pp.14–15 Theorem 3.2 hypotheses, exponent, proof, and stationary bound; zero-power C′ issue checked."
+    ],
+    "physical_page_count": 31
+  },
+  "W21-013": {
+    "source_title": "Stationary Equilibria of Mean Field Games with Finite State and Action Space",
+    "pdf_sha256": "014c6d4facfe99ec2a09455111c1f552f2da290af338ab5d70f97b871a963a4b",
+    "physical_page_count": 35,
+    "complete": true,
+    "version_scope": "Official arXiv:1901.08803v2 author preprint, 35 pages; D03 record says last revised 19 Sep 2019, while the title page says 20 Sep 2019. DOI 10.1007/s13235-019-00345-9 identifies the published counterpart; no publisher-PDF text comparison. Reused existing D03 file without copying.",
+    "entries": [
+      {
+        "section": "Title/abstract and motivation",
+        "pdf_pages": "1-3",
+        "coverage": "Title/abstract and motivation; finite-state/action MFG model; distinction between discounted stationary and average-reward equilibria."
+      },
+      {
+        "section": "State/action/rate/reward setup, Assumption A1, dynamic and stationary MFE definitions, strategy conventions, and finite-MFG literature context.",
+        "pdf_pages": "4-9",
+        "coverage": "State/action/rate/reward setup, Assumption A1, dynamic and stationary MFE definitions, strategy conventions, and finite-MFG literature context."
+      },
+      {
+        "section": "Frozen-population CTMDP",
+        "pdf_pages": "10-13",
+        "coverage": "Frozen-population CTMDP; Lemma 3.1 and Theorem 3.2; uniformization, deterministic optimal policies, convex hull of optimal stationary strategies, and enumeration by action rectangles."
+      },
+      {
+        "section": "Theorem 4.1 and full Kakutani proof: nonempty/convex values, closed graph via compactness and continuity, fixed point to stationary MFE.",
+        "pdf_pages": "14-15",
+        "coverage": "Theorem 4.1 and full Kakutani proof: nonempty/convex values, closed graph via compactness and continuity, fixed point to stationary MFE."
+      },
+      {
+        "section": "Theorem 5.1 cut criterion and proof from balance equations plus generator conservativity.",
+        "pdf_pages": "16",
+        "coverage": "Theorem 5.1 cut criterion and proof from balance equations plus generator conservativity."
+      },
+      {
+        "section": "Theorem 5.2 and all supporting lemmas 5.3–5.6",
+        "pdf_pages": "17-21",
+        "coverage": "Theorem 5.2 and lemmas 5.3–5.6; its assumption is irreducibility of Q^d(m) for every deterministic stationary strategy d∈D^s (not only optimal policies); determinant/minor argument, Cramer formula, uniform sign, and occupation-array proof of the convex-hull reverse inclusion; Theorem 5.7/Corollary 5.8 characterization."
+      },
+      {
+        "section": "Consumer-choice example",
+        "pdf_pages": "22-26",
+        "coverage": "Consumer-choice example; stationary best-response thresholds, fixed-point enumeration, and parameter-dependent number of equilibria."
+      },
+      {
+        "section": "Three-state corruption example and use of cut-flow balance",
+        "pdf_pages": "27-29",
+        "coverage": "Three-state corruption example and use of cut-flow balance; the source notes some case analysis is omitted."
+      },
+      {
+        "section": "Appendix A proof of the irreducible conservative-generator minor/rank/determinant facts used by Theorem 5.2.",
+        "pdf_pages": "29-31",
+        "coverage": "Appendix A proof of the irreducible conservative-generator minor/rank/determinant facts used by Theorem 5.2."
+      },
+      {
+        "section": "Complete references.",
+        "pdf_pages": "32-35",
+        "coverage": "Complete references."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.14 Theorem 4.1 and p.17 Theorem 5.2 (L11 source renders); the occupation-array reverse-inclusion argument is recorded in the card."
+    ]
+  },
+  "W21-014": {
+    "source_title": "A Myopic Adjustment Process for Mean Field Games with Finite State and Action Space",
+    "pdf_sha256": "2c39e47ba180136308c0795c9ddc54196a1516511f152a8f23da64c385050ac9",
+    "physical_page_count": 24,
+    "complete": true,
+    "version_scope": "Official arXiv:2008.13420v1 author preprint, submitted 31 Aug 2020, 24 pages. DOI 10.1007/s00182-023-00866-z identifies published counterpart; no publisher PDF or text-equivalence comparison.",
+    "entries": [
+      {
+        "section": "Title/abstract, MFG context, finite-state/action model and reward criterion, A1.",
+        "pdf_pages": "1-4",
+        "coverage": "Title/abstract, MFG context, finite-state/action model and reward criterion, A1."
+      },
+      {
+        "section": "Optimal stationary-response sets and the myopic adjustment differential inclusion",
+        "pdf_pages": "5-7",
+        "coverage": "Optimal stationary-response sets and the myopic adjustment differential inclusion; Theorem 3.2 existence statement and proof dependencies."
+      },
+      {
+        "section": "Consumer-choice illustration, explicit optimal-policy regions and induced inclusion.",
+        "pdf_pages": "8-9",
+        "coverage": "Consumer-choice illustration, explicit optimal-policy regions and induced inclusion."
+      },
+      {
+        "section": "Local convergence: unique-policy neighborhood Lemma 4.1",
+        "pdf_pages": "9-12",
+        "coverage": "Local convergence: unique-policy neighborhood Lemma 4.1; Theorem 4.2 for constant irreducible generators; Jordan expansion and explicit small-neighborhood argument; Theorem 4.4 statement."
+      },
+      {
+        "section": "Theorem 4.4 nonconstructive local exponential-stability proof using shifted coordinates, Jordan-adapted basis, stable-subspace dissipation, and nonlinear remainder.",
+        "pdf_pages": "12-15",
+        "coverage": "Theorem 4.4 nonconstructive local exponential-stability proof using shifted coordinates, Jordan-adapted basis, stable-subspace dissipation, and nonlinear remainder."
+      },
+      {
+        "section": "Two-strategy setup and switching function",
+        "pdf_pages": "16-18",
+        "coverage": "Two-strategy setup and switching function; Theorem 5.1 global alternatives, exact signs, and proof using boundary crossing/first-exit arguments."
+      },
+      {
+        "section": "Three-state Example 5.2",
+        "pdf_pages": "19-20",
+        "coverage": "Three-state Example 5.2; model rates, application of case (iii), reduction to a Riccati equation, and explicit note that final convergence is only numerically suggested."
+      },
+      {
+        "section": "Appendix A complete proof of Theorem 3.2 via upper semicontinuity, convex compact values, growth bound, and tangent-cone viability.",
+        "pdf_pages": "20-21",
+        "coverage": "Appendix A complete proof of Theorem 3.2 via upper semicontinuity, convex compact values, growth bound, and tangent-cone viability."
+      },
+      {
+        "section": "Complete references.",
+        "pdf_pages": "22-24",
+        "coverage": "Complete references."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF pp.7,10,12,17: Theorem 3.2, Theorems 4.2/4.4, and Theorem 5.1 (L11 source renders)."
+    ]
+  },
+  "W21-015": {
+    "source_title": "On the Behaviour of Trajectories and the Ergodic Hypothesis for Quadratic Mappings of a Simplex",
+    "pdf_sha256": "c27d3d2bbb3b4b54609f28be9854049dcf7bd6038eb771df5724d3646453c634",
+    "physical_page_count": 2,
+    "complete": true,
+    "version_scope": "Official MathNet English translation, Communications of the Moscow Mathematical Society 33:6 (1978), pp.265–266; translated from Uspekhi Mat. Nauk 33:6, pp.207–208. DOI 10.1070/RM1978v033n06ABEH003890.",
+    "entries": [
+      {
+        "section": "Official translated title/citation",
+        "pdf_pages": "1",
+        "coverage": "Official translated title/citation; simplex quadratic map/fixed points; cyclic order regions; source condition U_1∩U_2∩U_3=∅ (not pairwise disjoint); exact Theorem 1 long-visit statement and product Lyapunov setup."
+      },
+      {
+        "section": "Theorem 1 proof including coordinate-ratio bound and arbitrary linear block-growth factor",
+        "pdf_pages": "2",
+        "coverage": "Theorem 1 proof including coordinate-ratio bound; source states the geometric product-ratio estimate outside a neighborhood of M_0 and asserts eventual avoidance without a separate argument. Theorem 2 Cesàro contradiction depends on this step; Note 1 cluster-set statement conflicts with connectedness of bounded Cesàro cluster sets. Full references read."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.1 and p.2 theorem displays/proof rendered and viewed; p.2 outside-neighborhood condition, eventual-avoidance step, and Note 1 conflict recorded in card.",
+      "Existing SymPy product identity cross-check: evidence/W21/checks/l11_batch02_symbolic_checks.py and .txt."
+    ]
+  },
+  "W21-019": {
+    "source_title": "On Regularity, Transitivity, and Ergodic Principle for Quadratic Stochastic Volterra Operators",
+    "pdf_sha256": "4a031b498ba069d3f055a0a2bb6c1ff2fb4525e1f5205ebeb8aebf3d19e64c5c",
+    "physical_page_count": 5,
+    "complete": true,
+    "version_scope": "Official arXiv:1111.3101v1 author preprint, submitted 14 Nov 2011, 5 pages. No journal reference or DOI appears in the record; no separate published version identified in this pass.",
+    "entries": [
+      {
+        "section": "Title/abstract",
+        "pdf_pages": "1-2",
+        "coverage": "Title/abstract; QSO definition, regularity, and the introduction’s displayed “non-Volterra” counterexample, whose coordinate formula factors into Volterra form."
+      },
+      {
+        "section": "Volterra condition and polynomial/skew-symmetric representation",
+        "pdf_pages": "2-4",
+        "coverage": "Volterra condition and polynomial/skew-symmetric representation; transversality/open-dense assertion, p.4 declaration of the global standing transversality assumption, tournament convention, and prior transitive-implies-regular reference."
+      },
+      {
+        "section": "Euclidean norm/support Ergodic-principle definition",
+        "pdf_pages": "4-5",
+        "coverage": "Euclidean norm/support Ergodic-principle definition; unnumbered equivalence theorem; acknowledgement and complete references."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.2 displayed map rendered: factoring gives Volterra form with off-diagonal coefficients ±1, all 2×2 principal minors 1, and a cyclic tournament.",
+      "PDF pp.4–5 definitions and unnumbered equivalence visually checked; main proof absent, cited [3–4] unaudited."
+    ]
+  },
+  "W21-021": {
+    "source_title": "Doubly Stochastic Quadratic Operators and Birkhoff's Problem",
+    "pdf_sha256": "7311c84fd87829adf4c994e509970684ea9967f54bc1b3a9390df132e417a0e4",
+    "physical_page_count": 18,
+    "complete": true,
+    "version_scope": "Official arXiv:0802.1100v1 author preprint, submitted 8 Feb 2008, 18 pages. Published counterpart: Linear Algebra and its Applications 432 (2010), pp.24–35, DOI 10.1016/j.laa.2009.07.002; no publisher-PDF text comparison.",
+    "entries": [
+      {
+        "section": "Title/arXiv identity, simplex majorization, QSO coefficients, definition of doubly stochastic QSO.",
+        "pdf_pages": "1-2",
+        "coverage": "Title/arXiv identity, simplex majorization, QSO coefficients, definition of doubly stochastic QSO."
+      },
+      {
+        "section": "Theorem 2.1 necessary slice conditions and proof by uniform simplex points/subset tests.",
+        "pdf_pages": "2-4",
+        "coverage": "Theorem 2.1 necessary slice conditions and proof by uniform simplex points/subset tests."
+      },
+      {
+        "section": "Extreme points of U1, saturated subsets, entry restrictions, Corollaries 3.2–3.3, and Theorem 3.4 statement/proof start",
+        "pdf_pages": "5-7",
+        "coverage": "Extreme points of U1, saturated subsets, entry restrictions, Corollaries 3.2–3.3, and the Theorem 3.4 statement/proof start; the role of U1 total-mass normalization is marked for independent scope review in the card."
+      },
+      {
+        "section": "Theorem 3.4 intended sufficiency proof by extreme points, induction, and convexity",
+        "pdf_pages": "8-9",
+        "coverage": "Theorem 3.4 sufficiency proof under the explicit A∈U1 condition: extreme points, induction, convexity, examples, and matrix symmetrization; whether that domain restriction is intended in the displayed statement remains pending review."
+      },
+      {
+        "section": "Quadratic-form bounds from row-stochastic matrices",
+        "pdf_pages": "10-11",
+        "coverage": "Quadratic-form bounds from row-stochastic matrices; Theorem 3.6, exact subset inequalities plus total-mass equality; necessity/sufficiency proof; Problem 3.7."
+      },
+      {
+        "section": "T_k/U_k definitions, Theorem 3.8 majorization-type bound and coefficient-shift proof",
+        "pdf_pages": "12-13",
+        "coverage": "T_k/U_k definitions, Theorem 3.8 majorization-type bound and coefficient-shift proof; Theorem 3.9 set identities."
+      },
+      {
+        "section": "Section 4",
+        "pdf_pages": "13-16",
+        "coverage": "Section 4; Theorem 4.1 constructive completion of one slice, Corollaries 4.2–4.4 and doubly-stochastic criterion; convex-polytope proof; extreme-point theorems 4.5–4.6."
+      },
+      {
+        "section": "Corollaries 4.7 and 4.9, Theorem 4.8 for m=3, displayed example and extreme-point count.",
+        "pdf_pages": "17",
+        "coverage": "Corollaries 4.7 and 4.9, Theorem 4.8 for m=3, displayed example and extreme-point count."
+      },
+      {
+        "section": "Complete references.",
+        "pdf_pages": "18",
+        "coverage": "Complete references."
+      }
+    ],
+    "rendered_formula_checks": [
+      "PDF p.4 U_1 normalization rendered during L12 integration; image: evidence/W21/reader_batches/L12_batch03/rendered/C019-p4.png. PDF p.7 Theorem 3.4, pp.10–11 Theorem 3.6, pp.14–15 Theorem 4.1, and p.16 Corollary 4.3 rendered by L11.",
+      "SymPy literal-scope check is saved in evidence/W21/checks/l11_batch02_symbolic_checks.py and .txt; it does not settle intended standing hypotheses."
+    ]
+  },
+  "W21-039": {
+    "source_title": "Sensitivity and Convergence of Uniformly Ergodic Markov Chains",
+    "pdf_sha256": "3a7a9c35f0a130181c03ff7c24311e849435cc27dbdf77885b26e6ec98c9fddb",
+    "physical_page_count": 12,
+    "complete": true,
+    "version_scope": "Official Cambridge publisher-layout PDF, Journal of Applied Probability 42(4) (2005), 1003–1014, 12 physical pages; first/last identity verified by D03, no alternate-version comparison.",
+    "entries": [
+      {
+        "section": "Title/abstract, motivation, and Section 1 introduction: perturbation sensitivity for uniformly ergodic chains.",
+        "pdf_pages": "PDF pp.1–2",
+        "coverage": "Title/abstract, motivation, and Section 1 introduction: perturbation sensitivity for uniformly ergodic chains."
+      },
+      {
+        "section": "Section 2 definitions and norms: transition operators, full variation, zero-mass ergodicity coefficient tau, submultiplicativity, and uniform-ergodicity condition (2.2).",
+        "pdf_pages": "PDF pp.2–3",
+        "coverage": "Section 2 definitions and norms: transition operators, full variation, zero-mass ergodicity coefficient tau, submultiplicativity, and uniform-ergodicity condition (2.2)."
+      },
+      {
+        "section": "Section 3 full perturbation analysis: Theorems 3.1–3.3, Corollaries 3.1–3.2, telescoping proof, geometric-tail constants, and tau_m alternatives.",
+        "pdf_pages": "PDF pp.3–6",
+        "coverage": "Section 3 full perturbation analysis: Theorems 3.1–3.3, Corollaries 3.1–3.2, telescoping proof, geometric-tail constants, and tau_m alternatives."
+      },
+      {
+        "section": "Section 4 finite-state space: eigenvalue-based convergence bounds, assumptions on diagonalizability/irreducibility, and finite-chain rates.",
+        "pdf_pages": "PDF pp.7–8",
+        "coverage": "Section 4 finite-state space: eigenvalue-based convergence bounds, assumptions on diagonalizability/irreducibility, and finite-chain rates."
+      },
+      {
+        "section": "Section 5 numerical results: example transition matrices, comparison of perturbation bounds, and tabulated finite-state values.",
+        "pdf_pages": "PDF pp.9–10",
+        "coverage": "Section 5 numerical results: example transition matrices, comparison of perturbation bounds, and tabulated finite-state values."
+      },
+      {
+        "section": "Appendix A: comparison with Anisimov and Kartashov estimates and their assumptions.",
+        "pdf_pages": "PDF pp.11",
+        "coverage": "Appendix A: comparison with Anisimov and Kartashov estimates and their assumptions."
+      },
+      {
+        "section": "Complete references and last-page identity.",
+        "pdf_pages": "PDF pp.12",
+        "coverage": "Complete references and last-page identity."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L08_B05/rendered/C037-p3.png",
+      "evidence/W21/reader_batches/L08_B05/rendered/C037-p4.png",
+      "evidence/W21/reader_batches/L08_B05/rendered/C037-p5.png",
+      "evidence/W21/reader_batches/L08_B05/rendered/C037-p6.png"
+    ],
+    "calculation_evidence": [
+      "evidence/W21/reader_batches/L08_B05/calculations/c037_rank_kernel_tv.py",
+      "evidence/W21/reader_batches/L08_B05/calculations/c037_rank_kernel_tv.json"
+    ],
+    "proof_coverage": "Full proof read for Theorems 3.1–3.3 and Corollaries 3.1–3.2. The general stationary-law estimate requires the base chain's uniform ergodicity and existence of a perturbed invariant law; the sharper m-step statement uses tau(P^m)<1. Finite-state parameter-kernel product-coupling transfer is separately derived and its finite example is retained as numerical evidence only.",
+    "reading_batch": "L08_B05",
+    "review_status": "pending",
+    "quota_eligible_for_A121_A122": true,
+    "tool_quota_eligibility": {
+      "provisional": true,
+      "eligible": true,
+      "operator": "Markov transition kernel P on a general state space; stationary-law map P ↦ π(P), with perturbation P ↦ P̃.",
+      "main_conclusion": "Theorem 3.1/Corollary 3.1 bound transient and invariant-law variation under base uniform ergodicity; Theorem 3.2 gives the bound when τ(P^m)<1. The card separately proves ||Kθ−Kη||op ≤ k||θ−η|| for the k-sample rank kernel by maximal coupling.",
+      "assumptions": "Base P has unique π and sup_x ||δ_xP^n−π|| ≤ Cρ^n for C<∞, 0<ρ<1, or some m has τ(P^m)<1; perturbed kernel has an invariant law. Full variation norm is twice set-sup usual TV.",
+      "method_use": "Direct nested stationary-law sensitivity template for the skill operator class; distinct from a nonlinear Markov law update or RDE. Supplies local sensitivity only unless mixing constants are uniform over the parameter region."
+    }
+  },
+  "W21-041": {
+    "source_title": "A Simple Method to Find All Solutions to the Functional Equation of the Smoothing Transform",
+    "pdf_sha256": "81d9c45efed6618e3031936f47939fd27781bbda37b227acf4918992edd5d6e4",
+    "physical_page_count": 33,
+    "complete": true,
+    "version_scope": "Author-hosted submitted manuscript, 33 physical pages. Official author publication page links the 2022 Journal of Theoretical Probability counterpart; no publisher-PDF text comparison.",
+    "entries": [
+      {
+        "section": "Introduction, smoothing/min-type equations, assumptions (2)–(16), geometric span, main regular- and boundary-case classification Theorems 1.2 and 1.5, and proof roadmap.",
+        "pdf_pages": "PDF pp.1–8",
+        "coverage": "Introduction, smoothing/min-type equations, assumptions (2)–(16), geometric span, main regular- and boundary-case classification Theorems 1.2 and 1.5, and proof roadmap."
+      },
+      {
+        "section": "Section 2: weighted branching random walk, additive/derivative martingales, many-to-one lemma and stopping lines.",
+        "pdf_pages": "PDF pp.9–11",
+        "coverage": "Section 2: weighted branching random walk, additive/derivative martingales, many-to-one lemma and stopping lines."
+      },
+      {
+        "section": "Section 3 proof of Theorem 1.2: product-martingale disintegration, stopping-line tameness, harmonic transform, Choquet–Deny identification, and reconstruction.",
+        "pdf_pages": "PDF pp.11–16",
+        "coverage": "Section 3 proof of Theorem 1.2: product-martingale disintegration, stopping-line tameness, harmonic transform, Choquet–Deny identification, and reconstruction."
+      },
+      {
+        "section": "Section 4: harmonic functions for centered random walks killed on leaving the positive half-line; Proposition 4.1 uniqueness/renewal-function argument in arithmetic and nonarithmetic cases.",
+        "pdf_pages": "PDF pp.16–24",
+        "coverage": "Section 4: harmonic functions for centered random walks killed on leaving the positive half-line; Proposition 4.1 uniqueness/renewal-function argument in arithmetic and nonarithmetic cases."
+      },
+      {
+        "section": "Section 5 proof of Theorem 1.5: boundary-case derivative martingale and killed-walk harmonic function.",
+        "pdf_pages": "PDF pp.25–29",
+        "coverage": "Section 5 proof of Theorem 1.5: boundary-case derivative martingale and killed-walk harmonic function."
+      },
+      {
+        "section": "Section 6 fractal random measures on the BRW boundary, final arguments, acknowledgments, and complete references.",
+        "pdf_pages": "PDF pp.30–33",
+        "coverage": "Section 6 fractal random measures on the BRW boundary, final arguments, acknowledgments, and complete references."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L08_B05/rendered/MALLEIN-p6.png",
+      "evidence/W21/reader_batches/L08_B05/rendered/MALLEIN-p7.png",
+      "checks/rendered_review/W21-041-MALLEIN-p18-proposition.png (Prop. 4.1 conditions; source display/prose growth-bound mismatch)"
+    ],
+    "calculation_evidence": null,
+    "proof_coverage": "Full main proof chains read; Theorem 1.2 uses assumptions (2),(3),(10),(11),(12) in the left-continuous solution class with left-continuous h, and Theorem 1.5 replaces the additive-martingale limit by the derivative-martingale limit under (2),(3),(14),(16). Proposition 4.1 requires a nontrivial centered finite-second-moment walk, right-continuous killed-half-line harmonic function, and a growth condition; its displayed supremum over x≤0 conflicts with the preceding at-most-linear-growth prose and is explicitly isolated in the card. The BRW weight/martingale interface is absent for A121/A122.",
+    "reading_batch": "L08_B05",
+    "review_status": "pending",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "provisional": true,
+      "eligible": true,
+      "operator": "Smoothing transform f ↦ E∏_{j≥1} f(tT_j), equivalent to sum-type X =d Σ_j T_jX_j and min-type X =d inf_j(X_j/T_j).",
+      "main_conclusion": "Theorem 1.2 classifies nontrivial solutions by f(t)=E exp[−Wh(t)t^α]; Theorem 1.5 gives the boundary derivative-martingale classification. Proof uses BRW disintegration, many-to-one random walk, and Choquet–Deny harmonic analysis.",
+      "assumptions": "Regular case: (2),(3),(10),(11),(12), including m(α)=1, minimality, negative m′(α), W1 log W1 and small-weight integrability; source solutions and periodic h are left-continuous. Boundary case: (2),(3),(14),(16) plus derivative-martingale conditions. Geometric span determines periodic h. Proposition 4.1 additionally assumes a nontrivial centered walk with finite second moment, right-continuity, killed boundary, and growth control; the displayed growth bound is over x≤0 although the preceding prose says at most linear growth.",
+      "method_use": "Strict smoothing-RDE fixed-point classification and proof template for a law-valued recursive operator when its iid-child/weight representation and all listed assumptions hold. Proposition 4.1 transfer is further limited by the source-text growth-bound mismatch. Not transferred to A121/A122 without that interface."
+    }
+  },
+  "W21-042": {
+    "source_title": "Regular Variation of Fixed Points of the Smoothing Transform",
+    "pdf_sha256": "7b689a4d692222ec2e3052f2059df7b1fe4e51a98632d1ca71cdfe8e35e92c67",
+    "physical_page_count": 33,
+    "complete": true,
+    "version_scope": "HAL author manuscript hal-02487852v1, submitted 21 February 2020, 33 physical pages; publication in SPA 130 (2020), 4104–4140; no publication-byte/text comparison.",
+    "entries": [
+      {
+        "section": "HAL manuscript identity; Section 1 smoothing-transform equation, finite-mean setup, Y1/rho definitions, Lemma 1.1, and exact main tail Theorems 1.1–1.2.",
+        "pdf_pages": "PDF pp.1–6",
+        "coverage": "HAL manuscript identity; Section 1 smoothing-transform equation, finite-mean setup, Y1/rho definitions, Lemma 1.1, and exact main tail Theorems 1.1–1.2."
+      },
+      {
+        "section": "Section 2 Tauberian results and comparison of Laplace-transform remainders for Y1 and Z.",
+        "pdf_pages": "PDF pp.7–9",
+        "coverage": "Section 2 Tauberian results and comparison of Laplace-transform remainders for Y1 and Z."
+      },
+      {
+        "section": "Section 3 asymptotic properties and derivative/remainder estimates for Laplace transforms.",
+        "pdf_pages": "PDF pp.10–11",
+        "coverage": "Section 3 asymptotic properties and derivative/remainder estimates for Laplace transforms."
+      },
+      {
+        "section": "Section 4 proof of Theorem 2.1 for noninteger alpha, including truncation and uniform remainder estimates.",
+        "pdf_pages": "PDF pp.11–16",
+        "coverage": "Section 4 proof of Theorem 2.1 for noninteger alpha, including truncation and uniform remainder estimates."
+      },
+      {
+        "section": "Section 5 proof of Theorem 2.1 for integer alpha; separate expansion and integral remainder bounds.",
+        "pdf_pages": "PDF pp.17–22",
+        "coverage": "Section 5 proof of Theorem 2.1 for integer alpha; separate expansion and integral remainder bounds."
+      },
+      {
+        "section": "Section 6 proof of Theorem 1.1 and geometric-series tail constant.",
+        "pdf_pages": "PDF pp.22–25",
+        "coverage": "Section 6 proof of Theorem 1.1 and geometric-series tail constant."
+      },
+      {
+        "section": "Section 7 proof of Theorem 1.2 using size bias, renewal sums, and integrated slowly varying tail.",
+        "pdf_pages": "PDF pp.25–30",
+        "coverage": "Section 7 proof of Theorem 1.2 using size bias, renewal sums, and integrated slowly varying tail."
+      },
+      {
+        "section": "Appendix technical proposition proof and complete references.",
+        "pdf_pages": "PDF pp.30–33",
+        "coverage": "Appendix technical proposition proof and complete references."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L08_B05/rendered/REGVAR-p5.png",
+      "evidence/W21/reader_batches/L08_B05/rendered/REGVAR-p6.png"
+    ],
+    "calculation_evidence": null,
+    "proof_coverage": "Full proof read for Lemma 1.1, Theorems 1.1/1.2 and auxiliary Laplace-comparison theorems. Recorded that Theorem 1.2 is one-way; Theorem 1.1 needs the alpha+delta weight moment. No rank-selection transform interface identified.",
+    "reading_batch": "L08_B05",
+    "review_status": "pending",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "provisional": true,
+      "eligible": true,
+      "operator": "Finite-mean nonnegative weighted-sum RDE Z =d Σ_{i=1}^N A_i Z_i with conditionally iid children independent of the weights and EΣ_i A_i=1.",
+      "main_conclusion": "Theorem 1.1 transfers regularly varying tails between Y1=Σ_i A_i and a fixed point Z with multiplier (1−ρ(α))⁻¹; Theorem 1.2 gives a one-way integrated-tail relation.",
+      "assumptions": "Theorem 1.1: α>1, ρ(α)<1, ρ(α+δ0)<∞ for δ0>0, slowly varying ℓ and the stated tail equivalence. Theorem 1.2: ρ(1+δ0)<∞, μ=−ρ′(1)∈(0,∞), integrable ℓ and the stated Y1 integrated-tail asymptotic.",
+      "method_use": "Rigorous tail-analysis template for fixed points of weighted-sum RDEs; useful for deriving/checking fixed-point tail behavior within that operator class, but provides no target A121/A122 recursion or general convergence claim."
+    }
+  },
+  "W21-043": {
+    "source_title": "Elementary Fixed Points of the BRW Smoothing Transforms with Infinite Number of Summands",
+    "pdf_sha256": "1abcd228c69683b086ae10a5e2d6db92376234ff687c3683d809d8307925db2c",
+    "physical_page_count": 31,
+    "complete": true,
+    "version_scope": "Local PDF is arXiv:math/0310244v1 (submitted 16 October 2003), 31 physical pages. The publication is SPA 114(1) (2004), pp.27–50, DOI confirmed on Elsevier record; no text-equivalence comparison.",
+    "entries": [
+      {
+        "section": "arXiv v1 identity and Section 1: point-process BRW model, weighted branching martingale, smoothing-transform equation and elementary fixed-point definition.",
+        "pdf_pages": "PDF pp.1–4",
+        "coverage": "arXiv v1 identity and Section 1: point-process BRW model, weighted branching martingale, smoothing-transform equation and elementary fixed-point definition."
+      },
+      {
+        "section": "Section 2 existence/uniqueness and tail results: Proposition 1, Theorem 2, Proposition 3, moment and contraction criteria.",
+        "pdf_pages": "PDF pp.5–10",
+        "coverage": "Section 2 existence/uniqueness and tail results: Proposition 1, Theorem 2, Proposition 3, moment and contraction criteria."
+      },
+      {
+        "section": "Section 3 proofs of fixed-point existence, uniqueness, moment, contraction and tail propositions; change-of-measure perpetuity and stable-transform arguments.",
+        "pdf_pages": "PDF pp.10–21",
+        "coverage": "Section 3 proofs of fixed-point existence, uniqueness, moment, contraction and tail propositions; change-of-measure perpetuity and stable-transform arguments."
+      },
+      {
+        "section": "Section 4 Pitman–Yor problem and shot-noise transform application.",
+        "pdf_pages": "PDF pp.21–24",
+        "coverage": "Section 4 Pitman–Yor problem and shot-noise transform application."
+      },
+      {
+        "section": "Section 5 comments and context.",
+        "pdf_pages": "PDF pp.24–25",
+        "coverage": "Section 5 comments and context."
+      },
+      {
+        "section": "Section 6 technical appendix: measure/renewal lemmas and supporting proofs.",
+        "pdf_pages": "PDF pp.25–28",
+        "coverage": "Section 6 technical appendix: measure/renewal lemmas and supporting proofs."
+      },
+      {
+        "section": "Complete references and end pages.",
+        "pdf_pages": "PDF pp.29–31",
+        "coverage": "Complete references and end pages."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L08_B05/rendered/BRW-p6.png"
+    ],
+    "calculation_evidence": null,
+    "proof_coverage": "Full Theorem 2 proof mechanism read: α=1 by change-of-measure perpetuity and martingale mean convergence; 0<α<1 by stable transformation. Distinguish Proposition 1’s liminf S_n=−∞ from Theorem 2’s full drift S_n→−∞. Neutral adjudication confirms an arithmetic counterexample to the literal Proposition 1(b) regular-variation and Proposition 3(c) all-fixedpoint claims in the read arXiv v1; it does not refute Theorem 2, Proposition 3(a)–(b), or Propositions 4/6 under their displayed conditions. Later journal-version equivalence was not checked. No A121/A122 distributional recursion interface exists; its concrete BRW existence/uniqueness and metric results remain provisionally eligible for the skill-level method-source count.",
+    "reading_batch": "L08_B05",
+    "review_status": "pending",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "provisional": true,
+      "eligible": true,
+      "operator": "BRW smoothing transform W =d Σ_{i=1}^L X_iW_i with a point process of nonnegative weights and conditionally iid independent child copies.",
+      "main_conclusion": "Theorem 2 gives necessary-and-sufficient existence conditions for α-elementary fixed points; Proposition 3(a)–(b) gives uniqueness by normalization within the elementary class. The source’s Proposition 1(b) full regular-variation and Proposition 3(c) no-other-fixedpoints assertions are isolated after a neutral-reviewed admissible arithmetic counterexample for this arXiv v1 only. Propositions 4 and 6 give moment criteria and characteristic-function metric contraction with separate assumptions.",
+      "assumptions": "For Theorem 2: 0<α≤1, candidate root β1=α and Dβ1: EΣ_i X_i^β1=1, together with one of the theorem’s three tilted-random-walk/integrability alternatives; the equivalent walk condition is full drift S_n→−∞, not only liminf S_n→−∞. Moment/contraction results require separate finite-mean, p-range, and displayed moment assumptions. Scope of the source-local Prop. 1(b)/Prop. 3(c) adjudication is arXiv v1 only; the journal version was not compared.",
+      "method_use": "This is not merely generic BRW background: it supplies a concrete elementary RDE fixed-point existence/uniqueness criterion and contraction tool for the weighted-sum smoothing operator. Reuse only under each result’s own weight, independence, drift, and integrability hypotheses; exclude the source-v1 Prop. 1(b) and Prop. 3(c) claims from reuse."
+    }
+  },
+  "W21-044": {
+    "source_title": "Weak Stability of Centred Quadratic Stochastic Operators",
+    "pdf_sha256": "6e8b3da935c63aa7253bd7e846ccf6439f6a35a2284ee99cfa39bedb1c6f8620",
+    "physical_page_count": 18,
+    "complete": true,
+    "version_scope": "Springer open-access publisher-layout PDF, BMMS 42 (2019), 1813–1830, 18 physical pages; publication version identity confirmed, no alternate-text comparison.",
+    "entries": [
+      {
+        "section": "Publisher identity, abstract and Section 1 introduction; interpretation of centered QSO as perturbed arithmetic mean of parental traits.",
+        "pdf_pages": "PDF pp.1–3",
+        "coverage": "Publisher identity, abstract and Section 1 introduction; interpretation of centered QSO as perturbed arithmetic mean of parental traits."
+      },
+      {
+        "section": "Section 2 QSO definitions, variation/weak topologies and QSO background.",
+        "pdf_pages": "PDF pp.3–5",
+        "coverage": "Section 2 QSO definitions, variation/weak topologies and QSO background."
+      },
+      {
+        "section": "Section 3 exact Rd model, convolution/characteristic-function formula, diagonalized operator and factorization of iterates.",
+        "pdf_pages": "PDF pp.5–9",
+        "coverage": "Section 3 exact Rd model, convolution/characteristic-function formula, diagonalized operator and factorization of iterates."
+      },
+      {
+        "section": "Section 4 Theorems 1–5: weak-limit fixed-point identity, dyadic stability, finite-variance zero-mean and characteristic-function tail criteria.",
+        "pdf_pages": "PDF pp.9–13",
+        "coverage": "Section 4 Theorems 1–5: weak-limit fixed-point identity, dyadic stability, finite-variance zero-mean and characteristic-function tail criteria."
+      },
+      {
+        "section": "Section 5 examples, heavy-tail sufficient conditions and stated open questions.",
+        "pdf_pages": "PDF pp.13–16",
+        "coverage": "Section 5 examples, heavy-tail sufficient conditions and stated open questions."
+      },
+      {
+        "section": "Section 6 dyadically stable distributions and Theorem 6.",
+        "pdf_pages": "PDF pp.16–17",
+        "coverage": "Section 6 dyadically stable distributions and Theorem 6."
+      },
+      {
+        "section": "Complete references and final page identity.",
+        "pdf_pages": "PDF pp.17–18",
+        "coverage": "Complete references and final page identity."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L08_B05/rendered/QSOSTAB-p9.png",
+      "checks/rendered_review/W21-044-QSO-p13.png (Theorem 5 existence premise)"
+    ],
+    "calculation_evidence": "checks/W21-044-gaussian-noise-factor.py and .txt: exact rational generation-variance sums; Gaussian factor means nm, variances below 2σ², and Chebyshev non-tightness for m≠0.",
+    "proof_coverage": "Full proofs read for Proposition 2, Corollaries 1–2, Theorems 1–5 and 6; Theorem 5’s local modulus assumption only yields its exponential bound if the noise-factor weak limit exists. A nonzero-mean Gaussian satisfies the modulus condition but its noise factors have linearly escaping means and bounded variances, so they are not tight; computation is saved and the argument is stated in the card. The continuity-limit fixed-point implication is reusable conditionally; the parental-average convolution factorization does not match A121/A122.",
+    "reading_batch": "L08_B05",
+    "review_status": "pending",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "provisional": true,
+      "eligible": true,
+      "operator": "Centered quadratic stochastic operator Q_G(F)=Law((X1+X2)/2+η), with iid X1,X2~F and independent fixed noise η~G.",
+      "main_conclusion": "Theorem 1 identifies fixed points through φ_H(s)=φ_H(s/2)^2φ_G(s), and states any such fixed point is the weak limit of its own iterates. Theorems 3–5 give noise-factor convergence/regularity under their separate assumptions; specifically Theorem 5 assumes G^{ {∞} }=w-lim_n G^{ {n} } already exists.",
+      "assumptions": "Parental averaging with two iid parents and independent additive noise; fixed-point/weak-continuity statement uses the exact characteristic-function update. Theorem 5 needs both its local modulus bound and existence of the noise-factor weak limit; local modulus decay alone is insufficient. Other specialized factor-limit conclusions require their respective finite-second-moment/zero-mean or local characteristic-function assumptions.",
+      "method_use": "Concrete nonlinear law-operator/QSO fixed-point and weak-stability template. The general continuity-to-fixed-point implication applies only after target-map weak continuity is proved; the QSO-specific factorization and conditional noise-limit conclusions do not transfer to the rank-selection update."
+    }
+  },
+  "W21-045": {
+    "source_title": "The Functional Equation of the Smoothing Transform",
+    "pdf_sha256": "097bc799a1ddf418a04dcd3b28b8717b3b99fe297022f99dd4a866d96b069e7d",
+    "physical_page_count": 37,
+    "complete": true,
+    "version_scope": "University-hosted final Annals of Probability 40(5) (2012), pp.2069–2105, 37 physical pages; first/last pages identify the final article, but a publisher-byte comparison was not performed.",
+    "entries": [
+      {
+        "section": "Publisher-version identity, Section 1 fixed-point equation, sum/min-type laws, assumptions A1–A4 and overview of branching disintegration.",
+        "pdf_pages": "PDF pp.1–4",
+        "coverage": "Publisher-version identity, Section 1 fixed-point equation, sum/min-type laws, assumptions A1–A4 and overview of branching disintegration."
+      },
+      {
+        "section": "Section 2 assumptions A1–A5, geometric span, Theorem 2.2 classification and Laplace/survival corollaries.",
+        "pdf_pages": "PDF pp.4–6",
+        "coverage": "Section 2 assumptions A1–A5, geometric span, Theorem 2.2 classification and Laplace/survival corollaries."
+      },
+      {
+        "section": "Section 3 further results: regular variation, uniqueness and discussion of solution classes.",
+        "pdf_pages": "PDF pp.6–8",
+        "coverage": "Section 3 further results: regular variation, uniqueness and discussion of solution classes."
+      },
+      {
+        "section": "Section 4 simple inclusions and function-class relations.",
+        "pdf_pages": "PDF pp.8",
+        "coverage": "Section 4 simple inclusions and function-class relations."
+      },
+      {
+        "section": "Section 5 weighted branching model and multiplicative martingale.",
+        "pdf_pages": "PDF pp.8–9",
+        "coverage": "Section 5 weighted branching model and multiplicative martingale."
+      },
+      {
+        "section": "Section 6 endogeny and modified smoothing-transform fixed points.",
+        "pdf_pages": "PDF pp.9–11",
+        "coverage": "Section 6 endogeny and modified smoothing-transform fixed points."
+      },
+      {
+        "section": "Section 7 renewal/random-walk arguments and stopping-line results.",
+        "pdf_pages": "PDF pp.12–13",
+        "coverage": "Section 7 renewal/random-walk arguments and stopping-line results."
+      },
+      {
+        "section": "Section 8 disintegration, Theorem 8.3 statement and preparatory lemmas/proof roadmap.",
+        "pdf_pages": "PDF pp.13–18",
+        "coverage": "Section 8 disintegration, Theorem 8.3 statement and preparatory lemmas/proof roadmap."
+      },
+      {
+        "section": "Section 9 associated general branching process and renewal results.",
+        "pdf_pages": "PDF pp.18–22",
+        "coverage": "Section 9 associated general branching process and renewal results."
+      },
+      {
+        "section": "Section 10 proof of Theorem 3.1 and uniqueness/regular variation for the modified-transform fixed point.",
+        "pdf_pages": "PDF pp.23–25",
+        "coverage": "Section 10 proof of Theorem 3.1 and uniqueness/regular variation for the modified-transform fixed point."
+      },
+      {
+        "section": "Section 11 full regular-variation-at-zero proof and Choquet–Deny harmonic identification.",
+        "pdf_pages": "PDF pp.25–32",
+        "coverage": "Section 11 full regular-variation-at-zero proof and Choquet–Deny harmonic identification."
+      },
+      {
+        "section": "Section 12 proofs of Theorems 8.3 and 6.2 using stopping lines, conditional expectation and branching measurability.",
+        "pdf_pages": "PDF pp.32–34",
+        "coverage": "Section 12 proofs of Theorems 8.3 and 6.2 using stopping lines, conditional expectation and branching measurability."
+      },
+      {
+        "section": "Section 13 nonmonotone function-class extension and its added regularity conditions.",
+        "pdf_pages": "PDF pp.34–35",
+        "coverage": "Section 13 nonmonotone function-class extension and its added regularity conditions."
+      },
+      {
+        "section": "Complete bibliography and final identity pages.",
+        "pdf_pages": "PDF pp.35–37",
+        "coverage": "Complete bibliography and final identity pages."
+      }
+    ],
+    "rendered_formula_checks": [
+      "evidence/W21/reader_batches/L08_B05/rendered/FEQ-p5.png",
+      "evidence/W21/reader_batches/L08_B05/rendered/FEQ-p14.png",
+      "checks/rendered_review/W21-045-FEQ-p4.png (A4a total-weight xlogx formula)"
+    ],
+    "calculation_evidence": null,
+    "proof_coverage": "Complete article read, including Theorems 2.2 and 8.3 and their proof dependencies in Sections 5–12. Exact weight/branching assumptions and lattice/nonlattice distinctions are recorded in the card. No A121/A122 weighted recursion interface is established.",
+    "reading_batch": "L08_B05",
+    "review_status": "pending",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "provisional": true,
+      "eligible": true,
+      "operator": "Smoothing-transform functional operator f ↦ E∏_{i≥1} f(tT_i), corresponding to sum-type or min-type recursive distributional equations.",
+      "main_conclusion": "Theorem 2.2 classifies nontrivial decreasing solutions as f(t)=E exp[−Wh(t)t^α]; Corollaries 2.3–2.4 specialize Laplace and survival solutions; Theorem 8.3 gives BRW disintegration/endogeny.",
+      "assumptions": "A1–A5: nondegenerate weights, EN>1, minimal characteristic exponent m(α)=1<m(β) for β<α, either (A4a) m′(α)∈(−∞,0) and E[(Σ_i T_i^α)log⁺(Σ_i T_i^α)]<∞, or (A4b) a lower moment, and a finite nonnull W solving the modified transform; geometric span controls periodic factors.",
+      "method_use": "Strict smoothing-RDE classification/disintegration template for countable weighted-recursion operators under A1–A5. It is a separate work from SUP-MALLEIN, with related scope but distinct theorem/proof; no representation is established for A121/A122."
+    }
+  }
+}

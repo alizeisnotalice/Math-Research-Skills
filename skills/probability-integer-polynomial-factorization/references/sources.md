@@ -1,0 +1,84 @@
+# Source guide and reading state
+
+The canonical, per-source ledger is [`evidence/W18/sources.json`](../evidence/W18/sources.json); individual cards live in [`evidence/W18/cards/`](../evidence/W18/cards/). These are separate tool lists: only A175-associated sources are counted for this skill. The current list has 59 A175-tagged records, of which M0148 is a web discussion/reference rather than a paper/book; the paper/book candidate count is 58. It meets the 30–100 *candidate* range, but many works are unverified or unread, so it is not a release-ready bibliography.
+
+## Core source boundaries
+
+- **M0147, Green, Problem 28, PDF p. 16:** exact question; supports with gaps are allowed. Partial read.
+- **M0149, Ghidelli, arXiv:2209.09843v1:** full 46-page preprint read. Theorem 1.2 treats only the factor x^5+a x^2+1 for 0<a<1; the recurrence uses a distinct auxiliary x^5+a x^3+1. The PARI/GP resultant check through n=10,000 is finite and author-reported. The physical-p. 41 proof of Corollary 5.9 has one sentence claiming |beta(t)| decreases, contrary to the p. 40 derivative analysis, the constant root-product identity, and the corollary statement (which imply increase). Isolate that proof-line issue for review; it does not by itself refute the theorem.
+- **M0150, Hare, arXiv:2307.07363v1:** full 14-page preprint read. Trinary, recursive, Gröbner/QE search; the degree-15 table reports 975 remaining cases. Its category totals differ arithmetically from its reported total by one; preserve the table values without reconciliation. Published 2025 version is bibliographically distinct from the read preprint version.
+- **M0151, Dvorsky, arXiv:2608.19173v2:** full 53-page v2 read. Theorem 1.2 is formally stated for every integer k>=341 for 1+a x^2+x^k. Even k follow from Lemma 1.3; the substantive analytic proof body assumes odd k. Theorem 1.1’s odd cases 7<=k<=339 are imported from the companion manuscript. The packet decomposition, sparse spectral bootstrap, theta-kernel regime, pre-zero bounds and terminal contradiction were read; author-reported endpoint certificates were not rerun.
+- **W18-X001, Nguyen Xuan–Pham–Pham Lan, arXiv:2609.09215v1:** full nine-page proof read. It proves the ε-relaxation using a factor with a negative coefficient, so it does not refute the original conjecture.
+- **W18-X002, Hasanbegović, arXiv:2611.14596v1:** full nine-page local PDF read. Theorem 4 proves the sufficient separated-block condition (n≥max{deg(w)+2deg(v),2deg(w)}) when v is fair, interpreted only for monic-normalized factors: physical p.2 asserts factor coefficients are in [0,1] but the definition does not state the needed monic/rescaling convention. The theorem range also includes v=w=1,n=0, yielding f=2; for A175 require n≥1 or verify disjoint supports and 0–1 output. It does not resolve the unrestricted conjecture.
+- **W18-X004–X011:** Tarski/CAD/quantifier-elimination method references added for bounded feasibility formulations. They are computational-method background, not evidence for the conjecture; most have not been acquired/read. W18-X008/X009 metadata are still pending.
+
+## Newly integrated L06 integer B5 reads
+
+- **M0156, Behrends (1999):** full 15-page published PDF read. For independent dice whose convolution is uniform on a **full integer interval**, the PGF factors reduce to unique additive representations; Theorem 3.1 classifies the canonical-order interval families. Theorem 4.2 gives a nontrivial factorization of the square of a fair-die interval exactly at equal factor degrees for side counts k=10 or k≥12, excluding 1–9 and 11. This does not treat arbitrary target support gaps or unequal factor degrees.
+- **M0157, Kolountzakis (2003):** full 9-page EJC article read. Theorem 3 gives an exponential upper bound on least tiling period in terms of tile diameter, while the paper separately constructs long-period examples; its subject is translational tilings, not probability-polynomial factorization. In the displayed proof sum on physical pp.7–8, a reciprocal coefficient is inconsistent with the preceding totient lower bound. Isolate that line: a generic-constant argument still gives the stated exponent, while the sharper estimate in Remark 4 is cited from other work, not proved here.
+- **M0159, Coven–Geller–Silberger–Thurston (1998 preprint / 2002 journal work):** full 6-page arXiv v1 read. It characterizes finite-set integer-tiling systems in symbolic dynamics and proves the tiling-system sofic result; auxiliary only, with the read file/version kept explicit.
+- **M0161, Konyagin–Łaba (2003):** full 14-page manuscript read. Theorem 1.2 is restricted to the square-period product of three distinct odd primes and factor cardinalities equal to their product; the (T1)+(T2)⇒tiling implication is cited, not reproved.
+- **W18-X013, Raikov (1937):** all four pages of the official MathNet scan visually checked and read. It proves the prime-length geometric polynomial is irreducible into nonnegative real factors. Raikov explicitly distinguishes the Krasner–Ranulac note; this is not M0152.
+- **W18-X016, Łaba–Londner (arXiv v1, 2021):** full 71-page manuscript read. Preserve its three-odd-prime square-period/equal-cardinality hypotheses and the arXiv/body-date discrepancy; it is a finite-set tiling theorem, not a general probability-factor result.
+- **W18-X017, Kolountzakis–Matolcsi (arXiv v1, 2008):** full 13-page preprint read. Its cyclotomic algorithm addresses finite-set translational tiling; the paper gives no complexity guarantee for its fill-out enumeration.
+
+The seven L06 integer B5 additions brought A175 to 12 full reads before L03 integer B9 (one partial, 24 unread at that stage) among 36 paper/book candidates. They provide one direct restricted interval result and one prime-geometric factor result; they do not prove unrestricted A175.
+
+
+## L03 integer B9 full-text reads
+
+This batch adds five complete reads (M0153, M0155, W18-D04-EXT-001–003), bringing A175 to 17 actual full-text reads, one partial read and 22 unread among 39 paper/book candidates. Of the five, M0155, EXT-001 and EXT-003 are marked conditionally eligible for the tool’s restricted methods; M0153 and EXT-002 are explicitly `qualifies_for_tool_source_count:false`. R06 accepted all five mother reading cards and their path/hash binding in the archived R06 mother-binding report. Do not count the two background reads toward the tool floor, and do not treat any of these results as resolving arbitrary A175 factorization.
+
+- **M0153, Cramér (1949):** full 5-page scan read. The unnumbered §3 result concerns a real-line infinitely divisible distribution with a one-sided density condition and constructs a convolution divisor that is not infinitely divisible. It gives no finite-support integer or 0–1 factor theorem; background only and excluded from A175 quota.
+- **M0155, Coven–Meyerowitz (1998 arXiv v1; 1999 journal record):** full 12-page arXiv v1 manuscript read; no line-by-line equivalence to the journal version asserted. T1+T2 suffice for finite-set tiling, T1 is generally necessary, and T2 necessity is proved only under the stated at-most-two-prime-factor restriction on `|A|`. Conditional auxiliary use for cyclotomic mask polynomials/unique additive tilings only.
+- **W18-D04-EXT-001, Billey–Swanson (arXiv:2305.07620v3):** full 44-page final-version preprint read. Theorem/Definition 1 gives the cyclotomic-root/q-integer/independent-uniform characterization for nonnegative-integer polynomials. Conditional use requires independently verifying the cyclotomic premise; it does not prove arbitrary A175 factors are cyclotomic or integral.
+- **W18-D04-EXT-002, Dobrowolski (1991):** full 10-page official publisher PDF read. Its Mahler bound assumes a monic integer polynomial with nonzero constant term and a non-cyclotomic hypothesis; no transfer to arbitrary nonnegative-real factors is established. Background only and excluded from A175 quota.
+- **W18-D04-EXT-003, Steinberger (2012):** full 18-page journal PDF read. Theorem 1 proves the minimum-degree nonnegative multiple of `Φ_n` in the even, prime-power, or strict `2/p>Σ_i1/q_i` cases. Conditional auxiliary use for cyclotomic divisibility/positivity constraints only; the paper leaves the general conjecture open.
+
+R06 accepted all five mother source rows, cards, coverage and PDF hashes in the archived R06 mother-binding report; source rows retain `review_status=pending` under the ledger convention. The three conditional-use rows retain the reviewed helper’s exact scope; no general A175 solution is claimed.
+
+## Full-text state
+
+Thirty-seven sources are marked `fulltext_read` for A175: R06 accepted 33 as quota-eligible, and four complete background reads (M0153, M0158, EXT-002 and EXT-005) remain excluded. M0147 is the sole partial read and does not count; 21 records remain unread among 59 A175-tagged records. R06 accepted the B10 and B11 mother bindings. The integer skill release still awaits final hash binding and a release decision. M0149 remains the specific x^5+a x^2+1 family result; its auxiliary recurrence polynomial is x^5+a x^3+1, and its finite resultant computation is author-reported. D02 acquisitions count as reading only after the assigned reader reads the full text and records physical-page coverage. The M0157 pp.7–8 displayed reciprocal-coefficient error remains isolated in its card and coverage without discarding the generic-constant exponent argument. The complete B167 ledger, including its separate Gaussian-only source count, is in the same `sources.json`.
+
+Do not cite a result as fulltext-audited unless the source row says `fulltext_read` and a card gives the theorem’s assumptions and pages. All `review_status` fields are pending.
+
+
+## L05 integer B9 and M0158 full-text records
+
+L05 read four additional complete papers from the D04 batch (EXT-004–007) and completed the original arXiv v2 read of M0158. This brings the ledger to 22 full-text reads, one partial read, and 21 unread records among 44 A175-tagged entries (43 papers/books plus the web discussion). R05 accepted the five read records; R06 then verified their mother PDF/card/coverage bindings. EXT-004/006/007 count for restricted A175 methods, while EXT-005 and M0158 remain excluded. Source `review_status` stays pending under the ledger convention.
+
+- **W18-D04-EXT-004, Damianou:** Kronecker's theorem classifies monic integer polynomials whose roots lie in the closed unit disk as a power of `z` times cyclotomic factors. Use only after integrality, monicity, and root-location are independently established. Conditional method; R06 mother binding passed.
+- **W18-D04-EXT-005, Pritsker:** zero-distribution and discrepancy results for specified integer-polynomial sequences under capacity, height, regularity, or multiplicity hypotheses. This mapping supplies no instantiated finite factorization procedure; background only and excluded from the source quota.
+- **W18-D04-EXT-006, Ounaies–Rhin–Sac-Épée:** root-distance, Mahler-measure, real-root-count, and endpoint bounds retain the source's monic/self-reciprocal/irreducible/no-root-of-unity and endpoint hypotheses. Conditional constraints only; R06 mother binding passed and the card records exact theorem-specific assumptions.
+- **W18-D04-EXT-007, Lagarias–Wang:** Fourier criteria and factorization statements concern finite Abelian-group masks and periodic tilings, including the paper's geometric/unique-complement restrictions. A group-ring identity modulo `X^N−1` is not ordinary polynomial equality in `Z[X]`; conditional method only.
+- **M0158, Blekherman:** complete arXiv:1010.3465v2 author manuscript read. Its global-psd-versus-SOS cone results are for homogeneous forms in the (3,6) and (4,4) settings; coefficientwise nonnegativity of a probability polynomial is a different condition. The card isolates the source's Theorem 7.1 display/proof discrepancy. Cautionary only and excluded from the A175 quota.
+
+The three conditional sources EXT-004/006/007 do not prove that arbitrary finite-support nonnegative real A175 factors are integral, monic, have restricted roots, or form cyclic masks. R05 accepted the original read and R06 passed its mother binding; `review_status` remains pending under the ledger convention.
+
+
+## L02 integer B10 full-text reads
+
+At the L02 B10 helper stage, four papers (95 physical pages) brought A175 from 22 to 26 full-text reads. R06 later accepted the mother bindings and quota eligibility for all eight B10 sources (four from L02 and four from L04), raising the mother-bound qualifying baseline from 18 to 26.
+
+- **W18-D04-B10-001, Klich (2026):** direct normalized finite-support PGF model, with support, entropy, real-root/Hurwitz and low-degree results under their stated assumptions. It does not prove 0–1 closure of factors.
+- **W18-D04-B10-002, Bausch–Cubitt (2016):** finite-law polynomial interface and complexity results; keep iid divisibility distinct from unequal-factor decomposability. The p.35 reduction notational/scaling and coefficient-display issues remain isolated in the card.
+- **W18-D04-B10-003, Reddy (2011):** conditional minimum-degree results for cyclotomic-divisible 0–1 masks and minimal vanishing sums. Its three-term general minimum formula is explicitly conjectural.
+- **W18-D04-B10-004, Motzkin–Straus (1969):** conditional polynomial multipliers and root-angle extremal degrees, with positivity/copotivity distinctions and required leading/trailing homogeneous hypotheses. The missing-`r` source display is isolated in the card; this does not classify A175 factors.
+
+At the L04 B10 helper stage all four were source-count candidates pending mother audit; R06 later accepted their actual mother bindings and counted them in the 26-source eligible baseline. They do not establish that arbitrary nonnegative real factors of a 0–1 polynomial are themselves Boolean.
+
+
+## B11 integer cyclotomic and finite-tiling reads
+
+The seven B11 helper reads add 142 complete physical pages. R08 accepted L05 sources W18-D04-B11-001–004; R04 accepted L07 sources W18-D04-B11-005–007; R06 then verified each mother PDF, card prefix, and complete physical-page coverage. All seven are `passed_R06`, count toward the 33-source A175 quota-eligible total, and preserve the exact conditional source scopes. Four unrelated full-text background records remain excluded; the partial M0147 read does not count. None of these papers closes A175’s real-coefficient/integer-mask/cyclic/no-wrap interface.
+
+- **W18-D04-B11-001, Tan–Zhang, arXiv:2609.07646v1:** Theorem 1.1 bounds the support diameter of a nonzero nonnegative-real polynomial divisible by a specified cyclotomic polynomial; rationality is required for the first-nonzero-Fourier-moment conjugacy step. The tiling refinements require both (T1) and (T2). It does not supply a cyclotomic divisor for an A175 factor.
+- **W18-D04-B11-002, De Carli–La Porta:** the source’s specified-divisor/coefficient-field conditions and exact extremal conclusion are recorded in its mother card; it is an auxiliary method only after those hypotheses are proved for the candidate polynomial.
+- **W18-D04-B11-003, Filaseta–Schinzel:** the quotient-ring algorithm decides a stated cyclotomic-divisibility test for sparse integer inputs using minimal vanishing-sum structure; its running-time statement is asymptotic and does not yield a general real-factor theorem.
+- **W18-D04-B11-004, Filaseta–Finch–Nicol:** irreducibility and cyclotomic-order conclusions apply to the paper’s exact 0–1 exponent-pattern or sparse-integer hypotheses. Preserve the nested powers and the corrected `φ(m)` trace factor from the card; finite examples are not a general A175 proof.
+- **W18-D04-B11-005, Tan–Zhang:** Theorems 1.1/3.1 and 7.1/7.4 concern a three-prime square-period 0–1 mask in a specified finite cyclic tiling, including an unsupported-cyclotomic-divisor classification and a constructed family. A175 has no supplied finite-cyclic integer-mask representation or no-wrap lift.
+- **W18-D04-B11-006, Łaba–Londner:** the divisibility/tiling equivalences, box products, cuboid criteria, saturation and fibering results retain their finite-set cyclic or integer-tiling hypotheses; conjectural extensions remain conjectures. It does not integerize arbitrary nonnegative-real PGF factors.
+- **W18-D04-B11-007, Lam–Leung:** the main weight-semigroup theorem and asymmetric support bound concern nonnegative-integer group-ring relations among roots of unity. The C30 counterexample rules out general positive generation by translated prime cycles; this does not classify arbitrary real PGF factors.
+
+R06 accepted the B11 mother binding and quota eligibility for all seven sources, bringing the A175 quota-eligible total to 33. B10 contributes the preceding 26 eligible sources. The typed source conditions and unresolved A175 transfer interface remain as stated above.

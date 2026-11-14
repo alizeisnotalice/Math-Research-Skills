@@ -1,0 +1,61 @@
+[
+  {
+    "problem_id": "A022",
+    "tool": "probability-poset-counting-sampling",
+    "role": "direct",
+    "needed_lemma": "For each finite free-boundary square G_n, the descending-order recurrence D(R,k)=Σ_{v∈R}D(R\\{v},k−1{N(v)⊆R}) counts bijective labelings with exactly k graph peaks and supports an exact uniform branch sampler using completion-count weights. For distance counts, augment the state or condition on the first two selected peak vertices and preserve multiplicities.",
+    "source_local_ids": [
+      "M0002",
+      "M0001"
+    ],
+    "unproved_interface": "The recurrence is exact but exponential in |V| in the current subset-state implementation; it does not establish that the conditional Manhattan peak distance divided by n tends to 0."
+  },
+  {
+    "problem_id": "A022",
+    "tool": "probability-poset-counting-sampling",
+    "role": "auxiliary",
+    "needed_lemma": "Use linear-extension recurrences for fixed comparison subproblems and as exact count/sampling primitives; distinguish a conjunction of order relations (one poset) from the disjunctive event that every nonpeak has some larger neighbor.",
+    "source_local_ids": [
+      "M0006",
+      "M0026",
+      "M0007",
+      "W09-X002",
+      "W09-X003",
+      "W09-X004",
+      "W09-X013"
+    ],
+    "unproved_interface": "A disjoint, non-overcounting decomposition of the exact-two-peak event into poset LE subproblems has not been supplied; #LE hardness/tractability results do not themselves solve the square event."
+  },
+  {
+    "problem_id": "A022",
+    "tool": "probability-poset-counting-sampling",
+    "role": "auxiliary",
+    "needed_lemma": "An entropy proof of localization must give a valid upper bound for separated peak configurations and a matching lower bound for the total exact-two-peak count, with a strict exponential gap uniform over boundary strata.",
+    "source_local_ids": [
+      "M0003",
+      "M0014",
+      "M0019",
+      "M0004",
+      "M0018"
+    ],
+    "unproved_interface": "M0003 is a fixed metric-graph subdivision limit; M0004 contains one-peak square and regular-tree two-peak results; M0018 is cycle/meteor based. None transfers to the growing free-boundary square without a new proof."
+  },
+  {
+    "problem_id": "A022",
+    "tool": "probability-poset-counting-sampling",
+    "role": "auxiliary",
+    "needed_lemma": "For a scalable exact sampler, construct a chain or recursive sampler whose invariant law is uniform on all square labelings conditioned on exactly two graph peaks, then prove irreducibility and either exact coalescence or a runtime bound.",
+    "source_local_ids": [
+      "M0009",
+      "M0010",
+      "M0011",
+      "M0012",
+      "M0027",
+      "W09-X007",
+      "W09-X008",
+      "W09-X009",
+      "W09-X010"
+    ],
+    "unproved_interface": "CFTP and LE Markov-chain results in these sources target other state spaces; no suitable chain or coupling for the A022 conditional target has been verified."
+  }
+]

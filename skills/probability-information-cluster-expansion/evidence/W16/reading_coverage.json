@@ -1,0 +1,1097 @@
+{
+  "worker": "W16",
+  "coverage_basis": "Sections and physical PDF pages were taken from the full-text cards. W15 entries denote this continuation batch; W16 entries denote full reads already documented in the earlier W16 cards. This file does not upgrade partial or unread records.",
+  "fulltext_read_sources": [
+    {
+      "local_id": "I01",
+      "reader_worker": "W15",
+      "pdf_pages": "1–55 (complete combined corrected reprint)",
+      "sections": [
+        {
+          "id": "Front matter and Part I §1, The Discrete Noiseless Channel",
+          "pdf_pages": "1–4",
+          "coverage": "Identifies the July/October corrected reprint and sets up finite-length noiseless coding, allowed symbol sequences, and capacity as asymptotic growth; the finite-state determinant formula is developed in §1 and Appendix 1."
+        },
+        {
+          "id": "Part I §§2–8, Discrete Source of Information; English approximations; Markov and ergodic sources; entropy and source entropy",
+          "pdf_pages": "4–15",
+          "coverage": "Defines finite-state/Markov sources, ergodic versus mixed cases, the entropy axioms and formula, source entropy rate, typical sequences, and entropy approximations. Theorem 3 is the finite-state ergodic source asymptotic equipartition statement; the assumptions and ε/δ quantifiers are retained in the card."
+        },
+        {
+          "id": "Part I §§9–10, Fundamental Theorem for a Noiseless Channel; Discussion and Examples",
+          "pdf_pages": "16–18",
+          "coverage": "Relates source entropy to noiseless-channel capacity and gives asymptotic coding and arithmetic-code arguments, followed by examples and limitations of constructive code search."
+        },
+        {
+          "id": "Part II §§11–17, Discrete Channel with Noise",
+          "pdf_pages": "19–28",
+          "coverage": "Defines noisy discrete channels and equivocation, maximizes mutual information for channel capacity, states and proves the discrete noisy coding theorem by typical-set/random-assignment counting, and treats examples and constrained-capacity cases."
+        },
+        {
+          "id": "Appendices 1–4",
+          "pdf_pages": "28–31",
+          "coverage": "Provides the finite-state sequence-growth determinant argument, entropy-form derivation, ergodic-source typical-sequence proof, and constrained finite-state coding-rate optimization."
+        },
+        {
+          "id": "Part III §§18–23, Mathematical Preliminaries for Function Ensembles",
+          "pdf_pages": "32–40",
+          "coverage": "Defines function ensembles and band limitation; develops differential entropy, coordinate-change Jacobian, entropy power, linear-filter entropy change (Theorem 14), and the independent-sum entropy-power bounds (Theorem 15)."
+        },
+        {
+          "id": "Part IV §§24–26, The Continuous Channel",
+          "pdf_pages": "41–47",
+          "coverage": "Defines continuous-channel information rate by mutual information, derives the independent additive-noise formula (Theorem 16), average-transmitter-power capacity with constraint P (Theorem 17, physical p. 43), entropy-power bounds for arbitrary noise (Theorem 18), and peak-transmitter-power bounds with S explicitly the peak allowed power (Theorem 20, physical pp. 45–47). The P and S constraints are distinct."
+        },
+        {
+          "id": "Part V §§27–29, Rate for a Continuous Source",
+          "pdf_pages": "48–52",
+          "coverage": "Defines fidelity and rate minimization; states coding feasibility relative to channel capacity (Theorem 21), the white-noise mean-square-error formula (Theorem 22), and general source-rate bounds (Theorem 23)."
+        },
+        {
+          "id": "Acknowledgments/references and Appendices 5–7",
+          "pdf_pages": "52–55",
+          "coverage": "Reads remaining end matter and derivations, including the continuous-source rate argument and Appendix 7’s measure-theoretic mutual-information definition and data-processing inequality for postprocessing the received signal."
+        }
+      ]
+    },
+    {
+      "local_id": "I03",
+      "reader_worker": "W16",
+      "pdf_pages": "1–45",
+      "sections": [
+        {
+          "id": "Section 1 (Introduction; §§1.1–1.4)",
+          "pdf_pages": "1–4",
+          "coverage": "Frames the small-deletion capacity problem, related work, numerical illustration, notation and proof roadmap."
+        },
+        {
+          "id": "Section 2, Preliminaries",
+          "pdf_pages": "5–6",
+          "coverage": "Defines the binary deletion channel and stationary-ergodic information rate; states the finite-block capacity characterization and Lemma 2.2 (subadditivity/variational limit), whose proofs are in Appendix A."
+        },
+        {
+          "id": "Section 3, Intuition behind the main theorem",
+          "pdf_pages": "6–8",
+          "coverage": "Gives an explicitly heuristic derivation of the near-Bernoulli run law and ambiguity correction; it does not prove the quadratic term."
+        },
+        {
+          "id": "Section 4, Proof of the main theorem: Outline",
+          "pdf_pages": "8–9",
+          "coverage": "States the lemmas used for the matching lower/upper bounds and explains the proof dependency."
+        },
+        {
+          "id": "Section 5, Proofs of the Lemmas (§§5.1–5.6)",
+          "pdf_pages": "10–24",
+          "coverage": "Proves run-law/entropy, achievability, modified-deletion, super-run, tail, and ambiguity estimates used in Theorem 1.1."
+        },
+        {
+          "id": "Section 6, Discussion",
+          "pdf_pages": "25–27",
+          "coverage": "Gives the first-order Markov-source comparison and explicitly asks whether higher coefficients and a convergent small-d series exist; offers only heuristic cluster/correlation reasoning."
+        },
+        {
+          "id": "Appendix A, Proofs of Preliminary Results",
+          "pdf_pages": "27–28",
+          "coverage": "Proves Theorem 2.1 and Lemma 2.2, including the finite-block superadditivity argument and stationary block construction."
+        },
+        {
+          "id": "Appendix B, Proofs of Lemmas in Section 5.1",
+          "pdf_pages": "28–32",
+          "coverage": "Supplies deferred entropy, run-length, and tail estimates for the first group of Section 5 lemmas."
+        },
+        {
+          "id": "Appendix C, Proof of Lemma 5.18",
+          "pdf_pages": "32–37",
+          "coverage": "Introduces the perturbed deletion process and bounds the corresponding conditional-entropy correction."
+        },
+        {
+          "id": "Appendix D, Proof of Lemma 5.23 and its corollaries",
+          "pdf_pages": "37–44",
+          "coverage": "Counts the single-/multiple-parent-run deletion cases and controls the remaining terms to prove the deferred ambiguity estimate."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "44–45",
+          "coverage": "Lists cited works."
+        }
+      ]
+    },
+    {
+      "local_id": "I04",
+      "reader_worker": "W16",
+      "pdf_pages": "1–5",
+      "sections": [
+        {
+          "id": "Sections I–III",
+          "pdf_pages": "1–5",
+          "coverage": "Proves the entropy-scale deletion-channel converse by counting deletion patterns and dirty alignments; takes block length to infinity before the small-deletion limit."
+        }
+      ]
+    },
+    {
+      "local_id": "I05",
+      "reader_worker": "W15",
+      "pdf_pages": "1–22",
+      "sections": [
+        {
+          "id": "Section I, Introduction",
+          "pdf_pages": "1–2",
+          "coverage": "Introduces the i.i.d. deletion/duplication capacity problem and the typical-output/jigsaw coding approach."
+        },
+        {
+          "id": "Section II, Codebooks and Types",
+          "pdf_pages": "3",
+          "coverage": "Defines the block/type framework and code construction."
+        },
+        {
+          "id": "Section III-A, Typical Outputs",
+          "pdf_pages": "4–5",
+          "coverage": "Establishes typical-output properties for run-structured inputs."
+        },
+        {
+          "id": "Section III-B, Decoding Error Probability: A Simplified Analysis",
+          "pdf_pages": "5–7",
+          "coverage": "Counts compatible type/block assignments, uses Stirling estimates and atypical-codeword pruning, and bounds decoding error."
+        },
+        {
+          "id": "Section III-C, Analysis Revisited",
+          "pdf_pages": "7–10",
+          "coverage": "Allows deviations in block counts and proves Proposition 1 as a concentration statement for typical-output block counts; it is not an entropy-tail correction."
+        },
+        {
+          "id": "Sections IV–VI, Run-law examples and discussion",
+          "pdf_pages": "11–14",
+          "coverage": "Evaluates geometric and other run distributions and discusses the resulting lower bounds."
+        },
+        {
+          "id": "Section VII, General Framework",
+          "pdf_pages": "13–16",
+          "coverage": "Presents the generalized jigsaw/typical-output framework."
+        },
+        {
+          "id": "Section VIII, I.I.D. Channels with Duplications",
+          "pdf_pages": "16–18",
+          "coverage": "Extends the construction to duplication-channel models."
+        },
+        {
+          "id": "Section IX, Conclusion and appendices",
+          "pdf_pages": "18–22",
+          "coverage": "Concludes; technical appendices prove supporting lemmas. Proposition 1 remains the block-count typicality result, not an entropy truncation result."
+        }
+      ]
+    },
+    {
+      "local_id": "I06",
+      "reader_worker": "W15",
+      "pdf_pages": "1–33",
+      "sections": [
+        {
+          "id": "Sections 1–4",
+          "pdf_pages": "1–15",
+          "coverage": "Surveys trace/subsequence formulations, Markov-input greedy decoding, and jigsaw/run-structured lower bounds."
+        },
+        {
+          "id": "Section 5",
+          "pdf_pages": "16–17",
+          "coverage": "Derives a Poisson-repeat reduction and a lower bound in the stated deletion model."
+        },
+        {
+          "id": "Sections 6–7 and remaining sections",
+          "pdf_pages": "18–33",
+          "coverage": "Surveys information-theoretic capacity formulations, upper-bound methods, trace reconstruction, and related synchronization variants."
+        }
+      ]
+    },
+    {
+      "local_id": "I07",
+      "reader_worker": "W15",
+      "pdf_pages": "1–25",
+      "sections": [
+        {
+          "id": "Section I, Introduction",
+          "pdf_pages": "1–2",
+          "coverage": "Defines the binary i.i.d. deletion channel and previews genie-aided upper bounds and auxiliary-channel lower bounds."
+        },
+        {
+          "id": "Section II, A Useful Auxiliary Channel",
+          "pdf_pages": "3–8",
+          "coverage": "Defines a finite fixed-block channel with L input bits, R output bits, D=L−R uniformly chosen deletion positions among binom(L,D), independently across channel uses; proves Lemmas 1–9 used later."
+        },
+        {
+          "id": "Section III, First Upper Bound",
+          "pdf_pages": "9–11",
+          "coverage": "Reveals the deletion-related process Z to the decoder and reduces the bound to an auxiliary-channel mutual information."
+        },
+        {
+          "id": "Section IV, Second Upper Bound",
+          "pdf_pages": "12–13",
+          "coverage": "Uses a second revealed process to derive a computable capacity upper bound."
+        },
+        {
+          "id": "Section V, Third Upper Bound",
+          "pdf_pages": "14–16",
+          "coverage": "Reveals process V to encoder and decoder and bounds the resulting channel."
+        },
+        {
+          "id": "Section VI, Fourth Upper Bound",
+          "pdf_pages": "17–18",
+          "coverage": "Gives the receiver-only V bound."
+        },
+        {
+          "id": "Section VII, Discussion",
+          "pdf_pages": "19–22",
+          "coverage": "Compares numerical bounds, distinguishes proved statements from conjectures, and reports this paper’s C₂*/(1−d)→0.49 high-deletion limit against the prior [7] comparison value 0.7918."
+        },
+        {
+          "id": "Section VIII, Two Simple Lower Bounds",
+          "pdf_pages": "23–24",
+          "coverage": "Derives simple achievable-rate bounds using the auxiliary process."
+        },
+        {
+          "id": "Section IX and References",
+          "pdf_pages": "24–25",
+          "coverage": "Concludes and lists references; section boundary shares PDF p. 24."
+        }
+      ]
+    },
+    {
+      "local_id": "I08",
+      "reader_worker": "W15",
+      "pdf_pages": "1–5",
+      "sections": [
+        {
+          "id": "Section I",
+          "pdf_pages": "1",
+          "coverage": "Introduces the deletion-channel converse problem and the two bound regimes."
+        },
+        {
+          "id": "Section II",
+          "pdf_pages": "2",
+          "coverage": "Defines run-length notation and capacity-per-unit-cost tools."
+        },
+        {
+          "id": "Sections III–V",
+          "pdf_pages": "2–5",
+          "coverage": "Proves a genie/run-length upper bound and a marker-based high-deletion asymptotic using Lemmas 1–4."
+        }
+      ]
+    },
+    {
+      "local_id": "I09",
+      "reader_worker": "W15",
+      "pdf_pages": "1–7",
+      "sections": [
+        {
+          "id": "Technical-report cover",
+          "pdf_pages": "1",
+          "coverage": "Identifies the Harvard Computer Science Technical Report TR-07-04."
+        },
+        {
+          "id": "Article introduction and model",
+          "pdf_pages": "2–4",
+          "coverage": "States the deletion-channel setting and motivates run-structured achievable-rate constructions."
+        },
+        {
+          "id": "Section 3.1 and Theorem 1",
+          "pdf_pages": "5",
+          "coverage": "Presents typical-output error analysis and Theorem 1 statement; explicitly defers Theorem 1 proof to the full version."
+        },
+        {
+          "id": "Section 3.2, Theorem 2, and Corollary 1",
+          "pdf_pages": "5–6",
+          "coverage": "Contains a collision-argument sketch, Theorem 2 statement and geometric-run Corollary 1; explicitly defers the detailed Corollary 1 proof to the full version."
+        },
+        {
+          "id": "Section 4, figures, conclusion, references",
+          "pdf_pages": "6–7",
+          "coverage": "Presents report-level discussion and plots, then concludes; no omitted full-version proof is supplied here."
+        }
+      ]
+    },
+    {
+      "local_id": "I12",
+      "reader_worker": "W15",
+      "pdf_pages": "1–6",
+      "sections": [
+        {
+          "id": "Section I",
+          "pdf_pages": "1–2",
+          "coverage": "Introduces the small deletion/substitution regime and states the entropy-scale goal."
+        },
+        {
+          "id": "Section II",
+          "pdf_pages": "2",
+          "coverage": "Defines the binary channel and its deletion/substitution probabilities."
+        },
+        {
+          "id": "Section III",
+          "pdf_pages": "3–5",
+          "coverage": "Bounds confusable edit patterns for fixed deletion/substitution counts and proves Theorem 1."
+        },
+        {
+          "id": "Sections IV–V",
+          "pdf_pages": "5",
+          "coverage": "Averages over i.i.d. edit counts to state the small-probability capacity bounds, then summarizes the result."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "6",
+          "coverage": "Lists cited sources."
+        }
+      ]
+    },
+    {
+      "local_id": "I14",
+      "reader_worker": "W15",
+      "pdf_pages": "1–22",
+      "sections": [
+        {
+          "id": "Section I, Introduction",
+          "pdf_pages": "1–2",
+          "coverage": "Positions learned run-law optimization relative to existing deletion-channel lower bounds and states the paper’s contributions."
+        },
+        {
+          "id": "Section II, Model and Renewal Inputs",
+          "pdf_pages": "3–5",
+          "coverage": "Defines stationary renewal inputs, finite-window run deletions, and renewal weights."
+        },
+        {
+          "id": "Section III, Drinea–Mitzenmacher Functional",
+          "pdf_pages": "5–6",
+          "coverage": "Derives the DM functional, renewal reduction, and one-sided truncation; Proposition 1 provides the retained-mass entropy correction."
+        },
+        {
+          "id": "Section IV, VTR Functional",
+          "pdf_pages": "6–12",
+          "coverage": "Decomposes the output/conditional entropy and introduces a residual-state chain to extend the VTR lower bound to finite-support run laws."
+        },
+        {
+          "id": "Section V, Optimization and Verified Evaluation",
+          "pdf_pages": "12–15",
+          "coverage": "Separates search protocols from interval-arithmetic certification at a specified law; validation material is in the final subsection."
+        },
+        {
+          "id": "Section VI, Numerical Results",
+          "pdf_pages": "16–18",
+          "coverage": "Reports computations for DM and VTR functionals and compares published bounds."
+        },
+        {
+          "id": "Section VII, Discussion and Open Problems",
+          "pdf_pages": "19–21",
+          "coverage": "Discusses tighter run-length functionals, search, run-length constellations, and extensions to other channels."
+        },
+        {
+          "id": "Section VIII, Conclusion",
+          "pdf_pages": "21",
+          "coverage": "Summarizes the paper’s contributions and limits."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "21–22",
+          "coverage": "Lists cited works; the PDF has no appendices."
+        }
+      ]
+    },
+    {
+      "local_id": "C02",
+      "reader_worker": "W16",
+      "pdf_pages": "1–11",
+      "sections": [
+        {
+          "id": "Section 1, Introduction",
+          "pdf_pages": "1",
+          "coverage": "Motivates a unified cluster-expansion criterion for continuous/discrete models and correlation functions."
+        },
+        {
+          "id": "Section 2, Cluster Expansions",
+          "pdf_pages": "1–4",
+          "coverage": "Defines the measure-space partition function, connected-cluster coefficients, Theorem 1 hypotheses, and rooted absolute-convergence proof."
+        },
+        {
+          "id": "Section 3, Correlation Functions",
+          "pdf_pages": "4–7",
+          "coverage": "States and proves weighted pinned-correlation bounds under the strengthened pointwise integrability hypotheses."
+        },
+        {
+          "id": "Section 4, Illustrations",
+          "pdf_pages": "7–10",
+          "coverage": "The Section 4 heading and opening sentence appear at the bottom of PDF p. 7; the application examples and derivations begin on p. 8 and continue through p. 10. This distinguishes the heading page from the substantive application pages."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "11",
+          "coverage": "Lists cited works."
+        }
+      ]
+    },
+    {
+      "local_id": "C03",
+      "reader_worker": "W16",
+      "pdf_pages": "1–16",
+      "sections": [
+        {
+          "id": "Section 1, Introduction",
+          "pdf_pages": "1–2",
+          "coverage": "Introduces abstract hard-core polymer models, the Penrose tree identity, and the paper’s improved convergence criterion."
+        },
+        {
+          "id": "Section 2, Polymer Models and Classical Criteria",
+          "pdf_pages": "2–5",
+          "coverage": "Defines the partition function and rooted cluster series, recalls Dobrushin/Kotecký–Preiss criteria, and sets up the neighborhood polynomial."
+        },
+        {
+          "id": "Section 3, Results",
+          "pdf_pages": "5–9",
+          "coverage": "§3.1 states new criteria and §3.2 compares them with prior tests and examples."
+        },
+        {
+          "id": "Section 4, Proofs",
+          "pdf_pages": "10–15",
+          "coverage": "The rendered PDF shows the Section 4 heading on physical p. 10 (printed p. 10); §4.1 proves the partitionability/Penrose identity, and §4.2 establishes tree bounds, convergence, and monotone iteration."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "16",
+          "coverage": "Lists cited works; the paper has no appendices."
+        }
+      ]
+    },
+    {
+      "local_id": "C04",
+      "reader_worker": "W16",
+      "pdf_pages": "1–6",
+      "sections": [
+        {
+          "id": "Theorems 1–3 and variational proof",
+          "pdf_pages": "1–5",
+          "coverage": "Defines the interaction norm with its 1/k! and distinct nonzero tuples, establishes entropy regularity, and proves the Gibbs pressure variational identity."
+        },
+        {
+          "id": "Theorem 4",
+          "pdf_pages": "5–6",
+          "coverage": "Proves uniqueness/extremality only under the source’s generic interaction condition."
+        }
+      ]
+    },
+    {
+      "local_id": "C06",
+      "reader_worker": "W15",
+      "pdf_pages": "1–49",
+      "sections": [
+        {
+          "id": "Sections 1–2",
+          "pdf_pages": "1–15",
+          "coverage": "Defines Gibbs-point-process/polymer activity expansions and states necessary/sufficient criteria with their potential assumptions."
+        },
+        {
+          "id": "Proofs and Section 3",
+          "pdf_pages": "16–25",
+          "coverage": "Derives recursive Kirkwood–Salsburg/graph bounds and proves the main convergence criteria."
+        },
+        {
+          "id": "Section 4 and appendices",
+          "pdf_pages": "26–49",
+          "coverage": "Works through hard-core polymer applications and supporting arguments; necessity remains restricted to the repulsive model as stated."
+        }
+      ]
+    },
+    {
+      "local_id": "C08",
+      "reader_worker": "W15",
+      "pdf_pages": "1–14",
+      "sections": [
+        {
+          "id": "Sections 1–3",
+          "pdf_pages": "1–4",
+          "coverage": "States the virial-coefficient majorant and derives the radius bound via Lagrange inversion."
+        },
+        {
+          "id": "Sections 4–7",
+          "pdf_pages": "5–14",
+          "coverage": "Proves the coefficient estimates and compares two model-specific cluster bounds under stability/temperedness assumptions."
+        }
+      ]
+    },
+    {
+      "local_id": "C13",
+      "reader_worker": "W15",
+      "pdf_pages": "1–10",
+      "sections": [
+        {
+          "id": "Section 1",
+          "pdf_pages": "1–2",
+          "coverage": "Explains the Shearer, independent-set polynomial, hard-core gas, and cluster-expansion links."
+        },
+        {
+          "id": "Section 2",
+          "pdf_pages": "2–5",
+          "coverage": "Proves the improved Lovász local lemma from the stated cluster criterion and gives a lopsided variant."
+        },
+        {
+          "id": "Section 3",
+          "pdf_pages": "5–8",
+          "coverage": "Applies the event/dependency-graph theorem to transversals and k-SAT."
+        },
+        {
+          "id": "Appendix and references",
+          "pdf_pages": "8–10",
+          "coverage": "Proves the partition-function implication through positive series/fixed-point majorants and lists references."
+        }
+      ]
+    },
+    {
+      "local_id": "R01",
+      "reader_worker": "W16",
+      "pdf_pages": "1–9",
+      "sections": [
+        {
+          "id": "Sections 1–3",
+          "pdf_pages": "1–4",
+          "coverage": "Reviews polling models and proved large-switch-over results under Poisson or branching-type assumptions."
+        },
+        {
+          "id": "Sections 4–5",
+          "pdf_pages": "5–9",
+          "coverage": "States the general-renewal conjecture/open problem, explains a heuristic, and reports phase-type numerics."
+        }
+      ]
+    },
+    {
+      "local_id": "R02",
+      "reader_worker": "W16",
+      "pdf_pages": "1–10",
+      "sections": [
+        {
+          "id": "Sections 1–2",
+          "pdf_pages": "1–3",
+          "coverage": "Defines regenerative cycles and states the renewal-reward theorem with absolute cycle-integrability."
+        },
+        {
+          "id": "Remaining sections",
+          "pdf_pages": "4–10",
+          "coverage": "Covers delayed/stationary regenerative variants and their separate initial-delay/length-bias conditions."
+        }
+      ]
+    },
+    {
+      "local_id": "R03",
+      "reader_worker": "W16",
+      "pdf_pages": "1–15",
+      "sections": [
+        {
+          "id": "Section 1, Introduction to Renewal Theory",
+          "pdf_pages": "1–10",
+          "coverage": "Covers point processes, renewal processes, forward recurrence and equilibrium distribution, backward recurrence, spread, inspection paradox, implications, and examples in §§1.1–1.9."
+        },
+        {
+          "id": "Section 2, The Renewal Reward Theorem",
+          "pdf_pages": "10–15",
+          "coverage": "§2.1 states and proves Theorem 2.1 under i.i.d. cycle pairs and integrable reward, using cycle-count bounds and uniform integrability; §2.2 gives examples."
+        }
+      ]
+    },
+    {
+      "local_id": "I11",
+      "reader_worker": "W15",
+      "pdf_pages": "1–25",
+      "sections": [
+        {
+          "id": "Title page and abstract",
+          "pdf_pages": "1",
+          "coverage": "Identifies arXiv v1, authors, date and the upper/lower bound contributions."
+        },
+        {
+          "id": "Contents",
+          "pdf_pages": "2",
+          "coverage": "Lists sections and physical-page start locations."
+        },
+        {
+          "id": "Section 1, Introduction (§§1.1–1.3)",
+          "pdf_pages": "3–5",
+          "coverage": "Defines the binary i.i.d. deletion channel, reviews prior bounds, states Theorem 1.1 on physical PDF p. 4 and Theorem 1.2 on p. 5, and gives the proof roadmap."
+        },
+        {
+          "id": "Section 2, Upper Bound Theory (§§2.1–2.2)",
+          "pdf_pages": "6–9",
+          "coverage": "Reviews finite DMC capacity and Blahut–Arimoto; derives fixed-length and uniformly selected-subsequence auxiliary deletion channels and their capacity comparison."
+        },
+        {
+          "id": "Section 3, Memory-Efficient BAA (§§3.1–3.3)",
+          "pdf_pages": "9–14",
+          "coverage": "Uses caching, loop-nest optimization, symmetry and sparse transitions; reports finite-channel numerical upper bounds."
+        },
+        {
+          "id": "Section 4.1, Drinea–Mitzenmacher framework",
+          "pdf_pages": "14–16",
+          "coverage": "States the rigorous run-length construction and its bound under the source’s admissible run-law conditions."
+        },
+        {
+          "id": "Section 4.2, Heuristic input-law search",
+          "pdf_pages": "17–18",
+          "coverage": "Defines an approximate rate score and describes the practical outer basin-hopping search over parameters."
+        },
+        {
+          "id": "Section 4.3, Heuristic analysis",
+          "pdf_pages": "18–20",
+          "coverage": "Derives the score heuristically and explicitly lists omitted O(D²) and entropy/ambiguity terms."
+        },
+        {
+          "id": "Section 4.4, Reduction to Convex Optimization",
+          "pdf_pages": "21–23",
+          "coverage": "Gives the constrained BAA-type algorithm and its approximation lemma for the stated score; this does not certify the outer practical search as a global optimizer of true code rate."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "24–25",
+          "coverage": "Lists cited sources."
+        }
+      ]
+    },
+    {
+      "local_id": "I13",
+      "reader_worker": "W15",
+      "pdf_pages": "1–46",
+      "sections": [
+        {
+          "id": "Title page and abstract",
+          "pdf_pages": "1–2",
+          "coverage": "Identifies arXiv v4 and the two insertion models; states the asymptotic contribution."
+        },
+        {
+          "id": "Section I, Introduction",
+          "pdf_pages": "2–7",
+          "coverage": "Motivation, literature, contributions, and organization."
+        },
+        {
+          "id": "Section II, Preliminaries",
+          "pdf_pages": "7–10",
+          "coverage": "Defines simple and Gallager insertion channels, Dobrushin capacity characterization, stationary-ergodic rate and run-length notation. Theorem 1 and Lemma 2 proofs are referred to prior sources."
+        },
+        {
+          "id": "Section III, Decomposing the Rate",
+          "pdf_pages": "10–12",
+          "coverage": "Defines input/output run segments and derives the entropy-chain decomposition for mutual information."
+        },
+        {
+          "id": "Section IV-A, H(Aⁿ,Bⁿ)",
+          "pdf_pages": "12–13",
+          "coverage": "Computes the entropy of the insertion-location and inserted-bit process for simple insertion."
+        },
+        {
+          "id": "Section IV-B, H(Aⁿ,Bⁿ|Xⁿ,Y,K)",
+          "pdf_pages": "13–20",
+          "coverage": "Analyzes ambiguity of the insertion pattern and inserted symbols given input, output and output-run lengths."
+        },
+        {
+          "id": "Section IV-C, H(K|Xⁿ,Y)",
+          "pdf_pages": "20–28",
+          "coverage": "Bounds output-run-length uncertainty and develops the corresponding entropy estimates."
+        },
+        {
+          "id": "Section IV-D, H(Y|Xⁿ)",
+          "pdf_pages": "28–29",
+          "coverage": "Bounds output entropy conditional on the input."
+        },
+        {
+          "id": "Section IV-E, Achievability",
+          "pdf_pages": "29–30",
+          "coverage": "Uses i.i.d. Bernoulli(1/2) input for the simple-insertion lower rate."
+        },
+        {
+          "id": "Section IV-F, Converse",
+          "pdf_pages": "30–32",
+          "coverage": "Truncates run lengths for high-entropy stationary inputs and proves the simple-insertion converse."
+        },
+        {
+          "id": "Section V, Gallager insertion (§§V-A–V-E)",
+          "pdf_pages": "32–44",
+          "coverage": "Repeats the entropy decomposition, achievability and converse for bit replacement by two fair random bits; Lemma 21 proof is abbreviated by reference to Section IV and prior work."
+        },
+        {
+          "id": "Section VI, Conclusions",
+          "pdf_pages": "44",
+          "coverage": "Summarizes results and possible extensions."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "45–46",
+          "coverage": "Lists the cited literature."
+        }
+      ]
+    },
+    {
+      "local_id": "R04",
+      "reader_worker": "W15",
+      "pdf_pages": "1–12",
+      "sections": [
+        {
+          "id": "Section 1, Introduction",
+          "pdf_pages": "1–3",
+          "coverage": "Motivates large deterministic switch-over analysis and identifies the branching-process context."
+        },
+        {
+          "id": "Section 2, Model description",
+          "pdf_pages": "3–4",
+          "coverage": "Defines cyclic Poisson queues, gated/exhaustive service, deterministic setups and the stability regime."
+        },
+        {
+          "id": "Section 3.1, Terminology",
+          "pdf_pages": "4–5",
+          "coverage": "Defines originators, descendant sets, reference polling epochs and DSA variables."
+        },
+        {
+          "id": "Section 3.2, Recursive scheme",
+          "pdf_pages": "5–6",
+          "coverage": "Derives recursive PGFs and first/second factorial-moment recurrences."
+        },
+        {
+          "id": "Section 4, Analysis",
+          "pdf_pages": "6–8",
+          "coverage": "Proves the almost-sure queue-length limit and uniform scaled-delay limit using descendant independence, renewal-reward SLLN and transform relations."
+        },
+        {
+          "id": "Section 5, Numerical examples",
+          "pdf_pages": "8–9",
+          "coverage": "Illustrates the asymptotic law for selected queueing models."
+        },
+        {
+          "id": "Section 6, Implications and limitations",
+          "pdf_pages": "9–11",
+          "coverage": "Discusses uniform-law properties and gives a stochastic-switch-over counterexample to the deterministic-setup theorem’s key relation; leaves extensions open."
+        },
+        {
+          "id": "Acknowledgements and references",
+          "pdf_pages": "11–12",
+          "coverage": "Acknowledgement and bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "R06",
+      "reader_worker": "W15",
+      "pdf_pages": "1–17",
+      "sections": [
+        {
+          "id": "Repository cover",
+          "pdf_pages": "1",
+          "coverage": "Identifies the Eindhoven SPOR report repository artifact and document version."
+        },
+        {
+          "id": "Title page, abstract, and Section 1",
+          "pdf_pages": "2–4",
+          "coverage": "Identifies the 6 Dec 2006 report and introduces branching-type polling systems."
+        },
+        {
+          "id": "Section 2, Model description and notation",
+          "pdf_pages": "4–6",
+          "coverage": "Defines Poisson arrivals, service/setup model, Property 2.1 branching replacement PGFs, stability and exhaustiveness."
+        },
+        {
+          "id": "Section 3.1, Preliminaries",
+          "pdf_pages": "6–7",
+          "coverage": "Defines offspring PGFs and gives exhaustive, gated and binomial policy examples."
+        },
+        {
+          "id": "Section 3.2, Deterministic setup limits",
+          "pdf_pages": "7–10",
+          "coverage": "Proves large-deterministic-setup delay/queue-length limits, including Theorem 3.3 and policy dependence through exhaustiveness."
+        },
+        {
+          "id": "Section 3.3, General setups under heavy traffic",
+          "pdf_pages": "10–11",
+          "coverage": "Derives the stochastic-setup limit in the ordered regime ρ↑1 followed by mean setup→∞, with finite first two setup moments."
+        },
+        {
+          "id": "Section 4, Discussion and extensions",
+          "pdf_pages": "12–15",
+          "coverage": "Discusses implications, numerical comparisons and proposed extensions; simulations do not prove renewal-arrival results."
+        },
+        {
+          "id": "Appendix A",
+          "pdf_pages": "15–16",
+          "coverage": "Gives phase-type fitting relations."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "16–17",
+          "coverage": "Bibliography of the 2006 report."
+        }
+      ]
+    },
+    {
+      "local_id": "C07",
+      "reader_worker": "W15",
+      "pdf_pages": "1–15",
+      "sections": [
+        {
+          "id": "Section 1, Introduction",
+          "pdf_pages": "1–3",
+          "coverage": "Introduces Mayer coefficients, classical stable-potential criteria and the tree-graph approach."
+        },
+        {
+          "id": "Section 2.1, Model",
+          "pdf_pages": "3–4",
+          "coverage": "Defines a continuous gas with stable and tempered pair potential and prior convergence bounds."
+        },
+        {
+          "id": "Section 2.2, Results",
+          "pdf_pages": "4–6",
+          "coverage": "States Theorem 1 coefficient/radius bounds, Proposition 1 tree-graph inequality and the induced virial-radius estimate."
+        },
+        {
+          "id": "Section 3.1, General Penrose identity",
+          "pdf_pages": "6–8",
+          "coverage": "Defines partition schemes and proves the graph-interval identity."
+        },
+        {
+          "id": "Section 3.2, Minimum-spanning-tree partition scheme",
+          "pdf_pages": "8–11",
+          "coverage": "Builds a deterministic MST-based partition scheme and proves the stable-potential tree bound."
+        },
+        {
+          "id": "Section 3.3, Completion of Proposition 1",
+          "pdf_pages": "11–12",
+          "coverage": "Completes the pointwise tree-graph inequality."
+        },
+        {
+          "id": "Section 4, Proof of Theorem 1",
+          "pdf_pages": "12–13",
+          "coverage": "Integrates the coefficient estimate, sums the Cayley-tree majorant and obtains uniform Mayer convergence."
+        },
+        {
+          "id": "Section 5, Comparison and conclusion",
+          "pdf_pages": "13",
+          "coverage": "Compares bounds and notes special-potential refinements."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "13–15",
+          "coverage": "Bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "I10",
+      "reader_worker": "W15",
+      "pdf_pages": "1–79",
+      "sections": [
+        {
+          "id": "Title, abstract, introduction, model, and notation",
+          "pdf_pages": "1–10",
+          "coverage": "Introduces D-repeat/deletion channels, run-length decomposition, contribution, and roadmap."
+        },
+        {
+          "id": "Section 3, Mean-limited channels and convex duality",
+          "pdf_pages": "11–20",
+          "coverage": "Develops the output-law relative-entropy dual, Theorem 1 and equality conditions, and multiple-use extension."
+        },
+        {
+          "id": "Section 4, D-repeat reduction",
+          "pdf_pages": "21–27",
+          "coverage": "Proves Theorem 4 and Corollary 5 by separating preprocessor/run processor and reducing to mean-limited bounds."
+        },
+        {
+          "id": "Section 5, Poisson-repeat constructions",
+          "pdf_pages": "28–40",
+          "coverage": "Constructs digamma/dual-feasible distributions, analytic estimates, and Theorems 10 and 17."
+        },
+        {
+          "id": "Section 6, Binomial and inverse-binomial bounds",
+          "pdf_pages": "41–59",
+          "coverage": "Proves binomial mean-limited criteria, inverse-binomial estimates, and truncated-distribution Theorem 34."
+        },
+        {
+          "id": "Section 7, Deletion-channel capacity bounds and discussion",
+          "pdf_pages": "60–68",
+          "coverage": "Combines dual bounds in Theorems 35 and 38, discusses limiting regimes, and lists open questions."
+        },
+        {
+          "id": "References and Appendices A–B",
+          "pdf_pages": "68–79",
+          "coverage": "Gives citations, deferred derivations, analytic estimates, numeric illustrations, and explicitly nonrigorous heuristic estimates where stated."
+        }
+      ]
+    },
+    {
+      "local_id": "C05",
+      "reader_worker": "W15",
+      "pdf_pages": "1–97",
+      "sections": [
+        {
+          "id": "Title, abstract, introduction, model, and Lovász local lemma overview",
+          "pdf_pages": "1–8",
+          "coverage": "Motivates the repulsive lattice gas, independent-set polynomial, and event-avoidance criteria."
+        },
+        {
+          "id": "Section 2, Repulsive lattice gas and fundamental theorem",
+          "pdf_pages": "9–35",
+          "coverage": "Defines partition/nonvanishing regions, Mayer coefficients, and proves the equivalent zero-free/log-series criteria in Theorem 2.10."
+        },
+        {
+          "id": "Section 3, Hard-core lattice gas and examples",
+          "pdf_pages": "36–48",
+          "coverage": "Specializes to independent-set polynomials and develops examples, tree recursions, and fugacity bounds."
+        },
+        {
+          "id": "Section 4, Lovász local lemma",
+          "pdf_pages": "49–55",
+          "coverage": "States and proves the sharp hard-core event criterion Theorem 4.1 and soft-core extension Theorem 4.2."
+        },
+        {
+          "id": "Section 5, Nonvanishing criteria",
+          "pdf_pages": "56–65",
+          "coverage": "Compares sufficient conditions and their implications for partition-function zero-freeness."
+        },
+        {
+          "id": "Sections 6–7, Tree interpretation and unfolding",
+          "pdf_pages": "66–72",
+          "coverage": "Gives tree-based interpretations and unfolding arguments for hard-core criteria."
+        },
+        {
+          "id": "Section 8, Infinite-volume limits and fugacity estimates",
+          "pdf_pages": "73–89",
+          "coverage": "Studies infinite graphs/free energy and derives critical-fugacity estimates under the stated graph assumptions."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "90–97",
+          "coverage": "Lists cited literature."
+        }
+      ]
+    },
+    {
+      "local_id": "C10",
+      "reader_worker": "W15",
+      "pdf_pages": "1–7 (complete; printed journal pp. 841–847)",
+      "sections": [
+        {
+          "id": "Abstract and §1, Introduction and model",
+          "pdf_pages": "1–2",
+          "coverage": "Defines finite/infinite-volume pressure, density, virial coefficients, stability and the Mayer-integrability/temperedness quantity; states the gas-model scope."
+        },
+        {
+          "id": "§2, Inversion and virial expansion",
+          "pdf_pages": "2",
+          "coverage": "Introduces the density-to-fugacity inversion and coefficient contour formula used to relate cluster coefficients to virial coefficients."
+        },
+        {
+          "id": "§3, Lower bound on the virial radius",
+          "pdf_pages": "3",
+          "coverage": "Uses the Penrose cluster-coefficient estimate, the inverse-density relation, and a scalar maximization to derive the finite-volume virial-radius lower bound (Eq. 3.11) and finite-volume virial-coefficient estimate k|β_k(V)| (Eq. 3.13); Eq. 3.14 instead bounds infinite-volume irreducible Mayer cluster integrals k|β_k|, followed by the infinite-volume radius consequence in Eq. 3.15. All four are on physical PDF p. 3 / printed p. 843."
+        },
+        {
+          "id": "§4, Upper bound on the virial radius",
+          "pdf_pages": "3–4",
+          "coverage": "Uses the hard-core maximum density to bound the radius from above."
+        },
+        {
+          "id": "§5, Analytic continuation and thermodynamic limit",
+          "pdf_pages": "4–5",
+          "coverage": "States the bounded simply-connected-domain regularity hypothesis and applies Vitali convergence to obtain uniform convergence on interior contours."
+        },
+        {
+          "id": "§§6–8, Infinite-volume relation, other densities, and summary",
+          "pdf_pages": "5–7",
+          "coverage": "Relates finite- and infinite-volume radius bounds, extends the coefficient-radius discussion to other density expansions, and summarizes numerical constants and model limits."
+        },
+        {
+          "id": "References/end matter",
+          "pdf_pages": "7",
+          "coverage": "Checks final printed page 847 and end matter; the seven-page scan is complete."
+        }
+      ]
+    },
+    {
+      "local_id": "C12",
+      "reader_worker": "W15",
+      "pdf_pages": "1–11",
+      "sections": [
+        {
+          "id": "Title, abstract, introduction, and polymer model",
+          "pdf_pages": "1–2",
+          "coverage": "Defines the abstract hard-core polymer gas, incompatibility, connected multi-indices, and cluster weights."
+        },
+        {
+          "id": "Section 2 and Theorem 1 criterion",
+          "pdf_pages": "2–4",
+          "coverage": "States the δ/L(δ) activity hypotheses and rooted/unrooted absolute cluster bounds."
+        },
+        {
+          "id": "Theorem 1 induction proof",
+          "pdf_pages": "5–6",
+          "coverage": "Splits the partition function into compatible/incompatible terms and closes the logarithmic cluster bound inductively."
+        },
+        {
+          "id": "Partial polymers and Theorem 2 extension",
+          "pdf_pages": "7–8",
+          "coverage": "Treats finite-order/partial-polymer forms of the criterion and their proof."
+        },
+        {
+          "id": "Discussion and references",
+          "pdf_pages": "9–11",
+          "coverage": "Compares the sufficient criterion with related Dobrushin/Kotecký–Preiss conditions and lists references."
+        }
+      ]
+    },
+    {
+      "local_id": "C15",
+      "reader_worker": "W15",
+      "pdf_pages": "1–18 (cover plus complete article)",
+      "sections": [
+        {
+          "id": "Warwick repository wrapper",
+          "pdf_pages": "1",
+          "coverage": "Identifies the deposited article artifact."
+        },
+        {
+          "id": "Article title, introduction, model, assumptions, and Theorems 2.1–2.3",
+          "pdf_pages": "2–6",
+          "coverage": "Defines the measurable pair-potential model, stability and weighted-integrability assumptions, absolute cluster expansion, correlations, and decay statements."
+        },
+        {
+          "id": "Sections III–V, classical gas, polymers, and quantum gas applications",
+          "pdf_pages": "7–11",
+          "coverage": "Checks examples and model-specific sufficient conditions, including Wiener-sausage estimates."
+        },
+        {
+          "id": "Section VI, Proposition 6.1 tree estimates",
+          "pdf_pages": "11–15",
+          "coverage": "Proves connected-graph to tree-sum bounds using the Ruelle algebra and BBF tree identity/regularization."
+        },
+        {
+          "id": "Section VII, proofs of Theorems 2.1–2.3",
+          "pdf_pages": "15–17",
+          "coverage": "Uses tree majorants, induction, connected-graph decomposition, and absolute convergence for the main statements."
+        },
+        {
+          "id": "References",
+          "pdf_pages": "18",
+          "coverage": "Lists cited works."
+        }
+      ]
+    }
+  ],
+  "selected_chapters_read_sources": [
+    {
+      "local_id": "I15",
+      "reader_worker": "W15",
+      "book_pdf_pages": "1–324",
+      "read_units": [
+        {
+          "unit": "Chapter 2, Entropy and Information, §§2.1–2.7 (complete)",
+          "pdf_pages": "39–68",
+          "printed_pages": "17–46",
+          "complete": true,
+          "coverage": "Defines entropy, divergence, mutual and conditional information; proves finite-alphabet entropy-rate limit, upper semicontinuity/affinity and ergodic decomposition with stated integrability; establishes conditional chain rules, Markov-reference relative-entropy-rate formulas, Markov-approximation convergence, and relative-entropy-density one-sided bounds."
+        },
+        {
+          "unit": "Chapter 9 introduction and §§9.2–9.3 (partial inspection only)",
+          "pdf_pages": "190–194",
+          "printed_pages": "168–172",
+          "complete": false,
+          "coverage": "Partial channel/stationarity discussion; not counted as a complete selected unit."
+        }
+      ]
+    }
+  ]
+}

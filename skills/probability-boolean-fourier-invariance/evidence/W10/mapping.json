@@ -1,0 +1,133 @@
+[
+  {
+    "problem_id": "A018",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "auxiliary",
+    "needed_lemma": "Use the k-wise-distribution extremal formulation and two-level-majority estimates as a template; preserve all inter-block independence constraints for 3+ layers.",
+    "source_local_ids": [
+      "BGP2012",
+      "M0145"
+    ],
+    "unproved_interface": "BGP Theorem 16 settles only the two-level majority scale and explicitly asks about K2(Maj3) and iterated majority. No reduction here closes the multi-layer gap."
+  },
+  {
+    "problem_id": "A164",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "Translate monotonicity plus dependence on coordinate i to nonzero first-level coefficient, then keep the missing-level condition 2≤|S|≤d separate from both.",
+    "source_local_ids": [
+      "M0110",
+      "M0145"
+    ],
+    "unproved_interface": "The source states the extremal problem but does not prove an asymptotic bound on maximal d(n); the Fourier-support problem A165 has a different premise."
+  },
+  {
+    "problem_id": "A165",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "A165 assumes every singleton coefficient is nonzero and asks for a quadratic lower bound on Fourier L0 support. Distinguish this from depending on every coordinate, Fourier L1 norm, Fourier degree, and support-span dimension. The auxiliary comparisons in M0128/M0129/M0132/M0137/M0138 and M0130/M0140/M0141/M0142 constrain how Fourier dimension, L0 sparsity, L1 spectral norm, intermediate coefficient norms, sparse-spectrum distance, and parity decision-tree structure may be compared; they are context/boundary results, not proofs of the A165 lower bound.",
+    "source_local_ids": [
+      "M0110",
+      "M0112",
+      "M0122",
+      "M0124",
+      "M0128",
+      "M0129",
+      "M0131",
+      "M0134",
+      "M0145",
+      "M0130",
+      "M0132",
+      "M0137",
+      "M0138",
+      "M0140",
+      "M0141",
+      "M0142"
+    ],
+    "unproved_interface": "No read source proves the conjectured Ω(n²) L0 lower bound under only nonzero singleton coefficients. Exact enumeration through n=4 is finite evidence only; parity gives dependence on every coordinate with L0=1 but has all singleton coefficients zero. The newly read auxiliary sources likewise do not supply the missing general quadratic L0 lower bound: dimension-from-sparsity is an upper bound, small-L1/symmetric/BH results have different inputs or norms, and testing/learning/PDT guarantees have different outputs."
+  },
+  {
+    "problem_id": "B161",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "Keep balancedness, real Fourier degree ≤d, and max_i Inf_i(f) as separate inputs. KKL gives a lower bound on a largest influence; MOO provides invariance only after low-influence hypotheses are supplied.",
+    "source_local_ids": [
+      "M0110",
+      "M0112",
+      "M0118",
+      "M0145",
+      "M0235",
+      "HKM-PTF"
+    ],
+    "unproved_interface": "The open-problem source records only a historical Ω(d^-4) lower bound from decision-tree depth plus OSSS. The exact extremal asymptotic and a matching construction are not settled by this batch."
+  },
+  {
+    "problem_id": "B162",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "Use Friedgut 2004 Conjecture 2.6 with fixed ε and |J|≤b(c,ε)log n; state the monotone all-zero/all-one assignment case and general-function assignment variant separately.",
+    "source_local_ids": [
+      "M0110",
+      "M0112",
+      "M0115",
+      "FRIEDGUT2004",
+      "KKL2014",
+      "CG2026",
+      "FRIEDGUT2026"
+    ],
+    "unproved_interface": "The 2026 Chattopadhyay–Gurumukhani/Friedgut papers address the continuous cube or general finite alphabets with coalitions of order n/polylog n, not the discrete fixed-ε O(log n) conjecture under small individual influences. Current resolution status for Conjecture 2.6 remains unverified."
+  },
+  {
+    "problem_id": "B169",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "Use the Walsh-noise identity Stab_ρ(f)=Σ_Sρ^|S| fhat(S)^2 and MOO's Majority Is Stablest theorem only with its mean and max-individual-influence assumptions.",
+    "source_local_ids": [
+      "M0111",
+      "M0117",
+      "M0118",
+      "M0145",
+      "M0146",
+      "M0235",
+      "BKS1999"
+    ],
+    "unproved_interface": "The problem's max-Fourier-coefficient condition is not the MOO condition max_i Inf_i(f)≤τ. This batch contains no derivation replacing low individual influences by max_S |fhat(S)|→0."
+  },
+  {
+    "problem_id": "B170",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "For standard Gaussian marginals and k-wise independent coordinates, compare E[sgn p(X)] to the fully independent Gaussian value; distinguish this from Boolean-cube k-wise independence and from arbitrary polynomial approximation.",
+    "source_local_ids": [
+      "M0110",
+      "M0145",
+      "M0235",
+      "M0236",
+      "DKN-PTF2",
+      "BEL-PTF",
+      "KANE2011"
+    ],
+    "unproved_interface": "Kane proves a sufficient, nonoptimal k(d,ε) bound for Gaussian marginals. DKN degree-2 and BEL structural results are Boolean-input results. The optimal k and matching lower bounds remain open in this source set; sharp Gaussian polynomial/sign approximation is assigned to W18."
+  },
+  {
+    "problem_id": "A019",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "For the fixed three-input majority gate iterated through depth t (n=3^t), determine the asymptotic K2 threshold: the least k(n) such that every k-wise independent law with uniform marginals gives the same limiting output probability as the fully independent law. A proof needs a recursive extremal construction or a lower/upper recursion that preserves the joint law of all subtrees.",
+    "source_local_ids": [
+      "BGP2012"
+    ],
+    "unproved_interface": "BGP2012 §5 Question 4 states this problem but proves only two-level majority-of-majorities (Theorem 16). Its XOR block extremizer cannot be iterated without a verified joint-law construction; no mapped source here determines K2 for iterated majority of threes."
+  },
+  {
+    "problem_id": "A166",
+    "tool": "probability-boolean-fourier-invariance",
+    "role": "direct",
+    "needed_lemma": "On the uniform Boolean cube, identify the conditional bias on a coordinate subcube exactly as E[f(X)|X_S=y]=sum_{T subseteq S} fhat(T) chi_T(y). Then prove or refute a dimension-free lower bound: for every real-valued f with m nonzero input points, some |S|=O(log m) and y have absolute conditional mean > ||f||_1/poly(m). Distinguish m input support points from Fourier support.",
+    "source_local_ids": [
+      "M0110",
+      "M0113"
+    ],
+    "unproved_interface": "M0110 is the primary open-problem statement. M0113 gives Fourier-sparse/L1 learning, not an input-support conditional-bias theorem. The signed support weights can cancel across every small coordinate projection; no source here proves the required subcube bias lower bound."
+  }
+]

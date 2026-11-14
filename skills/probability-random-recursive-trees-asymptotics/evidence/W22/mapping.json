@@ -1,0 +1,408 @@
+[
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "direct",
+    "needed_lemma": "Write the exact finite-n CTCS split/height recursion and preserve uniform one-leaf marginals under the specified ordered circular leaf labels; separate continuous-time height D_n from discrete edge height L_n.",
+    "source_local_ids": [
+      "RT002",
+      "RT003",
+      "RT004",
+      "RT005"
+    ],
+    "unproved_interface": "No source read here proves the two leaves selected by a uniform cyclic shift at deterministic circular separation r_n have normalized covariance tending to 1-alpha. RT002 treats two distinct uniformly sampled leaves (and only under its h-ansatz for the O(1/log n) conclusion); RT003 has a branchpoint law for a random pair; RT004 is one-leaf. Need a new separation-conditioned pair recursion and asymptotic control. RT005 adds the exact one-leaf occupation law but remains marginal-only. RT009 gives a general GHP route only after its Markov-branching and (H) hypotheses are verified.",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "A local fringe/additive-functional CLT or Poisson approximation after a proved model-preserving representation, with exact toll, centering, covariance and nondegenerate variance gates.",
+    "source_local_ids": [
+      "RT019",
+      "RT020"
+    ],
+    "unproved_interface": "RT019 covers BST/RRT, and RT020 covers critical conditioned GW with finite nonzero offspring variance and toll-specific decay/summability. No exact representation of the size-dependent critical Beta tree by either model has been proved; theorem transfer is unavailable absent it.",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_pair_profile_and_metric_limit_methods",
+    "needed_lemma": "If a model-matched metric-measure limit or pair-distance measure can be established, derive the associated empirical pair statistic/profile with its required tightness and moment bounds.",
+    "source_local_ids": [
+      "RT009",
+      "RT012",
+      "RT013"
+    ],
+    "unproved_interface": "RT009 requires the exact Markov-branching split-law hypothesis and controls global measured-tree limits; RT012 and RT013 concern conditioned critical-GW or simply generated trees and uniform vertex-pair statistics. None encodes A127’s deterministic circular leaf separation, CTCS time metric or ordered cyclic labels. These are auxiliary methods only; the fixed-separation covariance limit remains unproved.",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "Convert a protected/local vertex indicator into a limiting frequency only after establishing the model-specific annealed and quenched fringe law.",
+    "source_local_ids": [
+      "RT021"
+    ],
+    "unproved_interface": "RT021 handles simply generated/GW, BST, and recursive trees only. It has no pair law or deterministic circular leaf-gap conditioning; the Beta-splitting fixed-separation covariance remains unproved.",
+    "method_subrole": "fringe_event_transfer",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "For a model with independent prefix branches, verify toll mean/variance moment gates, periodicity/entropy constants, and a valid Poisson deconditioning covariance before using an additive CLT.",
+    "source_local_ids": [
+      "RT023"
+    ],
+    "unproved_interface": "RT023 assumes iid strings and trie prefixes, not a size-dependent Beta split. It does not control two leaves conditioned on exact cyclic separation; A127 remains unproved.",
+    "method_subrole": "poissonized_additive_CLT_template",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "Prove a root-branch additive identity and an exponentially small average absolute toll in the exact target random-tree law, then verify the appropriate model-family variance is nonzero.",
+    "source_local_ids": [
+      "RT025"
+    ],
+    "unproved_interface": "The CLTs are proved for simply generated, Pólya, recursive, or binary-search-tree families. No representation or exponential toll bound for the Beta-splitting model or fixed-gap pair statistic is established.",
+    "method_subrole": "small_average_toll_CLT",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "If an exact critical conditioned-GW representation is proved, construct the Kesten-local approximants, verify degree moment and summable approximation bounds, and prove the variance limit.",
+    "source_local_ids": [
+      "RT027"
+    ],
+    "unproved_interface": "The size-dependent Beta split law is not shown to be conditioned GW, and an additive one-tree CLT does not give the fixed-circular-gap two-leaf covariance. No A127 conclusion follows.",
+    "method_subrole": "almost_local_conditioned_GW_CLT",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "method_subrole": "cmj_stopped_tree_fringe_embedding",
+    "needed_lemma": "Construct and verify an exact CMJ family-tree embedding for the target CTCS clade growth, including its birth intensity, nonlattice/Malthusian conditions, characteristic and stopping weight; then preserve the cyclic-shift pair sampling law.",
+    "source_local_ids": [
+      "RT022"
+    ],
+    "unproved_interface": "The survey supplies stopped-CMJ fringe limits under A1–A6 and model-specific embeddings; no CTCS critical Beta embedding or deterministic circular-gap pair law is established. A random fringe or one-leaf limit does not resolve A127.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "method_subrole": "generalized_polya_urn_fixed_fringe_clt",
+    "needed_lemma": "Derive a finite-type urn state for the target statistic; verify the exact A1–A7 replacement/tenability and moment hypotheses, a simple positive dominant eigenvalue, and the strict non-dominant spectral bound Re(lambda)<lambda_1/2.",
+    "source_local_ids": [
+      "RT028"
+    ],
+    "unproved_interface": "The source proves fixed-fringe-count Gaussian limits for m-ary search trees (2≤m≤26) and linear PA urns. Neither has been identified with the size-dependent critical Beta tree, and the CLT concerns fixed fringe counts rather than fixed-gap pairs.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "method_subrole": "split_vector_additive_toll_and_renewal",
+    "needed_lemma": "Prove the target clade law is generated by the paper’s split-vector ball-allocation mechanism; match its s,s0,s1 parameters and toll; verify moment, small-mean, supercriticality and positive-support renewal/lattice conditions before applying an LLN or L2 contraction limit.",
+    "source_local_ids": [
+      "RT031"
+    ],
+    "unproved_interface": "The article’s split-tree and fractional split-tree allocation laws are not the critical Beta clade growth law. Its zero-coordinate splitter cases also need a positive-support renewal argument before using the literal log(V*) lattice classification. No fixed cyclic-gap pair covariance follows.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "method_subrole": "split_representation_and_common_ancestor_pair_decomposition",
+    "needed_lemma": "Derive a law-preserving split-tree representation for the target ordered leaves, then retain the uniform cyclic shift and deterministic separation while deriving a pair/common-ancestor limit.",
+    "source_local_ids": [
+      "RT034"
+    ],
+    "unproved_interface": "The paper represents linear PA/RRT as random split trees and analyzes an all-ordered-node-pairs common-ancestor statistic. It does not identify critical Beta-splitting with those growth laws or encode a deterministic circular leaf gap.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "For the exact target split model, derive a bivariate recursion/GF for the fixed cyclic-separation leaf pair and prove the uniform analytic estimates needed to extract its covariance asymptotic.",
+    "source_local_ids": [
+      "RT014"
+    ],
+    "unproved_interface": "RT014 proves depth-level covariance and width results for RRT/BST. It does not encode ordered cyclic leaf labels, deterministic circular separation, or the CTCS Beta split law. A127's fixed-gap covariance remains unproved.",
+    "method_subrole": "auxiliary_profile_covariance_method",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "Supply an exact function-valued recursive distributional equation for the target observable; identify the limiting coefficient operator; verify local L^s contraction, centering/toll and small-subtree conditions, then prove any coefficient extraction step.",
+    "source_local_ids": [
+      "RT016"
+    ],
+    "unproved_interface": "The (m,t) search-tree Dirichlet split and key-depth profile are not CTCS Beta-splitting. No target-space recursion or deterministic-gap pair limit is proved.",
+    "method_subrole": "auxiliary_functional_contraction_method",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "If a valid CMJ/renewal embedding for a target profile is constructed, verify interarrival moments, use the correctly matched n^s population-size time change, and separately establish the joint law for two leaves selected at deterministic cyclic separation.",
+    "source_local_ids": [
+      "RT017"
+    ],
+    "unproved_interface": "The theorem gives a one-leaf low-level RRT profile and a CMJ generation-count process, not the target CTCS pair statistic or its fixed circular gap.",
+    "method_subrole": "auxiliary_renewal_profile_CLT",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary",
+    "needed_lemma": "Derive the target's exact size/gap-indexed fringe recurrence and prove the necessary factorial-moment or coupling bounds with the original leaf sampling measure retained.",
+    "source_local_ids": [
+      "RT018"
+    ],
+    "unproved_interface": "RT018 treats a single prescribed-size fringe subtree at a uniformly evolving RRT/BST vertex. It does not prove a deterministic circular-gap two-leaf law in a CTCS Beta tree.",
+    "method_subrole": "auxiliary_fringe_count_approximation",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_fixed_fringe_factorial_moment_CLT",
+    "needed_lemma": "Derive an exact conditioned-degree/plane-word representation and two-marked-fringe or pair-gap factorial-moment identity for CTCS Beta. Verify empirical degree convergence, covariance coefficients, and Gao–Wormald hypotheses before using a Gaussian conclusion.",
+    "source_local_ids": [
+      "RT029"
+    ],
+    "unproved_interface": "RT029 concerns uniform plane trees conditioned on prescribed degree profiles; it neither identifies the CTCS Beta law nor encodes leaves at deterministic circular separation. Target pair law and covariance remain unproved.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_growing_fringe_and_finite_population_methods",
+    "needed_lemma": "Establish a target-specific exact law for growing gap-indexed patterns, then derive a without-replacement block-sum formula or local Stein coupling and prove moment, nonlattice, and error conditions under the actual leaf sampling measure.",
+    "source_local_ids": [
+      "RT030"
+    ],
+    "unproved_interface": "RT030 uses prescribed degree-profile plane trees and growing fringe shapes/profiles/sizes; it does not identify the CTCS circular-gap pair count or transfer its law.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_conditional_recursive_contraction",
+    "needed_lemma": "Write the exact target normalized recursive distributional equation; identify its random coefficients and toll; verify coefficient convergence, strict L^s contraction, negligible small-subproblem contribution, centering/moment bounds, and any oscillatory-root conditions.",
+    "source_local_ids": [
+      "RT038"
+    ],
+    "unproved_interface": "RT038 treats continuous conservative mass fragmentation and explicitly leaves rigorous transfer to discrete split trees future work. It gives no CTCS Beta recursion or fixed circular-separation pair limit.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage2_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_profile_contraction_and_moment_gates",
+    "needed_lemma": "For an exactly matched RRT/BST level-profile model, use the two-parameter recurrence, contraction/moment method and source-specific α gates; preserve the α=0/1 variance fine scales and isolate the printed next-moment clause.",
+    "source_local_ids": [
+      "RT015"
+    ],
+    "unproved_interface": "The RRT/BST insertion laws are not the size-dependent critical Beta split law. No fixed circular leaf-separation pair recursion or covariance limit follows without a model-preserving representation and a new pair argument.",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_additive_toll_CLT",
+    "needed_lemma": "For a matched fixed-d increasing-tree/GPORT model, prove additivity and verify C1-C2, the exact variance constant, and nonzero variance before applying the CLT; GPORT parameter must satisfy α>0.",
+    "source_local_ids": [
+      "RT024"
+    ],
+    "unproved_interface": "A127 is not shown to have the increasing-labelled d-ary or GPORT law or an additive toll; the article states the GPORT theorem but details only the d-ary proof. It does not prove a fixed circular leaf-pair limit.",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_activity_weighted_urn_spectral_CLT",
+    "needed_lemma": "First construct the exact finite-type urn/branching state and verify A1-A6, finite second moments, simple positive dominant eigenvalue, dominating initial state/class, extinction conditioning, and the applicable strict/critical/supercritical spectral regime; keep lifetime rate a_i and zero-rate types inactive.",
+    "source_local_ids": [
+      "RT035"
+    ],
+    "unproved_interface": "No finite-type replacement state for the fixed circular gap statistic is supplied. A generic urn embedding or its spectral CLT cannot be transferred to A127 without a law-preserving construction and output identity.",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "primary_beta_splitting_definition_and_model_comparison",
+    "source_local_ids": [
+      "RT007"
+    ],
+    "reusable_interface": "The finite-clade split kernel q_n(i), uniform conditional label-subset choice, beta parameter family, and root-split/prespecified-leaf branch-size limits provide a source-grounded model comparator.",
+    "unproved_target_interface": "Must show the W22/CTCS finite-n split kernel and leaf-order/edge-length conventions exactly match the source's beta value. The chapter does not condition a two-leaf law on deterministic circular gap and does not prove the A127 fixed-gap joint law.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage1_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_metric_tree_limit_criteria",
+    "source_local_ids": [
+      "RT037"
+    ],
+    "reusable_interface": "Given the correctly chosen measured-tree sampling law and scaling, use pair-distance convergence to characterize the constant-twig long-dendron limit; for logarithmic trees, establish a random-vertex depth constant and negligible LCA depth before applying Theorem 12.2.",
+    "unproved_target_interface": "The source does not identify CTCS leaves with uniform random vertices/balls in its GW, split-tree or CMJ models, and contains no fixed circular-separation pair theorem, covariance or beta-specific limit. This is proof architecture only until a target representation is shown.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage1_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  },
+  {
+    "problem_id": "A127",
+    "tool": "probability-random-recursive-trees-asymptotics",
+    "role": "auxiliary_finite_state_recursive_function_limit",
+    "source_local_ids": [
+      "RT042"
+    ],
+    "reusable_interface": "If an observable is a finite-state recursive function on a critical finite-variance conditioned GW tree, prove that the common-noise spine chain is coalescent; then Theorem 1 identifies the stationary Kesten-spine law and Theorem 2 yields root-state convergence.",
+    "unproved_target_interface": "The CTCS beta-splitting model is not shown to be a critical offspring-iid conditioned GW tree; its ordered leaf pair and deterministic cyclic gap are not represented by the finite-state root update. Theorem 2 cannot prove A127 without these missing interfaces.",
+    "review_status": "confirmed_for_exact_source_scope",
+    "helper_stage1_review_status": "passed",
+    "historical_review_status_before_R02_W22_mirror30": "pending_mother_review",
+    "source_binding_status": "accepted_by_R02_W22-mirror30",
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "mapping_scope_status": "Source acceptance does not certify target transfer; preserve the existing unproved-interface/model gates. Final closure pending.",
+    "A127_fixed_circular_gap_proved": false
+  }
+]

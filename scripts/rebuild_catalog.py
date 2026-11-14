@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""Refresh discovery indexes and checksums after deliberate skill edits."""
+from collections import Counter
+import json
+from pathlib import Path
+import re
+import yaml
+from skill_common import digest, write_json
+
+ROOT = Path(__file__).resolve().parents[1]
+ALIASES = {'mathematica-research':'mathematica-math',
+           'literature-download':'literature-search-download',
+           'pdf-paper-translate':'academic-paper-translator'}
+LABELS = {'orchestration':'研究总入口','tools':'计算与绘图工具','methods':'数学方法（A–N）',
+          'probability':'概率研究专题','literature':'文献检索与获取','writing':'论文写作、翻译与表达',
+          'modeling':'数学建模竞赛','collaboration':'指定模型咨询'}
+FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交换','c':'锥规划、SOS 与全局优化',
+            'd':'输运、熵与自由能','e':'占用测度、Bellman 与停止','f':'Fourier、谱与平方函数',
+            'g':'Carleson 与树结构','h':'中偏差与指数倾斜','i':'滤过、补偿与随机占用',
+            'j':'非齐次跳跃过程','k':'随机场极值与集中','l':'计算搜索与严格证书',
+            'm':'凸性、极点与选择','n':'凸几何、振荡与误差'}
+
+
+def category(name):
+    if name == 'math-research': return 'orchestration'
+    if re.match(r'math-[a-n]\d\d-',name): return 'methods'
+    if name.startswith('probability-'): return 'probability'
+    if name.startswith('math-modeling-'): return 'modeling'
+    if name in {'python-math','mathematica-math','mathematica-research','matlab-plotting'}: return 'tools'
+    if name in {'academic-literature-search','cnki-search','literature-download','literature-search-download'}: return 'literature'
+    if name == 'astra-delegate': return 'collaboration'
+    return 'writing'
+
+
+def frontmatter(path):
+    text = path.read_text(encoding='utf-8')
+    match = re.match(r'^---\n(.*?)\n---(?:\n|$)',text,re.S)
+    if not match: raise ValueError('missing frontmatter: '+str(path))
+    data = yaml.safe_load(match.group(1))
+    if not isinstance(data,dict): raise ValueError('invalid frontmatter: '+str(path))
+    return data,text[match.end():]
+
+
+def main():
+    skills = []
+    for entry in sorted((ROOT/'skills').glob('*/SKILL.md')):
+        data,body = frontmatter(entry)
+        name = data['name']
+        if name != entry.parent.name: raise ValueError('name mismatch: '+str(entry))
+        heading = re.search(r'^# (.+)$',body,re.M)
+        item = {'name':name,'title':heading.group(1) if heading else name,
+                'description':data['description'].strip(),'category':category(name),
+                'path':str(entry.relative_to(ROOT))}
+        if item['category']=='methods': item['family']=name[5]
+        if name in ALIASES: item['alias_for']=ALIASES[name]
+        skills.append(item)
+    counts = dict(Counter(s['category'] for s in skills))
+    write_json(ROOT/'catalog/skills.json',{'schema_version':1,'entry_skill':'math-research',
+               'categories':LABELS,'counts':counts,'skills':skills})
+    index = ['# 数学研究技能目录','',f'共 {len(skills)} 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。','']
+    for key,label in LABELS.items():
+        index += ['## '+label,'','| 技能 | 用途 |','| --- | --- |']
+        for item in skills:
+            if item['category']!=key: continue
+            alias = '（兼容 → '+item['alias_for']+'）' if item.get('alias_for') else ''
+            index.append(f'| [{item["name"]}](../{item["path"]}){alias} | {item["description"].replace("|"," / ")} |')
+        index.append('')
+    (ROOT/'catalog/README.md').write_text('\n'.join(index))
+    for kind,filename,title in [('methods','math-methods.md','数学方法索引'),('probability','probability.md','概率研究专题索引')]:
+        lines=['# '+title,'','先检索当前问题的对象与方法，只读取相关技能。以下描述用于选路，具体定理与假设以技能及原文为准。','']
+        previous = None
+        for item in skills:
+            if item['category']!=kind: continue
+            family = item.get('family')
+            if family and family != previous:
+                lines += ['## '+family.upper()+' · '+FAMILIES[family],'']; previous=family
+            lines += [f'- [{item["name"]}](../../{item["name"]}/SKILL.md)：{item["description"]}']
+        (ROOT/'skills/math-research/references'/filename).write_text('\n'.join(lines)+'\n')
+    files = [{'path':str(p.relative_to(ROOT)),'sha256':digest(p),'bytes':p.stat().st_size,
+              'mode':0o755 if p.stat().st_mode & 0o111 else 0o644}
+             for p in sorted((ROOT/'skills').rglob('*')) if p.is_file()]
+    write_json(ROOT/'catalog/skill-files.json',{'schema_version':1,'files':files})
+    print(json.dumps({'skills':len(skills),'files':len(files),'counts':counts},ensure_ascii=False))
+
+
+if __name__=='__main__': main()

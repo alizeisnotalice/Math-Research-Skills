@@ -1,0 +1,1858 @@
+{
+  "reader": "W13",
+  "review_status": "W13 source review_status fields remain pending; L09 batch1 reading evidence passed R07; L09 batches 2–3 await independent R07 review.",
+  "coverage_basis": "physical PDF pages; all ranges inclusive; for acquired books, each chapter/component range is identified separately and unread components are explicitly marked",
+  "sources": [
+    {
+      "source_local_id": "M0034",
+      "sha256": "0bd4d075e6ce60eed8d6ee4332286b28a2109f7d5915de75426bdc070ac8f178",
+      "read_pages": "1-10",
+      "reader": "W13",
+      "reader_batch": "evidence/W13/reader_batches/D01_batch4",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Title/abstract and §1 introduction",
+          "physical_pdf_pages": "1",
+          "scope": "Theorem A/B statements, IID stopping objective, and paper roadmap."
+        },
+        {
+          "unit": "§2 preliminaries and dilation lemmas",
+          "physical_pdf_pages": "2-3",
+          "scope": "Stopping DP and optimal threshold rule; dilation/convex-order reduction to simple finite-support laws."
+        },
+        {
+          "unit": "§3 multiplicative comparison and recurrence",
+          "physical_pdf_pages": "4-5",
+          "scope": "Definition of the sharp factor; recurrence and unique-root characterization for alpha_n."
+        },
+        {
+          "unit": "§4 Theorem A proof and sharpness",
+          "physical_pdf_pages": "6-7",
+          "scope": "Finite-dimensional extremal reduction, interior maximum, and finite-support near-extremizers."
+        },
+        {
+          "unit": "§5 Theorem B; proof and final remarks",
+          "physical_pdf_pages": "8-10",
+          "scope": "Bounded additive comparison, beta_n recurrence/root, extremizers, and explicitly unproved monotonicity/limit beliefs."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0036",
+      "sha256": "eb8d27610e65b2183a235fd8c7bfe7247900ac44fd6b5c7ea1ab7c3b5598b691",
+      "read_pages": "1-27",
+      "coverage": [
+        {
+          "unit": "§1 Introduction, §§1.1-1.4",
+          "physical_pdf_pages": "1-4",
+          "scope": "Problem, stopping background, model definitions, and contributions; distinguishes random-order heterogeneous from IID adaptive models."
+        },
+        {
+          "unit": "§2 The Bernoulli Selection Lemma and §2.1 Tightness",
+          "physical_pdf_pages": "5-8",
+          "scope": "Proves the rounding lemma for the nonadaptive 1-1/e guarantee and gives the tight IID example."
+        },
+        {
+          "unit": "§3 Nonadaptive Threshold Rule and §3.1 Tight Instance",
+          "physical_pdf_pages": "8-10",
+          "scope": "Maps threshold rules to Bernoulli selection and proves the heterogeneous independent random-permutation theorem and its tightness."
+        },
+        {
+          "unit": "§4 Adaptive Threshold Rule",
+          "physical_pdf_pages": "10-14",
+          "scope": "Derives the quantile recursion, equalization of interval weights, and ODE comparison yielding the finite-n IID one-slot constant; atom ties are randomized then derandomized."
+        },
+        {
+          "unit": "§5 Application to Posted Price Mechanisms",
+          "physical_pdf_pages": "14-16",
+          "scope": "Transfers threshold results to posted-price revenue under the stated virtual-value and ironing conditions."
+        },
+        {
+          "unit": "§6 Concluding Remarks",
+          "physical_pdf_pages": "17",
+          "scope": "Summarizes conclusions and separates the posted-price application from the stopping results."
+        },
+        {
+          "unit": "Appendix A: Proofs and propositions for §2",
+          "physical_pdf_pages": "17-22",
+          "scope": "Supplies the technical Bernoulli-selection and threshold lemmas used by the main arguments."
+        },
+        {
+          "unit": "Appendix B: Proof of the optimal nonadaptive threshold rule",
+          "physical_pdf_pages": "23",
+          "scope": "Completes the proof of the nonadaptive result by bounding the zero-, one-, and multiple-qualifier cases."
+        },
+        {
+          "unit": "Appendix C: Alternative proof of the Bernoulli Selection Lemma",
+          "physical_pdf_pages": "23-24",
+          "scope": "Gives an independent random-subset proof of the selection lemma."
+        },
+        {
+          "unit": "Appendix D: Proofs and proposition for §4",
+          "physical_pdf_pages": "24-25",
+          "scope": "Proves the adaptive quantile-recursion and ODE comparison statements."
+        },
+        {
+          "unit": "References and notes",
+          "physical_pdf_pages": "25-27",
+          "scope": "Bibliography and end matter read; no additional theorem claims used."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0037",
+      "sha256": "c85b3d02ba8c0e29aad96e6c5c127536a8943eb5a23ac949f1f0dfe01161b0f7",
+      "read_pages": "1-59",
+      "coverage": [
+        {
+          "unit": "§1 Introduction, §§1.1-1.3",
+          "physical_pdf_pages": "1-8",
+          "scope": "Sets out models, ratio definitions, exact finite-n LP characterization, contributions, and limits/open questions."
+        },
+        {
+          "unit": "§2 Problem Classes and General Framework, §§2.1-2.2",
+          "physical_pdf_pages": "8-18",
+          "scope": "Derives the static-threshold minimax framework and LP dual formulations for policy/comparator pairs."
+        },
+        {
+          "unit": "§3 Non-IID Setting, §§3.1-3.3",
+          "physical_pdf_pages": "18-23",
+          "scope": "Compares DP/ex-ante and oblivious/non-oblivious static thresholds for non-IID instances."
+        },
+        {
+          "unit": "§4 IID Setting, §§4.1-4.4",
+          "physical_pdf_pages": "23-32",
+          "scope": "Reduces IID ratios, proves the k=1 recurrence/ODE limit theorem, and gives numerical procedures for general k without claiming the open equality."
+        },
+        {
+          "unit": "§5 Concluding Remarks",
+          "physical_pdf_pages": "32-35",
+          "scope": "States the remaining general-k infimum/limit question and summarizes sequential-assignment implications."
+        },
+        {
+          "unit": "Appendix A: Extension to continuous distributions",
+          "physical_pdf_pages": "36-37",
+          "scope": "Lifts the quantile LP arguments under the stated continuous-distribution and duality conditions."
+        },
+        {
+          "unit": "Appendix B: Table 2",
+          "physical_pdf_pages": "37",
+          "scope": "Lists the finite-n numerical LP comparisons; these remain computational evidence."
+        },
+        {
+          "unit": "Appendix C: Missing proofs for §2",
+          "physical_pdf_pages": "37-41",
+          "scope": "Provides omitted minimax, LP-equivalence, and general-framework proofs."
+        },
+        {
+          "unit": "Appendix D: Missing proofs for §3",
+          "physical_pdf_pages": "42-50",
+          "scope": "Completes non-IID static-threshold and policy-class comparison arguments."
+        },
+        {
+          "unit": "Appendix E: Missing proofs for §4",
+          "physical_pdf_pages": "51-59",
+          "scope": "Completes the IID LP, recurrence, ODE, and k=1 limiting-ratio proof."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0038",
+      "sha256": "2f16fa163ba67d72e9c5cdf7bcea8b436698e290c60ae6b8c749348a9512dd68",
+      "read_pages": "1-39",
+      "coverage": [
+        {
+          "unit": "Title page and abstract",
+          "physical_pdf_pages": "1",
+          "scope": "Read title/version and complete abstract stating the i.i.d. k-selection model, finite-n LP characterization, nonlinear-system lower bound, and n-limit scope."
+        },
+        {
+          "unit": "§1 Introduction, §§1.1-1.2",
+          "physical_pdf_pages": "2-5",
+          "scope": "Defines the multi-unit IID prophet model, states the quantile LP and ODE lower bound, and situates the contribution."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "5-6",
+          "scope": "Introduces stochastic-probing, quantile, and online-assignment notation used in the LP proof."
+        },
+        {
+          "unit": "§3 Infinite-dimensional formulation",
+          "physical_pdf_pages": "6-8",
+          "scope": "Formulates the exact finite-n worst-case ratio as a quantile-space LP and proves its connection to the original minimax ratio."
+        },
+        {
+          "unit": "§4 Lower bound, §§4.1-4.4",
+          "physical_pdf_pages": "8-26",
+          "scope": "Constructs the weak dual and ODE-based feasible dual solution, with truncation and explicit finite-n loss 24k(log n)^2/n."
+        },
+        {
+          "unit": "§5 Tight prophet inequality for sequential assignment",
+          "physical_pdf_pages": "26-27",
+          "scope": "Transfers the proved per-capacity lower bounds to the stated sequential-assignment model."
+        },
+        {
+          "unit": "§6 Final Remarks",
+          "physical_pdf_pages": "27-28",
+          "scope": "Records the conjectured tight constant and explicitly leaves the all-n infimum/limit equality open."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "29-31",
+          "scope": "Bibliography read; no additional theorem claims used."
+        },
+        {
+          "unit": "Appendix A: Missing proof from §3",
+          "physical_pdf_pages": "32",
+          "scope": "Completes the quantile-LP equivalence proof."
+        },
+        {
+          "unit": "Appendix B: Missing proofs from §4",
+          "physical_pdf_pages": "32-38",
+          "scope": "Gives technical dual-feasibility and truncation-error proofs for the ODE lower bound."
+        },
+        {
+          "unit": "Appendix C: Numerical upper bounds for small k",
+          "physical_pdf_pages": "38-39",
+          "scope": "Reports finite LP computations with discretization controls; numerical values do not prove the general-k equality."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0041",
+      "sha256": "8a00346086b977c8ff211b9c3c406147078fb8e464471fa23b4be5eb97836ad9",
+      "read_pages": "1-6",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch3",
+      "page_numbering_note": "All listed ranges are physical PDF pages; any printed-page convention is stated in the source card.",
+      "coverage": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1",
+          "scope": "Motivates exact LP answers and states simplex-based rational-output approach; scopes experiments to benchmark LP, TSP subtour relaxation, and small MIP."
+        },
+        {
+          "unit": "§2 A first approach",
+          "physical_pdf_pages": "1–3",
+          "scope": "All-rational QSopt/GMP baseline and its benchmark runtime/encoding limitations."
+        },
+        {
+          "unit": "§3 Using floating-point arithmetic; Algorithm 1",
+          "physical_pdf_pages": "3",
+          "scope": "Float simplex proposes basis; exact rational tests decide acceptance; precision escalation reuses basis after failure."
+        },
+        {
+          "unit": "§4 Computational experience, §§4.1–4.4",
+          "physical_pdf_pages": "3–6",
+          "scope": "Benchmark LP, orthogonal-array bounds, exact TSP subtour cutting-plane, and small MIP computational results; empirical rather than a complexity theorem."
+        },
+        {
+          "unit": "§5 Acknowledgments and References",
+          "physical_pdf_pages": "6",
+          "scope": "Closing and bibliography; confirms the article endpoint."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch3/rendered/M0041-p3.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.py and evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.out.json"
+    },
+    {
+      "source_local_id": "M0042",
+      "sha256": "198536c337b7b561c01b9ddae6b15bc051cb03d779ae0df7d5e0f2f7aff361c6",
+      "read_pages": "1-33",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch3",
+      "page_numbering_note": "All listed ranges are physical PDF pages; any printed-page convention is stated in the source card.",
+      "coverage": [
+        {
+          "unit": "Title, author and abstract",
+          "physical_pdf_pages": "1",
+          "scope": "Identifies the semi-infinite programming, duality, discretization and optimality-condition topics and summarizes the paper's contributions."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "2–4",
+          "scope": "Defines the semi-infinite program, convexity conventions, perturbation value, directional derivatives, and notation."
+        },
+        {
+          "unit": "§2 Duality",
+          "physical_pdf_pages": "4–8",
+          "scope": "Embeds constraints in R^Ω or C(Ω), identifies measure duals under compactness/continuity, derives value-function and Slater duality criteria."
+        },
+        {
+          "unit": "§3 Discretization",
+          "physical_pdf_pages": "8–11",
+          "scope": "Defines finite restriction; proves strong-duality/discretizability links and finite reduction using Levin/Helly under explicit hypotheses."
+        },
+        {
+          "unit": "§4 First order optimality conditions, §§4.1–4.2",
+          "physical_pdf_pages": "11–18",
+          "scope": "Saddle/KKT conditions, active-index multipliers and finite support, MFCQ/Slater connections, tangent cones and first-order growth."
+        },
+        {
+          "unit": "§5 Second order optimality conditions, §§5.1–5.2",
+          "physical_pdf_pages": "18–28",
+          "scope": "Builds the critical cone and second-order tangent curvature term; proves necessary and sufficient conditions, with no-gap conditions requiring extra regularity."
+        },
+        {
+          "unit": "§6 Rates of convergence of solutions of discretized problems",
+          "physical_pdf_pages": "28–31",
+          "scope": "Bounds feasible-set discretization error and converts it via p-growth and near-optimality into mesh-rate distance bounds; interior maximizers improve the rate."
+        },
+        {
+          "unit": "Acknowledgement and References",
+          "physical_pdf_pages": "31–33",
+          "scope": "Closing acknowledgement and all references; physical p.33 ends the manuscript."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/terminal_audit/rendered/M0042-p01.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.py and evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.out.json"
+    },
+    {
+      "source_local_id": "M0046",
+      "sha256": "31f8a0ec4abc9bd8f6feb537cfd043c82fe233f85ee3127e91827b6b6f3f24a4",
+      "read_pages": "1-17",
+      "reader": "W13",
+      "reader_batch": "evidence/W13/reader_batches/D01_batch4",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Title/abstract and introduction",
+          "physical_pdf_pages": "1-2",
+          "scope": "Survey scope and classical prophet-versus-stopping comparison."
+        },
+        {
+          "unit": "§§1–3: classical, IID, order and multiple-choice results",
+          "physical_pdf_pages": "3-6",
+          "scope": "Classical bounds, IID refinements with citations, ordered and multi-choice model distinctions."
+        },
+        {
+          "unit": "§4 proof methods and applications",
+          "physical_pdf_pages": "7-12",
+          "scope": "Backward induction, dilation, conditioning, optimization, conjugacy, DP verification, algebra and moments."
+        },
+        {
+          "unit": "§5 historical open questions",
+          "physical_pdf_pages": "13-14",
+          "scope": "Five questions recorded as open in 1992; no claim about their present status."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": "15-17",
+          "scope": "Bibliographic context for the survey’s cited primary results."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0047",
+      "sha256": "a33b39886e4009de3df10df78aa3ea098e14cd538ac7c5245418f10074dcf78f",
+      "read_pages": "1-8",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch3",
+      "page_numbering_note": "All listed ranges are physical PDF pages; any printed-page convention is stated in the source card.",
+      "coverage": [
+        {
+          "unit": "§1 Introduction and summary",
+          "physical_pdf_pages": "1–3",
+          "scope": "Contrasts prophet and no-recall statistician values and introduces independent noisy observation pairs."
+        },
+        {
+          "unit": "§2 Main results and proof",
+          "physical_pdf_pages": "3–7",
+          "scope": "Defines W_i=E[X_i|Z_i], proves prophet and stopping value identities, transfers inequalities, and derives sharp ratio/difference corollaries and remarks."
+        },
+        {
+          "unit": "References and author information",
+          "physical_pdf_pages": "8",
+          "scope": "Bibliography and author affiliations; final physical page."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch3/rendered/M0047-p6.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.py and evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.out.json"
+    },
+    {
+      "source_local_id": "M0048",
+      "sha256": "9e9a59f133a91aa06c8151ba31d3d553f9c0a099f8c7c79b504b5725a4592e97",
+      "read_pages": "1-8",
+      "reader": "W13",
+      "reader_batch": "evidence/W13/reader_batches/D01_batch4",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Abstract and §1 introduction",
+          "physical_pdf_pages": "1-3",
+          "scope": "Independent-value no-recall mortal model, k choices, and main ratio result."
+        },
+        {
+          "unit": "§2 threshold rule and preliminary lemmas",
+          "physical_pdf_pages": "3-4",
+          "scope": "Randomized threshold stopping times, exact atom tie handling, payoff/excess decomposition."
+        },
+        {
+          "unit": "§3 main result and proof",
+          "physical_pdf_pages": "5-7",
+          "scope": "Exact j/(k+1) percentile conditions, Theorem 3.1 with k/(k+1) reward ratio, proof by conditioning and tail excess."
+        },
+        {
+          "unit": "Corollaries, remarks, references",
+          "physical_pdf_pages": "7-8",
+          "scope": "Infinite-horizon extension conditions, two-choice limitation remark, negative lower-orthant dependence discussion, references."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/terminal_audit/rendered/M0048-p08.png"
+      ]
+    },
+    {
+      "source_local_id": "M0049",
+      "sha256": "64d5a6daf051e8db5650328d9577e90605e8eaa6d70174d1f1fca5c4f7e93a1c",
+      "read_pages": "1-18",
+      "reader": "W13",
+      "reader_batch": "evidence/W13/reader_batches/D01_batch4",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Abstract and §1 introduction",
+          "physical_pdf_pages": "1-3",
+          "scope": "Matroid prophet theorem, intersection result, applications, contribution context."
+        },
+        {
+          "unit": "§2 model and preliminaries",
+          "physical_pdf_pages": "4-5",
+          "scope": "Independent nonnegative known weights; fixed order and online weight-adaptive adversary; matroid rank/closure/bases."
+        },
+        {
+          "unit": "Single-matroid algorithm and balanced-threshold proposition",
+          "physical_pdf_pages": "6-8",
+          "scope": "Phase-2 copy, threshold construction, alpha-balanced definition and Proposition 1 proof chain."
+        },
+        {
+          "unit": "Matroid intersection and lower bounds",
+          "physical_pdf_pages": "9-11",
+          "scope": "Propositions for p matroids, alpha-parametrized factor, simple alpha=2p guarantee, tightness order."
+        },
+        {
+          "unit": "§6 mechanism applications",
+          "physical_pdf_pages": "12-15",
+          "scope": "BMUMD and posted-price/revenue corollaries under their additional mechanism assumptions."
+        },
+        {
+          "unit": "Appendix and references",
+          "physical_pdf_pages": "16-18",
+          "scope": "Supplemental derivations and closing proof/reference material; complete v1 terminal pages."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0050",
+      "sha256": "855b7b7fd44b15d2f9aa5572a6869ed3045371bb35589c62db12790ea542fded",
+      "read_pages": "1-32",
+      "reader": "W13",
+      "reader_batch": "evidence/W13/reader_batches/D01_batch4",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Abstract and §1.1–1.3 introduction",
+          "physical_pdf_pages": "1-4",
+          "scope": "Single-sample model, value-aware adversarial ordering, guarantees and three proof techniques."
+        },
+        {
+          "unit": "§2 preliminaries and §3 secretary reduction",
+          "physical_pdf_pages": "5-7",
+          "scope": "Environment/online-selection definitions; Theorem 1 order-oblivious secretary-to-prophet reduction; start of k-uniform method."
+        },
+        {
+          "unit": "§4 k-uniform Rehearsal algorithm",
+          "physical_pdf_pages": "8-9",
+          "scope": "Algorithm and Theorem 2; paired sample/value correlated-walk argument."
+        },
+        {
+          "unit": "§5 matroid and matching applications",
+          "physical_pdf_pages": "10-15",
+          "scope": "Single-sample matroid reductions and setup of constant-degree bipartite matching prices."
+        },
+        {
+          "unit": "Appendix A and Appendix D matching proof",
+          "physical_pdf_pages": "16-18",
+          "scope": "Full matching proof, edge-specific thresholds and contention bounds underlying 4/27."
+        },
+        {
+          "unit": "§6 limited-information mechanism design",
+          "physical_pdf_pages": "19-21",
+          "scope": "Regular/MHR revenue and welfare results with their separate assumptions."
+        },
+        {
+          "unit": "Appendix B and model extensions",
+          "physical_pdf_pages": "22-24",
+          "scope": "Proofs and reserve-price/posted-price constructions."
+        },
+        {
+          "unit": "Appendices C, E and remaining technical proofs",
+          "physical_pdf_pages": "25-32",
+          "scope": "Correlated-walk concentration proof, additional mechanism arguments, references and final theorem proof."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0051",
+      "sha256": "15311c9faf443bac56611570af8096d3b8bd261248fe6ac819a4e028e11b37c4",
+      "read_pages": "1-34",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch3",
+      "page_numbering_note": "All listed ranges are physical PDF pages; any printed-page convention is stated in the source card.",
+      "coverage": [
+        {
+          "unit": "§1 Introduction and §1.1 Related Work",
+          "physical_pdf_pages": "1–3",
+          "scope": "States market-expansion goal, model, prior results, and target approximation framework."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "3–6",
+          "scope": "Defines auction objective/constraints, benchmark program, and notation used in the reductions."
+        },
+        {
+          "unit": "§3 Decomposition via Ex ante Allocation Rule",
+          "physical_pdf_pages": "6–8",
+          "scope": "Relates multi-buyer optimum to a convex ex-ante allocation benchmark and introduces pre-/post-rounding."
+        },
+        {
+          "unit": "§4 The Magician’s Problem",
+          "physical_pdf_pages": "8–11",
+          "scope": "Defines adaptive CDF thresholds, exact recursion, explicit wand-capacity theorem, and impossibility bound."
+        },
+        {
+          "unit": "§5 Generic Multi Buyer Mechanisms, §§5.1–5.2",
+          "physical_pdf_pages": "11–14",
+          "scope": "Defines pre-rounding and post-rounding, states Theorems 7–8, and spells out their separate cost-sharing, exact-allocation, objective, feasibility, and truthfulness assumptions."
+        },
+        {
+          "unit": "§6 Single Buyer Mechanisms, §§6.1–6.4",
+          "physical_pdf_pages": "14–24",
+          "scope": "Constructs benchmark and single-buyer mechanisms for unit-demand, additive, budget-constrained, correlated, and matroid-constrained environments."
+        },
+        {
+          "unit": "§7 Analysis of γ-Conservative Magician",
+          "physical_pdf_pages": "24–28",
+          "scope": "Proves the threshold/capacity theorem via barrier/random-walk arguments and proves the magician lower-bound obstruction."
+        },
+        {
+          "unit": "§8 Multi Unit Demands; §9 Conclusion; §10 Acknowledgment; References",
+          "physical_pdf_pages": "28–30",
+          "scope": "Extends a setting to multi-unit demands, closes the paper, and lists references."
+        },
+        {
+          "unit": "Appendix A Missing Proofs",
+          "physical_pdf_pages": "30–34",
+          "scope": "Supplies omitted proofs for magician and mechanism theorems, concavity and single-buyer claims, and LP details; physical p.34 is the final page."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch3/rendered/M0051-p10.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.py and evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.out.json"
+    },
+    {
+      "source_local_id": "M0060",
+      "sha256": "9138080d52517d945006ee2941e9f77d09a7c37a79fc37fcf9b393e298891119",
+      "read_pages": "1-66",
+      "coverage": [
+        {
+          "unit": "§1 Introduction, §§1.1-1.3",
+          "physical_pdf_pages": "1-6",
+          "scope": "Scopes the multi-unit prophet/OCRS/knapsack models and states results and proof roadmap."
+        },
+        {
+          "unit": "§2 Problem formulations and OCRS techniques, §§2.1-2.5",
+          "physical_pdf_pages": "6-14",
+          "scope": "Defines online assignment, reduces to single-resource OCRS, and develops k-unit and knapsack techniques."
+        },
+        {
+          "unit": "§3 k-unit OCRS, §§3.1-3.3",
+          "physical_pdf_pages": "15-21",
+          "scope": "Sets the LP and dual, constructs an optimal policy for fixed activation probabilities, and derives the Poisson/ODE worst-case characterization."
+        },
+        {
+          "unit": "§4 Knapsack setting, §§4.1-4.2",
+          "physical_pdf_pages": "22-24",
+          "scope": "Proves the size-aware threshold policy guarantee and matching tightness for the stated knapsack OCRS model."
+        },
+        {
+          "unit": "§5 Extensions, §§5.1-5.2",
+          "physical_pdf_pages": "25-31",
+          "scope": "Handles polynomial-time size discretization and unit-density scheduling, proving a 0.3557 LP-relative construction and a 0.4323 upper bound with an open gap."
+        },
+        {
+          "unit": "§6 Concluding Remarks and references",
+          "physical_pdf_pages": "31-35",
+          "scope": "Summarizes model-specific results and provides the bibliography."
+        },
+        {
+          "unit": "Appendix A: Final algorithms",
+          "physical_pdf_pages": "36-37",
+          "scope": "Collects the policy pseudocode and definitions used in the main proofs."
+        },
+        {
+          "unit": "Appendix B: Proofs in §3, §§B.1-B.8",
+          "physical_pdf_pages": "38-58",
+          "scope": "Completes LP optimality, splitting, finite-k upper bound, and Euler-to-ODE convergence proofs."
+        },
+        {
+          "unit": "Appendix C: Proofs in §4, §§C.1-C.3",
+          "physical_pdf_pages": "59-61",
+          "scope": "Proves the knapsack proposition and both guarantee/tightness theorems."
+        },
+        {
+          "unit": "Appendix D: Proofs in §5, §§D.1-D.4",
+          "physical_pdf_pages": "62-66",
+          "scope": "Supplies the unit-density invariant, schedule construction, and upper-bound instance proof."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0062",
+      "sha256": "d0980da884d5edb50385e5b4529f5ed4dffc0fa4ad448a5719593dde8bbda5cb",
+      "read_pages": "1-46",
+      "coverage": [
+        {
+          "unit": "Title page and abstract",
+          "physical_pdf_pages": "1",
+          "scope": "Read title/authors/version and complete summary of the prophet-secretary model, static threshold guarantees, gamma_k expression, and k-regime distinctions."
+        },
+        {
+          "unit": "§1 Introduction, §§1.1-1.5",
+          "physical_pdf_pages": "2-9",
+          "scope": "Defines static thresholds, gives ceiling/lower-bound results, expected-demand analysis, Bernoulli optimization theorem, and roadmap."
+        },
+        {
+          "unit": "§2 Literature Review, §§2.1-2.2",
+          "physical_pdf_pages": "9-15",
+          "scope": "Compares secretary/prophet policies and isolates differences in arrival, information, and benchmark models."
+        },
+        {
+          "unit": "§3 Proof of Theorem 2, §§3.1-3.3",
+          "physical_pdf_pages": "15-18",
+          "scope": "Proves the utilization-calibrated threshold guarantee using risk decomposition, Bernoulli extremality, and the Poisson limit."
+        },
+        {
+          "unit": "§4 Proof of Theorem 3",
+          "physical_pdf_pages": "19-20",
+          "scope": "Proves the separate expected-demand calibration guarantee."
+        },
+        {
+          "unit": "§5 Discussion, §§5.1-5.2",
+          "physical_pdf_pages": "20-28",
+          "scope": "Studies robustness and other calibrations; states stockout-probability calibration as a conjecture for k>1."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "27-28",
+          "scope": "Bibliography read; no additional theorem claims used."
+        },
+        {
+          "unit": "Appendix A: Proof of Theorem 1",
+          "physical_pdf_pages": "29-31",
+          "scope": "Constructs asymptotic instances proving the static-policy upper ceiling."
+        },
+        {
+          "unit": "Appendix B: Proofs for Theorem 2, §§B.1-B.3",
+          "physical_pdf_pages": "32-38",
+          "scope": "Proves risk lower bounds, symmetric Bernoulli optimizer structure, and the capacity-k Poisson identity."
+        },
+        {
+          "unit": "Appendix C: Proofs for Theorems 3 and 4, §§C.1-C.3",
+          "physical_pdf_pages": "39-43",
+          "scope": "Proves expected-demand and general Bernoulli optimization statements."
+        },
+        {
+          "unit": "Appendix D: Proofs of Propositions 1 and 2",
+          "physical_pdf_pages": "44-46",
+          "scope": "Completes negative results for expected-demand calibration and treats its IID exception; does not resolve the stockout conjecture."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/terminal_audit/rendered/M0062-p05.png",
+        "evidence/W13/reader_batches/terminal_audit/rendered/M0062-p08.png"
+      ]
+    },
+    {
+      "source_local_id": "M0073",
+      "sha256": "d4c0c58ed653e69069068673f119cfe309b8eb7acb38bcf9526ba4d539cf3434",
+      "read_pages": "1-8,24-36",
+      "coverage": [
+        {
+          "unit": "Chapter 1, Stopping Rule Problems (complete selected chapter; printed pp.1.1–1.8)",
+          "physical_pdf_pages": "1-8",
+          "scope": "Read chapter on stopping-rule measurability, adapted/nonanticipating decisions, filtrations, and auxiliary randomization."
+        },
+        {
+          "unit": "Chapter 2, Finite Horizon Problems",
+          "physical_pdf_pages": "9-23",
+          "scope": "Acquired as part of the full book; not read by W13."
+        },
+        {
+          "unit": "Chapter 3, The Existence of Optimal Stopping Rules (complete selected chapter; printed pp.3.1–3.13)",
+          "physical_pdf_pages": "24-36",
+          "scope": "Read A1/A2 existence proof, essential-supremum construction, Bellman recursion and threshold rule, Wald equation, and finite-horizon one-choice prophet inequality."
+        },
+        {
+          "unit": "Chapters 4–7",
+          "physical_pdf_pages": "37-108",
+          "scope": "Acquired as part of the full book; not read by W13."
+        },
+        {
+          "unit": "Solutions to the Exercises",
+          "physical_pdf_pages": "109-142",
+          "scope": "Acquired as part of the complete collection; not read by W13."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "143-149",
+          "scope": "Acquired as part of the complete collection; not read by W13."
+        },
+        {
+          "unit": "Index",
+          "physical_pdf_pages": "150-155",
+          "scope": "Acquired as part of the complete collection; not read by W13."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S001",
+      "sha256": "e6e0452e8145dd49b84d5fbff929dafbb093b6f4e130f839e13f2ab2c8b5279c",
+      "read_pages": "1-16",
+      "coverage": [
+        {
+          "unit": "Abstract, §1 introduction and rank-one example",
+          "physical_pdf_pages": "1-4",
+          "scope": "Read prophet model, definitions, ex-ante relaxation, OCRS/RCRS order conventions, and tight rank-one examples."
+        },
+        {
+          "unit": "§1.2 results/techniques and §1.3 related work",
+          "physical_pdf_pages": "5-6",
+          "scope": "Read main factors, proof overview, and open almighty-adversary question."
+        },
+        {
+          "unit": "§2 OCRS/RCRS LP and dual equivalence",
+          "physical_pdf_pages": "7-8",
+          "scope": "Read the exponential LP over deterministic online algorithms and its ex-ante dual interpretation."
+        },
+        {
+          "unit": "§3.1 notation and ex-ante matroid formulation",
+          "physical_pdf_pages": "8",
+          "scope": "Read matroid notation, residual values, base prices, and auxiliary distribution."
+        },
+        {
+          "unit": "§3.3 adversarial order, Bernoulli reduction and proof",
+          "physical_pdf_pages": "9-10",
+          "scope": "Read Lemma 3.3 and Theorem 3.4 proof using revenue/utility decomposition."
+        },
+        {
+          "unit": "§3.4 random-order matroid proof",
+          "physical_pdf_pages": "11-13",
+          "scope": "Read timestamp process, Theorem 3.8, Claim 3.9, Lemma 3.10, and integration-by-parts argument."
+        },
+        {
+          "unit": "Appendix A.1–A.2",
+          "physical_pdf_pages": "14",
+          "scope": "Read rank-one OCRS/RCRS proofs."
+        },
+        {
+          "unit": "References and notes",
+          "physical_pdf_pages": "15-16",
+          "scope": "Read full bibliography/end matter; no additional theorem claim used."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S002",
+      "sha256": "6a395c9ba96b83509dc184fb61705704ae8b5c2d1bd3468d931ea080a05d8e35",
+      "read_pages": "1-44",
+      "coverage": [
+        {
+          "unit": "Abstract and contents",
+          "physical_pdf_pages": "1-2",
+          "scope": "Checked title/version and article structure."
+        },
+        {
+          "unit": "§1 Introduction and theorem statements",
+          "physical_pdf_pages": "3-5",
+          "scope": "Read dynamic-matching model, homogeneous-departure definition, Theorems 1–2, algorithm outline, and scope discussion."
+        },
+        {
+          "unit": "§1.1 literature review",
+          "physical_pdf_pages": "6-7",
+          "scope": "Read literature/model comparisons and guarantee table."
+        },
+        {
+          "unit": "§2 Model, benchmark and reward process",
+          "physical_pdf_pages": "8-10",
+          "scope": "Read Poisson arrivals, exponential departures, greedy policy, Markovian/omniscient benchmarks and steady-state reward-rate definitions."
+        },
+        {
+          "unit": "§3 LPALG, suitable solutions and greedy-policy construction",
+          "physical_pdf_pages": "11-15",
+          "scope": "Read LP balance/prefix constraints, Algorithm 1 suitability finder, dual priorities, and Lemma 5."
+        },
+        {
+          "unit": "§3 Proposition 1 and its proof",
+          "physical_pdf_pages": "16-18",
+          "scope": "Read the availability-to-policy guarantee and Lemma 6 proof for suitable solutions."
+        },
+        {
+          "unit": "§4.2 omniscient benchmark LP relaxations",
+          "physical_pdf_pages": "19-20",
+          "scope": "Read LP_OMN and relaxed LP_OMN^REL and Proposition 2 upper-bound chain."
+        },
+        {
+          "unit": "§4.3 comparison LP duality and Proposition 3",
+          "physical_pdf_pages": "21-22",
+          "scope": "Read dual feasible construction and factor-two comparison."
+        },
+        {
+          "unit": "§5 numerical experiments",
+          "physical_pdf_pages": "23-24",
+          "scope": "Read the finite simulations; treated as computational evidence only."
+        },
+        {
+          "unit": "§6 Discussion and Conjecture 1",
+          "physical_pdf_pages": "25",
+          "scope": "Read unresolved heterogeneous-departure conjecture."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "26",
+          "scope": "Read bibliography."
+        },
+        {
+          "unit": "Appendix A: basic feasible solutions",
+          "physical_pdf_pages": "27-28",
+          "scope": "Read LP/BFS background used in constructing suitable solutions."
+        },
+        {
+          "unit": "Appendix B.1: proof of Lemma 1",
+          "physical_pdf_pages": "29-31",
+          "scope": "Read stationary-flow and truncated-Poisson availability proof; common-rate condition."
+        },
+        {
+          "unit": "Appendix B.2: proof of Lemma 2",
+          "physical_pdf_pages": "32-33",
+          "scope": "Read supporting stochastic-process bounds."
+        },
+        {
+          "unit": "Appendix B.3: proof of Lemma 3",
+          "physical_pdf_pages": "34-36",
+          "scope": "Read LP structural lemma."
+        },
+        {
+          "unit": "Appendix B.4: proof of Proposition 2",
+          "physical_pdf_pages": "37-39",
+          "scope": "Read omniscient benchmark relaxation proof."
+        },
+        {
+          "unit": "Appendix B.5: proof of Theorem 2",
+          "physical_pdf_pages": "40",
+          "scope": "Read Markovian-policy upper-bound construction."
+        },
+        {
+          "unit": "Appendix C.1–C.3",
+          "physical_pdf_pages": "41-43",
+          "scope": "Read two-type heterogeneous-rate theorem and bipartite-side discussion; verified common-rate limitation for Lemma 1."
+        },
+        {
+          "unit": "References/end matter",
+          "physical_pdf_pages": "44",
+          "scope": "Read final bibliography/end page."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S003",
+      "sha256": "de77d66b70bd4bfb25315440c130593da3859214b0040118945767457197a344",
+      "read_pages": "1-84",
+      "coverage": [
+        {
+          "unit": "Abstract and contents",
+          "physical_pdf_pages": "1-2",
+          "scope": "Read source identity, model overview, and page map."
+        },
+        {
+          "unit": "§1 Introduction, technical overview and related work",
+          "physical_pdf_pages": "3-7",
+          "scope": "Read four main theorems, distinguish fully random/excess/random-requests models, and study hybrid-comparison proof plan."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "8-9",
+          "scope": "Read line-matching notation, cost/ratio definitions, and hierarchical-greedy setup."
+        },
+        {
+          "unit": "§3 Fully random model",
+          "physical_pdf_pages": "10-14",
+          "scope": "Read hybrid lemma application, hierarchical greedy cost estimates, and fixed-constant excess proof."
+        },
+        {
+          "unit": "§4 upper bound in random-requests model and §5 lower-bound overview",
+          "physical_pdf_pages": "15-16",
+          "scope": "Read theorem statement and lower-bound construction overview."
+        },
+        {
+          "unit": "§5 lower bound: instance, analysis and main result",
+          "physical_pdf_pages": "17-22",
+          "scope": "Read adversarial server construction and expected-cost ratio argument for the logarithmic lower bound."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "23-26",
+          "scope": "Read bibliography."
+        },
+        {
+          "unit": "Appendix A extensions",
+          "physical_pdf_pages": "27-29",
+          "scope": "Read metric/distribution extensions and A.4 open sublinear-excess regime."
+        },
+        {
+          "unit": "Appendix B strategyproofness and Appendix C auxiliary lemmas",
+          "physical_pdf_pages": "30-32",
+          "scope": "Read strategyproofness discussion and technical lemmas."
+        },
+        {
+          "unit": "Appendix D hybrid lemma proof",
+          "physical_pdf_pages": "33-43",
+          "scope": "Read complete coupled-server/potential proof of the one-step hybrid comparison."
+        },
+        {
+          "unit": "Appendix E and F missing proofs for §§3–4",
+          "physical_pdf_pages": "44-47",
+          "scope": "Read remaining fully-random and random-requests upper-bound proofs."
+        },
+        {
+          "unit": "Appendix G hierarchical-greedy lower bound",
+          "physical_pdf_pages": "48-49",
+          "scope": "Read comparison showing hierarchical greedy behavior on random requests."
+        },
+        {
+          "unit": "Appendix H logarithmic lower bound",
+          "physical_pdf_pages": "50-62",
+          "scope": "Read preliminary estimates, offline-cost bound, server/request analysis and lower bound on hybrid cost differences."
+        },
+        {
+          "unit": "Appendix I remaining details for Appendix H",
+          "physical_pdf_pages": "63-84",
+          "scope": "Read all remaining lower-bound technical cases and proof details."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S005",
+      "sha256": "e4d1372e2c5b3933f55d36f2bc2bb21a63a85ecb1b7406e6485119aadf2fe782",
+      "read_pages": "1-28",
+      "coverage": [
+        {
+          "unit": "Abstract, §1 introduction and sequential-rounding overview",
+          "physical_pdf_pages": "1-3",
+          "scope": "Read fluid-LP motivation, SRR template, and applications overview."
+        },
+        {
+          "unit": "§2 Online Bayesian Selection",
+          "physical_pdf_pages": "4-10",
+          "scope": "Read fixed-order rationing Theorems 1–2, random-order Theorems 3–4, proofs, and OCRS model/adversary distinctions."
+        },
+        {
+          "unit": "§3 Hiring the Best Candidate",
+          "physical_pdf_pages": "11-14",
+          "scope": "Read LP upper bound, basic-solution rounding, Theorem 5 and negative-correlation/correlation-gap argument."
+        },
+        {
+          "unit": "§3.1 constrained free-order prophets and ProbeTop-k",
+          "physical_pdf_pages": "15-16",
+          "scope": "Read extension and cited related guarantee distinctions."
+        },
+        {
+          "unit": "§4 Sequential Stochastic Knapsack",
+          "physical_pdf_pages": "17-19",
+          "scope": "Read time-indexed LP, upper-bound Lemma 2, Theorem 6 and exact-marginal induction."
+        },
+        {
+          "unit": "§5 Stochastic Matching and applications",
+          "physical_pdf_pages": "20-23",
+          "scope": "Read LP (19), Theorem 7 proof/tight example, and separate IID matching/probing models."
+        },
+        {
+          "unit": "§6 Conclusion",
+          "physical_pdf_pages": "24",
+          "scope": "Read summary and future directions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "25-28",
+          "scope": "Read full bibliography."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S006",
+      "sha256": "c261f8e86fbe5f17f85b3b20715f4d12fc98b42ab8e517f146049e9bffdde279",
+      "read_pages": "1-67",
+      "coverage": [
+        {
+          "unit": "Abstract and introduction",
+          "physical_pdf_pages": "1-10",
+          "scope": "Read NRM/OCA motivation, contribution summary, related work, and distinction between random-element and standard OCRS."
+        },
+        {
+          "unit": "§2 models, fluid LPs and reductions",
+          "physical_pdf_pages": "11-18",
+          "scope": "Read discrete-time/Poisson NRM, OCA, Theorems 2.6–2.9, inactive-oblivious condition, and ε-bounded batch transfer."
+        },
+        {
+          "unit": "§3 random-element OCRS",
+          "physical_pdf_pages": "19-28",
+          "scope": "Read exact-selection Theorem 3.2, affine-plane hardness Theorem 3.4, inclusion-exclusion and standard OCRS Theorem 3.8."
+        },
+        {
+          "unit": "§4 random-element and standard RCRS",
+          "physical_pdf_pages": "29-36",
+          "scope": "Read Theorem 4.2, attenuation/Schur-concavity proof, selection-function inequality (28), Proposition 4.6, Theorems 4.7–4.8, and conclusion/open questions."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "37-39",
+          "scope": "Read full front bibliography/end matter."
+        },
+        {
+          "unit": "Appendix A.1–A.5: NRM/OCA reductions",
+          "physical_pdf_pages": "40-50",
+          "scope": "Read full technical proofs of Theorems 2.6–2.9 and the random-element conversion."
+        },
+        {
+          "unit": "Appendix B.1–B.4: OCRS upper/lower bounds and joint events",
+          "physical_pdf_pages": "51-57",
+          "scope": "Read details supporting exact selection, affine-plane impossibility, and standard OCRS overlap bound."
+        },
+        {
+          "unit": "Appendix C.1–C.9: RCRS proofs",
+          "physical_pdf_pages": "58-63",
+          "scope": "Read attenuation/Schur-concavity, phase induction, conditional-probability removal, and standard RCRS selection-function proofs."
+        },
+        {
+          "unit": "Appendix D: L-partite hypergraph improvement",
+          "physical_pdf_pages": "64-66",
+          "scope": "Read Lemma D.2 and Theorem D.3 proof."
+        },
+        {
+          "unit": "Appendix E: offline random-element CRS upper bound",
+          "physical_pdf_pages": "66-67",
+          "scope": "Read affine-plane construction and Theorem E.1 proof."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S007",
+      "sha256": "23b2fa687f5b1455a337804e1ce9f6bf1553bdd324d1f1ede84070a371301c4d",
+      "read_pages": "1-38",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch1",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Abstract; §1 Introduction, §§1.1-1.3",
+          "physical_pdf_pages": "1-5",
+          "scope": "Problem variants, order-selection and prophet-secretary results, related work, and organization."
+        },
+        {
+          "unit": "§2 Preliminaries, §§2.1-2.2",
+          "physical_pdf_pages": "5-6",
+          "scope": "Order-selection model, ASD tail criterion, arrival-time notation, and threshold assumptions."
+        },
+        {
+          "unit": "§2.3 Peng-Tang independent arrival-time algorithm",
+          "physical_pdf_pages": "6-7",
+          "scope": "Arrival-time density, feasibility condition, Γ_PT bound, and ASD theorem; formulas visually checked."
+        },
+        {
+          "unit": "§3 General framework for independent arrival-time algorithms",
+          "physical_pdf_pages": "7-11",
+          "scope": "Item-specific thresholds, well-defined density criterion, Lemmas 7-8 and Theorem 6 proof identifying the tail probability."
+        },
+        {
+          "unit": "§4 The 2-scheme algorithm",
+          "physical_pdf_pages": "11-13",
+          "scope": "Adverse-item cases, the modified threshold h, Theorem 9 statement, and Theorem 1 proof."
+        },
+        {
+          "unit": "§5 Equivalence of competitiveness and ASD",
+          "physical_pdf_pages": "13-16",
+          "scope": "Finite deterministic policy set, primal/dual LP, Lemma 10, and randomized dual mixture proving Theorem 2."
+        },
+        {
+          "unit": "§6 Random-order setting (prophet secretary)",
+          "physical_pdf_pages": "16-17",
+          "scope": "Hard instance, optimal-stopping recursion, limiting expected maximum, and numerical ratio for Theorem 3."
+        },
+        {
+          "unit": "Appendix A, proof of Theorem 9",
+          "physical_pdf_pages": "17-28",
+          "scope": "Auxiliary functions and weak-adverseness properties; numerical separation of adverse items; density-integral bounds for both schemes."
+        },
+        {
+          "unit": "Appendix B, proofs of Lemmas 16 and 17",
+          "physical_pdf_pages": "29-30",
+          "scope": "Comparison lemma for density integrals and monotonicity of weak adverseness in Γ."
+        },
+        {
+          "unit": "Appendix C, uniqueness of b_Γ",
+          "physical_pdf_pages": "30",
+          "scope": "Monotonic scalar equation establishes the unique root b_Γ."
+        },
+        {
+          "unit": "Appendix D, proof of Lemma 18",
+          "physical_pdf_pages": "30-35",
+          "scope": "Differential inequalities for Ĝ_Γ, then integrated W_Γ/Y_Γ bounds yielding Properties A-C."
+        },
+        {
+          "unit": "Appendix E, proof of Lemma 21",
+          "physical_pdf_pages": "35-36",
+          "scope": "Differential comparison and integration yield the key density bound used in Theorem 9."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "36-38",
+          "scope": "Read the complete bibliography; no additional theorem claims used."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch1/rendered/S007-p06.png",
+        "evidence/W13/reader_batches/L09_batch1/rendered/S007-p07.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch1/computations/s007_theorem3_ratio.py and computations/s007_theorem3_ratio.out.json"
+    },
+    {
+      "source_local_id": "S008",
+      "sha256": "9df8cdd5fdc859f38fac81cc050743cec239072627d298e435b15fa5710185e9",
+      "read_pages": "1-35",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch1",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Abstract; §1 Introduction, §§1.1-1.2",
+          "physical_pdf_pages": "1-4",
+          "scope": "0.688 prophet-secretary and 0.641 matching contributions, activation-based ideas, and related work."
+        },
+        {
+          "unit": "§2.1 Model and §2.2 Result",
+          "physical_pdf_pages": "5-6",
+          "scope": "Independent known distributions, uniform random arrivals, one-choice benchmark, and 0.688 theorem."
+        },
+        {
+          "unit": "§2.3 Activation-based online algorithms",
+          "physical_pdf_pages": "6-8",
+          "scope": "Activation probabilities/rates, Poisson-style invariants, acceptance-probability formulas, and sufficient dominance test."
+        },
+        {
+          "unit": "§2.4 Warm-ups",
+          "physical_pdf_pages": "8-10",
+          "scope": "Constant-rate 1-1/e rule and step-rate 0.694 rule with its explicit smallness assumption."
+        },
+        {
+          "unit": "§2.5 Main single-choice algorithm and proof",
+          "physical_pdf_pages": "10-14",
+          "scope": "Largest-item parameters, staged activation, edgewise probability lower bounds, and computer-aided threshold existence."
+        },
+        {
+          "unit": "§§3.1-3.3 Matching model, LP, overview, and query-commit corollary",
+          "physical_pdf_pages": "14-16",
+          "scope": "Type-graph model, LP upper bound, MAM/CAR design, hybrid theorem, and reduction statement."
+        },
+        {
+          "unit": "§3.4 Multistage Activation-based Matching and proof",
+          "physical_pdf_pages": "16-22",
+          "scope": "Correlated sampling, three algorithm stages, well-definedness, unmatched-probability lemmas, and edge-selection guarantee."
+        },
+        {
+          "unit": "§3.5 Constant Activation Rate Except One Large Vertex and proof",
+          "physical_pdf_pages": "23-24",
+          "scope": "Definition of α(x), unique-largest-neighbor exception, and edgewise Γ_CAR(x)x guarantee."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "24-26",
+          "scope": "Read complete bibliography."
+        },
+        {
+          "unit": "Appendix A, query-commit reduction",
+          "physical_pdf_pages": "27",
+          "scope": "Extreme-point characterization converts target assignment probabilities to a query order mixture."
+        },
+        {
+          "unit": "Appendix B, proof and properties of h_s",
+          "physical_pdf_pages": "28-31",
+          "scope": "Optimization reduction, chain extreme points, ordered optimizer structure, and continuity/derivative bounds."
+        },
+        {
+          "unit": "Appendix C, general-s algorithm",
+          "physical_pdf_pages": "32-33",
+          "scope": "General-s activation rates/probabilities, feasibility, and reduction of the main proof."
+        },
+        {
+          "unit": "Appendix D, computer-assisted proofs of Lemmas 15 and 35",
+          "physical_pdf_pages": "34-35",
+          "scope": "Parameter grid, rounding-error bounds, and finite threshold search certifying 0.688."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch1/rendered/S008-p13.png",
+        "evidence/W13/reader_batches/L09_batch1/rendered/S008-p15.png"
+      ]
+    },
+    {
+      "source_local_id": "S010",
+      "sha256": "9a921f9041563c429bdd76cde37920f31e7bfde9b38aceb1d8909c32c0d566c6",
+      "read_pages": "1-15",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch1",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Abstract; §1 Introduction and §§1.1-1.2",
+          "physical_pdf_pages": "1-4",
+          "scope": "Single-sample matching results, proof idea, and related work."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "4-5",
+          "scope": "Independent edge distributions, one sample per edge, edge-arrival and one-sided vertex-arrival models, and objective."
+        },
+        {
+          "unit": "§3 Edge arrival in general graphs",
+          "physical_pdf_pages": "5-8",
+          "scope": "Sample-greedy prices, offline coupling, distributional equivalence, safe edges, and 16-approximation proof."
+        },
+        {
+          "unit": "§4 Vertex arrival in bipartite graphs",
+          "physical_pdf_pages": "9-11",
+          "scope": "Batch/offline coupling and safe-edge argument proving the 8-approximation."
+        },
+        {
+          "unit": "§5 Truthful bipartite matching",
+          "physical_pdf_pages": "11-13",
+          "scope": "Utility-maximizing posted-price mechanism, truthfulness, maximality in E′, and 16-approximation."
+        },
+        {
+          "unit": "§6 Conclusion",
+          "physical_pdf_pages": "13",
+          "scope": "Model-dependent approximation questions and future directions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "13-15",
+          "scope": "Read complete bibliography."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch1/rendered/S010-p08.png",
+        "evidence/W13/reader_batches/L09_batch1/rendered/S010-p10.png"
+      ]
+    },
+    {
+      "source_local_id": "S011",
+      "sha256": "298bcafbf88cad5a8501474942c353109cc1fa8afbd5b3d7b787ea2d641c9565",
+      "read_pages": "1-34",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch1",
+      "page_numbering_note": "Physical p. 1 is an unnumbered title/abstract page. Physical p. 2 begins printed p. 1, so printed page = physical page - 1 thereafter.",
+      "coverage": [
+        {
+          "unit": "Title and abstract page",
+          "physical_pdf_pages": "1",
+          "scope": "Problem families and summary of exact/order-oblivious, AOSp, two-faced, and prophet-sample results."
+        },
+        {
+          "unit": "§1 Introduction, §§1.1-1.3",
+          "physical_pdf_pages": "2-6",
+          "scope": "Model distinctions, contribution statements, related work, and paper organization."
+        },
+        {
+          "unit": "§2 Vertex arrivals in bipartite graphs",
+          "physical_pdf_pages": "6-14",
+          "scope": "Sampling-prefix algorithm, directed-line-graph activity proof, qualifying edges, tight greedy-sample ratio, 3-2√2 optimum, and tight examples."
+        },
+        {
+          "unit": "§3 Vertex arrivals in the AOSp model",
+          "physical_pdf_pages": "14-16",
+          "scope": "Independent history sampling, p(1-p) tight result for p≤1/2, thinning for p>1/2, and secretary upper bounds."
+        },
+        {
+          "unit": "§4 Single-sample prophet inequalities and two-faced model",
+          "physical_pdf_pages": "16-21",
+          "scope": "Batched online-selection definitions, order-oblivious reduction, 3-2√2 lower bound and 2/5 upper bound for two-faced vertex arrivals."
+        },
+        {
+          "unit": "§5 Edge arrivals in general graphs and §5.1 AOSp",
+          "physical_pdf_pages": "21-28",
+          "scope": "General-edge qualifying nodes and three reimbursement bounds; piecewise order-oblivious ratio, two-faced result, and AOSp transfer."
+        },
+        {
+          "unit": "§6 Discussion and references",
+          "physical_pdf_pages": "28-30",
+          "scope": "Open problem on edge-arrival optimality and complete references."
+        },
+        {
+          "unit": "Appendix A, tight examples",
+          "physical_pdf_pages": "30-32",
+          "scope": "Full tight sequence for vertex-arrival ratio and tight AOSp construction."
+        },
+        {
+          "unit": "Appendix B, secretary upper bounds",
+          "physical_pdf_pages": "32-33",
+          "scope": "Proofs of Theorems 2.9 and 3.4 using ordinal-input and sampling bounds."
+        },
+        {
+          "unit": "Appendix C, replacing greedy by maximum matching",
+          "physical_pdf_pages": "33-34",
+          "scope": "Counterexample showing the opt-based variant has competitive ratio tending to zero."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch1/rendered/S011-p10.png"
+      ]
+    },
+    {
+      "source_local_id": "S012",
+      "sha256": "2f4fc5602f16bb2ffc527dff9bbbd4bb60250de59ed0796ecdbd695a2153f9b9",
+      "read_pages": "1-21",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch1",
+      "page_numbering_note": null,
+      "coverage": [
+        {
+          "unit": "Abstract; §1 Introduction, §§1.1-1.3",
+          "physical_pdf_pages": "1-5",
+          "scope": "Unknown-distribution motivation, full-information constants, minimax outline, and known-distribution models."
+        },
+        {
+          "unit": "§1.4 Sample-based models; Step 1, upper-tail insensitivity",
+          "physical_pdf_pages": "5-8",
+          "scope": "Theorem 1.1 and Propositions 1.2-1.5; minimax perturbation proof and tail-multiplicative approximation interface."
+        },
+        {
+          "unit": "Step 2, small variables can be treated as iid",
+          "physical_pdf_pages": "9-12",
+          "scope": "Geometric-mean CDF surrogate, Lemmas 1.8-1.10, and proof of Proposition 1.7 under the smallness/size assumptions."
+        },
+        {
+          "unit": "Step 3, sample-based approximation of distributions",
+          "physical_pdf_pages": "12-16",
+          "scope": "Cutoff/exceptional-set construction, Chernoff and DKW estimates, distribution estimation, and composition proving the sample guarantee."
+        },
+        {
+          "unit": "Step 4, polynomial-time computation",
+          "physical_pdf_pages": "16-18",
+          "scope": "Exponential state LPs and symmetry reduction to polynomial size when only constantly many distributions are exceptional."
+        },
+        {
+          "unit": "Concluding remarks",
+          "physical_pdf_pages": "18-19",
+          "scope": "Extension to iid and all-small variants, possible generalizations, and limitation relative to online-optimal algorithms."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "19-21",
+          "scope": "Read complete bibliography."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch1/rendered/S012-p07.png",
+        "evidence/W13/reader_batches/L09_batch1/rendered/S012-p16.png"
+      ]
+    },
+    {
+      "source_local_id": "S013",
+      "sha256": "61de0ad8f1bb820725d25314fbb23d28ecad7756c31062b3f50777098d8f2565",
+      "read_pages": "1-23",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch2",
+      "page_numbering_note": "All ranges are physical PDF pages.",
+      "coverage": [
+        {
+          "unit": "Title and abstract",
+          "physical_pdf_pages": "1",
+          "scope": "Abstract, research motivation, and the stated bicriterion concentration and k-fold-union prophet results."
+        },
+        {
+          "unit": "§1 Introduction and §1.1 Related Work",
+          "physical_pdf_pages": "2-5",
+          "scope": "Large-girth question, separate negative and positive statements, concentration comparison, and prior work."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "5-6",
+          "scope": "Prophet/OCRS definitions, adversary models, matroid and k-fold-union notation."
+        },
+        {
+          "unit": "§3 Large Girth is Not Sufficient",
+          "physical_pdf_pages": "7-8",
+          "scope": "Subdivision hard instance and fixed-order upper bound approaching one half."
+        },
+        {
+          "unit": "§4 k-Fold Unions are Sufficient",
+          "physical_pdf_pages": "8-14",
+          "scope": "Protected OCRS for extended k-fold unions, occupancy function, protection construction, and selectability analysis."
+        },
+        {
+          "unit": "§5 A Bicriterion Concentration Inequality",
+          "physical_pdf_pages": "15-19",
+          "scope": "Scaled Bernoulli vector statement, technical overview, modified log-Sobolev derivative argument, and proof of Theorem 3."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "19-20",
+          "scope": "Read full bibliography."
+        },
+        {
+          "unit": "Appendix A Useful Concentration Inequalities; Appendix B Missing Proofs and Examples",
+          "physical_pdf_pages": "21-23",
+          "scope": "Auxiliary concentration statements, omitted occupancy/protection lemmas, examples, and proof completion."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p01.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p03.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p14.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p15.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p16.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p17.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p18.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p21.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p22.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S013-p23.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch2/computations/s013_bicriterion_sanity.py and evidence/W13/reader_batches/L09_batch2/computations/s013_bicriterion_sanity.out.json"
+    },
+    {
+      "source_local_id": "S014",
+      "sha256": "e73a886242785f95f190300e7b0df720a492bf86620a701b0acbe4cf2bd7d4c5",
+      "read_pages": "1-28",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch2",
+      "page_numbering_note": "All ranges are physical PDF pages.",
+      "coverage": [
+        {
+          "unit": "Title and abstract",
+          "physical_pdf_pages": "1",
+          "scope": "Main ex-ante factors and the fixed-order/random-order split."
+        },
+        {
+          "unit": "§1 Introduction and results",
+          "physical_pdf_pages": "2-6",
+          "scope": "Prophet and OCRS model, k-matchoids, P-intersection relaxation, theorem statements, and technique overview."
+        },
+        {
+          "unit": "§2 Preliminaries and model",
+          "physical_pdf_pages": "7-8",
+          "scope": "Matroid and matchoid definitions, ex-ante benchmark, convex relaxations, adversarial and secretary order models."
+        },
+        {
+          "unit": "§3 Coordinated prices and proof overview",
+          "physical_pdf_pages": "9-10",
+          "scope": "Common surplus, local principal partitions, quadratic potential, and fixed-order charging plan."
+        },
+        {
+          "unit": "§4 Fixed-order prophet inequality and detailed proof",
+          "physical_pdf_pages": "11-15",
+          "scope": "Quadratic matroid price lemma, common-surplus equilibrium, threshold algorithm, blocked-surplus charge, and 1/(k+1) comparison."
+        },
+        {
+          "unit": "§5 Prophet Secretary and detailed proof",
+          "physical_pdf_pages": "15-20",
+          "scope": "Residual contracted relaxations, exchange lemma for matchoids, residual-drop charging, utility/revenue decomposition, and ODE cancellation."
+        },
+        {
+          "unit": "Conclusion, AI disclosure, and references",
+          "physical_pdf_pages": "21-22",
+          "scope": "Summary, disclosure, and complete bibliography."
+        },
+        {
+          "unit": "Appendix A Extended Preliminaries",
+          "physical_pdf_pages": "23-24",
+          "scope": "Random-clock model and ex-ante prophet/OCRS/RCRS equivalences."
+        },
+        {
+          "unit": "Appendix B Adversarial-Order Random-Element OCRS",
+          "physical_pdf_pages": "24-28",
+          "scope": "Independent batches with mutually exclusive active elements, algorithm and proof, tightness construction, and application discussion."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p01.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p03.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p04.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p14.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p15.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p16.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p17.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p18.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p19.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p20.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p25.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S014-p28.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch2/computations/s014_rate_checks.py and evidence/W13/reader_batches/L09_batch2/computations/s014_rate_checks.out.json"
+    },
+    {
+      "source_local_id": "S015",
+      "sha256": "1ea6c1be6cceec03e0ef78943c7ef466fea745256c1f00de9c698802a754178b",
+      "read_pages": "1-46",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch2",
+      "page_numbering_note": "All ranges are physical PDF pages.",
+      "coverage": [
+        {
+          "unit": "Title and abstract; §1 Introduction",
+          "physical_pdf_pages": "1-5",
+          "scope": "I.i.d. stopping model, average-top-ℓ benchmark, exact-ratio contribution, multi-choice extension, and assumptions."
+        },
+        {
+          "unit": "§2 Finite-n competitive ratio",
+          "physical_pdf_pages": "5-8",
+          "scope": "Quantile threshold algorithm, equalized per-position guarantee, discrete boundary recurrence, and existence of parameters."
+        },
+        {
+          "unit": "§3 Limiting ratio; §4 tightness",
+          "physical_pdf_pages": "8-12",
+          "scope": "Large-n limit, Beta-to-Gamma convergence, exact integral equation, exponential lower bound, and matching extremal-distribution upper bound."
+        },
+        {
+          "unit": "§5 Selecting k items",
+          "physical_pdf_pages": "12-16",
+          "scope": "Multi-selection quantile algorithm, coupled recurrence and Gamma boundary-value system, asymptotic lower bound, and finite-support reduction."
+        },
+        {
+          "unit": "§6 Static thresholds",
+          "physical_pdf_pages": "16-17",
+          "scope": "Fixed-quantile policy, Gamma CDF formula with O(1/n) error, and rare-high-value upper bound."
+        },
+        {
+          "unit": "§7 Extensions",
+          "physical_pdf_pages": "18-19",
+          "scope": "Decreasing weights on order statistics and the distinct worst-case-for-prophet quantity."
+        },
+        {
+          "unit": "§8 Detailed proofs, §§8.1–8.15",
+          "physical_pdf_pages": "20-44",
+          "scope": "Full proofs of finite-n characterization, limiting arguments, tightness, multi-selection convergence, static-threshold bounds, and finite-dimensional reduction."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "45-46",
+          "scope": "Read complete bibliography."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p03.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p04.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p05.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p10.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p12.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p14.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p16.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p17.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p20.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p23.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p24.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p25.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p26.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p27.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p28.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p29.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p30.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p31.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p32.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p33.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p34.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p35.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p36.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p37.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p38.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p39.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p40.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p41.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p42.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p43.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p44.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p45.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S015-p46.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch2/computations/s015_integral_roots.py and evidence/W13/reader_batches/L09_batch2/computations/s015_integral_roots.out.json"
+    },
+    {
+      "source_local_id": "S016",
+      "sha256": "ff47abe1f824a969cf02178721965ce4946a0b587a4e4c029ddcae79b1726e81",
+      "read_pages": "1-89",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch2",
+      "page_numbering_note": "All ranges are physical PDF pages.",
+      "coverage": [
+        {
+          "unit": "Title and abstract",
+          "physical_pdf_pages": "1",
+          "scope": "Stationary OCRS definition, distributional characterization, maximum-entropy approach, and principal guarantees."
+        },
+        {
+          "unit": "Table of Contents",
+          "physical_pdf_pages": "2-3",
+          "scope": "Main sections and complete electronic-companion contents."
+        },
+        {
+          "unit": "§1 Introduction and contributions",
+          "physical_pdf_pages": "4-10",
+          "scope": "Motivation, comparison to standard OCRS, main results and proof plans."
+        },
+        {
+          "unit": "§2 Preliminaries and notation",
+          "physical_pdf_pages": "11-14",
+          "scope": "Downward-closed feasibility systems, marginal polytope, matchings, uniform matroids, and applications setting."
+        },
+        {
+          "unit": "§3 S-OCRS definitions and LP formulation",
+          "physical_pdf_pages": "15-18",
+          "scope": "Stationarity, stationary implementability constraints, distributional equivalence, and general simulate-then-replace algorithm."
+        },
+        {
+          "unit": "§4 Maximum-entropy S-OCRS template",
+          "physical_pdf_pages": "19-22",
+          "scope": "Prescribed-marginal entropy program, Gibbs conditional probabilities, Algorithm 2, and addability reduction."
+        },
+        {
+          "unit": "§5 Matchings and uniform matroids",
+          "physical_pdf_pages": "23-28",
+          "scope": "Non-bipartite 1/3, bipartite optimal (3−√5)/2, k-uniform Poisson ratio, positive correlation, and upper-bound arguments."
+        },
+        {
+          "unit": "§6 Network revenue management",
+          "physical_pdf_pages": "28-29",
+          "scope": "Rank-L hypergraph matching with capacity k, Gibbs witness, and capacity-tail union bound."
+        },
+        {
+          "unit": "§7 Reusable products and assortment",
+          "physical_pdf_pages": "29-36",
+          "scope": "Homogeneous Poisson type arrivals, fluid relaxation, proposal/admission reduction, stationary guarantees, assortment extension, conclusion."
+        },
+        {
+          "unit": "References and e-companion divider",
+          "physical_pdf_pages": "37-44",
+          "scope": "Complete bibliography; physical p. 44 is an intentionally blank e-companion divider."
+        },
+        {
+          "unit": "EC.1 Further related work",
+          "physical_pdf_pages": "45-48",
+          "scope": "OCRS, matching, reusable allocation, multiple selection, maximum entropy, and negative-dependence literature."
+        },
+        {
+          "unit": "EC.2 Weakly Rayleigh matroids and modified maximum entropy",
+          "physical_pdf_pages": "48-56",
+          "scope": "Rayleigh measures, KL projection/thinning, S-OCRS construction, matroid conditions and proofs."
+        },
+        {
+          "unit": "EC.3 Knapsack constraints",
+          "physical_pdf_pages": "57-60",
+          "scope": "Why direct max entropy fails for heavy items and the heavy/light mixture construction."
+        },
+        {
+          "unit": "EC.4 General downward-closed constraints",
+          "physical_pdf_pages": "60-63",
+          "scope": "General S-OCRS lower/upper bounds and the finite-ground-set obstruction."
+        },
+        {
+          "unit": "EC.5 Deferred proofs and technical details",
+          "physical_pdf_pages": "63-78",
+          "scope": "Recurring-OCRS equivalence, stationary LP proof, hypergraph/matching addability, correlation lemmas, Poisson comparison, capacity-k theorem, uniform-matroid upper bound, admission convergence, and price implementation."
+        },
+        {
+          "unit": "EC.6 Algorithmic complexity",
+          "physical_pdf_pages": "79-89",
+          "scope": "Sampling, conditional probability, Gibbs parameter, optimization/separation, counting-oracle, and implementation requirements."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p12.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p19.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p20.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p21.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p22.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p23.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p24.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p25.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p26.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p27.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p28.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p29.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p61.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p62.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p63.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p72.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p73.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p75.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p76.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p78.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p79.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p80.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p81.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p82.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p83.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p84.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p85.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p86.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p87.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p88.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S016-p89.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch2/computations/s016_stationary_checks.py and evidence/W13/reader_batches/L09_batch2/computations/s016_stationary_checks.out.json"
+    },
+    {
+      "source_local_id": "S017",
+      "sha256": "1af5c4b36bb4e44920e32026ce339b6d875ed7443f0722fbed7764569c20f80b",
+      "read_pages": "1-30",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch2",
+      "page_numbering_note": "All ranges are physical PDF pages.",
+      "coverage": [
+        {
+          "unit": "Title and abstract",
+          "physical_pdf_pages": "1",
+          "scope": "OWDI model, 2/3 philosopher guarantee, 1/2 prophet result, and exact-policy #P-hardness."
+        },
+        {
+          "unit": "§1 Introduction and techniques",
+          "physical_pdf_pages": "2-5",
+          "scope": "Benchmark separation, divisible allocation motivation, result statements, and related work."
+        },
+        {
+          "unit": "§2 Model and concave relaxations",
+          "physical_pdf_pages": "5-7",
+          "scope": "Finite-support independent player types, online/offline concave programs, and configuration-LP equivalence."
+        },
+        {
+          "unit": "§3 Philosopher inequalities",
+          "physical_pdf_pages": "7-12",
+          "scope": "Scaling functions, single-item capped OCRS, submartingale/potential proof, DR-submodular decomposition, and 2/3 guarantee."
+        },
+        {
+          "unit": "§4 Prophet inequalities",
+          "physical_pdf_pages": "12-17",
+          "scope": "Aumann–Shapley support prices, balanced-price auction, utility/revenue proof, and efficient construction."
+        },
+        {
+          "unit": "§5 Hardness",
+          "physical_pdf_pages": "18-20",
+          "scope": "Reduction from #Knapsack for exact online-policy optimization and tight 1/2 prophet example."
+        },
+        {
+          "unit": "Appendix A DR-submodularity and Appendix B benchmark relaxations",
+          "physical_pdf_pages": "21-22",
+          "scope": "Equivalent DR characterizations and configuration/concave relaxation proof."
+        },
+        {
+          "unit": "Appendix C Scaling Functions",
+          "physical_pdf_pages": "23-27",
+          "scope": "Simple candidate functions, explicit 2/3 scaling function, concavity/capping checks, and polynomial proof of the scaling inequality."
+        },
+        {
+          "unit": "Appendix D Integrality Gap",
+          "physical_pdf_pages": "27-28",
+          "scope": "Finite examples and asymptotic 3/4 and approximately 0.719 integrality-gap constructions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "29-30",
+          "scope": "Read complete bibliography."
+        }
+      ],
+      "rendered_pages": [
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p03.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p04.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p08.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p09.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p10.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p11.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p12.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p13.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p14.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p15.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p16.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p17.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p18.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p19.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p20.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p21.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p22.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p23.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p24.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p25.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p26.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p27.png",
+        "evidence/W13/reader_batches/L09_batch2/rendered/S017-p28.png"
+      ],
+      "computation": "evidence/W13/reader_batches/L09_batch2/computations/s017_scaling_checks.m and evidence/W13/reader_batches/L09_batch2/computations/s017_scaling_checks.out.txt (executed using MATLAB R2026b Symbolic Math Toolbox)"
+    },
+    {
+      "source_local_id": "S018",
+      "sha256": "4f7b40f4477bc8fb72a09d37c935a2e771806b454041a64085e4548941b19967",
+      "read_pages": "1-27",
+      "reader": "L09",
+      "reader_batch": "evidence/W13/reader_batches/L09_batch3",
+      "page_numbering_note": "All listed ranges are physical PDF pages; any printed-page convention is stated in the source card.",
+      "coverage": [
+        {
+          "unit": "Abstract and §1 Introduction, §§1.1–1.2",
+          "physical_pdf_pages": "1–5",
+          "scope": "States fixed-order simple OCRS contribution, positions adversary models, and gives the roadmap."
+        },
+        {
+          "unit": "§2 Preliminaries, §§2.1–2.3",
+          "physical_pdf_pages": "5–7",
+          "scope": "Defines down-closed OCRS, selectability/scaled selectability, prophet reductions, adversary strengths, and uniform matroids."
+        },
+        {
+          "unit": "§3 Warmup: Naive approaches towards an OCRS",
+          "physical_pdf_pages": "7–8",
+          "scope": "Shows naive greedy and its partition-matroid variant fail to reach the fixed-order asymptotic target; records prior almighty guarantee."
+        },
+        {
+          "unit": "§4 A simple optimal OCRS for k-uniform matroids",
+          "physical_pdf_pages": "8–12",
+          "scope": "States the threshold algorithm and Proposition 4.2; relates discarded actives to record heights of a centered walk and applies optional stopping."
+        },
+        {
+          "unit": "§5 Upper bound against almighty adversaries, §§5.1–5.3",
+          "physical_pdf_pages": "12–20",
+          "scope": "Symmetrizes arbitrary schemes, builds the adversarial order/LP upper bound, characterizes LP extremizers, and proves the asymptotic almighty deficit."
+        },
+        {
+          "unit": "§6 Conclusion and References",
+          "physical_pdf_pages": "20–22",
+          "scope": "Summarizes guarantees and cites the literature."
+        },
+        {
+          "unit": "Appendix A Omitted proofs, A.1–A.3",
+          "physical_pdf_pages": "23–26",
+          "scope": "Completes warmup theorem proofs and technical reductions used by the main text."
+        },
+        {
+          "unit": "Appendix B Tools from probability theory",
+          "physical_pdf_pages": "26–27",
+          "scope": "Provides binomial probability/anti-concentration estimates used in the almighty upper bound."
+        }
+      ],
+      "rendered_pages": [],
+      "computation": "evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.py and evidence/W13/reader_batches/L09_batch3/computations/batch3_math_checks.out.json"
+    }
+  ]
+}

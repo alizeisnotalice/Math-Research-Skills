@@ -1,0 +1,131 @@
+[
+  {
+    "problem_id": "C118",
+    "tool": "probability-random-graph-energy-landscapes",
+    "role": "auxiliary",
+    "formal_statement": "Independent symmetric edge signs with mean parameter delta on the complete graph; decide whether high-probability global synchronization holds when delta >= (1+epsilon)*sqrt(log(n)/(2n)). See references/problem-boundaries.md for the recorded wording and source locator.",
+    "needed_lemma": "A symmetric signed random-graph landscape certificate controlling every rank-two second-order critical point at the target small-bias scale, with a uniform-in-phase/configuration argument.",
+    "source_local_ids": [
+      "PGEL-001"
+    ],
+    "unproved_interface": "McRae Theorem 3.2 gives a sufficient signed-ER regime but, at p=1 and small bias, its sufficient delta scale is about twice the C118 threshold (up to theorem slack); it does not resolve the threshold asked in C118. PGEL-002–008 and PGEL-010 concern positive undirected unit-edge models (PGEL-003/004 random graphs; PGEL-005/006 dense deterministic criteria; PGEL-007 positive-graph landscape results; PGEL-008 strict twisted-state stability only on symmetric positive circulants), so they do not map as evidence for the signed complete-graph threshold. No oriented-model transfer is justified. PGEL-009 adds an exact sparse circulant twisted-state instability example only (with Eq. (6) restricted to m>=2 and K2 handled separately); it does not rule out non-twisted equilibria. PGEL-011 is a positive high-dimensional sphere RGG landscape result, not a signed or fixed-low-dimensional theorem. PGEL-012 is a smooth-initial-data S2 scaling/synchronization route; its Eq. (2.6)/(2.8)/Lemma 3.7 heat-clock normalization remains unresolved, so quantitative diffusion reuse is withheld, and it is not an all-initial-data landscape result. PGEL-019 is a deterministic weighted undirected signed-Laplacian/cycle-space source; its unrestricted arXiv-v1 Theorem 2.6 and Theorem 2.8 sign identity are quarantined at exact triangle boundaries, while the stable negative-edge bound m_-<=C is an independent derivation only. PGEL-021 constructs stable equilibrium manifolds on explicit connected positive unweighted graphs; it is not a typical-graph probability theorem. PGEL-029 is an oriented signed deterministic source: its DAG sufficient result and single-cycle LaSalle result do not provide a random-signed complete-graph threshold. In the read v2, a legal signed 3-cycle quarantines Lemma 3.4 necessity and Proposition 3.6 exhaustive count; this does not reject its separate finiteness claim or establish facts about the unread journal version. PGEL-017, PGEL-018, and PGEL-032 add positive symmetric deterministic cycle, connected-planar, and connected-threshold-graph boundaries only; they are not C118 signed random-graph evidence and do not relax its model interface.",
+    "auxiliary_source_methods": [
+      {
+        "source_local_id": "PGEL-022",
+        "method": "Full-Jacobian-zero Kuramoto equilibria: Euler-circuit characterization and explicit cubic sign-changing energy perturbation; Theorem 11 extension under the paper model.",
+        "scope": "Only the stated complete-degeneracy classes and graph/frequency assumptions; not general semidefinite stability or a signed-random-ensemble certificate."
+      },
+      {
+        "source_local_id": "PGEL-023",
+        "method": "Real adjacency eigenvector with unit-modulus coordinates and real eigenvalue gives a stationary configuration; phase-lag criterion requires lambda exp(-i phi) real.",
+        "scope": "Equilibrium/stationarity only; not stability, identical trajectories of the complexified and original flows, or typical random-graph behavior."
+      },
+      {
+        "source_local_id": "PGEL-026",
+        "method": "Generic BKK adjacency-polytope root count and exceptional symmetric-coupling analysis; use only isolated roots in (C*)^n and the exact source hypotheses.",
+        "scope": "Generic complex roots are not necessarily unit-torus phases, real equilibria, stable states, or local minima; no signed-law transfer."
+      },
+      {
+        "source_local_id": "PGEL-024",
+        "method": "Conditional exact tree/cycle algebraic isolated-root method: adjacency-polytope normalized-volume upper bound; for stated exact tree/cycle classes, equality with the BI intersection index under the paper’s hypotheses, using a tree monomial map and cycle facet/Bernstein proof.",
+        "scope": "Not C118’s arbitrary signed complete graph; complex-torus roots are not necessarily unit-torus real equilibria, stable points, or minima. The source’s literal p. 7 missing-y polynomial is distinguished from the Eq. (9)-derived equation; the p. 9–10 G1/G2 label discrepancy remains isolated. R08 quota_approved=false."
+      },
+      {
+        "source_local_id": "PGEL-030",
+        "method": "A positive complete-graph baseline sharp bound for phase cohesion/frequency synchronization can serve as a deterministic comparison method when separating graph/energy hypotheses from synchronization conclusions.",
+        "scope": "C118 concerns random signed graph coupling and a threshold uniform over phase configurations. PGEL-030 assumes positive all-to-all coupling and arbitrary heterogeneous natural frequencies; it proves a robust phase-cohesion synchronization criterion, not a random signed Hessian certificate or absence of nonsynchronous local minima.",
+        "R02_reviewed_auxiliary": true
+      },
+      {
+        "source_local_id": "PGEL-031",
+        "method": "A graphon/Fourier spectral calculation is a continuum-limit reference for distinguishing an operator-eigenvalue onset from a finite random-graph energy-landscape statement.",
+        "scope": "The self-adjoint graphon and smooth-even-frequency hypotheses are not the signed finite-n C118 model. Empirical-measure convergence and threshold formulas are cited background, and no bound uniform over phase configurations or finite-n signed-graph event follows.",
+        "R02_reviewed_auxiliary": true
+      },
+      {
+        "source_local_id": "PGEL-033",
+        "method": "A continuum spectral-gap-to-local-stability method for a fixed twist, provided the limiting operator has a uniform strict Fourier gap over all nonzero modes; use the directly derived generator multiplier pi*lambda. For q>0, the printed uniform r,p rectangle is quarantined as a strict-gap certificate.",
+        "scope": "The theorem assumes an even L2 continuum kernel and a fixed twist with a proved all-mode strict gap. Its q>0 small-world statement cannot be transferred from the printed uniform r,p rectangle; only fixed sufficiently small r then p sufficiently small depending on r with full-gap verification is retained. No finite random signed-graph matrix, global-minimum, or probability-uniform-over-phase interface is proved.",
+        "R02_reviewed_auxiliary": true
+      },
+      {
+        "source_local_id": "PGEL-015",
+        "method": "Symmetric Cayley finite-time Fourier/local variational criteria for twisted states, under the exact graph and spectral hypotheses.",
+        "scope": "The 2015 arXiv margin stamp and 2018 body date remain distinct. Lemma 7.3 counterexample is only for the doubly corrected intended-square interpretation. Th7.2/7.5 proof interface remains unverified; no uniform ER/time claim.",
+        "R02_final_helper_passed": true
+      },
+      {
+        "source_local_id": "PGEL-016",
+        "method": "Exact-equilibrium local Jacobian/weighted-Laplacian certificate from Eq. (9), for connected graphs with every edge cosine strictly positive.",
+        "scope": "Does not validate Ansatz/global search, whp or finite-sample conclusions; the quotient Jacobian must be strictly negative on the phase-quotient space under the stated exact equilibrium.",
+        "R02_final_helper_passed": true
+      },
+      {
+        "source_local_id": "PGEL-020",
+        "method": "Compatible-frequency omega∈im(B) cycle-flow/winding existence with alpha fibers; separately derived connected positive-principal-open-branch injectivity and strict quotient stability.",
+        "scope": "Mixed-branch injectivity and weighted-facet count are quarantined; closed-endpoint local stability is excluded. Th4 unrestricted volume proof is unverified, not declared false; Th6 constant remains quarantined. No C118 transfer.",
+        "R02_final_helper_passed": true
+      }
+    ],
+    "nontransferable_scope_sources": [
+      {
+        "source_local_id": "PGEL-017",
+        "role": "boundary_only",
+        "scope": "Positive symmetric single-cycle flow/count results; formal PSD endpoint count is distinct from the fixed-injection finite-K limit at 4|n. No signed random complete-graph threshold transfer."
+      },
+      {
+        "source_local_id": "PGEL-018",
+        "role": "boundary_only",
+        "scope": "Positive symmetric connected planar graphs, one common phase quotient, facial cycles, and source p.5 tree-appendage reduction; count bound requires the theorem conditions and all-gap interval. Generic Eq. (5.1) is conjectural."
+      },
+      {
+        "source_local_id": "PGEL-032",
+        "role": "boundary_only",
+        "scope": "Homogeneous positive symmetric connected unweighted threshold graphs. The main combinatorial SOSP proof is separate from the p.9 Prop. 3.2 nonlinear-stability proof gap and p.19 Lemma 5.9(ii) undefined S; no signed/random transfer."
+      }
+    ],
+    "method_eligible_source_ids": [
+      "PGEL-001",
+      "PGEL-002",
+      "PGEL-003",
+      "PGEL-004",
+      "PGEL-005",
+      "PGEL-006",
+      "PGEL-007",
+      "PGEL-008",
+      "PGEL-009",
+      "PGEL-010",
+      "PGEL-011",
+      "PGEL-012",
+      "PGEL-015",
+      "PGEL-016",
+      "PGEL-017",
+      "PGEL-018",
+      "PGEL-019",
+      "PGEL-020",
+      "PGEL-021",
+      "PGEL-022",
+      "PGEL-023",
+      "PGEL-024",
+      "PGEL-026",
+      "PGEL-030",
+      "PGEL-031",
+      "PGEL-032",
+      "PGEL-033",
+      "PGEL-040",
+      "PGEL-041",
+      "PGEL-045"
+    ],
+    "excluded_fulltext_background": [
+      "PGEL-029"
+    ],
+    "mapping_decision": "No direct solution. PGEL-001 supplies a sufficient signed-ER regime whose p=1 scale is about twice the proposed threshold up to fixed slack; other methods remain in their source model classes.",
+    "evidence_links": {
+      "problem_boundary": "references/problem-boundaries.md",
+      "source_guide": "references/source-guide.md",
+      "source_card": "sources/cards/PGEL-001.md",
+      "reading_coverage": "reading_coverage.json#PGEL-001",
+      "R05_mother_acceptance": "audit/R05_motherfinal/review.json#source_integration_audit"
+    }
+  }
+]

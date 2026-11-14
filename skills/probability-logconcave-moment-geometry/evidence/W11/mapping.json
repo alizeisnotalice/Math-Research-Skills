@@ -1,0 +1,86 @@
+[
+  {
+    "problem_id": "C153",
+    "tool": "probability-logconcave-moment-geometry",
+    "role": "direct",
+    "needed_lemma": "Resolve Latała Conjecture 12 for general log-concave X, arbitrary norm, all p>=1 with dimension-free constants at both E||X|| and weak-moment terms.",
+    "source_local_ids": [
+      "M0258",
+      "M0260",
+      "M0259",
+      "M0296"
+    ],
+    "unproved_interface": "M0258/M0260 state the open problem. M0259 covers finite r with C_r; M0296 improves the coefficient but retains isotropic assumptions and n^(1/4) logarithmic loss. Need a uniform arbitrary-norm endpoint for general covariance."
+  },
+  {
+    "problem_id": "C154",
+    "tool": "probability-logconcave-moment-geometry",
+    "role": "direct",
+    "needed_lemma": "Prove a uniform CI(beta) expansion for every symmetric log-concave probability measure, every p>=2, every Borel A, with the full Z_p(mu) moment body.",
+    "source_local_ids": [
+      "M0260",
+      "M0315",
+      "M0316",
+      "M0266",
+      "M0296"
+    ],
+    "unproved_interface": "M0260 states the conjecture and proves only beta<=C sqrt(n) for centered laws. M0315 transfers CI to norm-moment deviations; M0316 treats convex ICI for independent coordinates. KLS/Cheeger Euclidean concentration and centroid-body packing do not give the missing all-set Z_p expansion."
+  },
+  {
+    "problem_id": "C153",
+    "tool": "probability-logconcave-moment-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Use Paouris, transport/ICI and centroid-body estimates only within their proved law classes and moment ranges.",
+    "source_local_ids": [
+      "M0280",
+      "M0266",
+      "M0273",
+      "M0274",
+      "M0278",
+      "M0281",
+      "M0282",
+      "M0284",
+      "M0285",
+      "M0290",
+      "M0315",
+      "M0316",
+      "M0321",
+      "M0322",
+      "M0270",
+      "M0301",
+      "M0304",
+      "M0332",
+      "M0272",
+      "M0291",
+      "M0295"
+    ],
+    "unproved_interface": "M0280 supplies Paouris only for the Euclidean norm; M0282 supplies Sudakov/coordinate-maximal results; M0285 needs independent coordinates and regular marginal moments; all auxiliary results retain isotropy, product, symmetry, finite-r, metric, or dimension-dependence restrictions. Verify each source card before transferring it. M0270 concerns isotropic constants; M0301 gives an n^(1/4) KLS estimate; M0304 is a conditional KLS/LDP route and model-specific projection MDP; M0332 controls information density. None proves the arbitrary-norm endpoint M0272 and M0295 treat sparse/tensor random-matrix models; M0291 supplies a covariance-scaled KLS lower bound. These restrictions do not provide arbitrary-norm weak/strong moments."
+  },
+  {
+    "problem_id": "C154",
+    "tool": "probability-logconcave-moment-geometry",
+    "role": "auxiliary",
+    "needed_lemma": "Relate convex concentration, transport and functional inequalities to the precise CI formulation with constants.",
+    "source_local_ids": [
+      "M0261",
+      "M0266",
+      "M0315",
+      "M0316",
+      "M0317",
+      "M0318",
+      "M0320",
+      "M0321",
+      "M0322",
+      "M0328",
+      "M0329",
+      "M0340",
+      "M0342",
+      "M0301",
+      "M0304",
+      "M0332",
+      "M0291",
+      "M0331"
+    ],
+    "unproved_interface": "Check convex-vs-unrestricted infimum convolution, symmetry, log-concavity, isotropy, regularity and cost functions. Euclidean-ball concentration requires a proved inclusion into Z_p(mu) before it can imply C154. M0301/M0304 concern KLS or Euclidean projection asymptotics, and M0332 controls information density; none supplies the all-set Z_p expansion M0291 is a covariance-scaled Cheeger estimate; M0331 is a uniform-volume geometric Orlicz centroid theorem with the star-body extension left open. Neither yields the required all-set probabilistic Z_p dilation."
+  }
+]

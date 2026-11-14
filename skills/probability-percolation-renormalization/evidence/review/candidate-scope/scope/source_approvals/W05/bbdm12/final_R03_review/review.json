@@ -1,0 +1,83 @@
+{
+  "reviewer": "R03",
+  "worker": "W05",
+  "batch": "L05_primary_B7",
+  "decision": "helper_stage_passed_for_mother_integration",
+  "source_decisions": [
+    {
+      "worker": "W05",
+      "local_id": "bbdm12",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "coverage_structurally_complete": true,
+      "accepted_reading_status": "fulltext_read",
+      "kind": "paper",
+      "reviewer_sha256": "5599d289240e3f2ba310f9bcb29f9ef9309ab3aafbd46056ae76997569ae4b1d",
+      "checked_locations": [
+        "PDF1–5 identity/model/beta/lambda/Th1/Th2 auxiliary thresholds; rendered PDF28 checks d>=r>=2 and Lem25 product p",
+        "PDF6–8 occupancy typo/BK/disjoint hierarchy definition/Lem3–5 dependency attribution",
+        "PDF9–15 conditional crossing/Lem6–10/block coupling and independent unconditioned blocks",
+        "PDF15–19 analytic pod/line-integral/rearrangement; Prop11 partly sketch citing Holroyd; no full new proof claimed",
+        "PDF20–26 Lem18/Cor20/seedcost/threecaseTh17/Cor23",
+        "PDF26–31 Lem24 full BK hypothesis; Lem25 cited from [6]; local-scale gooddegree and Th27 induction; matching upperbound cited [6]",
+        "PDF31–36 contextual general-update/refinement cited results, references and final affiliations; no appendix"
+      ],
+      "reason": "Version-bound complete36page primary paper read accepted. Full BK hypothesis and source local-scale caveat match originalPDF27–30; corrected artifact path. Eligible to complete existing bbdm12 partial record in a future mother version, counting same work once; no published/central records changed.",
+      "quota_eligible": true,
+      "mother_integration_eligible": true,
+      "stage_hash_manifest": "reviews/R03/w05_primary_B7/stage_hashes.json"
+    }
+  ],
+  "findings": [],
+  "mapping_decisions": [
+    {
+      "problem_id": "B179",
+      "decision": "confirmed",
+      "role": "auxiliary",
+      "reason": "Eventual closure threshold gives no general-update infection-time tail."
+    },
+    {
+      "problem_id": "A200",
+      "decision": "confirmed",
+      "role": "auxiliary",
+      "reason": "Nearest-neighbour fixed-r rule does not establish Hamming/Young-diagram minimum seed or plane interface."
+    }
+  ],
+  "version_identity": {
+    "local_scope": "36page author manuscript, PDF metadata creation2010-10-15; exact local hash bound",
+    "primary_url": "https://arxiv.org/abs/1010.3326",
+    "official_record": "v1 submitted2010-10-16, v2 revised2011-02-24 (37pages with proof sketch added); this36page file is not asserted to be v2 or journal-byte-equivalent",
+    "published_identity": "Transactions AMS364(5)(2012)2667–2701 DOI10.1090/S0002-9947-2011-05552-2",
+    "same_work_not_new_work": true
+  },
+  "stage_hash_manifest": "reviews/R03/w05_primary_B7/stage_hashes.json",
+  "math_actual": "reviews/R03/w05_primary_B7/math_actual.json",
+  "release_approved": false,
+  "central_frozen_reviews_modified": false,
+  "limitations": [
+    "Independent checking of all card-used claims/key proof chain plus coverage structure, not second full36page read.",
+    "Hierarchy lemmas, auxiliary analytic sketch and Lem24/25 retain cited proof dependencies; no claim this paper reproves every cited ingredient.",
+    "Saved MATLAB quadrature and independent mpmath actual output only finite numerical consistency.",
+    "No current open-status verification or global theorem extension; no mother29→30 update in this review."
+  ],
+  "review_round": 2,
+  "resolved_findings": [
+    "Corrected existing local PDF path",
+    "Complete Lemma24 BK good-edge conjunction/crossnonconnection/no-bad-edge event restored",
+    "Source B logN/logn/logm scale mismatch faithfully disclosed; local expected-gooddegree verified as reuse obligation"
+  ],
+  "mother_integration_eligible": true,
+  "new_manifest_sha256": "a98158d006917d5f8cd17709bf4ca635c33710718f734f87b848ce78721570df",
+  "new_manifest_files_verified": 49,
+  "prior_round_review": "reviews/R03/w05_primary_B7/round1_review.json",
+  "reader_review_binding_is_historical_round1": true,
+  "integration_constraints": [
+    "Keep bbdm12 stablework ID; complete existing partial source rather than create another work.",
+    "Exact2010-10-15 local36p author version only; do not claim37p v2 or journalbyteequivalence.",
+    "Local scale expected-gooddegree remains a premise to verify when reusing Cerf–Cirillo template. Source discrepancy is disclosed, not silently repaired.",
+    "No mother29→30 or frozenrelease mutation by this reviewer; root applies nextversion integration.",
+    "Current reader manifest review_binding SHA refers to round1 review now preserved verbatim in round1_review.json; it is historical input, not current approval."
+  ]
+}

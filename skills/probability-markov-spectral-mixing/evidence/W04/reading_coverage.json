@@ -1,0 +1,1868 @@
+{
+  "worker": "W04",
+  "coverage_standard": "Complete physical-page maps reconstructed from actual sequential full-text reading; each section/subsection/appendix/end matter is covered. Rendered theorem/formula pages are identified when visually checked.",
+  "sources": {
+    "W04S003": {
+      "physical_pdf_pages_read": "1-10 (entire paper)",
+      "sections": [
+        {
+          "unit": "§1 Introduction and model",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Introduces zero-field ferromagnetic cycle Glauber dynamics, random-site heat-bath clock and monotonicity question."
+        },
+        {
+          "unit": "§2 Two Useful Lemmas",
+          "physical_pdf_pages": "3-4",
+          "mechanism_or_content": "Proves preservation of increasing functions and identifies the second eigenvalue through an increasing eigenfunction using FKG."
+        },
+        {
+          "unit": "§3 Proof of the Main Result",
+          "physical_pdf_pages": "5-8",
+          "mechanism_or_content": "Reduces the dynamics to the invariant linear-spin subspace, applies Perron–Frobenius and a variational formula, then differentiates the simple eigenvalue in one edge coupling."
+        },
+        {
+          "unit": "§4 Further Inequalities",
+          "physical_pdf_pages": "8",
+          "mechanism_or_content": "Derives additional inequalities for the cycle relaxation time."
+        },
+        {
+          "unit": "§5 Low Temperature Asymptotics",
+          "physical_pdf_pages": "9",
+          "mechanism_or_content": "Computes the low-temperature asymptotics of the relaxation time."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "10",
+          "mechanism_or_content": "Bibliographic references."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S004": {
+      "physical_pdf_pages_read": "1-6 (entire paper)",
+      "sections": [
+        {
+          "unit": "Front matter and model setup",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Defines homogeneous complete-graph Ising heat-bath dynamics with common coupling J and common field H."
+        },
+        {
+          "unit": "Theorem 1 and eigenvalue derivative setup",
+          "physical_pdf_pages": "3-4",
+          "mechanism_or_content": "States monotonicity in the common coupling and derives a simple-eigenvalue derivative formula."
+        },
+        {
+          "unit": "Magnetization-chain reduction and eigenvector symmetry",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "Reduces by permutation symmetry and uses an increasing eigenvector; the reflection step f_k=-f_{n-k} is audited only at H=0."
+        },
+        {
+          "unit": "Derivative sign calculation",
+          "physical_pdf_pages": "5-6",
+          "mechanism_or_content": "Computes the tridiagonal coupling derivative and signs the eigenvalue derivative under the proof's symmetry step."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "6",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "formula_audit_note": "Full paper was read; no numbered section headings. The nonzero-field theorem statement is not certified by the checked reflection proof.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S005": {
+      "physical_pdf_pages_read": "1-6 (entire paper)",
+      "sections": [
+        {
+          "unit": "Repository title/front matter",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Identifies the Kyushu repository copy and the paper title."
+        },
+        {
+          "unit": "§1 Introduction and §2 Result",
+          "physical_pdf_pages": "2-3",
+          "mechanism_or_content": "Defines zero-field finite-graph heat-bath dynamics and states the transient-expectation counterexample result."
+        },
+        {
+          "unit": "§3 The case of P2",
+          "physical_pdf_pages": "3-4",
+          "mechanism_or_content": "Reduces the P2 single-spin evolution to an explicit small matrix and studies the parameter derivative."
+        },
+        {
+          "unit": "§4 Counter example: the case of P3",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "Expands killed-walk transition probabilities and the lazy-chain mixture to obtain a negative fixed-time derivative."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "6",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S006": {
+      "physical_pdf_pages_read": "1-15 (entire paper)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Motivates positive correlations and previews the finite-lattice condition and applications."
+        },
+        {
+          "unit": "§2 Correlations on a Finite Distributive Lattice",
+          "physical_pdf_pages": "2-7",
+          "mechanism_or_content": "States and proves the FKG association inequality by support reduction, lattice induction and covariance decomposition."
+        },
+        {
+          "unit": "§3 Applications: lattice gas and Ising spin system",
+          "physical_pdf_pages": "7-11",
+          "mechanism_or_content": "Checks log-supermodularity for pair Ising/lattice-gas weights, including external fields."
+        },
+        {
+          "unit": "§3 Applications: random-cluster model",
+          "physical_pdf_pages": "12-14",
+          "mechanism_or_content": "Applies the lattice inequality to random-cluster measures and related monotonicity."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "15",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S007": {
+      "physical_pdf_pages_read": "1-6 (entire paper)",
+      "sections": [
+        {
+          "unit": "Title and setup",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Introduces strictly positive measures on a finite distributive lattice and states the cross-condition."
+        },
+        {
+          "unit": "Theorem 6 and coupled-generator proof",
+          "physical_pdf_pages": "2-4",
+          "mechanism_or_content": "Embeds the lattice in a finite subset lattice and constructs an order-preserving coupled single-coordinate generator; ergodicity gives stochastic domination."
+        },
+        {
+          "unit": "Corollaries 11–12 and FKG consequence",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "Derives increasing-function comparison and recovers FKG association by an increasing tilt."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "5",
+          "mechanism_or_content": "Bibliography; physical PDF p.6 is blank."
+        }
+      ],
+      "formula_audit_note": "No numbered section headings in the six-page paper.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S008": {
+      "physical_pdf_pages_read": "1-12 (entire paper)",
+      "sections": [
+        {
+          "unit": "§I Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Distinguishes GKS and FKG settings and introduces higher-spin/lattice-gas applications."
+        },
+        {
+          "unit": "§II Description of the General System",
+          "physical_pdf_pages": "3",
+          "mechanism_or_content": "Defines the higher-spin Hamiltonian and its equivalence to a multicomponent lattice gas."
+        },
+        {
+          "unit": "§III GKS and FKG Inequalities",
+          "physical_pdf_pages": "3-6",
+          "mechanism_or_content": "States Theorem 1 and verifies the lattice condition under the coefficient bound; records model scope."
+        },
+        {
+          "unit": "§IV Restricted Inequalities",
+          "physical_pdf_pages": "6-8",
+          "mechanism_or_content": "Works through spin-one and binary lattice-gas examples under additional interaction restrictions."
+        },
+        {
+          "unit": "§V Inequalities for Continuum Systems",
+          "physical_pdf_pages": "9-11",
+          "mechanism_or_content": "Passes the lattice inequalities through a spacing-to-zero approximation under stated potential and stability assumptions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "11-12",
+          "mechanism_or_content": "Bibliography and acknowledgements."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S012": {
+      "physical_pdf_pages_read": "1-9 (entire paper)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Introduces coupling and product-state setting."
+        },
+        {
+          "unit": "§1.1 Notation and preliminaries",
+          "physical_pdf_pages": "2",
+          "mechanism_or_content": "Defines the product space, adjacency and metrics used in path coupling."
+        },
+        {
+          "unit": "§2 Two convergence theorems",
+          "physical_pdf_pages": "2-5",
+          "mechanism_or_content": "Proves the product-Hamming general path-coupling theorem and a separate Metropolis variant."
+        },
+        {
+          "unit": "§3.1 Graph colourings and Potts model",
+          "physical_pdf_pages": "5-6",
+          "mechanism_or_content": "Applies path coupling to colourings, Potts and hypergraph-colouring chains."
+        },
+        {
+          "unit": "§3.2 Sink-free orientations and TWICE-SAT; §3.3 sink/source-free orientations",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Gives additional finite-chain coupling applications."
+        },
+        {
+          "unit": "§3.4 Independent sets and conserved hard-core lattice gases",
+          "physical_pdf_pages": "8",
+          "mechanism_or_content": "Applies coupling to fixed-size independent-set dynamics."
+        },
+        {
+          "unit": "§4 Conclusions and further work",
+          "physical_pdf_pages": "8",
+          "mechanism_or_content": "Summarizes path-coupling use and open extensions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        3
+      ],
+      "formula_audit_note": "Original Theorem 1 is limited to C^V with coordinate updates and Hamming distance. The arbitrary path-metric bound with diam/delta is a separate derivation, not source theorem text.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S015": {
+      "physical_pdf_pages_read": "1-12 (entire paper)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Sets up monotone spin systems and the censoring question."
+        },
+        {
+          "unit": "§1.1 Terminology",
+          "physical_pdf_pages": "3",
+          "mechanism_or_content": "Defines stochastic ordering, update schemes and total variation conventions."
+        },
+        {
+          "unit": "§1.2 Main results",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "States the censoring inequality and comparisons between update schedules."
+        },
+        {
+          "unit": "§2 Proof of the censoring inequality",
+          "physical_pdf_pages": "5-7",
+          "mechanism_or_content": "Proves likelihood-ratio preservation, association and one-step order/TV inequalities, then iterates."
+        },
+        {
+          "unit": "§3 Comparison of single-site update schemes",
+          "physical_pdf_pages": "8-10",
+          "mechanism_or_content": "Bounds systematic/random/alternating schedules and treats hanging-subgraph comparison."
+        },
+        {
+          "unit": "§3.1 Hanging subgraphs",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Proves a restricted graph-subsystem mixing comparison."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "10-12",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S016": {
+      "physical_pdf_pages_read": "1-12 (complete arXiv v2 including added appendix)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "States the uniform graph-wise mixing lower bound and identifies the random-site heat-bath model."
+        },
+        {
+          "unit": "§2 Proof of Theorem 1",
+          "physical_pdf_pages": "3-10",
+          "mechanism_or_content": "Splits by spectral gap; combines variational magnetization, FKG/GHS, Peres–Winkler censoring, accelerated block updates, coupling and a variance recursion."
+        },
+        {
+          "unit": "Appendix: A simple proof for an almost optimal lower bound",
+          "physical_pdf_pages": "11-12",
+          "mechanism_or_content": "Adds the 2013 gap split, coupon-collector and variance argument for the sharper n log n/2-scale lower bound."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "12",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "formula_audit_note": "Read file is arXiv:0909.5162v2, last revised 2013-09-25; appendix is absent from v1.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S023": {
+      "physical_pdf_pages_read": "1-19 (complete arXiv v1 paper, including Appendix A)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-4",
+          "mechanism_or_content": "Defines q-spin systems and motivates spectral independence."
+        },
+        {
+          "unit": "§1.1 Our results",
+          "physical_pdf_pages": "4-7",
+          "mechanism_or_content": "States the gap lower bound and applications under spectral-independence hypotheses."
+        },
+        {
+          "unit": "§1.2 Concluding remarks and future directions",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Summarizes limitations and follow-up questions."
+        },
+        {
+          "unit": "§2.1 Down-up random walk",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Identifies Glauber dynamics with walks on weighted simplicial complexes."
+        },
+        {
+          "unit": "§2.2 Spectral independence",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Defines influence matrices and pinned spectral-independence parameters."
+        },
+        {
+          "unit": "§3 Spectral gap via spectral independence",
+          "physical_pdf_pages": "9-13",
+          "mechanism_or_content": "Derives block variance factorization, conditional tensorization and the single-site gap estimate."
+        },
+        {
+          "unit": "§3.1 Block factorization of variance",
+          "physical_pdf_pages": "10",
+          "mechanism_or_content": "Relates local contraction to variance factorization."
+        },
+        {
+          "unit": "§3.2 Block factorization for spectrally independent distributions",
+          "physical_pdf_pages": "10-11",
+          "mechanism_or_content": "Combines influence bounds and martingale decompositions."
+        },
+        {
+          "unit": "§3.3 Proof of Theorem 1.1",
+          "physical_pdf_pages": "12-13",
+          "mechanism_or_content": "Transfers block estimates to single-site factorization and concludes the spectral-gap bound."
+        },
+        {
+          "unit": "§4 Applications, §§4.1–4.3",
+          "physical_pdf_pages": "13-14",
+          "mechanism_or_content": "Applies the theorem to colorings, hard-core systems and matchings under separate hypotheses."
+        },
+        {
+          "unit": "Appendix A",
+          "physical_pdf_pages": "14-17",
+          "mechanism_or_content": "Proves the martingale-increment recurrence and variance-factorization facts used in §3; Appendix A begins at the bottom of physical p.14."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "17-19",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S025": {
+      "physical_pdf_pages_read": "1-15 (entire paper)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-4",
+          "mechanism_or_content": "Defines the nearest order-statistic Markov kernel and iteration of its stationary-law map; distinguishes inner-chain stationarity from nonlinear iteration."
+        },
+        {
+          "unit": "§2 Existence and uniqueness of stationary distributions",
+          "physical_pdf_pages": "5-6",
+          "mechanism_or_content": "Theorem 1: natural coupling gives unique stationary law, explicit TV rate and two-sided support domination."
+        },
+        {
+          "unit": "§3 Two or 3 points",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Analyzes two-point binomial maps and proves a three-point finite-space fixed-point exclusion."
+        },
+        {
+          "unit": "§4 The k=2 case",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Proves equivalence of invariant distributions for π_{1,2} and π_{2,2}."
+        },
+        {
+          "unit": "§5 The case S=[0,1]",
+          "physical_pdf_pages": "9-12",
+          "mechanism_or_content": "Theorem 4 and Lemmas 5–6 exclude all full-support invariant laws for k=2 via endpoint support, a distribution-function inequality and endpoint-mass equality cases."
+        },
+        {
+          "unit": "§6 A class of tree spaces",
+          "physical_pdf_pages": "12-14",
+          "mechanism_or_content": "Proves a k=2 invariant-measure exclusion on finite binary-tree-leaf metric spaces using a centroid partition and mass bounds."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "15",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        5,
+        10,
+        11
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S026": {
+      "physical_pdf_pages_read": "1-3, 14-15, 21-22 (targeted partial read; 29 pages total)",
+      "read_units": [
+        {
+          "unit": "§1 Introduction and mapping definition",
+          "physical_pdf_pages": "1-3",
+          "complete": false,
+          "mechanism_or_content": "Defines π_{j,k}, the nonlinear iteration and fixed-point terminology."
+        },
+        {
+          "unit": "§5.1 finite-space fixed points and Conjecture 5",
+          "physical_pdf_pages": "14-15",
+          "complete": false,
+          "mechanism_or_content": "Gives finite rank-matrix examples, states the a.e. simplex-convergence conjecture and defines the reference simplex measure."
+        },
+        {
+          "unit": "§7.3 interval rigorous boundary",
+          "physical_pdf_pages": "21-22",
+          "complete": false,
+          "mechanism_or_content": "States the all-(j,k) full-support fixed-point question and conjecture; Theorem 9 restates the k=2 theorem and a density-only parameter subcase."
+        }
+      ],
+      "rendered_pages_viewed": [
+        15,
+        22
+      ],
+      "note": "This informal companion explicitly says it is not intended for formal publication. Numerical examples are not treated as theorem evidence."
+    },
+    "W04S027": {
+      "physical_pdf_pages_read": "1-27 (entire scanned article and front sheet)",
+      "sections": [
+        {
+          "unit": "JSTOR cover/front sheet",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Scanned archive notice; identifies the journal wrapper but is not counted as an article page."
+        },
+        {
+          "unit": "§1 Introduction and notation",
+          "physical_pdf_pages": "2-3",
+          "mechanism_or_content": "Finite irreducible reversible chain, eigenvalue ordering, Dirichlet form, total-variation/spectral conventions, and setup for path estimates."
+        },
+        {
+          "unit": "§1B Poincaré inequalities",
+          "physical_pdf_pages": "3-5",
+          "mechanism_or_content": "Proposition 1 statement is physical p.3 / printed p.37; proof physical p.4 / printed p.38 gives the weighted canonical-path congestion bound by variance telescoping and Cauchy–Schwarz; Corollary 1 specializes to simple random walks on connected graphs."
+        },
+        {
+          "unit": "§1C Smallest eigenvalue",
+          "physical_pdf_pages": "5-7",
+          "mechanism_or_content": "Odd return paths and endpoint-sum Cauchy–Schwarz bound the bottom eigenvalue; graph corollary and absolute-gap/aperiodicity remarks."
+        },
+        {
+          "unit": "§1D Variation-distance bounds and §1E remarks",
+          "physical_pdf_pages": "7-9",
+          "mechanism_or_content": "Reversible spectral expansion gives discrete-time TV control via both spectral endpoints and rate-one Poissonization via the upper endpoint."
+        },
+        {
+          "unit": "§2 Examples",
+          "physical_pdf_pages": "10-18",
+          "mechanism_or_content": "Cycle, cube, Bernoulli–Laplace, trees and subdivided triangle test path geometry, bottlenecks, and random-path improvements against exact or trial-function bounds."
+        },
+        {
+          "unit": "§3 Cheeger’s inequality",
+          "physical_pdf_pages": "18–24",
+          "mechanism_or_content": "§3 begins on physical p.18/printed p.52 with Proposition 6, printed as 1−2h≤β₁≤1−h². The proof-supported weak bound h²/2≤λ₁≤2h is stated in equation (3.4) at physical p.22/printed p.56 and derived in equations (3.5)–(3.7), physical pp.22–24. An exact admissible counterexample refutes the printed strong upper half; §4 begins lower on physical p.24."
+        },
+        {
+          "unit": "§4 Approximating the permanent",
+          "physical_pdf_pages": "24–26",
+          "mechanism_or_content": "§4 begins on physical p.24 (printed p.58), after the Cheeger proof on the same page; it defines Broder’s matching chain and proves the stated dense bipartite degree condition gives β₁≤1−1/(6n⁷) using canonical paths."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "26-27",
+          "mechanism_or_content": "Complete bibliography and author affiliations."
+        }
+      ],
+      "visual_check": "Complete image-only scan read page by page. Newly rendered formula/section pages 3, 4, 18, 22, 23, 24 checked against printed page numbers and theorem/proof content.",
+      "rendered_pages_viewed": [
+        3,
+        4,
+        18,
+        22,
+        23,
+        24
+      ],
+      "formula_audit_note": "Rendered original scan physical pp.3–4: Proposition 1 statement is p.3/printed p.37 and proof p.4/printed p.38. Rendered p.18/printed p.52: Proposition 6 statement. Rendered p.22/printed p.56: equation (3.4) is the weak h²/2≤λ₁≤2h estimate; p.23 shows (3.5)–(3.6), p.24 shows (3.7) with λ≥h(ψ)^2/2 and then starts §4. Thus the source proof yields only β₁≤1−h²/2; the stronger displayed β₁≤1−h² is separately contradicted by the exact reversible aperiodic four-state example. No laziness or positive-spectrum premise appears in Proposition 6.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S028": {
+      "physical_pdf_pages_read": "1-13 (entire paper)",
+      "sections": [
+        {
+          "unit": "§1 Introduction, parameter definitions and Theorems 5–6",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "The opening model defines X_t as an ergodic finite-state continuous-time chain with transition-rate matrix Q and transition semigroup P_t. Defines all four time parameters on this CT clock; Theorems 5–6 are stated here. Proposition 8 on printed p.566 / physical p.3 uses β as relaxation time with spectral decay exp(−t/β), and bounds τ₁ by β[1+½log(1/π_min)]."
+        },
+        {
+          "unit": "§2 Proofs of Theorems 5–6",
+          "physical_pdf_pages": "3-10",
+          "mechanism_or_content": "Proofs retain the source’s continuous-time semigroup, stopping-time filtration and continuous-time hitting/occupation times; includes submultiplicativity, exponential decay, exact-stationarity stopping-time constructions and spectral smoothing."
+        },
+        {
+          "unit": "§3 Construction of the canonical stopping time",
+          "physical_pdf_pages": "11-12",
+          "mechanism_or_content": "Constructs the stopping rule used to turn hitting-time control into an exact stationary stopping time."
+        },
+        {
+          "unit": "§4 Examples",
+          "physical_pdf_pages": "12-13",
+          "mechanism_or_content": "Examples show the logarithmic losses and limits of general-chain or hitting-time-only implications."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "13",
+          "mechanism_or_content": "Bibliography."
+        }
+      ],
+      "rendered_pages_viewed": [
+        3
+      ],
+      "formula_audit_note": "Rendered physical p.3/printed p.566 shows the spectral expansion with exp(−t/β_r) for t≥0 and Proposition 8. Read alongside physical pp.1–2, which define the continuous-time chain via its rate matrix Q and semigroup p_ij(t); all τ parameters are continuous-time quantities. A discrete-time statement needs its own clock conversion/periodicity argument.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S029": {
+      "physical_pdf_pages_read": "1-21 (complete arXiv v1 paper)",
+      "sections": [
+        {
+          "unit": "§1 Introduction and Theorems 1.1–1.5",
+          "physical_pdf_pages": "1-5",
+          "mechanism_or_content": "Sets up symmetric forms and scaled measures, states Cheeger inequalities and local/global spectral-gap criteria."
+        },
+        {
+          "unit": "§2 Proofs of Theorems 1.1–1.3",
+          "physical_pdf_pages": "6-10",
+          "mechanism_or_content": "Proves square-function/Cauchy–Schwarz Cheeger bounds, shift/median argument, and Lyapunov-local Cheeger criterion; includes comparison Theorem 2.5."
+        },
+        {
+          "unit": "§3 Spectral-gap existence criterion and proofs of Theorems 1.4–1.5",
+          "physical_pdf_pages": "11-15",
+          "mechanism_or_content": "Uses local Dirichlet/Neumann forms, cutoff optimization, exponential test functions, and Lyapunov drift to localize or exclude a gap."
+        },
+        {
+          "unit": "§4 Markov-chain applications and examples",
+          "physical_pdf_pages": "15-19",
+          "mechanism_or_content": "Applies the criteria to birth–death and lattice processes and tests sharpness/failure of different Cheeger constants."
+        },
+        {
+          "unit": "§5 Appendix: proof of Lemma 2.1 and references",
+          "physical_pdf_pages": "19-21",
+          "mechanism_or_content": "Completes the form inequality proof and lists sources; references begin near the end of p.19 and continue."
+        }
+      ],
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S030": {
+      "physical_pdf_pages_read": "1-14 (entire arXiv v1 preprint)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Motivates discrete-time reversibility and the need to control spectrum near both +1 and −1."
+        },
+        {
+          "unit": "§2 Spectral-gap theorem and definitions",
+          "physical_pdf_pages": "2-5",
+          "mechanism_or_content": "States Lawler–Sokal inequality, defines k,K,k₂ and proves the equivalence of centered L² gap, 0<k≤K<2, and k₂>0; the spectral enclosure is for P|L²_0(π)."
+        },
+        {
+          "unit": "§3 Proof of Theorem 2",
+          "physical_pdf_pages": "5-13",
+          "mechanism_or_content": "Lemmas 1–7 and Propositions 1–2 prove conductance implications, the explicit three-case lower bound (13) for k₂, and the periodicity obstruction; Proposition 1 applies P² and spectral mapping on the centered space."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": "13-14",
+          "mechanism_or_content": "Acknowledgements and bibliography; no further theorem."
+        }
+      ],
+      "version_note": "The preprint body includes an anomalous 2018 date string; the read artifact is identified as arXiv:0908.0897v1.",
+      "spectral_space_note": "Spectral gap and enclosure concern the restriction of P to L²_0(π); the source introduces the centered space on physical PDF p.3 and Proposition 1 explicitly writes P:L²_0(π)→L²_0(π). σ(P) in theorem statements is shorthand for the restricted operator, not the full operator, whose spectrum contains 1.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S031": {
+      "physical_pdf_pages_read": "1-24 (entire arXiv v2 survey)",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "Motivates reversible and nonreversible comparison, warns that odd flows matter, and previews the survey."
+        },
+        {
+          "unit": "§2 Comparing Dirichlet forms: §§2.1–2.2",
+          "physical_pdf_pages": "3-5",
+          "mechanism_or_content": "Defines paths, congestion and the E/F quadratic forms; proves flow comparison for differences and odd-flow comparison for endpoint sums."
+        },
+        {
+          "unit": "§3 Comparing reversible chains: §§3.1–3.4",
+          "physical_pdf_pages": "5-12",
+          "mechanism_or_content": "Relates eigenvalues to mixing lower/upper bounds and derives odd-flow comparison; examples show ordinary flows fail near period two."
+        },
+        {
+          "unit": "§4 Comparison without reversibility: §§4.1–4.4",
+          "physical_pdf_pages": "12-21",
+          "mechanism_or_content": "Develops conductance and additive-reversiblization lower bounds, continuous-time mixing upper bounds, discrete-time auxiliary-chain bounds, and limitations for the original chain."
+        },
+        {
+          "unit": "§5 State congestion, Lemma 27, and references",
+          "physical_pdf_pages": "21-24",
+          "mechanism_or_content": "Converts state/edge overlap congestion into a flow with bounded edge congestion and completes the bibliography."
+        }
+      ],
+      "theorem_page_locators": "Theorems 1–2: PDF p.5 / printed p.93; Theorem 5: p.6 / p.94; Theorems 7–8: p.8 / p.96; Theorem 10: p.10 / p.98; Theorem 17: p.13 / p.101; Theorem 19: p.16 / p.104; Theorem 22: p.18 / p.106; Theorem 23: p.20 / p.108; Lemma 27: p.22 / p.110.",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S011": {
+      "physical_pdf_pages_read": "1-36; entire local PDF, JSTOR cover at p.1 and article pp.2-36",
+      "complete": true,
+      "sections": [
+        {
+          "unit": "JSTOR cover and provenance",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Verified title, authors, journal, volume, year, printed pages and repository metadata."
+        },
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "2-3",
+          "mechanism_or_content": "Sets up finite reversible chains and the symmetric exclusion application; previews form comparison and path routing."
+        },
+        {
+          "unit": "§2 Forms and eigenvalues: §§2A–2B",
+          "physical_pdf_pages": "3-10",
+          "mechanism_or_content": "Defines Dirichlet and plus forms, uses minimax to compare eigenvalues, and proves path comparison with graph-walk examples."
+        },
+        {
+          "unit": "§2C Comparison using multicommodity flows",
+          "physical_pdf_pages": "10-12",
+          "mechanism_or_content": "Splits comparison transitions over flows; congestion is the path-length-weighted load on each edge."
+        },
+        {
+          "unit": "§3 The exclusion process",
+          "physical_pdf_pages": "12-23",
+          "mechanism_or_content": "Defines the degree-proportional r-particle chain and stationary law; compares with Bernoulli–Laplace using conflict-resolving and odd paths. Lemma 3.2 ends on physical p.23, where §4 begins lower on the same page."
+        },
+        {
+          "unit": "§4 Lower bound on the second largest eigenvalue",
+          "physical_pdf_pages": "23-24",
+          "mechanism_or_content": "Begins lower on physical p.23; lifts a one-particle eigenfunction to r-sets and computes the Rayleigh quotient with finite-population variance."
+        },
+        {
+          "unit": "§5 Examples of simple exclusion processes",
+          "physical_pdf_pages": "25-29",
+          "mechanism_or_content": "Specializes estimates to cycles, cubes, grids, permutation walks, stars and bipartite graphs."
+        },
+        {
+          "unit": "§6 Further results and remarks",
+          "physical_pdf_pages": "30-35",
+          "mechanism_or_content": "Derives total-variation estimates from the spectrum and discusses sharpness, variants and open questions."
+        },
+        {
+          "unit": "Acknowledgments and References",
+          "physical_pdf_pages": "35-36",
+          "mechanism_or_content": "Read acknowledgments and full bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        4,
+        13,
+        14,
+        23,
+        24,
+        31
+      ],
+      "formula_audit_note": "Theorem 3.1 eigenvalue bounds and Theorem 4.1 lower-bound formula were visually checked against the PDF; p.4 form display and p.31 spectral display were also rendered."
+    },
+    "W04S013": {
+      "physical_pdf_pages_read": "1-24; entire paper",
+      "complete": true,
+      "sections": [
+        {
+          "unit": "Title, abstract and §1 Introduction",
+          "physical_pdf_pages": "1-5",
+          "mechanism_or_content": "States bounded-degree lower bound and degree tradeoff; introduces locality, hard constraints and nonredundancy."
+        },
+        {
+          "unit": "§2 Preliminaries: §§2.1–2.3",
+          "physical_pdf_pages": "5-10",
+          "mechanism_or_content": "Defines feasible spin systems and reversible updates, gives examples and mixing convention, and compares discrete/continuous clocks."
+        },
+        {
+          "unit": "§3.1 Disagreement percolation",
+          "physical_pdf_pages": "10-12",
+          "mechanism_or_content": "Shared-clock coupling bounds propagation over graph distance and gives frozen-region consequences."
+        },
+        {
+          "unit": "§3.2 Monotonicity properties",
+          "physical_pdf_pages": "12-14",
+          "mechanism_or_content": "Uses reversible spectral expansion to prove complete monotonicity of conditioned-set probabilities and a site-persistence bound."
+        },
+        {
+          "unit": "§4 Main result: §4.1 unconstrained case and §4.2 hard constraints",
+          "physical_pdf_pages": "15-19",
+          "mechanism_or_content": "Combines separated centers, frozen boundaries, percolation, CMD and coupling for continuous-time logarithmic and discrete-time n-log-n lower bounds."
+        },
+        {
+          "unit": "§5.1 Graphs with unbounded degree",
+          "physical_pdf_pages": "19-22",
+          "mechanism_or_content": "Constructs a local three-spin dynamics simulating reversible random walks to obtain the degree/mixing tradeoff."
+        },
+        {
+          "unit": "§§5.2–5.3 Nonuniform schedules and block dynamics",
+          "physical_pdf_pages": "22-23",
+          "mechanism_or_content": "States schedule constraints and bounded-size, bounded-rate block-update extension."
+        },
+        {
+          "unit": "Acknowledgments and References",
+          "physical_pdf_pages": "23-24",
+          "mechanism_or_content": "Read acknowledgments and full bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        4,
+        10,
+        13,
+        17
+      ],
+      "formula_audit_note": "Theorem 1.1 was checked on p.4; clock comparison, disagreement/CMD and hard-constraint proof pages were rendered."
+    },
+    "W04S014": {
+      "physical_pdf_pages_read": "1-38; entire paper",
+      "complete": true,
+      "sections": [
+        {
+          "unit": "Abstract, §1 Introduction and §1.1 Applications",
+          "physical_pdf_pages": "1-5",
+          "mechanism_or_content": "Defines influence-matrix approach and motivates rapid mixing for statistical-physics sampling."
+        },
+        {
+          "unit": "§2.1 Matrix norms",
+          "physical_pdf_pages": "5-11",
+          "mechanism_or_content": "Defines norm conventions, spectral-radius facts, Perron eigenvectors and weighted norms."
+        },
+        {
+          "unit": "§2.2 Random-update and systematic-scan dynamics",
+          "physical_pdf_pages": "11-12",
+          "mechanism_or_content": "Defines dependency matrices, coordinate-update matrices and the full systematic-scan product R⃗=R₁⋯R_n; Lemma 2 is stated separately with ||R||."
+        },
+        {
+          "unit": "§2.3 Applicability of Lemmas 1 and 2",
+          "physical_pdf_pages": "12-13",
+          "mechanism_or_content": "Gives a facilitated-spin example requiring a nonstandard matrix norm."
+        },
+        {
+          "unit": "§3.1 Path coupling",
+          "physical_pdf_pages": "14-19",
+          "mechanism_or_content": "Contracts weighted-Hamming disagreements; Lemma 22 at physical p.18 applies the norm criterion to the full-scan product R⃗, not Lemma 2’s ||R|| condition."
+        },
+        {
+          "unit": "§3.2 Dobrushin uniqueness",
+          "physical_pdf_pages": "20-23",
+          "mechanism_or_content": "Derives the mixing conditions using coordinate oscillations and Dobrushin inequalities."
+        },
+        {
+          "unit": "§3.3 Improved analysis of systematic scan",
+          "physical_pdf_pages": "24-25",
+          "mechanism_or_content": "Scales the upper triangle in the symmetric zero-diagonal case and proves an improved scan bound."
+        },
+        {
+          "unit": "§4 Coloring sparse graphs",
+          "physical_pdf_pages": "26-36",
+          "mechanism_or_content": "Bounds spectral radius by graph density/orientations and applies it to piecewise coloring mixing bounds."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "36-38",
+          "mechanism_or_content": "Read complete bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        3,
+        18,
+        19,
+        20,
+        24,
+        25,
+        35
+      ],
+      "formula_audit_note": "Lemmas 1 and 2 require ||R||≤μ<1 (random update and systematic scan, respectively); Lemma 22 separately uses the full-scan product ||R⃗||≤μ<1, on physical p.18. Lemma 23/Corollary 24 connect R⃗ to R, and Corollary 27 gives the norm-based scan bound. The special symmetric zero-diagonal estimate was checked on pp.24-25."
+    },
+    "W04S017": {
+      "physical_pdf_pages_read": "1-43; entire paper",
+      "complete": true,
+      "sections": [
+        {
+          "unit": "Abstract, §1 Introduction and Theorems 1–3",
+          "physical_pdf_pages": "1-6",
+          "mechanism_or_content": "Defines Curie–Weiss dynamics, total-variation cutoff and subcritical, critical and supercritical regimes."
+        },
+        {
+          "unit": "§2 Outline of proof: §§2.1–2.2",
+          "physical_pdf_pages": "6-8",
+          "mechanism_or_content": "Explains hitting-time, coupling, magnetization-lifting and barrier proof strategies."
+        },
+        {
+          "unit": "§3 Preliminaries: §§3.1–3.5",
+          "physical_pdf_pages": "8-16",
+          "mechanism_or_content": "Derives magnetization kernel, relation to full mixing, one-dimensional chain tools, monotone coupling and gap reduction."
+        },
+        {
+          "unit": "§4 High-temperature regime: §§4.1–4.3",
+          "physical_pdf_pages": "16-29",
+          "mechanism_or_content": "Proves magnetization cutoff, lifts to configurations and establishes the gap with contraction, moment and Dirichlet estimates."
+        },
+        {
+          "unit": "§5 Critical window: §§5.1–5.3",
+          "physical_pdf_pages": "29-35",
+          "mechanism_or_content": "Gives upper/lower mixing estimates, quartic critical magnetization limit and critical gap order."
+        },
+        {
+          "unit": "§6 Low-temperature regime: §§6.1–6.2",
+          "physical_pdf_pages": "35-42",
+          "mechanism_or_content": "Uses birth-and-death hitting times and effective resistance for metastable mixing and gap scales."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "42-43",
+          "mechanism_or_content": "Read complete bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        3,
+        4,
+        16,
+        28,
+        36
+      ],
+      "formula_audit_note": "Theorem 1 was checked on p.3; Theorems 2–3 and low-temperature hitting-time formula on pp.4 and 36 were visually inspected."
+    },
+    "W04S018": {
+      "physical_pdf_pages_read": "1-55; entire arXiv v1 PDF",
+      "complete": true,
+      "sections": [
+        {
+          "unit": "Abstract, §1 Introduction and Theorem 1",
+          "physical_pdf_pages": "1-5",
+          "mechanism_or_content": "Defines reflected censored Curie–Weiss chain, cutoff theorem and phase-diagram context."
+        },
+        {
+          "unit": "§2 Outline of proofs: §§2.1–2.3",
+          "physical_pdf_pages": "5-9",
+          "mechanism_or_content": "Summarizes magnetization phases, lift to configurations and gap method."
+        },
+        {
+          "unit": "§3 Preliminaries: §§3.1–3.2",
+          "physical_pdf_pages": "9-11",
+          "mechanism_or_content": "Derives original/censored magnetization kernels and scalar monotonicity; distinguishes full-chain coupling."
+        },
+        {
+          "unit": "§4.1 From zero to n^(-1/4)",
+          "physical_pdf_pages": "12-20",
+          "mechanism_or_content": "Controls burn-in and first threshold crossing by drift, moment recurrences and variance."
+        },
+        {
+          "unit": "§4.2 From n^(-1/4) to √δ",
+          "physical_pdf_pages": "20-22",
+          "mechanism_or_content": "Uses geometric thresholds and drift/variance bounds for the second phase."
+        },
+        {
+          "unit": "§4.3 From √δ to ζ",
+          "physical_pdf_pages": "22-29",
+          "mechanism_or_content": "Proves the delicate third phase with Taylor expansion, FKG association, fluctuation estimates and coupling."
+        },
+        {
+          "unit": "§4.4 From 1 to ζ",
+          "physical_pdf_pages": "29-32",
+          "mechanism_or_content": "Bounds approach from the all-plus end using another threshold schedule and censored-chain concentration."
+        },
+        {
+          "unit": "§4.5 Magnetization-chain cutoff proof",
+          "physical_pdf_pages": "33-37",
+          "mechanism_or_content": "Combines phase estimates and monotone scalar coupling."
+        },
+        {
+          "unit": "§5 Cutoff for the entire dynamics",
+          "physical_pdf_pages": "38-43",
+          "mechanism_or_content": "Lifts scalar mixing through burn-in, two-coordinate estimates and control of initially positive/negative spin sets."
+        },
+        {
+          "unit": "§6 Spectral gap: §§6.1–6.2",
+          "physical_pdf_pages": "44-51",
+          "mechanism_or_content": "Uses conductance and a Dirichlet test for magnetization, then splits full-chain functions into slice-constant and zero-slice-mean components."
+        },
+        {
+          "unit": "§7 Fixed low-temperature extension and technical estimates",
+          "physical_pdf_pages": "52-54",
+          "mechanism_or_content": "Records modified thresholds, escape/variance estimates and fixed-δ proof details."
+        },
+        {
+          "unit": "§8 Concluding remarks and open problems; References",
+          "physical_pdf_pages": "54-55",
+          "mechanism_or_content": "States transitive-graph conjectures and supplies full bibliography."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        4,
+        13,
+        27,
+        44,
+        48,
+        51
+      ],
+      "formula_audit_note": "Theorem 1, expansion near ζ, conductance argument and full-chain spectral decomposition were checked on originals. Section 8 conjectures remain labeled as conjectures."
+    },
+    "W04S019": {
+      "physical_pdf_pages_read": "1-32 (entire PDF)",
+      "sections": [
+        {
+          "unit": "Title, abstract and front matter",
+          "physical_pdf_pages": "1",
+          "mechanism_or_content": "Identifies the tree Glauber-dynamics paper, its tree boundary-condition focus and publication details."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "2-3",
+          "mechanism_or_content": "Contrasts lattice and tree mixing and introduces the boundary-sensitive Ising problem."
+        },
+        {
+          "unit": "§1.1 The Ising model on trees",
+          "physical_pdf_pages": "3-4",
+          "mechanism_or_content": "Defines the complete b-ary tree Ising model, field, boundary conditions and message thresholds."
+        },
+        {
+          "unit": "§1.2 Main results and techniques",
+          "physical_pdf_pages": "4-6",
+          "mechanism_or_content": "States gap and log-Sobolev theorems and outlines variance/entropy mixing plus coupling arguments."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": "6",
+          "mechanism_or_content": "Acknowledgment text read."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "6-8",
+          "mechanism_or_content": "Sets notation and Gibbs/tree dynamics assumptions for subsequent comparison inequalities."
+        },
+        {
+          "unit": "§2.1 Gibbs distributions on trees",
+          "physical_pdf_pages": "6-7",
+          "mechanism_or_content": "Defines the finite tree Gibbs law and boundary specification."
+        },
+        {
+          "unit": "§2.2 The Glauber dynamics",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Defines heat-bath updates, Dirichlet form, spectral gap and log-Sobolev constants."
+        },
+        {
+          "unit": "§3 Spatial mixing conditions for spectral gap and log-Sobolev",
+          "physical_pdf_pages": "8-12",
+          "mechanism_or_content": "Reduces functional inequalities to variance and entropy mixing across tree levels."
+        },
+        {
+          "unit": "§3.1 Reduction to block analysis",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Relates single-site and block Dirichlet forms by layerwise telescoping."
+        },
+        {
+          "unit": "§3.2 Spatial mixing",
+          "physical_pdf_pages": "9-12",
+          "mechanism_or_content": "Defines VM/EM and proves their quantitative implications for gap and log-Sobolev constants."
+        },
+        {
+          "unit": "§4 Verifying spatial mixing for the spectral gap",
+          "physical_pdf_pages": "12-18",
+          "mechanism_or_content": "Establishes variance mixing via message influence and tree couplings."
+        },
+        {
+          "unit": "§4.1 A coupling argument for decay of point-to-set correlations",
+          "physical_pdf_pages": "13-16",
+          "mechanism_or_content": "Bounds root disagreement by inward and outward influence factors and obtains exponential VM."
+        },
+        {
+          "unit": "§4.2 Proof of Theorem 4.1",
+          "physical_pdf_pages": "16-18",
+          "mechanism_or_content": "Checks the contraction criterion in arbitrary-boundary and plus-boundary temperature/field regimes."
+        },
+        {
+          "unit": "§5 Verifying spatial mixing for log-Sobolev",
+          "physical_pdf_pages": "18-23",
+          "mechanism_or_content": "Transfers concentration and coupling estimates to entropy mixing."
+        },
+        {
+          "unit": "§5.1 Establishing via a strong concentration property",
+          "physical_pdf_pages": "19-20",
+          "mechanism_or_content": "Reduces entropy mixing to concentration of conditional block densities."
+        },
+        {
+          "unit": "§5.2 Proof of Theorem 5.1",
+          "physical_pdf_pages": "20-22",
+          "mechanism_or_content": "Uses coupling and concentration bounds to verify the entropy criterion in the Ising regimes."
+        },
+        {
+          "unit": "§5.3 A crude bound on log-Sobolev via the spectral gap",
+          "physical_pdf_pages": "22-23",
+          "mechanism_or_content": "Proves a weaker general-tree log-Sobolev lower bound from the gap."
+        },
+        {
+          "unit": "§6 Extensions to other models",
+          "physical_pdf_pages": "23-26",
+          "mechanism_or_content": "Records hard-core, coloring and Potts extensions with their separate conditions and citations."
+        },
+        {
+          "unit": "§6.1 The hard-core model (independent sets)",
+          "physical_pdf_pages": "24-25",
+          "mechanism_or_content": "States tree hard-core gap and entropy results."
+        },
+        {
+          "unit": "§6.2 The antiferromagnetic Potts model (colorings)",
+          "physical_pdf_pages": "25",
+          "mechanism_or_content": "States the coloring result and its q-versus-b restriction."
+        },
+        {
+          "unit": "§6.3 The ferromagnetic Potts model",
+          "physical_pdf_pages": "25-26",
+          "mechanism_or_content": "Records the ferromagnetic Potts extension and boundary regime."
+        },
+        {
+          "unit": "§7 Proofs omitted from the main text",
+          "physical_pdf_pages": "26-30",
+          "mechanism_or_content": "Supplies the deferred entropy-mixing and concentration arguments."
+        },
+        {
+          "unit": "§7.1 Proof of Lemma 3.5",
+          "physical_pdf_pages": "26-28",
+          "mechanism_or_content": "Derives the modified VM/EM inequalities used in the block reduction."
+        },
+        {
+          "unit": "§7.2 Proof of reverse direction of Theorem 3.4",
+          "physical_pdf_pages": "28-29",
+          "mechanism_or_content": "Proves the converse from a log-Sobolev bound to entropy mixing."
+        },
+        {
+          "unit": "§7.3 Proof of Lemma 5.4",
+          "physical_pdf_pages": "29-30",
+          "mechanism_or_content": "Completes the entropy-concentration estimate."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "30-32",
+          "mechanism_or_content": "Complete bibliography read."
+        }
+      ],
+      "rendered_pages_viewed": [
+        4,
+        10,
+        14,
+        17,
+        19,
+        24
+      ],
+      "pdf_sha256": "90ff84338ac44547a04f113b689fa2fc9abc44482e03067251b733058a14fdbc",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S020": {
+      "physical_pdf_pages_read": "1-26 (entire PDF)",
+      "sections": [
+        {
+          "unit": "Title, abstract and §1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "mechanism_or_content": "Frames the critical slowdown problem and states the polynomial inverse-gap result."
+        },
+        {
+          "unit": "§1.1 Background and previous work",
+          "physical_pdf_pages": "3-7",
+          "mechanism_or_content": "Surveys critical dynamics and random-cluster methods through physical p.7, where §1.2 begins; the two section maps overlap at this page."
+        },
+        {
+          "unit": "§1.2 Polynomial mixing under arbitrary boundary conditions",
+          "physical_pdf_pages": "7",
+          "mechanism_or_content": "States the main critical-box theorem and its arbitrary-boundary scope."
+        },
+        {
+          "unit": "§1.3 Efficient rigorous perfect simulation",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Places the result in the perfect-sampling literature."
+        },
+        {
+          "unit": "§1.4 Main techniques",
+          "physical_pdf_pages": "8",
+          "mechanism_or_content": "Outlines FK/RSW spatial mixing and block-dynamics recursion."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "8-11",
+          "mechanism_or_content": "Defines the dynamics, spectral gap/block comparison and FK representation."
+        },
+        {
+          "unit": "§2.1 Glauber dynamics for the Ising model",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Specifies finite-range local rates, detailed balance and the gap convention."
+        },
+        {
+          "unit": "§2.2 Mixing in L1 and L2",
+          "physical_pdf_pages": "9",
+          "mechanism_or_content": "Records the finite-chain inequalities converting gap bounds to mixing."
+        },
+        {
+          "unit": "§2.3 Single-site vs. block dynamics",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Relates block and single-site spectral gaps."
+        },
+        {
+          "unit": "§2.4 FK model",
+          "physical_pdf_pages": "10-11",
+          "mechanism_or_content": "Defines q=2 random-cluster weights, boundary wiring, FKG and domain Markov tools."
+        },
+        {
+          "unit": "§3 Polynomial mixing at criticality",
+          "physical_pdf_pages": "11-19",
+          "mechanism_or_content": "Proves polynomial gap by recursive overlapping blocks and critical spatial mixing."
+        },
+        {
+          "unit": "§3.1 A spatial-mixing result and proof of Theorem 3.1",
+          "physical_pdf_pages": "11-14",
+          "mechanism_or_content": "Uses RSW crossing control and block-gap recursion to establish the rectangle result."
+        },
+        {
+          "unit": "§3.2 Proof of Theorem 3.2 (spatial mixing for critical Ising on Z2)",
+          "physical_pdf_pages": "14-19",
+          "mechanism_or_content": "Couples FK configurations after revealing a boundary cluster and transfers agreement by Edwards–Sokal."
+        },
+        {
+          "unit": "§4 A polynomial lower bound and other boundary conditions",
+          "physical_pdf_pages": "19-23",
+          "mechanism_or_content": "Proves a matching-direction polynomial slowdown lower bound and handles free/periodic variants."
+        },
+        {
+          "unit": "§4.1 A polynomial lower bound on the inverse-gap",
+          "physical_pdf_pages": "19-21",
+          "mechanism_or_content": "Uses central-square magnetization, dual disconnection and critical correlations to get n^(7/4)."
+        },
+        {
+          "unit": "§4.2 Free or periodic boundary conditions",
+          "physical_pdf_pages": "21-22",
+          "mechanism_or_content": "Adapts the recursive block argument to free and periodic boundaries."
+        },
+        {
+          "unit": "§4.3 Critical anti-ferromagnetic Ising model",
+          "physical_pdf_pages": "22-23",
+          "mechanism_or_content": "Applies a checkerboard spin flip on the bipartite square lattice."
+        },
+        {
+          "unit": "§5 Concluding remarks and open problems",
+          "physical_pdf_pages": "23",
+          "mechanism_or_content": "Discusses exponent optimization and higher-dimensional open directions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "23-26",
+          "mechanism_or_content": "Complete bibliography read."
+        }
+      ],
+      "rendered_pages_viewed": [
+        2,
+        12,
+        20,
+        22
+      ],
+      "pdf_sha256": "8a8fc37fe3059e350e8700ac7da0d587eec33b2820160e69f9fb448229ffb5ce",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S021": {
+      "physical_pdf_pages_read": "1-34 (entire PDF)",
+      "sections": [
+        {
+          "unit": "Title, abstract and §1 Introduction",
+          "physical_pdf_pages": "1-4",
+          "mechanism_or_content": "Introduces cutoff and states the 2D and general-SSM torus results."
+        },
+        {
+          "unit": "§1.1 Background and previous work",
+          "physical_pdf_pages": "4-6",
+          "mechanism_or_content": "Defines the Ising model and reviews known SSM and mixing regimes."
+        },
+        {
+          "unit": "§1.2 Cutoff for spin systems on the lattice",
+          "physical_pdf_pages": "6-8",
+          "mechanism_or_content": "States general and one-dimensional cutoff consequences."
+        },
+        {
+          "unit": "§1.3 Main techniques",
+          "physical_pdf_pages": "8",
+          "mechanism_or_content": "Outlines L1-L2 reduction, sparse supports and barrier dynamics."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "8-11",
+          "mechanism_or_content": "Sets the Glauber-rate, spectral-gap, log-Sobolev and SSM conventions."
+        },
+        {
+          "unit": "§2.1 Glauber dynamics for the Ising model",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Defines local continuous-time spin-flip dynamics and admissible rates."
+        },
+        {
+          "unit": "§2.2 Mixing, spectral gap and logarithmic-Sobolev constant",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "States the functional-inequality and mixing relations used later."
+        },
+        {
+          "unit": "§2.3 Strong spatial mixing and logarithmic-Sobolev inequalities",
+          "physical_pdf_pages": "10-11",
+          "mechanism_or_content": "Defines boundary influence decay and obtains a uniform log-Sobolev bound."
+        },
+        {
+          "unit": "§3 Reducing L1 mixing to L2 local mixing",
+          "physical_pdf_pages": "10-25",
+          "mechanism_or_content": "Relates global TV distance to local projection distances on sparse separated sets."
+        },
+        {
+          "unit": "§3.1 Eliminating long-range dependencies",
+          "physical_pdf_pages": "12-19",
+          "mechanism_or_content": "Constructs sparse update supports, finite-speed bounds and barrier dynamics."
+        },
+        {
+          "unit": "§3.2 Proof of Theorem 3.1, Part 1: upper bound on the L1 distance",
+          "physical_pdf_pages": "19-22",
+          "mechanism_or_content": "Combines local L2 convergence, block product approximation and a chi-square bound."
+        },
+        {
+          "unit": "§3.3 Proof of Theorem 3.1, Part 2: lower bound on the L1 distance",
+          "physical_pdf_pages": "22-25",
+          "mechanism_or_content": "Uses independent blocks, likelihood ratios and a CLT to force TV distance to one."
+        },
+        {
+          "unit": "§4 Cutoff for the Ising model",
+          "physical_pdf_pages": "25-30",
+          "mechanism_or_content": "Proves cutoff existence, locates the window and identifies the infinite-volume gap."
+        },
+        {
+          "unit": "§4.1 Existence of cutoff",
+          "physical_pdf_pages": "25-26",
+          "mechanism_or_content": "Applies the two directions of the L1-L2 reduction."
+        },
+        {
+          "unit": "§4.2 Cutoff location (asymptotics of mixing time)",
+          "physical_pdf_pages": "26-27",
+          "mechanism_or_content": "Uses smaller-torus spectral gaps and logarithmic-Sobolev decay to locate cutoff."
+        },
+        {
+          "unit": "§4.3 Limit of spectral gaps",
+          "physical_pdf_pages": "27-30",
+          "mechanism_or_content": "Proves convergence of finite-torus gaps to the infinite-volume gap."
+        },
+        {
+          "unit": "§5 Cutoff for other spin-systems",
+          "physical_pdf_pages": "30-32",
+          "mechanism_or_content": "Explains monotone and bipartite anti-monotone extensions."
+        },
+        {
+          "unit": "Acknowledgments and References",
+          "physical_pdf_pages": "32-34",
+          "mechanism_or_content": "Acknowledgments and complete bibliography read."
+        }
+      ],
+      "rendered_pages_viewed": [
+        2,
+        10,
+        12,
+        27
+      ],
+      "pdf_sha256": "2c72ec3ebe84c0e38eef3815ab6c50899d0b937934aab3ff6ee8cf56687782ac",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S022": {
+      "physical_pdf_pages_read": "1-15 (entire PDF)",
+      "sections": [
+        {
+          "unit": "Title, abstract and §1 Introduction",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "Introduces the PSD quadratic Ising model, Poincare target and distinction between Dirichlet forms."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pdf_pages": "3",
+          "mechanism_or_content": "Acknowledgment text read."
+        },
+        {
+          "unit": "§2 Poincare Inequality",
+          "physical_pdf_pages": "3-10",
+          "mechanism_or_content": "Proves the operator-norm spectral-gap bound by stochastic localization and a rank-one terminal estimate."
+        },
+        {
+          "unit": "§2.0.1 Proof of the existence of the process",
+          "physical_pdf_pages": "6-7",
+          "mechanism_or_content": "Constructs the smooth localization matrix and proves well-posedness/positivity of the evolving interaction."
+        },
+        {
+          "unit": "§2.1 Rank one inequality",
+          "physical_pdf_pages": "7-9",
+          "mechanism_or_content": "Bounds the terminal rank-one measure through the influence matrix and an L2 Dobrushin criterion."
+        },
+        {
+          "unit": "§2.2 The Dirichlet form is a supermartingale",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Controls the functional along the localization martingale to close the Poincare proof."
+        },
+        {
+          "unit": "§3 Consequences for mixing time",
+          "physical_pdf_pages": "10-11",
+          "mechanism_or_content": "Derives the minimum-atom and continuous/discrete Glauber mixing bounds."
+        },
+        {
+          "unit": "§4 A needle decomposition theorem",
+          "physical_pdf_pages": "11-12",
+          "mechanism_or_content": "States a structural rank-one mixture theorem with proof sketch and variance-transfer consequence."
+        },
+        {
+          "unit": "§5 Some examples",
+          "physical_pdf_pages": "12-13",
+          "mechanism_or_content": "Discusses representative high-temperature Ising/SK parameter regimes."
+        },
+        {
+          "unit": "Appendix A Inequivalence of Dirichlet Forms",
+          "physical_pdf_pages": "13",
+          "mechanism_or_content": "Builds an SK example where heat-bath and usual discrete-gradient Dirichlet forms differ exponentially in sqrt(n)."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "13-15",
+          "mechanism_or_content": "Complete bibliography read."
+        }
+      ],
+      "rendered_pages_viewed": [
+        4,
+        10,
+        13
+      ],
+      "pdf_sha256": "ba6d2d463da33ba14bec6ad551c92456c7c0f52c6e8b795bf10eba72e82e8336",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S024": {
+      "physical_pdf_pages_read": "1-62 (entire PDF)",
+      "sections": [
+        {
+          "unit": "Title, abstract and §1 Introduction",
+          "physical_pdf_pages": "1-6",
+          "mechanism_or_content": "States all-degree uniqueness-regime results and previews spectral independence and field dynamics."
+        },
+        {
+          "unit": "§1.1 Results for two-spin systems",
+          "physical_pdf_pages": "4-5",
+          "mechanism_or_content": "States the general antiferromagnetic, hard-core and Ising gap/mixing theorems."
+        },
+        {
+          "unit": "§1.2 Results for spectrally independent joint distributions",
+          "physical_pdf_pages": "5-6",
+          "mechanism_or_content": "Defines complete spectral independence and states the boosting theorem."
+        },
+        {
+          "unit": "§2 The Field Dynamics and Proofs Outline",
+          "physical_pdf_pages": "7-12",
+          "mechanism_or_content": "Introduces the adaptive field chain and outlines its reduction to Glauber mixing."
+        },
+        {
+          "unit": "§2.1 The field dynamics",
+          "physical_pdf_pages": "7-8",
+          "mechanism_or_content": "Defines the adaptive update block, reversibility and the hard-core example."
+        },
+        {
+          "unit": "§2.2 Mixing of field dynamics via spectral independence",
+          "physical_pdf_pages": "8-9",
+          "mechanism_or_content": "Uses uniform block dynamics and k-transformations to lower-bound the field-chain gap."
+        },
+        {
+          "unit": "§2.3 Comparing Glauber dynamics with field dynamics",
+          "physical_pdf_pages": "9-10",
+          "mechanism_or_content": "Compares Dirichlet forms using the worst pinned gap of the biased law."
+        },
+        {
+          "unit": "§2.4 Wrapping up",
+          "physical_pdf_pages": "10-11",
+          "mechanism_or_content": "Combines complete spectral independence and easier-regime couplings for main results."
+        },
+        {
+          "unit": "§2.5 Related work and open problems",
+          "physical_pdf_pages": "11-12",
+          "mechanism_or_content": "Places the result among counting and sampling thresholds."
+        },
+        {
+          "unit": "§2.6 Organization of the paper",
+          "physical_pdf_pages": "12",
+          "mechanism_or_content": "Maps each proof section and both appendices."
+        },
+        {
+          "unit": "§3 Preliminaries",
+          "physical_pdf_pages": "12-16",
+          "mechanism_or_content": "Defines two-spin uniqueness, finite-chain gap conventions and block dynamics."
+        },
+        {
+          "unit": "§3.1 Notation",
+          "physical_pdf_pages": "12",
+          "mechanism_or_content": "Sets graph, spin, support, local-field and maximum-degree notation."
+        },
+        {
+          "unit": "§3.2 The uniqueness condition",
+          "physical_pdf_pages": "12-13",
+          "mechanism_or_content": "Defines d-uniqueness through the fixed-point derivative and up-to-Δ uniqueness."
+        },
+        {
+          "unit": "§3.3 Markov chain, spectral gap and coupling",
+          "physical_pdf_pages": "13-14",
+          "mechanism_or_content": "Provides finite-state gap, mixing and coupling definitions."
+        },
+        {
+          "unit": "§3.4 Uniform block dynamics and Glauber dynamics",
+          "physical_pdf_pages": "14-15",
+          "mechanism_or_content": "Defines the block and single-site update chains and comparisons."
+        },
+        {
+          "unit": "§3.5 Multivariate hypergeometric distribution",
+          "physical_pdf_pages": "15-16",
+          "mechanism_or_content": "States concentration tools for projected block dynamics."
+        },
+        {
+          "unit": "§4 Comparing Glauber Dynamics with Field Dynamics",
+          "physical_pdf_pages": "16-19",
+          "mechanism_or_content": "Proves the Dirichlet-form and gap comparison for arbitrary Boolean laws."
+        },
+        {
+          "unit": "§5 Mixing of Field Dynamics",
+          "physical_pdf_pages": "19-22",
+          "mechanism_or_content": "Establishes stationarity/reversibility and the limiting k-transformed chain."
+        },
+        {
+          "unit": "§5.1 Convergence and reversibility",
+          "physical_pdf_pages": "19-20",
+          "mechanism_or_content": "Proves the field dynamics is irreducible, aperiodic and reversible."
+        },
+        {
+          "unit": "§5.2 Field dynamics as the k-transformed block dynamics",
+          "physical_pdf_pages": "20-22",
+          "mechanism_or_content": "Identifies the limiting projected block chain and preserves the relevant gap."
+        },
+        {
+          "unit": "§6 Approximation of Field Dynamics",
+          "physical_pdf_pages": "22-30",
+          "mechanism_or_content": "Controls transition probabilities and proves convergence of projected block chains."
+        },
+        {
+          "unit": "§6.1 Well-definedness of projected dynamics",
+          "physical_pdf_pages": "22-26",
+          "mechanism_or_content": "Checks projection states and transition rules are well-defined."
+        },
+        {
+          "unit": "§6.2 Comparing projected block dynamics with block dynamics",
+          "physical_pdf_pages": "26-28",
+          "mechanism_or_content": "Bounds discrepancies between projected and uniform block updates."
+        },
+        {
+          "unit": "§6.3 Approximation of the field dynamics",
+          "physical_pdf_pages": "28-30",
+          "mechanism_or_content": "Uses hypergeometric concentration for entrywise convergence and gap transfer."
+        },
+        {
+          "unit": "§7 Mixing of Block Dynamics",
+          "physical_pdf_pages": "30-38",
+          "mechanism_or_content": "Transfers complete spectral independence through k-transformation and applies block-gap results."
+        },
+        {
+          "unit": "§7.1 Spectral independence of k-transformed distribution",
+          "physical_pdf_pages": "30-31",
+          "mechanism_or_content": "Proves Lemma 7.1 by bounding the transformed influence matrix through a field-biased distribution; §7.2 starts lower on physical p.31."
+        },
+        {
+          "unit": "§7.2 Spectrum-preservation of k-transformation",
+          "physical_pdf_pages": "31-32",
+          "mechanism_or_content": "Proves Lemma 7.2 by establishing feasibility and comparing spectra of the intermediate influence matrices."
+        },
+        {
+          "unit": "§7.3 Spectral radius bounds for intermediate matrices",
+          "physical_pdf_pages": "33-38",
+          "mechanism_or_content": "Starts on physical p.33; proves the spectral-radius inequalities for the intermediate matrices and completes the transformed block-gap argument."
+        },
+        {
+          "unit": "§8 Spectral Gaps of Two-Spin Systems",
+          "physical_pdf_pages": "38-51",
+          "mechanism_or_content": "Derives complete spectral independence from uniqueness and proves easier-regime gaps."
+        },
+        {
+          "unit": "§8.1 Complete spectral independence up to uniqueness",
+          "physical_pdf_pages": "38-43",
+          "mechanism_or_content": "Chooses favorable local-field directions and uses tree recursions and potentials."
+        },
+        {
+          "unit": "§8.2 Spectral gap in an easier regime",
+          "physical_pdf_pages": "43-50",
+          "mechanism_or_content": "Uses path coupling and bounded potentials to lower-bound worst pinned gaps."
+        },
+        {
+          "unit": "§8.3 Hardcore and Ising models",
+          "physical_pdf_pages": "50-51",
+          "mechanism_or_content": "Derives the hard-core and Ising corollaries, including their model-specific constants."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "51-53",
+          "mechanism_or_content": "Complete bibliography read."
+        },
+        {
+          "unit": "Appendix A Mixing of Uniform Block Dynamics from Spectral Independence",
+          "physical_pdf_pages": "54",
+          "mechanism_or_content": "Proves the all-degree uniform-block gap bound from local spectral expansion."
+        },
+        {
+          "unit": "Appendix B Uniqueness and Spectral Independence for Two-Spin Systems with Local Fields",
+          "physical_pdf_pages": "55-62",
+          "mechanism_or_content": "Proves the uniqueness proposition, SAW influence reduction, weighted-tree contraction and recursion symmetrization."
+        },
+        {
+          "unit": "Appendix B.1 Proof of Proposition 8.6",
+          "physical_pdf_pages": "55-56",
+          "mechanism_or_content": "Solves the derivative-threshold equation and identifies the two uniqueness fugacity intervals."
+        },
+        {
+          "unit": "Appendix B.2 Proof of Theorem 8.8",
+          "physical_pdf_pages": "56-60",
+          "mechanism_or_content": "Transfers root influences to the SAW tree and sums contraction by depth."
+        },
+        {
+          "unit": "Appendix B.3 Proof of Lemma 8.11",
+          "physical_pdf_pages": "61-62",
+          "mechanism_or_content": "Uses symmetrization and the fixed-point derivative bound to prove potential contraction."
+        }
+      ],
+      "rendered_pages_viewed": [
+        4,
+        6,
+        7,
+        9,
+        12,
+        30,
+        31,
+        33,
+        41,
+        50,
+        56,
+        61
+      ],
+      "rendered_4k_formula_check": "Physical PDF pp.6-7 and p.9 were rendered and inspected: Theorem 1.9 and Lemma 2.3 both use (theta/2)^(2 eta+7), and the p.9 proof reaches that same power. Lemma 2.4 is the multiplicative comparison with lambda_min-gap^GD(mu^(theta)); there is no separate theta^2/(2 eta+7) field-dynamics bound.",
+      "pdf_sha256": "82926e94027697f24e642e548eb2dbe4a07631a2e19c6630498ec2ec846ac841",
+      "complete": true,
+      "uncovered_pages": []
+    },
+    "W04S032": {
+      "physical_pdf_pages_read": "1-23 (entire arXiv v2 PDF)",
+      "complete": true,
+      "sections": [
+        {
+          "unit": "Title, abstract, §1 Introduction and model definitions",
+          "physical_pdf_pages": "1-3",
+          "mechanism_or_content": "Defines finite spin systems and Gibbs measures, introduces ERGM, vertex-weighted ERGM, coloring and hard-core examples, and previews the mixing/concentration organization."
+        },
+        {
+          "unit": "§2 Mixing times",
+          "physical_pdf_pages": "3-5",
+          "mechanism_or_content": "Defines the random-site Glauber kernel and entropy/mLSI conventions, states the four sufficient model regimes and general weak-dependence criterion, and states entropy-decay and rapid-mixing consequences. Corollary 2.3 is stated on physical p.5; its proof is in §5 on physical p.16."
+        },
+        {
+          "unit": "§3 Concentration of measure",
+          "physical_pdf_pages": "6-11",
+          "mechanism_or_content": "Defines local and higher-order difference operators; proves multilevel concentration and applies it to ERGM triangle statistics and Erdős–Rényi subgraph-count CLTs."
+        },
+        {
+          "unit": "§4 Weak dependence of the models",
+          "physical_pdf_pages": "11-16",
+          "mechanism_or_content": "Defines conditional influence matrices and the all-partial-conditioning lower-mass parameter; proves tensorization, mLSI and LSI, then checks the ERGM, vertex-weighted ERGM, coloring and hard-core models."
+        },
+        {
+          "unit": "§5 Proofs of mixing-time results",
+          "physical_pdf_pages": "16-17",
+          "mechanism_or_content": "Derives Theorem 2.1 from model-specific weak-dependence propositions and Theorem 2.2 from mLSI plus a minimum-state-mass estimate."
+        },
+        {
+          "unit": "§6 Proofs of concentration results",
+          "physical_pdf_pages": "17-21",
+          "mechanism_or_content": "Proves triangle decomposition, Erdős–Rényi Hoeffding expansion and general higher-order moment/tail bounds."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "22-23",
+          "mechanism_or_content": "Read the complete bibliography and checked cited dependencies for the tensorization and concentration arguments."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        5,
+        11,
+        15,
+        16
+      ],
+      "formula_audit_note": "Theorem 2.2 constants and entropy exponent were checked on physical p.5; Theorem 4.1 weak-dependence hypotheses and LSI constants on p.11; hard-core influence matrix on p.15 and conditional-marginal reduction/mixing proof on p.16. Corollary 2.3 is stated at physical p.5 and its proof is on physical p.16."
+    },
+    "W04S033": {
+      "physical_pdf_pages_read": "1-42 (entire arXiv v5 manuscript)",
+      "complete": true,
+      "sections": [
+        {
+          "unit": "Title, abstract, §1 Introduction and basic setup",
+          "physical_pdf_pages": "1-5",
+          "mechanism_or_content": "States the trajectory concentration and spectral goals, defines total variation, stationarity, ergodicity and the time-homogeneous and inhomogeneous mixing-time quantities."
+        },
+        {
+          "unit": "§2 Marton couplings",
+          "physical_pdf_pages": "5-12",
+          "mechanism_or_content": "Defines Marton couplings and their mixing matrix; block-partitions uniformly ergodic Markov trajectories and derives dependent bounded-difference tails and examples."
+        },
+        {
+          "unit": "§3 Spectral methods: definitions and gap/mixing relations",
+          "physical_pdf_pages": "12-15",
+          "mechanism_or_content": "Defines reversible, absolute and pseudo spectral gaps and proves finite/general-state comparisons to mixing time."
+        },
+        {
+          "unit": "§3 Spectral methods: variance and Bernstein inequalities",
+          "physical_pdf_pages": "15-18",
+          "mechanism_or_content": "States stationary reversible and nonreversible additive-functional variance/Bernstein bounds, plus nonstationary and unbounded-function scope."
+        },
+        {
+          "unit": "§3.4 Applications",
+          "physical_pdf_pages": "19-24",
+          "mechanism_or_content": "Bounds empirical-measure TV error, discounted sums and Markov-chain hypothesis-testing errors; includes a coin-tossing illustration."
+        },
+        {
+          "unit": "§4 Comparison with prior concentration results",
+          "physical_pdf_pages": "24-25",
+          "mechanism_or_content": "Positions the Marton-coupling and spectral approaches relative to prior coupling and regeneration inequalities."
+        },
+        {
+          "unit": "§5.1 Proofs by Marton couplings",
+          "physical_pdf_pages": "25-28",
+          "mechanism_or_content": "Proves the block-coupling mixing bound and martingale bounded-difference theorem from conditional future couplings."
+        },
+        {
+          "unit": "§5.2 Proofs by spectral methods",
+          "physical_pdf_pages": "28-39",
+          "mechanism_or_content": "Proves spectral/mixing comparisons and additive-functional variance/Bernstein estimates using operator norms, perturbation expansion, and powers of P and P*."
+        },
+        {
+          "unit": "Acknowledgements and References",
+          "physical_pdf_pages": "39-42",
+          "mechanism_or_content": "Read acknowledgements and all references through the final physical page."
+        }
+      ],
+      "uncovered_pages": [],
+      "rendered_pages_viewed": [
+        3,
+        9,
+        14,
+        16,
+        17
+      ],
+      "formula_audit_note": "Physical p.3 explicitly states the v5 correction to an incomplete general-state Bernstein proof in previous/arXiv and published versions. Theorem 2.9/Corollary 2.11 were checked on p.9; Propositions 3.3–3.4 on p.14; reversible Theorem 3.9 on p.16; nonreversible Theorem 3.11 and its M/k_ps factor on p.17."
+    },
+    "W04S001": {
+      "physical_pdf_pages_read": "177-181 (§§12.1–12.2 complete; section boundary overlaps on p.181); 181-185 (additional selected §12.3 material and opening of §12.4); 231-247; 375-376 (complete selected units only; the remaining book pages were not read)",
+      "document_pages": 461,
+      "complete": false,
+      "selected_reading_units_complete": true,
+      "uncovered_selected_unit_pages": [],
+      "unread_document_pages": "All physical pages outside PDF pp.177-185, 231-247, and 375-376.",
+      "sections": [
+        {
+          "unit": "Chapter 12 §12.1 The Spectral Representation of a Reversible Transition Matrix",
+          "physical_pdf_pages": "177-179",
+          "mechanism_or_content": "Defines the π-inner product and proves the reversible-kernel spectral expansion (Lemma 12.2) by conjugating P to a symmetric matrix; records mean-zero eigenfunctions (Lemma 12.3). The section begins on p.177 and §12.2 starts on p.179."
+        },
+        {
+          "unit": "Chapter 12 §12.2 The Relaxation Time",
+          "physical_pdf_pages": "179-181 (through upper portion of p.181)",
+          "mechanism_or_content": "Defines the absolute spectral gap and relaxation time, gives variance/covariance decay, and proves upper/lower mixing-time bounds from eigenfunction expansion and Cauchy–Schwarz (Theorems 12.4–12.5). Section 12.2 ends in the upper portion of p.181, where Example 12.8 begins; §12.3 starts below it on the same physical page."
+        },
+        {
+          "unit": "Additional selected pages from Chapter 12: §12.3 material on p.181 lower portion–185 (opening of §12.4 only)",
+          "physical_pdf_pages": "181–185 (p.181 overlaps the §12.2 unit)",
+          "mechanism_or_content": "Read the random-transpositions relaxation-time example (beginning on physical p.181 below the end of §12.2), cycle eigenvalues/eigenfunctions and period-two observation, the quotient-chain lemma and cycle-to-path examples with reflecting/holding endpoints. Physical p.185 then begins §12.4 Product Chains; no complete §12.3 or §12.4 reading is claimed."
+        },
+        {
+          "unit": "Chapter 15 setup and §15.1 Fast Mixing at High Temperature",
+          "physical_pdf_pages": "231-233",
+          "mechanism_or_content": "Defines zero-field random-site Ising heat-bath updates; Theorem 15.1 and Lemma 15.3 prove Hamming path-coupling contraction under Δ tanh(β)<1, with the even-degree tanh(2β) improvement."
+        },
+        {
+          "unit": "Chapter 15 §15.2 The Complete Graph",
+          "physical_pdf_pages": "234",
+          "mechanism_or_content": "Uses a conductance cut through the central magnetization layer to prove an exponential mixing lower bound for β=α/n with α>1; records the α<1 upper bound."
+        },
+        {
+          "unit": "Chapter 15 §15.3 The Cycle",
+          "physical_pdf_pages": "235-236",
+          "mechanism_or_content": "Identifies the linear magnetization as an eigenfunction and combines path coupling with Wilson’s method for relaxation and mixing bounds."
+        },
+        {
+          "unit": "Chapter 15 §15.4 The Tree",
+          "physical_pdf_pages": "236-239",
+          "mechanism_or_content": "Uses a weighted Hamming path metric for the high-temperature tree criterion; Proposition 15.8 compares gaps after deleting edges through stationary-mass and transition-rate comparison."
+        },
+        {
+          "unit": "Chapter 15 §15.5 Block Dynamics",
+          "physical_pdf_pages": "239-242",
+          "mechanism_or_content": "Defines uniform random-block heat bath and states Theorem 15.10. The statement prints a factor 4, while the displayed congestion proof on p.240 counts 4^M block pairs and derives only R≤2M²M_*4^M exp(2βΔ(M+1)); this source-level statement/proof discrepancy is recorded without declaring the theorem false or silently changing its formula."
+        },
+        {
+          "unit": "Chapter 15 §15.6 Lower Bound for Ising on Square",
+          "physical_pdf_pages": "242-244",
+          "mechanism_or_content": "Defines fault lines, bounds their Gibbs mass by Peierls flipping and self-avoiding-path counting, then uses a topological bottleneck to obtain exponential relaxation below the low-temperature threshold."
+        },
+        {
+          "unit": "Chapter 15 Exercises and Notes",
+          "physical_pdf_pages": "245-247",
+          "mechanism_or_content": "Read all exercises, notes, and further-reading references; the notes locate stronger later square-lattice results."
+        },
+        {
+          "unit": "Chapter 26 Question 2",
+          "physical_pdf_pages": "375-376 (print pp.359-360)",
+          "mechanism_or_content": "States the open arbitrary-finite-graph zero-field ferromagnetic edgewise gap-monotonicity question and records the proved cycle special case."
+        }
+      ],
+      "rendered_pages_viewed": [
+        177,
+        179,
+        180,
+        181,
+        185,
+        231,
+        232,
+        233,
+        237,
+        239,
+        240,
+        242,
+        243,
+        244
+      ],
+      "formula_audit_note": "Theorem 15.8 one-sided gap comparison was visually checked on physical p.237. Theorem 15.10 statement (p.239) and congestion proof (p.240) were rendered: statement factor is 4; displayed proof counts 4^M pairs and its intermediate bound does not algebraically yield the final printed bound for general M. Theorem 15.13 fault-line proof was checked on pp.242–244. R02 later accepted a separate library-derived alternate conditional-variance/Walsh proof under finite zero-field homogeneous Ising, finite β≥0 and common uniform discrete site/block clocks; see the source card and linked adjudication. This does not alter the printed source proof. Chapter 12 boundaries were additionally checked visually: §§12.1–12.2 end in the upper portion of physical p.181 (including Example 12.8); §12.3 begins lower on p.181; §12.4 begins on p.185 and is only partially read."
+    },
+    "W04S002": {
+      "physical_pdf_pages_read": "87-94; 131-141 (complete selected units only; unfinished monograph not read cover-to-cover)",
+      "document_pages": 516,
+      "complete": false,
+      "selected_reading_units_complete": true,
+      "uncovered_selected_unit_pages": [],
+      "unread_document_pages": "All physical pages outside PDF pp.87-94 and 131-141.",
+      "sections": [
+        {
+          "unit": "Chapter 3 §3.6.1 The Dirichlet formalism",
+          "physical_pdf_pages": "87-89",
+          "mechanism_or_content": "Section begins at the bottom of physical p.87 after the preceding proof; p.87 defines the discrete-time Dirichlet form and p.88 gives continuous-time/weighted-graph versions (3.76–3.77) and proves Lemma 3.24, the CT derivative identity for stationary-density L2 distance."
+        },
+        {
+          "unit": "Chapter 3 §§3.6.2-3.6.3",
+          "physical_pdf_pages": "89–91",
+          "mechanism_or_content": "Theorem 3.25 states the centered-function Rayleigh–Ritz relaxation-time variational formula on p.89; pp.90–91 prove it by conjugating the reversible kernel to a symmetric matrix and applying the second-eigenvalue variational formula. The source notes the finite-state supremum is attained."
+        },
+        {
+          "unit": "Chapter 3 §3.6.4: Lemma 3.26 and Corollaries 3.27-3.28",
+          "physical_pdf_pages": "91–93",
+          "mechanism_or_content": "Lemma 3.26 is stated on p.91 and proved on p.92 by differentiating the squared L2 distance, applying the extremal characterization and integrating; Corollaries 3.27–3.28 on pp.92–93 compare collapsed chains and increased conductances."
+        },
+        {
+          "unit": "Chapter 3 §3.6.4: Lemma 3.29 direct weighted comparison",
+          "physical_pdf_pages": "93–94",
+          "mechanism_or_content": "Lemma 3.29 is stated and its direct edge/vertex-weight-ratio proof starts on p.93 and concludes on p.94; edge loops are excluded from extrema. The proof uses variational comparison, not path congestion."
+        },
+        {
+          "unit": "Chapter 3 §3.6.4: Examples 3.30–3.31",
+          "physical_pdf_pages": "94",
+          "mechanism_or_content": "Show relaxation time can change substantially after a small relative change in total edge weight: a single bridge versus a matching between cliques, and adding a clique among a sub-square-root number of new vertices. They motivate same-stationary-law comparison; they are not path constructions."
+        },
+        {
+          "unit": "Chapter 3 §3.6.4: Lemma 3.32 direct transition comparison",
+          "physical_pdf_pages": "94",
+          "mechanism_or_content": "After Example 3.31 on p.94, Lemma 3.32 assumes the same stationary distribution and off-diagonal entrywise domination p_ij≥δp*_ij. Its conclusion follows from direct Dirichlet-form comparison. The following source remark proposes a residual-kernel mixture, but this Q need not be nonnegative under off-diagonal domination alone; full-entry domination suffices for that interpretation. This caveat does not invalidate the lemma and is not path routing."
+        },
+        {
+          "unit": "Chapter 4 §4.4 relaxation time and Lemma 4.23",
+          "physical_pdf_pages": "131–133",
+          "mechanism_or_content": "Theorem 4.22 from §4.3.5 ends at the top of p.131; §4.4 starts on p.131. The source defines τ2=(1−λ2)^−1 in DT and λ2^−1 in CT, then Lemma 4.23 gives the CT τ2≤τ1≤τ2[1+½log(1/π*)] inequality and a separate DT τ1^(2) bound with factor 4e/(e−1)."
+        },
+        {
+          "unit": "Chapter 4 §4.4 and §§4.4.1: Lemmas 4.24-4.28 and Proposition 4.29",
+          "physical_pdf_pages": "132-137",
+          "mechanism_or_content": "Bounds hitting/commute parameters, identifies maximal correlation, and integrates the reversible covariance expansion for stationary additive-functional variance."
+        },
+        {
+          "unit": "Chapter 4 §4.4.2 Algorithmic issues and Corollary 4.31",
+          "physical_pdf_pages": "137-139",
+          "mechanism_or_content": "Separates burn-in from stationary averaging and gives a continuized-burn-in sampling-cost bound."
+        },
+        {
+          "unit": "Chapter 4 §4.4.3 distinguished paths and Theorem 4.32",
+          "physical_pdf_pages": "139-141",
+          "mechanism_or_content": "Telescopes state differences along chosen weighted-graph paths, applies Cauchy-Schwarz with resistance/length weights, and bounds relaxation time by the resulting edge congestion."
+        }
+      ],
+      "rendered_pages_viewed": [
+        87,
+        93,
+        94,
+        131,
+        139,
+        140
+      ],
+      "formula_audit_note": "Physical pp.87, 94, and 131 were newly rendered to verify section starts, Example 3.31/Lemma 3.32, and the §4.4 clock/display. Physical pp.93–94 verify Lemma 3.29’s direct edge/vertex ratios and its proof; p.94 verifies the same-π entrywise comparison. Physical pp.139–140 verify Theorem 4.32 resistance/length edge-load bounds and proof. Re-rendered p.93 confirms Lemma 3.29 prints lower factor min_e(w_e/w_e*)/max_i(w_i/w_i*), while its p.93–94 proof gives tau2*/tau2 <= max_i(w_i*/w_i)/min_e(w_e*/w_e), implying corrected lower min_i(w_i/w_i*)/max_e(w_e/w_e*). The source upper side remains consistent with reversing the proof comparison. The p.94 mixture remark is separately scoped: an exact common-π two-state example satisfies off-diagonal domination but gives a residual Q with negative diagonal, while the direct Dirichlet comparison conclusion holds; see evidence/W04/numerical/s002_lemma332_mixture_audit.json."
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "worker": "W23",
+  "skill": "probability-self-avoiding-walks-and-sle",
+  "batch": "L07_B10_mirrored_pending_R03_mother_binding",
+  "stage": "L07_B10_mirrored_pending_R03_mother_binding",
+  "as_of": "2026-11-14",
+  "review_status": "pending",
+  "source_count_target": [
+    30,
+    100
+  ],
+  "source_count": 19,
+  "unique_fulltext_source_count": 17,
+  "fulltext_read_source_count": 17,
+  "fulltext_read_papers_count": 16,
+  "reuses_canonical_count": 2,
+  "usage_evidence_accepted_count": 2,
+  "acquired_pdf_count": 11,
+  "acquired_pdf_body_read_count": 11,
+  "unread_acquired_pdf_count": 0,
+  "metadata_only_pool_candidate_count": 40,
+  "pool_candidate_count": 45,
+  "excluded_duplicate_count": 1,
+  "excluded_duplicate": "SAW-01/MIR-05 Grimmett Selected Problems in Probability is already W05 grimmett-problems and contributes no unique-work credit.",
+  "reading_status_counts": {
+    "fulltext_read": 17,
+    "reuses_canonical": 2,
+    "unread_acquired": 0,
+    "metadata_only_candidates": 40,
+    "pending_mother_binding_fulltext_read": 11
+  },
+  "cards_count": 30,
+  "section_coverage_source_count": 28,
+  "source_count_quota_eligibility": {
+    "potential_eligible_unique_works_read": 30,
+    "canonical_reuse_credits_accepted_by_R03": 2,
+    "new_fulltext_unique_works_read_this_continuation": 17,
+    "qualifies_for_tool_source_count_pending_independent_review": true,
+    "minimum_source_target_met": false,
+    "remaining_eligible_unique_sources_to_30": 11,
+    "remaining_new_fulltext_reads_if_no_further_accepted_reuses": 11,
+    "note": "R03 passed helper-stage reads/method eligibility for prior batches L10_B7, L06_B9, L08_B8 and L07_B10 P50/P56. Their eleven stable W23S020–W23S030 mother bindings remain pending; accepted count stays 19 until R03 reviews each mother manifest. P50 strict radius/pattern conclusions and theorem dependencies remain conditional/source-stated; P56 is homogeneous d=4 continuous-time weak SAW with imported RG dependencies.",
+    "pending_mother_binding_unique_fulltext_sources": 11,
+    "accepted_source_count_remains": 19,
+    "potential_total_if_R03_mother_binding_passes": 30,
+    "remaining_if_all_three_pending_bindings_pass": 8,
+    "remaining_if_all_six_pending_bindings_pass": 5,
+    "remaining_if_all_nine_pending_bindings_pass": 2,
+    "remaining_if_all_eleven_pending_bindings_pass": 0
+  },
+  "formal_problem_mapping_count": 2,
+  "formal_problem_mapping_scope": "C108 is in formal120. C107 is in isolated88/dossiers208 and is tracked as an auxiliary scope target, not represented as one of the formal120 entries.",
+  "mathematical_validation": {
+    "tool": "MATLAB via local MCP run_matlab_file",
+    "script": "workers/W23/math/check_claim_constants.m",
+    "result": "workers/W23/math/check_claim_constants_results.txt",
+    "actual_run": "2026-11-14",
+    "scope": "Numerical consistency of honeycomb connective constant/fugacity and parafermionic identity, and arithmetic for the source-derived polygon-insertion epsilon thresholds. Lacoin's Z^2 bound is not numerically instantiated; a separate interface requires a certified square-lattice mu_2 input and proof-admissible C2.",
+    "limitation": "Floating-point consistency only. The PDF theorem statements and proof hypotheses supply the mathematical evidence; the calculation is neither an independent proof nor an asymptotic validation. The Lacoin helper is conditional and was not run because no valid numerical mu_2/C2 certificate was supplied.",
+    "additional_check": {
+      "tool": "MATLAB via local MCP run_matlab_file",
+      "script": "workers/W23/math/check_p02_exact_identities.m",
+      "result": "workers/W23/math/check_p02_exact_identities_results.txt",
+      "actual_run": "2026-11-14",
+      "scope": "Floating-point consistency of 2*cos(pi/8)=sqrt(2+sqrt(2)), the corresponding critical fugacity, the paired phase cancellation 2*cos(3*pi/2)=0, and the printed value of pi*sqrt(2/3).",
+      "limitation": "Numerical consistency only. It does not verify SAW limits, the bridge bound, or the sub-ballistic theorem; those are supported by the original read proofs."
+    },
+    "finite_size_boundary_check": {
+      "tool": "local MATLAB via mcp__matlab__run_matlab_file",
+      "script": "workers/W23/math/check_p15_finite_n_counterexample.m",
+      "result": "workers/W23/math/check_p15_finite_n_counterexample_results.txt",
+      "actual_run": "2026-11-14",
+      "scope": "Exact enumeration of the four one-step nearest-neighbor SAWs in Z^2 at n=1,v=1/2; event probability 1 versus exp(-epsilon)<1.",
+      "limitation": "Finite-size counterexample only. It does not prove the asymptotic sub-ballistic theorem; in d>=2 the same n=1 fact holds because each step has Euclidean length one."
+    },
+    "graph_saw_tree_enumeration": {
+      "tool": "Python exact finite enumeration (L08 helper check; execution and scope checked by R03)",
+      "script": "workers/W23/math/tree_saw_counts.py",
+      "result": "workers/W23/math/tree_saw_counts_result.json",
+      "actual_run": "2026-11-14",
+      "scope": "Rooted SAW counts in a 3-regular tree for n=0,...,10; count sequence is recorded in the result.",
+      "limitation": "Finite-depth tree recurrence/equality-boundary illustration only; it does not prove the strict non-tree theorem or a general connective-constant result."
+    },
+    "graph_saw_bridge_check": {
+      "tool": "MATLAB via local MCP run_matlab_file",
+      "actual_run": "2026-11-14",
+      "script": "workers/W23/math/check_finite_saw_and_bridge_roots.m",
+      "result_text": "workers/W23/math/finite_math_check.txt",
+      "result_json": "workers/W23/math/finite_math_check.json",
+      "old_diary_diagnostic": "workers/W23/math/finite_math_check.empty_diary_diagnostic.txt",
+      "observed": "Bridge reciprocals 6.649927048190 and 3.103803402736; exact rooted 3-regular tree counts 1,3,6,...,1536 for n=0..10.",
+      "scope": "Finite calculation and polynomial-root consistency only; no asymptotic graph-SAW theorem is inferred from the computation.",
+      "capture": "Actual rerun wrote results with fopen/fprintf and jsonencode. The earlier 0-byte diary is preserved as diagnostic only."
+    }
+  },
+  "main_gaps": [
+    "The provisional count is 16/30: 14 complete unique full-text reads plus 2 R03-accepted canonical continuum-SLE usages. The L08_B5 helper stage passed and SAW-P16/P18/P24 are mirrored as W23S014–W23S016; R03 mother binding is pending. Fourteen additional eligible unique works are needed.",
+    "All eleven locally available D01 handoff PDFs now have complete body reads. The remaining 40 D01 pool candidates are metadata-only and do not count as reading evidence.",
+    "C108 full nth-root limit existence is not established by Lacoin; only the deterministic root-independent limsup rate and strict planar quenched/annealed gap are proved.",
+    "C107 remains a lattice scaling-limit problem. Existing complete reads provide connective-constant, bridge/count, sub-ballistic, graph-SAW, and boundary/adsorption methods, but no lattice-curve tightness, discrete DMP, convergence, or SLE identification.",
+    "P02 is one proceedings-chapter/lecture-notes source, not a complete book. Its d≥5 strict-SAW asymptotic theorems are quoted, and several lace/RG technical details are sketched or referred to other works; model and proof-completeness boundaries are marked in its card.",
+    "L06_B9 P26/P29/P43 helper-stage readings passed and are mirrored as W23S023–W23S025; mother PDF/hash/card/coverage bindings are pending R03. The P26/P52, P29/P53, and P43/P55 pairs are same-work aliases, not six works. Accepted source count stays 19.",
+    "L08_B8 P48/P51/P54 helper-stage reads and method eligibility passed R03 and are mirrored as W23S026–W23S028; all three mother bindings remain pending. P51 is conditional under explicit Klein-four/kite/coverage/coding assumptions; P54 retains its exact artifact/date caveat and spread-out high-dimensional hypotheses. Accepted count remains 19; the D01/D02 aliases are same works.",
+    "L07_B10 P50/P56 helper-stage reads and method eligibility passed R03 and are mirrored as W23S029–W23S030; mother bindings remain pending. P50 is a general kite/bridge-renewal method source with radius-gap and Theorem 1.2/6.1 proof limits retained. P56 is homogeneous d=4 continuous-time weak SAW with external RG dependencies; it does not close C107 or C108. Accepted count remains 19."
+  ],
+  "next_steps": [
+    "Submit the L07_B10 W23S029–W23S030 mother binding manifest for R03 review; retain all eleven pending bindings (W23S020–W23S030) outside accepted quota until each passes.",
+    "Submit the L08_B8 W23S026–W23S028 mother binding manifest for R03 review; retain all nine pending bindings (W23S020–W23S028) outside the accepted quota until each passes.",
+    "Submit the L06_B9 W23S023–W23S025 mother binding manifest for R03 review; retain all six pending bindings (W23S020–W23S025) outside the accepted quota until each passes.",
+    "Submit L08_B5 stable mother ID/PDF-hash/card/coverage binding and hashes for independent R03 review; retain the three new source rows as pending until that review.",
+    "Continue reading relevant unique works from the existing pool toward the 30–100 target; metadata-only rows do not count.",
+    "Maintain only the canonical skills/probability-self-avoiding-walks-and-sle directory after the recorded migration; preserve the draft snapshot unchanged."
+  ],
+  "all_review_status_pending": true,
+  "fulltext_read_lecture_notes_count": 1,
+  "latest_review_round": "R03 L07_B10 final helper review passed for P50/P56; mother binding pending (prior batches also pending)",
+  "batch2_revision_summary": {
+    "corrected_sources": [
+      "W23S006",
+      "W23S007"
+    ],
+    "findings_addressed": 4,
+    "findings": [
+      "W23S006 Theorem 2.4 partition constant; W23S006 Theorem 6.11 Eq. (6.43) form integral; W23S007 Corollary 2.4 infinite-mean proof direction; W23S007 Theorem 1.1 finite-size all-n wording caveat"
+    ],
+    "original_review_files_modified": false,
+    "source_pdfs_changed": false,
+    "old_first_five_cards_changed": false,
+    "L08_helper_mirrored": true
+  },
+  "mother_mirror_batch": {
+    "helper_batch": "L07_B10",
+    "reader": "L07",
+    "helper_stage_decision": "passed",
+    "mother_binding_status": "pending R03 review",
+    "review": "reviews/R03/w23_L07_B10/final_review.json",
+    "review_markdown": "reviews/R03/w23_L07_B10/final_review.md",
+    "stage_hash_manifest": "reviews/R03/w23_L07_B10/final_stage_hashes.json",
+    "manifest": "workers/W23/mirror_manifest_L07_B10.json",
+    "stable_mapping": {
+      "SAW-P50": "D01 SAW-P21 / helper W23-L07-B10-P50 -> W23S029",
+      "SAW-P56": "D01 SAW-P44 / helper W23-L07-B10-P56 -> W23S030"
+    },
+    "prior_D01_aliases_are_same_work": true,
+    "source_pdfs_modified": false,
+    "new_source_rows_pending": true,
+    "quota_added": false
+  },
+  "mother_mirror_history": [
+    {
+      "helper_batch": "L08_B2",
+      "reader": "L08",
+      "helper_stage_decision": "passed",
+      "mother_binding_status": "pending R03 review",
+      "manifest": "workers/W23/mirror_manifest_L08_B2.json",
+      "stable_mapping": {
+        "SAW-P07": "helper W23S006 -> mother W23S008",
+        "SAW-P09": "helper W23S007 -> mother W23S009",
+        "SAW-P10": "helper W23S008 -> mother W23S010"
+      },
+      "source_pdfs_modified": false,
+      "review_files_modified": false
+    },
+    {
+      "helper_batch": "L06_B6",
+      "reader": "L06",
+      "helper_stage_decision": "passed",
+      "mother_binding_status": "passed by R03",
+      "review": "reviews/R03/w23_mirror_L06_B6_review.json",
+      "manifest": "workers/W23/mirror_manifest_L06_B6.json",
+      "stable_mapping": {
+        "SAW-P31": "W23S017",
+        "SAW-P41": "W23S018",
+        "SAW-P45": "W23S019"
+      },
+      "quota_status": "included in accepted 19-source count",
+      "source_pdfs_modified": false,
+      "math_and_coverage_modified": false
+    },
+    {
+      "helper_batch": "L06_B9",
+      "reader": "L06",
+      "helper_stage_decision": "passed",
+      "mother_binding_status": "pending R03 review",
+      "review": "reviews/R03/w23_L06_B9/review.json",
+      "manifest": "workers/W23/mirror_manifest_L06_B9.json",
+      "stable_mapping": {
+        "SAW-P52": "D01 SAW-P26 / helper W23-L06-P26 -> W23S023",
+        "SAW-P53": "D01 SAW-P29 / helper W23-L06-P29 -> W23S024",
+        "SAW-P55": "D01 SAW-P43 / helper W23-L06-P43 -> W23S025"
+      },
+      "prior_D01_aliases_are_same_work": true,
+      "source_pdfs_modified": false,
+      "new_source_rows_pending": true,
+      "quota_added": false
+    },
+    {
+      "helper_batch": "L08_B8",
+      "reader": "L08",
+      "helper_stage_decision": "passed",
+      "helper_method_eligibility": "R03 passed all 3 under source-specific limits",
+      "mother_binding_status": "pending R03 review",
+      "review": "reviews/R03/w23_L08_B8_review.json",
+      "stage_hash_manifest": "reviews/R03/w23_L08_B8_stage_hashes.json",
+      "manifest": "workers/W23/mirror_manifest_L08_B8.json",
+      "stable_mapping": {
+        "SAW-P48": "D01 SAW-P19 / helper W23-L08-B8-P48 -> W23S026",
+        "SAW-P51": "D01 SAW-P22 / helper W23-L08-B8-P51 -> W23S027",
+        "SAW-P54": "D01 SAW-P39 / helper W23-L08-B8-P54 -> W23S028"
+      },
+      "prior_D01_aliases_are_same_work": true,
+      "source_pdfs_modified": false,
+      "new_source_rows_pending": true,
+      "quota_added": false
+    },
+    {
+      "helper_batch": "L07_B10",
+      "reader": "L07",
+      "helper_stage_decision": "passed",
+      "mother_binding_status": "pending R03 review",
+      "review": "reviews/R03/w23_L07_B10/final_review.json",
+      "review_markdown": "reviews/R03/w23_L07_B10/final_review.md",
+      "stage_hash_manifest": "reviews/R03/w23_L07_B10/final_stage_hashes.json",
+      "manifest": "workers/W23/mirror_manifest_L07_B10.json",
+      "stable_mapping": {
+        "SAW-P50": "D01 SAW-P21 / helper W23-L07-B10-P50 -> W23S029",
+        "SAW-P56": "D01 SAW-P44 / helper W23-L07-B10-P56 -> W23S030"
+      },
+      "prior_D01_aliases_are_same_work": true,
+      "source_pdfs_modified": false,
+      "new_source_rows_pending": true,
+      "quota_added": false
+    }
+  ],
+  "latest_mother_mirror_batch": {
+    "helper_batch": "L07_B10",
+    "reader": "L07",
+    "helper_stage_decision": "passed",
+    "mother_binding_status": "pending R03 review",
+    "review": "reviews/R03/w23_L07_B10/final_review.json",
+    "review_markdown": "reviews/R03/w23_L07_B10/final_review.md",
+    "stage_hash_manifest": "reviews/R03/w23_L07_B10/final_stage_hashes.json",
+    "manifest": "workers/W23/mirror_manifest_L07_B10.json",
+    "stable_mapping": {
+      "SAW-P50": "D01 SAW-P21 / helper W23-L07-B10-P50 -> W23S029",
+      "SAW-P56": "D01 SAW-P44 / helper W23-L07-B10-P56 -> W23S030"
+    },
+    "prior_D01_aliases_are_same_work": true,
+    "source_pdfs_modified": false,
+    "new_source_rows_pending": true,
+    "quota_added": false
+  },
+  "mother_registry_source_count": 30,
+  "mother_binding_pending_count": 11,
+  "pending_mother_binding_ids": [
+    "W23S020",
+    "W23S021",
+    "W23S022",
+    "W23S023",
+    "W23S024",
+    "W23S025",
+    "W23S026",
+    "W23S027",
+    "W23S028",
+    "W23S029",
+    "W23S030"
+  ],
+  "pending_mother_binding_pool_ids": [
+    "SAW-P46",
+    "SAW-P47",
+    "SAW-P49",
+    "SAW-P52",
+    "SAW-P53",
+    "SAW-P55",
+    "SAW-P48",
+    "SAW-P51",
+    "SAW-P54",
+    "SAW-P50",
+    "SAW-P56"
+  ],
+  "review_routing": "Submit W23S020–W23S030 source/PDF/hash/card/coverage/render/math evidence and the L10_B7, L06_B9, L08_B8 and L07_B10 mirror manifests for independent R03 mother-binding review. Do not increase accepted quota until each binding passes."
+}

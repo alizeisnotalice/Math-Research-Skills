@@ -1,0 +1,3752 @@
+[
+  {
+    "local_id": "PGEL-001",
+    "title": "Benign landscapes for synchronization on spheres via normalized Laplacian matrices",
+    "authors": [
+      "Andrew D. McRae"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.48550/arXiv.2503.18801",
+    "url": "https://arxiv.org/abs/2503.18801v2",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2503.18801v2",
+      "https://doi.org/10.48550/arXiv.2503.18801"
+    ],
+    "version": "arXiv:2503.18801v2; manuscript front page dated 2026-08-24",
+    "reason": "Direct deterministic second-order landscape certificate and symmetric signed Erdős–Rényi theorem; gives a sufficient random signed regime relevant to C118 while leaving its smaller proposed threshold open.",
+    "topics": [
+      "symmetric signed graph energy",
+      "phase quotient",
+      "second-order critical points",
+      "C118"
+    ],
+    "metadata_status": "Official arXiv record and PDF first page checked; title, author, v2, date, DOI, abstract consistent.",
+    "identity_status": "D02 phase-pool identity pass: strict PDF parse, 28 pages, SHA-256 checked; no exact title/identifier/hash duplicate in canonical/global scan.",
+    "local_pdf": "sources/pdfs/PGEL-001.pdf",
+    "sha256": "dc1a69bcf5f2dee0be85f4dec77bad21a283a3400201957bb66ddf64f57e1cb1",
+    "pdf_page_count": 28,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-28, complete",
+    "coverage_file": "reading_coverage.json#PGEL-001",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Direct method-family source; C118 transfer remains auxiliary because the theorem's sufficient threshold is stronger than the problem threshold.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.48550/arxiv.2503.18801",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/SGN01_benign_landscapes.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-001.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/SGN01_benign_landscapes.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "R05_passed"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-001.md",
+    "card_file": "sources/cards/PGEL-001.md",
+    "usage_card": "sources/cards/PGEL-001.md",
+    "reading_card": "sources/cards/PGEL-001.md",
+    "reading_coverage": "reading_coverage.json#PGEL-001",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-002",
+    "title": "The random graph process is globally synchronizing",
+    "authors": [
+      "Vishesh Jain",
+      "Clayton Mizgerd",
+      "Mehtaab Sawhney"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1112/blms.70226",
+    "url": "https://arxiv.org/abs/2501.12205v1",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2501.12205v1",
+      "https://doi.org/10.1112/blms.70226",
+      "https://doi.org/10.48550/arXiv.2501.12205"
+    ],
+    "version": "arXiv:2501.12205v1, 2025-01-21; later published DOI version not line-by-line compared",
+    "reason": "Rigorous comparison source for the distinction between global synchronization (a.e. initial phase) and landscape benignity, with a simultaneous whp theorem for the positive undirected random graph process.",
+    "topics": [
+      "positive undirected random graphs",
+      "a.e.-initial-condition global synchronization",
+      "defective expanders"
+    ],
+    "metadata_status": "Official arXiv record/PDF identity and published DOI bibliographic link checked; source actually read is v1.",
+    "identity_status": "D02 phase-pool identity pass: strict PDF parse, 11 pages, SHA-256 checked; no exact title/identifier/hash duplicate in canonical/global scan.",
+    "local_pdf": "sources/pdfs/PGEL-002.pdf",
+    "sha256": "efcbd4e7c7e68d3460a5cd9cbbe2e5b418f95fd4c7b958dc360424af33d136b5",
+    "pdf_page_count": 11,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-11, complete",
+    "coverage_file": "reading_coverage.json#PGEL-002",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Reusable positive-graph comparison method; not a signed-graph theorem and not an all-critical-points landscape result.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1112/blms.70226",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/KUR04_random_graph_process.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-002.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/KUR04_random_graph_process.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "R05_passed"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-002.md",
+    "card_file": "sources/cards/PGEL-002.md",
+    "usage_card": "sources/cards/PGEL-002.md",
+    "reading_card": "sources/cards/PGEL-002.md",
+    "reading_coverage": "reading_coverage.json#PGEL-002",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-003",
+    "title": "Expander graphs are globally synchronizing",
+    "authors": [
+      "Pedro Abdalla",
+      "Afonso S. Bandeira",
+      "Martin Kassabov",
+      "Victor Souza",
+      "Steven H. Strogatz",
+      "Alex Townsend"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1016/j.aim.2025.110773",
+    "url": "https://arxiv.org/abs/2210.12788",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2210.12788",
+      "https://doi.org/10.1016/j.aim.2025.110773",
+      "https://doi.org/10.48550/arXiv.2210.12788"
+    ],
+    "version": "arXiv:2210.12788v4, 2026-01-19; Advances in Mathematics 488 (2026), article 110773",
+    "reason": "Core positive-undirected graph method: converts spectral expansion into a.e.-initial-condition global synchronization, including the sharp connectivity-scale G(n,p) sufficient regime.",
+    "topics": [
+      "positive undirected Kuramoto graphs",
+      "spectral expansion",
+      "phase order parameters",
+      "amplification of arc outliers"
+    ],
+    "metadata_status": "Official arXiv record, source front page, version, publication citation and DOI checked through D02 metadata; exact source read is arXiv v4.",
+    "identity_status": "D02 identity pass; strict PDF page tree, full 35-page count and SHA-256 independently rechecked in W24.",
+    "local_pdf": "sources/pdfs/PGEL-003.pdf",
+    "sha256": "f70f8f651dbac9199b1eea03017ba649adf3d236a32e1f631d85eb59d8605798",
+    "pdf_page_count": 35,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-35, complete",
+    "coverage_file": "reading_coverage.json#PGEL-003",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Direct method-family source for positive undirected phase graphs; no transfer to signed C118 or directed/nonpotential models. The 0.0816 expander constant uses the source's numerical parameter checks.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1016/j.aim.2025.110773",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/EXP01_expanders.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-003.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/EXP01_expanders.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-003.md",
+    "card_file": "sources/cards/PGEL-003.md",
+    "usage_card": "sources/cards/PGEL-003.md",
+    "reading_card": "sources/cards/PGEL-003.md",
+    "reading_coverage": "reading_coverage.json#PGEL-003",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-004",
+    "title": "A global synchronization theorem for oscillators on a random graph",
+    "authors": [
+      "Martin Kassabov",
+      "Steven H. Strogatz",
+      "Alex Townsend"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1063/5.0090443",
+    "url": "https://arxiv.org/abs/2203.03152",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2203.03152v1",
+      "https://doi.org/10.1063/5.0090443",
+      "https://doi.org/10.48550/arXiv.2203.03152"
+    ],
+    "version": "arXiv:2203.03152v1, submitted 2022-03-07; exact 9-page author-version PDF read; journal-version equivalence not checked",
+    "reason": "Reusable deterministic spectral-norm criterion for positive undirected graph synchronization, plus an explicit ER finite-size calculation and a weaker asymptotic threshold for comparison with the later expander result.",
+    "topics": [
+      "positive undirected Kuramoto graphs",
+      "ER random graphs",
+      "adjacency and Laplacian spectral norms",
+      "finite-size synchronization"
+    ],
+    "metadata_status": "Official arXiv record, source front page and D02 published DOI metadata checked; the read text is v1 and was not compared page-by-page with the journal version.",
+    "identity_status": "D02 batch-B2 identity pass; strict PDF page tree, full 9-page count and SHA-256 independently rechecked in W24.",
+    "local_pdf": "sources/pdfs/PGEL-004.pdf",
+    "sha256": "115182e6aeb65b31726d8e4ebdc409133ce14b79537ca72fe18a91d7fccb36b2",
+    "pdf_page_count": 9,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-9, complete",
+    "coverage_file": "reading_coverage.json#PGEL-004",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Direct positive-undirected method source. The p>>log(n)/n numerical evidence is not the proved p>>log^2(n)/n result and neither transfers to signed/oriented systems.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1063/5.0090443",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-004_random_graph_global_sync.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-004.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-004_random_graph_global_sync.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-004.md",
+    "card_file": "sources/cards/PGEL-004.md",
+    "usage_card": "sources/cards/PGEL-004.md",
+    "reading_card": "sources/cards/PGEL-004.md",
+    "reading_coverage": "reading_coverage.json#PGEL-004",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-005",
+    "title": "Sufficiently dense Kuramoto networks are globally synchronizing",
+    "authors": [
+      "Martin Kassabov",
+      "Steven H. Strogatz",
+      "Alex Townsend"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1063/5.0057659",
+    "url": "https://arxiv.org/abs/2105.11406",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2105.11406v1",
+      "https://doi.org/10.1063/5.0057659",
+      "https://doi.org/10.48550/arXiv.2105.11406"
+    ],
+    "version": "arXiv:2105.11406v1, submitted 2021-05-24; exact 6-page author-version PDF read; journal-version equivalence not checked",
+    "reason": "Deterministic minimum-degree criterion for global synchronization on positive undirected networks; establishes the strict finite-n threshold conversion and its 3/4 asymptotic upper bound.",
+    "topics": [
+      "positive undirected Kuramoto graphs",
+      "minimum degree threshold",
+      "order-parameter inequalities",
+      "linear-stability boundary"
+    ],
+    "metadata_status": "Official arXiv record, source front page and D02 published DOI metadata checked; the read text is v1 and was not compared page-by-page with the journal version.",
+    "identity_status": "D02 batch-B2 identity pass; strict PDF page tree, full 6-page count and SHA-256 independently rechecked in W24.",
+    "local_pdf": "sources/pdfs/PGEL-005.pdf",
+    "sha256": "cb25a266410f4be91663f2ba0e515164fb55e1c3170a83bd5b8984cbfad9223d",
+    "pdf_page_count": 6,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-6, complete",
+    "coverage_file": "reading_coverage.json#PGEL-005",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Direct deterministic positive-undirected method source, not a random-graph theorem. The below-3/4 four-cluster discussion is explicitly only a rough sketch.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1063/5.0057659",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-005_dense_graph_global_sync.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-005.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-005_dense_graph_global_sync.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-005.md",
+    "card_file": "sources/cards/PGEL-005.md",
+    "usage_card": "sources/cards/PGEL-005.md",
+    "reading_card": "sources/cards/PGEL-005.md",
+    "reading_coverage": "reading_coverage.json#PGEL-005",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-006",
+    "global_source_id": "PR-9197fc7f025c",
+    "title": "Synchronization of Kuramoto Oscillators in Dense Networks",
+    "authors": [
+      "Jianfeng Lu",
+      "Stefan Steinerberger"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1088/1361-6544/ab9baa",
+    "url": "https://arxiv.org/abs/1911.12336",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1911.12336v2",
+      "https://doi.org/10.1088/1361-6544/ab9baa"
+    ],
+    "version": "1911.12336v2; exact arXiv author-version PDF",
+    "reason": "Deterministic positive-undirected dense-graph landscape theorem and reusable good-vertex/Hessian test-vector proof architecture; signed C118 transfer remains unproved.",
+    "topics": [
+      "positive undirected graph energy",
+      "dense-graph benign landscape",
+      "order parameter",
+      "Hessian cone argument",
+      "C118 auxiliary"
+    ],
+    "metadata_status": "Title, authors, version, and official route copied from the authoritative D02 phase-pool sourcepool; PDF first-page identity was checked in L14_B3. Mother-level R05 binding remains pending.",
+    "identity_status": "D02 phase-pool identity pass; strict PDF parse, first/last-page identity and exact SHA-256 checked; no accepted canonical read matched exact title, arXiv ID or hash.",
+    "local_pdf": "sources/pdfs/PGEL-006.pdf",
+    "sha256": "841b88e00295b691598e044b59778f22355f7f9b6f6c254f2797e74936c82688",
+    "pdf_page_count": 13,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-13, complete",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv v2 PDF, including all proof pages and references",
+        "pdf_pages": [
+          1,
+          13
+        ],
+        "coverage": "full_document_read",
+        "notes": "All 13 physical pages read in order."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-006.md",
+    "review_status": "R05_motherfinal_passed",
+    "document_type": "research_paper",
+    "coverage_file": "reading_coverage.json#PGEL-006",
+    "helper_coverage_path": "reading_coverage.json#PGEL-006",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-006.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Dense connected simple positive-undirected model only; source parameter margins are reported as Mathematica checks without an independent interval certificate; no signed C118 transfer.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1088/1361-6544/ab9baa",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-006_dense_network_landscape.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-006.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-006_dense_network_landscape.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-006.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L14_B3/reading_coverage.json#sources.PGEL-006",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L14_B3/cards/PGEL-006.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-006.md",
+    "card_file": "sources/cards/PGEL-006.md",
+    "reading_card": "sources/cards/PGEL-006.md",
+    "reading_coverage": "reading_coverage.json#PGEL-006",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-007",
+    "global_source_id": "PR-17cbeb002071",
+    "title": "On the Landscape of Synchronization Networks: A Perspective from Nonconvex Optimization",
+    "authors": [
+      "Shuyang Ling",
+      "Ruitu Xu",
+      "Afonso S. Bandeira"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1137/18M1217644",
+    "url": "https://arxiv.org/abs/1809.11083",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1809.11083v2",
+      "https://doi.org/10.1137/18M1217644"
+    ],
+    "version": "1809.11083v2; exact arXiv author-version PDF",
+    "reason": "Core deterministic and ER positive-graph landscape theorems; reusable rank-two Hessian, order-parameter, and uniform-net proof architecture, with an explicit boundary against signed C118.",
+    "topics": [
+      "positive undirected graph energy",
+      "second-order critical points",
+      "Erdos-Renyi positive graph",
+      "restricted isometry net",
+      "C118 transfer gap"
+    ],
+    "metadata_status": "Title, authors, version, and official route copied from the authoritative D02 phase-pool sourcepool; PDF first-page identity was checked in L14_B3. Mother-level R05 binding remains pending.",
+    "identity_status": "D02 phase-pool identity pass; strict PDF parse, first/last-page identity and exact SHA-256 checked; no accepted canonical read matched exact title, arXiv ID or hash.",
+    "local_pdf": "sources/pdfs/PGEL-007.pdf",
+    "sha256": "e9545189087e353b84932d5c06dac282bf2ad576b4e55d388af83f1f53fad1bd",
+    "pdf_page_count": 27,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-27, complete",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv v2 PDF, including proofs, examples and references",
+        "pdf_pages": [
+          1,
+          27
+        ],
+        "coverage": "full_document_read",
+        "notes": "All 27 physical pages read in order."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-007.md",
+    "review_status": "R05_motherfinal_passed",
+    "proof_scope_caveat": "Source p.19 identity <A-pJ,X◦X>=sum_{i≠j}(aij-p)Xij^2 omits -pn when Aii=0 and Xii=1. Card gives reader-derived alternative centering separately; exact standalone concentration constants are not approved for reuse without a consistent diagonal convention. Theorem 3.3 is not refuted.",
+    "document_type": "research_paper",
+    "coverage_file": "reading_coverage.json#PGEL-007",
+    "helper_coverage_path": "reading_coverage.json#PGEL-007",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-007.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Positive simple no-loop graphs only. Source PDF p.19 centered identity omits -pn under Aii=0, Xii=1; exact standalone concentration identities/constants need diagonal-convention reconciliation. Theorem 3.3 is not refuted and no signed transfer is claimed.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/18m1217644",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-007_sync_landscape_nonconvex.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-007.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-007_sync_landscape_nonconvex.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-007.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L14_B3/reading_coverage.json#sources.PGEL-007",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L14_B3/cards/PGEL-007.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-007.md",
+    "card_file": "sources/cards/PGEL-007.md",
+    "reading_card": "sources/cards/PGEL-007.md",
+    "reading_coverage": "reading_coverage.json#PGEL-007",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-008",
+    "global_source_id": "PR-a3de6c4ef8c1",
+    "title": "The lower bound of the network connectivity guaranteeing in-phase synchronization",
+    "authors": [
+      "Ryosuke Yoneda",
+      "Tsuyoshi Tatsukawa",
+      "Jun-nosuke Teramae"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": "10.1063/5.0054271",
+    "url": "https://arxiv.org/abs/2104.05954",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2104.05954v2",
+      "https://doi.org/10.1063/5.0054271"
+    ],
+    "version": "2104.05954v2; exact arXiv author-version PDF",
+    "reason": "Exact Fourier/integer-program method for maximizing linearly stable twisted-state connectivity in positive circulant graphs; a constructive lower-bound method, not a signed or universal landscape theorem.",
+    "topics": [
+      "positive undirected circulant graphs",
+      "twisted states",
+      "Fourier Jacobian",
+      "integer programming",
+      "linear stability",
+      "C118 method boundary"
+    ],
+    "metadata_status": "Title, authors, version, and official route copied from the authoritative D02 phase-pool sourcepool; PDF first-page identity was checked in L14_B3. Mother-level R05 binding remains pending.",
+    "identity_status": "D02 phase-pool identity pass; strict PDF parse, first/last-page identity and exact SHA-256 checked; no accepted canonical read matched exact title, arXiv ID or hash.",
+    "local_pdf": "sources/pdfs/PGEL-008.pdf",
+    "sha256": "e4968f7cd2858b9154ad630eb72661b2dd1418c05ba5a2ee8cf4cac3cef5ef47",
+    "pdf_page_count": 10,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-10, complete",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv v2 PDF, including Appendix A and references",
+        "pdf_pages": [
+          1,
+          10
+        ],
+        "coverage": "full_document_read",
+        "notes": "All 10 physical pages read in order."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-008.md",
+    "review_status": "R05_motherfinal_passed",
+    "proof_scope_caveat": "Appendix A p.9 A13→A14 lower-bound substitution is unsupported as written; R05's high-precision N-tilde=1001 diagnostic is recorded. This does not establish A1 or Theorem 2 false; don't treat this step as a verified proof.",
+    "document_type": "research_paper",
+    "coverage_file": "reading_coverage.json#PGEL-008",
+    "helper_coverage_path": "reading_coverage.json#PGEL-008",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-008.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Symmetric positive circulant graphs and strict linear stability only; Appendix A p.9 A13-to-A14 step is unsupported as printed. Does not classify general graph landscapes, nonlinear attraction, or signed C118.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1063/5.0054271",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-008_connectivity_lower_bound_twists.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-008.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-008_connectivity_lower_bound_twists.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-008.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L14_B3/reading_coverage.json#sources.PGEL-008",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L14_B3/cards/PGEL-008.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-008.md",
+    "card_file": "sources/cards/PGEL-008.md",
+    "reading_card": "sources/cards/PGEL-008.md",
+    "reading_coverage": "reading_coverage.json#PGEL-008",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-009",
+    "title": "Dense networks that do not synchronize and sparse ones that do",
+    "authors": [
+      "Alex Townsend",
+      "Michael Stillman",
+      "Steven H. Strogatz"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1063/5.0018322",
+    "url": "https://arxiv.org/abs/1906.10627",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1906.10627v4",
+      "https://doi.org/10.1063/5.0018322"
+    ],
+    "version": "arXiv:1906.10627v4 (17 Jun 2020); exact six-page author-version PDF",
+    "reason": "Gives exact Fourier/Jacobian tests for twisted states in symmetric positive circulant graphs, a sparse O(n log n)-edge family destabilizing every twisted state, and a dense near-75%-connectivity family with unresolved zero modes.",
+    "topics": [
+      "positive undirected circulant graphs",
+      "twisted-state Jacobian spectrum",
+      "critical connectivity lower bounds",
+      "sparse graph counterexamples",
+      "finite computational equilibria"
+    ],
+    "local_pdf": "sources/pdfs/PGEL-009.pdf",
+    "sha256": "1429ddba0df2f4a33af15f6b65e912394de83365003643fa63f0f49775a5802a",
+    "pdf_page_count": 6,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1-6, complete",
+    "proof_scope_caveat": "The simplified Eq. (6) and its cosine proof require m>=2. At n=2 (m=1), handle K2 directly from Eq. (5), whose nonzero twist eigenvalue is 2; literal Eq. (6) extension gives 3. Strict instability still holds in this boundary case. For m>=2, Eq. (6) destabilizes twisted states in this sparse family only; other equilibria remain unclassified for general n.",
+    "global_source_id": "PR-ee82f0c65aa6",
+    "identity_status": "R05 helper stage verified identity; local PDF SHA/page count match D02 identity evidence; exact canonical read duplicate absent.",
+    "metadata_status": "R05 metadata_verified=false. D02/source first-page identity is recorded; citation metadata remains unverified at mother binding.",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv v4 PDF including discussion and references",
+        "pdf_pages": [
+          1,
+          6
+        ],
+        "coverage": "full_document_read",
+        "notes": "Reader L03 read every physical page in order; the full reading and section coverage are recorded in the mother coverage entry and linked helper evidence."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-009.md",
+    "coverage_file": "reading_coverage.json#PGEL-009",
+    "helper_coverage_path": "reading_coverage.json#PGEL-009",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-009.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "review_status": "R05_motherfinal_passed",
+    "document_type": "research_paper",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "The simplified Eq. (6) and its cosine proof require m>=2. At n=2 (m=1), handle K2 directly from Eq. (5), whose nonzero twist eigenvalue is 2; literal Eq. (6) extension gives 3. Strict instability still holds in this boundary case. For m>=2, Eq. (6) destabilizes twisted states in this sparse family only; other equilibria remain unclassified for general n.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1063/5.0018322",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-009_dense_sparse_non_sync.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-009.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-009_dense_sparse_non_sync.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-009.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L03_B4/reading_coverage.json#sources.PGEL-009",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L03_B4/cards/PGEL-009.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-009.md",
+    "card_file": "sources/cards/PGEL-009.md",
+    "reading_card": "sources/cards/PGEL-009.md",
+    "reading_coverage": "reading_coverage.json#PGEL-009",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-010",
+    "title": "The energy landscape of the Kuramoto model in random geometric graphs in a circle",
+    "authors": [
+      "Cecilia De Vita",
+      "Julián Fernández Bonder",
+      "Pablo Groisman"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1137/24M1642111",
+    "url": "https://arxiv.org/abs/2402.06744",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2402.06744v2",
+      "https://doi.org/10.1137/24M1642111",
+      "https://doi.org/10.48550/arXiv.2402.06744"
+    ],
+    "version": "arXiv:2402.06744v2, 2024-07-22; SIAM J. Appl. Dyn. Syst. 24(1) (2025)",
+    "reason": "Direct random geometric graph construction of stable winding-sector minima; supplies a counterpoint to global synchronization and an explicit phase-sector/boundary argument.",
+    "topics": [
+      "random geometric graphs",
+      "winding sectors",
+      "stable local minima",
+      "phase quotient"
+    ],
+    "metadata_status": "Official arXiv record, source front matter and published DOI citation checked; exact source read is v2.",
+    "identity_status": "D02 phase-pool identity pass: strict PDF parse, 15 pages, SHA-256 checked; no exact title/identifier/hash duplicate in canonical/global scan.",
+    "local_pdf": "sources/pdfs/PGEL-010.pdf",
+    "sha256": "e8cdbd8c6b0d36b8a3eb87b7ac21b7a2318c2f3ae72addaebd82cc741132effc",
+    "pdf_page_count": 15,
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1-15, complete",
+    "coverage_file": "reading_coverage.json#PGEL-010",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Direct method-family source. Proposition 3.1's printed normalization is contradicted by an exact expectation/variance check; the local theorem use has slack and is separately qualified in the card.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/24m1642111",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/RGG01_random_geometric_circle.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-010.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/RGG01_random_geometric_circle.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "R05_passed"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-010.md",
+    "card_file": "sources/cards/PGEL-010.md",
+    "usage_card": "sources/cards/PGEL-010.md",
+    "reading_card": "sources/cards/PGEL-010.md",
+    "reading_coverage": "reading_coverage.json#PGEL-010",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-011",
+    "title": "Guarantees for Spontaneous Synchronization on Random Geometric Graphs",
+    "authors": [
+      "Pedro Abdalla",
+      "Afonso S. Bandeira",
+      "Clara Invernizzi"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.1137/23M1559270",
+    "url": "https://arxiv.org/abs/2208.12246",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2208.12246v2",
+      "https://doi.org/10.48550/arXiv.2208.12246",
+      "https://doi.org/10.1137/23M1559270"
+    ],
+    "version": "Read local arXiv:2208.12246v2 (15 Feb 2024), exact 14-page author-version PDF; journal publication metadata: SIAM Journal on Applied Dynamical Systems 23(1), 779–790 (2024), published 7 Mar 2024. Journal full-text equivalence not checked.",
+    "reason": "Provides a precise positive-graph landscape criterion and high-probability synchronization guarantees for high-dimensional random geometric graphs, with explicit degree/dimension regimes and a proof using ER sandwiching and spectral concentration.",
+    "topics": [
+      "positive undirected random geometric graphs",
+      "all-local-minima landscape condition",
+      "spectral norm concentration",
+      "Erdos-Renyi sandwiching",
+      "dimension and expected degree thresholds"
+    ],
+    "local_pdf": "sources/pdfs/PGEL-011.pdf",
+    "sha256": "6fd995cd07bfc86927603c687f6c008b335dbc4ff69738cfc54f4df13d58fea6",
+    "pdf_page_count": 14,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1-14, complete",
+    "proof_scope_caveat": "Definition 1 is a landscape property for positive symmetric graphs. Theorem 3 requires d >= Cd(n^2p^2+log^4 n)log^4 n, alpha/n < p < 1/2, and np >= Cp log^2 n; Theorem 4's explicit corollary is recorded separately. No signed-graph or fixed-low-dimensional transfer is established.",
+    "global_source_id": "PR-2dc09e264f69",
+    "identity_status": "R05 verified identity; local read is the 14-page arXiv v2 PDF, not a claimed journal full-text read.",
+    "arxiv_identifier_doi": "10.48550/arXiv.2208.12246",
+    "metadata_status": "R05 metadata_verified=true: official arXiv record confirms title/authors/v2; official SIAM record confirms journal title, 23(1), 779–790 (2024), published 7 Mar 2024, DOI 10.1137/23M1559270. The arXiv identifier DOI 10.48550/arXiv.2208.12246 is distinct. Local 14-page arXiv v2 is the read text; journal full-text equivalence was not checked.",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv v2 PDF including all proof pages and references",
+        "pdf_pages": [
+          1,
+          14
+        ],
+        "coverage": "full_document_read",
+        "notes": "Reader L03 read every physical page in order; the full reading and section coverage are recorded in the mother coverage entry and linked helper evidence."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-011.md",
+    "coverage_file": "reading_coverage.json#PGEL-011",
+    "helper_coverage_path": "reading_coverage.json#PGEL-011",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-011.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "review_status": "R05_motherfinal_passed",
+    "document_type": "research_paper",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Definition 1 is a landscape property for positive symmetric graphs. Theorem 3 requires d >= Cd(n^2p^2+log^4 n)log^4 n, alpha/n < p < 1/2, and np >= Cp log^2 n; Theorem 4's explicit corollary is recorded separately. No signed-graph or fixed-low-dimensional transfer is established.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/23m1559270",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-011_random_geometric_sphere_sync.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-011.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-011_random_geometric_sphere_sync.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-011.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L03_B4/reading_coverage.json#sources.PGEL-011",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L03_B4/cards/PGEL-011.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-011.md",
+    "card_file": "sources/cards/PGEL-011.md",
+    "reading_card": "sources/cards/PGEL-011.md",
+    "reading_coverage": "reading_coverage.json#PGEL-011",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-012",
+    "title": "Phase Synchronization in Random Geometric Graphs on the 2D Sphere",
+    "authors": [
+      "Cecilia De Vita",
+      "Pablo Groisman",
+      "Ruojun Huang"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2504.01151",
+    "url": "https://arxiv.org/abs/2504.01151",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2504.01151v2"
+    ],
+    "version": "arXiv:2504.01151v2 (1 Oct 2025); exact 18-page author-version PDF",
+    "reason": "Gives a low-dimensional S^2 scaling-limit route from a weighted random-geometric Kuramoto system to the heat equation and an eventual-synchronization result for initial data converging to a smooth limit.",
+    "topics": [
+      "two-dimensional sphere random geometric graph",
+      "Kuramoto-to-heat-equation scaling limit",
+      "smooth limiting initial data",
+      "comparison principle and Lipschitz bounds",
+      "simply-connected phase lifting"
+    ],
+    "local_pdf": "sources/pdfs/PGEL-012.pdf",
+    "sha256": "c9e66d032a0100724fef45d3fb174ae7fa49a0ff99bbc57b06777bb8efd5c887",
+    "pdf_page_count": 18,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1-18, complete",
+    "proof_scope_caveat": "The paper states eventual synchronization for initial-condition sequences summably close to a smooth C^{2,alpha}(S^2) profile; it is not a landscape theorem for all equilibria. Preserve Eq. (2.6) kappa=pi/8 as source-reported. With sigma unnormalized, uniform sampling sigma/(4pi), unweighted N_i, and allowed indicator K, the exact Eq. (2.8) north-pole v=y_3 test is -1/4 while printed kappa*Delta v=-pi/4, a nonvanishing residual (pi-1)/4 against Lemma 3.7. Exact diffusivity/Theorem 2.1 quantitative reuse is pending reconciliation. The single-test coefficient 1/8 is not a general repair. Theorem 2.4 is not declared false; its proof uses the exact heat clock and needs reconciliation. Eq. (2.2) prints n epsilon/4 versus exact (n-1) epsilon/4.",
+    "global_source_id": "PR-79c634c23153",
+    "identity_status": "R05 helper stage verified identity; local PDF SHA/page count match D02 identity evidence; exact canonical read duplicate absent.",
+    "metadata_status": "R05 metadata_verified=false. D02 sourcepool and PDF first page agree on title/authors/arXiv v2; no journal metadata verification is claimed.",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv v2 PDF including Appendix and references",
+        "pdf_pages": [
+          1,
+          18
+        ],
+        "coverage": "full_document_read",
+        "notes": "Reader L03 read every physical page in order; the full reading and section coverage are recorded in the mother coverage entry and linked helper evidence."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-012.md",
+    "coverage_file": "reading_coverage.json#PGEL-012",
+    "helper_coverage_path": "reading_coverage.json#PGEL-012",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-012.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "review_status": "R05_motherfinal_passed",
+    "document_type": "research_paper",
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "The paper states eventual synchronization for initial-condition sequences summably close to a smooth C^{2,alpha}(S^2) profile; it is not a landscape theorem for all equilibria. Preserve Eq. (2.6) kappa=pi/8 as source-reported. With sigma unnormalized, uniform sampling sigma/(4pi), unweighted N_i, and allowed indicator K, the exact Eq. (2.8) north-pole v=y_3 test is -1/4 while printed kappa*Delta v=-pi/4, a nonvanishing residual (pi-1)/4 against Lemma 3.7. Exact diffusivity/Theorem 2.1 quantitative reuse is pending reconciliation. The single-test coefficient 1/8 is not a general repair. Theorem 2.4 is not declared false; its proof uses the exact heat clock and needs reconciliation. Eq. (2.2) prints n epsilon/4 versus exact (n-1) epsilon/4.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.48550/arxiv.2504.01151",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-012_random_geometric_sphere_2D_sync.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-012.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-012_random_geometric_sphere_2D_sync.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-012.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L03_B4/reading_coverage.json#sources.PGEL-012",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L03_B4/cards/PGEL-012.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-012.md",
+    "card_file": "sources/cards/PGEL-012.md",
+    "reading_card": "sources/cards/PGEL-012.md",
+    "reading_coverage": "reading_coverage.json#PGEL-012",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-015",
+    "title": "Stability of twisted states in the Kuramoto model on Cayley and random graphs",
+    "authors": [
+      "Georgi S. Medvedev",
+      "Xuezhi Tang"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1007/s00332-015-9252-y",
+    "url": "https://arxiv.org/abs/1407.3990",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1407.3990",
+      "https://doi.org/10.1007/s00332-015-9252-y"
+    ],
+    "version": "arXiv:1407.3990v3; page-1 margin stamp 10 May 2015 and title-page body date August 8, 2018; exact 36-page local PDF. Preserve discrepancy; do not assert equivalence to journal copy.",
+    "reason": "Exact Fourier/Jacobian criteria for q-twist stability on symmetric Cayley graphs and a source-specific finite-horizon comparison with G(n,p); the ER proof interface remains pending because Lemma 7.3 as printed admits an exact counterexample.",
+    "topics": [
+      "symmetric undirected Cayley graphs",
+      "twisted-state Fourier spectrum",
+      "local stability",
+      "positive ER finite-horizon comparison",
+      "ER twisted-state residual",
+      "finite-time metastability"
+    ],
+    "metadata_status": "D02 metadata and local PDF identity verified. Exact physical p.1 visibly has an arXiv v3 margin date 10 May 2015 and a distinct body date 8 Aug 2018; journal-copy equivalence is not claimed.",
+    "identity_status": "D02 identityhash_B2 pass; strict local PDF parse, exact page count and SHA-256 independently rechecked; no accepted canonical full-read match by exact title/arXiv key/source hash.",
+    "local_pdf": "sources/pdfs/PGEL-015.pdf",
+    "sha256": "b6aede88f5a5ade09c8e53f8acbf923f5e0c4fa51b0e5c027beefa6c38cb1538",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–36, complete, read in order.",
+    "review_status": "R05_motherfinal_passed",
+    "pdf_page_count": 36,
+    "canonical_read_index_checked": true,
+    "canonical_matches": [],
+    "identity_evidence": "audit/evidence-path-index.json#PGEL-015.identity_evidence",
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-015.md",
+    "proof_scope_caveat": "The saved exact counterexample applies only after both intended corrections; it is not a counterexample to the literal display. Th7.2/7.5 proof interfaces remain unverified, not false.",
+    "global_source_id": "PR-0cb74bcb6bf9",
+    "helper_local_id": "PGEL-015",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-015.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-015",
+    "helper_coverage_path": "reading_coverage.json#PGEL-015",
+    "helper_review_reference": "audit/review-index.json#PGEL-015.review",
+    "helper_review_sha256": "f8dd12084ff613945cdcd29cf5085d8e881578bff10218dd58c5ab5f6bd61cc5",
+    "helper_review_status": "R02 final helper-stage passed; mother hash binding pending; no quota increment",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R02_identity_verified": true,
+    "R02_metadata_verified": true,
+    "R02_version_verified": true,
+    "R02_full_read_accepted": true,
+    "R02_reviewed_card_sha256": "de7b09b0a526a515f9f5de6882d2cba762b37baeb5c5f5a77f3627c2bebd1eac",
+    "R02_mother_hash_bound": false,
+    "math_evidence": "sources/math/pgel_l03_b7_checks.json#PGEL-015-Lemma-7.3-counterexample",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1007/s00332-015-9252-y",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-015_twisted_states_Cayley_random.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-015.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-015_twisted_states_Cayley_random.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "identity_evidence": {
+          "value": "downloads/D02/phase_pool/identityhash_B2.json#PGEL-015",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-015",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-015.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L03_B7/cards/PGEL-015.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L03_B7/reading_coverage.json#sources.PGEL-015",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R02/W24_L03_B7/final_revision1/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l03_b7_checks.json#PGEL-015-Lemma-7.3-counterexample",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-015.md",
+    "card_file": "sources/cards/PGEL-015.md",
+    "reading_card": "sources/cards/PGEL-015.md",
+    "reading_coverage": "reading_coverage.json#PGEL-015",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-016",
+    "title": "When is sync globally stable in sparse networks of identical Kuramoto oscillators?",
+    "authors": [
+      "Yury Sokolov",
+      "G. Bard Ermentrout"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1016/j.physa.2019.122070",
+    "url": "https://arxiv.org/abs/1812.08153",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1812.08153",
+      "https://doi.org/10.1016/j.physa.2019.122070"
+    ],
+    "version": "arXiv:1812.08153v2 (7 Nov 2019), exact 23-page arXiv author-version PDF",
+    "reason": "Full-text countercheck of an algorithmic/heuristic approach to nonsynchronous phase-locked states on positive undirected graphs; central Ansatz 1 is explicitly unproved and stochastic-block evidence is finite-sample numerical.",
+    "topics": [
+      "positive undirected graph Kuramoto model",
+      "unproved Laplacian boundary-vector ansatz",
+      "phase-locked state search heuristic",
+      "finite stochastic-block-model experiments"
+    ],
+    "metadata_status": "D02 sourcepool record, official arXiv record locator, exact local first-page identity and cited version cross-checked; published DOI recorded separately.",
+    "identity_status": "D02 identityhash_B2 pass; strict local PDF parse, exact page count and SHA-256 independently rechecked; no accepted canonical full-read match by exact title/arXiv key/source hash.",
+    "local_pdf": "sources/pdfs/PGEL-016.pdf",
+    "sha256": "5c1bf38a2969f633fe52413329e10d52dea1dadc67165a04e73c4cd92d302471",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–23, complete, read in order.",
+    "review_status": "R05_motherfinal_passed",
+    "pdf_page_count": 23,
+    "canonical_read_index_checked": true,
+    "canonical_matches": [],
+    "identity_evidence": "audit/evidence-path-index.json#PGEL-016.identity_evidence",
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-016.md",
+    "proof_scope_caveat": "Eligible only for p.9 Eq.(9): at an exactly verified equilibrium on a connected graph with every edge cosine strictly positive, the Jacobian is strictly negative on 1-perp, giving local exponential stability modulo common rotation. Ansatz 1, motif-driven global existence/core search, finite-sample simulations, and any whp claim remain unproved/excluded; no signed transfer or C106/C107/C118 solution.",
+    "global_source_id": "PR-18d232664847",
+    "helper_local_id": "PGEL-016",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-016.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-016",
+    "helper_coverage_path": "reading_coverage.json#PGEL-016",
+    "helper_review_reference": "audit/review-index.json#PGEL-016.review",
+    "helper_review_sha256": "f8dd12084ff613945cdcd29cf5085d8e881578bff10218dd58c5ab5f6bd61cc5",
+    "helper_review_status": "R02 final helper-stage passed; mother hash binding pending; no quota increment",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R02_identity_verified": true,
+    "R02_metadata_verified": true,
+    "R02_version_verified": true,
+    "R02_full_read_accepted": true,
+    "R02_reviewed_card_sha256": "18e243a774a6fa3be814b3835693d42834839d2051f250a9da74b83b528331f4",
+    "R02_mother_hash_bound": false,
+    "math_evidence": "sources/math/pgel_l03_b7_checks.json#PGEL-016-local-checks",
+    "method_eligibility_scope": "Only exact-equilibrium local Jacobian certificate at source physical p.9 Eq. (9), for connected graph and strictly positive edge cosines; no Ansatz/global-existence or whp result.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1016/j.physa.2019.122070",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-016_sparse_sync_global_stability.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-016.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-016_sparse_sync_global_stability.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "identity_evidence": {
+          "value": "downloads/D02/phase_pool/identityhash_B2.json#PGEL-016",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-016",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-016.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L03_B7/cards/PGEL-016.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L03_B7/reading_coverage.json#sources.PGEL-016",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R02/W24_L03_B7/final_revision1/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l03_b7_checks.json#PGEL-016-local-checks",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-016.md",
+    "card_file": "sources/cards/PGEL-016.md",
+    "reading_card": "sources/cards/PGEL-016.md",
+    "reading_coverage": "reading_coverage.json#PGEL-016",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-017",
+    "title": "Multistability of Phase-Locking and Topological Winding Numbers in Locally Coupled Kuramoto Models on Single-Loop Networks",
+    "authors": [
+      "Robin Delabays",
+      "Tommaso Coletta",
+      "Philippe Jacquod"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1063/1.4943296",
+    "url": "https://arxiv.org/abs/1512.04266v2",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1512.04266v2",
+      "https://doi.org/10.1063/1.4943296"
+    ],
+    "version": "1512.04266v2; exact arXiv author-version PDF",
+    "reason": "Exact cycle-space flow representation and cycle-only stability/count theorem; includes the finite-capacity large-gap boundary needed to prevent an unjustified all-gaps-small assumption.",
+    "topics": [
+      "single-loop Kuramoto model",
+      "cycle-space flow",
+      "winding number",
+      "linear stability",
+      "finite-capacity continuation"
+    ],
+    "metadata_status": "D02 sourcepool and official arXiv route were checked against the exact local PDF first page. PGEL-017/018 publication DOI and citation are in the D02 record; PGEL-032 is recorded as arXiv v6 with its PDF front-page date, with no publication claim. R05 helper-stage metadata_verified=false; metadata is not upgraded to independently verified.",
+    "identity_status": "D02 identity record and independently re-opened strict PDF match: 25 pages and SHA-256 01ec601706615d902d871271971743dc61951d07337023a80d857a927487284b; canonical index exact-title/hash scan found no accepted full-read duplicate. R05 helper-stage identity_verified=true; mother hash binding pending.",
+    "local_pdf": "sources/pdfs/PGEL-017.pdf",
+    "sha256": "01ec601706615d902d871271971743dc61951d07337023a80d857a927487284b",
+    "pdf_page_count": 25,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–25, complete; all pages read in order.",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv version including all proofs, appendices/acknowledgments, and references as present",
+        "pdf_pages": [
+          1,
+          25
+        ],
+        "coverage": "full_document_read",
+        "notes": "All 25 physical PDF pages were read in order; theorem pages were checked against rendered page images."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-017.md",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "Proposed as a reusable cycle-energy/stability source; count and nonlinear claims remain restricted to positive symmetric single-cycle dynamics. Corollary IV.4's literal fixed-injection limit equality is isolated at the 4|n endpoint pending reconciliation; its formal count, finite upper bound, and monotonicity are kept distinct.",
+    "global_source_id": "PR-e6a4d4b6224a",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-017.helper-card",
+    "helper_coverage_path": "reading_coverage.json#PGEL-017",
+    "coverage_file": "reading_coverage.json#PGEL-017",
+    "tool_quota_eligibility": true,
+    "helper_local_id": "PGEL-017",
+    "helper_review_status": "R05 helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "R05_metadata_verified": false,
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1063/1.4943296",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-017_single_loop_winding_multistability.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-017.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-017_single_loop_winding_multistability.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-017.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L02_B6/cards/PGEL-017.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L02_B6/reading_coverage.json#sources.PGEL-017",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-017.md",
+    "card_file": "sources/cards/PGEL-017.md",
+    "reading_card": "sources/cards/PGEL-017.md",
+    "reading_coverage": "reading_coverage.json#PGEL-017",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-018",
+    "title": "Multistability of Phase-Locking in Equal-Frequency Kuramoto Models on Planar Graphs",
+    "authors": [
+      "Robin Delabays",
+      "Tommaso Coletta",
+      "Philippe Jacquod"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1063/1.4978697",
+    "url": "https://arxiv.org/abs/1609.02359v2",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1609.02359v2",
+      "https://doi.org/10.1063/1.4978697"
+    ],
+    "version": "1609.02359v2; exact arXiv author-version PDF",
+    "reason": "For connected planar graphs, facial-cycle quantization gives a product bound under an explicit all-edge-gap condition; tree-like appendages are absorbed at their attachment vertex, while counterexamples show why the unrestricted planar case needs a separate argument.",
+    "topics": [
+      "planar Kuramoto graphs",
+      "face-cycle basis",
+      "winding quantization",
+      "stable fixed-point count",
+      "large-gap counterexamples"
+    ],
+    "metadata_status": "D02 sourcepool and official arXiv route were checked against the exact local PDF first page. PGEL-017/018 publication DOI and citation are in the D02 record; PGEL-032 is recorded as arXiv v6 with its PDF front-page date, with no publication claim. R05 helper-stage metadata_verified=false; metadata is not upgraded to independently verified.",
+    "identity_status": "D02 identity record and independently re-opened strict PDF match: 13 pages and SHA-256 8546628e25dfe3798eb8b62fcd49bb02df2b1a5a489c1a4fb9d8961c36df81c3; canonical index exact-title/hash scan found no accepted full-read duplicate. R05 helper-stage identity_verified=true; mother hash binding pending.",
+    "local_pdf": "sources/pdfs/PGEL-018.pdf",
+    "sha256": "8546628e25dfe3798eb8b62fcd49bb02df2b1a5a489c1a4fb9d8961c36df81c3",
+    "pdf_page_count": 13,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–13, complete; all pages read in order.",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv version including all proofs, appendices/acknowledgments, and references as present",
+        "pdf_pages": [
+          1,
+          13
+        ],
+        "coverage": "full_document_read",
+        "notes": "All 13 physical PDF pages were read in order; theorem pages were checked against rendered page images."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-018.md",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "Proposed as a reusable planar energy-landscape source for connected graphs, modulo one common phase, with tree-like appendages reduced as stated on p. 5; the proved global count for total stable states needs the stated graph condition, and the generic planar extension is only conjectured.",
+    "global_source_id": "PR-cd312ef4031b",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-018.helper-card",
+    "helper_coverage_path": "reading_coverage.json#PGEL-018",
+    "coverage_file": "reading_coverage.json#PGEL-018",
+    "tool_quota_eligibility": true,
+    "helper_local_id": "PGEL-018",
+    "helper_review_status": "R05 helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "R05_metadata_verified": false,
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1063/1.4978697",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-018_planar_graph_multistability.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-018.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-018_planar_graph_multistability.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-018.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L02_B6/cards/PGEL-018.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L02_B6/reading_coverage.json#sources.PGEL-018",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-018.md",
+    "card_file": "sources/cards/PGEL-018.md",
+    "reading_card": "sources/cards/PGEL-018.md",
+    "reading_coverage": "reading_coverage.json#PGEL-018",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-019",
+    "title": "Graph Homology and Stability of Coupled Oscillator Networks",
+    "authors": [
+      "Jared C. Bronski",
+      "Lee DeVille",
+      "Timothy Ferguson"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1137/15M1034258",
+    "url": "https://arxiv.org/abs/1508.01507",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1508.01507",
+      "https://doi.org/10.1137/15M1034258"
+    ],
+    "version": "arXiv:1508.01507v1 (first submitted 6 Aug 2015); read exact 18-page arXiv author-version PDF; published SIAM J. Appl. Math. 76(3):1126–1151 (2016)",
+    "reason": "Provides a cycle-space inertia method and low-cycle signed-Laplacian criteria in nondegenerate applications; the read arXiv v1 unrestricted Theorem 2.6 and an auxiliary bridge-edge inequality have singular/counterexample boundaries, and Theorem 2.8 is separately quarantined after exact checks.",
+    "topics": [
+      "signed weighted undirected graph Laplacian",
+      "cycle-space inertia",
+      "one-cycle and two-cycle stability",
+      "Kuramoto phase-locked Jacobian"
+    ],
+    "local_pdf": "sources/pdfs/PGEL-019.pdf",
+    "sha256": "51d84dbb4b2edbc74322ee92c6b57d129d789bb9f1c8e4f273e4debc1db698be",
+    "pdf_page_count": 18,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1-18, complete",
+    "proof_scope_caveat": "In the read arXiv v1 PDF, the literal unrestricted Theorem 2.6 fails on the exact (1,1,-1/2) triangle at a singular restriction; use its proof only after independently checking Haynsworth's nonsingularity hypotheses. The p.4 auxiliary n_+(L)<=negative-bridge-count line fails on the all-negative triangle. The stable bound m_-<=C for n_+(L)=0 is independently derived in the usage card, not attributed as a verified consequence of the singular identity. Theorem 2.8 Eq. (2.3) also fails the exact unit-triangle check. The publisher full text was not read.",
+    "global_source_id": "PR-5ed8acca5dad",
+    "metadata_status": "D02 sourcepool title/authors/version/official record cross-checked against first page; cited PDF identity confirmed. Published journal citation/year/volume/pages cross-checked against the official SIAM publication page; publisher full text not read. R05 stage metadata_verified=false; journal full text not read.",
+    "identity_status": "D02 identity record and independent local SHA-256/page count/text page markers agree; canonical index has no exact title/hash full-read match. R05 helper stage identity verified.",
+    "read_units": [
+      {
+        "unit": "Complete local author-version PDF including proofs/appendices (if present) and references",
+        "pdf_pages": [
+          1,
+          18
+        ],
+        "coverage": "full_document_read",
+        "notes": "All physical pages were read in order; section coverage and rendered evidence are linked from the mother coverage entry and the frozen helper stage."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-019.md",
+    "coverage_file": "reading_coverage.json#PGEL-019",
+    "helper_coverage_path": "reading_coverage.json#PGEL-019",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-019.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "review_status": "R05_motherfinal_passed",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "In the read arXiv v1 PDF, the literal unrestricted Theorem 2.6 fails on the exact (1,1,-1/2) triangle at a singular restriction; use its proof only after independently checking Haynsworth's nonsingularity hypotheses. The p.4 auxiliary n_+(L)<=negative-bridge-count line fails on the all-negative triangle. The stable bound m_-<=C for n_+(L)=0 is independently derived in the usage card, not attributed as a verified consequence of the singular identity. Theorem 2.8 Eq. (2.3) also fails the exact unit-triangle check. The publisher full text was not read.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/15m1034258",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-019_graph_homology_stability.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-019.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-019_graph_homology_stability.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-019.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L13_B5/reading_coverage.json#sources.PGEL-019",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L13_B5/cards/PGEL-019.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-019.md",
+    "card_file": "sources/cards/PGEL-019.md",
+    "reading_card": "sources/cards/PGEL-019.md",
+    "reading_coverage": "reading_coverage.json#PGEL-019",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-020",
+    "title": "Topological States in the Kuramoto Model",
+    "authors": [
+      "Timothy Ferguson"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.1137/17M112484X",
+    "url": "https://arxiv.org/abs/1704.02294",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1704.02294",
+      "https://doi.org/10.1137/17M112484X"
+    ],
+    "version": "arXiv:1704.02294v1 (7 Apr 2017), exact 10-page arXiv author-version PDF",
+    "reason": "Deterministic cycle-winding classification and lattice-counting results for fixed weighted graphs, including subdivision asymptotics and a sign-matched sufficient stable-state count construction; Theorem 6 is isolated from verified use.",
+    "topics": [
+      "cycle-space winding coordinates",
+      "branch-constrained steady-state classification",
+      "graph subdivision lattice-count asymptotics",
+      "sufficient stable steady-state lower bounds"
+    ],
+    "metadata_status": "D02 sourcepool record, official arXiv record locator, exact local first-page identity and cited version cross-checked; published DOI recorded separately.",
+    "identity_status": "D02 identityhash_B2 pass; strict local PDF parse, exact page count and SHA-256 independently rechecked; no accepted canonical full-read match by exact title/arXiv key/source hash.",
+    "local_pdf": "sources/pdfs/PGEL-020.pdf",
+    "sha256": "a544832a2e3b8575fe0acbd798751b3e94fdc5051dc2681186e2f6625ed61425",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–10, complete, read in order.",
+    "review_status": "R05_motherfinal_passed",
+    "pdf_page_count": 10,
+    "canonical_read_index_checked": true,
+    "canonical_matches": [],
+    "identity_evidence": "audit/evidence-path-index.json#PGEL-020.identity_evidence",
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-020.md",
+    "proof_scope_caveat": "Retain omega in im(B) cycle-flow/winding existence with alpha fibers and independent positive-principal-branch injectivity/local stability gate; mixed branches, weighted facets, closed-endpoint stability, unrestricted Th4 proof and Th6 constant remain quarantined.",
+    "global_source_id": "PR-8a8ffebc8c2f",
+    "helper_local_id": "PGEL-020",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-020.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-020",
+    "helper_coverage_path": "reading_coverage.json#PGEL-020",
+    "helper_review_reference": "audit/review-index.json#PGEL-020.review",
+    "helper_review_sha256": "f8dd12084ff613945cdcd29cf5085d8e881578bff10218dd58c5ab5f6bd61cc5",
+    "helper_review_status": "R02 final helper-stage passed; mother hash binding pending; no quota increment",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R02_identity_verified": true,
+    "R02_metadata_verified": true,
+    "R02_version_verified": true,
+    "R02_full_read_accepted": true,
+    "R02_reviewed_card_sha256": "704704b1606e8f7ec294b4942c680e53cf0295b3452c480c64db84460886d0c7",
+    "R02_mother_hash_bound": false,
+    "math_evidence": "sources/math/pgel_l03_b7_revision_checks.json",
+    "R04_neutral_review_reference": "audit/review-index.json#PGEL-020.review",
+    "R04_neutral_review_sha256": "930933c0100224a0bfcbc3243b14216213b4482606a6676aef18e24331e86317",
+    "R04_neutral_checks_sha256": "e64bb9a09a66263fabd4a46557075b093be8bf146a1ffda56aa6566c91a678c5",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/17m112484x",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-020_topological_states.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-020.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-020_topological_states.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "identity_evidence": {
+          "value": "downloads/D02/phase_pool/identityhash_B2.json#PGEL-020",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-020",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-020.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L03_B7/cards/PGEL-020.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L03_B7/reading_coverage.json#sources.PGEL-020",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R02/W24_L03_B7/final_revision1/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l03_b7_revision_checks.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "R04_neutral_review_reference": {
+          "value": "reviews/R04/w24_020_neutral/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-020.md",
+    "card_file": "sources/cards/PGEL-020.md",
+    "reading_card": "sources/cards/PGEL-020.md",
+    "reading_coverage": "reading_coverage.json#PGEL-020",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-021",
+    "title": "Kuramoto Networks with Infinitely Many Stable Equilibria",
+    "authors": [
+      "Davide Sclosa"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1137/23M155400X",
+    "url": "https://arxiv.org/abs/2207.08182",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2207.08182",
+      "https://doi.org/10.1137/23M155400X"
+    ],
+    "version": "arXiv:2207.08182v1 (17 Jul 2022); read exact 17-page arXiv author-version PDF; published SIAM J. Appl. Dyn. Syst. 22(4):3267–3283 (2023)",
+    "reason": "Constructs connected positive unweighted graphs with stable equilibrium manifolds of arbitrary dimension, showing stable equilibria need not be isolated; not a random-graph claim.",
+    "topics": [
+      "homogeneous positive Kuramoto flow",
+      "balanced phase configurations",
+      "stable equilibrium manifolds",
+      "topological bifurcation theory"
+    ],
+    "local_pdf": "sources/pdfs/PGEL-021.pdf",
+    "sha256": "e68915c58e27084a126226246d223a806815f428b3d3fed71dccdd8d2bc2b9da",
+    "pdf_page_count": 17,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1-17, complete",
+    "proof_scope_caveat": "Existence result for explicit connected positive unweighted graphs, not typical-graph probability or a basin-size theorem. Conjecture 1.3 remains open; larger graph eigenvalue/heteroclinic illustrations are numerical.",
+    "global_source_id": "PR-79416ca84503",
+    "metadata_status": "D02 sourcepool title/authors/version/official record cross-checked against first page; cited PDF identity confirmed. Published journal citation/year/volume/pages cross-checked against the official SIAM publication page; publisher full text not read. R05 stage metadata_verified=false; journal full text not read.",
+    "identity_status": "D02 identity record and independent local SHA-256/page count/text page markers agree; canonical index has no exact title/hash full-read match. R05 helper stage identity verified.",
+    "read_units": [
+      {
+        "unit": "Complete local author-version PDF including proofs/appendices (if present) and references",
+        "pdf_pages": [
+          1,
+          17
+        ],
+        "coverage": "full_document_read",
+        "notes": "All physical pages were read in order; section coverage and rendered evidence are linked from the mother coverage entry and the frozen helper stage."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-021.md",
+    "coverage_file": "reading_coverage.json#PGEL-021",
+    "helper_coverage_path": "reading_coverage.json#PGEL-021",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-021.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "review_status": "R05_motherfinal_passed",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "tool_quota_note": "Existence result for explicit connected positive unweighted graphs, not typical-graph probability or a basin-size theorem. Conjecture 1.3 remains open; larger graph eigenvalue/heteroclinic illustrations are numerical.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/23m155400x",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-021_infinitely_many_stable_equilibria.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-021.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-021_infinitely_many_stable_equilibria.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-021.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L13_B5/reading_coverage.json#sources.PGEL-021",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L13_B5/cards/PGEL-021.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-021.md",
+    "card_file": "sources/cards/PGEL-021.md",
+    "reading_card": "sources/cards/PGEL-021.md",
+    "reading_coverage": "reading_coverage.json#PGEL-021",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-022",
+    "title": "Completely Degenerate Equilibria of the Kuramoto Model on Networks",
+    "authors": [
+      "Davide Sclosa"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.1088/1361-6544/ad694a",
+    "url": "https://arxiv.org/abs/2112.12034v3",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2112.12034v3",
+      "https://doi.org/10.1088/1361-6544/ad694a",
+      "https://research.vu.nl/en/publications/completely-degenerate-equilibria-of-the-kuramoto-model-on-network/"
+    ],
+    "version": "arXiv:2112.12034v3, exact local 8-page author-version PDF; journal record: Nonlinearity 37(9) (2024), Article 095021; no claim that the local PDF is the typeset journal version",
+    "reason": "Theorem 8 proves a completely degenerate Kuramoto equilibrium is a nonlinear energy saddle by an explicit sign-changing cubic perturbation; Theorem 11 extends the argument to arbitrary frequencies within the stated model. Useful boundary against treating a zero/semidefinite linearization as a nonlinear stability certificate.",
+    "topics": [
+      "Kuramoto network",
+      "completely degenerate equilibrium",
+      "Euler circuit characterization",
+      "nonlinear Lyapunov instability",
+      "energy saddle",
+      "higher-order variation"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "Official arXiv record checked for title, author, v3/revision date and 8-page scope; VU publication record checked for 2024 Nonlinearity citation and DOI. The local PDF remains identified as arXiv v3.",
+    "identity_status": "verified",
+    "identity_note": "Matched D02 identityhash_B3.json#PGEL-022 and independently strict-parsed local PDF with pypdf 7.0.1; 8 physical pages, first/last-page content matches title/references, recomputed SHA-256 a7fb5e229de6022d183afd5cbba3ed139a2be636015fbe2d25c63c6304538a65. Exact title/hash/arXiv-id scan had no canonical full-read hit.",
+    "local_pdf": "sources/pdfs/PGEL-022.pdf",
+    "sha256": "a7fb5e229de6022d183afd5cbba3ed139a2be636015fbe2d25c63c6304538a65",
+    "pdf_page_count": 8,
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-022.md",
+    "math_evidence": "sources/math/pgel_l09_b8_verification_results.json#PGEL-022_Theorem8",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "A concrete reusable nonlinear-stability failure-mode proof for a flat/zero Jacobian in the Kuramoto edge-energy model. It is not a general semidefinite-Hessian theorem and does not transfer directly to C118's signed random ensemble.",
+    "global_source_id": "PR-d86cedb69e05",
+    "helper_local_id": "PGEL-022",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-022.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-022",
+    "helper_coverage_path": "reading_coverage.json#PGEL-022",
+    "helper_review_reference": "audit/review-index.json#PGEL-022.review",
+    "helper_review_sha256": "427ef9b535d94457eaa1fbb18306ea2d2fb9c70f386b6d3e432f4bb02e8a6402",
+    "helper_review_status": "R08 helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R08_metadata_verified": true,
+    "R08_identity_verified": true,
+    "R08_reading_evidence_accepted": true,
+    "R08_mother_hash_bound": false,
+    "read_units": [
+      {
+        "unit": "Complete local source PDF including all proofs and references",
+        "pdf_pages": [
+          1,
+          8
+        ],
+        "coverage": "full_document_read",
+        "notes": "All physical pages read in order; section-level evidence is preserved in the exact helper coverage entry."
+      }
+    ],
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1088/1361-6544/ad694a",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-022_completely_degenerate_equilibria.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-022.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-022_completely_degenerate_equilibria.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-022",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-022.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l09_b8_verification_results.json#PGEL-022_Theorem8",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L09_B8/cards/PGEL-022.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L09_B8/reading_coverage.json#sources.PGEL-022",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R08/w24_L09_B8/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-022.md",
+    "card_file": "sources/cards/PGEL-022.md",
+    "reading_card": "sources/cards/PGEL-022.md",
+    "reading_coverage": "reading_coverage.json#PGEL-022",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-023",
+    "title": "Equilibria in Kuramoto oscillator networks: An algebraic approach",
+    "authors": [
+      "Tung T. Nguyen",
+      "Roberto C. Budzinski",
+      "Jacqueline Doan",
+      "Federico W. Pasini",
+      "Jan Minac",
+      "Lyle E. Muller"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": "10.1137/21M1457321",
+    "url": "https://arxiv.org/abs/2111.02568v2",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2111.02568v2",
+      "https://doi.org/10.1137/21M1457321"
+    ],
+    "version": "arXiv:2111.02568v2, exact local 24-page author-version PDF; journal version: SIAM Journal on Applied Dynamical Systems 22(2) (2023), 802–824",
+    "reason": "Provides a precise eigenvector-to-stationary-state criterion, a full equilibrium classification for the complete graph, and structured phase-lag/circulant/block constructions. Useful for constructing or checking stationary points before any separate stability analysis.",
+    "topics": [
+      "Kuramoto equilibrium",
+      "complexified linear system",
+      "eigenvector criterion",
+      "complete graph classification",
+      "phase lag",
+      "circulant networks",
+      "multilayer networks"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "Official arXiv v2 record checked for title, six authors, revision date and 24-page scope; SIAM journal record checked for 2023 volume/issue/pages and DOI. The author-version PDF is the artifact read.",
+    "identity_status": "verified",
+    "identity_note": "Matched D02 identityhash_B3.json#PGEL-023 and independently strict-parsed local PDF with pypdf 7.0.1; 24 physical pages, front page title/authors and last references page match, recomputed SHA-256 ad7a30a2735b823124210a62361906ff06ba6f8cf61d0b2a5ce58bdd28d89cdd. Exact title/hash/arXiv-id scan had no canonical full-read hit.",
+    "local_pdf": "sources/pdfs/PGEL-023.pdf",
+    "sha256": "ad7a30a2735b823124210a62361906ff06ba6f8cf61d0b2a5ce58bdd28d89cdd",
+    "pdf_page_count": 24,
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-023.md",
+    "math_evidence": "sources/math/pgel_l09_b8_verification_results.json#PGEL-023_Proposition7",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "A concrete exact construction of Kuramoto stationary points from real-matrix eigenvectors, including the phase-lag reality test and complete-graph classification. It provides no stability certificate or C118 random-signed probability result.",
+    "global_source_id": "PR-05c3f60e86b2",
+    "helper_local_id": "PGEL-023",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-023.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-023",
+    "helper_coverage_path": "reading_coverage.json#PGEL-023",
+    "helper_review_reference": "audit/review-index.json#PGEL-023.review",
+    "helper_review_sha256": "427ef9b535d94457eaa1fbb18306ea2d2fb9c70f386b6d3e432f4bb02e8a6402",
+    "helper_review_status": "R08 helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R08_metadata_verified": true,
+    "R08_identity_verified": true,
+    "R08_reading_evidence_accepted": true,
+    "R08_mother_hash_bound": false,
+    "read_units": [
+      {
+        "unit": "Complete local source PDF including all proofs and references",
+        "pdf_pages": [
+          1,
+          24
+        ],
+        "coverage": "full_document_read",
+        "notes": "All physical pages read in order; section-level evidence is preserved in the exact helper coverage entry."
+      }
+    ],
+    "math_evidence_selector": "PGEL-023_Proposition7",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/21m1457321",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-023_kuramoto_equilibria_algebraic.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-023.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-023_kuramoto_equilibria_algebraic.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-023",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-023.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l09_b8_verification_results.json#PGEL-023_Proposition7",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L09_B8/cards/PGEL-023.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L09_B8/reading_coverage.json#sources.PGEL-023",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R08/w24_L09_B8/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-023.md",
+    "card_file": "sources/cards/PGEL-023.md",
+    "reading_card": "sources/cards/PGEL-023.md",
+    "reading_coverage": "reading_coverage.json#PGEL-023",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-024",
+    "title": "Counting equilibria of the Kuramoto model using birationally invariant intersection index",
+    "authors": [
+      "Tianran Chen",
+      "Robert Davis",
+      "Dhagash Mehta"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1137/17M1145665",
+    "url": "https://arxiv.org/abs/1708.09246v1",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1708.09246v1",
+      "https://epubs.siam.org/doi/10.1137/17M1145665"
+    ],
+    "version": "Exact 13-page arXiv author-version PDF 1708.09246v1 (submitted 2017-08-30); published version is SIAM Journal on Applied Algebra and Geometry 2(4) (2018), 489–507, DOI 10.1137/17M1145665. The local read artifact is v1, not the typeset journal PDF.",
+    "reason": "For a deterministic graph whose support is exactly a tree or cycle, computes the adjacency-polytope normalized-volume upper bound and proves equality with the birationally invariant intersection index. The tree proof uses a unimodular monomial map to independent edge coordinates; the cycle proof uses an explicit facet-volume calculation and a generic initial-system/Bernstein argument.",
+    "topics": [
+      "Kuramoto equilibrium root counting",
+      "birationally invariant intersection index",
+      "adjacency polytope",
+      "normalized lattice volume",
+      "tree graph",
+      "cycle graph",
+      "BKK bound",
+      "initial systems"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "The official arXiv record and local first page verify title, three authors, arXiv:1708.09246v1, and submission date. The official SIAM DOI page verifies the journal citation SIAM J. Appl. Algebra Geom. 2(4), 489–507 (2018), DOI 10.1137/17M1145665. The read file remains the exact local arXiv-v1 PDF.",
+    "identity_status": "verified",
+    "identity_note": "Matched downloads/D02/phase_pool/identityhash_B3.json#PGEL-024 and sourcepool.json#PGEL-024; independently strict-parsed with project pypdf 7.0.1 (13 pages), viewed the title/version/authors on physical page 1 and the final bibliography on page 13, and recomputed SHA-256 17fc44e9b76f147c1ba06dd1278a5f99d9f6f0aaefe9e2245955e01121351662. No exact title, arXiv-ID, or hash match in canonical_read_index.json or other W24 helper batches; the DOI occurs only as a cited bibliographic entry in PGEL-026, which is a distinct paper.",
+    "local_pdf": "sources/pdfs/PGEL-024.pdf",
+    "sha256": "17fc44e9b76f147c1ba06dd1278a5f99d9f6f0aaefe9e2245955e01121351662",
+    "pdf_page_count": 13,
+    "reader_text_path": "sources/text/PGEL-024.txt",
+    "reader_text_sha256": "e293ad212fcc212c8064724079ee02e94f2f9703ff5a09f2cba766ff71c8f170",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–13 (complete, in order).",
+    "read_units": [
+      {
+        "unit": "Complete arXiv-v1 paper including all theorem proofs and the complete reference list present in the PDF",
+        "pdf_pages": [
+          1,
+          13
+        ],
+        "coverage": "full_document_read",
+        "notes": "Every physical page was extracted and read in order; formula-heavy/model pages 1–11 were rendered and viewed, and pages 12–13 were checked as the complete endmatter/reference list. Section-level proof coverage is in reading_coverage.json."
+      }
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-024.md",
+    "rendered_formula_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "math_evidence": "sources/math/pgel_l09_b8b_verification_results.json",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "A reusable, fully specified graph-to-adjacency-polytope root-count method for exact tree/cycle graph supports. Eligibility is proposed because the source gives explicit transformations, formulas, and proof interfaces; it remains auxiliary to C118, whose signed complete graph, probability law, real/unit-torus restriction, and stability/minimum condition are not covered.",
+    "canonical_match_count": 0,
+    "global_source_id": "PR-82076cb76972",
+    "helper_local_id": "PGEL-024",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-024.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-024",
+    "helper_coverage_path": "reading_coverage.json#PGEL-024",
+    "helper_review_reference": "audit/review-index.json#PGEL-024.review",
+    "helper_review_sha256": "85b72fe1ca6dc8c02173446f739bcb2610b199afe1dac1943b1dc8f3e3c4db05",
+    "helper_review_status": "R08 helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R08_metadata_verified": true,
+    "R08_identity_verified": true,
+    "R08_reading_evidence_accepted": true,
+    "R08_mother_hash_bound": false,
+    "R08_quota_approved": false,
+    "mother_quota_note": "R08 explicitly did not approve quota; candidate eligibility only, no quota increment.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/17m1145665",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-024_birational_equilibrium_count.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-024.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-024_birational_equilibrium_count.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "reader_text_path": {
+          "value": "workers/W24/reader_batches/L09_B8b/text/PGEL-024.txt",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-024",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-024.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l09_b8b_verification_results.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L09_B8b/cards/PGEL-024.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L09_B8b/reading_coverage.json#sources.PGEL-024",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R08/w24_L09_B8b/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "R05_motherfinal_method_eligibility": true,
+    "R08_quota_decision_historical": "quota_approved=false; retained; R05 independent method-source eligibility is the basis for this final 30-source scope.",
+    "R05_tool_quota_eligibility": true,
+    "card_path": "sources/cards/PGEL-024.md",
+    "card_file": "sources/cards/PGEL-024.md",
+    "reading_card": "sources/cards/PGEL-024.md",
+    "reading_coverage": "reading_coverage.json#PGEL-024",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-026",
+    "title": "On the typical and atypical solutions to the Kuramoto equations",
+    "authors": [
+      "Tianran Chen",
+      "Evgeniia Korchevskaia",
+      "Julia Lindberg"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2210.00784",
+    "url": "https://arxiv.org/abs/2210.00784v3",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2210.00784v3"
+    ],
+    "version": "arXiv:2210.00784v3, exact local 30-page PDF, revised 25 Sep 2024; no journal publication claim",
+    "reason": "Develops a graph-adjacency-polytope count for generic complex stationary roots, an exact circulation/balancing criterion for exceptional couplings, and explicit constructions of positive-dimensional root families.",
+    "topics": [
+      "Kuramoto algebraic equations",
+      "BKK root count",
+      "adjacency polytope",
+      "Puiseux homotopy",
+      "exceptional couplings",
+      "circulations",
+      "balanced subgraphs",
+      "positive-dimensional equilibria"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "Official arXiv record checked for title, three authors, v3 revision date, subject and 30-page scope. The record provides an arXiv DOI; no journal DOI/publication claim is recorded.",
+    "identity_status": "verified",
+    "identity_note": "Matched D02 identityhash_B3.json#PGEL-026 and independently strict-parsed local PDF with pypdf 7.0.1; 30 physical pages, title/version line and references match, recomputed SHA-256 6f820a5bd2a1a53929c58283c12ddd452ac2ab6f437954bd66b215b0789b3ca7. Exact title/hash/arXiv-id scan had no canonical full-read hit.",
+    "local_pdf": "sources/pdfs/PGEL-026.pdf",
+    "sha256": "6f820a5bd2a1a53929c58283c12ddd452ac2ab6f437954bd66b215b0789b3ca7",
+    "pdf_page_count": 30,
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-026.md",
+    "math_evidence": "sources/math/pgel_l09_b8_verification_results.json#PGEL-026_Proposition5_3_C4",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "A reusable exact complex-root counting and exceptional-parameter method for symmetric nonzero couplings. It counts C-star roots, not unit-torus minima, and does not transfer to C118's discrete signed ensemble without a separate proof.",
+    "global_source_id": "PR-dad25b492b90",
+    "helper_local_id": "PGEL-026",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-026.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-026",
+    "helper_coverage_path": "reading_coverage.json#PGEL-026",
+    "helper_review_reference": "audit/review-index.json#PGEL-026.review",
+    "helper_review_sha256": "427ef9b535d94457eaa1fbb18306ea2d2fb9c70f386b6d3e432f4bb02e8a6402",
+    "helper_review_status": "R08 helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R08_metadata_verified": true,
+    "R08_identity_verified": true,
+    "R08_reading_evidence_accepted": true,
+    "R08_mother_hash_bound": false,
+    "read_units": [
+      {
+        "unit": "Complete local source PDF including all proofs and references",
+        "pdf_pages": [
+          1,
+          30
+        ],
+        "coverage": "full_document_read",
+        "notes": "All physical pages read in order; section-level evidence is preserved in the exact helper coverage entry."
+      }
+    ],
+    "circle_normalization_evidence": "audit/evidence-path-index.json#PGEL-026.circle_normalization_evidence",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.48550/arxiv.2210.00784",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-026_typical_atypical_solutions.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-026.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-026_typical_atypical_solutions.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-026",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-026.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l09_b8_verification_results.json#PGEL-026_Proposition5_3_C4",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L09_B8/cards/PGEL-026.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L09_B8/reading_coverage.json#sources.PGEL-026",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R08/w24_L09_B8/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "circle_normalization_evidence": {
+          "value": "workers/W24/math/pgel_l09_b8_review_circle_normalization.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-026.md",
+    "card_file": "sources/cards/PGEL-026.md",
+    "reading_card": "sources/cards/PGEL-026.md",
+    "reading_coverage": "reading_coverage.json#PGEL-026",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-029",
+    "title": "The Kuramoto model on oriented and signed graphs",
+    "authors": [
+      "Robin Delabays",
+      "Philippe Jacquod",
+      "Florian Dörfler"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1137/18M1203055",
+    "url": "https://arxiv.org/abs/1807.11410",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1807.11410",
+      "https://doi.org/10.1137/18M1203055"
+    ],
+    "version": "arXiv:1807.11410v2 (22 Jan 2019); read exact 20-page arXiv author-version PDF; published SIAM J. Appl. Dyn. Syst. 18(1):458–480 (2019)",
+    "reason": "Provides exact acyclic and oriented-cycle synchronization results for signed directed dynamics; the read-v2 DAG theorem and one-cycle LaSalle result are kept at scope, while exact signed-cycle witnesses quarantine Lemma 3.4 necessity and Proposition 3.6 exhaustiveness.",
+    "topics": [
+      "oriented signed directed Kuramoto model",
+      "acyclic almost-global synchronization",
+      "oriented-cycle LaSalle theorem",
+      "signed-cycle branch and frequency-count boundary"
+    ],
+    "local_pdf": "sources/pdfs/PGEL-029.pdf",
+    "sha256": "1df63bb7365423ec4d2cea7de6609536960c619b3d4e4d388cd984bf49d96049",
+    "pdf_page_count": 20,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1-20, complete",
+    "proof_scope_caveat": "Only finite oriented signed weighted digraphs in the stated DAG or single-cycle model. Synchronization means equal frequencies/constant phase differences. In read v2, an exact locally exponentially stable signed 3-cycle contradicts the necessity direction of Lemma 3.4 and the exhaustive interval/count of Proposition 3.6; the separate finiteness subclaim is not disproved. No general symmetric-gradient/Hessian transfer, and no claim about an unread journal-version change. Section 3.4 findings are simulations. Boundary-support only; quota eligibility remains false.",
+    "global_source_id": "PR-e3c5e898f9ff",
+    "metadata_status": "D02 sourcepool title/authors/version/official record cross-checked against first page; cited PDF identity confirmed. Published journal citation/year/volume/pages cross-checked against the official SIAM publication page; publisher full text not read. R05 stage metadata_verified=false; journal full text not read.",
+    "identity_status": "D02 identity record and independent local SHA-256/page count/text page markers agree; canonical index has no exact title/hash full-read match. R05 helper stage identity verified.",
+    "read_units": [
+      {
+        "unit": "Complete local author-version PDF including proofs/appendices (if present) and references",
+        "pdf_pages": [
+          1,
+          20
+        ],
+        "coverage": "full_document_read",
+        "notes": "All physical pages were read in order; section coverage and rendered evidence are linked from the mother coverage entry and the frozen helper stage."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-029.md",
+    "coverage_file": "reading_coverage.json#PGEL-029",
+    "helper_coverage_path": "reading_coverage.json#PGEL-029",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-029.helper-card",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "review_status": "R05_motherfinal_passed",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": false,
+    "tool_quota_note": "Boundary-support source only; R05 explicitly sets current strong-tool-quota eligibility false. Full-text read and source issue are retained, but it does not count toward strong tool quota absent future operational use and review.",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": false,
+    "counting_bucket": "background_nonquota",
+    "canonical_work_key": "doi:10.1137/18m1203055",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/KUR02_oriented_signed.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-029.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/KUR02_oriented_signed.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-029.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L13_B5/reading_coverage.json#sources.PGEL-029",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L13_B5/cards/PGEL-029.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-029.md",
+    "card_file": "sources/cards/PGEL-029.md",
+    "reading_card": "sources/cards/PGEL-029.md",
+    "reading_coverage": "reading_coverage.json#PGEL-029",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-030",
+    "title": "On the Critical Coupling for Kuramoto Oscillators",
+    "authors": [
+      "Florian Dörfler",
+      "Francesco Bullo"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1137/10081530X",
+    "url": "https://arxiv.org/abs/1011.3878v2",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1011.3878v2",
+      "https://doi.org/10.1137/10081530X"
+    ],
+    "version": "arXiv:1011.3878v2; exact 27-page arXiv author-version PDF",
+    "reason": "Theorem 4.1 proves a sharp necessary-and-sufficient universal frequency-width threshold for exponential synchronization on the finite all-to-all positive complete graph, with a Dini-derivative and consensus-Laplacian proof. It is a complete-graph method boundary, not a signed random-graph theorem.",
+    "topics": [
+      "finite Kuramoto model",
+      "phase cohesiveness",
+      "frequency synchronization",
+      "critical coupling",
+      "multi-rate synchronization"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "Official arXiv record and exact local first page checked; D02 sourcepool citation gives the associated publication DOI. The read version is the exact arXiv author-version PDF named here.",
+    "identity_status": "verified",
+    "identity_note": "D02 identity record and strict local PDF recheck agree: 27 physical pages, SHA-256 19892042e73f9b60912f4d47c1e131c2fc0f5091cb29160f0f3d3b169fee9081; first-page title/version checked; no accepted canonical full-read match by title, arXiv ID, DOI, or hash.",
+    "local_pdf": "sources/pdfs/PGEL-030.pdf",
+    "sha256": "19892042e73f9b60912f4d47c1e131c2fc0f5091cb29160f0f3d3b169fee9081",
+    "pdf_page_count": 27,
+    "reader_text_path": "sources/text/PGEL-030.txt",
+    "reader_text_sha256": "d7543ddeb61a815b4ed1d4fd8e2f645311fa030ca8c58df96eff5523b7039854",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–27 (complete).",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv version including all proof and endmatter pages present",
+        "pdf_pages": [
+          1,
+          27
+        ],
+        "coverage": "full_document_read",
+        "notes": "Every physical PDF page was read in order; theorem/formula pages cited in the card were rendered and inspected."
+      }
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-030.md",
+    "rendered_formula_pages_viewed": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      20,
+      21,
+      23,
+      24,
+      25
+    ],
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "Proposed reusable deterministic synchronization method. The theorem is complete-graph/all-to-all with heterogeneous frequencies and does not certify every energy minimum or any signed random graph; source-count eligibility awaits independent review.",
+    "canonical_match_count": 0,
+    "global_source_id": "PR-e88b4f1bda62",
+    "helper_local_id": "PGEL-030",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-030.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-030",
+    "helper_coverage_path": "reading_coverage.json#PGEL-030",
+    "helper_review_reference": "audit/review-index.json#PGEL-030.review",
+    "helper_review_sha256": "a5a7fa23d0026d940bb553fa45df6f17865ef1cbc892ebba5fcf70c09ed0d769",
+    "helper_review_status": "R02 final helper-stage passed; mother hash binding pending; no quota increment",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R02_identity_verified": true,
+    "R02_metadata_verified": true,
+    "R02_version_verified": true,
+    "R02_reading_evidence_accepted": true,
+    "R02_mother_hash_bound": false,
+    "R02_method_eligibility": "eligible_for_scoped_method; quota remains pending mother binding",
+    "math_evidence": "sources/math/pgel_l10_b9_verification_results.txt",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/10081530x",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-030_critical_coupling.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-030.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-030_critical_coupling.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "reader_text_path": {
+          "value": "workers/W24/reader_batches/L10_B9/text/PGEL-030.txt",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-030",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-030.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L10_B9/cards/PGEL-030.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L10_B9/reading_coverage.json#sources.PGEL-030",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R02/W24_L10_B9/final_revision1/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l10_b9_verification_results.txt",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-030.md",
+    "card_file": "sources/cards/PGEL-030.md",
+    "reading_card": "sources/cards/PGEL-030.md",
+    "reading_coverage": "reading_coverage.json#PGEL-030",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-031",
+    "title": "Bifurcations in the Kuramoto model on graphs",
+    "authors": [
+      "Hayato Chiba",
+      "Georgi S. Medvedev",
+      "Matthew S. Mizuhara"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1063/1.5039609",
+    "url": "https://arxiv.org/abs/1805.03786v1",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1805.03786v1",
+      "https://doi.org/10.1063/1.5039609"
+    ],
+    "version": "arXiv:1805.03786v1; exact 18-page arXiv author-version PDF",
+    "reason": "The paper develops graph-sequence examples and computes the exact Fourier spectrum of a small-world graphon, giving a reusable bridge from graphon eigenvalues to quoted incoherent-state thresholds. It carefully separates this continuum method from finite-n probability claims.",
+    "topics": [
+      "Kuramoto model on graphs",
+      "graphons",
+      "mean-field limit",
+      "Fourier spectrum",
+      "bifurcation thresholds"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "Official arXiv record and exact local first page checked; D02 sourcepool citation gives the associated publication DOI. The read version is the exact arXiv author-version PDF named here.",
+    "identity_status": "verified",
+    "identity_note": "D02 identity record and strict local PDF recheck agree: 18 physical pages, SHA-256 47db43994c0bb652c0eae136c3038d8d334c60a7926a790202c0c6a08cce0ee8; first-page title/version checked; no accepted canonical full-read match by title, arXiv ID, DOI, or hash.",
+    "local_pdf": "sources/pdfs/PGEL-031.pdf",
+    "sha256": "47db43994c0bb652c0eae136c3038d8d334c60a7926a790202c0c6a08cce0ee8",
+    "pdf_page_count": 18,
+    "reader_text_path": "sources/text/PGEL-031.txt",
+    "reader_text_sha256": "f22ea1b829e810c02ac30fce669660db8733f8fb60d5f50af96e931ea32b865b",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–18 (complete).",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv version including all proof and endmatter pages present",
+        "pdf_pages": [
+          1,
+          18
+        ],
+        "coverage": "full_document_read",
+        "notes": "Every physical PDF page was read in order; theorem/formula pages cited in the card were rendered and inspected."
+      }
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-031.md",
+    "rendered_formula_pages_viewed": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13
+    ],
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "Proposed as a graphon/spectral method source. Empirical-measure convergence, linear-stability threshold and center-manifold branches are cited from prior papers; Section 4 is numerical. No finite-n uniform, signed, or energy-landscape theorem is claimed; source-count eligibility awaits independent review.",
+    "canonical_match_count": 0,
+    "global_source_id": "PR-99c3eee6f6e0",
+    "helper_local_id": "PGEL-031",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-031.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-031",
+    "helper_coverage_path": "reading_coverage.json#PGEL-031",
+    "helper_review_reference": "audit/review-index.json#PGEL-031.review",
+    "helper_review_sha256": "a5a7fa23d0026d940bb553fa45df6f17865ef1cbc892ebba5fcf70c09ed0d769",
+    "helper_review_status": "R02 final helper-stage passed; mother hash binding pending; no quota increment",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R02_identity_verified": true,
+    "R02_metadata_verified": true,
+    "R02_version_verified": true,
+    "R02_reading_evidence_accepted": true,
+    "R02_mother_hash_bound": false,
+    "R02_method_eligibility": "eligible_for_scoped_method; quota remains pending mother binding",
+    "math_evidence_note": "audit/evidence-path-index.json#PGEL-031.math_evidence_note",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1063/1.5039609",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-031_bifurcations_graph_kuramoto.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-031.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-031_bifurcations_graph_kuramoto.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "reader_text_path": {
+          "value": "workers/W24/reader_batches/L10_B9/text/PGEL-031.txt",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-031",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-031.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L10_B9/cards/PGEL-031.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L10_B9/reading_coverage.json#sources.PGEL-031",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R02/W24_L10_B9/final_revision1/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-031.md",
+    "card_file": "sources/cards/PGEL-031.md",
+    "reading_card": "sources/cards/PGEL-031.md",
+    "reading_coverage": "reading_coverage.json#PGEL-031",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-032",
+    "title": "Global synchronization beyond dense graphs: the case of threshold graphs",
+    "authors": [
+      "Hongjin Wu",
+      "Ulrik Brandes"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.48550/arXiv.2511.12646",
+    "url": "https://arxiv.org/abs/2511.12646v6",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2511.12646v6"
+    ],
+    "version": "2511.12646v6; exact arXiv author-version PDF",
+    "reason": "A structural phasor/Hessian certificate proves that every SOSP on a connected threshold graph is synchronous, illustrating a local-to-global deterministic energy-landscape argument; it is not a random-graph theorem.",
+    "topics": [
+      "homogeneous Kuramoto energy",
+      "threshold graphs",
+      "second-order stationary points",
+      "phasor geometry",
+      "global synchronization"
+    ],
+    "metadata_status": "D02 sourcepool and official arXiv route were checked against the exact local PDF first page. PGEL-017/018 publication DOI and citation are in the D02 record; PGEL-032 is recorded as arXiv v6 with its PDF front-page date, with no publication claim. R05 helper-stage metadata_verified=false; metadata is not upgraded to independently verified.",
+    "identity_status": "D02 identity record and independently re-opened strict PDF match: 24 pages and SHA-256 ecdffbee9a5350c5ffc1d8dbb603df8791cb725f352a02f3262e6caf7d25a1b4; canonical index exact-title/hash scan found no accepted full-read duplicate. R05 helper-stage identity_verified=true; mother hash binding pending.",
+    "local_pdf": "sources/pdfs/PGEL-032.pdf",
+    "sha256": "ecdffbee9a5350c5ffc1d8dbb603df8791cb725f352a02f3262e6caf7d25a1b4",
+    "pdf_page_count": 24,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–24, complete; all pages read in order.",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv version including all proofs, appendices/acknowledgments, and references as present",
+        "pdf_pages": [
+          1,
+          24
+        ],
+        "coverage": "full_document_read",
+        "notes": "All 24 physical PDF pages were read in order; theorem pages were checked against rendered page images."
+      }
+    ],
+    "usage_card": "sources/cards/PGEL-032.md",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "Proposed as a deterministic landscape-method source; source-specific to connected threshold graphs and not a signed, oriented, weighted, or probabilistic result.",
+    "global_source_id": "PR-47538a402b30",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-032.helper-card",
+    "helper_coverage_path": "reading_coverage.json#PGEL-032",
+    "coverage_file": "reading_coverage.json#PGEL-032",
+    "tool_quota_eligibility": true,
+    "helper_local_id": "PGEL-032",
+    "helper_review_status": "R05 helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "R05_metadata_verified": false,
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.48550/arxiv.2511.12646",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-032_threshold_graph_global_sync.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-032.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-032_threshold_graph_global_sync.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-032.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L02_B6/cards/PGEL-032.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L02_B6/reading_coverage.json#sources.PGEL-032",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-032.md",
+    "card_file": "sources/cards/PGEL-032.md",
+    "reading_card": "sources/cards/PGEL-032.md",
+    "reading_coverage": "reading_coverage.json#PGEL-032",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-033",
+    "title": "Stability of twisted states in the continuum Kuramoto model",
+    "authors": [
+      "Georgi S. Medvedev",
+      "J. Douglas Wright"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "document_type": "research_paper",
+    "doi": "10.1137/16M1059175",
+    "url": "https://arxiv.org/abs/1606.07857v1",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1606.07857v1",
+      "https://doi.org/10.1137/16M1059175"
+    ],
+    "version": "arXiv:1606.07857v1; exact 18-page arXiv author-version PDF",
+    "reason": "Theorem 1 proves local nonlinear exponential stability in H1 or BV from a uniform all-mode Fourier gap for a fixed twist and even L2 continuum kernel. Theorem 7(a) and the fixed-r-then-small-p route remain usable; its printed uniform positive-q r,p rectangle is quarantined for the strict-gap/exponential route. This is not a finite random-graph result.",
+    "topics": [
+      "continuum Kuramoto equation",
+      "twisted states",
+      "Fourier stability criterion",
+      "Banach semigroup",
+      "BV stability"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "Official arXiv record and exact local first page checked; D02 sourcepool citation gives the associated publication DOI. The read version is the exact arXiv author-version PDF named here.",
+    "identity_status": "verified",
+    "identity_note": "D02 identity record and strict local PDF recheck agree: 18 physical pages, SHA-256 920906a63714c95e17b8fcd3182e489f9fca2ac09ccf1c1ead37715e0e64a5bc; first-page title/version checked; no accepted canonical full-read match by title, arXiv ID, DOI, or hash.",
+    "local_pdf": "sources/pdfs/PGEL-033.pdf",
+    "sha256": "920906a63714c95e17b8fcd3182e489f9fca2ac09ccf1c1ead37715e0e64a5bc",
+    "pdf_page_count": 18,
+    "reader_text_path": "sources/text/PGEL-033.txt",
+    "reader_text_sha256": "985a49b37ba8354d80a0e25068b9f88a20c729df72b67dcb05321967727a2446",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–18 (complete).",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv version including all proof and endmatter pages present",
+        "pdf_pages": [
+          1,
+          18
+        ],
+        "coverage": "full_document_read",
+        "notes": "Every physical PDF page was read in order; theorem/formula pages cited in the card were rendered and inspected."
+      }
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-033.md",
+    "rendered_formula_pages_viewed": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      14,
+      15,
+      16
+    ],
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "Proposed reusable continuum spectral-gap-to-local-nonlinear-stability method under the all-nonzero-mode strict gap, with the directly derived generator multiplier pi*lambda. For positive q, do not use the printed uniform r,p rectangle as a strict-gap/Thm1 exponential certificate; retain only fixed sufficiently small r followed by p sufficiently small depending on r and a full gap check. Equation (4.5) delta issue is separate. No finite-n probability or global energy-landscape statement is claimed; quota remains pending independent review.",
+    "canonical_match_count": 0,
+    "global_source_id": "PR-2a75fbb97f75",
+    "helper_local_id": "PGEL-033",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-033.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-033",
+    "helper_coverage_path": "reading_coverage.json#PGEL-033",
+    "helper_review_reference": "audit/review-index.json#PGEL-033.review",
+    "helper_review_sha256": "a5a7fa23d0026d940bb553fa45df6f17865ef1cbc892ebba5fcf70c09ed0d769",
+    "helper_review_status": "R02 final helper-stage passed; mother hash binding pending; no quota increment",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R02_identity_verified": true,
+    "R02_metadata_verified": true,
+    "R02_version_verified": true,
+    "R02_reading_evidence_accepted": true,
+    "R02_mother_hash_bound": false,
+    "R02_method_eligibility": "eligible_for_scoped_method; quota remains pending mother binding",
+    "math_evidence": "sources/math/pgel_l10_b9_verification_results.txt",
+    "revision_math_evidence": "audit/evidence-path-index.json#PGEL-033.revision_math_evidence",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1137/16m1059175",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-033_continuum_twisted_state_stability.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-033.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-033_continuum_twisted_state_stability.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "reader_text_path": {
+          "value": "workers/W24/reader_batches/L10_B9/text/PGEL-033.txt",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-033",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-033.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L10_B9/cards/PGEL-033.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L10_B9/reading_coverage.json#sources.PGEL-033",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R02/W24_L10_B9/final_revision1/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_evidence": {
+          "value": "workers/W24/math/pgel_l10_b9_verification_results.txt",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "revision_math_evidence": {
+          "value": "workers/W24/math/pgel_l10_b9_revision_results.txt",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending"
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-033.md",
+    "card_file": "sources/cards/PGEL-033.md",
+    "reading_card": "sources/cards/PGEL-033.md",
+    "reading_coverage": "reading_coverage.json#PGEL-033",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-040",
+    "title": "Almost Global Synchronization of Symmetric Kuramoto Coupled Oscillators",
+    "authors": [
+      "Eduardo Canale",
+      "Pablo Monzón"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "document_type": "formal_publisher_research_contribution",
+    "doi": "10.5772/6026",
+    "url": "https://www.intechopen.com/chapters/5346",
+    "alternate_urls": [
+      "https://cdn.intechopen.com/pdfs/5346.pdf",
+      "https://doi.org/10.5772/6026"
+    ],
+    "version": "IntechOpen publisher chapter PDF; chapter 8 in Systems, Structure and Control; published 1 Aug 2008",
+    "reason": "Provides finite symmetric Kuramoto graph energy/Jacobian and exact cut-vertex, block, adjacent-twin quotient, and subdivision criteria useful as deterministic landscape structure tools; random graph transfer requires a separate probability argument.",
+    "topics": [
+      "finite undirected graph",
+      "identical-frequency Kuramoto",
+      "gradient landscape",
+      "cut vertices and blocks",
+      "adjacent twins",
+      "almost-global synchronization"
+    ],
+    "metadata_status": "Official IntechOpen chapter record and DOI match the local publisher PDF first page; D02 identity record checked.",
+    "identity_status": "Verified exact local PDF against D02: strict 26-page file and SHA-256 match; first and last page identity checked.",
+    "local_pdf": "sources/pdfs/PGEL-040.pdf",
+    "sha256": "efbf80c3a92afd1af83d45ddad56408c7c17e222cfa994795e707f75d96bf6a3",
+    "pdf_page_count": 26,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–26, complete and read in order.",
+    "read_units": [
+      {
+        "unit": "Complete chapter contribution including proofs, references, book metadata, and license",
+        "pdf_pages": [
+          1,
+          26
+        ],
+        "coverage": "full_document_read",
+        "notes": "This is one independent chapter contribution; the complete edited volume was not read or counted."
+      }
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-040.md",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "R05 type audit passed this exact complete 26-page formal chapter as one independent research contribution. It is not the full edited volume. Deterministic cut-block and adjacent-twin methods may be useful; no random graph law or probability estimate is supplied. Mother binding remains pending.",
+    "math_check": "audit/evidence-path-index.json#PGEL-040.math_check",
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_sha256_matches": [],
+      "checked_file": "catalogue/canonical_read_index.json"
+    },
+    "kind_declared": "book",
+    "reviewed_work_type": "independent_formal_publisher_research_contribution",
+    "formal_contribution_identity": "Named IntechOpen publisher chapter in Systems, Structure and Control; DOI 10.5772/6026; official chapter record and local PDF identity checked.",
+    "license": "CC BY-NC-SA 3.0 as printed in the complete 26-page chapter PDF",
+    "full_book_acquired": false,
+    "book_reading_claim": false,
+    "tool_quota_eligible_as_one_contribution": true,
+    "mother_quota_increment": 0,
+    "global_source_id": "PR-c28d209ea894",
+    "helper_local_id": "PGEL-040",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-040.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-040",
+    "helper_coverage_path": "reading_coverage.json#PGEL-040",
+    "helper_review_reference": "audit/review-index.json#PGEL-040.review",
+    "helper_review_sha256": "3a5706cff5997b9a13223c0cde78d0f17dd120cdacfa73f3d1b358398f529db0",
+    "helper_review_status": "R05 final helper-stage passed; mother hash binding pending",
+    "tool_quota_eligibility": true,
+    "R05_identity_verified": true,
+    "R05_metadata_verified": true,
+    "R05_reading_evidence_accepted": true,
+    "R05_reviewed_card_sha256": "a52e155bc9160efa6bb1ec7e821c32d288bb5b500744f1e52ad5085dff15ff28",
+    "R05_mother_hash_bound": true,
+    "math_results_path": "sources/math/pgel_l12_b10_verification_results.json",
+    "R05_tool_quota_eligibility": true,
+    "R05_work_classification": "one complete independent formal publisher contribution; not a full book",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.5772/6026",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-040_symmetric_global_sync_chapter.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-040.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-040_symmetric_global_sync_chapter.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-040",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-040.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_check": {
+          "value": "workers/W24/math/pgel_l12_b10_verify_examples.py#PGEL-040",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L12_B10/cards/PGEL-040.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L12_B10/reading_coverage.json#sources.PGEL-040",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R05/w24_L12_B10/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_results_path": {
+          "value": "workers/W24/math/pgel_l12_b10_verification_results.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending",
+        "pre_mother_final_hash_bound": false
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "full_book_claimed_read": false,
+    "R05_exact_artifact_type_override": {
+      "decision": "accepted_exact_artifact_type_override",
+      "sha256": "efbf80c3a92afd1af83d45ddad56408c7c17e222cfa994795e707f75d96bf6a3",
+      "canonical_counting_type": "paper/contribution",
+      "counted_as": 1,
+      "work_classification": "complete independent formal publisher research contribution",
+      "full_book_acquired": false,
+      "full_book_reading_claim": false,
+      "evidence": "audit/R05_motherfinal/review.json#source_integration_audit.type_decision",
+      "no_general_chapter_or_book_exception": true
+    },
+    "card_path": "sources/cards/PGEL-040.md",
+    "card_file": "sources/cards/PGEL-040.md",
+    "reading_card": "sources/cards/PGEL-040.md",
+    "reading_coverage": "reading_coverage.json#PGEL-040",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-041",
+    "title": "On the Stability of the Kuramoto Model of Coupled Nonlinear Oscillators",
+    "authors": [
+      "Ali Jadbabaie",
+      "Nader Motee",
+      "Mauricio Barahona"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "document_type": "ACC conference paper; author-hosted full manuscript",
+    "doi": "10.23919/ACC.2004.1383983",
+    "url": "https://doi.org/10.23919/ACC.2004.1383983",
+    "alternate_urls": [
+      "https://web.mit.edu/~jadbabai/www/papers/Kuramoto_reallyfinal.pdf"
+    ],
+    "version": "Author-hosted ACC 2004 manuscript associated with DOI 10.23919/ACC.2004.1383983",
+    "reason": "Gives deterministic connected-graph spectral-gap and grounded-coordinate methods for synchronization stability and heterogeneous fixed-point bounds; source p. 3 has an isolated weighted-gap inequality direction mismatch and the proof has an equality-endpoint gap.",
+    "topics": [
+      "Kuramoto stability",
+      "algebraic connectivity",
+      "weighted Laplacian",
+      "grounded coordinates",
+      "fixed-point thresholds",
+      "constant heterogeneous frequencies"
+    ],
+    "metadata_status": "DOI, official citation identity, author-hosted route, and first-page title/authors match D02 identity record.",
+    "identity_status": "Verified exact local PDF against D02: 8-page page tree, PDFinfo cross-check, visual first/last pages, and SHA-256 match; pypdf corrected xref IDs.",
+    "local_pdf": "sources/pdfs/PGEL-041.pdf",
+    "sha256": "c4b9b8fff56834009a041db1122e68b0bade7fd2a39dcaa0b97c156c1c40cd3f",
+    "pdf_page_count": 8,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–8, complete and read in order.",
+    "read_units": [
+      {
+        "unit": "Complete ACC manuscript including all theorem proofs, conclusion, acknowledgments, and references",
+        "pdf_pages": [
+          1,
+          8
+        ],
+        "coverage": "full_document_read",
+        "notes": "All eight physical pages were rendered and visually checked because the PDF text layer required xref correction."
+      }
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-041.md",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "The deterministic spectral and grounded-coordinate methods remain candidates only after independent review; the literal p. 6 tree sufficiency threshold is quarantined by the exact N=2 counterexample. No random-graph probability theorem is supplied.",
+    "math_check": "audit/evidence-path-index.json#PGEL-041.math_check",
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_sha256_matches": [],
+      "checked_file": "catalogue/canonical_read_index.json"
+    },
+    "printed_tree_threshold_status": "isolated_not_a_verified_fixed_point_certificate; exact N=2 counterexample retained",
+    "global_source_id": "PR-be3d25873934",
+    "helper_local_id": "PGEL-041",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-041.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-041",
+    "helper_coverage_path": "reading_coverage.json#PGEL-041",
+    "helper_review_reference": "audit/review-index.json#PGEL-041.review",
+    "helper_review_sha256": "3a5706cff5997b9a13223c0cde78d0f17dd120cdacfa73f3d1b358398f529db0",
+    "helper_review_status": "R05 final helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R05_identity_verified": true,
+    "R05_metadata_verified": false,
+    "R05_reading_evidence_accepted": true,
+    "R05_reviewed_card_sha256": "ea050a585ba55d9715464a16f87282aaa6d40816f1096a50fdcb154b19ff30f1",
+    "R05_mother_hash_bound": true,
+    "math_results_path": "sources/math/pgel_l12_b10_verification_results.json",
+    "R05_tool_quota_eligibility": true,
+    "R05_metadata_review_status": "metadata_verified_false; no promotion of metadata claim",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.23919/acc.2004.1383983",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-041_graph_stability_ACC.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-041.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-041_graph_stability_ACC.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-041",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-041.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_check": {
+          "value": "workers/W24/math/pgel_l12_b10_verify_examples.py#PGEL-041",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L12_B10/cards/PGEL-041.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L12_B10/reading_coverage.json#sources.PGEL-041",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R05/w24_L12_B10/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_results_path": {
+          "value": "workers/W24/math/pgel_l12_b10_verification_results.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending",
+        "pre_mother_final_hash_bound": false
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-041.md",
+    "card_file": "sources/cards/PGEL-041.md",
+    "reading_card": "sources/cards/PGEL-041.md",
+    "reading_coverage": "reading_coverage.json#PGEL-041",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  },
+  {
+    "local_id": "PGEL-045",
+    "title": "The Kuramoto Model on the Sierpinski Gasket II: Twisted States",
+    "authors": [
+      "Georgi S. Medvedev",
+      "Matthew S. Mizuhara"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "document_type": "journal research article; Springer version of record",
+    "doi": "10.1007/s00332-026-10285-5",
+    "url": "https://link.springer.com/article/10.1007/s00332-026-10285-5",
+    "alternate_urls": [
+      "https://link.springer.com/content/pdf/10.1007/s00332-026-10285-5.pdf",
+      "https://doi.org/10.1007/s00332-026-10285-5"
+    ],
+    "version": "Springer Nature version of record; Journal of Nonlinear Science 36 (2026), article 70; published online 15 Jun 2026; open access",
+    "reason": "Proves deterministic SG twisted-state approximation through harmonic energy, Gamma convergence, and compactness; retained as a precise deterministic fractal boundary, not transferred as a random-graph theorem.",
+    "topics": [
+      "Sierpinski gasket",
+      "Kuramoto model",
+      "harmonic maps to circle",
+      "Gamma convergence",
+      "twisted states",
+      "post-critically finite fractals"
+    ],
+    "metadata_status": "Springer record, DOI, version-of-record date, title/authors, and local PDF first/last pages match D02 identity record.",
+    "identity_status": "Verified exact Springer version-of-record PDF against D02: strict 33-page file and SHA-256 match.",
+    "local_pdf": "sources/pdfs/PGEL-045.pdf",
+    "sha256": "8d635dd3c083972a6a1f8fff2df2a8e0fb0693b81f5568d07f11d6984457af49",
+    "pdf_page_count": 33,
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–33, complete and read in order.",
+    "read_units": [
+      {
+        "unit": "Complete Springer version-of-record article including all proofs, end matter, and references",
+        "pdf_pages": [
+          1,
+          33
+        ],
+        "coverage": "full_document_read",
+        "notes": "One article; not a book or random graph paper."
+      }
+    ],
+    "section_coverage_path": "reading_coverage.json",
+    "usage_card": "sources/cards/PGEL-045.md",
+    "review_status": "R05_motherfinal_passed",
+    "tool_quota_note": "R06 adjudication supports a deterministic method contribution: harmonic extension, renormalized energy comparison, Gamma convergence, and fixed-topology minimizer arguments, with the specific derived energy completion recorded in the card. Scope is deterministic SG and conditional stated p.c.f. settings only; no random-graph theorem or C118 solution.",
+    "math_check": "audit/evidence-path-index.json#PGEL-045.math_check",
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_sha256_matches": [],
+      "checked_file": "catalogue/canonical_read_index.json"
+    },
+    "source_print_status": "physical p. 13 uniform-to-fixed-Cbeta passage is omitted as printed",
+    "adjudicated_derived_completion": "R06 neutral adjudication supplies an energy/orthogonality completion for the original SG real Dirichlet setting; use is conditional in §6 and remains conditional on the stated assumptions in §7.",
+    "global_source_id": "PR-6410649e9c2b",
+    "helper_local_id": "PGEL-045",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-045.helper-card",
+    "coverage_file": "reading_coverage.json#PGEL-045",
+    "helper_coverage_path": "reading_coverage.json#PGEL-045",
+    "helper_review_reference": "audit/review-index.json#PGEL-045.review",
+    "helper_review_sha256": "3a5706cff5997b9a13223c0cde78d0f17dd120cdacfa73f3d1b358398f529db0",
+    "helper_review_status": "R05 final helper-stage passed; mother hash binding pending",
+    "mother_quota_increment": 0,
+    "tool_quota_eligibility": true,
+    "R05_identity_verified": true,
+    "R05_metadata_verified": false,
+    "R05_reading_evidence_accepted": true,
+    "R05_reviewed_card_sha256": "bd0eb49313e1c8c86f86aa7f3ab56c53117524bce638a196ee680836354387db",
+    "R05_mother_hash_bound": true,
+    "math_results_path": "sources/math/pgel_l12_b10_verification_results.json",
+    "R05_tool_quota_eligibility": true,
+    "R05_metadata_review_status": "metadata_verified_false; no promotion of metadata claim",
+    "R06_neutral_manifest": "audit/evidence-path-index.json#PGEL-045.R06_neutral_manifest",
+    "R06_neutral_manifest_sha256": "cd2656704d66a27eb44ee3d357b396f9b13af1f9f9e4252560d646ef415eb3cb",
+    "mother_binding_status": "accepted_complete_read",
+    "mother_binding_source": "audit/R05_motherfinal/review.json#source_integration_audit",
+    "fulltext_read_accepted_by_R05_motherfinal": true,
+    "qualifies_for_tool_source_count": true,
+    "counting_bucket": "eligible_method_source",
+    "canonical_work_key": "doi:10.1007/s00332-026-10285-5",
+    "historical_provenance": {
+      "original_local_pdf_path": "downloads/D02/phase_pool/papers/PGEL-045_sierpinski_twisted_states.pdf",
+      "original_worker_card_path": "workers/W24/cards/PGEL-045.md",
+      "original_coverage_path": "workers/W24/reading_coverage.json",
+      "runtime_paths": false,
+      "values": {
+        "local_pdf": {
+          "value": "downloads/D02/phase_pool/papers/PGEL-045_sierpinski_twisted_states.pdf",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "section_coverage_path": {
+          "value": "workers/W24/reading_coverage.json#PGEL-045",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "usage_card": {
+          "value": "workers/W24/cards/PGEL-045.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_check": {
+          "value": "workers/W24/math/pgel_l12_b10_verify_examples.py#PGEL-045",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_card_path": {
+          "value": "workers/W24/reader_batches/L12_B10/cards/PGEL-045.md",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "coverage_file": {
+          "value": "workers/W24/reading_coverage.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_coverage_path": {
+          "value": "workers/W24/reader_batches/L12_B10/reading_coverage.json#sources.PGEL-045",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "helper_review_reference": {
+          "value": "reviews/R05/w24_L12_B10/review.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "math_results_path": {
+          "value": "workers/W24/math/pgel_l12_b10_verification_results.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "R06_neutral_manifest": {
+          "value": "reviews/R06/w24_045_neutral/file_hash_manifest.json",
+          "historical_only": true,
+          "runtime_dependency": false
+        },
+        "pre_mother_final_review_status": "pending",
+        "pre_mother_final_hash_bound": false
+      },
+      "note": "Repository path strings in this object are historical provenance only; package runtime uses the portable paths above."
+    },
+    "card_path": "sources/cards/PGEL-045.md",
+    "card_file": "sources/cards/PGEL-045.md",
+    "reading_card": "sources/cards/PGEL-045.md",
+    "reading_coverage": "reading_coverage.json#PGEL-045",
+    "reading_coverage_path": "reading_coverage.json",
+    "section_coverage_file": "reading_coverage.json",
+    "runtime_path_base": "skill-root",
+    "source_review_file": "evidence/review/review.json",
+    "source_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+    "source_review_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+    "source_review_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+    "runtime_original_path_status": "Only the explicit root-relative fields above are runtime locators; historical workspace paths remain provenance."
+  }
+]

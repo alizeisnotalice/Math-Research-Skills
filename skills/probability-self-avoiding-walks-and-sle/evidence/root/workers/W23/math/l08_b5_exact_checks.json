@@ -1,0 +1,22 @@
+{
+  "P16_corollary_parameter_check": {
+    "input_nu": "3/2",
+    "optimized_alpha_nu_over_2nu_minus_1": "3/4",
+    "claimed_n_power": "1/4",
+    "alpha_times_nu_minus_1_over_nu": "1/4",
+    "one_minus_alpha": "1/4",
+    "identity_verified": true
+  },
+  "P18_proof_exponential_margin": {
+    "five_over_three_minus_log_four_decimal": "0.28037230554677604783220242375",
+    "positive_at_30_digit_precision": true,
+    "meaning": "Numerical check of the strict margin used after the exact proof compares log(4) with 5/3."
+  },
+  "P24_honeycomb_constants": {
+    "twice_cos_pi_over_eight_squared_equals_2_plus_sqrt2": true,
+    "xc_squared": "1/(2^(1/2) + 2)",
+    "one_over_1_minus_2xc_squared": "2^(1/2) + 1",
+    "critical_y_equals_1_plus_sqrt2": true
+  },
+  "scope_note": "Finite exact symbolic/algebra and numerical arithmetic checks only; none establishes a probabilistic or combinatorial theorem."
+}

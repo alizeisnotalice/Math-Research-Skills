@@ -1,0 +1,102 @@
+[
+  {
+    "problem_id": "A127",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "If the relevant CTCS observables can be represented as a discrete-time martingale on a finite-measure/probability space and the required uniform integrability is proved, W02-S002 Theorem 3.6 supplies the UI ⇔ L¹-convergence/conditional-expectation interface.",
+    "source_local_ids": [
+      "CANONICAL-PR-fffd4786b8c3"
+    ],
+    "unproved_interface": "The cited theorem does not construct the CTCS martingale, establish joint second-moment UI, or prove the fixed-circular-separation covariance limit. Those model-specific steps remain open.",
+    "candidate_batch": "B8",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  },
+  {
+    "problem_id": "A011",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "If a queue-process sequence is separately shown tight and its joint laws satisfy the determining-test, weak/weak-strong continuity, uniform-integrability and approximate martingale-identity hypotheses, W02-S003 Theorem 2.28 / Theorem 4.3 can identify a weak path-law limit as a martingale problem.",
+    "source_local_ids": [
+      "CANONICAL-PR-e1277389a5a9"
+    ],
+    "unproved_interface": "A011 asks total-variation convergence from stationary ergodic input. The cited paper does not give queue tightness, the needed martingale identities or a weak-to-total-variation upgrade; no A011 conclusion follows.",
+    "candidate_batch": "B8",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  },
+  {
+    "problem_id": "A007",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "If a finite-horizon discrete-time queue/state-process approximation is represented by Polish-valued path laws and its adapted-Wasserstein convergence is proved, B17-012 yields convergence of the bounded continuous adapted stopping values; B17-004 supplies a weak-to-strong/compatibility framework only if the queue dynamics admit the required Polish input/output model and compatible uniqueness class.",
+    "source_local_ids": [
+      "B17-004",
+      "B17-012"
+    ],
+    "unproved_interface": "A007 concerns stationary queueing laws and a continuous switch-over scaling limit with general renewal input. Neither source proves the queue representation, adapted-Wasserstein convergence, the stationary/large-switch-over limit exchange, or uniform tail control. B17-012 is only a finite discrete-horizon auxiliary criterion; B17-003 is a dependency in the Kurtz family and is not a separate source.",
+    "candidate_batch": "B9",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  },
+  {
+    "problem_id": "A008",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "For any fixed finite discrete horizon, adapted Wasserstein convergence is the topology needed for continuity of all bounded continuous adapted stopping values; compatibility closure under weak limits can be used only after checking Kurtz’s fixed input-marginal and continuity/RC-compatibility hypotheses.",
+    "source_local_ids": [
+      "B17-004",
+      "B17-012"
+    ],
+    "unproved_interface": "A008 asks for a necessary-and-sufficient stability region for an adaptive three-station queue under general renewal inputs. The sources do not yield queue stability or the finite embedded-chain criterion; a reduction to a finite-horizon Polish process law, adapted convergence, and model-specific compatibility/uniqueness must be proved. Do not infer stability from weak convergence or from a finite-state numerical model.",
+    "candidate_batch": "B9",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  },
+  {
+    "problem_id": "A007",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "If the general-renewal polling system can first be augmented to a Polish-state Markov martingale problem with a Borel observation map, Theorem 3.2 gives a conditional-law/filtered-martingale representation and Corollary 3.5 gives a quotient Markov-function criterion under the stated forward-to-martingale and uniqueness assumptions.",
+    "source_local_ids": [
+      "B17-022"
+    ],
+    "unproved_interface": "The source does not construct the renewal-age state, establish an augmented generator or its well-posedness, prove stationary tightness or uniform tail bounds, derive a large-switch-over fluid limit, or justify interchanging the stationary and switch-over limits. It offers only a conditional-law template after all those model-specific conditions are established.",
+    "candidate_batch": "B10",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  },
+  {
+    "problem_id": "A008",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "If the adaptive polling dynamics can be encoded as a Polish-state Markov martingale problem with a Borel observation/quotient map, Theorem 3.2 or Corollary 3.5 supplies a conditional-law lifting template under the paper's forward-to-martingale and uniqueness hypotheses.",
+    "source_local_ids": [
+      "B17-022"
+    ],
+    "unproved_interface": "The source does not provide an embedded-chain representation, prove a necessary-and-sufficient stability criterion, handle general renewal input stability, or show that the adaptive server state is Markov after augmentation. These model-specific steps must precede any use of its filtered-law theorem; finite-state numerical checks do not fill the gap.",
+    "candidate_batch": "B10",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  },
+  {
+    "problem_id": "A007",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "If a sequence of scaled queue-state laws has a weak limit, lower-bound or pass to the limit in costs/integrands only after checking the relevant lower-envelope or classical-Fatou hypotheses; for equality, verify an a.u.i. condition under the varying laws.",
+    "source_local_ids": [
+      "B18-001",
+      "B18-003"
+    ],
+    "unproved_interface": "These papers do not prove tightness, identify a queueing weak limit, establish lower semiequicontinuity/convergence in measure for queue costs, or prove the required negative-part a.u.i. uniformly over model parameters.",
+    "candidate_batch": "B11",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  },
+  {
+    "problem_id": "A011",
+    "tool": "probability-measure-convergence",
+    "role": "auxiliary",
+    "needed_lemma": "Use the total-variation uniform Fatou/criterion to diagnose the consequences and necessary conditions of TV convergence, and keep setwise convergence, weak convergence, and TV convergence distinct.",
+    "source_local_ids": [
+      "B18-002",
+      "B18-003"
+    ],
+    "unproved_interface": "The target asks whether TV convergence follows from stationary queueing hypotheses; B18-002 assumes TV convergence and does not prove it. B18-003 supplies only conditional integral-limit theorems, not the target TV limit.",
+    "candidate_batch": "B11",
+    "scope_review": "pending_combined_W01_strict_v2_review"
+  }
+]

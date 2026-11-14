@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模·结果与支撑包"
+  short_description: "核对时间采样与数值格式，同步论文附录、结果和源码，验证并封装支撑材料"
+  default_prompt: "请使用 $math-modeling-delivery 检查并完善本次数学建模交付：核对题目结果模板和时间采样，同步真实 AI 使用说明、附录及可复现支撑材料，按所需格式封包并验证。"

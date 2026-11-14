@@ -1,0 +1,49 @@
+{
+  "tool": "Python + SymPy from project .runtime",
+  "scope": "Exact finite counterexamples and algebraic identities for R01 B3 findings; not universal operator proofs.",
+  "AEP009_affine_set_step": {
+    "weight": "mu(dx)=|x| dx on R; doubling factor for centered intervals at dilation 2 is at most 4 (analytic case split)",
+    "F": "[0,1/10]",
+    "affine_map": "x -> 2(x-1)+1",
+    "mu_F": "1/200",
+    "mu_affine_F": "9/50",
+    "ratio": "36",
+    "conclusion": "ratio 36 exceeds the cube-doubling factor 4; arbitrary-set affine control used on p. 5 is not implied by doubling. This does not disprove the finite-union lemma or its Lebesgue specialization."
+  },
+  "AEP016_vector_log_range": {
+    "source_printed_range": "K>2/pi",
+    "K": "4/5",
+    "K_above_2_over_pi": true,
+    "f": "0",
+    "event_measure": "1",
+    "lhs": "0",
+    "rhs": "-5",
+    "conclusion": "The printed range includes K<1, where the vector-log RHS is negative; operational restriction K>1 is necessary."
+  },
+  "AEP016_Lemma2_7_supplement": {
+    "range": "1<p<2",
+    "p_example": "3/2",
+    "gamma0_exact": "8/9",
+    "gamma0_power_p_minus_1": "2*sqrt(2)/3",
+    "gamma0_over_p": "16/27",
+    "gamma0_over_2": "4/9",
+    "stationary_G_identity_difference": "0",
+    "analytic_argument_to_record": "gamma(t)~t^(2-p)/(p(p-1)) as t->infinity by l'Hopital on its defining tail integral, hence gamma(t)->infinity and the Taylor lower bound G(t)>=p(p-1)/2*(t+gamma(t))^(p-2)*gamma(t)^2 tends to infinity. Boundary G(0)=gamma(0)^p>=gamma(0)/2 follows from gamma(0)^(p-1)=Gamma(p/(p-1))^(p-1)/p>=1/p>1/2. At an interior minimum G'=0 gives (t+gamma)^(p-1)-t^(p-1)=1/p; the ODE gives G=(gamma-t*gamma')/p>=gamma(0)/p>gamma(0)/2 because gamma is concave. This independently supplies the missing global-minimum argument; other source steps remain as printed.",
+    "conclusion": "Exact algebra checked; asymptotic/minimum argument is recorded as a W25 analytic supplement pending independent review."
+  },
+  "AEP017_Th4_11_generic_C": {
+    "epsilon": "1/12",
+    "C": "1/144",
+    "lhs_norm_ratio": "1/12",
+    "printed_rhs_ratio": "1/24",
+    "inequality_fails": true,
+    "setting": "normalized circle, trivial real line bundle, L=partial_x^2, d_a=epsilon partial_x, eta=sin(x), p=2, Phi(x)=x^(-1/2), alpha=delta_0"
+  },
+  "AEP017_second_order_diagonal": {
+    "setting": "normalized circle, L=partial_x^2, i=j=1, m=sigma=1, f=sin(x), p=2",
+    "operator_norm_ratio": "sqrt(2)/2 + 1",
+    "printed_rhs": "1",
+    "inequality_fails": true,
+    "matrix_reason": "For i=j the source A_ij matrix has diagonal entry 2; its norm is 2, not the norm-one off-diagonal matrix used in the proof."
+  }
+}

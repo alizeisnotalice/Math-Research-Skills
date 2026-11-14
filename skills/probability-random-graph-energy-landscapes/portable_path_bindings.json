@@ -1,0 +1,2210 @@
+{
+  "schema": "W24-final-v1-portable-path-bindings-v1",
+  "rule": "All live references resolve inside this package. historical_path is provenance or audit lookup only; runtime_path is the package-local binding. Old workspace paths are never runtime dependencies.",
+  "bindings": [
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/SGN01_benign_landscapes.pdf",
+      "runtime_path": "sources/pdfs/PGEL-001.pdf",
+      "sha256": "dc1a69bcf5f2dee0be85f4dec77bad21a283a3400201957bb66ddf64f57e1cb1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-001.md",
+      "runtime_path": "sources/cards/PGEL-001.md",
+      "sha256": "2758987546436bbbcdb2f116c8a0a620f588d111f4d5accb2058ec7913b77b7c",
+      "historical_only": true,
+      "original_mother_card_sha256": "d6cd1ba1e2ed6040c1684d50ec1398ec4bbc2d180877851a35138e3ad2b200aa",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-001",
+      "runtime_path": "reading_coverage.json#PGEL-001",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/KUR04_random_graph_process.pdf",
+      "runtime_path": "sources/pdfs/PGEL-002.pdf",
+      "sha256": "efcbd4e7c7e68d3460a5cd9cbbe2e5b418f95fd4c7b958dc360424af33d136b5",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-002.md",
+      "runtime_path": "sources/cards/PGEL-002.md",
+      "sha256": "4ea0b7839fc6986be7a8d41c3bd25736b953e310f54073af0edabf480a75ac4b",
+      "historical_only": true,
+      "original_mother_card_sha256": "69c57f5141ffd381438f5805011fe52de83a0c924d3059be26fb49bc92db79b0",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-002",
+      "runtime_path": "reading_coverage.json#PGEL-002",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/EXP01_expanders.pdf",
+      "runtime_path": "sources/pdfs/PGEL-003.pdf",
+      "sha256": "f70f8f651dbac9199b1eea03017ba649adf3d236a32e1f631d85eb59d8605798",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-003.md",
+      "runtime_path": "sources/cards/PGEL-003.md",
+      "sha256": "960be10e4301e083fb81abe7e43474fe7cb862841f54137a33130281fbe628fb",
+      "historical_only": true,
+      "original_mother_card_sha256": "587dec34b4448e31c4d7bafc3c014ebae99b55c3bed325ab3ec5f5405d714c68",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-003",
+      "runtime_path": "reading_coverage.json#PGEL-003",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-004_random_graph_global_sync.pdf",
+      "runtime_path": "sources/pdfs/PGEL-004.pdf",
+      "sha256": "115182e6aeb65b31726d8e4ebdc409133ce14b79537ca72fe18a91d7fccb36b2",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-004.md",
+      "runtime_path": "sources/cards/PGEL-004.md",
+      "sha256": "d4ceb1d7600e1c8dfd73e1c52d681c19506d543d589500876db04843037aca0c",
+      "historical_only": true,
+      "original_mother_card_sha256": "8382a14161136aedc690367cc207edfe9e127e6ebdd3f708761cd66570f2868d",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-004",
+      "runtime_path": "reading_coverage.json#PGEL-004",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-005_dense_graph_global_sync.pdf",
+      "runtime_path": "sources/pdfs/PGEL-005.pdf",
+      "sha256": "cb25a266410f4be91663f2ba0e515164fb55e1c3170a83bd5b8984cbfad9223d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-005.md",
+      "runtime_path": "sources/cards/PGEL-005.md",
+      "sha256": "c61459240f8f3c2e86a3d7146d15173a35d898e63d3fa681b35fa0af6721b93b",
+      "historical_only": true,
+      "original_mother_card_sha256": "303134f5fa53063bf2f73f737760078339558cec584505859d766a31c511c156",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-005",
+      "runtime_path": "reading_coverage.json#PGEL-005",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/RGG01_random_geometric_circle.pdf",
+      "runtime_path": "sources/pdfs/PGEL-010.pdf",
+      "sha256": "e8cdbd8c6b0d36b8a3eb87b7ac21b7a2318c2f3ae72addaebd82cc741132effc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-010.md",
+      "runtime_path": "sources/cards/PGEL-010.md",
+      "sha256": "613e452d7dd987b441998d07c246c5dc164182fd30b9fbd8d9c50616600b6674",
+      "historical_only": true,
+      "original_mother_card_sha256": "bb3935b2c794f26a56a953f09316692b767db8a33074f82ff192e6be60bfff7b",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-010",
+      "runtime_path": "reading_coverage.json#PGEL-010",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-006_dense_network_landscape.pdf",
+      "runtime_path": "sources/pdfs/PGEL-006.pdf",
+      "sha256": "841b88e00295b691598e044b59778f22355f7f9b6f6c254f2797e74936c82688",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-006.md",
+      "runtime_path": "sources/cards/PGEL-006.md",
+      "sha256": "6baf38f3f8da922ae84dfe1776ba4ad5e5f9c093e1873360a6d258de8c7f73e2",
+      "historical_only": true,
+      "original_mother_card_sha256": "a74c2501199f003775f93b4f10cac61abb63da265bc4beb2f75a1bdd4fae739a",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-006",
+      "runtime_path": "reading_coverage.json#PGEL-006",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-007_sync_landscape_nonconvex.pdf",
+      "runtime_path": "sources/pdfs/PGEL-007.pdf",
+      "sha256": "e9545189087e353b84932d5c06dac282bf2ad576b4e55d388af83f1f53fad1bd",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-007.md",
+      "runtime_path": "sources/cards/PGEL-007.md",
+      "sha256": "ba04cf0df6154549ed3ed1d0d1883370e2cff5cde5d0b2ea6992e8f81e42b9e0",
+      "historical_only": true,
+      "original_mother_card_sha256": "5945a2c5522f4ccc8e5a6d2f6339d408f9ca1e4e1494a9fb37ea3608cb1c2eaf",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-007",
+      "runtime_path": "reading_coverage.json#PGEL-007",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-008_connectivity_lower_bound_twists.pdf",
+      "runtime_path": "sources/pdfs/PGEL-008.pdf",
+      "sha256": "e4968f7cd2858b9154ad630eb72661b2dd1418c05ba5a2ee8cf4cac3cef5ef47",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-008.md",
+      "runtime_path": "sources/cards/PGEL-008.md",
+      "sha256": "6ac16ec55a25b58fdbc8abc9ae06afddc09c1e5bddcb6a39b7c9b81d35b0ee03",
+      "historical_only": true,
+      "original_mother_card_sha256": "88520edc1a3965df8fe757ef3292dca3d9bec74295e4c10bcc26c45af098a44f",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-008",
+      "runtime_path": "reading_coverage.json#PGEL-008",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-009_dense_sparse_non_sync.pdf",
+      "runtime_path": "sources/pdfs/PGEL-009.pdf",
+      "sha256": "1429ddba0df2f4a33af15f6b65e912394de83365003643fa63f0f49775a5802a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-009.md",
+      "runtime_path": "sources/cards/PGEL-009.md",
+      "sha256": "82e04e2d475ef198a1316473b16050432439191039b36e49026b692fc16a11c0",
+      "historical_only": true,
+      "original_mother_card_sha256": "fb1eff83d7540cecdae33ac87c0268f0e0f103859eb3ea7ced018c2ca8ba455b",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-009",
+      "runtime_path": "reading_coverage.json#PGEL-009",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-011_random_geometric_sphere_sync.pdf",
+      "runtime_path": "sources/pdfs/PGEL-011.pdf",
+      "sha256": "6fd995cd07bfc86927603c687f6c008b335dbc4ff69738cfc54f4df13d58fea6",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-011.md",
+      "runtime_path": "sources/cards/PGEL-011.md",
+      "sha256": "e234757800421e8c251f4092afce18c3479489cf2f1bee40391889a8ccfc178b",
+      "historical_only": true,
+      "original_mother_card_sha256": "0307d612b4c6bc078afdc9a9140fc2a8871fc8150e835496543c7f49932b9e43",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-011",
+      "runtime_path": "reading_coverage.json#PGEL-011",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-012_random_geometric_sphere_2D_sync.pdf",
+      "runtime_path": "sources/pdfs/PGEL-012.pdf",
+      "sha256": "c9e66d032a0100724fef45d3fb174ae7fa49a0ff99bbc57b06777bb8efd5c887",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-012.md",
+      "runtime_path": "sources/cards/PGEL-012.md",
+      "sha256": "b8ccba9776d29fb16bfa68b50f4bf1c0e68b8c235a055bd3d9a820361e3fae69",
+      "historical_only": true,
+      "original_mother_card_sha256": "2134cd25ad82fae7bb017224a97afa2aec4117f1c25c092bff180c29b0589027",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-012",
+      "runtime_path": "reading_coverage.json#PGEL-012",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-019_graph_homology_stability.pdf",
+      "runtime_path": "sources/pdfs/PGEL-019.pdf",
+      "sha256": "51d84dbb4b2edbc74322ee92c6b57d129d789bb9f1c8e4f273e4debc1db698be",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-019.md",
+      "runtime_path": "sources/cards/PGEL-019.md",
+      "sha256": "119987cdfcb497e688a73da40e9e7a5f331581dc9898b7d6d95b06b089906fa0",
+      "historical_only": true,
+      "original_mother_card_sha256": "cbbacd13b264046b36d1aa53930a7b03d9b21e967643000851e5cb1c34e6895e",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-019",
+      "runtime_path": "reading_coverage.json#PGEL-019",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-021_infinitely_many_stable_equilibria.pdf",
+      "runtime_path": "sources/pdfs/PGEL-021.pdf",
+      "sha256": "e68915c58e27084a126226246d223a806815f428b3d3fed71dccdd8d2bc2b9da",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-021.md",
+      "runtime_path": "sources/cards/PGEL-021.md",
+      "sha256": "8a72812d83619ab93173d00fbe8357b18f8e82f023d8fd5434435b24dcb9856f",
+      "historical_only": true,
+      "original_mother_card_sha256": "ddfcebd477c5681d6dbe788fe5616b907b6de39a7f23283f43de65179c6d8995",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-021",
+      "runtime_path": "reading_coverage.json#PGEL-021",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/KUR02_oriented_signed.pdf",
+      "runtime_path": "sources/pdfs/PGEL-029.pdf",
+      "sha256": "1df63bb7365423ec4d2cea7de6609536960c619b3d4e4d388cd984bf49d96049",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-029.md",
+      "runtime_path": "sources/cards/PGEL-029.md",
+      "sha256": "8f886639eacabe056691be0f5348edeff5e175e234c2dfe2c032a6612326c4ab",
+      "historical_only": true,
+      "original_mother_card_sha256": "79539732d03d0ea75b239f795a8de66687bfafe9825589989152dd60ea791a66",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-029",
+      "runtime_path": "reading_coverage.json#PGEL-029",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-017_single_loop_winding_multistability.pdf",
+      "runtime_path": "sources/pdfs/PGEL-017.pdf",
+      "sha256": "01ec601706615d902d871271971743dc61951d07337023a80d857a927487284b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-017.md",
+      "runtime_path": "sources/cards/PGEL-017.md",
+      "sha256": "994a108006e07ec45a57b24b9b2eb32632cb44df8b03638d37241f3c136f7549",
+      "historical_only": true,
+      "original_mother_card_sha256": "c90a1a7f737a0ccdcecd82d9813d508b9170da4728bec3e03e9ee909ba3cee49",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-017",
+      "runtime_path": "reading_coverage.json#PGEL-017",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-018_planar_graph_multistability.pdf",
+      "runtime_path": "sources/pdfs/PGEL-018.pdf",
+      "sha256": "8546628e25dfe3798eb8b62fcd49bb02df2b1a5a489c1a4fb9d8961c36df81c3",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-018.md",
+      "runtime_path": "sources/cards/PGEL-018.md",
+      "sha256": "e8c681ee38045b4845b75897d248615899c80978699f1686dc7b44fe169f749a",
+      "historical_only": true,
+      "original_mother_card_sha256": "06ad8ec31d9546f0198f0ff98f914588dbfbbae9f177a047fa63f5250e7104d9",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-018",
+      "runtime_path": "reading_coverage.json#PGEL-018",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-032_threshold_graph_global_sync.pdf",
+      "runtime_path": "sources/pdfs/PGEL-032.pdf",
+      "sha256": "ecdffbee9a5350c5ffc1d8dbb603df8791cb725f352a02f3262e6caf7d25a1b4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-032.md",
+      "runtime_path": "sources/cards/PGEL-032.md",
+      "sha256": "78a8758a81a3d6ffd7c43d94e5421ee8a85a153081848b2b479fa28605077f12",
+      "historical_only": true,
+      "original_mother_card_sha256": "0e675eb931706599d4b09bf5a96435211698a33b37cfbac33264981039313883",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-032",
+      "runtime_path": "reading_coverage.json#PGEL-032",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-022_completely_degenerate_equilibria.pdf",
+      "runtime_path": "sources/pdfs/PGEL-022.pdf",
+      "sha256": "a7fb5e229de6022d183afd5cbba3ed139a2be636015fbe2d25c63c6304538a65",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-022.md",
+      "runtime_path": "sources/cards/PGEL-022.md",
+      "sha256": "368ecb6f6dd8c9589d6f2cdc2cf0f6e2ef5e04dc5bf4abc830a84ab588dba292",
+      "historical_only": true,
+      "original_mother_card_sha256": "de6c02de43834b292373017db9b6003bed90871352ddc7196101997096a20bd5",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-022",
+      "runtime_path": "reading_coverage.json#PGEL-022",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-023_kuramoto_equilibria_algebraic.pdf",
+      "runtime_path": "sources/pdfs/PGEL-023.pdf",
+      "sha256": "ad7a30a2735b823124210a62361906ff06ba6f8cf61d0b2a5ce58bdd28d89cdd",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-023.md",
+      "runtime_path": "sources/cards/PGEL-023.md",
+      "sha256": "a697d941d6c97af4d4a31657e663e96a3e30e763ab3e2e984dcae972409f5d18",
+      "historical_only": true,
+      "original_mother_card_sha256": "88f5f4a7b4c467c257e8f39aff0ee0246991dedb44b237c783a415c2af2954ad",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-023",
+      "runtime_path": "reading_coverage.json#PGEL-023",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-026_typical_atypical_solutions.pdf",
+      "runtime_path": "sources/pdfs/PGEL-026.pdf",
+      "sha256": "6f820a5bd2a1a53929c58283c12ddd452ac2ab6f437954bd66b215b0789b3ca7",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-026.md",
+      "runtime_path": "sources/cards/PGEL-026.md",
+      "sha256": "308b87564611b63b2c030501a0406ff5d27f6101dbb3d3129d216569f4b944e0",
+      "historical_only": true,
+      "original_mother_card_sha256": "07efc0f3818d6b0dbe01d2e6a0a0bcfd59813d92ba4da77626c0caa0b668ca0f",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-026",
+      "runtime_path": "reading_coverage.json#PGEL-026",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-024_birational_equilibrium_count.pdf",
+      "runtime_path": "sources/pdfs/PGEL-024.pdf",
+      "sha256": "17fc44e9b76f147c1ba06dd1278a5f99d9f6f0aaefe9e2245955e01121351662",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-024.md",
+      "runtime_path": "sources/cards/PGEL-024.md",
+      "sha256": "cb81e52af21cd8c8181029a93b25763e712c72f75c98e03e7305011f91044525",
+      "historical_only": true,
+      "original_mother_card_sha256": "fa92c9c4018006f74564ae25f21c3e20b98864331ea89afbeaafc8fee0819831",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-024",
+      "runtime_path": "reading_coverage.json#PGEL-024",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-030_critical_coupling.pdf",
+      "runtime_path": "sources/pdfs/PGEL-030.pdf",
+      "sha256": "19892042e73f9b60912f4d47c1e131c2fc0f5091cb29160f0f3d3b169fee9081",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-030.md",
+      "runtime_path": "sources/cards/PGEL-030.md",
+      "sha256": "9f259d4491456bb5034adbd3683cef2e2e18cfe379e2a7c6b9298dc1ea181844",
+      "historical_only": true,
+      "original_mother_card_sha256": "592fbfc44f6a1dc5bf3d6aaec52163880c1c20c606d6dbe74f4d7f05f99439dd",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-030",
+      "runtime_path": "reading_coverage.json#PGEL-030",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-031_bifurcations_graph_kuramoto.pdf",
+      "runtime_path": "sources/pdfs/PGEL-031.pdf",
+      "sha256": "47db43994c0bb652c0eae136c3038d8d334c60a7926a790202c0c6a08cce0ee8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-031.md",
+      "runtime_path": "sources/cards/PGEL-031.md",
+      "sha256": "1a6bc3d0267631dabe9feedf054e731f65a68096d870ec38e215907bdfebf113",
+      "historical_only": true,
+      "original_mother_card_sha256": "840764b0154acf27224471bf2171c0f6b39737e300dfd89b68840a0716708528",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-031",
+      "runtime_path": "reading_coverage.json#PGEL-031",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-033_continuum_twisted_state_stability.pdf",
+      "runtime_path": "sources/pdfs/PGEL-033.pdf",
+      "sha256": "920906a63714c95e17b8fcd3182e489f9fca2ac09ccf1c1ead37715e0e64a5bc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-033.md",
+      "runtime_path": "sources/cards/PGEL-033.md",
+      "sha256": "60106e924b62b106f974db8404ca3b4c947ec47621de03b04e9b91698b92ccb7",
+      "historical_only": true,
+      "original_mother_card_sha256": "c3bbe751565813e6752509dad53a0e61f9d4821deeb5bc236cad1ff59a3571f5",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-033",
+      "runtime_path": "reading_coverage.json#PGEL-033",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-040_symmetric_global_sync_chapter.pdf",
+      "runtime_path": "sources/pdfs/PGEL-040.pdf",
+      "sha256": "efbf80c3a92afd1af83d45ddad56408c7c17e222cfa994795e707f75d96bf6a3",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-040.md",
+      "runtime_path": "sources/cards/PGEL-040.md",
+      "sha256": "06c5b1b7e50dc6a093a39f367f2e9a7cbdc752001345e9144f3d80eb12e514b7",
+      "historical_only": true,
+      "original_mother_card_sha256": "1ea1795f83d58a0794da70bf9a4d8077ecf30effdf4013ae6e1191549f87f56c",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-040",
+      "runtime_path": "reading_coverage.json#PGEL-040",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-041_graph_stability_ACC.pdf",
+      "runtime_path": "sources/pdfs/PGEL-041.pdf",
+      "sha256": "c4b9b8fff56834009a041db1122e68b0bade7fd2a39dcaa0b97c156c1c40cd3f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-041.md",
+      "runtime_path": "sources/cards/PGEL-041.md",
+      "sha256": "52e367a3f9df5d640c0edea46c912d865f9dcf6bb7a59e14e3beb81c9f338387",
+      "historical_only": true,
+      "original_mother_card_sha256": "309554c7f73167538b061ce562a50e35669e734a86eef4b317b3b4e3bb35bbad",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-041",
+      "runtime_path": "reading_coverage.json#PGEL-041",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-045_sierpinski_twisted_states.pdf",
+      "runtime_path": "sources/pdfs/PGEL-045.pdf",
+      "sha256": "8d635dd3c083972a6a1f8fff2df2a8e0fb0693b81f5568d07f11d6984457af49",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-045.md",
+      "runtime_path": "sources/cards/PGEL-045.md",
+      "sha256": "eed78a7c338b54817d8eee2a76b1cffee9e43028daae65eae59e473856f6bef3",
+      "historical_only": true,
+      "original_mother_card_sha256": "37df1d74e88f87a81ce5020240d7084af203a96451a0da5d60e36992c542491a",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-045",
+      "runtime_path": "reading_coverage.json#PGEL-045",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-015_twisted_states_Cayley_random.pdf",
+      "runtime_path": "sources/pdfs/PGEL-015.pdf",
+      "sha256": "b6aede88f5a5ade09c8e53f8acbf923f5e0c4fa51b0e5c027beefa6c38cb1538",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-015.md",
+      "runtime_path": "sources/cards/PGEL-015.md",
+      "sha256": "cf45e79cf45f08adaad950a901404e4f14908d6c54f03e9d84674f96a90cd5cc",
+      "historical_only": true,
+      "original_mother_card_sha256": "24d9352e2264a8c971fd52cd2a7eae9a33b0a2467a111c7b029549a94d38da6a",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-015",
+      "runtime_path": "reading_coverage.json#PGEL-015",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-016_sparse_sync_global_stability.pdf",
+      "runtime_path": "sources/pdfs/PGEL-016.pdf",
+      "sha256": "5c1bf38a2969f633fe52413329e10d52dea1dadc67165a04e73c4cd92d302471",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-016.md",
+      "runtime_path": "sources/cards/PGEL-016.md",
+      "sha256": "f1e2ffe88847f66697dc5d6dce6b8da4798bcc666e0d95a51cd357d66dc5a09b",
+      "historical_only": true,
+      "original_mother_card_sha256": "55fecc7935ff3569c577f6cf2a020fbefe912476dba3263b31d73e95845c6b23",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-016",
+      "runtime_path": "reading_coverage.json#PGEL-016",
+      "historical_only": true
+    },
+    {
+      "historical_path": "downloads/D02/phase_pool/papers/PGEL-020_topological_states.pdf",
+      "runtime_path": "sources/pdfs/PGEL-020.pdf",
+      "sha256": "a544832a2e3b8575fe0acbd798751b3e94fdc5051dc2681186e2f6625ed61425",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/cards/PGEL-020.md",
+      "runtime_path": "sources/cards/PGEL-020.md",
+      "sha256": "9471535f8873af72baac8ce4edb4609f9cd7bf5ea5bdb557c8a967d2176dc962",
+      "historical_only": true,
+      "original_mother_card_sha256": "ff5dfcf6f27c8fbacb413a0cd255e74549d44547435d15784570f6d5bdfa4d83",
+      "artifact_type": "usage_card"
+    },
+    {
+      "historical_path": "workers/W24/reading_coverage.json#PGEL-020",
+      "runtime_path": "reading_coverage.json#PGEL-020",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p10.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p10.png",
+      "sha256": "faff7ffc22e317dec2bbb6d44f9e62153ef800edb02fc4d5a6a4df4cc59fc9b5",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p11.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p11.png",
+      "sha256": "3c6020058f35fb16fac2f88cedc1dbe9c6a9c78eca9ccc80b0672fedff94cb10",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p12.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p12.png",
+      "sha256": "fc3c73f04908ba22e48da9914fc7d8f4427773528d6a48fde2680b39d0ada7b3",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p13.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p13.png",
+      "sha256": "13f8fffef33fa1786908812ae4632191b5c263b8814fb405ebbe4b493c77ff37",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p18.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p18.png",
+      "sha256": "06fa7d00b69e1ad65b550539bffdc8f61498dc48967fb6d52c0be10a0911dc20",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p20.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p20.png",
+      "sha256": "27d8b10a7acabd7b5f98239ddd0adbfd8b66724f2e9a17dc03cf9702119bff37",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p24.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p24.png",
+      "sha256": "8a8a7e584b98aa1cc2c209bcc37a42dc930cde5d74cd82eb74528ba14a7f5625",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-017-p7.png",
+      "runtime_path": "sources/renders/PGEL-017/PGEL-017-p7.png",
+      "sha256": "9cc60faa33f0bc2adf7d7cd7f0edc22b19ab703f2dde9b130cda9ca48d3fe467",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-018-p12.png",
+      "runtime_path": "sources/renders/PGEL-018/PGEL-018-p12.png",
+      "sha256": "7bfa51022358e3e970be370be69076b11644209765f6723e953c7a5f008465a7",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-018-p5.png",
+      "runtime_path": "sources/renders/PGEL-018/PGEL-018-p5.png",
+      "sha256": "1341e3bc51ad42ce060e5788ef387e59450e8e2107cfa62b92536ce4d44acf51",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-018-p7.png",
+      "runtime_path": "sources/renders/PGEL-018/PGEL-018-p7.png",
+      "sha256": "52daa8885abf7a87dabfe9f65350397f6e4edb392e1f5d573630207ca7c2dcb8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-018-p8.png",
+      "runtime_path": "sources/renders/PGEL-018/PGEL-018-p8.png",
+      "sha256": "7cda969ee89422438005bc4579dcfb6db3c2d739e6fefdcabe30f335c88acdbb",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-018-p9.png",
+      "runtime_path": "sources/renders/PGEL-018/PGEL-018-p9.png",
+      "sha256": "50095bbe2872ff027279311e42b3db988aad309c7075403405e8796c881c5eab",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p10.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p10.png",
+      "sha256": "48a2097c59851bd37344d0c746dbc12360221adb3a290b9661ecc3555c15ce8e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p13.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p13.png",
+      "sha256": "2b331a5255011c8857981c30f71fce92e28f5c61336729994d63225bbdedee24",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p14.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p14.png",
+      "sha256": "ac97d4eb3975c3fe4b863520fa201483a8e2fa2af46d001ac458fc2085fa2fdd",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p15.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p15.png",
+      "sha256": "bb2073bd4e2daf9902291df5f1b01287fbfd35c4826636f53db2d582bd13db58",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p17.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p17.png",
+      "sha256": "211752cec4bb3105e29cf35b9c7970fdbe1e7129304c74d3707b206330b2e2e8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p18.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p18.png",
+      "sha256": "bd5eb2cd241f0b6463d9ddc5730430e4ac7a7b79b122d3dac2e35cb365f817fe",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p19.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p19.png",
+      "sha256": "8aa1e194c2bd246b083d636a4d9713814b1a880d03872d4ab1c31dad47540a07",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p2.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p2.png",
+      "sha256": "1726b32389a3fdf6d51677181e1c3ac8467e2a88358da1ad5b02094d99696d37",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p20.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p20.png",
+      "sha256": "40f9720e73f4865089431018204561fc35596bb2f7edfc92b40dc1edc8d72bfc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p22.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p22.png",
+      "sha256": "5a1a64247203fd5f0825d8ba269cd0b76813bdf0431ffc7a902d78c2b7f90e8b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p4.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p4.png",
+      "sha256": "6408f1c646bcd50cea50ff18743f054854cdfb348bd9d6909e1d6b97c889b793",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L02_B6/rendered/PGEL-032-p9.png",
+      "runtime_path": "sources/renders/PGEL-032/PGEL-032-p9.png",
+      "sha256": "5c0aeb2d786a9533b281512d5c27a35213ba003f3adde4b1d0c395725b9999ac",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-009-p3.png",
+      "runtime_path": "sources/renders/PGEL-009/PGEL-009-p3.png",
+      "sha256": "532b6313add749676f94e44b695ca56c42bd270d59f8b269cd8cd1e70ddf9af2",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-009-p5.png",
+      "runtime_path": "sources/renders/PGEL-009/PGEL-009-p5.png",
+      "sha256": "57af6bcf25430db0bcd45285e993acc976571a32ff34ced55383295a41c6bbcc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p10.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p10.png",
+      "sha256": "ee68996e2616931b7715887abc0a70fa1ad75951d47f66860e0e475af226dd90",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p11.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p11.png",
+      "sha256": "4ca1ae38c55b2d15e30c3fe547ffe5949580b9db6c06f0b3b962389e0f46e9cd",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p12.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p12.png",
+      "sha256": "1a4fb79940f1bc1965d2b62cba5ba21bfbcbcdb44e19f7150ee48e13dd2d17f4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p2.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p2.png",
+      "sha256": "a097d70cce84463176d82ce24762fb19fa4d4ceca2db258a3fb744de502583e9",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p4.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p4.png",
+      "sha256": "7966ae21ce5c6116eeb4a132f7e8303862a8b7e11f22b7e76cf0add30ad2add3",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p5.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p5.png",
+      "sha256": "95f205a7b35af13bd02a0ca08f253499c7f8b1c90931c795727f492dd62a6b49",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p6.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p6.png",
+      "sha256": "9863eb6cebc301ace9cb330730aaccc3e6ea2b3eb12a474035ebe878ace51404",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p7.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p7.png",
+      "sha256": "2c81d4a6560ebc05fb27cfbdd5bcc9fe876b1ac75dc64fb62d97662460dac59e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p8.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p8.png",
+      "sha256": "339ec798c9c7d5b30f962ec00fb39f3a45f9b467d7cf5e33e49d9f9d14c114a8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-011-p9.png",
+      "runtime_path": "sources/renders/PGEL-011/PGEL-011-p9.png",
+      "sha256": "5963405a078ccde96f1720eb0811e13f2f6b1e21aca1eec2cb84b1944ab734d4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p14.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p14.png",
+      "sha256": "36bd4f8d9ba6fdc9ebab3a2ac18f0903f8c24fd9a369a73561b0ab8d2b5faa56",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p15.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p15.png",
+      "sha256": "c3e5c9b81cbb077591ede5f756ba469361871ba8fcd2d739d788033ab2ef4b16",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p16.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p16.png",
+      "sha256": "4ae4726d4d4e7151ca3a17d8edcf3fec9f33ecb2feb968286cd377d5d29b7cd1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p2.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p2.png",
+      "sha256": "00dd4e341a7d6348acdbb870e2c76bf22819bfbd8b06ffc187fb7afe9718b0a3",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p3.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p3.png",
+      "sha256": "516d983d507605bb15375d20189f7200d24cddcf0aa7e427bbc9bbcdb5838c69",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p4.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p4.png",
+      "sha256": "c47083d760c6d576d397ad897557e00148c77abe5632814bd35ee3710271f68c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p5.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p5.png",
+      "sha256": "215708723a79efb803fcf8af5ef42d2e8ba1b04a7753911e0709cdf47da45b8c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p6.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p6.png",
+      "sha256": "66d3545a354be4e4d3ac82ef8548abca3349f6734ce11450a42f89ff66c102b2",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B4/rendered/PGEL-012-p7.png",
+      "runtime_path": "sources/renders/PGEL-012/PGEL-012-p7.png",
+      "sha256": "9bc7770961a6e9f0beccda45fd6701eccbb084a2fa10cfee6034b83fe116d9f1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p1.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p1.png",
+      "sha256": "3f0693d5b5d178d19447fbc53b4aee9bc726808f6d06cd0981d80f6eff3f65a4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p13.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p13.png",
+      "sha256": "d93d17dd2c4bc08a3db1ed375dacd1c38110be77dd3ae2e712363694b75602e0",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p14.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p14.png",
+      "sha256": "1845824dcc073ae2d25dafd503ce70d41157e97f37fa7f2afcd493166823c863",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p15.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p15.png",
+      "sha256": "3d14d9439f07da9eda7a340f309ffd18695dd39a7fc8a90c9ae57e76d7f96d43",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p16.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p16.png",
+      "sha256": "fbf792bdad2f28ecd41216f33ffd1a9d62b58f09413b42c4c4b201af42887bfc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p17.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p17.png",
+      "sha256": "ee178d560f81c4a809cd74253fd5d5019cfc158668252fbf3f7838493aae21ee",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p18.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p18.png",
+      "sha256": "89a2e2de58c977315925b40e90481702da0164af96ec759e55c0e021c8e5ab41",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p19.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p19.png",
+      "sha256": "e8ebe10eddfc9e004749e408a98ebcb660914a8d031fe8a8519aa67fc0827b3c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p20.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p20.png",
+      "sha256": "1b2703c65024972707555e387aeb59f2660520ae2766a87c3a09a78d3101011d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p21.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p21.png",
+      "sha256": "02070eb163ecc089b2984600854a2016501dfbef86a5ffb30b2da59f92ae108a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p22.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p22.png",
+      "sha256": "97750766dc0c543d7bc7920663f2bf2d4d9059446779d4d9423f4f42193800c8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p23.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p23.png",
+      "sha256": "ebea335b51d9d429982e32c5b7b19e9059adff5c388102cf0a2ca6d57a0bc8dc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p24.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p24.png",
+      "sha256": "c7e77059e12f60b3d01928a3f4ec067189064873809c27e32aaf7f9b2317f4b0",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p25.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p25.png",
+      "sha256": "ecb2a61ffd874558c84ba78dbab93aa4598be1d7b901bf5ce3e4b4df4660b966",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p26.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p26.png",
+      "sha256": "8427e799294eca2c10475388c3f39a4f31d7ff2e9a79ecb9991c848c5cbcf35e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p27.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p27.png",
+      "sha256": "88b4d3d9212b447d4a055dc68335f20b6b34f276e3ac1d735751dcc49bfcc4bd",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p28.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p28.png",
+      "sha256": "89261a333163a5237a1f32444a926ef6c8767ec8073cbe369f144fdd95743b3b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p29.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p29.png",
+      "sha256": "6e201fb8e6a2114d91d0788dc9002296aad975c49b814612513bd1897f91ca5c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p30.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p30.png",
+      "sha256": "051d1336d67c83f753a6515317f1fdc8f928d7193a9a52c53455a5592b60e500",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-015-p31.png",
+      "runtime_path": "sources/renders/PGEL-015/PGEL-015-p31.png",
+      "sha256": "f40b8115cdfb5e6d9c162b1a89489a454ef688daa9a9c95c2984b6b1286cd868",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p10.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p10.png",
+      "sha256": "f986b4013bdd4e9ab0cd9a69bf7f0d041137f9febaae71ccf520b4c4c4402e0f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p11.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p11.png",
+      "sha256": "2d7f35cab136fa13c75d46d1b33bb65d135963a0e11ce8d8ef8bc09cabf20ec5",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p12.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p12.png",
+      "sha256": "e9013aeefcfa9012f3f105067b9c6c52971c08019470b956e42e7959a29b5b0b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p13.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p13.png",
+      "sha256": "b9b5a02c42594a10e5665c837c711095643b770647e6e7a072e89a1b17efd155",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p14.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p14.png",
+      "sha256": "a313b05b344dd47365eedddcaf8a86fd7e9e10c81f6dfa2bdbbbdd9cc5cbab5d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p15.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p15.png",
+      "sha256": "eae5b3a9cf4b973e5a2be535bd30bbdeb5b2d357a6962e039eed8f2bfd0a5992",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p16.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p16.png",
+      "sha256": "88e5c851cccf719346b545930a6c2531c7432cccf86a907f780682a97bff3074",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p17.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p17.png",
+      "sha256": "36ea378320d37ba3a85c53e34f4ea837d872b98581db15bac0856c685750cd9a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p18.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p18.png",
+      "sha256": "4de6e6ae1081e50cfdd7d307d5e745302e72e51d5c3f1f0d01b23f27dec242b1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p19-check.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p19-check.png",
+      "sha256": "eb4e9b4f20f0099fabce37d4c98e2cd773f55fce71141cbfdd95c41b8c0f7c3e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p19-reread.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p19-reread.png",
+      "sha256": "eb4e9b4f20f0099fabce37d4c98e2cd773f55fce71141cbfdd95c41b8c0f7c3e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p19.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p19.png",
+      "sha256": "eb4e9b4f20f0099fabce37d4c98e2cd773f55fce71141cbfdd95c41b8c0f7c3e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p20.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p20.png",
+      "sha256": "2d7f247b0f669a5691bb5b1a889d1cc80050d3bd1ae1227d3a27e8e9f9c3396e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p21.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p21.png",
+      "sha256": "8240166707bc6c7c7157dfe1b4ef4dfaac1b303b660a24f25531bc0b138176c0",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p22.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p22.png",
+      "sha256": "0540007d70def09b9dea96c94c61686734c496ecc88daa0d0d77599555d7ec90",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p23.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p23.png",
+      "sha256": "f73a22b56ad21b58b149981fb7e9f6dc1968600bd03dfccb1c360654abe27f42",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p3.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p3.png",
+      "sha256": "609e3cc31cbffc686c8a72739e3aa84eb0c8090f9a52591e1cdeba84e64c63b7",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p4.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p4.png",
+      "sha256": "5f29638cae67b14dd6d1c88a310f60469f85b77d4f7c7ab9817add3beee5b773",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p5.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p5.png",
+      "sha256": "883fc6232943558877b05ec946e692cdb0a3a6765fff8889ad3991372084a7d9",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p6.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p6.png",
+      "sha256": "05500ed89363b5ed2175e1b0bbd14833cad44468c9681f4dd64cc77867f94f77",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p7.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p7.png",
+      "sha256": "e9d9321fce1c05749b157b5d8d6d97fd39fe95a8256ffa25f9cdb595f2a436f9",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p8.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p8.png",
+      "sha256": "61efd70e59b159d19ff4581c1141d43f15f650abf8e02005ae761f38bb00087e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-016-p9.png",
+      "runtime_path": "sources/renders/PGEL-016/PGEL-016-p9.png",
+      "sha256": "70b9bd1e80fc1922c1630250f98cd9d2c514603dfa1c3d023d4cdb3bd9de876e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p1.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p1.png",
+      "sha256": "3654dab18bb69b56e485620ae0d871dce06c8822686b9470eaa3405d48536203",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p10.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p10.png",
+      "sha256": "08a176a5014914bbdb65f09c4d88cb429e11b03b0392dfa2cab4d26d46ecd3da",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p2.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p2.png",
+      "sha256": "0f021d6660ff9bb8b6a925e86a569f359c07312fed9a24eff0f9c5294e2fd0cc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p3.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p3.png",
+      "sha256": "ccd7b731718d83d870dc7e09db6e19eb8549dfe79a78c1eef0c33ea31af404d4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p4.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p4.png",
+      "sha256": "e6db1ce391f7888bae8ade572eaec1189b473a41a7516e0285a03d87e6bdc03f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p5.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p5.png",
+      "sha256": "b4b7175c28f2359f88d6eb4c8896f9f719f2ac9cb5aec6fd87d4304964899328",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p6.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p6.png",
+      "sha256": "615a761859120907b163e0b98446ef63c911f1fa778feb9dad05eb4315a98bb2",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p7.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p7.png",
+      "sha256": "4f3e59640340478f341692f3728d86da20274764d87ece77698383be8a7bb36b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p8.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p8.png",
+      "sha256": "0320ede19a8ea14ce8e393c2451ffbbcdac4721bda6509735600933c574c1d95",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L03_B7/rendered/PGEL-020-p9.png",
+      "runtime_path": "sources/renders/PGEL-020/PGEL-020-p9.png",
+      "sha256": "5235bc74b91938687934e7316acbfb5b334acf323700e0f34d045300d2410dcf",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-022-p3.png",
+      "runtime_path": "sources/renders/PGEL-022/PGEL-022-p3.png",
+      "sha256": "d27c4945fcc9d1226ed1ce761abc3928e1c1400cc0cbf01024272af4c4e55542",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-022-p5.png",
+      "runtime_path": "sources/renders/PGEL-022/PGEL-022-p5.png",
+      "sha256": "d62f692e23487d6366256739f68e34e4731ba81747d689ab450b9917968cc9be",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-022-p6.png",
+      "runtime_path": "sources/renders/PGEL-022/PGEL-022-p6.png",
+      "sha256": "6f9be86f6652da7181d59c2e68d14ca257e24af36b82b444f7d9d635f178b611",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-022-p7.png",
+      "runtime_path": "sources/renders/PGEL-022/PGEL-022-p7.png",
+      "sha256": "90d5d6924ac7546fff9f7c0942649055907de052124ecd382100384a111f114b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-023-p10.png",
+      "runtime_path": "sources/renders/PGEL-023/PGEL-023-p10.png",
+      "sha256": "ebcd55cff161f0debd0baad6f65a5f92a01b7cbecccee64a1653199e97e54d48",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-023-p12.png",
+      "runtime_path": "sources/renders/PGEL-023/PGEL-023-p12.png",
+      "sha256": "7215165a5bc8242b151f6469ee76d8e4705a8615e89bedd1abd41bdb9ba1c08f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-023-p15.png",
+      "runtime_path": "sources/renders/PGEL-023/PGEL-023-p15.png",
+      "sha256": "b5c54cceb5e68a084f3090a48395dc5552d8572b14da8ee1a431695a02b614d5",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-023-p18.png",
+      "runtime_path": "sources/renders/PGEL-023/PGEL-023-p18.png",
+      "sha256": "6a10a3a8e3d2debc49e8b29b5ecea239f9261eeb155651844d57194e00036761",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-023-p9.png",
+      "runtime_path": "sources/renders/PGEL-023/PGEL-023-p9.png",
+      "sha256": "ca6ee9655fe94ff908860b493d97f13546c59fc07932a9a3141ede9acb357eb6",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p13.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p13.png",
+      "sha256": "fe06003c47706b8d325bc6ab3e4ab42d8dffb18183e75edb2f9ee945690dbbc4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p14.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p14.png",
+      "sha256": "d7a654778e5056581da87ada6b39576c3c40169f61c1bfc86a2ab78af0beb8db",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p15.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p15.png",
+      "sha256": "35d18b79efa4c654ae96b0ff91a28f699efe823971c7ae2d4834dccdbdd3412f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p16.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p16.png",
+      "sha256": "449df5b17f9cb2886ae8d1c88f29d35174212be242a07915efa58fe5ec537926",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p17.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p17.png",
+      "sha256": "fc73a0491271a69ab4b1f97169a9172a51f73ad03b36bd78b2d1f38a53b20158",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p20.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p20.png",
+      "sha256": "b54463717c9df8ee531ecd0f89d26c1f006f539b954f602c2a2f5437d6a037f8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p21.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p21.png",
+      "sha256": "028774705309852c533ff4bb6f76f13abe2490b8b6e5fa5ed12139d1a475a3ec",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p22.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p22.png",
+      "sha256": "3dac36ce5d0ffc04507c045947d7e2d6c8ad54d89316f59d2c70561d4f273c8f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p27.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p27.png",
+      "sha256": "929c9c1bab99531ab1a07ce9874721ecec715c32f3ace9e7f1a0045a1078089e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p28.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p28.png",
+      "sha256": "f10fd30f11c95c62bcfc8f6d20a0f53c6c2695cb252beeffc4e6bfdab9acf0c9",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p7.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p7.png",
+      "sha256": "b9add8514421189674aa5c7d1e2ad9b5367d51316345b5bf89d8756d1bd8be0c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p8.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p8.png",
+      "sha256": "5617a6ed317d6075f244a4ce74c9cba903658613b766174a59d3f66368f500e6",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8/rendered/PGEL-026-p9.png",
+      "runtime_path": "sources/renders/PGEL-026/PGEL-026-p9.png",
+      "sha256": "2a164322760c16b0eb5a20f3bb4ac8dbe55af283fb1f6a465bdbe48bcc2a731c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p1.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p1.png",
+      "sha256": "c4d64b9796a125ae09a9a5cfea02691086d3dc77868d3fb10ef097beaf8a08ee",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p10.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p10.png",
+      "sha256": "e929c35c14e172bcb3fa1d0c8040d793bbfc18108085ec1ebd6cecb9b01ef860",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p11.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p11.png",
+      "sha256": "9ac220a6ded4d8531cbe65d57a85fbba4b96590e1e1d4c443db6c7a9bb722040",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p12.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p12.png",
+      "sha256": "572f22cfdc4cd71f0dc64bf45b230992f474980c2e4cdc932beec4b319d9b475",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p13.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p13.png",
+      "sha256": "e77308ce6c9376f8e27a96a98d47a6d556a5ec704a33c2835a2959b41fef7141",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p2.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p2.png",
+      "sha256": "eedee7d93a6d4edd0b675e7204067db1f7e4aad6c6f229a3b467d32be0a346d1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p3.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p3.png",
+      "sha256": "b0af1a82b17662ae7f754d8a758bfbab932fab07ebb933076de7a7a081299240",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p4.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p4.png",
+      "sha256": "281e20d4ee6ded77084b3c0aece4870a2288e48060c54b9fd8378048942ef1bc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p5.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p5.png",
+      "sha256": "8e0e54d303e831197a0b016ad424b102c4484c9a99f00d906366d4d8f83556ff",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p6.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p6.png",
+      "sha256": "00d7afc93a74a3cb47095cfcc8894c0ecd1606d7486e1d2686ccdb3353eb56a2",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p7.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p7.png",
+      "sha256": "ae24473c88632d23f5fc6414e9d0a6c4cb0986e053a24d7c34792205f580fb5b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p8.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p8.png",
+      "sha256": "b9c2a61b59d4e991b4e2f06622cd041505ff0a62ca19f12745fbcb29d409a69e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L09_B8b/rendered/PGEL-024-p9.png",
+      "runtime_path": "sources/renders/PGEL-024/PGEL-024-p9.png",
+      "sha256": "4e125657f5345515cd0731202ab909f5fd098294c17da07ec2514352045a6b3e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p10.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p10.png",
+      "sha256": "55be038b9edba85ee1f5abb75696eab7e77414344079fa0dc26fe0ac7d28a23b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p11.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p11.png",
+      "sha256": "ff23eba6928b7d1f44ac6c25719da3435b09e17eec1527180bf06ee75d909633",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p12.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p12.png",
+      "sha256": "4932e44f058c057ef2b6dbf72755b1d75b8490ad67f89c13067fccea6031d85a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p13.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p13.png",
+      "sha256": "ecbf31bb01a7a0e6890e99d78d16b7be56d43364f5c52ba57e47b00c3423386a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p14.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p14.png",
+      "sha256": "2922dcb3167465ed2f66a38714a97e5fea76da26c3aec43911e1cbd46f2b0ee6",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p15.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p15.png",
+      "sha256": "1caab10cf02747df8f00dc0a26073a43b53179e0ec231aacb1e235d9b7901bae",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p18.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p18.png",
+      "sha256": "f9c9ab83e4898ba6b1c600cabb75265fe1b28b9650c9f08e4ad83183d41a5f1a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p20.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p20.png",
+      "sha256": "4a67eb8cfecbfa051f83b8bb6ceb71e7a754dbcdc1998e3230752353297a3d22",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p21.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p21.png",
+      "sha256": "4ab821279e0a8fb3f45f821dbdbee5d07cb14586b5dd39bc109193bce92d4937",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p23.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p23.png",
+      "sha256": "c81ef9918906afe98d6095aff47278b9e84aee047ae44d32cb495f9886b1991a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p24.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p24.png",
+      "sha256": "5f269df82567b7ca2123b5b0a3875e2f0184c313129a38daf3fe93f3374a4069",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-030-p25.png",
+      "runtime_path": "sources/renders/PGEL-030/PGEL-030-p25.png",
+      "sha256": "79fd753871236fe0f389b679e71c443867274857b0c5514d9057e7ae379236a7",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p03.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p03.png",
+      "sha256": "c09c981511ae0aa9ff63eef20642b096195850d2049dd9da1da40ebabcf5ab18",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p04.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p04.png",
+      "sha256": "22ec12b191a032da05437e72fab50b120e04b461911681e9a20c62be9000e36a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p05.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p05.png",
+      "sha256": "71a32cf977c09b5c3fe40a18dae97c415270709ab7a5c6877f033b1d9c2d87cc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p06.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p06.png",
+      "sha256": "8d988048bfd02d354b18feae5693b6c9670ff292a9a6b7d256a0b432561f6c52",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p07.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p07.png",
+      "sha256": "e8b00391e4148016fdee4cc87b2e18989a9fe571fba78b8ed537073ef0755947",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p08.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p08.png",
+      "sha256": "019ee40dcb77faef6f589d92abd8d4cbb4f6676028eeffaccc282d993957ab14",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p09.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p09.png",
+      "sha256": "49d291be56481f0f42fcc482e7f886157677e047cfb67d43b1b8243231a20918",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p11.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p11.png",
+      "sha256": "79cc2783128b98e8d7e1e97f124d8d33f360164497da2024aa66c8daacd0ca0b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p12.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p12.png",
+      "sha256": "a1cb5b4d1051cacfe5bb06322d914c2d83ac5ec2c4a38ffe33d9584cbed96c71",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-031-p13.png",
+      "runtime_path": "sources/renders/PGEL-031/PGEL-031-p13.png",
+      "sha256": "d2363cf1b39b008a94f03d82be090fee37625c6909cb8493f7765d8df7689e05",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p03.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p03.png",
+      "sha256": "9815bedd37239f351e253b23982ba4737cfe3f7bcc6a43b45f6e655a06872c07",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p04.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p04.png",
+      "sha256": "e384b77f824c22143d8f80e5b6565c4a8e7f6dcc34208d34c44a69c0b4970e61",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p05.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p05.png",
+      "sha256": "95137f63b16aab14d86989921e3bebf47a53b2f0ced2f265d1139b596cd0af53",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p08.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p08.png",
+      "sha256": "4f2625d6bd0beeb5888c83811e22e78afb1710f4cb73d1cd4e9efcc81c470c1d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p09.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p09.png",
+      "sha256": "20e09ca85ca293f9f970ad3038d1912aa202a09b7592c33e0af341a08b2011e4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p10.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p10.png",
+      "sha256": "43669fc101770be75ba8f27eb04dee69321d551fd9d6050243d182b51aee8d79",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p14.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p14.png",
+      "sha256": "ff08d7ab0f5018c3d4c02607a0c17b2156397b8260eea8fcd00c1770985ba6bb",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p15-300.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p15-300.png",
+      "sha256": "cbc72c47c73660d43dfe0b0c8c67fed1d918cbe71a2b2d685d551b7cb6e10509",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p15.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p15.png",
+      "sha256": "70613e0248e26f0e8bf9b36ad2cacbfd3b9a35224fba09a49afb199a9ba6a4e8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L10_B9/rendered/PGEL-033-p16.png",
+      "runtime_path": "sources/renders/PGEL-033/PGEL-033-p16.png",
+      "sha256": "555e4fad52f6bdd8d3a3e83123d6784b35712ee828d60568e09b529b85b3b61b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p10.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p10.png",
+      "sha256": "e9a3868b050bc3ad56cbe455d472cca6e8ecc4cc7d865d7ef1fe277bcf2574f3",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p11.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p11.png",
+      "sha256": "273fa57921985f1cf5933c9af9df64822136d91020acb6d01b1900496a75a34a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p12.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p12.png",
+      "sha256": "fa61204b7e53ad04d82e8dead189502fa51cb17cccd9c0d71e4b9f940165ebd1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p13.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p13.png",
+      "sha256": "30166818789c67c99cddbc9686c8d775d70b953c420006c4364bd2acd899059b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p14.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p14.png",
+      "sha256": "fb10af5d1b38b717e3fc2ae581aec263156fffd1d52a8ca33377ff8983f3c428",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p15.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p15.png",
+      "sha256": "3e1930555575405bc490b94913bb71ce099f7ec31909710c6eeabe60006ddf64",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p17.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p17.png",
+      "sha256": "7a6b78750419d3e043815952d141cdaf653f5a389b7efd439f49950111402b9d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p18.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p18.png",
+      "sha256": "2b77a9d7dd0b9515bd6d23390c302aa3020c95355bddb927397a9abbf62778dd",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p19.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p19.png",
+      "sha256": "1d5fcf7b372b4b16f6d860573c9e2c61004d98f10c620c93f5687b74e3eb0c5a",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p20.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p20.png",
+      "sha256": "563936c186e8e11adebb342b40b309da553b1e9bd3c9eb513a62d314bed42b16",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p21.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p21.png",
+      "sha256": "73131538ce5641835ffa972efdcd0142da4c010e01252ca2fa941fd47e79095f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p22.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p22.png",
+      "sha256": "20d4ab9d209d08529044cff5b95bbe22cf8842c4a7f31b8d993b640e9d88acb4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p23.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p23.png",
+      "sha256": "928f10b943f2ed73cb276f186954a5ba2dec5ea383f988abd4cc5f50e16779b1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p6.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p6.png",
+      "sha256": "0a05a6f955a59d9313d94d9dfa303e1a7abf054a8fcc492d8939b887570f920b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p7.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p7.png",
+      "sha256": "fc82addace7ea065e56396994d40680fa76e1738af540fd78e0187287019c64e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-040-p8.png",
+      "runtime_path": "sources/renders/PGEL-040/PGEL-040-p8.png",
+      "sha256": "b09835a45b363eb2a54023365396c6d9f123f26565eeb69596a2a7c681576375",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p1.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p1.png",
+      "sha256": "466202ea33a637838639e6e46ef4850769f51996091f8e20081bebf1a143aaf7",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p2.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p2.png",
+      "sha256": "7488733dca3a684102e49c09e2f37fa3b66dc9d60beb78178459597f2d47c952",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p3.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p3.png",
+      "sha256": "d12f9e39077b268d09f80205a7073b3ee5ca4c2d1fe7419add332222b517d311",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p4.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p4.png",
+      "sha256": "a15e1285cf63925781c1afe736527298f555c75b19603e0698ff77ba9ca65789",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p5.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p5.png",
+      "sha256": "e2c6643744e071f5817311b89430be23abb835e1688dd9903fae1cd13ec2fed2",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p6.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p6.png",
+      "sha256": "48532b57d54bc471674b18ce6c597f91130368f6036b08a47c64f162f5f9162f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p7.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p7.png",
+      "sha256": "485d39d40d00e3cefa1ce07d3a9ba51167cb637842d16d2fbbe36be017b5d96b",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-041-p8.png",
+      "runtime_path": "sources/renders/PGEL-041/PGEL-041-p8.png",
+      "sha256": "60812fa12ecfd5b186acbda2f0aa571c83d21473d305fc8e9e1d37facb6b91bb",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p10.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p10.png",
+      "sha256": "4470eb9fe6f76c4173f0dfac1132f298cc3cd73faf83577a7f4177467d8a8154",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p11.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p11.png",
+      "sha256": "dad81e09b1d008e53e861b38e47a7f80a92444a3d1a3c71045cb344cb414ae33",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p12.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p12.png",
+      "sha256": "1911c0f24d0187ed381b7da567315093006f4d177683f238848e2d55cba537eb",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p13.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p13.png",
+      "sha256": "58082f4409a67570e50d97d8c866a460071d09c985ba4b22ff54d5b187ae3531",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p16.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p16.png",
+      "sha256": "0ab008ce320032349aac409220b9d6bfc40899e5af41722d2a797bddef39c6bf",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p17.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p17.png",
+      "sha256": "d9e422acacc750f71c4a354d480cf3d02e25da6c63bb264e9b5947c9c428a258",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p18.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p18.png",
+      "sha256": "7252c6fd567bffffc0d661ed43c36879414e8075e672c5385a02b5955fe749bf",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p19.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p19.png",
+      "sha256": "89e0db38eb7516c45747c22862bb8a70517af97afefd60d50d8837e7a595d7cf",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p20.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p20.png",
+      "sha256": "12783c8f018859db2d9cff567e7df980ee600dd423b3aa4b852e54e27b75b987",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p21.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p21.png",
+      "sha256": "b839d41c756c78b26abb09fb8941ee8eb2ee60f57d5c131f545055f03e2eaca6",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p22.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p22.png",
+      "sha256": "ad34bae0598c4a8bbcc5052cf6101f419570366d2ba5bd3621c647f20eebd2b8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p23.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p23.png",
+      "sha256": "96904df24c2784b1bf20872f536280d49744b2978b4a07fbbd372ed66a985a9e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p24.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p24.png",
+      "sha256": "2c899ee39d298b1c2c317046acedc63d9a38f801b9218c2a8c2ddf576107d9de",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p25.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p25.png",
+      "sha256": "3e610a8b9fd2b117f9a18559b1d03a1b8b00e1a3bcdb1fa24dd7157508e9bc48",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p26.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p26.png",
+      "sha256": "4b1e935261984f054bbeaed58cba32dc8256245aec2de04fc0605a08c9f4d6f0",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p27.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p27.png",
+      "sha256": "f54c40f4fa4a6b6bfc7a79a27c85f69fc00658b22535478982c0153db86a3b4f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p28.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p28.png",
+      "sha256": "5b76396ca3dce3e796418af1a83ebc6befc7ab3f23bc77463d5e8219c52e5837",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p29.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p29.png",
+      "sha256": "d909deac33fb1d24637704b407c2509044e719e2329b4bd6e34e37bee61ef449",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p3.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p3.png",
+      "sha256": "23ca493f6620fedf51e4018bb99d30b64b2b97c546b1464fe51a84fb7aaad793",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p30.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p30.png",
+      "sha256": "42f364b450d19c693e31daf4f107a6bffd0de25382894ad5a45838d1e25702b5",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p31.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p31.png",
+      "sha256": "5175d74c34ff29fdf8db88c60663ec6ffcf33d15328150e341cd50e0c1eb3fa5",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p32.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p32.png",
+      "sha256": "5115c75240c675562940bf12842271d17ae40681719656596a1b8d96ea676b66",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p33.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p33.png",
+      "sha256": "754cec460099ee4bc35ba3816836d5e52f6169f1109b38a99470809cc5b1f17f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p4.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p4.png",
+      "sha256": "28a01be68f4f98be845ea06164a5da65d5fb4772719c5c6ab175c9e41426993e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p5.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p5.png",
+      "sha256": "cd84f151dd52f76a24b65c6347e5acc3212afd81d4f314ca9e8b2038e80e897e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p6.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p6.png",
+      "sha256": "188ee0b8a86dd6a8d00a2590c208753982d8a59e1b33284b687de7bbcb470b5d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p7.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p7.png",
+      "sha256": "5671cdeca964107377d752e3567408a5b1555bb27f27953f624fc6cb78578ec4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p8.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p8.png",
+      "sha256": "5f3211b03b2eda9a6cabfc403a0bb66162299e1535fd3919b17d41f2e21628ae",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L12_B10/rendered/PGEL-045-p9.png",
+      "runtime_path": "sources/renders/PGEL-045/PGEL-045-p9.png",
+      "sha256": "15d87bbc398c67666c9e6701caccc626762eef11d1d1bbd88a23f9f9975e807c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p01.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p01.png",
+      "sha256": "e77e21d2bb7a7bd0c61f0205429dc0f343eaff54093c914dc85f176e0f5d3aa7",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p04.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p04.png",
+      "sha256": "587945669fcff39ac660594c73cd671282fd9e43963d4d969b3726c119fbeb62",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p05.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p05.png",
+      "sha256": "b677c00cbea4ed66fd42b79eaafab31c0eeac0148ca4e4e171b5ff3cbd79af55",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p07.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p07.png",
+      "sha256": "1d1b281bf862ce6dbf70f159d4090e95a93b258516c8824025fdf52a64811791",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p10.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p10.png",
+      "sha256": "a0d33ade89412f672d80aa2e37caef856f71ee96a50883d1d99451575ec4612d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p14.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p14.png",
+      "sha256": "fada6d3a5437256622172a744326c8428e28f7c3ca01c4adadce964e02078fbc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p15.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p15.png",
+      "sha256": "061f9878ce6bb52fd416fb70627538dd682dae32488a882882f457efa7a41011",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p16.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p16.png",
+      "sha256": "57232480fb4f6f00dd875005a7e68b32ce9bbfece537f1403143b5745414160e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-019-p17.png",
+      "runtime_path": "sources/renders/PGEL-019/PGEL-019-p17.png",
+      "sha256": "59f4553046033da115ab4d7d3a52960ba7aefa83f7dd8f4b4814115147d60392",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-021-p01.png",
+      "runtime_path": "sources/renders/PGEL-021/PGEL-021-p01.png",
+      "sha256": "11d2faf8bb8ae66bad641ab98d91c19ea1e586571a305e0b66ae9b6673d09868",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-021-p06.png",
+      "runtime_path": "sources/renders/PGEL-021/PGEL-021-p06.png",
+      "sha256": "ece6a563557a95b2b3e8abc19911512fc8674b4ce4575343e602da3e7ae752e4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-021-p07.png",
+      "runtime_path": "sources/renders/PGEL-021/PGEL-021-p07.png",
+      "sha256": "ee98aae4540f89175b8ddc8f38ef7654ff2abb802409475b6e0e99bfa0775b11",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-021-p08.png",
+      "runtime_path": "sources/renders/PGEL-021/PGEL-021-p08.png",
+      "sha256": "349cb8a6baf62a0fa7cc66adfac3dfd0ce9a0f7b5c421b7c8a2975b05682ff91",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-021-p11.png",
+      "runtime_path": "sources/renders/PGEL-021/PGEL-021-p11.png",
+      "sha256": "6a4a1380eda11138aebd5324650aa83ef0bd9a89983d932e53946839983915fc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-021-p12.png",
+      "runtime_path": "sources/renders/PGEL-021/PGEL-021-p12.png",
+      "sha256": "84a548a3eed4a41413491d307dedaee9c3354b2edc9a23985231599e4871e1be",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p01.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p01.png",
+      "sha256": "c15a4540eafafc701b1ac84a48322b89a22aa7b51542ded802bea37aff31a085",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p03.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p03.png",
+      "sha256": "933a0b15ed59dcb35ec2177f5331542bdd5080ce3eb7f23fb60448401db4d423",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p04.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p04.png",
+      "sha256": "02d0b55a5cd5779f53ecb653faee11cd6b7d54d1167a59ba6945b5c6c45c7377",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p05.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p05.png",
+      "sha256": "1de9cc61a360c4c34dbf2acf7ed34beb70adc5e73adb15ddf911f027900e4bbf",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p06.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p06.png",
+      "sha256": "b3975288786b9ffd640a1f9ef82d84bdd87782bf67d011d5e4a4e4a653f81bdf",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p08.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p08.png",
+      "sha256": "741d13996a6252f588f1139ba1c1aff44ec886248b4ccba76c5ea8914d964554",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p10.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p10.png",
+      "sha256": "682a5bc4d3f34d63e8736ad55622afa40810e2f1dcc3d30f9e2d65f94de1becb",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p11.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p11.png",
+      "sha256": "4c1f0b8107a5c934ac16684403ea9ef4bbf8f1f70668878b9cef3d501454ca32",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p12.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p12.png",
+      "sha256": "df66767fa508ff02d37452112914d02bdc4316b1d0e897911e37fad2484cc7db",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p13.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p13.png",
+      "sha256": "bcbcadf1e22f79d279b6c7b0949c5f792f6533101a1a6c3a31ed06aadc097cf0",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p17.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p17.png",
+      "sha256": "0c68da1e328bcc4e90eb31f66797df7262d70ca6b31e06386f300efb1bbfdcfc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L13_B5/rendered/PGEL-029-p18.png",
+      "runtime_path": "sources/renders/PGEL-029/PGEL-029-p18.png",
+      "sha256": "63b76f30454fdf085f69ecf3da1f972a7111433e4cf9bb94b4065bf7797feab6",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-006-p11.png",
+      "runtime_path": "sources/renders/PGEL-006/w24-006-p11.png",
+      "sha256": "8e7949afcbfa18b41b6b64cc085378c1a9fc225f16403762c97121e1558218ee",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-006-p12.png",
+      "runtime_path": "sources/renders/PGEL-006/w24-006-p12.png",
+      "sha256": "7261b3ca7cf713b8e0c96b7f8f55666d89511b88471c115500d15a05003143a3",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-006-p2.png",
+      "runtime_path": "sources/renders/PGEL-006/w24-006-p2.png",
+      "sha256": "94e81fe6280c59add707e6bfeeedccff8020d645b46f8573f3a91c6961716fdc",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-006-p3.png",
+      "runtime_path": "sources/renders/PGEL-006/w24-006-p3.png",
+      "sha256": "70eb5a9ba52b27867369c63831eb5bc85f3181d9d6eaf4345bc0d8dd98d4723e",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-006-p4.png",
+      "runtime_path": "sources/renders/PGEL-006/w24-006-p4.png",
+      "sha256": "65ee1101ee38780221c325c2334648b97606a4dacc9f0fef24c908d2c9233ca1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-006-p8.png",
+      "runtime_path": "sources/renders/PGEL-006/w24-006-p8.png",
+      "sha256": "af7efbcf54a93aef6d0b592a1a24b2d3bb9b8f409e28af85b10ef037c3f162ea",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p10.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p10.png",
+      "sha256": "ed2c7ac6695a8b56fc64efb23c4f60d848f1dfde88142556604e1f7122bce2b8",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p14.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p14.png",
+      "sha256": "e5ea01d8357169f55c6d6cb5f1a007a951e4aedcb94a97de51f34ec3ef5b45e0",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p17.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p17.png",
+      "sha256": "1c82b76a340e8ff751a66eb3332d5c6bf43bbbfd6b46ad0b64e79efdc21482b4",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p19-sourceproof-recheck.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p19-sourceproof-recheck.png",
+      "sha256": "0e69b228aaca098c3f83f3befbb45554e5c9ef05ed547d14a4b6a33cc9db2a87",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p20.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p20.png",
+      "sha256": "66cef9be01900c917782e0ea96cd60da32f03b9f4891920be1e5e4ebf45ffc55",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p22.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p22.png",
+      "sha256": "2e8dffa1471261eb69739820d536483acba90dc8995431aedf6664fcd44e7cb1",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p24.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p24.png",
+      "sha256": "10358937565d3cc798c9aef48b1de716c5dec57da0157483e117f96de8940104",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-007-p7.png",
+      "runtime_path": "sources/renders/PGEL-007/w24-007-p7.png",
+      "sha256": "86f3d2e3903ed41cadea5761d3f62293b8965f2c381e40eaa58b33958fe56e0c",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p2.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p2.png",
+      "sha256": "a83e27bf78717eb48ab9671b60b20de76c340de6c92ada0c94d3ee3dcee72278",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p3.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p3.png",
+      "sha256": "a428b7fc45166baa73fdcf8648b63da757c6490a8143cfa1ebebe749d5d2a4d7",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p4.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p4.png",
+      "sha256": "44eefff5c611fe678f92b83a3f488a3149b0d0619e0db990ee409aa2ac99f5f6",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p5.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p5.png",
+      "sha256": "ec8acb112f8781d70c9044e43cddc70bf219a3000be6f7fd79dac343f77e8c7d",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p6.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p6.png",
+      "sha256": "36ea907c6e570dff00ad8db85a70948a66e0af6d821299ea08bb06c541070933",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p7.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p7.png",
+      "sha256": "4f99a30751f32e73c93059ab36ab5ef208b286de9fbb8b9df59c3e001aa00642",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p8.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p8.png",
+      "sha256": "dff70d9ee71446ab1ffb0b79b459d6e350589ac7a6e8b1749b84c07b788a05ed",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p9-A13-A14-recheck.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p9-A13-A14-recheck.png",
+      "sha256": "154e83e47c792f115d1aea64c80e5fc2a77a6a92229109ef31d21411e8bc501f",
+      "historical_only": true
+    },
+    {
+      "historical_path": "workers/W24/reader_batches/L14_B3/rendered/w24-008-p9.png",
+      "runtime_path": "sources/renders/PGEL-008/w24-008-p9.png",
+      "sha256": "154e83e47c792f115d1aea64c80e5fc2a77a6a92229109ef31d21411e8bc501f",
+      "historical_only": true
+    }
+  ],
+  "unmapped_review_or_identity_evidence": "Use audit/review-index.json or audit/evidence-path-index.json; archive member names are historical only."
+}

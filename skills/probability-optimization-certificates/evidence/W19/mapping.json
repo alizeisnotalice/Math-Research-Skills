@@ -1,0 +1,89 @@
+[
+  {
+    "problem_id": "A001",
+    "tool": "probability-optimization-certificates",
+    "role": "auxiliary",
+    "needed_lemma": "Exact finite LP/conic primal-dual bound, KKT/Slater qualification, Farkas infeasibility certificate, or rigorously enclosed numerical certificate used inside an analytic optimal-threshold argument.",
+    "source_local_ids": [
+      "M0345",
+      "M0349",
+      "M0359",
+      "S001",
+      "S002",
+      "S004",
+      "S013",
+      "S025",
+      "S026",
+      "S003",
+      "S007",
+      "S014",
+      "S015",
+      "S021",
+      "S027"
+    ],
+    "unproved_interface": "Finite optimization certificates do not by themselves prove compactness of the probability-law/strategy spaces, minimax exchange for the original model, threshold attainment, or uniform validity over distributions.",
+    "candidate_source_local_ids": [
+      "M0350"
+    ]
+  },
+  {
+    "problem_id": "A002",
+    "tool": "probability-optimization-certificates",
+    "role": "auxiliary",
+    "needed_lemma": "Validate a finite-horizon or finite-state LP/MIP dual bound and independently check rational/interval arithmetic in computed examples.",
+    "source_local_ids": [
+      "M0349",
+      "M0359",
+      "S001",
+      "S005",
+      "S006",
+      "S009",
+      "S010",
+      "S012",
+      "S025",
+      "S026",
+      "S014",
+      "S015"
+    ],
+    "unproved_interface": "A finite certificate does not establish the model-specific arrival-order convention, tie/atom handling, measurability of a policy, continuum feasibility, or passage from finite n to an asymptotic bound; these remain separate analysis obligations.",
+    "candidate_source_local_ids": [
+      "M0361"
+    ]
+  },
+  {
+    "problem_id": "A005",
+    "tool": "probability-optimization-certificates",
+    "role": "auxiliary",
+    "needed_lemma": "Check the finite optimization subproblem and distinguish weak duality from strong duality/attainment; use exact or interval certificates for numerical lower/upper bounds.",
+    "source_local_ids": [
+      "M0345",
+      "M0349",
+      "M0359",
+      "S003",
+      "S011",
+      "S013",
+      "S014",
+      "S017",
+      "S018",
+      "S019",
+      "S022",
+      "S023",
+      "S024",
+      "S025",
+      "S026",
+      "S007",
+      "S008",
+      "S010",
+      "S012",
+      "S015",
+      "S021",
+      "S027"
+    ],
+    "unproved_interface": "Relaxation bounds and solver outputs do not establish exactness of a moment/SOS/SDP relaxation, universal validity, or a limit interchange absent their individual hypotheses.",
+    "candidate_source_local_ids": [
+      "M0350",
+      "M0353",
+      "M0361"
+    ]
+  }
+]

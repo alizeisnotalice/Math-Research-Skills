@@ -1,0 +1,4 @@
+interface:
+  display_name: "MATLAB 论文绘图"
+  short_description: "调用本机 MATLAB 制作论文与数学建模图，检查并导出可编辑源码和高清图片"
+  default_prompt: "使用 $matlab-plotting 根据我的数据制作论文图，运行检查并交付源码与图片。"

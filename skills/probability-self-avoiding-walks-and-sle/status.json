@@ -1,0 +1,67 @@
+{
+  "worker": "W23-final-v1",
+  "skill": "probability-self-avoiding-walks-and-sle",
+  "scope_status": "complete_package_prepared_pending_independent_R03_final_scope_review",
+  "r03_mother_binding_status": "passed",
+  "r03_mother_accepted_source_count": 30,
+  "publication_approved": false,
+  "release_or_install_approved": false,
+  "source_count_target": [
+    30,
+    100
+  ],
+  "source_count": 30,
+  "unique_work_count": 30,
+  "fulltext_read_unique_works": 28,
+  "canonical_reuse_usage_credits": 2,
+  "reading_status_counts": {
+    "fulltext_read": 28,
+    "reuses_canonical": 2
+  },
+  "source_kind_counts": {
+    "paper": 28,
+    "preprint": 2
+  },
+  "complete_proceedings_chapter_contributions_read": 1,
+  "whole_monographs_read": 0,
+  "source_identity_note": "W23S006 is a complete single 73-page lecture-notes contribution published as a chapter in Clay Mathematics Proceedings 15 (pp.395–467), not a complete reading of that volume. It is counted once as a paper/proceedings contribution; no whole-monograph read is claimed.",
+  "canonical_reuse_ids": [
+    "W23S004",
+    "W23S005"
+  ],
+  "canonical_reuse_credit_basis": "The original W08 reads were accepted in R05; W23 usage cards were accepted separately by R03. W23 does not claim either as a new full-text read.",
+  "legacy_mother_status_snapshot": {
+    "path": "evidence/root/workers/W23/status.json",
+    "sha256": "039c5506c4290a35e98414cb205342b8e674e2df3cfaa619f2d32ec9d80dc385",
+    "historical_counts": {
+      "source_count": 19,
+      "pending_mother_bindings": 11,
+      "accepted_count": 19
+    },
+    "resolution": "The old status file is preserved byte-for-byte. Its 19 accepted/11 pending values describe the pre-final-mother-binding snapshot. The final R03 mother decision later passed all 30 source bindings, preserving the previous 28 and adding S029–S030. This is a status transition, not a change to the mother ledger."
+  },
+  "final_R03_review": "evidence/root/reviews/R03/w23_mirror_L07_B10/review.json",
+  "final_R03_review_sha256": "2414ac8601e35c3958bff53bdea31002266adca4fbc454a3f1def473cf84aca4",
+  "scope_review_status": "pending_R03_final_scope_review",
+  "review_files": "review-index.json",
+  "open_interfaces": [
+    "C107: no proof of tightness for the fixed-lattice SAW curve, discrete domain-Markov/conditioning interface, curve-topology convergence, or SLE(8/3) identification.",
+    "C108: Lacoin proves a deterministic root-independent limsup rate and a strict planar quenched/annealed gap; the almost-sure full nth-root limit and root independence for that limit remain unproved/conjectural in the cited source."
+  ],
+  "evidence_classes": {
+    "proof": "Only source theorems with matching model/hypotheses and verified proof dependencies.",
+    "conditional_method": "Reusable template explicitly conditioned on all source hypotheses and outstanding interfaces.",
+    "numerical": "Actual local MATLAB/Python outputs are finite algebra/count checks only, never asymptotic proof."
+  },
+  "integrity": "integrity_manifest.json; SHA-256 for each packaged file except the manifest itself, whose digest is integrity_manifest.sha256.",
+  "fulltext_read_kind_counts": {
+    "paper_kind_records": 26,
+    "preprint_records": 2
+  },
+  "fulltext_read_contribution_counts": {
+    "research_article_or_preprint": 27,
+    "proceedings_chapter_contribution": 1,
+    "whole_monograph": 0
+  },
+  "counting_note": "The 27 articles/preprints comprise 25 full-text paper-kind research papers plus two preprints; S006 is the 26th paper-kind full-text record but is reported separately as one complete proceedings-chapter contribution. Two additional paper-kind SLE works are canonical usages, not new reads. Thus 28 full-text reads + 2 canonical uses = 30 distinct accepted works."
+}

@@ -1,0 +1,41 @@
+{
+  "calculation": "exact Fraction arithmetic; finite two-stage example, p=1",
+  "state_metric": "d(x,y)=min(1,abs(x-y)) on R; path metric is sum of the two stage costs",
+  "laws": {
+    "mu_n": "1/2 delta_(0,0) + 1/2 delta_(1/n,2)",
+    "mu": "1/2 delta_(0,0) + 1/2 delta_(0,2)",
+    "ordinary_weak_convergence": "mu_n => mu by continuity of bounded continuous test functions at (1/n,2)->(0,2)"
+  },
+  "bicausal_constraint": "reverse causality forces X1 independent of Y2 because Y1 is constant; all four coupling cells are 1/4",
+  "adapted_W1_at_n_10": "11/20",
+  "adapted_W1_exact_checks_n_2_to_20": {
+    "2": "3/4",
+    "3": "2/3",
+    "4": "5/8",
+    "5": "3/5",
+    "6": "7/12",
+    "7": "4/7",
+    "8": "9/16",
+    "9": "5/9",
+    "10": "11/20",
+    "11": "6/11",
+    "12": "13/24",
+    "13": "7/13",
+    "14": "15/28",
+    "15": "8/15",
+    "16": "17/32",
+    "17": "9/17",
+    "18": "19/36",
+    "19": "10/19",
+    "20": "21/40"
+  },
+  "general_adapted_W1_formula": "1/2 + 1/(2n), hence not -> 0",
+  "stopping_rewards": "L1=1; L2(x1,x2)=min(2,max(0,x2)); bounded continuous and adapted",
+  "source_stopping_convention": "v_L(mu)=inf_{tau<=2} E_mu[L_tau] (cost/minimization), as defined in the source p. 6",
+  "source_inf_stopping_value_at_mu_n": "1/2",
+  "source_inf_stopping_value_at_mu": "1",
+  "alternative_sup_reward_convention": "sup_{tau<=2} E_mu[L_tau]; distinct from the source v_L convention",
+  "sup_reward_value_at_mu_n": "3/2",
+  "sup_reward_value_at_mu": "1",
+  "interpretation": "weak process-law convergence alone does not imply continuity of the source inf stopping value; the example is within finite horizon, not a model-specific queue theorem"
+}

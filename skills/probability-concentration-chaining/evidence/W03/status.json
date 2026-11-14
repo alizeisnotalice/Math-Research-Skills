@@ -1,0 +1,62 @@
+{
+  "worker": "W03",
+  "tool": "probability-concentration-chaining",
+  "as_of": "2026-11-14",
+  "status": "in_progress",
+  "review_status": "pending",
+  "source_records": 34,
+  "fulltext_downloaded_pdf_count": 32,
+  "downloaded_not_fulltext_read_count": 1,
+  "fulltext_read_count": 29,
+  "partial_read_count": 0,
+  "selected_chapters_read_count": 1,
+  "not_acquired_count": 2,
+  "candidate_quota_target": "29 documented full-text papers plus one complete selected chapter from the complete P031 textbook PDF (30 source records); P033 adds one complete selected unit from complete available course notes but is not a published book. All new reads remain pending R02 review; quota is not confirmed.",
+  "quota_confirmed": false,
+  "source_identity_verified_count": 32,
+  "cards_written_count": 31,
+  "mapping_records": 4,
+  "reading_queue": [
+    "P032 local scan remains incomplete (physical scan stops at printed p. 61; contents list later pages through p. 143), is not a complete-book acquisition, and is not counted.",
+    "P013 Massart and P014 Boucheron–Lugosi–Massart remain unavailable locally; D04 owns retrieval.",
+    "Submit this batch’s source cards and coverage for independent R02 review; keep all new evidence pending."
+  ],
+  "known_gaps": [
+    "Twenty-nine papers have full-text cards with section-coverage entries; P031 contributes one complete selected chapter from a full-book acquisition, and P033 contributes a complete selected unit from a complete available course-notes PDF (not a published book). All are pending review, so the 30-source quota is not confirmed.",
+    "P013/P014 have no local PDF; retrieval is routed to D04.",
+    "P032 is a scanned, incomplete 68-page local file (printed pages stop at 61 while the contents list later material through p. 143); it is not a complete book and cannot count as full-book acquisition. Selected reading is not eligible until complete acquisition.",
+    "Exact acquisition provenance for P032 and the Talagrand DVI remains incomplete; source identity is front-page checked but URL provenance is missing.",
+    "P003 Theorem 4.6 has a source-display versus Theorem 3.2 derivation discrepancy; card records the printed expression but does not certify it for use pending source follow-up.",
+    "P008 Theorem 2.2 statement was read, but its p. 4 proof contains a denominator mismatch (C1^2 versus C1 C2); exact proof chain is not certified as printed.",
+    "P027/P028 Corollary 2.2 literally prints an MDP scale using min{ε,δ} or min{γ,δ}; a checked Rademacher counterexample shows the printed condition does not imply the MDP conclusion. Cards preserve source statement and distinguish a derived sufficient max-condition.",
+    "P027 cites an external supplement for full smoothing details of Lemma 4.5; P028 places the detailed proof of its main Theorem 2.1 in a separate supplement not included/read here.",
+    "P030 provides proof outlines for several double-sum/limit steps by citing earlier work; use its conditions and result families with that proof-scope boundary.",
+    "P032 is an incomplete scanned book (printed pages stop at 61 while contents list later material through p. 143); it cannot count as complete-book acquisition or selected-book reading.",
+    "P015 is an author-hosted DVI conversion; its complete converted text was read, but provenance/version comparison with the final journal version remains a limitation.",
+    "P033 is a complete available Hamburg course-notes PDF, not a published book; only its selected §2 unit is read and it is not counted as the book unit.",
+    "All W03 sources, mappings, and cards, including this batch, await independent review; quota remains unconfirmed until accepted evidence is recorded."
+  ],
+  "next_batch_priority": [
+    "Await R02 review of the current batch; keep all records pending until accepted.",
+    "P032 is a partial scan and remains ineligible as a complete book unit.",
+    "P013 and P014 remain retrieval gaps assigned to D04."
+  ],
+  "download_handoff": "P013 and P014; route additional retrieval through D04 (W01–W04).",
+  "selected_sections_read_count": 1,
+  "last_reading_batch": {
+    "fulltext_read_ids": [
+      "P015",
+      "P034",
+      "P035"
+    ],
+    "count": 5,
+    "selected_chapter_ids": [
+      "P031"
+    ],
+    "selected_section_ids": [
+      "P033"
+    ],
+    "newly_read_pdf_pages": 164,
+    "status": "three complete papers plus one complete textbook chapter and one complete course-notes section documented; all new entries pending independent review"
+  }
+}

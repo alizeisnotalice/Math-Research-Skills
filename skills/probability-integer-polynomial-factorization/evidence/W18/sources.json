@@ -1,0 +1,4412 @@
+[
+  {
+    "local_id": "M0149",
+    "title": "Progress on the unfair 0-1-polynomials conjecture using linear recurrences and numerical analysis",
+    "authors": [
+      "Luca Ghidelli"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": "10.21203/rs.3.rs-2112506/v1",
+    "url": "https://doi.org/10.21203/rs.3.rs-2112506/v1",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2209.09843"
+    ],
+    "version": "arXiv:2209.09843v1; Research Square version posted 2022-09-30; 46-page PDF.",
+    "reason": "Theorem 1.2/1.3 and proof for the single factor x^5+a x^2+1 (0<a<1); supports a narrow unfair-polynomial family only.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "0240cf09cb3556f70463022a903886ff5854530d4ea87c99c06c2fb5dcb7c3b9",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Theorem 1.2/1.3 and proof for the single factor x^5+a x^2+1 (0<a<1); supports a narrow unfair-polynomial family only."
+    },
+    "note": "Full physical PDF pp.1–46 were read. The x^5+a x^2+1 factor is distinct from the auxiliary characteristic polynomial x^5+a x^3+1. PARI/GP resultant computations are reported by the authors and were not independently rerun; numerical claims are not independently certified. Keep the bounded factor family and review status explicit.",
+    "section_coverage": [
+      {
+        "section": "Front matter and §1 introduction/results",
+        "physical_pdf_pages": [
+          1,
+          6
+        ],
+        "summary": "Identifies the unfair 0–1 polynomial problem; states Theorems 1.2–1.3 for the factor x^5+a x^2+1 and the first-zero coefficient bound."
+      },
+      {
+        "section": "§2 recurrence and finite resultant computation",
+        "physical_pdf_pages": [
+          7,
+          17
+        ],
+        "summary": "Derives c_n=b_n+a b_{n-2}+b_{n-5}; recursively forces coefficients and reports a PARI/GP resultant check through n=10,000."
+      },
+      {
+        "section": "§§2.4–3 explicit recurrence and large-a root estimates",
+        "physical_pdf_pages": [
+          18,
+          23
+        ],
+        "summary": "Solves the recurrence using roots of the distinct auxiliary polynomial x^5+a x^3+1 and bounds modal contributions when a≥0.005."
+      },
+      {
+        "section": "§4 small-a estimates and terminal coefficient",
+        "physical_pdf_pages": [
+          24,
+          36
+        ],
+        "summary": "Taylor/root-of-unity estimates around the first zero N lead to the negative coefficient b_{N+8}."
+      },
+      {
+        "section": "§5 root continuation and Taylor estimates",
+        "physical_pdf_pages": [
+          37,
+          44
+        ],
+        "summary": "Establishes root regularity/monotonicity and quantitative Taylor remainders used in the small-a argument."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          45,
+          46
+        ],
+        "summary": "Bibliography and end matter."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0149.pdf",
+    "card_path": "evidence/W18/cards/M0149.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0150",
+    "title": "Computational Progress on the Unfair 0-1 Polynomial Conjecture",
+    "authors": [
+      "Kevin G. Hare"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.1080/10586458.2025.2527786",
+    "url": "https://doi.org/10.1080/10586458.2025.2527786",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2307.07363"
+    ],
+    "version": "arXiv:2307.07363v1 (2023); published online in Experimental Mathematics 2025, DOI 10.1080/10586458.2025.2527786",
+    "reason": "独立整数随机变量的均匀和与均匀因子：抽取定义、关键引理、证明机制及可迁移步骤",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "326e6982da29388c2d084ad2243b91a38623f8548859da4fe11ba3354145f13c",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Full computational paper; exact coefficient propagation, recursive branching, Groebner/QE method, finite degree-15 results, and epsilon-relaxation boundary."
+    },
+    "note": "D02 handoff: PDF page count/hash and first-page title/author identity checked; downloaded_not_fulltext_read by D02. Reader status below reflects only this W18 reading pass. Entire 14-page arXiv v1 text read. D02 copied the arXiv preprint; published 2025 article metadata is separate.",
+    "section_coverage": [
+      {
+        "section": "Front matter, §1, and Theorem 1.1",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Problem setup and equivalent finite-support convolution formulation; reciprocal-factor symmetry result and algorithm overview."
+      },
+      {
+        "section": "§2 trinary propagation",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Encode cofactor coefficients by 0/1/undecided and propagate diagonal multiplication constraints."
+      },
+      {
+        "section": "§3 recursive branching",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "summary": "Branch on unresolved cofactor coefficients and recursively prune candidate supports."
+      },
+      {
+        "section": "§4 Gröbner and real quantifier elimination",
+        "physical_pdf_pages": [
+          6,
+          9
+        ],
+        "summary": "Add polynomial identities/strict inequalities and reject infeasible factor branches algebraically."
+      },
+      {
+        "section": "§5 finite computational results",
+        "physical_pdf_pages": [
+          9,
+          11
+        ],
+        "summary": "Enumerate degree-15 candidate factors; record the reported counts, unresolved cases, cofactor-degree cap, and runtime cap."
+      },
+      {
+        "section": "§6 epsilon relaxation",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "summary": "Construct relaxed factors with coefficients in [-epsilon,1+epsilon], including negative coefficients; this is outside the nonnegative-factor conjecture."
+      },
+      {
+        "section": "Conclusion and references",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "summary": "Summarize finite scope and references."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0150.pdf",
+    "card_path": "evidence/W18/cards/M0150.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0151",
+    "title": "The Unfair 0-1 Polynomial Problem and High-Degree Trinomials",
+    "authors": [
+      "Dvorsky, Alexander"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2608.19173",
+    "url": "https://arxiv.org/abs/2608.19173",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2608.19173v2"
+    ],
+    "version": "arXiv:2608.19173v2, revised 2026-09-01; 53-page PDF.",
+    "reason": "High-degree trinomial factor theorem for 1+a x^2+x^k, with k≥341 proved here; bounded odd cases rely on a companion manuscript.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "7390a9720609c1263ed89b01c2e392d4e7e3f33b7f6a940455723e92cf23a268",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "High-degree trinomial factor theorem for 1+a x^2+x^k, with k≥341 proved here; bounded odd cases rely on a companion manuscript."
+    },
+    "note": "Full physical PDF pp.1–53 of arXiv v2 read. Theorem 1.2 is formally stated for every integer k>=341; Lemma 1.3 handles even exponents, and the substantive analytic proof body assumes odd k. Odd k=7,…,339 in Theorem 1.1 are imported from the companion manuscript. Author-reported interval/numerical certificates were not independently rerun. Review pending.",
+    "section_coverage": [
+      {
+        "section": "Front matter and §1 statements/proof outline",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Theorem 1.1 covers k>=7; Theorem 1.2 is formally stated for every integer k>=341. Lemma 1.3 disposes of even k, so the analytic proof body treats odd k; bounded odd cases 7–339 are imported."
+      },
+      {
+        "section": "§2 forced recurrence and first-zero reduction",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Reduces the problem to first-zero anchor constraints and a<=1/2."
+      },
+      {
+        "section": "§3 exact packet decomposition",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "summary": "Represents the recurrence coefficients by truncated negative-binomial packets and proves exact strict log-concavity."
+      },
+      {
+        "section": "§4 compact packet range",
+        "physical_pdf_pages": [
+          10,
+          12
+        ],
+        "summary": "Proves compact-range boundary and amplitude estimates."
+      },
+      {
+        "section": "§5 single-translate estimates and dominant-image coordinates",
+        "physical_pdf_pages": [
+          13,
+          20
+        ],
+        "summary": "Controls modal centers, adjacent packet ratios, strong curvature and pre-zero coefficient bounds."
+      },
+      {
+        "section": "§6 sparse spectral bootstrap",
+        "physical_pdf_pages": [
+          21,
+          23
+        ],
+        "summary": "Extracts a growing characteristic-root mode by interpolation."
+      },
+      {
+        "section": "§7 multiple translates and theta kernel",
+        "physical_pdf_pages": [
+          24,
+          43
+        ],
+        "summary": "Proves antiperiodic periodization, kernel curvature/local limit, cyclic-profile transfer and anchor bounds."
+      },
+      {
+        "section": "§8 pre-zero coefficient bounds",
+        "physical_pdf_pages": [
+          44,
+          44
+        ],
+        "summary": "States Theorem 8.1."
+      },
+      {
+        "section": "§9 continuation and §10 terminal contradiction",
+        "physical_pdf_pages": [
+          44,
+          46
+        ],
+        "summary": "§9 begins at the foot of p.44 and continues on p.45; §10 begins on p.45, and the proof of Theorem 1.2 closes on p.46."
+      },
+      {
+        "section": "§11 conclusion and Appendix A",
+        "physical_pdf_pages": [
+          46,
+          47
+        ],
+        "summary": "Concluding remarks and compact-range error calculations."
+      },
+      {
+        "section": "Appendix B",
+        "physical_pdf_pages": [
+          48,
+          52
+        ],
+        "summary": "Detailed endpoint and scalar error estimates."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          53,
+          53
+        ],
+        "summary": "Bibliography."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0151.pdf",
+    "card_path": "evidence/W18/cards/M0151.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0153",
+    "title": "On the factorization of certain probability distributions",
+    "authors": [
+      "Harald Cramér"
+    ],
+    "year": 1949,
+    "kind": "paper",
+    "doi": "10.1007/BF02590468",
+    "url": "https://doi.org/10.1007/bf02590468",
+    "alternate_urls": [],
+    "version": "Published Arkiv för Matematik 1(1) (1949), pp. 61–65; complete 5-physical-page institutional-archive scan. Read local PDF pages map to printed pp. 61–65.",
+    "reason": "Historical boundary source on real-line convolution and infinite divisibility; its theorem does not cover finite-support integer laws or nonnegative 0–1 polynomial factors.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "be1237acfae4fc5fc20d27425ba18d616bfa98d3211075bc867cb06b035f1214",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Historical terminology and boundary only: distinguishes real-line infinite divisibility from finite-support integer convolution. Exclude from A175 qualifying-source count."
+    },
+    "note": "The unnumbered §3 theorem is at physical p. 3 / printed p. 63 and assumes M'(x)>k almost everywhere on an interval adjacent to zero; no integer-support consequence is stated. Helper R06 review passed for identity/read/card/coverage; mother path/hash binding is pending. Explicitly excluded from A175 source quota despite the full-text read.",
+    "section_coverage": [
+      {
+        "section": "§1 Convolution and factorization definitions",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Defines real-line distribution functions, characteristic functions, convolution/composition, unit divisors, and decomposable versus indecomposable laws.",
+        "printed_pages": [
+          61,
+          61
+        ]
+      },
+      {
+        "section": "§1 continued; §2 Infinite divisibility",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "summary": "Completes convolution-factor definitions; states the Lévy–Khintchine representation, its hypotheses and uniqueness, and examples of ID laws.",
+        "printed_pages": [
+          62,
+          62
+        ]
+      },
+      {
+        "section": "§2 continued; §3 Main theorem and factor split",
+        "physical_pdf_pages": [
+          3,
+          3
+        ],
+        "summary": "States the unnumbered theorem with M'(x)>k a.e. on one one-sided interval; reduces to (0,c), chooses an ID divisor and defines a1,a2.",
+        "printed_pages": [
+          63,
+          63
+        ]
+      },
+      {
+        "section": "§3 Proof; §4 consequence and references",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Constructs the non-ID probability divisor through convolution-power positivity and contradicts nonnegative Lévy measure; invokes Khintchine for an infinite sequence of indecomposable divisors; reads all references and imprint.",
+        "printed_pages": [
+          64,
+          65
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0153.pdf",
+    "card_path": "evidence/W18/cards/M0153.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": false,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0155",
+    "title": "Tiling the Integers with Translates of One Finite Set",
+    "authors": [
+      "Ethan M. Coven",
+      "Aaron Meyerowitz"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": "10.1006/jabr.1998.7628",
+    "url": "https://doi.org/10.1006/jabr.1998.7628",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/9802122v1"
+    ],
+    "version": "Read complete arXiv:math/9802122v1 manuscript dated 27 Feb 1998, 12 physical pages; published in Journal of Algebra (1999), DOI 10.1006/jabr.1998.7628. No line-by-line journal-version equivalence claim.",
+    "reason": "Cyclotomic mask-polynomial criteria for unique additive tilings by finite integer sets; a structural bridge for special 0–1 support cases, not an arbitrary probability-factor theorem.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "81dd11ac4b4de68f58ac90069fa301f66730f18980cd000544d16fe39689f133",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Use the T1/T2 cyclotomic characterization only for finite-set tilings and mask polynomials; Theorem B2 proves T2 necessity only under the stated at-most-two-prime-factor cardinality condition."
+    },
+    "note": "Theorem A proves T1+T2 sufficient for every finite set; B1 proves T1 necessary generally; the source leaves general necessity of T2 open.; D04 linked the already-held D02 PDF; this batch did not download another copy. Helper R06 review passed for identity/read/card/coverage; mother path/hash binding is pending. This is conditionally quota-eligible for the A175 method scope only.",
+    "section_coverage": [
+      {
+        "section": "Title, abstract, §1 introduction",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Identifies the arXiv v1; introduces finite-set tiling and the Coven–Meyerowitz questions.",
+        "printed_pages": [
+          1,
+          1
+        ]
+      },
+      {
+        "section": "Main Theorems A/B1/B2 and §1 preliminaries",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "summary": "States sufficient T1+T2, necessary T1, restricted necessity of T2, the at-most-two-prime-factor corollary, and begins mask/cyclotomic notation.",
+        "printed_pages": [
+          2,
+          2
+        ]
+      },
+      {
+        "section": "§1 Preliminaries; start of §2 Tiling results",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Reads cyclotomic identities, periodicity and polynomial/residue tiling equivalences (Lemmas 1.1–1.4); gives T1/T2 definitions and Theorem A statement.",
+        "printed_pages": [
+          3,
+          4
+        ]
+      },
+      {
+        "section": "§2 Proofs of Theorems A, B1, B2",
+        "physical_pdf_pages": [
+          5,
+          7
+        ],
+        "summary": "Reads complement construction, factor-count proof of T1, and the restricted T2 necessity induction through periodicity, the Sands prime-divisor alternative, residue fibers, and Lemma 2.5.",
+        "printed_pages": [
+          5,
+          7
+        ]
+      },
+      {
+        "section": "§3 Alternate proofs of Tijdeman's and Sands' theorems",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Reads Lemmas 3.1–3.3 and alternate cyclotomic/divisibility proofs; does not treat these as unrestricted probability-factor results.",
+        "printed_pages": [
+          8,
+          9
+        ]
+      },
+      {
+        "section": "§4 Structure theory",
+        "physical_pdf_pages": [
+          10,
+          11
+        ],
+        "summary": "Reads recursive descriptions of finite tiles with at most two prime factors in S_A, including one-/two-prime cases and the de Bruijn example.",
+        "printed_pages": [
+          10,
+          11
+        ]
+      },
+      {
+        "section": "§4 conclusion, references and affiliations",
+        "physical_pdf_pages": [
+          12,
+          12
+        ],
+        "summary": "Reads the final example, full references, and both author addresses to the final physical page.",
+        "printed_pages": [
+          12,
+          12
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0155.pdf",
+    "card_path": "evidence/W18/cards/M0155.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0156",
+    "title": "Über das Fälschen von Würfeln",
+    "authors": [
+      "Ehrhard Behrends"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": "10.1007/s000170050051",
+    "url": "https://doi.org/10.1007/s000170050051",
+    "alternate_urls": [],
+    "version": "Published Elemente der Mathematik 54 (1999), 15–29; complete 15-physical-page PDF.",
+    "reason": "Direct probability-generating-polynomial source for interval-uniform convolution, unique additive factor supports, and equal-degree fair-dice square factorizations.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "b3a44cf282c139d9c2399c031b9c138408ba70a760a5515bd8e61f71e08e786e",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Direct fair-dice probability-generating-polynomial result for full-interval uniform targets; the classification and fair-square theorem retain interval/equal-degree assumptions."
+    },
+    "note": "Existing seed PDF first page checked against title/author; SHA-256 computed in this pass. Do not infer more than local identity. Existing seed375 PDF copied and revalidated for L10; not counted as a new network download. D02 acquisition did not include body reading; the L06 batch later read the complete source. D02-B5 identity/path import only: verified; Extracted first and final page text. First page identifies Ehrhard Behrends, title, Elemente der Mathematik 54 (1999), pp. 15–29; physical final page is printed p. 29 and ends in references. Physical pages: 15; SHA-256 verified. Download/revalidation metadata is imported, but this worker turn did not read the paper body; reading_status was later promoted after complete L06 full-text reading; review remains pending. Existing seed copy was revalidated; the fair-dice result does not settle the general 0–1 polynomial conjecture. L06 full-text evidence: physical pp.1–15 read; see canonical card and integrated coverage. Review pending.",
+    "section_coverage": [
+      {
+        "section": "Introduction and Problem statements",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Sets the finite-interval die model, independent-sum convolution, uniform full-interval target, and squared fair-dice target; Problem 2's printed p.16 range is PDF physical p.2.",
+        "printed_pages": [
+          15,
+          16
+        ]
+      },
+      {
+        "section": "§2 Polynomial/additive reformulation",
+        "physical_pdf_pages": [
+          3,
+          5
+        ],
+        "summary": "Probability generating functions; roots of unity; Lemma 2.1 palindromicity and 0–1 coefficient proof; conversion to unique additive representations.",
+        "printed_pages": [
+          17,
+          19
+        ]
+      },
+      {
+        "section": "§3 Uniform distribution simulation",
+        "physical_pdf_pages": [
+          5,
+          9
+        ],
+        "summary": "Mixed-radix construction; Lemmas 3.2–3.3 and induction prove the unique canonical classification in Theorem 3.1.",
+        "printed_pages": [
+          19,
+          23
+        ]
+      },
+      {
+        "section": "§4 Simulation of a sum of two fair dice",
+        "physical_pdf_pages": [
+          10,
+          13
+        ],
+        "summary": "Quadratic root-pair perturbation, coefficient recurrence and bound, Theorem 4.2 including finite exceptional cases.",
+        "printed_pages": [
+          24,
+          27
+        ]
+      },
+      {
+        "section": "§5 Additions and questions",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "summary": "Extensions to r dice and other target laws, computational observations, and remaining questions.",
+        "printed_pages": [
+          27,
+          28
+        ]
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          15,
+          15
+        ],
+        "summary": "Bibliography read to end; separately lists Raikov and Krasner–Ranulac.",
+        "printed_pages": [
+          29,
+          29
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0156.pdf",
+    "card_path": "evidence/W18/cards/M0156.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0157",
+    "title": "Translational Tilings of the Integers with Long Periods",
+    "authors": [
+      "Mihail N. Kolountzakis"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.37236/1715",
+    "url": "https://doi.org/10.37236/1715",
+    "alternate_urls": [],
+    "version": "Published Electronic Journal of Combinatorics 10 (2003), R22; complete 9-physical-page PDF.",
+    "reason": "Auxiliary structure and period bounds for unique set tilings of Z and finite cyclic groups; not a real probability-factor theorem.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "e4a3b2c7d3a8efef7dc6e6e694f437a43c4530fe7b7609b4babc1140717363d0",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Auxiliary long-period bounds for translational tilings of integers/cyclic groups; no probability-polynomial factor theorem."
+    },
+    "note": "Existing seed PDF first page checked against title/author; SHA-256 computed in this pass. Do not infer more than local identity. Existing seed375 PDF copied and revalidated for L10; not counted as a new network download. D02 acquisition did not include body reading; the L06 batch later read the complete source. D02-B5 identity/path import only: verified; Extracted first and final pages. First page verifies title, Mihail N. Kolountzakis, submission/acceptance/publication dates; final physical page continues theorem proof. The 9-page file matches the complete EJC article. Physical pages: 9; SHA-256 verified. Download/revalidation metadata is imported, but this worker turn did not read the paper body; reading_status was later promoted after complete L06 full-text reading; review remains pending. L06 full-text evidence: physical pp.1–9 read; see canonical card and integrated coverage. Review pending.",
+    "section_coverage": [
+      {
+        "section": "Abstract, introduction and Theorems 1–3",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Defines least tiling period T(D); states quadratic lower and exp(c sqrt(D) log D sqrt(loglog D)) upper bounds and supporting results.",
+        "printed_pages": [
+          1,
+          3
+        ]
+      },
+      {
+        "section": "Remarks, Lemma 1, Theorem 4 statement",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Connects least-period tilings with nonperiodic finite-cycle tilings and states the interval periodicity theorem.",
+        "printed_pages": [
+          3,
+          4
+        ]
+      },
+      {
+        "section": "Proof of Theorem 2",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "summary": "Constructs CRT-coordinate 3-by-5 tile, perturbs layers, checks nonperiodicity, maps the tile into bounded diameter and obtains cD².",
+        "printed_pages": [
+          4,
+          6
+        ]
+      },
+      {
+        "section": "Proof of Theorem 3",
+        "physical_pdf_pages": [
+          6,
+          8
+        ],
+        "summary": "Totient estimate controls the distinct cyclotomic-divisor indices and builds t whose cyclotomic factors include those of A. Source pp.7–8 contain a coefficient-reciprocal error in the displayed exact sum bound; the card separates that fault from a valid generic-constant argument recovering the stated exponent.",
+        "printed_pages": [
+          6,
+          8
+        ]
+      },
+      {
+        "section": "Proof of Theorem 4, corollary, acknowledgments and references",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Uses Long's factor replacement and minimal-counterexample descent to prove periodicity; bibliography read through the last page.",
+        "printed_pages": [
+          8,
+          9
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0157.pdf",
+    "card_path": "evidence/W18/cards/M0157.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0158",
+    "title": "Nonnegative polynomials and sums of squares",
+    "authors": [
+      "Grigoriy Blekherman"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1090/S0894-0347-2012-00733-4",
+    "url": "https://arxiv.org/abs/1010.3465v2",
+    "alternate_urls": [
+      "https://doi.org/10.1090/S0894-0347-2012-00733-4",
+      "https://www.ams.org/jams/2012-25-03/S0894-0347-2012-00733-4/S0894-0347-2012-00733-4.pdf"
+    ],
+    "version": "Complete arXiv:1010.3465v2 author manuscript, revised 2012-02-08, 17 physical pages. ArXiv record says substantially revised presentation and accepted in JAMS; JAMS 25(3) (2012), 617–635. No publisher-text or pagination equivalence is claimed.",
+    "reason": "Auxiliary/cautionary real-algebraic-geometry results distinguishing global pointwise nonnegativity from sums of squares in fixed ternary-sextic/quaternary-quartic classes. It supplies no theorem for coefficientwise-nonnegative probability factors or A175 convolution factorizations.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "31a85b66ddebd0e3609156fc7f5de9deb4b21416b118aed5c6f94bda1517406b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Auxiliary/cautionary real-algebraic-geometry results distinguishing global pointwise nonnegativity from sums of squares in fixed ternary-sextic/quaternary-quartic classes. It supplies no theorem for coefficientwise-nonnegative probability factors or A175 convolution factorizations."
+    },
+    "note": "This is the distinct work Nonnegative polynomials and sums of squares, arXiv:1010.3465v2; it is not the canonical-read-index entry Symmetric nonnegative forms and sums of squares, arXiv:1205.3102v4. D01 acquisition manifest confirms complete 17-page PDF and same SHA256; D01 verified identity only and did not read the body. Physical p. 4 Lemma 2.1 dual identity was visually confirmed with both stars. Theorem 7.1 p. 15 printed display and p. 16 proof contain apparent typographical inconsistencies; the card records the proof-supported calculation and does not label the theorem false. Real-algebraic cone statements are kept distinct from coefficientwise nonnegativity and finite-support convolution. R05 reviewed helper source/card/PDF/coverage; mother source/path binding is pending independent R06 audit. The full original arXiv v2 was read and R05 accepted identity/coverage, but the source is cautionary only and does not qualify for the A175 tool-source quota.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and §1.1 Main Results",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Defines global pointwise psd forms and SOS cones; specifies only cases (3,6) and (4,4); reads Theorems 1.1, 1.2, Corollaries 1.3–1.4, evaluation-image Theorem 1.5, dual rank theorems 1.6–1.7, and the proof roadmap."
+      },
+      {
+        "section": "§2 Dual Cones",
+        "physical_pdf_pages": [
+          4,
+          8
+        ],
+        "summary": "Lemma 2.1 is the dual identity Σ*_{n,2d}=S+_{n,d}∩H*_{n,2d}; both stars were confirmed visually on physical p. 4. Extreme-section maximal-kernel lemma; rank-one evaluation characterization; parameter sequence/Gorenstein socle; kernel bilinear-form identity; rank result; Bertini transverse selection; unique Cayley–Bacharach relation."
+      },
+      {
+        "section": "§3 Cones of Point Evaluations",
+        "physical_pdf_pages": [
+          8,
+          11
+        ],
+        "summary": "Evaluation images for psd and SOS forms; Theorem 3.1 adds a large sum of squares vanishing at the finite zero set to realize strictly positive evaluation vectors; Corollary 3.2 applies to 9- and 8-point intersections; Lemma 3.3 proves convexity/boundary-hull structure of T_m; Theorem 3.4 gives exact SOS image, followed by weighted Corollary 3.5."
+      },
+      {
+        "section": "§4 Structure of Extreme Rays and §4.1 Number of Complex Points",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "summary": "Cayley–Bacharach coefficients determine evaluation weights; PSD evaluation-rank argument limits complex pairs; Corollary 4.4 obtains at most one pair for non-evaluation extreme rays in the stated cases."
+      },
+      {
+        "section": "§5 Proofs of Main Theorems",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "summary": "Separating extreme ray, kernel dimension/rank, transverse intersection, at-most-one-complex-pair conclusion, weighted evaluation certificate; proof of the strictly-positive boundary square-count corollaries."
+      },
+      {
+        "section": "§6 Fully Real Intersection",
+        "physical_pdf_pages": [
+          14,
+          15
+        ],
+        "summary": "Theorem 6.1 represents extreme dual rays by diagonal evaluation forms with exactly one negative coefficient satisfying sum u_i^2/a_i=0; Proposition 6.2 proves the classification by restricting to the Cayley–Bacharach hyperplane and a Lagrange-multiplier boundary calculation."
+      },
+      {
+        "section": "§7 One Complex Pair",
+        "physical_pdf_pages": [
+          15,
+          16
+        ],
+        "summary": "Theorem 7.1 printed display on p. 15 omits f from Re/Im and omits the mixed term, inconsistent with the p. 16 proof using b=m+it. The proof-supported complex term is 2m((Re f(z))^2−(Im f(z))^2)−4t Re f(z)Im f(z); with x=2Re f(z), y=2Im f(z), it is (m/2)(x^2−y^2)−txy. Square completion yields [(m^2+t^2)/(2m)]x^2−(tx+my)^2/(2m), m<0. The p. 16 Q' line drops a factor 2, while the following relation and final constraint use the proof-supported coefficient. These appear to be original typographical inconsistencies, not grounds to declare the whole theorem false. Conjecture 7.3 is explicitly open."
+      },
+      {
+        "section": "Acknowledgments and References",
+        "physical_pdf_pages": [
+          17,
+          17
+        ],
+        "summary": "Acknowledgment, all 17 references, author address/contact; terminal page visually checked."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0158.pdf",
+    "card_path": "evidence/W18/cards/M0158.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": false,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0159",
+    "title": "The symbolic dynamics of tiling the integers",
+    "authors": [
+      "Ethan M. Coven",
+      "William Geller",
+      "Sylvia Silberger",
+      "William Thurston"
+    ],
+    "year": 2002,
+    "kind": "paper",
+    "doi": "10.1007/BF02764069",
+    "url": "https://doi.org/10.1007/BF02764069",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/9810024"
+    ],
+    "version": "Read complete arXiv math/9810024v1 dated 5 October 1998 (6 physical pages); distinct published Israel Journal of Mathematics 130 (2002), 21–27 record, one work counted.",
+    "reason": "Auxiliary symbolic-dynamics results about tiling systems by finite integer sets; no probability convolution claim.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "c4d8c52322189eb75c73b5070c6059241a134c011e548ad31e89346a36d0d69d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Auxiliary symbolic-dynamics structure for integer tiling systems; no direct independent-sum convolution conclusion."
+    },
+    "note": "Seed candidate retained; this turn did not independently verify full metadata/title page or read the text. Preprint and journal article are one work; no second version counted. D02 acquisition did not include body reading; the L06 batch later read the complete source. D02-B5 identity/path import only: verified; Extracted first and final physical pages. First page verifies arXiv identifier/version, title, four authors and abstract; final page gives the remaining author affiliations. Six pages are continuous and complete. Physical pages: 6; SHA-256 verified. Download/revalidation metadata is imported, but this worker turn did not read the paper body; reading_status was later promoted after complete L06 full-text reading; review remains pending. This is arXiv:math/9810024v1, one preprint version of the DOI-linked article; counted once. L06 full-text evidence: physical pp.1–6 read; see canonical card and integrated coverage. Review pending.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction; beginning of §2",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Defines finite prototiles and color-sequence tiling systems; states the main theorem and sets up subscripted tilings."
+      },
+      {
+        "section": "§2 Tiling systems are sofic",
+        "physical_pdf_pages": [
+          2,
+          3
+        ],
+        "summary": "Length-L local criterion proves subscripted tiling systems are SFT; dropping labels is a factor map; examples and periodic-point restriction."
+      },
+      {
+        "section": "§3 The main theorem",
+        "physical_pdf_pages": [
+          3,
+          5
+        ],
+        "summary": "Factoradic expansion of entries of A^(13n), rack/barbell construction and factorially many fillings realize the edge shift; gives cyclic decomposition and conjugacy. Corollary wording on p.2 is 'logarithms of roots of Perron numbers'."
+      },
+      {
+        "section": "References and affiliations",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Bibliography and author information read through final physical page."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0159.pdf",
+    "card_path": "evidence/W18/cards/M0159.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "M0161",
+    "title": "Spectra of certain types of polynomials and tiling of integers with translates of finite sets",
+    "authors": [
+      "Sergei Konyagin",
+      "Izabella Łaba"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1016/j.jnt.2003.06.006",
+    "url": "https://doi.org/10.1016/j.jnt.2003.06.006",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/0209204"
+    ],
+    "version": "Read complete 14-page author manuscript whose margin carries the arXiv:math/0209204v1 stamp dated 16 September 2002, but title page is dated November 14, 2018; exact relation to arXiv v1 bytes unresolved. JNT 103(2) (2003), 267–280 is the DOI-linked publication; no version-equivalence claim.",
+    "reason": "Cyclotomic divisibility and exact characterization for irreducible polynomials and products of arithmetic-progression mask factors; auxiliary to arbitrary probability factors.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "c3f634a823c249366883ae8050736a1d56af5620acf1c541572d9001632fc192",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Auxiliary cyclotomic spectra and finite-set tiling theorems under specific product-of-progression hypotheses; not arbitrary nonnegative probability factors."
+    },
+    "note": "Seed candidate retained; this turn did not independently verify full metadata/title page or read the text. This is the arXiv version of the DOI-linked published work; counted once. D02 acquisition did not include body reading; the L06 batch later read the complete source. D02-B5 identity/path import only: work_identity_verified_preprint_version; Extracted first and final physical pages. First page verifies arXiv identifier/version, exact title and authors; final page contains references and author affiliations. Fourteen pages are continuous and complete. Physical pages: 14; SHA-256 verified. Download/revalidation metadata is imported, but this worker turn did not read the paper body; reading_status was later promoted after complete L06 full-text reading; review remains pending. This is the arXiv author preprint of the DOI-linked Journal of Number Theory work; counted once. L06 full-text evidence: physical pp.1–14 read; see canonical card and integrated coverage. Review pending.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and Theorems 1.4–1.6; start §2",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Defines N-spectrum, T/S and T1/T2; states irreducible and arithmetic-progression product results. Rendered pp.1–2 to verify exponent p^(alpha−1) and observe title-page date 2018 despite the arXiv-v1 margin stamp 2002."
+      },
+      {
+        "section": "§2 Preliminaries",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Finite periodic complement, cyclotomic factorization, Granville period lemma and spectrum-support bound."
+      },
+      {
+        "section": "§3 Proof of Theorem 1.4",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Irreducible case: T1 forces a prime-power cyclotomic polynomial; spectral orthogonality, Galois averaging and Newton identities force equal gaps."
+      },
+      {
+        "section": "§4 Proof of Theorem 1.6",
+        "physical_pdf_pages": [
+          6,
+          10
+        ],
+        "summary": "Lifts to a box tiling in Z^N; kernel lattice plus Keller cube theorem yields divisibility ordering; cyclotomic valuation argument proves T1/T2."
+      },
+      {
+        "section": "§5 Proof of Theorem 1.5",
+        "physical_pdf_pages": [
+          10,
+          12
+        ],
+        "summary": "Two progression factors; spectral roots partition by residues and force one of the two explicit divisibility alternatives."
+      },
+      {
+        "section": "Acknowledgment, references and affiliations",
+        "physical_pdf_pages": [
+          12,
+          14
+        ],
+        "summary": "Full reference list and author addresses read to the last page."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/M0161.pdf",
+    "card_path": "evidence/W18/cards/M0161.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-X001",
+    "title": "A proof of Hare's ε unfair conjecture",
+    "authors": [
+      "Tho Nguyen Xuan",
+      "Duc Hiep Pham",
+      "Huong Pham Lan"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2609.09215",
+    "url": "https://arxiv.org/abs/2609.09215",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2609.09215v1"
+    ],
+    "version": "arXiv:2609.09215v1, submitted 2026-09-06",
+    "reason": "Full proof of the epsilon-relaxation conjecture for coefficient bounds [−ε,1+ε]; its factors can have negative coefficients, so this is a boundary source and not a solution of A175.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "4921cdb325b53869f82a637aa53f775f2b276a00b6c9bdcf63304ba1d4ec93da",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Full proof of the epsilon-relaxation construction; record the negative x coefficient and keep relaxed signed factors distinct from nonnegative A175 factors."
+    },
+    "note": "D02 first-page identity/page count/hash checked. Full 9-page text read in this pass. Coefficient of x in B_n is −t_n<0; theorem establishes ε-unfair examples, not an unfair nonnegative factorization.",
+    "section_coverage": [
+      {
+        "section": "Front matter, §1, and Conjectures 1–3",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Original nonnegative-factor conjecture, equivalent convolution form, and epsilon-relaxed conjecture."
+      },
+      {
+        "section": "Theorems 4–5 and construction setup",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "summary": "State the 0–1 polynomial C_n, quadratic factor A_n, negative quotient x-coefficient, and relaxed existence conclusion."
+      },
+      {
+        "section": "§2 root choice and parameter bounds",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "summary": "Reduce divisibility to a trigonometric equation; locate theta_* and bound t_n."
+      },
+      {
+        "section": "§2 quotient coefficients and Theorem 4",
+        "physical_pdf_pages": [
+          4,
+          7
+        ],
+        "summary": "Derive the finite sine-sum coefficient formula, prove divisibility, and bound all factor coefficients."
+      },
+      {
+        "section": "Theorem 5 proof and end matter",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "Choose n for each epsilon and prove the logarithmic exponent limit; closing material/references."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-X001.pdf",
+    "card_path": "evidence/W18/cards/W18-X001.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-X002",
+    "title": "Structural Results on the Unfair 0-1 Polynomial Conjecture",
+    "authors": [
+      "Emina Hasanbegović"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2611.14596",
+    "url": "https://arxiv.org/abs/2611.14596",
+    "alternate_urls": [
+      "https://arxiv.org/html/2611.14596v1"
+    ],
+    "version": "arXiv:2611.14596v1, submitted 2026-11-10; local manuscript dated 2026-11-13.",
+    "reason": "Full-text conditional fairness theorem for separated two-block 0–1 polynomials; direct A175 source with no general-conjecture conclusion.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "bd3e6099ae189d72c79be93918944345d68e250a8ed07d55ab7e8f7177533363",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Theorem 4 gives a sufficient separated-block fairness criterion when v is fair and n≥max(deg(w)+2deg(v),2deg(w)); transfer only in the standard monic-factor (or positive reciprocal-rescaling) model, and exclude/check the n=0, v=w=1 overlap corner, where f=2 is not 0–1. It does not settle arbitrary factors or the unrestricted conjecture."
+    },
+    "note": "D02 PDF title page, author, arXiv version, nine-page count, and SHA-256 checked against the official arXiv record; all physical pages read. Rendered physical pp.1–3 and 5: the raw nonnegative-factor definition does not state monic/rescaling normalization although p.2 assumes factor coefficients in [0,1]; the card isolates this gap and conditions A175 use on monic factors. Theorem 4 also includes n=0,v=w=1, yielding f=2; A175 transfer requires n≥1 or explicit disjoint-support/0–1 verification.",
+    "section_coverage": [
+      {
+        "section": "Abstract and §1",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Definitions of fair/unfair polynomials and fair-sum equivalence; physical p.2 asserts factor coefficients lie in [0,1] without stating monic/rescaling normalization; theorem statement/context. See card caveat."
+      },
+      {
+        "section": "§2 structure of factorizations",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Coefficient support lemmas, zero/whole/half/double pairs, Theorem 1 no-double-pair criterion."
+      },
+      {
+        "section": "§3 symmetry",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Reciprocal-polynomial invariance and palindromic-support factor constraints."
+      },
+      {
+        "section": "§4 large gaps",
+        "physical_pdf_pages": [
+          5,
+          8
+        ],
+        "summary": "Theorem 4 statement and full proof under the normalized-factor model; isolate the printed n=0, v=w=1 corner (f=2) and require nonoverlap/0–1 verification for A175 transfer."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "summary": "References and end matter."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-X002.pdf",
+    "card_path": "evidence/W18/cards/W18-X002.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-X013",
+    "title": "Об одном свойстве полиномов деления круга / Sur une propriété des polynômes de la division du cercle",
+    "authors": [
+      "D. A. Raikov"
+    ],
+    "year": 1937,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.mathnet.ru/eng/sm5576",
+    "alternate_urls": [
+      "https://www.mathnet.ru/php/getFT.phtml?jrnid=sm&paperid=5576&what=fullt&option_lang=rus"
+    ],
+    "version": "Original Russian-language article, Matematicheskii Sbornik / Recueil Mathématique 2(44), no. 2 (1937), 379–382; four-page official-repository scan/OCR, with French résumé.",
+    "reason": "Direct nonnegative-real factorization theorem for the prime-length geometric polynomial; distinct Raikov note, not the unavailable Krasner–Ranulac M0152.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "675ffdbaa030d8b37525f47ddd1961d489c070d363ed3e604cb539c3e32dca1b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Direct factorization theorem for the prime geometric polynomial over nonnegative real factors; distinct Raikov note, not M0152 Krasner–Ranulac."
+    },
+    "note": "Supplemental source ID; not in evidence/W18/sources.json. Do not conflate it with M0152, whose listed Krasner–Ranulac French note remains unacquired. Scanned page images with an OCR text layer; use page images if text extraction is unclear. D02 acquisition did not include body reading; the L06 batch later read the complete source. D02-B5 identity/path import only: verified; Rendered physical pages 1 and 4. Page 1 identifies the Russian title and D. A. Raikov, 1937, Sbornik vol. 2(44), no. 2; page 4 is printed p. 382 and contains the matching French résumé theorem. Four physical pages verified by pdfinfo and pypdf. Physical pages: 4; SHA-256 verified. Download/revalidation metadata is imported, but this worker turn did not read the paper body; reading_status was later promoted after complete L06 full-text reading; review remains pending. Supplemental D. A. Raikov source, distinct from unavailable M0152 Krasner–Ranulac note. L06 full-text evidence: physical pp.1–4 read; see canonical card and integrated coverage. Review pending.",
+    "section_coverage": [
+      {
+        "section": "Russian title, definitions and theorem",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Defines reducibility among nonnegative-real polynomials; states prime geometric-polynomial irreducibility and coefficient lemma; footnote distinguishes Krasner–Ranulac.",
+        "printed_pages": [
+          379,
+          379
+        ]
+      },
+      {
+        "section": "Coefficient lemma and theorem proof",
+        "physical_pdf_pages": [
+          2,
+          3
+        ],
+        "summary": "Visually checked scan; antidiagonal coefficient matrix shows factors are 0–1, then evaluation at 1 contradicts a nontrivial factorization for prime p.",
+        "printed_pages": [
+          380,
+          381
+        ]
+      },
+      {
+        "section": "French résumé",
+        "physical_pdf_pages": [
+          4,
+          4
+        ],
+        "summary": "Confirms the same theorem for every prime; final scan page visually checked.",
+        "printed_pages": [
+          382,
+          382
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-X013.pdf",
+    "card_path": "evidence/W18/cards/W18-X013.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-X016",
+    "title": "The Coven–Meyerowitz Tiling Conditions for 3 Odd Prime Factors",
+    "authors": [
+      "Izabella Łaba",
+      "Itay Londner"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": "10.1007/s00222-022-01169-y",
+    "url": "https://doi.org/10.1007/s00222-022-01169-y",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2106.14044"
+    ],
+    "version": "Read arXiv:2106.14044v1, 71 physical pages; arXiv stamp says submitted 26 June 2021 while manuscript date line says June 5, 2022. DOI version of record was published online 21 November 2022; Invent. math. 232 (2023), 365–470. Versions are linked as one work; no line-by-line comparison is claimed.",
+    "reason": "Exact T2 theorem for a cyclic unique set tiling with period the square of three distinct odd primes and equal factor cardinalities; auxiliary finite-set/cyclotomic result only.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "6868a4c03a9c1d44971917770eb64220e452897d6525ee8e50d6d055869282b6",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Finite-set tiling theorem under the exact three-distinct-odd-prime square-period and equal-cardinality assumptions; no arbitrary probability-factorization result."
+    },
+    "note": "arXiv v1 and DOI-linked publication are a single work. D02 acquisition did not include body reading; the L06 batch later read the complete source. D02-B5 identity/path import only: work_identity_verified_preprint_version; Extracted physical first and last pages. First page verifies title, authors and abstract describing (T2) for periods (p_i p_j p_k)^2; last physical page is page 71 and contains the end of references. Seventy-one pages are continuous and complete. Physical pages: 71; SHA-256 verified. Download/revalidation metadata is imported, but this worker turn did not read the paper body; reading_status was later promoted after complete L06 full-text reading; review remains pending. L06 full-text evidence: physical pp.1–71 read; see canonical card and integrated coverage. Review pending.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Defines finite cyclic unique tilings, mask polynomials and CM conditions; states the exact theorem with all prime exponents 2, three distinct odd primes, and equal factor cardinalities; no blanket exclusion of even exponents is intended."
+      },
+      {
+        "section": "§2 Notation and preliminaries",
+        "physical_pdf_pages": [
+          4,
+          11
+        ],
+        "summary": "Weighted multisets, CRT grids, divisor exclusion, standard complements, boxes/cuboids, reductions, saturation, fibers and imported shifting lemmas."
+      },
+      {
+        "section": "§3 Classification results",
+        "physical_pdf_pages": [
+          11,
+          13
+        ],
+        "summary": "States the tiling classification theorems and outlines the proof strategy."
+      },
+      {
+        "section": "§4 Toolbox",
+        "physical_pdf_pages": [
+          13,
+          17
+        ],
+        "summary": "Develops divisor, cyclotomic, plane-bound, saturation and fibering lemmas used in case analysis."
+      },
+      {
+        "section": "§5 Structure on unfibered grids",
+        "physical_pdf_pages": [
+          17,
+          22
+        ],
+        "summary": "Proves diagonal-box and extended-corner structural results."
+      },
+      {
+        "section": "§6 Unfibered grids with missing top differences",
+        "physical_pdf_pages": [
+          22,
+          29
+        ],
+        "summary": "Classifies missing-difference structures; separates odd and even period cases."
+      },
+      {
+        "section": "§7 Resolving diagonal boxes",
+        "physical_pdf_pages": [
+          29,
+          37
+        ],
+        "summary": "Resolves DB1/DB2 cases using reductions and fibering lemmas."
+      },
+      {
+        "section": "§8 Corners",
+        "physical_pdf_pages": [
+          37,
+          45
+        ],
+        "summary": "Handles corner cases C1–C3; Theorem 8.1 explicitly assumes two exponents equal 2 and odd M."
+      },
+      {
+        "section": "§9 Fibered grids",
+        "physical_pdf_pages": [
+          45,
+          70
+        ],
+        "summary": "Intersection patterns, fibered-grid lemmas, lower-scale reductions, and complete proofs of Propositions 9.2–9.4; pp.65–70 (§9.6) read."
+      },
+      {
+        "section": "§10 Acknowledgment and references",
+        "physical_pdf_pages": [
+          70,
+          71
+        ],
+        "summary": "Acknowledgment and bibliography read through final physical page."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-X016.pdf",
+    "card_path": "evidence/W18/cards/W18-X016.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-X017",
+    "title": "Algorithms for Translational Tiling",
+    "authors": [
+      "Mihail N. Kolountzakis",
+      "Máté Matolcsi"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0810.4338",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0810.4338v1"
+    ],
+    "version": "Read complete 13-page local PDF bearing the arXiv:0810.4338v1 header stamp dated 23 October 2008. D02 metadata elsewhere says 29 October; this record follows the actual PDF header and does not treat the other date as a local header.",
+    "reason": "Cyclotomic algorithms for finite-set tilings and heuristic enumeration in Z144; distinguishes exact set-tiling decision from general probability-polynomial factorization.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "f2d80ff666937808acd00012f542824b1eeb3f4337cbf0b6f4dae6ca8db86d63",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Cyclotomic algorithm/heuristic for finite-set translational tiling; source supplies no complexity guarantee for fill-out enumeration."
+    },
+    "note": "D02 acquisition did not include body reading; the L06 batch later read the complete source. D02-B5 identity/path import only: work_identity_verified_preprint_version; Extracted physical first and last pages. First page verifies title, authors, abstract and T1/T2 algorithm claims; last physical page is numbered 13 and contains references. Thirteen pages are complete. Physical pages: 13; SHA-256 verified. Download/revalidation metadata is imported, but this worker turn did not read the paper body; reading_status was later promoted after complete L06 full-text reading; review remains pending. L06 full-text evidence: physical pp.1–13 read; see canonical card and integrated coverage. Review pending.",
+    "section_coverage": [
+      {
+        "section": "§1.1 Periodicity; beginning §1.2",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Defines finite set group tiling and periods; reduces finite integer tilings to cyclic groups; starts Fourier transform formulation."
+      },
+      {
+        "section": "§1.2–1.3 Fourier/cyclotomic and CM conditions",
+        "physical_pdf_pages": [
+          2,
+          3
+        ],
+        "summary": "Relates zero sets of mask polynomials to cyclic tiling and states global T1/T2 conditions."
+      },
+      {
+        "section": "§1.4 Computational status",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Separates decidability from complexity and describes scope for Z, Z2 and finite cyclic groups."
+      },
+      {
+        "section": "§2 Deciding the CM conditions",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Theorem 2.1 algorithm and degree-bound argument for polynomially many T2 tests."
+      },
+      {
+        "section": "§3 Local CM conditions",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Theorem 3.1 local cyclic assertions and polynomial-in-N test; dependencies on global conjecture and ≤2-prime result are explicit."
+      },
+      {
+        "section": "§4 Number of nonperiodic complements",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "summary": "Theorem 4.1 construction yielding exponentially many nonperiodic complements in sqrt(N)."
+      },
+      {
+        "section": "§5 Finding all nonperiodic cyclic tilings",
+        "physical_pdf_pages": [
+          7,
+          13
+        ],
+        "summary": "Fill-out recursion, CM filtering and the Z144 classification steps; exceptional case and reported results; complete references."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-X017.pdf",
+    "card_path": "evidence/W18/cards/W18-X017.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-EXT-001",
+    "title": "Cyclotomic Generating Functions",
+    "authors": [
+      "Sara C. Billey",
+      "Joshua P. Swanson"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2305.07620v3",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2305.07620v3"
+    ],
+    "version": "arXiv:2305.07620v3, last revised 13 Sep 2024, 44 physical pages; arXiv identifies the version as final and says it is to appear in the Electronic Journal of Combinatorics.",
+    "reason": "Characterizes cyclotomic generating polynomials through roots, q-integer products and independent-uniform sums; useful when a candidate mask/PGF is independently shown to have cyclotomic roots, but not a general factor theorem.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "36a43286d38644c2e8b5c9fd8ee5fc072e7a976897cdf06bb8cf688beb49e210",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Theorem/Definition 1 supplies a conditional CGF characterization and an independent-uniform identity after the cyclotomic-root condition is established; it does not show arbitrary A175 factors are CGFs."
+    },
+    "note": "Rendered physical pp. 2, 7, 13, 23 and 36; exact asymptotic hypotheses and the cited Hwang–Zacharovas t≥0 caveat are recorded in the card. Helper R06 review passed for identity/read/card/coverage; mother path/hash binding is pending. This is conditionally quota-eligible for the A175 method scope only.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and CGF examples",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "summary": "Reads the CGF definition and six-way Theorem/Definition 1, including root, Kronecker, cyclotomic, q-integer, independent-uniform, and characteristic-function forms; reads examples and scope."
+      },
+      {
+        "section": "§1 asymptotic overview and Theorem 5",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "summary": "Reads Bender/Theorem 4 context, Theorem 5 strict variance-ratio and fourth-power hypotheses, examples, and the adjacent quantitative bound remark."
+      },
+      {
+        "section": "§2 Background: cyclotomic, probability, cumulants and uniform sums",
+        "physical_pdf_pages": [
+          8,
+          15
+        ],
+        "summary": "Reads Theorems 8–21, cyclotomic identities, CGF probability laws/cumulant formulas, convergence tools, sign constraints, and generalized-uniform-sum parameterization."
+      },
+      {
+        "section": "§3 Algebraic considerations",
+        "physical_pdf_pages": [
+          16,
+          22
+        ],
+        "summary": "Reads the proof of Theorem/Definition 1, coefficient formula, polynomiality/positivity criteria, necessary conditions and conjectures, and fixed-denominator graph results."
+      },
+      {
+        "section": "§4 Asymptotic considerations",
+        "physical_pdf_pages": [
+          23,
+          26
+        ],
+        "summary": "Reads Theorem 37 and its cumulant/limit-law proof, then the proof of Theorem 5 and q-binomial example."
+      },
+      {
+        "section": "§5 Analytic considerations",
+        "physical_pdf_pages": [
+          27,
+          31
+        ],
+        "summary": "Reads complex characteristic-function normal-family proof, converse moment theorem, entire-limit corollary, cyclotomic cumulant bounds, and the analytic disk proposition."
+      },
+      {
+        "section": "§6.1–§6.2 CGF monoids and Gale order",
+        "physical_pdf_pages": [
+          32,
+          34
+        ],
+        "summary": "Reads generator/finite-degree facts for cyclotomic monoids, examples, conjectures, and Gale-order definitions/comparisons."
+      },
+      {
+        "section": "§6.3 HSOP Hilbert-series monoid",
+        "physical_pdf_pages": [
+          35,
+          38
+        ],
+        "summary": "Reads Lemma 52, Theorem 53, examples, HSOP-to-Gale inclusion, recursive connection and open problems."
+      },
+      {
+        "section": "§7 Appendix data and acknowledgments",
+        "physical_pdf_pages": [
+          39,
+          39
+        ],
+        "summary": "Reads enumerative tables for the monoids and generator counts, code pointer, acknowledgments and funding."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          40,
+          44
+        ],
+        "summary": "Reads the complete bibliography to the final physical page."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-EXT-001.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-EXT-001.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-EXT-002",
+    "title": "Mahler's Measure of a Polynomial in Function of the Number of its Coefficients",
+    "authors": [
+      "Edward Dobrowolski"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": "10.4153/CMB-1991-030-5",
+    "url": "https://doi.org/10.4153/CMB-1991-030-5",
+    "alternate_urls": [
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CFCD66A9EDEBC929207D25C37AC4FB07/S0008439500005713a.pdf/mahlers_measure_of_a_polynomial_in_function_of_the_number_of_its_coefficients.pdf"
+    ],
+    "version": "Canadian Mathematical Bulletin 34(2) (1991), pp. 186–195; complete 10-physical-page official Cambridge PDF.",
+    "reason": "Sparse integer-polynomial Mahler-measure bound; adjacent arithmetic context, with no established transfer to arbitrary nonnegative-real probability factors.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "21be03feb062f1d0edaa57c3e2762359f981578841789c47dddb921f48749c78",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Adjacent only: the bound assumes monic Z[z], nonzero constant term, and non-cyclotomic polynomial; no A175 factor-transfer is proved. Exclude from direct qualifying-source count."
+    },
+    "note": "The unnumbered theorem is on physical p. 1 / printed p. 186; the sparse-term induction and Jensen argument occupy physical pp. 6–10. Helper R06 review passed for identity/read/card/coverage; mother path/hash binding is pending. Explicitly excluded from A175 source quota despite the full-text read.",
+    "section_coverage": [
+      {
+        "section": "Abstract, definitions and main theorem",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "summary": "Reads Mahler-measure definition, sparse-coefficient motivation, exact unnumbered theorem and displayed constants.",
+        "printed_pages": [
+          186,
+          186
+        ]
+      },
+      {
+        "section": "Notation and Lemmas 1–4",
+        "physical_pdf_pages": [
+          2,
+          5
+        ],
+        "summary": "Reads multivariate exponent notation, extended cyclotomic factors, directional derivatives, multiplicity and lattice lemmas, matrix-height recurrence, and rational approximation lemma.",
+        "printed_pages": [
+          187,
+          190
+        ]
+      },
+      {
+        "section": "Proof of the main theorem, induction and two cases",
+        "physical_pdf_pages": [
+          6,
+          9
+        ],
+        "summary": "Reads induction on nonzero-term count, reciprocal reduction, factorization into extended-cyclotomic and residual parts, height estimates, Mahler decomposition, and Jensen argument.",
+        "printed_pages": [
+          191,
+          194
+        ]
+      },
+      {
+        "section": "Proof conclusion and references",
+        "physical_pdf_pages": [
+          10,
+          10
+        ],
+        "summary": "Reads the final Jensen reduction, closes induction, and reads all six references and author affiliation.",
+        "printed_pages": [
+          195,
+          195
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-EXT-002.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-EXT-002.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": false,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-EXT-003",
+    "title": "The Lowest-Degree Polynomial with Nonnegative Coefficients Divisible by the n-th Cyclotomic Polynomial",
+    "authors": [
+      "John P. Steinberger"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i4p1",
+    "alternate_urls": [
+      "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v19i4p1/pdf/"
+    ],
+    "version": "Electronic Journal of Combinatorics 19(4) (2012), #P1; published 18 Oct 2012; complete 18-physical-page official journal PDF.",
+    "reason": "Proves a cyclotomic-divisibility degree bound for nonnegative-coefficient polynomials under a strict prime-sum condition; useful for special mask-polynomial positivity constraints, not a general factor classification.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "fbc3f132c3ed3cbc687d7f30bd7e6dcdd89fdab6e617ce138547634e12d31b34",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Use Theorem 1 only for the source's minimal-degree nonnegative multiple of Phi_n under its exact even/prime-power/strict-prime-sum hypotheses; Theorem 2 builds a geometric zero-sum certificate. No general A175 factor theorem follows."
+    },
+    "note": "Theorem 1 is on physical p. 3; Theorem 2 begins on physical p. 16 and needs the strict inequality 2P>sum_i Q_i.; The general minimum-degree conjecture remains open in the article. Helper R06 review passed for identity/read/card/coverage; mother path/hash binding is pending. This is conditionally quota-eligible for the A175 method scope only.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and Conjecture/Theorem 1",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "summary": "Reads the minimum-degree question, balanced-peg model, conjectured regular-p-gon candidate, Theorem 1 cases and squarefree-reduction discussion.",
+        "printed_pages": [
+          1,
+          4
+        ]
+      },
+      {
+        "section": "§2 Methods: Farkas certificate and CRT fiber structure",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "summary": "Reads Proposition 1, Lemmas 1–2 and their proofs; identifies the coefficient space, orthogonal zero-sum arrays and certificate equivalence.",
+        "printed_pages": [
+          5,
+          6
+        ]
+      },
+      {
+        "section": "§3 Low-dimensional examples and geometric construction",
+        "physical_pdf_pages": [
+          7,
+          13
+        ],
+        "summary": "Reads the 5×7 and 3×5×7 arrays, figures/captions, unrolling and cell-volume construction, including the limitations motivating the general theorem.",
+        "printed_pages": [
+          7,
+          13
+        ]
+      },
+      {
+        "section": "§4 General case; Problem 1 and Theorem 2 statement",
+        "physical_pdf_pages": [
+          14,
+          16
+        ],
+        "summary": "Reads the layer/CRT reduction to a periodic zero-sum function, exact Problem 1 assumptions, stated parameter examples, and the strict 2P>ΣQ_i theorem setup.",
+        "printed_pages": [
+          14,
+          16
+        ]
+      },
+      {
+        "section": "Theorem 2 proof, Corollary 1, references",
+        "physical_pdf_pages": [
+          17,
+          18
+        ],
+        "summary": "Reads both central-lattice-slice cases in the slab-volume proof, verifies sign/support/zero-sum properties, then reads the corollary, acknowledgments and all references.",
+        "printed_pages": [
+          17,
+          18
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-EXT-003.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-EXT-003.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-EXT-004",
+    "title": "Monic polynomials in Z[x] with roots in the unit disc",
+    "authors": [
+      "Pantelis A. Damianou"
+    ],
+    "year": 2001,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.1507.02419",
+    "url": "https://arxiv.org/abs/1507.02419v1",
+    "alternate_urls": [
+      "https://doi.org/10.48550/arXiv.1507.02419"
+    ],
+    "version": "Complete arXiv:1507.02419v1, submitted 2015-07-09, 5 physical pages; arXiv record gives journal reference American Mathematical Monthly 108 (2001), 253–257.",
+    "reason": "Conditional Kronecker theorem: monic integer polynomials with every root in the closed unit disk have only zero or roots of unity, hence cyclotomic factors. It does not establish that A175 factors meet these hypotheses.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "e420bb0e8ed5ee55f29b4d7e64b5e70591613a1d3dc5ccfb0ff72491856a7d50",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "section_coverage": [
+      {
+        "section": "Theorem 1 and proof; initial examples",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "summary": "Vieta coefficient bounds give finiteness; power-root polynomials and Newton identities preserve integrality; repeated polynomial plus a finite root permutation order m gives lambda^(j^m)=lambda^(k^m), proving each nonzero root is a root of unity. The displayed p. 2 iteration was visually checked."
+      },
+      {
+        "section": "Roots of unity and cyclotomic polynomials",
+        "physical_pdf_pages": [
+          2,
+          3
+        ],
+        "summary": "Primitive roots, degrees phi(n), counting multiplicity of cyclotomic degrees, and the divisor product identity z^n−1=product_{d|n} Phi_d."
+      },
+      {
+        "section": "Theorem 2 and degree enumeration",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "summary": "Kronecker polynomials are z^k times finite products of cyclotomic polynomials; small-degree examples and a coefficient-counting/partition procedure are followed through."
+      },
+      {
+        "section": "Generating function, computed sequence, references",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "summary": "Generating function with phi(0)=phi(1)=1, values k(1) through k(20) and k(100), acknowledgements and all references."
+      }
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Conditional Kronecker theorem: monic integer polynomials with every root in the closed unit disk have only zero or roots of unity, hence cyclotomic factors. It does not establish that A175 factors meet these hypotheses."
+    },
+    "note": "All physical pages through references read; powered-root permutation proof visually checked on physical p. 2. The finite permutation order m gives powers j^m and k^m. Only auxiliary for A175 unless integer monic/root-location hypotheses are proved independently. R05 reviewed helper source/card/PDF/coverage; mother source/path binding is pending independent R06 audit. Tool quota eligibility: True.",
+    "local_pdf": "evidence/fulltexts/W18-D04-EXT-004.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-EXT-004.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-EXT-005",
+    "title": "Distribution of algebraic numbers",
+    "authors": [
+      "Igor E. Pritsker"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.1515/crelle.2011.049",
+    "url": "https://arxiv.org/abs/1307.5734v1",
+    "alternate_urls": [
+      "https://doi.org/10.1515/crelle.2011.049"
+    ],
+    "version": "Complete arXiv:1307.5734v1, submitted 2013-07-22, 22 physical pages; journal version J. reine angew. Math. 657 (2011), 57–80.",
+    "reason": "Asymptotic zero-distribution background for specified integer-polynomial sequences. No concrete finite factorization constraint or candidate-factor/height-exclusion workflow is instantiated in this A175 mapping, whose assumptions are not supplied by the problem.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "c64234014486788756931880eb2114d3cabc48e05b391990f74c3545389670ed",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "section_coverage": [
+      {
+        "section": "§1 Schur problems and setup",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Definitions of integer-polynomial classes and zero counting measures; Schur bounds, unit-disk equidistribution statement, trace problem context, and the roadmap of results."
+      },
+      {
+        "section": "§2 Asymptotic distribution",
+        "physical_pdf_pages": [
+          3,
+          7
+        ],
+        "summary": "Mahler and generalized Mahler measure; Theorem 2.1 iff criteria for capacity-one compact sets; multiplicity-o(n) extension, moment consequence, regular-set norm equivalence, and real-line moment corollaries."
+      },
+      {
+        "section": "§3 Quantitative discrepancy",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "summary": "Theorem 3.1 unit-disk Lipschitz discrepancy and its conditions; corollaries for means and norm growth; length-four real segment version and consequences."
+      },
+      {
+        "section": "§4 potential-theory preliminaries",
+        "physical_pdf_pages": [
+          9,
+          10
+        ],
+        "summary": "Green functions, capacity-one equilibrium measures, signed zero-mass measures, Dirichlet integral and potential conventions used later."
+      },
+      {
+        "section": "§4.1 proofs of asymptotic results",
+        "physical_pdf_pages": [
+          10,
+          14
+        ],
+        "summary": "Proof of Theorem 2.1 in both directions, tightness/escape control and potential-theoretic identification; multiplicity and regular-set norm arguments."
+      },
+      {
+        "section": "§4.2 energy estimates and discrepancy proofs",
+        "physical_pdf_pages": [
+          14,
+          20
+        ],
+        "summary": "Root-circle smoothing, Green's identity, energy/discriminant/Mahler bounds, proof of Theorem 4.2, extension to general piecewise-smooth capacity-one sets in Theorem 4.3, and derivation of the discrepancy corollaries. The extension proof is explicitly a sketch using a cited boundary-jump result."
+      },
+      {
+        "section": "References and author information",
+        "physical_pdf_pages": [
+          20,
+          22
+        ],
+        "summary": "All cited works, bibliography closure and author address were read."
+      }
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Asymptotic zero-distribution background for specified integer-polynomial sequences. No concrete finite factorization constraint or candidate-factor/height-exclusion workflow is instantiated in this A175 mapping, whose assumptions are not supplied by the problem."
+    },
+    "note": "Formula-heavy physical pages 4, 7, 15, 17–18 were rendered and checked. Background only on the current mapping; not quota-countable as a reusable integer-factorization method. No claim that the paper implies integrality or special structure of arbitrary nonnegative real factors. R05 reviewed helper source/card/PDF/coverage; mother source/path binding is pending independent R06 audit. Tool quota eligibility: False.",
+    "local_pdf": "evidence/fulltexts/W18-D04-EXT-005.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-EXT-005.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": false,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-EXT-006",
+    "title": "On the relations between the zeros of a polynomial and its Mahler measure",
+    "authors": [
+      "Myrial Ounaies",
+      "Georges Rhin",
+      "Jean-Marc Sac-Épée"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": "10.1016/j.jnt.2021.01.016",
+    "url": "https://arxiv.org/abs/2103.07126v1",
+    "alternate_urls": [
+      "https://doi.org/10.1016/j.jnt.2021.01.016"
+    ],
+    "version": "Complete arXiv:2103.07126v1, submitted 2021-03-12, 23 physical pages; published J. Number Theory 224 (2021), 165–190. Title page uses author initials; full spellings checked against arXiv metadata.",
+    "reason": "Mahler-measure bounds for root distances, real-root counts, and roots near ±1. Applicable only after the corresponding integer/monic/irreducible/endpoint conditions are proved for a target polynomial.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "8b7ca56869cb4378beca7db3cacd9d8ca0a628f737f07c37787b81f46de350ec",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "summary": "Mahler measure and Lehmer context; cited lower bounds, paper roadmap, and exact hypotheses for the principal result families."
+      },
+      {
+        "section": "§2 Notations and preliminary results",
+        "physical_pdf_pages": [
+          4,
+          7
+        ],
+        "summary": "Height, length and Mahler inequalities; reciprocal polynomial Q=P(0)^{-1}PP*; root counts with multiplicity; exterior-root bound; E_theta conditions and preparatory lemmas."
+      },
+      {
+        "section": "§3 Distance from roots of unity",
+        "physical_pdf_pages": [
+          7,
+          11
+        ],
+        "summary": "Proposition 3.1 assumes monic self-reciprocal P in Z[x] of degree 2n with no root of unity and gives separate on-circle/real and off-circle cases; Propositions 3.2 and Theorem 3.3 retain their irreducibility, endpoint, and multiplicity assumptions."
+      },
+      {
+        "section": "§4 Mahler measure and real roots",
+        "physical_pdf_pages": [
+          12,
+          16
+        ],
+        "summary": "Theorem 4.1 exact endpoint-dependent inequality and equality classification; proof via reciprocal Q, grouping roots and concavity inequality."
+      },
+      {
+        "section": "§5 Number of real roots",
+        "physical_pdf_pages": [
+          16,
+          19
+        ],
+        "summary": "Theorem 5.3's exact (5.4), including 2√c·sqrt(d log(M(P)^2/|P(0)|)) and endpoint/length terms; Corollary 5.4 integer-polynomial simplification, the additional length-growth condition for its asymptotic form, and proof."
+      },
+      {
+        "section": "§6 Lower Mahler measure bound",
+        "physical_pdf_pages": [
+          19,
+          21
+        ],
+        "summary": "Small-value and separation lemmas, Theorems 6.3–6.4, root count in the disks about ±1, derived lower bound (6.2), and proof. Theorem 6.4's square-root factor was checked on the original page images."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          22,
+          23
+        ],
+        "summary": "Complete bibliography and final page read."
+      }
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Mahler-measure bounds for root distances, real-root counts, and roots near ±1. Applicable only after the corresponding integer/monic/irreducible/endpoint conditions are proved for a target polynomial."
+    },
+    "note": "Formula-heavy pages were rendered and visually checked; Theorem 6.4 physical p. 20 includes the square-root factor. Theorem 6.4 requires monic irreducible integer polynomials and a degree-asymptotic small-Mahler condition. R05 reviewed helper source/card/PDF/coverage; mother source/path binding is pending independent R06 audit. Tool quota eligibility: True.",
+    "local_pdf": "evidence/fulltexts/W18-D04-EXT-006.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-EXT-006.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-EXT-007",
+    "title": "Spectral Sets and Factorizations of Finite Abelian Groups",
+    "authors": [
+      "Jeffrey C. Lagarias",
+      "Yang Wang"
+    ],
+    "year": 1997,
+    "kind": "paper",
+    "doi": "10.1006/jfan.1996.3008",
+    "url": "https://doi.org/10.1006/jfan.1996.3008",
+    "alternate_urls": [
+      "https://hub.hku.hk/handle/10722/363706",
+      "https://www.math.hkust.edu.hk/~yangwang/Reprints/jfa97.pdf"
+    ],
+    "version": "Read complete 27-physical-page early author manuscript revised 1996-03-20; published J. Functional Analysis 145(1) (1997), 73–98. The local file is the author manuscript, not the publisher version.",
+    "reason": "Finite Abelian group complements and Fourier criteria for rational periodic tiling/spectral sets. This is only auxiliary to A175: a group-ring mask identity modulo X^N−1 is not equality of ordinary Z[x] probability polynomials.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "6071a6984e1286684cdbf3601588ebe05933b26f586db08c9816e111147d0538",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "section_coverage": [
+      {
+        "section": "Introduction and §1 rational-periodic tiles/universal spectra",
+        "physical_pdf_pages": [
+          1,
+          7
+        ],
+        "summary": "Definitions; finite-group complement notation; main universal-spectrum characterization and sufficient conditions, with proof dependencies stated."
+      },
+      {
+        "section": "§2 Fourier criteria",
+        "physical_pdf_pages": [
+          7,
+          12
+        ],
+        "summary": "Fourier transforms of lattice-plus-finite sets, orthogonality/completeness conditions, and canonical-box spectral criterion in terms of finite frequency differences."
+      },
+      {
+        "section": "§3 Geometric structure of tiles",
+        "physical_pdf_pages": [
+          12,
+          15
+        ],
+        "summary": "Finite decomposition of a geometrically bounded translational tile into canonical pieces up to null sets; derivation of the main characterization from the decomposition and Fourier criterion."
+      },
+      {
+        "section": "§4 Finite group factorizations",
+        "physical_pdf_pages": [
+          15,
+          20
+        ],
+        "summary": "Good cyclic groups, Sands classification context, strong Tijdeman property for the stated finite cyclic class, induction and explicit rank limitations."
+      },
+      {
+        "section": "§5 One-dimensional spectral conclusion",
+        "physical_pdf_pages": [
+          21,
+          25
+        ],
+        "summary": "Inductive finite cyclic factorization argument and the conditional strong-Tijdeman implication for compact one-dimensional tiles."
+      },
+      {
+        "section": "References and author information",
+        "physical_pdf_pages": [
+          26,
+          27
+        ],
+        "summary": "Full reference list and closing author details."
+      }
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Finite Abelian group complements and Fourier criteria for rational periodic tiling/spectral sets. This is only auxiliary to A175: a group-ring mask identity modulo X^N−1 is not equality of ordinary Z[x] probability polynomials."
+    },
+    "note": "All 27 rendered pages were visually read because text extraction is garbled. Finite-group factorization and spectral results retain all stated periodicity, complement, geometric, and conditional hypotheses. R05 reviewed helper source/card/PDF/coverage; mother source/path binding is pending independent R06 audit. Tool quota eligibility: True.",
+    "local_pdf": "evidence/fulltexts/W18-D04-EXT-007.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-EXT-007.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-001",
+    "title": "On Factorizing Aggregate Counting Distributions into Independent Latent Processes",
+    "authors": [
+      "Israel Klich"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2607.14409",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2607.14409v1"
+    ],
+    "version": "arXiv:2607.14409v1, submitted 2026-07-15; 23 physical pages. Preprint; no journal publication claim.",
+    "reason": "Direct model source: characterizes positive factorizations of normalized finite-support counting PGFs; includes support obstructions, real-rooted/Hurwitz sectors and exact low-degree regions.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "72d24009302eb6cf03669357caa6e5d493f96cb32615c13d8a0f1dd05808dbfa",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Direct reusable finite-support PGF interface: independent nonnegative-integer summands multiply as normalized nonnegative polynomials. Use support Minkowski obstruction and entropy/equality criteria only under the source finite-support assumptions; real-root/Hurwitz and low-degree criteria require their exact hypotheses. No 0–1 closure of factors is proved."
+    },
+    "note": "D04 acquisition D04-INT-B10-001 supplied the verified complete local PDF. L02 checked catalogue/canonical_read_index.json against DOI/arXiv id, title and SHA-256; no exact canonical full-read match found. Reader read all 23 physical pages, including end matter; D04 acquisition verifies identity only and is not a body read. No network downloads were made by L02. See card and section coverage; review pending. R06 helper review passed; mother path/card/coverage binding is pending a separate R06 audit. This source is a tool-count candidate only after that mother audit.",
+    "section_coverage": [
+      {
+        "unit": "§1 Introduction",
+        "pdf_pages": "1–3",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "content": "Poses factorization of aggregate counting PGFs; states the structure of atomizations, entropy and geometric questions."
+      },
+      {
+        "unit": "§2 Positive probability polynomials and factorization poset",
+        "pdf_pages": "4–5",
+        "physical_pdf_pages": [
+          4,
+          5
+        ],
+        "content": "Defines normalized nonnegative PGFs, refinement and atoms; constructs incomparable atomizations of 1+z+⋯+z^5."
+      },
+      {
+        "unit": "§3 Entropy dominance and atomization",
+        "pdf_pages": "5–8",
+        "physical_pdf_pages": [
+          5,
+          8
+        ],
+        "content": "Proves the conditional-entropy identity, its injective-support equality condition, and monotonicity under refinement; includes the start and proof of Proposition 3.5."
+      },
+      {
+        "unit": "§4 Support, roots, stability, transverse factorizations",
+        "pdf_pages": "8–10",
+        "physical_pdf_pages": [
+          8,
+          10
+        ],
+        "content": "Proves the support Minkowski identity/binomial atom obstruction, Poisson-binomial real-rooted characterization, Hurwitz atom degree bound, and inverse-function local stability for coprime factors."
+      },
+      {
+        "unit": "§5 Low-degree factorability geometry",
+        "pdf_pages": "11–14",
+        "physical_pdf_pages": [
+          11,
+          14
+        ],
+        "content": "Derives exact quadratic and strictly positive cubic criteria and the quartic Hurwitz-stable volume lower bound by exponential/Dirichlet integration; separates Monte Carlo estimates."
+      },
+      {
+        "unit": "§6 Equality examples and mixed-radix constructions",
+        "pdf_pages": "14–15",
+        "physical_pdf_pages": [
+          14,
+          15
+        ],
+        "content": "Checks direct-sum/mixed-radix uniqueness criteria and distinguishes equality in the entropy inequality from global entropy maximization."
+      },
+      {
+        "unit": "§7 Random probability polynomials and numerical study",
+        "pdf_pages": "16–20",
+        "physical_pdf_pages": [
+          16,
+          20
+        ],
+        "content": "Defines the sampling/constraint setup, reports exploratory Monte Carlo estimates and tables, and states algorithmic/open-problem caveats."
+      },
+      {
+        "unit": "§8 Open problems",
+        "pdf_pages": "20–21",
+        "physical_pdf_pages": [
+          20,
+          21
+        ],
+        "content": "Lists unresolved asymptotic, infinite-support and multivariate questions; begins at the end of PDF p.20 and continues on p.21."
+      },
+      {
+        "unit": "§9 Conclusion",
+        "pdf_pages": "21",
+        "physical_pdf_pages": [
+          21,
+          21
+        ],
+        "content": "Summarizes factorization entropy, root/support/local-geometry results, and remaining work."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": "21–23",
+        "physical_pdf_pages": [
+          21,
+          23
+        ],
+        "content": "Begins after the conclusion on PDF p.21; read the complete reference list through the final physical page."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-001.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-001.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-002",
+    "title": "The Complexity of Divisibility",
+    "authors": [
+      "Johannes Bausch",
+      "Toby Cubitt"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.1016/j.laa.2016.03.041",
+    "url": "https://doi.org/10.1016/j.laa.2016.03.041",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1411.7380"
+    ],
+    "version": "arXiv:1411.7380v2, last revised 2016-04-19, journal-accepted version; 50 physical pages. Published Linear Algebra and its Applications 504 (2016), 64–107 (44 printed journal pages).",
+    "reason": "Direct finite-distribution decomposition source: translates finite-support distribution divisibility/decomposability to factorization of nonnegative characteristic/PGF polynomials and gives algorithmic complexity results.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "40ba42a4c86e3385f67c7f24f683694b0d30a78b3d83e2d6551eff31dd1d74e2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Use the exact finite-law PGF equivalence and keep iid n-divisibility (f=g^n) distinct from n-decomposability (possibly unequal nonnegative factors). Complexity statements need the paper's encoded decision model; no coefficient-0–1 restriction follows."
+    },
+    "note": "D04 acquisition D04-INT-B10-002 supplied the verified complete local PDF. L02 checked catalogue/canonical_read_index.json against DOI/arXiv id, title and SHA-256; no exact canonical full-read match found. Reader read all 50 physical pages, including end matter; D04 acquisition verifies identity only and is not a body read. No network downloads were made by L02. See card and section coverage; review pending. R06 helper review passed; mother path/card/coverage binding is pending a separate R06 audit. This source is a tool-count candidate only after that mother audit.",
+    "section_coverage": [
+      {
+        "unit": "Front matter and §§1–2: matrix divisibility background",
+        "pdf_pages": "1–21",
+        "physical_pdf_pages": [
+          1,
+          21
+        ],
+        "content": "Read the full matrix/quantum-channel setup, main-results roadmap, root classification and reductions; retained only the distinct finite-distribution interface for this task."
+      },
+      {
+        "unit": "§3.1–§3.3: finite probability laws and notation",
+        "pdf_pages": "22–27",
+        "physical_pdf_pages": [
+          22,
+          27
+        ],
+        "content": "Defines finite/continuous distribution representations and the nonnegative characteristic/PGF polynomial correspondence."
+      },
+      {
+        "unit": "§3.4: distribution divisibility algorithms",
+        "pdf_pages": "28–32",
+        "physical_pdf_pages": [
+          28,
+          32
+        ],
+        "content": "Proves the iid repeated-factor P claim and coefficient-ℓ∞ weak-membership result; records encoding and metric limits."
+      },
+      {
+        "unit": "§3.5: distribution decomposability and hardness",
+        "pdf_pages": "33–44",
+        "physical_pdf_pages": [
+          33,
+          44
+        ],
+        "content": "Proves NP membership and develops Even Subset Sum / subset-sum reductions; the rendered p.35 affine scaling and x-coefficient displays have the two isolated print discrepancies in the card."
+      },
+      {
+        "unit": "§6 Appendix",
+        "pdf_pages": "45–47",
+        "physical_pdf_pages": [
+          45,
+          47
+        ],
+        "content": "Reads Definitions 87–88 and Corollary 89, Lemmas 90, 92–97; verifies the padding/scaling/Partition reduction chain."
+      },
+      {
+        "unit": "References and terminal pages",
+        "pdf_pages": "48–50",
+        "physical_pdf_pages": [
+          48,
+          50
+        ],
+        "content": "Read the full bibliography and final physical pages."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-002.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-002.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-003",
+    "title": "The lowest degree 0,1-polynomial divisible by cyclotomic polynomial",
+    "authors": [
+      "A. Satyanarayana Reddy"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1106.1271v2",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1106.1271v2"
+    ],
+    "version": "arXiv:1106.1271v2, revised 2011-11-15; 7 physical pages.",
+    "reason": "Conditional 0–1 mask/cyclotomic certificate: bounds the lowest degree of a 0–1 polynomial divisible by a specified cyclotomic polynomial through minimal vanishing sums of roots of unity.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "65d8b28e479dc8a6dc93e794ededaeffa5229e714924001aa862d4eeae86d7e1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Use only after a 0–1 mask is independently shown to be divisible by Φ_n and its evaluation is a minimal vanishing sum; enforce the stated even n, prime-factor, flatness and rotation-class conditions. The n=2pq global minimum statement is conjectural."
+    },
+    "note": "D04 acquisition D04-INT-B10-003 supplied the verified complete local PDF. L02 checked catalogue/canonical_read_index.json against DOI/arXiv id, title and SHA-256; no exact canonical full-read match found. Reader read all 7 physical pages, including end matter; D04 acquisition verifies identity only and is not a body read. No network downloads were made by L02. See card and section coverage; review pending. R06 helper review passed; mother path/card/coverage binding is pending a separate R06 audit. This source is a tool-count candidate only after that mother audit.",
+    "section_coverage": [
+      {
+        "unit": "§1 Introduction and preliminaries",
+        "pdf_pages": "1–3",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "content": "Defines minimal vanishing sums, rotation equivalence, G_n/H_n, flat cyclotomic polynomials and the Lam–Leung input."
+      },
+      {
+        "unit": "§2 Flat Φ_n and Lemma 2.1",
+        "pdf_pages": "3–4",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "content": "Splits positive/negative coefficients of flat Φ_n and shifts one support half by n/2 to construct a 0–1 multiple; proves minimality within that mask."
+      },
+      {
+        "unit": "§2.1: n=2pq",
+        "pdf_pages": "4–6",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "content": "Proves the 2p classification and Lemma 2.4 exponent-gap bound, then Theorem 2.3's degree comparison within the specified rotation class."
+      },
+      {
+        "unit": "Conjecture 1 / Lemma 2.5 and references",
+        "pdf_pages": "6–7",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "content": "States the three-term minimum-degree formula as a conjecture, gives the n=30 tied examples, and ends with references."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-003.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-003.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-004",
+    "title": "Divisors of Polynomials and Power Series with Positive Coefficients",
+    "authors": [
+      "Theodore S. Motzkin",
+      "Ernst G. Straus"
+    ],
+    "year": 1969,
+    "kind": "paper",
+    "doi": "10.2140/pjm.1969.29.641",
+    "url": "https://doi.org/10.2140/pjm.1969.29.641",
+    "alternate_urls": [
+      "https://msp.org/pjm/1969/29-3/pjm-v29-n3-p13-p.pdf"
+    ],
+    "version": "Published Pacific Journal of Mathematics 29(3) (1969), printed pages 641–652; complete official issue PDF has 15 physical pages. Physical page 1 is the article title folio; physical pages 2–13 contain printed article pages 641–652; physical pages 14–15 are issue matter.",
+    "reason": "Algebraic positivity/root-constraint source on polynomial and power-series divisors with positive coefficients; can supply conditional constraints on a proposed positive divisor/multiple.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "24eb399aa9410fe783017cab533bfbdc07a572f6cf9d7692baa0f61b3cd24515",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Conditional polynomial-multiplier/root-angle method: for real univariate Q with no nonnegative real zeros, Corollary 2.7 constructs R with only negative real zeros so RQ is coefficientwise nonnegative; the source permits all RQ coefficients strictly positive and the coefficients of R integral. Theorem 2.1 gives a quadratic root-angle minimum-degree/extremal-multiple result (with the missing-r source typo isolated). In several variables, use Theorems 3.2/3.4/3.6 only with orthant nonvanishing and the required leading homogeneous condition, plus the analogous trailing-part condition when Q(0)=0. This is a reusable conditional tool method, not an A175 factor classification."
+    },
+    "note": "D04 acquisition D04-INT-B10-004 supplied the verified complete local PDF. L02 checked catalogue/canonical_read_index.json against DOI/arXiv id, title and SHA-256; no exact canonical full-read match found. Reader read all 15 physical pages, including end matter; D04 acquisition verifies identity only and is not a body read. No network downloads were made by L02. See card and section coverage; review pending. R06 helper review passed; mother path/card/coverage binding is pending a separate R06 audit. This source is a tool-count candidate only after that mother audit.",
+    "section_coverage": [
+      {
+        "unit": "Issue cover/title folio",
+        "pdf_pages": "1",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "content": "Visually confirms journal, article title, authors, volume, issue and month; no article theorem content."
+      },
+      {
+        "unit": "Introduction and start of §2",
+        "pdf_pages": "2",
+        "physical_pdf_pages": [
+          2,
+          2
+        ],
+        "content": "Printed p.641 defines coefficientwise-positive versus copositive and states the general divisor/multiplier question; starts the one-variable root factorization."
+      },
+      {
+        "unit": "§2: one-variable real polynomials without nonnegative zeros",
+        "pdf_pages": "3–6",
+        "physical_pdf_pages": [
+          3,
+          6
+        ],
+        "content": "Printed pp.642–645: Theorem 2.1 degree/simplex statement, Corollaries 2.3–2.4, Theorem 2.5 sparsity alternative, Theorem 2.6 and Corollary 2.7; contains the missing-r print discrepancy in Thm 2.1."
+      },
+      {
+        "unit": "§3: several-variable polynomials",
+        "pdf_pages": "7–9",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "content": "Printed pp.646–648: radial local multipliers plus compactness (Thm 3.2), homogeneous induction (Lemma 3.3), combined coefficient conclusions (Thm 3.4), and coefficient-by-degree construction (Thm 3.6)."
+      },
+      {
+        "unit": "§4: power series and multivariate power series",
+        "pdf_pages": "9–13",
+        "physical_pdf_pages": [
+          9,
+          13
+        ],
+        "content": "Printed pp.648–652: zero-canceling positive product (Thm 4.1), logarithmic multiplier (Lemma 4.3), smaller-radius result (Thm 4.5), multivariate coordinatewise construction (Thm 4.6), limitation (Remark 4.7), and final problem/author note."
+      },
+      {
+        "unit": "Issue editorial and contents matter",
+        "pdf_pages": "14–15",
+        "physical_pdf_pages": [
+          14,
+          15
+        ],
+        "content": "Read the journal editor/associate-editor page and issue table of contents; article ends at physical p.13 (printed p.652)."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-004.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-004.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-005",
+    "title": "Factorizations of polynomials with integral non-negative coefficients",
+    "authors": [
+      "Federico Campanini",
+      "Alberto Facchini"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1007/s00233-018-9979-5",
+    "url": "https://doi.org/10.1007/s00233-018-9979-5",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2504.12145v1"
+    ],
+    "version": "Complete arXiv:2504.12145v1 manuscript posted 2025-04-16, 15 physical pages; published Semigroup Forum 99(2) (2018), 317–332. One work/version-family, not counted as a separate publication copy.",
+    "reason": "Direct method for factorization in the cancellative multiplicative monoid N0[x]: atoms, monoid-vs-ring divisibility, prime elements, and a base-a candidate-factor enumeration algorithm. It applies only to integer coefficients or after integrality is proved.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "84e92c6bcc558c9b0fa4a2e2de704cd2e8642a4965f27c0aef78414bf551f128",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "note": "Complete local arXiv v1 manuscript read; article metadata separately lists Semigroup Forum publication in 2018. A175 use is conditional on an independently proved integer-coefficient subcase. Physical p. 5 Proposition 2.4 uses f|(fz)h=f(zh), with quotient zh in N0[x]; physical p. 13 algorithm preserves its literal eta and alpha(g)<=a steps as source statements but isolates their monomial/digit-carry boundary defects. A derived safe enumeration uses floor(log_a b) and exact polynomial product verification; exact counterexample is saved in math/b10_exact_checks.json. R05 accepted the revised helper stage and full-text evidence. Tool quota qualification and mother PDF/card/coverage binding remain pending independent mother review.",
+    "section_coverage": [
+      {
+        "section": "Abstract, introduction, and N0[x] factorization setup",
+        "physical_pdf_pages": [
+          1,
+          2
+        ],
+        "physical_pages_original": [
+          1,
+          2
+        ],
+        "coverage": "Defined the nonzero nonnegative-integer polynomial monoid and its relation to factorization questions; motivation and notation."
+      },
+      {
+        "section": "§2 Factorizations and Lemma 2.3 / Proposition 2.4",
+        "physical_pdf_pages": [
+          2,
+          6
+        ],
+        "physical_pages_original": [
+          2,
+          6
+        ],
+        "coverage": "Distinguished monoid divisibility from Z[x] divisibility; factorization-length properties; Eisenstein construction of a nonnegative multiplier for finite atom lists; Proposition 2.4 proof uses (fz)h=f(zh), with quotient zh in the monoid; classification of prime elements."
+      },
+      {
+        "section": "§3 Ideals in N0[x]*",
+        "physical_pdf_pages": [
+          6,
+          9
+        ],
+        "physical_pages_original": [
+          6,
+          9
+        ],
+        "coverage": "Defined monoid ideals, prime spectrum, and classified the listed prime ideals with explicit factorization arguments."
+      },
+      {
+        "section": "§4 Divisibility and §5 derivation/valuation structure",
+        "physical_pdf_pages": [
+          9,
+          13
+        ],
+        "physical_pages_original": [
+          9,
+          13
+        ],
+        "coverage": "Developed the monoid embeddings and derivations replacing valuations, including the stated structural correspondences and hypotheses."
+      },
+      {
+        "section": "§6 Base-expansion factorization algorithm and examples",
+        "physical_pdf_pages": [
+          13,
+          14
+        ],
+        "physical_pages_original": [
+          13,
+          14
+        ],
+        "coverage": "Encoded coefficients as base-a digits and read the printed strict eta definition and non-strict alpha(g)<=a acceptance step at physical p. 13; recorded their exact-power and digit-carry boundary defects separately; derived safe enumeration uses floor(log_a b) and exact polynomial-product verification. Example 6.1 read on pp. 13–14."
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          15,
+          15
+        ],
+        "physical_pages_original": [
+          15,
+          15
+        ],
+        "coverage": "Read all bibliography entries and the last physical page."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-005.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-005.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-006",
+    "title": "Functional Tilings and the Coven-Meyerowitz Tiling Conditions",
+    "authors": [
+      "Gergely Kiss",
+      "Itay Londner",
+      "Máté Matolcsi",
+      "Gábor Somlai"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.19086/da.144131",
+    "url": "https://doi.org/10.19086/da.144131",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2411.03854v3"
+    ],
+    "version": "Actual local file: typeset Discrete Analysis 2025:18 journal article, 20 physical pages; physical p. 1 prints received 7 Nov 2024, revised 24 Apr 2025, published 15 Sep 2025, DOI 10.19086/da.144131, and an arXiv:2411.03854v3 [math.CO] 12 Sep 2025 margin stamp. The local file arrived by the declared arXiv-v3 route/filename, but equivalence to a separately hosted arXiv-v3 PDF was not independently checked.",
+    "reason": "Finite-cyclic functional positive-definite tiling construction: step functions on Z_M satisfy cyclic convolution while period-relative T1 holds and period-relative T2 fails under the stated prime conditions. Source function-level signatures range only over prime-power orders dividing M; no ordinary off-period T1/T2 claim is made. This is an auxiliary model comparison, not a no-wrap A175 factorization theorem.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "6e57a8ea77bef32864c99fe70f21953edcf57760edc96b4b81d79162220f4ae6",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "note": "The constructed pair is functional pd-tiling on finite Z_M; its T1/T2 conditions are period-relative, and the authors distinguish it from proper complementary set tilings. Exact p=3,q=5 table check is saved in math/b10_exact_checks.json. Actual local PDF identity was visually checked on physical p. 1 as the typeset Discrete Analysis 2025:18 article. Its arXiv v3 margin stamp and acquisition filename are recorded as route/related-version metadata, not as evidence that a separately hosted arXiv PDF is identical. R05 accepted the revised helper stage and full-text evidence. Tool quota qualification and mother PDF/card/coverage binding remain pending independent mother review.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and Theorem 1.6",
+        "physical_pdf_pages": [
+          1,
+          7
+        ],
+        "physical_pages_original": [
+          1,
+          7
+        ],
+        "coverage": "Set tiling versus functional pd-tiling, cyclic mask/Fourier conventions, T1/T2, theorem statement, and limitations of the functional examples."
+      },
+      {
+        "section": "§2 Linear-programming constraints",
+        "physical_pdf_pages": [
+          7,
+          11
+        ],
+        "physical_pages_original": [
+          7,
+          11
+        ],
+        "coverage": "Divisor classes and Cayley graphs; Delsarte bounds, clique arguments, and the necessary conditions used to construct the functional example."
+      },
+      {
+        "section": "§3 Auxiliary cuboid and step-function tools",
+        "physical_pdf_pages": [
+          11,
+          14
+        ],
+        "physical_pages_original": [
+          11,
+          14
+        ],
+        "coverage": "Fourier/cyclotomic criteria and auxiliary step-function/eigenfunction constraints feeding the construction."
+      },
+      {
+        "section": "§4 Functional pd-tiling examples and Theorem 1.6 proof",
+        "physical_pdf_pages": [
+          14,
+          17
+        ],
+        "physical_pages_original": [
+          14,
+          17
+        ],
+        "coverage": "Three-prime and two-prime setup; exact step-class coefficient tables; nonnegativity, Fourier eigenvalue/support, cyclic convolution identity, T1 and T2 failure witnesses."
+      },
+      {
+        "section": "Appendix, computer-experiment discussion, acknowledgments",
+        "physical_pdf_pages": [
+          18,
+          19
+        ],
+        "physical_pages_original": [
+          18,
+          19
+        ],
+        "coverage": "Finite computational search counts and limitations; authors' note that the examples do not yet construct proper set-tiling counterexamples."
+      },
+      {
+        "section": "References and author information",
+        "physical_pdf_pages": [
+          19,
+          20
+        ],
+        "physical_pages_original": [
+          19,
+          20
+        ],
+        "coverage": "Read the complete bibliography, publication tail, and author details."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-006.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-006.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-007",
+    "title": "Nonnegative Weak Tilings and the Coven–Meyerowitz Condition (T2)",
+    "authors": [
+      "Gergely Kiss",
+      "Caleb Marshall",
+      "Máté Matolcsi",
+      "Gábor Somlai"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2611.13593v1",
+    "alternate_urls": [],
+    "version": "arXiv:2611.13593v1, submitted 2026-11-10; 26 physical pages. Preprint; no journal publication claim.",
+    "reason": "Finite-cyclic weak-complement and cyclotomic-filter construction, with exact rational nonnegative examples satisfying T1 but failing T2. Requires the stated set-tile/unsupported-divisor setting; explicit examples are not positive definite.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "1f0b6fa03cda537e9d74839a497eb4032876e7cd0779facd1506be9f0fa274a5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "note": "Complete arXiv v1 preprint read; Theorem 4.2 proof and Theorem 5.1 example rendered and checked. Ordinary and period-relative T1/T2 are kept distinct; explicit rational weak complement is not positive definite. Exact Z180 check and cyclotomic remainder are saved in math/b10_exact_checks.json. Physical p. 9 Lemma 4.1 and physical p. 12 equation (4.3) visually confirm numerator X^(x+D)-X^x; card transcription is corrected to this source formula. R05 accepted the revised helper stage and full-text evidence. Tool quota qualification and mother PDF/card/coverage binding remain pending independent mother review.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction; Theorems 1.3–1.5",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "physical_pages_original": [
+          1,
+          4
+        ],
+        "coverage": "Defined weak complements, ordinary versus period-relative T1/T2, statement of the mixed-divisor construction, explicit Z180 example, fixed-tile rigidity and scope limitations."
+      },
+      {
+        "section": "§2 Fourier/cyclotomic criteria and integer-weight boundary",
+        "physical_pdf_pages": [
+          4,
+          7
+        ],
+        "physical_pages_original": [
+          4,
+          7
+        ],
+        "coverage": "Convolution equivalences; integer-valued complement lemma; rational counterexample; unsupported divisor definition; ordinary and period-relative cyclotomic conditions."
+      },
+      {
+        "section": "§3 Pure-order cuboid filter",
+        "physical_pdf_pages": [
+          7,
+          8
+        ],
+        "physical_pages_original": [
+          7,
+          8
+        ],
+        "coverage": "Constructed signed filter with {−1,0,1} coefficients, zero mass, exact mixed-order Fourier support, and annihilation under the stated cyclotomic hypothesis."
+      },
+      {
+        "section": "§4 Cyclic construction without new primes",
+        "physical_pdf_pages": [
+          8,
+          13
+        ],
+        "physical_pages_original": [
+          8,
+          13
+        ],
+        "coverage": "Lemma 4.1 on physical p. 9 transfers rational coefficient mass by (X^(x+D)-X^x)/(ell m), preserving the cyclic representative; equation (4.3) on physical p. 12 specializes to (X^(D+1)-X)/(ell K). Theorem 4.2 handles two complement-zero cases, layers translated complements, inserts the filter, proves nonnegativity/normalization/T1 and T2 failure, and transfers to ordinary polynomial representative."
+      },
+      {
+        "section": "§5 Explicit period-180 construction",
+        "physical_pdf_pages": [
+          13,
+          16
+        ],
+        "physical_pages_original": [
+          13,
+          16
+        ],
+        "coverage": "Specified A*, T, cyclic autocorrelation, signed filter H, W and F; proved base tiling, nonnegativity, weak complement identity, exact cyclotomic signature, mixed-order failure and failure of positive definiteness."
+      },
+      {
+        "section": "§6 Fixed-tile rigidity and prime-count boundary",
+        "physical_pdf_pages": [
+          16,
+          20
+        ],
+        "physical_pages_original": [
+          16,
+          20
+        ],
+        "coverage": "Proposition 6.2 proof of Theorem 1.5 for the stated fixed tile and every period L≥2; set-complement dilation invariance and at-most-two-prime-period boundary result, with hypotheses retained."
+      },
+      {
+        "section": "§7 Positive-definiteness obstruction",
+        "physical_pdf_pages": [
+          20,
+          22
+        ],
+        "physical_pages_original": [
+          20,
+          22
+        ],
+        "coverage": "Explained why the explicit nonzero perturbations destroy positive definiteness and stated the five-point-set corollary."
+      },
+      {
+        "section": "Appendix A",
+        "physical_pdf_pages": [
+          22,
+          24
+        ],
+        "physical_pages_original": [
+          22,
+          24
+        ],
+        "coverage": "Alternative construction on Z_M×Z_r using a new auxiliary prime coprime to M; its assumptions, layer normalization and proof were read, and it was not conflated with the main prime-preserving theorem."
+      },
+      {
+        "section": "References and author information",
+        "physical_pdf_pages": [
+          25,
+          26
+        ],
+        "physical_pages_original": [
+          25,
+          26
+        ],
+        "coverage": "Complete bibliography and author details read."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-007.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-007.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B10-008",
+    "title": "Uniform Cyclic Group Factorizations of Finite Groups",
+    "authors": [
+      "Kazuki Kanai",
+      "Kengo Miyamoto",
+      "Koji Nuida",
+      "Kazumasa Shinagawa"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.1080/00927872.2023.2285908",
+    "url": "https://doi.org/10.1080/00927872.2023.2285908",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2302.02831v2"
+    ],
+    "version": "Complete arXiv:2302.02831v2, revised 2023-11-15, 10 physical pages; published Communications in Algebra 52(5) (2024), 2174–2184. Published journal article is CC BY; this local file is the arXiv v2 manuscript.",
+    "reason": "Finite-group constant-multiplicity factorization gives exact uniform product sampling from independent uniform subgroup elements; solvable groups admit uniform cyclic subgroup factorizations. Transfer to integer convolution requires a no-wrap argument.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "48a25726b4c30aeafe90481367cf0cf6e783c542fa850632b09559898de62883",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "note": "Complete arXiv v2 manuscript read; exact published journal reference is retained separately from the local arXiv version. Theorem 3.3/3.4 proof uses quotient lifting, subnormal series, and multiplicity refinement. Exact C6/C3 calculations show the modular/no-wrap boundary and are saved in math/b10_exact_checks.json. R05 accepted the revised helper stage and full-text evidence. Tool quota qualification and mother PDF/card/coverage binding remain pending independent mother review.",
+    "section_coverage": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "physical_pages_original": [
+          1,
+          3
+        ],
+        "coverage": "Defined uniform factorizations and exact uniform sampling; stated solvable-group and finite-simple-group reduction results and motivation."
+      },
+      {
+        "section": "§2 Uniform cyclic group factorization",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "physical_pages_original": [
+          3,
+          4
+        ],
+        "coverage": "Multiplication-map multiplicity; refinement Lemma 2.3; quotient lifting Lemma 2.5; cyclic prime-power obstruction and CRT construction in Proposition 2.6."
+      },
+      {
+        "section": "§3 Main theorems",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "physical_pages_original": [
+          4,
+          6
+        ],
+        "coverage": "Normal-subgroup lifting, abelian base case, solvable-group subnormal-series proof, and induction reducing universal cyclic factorizations to proper factorizations of finite simple groups."
+      },
+      {
+        "section": "§4 Logarithmic signatures",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "physical_pages_original": [
+          6,
+          7
+        ],
+        "coverage": "Compared uniform multiplicity with exact/logarithmic signatures; proved examples separating these classes."
+      },
+      {
+        "section": "§5 Examples and constructions",
+        "physical_pdf_pages": [
+          7,
+          9
+        ],
+        "physical_pages_original": [
+          7,
+          9
+        ],
+        "coverage": "Discussed Sylow systems and constructions for alternating groups; retained stated group and subgroup hypotheses."
+      },
+      {
+        "section": "References and author information",
+        "physical_pdf_pages": [
+          9,
+          10
+        ],
+        "physical_pages_original": [
+          9,
+          10
+        ],
+        "coverage": "Read complete reference list and final author details."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B10-008.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B10-008.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B11-001",
+    "title": "Sharp Diameter Bounds for Nonnegative Cyclotomic Multiples",
+    "authors": [
+      "Hu Tan",
+      "Ying Zhang"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2609.07646",
+    "url": "https://arxiv.org/abs/2609.07646v1",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2609.07646v1"
+    ],
+    "version": "arXiv:2609.07646v1, submitted 2026-09-07; 9 physical pages; author preprint.",
+    "reason": "Sharp support-span obstruction for a nonnegative-real multiple of a specified cyclotomic polynomial; conditional because A175 does not establish such divisibility for either factor.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "9992e5c159afb84f2e4c1eff3007b51770d024d9924884dddceec94a713e209f",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Sharp support-diameter lower bound and equality classification for nonzero nonnegative-real polynomials divisible by a specified cyclotomic polynomial; also treats consecutive vanishing Fourier moments."
+    },
+    "section_coverage": [
+      {
+        "section": "Abstract, §1 introduction and main theorem",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "content": "Defines support diameter and G_{N,p}; Theorem 1.1 gives the sharp lower bound/equality classification. Explains the link to the conditional Coven–Meyerowitz tiling assumptions.",
+        "printed_pdf_pages": [
+          1,
+          3
+        ]
+      },
+      {
+        "section": "§2 Positive measures with vanishing moments",
+        "physical_pdf_pages": [
+          3,
+          4
+        ],
+        "content": "Lemma 2.1 proves arc support bound from first r−1 Fourier moments by a sine-vector test polynomial and cosine/tridiagonal recurrence; equality zeros force a rotated regular r-gon with equal weights. Corollary 2.3 gives circular gap bound.",
+        "printed_pdf_pages": [
+          3,
+          4
+        ]
+      },
+      {
+        "section": "§3 Cyclotomic divisibility and first nonzero moment",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "content": "Converts cyclotomic divisibility to vanishing Fourier moments of coefficient measure and applies the arc lemma. Proposition 3.1 handles a longer initial zero interval; Corollary 3.2 uses rationality/conjugacy for the first nonzero moment; p. 5 gives a real-coefficient counterexample to that conjugacy step.",
+        "printed_pdf_pages": [
+          4,
+          6
+        ]
+      },
+      {
+        "section": "§4 Diameter bounds for integer tilings, §§4.1–4.2",
+        "physical_pdf_pages": [
+          6,
+          8
+        ],
+        "content": "Proves Corollary 1.2 under both (T1),(T2), identifies canonical period under those hypotheses, supplies a counterexample to dropping (T2), then defines top consecutive prime-power levels and proves the refined M−M/L_A bound with equality classification; worked examples compare bounds.",
+        "printed_pdf_pages": [
+          6,
+          8
+        ]
+      },
+      {
+        "section": "§5 Quantitative rigidity near equality",
+        "physical_pdf_pages": [
+          8,
+          9
+        ],
+        "content": "Proposition 5.1 derives a second-moment distance bound to the extremal regular-polygon support using the same Q identity; Corollary 5.2 converts it to an exponent-grid coefficient-mass estimate with constant NΔ/4 and Markov tail.",
+        "printed_pdf_pages": [
+          8,
+          9
+        ]
+      },
+      {
+        "section": "Acknowledgements and references",
+        "physical_pdf_pages": [
+          9,
+          9
+        ],
+        "content": "Read acknowledgements, including stated AI research-aid note, and all six references.",
+        "printed_pdf_pages": [
+          9,
+          9
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B11-001.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B11-001.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B11-002",
+    "title": "Divisibility criteria and coefficient formulas for cyclotomic polynomials",
+    "authors": [
+      "Laura De Carli",
+      "Maurizio Laporta"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.1007/s11139-026-01421-6",
+    "url": "https://doi.org/10.1007/s11139-026-01421-6",
+    "alternate_urls": [
+      "https://link.springer.com/content/pdf/10.1007/s11139-026-01421-6.pdf",
+      "https://arxiv.org/abs/2508.02722v1"
+    ],
+    "version": "Version of record, The Ramanujan Journal 70 (2026), Article 44; published 12 June 2026; 24 physical pages. The 22-page arXiv:2508.02722v1 staging copy was removed in favor of this OA version; one work is counted.",
+    "reason": "Exact finite criterion for divisibility of a specified complex-coefficient polynomial by a specified cyclotomic polynomial; can certify a candidate, but does not find or force unknown factors.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "31b3a3e26a8c36487ee4dfd97484fcc14c2730cc465e6a7058a663e85853b050",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Necessary-and-sufficient coefficient-sum criterion for divisibility by Φ_N for complex-coefficient polynomials, plus cyclotomic coefficient formulas and Ramanujan-sum identities."
+    },
+    "section_coverage": [
+      {
+        "section": "Title, abstract, §1.1 divisibility results",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "content": "Introduces cyclotomic divisibility and Ramanujan sums; states Theorem 1.1 coefficient-index Möbius residue criterion with φ(N)≤deg P and the even-N half-range; states Corollary 1.2 identities and sets conventions.",
+        "printed_pdf_pages": [
+          "article page 1",
+          "article page 4"
+        ]
+      },
+      {
+        "section": "§1.2 coefficient formulas",
+        "physical_pdf_pages": [
+          4,
+          7
+        ],
+        "content": "Defines complete homogeneous/elementary symmetric polynomials and root vectors; derives coefficient representation; states prime-index recursion Theorem 1.3 and binary-coefficient Theorem 1.4, with p|m case in Remark 1.2.",
+        "printed_pdf_pages": [
+          "article pages 4–7"
+        ]
+      },
+      {
+        "section": "§2 Lemmata 2.1–2.9",
+        "physical_pdf_pages": [
+          7,
+          13
+        ],
+        "content": "Records Möbius/totient and Ramanujan identities; cyclotomic composition identities; symmetric-polynomial and generalized Vieta lemmas; proves residue-class criterion for z^n−1 and shifted class-sum criterion for Φ_p(z^s).",
+        "printed_pdf_pages": [
+          "article pages 7–13"
+        ]
+      },
+      {
+        "section": "§3 Proof of the main results",
+        "physical_pdf_pages": [
+          13,
+          18
+        ],
+        "content": "Inducts on square-free N prime factors to prove Theorem 1.1 using the coprimality of lower-divisor factors and Φ_N(z^{sp}); reduces general N to its square-free kernel; applies Theorem 1.1 to T_n; proves coefficient recursion via generalized Vieta and binary coefficient bound via CRT-compatible root indices.",
+        "printed_pdf_pages": [
+          "article pages 13–18"
+        ]
+      },
+      {
+        "section": "Appendix A.1 alternate proof of Corollary 1.2 identity",
+        "physical_pdf_pages": [
+          18,
+          22
+        ],
+        "content": "Gives a longer elementary derivation of the first Ramanujan-sum identity using Hölder identity, Möbius/totient sums and divisor decomposition.",
+        "printed_pdf_pages": [
+          "article pages 18–22"
+        ]
+      },
+      {
+        "section": "Appendix A.2 case ω(n)=2",
+        "physical_pdf_pages": [
+          22,
+          23
+        ],
+        "content": "Writes the Corollary 1.2 identities explicitly for two distinct prime divisors, separately treats the even-smallest-prime case, and records the μ(n)≠0 range refinements.",
+        "printed_pdf_pages": [
+          "article pages 22–23"
+        ]
+      },
+      {
+        "section": "Acknowledgments, declarations, OA notice, references",
+        "physical_pdf_pages": [
+          23,
+          24
+        ],
+        "content": "Reads acknowledgments, author contributions, funding/data/conflict declarations, CC BY 4.0 notice, all 19 references and publisher note.",
+        "printed_pdf_pages": [
+          "article pages 23–24"
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B11-002.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B11-002.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B11-003",
+    "title": "On Testing the Divisibility of Lacunary Polynomials by Cyclotomic Polynomials",
+    "authors": [
+      "Michael Filaseta",
+      "Andrzej Schinzel"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.1090/S0025-5718-03-01589-8",
+    "url": "https://doi.org/10.1090/S0025-5718-03-01589-8",
+    "alternate_urls": [
+      "https://people.math.sc.edu/filaseta/papers/cycltestpap.pdf"
+    ],
+    "version": "Author-hosted manuscript dated 30 August 2002, 11 physical pages (unnumbered title leaf plus manuscript pages 1–10); published in Mathematics of Computation 73(246) (2004), pp. 957–965. Acquired file is the author manuscript, not the publisher-paginated copy.",
+    "reason": "Sparse-integer algorithm for deciding whether a given integer polynomial has a cyclotomic divisor; applicable to the 0–1 target mask as a screening method, not to arbitrary real probability factors.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "56e0a28344b2fcede1ccf8df7cfd0caa45fe936a15dbea3f68375065df1e4589",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Algorithmic test for cyclotomic divisors of sparse/lacunary integer polynomials given as coefficient–exponent pairs; fixed term count gives polynomial running time in input bit length."
+    },
+    "section_coverage": [
+      {
+        "section": "Title leaf",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "content": "Read title, author names, manuscript date and acknowledgements footnote.",
+        "printed_pdf_pages": [
+          "unnumbered title leaf"
+        ]
+      },
+      {
+        "section": "§1 Introduction and Main Theorems",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "content": "States sparse Z[x] input model, Theorems 1–2, reduced exponent/minimal vanishing-sum mechanism, corollary constraining possible cyclotomic orders, and specific-order Theorem 3.",
+        "printed_pdf_pages": [
+          1,
+          3
+        ]
+      },
+      {
+        "section": "§2 Proof of Theorem 1: Algorithm A and correctness",
+        "physical_pdf_pages": [
+          4,
+          8
+        ],
+        "content": "Defines exponent reduction ω modulo x^m−1; gives Algorithm A, φ(m)>deg f rejection, product by x^{m/p}−1 for each distinct p|m, and proves final zero residue iff Φ_m divides f; analyzes bit growth and runtime.",
+        "printed_pdf_pages": [
+          3,
+          7
+        ]
+      },
+      {
+        "section": "§2 Proof of Theorem 1: Algorithm B and global complexity",
+        "physical_pdf_pages": [
+          8,
+          10
+        ],
+        "content": "Enumerates admissible prime sets/orders using 2+Σ(p−2)≤N and prime exponent/degree bounds; applies Algorithm A to candidates; derives the asymptotic runtime of Theorem 1.",
+        "printed_pdf_pages": [
+          7,
+          9
+        ]
+      },
+      {
+        "section": "References",
+        "physical_pdf_pages": [
+          11,
+          11
+        ],
+        "content": "Read sole reference, Conway–Jones minimal vanishing sums of roots of unity.",
+        "printed_pdf_pages": [
+          10
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B11-003.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B11-003.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B11-004",
+    "title": "On three questions concerning 0,1-polynomials",
+    "authors": [
+      "Michael Filaseta",
+      "Carrie Finch",
+      "Charles Nicol"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.5802/jtnb.549",
+    "url": "https://doi.org/10.5802/jtnb.549",
+    "alternate_urls": [
+      "https://jtnb.centre-mersenne.org/item/10.5802/jtnb.549.pdf"
+    ],
+    "version": "Journal de Théorie des Nombres de Bordeaux 18(2) (2006), pp. 357–370. Complete Numdam/CEDRAM PDF: 15 physical pages, including one archive/front-notice page and the 14-page article.",
+    "reason": "Structured 0–1 polynomial irreducibility and cyclotomic-order results; these give restricted integer-mask examples and criteria but do not resolve arbitrary real nonnegative convolution factors.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "c23a1ad5cf99212ba98e85752b9be47a611e0644b3c1de98eb3230334a110651",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Exact reducibility/irreducibility methods for 0–1 polynomials with prescribed exponent patterns. Theorem 4.1 uses coefficient indices a_{4^j} and constructs exponents among 4^k; Lemma 4.6 gives the cyclotomic-order bound m|2^{2k'_1+1} for integer polynomials with nonconstant exponents 4^{k'_j}."
+    },
+    "section_coverage": [
+      {
+        "section": "Archive/copyright front leaf",
+        "physical_pdf_pages": [
+          1,
+          1
+        ],
+        "content": "Read repository copyright/legal notice and archival note; no mathematical claims.",
+        "printed_pdf_pages": [
+          "front matter"
+        ]
+      },
+      {
+        "section": "§1 Introduction and setup",
+        "physical_pdf_pages": [
+          2,
+          4
+        ],
+        "content": "States the three questions, defines 0–1-polynomial, reciprocal/non-reciprocal parts and root-of-unity notation; outlines answers.",
+        "printed_pdf_pages": [
+          357,
+          359
+        ]
+      },
+      {
+        "section": "§2 First question: terminating reducibility sequence",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "content": "Analyzes reciprocal factors via g~tilde g−x^deg g and nonreciprocal factors via the equal-term-count reciprocal criterion, exponent-by-exponent reconstruction, a root-modulus estimate and a finite computational check.",
+        "printed_pdf_pages": [
+          359,
+          361
+        ]
+      },
+      {
+        "section": "§3 Second question: subset reducibility obstruction",
+        "physical_pdf_pages": [
+          6,
+          8
+        ],
+        "content": "Proves Theorem 3.1: a triple of exponents cannot have all three trinomials reducible; uses cyclotomic roots, 3-adic valuation and parity of 2-adic valuations.",
+        "printed_pdf_pages": [
+          361,
+          363
+        ]
+      },
+      {
+        "section": "§4 Third question, Lemmas 4.1–4.6 and Theorem 4.1",
+        "physical_pdf_pages": [
+          8,
+          14
+        ],
+        "content": "Builds an infinite set of exponents whose finite 0–1 masks are irreducible over Q. Theorem 4.1 uses the nested sequence indices a_{4^j}, b_j=a_{4^j}, and recursively selected exponents 4^k (not 4j/4k). Schinzel’s large-exponent criterion reduces reducibility to reciprocal factors; a fixed-polynomial/difference argument removes non-cyclotomic reciprocal factors. Lemma 4.6 on physical pp. 10–12 applies to F(x)=c_0+Σ c_j x^{4^{k'_j}} and bounds a cyclotomic index by m|2^{2k'_1+1}; its physical p. 11 unit-Galois trace is 0=c_0φ(m)+μ(m)Σc_j, hence Σc_j=−c_0μ(m)φ(m). Mann minimal vanishing sums and square-unit subgroup traces complete the cyclotomic exclusion; recursive threshold selection completes the construction. Rendered formula checks cover physical pp. 9–14.",
+        "printed_pdf_pages": [
+          363,
+          369
+        ]
+      },
+      {
+        "section": "Comments and acknowledgements",
+        "physical_pdf_pages": [
+          14,
+          14
+        ],
+        "content": "Records the consequence for 0–1 polynomials with at least three terms whose exponents are powers 4^k (nested powers): no cyclotomic factor; also gives a 2^{2k+1} exponent variant, plus acknowledgements.",
+        "printed_pdf_pages": [
+          369
+        ]
+      },
+      {
+        "section": "References and author affiliations",
+        "physical_pdf_pages": [
+          15,
+          15
+        ],
+        "content": "Read all eight references and all author affiliations/contact lines.",
+        "printed_pdf_pages": [
+          370
+        ]
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B11-004.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B11-004.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B11-005",
+    "title": "Unsupported Cyclotomic Divisors in Three-Prime Integer Tilings",
+    "authors": [
+      "Hu Tan",
+      "Ying Zhang"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2609.06677",
+    "url": "https://arxiv.org/abs/2609.06677v1",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2609.06677v1"
+    ],
+    "version": "arXiv:2609.06677v1, submitted 2026-09-06; 19 physical pages; author preprint.",
+    "reason": "Conditional structural and constructive results for exact cyclotomic divisors of finite cyclic integer-tiling masks with three distinct primes; includes sharp small periods and all complements for an Apéry construction.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "58859be26eb7748326f9a0e83e987e0654d8ee50b8567d965dc92803e1086a0b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Conditional auxiliary use for a candidate already shown to be a 0–1 mask tiling in a specified finite cyclic group: exact cyclotomic signatures, unsupported-order constructions, and three-prime classification. A175 does not supply that representation; integerization of arbitrary real PGF factors and the ordinary-to-cyclic/no-wrap bridge remain unproved."
+    },
+    "note": "D04 acquisition record D04-INT-B11-005 verifies PDF identity/hash/pages but is not a body read. L07 read all 19 physical pages of the local copy and checked catalogue/canonical_read_index.json by arXiv ID, DOI, title and SHA-256; no canonical full-read record matched. Review pending. See theorem/proof card and physical-page coverage. The finite cyclic results do not settle general Coven–Meyerowitz or arbitrary nonnegative-real PGF factorization. R04 B11-005 corrections are staged in the helper card: S_A is the full ordinary-mask prime-power signature; exact p^alpha||s is used only for unsupported orders. The card's A175 scope paragraph no longer attributes source 006 results to Tan–Zhang.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and main results",
+        "physical_pdf_pages": [
+          1,
+          3
+        ],
+        "content": "Defines unsupported cyclotomic divisors in a specified cyclic group, the square-period three-prime class E(p,q,r), Theorem 1.1 and Corollary 1.2; distinguishes this specialized result from general tiling conjectures."
+      },
+      {
+        "section": "§2 Apéry smoothing and two-prime generators",
+        "physical_pdf_pages": [
+          3,
+          5
+        ],
+        "content": "Proves the numerical-semigroup/Apéry smoothing identity and states the correct rational polynomial for general coprime generators; uses it in later explicit constructions."
+      },
+      {
+        "section": "§3 Fourier normalization at square period",
+        "physical_pdf_pages": [
+          5,
+          6
+        ],
+        "content": "Proves Theorem 3.1: necessary-and-sufficient high/low CRT digit normal form, coordinate separation condition (K), standard complement, and the extra low-character vanishing criterion."
+      },
+      {
+        "section": "§4 Two-cylinder alternative",
+        "physical_pdf_pages": [
+          6,
+          7
+        ],
+        "content": "Derives layer alternatives from (K), including the decomposition of nonconstant low functions into support cylinders."
+      },
+      {
+        "section": "§5 Confinement contradiction",
+        "physical_pdf_pages": [
+          7,
+          10
+        ],
+        "content": "Proves the three-capacity inequalities and their integer contradiction, including separate small-prime cases; obtains Theorem 5.3 and checks why the low-order zero is essential."
+      },
+      {
+        "section": "§6 Semigroup criterion and complete layer form",
+        "physical_pdf_pages": [
+          10,
+          12
+        ],
+        "content": "Proves Theorem 6.1 by additive integer matrices and character-basis independence; gives complete layers, primitive quotient, complement slices, and all four stabilizer orders."
+      },
+      {
+        "section": "§7 Apéry constructions and complements",
+        "physical_pdf_pages": [
+          12,
+          14
+        ],
+        "content": "Proves Theorem 7.1 from the Apéry core and cyclic mask identity; proves Theorem 7.4 parameterizes every complement, counts them, and determines their signatures."
+      },
+      {
+        "section": "§8 Sharp small periods and explicit examples",
+        "physical_pdf_pages": [
+          15,
+          16
+        ],
+        "content": "Proves Proposition 8.1 sharp period/cardinality lower bounds; reads the explicit 180/900 periodic and aperiodic cyclic examples and checks their stated signatures."
+      },
+      {
+        "section": "Appendix A: complete enumeration at modulus 900",
+        "physical_pdf_pages": [
+          17,
+          18
+        ],
+        "content": "Reads the necessary-and-sufficient layer classification, exact constant-term counts, stabilizer counts, periodic-core subclass, and explanation that enumeration supplements rather than replaces structural proof."
+      },
+      {
+        "section": "References and end matter",
+        "physical_pdf_pages": [
+          19,
+          19
+        ],
+        "content": "Reads complete reference list and end page."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B11-005.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B11-005.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B11-006",
+    "title": "Combinatorial and harmonic-analytic methods for integer tilings",
+    "authors": [
+      "Izabella Łaba",
+      "Itay Londner"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": "10.1017/fmp.2022.3",
+    "url": "https://doi.org/10.1017/fmp.2022.3",
+    "alternate_urls": [
+      "https://doi.org/10.1017/fmp.2022.3"
+    ],
+    "version": "Published version of record, Forum of Mathematics, Pi 10:e8 (2022), pp. 1–46; complete 46-physical-page PDF.",
+    "reason": "Exact finite-cyclic integer-mask methods: divisor exclusion, standard complements, Fourier box products, cuboid cyclotomic tests, and conditional subgroup/slab/fiber reductions.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "dfbc92b27747c10f63b731e0d46393e5d5fa6c58c9353aad347e8d2a3b59dbc5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Auxiliary methods after a finite cyclic 0–1 tiling model and its period are proved: exact divisor-exclusion, N-box/Fourier and cuboid criteria, and hypotheses for slab/fiber reductions. The article leaves general reductions open and does not integerize arbitrary real PGF factors; ordinary convolution-to-cyclic/no-wrap transfer for A175 remains unproved."
+    },
+    "note": "D04 acquisition record D04-INT-B11-006 verifies the published PDF identity/hash/pages but is not a body read. L07 read all 46 physical pages of the local version of record and checked catalogue/canonical_read_index.json by DOI, title and SHA-256; no canonical full-read record matched. Review pending. See exact theorem/proof card and physical-page section coverage. Article section 9 preserves open general reduction questions; the later odd three-prime result is cited as separate work. R04 B11-006 corrections are staged in the helper card: Definition 4.2 uses reciprocal phi(N/m); Lemma 8.10 is recorded as a single M-box coordinate product with its scale and every-b/line hypotheses.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction",
+        "physical_pdf_pages": [
+          1,
+          5
+        ],
+        "content": "Reads article scope, T1/T2 state, cited reductions, the distinction between methods proved here and separate later three-prime results, and announced open problems."
+      },
+      {
+        "section": "§2 Preliminaries",
+        "physical_pdf_pages": [
+          6,
+          9
+        ],
+        "content": "Reads integer-weighted masks in Z[X]/(X^M−1), cyclic convolution, CRT coordinates, plane bounds, cyclotomic divisors, and Sands divisor exclusion."
+      },
+      {
+        "section": "§3 Reformulation of (T2)",
+        "physical_pdf_pages": [
+          9,
+          12
+        ],
+        "content": "Constructs standard complements; proves Proposition 3.4 equivalences among divisor exclusion, standard-complement tiling, T2, and singleton intersections; reads T2-equivalence and its conditional use."
+      },
+      {
+        "section": "§4 Box product",
+        "physical_pdf_pages": [
+          12,
+          18
+        ],
+        "content": "Defines N-boxes and box product, proves Theorem 4.4, Theorem 4.7's Fourier/Ramanujan-sum identity and Proposition 4.9 orthogonality, and completes the converse tiling criterion."
+      },
+      {
+        "section": "§5 Cuboids",
+        "physical_pdf_pages": [
+          18,
+          23
+        ],
+        "content": "Defines classic and multiscale cuboids/templates; proves Proposition 5.5, cyclotomic divisibility iff all classic cuboid evaluations vanish, by Fourier nullity and induction over prime layers."
+      },
+      {
+        "section": "§6 Tiling reductions",
+        "physical_pdf_pages": [
+          23,
+          29
+        ],
+        "content": "Reads subgroup reduction, its prime-order transformation, slab definition and periodic extension, Theorem 6.5's three equivalent criteria, and conditional propagation of T2."
+      },
+      {
+        "section": "§7 Saturating sets",
+        "physical_pdf_pages": [
+          29,
+          34
+        ],
+        "content": "Reads box-product saturation, divisor-exclusion geometry, Bispan/Span constraints, no-missing-joints lemma, and the at-most-two-directions result under its fiber assumptions."
+      },
+      {
+        "section": "§8 Fibering, cofibering, and examples",
+        "physical_pdf_pages": [
+          34,
+          41
+        ],
+        "content": "Reads fiber-chain/cofiber definitions, Lemma 8.7 fiber shifts preserving tiling and T2-status, Lemma 8.10's saturated one-dimensional structure, Corollary 8.11, and examples with their hypotheses."
+      },
+      {
+        "section": "§9 Conjectures and open questions",
+        "physical_pdf_pages": [
+          41,
+          45
+        ],
+        "content": "Reads open subgroup/slab reduction questions, conjectures on cofiber obstructions and saturating sets, and lower-dimensional subspace bounds."
+      },
+      {
+        "section": "References and end matter",
+        "physical_pdf_pages": [
+          45,
+          46
+        ],
+        "content": "Reads acknowledgements, conflicts statement, and the complete 48-item reference list."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B11-006.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B11-006.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  },
+  {
+    "local_id": "W18-D04-B11-007",
+    "title": "On vanishing sums of roots of unity",
+    "authors": [
+      "T. Y. Lam",
+      "K. H. Leung"
+    ],
+    "year": 2000,
+    "kind": "paper",
+    "doi": "10.1006/jabr.1999.8089",
+    "url": "https://doi.org/10.1006/jabr.1999.8089",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/9511209v1",
+      "https://arxiv.org/pdf/math/9511209v1"
+    ],
+    "version": "Read copy: complete arXiv:math/9511209v1 author preprint dated 1995-11-13, 18 physical pages. Published under canonical title in Journal of Algebra 224(1) (2000), pp. 91–109. Read-page locators refer to the author preprint, not journal pagination.",
+    "reason": "Exact integer group-ring classification of possible weights of vanishing sums of roots of unity, support lower bounds for asymmetric minimal relations, and explicit counterexamples to positive decomposition into translated prime cycles.",
+    "topics": [
+      "A175"
+    ],
+    "sha256": "b010546db8230a39741997807a1110402c4f24fb7e897441e66fc355284ce1ab",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "tool_usage": {
+      "probability-integer-polynomial-factorization": "Auxiliary integer-coefficient root-of-unity test once a finite cyclic order and nonnegative integer multiplicity vector are available: Main Theorem 5.2 classifies possible total weights, while Theorem 4.8 bounds asymmetric minimal support. It does not classify arbitrary nonnegative-real PGF factors or imply that a concrete positive relation decomposes into prime cycles; A175 integerization and cyclic/no-wrap transfer remain unproved."
+    },
+    "note": "D04 acquisition record D04-INT-B11-007 verifies the author-preprint identity/hash/pages but is not a body read. L07 read all 18 physical pages of the v1 preprint, not a journal-paginated version, and checked catalogue/canonical_read_index.json by DOI, title/arXiv ID and SHA-256; no canonical full-read record matched. Review pending. The exact C30 counterexample to nonnegative prime-cycle decomposition is distinguished from the Main Theorem weight-semigroup classification. The revised card also records the v1 scalar-only r=1 and unexpanded Theorem 3.3 statements as applying directly on the squarefree core only; general prime-power exponents are handled by the correct ZG ideal and Theorem 3.1 coset decomposition, illustrated exactly in C4.",
+    "section_coverage": [
+      {
+        "section": "§1 Introduction and Main Theorem statement",
+        "physical_pdf_pages": [
+          1,
+          4
+        ],
+        "content": "Defines weight sets, nonnegative integer group-ring relations, the evaluation kernel, and Main Theorem; clarifies that weights depend only on distinct prime divisors."
+      },
+      {
+        "section": "§2 Rédei–de Bruijn–Schoenberg theorem",
+        "physical_pdf_pages": [
+          4,
+          6
+        ],
+        "content": "Proves the integral kernel generator theorem by prime decomposition and integral tensor bases; exhibits the asymmetric minimal relation and explicitly separates signed generation from positive cycle decomposition."
+      },
+      {
+        "section": "§3 Structure of NG∩ker(φ)",
+        "physical_pdf_pages": [
+          6,
+          8
+        ],
+        "content": "Proves squarefree reduction and the complete one-/two-prime nonnegative-kernel descriptions; obtains prime-cycle classification only in the at-most-two-prime case."
+      },
+      {
+        "section": "§4 Lower Bound Theorem",
+        "physical_pdf_pages": [
+          8,
+          12
+        ],
+        "content": "Proves support comparison Theorem 4.1 by induction and linear disjointness, then the asymmetric minimal support/weight lower bound Theorem 4.8 and Corollary 4.9."
+      },
+      {
+        "section": "§5 Main Theorem and nondecomposition counterexample",
+        "physical_pdf_pages": [
+          12,
+          13
+        ],
+        "content": "Uses decomposition into minimal positive relations, the lower bound, and the two-generator Frobenius threshold to prove the exact weight semigroup; Remark 5.3 gives the C30 example ruling out positive prime-cycle generation."
+      },
+      {
+        "section": "§6 Smallest asymmetric minimal relations",
+        "physical_pdf_pages": [
+          13,
+          16
+        ],
+        "content": "Reads equality analysis in the support-comparison theorem, uniqueness at the minimal asymmetric weight/support, and the one-higher-weight example."
+      },
+      {
+        "section": "§7 Representation-theoretic application",
+        "physical_pdf_pages": [
+          17,
+          17
+        ],
+        "content": "Reads the characteristic-zero character application, its integer-character assumptions, proof by adjoining roots, examples, and stated failure in positive characteristic."
+      },
+      {
+        "section": "References and end matter",
+        "physical_pdf_pages": [
+          18,
+          18
+        ],
+        "content": "Reads complete bibliography and author information."
+      }
+    ],
+    "local_pdf": "evidence/fulltexts/W18-D04-B11-007.pdf",
+    "card_path": "evidence/W18/cards/W18-D04-B11-007.md",
+    "tools": [
+      "probability-integer-polynomial-factorization"
+    ],
+    "qualifies_for_tool_source_count": true,
+    "review_status": "passed_R06"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "candidate": "W01-strict-v2",
+  "status": "candidate_only_pending_combined_scope_review",
+  "old_v1_full_read_source_ids": [
+    "M0364",
+    "W01-D04-B06-001",
+    "W01-D04-B06-002",
+    "W01-D04-B06-003",
+    "W01-D04-B06-004",
+    "W01-D04-B06-005",
+    "W01-D04-B06-006",
+    "W01-L11",
+    "W01-L12",
+    "W01-L13",
+    "W01-L14",
+    "W01-L15",
+    "W01-L16",
+    "W01-L17",
+    "W01-L18",
+    "W01-L19",
+    "W01-L20",
+    "W01-L21",
+    "W01-L22",
+    "W01-L23"
+  ],
+  "background_fullread_excluded_source_ids": [
+    "W01-L01",
+    "W01-L02",
+    "W01-L03",
+    "W01-L04",
+    "W01-L05",
+    "W01-L06",
+    "W01-L07",
+    "W01-L08",
+    "W01-L09",
+    "W01-L10"
+  ],
+  "canonical_reuse_ids": [
+    "CANONICAL-PR-fffd4786b8c3",
+    "CANONICAL-PR-e1277389a5a9",
+    "CANONICAL-PR-7209e8dca913"
+  ],
+  "new_fulltext_batches": {
+    "B9": [
+      "B17-003",
+      "B17-004",
+      "B17-012"
+    ],
+    "B10": [
+      "B17-022"
+    ],
+    "B11": [
+      "B18-001",
+      "B18-002",
+      "B18-003"
+    ],
+    "B12": [
+      "B18-004",
+      "B18-005"
+    ]
+  },
+  "batch_coverage_paths": {
+    "B8": "evidence/W01/coverage/B8/reading_coverage.json",
+    "B9": "evidence/W01/coverage/B9/reading_coverage.json",
+    "B10": "evidence/W01/coverage/B10/reading_coverage.json",
+    "B11": "evidence/W01/coverage/B11/reading_coverage.json",
+    "B12": "evidence/W01/coverage/B12/reading_coverage.json"
+  },
+  "v1_coverage_path": "evidence/W01/coverage/v1_original/reading_coverage.json",
+  "note": "Exact reader coverage is copied from frozen v1 or helper artifacts. B9 has three fully read PDFs representing two independent work families."
+}

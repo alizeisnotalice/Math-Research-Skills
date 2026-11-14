@@ -1,0 +1,1713 @@
+[
+  {
+    "local_id": "W21-001",
+    "title": "Markov chains and mappings of distributions on compact spaces",
+    "authors": [
+      "David J. Aldous",
+      "Shi Feng"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.30757/ALEA.v21-53",
+    "url": "https://arxiv.org/abs/2404.01348",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2404.01348",
+      "https://alea.impa.br/articles/v21/21-53.pdf",
+      "https://doi.org/10.30757/ALEA.v21-53"
+    ],
+    "version": "arXiv:2404.01348v1 (31 Mar 2024); ALEA 21 (2024), 1407–1416",
+    "reason": "Direct core source for the fixed-parameter order-statistic kernel's unique stationary law and a rigorous k=2 interval fixed-point classification; its proof separates inner mixing from outer law-map dynamics.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified against arXiv primary record, journal PDF/front page, and DOI record",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W21-001.pdf",
+    "sha256": "82a5a440004f967038f7603420b0f9881e0c783663487ef55a19d4cd07ef0a91",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–15, complete paper; Theorem 1 and interval proof formulas rendered and visually checked on PDF pp.5,10–11.",
+    "review_status": "pending",
+    "prior_worker_record": "W04/W04S025; this W21 entry records an independent current-task full read of the identical SHA-256 PDF, not an additional distinct work/version.",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-001"
+  },
+  {
+    "local_id": "W21-002",
+    "title": "Markov chains and mappings of distributions on compact spaces II: Numerics and Conjectures",
+    "authors": [
+      "David J. Aldous",
+      "Madelyn Cruz",
+      "Shi Feng"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2403.18153",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2403.18153"
+    ],
+    "version": "arXiv:2403.18153v1 (26 Mar 2024); author manuscript states that it is not intended for formal publication",
+    "reason": "Primary source for A121 Conjecture 5 and A122's general-k interval question; its numerical results and stated proved boundaries distinguish open claims from established results.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified against arXiv primary record and PDF front page",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W21-002.pdf",
+    "sha256": "b6d6a98febfd612528f2aec1e23a1989ff1caaba588f95d0efb32f461eaa078f",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–29, complete manuscript; key A122 density-only criterion rendered and visually checked on PDF p.22.",
+    "review_status": "pending",
+    "prior_worker_record": "W04/W04S026; this W21 entry records an independent current-task complete read of the identical SHA-256 PDF, not an additional distinct work/version.",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-002"
+  },
+  {
+    "local_id": "W21-003",
+    "candidate_id": "C001",
+    "title": "Nonlinear Markov Chains with Finite State Space: Invariant Distributions and Long-Term Behaviour",
+    "authors": [
+      "Berenice Anne Neumann"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": "10.1017/jpr.2022.23",
+    "url": "https://arxiv.org/abs/2007.02555",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2007.02555.pdf",
+      "https://doi.org/10.1017/jpr.2022.23",
+      "https://arxiv.org/abs/2007.02555"
+    ],
+    "version": "arXiv:2007.02555v1 (6 Jul 2020); Cambridge confirms same title/author in J. Appl. Probab. 60(1) (2023), 30–44, DOI 10.1017/jpr.2022.23; local preprint not publisher layout.",
+    "reason": "Candidate method lead only; Fixedpoint existence under continuity, Brouwer-degree uniqueness criterion, and examples of nonlinear-chain long-term behavior; closest finite-state nonlinear Markov comparison for A121/A122.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; identity and version metadata checked against D03 handoff",
+    "identity_status": "verified_first_and_last_page_author_title_version",
+    "local_pdf": "evidence/fulltexts/W21-003.pdf",
+    "sha256": "554d3dedd465ca892e090174774a7aa04e1810ff4bb7a1b6ed3565e00bc76767",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–16",
+    "review_status": "pending",
+    "candidate_use": "Nonlinear-chain semigroup and continuous-time generator results; exact update differs from nested stationary-law map.",
+    "transfer_boundary": "Continuous-time equation m˙=mQ(m) and equilibrium mᵀQ(m)=0 are distinct from θ↦π(Kθ); match update, topology, and generator assumptions before use.",
+    "access_note": "downloaded_public_arxiv_preprint; acquired by D03, read by W21; publication text equivalence only as specified in version field",
+    "priority": 1,
+    "category": "finite-state nonlinear Markov law dynamics",
+    "pdf_page_count": 16,
+    "acquisition_worker": "D03"
+  },
+  {
+    "local_id": "W21-004",
+    "candidate_id": "C002",
+    "title": "On Ergodic Properties of Nonlinear Markov Chains and Stochastic McKean-Vlasov Equations",
+    "authors": [
+      "Oleg Butkovsky"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1137/S0040585X97986825",
+    "url": "https://arxiv.org/abs/1311.6367",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1311.6367.pdf",
+      "https://doi.org/10.1137/S0040585X97986825",
+      "https://arxiv.org/abs/1311.6367"
+    ],
+    "version": "arXiv:1311.6367v1 (25 Nov 2013), 17-page preprint; SIAM metadata identifies the published counterpart as Theory of Probability & Its Applications 58(4) (2014), 661–674, DOI 10.1137/S0040585X97986825. No publisher-layout PDF/text-equivalence comparison was made.",
+    "reason": "Full-text source for a sharp global Dobrushin criterion for the nonlinear Markov update μ↦μP_μ and a small bounded McKean–Vlasov perturbation theorem; A122 has the same invariant-law equation form if P_μ=K_μ, subject to verifying all assumptions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; arXiv v1 identity/version checked against official record and D03 first/last-page record; SIAM publication metadata checked",
+    "identity_status": "verified_first_last_page_and_arxiv_v1",
+    "local_pdf": "evidence/fulltexts/W21-004.pdf",
+    "sha256": "eab8ab19fb5369ba740e317508b9d76572d3b03586ba4f31ec35925b76aabf5c",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–17, complete; assumptions and Theorem 2.2 rendered/checked on pp.3–4.",
+    "review_status": "pending",
+    "candidate_use": "Theorem 2.2 proves uniqueness and quantitative convergence for μ↦μP_μ when cross-state/law overlap is at least α and same-state law sensitivity has constant λ≤α; the proof gives d_(n+1)≤d_n(1−α+λ−λd_n/2). Theorem 3.1 treats a dissipative diffusion with small bounded nonlinear drift.",
+    "transfer_boundary": "A122 equation θK_θ=θ is of the nonlinear-kernel invariant-law form when P_μ=K_μ, but the target has not been shown to satisfy the global cross-state/law Dobrushin bound and same-state law Lipschitz bound. The theorem concerns μ↦μP_μ; it does not give convergence of A121 outer iteration θ↦π(K_θ). The SDE theorem does not transfer to the finite-state rank kernel without a separate representation and assumptions.",
+    "access_note": "D03 acquired public arXiv v1 PDF; W21 read all pages and checked SHA/page count against D03 identity record. Publisher metadata checked; no publisher-layout comparison.",
+    "priority": 1,
+    "category": "nonlinear Markov contraction and ergodicity",
+    "pdf_page_count": 17,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-004"
+  },
+  {
+    "local_id": "W21-005",
+    "candidate_id": "C003",
+    "title": "Ergodicity of Nonlinear Markov Operators on the Finite Dimensional Space",
+    "authors": [
+      "Mansoor Saburov"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.1016/j.na.2016.05.006",
+    "url": "https://doi.org/10.1016/j.na.2016.05.006",
+    "alternate_urls": [
+      "https://doi.org/10.1016/j.na.2016.05.006"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Dobrushin ergodicity coefficient for stochastic hypermatrices and strong/uniform ergodicity criteria for nonlinear Markov operators.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Dobrushin ergodicity coefficient for stochastic hypermatrices and strong/uniform ergodicity criteria for nonlinear Markov operators.",
+    "transfer_boundary": "Ergodicity concerns repeated state/law transitions under hypermatrix structure, not automatically the outer stationary-law map. Verify exact matrix convention and irreducibility assumptions.",
+    "access_note": "Publisher article record verified; request OA author copy or institutional full text if no seed copy.",
+    "priority": 2,
+    "category": "finite-dimensional nonlinear Markov operators"
+  },
+  {
+    "local_id": "W21-006",
+    "candidate_id": "C004",
+    "title": "A Class of Mean Field Interaction Models for Computer and Communication Systems",
+    "authors": [
+      "Michel Benaim",
+      "Jean-Yves Le Boudec"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1016/j.peva.2008.03.005",
+    "url": "https://doi.org/10.1016/j.peva.2008.03.005",
+    "alternate_urls": [
+      "https://doi.org/10.1016/j.peva.2008.03.005"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Mean-field limits of interacting Markov chains and stationary-regime cautions; useful for separating a deterministic law evolution from stationary approximation.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Mean-field limits of interacting Markov chains and stationary-regime cautions; useful for separating a deterministic law evolution from stationary approximation.",
+    "transfer_boundary": "Finite-horizon mean-field convergence does not prove convergence of the deterministic limit's iterates or of Phi; stationary interchange requires separate hypotheses.",
+    "access_note": "Journal metadata verified; author/institution PDF may be available, otherwise request retrieval.",
+    "priority": 3,
+    "category": "finite-population mean-field law dynamics"
+  },
+  {
+    "local_id": "W21-007",
+    "candidate_id": "C005",
+    "title": "On Mean Field Convergence and Stationary Regime",
+    "authors": [
+      "Michel Benaim",
+      "Jean-Yves Le Boudec"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1111.5710",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1111.5710.pdf",
+      "https://arxiv.org/abs/1111.5710"
+    ],
+    "version": "arXiv:1111.5710v1 (24 Nov 2011), 6-page author preprint. The official arXiv record lists no journal reference or DOI; no separate published version was identified in this pass.",
+    "reason": "Full-text stationary-regime limit theorem: under fixed-time conditional convergence to a deterministic measurable process and Feller stochastic systems, weak limit points of invariant probabilities are invariant for the deterministic process.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; arXiv v1 identity/version checked against official record and D03 first/last-page record",
+    "identity_status": "verified_first_last_page_and_arxiv_v1",
+    "local_pdf": "evidence/fulltexts/W21-007.pdf",
+    "sha256": "5a5bcec67c3bab51e4fdc29dfbe33a9562315fc46cf130af6b3d99321e25a8b0",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–6, complete.",
+    "review_status": "pending",
+    "candidate_use": "Theorem 1 passes invariant probabilities to a fixed-time deterministic-process limit using Skorohod representation and dominated convergence; Corollary 1 adds a continuous globally attracting semiflow and tightness to conclude convergence to a Dirac mass.",
+    "transfer_boundary": "This is an N→∞ invariant-probability limit theorem, not convergence of iterates of one fixed law operator. A121 concerns repeated θ↦π(K_θ) at fixed finite state size; no approximation of that map by the stochastic-process family in this paper has been established.",
+    "access_note": "D03 acquired public arXiv v1 PDF; W21 read all 6 pages and checked SHA/page count against D03 identity record.",
+    "priority": 2,
+    "category": "mean-field stationary regime",
+    "pdf_page_count": 6,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-007"
+  },
+  {
+    "local_id": "W21-008",
+    "candidate_id": "C006",
+    "title": "A Class of Markov Processes Associated with Nonlinear Parabolic Equations",
+    "authors": [
+      "Henry P. McKean Jr."
+    ],
+    "year": 1966,
+    "kind": "paper",
+    "doi": "10.1073/pnas.56.6.1907",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC220210/",
+    "alternate_urls": [
+      "https://doi.org/10.1073/pnas.56.6.1907",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC220210/"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Foundational stochastic representation of a nonlinear parabolic law evolution; useful for identifying the continuous-time nonlinear-process meaning of a law-dependent kernel.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Foundational stochastic representation of a nonlinear parabolic law evolution; useful for identifying the continuous-time nonlinear-process meaning of a law-dependent kernel.",
+    "transfer_boundary": "A nonlinear PDE solution flow is not the discrete outer stationary-law iteration in A121/A122; use only as model/definition background.",
+    "access_note": "Full text and PDF publicly available at PMC.",
+    "priority": 4,
+    "category": "nonlinear measure-valued evolution"
+  },
+  {
+    "local_id": "W21-009",
+    "candidate_id": "C007",
+    "title": "A Martingale Approach to the Law of Large Numbers for Weakly Interacting Stochastic Processes",
+    "authors": [
+      "Klaus Oelschlager"
+    ],
+    "year": 1984,
+    "kind": "paper",
+    "doi": "10.1214/aop/1176993301",
+    "url": "https://doi.org/10.1214/aop/1176993301",
+    "alternate_urls": [
+      "https://doi.org/10.1214/aop/1176993301"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Martingale method for law-of-large-numbers limits of weakly interacting stochastic processes; supplies a rigorous route from N-particle systems to deterministic measure dynamics.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Martingale method for law-of-large-numbers limits of weakly interacting stochastic processes; supplies a rigorous route from N-particle systems to deterministic measure dynamics.",
+    "transfer_boundary": "Propagation/finite-time law limit does not imply long-time orbit convergence or stationary-map contraction.",
+    "access_note": "IMS/Project Euclid record; request PDF if absent from seed corpus.",
+    "priority": 5,
+    "category": "mean-field limit and propagation of chaos"
+  },
+  {
+    "local_id": "W21-010",
+    "candidate_id": "C008",
+    "title": "McKean-Vlasov Ito-Skorohod Equations, and Nonlinear Diffusions with Discrete Jump Sets",
+    "authors": [
+      "Carl Graham"
+    ],
+    "year": 1992,
+    "kind": "paper",
+    "doi": "10.1016/0304-4149(92)90138-G",
+    "url": "https://doi.org/10.1016/0304-4149(92)90138-G",
+    "alternate_urls": [
+      "https://doi.org/10.1016/0304-4149(92)90138-G"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; L1 contraction scheme yields existence/uniqueness for a class of nonlinear jump diffusions and pathwise propagation of chaos; a model for proving well-posed law evolution.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "L1 contraction scheme yields existence/uniqueness for a class of nonlinear jump diffusions and pathwise propagation of chaos; a model for proving well-posed law evolution.",
+    "transfer_boundary": "SDE well-posedness/flow uniqueness is not fixedpoint existence or global attraction of a stationary-law map.",
+    "access_note": "Publisher record verified; seek author repository or institutional full text if unavailable locally.",
+    "priority": 6,
+    "category": "nonlinear Markov process existence and uniqueness"
+  },
+  {
+    "local_id": "W21-011",
+    "candidate_id": "C009",
+    "title": "Convergence to Equilibrium for Granular Media Equations and Their Euler Schemes",
+    "authors": [
+      "Florent Malrieu"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1214/aoap/1050689593",
+    "url": "https://projecteuclid.org/journals/annals-of-applied-probability/volume-13/issue-2/Convergence-to-equilibrium-for-granular-media-equations-and-their-Euler/10.1214/aoap/1050689593.full",
+    "alternate_urls": [
+      "https://doi.org/10.1214/aoap/1050689593",
+      "https://projecteuclid.org/journals/annals-of-applied-probability/volume-13/issue-2/Convergence-to-equilibrium-for-granular-media-equations-and-their-Euler/10.1214/aoap/1050689593.full"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Coupling and particle arguments for exponential convergence to equilibrium of a granular-media nonlinear equation, plus an implicit Euler approximation to stationarity.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Coupling and particle arguments for exponential convergence to equilibrium of a granular-media nonlinear equation, plus an implicit Euler approximation to stationarity.",
+    "transfer_boundary": "Continuous-time contractivity depends on granular-media drift/interaction assumptions; no conclusion for a discontinuous finite-simplex Phi without a proved metric comparison.",
+    "access_note": "Project Euclid full text available.",
+    "priority": 7,
+    "category": "nonlinear measure-flow convergence"
+  },
+  {
+    "local_id": "W21-012",
+    "candidate_id": "C010",
+    "title": "Quantitative Harris-Type Theorems for Diffusions and McKean-Vlasov Processes",
+    "authors": [
+      "Andreas Eberle",
+      "Arnaud Guillin",
+      "Raphael Zimmer"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1090/tran/7576",
+    "url": "https://arxiv.org/abs/1606.06012",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1606.06012.pdf",
+      "https://doi.org/10.1090/tran/7576",
+      "https://arxiv.org/abs/1606.06012"
+    ],
+    "version": "arXiv:1606.06012v2 (last revised 9 Oct 2017), 45-page author preprint. AMS metadata identifies the published counterpart as Transactions of the AMS 371 (2019), 7135–7173, DOI 10.1090/trans/7576. No publisher-layout PDF/text-equivalence comparison was made.",
+    "reason": "Full-text source for explicit Kantorovich contractions of diffusion semigroups under one-sided curvature and Lyapunov drift assumptions, plus reflection-coupling contraction results for small Lipschitz McKean–Vlasov interactions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; arXiv v2 identity/version checked against official record and D03 first/last-page record; AMS publication metadata checked",
+    "identity_status": "verified_first_last_page_and_arxiv_v2",
+    "local_pdf": "evidence/fulltexts/W21-012.pdf",
+    "sha256": "13142f48f4c12936e39a967a897d626c1ea5a67def83767ce724252759836791",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–45, complete; Theorem 2.2 constants and Theorem 2.4 statement rendered/checked on pp.11 and 15.",
+    "review_status": "pending",
+    "candidate_use": "Theorems 2.1–2.2 give additive-metric and multiplicative-semimetric contractions for a specified diffusion semigroup with explicit coupling/Lyapunov constants. Theorems 2.3–2.4 give law-flow contraction or local contraction for specified McKean–Vlasov SDEs.",
+    "transfer_boundary": "The contractions concern diffusion semigroups and self-consistent SDE law flows with stated drift, Lyapunov, geometry, interaction, and coupling assumptions; no such representation is established for the finite-state stationary-law map θ↦π(K_θ). Do not transfer a Wasserstein contraction constant to the outer map.",
+    "access_note": "D03 acquired public arXiv v2 PDF; W21 read all 45 pages and checked SHA/page count against D03 identity record. AMS publication metadata checked; no publisher-layout comparison.",
+    "priority": 7,
+    "category": "Wasserstein contraction for nonlinear diffusions",
+    "pdf_page_count": 45,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-012"
+  },
+  {
+    "local_id": "W21-013",
+    "candidate_id": "C011",
+    "title": "Stationary Equilibria of Mean Field Games with Finite State and Action Space",
+    "authors": [
+      "Berenice Anne Neumann"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1007/s13235-019-00345-9",
+    "url": "https://arxiv.org/abs/1901.08803",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1901.08803.pdf",
+      "https://doi.org/10.1007/s13235-019-00345-9",
+      "https://arxiv.org/abs/1901.08803"
+    ],
+    "version": "Official arXiv:1901.08803v2 author preprint, 35 pages; D03 record says last revised 19 Sep 2019, while the title page says 20 Sep 2019. DOI 10.1007/s13235-019-00345-9 identifies the published counterpart; no publisher-PDF text comparison. Reused existing D03 file without copying.",
+    "reason": "Theorem 4.1 proves existence of a stationary MFE for the stated finite-state/action discounted game under A1 by a Kakutani correspondence. Theorem 5.2, assuming irreducibility of Q^d(m) for every deterministic stationary strategy d∈D^s (not only optimal d), identifies the response set as the convex hull of optimal deterministic-policy stationary laws; the reverse inclusion is by occupation-array mixing.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_official_arxiv_v2_record_and_D03_full_pdf_identity",
+    "identity_status": "verified_official_arxiv_v2_title_first_last_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/W21-013.pdf",
+    "sha256": "014c6d4facfe99ec2a09455111c1f552f2da290af338ab5d70f97b871a963a4b",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–35, complete; full physical-page coverage is recorded in reading_coverage.json#W21-013.",
+    "review_status": "pending",
+    "candidate_use": "Theorem 4.1 proves existence of a stationary MFE for the stated finite-state/action discounted game under A1 by a Kakutani correspondence. Theorem 5.2, assuming irreducibility of Q^d(m) for every deterministic stationary strategy d∈D^s (not only optimal d), identifies the response set as the convex hull of optimal deterministic-policy stationary laws; the reverse inclusion is by occupation-array mixing.",
+    "transfer_boundary": "Requires the exact finite-state/action MFG, Lipschitz rate coordinates, continuous rewards, discounted best-response semantics, and (for Theorem 5.2) irreducibility of every deterministic stationary-policy generator. A rank-based kernel stationary-law map is not shown to be this strategy correspondence, and no outer iteration convergence follows.",
+    "access_note": "Reused D03 batch02 considered_not_counted full PDF without copying; L11 read it in full. D03 identity record and local SHA/page count checked; published-text comparison not made.",
+    "priority": 3,
+    "category": "fixedpoint existence and enumeration in finite-state mean-field games",
+    "pdf_page_count": 35,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-013"
+  },
+  {
+    "local_id": "W21-014",
+    "candidate_id": "C012",
+    "title": "A Myopic Adjustment Process for Mean Field Games with Finite State and Action Space",
+    "authors": [
+      "Berenice Anne Neumann"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1007/s00182-023-00866-z",
+    "url": "https://arxiv.org/abs/2008.13420",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2008.13420.pdf",
+      "https://doi.org/10.1007/s00182-023-00866-z",
+      "https://arxiv.org/abs/2008.13420"
+    ],
+    "version": "Official arXiv:2008.13420v1 author preprint, submitted 31 Aug 2020, 24 pages. DOI 10.1007/s00182-023-00866-z identifies published counterpart; no publisher PDF or text-equivalence comparison.",
+    "reason": "Theorem 3.2 gives existence for a finite-state/action myopic-adjustment differential inclusion. Theorems 4.2/4.4 give local exponential stability under distinct constant-generator or differentiable-Jacobian hypotheses; Theorem 5.1 gives two-policy global alternatives under its switching-surface and nonlinear-flow assumptions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_official_arxiv_v1_record_and_D03_full_pdf_identity",
+    "identity_status": "verified_official_arxiv_v1_title_first_last_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/W21-014.pdf",
+    "sha256": "2c39e47ba180136308c0795c9ddc54196a1516511f152a8f23da64c385050ac9",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–24, complete; full physical-page coverage is recorded in reading_coverage.json#W21-014.",
+    "review_status": "pending",
+    "candidate_use": "Theorem 3.2 gives existence for a finite-state/action myopic-adjustment differential inclusion. Theorems 4.2/4.4 give local exponential stability under distinct constant-generator or differentiable-Jacobian hypotheses; Theorem 5.1 gives two-policy global alternatives under its switching-surface and nonlinear-flow assumptions.",
+    "transfer_boundary": "The process is a set-valued continuous-time MFG adjustment inclusion, not the discrete map theta↦pi(K_theta). Global convergence needs exactly two uniquely optimal policies in regions, a regular switching surface, and convergence of both nonlinear flows; local stability hypotheses are separate.",
+    "access_note": "D03 batch03 acquired the official arXiv v1 PDF; L11 read all physical pages. D03 identity record, local SHA and page count checked; publisher-text comparison not made.",
+    "priority": 5,
+    "category": "outer equilibrium adjustment dynamics",
+    "pdf_page_count": 24,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-014"
+  },
+  {
+    "local_id": "W21-015",
+    "candidate_id": "C013",
+    "title": "On the Behaviour of Trajectories and the Ergodic Hypothesis for Quadratic Mappings of a Simplex",
+    "authors": [
+      "M. I. Zakharevich"
+    ],
+    "year": 1978,
+    "kind": "paper",
+    "doi": "10.1070/RM1978v033n06ABEH003890",
+    "url": "https://www.mathnet.ru/eng/rm3594",
+    "alternate_urls": [
+      "https://doi.org/10.1070/RM1978v033n06ABEH003890",
+      "https://www.mathnet.ru/eng/rm3594"
+    ],
+    "version": "Official MathNet English translation, Communications of the Moscow Mathematical Society 33:6 (1978), pp.265–266; translated from Uspekhi Mat. Nauk 33:6, pp.207–208. DOI 10.1070/RM1978v033n06ABEH003890.",
+    "reason": "The two-page source states arbitrarily long visits to cyclic order regions and nonconvergent Cesàro averages for its explicit quadratic simplex map; the product xyz drives the proof. The p.2 geometric product estimate is outside a center neighborhood, while the eventual-avoidance transition is asserted without a separate justification and Theorem 2 depends on it; Note 1 has a disconnected-cluster-set inconsistency.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_official_mathnet_record_and_english_translation_pdf_identity",
+    "identity_status": "verified_official_mathnet_english_translation_first_last_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/W21-015.pdf",
+    "sha256": "c27d3d2bbb3b4b54609f28be9854049dcf7bd6038eb771df5724d3646453c634",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–2, complete; full physical-page coverage is recorded in reading_coverage.json#W21-015.",
+    "review_status": "pending",
+    "candidate_use": "The two-page source states arbitrarily long visits to cyclic order regions and nonconvergent Cesàro averages for its explicit quadratic simplex map; the product xyz drives the proof. The p.2 geometric product estimate is outside a center neighborhood, while the eventual-avoidance transition is asserted without a separate justification and Theorem 2 depends on it; Note 1 has a disconnected-cluster-set inconsistency.",
+    "transfer_boundary": "Exact-map source claim for interior initial points other than the center; its proof chain has the stated eventual-avoidance gap, and Note 1 is not evidence. It is not a result for a rational stationary-law map without exact representation or conjugacy.",
+    "access_note": "D03 batch03 acquired the official MathNet English translation PDF; L11 read both physical pages. D03 identity record, local SHA and page count checked.",
+    "priority": 3,
+    "category": "simplex dynamics counterexamples",
+    "pdf_page_count": 2,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-015"
+  },
+  {
+    "local_id": "W21-016",
+    "candidate_id": "C014",
+    "title": "Quadratic Stochastic Operators, Lyapunov Functions, and Tournaments",
+    "authors": [
+      "R. N. Ganikhodzhaev"
+    ],
+    "year": 1993,
+    "kind": "paper",
+    "doi": "10.1070/SM1993v076n02ABEH003423",
+    "url": "https://www.mathnet.ru/eng/sm1065",
+    "alternate_urls": [
+      "https://doi.org/10.1070/SM1993v076n02ABEH003423",
+      "https://www.mathnet.ru/eng/sm1065"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Constructs multiplicative Lyapunov functions for a distinguished QSO class and bounds omega-limit sets; a concrete route for searching for strict descent functions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Constructs multiplicative Lyapunov functions for a distinguished QSO class and bounds omega-limit sets; a concrete route for searching for strict descent functions.",
+    "transfer_boundary": "The theorem is restricted to its QSO/tournament class; A121 Phi must first be shown to be in that class.",
+    "access_note": "MathNet full text and English PDF available.",
+    "priority": 1,
+    "category": "simplex Lyapunov methods"
+  },
+  {
+    "local_id": "W21-017",
+    "candidate_id": "C015",
+    "title": "On a Necessary Condition for the Ergodicity of Quadratic Operators Defined on the Two-Dimensional Simplex",
+    "authors": [
+      "N. N. Ganikhodzhaev",
+      "D. V. Zanin"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.1070/RM2004v059n03ABEH000744",
+    "url": "https://www.mathnet.ru/eng/rm744",
+    "alternate_urls": [
+      "https://doi.org/10.1070/RM2004v059n03ABEH000744",
+      "https://www.mathnet.ru/eng/rm744"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Gives a necessary condition for the ergodic-average property for QSO on the 2-simplex, useful for low-dimensional obstruction checks.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Gives a necessary condition for the ergodic-average property for QSO on the 2-simplex, useful for low-dimensional obstruction checks.",
+    "transfer_boundary": "Ergodic averages are not pointwise orbit convergence, and the operator class is quadratic stochastic; neither conclusion directly settles A121.",
+    "access_note": "MathNet English full-text PDF available.",
+    "priority": 4,
+    "category": "simplex dynamics obstructions"
+  },
+  {
+    "local_id": "W21-018",
+    "candidate_id": "C016",
+    "title": "(G,mu)-Quadratic Stochastic Operators",
+    "authors": [
+      "J. Blath",
+      "U. U. Jamilov",
+      "M. Scheutzow"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1080/10236198.2014.906591",
+    "url": "https://arxiv.org/abs/1307.1265",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1307.1265.pdf",
+      "https://doi.org/10.1080/10236198.2014.906591",
+      "https://arxiv.org/abs/1307.1265"
+    ],
+    "version": "arXiv:1307.1265v1 (4 Jul 2013); Taylor & Francis metadata matches title/authors in J. Difference Equations Appl. 20(8) (2014), 1258–1267, DOI 10.1080/10236198.2014.906591; no text comparison.",
+    "reason": "Full-text comparator for almost-everywhere convergence in a group-indexed QSO class; Theorem 3.9 controls distance to uniformity on the current support coset, while full support gives convergence to the center.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; identity and version metadata checked against D03 handoff",
+    "identity_status": "verified_first_and_last_page_author_title_version",
+    "local_pdf": "evidence/fulltexts/W21-018.pdf",
+    "sha256": "3ecdbb61e9ec2b70fd077b5d2336938af389dab34c91050481e37cfde504ef90",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–10",
+    "review_status": "pending",
+    "candidate_use": "Theorem 3.9 proves convergence to uniformity on the current support coset and periodic-orbit criteria; for full-support simplex points this is convergence to the center.",
+    "transfer_boundary": "Requires exact group-indexed coefficients and coset algebra; boundary cosets may move periodically. Theorem 3.11 printed log-log rate is undefined near zero, so use only the separately derived rate from the proof recurrence. No QSO identity for Phi is established.",
+    "access_note": "downloaded_public_arxiv_preprint; acquired by D03, read by W21; publication text equivalence only as specified in version field",
+    "priority": 1,
+    "category": "a.e. convergence and periodic simplex orbits",
+    "pdf_page_count": 10,
+    "acquisition_worker": "D03"
+  },
+  {
+    "local_id": "W21-019",
+    "candidate_id": "C017",
+    "title": "On Regularity, Transitivity, and Ergodic Principle for Quadratic Stochastic Volterra Operators",
+    "authors": [
+      "Mansoor Saburov"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1111.3101",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1111.3101.pdf",
+      "https://arxiv.org/abs/1111.3101"
+    ],
+    "version": "Official arXiv:1111.3101v1 author preprint, submitted 14 Nov 2011, 5 pages. No journal reference or DOI appears in the record; no separate published version identified in this pass.",
+    "reason": "The unnumbered main theorem states equivalence for transversal Volterra QSOs between regularity, tournament transitivity, equal-support Ergodic principle, and asymptotic regularity. The five-page source contains no proof; cited [3–4] remain unaudited. Its introduction calls a displayed cyclic map non-Volterra, but factoring its coordinates shows it is Volterra and transversal.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_official_arxiv_v1_record_and_D03_full_pdf_identity",
+    "identity_status": "verified_official_arxiv_v1_title_first_last_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/W21-019.pdf",
+    "sha256": "4a031b498ba069d3f055a0a2bb6c1ff2fb4525e1f5205ebeb8aebf3d19e64c5c",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–5, complete; full physical-page coverage is recorded in reading_coverage.json#W21-019.",
+    "review_status": "pending",
+    "candidate_use": "The unnumbered main theorem states equivalence for transversal Volterra QSOs between regularity, tournament transitivity, equal-support Ergodic principle, and asymptotic regularity. The five-page source contains no proof; cited [3–4] remain unaudited. Its introduction calls a displayed cyclic map non-Volterra, but factoring its coordinates shows it is Volterra and transversal.",
+    "transfer_boundary": "Requires a Volterra QSO under the explicit global transversality standing assumption declared on p.4. The main theorem proof is absent and cited [3–4] are unaudited; the intro example label conflicts with its displayed formula. It does not cover general simplex or stationary-law maps.",
+    "access_note": "D03 batch03 acquired the official arXiv v1 PDF; L11 read all five physical pages. D03 identity record, local SHA and page count checked; no separate journal version identified in this pass.",
+    "priority": 4,
+    "category": "simplex orbit and ergodic-principle criteria",
+    "pdf_page_count": 5,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-019",
+    "proof_verified": false,
+    "proof_status": "The main equivalence theorem is stated but not proved in this five-page manuscript; references [3–4] were not independently audited."
+  },
+  {
+    "local_id": "W21-020",
+    "candidate_id": "C018",
+    "title": "Ganikhodzhaev's Conjecture on Mean Ergodicity of Quadratic Stochastic Operators",
+    "authors": [
+      "Mansoor Saburov",
+      "K. Saburov"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1134/S1995080220060165",
+    "url": "https://doi.org/10.1134/S1995080220060165",
+    "alternate_urls": [
+      "https://doi.org/10.1134/S1995080220060165"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Constructs higher-dimensional QSO counterexamples to mean ergodicity; guards against overgeneralizing from low-dimensional numerics.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Constructs higher-dimensional QSO counterexamples to mean ergodicity; guards against overgeneralizing from low-dimensional numerics.",
+    "transfer_boundary": "Mean ergodicity differs from convergence of iterates and its counterexample class is QSO; use as a warning/benchmark only.",
+    "access_note": "Publisher metadata verified; request author manuscript/full text if not in corpus.",
+    "priority": 6,
+    "category": "simplex dynamics counterexamples"
+  },
+  {
+    "local_id": "W21-021",
+    "candidate_id": "C019",
+    "title": "Doubly Stochastic Quadratic Operators and Birkhoff's Problem",
+    "authors": [
+      "Rasul Ganikhodzhaev",
+      "Farruh Shahidi"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": "10.1016/j.laa.2009.07.002",
+    "url": "https://arxiv.org/abs/0802.1100",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0802.1100.pdf",
+      "https://doi.org/10.1016/j.laa.2009.07.002",
+      "https://arxiv.org/abs/0802.1100"
+    ],
+    "version": "Official arXiv:0802.1100v1 author preprint, submitted 8 Feb 2008, 18 pages. Published counterpart: Linear Algebra and its Applications 432 (2010), pp.24–35, DOI 10.1016/j.laa.2009.07.002; no publisher-PDF text comparison.",
+    "reason": "Corollary 4.3 characterizes a doubly stochastic QSO by normalized symmetric nonnegative coefficient slices A_k∈U_1 with sum_k A_k=E. Theorem 3.6 gives the exact subset-sum plus total-mass criterion for the associated quadratic-form bounds; use these explicit normalized formulations.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_official_arxiv_v1_record_and_D03_full_pdf_identity",
+    "identity_status": "verified_official_arxiv_v1_title_first_last_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/W21-021.pdf",
+    "sha256": "7311c84fd87829adf4c994e509970684ea9967f54bc1b3a9390df132e417a0e4",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–18, complete; full physical-page coverage is recorded in reading_coverage.json#W21-021.",
+    "review_status": "pending",
+    "candidate_use": "Corollary 4.3 characterizes a doubly stochastic QSO by normalized symmetric nonnegative coefficient slices A_k∈U_1 with sum_k A_k=E. Theorem 3.6 gives the exact subset-sum plus total-mass criterion for the associated quadratic-form bounds; use these explicit normalized formulations.",
+    "transfer_boundary": "Requires the map to be a QSO and doubly stochastic in the majorization sense, with the stated coefficient-slice conditions. Theorem 3.4’s printed statement omits the U_1 total-mass equality used in its proof; whether this is an intended standing restriction is flagged for R02 review. No majorization property is established for A121.",
+    "access_note": "D03 batch03 acquired the official arXiv v1 PDF; L11 read all 18 physical pages. D03 identity record, local SHA and page count checked; publisher-layout text comparison not made.",
+    "priority": 5,
+    "category": "simplex majorization and invariant centers",
+    "pdf_page_count": 18,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-021"
+  },
+  {
+    "local_id": "W21-022",
+    "candidate_id": "C020",
+    "title": "Dynamics of Doubly Stochastic Quadratic Operators on a Finite-Dimensional Simplex",
+    "authors": [
+      "Rawad Abdulghafor",
+      "Farruh Shahidi",
+      "Akram Zeki",
+      "Sherzod Turaev"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.1515/math-2016-0045",
+    "url": "https://doi.org/10.1515/math-2016-0045",
+    "alternate_urls": [
+      "https://doi.org/10.1515/math-2016-0045"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Proves convergence properties for finite-dimensional doubly stochastic QSO using majorization and no-periodic-point arguments; illustrates how compactness plus a strict descent property yields orbit convergence.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Proves convergence properties for finite-dimensional doubly stochastic QSO using majorization and no-periodic-point arguments; illustrates how compactness plus a strict descent property yields orbit convergence.",
+    "transfer_boundary": "The no-periodic-point and doubly-stochastic hypotheses are substantive; the paper itself shows boundary periodicity/higher-dimensional exceptions.",
+    "access_note": "Open-access publisher PDF available.",
+    "priority": 3,
+    "category": "simplex convergence under majorization"
+  },
+  {
+    "local_id": "W21-023",
+    "candidate_id": "C021",
+    "title": "On the Lebesgue Nonlinear Transformations",
+    "authors": [
+      "Nasir Ganikhodjaev",
+      "Mansoor Saburov",
+      "Ramazon Muhitdinov"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.4134/BKMS.b160212",
+    "url": "https://arxiv.org/abs/1601.01757",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1601.01757.pdf",
+      "https://doi.org/10.4134/BKMS.b160212",
+      "https://arxiv.org/abs/1601.01757"
+    ],
+    "version": "arXiv:1601.01757v1 (8 Jan 2016); KCI metadata matches title/authors in Bull. Korean Math. Soc. 54(2) (2017), 607–618, DOI 10.4134/BKMS.b160212; local arXiv version is 11 pages, no text comparison.",
+    "reason": "Full-text comparator for measure-valued QSO law iteration; the continuous subsection has a CDF recursion under a corrected convention, but the finite/continuous p/q mismatch and endpoint proof gap must be resolved before using its conclusions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; identity and version metadata checked against D03 handoff",
+    "identity_status": "verified_first_and_last_page_author_title_version",
+    "local_pdf": "evidence/fulltexts/W21-023.pdf",
+    "sha256": "5e203cc0ed675eaf72132febaaa564e7a3eaa3dc5d45c5ff467d8ebefbd24418",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–11",
+    "review_status": "pending",
+    "candidate_use": "Complete read of the measure-valued QSO source. The continuous subsection yields a CDF recursion under its own lower-q/upper-p interpretation; the finite two-atom recurrence uses the opposite lower-p/upper-q convention. The card isolates the source conflicts and checks the stated endpoint claims against support preservation.",
+    "transfer_boundary": "Do not treat the paper as one consistent asymmetric p/q operator: Eq. (2.1) is p/p-invalid, §3.1 is lower-p/upper-q, and §3.2 is lower-q/upper-p. Theorem 4.6 lacks support hypotheses and is contradicted at the weak level by any valid parent-selection update from an atomless interior-supported law. See the card for the expanding-interval proof gap, [0,1)/delta1 mismatch, and undefined strong-limit topology. No transfer to Phi.",
+    "access_note": "downloaded_public_arxiv_preprint; acquired by D03, read by W21; publication text equivalence only as specified in version field",
+    "priority": 1,
+    "category": "measure-valued quadratic law maps",
+    "pdf_page_count": 11,
+    "acquisition_worker": "D03"
+  },
+  {
+    "local_id": "W21-024",
+    "candidate_id": "C022",
+    "title": "Fixed Points of the Smoothing Transformation",
+    "authors": [
+      "Richard Durrett",
+      "Thomas M. Liggett"
+    ],
+    "year": 1983,
+    "kind": "paper",
+    "doi": "10.1007/BF00532962",
+    "url": "https://doi.org/10.1007/BF00532962",
+    "alternate_urls": [
+      "https://doi.org/10.1007/BF00532962"
+    ],
+    "version": "Author-hosted PDF matches published article, Z. Wahrscheinlichkeitstheorie verw. Gebiete 64(3) (1983), 275–301, DOI 10.1007/BF00532962; local 27-page PDF has full published pagination.",
+    "reason": "Candidate method lead only; Classifies nontrivial fixed points for weighted sums of iid copies under moment assumptions and proves convergence results for the smoothing transform.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; identity and version metadata checked against D03 handoff",
+    "identity_status": "verified_first_and_last_page_author_title_version",
+    "local_pdf": "evidence/fulltexts/W21-024.pdf",
+    "sha256": "35568fd1ca08b1c804ed47a0432e1b99b66b1e2aafc31d3db6e0599e93144499",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–27",
+    "review_status": "pending",
+    "candidate_use": "Smoothing transform result applies only to its weighted iid-sum RDE and its moment/tail hypotheses.",
+    "transfer_boundary": "Requires Tμ=Law(ΣW_iX_i), independent iid copies and weight/moment assumptions. A rank-kernel stationary law is not an RDE without an explicit identity.",
+    "access_note": "downloaded_author_hosted_full_paper; acquired by D03, read by W21; publication text equivalence only as specified in version field",
+    "priority": 1,
+    "category": "RDE fixedpoint classification and iteration",
+    "pdf_page_count": 27,
+    "acquisition_worker": "D03"
+  },
+  {
+    "local_id": "W21-025",
+    "candidate_id": "C023",
+    "title": "Fixed Points of a Generalized Smoothing Transformation and Applications to Branching Processes",
+    "authors": [
+      "Quansheng Liu"
+    ],
+    "year": 1995,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://numdam.org/item/PSMIR_1995___2_A9_0/",
+    "alternate_urls": [
+      "https://numdam.org/item/PSMIR_1995___2_A9_0/"
+    ],
+    "version": "Official Numdam archival article: Publications de l’Institut de recherche mathématiques de Rennes, Fascicule de probabilités, no. 2 (1995), printed pp.1–54. The 55-page local PDF includes one archive cover page.",
+    "reason": "Full-text source classifying fixedpoints and natural iterations of the generalized weighted-sum smoothing transform; directly informs the RDE transfer boundary and supplies exact existence, root, moment, and lattice hypotheses.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; identity/version checked against official Numdam archive and D03 first/last-page record",
+    "identity_status": "verified_official_archive_first_last_page",
+    "local_pdf": "evidence/fulltexts/W21-025.pdf",
+    "sha256": "99ae9d43bc6303ec09d3d15912b63242f72e3e5f5656a5bca2a9ca5916ae48dd",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–55, complete; archive cover p.1 plus article pp.1–54 on physical pp.2–55; root/existence and classification statements rendered/checked on pp.7–10.",
+    "review_status": "pending",
+    "candidate_use": "For T(μ)=Law(Σ_i A_i Z_i) with conditionally iid copies and nonnegative weights, the paper proves a p(α)=1 root criterion for nontrivial fixedpoints, small-Laplace-argument classification, convergence of iterates with matched asymptotics, and lattice/nonlattice totality under explicit moment conditions.",
+    "transfer_boundary": "Requires the exact random weighted-sum of independent copies, nonnegative weights, independence, and stated moment/root hypotheses. A121/A122’s stationary-law map has no proved representation of this form; the RDE theorems are not transferred.",
+    "access_note": "D03 acquired official Numdam archival PDF; W21 read all 55 physical pages (archive cover plus complete 54-page article) and checked SHA/page count against D03 identity record.",
+    "priority": 2,
+    "category": "RDE fixedpoint classification and iteration",
+    "pdf_page_count": 55,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-025"
+  },
+  {
+    "local_id": "W21-026",
+    "candidate_id": "C024",
+    "title": "Fixed Points of a Generalized Smoothing Transformation and Applications to the Branching Random Walk",
+    "authors": [
+      "Quansheng Liu"
+    ],
+    "year": 1998,
+    "kind": "paper",
+    "doi": "10.1239/AAP/1035227993",
+    "url": "https://doi.org/10.1239/aap/1035227993",
+    "alternate_urls": [
+      "https://doi.org/10.1239/AAP/1035227993",
+      "https://doi.org/10.1239/aap/1035227993"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Develops fixedpoint and iteration-convergence results for generalized smoothing transforms and branching random walks, including finite/infinite-mean regimes.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Develops fixedpoint and iteration-convergence results for generalized smoothing transforms and branching random walks, including finite/infinite-mean regimes.",
+    "transfer_boundary": "Transfer depends on exact recursive sum, independence, and moment/tail assumptions; no generic law-map conclusion follows.",
+    "access_note": "Cambridge article record; request author manuscript if no local/OA full text.",
+    "priority": 5,
+    "category": "RDE fixedpoint classification and convergence"
+  },
+  {
+    "local_id": "W21-027",
+    "candidate_id": "C025",
+    "title": "A Limit Theorem for Quicksort",
+    "authors": [
+      "Uwe Rosler"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": "10.1051/ita/1991250100851",
+    "url": "https://www.numdam.org/item/ITA_1991__25_1_85_0/",
+    "alternate_urls": [
+      "https://doi.org/10.1051/ita/1991250100851",
+      "https://www.numdam.org/item/ITA_1991__25_1_85_0/"
+    ],
+    "version": "Official Numdam archival PDF of RAIRO Informatique théorique et applications 25(1) (1991), printed pp.85–100, DOI 10.1051/ita/1991250100851. Local PDF has 17 physical pages including one archive cover.",
+    "reason": "Full-text Banach-contraction proof for the centered Quicksort recursive law and a limit theorem in Wasserstein-2; transparent exact contraction coefficient and independent-subproblem recursion.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; identity/version checked against official Numdam archive and D03 first/last-page record",
+    "identity_status": "verified_official_archive_first_last_page",
+    "local_pdf": "evidence/fulltexts/W21-027.pdf",
+    "sha256": "7366d2107b761d254b8b1cfe697f9ddb9501836e2054b6c8f2c9b4d0cb765bbb",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–17, complete; archive cover p.1 plus article printed pp.85–100 on physical pp.2–17; contraction proof rendered/checked on pp.8–9.",
+    "review_status": "pending",
+    "candidate_use": "On centered finite-variance laws, S(F)=Law(τX+(1−τ)X̄+C(τ)) is a W₂ contraction with squared coefficient E[τ²+(1−τ)²]=2/3; its unique fixedpoint is the limit law for normalized centered Quicksort comparisons.",
+    "transfer_boundary": "Requires the centered independent-subproblem recursive cost law, uniform pivot and finite second moments; no exact RDE or conjugacy has been proved for A121/A122. The source coefficient √(2/3) does not bound θ↦π(K_θ).",
+    "access_note": "D03 acquired official Numdam archival PDF; W21 read all 17 physical pages (archive cover plus complete article pp.85–100) and checked SHA/page count against D03 identity record.",
+    "priority": 2,
+    "category": "contractive distributional recursion",
+    "pdf_page_count": 17,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-027"
+  },
+  {
+    "local_id": "W21-028",
+    "candidate_id": "C026",
+    "title": "A Fixed Point Theorem for Distributions",
+    "authors": [
+      "Uwe Rosler"
+    ],
+    "year": 1992,
+    "kind": "paper",
+    "doi": "10.1016/0304-4149(92)90035-O",
+    "url": "https://doi.org/10.1016/0304-4149(92)90035-O",
+    "alternate_urls": [
+      "https://doi.org/10.1016/0304-4149(92)90035-O"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Systematically studies contraction of a distribution-to-distribution map and fixedpoint moments with applications to weighted branching and Quicksort.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Systematically studies contraction of a distribution-to-distribution map and fixedpoint moments with applications to weighted branching and Quicksort.",
+    "transfer_boundary": "Contraction is an assumption/property of a specific independent-input transform; do not treat uniqueness of an inner invariant law as contraction of the outer map.",
+    "access_note": "Publisher record verified; request author copy if full text is not in corpus.",
+    "priority": 2,
+    "category": "contractive distributional transforms"
+  },
+  {
+    "local_id": "W21-029",
+    "candidate_id": "C027",
+    "title": "The Contraction Method for Recursive Algorithms",
+    "authors": [
+      "Uwe Rosler",
+      "Ludger Ruschendorf"
+    ],
+    "year": 2001,
+    "kind": "paper",
+    "doi": "10.1007/BF02679611",
+    "url": "https://doi.org/10.1007/BF02679611",
+    "alternate_urls": [
+      "https://doi.org/10.1007/BF02679611"
+    ],
+    "version": "Complete 35-physical-page author-hosted paper linked from Ludger Rüschendorf’s Freiburg publication page. Publisher metadata: Algorithmica 29 (2001), 3–33, DOI 10.1007/BF02679611. Publisher-layout text equivalence not established.",
+    "reason": "Full-text generic affine RDE contraction plus recursive-algorithm method: centered finite-second-moment laws contract in Mallows/W2 when the coefficient square-sum is below one.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_and_acquired_full_pdf_identity",
+    "identity_status": "verified_first_and_last_page_official_source_version",
+    "local_pdf": "evidence/fulltexts/W21-029.pdf",
+    "sha256": "4537f1a96c4081f4522c09be566c00c65a9a6a5b48597cb69ea1300fdbcd6f29",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–35, complete; Lemma 1/Theorem 3 proof formulas rendered on pp.6–7; asymptotic-normality proof and Find-process contraction/regular-version caveat checked on pp.20–21,29–30.",
+    "review_status": "pending",
+    "candidate_use": "Lemma 1/Theorem 3 prove centered finite-variance affine-RDE contraction in Mallows/W2 under ΣE[T_i²]<1. Separately, §9 gives a function-valued Find-process operator; its printed sufficient Lp coefficient fails at p=3, while an independently derived disjoint-support integral yields (2/(p+2))^(1/p)<1 for p>0. The regular-version step remains separate.",
+    "transfer_boundary": "Requires the exact independent-copy affine RDE, coefficient/toll laws, centered finite-second-moment domain, and strict metric contraction; neither A121 Phi nor A122 has this representation. The Find-process calculation is a different operator and does not transfer by analogy.",
+    "access_note": "Publisher record verified; seek author repository copy if unavailable.",
+    "priority": 4,
+    "category": "RDE metric contraction method",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-029",
+    "pdf_page_count": 35
+  },
+  {
+    "local_id": "W21-030",
+    "candidate_id": "C028",
+    "title": "A General Limit Theorem for Recursive Algorithms and Combinatorial Structures",
+    "authors": [
+      "Ralph Neininger",
+      "Ludger Ruschendorf"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.1214/aoap/1075828056",
+    "url": "https://projecteuclid.org/journals/annals-of-applied-probability/volume-14/issue-1/A-general-limit-theorem-for-recursive-algorithms-and-combinatorial-structures/10.1214/aoap/1075828056.full",
+    "alternate_urls": [
+      "https://doi.org/10.1214/aoap/1075828056",
+      "https://projecteuclid.org/journals/annals-of-applied-probability/volume-14/issue-1/A-general-limit-theorem-for-recursive-algorithms-and-combinatorial-structures/10.1214/aoap/1075828056.full"
+    ],
+    "version": "Author-hosted Freiburg manuscript, AAP 2003 Vol. 0 No. 0 pp. 1-41; published counterpart AAP 14(1) (2004), 378-418, DOI 10.1214/aoap/1075828056. Local pagination is manuscript pagination; no line-by-line comparison.",
+    "reason": "Theorems 4.1 and 5.1 transfer recursive vector/scalar sequences to a unique affine RDE fixed point in specified Zolotarev moment classes, assuming L_s coefficient/toll convergence, strict coefficient contraction, and control of small-index/self-index terms.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_metadata; source identity and version checked against D03 handoff and local first/last pages; no additional publisher text-equivalence comparison beyond the handoff record",
+    "identity_status": "verified_author_version_title_authors_first_last_pages",
+    "local_pdf": "evidence/fulltexts/W21-030.pdf",
+    "sha256": "2118f65acc30bab639237391c4753d6ec4f70e503756749edae64043511ecd83",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–41, complete; all physical pages read by L11; theorem/formula pages listed in coverage were rendered and visually checked.",
+    "review_status": "pending",
+    "candidate_use": "Theorems 4.1 and 5.1 transfer recursive vector/scalar sequences to a unique affine RDE fixed point in specified Zolotarev moment classes, assuming L_s coefficient/toll convergence, strict coefficient contraction, and control of small-index/self-index terms.",
+    "transfer_boundary": "Requires an actual independent-copy recursive decomposition, the stated normalizations and moment metric, the coefficient contraction, and the low-index/self-index boundary condition. It does not establish an RDE representation or outer-map convergence for an arbitrary simplex law map.",
+    "access_note": "D03 batch02 supplied this public PDF; L11 read all 41 physical pages and supplied a full proof card/section coverage. W21 independently checked the local SHA-256/page count against the handoff; no extra download or publisher-layout comparison was performed.",
+    "priority": 5,
+    "category": "multivariate RDE and contraction",
+    "pdf_page_count": 41,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-030"
+  },
+  {
+    "local_id": "W21-031",
+    "candidate_id": "C029",
+    "title": "On the Contraction Method with Degenerate Limit Equation",
+    "authors": [
+      "Ralph Neininger",
+      "Ludger Ruschendorf"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.1214/009117904000000171",
+    "url": "https://arxiv.org/abs/math/0410177",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/math/0410177.pdf",
+      "https://doi.org/10.1214/009117904000000171",
+      "https://arxiv.org/abs/math/0410177"
+    ],
+    "version": "Institutional author-hosted published-layout PDF; Annals of Probability 32(3B) (2004), 2838-2856, DOI 10.1214/009117904000000171. No publisher text-equivalence comparison.",
+    "reason": "Theorem 2.1 gives a quantitative normal limit for a one-branch recursion whose normalized limit equation is degenerate, using negative expected log-index drift, uniform third-moment control, and explicit mean/variance/toll rates; Theorem 5.1 sketches a multi-branch extension under its additional conditions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_metadata; source identity and version checked against D03 handoff and local first/last pages; no additional publisher text-equivalence comparison beyond the handoff record",
+    "identity_status": "verified_institutional_published_layout_first_last_pages",
+    "local_pdf": "evidence/fulltexts/W21-031.pdf",
+    "sha256": "831f3d086dc6105f3e66b6bff8f36ff76c0645dd7bb4005324b193f975087343",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–19, complete; all physical pages read by L11; theorem/formula pages listed in coverage were rendered and visually checked.",
+    "review_status": "pending",
+    "candidate_use": "Theorem 2.1 gives a quantitative normal limit for a one-branch recursion whose normalized limit equation is degenerate, using negative expected log-index drift, uniform third-moment control, and explicit mean/variance/toll rates; Theorem 5.1 sketches a multi-branch extension under its additional conditions.",
+    "transfer_boundary": "This is a logarithmic-scale asymptotic-normality theorem, not strict contraction or global fixed-point classification. The multi-branch proof is explicitly a sketch; all index, L3, variance, and toll assumptions must be checked.",
+    "access_note": "D03 batch02 supplied this public PDF; L11 read all 19 physical pages and supplied a full proof card/section coverage. W21 independently checked the local SHA-256/page count against the handoff; no extra download or publisher-layout comparison was performed.",
+    "priority": 6,
+    "category": "degenerate RDE limits",
+    "pdf_page_count": 19,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-031"
+  },
+  {
+    "local_id": "W21-032",
+    "candidate_id": "C030",
+    "title": "A Stochastic Fixed Point Equation Related to Weighted Branching with Deterministic Weights",
+    "authors": [
+      "Gerold Alsmeyer",
+      "Uwe Rosler"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v11-296",
+    "url": "https://doi.org/10.1214/EJP.v11-296",
+    "alternate_urls": [
+      "https://doi.org/10.1214/EJP.v11-296"
+    ],
+    "version": "EJP 11 (2005), paper 2, pp. 27-56; journal record publication date 2006-01-26; DOI 10.1214/EJP.v11-296. Both issue year and record date retained.",
+    "reason": "For the deterministic-weight countable-sum RDE W =d sum_j T_j W_j + C, the paper classifies fixed laws through weighted branching, infinite divisibility, multiplicative harmonic measures, and Deny/Choquet–Deny theory; continuous and discrete coefficient groups have different solution families and drift restrictions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_metadata; source identity and version checked against D03 handoff and local first/last pages; no additional publisher text-equivalence comparison beyond the handoff record",
+    "identity_status": "verified_open_journal_pdf_first_last_pages",
+    "local_pdf": "evidence/fulltexts/W21-032.pdf",
+    "sha256": "81a5c6047a02ffaa2c9cfa0d5870203dc09c228866282acf93a30ff73cca18bf",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–30, complete; all physical pages read by L11; theorem/formula pages listed in coverage were rendered and visually checked.",
+    "review_status": "pending",
+    "candidate_use": "For the deterministic-weight countable-sum RDE W =d sum_j T_j W_j + C, the paper classifies fixed laws through weighted branching, infinite divisibility, multiplicative harmonic measures, and Deny/Choquet–Deny theory; continuous and discrete coefficient groups have different solution families and drift restrictions.",
+    "transfer_boundary": "Requires the stated deterministic weights, convergence of the countable sum, characteristic exponent and group/drift hypotheses. The classification is not a generic contraction result and does not transfer to random-weight or nonlinear law operators without an exact reduction.",
+    "access_note": "D03 batch02 supplied this public PDF; L11 read all 30 physical pages and supplied a full proof card/section coverage. W21 independently checked the local SHA-256/page count against the handoff; no extra download or publisher-layout comparison was performed.",
+    "priority": 4,
+    "category": "branching RDE solution classification",
+    "pdf_page_count": 30,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-032"
+  },
+  {
+    "local_id": "W21-033",
+    "candidate_id": "C031",
+    "title": "A Stochastic Maximin Fixed-Point Equation Related to Game Tree Evaluation",
+    "authors": [
+      "Gerold Alsmeyer",
+      "Matthias Meiners"
+    ],
+    "year": 2007,
+    "kind": "paper",
+    "doi": "10.1239/JAP/1189717531",
+    "url": "https://doi.org/10.1239/jap/1189717531",
+    "alternate_urls": [
+      "https://doi.org/10.1239/JAP/1189717531",
+      "https://doi.org/10.1239/jap/1189717531"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Analyzes a max-min recursion from game trees and its limiting fixedpoint; method comparator for nonlinear order-statistic law maps.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Analyzes a max-min recursion from game trees and its limiting fixedpoint; method comparator for nonlinear order-statistic law maps.",
+    "transfer_boundary": "The transform uses iid array inputs and max/min recursion, not a stationary law of an order-statistic Markov chain; state the distinction explicitly.",
+    "access_note": "Cambridge record; request author manuscript/full text if not in seed corpus.",
+    "priority": 3,
+    "category": "nonlinear min-max distributional recursion"
+  },
+  {
+    "local_id": "W21-034",
+    "candidate_id": "C032",
+    "title": "A Stochastic Fixed Point Equation for Weighted Minima and Maxima",
+    "authors": [
+      "Gerold Alsmeyer",
+      "Uwe Rosler"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1214/07-AIHP104",
+    "url": "https://numdam.org/articles/10.1214/07-AIHP104/",
+    "alternate_urls": [
+      "https://doi.org/10.1214/07-AIHP104",
+      "https://numdam.org/articles/10.1214/07-AIHP104/"
+    ],
+    "version": "Official Numdam/IMSTAT publication PDF; Annales de l'Institut Henri Poincare Probabilites et Statistiques 44(1) (2008), 89-103, DOI 10.1214/07-AIHP104.",
+    "reason": "For deterministic positive weights, the paper classifies weighted-infimum fixed laws through the multiplicative harmonic equation and Choquet–Deny; the continuous group yields Weibull laws and a discrete multiplicative group yields constrained log-periodic Weibull laws. Separate the negative/mixed-sign cases.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_metadata; source identity and version checked against D03 handoff and local first/last pages; no additional publisher text-equivalence comparison beyond the handoff record",
+    "identity_status": "verified_official_archive_first_last_page",
+    "local_pdf": "evidence/fulltexts/W21-034.pdf",
+    "sha256": "0ad6ade5513644b6aa7c99580d59201fdb54cf8a074d6336283f36c8823a0f70",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–15, complete; all physical pages read by L11; theorem/formula pages listed in coverage were rendered and visually checked.",
+    "review_status": "pending",
+    "candidate_use": "For deterministic positive weights, the paper classifies weighted-infimum fixed laws through the multiplicative harmonic equation and Choquet–Deny; the continuous group yields Weibull laws and a discrete multiplicative group yields constrained log-periodic Weibull laws. Separate the negative/mixed-sign cases.",
+    "transfer_boundary": "Requires the paper’s exact min/max RDE, weight/exponent and support hypotheses. The discrete periodic factor must make the survival function valid; the result says nothing about arbitrary law maps or full-support fixed laws absent this representation.",
+    "access_note": "D03 batch02 supplied this public PDF; L11 read all 15 physical pages and supplied a full proof card/section coverage. W21 independently checked the local SHA-256/page count against the handoff; no extra download or publisher-layout comparison was performed.",
+    "priority": 3,
+    "category": "order-statistic RDE and harmonic methods",
+    "pdf_page_count": 15,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-034"
+  },
+  {
+    "local_id": "W21-035",
+    "candidate_id": "C033",
+    "title": "Pólya Urns Via the Contraction Method",
+    "authors": [
+      "Margarete Knape",
+      "Ralph Neininger"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1017/S0963548314000364",
+    "url": "https://arxiv.org/abs/1301.3404",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1301.3404.pdf",
+      "https://doi.org/10.1017/S0963548314000364",
+      "https://arxiv.org/abs/1301.3404"
+    ],
+    "version": "Official arXiv 1301.3404v3; arXiv history last revised 2013-11-19; published CPC 23 (2014), 1148-1186, DOI 10.1017/S0963548314000364. PDF front page says August 9, 2021; discrepancy explicitly unresolved.",
+    "reason": "The urn-derived affine RDE systems have separate real nonnormal, Gaussian, and complex-mean contraction regimes (Theorems 5.1–5.3); the cyclic-urn theorem gives a phase-rotating asymptotic law rather than one fixed real limit.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_metadata; source identity and version checked against D03 handoff and local first/last pages; no additional publisher text-equivalence comparison beyond the handoff record",
+    "identity_status": "verified_exact_official_arxiv_v3_bytes_with_frontmatter_date_flag",
+    "local_pdf": "evidence/fulltexts/W21-035.pdf",
+    "sha256": "8a91f5e68bbff5afb750581b6f59552684c5a80268215f1ee4aff914106339f5",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–39, complete; all physical pages read by L11; theorem/formula pages listed in coverage were rendered and visually checked.",
+    "review_status": "pending",
+    "candidate_use": "The urn-derived affine RDE systems have separate real nonnormal, Gaussian, and complex-mean contraction regimes (Theorems 5.1–5.3); the cyclic-urn theorem gives a phase-rotating asymptotic law rather than one fixed real limit.",
+    "transfer_boundary": "The coefficient/toll distributions, moment classes, scaling, independent-copy recursion, and contraction conditions are derived from the stated urn model. The cyclic example warns that a rotating phase can remain; no generic nonlinear-law iteration theorem follows.",
+    "access_note": "D03 batch02 supplied this public PDF; L11 read all 39 physical pages and supplied a full proof card/section coverage. W21 independently checked the local SHA-256/page count against the handoff; no extra download or publisher-layout comparison was performed.",
+    "priority": 5,
+    "category": "systems of RDEs and possible periodicity",
+    "pdf_page_count": 39,
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-035"
+  },
+  {
+    "local_id": "W21-036",
+    "candidate_id": "C034",
+    "title": "Solutions to Recursive Distributional Equations for the Mean-Field TSP and Related Problems",
+    "authors": [
+      "Mustafa Khandwawala"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.1405.1316",
+    "url": "https://arxiv.org/abs/1405.1316",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1405.1316.pdf",
+      "https://doi.org/10.48550/arXiv.1405.1316",
+      "https://arxiv.org/abs/1405.1316"
+    ],
+    "version": "arXiv:1405.1316v1 (6 May 2014); sole identified arXiv version / arXiv-issued DOI 10.48550/arXiv.1405.1316; no separate journal version identified.",
+    "reason": "Candidate method lead only; Proves uniqueness of a TSP/minimum-weight d-factor RDE solution and convergence of all iterates modulo shifts; particularly useful as a positive example where global law-operator convergence is actually proved.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "fulltext_read; identity and version metadata checked against D03 handoff",
+    "identity_status": "verified_first_and_last_page_author_title_version",
+    "local_pdf": "evidence/fulltexts/W21-036.pdf",
+    "sha256": "93774aa86f61e3855c1d0a4afc55a1864bab49e8beff3597b08a5f3c74bdca63",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–17",
+    "review_status": "pending",
+    "candidate_use": "Poisson d-th-minimum RDE theorem applies to its complementary-CDF transform and shift structure, not automatically to Φ.",
+    "transfer_boundary": "Requires the Poisson d-th-minimum RDE, complementary-CDF domain and shift/tail structure. No such representation or conjugacy is known for Φ.",
+    "access_note": "downloaded_public_arxiv_preprint; acquired by D03, read by W21; publication text equivalence only as specified in version field",
+    "priority": 2,
+    "category": "RDE global iteration convergence",
+    "pdf_page_count": 17,
+    "acquisition_worker": "D03"
+  },
+  {
+    "local_id": "W21-037",
+    "candidate_id": "C035",
+    "title": "Perturbation Theory and Finite Markov Chains",
+    "authors": [
+      "Paul J. Schweitzer"
+    ],
+    "year": 1968,
+    "kind": "paper",
+    "doi": "10.2307/3212261",
+    "url": "https://doi.org/10.2307/3212261",
+    "alternate_urls": [
+      "https://doi.org/10.2307/3212261"
+    ],
+    "version": null,
+    "reason": "Candidate method lead only; Fundamental-matrix formulas and derivatives for stationary distribution under transition-matrix perturbations; directly relevant to local regularity of theta -> pi(K_theta) on finite strata.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_record_metadata; theorem/application details only screened from primary record or abstract, not audited from full text",
+    "identity_status": "pdf_not_acquired_identity_pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "candidate_only_not_read",
+    "read_pages": null,
+    "review_status": "pending",
+    "candidate_use": "Fundamental-matrix formulas and derivatives for stationary distribution under transition-matrix perturbations; directly relevant to local regularity of theta -> pi(K_theta) on finite strata.",
+    "transfer_boundary": "Requires one irreducible class or controlled preservation of recurrent-class structure; constants may blow up near reducibility and say nothing about global iteration.",
+    "access_note": "Cambridge/JSTOR metadata verified; request full text if no corpus copy.",
+    "priority": 1,
+    "category": "stationary-law sensitivity"
+  },
+  {
+    "local_id": "W21-038",
+    "candidate_id": "C036",
+    "title": "Perturbation of the Stationary Distribution Measured by Ergodicity Coefficients",
+    "authors": [
+      "Eugene Seneta"
+    ],
+    "year": 1988,
+    "kind": "paper",
+    "doi": "10.2307/1427277",
+    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2B4FC2C53EF03D6B3835F1FB175D91F1/S0001867800018012a.pdf/perturbation-of-the-stationary-distribution-measured-by-ergodicity-coefficients.pdf",
+    "alternate_urls": [
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2B4FC2C53EF03D6B3835F1FB175D91F1/S0001867800018012a.pdf/perturbation-of-the-stationary-distribution-measured-by-ergodicity-coefficients.pdf"
+    ],
+    "version": "Official Cambridge publisher PDF, 3 physical pages: Advances in Applied Probability 20 (1988), 228–230, DOI 10.2307/1427277.",
+    "reason": "Full-text finite-chain stationary-distribution perturbation estimate controlled by Seneta ergodicity coefficients.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_primary_publisher_record_and_full_pdf",
+    "identity_status": "verified_first_and_last_page_official_source_version",
+    "local_pdf": "evidence/fulltexts/W21-038.pdf",
+    "sha256": "02ea5da334d253223b9bc1ec059f98faf8c2250012e7f0d551c79047d0778674",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–3, complete; equations (3) and (4), including relative-norm placement and zero-sum Neumann-series proof, rendered and checked on pp.1–2.",
+    "review_status": "pending",
+    "candidate_use": "For finite stochastic matrices with a single irreducible class, equations (3)–(4) bound stationary-law sensitivity by ||E||/(1−tau_p(P)) when the base coefficient is below one.",
+    "transfer_boundary": "Finite-state estimate only. For a parameterized kernel, separately bound P_theta−P_eta, maintain a uniform unique-class/coefficient margin, and prove the composed outer Lipschitz constant is below one.",
+    "access_note": "Cambridge-hosted PDF publicly accessible.",
+    "priority": 2,
+    "category": "stationary-law sensitivity",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-038",
+    "pdf_page_count": 3
+  },
+  {
+    "local_id": "W21-039",
+    "candidate_id": "C037",
+    "title": "Sensitivity and Convergence of Uniformly Ergodic Markov Chains",
+    "authors": [
+      "A. Yu. Mitrophanov"
+    ],
+    "year": 2005,
+    "kind": "paper",
+    "doi": "10.1239/jap/1134587812",
+    "url": "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/sensitivity-and-convergence-of-uniformly-ergodic-markov-chains/26A9854BCB8D103B3A63A9B272616EC0",
+    "alternate_urls": [
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/26A9854BCB8D103B3A63A9B272616EC0/S0021900200001066a.pdf/sensitivity_and_convergence_of_uniformly_ergodic_markov_chains.pdf",
+      "https://doi.org/10.1239/jap/1134587812"
+    ],
+    "version": "Official Cambridge publisher-layout PDF, Journal of Applied Probability 42(4) (2005), 1003–1014, 12 physical pages; first/last identity verified by D03, no alternate-version comparison.",
+    "reason": "Full-text source for stationary-law perturbation under uniform ergodicity; the paper also combines with a separately proved k-sample product-coupling bound for the rank-selection kernel.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "Primary Cambridge record and publisher PDF identify title, author, journal pages, and DOI; metadata rechecked in current web search.",
+    "identity_status": "verified_official_publisher_pdf_first_last_page_and_sha_page_count",
+    "local_pdf": "evidence/fulltexts/W21-039.pdf",
+    "sha256": "3a7a9c35f0a130181c03ff7c24311e849435cc27dbdf77885b26e6ec98c9fddb",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–12, all pages including Appendix A and references; formula/proof render checks on pp.3–6.",
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-039",
+    "fullcard": "evidence/W21/cards/W21-039.md",
+    "candidate_use": "Theorems 3.1–3.2 and Corollary 3.1 give transient/invariant-law sensitivity under base-chain uniform ergodicity or an m-step ergodicity gap; the k-sample row-kernel TV estimate is separately derived in the card.",
+    "transfer_boundary": "Target use remains conditional: uniform ergodicity/constants over the order-statistic parameter region and any outer-map convergence conclusion are unproved. The local result is not a global contraction without uniform constants.",
+    "quota_eligible_for_A121_A122": true,
+    "tool_quota_eligibility": {
+      "probability-nonlinear-law-dynamics": {
+        "provisional": true,
+        "eligible": true,
+        "operator": "Markov transition kernel P on a general state space; stationary-law map P ↦ π(P), with perturbation P ↦ P̃.",
+        "main_conclusion": "Theorem 3.1/Corollary 3.1 bound transient and invariant-law variation under base uniform ergodicity; Theorem 3.2 gives the bound when τ(P^m)<1. The card separately proves ||Kθ−Kη||op ≤ k||θ−η|| for the k-sample rank kernel by maximal coupling.",
+        "assumptions": "Base P has unique π and sup_x ||δ_xP^n−π|| ≤ Cρ^n for C<∞, 0<ρ<1, or some m has τ(P^m)<1; perturbed kernel has an invariant law. Full variation norm is twice set-sup usual TV.",
+        "method_use": "Direct nested stationary-law sensitivity template for the skill operator class; distinct from a nonlinear Markov law update or RDE. Supplies local sensitivity only unless mixing constants are uniform over the parameter region."
+      }
+    },
+    "supplementary_id": null,
+    "pdf_page_count": 12,
+    "acquisition_worker": "D03",
+    "integration_note": "Full text was read by L08 and mother-integrated by L12; source-level tool quota is provisional pending R02. Keep target A121/A122 interface status separate.",
+    "access_note": "Cambridge-hosted article PDF located.",
+    "priority": 2,
+    "category": "stationary-law sensitivity"
+  },
+  {
+    "local_id": "W21-040",
+    "candidate_id": "C038",
+    "title": "Perturbation Theory for Markov Chains via Wasserstein Distance",
+    "authors": [
+      "Daniel Rudolf",
+      "Nikolaus Schweizer"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.3150/17-BEJ938",
+    "url": "https://arxiv.org/abs/1503.04123",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1503.04123.pdf",
+      "https://doi.org/10.3150/17-BEJ938",
+      "https://arxiv.org/abs/1503.04123"
+    ],
+    "version": "Official arXiv:1503.04123v3 (submitted 13 Mar 2015; last revised 23 Feb 2017), complete 31-page author preprint. ArXiv notes acceptance at Bernoulli; published counterpart Bernoulli 24(4A) (2018), 2610–2639, DOI 10.3150/17-BEJ938. Publisher-layout text equivalence not checked.",
+    "reason": "Full-text Wasserstein/total-variation perturbation theory for two specified Markov chains under ergodicity and Lyapunov assumptions.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "verified_official_arxiv_record_and_full_pdf_version",
+    "identity_status": "verified_first_and_last_page_official_source_version",
+    "local_pdf": "evidence/fulltexts/W21-040.pdf",
+    "sha256": "816321be63f77e1bb8f8e9da8cd8b5ca18279030d2d4f6f706921b64d063c480",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–31, complete; §2/Assumption 2.1 and N versus N_0 notation rendered on p.5; Theorem 3.1/proof and Corollary 3.1 checked on pp.6–7; Theorem 3.2 statement/proof and exponent rendered and checked on pp.13–15; exact positive-n constant witnesses saved in evidence/W21/checks/W21-040-positive-n-constant.py/.txt.",
+    "review_status": "pending",
+    "candidate_use": "Theorem 3.1 gives finite-time W bounds and a stationary W perturbation corollary; Theorem 3.2 gives a TV alternative under V-uniform ergodicity and two Lyapunov drifts. Under the positive-integer reading of the source n∈N convention, use C′=max(C,1) in both proofs because their telescoping sums contain a zero-power term.",
+    "transfer_boundary": "Requires the exact one-step kernel error, ergodicity/drift constants, metric, and moment conditions. The source leaves N undefined after defining N_0 as nonnegative; if N means positive integers, the printed theorem constants can fail for C<1 and are repaired without loss by C′=max(C,1). Even a stationary-law Lipschitz estimate does not imply outer iteration convergence unless the composed constant is below one.",
+    "access_note": "Author arXiv and Bernoulli open PDF available.",
+    "priority": 3,
+    "category": "stationary/kernel sensitivity in Wasserstein distance",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-040",
+    "pdf_page_count": 31
+  },
+  {
+    "local_id": "W21-041",
+    "candidate_id": null,
+    "title": "A Simple Method to Find All Solutions to the Functional Equation of the Smoothing Transform",
+    "authors": [
+      "Gerold Alsmeyer",
+      "Bastien Mallein"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": "10.1007/s10959-021-01151-z",
+    "url": "https://www.math.univ-toulouse.fr/~bmallein/en/publications/smoothtran.html",
+    "alternate_urls": [
+      "https://www.math.univ-toulouse.fr/~bmallein/publications/smoothtran.pdf",
+      "https://link.springer.com/article/10.1007/s10959-021-01151-z"
+    ],
+    "version": "Author-hosted submitted manuscript, 33 physical pages. Official author publication page links the 2022 Journal of Theoretical Probability counterpart; no publisher-PDF text comparison.",
+    "reason": "Full-text method source for the exact Smoothing transform f ↦ E∏_{j≥1} f(tT_j), equivalent to sum-type X =d Σ_j T_jX_j and min-type X =d inf_j(X_j/T_j). operator class already within this skill's RDE/QSO adapters; no A121/A122 theorem transfer is asserted.",
+    "topics": [
+      "A121",
+      "A122",
+      "C022",
+      "C023",
+      "C024",
+      "C026",
+      "C029"
+    ],
+    "metadata_status": "Author's publication page and publisher-linked record identify published counterpart and DOI; local manuscript identity checked by D03.",
+    "identity_status": "verified_author_manuscript_title_authors_first_last_pages_sha_page_count",
+    "local_pdf": "evidence/fulltexts/W21-041.pdf",
+    "sha256": "81d9c45efed6618e3031936f47939fd27781bbda37b227acf4918992edd5d6e4",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–33, all pages including Section 6 and references; main theorem renders pp.6–7.",
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-041",
+    "fullcard": "evidence/W21/cards/W21-041.md",
+    "candidate_use": "Theorem 1.2/1.5 classify the source’s left-continuous solution class and require left-continuous periodic h; Proposition 4.1 is only a killed-half-line harmonic-function comparison under its centered finite-variance/right-continuity/growth conditions. The printed positive-side growth scope is textually mismatched; see the card. Auxiliary comparison for explicit smoothing-transform or min-type RDEs.",
+    "transfer_boundary": "No branching-weight/min-sum RDE representation, tilted random walk, or BRW disintegration is established for A121/A122; this classification is a source-level smoothing-transform method only.",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "probability-nonlinear-law-dynamics": {
+        "provisional": true,
+        "eligible": true,
+        "operator": "Smoothing transform f ↦ E∏_{j≥1} f(tT_j), equivalent to sum-type X =d Σ_j T_jX_j and min-type X =d inf_j(X_j/T_j).",
+        "main_conclusion": "Theorem 1.2 classifies nontrivial solutions by f(t)=E exp[−Wh(t)t^α]; Theorem 1.5 gives the boundary derivative-martingale classification. Proof uses BRW disintegration, many-to-one random walk, and Choquet–Deny harmonic analysis.",
+        "assumptions": "Regular case: (2),(3),(10),(11),(12), including m(α)=1, minimality, negative m′(α), W1 log W1 and small-weight integrability; source solutions and periodic h are left-continuous. Boundary case: (2),(3),(14),(16) plus derivative-martingale conditions. Geometric span determines periodic h. Proposition 4.1 additionally assumes a nontrivial centered walk with finite second moment, right-continuity, killed boundary, and growth control; the displayed growth bound is over x≤0 although the preceding prose says at most linear growth.",
+        "method_use": "Strict smoothing-RDE fixed-point classification and proof template for a law-valued recursive operator when its iid-child/weight representation and all listed assumptions hold. Proposition 4.1 transfer is further limited by the source-text growth-bound mismatch. Not transferred to A121/A122 without that interface."
+      }
+    },
+    "supplementary_id": "SUP-MALLEIN",
+    "pdf_page_count": 33,
+    "acquisition_worker": "D03",
+    "integration_note": "Full text was read by L08 and mother-integrated by L12; source-level tool quota is provisional pending R02. Keep target A121/A122 interface status separate."
+  },
+  {
+    "local_id": "W21-042",
+    "candidate_id": null,
+    "title": "Regular Variation of Fixed Points of the Smoothing Transform",
+    "authors": [
+      "Xingang Liang",
+      "Quansheng Liu"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1016/j.spa.2019.11.011",
+    "url": "https://hal.science/hal-02487852/",
+    "alternate_urls": [
+      "https://hal.science/hal-02487852v1/document",
+      "https://www.sciencedirect.com/science/article/pii/S0304414918303855",
+      "https://doi.org/10.1016/j.spa.2019.11.011"
+    ],
+    "version": "HAL author manuscript hal-02487852v1, submitted 21 February 2020, 33 physical pages; publication in SPA 130 (2020), 4104–4140; no publication-byte/text comparison.",
+    "reason": "Full-text method source for the exact Finite-mean nonnegative weighted-sum RDE Z =d Σ_{i=1}^N A_i Z_i with conditionally iid children independent of the weights and EΣ_i A_i=1. operator class already within this skill's RDE/QSO adapters; no A121/A122 theorem transfer is asserted.",
+    "topics": [
+      "A121",
+      "A122",
+      "C023",
+      "C024",
+      "C029",
+      "C030"
+    ],
+    "metadata_status": "HAL cover and publisher record identify version, DOI, title, authors, and journal pagination; D03 first/last identity checks.",
+    "identity_status": "verified_HAL_author_manuscript_title_doi_pages_sha_page_count",
+    "local_pdf": "evidence/fulltexts/W21-042.pdf",
+    "sha256": "7b689a4d692222ec2e3052f2059df7b1fe4e51a98632d1ca71cdfe8e35e92c67",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–33, all pages including appendix and references; theorem renders pp.5–6.",
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-042",
+    "fullcard": "evidence/W21/cards/W21-042.md",
+    "candidate_use": "Auxiliary regular-variation result for the exact nonnegative weighted-sum recursion, with finite mean and explicit weight-moment hypotheses.",
+    "transfer_boundary": "No weighted-sum RDE or independent child-copy identity is established for A121/A122; tail-transfer hypotheses and constants remain source-class-specific.",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "probability-nonlinear-law-dynamics": {
+        "provisional": true,
+        "eligible": true,
+        "operator": "Finite-mean nonnegative weighted-sum RDE Z =d Σ_{i=1}^N A_i Z_i with conditionally iid children independent of the weights and EΣ_i A_i=1.",
+        "main_conclusion": "Theorem 1.1 transfers regularly varying tails between Y1=Σ_i A_i and a fixed point Z with multiplier (1−ρ(α))⁻¹; Theorem 1.2 gives a one-way integrated-tail relation.",
+        "assumptions": "Theorem 1.1: α>1, ρ(α)<1, ρ(α+δ0)<∞ for δ0>0, slowly varying ℓ and the stated tail equivalence. Theorem 1.2: ρ(1+δ0)<∞, μ=−ρ′(1)∈(0,∞), integrable ℓ and the stated Y1 integrated-tail asymptotic.",
+        "method_use": "Rigorous tail-analysis template for fixed points of weighted-sum RDEs; useful for deriving/checking fixed-point tail behavior within that operator class, but provides no target A121/A122 recursion or general convergence claim."
+      }
+    },
+    "supplementary_id": "SUP-REGVAR",
+    "pdf_page_count": 33,
+    "acquisition_worker": "D03",
+    "integration_note": "Full text was read by L08 and mother-integrated by L12; source-level tool quota is provisional pending R02. Keep target A121/A122 interface status separate."
+  },
+  {
+    "local_id": "W21-043",
+    "candidate_id": null,
+    "title": "Elementary Fixed Points of the BRW Smoothing Transforms with Infinite Number of Summands",
+    "authors": [
+      "Aleksander M. Iksanov"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.1016/j.spa.2004.06.002",
+    "url": "https://arxiv.org/abs/math/0310244",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/math/0310244",
+      "https://www.sciencedirect.com/science/article/pii/S0304414904000924",
+      "https://doi.org/10.48550/arXiv.math/0310244"
+    ],
+    "version": "Local PDF is arXiv:math/0310244v1 (submitted 16 October 2003), 31 physical pages. The publication is SPA 114(1) (2004), pp.27–50, DOI confirmed on Elsevier record; no text-equivalence comparison.",
+    "reason": "Full-text method source for the exact BRW smoothing transform W =d Σ_{i=1}^L X_iW_i with a point process of nonnegative weights and conditionally iid independent child copies. operator class already within this skill's RDE/QSO adapters; no A121/A122 theorem transfer is asserted.",
+    "topics": [
+      "A121",
+      "A122",
+      "C023",
+      "C024",
+      "C030",
+      "C034"
+    ],
+    "metadata_status": "arXiv primary record verifies title, author, v1 submission date; Elsevier primary record verifies publication venue, pagination and DOI.",
+    "identity_status": "verified_arxiv_v1_title_author_first_last_pages_sha_page_count",
+    "local_pdf": "evidence/fulltexts/W21-043.pdf",
+    "sha256": "1abcd228c69683b086ae10a5e2d6db92376234ff687c3683d809d8307925db2c",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–31, all pages including appendix, Pitman–Yor application, and references; Theorem 2 render p.6.",
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-043",
+    "fullcard": "evidence/W21/cards/W21-043.md",
+    "candidate_use": "Theorem 2 gives an elementary fixed-point criterion for the explicit point-process BRW smoothing transform; Proposition 3(a)–(b) gives uniqueness within the elementary class. The literal Prop. 1(b) all-scale regular-variation and Prop. 3(c) all-fixedpoint claims are contradicted in the read arXiv v1 by a neutral-reviewed arithmetic example; no journal-version comparison was made. Auxiliary only for explicit BRW weighted-sum recursions.",
+    "transfer_boundary": "No point-process weighted-sum BRW recursion or its weight/integrability hypotheses is established for A121/A122. The read arXiv v1 Prop. 1(b) and Prop. 3(c) claims are isolated after neutral adjudication; this does not refute Theorem 2, Prop. 3(a)–(b), or Props. 4/6 under their own assumptions. Later journal-version equivalence was not checked.",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "probability-nonlinear-law-dynamics": {
+        "provisional": true,
+        "eligible": true,
+        "operator": "BRW smoothing transform W =d Σ_{i=1}^L X_iW_i with a point process of nonnegative weights and conditionally iid independent child copies.",
+        "main_conclusion": "Theorem 2 gives necessary-and-sufficient existence conditions for α-elementary fixed points; Proposition 3(a)–(b) gives uniqueness by normalization within the elementary class. The source’s Proposition 1(b) full regular-variation and Proposition 3(c) no-other-fixedpoints assertions are isolated after a neutral-reviewed admissible arithmetic counterexample for this arXiv v1 only. Propositions 4 and 6 give moment criteria and characteristic-function metric contraction with separate assumptions.",
+        "assumptions": "For Theorem 2: 0<α≤1, candidate root β1=α and Dβ1: EΣ_i X_i^β1=1, together with one of the theorem’s three tilted-random-walk/integrability alternatives; the equivalent walk condition is full drift S_n→−∞, not only liminf S_n→−∞. Moment/contraction results require separate finite-mean, p-range, and displayed moment assumptions. Scope of the source-local Prop. 1(b)/Prop. 3(c) adjudication is arXiv v1 only; the journal version was not compared.",
+        "method_use": "This is not merely generic BRW background: it supplies a concrete elementary RDE fixed-point existence/uniqueness criterion and contraction tool for the weighted-sum smoothing operator. Reuse only under each result’s own weight, independence, drift, and integrability hypotheses; exclude the source-v1 Prop. 1(b) and Prop. 3(c) claims from reuse."
+      }
+    },
+    "supplementary_id": "SUP-BRW",
+    "pdf_page_count": 31,
+    "acquisition_worker": "D03",
+    "integration_note": "Full text was read by L08 and mother-integrated by L12; source-level tool quota is provisional pending R02. Keep target A121/A122 interface status separate."
+  },
+  {
+    "local_id": "W21-044",
+    "candidate_id": null,
+    "title": "Weak Stability of Centred Quadratic Stochastic Operators",
+    "authors": [
+      "Krzysztof Bartoszek",
+      "Joachim Domsta",
+      "Małgorzata Pułka"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1007/s40840-017-0575-8",
+    "url": "https://link.springer.com/article/10.1007/s40840-017-0575-8",
+    "alternate_urls": [
+      "https://link.springer.com/content/pdf/10.1007/s40840-017-0575-8.pdf",
+      "https://doi.org/10.1007/s40840-017-0575-8"
+    ],
+    "version": "Springer open-access publisher-layout PDF, BMMS 42 (2019), 1813–1830, 18 physical pages; publication version identity confirmed, no alternate-text comparison.",
+    "reason": "Full-text method source for the exact Centered quadratic stochastic operator Q_G(F)=Law((X1+X2)/2+η), with iid X1,X2~F and independent fixed noise η~G. operator class already within this skill's RDE/QSO adapters; no A121/A122 theorem transfer is asserted.",
+    "topics": [
+      "A121",
+      "A122",
+      "C017",
+      "C018",
+      "C019",
+      "C020"
+    ],
+    "metadata_status": "Springer primary record confirms authors, journal, volume/pages, DOI and OA status; publisher PDF identity checked.",
+    "identity_status": "verified_open_access_publisher_pdf_first_last_pages_sha_page_count",
+    "local_pdf": "evidence/fulltexts/W21-044.pdf",
+    "sha256": "6e8b3da935c63aa7253bd7e846ccf6439f6a35a2284ee99cfa39bedb1c6f8620",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–18, all pages including proofs, examples and references; key formula/check on pp.6–13.",
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-044",
+    "fullcard": "evidence/W21/cards/W21-044.md",
+    "candidate_use": "The abstract continuous-map result is conditionally reusable if continuity of the target map is independently established; Theorem 5 also assumes the noise-factor weak limit exists. QSO-specific factorization needs averaging plus additive noise.",
+    "transfer_boundary": "No centered parental-average plus independent-noise representation is established for A121/A122; only the general weak-continuity limit principle can be reused after target continuity is proved.",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "probability-nonlinear-law-dynamics": {
+        "provisional": true,
+        "eligible": true,
+        "operator": "Centered quadratic stochastic operator Q_G(F)=Law((X1+X2)/2+η), with iid X1,X2~F and independent fixed noise η~G.",
+        "main_conclusion": "Theorem 1 identifies fixed points through φ_H(s)=φ_H(s/2)^2φ_G(s), and states any such fixed point is the weak limit of its own iterates. Theorems 3–5 give noise-factor convergence/regularity under their separate assumptions; specifically Theorem 5 assumes G^{ {∞} }=w-lim_n G^{ {n} } already exists.",
+        "assumptions": "Parental averaging with two iid parents and independent additive noise; fixed-point/weak-continuity statement uses the exact characteristic-function update. Theorem 5 needs both its local modulus bound and existence of the noise-factor weak limit; local modulus decay alone is insufficient. Other specialized factor-limit conclusions require their respective finite-second-moment/zero-mean or local characteristic-function assumptions.",
+        "method_use": "Concrete nonlinear law-operator/QSO fixed-point and weak-stability template. The general continuity-to-fixed-point implication applies only after target-map weak continuity is proved; the QSO-specific factorization and conditional noise-limit conclusions do not transfer to the rank-selection update."
+      }
+    },
+    "supplementary_id": "SUP-QSOSTAB",
+    "pdf_page_count": 18,
+    "acquisition_worker": "D03",
+    "integration_note": "Full text was read by L08 and mother-integrated by L12; source-level tool quota is provisional pending R02. Keep target A121/A122 interface status separate."
+  },
+  {
+    "local_id": "W21-045",
+    "candidate_id": null,
+    "title": "The Functional Equation of the Smoothing Transform",
+    "authors": [
+      "Gerold Alsmeyer",
+      "J. D. Biggins",
+      "Matthias Meiners"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1214/11-AOP670",
+    "url": "https://doi.org/10.1214/11-AOP670",
+    "alternate_urls": [
+      "https://www.uni-muenster.de/Stochastik/Meiners/Publikationen/FEqofST.pdf",
+      "https://projecteuclid.org/journals/annals-of-probability"
+    ],
+    "version": "University-hosted final Annals of Probability 40(5) (2012), pp.2069–2105, 37 physical pages; first/last pages identify the final article, but a publisher-byte comparison was not performed.",
+    "reason": "Full-text method source for the exact smoothing-transform functional operator f ↦ E∏_{i≥1} f(tT_i), corresponding to sum-type or min-type recursive distributional equations. Operator class already within this skill’s RDE/QSO adapters; no A121/A122 theorem transfer is asserted. A4a uses xlogx of the total weight sum.",
+    "topics": [
+      "A121",
+      "A122",
+      "C022",
+      "C023",
+      "C024",
+      "C026"
+    ],
+    "metadata_status": "First page identifies full journal citation and DOI; author-hosted final PDF and IMS/Project Euclid citation checked.",
+    "identity_status": "verified_final_article_first_last_page_sha_page_count",
+    "local_pdf": "evidence/fulltexts/W21-045.pdf",
+    "sha256": "097bc799a1ddf418a04dcd3b28b8717b3b99fe297022f99dd4a866d96b069e7d",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–37, complete article, all 13 sections and references; theorem renders pp.5 and 14.",
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W21/reading_coverage.json#W21-045",
+    "fullcard": "evidence/W21/cards/W21-045.md",
+    "candidate_use": "Auxiliary full source for explicit smoothing-transform/BRW fixed-point equations, not a theorem for arbitrary stationary-law maps.",
+    "transfer_boundary": "No weighted-sum/min-type smoothing equation, A1–A5 weight data, or endogenous branching construction is established for A121/A122.",
+    "quota_eligible_for_A121_A122": false,
+    "tool_quota_eligibility": {
+      "probability-nonlinear-law-dynamics": {
+        "provisional": true,
+        "eligible": true,
+        "operator": "Smoothing-transform functional operator f ↦ E∏_{i≥1} f(tT_i), corresponding to sum-type or min-type recursive distributional equations.",
+        "main_conclusion": "Theorem 2.2 classifies nontrivial decreasing solutions as f(t)=E exp[−Wh(t)t^α]; Corollaries 2.3–2.4 specialize Laplace and survival solutions; Theorem 8.3 gives BRW disintegration/endogeny.",
+        "assumptions": "A1–A5: nondegenerate weights, EN>1, minimal characteristic exponent m(α)=1<m(β) for β<α, either (A4a) m′(α)∈(−∞,0) and E[(Σ_i T_i^α)log⁺(Σ_i T_i^α)]<∞, or (A4b) a lower moment, and a finite nonnull W solving the modified transform; geometric span controls periodic factors.",
+        "method_use": "Strict smoothing-RDE classification/disintegration template for countable weighted-recursion operators under A1–A5. It is a separate work from SUP-MALLEIN, with related scope but distinct theorem/proof; no representation is established for A121/A122."
+      }
+    },
+    "supplementary_id": "SUP-FEQ",
+    "pdf_page_count": 37,
+    "acquisition_worker": "D03",
+    "integration_note": "Full text was read by L08 and mother-integrated by L12; source-level tool quota is provisional pending R02. Keep target A121/A122 interface status separate."
+  }
+]

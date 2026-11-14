@@ -1,0 +1,3142 @@
+{
+  "worker": "W14",
+  "skill": "probability-queueing-heavy-traffic",
+  "scope_note": "Actual full-paper coverage map: each fulltext-read local PDF is linked by path and SHA-256; section/subsection and appendix ranges summarize read content and proof mechanisms. It supplements rather than replaces the theorem-level source cards.",
+  "sources": [
+    {
+      "local_id": "W14-001",
+      "title": "On open problems in polling systems",
+      "pdf_path": "evidence/fulltexts/W14-001.pdf",
+      "sha256": "8071919c7b7182597728c1d6fde6ec33ee675457af9dc472a7e64a023fa34b93",
+      "physical_page_count": 9,
+      "read_basis": "Complete local PDF read: physical pages 1–9; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Frames the polling open problems and the Poisson/renewal distinction."
+        },
+        {
+          "unit": "§2 Model and notation",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Defines the two-queue G/1-L system and embedded PGF recursion."
+        },
+        {
+          "unit": "§3 Open problem 1: gated plus 1-limited",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Reviews solved cases and identifies the unsolved shifted bivariate G/1-L PGF equation."
+        },
+        {
+          "unit": "§3.1 Known two-queue results",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Summarizes branching-type cases."
+        },
+        {
+          "unit": "§3.2 Unsolved G/1-L model",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Shows boundary correction and failed substitutions preventing closure."
+        },
+        {
+          "unit": "§4 Open problem 2: switch-over asymptotics",
+          "physical_pdf_pages": [
+            4,
+            7
+          ],
+          "coverage": "Separates the Poisson theorem from the general-renewal conjecture."
+        },
+        {
+          "unit": "§4.1 Poisson arrivals",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Derives the large deterministic switch-over limit."
+        },
+        {
+          "unit": "§4.2 General renewal arrivals",
+          "physical_pdf_pages": [
+            5,
+            7
+          ],
+          "coverage": "Gives conjecture, fluid heuristic, simulations, and missing proof."
+        },
+        {
+          "unit": "§5 Conclusions",
+          "physical_pdf_pages": [
+            7,
+            7
+          ],
+          "coverage": "Restates open directions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Lists cited literature."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-002",
+      "title": "On the Stability of a Polling System with an Adaptive Service Mechanism",
+      "pdf_path": "evidence/fulltexts/W14-002.pdf",
+      "sha256": "cf77f04f2754956e78b0fa1c32f5ff1f9af366ca49c494d083e953be223885d1",
+      "physical_page_count": 21,
+      "read_basis": "Complete local PDF read: physical pages 1–21; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Motivates adaptive polling and the limited-service criterion."
+        },
+        {
+          "unit": "§2 Model and main results",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Defines cycle rules, primitives, state, and theorems."
+        },
+        {
+          "unit": "§3 Fluid model and instability criteria",
+          "physical_pdf_pages": [
+            6,
+            10
+          ],
+          "coverage": "Derives fluid equations and stability bounds."
+        },
+        {
+          "unit": "§4 Limited-service proofs",
+          "physical_pdf_pages": [
+            11,
+            15
+          ],
+          "coverage": "Uses fluid equations, regenerative visits, and drainage."
+        },
+        {
+          "unit": "§5 Discussion",
+          "physical_pdf_pages": [
+            16,
+            19
+          ],
+          "coverage": "Explains non-tight l2>1 bounds and distribution-sensitive examples."
+        },
+        {
+          "unit": "§5.1 First examples",
+          "physical_pdf_pages": [
+            16,
+            18
+          ],
+          "coverage": "Works through limited-service examples."
+        },
+        {
+          "unit": "§5.2 Weibull examples",
+          "physical_pdf_pages": [
+            18,
+            19
+          ],
+          "coverage": "Compares Weibull primitives."
+        },
+        {
+          "unit": "§6 Fluid-model proofs",
+          "physical_pdf_pages": [
+            19,
+            20
+          ],
+          "coverage": "Provides general fluid proof components."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            20,
+            21
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-004",
+      "title": "A polling system whose stability region depends on a whole distribution of service times",
+      "pdf_path": "evidence/fulltexts/W14-004.pdf",
+      "sha256": "3fc736b0e13167a3515a1e66357c87eea2808e0881672b9338bb47042dccbc92",
+      "physical_page_count": 6,
+      "read_basis": "Complete local PDF read: physical pages 1–6; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Positions the two-queue adaptive example."
+        },
+        {
+          "unit": "§2 Model and stability conditions",
+          "physical_pdf_pages": [
+            2,
+            5
+          ],
+          "coverage": "Defines model and transform-dependent recurrence condition."
+        },
+        {
+          "unit": "§2.1 Embedded processes",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Defines embedded populations."
+        },
+        {
+          "unit": "§2.2 Auxiliary Markov chain",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Augments the embedded state."
+        },
+        {
+          "unit": "§2.3 Stability analysis",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Applies drift and random-walk comparison."
+        },
+        {
+          "unit": "Acknowledgement",
+          "physical_pdf_pages": [
+            5,
+            5
+          ],
+          "coverage": "Acknowledges contributions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Lists cited literature."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-005",
+      "title": "Heavy Traffic Joint Queue Length Distribution without Resource Pooling",
+      "pdf_path": "evidence/fulltexts/W14-005.pdf",
+      "sha256": "3cb38458d93d1c196148ca21b7d778b24902962fb476fb790c121bd0faf6eaeb",
+      "physical_page_count": 46,
+      "read_basis": "Complete local PDF read: physical pages 1–46; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            6
+          ],
+          "coverage": "Sets out non-CRP joint-law problem and contributions."
+        },
+        {
+          "unit": "§1.1 Main contribution and method outline",
+          "physical_pdf_pages": [
+            2,
+            5
+          ],
+          "coverage": "Summarizes switch, N-system, and SSC/BAR route."
+        },
+        {
+          "unit": "§1.3 Related work and §1.4 notation",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Reviews related results and fixes matrix/cone notation."
+        },
+        {
+          "unit": "§2 Input-queued switch",
+          "physical_pdf_pages": [
+            6,
+            17
+          ],
+          "coverage": "Defines the switch, SSC, functional equation, and conditional candidate."
+        },
+        {
+          "unit": "§2.1 Model",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "coverage": "Specifies arrivals, schedules, and heavy-traffic family."
+        },
+        {
+          "unit": "§2.2 Three-queue system",
+          "physical_pdf_pages": [
+            8,
+            12
+          ],
+          "coverage": "Proves the reduced-system law and transform uniqueness."
+        },
+        {
+          "unit": "§2.3 State-space collapse",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "coverage": "Establishes moment collapse for the input switch."
+        },
+        {
+          "unit": "§2.4 Switch results",
+          "physical_pdf_pages": [
+            14,
+            17
+          ],
+          "coverage": "States BAR equation, Conjecture 1, and conditional Theorem 4."
+        },
+        {
+          "unit": "§3 N-system",
+          "physical_pdf_pages": [
+            17,
+            21
+          ],
+          "coverage": "Proves a separate lower-dimensional transform result."
+        },
+        {
+          "unit": "§4 Three-queue proof outline",
+          "physical_pdf_pages": [
+            22,
+            23
+          ],
+          "coverage": "Collects lemmas and main proof steps."
+        },
+        {
+          "unit": "§5 Discussion",
+          "physical_pdf_pages": [
+            24,
+            24
+          ],
+          "coverage": "Records open uniqueness/general-variance questions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            24,
+            26
+          ],
+          "coverage": "Lists cited literature."
+        },
+        {
+          "unit": "Appendix A: Three-queue proofs",
+          "physical_pdf_pages": [
+            26,
+            32
+          ],
+          "coverage": "Proves reduced-system estimates and identification."
+        },
+        {
+          "unit": "Appendix B: Input-switch proofs",
+          "physical_pdf_pages": [
+            33,
+            37
+          ],
+          "coverage": "Details switch SSC and drift calculations."
+        },
+        {
+          "unit": "Appendix C: N-system proofs",
+          "physical_pdf_pages": [
+            38,
+            43
+          ],
+          "coverage": "Proves N-system moment and uniqueness claims."
+        },
+        {
+          "unit": "Appendix D: end matter",
+          "physical_pdf_pages": [
+            44,
+            46
+          ],
+          "coverage": "Contains end matter/author note."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-006",
+      "title": "On deciding stability of multiclass queueing networks under buffer priority scheduling policies",
+      "pdf_path": "evidence/fulltexts/W14-006.pdf",
+      "sha256": "9b25510d9c80d2a8de8d74caac2fcf13b26857b508623ca388653f47a861e039",
+      "physical_page_count": 31,
+      "read_basis": "Complete local PDF read: physical pages 1–31; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Introduces deterministic stability decision problem."
+        },
+        {
+          "unit": "§2 Model and main result",
+          "physical_pdf_pages": [
+            5,
+            7
+          ],
+          "coverage": "Defines network, priority policy, stability, and theorem."
+        },
+        {
+          "unit": "§2.1 Deterministic network and policy",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Fixes routes, buffers, priorities, and boundedness criterion."
+        },
+        {
+          "unit": "§3 Counter machine and undecidability",
+          "physical_pdf_pages": [
+            7,
+            10
+          ],
+          "coverage": "Reduces halting via a simplified counter machine."
+        },
+        {
+          "unit": "§3.1 Counter machine",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Defines the computation model."
+        },
+        {
+          "unit": "§3.2 Simplified machine",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Normalizes the machine used in construction."
+        },
+        {
+          "unit": "§4 Queue-network encoding",
+          "physical_pdf_pages": [
+            10,
+            14
+          ],
+          "coverage": "Encodes machine instructions in queue subnetworks."
+        },
+        {
+          "unit": "§4.1 Counter subnetworks",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Defines counter operations."
+        },
+        {
+          "unit": "§4.2 Main network",
+          "physical_pdf_pages": [
+            12,
+            14
+          ],
+          "coverage": "Connects state and instruction-control flows."
+        },
+        {
+          "unit": "§5 Proof of Theorem 1",
+          "physical_pdf_pages": [
+            14,
+            29
+          ],
+          "coverage": "Shows bounded queue trajectories correspond to halting."
+        },
+        {
+          "unit": "§5.1 Induction step",
+          "physical_pdf_pages": [
+            17,
+            26
+          ],
+          "coverage": "Proves instruction-by-instruction queue evolution."
+        },
+        {
+          "unit": "§5.2 Load factors",
+          "physical_pdf_pages": [
+            26,
+            28
+          ],
+          "coverage": "Verifies the constructed load inequalities."
+        },
+        {
+          "unit": "§6 Conclusion",
+          "physical_pdf_pages": [
+            29,
+            29
+          ],
+          "coverage": "Separates theorem from conjectured extension."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            29,
+            31
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-008",
+      "title": "On positive Harris recurrence of multiclass queueing networks: a unified approach via fluid limit models",
+      "pdf_path": "evidence/fulltexts/W14-008.pdf",
+      "sha256": "b9f204de686a3ad66d55882bd0be481b8afd9edbd32c5ff92aba2091814136ac",
+      "physical_page_count": 29,
+      "read_basis": "Complete local PDF read: physical pages 1–29; scanned/OCR-assisted source checked page by page, and key theorem/formula displays checked against rendered pages.",
+      "sections": [
+        {
+          "unit": "Title/abstract and §1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            7
+          ],
+          "coverage": "Defines the open multiclass network, primitive assumptions and traffic loads; includes the motivating reentrant-line counterexample/simulation."
+        },
+        {
+          "unit": "§2 State descriptions and Markov model",
+          "physical_pdf_pages": [
+            8,
+            11
+          ],
+          "coverage": "Gives FIFO, priority, HOL/processor-sharing states, residual-time coordinates, and the piecewise-deterministic strong Markov construction."
+        },
+        {
+          "unit": "§3 Harris positive recurrence",
+          "physical_pdf_pages": [
+            11,
+            13
+          ],
+          "coverage": "Defines Harris/positive Harris recurrence; Lemmas 3.1–3.2 establish the petite-set return-time interface, and Theorem 3.1 gives the expected-norm Lyapunov criterion."
+        },
+        {
+          "unit": "§4 Fluid limit models",
+          "physical_pdf_pages": [
+            13,
+            21
+          ],
+          "coverage": "Proves functional strong-law compactness and subsequential fluid equations; distinguishes fluid limits from fluid-model solutions; Theorem 4.2 transfers fluid-limit stability via uniform integrability and Theorem 3.1."
+        },
+        {
+          "unit": "§5 Generalized Jackson networks",
+          "physical_pdf_pages": [
+            21,
+            24
+          ],
+          "coverage": "Uses deterministic Skorohod/DCP comparison to prove stability under nominal loads below one."
+        },
+        {
+          "unit": "§6 Multiclass station and feedforward network",
+          "physical_pdf_pages": [
+            24,
+            25
+          ],
+          "coverage": "Applies the fluid criterion to multiclass feedforward systems under the traffic condition."
+        },
+        {
+          "unit": "§7 FBFS in a reentrant line",
+          "physical_pdf_pages": [
+            25,
+            26
+          ],
+          "coverage": "Proves Theorem 7.1 for first-buffer-first-served preemptive-resume service by induction on classes in the fluid model."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": [
+            27,
+            29
+          ],
+          "coverage": "Read acknowledgments and full bibliography; OCR/reference glyphs are imperfect but no proof claim is based on those pages."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-009",
+      "title": "Stability and Convergence of Moments for Multiclass Queueing Networks via Fluid Limit Models",
+      "pdf_path": "evidence/fulltexts/W14-009.pdf",
+      "sha256": "518833dda3ed2999f5ffffa2ccd2ef9855da640a2e792b71d9d5c330d2700342",
+      "physical_page_count": 16,
+      "read_basis": "Complete local PDF read: physical pages 1–16; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§I Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Motivates fluid stability and moment convergence."
+        },
+        {
+          "unit": "§II Queueing network model",
+          "physical_pdf_pages": [
+            2,
+            4
+          ],
+          "coverage": "Defines network, assumptions, and stability notions."
+        },
+        {
+          "unit": "§III Fluid models and stability",
+          "physical_pdf_pages": [
+            4,
+            6
+          ],
+          "coverage": "Derives fluid equations and drainage criterion."
+        },
+        {
+          "unit": "§IV Main results and polling example",
+          "physical_pdf_pages": [
+            6,
+            9
+          ],
+          "coverage": "States fluid theorem and token-ring application."
+        },
+        {
+          "unit": "§V Proof of moment bounds",
+          "physical_pdf_pages": [
+            9,
+            12
+          ],
+          "coverage": "Builds contraction, return-time occupation, and moment bounds."
+        },
+        {
+          "unit": "§VI Convergence",
+          "physical_pdf_pages": [
+            12,
+            15
+          ],
+          "coverage": "Uses resolvent drift and small-set assumptions for convergence/SLLN."
+        },
+        {
+          "unit": "§VII Conclusions",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Summarizes sufficient implications."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            15,
+            16
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-010",
+      "title": "Stability and instability of fluid models for reentrant lines",
+      "pdf_path": "evidence/fulltexts/W14-010.pdf",
+      "sha256": "c6996d4db0bd840c13a0ee8b9d778d234291d311ffdf7b7f1bcabb84e2214706",
+      "physical_page_count": 20,
+      "read_basis": "Complete local PDF read: physical pages 1–20; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Defines the reentrant-line stability problem."
+        },
+        {
+          "unit": "§2 Model and fluid model",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Specifies primitives, state, fluid equations, and stability."
+        },
+        {
+          "unit": "§3 Three-buffer line",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "coverage": "Builds a piecewise-linear fluid Lyapunov function."
+        },
+        {
+          "unit": "§4 Buffer-priority example",
+          "physical_pdf_pages": [
+            8,
+            11
+          ],
+          "coverage": "Analyzes stability under another priority policy."
+        },
+        {
+          "unit": "§5 Lu–Kumar network",
+          "physical_pdf_pages": [
+            11,
+            15
+          ],
+          "coverage": "Examines stability and instability regimes."
+        },
+        {
+          "unit": "§6 Kelly network",
+          "physical_pdf_pages": [
+            16,
+            19
+          ],
+          "coverage": "Applies the construction to the Kelly example."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            20,
+            20
+          ],
+          "coverage": "Lists literature."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-011",
+      "title": "Instability in Stochastic and Fluid Queueing Networks",
+      "pdf_path": "evidence/fulltexts/W14-011.pdf",
+      "sha256": "2fc271b4896469bd2211e754a0656b368c2b473de3b321f799ec060f34e77681",
+      "physical_page_count": 41,
+      "read_basis": "Complete local PDF read: physical pages 1–41; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Distinguishes fluid model trajectories from stochastic fluid limits."
+        },
+        {
+          "unit": "§2 Model, assumptions, and fluid definitions",
+          "physical_pdf_pages": [
+            4,
+            14
+          ],
+          "coverage": "Defines HOL network, LD assumptions A–C, fluid model, weak stability, and FDP."
+        },
+        {
+          "unit": "§2.1 Stochastic model and assumptions",
+          "physical_pdf_pages": [
+            4,
+            9
+          ],
+          "coverage": "Specifies renewal primitives, residual-time state, uniform LD bounds, and level-hitting condition."
+        },
+        {
+          "unit": "§2.2 Fluid model",
+          "physical_pdf_pages": [
+            9,
+            13
+          ],
+          "coverage": "Gives deterministic flow equations and global/weak stability definitions."
+        },
+        {
+          "unit": "§2.3 Stochastic-fluid connections",
+          "physical_pdf_pages": [
+            12,
+            14
+          ],
+          "coverage": "States one-way stability implication and FDP interface."
+        },
+        {
+          "unit": "§3 Main results",
+          "physical_pdf_pages": [
+            14,
+            16
+          ],
+          "coverage": "States linear fluid divergence and stochastic instability under A–C/FDP."
+        },
+        {
+          "unit": "§4 Proofs",
+          "physical_pdf_pages": [
+            16,
+            37
+          ],
+          "coverage": "Constructs divergent fluid paths and policy U with positive stochastic growth."
+        },
+        {
+          "unit": "§4.1 Linear divergence",
+          "physical_pdf_pages": [
+            16,
+            18
+          ],
+          "coverage": "Rescales a nonzero excursion and concatenates dyadic copies."
+        },
+        {
+          "unit": "§4.2 Two-station FDP",
+          "physical_pdf_pages": [
+            18,
+            19
+          ],
+          "coverage": "Proves the decomposition property for two stations."
+        },
+        {
+          "unit": "§4.3 Transient stochastic paths",
+          "physical_pdf_pages": [
+            19,
+            33
+          ],
+          "coverage": "Controls renewal arrivals/departures over high-probability blocks."
+        },
+        {
+          "unit": "§4.4 Main theorem proof",
+          "physical_pdf_pages": [
+            33,
+            37
+          ],
+          "coverage": "Combines block estimates into the explicit growth bound."
+        },
+        {
+          "unit": "§5 Conclusions and further work",
+          "physical_pdf_pages": [
+            37,
+            38
+          ],
+          "coverage": "Notes the open FDP extension beyond two stations."
+        },
+        {
+          "unit": "§6 Acknowledgements",
+          "physical_pdf_pages": [
+            38,
+            38
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            38,
+            41
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-012",
+      "title": "MaxWeight Scheduling in a Generalized Switch: State Space Collapse and Workload Minimization in Heavy Traffic",
+      "pdf_path": "evidence/fulltexts/W14-012.pdf",
+      "sha256": "60291ce2831345cd6fb0aece8d02f3a8ec2cb4108c244036251cd0f9ef3140a3",
+      "physical_page_count": 53,
+      "read_basis": "Complete local PDF read: physical pages 1–53; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            7
+          ],
+          "coverage": "Motivates generalized switches and the CRP question."
+        },
+        {
+          "unit": "§2 Notation",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "coverage": "Fixes queues, service and scaling notation."
+        },
+        {
+          "unit": "§3 Model",
+          "physical_pdf_pages": [
+            9,
+            11
+          ],
+          "coverage": "Defines switch and scheduling state."
+        },
+        {
+          "unit": "§4 Static Service Split",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Characterizes SSS region."
+        },
+        {
+          "unit": "§5 MaxWeight",
+          "physical_pdf_pages": [
+            12,
+            13
+          ],
+          "coverage": "Defines weighted policy."
+        },
+        {
+          "unit": "§6 Resource pooling",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "coverage": "Defines unique boundary normal."
+        },
+        {
+          "unit": "§7 Heavy-traffic assumptions",
+          "physical_pdf_pages": [
+            14,
+            15
+          ],
+          "coverage": "States input, service, and initial-state conditions."
+        },
+        {
+          "unit": "§8 Main results",
+          "physical_pdf_pages": [
+            15,
+            17
+          ],
+          "coverage": "Proves process-level SSC, RBM workload limit, and optimality."
+        },
+        {
+          "unit": "§9 Discussion",
+          "physical_pdf_pages": [
+            17,
+            20
+          ],
+          "coverage": "Explains scope and stationary-distribution conjecture."
+        },
+        {
+          "unit": "§10 Intuition",
+          "physical_pdf_pages": [
+            20,
+            22
+          ],
+          "coverage": "Develops Lyapunov power-cost intuition."
+        },
+        {
+          "unit": "§11 Fluid sample paths",
+          "physical_pdf_pages": [
+            23,
+            32
+          ],
+          "coverage": "Proves compactness and uniform attraction."
+        },
+        {
+          "unit": "§11.1 Definition and properties",
+          "physical_pdf_pages": [
+            23,
+            26
+          ],
+          "coverage": "Defines fluid-sample-path limit objects."
+        },
+        {
+          "unit": "§11.2 Uniform attraction",
+          "physical_pdf_pages": [
+            26,
+            32
+          ],
+          "coverage": "Uses differential inclusion and workload monotonicity."
+        },
+        {
+          "unit": "§12 Theorem 1 proof",
+          "physical_pdf_pages": [
+            32,
+            44
+          ],
+          "coverage": "Derives diffusion limit and reflection representation."
+        },
+        {
+          "unit": "§12.1 Lemma 7",
+          "physical_pdf_pages": [
+            37,
+            41
+          ],
+          "coverage": "Proves the key fluid-path estimate."
+        },
+        {
+          "unit": "§12.2 Theorem 1(i)",
+          "physical_pdf_pages": [
+            41,
+            44
+          ],
+          "coverage": "Identifies workload and queue limits."
+        },
+        {
+          "unit": "§12.3 Theorem 1(ii)",
+          "physical_pdf_pages": [
+            44,
+            44
+          ],
+          "coverage": "Completes SSS comparison."
+        },
+        {
+          "unit": "§13 Conclusions",
+          "physical_pdf_pages": [
+            44,
+            45
+          ],
+          "coverage": "Summarizes results."
+        },
+        {
+          "unit": "Appendix A: RP LP characterization",
+          "physical_pdf_pages": [
+            45,
+            48
+          ],
+          "coverage": "Characterizes critical normal and pooling."
+        },
+        {
+          "unit": "Appendix A.2: weak law",
+          "physical_pdf_pages": [
+            48,
+            48
+          ],
+          "coverage": "Proves an auxiliary weak law."
+        },
+        {
+          "unit": "Appendix A.3: Lemma 8",
+          "physical_pdf_pages": [
+            49,
+            51
+          ],
+          "coverage": "Supplies fluid-path estimates."
+        },
+        {
+          "unit": "Appendix A.4: Skorohod proposition",
+          "physical_pdf_pages": [
+            51,
+            51
+          ],
+          "coverage": "Justifies scalar workload reflection."
+        },
+        {
+          "unit": "Acknowledgements",
+          "physical_pdf_pages": [
+            52,
+            52
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            52,
+            53
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-013",
+      "title": "Queue Length Behavior in a Switch under the MaxWeight Algorithm",
+      "pdf_path": "evidence/fulltexts/W14-013.pdf",
+      "sha256": "a68bfb58d63ef4ab05832ec16486d425562f86f3072c8e5368733a9995bcf1b2",
+      "physical_page_count": 30,
+      "read_basis": "Complete local PDF read: physical pages 1–30; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "States MaxWeight switch mean-queue problem."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            3,
+            9
+          ],
+          "coverage": "Defines model, cone geometry, and drift moment lemma."
+        },
+        {
+          "unit": "§2.1 System model",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "coverage": "Specifies arrivals, feasible matchings, and policy."
+        },
+        {
+          "unit": "§2.2 Capacity geometry",
+          "physical_pdf_pages": [
+            5,
+            8
+          ],
+          "coverage": "Defines cone K and projection identity."
+        },
+        {
+          "unit": "§2.3 Drift moment bounds",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Derives stationary tails from negative drift."
+        },
+        {
+          "unit": "§3 Universal lower bound",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Uses single-server comparison."
+        },
+        {
+          "unit": "§4 State-space collapse",
+          "physical_pdf_pages": [
+            11,
+            15
+          ],
+          "coverage": "Bounds every fixed moment orthogonal to K."
+        },
+        {
+          "unit": "§5 Tight bounds under MaxWeight",
+          "physical_pdf_pages": [
+            16,
+            23
+          ],
+          "coverage": "Uses fourth-order stationary drift plus SSC for the exact mean coefficient."
+        },
+        {
+          "unit": "§6 Uniform Bernoulli traffic",
+          "physical_pdf_pages": [
+            24,
+            26
+          ],
+          "coverage": "Specializes to uniform switch and joint scaling."
+        },
+        {
+          "unit": "§7 Conclusion",
+          "physical_pdf_pages": [
+            26,
+            27
+          ],
+          "coverage": "Summarizes."
+        },
+        {
+          "unit": "Acknowledgement and References",
+          "physical_pdf_pages": [
+            27,
+            29
+          ],
+          "coverage": "Provides end matter."
+        },
+        {
+          "unit": "Appendix A",
+          "physical_pdf_pages": [
+            29,
+            29
+          ],
+          "coverage": "Proves auxiliary geometric estimate."
+        },
+        {
+          "unit": "Appendix B",
+          "physical_pdf_pages": [
+            30,
+            30
+          ],
+          "coverage": "Proves stationary moment finiteness."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-014",
+      "title": "Heavy-Traffic Analysis of Queueing Systems with no Complete Resource Pooling",
+      "pdf_path": "evidence/fulltexts/W14-014.pdf",
+      "sha256": "8b7e0289568dd2c34afc000c6a10b249e1e8fac6b992446f00c9e2153361d7bc",
+      "physical_page_count": 45,
+      "read_basis": "Complete local PDF read: physical pages 1–45; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Introduces multidimensional SSC and drift method."
+        },
+        {
+          "unit": "§1.1 Notation",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Defines face, cone, and covariance notation."
+        },
+        {
+          "unit": "§2 Generalized-switch model",
+          "physical_pdf_pages": [
+            4,
+            7
+          ],
+          "coverage": "States finite-state service and bounded IID arrivals, permitting within-slot correlation."
+        },
+        {
+          "unit": "§3 Heavy-traffic analysis",
+          "physical_pdf_pages": [
+            7,
+            11
+          ],
+          "coverage": "Proves lower bound, SSC, and tight mean-combination result."
+        },
+        {
+          "unit": "§3.1 Universal lower bound",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Compares weighted backlog to a single-server queue."
+        },
+        {
+          "unit": "§3.2 State-space collapse",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Shows collapse to active-normal cone."
+        },
+        {
+          "unit": "§3.3 Tight bounds",
+          "physical_pdf_pages": [
+            9,
+            11
+          ],
+          "coverage": "States covariance formula and discusses its components."
+        },
+        {
+          "unit": "§4 Applications",
+          "physical_pdf_pages": [
+            11,
+            18
+          ],
+          "coverage": "Applies result to input switches and full-dimensional SSC."
+        },
+        {
+          "unit": "§4.1 Input-queued switch",
+          "physical_pdf_pages": [
+            11,
+            13
+          ],
+          "coverage": "Treats correlated traffic."
+        },
+        {
+          "unit": "§4.2 Full-dimensional SSC",
+          "physical_pdf_pages": [
+            14,
+            18
+          ],
+          "coverage": "Works through parallel-server, N-system, and wireless cases."
+        },
+        {
+          "unit": "§4.2.1 Parallel servers",
+          "physical_pdf_pages": [
+            14,
+            16
+          ],
+          "coverage": "Evaluates formula in parallel-server system."
+        },
+        {
+          "unit": "§4.2.2 N-system",
+          "physical_pdf_pages": [
+            16,
+            17
+          ],
+          "coverage": "Evaluates formula for N-system."
+        },
+        {
+          "unit": "§4.2.3 Ad hoc wireless",
+          "physical_pdf_pages": [
+            17,
+            18
+          ],
+          "coverage": "Analyzes wireless example."
+        },
+        {
+          "unit": "§5 Individual means and higher moments",
+          "physical_pdf_pages": [
+            18,
+            24
+          ],
+          "coverage": "Shows drift equations underdetermine individual means and derives LP bounds."
+        },
+        {
+          "unit": "§5.1 Mean-drift linear system",
+          "physical_pdf_pages": [
+            18,
+            20
+          ],
+          "coverage": "Derives six equations for eleven unknowns in 2x2 switch."
+        },
+        {
+          "unit": "§5.2 LP bounds",
+          "physical_pdf_pages": [
+            20,
+            23
+          ],
+          "coverage": "Bounds linear queue combinations."
+        },
+        {
+          "unit": "§5.3 Extensions",
+          "physical_pdf_pages": [
+            23,
+            24
+          ],
+          "coverage": "Discusses other networks/higher moments."
+        },
+        {
+          "unit": "§6 Proofs of Theorems 1 and 2",
+          "physical_pdf_pages": [
+            24,
+            31
+          ],
+          "coverage": "Carries out projected drifts and boundary estimates."
+        },
+        {
+          "unit": "§6.1 Theorem 1 proof",
+          "physical_pdf_pages": [
+            24,
+            27
+          ],
+          "coverage": "Derives general covariance expression."
+        },
+        {
+          "unit": "§6.2 Theorem 2 proof",
+          "physical_pdf_pages": [
+            27,
+            31
+          ],
+          "coverage": "Derives switch drift constraints."
+        },
+        {
+          "unit": "§7 Conclusion",
+          "physical_pdf_pages": [
+            31,
+            31
+          ],
+          "coverage": "Summarizes."
+        },
+        {
+          "unit": "Acknowledgements and references",
+          "physical_pdf_pages": [
+            31,
+            32
+          ],
+          "coverage": "End matter."
+        },
+        {
+          "unit": "Appendix A: Proposition 1",
+          "physical_pdf_pages": [
+            32,
+            34
+          ],
+          "coverage": "Proves lower bound."
+        },
+        {
+          "unit": "Appendix B: Proposition 2",
+          "physical_pdf_pages": [
+            34,
+            37
+          ],
+          "coverage": "Proves SSC."
+        },
+        {
+          "unit": "Appendix C: Theorem 2 generalizations",
+          "physical_pdf_pages": [
+            37,
+            40
+          ],
+          "coverage": "Details generalized linear constraints."
+        },
+        {
+          "unit": "Appendix D: Theorem 1 details",
+          "physical_pdf_pages": [
+            40,
+            44
+          ],
+          "coverage": "Expands projected-drift and covariance steps."
+        },
+        {
+          "unit": "Appendix E: Theorem 2 details",
+          "physical_pdf_pages": [
+            44,
+            45
+          ],
+          "coverage": "Completes 2x2 drift proof."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-015",
+      "title": "MaxWeight Scheduling: Asymptotic Behavior of Unscaled Queue-Differentials in Heavy Traffic",
+      "pdf_path": "evidence/fulltexts/W14-015.pdf",
+      "sha256": "10c86700fd49e9f57a6f2fe3ad8dfa2712405d8e78ef1d175502a5a90911978a",
+      "physical_page_count": 9,
+      "read_basis": "Complete local PDF read: physical pages 1–9; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction and notation",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Frames queue-differential limit."
+        },
+        {
+          "unit": "§2 System model",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Defines discrete-time queueing model."
+        },
+        {
+          "unit": "§3 MaxWeight scheme",
+          "physical_pdf_pages": [
+            3,
+            3
+          ],
+          "coverage": "Defines policy and heavy-traffic family."
+        },
+        {
+          "unit": "§4 Main results",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "States recurrence, convergence, and smoothness claims."
+        },
+        {
+          "unit": "§5 Complete resource pooling",
+          "physical_pdf_pages": [
+            4,
+            4
+          ],
+          "coverage": "Defines CRP."
+        },
+        {
+          "unit": "§6 Markov-chain background",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Collects general-state-space facts."
+        },
+        {
+          "unit": "§7 Queue-length process",
+          "physical_pdf_pages": [
+            5,
+            7
+          ],
+          "coverage": "Builds projected dynamics."
+        },
+        {
+          "unit": "§8 Steady-state queues",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Proves tightness of differentials."
+        },
+        {
+          "unit": "§9 Limit differential process",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Identifies unique stationary law."
+        },
+        {
+          "unit": "§10 Non-CRP extension",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Gives normal-cone generalization and boundary condition."
+        },
+        {
+          "unit": "§11 References",
+          "physical_pdf_pages": [
+            9,
+            9
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-016",
+      "title": "Asymptotically Tight Steady-State Queue Length Bounds Implied By Drift Conditions",
+      "pdf_path": "evidence/fulltexts/W14-016.pdf",
+      "sha256": "fe42b39f75c1032842f37260e7c7dd5ac54617b5cbab30f29d8776e417305303",
+      "physical_page_count": 34,
+      "read_basis": "Complete local PDF read: physical pages 1–34; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Outlines lower-bound, SSC, and drift upper-bound stages."
+        },
+        {
+          "unit": "§2 Models and preliminaries",
+          "physical_pdf_pages": [
+            3,
+            8
+          ],
+          "coverage": "Defines JSQ, MW, drift lemma, and capacity region."
+        },
+        {
+          "unit": "§2.1 Drift result",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "States negative-drift moment lemma."
+        },
+        {
+          "unit": "§2.2 JSQ model",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "Defines parallel-server routing."
+        },
+        {
+          "unit": "§2.3 MW model",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "coverage": "Defines finite schedules and policy."
+        },
+        {
+          "unit": "§2.4 Capacity region",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Defines active faces."
+        },
+        {
+          "unit": "§3 Lower bounds",
+          "physical_pdf_pages": [
+            8,
+            10
+          ],
+          "coverage": "Uses single-server comparison for weighted workload."
+        },
+        {
+          "unit": "§3.1 Routing lower bound",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Applies comparison to JSQ."
+        },
+        {
+          "unit": "§3.2 Scheduling lower bound",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Derives active-face bound."
+        },
+        {
+          "unit": "§4 State-space collapse",
+          "physical_pdf_pages": [
+            10,
+            15
+          ],
+          "coverage": "Proves uniform moments of orthogonal residual."
+        },
+        {
+          "unit": "§4.1 JSQ SSC",
+          "physical_pdf_pages": [
+            11,
+            14
+          ],
+          "coverage": "Applies drift lemma to routing."
+        },
+        {
+          "unit": "§4.2 MW SSC",
+          "physical_pdf_pages": [
+            14,
+            15
+          ],
+          "coverage": "Applies drift lemma to MW."
+        },
+        {
+          "unit": "§5 Upper bounds and HT optimality",
+          "physical_pdf_pages": [
+            16,
+            22
+          ],
+          "coverage": "Uses stationarity and SSC to match leading means."
+        },
+        {
+          "unit": "§5.1 JSQ upper bound",
+          "physical_pdf_pages": [
+            17,
+            18
+          ],
+          "coverage": "Matches total-queue coefficient."
+        },
+        {
+          "unit": "§5.2 MW upper bound",
+          "physical_pdf_pages": [
+            18,
+            22
+          ],
+          "coverage": "Bounds service deficits and residual terms."
+        },
+        {
+          "unit": "§6 Extensions",
+          "physical_pdf_pages": [
+            22,
+            27
+          ],
+          "coverage": "Extends to powers and fading."
+        },
+        {
+          "unit": "§6.1 nth moments",
+          "physical_pdf_pages": [
+            22,
+            24
+          ],
+          "coverage": "Expands polynomial drift and bounds moments."
+        },
+        {
+          "unit": "§6.2 Fading",
+          "physical_pdf_pages": [
+            24,
+            27
+          ],
+          "coverage": "Adapts SSC and drift estimates."
+        },
+        {
+          "unit": "§7 Conclusions",
+          "physical_pdf_pages": [
+            27,
+            28
+          ],
+          "coverage": "Summarizes results."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            28,
+            29
+          ],
+          "coverage": "Lists sources."
+        },
+        {
+          "unit": "Appendix A: Lemma 2 proof",
+          "physical_pdf_pages": [
+            29,
+            30
+          ],
+          "coverage": "Proves drift criterion."
+        },
+        {
+          "unit": "Appendix B: Lemma 7 proof",
+          "physical_pdf_pages": [
+            30,
+            31
+          ],
+          "coverage": "Proves drift comparison."
+        },
+        {
+          "unit": "Appendix C: Lemma 10 proof",
+          "physical_pdf_pages": [
+            31,
+            32
+          ],
+          "coverage": "Proves JSQ estimate."
+        },
+        {
+          "unit": "Appendix D: Proposition 5 proof",
+          "physical_pdf_pages": [
+            32,
+            34
+          ],
+          "coverage": "Proves nth-moment bounds."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-017",
+      "title": "Heavy Traffic Queue Length Behavior in Switches with Reconfiguration Delay",
+      "pdf_path": "evidence/fulltexts/W14-017.pdf",
+      "sha256": "ea0e4f407840c7873471182d5887c93a65a58ab2e18cb04f34bb232d1ae2a469",
+      "physical_page_count": 14,
+      "read_basis": "Complete local PDF read: physical pages 1–14; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Introduces reconfiguration delay."
+        },
+        {
+          "unit": "§2 Model",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "coverage": "Defines queues, schedule and reconfiguration state."
+        },
+        {
+          "unit": "§3 Adaptive MaxWeight",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "States hysteresis policy."
+        },
+        {
+          "unit": "§4 Heavy-traffic analysis",
+          "physical_pdf_pages": [
+            4,
+            9
+          ],
+          "coverage": "Proves weak SSC and derives drift/duration bounds."
+        },
+        {
+          "unit": "§5 Simulations",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Reports scaling experiments."
+        },
+        {
+          "unit": "§6 Conclusion",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Summarizes."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            11,
+            11
+          ],
+          "coverage": "Lists sources."
+        },
+        {
+          "unit": "Appendix",
+          "physical_pdf_pages": [
+            12,
+            14
+          ],
+          "coverage": "Provides technical proofs."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-018",
+      "title": "Supermarket Queueing System in the Heavy Traffic Regime: Short Queue Dynamics",
+      "pdf_path": "evidence/fulltexts/W14-018.pdf",
+      "sha256": "4e501bfe4eddd5af47608d9e1d27b862d7df78dfc8b2f01ffea6be57e7d033a0",
+      "physical_page_count": 39,
+      "read_basis": "Complete local PDF read: physical pages 1–39; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            6
+          ],
+          "coverage": "Introduces supermarket model and scaling."
+        },
+        {
+          "unit": "§2 Model and main result",
+          "physical_pdf_pages": [
+            6,
+            10
+          ],
+          "coverage": "States finite-n dynamics, process theorem, and steady-state lower bound."
+        },
+        {
+          "unit": "§3 Steady-state results",
+          "physical_pdf_pages": [
+            10,
+            16
+          ],
+          "coverage": "Proves fixed point, attraction, and finite-n inequality."
+        },
+        {
+          "unit": "§4 Integral representation",
+          "physical_pdf_pages": [
+            16,
+            28
+          ],
+          "coverage": "Proves existence, uniqueness, and continuity for stopped system."
+        },
+        {
+          "unit": "§5 Martingale representation",
+          "physical_pdf_pages": [
+            28,
+            30
+          ],
+          "coverage": "Represents approximation error."
+        },
+        {
+          "unit": "§6 Martingale convergence",
+          "physical_pdf_pages": [
+            30,
+            38
+          ],
+          "coverage": "Shows error vanishes in weighted norm."
+        },
+        {
+          "unit": "§7 Open questions",
+          "physical_pdf_pages": [
+            38,
+            38
+          ],
+          "coverage": "Lists unresolved steady-state and related questions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            38,
+            39
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-019",
+      "title": "Pseudo-conservation laws in cyclic-service systems",
+      "pdf_path": "evidence/fulltexts/W14-019.pdf",
+      "sha256": "7df23d50dc922a7748eab69e56176f5ae9557466ac791f58f57255381996d660",
+      "physical_page_count": 16,
+      "read_basis": "Complete local PDF read: physical pages 1–16; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            6
+          ],
+          "coverage": "Introduces cyclic visit disciplines and conservation results."
+        },
+        {
+          "unit": "§2 Workload decomposition",
+          "physical_pdf_pages": [
+            7,
+            10
+          ],
+          "coverage": "Proves cyclic workload equals independent M/G/1 workload plus switch-interval work."
+        },
+        {
+          "unit": "§3 Pseudo-conservation law",
+          "physical_pdf_pages": [
+            10,
+            15
+          ],
+          "coverage": "Derives mean waits for mixed disciplines."
+        },
+        {
+          "unit": "§3.1 Exhaustive queues",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "coverage": "Computes residual work."
+        },
+        {
+          "unit": "§3.2 Gated queues",
+          "physical_pdf_pages": [
+            12,
+            13
+          ],
+          "coverage": "Computes gated residual."
+        },
+        {
+          "unit": "§3.3 One-customer queues",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "coverage": "Computes nonexhaustive residual."
+        },
+        {
+          "unit": "§3.4 Semi-exhaustive queues",
+          "physical_pdf_pages": [
+            14,
+            15
+          ],
+          "coverage": "Uses busy-period identities."
+        },
+        {
+          "unit": "§4 Conclusions",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "States scope and within-queue extension."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            16,
+            16
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-020",
+      "title": "Polling systems and multitype branching processes",
+      "pdf_path": "evidence/fulltexts/W14-020.pdf",
+      "sha256": "a19bcd6990530c31d5f3d22cc9674e7b21b087dd59796d96afce35270afec16b",
+      "physical_page_count": 18,
+      "read_basis": "Complete local PDF read: physical pages 1–18; scanned/OCR-assisted source checked page by page, and key theorem/formula displays checked against rendered pages.",
+      "sections": [
+        {
+          "unit": "Report title and copyright pages",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "coverage": "Verified the report identity and front matter."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Defines cyclic polling and the fixed-queue visit epoch; explains the MTBP-with-immigration reduction and article structure."
+        },
+        {
+          "unit": "§2 Polling model and Property 1",
+          "physical_pdf_pages": [
+            4,
+            6
+          ],
+          "coverage": "Defines queue-specific effective replacement, gives branching PGFs for exhaustive/gated and binomial variants, and identifies 1-limited/Bernoulli service as failing the property in general."
+        },
+        {
+          "unit": "§3 Multitype branching processes",
+          "physical_pdf_pages": [
+            6,
+            9
+          ],
+          "coverage": "States Quine stationary criterion/product for immigration each state (Theorem 1), proves zero-state immigration recurrence criterion/PGF (Theorem 2)."
+        },
+        {
+          "unit": "§4 Polling theorems",
+          "physical_pdf_pages": [
+            9,
+            12
+          ],
+          "coverage": "Proves visit-epoch MTBP recursions with switchovers (Theorem 3) and without switchovers (Theorem 4); derives immigration PGFs and Bernoulli-type stability criterion (Theorem 5)."
+        },
+        {
+          "unit": "§5 Ergodicity conditions",
+          "physical_pdf_pages": [
+            12,
+            14
+          ],
+          "coverage": "Uses Perron–Frobenius and subinvariance arguments to obtain offspring spectral-radius and immigration moment conditions, including the exhaustive reducible case."
+        },
+        {
+          "unit": "§6 Moment calculations",
+          "physical_pdf_pages": [
+            15,
+            15
+          ],
+          "coverage": "Differentiates the stationary PGFs for first-moment formulas."
+        },
+        {
+          "unit": "§7 Conclusions and extensions; references",
+          "physical_pdf_pages": [
+            16,
+            18
+          ],
+          "coverage": "Summarizes scope and extensions and reads the full reference list."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-021",
+      "title": "Reflected Brownian motion in an orthant: Numerical methods for steady-state analysis",
+      "pdf_path": "evidence/fulltexts/W14-021.pdf",
+      "sha256": "362a9db1e321b219de1493ccec473f9f5f13a8f1fdc6ce75f81dd9886a975e0f",
+      "physical_page_count": 22,
+      "read_basis": "Complete local PDF read: physical pages 1–22; scanned/OCR-assisted source checked page by page, and key theorem/formula displays checked against rendered pages.",
+      "sections": [
+        {
+          "unit": "§1 Introduction and SRBM definition",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Introduces queueing motivation, orthant reflection data, and the semimartingale decomposition."
+        },
+        {
+          "unit": "§2 SRBM preliminaries",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "States Proposition 1 (completely-S well-posedness) and stationary-distribution consequences in Proposition 2."
+        },
+        {
+          "unit": "§3 Basic adjoint relationship",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "coverage": "Derives the necessary BAR in Proposition 3; Proposition 4 proves the converse for a probability interior density and nonnegative integrable face densities; Conjecture 1 asks for nonnegativity of normalized integrable BAR solutions."
+        },
+        {
+          "unit": "§4 Numerical algorithm",
+          "physical_pdf_pages": [
+            7,
+            11
+          ],
+          "coverage": "Defines reference density and L2 orthogonality formulation; Propositions 5–7 state the L2 characterization and approximation conditional on assumptions, with a weak-convergence conjecture outside L2."
+        },
+        {
+          "unit": "§5 Reference density, scaling, and product form",
+          "physical_pdf_pages": [
+            11,
+            13
+          ],
+          "coverage": "Definition 5 specifies the standard SRBM normalization; Proposition 8 gives the scaling reduction under its stationary finite-mean hypotheses; Proposition 9 states the standard-data product-form criterion 2 Gamma_jk = R_kj + R_jk (j != k), with gamma = -R^{-1} mu > 0 and density C exp(-2 gamma dot z)."
+        },
+        {
+          "unit": "§6 Numerical comparisons",
+          "physical_pdf_pages": [
+            14,
+            18
+          ],
+          "coverage": "Reports numerical approximation and comparisons with known analytic examples."
+        },
+        {
+          "unit": "§7 Queueing example",
+          "physical_pdf_pages": [
+            19,
+            21
+          ],
+          "coverage": "Applies the orthant SRBM method to a two-station open queueing-network approximation and compares performance estimates."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            22,
+            22
+          ],
+          "coverage": "Read bibliography and source notes."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-022",
+      "title": "Existence and Uniqueness of Semimartingale Reflecting Brownian Motions in Convex Polyhedrons",
+      "pdf_path": "evidence/fulltexts/W14-022.pdf",
+      "sha256": "aaa759a14a0a6a584bbfb32aec84e3e0e46412b834e22917ae6d7e74af3fc742",
+      "physical_page_count": 40,
+      "read_basis": "Complete local PDF read: physical pages 1–40; scanned/OCR-assisted source checked page by page, and key theorem/formula displays checked against rendered pages.",
+      "sections": [
+        {
+          "unit": "§1 Introduction and geometric conditions",
+          "physical_pdf_pages": [
+            1,
+            6
+          ],
+          "coverage": "Defines the polyhedron and face data; states Assumption 1.1, necessity/sufficiency distinctions, and Theorem 1.3."
+        },
+        {
+          "unit": "§2 Patchwork martingale problem",
+          "physical_pdf_pages": [
+            6,
+            13
+          ],
+          "coverage": "Develops the martingale problem, compact containment and weak-existence construction."
+        },
+        {
+          "unit": "§3 Constrained martingale problem and SRBM existence",
+          "physical_pdf_pages": [
+            13,
+            17
+          ],
+          "coverage": "Constructs a boundary test function, time-changes the constrained martingale problem, and obtains an SRBM by martingale characterization."
+        },
+        {
+          "unit": "§4 Oscillation and boundary properties",
+          "physical_pdf_pages": [
+            17,
+            26
+          ],
+          "coverage": "Proves oscillation estimates and that local-time measures do not charge intersections of multiple faces; establishes the local-time representation."
+        },
+        {
+          "unit": "§5 Uniqueness in law",
+          "physical_pdf_pages": [
+            26,
+            33
+          ],
+          "coverage": "Localizes to cones and proves uniqueness by dimension induction, radial scaling and an ergodic/annular argument, then transfers to general polyhedra."
+        },
+        {
+          "unit": "Appendix A",
+          "physical_pdf_pages": [
+            34,
+            35
+          ],
+          "coverage": "Proves martingale continuity/regularity details used in the construction."
+        },
+        {
+          "unit": "Appendix B",
+          "physical_pdf_pages": [
+            36,
+            39
+          ],
+          "coverage": "Constructs the global Lyapunov/test function used for existence."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            39,
+            40
+          ],
+          "coverage": "Reads the full bibliography."
+        }
+      ],
+      "supplementary_documents": [
+        {
+          "title": "Dai–Williams 2005 correctional note",
+          "pdf_path": "evidence/shared/downloads/D01/papers/D01-SUP-W14-Dai-Williams-SRBM-1995-correction-note.pdf",
+          "sha256": "21cb7d278f4567946218bfdad7540b10efa53503cba12606fe58de014fe3fb26",
+          "physical_page_count": 2,
+          "read_basis": "Both physical pages read in full; corrected Lemma 4.1 and local Lemma 4.3 statements transcribed from the complete note. This supplement is merged into W14-022 and does not count as an additional independent source.",
+          "sections": [
+            {
+              "unit": "Correction to Lemma 4.1",
+              "physical_pdf_pages": [
+                1,
+                2
+              ],
+              "coverage": "Restricts the face-neighborhood decomposition to sufficiently small epsilon and proves the required positive separation."
+            },
+            {
+              "unit": "Implications and corrected Lemma 4.3",
+              "physical_pdf_pages": [
+                2,
+                2
+              ],
+              "coverage": "Replaces the global oscillation claim by a local estimate valid when input oscillation is at most delta; states that the main SRBM results still follow because only local bounds are used for tightness."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "local_id": "W14-023",
+      "title": "Positive Recurrence of Reflecting Brownian Motion in Three Dimensions",
+      "pdf_path": "evidence/fulltexts/W14-023.pdf",
+      "sha256": "f41d7a35e663fcde0723956f1a582c8fd24262653c9b2c216f519a6885db8fd5",
+      "physical_page_count": 33,
+      "read_basis": "Complete local PDF read: physical pages 1–33; scanned/OCR-assisted source checked page by page, and key theorem/formula displays checked against rendered pages.",
+      "sections": [
+        {
+          "unit": "§1 Introduction and recurrence definition",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Defines positive recurrence for an orthant SRBM and states the dimension-three classification objective and higher-dimensional open status."
+        },
+        {
+          "unit": "§2 Fluid paths and LCP",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Defines linear fluid paths and their LCP correspondence; isolates the proper solution under condition (1.6)."
+        },
+        {
+          "unit": "§3 Boundary spirals",
+          "physical_pdf_pages": [
+            5,
+            8
+          ],
+          "coverage": "Defines clockwise/counterclockwise spiral regimes and the exact one-cycle gain formulas beta_1 and beta_2."
+        },
+        {
+          "unit": "§4 Three-dimensional results",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "coverage": "Combines the fluid-stability criterion with Theorems 3–4 and begins the nonrecurrence proof for gain at least one."
+        },
+        {
+          "unit": "§5 Proof of Theorem 3",
+          "physical_pdf_pages": [
+            9,
+            12
+          ],
+          "coverage": "Builds a scalar projection, martingale with bounded quadratic-variation rate, nonnegative compensator and optional-stopping contradiction."
+        },
+        {
+          "unit": "§6 Divergent LCP solution categories",
+          "physical_pdf_pages": [
+            13,
+            17
+          ],
+          "coverage": "Classifies five solution types; Lemma 7 reduces Category IV and Lemma 8 excludes Category III under (1.6)."
+        },
+        {
+          "unit": "§7 Proof of Theorem 4",
+          "physical_pdf_pages": [
+            18,
+            25
+          ],
+          "coverage": "Proves transience/non-positive recurrence for the remaining divergent LCP cases by Brownian stopping and tail estimates."
+        },
+        {
+          "unit": "Appendices A–B",
+          "physical_pdf_pages": [
+            26,
+            28
+          ],
+          "coverage": "Defines the canonical SRBM recurrence convention and justifies scaling normalizations."
+        },
+        {
+          "unit": "Appendix C",
+          "physical_pdf_pages": [
+            28,
+            29
+          ],
+          "coverage": "Proves necessity of R nonsingular and R^{-1}theta<0 for stability."
+        },
+        {
+          "unit": "Appendix D",
+          "physical_pdf_pages": [
+            29,
+            31
+          ],
+          "coverage": "Supplies technical tail estimates for reflected Brownian motion and the planar LCP argument."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pdf_pages": [
+            32,
+            33
+          ],
+          "coverage": "Reads full acknowledgments and bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-024",
+      "title": "A Lyapunov view on positive Harris recurrence of multiclass queueing networks",
+      "pdf_path": "evidence/fulltexts/W14-024.pdf",
+      "sha256": "67c9fac291f5dd656178f6f5e7cc1a07c1ef78e746cb2fdadc249a96f3032580",
+      "physical_page_count": 11,
+      "read_basis": "Complete local PDF read: physical pages 1–11; ranges identify this exact file and recorded SHA-256.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Motivates Lyapunov construction for positive Harris recurrence."
+        },
+        {
+          "unit": "§2 Fluid-network preliminaries",
+          "physical_pdf_pages": [
+            4,
+            7
+          ],
+          "coverage": "Defines fluid levels and regularity properties."
+        },
+        {
+          "unit": "§3 Proof of Theorem 1.1",
+          "physical_pdf_pages": [
+            7,
+            10
+          ],
+          "coverage": "Constructs Lyapunov function, sampled Foster drift, and petite set."
+        },
+        {
+          "unit": "Acknowledgements",
+          "physical_pdf_pages": [
+            10,
+            10
+          ],
+          "coverage": "Acknowledges support."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            10,
+            11
+          ],
+          "coverage": "Lists sources."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-030",
+      "title": "Multiple channel queues in heavy traffic. I",
+      "pdf_path": "evidence/fulltexts/W14-030.pdf",
+      "sha256": "f75a803fcf52309fdb722a1bf55b17110cfa01f8664c275e86ec8874be6c52cc",
+      "physical_page_count": 28,
+      "read_basis": "Complete article-only scan extraction read page by page; physical pp. 1–28 correspond to printed pp. 150–177. All page OCR was read; main formula/theorem pages rendered and visually checked.",
+      "sections": [
+        {
+          "unit": "§1 Introduction and summary",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Defines the heavy-traffic objective, process scaling and sections; distinguishes p=1 from supercritical limits."
+        },
+        {
+          "unit": "§2 Modified multiple-channel queue",
+          "physical_pdf_pages": [
+            4,
+            8
+          ],
+          "coverage": "Builds net renewal input and applies the one-dimensional reflection map. Theorem 2.1 is on physical p. 7; Theorem 2.2 (rho>1) is stated on physical p. 7 (printed p. 156), with proof continuing on p. 8 (printed p. 157); both give process limits."
+        },
+        {
+          "unit": "§3 Standard queueing system",
+          "physical_pdf_pages": [
+            8,
+            13
+          ],
+          "coverage": "Couples the FCFS first-idle-server model with the modified system and proves their scaled process limits agree in heavy traffic."
+        },
+        {
+          "unit": "§4 Departure process",
+          "physical_pdf_pages": [
+            14,
+            15
+          ],
+          "coverage": "Derives departure-process functional limits from the queue and primitive renewal limits."
+        },
+        {
+          "unit": "§5 Queue length at each service channel",
+          "physical_pdf_pages": [
+            15,
+            17
+          ],
+          "coverage": "Studies channel-assigned queue counts and their reflected-diffusion limits."
+        },
+        {
+          "unit": "§6 Load and waiting-time processes",
+          "physical_pdf_pages": [
+            17,
+            20
+          ],
+          "coverage": "Derives limits for virtual waiting time and per-server/total load in the identical-service case."
+        },
+        {
+          "unit": "§7 Embedded sequences",
+          "physical_pdf_pages": [
+            20,
+            23
+          ],
+          "coverage": "Transfers process limits to arrival- and departure-embedded observations and customer waiting sequences."
+        },
+        {
+          "unit": "§8 Time of the nth arrival/departure",
+          "physical_pdf_pages": [
+            23,
+            26
+          ],
+          "coverage": "Uses inverse-process arguments for arrival and departure counting times."
+        },
+        {
+          "unit": "§9 Related functions (busy period)",
+          "physical_pdf_pages": [
+            27,
+            28
+          ],
+          "coverage": "Applies continuous functionals to obtain busy-period limits; closes with references."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-031",
+      "title": "Multiple channel queues in heavy traffic. II: Sequences, networks, and batches",
+      "pdf_path": "evidence/fulltexts/W14-031.pdf",
+      "sha256": "9c1601349d97c804f1a123bbe144f5f980b9d6a322830ee3f1ccb3cce58dfb10",
+      "physical_page_count": 15,
+      "read_basis": "Complete article-only scan extraction read page by page; physical pp. 1–15 correspond to printed pp. 355–369. Formula and main theorem pages were rendered and visually checked.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Explains sequences of facilities, weakly convergent channel inputs, possible dependence within each channel, batch arrivals/services and network applications."
+        },
+        {
+          "unit": "§2 Sequence of modified queueing systems",
+          "physical_pdf_pages": [
+            4,
+            8
+          ],
+          "coverage": "Theorem 1 gives the finite-drift reflection, +infinity net-input, and -infinity zero limits. Its case (c) requires Pr{X in C[0,1]}=1, an a.s. continuity condition used in the proof for C-tightness (Theorem 1 physical pp. 6–7; case-(c) proof physical p. 7). Theorem 2 gives analogous departure limits."
+        },
+        {
+          "unit": "§3 Examples",
+          "physical_pdf_pages": [
+            8,
+            12
+          ],
+          "coverage": "Checks theorem hypotheses for triangular arrays, deterministic/periodic inputs, exchangeable order statistics, batch arrivals and split streams."
+        },
+        {
+          "unit": "§4 Joint limits for facilities in a network",
+          "physical_pdf_pages": [
+            12,
+            14
+          ],
+          "coverage": "Derives joint process limits for several facilities in an open acyclic network."
+        },
+        {
+          "unit": "§5 Future research and references",
+          "physical_pdf_pages": [
+            14,
+            15
+          ],
+          "coverage": "Discusses limitations and directions; includes bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-039",
+      "title": "On Deciding Stability of Constrained Homogeneous Random Walks and Queueing Systems",
+      "pdf_path": "evidence/fulltexts/W14-039.pdf",
+      "sha256": "e7d81511e3a1a379f19d7a5527dd1eee89da13c67fcafbc89efc94435b7b8666",
+      "physical_page_count": 22,
+      "read_basis": "Complete author-hosted journal article, physical pp. 1–22 (printed pp. 272–293), read page by page; text and reduction figures were checked.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Sets the deterministic queueing and walk stability problems; explicitly labels ordinary FIFO/priority undecidability as conjectural."
+        },
+        {
+          "unit": "§2.1 Homogeneous random walk in an orthant",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Defines face-dependent bounded transitions and recurrence/stability notions."
+        },
+        {
+          "unit": "§2.2 Single-station queueing system",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Defines the deterministic multi-buffer single-station model and generalized priority map, including intentional idling."
+        },
+        {
+          "unit": "§3 Counter machines",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "States the halting problem used in the reduction and encodes states/counters."
+        },
+        {
+          "unit": "§4 Deterministic homogeneous-walk stability",
+          "physical_pdf_pages": [
+            6,
+            9
+          ],
+          "coverage": "Reduces counter-machine halting to stability and global-stability questions for deterministic orthant walks."
+        },
+        {
+          "unit": "§5.1 Queue construction",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "coverage": "Builds buffers and monitor jobs that encode counter-machine states and counters."
+        },
+        {
+          "unit": "§5.2 Reduction",
+          "physical_pdf_pages": [
+            10,
+            16
+          ],
+          "coverage": "Defines service/monitor subcycles that simulate machine transitions and link unbounded counter growth to instability."
+        },
+        {
+          "unit": "§5.3 Main queueing result",
+          "physical_pdf_pages": [
+            16,
+            17
+          ],
+          "coverage": "Proves Theorem 4: no algorithm decides stability for the stated generalized-priority queue."
+        },
+        {
+          "unit": "§6.1 Communication-type network",
+          "physical_pdf_pages": [
+            17,
+            19
+          ],
+          "coverage": "Extends the reduction to a communication-type queueing network."
+        },
+        {
+          "unit": "§6.2 Fluid models",
+          "physical_pdf_pages": [
+            19,
+            20
+          ],
+          "coverage": "Shows computation of a fluid limit can be undecidable."
+        },
+        {
+          "unit": "§6.3 Epsilon-stability reformulation",
+          "physical_pdf_pages": [
+            20,
+            21
+          ],
+          "coverage": "Gives a decidable approximate stability property with finite-step dependence."
+        },
+        {
+          "unit": "§7 Conclusions and references",
+          "physical_pdf_pages": [
+            21,
+            22
+          ],
+          "coverage": "Summarizes proved results and open policy classes; bibliography and end matter."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-040",
+      "title": "On Positive Recurrence of Constrained Diffusion Processes",
+      "pdf_path": "evidence/fulltexts/W14-040.pdf",
+      "sha256": "7d81d08341e14b89b21b4f85b851d29cc25c3867f59e65a44df5d04f3ad7adac",
+      "physical_page_count": 30,
+      "read_basis": "Complete arXiv:math/0501018v1 PDF, physical pp. 1–30, read in full; theorem pages and ODE/Lyapunov displays visually checked.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            5
+          ],
+          "coverage": "States the constrained-diffusion setting and positive-recurrence target."
+        },
+        {
+          "unit": "§2 Definitions and formulation",
+          "physical_pdf_pages": [
+            5,
+            10
+          ],
+          "coverage": "Defines the polyhedral cone, Lipschitz Skorokhod map, constrained diffusion and Conditions 2.1–2.4; Theorem 2.2 states positive recurrence and unique invariant probability."
+        },
+        {
+          "unit": "§3 Stability of constrained ODEs",
+          "physical_pdf_pages": [
+            9,
+            16
+          ],
+          "coverage": "Represents deterministic constrained paths through a projection ODE; Theorem 3.2 gives a uniform decay bound under inward-cone velocities."
+        },
+        {
+          "unit": "§4 Stability of constrained diffusions",
+          "physical_pdf_pages": [
+            16,
+            28
+          ],
+          "coverage": "Builds a Lyapunov function and exponential hitting-time tail, then obtains tightness and invariant-measure uniqueness."
+        },
+        {
+          "unit": "References and author end matter",
+          "physical_pdf_pages": [
+            28,
+            30
+          ],
+          "coverage": "Lists cited works and author affiliations."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-041",
+      "title": "Stability Properties of Constrained Jump-Diffusion Processes",
+      "pdf_path": "evidence/fulltexts/W14-041.pdf",
+      "sha256": "0a54915251b9825dbb20c113cec7263a075362de1129f92af8cb1eda3d1c2e29",
+      "physical_page_count": 31,
+      "read_basis": "Complete EJP article, physical pp. 1–31, read in full; key Skorokhod, drift, Lyapunov and recurrence theorem displays rendered and visually checked.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "coverage": "Introduces constrained Lévy/jump-diffusion stability and the Lyapunov strategy."
+        },
+        {
+          "unit": "§2 Setting and results",
+          "physical_pdf_pages": [
+            4,
+            9
+          ],
+          "coverage": "Defines the constrained process, well-posedness conditions, drift cone, transience/recurrence theorems, and extra conditions for positive Harris recurrence and uniqueness."
+        },
+        {
+          "unit": "§3 Proofs of the main results",
+          "physical_pdf_pages": [
+            9,
+            17
+          ],
+          "coverage": "Proves the Lévy transience/return results and reduces jump-diffusion recurrence to Lyapunov and stopping-time estimates."
+        },
+        {
+          "unit": "§4 Construction of the Lyapunov function",
+          "physical_pdf_pages": [
+            17,
+            27
+          ],
+          "coverage": "Smooths a homogeneous Lyapunov function for the constrained ODE, controls large/small jumps and derives finite expected hitting times."
+        },
+        {
+          "unit": "§5 Appendix",
+          "physical_pdf_pages": [
+            28,
+            30
+          ],
+          "coverage": "Supplies technical ODE/reflection-map lemmas used in the Lyapunov construction."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": [
+            31,
+            31
+          ],
+          "coverage": "Bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-042",
+      "title": "The BAR Approach for Multiclass Queueing Networks with SBP Service Policies",
+      "pdf_path": "evidence/fulltexts/W14-042.pdf",
+      "sha256": "b7551d94624aaaa872ddb5db63ca3b60a7d92dd25a4dca35094032d51d64ea3f",
+      "physical_page_count": 49,
+      "read_basis": "Complete exact article extraction, physical pp. 1–49, read with all sections and appendices; main BAR/limit and proof displays checked on rendered pp. 21, 24, 45 and 47.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "Motivates BAR/Palm approach and summarizes stability, SSC and tight-system requirements."
+        },
+        {
+          "unit": "§2 Two-station, five-class example",
+          "physical_pdf_pages": [
+            3,
+            17
+          ],
+          "coverage": "Works through the example and derives the exponential and bounded-distribution heavy-traffic BAR limits."
+        },
+        {
+          "unit": "§2.1 Network description",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Defines two-station, five-class reentrant queue."
+        },
+        {
+          "unit": "§2.2 Markov process and stability",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Defines complete Markov state and stability conditions."
+        },
+        {
+          "unit": "§2.3 Heavy-traffic limit theorem",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "coverage": "States the example-level stationary heavy-traffic result."
+        },
+        {
+          "unit": "§2.4.1–2.4.4 Exponential distributions: BAR, Taylor expansion, SSC and BAR conclusion",
+          "physical_pdf_pages": [
+            6,
+            13
+          ],
+          "coverage": "Derives prelimit and asymptotic BAR, obtains moment/transform SSC, and identifies the low-priority SRBM law."
+        },
+        {
+          "unit": "§2.5 General bounded distributions",
+          "physical_pdf_pages": [
+            13,
+            17
+          ],
+          "coverage": "Extends the example proof to bounded distributions with the stated nonlattice conditions."
+        },
+        {
+          "unit": "§3 Multiclass queueing networks",
+          "physical_pdf_pages": [
+            17,
+            20
+          ],
+          "coverage": "Defines SBP service disciplines, notation, traffic equations and Markov state."
+        },
+        {
+          "unit": "§3.1 Service discipline",
+          "physical_pdf_pages": [
+            17,
+            18
+          ],
+          "coverage": "Defines service priorities and SBP rule."
+        },
+        {
+          "unit": "§3.2 Notation facilitating an SBP discipline",
+          "physical_pdf_pages": [
+            18,
+            19
+          ],
+          "coverage": "Sets class and priority index notation."
+        },
+        {
+          "unit": "§3.3 Traffic equations",
+          "physical_pdf_pages": [
+            19,
+            20
+          ],
+          "coverage": "Defines network rates and loads."
+        },
+        {
+          "unit": "§3.4 Markov process",
+          "physical_pdf_pages": [
+            20,
+            20
+          ],
+          "coverage": "Defines the network state process."
+        },
+        {
+          "unit": "§4 Basic adjoint relationship of an SRBM",
+          "physical_pdf_pages": [
+            20,
+            21
+          ],
+          "coverage": "States the BAR and a tight-system condition yielding a unique probability solution."
+        },
+        {
+          "unit": "§5 Heavy-traffic assumption and main result",
+          "physical_pdf_pages": [
+            21,
+            25
+          ],
+          "coverage": "States moment, linear heavy-traffic, stationarity, moment-SSC, Schur-complement/tight-system assumptions and Theorem 5.1."
+        },
+        {
+          "unit": "§6 BAR approach for queueing networks",
+          "physical_pdf_pages": [
+            25,
+            32
+          ],
+          "coverage": "Builds queueing BAR via Palm calculus and bounded test functions."
+        },
+        {
+          "unit": "§6.1 Framework for deriving BAR",
+          "physical_pdf_pages": [
+            26,
+            31
+          ],
+          "coverage": "Develops the stationary/Palm BAR identities."
+        },
+        {
+          "unit": "§6.2 Test functions for BAR",
+          "physical_pdf_pages": [
+            31,
+            32
+          ],
+          "coverage": "Constructs exponential test functions for the asymptotic equation."
+        },
+        {
+          "unit": "§7 Proof of Theorem 5.1",
+          "physical_pdf_pages": [
+            32,
+            39
+          ],
+          "coverage": "Carries out six steps: prelimit BAR, expansions, subsequential transforms, SSC, elimination of higher-priority boundary terms and tight-system uniqueness."
+        },
+        {
+          "unit": "§7.1–7.5 Proof steps",
+          "physical_pdf_pages": [
+            33,
+            39
+          ],
+          "coverage": "Details the proof outline, expansions, tractable BAR, SSC and final low-priority BAR."
+        },
+        {
+          "unit": "§8 Deriving BARs",
+          "physical_pdf_pages": [
+            39,
+            45
+          ],
+          "coverage": "Proves the prelimit BAR and Palm-distribution SSC lemmas used in Step 1."
+        },
+        {
+          "unit": "§8.1–8.4",
+          "physical_pdf_pages": [
+            39,
+            45
+          ],
+          "coverage": "Derives primitive BAR and establishes Proposition 7.1 with Palm SSC and supporting lemmas."
+        },
+        {
+          "unit": "Appendix A",
+          "physical_pdf_pages": [
+            45,
+            45
+          ],
+          "coverage": "Proves tightness implication used for uniqueness of the SRBM BAR solution."
+        },
+        {
+          "unit": "Appendix B",
+          "physical_pdf_pages": [
+            45,
+            46
+          ],
+          "coverage": "Explains relaxation from the stronger 2+δ moment assumption."
+        },
+        {
+          "unit": "Appendix C",
+          "physical_pdf_pages": [
+            46,
+            48
+          ],
+          "coverage": "Gives the renewal transform expansion supporting the asymptotic BAR."
+        },
+        {
+          "unit": "References and end matter",
+          "physical_pdf_pages": [
+            48,
+            49
+          ],
+          "coverage": "Bibliography and publisher end matter."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-043",
+      "title": "A Positive Recurrent Reflecting Brownian Motion with Divergent Fluid Path",
+      "pdf_path": "evidence/fulltexts/W14-043.pdf",
+      "sha256": "cdf3ae437a2f3eedfcf40eb4d7ddb9fa2e901344e93cc10ea19369739999976a",
+      "physical_page_count": 40,
+      "read_basis": "Complete arXiv:1010.1751v1 preprint, physical pp. 1–40, read in full; theorem, reflection-matrix conditions and stopping-time propositions visually checked on rendered pp. 4–5, 24–25 and 29.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            6
+          ],
+          "coverage": "Defines SRBM fluid paths and the linear complementarity problem; states Theorem 1.2 and its dimension-six counterexample."
+        },
+        {
+          "unit": "§2 Basic estimates",
+          "physical_pdf_pages": [
+            6,
+            15
+          ],
+          "coverage": "Proves Brownian maximum, coordinate and regulator estimates for the six-dimensional construction."
+        },
+        {
+          "unit": "§3 Brownian pursuit model and Foster criterion",
+          "physical_pdf_pages": [
+            15,
+            23
+          ],
+          "coverage": "Uses a four-predator Brownian capture result and a stopping-time Foster criterion to establish recurrence."
+        },
+        {
+          "unit": "§4 Main steps of the proof of Theorem 1.2",
+          "physical_pdf_pages": [
+            23,
+            29
+          ],
+          "coverage": "States Propositions 4.1–4.5 and combines their probability/moment estimates into a negative expected return drift."
+        },
+        {
+          "unit": "§5 Proofs of Propositions 4.1 and 4.2",
+          "physical_pdf_pages": [
+            30,
+            33
+          ],
+          "coverage": "Proves the first two coordinate-control estimates from Section 2 bounds."
+        },
+        {
+          "unit": "§6 Proofs of Propositions 4.3–4.5",
+          "physical_pdf_pages": [
+            33,
+            39
+          ],
+          "coverage": "Completes stopping-time estimates for the remaining cases and closes the Foster recurrence argument."
+        },
+        {
+          "unit": "References and end matter",
+          "physical_pdf_pages": [
+            39,
+            40
+          ],
+          "coverage": "Bibliography and author affiliation."
+        }
+      ]
+    },
+    {
+      "local_id": "W14-044",
+      "title": "Construction of positive recurrent semimartingale reflecting Brownian motions with divergent fluid paths using predator–prey models",
+      "pdf_path": "evidence/fulltexts/W14-044.pdf",
+      "sha256": "7cced2fb87d5e1d7299df6c9849f31d7adf4a53877cd3ef073f242b7b1895361",
+      "physical_page_count": 58,
+      "read_basis": "Complete Springer version-of-record PDF read page by page, physical pp. 1–58. The article runs through p. 57 (conclusion and references); p. 58 is the Publisher’s Note and was read. Theorem/parameter displays were visually checked against rendered original pp. 6, 8, 47, 51, 55–57.",
+      "sections": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "coverage": "States the new four- and five-dimensional counterexamples and outlines the Foster/predator–prey proof structure."
+        },
+        {
+          "unit": "§2 SRBM and fluid paths",
+          "physical_pdf_pages": [
+            3,
+            8
+          ],
+          "coverage": "Defines SRBM, complete-S condition, recurrence and fluid paths; recalls the sufficient fluid criterion and known converse dimensions."
+        },
+        {
+          "unit": "§2.1 SRBM definition and recurrence",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "coverage": "Fixes the orthant SRBM data and positive-recurrence definition."
+        },
+        {
+          "unit": "§2.2 Fluid path convergence",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "coverage": "Defines fluid-path convergence/divergence and states the Dupuis–Williams sufficient criterion plus known low-dimensional converses."
+        },
+        {
+          "unit": "§2.3 Four-dimensional example",
+          "physical_pdf_pages": [
+            5,
+            7
+          ],
+          "coverage": "Specifies correlated covariance, reflection matrix and δ parameters; Theorems 2.2–2.3 give positive recurrence and the explicit divergent linear fluid path."
+        },
+        {
+          "unit": "§2.4 Five-dimensional example",
+          "physical_pdf_pages": [
+            7,
+            8
+          ],
+          "coverage": "Specifies diagonal covariance with middle variances α²; Theorems 2.4–2.5 give positive recurrence, divergent path and a positive diagonal scaling to identity covariance."
+        },
+        {
+          "unit": "§3 Bounds on SRBM evolution",
+          "physical_pdf_pages": [
+            9,
+            20
+          ],
+          "coverage": "Proves Brownian, regulator, coordinate and capture-time estimates used in the Foster argument."
+        },
+        {
+          "unit": "§3.1 Preliminary SRBM bounds",
+          "physical_pdf_pages": [
+            9,
+            19
+          ],
+          "coverage": "Establishes exponential tails, second-moment bounds and exceptional-set controls for coordinates and boundary regulators."
+        },
+        {
+          "unit": "§3.2 Additional SRBM bounds",
+          "physical_pdf_pages": [
+            19,
+            20
+          ],
+          "coverage": "Uses the two-predator capture-tail theorem to bound stopping times for the four-dimensional construction."
+        },
+        {
+          "unit": "§4 Positive recurrence proof",
+          "physical_pdf_pages": [
+            20,
+            46
+          ],
+          "coverage": "Combines a stopping-time Foster criterion with five propositions to prove the four-dimensional theorem and summarizes the five-dimensional proof."
+        },
+        {
+          "unit": "§4.1 Foster criterion",
+          "physical_pdf_pages": [
+            23,
+            23
+          ],
+          "coverage": "States the expected stopping-time contraction criterion implying finite expected return and positive recurrence."
+        },
+        {
+          "unit": "§4.2 Proposition 4.2",
+          "physical_pdf_pages": [
+            23,
+            27
+          ],
+          "coverage": "Splits states into high/low fourth coordinate events and controls small exceptional sets and second moments."
+        },
+        {
+          "unit": "§4.3 Proposition 4.3",
+          "physical_pdf_pages": [
+            27,
+            29
+          ],
+          "coverage": "Controls the return phase when the first coordinate is large and the fourth is small."
+        },
+        {
+          "unit": "§4.4 Proposition 4.4",
+          "physical_pdf_pages": [
+            29,
+            35
+          ],
+          "coverage": "Controls the phase with the fourth coordinate initially large and bounds exceptional-set contributions."
+        },
+        {
+          "unit": "§4.5 Proposition 4.5",
+          "physical_pdf_pages": [
+            35,
+            37
+          ],
+          "coverage": "Bounds expected stopping time and exceptional-event coordinate moments."
+        },
+        {
+          "unit": "§4.6 Proposition 4.6",
+          "physical_pdf_pages": [
+            37,
+            42
+          ],
+          "coverage": "Shows that after the first-coordinate hitting phase the remaining coordinates are typically small."
+        },
+        {
+          "unit": "§4.7 Four-dimensional positive recurrence",
+          "physical_pdf_pages": [
+            42,
+            45
+          ],
+          "coverage": "Combines the cases into the Foster drift contraction and proves Theorem 2.3."
+        },
+        {
+          "unit": "§4.8 Five-dimensional positive recurrence",
+          "physical_pdf_pages": [
+            45,
+            46
+          ],
+          "coverage": "Gives a proof summary: the four-dimensional estimates extend with altered constants and the three-predator capture bound supplies the key stopping-time estimate."
+        },
+        {
+          "unit": "§5 Covariance dependence",
+          "physical_pdf_pages": [
+            46,
+            48
+          ],
+          "coverage": "Theorem 5.1 proves the same four-dimensional drift/reflection data are not positive recurrent for identity covariance, unlike the correlated covariance construction."
+        },
+        {
+          "unit": "§6 Predator–prey capture models",
+          "physical_pdf_pages": [
+            48,
+            56
+          ],
+          "coverage": "Defines capture time through Brownian cone exit and derives polynomial-tail criteria from spherical Dirichlet eigenvalues."
+        },
+        {
+          "unit": "§6.1 Coupled two-predator model",
+          "physical_pdf_pages": [
+            49,
+            51
+          ],
+          "coverage": "Reduces capture to a planar cone; Theorem 6.1 gives finite mean capture for β≥2.00046."
+        },
+        {
+          "unit": "§6.2 Three-predator model",
+          "physical_pdf_pages": [
+            51,
+            56
+          ],
+          "coverage": "Uses a spherical-domain eigenvalue bound and numerical hypergeometric-root calculation; Theorem 6.2 gives finite mean capture for α≥1.28020."
+        },
+        {
+          "unit": "§7 Conclusion and further problems",
+          "physical_pdf_pages": [
+            56,
+            57
+          ],
+          "coverage": "States dimension four as the critical lowest counterexample dimension and leaves the four-dimensional identity-covariance case open."
+        },
+        {
+          "unit": "References and open-access notice",
+          "physical_pdf_pages": [
+            57,
+            57
+          ],
+          "coverage": "Lists references and the CC BY 4.0 notice."
+        },
+        {
+          "unit": "Publisher’s Note",
+          "physical_pdf_pages": [
+            58,
+            58
+          ],
+          "coverage": "Reads the final Springer publisher end-matter page; no article result."
+        }
+      ]
+    }
+  ]
+}

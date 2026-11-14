@@ -1,0 +1,3014 @@
+{
+  "worker": "W06",
+  "skill": "probability-first-passage-growth",
+  "coverage_version": 1,
+  "page_convention": "physical PDF page numbers, 1-based; printed pagination is recorded separately when available",
+  "sources": [
+    {
+      "local_id": "W06-001",
+      "document": {
+        "physical_pdf_pages": 160,
+        "sha256": "89ab8416bc42814c3d529475ad7e5608a7c67ba368fcf7c6192c54eb82bf424d"
+      },
+      "reading_scope": "selected complete sections/subsections; this is not a full-book read",
+      "units": [
+        {
+          "unit": "§§2.1–2.3",
+          "physical_pages": [
+            8,
+            19
+          ],
+          "coverage": "complete",
+          "summary": "Defines passage-time and time-constant setup, establishes the norm/shape framework and states foundational limit-shape results used by later FPP arguments."
+        },
+        {
+          "unit": "§3.3 selected proof discussion",
+          "physical_pages": [
+            34,
+            45
+          ],
+          "coverage": "partial",
+          "summary": "Read the stated argument and model discussion through p.45; the subsection continues onto p.46, which was not read, so no complete-subsection claim is made."
+        },
+        {
+          "unit": "§§3.6–3.7",
+          "physical_pages": [
+            65,
+            72
+          ],
+          "coverage": "complete",
+          "summary": "Surveys large-deviation and fluctuation estimates, separating assumptions for upper/lower tails and recording the limits of existing bounds."
+        },
+        {
+          "unit": "§4.1",
+          "physical_pages": [
+            73,
+            77
+          ],
+          "coverage": "complete",
+          "summary": "Introduces the geodesic framework and uniqueness/direction questions used in planar FPP."
+        },
+        {
+          "unit": "§§4.4–4.5",
+          "physical_pages": [
+            90,
+            106
+          ],
+          "coverage": "complete",
+          "summary": "Develops directional geodesic and coalescence results, with differentiability/uniqueness hypotheses tracked separately from conjectural behavior."
+        },
+        {
+          "unit": "Chapter 5, §§5.1–5.6",
+          "physical_pages": [
+            107,
+            127
+          ],
+          "coverage": "complete",
+          "summary": "Introduces Busemann limits, their existence mechanisms and uses for infinite geodesics and directional structure."
+        },
+        {
+          "unit": "Chapter 6, §§6.1–6.5",
+          "physical_pages": [
+            128,
+            137
+          ],
+          "coverage": "complete",
+          "summary": "Treats Eden/Richardson growth and competing growth, including the growth rule and its relation to passage-time models."
+        },
+        {
+          "unit": "§7.1",
+          "physical_pages": [
+            138,
+            145
+          ],
+          "coverage": "complete",
+          "summary": "Sets up max-flow/min-cut formulations and the principal flow asymptotics discussed in the survey."
+        },
+        {
+          "unit": "Open problems",
+          "physical_pages": [
+            146,
+            148
+          ],
+          "coverage": "complete",
+          "summary": "Checked the survey’s open-question statements relevant to archived FPP, geodesic and growth problems."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            149,
+            160
+          ],
+          "coverage": "complete",
+          "summary": "Read for source tracing and to distinguish cited theorems from the survey’s own discussion."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-002",
+      "document": {
+        "physical_pdf_pages": 10,
+        "sha256": "cc8ad6c9d34a53053b8e52a6c215f105ff8bb621d012e90c45343f36e5c4abc2"
+      },
+      "units": [
+        {
+          "unit": "§1 First Passage Percolation",
+          "physical_pages": [
+            1,
+            2
+          ],
+          "coverage": "complete",
+          "summary": "Defines the stationary edge-FPP environment, rays and Busemann differences; records the good-measure hypotheses and shape input."
+        },
+        {
+          "unit": "§2 Spatial Growth Models",
+          "physical_pages": [
+            3,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Defines two-type Richardson growth from competing sources and states the positive-probability coexistence conclusion."
+        },
+        {
+          "unit": "§3 Outline",
+          "physical_pages": [
+            5,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Reduces coexistence to ruling out ray-independent Busemann differences, then to a finite-energy local edge modification."
+        },
+        {
+          "unit": "§4 Proof",
+          "physical_pages": [
+            5,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Uses monotone ray limits, symmetry/additivity, ergodic averaging and a shape lower bound for contradiction; finite energy and conditional absolute continuity create two competing infections."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            10,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Read the cited shape, ergodic and growth-model sources to preserve the proof’s dependency trail."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-003",
+      "document": {
+        "physical_pdf_pages": 11,
+        "sha256": "ced62f244e34547f2a79ef15a87f10fb6f49d9c76b8f0dafb5384f32a4e09724"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "States the two-point-weight FPP variance theorem and its Talagrand influence strategy, then introduces a product-graph auxiliary estimate."
+        },
+        {
+          "unit": "§2 Proof of Theorem 2",
+          "physical_pages": [
+            3,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Combines symmetry, edge influences and the discrete product-space inequality to bound the circumference variance on a finite vertex-transitive graph times a cycle."
+        },
+        {
+          "unit": "§3 Proof of Theorem 1",
+          "physical_pages": [
+            5,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Randomly shifts endpoints to spread pivotal-edge influence, sums influences along a bounded-length geodesic, and obtains the logarithmic variance denominator."
+        },
+        {
+          "unit": "§4 Proof of Talagrand inequality (2)",
+          "physical_pages": [
+            7,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Proves the discrete entropy/influence inequality used in the main argument; the auxiliary randomized endpoint bits are included in the variance accounting."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            10,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Read the cited inequality and earlier FPP variance results to identify which inputs are imported."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-004",
+      "document": {
+        "physical_pdf_pages": 10,
+        "sha256": "0c1a2e2065973d19ff5c0a4a3b1a5c7696bc9ceb6f9e613289ae8e368ae382b1"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            2
+          ],
+          "coverage": "complete",
+          "summary": "Defines directed exponential vertex-LPP and sets out direction, multiplicity and coexistence questions."
+        },
+        {
+          "unit": "§2 Results",
+          "physical_pages": [
+            2,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "States the dense countable exceptional-direction theorem, uniqueness for each fixed direction, and positive-probability finite-source coexistence."
+        },
+        {
+          "unit": "§3 Local modification of the geodesic tree",
+          "physical_pages": [
+            4,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Conditions on diagonal last-passage data and uses the continuous exponential density to force a prescribed finite tree shape with positive probability."
+        },
+        {
+          "unit": "§4 Proofs of Theorems 1 and 2",
+          "physical_pages": [
+            8,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Uses planar order, competition-interface atomlessness and the local-modification lemma to establish directional multiplicity and coexistence claims."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            10,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Read to identify the exact Ferrari–Pimentel and Coupier–Heinrich inputs."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-005",
+      "document": {
+        "physical_pdf_pages": 20,
+        "sha256": "7cb52bd065526d549e50ce673ea5581d65d44aa3fb7494d1eb08e93bd13be87c"
+      },
+      "units": [
+        {
+          "unit": "Title and abstract",
+          "physical_pages": [
+            1,
+            1
+          ],
+          "coverage": "complete",
+          "summary": "Identifies the average-distance convergence problem, the geodesicity criterion, and the paper’s equivalence between the two rates."
+        },
+        {
+          "unit": "§1 Introduction and subsections §§1.1–1.5",
+          "physical_pages": [
+            2,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Sets FPP and concentration assumptions, states the quantitative shape and average-metric results, defines strong asymptotic geodesicity, and introduces the invariant-metric equivalence."
+        },
+        {
+          "unit": "§2 Proof of Proposition 1.2",
+          "physical_pages": [
+            8,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Uses Talagrand concentration over all vertex pairs in polynomial-volume balls; a union bound and Borel–Cantelli yield eventual uniform approximation by the average metric."
+        },
+        {
+          "unit": "§3 Strong asymptotic geodesicity of the average metric",
+          "physical_pages": [
+            8,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Transfers a random-metric geodesic to the average metric on a good environment, controlling the geodesic’s location by the positive linear lower bound and exponential edge tails."
+        },
+        {
+          "unit": "§4 Proof of Proposition 1.7",
+          "physical_pages": [
+            9,
+            12
+          ],
+          "coverage": "complete",
+          "summary": "Completes the strong-asymptotic-geodesicity estimate with the rate N(r)=c√(r/log r), using the concentration approximation and a subdivision point along a random geodesic."
+        },
+        {
+          "unit": "§5 Strong asymptotic geodesicity implies a limit-shape theorem",
+          "physical_pages": [
+            13,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Subdivides long metric segments and convexifies the resulting displacement vectors to obtain a Hausdorff rate for the invariant norm ball."
+        },
+        {
+          "unit": "§6 Limit shape implies strong asymptotic geodesicity",
+          "physical_pages": [
+            17,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Uses norm-ball convergence and finite direction nets to construct approximate metric subdivisions in the reverse direction."
+        },
+        {
+          "unit": "Appendix A",
+          "physical_pages": [
+            19,
+            19
+          ],
+          "coverage": "complete",
+          "summary": "Shows that the subcritical zero-weight condition forces a positive linear lower bound on expected passage distance."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            20,
+            20
+          ],
+          "coverage": "complete",
+          "summary": "Read for the imported concentration, shape theorem and asymptotic-geodesicity inputs."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-006",
+      "document": {
+        "physical_pdf_pages": 28,
+        "sha256": "07eb0023eebf9703521af8ce160a256c41f18c2c7a78b5a9e90729fdd16e27d6"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction and proof sketches",
+          "physical_pages": [
+            1,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "States critical square-lattice edge-FPP mean, variance and limit-law results and outlines the invasion-percolation/circuit strategy."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pages": [
+            6,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Sets near-critical quantiles and correlation lengths, and assembles planar RSW, circuit and invasion-cluster estimates."
+        },
+        {
+          "unit": "§3 Construction of a low-weight path",
+          "physical_pages": [
+            9,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Builds crossings between successive near-critical circuits using separated attachment points and conditional tail bounds."
+        },
+        {
+          "unit": "§4 Time-constant / asymptotic comparison",
+          "physical_pages": [
+            12,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Transfers annular passage estimates to the inverse-quantile series and closes the logarithmic-radius mean asymptotic."
+        },
+        {
+          "unit": "§5 Universality of limiting variance and limit laws",
+          "physical_pages": [
+            14,
+            27
+          ],
+          "coverage": "complete",
+          "summary": "Decomposes centered passage times into circuit-indexed martingale increments, compares to Bernoulli increments, and invokes mixing plus a dependent-array CLT."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            28,
+            28
+          ],
+          "coverage": "complete",
+          "summary": "Read the percolation, invasion and dependent-CLT sources on which the planar proof depends."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-007",
+      "document": {
+        "physical_pdf_pages": 7,
+        "sha256": "81fcf21128b77f7eb2bd39b8d3c34cad235891b509f6703233634fbc9a77cfce"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            2
+          ],
+          "coverage": "complete",
+          "summary": "Introduces exponential edge-FPP and the high-dimensional construction of a short slab-crossing path."
+        },
+        {
+          "unit": "§2 Recursive path construction and estimates",
+          "physical_pages": [
+            2,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Selects successive low order-statistic edges in disjoint hyperplanes and optimizes the number of stages and quantile levels."
+        },
+        {
+          "unit": "§3 High-dimensional time-constant consequence",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Repeats independent slab crossings and applies the law of large numbers to obtain the stated upper bound on the time constant."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            7,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Read for the exact prior Dhar bound and the theorem’s FPP context."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-008",
+      "document": {
+        "physical_pdf_pages": 11,
+        "sha256": "bf6e56f65c7a614ee5c307bc3cfc78f816eb798655a0bbe992d720d8cd2d05f5"
+      },
+      "units": [
+        {
+          "unit": "§1 Eden model, definitions and previous results",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "Defines the uniform infected-boundary-vertex Eden growth rule and distinguishes it from edge-clock exponential FPP; states the dimension-22 improvement."
+        },
+        {
+          "unit": "§2 Recursive inequality and parameter bounds",
+          "physical_pages": [
+            3,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Derives a finite-dimensional recursion for expected boundary growth and reduces the theorem to explicit inequalities for its coefficients."
+        },
+        {
+          "unit": "§3 Numerical bound computation",
+          "physical_pages": [
+            8,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Documents the finite numerical procedure used to certify the displayed d=22 parameter inequalities; this is supporting computation, not a proof for every d≥22."
+        },
+        {
+          "unit": "§4 Implementation and numerical results",
+          "physical_pages": [
+            9,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Gives executable recurrence details and finite numerical outputs supporting the theorem at the claimed dimension."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            11,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Read to verify the earlier d=35 result and model conventions."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-010",
+      "document": {
+        "physical_pdf_pages": 22,
+        "sha256": "c0cf564821b58361d3ffb830353394659fadf4c922ca8a5fb9097d861a336c31"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Introduces general i.i.d. nonnegative vertex-weight directed LPP, its time constant, Busemann increments, the adjacent-covariance problem, and prior KPZ context; no exponential weight law is imposed."
+        },
+        {
+          "unit": "§2 Main Results",
+          "physical_pages": [
+            4,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "States the local-mgf assumption for general i.i.d. vertex weights, defines pre-Busemann assumptions, and gives the covariance/time-constant equivalence, sufficient rate-function criterion, and Bernoulli application."
+        },
+        {
+          "unit": "§3.1 Covariance and the time-constant: Proof of Lemma 2.3",
+          "physical_pages": [
+            7,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Uses the Legendre transform of the concave shape slice, recovery and past independence to derive the adjacent-increment covariance identity and prove its equivalence to comparison with the exponential benchmark shape."
+        },
+        {
+          "unit": "§3.2 Coarse graining argument: Proof of Theorem 2.4",
+          "physical_pages": [
+            10,
+            15
+          ],
+          "coverage": "complete",
+          "summary": "Truncates large weights using the local mgf, coarse-grains up/right paths into a countable class, and combines path entropy with a Cramér rate gap to bound the time constant."
+        },
+        {
+          "unit": "§3.3 Failure of convex ordering",
+          "physical_pages": [
+            15,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Proves Proposition 2.5 by conditional Jensen; equality of first and second moments would force equality in law, ruling out the proposed strict convex-order comparison."
+        },
+        {
+          "unit": "§3.4 Bernoulli weights",
+          "physical_pages": [
+            16,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Proves the sufficient Bernoulli rate-function criterion and threshold p*≈0.6504 by differentiating the explicit binary rate function and bounding logarithmic terms."
+        },
+        {
+          "unit": "Appendix A: Existence of Busemann functions",
+          "physical_pages": [
+            18,
+            19
+          ],
+          "coverage": "complete",
+          "summary": "Records shape differentiability/support-line conditions under which directional Busemann limits exist; the main theorem itself is stated for pre-Busemann functions."
+        },
+        {
+          "unit": "Appendix B: Busemann correlations and the KPZ relationship",
+          "physical_pages": [
+            19,
+            20
+          ],
+          "coverage": "complete",
+          "summary": "Gives a conditional heuristic connecting global increment covariance inequalities to variance and KPZ exponents; the hypotheses and exponent identity are not proved here."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pages": [
+            20,
+            22
+          ],
+          "coverage": "complete",
+          "summary": "Read acknowledgments and bibliography for source attribution, especially the pre-Busemann, convex-duality, coarse-graining, and KPZ inputs."
+        }
+      ],
+      "reading_scope": "Entire arXiv v2 PDF, physical pages 1–22 read; section names and page ranges verified against the original contents/headings."
+    },
+    {
+      "local_id": "W06-015",
+      "document": {
+        "physical_pdf_pages": 41,
+        "sha256": "e89d65caf6e2343bee94839ab0c0f7b9a5b773a30efe3a9c48c90ce57cc7adff"
+      },
+      "units": [
+        {
+          "unit": "§1 First definitions and main result",
+          "physical_pages": [
+            1,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Defines the rescaled domain network, source/sink boundary patches, max flow and continuum cut value; states the surface-order LLN and positivity criterion."
+        },
+        {
+          "unit": "§2 Computation of φΩ, §§2.1–2.5",
+          "physical_pages": [
+            4,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Defines cylinder costs and directional surface tension, invokes finite max-flow/min-cut, and constructs the anisotropic continuum perimeter/min-cut functional."
+        },
+        {
+          "unit": "§3.1 Existing laws of large numbers",
+          "physical_pages": [
+            9,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Surveys prior straight- and tilted-cylinder max-flow LLNs, including moment assumptions and attribution to earlier authors."
+        },
+        {
+          "unit": "§3.2 Large deviations for φn",
+          "physical_pages": [
+            12,
+            17
+          ],
+          "coverage": "complete",
+          "summary": "Presents existing surface-order lower- and volume-order upper-deviation theorems as companion-paper results [7] and [8], then explains their Borel–Cantelli role; physical p.14 remains within this subsection."
+        },
+        {
+          "unit": "§4 Polyhedral approximation",
+          "physical_pages": [
+            18,
+            34
+          ],
+          "coverage": "complete",
+          "summary": "Theorem 11 approximates each finite-perimeter separator by a transverse polyhedral separator while controlling symmetric-difference volume and anisotropic perimeter; the proof uses reduced-boundary differentiation, Vitali covers, local cylinder comparisons, and boundary-collar perturbations to establish equality of continuum cut values."
+        },
+        {
+          "unit": "§5 Positivity of φΩ",
+          "physical_pages": [
+            35,
+            39
+          ],
+          "coverage": "complete",
+          "summary": "Under a finite first moment, proves positivity iff Λ(0)<1−pc(d), using positive directional surface tension and geometric lower bounds for every separating surface."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            40,
+            41
+          ],
+          "coverage": "complete",
+          "summary": "Read the references to identify which cylinder-flow deviation estimates are imported from the two companion papers, distinct from this paper’s polyhedral approximation theorem."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-022",
+      "document": {
+        "physical_pdf_pages": 28,
+        "sha256": "63c7b9b8aaeb0f54163d14e2cd45477e6216c4736ecd384c7a05ff331db73ba8"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            2
+          ],
+          "coverage": "complete",
+          "summary": "Frames planar edge-FPP bigeodesic questions and identifies direction sectors and shape differentiability as central."
+        },
+        {
+          "unit": "§2.1 Hypotheses and setup",
+          "physical_pages": [
+            2,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "Defines two alternative assumption packages, including the precise second-moment condition E[(min of four incident weights)^2]<∞ in A1′."
+        },
+        {
+          "unit": "§2.2 Main geodesic and Busemann theorems",
+          "physical_pages": [
+            3,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "States sector-directed existence, convergence/coalescence and no-bigeodesic results, plus endpoint-independent sector Busemann limits under differentiability assumptions."
+        },
+        {
+          "unit": "§2.3 Ferromagnet connection",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Explains the relation of the geometric argument to the ferromagnetic model, without using it to weaken the stated FPP hypotheses."
+        },
+        {
+          "unit": "§2.4 Midpoint problem",
+          "physical_pages": [
+            6,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "States the planar BKS midpoint result and explains its bigeodesic contradiction mechanism."
+        },
+        {
+          "unit": "§3.1–3.2 Background",
+          "physical_pages": [
+            7,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Reviews prior directed/undirected geodesic tools and the ordering framework used in the planar argument."
+        },
+        {
+          "unit": "§3.3 Proof sketches",
+          "physical_pages": [
+            9,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Outlines extremal sector rays, half-plane limits and the passage from left/right equality to Busemann limits."
+        },
+        {
+          "unit": "§4.1 Topological preliminaries",
+          "physical_pages": [
+            11,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "Establishes directional trapping, the measurable full-probability event X, and upper-half-plane subsequential-geodesic controls; propositions and corollaries provide the half-plane limits used later."
+        },
+        {
+          "unit": "§4.2 Definition of ordering",
+          "physical_pages": [
+            15,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Defines the total order on full-plane and half-plane sector geodesics modulo coalescence and proves the order properties used to construct extremal paths."
+        },
+        {
+          "unit": "§4.3 Existence of extremal geodesics",
+          "physical_pages": [
+            17,
+            20
+          ],
+          "coverage": "complete",
+          "summary": "Uses the order and leftmost/rightmost intersections on horizontal lines to construct extremal sector geodesics and show their directional/geodesic properties."
+        },
+        {
+          "unit": "§4.4 Coalescence of extremal geodesics",
+          "physical_pages": [
+            21,
+            22
+          ],
+          "coverage": "complete",
+          "summary": "Uses planar ordering, uniqueness and finite-energy modifications in the Burton–Keane argument to force coalescence."
+        },
+        {
+          "unit": "§5 Equality of left- and rightmost geodesics",
+          "physical_pages": [
+            23,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Combines planar crossing/Busemann inequalities with differentiability to identify equal slopes and eliminate distinct extremal rays."
+        },
+        {
+          "unit": "§6 Proofs of main theorems",
+          "physical_pages": [
+            26,
+            26
+          ],
+          "coverage": "complete",
+          "summary": "Uses coalescence, mass transport and the no-backward-branch argument to conclude the sector no-bigeodesic theorem."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            27,
+            28
+          ],
+          "coverage": "complete",
+          "summary": "Read the full list to trace imported uniqueness, finite-energy and planar-ordering results."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-024",
+      "document": {
+        "physical_pdf_pages": 29,
+        "sha256": "311891e56e3df9b26f2d23997ac5d7e0dcbabacbc0be0f5a226d79a5b3032421"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction and proof sketches",
+          "physical_pages": [
+            1,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "States triangular-lattice critical vertex-FPP mean and variance limits and sketches the Bernoulli comparison and annular-circuit construction."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pages": [
+            6,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Sets up critical Bernoulli coupling, nested circuits, arm events and the moment notation used by both limit theorems."
+        },
+        {
+          "unit": "§3 Construction of a low-weight path",
+          "physical_pages": [
+            9,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Uses good closed circuits and separated attachment points with conditional Chernoff estimates to build a path with asymptotically negligible excess cost."
+        },
+        {
+          "unit": "§4 Universality of the time constant",
+          "physical_pages": [
+            12,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "Compares the constructed path with the Bernoulli geodesic and sends the near-critical slack to zero to identify the logarithmic mean constant."
+        },
+        {
+          "unit": "§5 Universality of limiting variance",
+          "physical_pages": [
+            14,
+            27
+          ],
+          "coverage": "complete",
+          "summary": "Compares annular martingale increments with Bernoulli increments, bounds their discrepancy by arm/circuit estimates and imports the exact variance limit."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            28,
+            29
+          ],
+          "coverage": "complete",
+          "summary": "Read to trace Yao’s Bernoulli limits and the triangular-lattice RSW, arm and CLT inputs."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-027",
+      "document": {
+        "physical_pdf_pages": 13,
+        "sha256": "483ccfc000bfcabb4f985bdc9adb57fea43a1a93e615f3db0681d4420a0df991"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction and main results",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "States expectation approximation, Gaussian lower-tail concentration and separate outer/inner shape-rate conclusions with their moment assumptions."
+        },
+        {
+          "unit": "§2 Concentration inequality",
+          "physical_pages": [
+            4,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "States the low-moment Gaussian lower-tail bound, introduces entropy and pivotal-edge estimates, and derives concentration by the Herbst method."
+        },
+        {
+          "unit": "§2.1 Entropy properties",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Establishes tensorization and block localization identities for the entropy of passage time under product edge weights."
+        },
+        {
+          "unit": "§2.2 Boucheron–Lugosi–Massart inequality and pivotal estimates",
+          "physical_pages": [
+            5,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Bounds entropy by resampling/pivotal-edge counts and controls the exceptional long-path contribution using the small-time tail."
+        },
+        {
+          "unit": "§2.3 Proof of Theorem 2.3",
+          "physical_pages": [
+            7,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Applies the Herbst entropy method to derive the Gaussian lower-tail concentration inequality."
+        },
+        {
+          "unit": "§3.1 Outer shape inclusion",
+          "physical_pages": [
+            8,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Combines the expected-distance approximation and lower-tail estimate with endpoint union bounds and Borel–Cantelli."
+        },
+        {
+          "unit": "§3.2 Inner shape inclusion",
+          "physical_pages": [
+            10,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Combines logarithmic-box concentration with low-moment upper-tail estimates; the stronger moment condition and distinct logarithmic power are retained."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            12,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Read the full bibliography for Alexander, Kesten, Zhang and Ahlberg estimate provenance."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-038",
+      "document": {
+        "physical_pdf_pages": null,
+        "sha256": null,
+        "local_html": "evidence/W06/data/aldous-hammersley-oriented-flow.html"
+      },
+      "units": [
+        {
+          "unit": "Entire local HTML note: model and finite-network definition",
+          "physical_pages": null,
+          "coverage": "complete",
+          "summary": "Defines the directed Bernoulli edge-flow network, local capacities and max-flow/min-cut quantity for fixed box size and fixed p."
+        },
+        {
+          "unit": "Entire local HTML note: fixed-p and ordered-limit statements",
+          "physical_pages": null,
+          "coverage": "complete",
+          "summary": "Records the fixed-p large-box statement and keeps its order of limits distinct from the subsequent p-to-one asymptotic."
+        },
+        {
+          "unit": "Entire local HTML note: Hammersley/Poisson heuristic",
+          "physical_pages": null,
+          "coverage": "complete",
+          "summary": "The note proposes covering rare closed edges by oriented paths and uses a Poisson/Hammersley analogy; the printed spatial scaling and coefficient are internally inconsistent and are not used as a proof."
+        },
+        {
+          "unit": "Entire local HTML note: conjecture, obstruction and references",
+          "physical_pages": null,
+          "coverage": "complete",
+          "summary": "States the conjectural square-root law and explicitly leaves the required uniform approximation/interchange of limits unresolved; references were checked for provenance."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-039",
+      "document": {
+        "physical_pdf_pages": 21,
+        "sha256": "a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c",
+        "local_pdf": "evidence/fulltexts/W06-039.pdf",
+        "copy_identity": "Existing local 21-page manuscript scan; title page cites PTRF 103 (1995), 199–213; exact relation to journal layout unresolved."
+      },
+      "units": [
+        {
+          "unit": "Title, abstract, and §1 Introduction",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "Checked title/authors and the printed publication citation; defines permutation LIS and introduces the Poisson-chain/Hammersley-process proof program and theorem outline."
+        },
+        {
+          "unit": "§2.1 Superadditivity and planar Poisson process representation",
+          "physical_pages": [
+            3,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Poissonizes a uniform permutation in a rectangle, identifies LIS with the maximum up-right chain, proves superadditivity, defines c, and de-Poissonizes the asymptotic."
+        },
+        {
+          "unit": "Figure 1 and Poisson point-chain illustration",
+          "physical_pages": [
+            4,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Inspected the point configuration and increasing-chain illustration used in the chain/permutation identification."
+        },
+        {
+          "unit": "§2.2 Reformulation as an interacting-particle process",
+          "physical_pages": [
+            5,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Derives the graphical Hammersley dynamics, Rule 1/Rule 2, and the scaling and space-time interchange properties."
+        },
+        {
+          "unit": "§2.3 Hydrodynamic heuristic and proof outline",
+          "physical_pages": [
+            7,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "States Theorem 5 (c=2 and the local Poisson limit) and gives a PDE heuristic; the article explicitly says the heuristic is not the proof."
+        },
+        {
+          "unit": "§2.4 Hammersley process on R",
+          "physical_pages": [
+            8,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Constructs the full-line process, classifies finite-intensity translation-invariant stationary laws as mixtures of Poisson laws, and proves space-time interchange."
+        },
+        {
+          "unit": "§2.5 The upper bound c≤2",
+          "physical_pages": [
+            11,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Couples the empty-half-line process to a stationary rate-b full-line process and optimizes E L(x,t)≤bx+t/b at b=√(t/x)."
+        },
+        {
+          "unit": "§2.6 A coupling construction",
+          "physical_pages": [
+            11,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Develops monotone couplings, local expectation increments and the derivative limit that yields tight diagonal local distributions and identifies mean intensity."
+        },
+        {
+          "unit": "§2.7 Proof of Theorem 5",
+          "physical_pages": [
+            14,
+            15
+          ],
+          "coverage": "complete",
+          "summary": "Takes diagonal subsequential local limits, uses stationarity/translation invariance and Poisson-mixture classification, applies space-time interchange and the rate inequality for c≥2, and identifies the unit-rate local limit."
+        },
+        {
+          "unit": "§3 Final remarks",
+          "physical_pages": [
+            15,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Surveys known LIS concentration/deviation results and separates proved one-sided statements from anticipated asymptotics."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            17,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Read the complete bibliography and source trail; the local manuscript references occupy pp.17–18."
+        },
+        {
+          "unit": "Figures 2–4",
+          "physical_pages": [
+            19,
+            21
+          ],
+          "coverage": "complete",
+          "summary": "Inspected the particle-trajectory and coupling illustrations on the three figure-only final pages."
+        }
+      ],
+      "reading_scope": "Entire existing local W05 archive scan; physical pages 1–21 were rendered and read. The separate 16-physical-page eScholarship PDF is not the copy mapped here."
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 60,
+        "sha256": "0a432946234949c12a3e379e42d8f79fa646b9002810ffe97817d52aca184a7a"
+      },
+      "reading_scope": "full text; physical pages 1–60 read",
+      "units": [
+        {
+          "unit": "§1 Introduction and main results",
+          "physical_pages": [
+            1,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Defines the uniform-permutation LIS, states the Tracy–Widom and moment theorems, and reduces the fixed-size problem to a Poissonized Toeplitz determinant and Riemann–Hilbert analysis."
+        },
+        {
+          "unit": "§2 Riemann–Hilbert theory",
+          "physical_pages": [
+            8,
+            15
+          ],
+          "coverage": "complete",
+          "summary": "Sets the orthogonal-polynomial RHP and the Painlevé-II model problem used to construct the local critical parametrix."
+        },
+        {
+          "unit": "§3 Toda lattice and Painlevé III connection",
+          "physical_pages": [
+            16,
+            17
+          ],
+          "coverage": "complete",
+          "summary": "Derives the differential/difference identities relating the Toeplitz determinant and its recurrence coefficients to the Toda/Painlevé-III structure."
+        },
+        {
+          "unit": "§4 Equilibrium measure and g-function",
+          "physical_pages": [
+            17,
+            23
+          ],
+          "coverage": "complete",
+          "summary": "Solves the logarithmic-energy equilibrium problem and identifies the phase transition at the critical ratio 2√λ/(k+1)=1."
+        },
+        {
+          "unit": "§5 Subcritical/equilibrium regime, γ≤1",
+          "physical_pages": [
+            23,
+            31
+          ],
+          "coverage": "complete",
+          "summary": "Transforms the RHP with the g-function and estimates orthogonal-polynomial coefficients away from the critical point."
+        },
+        {
+          "unit": "§6 Supercritical regime, γ>1",
+          "physical_pages": [
+            31,
+            43
+          ],
+          "coverage": "complete",
+          "summary": "Constructs the outer and local parametrices across the support transition and obtains uniform coefficient asymptotics."
+        },
+        {
+          "unit": "§7 Asymptotics of the Poissonized distribution φ_n(λ)",
+          "physical_pages": [
+            43,
+            50
+          ],
+          "coverage": "complete",
+          "summary": "Sums logarithms of the orthogonal-polynomial leading coefficients to get the Poissonized distribution and tail estimates."
+        },
+        {
+          "unit": "§8 De-Poissonization lemmas",
+          "physical_pages": [
+            50,
+            51
+          ],
+          "coverage": "complete",
+          "summary": "Proves the transfer inequalities that recover fixed-N LIS probabilities from the Poissonized distribution."
+        },
+        {
+          "unit": "§9 Proofs of Theorems 1.1 and 1.2",
+          "physical_pages": [
+            51,
+            54
+          ],
+          "coverage": "complete",
+          "summary": "Combines the double-scaling asymptotics, de-Poissonization, and tail integrability to prove distributional and moment convergence."
+        },
+        {
+          "unit": "Appendix A: Poissonized Toeplitz determinant identity and heuristic",
+          "physical_pages": [
+            54,
+            57
+          ],
+          "coverage": "complete",
+          "summary": "Supplies an alternate derivation of Gessel’s determinant formula and a heuristic for the leading √N scale; this is not the theorem proof."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            57,
+            60
+          ],
+          "coverage": "complete",
+          "summary": "Read the bibliography and source trail for Robinson–Schensted, Toeplitz determinants, Riemann–Hilbert steepest descent, and Tracy–Widom."
+        }
+      ],
+      "local_id": "W06-013"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 40,
+        "sha256": "875a332b1a96b1f93794ebdf79204a1bb226e4d0c08dd32e09664fa16241703a"
+      },
+      "reading_scope": "full text; physical pages 1–40 read",
+      "units": [
+        {
+          "unit": "§1 Introduction and subsections §§1.1–1.7",
+          "physical_pages": [
+            1,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Defines undirected edge FPP and the three cylinder passage times; states admissibility, the finite-moment width threshold, and fixed-width results; reviews exponent conjectures and separates directed vertex-LPP comparisons."
+        },
+        {
+          "unit": "§2 Generalization to product graphs",
+          "physical_pages": [
+            6,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Defines Z×G_n passage/crossing times and states the graph-width CLT under diameter/edge-count growth assumptions."
+        },
+        {
+          "unit": "§3 Estimates for the mean",
+          "physical_pages": [
+            8,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Uses subadditivity and connector bounds to compare endpoint, cylinder, and side-to-side passage times and identify the limiting mean speed."
+        },
+        {
+          "unit": "§4 Lower bound for the variance",
+          "physical_pages": [
+            11,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Applies Doob decomposition, resampling one edge, and a pivotal-edge lower bound to obtain variance at least order n/k_n."
+        },
+        {
+          "unit": "§5 Upper bounds for central moments",
+          "physical_pages": [
+            13,
+            17
+          ],
+          "coverage": "complete",
+          "summary": "Controls fluctuations by pivotal-edge counts, Efron–Stein-type moment inequalities, and Kesten’s exponential estimate for long cheap paths."
+        },
+        {
+          "unit": "§6 Proof of Theorem 2.1, subsections §§6.1–6.7",
+          "physical_pages": [
+            17,
+            27
+          ],
+          "coverage": "complete",
+          "summary": "Reduces to side-to-side crossings, approximates them by independent blocks with diameter-cost connectors, applies Lyapunov/Rosenthal, and recursively reblocks to close the exponent gap."
+        },
+        {
+          "unit": "§7 Fixed cross-section graph",
+          "physical_pages": [
+            27,
+            28
+          ],
+          "coverage": "complete",
+          "summary": "Proves positive linear mean/variance limits and a Brownian functional limit for a fixed finite graph cross-section."
+        },
+        {
+          "unit": "§8 CLT up to a height threshold",
+          "physical_pages": [
+            28,
+            32
+          ],
+          "coverage": "complete",
+          "summary": "States unproved fluctuation, transversal, curvature, and variance-monotonicity assumptions and derives the conditional threshold theorem."
+        },
+        {
+          "unit": "§9 Proof of the conditional height-threshold result",
+          "physical_pages": [
+            32,
+            37
+          ],
+          "coverage": "complete",
+          "summary": "Bounds boundary mismatch by shape/transversal estimates, inductively controls cylinder variances and moments, and applies a two-type blocking Lyapunov argument."
+        },
+        {
+          "unit": "§10 Numerical results",
+          "physical_pages": [
+            37,
+            38
+          ],
+          "coverage": "complete",
+          "summary": "Reports Bernoulli-weight simulations and regression/QQ plots for conjectured variance and CLT behavior; these are finite computational evidence."
+        },
+        {
+          "unit": "§11 Acknowledgments",
+          "physical_pages": [
+            38,
+            38
+          ],
+          "coverage": "complete",
+          "summary": "Read the acknowledgments identifying simulation and presentation contributions."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            39,
+            40
+          ],
+          "coverage": "complete",
+          "summary": "Read all cited concentration, shape, critical-FPP, LPP, and probability sources to record proof dependencies."
+        }
+      ],
+      "local_id": "W06-018"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 50,
+        "sha256": "1bd7cc9f750cdf9f49de8363278748f214f936006444302b31355ff7f672b1a6",
+        "official_arxiv_record_pages": 52,
+        "local_copy_version_note": "Local header says arXiv:1209.3036v1, title page says 2018-11-08, and local PDF has 50 pages; the official arXiv record lists 52 pages. Exact local version unresolved; coverage is bound only to this local SHA."
+      },
+      "reading_scope": "full text of the local 50-page PDF; physical pages 1–50 read; version identity caveat recorded",
+      "units": [
+        {
+          "unit": "Title, abstract, and contents",
+          "physical_pages": [
+            1,
+            2
+          ],
+          "coverage": "complete",
+          "summary": "Read the local copy identity/header, abstract, and complete contents; noted the conflict with the official arXiv page count and title-page date."
+        },
+        {
+          "unit": "§1 Introduction and main results, including §§1.1–1.3",
+          "physical_pages": [
+            2,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Defines A1/A2 and A1′/A2′, states sector-direction, uniform-curvature, and coalescence theorems, and fixes the quantifier order and upward finite-energy condition."
+        },
+        {
+          "unit": "§2 Busemann functions and geodesic graphs, §§2.1–2.2",
+          "physical_pages": [
+            10,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Defines point-to-set Busemann functions and directed geodesic graphs and records the path/cocycle properties preserved under weak limits."
+        },
+        {
+          "unit": "§3 Busemann increment distributions, §§3.1–3.4",
+          "physical_pages": [
+            13,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Constructs translation-invariant subsequential laws, reconstructs curl-free increments into Busemann functions, and computes their mean displacement."
+        },
+        {
+          "unit": "§4 Limits for reconstructed Busemann functions, §§4.1–4.3",
+          "physical_pages": [
+            19,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Uses radial limits, a shape theorem, ergodic averages, and support-line geometry to identify random slopes with supporting functionals."
+        },
+        {
+          "unit": "§5 Geodesic graphs, §§5.1–5.2",
+          "physical_pages": [
+            25,
+            28
+          ],
+          "coverage": "complete",
+          "summary": "Shows limiting graph paths are geodesic, acyclic, one-outgoing-edge, and confined to the Busemann-determined sector."
+        },
+        {
+          "unit": "§6 Coalescence, §§6.1–6.4",
+          "physical_pages": [
+            28,
+            43
+          ],
+          "coverage": "complete",
+          "summary": "Builds positive-probability branching blocks, uses finite-energy edge barriers and translation/mass-transport contradictions for coalescence, then excludes backward infinite paths."
+        },
+        {
+          "unit": "§7 Proofs of main theorems, §§7.1–7.4",
+          "physical_pages": [
+            43,
+            47
+          ],
+          "coverage": "complete",
+          "summary": "Disintegrates limiting laws to the original environment and derives directional, all-direction, graph-coalescence, and associated geodesic coalescence conclusions."
+        },
+        {
+          "unit": "Appendix A: Measurability of α↦μ_α(A)",
+          "physical_pages": [
+            47,
+            48
+          ],
+          "coverage": "complete",
+          "summary": "Proves the measurability needed to integrate/disintegrate the family of limiting Busemann measures."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            48,
+            50
+          ],
+          "coverage": "complete",
+          "summary": "Read the cited FPP shape, Busemann, finite-energy, ergodic, and planar-geodesic sources."
+        }
+      ],
+      "local_id": "W06-023"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 44,
+        "sha256": "3122d75c756f95bf1ab2ce3c0084ad0d367d7e7bf9df964f234778b55d434d4a"
+      },
+      "reading_scope": "full text; physical pages 1–44 read",
+      "units": [
+        {
+          "unit": "Title, abstract, and front matter",
+          "physical_pages": [
+            1,
+            1
+          ],
+          "coverage": "complete",
+          "summary": "Read the article identity, abstract, assumptions announced for the corner-growth model, and stated contribution."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            2,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Explains the Busemann/cocycle program, variational motivation, and the shape-regularity and percolation-cone regimes."
+        },
+        {
+          "unit": "§2 Preliminaries, §§2.1–2.4",
+          "physical_pages": [
+            5,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "States the iid vertex-weight moment/lower-bound assumptions, defines point-to-point and point-to-line LPP, develops shape gradients/linear segments, and defines stationary cocycles and variational formulas."
+        },
+        {
+          "unit": "§3 Results on Busemann functions, §§3.1–3.2",
+          "physical_pages": [
+            10,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "States Busemann existence/minimizer theorems and treats exactly solvable laws and the oriented-site-percolation cone, including explicit cone formulas."
+        },
+        {
+          "unit": "§4 Duality",
+          "physical_pages": [
+            15,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Develops convex duality between the point-to-line and point-to-point shape functions and parameterizes dual tilts across nondifferentiable segments."
+        },
+        {
+          "unit": "§5 Stationary cocycles, §§5.1–5.3",
+          "physical_pages": [
+            18,
+            24
+          ],
+          "coverage": "complete",
+          "summary": "Constructs stationary recovery cocycles, defines stationary LPP, proves monotonicity/continuity, and identifies cocycle minimizers of the variational formulas."
+        },
+        {
+          "unit": "§6 Busemann functions from cocycles",
+          "physical_pages": [
+            24,
+            31
+          ],
+          "coverage": "complete",
+          "summary": "Proves cocycle bounds on liminf/limsup endpoint increments and obtains true Busemann limits when shape differentiability collapses the bounds."
+        },
+        {
+          "unit": "§7 Cocycles from queueing fixed points, including §7.1",
+          "physical_pages": [
+            31,
+            42
+          ],
+          "coverage": "complete",
+          "summary": "Builds coupled tandem-queue fixed points, verifies Burke-type stationarity and cocycle/recovery identities, and derives explicit exponential/geometric special cases."
+        },
+        {
+          "unit": "Appendix A: Ergodic theorem for cocycles",
+          "physical_pages": [
+            42,
+            42
+          ],
+          "coverage": "complete",
+          "summary": "States the cocycle ergodic theorem imported in the sublinearity/shape comparison arguments."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            42,
+            44
+          ],
+          "coverage": "complete",
+          "summary": "Read the complete bibliography for queueing, shape, variational, cocycle, and integrable LPP dependencies."
+        }
+      ],
+      "local_id": "W06-031"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 51,
+        "sha256": "7ec8ed86cd46123c5a47f2c798791713a81c763dd46518cce37f6e080cc1d8f6"
+      },
+      "reading_scope": "full text; physical pages 1–51 read",
+      "units": [
+        {
+          "unit": "Title and abstract",
+          "physical_pages": [
+            1,
+            2
+          ],
+          "coverage": "complete",
+          "summary": "Read source identity, abstract, model interpretations, and the promised GUE Tracy–Widom fluctuation statement."
+        },
+        {
+          "unit": "§1 Introduction and results",
+          "physical_pages": [
+            3,
+            12
+          ],
+          "coverage": "complete",
+          "summary": "Defines geometric vertex corner growth, its random-Young-diagram/TASEP representation, and exact shape, large-deviation, and fluctuation theorems, including the exponential limit."
+        },
+        {
+          "unit": "§2 Coulomb gas, §§2.1–2.2",
+          "physical_pages": [
+            12,
+            22
+          ],
+          "coverage": "complete",
+          "summary": "Derives the discrete Coulomb-gas representation from tableaux/Young diagrams and proves the large-deviation principle through a variational equilibrium measure."
+        },
+        {
+          "unit": "§3 Fredholm determinant",
+          "physical_pages": [
+            22,
+            27
+          ],
+          "coverage": "complete",
+          "summary": "Expresses the distribution through the Meixner-polynomial kernel and sets up the determinant asymptotics."
+        },
+        {
+          "unit": "§4 Proof of the large-deviation theorem",
+          "physical_pages": [
+            27,
+            40
+          ],
+          "coverage": "complete",
+          "summary": "Carries out the upper/lower large-deviation estimates by discretized energy bounds, compactness, and equilibrium-measure comparison."
+        },
+        {
+          "unit": "§5 Asymptotics for the Meixner kernel",
+          "physical_pages": [
+            40,
+            46
+          ],
+          "coverage": "complete",
+          "summary": "Uses contour/integral representations and double-critical-point asymptotics to obtain Airy-kernel scaling."
+        },
+        {
+          "unit": "§6 The equilibrium measure",
+          "physical_pages": [
+            46,
+            48
+          ],
+          "coverage": "complete",
+          "summary": "Solves the equilibrium variational problem and verifies the measure/support used in the shape and large-deviation arguments."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            48,
+            51
+          ],
+          "coverage": "complete",
+          "summary": "Read the full reference list for the combinatorial, orthogonal-polynomial, random-matrix, and TASEP inputs."
+        }
+      ],
+      "local_id": "W06-034"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 32,
+        "sha256": "aa0b2cd695d1f46f4982307bf25fab80ea147ffb2938509a1477fc2d45964735"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "Introduces planar i.i.d. edge-FPP, the limit shape, and the questions about non-polygonality and fluctuations."
+        },
+        {
+          "unit": "§1.1 Flat edges for limit shapes",
+          "physical_pages": [
+            3,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Defines the class of laws with a minimum-weight atom at or above the oriented-percolation threshold and identifies the flat-edge endpoints."
+        },
+        {
+          "unit": "§2 Main Results",
+          "physical_pages": [
+            4,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "States endpoint differentiability, growth/coexistence consequences, and the separate variance/exponent results with their assumptions."
+        },
+        {
+          "unit": "§2.1 Differentiability of the limit shape at percolation points",
+          "physical_pages": [
+            4,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "States Theorem 2.1 and the accumulation of extreme points; fixes the endpoint and symmetry consequences."
+        },
+        {
+          "unit": "§2.2 Growth models",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "States infinite coexistence and the infinite-ends consequence when the law is not purely atomic; these are FPP infection-time results."
+        },
+        {
+          "unit": "§2.3 Fluctuations",
+          "physical_pages": [
+            6,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Defines χθ and ξθ, states the logarithmic and n^(1/4) lower bounds and χ–ξ relation, preserving the distinct moment, non-random-fluctuation, and curvature premises."
+        },
+        {
+          "unit": "§3.1 Strategy of the proof of Theorem 2.1",
+          "physical_pages": [
+            9,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Assumes a second tangent and derives a positive transverse linear functional whose expected advance will contradict the shape limit."
+        },
+        {
+          "unit": "§3.2 Coupling with Oriented Percolation",
+          "physical_pages": [
+            10,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Embeds oriented percolation in minimum-weight edges and invokes the finite-set survival estimates needed for bypass construction."
+        },
+        {
+          "unit": "§3.3 Construction of the f-bypasses",
+          "physical_pages": [
+            11,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "Builds positive-probability local configurations and iterates bypasses to gain a linear expected f-coordinate advance."
+        },
+        {
+          "unit": "§3.4 Proof of Theorem 2.1, case p > oriented pc",
+          "physical_pages": [
+            14,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Uses supercritical survival, shape convergence, and the bypass gain to contradict the hypothesized second tangent."
+        },
+        {
+          "unit": "§3.5 Proof of Theorem 2.1, case p = oriented pc",
+          "physical_pages": [
+            18,
+            20
+          ],
+          "coverage": "complete",
+          "summary": "Sprinkles edges with weights in (1,K] to a supercritical auxiliary parameter, applies the same contradiction, then lowers the parameter to criticality."
+        },
+        {
+          "unit": "§4 Proof of Theorem 2.5",
+          "physical_pages": [
+            20,
+            27
+          ],
+          "coverage": "complete",
+          "summary": "Applies Newman–Piza resampling influences, proves geodesics use non-minimal edges outside the cone, localizes them to annuli, and sums over logarithmically many scales."
+        },
+        {
+          "unit": "§5 Proof of Theorem 2.6",
+          "physical_pages": [
+            27,
+            31
+          ],
+          "coverage": "complete",
+          "summary": "Uses the influence lower bound, geodesic confinement, and shape geometry to derive the stated χθ–ξθ inequality."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            31,
+            32
+          ],
+          "coverage": "complete",
+          "summary": "Read the full bibliography to trace oriented-percolation, shape, concentration, and Newman–Piza inputs."
+        }
+      ],
+      "reading_scope": "Entire official arXiv v2 local PDF; all 32 physical pages read and title/version/page count matched.",
+      "local_id": "W06-011"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 23,
+        "sha256": "0215863fe2d703e802d721608cf47aa259110ce68afef38801d5d7b0be591f1f"
+      },
+      "units": [
+        {
+          "unit": "§1 First definitions and main result",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "Defines the rescaled undirected capacity network, continuum domain/boundary source and sink, surface normalization, exponential moment, subcritical zero-mass condition, and lower-deviation theorem."
+        },
+        {
+          "unit": "§2 Computation of φΩ",
+          "physical_pages": [
+            4,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Builds the anisotropic continuum cut value from cylinder surface tension and the finite-perimeter separating-set functional."
+        },
+        {
+          "unit": "§2.1 Geometric notations",
+          "physical_pages": [
+            4,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Defines neighborhoods, hyperrectangles, cylinders, balls/discs, and upper/lower half-balls for the local geometry."
+        },
+        {
+          "unit": "§2.2 Flow in a cylinder",
+          "physical_pages": [
+            4,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Defines top/bottom cylinder terminal sets and the auxiliary cylinder max flows τ(A,h) and φ(A,h)."
+        },
+        {
+          "unit": "§2.3 Max-flow min-cut theorem",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Identifies cylinder flow with minimum cut capacity and fixes cutset notation."
+        },
+        {
+          "unit": "§2.4 Definition of ν",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Recalls the directional cylinder-flow surface tension, its limit under finite mean, and imported geometric/positivity properties."
+        },
+        {
+          "unit": "§2.5 Definition of φΩ",
+          "physical_pages": [
+            6,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Defines the anisotropic perimeter/cut functional on finite-perimeter sets and its infimum over separating cuts."
+        },
+        {
+          "unit": "§3 Sketch of the proof",
+          "physical_pages": [
+            8,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Outlines the min-cut compactness, local flat-boundary events, surgery-to-cylinder comparison, and union bound over the finite covering balls."
+        },
+        {
+          "unit": "§4 Number of edges in a minimal cutset and compactness",
+          "physical_pages": [
+            8,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Uses Zhang’s exponential tail for minimal-cutset cardinality and compactness to reduce the problem to a controlled family of continuum separators."
+        },
+        {
+          "unit": "§5 Covering of ∂F by balls",
+          "physical_pages": [
+            9,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Uses Vitali/Besicovitch covering and reduced-boundary differentiation to select separated interior/boundary balls and define local low-cost flat-cut events."
+        },
+        {
+          "unit": "§5.1 Geometric tools",
+          "physical_pages": [
+            9,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Records Minkowski content, Vitali covering, differentiation, and local perimeter approximations on flat reduced-boundary patches."
+        },
+        {
+          "unit": "§5.2 Definition of a local event",
+          "physical_pages": [
+            13,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Defines the measurable local event G(x,r,v), encoding a near-half-ball cutset with abnormally low capacity."
+        },
+        {
+          "unit": "§6 Surgery in a ball to define an almost flat cutset",
+          "physical_pages": [
+            16,
+            21
+          ],
+          "coverage": "complete",
+          "summary": "Changes a near-flat cut into a cylinder cut by choosing a thin slab and controlling added boundary edges; their capacities are independent of the interior event, but local events across balls are not multiplied."
+        },
+        {
+          "unit": "§7 Calibration of the constants",
+          "physical_pages": [
+            21,
+            22
+          ],
+          "coverage": "complete",
+          "summary": "Bounds each local event by cylinder lower deviations and connector-capacity tails; calibrates margins so the union-bound covering sum has surface-order exponential decay."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            22,
+            23
+          ],
+          "coverage": "complete",
+          "summary": "Read the bibliography and traced cylinder-flow lower deviations, cutset-size estimates, BV geometry, and companion-domain results."
+        }
+      ],
+      "reading_scope": "Entire local arXiv v1 PDF, physical pp. 1–23 read; theorem/proof pages were checked against official arXiv PDF because local glyph extraction is damaged.",
+      "local_id": "W06-016"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 35,
+        "sha256": "63dd1b9e431ad83eb73c1f6c60aafe62f08b2556064e8f1b1711aae57f765e1d"
+      },
+      "units": [
+        {
+          "unit": "§1 First definitions and main result",
+          "physical_pages": [
+            1,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Defines the i.i.d. capacity network and separated boundary terminals, then states the volume-order upper deviation above the polyhedral cut threshold."
+        },
+        {
+          "unit": "§2 Background",
+          "physical_pages": [
+            4,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "Collects geometry, cylinder flow definitions, max-flow/min-cut, existing cylinder LLNs/deviation inputs, and the role of this companion project."
+        },
+        {
+          "unit": "§2.1.1 Geometric notation",
+          "physical_pages": [
+            4,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Defines Hausdorff measures, neighborhoods, hyperplanes, cylinders, and balls."
+        },
+        {
+          "unit": "§2.1.2 Flow in a cylinder",
+          "physical_pages": [
+            4,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Defines auxiliary top/bottom cylinder terminal sets and flows used to build global cuts."
+        },
+        {
+          "unit": "§2.1.3 Max-flow min-cut theorem",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Expresses the network flow as the minimum capacity of a separating cutset."
+        },
+        {
+          "unit": "§2.2.1 Existing laws of large numbers",
+          "physical_pages": [
+            6,
+            11
+          ],
+          "coverage": "complete",
+          "summary": "Reviews cylinder-flow LLNs, surface tension, and dimensional differences between planar dual paths and higher-dimensional cut surfaces."
+        },
+        {
+          "unit": "§2.2.2 Large deviations results",
+          "physical_pages": [
+            11,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "States cited cylinder deviation inputs; these are pre-existing results rather than the bounded-domain proof established here."
+        },
+        {
+          "unit": "§2.3 Global project",
+          "physical_pages": [
+            13,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "Explains how this upper-deviation paper combines with companion LLN/lower-deviation papers."
+        },
+        {
+          "unit": "§3 Computation of φ̃Ω",
+          "physical_pages": [
+            14,
+            15
+          ],
+          "coverage": "complete",
+          "summary": "Defines the polyhedral separator cost via directional surface tension."
+        },
+        {
+          "unit": "§4 Sketch of the proof",
+          "physical_pages": [
+            15,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Outlines parallel disjoint cuts, local cylinder covers, connector layers, and Cramér control yielding volume speed."
+        },
+        {
+          "unit": "§5 The constant φ̃Ω is finite",
+          "physical_pages": [
+            18,
+            21
+          ],
+          "coverage": "complete",
+          "summary": "Constructs a transverse polyhedral separator covering the source while excluding the sink."
+        },
+        {
+          "unit": "§6 Definition of the set Ω′",
+          "physical_pages": [
+            21,
+            23
+          ],
+          "coverage": "complete",
+          "summary": "Chooses a slightly enlarged domain so the polyhedral interface and discrete graph approximants fit inside it."
+        },
+        {
+          "unit": "§7 Existence of a family of source–sink cuts",
+          "physical_pages": [
+            23,
+            24
+          ],
+          "coverage": "complete",
+          "summary": "Builds pairwise disjoint cut layers at separated distances through the domain."
+        },
+        {
+          "unit": "§8 Covering of ∂P ∩ Ω′ by cylinders",
+          "physical_pages": [
+            24,
+            28
+          ],
+          "coverage": "complete",
+          "summary": "Covers the polyhedral boundary with finite cylinders of controlled normal and constructs cutsets from their local flows plus connectors."
+        },
+        {
+          "unit": "§9 Control of the cardinality of W and M",
+          "physical_pages": [
+            29,
+            31
+          ],
+          "coverage": "complete",
+          "summary": "Bounds the number of connector edges so their total capacity can be controlled without affecting the main surface cost."
+        },
+        {
+          "unit": "§10 Calibration of the constants",
+          "physical_pages": [
+            31,
+            33
+          ],
+          "coverage": "complete",
+          "summary": "Combines cylinder deviation estimates, independence across layers, exponential-moment/Cramér bounds, and parameter choices to obtain the n^d rate."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            33,
+            35
+          ],
+          "coverage": "complete",
+          "summary": "Read the complete bibliography and identified the imported cylinder-flow upper-deviation and companion LLN results."
+        }
+      ],
+      "reading_scope": "Entire local arXiv v2/journal reprint, physical pp. 1–35 read; arXiv version header and journal front matter were checked.",
+      "local_id": "W06-017"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 31,
+        "sha256": "2654e92cef3b5e79631253497c218ac6c15c27a7c1dba760bd20817482b9132d"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Defines i.i.d. edge-FPP, states the two-sided exponential concentration under an exponential moment and lower-tail concentration under 2+log moments, and sketches the entropy method."
+        },
+        {
+          "unit": "§1.1 The model",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "Sets the nonnegative edge-weight law and passage-time metric on Zd."
+        },
+        {
+          "unit": "§1.2 Main result",
+          "physical_pages": [
+            3,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "States F(0)<pc(d) and the distinct assumptions/scales for the two-sided and lower-tail inequalities."
+        },
+        {
+          "unit": "§1.3 Outline of the proof",
+          "physical_pages": [
+            4,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Explains averaging, Falik–Samorodnitsky, Bernoulli encoding, derivative estimates, and lattice animals."
+        },
+        {
+          "unit": "§1.4 Preliminary results",
+          "physical_pages": [
+            5,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Collects geodesic and passage-time estimates used in the proof."
+        },
+        {
+          "unit": "§2 Setup for the proof",
+          "physical_pages": [
+            6,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Transfers concentration to averaged passage times and states the entropy/variance inequalities."
+        },
+        {
+          "unit": "§2.1 Theorem 2.1 implies Theorem 1.1",
+          "physical_pages": [
+            7,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Relates moment-generating control for the averaged variable to the point-to-point tail bound."
+        },
+        {
+          "unit": "§2.2 Falik–Samorodnitsky and entropy",
+          "physical_pages": [
+            9,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Derives the entropy inequality in the martingale decomposition used to gain the logarithmic scale."
+        },
+        {
+          "unit": "§3 Bound on influences",
+          "physical_pages": [
+            10,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Linearizes passage time under edge resampling and controls influences with geodesic and long-path estimates."
+        },
+        {
+          "unit": "§4 Entropy bound",
+          "physical_pages": [
+            13,
+            21
+          ],
+          "coverage": "complete",
+          "summary": "Encodes each weight by Bernoulli variables and bounds positive/negative exponential discrete derivatives under their separate assumptions."
+        },
+        {
+          "unit": "§4.1 Bernoulli encoding",
+          "physical_pages": [
+            13,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "Uses generalized inverse sampling to represent each edge weight as an infinite Bernoulli sequence."
+        },
+        {
+          "unit": "§4.2 Derivative bound: positive exponential",
+          "physical_pages": [
+            14,
+            19
+          ],
+          "coverage": "complete",
+          "summary": "Applies discrete log-Sobolev and positive-λ estimates with exponential-moment control."
+        },
+        {
+          "unit": "§4.3 Derivative bound: negative exponential",
+          "physical_pages": [
+            19,
+            21
+          ],
+          "coverage": "complete",
+          "summary": "Uses monotonicity/association and the 2+log moment condition for the lower-tail derivative bound."
+        },
+        {
+          "unit": "§5 Control by lattice animals",
+          "physical_pages": [
+            21,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Controls random geodesic-edge sums by greedy lattice-animal estimates for the quantile-derived weights."
+        },
+        {
+          "unit": "§5.1 The case λ ≥ 0",
+          "physical_pages": [
+            22,
+            23
+          ],
+          "coverage": "complete",
+          "summary": "Bounds the positive-exponential entropy sum."
+        },
+        {
+          "unit": "§5.2 The case λ ≤ 0",
+          "physical_pages": [
+            23,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Bounds the negative-exponential entropy sum under the weaker moment assumption."
+        },
+        {
+          "unit": "§6 Proof of Theorem 2.3",
+          "physical_pages": [
+            25,
+            26
+          ],
+          "coverage": "complete",
+          "summary": "Combines the entropy bounds and concentration lemma to prove the central exponential tail estimate."
+        },
+        {
+          "unit": "Appendix A.1",
+          "physical_pages": [
+            26,
+            27
+          ],
+          "coverage": "complete",
+          "summary": "Supplies an omitted comparison argument for the concentration reduction."
+        },
+        {
+          "unit": "Appendix A.2.1",
+          "physical_pages": [
+            27,
+            28
+          ],
+          "coverage": "complete",
+          "summary": "Details the conditional/averaging estimate used for the lower-tail transfer."
+        },
+        {
+          "unit": "Appendix A.2.2",
+          "physical_pages": [
+            28,
+            29
+          ],
+          "coverage": "complete",
+          "summary": "Completes the complementary lower-tail estimate and its conditioning step."
+        },
+        {
+          "unit": "Appendix A.3",
+          "physical_pages": [
+            29,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Derives the classical Gaussian concentration estimate from entropy under exponential moments."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            30,
+            31
+          ],
+          "coverage": "complete",
+          "summary": "Read the bibliography to trace entropy, concentration, geodesic, and lattice-animal inputs."
+        }
+      ],
+      "reading_scope": "Entire local arXiv v2 PDF, physical pp. 1–31 read; the local title-page date differs from the arXiv header and is recorded in the card.",
+      "local_id": "W06-025"
+    },
+    {
+      "document": {
+        "physical_pdf_pages": 32,
+        "sha256": "6d2fc6eb8f9f52ddfcef99e231d6c02bdcffec2ebcce93a885af0a4b81775ca5"
+      },
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Defines general-distribution i.i.d. edge-FPP, states the n/log n variance theorem, assumptions, proof outline, and notation."
+        },
+        {
+          "unit": "§1.1 Background",
+          "physical_pages": [
+            1,
+            3
+          ],
+          "coverage": "complete",
+          "summary": "Reviews known linear/BKS variance estimates and moment hypotheses."
+        },
+        {
+          "unit": "§1.2 Main result",
+          "physical_pages": [
+            3,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "States the 2+log moment condition and subcritical zero-mass condition for Theorem 1.1."
+        },
+        {
+          "unit": "§1.3 Outline of the paper",
+          "physical_pages": [
+            3,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Previews the entropy, averaging, Bernoulli encoding, discrete derivatives, and greedy-lattice-animal steps."
+        },
+        {
+          "unit": "§1.4 Notation and preliminary results",
+          "physical_pages": [
+            4,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Defines the general edge law, time constant, and geodesic estimates."
+        },
+        {
+          "unit": "§1.5 Proof sketch",
+          "physical_pages": [
+            5,
+            7
+          ],
+          "coverage": "complete",
+          "summary": "Explains the averaged passage time, Falik–Samorodnitsky inequality, and Bernoulli entropy route."
+        },
+        {
+          "unit": "§2 Entropy",
+          "physical_pages": [
+            7,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Proves tensorization and entropy inequalities for product edge variables."
+        },
+        {
+          "unit": "§3 Variance bound for τ(0,x)",
+          "physical_pages": [
+            9,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Derives the logarithmic variance improvement for the averaged passage-time representation."
+        },
+        {
+          "unit": "§3.1 Approximating τ(0,x) by Fm",
+          "physical_pages": [
+            9,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Controls the difference between point-to-point passage time and its translate average."
+        },
+        {
+          "unit": "§3.2 Bounding the variance by the entropy",
+          "physical_pages": [
+            10,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Uses the Falik–Samorodnitsky inequality and martingale increments to introduce the 1/log distance factor."
+        },
+        {
+          "unit": "§4 Benaïm and Rossignol’s approach",
+          "physical_pages": [
+            11,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "Compares a continuous-law Gaussian log-Sobolev argument and clarifies which distribution assumptions are relaxed; this section is explanatory."
+        },
+        {
+          "unit": "§5 The lower bound",
+          "physical_pages": [
+            14,
+            17
+          ],
+          "coverage": "complete",
+          "summary": "Uses Newman–Piza resampling, more-variable distribution comparison, and geodesic edge counts to bound the key influence term below."
+        },
+        {
+          "unit": "§6 Sublinear variance for general distributions",
+          "physical_pages": [
+            17,
+            31
+          ],
+          "coverage": "complete",
+          "summary": "Proves the theorem for arbitrary laws via Bernoulli encoding, discrete derivatives, geodesic estimates, and lattice animals."
+        },
+        {
+          "unit": "§6.1 Bernoulli encoding",
+          "physical_pages": [
+            17,
+            19
+          ],
+          "coverage": "complete",
+          "summary": "Represents each edge weight by a generalized-inverse transform of a sequence of uniform Bernoulli bits."
+        },
+        {
+          "unit": "§6.2 Bound on discrete derivatives",
+          "physical_pages": [
+            19,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Applies Bonami’s inequality and converts entropy derivatives to weighted geodesic-edge counts."
+        },
+        {
+          "unit": "§6.2.1 Application of Bonami’s inequality",
+          "physical_pages": [
+            20,
+            21
+          ],
+          "coverage": "complete",
+          "summary": "Controls discrete derivative entropy with the two-point log-Sobolev inequality."
+        },
+        {
+          "unit": "§6.2.2 Control by edges in geodesics",
+          "physical_pages": [
+            21,
+            26
+          ],
+          "coverage": "complete",
+          "summary": "Bounds derivative contributions through geodesic membership and the stated moment/zero-mass estimates."
+        },
+        {
+          "unit": "§6.2.3 Lattice animals",
+          "physical_pages": [
+            26,
+            29
+          ],
+          "coverage": "complete",
+          "summary": "Uses greedy lattice-animal bounds for the random weights generated by the distribution-function transform."
+        },
+        {
+          "unit": "§6.2.4 Finishing the proof of Theorem 6.2",
+          "physical_pages": [
+            29,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Combines the entropy estimates to close the general-distribution bound."
+        },
+        {
+          "unit": "§6.3 Proof of Theorem 1.1",
+          "physical_pages": [
+            30,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Transfers Theorem 6.2 to the passage-time variance conclusion."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            30,
+            32
+          ],
+          "coverage": "complete",
+          "summary": "Read the bibliography and traced the cited entropy, geodesic, variance, and lattice-animal results."
+        }
+      ],
+      "reading_scope": "Entire local arXiv v2 PDF, physical pp. 1–32 read; title-page and arXiv-version metadata checked.",
+      "local_id": "W06-026"
+    },
+    {
+      "local_id": "W06-009",
+      "document": {
+        "physical_pdf_pages": 25,
+        "sha256": "df99825219f142a6aff59b73e007de8ed5b426c050d2388e740f3812e39b1790",
+        "local_pdf": "evidence/fulltexts/W06-009.pdf"
+      },
+      "reading_scope": "Entire local PDF, physical pages 1–25 inspected/read; every mathematical section, appendix, and references covered. The source title page date conflicts with the 2013 arXiv v1 header; see card.",
+      "units": [
+        {
+          "unit": "§1 Introduction and main results",
+          "physical_pages": [
+            1,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Sets the two-half-plane edge-weight model, moment assumptions, radial limit, interface shape formula, and strict-pyramid example."
+        },
+        {
+          "unit": "§2 Preliminary homogeneous FPP inputs",
+          "physical_pages": [
+            6,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Collects homogeneous time-constant, quantile-coupling, and half-plane deviation inputs; these remain cited lemmas rather than new homogeneous theory."
+        },
+        {
+          "unit": "§3 Characterization of the inhomogeneous time constant",
+          "physical_pages": [
+            8,
+            12
+          ],
+          "coverage": "complete",
+          "summary": "Splits paths at their last interface contact and proves the infimum formula using half-plane concentration, contact-point union bounds, and Kingman along the interface."
+        },
+        {
+          "unit": "§4 Properties of the inhomogeneous shape",
+          "physical_pages": [
+            12,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Establishes homogeneity, subadditivity, Lipschitz control, and the convex-hull/vertical-segment shape description."
+        },
+        {
+          "unit": "§5 Shape theorem",
+          "physical_pages": [
+            16,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Upgrades radial convergence to set convergence using a finite directional net and connector-tail control."
+        },
+        {
+          "unit": "§6 More-variable weight laws",
+          "physical_pages": [
+            18,
+            20
+          ],
+          "coverage": "complete",
+          "summary": "Couples environments by quantiles and replaces one edge at a time; concavity and monotonicity justify the stated concave-order comparison."
+        },
+        {
+          "unit": "§7 Randomly introduced columnar defects",
+          "physical_pages": [
+            20,
+            21
+          ],
+          "coverage": "complete",
+          "summary": "Uses favorable columns with positive density and subadditivity to compare the defect environment’s vertical growth rate."
+        },
+        {
+          "unit": "Appendix A: Half-plane deviation estimates",
+          "physical_pages": [
+            21,
+            24
+          ],
+          "coverage": "complete",
+          "summary": "Outlines increasing-width cylinders, renewal cross-sections, and a direction net; the cited lower-tail ingredient remains imported."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            24,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Read the complete bibliography and source trail."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-012",
+      "document": {
+        "physical_pdf_pages": 34,
+        "sha256": "0e8dd3e6aadcabe553e2a1f2a3edad3e808ad805e7492cacf0f0c30a7bb7a529",
+        "local_pdf": "evidence/fulltexts/W06-012.pdf"
+      },
+      "reading_scope": "Entire local PDF, physical pages 1–34 inspected/read; every mathematical section, appendix, and references covered.",
+      "units": [
+        {
+          "unit": "§1 Introduction, model, and main results",
+          "physical_pages": [
+            1,
+            6
+          ],
+          "coverage": "complete",
+          "summary": "Defines infinite connected planar subgraphs with infinite connected complement, the dual-boundary sequence, all-configuration Busemann limits, and the separate half-plane stochastic theorem."
+        },
+        {
+          "unit": "§2 Busemann differences",
+          "physical_pages": [
+            6,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Uses planar Jordan-curve crossings and a finite separator to obtain monotone bounded differences for arbitrary fixed vertices."
+        },
+        {
+          "unit": "§3 Convergence of finite-geodesic graphs",
+          "physical_pages": [
+            10,
+            13
+          ],
+          "coverage": "complete",
+          "summary": "Stabilizes the finite minimizing boundary set and proves local convergence to the limiting directed graph."
+        },
+        {
+          "unit": "§4 Coalescence in the half-plane",
+          "physical_pages": [
+            13,
+            24
+          ],
+          "coverage": "complete",
+          "summary": "Uses Kingman path counts, planar ordering, and local edge modifications to contradict positive densities of noncoalescing paths."
+        },
+        {
+          "unit": "Appendix A: Dual boundary structure",
+          "physical_pages": [
+            24,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Proves the dual edge boundary is a single simple doubly-infinite path."
+        },
+        {
+          "unit": "Appendix B: Existence of finite geodesics",
+          "physical_pages": [
+            25,
+            27
+          ],
+          "coverage": "complete",
+          "summary": "For product measures, confines minimizers using a shape lower bound when zero mass is below one half; otherwise uses zero circuits in annuli."
+        },
+        {
+          "unit": "Appendix C: No bigeodesics",
+          "physical_pages": [
+            27,
+            33
+          ],
+          "coverage": "complete",
+          "summary": "Adapts the Wehr–Woo argument under the paper’s separate continuity/product and symmetric ergodic finite-energy hypotheses."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            34,
+            34
+          ],
+          "coverage": "complete",
+          "summary": "Read the bibliography on the final physical page."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-019",
+      "document": {
+        "physical_pdf_pages": 33,
+        "sha256": "e8a8b1aad02a838a59ceeb29331649363c39fec59099a6999e48c92bf690adae",
+        "local_pdf": "evidence/fulltexts/W06-019.pdf"
+      },
+      "reading_scope": "Entire local PDF, physical pages 1–33 inspected/read; every mathematical section, appendix, and references covered.",
+      "units": [
+        {
+          "unit": "§1 Introduction and exponent definitions",
+          "physical_pages": [
+            1,
+            4
+          ],
+          "coverage": "complete",
+          "summary": "Defines the FPP scaling problem, nearly-gamma law class, upper/lower exponent indices, and main conditional result."
+        },
+        {
+          "unit": "§2 Proof sketch",
+          "physical_pages": [
+            4,
+            8
+          ],
+          "coverage": "complete",
+          "summary": "Previews the proof split: a priori bounds, approximation by the time-constant norm, curvature geometry, and separate exponent-case arguments."
+        },
+        {
+          "unit": "§3 A priori bounds",
+          "physical_pages": [
+            8,
+            10
+          ],
+          "coverage": "complete",
+          "summary": "Proves baseline bounds on the four exponent indices using path geometry and nearly-gamma concentration."
+        },
+        {
+          "unit": "§4 Approximation by the time-constant norm",
+          "physical_pages": [
+            10,
+            15
+          ],
+          "coverage": "complete",
+          "summary": "Applies Alexander’s subadditive approximation with exponential concentration to compare expected passage time and the norm."
+        },
+        {
+          "unit": "§5 Curvature directions for a norm",
+          "physical_pages": [
+            15,
+            17
+          ],
+          "coverage": "complete",
+          "summary": "Uses inscribed and circumscribed Euclidean balls to find curvature directions without asserting strict convexity of the random limit shape."
+        },
+        {
+          "unit": "§6 From curvature to the lower scaling relation",
+          "physical_pages": [
+            17,
+            19
+          ],
+          "coverage": "complete",
+          "summary": "Combines norm approximation and exponential deviations to exclude excessive geodesic wandering and prove χ_a≥2ξ_b−1."
+        },
+        {
+          "unit": "§7 Reverse relation for 0<χ<1/2",
+          "physical_pages": [
+            19,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Uses alternating blocks, bounded-curvature errors, concentration, and Harris–FKG covariance to obtain the conditional reverse inequality."
+        },
+        {
+          "unit": "§8 The case χ=1/2",
+          "physical_pages": [
+            26,
+            28
+          ],
+          "coverage": "complete",
+          "summary": "Bootstraps variance using the BKS n/log n upper bound."
+        },
+        {
+          "unit": "§9 The case χ=0",
+          "physical_pages": [
+            28,
+            32
+          ],
+          "coverage": "complete",
+          "summary": "Uses local edge resampling and weight perturbation to contradict an assumed wandering upper tail."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pages": [
+            32,
+            33
+          ],
+          "coverage": "complete",
+          "summary": "Read end matter and the complete bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-028",
+      "document": {
+        "physical_pdf_pages": 54,
+        "sha256": "6868646910f480f3771bc07a6c4c9ecd0e74ac3dc2fca2b64f0fbec740f98e03",
+        "local_pdf": "evidence/fulltexts/W06-028.pdf"
+      },
+      "reading_scope": "Entire local PDF, physical pages 1–54 inspected/read; every mathematical section, appendix, and references covered.",
+      "units": [
+        {
+          "unit": "§1 Model, results, and discussion",
+          "physical_pages": [
+            1,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "States the planar i.i.d. edge-FPP assumptions and separates finite-geodesic coalescence, midpoint influence, covered-area, and many-sides conclusions."
+        },
+        {
+          "unit": "§2 Attractive geodesics and preliminary estimates",
+          "physical_pages": [
+            14,
+            29
+          ],
+          "coverage": "complete",
+          "summary": "Proves the local attraction proposition from bounded slope, concentration, Mermin–Wagner perturbation, spaced independent slabs, and Harris conditioning."
+        },
+        {
+          "unit": "§3 Proofs of quantitative coalescence and midpoint theorems",
+          "physical_pages": [
+            29,
+            40
+          ],
+          "coverage": "complete",
+          "summary": "Combines attractive paths, planar trapping/order, spatial averaging, and shape-side assumptions for the stated power bounds."
+        },
+        {
+          "unit": "§4 From the limit shape to geodesic geometry",
+          "physical_pages": [
+            40,
+            48
+          ],
+          "coverage": "complete",
+          "summary": "Transfers norm gaps and directional geometry to random geodesics using shape approximation and concentration."
+        },
+        {
+          "unit": "§5 Many sides for near-deterministic weights",
+          "physical_pages": [
+            48,
+            52
+          ],
+          "coverage": "complete",
+          "summary": "Compares two-route Berry–Esseen upper bounds with a counting/union-bound lower estimate to rule out too few sides."
+        },
+        {
+          "unit": "Acknowledgments and references",
+          "physical_pages": [
+            52,
+            54
+          ],
+          "coverage": "complete",
+          "summary": "Read acknowledgments and the complete bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-030",
+      "document": {
+        "physical_pdf_pages": 32,
+        "sha256": "01827617eef63cc2f7de8aa3fa4766e7edad01ab35dbb922a7084c477c0ac219",
+        "local_pdf": "evidence/fulltexts/W06-030.pdf"
+      },
+      "reading_scope": "Entire local arXiv v2 PDF; all physical pages 1–32 read through references, including the v2 “Appendix A: Auxiliary technical results” on p. 30 (Theorem A.1 and Lemma A.2). The distinct detailed cocycle-geodesic coalescence proof identified by the arXiv v2 note as omitted from v2 and available in v1 remains unread.",
+      "units": [
+        {
+          "unit": "§1 Introduction and conventions",
+          "physical_pages": [
+            1,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Defines up-right vertex-weight LPP, shape regularity notation, stationary cocycle input, and theorem scope."
+        },
+        {
+          "unit": "§2 Geodesics and competition interface results",
+          "physical_pages": [
+            5,
+            14
+          ],
+          "coverage": "complete",
+          "summary": "States directional semi-infinite geodesic, Busemann, nonexistence, and competition-interface results with their shape assumptions."
+        },
+        {
+          "unit": "§3 Stationary cocycles and Busemann functions",
+          "physical_pages": [
+            14,
+            16
+          ],
+          "coverage": "complete",
+          "summary": "Constructs cocycles from queueing fixed points and states their recovery, variational, and Busemann properties."
+        },
+        {
+          "unit": "§4 Geodesics",
+          "physical_pages": [
+            16,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Proves directional-geodesic and nonbacktracking results; Theorem 4.5’s detailed v1 coalescence proof is absent from v2, whose printed proof is a sketch."
+        },
+        {
+          "unit": "§5 Competition interface",
+          "physical_pages": [
+            25,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Sandwiches the interface between directional cocycle geodesics and derives its limiting-direction characterization."
+        },
+        {
+          "unit": "§6 Exactly solvable models",
+          "physical_pages": [
+            30,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Derives the geometric-weight corner-growth interface benchmark from independent geometric Busemann increments."
+        },
+        {
+          "unit": "Appendix A: Auxiliary technical results",
+          "physical_pages": [
+            30,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Read v2 Theorem A.1 (uniform ergodic theorem for stationary L1 cocycles under the stated envelope condition) and Lemma A.2 (deterministic monotonicity of point-to-point passage-time gradients). This is distinct from the detailed coalescence Appendix A proof omitted from v2 and present in v1."
+        },
+        {
+          "unit": "Acknowledgments",
+          "physical_pages": [
+            30,
+            30
+          ],
+          "coverage": "complete",
+          "summary": "Read the acknowledgments on the same physical page as §6 and v2 Appendix A."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            31,
+            32
+          ],
+          "coverage": "complete",
+          "summary": "Read the complete bibliography."
+        }
+      ]
+    },
+    {
+      "local_id": "W06-033",
+      "document": {
+        "physical_pdf_pages": 42,
+        "sha256": "47ea01965b98a24907088bbf3003aca2db110efacd2bd24ede1af77f82ef2237",
+        "local_pdf": "evidence/fulltexts/W06-033.pdf"
+      },
+      "reading_scope": "Entire local PDF inspected: article text and references on physical pp. 1–41; physical p. 42 is blank.",
+      "units": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pages": [
+            1,
+            5
+          ],
+          "coverage": "complete",
+          "summary": "Sets the ergodic random-path framework and previews positive-temperature and zero-temperature variational questions."
+        },
+        {
+          "unit": "§2 Free energy at positive and zero temperature",
+          "physical_pages": [
+            5,
+            9
+          ],
+          "coverage": "complete",
+          "summary": "Defines point-to-level and point-to-point limits under class-L integrability and proves their basic limit relations."
+        },
+        {
+          "unit": "§3 Cocycle variational formula for point-to-level growth",
+          "physical_pages": [
+            9,
+            15
+          ],
+          "coverage": "complete",
+          "summary": "Obtains the infimum over centered stationary L1 cocycles, then uses adaptedness and uniform sublinearity for a corrector."
+        },
+        {
+          "unit": "§4 Tilt–velocity duality",
+          "physical_pages": [
+            15,
+            18
+          ],
+          "coverage": "complete",
+          "summary": "Uses convex duality to pass from tilt to velocity. Theorem 4.4 (physical p. 17) explicitly assumes V0∈L, ergodicity, g_pl^β(0)<∞, and ξ∈ri U; the finite value is separate from class-L membership and must be checked before applying the point-to-point formula."
+        },
+        {
+          "unit": "§5 Cocycles from Busemann functions",
+          "physical_pages": [
+            18,
+            23
+          ],
+          "coverage": "complete",
+          "summary": "Turns Busemann limits into stationary integrable adapted minimizing cocycles under additional expectation-convergence and equal-path-length assumptions."
+        },
+        {
+          "unit": "§6 Exactly solvable models in 1+1 dimensions",
+          "physical_pages": [
+            23,
+            25
+          ],
+          "coverage": "complete",
+          "summary": "Works out log-gamma polymer and exponential corner-growth examples."
+        },
+        {
+          "unit": "§7 Variational formulas in terms of measures",
+          "physical_pages": [
+            25,
+            32
+          ],
+          "coverage": "complete",
+          "summary": "Optimizes over invariant environment/path measures; records the narrower point-to-point formula assumptions and zero-temperature passage."
+        },
+        {
+          "unit": "§8 Periodic environments",
+          "physical_pages": [
+            32,
+            38
+          ],
+          "coverage": "complete",
+          "summary": "Reduces periodic examples to Perron–Frobenius and max-plus eigenvalue problems."
+        },
+        {
+          "unit": "Appendix A: Auxiliary ergodic results",
+          "physical_pages": [
+            38,
+            38
+          ],
+          "coverage": "complete",
+          "summary": "States the uniform ergodic theorem for centered cocycles and a uniform-integrability lemma."
+        },
+        {
+          "unit": "References",
+          "physical_pages": [
+            39,
+            41
+          ],
+          "coverage": "complete",
+          "summary": "Read the complete bibliography; physical p. 42 of the local scan is blank."
+        }
+      ]
+    }
+  ]
+}

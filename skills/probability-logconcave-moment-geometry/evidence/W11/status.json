@@ -1,0 +1,53 @@
+{
+  "worker": "W11",
+  "skill": "probability-logconcave-moment-geometry",
+  "source_range": "M0258-M0344",
+  "task_status": "in_progress",
+  "review_status": "pending",
+  "source_count": 87,
+  "sources_with_local_pdf": 44,
+  "identity_verified": 43,
+  "identity_check_pending": 1,
+  "incomplete_pdf_fragments": 2,
+  "retrieval_failed_or_redirected": 2,
+  "not_yet_acquired": 41,
+  "fulltext_read": 31,
+  "partial_read": 5,
+  "not_read": 51,
+  "card_count": 36,
+  "formula_audit": {
+    "M0282": "Theorem 3.6 threshold |T| >= exp(exp(p)); checked on rendered physical PDF p.10; evidence/W11/notes/visual-audit/M0282-pdf10.png",
+    "M0322": "Theorem 1 C_P=C_tau^2/2 and Corollary 3 exponent -(1/8)min{t/b,t^2/a^2}; checked on rendered physical PDF p.4; evidence/W11/notes/visual-audit/M0322-pdf4.png",
+    "M0270": "Theorem 1.1 L_T<c/sqrt(epsilon), not c sqrt(epsilon); checked on rendered physical PDF pp.1-2 and 13.",
+    "M0304": "Theorems A/C retained as separately stated; Theorem B(b1) rate display on v1 p.4 has a negative value at p=1,x=1. Official Zaragoza PostPrint p.4 visually checked and prints the same formula/domain. Isolated pending correction; not a claim that all of Theorem B is false. Images: evidence/W11/notes/visual-audit/M0304-pdf4.png and M0304-postprint-p4-batch5.png; SymPy check: evidence/W11/notes/M0304-b1-rate-anomaly-batch4.txt.",
+    "M0278": "Theorem 5.1 (5.3) exact λ_{k,m}=sqrt(log log(3m))*sqrt(m)*log(e max{N,n}/m)+sqrt(k)*log(en/k); the ordinary logarithmic factors in both summands outside the square roots; only log log(3m) is under its displayed square root. Visually checked physical PDF p.20 equation (5.3) and proof p.21; images evidence/W11/notes/visual-audit/M0278-p20-batch6.png and M0278-p21-batch6.png; source SHA-256 f18f2c5942e7755fb57254dd0b80c34697b6b491ccb5c31163f849922acedb10.",
+    "M0287": "Proposition 14 covering radius is e C_X/sqrt(p), not e C_X sqrt(p); rendered theorem/proof on physical PDF pp.12–13; images evidence/W11/notes/visual-audit/M0287-p12-batch6.png and M0287-p13-batch6.png; source SHA-256 197bb329b6356570f0b07e20d62b8812aba1f4b871dbc4dada52ad0a4f3854b9.",
+    "M0276": "Section coverage heading check: §2 Preliminaries is physical PDF p.3, §3 Convex probability measures is physical PDF p.4; rendered images evidence/W11/notes/visual-audit/M0276-p3-batch6.png and M0276-p4-batch6.png; source SHA-256 a28c66784b823e629f079e8ddfd481b54f0cb38de03ff975247a81667e6b2407.",
+    "M0284": "Local source is a complete 29-page author-hosted manuscript, distinct from the 25-page Trans. AMS published pagination pp.4569–4593; do not claim equivalence or page mapping. Local title page rendered at evidence/W11/notes/visual-audit/M0284-p1-batch6.png; local SHA-256 e15d047c80136ebb54ab6d3a8b9b245d8083c81cf0e5ed491b5496f021074d6f; publisher metadata https://doi.org/10.1090/S0002-9947-2015-06177-7 and University of Athens record https://pergamos.lib.uoa.gr/item/uoadl%3A3064009.",
+    "M0291": "Theorem 1 exact denominator [c ell(log(d)+1)]^(ell/2) d^(16/ell) sqrt(rho(p)); fresh render/view of physical PDF p.4 at evidence/W11/notes/visual-audit/M0291-pdf4-batch8.png shows numerator 16 over ell. Supersedes the incorrect batch-7 transcription. Source SHA-256 2f456fd3b39ce0de579b2601cf49244d395fdfca950d3a0924603c652e23b7df.",
+    "M0296": "Theorem 1.3 (1.7) on physical PDF p.4: (E||Y||^p)^(1/p) <= C (n^(1/4) sqrt(ln(en)) ln(e+ln(en)) E||X|| + sigma_p(Y)); C multiplies the full parenthesis. Rendered/viewed at evidence/W11/notes/visual-audit/M0296-pdf4-batch8.png. Source SHA-256 3bad12d2172a2685c778e949e33cfae52b4bfd97df6d71ed084c2a52fa2ccabc.",
+    "M0272": "Theorem 7 physical PDF p.5 includes the dimension condition 1 <= n <= N. Rendered/viewed at evidence/W11/notes/visual-audit/M0272-pdf5-batch8.png; Theorem 6 lambda display checked on same page. Local manuscript SHA-256 ea5394b349e2d8b157a23efd573807b44f82c1c2bb4b50ba408b8feb67f83a7e.",
+    "M0340": "Equations (4.2)–(4.3) rendered/viewed on physical PDF p.9: 1/(3 Var(X)) <= lambda_gamma^2 <= 2/Var(X), and lambda_i^2=1/[3 Var(X_i|X_<i)]. Cost uses lambda_i=1/sqrt(3 conditional Var) multiplying displacement. Image evidence/W11/notes/visual-audit/M0340-pdf9-batch7.png; source SHA-256 3b051ea2876ddf3f32c26453d90724a9fcef3181a57dcf15ccafe8434391b17d."
+  },
+  "page_coverage_audit": {
+    "M0259": "Rendered/viewed physical p.13: Theorem 5 proof ends before References begin on that same page. Coverage now records §2 pp.3–13 and References pp.13–14 with explicit overlap. Image evidence/W11/notes/visual-audit/M0259-pdf13-batch8.png.",
+    "M0285": "Rendered/viewed physical p.14: proof of Theorem 1.2 ends before References begin on that same page. Coverage now records §5 pp.13–14 and References pp.14–15 with explicit overlap. Image evidence/W11/notes/visual-audit/M0285-pdf14-batch8.png.",
+    "M0295": "Rendered/viewed physical pp.7 and 17: §2 heading starts at p.7 and References start at p.17. Coverage now records §2 pp.7–9 and References pp.17–20 (article pp.17–19 plus publisher end matter on physical p.20). Images evidence/W11/notes/visual-audit/M0295-pdf7-batch8.png and M0295-pdf17-batch8.png."
+  },
+  "numeric_check": "evidence/W11/notes/formula-audit-batch3.py and formula-audit-batch3.txt; M0304 b1 special-value SymPy check and actual batch-5 rerun: evidence/W11/notes/M0304-b1-rate-anomaly-batch4.txt and evidence/W11/notes/M0304-b1-sympy-batch5.txt. Symbolic/numeric checks are not proofs. M0340 reciprocal-variance Laplace example: evidence/W11/notes/M0340-scale-check-batch7.py and .txt; symbolic/special-case check only, not proof.",
+  "gaps": [
+    "All 87 assigned IDs M0258–M0344 remain represented. 44 local PDFs are present, including 2 incomplete fragments; 43 identities are verified from first-page evidence, 1 local identity check is pending, 41 records have not been acquired, and 2 retrievals failed or redirected.",
+    "31 complete-text reads, 5 partial reads and 51 unread records are recorded, with 36 source cards. The 30–100 full-read numerical threshold is now reached at 31; this batch's six targeted card/formula/coverage corrections await independent R06 re-review.",
+    "C153 arbitrary-norm weak/strong moment comparison and C154 symmetric Z_p dilation remain open; no solution is claimed.",
+    "Independent R06 point re-review of the six batch 8 corrections is pending. Prior accepted corrections, including M0304 isolation and M0340 scale, remain unchanged."
+  ],
+  "handoff": [
+    "D03 owns remaining acquisition and identity verification; W11 initiated no downloads in batch 8.",
+    "The M0304 rate-display isolation remains unchanged and M0304 source files/cards were not modified."
+  ],
+  "next_actions": [
+    "Submit the six batch 8 corrections and their rendered source-page evidence to R06 for point re-review.",
+    "Continue W11 reading only after R06 response; use the reviewed corpus to prioritize C153/C154 evidence gaps.",
+    "Resolve remaining acquisition and identity gaps through D03 handoff."
+  ]
+}

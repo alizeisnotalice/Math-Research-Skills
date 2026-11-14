@@ -1,0 +1,33 @@
+{
+  "source_local_id": "M0236",
+  "source_pdf": "downloads/D02/papers/M0236_Kane_GaussianSurfacePTF.pdf",
+  "source_pdf_sha256": "f6038d34f943a311b4b58e05832f4d89c15a9156b2f47890d6ad9a9247185bfc",
+  "exact_identity": "For theta=asin(sqrt(2*epsilon-epsilon^2)) on the principal branch, cos(theta)=sqrt(1-(2*epsilon-epsilon^2))=abs(1-epsilon). Thus cos(theta)=1-epsilon exactly on 0<=epsilon<=1; for 1<epsilon<=2 it equals epsilon-1.",
+  "exact_counterexample": "For f(x)=sgn(x) and epsilon=3/2, the coupling correlation is 1-epsilon=-1/2, so GNS=acos(-1/2)/pi=2/3. The printed right side is asin(sqrt(3/4))/pi=1/3. Hence the displayed upper bound cannot be used for epsilon>1.",
+  "matlab_numeric_sanity_check": {
+    "command": "eps0=3/2; rho=1-eps0; exact_halfspace=acos(rho)/pi; printed_bound=asin(sqrt(2*eps0-eps0^2))/pi;",
+    "observed_exact_halfspace": 0.666666666666667,
+    "observed_printed_rhs": 0.333333333333333,
+    "observed_gap": 0.333333333333333,
+    "theta_grid": [
+      0.25,
+      0.75,
+      1.25,
+      1.5
+    ],
+    "cos_theta": [
+      0.75,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "correlation_1_minus_epsilon": [
+      0.75,
+      0.25,
+      -0.25,
+      -0.5
+    ]
+  },
+  "evidence_type": "Exact trigonometric/halfspace derivation; MATLAB output is a numerical sanity check only.",
+  "limitation": "The exact restriction follows from the principal-angle identity and the exact bivariate Gaussian halfspace formula. The MATLAB decimals are not the proof and do not modify the source PDF."
+}

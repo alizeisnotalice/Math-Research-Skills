@@ -1,0 +1,42 @@
+[
+  {
+    "problem_id": "C120",
+    "tool": "probability-concentration-chaining",
+    "role": "auxiliary",
+    "needed_lemma": "If a random-tensor argument can be reduced to a finite sum of independent self-adjoint random matrices (or a specific rectangular dilation), matrix Bernstein/Chernoff bounds may control the resulting matrix operator norm.",
+    "source_local_ids": [
+      "P001"
+    ],
+    "unproved_interface": "The problem concerns a random tensor and its injective/operator norm. No valid matrix representation, decoupling, variance proxy, or dimension dependence has been established; Tropp’s theorem does not directly yield a high-order tensor concentration inequality."
+  },
+  {
+    "problem_id": "C168",
+    "tool": "probability-concentration-chaining",
+    "role": "auxiliary",
+    "needed_lemma": "For the formal C168 objective at fixed n, the Gaussian-density identity rewrites each fixed sign pair as (2π)^n E[f(G)g(H)sin⟨G,H⟩], with independent standard Gaussian G,H∈R^n. If a finite list of at most M candidate sign pairs is fixed using data independent of the validation sample, then independent holdout samples score all candidates with simultaneous two-sided error at most (2π)^n sqrt(2 log(2M/δ)/N) at confidence 1−δ, by Hoeffding plus a union bound.",
+    "source_local_ids": [
+      "P031"
+    ],
+    "unproved_interface": "This is only a holdout guarantee for the finite candidate list fixed before validation (or selected using independent training data). It gives no uniform bound over all measurable sign partitions, no global optimality certificate, and no candidate-approximation/discretization error; therefore it does not solve the n=2 optimization."
+  },
+  {
+    "problem_id": "A018",
+    "tool": "probability-concentration-chaining",
+    "role": "auxiliary",
+    "needed_lemma": "A concentration inequality may bound tails of an explicit weighted sum or function of independent inputs after the random variables and coordinate sensitivities are identified.",
+    "source_local_ids": [
+      "P003"
+    ],
+    "unproved_interface": "The finite-independence threshold problem is not an independent-input product model as stated. One must prove that the needed coordinates/factors are independent and meet the exact Orlicz/coordinate-difference assumptions; this source cannot replace that proof."
+  },
+  {
+    "problem_id": "B179",
+    "tool": "probability-concentration-chaining",
+    "role": "auxiliary",
+    "needed_lemma": "If infection-time growth can be encoded by an adapted process with a valid exponential supermartingale, a Ville/time-uniform crossing inequality may control boundary crossings.",
+    "source_local_ids": [
+      "P004"
+    ],
+    "unproved_interface": "No filtration, compensator/increment condition, or nonnegative supermartingale has been built for the stated bootstrap process. The paper’s hypotheses and selected theorem form must be checked; an exponential tail in space is not automatically a time-uniform martingale bound."
+  }
+]

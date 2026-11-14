@@ -1,0 +1,148 @@
+[
+  {
+    "problem_id": "C107",
+    "tool": "probability-self-avoiding-walks-and-sle",
+    "role": "auxiliary",
+    "needed_lemma": "For uniform n-step honeycomb SAW, specify the curve space/topology and parametrization, prove tightness and identify every subsequential limit as chordal SLE(8/3), including the conditioning/domain-Markov mechanism needed for identification. Graph-SAW sources W23S008–W23S010 provide conditional scalar growth estimates under their exact graph hypotheses; they do not discharge the lattice-to-SLE interface. Newly bound candidates W23S017–W23S019 add high-dimensional random-environment limsup counting, deterministic hypercubic loop-erasure bounds, and high-dimensional critical two-point decay; all remain auxiliary to curve tightness and SLE identification.\n\nAdditional auxiliary methods (not a solution to the curve limit): Potential methods are (i) the exact connective-constant change under Fisher decoration of cubic/colored-bipartite graphs (P46), (ii) graph-height criteria and spectral/girth improvements for connective constants on transitive graphs (P47), and (iii) hyperbolic SAP-versus-SAW growth and the conditional polygon-gap-to-ballisticity mechanism (P49). Use each only under its stated graph, degree, group, percolation, or tessellation hypotheses. Newly bound auxiliary works: W23S023 gives local parafermionic Cauchy–Riemann/integrability equations for its stated square-lattice Potts/FK, dilute O(n), and C₂^(1) loop models; W23S024 proves curve-decorated local GHPU metric scaling for UIHPQS random quadrangulations. Neither supplies fixed honeycomb SAW curve tightness, a discrete DMP, or SLE identification. The newly mirrored W23S026–W23S028 are conditional auxiliary methods only: quantitative bridge-renewal/displacement on nearest-neighbour Z^d for d≥2 (with P48 Theorem 1.4 range defect retained); Grigorchuk Cayley/Schreier graph connective-constant methods only under explicit nondegenerate K4-kite and coding hypotheses (P51); and spread-out high-dimensional lace expansion only under P54 kernel, large-L, model-specific d>d_c, diagram, and moment-cancellation assumptions. None supplies the fixed honeycomb curve interface. W23S029 contributes general kite coefficient identities and bridge-renewal/SAW-trail encoding templates only under the stated transitivity, height-function, bridgeability and radius conditions; its strict pattern/radius-gap proof inputs and Theorems 1.2/6.1 remain source-stated/conditional where the boundary-to-radius step or omitted/external inputs are unresolved. W23S030 contributes continuous-time weak-SAW susceptibility/RG methods only for homogeneous Z^4 and sufficiently small coupling, with corrected reciprocal factors and substantial externally imported RG estimates.",
+    "source_local_ids": [
+      "W23S001",
+      "W23S002",
+      "W23S004",
+      "W23S005",
+      "W23S006",
+      "W23S007",
+      "W23S008",
+      "W23S009",
+      "W23S010",
+      "W23S011",
+      "W23S012",
+      "W23S013",
+      "W23S014",
+      "W23S015",
+      "W23S016",
+      "W23S017",
+      "W23S018",
+      "W23S019",
+      "W23S020",
+      "W23S021",
+      "W23S022",
+      "W23S023",
+      "W23S024",
+      "W23S026",
+      "W23S027",
+      "W23S028",
+      "W23S029",
+      "W23S030"
+    ],
+    "unproved_interface": "W23S001 proves a lattice-specific connective constant via a parafermionic observable but explicitly leaves chordal SLE(8/3) convergence conjectural; its local relation supplies fewer equations than edge-observable values. W23S002 improves walk counts but has no scaling-limit theorem. W23S004–S005 describe continuum SLE after such a limit has been identified; they do not prove lattice tightness, convergence, DMP, or identification. The C107 weak-convergence statement remains unresolved by this source set. W23S006 adds exact honeycomb growth and broader bridge/lace methods but explicitly leaves the honeycomb SAW-to-SLE convergence conjectural; W23S007 proves an asymptotic sub-ballistic tail for rooted Z^d SAW and a critical-domain length corollary; its literal all-n prefactor-free statement has the n=1,v=1/2 finite-size exception, but establishes no curve tightness, discrete DMP, or SLE identification. The lattice scaling-limit interface remains unproved. The newly integrated W23S008–W23S010 are auxiliary deterministic graph-SAW methods: regular-graph lower/strict-upper bounds and a rooted-liminf criterion (W23S008), strict transitive graph edge/quotient inequalities under orbit hypotheses (W23S009), and equality of scalar growth rates for extension-restricted SAWs on strongly connected quasi-transitive directed graphs (W23S010). They do not prove lattice-curve tightness, a discrete domain-Markov property, or SLE identification; W23S009 type-2 condition (b)(ii) receives a short proof sketch. The final R03 mother decision accepted 30 sources and preserved the prior source records; the independent review of this assembled final-scope package remains pending. The newly mirrored W23S011–W23S013 are likewise auxiliary deterministic graph/group SAW methods: locality under common height controls, weighted bridge equality under the stated length-height condition, and a two-direction bridge theorem. They do not establish lattice-curve tightness, discrete DMP, or SLE identification. The newly mirrored W23S014–W23S016 add auxiliary SAW methods only: P16 bridge-tail/counting transfer with its literal positive-phi input defect and conditional exact-Ψ corollaries; P18 integer-strip honeycomb bridge-tail estimates; P24 n=0 honeycomb adsorption/parafermionic boundary methods. None proves planar curve tightness, convergence, discrete DMP, or SLE identification. R03 passed the L08_B5 helper stage, and the later final R03 mother decision accepted this source within the preserved 30-source registry; this assembled final-scope package remains pending review. The newly mirrored W23S017–W23S019 are also auxiliary: P31 concerns high-dimensional percolation-cluster SAW and only a limsup growth rate (its spine path-count estimate is for sufficiently large N); P41 is deterministic hypercubic connective-constant lower bounds; P45 states a d≥19 percolation result but reproduces the detailed proof only for large d (say d≥30). None supplies lattice-curve tightness, a discrete DMP, or SLE identification.\n\nL10_B7 boundary: C107 asks for a planar honeycomb SAW curve scaling limit and SLE(8/3) identification. None of these sources proves curve-space tightness, a discrete domain-Markov property, or a curve-topology weak limit. P46 is a graph-decoration identity; P47 is about amenability/height functions and transitive graph growth; P49's main model is hyperbolic and its only general graph theorem is conditional on mu_p<mu_w. Do not transfer a graph connective-constant identity, height function, hyperbolic layer embedding, or ballisticity bound into the Euclidean/honeycomb curve limit without a separate interface proof. W23S023 does not transfer its local equations to honeycomb SAW without a target observable/weight/embedding match, and the paper warns that discrete holomorphicity alone is not a scaling-limit proof. W23S024 is a random-quadrangulation graph-metric theorem with metric factor (9/8)^(1/4)n^(-1/4), degree measure (4n)^(-1), and boundary parameter scale (2^(3/2)/3)n^(1/2); its SLE/LQG description uses GM16 corollaries. Random-map peeling/geodesic arguments do not imply the fixed Euclidean-lattice curve limit. P48 is scalar nearest-neighbour Z^d displacement, not curve tightness; its printed Theorem 1.4 range T≥1 is invalid at T=1,2 and is not silently corrected. P51 has a literal all-Ω lower-bound defect (the constant encoding gives the infinite-dihedral line), a repeated-A1 Eq. (5.8) source anomaly, and only conditional kite/lift templates; a lower bound needs an independently verified injective self-avoiding code, and no refined strict endpoint is inferred. P54 concerns spread-out high-dimensional models only, with a_d=dΓ(d/2−1)/(2π^(d/2)); only the current official-v1 bytes are authenticated despite the 2000 sidebar/2018 title-block date conflict, with no historical or journal-text equivalence established. None proves C107 tightness, discrete DMP, or SLE identification. W23S029 is not a curve-limit theorem. The exact K_d coefficient counts are elementary and checked, but formal renewal B=Q/(1−Q) is used only where Q<1. The strict pattern radius gap at Eqs. 3.17/5.23 is not established by the displayed continuity argument; Theorem 4.7 proof is omitted, Theorems 1.2/6.1 retain unresolved/cited proof dependencies, and the source’s positive-frequency/Hammersley–Welsh steps are not newly full-read. W23S030 is continuous-time weak SAW with intersection penalty on homogeneous Z^4; its RG estimates/theorems import cited sources [3],[6],[7],[20]–[25], not independently verified here. Neither provides discrete hexagonal SAW curve tightness, a scaling limit, DMP or SLE identification. C108 remains unchanged: neither addresses a 2D random percolation cluster or its quenched full nth-root/root-independence problem.",
+    "source_binding_status": "B6 helper stage passed; stable mother IDs W23S017–W23S019 assigned; the later final R03 mother decision accepted the 30-source registry and preserved these bindings. The assembled final-scope package remains pending independent review.",
+    "auxiliary_source_boundaries": [
+      {
+        "source_local_id": "W23S020",
+        "pool_id": "SAW-P46",
+        "same_work_D01_alias": "SAW-P08",
+        "method": "Exact Fisher-decoration connective-constant recurrence for cubic quasi-transitive graphs; colored-bipartite degree-three variant. Exponent comparisons retain common-asymptotic hypotheses.",
+        "limit": "No honeycomb curve scaling limit, tightness, DMP, or SLE identification. The source upper factor is nondecaying; the (4/7)^k contraction is separately derived from the inverse recurrence."
+      },
+      {
+        "source_local_id": "W23S021",
+        "pool_id": "SAW-P47",
+        "same_work_D01_alias": "SAW-P12",
+        "method": "Height functions, amenability, and connective-constant/spectral/girth results in the checked transitive graph and Cayley-group settings.",
+        "limit": "Graph/group hypotheses remain required; no automatic transfer to a Euclidean lattice or random environment."
+      },
+      {
+        "source_local_id": "W23S022",
+        "pool_id": "SAW-P49",
+        "same_work_D01_alias": "SAW-P20",
+        "method": "Hyperbolic tessellation SAW/SAP growth; general vertex-transitive ballisticity is conditional on mu_p<mu_w. Theorem 4 uses almost-edge-disjoint polygons: off-geodesic edge at most one SAP, geodesic edge at most two.",
+        "limit": "No Euclidean/honeycomb curve convergence or C107 proof; hyperbolic estimates do not automatically transfer."
+      },
+      {
+        "source_local_id": "W23S023",
+        "pool_id": "SAW-P52",
+        "same_work_D01_alias": "SAW-P26",
+        "method": "Exact local discrete-holomorphic parafermion cancellations and integrability constraints in square-lattice Potts/FK, dilute O(n), and C₂^(1) loop models.",
+        "limit": "Local observable identities only; no honeycomb SAW scaling limit, tightness, DMP, or SLE identification. The source parameterization is sqrt(Q)=2 cos(gamma)."
+      },
+      {
+        "source_local_id": "W23S024",
+        "pool_id": "SAW-P53",
+        "same_work_D01_alias": "SAW-P29",
+        "method": "UIHPQS decorated by SAW; gluing random half-planar quadrangulations, with local GHPU metric/measure/interface scaling and geodesic control. SLE/LQG identification is imported via GM16.",
+        "limit": "Random quadrangulation metric scaling, not fixed Euclidean/honeycomb lattice. Constants and n scalings are model-specific; no C107 lattice curve tightness/DMP/identification."
+      },
+      {
+        "source_local_id": "W23S026",
+        "pool_id": "SAW-P48",
+        "same_work_D01_alias": "SAW-P19",
+        "method": "Quantitative bridge-renewal and maximum-displacement estimates for uniform nearest-neighbour SAW on Z^d, d≥2; Theorem 1.2 has explicit T(v), n0(v), and an iterated-exponential scale.",
+        "limit": "No curve scaling/tightness/DMP/SLE. Preserve the literal Theorem 1.4 all-T≥1 source defect; applications must independently prove a valid large-T range and constants."
+      },
+      {
+        "source_local_id": "W23S027",
+        "pool_id": "SAW-P51",
+        "same_work_D01_alias": "SAW-P22",
+        "method": "Conditional Grigorchuk graph kite/lift generating-function template; apply only after verifying distinct nonidentity Klein-four involutions, disjoint K4 cosets, full kite-history coverage with at most three consecutive delta exits/bounded endpoints, and a separate injective self-avoiding code for lower bounds.",
+        "limit": "Not a literal all-Ω theorem; constant encoding counterexample remains. Refined strict upper endpoint is not independently proved; repeated-A1 Eq. (5.8) remains a source anomaly. No Euclidean curve or C107/C108 transfer."
+      },
+      {
+        "source_local_id": "W23S028",
+        "pool_id": "SAW-P54",
+        "same_work_D01_alias": "SAW-P39",
+        "method": "Spread-out finite-range SAW/percolation/tree/animal lace expansion under Def. 1.1 kernel assumptions, large L, model-specific d>d_c, and model-specific diagram/moment-cancellation hypotheses. Correct a_d includes factor d.",
+        "limit": "No nearest-neighbour low-dimensional or C107/C108 interface. Current official v1 bytes only; sidebar 2000 and title-block 2018 dates conflict, with no historical/journal equivalence."
+      },
+      {
+        "source_local_id": "W23S029",
+        "pool_id": "SAW-P50",
+        "same_work_D01_alias": "SAW-P21",
+        "method": "General kite coefficient identity for fixed endpoints in K_d; exact distinctions among unrestricted Sigma, one-edge-per-visit Sigma1 and at-most-one-visit Sigma− line-graph walk classes; SAW-trail encoding; prime-bridge renewal B=Q/(1−Q) only when Q<1.",
+        "limit": "Do not assert the boundary-to-radius step at Eqs. 3.17/5.23 as proved from continuity alone; strict pattern gap and Theorems 1.2/6.1 remain source-stated/conditional where radius, positive-frequency, Hammersley–Welsh or omitted trail proof inputs are needed. Theorem 4.7 detailed proof is omitted. No C107 curve-space limit."
+      },
+      {
+        "source_local_id": "W23S030",
+        "pool_id": "SAW-P56",
+        "same_work_D01_alias": "SAW-P44",
+        "method": "Continuous-time weak SAW on homogeneous Z^4; small-g susceptibility logarithmic correction and critical-shift/RG method, with the corrected reciprocal factors in Eqs. 4.28/4.59 and amplitude consistency in Eq. 4.61.",
+        "limit": "External RG estimates/framework [3],[6],[7],[20]–[25] are imported and not full-read in this batch. Weak-SA W susceptibility is not strict discrete hexagonal SAW or a path scaling limit; no C107/C108 theorem."
+      }
+    ]
+  },
+  {
+    "problem_id": "C108",
+    "tool": "probability-self-avoiding-walks-and-sle",
+    "role": "direct",
+    "needed_lemma": "Establish almost-sure existence of lim_N Z_N(v)^(1/N) for each vertex v in the 2D supercritical bond-percolation infinite cluster, and show the resulting limit is independent of v.",
+    "source_local_ids": [
+      "W23S003"
+    ],
+    "unproved_interface": "Lacoin proves that the limsup_N Z_N(v)^(1/N) is deterministic and independent of v in the infinite cluster, and proves strict quenched/annealed separation in dimension two for p in (1/2,1). The paper's Remark 1.2 explicitly says full-limit existence is conjectured; its root-independence argument compares limsup rates only. Thus this is a direct partial result/template, not a proof of C108's full limit. W23S011–W23S013 are auxiliary deterministic graph/group precedents only; their quasi-transitive-height and deterministic-weight assumptions do not establish a quenched full limit or root independence on a random percolation cluster. W23S017–W23S019 are auxiliary only: P31 is high-dimensional and proves a strict gap for a limsup, with a sufficiently-large-N path-count estimate; P41 concerns deterministic-lattice lower bounds; P45 concerns high-dimensional critical two-point functions with the stated-vs-detailed-proof dimension gap. None proves the full two-dimensional quenched nth-root limit or root independence required here. W23S025 studies SAWs on finite N-dimensional hypercube Q_N (V=2^N), not a random environment or an infinite graph. Its dilute-phase Theorem 1.2 is only for fixed p<1/2 and n≤V^p; p=1/2 is conjectural. The susceptibility definition permits lambda*sqrt(V)=1, where z_N=0 and the reciprocal is not finite, so finite-mu manipulations require strict >1 or an explicit extended-infinity convention. It proves no quenched/annealed growth comparison or infinite-cluster nth-root/limsup limit and does not discharge C108. W23S028 provides high-dimensional spread-out two-point/diagram methods only under model-specific d>d_c and large-L assumptions; it does not treat the two-dimensional quenched rooted SAW problem. Its artifact/date boundary remains unresolved. W23S026 is deterministic nearest-neighbour Z^d and supplies no percolation-environment argument; W23S027 concerns specified group graphs and supplies no random-cluster full-limit argument. C108 full nth-root existence/root independence remains unproved by these sources.",
+    "auxiliary_source_local_ids": [
+      "W23S011",
+      "W23S012",
+      "W23S013",
+      "W23S017",
+      "W23S018",
+      "W23S019",
+      "W23S025",
+      "W23S028"
+    ],
+    "auxiliary_source_boundaries": [
+      {
+        "source_local_id": "W23S025",
+        "pool_id": "SAW-P55",
+        "same_work_D01_alias": "SAW-P43",
+        "method": "Finite-hypercube generating-function, Tauberian, and lace-expansion estimates in the proved n≤V^p window for fixed p<1/2, with lambda-dependent finite-volume susceptibility.",
+        "limit": "No random environment or infinite-volume percolation-cluster limit. At lambda*sqrt(V)=1 the defining susceptibility equation has z_N=0; a finite reciprocal requires strict >1 or an explicit infinity convention. Critical p=1/2/dense behavior is conjectural."
+      },
+      {
+        "source_local_id": "W23S028",
+        "pool_id": "SAW-P54",
+        "same_work_D01_alias": "SAW-P39",
+        "method": "High-dimensional spread-out lace-expansion/critical two-point method under exact model/kernel and diagram hypotheses; corrected amplitude has factor d.",
+        "limit": "Not the 2D supercritical percolation cluster quenched SAW model. Only current official-v1 PDF bytes authenticated; no historical/journal equivalence or C108 limit follows."
+      }
+    ]
+  }
+]

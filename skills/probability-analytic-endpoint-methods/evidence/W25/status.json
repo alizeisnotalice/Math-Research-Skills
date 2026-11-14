@@ -1,0 +1,34 @@
+{
+  "tool": "probability-analytic-endpoint-methods",
+  "candidate": "revisions/W25-final-v1",
+  "as_of": "2026-11-14 Asia/Shanghai",
+  "source_count": 30,
+  "distinct_works": 30,
+  "physical_pages_read": 686,
+  "fulltext_read_sources": 30,
+  "all_sources_kind": "paper",
+  "mother_binding": "R01 approved",
+  "quota_gate_passed": true,
+  "final_scope_review": "pending",
+  "release_approved": false,
+  "published": false,
+  "same_work_supplements": {
+    "AEP-020_official_corrigendum_physical_pages": 2,
+    "additional_source_count": 0
+  },
+  "nonquota_background_reads": [
+    "AEP-EXT-007",
+    "AEP-EXT-012",
+    "AEP-EXT-013"
+  ],
+  "metadata_only_or_not_acquired_candidates": 26,
+  "excluded_later_source": "W25-L15-B13",
+  "problem_limits": {
+    "C207": "Only auxiliary endpoint/method calibration; scalar strong/weak estimates and vector weak-(1,1) upper bounds do not identify its sharp vector strong-Lp best constant for 1<p<infinity.",
+    "C208": "Isolated dossier; no formal mapping, no resolution, no dimension-free scalar weak-(1,1) claim."
+  },
+  "source_proof_limits": "R01 mother30 approves source identity, full-text evidence, card/coverage binding and quota inclusion. Source-specific proof gaps, corrections, assumptions and independent derivations remain as recorded in cards.",
+  "next_action": "Independent R01 final-scope review of runtime SKILL, methods/source guide, examples, portable paths and final candidate hashes.",
+  "existing_math_validation_rerun": "evidence/runtime_assets/57e8bb13b4589b91-existing_math_validation_rerun.json",
+  "relocation_check": "evidence/runtime_assets/e4f0d6a030f52eee-relocation_check.json"
+}

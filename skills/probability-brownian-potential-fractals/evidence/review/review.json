@@ -1,0 +1,3503 @@
+{
+  "reviewer": "R05",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "workers": [
+    "W08",
+    "W09",
+    "W10"
+  ],
+  "source_decisions": [
+    {
+      "worker": "W08",
+      "local_id": "M0171",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title;2 Def3/Theorem;3–6 nested construction (previous complete read)",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "fb26f839a770d659d5417aec1942503b5bbba1760a6284e1e0e8e85c5927584b",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "f201adf3399b2ca4c3a7d62bc8fbd38880057437d4e8e0001b3d4496aef0a0b6"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0172",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF2 Thm1.1 q(n) comparability;7–18 dimension/non-disconnection proof",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "f57dea508d5181caa7da2c5f9f30c34ff23a3a067750fdaffe1222567decfe6d",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "5f9aeb0f34a3c90ae754180a5d245b665cadf3063fbef4a4b7c46a4d3af68b65"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0173",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0174",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0175",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXivv2;2 Thm1.1;3–4 exponent formula;10–11 SLE6 discussion",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "314e642173e77593e329dff4b3af522434fd7bd29998abcf3c04a27b20dbad71",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "a2651f4bf54a96d60f2c23e0508e74d17f6f0865c1e974a472a04ef321d8b780"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0176",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0177",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF29–30 Theorem7.3 variable kappa, alpha and lambda construction; kappa0 singular endpoint"
+      ],
+      "reason": "Accepted complete reader evidence with original identity, retained theorem/key-proof checks and coverage spotchecks. Final targeted revision checked: finite construction 0<kappa<=8/3; original formal zero endpoint distinguished.",
+      "flags": [],
+      "reviewer_sha256": "54dbe827b62f581db81e7420cb527e176c94303af913c15d607ab03fe702442d",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "6517da6bd89706cd9f1130c3e11d77f6b0031e80661ef0c58ac118acafae4bf4"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0178",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0179",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXivv3/journal;2 dimension theorem;4 Prop1;10–11 second-moment setup;21 main estimate(3.5)",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Accepted complete reader evidence with original identity, retained theorem/key-proof checks and coverage spotchecks. Final targeted revision checked: coverage second-moment label corrected to sections3–5 including references.",
+      "flags": [],
+      "reviewer_sha256": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "49b81ce5b225697e5865118740ee57f015fc5478a88860d5dd753ee396ef2610"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0180",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0181",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0182",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0183",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0184",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0185",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0186",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0187",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0188",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0189",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0190",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0191",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0192",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF2 Theorems2.1–2.3 and Cor2.1; PDF3 proof outline",
+        "PDF5–13 h-process lemmas; PDF13–17 Thm2.1 construction; PDF17–22 scaling/annular reversal"
+      ],
+      "reason": "Full reader section evidence accepted with continuous original PDF coverage, independent retained theorem/key-proof checks and coverage spotchecks. Identity checked against actual PDF; publication metadata not separately audited. Local original is a complete 23-page author manuscript, not journal pagination.",
+      "flags": [],
+      "reviewer_sha256": "b5a56fb09e62a134bce5c1e3e5d654de55cf59a07f08e8b439e408c604995eee",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "bae192f2b64b9366411d068e6bee51cc96309e4865e5f39aa5d75952e79df495"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0193",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF2 Theorems1.1–1.2 packet setup and radius/time exponents",
+        "PDF7–13 exponent bracketing, separation/Harnack/invariance; PDF13–18 reverse comparison and references"
+      ],
+      "reason": "Full reader section evidence accepted with continuous original PDF coverage, independent retained theorem/key-proof checks and coverage spotchecks. Identity checked against actual PDF; publication metadata not separately audited.",
+      "flags": [],
+      "reviewer_sha256": "43233829fd61c948b480c2bf6ac32cb8749770ad74ce303fbcdebd1e38087c8e",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "186957805393eef699310e78976dc77240768ceac258ba47d573534fda384572"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0194",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0195",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 identity;3 Thm1.1;4 Cor1.2/sharp estimates;6–7 Lemma2.3 and measure",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "c23e1fbb0af2c968e8d6ee45acc75abf5801991aab6ed8fef35798a8e7eab583",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "32b668403ffc13c4987f04fa8b40cc00c4c59cc86f3503bec1440c86b919fbf1"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0196",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF2 Propositions1–2",
+        "PDF3–6 disconnection bound; PDF8–9 §3.3 cone event probability lower bound/exponent upper bound; PDF13–20 complementary extremal-distance bounds"
+      ],
+      "reason": "Accepted complete reader evidence with original identity, retained theorem/key-proof checks and coverage spotchecks. Final targeted revision checked: cone probability lower bound gives exponent upper bound; complementary probability upper bound gives exponent lower bound.",
+      "flags": [],
+      "reviewer_sha256": "f1240f6b31a20cf9dd3a2b37c36336309e048cf198d3874bb51b875f27e6a8fe",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "2234acebbf83ba8c2b659c5f7914116f9b1cd9d286045afd9021df14bf496f49"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0197",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0198",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0199",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0200",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0201",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 identity journal volume2 pp291–328; PDF9 Lemma2",
+        "PDF16 Lemma4; PDF17–18 Theorems6–7, visual p18; PDF27 Theorem12 visual; PDF27–37 heuristic §5 boundary"
+      ],
+      "reason": "Full reader section evidence accepted with continuous original PDF coverage, independent retained theorem/key-proof checks and coverage spotchecks. Identity checked against actual PDF; publication metadata not separately audited.",
+      "flags": [],
+      "reviewer_sha256": "7d869add16229e3968f1bd306e948ea47e5d6d9eca966527dc5895f65b490cb0",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "459ff495a8a3de21e5180278ad71f32721cefa610ee2c78d58d5517a1ff0ade1"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0202",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0203",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0204",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXivv2;4–5 Thm1.1;26 Thm3.1;39 crossing-exponent application",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "2cd15441a5dfa07f005a5c6d213030989e69e61b5bcd8b414c6608e17f94e1ac",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "0bb97f39efac06aae8be93979893ddf5cf37e506cfddf8b34234095af1732123"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0205",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXivv3;4 Thm1.2 lambda>=2;5 Thm1.4 citing companion;17–18 Thm4.1 local radial/chordalSLE6;31–34 universality",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed. Direct lambda>=2 exponent result accepted. Corollary frontier/pioneer route remains conditional on cited unread analyticity source M0206; approval does not fill that dependency.",
+      "flags": [
+        "M0206_missing_proof_interface_not_approved"
+      ],
+      "reviewer_sha256": "059b0dd5507556b87ced0951c121557cf99a7a99a03e5d6a27795e1d27f087c5",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "32c9c69af3ecc051b932777ec66e0314d886578719f8c524888b3365a1e1aa67"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0206",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXiv math/0005295v1 31May2000 identity; PDF1–3 xi=-2log/time normalization, Theorem1.1 and Cor1.2–1.3",
+        "PDF6–7 Proposition2.1/Kato reduction; PDF10 Lemma4.2; PDF15 operator series; PDF16 Proposition5.1; PDF21–22 spectral decomposition"
+      ],
+      "reason": "Accepted complete reader evidence with original identity, retained theorem/key-proof checks and coverage spotchecks. Final targeted revision checked: M0205 Theorem1.4 physical5 locator and xi=2zeta interface.",
+      "flags": [],
+      "reviewer_sha256": "66c4b13bab4ecea29cf52615dbe0458a700c9f5ac44eb95e1e2bc919290c8e85",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "ce2a055ad59153754c6ad1ef11775c4b3246a0387f8bc46662c0fc4bc105f48e"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0207",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF2 retained segments T0 to Tr; PDF3 Theorem1.1 uniform lambda and Cor1.2; PDF19–22 motion conversion"
+      ],
+      "reason": "Full reader section evidence accepted with continuous original PDF coverage, independent retained theorem/key-proof checks and coverage spotchecks. Identity checked against actual PDF; publication metadata not separately audited.",
+      "flags": [],
+      "reviewer_sha256": "197fd197c6d00a8e052da173121d4bd4a4dedf72fb0c202ffe60d58c437f83a0",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "b73359c632a811b5f40a6473b1117f051b09a3337debd4b9b148f211e09afa5e"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0208",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF2–3 half-plane tilde xi threshold and plane xi distinction"
+      ],
+      "reason": "Full reader section evidence accepted with continuous original PDF coverage, independent retained theorem/key-proof checks and coverage spotchecks. Identity checked against actual PDF; publication metadata not separately audited.",
+      "flags": [],
+      "reviewer_sha256": "c941c48b5ecc98b8d1946ad55bfc87ef56ab16f9c6ec3bc57bab9f9de20a9611",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "939e81711e4917b1dc8317217f48a984e9f4c97777ad8f802f7a06b8a845dd78"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0209",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0210",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0211",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0212",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0213",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0214",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0215",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0216",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0217",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0218",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0219",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0220",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0221",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0222",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0223",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0224",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "413-page full-book title/extent",
+        "Chapter4 complete106–127;Chapter8 complete234–264;Chapter9 complete265–299;Appendix11 complete337–355",
+        "PDF115/119/120/123 dimension/energy/capacity proofs",
+        "PDF235/238/245–248 Dirichlet/last exit/Martin kernel and1/2 constant",
+        "PDF258–259 Wiener annuli proof;271 Thm9.8;289 Thm9.28;348 local radial/chordal bridge"
+      ],
+      "reason": "Corrected final notes pages127/264 and explicit complete read_units verified. Key selected-unit claims and proof mechanisms checked in original; accept complete selected chapters, not full-book reading. Appendix remains overview/partial proofs and does not complete whole-curve radial/chordal interface.",
+      "flags": [
+        "overview_not_complete_SLE_bridge_proof"
+      ],
+      "full_book_acquired": true,
+      "reviewer_sha256": "e850e30e824d33494e40c63faba0e23e364c8ccd80f58cee0d85732277071681",
+      "hash_matches_worker": true,
+      "accepted_reading_scope": "selected_chapters_read"
+    },
+    {
+      "worker": "W08",
+      "local_id": "M0225",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1–2 Thm1/1-prime gauge;13–21 surgery;21–22 Lemma2.2 no localdoublecut",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "7455ec6265b6f9e8b898c8268f8b8e7b1f5adc6d6ddb6a6d5e3911bfa84283ea",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "74e52a82d53b76c41815eedda0ee6e5491a1c99118890fcb4a1063e9603dc44d"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXivv1;4–7 domain/geometric setup;17–18 Thm3.1 invariant mirror set;26–31 spectral argument/extension",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "b364bdd3c41b1ef28f4ff704f6704316e886d7c1494524b500e8339bb2f3db22",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "9b01d498b7965e0266e337c1ff3d0615e33186dbcbbd977d128055c66d648acc"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 C4/normal-fiber/curvature assumptions;2–3 Thm1.1/1.2;41–42 Revuz normalization;60–61 rate proof decomposition",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "c42eed7b83ef3d7c364b891ad76bf81f55051911e09853e091d0b31800a5828e",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "24dceda28710fcd1c4569feaf2dc7baceb921835f64eb50b586843c798407f03"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 author copy2005;21 Example3.1/source convention;27–28 Lemma3.5/Def3.6/Thm3.7;31–42 mirror inefficiency",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "12380a4a56f086a0b77e92ebd84455b77c85dd3af75b75567c57d39c57b84ccb",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "50e58dc34f83e7d36a214df4758f2f05839bb1fbb23590bd58c6b16893d12bd4"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF2–4 Thm1.1/1.2 uniform local quantifiers;24 Lemma6.1 Brownian tile verification;29–30 flatness assertion proof omitted;33–35 blank excluded",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed. Blank tail33–35 excluded from mathematical coverage without treating it as missing substantive sections.",
+      "flags": [
+        "blank_tail33_35_excluded"
+      ],
+      "reviewer_sha256": "814295f91479e910c4fdb25803dfe47b9d5a1ecb937e131e57bacebfbe41ad71",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "6b42d1d2373e4628205921f436ed5d309951be41d9a2aba08acf419e810a5365"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXivv4;20 Thm5.1;23 Thm6.1;29 Thm6.4;35–37 dimension/delta definition;42 Cor8.7",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "626145a0cf5dc552dd9059850a9334272dc7ee3e9c1b318b190e524d407de882"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1–3 Def/Thm2.1 proper D and harmonic prime-end;4–8 martingale commutation/exhaustion;9 uniqueness limitation",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "b79363ec0b16201d6c3002751a610e8655727ab180a51c099a30a248adc6ea47",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "d0d872b1f7092015504839fba5ee1b6c26837b2900dbd07e3399a7912255590c"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF§2(i)(ii) default Markov class; Theorem4.3 geometry and class"
+      ],
+      "reason": "Full reader section evidence accepted with continuous original PDF coverage, independent retained theorem/key-proof checks and coverage spotchecks. Identity checked against actual PDF; publication metadata not separately audited.",
+      "flags": [],
+      "reviewer_sha256": "67f00f8a2c6ba0af54458a0adc1761aec3ebb157c809c93d348a8789a70d17e1",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "3d4771fe8d27f58363830de90e58d4a25f5f3734a060d41800af891e3d2f3d44"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF3 SDE(3), sigma inverse driving reflection; PDF6 R1 quantifier; Remark3 G=Id/diameter fallback"
+      ],
+      "reason": "Full reader section evidence accepted with continuous original PDF coverage, independent retained theorem/key-proof checks and coverage spotchecks. Identity checked against actual PDF; publication metadata not separately audited.",
+      "flags": [],
+      "reviewer_sha256": "93263a5a09dcf2409f2483c6196042296c2c14fd47d8643ba5e35209ef7be634",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "6f74b271fcbace7a21c2ef43bae90ba6e970fc0ca91b634dd7f0b3207176d702"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF6 and8 visually rendered Thm7/8 and pseudoinverse/convex-boundary argument; physical garbled text not accepted alone",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed. Reader records complete visual read; reviewer rendered physical6/8 confirms key statements/proof. Text extraction itself was not used to certify these statements.",
+      "flags": [
+        "garbled_extraction_visual_original_check"
+      ],
+      "reviewer_sha256": "8e8ce284efa1542db9be62047ed73d6842e5049abe57cff14eac05975e3df28d",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "5856bbfa8611f5b49b5393633da0fc4f3e8674304489df9b553b037d45a9cc7c"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title/authors;2–3 Thm1.1;13–19 weak synchronous construction;27–31 lip/polygon argument",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "1ca885d3d928a3a5e934ddbd03532e7dd48dce7707c0eb97157a2f675fd4b966",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "830fb2263fe553c7b0ada4ede743112a8d2ab087839fb12911a602e994525d2b"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title;1–2 PDE convention;4 Thm2.1;6–13 coupling techniques",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "279a5ac504f45622b8500bdac161671ae1369f5026a95a5c617615fa6bcf5796",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "4eb00dcddc0d18e382cbdd8a9cec9e29a166f425ddfe6b873a406e1d52ccd98a"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title/arXivv3;7 proper domain Thm1.1;8 Cor1.2;10 Thm1.3;27/31 driving/path convergence;54 RW estimates",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "58038a74579c28d16e2d5265b2a0881b88f91c3dbdf27ad0ab0f1e802a71f7a4",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "28f3f3372b3aa91d62e5d7c3c63f19872e8eec5a2088f1f17aa1f0f63bd46dd9"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R014",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 journal/arXivv3;9–10 Thm3.1/3.2;19–21 Thm4.2 target cases;42 Thm6.1/6.2;43 curve stability",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "bfb386fc4a8b4f9b17e7b01eb6c8c2a819ed62998a4aa30e4dc65f94c633e5a8",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "e751248deeafbba943d97942da8cccea34e259fa77a5c991b0d087d6b7db02dd"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R015",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 identity;4–5 Thm1/2 CAT0/simpleconnectivity and coadapted class;27–28 Prop17;36–37 Prop20 conditional uniformity",
+        "reading_coverage.json full range/section summary inspected; w08_coverage_spotchecks.json"
+      ],
+      "reason": "Retained mathematics, key proof interfaces, physical version and reader coverage accepted under light-review protocol; set/quantifier/coupling limits preserved. No full-reviewer-reread requirement imposed.",
+      "flags": [],
+      "reviewer_sha256": "3b40baa61eb82ee9ec51834d4a7d20e57b731f2a36700b3a8dd4050429702b2f",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "85d0d42f05868106536602f622203c1db60ef214c13d94fcf3093e7163c6aa38"
+    },
+    {
+      "worker": "W08",
+      "local_id": "W08-R016",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/arXiv1209.0693v1; p.2 Thm1.1; pp.3–4 Thm2.2/Cor2.3",
+        "reading_coverage.json M0001 all 10 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "222b5395164154ca4ede6579e6c3e67db2f934e86251ab4022fb817cc911f98b",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Require admissible fixed S and n>max S, and explicitly exclude endpoint peaks. Card incorrectly describes proof as splitting at maximum label: actual proof partitions at index max(S)-1, counts Pi and subtracts two peak-set classes.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "818a5863876bb789b3b92e1222d2f190b6c9f376eaf4a100a07b841591c6b060",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 identity/degree>=2; p.4 Def2.5/Thm2.6; pp.5–6 induction lemmas",
+        "reading_coverage.json M0002 all 8 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "99b293f4ea4b56ba0c067f47a65a48d0895505aa1c52e75264621e22b2a43932",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Core graph predicate agrees for free square n>=2. State exact generalized output P(S,G,L), required V_<2 subset L and initial L=V_<2 for exact prescribed peak set; recursive degrees change, so omitting L loses essential algorithm state.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "7eacbeab3021a05be8f22d87f3b6e3acd0b94cf437d6e96ffbad8e3c2e6976ab",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 identity; p.11 Thm3.3; p.19 Thm4.6",
+        "reading_coverage.json M0003 all 13 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "1eb943f6a5369ad3d2619f58b313549572da3333a119bf5007073f19dcbe910c",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Fixed graph subdivision limit correctly separated. Add precise exp(-n epsilon+2 log^2 n) estimate and definitions beta*,f_L, metric topology; generic entropy slogan and whole-span locator insufficient for full proof evidence.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "886fa88b6fd92c3a29f05c2284a066e182418f63464363142499ae4ac8b90aac",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 identity; p.6 Thm4.2 visually rendered; p.17 Thm7.2",
+        "reading_coverage.json M0004 all 9 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "0c18403431de50d53950c8797f008fd76b5e74f1fb2c613555fc66e338fb606d",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Card mistranscribes boundary threshold as n^2-f(n); original is n^(2-f(n)). Tree theorem requires d>=10 in part(a), d>=3 in other parts and k,m restrictions; give exact selected statement. Free-square one-peak vs tree two-peak separation is sound.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "3b4936e62ed7549ced77ef6f0d99addfd7c063b80a843c7b31c925d990691912",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 journal/title; p.7 Thm4.1/Cor4.2; pp.9–10 triangulation",
+        "reading_coverage.json M0006 all 7 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "5e5bc631f9f36377f80c6f39d3ff19660f3d21ed16aff655960141fde9a61f28",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Volume statement correct; Cor4.2 follows via Ehrhart leading coefficients and transfer map, while simplex triangulation is later pp.9–10. Separate original proof route and alternative proof and give exact locations.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "04163cd320c545de6a2b044726fbc7f84e34c44c528d591731b46ef8821f292c",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "10-page scan; p.1 visually inspected printed225 title/authors/year; p.2 visually inspected printed226–227 introduction",
+        "reading_coverage.json M0007 all 6 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit",
+        "scan physical4/5 visually inspected, printed230–233, Theorems3–5"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "0555b28282bd2d6c14dbefee4db795fa933d4074feb527a9e000fcce6a4fb645",
+      "hash_matches_worker": true,
+      "prior_review_reason": "No extractable text; inspected scan confirms approximation is prior Dyer et al./Karzanov-Khachiyan work contrasted with this paper hardness proof. Card falsely attributes FPRAS/rapid mixing to its Thm2 and full-read evidence absent; require complete scan/OCR or page-by-page visual reading and exact actual theorem locators.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "cead8f14aa4f4f1cf34e2dba01048774a4837a40f75f79fcd8ba4b7db62ffc59",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0008",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors/date; p.5 Thm1; p.6 map independence discussion",
+        "reading_coverage.json M0009 all 7 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "29e8ed8f7cd07a74b9d87d4338bad28f1caecd7ac17d86bf2ef4c51d0ba5665d",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Ergodicity plus arbitrary shared random-map coupling does not guarantee coalescence (random permutation maps can never coalesce). Original proof uses mapping construction with positive constant-map composition chance. State this coupling assumption and reuse past maps; do not assert termination for every coupling of an ergodic chain.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "c04e5be26f4639751f074393a72c48f9d9de0cd4e085e8cbaeae36ee60f38714",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "9-page textless scan; p.1 visually inspected title/authors",
+        "reading_coverage.json M0010 all 11 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "90ef44bf9059c6b053cc463d74665ef920312d8ac6d21f57c603cca139d7f0ef",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Main theorem not visually checked; span-only card and Hamming specialization do not substantiate full scan read. Supply actual theorem number/page and full scan reading evidence before acceptance.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "b7eca72872aabe46daba1dbf7e0b6a45cfb0efd666e8c911a5012443112710a3",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 journal/title; pp.2–4 chain/potential; p.7 Thm1",
+        "reading_coverage.json M0011 all 7 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "31159ff97949b13c8a0e5131b6c8e89abb6fafde835e4553311562d1f62f6164",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Card Thm1 locator wrong: actual Thm1 is transposition-geodesic decomposition. Mixing derived earlier; distinguish weighted adjacent-position proposal f(i) from uniform adjacent-swap chain, give actual derivation page and constants.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "b4db0a0e7b30b47467ed283f28ac1d43d81cdd6980abace33355ab9b315ef60e",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 publication/title; p.4 Thm3; p.6 Thm5; pp.7–8 Thm8",
+        "reading_coverage.json M0012 all 6 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "165c818167122ec947eb618a2a68e4e186905a9a1c698cfd9e2311941315378d",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Thm8 is general non-Markovian CFTP exactness/termination conditional on positive coalescence; not runtime theorem. Give Thm5/expected-time derivation and operation model separately.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "61bba10592595c1ebc2f043511d6a377f79ee70d7164c44c32a38c7c9e01196f",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors; p.5 Lemma1,Cor2,Lemma3; p.7 Thm5",
+        "reading_coverage.json M0013 all 17 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "2173fcd10d99c269eec4d28d2089887452eb972456c52a1b961a2bf186194029",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Card Theorems1–5 wrong: actual labels include Lemma1,Cor2,Lemma3,Thm5. Core equivariance/pruning conditions agree; give exact R1–R3 and pruning hypotheses and avoid nonexistent theorem references.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "79610f5f80ddf49ff137373fc1194f09a62ef3028892ba157664df749f8d2678",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0014",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title; p.7 Lemma2.8; contents p.3 proof section2.8",
+        "reading_coverage.json M0014 all 32 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit",
+        "Current card Lemma2.9 physical8/printed6; original physical8",
+        "Previous physical7 Lemma2.8 and physical10 proof retained"
+      ],
+      "reason": "Final concrete revision verified against original: physical/printed page distinction fixed.",
+      "flags": [],
+      "reviewer_sha256": "e4bb6110ed418b92eb4bf6fb99b3021677d83219dace3cfd847534d7b5404919",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Shearer inequality correct but it is Lemma2.8, not Theorem2.8. Give PDF/printed page separately and exact proof locations rather than whole-paper span.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "05b1b9c1ccd831327e55d2a935afd81337e03085b5b91627e3dd3589ce713265",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0015",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0016",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/abstract success3/4; p.5 THEOREM1",
+        "reading_coverage.json M0016 all 6 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "c67dc011b787b4e15fc6fe3545a4ef52e14ff1486fd3421cbb99cac072882952",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Card Theorem1 incorrectly called volume approximation theorem: actual Thm1 is technical grid-walk transition mixing bound. Volume guarantee appears abstract/algorithm analysis; correct theorem attribution and preserve well-guaranteed oracle bit/rounding model.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "0ebf36a8070beddd5633952d9e9694c9362c34d45a1041b0c2498fde57ba944a",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0017",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF pp.1–5 complete; p.3 Prop3.1; p.4 Thm3.2/Cor4.1",
+        "reading_coverage.json M0017 all 5 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "76eaefdb115b44cf30fe9ff1ea7fd4f77bb331aedc7cca860d7b3d6b106e15fb",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "f7fcb8f02551ea387f565e7d4923b0b27a1eef72192e30e0c50f74aa6290b599",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0018",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 identity; pp.19–20 Prop3.8; p.22 Thm4.1; p.28 Prop4.8; pp.30–31 Thm4.9",
+        "reading_coverage.json M0018 all 9 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "25865026dbea485514ab24bf3a9f71b19198d89ca912d1cf9310ff010e5431a8",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Cycle/stationary meteor boundary correct. Card must state Thm4.9 fixed crater count n>=2, k→infinity, any r>2 and probability target p<1; generic repulsion and span not quantitative proof evidence.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "a95107837ca14003810782fcc6e7e0dcd522efca9149118e46e0c27b0d815ecf",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0019",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 arXiv1402.5024v2 and Thm3; p.2 Cor4; p.3 Thm8",
+        "reading_coverage.json M0019 all 13 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "b88be4c14d966e245ac1f6935c1edb8694d6b006732270c77e1137aa5e897118",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Width-two entropy inequality agrees. Add exact epsilon and base2 conventions; actual manuscript dated2014 vs publication2015 needs version field; proof synopsis alone does not certify all18 pages.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "637a9eff187dd9df55214f2b68ddc349fc7df5d43b14d2a4a46cc25bb26d0c35",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0020",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors; p.6 Prop1/Thm3; p.9 Thm4",
+        "reading_coverage.json M0020 all 9 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit",
+        "reading_coverage.json four separate appendix units A/B/C/D; original physical13,14,16,18–19",
+        "All physical pages13–19 covered; A proof continues onto14 (minor unit-end correction needed)"
+      ],
+      "reason": "Final concrete revision verified against original: four appendix mechanisms now independently recorded; whole-page coverage continuous and proofs used by card checked. Appendix A endpoint should include physical14 continuation, an overlapping locator correction, not evidence of unread material.",
+      "flags": [],
+      "reviewer_sha256": "9cf72b454a48375aaacc118bda62543350af7875113496b3fc474d3869aa3498",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Main distinction sound: representatives, not arbitrary topological sorts, are uniform. Record Thm4 worst-case Theta(n^2) memory-write model and exact sampling conditions; whole-span references inadequate for complete19-page evidence.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "9514ebe285cdb3080bed5236a9e49a635b1156df5ed53cd86476d8e90a730683",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0021",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 arXiv1902.01704v2; pp.5–6 Thm4.1; pp.6–8 Thm4.2/4.3",
+        "reading_coverage.json M0021 all 10 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "7770eea888b101dc0bf21a6446ec114063590487b0c0e1e16062e94a51385558",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Thm4.1 is relative variance formula, not unbiasedness theorem. Unbiasedness follows SIS inverse path probability in setup/proof; correct attribution and retain positive proposal support and orientation convention.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "b1f0bca80cba996db60dc87dc628f6a1dc7ccdae5b8189068e3b7c617edcda08",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0022",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0023",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0024",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0025",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0026",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "725-page full local book; PDF pp.277–278 chapter3 start; p.298 recurrence; p.299 section3.6 begins"
+      ],
+      "reason": "Complete book and cited uses verified. Registry still labels partial_read and supplies no read_units: accept the explicitly read facts as partial use, not complete selected-unit quota. To claim complete numbered units, populate exact read_units and selected_sections_read after confirming each entire unit/proof dependency.",
+      "flags": [
+        "not_full_chapter_or_fulltext_quota"
+      ],
+      "reviewer_sha256": "f669d7b0d78730b7c812794a437fb6a78e0c182c10dfd520bc26d627cf45a1d5",
+      "hash_matches_worker": true,
+      "full_book_acquired": true,
+      "prior_review_reason": "Full book obtained, but §§3.1–3.5 are only initial sections of Ch3, not a complete selected chapter. Under WORK_PROTOCOL complete relevant chapter requirement downgrade selected_chapters_read to partial_read or finish full chapter; exact J(P) recurrence agrees.",
+      "revision_checked": "2026-11-14",
+      "accepted_reading_scope": "partial_read_uses_only",
+      "accepted_complete_reading_unit_count": 0,
+      "reviewed_card_sha256": "2d089310a856c9440bb98b3ac8d6253eef13721c9c237995d74cc58ef84921d3",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0027",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "461-page full local book; PDF pp.217–220 printed201–204 Thm14.6/Cor14.7; pp.364–366 printed348–350; p.371 printed355"
+      ],
+      "reason": "Complete book and cited uses verified. Registry still labels partial_read and supplies no read_units: accept the explicitly read facts as partial use, not complete selected-unit quota. To claim complete numbered units, populate exact read_units and selected_sections_read after confirming each entire unit/proof dependency.",
+      "flags": [
+        "not_full_chapter_or_fulltext_quota"
+      ],
+      "reviewer_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "hash_matches_worker": true,
+      "full_book_acquired": true,
+      "prior_review_reason": "Full book obtained, but sparse sections do not constitute complete selected chapters. Card also calls §25.3 printed348–355: p348 starts25.1, p349 starts25.2, p355 starts25.4. Correct chapter/section ranges and downgrade until complete chapters read.",
+      "revision_checked": "2026-11-14",
+      "accepted_reading_scope": "partial_read_uses_only",
+      "accepted_complete_reading_unit_count": 0,
+      "reviewed_card_sha256": "845d337c7b73a1184e6f7efab9e482fe71cd585ad9024c3ca917e590968dc6c3",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0028",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0029",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X001",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors and upset-DP bound",
+        "reading_coverage.json W09-X002 all 11 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "ffab7150f8d6e5b3bf27ef1ca109887c67e5e74db8908c91218f02205128b7ed",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Fixed-poset bounds agree; state precise theorem/algorithm page for cover-treewidth n^(t+4), dependence on supplied decomposition and width. Full seven-page reading not independently established by terse card.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "5033625c6dec176660867e8f0b5d900b023422ca14b7799dc5d75af700cbb3f9",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0030",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0031",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0032",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "M0033",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 arXiv1802.06312v1 Thm1.1/1.2; p.2 dimension-two statement",
+        "reading_coverage.json W09-X003 all 18 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "b625f3af81de60aaf4a4532f369d255d56649d29f02f6432698881c72c291e3a",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Restricted hardness claims agree; modular oracle reductions must not be called parsimonious without qualification. Add exact respective proof pages and quantitative residue-recovery mechanism.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "fec2fae7fe4baccec244d1e50a040e7840f8c2b1bb6d65b372331af0bcf9c4b0",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 journal/title; p.7 Thm1; p.17 Thm2",
+        "reading_coverage.json W09-X004 all 14 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "4576c62fc80b4819b35f5a415945d90eb58211f7ab75906c3a524a023ed26127",
+      "hash_matches_worker": true,
+      "prior_review_reason": "High-severity complexity error: Thm1 says no FPT for cover-treewidth unless W[1]=FPT; it does not prove #P-hardness on bounded cover-treewidth. Such bounded-width polynomial XP algorithm already exists. Fix statement and reduction scope.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "6f306ffc9aade60670617b084103a9d5c812269de224ca104132de09cf0f3503",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors; p.3 algorithm comparison table; p.7 Thm2",
+        "reading_coverage.json W09-X005 all 15 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "95fa173e00c8301cbe91d5240e17efe916c8a44b6de4bbb4d1ac65a1199f76dd",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Comparison and global running-time measures must be distinct: algorithm3 gives <=15.09 log e(P) comparisons and O(n^2.5) runtime; algorithm2 <=(1+epsilon)log e(P)+O_epsilon(n). Add locators and exact statements rather than vague overhead.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "9dfec7a68b20583c780f059babebb04efbbcabb9affc77312ad52e5d28e521a3",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors; p.3 Thm1.4; p.4 examples",
+        "PDF p6 Definition3.2 H_epsilon",
+        "PDF p11 Claim4.14 and mixture proof",
+        "20261114_math_checks.json SymPy pair-bias/reparameterization",
+        "reading_coverage.json W09-X006 all 13 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper. Printed Claim4.14 proof-supported coefficient1−2epsilon is recorded as such; stronger coefficient is not treated as proved or disproved.",
+      "flags": [],
+      "reviewer_sha256": "33d8f46fa105e6ae19cab15232de9934d70ac908b41f0dc8397cb8072794aeff",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Card adds unsupported -O(n) to upper bound. Thm1.4 upper bound is (1-C epsilon^4)n log2 n; -O(n) belongs to lower-bound construction with (1-epsilon), and Sigma* notation must be defined. Fix both.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "396f870496ccce8fcedc6f466e8ff0fabf5ee30837913f96dc01c00bd1df6ae7",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors; p.4 Thm2 and perfect-sampling paragraph; p.5 Lemma1",
+        "reading_coverage.json W09-X007 all 15 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "ee5511cfb50b480392839b13ea406347e1db037a844d42cc07f38156b26eb435",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Card says approximate sample but source explicitly says exact uniform sample by monotone CFTP. Count estimate approximate; distinguish exact continuous auxiliary sample/induced LE and count approximation. Pop/unpop slogan does not describe continuous-relocation construction accurately.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "17c43ec840c0811d7dc2571286ab7522cf59771c38936f17fadf152e00d8e3e5",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title/authors/abstract; p.2 sections overview",
+        "reading_coverage.json W09-X008 all 6 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "17f7e72d0b346f1fc769c41e7fac3a898a16ab037fff7a00be8494863e60229c",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Card unsupported general-dimension-two polynomial mixing assertion: abstract proves width-two O(n^3 log n), conjectures general same rate, overview says empirical studies. State exact proved bound and locate proof; retain dimension vs width distinction. Garbled text not full-read evidence.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "2b364fc7a907b2f2a3662f5431aeef980267eee1b2ab2ad0d2a182eccd6a856f",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 arXiv1010.4981v2 identity; p.8 Thm1 bounding-state invariant",
+        "reading_coverage.json W09-X009 all 9 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "03dcce364c99c2f7d16ac2ff6d6199f5356588b6b9a61c0b459775264509da60",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Exact weighted sampling vs approximate count distinction plausible; Theorems1–4 cannot substitute for precise locators. Give exact count confidence/runtime formula, weighted target, coalescence theorem and full proof chain.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "60daf9c7bd88794c179c6e88def3a8193f8897746f8865ffbf61f6a866ce5322",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 arXiv2506.14725v1; p.2 Thm1; p.3 Lemma1",
+        "reading_coverage.json W09-X010 all 8 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit",
+        "Current fresh-fair-coin transition statement; original physical3 base update",
+        "Original physical6 deterministic left-to-right scan and fresh coin; physical4–6 bounding invariant;6–10 CFTP/tail"
+      ],
+      "reason": "Final concrete revision verified against original: fair-coin legality transition and deterministic scan separated correctly; invariant/exactness/runtime assumptions preserved.",
+      "flags": [],
+      "reviewer_sha256": "6446e4a2d98e6a6bf033b47007dc65fd3b0ba4cdfc5175c1a5085919b0c5e438",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Exact theorem constants agree with card. Need state n regime and primitive operation, expected not worst-case runtime, deterministic scan and coalescence proof locators; full16-page reading not independently supported by short generic paragraph.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "f9cee9f3340528dd0d0e9c3f0852316540c4181116e56eafa4140ca714d174ee",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 title; p.3 equation(5) ideal recurrence",
+        "reading_coverage.json W09-X011 all 9 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "f27046bc87b133fdea1e08bc1cc6af27d6f1bbaa01c31c5178f004577c81d045",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Exact lower-cover recurrence agrees. Cite lossless compression transitions precisely; narrative whole9-page claim does not verify compression proof or complexity. Do not imply implementation speed theorem.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "8367bc5b8f0be63a69db0cb2e47e644fbb2419abbfdc475a36e297fd9eb45105",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 arXiv2501.11073v5 date16Jun2026; p.7 Cor2.7; p.14 Thm4.2; p.18 Thm4.7",
+        "reading_coverage.json W09-X012 all 22 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "2e07c2da9beb7aad3ed9edbea716f1bc2cb976b34b1ac8834f8eb58c1cc987f1",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Scope of balanced-row limit agrees but actual statement fixes alpha=(1,a), beta=(2,1), not arbitrary pair; give limit (a+1)/2^a and fixed-a quantifier. Blocking expansion requires finite P and incomparable alpha,beta.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "b7cb74bb86e59b827d9d9846fcde4c8dca475291ea8d3947171f9bb558c55e56",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W09",
+      "local_id": "W09-X013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p.1 arXiv1311.1612v1; p.8 Prop3.2; p.10 Thm3.4",
+        "reading_coverage.json W09-X013 all 8 units; no uncovered physical pages",
+        "w09_coverage_spotchecks.json sampled final technical unit"
+      ],
+      "reason": "Current detailed card and continuous per-section coverage accepted under clarified light-review protocol. Retained theorem/assumption/proof-interface assertions checked at listed original locations; additional section spot-check saved. This accepts reader evidence, not a claim reviewer reread the whole paper.",
+      "flags": [],
+      "reviewer_sha256": "8b5a9564aba9f8905acc83f70f2db38b343f19553c32f01cba70a2483a75a372",
+      "hash_matches_worker": true,
+      "prior_review_reason": "Runtime formula agrees; Prop3.2 requires supplied linear extension L attaining minimum activity alpha(P)=alpha(L); authors do not know how to compute activity. Card omits crucial supplied-order hypothesis. Retain width/spread prerequisite.",
+      "revision_checked": "2026-11-14",
+      "reviewed_card_sha256": "510b3adbdeab17d35d02bd4e1d0fb0037ddda82733a871fb0247bae89f15dddc",
+      "current_version_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0112",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0113",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Reversed22-page author manuscript: physical22 title/authors/membership-query/parity model rendered",
+        "Physical6 printed17 Lemma5.1 leaf decomposition rendered;physical10 printed13 Lemma4.1/Thm4.2 spectral-L1 threshold rendered",
+        "Physical14 printed9 Lemma3.4 prefix-energy recursion rendered; card coverage maps all22 physical pages"
+      ],
+      "reason": "Source identity/version, continuous physical coverage and critical retained mathematics verified. Old explicit normalization/quantifier/locator fixes accepted; no claim of thirty-source completion.",
+      "flags": [
+        "reversed_page_order_visual_check"
+      ],
+      "reviewer_sha256": "38413e97bcb74ec2305f7afb2601515e074afcbb5ab20f65e0ebe74551f02920",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "d4703bc6ccef03358447a769819a8ffba43c25e60309fe1c37e8e3f9e136ee4d"
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0114",
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "13-page journal PDF physical1 title/authors/year",
+        "Physical3 Thm1.2;physical4 Thm1.3/Def1.4/Thm1.5 visually rendered",
+        "Physical5–7 Parseval/influence/zero-count proof;physical8–11 approximation proof scope"
+      ],
+      "reason": "Full reading evidence and identity accepted, but Thm1.5 inequalities reversed and exact-degree/approximate-degree roles swapped; physical4 visual original contradicts card. Thm1.3 also uses nonstrict <=, not strict<.",
+      "flags": [
+        "specific_math_error"
+      ],
+      "reviewer_sha256": "059743f397f0a148e9117ee2f7762bd9a73b80b023c033ffca1e5fae6c2f9abe",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "d3a6957dc7266d67ec0b3430dd1c9b38db777da377e682d4d07d4eb9e3db650b"
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0115",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0117",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0118",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Primary ToC landing and /articles/gs001/gs001.pdf attempted; timeouts recorded"
+      ],
+      "reason": "Current registry correctly not_read; correct local20-page deWolf source still unavailable. No acceptance, no completed-source count. Prior wrong booleansurvey artifact excluded.",
+      "flags": [
+        "specific_evidence_or_statement_fix"
+      ]
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0122",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0123",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0124",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0128",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0129",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0131",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Physical1 title/Annals DOI;3 corrected monotone-h/Gamma equivalence;4–5 signed-matrix/interlacing;6–7 conclusion/references",
+        "Current card physical coverage1–7 checked against prior complete read"
+      ],
+      "reason": "Source identity/version, continuous physical coverage and critical retained mathematics verified. Old explicit normalization/quantifier/locator fixes accepted; no claim of thirty-source completion.",
+      "flags": [],
+      "reviewer_sha256": "e681931d5dd46ed5637825770e18bc53c0f6fdd0a0dea4f6ecc541f8669937a9",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "3f7d38182f3dd2e0e53c97a547b63cbf68814533e2cdbac3eb382b96302bf771"
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0134",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0135",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0136",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0137",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0145",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0146",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0235",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0111",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0236",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "BGP2012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Physical1 arXivheader/date anomaly;4 Prop4 LP duality;5 Thm7 andrho_m(6);6 Thm10;7–8 Thm16/XOR choice",
+        "Physical13 Q4 versus formal A019;15–20 appendix coverage now explicit in card"
+      ],
+      "reason": "Source identity/version, continuous physical coverage and critical retained mathematics verified. Old explicit normalization/quantifier/locator fixes accepted; no claim of thirty-source completion.",
+      "flags": [],
+      "reviewer_sha256": "8cddcf831d7084645bae8bdb1dcf5aaab32c101f6883a1a5c9c343422f94897e",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "4e59f6cd20a1d439946f9605787faff89e40fa5e8e03060a383454ee0cf9e1f7"
+    },
+    {
+      "worker": "W10",
+      "local_id": "BKS1999",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "DKN-HS",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "DKN-PTF2",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "BEL-PTF",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "HKM-PTF",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "Talagrand1994",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "MZ-PTF",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "FKN2002",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "ODsurvey2008",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "rejected-artifact-M0118",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0110",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0116",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0119",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0120",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0121",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0125",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0126",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0127",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0130",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0132",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0133",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0138",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0139",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0140",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0141",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0142",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0143",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "M0144",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "KANE2011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Physical1 Theorem1 nested exponent and O(epsilon);8 explicit sufficient bound/Theorem13;9–10 general polynomial reduction",
+        "Current I–IX physical coverage table and proof chain checked against retained original extraction"
+      ],
+      "reason": "Source identity/version, continuous physical coverage and critical retained mathematics verified. Old explicit normalization/quantifier/locator fixes accepted; no claim of thirty-source completion.",
+      "flags": [],
+      "reviewer_sha256": "185a034b7cd99367f9d8c664676b14c207edfb12a8be196fe52b0186cab5a802",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "bdf0d1b408435fb2c66fd1a8ceb0c07443d0d8afe7370b55c239f0a1de29bab1"
+    },
+    {
+      "worker": "W10",
+      "local_id": "FRIEDGUT2004",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "KKL2014",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "CG2026",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Source not independently checked in this first bounded audit; no approval inferred from worker reading label.",
+      "flags": []
+    },
+    {
+      "worker": "W10",
+      "local_id": "FRIEDGUT2026",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Physical1 title/version;3 Thm1/Lemma1;3–5 grid/junta/mixture/random-coalition proof;5–6 references",
+        "Complete six-page proof previously inspected; new detailed card matches"
+      ],
+      "reason": "Source identity/version, continuous physical coverage and critical retained mathematics verified. Old explicit normalization/quantifier/locator fixes accepted; no claim of thirty-source completion.",
+      "flags": [],
+      "reviewer_sha256": "c6a89aa8da5fd27b63a72c9f08560fd48b9a50ad95081275c59f6a89dd46381a",
+      "hash_matches_worker": true,
+      "reviewed_card_sha256": "d2146ead0a2584e7bcee61df11f9ad09a3954bf68343d2c59dcf1ceecf004f1f"
+    }
+  ],
+  "skill_decisions": [
+    {
+      "skill": "probability-brownian-potential-fractals",
+      "decision": "passed",
+      "reason": "All retained mathematical assertions, key proof interfaces, positive/negative examples, complete mapping,30 full paper sources and M0224 complete selected chapters accepted. Final4 repairs and source-index separation verified. Unproved research interfaces remain explicit; no claimed solution to mapped open tasks.",
+      "file_hash_manifest": "reviews/R05/w08_final_version_hashes.json"
+    },
+    {
+      "skill": "probability-poset-counting-sampling",
+      "decision": "passed",
+      "reason": "Final three documentation changes actually read and verified: AppendixA13–14; entrypoint30 reviewed papers/book exclusion; source register30full/2partial books/9unread and30 passed. Mathematical method/examples and current mapping previously confirmed. Approval binds current files in w09_final_version_hashes.json only.",
+      "file_hash_manifest": "reviews/R05/w09_final_version_hashes.json"
+    },
+    {
+      "skill": "probability-boolean-fourier-invariance",
+      "decision": "needs_revision",
+      "reason": "Current method/positive-negative examples and nine mapping interfaces mathematically checked; old BKS positive-level,parity-rank1,stable-tool and source-condition fixes verified. New M0114 exact/approximate degree inequality error remains. Current six-fulltext batch is staging, not30-source completion or publication."
+    }
+  ],
+  "mapping_decisions": [
+    {
+      "problem_id": "A020",
+      "tool": "probability-brownian-potential-fractals",
+      "decision": "confirmed",
+      "reason": "Current complete mapping checked against retained source scope: exact coupling classes/geometry and sigma inverse/G=Id retained; M0206 analytic interface now audited. Jordan-arc infimum, residual topology and problem-specific spectral/synchronous conclusions remain explicitly unproved."
+    },
+    {
+      "problem_id": "B060",
+      "tool": "probability-brownian-potential-fractals",
+      "decision": "confirmed",
+      "reason": "Current complete mapping checked against retained source scope: exact coupling classes/geometry and sigma inverse/G=Id retained; M0206 analytic interface now audited. Jordan-arc infimum, residual topology and problem-specific spectral/synchronous conclusions remain explicitly unproved."
+    },
+    {
+      "problem_id": "B061",
+      "tool": "probability-brownian-potential-fractals",
+      "decision": "confirmed",
+      "reason": "Current complete mapping checked against retained source scope: exact coupling classes/geometry and sigma inverse/G=Id retained; M0206 analytic interface now audited. Jordan-arc infimum, residual topology and problem-specific spectral/synchronous conclusions remain explicitly unproved."
+    },
+    {
+      "problem_id": "B062",
+      "tool": "probability-brownian-potential-fractals",
+      "decision": "confirmed",
+      "reason": "Current complete mapping checked against retained source scope: exact coupling classes/geometry and sigma inverse/G=Id retained; M0206 analytic interface now audited. Jordan-arc infimum, residual topology and problem-specific spectral/synchronous conclusions remain explicitly unproved."
+    },
+    {
+      "problem_id": "A022",
+      "tool": "probability-poset-counting-sampling",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Full current four-row mapping checked: direct finite recurrence and weighted sampler, auxiliary fixed-poset/entropy/CFTP tools, explicit non-overcounting and asymptotic interfaces; no Eden/torus/growing-graph transfer claimed.",
+      "reviewed_mapping_sha256": "e86e49a1958922dcc837e257e91c7a9e164f22aee97d43cbac2628fea47651a1"
+    },
+    {
+      "problem_id": "A022",
+      "tool": "probability-poset-counting-sampling",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "Full current four-row mapping checked: direct finite recurrence and weighted sampler, auxiliary fixed-poset/entropy/CFTP tools, explicit non-overcounting and asymptotic interfaces; no Eden/torus/growing-graph transfer claimed.",
+      "reviewed_mapping_sha256": "e86e49a1958922dcc837e257e91c7a9e164f22aee97d43cbac2628fea47651a1"
+    },
+    {
+      "problem_id": "A022",
+      "tool": "probability-poset-counting-sampling",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "Full current four-row mapping checked: direct finite recurrence and weighted sampler, auxiliary fixed-poset/entropy/CFTP tools, explicit non-overcounting and asymptotic interfaces; no Eden/torus/growing-graph transfer claimed.",
+      "reviewed_mapping_sha256": "e86e49a1958922dcc837e257e91c7a9e164f22aee97d43cbac2628fea47651a1"
+    },
+    {
+      "problem_id": "A022",
+      "tool": "probability-poset-counting-sampling",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "Full current four-row mapping checked: direct finite recurrence and weighted sampler, auxiliary fixed-poset/entropy/CFTP tools, explicit non-overcounting and asymptotic interfaces; no Eden/torus/growing-graph transfer claimed.",
+      "reviewed_mapping_sha256": "e86e49a1958922dcc837e257e91c7a9e164f22aee97d43cbac2628fea47651a1"
+    },
+    {
+      "problem_id": "A018",
+      "tool": "probability-boolean-fourier-invariance",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "Stable tool identifier now correct. Current formal A019 iterated ternary-majority and A166 signed input-support subcube-bias interfaces checked against dossiers/formal120 and original BGP Q4. Fourier-support/degree/influence distinctions and unproved joint-law/conditional-bias interfaces retained; no resolution claimed."
+    },
+    {
+      "problem_id": "A164",
+      "tool": "probability-boolean-fourier-invariance",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Stable tool identifier now correct. Current formal A019 iterated ternary-majority and A166 signed input-support subcube-bias interfaces checked against dossiers/formal120 and original BGP Q4. Fourier-support/degree/influence distinctions and unproved joint-law/conditional-bias interfaces retained; no resolution claimed."
+    },
+    {
+      "problem_id": "A165",
+      "tool": "probability-boolean-fourier-invariance",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Stable tool identifier now correct. Current formal A019 iterated ternary-majority and A166 signed input-support subcube-bias interfaces checked against dossiers/formal120 and original BGP Q4. Fourier-support/degree/influence distinctions and unproved joint-law/conditional-bias interfaces retained; no resolution claimed."
+    },
+    {
+      "problem_id": "B161",
+      "tool": "probability-boolean-fourier-invariance",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Stable tool identifier now correct. Current formal A019 iterated ternary-majority and A166 signed input-support subcube-bias interfaces checked against dossiers/formal120 and original BGP Q4. Fourier-support/degree/influence distinctions and unproved joint-law/conditional-bias interfaces retained; no resolution claimed."
+    },
+    {
+      "problem_id": "B162",
+      "tool": "probability-boolean-fourier-invariance",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Stable tool identifier now correct. Current formal A019 iterated ternary-majority and A166 signed input-support subcube-bias interfaces checked against dossiers/formal120 and original BGP Q4. Fourier-support/degree/influence distinctions and unproved joint-law/conditional-bias interfaces retained; no resolution claimed."
+    },
+    {
+      "problem_id": "B169",
+      "tool": "probability-boolean-fourier-invariance",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Stable tool identifier now correct. Current formal A019 iterated ternary-majority and A166 signed input-support subcube-bias interfaces checked against dossiers/formal120 and original BGP Q4. Fourier-support/degree/influence distinctions and unproved joint-law/conditional-bias interfaces retained; no resolution claimed."
+    },
+    {
+      "problem_id": "B170",
+      "tool": "probability-boolean-fourier-invariance",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "Stable tool identifier now correct. Current formal A019 iterated ternary-majority and A166 signed input-support subcube-bias interfaces checked against dossiers/formal120 and original BGP Q4. Fourier-support/degree/influence distinctions and unproved joint-law/conditional-bias interfaces retained; no resolution claimed."
+    },
+    {
+      "problem_id": "A019",
+      "tool": "probability-boolean-fourier-invariance",
+      "decision": "confirmed",
+      "reason": "Formal dossier and primary-question interface verified; missing recursion/input-support bias result explicitly withheld."
+    },
+    {
+      "problem_id": "A166",
+      "tool": "probability-boolean-fourier-invariance",
+      "decision": "confirmed",
+      "reason": "Formal dossier and primary-question interface verified; missing recursion/input-support bias result explicitly withheld."
+    }
+  ],
+  "findings": [
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "M0175",
+      "file": "workers/W08/cards/M0175.md",
+      "issue": "Card states SLE6 dimension 4/3; trace dimension at kappa=6 is 7/4. Confuses frontier and trace inside a cautionary paragraph.",
+      "required_fix": "Replace with correct trace dimension or delete sentence; cite exact SLE theorem and preserve frontier/trace distinction.",
+      "status": "resolved_in_current_card"
+    },
+    {
+      "priority": "medium",
+      "worker": "W08",
+      "source_local_id": "W08-R007",
+      "file": "workers/W08/cards/W08-R007.md",
+      "issue": "Theorem assumptions omit D != C, while asserting finite exit a.s.",
+      "required_fix": "State D is a proper simply connected subdomain of C containing 0 in card and skill.",
+      "status": "resolved_in_current_card"
+    },
+    {
+      "priority": "medium",
+      "worker": "W08",
+      "source_local_id": "M0175",
+      "file": "workers/W08/cards/M0175.md",
+      "issue": "Claims journal metadata verified on first page; file is 2000 arXiv v2 manuscript.",
+      "required_fix": "Record arXiv version/date separately from 2001 publication metadata; substantiate latter with publisher record.",
+      "status": "resolved_in_current_card"
+    },
+    {
+      "priority": "high",
+      "worker": "W10",
+      "source_local_id": null,
+      "file": "skills/probability-boolean-fourier-invariance",
+      "issue": "At snapshot no skill files or worker mapping/status available.",
+      "required_fix": "Finish concrete skill and mapping; retain singleton nonzero versus dependence distinction and spectral support/norm/dimension distinctions.",
+      "status": "resolved_availability_only",
+      "verification_note": "Current SKILL.md/references/examples exist; mathematical review deferred."
+    },
+    {
+      "priority": "medium",
+      "worker": "W10",
+      "source_local_id": "KANE2011",
+      "file": "workers/W10/cards/KANE2011.md",
+      "issue": "Explicit bound is assigned to Theorem 1 without page/derivation locator.",
+      "required_fix": "Separate Theorem 1 general rate from PDF p.8 explicit sufficient bound, and retain O(epsilon) error normalization.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "medium",
+      "worker": "W10",
+      "source_local_id": "FRIEDGUT2026",
+      "file": "workers/W10/cards/FRIEDGUT2026.md",
+      "issue": "Only theorem and very short proof slogan, missing reusable quantitative proof chain.",
+      "required_fix": "Add Lemma 1 exp(cL/eta), mixture measure derivative integral, random fixed-endpoint coalition, rho choice and pre-sampling quantifiers from pp.3–5.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0001",
+      "file": "workers/W09/cards/M0001.md",
+      "issue": "Require admissible fixed S and n>max S, and explicitly exclude endpoint peaks. Card incorrectly describes proof as splitting at maximum label: actual proof partitions at index max(S)-1, counts Pi and subtracts two peak-set classes.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0002",
+      "file": "workers/W09/cards/M0002.md",
+      "issue": "Core graph predicate agrees for free square n>=2. State exact generalized output P(S,G,L), required V_<2 subset L and initial L=V_<2 for exact prescribed peak set; recursive degrees change, so omitting L loses essential algorithm state.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0003",
+      "file": "workers/W09/cards/M0003.md",
+      "issue": "Fixed graph subdivision limit correctly separated. Add precise exp(-n epsilon+2 log^2 n) estimate and definitions beta*,f_L, metric topology; generic entropy slogan and whole-span locator insufficient for full proof evidence.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0004",
+      "file": "workers/W09/cards/M0004.md",
+      "issue": "Card mistranscribes boundary threshold as n^2-f(n); original is n^(2-f(n)). Tree theorem requires d>=10 in part(a), d>=3 in other parts and k,m restrictions; give exact selected statement. Free-square one-peak vs tree two-peak separation is sound.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0006",
+      "file": "workers/W09/cards/M0006.md",
+      "issue": "Volume statement correct; Cor4.2 follows via Ehrhart leading coefficients and transfer map, while simplex triangulation is later pp.9–10. Separate original proof route and alternative proof and give exact locations.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0007",
+      "file": "workers/W09/cards/M0007.md",
+      "issue": "No extractable text; inspected scan confirms approximation is prior Dyer et al./Karzanov-Khachiyan work contrasted with this paper hardness proof. Card falsely attributes FPRAS/rapid mixing to its Thm2 and full-read evidence absent; require complete scan/OCR or page-by-page visual reading and exact actual theorem locators.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0009",
+      "file": "workers/W09/cards/M0009.md",
+      "issue": "Ergodicity plus arbitrary shared random-map coupling does not guarantee coalescence (random permutation maps can never coalesce). Original proof uses mapping construction with positive constant-map composition chance. State this coupling assumption and reuse past maps; do not assert termination for every coupling of an ergodic chain.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0010",
+      "file": "workers/W09/cards/M0010.md",
+      "issue": "Main theorem not visually checked; span-only card and Hamming specialization do not substantiate full scan read. Supply actual theorem number/page and full scan reading evidence before acceptance.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0011",
+      "file": "workers/W09/cards/M0011.md",
+      "issue": "Card Thm1 locator wrong: actual Thm1 is transposition-geodesic decomposition. Mixing derived earlier; distinguish weighted adjacent-position proposal f(i) from uniform adjacent-swap chain, give actual derivation page and constants.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0012",
+      "file": "workers/W09/cards/M0012.md",
+      "issue": "Thm8 is general non-Markovian CFTP exactness/termination conditional on positive coalescence; not runtime theorem. Give Thm5/expected-time derivation and operation model separately.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0013",
+      "file": "workers/W09/cards/M0013.md",
+      "issue": "Card Theorems1–5 wrong: actual labels include Lemma1,Cor2,Lemma3,Thm5. Core equivariance/pruning conditions agree; give exact R1–R3 and pruning hypotheses and avoid nonexistent theorem references.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0014",
+      "file": "workers/W09/cards/M0014.md",
+      "issue": "Shearer inequality correct but it is Lemma2.8, not Theorem2.8. Give PDF/printed page separately and exact proof locations rather than whole-paper span.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved",
+      "verification_note": "Final revision checked against retained original-PDF evidence and current card/coverage."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0016",
+      "file": "workers/W09/cards/M0016.md",
+      "issue": "Card Theorem1 incorrectly called volume approximation theorem: actual Thm1 is technical grid-walk transition mixing bound. Volume guarantee appears abstract/algorithm analysis; correct theorem attribution and preserve well-guaranteed oracle bit/rounding model.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0018",
+      "file": "workers/W09/cards/M0018.md",
+      "issue": "Cycle/stationary meteor boundary correct. Card must state Thm4.9 fixed crater count n>=2, k→infinity, any r>2 and probability target p<1; generic repulsion and span not quantitative proof evidence.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0019",
+      "file": "workers/W09/cards/M0019.md",
+      "issue": "Width-two entropy inequality agrees. Add exact epsilon and base2 conventions; actual manuscript dated2014 vs publication2015 needs version field; proof synopsis alone does not certify all18 pages.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0020",
+      "file": "workers/W09/cards/M0020.md",
+      "issue": "Main distinction sound: representatives, not arbitrary topological sorts, are uniform. Record Thm4 worst-case Theta(n^2) memory-write model and exact sampling conditions; whole-span references inadequate for complete19-page evidence.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved",
+      "verification_note": "Final revision checked against retained original-PDF evidence and current card/coverage."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0021",
+      "file": "workers/W09/cards/M0021.md",
+      "issue": "Thm4.1 is relative variance formula, not unbiasedness theorem. Unbiasedness follows SIS inverse path probability in setup/proof; correct attribution and retain positive proposal support and orientation convention.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0026",
+      "file": "workers/W09/cards/M0026.md",
+      "issue": "Full book obtained, but §§3.1–3.5 are only initial sections of Ch3, not a complete selected chapter. Under WORK_PROTOCOL complete relevant chapter requirement downgrade selected_chapters_read to partial_read or finish full chapter; exact J(P) recurrence agrees.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0027",
+      "file": "workers/W09/cards/M0027.md",
+      "issue": "Full book obtained, but sparse sections do not constitute complete selected chapters. Card also calls §25.3 printed348–355: p348 starts25.1, p349 starts25.2, p355 starts25.4. Correct chapter/section ranges and downgrade until complete chapters read.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X002",
+      "file": "workers/W09/cards/W09-X002.md",
+      "issue": "Fixed-poset bounds agree; state precise theorem/algorithm page for cover-treewidth n^(t+4), dependence on supplied decomposition and width. Full seven-page reading not independently established by terse card.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X003",
+      "file": "workers/W09/cards/W09-X003.md",
+      "issue": "Restricted hardness claims agree; modular oracle reductions must not be called parsimonious without qualification. Add exact respective proof pages and quantitative residue-recovery mechanism.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "W09-X004",
+      "file": "workers/W09/cards/W09-X004.md",
+      "issue": "High-severity complexity error: Thm1 says no FPT for cover-treewidth unless W[1]=FPT; it does not prove #P-hardness on bounded cover-treewidth. Such bounded-width polynomial XP algorithm already exists. Fix statement and reduction scope.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X005",
+      "file": "workers/W09/cards/W09-X005.md",
+      "issue": "Comparison and global running-time measures must be distinct: algorithm3 gives <=15.09 log e(P) comparisons and O(n^2.5) runtime; algorithm2 <=(1+epsilon)log e(P)+O_epsilon(n). Add locators and exact statements rather than vague overhead.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "W09-X006",
+      "file": "workers/W09/cards/W09-X006.md",
+      "issue": "Card adds unsupported -O(n) to upper bound. Thm1.4 upper bound is (1-C epsilon^4)n log2 n; -O(n) belongs to lower-bound construction with (1-epsilon), and Sigma* notation must be defined. Fix both.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "W09-X007",
+      "file": "workers/W09/cards/W09-X007.md",
+      "issue": "Card says approximate sample but source explicitly says exact uniform sample by monotone CFTP. Count estimate approximate; distinguish exact continuous auxiliary sample/induced LE and count approximation. Pop/unpop slogan does not describe continuous-relocation construction accurately.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "W09-X008",
+      "file": "workers/W09/cards/W09-X008.md",
+      "issue": "Card unsupported general-dimension-two polynomial mixing assertion: abstract proves width-two O(n^3 log n), conjectures general same rate, overview says empirical studies. State exact proved bound and locate proof; retain dimension vs width distinction. Garbled text not full-read evidence.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X009",
+      "file": "workers/W09/cards/W09-X009.md",
+      "issue": "Exact weighted sampling vs approximate count distinction plausible; Theorems1–4 cannot substitute for precise locators. Give exact count confidence/runtime formula, weighted target, coalescence theorem and full proof chain.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X010",
+      "file": "workers/W09/cards/W09-X010.md",
+      "issue": "Exact theorem constants agree with card. Need state n regime and primitive operation, expected not worst-case runtime, deterministic scan and coalescence proof locators; full16-page reading not independently supported by short generic paragraph.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved",
+      "verification_note": "Final revision checked against retained original-PDF evidence and current card/coverage."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X011",
+      "file": "workers/W09/cards/W09-X011.md",
+      "issue": "Exact lower-cover recurrence agrees. Cite lossless compression transitions precisely; narrative whole9-page claim does not verify compression proof or complexity. Do not imply implementation speed theorem.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X012",
+      "file": "workers/W09/cards/W09-X012.md",
+      "issue": "Scope of balanced-row limit agrees but actual statement fixes alpha=(1,a), beta=(2,1), not arbitrary pair; give limit (a+1)/2^a and fixed-a quantifier. Blocking expansion requires finite P and incomparable alpha,beta.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X013",
+      "file": "workers/W09/cards/W09-X013.md",
+      "issue": "Runtime formula agrees; Prop3.2 requires supplied linear extension L attaining minimum activity alpha(P)=alpha(L); authors do not know how to compute activity. Card omits crucial supplied-order hypothesis. Retain width/spread prerequisite.",
+      "required_fix": "Correct the cited statement and locator; provide complete original-text reading evidence or downgrade the reading label.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": null,
+      "file": "skills/probability-poset-counting-sampling/references/method.md",
+      "issue": "Displayed formulas are corrupted: literal delta/number/sum commands lost backslashes and empty-set becomes control character; positive example says n! orders instead of (n^2)! grid labelings.",
+      "required_fix": "Restore valid LaTeX delimiters/commands and correct enumeration count notation.",
+      "revision_checked": "2026-11-14",
+      "status": "resolved_except_specific_followup",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0003",
+      "file": "workers/W09/cards/M0003.md",
+      "issue": "Card revised beta to -sum z_j Delta-t log(z_j Delta-t), dropping +sum Delta-t log Delta-t from original (3.3). Original (3.4) is -sum Delta-t sum z_j log z_j.",
+      "required_fix": "Restore (3.4), or include both terms of (3.3). Remove claim that Delta-t log Delta-t is a missing contribution; the terms cancel using sum z=1.",
+      "checked_location": "PDF p8 (3.3)=(3.4); p9 refinement invariance",
+      "status": "resolved_except_specific_followup",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W09",
+      "source_local_id": "M0021",
+      "file": "workers/W09/cards/M0021.md",
+      "issue": "New Thm4.3 bound uses A1...A_(n-1), while original is A1...A_n - 1.",
+      "required_fix": "Write RV(P)<=prod_(i=1)^n A_i -1, equivalently RV(P)+1<=prod_(i=1)^n A_i; correct ideal-weight explanation accordingly.",
+      "checked_location": "PDF pp7–8; p7 visually rendered",
+      "status": "resolved_except_specific_followup",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0002",
+      "file": "workers/W09/cards/M0002.md",
+      "issue": "Local 11-page file is arXiv1708.08493v1, not the claimed published article (journal pagination174–189 is16 pages).",
+      "required_fix": "Separate local arXiv v1 identity/year from later journal citation; remove published-copy/first-page-journal claim.",
+      "checked_location": "Current local PDF p1 arXiv header;11-page extent",
+      "status": "resolved_except_specific_followup",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0014",
+      "file": "workers/W09/cards/M0014.md",
+      "issue": "Current local PDF Lemma2.8 is physical p7 (printed5), but card calls it PDF p5; other PDF locators similarly use printed numbering.",
+      "required_fix": "Use physical PDF p7/printed5 for Lemma2.8 and systematically correct offset2.",
+      "checked_location": "Original PDF p7; contents physical3",
+      "status": "resolved",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Final revision checked against retained original-PDF evidence and current card/coverage."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X012",
+      "file": "workers/W09/cards/W09-X012.md",
+      "issue": "Thm4.7 remains physical/printed p18, not revised card p21 (which is Thm4.11).",
+      "required_fix": "Correct to PDF p18, keeping v5 hash and fixed-pair limit.",
+      "checked_location": "Current unchanged v5 PDF physical18 Thm4.7 and21 Thm4.11",
+      "status": "resolved_except_specific_followup",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Latest card revision and section coverage assessed under clarified reader/reviewer division; see current source_decisions for any remaining specific issue."
+    },
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "W08-R006",
+      "file": "workers/W08/cards/W08-R006.md",
+      "issue": "Card assigns delta(kappa)=2−8/kappa for kappa>4. Original Thm8.3 defines delta(kappa)=1+2/kappa for kappa>4.",
+      "required_fix": "Correct delta definition and retain distinction between covering exponent, boundary dimension upper bound, and trace dimension.",
+      "checked_location": "PDF p37 Thm8.3; p42 Cor8.7",
+      "status": "resolved_as_to_previous_issue",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Prior delta/R1/GId/proper-domain/page21/book-tail corrections checked in current card; distinct new issues separately recorded."
+    },
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "W08-R009",
+      "file": "workers/W08/cards/W08-R009.md",
+      "issue": "R1 definition replaces candidate R by universally quantified r; Remark3 extension omits required G=Id and domain-diameter fallback.",
+      "required_fix": "Use R1=inf{R>=R0: kappa(r)R(R−R0)>=8 for all r>=R}. Restrict reflected-domain extension to G=Id, smooth bounded convex D, and diameter convention for empty infima.",
+      "checked_location": "PDF p5 equations8–9; p6 Remark3",
+      "status": "resolved_as_to_previous_issue",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Prior delta/R1/GId/proper-domain/page21/book-tail corrections checked in current card; distinct new issues separately recorded."
+    },
+    {
+      "priority": "medium",
+      "worker": "W08",
+      "source_local_id": "W08-R013",
+      "file": "workers/W08/cards/W08-R013.md",
+      "issue": "Theorem1.1 setup omits proper-domain restriction D strictly contained in C.",
+      "required_fix": "Include D subsetneq C containing0; maintain discrete LERW versus Brownian loop-erasure distinction.",
+      "checked_location": "PDF p7 theorem setup",
+      "status": "resolved_as_to_previous_issue",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Prior delta/R1/GId/proper-domain/page21/book-tail corrections checked in current card; distinct new issues separately recorded."
+    },
+    {
+      "priority": "low",
+      "worker": "W08",
+      "source_local_id": "W08-R004",
+      "file": "workers/W08/cards/W08-R004.md",
+      "issue": "Example3.1 cited PDF22 but is PDF21.",
+      "required_fix": "Correct physical-page locator without resolving source normalization discrepancy by silent rescaling.",
+      "checked_location": "PDF p21 Example3.1",
+      "status": "resolved_as_to_previous_issue",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Prior delta/R1/GId/proper-domain/page21/book-tail corrections checked in current card; distinct new issues separately recorded."
+    },
+    {
+      "priority": "medium",
+      "worker": "W08",
+      "source_local_id": "M0224",
+      "file": "workers/W08/cards/M0224.md",
+      "issue": "read_units complete=true claims Chapter4 pp106–126 and Chapter8 pp234–263; actual chapters include notes on127 and264 respectively.",
+      "required_fix": "Complete and record missing final pages127/264, or mark these units partial. Whole chapter9/appendix evidence remains separately auditable.",
+      "checked_location": "PDF127 notes then128 chapter5; PDF264 notes then265 chapter9",
+      "status": "resolved_as_to_previous_issue",
+      "revision_checked": "2026-11-14",
+      "verification_note": "Prior delta/R1/GId/proper-domain/page21/book-tail corrections checked in current card; distinct new issues separately recorded."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0014",
+      "file": "workers/W09/cards/M0014.md",
+      "issue": "One remaining physical/printed-page confusion: combinatorial Lemma2.9 proof paragraph still says PDF p6; it is physical8 (printed6). Correct this residual locator.",
+      "required_fix": "One remaining physical/printed-page confusion: combinatorial Lemma2.9 proof paragraph still says PDF p6; it is physical8 (printed6). Correct this residual locator.",
+      "status": "resolved",
+      "verification_note": "Final revision checked against retained original-PDF evidence and current card/coverage."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0020",
+      "file": "workers/W09/reading_coverage.json",
+      "issue": "Coverage combines pp13–19 as Appendix A, but actual Appendices A pp13–14, B pp14–16, C pp16–18, D pp18–19 have different proofs. Add explicit B/C/D units and mechanism summaries rather than attributing all to A.",
+      "required_fix": "Coverage combines pp13–19 as Appendix A, but actual Appendices A pp13–14, B pp14–16, C pp16–18, D pp18–19 have different proofs. Add explicit B/C/D units and mechanism summaries rather than attributing all to A.",
+      "status": "resolved",
+      "verification_note": "Final revision checked against retained original-PDF evidence and current card/coverage."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "W09-X010",
+      "file": "workers/W09/cards/W09-X010.md",
+      "issue": "Base deterministic scan must still use a fair random coin to attempt each legal swap; card says accepting swap exactly when order-preserving, omitting this randomness. State the fair-coin update from original p3 and deterministic scan of indices; legality alone is not the transition kernel.",
+      "required_fix": "Base deterministic scan must still use a fair random coin to attempt each legal swap; card says accepting swap exactly when order-preserving, omitting this randomness. State the fair-coin update from original p3 and deterministic scan of indices; legality alone is not the transition kernel.",
+      "status": "resolved",
+      "verification_note": "Final revision checked against retained original-PDF evidence and current card/coverage."
+    },
+    {
+      "priority": "medium",
+      "worker": "W10",
+      "source_local_id": "M0118",
+      "file": "workers/W10/cards/M0118.md",
+      "issue": "Primary source not retrievable in this audit: both ToC landing page and primary PDF timed out. No local PDF retained. Supply the correct20-page de Wolf PDF (not the previously rejected booleansurvey artifact), stable version/hash, and coverage of Fourier/noise/hypercontractivity/KKL/degree/applications sections.",
+      "required_fix": "Primary source not retrievable in this audit: both ToC landing page and primary PDF timed out. No local PDF retained. Supply the correct20-page de Wolf PDF (not the previously rejected booleansurvey artifact), stable version/hash, and coverage of Fourier/noise/hypercontractivity/KKL/degree/applications sections.",
+      "status": "open_current"
+    },
+    {
+      "priority": "medium",
+      "worker": "W10",
+      "source_local_id": "M0131",
+      "file": "workers/W10/cards/M0131.md",
+      "issue": "Seven-page original independently inspected completely. Core signed-matrix/interlacing and sensitivity bounds agree. Correct Thm1.3: h must be monotone; Gamma(H)=max(Delta(H),Delta(Q_n−H)), not simply maximum degree of larger side. Lemma2.3 is physical p4, proof of Thm1.1 continuesp5. Then mathematical card can pass; reading evidence accepted.",
+      "required_fix": "Seven-page original independently inspected completely. Core signed-matrix/interlacing and sensitivity bounds agree. Correct Thm1.3: h must be monotone; Gamma(H)=max(Delta(H),Delta(Q_n−H)), not simply maximum degree of larger side. Lemma2.3 is physical p4, proof of Thm1.1 continuesp5. Then mathematical card can pass; reading evidence accepted.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "high",
+      "worker": "W10",
+      "source_local_id": "BGP2012",
+      "file": "workers/W10/cards/BGP2012.md",
+      "issue": "Core LP sandwich duality and two-level-majority mechanism checked. Correct rho index/normalization: original (6) is unstandardized Bin(n,1/2), rho_m(n/2)<=2/sqrt(m); Thm7 uses m=k/2. Thm16 is physicalp7 (proofp8), notp8/printed7. XOR0 bias sign depends on parity; choose XOR0 or XOR1 / state subsequence to ensure positive bias. Supply coverage map for §§1–5 and Appendix6 including Krawtchouk and lower-bound construction, not only all20 pages extracted.",
+      "required_fix": "Core LP sandwich duality and two-level-majority mechanism checked. Correct rho index/normalization: original (6) is unstandardized Bin(n,1/2), rho_m(n/2)<=2/sqrt(m); Thm7 uses m=k/2. Thm16 is physicalp7 (proofp8), notp8/printed7. XOR0 bias sign depends on parity; choose XOR0 or XOR1 / state subsequence to ensure positive bias. Supply coverage map for §§1–5 and Appendix6 including Krawtchouk and lower-bound construction, not only all20 pages extracted.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "medium",
+      "worker": "W10",
+      "source_local_id": "KANE2011",
+      "file": "workers/W10/cards/KANE2011.md",
+      "issue": "Theorem1 nested-exponent versus explicit parameter bound distinction now correct. Preserve explicit O(epsilon) expectation error. Add per-section coverage III moment norms/decoupling, IV structure, V FT-mollification, VI moment/Taylor matching, VII sign sandwich and anti-concentration, VIII general-to-multilinear reduction, IX conclusion/references. The current short proof slogan has no locators for these critical steps.",
+      "required_fix": "Theorem1 nested-exponent versus explicit parameter bound distinction now correct. Preserve explicit O(epsilon) expectation error. Add per-section coverage III moment norms/decoupling, IV structure, V FT-mollification, VI moment/Taylor matching, VII sign sandwich and anti-concentration, VIII general-to-multilinear reduction, IX conclusion/references. The current short proof slogan has no locators for these critical steps.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "high",
+      "worker": "W10",
+      "source_local_id": null,
+      "file": "workers/W10/math/enumerate_boolean_spectrum.py",
+      "issue": "Parity support is the single nonzero vector11111; its F2 span dimension is1, but hardcoded as5 in code and JSON. Degree5 and dependence on5 coordinates are separate.",
+      "required_fix": "Change linear_span_dimension_over_F2 to1 or actually compute rank; regenerate JSON and audit references. Rerun saved in reviews/R05/w10_enum_rerun.json reproduces error.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "medium",
+      "worker": "W10",
+      "source_local_id": "BKS1999",
+      "file": "skills/probability-boolean-fourier-invariance/references/method.md",
+      "issue": "Vanishing low-degree Fourier weight characterization must exclude constant term; BKS Thm1.9 sums1<=|S|<=k.",
+      "required_fix": "Write vanishing positive-degree bounded-level weight (1<=|S|<=k), preserving sequence/event/noise assumptions; source Theorem1.9, physical PDF p9.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "medium",
+      "worker": "W10",
+      "source_local_id": null,
+      "file": "workers/W10/mapping.json",
+      "issue": "tool field is prose W10 name rather than stable skill identifier required by WORK_PROTOCOL.",
+      "required_fix": "Use probability-boolean-fourier-invariance as tool; preserve direct/auxiliary and explicit unproved interfaces.",
+      "status": "resolved_batch3",
+      "verification_note": "Current source/card/method correction inspected against original; exact integer enumeration rerun saved in w10_batch3/enum_rerun.json."
+    },
+    {
+      "priority": "low",
+      "worker": "W09",
+      "source_local_id": "M0020",
+      "file": "workers/W09/reading_coverage.json",
+      "issue": "Appendix A recorded13–13, but its structural-induction proof ends on physical14 before AppendixB. Physical14 is otherwise covered, so this is an overlapping unit-boundary locator correction, not missing reading.",
+      "required_fix": "Set Appendix A physical_pdf_pages to[13,14]; keep B[14,16].",
+      "status": "resolved",
+      "verification_note": "Final synchronized text actually inspected; current SHA256 bound in final manifest."
+    },
+    {
+      "priority": "low",
+      "worker": "W09",
+      "source_local_id": null,
+      "file": "skills/probability-poset-counting-sampling/references/sources.md",
+      "issue": "Inventory/review snapshot stale: says27 full5partial and onlyM0017 accepted. Current registry is30 full/2partial books/9unread scholarly plus4software; this review accepts30 papers.",
+      "required_fix": "Synchronize inventory and review snapshot with current ledger/reviews; replace M0027 selected chapters wording by selected sections/partial. Entry-point all reviews pending is now historical and should be timestamped or updated.",
+      "status": "resolved",
+      "verification_note": "Final synchronized text actually inspected; current SHA256 bound in final manifest."
+    },
+    {
+      "priority": "medium",
+      "worker": "W09",
+      "source_local_id": "M0026/M0027",
+      "file": "workers/W09/sources.json",
+      "issue": "Books remain partial_read with read_units absent; this cannot be counted as accepted complete numbered reading units.",
+      "required_fix": "Leave as partial_read with zero complete-unit quota, or explicitly declare selected_sections_read and exact numbered read_units/page ranges/proof dependencies after confirming completeness. Do not inflate fulltext-paper count.",
+      "status": "scope_not_quota_failure"
+    },
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "M0177",
+      "file": "workers/W08/cards/M0177.md",
+      "issue": "Thm7.3 construction uses SLE_kappa with alpha=(6−kappa)/(2kappa), bubble intensity lambda=(8−3kappa)(6−kappa)/(2kappa), not fixed SLE8/3 for arbitrary alpha. At kappa8/3 lambda0 and alpha5/8. Correct card and explicit construction interface.",
+      "required_fix": "Thm7.3 construction uses SLE_kappa with alpha=(6−kappa)/(2kappa), bubble intensity lambda=(8−3kappa)(6−kappa)/(2kappa), not fixed SLE8/3 for arbitrary alpha. At kappa8/3 lambda0 and alpha5/8. Correct card and explicit construction interface.",
+      "status": "resolved_batch4",
+      "verification_note": "Actual revised card and propagated skill/mapping checked; variable-kappa zero endpoint separately recorded."
+    },
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "M0207",
+      "file": "workers/W08/cards/M0207.md",
+      "issue": "Retained paths must be Y^j[T_0^j,T_r^j], not Y^j[0,T_r^j] with all paths starting0. Current definition makes Z_r identically0, contradicting theorem. Restore unit-circle stopping prefix and uniform starting interpretation.",
+      "required_fix": "Retained paths must be Y^j[T_0^j,T_r^j], not Y^j[0,T_r^j] with all paths starting0. Current definition makes Z_r identically0, contradicting theorem. Restore unit-circle stopping prefix and uniform starting interpretation.",
+      "status": "resolved_batch4",
+      "verification_note": "Actual revised card and propagated skill/mapping checked; variable-kappa zero endpoint separately recorded."
+    },
+    {
+      "priority": "medium",
+      "worker": "W08",
+      "source_local_id": "M0208",
+      "file": "workers/W08/cards/M0208.md",
+      "issue": "The threshold is tilde-xi(1,1)=10/3, not plane xi(1,1)=10/3 (plane value5/4). Restore tilde throughout eta-interface statement.",
+      "required_fix": "The threshold is tilde-xi(1,1)=10/3, not plane xi(1,1)=10/3 (plane value5/4). Restore tilde throughout eta-interface statement.",
+      "status": "resolved_batch4",
+      "verification_note": "Actual revised card and propagated skill/mapping checked; variable-kappa zero endpoint separately recorded."
+    },
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "W08-R008",
+      "file": "workers/W08/cards/W08-R008.md",
+      "issue": "Thm4.3 uses default Markov coupling class in §2: joint and marginal Markov plus conditional-future property(ii). It is not universal arbitrary/non-coadapted coupling theorem or a class stronger than all coadapted couplings. Delete stronger-class assertion and attach exact class to card/skill/mapping.",
+      "required_fix": "Thm4.3 uses default Markov coupling class in §2: joint and marginal Markov plus conditional-future property(ii). It is not universal arbitrary/non-coadapted coupling theorem or a class stronger than all coadapted couplings. Delete stronger-class assertion and attach exact class to card/skill/mapping.",
+      "status": "resolved_batch4",
+      "verification_note": "Actual revised card and propagated skill/mapping checked; variable-kappa zero endpoint separately recorded."
+    },
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "W08-R009",
+      "file": "workers/W08/cards/W08-R009.md",
+      "issue": "R1 and G=Id corrections verified, but base reflection direction still wrong for general invertible sigma: reflect driving Brownian noise along e_t=sigma^(-1)(X−Y)/|sigma^(-1)(X−Y)|, not directly separation X−Y. Add original SDE(3) and marginal Brownian justification.",
+      "required_fix": "R1 and G=Id corrections verified, but base reflection direction still wrong for general invertible sigma: reflect driving Brownian noise along e_t=sigma^(-1)(X−Y)/|sigma^(-1)(X−Y)|, not directly separation X−Y. Add original SDE(3) and marginal Brownian justification.",
+      "status": "resolved_batch4",
+      "verification_note": "Actual revised card and propagated skill/mapping checked; variable-kappa zero endpoint separately recorded."
+    },
+    {
+      "priority": "high",
+      "worker": "W08",
+      "source_local_id": "W08-R007/W08-R009/W08-R008/M0177",
+      "file": "skills/probability-brownian-potential-fractals/references/method.md",
+      "issue": "Skill has not propagated proper-D condition in Zhan paragraph, G=Id condition in reflected Eberle extension, exact Markov coupling class for R008, and variable-kappa bubble construction from M0177.",
+      "required_fix": "State D subsetneq C; attach G=Id to smooth-convex reflected extension; qualify R008 by §2(i)(ii); give alpha_kappa/lambda_kappa construction or omit the unverified fixed-SLE8/3 generalization.",
+      "status": "resolved_batch4",
+      "verification_note": "Actual revised card and propagated skill/mapping checked; variable-kappa zero endpoint separately recorded."
+    },
+    {
+      "priority": "low",
+      "worker": "W08",
+      "source_local_id": "M0179/W08-R013",
+      "file": "workers/W08/reading_coverage.json",
+      "issue": "M0179 second-moment block11–33 labelled§§4–5 but actual main second moment is§3 and§4/5 begin28/31; R013 identity/title physical1 absent from coverage though inspected in card.",
+      "required_fix": "Correct M0179 label to§§3–5 and add R013 physical1 front-matter identity unit; substantive page/proof coverage already exists.",
+      "status": "resolved_final_w08",
+      "verification_note": "Actual current card, coverage and/or skill text checked after targeted repair; original-page evidence retained in R05."
+    },
+    {
+      "priority": "high",
+      "worker": "W10",
+      "source_local_id": "M0114",
+      "file": "workers/W10/cards/M0114.md",
+      "issue": "Thm1.5 reversed: card writes deg<=approxdeg<C deg^8. Original physical4 has approxdeg<=deg<=D<=c approxdeg^8. Thm1.3 original is deg<=D<=16deg^8, not strict upper inequality.",
+      "required_fix": "Restore full original chain and codomain/uniform1/3 approximation definition. Use nonstrict <=; do not infer approximate degree is larger than exact degree. Preserve distinction from Fourier support.",
+      "status": "open_current_w10"
+    },
+    {
+      "priority": "low",
+      "worker": "W10",
+      "source_local_id": "M0113/KANE2011",
+      "file": "workers/W10/cards",
+      "issue": "M0113 prefix-energy estimates use membership queries at correlated inputs, not passive uniform labeled examples alone. Kane sectionIV begins physical3, V physical4, whereas coverage table shifts these starts later (all pages are nevertheless covered).",
+      "required_fix": "Clarify membership-query access for prefix estimator and correct Kane section boundary locators to physicalIII2–3,IV3–4,V4 onward, using exact local headings.",
+      "status": "open_documentation_w10"
+    },
+    {
+      "priority": "medium",
+      "worker": "W08",
+      "source_local_id": "M0196",
+      "file": "workers/W08/cards/M0196.md",
+      "issue": "Proposition2 proof direction reversed: cone event lower probability bound yields upper exponent bound.",
+      "required_fix": "Swap exponent-bound labels; complementary colored-region/extremal-distance probability upper bound yields lower exponent bound.",
+      "status": "resolved_final_w08",
+      "verification_note": "Actual current card, coverage and/or skill text checked after targeted repair; original-page evidence retained in R05."
+    },
+    {
+      "priority": "medium",
+      "worker": "W08",
+      "source_local_id": "M0177",
+      "file": "skills/probability-brownian-potential-fractals/references/method.md",
+      "issue": "Finite alpha_kappa/lambda_kappa formulas divide by kappa but current range includes0.",
+      "required_fix": "Use 0<kappa<=8/3 for finite-alpha construction, optionally note original endpoint is formal limiting interpretation. Propagate card.",
+      "status": "resolved_final_w08",
+      "verification_note": "Actual current card, coverage and/or skill text checked after targeted repair; original-page evidence retained in R05."
+    },
+    {
+      "priority": "low",
+      "worker": "W08",
+      "source_local_id": "M0206",
+      "file": "workers/W08/cards/M0206.md",
+      "issue": "M0205 Thm1.4 locator physical4 is physical5 in retained version.",
+      "required_fix": "Correct physical page locator.",
+      "status": "resolved_final_w08",
+      "verification_note": "Actual current card, coverage and/or skill text checked after targeted repair; original-page evidence retained in R05."
+    }
+  ],
+  "limitations": [
+    "Source decisions apply to concrete inspected versions/hashes; accepted reader coverage does not claim reviewer full rereading.",
+    "W10 five reported fulltexts individually assessed: Friedgut2026 accepted; Huang reading accepted with theorem correction; other three require specified materials/coverage.",
+    "No new current-status literature search establishes unresolved conjecture status.",
+    "W08 findings from prior batch remain open unless separately marked resolved; not re-audited this batch.",
+    "Finite enumeration rerun supports n<=4 outputs only; hardcoded parity-span error found.",
+    "W09 all30 fulltext papers accepted under light-review evidence protocol; books only partial uses accepted and not complete-unit quota. Skill remaining documentation synchronization explicitly recorded."
+  ],
+  "review_complete": false,
+  "w09_quota_audit": {
+    "reported_fulltext_papers": 30,
+    "reported_selected_chapter_books": 2,
+    "independently_fulltext_reread_and_accepted_papers": [
+      "M0017"
+    ],
+    "accepted_selected_chapter_books": 0,
+    "source_card_count": 32,
+    "software_excluded": 4,
+    "duplicate_pdf_hashes": [],
+    "quota_30_met_by_independent_audit": true,
+    "current_worker_book_labels": "M0026/M0027 partial_read; corrected",
+    "accepted_fulltext_papers": [
+      "M0001",
+      "M0002",
+      "M0003",
+      "M0004",
+      "M0006",
+      "M0007",
+      "M0009",
+      "M0010",
+      "M0011",
+      "M0012",
+      "M0013",
+      "M0014",
+      "M0016",
+      "M0017",
+      "M0018",
+      "M0019",
+      "M0020",
+      "M0021",
+      "W09-X002",
+      "W09-X003",
+      "W09-X004",
+      "W09-X005",
+      "W09-X006",
+      "W09-X007",
+      "W09-X008",
+      "W09-X009",
+      "W09-X010",
+      "W09-X011",
+      "W09-X012",
+      "W09-X013"
+    ],
+    "accepted_fulltext_paper_count": 30,
+    "accepted_partial_books": [
+      "M0026",
+      "M0027"
+    ],
+    "protocol_note": "Reader evidence accepted by coverage and mathematical spot checks; reviewer full reread not required.",
+    "accepted_complete_book_reading_units": 0,
+    "book_note": "partial_read/no read_units: uses accepted only; books not counted as complete-unit quota"
+  },
+  "w09_review_complete_for_current_cards": true,
+  "w09_review_complete_for_current_version": true,
+  "w08_batch_audit": {
+    "reported_fulltext_papers": 25,
+    "source_passed_papers": 20,
+    "specific_revision_papers": [
+      "M0177",
+      "M0207",
+      "M0208",
+      "W08-R008",
+      "W08-R009"
+    ],
+    "fulltext_reading_evidence_accepted": 25,
+    "accepted_selected_chapter_books": [
+      "M0224"
+    ],
+    "M0206_dependency_approved": false,
+    "quota_30_met": false,
+    "evidence": "reviews/R05/w08_batch_evidence and w08_coverage_spotchecks.json; formula_checks.json"
+  },
+  "w10_batch3_audit": {
+    "fulltext_reading_evidence_accepted": [
+      "M0113",
+      "M0114",
+      "M0131",
+      "BGP2012",
+      "KANE2011",
+      "FRIEDGUT2026"
+    ],
+    "passed_sources": [
+      "M0113",
+      "M0131",
+      "BGP2012",
+      "KANE2011",
+      "FRIEDGUT2026"
+    ],
+    "needs_revision": [
+      "M0114"
+    ],
+    "not_read_excluded": [
+      "M0118"
+    ],
+    "fulltext_count": 6,
+    "source_passed_count": 5,
+    "quota_30_met": false,
+    "finite_enum_evidence": "reviews/R05/w10_batch3/enum_rerun.json",
+    "scope": "Current six-fulltext cards, old specific fixes,method/examples/mapping only; eleven partial sources not blanket approved"
+  },
+  "w08_batch4_audit": {
+    "fulltext_identity_and_hash_checked": 30,
+    "passed_fulltext_sources": 30,
+    "reading_evidence_accepted_fulltext_sources": 30,
+    "selected_book_accepted": "M0224 complete selected chapters, full book acquired; not full-book read",
+    "prior20_passed_card_hashes_unchanged": true,
+    "evidence": "reviews/R05/w08_batch4/coverage_hash_checks.json",
+    "pending": [],
+    "final_current_version_passed": true,
+    "manifest_file_count": 81
+  },
+  "w08_review_complete_for_current_version": true
+}

@@ -1,0 +1,278 @@
+{
+  "method": "exhaustive integer Walsh transform; no floating point",
+  "normalization": "0/1-valued functions: coefficient = Walsh numerator / 2**n",
+  "scope_limit": "finite n <= 4 only; does not establish the open asymptotic claim",
+  "enumeration": [
+    {
+      "n": 1,
+      "boolean_functions_checked": 4,
+      "functions_with_each_singleton_coefficient_nonzero": 2,
+      "minimum_fourier_l0_with_each_singleton_nonzero": 2,
+      "witness_each_singleton_nonzero": {
+        "truth_mask": 1,
+        "truth_values": [
+          1,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          1
+        ],
+        "walsh_numerators": [
+          1,
+          1
+        ]
+      },
+      "minimum_fourier_l0_among_functions_depending_on_every_coordinate": 2,
+      "witness_depends_on_every_coordinate": {
+        "truth_mask": 1,
+        "truth_values": [
+          1,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          1
+        ],
+        "walsh_numerators": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "boolean_functions_checked": 16,
+      "functions_with_each_singleton_coefficient_nonzero": 8,
+      "minimum_fourier_l0_with_each_singleton_nonzero": 4,
+      "witness_each_singleton_nonzero": {
+        "truth_mask": 1,
+        "truth_values": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "walsh_numerators": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "minimum_fourier_l0_among_functions_depending_on_every_coordinate": 2,
+      "witness_depends_on_every_coordinate": {
+        "truth_mask": 6,
+        "truth_values": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          3
+        ],
+        "walsh_numerators": [
+          2,
+          0,
+          0,
+          -2
+        ]
+      }
+    },
+    {
+      "n": 3,
+      "boolean_functions_checked": 256,
+      "functions_with_each_singleton_coefficient_nonzero": 136,
+      "minimum_fourier_l0_with_each_singleton_nonzero": 5,
+      "witness_each_singleton_nonzero": {
+        "truth_mask": 23,
+        "truth_values": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          1,
+          2,
+          4,
+          7
+        ],
+        "walsh_numerators": [
+          4,
+          2,
+          2,
+          0,
+          2,
+          0,
+          0,
+          -2
+        ]
+      },
+      "minimum_fourier_l0_among_functions_depending_on_every_coordinate": 2,
+      "witness_depends_on_every_coordinate": {
+        "truth_mask": 105,
+        "truth_values": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          7
+        ],
+        "walsh_numerators": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "boolean_functions_checked": 65536,
+      "functions_with_each_singleton_coefficient_nonzero": 36864,
+      "minimum_fourier_l0_with_each_singleton_nonzero": 9,
+      "witness_each_singleton_nonzero": {
+        "truth_mask": 383,
+        "truth_values": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          1,
+          2,
+          4,
+          7,
+          8,
+          11,
+          13,
+          14
+        ],
+        "walsh_numerators": [
+          8,
+          2,
+          2,
+          0,
+          2,
+          0,
+          0,
+          2,
+          6,
+          0,
+          0,
+          -2,
+          0,
+          -2,
+          -2,
+          0
+        ]
+      },
+      "minimum_fourier_l0_among_functions_depending_on_every_coordinate": 2,
+      "witness_depends_on_every_coordinate": {
+        "truth_mask": 27030,
+        "truth_values": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "nonzero_spectrum_masks": [
+          0,
+          15
+        ],
+        "walsh_numerators": [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -8
+        ]
+      }
+    }
+  ],
+  "parity_counterexample_to_conflating_dependence_and_singletons": {
+    "n": 5,
+    "boolean_range": [
+      -1,
+      1
+    ],
+    "nonzero_fourier_masks": [
+      31
+    ],
+    "fourier_l0": 1,
+    "fourier_l1": 1,
+    "fourier_degree": 5,
+    "linear_span_dimension_over_F2": 1,
+    "depends_on_all_coordinates": true,
+    "all_singleton_fourier_coefficients_nonzero": false,
+    "all_coordinate_influences": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

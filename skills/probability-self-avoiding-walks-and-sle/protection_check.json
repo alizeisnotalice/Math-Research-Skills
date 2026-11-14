@@ -1,0 +1,1302 @@
+{
+  "final_mother_manifest_path": "evidence/root/reviews/R03/w23_mirror_L07_B10/stage_hashes.json",
+  "final_mother_manifest_sha256": "b8338806cdb5b48445c7551f9aa109a9dfe4d4d541082d0d667744eb79f814c1",
+  "final_mother_manifest_bindings": 76,
+  "final_mother_manifest_hash_mismatches": [],
+  "final_mother_manifest_missing_paths": [],
+  "all_76_final_mother_bindings_match": true,
+  "binding_file_checks": [
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/cards/W23-L07-B10-P50.md",
+      "R03_sha256": "e8ef143a26c104a8efd88ad9a117a5e63ddc168991fe13182540b08eac0d1f50",
+      "original_sha256": "e8ef143a26c104a8efd88ad9a117a5e63ddc168991fe13182540b08eac0d1f50",
+      "package_sha256": "e8ef143a26c104a8efd88ad9a117a5e63ddc168991fe13182540b08eac0d1f50",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/cards/W23-L07-B10-P56.md",
+      "R03_sha256": "d1dc6b3bc28f6f891c7868d8261a79f2249b6cd870348f53bde3c29a1bebd101",
+      "original_sha256": "d1dc6b3bc28f6f891c7868d8261a79f2249b6cd870348f53bde3c29a1bebd101",
+      "package_sha256": "d1dc6b3bc28f6f891c7868d8261a79f2249b6cd870348f53bde3c29a1bebd101",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/mapping.json",
+      "R03_sha256": "627b182ed4d34d9251ecab6c160462692c0c02f880ff2b168d6e7098205c777a",
+      "original_sha256": "627b182ed4d34d9251ecab6c160462692c0c02f880ff2b168d6e7098205c777a",
+      "package_sha256": "627b182ed4d34d9251ecab6c160462692c0c02f880ff2b168d6e7098205c777a",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/math/l07_b10_checks.py",
+      "R03_sha256": "db8c4f21f3b5a496e6c9619ad310210c8b7076f4d9830a20fc02970d4dd82f6d",
+      "original_sha256": "db8c4f21f3b5a496e6c9619ad310210c8b7076f4d9830a20fc02970d4dd82f6d",
+      "package_sha256": "db8c4f21f3b5a496e6c9619ad310210c8b7076f4d9830a20fc02970d4dd82f6d",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/math/l07_b10_checks_results.txt",
+      "R03_sha256": "518eb9ed3776bc1de41078a608b885a59b3fbd3315ed7d66efff5465180cfedd",
+      "original_sha256": "518eb9ed3776bc1de41078a608b885a59b3fbd3315ed7d66efff5465180cfedd",
+      "package_sha256": "518eb9ed3776bc1de41078a608b885a59b3fbd3315ed7d66efff5465180cfedd",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/reading_coverage.json",
+      "R03_sha256": "f3c4d5d70972a808d17718f90d6a3a8f9f031b8c304d981e97e4ea90d8f5cae3",
+      "original_sha256": "f3c4d5d70972a808d17718f90d6a3a8f9f031b8c304d981e97e4ea90d8f5cae3",
+      "package_sha256": "f3c4d5d70972a808d17718f90d6a3a8f9f031b8c304d981e97e4ea90d8f5cae3",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/review_response_R03.md",
+      "R03_sha256": "7b686f5122aac526a7f4c5c0ed1ffe3db45ba298d2d2d26e6228b536757be255",
+      "original_sha256": "7b686f5122aac526a7f4c5c0ed1ffe3db45ba298d2d2d26e6228b536757be255",
+      "package_sha256": "7b686f5122aac526a7f4c5c0ed1ffe3db45ba298d2d2d26e6228b536757be255",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/search-log.md",
+      "R03_sha256": "04979c9f3537d1df1dd92ed57cff6163be8b74cf4ed2c69c2a9dbd076f29d289",
+      "original_sha256": "04979c9f3537d1df1dd92ed57cff6163be8b74cf4ed2c69c2a9dbd076f29d289",
+      "package_sha256": "04979c9f3537d1df1dd92ed57cff6163be8b74cf4ed2c69c2a9dbd076f29d289",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/sourcepatch.json",
+      "R03_sha256": "155b213d996d01f2218cf3386b37eae6c6f8cc3a8593cd8f6f4dd4ca90d05eea",
+      "original_sha256": "155b213d996d01f2218cf3386b37eae6c6f8cc3a8593cd8f6f4dd4ca90d05eea",
+      "package_sha256": "155b213d996d01f2218cf3386b37eae6c6f8cc3a8593cd8f6f4dd4ca90d05eea",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/sources.json",
+      "R03_sha256": "0809e2bd044421f06d9ab5dcb1bf8b5ae822efefa365fdafbf7a2d2bffb9c58d",
+      "original_sha256": "0809e2bd044421f06d9ab5dcb1bf8b5ae822efefa365fdafbf7a2d2bffb9c58d",
+      "package_sha256": "0809e2bd044421f06d9ab5dcb1bf8b5ae822efefa365fdafbf7a2d2bffb9c58d",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/status.json",
+      "R03_sha256": "db5cb39b1c631a54d76088103105a100ffc3c96e3de3898099acdae5b8f4877a",
+      "original_sha256": "db5cb39b1c631a54d76088103105a100ffc3c96e3de3898099acdae5b8f4877a",
+      "package_sha256": "db5cb39b1c631a54d76088103105a100ffc3c96e3de3898099acdae5b8f4877a",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/P50.txt",
+      "R03_sha256": "aa9df1dcda3bcc46ae81580e0c36504b7aa7e62dcb24004813d2b0fa1a433378",
+      "original_sha256": "aa9df1dcda3bcc46ae81580e0c36504b7aa7e62dcb24004813d2b0fa1a433378",
+      "package_sha256": "aa9df1dcda3bcc46ae81580e0c36504b7aa7e62dcb24004813d2b0fa1a433378",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/P56.txt",
+      "R03_sha256": "113c7ed2aeac1c8b20de7e9fbb4ea65dcefdf9d8f2327b7b1b3048614ba2f259",
+      "original_sha256": "113c7ed2aeac1c8b20de7e9fbb4ea65dcefdf9d8f2327b7b1b3048614ba2f259",
+      "package_sha256": "113c7ed2aeac1c8b20de7e9fbb4ea65dcefdf9d8f2327b7b1b3048614ba2f259",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p13.png",
+      "R03_sha256": "3e4509cc801fea9ad537c0ace70ad42aeff423389de61376321a7e117f9f0a2b",
+      "original_sha256": "3e4509cc801fea9ad537c0ace70ad42aeff423389de61376321a7e117f9f0a2b",
+      "package_sha256": "3e4509cc801fea9ad537c0ace70ad42aeff423389de61376321a7e117f9f0a2b",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p14.png",
+      "R03_sha256": "1eb2e83e1825a6f3e26e9ed76be0d5674be2502d0e9d3208e25ac17997fc4e93",
+      "original_sha256": "1eb2e83e1825a6f3e26e9ed76be0d5674be2502d0e9d3208e25ac17997fc4e93",
+      "package_sha256": "1eb2e83e1825a6f3e26e9ed76be0d5674be2502d0e9d3208e25ac17997fc4e93",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p2.png",
+      "R03_sha256": "41d432f558a596b510f8cdb54be377bf83303739463324c56d65d00654366f98",
+      "original_sha256": "41d432f558a596b510f8cdb54be377bf83303739463324c56d65d00654366f98",
+      "package_sha256": "41d432f558a596b510f8cdb54be377bf83303739463324c56d65d00654366f98",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p24.png",
+      "R03_sha256": "d5f2b9e1a90febc24d66d072348bbc7b7da8af26917f5ae23af8c5b847c3c882",
+      "original_sha256": "d5f2b9e1a90febc24d66d072348bbc7b7da8af26917f5ae23af8c5b847c3c882",
+      "package_sha256": "d5f2b9e1a90febc24d66d072348bbc7b7da8af26917f5ae23af8c5b847c3c882",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p28.png",
+      "R03_sha256": "59b13111b116b976f83f5551e4c2c4a9767553077d384504e9f6eeade4a8475c",
+      "original_sha256": "59b13111b116b976f83f5551e4c2c4a9767553077d384504e9f6eeade4a8475c",
+      "package_sha256": "59b13111b116b976f83f5551e4c2c4a9767553077d384504e9f6eeade4a8475c",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p29.png",
+      "R03_sha256": "5397821da66708b3010572ce2fa412cc006ff5d79bdc70ba3902c3aa9d671ebb",
+      "original_sha256": "5397821da66708b3010572ce2fa412cc006ff5d79bdc70ba3902c3aa9d671ebb",
+      "package_sha256": "5397821da66708b3010572ce2fa412cc006ff5d79bdc70ba3902c3aa9d671ebb",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p31.png",
+      "R03_sha256": "199b5226915260f5c9f0b583a1a397d3158737d00b1e27e50021d2802eea5920",
+      "original_sha256": "199b5226915260f5c9f0b583a1a397d3158737d00b1e27e50021d2802eea5920",
+      "package_sha256": "199b5226915260f5c9f0b583a1a397d3158737d00b1e27e50021d2802eea5920",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p7.png",
+      "R03_sha256": "3d9b1654d8fcb286483570030aa3ba2d354a8e97197f55011ce5c8a6bbb8abd5",
+      "original_sha256": "3d9b1654d8fcb286483570030aa3ba2d354a8e97197f55011ce5c8a6bbb8abd5",
+      "package_sha256": "3d9b1654d8fcb286483570030aa3ba2d354a8e97197f55011ce5c8a6bbb8abd5",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p50-p9.png",
+      "R03_sha256": "1dcc623ce2d0c101c2180f04bb5d07970cb66f491867ab709456caf791411e2d",
+      "original_sha256": "1dcc623ce2d0c101c2180f04bb5d07970cb66f491867ab709456caf791411e2d",
+      "package_sha256": "1dcc623ce2d0c101c2180f04bb5d07970cb66f491867ab709456caf791411e2d",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p15.png",
+      "R03_sha256": "790b2bfa83ad44132ff6ff5463aa42d0a621c64ae9928d9d010a43d47e6d17fc",
+      "original_sha256": "790b2bfa83ad44132ff6ff5463aa42d0a621c64ae9928d9d010a43d47e6d17fc",
+      "package_sha256": "790b2bfa83ad44132ff6ff5463aa42d0a621c64ae9928d9d010a43d47e6d17fc",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p16.png",
+      "R03_sha256": "dc55c9fcc5979e4ca2dc91ec47ca65cb61217d44fa3db9d444b25432adac7843",
+      "original_sha256": "dc55c9fcc5979e4ca2dc91ec47ca65cb61217d44fa3db9d444b25432adac7843",
+      "package_sha256": "dc55c9fcc5979e4ca2dc91ec47ca65cb61217d44fa3db9d444b25432adac7843",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p20.png",
+      "R03_sha256": "1ff722c0a423dfb5791b2945d8a9f94e361a4fe5e1043392db071c6cf10572f1",
+      "original_sha256": "1ff722c0a423dfb5791b2945d8a9f94e361a4fe5e1043392db071c6cf10572f1",
+      "package_sha256": "1ff722c0a423dfb5791b2945d8a9f94e361a4fe5e1043392db071c6cf10572f1",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p28.png",
+      "R03_sha256": "950228f1a8aed871bf3bac2cbe241aa2df755c0426a3d39003509259f9f4657c",
+      "original_sha256": "950228f1a8aed871bf3bac2cbe241aa2df755c0426a3d39003509259f9f4657c",
+      "package_sha256": "950228f1a8aed871bf3bac2cbe241aa2df755c0426a3d39003509259f9f4657c",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p3.png",
+      "R03_sha256": "e6da9be81d75979417b63292a6155f76d85d6b66de3396fe711c07c428a5944b",
+      "original_sha256": "e6da9be81d75979417b63292a6155f76d85d6b66de3396fe711c07c428a5944b",
+      "package_sha256": "e6da9be81d75979417b63292a6155f76d85d6b66de3396fe711c07c428a5944b",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p39.png",
+      "R03_sha256": "9406c792dd3acc8c65f43d5caf4c1c9c4f72301763b262ca996cd52025394020",
+      "original_sha256": "9406c792dd3acc8c65f43d5caf4c1c9c4f72301763b262ca996cd52025394020",
+      "package_sha256": "9406c792dd3acc8c65f43d5caf4c1c9c4f72301763b262ca996cd52025394020",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p40.png",
+      "R03_sha256": "09ccf11fb6aa2cf83f241a0e26f8bdebec4ba416aecd47535df6212609f53ad3",
+      "original_sha256": "09ccf11fb6aa2cf83f241a0e26f8bdebec4ba416aecd47535df6212609f53ad3",
+      "package_sha256": "09ccf11fb6aa2cf83f241a0e26f8bdebec4ba416aecd47535df6212609f53ad3",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p50.png",
+      "R03_sha256": "9a59d671d9f46049f4c44d8920c2b941e0628fe29b9562cf4874db2c826d3861",
+      "original_sha256": "9a59d671d9f46049f4c44d8920c2b941e0628fe29b9562cf4874db2c826d3861",
+      "package_sha256": "9a59d671d9f46049f4c44d8920c2b941e0628fe29b9562cf4874db2c826d3861",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p52.png",
+      "R03_sha256": "6b903065e96abae7d2dc73b86f331ebcdac270ec3a4b70c160c0f293ff46a41d",
+      "original_sha256": "6b903065e96abae7d2dc73b86f331ebcdac270ec3a4b70c160c0f293ff46a41d",
+      "package_sha256": "6b903065e96abae7d2dc73b86f331ebcdac270ec3a4b70c160c0f293ff46a41d",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p54.png",
+      "R03_sha256": "da193646eae195e45e7c007b11e130276542171c660835af9fb5789725a2e1ab",
+      "original_sha256": "da193646eae195e45e7c007b11e130276542171c660835af9fb5789725a2e1ab",
+      "package_sha256": "da193646eae195e45e7c007b11e130276542171c660835af9fb5789725a2e1ab",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/text/p56-p57.png",
+      "R03_sha256": "3cd8648177024cf60c66131770bc862e39b01699900374be506a06c0365f7e4e",
+      "original_sha256": "3cd8648177024cf60c66131770bc862e39b01699900374be506a06c0365f7e4e",
+      "package_sha256": "3cd8648177024cf60c66131770bc862e39b01699900374be506a06c0365f7e4e",
+      "match": true
+    },
+    {
+      "repo_relative": "downloads/D02/saw_B3/papers/SAW-P50-trails-kites-patterns.pdf",
+      "R03_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "original_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "package_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "match": true
+    },
+    {
+      "repo_relative": "downloads/D02/saw_B3/papers/SAW-P56-weak-SAW-4D-RG.pdf",
+      "R03_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "original_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "package_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/freeze.json",
+      "R03_sha256": "6ec9e13b4498e85c5e3d6c289120367596cc08e9fafbb5c768a7bbe2b324f63e",
+      "original_sha256": "6ec9e13b4498e85c5e3d6c289120367596cc08e9fafbb5c768a7bbe2b324f63e",
+      "package_sha256": "6ec9e13b4498e85c5e3d6c289120367596cc08e9fafbb5c768a7bbe2b324f63e",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reader_batches/L07_B10/freeze.sha256",
+      "R03_sha256": "41cc64902af3b0249d30aed3a4287bd49072d37e823b0f311e42c20bd22c6a21",
+      "original_sha256": "41cc64902af3b0249d30aed3a4287bd49072d37e823b0f311e42c20bd22c6a21",
+      "package_sha256": "41cc64902af3b0249d30aed3a4287bd49072d37e823b0f311e42c20bd22c6a21",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S001.md",
+      "R03_sha256": "4a84a986a308d513c3d63197c746e2efa2a2bb79ca150ec67988ea3bfeeded10",
+      "original_sha256": "4a84a986a308d513c3d63197c746e2efa2a2bb79ca150ec67988ea3bfeeded10",
+      "package_sha256": "4a84a986a308d513c3d63197c746e2efa2a2bb79ca150ec67988ea3bfeeded10",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S002.md",
+      "R03_sha256": "d0148c3378f2d14eeee251501430c4c13cd63547ff516b34c301cc77320a5016",
+      "original_sha256": "d0148c3378f2d14eeee251501430c4c13cd63547ff516b34c301cc77320a5016",
+      "package_sha256": "d0148c3378f2d14eeee251501430c4c13cd63547ff516b34c301cc77320a5016",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S003.md",
+      "R03_sha256": "fd325325e37a22ef23eeb2a07e062b90db10b1fd3937ab255371299ed54a49f2",
+      "original_sha256": "fd325325e37a22ef23eeb2a07e062b90db10b1fd3937ab255371299ed54a49f2",
+      "package_sha256": "fd325325e37a22ef23eeb2a07e062b90db10b1fd3937ab255371299ed54a49f2",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S004-usage.md",
+      "R03_sha256": "76eae78c2694c606a7abb2700e084f9c20fd1c2c6625ffec325f5c2fdcaca39a",
+      "original_sha256": "76eae78c2694c606a7abb2700e084f9c20fd1c2c6625ffec325f5c2fdcaca39a",
+      "package_sha256": "76eae78c2694c606a7abb2700e084f9c20fd1c2c6625ffec325f5c2fdcaca39a",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S005-usage.md",
+      "R03_sha256": "d545d05eaa1554fdc93b54fa2edd633e5d11d6dc3d9ec4c55bad75ca9c497285",
+      "original_sha256": "d545d05eaa1554fdc93b54fa2edd633e5d11d6dc3d9ec4c55bad75ca9c497285",
+      "package_sha256": "d545d05eaa1554fdc93b54fa2edd633e5d11d6dc3d9ec4c55bad75ca9c497285",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S006.md",
+      "R03_sha256": "0ccf1df9ae26f3953ea896b61ab5aaaae2287a3588d2f48784dc2f1033e64539",
+      "original_sha256": "0ccf1df9ae26f3953ea896b61ab5aaaae2287a3588d2f48784dc2f1033e64539",
+      "package_sha256": "0ccf1df9ae26f3953ea896b61ab5aaaae2287a3588d2f48784dc2f1033e64539",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S007.md",
+      "R03_sha256": "d124489e0e529b1848f1ba39d64b9f4859e4da33c61de2e7e0178fe788b7cb49",
+      "original_sha256": "d124489e0e529b1848f1ba39d64b9f4859e4da33c61de2e7e0178fe788b7cb49",
+      "package_sha256": "d124489e0e529b1848f1ba39d64b9f4859e4da33c61de2e7e0178fe788b7cb49",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S008.md",
+      "R03_sha256": "167098c073ef5297635b1ee11fb0051a5b61e44c14d31f274ab82fe1f3ed4a6e",
+      "original_sha256": "167098c073ef5297635b1ee11fb0051a5b61e44c14d31f274ab82fe1f3ed4a6e",
+      "package_sha256": "167098c073ef5297635b1ee11fb0051a5b61e44c14d31f274ab82fe1f3ed4a6e",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S009.md",
+      "R03_sha256": "dfaeae307e90a66706764ad832d529afd5b30e578cb8100dc409830a6108d9b2",
+      "original_sha256": "dfaeae307e90a66706764ad832d529afd5b30e578cb8100dc409830a6108d9b2",
+      "package_sha256": "dfaeae307e90a66706764ad832d529afd5b30e578cb8100dc409830a6108d9b2",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S010.md",
+      "R03_sha256": "b29be7fc67a76741d6b8c587aa71dde388c9f6b913137d4b320b40bade0f1225",
+      "original_sha256": "b29be7fc67a76741d6b8c587aa71dde388c9f6b913137d4b320b40bade0f1225",
+      "package_sha256": "b29be7fc67a76741d6b8c587aa71dde388c9f6b913137d4b320b40bade0f1225",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S011.md",
+      "R03_sha256": "0590a4eefd51a11a5055a5aa1394dea9c277ab0a663b890b1c6213dd754629d5",
+      "original_sha256": "0590a4eefd51a11a5055a5aa1394dea9c277ab0a663b890b1c6213dd754629d5",
+      "package_sha256": "0590a4eefd51a11a5055a5aa1394dea9c277ab0a663b890b1c6213dd754629d5",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S012.md",
+      "R03_sha256": "7c1b55e74da98de13c9ce17c7c6a852b7b5836a940dffa365a665068da53c4c8",
+      "original_sha256": "7c1b55e74da98de13c9ce17c7c6a852b7b5836a940dffa365a665068da53c4c8",
+      "package_sha256": "7c1b55e74da98de13c9ce17c7c6a852b7b5836a940dffa365a665068da53c4c8",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S013.md",
+      "R03_sha256": "ad0bcac73e451125ba1ea0884fe602898520d599d5922fe91965221a927d27be",
+      "original_sha256": "ad0bcac73e451125ba1ea0884fe602898520d599d5922fe91965221a927d27be",
+      "package_sha256": "ad0bcac73e451125ba1ea0884fe602898520d599d5922fe91965221a927d27be",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S014.md",
+      "R03_sha256": "bbc0923b036438c69530167764d7cca09d967c98be3af4dbbf1ee9d80ef16373",
+      "original_sha256": "bbc0923b036438c69530167764d7cca09d967c98be3af4dbbf1ee9d80ef16373",
+      "package_sha256": "bbc0923b036438c69530167764d7cca09d967c98be3af4dbbf1ee9d80ef16373",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S015.md",
+      "R03_sha256": "2aed2f9af72bef6db299698c6ba3bc80ccbf1dd9a0269c64cd517d33be3945f0",
+      "original_sha256": "2aed2f9af72bef6db299698c6ba3bc80ccbf1dd9a0269c64cd517d33be3945f0",
+      "package_sha256": "2aed2f9af72bef6db299698c6ba3bc80ccbf1dd9a0269c64cd517d33be3945f0",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S016.md",
+      "R03_sha256": "7546fbadc4999fc43ec02c34a1e1e100b81c851cfda3eb4bf0d45cf1ff816968",
+      "original_sha256": "7546fbadc4999fc43ec02c34a1e1e100b81c851cfda3eb4bf0d45cf1ff816968",
+      "package_sha256": "7546fbadc4999fc43ec02c34a1e1e100b81c851cfda3eb4bf0d45cf1ff816968",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S017.md",
+      "R03_sha256": "43eebb27a2a4603b6cf1911cb439f33456c7c737f39dc40f7fe5e95dc963c6f4",
+      "original_sha256": "43eebb27a2a4603b6cf1911cb439f33456c7c737f39dc40f7fe5e95dc963c6f4",
+      "package_sha256": "43eebb27a2a4603b6cf1911cb439f33456c7c737f39dc40f7fe5e95dc963c6f4",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S018.md",
+      "R03_sha256": "db9b61e12c7834bb4a710b87a9bf82a40aac2dae46b133c9e93cf5baf4d5e7d7",
+      "original_sha256": "db9b61e12c7834bb4a710b87a9bf82a40aac2dae46b133c9e93cf5baf4d5e7d7",
+      "package_sha256": "db9b61e12c7834bb4a710b87a9bf82a40aac2dae46b133c9e93cf5baf4d5e7d7",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S019.md",
+      "R03_sha256": "492a73b5e4c9033a9d4fe8e92663239c8b1cd798817a9b6bf85cb19c72d7da3b",
+      "original_sha256": "492a73b5e4c9033a9d4fe8e92663239c8b1cd798817a9b6bf85cb19c72d7da3b",
+      "package_sha256": "492a73b5e4c9033a9d4fe8e92663239c8b1cd798817a9b6bf85cb19c72d7da3b",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S020.md",
+      "R03_sha256": "40da37f3869d07d81cea2bf4bb6a38422368a16b59f27782ce22a84e1ca55292",
+      "original_sha256": "40da37f3869d07d81cea2bf4bb6a38422368a16b59f27782ce22a84e1ca55292",
+      "package_sha256": "40da37f3869d07d81cea2bf4bb6a38422368a16b59f27782ce22a84e1ca55292",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S021.md",
+      "R03_sha256": "c60f1428c352b2265bf5b838423b6f6a9549eafad7da4ab01866d30511530d66",
+      "original_sha256": "c60f1428c352b2265bf5b838423b6f6a9549eafad7da4ab01866d30511530d66",
+      "package_sha256": "c60f1428c352b2265bf5b838423b6f6a9549eafad7da4ab01866d30511530d66",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S022.md",
+      "R03_sha256": "f574641f8310ad16db2b330ac5c5729fd2dd40de8e57b717f560e700000857b7",
+      "original_sha256": "f574641f8310ad16db2b330ac5c5729fd2dd40de8e57b717f560e700000857b7",
+      "package_sha256": "f574641f8310ad16db2b330ac5c5729fd2dd40de8e57b717f560e700000857b7",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S023.md",
+      "R03_sha256": "6d743bdf64e84e9056d64ed627b36dc4c28e8b1974b271f0b1ef08030be223bb",
+      "original_sha256": "6d743bdf64e84e9056d64ed627b36dc4c28e8b1974b271f0b1ef08030be223bb",
+      "package_sha256": "6d743bdf64e84e9056d64ed627b36dc4c28e8b1974b271f0b1ef08030be223bb",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S024.md",
+      "R03_sha256": "24eef9e21f953f981f365089b27a6e69cb846db8fb04e74fb8d6dd81f4485b2a",
+      "original_sha256": "24eef9e21f953f981f365089b27a6e69cb846db8fb04e74fb8d6dd81f4485b2a",
+      "package_sha256": "24eef9e21f953f981f365089b27a6e69cb846db8fb04e74fb8d6dd81f4485b2a",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S025.md",
+      "R03_sha256": "beb362b78288692801dec6ecfb6a3f249084a5627750a2de2f0b34cee11d24db",
+      "original_sha256": "beb362b78288692801dec6ecfb6a3f249084a5627750a2de2f0b34cee11d24db",
+      "package_sha256": "beb362b78288692801dec6ecfb6a3f249084a5627750a2de2f0b34cee11d24db",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S026.md",
+      "R03_sha256": "b4bd95a547b2833113ca3e554ef7ef1e4a9b9d8941ef21753b978f7e81dc2735",
+      "original_sha256": "b4bd95a547b2833113ca3e554ef7ef1e4a9b9d8941ef21753b978f7e81dc2735",
+      "package_sha256": "b4bd95a547b2833113ca3e554ef7ef1e4a9b9d8941ef21753b978f7e81dc2735",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S027.md",
+      "R03_sha256": "96db4bfac4682fd8b4ba8681c28910cbf612c5ed87d28c0e5d3869972e9a1509",
+      "original_sha256": "96db4bfac4682fd8b4ba8681c28910cbf612c5ed87d28c0e5d3869972e9a1509",
+      "package_sha256": "96db4bfac4682fd8b4ba8681c28910cbf612c5ed87d28c0e5d3869972e9a1509",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S028.md",
+      "R03_sha256": "0dd6e5d95257d5e9a4a2fba393b061281268dd6671fdb36d359ac7135d6d58fb",
+      "original_sha256": "0dd6e5d95257d5e9a4a2fba393b061281268dd6671fdb36d359ac7135d6d58fb",
+      "package_sha256": "0dd6e5d95257d5e9a4a2fba393b061281268dd6671fdb36d359ac7135d6d58fb",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/sources.json",
+      "R03_sha256": "439586ef5927addff6a36542fb32b3f0de766514bbd04c578d392d3ca42a6c16",
+      "original_sha256": "439586ef5927addff6a36542fb32b3f0de766514bbd04c578d392d3ca42a6c16",
+      "package_sha256": "439586ef5927addff6a36542fb32b3f0de766514bbd04c578d392d3ca42a6c16",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/reading_coverage.json",
+      "R03_sha256": "e7074787b1e2ba078d663ef12df0140a607b97d8363b3134da8aa2c1792c21fb",
+      "original_sha256": "e7074787b1e2ba078d663ef12df0140a607b97d8363b3134da8aa2c1792c21fb",
+      "package_sha256": "e7074787b1e2ba078d663ef12df0140a607b97d8363b3134da8aa2c1792c21fb",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/mapping.json",
+      "R03_sha256": "2c9252ec60652cde5cbe855d283f29a662de9833bb5f82e94a573491e41c414c",
+      "original_sha256": "2c9252ec60652cde5cbe855d283f29a662de9833bb5f82e94a573491e41c414c",
+      "package_sha256": "2c9252ec60652cde5cbe855d283f29a662de9833bb5f82e94a573491e41c414c",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/status.json",
+      "R03_sha256": "039c5506c4290a35e98414cb205342b8e674e2df3cfaa619f2d32ec9d80dc385",
+      "original_sha256": "039c5506c4290a35e98414cb205342b8e674e2df3cfaa619f2d32ec9d80dc385",
+      "package_sha256": "039c5506c4290a35e98414cb205342b8e674e2df3cfaa619f2d32ec9d80dc385",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S029.md",
+      "R03_sha256": "848d249cbfb4d08a5b9acdebf8adeb19185fd66834bb317fc43fffe16c4de34d",
+      "original_sha256": "848d249cbfb4d08a5b9acdebf8adeb19185fd66834bb317fc43fffe16c4de34d",
+      "package_sha256": "848d249cbfb4d08a5b9acdebf8adeb19185fd66834bb317fc43fffe16c4de34d",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/cards/W23S030.md",
+      "R03_sha256": "29908e5d74052c6e42af592d93fa945cff2a326d0ce54c647481337908bc6308",
+      "original_sha256": "29908e5d74052c6e42af592d93fa945cff2a326d0ce54c647481337908bc6308",
+      "package_sha256": "29908e5d74052c6e42af592d93fa945cff2a326d0ce54c647481337908bc6308",
+      "match": true
+    },
+    {
+      "repo_relative": "reviews/R03/w23_L07_B10/final_review.json",
+      "R03_sha256": "6ad4af2eba20316e9555d77837cc557f6b45d71eb4f673166532bd1369e3feaf",
+      "original_sha256": "6ad4af2eba20316e9555d77837cc557f6b45d71eb4f673166532bd1369e3feaf",
+      "package_sha256": "6ad4af2eba20316e9555d77837cc557f6b45d71eb4f673166532bd1369e3feaf",
+      "match": true
+    },
+    {
+      "repo_relative": "reviews/R03/w23_L07_B10/final_review.md",
+      "R03_sha256": "b7ab062fb086924bf51faff6ca00c4a7f24f6fd62d0473a5a68b20bdbf044277",
+      "original_sha256": "b7ab062fb086924bf51faff6ca00c4a7f24f6fd62d0473a5a68b20bdbf044277",
+      "package_sha256": "b7ab062fb086924bf51faff6ca00c4a7f24f6fd62d0473a5a68b20bdbf044277",
+      "match": true
+    },
+    {
+      "repo_relative": "reviews/R03/w23_L07_B10/final_stage_hashes.json",
+      "R03_sha256": "89157e38f8c85b0fd7cc86c528da44eb5f621c2a3eafd455156cccb4a234b836",
+      "original_sha256": "89157e38f8c85b0fd7cc86c528da44eb5f621c2a3eafd455156cccb4a234b836",
+      "package_sha256": "89157e38f8c85b0fd7cc86c528da44eb5f621c2a3eafd455156cccb4a234b836",
+      "match": true
+    },
+    {
+      "repo_relative": "workers/W23/mirror_manifest_L07_B10.json",
+      "R03_sha256": "915f35663c16526fe42a85a4cb2be64e8c2d69e6bf10744c646626c2d71a55de",
+      "original_sha256": "915f35663c16526fe42a85a4cb2be64e8c2d69e6bf10744c646626c2d71a55de",
+      "package_sha256": "915f35663c16526fe42a85a4cb2be64e8c2d69e6bf10744c646626c2d71a55de",
+      "match": true
+    },
+    {
+      "repo_relative": "reviews/R03/review.json",
+      "R03_sha256": "1271517545da5d0a3cfcef95f6288152b115a85c534b0f5854f0713cc11b4764",
+      "original_sha256": "1271517545da5d0a3cfcef95f6288152b115a85c534b0f5854f0713cc11b4764",
+      "package_sha256": "1271517545da5d0a3cfcef95f6288152b115a85c534b0f5854f0713cc11b4764",
+      "match": true
+    }
+  ],
+  "source_pdf_checks": [
+    {
+      "local_id": "W23S001",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/honeycomb.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/honeycomb.pdf",
+      "expected_sha256": "11335571f5118514b5f761ad3d750e11b5537b1390aa3444742339b86e65bb8a",
+      "original_sha256": "11335571f5118514b5f761ad3d750e11b5537b1390aa3444742339b86e65bb8a",
+      "package_sha256": "11335571f5118514b5f761ad3d750e11b5537b1390aa3444742339b86e65bb8a",
+      "bytes": 340228,
+      "pdfinfo_pages": 11,
+      "expected_page_count": 11,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S002",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/polygon_insertion.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/polygon_insertion.pdf",
+      "expected_sha256": "a9fa6fda92abda1a20eca0f378b1565e37e8afa69f58a2a57acc0482b270d8f3",
+      "original_sha256": "a9fa6fda92abda1a20eca0f378b1565e37e8afa69f58a2a57acc0482b270d8f3",
+      "package_sha256": "a9fa6fda92abda1a20eca0f378b1565e37e8afa69f58a2a57acc0482b270d8f3",
+      "bytes": 1391823,
+      "pdfinfo_pages": 56,
+      "expected_page_count": 56,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S003",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/lacoin_planar.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/lacoin_planar.pdf",
+      "expected_sha256": "1a681dbf7831f0f5ecf8d555083fbf60367592e550d11cd4a384566182bbcb69",
+      "original_sha256": "1a681dbf7831f0f5ecf8d555083fbf60367592e550d11cd4a384566182bbcb69",
+      "package_sha256": "1a681dbf7831f0f5ecf8d555083fbf60367592e550d11cd4a384566182bbcb69",
+      "bytes": 325501,
+      "pdfinfo_pages": 25,
+      "expected_page_count": 25,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S004",
+      "original_repo_relative": "workers/W08/papers/beffara_sle_dimension.pdf",
+      "package_path": "evidence/root/workers/W08/papers/beffara_sle_dimension.pdf",
+      "expected_sha256": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+      "original_sha256": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+      "package_sha256": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+      "bytes": 388590,
+      "pdfinfo_pages": 33,
+      "expected_page_count": 33,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S005",
+      "original_repo_relative": "workers/W08/papers/rohde_schramm_basic_sle.pdf",
+      "package_path": "evidence/root/workers/W08/papers/rohde_schramm_basic_sle.pdf",
+      "expected_sha256": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+      "original_sha256": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+      "package_sha256": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+      "bytes": 570261,
+      "pdfinfo_pages": 51,
+      "expected_page_count": 51,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S006",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/lecture_notes.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/lecture_notes.pdf",
+      "expected_sha256": "48c4c9d89ff352a28de9e3e43dc92b7e2bca4e7a758cacac3503aaa58e6727a6",
+      "original_sha256": "48c4c9d89ff352a28de9e3e43dc92b7e2bca4e7a758cacac3503aaa58e6727a6",
+      "package_sha256": "48c4c9d89ff352a28de9e3e43dc92b7e2bca4e7a758cacac3503aaa58e6727a6",
+      "bytes": 873839,
+      "pdfinfo_pages": 73,
+      "expected_page_count": 73,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S007",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/subballistic.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/subballistic.pdf",
+      "expected_sha256": "305f1a61d23c0bd2241530e054874f74bea0a95b08010fc9087e6ad7f1f7c8d6",
+      "original_sha256": "305f1a61d23c0bd2241530e054874f74bea0a95b08010fc9087e6ad7f1f7c8d6",
+      "package_sha256": "305f1a61d23c0bd2241530e054874f74bea0a95b08010fc9087e6ad7f1f7c8d6",
+      "bytes": 334164,
+      "pdfinfo_pages": 27,
+      "expected_page_count": 27,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S008",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P07-connective-regular-graphs.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P07-connective-regular-graphs.pdf",
+      "expected_sha256": "6c51e9b417bf6ac4817731e6d2d9695ea577a72b5fa7daefcca03406c2bd1bed",
+      "original_sha256": "6c51e9b417bf6ac4817731e6d2d9695ea577a72b5fa7daefcca03406c2bd1bed",
+      "package_sha256": "6c51e9b417bf6ac4817731e6d2d9695ea577a72b5fa7daefcca03406c2bd1bed",
+      "bytes": 385523,
+      "pdfinfo_pages": 15,
+      "expected_page_count": 15,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S009",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P09-strict-connective-constants.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P09-strict-connective-constants.pdf",
+      "expected_sha256": "d6e97e8cc626ab63ff78c9e71341ac334f6c085538c5a6699ae1291a7ba60b70",
+      "original_sha256": "d6e97e8cc626ab63ff78c9e71341ac334f6c085538c5a6699ae1291a7ba60b70",
+      "package_sha256": "d6e97e8cc626ab63ff78c9e71341ac334f6c085538c5a6699ae1291a7ba60b70",
+      "bytes": 573067,
+      "pdfinfo_pages": 37,
+      "expected_page_count": 37,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S010",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P10-extendable-walks.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P10-extendable-walks.pdf",
+      "expected_sha256": "f1db55afeaf19319764f8f6c5f87616f300e3d7f25de5834316bf602ce3874ba",
+      "original_sha256": "f1db55afeaf19319764f8f6c5f87616f300e3d7f25de5834316bf602ce3874ba",
+      "package_sha256": "f1db55afeaf19319764f8f6c5f87616f300e3d7f25de5834316bf602ce3874ba",
+      "bytes": 208108,
+      "pdfinfo_pages": 15,
+      "expected_page_count": 15,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S011",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P11-locality-connective-constants.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P11-locality-connective-constants.pdf",
+      "expected_sha256": "0db12154d0cf548abf542dd67fa8d2d7dd714f3b1e1dd874e878fd17d9c20dc0",
+      "original_sha256": "0db12154d0cf548abf542dd67fa8d2d7dd714f3b1e1dd874e878fd17d9c20dc0",
+      "package_sha256": "0db12154d0cf548abf542dd67fa8d2d7dd714f3b1e1dd874e878fd17d9c20dc0",
+      "bytes": 538239,
+      "pdfinfo_pages": 25,
+      "expected_page_count": 25,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S012",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P13-weighted-self-avoiding-walks.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P13-weighted-self-avoiding-walks.pdf",
+      "expected_sha256": "faf14f9216dc2588d7b7eb8c5e0d6ef1968c10c57358a0d23078bec6f6139cc9",
+      "original_sha256": "faf14f9216dc2588d7b7eb8c5e0d6ef1968c10c57358a0d23078bec6f6139cc9",
+      "package_sha256": "faf14f9216dc2588d7b7eb8c5e0d6ef1968c10c57358a0d23078bec6f6139cc9",
+      "bytes": 536006,
+      "pdfinfo_pages": 27,
+      "expected_page_count": 27,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S013",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P14-general-bridge-theorem.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P14-general-bridge-theorem.pdf",
+      "expected_sha256": "554b3d961903e16ce3bd14cbba9d8b816ac447299f889203daa6ae5cf52e44cb",
+      "original_sha256": "554b3d961903e16ce3bd14cbba9d8b816ac447299f889203daa6ae5cf52e44cb",
+      "package_sha256": "554b3d961903e16ce3bd14cbba9d8b816ac447299f889203daa6ae5cf52e44cb",
+      "bytes": 204095,
+      "pdfinfo_pages": 14,
+      "expected_page_count": 14,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S014",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P16-hammersley-welsh-revisited.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P16-hammersley-welsh-revisited.pdf",
+      "expected_sha256": "195f25f1669c44a1c7ad9e1a7c498955eb1299101fa9269e528777e1f9985c89",
+      "original_sha256": "195f25f1669c44a1c7ad9e1a7c498955eb1299101fa9269e528777e1f9985c89",
+      "package_sha256": "195f25f1669c44a1c7ad9e1a7c498955eb1299101fa9269e528777e1f9985c89",
+      "bytes": 149687,
+      "pdfinfo_pages": 9,
+      "expected_page_count": 9,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S015",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P18-quantitative-hex-subballistic.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P18-quantitative-hex-subballistic.pdf",
+      "expected_sha256": "fc97832c6fa06e4e2e5ad69d1b56edee7f34ebc63d5a325c637776a431baed9a",
+      "original_sha256": "fc97832c6fa06e4e2e5ad69d1b56edee7f34ebc63d5a325c637776a431baed9a",
+      "package_sha256": "fc97832c6fa06e4e2e5ad69d1b56edee7f34ebc63d5a325c637776a431baed9a",
+      "bytes": 595173,
+      "pdfinfo_pages": 21,
+      "expected_page_count": 21,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S016",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P24-honeycomb-adsorption.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P24-honeycomb-adsorption.pdf",
+      "expected_sha256": "05fe44729563afec09bdefd046ce96c9216fc6034fa959d6376f455eff2d5772",
+      "original_sha256": "05fe44729563afec09bdefd046ce96c9216fc6034fa959d6376f455eff2d5772",
+      "package_sha256": "05fe44729563afec09bdefd046ce96c9216fc6034fa959d6376f455eff2d5772",
+      "bytes": 778227,
+      "pdfinfo_pages": 25,
+      "expected_page_count": 25,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S017",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P31-high-d-quenched-separation.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P31-high-d-quenched-separation.pdf",
+      "expected_sha256": "313cb1b9c440371cf59559d6d07ef9260170c184fa6bb3d2cb88556c40301457",
+      "original_sha256": "313cb1b9c440371cf59559d6d07ef9260170c184fa6bb3d2cb88556c40301457",
+      "package_sha256": "313cb1b9c440371cf59559d6d07ef9260170c184fa6bb3d2cb88556c40301457",
+      "bytes": 269573,
+      "pdfinfo_pages": 21,
+      "expected_page_count": 21,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S018",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P41-connective-constant-lower-bounds.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P41-connective-constant-lower-bounds.pdf",
+      "expected_sha256": "4bbc701b44c6b5cf3455f0dcb4935b71a3f95db9933ffcc6a96dcccc17059163",
+      "original_sha256": "4bbc701b44c6b5cf3455f0dcb4935b71a3f95db9933ffcc6a96dcccc17059163",
+      "package_sha256": "4bbc701b44c6b5cf3455f0dcb4935b71a3f95db9933ffcc6a96dcccc17059163",
+      "bytes": 338270,
+      "pdfinfo_pages": 35,
+      "expected_page_count": 35,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S019",
+      "original_repo_relative": "downloads/D01/saw_pool/papers/SAW-P45-high-d-correlation-decay.pdf",
+      "package_path": "evidence/root/downloads/D01/saw_pool/papers/SAW-P45-high-d-correlation-decay.pdf",
+      "expected_sha256": "34368f98803701fe89ea64bc7f7d39c7f527815b30d65c11062b8e8c04f19008",
+      "original_sha256": "34368f98803701fe89ea64bc7f7d39c7f527815b30d65c11062b8e8c04f19008",
+      "package_sha256": "34368f98803701fe89ea64bc7f7d39c7f527815b30d65c11062b8e8c04f19008",
+      "bytes": 782311,
+      "pdfinfo_pages": 66,
+      "expected_page_count": 66,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S020",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P46-fisher-transformation.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P46-fisher-transformation.pdf",
+      "expected_sha256": "c4d3fa8747287baf4528408c0c2d70e845d2fa585f6a34ca0e9fca934b67f986",
+      "original_sha256": "c4d3fa8747287baf4528408c0c2d70e845d2fa585f6a34ca0e9fca934b67f986",
+      "package_sha256": "c4d3fa8747287baf4528408c0c2d70e845d2fa585f6a34ca0e9fca934b67f986",
+      "bytes": 374310,
+      "pdfinfo_pages": 15,
+      "expected_page_count": 15,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S021",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P47-amenability.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P47-amenability.pdf",
+      "expected_sha256": "37bfbea410ab03d473fb65faa3f4133ead27caa9003e56e7326e2a95dfe1186d",
+      "original_sha256": "37bfbea410ab03d473fb65faa3f4133ead27caa9003e56e7326e2a95dfe1186d",
+      "package_sha256": "37bfbea410ab03d473fb65faa3f4133ead27caa9003e56e7326e2a95dfe1186d",
+      "bytes": 544337,
+      "pdfinfo_pages": 27,
+      "expected_page_count": 27,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S022",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P49-hyperbolic-graphs.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P49-hyperbolic-graphs.pdf",
+      "expected_sha256": "34081c628865d11cd0945905f6f01760c4bb853043ca42d297793cb6f94e44c1",
+      "original_sha256": "34081c628865d11cd0945905f6f01760c4bb853043ca42d297793cb6f94e44c1",
+      "package_sha256": "34081c628865d11cd0945905f6f01760c4bb853043ca42d297793cb6f94e44c1",
+      "bytes": 589888,
+      "pdfinfo_pages": 35,
+      "expected_page_count": 35,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S023",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P52-discrete-holomorphic-parafermions.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P52-discrete-holomorphic-parafermions.pdf",
+      "expected_sha256": "4e688bd1f86fdeca54423d7b861d23d3327d52a4d05fc62eb1ef4cc175973682",
+      "original_sha256": "4e688bd1f86fdeca54423d7b861d23d3327d52a4d05fc62eb1ef4cc175973682",
+      "package_sha256": "4e688bd1f86fdeca54423d7b861d23d3327d52a4d05fc62eb1ef4cc175973682",
+      "bytes": 188476,
+      "pdfinfo_pages": 13,
+      "expected_page_count": 13,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S024",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P53-random-quadrangulations-SLE.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P53-random-quadrangulations-SLE.pdf",
+      "expected_sha256": "861ea5f8700e5b213b17bfc5a0b8f961306d1abdd1ef3514dde32d3a379ccfda",
+      "original_sha256": "861ea5f8700e5b213b17bfc5a0b8f961306d1abdd1ef3514dde32d3a379ccfda",
+      "package_sha256": "861ea5f8700e5b213b17bfc5a0b8f961306d1abdd1ef3514dde32d3a379ccfda",
+      "bytes": 2262327,
+      "pdfinfo_pages": 81,
+      "expected_page_count": 81,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S025",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P55-hypercube.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P55-hypercube.pdf",
+      "expected_sha256": "8d2098873244bf55233954e401f3ad03e2c1318203bbbfd9f7d7f5389ed439b3",
+      "original_sha256": "8d2098873244bf55233954e401f3ad03e2c1318203bbbfd9f7d7f5389ed439b3",
+      "package_sha256": "8d2098873244bf55233954e401f3ad03e2c1318203bbbfd9f7d7f5389ed439b3",
+      "bytes": 556982,
+      "pdfinfo_pages": 45,
+      "expected_page_count": 45,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S026",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P48-quantitative-subballisticity-Zd.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P48-quantitative-subballisticity-Zd.pdf",
+      "expected_sha256": "5a2268f796ece0ea6140d05073e698101be6f0b8d33ac1d54c99cd7fd2de13b9",
+      "original_sha256": "5a2268f796ece0ea6140d05073e698101be6f0b8d33ac1d54c99cd7fd2de13b9",
+      "package_sha256": "5a2268f796ece0ea6140d05073e698101be6f0b8d33ac1d54c99cd7fd2de13b9",
+      "bytes": 527718,
+      "pdfinfo_pages": 33,
+      "expected_page_count": 33,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S027",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P51-grigorchuk-connective-constants.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P51-grigorchuk-connective-constants.pdf",
+      "expected_sha256": "6503fb5b5d89e4d21e4b7ab9ce1bfcad65234b0554cd419c53098e7da021e451",
+      "original_sha256": "6503fb5b5d89e4d21e4b7ab9ce1bfcad65234b0554cd419c53098e7da021e451",
+      "package_sha256": "6503fb5b5d89e4d21e4b7ab9ce1bfcad65234b0554cd419c53098e7da021e451",
+      "bytes": 944252,
+      "pdfinfo_pages": 21,
+      "expected_page_count": 21,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S028",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P54-spreadout-lace-expansion.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P54-spreadout-lace-expansion.pdf",
+      "expected_sha256": "f7b394e4a5ba6a746fbc3ee511c8627f68fb9f75aecbdff911da500b729bc35d",
+      "original_sha256": "f7b394e4a5ba6a746fbc3ee511c8627f68fb9f75aecbdff911da500b729bc35d",
+      "package_sha256": "f7b394e4a5ba6a746fbc3ee511c8627f68fb9f75aecbdff911da500b729bc35d",
+      "bytes": 550765,
+      "pdfinfo_pages": 53,
+      "expected_page_count": 53,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S029",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P50-trails-kites-patterns.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P50-trails-kites-patterns.pdf",
+      "expected_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "original_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "package_sha256": "2f5bc2d6991d43644239df3948ce3bbbca2cf8fca7afddd5218537fddb57b688",
+      "bytes": 586513,
+      "pdfinfo_pages": 34,
+      "expected_page_count": 34,
+      "byte_identical": true,
+      "page_count_matches": true
+    },
+    {
+      "local_id": "W23S030",
+      "original_repo_relative": "downloads/D02/saw_B3/papers/SAW-P56-weak-SAW-4D-RG.pdf",
+      "package_path": "evidence/root/downloads/D02/saw_B3/papers/SAW-P56-weak-SAW-4D-RG.pdf",
+      "expected_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "original_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "package_sha256": "81df483324f444e125b7ceb89a8605e856a8439054a4e756a75ab82140122f6c",
+      "bytes": 817386,
+      "pdfinfo_pages": 63,
+      "expected_page_count": 63,
+      "byte_identical": true,
+      "page_count_matches": true
+    }
+  ],
+  "all_30_source_pdfs_byte_identical": true,
+  "all_pdf_page_counts_match_record": true,
+  "source_card_checks": [
+    {
+      "local_id": "W23S001",
+      "path": "evidence/root/workers/W23/cards/W23S001.md",
+      "original_sha256": "4a84a986a308d513c3d63197c746e2efa2a2bb79ca150ec67988ea3bfeeded10",
+      "package_sha256": "4a84a986a308d513c3d63197c746e2efa2a2bb79ca150ec67988ea3bfeeded10",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S002",
+      "path": "evidence/root/workers/W23/cards/W23S002.md",
+      "original_sha256": "d0148c3378f2d14eeee251501430c4c13cd63547ff516b34c301cc77320a5016",
+      "package_sha256": "d0148c3378f2d14eeee251501430c4c13cd63547ff516b34c301cc77320a5016",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S003",
+      "path": "evidence/root/workers/W23/cards/W23S003.md",
+      "original_sha256": "fd325325e37a22ef23eeb2a07e062b90db10b1fd3937ab255371299ed54a49f2",
+      "package_sha256": "fd325325e37a22ef23eeb2a07e062b90db10b1fd3937ab255371299ed54a49f2",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S004",
+      "path": "evidence/root/workers/W23/cards/W23S004-usage.md",
+      "original_sha256": "76eae78c2694c606a7abb2700e084f9c20fd1c2c6625ffec325f5c2fdcaca39a",
+      "package_sha256": "76eae78c2694c606a7abb2700e084f9c20fd1c2c6625ffec325f5c2fdcaca39a",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S005",
+      "path": "evidence/root/workers/W23/cards/W23S005-usage.md",
+      "original_sha256": "d545d05eaa1554fdc93b54fa2edd633e5d11d6dc3d9ec4c55bad75ca9c497285",
+      "package_sha256": "d545d05eaa1554fdc93b54fa2edd633e5d11d6dc3d9ec4c55bad75ca9c497285",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S006",
+      "path": "evidence/root/workers/W23/cards/W23S006.md",
+      "original_sha256": "0ccf1df9ae26f3953ea896b61ab5aaaae2287a3588d2f48784dc2f1033e64539",
+      "package_sha256": "0ccf1df9ae26f3953ea896b61ab5aaaae2287a3588d2f48784dc2f1033e64539",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S007",
+      "path": "evidence/root/workers/W23/cards/W23S007.md",
+      "original_sha256": "d124489e0e529b1848f1ba39d64b9f4859e4da33c61de2e7e0178fe788b7cb49",
+      "package_sha256": "d124489e0e529b1848f1ba39d64b9f4859e4da33c61de2e7e0178fe788b7cb49",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S008",
+      "path": "evidence/root/workers/W23/cards/W23S008.md",
+      "original_sha256": "167098c073ef5297635b1ee11fb0051a5b61e44c14d31f274ab82fe1f3ed4a6e",
+      "package_sha256": "167098c073ef5297635b1ee11fb0051a5b61e44c14d31f274ab82fe1f3ed4a6e",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S009",
+      "path": "evidence/root/workers/W23/cards/W23S009.md",
+      "original_sha256": "dfaeae307e90a66706764ad832d529afd5b30e578cb8100dc409830a6108d9b2",
+      "package_sha256": "dfaeae307e90a66706764ad832d529afd5b30e578cb8100dc409830a6108d9b2",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S010",
+      "path": "evidence/root/workers/W23/cards/W23S010.md",
+      "original_sha256": "b29be7fc67a76741d6b8c587aa71dde388c9f6b913137d4b320b40bade0f1225",
+      "package_sha256": "b29be7fc67a76741d6b8c587aa71dde388c9f6b913137d4b320b40bade0f1225",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S011",
+      "path": "evidence/root/workers/W23/cards/W23S011.md",
+      "original_sha256": "0590a4eefd51a11a5055a5aa1394dea9c277ab0a663b890b1c6213dd754629d5",
+      "package_sha256": "0590a4eefd51a11a5055a5aa1394dea9c277ab0a663b890b1c6213dd754629d5",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S012",
+      "path": "evidence/root/workers/W23/cards/W23S012.md",
+      "original_sha256": "7c1b55e74da98de13c9ce17c7c6a852b7b5836a940dffa365a665068da53c4c8",
+      "package_sha256": "7c1b55e74da98de13c9ce17c7c6a852b7b5836a940dffa365a665068da53c4c8",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S013",
+      "path": "evidence/root/workers/W23/cards/W23S013.md",
+      "original_sha256": "ad0bcac73e451125ba1ea0884fe602898520d599d5922fe91965221a927d27be",
+      "package_sha256": "ad0bcac73e451125ba1ea0884fe602898520d599d5922fe91965221a927d27be",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S014",
+      "path": "evidence/root/workers/W23/cards/W23S014.md",
+      "original_sha256": "bbc0923b036438c69530167764d7cca09d967c98be3af4dbbf1ee9d80ef16373",
+      "package_sha256": "bbc0923b036438c69530167764d7cca09d967c98be3af4dbbf1ee9d80ef16373",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S015",
+      "path": "evidence/root/workers/W23/cards/W23S015.md",
+      "original_sha256": "2aed2f9af72bef6db299698c6ba3bc80ccbf1dd9a0269c64cd517d33be3945f0",
+      "package_sha256": "2aed2f9af72bef6db299698c6ba3bc80ccbf1dd9a0269c64cd517d33be3945f0",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S016",
+      "path": "evidence/root/workers/W23/cards/W23S016.md",
+      "original_sha256": "7546fbadc4999fc43ec02c34a1e1e100b81c851cfda3eb4bf0d45cf1ff816968",
+      "package_sha256": "7546fbadc4999fc43ec02c34a1e1e100b81c851cfda3eb4bf0d45cf1ff816968",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S017",
+      "path": "evidence/root/workers/W23/cards/W23S017.md",
+      "original_sha256": "43eebb27a2a4603b6cf1911cb439f33456c7c737f39dc40f7fe5e95dc963c6f4",
+      "package_sha256": "43eebb27a2a4603b6cf1911cb439f33456c7c737f39dc40f7fe5e95dc963c6f4",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S018",
+      "path": "evidence/root/workers/W23/cards/W23S018.md",
+      "original_sha256": "db9b61e12c7834bb4a710b87a9bf82a40aac2dae46b133c9e93cf5baf4d5e7d7",
+      "package_sha256": "db9b61e12c7834bb4a710b87a9bf82a40aac2dae46b133c9e93cf5baf4d5e7d7",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S019",
+      "path": "evidence/root/workers/W23/cards/W23S019.md",
+      "original_sha256": "492a73b5e4c9033a9d4fe8e92663239c8b1cd798817a9b6bf85cb19c72d7da3b",
+      "package_sha256": "492a73b5e4c9033a9d4fe8e92663239c8b1cd798817a9b6bf85cb19c72d7da3b",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S020",
+      "path": "evidence/root/workers/W23/cards/W23S020.md",
+      "original_sha256": "40da37f3869d07d81cea2bf4bb6a38422368a16b59f27782ce22a84e1ca55292",
+      "package_sha256": "40da37f3869d07d81cea2bf4bb6a38422368a16b59f27782ce22a84e1ca55292",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S021",
+      "path": "evidence/root/workers/W23/cards/W23S021.md",
+      "original_sha256": "c60f1428c352b2265bf5b838423b6f6a9549eafad7da4ab01866d30511530d66",
+      "package_sha256": "c60f1428c352b2265bf5b838423b6f6a9549eafad7da4ab01866d30511530d66",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S022",
+      "path": "evidence/root/workers/W23/cards/W23S022.md",
+      "original_sha256": "f574641f8310ad16db2b330ac5c5729fd2dd40de8e57b717f560e700000857b7",
+      "package_sha256": "f574641f8310ad16db2b330ac5c5729fd2dd40de8e57b717f560e700000857b7",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S023",
+      "path": "evidence/root/workers/W23/cards/W23S023.md",
+      "original_sha256": "6d743bdf64e84e9056d64ed627b36dc4c28e8b1974b271f0b1ef08030be223bb",
+      "package_sha256": "6d743bdf64e84e9056d64ed627b36dc4c28e8b1974b271f0b1ef08030be223bb",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S024",
+      "path": "evidence/root/workers/W23/cards/W23S024.md",
+      "original_sha256": "24eef9e21f953f981f365089b27a6e69cb846db8fb04e74fb8d6dd81f4485b2a",
+      "package_sha256": "24eef9e21f953f981f365089b27a6e69cb846db8fb04e74fb8d6dd81f4485b2a",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S025",
+      "path": "evidence/root/workers/W23/cards/W23S025.md",
+      "original_sha256": "beb362b78288692801dec6ecfb6a3f249084a5627750a2de2f0b34cee11d24db",
+      "package_sha256": "beb362b78288692801dec6ecfb6a3f249084a5627750a2de2f0b34cee11d24db",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S026",
+      "path": "evidence/root/workers/W23/cards/W23S026.md",
+      "original_sha256": "b4bd95a547b2833113ca3e554ef7ef1e4a9b9d8941ef21753b978f7e81dc2735",
+      "package_sha256": "b4bd95a547b2833113ca3e554ef7ef1e4a9b9d8941ef21753b978f7e81dc2735",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S027",
+      "path": "evidence/root/workers/W23/cards/W23S027.md",
+      "original_sha256": "96db4bfac4682fd8b4ba8681c28910cbf612c5ed87d28c0e5d3869972e9a1509",
+      "package_sha256": "96db4bfac4682fd8b4ba8681c28910cbf612c5ed87d28c0e5d3869972e9a1509",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S028",
+      "path": "evidence/root/workers/W23/cards/W23S028.md",
+      "original_sha256": "0dd6e5d95257d5e9a4a2fba393b061281268dd6671fdb36d359ac7135d6d58fb",
+      "package_sha256": "0dd6e5d95257d5e9a4a2fba393b061281268dd6671fdb36d359ac7135d6d58fb",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S029",
+      "path": "evidence/root/workers/W23/cards/W23S029.md",
+      "original_sha256": "848d249cbfb4d08a5b9acdebf8adeb19185fd66834bb317fc43fffe16c4de34d",
+      "package_sha256": "848d249cbfb4d08a5b9acdebf8adeb19185fd66834bb317fc43fffe16c4de34d",
+      "byte_identical": true
+    },
+    {
+      "local_id": "W23S030",
+      "path": "evidence/root/workers/W23/cards/W23S030.md",
+      "original_sha256": "29908e5d74052c6e42af592d93fa945cff2a326d0ce54c647481337908bc6308",
+      "package_sha256": "29908e5d74052c6e42af592d93fa945cff2a326d0ce54c647481337908bc6308",
+      "byte_identical": true
+    }
+  ],
+  "all_30_source_cards_byte_identical": true,
+  "W23_math_artifact_checks": [
+    {
+      "path": "evidence/root/workers/W23/math/check_claim_constants.m",
+      "original_sha256": "72ad86e2e024c87344800747360b7c5b1d9a8cb17c1cc8bcebf08921f252154f",
+      "package_sha256": "72ad86e2e024c87344800747360b7c5b1d9a8cb17c1cc8bcebf08921f252154f",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/check_claim_constants_results.txt",
+      "original_sha256": "06575e421245b0887f69b690a91873088a3ed1130db4e8a3752343ed4482f550",
+      "package_sha256": "06575e421245b0887f69b690a91873088a3ed1130db4e8a3752343ed4482f550",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/check_finite_saw_and_bridge_roots.m",
+      "original_sha256": "04e10661a2cabcbda77925d8c260da6623d6c786eb874ea688ee47cf33589634",
+      "package_sha256": "04e10661a2cabcbda77925d8c260da6623d6c786eb874ea688ee47cf33589634",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/check_p02_exact_identities.m",
+      "original_sha256": "f1a36d9957ab46246de86bd9c65e27ed90a2af7ac7555ed46af4f98989540116",
+      "package_sha256": "f1a36d9957ab46246de86bd9c65e27ed90a2af7ac7555ed46af4f98989540116",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/check_p02_exact_identities_results.txt",
+      "original_sha256": "7d70f10860cf3f1697520882a6ef4b190e50c4ce34e0ab746f549d9379fe5a5d",
+      "package_sha256": "7d70f10860cf3f1697520882a6ef4b190e50c4ce34e0ab746f549d9379fe5a5d",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/check_p15_finite_n_counterexample.m",
+      "original_sha256": "9cb85856838879bb2aacbe8b508dda8dcc994acd147e984a96e003fe975d372c",
+      "package_sha256": "9cb85856838879bb2aacbe8b508dda8dcc994acd147e984a96e003fe975d372c",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/check_p15_finite_n_counterexample_results.txt",
+      "original_sha256": "d05cca2263983cefba57863dc613ef5b7bdaaa49dc1ad883c2c818c7750e124d",
+      "package_sha256": "d05cca2263983cefba57863dc613ef5b7bdaaa49dc1ad883c2c818c7750e124d",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/finite_math_check.empty_diary_diagnostic.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "package_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/finite_math_check.json",
+      "original_sha256": "f5cafcc4951c33f9619e95b0fd2072b6be91640fd02f25af6f36be854ab4b29a",
+      "package_sha256": "f5cafcc4951c33f9619e95b0fd2072b6be91640fd02f25af6f36be854ab4b29a",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/finite_math_check.txt",
+      "original_sha256": "afbee12bfc66654ea30081a1a2274326487f368e72356d46103bc758a645f4cd",
+      "package_sha256": "afbee12bfc66654ea30081a1a2274326487f368e72356d46103bc758a645f4cd",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.json",
+      "original_sha256": "8162e6a4c1ac0f0109f7d749103ec591db38c566f00cdafb535c236ddba569ab",
+      "package_sha256": "8162e6a4c1ac0f0109f7d749103ec591db38c566f00cdafb535c236ddba569ab",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l06_b6_coefficient_checks.txt",
+      "original_sha256": "b4466f2f3e5808b881759fb8a5b281a421c8af7dfd21c4d25ab2e9c8655af390",
+      "package_sha256": "b4466f2f3e5808b881759fb8a5b281a421c8af7dfd21c4d25ab2e9c8655af390",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l06_b6_erratum_gamma_check.json",
+      "original_sha256": "a611e55657a41106b66e6a0ad98bc15cfa04d9f414d616a8de93565a014f48f8",
+      "package_sha256": "a611e55657a41106b66e6a0ad98bc15cfa04d9f414d616a8de93565a014f48f8",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l06_b6_erratum_gamma_check.txt",
+      "original_sha256": "55f683de64257c2bd2a1c44e5ac611f15625e2fb14602ff15d5190c2d6a847a9",
+      "package_sha256": "55f683de64257c2bd2a1c44e5ac611f15625e2fb14602ff15d5190c2d6a847a9",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l06_b6_verify_asymptotic_coefficients.m",
+      "original_sha256": "2b8afec7ae01e9ca849947679c7e410d9ecbb43b22d5a31b18208377a305db2d",
+      "package_sha256": "2b8afec7ae01e9ca849947679c7e410d9ecbb43b22d5a31b18208377a305db2d",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l08_b5_exact_checks.json",
+      "original_sha256": "4b967500ecc8a48007fe39ba6456b11c14c0cafbf1eaa28413a606ecf38565fc",
+      "package_sha256": "4b967500ecc8a48007fe39ba6456b11c14c0cafbf1eaa28413a606ecf38565fc",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l08_b5_exact_checks.m",
+      "original_sha256": "4cd6e08afb651766b81d457df76298c9dde3fcff8352601ed38483e9d56492df",
+      "package_sha256": "4cd6e08afb651766b81d457df76298c9dde3fcff8352601ed38483e9d56492df",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l10_b7_verify_numeric_checks.m",
+      "original_sha256": "224c8b6fc64dbf6fe5c94a3493390ee395168f10f765ba5918e2b814950de074",
+      "package_sha256": "224c8b6fc64dbf6fe5c94a3493390ee395168f10f765ba5918e2b814950de074",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/l10_b7_verify_numeric_checks_results.txt",
+      "original_sha256": "8e6b9d6d1563a1d5d5ac6612cc3d8ca09cf5e1f9b16e2a12ef2d1a013f444d7c",
+      "package_sha256": "8e6b9d6d1563a1d5d5ac6612cc3d8ca09cf5e1f9b16e2a12ef2d1a013f444d7c",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/lacoin_strict_gap_interface.m",
+      "original_sha256": "cb37229cbee1922ded7ba331fdf827924c225697fd7bb7ea4df30dcfde9f466b",
+      "package_sha256": "cb37229cbee1922ded7ba331fdf827924c225697fd7bb7ea4df30dcfde9f466b",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/p16_literal_endpoint_check.json",
+      "original_sha256": "edb6e4fef08a120951757b8c983ed22b5568d9dded49c2c9c8fba8997cecec31",
+      "package_sha256": "edb6e4fef08a120951757b8c983ed22b5568d9dded49c2c9c8fba8997cecec31",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/p16_literal_endpoint_check.m",
+      "original_sha256": "f0af80c2f9937c46b3788d14ceab68af0d3c53a36e70f1e59e68fbf6bc2e76ea",
+      "package_sha256": "f0af80c2f9937c46b3788d14ceab68af0d3c53a36e70f1e59e68fbf6bc2e76ea",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/tree_saw_counts.py",
+      "original_sha256": "e28c2f6c8492cf20c51377c1af1b592514d3170d0e810531aa1b55abd541aced",
+      "package_sha256": "e28c2f6c8492cf20c51377c1af1b592514d3170d0e810531aa1b55abd541aced",
+      "byte_identical": true
+    },
+    {
+      "path": "evidence/root/workers/W23/math/tree_saw_counts_result.json",
+      "original_sha256": "25879c72df4366d2e7f34f71cae1e741bc768fa5b33cfec237a5a717ce454fa6",
+      "package_sha256": "25879c72df4366d2e7f34f71cae1e741bc768fa5b33cfec237a5a717ce454fa6",
+      "byte_identical": true
+    }
+  ],
+  "all_W23_math_artifacts_byte_identical": true,
+  "reading_coverage_check": {
+    "fulltext_count": 28,
+    "coverage_count": 28,
+    "exact_coverage_set": true
+  },
+  "scope_protection_statement": "This builder wrote only under revisions/W23-final-v1. Each file in the final 76-binding R03 mother manifest still matches R03 and its packaged copy. All 30 source PDFs/cards and W23 math artifacts are byte-identical to the mother source. No original mother/skill/review file was edited by this package build."
+}

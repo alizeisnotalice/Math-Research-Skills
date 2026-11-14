@@ -1,0 +1,1772 @@
+{
+  "reader": "W13 historical entries; L09 and L13 new entries (reader_actor per source)",
+  "review_status": "pending",
+  "coverage_basis": "physical local PDF pages; inclusive ranges; where the PDF is a report, report physical page numbering is kept separate from the paper's internal printed numbering",
+  "sources": [
+    {
+      "source_local_id": "M0345",
+      "sha256": "e21e748347986009d1d5cce9526e8aad5ff37de0c0cd911fb45df9ae75a4020c",
+      "read_pages": "2-7",
+      "pdf_scope": "Nine-page issue PDF; complete six-page article, printed pp.171-176, is physical PDF pp.2-7.",
+      "coverage": [
+        {
+          "unit": "Article opening and minimax background",
+          "physical_pdf_pages": "2-4",
+          "scope": "Definitions, motivation, and hypotheses used for the general minimax statements."
+        },
+        {
+          "unit": "§3, Theorem 3.4 and Corollary 3.3",
+          "physical_pdf_pages": "4-6",
+          "scope": "Compact-convex minimax equality and finite-convex-hull reduction; corollary is on physical PDF p.5 / printed p.174."
+        },
+        {
+          "unit": "§4, Theorem 4.2 and remaining examples",
+          "physical_pdf_pages": "6-7",
+          "scope": "Kneser–Fan concave-convexlike variants and counterexamples illustrating the semicontinuity/topology boundaries."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0349",
+      "sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+      "pdf_pages": 163,
+      "read_pages": "1–163",
+      "pdf_scope": "Complete 163-page Acta Numerica article PDF read on physical pp.1–163 in L01_B2. Physical p.1 contains title, author, corrections list, and article text beginning (printed p.287), not an empty cover. Physical p.152 text extraction did not return usable complete page text; the rendered figure/text page was visually read and recorded.",
+      "coverage": [
+        {
+          "unit": "Front matter, abstract, and contents",
+          "physical_pdf_pages": "1–4",
+          "scope": "核对文章身份、文章印刷页码范围、目录与勘误列表；物理 p.1 同页含题名作者及正文开头（印刷 p.287），并非空封面。"
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "5–14",
+          "scope": "验证方法原则、常见陷阱、区间算法声誉、数值法与验证法差别、历史与首个例子。"
+        },
+        {
+          "unit": "§2 Floating-point arithmetic",
+          "physical_pdf_pages": "15–17",
+          "scope": "浮点数模型、舍入误差与基本运算界。"
+        },
+        {
+          "unit": "§3 Error-free transformations",
+          "physical_pdf_pages": "18–21",
+          "scope": "TwoSum/TwoProduct等无误变换以及误差自由点积的机制。"
+        },
+        {
+          "unit": "§4 Directed roundings",
+          "physical_pdf_pages": "22–23",
+          "scope": "向下/向上舍入给出包含界；以||I−RA||∞<1验证线性算子非奇异。"
+        },
+        {
+          "unit": "§5 Operations with sets",
+          "physical_pdf_pages": "24–28",
+          "scope": "区间运算、依赖性、包含性质及无穷端点。"
+        },
+        {
+          "unit": "§6 Naive interval arithmetic and data dependency",
+          "physical_pdf_pages": "29–31",
+          "scope": "朴素区间传播的过估计及数据依赖例子。"
+        },
+        {
+          "unit": "§7 Standard functions and conversion",
+          "physical_pdf_pages": "32",
+          "scope": "标准函数的区间扩张与浮点转换。"
+        },
+        {
+          "unit": "§8 Range of a function",
+          "physical_pdf_pages": "33–38",
+          "scope": "函数值域、重排与振荡问题，以及改进范围估计。"
+        },
+        {
+          "unit": "§9 Interval vectors and matrices",
+          "physical_pdf_pages": "39–46",
+          "scope": "区间向量/矩阵、表示与计算代价。"
+        },
+        {
+          "unit": "§10 Linear problems",
+          "physical_pdf_pages": "47–77",
+          "scope": "线性系统失败例、预条件与残差、稠密/稀疏系统、内包含、数据依赖、特殊系统、行列式和矩阵谱范数；含定理10.6、10.8等。"
+        },
+        {
+          "unit": "§11 Automatic differentiation",
+          "physical_pdf_pages": "78–84",
+          "scope": "梯度、反向模式、Hessian、Taylor系数、斜率与函数值域。"
+        },
+        {
+          "unit": "§12 Quadrature",
+          "physical_pdf_pages": "85–86",
+          "scope": "验证数值积分/求积误差。"
+        },
+        {
+          "unit": "§13 Nonlinear problems",
+          "physical_pdf_pages": "87–105",
+          "scope": "非线性方程排除区域、多重根、简单/多重特征值与特征簇验证。"
+        },
+        {
+          "unit": "§14 Optimization",
+          "physical_pdf_pages": "106–111",
+          "scope": "线性/凸规划与半定规划验证；Theorem 14.2 的适用量词边界见卡片。"
+        },
+        {
+          "unit": "§15 Ordinary differential equations",
+          "physical_pdf_pages": "112–126",
+          "scope": "初值问题与两点边值问题的验证误差估计。"
+        },
+        {
+          "unit": "§16 Semilinear elliptic boundary value problems",
+          "physical_pdf_pages": "127–152",
+          "scope": "抽象 Hilbert 空间框架、强/弱解及 Theorem 16.1；物理 p.152 渲染图展示成功 (A,B)=(6,2) 与验证未成功 (6,26)，正文指出 0<A<B 的更一般情形仍未解决。"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "153–163",
+          "scope": "全文参考文献；不作为新定理证明证据。"
+        }
+      ],
+      "reader_actor": "L01",
+      "page_convention": "physical PDF pages, 1-based; full text and appendices/references read; rendered page images independently inspected for key formula/theorem pages.",
+      "rendered_pages": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "batch_source": "evidence/W19/reader_batches/L01_B2/reading_coverage.json",
+      "historical_unavailable_original_artifacts": [
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/0",
+          "declared_original_path": "evidence/W19/rendered/M0349-p1.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/1",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/M0349-p54.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/2",
+          "declared_original_path": "evidence/W19/rendered/M0349-p109.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/3",
+          "declared_original_path": "evidence/W19/rendered/M0349-p110.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/4",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/M0349-p121.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/5",
+          "declared_original_path": "evidence/W19/rendered/M0349-p129.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/6",
+          "declared_original_path": "evidence/W19/rendered/M0349-p130.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/7",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/M0349-p132.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/1/rendered_pages/8",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/M0349-p152.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        }
+      ],
+      "newly_derived_evidence": [
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p1.new-derived.png",
+          "sha256": "419931088161fb31a4b3eb7f412285c8480e4a5f5766ebc2a10a1187320239b1",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 1,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p54.new-derived.png",
+          "sha256": "786dfa39ddc27f02ab9f44f53d3bf298815ace75ef61a798b8a6ca070fadef68",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 54,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p109.new-derived.png",
+          "sha256": "206caad2d362b6e721676328487e1d2a33ac5998cd30bfe2f2d5ab5e5b559046",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 109,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p110.new-derived.png",
+          "sha256": "37ef2197ab04cc30a30f7a8f50149d6fb532253d125e4d448eccde0fd2e0257e",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 110,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p121.new-derived.png",
+          "sha256": "bd9b9eeb44417ea256646c11bf787364616644824a0e8e582dc41cf9f721cda9",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 121,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p129.new-derived.png",
+          "sha256": "d54a212823c4605039b6ba17624dcf175e910d4ac881439d4c0344189a8a7ee2",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 129,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p130.new-derived.png",
+          "sha256": "1450074f03f09f7665c60b6d1f00759ff82693d078b13223a290766412e81c91",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 130,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p132.new-derived.png",
+          "sha256": "17477837db2b0b7db81041a70b38f57579c5f49c6a1c9c4f38b46752fbfc3d67",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 132,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/M0349-p152.new-derived.png",
+          "sha256": "735d2fd800119df23d90af658d37f7c02457d9be3dbbf2dff5fb58163887bade",
+          "source_pdf_sha256": "6d4d2eaa2dd40389fa75fbdc26f4e37f863806d734a6bbbf02005271cc08fea2",
+          "source_approved_member": "downloads/D01/papers/W19-M0349_Verification-Methods-Rigorous-Results-Using-Floating-Point-Arithmetic.pdf",
+          "physical_page": 152,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        }
+      ]
+    },
+    {
+      "source_local_id": "M0359",
+      "sha256": "61325d6612c8c5ed4d0119575238192b25d480bfcf24838ae4acc86c42873cdf",
+      "reading_status": "selected_chapters_read",
+      "read_units": [
+        {
+          "unit": "Chapter 5 — Duality (complete chapter)",
+          "physical_pdf_pages": "229-286",
+          "printed_pages": "215-272",
+          "complete": true,
+          "scope": "Weak duality, suboptimality intervals, Slater/strong duality, KKT/complementarity, and value-function sensitivity."
+        }
+      ],
+      "pdf_scope": "Complete official author-hosted 730-page book obtained; selected Chapter 5 read in full."
+    },
+    {
+      "source_local_id": "S001",
+      "sha256": "a9029e19a758686536989173270c053ac689d58c0755f100678ae451d495bcf1",
+      "read_pages": "1-2",
+      "pdf_scope": "Complete two-page note.",
+      "coverage": [
+        {
+          "unit": "Full note",
+          "physical_pdf_pages": "1-2",
+          "scope": "Finite generation gives closedness of the finitely generated cone; projection separation proves the exclusive Farkas alternative, with finite-dimensional scope explicitly retained."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S002",
+      "sha256": "0f4471d96cc82d4f7ff0fa41033f9e9c5104792c6974c83940307b65801a4b3b",
+      "read_pages": "1-14",
+      "coverage": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "scope": "Motivates a direct LP optimality proof avoiding Farkas and simplex dependencies; fixes the mixed equality/inequality formulation."
+        },
+        {
+          "unit": "§2 Preliminaries and descent directions",
+          "physical_pdf_pages": "3-4",
+          "scope": "Defines feasible descent directions and proves the local optimality characterization in Lemma 2.5."
+        },
+        {
+          "unit": "§3 Multipliers and optimality",
+          "physical_pdf_pages": "4-5",
+          "scope": "Propositions 3.1-3.3 derive the dual lower bound, complementary-slackness sufficiency, and multiplier reuse across optimal points."
+        },
+        {
+          "unit": "§§4-5 Vertices and nondegenerate working sets",
+          "physical_pdf_pages": "5-7",
+          "scope": "Connects active constraints and nonsingular working sets to an optimal multiplier."
+        },
+        {
+          "unit": "§6 Degeneracy and perturbation",
+          "physical_pdf_pages": "7-10",
+          "scope": "Perturbs a degenerate optimum to a nondegenerate one and recovers an optimal vertex/working set."
+        },
+        {
+          "unit": "§§7-8 Necessary and sufficient conditions; optimal working sets",
+          "physical_pdf_pages": "11-12",
+          "scope": "Proposition 7.1 gives necessity for arbitrary optimal points under consistency, rank(A)=n, and boundedness below; §8 identifies a working set for a specified optimal vertex."
+        },
+        {
+          "unit": "§9 Farkas alternative",
+          "physical_pdf_pages": "12-13",
+          "scope": "Lemma 9.1 proves the exact alternative by embedding it into a bounded LP; no rank assumption on the original matrix."
+        },
+        {
+          "unit": "§10 Summary and references",
+          "physical_pdf_pages": "13-14",
+          "scope": "Restates the proof dependencies and closes the complete manuscript."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S003",
+      "sha256": "5ae169908ed70fcaf934581c664ffd220fcc80de45d2f30c42e20f236064b4fc",
+      "read_pages": "1-29",
+      "pdf_scope": "Complete local PDF; physical pages 1–29 read in this batch.",
+      "coverage": [
+        {
+          "unit": "Front matter and contents",
+          "physical_pdf_pages": "1–2",
+          "scope": "核对 arXiv 版本、作者与题名；读目录及本文符号/章节路线。"
+        },
+        {
+          "unit": "§1.1–1.3; Theorems 1.1–1.3",
+          "physical_pdf_pages": "3–6",
+          "scope": "物理 pp.4–6：Theorem 1.2(i) 与 1.3(i) 是近似可解，分别刻画 b∈cl A(P) 与 b∈cl A(P_r)；Theorem 1.2(ii)、1.3(ii) 用一个对所有 y 统一的 C 刻画精确可解。"
+        },
+        {
+          "unit": "§1.4; Theorems 1.4–1.6; assumptions (H),(E)",
+          "physical_pdf_pages": "7–10",
+          "scope": "定义平方gauge primal及Fenchel–Rockafellar对偶；Theorem 1.5(i)在b∈cl A(P_r)时给每个ε>0的近似原解与唯一对偶极小元，(ii)仅在b∈A(P_r)时给精确解，并把精确解重构限定于D0达到时。"
+        },
+        {
+          "unit": "§2.1–2.2",
+          "physical_pdf_pages": "11–13",
+          "scope": "固定函数、凸集、锥与支撑函数记号；陈述FR强对偶适用及最优性条件的框架。"
+        },
+        {
+          "unit": "§3.1–3.4",
+          "physical_pdf_pages": "14–20",
+          "scope": "分开证明近似/闭包分支（ε>0）与精确可解分支（ε=0、uniform C）；再推导相应构造性定理、闭锥特例及 H/E 下的原锥解重构。"
+        },
+        {
+          "unit": "§4.1–4.4",
+          "physical_pdf_pages": "19–25",
+          "scope": "以法锥和共同法向量分析精确对偶最小值是否达到；给出闭值域/正内积等充分必要边界和反例。"
+        },
+        {
+          "unit": "Appendix A, Lemmas A.1–A.4",
+          "physical_pdf_pages": "26–27",
+          "scope": "证明有界凸集gauge与支撑函数性质、生成锥闭性条件及闭锥投影关系，补齐正文技术引理。"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "28–29",
+          "scope": "核对引用来源与理论归属；不把参考文献页算作新定理证据。"
+        }
+      ],
+      "reader_actor": "L09",
+      "page_convention": "physical PDF pages, 1-based; page images used for theorem/formula checks are named under rendered/.",
+      "batch_source": "evidence/W19/reader_batches/L09_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S004",
+      "sha256": "08ccea72ef78920ae7913157fd31d551a4bb9c8477f2eeedf3750c3a8c8e9513",
+      "read_pages": "1-14",
+      "coverage": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-2",
+          "scope": "Sets out the conic duality-gap and Gale-example questions."
+        },
+        {
+          "unit": "§2 Alternative conic duality results",
+          "physical_pdf_pages": "3-7",
+          "scope": "Defines primal/dual value functions; proves Proposition 1 and gives qualification alternatives in Proposition 2/Corollary 3, with topology and attainment conditions."
+        },
+        {
+          "unit": "§3 Gale example",
+          "physical_pdf_pages": "8-10",
+          "scope": "Computes the gap under perturbations using Lemma 7 and Proposition 8; distinguishes zero gap from dual attainment."
+        },
+        {
+          "unit": "§4 Van Slyke–Wets example",
+          "physical_pdf_pages": "11-13",
+          "scope": "Checks the operator-space hypotheses and explains why the example cannot be transferred without verifying them."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "14",
+          "scope": "Bibliography read; no further theorem claim used."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S005",
+      "sha256": "d0dfb02b32ca64a5c8aee80ac347e1463660453aba90cadd10c703f0516c7eba",
+      "read_pages": "1-46",
+      "coverage": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-3",
+          "scope": "Introduces semi-infinite LPs, finite-support duality, and the projection approach."
+        },
+        {
+          "unit": "§2 Fourier–Motzkin elimination",
+          "physical_pdf_pages": "4-11",
+          "scope": "Defines clean/dirty variables and derives projection/elimination consequences."
+        },
+        {
+          "unit": "§3 SILP solvability and duality",
+          "physical_pdf_pages": "12-22",
+          "scope": "Proves value, zero-gap, strong-duality, solvability, and attainment criteria, including Theorems 3.1, 3.18, and 3.19."
+        },
+        {
+          "unit": "§4 Feasible sequences",
+          "physical_pdf_pages": "23-25",
+          "scope": "Relates finite approximants to a finite primal optimum while distinguishing sequence limits from finite-support dual attainment."
+        },
+        {
+          "unit": "§5 Convex-programming applications",
+          "physical_pdf_pages": "25-27",
+          "scope": "Applies projection to convex programs; includes Slater sufficiency and a zero-gap example without Slater."
+        },
+        {
+          "unit": "§6 Generalized Farkas lemma; §7 conclusion/references",
+          "physical_pdf_pages": "27-30",
+          "scope": "Derives the generalized alternative and summarizes the finite projection framework."
+        },
+        {
+          "unit": "Electronic companion §§A.1-A.5",
+          "physical_pdf_pages": "31-46",
+          "scope": "Technical proofs and extensions for clean-variable invariance, finite/semi-infinite and conic/convex programs, plus sufficient gap and finite-approximability conditions."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S006",
+      "sha256": "21cdac95bef0635720e48148c4903d059d8c7027f3aaab9454e928b2d24db6c0",
+      "read_pages": "1-30",
+      "coverage": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-5",
+          "scope": "Frames strong duality and exact pricing as properties relative to a chosen constraint coefficient space."
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "5-6",
+          "scope": "Defines the primal/dual setup, perturbation space, and singular functionals."
+        },
+        {
+          "unit": "§3 Projection, value formula, and zero gap",
+          "physical_pdf_pages": "6-11",
+          "scope": "Extends Fourier–Motzkin elimination and proves the OV=max(S,L) and zero-gap characterizations."
+        },
+        {
+          "unit": "§4 Strong duality and pricing on the restricted space U",
+          "physical_pdf_pages": "11-13",
+          "scope": "Constructs an optimal dual functional and proves pricing for perturbations in U."
+        },
+        {
+          "unit": "§5 Extensions to larger spaces",
+          "physical_pdf_pages": "13-26",
+          "scope": "Gives counterexamples and sufficient conditions for strong duality, pricing, and attainment in extended spaces; explains singular/non-finitely-additive dual functionals."
+        },
+        {
+          "unit": "§6 Conclusion",
+          "physical_pdf_pages": "26",
+          "scope": "Summarizes constraint-space dependence."
+        },
+        {
+          "unit": "Appendix A, L.1–L.3",
+          "physical_pdf_pages": "27-29",
+          "scope": "Technical Fourier–Motzkin lemmas used in the main results."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "30",
+          "scope": "Bibliography read."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S007",
+      "sha256": "6823eca2545a7dbf04931932455b7b69cd25174f26e7163f78e6d2bb702caad4",
+      "read_pages": "1-25",
+      "pdf_scope": "Complete local PDF; physical pages 1–25 read in this batch.",
+      "coverage": [
+        {
+          "unit": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "scope": "界定凸SIP、连续分离函数与相对精度δ-oracle；说明CP与IOA目标及文献关系。"
+        },
+        {
+          "unit": "§2.1–2.3; Assumptions 1–3; Theorems 5–6",
+          "physical_pdf_pages": "4–9",
+          "scope": "构造锥对偶并用Sion定理交换极小极大；利用强凸使对偶梯度1/μ-Lipschitz，解释CP为不精确Frank–Wolfe并逐步证明目标间隙及最小违反量速率。"
+        },
+        {
+          "unit": "§2 proof discussion and §3.1–3.3; Assumption 4; Theorems 9–10",
+          "physical_pdf_pages": "10–13",
+          "scope": "定义二次内层QCQP、Shor SDP松弛及其强对偶；区分有限SIPR可行限制和满足PSD条件时的精确改写，并给事后正定最优性条件。"
+        },
+        {
+          "unit": "§3.3–3.4; Proposition 11; Lemmas 12–13; IOA Algorithm 2",
+          "physical_pdf_pages": "14–15",
+          "scope": "证明内近似可行性与历史cuts的作用，列出近端耦合算法与停机准则，并引入Lipschitz/Slater附加条件。"
+        },
+        {
+          "unit": "§3.4; Theorems 14–16 and proofs",
+          "physical_pdf_pages": "16–18",
+          "scope": "分别证明不停机时可行最小化序列收敛、正双容差时有限停机，以及返回可行点的目标差界。"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "19–21",
+          "scope": "核查CP、半无限规划、凸分析与SDP相关文献；不将文献列表计作新结论。"
+        },
+        {
+          "unit": "Appendix A.1–A.8",
+          "physical_pdf_pages": "22–25",
+          "scope": "读取符号表和关键证明：Slater下对偶解、1/μ光滑性、CP归纳率、QCQP-SDP强对偶及内层可行误差趋零。"
+        }
+      ],
+      "reader_actor": "L09",
+      "page_convention": "physical PDF pages, 1-based; theorem equations were rendered and visually checked.",
+      "batch_source": "evidence/W19/reader_batches/L09_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S008",
+      "sha256": "646526af87253fe67ebfb8ae7e34a15d6b7491c0e98af848dcbc089e5ef610d1",
+      "read_pages": "1-7",
+      "pdf_scope": "Complete local PDF; physical pages 1–7 read in this batch.",
+      "coverage": [
+        {
+          "unit": "Title, abstract, §1 GSIP and relaxed SIP formulation",
+          "physical_pdf_pages": "1–2",
+          "scope": "定义GSIP可行性与析取松弛、lower bound，并陈述引用方法依赖的紧致性、连续性、值相等和ε-Slater假设。"
+        },
+        {
+          "unit": "§2.1 lower-bound algorithm and limit proof",
+          "physical_pdf_pages": "3–4",
+          "scope": "逐项复核原LLP cutting-plane论证，识别当前内层可行点不能推出所有未来迭代都满足同一分支的关键步骤。"
+        },
+        {
+          "unit": "Counterexample 1; §2.2",
+          "physical_pdf_pages": "4–5",
+          "scope": "在X=Y=[−1,1]构造真值1/2但算法lower bounds趋0的精确序列，展示跨迭代h不等式失效。"
+        },
+        {
+          "unit": "§2.3 auxiliary LLP and Counterexample 2",
+          "physical_pdf_pages": "5–7",
+          "scope": "定义α近最优辅助LLP，给α=0.95下首轮y=0.45、后续x=0的反例；结论限于所审查两种生成cut方案，并附参考文献。"
+        }
+      ],
+      "reader_actor": "L09",
+      "page_convention": "physical PDF pages, 1-based; complete seven-page note including references.",
+      "batch_source": "evidence/W19/reader_batches/L09_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S009",
+      "sha256": "75068ca1d23232fce51a3c70681174536940e8e8386aa76ea60fab16bb844fbc",
+      "read_pages": "1-56",
+      "coverage": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1-7",
+          "scope": "Defines the generalized moment setting and motivates structured primal–dual characterizations."
+        },
+        {
+          "unit": "§2 Unified framework",
+          "physical_pdf_pages": "7-12",
+          "scope": "States the strong-duality-dependent optimality condition, with primal feasibility, global dual majorization, complementary slackness, and support tangency."
+        },
+        {
+          "unit": "§3 First and t-th moment bounds",
+          "physical_pdf_pages": "13-23",
+          "scope": "Proves the piecewise excess-moment formula, root characterization, and bracketing/bisection method."
+        },
+        {
+          "unit": "§4 Upper partial moment",
+          "physical_pdf_pages": "23-26",
+          "scope": "Derives support structure and sharp value under the stated feasibility and parameter assumptions."
+        },
+        {
+          "unit": "§5 First and exponential moments",
+          "physical_pdf_pages": "26-29",
+          "scope": "Derives the Lambert-W branch, root equation, and bisection interval for the specified moment model."
+        },
+        {
+          "unit": "§6 Numerical experiments and §7 conclusion",
+          "physical_pdf_pages": "29-39",
+          "scope": "Reports model-specific numerical illustrations, limitations, and extensions; computations are not universal theorems."
+        },
+        {
+          "unit": "References and acknowledgements",
+          "physical_pdf_pages": "38-42",
+          "scope": "End matter read; no new theorem claim used."
+        },
+        {
+          "unit": "Electronic companion EC.1-EC.3",
+          "physical_pdf_pages": "43-56",
+          "scope": "Supplies the omitted proofs for the §3, §4, and §5 moment results."
+        }
+      ],
+      "rendered_pages": [
+        null
+      ],
+      "historical_unavailable_original_artifacts": [
+        {
+          "original_json_pointer": "/sources/11/rendered_pages/0",
+          "declared_original_path": "evidence/W19/rendered/S009-p14.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        }
+      ],
+      "newly_derived_evidence": [
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S009-p14.new-derived.png",
+          "sha256": "ac09de5f7eff38eb1258925286ee76a83ca171acfcf9783cefd073d98a38d3f1",
+          "source_pdf_sha256": "75068ca1d23232fce51a3c70681174536940e8e8386aa76ea60fab16bb844fbc",
+          "source_approved_member": "__external__/58b820d13f06b2eb/06_Guo_2022_A Unified Framework for Generalized Moment Problems_ a Novel.pdf",
+          "physical_page": 14,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S010",
+      "sha256": "91433be844e70d189d99b2792cd518d58d9d8b618c2cb23c2b6a1d21e35f0cab",
+      "read_pages": "1-43",
+      "pdf_scope": "Complete local PDF; physical pages 1–43 read in this batch.",
+      "coverage": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1–5",
+          "scope": "回顾generalized moment/DRO文献并说明条件期望的分式非线性、本文对偶与上下文DRO贡献。"
+        },
+        {
+          "unit": "§2.1 Problem formulation",
+          "physical_pdf_pages": "5–7",
+          "scope": "定义矩模糊集、事件指示函数、条件概率分布与分式广义矩目标。"
+        },
+        {
+          "unit": "§2.2 Charnes–Cooper transform and semi-infinite dual",
+          "physical_pdf_pages": "7–8",
+          "scope": "以条件测度变换和缩放参数α线性化分式，推导点态半无限LP弱对偶上界。"
+        },
+        {
+          "unit": "§2.3 Lemma 1; assumptions A1–A3; Theorems 1–2",
+          "physical_pdf_pages": "8–11",
+          "scope": "将比值问题化为参数阈值问题，在有界目标、事件概率统一正下界及Slater条件下证明强锥对偶，并把上确界降为至多m+1个极端分布的basic laws。"
+        },
+        {
+          "unit": "§3.1 mean-dispersion examples and Propositions 1–5",
+          "physical_pdf_pages": "11–17",
+          "scope": "推导均值/方差、MAD及其他离散度和对称/单峰结构下的条件期望 sharp bounds；命题1的无穷分支证明以σ²>0为条件，σ²=0退化为δ_μ，另作边界核验。"
+        },
+        {
+          "unit": "§3.2 robust pricing; §3.3 numerical illustrations",
+          "physical_pdf_pages": "17–21",
+          "scope": "将条件矩对偶用于单变量稳健定价，并展示数值例子及条件下的解结构。"
+        },
+        {
+          "unit": "§4.1 contextual DRO, conditions C1–C4, Theorem 3",
+          "physical_pdf_pages": "22–25",
+          "scope": "把上下文和mean-dispersion条件写为半无限LP，利用提升与闭包论证建立等值并说明额外有限锥表示条件。"
+        },
+        {
+          "unit": "§4.2–4.3 conic special cases and newsvendor example",
+          "physical_pdf_pages": "26–29",
+          "scope": "推导Chebyshev型SDP、MAD型LP特例并演示含side information的newsvendor模型。"
+        },
+        {
+          "unit": "§5 Conclusions; Appendix A",
+          "physical_pdf_pages": "30–37",
+          "scope": "总结并给出分式阈值变换、单变量边界及结构分布命题所需的补充证明。"
+        },
+        {
+          "unit": "Appendix B",
+          "physical_pdf_pages": "37–39",
+          "scope": "补全上下文DRO强对偶、支撑函数拆分与半无限约束提升的证明。"
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "40–43",
+          "scope": "检查所用广义矩、Cantelli/Mallows–Richter、DRO和不确定量化文献。"
+        }
+      ],
+      "reader_actor": "L09",
+      "page_convention": "physical PDF pages, 1-based; full paper including both proof appendices and all references.",
+      "batch_source": "evidence/W19/reader_batches/L09_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S011",
+      "sha256": "8ae2d5ff87c54133af291545743bb707cb9451b948f2012475d42acf9375a843",
+      "read_pages": "1-19",
+      "pdf_scope": "Complete local PDF; physical pages 1–19 read in this batch.",
+      "coverage": [
+        {
+          "unit": "§1 Introduction and Problem 1",
+          "physical_pdf_pages": "1–4",
+          "scope": "介绍截断矩可表示问题、经典SOS/矩松弛及非闭矩锥风险，明确算法目标和复杂度动机。"
+        },
+        {
+          "unit": "§2.1–2.2; Definition 2; Theorems 1–2",
+          "physical_pdf_pages": "4–6",
+          "scope": "建立非负多项式锥、archimedean二次模、Putinar严格正表示与Tchakaloff有限原子结论；Theorem 2（物理 p.6）要求K紧；§3开头明确将算法范围限于compact basic semialgebraic sets；Example 1展示非紧R上的矩锥不闭。"
+        },
+        {
+          "unit": "§3.1 Lemma 1 and Corollary 1",
+          "physical_pdf_pages": "7–8",
+          "scope": "证明紧K上非负多项式锥内部恰为严格正多项式，并在archimedean条件下缩放为1+Q(g)证书。"
+        },
+        {
+          "unit": "§3.2 Proposition 1, Corollary 2, Examples 2–3",
+          "physical_pdf_pages": "8–11",
+          "scope": "在§3已声明的compact basic semialgebraic set standing scope下记录Proposition 1（物理pp.8–9）；局部陈述未重复紧性，但证明调用前文compact-only Theorem 2。Example 3（p.10）明确沿用Example 1的五维y并展示非Archimedean时Corollary 2 SDP不可行；不把非紧例子作为紧范围命题的反例。"
+        },
+        {
+          "unit": "§3.3 Algorithm 1 and Theorem 3",
+          "physical_pdf_pages": "11–13",
+          "scope": "给出先找严格正证书、否则搜索有限原子表示的SDP算法，并证明archimedean时存在足够次数保证终止正确。"
+        },
+        {
+          "unit": "§4 unrepresentability degree",
+          "physical_pdf_pages": "13–16",
+          "scope": "推导由量词消去及有效Putinar理论给出的次数上界，讨论其极大复杂度和限制。"
+        },
+        {
+          "unit": "§5–6 Conclusions and References",
+          "physical_pdf_pages": "17–19",
+          "scope": "总结结果、读参考文献；physical p.17 明确把扩展到非紧基本闭半代数集列为未来方向。"
+        }
+      ],
+      "reader_actor": "L09",
+      "page_convention": "physical PDF pages, 1-based; all 19 pages read.",
+      "batch_source": "evidence/W19/reader_batches/L09_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S012",
+      "sha256": "c5b0ca086449f4b8d0865f512bd41500bbe16308f0a69d30b802fa1de8e16d72",
+      "read_pages": "1-48",
+      "pdf_scope": "Complete local 48-page PDF; physical pages 1–48 read by L13, including appendices and references.",
+      "coverage": [
+        {
+          "unit": "Front matter; §1 and Theorems 1.1–1.4",
+          "physical_pdf_pages": "1–5",
+          "scope": "Introduces the generalized moment primal/dual and states infinite-problem attainment separately from finite SOS-relaxation attainment, with their distinct assumptions."
+        },
+        {
+          "unit": "§1 proof discussion and related work",
+          "physical_pdf_pages": "5–8",
+          "scope": "Explains the proof routes, algebraic reduction, and how compactness/closedness enter the attainment arguments."
+        },
+        {
+          "unit": "§2 necessity of assumptions; Examples 2.1–2.4",
+          "physical_pdf_pages": "9–13",
+          "scope": "Gives counterexamples showing the Groebner-basis, real-radical, interior, and compactness hypotheses cannot be silently removed."
+        },
+        {
+          "unit": "§3 Theorem 3.3 and proof",
+          "physical_pdf_pages": "13–16",
+          "scope": "Proves infinite GMP strong duality/attainment through compactness of X, bounded objective values, relative-interior geometry, and closedness of the dual feasible set."
+        },
+        {
+          "unit": "§4 algebraic reduction and closedness proof",
+          "physical_pdf_pages": "16–19",
+          "scope": "Proves finite-level dual attainment under the real-radical/Groebner alternative by reducing polynomial coordinates and establishing closedness."
+        },
+        {
+          "unit": "§5 entropy/I-projection route",
+          "physical_pdf_pages": "19–24",
+          "scope": "Builds strictly feasible measures and finite SDP Slater points by I-projection; includes Theorem 5.8 and Corollaries 5.9."
+        },
+        {
+          "unit": "§6 applications and §7 conclusion",
+          "physical_pdf_pages": "24–33",
+          "scope": "Treats product spheres, tensor decomposition and related hierarchies, then records limitations and open extensions."
+        },
+        {
+          "unit": "Appendix A",
+          "physical_pdf_pages": "33–43",
+          "scope": "Reads technical quotient-ring, truncated ideal, moment-matrix and algebraic lemmas used in the proof routes."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "44–48",
+          "scope": "Reads and checks the bibliography; references are not counted as additional theorem evidence."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S014",
+      "sha256": "7fe9e8a108b813126b76906f07e1e2b8e8429c61a569d5af3a75c167d06f89a3",
+      "read_pages": "1-36",
+      "pdf_scope": "Complete local 36-page PDF; physical pages 1–36 read by L13, including appendices and references.",
+      "coverage": [
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "scope": "Motivates error bounds without constraint qualifications and states the amenability/facial-residual framework."
+        },
+        {
+          "unit": "§2 preliminaries and Definitions 1–15",
+          "physical_pdf_pages": "4–10",
+          "scope": "Defines faces, amenability, partial-polyhedral Slater, singularity degree, generalized eigenvalue and distance tools; includes examples and the nonamenable boundary."
+        },
+        {
+          "unit": "§3 facial residual functions",
+          "physical_pdf_pages": "10–12",
+          "scope": "Defines FRFs and their two-argument monotonicity/zero-error requirements, and develops their existence framework."
+        },
+        {
+          "unit": "§4 general conic error bounds",
+          "physical_pdf_pages": "13–18",
+          "scope": "Proves the PPS-face error bound, facial-reduction composition, Theorem 23 and iteration bound in Proposition 24."
+        },
+        {
+          "unit": "§4.1 symmetric cones; Theorems 35–38",
+          "physical_pdf_pages": "19–28",
+          "scope": "Develops Jordan/Peirce estimates, derives the symmetric-cone FRF, composes Hölder exponents, and states the bounded-norm simplification with its conditions."
+        },
+        {
+          "unit": "§4.2 intersections of cones",
+          "physical_pdf_pages": "28–30",
+          "scope": "Transfers the framework to lifted product cones and discusses intersections, including the DNN application."
+        },
+        {
+          "unit": "§5 conclusion and open problems",
+          "physical_pdf_pages": "30–31",
+          "scope": "Records proved scope and open questions, including extensions for which no general FRF theorem is established here."
+        },
+        {
+          "unit": "Appendix A",
+          "physical_pdf_pages": "32–34",
+          "scope": "Reads auxiliary proofs for amenability and facial residual functions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "35–36",
+          "scope": "Reads the remaining bibliography."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S015",
+      "sha256": "552143febc99a7463ceb8f027e95a62140b18e5ac8c9d0b0aa2f389bdffdd56e",
+      "read_pages": "1-21",
+      "pdf_scope": "Complete local 21-page PDF; physical pages 1–21 read by L13, including appendices and references.",
+      "coverage": [
+        {
+          "unit": "§1 Introduction and notation",
+          "physical_pdf_pages": "1–3",
+          "scope": "Sets up partial polyhedrality and facial-reduction complexity, with roadmap and notation."
+        },
+        {
+          "unit": "§2–4 preliminaries and separation results",
+          "physical_pdf_pages": "3–6",
+          "scope": "Defines PPS/partial polyhedrality, proves separation and Gordan–Stiemke variants, and gives their failure/counterexample boundaries."
+        },
+        {
+          "unit": "§3 and §5 FRA/FRA-Poly methods",
+          "physical_pdf_pages": "4–12",
+          "scope": "Reads algorithms, feasibility and strict-complementarity distinctions, Theorem 10 bounds and Theorem 11 comparison; records computational prerequisites for using the algorithm."
+        },
+        {
+          "unit": "§6.1 weak infeasibility and bounds",
+          "physical_pdf_pages": "13–16",
+          "scope": "Analyzes weak infeasibility, feasible slack faces, and the reduction bounds for the dual problem."
+        },
+        {
+          "unit": "§6.2 intersections of cones; Theorem 19",
+          "physical_pdf_pages": "15–17",
+          "scope": "Uses a duplicated-variable product-cone lift and transfers reducing directions/face bounds back to the intersection."
+        },
+        {
+          "unit": "DNN Corollary 20 and Proposition 21",
+          "physical_pdf_pages": "17",
+          "scope": "Records d(D_n)≤n and d_str(D_n)≤n−1 separately, then contrasts the longest face-chain bound."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "18–19",
+          "scope": "Reads both bibliography pages."
+        },
+        {
+          "unit": "Appendix A, Proposition 23 proof of Proposition 2 strong duality",
+          "physical_pdf_pages": "19–20",
+          "scope": "Reads the conjugate/Fenchel proof that PPS gives equality and dual attainment, with primal and dual conditions kept distinct."
+        },
+        {
+          "unit": "Appendix B, Example 2 and Proposition 24 tightness",
+          "physical_pdf_pages": "20–21",
+          "scope": "Reads the Appendix B construction establishing sharpness of the partial-polyhedral complexity bound."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch1/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S025",
+      "sha256": "cf8a312d1cb31da661286b243708100c45e9cee7d70d8202b4516b543c526870",
+      "read_pages": "1-13",
+      "pdf_scope": "Complete 13-page ZIB report/revision PDF. Physical pp.1-2 are cover/imprint; paper body starts physical p.3/internal printed p.1. Published IPCO pp.148-160 are not page-mapped in this report.",
+      "coverage": [
+        {
+          "unit": "Report cover and imprint",
+          "physical_pdf_pages": "1-2",
+          "scope": "Identifies the report/revision and proceedings citation; no page-by-page proceedings mapping."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "3-5",
+          "scope": "Motivates independently checkable proof logging and certificate structure."
+        },
+        {
+          "unit": "§2 LP certificates",
+          "physical_pdf_pages": "5-6",
+          "scope": "Derives objective bounds from signed linear combinations of rational constraints."
+        },
+        {
+          "unit": "§3 Chvátal–Gomory cuts and §4 branch-and-cut",
+          "physical_pdf_pages": "6-8",
+          "scope": "Uses integrality for rounding and validates branch disjunctions/combination."
+        },
+        {
+          "unit": "§5 Experiments and §6 conclusion",
+          "physical_pdf_pages": "8-10",
+          "scope": "Reports tested certificates and implementation results, limited to the studied instances."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "11-13",
+          "scope": "Bibliography and end pages read."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S026",
+      "sha256": "473597b9e3586cd71d36f95aeb6ca0ac820749a63501eb58752ba1bdf0baa9f4",
+      "read_pages": "1-17",
+      "pdf_scope": "Complete 17-page arXiv report. Physical p.1 cover, p.2 imprint, body begins physical p.3/internal printed p.1; no pagewise proceedings mapping asserted.",
+      "coverage": [
+        {
+          "unit": "Report cover and imprint",
+          "physical_pdf_pages": "1-2",
+          "scope": "Identifies the arXiv/IPCO version and local report pagination."
+        },
+        {
+          "unit": "§1 Introduction",
+          "physical_pdf_pages": "3-5",
+          "scope": "Frames exact-rational MIP solving and certificate generation/checking."
+        },
+        {
+          "unit": "§2 Exact MIP and §3 framework",
+          "physical_pdf_pages": "5-8",
+          "scope": "Describes rational presolving, exact repair, safe bounds, refinement, and proof logging."
+        },
+        {
+          "unit": "§4 Computational study",
+          "physical_pdf_pages": "8-14",
+          "scope": "Reports experiments on the named benchmark sets, including solve counts and runtime; empirical scope only."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "15-17",
+          "scope": "Bibliography and end pages read."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S013",
+      "sha256": "96ba41b1443459510b343446f52d296299ff67f68ad3b1a9e9c0a41a4b7628ae",
+      "read_pages": "1-22",
+      "pdf_scope": "Complete local 22-page PDF; all physical pages 1–22 read by L13, including references and appendices/software supplement where present.",
+      "coverage": [
+        {
+          "unit": "Front matter and §1 overview",
+          "physical_pdf_pages": "1-6",
+          "scope": "Identifies arXiv v3 and states the primal/dual models, contribution, Slater case, and facial-reduction goal."
+        },
+        {
+          "unit": "§2 preliminaries and cone-face geometry",
+          "physical_pdf_pages": "7-10",
+          "scope": "Defines faces, conjugate/complementary faces, nice cones and the examples used later."
+        },
+        {
+          "unit": "§3 facial-reduction algorithm and Theorems 1–2",
+          "physical_pdf_pages": "10-13",
+          "scope": "Proves the invariant and finite termination at the minimal face, then gives the projected extended representation of its dual face."
+        },
+        {
+          "unit": "§4 nice cones; Theorem 3 and Corollary 1",
+          "physical_pdf_pages": "14-16",
+          "scope": "Builds strong extended duals under the nice-cone condition and specializes the tangent system to the semidefinite cone with its stated rank/independence assumptions."
+        },
+        {
+          "unit": "§§5–6 extended-system variants and open questions",
+          "physical_pdf_pages": "17-20",
+          "scope": "Compares simplified/rescaled tangent systems, recovers the SDP dual construction, and records questions as open rather than proved extensions."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "21-22",
+          "scope": "Reads all bibliography pages; no bibliography item is treated as a theorem proved in this paper."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch2/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S021",
+      "sha256": "5c1e1c178abfb43bf0d75574bb1462177698285f40b761d0b7bafc5b6de02de6",
+      "read_pages": "1-27",
+      "pdf_scope": "Complete local 27-page PDF; all physical pages 1–27 read by L13, including references and appendices/software supplement where present.",
+      "coverage": [
+        {
+          "unit": "Abstract, §1 introduction, and §2.1–2.3 overview",
+          "physical_pdf_pages": "1-5",
+          "scope": "Defines normalized power means and partition bases; separates symmetrization and power-mean transition maps, their limit cones, and the degree-four equality from the all-degree conjecture."
+        },
+        {
+          "unit": "§3 symmetric PSD forms and half-degree principle",
+          "physical_pdf_pages": "6-7",
+          "scope": "Reads the finite-n nonnegativity reduction, grid characterization, and setup of the limiting nonnegative cone."
+        },
+        {
+          "unit": "§4.1–4.2 invariant SOS and Specht-module preliminaries",
+          "physical_pdf_pages": "8-12",
+          "scope": "Reads the invariant Gram argument, representation-theory setup, Specht modules and higher-Specht basis theorem."
+        },
+        {
+          "unit": "§4.3–4.5 uniform SOS cone and dual characterization",
+          "physical_pdf_pages": "13-15",
+          "scope": "Reads the weighted-homogeneous matrix-polynomial representation, degree restriction, and dual-cone/PSD characterization."
+        },
+        {
+          "unit": "§5 quartic SOS cone and boundary; Theorems 5.1–5.5",
+          "physical_pdf_pages": "16-20",
+          "scope": "Reads quartic Gram blocks, extreme dual-ray classification, the positive boundary family and its printed functional pairing, strict-containment statement and proof. Example 5.4's exact pairing inconsistency is flagged in the card."
+        },
+        {
+          "unit": "§6 asymptotic cones and Theorems 2.8–2.9",
+          "physical_pdf_pages": "21-25",
+          "scope": "Reads convergence under both specified identifications and the degree-four power-mean/SOS limit equality; retains the conjectural all-degree extension as open."
+        },
+        {
+          "unit": "§7–8 conclusions, open conjecture, and references",
+          "physical_pdf_pages": "24-27",
+          "scope": "Reads the remaining power-mean proof, explicit conjecture/open questions, acknowledgements and full bibliography."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch2/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S022",
+      "sha256": "05f11d7ecc7409e70fcfa307e5de28175ace77b44128823d3e005e924c98629c",
+      "read_pages": "1-44",
+      "pdf_scope": "Complete local 44-page PDF; all physical pages 1–44 read by L13, including references and appendices/software supplement where present.",
+      "coverage": [
+        {
+          "unit": "Abstract and §§1–2 motivation/background",
+          "physical_pdf_pages": "1-6",
+          "scope": "Reads the optimization motivation, probability-bounds example, and SDP/SOS review with candidate finite relaxations distinguished from guarantees."
+        },
+        {
+          "unit": "§3.1 DSOS/SDSOS definitions and Gram theorems",
+          "physical_pdf_pages": "7-14",
+          "scope": "Reads diagonal dominance and scaled diagonal dominance characterizations, LP/SOCP representations, and the inner-approximation relation to SOS/PSD."
+        },
+        {
+          "unit": "§3.2 r-hierarchies and examples",
+          "physical_pdf_pages": "15-17",
+          "scope": "Reads asymptotic sufficient results and counterexamples; keeps evenness/positive-definiteness conditions and degree changes."
+        },
+        {
+          "unit": "§4 applications and numerical experiments",
+          "physical_pdf_pages": "18-29",
+          "scope": "Reads lower bounds, copositive optimization, regression, options, sparse PCA and control applications; empirical comparisons are not universal exactness results."
+        },
+        {
+          "unit": "§5 basis changes, column generation and factor width",
+          "physical_pdf_pages": "30-34",
+          "scope": "Reads iterative inner-cone improvements and FW-k limitations, including the computational cost and missing general SOCP representation for FW3."
+        },
+        {
+          "unit": "§7 supplementary SPOT/iSOS software description",
+          "physical_pdf_pages": "35-39",
+          "scope": "Reads package setup, polynomial variables and DSOS/SDSOS/SOS program construction; tool documentation is not a theorem about solver certification."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "40-44",
+          "scope": "Reads all bibliography pages."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch2/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S023",
+      "sha256": "922909d5e8e47a305566b92b0f4b19c2404ad05860b01297d5a6e22e43c2f122",
+      "read_pages": "1-21",
+      "pdf_scope": "Complete local 21-page PDF; all physical pages 1–21 read by L13, including references and appendices/software supplement where present.",
+      "coverage": [
+        {
+          "unit": "Abstract and §1 introduction",
+          "physical_pdf_pages": "1-3",
+          "scope": "States qBnB motivation, algorithms and intended unconstrained smooth-cube setting."
+        },
+        {
+          "unit": "§2 branch-and-bound definitions and quasi-lower-bound rule",
+          "physical_pdf_pages": "4-6",
+          "scope": "Defines the global cube problem and the key restricted quantifier: a quasi-lower bound is required only on cubes containing a global minimizer."
+        },
+        {
+          "unit": "§4.1–4.2 qBnB(2) and constrained variant",
+          "physical_pdf_pages": "6-9",
+          "scope": "Reads the second-order Taylor bound and its unconstrained stationarity condition, then separately reads the boundary-aware constrained rule."
+        },
+        {
+          "unit": "§4.3 qBnB(3), Theorem 1, and combined rule",
+          "physical_pdf_pages": "9-12",
+          "scope": "Reads Hessian-Lipschitz assumptions, neighborhood and Newton conditions, cubic error, eventual-exactness conditions, and numerical stopping correction."
+        },
+        {
+          "unit": "§§5–6 implementation and experiments",
+          "physical_pdf_pages": "12-16",
+          "scope": "Reads Newton implementation corrections, Lipschitz estimation, benchmark data and limitations of empirical comparisons."
+        },
+        {
+          "unit": "References",
+          "physical_pdf_pages": "17-18",
+          "scope": "Reads bibliography."
+        },
+        {
+          "unit": "Appendix A: global qBnB correctness proof",
+          "physical_pdf_pages": "19-20",
+          "scope": "Reads the minimizer-retention induction, shrinking-box argument, and epsilon-termination proof."
+        },
+        {
+          "unit": "Appendix B: application and regularity assumptions",
+          "physical_pdf_pages": "21",
+          "scope": "Reads the conditional Lipschitz-differentiability application and keeps its model-specific assumptions separate."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch2/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S024",
+      "sha256": "deb72842d1067b4fa98ad54677019c6a61e469f3b205f7fb4839659b59e447d1",
+      "read_pages": "1-8",
+      "pdf_scope": "Complete local 8-page PDF; all physical pages 1–8 read by L13, including references and appendices/software supplement where present.",
+      "coverage": [
+        {
+          "unit": "Abstract, §I problem and algorithm motivation",
+          "physical_pdf_pages": "1-2",
+          "scope": "Reads compact feasible-set polynomial optimization setup, SOS/moment motivation, and approximate extraction objective."
+        },
+        {
+          "unit": "§§II–V SOS and moment GLB subroutines",
+          "physical_pdf_pages": "2-5",
+          "scope": "Reads positivity and moment formulations, bounded quadratic-module relaxations, the supremal lower-bound interpretation, and the ideal branch-and-bound setup."
+        },
+        {
+          "unit": "§VI Algorithm E_k and Lemma 2",
+          "physical_pdf_pages": "5-6",
+          "scope": "Reads active-box selection, longest-edge bisection, nested-box monotonicity and the interval-generator SOS identity used in its proof."
+        },
+        {
+          "unit": "Theorem 1, convergence proof and Corollary 1",
+          "physical_pdf_pages": "6-7",
+          "scope": "Reads the finite-grid argument, sufficiently-large-order qualification, compactness/uniform-continuity conditions and approximate-feasibility conclusion."
+        },
+        {
+          "unit": "Numerical example, Appendix proof and references",
+          "physical_pdf_pages": "7-8",
+          "scope": "Reads reported residuals and approximate point, Lemma 3 interval identity proof, end matter and bibliography; no exact optimizer claim is inferred."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch2/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S027",
+      "sha256": "7623e5697e4599a7ea486b8748df6f0eab50383dcbdc0e646bf333e984930e72",
+      "read_pages": "1-18",
+      "pdf_scope": "Complete 18-page arXiv extended article; all physical pages 1–18 read. This is a proof-specific complement to M0353, not a book substitute.",
+      "coverage": [
+        {
+          "unit": "Abstract and §§1–2 polyhedra, LP and duality",
+          "physical_pdf_pages": "1-4",
+          "scope": "Reads the ordered-field/polyhedron setup, objective convention, weak duality, strong-duality and Farkas statements, and formalization overview."
+        },
+        {
+          "unit": "§3 bases, reduced costs and pivots",
+          "physical_pdf_pages": "5-6",
+          "scope": "Reads basic feasible points, reduced-cost optimality certificate and feasible-descent/unboundedness logic."
+        },
+        {
+          "unit": "§4 symbolic lexicographic perturbation",
+          "physical_pdf_pages": "7-12",
+          "scope": "Reads lexicographic feasibility, pivoting rule, strict progress and finite basis-height termination proof."
+        },
+        {
+          "unit": "§5 Phase II and effective feasibility/Farkas",
+          "physical_pdf_pages": "12-14",
+          "scope": "Reads objective optimization termination and the formal feasibility predicate/Farkas alternative."
+        },
+        {
+          "unit": "§6 complete simplex and general-case reduction",
+          "physical_pdf_pages": "14-16",
+          "scope": "Reads pointed and general implementations, reduction to nonnegative variables, and corresponding correctness cases."
+        },
+        {
+          "unit": "§7 consequences, acknowledgements and references",
+          "physical_pdf_pages": "16-18",
+          "scope": "Reads derived LP duality, Farkas, separation and bounded-polyhedron Minkowski theorem, then acknowledgements and bibliography."
+        }
+      ],
+      "reader_actor": "L13",
+      "page_convention": "physical PDF pages, 1-based; all pages including references read.",
+      "batch_source": "evidence/W19/reader_batches/L13_batch2/reading_coverage.json"
+    },
+    {
+      "source_local_id": "S016",
+      "sha256": "783dff58d54a2ee6872a6ce2c663428037d10d7f9f61cec6336ae903f4945048",
+      "pdf_pages": 26,
+      "read_pages": "1–26",
+      "pdf_scope": "Complete local PDF; physical pp.1–26 read in L01_B2, including all body, appendices if present, acknowledgments, and references.",
+      "coverage": [
+        {
+          "unit": "Front matter, abstract, and §1 Introduction",
+          "physical_pdf_pages": "1–4",
+          "scope": "身份、问题设定、目标与章节路线；原问题是在m个球交集上最小化可非凸二次型。"
+        },
+        {
+          "unit": "§2.1 Techniques for building an SDP relaxation",
+          "physical_pdf_pages": "5–7",
+          "scope": "Shor、SOC及局部化矩阵的提升表示和锥构造。"
+        },
+        {
+          "unit": "§2.2 Results from the literature",
+          "physical_pdf_pages": "7–9",
+          "scope": "已有单球/双球精确松弛和相关锥包含；限定模型条件。"
+        },
+        {
+          "unit": "§2.3 Measuring the quality of a relaxation",
+          "physical_pdf_pages": "9–10",
+          "scope": "用最优矩阵谱隙/秩一性与数值指标衡量实验，不将其升级为普遍定理。"
+        },
+        {
+          "unit": "§3.1–3.2 Existing and new relaxations",
+          "physical_pdf_pages": "10–13",
+          "scope": "定义Kron与Beta松弛，线性化球约束并说明relaxation方向。"
+        },
+        {
+          "unit": "§3.3 The exact case m=2",
+          "physical_pdf_pages": "13–16",
+          "scope": "增加两条上界的互补等式；Theorem 1给H⁰=R⁰，证明依赖极射线/秩分析。"
+        },
+        {
+          "unit": "§3.4 The general case m≥3",
+          "physical_pdf_pages": "16–17",
+          "scope": "随机实验显示松弛强度；不提供m≥3精确性定理。"
+        },
+        {
+          "unit": "§4.1 Linear upper bounds on the norm",
+          "physical_pdf_pages": "18–19",
+          "scope": "对||x||≤min(1,g+hᵀx)构造精确提升表示。"
+        },
+        {
+          "unit": "§4.2 Two Trust Region Subproblem",
+          "physical_pdf_pages": "18–20",
+          "scope": "把方法扩展到两个椭球并报告有限基准实验。"
+        },
+        {
+          "unit": "§5 Proof of Theorem 1",
+          "physical_pdf_pages": "20–24",
+          "scope": "Lemma 2–4与极射线分解，完成m=2互补强化松弛精确性证明。"
+        },
+        {
+          "unit": "§6 Conclusions, acknowledgments, and references",
+          "physical_pdf_pages": "24–26",
+          "scope": "总结、致谢和完整参考文献。"
+        }
+      ],
+      "reader_actor": "L01",
+      "page_convention": "physical PDF pages, 1-based; full text and appendices/references read; rendered page images independently inspected for key formula/theorem pages.",
+      "rendered_pages": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "batch_source": "evidence/W19/reader_batches/L01_B2/reading_coverage.json",
+      "historical_unavailable_original_artifacts": [
+        {
+          "original_json_pointer": "/sources/25/rendered_pages/0",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S016-p14.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/25/rendered_pages/1",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S016-p18.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/25/rendered_pages/2",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S016-p21.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/25/rendered_pages/3",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S016-p23.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/25/rendered_pages/4",
+          "declared_original_path": "evidence/W19/rendered/S016-p1.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        }
+      ],
+      "newly_derived_evidence": [
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S016-p14.new-derived.png",
+          "sha256": "63e47434a1d201100417be01ff061b181f799ee44f5ce89a9a8bce8f0ffd615a",
+          "source_pdf_sha256": "783dff58d54a2ee6872a6ce2c663428037d10d7f9f61cec6336ae903f4945048",
+          "source_approved_member": "__external__/dbe1732b09dc7135/08_Burer_2023_A Slightly Lifted Convex Relaxation for Nonconvex Quadratic.pdf",
+          "physical_page": 14,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S016-p18.new-derived.png",
+          "sha256": "b46441c2c48a6d396ca43ca43075b24aa1d3ad4e9a81f6ba85753f379c9237ae",
+          "source_pdf_sha256": "783dff58d54a2ee6872a6ce2c663428037d10d7f9f61cec6336ae903f4945048",
+          "source_approved_member": "__external__/dbe1732b09dc7135/08_Burer_2023_A Slightly Lifted Convex Relaxation for Nonconvex Quadratic.pdf",
+          "physical_page": 18,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S016-p21.new-derived.png",
+          "sha256": "b0c130b1e0eae9e4de47f5fa76201b0d585c4632ce4deb2fc0417ebcbbd975f4",
+          "source_pdf_sha256": "783dff58d54a2ee6872a6ce2c663428037d10d7f9f61cec6336ae903f4945048",
+          "source_approved_member": "__external__/dbe1732b09dc7135/08_Burer_2023_A Slightly Lifted Convex Relaxation for Nonconvex Quadratic.pdf",
+          "physical_page": 21,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S016-p23.new-derived.png",
+          "sha256": "5ab713e6fd4678a070754c7918db795d59c913df3ef31bf68a6755449fc5871d",
+          "source_pdf_sha256": "783dff58d54a2ee6872a6ce2c663428037d10d7f9f61cec6336ae903f4945048",
+          "source_approved_member": "__external__/dbe1732b09dc7135/08_Burer_2023_A Slightly Lifted Convex Relaxation for Nonconvex Quadratic.pdf",
+          "physical_page": 23,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S016-p1.new-derived.png",
+          "sha256": "56fc747adfb82275d6658fd51f99ce22399131ef8de86e17aa345cab67665dab",
+          "source_pdf_sha256": "783dff58d54a2ee6872a6ce2c663428037d10d7f9f61cec6336ae903f4945048",
+          "source_approved_member": "__external__/dbe1732b09dc7135/08_Burer_2023_A Slightly Lifted Convex Relaxation for Nonconvex Quadratic.pdf",
+          "physical_page": 1,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S017",
+      "sha256": "6d53b70110481e4c638e1e1cb8b44dfeb45f71f19dec83dd628c1da313e2827e",
+      "pdf_pages": 21,
+      "read_pages": "1–21",
+      "pdf_scope": "Complete local PDF; physical pp.1–21 read in L01_B2, including all body, appendices if present, acknowledgments, and references.",
+      "coverage": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–7",
+          "scope": "问题、LP/SOS层级背景、Krivine–Stengle表示与本文Lagrange/SDP层级动机。"
+        },
+        {
+          "unit": "§2.1 Notation and definitions",
+          "physical_pdf_pages": "7–8",
+          "scope": "多项式优化、Krivine–Stengle系数层级及假设记号。"
+        },
+        {
+          "unit": "§2.2 Main result",
+          "physical_pdf_pages": "8–9",
+          "scope": "Assumption 1为K紧、0≤gⱼ≤1且{gⱼ,1−gⱼ}生成R[x]；Theorem 2.2给系数Lagrange层级趋于f*。"
+        },
+        {
+          "unit": "§2.3 Convex programs",
+          "physical_pdf_pages": "9–10",
+          "scope": "Theorem 2.3：凸f与−gⱼ、Slater和f*>−∞下，原始一阶Lagrange松弛精确且达到。"
+        },
+        {
+          "unit": "§3.1 Interpreting the LP-relaxations",
+          "physical_pdf_pages": "11–12",
+          "scope": "把LP层级写作对全空间多项式恒等式的系数约束。"
+        },
+        {
+          "unit": "§3.2 A parametrized hierarchy of semidefinite relaxations",
+          "physical_pdf_pages": "11–13",
+          "scope": "用次数为2k的SOS乘子减弱LP过度简化，PSD块大小依赖k。"
+        },
+        {
+          "unit": "§3.3 Sherali–Adams RLT for 0/1 programs",
+          "physical_pdf_pages": "12–14",
+          "scope": "解释RLT及其与参数化SDP层级的联系和限制。"
+        },
+        {
+          "unit": "§4.1 Convex problems",
+          "physical_pdf_pages": "14–15",
+          "scope": "Theorem 4.1在凸、Slater、次数≤2或SOS-convex且次数≤2k的条件下给第一阶参数化SDP精确。"
+        },
+        {
+          "unit": "§4.2 Obstructions to Exactness",
+          "physical_pdf_pages": "15–17",
+          "scope": "Corollaries 4.1–4.2给非凸问题有限阶精确的必要条件，不宣称层级普遍失效。"
+        },
+        {
+          "unit": "§5 Conclusion and references",
+          "physical_pdf_pages": "18–21",
+          "scope": "总结并核对完整参考文献。"
+        }
+      ],
+      "reader_actor": "L01",
+      "page_convention": "physical PDF pages, 1-based; full text and appendices/references read; rendered page images independently inspected for key formula/theorem pages.",
+      "rendered_pages": [
+        null
+      ],
+      "batch_source": "evidence/W19/reader_batches/L01_B2/reading_coverage.json",
+      "historical_unavailable_original_artifacts": [
+        {
+          "original_json_pointer": "/sources/26/rendered_pages/0",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S017-p8.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        }
+      ],
+      "newly_derived_evidence": [
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S017-p8.new-derived.png",
+          "sha256": "9e1c75fd5c855a687848dcf3e875caf827c548f118d22702d2c57e73207285d2",
+          "source_pdf_sha256": "6d53b70110481e4c638e1e1cb8b44dfeb45f71f19dec83dd628c1da313e2827e",
+          "source_approved_member": "__external__/c44deb1f43c16c0b/36_Lasserre_2012_A Lagrangian relaxation view of linear and semidefinite hier.pdf",
+          "physical_page": 8,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S018",
+      "sha256": "8656e750bc1e0cf52af0a34cb13946e4c3013696bd2750abf11933df9aabf56f",
+      "pdf_pages": 10,
+      "read_pages": "1–10",
+      "pdf_scope": "Complete local PDF; physical pp.1–10 read in L01_B2, including all body, appendices if present, acknowledgments, and references.",
+      "coverage": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "scope": "问题背景：共正锥和完全正锥的可计算内外近似。"
+        },
+        {
+          "unit": "§2.1 Notation and definitions",
+          "physical_pdf_pages": "2–4",
+          "scope": "多项式、矩阵/局部化矩阵、全支撑有限Borel测度以及积分半正定判据。"
+        },
+        {
+          "unit": "§2.2 Main result",
+          "physical_pdf_pages": "4–7",
+          "scope": "指数测度矩yα=∏αᵢ!；PDF p.4 所引积分判据要求 supp μ=K，紧 K 可用任意有限 Borel 测度，非紧 K 另须矩增长条件（本文未给出具体条件）。Theorem 2.1给共正锥外近似交为C，Theorem 2.2和Corollary 2.3给SOS倾斜矩的完全正锥内近似及闭包并；p.5 对正正交象限的齐次形式另给紧单纯形测度替代。"
+        },
+        {
+          "unit": "§2.3 Alternative representation of the cone C*d",
+          "physical_pdf_pages": "7–9",
+          "scope": "无LMI的SOS平方二阶矩凸包闭包表示，含n=2、d=1显式例子。"
+        },
+        {
+          "unit": "§2.4 K-copositive and K-completely positive matrices",
+          "physical_pdf_pages": "9",
+          "scope": "推广到闭凸锥K；一般非紧K沿用 p.4 的矩增长条件，不能仅凭全支撑与可计算矩宣称判据适用。对正正交象限的齐次问题，p.5 的紧单纯形测度是原文给出的特别替代。"
+        },
+        {
+          "unit": "Acknowledgement and references",
+          "physical_pdf_pages": "9–10",
+          "scope": "致谢和完整参考文献。"
+        }
+      ],
+      "reader_actor": "L01",
+      "page_convention": "physical PDF pages, 1-based; full text and appendices/references read; rendered page images independently inspected for key formula/theorem pages.",
+      "rendered_pages": [
+        null,
+        null
+      ],
+      "batch_source": "evidence/W19/reader_batches/L01_B2/reading_coverage.json",
+      "historical_unavailable_original_artifacts": [
+        {
+          "original_json_pointer": "/sources/27/rendered_pages/0",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S018-p4.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/27/rendered_pages/1",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S018-p5.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        }
+      ],
+      "newly_derived_evidence": [
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S018-p4.new-derived.png",
+          "sha256": "268c74c9c83cf73d7f580e34dd7ffa828ccd55dc2f158a74278d04b4dfc3037c",
+          "source_pdf_sha256": "8656e750bc1e0cf52af0a34cb13946e4c3013696bd2750abf11933df9aabf56f",
+          "source_approved_member": "__external__/ca037e8c324229b6/40_Lasserre_2010_New approximations for the cone of copositive matrices and i.pdf",
+          "physical_page": 4,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S018-p5.new-derived.png",
+          "sha256": "4dd04ef4772039e8574479ec135f1034eb14e0def02cd38fbdf95aed5b4ac078",
+          "source_pdf_sha256": "8656e750bc1e0cf52af0a34cb13946e4c3013696bd2750abf11933df9aabf56f",
+          "source_approved_member": "__external__/ca037e8c324229b6/40_Lasserre_2010_New approximations for the cone of copositive matrices and i.pdf",
+          "physical_page": 5,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S019",
+      "sha256": "670ed164d67187902b733f4ac74f5f71a38b6bad7a3680dc08f5a295a17da29b",
+      "pdf_pages": 16,
+      "read_pages": "1–16",
+      "pdf_scope": "Complete local PDF; physical pp.1–16 read in L01_B2, including all body, appendices if present, acknowledgments, and references.",
+      "coverage": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "scope": "矩阵/张量共正定义、计算困难和本文完整有限步SDP算法目标。"
+        },
+        {
+          "unit": "§2 Preliminaries",
+          "physical_pdf_pages": "3–5",
+          "scope": "多项式矩、localizing矩阵和优化问题的基础记号。"
+        },
+        {
+          "unit": "§3 A complete semidefinite algorithm",
+          "physical_pdf_pages": "5–9",
+          "scope": "KKT互补条件将最小化限制到半代数集；Algorithm 3.1与Theorem 3.2证明有限阶停机。式 (3.12) 仅给原约束二次模 Archimedean 性；有限收敛另调用外部 [38, Theorem 3.3] 的 KKT hierarchy。非共正分支对 Lebesgue-a.e. 随机系数成立。"
+        },
+        {
+          "unit": "§4 Numerical Experiments",
+          "physical_pdf_pages": "9–12",
+          "scope": "矩阵和张量算例与实验；Remark 3.3说明阈值vₖ>−10⁻⁶只是浮点实践启发，不是严格符号证书。"
+        },
+        {
+          "unit": "§5 Conclusions and discussions",
+          "physical_pdf_pages": "12–14",
+          "scope": "结论、完全正对偶锥、经典Lasserre层级比较和单纯形分割方法比较。"
+        },
+        {
+          "unit": "Acknowledgement and references",
+          "physical_pdf_pages": "14–16",
+          "scope": "致谢与全部参考文献。"
+        }
+      ],
+      "reader_actor": "L01",
+      "page_convention": "physical PDF pages, 1-based; full text and appendices/references read; rendered page images independently inspected for key formula/theorem pages.",
+      "rendered_pages": [
+        null,
+        null,
+        null
+      ],
+      "batch_source": "evidence/W19/reader_batches/L01_B2/reading_coverage.json",
+      "historical_unavailable_original_artifacts": [
+        {
+          "original_json_pointer": "/sources/28/rendered_pages/0",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S019-p6.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/28/rendered_pages/1",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S019-p7.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/28/rendered_pages/2",
+          "declared_original_path": "evidence/W19/rendered/S019-p8.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        }
+      ],
+      "newly_derived_evidence": [
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S019-p6.new-derived.png",
+          "sha256": "7392c9529814dd985078d46c1ec1b97594255ae12e583388c501a02f964afffe",
+          "source_pdf_sha256": "670ed164d67187902b733f4ac74f5f71a38b6bad7a3680dc08f5a295a17da29b",
+          "source_approved_member": "__external__/81bba18890d69c5d/31_Nie_2017_A Complete Semidefinite Algorithm for Detecting Copositive M.pdf",
+          "physical_page": 6,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S019-p7.new-derived.png",
+          "sha256": "5dd89af3edad3873c69befebb450d382ced54be41ad1c893cd3259d6fe19d442",
+          "source_pdf_sha256": "670ed164d67187902b733f4ac74f5f71a38b6bad7a3680dc08f5a295a17da29b",
+          "source_approved_member": "__external__/81bba18890d69c5d/31_Nie_2017_A Complete Semidefinite Algorithm for Detecting Copositive M.pdf",
+          "physical_page": 7,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S019-p8.new-derived.png",
+          "sha256": "68a96df9735237366ec681c8ea9acb364ee0a0b33917fb8e6ec71853ccfaa8fd",
+          "source_pdf_sha256": "670ed164d67187902b733f4ac74f5f71a38b6bad7a3680dc08f5a295a17da29b",
+          "source_approved_member": "__external__/81bba18890d69c5d/31_Nie_2017_A Complete Semidefinite Algorithm for Detecting Copositive M.pdf",
+          "physical_page": 8,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        }
+      ]
+    },
+    {
+      "source_local_id": "S020",
+      "sha256": "9796c9d060bcda403f055d6edad00d4e8c1fffdd65ccdbcc435247b313d98a1e",
+      "pdf_pages": 14,
+      "read_pages": "1–14",
+      "pdf_scope": "Complete local PDF; physical pp.1–14 read in L01_B2, including all body, appendices if present, acknowledgments, and references.",
+      "coverage": [
+        {
+          "unit": "Front matter and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "scope": "minimal zero定义、论文结构及n=5/n=6分类动机。"
+        },
+        {
+          "unit": "§2 Notations and preliminaries",
+          "physical_pdf_pages": "2–4",
+          "scope": "支持、共正零、minimal零、极射线与相对锥不可约定义；引用并证明预备引理。"
+        },
+        {
+          "unit": "§3 Minimal zeros of copositive matrices",
+          "physical_pdf_pages": "4–7",
+          "scope": "Lemma 3.1–3.5、3.7–3.11与Corollary 3.4等：核非负锥极射线刻画minimal零、有限分解及额外支持结构。"
+        },
+        {
+          "unit": "§4 Irreducibility of copositive matrices",
+          "physical_pdf_pages": "7–9",
+          "scope": "相对Nₙ不可约的零坐标对判据；相对S₊(n)不可约等价minimal zeros张成全空间。"
+        },
+        {
+          "unit": "§5 Minimal support sets of irreducible copositive matrices",
+          "physical_pdf_pages": "9–13",
+          "scope": "只在单位对角且同时相对两锥不可约假设下给必要支持筛选；Theorem 5.7含有限n=6候选列表。"
+        },
+        {
+          "unit": "§6 Conclusions, acknowledgements, and references",
+          "physical_pdf_pages": "13–14",
+          "scope": "总结、致谢与参考文献；候选支持型不宣称全部可实现。"
+        }
+      ],
+      "reader_actor": "L01",
+      "page_convention": "physical PDF pages, 1-based; full text and appendices/references read; rendered page images independently inspected for key formula/theorem pages.",
+      "rendered_pages": [
+        null,
+        null,
+        null
+      ],
+      "batch_source": "evidence/W19/reader_batches/L01_B2/reading_coverage.json",
+      "historical_unavailable_original_artifacts": [
+        {
+          "original_json_pointer": "/sources/29/rendered_pages/0",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S020-p12.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/29/rendered_pages/1",
+          "declared_original_path": "evidence/W19/reader_batches/L01_B2/rendered/S020-p5.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        },
+        {
+          "original_json_pointer": "/sources/29/rendered_pages/2",
+          "declared_original_path": "evidence/W19/rendered/S020-p1.png",
+          "status": "missing_from_original_approved_archive; original_read_time_asset_not_verified"
+        }
+      ],
+      "newly_derived_evidence": [
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S020-p12.new-derived.png",
+          "sha256": "9592a90e9f6c6fe5460fdee421b606ede6ed1afefb8e4150249e5188f2878331",
+          "source_pdf_sha256": "9796c9d060bcda403f055d6edad00d4e8c1fffdd65ccdbcc435247b313d98a1e",
+          "source_approved_member": "__external__/82e43d1fc1bfc6c1/38_Hildebrand_2013_Minimal zeros of copositive matrices.pdf",
+          "physical_page": 12,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S020-p5.new-derived.png",
+          "sha256": "01d32fac305e52df8eed489a3a42954ec9c9fd4c101428c853e82c9e054900df",
+          "source_pdf_sha256": "9796c9d060bcda403f055d6edad00d4e8c1fffdd65ccdbcc435247b313d98a1e",
+          "source_approved_member": "__external__/82e43d1fc1bfc6c1/38_Hildebrand_2013_Minimal zeros of copositive matrices.pdf",
+          "physical_page": 5,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        },
+        {
+          "classification": "newly_derived_not_original_read_time_evidence",
+          "path": "evidence/derived-qa/S020-p1.new-derived.png",
+          "sha256": "a36655c6b25d64929cb2d03897ee3eb9b58322349107c40ce76d4bb0bbf52dea",
+          "source_pdf_sha256": "9796c9d060bcda403f055d6edad00d4e8c1fffdd65ccdbcc435247b313d98a1e",
+          "source_approved_member": "__external__/82e43d1fc1bfc6c1/38_Hildebrand_2013_Minimal zeros of copositive matrices.pdf",
+          "physical_page": 1,
+          "purpose": "New source-page inspection support only; no original reading attestation or source-count increment."
+        }
+      ]
+    }
+  ]
+}

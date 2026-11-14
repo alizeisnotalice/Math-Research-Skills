@@ -1,0 +1,826 @@
+{
+  "schema_version": 1,
+  "note": "Original local files remain in place. No fulltexts, images, archives or caches are redistributed. Full path inventory is local-only.",
+  "skills": [
+    {
+      "skill": "academic-literature-search",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "academic-paper-translator",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "academic-paper-writing",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "anti-defensive-writing",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "astra-delegate",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "cnki-search",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "literature-download",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "literature-search-download",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-a01-fractional-normalization",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-a02-outer-relaxation-budget",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-a03-compactness-concentration",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-a04-shared-nonanticipative-mip",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-b01-lagrange-farkas",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-b02-semi-infinite-exchange",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-b03-generalized-moments",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-b04-qualification-facial-minimax",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-c01-semidefinite-lifting",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-c02-completely-positive-copositive",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-c03-moment-sos-certificates",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-c04-branch-and-bound",
+      "omitted_files": 1,
+      "omitted_bytes": 13099,
+      "reasons": {
+        "historical-audit-or-duplicate": 1
+      }
+    },
+    {
+      "skill": "math-d01-kantorovich-duality",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-d02-gibbs-entropy-duality",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-d03-parameterized-free-energy",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-d04-entropy-chain-rule",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-e01-occupation-measure-flow-lp",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-e02-nonlocal-hjb-supersolution",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-e03-tree-bellman-cross-layer-budget",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-e04-snell-envelope-optimal-stopping",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-f01-geometric-mean-kernel-two-winner-audit",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-f02-tensor-fourier-positivity-soft-square-supremum",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-f03-hilbert-schmidt-radial-layer-square-envelope",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-f04-poisson-gamma-abel-square-function",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-f05-l2-spectral-parameter-schur-test",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-f06-menshov-rademacher-maximal-partial-sums",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-f07-marcinkiewicz-zygmund-vector-extension",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-g01-carleson-measure-box-and-tent-test",
+      "omitted_files": 1,
+      "omitted_bytes": 7193,
+      "reasons": {
+        "historical-audit-or-duplicate": 1
+      }
+    },
+    {
+      "skill": "math-g02-outer-lp-size-and-tree-stopping",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-g03-directional-capture-tree-quadratic-audit",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-g04-rubio-de-francia-square-function-scope-check",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-g05-tree-carleson-square-function-tc-a4-audit",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-h01-uniform-cramer-moderate-deviations",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-h02-exponential-tilting-saddlepoint",
+      "omitted_files": 4,
+      "omitted_bytes": 90090,
+      "reasons": {
+        "not-runtime-public-subset": 3,
+        "historical-audit-or-duplicate": 1
+      }
+    },
+    {
+      "skill": "math-h03-fan-grama-liu-martingale-expansion",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-h04-exact-rate-function-variance-strata",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-h05-chernoff-hoeffding-bernstein",
+      "omitted_files": 3,
+      "omitted_bytes": 129370,
+      "reasons": {
+        "not-runtime-public-subset": 3
+      }
+    },
+    {
+      "skill": "math-i01-ordered-increment-conditional-bernstein",
+      "omitted_files": 1,
+      "omitted_bytes": 3531,
+      "reasons": {
+        "historical-audit-or-duplicate": 1
+      }
+    },
+    {
+      "skill": "math-i02-filtration-projections-compensators",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-i03-fourth-moment-suffix-maximal-comparison",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-i04-random-carleson-occupancy-llogl",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-j01-inhomogeneous-jump-generator",
+      "omitted_files": 11,
+      "omitted_bytes": 137378,
+      "reasons": {
+        "historical-audit-or-duplicate": 11
+      }
+    },
+    {
+      "skill": "math-j02-killed-process-duhamel-first-jump",
+      "omitted_files": 9,
+      "omitted_bytes": 38292,
+      "reasons": {
+        "historical-audit-or-duplicate": 9
+      }
+    },
+    {
+      "skill": "math-j03-nonlocal-balayage-exit-measure",
+      "omitted_files": 9,
+      "omitted_bytes": 34336,
+      "reasons": {
+        "historical-audit-or-duplicate": 9
+      }
+    },
+    {
+      "skill": "math-j04-jump-compensation-fubini-exit-settlement",
+      "omitted_files": 9,
+      "omitted_bytes": 44855,
+      "reasons": {
+        "historical-audit-or-duplicate": 9
+      }
+    },
+    {
+      "skill": "math-j05-frozen-coordinate-iterated-compensation-interface",
+      "omitted_files": 10,
+      "omitted_bytes": 32985,
+      "reasons": {
+        "historical-audit-or-duplicate": 10
+      }
+    },
+    {
+      "skill": "math-k01-chan-lai-asymptotically-gaussian-fields",
+      "omitted_files": 5,
+      "omitted_bytes": 22094,
+      "reasons": {
+        "historical-audit-or-duplicate": 5
+      }
+    },
+    {
+      "skill": "math-k02-pickands-piterbarg-double-sum",
+      "omitted_files": 10,
+      "omitted_bytes": 29514,
+      "reasons": {
+        "historical-audit-or-duplicate": 10
+      }
+    },
+    {
+      "skill": "math-k03-dirksen-mixed-tail-generic-chaining",
+      "omitted_files": 5,
+      "omitted_bytes": 22963,
+      "reasons": {
+        "historical-audit-or-duplicate": 5
+      }
+    },
+    {
+      "skill": "math-k04-anti-concentration-empirical-process",
+      "omitted_files": 5,
+      "omitted_bytes": 27942,
+      "reasons": {
+        "historical-audit-or-duplicate": 5
+      }
+    },
+    {
+      "skill": "math-k05-talagrand-convex-concentration",
+      "omitted_files": 5,
+      "omitted_bytes": 21768,
+      "reasons": {
+        "historical-audit-or-duplicate": 5
+      }
+    },
+    {
+      "skill": "math-l01-lower-bound-test-parameters",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-l02-adversarial-input-search",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-l03-rational-and-interval-certificates",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-l04-mathematical-programming-workflow",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-l05-csp-sat-smt-encoding",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-m01-convex-hull-extreme-points",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-m02-separation-support-certificate",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-m03-near-extremizer-stability",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-m04-measurable-supremum-selection",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-modeling-audit",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-modeling-delivery",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-modeling-paper",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-n01-john-loewner-ellipsoid",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-n02-log-concave-marginal-inequalities",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-n03-oscillation-and-geometric-remainder",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-n04-summable-error-entropy-descent",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "math-paper-writing",
+      "omitted_files": 1,
+      "omitted_bytes": 209119,
+      "reasons": {
+        "third-party-fulltext-or-extraction": 1
+      }
+    },
+    {
+      "skill": "mathematica-math",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "mathematica-research",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "matlab-plotting",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "pdf-paper-translate",
+      "omitted_files": 0,
+      "omitted_bytes": 0,
+      "reasons": {}
+    },
+    {
+      "skill": "probability-analytic-endpoint-methods",
+      "omitted_files": 628,
+      "omitted_bytes": 343202669,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 205,
+        "rendered-page-or-image": 310,
+        "third-party-fulltext-or-extraction": 104,
+        "historical-audit-or-duplicate": 8
+      }
+    },
+    {
+      "skill": "probability-bandit-information-bounds",
+      "omitted_files": 522,
+      "omitted_bytes": 328257098,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "historical-audit-or-duplicate": 69,
+        "third-party-fulltext-or-extraction": 162,
+        "rendered-page-or-image": 268,
+        "not-runtime-public-subset": 22
+      }
+    },
+    {
+      "skill": "probability-bernoulli-factory",
+      "omitted_files": 355,
+      "omitted_bytes": 122380619,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 75,
+        "historical-audit-or-duplicate": 75,
+        "third-party-fulltext-or-extraction": 80,
+        "rendered-page-or-image": 124
+      }
+    },
+    {
+      "skill": "probability-boolean-fourier-invariance",
+      "omitted_files": 122,
+      "omitted_bytes": 76825077,
+      "reasons": {
+        "original-or-duplicate-archive": 2,
+        "historical-audit-or-duplicate": 23,
+        "third-party-fulltext-or-extraction": 73,
+        "rendered-page-or-image": 15,
+        "not-runtime-public-subset": 9
+      }
+    },
+    {
+      "skill": "probability-brownian-potential-fractals",
+      "omitted_files": 44,
+      "omitted_bytes": 46644786,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "historical-audit-or-duplicate": 2,
+        "third-party-fulltext-or-extraction": 40,
+        "not-runtime-public-subset": 1
+      }
+    },
+    {
+      "skill": "probability-concentration-chaining",
+      "omitted_files": 273,
+      "omitted_bytes": 341467054,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 2,
+        "historical-audit-or-duplicate": 4,
+        "third-party-fulltext-or-extraction": 71,
+        "rendered-page-or-image": 195
+      }
+    },
+    {
+      "skill": "probability-first-passage-growth",
+      "omitted_files": 97,
+      "omitted_bytes": 67137863,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 5,
+        "third-party-fulltext-or-extraction": 84,
+        "historical-audit-or-duplicate": 7
+      }
+    },
+    {
+      "skill": "probability-forests-electrical-networks",
+      "omitted_files": 143,
+      "omitted_bytes": 116309231,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 26,
+        "historical-audit-or-duplicate": 20,
+        "third-party-fulltext-or-extraction": 65,
+        "rendered-page-or-image": 31
+      }
+    },
+    {
+      "skill": "probability-gaussian-polynomial-approximation",
+      "omitted_files": 305,
+      "omitted_bytes": 184955029,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 69,
+        "historical-audit-or-duplicate": 24,
+        "third-party-fulltext-or-extraction": 61,
+        "rendered-page-or-image": 150
+      }
+    },
+    {
+      "skill": "probability-information-cluster-expansion",
+      "omitted_files": 113,
+      "omitted_bytes": 85673718,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "third-party-fulltext-or-extraction": 54,
+        "not-runtime-public-subset": 22,
+        "historical-audit-or-duplicate": 22,
+        "rendered-page-or-image": 14
+      }
+    },
+    {
+      "skill": "probability-integer-polynomial-factorization",
+      "omitted_files": 621,
+      "omitted_bytes": 595850386,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "historical-audit-or-duplicate": 33,
+        "third-party-fulltext-or-extraction": 66,
+        "not-runtime-public-subset": 74,
+        "rendered-page-or-image": 216,
+        "regenerable-cache": 231
+      }
+    },
+    {
+      "skill": "probability-logconcave-moment-geometry",
+      "omitted_files": 177,
+      "omitted_bytes": 115370482,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 7,
+        "historical-audit-or-duplicate": 4,
+        "third-party-fulltext-or-extraction": 92,
+        "rendered-page-or-image": 73
+      }
+    },
+    {
+      "skill": "probability-markov-spectral-mixing",
+      "omitted_files": 622,
+      "omitted_bytes": 803960871,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 30,
+        "third-party-fulltext-or-extraction": 64,
+        "historical-audit-or-duplicate": 6,
+        "rendered-page-or-image": 59,
+        "regenerable-cache": 462
+      }
+    },
+    {
+      "skill": "probability-martingale-stopping",
+      "omitted_files": 83,
+      "omitted_bytes": 64074728,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 18,
+        "historical-audit-or-duplicate": 18,
+        "third-party-fulltext-or-extraction": 46
+      }
+    },
+    {
+      "skill": "probability-measure-convergence",
+      "omitted_files": 279,
+      "omitted_bytes": 265308267,
+      "reasons": {
+        "original-or-duplicate-archive": 3,
+        "historical-audit-or-duplicate": 112,
+        "third-party-fulltext-or-extraction": 53,
+        "rendered-page-or-image": 102,
+        "not-runtime-public-subset": 9
+      }
+    },
+    {
+      "skill": "probability-nonlinear-law-dynamics",
+      "omitted_files": 255,
+      "omitted_bytes": 109625107,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 51,
+        "historical-audit-or-duplicate": 24,
+        "third-party-fulltext-or-extraction": 92,
+        "rendered-page-or-image": 87
+      }
+    },
+    {
+      "skill": "probability-optimization-certificates",
+      "omitted_files": 251,
+      "omitted_bytes": 151395106,
+      "reasons": {
+        "not-runtime-public-subset": 36,
+        "original-or-duplicate-archive": 2,
+        "historical-audit-or-duplicate": 53,
+        "rendered-page-or-image": 67,
+        "third-party-fulltext-or-extraction": 93
+      }
+    },
+    {
+      "skill": "probability-percolation-renormalization",
+      "omitted_files": 116,
+      "omitted_bytes": 150661646,
+      "reasons": {
+        "original-or-duplicate-archive": 2,
+        "third-party-fulltext-or-extraction": 41,
+        "not-runtime-public-subset": 7,
+        "historical-audit-or-duplicate": 30,
+        "rendered-page-or-image": 36
+      }
+    },
+    {
+      "skill": "probability-poset-counting-sampling",
+      "omitted_files": 37,
+      "omitted_bytes": 31761290,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "historical-audit-or-duplicate": 3,
+        "third-party-fulltext-or-extraction": 33
+      }
+    },
+    {
+      "skill": "probability-prophet-online-selection",
+      "omitted_files": 419,
+      "omitted_bytes": 358879268,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 59,
+        "historical-audit-or-duplicate": 8,
+        "third-party-fulltext-or-extraction": 104,
+        "rendered-page-or-image": 247
+      }
+    },
+    {
+      "skill": "probability-queueing-heavy-traffic",
+      "omitted_files": 128,
+      "omitted_bytes": 67533292,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 5,
+        "third-party-fulltext-or-extraction": 101,
+        "historical-audit-or-duplicate": 11,
+        "rendered-page-or-image": 10
+      }
+    },
+    {
+      "skill": "probability-random-graph-energy-landscapes",
+      "omitted_files": 381,
+      "omitted_bytes": 727049423,
+      "reasons": {
+        "not-runtime-public-subset": 46,
+        "original-or-duplicate-archive": 2,
+        "historical-audit-or-duplicate": 21,
+        "third-party-fulltext-or-extraction": 37,
+        "rendered-page-or-image": 275
+      }
+    },
+    {
+      "skill": "probability-random-matrix-tensor",
+      "omitted_files": 77,
+      "omitted_bytes": 31215856,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 6,
+        "historical-audit-or-duplicate": 4,
+        "third-party-fulltext-or-extraction": 66
+      }
+    },
+    {
+      "skill": "probability-random-recursive-trees-asymptotics",
+      "omitted_files": 474,
+      "omitted_bytes": 329449514,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 44,
+        "historical-audit-or-duplicate": 13,
+        "third-party-fulltext-or-extraction": 96,
+        "rendered-page-or-image": 320
+      }
+    },
+    {
+      "skill": "probability-random-spatial-tree-geometry",
+      "omitted_files": 41,
+      "omitted_bytes": 63137786,
+      "reasons": {
+        "original-or-duplicate-archive": 1,
+        "not-runtime-public-subset": 6,
+        "historical-audit-or-duplicate": 4,
+        "third-party-fulltext-or-extraction": 30
+      }
+    },
+    {
+      "skill": "probability-self-avoiding-walks-and-sle",
+      "omitted_files": 778,
+      "omitted_bytes": 503730609,
+      "reasons": {
+        "not-runtime-public-subset": 217,
+        "original-or-duplicate-archive": 1,
+        "historical-audit-or-duplicate": 21,
+        "third-party-fulltext-or-extraction": 97,
+        "rendered-page-or-image": 442
+      }
+    }
+  ]
+}

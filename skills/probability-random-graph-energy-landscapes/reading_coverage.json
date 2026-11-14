@@ -1,0 +1,3892 @@
+[
+  {
+    "source_local_id": "PGEL-001",
+    "pdf_sha256": "dc1a69bcf5f2dee0be85f4dec77bad21a283a3400201957bb66ddf64f57e1cb1",
+    "pdf_page_count": 28,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      28
+    ],
+    "sections": [
+      {
+        "section": "Abstract and Introduction",
+        "pdf_pages": "1-5",
+        "coverage": "Problem setting, rank-r sphere relaxation, symmetry, links to synchronization and signed Z2 recovery, and limitations of earlier global-sync results."
+      },
+      {
+        "section": "§2 Optimality conditions and deterministic landscape results",
+        "pdf_pages": "5-7",
+        "coverage": "First- and second-order conditions; real and complex deterministic benign-landscape certificates; global phase / orthogonal-factor symmetries."
+      },
+      {
+        "section": "§3 Applications",
+        "pdf_pages": "7-12",
+        "coverage": "Independent symmetric signed ER model and Theorem 3.2; deterministic Laplacian condition-number test; circulant twisted-state counterexamples and graph applications."
+      },
+      {
+        "section": "§4 A bound on the normalized Laplacian condition number",
+        "pdf_pages": "12-15",
+        "coverage": "Diagonal normalization and perturbation estimates connecting a relative matrix deviation to the condition number used in the landscape criterion."
+      },
+      {
+        "section": "§5 Proofs for specific applications",
+        "pdf_pages": "15-19",
+        "coverage": "Random Z2 model proofs reduce to the deterministic certificate via concentration; signed ER argument explicitly cites an earlier concentration proof. §5.2 circulant proof on physical pp. 16-19 numerically checks the m=2 maximizer and monotonicity of kappa on p. 17, and the low-mu ratio and twisted-state Hessian minimum coefficient on p. 18. PDF p. 20 has already entered §6.1."
+      },
+      {
+        "section": "§6.1 Real case",
+        "pdf_pages": "19-22",
+        "coverage": "Proof of Theorem 2.1 using the D-weighted decomposition v=Y^T D 1/tr(D), W=Y-1v^T, which gives W^T D 1=0; tangent direction, first/second-order conditions, and trace/Schur-product bounds. This is not rowwise Euclidean orthogonality to v."
+      },
+      {
+        "section": "§6.2 Complex case",
+        "pdf_pages": "22-24",
+        "coverage": "Hermitian extension proof with phase-vector nullspace condition and real-part inner product."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "24-28",
+        "coverage": "Full bibliography read to identify dependencies; no additional theorem claimed from references."
+      }
+    ],
+    "source_card": "sources/cards/PGEL-001.md",
+    "local_pdf": "sources/pdfs/PGEL-001.pdf"
+  },
+  {
+    "source_local_id": "PGEL-002",
+    "pdf_sha256": "efcbd4e7c7e68d3460a5cd9cbbe2e5b418f95fd4c7b958dc360424af33d136b5",
+    "pdf_page_count": 11,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      11
+    ],
+    "sections": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1-4",
+        "coverage": "Definition of global synchronization, random graph process conjecture and simultaneous theorem, expander and defective-expander statements."
+      },
+      {
+        "section": "§2 Proof of Theorem 1.6",
+        "pdf_pages": "4-8",
+        "coverage": "Stable-state definition; expansion lemmas; arc geometry and angular-growth iteration excluding nonsynchronous stable states under the full defect assumptions."
+      },
+      {
+        "section": "§3 Proof of Theorem 1.2 and References",
+        "pdf_pages": "9-11",
+        "coverage": "Uniform-edge-label coupling, low-degree defect set, core expansion in the near-connectivity window, high-density union bound, and cited dependencies."
+      }
+    ],
+    "source_card": "sources/cards/PGEL-002.md",
+    "local_pdf": "sources/pdfs/PGEL-002.pdf"
+  },
+  {
+    "source_local_id": "PGEL-003",
+    "pdf_sha256": "f70f8f651dbac9199b1eea03017ba649adf3d236a32e1f631d85eb59d8605798",
+    "pdf_page_count": 35,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      35
+    ],
+    "sections": [
+      {
+        "section": "§1 Introduction",
+        "pdf_pages": "1-8",
+        "coverage": "Model, a.e.-initial-condition definition of global synchronization, analytic gradient-flow/saddle basin distinction, notation and main regular/nonregular/ER theorems; Theorems 1.2, 1.4 and 1.10 checked at pp. 3, 5 and 7."
+      },
+      {
+        "section": "§2 Preliminaries for the Kuramoto model on a graph",
+        "pdf_pages": "8-15",
+        "coverage": "Stable-state Hessian conditions, Daido moments, half-circle lemma and kernel stability condition used to reduce synchronization to exclusion of outlying phases."
+      },
+      {
+        "section": "§3 Preliminaries on spectral graph theory",
+        "pdf_pages": "15-18",
+        "coverage": "Adjacency/Laplacian expansion estimates and edge-count comparisons for phase-defined vertex sets."
+      },
+      {
+        "section": "§4 The amplification argument",
+        "pdf_pages": "18-23",
+        "coverage": "Deterministic angle-set iteration forcing the outlier set empty under expansion; proof mechanism behind the spectral-expander theorem."
+      },
+      {
+        "section": "§5 Application: Ramanujan graphs and random regular graphs",
+        "pdf_pages": "23-25",
+        "coverage": "Regular-graph applications and numerical parameter checks supporting the sharper alpha threshold; checked that this is high-degree, not a random 3-regular theorem."
+      },
+      {
+        "section": "§6 Application: Erdős-Rényi random graphs",
+        "pdf_pages": "25-31",
+        "coverage": "Adjacency and Laplacian concentration estimates, spectral-expander parameters, Corollary 6.1 and finite-size Theorem 6.2 used in the ER proof."
+      },
+      {
+        "section": "§7 Discussion and open questions",
+        "pdf_pages": "31-32",
+        "coverage": "Scope, limitations, and open questions about synchronization thresholds and related landscape models."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "32-35",
+        "coverage": "Full bibliography read for source lineage and cited dependencies."
+      }
+    ],
+    "source_card": "sources/cards/PGEL-003.md",
+    "local_pdf": "sources/pdfs/PGEL-003.pdf"
+  },
+  {
+    "source_local_id": "PGEL-004",
+    "pdf_sha256": "115182e6aeb65b31726d8e4ebdc409133ce14b79537ca72fe18a91d7fccb36b2",
+    "pdf_page_count": 9,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      9
+    ],
+    "sections": [
+      {
+        "section": "Abstract and §I Introduction",
+        "pdf_pages": "1-2",
+        "coverage": "Homogeneous symmetric ER model with diagonal self-loops, a.e.-initial-state global synchronization definition, prior and claimed threshold scales, and gradient-flow context."
+      },
+      {
+        "section": "§II Overview of proof strategy",
+        "pdf_pages": "2-3",
+        "coverage": "Spectral adjacency/Laplacian shifts and reduction from stable equilibria to phases in a half-circle."
+      },
+      {
+        "section": "§III Bounds on the order parameter and higher-order moments",
+        "pdf_pages": "3-4",
+        "coverage": "Lemmas 1–2 derive order-parameter and stray-angle bounds from stable-state conditions and the adjacency spectral norm."
+      },
+      {
+        "section": "§IV Bounds on the number of edges and sizes of sets in graphs",
+        "pdf_pages": "4-5",
+        "coverage": "Lemmas 3–5 and Theorem 6 derive deterministic edge-count deviation bounds from adjacency/Laplacian spectral norms."
+      },
+      {
+        "section": "§V Amplification argument",
+        "pdf_pages": "5-7",
+        "coverage": "Kernel Lemma 7, edge comparison Lemma 8, Corollary 9 and Lemma 10 iteratively remove outlying phase sets; Theorem 11 gives the deterministic spectral criterion."
+      },
+      {
+        "section": "§VI Global synchrony of Erdős-Rényi graphs",
+        "pdf_pages": "7-8",
+        "coverage": "Section VI starts at the end of physical p. 7 and continues through physical p. 8: explicit spectral norm tails; the n=10^6, p>0.256 example and equation (12); asymptotic p>>log^2(n)/n sufficiency; §VI A's iterative computation and Table I (including p>0.01117 at n=10^6); and the distinction between this computation and the unproved p>>log(n)/n scale. Physical p. 8 was rechecked against its rendered page image."
+      },
+      {
+        "section": "§VII Discussion",
+        "pdf_pages": "8-8",
+        "coverage": "§VII begins in the right column of physical p. 8; separates the proved ER threshold from the more optimistic numerical evidence and describes future work. Physical p. 8 was rechecked against its rendered page image."
+      },
+      {
+        "section": "Acknowledgments, data availability and references",
+        "pdf_pages": "9-9",
+        "coverage": "Full end matter and bibliography read."
+      }
+    ],
+    "source_card": "sources/cards/PGEL-004.md",
+    "local_pdf": "sources/pdfs/PGEL-004.pdf"
+  },
+  {
+    "source_local_id": "PGEL-005",
+    "pdf_sha256": "cb25a266410f4be91663f2ba0e515164fb55e1c3170a83bd5b8984cbfad9223d",
+    "pdf_page_count": 6,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      6
+    ],
+    "sections": [
+      {
+        "section": "Abstract and §I Introduction",
+        "pdf_pages": "1-2",
+        "coverage": "Homogeneous positive undirected model, global synchronization quantifier, connectivity parameter, the strict finite-n target and linear-stability limitation."
+      },
+      {
+        "section": "§II Self-loops and twinning",
+        "pdf_pages": "2-3",
+        "coverage": "Shows adding self-loops leaves dynamics unchanged, converts minimum-degree parameter to looped connectivity, and records the twinning equivalence."
+      },
+      {
+        "section": "§III Order parameter and higher-order moments",
+        "pdf_pages": "3-4",
+        "coverage": "Moment identity and the stable-equilibrium inequality used to lower-bound the first two Daido order parameters."
+      },
+      {
+        "section": "§IV A large order parameter implies a stable equilibrium is all-in-phase",
+        "pdf_pages": "4-5",
+        "coverage": "Lemma 1 and Corollary 2 give a sufficient order-parameter condition for stable-state synchronization."
+      },
+      {
+        "section": "§V For dense networks the all-in-phase state is the only stable equilibrium",
+        "pdf_pages": "5-6",
+        "coverage": "Lemmas 3–4 and Theorem 5 prove the strict looped threshold mu-tilde>3/4 and its loopless finite-n conversion."
+      },
+      {
+        "section": "§VI Networks with connectivity just below three-quarters",
+        "pdf_pages": "6-6",
+        "coverage": "Explicitly rough and non-rigorous four-cluster pattern discussion; read as a limitation, not an existence theorem."
+      },
+      {
+        "section": "Acknowledgments, data availability and references",
+        "pdf_pages": "6-6",
+        "coverage": "Full end matter and bibliography read."
+      }
+    ],
+    "source_card": "sources/cards/PGEL-005.md",
+    "local_pdf": "sources/pdfs/PGEL-005.pdf"
+  },
+  {
+    "source_local_id": "PGEL-010",
+    "pdf_sha256": "e8cdbd8c6b0d36b8a3eb87b7ac21b7a2318c2f3ae72addaebd82cc741132effc",
+    "pdf_page_count": 15,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      15
+    ],
+    "sections": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1-4",
+        "coverage": "Random geometric circle model, scaling regime, energy gradient, global phase symmetry, index definition and per-fixed-winding theorem."
+      },
+      {
+        "section": "§2 Geometry of the space T^n",
+        "pdf_pages": "4-5",
+        "coverage": "Antipodal boundary, winding index, connected components K_q and their role as phase sectors."
+      },
+      {
+        "section": "§3 Proof of the main theorem",
+        "pdf_pages": "5-11",
+        "coverage": "Proposition 3.1 Poissonization/de-Poissonization and smooth-energy limit; boundary blow-up, bounded test state, interior minimum and strict Hessian argument. Pages 5-7 were cross-checked for the factor-two normalization mismatch. The independently corrected q^2/12 limit is established only for the fixed winding test u_q, not for arbitrary C^2 functions."
+      },
+      {
+        "section": "§4 Discussion",
+        "pdf_pages": "11-13",
+        "coverage": "Other graph models, q-range discussion, scaling observation, and higher-dimensional limitations; proposed extensions are not promoted to the main theorem."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "13-15",
+        "coverage": "Full bibliography read for provenance and dependencies."
+      }
+    ],
+    "source_card": "sources/cards/PGEL-010.md",
+    "local_pdf": "sources/pdfs/PGEL-010.pdf"
+  },
+  {
+    "source_local_id": "PGEL-006",
+    "pdf_sha256": "841b88e00295b691598e044b59778f22355f7f9b6f6c254f2797e74936c82688",
+    "pdf_page_count": 13,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      13
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, Introduction, theorem statement",
+        "pdf_pages": "1-2",
+        "coverage": "Model f on a connected simple graph, prior dense-graph bounds, main 0.7889 theorem, and relationship to the homogeneous Kuramoto gradient flow."
+      },
+      {
+        "section": "§2.1 Ingredients",
+        "pdf_pages": "2-4",
+        "coverage": "Cites the Ling–Xu–Bandeira cone criterion; derives the Hessian quadratic-form condition, order parameter lower bound, and missing-edge first-order estimate."
+      },
+      {
+        "section": "§2.2 The proof",
+        "pdf_pages": "4-12",
+        "coverage": "Five-step proof: deficit parameter alpha; good vertices and near-antipodal missing edges; sine and angle bounds; two-cone mass estimate; Hessian test vector and optimized outlier value; final parameter inequalities and the reported Mathematica check."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "13-13",
+        "coverage": "Complete bibliography and author addresses read; no unproved cited result is promoted to a theorem of this paper."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      2,
+      3,
+      4,
+      8,
+      11,
+      12
+    ],
+    "uncovered_pages": [],
+    "reader": "L14",
+    "reader_batch": "L14_B3",
+    "helper_independent_review": "R05 stage passed; mother hash binding pending",
+    "helper_coverage_path": "reading_coverage.json#PGEL-006",
+    "rendered_files": [
+      "sources/renders/PGEL-006/w24-006-p2.png",
+      "sources/renders/PGEL-006/w24-006-p3.png",
+      "sources/renders/PGEL-006/w24-006-p4.png",
+      "sources/renders/PGEL-006/w24-006-p8.png",
+      "sources/renders/PGEL-006/w24-006-p11.png",
+      "sources/renders/PGEL-006/w24-006-p12.png"
+    ],
+    "source_card": "sources/cards/PGEL-006.md",
+    "local_pdf": "sources/pdfs/PGEL-006.pdf"
+  },
+  {
+    "source_local_id": "PGEL-007",
+    "pdf_sha256": "e9545189087e353b84932d5c06dac282bf2ad576b4e55d388af83f1f53fad1bd",
+    "pdf_page_count": 27,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      27
+    ],
+    "sections": [
+      {
+        "section": "Abstract and §1 Introduction",
+        "pdf_pages": "1-6",
+        "coverage": "Synchronization landscape motivation, group synchronization and matrix-completion connections, Kuramoto setup, contributions and notation."
+      },
+      {
+        "section": "§2 Preliminaries: §2.1 Problem setup, §2.2 Examples, §2.3 Monotone adversary",
+        "pdf_pages": "6-9",
+        "coverage": "Rank-two phase matrix, stationarity and Hessian Laplacian, path/cycle/WSG examples and failure of edge-addition monotonicity for benign nonconvex landscapes."
+      },
+      {
+        "section": "§3 Main results and open problems",
+        "pdf_pages": "9-11",
+        "coverage": "Deterministic degree theorem, ER theorem, finite probability bound, and open questions including the conjectured connectivity scale."
+      },
+      {
+        "section": "§4 Numerical experiments",
+        "pdf_pages": "11-12",
+        "coverage": "Gradient-descent experiments comparing random-graph behavior and the conjectured threshold; finite trials are exploratory evidence."
+      },
+      {
+        "section": "§5.1 Proof of Theorem 3.1",
+        "pdf_pages": "12-15",
+        "coverage": "Proposition 5.1 cone criterion and deterministic overlap/order-parameter proof."
+      },
+      {
+        "section": "§5.2 Proof of Theorem 3.3: roadmap and supporting lemmas",
+        "pdf_pages": "15-22",
+        "coverage": "Matrix Bernstein bounds, uniform overlap lemma, restricted-isometry concentration over a phase net, Lipschitz extension, and implication of the first-order bound to the cone criterion. Rendered source PDF p. 19 was rechecked after review: the claimed centered identity omits the diagonal term -pn under the simple no-loop convention; exact standalone concentration reuse is therefore caveated."
+      },
+      {
+        "section": "§5.3 Supplementary technical details for supporting examples",
+        "pdf_pages": "23-24",
+        "coverage": "Tree/path reasoning and DFT Hessian eigenvalues for the WSG twisted state."
+      },
+      {
+        "section": "Acknowledgment and References",
+        "pdf_pages": "24-27",
+        "coverage": "Acknowledgment and all references read. No separate appendix is present."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      7,
+      10,
+      14,
+      17,
+      19,
+      20,
+      22,
+      24
+    ],
+    "uncovered_pages": [],
+    "sourceproof_recheck": {
+      "physical_pdf_page": 19,
+      "finding": "Source displayed centered identity omits -pn under Aii=0, Xii=1. Reader card records the exact discrepancy and an explicitly reader-derived centering identity separately.",
+      "scope": "Does not refute Theorem 3.3; limits quantitative reuse pending diagonal-convention reconciliation."
+    },
+    "rendered_file_sha256": {
+      "rendered/w24-007-p19-sourceproof-recheck.png": "0e69b228aaca098c3f83f3befbb45554e5c9ef05ed547d14a4b6a33cc9db2a87"
+    },
+    "reader": "L14",
+    "reader_batch": "L14_B3",
+    "helper_independent_review": "R05 stage passed; mother hash binding pending",
+    "helper_coverage_path": "reading_coverage.json#PGEL-007",
+    "rendered_files": [
+      "sources/renders/PGEL-007/w24-007-p7.png",
+      "sources/renders/PGEL-007/w24-007-p10.png",
+      "sources/renders/PGEL-007/w24-007-p14.png",
+      "sources/renders/PGEL-007/w24-007-p17.png",
+      "sources/renders/PGEL-007/w24-007-p20.png",
+      "sources/renders/PGEL-007/w24-007-p22.png",
+      "sources/renders/PGEL-007/w24-007-p24.png",
+      "sources/renders/PGEL-007/w24-007-p19-sourceproof-recheck.png"
+    ],
+    "source_card": "sources/cards/PGEL-007.md",
+    "local_pdf": "sources/pdfs/PGEL-007.pdf"
+  },
+  {
+    "source_local_id": "PGEL-008",
+    "pdf_sha256": "e4968f7cd2858b9154ad630eb72661b2dd1418c05ba5a2ee8cf4cac3cef5ef47",
+    "pdf_page_count": 10,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      10
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, Introduction",
+        "pdf_pages": "1-2",
+        "coverage": "Critical-connectivity definition, positive identical coupling, motivation and paper outline."
+      },
+      {
+        "section": "§II.A Coupled identical phase oscillators",
+        "pdf_pages": "2",
+        "coverage": "Kuramoto ODE, symmetric binary adjacency assumptions, identical natural frequencies and rotating-frame reduction."
+      },
+      {
+        "section": "§II.B Equilibrium points and their linear stability",
+        "pdf_pages": "2-3",
+        "coverage": "Equilibrium equation, rotational zero mode, strict linear stability definition and circulant Jacobian."
+      },
+      {
+        "section": "§II.C Critical connectivity",
+        "pdf_pages": "3",
+        "coverage": "Minimum-degree ratio and universal critical-connectivity definition."
+      },
+      {
+        "section": "§III Twisted states of circulant networks",
+        "pdf_pages": "3",
+        "coverage": "Circulant binary adjacency, reflection symmetry, p-twisted equilibrium and Fourier eigenvalues."
+      },
+      {
+        "section": "§IV Problem formulation",
+        "pdf_pages": "3-4",
+        "coverage": "Integer program over symmetric binary edge indicators and strict stability inequalities."
+      },
+      {
+        "section": "§V Proof of Theorem 1",
+        "pdf_pages": "4-6",
+        "coverage": "Reduction to the scalar b-vector inequality; four gcd cases; prefix sums, periodic blocks, symmetry pairs, and exact floor count."
+      },
+      {
+        "section": "§VI Supremum of mu(N,p)",
+        "pdf_pages": "6-7",
+        "coverage": "Asymptotic Kc bound, finite-size maximizer N-tilde=19, limiting twisted family and Theorem 2."
+      },
+      {
+        "section": "Algorithm 1 and §VII Numerical simulations",
+        "pdf_pages": "7-8",
+        "coverage": "Explicit 19m circulant construction and finite N=1900 simulation illustrating the stable twisted state."
+      },
+      {
+        "section": "§VIII Discussion, acknowledgments, data availability",
+        "pdf_pages": "8-8",
+        "coverage": "Scope limitations: other stable states in general networks and nonlinear stability beyond linearization remain open; acknowledgments and data statement."
+      },
+      {
+        "section": "Appendix A: Upper bound of k_c; References",
+        "pdf_pages": "9-10",
+        "coverage": "Integral limit and self-consistency equation for Kc, finite-N error bound by trigonometric sums and mean-value estimates, figure and full references. Rendered source PDF p. 9 was rechecked: A13-to-A14 replaces a positive term using b(Kc)<=2 in the wrong direction; reader card preserves A1/Theorem 2 as source-reported and flags this proof gap."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "uncovered_pages": [],
+    "sourceproof_recheck": {
+      "physical_pdf_page": 9,
+      "finding": "The A13-to-A14 lower-bound substitution is unsupported as written; the independent reviewer’s 60-digit N-tilde=1001 check finds the displayed strict inequality fails at the stated argument.",
+      "scope": "Isolates Appendix A intermediate step; does not establish A1 or Theorem 2 false."
+    },
+    "rendered_file_sha256": {
+      "rendered/w24-008-p9-A13-A14-recheck.png": "154e83e47c792f115d1aea64c80e5fc2a77a6a92229109ef31d21411e8bc501f"
+    },
+    "reader": "L14",
+    "reader_batch": "L14_B3",
+    "helper_independent_review": "R05 stage passed; mother hash binding pending",
+    "helper_coverage_path": "reading_coverage.json#PGEL-008",
+    "rendered_files": [
+      "sources/renders/PGEL-008/w24-008-p2.png",
+      "sources/renders/PGEL-008/w24-008-p3.png",
+      "sources/renders/PGEL-008/w24-008-p4.png",
+      "sources/renders/PGEL-008/w24-008-p5.png",
+      "sources/renders/PGEL-008/w24-008-p6.png",
+      "sources/renders/PGEL-008/w24-008-p7.png",
+      "sources/renders/PGEL-008/w24-008-p8.png",
+      "sources/renders/PGEL-008/w24-008-p9.png",
+      "sources/renders/PGEL-008/w24-008-p9-A13-A14-recheck.png"
+    ],
+    "source_card": "sources/cards/PGEL-008.md",
+    "local_pdf": "sources/pdfs/PGEL-008.pdf"
+  },
+  {
+    "source_local_id": "PGEL-009",
+    "title": "Dense networks that do not synchronize and sparse ones that do",
+    "pdf_sha256": "1429ddba0df2f4a33af15f6b65e912394de83365003643fa63f0f49775a5802a",
+    "pdf_page_count": 6,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      6
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, and §I Introduction",
+        "pdf_pages": "1-2",
+        "coverage": "Definition of global synchronization as a.e.-initial-condition convergence; critical-connectivity definition; prior upper/lower bounds and study questions."
+      },
+      {
+        "section": "§II Circulant networks",
+        "pdf_pages": "2-3",
+        "coverage": "Symmetric binary circulant adjacency, Fourier eigenvalues/eigenvectors, equilibrium condition, twisted states, exact Jacobian spectrum (5), ring and WSG examples."
+      },
+      {
+        "section": "§III Dense circulant networks that avoid (or almost avoid) global synchrony; §III.A razor-edge family",
+        "pdf_pages": "3-4",
+        "coverage": "Finite search and conjecture; n=8m degree 6m-1 construction, 2m-twist nonpositive spectrum with four zero modes, and reported weak nonlinear instability/simulation."
+      },
+      {
+        "section": "§III.B Improved lower bound",
+        "pdf_pages": "4-5",
+        "coverage": "n=44 stable-twist example and twinning plus edge-addition construction leading to reported connectivity 0.68284; construction depends on finite Jacobian computations/search."
+      },
+      {
+        "section": "§IV Sparse circulant networks that (probably) globally synchronize",
+        "pdf_pages": "5-6",
+        "coverage": "Power-of-two-offset graph, exact degree and edge count, formula (6) proving every twisted state unstable, n=8 Macaulay2 classification, and explicit open gap for other equilibria at larger n."
+      },
+      {
+        "section": "§V Discussion, acknowledgments, data availability, and references",
+        "pdf_pages": "5-6",
+        "coverage": "Discussion of open dense/sparse questions, support/acknowledgments, data statement, and all references."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      3,
+      5
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-009/PGEL-009-p3.png": "532b6313add749676f94e44b695ca56c42bd270d59f8b269cd8cd1e70ddf9af2",
+      "sources/renders/PGEL-009/PGEL-009-p5.png": "57af6bcf25430db0bcd45285e993acc976571a32ff34ced55383295a41c6bbcc"
+    },
+    "uncovered_pages": [],
+    "source_issue": {
+      "physical_pdf_page": 5,
+      "finding": "The simplified Eq. (6) and its cosine-sum proof require m>=2. At m=1,n=2 the graph is K2; direct source Eq. (5) gives nonzero twist eigenvalue 2, while literal Eq. (6) extension (empty sum) gives 3.",
+      "scope": "Handle n=2 directly. The qualitative strict-instability conclusion still holds; finite n=8 and n=16 checks remain examples only."
+    },
+    "helper_local_id": "PGEL-009",
+    "reader": "L03",
+    "reader_batch": "L03_B4",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-009",
+    "helper_coverage_path": "reading_coverage.json#PGEL-009",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "rendered_files": [
+      "sources/renders/PGEL-009/PGEL-009-p3.png",
+      "sources/renders/PGEL-009/PGEL-009-p5.png"
+    ],
+    "source_card": "sources/cards/PGEL-009.md",
+    "local_pdf": "sources/pdfs/PGEL-009.pdf"
+  },
+  {
+    "source_local_id": "PGEL-011",
+    "title": "Guarantees for Spontaneous Synchronization on Random Geometric Graphs",
+    "pdf_sha256": "6fd995cd07bfc86927603c687f6c008b335dbc4ff69738cfc54f4df13d58fea6",
+    "pdf_page_count": 14,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      14
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, and §1 Introduction",
+        "pdf_pages": "1-5",
+        "coverage": "Kuramoto background, synchronization vocabulary, high-dimensional sphere RGG motivation, simplified Theorem 1 two regimes, and paper outline."
+      },
+      {
+        "section": "§2 Preliminaries on the Kuramoto Model",
+        "pdf_pages": "5-6",
+        "coverage": "Energy and Definition 1: graph globally synchronizes iff all energy local minima are constant modulo rotation; exact deterministic spectral criterion Theorem 2 and all three inequalities."
+      },
+      {
+        "section": "§3 The Random Geometric Graph on the Sphere: Definitions and Theorem 3",
+        "pdf_pages": "6-7",
+        "coverage": "ER/RGG definitions with dependent geometric edges and exact high-dimensional first-part theorem hypotheses."
+      },
+      {
+        "section": "§3 proof: Lemma 1, Proposition 1, Lemma 2, and Theorem 3",
+        "pdf_pages": "7-10",
+        "coverage": "Centered ER adjacency concentration, ER sandwich/coupling, Laplacian quadratic-form monotonicity, degree Chernoff bound, and verification of deterministic criterion; source adds self-loops only as a proof convention."
+      },
+      {
+        "section": "§4 Improvement when p is sublinear",
+        "pdf_pages": "10-12",
+        "coverage": "Theorem 4, high-dimensional adjacency norm bound, Corollary 1 with explicit np and d thresholds, spherical-cap threshold estimates, and final d*tau^2 argument."
+      },
+      {
+        "section": "Acknowledgment and References",
+        "pdf_pages": "12-14",
+        "coverage": "Acknowledgment and complete bibliography."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-011/PGEL-011-p2.png": "a097d70cce84463176d82ce24762fb19fa4d4ceca2db258a3fb744de502583e9",
+      "sources/renders/PGEL-011/PGEL-011-p4.png": "7966ae21ce5c6116eeb4a132f7e8303862a8b7e11f22b7e76cf0add30ad2add3",
+      "sources/renders/PGEL-011/PGEL-011-p5.png": "95f205a7b35af13bd02a0ca08f253499c7f8b1c90931c795727f492dd62a6b49",
+      "sources/renders/PGEL-011/PGEL-011-p6.png": "9863eb6cebc301ace9cb330730aaccc3e6ea2b3eb12a474035ebe878ace51404",
+      "sources/renders/PGEL-011/PGEL-011-p7.png": "2c81d4a6560ebc05fb27cfbdd5bcc9fe876b1ac75dc64fb62d97662460dac59e",
+      "sources/renders/PGEL-011/PGEL-011-p8.png": "339ec798c9c7d5b30f962ec00fb39f3a45f9b467d7cf5e33e49d9f9d14c114a8",
+      "sources/renders/PGEL-011/PGEL-011-p9.png": "5963405a078ccde96f1720eb0811e13f2f6b1e21aca1eec2cb84b1944ab734d4",
+      "sources/renders/PGEL-011/PGEL-011-p10.png": "ee68996e2616931b7715887abc0a70fa1ad75951d47f66860e0e475af226dd90",
+      "sources/renders/PGEL-011/PGEL-011-p11.png": "4ca1ae38c55b2d15e30c3fe547ffe5949580b9db6c06f0b3b962389e0f46e9cd",
+      "sources/renders/PGEL-011/PGEL-011-p12.png": "1a4fb79940f1bc1965d2b62cba5ba21bfbcbcdb44e19f7150ee48e13dd2d17f4"
+    },
+    "uncovered_pages": [],
+    "helper_local_id": "PGEL-011",
+    "reader": "L03",
+    "reader_batch": "L03_B4",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-011",
+    "helper_coverage_path": "reading_coverage.json#PGEL-011",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "rendered_files": [
+      "sources/renders/PGEL-011/PGEL-011-p2.png",
+      "sources/renders/PGEL-011/PGEL-011-p4.png",
+      "sources/renders/PGEL-011/PGEL-011-p5.png",
+      "sources/renders/PGEL-011/PGEL-011-p6.png",
+      "sources/renders/PGEL-011/PGEL-011-p7.png",
+      "sources/renders/PGEL-011/PGEL-011-p8.png",
+      "sources/renders/PGEL-011/PGEL-011-p9.png",
+      "sources/renders/PGEL-011/PGEL-011-p10.png",
+      "sources/renders/PGEL-011/PGEL-011-p11.png",
+      "sources/renders/PGEL-011/PGEL-011-p12.png"
+    ],
+    "source_card": "sources/cards/PGEL-011.md",
+    "local_pdf": "sources/pdfs/PGEL-011.pdf"
+  },
+  {
+    "source_local_id": "PGEL-012",
+    "title": "Phase Synchronization in Random Geometric Graphs on the 2D Sphere",
+    "pdf_sha256": "c9e66d032a0100724fef45d3fb174ae7fa49a0ff99bbc57b06777bb8efd5c887",
+    "pdf_page_count": 18,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      18
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, and §1 Introduction",
+        "pdf_pages": "1-4",
+        "coverage": "Model, low-dimensional regime, comparison with high-dimensional RGG, smooth-initial-data restriction, proof strategy, and relation to landscape literature. The p.3 introductory normalization sentence is separately flagged in the card."
+      },
+      {
+        "section": "§2 Main results and sketch of proofs",
+        "pdf_pages": "4-8",
+        "coverage": "Weighted RGG and ODE definitions; energy, kernel assumptions, expected degree, Bernstein concentration, heat operator/diffusivity, Theorem 2.1, Propositions 2.2-2.3, and Theorem 2.4."
+      },
+      {
+        "section": "§3 The integral equation; §3.1 Equivalence between S^1-valued and R-valued functions",
+        "pdf_pages": "7-8",
+        "coverage": "Lift of continuous maps S^2→S^1 to real-valued functions using simple connectivity and the universal covering."
+      },
+      {
+        "section": "§3.2 Approximating equations and solution estimates",
+        "pdf_pages": "8-14",
+        "coverage": "Integral-equation existence/uniqueness, fixed-point setup, comparison principle, uniform Lipschitz estimate, nonlinear-to-linear error, pointwise graph-operator convergence, and barrier proof of Proposition 3.4."
+      },
+      {
+        "section": "§4 Synchronization",
+        "pdf_pages": "14-15",
+        "coverage": "Heat-flow convergence, finite-time phase-cohesion, graph connectedness and Borel-Cantelli proof of eventual synchronization for the specified initial-data sequence."
+      },
+      {
+        "section": "Figure 2 and explicit global-synchronization limitation",
+        "pdf_pages": "15-15",
+        "coverage": "Authors state the theorem says nothing about nonsmooth limiting initial data or nonconvergent/i.i.d. initial data."
+      },
+      {
+        "section": "Appendix: indicator kernel",
+        "pdf_pages": "15-16",
+        "coverage": "Separate contraction estimate for K=1_[0,1] and equal edge weights; explains where smoothness was needed in the main existence proof."
+      },
+      {
+        "section": "Acknowledgments and References",
+        "pdf_pages": "16-18",
+        "coverage": "Acknowledgments, complete bibliography, and author affiliations."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      14,
+      15,
+      16
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-012/PGEL-012-p2.png": "00dd4e341a7d6348acdbb870e2c76bf22819bfbd8b06ffc187fb7afe9718b0a3",
+      "sources/renders/PGEL-012/PGEL-012-p3.png": "516d983d507605bb15375d20189f7200d24cddcf0aa7e427bbc9bbcdb5838c69",
+      "sources/renders/PGEL-012/PGEL-012-p4.png": "c47083d760c6d576d397ad897557e00148c77abe5632814bd35ee3710271f68c",
+      "sources/renders/PGEL-012/PGEL-012-p6.png": "66d3545a354be4e4d3ac82ef8548abca3349f6734ce11450a42f89ff66c102b2",
+      "sources/renders/PGEL-012/PGEL-012-p7.png": "9bc7770961a6e9f0beccda45fd6701eccbb084a2fa10cfee6034b83fe116d9f1",
+      "sources/renders/PGEL-012/PGEL-012-p14.png": "36bd4f8d9ba6fdc9ebab3a2ac18f0903f8c24fd9a369a73561b0ab8d2b5faa56",
+      "sources/renders/PGEL-012/PGEL-012-p15.png": "c3e5c9b81cbb077591ede5f756ba469361871ba8fcd2d739d788033ab2ef4b16",
+      "sources/renders/PGEL-012/PGEL-012-p16.png": "4ae4726d4d4e7151ca3a17d8edcf3fec9f33ecb2feb968286cd377d5d29b7cd1",
+      "sources/renders/PGEL-012/PGEL-012-p5.png": "215708723a79efb803fcf8af5ef42d2e8ba1b04a7753911e0709cdf47da45b8c"
+    },
+    "uncovered_pages": [],
+    "source_issue": {
+      "physical_pdf_page": 3,
+      "finding": "The printed statement p=pi*epsilon is inconsistent with p being a probability under the uniform probability measure on S^2; exact cap probability is epsilon/4. The unnormalized cap area is pi*epsilon.",
+      "scope": "The main result is parameterized by epsilon; Section 2's expected-degree formula agrees with epsilon/4 for the indicator kernel. This isolates a local introductory normalization discrepancy, not a refutation of Theorems 2.1 or 2.4."
+    },
+    "additional_source_issues": [
+      {
+        "physical_pdf_page": 5,
+        "finding": "Eq. (2.2) prints E(N_i)=c_2 epsilon n/(4 pi). With K=1_[0,1], c_2=pi, so the printed value is n epsilon/4; because N_i excludes i, the exact expectation is (n-1) epsilon/4.",
+        "scope": "The difference epsilon/4 is asymptotically negligible but the printed expression is not an exact finite-n identity."
+      },
+      {
+        "physical_pdf_pages": [
+          6,
+          7,
+          14
+        ],
+        "finding": "Under the paper’s stated unnormalized surface measure sigma, uniform sampling sigma/(4 pi), unweighted N_i, and permitted indicator kernel, Eq. (2.6) prints kappa=pi/8 while Eq. (2.8) gives the exact north-pole v(y)=y_3 test operator -1/4; standard unit-sphere Delta v=-2 gives printed kappa Delta v=-pi/4. The residual has absolute value (pi-1)/4 and does not vanish, conflicting with the vanishing-error interface in Lemma 3.7.",
+        "independent_neutral_assessment": "audit/review-index.json#PGEL-012",
+        "local_exact_check": "math/pgel_012_normalization_check.py; math/pgel_012_normalization_check.json",
+        "scope": "Keep the coefficient source-reported and quantitative Theorem 2.1/Lemma 3.7 reuse pending reconciliation. The one-test matching value 1/8 is not a general repair; this does not establish qualitative Theorem 2.4 false."
+      }
+    ],
+    "helper_local_id": "PGEL-012",
+    "reader": "L03",
+    "reader_batch": "L03_B4",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-012",
+    "helper_coverage_path": "reading_coverage.json#PGEL-012",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "rendered_files": [
+      "sources/renders/PGEL-012/PGEL-012-p2.png",
+      "sources/renders/PGEL-012/PGEL-012-p3.png",
+      "sources/renders/PGEL-012/PGEL-012-p4.png",
+      "sources/renders/PGEL-012/PGEL-012-p6.png",
+      "sources/renders/PGEL-012/PGEL-012-p7.png",
+      "sources/renders/PGEL-012/PGEL-012-p14.png",
+      "sources/renders/PGEL-012/PGEL-012-p15.png",
+      "sources/renders/PGEL-012/PGEL-012-p16.png",
+      "sources/renders/PGEL-012/PGEL-012-p5.png"
+    ],
+    "source_card": "sources/cards/PGEL-012.md",
+    "local_pdf": "sources/pdfs/PGEL-012.pdf"
+  },
+  {
+    "source_local_id": "PGEL-019",
+    "title": "Graph Homology and Stability of Coupled Oscillator Networks",
+    "pdf_sha256": "51d84dbb4b2edbc74322ee92c6b57d129d789bb9f1c8e4f273e4debc1db698be",
+    "pdf_page_count": 18,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "sections": [
+      {
+        "section": "Title/abstract, introduction, and oscillator motivation",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "coverage": "Identity; negative-standard weighted Laplacian; relation of its positive index to instability dimension for specified phase-locked oscillator/swing models; motivation from cycle rank."
+      },
+      {
+        "section": "§1.1 and §2.1 definitions; cycle space and cycle form",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "coverage": "Finite connected simple undirected weighted graph, nonzero real edge weights, incidence matrix, tree/cycle sets, reduced determinant definition, cycle basis and Z_G=-Y^T D^{-1}Y."
+      },
+      {
+        "section": "§2.2 Theorem 2.6, proof sketch, and Theorem 2.8 statement",
+        "pdf_pages": [
+          4,
+          6
+        ],
+        "coverage": "The read-v1 Theorem 2.6 statement and p.4 corollaries are recorded with the singular triangle and bridge-edge counterchecks; the stable m_-<=C bound is an independent derivation. Theorem 2.8 p.5 determinant identity remains separately quarantined."
+      },
+      {
+        "section": "§3.1–§3.3 linear examples",
+        "pdf_pages": [
+          6,
+          9
+        ],
+        "coverage": "Diamond graph, one-cycle reciprocal-weight criterion, and two-cycle 2x2 cycle-space stability tests with scope conditions."
+      },
+      {
+        "section": "§4 nonlinear Kuramoto ring",
+        "pdf_pages": [
+          9,
+          11
+        ],
+        "coverage": "Specified ring phase-locked states, cosine edge weights, stability/index criterion, symmetric long-link candidate, and the authors’ explicitly numerical root/table claims."
+      },
+      {
+        "section": "§5.1 proof of Theorem 2.6",
+        "pdf_pages": [
+          12,
+          15
+        ],
+        "coverage": "Covering-tree construction and projection/restriction, complementary inverse identified with cycle form, Haynsworth inertia identity, and tree index."
+      },
+      {
+        "section": "§5.2 proof of Theorem 2.8 and Appendix A",
+        "pdf_pages": [
+          16,
+          17
+        ],
+        "coverage": "Determinant identities in the printed proof and classical inertia/determinant lemmas; p.17 sign step inspected in render."
+      },
+      {
+        "section": "References",
+        "pdf_pages": [
+          18,
+          18
+        ],
+        "coverage": "Complete bibliography read."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      1,
+      4,
+      5,
+      7,
+      10,
+      14,
+      15,
+      16,
+      17
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-019/PGEL-019-p01.png": "e77e21d2bb7a7bd0c61f0205429dc0f343eaff54093c914dc85f176e0f5d3aa7",
+      "sources/renders/PGEL-019/PGEL-019-p04.png": "587945669fcff39ac660594c73cd671282fd9e43963d4d969b3726c119fbeb62",
+      "sources/renders/PGEL-019/PGEL-019-p05.png": "b677c00cbea4ed66fd42b79eaafab31c0eeac0148ca4e4e171b5ff3cbd79af55",
+      "sources/renders/PGEL-019/PGEL-019-p07.png": "1d1b281bf862ce6dbf70f159d4090e95a93b258516c8824025fdf52a64811791",
+      "sources/renders/PGEL-019/PGEL-019-p10.png": "a0d33ade89412f672d80aa2e37caef856f71ee96a50883d1d99451575ec4612d",
+      "sources/renders/PGEL-019/PGEL-019-p14.png": "fada6d3a5437256622172a744326c8428e28f7c3ca01c4adadce964e02078fbc",
+      "sources/renders/PGEL-019/PGEL-019-p15.png": "061f9878ce6bb52fd416fb70627538dd682dae32488a882882f457efa7a41011",
+      "sources/renders/PGEL-019/PGEL-019-p16.png": "57232480fb4f6f00dd875005a7e68b32ce9bbfece537f1403143b5745414160e",
+      "sources/renders/PGEL-019/PGEL-019-p17.png": "59f4553046033da115ab4d7d3a52960ba7aefa83f7dd8f4b4814115147d60392"
+    },
+    "uncovered_pages": [],
+    "source_issue": {
+      "physical_pdf_page": 5,
+      "finding": "In the read D02 arXiv v1 PDF, Theorem 2.8 / Eq. (2.3) gives det_red(L)/|V|=det(Z)∏γ. For the unit triangle, the exact left side is 3 but the printed right side is −3 under the source definitions. Publisher full text was not read; no claim is made about whether the journal version changed this statement. Theorem 2.6 is separately checked and not implicated.",
+      "scope": "Quarantine Theorem 2.8 identity as printed in arXiv v1; do not use its determinant formula unless independently checked in the relevant version.",
+      "additional_source_issues": [
+        {
+          "physical_pdf_page": 4,
+          "finding": "The literal unrestricted Theorem 2.6 fails for triangle weights (1,1,-1/2): exact spectrum (-3,0,0), Z=0, so n_+=0 but the printed right side is 1. Proof pp.14-15 invokes Appendix Lemma A.1 p.17, which requires nonsingular M and restriction; no perturbation/limit extension is supplied in the read v1. The same page's auxiliary n_+(L)<=negative-Tree(G)-edge-count line is contradicted by the all-negative triangle (n_+=2, no bridges).",
+          "scope": "Quarantine these unrestricted p.4 statements at the identified boundary. The stable-graph m_-<=C fact is supported by a separate derived positive-subgraph argument in the card; do not attribute that argument as proof of a degenerate extension. No publisher full-text claim."
+        }
+      ]
+    },
+    "reader": "L13",
+    "reader_batch": "L13_B5",
+    "helper_local_id": "PGEL-019",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-019",
+    "helper_coverage_path": "reading_coverage.json#PGEL-019",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "tool_quota_eligibility": true,
+    "rendered_files": [
+      "sources/renders/PGEL-019/PGEL-019-p01.png",
+      "sources/renders/PGEL-019/PGEL-019-p04.png",
+      "sources/renders/PGEL-019/PGEL-019-p05.png",
+      "sources/renders/PGEL-019/PGEL-019-p07.png",
+      "sources/renders/PGEL-019/PGEL-019-p10.png",
+      "sources/renders/PGEL-019/PGEL-019-p14.png",
+      "sources/renders/PGEL-019/PGEL-019-p15.png",
+      "sources/renders/PGEL-019/PGEL-019-p16.png",
+      "sources/renders/PGEL-019/PGEL-019-p17.png"
+    ],
+    "source_card": "sources/cards/PGEL-019.md",
+    "local_pdf": "sources/pdfs/PGEL-019.pdf"
+  },
+  {
+    "source_local_id": "PGEL-021",
+    "title": "Kuramoto Networks with Infinitely Many Stable Equilibria",
+    "pdf_sha256": "e68915c58e27084a126226246d223a806815f428b3d3fed71dccdd8d2bc2b9da",
+    "pdf_page_count": 17,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "sections": [
+      {
+        "section": "Title/abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "coverage": "Homogeneous positive unweighted Kuramoto model; Lyapunov stability definition; Theorem 1.1 and Corollary 1.2 stated."
+      },
+      {
+        "section": "§1 continued: equilibrium geometry and open conjecture",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "coverage": "Balanced configurations introduced; Conjecture 1.3 recorded as open, not proved."
+      },
+      {
+        "section": "§2.1–§2.4 structural facts",
+        "pdf_pages": [
+          3,
+          5
+        ],
+        "coverage": "Phase-shift symmetry, gradient energy, algebraic equilibrium set, and analytic-gradient stability/local-minimum discussion."
+      },
+      {
+        "section": "§3 balanced configurations and Theorem 1.1 construction",
+        "pdf_pages": [
+          5,
+          9
+        ],
+        "coverage": "Balance lemmas; d disjoint six-cycles joined by 4(d−1) edges; exact six-cycle Jacobian factorization; Shoshitaishvili foliation argument and open stable torus patch."
+      },
+      {
+        "section": "§3.1–§3.3 stable tori and polygon/balanced-configuration geometry",
+        "pdf_pages": [
+          9,
+          11
+        ],
+        "coverage": "Two-cycle stable intervals, larger H36/H60/H90 examples (numerical eigenvalues flagged), and cited dimension theorem for balanced configurations."
+      },
+      {
+        "section": "§4 aligned configurations and complete bipartite graphs",
+        "pdf_pages": [
+          11,
+          13
+        ],
+        "coverage": "Aligned-equilibrium characterization and equilibrium families/classification; statements are not upgraded to general stability results."
+      },
+      {
+        "section": "§5 heteroclinic examples",
+        "pdf_pages": [
+          13,
+          15
+        ],
+        "coverage": "K4 and four-cycle heteroclinic descriptions; RK4 calculations are treated as numerical illustrations."
+      },
+      {
+        "section": "References",
+        "pdf_pages": [
+          16,
+          17
+        ],
+        "coverage": "Complete bibliography read."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      1,
+      6,
+      7,
+      8,
+      11,
+      12
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-021/PGEL-021-p01.png": "11d2faf8bb8ae66bad641ab98d91c19ea1e586571a305e0b66ae9b6673d09868",
+      "sources/renders/PGEL-021/PGEL-021-p06.png": "ece6a563557a95b2b3e8abc19911512fc8674b4ce4575343e602da3e7ae752e4",
+      "sources/renders/PGEL-021/PGEL-021-p07.png": "ee98aae4540f89175b8ddc8f38ef7654ff2abb802409475b6e0e99bfa0775b11",
+      "sources/renders/PGEL-021/PGEL-021-p08.png": "349cb8a6baf62a0fa7cc66adfac3dfd0ce9a0f7b5c421b7c8a2975b05682ff91",
+      "sources/renders/PGEL-021/PGEL-021-p11.png": "6a4a1380eda11138aebd5324650aa83ef0bd9a89983d932e53946839983915fc",
+      "sources/renders/PGEL-021/PGEL-021-p12.png": "84a548a3eed4a41413491d307dedaee9c3354b2edc9a23985231599e4871e1be"
+    },
+    "uncovered_pages": [],
+    "source_issue": null,
+    "reader": "L13",
+    "reader_batch": "L13_B5",
+    "helper_local_id": "PGEL-021",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-021",
+    "helper_coverage_path": "reading_coverage.json#PGEL-021",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "tool_quota_eligibility": true,
+    "rendered_files": [
+      "sources/renders/PGEL-021/PGEL-021-p01.png",
+      "sources/renders/PGEL-021/PGEL-021-p06.png",
+      "sources/renders/PGEL-021/PGEL-021-p07.png",
+      "sources/renders/PGEL-021/PGEL-021-p08.png",
+      "sources/renders/PGEL-021/PGEL-021-p11.png",
+      "sources/renders/PGEL-021/PGEL-021-p12.png"
+    ],
+    "source_card": "sources/cards/PGEL-021.md",
+    "local_pdf": "sources/pdfs/PGEL-021.pdf"
+  },
+  {
+    "source_local_id": "PGEL-029",
+    "title": "The Kuramoto model on oriented and signed graphs",
+    "pdf_sha256": "1df63bb7365423ec4d2cea7de6609536960c619b3d4e4d388cd984bf49d96049",
+    "pdf_page_count": 20,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "sections": [
+      {
+        "section": "Title/abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "coverage": "Oriented, directed, weighted and signed model; distinguish frequency synchronization from equality of angles; state model boundary."
+      },
+      {
+        "section": "§1.1–§1.3 definitions, local order parameter, residual outgoing weight, synchronization",
+        "pdf_pages": [
+          3,
+          5
+        ],
+        "coverage": "Oriented graph convention; local order parameter bounds rho_j≤r_j≤d_out; necessary leader/common-frequency and out-degree condition."
+      },
+      {
+        "section": "§2.1–§2.2 acyclic graph equilibria, stability, and Theorem 2.2",
+        "pdf_pages": [
+          5,
+          8
+        ],
+        "coverage": "Fixed-leader stability lemma, almost-global exponential synchronization sufficient condition with rho_j and zero-rho branch, recursive proof, and Appendix A semiflow dependency."
+      },
+      {
+        "section": "§2.3 tightness examples",
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "coverage": "Examples delimit when necessary/sufficient conditions are tight; initial-state dependence and topology distinctions."
+      },
+      {
+        "section": "§3.1 oriented-cycle global synchronization and frequency bound",
+        "pdf_pages": [
+          10,
+          11
+        ],
+        "coverage": "Theorem 3.1 with LaSalle function and derivative identity; Proposition 3.2 bound on common frequency."
+      },
+      {
+        "section": "§3.2 stability of cycle synchronous states",
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "coverage": "Lemma 3.4 source iff and signed arcsine branch are transcribed, with exact legal signed 3-cycle witness quarantining necessity; retain only the all-positive branch as sufficient."
+      },
+      {
+        "section": "§3.3 finite stable synchronization frequencies",
+        "pdf_pages": [
+          13,
+          13
+        ],
+        "coverage": "Proposition 3.6 source interval/equation and proof dependency on Lemma 3.4 are recorded; same signed 3-cycle is a stable q=0 example outside the claimed integer interval, so exhaustiveness is quarantined while the separate finiteness subclaim remains open."
+      },
+      {
+        "section": "§3.4 winding number observations and simulations",
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "coverage": "Numerical correlation and Gaussian/variance observations clearly separated from theorem claims."
+      },
+      {
+        "section": "§4 composition and counterexamples",
+        "pdf_pages": [
+          15,
+          17
+        ],
+        "coverage": "Model-specific one-large-cycle and multiple-short-cycle extensions; examples of failures for larger cyclic structures; conclusions."
+      },
+      {
+        "section": "Appendix A semiflow results",
+        "pdf_pages": [
+          17,
+          18
+        ],
+        "coverage": "Definitions/propositions used to support the acyclic asymptotically autonomous recursion."
+      },
+      {
+        "section": "References",
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "coverage": "Complete bibliography read."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      17,
+      18
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-029/PGEL-029-p01.png": "c15a4540eafafc701b1ac84a48322b89a22aa7b51542ded802bea37aff31a085",
+      "sources/renders/PGEL-029/PGEL-029-p03.png": "933a0b15ed59dcb35ec2177f5331542bdd5080ce3eb7f23fb60448401db4d423",
+      "sources/renders/PGEL-029/PGEL-029-p04.png": "02d0b55a5cd5779f53ecb653faee11cd6b7d54d1167a59ba6945b5c6c45c7377",
+      "sources/renders/PGEL-029/PGEL-029-p05.png": "1de9cc61a360c4c34dbf2acf7ed34beb70adc5e73adb15ddf911f027900e4bbf",
+      "sources/renders/PGEL-029/PGEL-029-p06.png": "b3975288786b9ffd640a1f9ef82d84bdd87782bf67d011d5e4a4e4a653f81bdf",
+      "sources/renders/PGEL-029/PGEL-029-p08.png": "741d13996a6252f588f1139ba1c1aff44ec886248b4ccba76c5ea8914d964554",
+      "sources/renders/PGEL-029/PGEL-029-p10.png": "682a5bc4d3f34d63e8736ad55622afa40810e2f1dcc3d30f9e2d65f94de1becb",
+      "sources/renders/PGEL-029/PGEL-029-p11.png": "4c1f0b8107a5c934ac16684403ea9ef4bbf8f1f70668878b9cef3d501454ca32",
+      "sources/renders/PGEL-029/PGEL-029-p12.png": "df66767fa508ff02d37452112914d02bdc4316b1d0e897911e37fad2484cc7db",
+      "sources/renders/PGEL-029/PGEL-029-p13.png": "bcbcadf1e22f79d279b6c7b0949c5f792f6533101a1a6c3a31ed06aadc097cf0",
+      "sources/renders/PGEL-029/PGEL-029-p17.png": "0c68da1e328bcc4e90eb31f66797df7262d70ca6b31e06386f300efb1bbfdcfc",
+      "sources/renders/PGEL-029/PGEL-029-p18.png": "63b76f30454fdf085f69ecf3da1f972a7111433e4cf9bb94b4065bf7797feab6"
+    },
+    "uncovered_pages": [],
+    "source_issue": {
+      "physical_pdf_page": 12,
+      "finding": "Read-v2 Lemma 3.4 states an iff edgewise-positive Jacobian condition. The legal signed cycle (-1/10,1,1), theta=0, omega=0 has exact Jacobian characteristic polynomial lambda(lambda^2+19lambda/10+4/5) and a Hurwitz two-dimensional phase quotient, contradicting necessity. On physical p.13 the same stable q=0 state falls outside Proposition 3.6's claimed integer interval, so the exhaustive signed-frequency count is not safe as stated.",
+      "scope": "Quarantine only the Lemma 3.4 necessity/iff and Proposition 3.6 exhaustive interval/count for general signed weights in the read v2. Preserve the all-positive branch as sufficient, the separate finiteness subclaim as not disproved, the DAG and LaSalle results at their printed scope, and make no claim about the unread journal version."
+    },
+    "reader": "L13",
+    "reader_batch": "L13_B5",
+    "helper_local_id": "PGEL-029",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-029",
+    "helper_coverage_path": "reading_coverage.json#PGEL-029",
+    "helper_review_status": "R05_stage_passed; mother hash binding pending",
+    "tool_quota_eligibility": false,
+    "rendered_files": [
+      "sources/renders/PGEL-029/PGEL-029-p01.png",
+      "sources/renders/PGEL-029/PGEL-029-p03.png",
+      "sources/renders/PGEL-029/PGEL-029-p04.png",
+      "sources/renders/PGEL-029/PGEL-029-p05.png",
+      "sources/renders/PGEL-029/PGEL-029-p06.png",
+      "sources/renders/PGEL-029/PGEL-029-p08.png",
+      "sources/renders/PGEL-029/PGEL-029-p10.png",
+      "sources/renders/PGEL-029/PGEL-029-p11.png",
+      "sources/renders/PGEL-029/PGEL-029-p12.png",
+      "sources/renders/PGEL-029/PGEL-029-p13.png",
+      "sources/renders/PGEL-029/PGEL-029-p17.png",
+      "sources/renders/PGEL-029/PGEL-029-p18.png"
+    ],
+    "source_card": "sources/cards/PGEL-029.md",
+    "local_pdf": "sources/pdfs/PGEL-029.pdf"
+  },
+  {
+    "source_local_id": "PGEL-017",
+    "title": "Multistability of Phase-Locking and Topological Winding Numbers in Locally Coupled Kuramoto Models on Single-Loop Networks",
+    "pdf_sha256": "01ec601706615d902d871271971743dc61951d07337023a80d857a927487284b",
+    "pdf_page_count": 25,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "sections": [
+      {
+        "unit": "Front matter, abstract, and §I Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "coverage": "Identity, abstract, problem setup, phase-locking and winding-number motivation."
+      },
+      {
+        "unit": "§II Definitions and fundamental concepts",
+        "pdf_pages": [
+          3,
+          5
+        ],
+        "coverage": "Power-flow/swing equations, balanced injections, gauge invariance, and the symmetric linear stability matrix."
+      },
+      {
+        "unit": "§III Loop flows and winding number",
+        "pdf_pages": [
+          6,
+          8
+        ],
+        "coverage": "Incidence-matrix conservation law, cycle-space theorem and proof, reference flow, loop parameter, and quantized winding."
+      },
+      {
+        "unit": "§IV.A Angle differences and sum of angle differences",
+        "pdf_pages": [
+          9,
+          10
+        ],
+        "coverage": "Principal arcsine branch, feasible loop-flow interval, and winding-level curves."
+      },
+      {
+        "unit": "§IV.B Infinite capacity",
+        "pdf_pages": [
+          10,
+          12
+        ],
+        "coverage": "Theorem IV.1 and proof: low/high arcsine branches, cosine signs, and principal-minor stability exclusion."
+      },
+      {
+        "unit": "§IV.C Finite capacity",
+        "pdf_pages": [
+          12,
+          21
+        ],
+        "coverage": "Finite-K domain, Lemmas IV.5–IV.10 and proof of Theorem IV.3: level-curve geometry, eigenvalue degeneracy, cut criterion, and continuation/count monotonicity."
+      },
+      {
+        "unit": "§V Conclusion and finite-K scope",
+        "pdf_pages": [
+          21,
+          23
+        ],
+        "coverage": "Count bound summary, at-most-one large gap, most-loaded-edge statement, and the larger-K continuation conclusion."
+      },
+      {
+        "unit": "§VI Acknowledgments",
+        "pdf_pages": [
+          23,
+          23
+        ],
+        "coverage": "Acknowledgment and funding statement."
+      },
+      {
+        "unit": "Appendix A: LU decomposition of the stability matrix",
+        "pdf_pages": [
+          24,
+          24
+        ],
+        "coverage": "Induction for the Thomas-algorithm pivot recurrence."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          24,
+          25
+        ],
+        "coverage": "Complete bibliography."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      7,
+      10,
+      11,
+      12,
+      13,
+      18,
+      20,
+      24
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-017/PGEL-017-p7.png": "9cc60faa33f0bc2adf7d7cd7f0edc22b19ab703f2dde9b130cda9ca48d3fe467",
+      "sources/renders/PGEL-017/PGEL-017-p10.png": "faff7ffc22e317dec2bbb6d44f9e62153ef800edb02fc4d5a6a4df4cc59fc9b5",
+      "sources/renders/PGEL-017/PGEL-017-p11.png": "3c6020058f35fb16fac2f88cedc1dbe9c6a9c78eca9ccc80b0672fedff94cb10",
+      "sources/renders/PGEL-017/PGEL-017-p12.png": "fc3c73f04908ba22e48da9914fc7d8f4427773528d6a48fde2680b39d0ada7b3",
+      "sources/renders/PGEL-017/PGEL-017-p13.png": "13f8fffef33fa1786908812ae4632191b5c263b8814fb405ebbe4b493c77ff37",
+      "sources/renders/PGEL-017/PGEL-017-p18.png": "06fa7d00b69e1ad65b550539bffdc8f61498dc48967fb6d52c0be10a0911dc20",
+      "sources/renders/PGEL-017/PGEL-017-p20.png": "27d8b10a7acabd7b5f98239ddd0adbfd8b66724f2e9a17dc03cf9702119bff37",
+      "sources/renders/PGEL-017/PGEL-017-p24.png": "8a8a7e584b98aa1cc2c209bcc37a42dc930cde5d74cd82eb74528ba14a7f5625"
+    },
+    "uncovered_pages": [],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_hash_matches": []
+    },
+    "tool_use_and_transfer_limit": "Proposed as a reusable cycle-energy/stability source; count and nonlinear claims remain restricted to positive symmetric single-cycle dynamics. Corollary IV.4's literal fixed-injection limit equality is isolated at the 4|n endpoint pending reconciliation; its formal count, finite upper bound, and monotonicity are kept distinct.",
+    "source_count_boundary": {
+      "physical_pdf_page": 13,
+      "source_printed_claim": "Corollary IV.4 prints N_infinity := lim_{K->infinity} N(K) = 2 floor(n/4)+1 and states this is an upper bound for the finite-K stable-solution count.",
+      "derived_boundary_audit": "For n=4 and fixed P=(1,-1,0,0), the independent full-branch audit at archived R05 cycle-boundary audit (see audit/evidence-path-index.json) derives N(K)=1 for every K>1, while the formal zero-injection endpoint twists q=-1,0,1 have nonpositive-spectrum count 3; q=+/-1 have zero Jacobian.",
+      "scope": "Keep the source's formal endpoint count, finite upper bound, and Theorem IV.3 monotonicity distinct. Quarantine the literal universal fixed-injection limit equality pending neutral reconciliation; this audit does not refute the finite upper bound or monotonicity and does not assess nonlinear stability.",
+      "local_note": "sources/math/PGEL-017_corIV4_endpoint_reconciliation.md"
+    },
+    "reader": "L02",
+    "reader_batch": "L02_B6",
+    "helper_local_id": "PGEL-017",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-017",
+    "helper_coverage_path": "reading_coverage.json#PGEL-017",
+    "helper_review_status": "R05 helper-stage passed; mother hash binding pending",
+    "metadata_verified_by_R05": false,
+    "tool_quota_eligibility": true,
+    "rendered_files": [
+      "sources/renders/PGEL-017/PGEL-017-p7.png",
+      "sources/renders/PGEL-017/PGEL-017-p10.png",
+      "sources/renders/PGEL-017/PGEL-017-p11.png",
+      "sources/renders/PGEL-017/PGEL-017-p12.png",
+      "sources/renders/PGEL-017/PGEL-017-p13.png",
+      "sources/renders/PGEL-017/PGEL-017-p18.png",
+      "sources/renders/PGEL-017/PGEL-017-p20.png",
+      "sources/renders/PGEL-017/PGEL-017-p24.png"
+    ],
+    "source_card": "sources/cards/PGEL-017.md",
+    "local_pdf": "sources/pdfs/PGEL-017.pdf"
+  },
+  {
+    "source_local_id": "PGEL-018",
+    "title": "Multistability of Phase-Locking in Equal-Frequency Kuramoto Models on Planar Graphs",
+    "pdf_sha256": "8546628e25dfe3798eb8b62fcd49bb02df2b1a5a489c1a4fb9d8961c36df81c3",
+    "pdf_page_count": 13,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "sections": [
+      {
+        "unit": "Front matter, abstract, and §I Introduction",
+        "pdf_pages": [
+          1,
+          4
+        ],
+        "coverage": "Identity, motivation, prior cycle-count results, multi-cycle planar obstacle, and article roadmap."
+      },
+      {
+        "unit": "§II The model",
+        "pdf_pages": [
+          4,
+          7
+        ],
+        "coverage": "Equal-frequency rotating-frame model; explicit connected-planar restriction and p. 5 reduction of tree-like appendages into their attachment node; face-cycle basis, signed vortex-flow variables, principal arcsine domain, stability, and Proposition II.1 proof."
+      },
+      {
+        "unit": "§III Bound on the number of stable fixed points",
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "coverage": "Quantization map; Theorem III.1 directional-derivative uniqueness proof; Corollary III.2 restricted product bound; cut condition and Lemma III.4/Corollary III.5 hypotheses."
+      },
+      {
+        "unit": "§IV Angle differences exceeding π/2",
+        "pdf_pages": [
+          10,
+          11
+        ],
+        "coverage": "One-edge-shared-cycle numerical counterexample and triangle/triangular-lattice examples; examples distinguish stable large gaps from the all-small-gap regime."
+      },
+      {
+        "unit": "§V Conclusion",
+        "pdf_pages": [
+          10,
+          12
+        ],
+        "coverage": "Summarizes proved restricted bounds and states Eq. (5.1) for generic planar graphs only as a conjecture because the large-gap flow correspondence is unproved."
+      },
+      {
+        "unit": "§VI Acknowledgment and References",
+        "pdf_pages": [
+          12,
+          13
+        ],
+        "coverage": "Acknowledgment and complete bibliography."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      5,
+      7,
+      8,
+      9,
+      12
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-018/PGEL-018-p5.png": "1341e3bc51ad42ce060e5788ef387e59450e8e2107cfa62b92536ce4d44acf51",
+      "sources/renders/PGEL-018/PGEL-018-p7.png": "52daa8885abf7a87dabfe9f65350397f6e4edb392e1f5d573630207ca7c2dcb8",
+      "sources/renders/PGEL-018/PGEL-018-p8.png": "7cda969ee89422438005bc4579dcfb6db3c2d739e6fefdcabe30f335c88acdbb",
+      "sources/renders/PGEL-018/PGEL-018-p9.png": "50095bbe2872ff027279311e42b3db988aad309c7075403405e8796c881c5eab",
+      "sources/renders/PGEL-018/PGEL-018-p12.png": "7bfa51022358e3e970be370be69076b11644209765f6723e953c7a5f008465a7"
+    },
+    "uncovered_pages": [],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_hash_matches": []
+    },
+    "tool_use_and_transfer_limit": "Proposed as a reusable planar energy-landscape source for connected graphs, modulo one common phase, with tree-like appendages reduced as stated on p. 5; the proved global count for total stable states needs the stated graph condition, and the generic planar extension is only conjectured.",
+    "source_model_scope": {
+      "physical_pdf_page": 5,
+      "finding": "The source explicitly restricts the analysis to connected planar graphs, selects a facial fundamental-cycle basis, and omits tree-like appendages because their edge angle differences are uniquely determined and they have no influence on the meshed dynamics; each appendage is absorbed at its attachment vertex.",
+      "counting_convention": "The paper counts fixed points modulo one common phase shift. Disconnected graphs are outside scope because they retain independent component rotations after quotienting by a single common phase."
+    },
+    "source_scope_issue": {
+      "physical_pdf_pages": [
+        11,
+        12
+      ],
+      "finding": "The product bound for generic planar networks in Eq. (5.1) is explicitly conjectural because the source cannot prove the one-to-one flow/fixed-point correspondence when some edge gaps exceed π/2.",
+      "orientation_note": "The epsilon_k-epsilon_i expression in Eq. (3.1) uses coherent facial-cycle signs; retain the signed cycle incidence matrix under a differently oriented cycle basis."
+    },
+    "reader": "L02",
+    "reader_batch": "L02_B6",
+    "helper_local_id": "PGEL-018",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-018",
+    "helper_coverage_path": "reading_coverage.json#PGEL-018",
+    "helper_review_status": "R05 helper-stage passed; mother hash binding pending",
+    "metadata_verified_by_R05": false,
+    "tool_quota_eligibility": true,
+    "rendered_files": [
+      "sources/renders/PGEL-018/PGEL-018-p5.png",
+      "sources/renders/PGEL-018/PGEL-018-p7.png",
+      "sources/renders/PGEL-018/PGEL-018-p8.png",
+      "sources/renders/PGEL-018/PGEL-018-p9.png",
+      "sources/renders/PGEL-018/PGEL-018-p12.png"
+    ],
+    "source_card": "sources/cards/PGEL-018.md",
+    "local_pdf": "sources/pdfs/PGEL-018.pdf"
+  },
+  {
+    "source_local_id": "PGEL-032",
+    "title": "Global synchronization beyond dense graphs: the case of threshold graphs",
+    "pdf_sha256": "ecdffbee9a5350c5ffc1d8dbb603df8791cb725f352a02f3262e6caf7d25a1b4",
+    "pdf_page_count": 24,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sections": [
+      {
+        "unit": "Title, abstract, and contents",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Version/date identity, homogeneous energy model, main threshold-graph claim, and table of contents."
+      },
+      {
+        "unit": "§1 Introduction (including §§1.1–1.3)",
+        "pdf_pages": [
+          2,
+          6
+        ],
+        "coverage": "Definitions of second-order and a.e. global synchronization, theorem statement on p. 4, prior work, contribution limits, analytic-gradient implication, and notation."
+      },
+      {
+        "unit": "§2 Threshold graphs and density (including §§2.1–2.4)",
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "coverage": "Construction sequence, forbidden-subgraph characterization, realization of edge counts and degree sequences, and Theorem 2.7 construction."
+      },
+      {
+        "unit": "§3 Kuramoto preliminaries (including §§3.1–3.3)",
+        "pdf_pages": [
+          9,
+          11
+        ],
+        "coverage": "ODE and energy, equilibrium/Jacobian/Hessian relations, SOSP definition, stability/local-minimum relation attributed to [AK06], and the source proof gap in Proposition 3.2 isolated."
+      },
+      {
+        "unit": "§4 Vector geometry of equilibria (including §§4.1–4.3)",
+        "pdf_pages": [
+          11,
+          14
+        ],
+        "coverage": "Phasors, equilibrium equation, nonnegative local scalar at an SOSP, and zero-sum allowance."
+      },
+      {
+        "unit": "§5 Local synchronization primitives (including §§5.1–5.3)",
+        "pdf_pages": [
+          14,
+          20
+        ],
+        "coverage": "Lemma 5.1 case split, closed-twin corollary, windmill theorem, geometric twins, Hessian-indicator alignment, and the exact partition hypotheses/proof of Lemma 5.9."
+      },
+      {
+        "unit": "§6 Main induction proof (including §§6.1–6.2)",
+        "pdf_pages": [
+          20,
+          22
+        ],
+        "coverage": "Worked 01010101 propagation and general backward induction over maximal construction-sequence blocks; concludes every SOSP is synchronous."
+      },
+      {
+        "unit": "§7 Summary and open problems",
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "coverage": "Conclusions, scope, possible extensions, and open graph-closure questions."
+      },
+      {
+        "unit": "References and author affiliations",
+        "pdf_pages": [
+          23,
+          24
+        ],
+        "coverage": "Complete bibliography and final author/address page."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      4,
+      9,
+      10,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      22
+    ],
+    "rendered_file_sha256": {
+      "sources/renders/PGEL-032/PGEL-032-p4.png": "6408f1c646bcd50cea50ff18743f054854cdfb348bd9d6909e1d6b97c889b793",
+      "sources/renders/PGEL-032/PGEL-032-p9.png": "5c0aeb2d786a9533b281512d5c27a35213ba003f3adde4b1d0c395725b9999ac",
+      "sources/renders/PGEL-032/PGEL-032-p10.png": "48a2097c59851bd37344d0c746dbc12360221adb3a290b9661ecc3555c15ce8e",
+      "sources/renders/PGEL-032/PGEL-032-p13.png": "2b331a5255011c8857981c30f71fce92e28f5c61336729994d63225bbdedee24",
+      "sources/renders/PGEL-032/PGEL-032-p14.png": "ac97d4eb3975c3fe4b863520fa201483a8e2fa2af46d001ac458fc2085fa2fdd",
+      "sources/renders/PGEL-032/PGEL-032-p15.png": "bb2073bd4e2daf9902291df5f1b01287fbfd35c4826636f53db2d582bd13db58",
+      "sources/renders/PGEL-032/PGEL-032-p17.png": "211752cec4bb3105e29cf35b9c7970fdbe1e7129304c74d3707b206330b2e2e8",
+      "sources/renders/PGEL-032/PGEL-032-p18.png": "bd5eb2cd241f0b6463d9ddc5730430e4ac7a7b79b122d3dac2e35cb365f817fe",
+      "sources/renders/PGEL-032/PGEL-032-p19.png": "8aa1e194c2bd246b083d636a4d9713814b1a880d03872d4ab1c31dad47540a07",
+      "sources/renders/PGEL-032/PGEL-032-p20.png": "40f9720e73f4865089431018204561fc35596bb2f7edfc92b40dc1edc8d72bfc",
+      "sources/renders/PGEL-032/PGEL-032-p22.png": "5a1a64247203fd5f0825d8ba269cd0b76813bdf0431ffc7a902d78c2b7f90e8b"
+    },
+    "uncovered_pages": [],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_hash_matches": []
+    },
+    "tool_use_and_transfer_limit": "Proposed as a deterministic landscape-method source; source-specific to connected threshold graphs and not a signed, oriented, weighted, or probabilistic result.",
+    "source_issue": {
+      "physical_pdf_page": 9,
+      "finding": "Proposition 3.2 states that a negative-semidefinite Jacobian makes an equilibrium stable, but the printed proof only differentiates the vector field to calculate the Jacobian entries; it does not prove the stability implication. This proposition is not used in the proof of Theorem 1.3.",
+      "scope": "Quarantine Proposition 3.2 as a source-stated, locally unsupported assertion. Use the SOSP/Hessian statements and Sections 5–6 for Theorem 1.3; the equilibrium/local-minimum equivalence is separately attributed to [AK06]."
+    },
+    "source_notation_issue": {
+      "physical_pdf_page": 19,
+      "finding": "Lemma 5.9 condition (ii) uses S\\{i} although S is not defined in the statement, which instead partitions W into Q, S1, S2, and P. Condition (iii) explicitly writes the neighborhood as P union N_Q(i) union ((S1 union S2)\\{i}).",
+      "scope": "The card uses the explicit condition (iii) and records the undefined S in (ii); it does not silently edit the source statement."
+    },
+    "reader": "L02",
+    "reader_batch": "L02_B6",
+    "helper_local_id": "PGEL-032",
+    "helper_card_path": "audit/evidence-path-index.json#PGEL-032",
+    "helper_coverage_path": "reading_coverage.json#PGEL-032",
+    "helper_review_status": "R05 helper-stage passed; mother hash binding pending",
+    "metadata_verified_by_R05": false,
+    "tool_quota_eligibility": true,
+    "rendered_files": [
+      "sources/renders/PGEL-032/PGEL-032-p4.png",
+      "sources/renders/PGEL-032/PGEL-032-p9.png",
+      "sources/renders/PGEL-032/PGEL-032-p10.png",
+      "sources/renders/PGEL-032/PGEL-032-p13.png",
+      "sources/renders/PGEL-032/PGEL-032-p14.png",
+      "sources/renders/PGEL-032/PGEL-032-p15.png",
+      "sources/renders/PGEL-032/PGEL-032-p17.png",
+      "sources/renders/PGEL-032/PGEL-032-p18.png",
+      "sources/renders/PGEL-032/PGEL-032-p19.png",
+      "sources/renders/PGEL-032/PGEL-032-p20.png",
+      "sources/renders/PGEL-032/PGEL-032-p22.png"
+    ],
+    "source_card": "sources/cards/PGEL-032.md",
+    "local_pdf": "sources/pdfs/PGEL-032.pdf"
+  },
+  {
+    "source_local_id": "PGEL-022",
+    "title": "Completely Degenerate Equilibria of the Kuramoto Model on Networks",
+    "pdf_sha256": "a7fb5e229de6022d183afd5cbba3ed139a2be636015fbe2d25c63c6304538a65",
+    "pdf_page_count": 8,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sections": [
+      {
+        "unit": "Front matter, abstract, and §1 Motivation",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Model motivation and definition of complete Jacobian degeneracy; survey framing."
+      },
+      {
+        "unit": "§2 Zero Intrinsic Frequencies; §2.1 Classification",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "coverage": "Lemma 1 balances the two ±π/2 neighbor classes; Theorem 2 characterizes admissible Euler circuits and proves the phase construction; examples and random-graph rarity estimate."
+      },
+      {
+        "unit": "§2.2 Stability",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "coverage": "Analytic gradient-energy criterion and Theorem 8; pair perturbation along Euler-circuit edge, cancellation of unaffected terms, exact cubic sign-changing energy difference."
+      },
+      {
+        "unit": "§3 Non-Zero Intrinsic Frequencies; §3.1 Classification",
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "coverage": "Equilibrium and zero-cosine conditions; generic-frequency obstruction, bipartite characterization, and examples."
+      },
+      {
+        "unit": "§3.2 Stability",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "coverage": "Theorem 11 local potential and one-vertex cubic perturbation; Corollary 12's necessary negative-Jacobian-eigenvalue condition and explicit not-sufficient caveat."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "coverage": "Full bibliography, including the analytic-gradient stability criterion cited in §2.2."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_hash_matches": [],
+      "arxiv_id_matches": []
+    },
+    "uncovered_pages": [],
+    "coverage_note": "All physical pages 1–8 read in order. Formula pages 3, 5, 6, 7 were rendered and viewed; Theorem 11 printed K>1/proof time-rescaling scope difference is isolated in card.",
+    "helper_coverage_path": "reading_coverage.json#PGEL-022",
+    "reader_batch": "L09_B8",
+    "reader": "L09",
+    "helper_review_reference": "audit/review-index.json#PGEL-022",
+    "helper_review_sha256": "427ef9b535d94457eaa1fbb18306ea2d2fb9c70f386b6d3e432f4bb02e8a6402",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-022/PGEL-022-p3.png",
+      "sources/renders/PGEL-022/PGEL-022-p5.png",
+      "sources/renders/PGEL-022/PGEL-022-p6.png",
+      "sources/renders/PGEL-022/PGEL-022-p7.png"
+    ],
+    "source_card": "sources/cards/PGEL-022.md",
+    "local_pdf": "sources/pdfs/PGEL-022.pdf"
+  },
+  {
+    "source_local_id": "PGEL-023",
+    "title": "Equilibria in Kuramoto oscillator networks: An algebraic approach",
+    "pdf_sha256": "ad7a30a2735b823124210a62361906ff06ba6f8cf61d0b2a5ce58bdd28d89cdd",
+    "pdf_page_count": 24,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "sections": [
+      {
+        "unit": "Front matter, abstract, and §1 Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "coverage": "Article identity, motivation, scope of equilibrium construction and roadmap."
+      },
+      {
+        "unit": "§2 Equilibrium points of Kuramoto models",
+        "pdf_pages": [
+          3,
+          6
+        ],
+        "coverage": "Original and complexified models, rotating frame, x=e^(iθ) linearization, distinction between trajectories, and proofs transferring real-eigenvalue eigenvectors to stationary points."
+      },
+      {
+        "unit": "§3 Circulant networks",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "coverage": "Fourier eigenvectors of symmetric circulants and twisted equilibria; no stability statement."
+      },
+      {
+        "unit": "§3.1 Complete-graph equilibrium classification",
+        "pdf_pages": [
+          7,
+          10
+        ],
+        "coverage": "Order-parameter-zero eigenvector case and converse forcing a common e^(2iθ), giving the two exhaustive equilibrium families."
+      },
+      {
+        "unit": "§4 Phase-lag coupled oscillators",
+        "pdf_pages": [
+          10,
+          14
+        ],
+        "coverage": "Complex phase-lag linearization; Propositions 6–8 and conjugation/Euler proof of the λe^(−iφ) real condition; figures are illustrations."
+      },
+      {
+        "unit": "§5 Generalized circulant networks",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "coverage": "Finite-group circulants and one-dimensional representations as eigenvectors, with the corresponding eigenvalue and phase-lag equilibrium criterion."
+      },
+      {
+        "unit": "§6 Multilayer networks",
+        "pdf_pages": [
+          16,
+          18
+        ],
+        "coverage": "Block matrix extension and symmetric-circulant special case; exact equilibrium statement permits real α,β and need not preserve a potential when asymmetric."
+      },
+      {
+        "unit": "§7 Equilibrium points for random networks",
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "coverage": "Numerical design changes a sampled adjacency matrix using eigendata; scope is modified matrices, not an unmodified-random-graph theorem."
+      },
+      {
+        "unit": "§8 Discussion and conclusions",
+        "pdf_pages": [
+          21,
+          22
+        ],
+        "coverage": "Summary and interpretation; distinguishes the complexified analytical model from the original nonlinear model."
+      },
+      {
+        "unit": "Appendix: Computational analyses; acknowledgments and references",
+        "pdf_pages": [
+          22,
+          24
+        ],
+        "coverage": "Euler step size and matrix-exponential computational setup; acknowledgments and complete bibliography."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      9,
+      10,
+      12,
+      15,
+      18
+    ],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_hash_matches": [],
+      "arxiv_id_matches": []
+    },
+    "uncovered_pages": [],
+    "coverage_note": "All physical pages 1–24 read in order. Rendered complete-graph classification, common phase-lag proof, finite-group representation and multilayer formulas.",
+    "helper_coverage_path": "reading_coverage.json#PGEL-023",
+    "reader_batch": "L09_B8",
+    "reader": "L09",
+    "helper_review_reference": "audit/review-index.json#PGEL-023",
+    "helper_review_sha256": "427ef9b535d94457eaa1fbb18306ea2d2fb9c70f386b6d3e432f4bb02e8a6402",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-023/PGEL-023-p9.png",
+      "sources/renders/PGEL-023/PGEL-023-p10.png",
+      "sources/renders/PGEL-023/PGEL-023-p12.png",
+      "sources/renders/PGEL-023/PGEL-023-p15.png",
+      "sources/renders/PGEL-023/PGEL-023-p18.png"
+    ],
+    "source_card": "sources/cards/PGEL-023.md",
+    "local_pdf": "sources/pdfs/PGEL-023.pdf"
+  },
+  {
+    "source_local_id": "PGEL-026",
+    "title": "On the typical and atypical solutions to the Kuramoto equations",
+    "pdf_sha256": "6f820a5bd2a1a53929c58283c12ddd452ac2ab6f437954bd66b215b0789b3ca7",
+    "pdf_page_count": 30,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "sections": [
+      {
+        "unit": "Front matter, abstract, and §1 Introduction",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "coverage": "Questions on generic complex-root counts, exceptional couplings and positive-dimensional roots; scope and roadmap."
+      },
+      {
+        "unit": "§2 Notation and preliminaries: §§2.1–2.8",
+        "pdf_pages": [
+          3,
+          6
+        ],
+        "coverage": "Kuramoto/phase-delay/power-flow Laurent systems, torus-vs-C-star roots, BKK second theorem, randomized supports, adjacency polytope and facial subgraphs."
+      },
+      {
+        "unit": "§3 Generic C-star root count",
+        "pdf_pages": [
+          6,
+          10
+        ],
+        "coverage": "Symmetric lifting, unimodular triangulation, acyclic spanning-tree cells, unique regular tree initial roots and homotopy/Puiseux path count proving Vol(adjacency polytope)."
+      },
+      {
+        "unit": "§4 Exceptional coupling coefficients: §§4.1–4.2",
+        "pdf_pages": [
+          10,
+          13
+        ],
+        "coverage": "Facial-system circulation form; reduction by face subgraphs; weak-spanning-tree parameterization and exact compatibility condition for all facial roots."
+      },
+      {
+        "unit": "§4.3 Balancing characterization",
+        "pdf_pages": [
+          13,
+          17
+        ],
+        "coverage": "Cycle and weighted-cycle balance; common-circulation condition; bridge obstruction; proof of Theorem 4.17 and shared-edge-cycle condition in Proposition 4.18."
+      },
+      {
+        "unit": "§4.4 Global exceptional-coupling examples",
+        "pdf_pages": [
+          17,
+          19
+        ],
+        "coverage": "Union over bridgeless maximally bipartite facial graphs, exact tree/odd-cycle counts, even-cycle criterion, and C4 numerical root-count illustrations."
+      },
+      {
+        "unit": "§5 Positive-dimensional solutions: introduction and §5.1 Cycles",
+        "pdf_pages": [
+          19,
+          21
+        ],
+        "coverage": "Homogeneous frequencies and two-face decomposition; necessary condition for cycle continua and explicit even-cycle balanced-subgraph construction, with C4 parameterization. The raw parameter’s real-torus restriction is the scaled circle |lambda|=|k|/2; for unit couplings the card’s lambda=i exp(it)/2 parametrization is correct."
+      },
+      {
+        "unit": "§5.2 Multiple even cycles sharing one edge",
+        "pdf_pages": [
+          21,
+          23
+        ],
+        "coverage": "Proposition 5.5 proof from shared-edge tree solution and face-circulation cancellation; worked six-vertex example and real-torus restriction."
+      },
+      {
+        "unit": "§5.3 Homogeneous networks with uniform couplings; §6 Conclusion",
+        "pdf_pages": [
+          23,
+          25
+        ],
+        "coverage": "Sufficient C_(4m) lifting condition and examples; conclusion separates generic counts, exceptional couplings and constructed continua."
+      },
+      {
+        "unit": "Appendix A: Notation",
+        "pdf_pages": [
+          25,
+          26
+        ],
+        "coverage": "Definitions of adjacency polytope, randomization, reduced incidence matrix, mixed volume, and normalized volume."
+      },
+      {
+        "unit": "Appendix B: Elementary lemmata",
+        "pdf_pages": [
+          26,
+          28
+        ],
+        "coverage": "Proofs of acyclic spanning-tree cells and face reductions; expanded tree-solution equivalence used in Corollary 4.10."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          28,
+          30
+        ],
+        "coverage": "Full bibliography for BKK, adjacency polytopes, power-flow and Kuramoto equilibrium constructions."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      7,
+      8,
+      9,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      22,
+      27,
+      28
+    ],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_hash_matches": [],
+      "arxiv_id_matches": []
+    },
+    "uncovered_pages": [],
+    "coverage_note": "All physical pages 1–30 read in order. Theorem 3.5, cycle-balance, shared-edge and Appendix B formulas were rendered and viewed. Every root-count assertion is kept on C-star roots unless unit-torus restriction is explicit.",
+    "helper_coverage_path": "reading_coverage.json#PGEL-026",
+    "reader_batch": "L09_B8",
+    "reader": "L09",
+    "helper_review_reference": "audit/review-index.json#PGEL-026",
+    "helper_review_sha256": "427ef9b535d94457eaa1fbb18306ea2d2fb9c70f386b6d3e432f4bb02e8a6402",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-026/PGEL-026-p7.png",
+      "sources/renders/PGEL-026/PGEL-026-p8.png",
+      "sources/renders/PGEL-026/PGEL-026-p9.png",
+      "sources/renders/PGEL-026/PGEL-026-p13.png",
+      "sources/renders/PGEL-026/PGEL-026-p14.png",
+      "sources/renders/PGEL-026/PGEL-026-p15.png",
+      "sources/renders/PGEL-026/PGEL-026-p16.png",
+      "sources/renders/PGEL-026/PGEL-026-p17.png",
+      "sources/renders/PGEL-026/PGEL-026-p20.png",
+      "sources/renders/PGEL-026/PGEL-026-p21.png",
+      "sources/renders/PGEL-026/PGEL-026-p22.png",
+      "sources/renders/PGEL-026/PGEL-026-p27.png",
+      "sources/renders/PGEL-026/PGEL-026-p28.png"
+    ],
+    "source_card": "sources/cards/PGEL-026.md",
+    "local_pdf": "sources/pdfs/PGEL-026.pdf"
+  },
+  {
+    "source_local_id": "PGEL-024",
+    "title": "Counting equilibria of the Kuramoto model using birationally invariant intersection index",
+    "pdf_sha256": "17fc44e9b76f147c1ba06dd1278a5f99d9f6f0aaefe9e2245955e01121351662",
+    "pdf_page_count": 13,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "sections": [
+      {
+        "unit": "Abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "coverage": "Root-count problem; Kuramoto ODE and gauge-fixed real equilibrium system (1)–(2); complex Laurent reformulation (3); BI intersection-index spaces (4); chain of claimed topology-sensitive bounds; roadmap and scope."
+      },
+      {
+        "unit": "§2 Kuramoto model and synchronization equations",
+        "pdf_pages": [
+          3,
+          3
+        ],
+        "coverage": "Interprets frequency synchronization as equilibrium in a rotating frame and removes the common-rotation degree of freedom by fixing θ0=0; summarizes prior tree and graph root-count context."
+      },
+      {
+        "unit": "§3 Preliminaries and notations",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "coverage": "Defines normalized lattice volume, reflexive polytopes/free sums, Laurent characters/unimodularity, Newton polytopes and initial forms; states the BKK initial-system exactness criterion, genericity caveat, adjacency polytope/AP bound, Proposition 6, and inequality chain (5)."
+      },
+      {
+        "unit": "§4 Tree graphs: Lemma 7 and Theorem 8",
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "coverage": "Constructs the rooted-tree ancestor-exponent monomial map; triangular unimodular exponent matrix preserves torus roots and local structure; sends each parent-edge ratio to yi, making the AP a free sum of n length-two segments with normalized volume 2^n."
+      },
+      {
+        "unit": "§4 Tree graphs: Lemmas 9–10 and Theorems 11",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "coverage": "Inductively eliminates a leaf equation by a stated linear combination, giving an equivalent parent-edge system; under the monomial map it becomes n independent scalar equations. The source's printed p. 7 quadratic omits y_i multiplying omega_i*, whereas multiplying equation (9) gives the distinct derived quadratic; the card records both literally. For the derived equation, each generic coordinate has two nonzero simple roots, yielding the 2^(N−1) intersection-index count."
+      },
+      {
+        "unit": "§5 Cycle graphs: adjacency polytope and Proposition 12",
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "coverage": "Unimodularly maps the cycle adjacency polytope to the centrally symmetric polytope with vertices ±ei and ±sum(ei); treats odd N via the simplicial del Pezzo polytope; explicitly lists even-N facets and proves the facet list is exhaustive."
+      },
+      {
+        "unit": "§5 Cycle graphs: Proposition 13 and Theorem 14",
+        "pdf_pages": [
+          9,
+          10
+        ],
+        "coverage": "Counts even-N facets, reduces one facet to an affine free-sum decomposition, computes its normalized volume N/2, and combines with odd-N facet data to obtain AP volume N binom(N−1,floor((N−1)/2)); p. 10 contains a G1/G2 label inconsistency isolated in the card."
+      },
+      {
+        "unit": "§5 Cycle graphs: Theorem 15 and proof",
+        "pdf_pages": [
+          10,
+          11
+        ],
+        "coverage": "For each nonzero initial direction, connectedness propagates negative support minima and prevents both opposing edge monomials from appearing; generic independent initial coefficients and Bernstein's criterion give the exact BKK and BI intersection-index count equal to the AP bound."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          11,
+          13
+        ],
+        "coverage": "Complete bibliography (44 entries) was read through the final reference on physical p. 13; used to distinguish cited background from results proved in this paper."
+      }
+    ],
+    "rendered_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "exact_arxiv_id_matches": [],
+      "exact_hash_matches": [],
+      "doi_note": "DOI appears in PGEL-026's reference list as a citation to this distinct work, not as a full-text duplicate."
+    },
+    "uncovered_pages": [],
+    "coverage_note": "All physical pages 1–13 read sequentially. Formula/proof pages 1–11 and final bibliography pages 12–13 were rendered and viewed. The p. 10 G1/G2 text conflict is explicitly captured in the card, not silently normalized.",
+    "helper_coverage_path": "reading_coverage.json#PGEL-024",
+    "reader_batch": "L09_B8b",
+    "reader": "L09",
+    "helper_review_reference": "audit/review-index.json#PGEL-024",
+    "helper_review_sha256": "85b72fe1ca6dc8c02173446f739bcb2610b199afe1dac1943b1dc8f3e3c4db05",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-024/PGEL-024-p1.png",
+      "sources/renders/PGEL-024/PGEL-024-p2.png",
+      "sources/renders/PGEL-024/PGEL-024-p3.png",
+      "sources/renders/PGEL-024/PGEL-024-p4.png",
+      "sources/renders/PGEL-024/PGEL-024-p5.png",
+      "sources/renders/PGEL-024/PGEL-024-p6.png",
+      "sources/renders/PGEL-024/PGEL-024-p7.png",
+      "sources/renders/PGEL-024/PGEL-024-p8.png",
+      "sources/renders/PGEL-024/PGEL-024-p9.png",
+      "sources/renders/PGEL-024/PGEL-024-p10.png",
+      "sources/renders/PGEL-024/PGEL-024-p11.png",
+      "sources/renders/PGEL-024/PGEL-024-p12.png",
+      "sources/renders/PGEL-024/PGEL-024-p13.png"
+    ],
+    "source_card": "sources/cards/PGEL-024.md",
+    "local_pdf": "sources/pdfs/PGEL-024.pdf"
+  },
+  {
+    "source_local_id": "PGEL-030",
+    "title": "On the Critical Coupling for Kuramoto Oscillators",
+    "pdf_sha256": "19892042e73f9b60912f4d47c1e131c2fc0f5091cb29160f0f3d3b169fee9081",
+    "pdf_page_count": 27,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "sections": [
+      {
+        "unit": "Front matter and §1 Introduction",
+        "pdf_pages": [
+          1,
+          4
+        ],
+        "coverage": "Model, main contributions, phase-cohesion definitions, notation, and complete-graph setup."
+      },
+      {
+        "unit": "§2 Phase synchronization, phase cohesiveness, and frequency entrainment",
+        "pdf_pages": [
+          4,
+          6
+        ],
+        "coverage": "Separates synchronization notions and proves the order-parameter/arc Lemma 2.1; includes the two-oscillator example."
+      },
+      {
+        "unit": "§3 Review of critical-coupling bounds",
+        "pdf_pages": [
+          6,
+          10
+        ],
+        "coverage": "Reviews infinite- and finite-dimensional bounds; identifies prior necessary, sufficient, and implicit exact criteria."
+      },
+      {
+        "unit": "§4 Theorem 4.1 and proof",
+        "pdf_pages": [
+          10,
+          15
+        ],
+        "coverage": "Universal frequency-width threshold, invariant arc, Dini derivative, consensus-rate proof, bipolar necessity, and order-parameter bound."
+      },
+      {
+        "unit": "§4.1 Statistical studies",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "coverage": "Compares bounds by simulation; numerical examples only."
+      },
+      {
+        "unit": "§4.2 Time-varying natural frequencies",
+        "pdf_pages": [
+          16,
+          17
+        ],
+        "coverage": "Piecewise switching as common Lyapunov argument and smooth slowly varying relative-frequency tracking assumptions."
+      },
+      {
+        "unit": "§5 Multi-rate Kuramoto models",
+        "pdf_pages": [
+          17,
+          25
+        ],
+        "coverage": "Parameterized gradient/Hamiltonian family, inertia/Jacobian theorem, local conjugacy, and multi-rate synchronization criteria."
+      },
+      {
+        "unit": "§6 Conclusions and references",
+        "pdf_pages": [
+          25,
+          27
+        ],
+        "coverage": "Conclusions, limitations, and complete bibliography."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      18,
+      20,
+      21,
+      23,
+      24,
+      25
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-030-p10.png": "55be038b9edba85ee1f5abb75696eab7e77414344079fa0dc26fe0ac7d28a23b",
+      "rendered/PGEL-030-p11.png": "ff23eba6928b7d1f44ac6c25719da3435b09e17eec1527180bf06ee75d909633",
+      "rendered/PGEL-030-p12.png": "4932e44f058c057ef2b6dbf72755b1d75b8490ad67f89c13067fccea6031d85a",
+      "rendered/PGEL-030-p13.png": "ecbf31bb01a7a0e6890e99d78d16b7be56d43364f5c52ba57e47b00c3423386a",
+      "rendered/PGEL-030-p14.png": "2922dcb3167465ed2f66a38714a97e5fea76da26c3aec43911e1cbd46f2b0ee6",
+      "rendered/PGEL-030-p15.png": "1caab10cf02747df8f00dc0a26073a43b53179e0ec231aacb1e235d9b7901bae",
+      "rendered/PGEL-030-p18.png": "f9c9ab83e4898ba6b1c600cabb75265fe1b28b9650c9f08e4ad83183d41a5f1a",
+      "rendered/PGEL-030-p20.png": "4a67eb8cfecbfa051f83b8bb6ceb71e7a754dbcdc1998e3230752353297a3d22",
+      "rendered/PGEL-030-p21.png": "4ab821279e0a8fb3f45f821dbdbee5d07cb14586b5dd39bc109193bce92d4937",
+      "rendered/PGEL-030-p23.png": "c81ef9918906afe98d6095aff47278b9e84aee047ae44d32cb495f9886b1991a",
+      "rendered/PGEL-030-p24.png": "5f269df82567b7ca2123b5b0a3875e2f0184c313129a38daf3fe93f3374a4069",
+      "rendered/PGEL-030-p25.png": "79fd753871236fe0f389b679e71c443867274857b0c5514d9057e7ae379236a7"
+    },
+    "text_extraction_path": "text/PGEL-030.txt",
+    "text_extraction_sha256": "d7543ddeb61a815b4ed1d4fd8e2f645311fa030ca8c58df96eff5523b7039854",
+    "uncovered_pages": [],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "arxiv_identifier_matches": [],
+      "doi_matches": [],
+      "exact_hash_matches": []
+    },
+    "tool_use_and_transfer_limit": "Proposed reusable deterministic synchronization method. The theorem is complete-graph/all-to-all with heterogeneous frequencies and does not certify every energy minimum or any signed random graph; source-count eligibility awaits independent review.",
+    "reader_batch": "L10_B9",
+    "reader": "L10",
+    "helper_coverage_path": "reading_coverage.json#PGEL-030",
+    "helper_review_reference": "audit/review-index.json#PGEL-030",
+    "helper_review_sha256": "a5a7fa23d0026d940bb553fa45df6f17865ef1cbc892ebba5fcf70c09ed0d769",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-030/PGEL-030-p10.png",
+      "sources/renders/PGEL-030/PGEL-030-p11.png",
+      "sources/renders/PGEL-030/PGEL-030-p12.png",
+      "sources/renders/PGEL-030/PGEL-030-p13.png",
+      "sources/renders/PGEL-030/PGEL-030-p14.png",
+      "sources/renders/PGEL-030/PGEL-030-p15.png",
+      "sources/renders/PGEL-030/PGEL-030-p18.png",
+      "sources/renders/PGEL-030/PGEL-030-p20.png",
+      "sources/renders/PGEL-030/PGEL-030-p21.png",
+      "sources/renders/PGEL-030/PGEL-030-p23.png",
+      "sources/renders/PGEL-030/PGEL-030-p24.png",
+      "sources/renders/PGEL-030/PGEL-030-p25.png"
+    ],
+    "source_card": "sources/cards/PGEL-030.md",
+    "local_pdf": "sources/pdfs/PGEL-030.pdf"
+  },
+  {
+    "source_local_id": "PGEL-031",
+    "title": "Bifurcations in the Kuramoto model on graphs",
+    "pdf_sha256": "47db43994c0bb652c0eae136c3038d8d334c60a7926a790202c0c6a08cce0ee8",
+    "pdf_page_count": 18,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "sections": [
+      {
+        "unit": "Front matter and §1 Introduction",
+        "pdf_pages": [
+          1,
+          5
+        ],
+        "coverage": "Frequency law, finite model, synchronization motivation, graph sequence purpose, and article scope."
+      },
+      {
+        "unit": "§2 The KM on graphs",
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "coverage": "Weighted graph model, deterministic/dense-random/sparse-random W-graphs, and ER, power-law, and small-world graphons."
+      },
+      {
+        "unit": "§3 The mean-field limit",
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "coverage": "Continuity PDE, empirical-measure weak convergence condition cited to prior work, compact self-adjoint graphon operator, thresholds, and generalized order parameter."
+      },
+      {
+        "unit": "§4 Results: complete, bipartite/block, and power-law examples",
+        "pdf_pages": [
+          9,
+          12
+        ],
+        "coverage": "ER/Paley common graphon threshold, bipartite and block graphon eigenvalues, and power-law operator calculation; examples/simulations are not finite-n theorems."
+      },
+      {
+        "unit": "§5 Small-world graph spectrum and bifurcation discussion",
+        "pdf_pages": [
+          11,
+          14
+        ],
+        "coverage": "Exact convolution eigenvalues and positive threshold, negative spectrum, center-manifold branch cited from prior work, and twisted-state formulae."
+      },
+      {
+        "unit": "§6 Discussion and numerical methods",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "coverage": "Limits of the graphon comparisons, simulation scheme, numerical integration and GPU/CPU comparison."
+      },
+      {
+        "unit": "Acknowledgments and references",
+        "pdf_pages": [
+          16,
+          18
+        ],
+        "coverage": "Funding, complete bibliography, and publication context."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-031-p03.png": "c09c981511ae0aa9ff63eef20642b096195850d2049dd9da1da40ebabcf5ab18",
+      "rendered/PGEL-031-p04.png": "22ec12b191a032da05437e72fab50b120e04b461911681e9a20c62be9000e36a",
+      "rendered/PGEL-031-p05.png": "71a32cf977c09b5c3fe40a18dae97c415270709ab7a5c6877f033b1d9c2d87cc",
+      "rendered/PGEL-031-p06.png": "8d988048bfd02d354b18feae5693b6c9670ff292a9a6b7d256a0b432561f6c52",
+      "rendered/PGEL-031-p07.png": "e8b00391e4148016fdee4cc87b2e18989a9fe571fba78b8ed537073ef0755947",
+      "rendered/PGEL-031-p08.png": "019ee40dcb77faef6f589d92abd8d4cbb4f6676028eeffaccc282d993957ab14",
+      "rendered/PGEL-031-p09.png": "49d291be56481f0f42fcc482e7f886157677e047cfb67d43b1b8243231a20918",
+      "rendered/PGEL-031-p11.png": "79cc2783128b98e8d7e1e97f124d8d33f360164497da2024aa66c8daacd0ca0b",
+      "rendered/PGEL-031-p12.png": "a1cb5b4d1051cacfe5bb06322d914c2d83ac5ec2c4a38ffe33d9584cbed96c71",
+      "rendered/PGEL-031-p13.png": "d2363cf1b39b008a94f03d82be090fee37625c6909cb8493f7765d8df7689e05"
+    },
+    "text_extraction_path": "text/PGEL-031.txt",
+    "text_extraction_sha256": "f22ea1b829e810c02ac30fce669660db8733f8fb60d5f50af96e931ea32b865b",
+    "uncovered_pages": [],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "arxiv_identifier_matches": [],
+      "doi_matches": [],
+      "exact_hash_matches": []
+    },
+    "tool_use_and_transfer_limit": "Proposed as a graphon/spectral method source. Empirical-measure convergence, linear-stability threshold and center-manifold branches are cited from prior papers; Section 4 is numerical. No finite-n uniform, signed, or energy-landscape theorem is claimed; source-count eligibility awaits independent review.",
+    "reader_batch": "L10_B9",
+    "reader": "L10",
+    "helper_coverage_path": "reading_coverage.json#PGEL-031",
+    "helper_review_reference": "audit/review-index.json#PGEL-031",
+    "helper_review_sha256": "a5a7fa23d0026d940bb553fa45df6f17865ef1cbc892ebba5fcf70c09ed0d769",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-031/PGEL-031-p03.png",
+      "sources/renders/PGEL-031/PGEL-031-p04.png",
+      "sources/renders/PGEL-031/PGEL-031-p05.png",
+      "sources/renders/PGEL-031/PGEL-031-p06.png",
+      "sources/renders/PGEL-031/PGEL-031-p07.png",
+      "sources/renders/PGEL-031/PGEL-031-p08.png",
+      "sources/renders/PGEL-031/PGEL-031-p09.png",
+      "sources/renders/PGEL-031/PGEL-031-p11.png",
+      "sources/renders/PGEL-031/PGEL-031-p12.png",
+      "sources/renders/PGEL-031/PGEL-031-p13.png"
+    ],
+    "source_card": "sources/cards/PGEL-031.md",
+    "local_pdf": "sources/pdfs/PGEL-031.pdf"
+  },
+  {
+    "source_local_id": "PGEL-033",
+    "title": "Stability of twisted states in the continuum Kuramoto model",
+    "pdf_sha256": "920906a63714c95e17b8fcd3182e489f9fca2ac09ccf1c1ead37715e0e64a5bc",
+    "pdf_page_count": 18,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "sections": [
+      {
+        "unit": "Front matter and §1 Introduction",
+        "pdf_pages": [
+          1,
+          4
+        ],
+        "coverage": "Finite ring/small-world motivation, graphon continuum equation, twisted-state family, and exact sufficient Fourier stability condition."
+      },
+      {
+        "unit": "§2 Linear implies nonlinear stability",
+        "pdf_pages": [
+          4,
+          6
+        ],
+        "coverage": "Abstract Banach-space semigroup theorem, quadratic nonlinear remainder condition, and contraction proof."
+      },
+      {
+        "unit": "§3 Proof of Theorem 1",
+        "pdf_pages": [
+          6,
+          13
+        ],
+        "coverage": "Mean conservation, mean-zero quotient, Fourier diagonalization, H1 and BV semigroup estimates, smoothness of the nonlinear vector field, and full theorem proof."
+      },
+      {
+        "unit": "§4 Examples and Theorem 7",
+        "pdf_pages": [
+          13,
+          16
+        ],
+        "coverage": "Nearest-neighbor/small-world kernel, sinc Fourier symbol, fixed-twist small-r and small-p stability, Lemma 8 proof, and localized equation (4.5) discrepancy."
+      },
+      {
+        "unit": "§5 Conclusion, acknowledgments, and references",
+        "pdf_pages": [
+          16,
+          18
+        ],
+        "coverage": "Conclusion, funding, and complete references."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      14,
+      15,
+      16
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-033-p03.png": "9815bedd37239f351e253b23982ba4737cfe3f7bcc6a43b45f6e655a06872c07",
+      "rendered/PGEL-033-p04.png": "e384b77f824c22143d8f80e5b6565c4a8e7f6dcc34208d34c44a69c0b4970e61",
+      "rendered/PGEL-033-p05.png": "95137f63b16aab14d86989921e3bebf47a53b2f0ced2f265d1139b596cd0af53",
+      "rendered/PGEL-033-p08.png": "4f2625d6bd0beeb5888c83811e22e78afb1710f4cb73d1cd4e9efcc81c470c1d",
+      "rendered/PGEL-033-p09.png": "20e09ca85ca293f9f970ad3038d1912aa202a09b7592c33e0af341a08b2011e4",
+      "rendered/PGEL-033-p10.png": "43669fc101770be75ba8f27eb04dee69321d551fd9d6050243d182b51aee8d79",
+      "rendered/PGEL-033-p14.png": "ff08d7ab0f5018c3d4c02607a0c17b2156397b8260eea8fcd00c1770985ba6bb",
+      "rendered/PGEL-033-p15.png": "70613e0248e26f0e8bf9b36ad2cacbfd3b9a35224fba09a49afb199a9ba6a4e8",
+      "rendered/PGEL-033-p16.png": "555e4fad52f6bdd8d3a3e83123d6784b35712ee828d60568e09b529b85b3b61b",
+      "rendered/PGEL-033-p15-300.png": "cbc72c47c73660d43dfe0b0c8c67fed1d918cbe71a2b2d685d551b7cb6e10509"
+    },
+    "text_extraction_path": "text/PGEL-033.txt",
+    "text_extraction_sha256": "985a49b37ba8354d80a0e25068b9f88a20c729df72b67dcb05321967727a2446",
+    "uncovered_pages": [],
+    "canonical_index_scan": {
+      "exact_title_matches": [],
+      "arxiv_identifier_matches": [],
+      "doi_matches": [],
+      "exact_hash_matches": []
+    },
+    "tool_use_and_transfer_limit": "Theorem 1 is a continuum local-stability method for a fixed twist under an even L2 kernel and a uniform strict gap over all nonzero modes. Use the directly derived generator multiplier pi*lambda for exact clock rates. Theorem 7(a) remains; for q>0, the printed uniform r,p rectangle is quarantined for the strict-gap/Thm1-exponential use, while fixed sufficiently small r followed by p sufficiently small depending on r remains conditional on the full gap. No finite-n signed-graph, probability, or global energy-landscape conclusion follows.",
+    "source_formula_issue": {
+      "physical_pdf_page": 15,
+      "printed_item": "Equation (4.5)",
+      "finding": "The rendered equation prints p*delta_{q,0}; the same-page following line uses p*delta_{m,q}. Direct substitution of the stated Fourier coefficients gives p*(delta_{m+q,0}-2*delta_{q,0}+delta_{q-m,0}); for positive q,m this is p*delta_{m,q}.",
+      "scope": "Keep this localized delta-index discrepancy separate from the uniform-rectangle issue. Correcting this delta term alone neither refutes nor repairs the positive-q uniform strict-gap obstruction."
+    },
+    "source_stability_scope_issue": {
+      "physical_pdf_pages": [
+        3,
+        8,
+        9,
+        14,
+        15,
+        16
+      ],
+      "literal_source_statement": {
+        "physical_pdf_page": 14,
+        "theorem": "Theorem 7(b)",
+        "quantifiers": "For each q in N, there exist r_q,p_q>0 such that every 0<r<r_q and 0<=p<p_q gives a stable q-twisted state.",
+        "status": "preserved as the literal printed statement; not used as a verified uniform strict-gap or Theorem 1 exponential-stability result."
+      },
+      "exact_generator_multiplier": "pi*lambda(q,m), derived directly from equation (1.6); the source sign criterion is unchanged, but its clock rate is pi-scaled.",
+      "source_intermediate_notation": "Physical p. 8 gamma omits q relative to K^(q); physical p. 9 multiplier display is not used as the exact clock.",
+      "independent_obstruction": "For m=q>=1, lambda(q,q;r,p)>=p-8*pi^2*q^2*r^3/3, so fixed p>0 gives positive lambda for sufficiently small r. This contradicts a uniform rectangle as a strict-gap certificate.",
+      "retained_scope": "Retain Theorem 1 under its stated all-mode strict-gap hypothesis, Theorem 7(a), and the source proof route with fixed sufficiently small r then sufficiently small p depending on that r, subject to the full gap.",
+      "not_concluded": "No blanket rejection of all Theorem 7, every nonlinear notion of stability, or finite-graph results.",
+      "independent_review": "R02 finding 2; R06 neutral review review.json/review.md."
+    },
+    "revision_source_page_renders": [
+      {
+        "physical_pdf_page": 3,
+        "rendered_review_file": "sources/renders/PGEL-033/review-primary-p3.png",
+        "sha256": "87e56a2926f6ed8080eb6856a9244993937f45b7c7029a0dcef3316ed39d359d",
+        "note": "Visually rechecked for this narrow revision; exact source PDF hash is unchanged."
+      },
+      {
+        "physical_pdf_page": 8,
+        "rendered_review_file": "sources/renders/PGEL-033/review-primary-p8.png",
+        "sha256": "ed5a143938f7d2b4af00b09576a6222edcecbe4eb5456463abd04716735545b2",
+        "note": "Visually rechecked for this narrow revision; exact source PDF hash is unchanged."
+      },
+      {
+        "physical_pdf_page": 9,
+        "rendered_review_file": "sources/renders/PGEL-033/review-primary-p9.png",
+        "sha256": "95cedb2af2d3b0dc9fbbbb97f977d6752f6bd74bffa4cc50628814edd9bfee6d",
+        "note": "Visually rechecked for this narrow revision; exact source PDF hash is unchanged."
+      },
+      {
+        "physical_pdf_page": 14,
+        "rendered_review_file": "sources/renders/PGEL-033/review-primary-p14.png",
+        "sha256": "32f6f57cd341c3db5c8559f489d91e5d4a469a235a0eddf3dfb09c75b6ff268f",
+        "note": "Visually rechecked for this narrow revision; exact source PDF hash is unchanged."
+      },
+      {
+        "physical_pdf_page": 15,
+        "rendered_review_file": "sources/renders/PGEL-033/review-primary-p15.png",
+        "sha256": "e34d9987c717ac93ea04d309ee16a4bcf49f729746719cbb6e09287482dae6b3",
+        "note": "Visually rechecked for this narrow revision; exact source PDF hash is unchanged."
+      },
+      {
+        "physical_pdf_page": 16,
+        "rendered_review_file": "sources/renders/PGEL-033/review-primary-p16.png",
+        "sha256": "359132a484eb93517dd495645af400a6a562f7ab34694645c9d803bc47d81c07",
+        "note": "Visually rechecked for this narrow revision; exact source PDF hash is unchanged."
+      }
+    ],
+    "reader_batch": "L10_B9",
+    "reader": "L10",
+    "helper_coverage_path": "reading_coverage.json#PGEL-033",
+    "helper_review_reference": "audit/review-index.json#PGEL-033",
+    "helper_review_sha256": "a5a7fa23d0026d940bb553fa45df6f17865ef1cbc892ebba5fcf70c09ed0d769",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-033/PGEL-033-p03.png",
+      "sources/renders/PGEL-033/PGEL-033-p04.png",
+      "sources/renders/PGEL-033/PGEL-033-p05.png",
+      "sources/renders/PGEL-033/PGEL-033-p08.png",
+      "sources/renders/PGEL-033/PGEL-033-p09.png",
+      "sources/renders/PGEL-033/PGEL-033-p10.png",
+      "sources/renders/PGEL-033/PGEL-033-p14.png",
+      "sources/renders/PGEL-033/PGEL-033-p15.png",
+      "sources/renders/PGEL-033/PGEL-033-p16.png",
+      "sources/renders/PGEL-033/PGEL-033-p15-300.png"
+    ],
+    "source_card": "sources/cards/PGEL-033.md",
+    "local_pdf": "sources/pdfs/PGEL-033.pdf"
+  },
+  {
+    "source_local_id": "PGEL-040",
+    "title": "Almost Global Synchronization of Symmetric Kuramoto Coupled Oscillators",
+    "pdf_sha256": "efbf80c3a92afd1af83d45ddad56408c7c17e222cfa994795e707f75d96bf6a3",
+    "pdf_page_count": 26,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "sections": [
+      {
+        "unit": "Front matter and §1 Introduction",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Publisher title and chapter scope; identical-frequency symmetric sine coupling and graph dependence."
+      },
+      {
+        "unit": "§2 The Kuramoto model and general equilibrium properties",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "coverage": "Defines full/partial synchronization, equilibrium phasor alignment, degree-one corollary, and phase-locking."
+      },
+      {
+        "unit": "§3 Brief review of algebraic graph theory",
+        "pdf_pages": [
+          4,
+          6
+        ],
+        "coverage": "Incidence matrix, Laplacian, cycles, trees, blocks, cut vertices, and quotient graph notions used later."
+      },
+      {
+        "unit": "§4 Symmetric Kuramoto model",
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "coverage": "Lyapunov/Jacobian analysis, instability and positive-edge-weight stability lemmas, tree and complete-graph results."
+      },
+      {
+        "unit": "§5 Block analysis and synchronizing interconnection",
+        "pdf_pages": [
+          9,
+          15
+        ],
+        "coverage": "Cut-vertex flow restriction/gluing, local stability condition, a.g.s. composition, block theorem, and constructions."
+      },
+      {
+        "unit": "§6 Examples",
+        "pdf_pages": [
+          16,
+          16
+        ],
+        "coverage": "Worked graph examples illustrating the cut-vertex and synchronization criteria."
+      },
+      {
+        "unit": "§7.1 Adjacent twin vertices",
+        "pdf_pages": [
+          17,
+          22
+        ],
+        "coverage": "Twin synchronization, quotient flow, half-circle lemma, twin cover, and non-bridge subdivision obstruction."
+      },
+      {
+        "unit": "§7.2 Non-adjacent twins",
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "coverage": "Restricted twin conditions; no general classification asserted."
+      },
+      {
+        "unit": "§8 Conclusions",
+        "pdf_pages": [
+          23,
+          23
+        ],
+        "coverage": "Summary and open classification boundary."
+      },
+      {
+        "unit": "§9 References",
+        "pdf_pages": [
+          23,
+          25
+        ],
+        "coverage": "Complete chapter bibliography."
+      },
+      {
+        "unit": "Book metadata and license",
+        "pdf_pages": [
+          25,
+          26
+        ],
+        "coverage": "Edited-book publication details and chapter reuse license."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-040-p6.png": "0a05a6f955a59d9313d94d9dfa303e1a7abf054a8fcc492d8939b887570f920b",
+      "rendered/PGEL-040-p7.png": "fc82addace7ea065e56396994d40680fa76e1738af540fd78e0187287019c64e",
+      "rendered/PGEL-040-p8.png": "b09835a45b363eb2a54023365396c6d9f123f26565eeb69596a2a7c681576375",
+      "rendered/PGEL-040-p10.png": "e9a3868b050bc3ad56cbe455d472cca6e8ecc4cc7d865d7ef1fe277bcf2574f3",
+      "rendered/PGEL-040-p11.png": "273fa57921985f1cf5933c9af9df64822136d91020acb6d01b1900496a75a34a",
+      "rendered/PGEL-040-p12.png": "fa61204b7e53ad04d82e8dead189502fa51cb17cccd9c0d71e4b9f940165ebd1",
+      "rendered/PGEL-040-p13.png": "30166818789c67c99cddbc9686c8d775d70b953c420006c4364bd2acd899059b",
+      "rendered/PGEL-040-p14.png": "fb10af5d1b38b717e3fc2ae581aec263156fffd1d52a8ca33377ff8983f3c428",
+      "rendered/PGEL-040-p15.png": "3e1930555575405bc490b94913bb71ce099f7ec31909710c6eeabe60006ddf64",
+      "rendered/PGEL-040-p17.png": "7a6b78750419d3e043815952d141cdaf653f5a389b7efd439f49950111402b9d",
+      "rendered/PGEL-040-p18.png": "2b77a9d7dd0b9515bd6d23390c302aa3020c95355bddb927397a9abbf62778dd",
+      "rendered/PGEL-040-p19.png": "1d5fcf7b372b4b16f6d860573c9e2c61004d98f10c620c93f5687b74e3eb0c5a",
+      "rendered/PGEL-040-p20.png": "563936c186e8e11adebb342b40b309da553b1e9bd3c9eb513a62d314bed42b16",
+      "rendered/PGEL-040-p21.png": "73131538ce5641835ffa972efdcd0142da4c010e01252ca2fa941fd47e79095f",
+      "rendered/PGEL-040-p22.png": "20d4ab9d209d08529044cff5b95bbe22cf8842c4a7f31b8d993b640e9d88acb4",
+      "rendered/PGEL-040-p23.png": "928f10b943f2ed73cb276f186954a5ba2dec5ea383f988abd4cc5f50e16779b1"
+    },
+    "uncovered_pages": [],
+    "source_scope_note": "Potential method source for deterministic graph-landscape structure (cut blocks and twin quotients). It contains no random graph law or probability estimate; quota scope remains for independent review.",
+    "math_check": "audit/evidence-path-index.json#PGEL-040",
+    "work_type_audit": {
+      "kind_declared": "book",
+      "reviewed_work_type": "independent_formal_publisher_research_contribution",
+      "full_book_acquired": false,
+      "full_book_claimed_read": false,
+      "official_record": "https://www.intechopen.com/chapters/5346",
+      "doi": "10.5772/6026",
+      "license": "CC BY-NC-SA 3.0",
+      "complete_local_contribution_pages": 26
+    },
+    "reader_batch": "L12_B10",
+    "reader": "L12",
+    "helper_coverage_path": "reading_coverage.json#PGEL-040",
+    "helper_review_reference": "audit/review-index.json#PGEL-040",
+    "helper_review_sha256": "3a5706cff5997b9a13223c0cde78d0f17dd120cdacfa73f3d1b358398f529db0",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "kind_declared": "book",
+    "reviewed_work_type": "independent_formal_publisher_research_contribution",
+    "full_book_acquired": false,
+    "full_book_claimed_read": false,
+    "counts_as_one_independent_contribution": true,
+    "rendered_files": [
+      "sources/renders/PGEL-040/PGEL-040-p6.png",
+      "sources/renders/PGEL-040/PGEL-040-p7.png",
+      "sources/renders/PGEL-040/PGEL-040-p8.png",
+      "sources/renders/PGEL-040/PGEL-040-p10.png",
+      "sources/renders/PGEL-040/PGEL-040-p11.png",
+      "sources/renders/PGEL-040/PGEL-040-p12.png",
+      "sources/renders/PGEL-040/PGEL-040-p13.png",
+      "sources/renders/PGEL-040/PGEL-040-p14.png",
+      "sources/renders/PGEL-040/PGEL-040-p15.png",
+      "sources/renders/PGEL-040/PGEL-040-p17.png",
+      "sources/renders/PGEL-040/PGEL-040-p18.png",
+      "sources/renders/PGEL-040/PGEL-040-p19.png",
+      "sources/renders/PGEL-040/PGEL-040-p20.png",
+      "sources/renders/PGEL-040/PGEL-040-p21.png",
+      "sources/renders/PGEL-040/PGEL-040-p22.png",
+      "sources/renders/PGEL-040/PGEL-040-p23.png"
+    ],
+    "source_card": "sources/cards/PGEL-040.md",
+    "local_pdf": "sources/pdfs/PGEL-040.pdf"
+  },
+  {
+    "source_local_id": "PGEL-041",
+    "title": "On the Stability of the Kuramoto Model of Coupled Nonlinear Oscillators",
+    "pdf_sha256": "c4b9b8fff56834009a041db1122e68b0bade7fd2a39dcaa0b97c156c1c40cd3f",
+    "pdf_page_count": 8,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sections": [
+      {
+        "unit": "Title, abstract, and §I Background and Introduction",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "coverage": "Motivation, finite-N graph goal, and model scope."
+      },
+      {
+        "unit": "§II Model Description",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "coverage": "Order parameter and all-to-all background; finite graph Kuramoto model."
+      },
+      {
+        "unit": "§III Graph Theoretical Formulation",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "coverage": "Incidence/Laplacian representation, graph connectivity, and order-parameter identities."
+      },
+      {
+        "unit": "§IV Synchronization of Identical Coupled Oscillators",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "coverage": "Theorem 1, Lyapunov-LaSalle proof, weighted Laplacian local rate, and alternate equilibria."
+      },
+      {
+        "unit": "§V The Case of Non-identical Oscillators",
+        "pdf_pages": [
+          4,
+          4
+        ],
+        "coverage": "Constant uncertain frequencies and grounded coordinates."
+      },
+      {
+        "unit": "§VI Bound for the Asymptotic Value of the Order Parameter",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "coverage": "Derivative region and algebraic-connectivity estimate; quantitative claims are source-specific."
+      },
+      {
+        "unit": "§VII Bounds for the Critical Coupling",
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "coverage": "Complete graph, tree/general graph bounds, Brouwer existence, and Banach uniqueness proof."
+      },
+      {
+        "unit": "§VIII Concluding Remarks; §IX Acknowledgements and References",
+        "pdf_pages": [
+          8,
+          8
+        ],
+        "coverage": "Conclusions, explicit future distributional-frequency question, acknowledgments, and full references."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-041-p1.png": "466202ea33a637838639e6e46ef4850769f51996091f8e20081bebf1a143aaf7",
+      "rendered/PGEL-041-p2.png": "7488733dca3a684102e49c09e2f37fa3b66dc9d60beb78178459597f2d47c952",
+      "rendered/PGEL-041-p3.png": "d12f9e39077b268d09f80205a7073b3ee5ca4c2d1fe7419add332222b517d311",
+      "rendered/PGEL-041-p4.png": "a15e1285cf63925781c1afe736527298f555c75b19603e0698ff77ba9ca65789",
+      "rendered/PGEL-041-p5.png": "e2c6643744e071f5817311b89430be23abb835e1688dd9903fae1cd13ec2fed2",
+      "rendered/PGEL-041-p6.png": "48532b57d54bc471674b18ce6c597f91130368f6036b08a47c64f162f5f9162f",
+      "rendered/PGEL-041-p7.png": "485d39d40d00e3cefa1ce07d3a9ba51167cb637842d16d2fbbe36be017b5d96b",
+      "rendered/PGEL-041-p8.png": "60812fa12ecfd5b186acbda2f0aa571c83d21473d305fc8e9e1d37facb6b91bb"
+    },
+    "uncovered_pages": [],
+    "source_scope_note": "The deterministic spectral/grounded-coordinate results may be methods for graph instances after separate probability estimates. The literal physical-p.6 Remark 10 tree sufficiency threshold is quarantined, not used as a verified certificate, by the exact N=2 counterexample in the card and math check.",
+    "math_check": "audit/evidence-path-index.json#PGEL-041",
+    "targeted_review_note": "R05 targeted revision: distinguish the printed tree threshold from the separate Brouwer existence theorem; other previously checked p.3/p.7 caveats are preserved.",
+    "reader_batch": "L12_B10",
+    "reader": "L12",
+    "helper_coverage_path": "reading_coverage.json#PGEL-041",
+    "helper_review_reference": "audit/review-index.json#PGEL-041",
+    "helper_review_sha256": "3a5706cff5997b9a13223c0cde78d0f17dd120cdacfa73f3d1b358398f529db0",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-041/PGEL-041-p1.png",
+      "sources/renders/PGEL-041/PGEL-041-p2.png",
+      "sources/renders/PGEL-041/PGEL-041-p3.png",
+      "sources/renders/PGEL-041/PGEL-041-p4.png",
+      "sources/renders/PGEL-041/PGEL-041-p5.png",
+      "sources/renders/PGEL-041/PGEL-041-p6.png",
+      "sources/renders/PGEL-041/PGEL-041-p7.png",
+      "sources/renders/PGEL-041/PGEL-041-p8.png"
+    ],
+    "source_card": "sources/cards/PGEL-041.md",
+    "local_pdf": "sources/pdfs/PGEL-041.pdf"
+  },
+  {
+    "source_local_id": "PGEL-045",
+    "title": "The Kuramoto Model on the Sierpinski Gasket II: Twisted States",
+    "pdf_sha256": "8d635dd3c083972a6a1f8fff2df2a8e0fb0693b81f5568d07f11d6984457af49",
+    "pdf_page_count": 33,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "sections": [
+      {
+        "unit": "Front matter and §1 Introduction",
+        "pdf_pages": [
+          1,
+          7
+        ],
+        "coverage": "SG graph sequence, gradient energy, degree/homotopy setup, Theorems 1.4–1.5, and roadmap."
+      },
+      {
+        "unit": "§2 Harmonic Functions on SG",
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "coverage": "Renormalized graph Dirichlet forms, harmonic extension, compatibility, and Hölder energy bound."
+      },
+      {
+        "unit": "§3 Γ-Convergence",
+        "pdf_pages": [
+          9,
+          13
+        ],
+        "coverage": "Γ-limit of real Dirichlet/Kuramoto energies and stable equilibrium approximation for fixed real boundary data."
+      },
+      {
+        "unit": "§4 The KM on Nearest-Neighbor Graphs",
+        "pdf_pages": [
+          13,
+          18
+        ],
+        "coverage": "Ring winding classes, lifted endpoint conditions, Γ-convergence, and twist stability boundary."
+      },
+      {
+        "unit": "§5 Harmonic Maps from SG to the Circle",
+        "pdf_pages": [
+          18,
+          25
+        ],
+        "coverage": "Covering space, cut fundamental domains, harmonic extension, natural boundary conditions, and higher-order degree construction."
+      },
+      {
+        "unit": "§6 The Proof of Theorem 1.5",
+        "pdf_pages": [
+          25,
+          27
+        ],
+        "coverage": "Fixed-degree Γ-convergence plus compactness/Hölder estimates and spline minimization yield stable approximants."
+      },
+      {
+        "unit": "§7 The KM on Post-Critically Finite Fractals",
+        "pdf_pages": [
+          27,
+          32
+        ],
+        "coverage": "P.c.f. definitions and energy assumptions, fixed cycle-basis degrees, resistance-metric Hölder estimate, and Theorem 7.3."
+      },
+      {
+        "unit": "References and end matter",
+        "pdf_pages": [
+          32,
+          33
+        ],
+        "coverage": "Complete references, author contribution, funding, data availability, declarations, and publisher note."
+      }
+    ],
+    "rendered_formula_pages_viewed": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-045-p3.png": "23ca493f6620fedf51e4018bb99d30b64b2b97c546b1464fe51a84fb7aaad793",
+      "rendered/PGEL-045-p4.png": "28a01be68f4f98be845ea06164a5da65d5fb4772719c5c6ab175c9e41426993e",
+      "rendered/PGEL-045-p5.png": "cd84f151dd52f76a24b65c6347e5acc3212afd81d4f314ca9e8b2038e80e897e",
+      "rendered/PGEL-045-p6.png": "188ee0b8a86dd6a8d00a2590c208753982d8a59e1b33284b687de7bbcb470b5d",
+      "rendered/PGEL-045-p7.png": "5671cdeca964107377d752e3567408a5b1555bb27f27953f624fc6cb78578ec4",
+      "rendered/PGEL-045-p8.png": "5f3211b03b2eda9a6cabfc403a0bb66162299e1535fd3919b17d41f2e21628ae",
+      "rendered/PGEL-045-p9.png": "15d87bbc398c67666c9e6701caccc626762eef11d1d1bbd88a23f9f9975e807c",
+      "rendered/PGEL-045-p10.png": "4470eb9fe6f76c4173f0dfac1132f298cc3cd73faf83577a7f4177467d8a8154",
+      "rendered/PGEL-045-p11.png": "dad81e09b1d008e53e861b38e47a7f80a92444a3d1a3c71045cb344cb414ae33",
+      "rendered/PGEL-045-p12.png": "1911c0f24d0187ed381b7da567315093006f4d177683f238848e2d55cba537eb",
+      "rendered/PGEL-045-p13.png": "58082f4409a67570e50d97d8c866a460071d09c985ba4b22ff54d5b187ae3531",
+      "rendered/PGEL-045-p16.png": "0ab008ce320032349aac409220b9d6bfc40899e5af41722d2a797bddef39c6bf",
+      "rendered/PGEL-045-p17.png": "d9e422acacc750f71c4a354d480cf3d02e25da6c63bb264e9b5947c9c428a258",
+      "rendered/PGEL-045-p18.png": "7252c6fd567bffffc0d661ed43c36879414e8075e672c5385a02b5955fe749bf",
+      "rendered/PGEL-045-p19.png": "89e0db38eb7516c45747c22862bb8a70517af97afefd60d50d8837e7a595d7cf",
+      "rendered/PGEL-045-p20.png": "12783c8f018859db2d9cff567e7df980ee600dd423b3aa4b852e54e27b75b987",
+      "rendered/PGEL-045-p21.png": "b839d41c756c78b26abb09fb8941ee8eb2ee60f57d5c131f545055f03e2eaca6",
+      "rendered/PGEL-045-p22.png": "ad34bae0598c4a8bbcc5052cf6101f419570366d2ba5bd3621c647f20eebd2b8",
+      "rendered/PGEL-045-p23.png": "96904df24c2784b1bf20872f536280d49744b2978b4a07fbbd372ed66a985a9e",
+      "rendered/PGEL-045-p24.png": "2c899ee39d298b1c2c317046acedc63d9a38f801b9218c2a8c2ddf576107d9de",
+      "rendered/PGEL-045-p25.png": "3e610a8b9fd2b117f9a18559b1d03a1b8b00e1a3bcdb1fa24dd7157508e9bc48",
+      "rendered/PGEL-045-p26.png": "4b1e935261984f054bbeaed58cba32dc8256245aec2de04fc0605a08c9f4d6f0",
+      "rendered/PGEL-045-p27.png": "f54c40f4fa4a6b6bfc7a79a27c85f69fc00658b22535478982c0153db86a3b4f",
+      "rendered/PGEL-045-p28.png": "5b76396ca3dce3e796418af1a83ebc6befc7ab3f23bc77463d5e8219c52e5837",
+      "rendered/PGEL-045-p29.png": "d909deac33fb1d24637704b407c2509044e719e2329b4bd6e34e37bee61ef449",
+      "rendered/PGEL-045-p30.png": "42f364b450d19c693e31daf4f107a6bffd0de25382894ad5a45838d1e25702b5",
+      "rendered/PGEL-045-p31.png": "5175d74c34ff29fdf8db88c60663ec6ffcf33d15328150e341cd50e0c1eb3fa5",
+      "rendered/PGEL-045-p32.png": "5115c75240c675562940bf12842271d17ae40681719656596a1b8d96ea676b66",
+      "rendered/PGEL-045-p33.png": "754cec460099ee4bc35ba3816836d5e52f6169f1109b38a99470809cc5b1f17f"
+    },
+    "uncovered_pages": [],
+    "source_scope_note": "Method-eligible deterministic contribution: harmonic extension, renormalized energy comparison, Gamma convergence, and fixed-topology minimizer arguments under matching hypotheses. No random-graph theorem or C118 solution; §7 p.c.f. use remains conditional on its stated hypotheses.",
+    "math_check": "audit/evidence-path-index.json#PGEL-045",
+    "targeted_review_note": "R05/R06 revision distinguishes the source's omitted physical-p.13 uniform-to-fixed-Cbeta implication from the neutral-adjudication-derived energy/orthogonality completion, scoped to §3 SG real Dirichlet, conditional §6 fixed-degree lift, and conditional §7 assumptions.",
+    "reader_batch": "L12_B10",
+    "reader": "L12",
+    "helper_coverage_path": "reading_coverage.json#PGEL-045",
+    "helper_review_reference": "audit/review-index.json#PGEL-045",
+    "helper_review_sha256": "3a5706cff5997b9a13223c0cde78d0f17dd120cdacfa73f3d1b358398f529db0",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-045/PGEL-045-p3.png",
+      "sources/renders/PGEL-045/PGEL-045-p4.png",
+      "sources/renders/PGEL-045/PGEL-045-p5.png",
+      "sources/renders/PGEL-045/PGEL-045-p6.png",
+      "sources/renders/PGEL-045/PGEL-045-p7.png",
+      "sources/renders/PGEL-045/PGEL-045-p8.png",
+      "sources/renders/PGEL-045/PGEL-045-p9.png",
+      "sources/renders/PGEL-045/PGEL-045-p10.png",
+      "sources/renders/PGEL-045/PGEL-045-p11.png",
+      "sources/renders/PGEL-045/PGEL-045-p12.png",
+      "sources/renders/PGEL-045/PGEL-045-p13.png",
+      "sources/renders/PGEL-045/PGEL-045-p16.png",
+      "sources/renders/PGEL-045/PGEL-045-p17.png",
+      "sources/renders/PGEL-045/PGEL-045-p18.png",
+      "sources/renders/PGEL-045/PGEL-045-p19.png",
+      "sources/renders/PGEL-045/PGEL-045-p20.png",
+      "sources/renders/PGEL-045/PGEL-045-p21.png",
+      "sources/renders/PGEL-045/PGEL-045-p22.png",
+      "sources/renders/PGEL-045/PGEL-045-p23.png",
+      "sources/renders/PGEL-045/PGEL-045-p24.png",
+      "sources/renders/PGEL-045/PGEL-045-p25.png",
+      "sources/renders/PGEL-045/PGEL-045-p26.png",
+      "sources/renders/PGEL-045/PGEL-045-p27.png",
+      "sources/renders/PGEL-045/PGEL-045-p28.png",
+      "sources/renders/PGEL-045/PGEL-045-p29.png",
+      "sources/renders/PGEL-045/PGEL-045-p30.png",
+      "sources/renders/PGEL-045/PGEL-045-p31.png",
+      "sources/renders/PGEL-045/PGEL-045-p32.png",
+      "sources/renders/PGEL-045/PGEL-045-p33.png"
+    ],
+    "source_card": "sources/cards/PGEL-045.md",
+    "local_pdf": "sources/pdfs/PGEL-045.pdf"
+  },
+  {
+    "source_local_id": "PGEL-015",
+    "title": "Stability of twisted states in the Kuramoto model on Cayley and random graphs",
+    "pdf_sha256": "b6aede88f5a5ade09c8e53f8acbf923f5e0c4fa51b0e5c027beefa6c38cb1538",
+    "pdf_page_count": 36,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      36
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, and §1 Introduction",
+        "pdf_pages": [
+          1,
+          4
+        ],
+        "coverage": "Problem motivation, model families, distinction between graph limits and dynamical stability, and paper outline. Physical p.1 margin stamp (10 May 2015) and title-body date (8 Aug 2018) are both recorded; this is a version/date discrepancy, not asserted journal-copy equivalence."
+      },
+      {
+        "section": "§2 Graph preliminaries: §2.1–§2.4",
+        "pdf_pages": [
+          5,
+          11
+        ],
+        "coverage": "Cayley, complete, Paley and ER graph setup; edge-distribution, Laplacian-spectrum and graph-limit comparisons."
+      },
+      {
+        "section": "§3 Twisted states on Cayley graphs: §3.1 linearization and §3.2 variational approach",
+        "pdf_pages": [
+          11,
+          16
+        ],
+        "coverage": "Twisted equilibria, Fourier diagonalization, exact nonconstant eigenvalues, strict stability condition Theorem 3.4, energy argument and Theorems 3.7–3.8."
+      },
+      {
+        "section": "§4 Synchronization",
+        "pdf_pages": [
+          17,
+          19
+        ],
+        "coverage": "Lyapunov neighborhoods of the synchronous orbit, attractive asymptotic stability, and largest-eigenvalue twist criterion with a simple-zero-mode hypothesis."
+      },
+      {
+        "section": "§5 Complete graph",
+        "pdf_pages": [
+          20,
+          23
+        ],
+        "coverage": "Linearization of q-twists and the odd-order repulsive result; regular-value and equilibrium-manifold argument accounting for zero modes."
+      },
+      {
+        "section": "§6 Paley graph",
+        "pdf_pages": [
+          23,
+          24
+        ],
+        "coverage": "Paley Fourier eigenvalues, quadratic-residue cases, Corollary 6.2, and unresolved table entries."
+      },
+      {
+        "section": "§7 ER graph: §7.1 Discrete homogenization and Theorem 7.2 proof",
+        "pdf_pages": [
+          24,
+          28
+        ],
+        "coverage": "Same-initial-data finite-horizon comparison; empirical D² assumptions, energy inequality, Grönwall step, Lemma 7.3, and proof display (7.19). The source prints both a row-variance sum-index collision and z_ni^2 as an unsquared row average; the exact counterexample only applies after both intended corrections and is not literal."
+      },
+      {
+        "section": "§7.2 Twisted states on the random network; Theorems 7.4–7.5",
+        "pdf_pages": [
+          29,
+          32
+        ],
+        "coverage": "Coordinatewise fixed-q residual via fourth moment/Markov/Borel–Cantelli, finite-horizon metastability, and transfer dependence on Theorem 7.2. (7.18)–(7.19) do not establish the needed small-noise supremum event; Th.7.2/7.5 remain unverified, not false."
+      },
+      {
+        "section": "Numerical illustrations and §8 conclusion",
+        "pdf_pages": [
+          32,
+          33
+        ],
+        "coverage": "Finite simulations and discussion emphasize qualitatively different dynamics despite common coarse graph limits."
+      },
+      {
+        "section": "Acknowledgments and references",
+        "pdf_pages": [
+          33,
+          36
+        ],
+        "coverage": "Support statement and complete bibliography."
+      }
+    ],
+    "rendered_pages_generated": [
+      1,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "rendered_formula_pages_viewed": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      29,
+      30,
+      31
+    ],
+    "rendered_source_pages_viewed": [
+      1,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-015-p13.png": "d93d17dd2c4bc08a3db1ed375dacd1c38110be77dd3ae2e712363694b75602e0",
+      "rendered/PGEL-015-p14.png": "1845824dcc073ae2d25dafd503ce70d41157e97f37fa7f2afcd493166823c863",
+      "rendered/PGEL-015-p15.png": "3d14d9439f07da9eda7a340f309ffd18695dd39a7fc8a90c9ae57e76d7f96d43",
+      "rendered/PGEL-015-p16.png": "fbf792bdad2f28ecd41216f33ffd1a9d62b58f09413b42c4c4b201af42887bfc",
+      "rendered/PGEL-015-p17.png": "ee178d560f81c4a809cd74253fd5d5019cfc158668252fbf3f7838493aae21ee",
+      "rendered/PGEL-015-p18.png": "89a2e2de58c977315925b40e90481702da0164af96ec759e55c0e021c8e5ab41",
+      "rendered/PGEL-015-p19.png": "e8ebe10eddfc9e004749e408a98ebcb660914a8d031fe8a8519aa67fc0827b3c",
+      "rendered/PGEL-015-p20.png": "1b2703c65024972707555e387aeb59f2660520ae2766a87c3a09a78d3101011d",
+      "rendered/PGEL-015-p21.png": "02070eb163ecc089b2984600854a2016501dfbef86a5ffb30b2da59f92ae108a",
+      "rendered/PGEL-015-p22.png": "97750766dc0c543d7bc7920663f2bf2d4d9059446779d4d9423f4f42193800c8",
+      "rendered/PGEL-015-p23.png": "ebea335b51d9d429982e32c5b7b19e9059adff5c388102cf0a2ca6d57a0bc8dc",
+      "rendered/PGEL-015-p24.png": "c7e77059e12f60b3d01928a3f4ec067189064873809c27e32aaf7f9b2317f4b0",
+      "rendered/PGEL-015-p25.png": "ecb2a61ffd874558c84ba78dbab93aa4598be1d7b901bf5ce3e4b4df4660b966",
+      "rendered/PGEL-015-p26.png": "8427e799294eca2c10475388c3f39a4f31d7ff2e9a79ecb9991c848c5cbcf35e",
+      "rendered/PGEL-015-p27.png": "88b4d3d9212b447d4a055dc68335f20b6b34f276e3ac1d735751dcc49bfcc4bd",
+      "rendered/PGEL-015-p28.png": "89261a333163a5237a1f32444a926ef6c8767ec8073cbe369f144fdd95743b3b",
+      "rendered/PGEL-015-p29.png": "6e201fb8e6a2114d91d0788dc9002296aad975c49b814612513bd1897f91ca5c",
+      "rendered/PGEL-015-p30.png": "051d1336d67c83f753a6515317f1fdc8f928d7193a9a52c53455a5592b60e500",
+      "rendered/PGEL-015-p31.png": "f40b8115cdfb5e6d9c162b1a89489a454ef688daa9a9c95c2984b6b1286cd868",
+      "rendered/PGEL-015-p1.png": "3f0693d5b5d178d19447fbc53b4aee9bc726808f6d06cd0981d80f6eff3f65a4"
+    },
+    "uncovered_pages": [],
+    "reader_scope_note": "Complete physical-PDF sequential reading is recorded; rendered pages are supplementary formula/identity checks, not a substitute for page reading.",
+    "reader_batch": "L03_B7",
+    "reader": "L03",
+    "helper_coverage_path": "reading_coverage.json#PGEL-015",
+    "helper_review_reference": "audit/review-index.json#PGEL-015",
+    "helper_review_sha256": "f8dd12084ff613945cdcd29cf5085d8e881578bff10218dd58c5ab5f6bd61cc5",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-015/PGEL-015-p1.png",
+      "sources/renders/PGEL-015/PGEL-015-p13.png",
+      "sources/renders/PGEL-015/PGEL-015-p14.png",
+      "sources/renders/PGEL-015/PGEL-015-p15.png",
+      "sources/renders/PGEL-015/PGEL-015-p16.png",
+      "sources/renders/PGEL-015/PGEL-015-p17.png",
+      "sources/renders/PGEL-015/PGEL-015-p18.png",
+      "sources/renders/PGEL-015/PGEL-015-p19.png",
+      "sources/renders/PGEL-015/PGEL-015-p20.png",
+      "sources/renders/PGEL-015/PGEL-015-p21.png",
+      "sources/renders/PGEL-015/PGEL-015-p22.png",
+      "sources/renders/PGEL-015/PGEL-015-p23.png",
+      "sources/renders/PGEL-015/PGEL-015-p24.png",
+      "sources/renders/PGEL-015/PGEL-015-p25.png",
+      "sources/renders/PGEL-015/PGEL-015-p26.png",
+      "sources/renders/PGEL-015/PGEL-015-p27.png",
+      "sources/renders/PGEL-015/PGEL-015-p28.png",
+      "sources/renders/PGEL-015/PGEL-015-p29.png",
+      "sources/renders/PGEL-015/PGEL-015-p30.png",
+      "sources/renders/PGEL-015/PGEL-015-p31.png"
+    ],
+    "source_card": "sources/cards/PGEL-015.md",
+    "local_pdf": "sources/pdfs/PGEL-015.pdf"
+  },
+  {
+    "source_local_id": "PGEL-016",
+    "title": "When is sync globally stable in sparse networks of identical Kuramoto oscillators?",
+    "pdf_sha256": "5c1bf38a2969f633fe52413329e10d52dea1dadc67165a04e73c4cd92d302471",
+    "pdf_page_count": 23,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      23
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, and §1 Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "coverage": "Identical zero-frequency Kuramoto model, meaning of global stability, graph examples, and claimed algorithmic contribution."
+      },
+      {
+        "section": "§2 Spectra do not tell the full story",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "coverage": "Cospectral cubic examples show that Laplacian/adjacency spectra alone do not determine existence of stable patterns."
+      },
+      {
+        "section": "§3 Example: six-cycle",
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "coverage": "Cycle twist as an electric-network/Laplacian example motivating boundary vectors."
+      },
+      {
+        "section": "§4 Graph-theoretic preliminaries and §5 Kirchhoff laws",
+        "pdf_pages": [
+          6,
+          10
+        ],
+        "coverage": "Adjacency/Laplacian/incidence conventions, edge equations and pseudoinverse, explicit unproved Ansatz 1, boundary/core definitions, and local positive-cosine stability condition. Physical p.9 Eq.(9) gives a rigorous conditional weighted-Laplacian local certificate for an exact equilibrium with strictly positive edge cosines on a connected graph."
+      },
+      {
+        "section": "§6 Where to look for patterns?",
+        "pdf_pages": [
+          10,
+          14
+        ],
+        "coverage": "Planar cut boundaries, long induced paths, cyclic clustering and boundary-vector construction; algorithm steps and p. 14 adjacency-versus-Laplacian notation issue."
+      },
+      {
+        "section": "§7 Stochastic block models with cyclically ordered communities",
+        "pdf_pages": [
+          14,
+          16
+        ],
+        "coverage": "Finite parameter sweeps and sampled pattern-detection frequencies; results are computational rather than probability-limit statements."
+      },
+      {
+        "section": "§8 Path addition and graph modification experiments",
+        "pdf_pages": [
+          16,
+          18
+        ],
+        "coverage": "Finite graph path augmentation and generated ER experiments for destabilizing global synchronization; sample-based scope."
+      },
+      {
+        "section": "§9 Saddle search and §10 Conclusion",
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "coverage": "Boundary-vector interpolation used to seek separating saddles; conclusion recaps algorithm and limitations."
+      },
+      {
+        "section": "Acknowledgment and references",
+        "pdf_pages": [
+          21,
+          23
+        ],
+        "coverage": "Support statement and complete bibliography."
+      }
+    ],
+    "rendered_pages_generated": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "rendered_formula_pages_viewed": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "rendered_source_pages_viewed": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-016-p10.png": "f986b4013bdd4e9ab0cd9a69bf7f0d041137f9febaae71ccf520b4c4c4402e0f",
+      "rendered/PGEL-016-p11.png": "2d7f35cab136fa13c75d46d1b33bb65d135963a0e11ce8d8ef8bc09cabf20ec5",
+      "rendered/PGEL-016-p12.png": "e9013aeefcfa9012f3f105067b9c6c52971c08019470b956e42e7959a29b5b0b",
+      "rendered/PGEL-016-p13.png": "b9b5a02c42594a10e5665c837c711095643b770647e6e7a072e89a1b17efd155",
+      "rendered/PGEL-016-p14.png": "a313b05b344dd47365eedddcaf8a86fd7e9e10c81f6dfa2bdbbbdd9cc5cbab5d",
+      "rendered/PGEL-016-p15.png": "eae5b3a9cf4b973e5a2be535bd30bbdeb5b2d357a6962e039eed8f2bfd0a5992",
+      "rendered/PGEL-016-p16.png": "88e5c851cccf719346b545930a6c2531c7432cccf86a907f780682a97bff3074",
+      "rendered/PGEL-016-p17.png": "36ea378320d37ba3a85c53e34f4ea837d872b98581db15bac0856c685750cd9a",
+      "rendered/PGEL-016-p18.png": "4de6e6ae1081e50cfdd7d307d5e745302e72e51d5c3f1f0d01b23f27dec242b1",
+      "rendered/PGEL-016-p19-check.png": "eb4e9b4f20f0099fabce37d4c98e2cd773f55fce71141cbfdd95c41b8c0f7c3e",
+      "rendered/PGEL-016-p19-reread.png": "eb4e9b4f20f0099fabce37d4c98e2cd773f55fce71141cbfdd95c41b8c0f7c3e",
+      "rendered/PGEL-016-p19.png": "eb4e9b4f20f0099fabce37d4c98e2cd773f55fce71141cbfdd95c41b8c0f7c3e",
+      "rendered/PGEL-016-p20.png": "2d7f247b0f669a5691bb5b1a889d1cc80050d3bd1ae1227d3a27e8e9f9c3396e",
+      "rendered/PGEL-016-p21.png": "8240166707bc6c7c7157dfe1b4ef4dfaac1b303b660a24f25531bc0b138176c0",
+      "rendered/PGEL-016-p22.png": "0540007d70def09b9dea96c94c61686734c496ecc88daa0d0d77599555d7ec90",
+      "rendered/PGEL-016-p23.png": "f73a22b56ad21b58b149981fb7e9f6dc1968600bd03dfccb1c360654abe27f42",
+      "rendered/PGEL-016-p3.png": "609e3cc31cbffc686c8a72739e3aa84eb0c8090f9a52591e1cdeba84e64c63b7",
+      "rendered/PGEL-016-p4.png": "5f29638cae67b14dd6d1c88a310f60469f85b77d4f7c7ab9817add3beee5b773",
+      "rendered/PGEL-016-p5.png": "883fc6232943558877b05ec946e692cdb0a3a6765fff8889ad3991372084a7d9",
+      "rendered/PGEL-016-p6.png": "05500ed89363b5ed2175e1b0bbd14833cad44468c9681f4dd64cc77867f94f77",
+      "rendered/PGEL-016-p7.png": "e9d9321fce1c05749b157b5d8d6d97fd39fe95a8256ffa25f9cdb595f2a436f9",
+      "rendered/PGEL-016-p8.png": "61efd70e59b159d19ff4581c1141d43f15f650abf8e02005ae761f38bb00087e",
+      "rendered/PGEL-016-p9.png": "70b9bd1e80fc1922c1630250f98cd9d2c514603dfa1c3d023d4cdb3bd9de876e"
+    },
+    "uncovered_pages": [],
+    "reader_scope_note": "Complete physical-PDF sequential reading is recorded; rendered pages are supplementary formula/identity checks, not a substitute for page reading.",
+    "reader_batch": "L03_B7",
+    "reader": "L03",
+    "helper_coverage_path": "reading_coverage.json#PGEL-016",
+    "helper_review_reference": "audit/review-index.json#PGEL-016",
+    "helper_review_sha256": "f8dd12084ff613945cdcd29cf5085d8e881578bff10218dd58c5ab5f6bd61cc5",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-016/PGEL-016-p10.png",
+      "sources/renders/PGEL-016/PGEL-016-p11.png",
+      "sources/renders/PGEL-016/PGEL-016-p12.png",
+      "sources/renders/PGEL-016/PGEL-016-p13.png",
+      "sources/renders/PGEL-016/PGEL-016-p14.png",
+      "sources/renders/PGEL-016/PGEL-016-p15.png",
+      "sources/renders/PGEL-016/PGEL-016-p16.png",
+      "sources/renders/PGEL-016/PGEL-016-p17.png",
+      "sources/renders/PGEL-016/PGEL-016-p18.png",
+      "sources/renders/PGEL-016/PGEL-016-p19-check.png",
+      "sources/renders/PGEL-016/PGEL-016-p19-reread.png",
+      "sources/renders/PGEL-016/PGEL-016-p19.png",
+      "sources/renders/PGEL-016/PGEL-016-p20.png",
+      "sources/renders/PGEL-016/PGEL-016-p21.png",
+      "sources/renders/PGEL-016/PGEL-016-p22.png",
+      "sources/renders/PGEL-016/PGEL-016-p23.png",
+      "sources/renders/PGEL-016/PGEL-016-p3.png",
+      "sources/renders/PGEL-016/PGEL-016-p4.png",
+      "sources/renders/PGEL-016/PGEL-016-p5.png",
+      "sources/renders/PGEL-016/PGEL-016-p6.png",
+      "sources/renders/PGEL-016/PGEL-016-p7.png",
+      "sources/renders/PGEL-016/PGEL-016-p8.png",
+      "sources/renders/PGEL-016/PGEL-016-p9.png"
+    ],
+    "source_card": "sources/cards/PGEL-016.md",
+    "local_pdf": "sources/pdfs/PGEL-016.pdf"
+  },
+  {
+    "source_local_id": "PGEL-020",
+    "title": "Topological States in the Kuramoto Model",
+    "pdf_sha256": "a544832a2e3b8575fe0acbd798751b3e94fdc5051dc2681186e2f6625ed61425",
+    "pdf_page_count": 10,
+    "full_pdf_read": true,
+    "read_pdf_pages": [
+      1,
+      10
+    ],
+    "sections": [
+      {
+        "section": "Title, abstract, and §1 Introduction",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "coverage": "Cycle winding numbers as topological state labels and motivation for counting steady states under graph-size-preserving subdivision."
+      },
+      {
+        "section": "§2 Definitions and main results: Theorems 1–3",
+        "pdf_pages": [
+          2,
+          5
+        ],
+        "coverage": "Incidence/cycle coordinates, inverse-sine branch intervals, admissible polytope A, W(A), fixed-point/lattice bijection, face count and subdivision asymptotic. General mixed-branch W injectivity / Th.1 uniqueness and unrestricted weighted Th.2 facet count are isolated as contradicted; cycle-winding existence remains with alpha fibers."
+      },
+      {
+        "section": "§2 Theorems 4–6 and §3 Graphs with one cycle",
+        "pdf_pages": [
+          6,
+          8
+        ],
+        "coverage": "Sign-matched interval volume maximum and stable-state lower bound, sufficient single-cycle instability test, two-cycle formula with printed integral inconsistency, and illustrative Monte Carlo discussion. Th.4 volume statement is source-reported but its general proof is unverified; closed-endpoint stability is separately refuted. Th.5 uses local unnormalized W on p.6; Th.6 quarantine retained."
+      },
+      {
+        "section": "§6 Appendix proofs",
+        "pdf_pages": [
+          9,
+          10
+        ],
+        "coverage": "Detailed proof of Theorem 1 through cycle-space and integer winding coordinates, induction for Theorem 2, rescaling/Riemann sums for Theorem 3, and determinant argument for Theorem 4; Theorem 6 proof derivative normalization reviewed on p. 10."
+      },
+      {
+        "section": "References",
+        "pdf_pages": [
+          10,
+          10
+        ],
+        "coverage": "Complete reference list on the final physical page."
+      }
+    ],
+    "rendered_pages_generated": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "rendered_formula_pages_viewed": [
+      3,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "rendered_source_pages_viewed": [
+      3,
+      5,
+      6,
+      7,
+      9,
+      10
+    ],
+    "rendered_file_sha256": {
+      "rendered/PGEL-020-p1.png": "3654dab18bb69b56e485620ae0d871dce06c8822686b9470eaa3405d48536203",
+      "rendered/PGEL-020-p10.png": "08a176a5014914bbdb65f09c4d88cb429e11b03b0392dfa2cab4d26d46ecd3da",
+      "rendered/PGEL-020-p2.png": "0f021d6660ff9bb8b6a925e86a569f359c07312fed9a24eff0f9c5294e2fd0cc",
+      "rendered/PGEL-020-p3.png": "ccd7b731718d83d870dc7e09db6e19eb8549dfe79a78c1eef0c33ea31af404d4",
+      "rendered/PGEL-020-p4.png": "e6db1ce391f7888bae8ade572eaec1189b473a41a7516e0285a03d87e6bdc03f",
+      "rendered/PGEL-020-p5.png": "b4b7175c28f2359f88d6eb4c8896f9f719f2ac9cb5aec6fd87d4304964899328",
+      "rendered/PGEL-020-p6.png": "615a761859120907b163e0b98446ef63c911f1fa778feb9dad05eb4315a98bb2",
+      "rendered/PGEL-020-p7.png": "4f3e59640340478f341692f3728d86da20274764d87ece77698383be8a7bb36b",
+      "rendered/PGEL-020-p8.png": "0320ede19a8ea14ce8e393c2451ffbbcdac4721bda6509735600933c574c1d95",
+      "rendered/PGEL-020-p9.png": "5235bc74b91938687934e7316acbfb5b334acf323700e0f34d045300d2410dcf"
+    },
+    "uncovered_pages": [],
+    "reader_scope_note": "Complete physical-PDF sequential reading is recorded; rendered pages are supplementary formula/identity checks, not a substitute for page reading.",
+    "source_issues": [
+      {
+        "physical_pdf_pages": [
+          3,
+          9
+        ],
+        "finding": "Arbitrary sine-injective mixed branches do not imply W injectivity or one-to-one fixed-point counting; exact C4 example has W(alpha)=1 for a continuum of distinct rotation orbits. Preserve the compatible-frequency existence condition and alpha-fibers."
+      },
+      {
+        "physical_pdf_pages": [
+          4,
+          9
+        ],
+        "finding": "Unrestricted weighted Th.2 facet formula fails on bridgeless K2,3 with path weights 1,1,3: A=[-1,1]^2 has 4 facets; smoothing leaves 3 edges, literal formula predicts 6."
+      },
+      {
+        "physical_pdf_pages": [
+          6,
+          10
+        ],
+        "finding": "Th.4 volume maximum is not adjudicated false, but its unrestricted proof uses the general injectivity claim and is unverified. Closed endpoint local stability is not certified; strict gamma_e cos(phi_e)>0 plus connectedness gives the ordinary local certificate."
+      },
+      {
+        "physical_pdf_pages": [
+          6
+        ],
+        "finding": "Th.5 locally defines unnormalized W=sum arcsin branch terms; it omits the p.3 factor 1/(2pi)."
+      },
+      {
+        "physical_pdf_pages": [
+          7,
+          10
+        ],
+        "finding": "Previously recorded Th.6 integral/derivative-scale issues remain quarantined."
+      }
+    ],
+    "reader_batch": "L03_B7",
+    "reader": "L03",
+    "helper_coverage_path": "reading_coverage.json#PGEL-020",
+    "helper_review_reference": "audit/review-index.json#PGEL-020",
+    "helper_review_sha256": "f8dd12084ff613945cdcd29cf5085d8e881578bff10218dd58c5ab5f6bd61cc5",
+    "mother_review_status": "pending_hash_binding",
+    "mother_quota_increment": 0,
+    "rendered_files": [
+      "sources/renders/PGEL-020/PGEL-020-p1.png",
+      "sources/renders/PGEL-020/PGEL-020-p10.png",
+      "sources/renders/PGEL-020/PGEL-020-p2.png",
+      "sources/renders/PGEL-020/PGEL-020-p3.png",
+      "sources/renders/PGEL-020/PGEL-020-p4.png",
+      "sources/renders/PGEL-020/PGEL-020-p5.png",
+      "sources/renders/PGEL-020/PGEL-020-p6.png",
+      "sources/renders/PGEL-020/PGEL-020-p7.png",
+      "sources/renders/PGEL-020/PGEL-020-p8.png",
+      "sources/renders/PGEL-020/PGEL-020-p9.png"
+    ],
+    "source_card": "sources/cards/PGEL-020.md",
+    "local_pdf": "sources/pdfs/PGEL-020.pdf"
+  }
+]

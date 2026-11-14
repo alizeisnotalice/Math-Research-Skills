@@ -1,0 +1,98 @@
+[
+  {
+    "problem_id": "A040",
+    "tool": "finite reversible-chain spectral-gap variational analysis with fixed heat-bath clock",
+    "role": "direct",
+    "needed_lemma": "Translate the random-site discrete kernel P=(1/n)ΣK_v to the chosen continuous-time generator, then identify or bound its second eigenvalue / Dirichlet quotient while varying one J_uv. Nacu's audited result establishes the zero-field cycle case. Kargin states a uniform-field homogeneous complete-graph theorem, but the reflection step in the proof is audited here only at H=0; no claim is made for its H≠0 case.",
+    "source_local_ids": [
+      "W04S001",
+      "W04S002",
+      "W04S003",
+      "W04S004"
+    ],
+    "unproved_interface": "No proof or certified arbitrary-finite-graph counterexample for edgewise monotonicity is obtained. Nacu varies arbitrary edges only on a zero-field cycle; Kargin's source states a uniform-field theorem but the checked proof's reflection f_k=-f_{n-k} is used only at H=0 in this evidence pack. That limits the audited application; it does not refute the source theorem. Kargin varies the common complete-graph parameter, not one edge. Clock normalization must agree."
+  },
+  {
+    "problem_id": "A040",
+    "tool": "equilibrium correlation inequalities (GKS / FKG / Holley)",
+    "role": "auxiliary",
+    "needed_lemma": "Use FKG for increasing observables under a positive log-supermodular measure on a finite distributive lattice; use GKS only under the version-specific coupling/field hypotheses; use Holley only after stating its cross-condition and order direction.",
+    "source_local_ids": [
+      "W04S006",
+      "W04S007",
+      "W04S008",
+      "W04S009",
+      "W04S010",
+      "W04S016"
+    ],
+    "unproved_interface": "These inequalities control equilibrium correlations / stochastic order. No cited result transfers them to finite-time expectations or to the derivative/order of the spectral gap."
+  },
+  {
+    "problem_id": "A040",
+    "tool": "finite-state heat-bath kernel enumeration and eigenvalue search",
+    "role": "auxiliary",
+    "needed_lemma": "Construct the exact random-site heat-bath kernel from conditionals on {±1}^V, symmetrize by stationary weights, then scan one edge while holding the others fixed; use high precision around candidate branches.",
+    "source_local_ids": [
+      "W04S001",
+      "W04S005"
+    ],
+    "unproved_interface": "Saved MATLAB evidence covers all connected labelled graphs for n=2,3,4 and a seeded sample for n=5, on a finite coupling grid. Double-precision gap scans and a pointwise symbolic derivative check do not prove an all-graphs theorem."
+  },
+  {
+    "problem_id": "A040",
+    "tool": "comparison / path-coupling / high-temperature gap bounds",
+    "role": "auxiliary",
+    "needed_lemma": "Use variational comparison, path coupling, influence-matrix criteria or spectral-independence results only with their own schedule, graph, boundary, parameter-regime and norm hypotheses stated.",
+    "source_local_ids": [
+      "W04S011",
+      "W04S012",
+      "W04S013",
+      "W04S014",
+      "W04S019",
+      "W04S020",
+      "W04S021",
+      "W04S022",
+      "W04S023",
+      "W04S024",
+      "W04S027",
+      "W04S028",
+      "W04S029",
+      "W04S030",
+      "W04S031"
+    ],
+    "unproved_interface": "These yield mixing or gap bounds in specified settings, not parameterwise monotonicity of the arbitrary-graph Ising gap. Diaconis–Stroock, Aldous, Chen–Wang, Wübker and Dyer et al. supply fixed-chain spectral, hitting-time, Cheeger and comparison tools; their endpoint/parity, clock and form assumptions do not establish edgewise Ising-gap monotonicity."
+  },
+  {
+    "problem_id": "A040",
+    "tool": "weak-dependence entropy tensorization and fixed-chain concentration",
+    "role": "auxiliary",
+    "needed_lemma": "For a finite-spin Gibbs measure, verify the all-partial-conditionals lower bound β̃(μ)≥α₁ and the interdependence-matrix operator-norm bound ‖J‖₂→₂≤1−α₂ before applying Sambale–Sinulis Theorems 2.2/4.1; for a fixed stationary chain use Paulin's theorem matching the reversible gap, absolute gap or pseudo spectral gap and the stated discrete-time clock.",
+    "source_local_ids": [
+      "W04S032",
+      "W04S033"
+    ],
+    "unproved_interface": "These results yield sufficient entropy, mixing or concentration estimates for a fixed chain/family under their hypotheses. Sambale–Sinulis does not state a blanket Ising theorem; Paulin does not compare two chains as an edge coupling varies. Neither establishes A040 edgewise spectral-gap monotonicity. A heat-bath time change must be stated explicitly."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "finite-state order-statistic Markov-kernel stationary-law reduction (cross-tool auxiliary only)",
+    "role": "auxiliary",
+    "needed_lemma": "For each fixed interior simplex point θ and finite metric with the stated distinct-distance rule, construct K_{θ,j,k} and solve πK_{θ,j,k}=π. Aldous–Feng Theorem 1 proves uniqueness and gives a fixed-θ TV coupling rate; finite-state transition entries are explicit degree-k polynomials in θ, so stationary-law elimination is an exact finite-dimensional reduction (the algebraic/rational expression is a derived step, not the source theorem).",
+    "source_local_ids": [
+      "W04S025",
+      "W04S026"
+    ],
+    "unproved_interface": "The target is Lebesgue-a.e. convergence of iterates θ↦π_{j,k}(θ) on the simplex (Aldous–Cruz–Feng II, Conjecture 5), not convergence of the inner Markov chain at fixed θ. No contraction, basin-measure, or exclusion-of-other-attractors argument is supplied by the TV bound. This problem should be routed to a distribution-map/nonlinear-dynamics tool; the present W04 Ising spectral-gap skill contributes only the inner stationary-kernel reduction."
+  },
+  {
+    "problem_id": "A122",
+    "tool": "interval invariant-measure analysis for the order-statistic stationary map (cross-tool partial result)",
+    "role": "auxiliary",
+    "needed_lemma": "Aldous–Feng Theorem 4 proves that on [0,1] the only π_{2,2}-invariant laws are point masses or equal two-point laws; Theorem 3 identifies the invariant laws for π_{1,2} and π_{2,2}. Its proof uses endpoint-support reduction, Lemma 5's distribution-function inequality, and Lemma 6's endpoint-mass inequalities. Aldous–Cruz–Feng II §7.3 / Theorem 9 restates this and gives a density-only exclusion for some (j,k).",
+    "source_local_ids": [
+      "W04S025",
+      "W04S026"
+    ],
+    "unproved_interface": "Formal120 asks for every k≥2 and 1≤j≤k whether any full-support probability measure on the interval is fixed. Theorem 4 covers k=2 only, while the §7.3 extension is density-only under a parameter condition and cannot rule out singular full-support laws. This is invariant-measure/nonlinear-map analysis, outside W04's Ising gap and mixing scope; route it to a distribution-map/fixed-point tool rather than treating the k=2 result as general."
+  }
+]

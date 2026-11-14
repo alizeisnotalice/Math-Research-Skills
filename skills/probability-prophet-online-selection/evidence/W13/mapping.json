@@ -1,0 +1,220 @@
+[
+  {
+    "problem_id": "A001",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For fixed k>1, compare the worst-case finite-n IID adaptive prophet ratio gamma_(k,n) to its n→∞ value, proving lim_n gamma_(k,n)=inf_n gamma_(k,n) without assuming or requiring termwise monotonicity.",
+    "source_local_ids": [
+      "M0037",
+      "M0038"
+    ],
+    "unproved_interface": "M0037 proves the equality only for k=1 and explicitly leaves k>1 open; M0038 proves a large-n lower bound with an O(k log^2(n)/n) loss but leaves the infimum/limit equality open. Need a uniform all-n comparison controlling distributions that can vary with n."
+  },
+  {
+    "problem_id": "A001",
+    "tool": "probability-prophet-online-selection",
+    "role": "auxiliary",
+    "needed_lemma": "Use the Hill–Kertz comparison/ODE and optimal stopping background only after matching the exact finite-horizon IID and offline top-k benchmarks.",
+    "source_local_ids": [
+      "M0034",
+      "M0035",
+      "M0036",
+      "M0043",
+      "M0044",
+      "M0046",
+      "M0073",
+      "M0075",
+      "M0048",
+      "M0049",
+      "M0050"
+    ],
+    "unproved_interface": "M0034 now supplies its complete finite-n IID one-choice comparison; M0035 remains unavailable. M0036 is a separate one-slot IID result. M0048 uses max-of-k mortal selections, M0049 imposes matroid feasibility, and M0050 assumes only sample-level distribution information; none settles the sum-of-top-k IID adaptive finite-n infimum/limit equality. M0073 is a complete 155-page acquired book, but only Chapters 1 and 3 were read by W13; these are contextual sources and do not provide the required uniformity over distributions varying with n."
+  },
+  {
+    "problem_id": "A002",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For independent nonnegative values in a uniformly random order and capacity k, determine whether a static threshold satisfying P(D_t≥k)=P(Pois(k)≥k), D_t=Σ_i 1{V_i>t}, guarantees gamma_k=1−e^(−k)k^k/k! against the offline top-k prophet.",
+    "source_local_ids": [
+      "M0062"
+    ],
+    "unproved_interface": "M0062 proves the gamma_k guarantee for expected utilization calibration, and treats E[D_t]=k separately; §5.2 conjectures the stockout-probability calibration only for k>1. Need prove it or find an admissible counterexample. At atoms preserve the source's independent tie randomization."
+  },
+  {
+    "problem_id": "A002",
+    "tool": "probability-prophet-online-selection",
+    "role": "auxiliary",
+    "needed_lemma": "Use random-order/sampling and order-selection sources for carefully delimited comparisons; do not transfer their model or benchmark implicitly.",
+    "source_local_ids": [
+      "M0036",
+      "M0058",
+      "S007",
+      "S008",
+      "S012",
+      "M0050"
+    ],
+    "unproved_interface": "These sources do not prove the k>1 stockout-calibration conjecture. Their order, information, policy, feasibility, or benchmark assumptions differ; in particular M0050 uses samples and an order adversary that sees realized values, and is not the full-information uniformly random-order stockout model."
+  },
+  {
+    "problem_id": "A005",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For independent known requests in a unit-capacity, unit-density stochastic knapsack with indivisible arrivals, close the optimal online guarantee relative to the specified ex-ante/flow LP benchmark.",
+    "source_local_ids": [
+      "M0060"
+    ],
+    "unproved_interface": "M0060 gives a 0.3557 algorithmic lower guarantee and an upper bound (1−e^(−2))/2≈0.4323 against the same LP benchmark. The gap remains; neither endpoint is the solved exact ratio."
+  },
+  {
+    "problem_id": "A005",
+    "tool": "probability-prophet-online-selection",
+    "role": "auxiliary",
+    "needed_lemma": "Keep LP benchmark semantics, unit-density assumptions, and integer offline benchmark separate when comparing threshold or OCRS techniques.",
+    "source_local_ids": [
+      "M0042",
+      "M0047",
+      "M0067",
+      "M0078",
+      "S004",
+      "S005"
+    ],
+    "unproved_interface": "Semi-infinite duality or another knapsack model alone does not close the unit-density LP gap; S004 uses an integral offline comparator and therefore is not numerically interchangeable."
+  },
+  {
+    "problem_id": "B041",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For fixed k>1 and independent nonnegative values in a fixed adversarial arrival order, identify the optimal online/offline top-k ratio and its assumptions.",
+    "source_local_ids": [
+      "M0060",
+      "M0067",
+      "M0055",
+      "M0058"
+    ],
+    "unproved_interface": "Distinguish IID from non-IID, adversarial fixed order from random order, adaptive from static policies, and offline top-k from ex-ante LP. The curated batch does not yet settle the exact adversarial-order multi-unit ratio."
+  },
+  {
+    "problem_id": "B042",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "Determine whether random-order multi-unit prophet policies for k>1 can beat the static-threshold guarantee gamma_k, or establish a matching upper bound.",
+    "source_local_ids": [
+      "M0062",
+      "M0058",
+      "S007",
+      "S008",
+      "S012"
+    ],
+    "unproved_interface": "M0062 establishes the static-threshold class value only. Order-selection, prophet-secretary, sample-based, and static-threshold classes must remain distinct."
+  },
+  {
+    "problem_id": "B043",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "In the non-adaptive adversarial-order model specified by the lecture notes, test equivalence of an ex-ante prophet guarantee and OCRS selectability with the same factor.",
+    "source_local_ids": [
+      "M0052",
+      "M0053",
+      "M0064",
+      "M0066",
+      "S001",
+      "S009",
+      "S010",
+      "S011",
+      "S013",
+      "S014",
+      "S018"
+    ],
+    "unproved_interface": "OCRS definitions differ by arrival order and adversary power; preserve the exact non-adaptive fixed-order scope and ex-ante benchmark. Source cards for this batch are still pending except where stated in the inventory."
+  },
+  {
+    "problem_id": "B044",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For network revenue/resource allocation with at most L resource classes per request, obtain a finite-capacity guarantee that connects to the large-capacity asymptotic regime.",
+    "source_local_ids": [
+      "S005",
+      "S006",
+      "S016",
+      "S017"
+    ],
+    "unproved_interface": "Current OCRS results may impose batch structure, negative correlation, stationary policies, divisible resources, or a different benchmark. Need match the dossier's L-sparse request model before applying a factor."
+  },
+  {
+    "problem_id": "B045",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For independent arrivals using at most L resources per request under the stated LP relaxation, derive a positive guarantee depending only on L for general L-sparse stochastic knapsack.",
+    "source_local_ids": [
+      "M0060",
+      "S004",
+      "S005",
+      "S017"
+    ],
+    "unproved_interface": "M0060's unit-density special case and S004's unit-density/integral-comparator setting do not establish the general L-resource LP guarantee."
+  },
+  {
+    "problem_id": "B046",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "Test whether the matroid random-order 1−1/e guarantee extends to the abstract online-resource-allocation framework specified in the source lecture notes.",
+    "source_local_ids": [
+      "M0052",
+      "M0053",
+      "M0055",
+      "M0061",
+      "M0064",
+      "M0066",
+      "S001",
+      "S005",
+      "S006",
+      "S009",
+      "S011",
+      "S013",
+      "S014",
+      "S016",
+      "S018"
+    ],
+    "unproved_interface": "Matroid, k-uniform, matchoid, network, and abstract resource feasibility are not interchangeable; state ex-ante feasibility, correlation, and arrival-order hypotheses for every theorem."
+  },
+  {
+    "problem_id": "B048",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "In the Poisson-arrival/exponential-abandonment dynamic matching model, prove or refute a 1/2 long-run reward-rate guarantee for a suitable deterministic greedy priority rule with arbitrary types, heterogeneous abandonment rates, and nonnegative matching rewards.",
+    "source_local_ids": [
+      "S002"
+    ],
+    "unproved_interface": "S002 proves the guarantee with homogeneous departure rates, bipartite side-wise homogeneous departures, and for two types; numerical evidence is not proof in the general heterogeneous case."
+  },
+  {
+    "problem_id": "B049",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For n independent uniform requests and n+s_n independent uniform servers on the line, with s_n=o(n), determine the asymptotic expected total cost of nearest-available-server greedy matching across the excess transition.",
+    "source_local_ids": [
+      "S003"
+    ],
+    "unproved_interface": "S003 explicitly identifies the fully random sublinear-excess regime as open. Preserve one-dimensional uniform model, independence, and total-cost metric; do not substitute the semi-random or linear-excess cases."
+  },
+  {
+    "problem_id": "B052",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For independent known distributions, single-item online selection with cancellation cost f times each canceled reward and offline prophet maximum, determine the optimal ratio for 0<f<1.",
+    "source_local_ids": [
+      "M0065"
+    ],
+    "unproved_interface": "Current arXiv v3 (2026-10-12) resolves this as an exact implicit ODE characterization and matching policy/lower-bound instance; explicit closed forms are available only on specified subranges. Check version and cost/net-reward convention before using."
+  },
+  {
+    "problem_id": "B058",
+    "tool": "probability-prophet-online-selection",
+    "role": "direct",
+    "needed_lemma": "For independent nonnegative coordinates, a general monotone norm objective, and a prefix-closed probe-sequence family F with maximum feasible length r, close the adaptivity-gap factor O(log r log n/log log n) versus the best known Ω(log n/log log n) lower bound.",
+    "source_local_ids": [
+      "S019"
+    ],
+    "unproved_interface": "S019 Corollary 6.5 proves the stated upper bound for 2≤r≤n. Section 7 identifies the remaining O(log r) gap and points to nonbinary XOS weight vectors; the lower-bound proof is cited but was not read in this partial pass. Prove a matching general-monotone-norm lower bound with r-dependence, or improve the upper bound to remove log r. The binary-XOS Bernoulli Θ(log n/log log n) and monotone-symmetric-norm O(1) subcases do not settle this general model."
+  }
+]

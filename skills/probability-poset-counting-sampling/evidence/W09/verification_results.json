@@ -1,0 +1,82 @@
+{
+  "2": {
+    "brute_counts_k_0_to_2": {
+      "0": 0,
+      "1": 16,
+      "2": 8
+    },
+    "brute_pair_distance_counts_given_exactly_2": {
+      "2": 8
+    },
+    "dp_counts_k_0_to_2": {
+      "0": 0,
+      "1": 16,
+      "2": 8
+    },
+    "dp_matches_brute": true,
+    "dp_states": 37,
+    "n_factorial": 24
+  },
+  "3": {
+    "brute_counts_k_0_to_2": {
+      "0": 0,
+      "1": 29568,
+      "2": 143808
+    },
+    "brute_pair_distance_counts_given_exactly_2": {
+      "2": 63552,
+      "3": 64512,
+      "4": 15744
+    },
+    "dp_counts_k_0_to_2": {
+      "0": 0,
+      "1": 29568,
+      "2": 143808
+    },
+    "dp_matches_brute": true,
+    "dp_states": 902,
+    "n_factorial": 362880
+  },
+  "4": {
+    "dp_counts_k_0_to_2": {
+      "0": 0,
+      "1": 35704394880,
+      "2": 779299174080
+    },
+    "dp_states": 74217,
+    "n_factorial": 20922789888000
+  },
+  "M0003_beta_segmentation_identity": {
+    "beta_source_form_split": 0.5623351446188083,
+    "beta_source_form_whole": 0.5623351446188083,
+    "check": "constant arm proportions z=(1/4,3/4), one unit interval versus two half intervals",
+    "conclusion_scope": "Numerical identity check for this partition example; the general equivalence follows algebraically from sum_j z_j=1.",
+    "expected_spurious_increment_log_2": 0.6931471805599453,
+    "omission_increases_split_value_by": 0.6931471805599452,
+    "omitting_delta_t_log_delta_t_split": 1.2554823251787535,
+    "omitting_delta_t_log_delta_t_whole": 0.5623351446188083,
+    "source": "Burdzy and Pal, Floodings of metric graphs, PDF p. 8, equations (3.3)\u2013(3.4)",
+    "source_form_invariant_within_floating_error": true,
+    "source_pdf_sha256": "1eb943f6a5369ad3d2619f58b313549572da3333a119bf5007073f19dcbe910c"
+  },
+  "exact_sampler_demo": {
+    "descending_order_vertices_0_based": [
+      2,
+      0,
+      1,
+      4,
+      7,
+      3,
+      6,
+      5,
+      8
+    ],
+    "exact_target_total": 143808,
+    "peak_count": 2,
+    "peak_vertices_0_based": [
+      2,
+      0
+    ],
+    "seed": 20261113
+  }
+}

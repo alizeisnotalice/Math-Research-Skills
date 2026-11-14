@@ -1,0 +1,172 @@
+{
+  "worker": "W19",
+  "skill": "probability-optimization-certificates",
+  "date": "2026-11-14",
+  "stage": "L01_B2 six-source read integrated; final R08 point corrections recorded; new source review status remains pending.",
+  "inventory": {
+    "total_rows": 41,
+    "selected_papers_and_books": 33,
+    "software_tracked_separately": 8,
+    "selected_local_pdfs_present": 30,
+    "selected_local_pdfs_missing": 3
+  },
+  "reading_status_counts": {
+    "fulltext_read": 29,
+    "not_read": 3,
+    "selected_chapters_read": 1
+  },
+  "cards_written": [
+    "M0345",
+    "M0349",
+    "M0359",
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "S025",
+    "S026",
+    "S021",
+    "S022",
+    "S023",
+    "S024",
+    "S027",
+    "S016",
+    "S017",
+    "S018",
+    "S019",
+    "S020"
+  ],
+  "review_status": "pending for all newly integrated sources; L01_B2 submitted for independent review; no review files edited.",
+  "known_access_gaps": [
+    "M0350 full book not locally available",
+    "M0353 full book not locally available",
+    "M0361 full book not locally available"
+  ],
+  "ownership_notes": [
+    "M0349 is in D01 formal handoff at downloads/D01/papers; L01_B2 completed and hashed the full physical pp.1–163 read. ",
+    "M0359 uses the complete official 730-page author-linked book at evidence/fulltexts/M0359.pdf (SHA-256 recorded on its source row); do not substitute the earlier 714-page staging copy.",
+    "D01 owns acquisition records; this W19 update changes only the W19 reader ledger/card and does not modify D01 files.",
+    "W13 read S002, S004, S005, S006 and S009 in full from existing Math-Research PDFs; page coverage and checksums are recorded in evidence/W19/reading_coverage.json. No duplicate downloads were made.",
+    "L09_batch1 full reads of S003/S007/S008/S010/S011 were hash/page-count checked and integrated; their source rows/cards/coverage identify reader L09. The batch checks four exact-rational examples; no duplicate PDFs were downloaded.",
+    "L13_batch1 full reads of S012/S014/S015 were hash/page-count checked and integrated. Exact Fraction validation covers S014 exponent bookkeeping and S015 DNN bounds only; theorem proofs remain source-based.",
+    "S012 Theorem 1.1 display/proof interface is explicitly flagged in its card: the displayed assumptions omit compactness while the proof route uses compactness through Theorem 3.3 and f_min/f_max; preserve this for independent review.",
+    "S014 Theorem 35 exact FRF is κ ε + κ sqrt(ε ||x||); the radical covers the product ε||x||, confirmed on rendered original pages."
+  ],
+  "remaining_work": [
+    "Continue the selected-source queue for any additional sources assigned by the coordinator; the six local PDFs in L01_B2 are fully read.",
+    "Complete authorized full-text access for M0350, M0353 and M0361; M0353 still has only an 18-page article complement, not the complete book.",
+    "Independent review of every source/card/skill remains pending."
+  ],
+  "exact_math_probe": {
+    "script": "evidence/W19/exact_lp_certificate_probe.py",
+    "output": "evidence/W19/exact_lp_certificate_probe.out",
+    "method": "Python fractions.Fraction exact rational arithmetic; checks primal/dual feasibility, zero gap, and rejection of an invalid dual point."
+  },
+  "recent_R08_corrections": {
+    "S005": "Original PDF SHA-256 checked; physical p. 15 rendered and visually checked. Lemma 3.5 states L=lim_{delta->infinity} omega(delta); omega is defined at p. 13 and is nonincreasing. S/L and the strong-duality attainment distinction are explicit.",
+    "S006": "U=span(a_1,...,a_n,b); exact pricing is restricted to feasible b+d directions and the source-provided local epsilon interval.",
+    "S009": "Original physical p.14 rendered and visually checked. Section 3 Theorem 2 states 0<q≤(t−1)M_t^(1/(t−1))/t for its first branch and q>threshold for the second; q=0 is outside this theorem. R_+ support and global dual feasibility remain explicit.",
+    "S005_formula_render": "evidence/W19/rendered/S005-p15.png",
+    "S009_formula_render": "evidence/W19/rendered/S009-p14.png; physical p.14 visually confirms the branch condition 0<q≤threshold and the strict complementary branch q>threshold.",
+    "M0349_pointwise_infimum_render": "evidence/W19/rendered/M0349-p109.png; physical p.109 visually confirms the printed hypothesis supplies a known primal-feasible tuple and spectral ceilings for that tuple.",
+    "S003": "Rendered original PDF physical pp.5–6. Theorem 1.2(i) and 1.3(i) characterize b in the closure of the image (approximate solvability); items (ii) characterize exact image membership using one uniform C. Mother and batch cards plus coverage summaries now preserve the separate branches. Awaiting R08 rereview.",
+    "S003_formula_render": "evidence/W19/reader_batches/L09_batch1/rendered/S003-p5.png and S003-p6.png",
+    "S003_scope_rereview": "Rendered original PDF pp.5–6. Closure and exact-image branches remain separate; added a derived ell2 diagonal-image counterexample and exact finite truncation arithmetic.",
+    "S010_degenerate_variance": "Rendered original p.13 proof says sigma>0; p.14 Proposition 1 formula is recorded for positive variance. sigma^2=0 is isolated as delta_mu: conditional mean mu for t<=mu, undefined event for t>mu.",
+    "S011_noncompact_Proposition1": "R03/R08 neutral reading verified against original pages: §3 physical p.6 scopes algorithm and Proposition 1 discussion to compact basic semialgebraic sets; Proposition 1 local display does not restate that standing condition. Example 1 on K=R shows noncompact moment-cone nonclosedness and limits unconditional extension, not a counterexample to the compact-scoped result. Example 3 explicitly reuses Example 1’s five-dimensional y with g=0 and concerns failure of Corollary 2 without Archimedeanity. Physical p.17 lists noncompact extension as future work.",
+    "S015_locator_hash": "Complete 21-page PDF SHA-256 is 552143febc99a7463ceb8f027e95a62140b18e5ac8c9d0b0aa2f389bdffdd56e. Proposition 2 statement p.3; Appendix A Proposition 23 proof pp.19–20; Appendix B Example 2/Proposition 24 tightness pp.20–21.",
+    "verification_files": "evidence/W19/reader_batches/L09_batch1/computations/verify_R08_corrections.py; verify_S010_degenerate_variance.py",
+    "S003_Theorem1_5_approximate_scope": "Rendered original physical p.8: Theorem 1.5(i) assumes b∈cl A(P_r) and gives Pε approximate minimizer plus unique Dε minimizer for every ε>0; part (ii) assumes exact b∈A(P_r), with reconstruction only when D0 attains.",
+    "S021_Example5_4_pairing": "Rendered arXiv v4 physical p.20; verified §2.1 normalized power-mean convention and all five functional basis values. Exact Fraction substitution of the printed coefficients gives ell(f)=13/400, not the asserted 0. Springer DOI full-text HTML (Example 5.4, article lines 695–714) retains the same data. The PSD blocks separately check out, but this ell does not certify boundary membership with a nonzero pairing. Classified narrowly as a source-local printed arithmetic inconsistency; it does not alone disprove Theorem 5.5, which is not independently reproved here. See S021 card and L13_batch2 exact_checks.py/output; review pending.",
+    "S018_measure_scope": "PDF p.4 distinguishes arbitrary finite measures on compact K from the cited noncompact moment-growth condition; p.5 gives the compact simplex alternative for homogeneous orthant forms. Card, mother coverage, and skill method now preserve this distinction.",
+    "S019_finite_convergence": "Rendered physical p.8 and corrected proof chain: (3.12) establishes Archimedeanity only; finite convergence is imported from [38, Thm 3.3] under its KKT polynomial multiplier and critical-set assumptions, then transferred by (3.11). External theorem statement consulted; its full proof not independently audited.",
+    "M0349_Theorem14_2_and_scope": "Rendered physical pp.109–110: all d_j≥0 makes every residual PSD, so the actual dual-feasible y gives p*≥b^T y by weak duality. Negative residual corrections still require uniform/optimal-approximation spectral ceilings; Eq. (14.8) infimum domain remains unspecified. Theorem 16.1 Hilbert/Riesz scope and p.152 rendered-reading evidence are recorded.",
+    "S016_S020_metadata": "Preserved S016 margin stamp 28 Oct 2023 separately from title-page February 28 / Revised October 31, 2023; corrected §4.2 coverage to physical p.18–20. Preserved S020 margin stamp 8 Jun 2014 separately from title-page 16 Aug 2018 and restricted Lemma 3.5 uniqueness to minimal-zero supports.",
+    "mapping_and_sourceguide": "Canonical mapping tool id is probability-optimization-certificates. Unread M0350/M0353/M0361 are candidate_source_local_ids, not read-source evidence. S019 guide lists all three authors."
+  },
+  "reader_batches": {
+    "L09_batch1": {
+      "sources": [
+        "S003",
+        "S007",
+        "S008",
+        "S010",
+        "S011"
+      ],
+      "integration": "integrated",
+      "review_status": "pending",
+      "pdf_hash_and_page_check": "passed"
+    },
+    "L13_batch1": {
+      "sources": [
+        "S012",
+        "S014",
+        "S015"
+      ],
+      "integration": "integrated",
+      "review_status": "pending",
+      "pdf_hash_and_page_check": "passed"
+    },
+    "L13_batch2": {
+      "sources": [
+        "S013",
+        "S021",
+        "S022",
+        "S023",
+        "S024",
+        "S027"
+      ],
+      "integration": "integrated",
+      "review_status": "pending",
+      "pdf_hash_and_page_check": "passed",
+      "reading_scope": "Full text physical pages 1–22, 1–27, 1–44, 1–21, 1–8, and 1–18 respectively; S013 completed from prior partial p.1–16 plus p.17–22 read in this batch.",
+      "downloads_performed": 0,
+      "exact_checks": "computations/exact_checks.py and exact_checks.out; exact Fraction check flags S021 Example 5.4 pairing."
+    },
+    "L01_B2": {
+      "sources": [
+        "M0349",
+        "S016",
+        "S017",
+        "S018",
+        "S019",
+        "S020"
+      ],
+      "integration": "integrated",
+      "review_status": "pending",
+      "pdf_hash_and_page_check": "passed",
+      "physical_pdf_pages_read": 250,
+      "downloads_performed": 0,
+      "verification": "math/verification_checks.py and math/verification_checks.json; all source-local checks remain finite examples only."
+    }
+  },
+  "recent_L01_B2_integration": {
+    "sources": [
+      "M0349",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020"
+    ],
+    "physical_pdf_pages_read": 250,
+    "identity_hash_page_check": "passed against local PDF bytes, pdfinfo, and existing source rows",
+    "review_status": "pending",
+    "M0349_Theorem14_2_scope": "The theorem sentence leaves the index set of the infimum unspecified. The exact fixed-trial example only shows a single feasible-point spectral cap does not itself yield a global lower bound; it is not a refutation of Eq. (14.8) under a separately defined infimum domain with suitable uniform bounds.",
+    "math_checks": "L01 batch verification JSON records one exact algebraic identity, one exact localizing-matrix instance, and one exact scalar-block scope check; these do not prove source theorems.",
+    "batch_dir": "evidence/W19/reader_batches/L01_B2",
+    "prior_review_boundary": "R08 previously passed M0349 only for its earlier partial page scope; the newly integrated full-text read remains pending review.",
+    "independent_exact_recheck": "Python fractions.Fraction reproduced the ball-linearization coefficient identity, the S018 localizing matrix/minors, and the fixed M0349 candidate counterexample. MATLAB session was unavailable; no theorem-wide claim follows."
+  }
+}

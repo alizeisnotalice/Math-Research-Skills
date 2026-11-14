@@ -1,0 +1,11 @@
+MATLAB run: existing connected MATLAB session, 2026-11-14
+Script: workers/W05/reader_batches/L05_primary_B7/math/check_lambda22.m
+Purpose: numerical consistency check of equation (1) at d=r=2; not a proof.
+
+cutoff = 1e-10
+lambda integral over [cutoff, Inf] = 0.548311354415026
+pi^2/18 = 0.548311355616075
+absolute difference = 1.20105e-09
+max beta_1 positive-root residual on finite sample = 4.23516e-22
+
+The integral begins at 1e-10 to avoid directly evaluating the integrable logarithmic singularity at z=0. This file records double-precision adaptive quadrature and finite sample residuals only; it gives neither a rigorous quadrature error bound nor proof of the all-parameter theorem.

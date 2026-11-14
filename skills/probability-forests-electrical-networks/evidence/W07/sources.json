@@ -1,0 +1,1611 @@
+[
+  {
+    "local_id": "PTN2026",
+    "title": "Probability on Trees and Networks",
+    "authors": [
+      "Russell Lyons",
+      "Yuval Peres"
+    ],
+    "year": 2016,
+    "kind": "book",
+    "doi": "10.1017/9781316672815",
+    "url": "https://rdlyons.pages.iu.edu/prbtree/",
+    "alternate_urls": [
+      "https://rdlyons.pages.iu.edu/prbtree/book.pdf"
+    ],
+    "version": "Corrected and updated paperback PDF, 19 Aug 2026",
+    "reason": "Core text for infinite electrical networks, FSF/WSF, minimal forests, MTP, and open-question provenance.",
+    "topics": [
+      "A023",
+      "A025",
+      "A141",
+      "B063",
+      "B064",
+      "B065",
+      "B067",
+      "B068",
+      "B069",
+      "B070",
+      "B071",
+      "B072",
+      "B073",
+      "C105"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/PTN2026.pdf",
+    "sha256": "5c9a799b2333b58c7f8b29a608567bd1133713c934ec6cf654386dc1b01fbaf5",
+    "reading_status": "partial_read",
+    "read_pages": "PDF pp.142–143, 296, 298–300, 304–305, 331, 334–336, 365, 369, 374, 377, 392, 417–419, 422; theorem-level checks only. Full selected Chapters 8–11 remain unread.",
+    "review_status": "pending",
+    "pdf_pages": 716,
+    "document_form": "searchable_text_pdf",
+    "journal_scan_d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "lyons",
+        "peres"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05"
+  },
+  {
+    "local_id": "BLPS2001",
+    "title": "Uniform Spanning Forests",
+    "authors": [
+      "Itai Benjamini",
+      "Russell Lyons",
+      "Yuval Peres",
+      "Oded Schramm"
+    ],
+    "year": 2001,
+    "kind": "paper",
+    "doi": "10.1214/aop/1008956321",
+    "url": "https://doi.org/10.1214/aop/1008956321",
+    "alternate_urls": [
+      "https://rdlyons.pages.iu.edu/pdf/usf.pdf",
+      "https://projecteuclid.org/journals/annals-of-probability/volume-29/issue-1/Uniform-spanning-forests/10.1214/aop/1008956321.pdf"
+    ],
+    "version": "Annals of Probability 29(1) (2001), 1–65; local author PDF version dated 27 Jan. 2009",
+    "reason": "Foundational free/wired limits, transfer currents, tail triviality, component counts, and invariant percolation; read errata before reusing statements.",
+    "topics": [
+      "A025",
+      "B063",
+      "B064",
+      "B065",
+      "B071"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/BLPS2001.pdf",
+    "sha256": "17da5f8f44c41ae071c306743155bab0ae56863cb2652bb010ae006963333693",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete local author PDF, PDF pp. 1–72 (including references). Render-checked pp. 10, 12–13, 24–26, 35–36, and 59: p. 10 Theorem 4.1 single-edge current identity; pp. 12–13 unnumbered finite Transfer Current Theorem, eqs. (4.4)–(4.5), and contraction/Gram-determinant proof; pp. 24–26 Theorems 7.3/7.8 and Corollary 8.2; p. 59 Theorem 13.7 proof, including the self-loop equalization of weighted vertex conductances before equation (13.6). All intervening sections and end matter read.",
+    "review_status": "pending",
+    "pdf_pages": 72,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "benjamini",
+        "lyons",
+        "peres",
+        "schramm"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "journal_scan_acquisition_source": "downloads/D05/handoff.json",
+    "journal_scan_d05_reading_status": "not_read_by_D05",
+    "reading_coverage": "evidence/W07/reading_coverage.json",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "AL2007",
+    "title": "Processes on Unimodular Random Networks",
+    "authors": [
+      "David Aldous",
+      "Russell Lyons"
+    ],
+    "year": 2007,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v12-463",
+    "url": "https://projecteuclid.org/journals/electronic-journal-of-probability/volume-12/issue-none/Processes-on-Unimodular-Random-Networks/10.1214/EJP.v12-463.pdf",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/0603062",
+      "https://www.stat.berkeley.edu/~aldous/Papers/me-russ.pdf"
+    ],
+    "version": "Electronic Journal of Probability 12 (2007), Paper 54, 1454–1508; local author manuscript dated 28 Dec. 2005",
+    "reason": "Intrinsic MTP/unimodularity and extensions to random rooted networks; exact hypotheses guard against applying transitive-graph results to arbitrary rooted laws.",
+    "topics": [
+      "A023",
+      "B063",
+      "B064",
+      "B065",
+      "B067",
+      "B068"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/AL2007.pdf",
+    "sha256": "583597e40e02928625c73fdddde641693562f4169c7618a20a1bca4442844222",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete local author manuscript, PDF pp. 1–66, including references. Render-checked pp. 14–17 for Theorem 3.1 and its fixed-graph normalization/converse, and p. 40 for Theorem 7.4; all intervening sections read.",
+    "review_status": "pending",
+    "pdf_pages": 66,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "aldous",
+        "lyons"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "reading_coverage": "evidence/W07/reading_coverage.json",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "LYO2003DPP",
+    "title": "Determinantal Probability Measures",
+    "authors": [
+      "Russell Lyons"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1007/s10240-003-0016-0",
+    "url": "https://www.numdam.org/articles/10.1007/s10240-003-0016-0/",
+    "alternate_urls": [
+      "https://rdlyons.pages.iu.edu/pdf/bases.pdf",
+      "https://www.numdam.org/item/10.1007/s10240-003-0016-0.pdf"
+    ],
+    "version": "Publications Mathématiques de l’IHÉS 98, 167–212; author version 10 Mar 2004",
+    "reason": "Projection DPP representation, transfer-current theorem, negative association, and tail triviality; these do not by themselves yield BK disjoint-occurrence.",
+    "topics": [
+      "A025",
+      "A141"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/LYO2003DPP.pdf",
+    "sha256": "e84c37bdad09a9337d41266311b9d266d34d6e1fae5bfa81fcdb75e4ac1d9aba",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete local author version, PDF pp. 1–46, including all five open-question sections and references. Render-checked local PDF pp. 9 and 16 (printed pp. 175 and 182) for the FSF/WSF projection assignment and weighted-coordinate convention, pp. 19–20 for Theorem 6.5 proof, p. 32 for Theorem 8.1, and p. 35 for the explicit open BK question.",
+    "review_status": "pending",
+    "pdf_pages": 46,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "lyons"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "reading_coverage": "evidence/W07/reading_coverage.json",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "LPS2006MSF",
+    "title": "Minimal Spanning Forests",
+    "authors": [
+      "Russell Lyons",
+      "Yuval Peres",
+      "Oded Schramm"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.1214/009117906000000269",
+    "url": "https://doi.org/10.1214/009117906000000269",
+    "alternate_urls": [
+      "https://rdlyons.pages.iu.edu/pdf/AOP0151.pdf",
+      "https://projecteuclid.org/journals/annals-of-probability/volume-34/issue-5/Minimal-spanning-forests/10.1214/009117906000000269.pdf"
+    ],
+    "version": "Annals of Probability 34(5), 1665–1692",
+    "reason": "Canonical FMSF/WMSF construction, critical-percolation relations, MTP end results, and an exact MST positive-correlation counterexample.",
+    "topics": [
+      "B067",
+      "B068",
+      "B069",
+      "B070",
+      "B071",
+      "B073",
+      "C105"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/LPS2006MSF.pdf",
+    "sha256": "60de908bc00cd1bcf73602148ca5c3baefdb17d4ef98e0f3202ee1bc7a8aca46",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete local published article, PDF pp. 1–28, including all sections and references. Render-checked pp. 9, 11–12, and 16–17 for Proposition 3.6, Theorem 3.12, and Theorem 3.22/Lemma 3.23 resampling proof.",
+    "review_status": "pending",
+    "pdf_pages": 28,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "lyons",
+        "peres",
+        "schramm"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "reading_coverage": "evidence/W07/reading_coverage.json",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "LMS2008WUSFEnds",
+    "title": "Ends in Uniform Spanning Forests",
+    "authors": [
+      "Russell Lyons",
+      "Benjamin J. Morris",
+      "Oded Schramm"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v13-566",
+    "url": "https://projecteuclid.org/journals/electronic-journal-of-probability/volume-13/issue-none/Ends-in-Uniform-Spanning-Forests/10.1214/EJP.v13-566.pdf",
+    "alternate_urls": [
+      "https://arxiv.org/abs/0706.0358",
+      "https://rdlyons.pages.iu.edu/errata/ends.pdf"
+    ],
+    "version": "Electronic Journal of Probability 13 (2008), Paper 58, 1702–1725; local author manuscript version dated 19 May 2008, arXiv:0706.0358v2 dated 23 May 2008",
+    "reason": "WUSF one-endedness under an isoperimetric-profile hypothesis broader than transitive unimodular settings; official erratum narrows a proposition and fixes the WSF exhaustion definition.",
+    "topics": [
+      "B067",
+      "B065"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/LMS2008WUSFEnds.pdf",
+    "sha256": "f8c895a4966dc490a4659136503d464649ba8b39b412660336046c05d1166f41",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–23 (complete local manuscript); erratum also checked against author-hosted notice, 14 Mar. 2020.",
+    "review_status": "pending",
+    "pdf_pages": 23,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "lyons",
+        "morris",
+        "schramm"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "HN2017USF",
+    "title": "Indistinguishability of Trees in Uniform Spanning Forests",
+    "authors": [
+      "Tom Hutchcroft",
+      "Asaf Nachmias"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.1007/s00440-016-0707-3",
+    "url": "https://arxiv.org/abs/1506.00556",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00440-016-0707-3",
+      "https://arxiv.org/pdf/1506.00556v2"
+    ],
+    "version": "Probability Theory and Related Fields 168 (2017), 113–152; local 43-page manuscript has arXiv:1506.00556v2 header dated 22 May 2016 and manuscript date 8 Oct. 2018",
+    "reason": "Indistinguishability for FUSF/WSF components on unimodular random rooted networks; also one-or-infinitely-many FUSF components and infinite-endedness when FSF differs from WSF.",
+    "topics": [
+      "A025",
+      "B065"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/HN2017USF.pdf",
+    "sha256": "543b5d23642a4d79db72d4b4f3693b97e485794e7b0ff1b6276be04388558bcb",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–43 (complete local manuscript). Theorem 1.9 begins on PDF p. 10.",
+    "review_status": "pending",
+    "pdf_pages": 43,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "hutchcroft",
+        "nachmias"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "TIMAR2006FMSF",
+    "title": "Ends in Free Minimal Spanning Forests",
+    "authors": [
+      "Ádám Timár"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.1214/009117906000000025",
+    "url": "https://projecteuclid.org/journals/annals-of-probability/volume-34/issue-3/Ends-in-free-minimal-spanning-forests/10.1214/009117906000000025.pdf",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/0606750"
+    ],
+    "version": "Annals of Probability 34(3), 865–869; arXiv v1",
+    "reason": "For transitive unimodular graphs with FMSF≠WMSF, every FMSF component has infinitely many ends; it does not settle the nonunimodular extension asked by B068.",
+    "topics": [
+      "B068",
+      "B072"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "identity_crosschecked_in_existing_record_text_unextractable_or_name_glyphs",
+    "local_pdf": "evidence/fulltexts/TIMAR2006FMSF.pdf",
+    "sha256": "6bcc8fc2dbf0ede65d2638fbc788701ba07b4db73e534a7ddd6f97782fd6a845",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–6.",
+    "review_status": "pending",
+    "pdf_pages": 6,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "current_pdf_sha256_and_page_count_remeasured": true,
+      "prior_identity_status": "verified",
+      "prior_metadata_status": "verified",
+      "current_first_pages_excerpt": "arXiv:math/0606750v1  [math.PR]  29 Jun 2006\nThe Annals of Probability\n2006, Vol. 34, No. 3, 865–869\nDOI: 10.1214/009117906000000025\nc© Institute of Mathematical Statistics , 2006\nENDS IN FREE MINIMAL SPANNING FORESTS 1\nBy ´Ad´am Tim ´ar\nIndiana University\nWe show that for a transitive unimodular graph, the number of\nends is the same for every tree of the free minimal spanning fo rest.\nThis answers a question of Lyons, Peres and Schramm.\n1. Introduction. Let G = (V, E) be a graph and let {U (e)}e∈E be inde-\npendent uniform [0 , 1] random labels assigned to its edges. Deﬁne the free\nminimal spanning forest [FMSF or FMSF(G)] of G as the set of edges e\nwhere U does not attain its maximum at e f"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "TIMAR2018MSF",
+    "title": "Indistinguishability of the Components of Random Spanning Forests",
+    "authors": [
+      "Ádám Timár"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1214/17-AOP1225",
+    "url": "https://projecteuclid.org/journals/annals-of-probability/volume-46/issue-4/Indistinguishability-of-the-components-of-random-spanning-forests/10.1214/17-AOP1225.pdf",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1506.01370"
+    ],
+    "version": "Annals of Probability 46(4), 2221–2242",
+    "reason": "Weak insertion tolerance yields FUSF/FMSF component indistinguishability in stated unimodular cases; separates solved FMSF≠WMSF regimes from the remaining B072 scope.",
+    "topics": [
+      "B070",
+      "B072"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_author_and_arxiv_id_matched",
+    "local_pdf": "evidence/fulltexts/TIMAR2018MSF.pdf",
+    "sha256": "0ed888682bede1efddbcb1da2c27e0eefb75b4b121381ee491c8dcc811dd7a1a",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–18 (entire paper)",
+    "review_status": "pending",
+    "pdf_pages": 18,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_pages": "1-2",
+      "title": "Indistinguishability of the components of random spanning forests",
+      "author": "Ádám Timár",
+      "arxiv_id": "1506.01370v3"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete PDF read for W07; acquisition/identity handoff is recorded separately and d05_reading_status remains unchanged.",
+    "acquisition_note": "D05 handoff supplied the verified PDF; W07 subsequently read it in full. D05 itself did not read it."
+  },
+  {
+    "local_id": "PEM1991",
+    "title": "Choosing a Spanning Tree for the Integer Lattice Uniformly",
+    "authors": [
+      "Robin Pemantle"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": "10.1214/AOP/1176990223",
+    "url": "https://arxiv.org/abs/math/0404043",
+    "alternate_urls": [
+      "https://doi.org/10.1214/AOP/1176990223",
+      "https://arxiv.org/pdf/math/0404043v1"
+    ],
+    "version": "Annals of Probability 19(4) (1991), 1559–1574; local arXiv:math/0404043v1 copy posted 2 Apr. 2004, PDF internally dated 20 Aug. 2018",
+    "reason": "Proves the Zd USF is a single one-ended tree iff d≤4, supplying a classic dimension threshold for comparison with C105 (minimal rather than uniform forest).",
+    "topics": [
+      "C105"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/PEM1991.pdf",
+    "sha256": "dfde394b1108f6c570ab7cfd4672eab9e865f357e68e8795fba979c79de2073e",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–24 (complete local copy).",
+    "review_status": "pending",
+    "pdf_pages": 24,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "pemantle"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "BKPS2004",
+    "title": "Geometry of the Uniform Spanning Forest: Transitions in Dimensions 4, 8, 12, …",
+    "authors": [
+      "Itai Benjamini",
+      "Harry Kesten",
+      "Yuval Peres",
+      "Oded Schramm"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.4007/annals.2004.160.465",
+    "url": "https://annals.math.princeton.edu/2004/160-2/p03",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/0107140",
+      "https://arxiv.org/pdf/math/0107140"
+    ],
+    "version": "Annals of Mathematics 160(2) (2004), 465–491; local arXiv:math/0107140v3 copy dated 13 Feb. 2003",
+    "reason": "Quantifies adjacency and component-graph geometry of the Zd USF; context for but not a solution to MSF dimensional connectivity C105.",
+    "topics": [
+      "C105"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/BKPS2004.pdf",
+    "sha256": "719330c1def8671f1293cee5bf6e3db52cd3090bcd79d3e5aa8a0945c2c6bd30",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–28 (complete local preprint).",
+    "review_status": "pending",
+    "pdf_pages": 28,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "benjamini",
+        "kesten",
+        "peres",
+        "schramm"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "LPS2020IND",
+    "title": "Induced Graphs of Uniform Spanning Forests",
+    "authors": [
+      "Russell Lyons",
+      "Yuval Peres",
+      "Xin Sun"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1214/20-AIHP1056",
+    "url": "https://rdlyons.pages.iu.edu/pdf/induced-pub.pdf",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1812.03127",
+      "https://doi.org/10.1214/20-AIHP1056"
+    ],
+    "version": "Annales de l’Institut Henri Poincaré, Probabilités et Statistiques 56(4) (2020), 2732–2744",
+    "reason": "Component-induced graph recurrence and conditional resampling for WSF; auxiliary for forest geometry, not a WMSF theorem.",
+    "topics": [
+      "A025"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "identity_crosschecked_in_existing_record_text_unextractable_or_name_glyphs",
+    "local_pdf": "evidence/fulltexts/LPS2020IND.pdf",
+    "sha256": "b9eda43ca18c8d6856216fdbc4041f0a2b2161bb29cacc34a45bbcd0ec21b231",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–13 (complete published article).",
+    "review_status": "pending",
+    "pdf_pages": 13,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "current_pdf_sha256_and_page_count_remeasured": true,
+      "prior_identity_status": "verified",
+      "prior_metadata_status": "verified",
+      "current_first_pages_excerpt": "Annales de l’Institut Henri Poincaré - Probabilités et Statistiques\n2020, V ol. 56, No. 4, 2732–2744\nhttps://doi.org/10.1214/20-AIHP1056\n© Association des Publications de l’Institut Henri Poincaré, 2020\nInduced graphs of uniform spanning forests\nRussell Lyonsa,1, Yuval Peresb and Xin Sunc,2\naDepartment of Mathematics, Indiana University, Bloomington, IN, USA. E-mail: rdlyons@indiana.edu\nbKent State University, Kent, OH, USA. E-mail: yuval@yuvalperes.com\ncDepartment of Mathematics, University of Pennsylvania, Philadelphia, PA, USA. E-mail: xinsun@sas.upenn.edu\nReceived 10 December 2018; revised 8 January 2020; accepted 6 March 2020\nAbstract. Given a subgraph H of a graph G, the induced graph "
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "LIYU2026",
+    "title": "A Zero-One Law for Swap-Invariant Events in Uniform Spanning Forests",
+    "authors": [
+      "Xinyi Li",
+      "Yao Yu"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2610.00938",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2610.00938v1"
+    ],
+    "version": "arXiv:2610.00938v1, submitted 1 Oct 2026; preprint",
+    "reason": "Proves zero-one for every swap-invariant event under FSF or WSF on any connected locally finite infinite network; makes component count and total excessive ends deterministic, but does not imply FSF/WSF mutual singularity.",
+    "topics": [
+      "A025",
+      "B065"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/LIYU2026.pdf",
+    "sha256": "9a743a44e1ee84a5adb0a50edf45ec38484a4f410aef1c112e170e3b0eecfa8c",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–7.",
+    "review_status": "pending",
+    "pdf_pages": 7,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "li",
+        "yu"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "BP1993",
+    "title": "Local Characteristics, Entropy and Limit Theorems for Spanning Trees and Domino Tilings via Transfer-Impedances",
+    "authors": [
+      "Robert Burton",
+      "Robin Pemantle"
+    ],
+    "year": 1993,
+    "kind": "paper",
+    "doi": "10.1214/aop/1176989121",
+    "url": "https://doi.org/10.1214/aop/1176989121",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/math/0404048v1",
+      "https://arxiv.org/abs/math/0404048",
+      "https://www2.math.upenn.edu/~pemantle/papers/burton.pdf",
+      "https://math.bme.hu/~balint/oktatas/perkolacio/percolation_papers/burton_pemantle.pdf"
+    ],
+    "version": "Primary full read: arXiv math/0404048v1 author submission dated 2 Apr. 2004, 50 physical PDF pages with an unnumbered title/abstract page and numbered article pages 1–49 on physical pp. 2–50; Annals of Probability 21(3) (1993), 1329–1371. The exact UPenn-hosted 49-page author copy previously read was not acquired (HTTP 403), and equivalence is unverified. The archival 44-page journal scan is retained as a separate visually checked variant.",
+    "reason": "Finite uniform spanning-tree transfer-impedance determinant and the periodic essential-spanning-forest extension; the paper states the finite result for regular unweighted graphs, so use Lyons DPP/PTN for the weighted generalization.",
+    "topics": [
+      "A141"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/BP1993.pdf",
+    "sha256": "5ac77ebeb5a5e81b043c13563717fdf6a203dfbb18a9ee9cd30bbded7bba39a0",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete local arXiv math/0404048v1 submission read, physical PDF pp. 1–50 including title/abstract, all seven sections, appendix, references and end matter. Render-checked physical pp. 4, 16–19, 23–29, 31–33, 36–37, 41, 43, and 46–48 for Theorem 1.1 (p. 4), Theorems 4.1–4.2 and Corollary 4.4 (Cor. 4.4 p. 19), Theorems 5.1 and 5.3 (Th. 5.3 p. 26, proof pp. 27–28), Theorem 6.1, Theorem 7.2, Theorems 8.1–8.3, and Theorem 8.8 with proof pages. Theorem anchors use physical pages of this copy and printed article page labels; no journal-scan theorem page is transferred. The previously read UPenn-hosted 49-page PDF exact binary was not acquired (HTTP 403), so its equivalence to this copy is unverified. The 44-page archival journal scan remains a separate variant; its PDF pp. 2–3 and 15 were visually cross-checked only.",
+    "review_status": "pending",
+    "pdf_pages": 50,
+    "document_form": "searchable_arxiv_author_submission_pdf",
+    "version_variants": [
+      {
+        "type": "previously_read_remote_author_copy",
+        "url": "https://www2.math.upenn.edu/~pemantle/papers/burton.pdf",
+        "reported_pages": "49 author-version pages",
+        "acquired_exact_binary": false,
+        "acquisition_result": "HTTP 403",
+        "equivalence_to_primary_read_copy": "unverified",
+        "page_anchors_transferred": false
+      },
+      {
+        "type": "archival_journal_scan",
+        "local_pdf": "evidence/W07/fulltext/burton_pemantle_transfer_impedance.pdf",
+        "sha256": "650dd997fb187adfaf5ed0363f0b90b2f80258ded950904ba739ab045b37bdfe",
+        "physical_pdf_pages": 44,
+        "version": "Annals of Probability 21(3) (1993), 1329–1371; archival scan with wrapper",
+        "visually_cross_checked_pdf_pages": "2–3, 15",
+        "full_body_read": false,
+        "page_anchor_equivalence_to_primary": "unverified",
+        "acquisition_source": "downloads/D05/handoff.json",
+        "identity_status": "pdf_title_and_all_authors_matched",
+        "identity_evidence": {
+          "title_token_recall": 1.0,
+          "author_surnames_matched": [
+            "burton",
+            "pemantle"
+          ],
+          "checked_pdf_page": "1–2"
+        },
+        "d05_reading_status": "not_read_by_D05; W07 visually cross-checked local PDF pp. 2–3 and 15 only",
+        "document_form": "searchable_text_pdf"
+      }
+    ],
+    "acquisition_source": "evidence/shared/downloads/D01/identity_batch_11.json",
+    "d01_identity_evidence": {
+      "global_id": "PR-aeefaf918ee6",
+      "record_id": "D01-W07-BP1993-AUTHORVARIANT-B11",
+      "identity_result": "verified_identity_complete_author_submission_variant",
+      "complete_document": true,
+      "physical_pdf_pages": 50,
+      "numbered_article_pages": "1–49 on physical pp. 2–50",
+      "sha256": "5ac77ebeb5a5e81b043c13563717fdf6a203dfbb18a9ee9cd30bbded7bba39a0"
+    },
+    "reading_coverage": "evidence/W07/reading_coverage.json",
+    "section_coverage_path": "evidence/W07/reading_coverage.json"
+  },
+  {
+    "local_id": "ALDOUS1990",
+    "title": "The Random Walk Construction of Uniform Spanning Trees and Uniform Labelled Trees",
+    "authors": [
+      "David J. Aldous"
+    ],
+    "year": 1990,
+    "kind": "paper",
+    "doi": "10.1137/0403039",
+    "url": "https://doi.org/10.1137/0403039",
+    "alternate_urls": [
+      "https://epubs.siam.org/doi/10.1137/0403039"
+    ],
+    "version": "SIAM Journal on Discrete Mathematics 3(4), 450–465",
+    "reason": "Aldous–Broder construction and exact UST sampling on finite graphs; useful for finite examples and algorithmic constructions.",
+    "topics": [
+      "A141"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "WILSON1996",
+    "title": "Generating Random Spanning Trees More Quickly than the Cover Time",
+    "authors": [
+      "David Bruce Wilson"
+    ],
+    "year": 1996,
+    "kind": "paper",
+    "doi": "10.1145/237814.237880",
+    "url": "https://doi.org/10.1145/237814.237880",
+    "alternate_urls": [
+      "https://dl.acm.org/doi/10.1145/237814.237880"
+    ],
+    "version": "STOC 1996, 296–303",
+    "reason": "Wilson’s loop-erased-walk sampler gives a finite-graph exact UST construction; it is not itself an infinite-volume convergence theorem.",
+    "topics": [
+      "A141"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "NW1959",
+    "title": "Random Walk and Electric Currents in Networks",
+    "authors": [
+      "C. St. J. A. Nash-Williams"
+    ],
+    "year": 1959,
+    "kind": "paper",
+    "doi": "10.1017/S0305004100033879",
+    "url": "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/random-walk-and-electric-currents-in-networks/6FC36BEC36EB5AD77BEA6EBA8DC43F69",
+    "alternate_urls": [
+      "https://doi.org/10.1017/S0305004100033879"
+    ],
+    "version": "Mathematical Proceedings of the Cambridge Philosophical Society 55(2), 181–194",
+    "reason": "Classical electrical characterization of escape-to-boundary probabilities and effective currents on locally finite weighted graphs.",
+    "topics": [
+      "A023",
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "SW1991",
+    "title": "Uniqueness of Currents in Infinite Resistive Networks",
+    "authors": [
+      "Paolo M. Soardi",
+      "Wolfgang Woess"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": "10.1016/0166-218X(91)90031-Q",
+    "url": "https://boa.unimib.it/handle/10281/18350",
+    "alternate_urls": [
+      "https://doi.org/10.1016/0166-218X(91)90031-Q"
+    ],
+    "version": "Discrete Applied Mathematics 31(1), 37–49",
+    "reason": "Conditions for uniqueness of homogeneous finite-energy currents; complements the book’s free/wired current decomposition and identifies multi-ended counterexamples.",
+    "topics": [
+      "A023",
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "LYONS1983",
+    "title": "A Simple Criterion for Transience of a Reversible Markov Chain",
+    "authors": [
+      "Russell Lyons"
+    ],
+    "year": 1983,
+    "kind": "paper",
+    "doi": "10.1214/aop/1176993604",
+    "url": "https://doi.org/10.1214/aop/1176993604",
+    "alternate_urls": [
+      "https://projecteuclid.org/journals/annals-of-probability/volume-11/issue-2/A-simple-criterion-for-transience-of-a-reversible-Markov-chain/10.1214/aop/1176993604.full"
+    ],
+    "version": "Annals of Probability 11(2), 393–402",
+    "reason": "Electrical-network transience criterion background for random walks and forests, kept auxiliary because W20 owns biased walks and harmonic measure.",
+    "topics": [
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "THOMASSEN1990",
+    "title": "Resistances and Currents in Infinite Electrical Networks",
+    "authors": [
+      "Carsten Thomassen"
+    ],
+    "year": 1990,
+    "kind": "paper",
+    "doi": "10.1016/0095-8956(90)90065-8",
+    "url": "https://www.sciencedirect.com/science/article/pii/0095895690900658",
+    "alternate_urls": [
+      "https://doi.org/10.1016/0095-8956(90)90065-8"
+    ],
+    "version": "Journal of Combinatorial Theory, Series B 49(1), 87–102",
+    "reason": "Existence/uniqueness of current under linear growth and finite power; relevant to infinite-network current uniqueness.",
+    "topics": [
+      "A023",
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "MORRIS2003",
+    "title": "The Components of the Wired Spanning Forest Are Recurrent",
+    "authors": [
+      "Ben Morris"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1007/s00440-002-0236-0",
+    "url": "https://doi.org/10.1007/s00440-002-0236-0",
+    "alternate_urls": [
+      "https://rdlyons.pages.iu.edu/prbtree/"
+    ],
+    "version": "Probability Theory and Related Fields 125, 259–265",
+    "reason": "Proves recurrence of all WSF components a.s.; separates uniform-forest facts from minimal-forest conclusions.",
+    "topics": [
+      "A025",
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "title_author_year_version_and_complete_article_scope_verified",
+    "local_pdf": "evidence/fulltexts/MORRIS2003.pdf",
+    "sha256": "379a9298e0669f5569891a4a6924021c34d01efd8566b6b9688e22c7003dc1f3",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–7 (complete official article PDF; rendered p. 2 and pp. 4–6 for conductance convention, martingale, and recurrence theorem proofs).",
+    "review_status": "pending",
+    "pdf_pages": 7,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and 7",
+      "sha256": "379a9298e0669f5569891a4a6924021c34d01efd8566b6b9688e22c7003dc1f3"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "W07 read the complete article after D05 identity/acquisition verification; theorem card distinguishes WSF recurrence from minimal-forest questions."
+  },
+  {
+    "local_id": "HL2003",
+    "title": "Change Intolerance in Spanning Forests",
+    "authors": [
+      "Deborah Heicklen",
+      "Russell Lyons"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1023/A:1022222319655",
+    "url": "https://doi.org/10.1023/A:1022222319655",
+    "alternate_urls": [
+      "https://arxiv.org/abs/math/0102230",
+      "https://rdlyons.pages.iu.edu/pdf/change.pdf"
+    ],
+    "version": "Journal of Theoretical Probability 16(1), 47–58; arXiv preprint 2001",
+    "reason": "Edge resampling/change-intolerance on spherically symmetric trees; distinguishes edgewise tail phenomena from global singularity of FSF and WSF.",
+    "topics": [
+      "A025"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/HL2003.pdf",
+    "sha256": "c80f52b9d3023adbe3609e47c690119e66390ac817952c1ab3e8855e02994f03",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–12 (entire 12-page paper)",
+    "review_status": "pending",
+    "pdf_pages": 12,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "heicklen",
+        "lyons"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete PDF read for W07; acquisition/identity handoff is recorded separately and d05_reading_status remains unchanged.",
+    "acquisition_note": "D05 handoff supplied the verified PDF; W07 subsequently read it in full. D05 itself did not read it."
+  },
+  {
+    "local_id": "BLPS1999GIP",
+    "title": "Group-Invariant Percolation on Graphs",
+    "authors": [
+      "Itai Benjamini",
+      "Russell Lyons",
+      "Yuval Peres",
+      "Oded Schramm"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": "10.1007/s000390050080",
+    "url": "https://doi.org/10.1007/s000390050080",
+    "alternate_urls": [
+      "https://math.bme.hu/~balint/oktatas/perkolacio/percolation_papers/benjamini_lyons_peres_schramm_group_invar_perc.pdf"
+    ],
+    "version": "Geometric and Functional Analysis 9(1), 29–66",
+    "reason": "Develops mass-transport arguments for invariant percolation, component ends, expected degree, and unimodularity; directly supports minimal-forest end proofs.",
+    "topics": [
+      "A023",
+      "B067",
+      "B068",
+      "B071"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "LS1999IND",
+    "title": "Indistinguishability of Percolation Clusters",
+    "authors": [
+      "Russell Lyons",
+      "Oded Schramm"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": "10.1214/aop/1022677549",
+    "url": "https://doi.org/10.1214/aop/1022677549",
+    "alternate_urls": [
+      "https://projecteuclid.org/journals/annals-of-probability/volume-27/issue-4/Indistinguishability-of-percolation-clusters/10.1214/aop/1022677549.full"
+    ],
+    "version": "Annals of Probability 27(4), 1809–1836",
+    "reason": "Insertion-tolerance indistinguishability method that Timár adapts in a weak form for minimal forests; check tolerance assumptions before transfer.",
+    "topics": [
+      "B068",
+      "B072"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "HUTCH2020TUP",
+    "title": "Indistinguishability of Collections of Trees in the Uniform Spanning Forest",
+    "authors": [
+      "Tom Hutchcroft"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1214/19-AIHP988",
+    "url": "https://projecteuclid.org/journals/aihp/volume-56/issue-2/Indistinguishability-of-collections-of-trees-in-the-uniform-spanning-forest/10.1214/19-AIHP988.pdf",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1810.06382"
+    ],
+    "version": "Annales de l’Institut Henri Poincaré, Probabilités et Statistiques 56(2), 917–927",
+    "reason": "Tuple-level indistinguishability under Liouville and one-endedness hypotheses; auxiliary USF geometry rather than a minimal-forest theorem.",
+    "topics": [
+      "A025",
+      "B065"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/HUTCH2020TUP.pdf",
+    "sha256": "6ae78fc7c44530c4ffb625114d4fa7011b4a0794216210be9674df4d776502b6",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–14 (entire paper)",
+    "review_status": "pending",
+    "pdf_pages": 14,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "hutchcroft"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete PDF read for W07; acquisition/identity handoff is recorded separately and d05_reading_status remains unchanged.",
+    "acquisition_note": "D05 handoff supplied the verified PDF; W07 subsequently read it in full. D05 itself did not read it."
+  },
+  {
+    "local_id": "HP2019COMP",
+    "title": "The Component Graph of the Uniform Spanning Forest: Transitions in Dimensions 9, 10, 11, …",
+    "authors": [
+      "Tom Hutchcroft",
+      "Yuval Peres"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1007/s00440-018-0884-3",
+    "url": "https://doi.org/10.1007/s00440-018-0884-3",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1702.05780",
+      "https://api.repository.cam.ac.uk/server/api/core/bitstreams/e8fe47bb-8838-4ee5-8afb-cf2ba244accb/content"
+    ],
+    "version": "Probability Theory and Related Fields 175, 141–208",
+    "reason": "Refines USF component-graph geometry above dimension 8; context only for uniform-forest geometry, not C105’s minimal-forest threshold.",
+    "topics": [
+      "C105"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/HP2019COMP.pdf",
+    "sha256": "36c4b9c07b82099f8e5227afd5088fac2bfcb0f290d080fd9a65546974c26d3f",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–58 (entire local author preprint); rendered theorem/definition and proof pages 3, 5–6, 10, 20, 31, 33, 36–37, 40, 52, 54–55.",
+    "review_status": "pending",
+    "pdf_pages": 58,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "hutchcroft",
+        "peres"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete PDF read by W07. The component-graph results concern uniform spanning forests on d-dimensional transitive graphs; they are not minimal-spanning-forest conclusions.",
+    "acquisition_note": "D05 supplied and identity-checked the complete PDF; D05 did not read the mathematical content."
+  },
+  {
+    "local_id": "HN2019PLANAR",
+    "title": "Uniform Spanning Forests of Planar Graphs",
+    "authors": [
+      "Tom Hutchcroft",
+      "Asaf Nachmias"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1017/fms.2019.14",
+    "url": "https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/uniform-spanning-forests-of-planar-graphs/D8C780B41C32A6C7DCBC619A8A8CC4B5",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1603.07320"
+    ],
+    "version": "Forum of Mathematics, Sigma 7, e29",
+    "reason": "Connectivity of FUSF for bounded-degree proper plane graphs; useful as a boundary case for B065 and not an invariant coupling theorem.",
+    "topics": [
+      "B064",
+      "B065"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/HN2019PLANAR.pdf",
+    "sha256": "b0b28509f05baaa418e00cd0cf8cb58ca16dc5e22ef738a37bcac61bf1fe3f15",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–39 (entire paper)",
+    "review_status": "pending",
+    "pdf_pages": 39,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "hutchcroft",
+        "nachmias"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete PDF read for W07; acquisition/identity handoff is recorded separately and d05_reading_status remains unchanged.",
+    "acquisition_note": "D05 handoff supplied the verified PDF; W07 subsequently read it in full. D05 itself did not read it."
+  },
+  {
+    "local_id": "ALEX1995MSF",
+    "title": "Percolation and Minimal Spanning Forests in Infinite Graphs",
+    "authors": [
+      "Kenneth S. Alexander"
+    ],
+    "year": 1995,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.stat.berkeley.edu/~aldous/206-SNET/Papers/alexander.pdf",
+    "alternate_urls": [
+      "https://www.jstor.org/stable/2244781"
+    ],
+    "version": "Annals of Probability 23(1), 87–104",
+    "reason": "Earlier one-end structure results for minimal forests under simultaneous uniqueness; historical comparison for LPS2006 and C105.",
+    "topics": [
+      "B067",
+      "C105"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/ALEX1995MSF.pdf",
+    "sha256": "a8354c571eaeb9404a1a5c1e0cbdcd4e1eabf2bc724c33ac88446041ab3da3a7",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–19 (entire 19-page article scan)",
+    "review_status": "pending",
+    "pdf_pages": 19,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "alexander"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete PDF read for W07; acquisition/identity handoff is recorded separately and d05_reading_status remains unchanged.",
+    "acquisition_note": "D05 handoff supplied the verified PDF; W07 subsequently read it in full. D05 itself did not read it."
+  },
+  {
+    "local_id": "DOYLE_SNELL1984",
+    "title": "Random Walks and Electric Networks",
+    "authors": [
+      "Peter G. Doyle",
+      "J. Laurie Snell"
+    ],
+    "year": 1984,
+    "kind": "book",
+    "doi": null,
+    "url": "https://bookstore.ams.org/car-22/",
+    "alternate_urls": [
+      "https://math.dartmouth.edu/~doyle/docs/walks/walks.pdf"
+    ],
+    "version": "Carus Mathematical Monographs 22, Mathematical Association of America",
+    "reason": "Classical reference for finite electrical-network identities and reversible random walks; use as supporting context, not as a forest theorem source.",
+    "topics": [
+      "A023",
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pdf_title_and_all_authors_matched",
+    "local_pdf": "evidence/fulltexts/DOYLE_SNELL1984.pdf",
+    "sha256": "ffc0fbc1da2dd9fd235bbca0f8fbee9fbab597e96498890dcfb6d8cbfc5fe3f7",
+    "reading_status": "acquired_unread",
+    "read_pages": null,
+    "review_status": "pending",
+    "pdf_pages": 118,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "title_token_recall": 1.0,
+      "author_surnames_matched": [
+        "doyle",
+        "snell"
+      ],
+      "checked_pdf_page": "1-2"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05"
+  },
+  {
+    "local_id": "REIMER2000",
+    "title": "Proof of the van den Berg–Kesten Conjecture",
+    "authors": [
+      "David Reimer"
+    ],
+    "year": 2000,
+    "kind": "paper",
+    "doi": "10.1017/S0963548399004113",
+    "url": "https://doi.org/10.1017/S0963548399004113",
+    "alternate_urls": [
+      "https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/proof-of-the-vandenbergkesten-conjecture/"
+    ],
+    "version": "Combinatorics, Probability and Computing 9(1), 27–32",
+    "reason": "Proves BK for product measures; a comparison boundary for A141, whose UST law is determinantal but nonproduct.",
+    "topics": [
+      "A141"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "metadata_only",
+    "read_pages": null,
+    "review_status": "pending"
+  },
+  {
+    "local_id": "AUX-W07-WCD-2015",
+    "title": "Wired Cycle-Breaking Dynamics for Uniform Spanning Forests",
+    "authors": [
+      "Tom Hutchcroft"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1214/15-AOP1063",
+    "url": "https://arxiv.org/abs/1504.03928",
+    "alternate_urls": [
+      "https://doi.org/10.1214/15-AOP1063"
+    ],
+    "version": "arXiv:1504.03928v1 (2015); journal version, Annals of Probability 44(6), 3879–3892 (2016).",
+    "reason": "Auxiliary WUSF method: stationary wired cycle-breaking dynamics prove one-endedness for transient reversible random rooted networks with finite expected inverse root conductance. This does not establish a WMSF result.",
+    "topics": [],
+    "metadata_status": "verified",
+    "identity_status": "supplemental_title_author_arxiv_version_and_complete_article_scope_verified",
+    "local_pdf": "evidence/fulltexts/AUX-W07-WCD-2015.pdf",
+    "sha256": "8b361e93707ec376138d410eb3a3c1236af379b1480c4aa9c553ea0bf8f21f4d",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–15 (entire local arXiv v1 PDF; rendered pp. 2, 7–10, 12–13).",
+    "review_status": "pending",
+    "pdf_pages": 15,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 15,
+      "sha256": "8b361e93707ec376138d410eb3a3c1236af379b1480c4aa9c553ea0bf8f21f4d"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete article read by W07 after D05 acquisition/identity checking; D05 did not read the mathematical content."
+  },
+  {
+    "local_id": "AUX-W07-LYONS-RANDOM-COMPLEXES-2009",
+    "title": "Random Complexes and ℓ²-Betti Numbers",
+    "authors": [
+      "Russell Lyons"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.1142/S1793525309000072",
+    "url": "https://doi.org/10.1142/S1793525309000072",
+    "alternate_urls": [
+      "https://rdlyons.pages.iu.edu/pdf/betti.pdf",
+      "https://arxiv.org/abs/0811.2933"
+    ],
+    "version": "Journal of Topology and Analysis 1(2) (2009), 153–175; local author PDF version dated 27 May 2015.",
+    "reason": "Auxiliary A141 source for projection determinantal measures, the finite spanning-tree specialization, and the boundary between fixed-coordinate negative dependence and a BK inequality for random disjoint witnesses.",
+    "topics": [
+      "A141"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "author_title_version_complete_pdf_hash_verified",
+    "local_pdf": "evidence/fulltexts/AUX-W07-LYONS-RANDOM-COMPLEXES-2009.pdf",
+    "sha256": "5ba66f6159e90beaa37c8a651a1848a572b5628369de9a3046b971fa9b3bdc0d",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–25, complete 27 May 2015 author version, including references. Visually rechecked Corollary 4.4 on physical p. 11 and Proposition 4.9 statement/continuation on physical pp. 14–15.",
+    "review_status": "pending",
+    "pdf_pages": 25,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 25,
+      "sha256": "5ba66f6159e90beaa37c8a651a1848a572b5628369de9a3046b971fa9b3bdc0d"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete article read by W07 after D05 acquisition and identity checking. Cor. 4.4 and Prop. 4.9 locators and Prop. 4.9 hypotheses/formula were reread and visually checked on the original local PDF pp. 11 and 14–15. Author erratum corrections for Proposition 4.11 and Corollary 6.2 were checked; the local 2015 version displays the corrected formulas. D05 did not read the mathematical content."
+  },
+  {
+    "local_id": "AUX-W07-TEUFL-WAGNER-FORESTS-ELECTRICAL-2009",
+    "title": "Spanning Forests, Electrical Networks, and a Determinant Identity",
+    "authors": [
+      "Elmar Teufl",
+      "Stephan Wagner"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.46298/dmtcs.2699",
+    "url": "https://dmtcs.episciences.org/en/articles/2699",
+    "alternate_urls": [
+      "https://dmtcs.episciences.org/articles/2699/download",
+      "https://doi.org/10.46298/dmtcs.2699"
+    ],
+    "version": "DMTCS Proceedings vol. AK, FPSAC 2009, 847–858.",
+    "reason": "Auxiliary A141 determinant/electrical context: all-minors rooted-forest counts, a three-terminal identity, and normalized resistance formulas; it does not prove the weighted-UST BK inequality.",
+    "topics": [
+      "A141"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "publisher_title_authors_version_pages_hash_verified",
+    "local_pdf": "evidence/fulltexts/AUX-W07-TEUFL-WAGNER-FORESTS-ELECTRICAL-2009.pdf",
+    "sha256": "fe7f2b09dd0cb9e6a7b17990ad244722017d729ad635d13c7d57641c99763172",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–12, complete article including references.",
+    "review_status": "pending",
+    "pdf_pages": 12,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 12,
+      "sha256": "fe7f2b09dd0cb9e6a7b17990ad244722017d729ad635d13c7d57641c99763172"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete DMTCS paper read by W07 after D05 acquisition/identity checking; D05 did not read the mathematical content. The general determinant identities stated as Conjectures 3 and 4 remain conjectural in the paper."
+  },
+  {
+    "local_id": "AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023",
+    "title": "The Union of Independent USFs on ℤ^d Is Transient",
+    "authors": [
+      "Eleanor Archer",
+      "Asaf Nachmias",
+      "Matan Shalev",
+      "Pengfei Tang"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2311.09183",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2311.09183v1"
+    ],
+    "version": "arXiv:2311.09183v1, submitted 15 November 2023.",
+    "reason": "Auxiliary B064 special-case result: on ℤ^d for d≥3, an independent arbitrarily thin WUSF augmentation of an everywhere-percolating WUSF sample is connected; it does not settle arbitrary Cayley graphs or minimal-forest connectivity.",
+    "topics": [
+      "B064"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "arxiv_title_authors_version_complete_pdf_hash_verified",
+    "local_pdf": "evidence/fulltexts/AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023.pdf",
+    "sha256": "f038f787ca463ebf1f55679791e3fa282384ddbf81f2d7134524a498b73d76ae",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–10, complete arXiv v1 paper including references.",
+    "review_status": "pending",
+    "pdf_pages": 10,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 10,
+      "sha256": "f038f787ca463ebf1f55679791e3fa282384ddbf81f2d7134524a498b73d76ae"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Complete article read by W07 after D05 acquisition and identity checking. D05 recorded acquisition only. Results are for USF on ℤ^d, d≥3; do not generalize them to all Cayley graphs or to minimal spanning forests."
+  },
+  {
+    "local_id": "AUX-W07-INTERLACEMENTS-2015",
+    "title": "Interlacements and the Wired Uniform Spanning Forest",
+    "authors": [
+      "Tom Hutchcroft"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1214/17-AOP1203",
+    "url": "https://arxiv.org/abs/1512.08509",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1512.08509v2",
+      "https://doi.org/10.1214/17-AOP1203"
+    ],
+    "version": "arXiv:1512.08509v2 (18 Oct. 2016); Annals of Probability 46(2) (2018), 1170–1200.",
+    "reason": "Auxiliary WUSF source for the interlacement Aldous–Broder sampler, anchored-isoperimetric one-endedness, transient unimodular-network one-endedness, and WUSF end-count scope boundaries; no FMSF/WMSF theorem is claimed.",
+    "topics": [
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "supplemental_title_author_arxiv_version_and_complete_article_scope_verified",
+    "local_pdf": "evidence/fulltexts/AUX-W07-INTERLACEMENTS-2015.pdf",
+    "sha256": "817dafd0a8f0e09534835885af6c87f9fb1263a2c0e2b7e488f8b83f8bf2c948",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–25, complete arXiv v2 article including references. Render-checked physical pp. 2, 4, and 6; p. 2 verifies Theorem 1.1 AB_t={−e_t(v)} with reversal of the first-entering edge.",
+    "review_status": "pending",
+    "pdf_pages": 25,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 25,
+      "sha256": "817dafd0a8f0e09534835885af6c87f9fb1263a2c0e2b7e488f8b83f8bf2c948"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Theorem 1.1 direction and minus sign visually checked on original PDF p. 2; Theorems 2.1 and 2.4 checked on pp. 4 and 6."
+  },
+  {
+    "local_id": "AUX-W07-UNIVERSALITY-2018",
+    "title": "Universality of High-Dimensional Spanning Forests and Sandpiles",
+    "authors": [
+      "Tom Hutchcroft"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1804.04120",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1804.04120v2"
+    ],
+    "version": "arXiv:1804.04120v2 (30 May 2019), accepted author version; Probability Theory and Related Fields 176 (2020), 533–597.",
+    "reason": "Auxiliary WUSF comparison for bubble-condition mean-field exponents, intrinsic/extrinsic past geometry, and sandpile interfaces; these uniform-forest results do not settle minimal-forest connectivity.",
+    "topics": [
+      "C105"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "supplemental_title_author_arxiv_version_and_complete_article_scope_verified",
+    "local_pdf": "evidence/fulltexts/AUX-W07-UNIVERSALITY-2018.pdf",
+    "sha256": "d5a4c15a73698fdf69379688f8a58707b17b852c83225d38b4029f54758afdcf",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–61, complete accepted arXiv v2 article including references. Render-checked physical pp. 9–13, 24, 44, 47, 55, 57, and 58; pp. 12–13 reread for Theorems 1.5–1.6 assumptions.",
+    "review_status": "pending",
+    "pdf_pages": 61,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 61,
+      "sha256": "d5a4c15a73698fdf69379688f8a58707b17b852c83225d38b4029f54758afdcf"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Theorem 1.5 explicitly retains controlled stationary measure along with d-Ahlfors regularity (d>4) and Gaussian heat-kernel estimates; Theorem 1.6 retains controlled stationary measure, finite bubble norm, and uniform ballisticity. Reread visually on original PDF pp. 12–13."
+  },
+  {
+    "local_id": "AUX-W07-ENDS-2023",
+    "title": "The Number of Ends in the Uniform Spanning Tree for Recurrent Unimodular Random Graphs",
+    "authors": [
+      "Diederik van Engelenburg",
+      "Tom Hutchcroft"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2301.03875",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2301.03875v1"
+    ],
+    "version": "arXiv:2301.03875v1 (10 Jan. 2023).",
+    "reason": "Auxiliary recurrent-unimodular UST end theorem and potential-kernel proof framework; it is an unweighted graph result and does not transfer to weighted networks or minimal spanning forests.",
+    "topics": [
+      "B067"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "supplemental_title_authors_arxiv_version_and_complete_article_scope_verified",
+    "local_pdf": "evidence/fulltexts/AUX-W07-ENDS-2023.pdf",
+    "sha256": "164f99cca2c378d9f668fd064d47c5ffced82c8a6e47a7accd31382cea17bbce",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–27, complete arXiv v1 article, appendix, and references. Render-checked physical pp. 3, 8, 12, 14, 16, 18, 21, and 22; Proposition 12 is on p. 16 and Theorems 14–15 are on p. 18.",
+    "review_status": "pending",
+    "pdf_pages": 27,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 27,
+      "sha256": "164f99cca2c378d9f668fd064d47c5ffced82c8a6e47a7accd31382cea17bbce"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "reading_note": "Proposition 12 page anchor corrected to physical p. 16; Theorem 14 and Theorem 15 page anchors corrected to physical p. 18 after rendered reread."
+  },
+  {
+    "local_id": "AUX-W07-REFLECTED-INFINITY-2025",
+    "title": "Random Walk Reflected off of Infinity, with Applications to Uniform Spanning Forests and Supercritical Liouville Quantum Gravity",
+    "authors": [
+      "Ewain Gwynne",
+      "Jinwoo Sung"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2506.18827",
+    "alternate_urls": [],
+    "version": "arXiv:2506.18827v2, revised 30 Jun 2026",
+    "reason": "A continuous-time random walk reflected from infinity on a connected transient conductance network, with a pointwise lower bound on the holding-rate function for Theorem 1.6; use its energy-minimizing harmonic hitting law and the Aldous–Broder FUSF construction. The forest/end applications retain local-finiteness assumptions, and Wilson gives the FUSF only on the event that the FUSF is connected. Section 6 contains conjectures, not proved LQG phase transitions.",
+    "topics": [],
+    "metadata_status": "verified_from_title_page_and_D05_handoff",
+    "identity_status": "verified_from_title_page_and_D05_handoff",
+    "local_pdf": "evidence/fulltexts/AUX-W07-REFLECTED-INFINITY-2025.pdf",
+    "sha256": "d4e716f01b0825e3445308d2682a23e6ba516e12abc4d4fddb38c73d686a08af",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–53; complete article and references. Per-section physical-page coverage is recorded in evidence/W07/reading_coverage.json.",
+    "review_status": "pending",
+    "pdf_pages": 53,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 53,
+      "sha256": "d4e716f01b0825e3445308d2682a23e6ba516e12abc4d4fddb38c73d686a08af"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "reader": "L13",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "usage_card": "evidence/W07/cards/AUX-W07-REFLECTED-INFINITY-2025.md",
+    "reading_note": "Theorem 1.6 requires the stated pointwise rate lower bound for the theorem; graph local finiteness is only needed for the FSF/end applications. Theorem 1.17 matches the FSF only after truncation to the connectivity event. Section 6 consists of conjectures. Correct source thresholds are Q*=√(3/2), √(5/2), √(91/24) (physical pp. 46–48); c is Liouville c=1+6Q² (footnote 1, p. 3; Eq. 6.1, p. 39), not the matter-field parameter 26−c."
+  },
+  {
+    "local_id": "AUX-W07-HARMONIC-DIRICHLET-2017",
+    "title": "Harmonic Dirichlet Functions on Planar Graphs",
+    "authors": [
+      "Tom Hutchcroft"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1007/s00454-019-00057-2",
+    "url": "https://arxiv.org/abs/1707.07751",
+    "alternate_urls": [
+      "https://link.springer.com/article/10.1007/s00454-019-00057-2"
+    ],
+    "version": "Read artifact: arXiv:1707.07751v2, revised 10 Jan 2019; journal version: Discrete & Computational Geometry 61, 479–506 (2019), DOI 10.1007/s00454-019-00057-2",
+    "reason": "A bounded-geometry method for transporting finite-energy harmonic functions between a transient weighted polyhedral planar map and a double-circle-packed domain. The continuous Douglas identity is D(phi)=E_disk(H) for the disk harmonic extension H; the graph harmonic function h is linked by a bounded isomorphism, with energy comparison rather than an isometry. The theorem needs the stated planar packing and geometry hypotheses.",
+    "topics": [
+      "A025"
+    ],
+    "metadata_status": "verified_from_title_page_and_D05_handoff",
+    "identity_status": "verified_from_title_page_and_D05_handoff",
+    "local_pdf": "evidence/fulltexts/AUX-W07-HARMONIC-DIRICHLET-2017.pdf",
+    "sha256": "1885fa47f8cf347bce6508f78bf91c3ad7035565b84c522fa882d3dc7ca09dcb",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–25; complete article and references. Per-section physical-page coverage is recorded in evidence/W07/reading_coverage.json.",
+    "review_status": "pending",
+    "pdf_pages": 25,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 25,
+      "sha256": "1885fa47f8cf347bce6508f78bf91c3ad7035565b84c522fa882d3dc7ca09dcb"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "reader": "L13",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "usage_card": "evidence/W07/cards/AUX-W07-HARMONIC-DIRICHLET-2017.md",
+    "reading_note": "Theorem 1.5 is the bounded-geometry double-circle-packing HD isomorphism. Ordinary asymptotic equality is only proved for bounded functions in uniformly transient domains; otherwise retain the D0/quasi-asymptotic formulation. Douglas equality is D(φ)=E_disk(H) for the continuous disk harmonic extension; discrete graph energy is only comparable under the bounded isomorphism, not equal by an isometry (physical p. 3)."
+  },
+  {
+    "local_id": "AUX-W07-CYCLE-FORESTS-2024",
+    "title": "Cycling in the Forest with Wilson’s Algorithm",
+    "authors": [
+      "Michaël Fanuel",
+      "Rémi Bardenet"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2404.14803",
+    "url": "https://arxiv.org/abs/2404.14803",
+    "alternate_urls": [
+      "https://arxiv.org/html/2404.14803v3"
+    ],
+    "version": "arXiv:2404.14803v3, revised 9 Jul 2025; PDF title page dated 10 Jul 2025",
+    "reason": "Finite connected undirected simple weighted graphs with positive symmetric edge weights; CyclePopping samples oriented cycle-rooted spanning forests. The determinantal law and step-count MGF require the stated nontrivial U(1) connection and weak-inconsistency assumptions (Assumptions 1 and 3); the general loop-measure Poisson runtime uses Assumption 4. T counts random-walk steps, distinct from the resampling count. No infinite-network reflection result is proved.",
+    "topics": [],
+    "metadata_status": "verified_from_title_page_D05_handoff_and_official_arxiv_record",
+    "identity_status": "verified_from_title_page_D05_handoff_and_official_arxiv_record",
+    "local_pdf": "evidence/fulltexts/AUX-W07-CYCLE-FORESTS-2024.pdf",
+    "sha256": "b21225a1e95d038b21735aa10d179847cbec5ccd58b6b2dc5dd31eb2ceb6d663",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–41; complete article and references. Per-section physical-page coverage is recorded in evidence/W07/reading_coverage.json.",
+    "review_status": "pending",
+    "pdf_pages": 41,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 41,
+      "sha256": "b21225a1e95d038b21735aa10d179847cbec5ccd58b6b2dc5dd31eb2ceb6d663"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "reader": "L13",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "usage_card": "evidence/W07/cards/AUX-W07-CYCLE-FORESTS-2024.md",
+    "reading_note": "Determinantal correctness/runtime requires the stated nontrivial U(1) connection and weak-inconsistency assumptions. General loop-measure PPP runtime requires Assumption 4. T counts Markov-chain steps. The paper distinguishes magnetic Δ=D−W∘Φ from normalized Δ_N=D^(−1/2)ΔD^(−1/2) (physical p. 4 for Δ and p. 16 for the normalized Δ_N definition). This is a finite-graph paper; it does not prove an infinite-network reflection theorem."
+  },
+  {
+    "local_id": "AUX-W07-CYCLE-MATROIDS-2024",
+    "title": "Cycle Matroids of Graphings: From Convergence to Duality",
+    "authors": [
+      "Kristóf Bérczi",
+      "Márton Borbényi",
+      "László Lovász",
+      "László Márton Tóth"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2406.08945",
+    "url": "https://arxiv.org/abs/2406.08945",
+    "alternate_urls": [
+      "https://arxiv.org/html/2406.08945v3"
+    ],
+    "version": "arXiv:2406.08945v3, revised 14 Oct 2024",
+    "reason": "Finite-degree measure-preserving graphings for cycle-matroid rank, local-global quotient convergence, and hyperfinite-forest characterizations. The planar duality and cost results use the paper’s restricted dual planar graphing model; Theorem 1.6 also assumes hyperfiniteness. Question 1.4 about whether every extreme base point is exposed remains open.",
+    "topics": [],
+    "metadata_status": "verified_from_title_page_D05_handoff_and_official_arxiv_record",
+    "identity_status": "verified_from_title_page_D05_handoff_and_official_arxiv_record",
+    "local_pdf": "evidence/fulltexts/AUX-W07-CYCLE-MATROIDS-2024.pdf",
+    "sha256": "c57ef51bafad319a47f7b6dddb4a8755b9600f18f5ef66d67b87e0acb0942be0",
+    "reading_status": "fulltext_read",
+    "read_pages": "Physical PDF pp. 1–19; complete article and references. Per-section physical-page coverage is recorded in evidence/W07/reading_coverage.json.",
+    "review_status": "pending",
+    "pdf_pages": 19,
+    "document_form": "searchable_text_pdf",
+    "d05_identity_evidence": {
+      "checked_pdf_page": "1 and final page",
+      "physical_pdf_pages": 19,
+      "sha256": "c57ef51bafad319a47f7b6dddb4a8755b9600f18f5ef66d67b87e0acb0942be0"
+    },
+    "acquisition_source": "downloads/D05/handoff.json",
+    "d05_reading_status": "not_read_by_D05",
+    "source_relation": "supplemental_related_full_text",
+    "reader": "L13",
+    "section_coverage_path": "evidence/W07/reading_coverage.json",
+    "usage_card": "evidence/W07/cards/AUX-W07-CYCLE-MATROIDS-2024.md",
+    "reading_note": "Theorems 1.6–1.8 require the restricted dual planar graphing setup; Theorem 1.6 additionally requires hyperfiniteness. Question 1.4 (whether all extreme base points are exposed) remains open."
+  }
+]

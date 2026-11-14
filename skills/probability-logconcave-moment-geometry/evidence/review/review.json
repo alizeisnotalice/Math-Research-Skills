@@ -1,0 +1,3298 @@
+{
+  "reviewer": "R06",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "workers": [
+    "W11",
+    "W12",
+    "W18"
+  ],
+  "source_decisions": [
+    {
+      "worker": "W11",
+      "local_id": "M0258",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 3",
+        "Original PDF p. 4",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "f7bd4d90c7c5057340e568d4d838ff2bc5de6fdc1ca7c137bffac5123e637e10",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "11a9bb298796688fa033f547255fa8df5291988bdf918693c7b7b9b5d47d3df2",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0259",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 2",
+        "Original PDF p. 3",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries",
+        "物理p13证明及References共享页已准确覆盖。"
+      ],
+      "sha256_computed": "026b310ca1445259ff2e840899ea36b91b3db8cb2529ac280b7e5cc7863daf84",
+      "review_scope": "batch8 pinpoint correction checked against independently inspected original PDF passages and all runtime propagation",
+      "reason": "物理p13证明及References共享页已准确覆盖。完整阅读证据接受；不等于审核员重复全文阅读。",
+      "card_sha256": "f6fd7943ef11f5ea6d0c323d86cadc36dfb4aacda5a057ae6ff0b55d9b4d6675",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0260",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 3",
+        "Original PDF p. 4",
+        "Original PDF p. 7",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "f19c5b6cda80fe31d02154afae1162be5f14e6b9afa1913287be999c09f0b17a",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "cdc7edebcee426d11890a32d0f122d04654b992c7f0284f5c7645793bff6e792",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0261",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "p1 identity",
+        "pp9–11 tensorization, Theorem1 and MGF/truncation",
+        "pp11–18 Theorem2 transport mechanism",
+        "pp19–23 sharpness/end matter",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "e90fb85a696af9ec5bcd562ee70a6bf065c2b927ef26d8f52aeb0daeb266e8fa",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "23a67e1ccad579f7e2a7afb1ba38c29319e012224ed7d75ae8b3e8d0e474ad7d",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0262",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0263",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0264",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0265",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0266",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "现有卡尚未逐页回核原文；不得计独立通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0267",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0268",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0269",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0270",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 13",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "59ddc6b02e2d588465be6e194eb3d6a2e51c7e25b1d5c0d58cb9339bfd906337",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "c9240602b1626984cb4a74d0005e61cce87f5d9c2369bb6cf95bd4ebc61db089",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0271",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0272",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "p1 identity",
+        "pp4–5 Theorems2–7, n<=N",
+        "pp5–7 references/end matter",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries",
+        "原图物理p5 Thm7 n<=N已补卡与runtime。"
+      ],
+      "sha256_computed": "ea5394b349e2d8b157a23efd573807b44f82c1c2bb4b50ba408b8feb67f83a7e",
+      "review_scope": "batch8 pinpoint correction checked against independently inspected original PDF passages and all runtime propagation",
+      "reason": "原图物理p5 Thm7 n<=N已补卡与runtime。完整阅读证据接受；不等于审核员重复全文阅读。",
+      "card_sha256": "0e551de7aacfdcdbcf53d494826fe784a93f1ff4605e885208fe467149436359",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0273",
+      "decision": "passed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Original PDF p. 2"
+      ],
+      "sha256_computed": "8ac983f044a2ff4b9642cd4b1ef561340253d0cef851ba17540d6de7bb637ac8",
+      "review_scope": "statement passages only; no independent fulltext-reading certification",
+      "reason": "所列原文位置支持卡的局部定理范围；通过仅限已核陈述，不将worker全文声明升级为独立全文认证。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0274",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 5",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "c3d78c9e4cb90d18d6d127f39a1d4650a9e1e05d61bec213dab69967365ddf48",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "33e88b1919e4e1df2a9284c44505e1004980848c7e0cf7d8d316a18dc26e096c",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0275",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0276",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 5",
+        "Original physical PDF p. 7",
+        "Original physical PDF p. 12",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "a28c66784b823e629f079e8ddfd481b54f0cb38de03ff975247a81667e6b2407",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "119b2cdb27ed952fbe6e08687ed21ddb0927d569c6ef93231f33a67b7ac7e7bb",
+      "bound_source_record_sha256": "0729caeee2b831ad54244fd68f0387cd3176d2a59f3d48df99d018be1c13626a",
+      "review_batch": "W11-batch6",
+      "card_sha256": "119b2cdb27ed952fbe6e08687ed21ddb0927d569c6ef93231f33a67b7ac7e7bb",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0277",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0278",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 12",
+        "Original physical PDF p. 14",
+        "Original physical PDF p. 19",
+        "Original physical PDF p. 20",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "f18f2c5942e7755fb57254dd0b80c34697b6b491ccb5c31163f849922acedb10",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "d129a0ffe883b2e00dd4d7dd8b792d73173162f5372c1066753b66f1f466488a",
+      "bound_source_record_sha256": "a3a2ac9a2b2097e85935070b073e660e6ae45f617d443173299724f40bd66c13",
+      "review_batch": "W11-batch6",
+      "card_sha256": "d129a0ffe883b2e00dd4d7dd8b792d73173162f5372c1066753b66f1f466488a",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0279",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0280",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 3",
+        "Original PDF p. 4",
+        "Original PDF p. 5",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "388ce6b67453e9178ee4120905fab3fd5a40f33e40cd3d403858dd81fe93649e",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "4e9b47e1499dcdbe7c4d00ba171ca42908e54599645ae4ad2faaae96fd149256",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0281",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 3",
+        "Original PDF p. 4"
+      ],
+      "sha256_computed": "abe28e14924ca66d317b0a42eb40cd8edfa10d0f50c4625f7d47c105512dda11",
+      "review_scope": "statement passages only; no independent fulltext-reading certification",
+      "reason": "所列原文位置支持卡的局部定理范围；通过仅限已核陈述，不将worker全文声明升级为独立全文认证。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0282",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 10",
+        "Original PDF p. 11",
+        "Original PDF p. 14",
+        "Original PDF p. 19",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "6d7eced8d86c633588d0e695f74b3098febe2abc731448d2a7e109713cf05460",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "76f7c02ed7926489a910856f8ede345c7b9bc98c26d2e6139470ff9db6b99eb8",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0283",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0284",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 15",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "e15d047c80136ebb54ab6d3a8b9b245d8083c81cf0e5ed491b5496f021074d6f",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "e3262f3b6ebf4c9ad8722e102111c2b97fee787a1ff286009dfc19af214b96ad",
+      "bound_source_record_sha256": "10597407b2d10e49248e17fb3e9f2842895dd479954eb006da62b7d34c446b23",
+      "review_batch": "W11-batch6",
+      "card_sha256": "e3262f3b6ebf4c9ad8722e102111c2b97fee787a1ff286009dfc19af214b96ad",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0285",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 6",
+        "Original PDF p. 9",
+        "Original PDF p. 10",
+        "Original PDF p. 13",
+        "Original PDF p. 14",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries",
+        "物理p14证明及References共享页已准确覆盖。"
+      ],
+      "sha256_computed": "b1b9c7ebfa2d6586fc9a00e6eafd8ad2d0e407caf9611b50eb2686434c90da26",
+      "review_scope": "batch8 pinpoint correction checked against independently inspected original PDF passages and all runtime propagation",
+      "reason": "物理p14证明及References共享页已准确覆盖。完整阅读证据接受；不等于审核员重复全文阅读。",
+      "card_sha256": "39e6055bde7374fd0b14d45369b15578fff5bdf7e7a8eb2334625b2131d93f8c",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0286",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0287",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 5",
+        "Original physical PDF p. 11",
+        "Original physical PDF p. 12",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "197bb329b6356570f0b07e20d62b8812aba1f4b871dbc4dada52ad0a4f3854b9",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "5f483af1b93c66d712560e67d09dadf5ecb5a48ca635c08448a70aae6f3ba837",
+      "bound_source_record_sha256": "693d433a02fa9968e5bb9618c3c95ef1c11d203d2e6f85bff93ff86b3704c967",
+      "review_batch": "W11-batch6",
+      "card_sha256": "5f483af1b93c66d712560e67d09dadf5ecb5a48ca635c08448a70aae6f3ba837",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0288",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0289",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0290",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 1",
+        "Original PDF p. 2",
+        "Original PDF p. 3",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "16d06a4fd97f9263e4a97a6c0d00800cd8ec9841e5400a5c63531fddcb97d57f",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "f7f2b59bc89a7b364ecc5bc3c3ba4e0155dc35bbdd75f0e396cde0f024d15da2",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0291",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "p1 identity",
+        "p4 rendered Theorem1 Eq5: d^{16/ell}",
+        "pp6–14 localization/spectral induction",
+        "pp24–27 Appendix A structure",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries",
+        "原图物理p4 Eq5 d^{16/ell}已准确传入卡和runtime。"
+      ],
+      "sha256_computed": "2f456fd3b39ce0de579b2601cf49244d395fdfca950d3a0924603c652e23b7df",
+      "review_scope": "batch8 pinpoint correction checked against independently inspected original PDF passages and all runtime propagation",
+      "reason": "原图物理p4 Eq5 d^{16/ell}已准确传入卡和runtime。完整阅读证据接受；不等于审核员重复全文阅读。",
+      "card_sha256": "e5c7c2e7b6b66115cbd255f67c5dd1ae86521e6f6c02d7956bb03522d28d6f57",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0292",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0293",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0294",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0295",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "p1 identity",
+        "pp2–3 Theorem1.1/corollary",
+        "pp7–9 gamma_r/gamma_2 proof",
+        "pp15–20 submatrices/end matter",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries",
+        "物理p7 §2开始与p17 References开始及p20出版后页准确区分。"
+      ],
+      "sha256_computed": "09edf2f71e5ec7f605f074a7a16b109b44e2ec443c0ba3e24a88f0e011e2df13",
+      "review_scope": "batch8 pinpoint correction checked against independently inspected original PDF passages and all runtime propagation",
+      "reason": "物理p7 §2开始与p17 References开始及p20出版后页准确区分。完整阅读证据接受；不等于审核员重复全文阅读。",
+      "card_sha256": "58c98ab9fa88a3854245bcc4bd77ef13864298d5c729c82f9d3adac981c90180",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0296",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "p1 identity",
+        "p2 rendered Theorem1.1 radicals",
+        "p4 rendered Theorem1.3 coefficient and C scope",
+        "pp13–15 dyadic chain/net proof",
+        "pp16–21 entropy mechanism",
+        "pp21–30 section7 and end structure",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries",
+        "原图物理p4 Thm1.3 sqrt(log(en))及C覆盖整个括号已准确传入卡和runtime；sigma弱矩已定义。"
+      ],
+      "sha256_computed": "3bad12d2172a2685c778e949e33cfae52b4bfd97df6d71ed084c2a52fa2ccabc",
+      "review_scope": "batch8 pinpoint correction checked against independently inspected original PDF passages and all runtime propagation",
+      "reason": "原图物理p4 Thm1.3 sqrt(log(en))及C覆盖整个括号已准确传入卡和runtime；sigma弱矩已定义。完整阅读证据接受；不等于审核员重复全文阅读。",
+      "card_sha256": "ab1734925981bed5cba7e9ef1838d459de1c7113453cce5dd62ec9857da12b79",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0297",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0298",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0299",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0300",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0301",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 2",
+        "Original PDF p. 4",
+        "Original PDF p. 6",
+        "Original PDF p. 7",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "818e17b283f25d8a2a2b09ce73050fd18d0b13ce649fe855b622788825c2d337",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "4a5f41bc295d58e3c2390c767172d60e19edea504052667e8de6fcfc6d2726ea",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0302",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0303",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0304",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 3",
+        "Original PDF p. 4",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "c05870e0ef6ef5b9c9f205f60962cf323b63a5ec96dd9c4da78e26dac29fc190",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "restricted_subclaims": [
+        "Theorem B(b1) printed rate formula quarantined from mathematical tool use"
+      ],
+      "card_sha256": "a0e65ef92df33b0ec0f60643527fda72b3b1c865bafbc9e3f9abf93ceb1b734a",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0305",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0306",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0307",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0308",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0309",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0310",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0311",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0312",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0313",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0314",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0315",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "local PDF p1 title/authors",
+        "local PDF pp18–19 Proposition3.15, dual-body bound and gamma integral"
+      ],
+      "sha256_computed": null,
+      "review_scope": "partial source usage only; not full-reading acceptance",
+      "reason": "局部用途通过：原PDF pp18–19 Prop3.15与证明支持正例CI→偏差2alpha beta；保留partial，不计全文配额。",
+      "usage_evidence_accepted": true,
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json",
+      "card_sha256": "ff3bc05fff65ea02310518dd6c7084cd8c2e9d2899c7b958baa09cf4bec10b28"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0316",
+      "decision": "passed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Original PDF p. 3",
+        "Original PDF p. 4"
+      ],
+      "sha256_computed": "346b2d3999335d6121390b6103b35cc103e5810da739b7f16443f316eaf33f95",
+      "review_scope": "statement passages only; no independent fulltext-reading certification",
+      "reason": "所列原文位置支持卡的局部定理范围；通过仅限已核陈述，不将worker全文声明升级为独立全文认证。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0317",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0318",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0319",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0320",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0321",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 5",
+        "Original physical PDF p. 6",
+        "Original physical PDF p. 12",
+        "Original physical PDF p. 18",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "0edc3cbdbf19f162be81de303a78dc5e0b566c91b6b0a4bf1836e57bfd2be5aa",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "2c342eb6445840d7cb9f099df3f38d8f895a5eef5b7df33b3dfd2222c250211a",
+      "card_sha256": "2c342eb6445840d7cb9f099df3f38d8f895a5eef5b7df33b3dfd2222c250211a",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0322",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 3",
+        "Original PDF p. 4",
+        "Original PDF p. 9",
+        "Original PDF p. 10",
+        "Original PDF p. 11",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "9b5fa9288cb5d700b172676d930a94411453874be373643fbe3bf186c01dee4a",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "b0af15f313f0667b7685b95666c451a7af60fb22e86ec7eb6c12a892c3db09d6",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0323",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0324",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0325",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0326",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0327",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0328",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 4",
+        "Original PDF p. 5",
+        "Original PDF p. 6",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "6e8a8627110404b056569b0033e0a115777b58c30ade763a426a3ca8542ddd3f",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "3b97a4a41b06931a3463c7fe1bf3d1e7f26e0931a4e652f64038f641513983e0",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0329",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0330",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0331",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "p1 identity",
+        "pp2–3 main theorem",
+        "pp18–19 Steiner inclusion/equality",
+        "pp19–20 star-body open problem",
+        "pp20–23 end matter",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "c65ab37f8ae7733983570e9191ea233ed1400dae077340ce02368f162c7fd7b2",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "89fa058847746cf76c8c11ea63fb6b0091139f8ed5f31e89c484b1404c681a18",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0332",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 2",
+        "Original PDF p. 3",
+        "Original PDF p. 15",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "92a83431ef63d0d550e2ffae53ec0e57e3144b4959c227718a619f1c1cd21639",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "f58ce465e2edc63af5bcd71b5ed31429279a4980e8da971353acbcec46df3a49",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0333",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF p. 3",
+        "Original PDF p. 13",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "8abee7b98f67210705453a3339778fd0db9433a8e05ff09bdd02d0f506fa37a6",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "card_sha256": "661af3a85554ef9965925a769d35600d586d495046ea486d9eae98f61b0c96d2",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0334",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0335",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0336",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0337",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0338",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0339",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 5",
+        "Original physical PDF p. 7",
+        "Original physical PDF p. 8",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "1ad33e88061a999f6dfa5e257bf8503fe0db6c3c6633c06de51fb3ed1e9089a4",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "06aad9f702aee3965c18d6248bf58c4f3a3ca72a35ae49232a9e2bdb5599b396",
+      "bound_source_record_sha256": "a60e258387854b05399a2ba1405f70723126fc8086cf86bb20a035907dfe9e71",
+      "review_batch": "W11-batch6",
+      "card_sha256": "06aad9f702aee3965c18d6248bf58c4f3a3ca72a35ae49232a9e2bdb5599b396",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0340",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 9",
+        "Original physical PDF p. 10",
+        "p1 identity",
+        "p9 Eq4.2/4.3 reciprocal variance",
+        "pp9–12 conditional Knothe cost",
+        "SymPy Laplace scale rerun",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "3b051ea2876ddf3f32c26453d90724a9fcef3181a57dcf15ccafe8434391b17d",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "fa97d141c27303b319da859dc3619e9f17f79e4cc25d1f8ba652b379e1fd0940",
+      "bound_source_record_sha256": "50bedd7b889c02e405259834bb049764db8247e3032d3c9a8d03cdb175ea21fe",
+      "review_batch": "W11-batch6",
+      "card_sha256": "f34496cfcbf6ff5d07d3421ca8ee188f5fe2804463c7ad50a0120511ef77651a",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0341",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 9",
+        "Original physical PDF p. 10",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "1a47335a29d295c564137acee45458adcfb3c2de834bf9d01715280c3f9bfdfe",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "94abebe2cd44bed9163f50d26f804ecb6152c2896b25d81ce7585aff568b5c29",
+      "bound_source_record_sha256": "54f3f530fb8e07924abd06479b3c9280f26a07d10fc0d5dea65a1cc3e1947571",
+      "review_batch": "W11-batch6",
+      "card_sha256": "94abebe2cd44bed9163f50d26f804ecb6152c2896b25d81ce7585aff568b5c29",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0342",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 4",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "fbda15d6f5199feb6fb9e5ddea514f76a6fdf9306473b2922a7034608fd529f5",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "ee89be8059915871c2f5a4bf7d40b12ebf84809a5162640ff237f873c50bb71b",
+      "bound_source_record_sha256": "ba7c35de27dd089fbd7cf0de08caca5892c9c081e707d4f6909fbb998d6ba3e3",
+      "review_batch": "W11-batch6",
+      "card_sha256": "ee89be8059915871c2f5a4bf7d40b12ebf84809a5162640ff237f873c50bb71b",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0343",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 6",
+        "Original physical PDF p. 7",
+        "Local PDF p1 title/authors/version; full section-coverage table independently compared to PDF section boundaries"
+      ],
+      "sha256_computed": "ab05f1db7b42c638fffda613ef2eabb9486128a80029308e6a39e98a773ce770",
+      "review_scope": "All runtime-used source statements/key proof passages checked across R06 batches; full reader evidence accepted after structure/coverage and identity comparison, not reviewer full reread",
+      "reason": "本地原文身份及完整版本已核；卡/逐节覆盖与实际结构一致，所用数学断言及关键证明无当前已知错误。保留版本、模型限制及M0304 B(b1)隔离。",
+      "bound_card_sha256": "10a0b4c9506533c38c3607c28d8d80ec14f44b9bb3a0cacc1205130fb51c44a2",
+      "bound_source_record_sha256": "cbcb0513e7e52e9f854bfb5cdf6833ddb4c774414cdced359b74cf0951764ba0",
+      "review_batch": "W11-batch6",
+      "card_sha256": "10a0b4c9506533c38c3607c28d8d80ec14f44b9bb3a0cacc1205130fb51c44a2",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "worker": "W11",
+      "local_id": "M0344",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": null,
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-001",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 2"
+      ],
+      "sha256_computed": "cd4e929a83143f9157283d2d9de7e6a99bca40f57e16d62a9b1f3ba33070801c",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "98b0e7f3742ab8d98daf490146dcda7987b99045bf849956019cce451978963f",
+      "bound_card_sha256": "f2b11234ceb1551e1ac0ececc74098c340be3872570f7c68a093ce7524bec584",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-001.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-001",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-002",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 5",
+        "Original physical PDF p. 35",
+        "Original physical PDF p. 36"
+      ],
+      "sha256_computed": "7461752014254c9f6dc50a39827f17718d0060bab33b24d0223b5025342df4de",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "48ae2ea957c0003396c96f739a5fa85d083df98ef257534e77938d256cbe94f7",
+      "bound_card_sha256": "91c7f5872dfa25170a0d9d1a09c9afccf0264660e938c8f7a39471bb48f7a0af",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-002.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-002",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 3"
+      ],
+      "sha256_computed": "d58057f0a9c81e0dcdf8d21dcbf5335416f2251fc3d7399419cd785400849e2c",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "10a07133a493bb28990c70c3ed307e4b47bb4e024b4ffc5a9e412a98c7df6c59",
+      "bound_card_sha256": "7e4cc3e7f40c48a28d6cdd6feea9d2f9debe3d44aab8495a7fc4d94fc74cc125",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-003.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-003",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 3"
+      ],
+      "sha256_computed": "05aeac5a1a8e9a39a6099eb0facfb4019d3e9eddbc33fee21aa57bd5388f0340",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "aa7d4dee05485730abbf5fbdbaf002e60967a2bd45144b8489b6166c581a491e",
+      "bound_card_sha256": "28089b27e1ad68dba173466d287841bf663b0c0f5330aece98f0e51d95a9d738",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-004.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-004",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local journal title/author/year/volume/pages/DOI and arXiv version printed on first page match ledger"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-005",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 6"
+      ],
+      "sha256_computed": "ed59e260666c23b0b563afa9a31df4c933ad4bf707f16741cd78cc5e387f0896",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "86fb29b8959637a10a4173e7bbab9db03a1994b505ba6a31ffbe9a6070e90545",
+      "bound_card_sha256": "f289062e986a1c4beac64e633bbf885ef53626e940ae5b4276f93f94e9d705dc",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-005.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-005",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-006",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 3"
+      ],
+      "sha256_computed": "592e106c1d26afaa03171a6091ab13296152e767a91ac41bcd226a80aec708cb",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "5b8eb5165b3ede01db58ce875d2bab013b9bc7e123aa539848b3e9ee3879861e",
+      "bound_card_sha256": "e842cf3c1251dd87aa59a5c62d64628a2366df42500c1141c1df8d874ad1f56e",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-006.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-006",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 2"
+      ],
+      "sha256_computed": "173dc032bb9d6b67711c41abea7af4397891a0c640c2ff76b50d012ace7a5474",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "9ccb95d7b9babc89214b4ef06d59f72202e76a4d0230f16fc7496a795b2ed983",
+      "bound_card_sha256": "080721110b0c90718a4dcb9eefafdff59cee962f85e1936ce03add413c279620",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-007.md#full-text-coverage-note",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-007",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 3"
+      ],
+      "sha256_computed": "aa15b6a6a9b8f2b091455c5cc5d5228b6c8fd23991b6da8527ab7016b6aa5d31",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "20867b2c5e5187d7faeae4df820fb08e098a34ed0de6ae88f73779cb6176fedb",
+      "bound_card_sha256": "b9dc560f6456d85c137a96328e12f5e8b411e791b7e089dae87059c420616e1c",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-008.md#full-text-coverage-note",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-008",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 10",
+        "Original physical PDF p. 11"
+      ],
+      "sha256_computed": "c1f5a9108dd17f03bb2b34a1529acbc02cb160dcd7328aa8d9cfb117d949019f",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "d4ac20333c019d7302adf035bd40824b97eac73c90b3ff92a109be9112c00721",
+      "bound_card_sha256": "0d4effedaa335fa5e77eb9ad42caa1da7c35855acc411e4fe9ab4b152d7c5207",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-009.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-009",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 8",
+        "Original physical PDF p. 10",
+        "Original physical PDF p. 12"
+      ],
+      "sha256_computed": "7b739cdea752e52967a010953e648d4b536be170446c53c720f8aad7b4bf95ed",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "dd91076a9dd37cf8eb01704d19bb939757b6510e26ea6a681e26eb2f7dee8ff9",
+      "bound_card_sha256": "14ed4812aea57103979d6fb788b0dd8eb40efb0a56ed6e7194cf939fa40bea4b",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-010.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-010",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 11",
+        "Original physical PDF p. 14",
+        "Original physical PDF p. 57"
+      ],
+      "sha256_computed": "49428efe87cf9ca81eff7fcca32d704f261493a7090b7224d228bec4d25b5d7a",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "36b7349585556fa458f2e9bfefb5247d72f9e15a06e59811cfc8c00e9ac4523c",
+      "bound_card_sha256": "074e11c6f848cafa2c09c1cf195d6092e582e0d58c9fda973a6f727fb609a43d",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-011.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-011",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-012",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 8",
+        "Original physical PDF p. 16"
+      ],
+      "sha256_computed": "06be00f4574069808597ee007947e8bc7576aed3069ae3ea6c0af2d08afd95b7",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "515e65927ef737fb7b54a40d061f8a1d6dbd2a9c954b3abff9604826d13a65b7",
+      "bound_card_sha256": "772beb43f1bbb7f9b07f21104e2fa84b014dead1bdde726a5e0ff4cbc7fe0de0",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-012.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-012",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-013",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 8",
+        "Original physical PDF p. 11"
+      ],
+      "sha256_computed": "57a1ea2609964be2d9b5efd82c66c7efd1c19be3ec1f7de93208bb9f49ee6c78",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "5613cfc1facfdef6231d6d907923a180b200ff2ffb954ea22d75a346afb98040",
+      "bound_card_sha256": "558f6ffbfc2cabc8154ee9f1611b7041cace1e656171103c59bd63d08ddb84d6",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-013.md#full-text-coverage-note",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-013",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-014",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 3"
+      ],
+      "sha256_computed": "ff9729a5c3dc499e6641c84edd1d6cdb99ed08cf77a09c8c43c5b50a63265ff6",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "b66e1040c2f624e9316e80b2f543f60a3197c2c9e0950fc2b698a7d4d15c1ddb",
+      "bound_card_sha256": "210be03fadac33bdedd751efe2014209eed60dbbc1c6af5258bd39a5cb1dd0c1",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-014.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-014",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-015",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 4"
+      ],
+      "sha256_computed": "0536851fddb683a2c46da844e2e75c9f1a343320b43366683baa5916c60efba5",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "9ebeda7180c61f3e5f18cf5a88c050bb1cf44af956ca22cf00b5c04131360059",
+      "bound_card_sha256": "7d498988aba521497a70e814857f1015a633d86e4480698b4b40886dc38293d4",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-015.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-015",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-016",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": "8989dc217ae3c603fcf91adab0dd6a05e26497dbe05976c4613cfc325b0561f9",
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。",
+      "bound_source_record_sha256": "7d3ce92304f5150d2c05a6131c4e3b519d3ff83cbc8dbf006994eb426232315c",
+      "bound_card_sha256": null,
+      "reading_status_at_review": "identity_page_only",
+      "review_batch": "6"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-017",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 9"
+      ],
+      "sha256_computed": "de95f4f20b0d728175e8849c4bf057408d3484d5157671bc93af3fd693cb6349",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "aa1ce876e46850c48cfa82b8b50789b4222c8b793124c767e373c2191399d3e8",
+      "bound_card_sha256": "f3dd3c4311c793a571f98243f3e876f4eed980eeedb6d970eb4973d660c0c2b6",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-017.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-017",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-018",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 7",
+        "Original physical PDF p. 10",
+        "Original physical PDF p. 11"
+      ],
+      "sha256_computed": "5f15a5a8e5651880a03693ee5f936950bca0c70e074c0620c0a66d476d22f605",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "715cf2faf253f71992d97398cd8d6546b1dcb902dadd1398f5c9633419e1ac8b",
+      "bound_card_sha256": "1a7d49f118f52aa68c998f7e54c00f702cdbb3a5db588e348211ce38195af132",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-018.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-018",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-019",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 3"
+      ],
+      "sha256_computed": "bf375ca36655db80bcc63d03f5cd14784011ad5c9a7b3e8d25e7438df686395f",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "091bc898e9afb67f7bc01c228e1e20fa4b1b5435f01c037c44bd535d08ac0548",
+      "bound_card_sha256": "50461aa6e0531cf7d1328001dd3eeae6681fc603931b8e707275aa570080d860",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-019.md#full-text-coverage-note",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-019",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-020",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 9",
+        "Original physical PDF p. 14",
+        "Original physical PDF p. 21"
+      ],
+      "sha256_computed": "26d4cd3d937f6fd9d1e5a056b7b5092160852cd92267148476e92f6b0b10568c",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "30290df2dfd62041bfe986ba6f19451998673e94bf6e6bdb7595271f43710b5a",
+      "bound_card_sha256": "f376a7683b28326c33d963c0f9ac1940b17e2cd2ff0ab7a232387fbba711536e",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-020.md#full-text-coverage-note",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-020",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-021",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 18",
+        "Original physical PDF p. 23",
+        "Original physical PDF p. 30"
+      ],
+      "sha256_computed": "af7a641e531bae5fc99d848361055cec5991c4767d5624a7ea8a5fc80001599a",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "1fc64a572d5d2c103511c57e268151403a16e5fd02d34fb3d835176b0af5566d",
+      "bound_card_sha256": "231f406e48ab85beecfc794fd2ec0d89a5f9523f4cf00bbb4e930d82301fff63",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-021.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-021",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-022",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 8",
+        "Original physical PDF p. 21"
+      ],
+      "sha256_computed": "89e63e3dd366a764c2600a42cf4bf67581850ad2a59b623bbba09c89960bb45a",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "e17c938725127ef08c5d443c19d7ef5d724973921b2fefe2977dc96de9a13d50",
+      "bound_card_sha256": "8b71066bbd389c9f36a58ca99332a7a464376445543f241b5949990e9eceb99e",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-022.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-022",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-023",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 12"
+      ],
+      "sha256_computed": "36083a26a53bee8daba103f0e3e427fd5f79456d107929bf119981fa792b4b25",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "b085648195f7d1362711cad170c8f199d228a45b39705f488bb3e4e9a0a55933",
+      "bound_card_sha256": "c149d7a7e103a35e794895b1eb4725a9ccc6ca217a61eca9b5d9414eab61130b",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-023.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-023",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-024",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 15",
+        "Original physical PDF p. 16"
+      ],
+      "sha256_computed": "ae1ed93539d2ff8d99f278c06ddf7cf5d66935c3a4ab0419a920629035e30e8b",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "3acb7658ec3fc8296164307597639c51eeb86606d0ba2b17d94a711481753cda",
+      "bound_card_sha256": "26adf5b7d7ff8cc727c7e09b6e8de49015d461ccc8ee644a6399cf0a44c74119",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-024.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-024",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-025",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 13",
+        "Original physical PDF p. 20",
+        "Original physical PDF p. 21",
+        "Original physical PDF p. 24"
+      ],
+      "sha256_computed": "ae81468736a4015e02b130e84302f488ae2a60d3fc700dd4464666acde1d3498",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "2196f85c723fe44bdc6418e6086de2293c757fdce2df202339d88017e868fdce",
+      "bound_card_sha256": "6891e04a50cff9f0854b9d1e42ecfe86295934df07d9273d083a6a24de4450c4",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-025.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-025",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-026",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": "e3dd204253c292a85b2760c369e5bbb8725b062b733ae8a62b072cc3e0ee0044",
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。",
+      "bound_source_record_sha256": "22415d08cc147755847b051079c649f8a3e0f420e09d4fd54e58dea1a348b4c7",
+      "bound_card_sha256": null,
+      "reading_status_at_review": "identity_page_only",
+      "review_batch": "6"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-027",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 8"
+      ],
+      "sha256_computed": "b5b268a9abb4bcffda120582ef1cbe3df81c6817473108b8d317b971457524f6",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "2af60bf04623f1bccb954bbc1f7f3f4fe490e68160392d150b5771540ff8c74e",
+      "bound_card_sha256": "26f22a26129777d6a4409dcbe4be156981dbaaa79dc28a0f559f8c4dc567c3d9",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-027.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-027",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-028",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 5",
+        "Original physical PDF p. 10"
+      ],
+      "sha256_computed": "91e665feadc729432ddd33081ce0c1ac024d511d7899fb396d7e4be6031551e8",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "4ec5c8a62a1a7b4dbb4da652c4f1ca257f413e3534a44809ba82adcfffcf63d7",
+      "bound_card_sha256": "f2011c1071432b5d3e951dd080d9980537f57050e4559ac22eae9e6280d387b8",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-028.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-028",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-029",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 5"
+      ],
+      "sha256_computed": "d22b515e3eb3f787f4871aeb3fa9473ea910068d6ab39b57ae7d998eecab65e6",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "2a3053361308a5e066130788b160cf2eaa9caaf5c6bcf9e3a53750ae5317fe37",
+      "bound_card_sha256": "60288dafc15363c25f9132971777120781535080ca6bdb238d53ce55f954602d",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-029.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-029",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-030",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 7"
+      ],
+      "sha256_computed": "36168eb90e4dd6e8ef5412e313415469ecb36f530d7b5a190aad445ce7d97c05",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "87dbe49c1034e9b4c59541ca4b31c95d19ab783a5f6b06f32a8dea059f3f4de1",
+      "bound_card_sha256": "9f7fe7931dbba48fa67b6914956c202d266748beed1b388f93b5e591bd2fb1f8",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-030.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-030",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-031",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 4",
+        "Original physical PDF p. 5",
+        "Original physical PDF p. 6"
+      ],
+      "sha256_computed": "3064eb3b3db5eb0558e3df7579a72e51b14018874eb6b19f0caa8b1feeaffcad",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "bound_source_record_sha256": "b2fa18a9d9aff4cc81054f6a98ec8092f4b18e8d7cbaa63318cb03066e384283",
+      "bound_card_sha256": "213f772ee964a93ceb967b72d9a1af5e58a740691d503dad3ef89b74c26b345b",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-031.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-031",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-032",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original physical PDF p. 1: title/authors/version identity",
+        "Original physical PDF p. 1",
+        "Original physical PDF p. 2",
+        "Original physical PDF p. 3",
+        "Original physical PDF p. 4"
+      ],
+      "sha256_computed": "498a05e746649bd16e866638bc0de5e4ce8b13a860d25814c0fd48eec982be9d",
+      "review_scope": "Core statements and selected key proof passages inspected; section coverage assessed, no reviewer fulltext reread",
+      "reason": "核心数学与关键步骤已核；补齐连续逐节/附录证据，002/028最终覆盖边界已对本地原PDF复核。接受reader完整阅读证据，非审核员全文重复通读。",
+      "external_identity_evidence": "Parent reports D03 official arXiv abs/API/v1 PDF matched title/authors/version/hash; not independently re-fetched by R06",
+      "bound_source_record_sha256": "a97356623eaf3debabf47657c5f8ecb2261b7efc848b36f4ba2c6d593ab8270b",
+      "bound_card_sha256": "9d895b5d7c70d1ea5ce1fb5ee297e27e0c10fb6f7b24f2858cc328d35f4f1e20",
+      "reading_status_at_review": "fulltext_read",
+      "review_batch": "7",
+      "statement_passages_checked": true,
+      "coverage_map": "cards/W12-032.md#full-text-coverage-physical-pdf-pages",
+      "identity_check_evidence": "reviews/R06/W12_identity_checks.json#W12-032",
+      "identity_verified_scope": "Independent local first-page title/full authors/printed arXiv version, with actual file SHA and page count crosscheck",
+      "metadata_verification_scope": "Local identity verified; external publication DOI/year/equivalence not independently checked in this followup; metadata flag remains false"
+    },
+    {
+      "worker": "W12",
+      "local_id": "W12-033",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "sha256_computed": "0006cee69987c4321ed150770c13f475c8b576834805a3dd738c90e4ea020d75",
+      "review_scope": "not checked against original PDF in this batch",
+      "reason": "无蒸馏卡，下载/候选记录不计已读通过。",
+      "bound_source_record_sha256": "6a0f9405a55f50b936c17bc75d276d78325f358e8eeef38149d106cbf8243eb1",
+      "bound_card_sha256": null,
+      "reading_status_at_review": "identity_page_only",
+      "review_batch": "6"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0110",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0111",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0147",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0148",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0149",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0150",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "passed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF physical p. 1",
+        "Original PDF physical p. 2",
+        "Original PDF physical p. 11",
+        "Original PDF physical p. 12"
+      ],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "原文非负monic因素、reciprocal Thm1.1与epsilon放松边界支持卡；只作有截止的计算方法。",
+      "sha256_computed": "326e6982da29388c2d084ad2243b91a38623f8548859da4fe11ba3354145f13c"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0151",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0152",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0153",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0154",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0155",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0156",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0157",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0158",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0159",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0160",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0161",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0162",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0163",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0164",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0165",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0166",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0167",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0168",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0169",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0170",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0226",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0227",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0228",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0229",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0230",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0231",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0232",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0233",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0234",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0235",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0236",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "passed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF physical p. 2",
+        "Original PDF physical p. 3"
+      ],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "原文GNS定义、Thms1–2及旋转零点证明开端吻合；只作PTF边界工具。",
+      "sha256_computed": "f6038d34f943a311b4b58e05832f4d89c15a9156b2f47890d6ad9a9247185bfc"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0237",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0238",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0239",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0240",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0241",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0242",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0243",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0244",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0245",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0246",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0247",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0248",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0249",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0250",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0251",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0252",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0253",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0254",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0255",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0256",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "M0257",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X001",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "passed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original PDF physical p. 1",
+        "Original PDF physical p. 2",
+        "Original PDF physical p. 3"
+      ],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "Thms4/5及Lemma6支持epsilon放松构造，B_n一次项=-t_n<0明确，不能作原非负因子问题反例。",
+      "sha256_computed": "4921cdb325b53869f82a637aa53f775f2b276a00b6c9bdcf63304ba1d4ec93da"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X002",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X003",
+      "tools": [
+        "probability-gaussian-polynomial-approximation"
+      ],
+      "decision": "needs_revision",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Original PDF physical p. 2",
+        "Original PDF physical p. 4",
+        "Original PDF physical p. 5",
+        "Original PDF physical p. 6"
+      ],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "官方作者16页PDF亲核：Hermite归一化、Thm2.9和尾证明支持卡的B167阶下界推导；但卡read_pages [1,3,4]把印刷页当physical，实际核心为physical2,4,5,6（封面+1），完整证明physical6。无本地PDF/hash，不能计取得全文。",
+      "official_source": "https://www.cs.cmu.edu/~odonnell/papers/gaussian-noise-sensitivity.pdf"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X004",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X005",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X006",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X007",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X008",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X009",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X010",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    },
+    {
+      "worker": "W18",
+      "local_id": "W18-X011",
+      "tools": [
+        "probability-integer-polynomial-factorization"
+      ],
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "review_scope": "listed theorem/proof passages; no blanket fulltext certification",
+      "reason": "本轮未回核原文；卡或下载/候选不能计通过。"
+    }
+  ],
+  "skill_decisions": [
+    {
+      "skill": "probability-logconcave-moment-geometry",
+      "decision": "passed",
+      "reason": "31独立完整paper阅读证据接受，身份显式核真；六修原页/全部runtime传递、正反例与C153/C154映射通过。最终状态句已核，全部当前文件及所用PDF绑定manifest；五partial不计全文配额。",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "skill": "probability-random-matrix-tensor",
+      "decision": "passed",
+      "reason": "30完整阅读证据接受、三identity-only不计；所有核心skill数学断言/关键证明步骤、mapping与正反例核验通过，全部修订落实。作为有明确未证接口的工具库通过，并非解决C120/C205/C206/B171/B172。",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W12.json"
+    },
+    {
+      "skill": "probability-integer-polynomial-factorization",
+      "decision": "passed",
+      "reason": "阶段性工具用途：PGF归一化等价、任意有限支撑、非负因子与epsilon负系数区别正确；QQ有限枚举重跑计数吻合，未证明全局。未审来源不自动通过，34来源不是34已读。"
+    },
+    {
+      "skill": "probability-gaussian-polynomial-approximation",
+      "decision": "needs_revision",
+      "reason": "Hermite variance-transfer推导与正反例正确，不声称尖锐常数；X003物理页/读取范围须修并保留partial。35来源不是35已读。"
+    }
+  ],
+  "mapping_decisions": [
+    {
+      "problem_id": "C153",
+      "tool": "probability-logconcave-moment-geometry",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "直接目标与辅助用途、任意范数/全Zp/对称性/量词和维数常数边界正确；不把辅助定理视为C153/C154解答，不穷尽判定当前开放状态。",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "problem_id": "C154",
+      "tool": "probability-logconcave-moment-geometry",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "直接目标与辅助用途、任意范数/全Zp/对称性/量词和维数常数边界正确；不把辅助定理视为C153/C154解答，不穷尽判定当前开放状态。",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "problem_id": "C153",
+      "tool": "probability-logconcave-moment-geometry",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "直接目标与辅助用途、任意范数/全Zp/对称性/量词和维数常数边界正确；不把辅助定理视为C153/C154解答，不穷尽判定当前开放状态。",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "problem_id": "C154",
+      "tool": "probability-logconcave-moment-geometry",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "直接目标与辅助用途、任意范数/全Zp/对称性/量词和维数常数边界正确；不把辅助定理视为C153/C154解答，不穷尽判定当前开放状态。",
+      "file_hash_manifest": "reviews/R06/file_hash_manifest_W11.json"
+    },
+    {
+      "problem_id": "C120",
+      "tool": "probability-random-matrix-tensor",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "最新版direct/context/boundary区分正确；C120低p缺口、C205/C206正式题与Wishart边界、B171/B172历史辅助均保留；不宣称当前开放状态已穷尽。"
+    },
+    {
+      "problem_id": "C205",
+      "tool": "probability-random-matrix-tensor",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "最新版direct/context/boundary区分正确；C120低p缺口、C205/C206正式题与Wishart边界、B171/B172历史辅助均保留；不宣称当前开放状态已穷尽。"
+    },
+    {
+      "problem_id": "C206",
+      "tool": "probability-random-matrix-tensor",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "最新版direct/context/boundary区分正确；C120低p缺口、C205/C206正式题与Wishart边界、B171/B172历史辅助均保留；不宣称当前开放状态已穷尽。"
+    },
+    {
+      "problem_id": "B171",
+      "tool": "probability-random-matrix-tensor",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "最新版direct/context/boundary区分正确；C120低p缺口、C205/C206正式题与Wishart边界、B171/B172历史辅助均保留；不宣称当前开放状态已穷尽。"
+    },
+    {
+      "problem_id": "B172",
+      "tool": "probability-random-matrix-tensor",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "最新版direct/context/boundary区分正确；C120低p缺口、C205/C206正式题与Wishart边界、B171/B172历史辅助均保留；不宣称当前开放状态已穷尽。"
+    },
+    {
+      "problem_id": "A175",
+      "tool": "probability-integer-polynomial-factorization",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "确认方法用途与显式未证接口；不确认当前开放状态，也不将未审候选源当证据。"
+    },
+    {
+      "problem_id": "B167",
+      "tool": "probability-gaussian-polynomial-approximation",
+      "role": "direct",
+      "decision": "confirmed",
+      "reason": "确认方法用途与显式未证接口；不确认当前开放状态，也不将未审候选源当证据。"
+    },
+    {
+      "problem_id": "C168",
+      "tool": "probability-gaussian-polynomial-approximation",
+      "role": "auxiliary",
+      "decision": "confirmed",
+      "reason": "确认方法用途与显式未证接口；不确认当前开放状态，也不将未审候选源当证据。"
+    }
+  ],
+  "findings": [
+    {
+      "priority": "medium",
+      "worker": "W18",
+      "source_local_id": "W18-X003",
+      "file": "workers/W18/cards/W18-X003.md",
+      "issue": "官方作者16页PDF亲核：Hermite归一化、Thm2.9和尾证明支持卡的B167阶下界推导；但卡read_pages [1,3,4]把印刷页当physical，实际核心为physical2,4,5,6（封面+1），完整证明physical6。无本地PDF/hash，不能计取得全文。",
+      "required_fix": "区分印刷manuscript/physical页，将定义与Thm2.9证明覆盖加入read_pages；按下载分工取得完整PDF并核hash，仍维持partial_read。"
+    }
+  ],
+  "limitations": [
+    "W11 31完整独立来源接受，审核员核实所用断言/证明关键步及覆盖结构而非重复全文阅读；metadata未外核不自动true。五partial不计全文数。",
+    "M0304 B(b1)源级显示式隔离；PostPrint只核p4，不算另篇全文或整版本等价。",
+    "W12冻结114文件manifest保持0差异；W18仍未完成最终审核，故R06整体review_complete=false。"
+  ],
+  "review_complete": false,
+  "batch": "W11-final-batch8",
+  "worker_review_complete": {
+    "W12": true,
+    "W11": true,
+    "W18": false
+  },
+  "stage_hash_manifest_W11": "reviews/R06/stage_hash_manifest_W11_batch7.json",
+  "final_manifest_W11": "reviews/R06/file_hash_manifest_W11.json"
+}

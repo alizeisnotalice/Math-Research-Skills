@@ -1,0 +1,3797 @@
+[
+  {
+    "local_id": "M0364",
+    "title": "Probability: Theory and Examples, 5th ed.",
+    "authors": [
+      "Rick Durrett"
+    ],
+    "year": 2019,
+    "kind": "book",
+    "doi": "10.1017/9781108591034",
+    "url": "https://doi.org/10.1017/9781108591034",
+    "alternate_urls": [],
+    "version": "Version 5, January 11, 2019; complete 490-page author-hosted PDF already present in D04 local papers; W01 read complete Chapter 1 and complete §§3.2.2, 3.3.2, 3.10, 4.1.2, 4.1.3, 4.2 and 4.6.",
+    "reason": "Complete measure-theory chapter plus regular conditional probability and UI/L1 martingale sections provide foundational statements and proof mechanisms shared by the tool.",
+    "topics": [
+      "A001",
+      "A007",
+      "A008",
+      "A127",
+      "A136"
+    ],
+    "metadata_status": "title_author_edition_verified_from_local_title_page_and_contents; publisher DOI inherited from seed record",
+    "identity_status": "verified_title_author_edition_in_local_PDF",
+    "local_pdf": "evidence/fulltexts/M0364.pdf",
+    "sha256": "aeac36cbf5e44c53d69fa60a2d29a393e2d0e8c955ee103bd845d925fd910886",
+    "reading_status": "selected_chapters_read",
+    "read_pages": [
+      "PDF pp.9–50 (printed pp.1–42): complete Chapter 1, Measure Theory",
+      "PDF pp.222–224 (printed pp.214–216): complete §4.1.3 Regular Conditional Probabilities",
+      "PDF pp.252–257 (printed pp.244–249): complete §4.6 Uniform Integrability, Convergence in L1, including its exercise continuation on physical p.257",
+      "PDF pp.126–132 (printed pp.118–124): complete §3.2.2 Theory",
+      "PDF pp.140–141 (printed pp.132–133): complete §3.3.2 Weak Convergence",
+      "PDF pp.204–212 (printed pp.196–204): complete §3.10 Limit Theorems in R^d",
+      "PDF pp.218–221 (printed pp.210–213): complete §4.1.2 Properties of Conditional Expectation",
+      "PDF pp.225–231 (printed pp.217–223): complete §4.2 Martingales, Almost Sure Convergence"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "complete local PDF acquired by D04; read by W01; no W01 download",
+    "seed_id": "M0364",
+    "full_document_acquired": true,
+    "document_pages": 490,
+    "full_book_acquired": true,
+    "pdf_scope": "complete_fifth_edition_book_acquired",
+    "read_units": [
+      {
+        "unit": "Chapter 1 Measure Theory",
+        "pdf_pages": [
+          9,
+          50
+        ],
+        "printed_pages": [
+          1,
+          42
+        ],
+        "coverage": "complete_chapter_read",
+        "complete": true,
+        "notes": "Read §§1.1–1.7, exercises/examples and chapter-end boundary; Chapter 2 begins physical p.51."
+      },
+      {
+        "unit": "§4.1.3 Regular Conditional Probabilities",
+        "pdf_pages": [
+          222,
+          224
+        ],
+        "printed_pages": [
+          214,
+          216
+        ],
+        "coverage": "complete_section_read",
+        "complete": true,
+        "notes": "Includes Theorems 4.1.16–4.1.18, examples, proof and exercises; §4.2 begins physical p.225."
+      },
+      {
+        "unit": "§4.6 Uniform Integrability, Convergence in L1",
+        "pdf_pages": [
+          252,
+          257
+        ],
+        "printed_pages": [
+          244,
+          249
+        ],
+        "coverage": "complete_section_read",
+        "complete": true,
+        "notes": "Read the entire section, including proofs/examples and all seven exercise statements 4.6.1–4.6.7 across PDF pp.256–257; §4.7 begins on physical p.257 after the final exercise."
+      },
+      {
+        "unit": "§3.2.2 Theory",
+        "pdf_pages": [
+          126,
+          132
+        ],
+        "printed_pages": [
+          118,
+          124
+        ],
+        "coverage": "complete_section_read",
+        "complete": true,
+        "notes": "Read the inverse-CDF representation proof, bounded-continuous characterization, continuous mapping theorem, Portmanteau equivalences, Helly selection, loss-of-mass/tightness criterion, coercive-moment tightness bound, and subsection exercises. §3.3 begins at physical p.133."
+      },
+      {
+        "unit": "§3.3.2 Weak Convergence",
+        "pdf_pages": [
+          140,
+          141
+        ],
+        "printed_pages": [
+          132,
+          133
+        ],
+        "coverage": "complete_section_read",
+        "complete": true,
+        "notes": "Read Theorem 3.3.17, the full characteristic-function continuity/tightness proof, continuity-at-zero caveat, subsequence uniqueness step, and subsection exercises. §3.3.3 begins at physical p.142."
+      },
+      {
+        "unit": "§3.10 Limit Theorems in R^d",
+        "pdf_pages": [
+          204,
+          212
+        ],
+        "printed_pages": [
+          196,
+          204
+        ],
+        "coverage": "complete_section_read",
+        "complete": true,
+        "notes": "Read the complete finite-dimensional chapter subsection: metric Portmanteau, distribution-CDF convergence, tight subsequence extraction, characteristic functions, Cramér–Wold, multivariate CLT, examples and exercises. Chapter 4 begins at physical p.213."
+      },
+      {
+        "unit": "§4.1.2 Properties of Conditional Expectation",
+        "pdf_pages": [
+          218,
+          221
+        ],
+        "printed_pages": [
+          210,
+          213
+        ],
+        "coverage": "complete_section_read",
+        "complete": true,
+        "notes": "Read Theorems 4.1.9–4.1.15 and proofs: order/monotone convergence, conditional Jensen, Lp contraction, tower, pull-out under integrability, and L2 projection; §4.1.3 begins at physical p.222."
+      },
+      {
+        "unit": "§4.2 Martingales, Almost Sure Convergence",
+        "pdf_pages": [
+          225,
+          231
+        ],
+        "printed_pages": [
+          217,
+          223
+        ],
+        "coverage": "complete_section_read",
+        "complete": true,
+        "notes": "Read definitions/examples, conditional iteration, convex transforms, bounded predictable transforms/stopping, upcrossing inequality and a.s. convergence proofs plus counterexamples; §4.3 begins at physical p.232."
+      }
+    ],
+    "selected_sections_read": [
+      "§4.1.3 Regular Conditional Probabilities, PDF pp.222–224",
+      "§4.6 Uniform Integrability, Convergence in L1, including exercises 4.6.1–4.6.7, PDF pp.252–257",
+      "§3.2.2 Theory, PDF pp.126–132",
+      "§3.3.2 Weak Convergence, PDF pp.140–141",
+      "§3.10 Limit Theorems in R^d, PDF pp.204–212",
+      "§4.1.2 Properties of Conditional Expectation, PDF pp.218–221",
+      "§4.2 Martingales, Almost Sure Convergence, PDF pp.225–231"
+    ],
+    "selected_chapters_read": [
+      "Chapter 1 Measure Theory, PDF pp.9–50"
+    ],
+    "document_type": "complete 490-page book PDF",
+    "section_coverage_complete": false,
+    "section_coverage": [
+      {
+        "unit": "Chapter 1 §1.1 Probability spaces and measure extension",
+        "pdf_pages": [
+          9,
+          17
+        ],
+        "unit_type": "chapter_section",
+        "content_and_proof_mechanism": "Read σ-fields, countable additivity, continuity of measures, Stieltjes laws and semialgebra/algebra extension. The text states the extension theorem and moves the longer Carathéodory proof to Appendix A.1."
+      },
+      {
+        "unit": "Chapter 1 §§1.2–1.3 Distributions and random variables",
+        "pdf_pages": [
+          18,
+          25
+        ],
+        "unit_type": "chapter_sections",
+        "content_and_proof_mechanism": "Read push-forward law/CDF properties and inverse-transform construction; measurability is proved by generators, composition, and countable sup/inf limits."
+      },
+      {
+        "unit": "Chapter 1 §§1.4–1.5 Integration and limit theorems",
+        "pdf_pages": [
+          26,
+          35
+        ],
+        "unit_type": "chapter_sections",
+        "content_and_proof_mechanism": "Read the four-stage integral definition, monotone/Fatou/bounded/dominated convergence proofs and Jensen/Hölder. Dominated convergence follows by applying Fatou to f_n+g and −f_n."
+      },
+      {
+        "unit": "Chapter 1 §1.6 Expected value",
+        "pdf_pages": [
+          36,
+          44
+        ],
+        "unit_type": "chapter_section",
+        "content_and_proof_mechanism": "Read expectation, inequalities, integration-to-limit including coercive-moment uniform-tail truncation (Theorem 1.6.8), and the change-of-variables identity proved from indicators through simple/nonnegative/general functions."
+      },
+      {
+        "unit": "Chapter 1 §1.7 Product measures and Fubini",
+        "pdf_pages": [
+          45,
+          50
+        ],
+        "unit_type": "chapter_section",
+        "content_and_proof_mechanism": "Read product measure from rectangle values and Fubini via measurable sections, π–λ, simple functions, MCT and positive/negative parts; examples show why absolute integrability and σ-finiteness matter."
+      },
+      {
+        "unit": "Chapter 4 §4.1.3 Regular Conditional Probabilities",
+        "pdf_pages": [
+          222,
+          224
+        ],
+        "unit_type": "selected_complete_section",
+        "content_and_proof_mechanism": "Read kernel definition and integral formula, plus existence for the author’s “nice” measurable state spaces: choose a measurable embedding into R, construct conditional CDF versions on a countable rational set, discard a common null set, extend to a distribution function, then use π–λ to obtain all Borel events.",
+        "printed_pages": [
+          214,
+          216
+        ]
+      },
+      {
+        "unit": "Chapter 4 §4.6 Uniform Integrability, Convergence in L1, including exercises 4.6.1–4.6.7",
+        "pdf_pages": [
+          252,
+          257
+        ],
+        "unit_type": "selected_complete_section",
+        "content_and_proof_mechanism": "Read UI definition and tail bound; conditional-expectation UI, de la Vallée–Poussin sufficient condition, Vitali equivalence for convergence in probability, submartingale/martingale convergence, representation X_n=E(X|F_n), and increasing-filtration conditional-expectation convergence. The complete exercise continuation on physical p.257 was also read; exercises 4.6.2–4.6.7 concern Lipschitz-function martingale derivatives/integral representation, L1 step approximation, a hitting-zero/infinity dichotomy, branching-process extinction/infinite growth, Bernoulli martingale endpoints, and conditional-expectation L1 convergence.",
+        "printed_pages": [
+          244,
+          249
+        ]
+      },
+      {
+        "unit": "§3.2.2 Theory: weak-convergence representation and tightness",
+        "pdf_pages": [
+          126,
+          132
+        ],
+        "printed_pages": [
+          118,
+          124
+        ],
+        "unit_type": "selected_complete_section",
+        "content_and_proof_mechanism": "Read Theorem 3.2.8 inverse-CDF coupling (exceptional flat intervals are countable), Theorem 3.2.9 bounded-continuous test characterization, Theorem 3.2.10 a.s.-continuous mapping, Theorem 3.2.11 Portmanteau, Helly diagonal selection, and Theorems 3.2.13–3.2.14 separating tightness from mass escape and deriving tightness from a coercive moment bound. The cited representation is the real-line version."
+      },
+      {
+        "unit": "§3.3.2 Weak Convergence: characteristic-function continuity theorem",
+        "pdf_pages": [
+          140,
+          141
+        ],
+        "printed_pages": [
+          132,
+          133
+        ],
+        "unit_type": "selected_complete_section",
+        "content_and_proof_mechanism": "Read Theorem 3.3.17 and its proof: average 1−φ over [−u,u] controls tail mass outside 2/u; continuity at zero makes the bound small, pointwise convergence plus bounded convergence transfers it to μ_n, tightness yields weakly convergent subsubsequences, and characteristic-function uniqueness plus the subsequence principle gives the full limit."
+      },
+      {
+        "unit": "§3.10 Limit Theorems in R^d",
+        "pdf_pages": [
+          204,
+          212
+        ],
+        "printed_pages": [
+          196,
+          204
+        ],
+        "unit_type": "selected_complete_section",
+        "content_and_proof_mechanism": "Read Theorem 3.10.1 metric Portmanteau via Lipschitz distance-to-closed-set approximants and range quantization; Theorem 3.10.2 good-rectangle CDF criterion; Theorem 3.10.3 rational-grid diagonal tight subsequence; Theorem 3.10.5 characteristic-function convergence; Theorem 3.10.6 Cramér–Wold; and the finite-second-moment multivariate CLT Theorem 3.10.7. Scope remains R^d."
+      },
+      {
+        "unit": "§4.1.2 Properties of Conditional Expectation",
+        "pdf_pages": [
+          218,
+          221
+        ],
+        "printed_pages": [
+          210,
+          213
+        ],
+        "unit_type": "selected_complete_section",
+        "content_and_proof_mechanism": "Read Theorems 4.1.9–4.1.15. Integral characterization proves linearity/order/monotone convergence; conditional Jensen uses a countable rational affine minorant family to manage null sets; Jensen gives Lp contraction; nested sigma-fields give tower identities; pull-out is proved from indicators to integrable products; L2 orthogonality yields the conditional-expectation projection."
+      },
+      {
+        "unit": "§4.2 Martingales, Almost Sure Convergence",
+        "pdf_pages": [
+          225,
+          231
+        ],
+        "printed_pages": [
+          217,
+          223
+        ],
+        "unit_type": "selected_complete_section",
+        "content_and_proof_mechanism": "Read martingale definitions and examples, iterated conditional inequalities, convex transforms, predictable betting/stopping, the (b−a)E U_n upcrossing bound, and the rational-interval/Fatou proof that sup_n E X_n^+<∞ for a submartingale yields a finite integrable a.s. limit. The nonnegative-supermartingale corollary and counterexamples distinguish a.s. convergence from L1 or probability convergence."
+      },
+      {
+        "unit": "§4.6 exercise continuation: Exercises 4.6.2–4.6.7",
+        "pdf_pages": [
+          257,
+          257
+        ],
+        "printed_pages": [
+          249,
+          249
+        ],
+        "unit_type": "selected_complete_section_continuation",
+        "content_and_proof_mechanism": "Read all six exercise statements before the §4.7 heading: (4.6.2) Lipschitz dyadic difference quotients form a martingale and recover f(b)-f(a) by integration; (4.6.3) conditional step approximants give L1 step-function density; (4.6.4) a conditional lower bound on eventual hitting-zero yields zero-or-divergence; (4.6.5) apply that dichotomy to branching-process extinction when p0>0; (4.6.6) a [0,1]-valued martingale has endpoint limit with P(limit=1)=X0; (4.6.7) increasing-filtration conditional expectations preserve L1 convergence. Exercise statements were read; their solutions were not claimed as read."
+      }
+    ],
+    "reading_scope_note": "Complete book PDF acquired; only the complete chapter/sections listed under read_units and section_coverage were read. This book is not fulltext_read.",
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/papers/M0364.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "aeac36cbf5e44c53d69fa60a2d29a393e2d0e8c955ee103bd845d925fd910886",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/M0364.md"
+  },
+  {
+    "local_id": "W01-D04-B06-001",
+    "title": "Conditioning as disintegration",
+    "authors": [
+      "J. T. Chang",
+      "D. Pollard"
+    ],
+    "year": 1997,
+    "kind": "paper",
+    "doi": "10.1111/1467-9574.00056",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/1467-9574.00056",
+    "alternate_urls": [
+      "https://www.cs.tufts.edu/comp/150FP/archive/david-pollard/ConditioningAsDisintegration.pdf"
+    ],
+    "version": "Statistica Neerlandica 51(3) (1997), pp.287–317; Tufts-hosted archive copy of the published article.",
+    "reason": "General measure disintegration and normalization/change-of-measure conditions for regular conditional distributions.",
+    "topics": [
+      "M0352",
+      "M0365"
+    ],
+    "scoped_candidate_for": [
+      "M0352",
+      "M0365"
+    ],
+    "candidate_scope": "General disintegration only under the theorem's σ-finite Radon, dominating-measure, countable-generation and singleton assumptions; conditional probabilities require the Theorem 2 normalization conditions. Does not replace an entire measure-theory book.",
+    "metadata_status": "title_authors_year_journal_pages_and_doi_checked_against_publisher_and_Tufts_archive_copy",
+    "identity_status": "verified_pdf_title_authors_pagination_and_scope",
+    "sha256": "64b4d074b831d2f33b3254af5edfdea367afa6e6ef181d4305dd737e6d1be144",
+    "pages": 31,
+    "pdf_scope": "complete_31_physical_page_published_article_PDF_printed_pp287_317",
+    "section_coverage": [
+      {
+        "unit": "Title, abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          5
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read the motivation and classical finite conditioning setup; the paper distinguishes conditional-expectation versions from a jointly selected kernel.",
+        "printed_pages": [
+          287,
+          291
+        ]
+      },
+      {
+        "unit": "§2 Disintegration definitions and general results",
+        "pdf_pages": [
+          6,
+          12
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read Definition 1 and Theorems 1–3; checked Radon/countability/singleton assumptions, the total-mass density identity, normalization, change of measure and composition/tower support proof.",
+        "printed_pages": [
+          292,
+          298
+        ]
+      },
+      {
+        "unit": "§3 Examples 5–13",
+        "pdf_pages": [
+          13,
+          25
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read EM, factorization/sufficiency, invariance, Basu, Bayesian proper/improper prior, graph-mixture, marginalization and Gibbs examples; examples are not promoted to general existence results.",
+        "printed_pages": [
+          299,
+          311
+        ]
+      },
+      {
+        "unit": "§4 Relation to conditional expectation",
+        "pdf_pages": [
+          26,
+          27
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read equations (19)–(20), which relate disintegration integrals to conditional expectations without replacing the kernel conditions.",
+        "printed_pages": [
+          312,
+          313
+        ]
+      },
+      {
+        "unit": "§5 History",
+        "pdf_pages": [
+          28,
+          28
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read historical discussion and cited context.",
+        "printed_pages": [
+          314,
+          314
+        ]
+      },
+      {
+        "unit": "§6 Appendix: existence proof",
+        "pdf_pages": [
+          29,
+          30
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read compact/finite-measure reduction, countable determining cone, Radon–Nikodym derivatives, Riesz representation, graph support, mixing identity and common-null uniqueness argument.",
+        "printed_pages": [
+          315,
+          316
+        ]
+      },
+      {
+        "unit": "§7 Acknowledgements and references",
+        "pdf_pages": [
+          30,
+          31
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read acknowledgements on p.30 and bibliography on pp.30–31; p.30 is shared with the end of the existence proof; cited sources are not counted as read.",
+        "printed_pages": [
+          316,
+          317
+        ]
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "local_pdf": "evidence/fulltexts/W01-D04-B06-001.pdf",
+    "document_pages": 31,
+    "document_type": "complete available article PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "Acquired and identity/hash/page-count checked by D04; full text read by W01; W01 did not download.",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–31: every physical page of the complete local article/report PDF read."
+    ],
+    "read_units": [
+      {
+        "unit": "entire available article/report PDF",
+        "pdf_pages": [
+          1,
+          31
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical PDF page read; section-by-section content and proof mechanisms are listed under section_coverage."
+      }
+    ],
+    "section_coverage_complete": true,
+    "fulltext_read_by": "W01",
+    "acquisition_source_id": "D04-W01-B06-001",
+    "acquisition_batch": "D04 batch06",
+    "local_fulltext_reading_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch06/papers/Chang_Pollard_1997_Conditioning_as_disintegration_Tufts.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "64b4d074b831d2f33b3254af5edfdea367afa6e6ef181d4305dd737e6d1be144",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-D04-B06-001.md"
+  },
+  {
+    "local_id": "W01-D04-B06-002",
+    "title": "Continuous Disintegrations of Gaussian Processes",
+    "authors": [
+      "Tom LaGatta"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1137/S0040585X9798587X",
+    "url": "https://arxiv.org/abs/1003.0975",
+    "alternate_urls": [
+      "https://epubs.siam.org/doi/10.1137/S0040585X9798587X",
+      "https://www.mathnet.ru/php/archive.phtml?jrnid=tvp&option_lang=eng&paperid=4441&wshow=paper"
+    ],
+    "version": "arXiv:1003.0975v6 (28 March 2011); Russian journal version Teoriya Veroyatnostei i ee Primeneniya 57(1) (2012), pp.192–203; English translation Theory Probab. Appl. 57(1) (2013), pp.151–162.",
+    "reason": "Gaussian-specific weak continuity criterion for regular conditional laws under linear observations.",
+    "topics": [
+      "M0352",
+      "M0365"
+    ],
+    "scoped_candidate_for": [
+      "M0365"
+    ],
+    "candidate_scope": "Theorem 2 is retained only under the actual finite Banach-norm ratio (2.19), with extension domain Y0=closure(ηKη*Y*), which the source explicitly prints on p.5. Theorem 1 is source-stated for path conditioning under a scalar covariance ratio, but this card does not independently verify a scalar-to-operator bridge; Theorem 4's scalar-to-operator step is contradicted by an exact finite Gaussian example. Theorem 3 necessity proof is unverified because p.8 identifies the ambient X norm with the Cameron–Martin H norm without an isometry and cites an unread external theorem.",
+    "metadata_status": "arxiv_record_SIAM_and_MathNet_journal_pagination_and_DOI_checked",
+    "identity_status": "verified_arxiv_title_author_version_and_document_scope",
+    "sha256": "cec212836e9116a30fb9a62ed943bbe6cd36beb624a1a77a8dd80a0b34fe1db3",
+    "pages": 9,
+    "pdf_scope": "complete_9_physical_page_arXiv_preprint; journal pagination differs",
+    "section_coverage": [
+      {
+        "unit": "§1 Introduction and Definition 1.1",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read the path-observation question, kernel/disintegration definition and weak continuity on a closed full-measure set; Theorem 1 gives the interval case. The source p.5 explicitly prints the closure bar on Y0; the earlier W01 card omitted it. Theorem 1's source-stated scalar-ratio path consequence is retained as source text, not as a verified scalar-to-operator bridge."
+      },
+      {
+        "unit": "§2 Probability measures on Banach spaces; Theorems 2–3",
+        "pdf_pages": [
+          3,
+          8
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read covariance/Cameron–Martin structure and Lemmas 2.2–2.3; Theorem 2 orthogonal Gaussian splitting under finite operator ratio; Theorem 3 p.8 uses an invalid general identification between ambient X norm and H norm and also cites unread Tarieladze–Vakhania; proof not used."
+      },
+      {
+        "unit": "Theorem 4 and references",
+        "pdf_pages": [
+          9,
+          9
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read the compact-parameter field statement and p.9 proof. The scalar ratio (2.29) does not yield the operator bound (2.32); exact finite Gaussian counterexample checked. References read. Do not extrapolate its scalar ratio to Theorem 2's operator bound."
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "local_pdf": "evidence/fulltexts/W01-D04-B06-002.pdf",
+    "document_pages": 9,
+    "document_type": "complete available article PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "Acquired and identity/hash/page-count checked by D04; full text read by W01; W01 did not download.",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–9: every physical page of the complete local article/report PDF read."
+    ],
+    "read_units": [
+      {
+        "unit": "entire available article/report PDF",
+        "pdf_pages": [
+          1,
+          9
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical PDF page read; section-by-section content and proof mechanisms are listed under section_coverage."
+      }
+    ],
+    "section_coverage_complete": true,
+    "fulltext_read_by": "W01",
+    "acquisition_source_id": "D04-W01-B06-002",
+    "acquisition_batch": "D04 batch06",
+    "local_fulltext_reading_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch06/papers/LaGatta_2011_Continuous_Disintegrations_Gaussian_Processes_arXiv1003.0975v6.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "cec212836e9116a30fb9a62ed943bbe6cd36beb624a1a77a8dd80a0b34fe1db3",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-D04-B06-002.md"
+  },
+  {
+    "local_id": "W01-D04-B06-003",
+    "title": "A Structural Approach to Coordinate-Free Statistics",
+    "authors": [
+      "Tom LaGatta",
+      "P. Richard Hahn"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1405.0110",
+    "alternate_urls": [
+      "https://doi.org/10.48550/arXiv.1405.0110"
+    ],
+    "version": "arXiv:1405.0110v2, revised 5 May 2014; complete 31-page preprint.",
+    "reason": "Coordinate-free continuous disintegration for finite-variance Radon laws and Gaussian measures under continuous linear observations.",
+    "topics": [
+      "M0352",
+      "M0365"
+    ],
+    "scoped_candidate_for": [
+      "M0352",
+      "M0365"
+    ],
+    "candidate_scope": "Theorem 2.5 proves an isomorphism in Cameron–Martin Hilbert topologies. The inverse is continuous into V when its domain carries that Hilbert topology and inclusion is continuous; the unsupported p.9 step is continuity from the observation-side Cameron–Martin range equipped with the weaker ambient subspace topology. Corollary 2.6 is excluded generically by the audited ℓ² compact-injection example. OLS/stochastic-OLS conclusions requiring continuity need a separately given/proved ambient-continuous estimator or bounded ambient inverse; Gaussianity/UII does not supply this automatically. Theorem 5.6's residual-convolution identity remains scoped to the continuous-estimator prerequisite.",
+    "metadata_status": "title_authors_and_version_verified_from_official_arxiv_record",
+    "identity_status": "verified_pdf_title_authors_version_and_31_page_scope",
+    "sha256": "01bea4dd10b4de38ea9aed603bef3ea7b2bd810406d089a938d6cb2719317d2a",
+    "pages": 31,
+    "pdf_scope": "complete_31_physical_page_arxiv_preprint",
+    "section_coverage": [
+      {
+        "unit": "Title, abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read problem setup and coordinate-free observation map motivation."
+      },
+      {
+        "unit": "§2 Structure Theory",
+        "pdf_pages": [
+          4,
+          9
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read TVS and finite-variance hypotheses, covariance factorization, Cameron–Martin embedding, Theorem 2.5, and Corollary 2.6. Theorem 2.5 is only Hilbert-topology continuity; the p.9 passage to the ambient V topology and Corollary 2.6 is contradicted by the compact-injection ℓ² example."
+      },
+      {
+        "unit": "§§3–4 OLS and generalized Gauss–Markov",
+        "pdf_pages": [
+          9,
+          11
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read estimator construction and covariance-minimality argument. Continuity of an OLS map in the ambient observation topology is not inferred from Cameron–Martin Hilbert geometry."
+      },
+      {
+        "unit": "§5 Stochastic OLS and UII measures",
+        "pdf_pages": [
+          11,
+          15
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read residual-noise construction, Theorems 5.6–5.7, conditions for law equality and continuous disintegration. Continuity-dependent claims require a separately supplied/proved ambient-continuous OLS estimator or bounded ambient inverse; Gaussianity and UII alone do not establish this."
+      },
+      {
+        "unit": "§6 Kriging and covariance tensors",
+        "pdf_pages": [
+          15,
+          21
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read random-array setup, covariance representation and kriging arguments."
+      },
+      {
+        "unit": "§7 Support vector machines",
+        "pdf_pages": [
+          21,
+          24
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read SVM formulation and separation argument."
+      },
+      {
+        "unit": "Appendix A",
+        "pdf_pages": [
+          24,
+          25
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read auxiliary structural material."
+      },
+      {
+        "unit": "Appendix B.1–B.9",
+        "pdf_pages": [
+          25,
+          29
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read proofs, including B.7's independence/Fubini proof for the UII characterization."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          30,
+          31
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read bibliography; no external citation is counted as full text."
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "local_pdf": "evidence/fulltexts/W01-D04-B06-003.pdf",
+    "document_pages": 31,
+    "document_type": "complete available article PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "Acquired and identity/hash/page-count checked by D04; full text read by W01; W01 did not download.",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–31: every physical page of the complete local article/report PDF read."
+    ],
+    "read_units": [
+      {
+        "unit": "entire available article/report PDF",
+        "pdf_pages": [
+          1,
+          31
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical PDF page read; section-by-section content and proof mechanisms are listed under section_coverage."
+      }
+    ],
+    "section_coverage_complete": true,
+    "fulltext_read_by": "W01",
+    "acquisition_source_id": "D04-W01-B06-003",
+    "acquisition_batch": "D04 batch06",
+    "local_fulltext_reading_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch06/papers/LaGatta_Hahn_2014_Coordinate_Free_Statistics_arXiv1405.0110v2.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "01bea4dd10b4de38ea9aed603bef3ea7b2bd810406d089a938d6cb2719317d2a",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-D04-B06-003.md"
+  },
+  {
+    "local_id": "W01-D04-B06-004",
+    "title": "Disintegration of Gaussian Measures for Sequential Assimilation of Linear Operator Data",
+    "authors": [
+      "Cédric Travelletti",
+      "David Ginsbourger"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2207.13581",
+    "url": "https://arxiv.org/abs/2207.13581",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2207.13581"
+    ],
+    "version": "arXiv:2207.13581v1, submitted 27 July 2022; complete 28-page preprint.",
+    "reason": "Gaussian conditional laws for bounded linear-operator observations and sequential disintegration.",
+    "topics": [
+      "M0352",
+      "M0365"
+    ],
+    "scoped_candidate_for": [
+      "M0365"
+    ],
+    "candidate_scope": "Finite-rank Gaussian operator-conditioning Theorems 6–7 only under separable-Banach, Gaussian, bounded-linear-map and finite-rank pushed-covariance assumptions; Theorem 7 is almost-everywhere under the joint image law. Theorem 8–9 infinite-rank use is not verified because p.24 does not justify that Cameron–Martin density implies convergence of the prescribed reconstruction series. Corollary 5 printed mean sign conflict remains excluded.",
+    "metadata_status": "title_authors_date_and_abstract_verified_at_official_arxiv_record",
+    "identity_status": "verified_pdf_title_authors_version_and_28_page_scope",
+    "sha256": "796f910fa30ea18868f95015ffff60ccc03d739afec5721b17244b399b03abf0",
+    "pages": 28,
+    "pdf_scope": "complete_28_physical_page_arxiv_preprint",
+    "section_coverage": [
+      {
+        "unit": "Title, abstract and contents",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read front matter and problem statement; the introduction starts on physical p.2."
+      },
+      {
+        "unit": "§1 Introduction",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read motivation, operator-observation examples and scope; physical p.4 is shared with the start of §2."
+      },
+      {
+        "unit": "§2 Gaussian process / measure / RKHS background",
+        "pdf_pages": [
+          4,
+          9
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read Gaussian covariance and function-space prerequisites, correspondence assumptions, and transition to §3 on physical p.9."
+      },
+      {
+        "unit": "§3 Disintegration and sequential update",
+        "pdf_pages": [
+          9,
+          15
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read finite-rank formulas, sequential update and infinite-rank claims. Retain finite-rank Theorems 6–7; p.24 density-to-prescribed-series-convergence remains unresolved for Theorem 8, and equation (3.3) has the separately checked mean-sign conflict."
+      },
+      {
+        "unit": "§4 Conclusion",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read closing discussion and scope; physical p.16 is shared with Appendix A start."
+      },
+      {
+        "unit": "Appendix A: process/measure correspondence",
+        "pdf_pages": [
+          16,
+          18
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read proof that continuous-path Gaussian processes define Gaussian measures on C(D), using Riesz representation, uniform approximation and characteristic-function limits."
+      },
+      {
+        "unit": "Appendix B: disintegration proofs",
+        "pdf_pages": [
+          18,
+          24
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read proofs for finite-rank covariance representations, sequential updates and infinite-rank data-subspace construction; the full-measure prescribed-series inference on p.24 is not established by density alone."
+      },
+      {
+        "unit": "Appendix C: explicit update formulas",
+        "pdf_pages": [
+          25,
+          25
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read finite-dimensional update identities; bibliography begins on this same physical page."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          25,
+          28
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read references beginning on p.25; citations are not counted as locally read."
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "local_pdf": "evidence/fulltexts/W01-D04-B06-004.pdf",
+    "document_pages": 28,
+    "document_type": "complete available article PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "Acquired and identity/hash/page-count checked by D04; full text read by W01; W01 did not download.",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–28: every physical page of the complete local article/report PDF read."
+    ],
+    "read_units": [
+      {
+        "unit": "entire available article/report PDF",
+        "pdf_pages": [
+          1,
+          28
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical PDF page read; section-by-section content and proof mechanisms are listed under section_coverage."
+      }
+    ],
+    "section_coverage_complete": true,
+    "fulltext_read_by": "W01",
+    "acquisition_source_id": "D04-W01-B06-004",
+    "acquisition_batch": "D04 batch06",
+    "local_fulltext_reading_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch06/papers/Travelletti_Ginsbourger_2022_Gaussian_Disintegration_Linear_Operator_Data_arXiv2207.13581v1.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "796f910fa30ea18868f95015ffff60ccc03d739afec5721b17244b399b03abf0",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-D04-B06-004.md"
+  },
+  {
+    "local_id": "W01-D04-B06-005",
+    "title": "Pathwise approximations of processes based on the fine structure of their filtrations",
+    "authors": [
+      "Walter Willinger",
+      "Murad S. Taqqu"
+    ],
+    "year": 1988,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.numdam.org/item/SPS_1988__22__542_0/",
+    "alternate_urls": [
+      "https://www.numdam.org/item/SPS_1988__22__542_0.pdf",
+      "https://www.numdam.org/item/SPS_1989__23__583_1.pdf"
+    ],
+    "version": "Séminaire de probabilités (Strasbourg) 22 (1988), pp.542–599; archive PDF includes one cover plus 58 printed pages. Related official erratum in volume 23 (1989), p.583.",
+    "reason": "Pathwise and filtration skeleton approximations; includes a discrete-law weak-convergence corollary under a.s. coupling.",
+    "topics": [
+      "M0355",
+      "M0365"
+    ],
+    "scoped_candidate_for": [
+      "M0355",
+      "M0365"
+    ],
+    "candidate_scope": "Specialized skeleton approximation of the natural-filtration pair (F^X,X) under the source construction hypotheses. For an arbitrary larger F⊃F^X, retain pathwise approximation only; p.41 explicitly says information convergence generally fails. Not a generic weak-convergence criterion. The 1989 erratum correction about natural-filtration right-continuity remains.",
+    "metadata_status": "title_authors_year_volume_and_pages_verified_against_official_Numdam_record_and_archive_PDF; erratum_checked_at_official_Numdam",
+    "identity_status": "verified_pdf_title_authors_scope_and_printed_pagination",
+    "sha256": "d4edc45b20c8791f03df4c50397ac83cec45757591dd17fe670c7d982ab7d7a4",
+    "pages": 59,
+    "pdf_scope": "complete_59_physical_page_Numdam_archive_PDF_one_cover_plus_printed_pp542_599",
+    "section_coverage": [
+      {
+        "unit": "Cover",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Archive cover; linked to official Numdam article metadata."
+      },
+      {
+        "unit": "§1 Introduction",
+        "pdf_pages": [
+          2,
+          5
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read distinctions among probabilistic path-convergence modes and motivation for tracking the filtration.",
+        "printed_pages": [
+          542,
+          545
+        ]
+      },
+      {
+        "unit": "§2 Finite-vector skeleton construction and measure changes",
+        "pdf_pages": [
+          5,
+          19
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read nested grid/rectangle partitions, conditional-mean martingale approximation, weak law approximation remark, convexity and equivalent-measure variants.",
+        "printed_pages": [
+          545,
+          559
+        ]
+      },
+      {
+        "unit": "§3 Discrete-time process skeletons",
+        "pdf_pages": [
+          20,
+          27
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read process/filtration construction, Theorem 3.2.1, structural Markov/martingale examples, and assumptions.",
+        "printed_pages": [
+          560,
+          567
+        ]
+      },
+      {
+        "unit": "§4 Continuous-time skeletons",
+        "pdf_pages": [
+          28,
+          41
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read general continuous-time approximation and binary construction. Theorem 4.3.1 p.33 targets (F^X,X); p.41 says for F⊃F^X path approximation remains but information convergence generally fails. Preserve usual conditions and natural-filtration continuity requirements.",
+        "printed_pages": [
+          568,
+          581
+        ]
+      },
+      {
+        "unit": "§5 Brownian and continuous-martingale examples",
+        "pdf_pages": [
+          42,
+          57
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read Brownian skeleton variants and continuous-martingale examples, including surprise-jump limitation.",
+        "printed_pages": [
+          582,
+          597
+        ]
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          58,
+          59
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read bibliography; citations are not additional W01 reads.",
+        "printed_pages": [
+          598,
+          599
+        ]
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "local_pdf": "evidence/fulltexts/W01-D04-B06-005.pdf",
+    "document_pages": 59,
+    "document_type": "complete available article PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "Acquired and identity/hash/page-count checked by D04; full text read by W01; W01 did not download.",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–59: every physical page of the complete local article/report PDF read."
+    ],
+    "read_units": [
+      {
+        "unit": "entire available article/report PDF",
+        "pdf_pages": [
+          1,
+          59
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical PDF page read; section-by-section content and proof mechanisms are listed under section_coverage."
+      }
+    ],
+    "section_coverage_complete": true,
+    "fulltext_read_by": "W01",
+    "acquisition_source_id": "D04-W01-B06-005",
+    "acquisition_batch": "D04 batch06",
+    "local_fulltext_reading_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch06/papers/Willinger_Taqqu_1988_Pathwise_Approximations_Filtrations.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "d4edc45b20c8791f03df4c50397ac83cec45757591dd17fe670c7d982ab7d7a4",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-D04-B06-005.md"
+  },
+  {
+    "local_id": "W01-D04-B06-006",
+    "title": "On convergence of semimartingales",
+    "authors": [
+      "Martin T. Barlow",
+      "Philip Protter"
+    ],
+    "year": 1990,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.numdam.org/item/SPS_1990__24__188_0/",
+    "alternate_urls": [
+      "https://www.numdam.org/item/SPS_1990__24__188_0.pdf"
+    ],
+    "version": "Séminaire de probabilités (Strasbourg) 24 (1990), pp.188–193; archive PDF includes one cover plus six printed pages.",
+    "reason": "Specialized semimartingale-decomposition stability under expected uniform convergence and uniform H1 component bounds.",
+    "topics": [
+      "M0357",
+      "M0365"
+    ],
+    "scoped_candidate_for": [
+      "M0357",
+      "M0365"
+    ],
+    "candidate_scope": "Adjacent, specialized semimartingale stability only; requires H1 canonical decompositions, uniform expected variation/martingale-maximal bounds and expected sup-norm convergence.",
+    "metadata_status": "title_authors_year_volume_and_pages_verified_against_official_Numdam_article_record_and_PDF",
+    "identity_status": "verified_pdf_title_authors_scope_and_printed_pagination",
+    "sha256": "b607802f0ebdcb54f82687878f148c97eaa1cbc25cdedeb90bab695c00cbd7b0",
+    "pages": 7,
+    "pdf_scope": "complete_7_physical_page_Numdam_archive_PDF_one_cover_plus_printed_pp188_193",
+    "section_coverage": [
+      {
+        "unit": "Cover",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Numdam archive cover."
+      },
+      {
+        "unit": "Article opening and Theorem 1",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read definitions, motivating counterexamples, H1/canonical decomposition setup and full theorem hypotheses/conclusion.",
+        "printed_pages": [
+          188,
+          189
+        ]
+      },
+      {
+        "unit": "Corollary 2, Proposition 3 and proof",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read special-semimartingale closure, martingale-transform inequality for p>1/2, quasimartingale/Bichteler–Dellacherie proof route.",
+        "printed_pages": [
+          190,
+          191
+        ]
+      },
+      {
+        "unit": "Theorem 1 proof completion",
+        "pdf_pages": [
+          6,
+          6
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read integration-by-parts estimate and H1/finite-variation convergence completion.",
+        "printed_pages": [
+          192,
+          192
+        ]
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "unit_type": "section_or_front_matter",
+        "content_and_proof_mechanism": "Read bibliography beginning immediately after the Theorem 1 proof on p.6 and continuing on p.7; no cited result is counted as locally read.",
+        "printed_pages": [
+          192,
+          193
+        ]
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "local_pdf": "evidence/fulltexts/W01-D04-B06-006.pdf",
+    "document_pages": 7,
+    "document_type": "complete available article PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "Acquired and identity/hash/page-count checked by D04; full text read by W01; W01 did not download.",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–7: every physical page of the complete local article/report PDF read."
+    ],
+    "read_units": [
+      {
+        "unit": "entire available article/report PDF",
+        "pdf_pages": [
+          1,
+          7
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical PDF page read; section-by-section content and proof mechanisms are listed under section_coverage."
+      }
+    ],
+    "section_coverage_complete": true,
+    "fulltext_read_by": "W01",
+    "acquisition_source_id": "D04-W01-B06-006",
+    "acquisition_batch": "D04 batch06",
+    "local_fulltext_reading_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch06/papers/Barlow_Protter_1990_On_Convergence_of_Semimartingales.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "b607802f0ebdcb54f82687878f148c97eaa1cbc25cdedeb90bab695c00cbd7b0",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-D04-B06-006.md"
+  },
+  {
+    "local_id": "W01-L11",
+    "title": "An Expository Note on Prohorov Metric and Prohorov Theorem",
+    "authors": [
+      "R. P. Pakshirajan",
+      "M. Sreehari"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/pdf/2101.01882",
+    "alternate_urls": [],
+    "version": "arXiv:2101.01882v1; complete 22-page PDF read",
+    "reason": "Secondary source for the Prohorov-metric/tightness equivalence; use as cross-check, not sole general theorem source.",
+    "topics": [
+      "A001",
+      "A007",
+      "A008"
+    ],
+    "metadata_status": "verified_from_title_page_and_source_record",
+    "identity_status": "verified_pdf_title_page",
+    "local_pdf": "evidence/fulltexts/W01-L11.pdf",
+    "sha256": "46013c05909ef453bd7b56cfa7a947465b13112a23705b29f593512c8ba3d0fd",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–22: complete available arXiv paper read."
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "downloaded_and_pdf_parsed",
+    "full_document_acquired": true,
+    "document_pages": 22,
+    "document_type": "complete available PDF document",
+    "full_book_acquired": false,
+    "pdf_scope": "complete_available_source_pdf",
+    "read_units": [
+      {
+        "unit": "entire 22-page arXiv paper",
+        "pdf_pages": [
+          1,
+          22
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "All physical pages were read, including introduction, theorem/proof sections, D[0,1] regular-metric discussion, non-Prohorov example, and references."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "Title page, abstract and §1 Levy/Prohorov metric",
+        "pdf_pages": [
+          1,
+          9
+        ],
+        "unit_type": "front_matter_and_section",
+        "content_and_proof_mechanism": "Read identity/abstract and Theorems 1.1–1.6: Portmanteau equivalences, closed-set Prohorov metric identities, and the real-line Levy–Prohorov comparison; the real-line reduction uses its order structure. The original Theorem 1.4 assertion ℓ=π is erroneous under these definitions; the card records a counterexample and isolates it."
+      },
+      {
+        "unit": "§2 Tightness and weak compactness",
+        "pdf_pages": [
+          9,
+          18
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorems 2.1–2.11: Polish tightness via finite ball covers and completeness, weak convergence to Prohorov distance, compact product finite-dimensional diagonal extraction, separability of probability laws, Prohorov equivalence, and the additional regular-metric hypotheses for D[0,1]. The p.14 proof-opening typo is corrected by the rendered p.15 inequality."
+      },
+      {
+        "unit": "§3 Prohorov spaces",
+        "pdf_pages": [
+          19,
+          21
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the definition and the constructed non-Prohorov example; the example uses a nonseparable deleted-graph space and laws on its fibers to separate relative compactness from uniform tightness."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          21,
+          22
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the bibliography and source attributions; no additional theorem is attributed to the references."
+      }
+    ],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/workers/W01/papers/prohorov_metric_expository.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "46013c05909ef453bd7b56cfa7a947465b13112a23705b29f593512c8ba3d0fd",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L11.md"
+  },
+  {
+    "local_id": "W01-L12",
+    "title": "Strong Representation of Weak Convergence",
+    "authors": [
+      "Zhidong Bai",
+      "Jiang Hu"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/pdf/1309.6940",
+    "alternate_urls": [],
+    "version": "arXiv:1309.6940v1; complete paper",
+    "reason": "Theorem 1.1 extends Skorokhod representation to varying separable metric spaces with measurable maps into a common limit space.",
+    "topics": [
+      "A007",
+      "A008",
+      "A011"
+    ],
+    "metadata_status": "verified_from_title_page_and_source_record",
+    "identity_status": "verified_pdf_title_page",
+    "local_pdf": "evidence/fulltexts/W01-L12.pdf",
+    "sha256": "7533411205d9d620a168d030f9e7389afc3fd803e1de101387246cfbe58734ad",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–11: complete article"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "downloaded_and_pdf_parsed",
+    "full_document_acquired": true,
+    "document_pages": 11,
+    "document_type": "complete available PDF document",
+    "full_book_acquired": false,
+    "pdf_scope": "complete_available_source_pdf",
+    "read_units": [
+      {
+        "unit": "entire article",
+        "pdf_pages": [
+          1,
+          11
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All eleven local PDF pages read; proof gaps are separately flagged in the card."
+      }
+    ],
+    "proof_audit_status": "author-stated theorem; original proof has unresolved gaps under stated generality",
+    "version_audit": {
+      "checked_on": "2026-11-13",
+      "arxiv_history": "official arXiv record shows v1 only, submitted 2013-09-26",
+      "publisher_version": "Science China Mathematics 57 (2014), 2399–2406; official publisher-hosted PDF inspected online",
+      "correction_status": "No corrigendum or later arXiv version was located in the checked official records; this is not a proof that none exists."
+    },
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "§1 Introduction and Theorem 1.1 statement",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "unit_type": "section_and_theorem",
+        "content_and_proof_mechanism": "Read the varying separable metric-space formulation, marginal laws and common measurable maps; the conclusion is a new joint-space representation with almost-sure convergence of the mapped variables."
+      },
+      {
+        "unit": "§2 Proof of Theorem 1.1: disjoint-union metric and reductions",
+        "pdf_pages": [
+          3,
+          5
+        ],
+        "unit_type": "section_and_proof",
+        "content_and_proof_mechanism": "Read the graph/disjoint-union metric, separability, open-set comparison, continuous-map route through Dudley, and measurable-map reduction by Lusin approximation plus Borel–Cantelli. The general proof is not verified: see the two explicit original-step gaps in the card."
+      },
+      {
+        "unit": "§3 Technical lemmas 3.1–3.3",
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "unit_type": "section_and_lemmas",
+        "content_and_proof_mechanism": "Read the open-section, uniform-in-x0 inclusion, and image-limit lemmas; Lemma 3.2 has an unproved quantifier promotion that is false in general, recorded with counterexample."
+      },
+      {
+        "unit": "§4 Applications, Examples 4.1–4.13",
+        "pdf_pages": [
+          6,
+          10
+        ],
+        "unit_type": "section_and_applications",
+        "content_and_proof_mechanism": "Read applications to coupling and random-matrix spectral laws/processes; each use relies on theorem hypotheses and does not repair its proof gaps."
+      },
+      {
+        "unit": "References and author information",
+        "pdf_pages": [
+          11,
+          11
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the complete bibliography and closing metadata; it points to external results supporting the proof route."
+      }
+    ],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/workers/W01/papers/skorokhod_strong_representation.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "7533411205d9d620a168d030f9e7389afc3fd803e1de101387246cfbe58734ad",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L12.md"
+  },
+  {
+    "local_id": "W01-L13",
+    "title": "A Self-Contained Proof of the Portmanteau Theorem",
+    "authors": [
+      "Benjamin Smith"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/pdf/2609.09689",
+    "alternate_urls": [
+      "https://arxiv.org/abs/2609.09689"
+    ],
+    "version": "arXiv:2609.09689v1; submitted 2026-09-09; PDF page 1 displays v1/date",
+    "reason": "A seven-way Portmanteau equivalence and explicit implication cycle, stated for random vectors in R^d.",
+    "topics": [
+      "A001",
+      "A007",
+      "A008",
+      "A011"
+    ],
+    "metadata_status": "verified_from_pdf_and_official_arxiv_abs_record_2026-11-13",
+    "identity_status": "verified_pdf_title_author_and_official_arxiv_record",
+    "local_pdf": "evidence/fulltexts/W01-L13.pdf",
+    "sha256": "3aa0bfdc44ec4735a9df8733d7b4a0a2fa4ec060b92eaf1155ba9961ac3aee73",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–5: complete note; theorem statement pp. 1–2 and implication proof pp. 2–4"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "downloaded_and_pdf_parsed",
+    "full_document_acquired": true,
+    "document_pages": 5,
+    "document_type": "complete available PDF document",
+    "full_book_acquired": false,
+    "pdf_scope": "complete_available_source_pdf",
+    "read_units": [
+      {
+        "unit": "entire note",
+        "pdf_pages": [
+          1,
+          5
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All five local PDF pages read; finite-dimensional scope is retained."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "Preliminaries, theorem statement opening and dependencies",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "front_matter_and_theorem",
+        "content_and_proof_mechanism": "Read the R^d setting and the first part of the seven-way Portmanteau equivalence; the proof cites the classical finite-dimensional Skorokhod representation."
+      },
+      {
+        "unit": "Theorem statement completion and implication proof",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "unit_type": "theorem_and_proof",
+        "content_and_proof_mechanism": "Read the full equivalence and implication chain: bounded continuous tests, bounded-Lipschitz approximation to open sets, complement to closed sets, boundary-zero convergence, and truncation/Fatou for nonnegative continuous tests. The p.3 limit-order notation is corrected explicitly in the card."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          5,
+          5
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the complete bibliography and checked the author/version against the official arXiv record; applicability remains finite-dimensional."
+      }
+    ],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/workers/W01/papers/portmanteau_selfcontained.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "3aa0bfdc44ec4735a9df8733d7b4a0a2fa4ec060b92eaf1155ba9961ac3aee73",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L13.md"
+  },
+  {
+    "local_id": "W01-L14",
+    "title": "Weak Convergence and Tightness of Probability Measures in an Abstract Skorohod Space",
+    "authors": [
+      "Raluca M. Balan",
+      "Becem Saidani"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/pdf/1907.10522",
+    "alternate_urls": [],
+    "version": "arXiv:1907.10522v1; complete 21-page PDF read",
+    "reason": "Specialized tightness criteria for D([0,1];D); illustrates that path-space criteria depend on the chosen topology.",
+    "topics": [
+      "A007",
+      "A008",
+      "A127"
+    ],
+    "metadata_status": "verified_from_title_page_and_source_record",
+    "identity_status": "verified_pdf_title_page",
+    "local_pdf": "evidence/fulltexts/W01-L14.pdf",
+    "sha256": "4cea4f5f97590597003700e0f414e201a6a98fc00d162e726d8bff466a22cdbc",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–21: complete article read"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "downloaded_and_pdf_parsed",
+    "full_document_acquired": true,
+    "document_pages": 21,
+    "document_type": "complete available PDF document",
+    "full_book_acquired": false,
+    "pdf_scope": "complete_available_source_pdf",
+    "read_units": [
+      {
+        "unit": "entire available article",
+        "pdf_pages": [
+          1,
+          21
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every page of the complete local PDF was read. Section coverage below records actual content and proof mechanisms."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "Title, abstract and §1 Introduction",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "unit_type": "front_matter_and_section",
+        "content_and_proof_mechanism": "Read the target space D([0,1];D), its two time/space coordinates, the relation to stable Levy motion, and the article roadmap."
+      },
+      {
+        "unit": "§2 Basic properties of D([0,1];D)",
+        "pdf_pages": [
+          3,
+          10
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read inner/outer Skorohod metrics, compactness criteria Theorems 2.8/2.10, Borel projection structure, finite-dimensional determining classes, and modulus measurability proofs."
+      },
+      {
+        "unit": "§3 Weak convergence and tightness",
+        "pdf_pages": [
+          10,
+          16
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Prohorov equivalence, tightness plus fdd convergence, Theorem 3.6 two-level modulus criterion, endpoint refinements, and random-element convergence criterion. The card flags a displayed event typo in the Theorem 3.6 proof."
+      },
+      {
+        "unit": "§4 Criteria for existence and convergence",
+        "pdf_pages": [
+          16,
+          20
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read three-time maximal inequalities, the increment-probability convergence criterion, finite-sum inequality, and sample-path existence theorem; Theorem 4.7 has a likely grid-index misprint, kept unresolved."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          21,
+          21
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the complete bibliography and identify results whose proofs are cited to Billingsley/Whitt rather than reproduced."
+      }
+    ],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/workers/W01/papers/abstract_skorokhod_space_tightness.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "4cea4f5f97590597003700e0f414e201a6a98fc00d162e726d8bff466a22cdbc",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L14.md"
+  },
+  {
+    "local_id": "W01-L15",
+    "title": "On the Skorokhod Topology",
+    "authors": [
+      "Adam Jakubowski"
+    ],
+    "year": 1986,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.numdam.org/item/AIHPB_1986__22_3_263_0/",
+    "alternate_urls": [],
+    "version": "Ann. Inst. H. Poincaré Probab. Statist. 22(3), 263–285; Numdam archive",
+    "reason": "Primary source scope: tightness criteria for E-valued processes in D([0,1];E); theorem details remain unread in this batch.",
+    "topics": [
+      "A007",
+      "A008"
+    ],
+    "metadata_status": "verified_from_title_page_and_source_record",
+    "identity_status": "verified_pdf_title_page",
+    "local_pdf": "evidence/fulltexts/W01-L15.pdf",
+    "sha256": "562aa49cafed1e74e6186928377af733a99163f66c8025a680b7cd2f9f506506",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–24: complete article read"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "downloaded_and_pdf_parsed",
+    "full_document_acquired": true,
+    "document_pages": 24,
+    "document_type": "complete available PDF document",
+    "full_book_acquired": false,
+    "pdf_scope": "complete_available_source_pdf",
+    "read_units": [
+      {
+        "unit": "entire available article",
+        "pdf_pages": [
+          1,
+          24
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every page of the complete local PDF was read. Section coverage below records actual content and proof mechanisms."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "Archive cover, title/abstract and §1 Skorohod topology",
+        "pdf_pages": [
+          1,
+          9
+        ],
+        "printed_pages": [
+          263,
+          270
+        ],
+        "unit_type": "front_matter_and_section",
+        "content_and_proof_mechanism": "Read pseudometric definition, topology invariance, separability/metric/subspace properties, and scalar-test generation proof via vector projections and three-time compactness obstructions."
+      },
+      {
+        "unit": "§2 Measurability problems in D([0,1];E)",
+        "pdf_pages": [
+          10,
+          14
+        ],
+        "printed_pages": [
+          271,
+          275
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read permanence, Borel/cylindrical σ-field comparisons, sufficient conditions, and counterexample for nonseparable discrete R; proofs use countable generators and compact exhaustion."
+      },
+      {
+        "unit": "§3 Weak tightness criteria",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "printed_pages": [
+          276,
+          277
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorem 3.1 and its proof: compact value-range concentration plus tightness of every additive point-separating scalar projection; extract countably many tests on each compact set and intersect summably allocated projection-compact sets."
+      },
+      {
+        "unit": "§4 Skorohod topology on D(R+;E)",
+        "pdf_pages": [
+          17,
+          19
+        ],
+        "printed_pages": [
+          278,
+          280
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read finite-horizon truncation metric, time-change convergence characterization, scalar generators and the corresponding infinite-horizon weak tightness criterion."
+      },
+      {
+        "unit": "§5 Banach, nuclear-dual, and strict-inductive-limit examples",
+        "pdf_pages": [
+          20,
+          24
+        ],
+        "printed_pages": [
+          281,
+          285
+        ],
+        "unit_type": "section_and_theorems",
+        "content_and_proof_mechanism": "Read flat-concentration criterion for separable Banach values, Mitoma criterion for Frechet nuclear-space duals via compact nuclear embeddings, and the distinct W-weak criterion for strict inductive-limit duals."
+      }
+    ],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/workers/W01/papers/jakubowski_skorokhod_topology.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "562aa49cafed1e74e6186928377af733a99163f66c8025a680b7cd2f9f506506",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L15.md"
+  },
+  {
+    "local_id": "W01-L16",
+    "title": "Stopping Times and Tightness II",
+    "authors": [
+      "David Aldous"
+    ],
+    "year": 1987,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://digicoll.lib.berkeley.edu/record/86028?ln=en",
+    "alternate_urls": [
+      "https://digicoll.lib.berkeley.edu/record/86028/files/124.pdf",
+      "https://www.stat.berkeley.edu/~pitman/aldbib/bydate.html"
+    ],
+    "version": "Berkeley Statistics Technical Report No. 124, November 1987; later published in Annals of Probability 17(2) (1989), 586–595; local PDF is the report version.",
+    "reason": "Stopping-time tightness criterion for real-valued D([0,∞)) processes and finite-dimensional convergence to a continuous limit; martingale corollary requires fixed-time UI.",
+    "topics": [
+      "A007",
+      "A008",
+      "A127"
+    ],
+    "metadata_status": "verified_from_title_page_and_official_Berkeley_record",
+    "identity_status": "verified_pdf_title_page_and_report_record",
+    "pages": 16,
+    "document_type": "complete available technical report PDF",
+    "pdf_scope": "complete_available_technical_report_pdf",
+    "local_pdf": "evidence/fulltexts/W01-L16.pdf",
+    "sha256": "27e26a11e1d4e9b072b7e5ac46081160c32a113a1f9d39ebd03dd14f7e61823d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–16: complete available report PDF read"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "acquired_by_D04; PDF parsed and fulltext read by W01",
+    "full_document_acquired": true,
+    "document_pages": 16,
+    "full_book_acquired": false,
+    "read_units": [
+      {
+        "unit": "entire technical report",
+        "pdf_pages": [
+          1,
+          16
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All 16 physical pages read; §§1–4 occupy PDF pp.3–14 (printed pp.1–12), references pp.15–16 (printed pp.13–14). Key theorem/proof pages rendered and checked."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage": [
+      {
+        "unit": "Report title and abstract",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified local report identity and read the abstract; it summarizes the continuous-limit martingale result but contains no proof."
+      },
+      {
+        "unit": "§1 Introduction",
+        "pdf_pages": [
+          3,
+          6
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the fixed-time-UI martingale convergence result, monotone finite-variation corollary, applications, and technical limits; the Proposition 2.2 proof is explicitly deferred.",
+        "printed_pages": [
+          1,
+          4
+        ]
+      },
+      {
+        "unit": "§2 The stopping time criterion",
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the signed stopping-time criterion and its UI lemma; optional sampling and a positive/negative increment split convert tail UI into the required positive Gamma bound.",
+        "printed_pages": [
+          5,
+          7
+        ]
+      },
+      {
+        "unit": "§3 Convergence in measure",
+        "pdf_pages": [
+          10,
+          10
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the d_L metric, the fdd-to-measure-topology result, and the Dudley representation corollary that supplies the weaker-topology coupling.",
+        "printed_pages": [
+          8,
+          8
+        ]
+      },
+      {
+        "unit": "§4 Proof of Proposition 2.2",
+        "pdf_pages": [
+          11,
+          14
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the moving-average stopping rule, deterministic perturbation lemma, random-process lemma with an independent uniform delay, and the contradiction that forces local uniform convergence.",
+        "printed_pages": [
+          9,
+          12
+        ]
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the report bibliography; no additional result is attributed to it.",
+        "printed_pages": [
+          13,
+          14
+        ]
+      }
+    ],
+    "section_coverage_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-Aldous1989.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "27e26a11e1d4e9b072b7e5ac46081160c32a113a1f9d39ebd03dd14f7e61823d",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L16.md"
+  },
+  {
+    "local_id": "W01-L17",
+    "title": "On Weak Convergence of Filtrations",
+    "authors": [
+      "François Coquet",
+      "Jean Mémin",
+      "Leszek Słomiński"
+    ],
+    "year": 2001,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.numdam.org/item/SPS_2001__35__306_0/",
+    "alternate_urls": [
+      "https://www.numdam.org/item/SPS_2001__35__306_0.pdf"
+    ],
+    "version": "Séminaire de probabilités, Volume 35 (2001), pp. 306–328; Numdam fulltext PDF.",
+    "reason": "Definition and stability results for weak convergence of right-continuous filtrations, optional projections, semimartingale characteristics and BSDEs.",
+    "topics": [
+      "A007",
+      "A008",
+      "A011"
+    ],
+    "metadata_status": "verified_from_official_Numdam_record_and_title_page",
+    "identity_status": "verified_pdf_title_page",
+    "pages": 24,
+    "document_type": "complete available journal paper PDF",
+    "pdf_scope": "complete_available_paper_pdf",
+    "local_pdf": "evidence/fulltexts/W01-L17.pdf",
+    "sha256": "cf7c79afdf76a801b27224caa14c61ae8b09a0a966edfe8a370e11f0cc7918a2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–24: complete available paper PDF read"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "acquired_by_D04; PDF parsed and fulltext read by W01",
+    "full_document_acquired": true,
+    "document_pages": 24,
+    "full_book_acquired": false,
+    "read_units": [
+      {
+        "unit": "entire paper",
+        "pdf_pages": [
+          1,
+          24
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All 24 physical PDF pages read; Theorems 1–3 and proof pages 14–19 rechecked; BSDE assumptions read in Section IV."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage": [
+      {
+        "unit": "Archive cover",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified title, authors, series, and publication metadata."
+      },
+      {
+        "unit": "§I Introduction",
+        "pdf_pages": [
+          2,
+          5
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the weak-filtration definition through conditional-expectation martingales, its equivalence for integrable terminal variables, change-of-measure stability, and scope.",
+        "printed_pages": [
+          306,
+          309
+        ]
+      },
+      {
+        "unit": "§II Examples of weak convergences of filtrations",
+        "pdf_pages": [
+          6,
+          12
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read time-change stability, natural-filtration examples, and Feller/process examples; arguments transfer conditional expectations using continuity points and semigroup/Doob controls.",
+        "printed_pages": [
+          310,
+          316
+        ]
+      },
+      {
+        "unit": "§III Stability of processes under convergence of filtrations",
+        "pdf_pages": [
+          13,
+          19
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorems 1–3 and proofs: deterministic-grid approximation for continuous finite variation, stopping-time step approximation for quasi-left-continuous paths under an integrable path supremum, and H^p/UT control for canonical decompositions and brackets.",
+        "printed_pages": [
+          317,
+          323
+        ]
+      },
+      {
+        "unit": "§IV Stability of backward equations under convergence of filtrations",
+        "pdf_pages": [
+          20,
+          23
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read hypotheses H_X, H_A, H_g, H_co and Theorem 4 proof; uniform Picard error, fixed-iterate convergence, Stieltjes-integral continuity, and uniqueness transfer the BSDE solution limit.",
+        "printed_pages": [
+          324,
+          327
+        ]
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          24,
+          24
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the full bibliography and publication ending; no additional result is attributed to it.",
+        "printed_pages": [
+          328,
+          328
+        ]
+      }
+    ],
+    "section_coverage_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-Coquet2001.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "cf7c79afdf76a801b27224caa14c61ae8b09a0a966edfe8a370e11f0cc7918a2",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L17.md"
+  },
+  {
+    "local_id": "W01-L18",
+    "title": "Tightness Criteria for Random Measures with Application to the Principle of Conditioning in Hilbert Spaces",
+    "authors": [
+      "Adam Jakubowski"
+    ],
+    "year": 1988,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.math.uni.wroc.pl/~pms/files/9.1/Article/9.1.6.pdf",
+    "alternate_urls": [
+      "https://www.math.uni.wroc.pl/~pms/publications.php",
+      "https://www.math.uni.wroc.pl/~pms/publications.php/files_doi/f_39.1.3/files_doi/f_39.2.3/publicationsArticle.php?nr=9.1&nrA=11&ppB=+147&ppE=+151"
+    ],
+    "version": "Probability and Mathematical Statistics 9.1 (1988), pp. 95–114; official journal full-text PDF.",
+    "reason": "Random finite-measure tightness, random convolution tightness and the conditioning principle for sums in a real separable Hilbert space.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_from_official_journal_issue_and_PDF_title_page",
+    "identity_status": "verified_pdf_title_page",
+    "pages": 20,
+    "document_type": "complete available journal paper PDF",
+    "pdf_scope": "complete_available_paper_pdf",
+    "local_pdf": "evidence/fulltexts/W01-L18.pdf",
+    "sha256": "767beff11441982ea41f38fbdebaee4f1c9a2c24e21da67ec6077e0e10dbf0d8",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–20: complete available paper PDF read"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "acquired_by_D04; PDF parsed and fulltext read by W01",
+    "full_document_acquired": true,
+    "document_pages": 20,
+    "full_book_acquired": false,
+    "read_units": [
+      {
+        "unit": "entire paper",
+        "pdf_pages": [
+          1,
+          20
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All 20 physical PDF pages read; Theorem 2.1 pp.3–4, Theorem 3.1 pp.7–12, conditioning theorems pp.14–17 and Hilbert CLT pp.18–19."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage": [
+      {
+        "unit": "Title and abstract",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified article identity and abstract, which lays out the dependence between random-measure tightness, conditioning, and Hilbert-valued martingale CLT.",
+        "printed_pages": [
+          95,
+          95
+        ]
+      },
+      {
+        "unit": "§2 General criterion",
+        "pdf_pages": [
+          2,
+          5
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorem 2.1 and Corollary 2.2; high-probability modification plus relative compactness of expected measures yields tightness. Also read the finite-dimensional random-law criterion and separating-map Cauchy lemma.",
+        "printed_pages": [
+          96,
+          99
+        ]
+      },
+      {
+        "unit": "§3 Shift-tightness of convolutions of random measures",
+        "pdf_pages": [
+          6,
+          13
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the symmetrization/shift-tightness setup, Theorem 3.1, and measurable-selection lemmas; covariance operators control small jumps, random finite measures control large-jump tails, and progressive centers yield tightness.",
+        "printed_pages": [
+          100,
+          107
+        ]
+      },
+      {
+        "unit": "§4 Principle of conditioning in a Hilbert space",
+        "pdf_pages": [
+          14,
+          17
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorems 4.1–4.3. Theorem 4.1 uses conditional independent copies to construct predictable centers; Theorem 4.2 proves tightness and the subsequential convolution equation nu*mu=mu*mu, with uniqueness required for convergence; Theorem 4.3 handles a single-sequence strong-scaling array via a random conditional-law limit, a dense-set nonvanishing characteristic-function condition, and a subsequence k_n.",
+        "printed_pages": [
+          108,
+          111
+        ]
+      },
+      {
+        "unit": "§5 Martingale central limit theorem in Hilbert space",
+        "pdf_pages": [
+          18,
+          19
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorem 5.1 and its proof: tight random S-operators plus coordinate covariance convergence identify the Gaussian covariance; the Lindeberg tail condition controls large jumps, and Theorem 4.2 supplies the conditioning step.",
+        "printed_pages": [
+          112,
+          113
+        ]
+      },
+      {
+        "unit": "References and author information",
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read all references and the received/revised dates; no extra theorem is attributed to this material.",
+        "printed_pages": [
+          113,
+          114
+        ]
+      }
+    ],
+    "section_coverage_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-Jakubowski1988.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "767beff11441982ea41f38fbdebaee4f1c9a2c24e21da67ec6077e0e10dbf0d8",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L18.md"
+  },
+  {
+    "local_id": "W01-L19",
+    "title": "A Non-Skorohod Topology on the Skorohod Space",
+    "authors": [
+      "Adam Jakubowski"
+    ],
+    "year": 1997,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v2-18",
+    "url": "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/view/18.html",
+    "alternate_urls": [
+      "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/18/18-35-1-PB.pdf"
+    ],
+    "version": "Electronic Journal of Probability 2 (1997), Paper 4, pp. 1–21; DOI 10.1214/EJP.v2-18.",
+    "reason": "S-topology compactness, process-law tightness and semimartingale subsequences; used only when the target topology is this weaker non-metrizable topology.",
+    "topics": [
+      "B126",
+      "B133",
+      "B134"
+    ],
+    "metadata_status": "verified_from_official_EJP_record_and_title_page",
+    "identity_status": "verified_pdf_title_page",
+    "pages": 21,
+    "document_type": "complete available journal paper PDF",
+    "pdf_scope": "complete_available_paper_pdf",
+    "local_pdf": "evidence/fulltexts/W01-L19.pdf",
+    "sha256": "72a6a41ee4b00d259c92d6cff649f390b380daf8525e42091765dd1654176a1b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–21: complete available paper PDF read"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "acquired_by_D04; PDF parsed and fulltext read by W01",
+    "full_document_acquired": true,
+    "document_pages": 21,
+    "full_book_acquired": false,
+    "read_units": [
+      {
+        "unit": "entire paper",
+        "pdf_pages": [
+          1,
+          21
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All 21 physical PDF pages read; Section 2 proofs pp.6–12, law convergence pp.13–17, UT/semimartingale criteria pp.18–20."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage": [
+      {
+        "unit": "Journal front matter and abstract",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified article identity and read the abstract describing the S topology and its law-space convergence consequences."
+      },
+      {
+        "unit": "§1 Introduction",
+        "pdf_pages": [
+          2,
+          6
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the motivation and proof roadmap: compactness from sup/upcrossing control and bounded-variation approximants, followed by a nonmetrizable S topology suited to sequential probability limits."
+      },
+      {
+        "unit": "§2 Compactness criteria and S-topology",
+        "pdf_pages": [
+          6,
+          12
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the equivalences between upcrossing/oscillation bounds and BV approximants, the weak-star construction of S convergence, and separation/Borel/evaluation properties."
+      },
+      {
+        "unit": "§3 Convergence in distribution on (D,S)",
+        "pdf_pages": [
+          13,
+          18
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the complete section, including Proposition 3.1, Theorems 3.2–3.6, 3.8, 3.10–3.11 and Remark 3.12. Tightness is encoded by sup norms/upcrossings; for increasing paths, normalized random measures give a subsequence with finite-dimensional convergence outside a countable set; the BV difference decomposition lifts this to uniformly S-tight processes. The authors state that regularity of S remains unresolved and distinguish sequential from product-topology continuity."
+      },
+      {
+        "unit": "§4 Uniform S-tightness and semimartingales",
+        "pdf_pages": [
+          18,
+          20
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Condition UT, its implication for uniform S-tightness, and the semimartingale subsequence theorem; the proof combines the S-tightness representation with dense-time finite-dimensional limits."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          21,
+          21
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the complete bibliography; no additional theorem is attributed to it."
+      }
+    ],
+    "section_coverage_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-Jakubowski1997.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "72a6a41ee4b00d259c92d6cff649f390b380daf8525e42091765dd1654176a1b",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L19.md"
+  },
+  {
+    "local_id": "W01-L20",
+    "title": "Tightness Criteria for Laws of Semimartingales",
+    "authors": [
+      "P. A. Meyer",
+      "W. A. Zheng"
+    ],
+    "year": 1984,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.numdam.org/item/AIHPB_1984__20_4_353_0/",
+    "alternate_urls": [
+      "https://www.numdam.org/item/AIHPB_1984__20_4_353_0.pdf"
+    ],
+    "version": "Annales de l'I.H.P. Probabilités et Statistiques 20(4) (1984), pp. 353–372; Numdam fulltext PDF.",
+    "reason": "Pseudo-path tightness and closure of quasimartingale / selected semimartingale classes under that weak path-law topology.",
+    "topics": [
+      "B126",
+      "B133",
+      "B134"
+    ],
+    "metadata_status": "verified_from_official_Numdam_record_and_title_page",
+    "identity_status": "verified_pdf_title_page",
+    "pages": 21,
+    "document_type": "complete available journal paper PDF",
+    "pdf_scope": "complete_available_paper_pdf",
+    "local_pdf": "evidence/fulltexts/W01-L20.pdf",
+    "sha256": "00379e3315466b8c145b7791000a0470ef142991c4ba572c3c80dfbe55a66215",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–21: complete available paper PDF read"
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "acquired_by_D04; PDF parsed and fulltext read by W01",
+    "full_document_acquired": true,
+    "document_pages": 21,
+    "full_book_acquired": false,
+    "read_units": [
+      {
+        "unit": "entire paper",
+        "pdf_pages": [
+          1,
+          21
+        ],
+        "coverage": "complete_document_read",
+        "notes": "All 21 physical PDF pages read; pseudo-path and Theorem 2 pp.4–7, conditional variation Lemma 3 p.8, Theorem 4 pp.10–12, closure results pp.14–20."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage": [
+      {
+        "unit": "Title page and abstract",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified journal identity and read the abstract framing tightness/closure under the pseudo-path topology."
+      },
+      {
+        "unit": "Introduction",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the problem setup and transition to pseudo-path methods; it explains why a weaker path topology is used for semimartingale-law compactness.",
+        "printed_pages": [
+          353,
+          355
+        ]
+      },
+      {
+        "unit": "Pseudo-paths",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the graph-pushforward construction under e^{-t}dt and Lemma 1 identifying the induced topology with convergence in measure.",
+        "printed_pages": [
+          355,
+          356
+        ]
+      },
+      {
+        "unit": "Characterization of D using numbers of upcrossings",
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorem 2; disintegrate the candidate pseudo-path law and use rational-level upcrossings to show conditional laws are point masses a.e., then construct a càdlàg version.",
+        "printed_pages": [
+          356,
+          358
+        ]
+      },
+      {
+        "unit": "Quasimartingales",
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the conditional-variation definition, Rao decomposition, and stopping-time crossing estimates that bound the path supremum and upcrossing counts.",
+        "printed_pages": [
+          358,
+          360
+        ]
+      },
+      {
+        "unit": "Tightness for laws of quasimartingales",
+        "pdf_pages": [
+          9,
+          12
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorem 4 and proof; compactified pseudo-path tightness plus lower semicontinuous crossings place limits on D, while averaged time shifts and truncations pass conditional-variation inequalities.",
+        "printed_pages": [
+          360,
+          363
+        ]
+      },
+      {
+        "unit": "Convergence of finite dimensional distributions",
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorems 5–6 deriving subsequential finite-dimensional convergence only on a full-Lebesgue-measure set of times.",
+        "printed_pages": [
+          364,
+          365
+        ]
+      },
+      {
+        "unit": "Localization",
+        "pdf_pages": [
+          14,
+          15
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the stopping/localization argument reducing semimartingale-law limits to quasimartingale tightness and closure.",
+        "printed_pages": [
+          365,
+          366
+        ]
+      },
+      {
+        "unit": "Closure properties: finite variation processes",
+        "pdf_pages": [
+          16,
+          17
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Lemma 8, Corollary 9 and Theorem 10. Lower semicontinuity/compact sublevels of total variation yield relative compactness for uniformly integrable-variation laws; an L2 bound on the time density passes through bounded continuous step-time tests and a countable dense time set to preserve absolute continuity and the same density-energy bound.",
+        "printed_pages": [
+          367,
+          368
+        ]
+      },
+      {
+        "unit": "Closure properties: martingales and continuous local martingales",
+        "pdf_pages": [
+          17,
+          20
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorems 11–12; UI transfers martingale identities on dense times, while exponential supermartingales, Yor–Stricker, and stopped bracket bounds identify continuous local-martingale limits.",
+        "printed_pages": [
+          368,
+          371
+        ]
+      },
+      {
+        "unit": "Appendix and References",
+        "pdf_pages": [
+          21,
+          21
+        ],
+        "unit_type": "appendix_and_references",
+        "content_and_proof_mechanism": "Read Rao’s proof that D is not Polish in the pseudo-path topology and the complete bibliography.",
+        "printed_pages": [
+          372,
+          372
+        ]
+      }
+    ],
+    "section_coverage_complete": true,
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-MZ1984.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "00379e3315466b8c145b7791000a0470ef142991c4ba572c3c80dfbe55a66215",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L20.md"
+  },
+  {
+    "local_id": "W01-L21",
+    "title": "Convergence faible et compacité des temps d’arrêt, d’après Baxter et Chacón",
+    "authors": [
+      "Paul-André Meyer"
+    ],
+    "year": 1978,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.numdam.org/item/SPS_1978__12__411_0/",
+    "alternate_urls": [
+      "https://www.numdam.org/item/SPS_1978__12__411_0.pdf"
+    ],
+    "version": "Séminaire de Probabilités XII (1978), pp.411–423; complete French paper scan with archive front matter.",
+    "reason": "Weak compactness of randomized/fuzzy stopping times and convergence of regular càdlàg process integrals; UI/class(D) connections.",
+    "topics": [
+      "A007",
+      "A008",
+      "A127"
+    ],
+    "metadata_status": "verified_from_official_Numdam_record_and_PDF_title_page",
+    "identity_status": "verified_title_author_and_journal_record",
+    "local_pdf": "evidence/fulltexts/W01-L21.pdf",
+    "sha256": "50f17f024e4c5d006fa3016b796c438ec0f7a63091efc2f5b27c861133ed7b69",
+    "pages": 14,
+    "document_pages": 14,
+    "document_type": "complete available paper PDF",
+    "pdf_scope": "complete_published_paper_scan",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "acquired and identity-checked by D04; fulltext read by W01",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–14: complete available paper read."
+    ],
+    "selected_chapters_read": [],
+    "selected_sections_read": [],
+    "read_units": [
+      {
+        "unit": "entire available paper",
+        "pdf_pages": [
+          1,
+          14
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical page of the complete local paper PDF was read; exact sections and proof mechanisms are mapped below."
+      }
+    ],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "Archive cover",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified title, author, journal, year and pages."
+      },
+      {
+        "unit": "Fuzzy variables and stopping-time representation",
+        "pdf_pages": [
+          2,
+          4
+        ],
+        "printed_pages": [
+          411,
+          413
+        ],
+        "unit_type": "section_material",
+        "content_and_proof_mechanism": "Read the measure representation of randomized times by adapted decreasing processes and the product-space randomization caveat."
+      },
+      {
+        "unit": "Weak topology and compactness, Theorems 1–4",
+        "pdf_pages": [
+          4,
+          6
+        ],
+        "printed_pages": [
+          413,
+          415
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the dual representation of weak-limit functionals by Stieltjes integrals; Hahn–Banach and the adaptedness closure yield weak compactness of fuzzy variables/stopping times, sequentially even without global metrizability."
+      },
+      {
+        "unit": "Regular càdlàg processes, Theorem 5",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "printed_pages": [
+          415,
+          416
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the predictable-stopping-time definition and its T_n up to T expectation criterion; weak fuzzy-time convergence then transfers integrals by optional/predictable projection. The exact definition is E[X_T-X_{T-}|F_{T-}]=0 at every predictable T; examples include martingales and regular supermartingales, not arbitrary supermartingales."
+      },
+      {
+        "unit": "Increasing adapted processes, Theorem 6",
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "printed_pages": [
+          416,
+          417
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the UI terminal-value compactness theorem and the additional uniform tail control needed when extending a finite-horizon extraction to infinite time."
+      },
+      {
+        "unit": "Potential-theory application and transitions",
+        "pdf_pages": [
+          8,
+          8
+        ],
+        "printed_pages": [
+          417,
+          417
+        ],
+        "unit_type": "application",
+        "content_and_proof_mechanism": "Read the stated balayage application and identify its bounded-potential/excess-function test class; no omitted argument is claimed."
+      },
+      {
+        "unit": "Fuzzy-time Portmanteau results, Theorem 7",
+        "pdf_pages": [
+          9,
+          10
+        ],
+        "printed_pages": [
+          418,
+          419
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the dyadic lower approximation of a nonnegative path-lower-semicontinuous functional and the squeeze argument for almost-everywhere-continuous bounded paths."
+      },
+      {
+        "unit": "Class (D), Theorems 8 and 8-prime",
+        "pdf_pages": [
+          10,
+          12
+        ],
+        "printed_pages": [
+          419,
+          421
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the Orlicz/Jensen UI transfer from ordinary to fuzzy stopping times and the truncation argument extending weak integral convergence from bounded continuous to regular class(D) tests."
+      },
+      {
+        "unit": "Applications and Brownian example",
+        "pdf_pages": [
+          12,
+          13
+        ],
+        "printed_pages": [
+          421,
+          422
+        ],
+        "unit_type": "application",
+        "content_and_proof_mechanism": "Read the potential-theory consequences and the Brownian construction showing a weak limit of ordinary stopping-time laws can be a nonordinary fuzzy time; the Bismut statement is cited, not proved."
+      },
+      {
+        "unit": "Appendix: quasi-left-continuity; references",
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "printed_pages": [
+          422,
+          423
+        ],
+        "unit_type": "appendix_and_references",
+        "content_and_proof_mechanism": "Read the stopping-time-sequence characterization of quasi-left-continuity via oscillation/first-exceedance bounds and the complete bibliography."
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-Meyer1978.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "50f17f024e4c5d006fa3016b796c438ec0f7a63091efc2f5b27c861133ed7b69",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L21.md"
+  },
+  {
+    "local_id": "W01-L22",
+    "title": "Rate of Convergence of Predictive Distributions for Dependent Data",
+    "authors": [
+      "Patrizia Berti",
+      "Irene Crimaldi",
+      "Luca Pratelli",
+      "Pietro Rigo"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.econstor.eu/handle/10419/95338",
+    "alternate_urls": [
+      "https://www.econstor.eu/bitstream/10419/95338/1/q091.pdf",
+      "https://doi.org/10.3150/09-BEJ191"
+    ],
+    "version": "Local PDF is University of Pavia Quaderni di Dipartimento No.091 (January 2009), a complete 16-page working paper; later journal version: Bernoulli 15(4) (2009), 1351–1367, DOI 10.3150/09-BEJ191.",
+    "reason": "Stable convergence of empirical-to-predictive distribution errors for c.i.d./exchangeable data, with UI-based change-of-measure transfer and weighted-urn applications.",
+    "topics": [
+      "A007",
+      "A011",
+      "A127"
+    ],
+    "metadata_status": "verified_from_EconStor_record_PDF_title_page_and_later_journal_metadata",
+    "identity_status": "verified_title_authors_workpaper_record",
+    "local_pdf": "evidence/fulltexts/W01-L22.pdf",
+    "sha256": "6110a816b3806048e38bcf47bc899b7076f23a1bda1e3a3a55d8aca2e8468f49",
+    "pages": 16,
+    "document_pages": 16,
+    "document_type": "complete available paper PDF",
+    "pdf_scope": "complete_repository_working_paper_PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "acquired and identity-checked by D04; fulltext read by W01",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–16: complete available paper read."
+    ],
+    "selected_chapters_read": [],
+    "selected_sections_read": [],
+    "read_units": [
+      {
+        "unit": "entire available paper",
+        "pdf_pages": [
+          1,
+          16
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical page of the complete local paper PDF was read; exact sections and proof mechanisms are mapped below."
+      }
+    ],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "EconStor cover and working-paper title page",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified repository record, working-paper number/date, title/authors and abstract."
+      },
+      {
+        "unit": "§1 Introduction",
+        "pdf_pages": [
+          3,
+          6
+        ],
+        "printed_pages": [
+          1,
+          4
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the c.i.d. predictive setup, stable limits and proof roadmap; motivation distinguishes conditional prediction from iid/exchangeable special cases."
+      },
+      {
+        "unit": "§2 Main results",
+        "pdf_pages": [
+          6,
+          9
+        ],
+        "printed_pages": [
+          4,
+          7
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read Theorems 1–2 and assumptions: transfer stable limits under P<<Q by density martingale approximation plus UI on both laws; the Dirichlet-baseline rate uses a second-moment and density-increment condition."
+      },
+      {
+        "unit": "§3 Finite-state exchangeable data",
+        "pdf_pages": [
+          9,
+          12
+        ],
+        "printed_pages": [
+          7,
+          10
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the conditional empirical-process/Bernstein–von Mises comparisons and the stable Gaussian-mixture / almost-sure corollaries; calculations are specialized to the stated finite-state model."
+      },
+      {
+        "unit": "§4 Generalized Pólya urn",
+        "pdf_pages": [
+          12,
+          15
+        ],
+        "printed_pages": [
+          10,
+          13
+        ],
+        "unit_type": "section",
+        "content_and_proof_mechanism": "Read the weighted-urn recursion, Lemma 6 c.i.d. verification by one-step conditioning and tower iteration, and Theorem 7 stable empirical/predictive CLT. The paper labels the long Theorem 7 calculation a sketch and points to an unread technical report. Eq. (5) separately makes each new weight iid and independent of the full past/current color; Theorem 7 also requires 0<a<b and a≤Z1≤b. Its long calculation is only sketched."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          15,
+          16
+        ],
+        "printed_pages": [
+          13,
+          14
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the complete references, including the external technical report used for omitted details; that report was not read."
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-Berti2009.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "6110a816b3806048e38bcf47bc899b7076f23a1bda1e3a3a55d8aca2e8468f49",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L22.md"
+  },
+  {
+    "local_id": "W01-L23",
+    "title": "A Skorohod Representation Theorem for Uniform Distance",
+    "authors": [
+      "Patrizia Berti",
+      "Luca Pratelli",
+      "Pietro Rigo"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://dem-web.unipv.it/web/docs/dipeco/quad/ps/RePEc/pav/wpaper/q109.pdf",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00440-010-0279-6",
+      "https://iris.unimore.it/handle/11380/640391"
+    ],
+    "version": "Local PDF is University of Pavia Quaderni di Dipartimento No.109 (January 2010), the complete 13-page working paper; later published in Probability Theory and Related Fields 150(1–2) (2011), 321–335, DOI 10.1007/s00440-010-0279-6.",
+    "reason": "A specialized coupling theorem turning a uniform class of path-law tests on D[0,1] into uniform-distance convergence in probability, with jump-coordinate proof.",
+    "topics": [
+      "A007",
+      "A008"
+    ],
+    "metadata_status": "verified_from_Pavia_institutional_PDF_and_UNIMORE_journal_record",
+    "identity_status": "verified_title_authors_workpaper_record",
+    "local_pdf": "evidence/fulltexts/W01-L23.pdf",
+    "sha256": "574f766c3f1b9096c62c07d766241c0877cb6d22d6f21474ccf2cf848d588bb8",
+    "pages": 13,
+    "document_pages": 13,
+    "document_type": "complete available paper PDF",
+    "pdf_scope": "complete_institutional_working_paper_PDF",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "acquired and identity-checked by D04; fulltext read by W01",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp.1–13: complete available paper read."
+    ],
+    "selected_chapters_read": [],
+    "selected_sections_read": [],
+    "read_units": [
+      {
+        "unit": "entire available paper",
+        "pdf_pages": [
+          1,
+          13
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical page of the complete local paper PDF was read; exact sections and proof mechanisms are mapped below."
+      }
+    ],
+    "section_coverage_complete": true,
+    "section_coverage": [
+      {
+        "unit": "Pavia cover",
+        "pdf_pages": [
+          1,
+          1
+        ],
+        "unit_type": "front_matter",
+        "content_and_proof_mechanism": "Verified local working-paper identity, title, authors, number and date."
+      },
+      {
+        "unit": "Abstract and §1 Introduction",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "unit_type": "front_matter_and_section",
+        "content_and_proof_mechanism": "Read the uniform-Lipschitz, d-Borel test class and the stronger uniform-distance coupling goal.",
+        "printed_pages": [
+          1,
+          2
+        ]
+      },
+      {
+        "unit": "§2 Preliminary results, Propositions 1–2",
+        "pdf_pages": [
+          3,
+          5
+        ],
+        "unit_type": "section_and_proofs",
+        "content_and_proof_mechanism": "Read maximal coupling, Proposition 2 disintegration/Blackwell–Dubins construction, and the exact criterion P*(Y_n≠Y_0)→0 together with Z_n→Z_0 in probability.",
+        "printed_pages": [
+          2,
+          4
+        ]
+      },
+      {
+        "unit": "§3 Main theorem, Corollary 5 and Examples 6–7",
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "unit_type": "section_and_results",
+        "content_and_proof_mechanism": "Read Theorem 4’s equivalence for the full uniform test class, the nonatomic-space transfer, and the counterexamples to weakening the test supremum or strengthening convergence in probability to almost sure.",
+        "printed_pages": [
+          4,
+          6
+        ]
+      },
+      {
+        "unit": "§4 Applications",
+        "pdf_pages": [
+          8,
+          10
+        ],
+        "unit_type": "section_and_applications",
+        "content_and_proof_mechanism": "Read mixture, exchangeable-sample and pure-jump applications; each verifies its own uniform-test/jump-vector condition.",
+        "printed_pages": [
+          7,
+          9
+        ]
+      },
+      {
+        "unit": "Appendix: Lemmas 11–13 and proof of Theorem 4",
+        "pdf_pages": [
+          10,
+          13
+        ],
+        "unit_type": "appendix_and_proof",
+        "content_and_proof_mechanism": "Read the source-unstated Lemma 11, transport-cost Lemma 12, jump-coordinate Lemma 13 and the full hard direction of Theorem 4; Lemma 11 is stated without proof by the source.",
+        "printed_pages": [
+          9,
+          12
+        ]
+      },
+      {
+        "unit": "References",
+        "pdf_pages": [
+          13,
+          13
+        ],
+        "unit_type": "references",
+        "content_and_proof_mechanism": "Read the full bibliography; cited external references are not claimed as locally read."
+      }
+    ],
+    "review_status": "pending_combined_scope_review",
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D04/batch02/papers/B2-W01-Berti2010.pdf",
+    "candidate_class": "strict_v1_retained",
+    "distinct_work_count": 1,
+    "tool_quota_eligible": true,
+    "source_review_status": "R01 final source review passed; R04 type audit confirms paper/book type",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "candidate_pdf_sha256": "574f766c3f1b9096c62c07d766241c0877cb6d22d6f21474ccf2cf848d588bb8",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_eligibility": "strict source/work-type candidate; combined W01 strict-v2 scope review pending.",
+    "card_path": "evidence/W01/cards/W01-L23.md"
+  },
+  {
+    "title": "A Formalization of Doob’s Martingale Convergence Theorems in mathlib",
+    "authors": [
+      "Kexing Ying",
+      "Rémy Degenne"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": "10.1145/3573105.3575675",
+    "url": "https://arxiv.org/abs/2212.05578",
+    "alternate_urls": [
+      "https://doi.org/10.1145/3573105.3575675"
+    ],
+    "version": "arXiv:2212.05578v1",
+    "metadata_status": "verified arXiv and ACM metadata",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/CANONICAL-PR-fffd4786b8c3.pdf",
+    "sha256": "56bd37e5f6bdf191f73ca53b1f7b3f75a27a53b3902098db7f0e7c42b6c29b63",
+    "local_id": "CANONICAL-PR-fffd4786b8c3",
+    "reason": "Discrete-time conditional expectation and UI-to-L1 martingale convergence, under the finite-measure and integrability hypotheses in the paper.",
+    "topics": [
+      "A127"
+    ],
+    "canonical_source_id": "PR-fffd4786b8c3",
+    "canonical_worker": "W02",
+    "canonical_local_id": "W02-S002",
+    "reading_status": "reuses_canonical",
+    "read_pages": [],
+    "read_units": [],
+    "section_coverage_file": "evidence/W01/coverage/B8/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/CANONICAL-PR-fffd4786b8c3.md",
+    "canonical_usage_note": "Discrete-time martingale UI ⇒ L¹ convergence / conditional-expectation characterization, conditional auxiliary to A127 only after the CTCS-specific martingale and UI are proved.",
+    "review_status": "pending_combined_scope_review",
+    "usage_evidence_accepted": true,
+    "proposed_tool_quota_eligibility": true,
+    "quota_credit": 0,
+    "full_document_acquired": true,
+    "reader": "L04",
+    "batch": "L04_primary_reuse_B8",
+    "canonical_evidence_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B8_R04/PR-fffd4786b8c3-approval-snapshot.json",
+    "canonical_evidence_snapshot_sha256": "b377af140e4a5b8617d6dd39c76adb177b8e9ee10af5c6eb281f038f5054937b",
+    "canonical_original_zip_sha256": "920005b13fdcd4940bfa4a72997d0cc4053ddc58d6d8708676ff89b368e97283",
+    "canonical_approved_archive_members": {
+      "workers/W02/data/Baanen_etal_2022_Doob_Convergence_Mathlib.pdf": "56bd37e5f6bdf191f73ca53b1f7b3f75a27a53b3902098db7f0e7c42b6c29b63",
+      "workers/W02/cards/W02-S002.md": "b3f23ba84b449d84162099314948c2173e48c8b1b47bea56376c836bea9ffe07",
+      "workers/W02/sources.json": "79a4adb78a3b2ee7476fc9947119e14287963b79e1948c47e6f492738ffaff5d",
+      "workers/W02/reading_coverage.json": "c6ff691f436d30a97c150326b3db90b92efb1321a013329a459ead143e8bc03f"
+    },
+    "frozen_release_manifest_sha256": "93bd243c8ddce255611acdb856a977e893b889b42e9e28ca7d77bdf06de6180e",
+    "frozen_published_review_sha256": "e5c8afecfc67d01e99098d655592d90bdff8dd2070080283f7ada966196c3004",
+    "frozen_installed_review_hash_matches_manifest": true,
+    "note": "R04 passed usage mathematics and accepted the reused original W02 full-read evidence. This patch binds the copied immutable per-source approval snapshot and its exact original archive-member hashes; final immutable-anchor confirmation remains pending. No mother source or quota is changed here.",
+    "original_local_pdf": "data/Baanen_etal_2022_Doob_Convergence_Mathlib.pdf",
+    "source_family_key": "PR-fffd4786b8c3",
+    "candidate_class": "B8_R04_approved_canonical_reuse",
+    "new_fulltext_read": false,
+    "source_use_review_status": "passed by R04; exact per-source immutable snapshot copied",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B8_R04/PR-fffd4786b8c3-approval-snapshot.json",
+    "tool_quota_eligible": true,
+    "distinct_work_count": 1,
+    "usage_coverage": "evidence/W01/coverage/B8/reading_coverage.json",
+    "canonical_read_coverage": "evidence/W01/coverage/canonical/PR-fffd4786b8c3.json",
+    "canonical_usage_card": "evidence/W01/cards/CANONICAL-PR-fffd4786b8c3.md",
+    "candidate_pdf_sha256": "56bd37e5f6bdf191f73ca53b1f7b3f75a27a53b3902098db7f0e7c42b6c29b63",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "qualifies_for_tool_source_count": true,
+    "card_path": "evidence/W01/cards/CANONICAL-PR-fffd4786b8c3.md",
+    "section_coverage_path": "evidence/W01/coverage/B8/reading_coverage.json"
+  },
+  {
+    "title": "The Martingale Problem Method Revisited",
+    "authors": [
+      "David Criens",
+      "Peter Pfaffelhuber",
+      "Thorsten Schmidt"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2108.11930",
+    "alternate_urls": [],
+    "version": "arXiv:2108.11930v1",
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/CANONICAL-PR-e1277389a5a9.pdf",
+    "sha256": "c16b91ee97ccd0ff62c17e3cca16f165581dde1189f34cd4c678beef85e69da5",
+    "local_id": "CANONICAL-PR-e1277389a5a9",
+    "reason": "Identification of a weak/weak-strong process-law limit as a martingale problem, with determining tests, UI, continuity and approximate identities; not tightness or uniqueness.",
+    "topics": [
+      "A011"
+    ],
+    "canonical_source_id": "PR-e1277389a5a9",
+    "canonical_worker": "W02",
+    "canonical_local_id": "W02-S003",
+    "reading_status": "reuses_canonical",
+    "read_pages": [],
+    "read_units": [],
+    "section_coverage_file": "evidence/W01/coverage/B8/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/CANONICAL-PR-e1277389a5a9.md",
+    "canonical_usage_note": "Weak process-law limit identification for A011 only after tightness, test continuity, UI and approximate martingale identities; it does not give A011 total-variation convergence.",
+    "review_status": "pending_combined_scope_review",
+    "usage_evidence_accepted": true,
+    "proposed_tool_quota_eligibility": true,
+    "quota_credit": 0,
+    "full_document_acquired": true,
+    "reader": "L04",
+    "batch": "L04_primary_reuse_B8",
+    "canonical_evidence_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B8_R04/PR-e1277389a5a9-approval-snapshot.json",
+    "canonical_evidence_snapshot_sha256": "b67ed3d37bf2827ce7ba6d6722fa57a7cd25fd5c7d358b0285d605d8e2d35468",
+    "canonical_original_zip_sha256": "920005b13fdcd4940bfa4a72997d0cc4053ddc58d6d8708676ff89b368e97283",
+    "canonical_approved_archive_members": {
+      "workers/W02/data/Becker_Emergent_Martingale_Problem_Method_Revisited.pdf": "c16b91ee97ccd0ff62c17e3cca16f165581dde1189f34cd4c678beef85e69da5",
+      "workers/W02/cards/W02-S003.md": "75fb0e85438c031a43b2d42e5290603d45bdc07e15de173a776ef3da0ef48aa9",
+      "workers/W02/sources.json": "79a4adb78a3b2ee7476fc9947119e14287963b79e1948c47e6f492738ffaff5d",
+      "workers/W02/reading_coverage.json": "c6ff691f436d30a97c150326b3db90b92efb1321a013329a459ead143e8bc03f"
+    },
+    "frozen_release_manifest_sha256": "93bd243c8ddce255611acdb856a977e893b889b42e9e28ca7d77bdf06de6180e",
+    "frozen_published_review_sha256": "e5c8afecfc67d01e99098d655592d90bdff8dd2070080283f7ada966196c3004",
+    "frozen_installed_review_hash_matches_manifest": true,
+    "note": "R04 passed usage mathematics and accepted the reused original W02 full-read evidence. This patch binds the copied immutable per-source approval snapshot and its exact original archive-member hashes; final immutable-anchor confirmation remains pending. No mother source or quota is changed here.",
+    "original_local_pdf": "data/Becker_Emergent_Martingale_Problem_Method_Revisited.pdf",
+    "source_family_key": "PR-e1277389a5a9",
+    "candidate_class": "B8_R04_approved_canonical_reuse",
+    "new_fulltext_read": false,
+    "source_use_review_status": "passed by R04; exact per-source immutable snapshot copied",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B8_R04/PR-e1277389a5a9-approval-snapshot.json",
+    "tool_quota_eligible": true,
+    "distinct_work_count": 1,
+    "usage_coverage": "evidence/W01/coverage/B8/reading_coverage.json",
+    "canonical_read_coverage": "evidence/W01/coverage/canonical/PR-e1277389a5a9.json",
+    "canonical_usage_card": "evidence/W01/cards/CANONICAL-PR-e1277389a5a9.md",
+    "candidate_pdf_sha256": "c16b91ee97ccd0ff62c17e3cca16f165581dde1189f34cd4c678beef85e69da5",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "qualifies_for_tool_source_count": true,
+    "card_path": "evidence/W01/cards/CANONICAL-PR-e1277389a5a9.md",
+    "section_coverage_path": "evidence/W01/coverage/B8/reading_coverage.json"
+  },
+  {
+    "title": "On the martingale problem for degenerate-parabolic partial differential operators with unbounded coefficients and a mimicking theorem for Itô processes",
+    "authors": [
+      "Paul M. N. Feehan",
+      "Camelia Pop"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1211.4636",
+    "alternate_urls": [],
+    "version": "arXiv:1211.4636v3",
+    "metadata_status": "verified arXiv front matter",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/CANONICAL-PR-7209e8dca913.pdf",
+    "sha256": "838e89ac3ef9070a523b1211f3e1ae66afa7eafbd7f4325f94dcca2a97414c38",
+    "local_id": "CANONICAL-PR-7209e8dca913",
+    "reason": "Highly specialized half-space degenerate-diffusion martingale-problem well-posedness and conditional-coefficient one-time marginal mimicking.",
+    "topics": [],
+    "canonical_source_id": "PR-7209e8dca913",
+    "canonical_worker": "W02",
+    "canonical_local_id": "W02-S031",
+    "reading_status": "reuses_canonical",
+    "read_pages": [],
+    "read_units": [],
+    "section_coverage_file": "evidence/W01/coverage/B8/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/CANONICAL-PR-7209e8dca913.md",
+    "canonical_usage_note": "No current Formal120 mapping; retain as a specialized half-space degenerate-diffusion well-posedness/marginal-mimicking method template.",
+    "review_status": "pending_combined_scope_review",
+    "usage_evidence_accepted": true,
+    "proposed_tool_quota_eligibility": true,
+    "quota_credit": 0,
+    "full_document_acquired": true,
+    "reader": "L04",
+    "batch": "L04_primary_reuse_B8",
+    "canonical_evidence_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B8_R04/PR-7209e8dca913-approval-snapshot.json",
+    "canonical_evidence_snapshot_sha256": "10815f7042013dc2c97bee7ba4ed1a60e2b1f2c2428f110b5a132a4838574604",
+    "canonical_original_zip_sha256": "920005b13fdcd4940bfa4a72997d0cc4053ddc58d6d8708676ff89b368e97283",
+    "canonical_approved_archive_members": {
+      "workers/W02/data/Martingale_Problem_Degenerate_Diffusion_1211.4636.pdf": "838e89ac3ef9070a523b1211f3e1ae66afa7eafbd7f4325f94dcca2a97414c38",
+      "workers/W02/cards/W02-S031.md": "7a5079c298b8045427f162db577573573a8d5b96e5b7518d60ade5140aa091f5",
+      "workers/W02/sources.json": "79a4adb78a3b2ee7476fc9947119e14287963b79e1948c47e6f492738ffaff5d",
+      "workers/W02/reading_coverage.json": "c6ff691f436d30a97c150326b3db90b92efb1321a013329a459ead143e8bc03f"
+    },
+    "frozen_release_manifest_sha256": "93bd243c8ddce255611acdb856a977e893b889b42e9e28ca7d77bdf06de6180e",
+    "frozen_published_review_sha256": "e5c8afecfc67d01e99098d655592d90bdff8dd2070080283f7ada966196c3004",
+    "frozen_installed_review_hash_matches_manifest": true,
+    "note": "R04 passed usage mathematics and accepted the reused original W02 full-read evidence. This patch binds the copied immutable per-source approval snapshot and its exact original archive-member hashes; final immutable-anchor confirmation remains pending. No mother source or quota is changed here.",
+    "original_local_pdf": "data/Martingale_Problem_Degenerate_Diffusion_1211.4636.pdf",
+    "source_family_key": "PR-7209e8dca913",
+    "candidate_class": "B8_R04_approved_canonical_reuse",
+    "new_fulltext_read": false,
+    "source_use_review_status": "passed by R04; exact per-source immutable snapshot copied",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B8_R04/PR-7209e8dca913-approval-snapshot.json",
+    "tool_quota_eligible": true,
+    "distinct_work_count": 1,
+    "usage_coverage": "evidence/W01/coverage/B8/reading_coverage.json",
+    "canonical_read_coverage": "evidence/W01/coverage/canonical/PR-7209e8dca913.json",
+    "canonical_usage_card": "evidence/W01/cards/CANONICAL-PR-7209e8dca913.md",
+    "candidate_pdf_sha256": "838e89ac3ef9070a523b1211f3e1ae66afa7eafbd7f4325f94dcca2a97414c38",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "qualifies_for_tool_source_count": true,
+    "card_path": "evidence/W01/cards/CANONICAL-PR-7209e8dca913.md",
+    "section_coverage_path": "evidence/W01/coverage/B8/reading_coverage.json"
+  },
+  {
+    "local_id": "B17-003",
+    "title": "The Yamada-Watanabe-Engelbert theorem for general stochastic equations and inequalities",
+    "authors": [
+      "Thomas G. Kurtz"
+    ],
+    "year": 2007,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v12-431",
+    "url": "https://doi.org/10.1214/EJP.v12-431",
+    "alternate_urls": [
+      "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/view/431/612.html"
+    ],
+    "version": "Complete 15-page published EJP article, Volume 12 (2007), Paper 33.",
+    "reason": "Full-text-read version-family dependency for Kurtz 2014: earlier compatible-solution theorem and Appendix A randomization lemmas. For Proposition 2.10, the equation Γ(X,Y)=0 is closed under measurable pasting, which proves the full equivalence in that model; p. 6 explicitly says an arbitrary convex joint-law set retains only (a)⇔(b), (a)⇒(c), (c)⇒(d). The printed compatibility/martingale iff is explicitly corrected by the 2014 article.",
+    "topics": [
+      "A007",
+      "A008"
+    ],
+    "metadata_status": "verified_from_title_page_and_doi_record",
+    "identity_status": "verified_local_pdf_title_page_and_pagecount",
+    "local_pdf": "evidence/fulltexts/B17-003.pdf",
+    "sha256": "7dad2706b8719609a6b9e6bd5059b9bd7f4eed287683cc9d2985938c15e5603a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      15
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "pre_acquired_D01_file_pdf_parsed_and_hash_checked",
+    "full_document_acquired": true,
+    "document_pages": 15,
+    "section_coverage_path": "evidence/W01/coverage/B9/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/B17-003.md",
+    "qualifies_for_tool_source_count": false,
+    "independent_work_count_eligible": false,
+    "tool_quota_note": "Do not count as a second independent source or source-family quota item; grouped with B17-004 pending version-family audit.",
+    "independent_work_family": "KURTZ-YWE-2007-2014",
+    "read_units": [
+      {
+        "unit": "Complete 2007 published article, all sections, appendix and references",
+        "pdf_pages": [
+          1,
+          15
+        ],
+        "coverage": "complete_document_read_dependency",
+        "complete": true,
+        "notes": "Full read as a dependency/version comparison only; not a second independent work."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D01/foundations_primary_B17/papers/B17-003_Kurtz_2007.pdf",
+    "source_family_key": "KURTZ-YWE-2007-2014",
+    "candidate_class": "B9_same_family_fullread_dependency_not_an_independent_count",
+    "source_use_review_status": "passed at source level",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B9_R06/review.json",
+    "distinct_work_count": 0,
+    "section_coverage": "evidence/W01/coverage/B9/reading_coverage.json",
+    "tool_quota_eligible": false,
+    "family_counted_by": "B17-004",
+    "reason_for_exclusion_from_distinct_count": "Kurtz 2014 explicitly calls itself essentially a rewrite of 2007; the 2014 source represents the single countable family.",
+    "candidate_pdf_sha256": "7dad2706b8719609a6b9e6bd5059b9bd7f4eed287683cc9d2985938c15e5603a",
+    "tool_quota_eligibility": "not independently countable: dependency in the Kurtz 2007–2014 rewrite family.",
+    "card_path": "evidence/W01/cards/B17-003.md"
+  },
+  {
+    "local_id": "B17-004",
+    "title": "Weak and strong solutions of general stochastic models",
+    "authors": [
+      "Thomas G. Kurtz"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1214/ECP.v19-2833",
+    "url": "https://doi.org/10.1214/ECP.v19-2833",
+    "alternate_urls": [
+      "https://people.math.wisc.edu/~tgkurtz/papers/14WkStr.pdf"
+    ],
+    "version": "Complete 16-page published ECP article, Volume 19 (2014), Paper 58.",
+    "reason": "General Polish input/output joint-law theorem; disintegration and randomized representation turn pointwise uniqueness into a strong solution, with compatibility and partial-compatibility interfaces for stochastic equations.",
+    "topics": [
+      "A007",
+      "A008"
+    ],
+    "metadata_status": "verified_from_title_page_and_doi_record",
+    "identity_status": "verified_local_pdf_title_page_and_pagecount",
+    "local_pdf": "evidence/fulltexts/B17-004.pdf",
+    "sha256": "6494af18660b37c28142cee776824532b22b0c471f77f3234d9071cdae54f6b5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      16
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "pre_acquired_D01_file_pdf_parsed_and_hash_checked",
+    "full_document_acquired": true,
+    "document_pages": 16,
+    "section_coverage_path": "evidence/W01/coverage/B9/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/B17-004.md",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_note": "Proposed W01 foundational method source; contribution counts only once for Kurtz 2007–2014 family and remains pending independent tool-use review.",
+    "independent_work_family": "KURTZ-YWE-2007-2014",
+    "read_units": [
+      {
+        "unit": "Complete 2014 published article, all sections and references",
+        "pdf_pages": [
+          1,
+          16
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Full physical-page read; see section coverage and exact theorem/proof card."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D01/foundations_primary_B17/papers/B17-004_Kurtz_2014.pdf",
+    "source_family_key": "KURTZ-YWE-2007-2014",
+    "candidate_class": "B9",
+    "source_use_review_status": "passed at source level",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B9_R06/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B9/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "6494af18660b37c28142cee776824532b22b0c471f77f3234d9071cdae54f6b5",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "card_path": "evidence/W01/cards/B17-004.md"
+  },
+  {
+    "local_id": "B17-012",
+    "title": "All adapted topologies are equal",
+    "authors": [
+      "Julio Backhoff-Veraguas",
+      "Daniel Bartl",
+      "Mathias Beiglböck",
+      "Manu Eder"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1007/s00440-020-00993-8",
+    "url": "https://doi.org/10.1007/s00440-020-00993-8",
+    "alternate_urls": [
+      "https://link.springer.com/article/10.1007/s00440-020-00993-8"
+    ],
+    "version": "Complete 48-page published PTRF article, Volume 178 (2020), pp. 1125–1172.",
+    "reason": "Finite-horizon process-law convergence: proves adapted Wasserstein, symmetrized causal, information, Aldous extended weak, and optimal-stopping topologies coincide, with exact finite-horizon stopping-continuity interface.",
+    "topics": [
+      "A007",
+      "A008"
+    ],
+    "metadata_status": "verified_from_title_page_and_springer_record",
+    "identity_status": "verified_local_pdf_title_page_and_pagecount",
+    "local_pdf": "evidence/fulltexts/B17-012.pdf",
+    "sha256": "72040d8c94c9a2b123946789cc9dc2c438e658c997417c458b8b8d347188f5a7",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      48
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "pre_acquired_D01_file_pdf_parsed_and_hash_checked",
+    "full_document_acquired": true,
+    "document_pages": 48,
+    "section_coverage_path": "evidence/W01/coverage/B9/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/B17-012.md",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_note": "Proposed W01 method source; useful only after finite-horizon discrete-time adapted-Wasserstein convergence is independently established; not a continuous-time or queueing limit result.",
+    "read_units": [
+      {
+        "unit": "Complete 2020 published article, §§1–7 and references",
+        "pdf_pages": [
+          1,
+          48
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Full physical-page read; see section coverage, renders and saved exact finite example."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D01/foundations_primary_B17/papers/B17-012_Backhoff_et_al_2020.pdf",
+    "source_family_key": "BACKHOFF-ADAPTED-TOPOLOGIES-2020",
+    "candidate_class": "B9",
+    "source_use_review_status": "passed at source level",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B9_R06/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B9/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "72040d8c94c9a2b123946789cc9dc2c438e658c997417c458b8b8d347188f5a7",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "card_path": "evidence/W01/cards/B17-012.md"
+  },
+  {
+    "local_id": "B17-022",
+    "title": "Martingale problems for conditional distributions of Markov processes",
+    "authors": [
+      "Thomas G. Kurtz"
+    ],
+    "year": 1998,
+    "kind": "paper",
+    "document_type": "journal_article_version_of_record",
+    "doi": "10.1214/EJP.v3-31",
+    "url": "https://doi.org/10.1214/EJP.v3-31",
+    "alternate_urls": [
+      "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/view/31.html",
+      "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/31/31-61-1-PB.pdf"
+    ],
+    "version": "Official Electronic Journal of Probability version of record, Vol. 3 (1998), Paper no. 9, pp. 1–29; submitted 1996-11-21, final version accepted 1998-07-06.",
+    "reason": "Filtered martingale characterization and uniqueness for conditional laws of Markov processes under forward-equation/martingale-problem hypotheses; auxiliary measurable conditional-law and Markov-function interface for A007/A008 only after a model-specific Polish Markov augmentation is proved.",
+    "topics": [
+      "A007",
+      "A008"
+    ],
+    "metadata_status": "verified_against_D01_B17-022_acquisition_catalogue_and_official_EJP_landing_page",
+    "identity_status": "verified_title_author_doi_version_page_tree_sha256_and_rendered_first_last_pages",
+    "local_pdf": "evidence/fulltexts/B17-022.pdf",
+    "sha256": "fc9bea9f63b2e0f20f7c6bc586d3e7edab18df635ad07b118e8288fbee2a8386",
+    "pages": 29,
+    "document_pages": 29,
+    "pdf_scope": "complete_official_EJP_article_including_all_sections_appendix_A_and_references",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "pre_acquired_by_D01; reader_performed_no_download",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Physical PDF pp. 1–29, entire article, Appendix A.1–A.4 and both reference pages."
+    ],
+    "read_units": [
+      {
+        "unit": "Complete official 29-page EJP article, all sections, Appendix A.1–A.4 and references",
+        "pdf_pages": [
+          1,
+          29
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Every physical PDF page was rendered and inspected; section-level proof coverage is in reading_coverage.json."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage_path": "evidence/W01/coverage/B10/reading_coverage.json",
+    "card": "evidence/W01/cards/B17-022.md",
+    "review_status": "pending_combined_scope_review",
+    "canonical_source_id": null,
+    "canonical_dedup_status": "no_exact_title_doi_hash_full_read_match_in_W01_sources_or_canonical_read_index",
+    "independent_work_family": "KURTZ-1998-CONDITIONAL-DISTRIBUTIONS",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "problem_use": "auxiliary_conditional_law_template_only",
+    "unproved_interfaces": [
+      "A007: the paper does not Markovize the general renewal polling model, prove stationary-law existence, control tails, establish a large-switch-over limit, or exchange stationary and switch-over limits.",
+      "A008: the paper does not establish the adaptive polling embedded-chain criterion or a necessary-and-sufficient stability region for general renewal inputs.",
+      "For either problem, the Polish state augmentation, generator/martingale-problem existence and uniqueness, and the exact observation map must be proved for the queue model before applying Theorem 3.2 or Corollary 3.5.",
+      "This 1998 filtered-law paper is distinct from Kurtz 2007/2014 compatibility theory; no conditional-compatibility implication is imported."
+    ],
+    "math_check": "workers/W01/reader_batches/L05_primary_B10/math/constant_observation_two_state_ctmc.py; finite-state sanity check only, not a proof of any general theorem",
+    "source_formula_flags": [
+      "PDF p. 3: pointwise observation identity is conditional on cadlag Y with no fixed discontinuities; otherwise retain the time-integrated observation identity.",
+      "PDF pp. 12–13, Theorem 3.2: requires every augmented forward-equation solution to correspond to an augmented martingale-problem solution; uniqueness of the original MP is separately needed for filtered-MP uniqueness.",
+      "PDF p. 6 gives a counterexample to inferring forward-equation uniqueness from MP uniqueness without extra hypotheses.",
+      "PDF p. 4: pre-generator means dissipativity on the linear span plus the pointwise jump-approximation formula (2.1); the approximation maps need not be measurable. The positive-maximum-principle implications have the stated compact C(E) and locally compact C_0(E)/one-point-compactification scopes and do not assert generic MP existence.",
+      "PDF p. 5, Theorem 2.1: the stated range is R(lambda-overline A-prime) containing D(A-prime); the semigroup acts on L=the sup-norm closure of D(A-prime), not all B(E).",
+      "PDF p. 21, §4.4: A_0 is printed with alpha multiplying the cross-covariance term, while alpha(y,.) is the averaging kernel; retain this printed notation as unresolved. Equation (4.7) separately yields a beta coefficient after boundary cancellation. The exponential stationary density requires b>0 and sum_i a_i^2>0, and the Brownian/output-independence conclusion is stated for initial law pi_0×delta_0."
+    ],
+    "original_local_pdf": "downloads/D01/foundations_primary_B17/papers/B17-022_Kurtz_1998_Martingale_problems_conditional_distributions.pdf",
+    "source_family_key": "KURTZ-1998-CONDITIONAL-DISTRIBUTIONS",
+    "candidate_class": "B10",
+    "source_use_review_status": "passed at source level",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B10_R06/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B10/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "fc9bea9f63b2e0f20f7c6bc586d3e7edab18df635ad07b118e8288fbee2a8386",
+    "qualifies_for_tool_source_count": true,
+    "card_path": "evidence/W01/cards/B17-022.md"
+  },
+  {
+    "local_id": "B18-001",
+    "title": "Fatou’s Lemma for Weakly Converging Probabilities",
+    "authors": [
+      "Eugene A. Feinberg",
+      "Pavlo O. Kasyanov",
+      "Nina V. Zadoianchuk"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1137/S0040585X97986850",
+    "url": "https://arxiv.org/abs/1206.4073",
+    "alternate_urls": [
+      "https://www.mathnet.ru/php/archive.phtml?jrnid=tvp&option_lang=eng&paperid=4544&wshow=paper",
+      "https://epubs.siam.org/doi/abs/10.1137/S0040585X97986850?journalCode=tprbau"
+    ],
+    "version": "Complete 8-page arXiv v3 English author preprint, last revised 21 Nov 2013; published English translation in Theory Probab. Appl. 58(4) (2014), 683–689, of the Russian 2013 article. Local PDF is not claimed to be publisher VOR.",
+    "reason": "Exact weak-varying-probability Fatou inequality with a joint (index,nearby-point) liminf envelope; signed extension requires a separate lower-envelope inequality. It prevents an invalid pointwise-liminf substitution.",
+    "topics": [
+      "A007",
+      "A011"
+    ],
+    "metadata_status": "verified_arxiv_and_mathnet_publisher_translation_record",
+    "identity_status": "verified_local_pdf_title_page_pagecount_and_hash",
+    "local_pdf": "evidence/fulltexts/B18-001.pdf",
+    "sha256": "84e6aba45e97eb7342ac63bbeb98d36c93e4eee1db2041d7bf218481dfa298b2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      8
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "pre_acquired_D03_file_pdfkit_pdfinfo_pagecount_hash_checked",
+    "full_document_acquired": true,
+    "document_pages": 8,
+    "document_type": "journal_article_arxiv_author_preprint",
+    "section_coverage_path": "evidence/W01/coverage/B11/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/B18-001.md",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_note": "Proposed independent foundational method source for probability-measure-convergence; independent reviewer must decide eligibility and count.",
+    "independent_work_family": "FEINBERG-KASYANOV-ZADOIANCHUK-WEAK-FATOU-2014",
+    "read_units": [
+      {
+        "unit": "Complete available 8-page English author-preprint PDF, all sections and references",
+        "pdf_pages": [
+          1,
+          8
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "All pages were read; theorem proof page 3 was rerendered, confirming the lower-semicontinuous regularization underline-F_n; Corollary 4.7/Remark 4.8 page 7 was rerendered and checked for overline-g versus g."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "post_review_revision_note": "R07 correction: proof applies Portmanteau to the l.s.c. regularization underline-F_n of the tail infimum; Corollary 4.7 uses integral overline-g on PDF p.7, reducible to g only under upper semicontinuity.",
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D03/foundations_primary_B18/papers/B18-001.pdf",
+    "source_family_key": "FEINBERG-KASYANOV-ZADOIANCHUK-WEAK-FATOU-2014",
+    "candidate_class": "B11",
+    "source_use_review_status": "passed at source level",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B11_R07r1/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B11/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "84e6aba45e97eb7342ac63bbeb98d36c93e4eee1db2041d7bf218481dfa298b2",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "card_path": "evidence/W01/cards/B18-001.md"
+  },
+  {
+    "local_id": "B18-002",
+    "title": "Uniform Fatou’s Lemma",
+    "authors": [
+      "Eugene A. Feinberg",
+      "Pavlo O. Kasyanov",
+      "Michael Z. Zgurovsky"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.1016/j.jmaa.2016.06.044",
+    "url": "https://arxiv.org/abs/1504.01796",
+    "alternate_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S0022247X16302815",
+      "https://www.ams.sunysb.edu/~feinberg/public/"
+    ],
+    "version": "Complete 14-page official arXiv v1 author preprint, dated 8 Apr 2015; published counterpart J. Math. Anal. Appl. 444(1) (2016), 550–567. Local PDF is not the publisher layout.",
+    "reason": "Necessary-and-sufficient uniform-over-measurable-subsets Fatou inequality under total-variation convergence, with separate convergence-in-measure and negative-tail conditions; its counterexamples show setwise convergence is not a valid substitute for TV.",
+    "topics": [
+      "A011"
+    ],
+    "metadata_status": "verified_arxiv_and_elsevier_publisher_record",
+    "identity_status": "verified_local_pdf_title_page_pagecount_and_hash",
+    "local_pdf": "evidence/fulltexts/B18-002.pdf",
+    "sha256": "a3fc746599610cfa08144b61d415f4061bb5b8b2f8b852f94083f01d19ba2e0a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      14
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "pre_acquired_D03_file_pdfkit_pdfinfo_pagecount_hash_checked",
+    "full_document_acquired": true,
+    "document_pages": 14,
+    "document_type": "journal_article_arxiv_author_preprint",
+    "section_coverage_path": "evidence/W01/coverage/B11/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/B18-002.md",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_note": "Proposed independent foundational method source for probability-measure-convergence; independent reviewer must decide eligibility and count.",
+    "independent_work_family": "FEINBERG-KASYANOV-ZGUROVSKY-UNIFORM-FATOU-2016",
+    "read_units": [
+      {
+        "unit": "Complete available 14-page author-preprint PDF, all theorem proofs, counterexamples, and references",
+        "pdf_pages": [
+          1,
+          14
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "All pages were read; Corollary 1.6 nonnegative premise and signed Corollary 1.4 were rechecked; Example 3.2 p.13 source display and derived sign are kept separate."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "post_review_revision_note": "R07 correction: Corollary 1.6 assumes every f_n is nonnegative; signed Corollary 1.4 needs both convergence-in-measure and negative-tail clauses. Example 3.2 preserves source +1/2 separately from derived -1/2.",
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D03/foundations_primary_B18/papers/B18-002.pdf",
+    "source_family_key": "FEINBERG-KASYANOV-ZGUROVSKY-UNIFORM-FATOU-2016",
+    "candidate_class": "B11",
+    "source_use_review_status": "passed at source level",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B11_R07r1/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B11/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "a3fc746599610cfa08144b61d415f4061bb5b8b2f8b852f94083f01d19ba2e0a",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "card_path": "evidence/W01/cards/B18-002.md"
+  },
+  {
+    "local_id": "B18-003",
+    "title": "Fatou’s Lemma in Its Classical Form and Lebesgue’s Convergence Theorems for Varying Measures with Applications to Markov Decision Processes",
+    "authors": [
+      "E. A. Feinberg",
+      "P. O. Kasyanov",
+      "Y. Liang"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1137/S0040585X97T989945",
+    "url": "https://epubs.siam.org/doi/10.1137/S0040585X97T989945",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1902.01525",
+      "https://www.ams.sunysb.edu/~feinberg/public/FKL22020.pdf"
+    ],
+    "version": "Complete 22-page author-hosted SIAM-typeset article copy, Theory Probab. Appl. 65(2) (2020), 270–291, DOI printed on title page; arXiv:1902.01525v2 is a preprint manifestation with a shorter title. Local copy is not independently asserted to be a publisher-hosted VOR.",
+    "reason": "Connects weak/setwise varying-measure Fatou and Lebesgue convergence to exact lower semiconvergence, lower semiequicontinuity, and asymptotic uniform integrability hypotheses; also proves varying-measure monotone convergence results and an MDP ACOE application.",
+    "topics": [
+      "A007",
+      "A011"
+    ],
+    "metadata_status": "verified_siam_publisher_arxiv_and_local_title_page",
+    "identity_status": "verified_local_pdf_title_page_DOI_pagecount_and_hash",
+    "local_pdf": "evidence/fulltexts/B18-003.pdf",
+    "sha256": "859fbe2202e2d236b004b13ed039619266c708ec38925800209ce35f561033b4",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      22
+    ],
+    "review_status": "pending_combined_scope_review",
+    "download_status": "pre_acquired_D03_file_pdfkit_pdfinfo_pagecount_hash_checked",
+    "full_document_acquired": true,
+    "document_pages": 22,
+    "document_type": "journal_article_author_hosted_typeset_copy",
+    "section_coverage_path": "evidence/W01/coverage/B11/reading_coverage.json",
+    "usage_card": "evidence/W01/cards/B18-003.md",
+    "qualifies_for_tool_source_count": true,
+    "tool_quota_note": "Proposed independent foundational method source for probability-measure-convergence; arXiv/published manifestations count once and eligibility remains for independent review.",
+    "independent_work_family": "FEINBERG-KASYANOV-LIANG-CLASSICAL-FATOU-2019-2020",
+    "read_units": [
+      {
+        "unit": "Complete 22-page typeset article, all sections, examples, proofs, acknowledgement, and references",
+        "pdf_pages": [
+          1,
+          22
+        ],
+        "printed_pages": "270–291",
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "All pages were read; Corollary 4.1, Corollary 6.1, and section 7 base model assumptions were rechecked against the local typeset PDF."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "post_review_revision_note": "R07 correction: Corollary 6.1 retains pointwise nondecreasing f_n and f=lim f_n; Corollary 4.1 is signed Eq. (2.6); section 7 MDP base assumptions are recorded explicitly.",
+    "original_local_pdf": "/Volumes/data/CodexProjects/T/probability-skills-20261113/downloads/D03/foundations_primary_B18/papers/B18-003.pdf",
+    "source_family_key": "FEINBERG-KASYANOV-LIANG-CLASSICAL-FATOU-2019-2020",
+    "candidate_class": "B11",
+    "source_use_review_status": "passed at source level",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B11_R07r1/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B11/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "859fbe2202e2d236b004b13ed039619266c708ec38925800209ce35f561033b4",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "card_path": "evidence/W01/cards/B18-003.md"
+  },
+  {
+    "local_id": "B18-004",
+    "title": "Kantorovich problems and conditional measures depending on a parameter",
+    "authors": [
+      "Vladimir I. Bogachev",
+      "Ilya I. Malofeev"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "document_type": "journal_article_arxiv_author_preprint",
+    "doi": "10.1016/j.jmaa.2020.123883",
+    "url": "https://doi.org/10.1016/j.jmaa.2020.123883",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1904.03642",
+      "https://www.sciencedirect.com/science/article/pii/S0022247X20300457"
+    ],
+    "version": "Official arXiv v2 author manuscript, arXiv:1904.03642v2, revised 2019-07-03, 29 physical pages; published JMAA 486(1) (2020), article 123883, DOI 10.1016/j.jmaa.2020.123883. Local file is not the publisher layout.",
+    "reason": "Concrete measurable-disintegration method for parameterized laws and maps on completely regular Souslin spaces; Borel conditional laws require the stronger jointly Borel right-inverse condition. Also gives parameterized measurable optimal-plan selection under its precise parameter-space, cost and finite-value hypotheses. Fiber support is asserted only on attainable pairs Ω1={(y,z):y∈f_z(X)}; the proof extends by a fixed Dirac off Ω1, and its final all-y sentence is locally inconsistent.",
+    "topics": [],
+    "metadata_status": "verified_against_D03_catalogue_arxiv_v2_and_official_publisher_metadata",
+    "identity_status": "verified_title_author_version_page_tree_sha256_and_rendered_identity_pages_by_D03; local hash_and_page_tree_recomputed_by_L12",
+    "local_pdf": "evidence/fulltexts/B18-004.pdf",
+    "sha256": "142853ba2a06e48d21e93c273a8fc9407c27a6d51668a0bbcae0f104cddea587",
+    "pages": 29,
+    "document_pages": 29,
+    "pdf_scope": "complete_29_page_arxiv_v2_manuscript_including_all_sections_acknowledgements_and_references",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "pre_acquired_by_D03_reader_performed_no_download",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Physical PDF pp. 1–29, complete article, acknowledgements and all reference pages."
+    ],
+    "read_units": [
+      {
+        "unit": "Complete arXiv v2 article, all sections, acknowledgements and references",
+        "pdf_pages": [
+          1,
+          29
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Page-marked text and proof-specific section coverage are stored in this helper; critical theorem/proof pages 8–10, 14 and 24 were rendered and inspected."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage_path": "evidence/W01/coverage/B12/reading_coverage.json",
+    "card": "evidence/W01/cards/B18-004.md",
+    "review_status": "pending_combined_scope_review",
+    "canonical_source_id": null,
+    "canonical_dedup_status": "no_exact_title_doi_hash_match_found_in_W01_sources_or_canonical_read_index; D03 reports no repository exact match",
+    "independent_work_family": "BOGACHEV-MALOFEev-2020-PARAMETERIZED-CONDITIONAL-MEASURES",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "problem_use": "tool_level_parameterized_disintegration_template; no specific formal120 question asserted",
+    "unproved_interfaces": [
+      "A target model must establish its own completely regular Souslin/Polish state-space, Borel map and measurability of the parameterized probability family.",
+      "Theorem 3.4 guarantees sigma(S(Y×Z)) measurability, not Borel measurability in general; a jointly Borel version needs the right-inverse conditions of Theorem 3.5, and Proposition 3.10 explains the obstruction.",
+      "The paper proves measurability, not weak or continuous dependence of conditional measures on the parameter.",
+      "Parameterized optimal transport requires the stated measurable/lower-semicontinuous costs, finite optimal values, and the parameter-space condition for the claimed selection measurability."
+    ],
+    "source_formula_flags": [
+      "Theorem 3.4, physical pp. 8–10: the p. 5 definition of properness requires fiber support for y∈f_z(X); the proof defines Ω1={(y,z):y∈f_z(X)}, selects on Ω1, and uses δ_x0 outside Ω1. Its final p. 10 sentence says fiber concentration for all y,z, which conflicts with the definition and construction. Keep the attainable-fiber scope; do not add surjectivity."
+    ],
+    "math_check": "No standalone computational check needed for the measurable-selection proof; exact assumptions and proof construction were read/rendered from the source.",
+    "alternate_work_versions": "The published JMAA article is the same work; the inspected local text is arXiv v2 only. No second source count is claimed.",
+    "original_local_pdf": "downloads/D03/foundations_primary_B18/papers/B18-004.pdf",
+    "source_family_key": "BOGACHEV-MALOFEev-2020-PARAMETERIZED-CONDITIONAL-MEASURES",
+    "candidate_class": "B12",
+    "source_use_review_status": "passed R06 final; attainable-fiber and off-fiber extension scope retained; corrected 33-file stage manifest bound",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B12_R06/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B12/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "142853ba2a06e48d21e93c273a8fc9407c27a6d51668a0bbcae0f104cddea587",
+    "qualifies_for_tool_source_count": true,
+    "card_path": "evidence/W01/cards/B18-004.md"
+  },
+  {
+    "local_id": "B18-005",
+    "title": "Large Deviations of Continuous Regular Conditional Probabilities",
+    "authors": [
+      "Willem van Zuijlen"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "document_type": "journal_article_open_access_publisher_pdf",
+    "doi": "10.1007/s10959-016-0733-1",
+    "url": "https://doi.org/10.1007/s10959-016-0733-1",
+    "alternate_urls": [
+      "https://link.springer.com/article/10.1007/s10959-016-0733-1",
+      "https://link.springer.com/content/pdf/10.1007/s10959-016-0733-1.pdf",
+      "https://arxiv.org/abs/1605.05192"
+    ],
+    "version": "Official Open Access Springer published PDF, Journal of Theoretical Probability 31 (2018), 1058–1096; online publication 2016-12-27. The related arXiv v1 is the same work, was not used as read text and is not counted separately.",
+    "reason": "Precise necessary-and-sufficient local conditional-probability criteria for transferring a good joint LDP to continuous regular conditional kernels at moving conditioning points; includes a finite-state conditional Sanov theorem and counterexamples showing the role of support, version and local-ratio conditions.",
+    "topics": [],
+    "metadata_status": "verified_against_D03_catalogue_official_Springer_record_and_related_arxiv_record",
+    "identity_status": "verified_publisher_pdf_title_author_doi_printed_pages_and_open_access_identity_by_D03; local hash_and_page_tree_recomputed_by_L12",
+    "local_pdf": "evidence/fulltexts/B18-005.pdf",
+    "sha256": "3996a97058813a06ea379c8648efe505bab7b1d4522b9f38a9729e51934a7fc2",
+    "pages": 39,
+    "document_pages": 39,
+    "pdf_scope": "complete_39_page_publisher_article_including_all_nine_sections_three_appendices_and_references",
+    "full_document_acquired": true,
+    "full_book_acquired": false,
+    "download_status": "pre_acquired_by_D03_reader_performed_no_download",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Physical PDF pp. 1–39, complete published article, Appendices 1–3 and all references; printed pp. 1058–1096."
+    ],
+    "read_units": [
+      {
+        "unit": "Complete Springer OA published article, §§1–9, Appendices 1–3 and references",
+        "pdf_pages": [
+          1,
+          39
+        ],
+        "coverage": "complete_document_read",
+        "complete": true,
+        "notes": "Page-marked text and detailed section coverage are stored in this helper; critical theorem and proof formulas were checked against rendered pages 4–5, 15, 19, 24, 27, 31 and 37."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_complete": true,
+    "section_coverage_path": "evidence/W01/coverage/B12/reading_coverage.json",
+    "card": "evidence/W01/cards/B18-005.md",
+    "review_status": "pending_combined_scope_review",
+    "canonical_source_id": null,
+    "canonical_dedup_status": "no_exact_title_doi_hash_match_found_in_W01_sources_or_canonical_read_index; D03 reports no repository exact match",
+    "independent_work_family": "VAN-ZUIJLEN-2018-LDP-CONTINUOUS-CONDITIONAL-PROBABILITIES",
+    "tool_quota_eligibility": "source-level usage/read review passed; included as strict-v2 candidate; combined scope review pending; no mother quota increment.",
+    "problem_use": "tool_level_conditional_LDP_transfer_template; no specific formal120 question asserted",
+    "unproved_interfaces": [
+      "A target application must establish a good joint LDP and the theorem's exact fiberwise rate and finite normalizing infimum.",
+      "The chosen conditional-kernel versions must exist and be weakly continuous on the relevant conditioning-marginal supports; values off support are not determined.",
+      "The local conditional numerator/denominator ratio bounds in Theorem 1.2 or 1.3 must be checked; joint weak convergence alone is insufficient.",
+      "For the regular-kernel theorem, the observation map must be continuous. The paper does not prove conditional weak convergence under arbitrary parameter changes."
+    ],
+    "source_formula_flags": [
+      "Theorem 1.2, physical pp. 4–5: the lower test uses closure of an open ball and the upper test uses W°; preserve both and the support-sequence quantifier.",
+      "Theorem 1.3, physical p. 5: the rate is infinite off the conditioning fiber and subtracts the infimum over that fiber.",
+      "Example 9.1 density and scaled log-mgf are on physical p. 31 (printed p. 1088); the prose rate sentence is physical p. 32 (printed p. 1089) and prints (x−ry)^2, while the displayed mgf, Legendre transform, and Theorem 1.2 rate give (x−ry)^2/2. The mismatch is isolated.",
+      "Example 9.1 prints r≠0, but Z_n over R² is finite only for 1−r²>0. The probability model therefore requires 0<|r|<1 as written; do not use |r|≥1 as a probability density."
+    ],
+    "math_check": "workers/W01/reader_batches/L12_primary_B12/math_checks/conditional_kernel_checks.py and .json: symbolic Gaussian completion/Legendre transform plus exact finite two-atom joint-weak/conditional-law counterexample; not proofs of the paper's LDP theorems. The revision also checks positive definiteness of [[1,-r],[-r,1]] via determinant 1-r²; these are formula checks, not proofs of the LDP.",
+    "alternate_work_versions": "Official arXiv v1 at arXiv:1605.05192 was not the read version and is not counted as a distinct work; the official Springer OA version is the sole source text for this card.",
+    "original_local_pdf": "downloads/D03/foundations_primary_B18/papers/B18-005.pdf",
+    "source_family_key": "VAN-ZUIJLEN-2018-LDP-CONTINUOUS-CONDITIONAL-PROBABILITIES",
+    "candidate_class": "B12",
+    "source_use_review_status": "passed R06 final; pp.31–32 and 0<|r|<1 scope retained; corrected 33-file stage manifest bound",
+    "candidate_scope_review": "pending_combined_W01_strict_v2_review",
+    "source_approval_snapshot": "evidence/review/candidate-scope/scope/source_approvals/W01/B12_R06/review.json",
+    "distinct_work_count": 1,
+    "section_coverage": "evidence/W01/coverage/B12/reading_coverage.json",
+    "tool_quota_eligible": true,
+    "candidate_pdf_sha256": "3996a97058813a06ea379c8648efe505bab7b1d4522b9f38a9729e51934a7fc2",
+    "qualifies_for_tool_source_count": true,
+    "card_path": "evidence/W01/cards/B18-005.md"
+  }
+]

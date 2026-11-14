@@ -1,0 +1,58 @@
+{
+  "source": "workers/W04/papers/LPW2017.pdf",
+  "source_sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+  "source_physical_pages": [
+    231,
+    239,
+    240
+  ],
+  "source_printed_pages": [
+    215,
+    223,
+    224
+  ],
+  "harmonic_mean_numerator_identity": "c*u + c*v + 2*u*v",
+  "uniform_cube_finite_checks": [
+    {
+      "dimension": 1,
+      "gap": "1",
+      "multiplicities": {
+        "1": 1,
+        "0": 1
+      }
+    },
+    {
+      "dimension": 2,
+      "gap": "1/2",
+      "multiplicities": {
+        "1": 1,
+        "1/2": 2,
+        "0": 1
+      }
+    },
+    {
+      "dimension": 3,
+      "gap": "1/3",
+      "multiplicities": {
+        "1": 1,
+        "2/3": 3,
+        "1/3": 3,
+        "0": 1
+      }
+    },
+    {
+      "dimension": 4,
+      "gap": "1/4",
+      "multiplicities": {
+        "1": 1,
+        "3/4": 4,
+        "1/4": 4,
+        "1/2": 6,
+        "0": 1
+      }
+    }
+  ],
+  "independently_derived_coefficient": "M Mstar exp(2 beta Delta M)",
+  "source_stated_coefficient": "4 M^2 Mstar exp(2 beta Delta (M+1))",
+  "scope": "Finite exact checks; universal proof and restricted hypotheses in adjacent note. Independent R02 review required before adoption."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学建模·证据核验"
+  short_description: "核对模型边界、实验日志和论文数字，建立可追溯证据链并识别缺口"
+  default_prompt: "请使用 $math-modeling-audit 核查当前数学建模项目，先确认基线与证据链，再报告关键问题、已执行检查和未验证事项；未经授权不要修改或新增实验。"

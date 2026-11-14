@@ -1,0 +1,14 @@
+{
+  "check_type": "numerical_formula_consistency_only",
+  "formal_dimension_n": 2,
+  "validation_sample_count_N": 10000,
+  "candidate_count_upper_bound_M": 100,
+  "confidence_delta": 0.05,
+  "mean_scale_epsilon": 0.0407284903724703,
+  "union_bound_at_epsilon": 0.05,
+  "target_delta": 0.05,
+  "absolute_union_bound_difference": 0.0,
+  "integral_scale_multiplier": 39.47841760435743,
+  "integral_scale_error_threshold": 1.6078963513194335,
+  "scope": "Finite pre-fixed candidate list only; no all-partition or optimizer claim."
+}

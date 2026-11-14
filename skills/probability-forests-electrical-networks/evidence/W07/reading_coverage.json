@@ -1,0 +1,1449 @@
+[
+  {
+    "local_id": "LMS2008WUSFEnds",
+    "title": "Ends in Uniform Spanning Forests",
+    "local_pdf": "evidence/fulltexts/LMS2008WUSFEnds.pdf",
+    "sha256": "f8c895a4966dc490a4659136503d464649ba8b39b412660336046c05d1166f41",
+    "physical_pdf_pages": 23,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and model",
+        "pdf_pages": "1–2",
+        "coverage_note": "Problem setup and the WSF/WSF_o comparison."
+      },
+      {
+        "unit": "§2 preliminaries and background",
+        "pdf_pages": "3–5",
+        "coverage_note": "Definitions and end-count setup."
+      },
+      {
+        "unit": "§3 root-cluster exploration",
+        "pdf_pages": "5–7",
+        "coverage_note": "Edge-exposure martingale and corrected one-endedness implication."
+      },
+      {
+        "unit": "§4 examples and applications",
+        "pdf_pages": "7–12",
+        "coverage_note": "One-endedness theorem for the lattice and supporting lemmas."
+      },
+      {
+        "unit": "§5 general network criterion",
+        "pdf_pages": "13–14",
+        "coverage_note": "Proposition 5.1 conductance hypotheses for one-endedness."
+      },
+      {
+        "unit": "§6 resistance/isoperimetric estimates",
+        "pdf_pages": "15–17",
+        "coverage_note": "Theorem 6.1 and lemmas; voltage level sets and exhaustion."
+      },
+      {
+        "unit": "§7 consequences",
+        "pdf_pages": "17–21",
+        "coverage_note": "Theorem 7.1 and quasi-transitive/hyperbolic applications."
+      },
+      {
+        "unit": "references and erratum context",
+        "pdf_pages": "22–23",
+        "coverage_note": "Bibliography; the card separately checks the authors’ erratum."
+      }
+    ]
+  },
+  {
+    "local_id": "HN2017USF",
+    "title": "Indistinguishability of Trees in Uniform Spanning Forests",
+    "local_pdf": "evidence/fulltexts/HN2017USF.pdf",
+    "sha256": "543b5d23642a4d79db72d4b4f3693b97e485794e7b0ff1b6276be04388558bcb",
+    "physical_pdf_pages": 43,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction, hypotheses, and component properties",
+        "pdf_pages": "1–14",
+        "coverage_note": "Theorems 1.9–1.20 and definitions for unimodular networks."
+      },
+      {
+        "unit": "§2 FUSF",
+        "pdf_pages": "14–23",
+        "coverage_note": "Update tolerance, pivotal edges, and the indistinguishability proof."
+      },
+      {
+        "unit": "§3 FUSF component-count dichotomy",
+        "pdf_pages": "24–26",
+        "coverage_note": "Connected-or-infinitely-many-components result."
+      },
+      {
+        "unit": "§4 WUSF",
+        "pdf_pages": "27–40",
+        "coverage_note": "Tail and non-tail component properties, Wilson resampling, and update tolerance."
+      },
+      {
+        "unit": "acknowledgements and references",
+        "pdf_pages": "41–43",
+        "coverage_note": "End matter."
+      }
+    ]
+  },
+  {
+    "local_id": "TIMAR2006FMSF",
+    "title": "Ends in Free Minimal Spanning Forests",
+    "local_pdf": "evidence/fulltexts/TIMAR2006FMSF.pdf",
+    "sha256": "6bcc8fc2dbf0ede65d2638fbc788701ba07b4db73e534a7ddd6f97782fd6a845",
+    "physical_pdf_pages": 6,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and hypotheses",
+        "pdf_pages": "1–3",
+        "coverage_note": "Free/wired minimal forests and end-number problem."
+      },
+      {
+        "unit": "§2 proof of the FMSF end theorem",
+        "pdf_pages": "3–5",
+        "coverage_note": "MTP and WMSF one-endedness input."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "6",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "PEM1991",
+    "title": "Choosing a Spanning Tree for the Integer Lattice Uniformly",
+    "local_pdf": "evidence/fulltexts/PEM1991.pdf",
+    "sha256": "dfde394b1108f6c570ab7cfd4672eab9e865f357e68e8795fba979c79de2073e",
+    "physical_pdf_pages": 24,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction",
+        "pdf_pages": "1–3",
+        "coverage_note": "Lattice UST/WSF questions and limiting setup."
+      },
+      {
+        "unit": "§2 finite random-walk construction and electrical comparison",
+        "pdf_pages": "3–9",
+        "coverage_note": "Aldous–Broder-style covering walk and transfer arguments."
+      },
+      {
+        "unit": "§3 loop-erased random walk",
+        "pdf_pages": "10–16",
+        "coverage_note": "LERW/SRW intersection lemmas and dimension inputs."
+      },
+      {
+        "unit": "§4 number and shape of components",
+        "pdf_pages": "17–23",
+        "coverage_note": "Connectivity, component count, and ends."
+      },
+      {
+        "unit": "references and repository note",
+        "pdf_pages": "23–24",
+        "coverage_note": "Bibliography and final repository page."
+      }
+    ]
+  },
+  {
+    "local_id": "BKPS2004",
+    "title": "Geometry of the Uniform Spanning Forest: Transitions in Dimensions 4, 8, 12, …",
+    "local_pdf": "evidence/fulltexts/BKPS2004.pdf",
+    "sha256": "719330c1def8671f1293cee5bf6e3db52cd3090bcd79d3e5aa8a0945c2c6bd30",
+    "physical_pdf_pages": 28,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and main theorems",
+        "pdf_pages": "1–3",
+        "coverage_note": "Dimension transitions for USF on Z^d."
+      },
+      {
+        "unit": "§2 stochastic dimension",
+        "pdf_pages": "4–10",
+        "coverage_note": "Random relations and composition dimension theorem."
+      },
+      {
+        "unit": "§3 tail triviality and restricted composition",
+        "pdf_pages": "11–13",
+        "coverage_note": "Remote-tail upgrade and composition argument."
+      },
+      {
+        "unit": "§4 USF relation geometry and stochastic domination",
+        "pdf_pages": "14–22",
+        "coverage_note": "Theorems 4.1–4.5, including finite-wired coupling and USF component relation."
+      },
+      {
+        "unit": "§5–6 applications, refinements, and conjectures",
+        "pdf_pages": "23–26",
+        "coverage_note": "Upper/lower path bounds and the MSF conjecture boundary."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "27–28",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "LPS2020IND",
+    "title": "Induced Graphs of Uniform Spanning Forests",
+    "local_pdf": "evidence/fulltexts/LPS2020IND.pdf",
+    "sha256": "b9eda43ca18c8d6856216fdbc4041f0a2b2161bb29cacc34a45bbcd0ec21b231",
+    "physical_pdf_pages": 13,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and main claims",
+        "pdf_pages": "1–3",
+        "coverage_note": "Induced-component graph operation and theorem statements."
+      },
+      {
+        "unit": "§2 preliminaries",
+        "pdf_pages": "3–5",
+        "coverage_note": "WSF/FSF and induced-subgraph notation."
+      },
+      {
+        "unit": "§3 recurrence",
+        "pdf_pages": "6–9",
+        "coverage_note": "Theorem 1.1 applies to the induced graph I_G(F)."
+      },
+      {
+        "unit": "§4 resistance",
+        "pdf_pages": "9–10",
+        "coverage_note": "Resistance assertion with the induced graph."
+      },
+      {
+        "unit": "§5 resampling and counterexample",
+        "pdf_pages": "11–12",
+        "coverage_note": "Induced-graph resampling theorems and bridge/current obstruction."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "12–13",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "LIYU2026",
+    "title": "A Zero-One Law for Swap-Invariant Events in Uniform Spanning Forests",
+    "local_pdf": "evidence/fulltexts/LIYU2026.pdf",
+    "sha256": "9a743a44e1ee84a5adb0a50edf45ec38484a4f410aef1c112e170e3b0eecfa8c",
+    "physical_pdf_pages": 7,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and zero-one theorem",
+        "pdf_pages": "1–2",
+        "coverage_note": "Swap-invariant events for FSF/WSF."
+      },
+      {
+        "unit": "§2 proof",
+        "pdf_pages": "3–5",
+        "coverage_note": "Exhaustion, finite edge switches, and limiting argument."
+      },
+      {
+        "unit": "§3 applications",
+        "pdf_pages": "5–6",
+        "coverage_note": "Component-count and excessive-end consequences."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "7",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "HL2003",
+    "title": "Change Intolerance in Spanning Forests",
+    "local_pdf": "evidence/fulltexts/HL2003.pdf",
+    "sha256": "c80f52b9d3023adbe3609e47c690119e66390ac817952c1ab3e8855e02994f03",
+    "physical_pdf_pages": 12,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 model and main criterion",
+        "pdf_pages": "1–3",
+        "coverage_note": "Theorem 1.4 change-tolerance criterion for spherically symmetric transient trees."
+      },
+      {
+        "unit": "§2 ray-percolation comparison",
+        "pdf_pages": "4–6",
+        "coverage_note": "Reduction from forest changes to harmonic-ray law and network extension setup."
+      },
+      {
+        "unit": "§3 martingale and second moment",
+        "pdf_pages": "6–9",
+        "coverage_note": "Radon–Nikodym martingale, deterministic harmonic mass I(x), percolation inclusion probability h(x), and Eq. (3.4) on p. 9."
+      },
+      {
+        "unit": "§4 singularity of determinantal probabilities and references",
+        "pdf_pages": "10–12",
+        "coverage_note": "Final DPP section/application (pp. 10–11) and bibliography (p. 12)."
+      }
+    ]
+  },
+  {
+    "local_id": "ALEX1995MSF",
+    "title": "Percolation and Minimal Spanning Forests in Infinite Graphs",
+    "local_pdf": "evidence/fulltexts/ALEX1995MSF.pdf",
+    "sha256": "a8354c571eaeb9404a1a5c1e0cbdcd4e1eabf2bc724c33ac88446041ab3da3a7",
+    "physical_pdf_pages": 19,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and MSF construction",
+        "pdf_pages": "1–4",
+        "coverage_note": "Stationary labeled graphs and creek-crossing rule."
+      },
+      {
+        "unit": "§2 edge characterizations and structural theorem",
+        "pdf_pages": "4–9",
+        "coverage_note": "Propositions 2.1, Theorems 2.5–2.6, end structure."
+      },
+      {
+        "unit": "§3 stationary arguments",
+        "pdf_pages": "9–13",
+        "coverage_note": "No-core/no-branch-point and percolation uniqueness inputs."
+      },
+      {
+        "unit": "§4 invasion percolation",
+        "pdf_pages": "13–16",
+        "coverage_note": "Breakouts, minimax paths, and MSF relation."
+      },
+      {
+        "unit": "§5 finite-box stability",
+        "pdf_pages": "16–18",
+        "coverage_note": "Perturbation theorem under strict simultaneous uniqueness."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "19",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "TIMAR2018MSF",
+    "title": "Indistinguishability of the Components of Random Spanning Forests",
+    "local_pdf": "evidence/fulltexts/TIMAR2018MSF.pdf",
+    "sha256": "0ed888682bede1efddbcb1da2c27e0eefb75b4b121381ee491c8dcc811dd7a1a",
+    "physical_pdf_pages": 18,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and weak insertion tolerance",
+        "pdf_pages": "1–5",
+        "coverage_note": "Main theorems and WIT for free/wired forests."
+      },
+      {
+        "unit": "§2 setup and mass transport",
+        "pdf_pages": "6–8",
+        "coverage_note": "Invariant forest and unimodular framework."
+      },
+      {
+        "unit": "§3 ends and component count",
+        "pdf_pages": "9–13",
+        "coverage_note": "Infinitely-ended components and one-or-infinity alternative."
+      },
+      {
+        "unit": "§4 indistinguishability",
+        "pdf_pages": "14–17",
+        "coverage_note": "Pivotal-pair modification and Radon–Nikodym comparison."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "18",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "HUTCH2020TUP",
+    "title": "Indistinguishability of Collections of Trees in the Uniform Spanning Forest",
+    "local_pdf": "evidence/fulltexts/HUTCH2020TUP.pdf",
+    "sha256": "6ae78fc7c44530c4ffb625114d4fa7011b4a0794216210be9674df4d776502b6",
+    "physical_pdf_pages": 14,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 definitions and main theorems",
+        "pdf_pages": "1–3",
+        "coverage_note": "Tail k-component properties and the two graph settings."
+      },
+      {
+        "unit": "§2 proof",
+        "pdf_pages": "4–12",
+        "coverage_note": "Tail triviality, Liouville mixing, Wilson coupling, and all-or-none conclusion."
+      },
+      {
+        "unit": "§3 limitations and examples",
+        "pdf_pages": "12–13",
+        "coverage_note": "Role of Liouville and weakened-hypothesis examples."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "13–14",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "HN2019PLANAR",
+    "title": "Uniform Spanning Forests of Planar Graphs",
+    "local_pdf": "evidence/fulltexts/HN2019PLANAR.pdf",
+    "sha256": "b0b28509f05baaa418e00cd0cf8cb58ca16dc5e22ef738a37bcac61bf1fe3f15",
+    "physical_pdf_pages": 39,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and theorem statements",
+        "pdf_pages": "1–7",
+        "coverage_note": "FUSF connectivity, WUSF one-endedness, and geometric tails."
+      },
+      {
+        "unit": "§2 preliminaries",
+        "pdf_pages": "8–12",
+        "coverage_note": "Planar networks and circle-packing setup."
+      },
+      {
+        "unit": "§3 WUSF one-endedness and dual connectivity",
+        "pdf_pages": "13–19",
+        "coverage_note": "Spatial Markov property, effective resistance, random annuli."
+      },
+      {
+        "unit": "§4 quantitative path/past estimates",
+        "pdf_pages": "20–36",
+        "coverage_note": "Circle-packing ring estimates, Wilson construction, second moments, uniform transience."
+      },
+      {
+        "unit": "§5 examples and open questions",
+        "pdf_pages": "36–38",
+        "coverage_note": "Non-universal geometry and limitations."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "38–39",
+        "coverage_note": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "BLPS2001",
+    "title": "Uniform Spanning Forests",
+    "local_pdf": "evidence/fulltexts/BLPS2001.pdf",
+    "sha256": "17da5f8f44c41ae071c306743155bab0ae56863cb2652bb010ae006963333693",
+    "physical_pdf_pages": 72,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "front matter, version notes, contents",
+        "pdf_pages": "1",
+        "coverage_note": "Identity, 27 Jan. 2009 local version, errata on bounded number of face sides and transfer-current coefficient."
+      },
+      {
+        "unit": "§1 introduction",
+        "pdf_pages": "2–4",
+        "coverage_note": "FSF/WSF limits, core questions, theorem roadmap, and WSF/FSF distinction."
+      },
+      {
+        "unit": "§2 basic definitions",
+        "pdf_pages": "5–6",
+        "coverage_note": "Undirected graph/network conventions, loops/parallel edges, conductance C_v<∞ standing assumption, reversible network walk."
+      },
+      {
+        "unit": "§3 Wilson’s method",
+        "pdf_pages": "7–8",
+        "coverage_note": "Finite and infinite Wilson constructions and their conditions."
+      },
+      {
+        "unit": "§4 electrical networks and random spanning trees",
+        "pdf_pages": "9–15",
+        "coverage_note": "Theorem 4.1 (PDF p. 10; proof pp. 10–11) is the finite single-edge current identity. The distinct-edge determinant is the unnumbered Transfer Current Theorem, eqs. (4.4)–(4.5), stated p. 12 and proved pp. 12–13; rendered statement and proof checked, including the contraction/Gram-determinant chain."
+      },
+      {
+        "unit": "§5 basic properties of random spanning forests",
+        "pdf_pages": "16–19",
+        "coverage_note": "Free/wired exhaustions, limits, stochastic comparison and invariance."
+      },
+      {
+        "unit": "§6 average and expected degrees",
+        "pdf_pages": "20–21",
+        "coverage_note": "Degree and oriented-forest identities."
+      },
+      {
+        "unit": "§7 potential theory",
+        "pdf_pages": "22–25",
+        "coverage_note": "In resistance-energy ℓ²_-(E), free current is P_{Diamond^perp}χ^e and wired current is P_starχ^e; FSF/WSF kernels are P_{Diamond^perp}/P_star. Propositions 7.1–7.2, Theorems 7.3 and 7.8, and their proof dependencies checked."
+      },
+      {
+        "unit": "§8 ergodic properties",
+        "pdf_pages": "26–31",
+        "coverage_note": "Mixing, orbit condition, ergodicity/singularity and tail triviality; Corollary 8.2 rendered and orbit implication checked under finite vertex conductance."
+      },
+      {
+        "unit": "§9 number of components",
+        "pdf_pages": "32–34",
+        "coverage_note": "FSF/WSF component-count criteria and transitive volume-growth threshold."
+      },
+      {
+        "unit": "§10 ends of WSF components in transitive graphs",
+        "pdf_pages": "35–45",
+        "coverage_note": "One-/two-ended dichotomy and disconnected-WFS one-end theorem; MTP trunk/bush arguments."
+      },
+      {
+        "unit": "§11 WSF on a tree",
+        "pdf_pages": "46–50",
+        "coverage_note": "Tree-specific recurrent/transient structure and component properties."
+      },
+      {
+        "unit": "§12 planar graphs and hyperbolic lattices",
+        "pdf_pages": "51–54",
+        "coverage_note": "Duality and planar/hyperbolic forest properties."
+      },
+      {
+        "unit": "§13 WSF in nonamenable graphs",
+        "pdf_pages": "55–62",
+        "coverage_note": "Spectral-radius and boundedness hypotheses, independent-percolation augmentation, and ends; Theorem 13.7’s proof first equalizes weighted vertex conductances with self-loops, then uses the loop-adjusted-walk estimate (13.6) before the expected-path count. PDF p. 59 rendered."
+      },
+      {
+        "unit": "§14 loop-erased walks and harmonic measure",
+        "pdf_pages": "63–64",
+        "coverage_note": "Loop-erased-walk and planar harmonic measure applications."
+      },
+      {
+        "unit": "§15 open questions and references",
+        "pdf_pages": "65–72",
+        "coverage_note": "Open interfaces and full bibliography; no open question is promoted to a theorem."
+      }
+    ]
+  },
+  {
+    "local_id": "AL2007",
+    "title": "Processes on Unimodular Random Networks",
+    "local_pdf": "evidence/fulltexts/AL2007.pdf",
+    "sha256": "583597e40e02928625c73fdddde641693562f4169c7618a20a1bca4442844222",
+    "physical_pdf_pages": 66,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "title, abstract, contents",
+        "pdf_pages": "1",
+        "coverage_note": "Local 28 Dec. 2005 manuscript identity and scope."
+      },
+      {
+        "unit": "§1 introduction",
+        "pdf_pages": "2–7",
+        "coverage_note": "Unimodularity, random rooted network examples, and main results."
+      },
+      {
+        "unit": "§2 definitions and basics",
+        "pdf_pages": "7–14",
+        "coverage_note": "Measurable rooted-network space, MTP, involution criterion, automorphism groups."
+      },
+      {
+        "unit": "§3 fixed underlying graphs",
+        "pdf_pages": "14–18",
+        "coverage_note": "Theorem 3.1 finite stabilizer-inverse normalizer, rendered statement and both proof directions; Theorem 3.2."
+      },
+      {
+        "unit": "§4 trace and stochastic comparison",
+        "pdf_pages": "19–23",
+        "coverage_note": "Trace, operator and stochastic-order tools."
+      },
+      {
+        "unit": "§5 random walks and extremality",
+        "pdf_pages": "24–31",
+        "coverage_note": "Random walk operators, extremal unimodular laws and related decompositions."
+      },
+      {
+        "unit": "§6 percolation",
+        "pdf_pages": "32–36",
+        "coverage_note": "Invariant percolation and critical-parameter framework."
+      },
+      {
+        "unit": "§7 spanning forests",
+        "pdf_pages": "37–40",
+        "coverage_note": "USF/MSF applications; Theorem 7.4 rendered with MTP/invasion proof chain."
+      },
+      {
+        "unit": "§8 amenability and nonamenability",
+        "pdf_pages": "40–49",
+        "coverage_note": "Isoperimetric and amenability consequences."
+      },
+      {
+        "unit": "§9 examples",
+        "pdf_pages": "50–57",
+        "coverage_note": "Examples and limits of general statements."
+      },
+      {
+        "unit": "§10 finite approximation",
+        "pdf_pages": "57–61",
+        "coverage_note": "Approximation results and hypotheses."
+      },
+      {
+        "unit": "acknowledgements and references",
+        "pdf_pages": "61–66",
+        "coverage_note": "End matter and complete bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "LYO2003DPP",
+    "title": "Determinantal Probability Measures",
+    "local_pdf": "evidence/fulltexts/LYO2003DPP.pdf",
+    "sha256": "e84c37bdad09a9337d41266311b9d266d34d6e1fae5bfa81fcdb75e4ac1d9aba",
+    "physical_pdf_pages": 46,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction",
+        "pdf_pages": "1–5",
+        "coverage_note": "DPP definition, finite inclusion probabilities, examples and setup."
+      },
+      {
+        "unit": "§2 matroids",
+        "pdf_pages": "5–8",
+        "coverage_note": "Matroid/basis structure behind determinantal measures."
+      },
+      {
+        "unit": "§3 uniform spanning forests",
+        "pdf_pages": "8–9",
+        "coverage_note": "For the infinite-graph exhaustion in §3, WSF is the projection DPP P_star(G), while FSF is P_{Diamond(G)^perp}, in the paper’s ℓ²(E) coordinates; rendered local PDF p. 9 (printed p. 175) checked. Weighted networks use the transformed weighted-space convention of Remark 5.6 (printed p. 182; local PDF p. 16), not the unweighted coordinates verbatim."
+      },
+      {
+        "unit": "§4 review of exterior algebra",
+        "pdf_pages": "10–12",
+        "coverage_note": "Exterior-algebra determinant identities used in the basis law."
+      },
+      {
+        "unit": "§5 probability measures on bases",
+        "pdf_pages": "12–16",
+        "coverage_note": "Projection law and basis inclusion formulas; Remark 5.6 on weighted edge-coordinate scaling (printed p. 182, local PDF p. 16) render-checked."
+      },
+      {
+        "unit": "§6 stochastic domination and conditioning",
+        "pdf_pages": "16–23",
+        "coverage_note": "Theorems 6.2/6.5, conditioning propositions and Corollary 6.6; NA proof pages rendered."
+      },
+      {
+        "unit": "§7 the infinite case",
+        "pdf_pages": "23–31",
+        "coverage_note": "Countable-space extension, limits, tails and infinite determinantal laws."
+      },
+      {
+        "unit": "§8 positive contractions",
+        "pdf_pages": "32–34",
+        "coverage_note": "Dilation theorem and consequences; Theorem 8.1 rendered."
+      },
+      {
+        "unit": "§§9–13 open questions",
+        "pdf_pages": "35–43",
+        "coverage_note": "General theory, couplings, groups, surface graphs/CW complexes and dynamics; BK explicitly unresolved, p. 35 rendered."
+      },
+      {
+        "unit": "acknowledgements and references",
+        "pdf_pages": "43–46",
+        "coverage_note": "End matter and complete bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "LPS2006MSF",
+    "title": "Minimal Spanning Forests",
+    "local_pdf": "evidence/fulltexts/LPS2006MSF.pdf",
+    "sha256": "60de908bc00cd1bcf73602148ca5c3baefdb17d4ef98e0f3202ee1bc7a8aca46",
+    "physical_pdf_pages": 28,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and main results",
+        "pdf_pages": "1–5",
+        "coverage_note": "FMSF/WMSF setup, locally finite graph scope and statements."
+      },
+      {
+        "unit": "§2 background and definitions",
+        "pdf_pages": "5–6",
+        "coverage_note": "Cycle/cut and invasion-tree characterizations."
+      },
+      {
+        "unit": "§3 minimal spanning forests",
+        "pdf_pages": "6–18",
+        "coverage_note": "Percolation thresholds, Prop. 3.6 a.e. uniqueness, Thm. 3.12 ends, Thm. 3.22 and Lem. 3.23 resampling proof; critical pages rendered."
+      },
+      {
+        "unit": "§4 planar graph corollaries",
+        "pdf_pages": "18–20",
+        "coverage_note": "Planar duality and FMSF tree results under planarity hypotheses."
+      },
+      {
+        "unit": "§5 minimal-spanning-tree correlations",
+        "pdf_pages": "20–21",
+        "coverage_note": "Exact finite positive-correlation counterexample and enumeration comparison."
+      },
+      {
+        "unit": "§6 concluding remarks and questions",
+        "pdf_pages": "21–26",
+        "coverage_note": "Further examples, implications, open questions and limits of results."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "26–28",
+        "coverage_note": "Complete bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "BP1993",
+    "title": "Local Characteristics, Entropy and Limit Theorems for Spanning Trees and Domino Tilings via Transfer-Impedances",
+    "local_pdf": "evidence/fulltexts/BP1993.pdf",
+    "sha256": "5ac77ebeb5a5e81b043c13563717fdf6a203dfbb18a9ee9cd30bbded7bba39a0",
+    "physical_pdf_pages": 50,
+    "fulltext_read": true,
+    "read_source_url": "https://arxiv.org/pdf/math/0404048v1",
+    "read_source_pdf_pages": 50,
+    "coverage_page_basis": "Complete local arXiv math/0404048v1 author submission; physical p. 1 is the unnumbered title/abstract page, and printed article pages 1–49 are physical PDF pp. 2–50. Theorem cards give this copy’s physical PDF page and, where useful, the printed article page. The exact UPenn-hosted 49-page author PDF previously read was not acquired (HTTP 403), and its equivalence to this copy is unverified; no page anchors are transferred from it. The separate 44-page archival journal scan remains only a variant, with visual checks at local scan pp. 2–3 and 15.",
+    "version_variants": [
+      {
+        "type": "previously_read_remote_author_copy",
+        "url": "https://www2.math.upenn.edu/~pemantle/papers/burton.pdf",
+        "reported_pages": "49 author-version pages",
+        "acquired_exact_binary": false,
+        "acquisition_result": "HTTP 403",
+        "equivalence_to_primary_read_copy": "unverified",
+        "page_anchors_transferred": false
+      },
+      {
+        "type": "archival_journal_scan",
+        "local_pdf": "evidence/W07/fulltext/burton_pemantle_transfer_impedance.pdf",
+        "sha256": "650dd997fb187adfaf5ed0363f0b90b2f80258ded950904ba739ab045b37bdfe",
+        "physical_pdf_pages": 44,
+        "visually_cross_checked_pdf_pages": "2–3, 15",
+        "full_body_read": false,
+        "page_anchor_equivalence_to_primary": "unverified"
+      }
+    ],
+    "section_coverage": [
+      {
+        "unit": "front matter and abstract",
+        "pdf_pages": "physical PDF pp. 1–2",
+        "coverage_note": "arXiv v1 title, both authors, submission date, abstract, keywords and classification; physical p. 1 is unnumbered."
+      },
+      {
+        "unit": "§1 introduction and finite transfer theorem",
+        "pdf_pages": "physical PDF pp. 3–4 (printed article pp. 2–3)",
+        "coverage_note": "Periodic-graph model and Theorem 1.1 on physical p. 4 (printed article p. 3): finite connected D-regular unweighted UST determinant with signed-walk transfer-impedance entries."
+      },
+      {
+        "unit": "§2 notation and Fourier Green functions",
+        "pdf_pages": "physical PDF pp. 5–13 (printed article pp. 4–12)",
+        "coverage_note": "Connected locally finite periodic graph with finite Z^d quotient, self-loop D-regularization, Fourier matrix Q(alpha), Theorem 2.2 integrability/bounded solution and Corollaries 2.3–2.4."
+      },
+      {
+        "unit": "§3 simple random walk on G",
+        "pdf_pages": "physical PDF pp. 13–15 (printed article pp. 12–14)",
+        "coverage_note": "Harnack Lemma 3.1, finite-contraction bounded-harmonic uniqueness, bounded Poisson-solution uniqueness and limiting hitting probabilities (Corollary 3.4)."
+      },
+      {
+        "unit": "§4 transfer impedance",
+        "pdf_pages": "physical PDF pp. 16–20 (printed article pp. 15–19)",
+        "coverage_note": "Theorem 4.1 identifies constructed g with H; Theorem 4.2 statement p. 16 and contraction/voltage induction proof pp. 17–18; Corollary 4.4 mixed minors p. 19 (printed article p. 18); finite nonregular extension p. 20. Rendered theorem and proof pages checked."
+      },
+      {
+        "unit": "§5 square-lattice example and high-dimensional limit",
+        "pdf_pages": "physical PDF pp. 21–28 (printed article pp. 20–27)",
+        "coverage_note": "Explicit Z^2 transfer-current matrix and exact probabilities; Theorem 5.1 statement p. 23 and factorial-moment proof pp. 24–25; Theorem 5.3 statement p. 26 and generalized-moment proof pp. 27–28. Rendered theorem/proof pages checked."
+      },
+      {
+        "unit": "§6 entropy",
+        "pdf_pages": "physical PDF pp. 28–33 (printed article pp. 27–32)",
+        "coverage_note": "Uniform boundary-condition convergence and Theorem 6.1 unique maximal-entropy translation-invariant essential-forest law; Fourier log-determinant formula and finite-torus matrix-tree proof. Rendered statement/proof pages checked."
+      },
+      {
+        "unit": "§7 domino tilings",
+        "pdf_pages": "physical PDF pp. 33–40 (printed article pp. 32–39)",
+        "coverage_note": "Nice planar graph/dual construction, Lemma 7.1, directed one-ended forest correspondence and Theorem 7.2 unique maximal-entropy domino law (statement p. 36, proof pp. 36–37); rendered theorem/proof checked."
+      },
+      {
+        "unit": "§8 appendix",
+        "pdf_pages": "physical PDF pp. 41–48 (printed article pp. 40–47)",
+        "coverage_note": "Theorem 8.1 Green-function proof; Theorems 8.2–8.3 local CLT; Harnack proof; Propositions 8.4–8.7 tree tightness/moment criteria; Theorem 8.8 exponential-growth uniqueness and Lemma 8.9 factorial-moment proof. Rendered representative theorem/proof pages checked."
+      },
+      {
+        "unit": "references and author addresses",
+        "pdf_pages": "physical PDF pp. 49–50 (printed article pp. 48–49)",
+        "coverage_note": "Complete bibliography and end matter."
+      }
+    ]
+  },
+  {
+    "local_id": "HP2019COMP",
+    "title": "The Component Graph of the Uniform Spanning Forest: Transitions in Dimensions 9, 10, 11, …",
+    "local_pdf": "evidence/fulltexts/HP2019COMP.pdf",
+    "sha256": "36c4b9c07b82099f8e5227afd5088fac2bfcb0f290d080fd9a65546974c26d3f",
+    "physical_pdf_pages": 58,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and theorem statements",
+        "pdf_pages": "1–7",
+        "coverage_note": "USF component graph/hypergraph, ubiquity, and dimension-separation theorems; Theorem 1.1 monotonicity is higher-dimension ubiquity implying lower-dimension ubiquity."
+      },
+      {
+        "unit": "§2 definitions and USF connection estimates",
+        "pdf_pages": "7–14",
+        "coverage_note": "Graph/hypergraph boundary notions; PDF p. 5 distinguishes edge-merging coarsenings from vertex-identifying quotients; includes buoyancy, BKPS spread bound, and Proposition 2.2 for the prescribed event that the K_i are internally connected and lie in pairwise distinct USF components."
+      },
+      {
+        "unit": "§3 proof overview",
+        "pdf_pages": "15–19",
+        "coverage_note": "Witness-count strategy and reductions for ubiquity and nonubiquity."
+      },
+      {
+        "unit": "§4.1–§4.2 nonubiquity and moment estimates",
+        "pdf_pages": "19–40",
+        "coverage_note": "Dyadic-scale counting, coarsening optimization, first/second moments, and exceptional dimensions 5, 6, and 8."
+      },
+      {
+        "unit": "§4.3 heat-kernel estimates and technical lemmas",
+        "pdf_pages": "40–51",
+        "coverage_note": "Transitive-graph heat-kernel estimates, rough-isometry transfer, and remaining moment bounds."
+      },
+      {
+        "unit": "§5 proofs of the main theorems",
+        "pdf_pages": "52–55",
+        "coverage_note": "Derives hypergraph criteria and tree-ratio threshold from preceding criteria."
+      },
+      {
+        "unit": "§6 closing remarks and open problems",
+        "pdf_pages": "55–57",
+        "coverage_note": "Consequences for witnesses/component cliques and open questions."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "57–58",
+        "coverage_note": "Complete bibliography and end matter."
+      }
+    ]
+  },
+  {
+    "local_id": "MORRIS2003",
+    "title": "The Components of the Wired Spanning Forest Are Recurrent",
+    "local_pdf": "evidence/fulltexts/MORRIS2003.pdf",
+    "sha256": "379a9298e0669f5569891a4a6924021c34d01efd8566b6b9688e22c7003dc1f3",
+    "physical_pdf_pages": 7,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and WSF setup",
+        "pdf_pages": "1–2",
+        "coverage_note": "Infinite-volume forest laws and conditional effective-conductance martingale idea."
+      },
+      {
+        "unit": "§1.2 electrical-network preliminaries",
+        "pdf_pages": "2–4",
+        "coverage_note": "Weighted network definitions, edge resistance R(e)=1/C(e), Thomson principle, and finite-edge conditioning; PDF p. 4 Lemma 4 printed in fixed-edge unit-conductance normalization."
+      },
+      {
+        "unit": "finite conductance martingale and WSF/FSF extension",
+        "pdf_pages": "4–5",
+        "coverage_note": "Lemma 4, Proposition 5, Theorem 6, Lemma 7, and Theorem 8."
+      },
+      {
+        "unit": "componentwise WSF and recurrence proof",
+        "pdf_pages": "5–6",
+        "coverage_note": "Theorem 9 and Corollary 10; bounded-edge-conductance condition retained."
+      },
+      {
+        "unit": "acknowledgments and references",
+        "pdf_pages": "6–7",
+        "coverage_note": "End matter and references read."
+      }
+    ]
+  },
+  {
+    "local_id": "AUX-W07-WCD-2015",
+    "title": "Wired Cycle-Breaking Dynamics for Uniform Spanning Forests",
+    "local_pdf": "evidence/fulltexts/AUX-W07-WCD-2015.pdf",
+    "sha256": "8b361e93707ec376138d410eb3a3c1236af379b1480c4aa9c553ea0bf8f21f4d",
+    "physical_pdf_pages": 15,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and main theorems",
+        "pdf_pages": "1–3",
+        "coverage_note": "Transient reversible-network one-endedness and the two-ended-to-three-ended implication."
+      },
+      {
+        "unit": "§2 networks, WUSF, and update definition",
+        "pdf_pages": "4–6",
+        "coverage_note": "Oriented WUSF and wired cycle-breaking update."
+      },
+      {
+        "unit": "§3 stationarity and update-tolerance",
+        "pdf_pages": "6–9",
+        "coverage_note": "Finite detailed balance, exhaustion limit, and Corollary 8."
+      },
+      {
+        "unit": "§4 proof of Theorem 3",
+        "pdf_pages": "10–11",
+        "coverage_note": "Finite sequence of updates along trunks and positive-probability three-ended component."
+      },
+      {
+        "unit": "§5 proof of Theorem 1 and Example 9",
+        "pdf_pages": "11–14",
+        "coverage_note": "Inverse-conductance bias, unimodularity, random-walk trunk contradiction, and sharpness example."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "14–15",
+        "coverage_note": "Bibliography and final page."
+      }
+    ]
+  },
+  {
+    "local_id": "AUX-W07-LYONS-RANDOM-COMPLEXES-2009",
+    "title": "Random Complexes and ℓ²-Betti Numbers",
+    "local_pdf": "evidence/fulltexts/AUX-W07-LYONS-RANDOM-COMPLEXES-2009.pdf",
+    "sha256": "5ba66f6159e90beaa37c8a651a1848a572b5628369de9a3046b971fa9b3bdc0d",
+    "physical_pdf_pages": 25,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and model overview",
+        "pdf_pages": "1–2",
+        "coverage_note": "Finite/infinite spanning-tree analogy, four higher-dimensional free/wired laws, and the relation to ℓ²-homology."
+      },
+      {
+        "unit": "§2 projection determinantal measures",
+        "pdf_pages": "3–4",
+        "coverage_note": "Equations (2.1)–(2.3), matroid bases, complement duality, stochastic domination, and trivial tail."
+      },
+      {
+        "unit": "§3 finite CW-complexes",
+        "pdf_pages": "5–9",
+        "coverage_note": "Lower/upper matroidal measures, torsion-squared weights, homological characterization, and finite examples."
+      },
+      {
+        "unit": "§4 infinite CW-complexes and ℓ²-Betti numbers",
+        "pdf_pages": "9–18",
+        "coverage_note": "Four free/wired projection laws, exhaustion limits, boundary Betti bound, Hodge decomposition, and amenable equality. Corollary 4.4 is on physical p. 11; Proposition 4.9 on physical pp. 14–15 assumes an amenable group acting freely on X, cocompact k-skeleton, and reduced Betti number b~_{k−1}(X)=0, and gives the expected and a.s. average k-cell density. Rendered statement/proof pages checked."
+      },
+      {
+        "unit": "§5 analogy to percolation",
+        "pdf_pages": "19–20",
+        "coverage_note": "Invariant-subspace component-count propositions and the explicit limitation on uniqueness claims."
+      },
+      {
+        "unit": "§6 enumeration",
+        "pdf_pages": "21–23",
+        "coverage_note": "Torsion-weighted determinant and Cauchy–Binet formulas; checked erratum indexing."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "23–25",
+        "coverage_note": "Read the full bibliography and terminal page."
+      }
+    ]
+  },
+  {
+    "local_id": "AUX-W07-TEUFL-WAGNER-FORESTS-ELECTRICAL-2009",
+    "title": "Spanning Forests, Electrical Networks, and a Determinant Identity",
+    "local_pdf": "evidence/fulltexts/AUX-W07-TEUFL-WAGNER-FORESTS-ELECTRICAL-2009.pdf",
+    "sha256": "fe7f2b09dd0cb9e6a7b17990ad244722017d729ad635d13c7d57641c99763172",
+    "physical_pdf_pages": 12,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 all-minors matrix-tree statement, symmetry theorem, and general conjecture",
+        "pdf_pages": "1–3",
+        "coverage_note": "Theorem 1 rooted-forest determinant, Theorem 2 under strong terminal symmetry, and the explicitly conjectural weighted identity."
+      },
+      {
+        "unit": "§2 three-terminal identity proofs",
+        "pdf_pages": "3–6",
+        "coverage_note": "Double-copy combinatorial coefficient extraction and the Desnanot–Jacobi/Laplacian-minor proof."
+      },
+      {
+        "unit": "§3 electrical networks",
+        "pdf_pages": "6–7",
+        "coverage_note": "Weighted Laplacian, terminal electrical equivalence, unit-conductance resistance-count identity, and open reconstruction conjecture."
+      },
+      {
+        "unit": "§4 self-similar spanning-tree enumeration",
+        "pdf_pages": "8–11",
+        "coverage_note": "Boundary network replacement, modified Sierpiński recurrence, and two-conductance recursion."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "11–12",
+        "coverage_note": "Read all references through the terminal page."
+      }
+    ]
+  },
+  {
+    "local_id": "AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023",
+    "title": "The Union of Independent USFs on ℤ^d Is Transient",
+    "local_pdf": "evidence/fulltexts/AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023.pdf",
+    "sha256": "f038f787ca463ebf1f55679791e3fa282384ddbf81f2d7134524a498b73d76ae",
+    "physical_pdf_pages": 10,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and main results",
+        "pdf_pages": "1–2",
+        "coverage_note": "Theorem 1.1 and Corollary 1.2 for ℤ^d, d≥3; conjecture and open questions for broader transitive graphs."
+      },
+      {
+        "unit": "§1.1 box percolation and §2 domination reduction",
+        "pdf_pages": "3–5",
+        "coverage_note": "Box-process definition, cycle geometry, conditional edge-inclusion resistance bound, and stochastic domination by a thinned WUSF."
+      },
+      {
+        "unit": "§3.1 proof of Theorem 1.6 from box connectivity",
+        "pdf_pages": "5–6",
+        "coverage_note": "Finite-range block field, LSS domination, rough equivalence, and transfer of transience."
+      },
+      {
+        "unit": "§3.2 spatial-sprinkling proof",
+        "pdf_pages": "6–9",
+        "coverage_note": "Annular component reduction, special-component contraction, scale iteration, and exponential box-connectivity estimate."
+      },
+      {
+        "unit": "references",
+        "pdf_pages": "10",
+        "coverage_note": "Read bibliography and terminal page."
+      }
+    ]
+  },
+  {
+    "local_id": "AUX-W07-INTERLACEMENTS-2015",
+    "title": "Interlacements and the Wired Uniform Spanning Forest",
+    "local_pdf": "evidence/fulltexts/AUX-W07-INTERLACEMENTS-2015.pdf",
+    "sha256": "817dafd0a8f0e09534835885af6c87f9fb1263a2c0e2b7e488f8b83f8bf2c948",
+    "physical_pdf_pages": 25,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "Abstract, §1 introduction, and model",
+        "pdf_pages": "1–3",
+        "coverage_note": "WUSF definition, interlacement-based Aldous–Broder sampler, and result roadmap."
+      },
+      {
+        "unit": "§2 anchored-isoperimetry and excessive ends",
+        "pdf_pages": "4–6",
+        "coverage_note": "Theorem 2.1 exact integral hypotheses; Theorems 2.2 and 2.4 on excessive ends and transient URRN one-endedness."
+      },
+      {
+        "unit": "§3 interlacement trajectory space and capacity",
+        "pdf_pages": "7–10",
+        "coverage_note": "Trajectory intensity, capacity identity, and finite-set hit probabilities."
+      },
+      {
+        "unit": "§4 sampler/dynamics and §5 one-endedness proof",
+        "pdf_pages": "10–17",
+        "coverage_note": "Aldous–Broder dynamics, past-cut criterion, capacity lower bound, path criterion, and proof dependencies."
+      },
+      {
+        "unit": "§6 rough-isometry example and concluding discussion",
+        "pdf_pages": "17–22",
+        "coverage_note": "Bounded-degree rough-isometric examples with distinct WUSF end behavior; implications and limitations."
+      },
+      {
+        "unit": "Acknowledgements and references",
+        "pdf_pages": "23–25",
+        "coverage_note": "End matter; all pages read."
+      }
+    ],
+    "rendered_pages": [
+      2,
+      4,
+      6
+    ],
+    "review_anchor_note": "Theorem 1.1 p. 2 uses AB_t={−e_t(v)}; the chosen tree edge reverses the trajectory edge that first enters v."
+  },
+  {
+    "local_id": "AUX-W07-UNIVERSALITY-2018",
+    "title": "Universality of High-Dimensional Spanning Forests and Sandpiles",
+    "local_pdf": "evidence/fulltexts/AUX-W07-UNIVERSALITY-2018.pdf",
+    "sha256": "d5a4c15a73698fdf69379688f8a58707b17b852c83225d38b4029f54758afdcf",
+    "physical_pdf_pages": 61,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and theorems 1.1–1.9",
+        "pdf_pages": "1–15",
+        "coverage_note": "Exact network assumptions, bubble norm, q(v), intrinsic/extrinsic exponents, dimensions, and sandpile results."
+      },
+      {
+        "unit": "§2 background and v-wired domination",
+        "pdf_pages": "16–18",
+        "coverage_note": "Wilson/LERW setup and stochastic domination for rooted WUSF."
+      },
+      {
+        "unit": "§3 interlacements and Aldous–Broder",
+        "pdf_pages": "19–23",
+        "coverage_note": "Interlacement construction, capacity identities, and evolution of the past."
+      },
+      {
+        "unit": "§4 diameter lower bounds",
+        "pdf_pages": "23–27",
+        "coverage_note": "Intrinsic/extrinsic lower-bound mechanisms via capacity and last visits."
+      },
+      {
+        "unit": "§5 LERW length and capacity",
+        "pdf_pages": "28–32",
+        "coverage_note": "Erased-gap estimates, bubble-norm dependence, and capacity comparison."
+      },
+      {
+        "unit": "§6 volume bounds",
+        "pdf_pages": "33–42",
+        "coverage_note": "Wilson/stochastic-domination upper and lower bounds for past volume."
+      },
+      {
+        "unit": "§7 critical exponents",
+        "pdf_pages": "43–54",
+        "coverage_note": "Intrinsic tail recurrence, volume exponent, and extrinsic diameter upper bounds including d=5 diagrammatic terms."
+      },
+      {
+        "unit": "§8 spectral dimension and anomalous diffusion",
+        "pdf_pages": "55–56",
+        "coverage_note": "Effective-resistance and volume hypotheses feeding the spectral/walk dimension criterion."
+      },
+      {
+        "unit": "§9 Abelian sandpile applications",
+        "pdf_pages": "57–58",
+        "coverage_note": "Burning bijection, Green-function comparison, and avalanche observables."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": "59–61",
+        "coverage_note": "End matter; all pages read."
+      }
+    ],
+    "rendered_pages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      24,
+      44,
+      47,
+      55,
+      57,
+      58
+    ],
+    "review_anchor_note": "Theorem 1.5 p. 12 requires controlled stationary measure; Theorem 1.6 p. 13 requires controlled stationary measure, finite bubble norm, and uniform ballisticity."
+  },
+  {
+    "local_id": "AUX-W07-ENDS-2023",
+    "title": "The Number of Ends in the Uniform Spanning Tree for Recurrent Unimodular Random Graphs",
+    "local_pdf": "evidence/fulltexts/AUX-W07-ENDS-2023.pdf",
+    "sha256": "164f99cca2c378d9f668fd064d47c5ffced82c8a6e47a7accd31382cea17bbce",
+    "physical_pdf_pages": 27,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "§1 introduction and Theorem 1",
+        "pdf_pages": "1–3",
+        "coverage_note": "Recurrent URRG model, UST end-count equality, and weighted/nonunimodular counterexample boundaries."
+      },
+      {
+        "unit": "§2.1 harmonic measures from infinity",
+        "pdf_pages": "4–5",
+        "coverage_note": "Boundary measures as limits of exit distributions."
+      },
+      {
+        "unit": "§2.2 potential kernels and Doob transforms",
+        "pdf_pages": "6–10",
+        "coverage_note": "Potential-kernel definition, Lemma 4 Laplacian identity, Green-function approximation and transform setup."
+      },
+      {
+        "unit": "§§2.3–2.5 affine isomorphism, Liouville property, and Wilson rooted at h",
+        "pdf_pages": "10–15",
+        "coverage_note": "Theorems 7–8, Lemma 10, and Proposition 12 linking extremal measures to UST ends."
+      },
+      {
+        "unit": "§3.1–3.2 unimodular spine and resistance growth",
+        "pdf_pages": "16–21",
+        "coverage_note": "MTP, stationary shift along the two-ended spine, resistance cocycle, and ergodic linear-growth argument."
+      },
+      {
+        "unit": "§3.3 completion and references",
+        "pdf_pages": "21–23",
+        "coverage_note": "Linear volume-growth conclusion and bibliographic end matter."
+      },
+      {
+        "unit": "Appendix A",
+        "pdf_pages": "24–27",
+        "coverage_note": "Unique harmonic measure implies one-ended UST with no finite expected degree assumption."
+      }
+    ],
+    "rendered_pages": [
+      3,
+      8,
+      12,
+      14,
+      16,
+      18,
+      21,
+      22
+    ],
+    "review_anchor_note": "Proposition 12 is on physical p. 16; Theorems 14–15 are on physical p. 18."
+  },
+  {
+    "local_id": "AUX-W07-REFLECTED-INFINITY-2025",
+    "title": "Random Walk Reflected off of Infinity, with Applications to Uniform Spanning Forests and Supercritical Liouville Quantum Gravity",
+    "local_pdf": "evidence/fulltexts/AUX-W07-REFLECTED-INFINITY-2025.pdf",
+    "sha256": "d4e716f01b0825e3445308d2682a23e6ba516e12abc4d4fddb38c73d686a08af",
+    "physical_pdf_pages": 53,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "Title page, abstract, contents, and §1 Introduction (including §§1.1–1.6)",
+        "pdf_pages": "1–12",
+        "coverage_note": "Network/conductance conventions; motivation and relation to energy-minimizing harmonic functions; reflected-walk theorem and forest/Green/GFF/Tutte overview; explicit separation of theorem results from later LQG conjectures."
+      },
+      {
+        "unit": "§2 Energy-minimizing discrete harmonic functions (including §§2.1–2.3)",
+        "pdf_pages": "12–16",
+        "coverage_note": "Edge-gradient Hilbert space, closed zero-boundary gradient subspace and cycle-modulo-A orthogonal complement; projection proof of the unique finite-energy minimizer; harmonicity, maximum principle, harmonic measure, and finite exhaustion convergence."
+      },
+      {
+        "unit": "§3 Construction of random walk reflected off of infinity (including §§3.1–3.6)",
+        "pdf_pages": "16–30",
+        "coverage_note": "Finite-exhaustion chains with harmonic-measure return kernel; consistency/coupling; random ordered index set and exponential clocks; shell-rate/Borel–Cantelli summability; path properties and uniqueness via finite-state approximants; cutsets/continuity; active reflected Silverstein form context."
+      },
+      {
+        "unit": "§4 Applications to the free uniform spanning forest (including §§4.1–4.2)",
+        "pdf_pages": "30–33",
+        "coverage_note": "Ordered common-level hit-chain convergence; finite-exhaustion proof of Aldous–Broder c-FSF; loop-erased reflected walk branches; Wilson result restricted to the event of connectivity and explicit non-equality caveat off that event."
+      },
+      {
+        "unit": "§5 Additional results (including §§5.1–5.3)",
+        "pdf_pages": "34–38",
+        "coverage_note": "Ends as nested components; Tutte embedding extensions, finite approximation and face convexity; reflected-walk Green function finiteness/harmonicity/symmetry/PSD and the FSF effective-resistance edge formula."
+      },
+      {
+        "unit": "§6 Conjectures for random planar maps in the supercritical LQG universality class (including §§6.1–6.4)",
+        "pdf_pages": "38–48",
+        "coverage_note": "LQG background, iterative Boltzmann-map/ring model, Tutte-embedding scaling-limit conjecture, singular-point heuristic, and the conjectural phase transitions with Q thresholds √(3/2), √(5/2), √(91/24). The paper uses Liouville c=1+6Q² (footnote 1, physical p. 3; Eq. 6.1, physical p. 39), distinct from matter central charge 26−c; Conjectures 6.10/6.12/6.15 remain unproved and leave equality cases open."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": "48–53",
+        "coverage_note": "Complete bibliography read, including sources for the imported random-walk, circle-packing, spanning-forest, Dirichlet-form, and LQG inputs."
+      }
+    ],
+    "rendered_pages": [
+      3,
+      5,
+      22,
+      31,
+      39,
+      46,
+      47,
+      48
+    ],
+    "review_anchor_note": "Rendered source pages are listed for theorem/formula checks; independent R04 review remains pending."
+  },
+  {
+    "local_id": "AUX-W07-HARMONIC-DIRICHLET-2017",
+    "title": "Harmonic Dirichlet Functions on Planar Graphs",
+    "local_pdf": "evidence/fulltexts/AUX-W07-HARMONIC-DIRICHLET-2017.pdf",
+    "sha256": "1885fa47f8cf347bce6508f78bf91c3ad7035565b84c522fa882d3dc7ca09dcb",
+    "physical_pdf_pages": 25,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "Title page, abstract, §1 Introduction and applications (§1.1)",
+        "pdf_pages": "1–4",
+        "coverage_note": "Circle-packing context; Theorem 1.1; Douglas-integrable boundary traces and the continuous Douglas identity D(φ)=E_disk(H) for the disk harmonic extension H; Corollary 1.2 boundary representation; graph and disk harmonic spaces are related by a bounded isomorphism, not an energy isometry; tangential boundary convergence, density, and spanning-forest application."
+      },
+      {
+        "unit": "§1.2 Dirichlet spaces, Royden decomposition and random-walk/Brownian boundary limits",
+        "pdf_pages": "4–6",
+        "coverage_note": "Discrete and continuum energy spaces, (D_0 direct-sum HD) decompositions in transient settings, and the cited terminal-limit representations."
+      },
+      {
+        "unit": "§1.3 Planar maps and double circle packing; §1.4 general isomorphism theorem; §1.5 related work",
+        "pdf_pages": "6–10",
+        "coverage_note": "Primal/dual double packing definitions and scope; bounded local geometry/codegree assumptions; Theorem 1.5 operators Cont/Disc and their quasi-asymptotic/asymptotic characterizations; rough-isometry and quasiconformal comparison."
+      },
+      {
+        "unit": "§2.1 Capacity characterization of (D_0) and Proposition 2.1",
+        "pdf_pages": "10–11",
+        "coverage_note": "Network/domain capacity variational formulas and the two directions of the finite-capacity level-set criterion for membership in (D_0)."
+      },
+      {
+        "unit": "§2.2 Proof of the main theorems, including Lemmas 2.2–2.10",
+        "pdf_pages": "11–20",
+        "coverage_note": "Ring and sausage geometry; definitions of disc-average R and piecewise-affine A; energy bounds and capacity comparisons; (D_0)-preservation/equivalence; Royden projections and proof that Cont and Disc are bounded inverse maps."
+      },
+      {
+        "unit": "§2.3 Asymptotic equality in the uniformly transient case",
+        "pdf_pages": "20–24",
+        "coverage_note": "Proposition 2.11, graph/continuum elliptic Harnack inequalities, capacity growth lemma and proof that bounded quasi-asymptotic equivalence upgrades to pointwise asymptotic equivalence only under uniform transience."
+      },
+      {
+        "unit": "Acknowledgments and References",
+        "pdf_pages": "24–25",
+        "coverage_note": "Acknowledgment and complete bibliography read."
+      }
+    ],
+    "rendered_pages": [
+      3,
+      8,
+      14,
+      20
+    ],
+    "review_anchor_note": "Rendered source pages are listed for theorem/formula checks; independent R04 review remains pending."
+  },
+  {
+    "local_id": "AUX-W07-CYCLE-FORESTS-2024",
+    "title": "Cycling in the Forest with Wilson’s Algorithm",
+    "local_pdf": "evidence/fulltexts/AUX-W07-CYCLE-FORESTS-2024.pdf",
+    "sha256": "b21225a1e95d038b21735aa10d179847cbec5ccd58b6b2dc5dd31eb2ceb6d663",
+    "physical_pdf_pages": 41,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "Title, abstract, contents, Introduction, notation, and model setup",
+        "pdf_pages": "1–5",
+        "coverage_note": "Finite weighted simple connected graph; CRSF target measure; U(1) connection; magnetic Laplacian Δ=D−W∘Φ (physical p. 4); loop and cycle conventions including backtracks; context and scope."
+      },
+      {
+        "unit": "Section 2: CyclePopping for spanning trees and spanning forests",
+        "pdf_pages": "5–7",
+        "coverage_note": "Wilson/Marchal step-count MGF and moments for rooted trees; auxiliary-root construction and formulas for weighted spanning forests."
+      },
+      {
+        "unit": "Section 3: Markov chain, stopping times, formal CyclePopping algorithm",
+        "pdf_pages": "7–9",
+        "coverage_note": "Independent cycle-acceptance Bernoulli streams, hitting/accepted-cycle stopping times, algorithm stages, output-order determinism."
+      },
+      {
+        "unit": "Section 4.1: Determinantal CRSF law and spectrum",
+        "pdf_pages": "9–12",
+        "coverage_note": "Magnetic Laplacian Δ versus the normalized operator Δ_N=D^(−1/2)ΔD^(−1/2) (defined p. 16), assumptions 1–3, determinant law, incidence kernel, eigenvalue bounds, Proposition 5 statement and conditions."
+      },
+      {
+        "unit": "Sections 4.2–4.3: Last-exit decomposition and Green resolvent",
+        "pdf_pages": "12–15",
+        "coverage_note": "Stage-event path decomposition, popped-loop weights, matrix resolvent and Green generating function, principal-minor identity."
+      },
+      {
+        "unit": "Sections 4.4–4.6: Correctness, determinantal runtime, multi-type forests",
+        "pdf_pages": "15–18",
+        "coverage_note": "Telescoping proof of stage probabilities; exact runtime MGF, mean, variance and parity; q-regularized multi-type spanning forest moments."
+      },
+      {
+        "unit": "Sections 5.1–5.5: General cycle weights, loop measure and runtime",
+        "pdf_pages": "18–23",
+        "coverage_note": "Assumption 4, multiplicative based-loop measure, representative/multiplicity accounting, Green exponential formula, target-law normalization, Poisson loop representation of step count and escape-to-cycle formula."
+      },
+      {
+        "unit": "Section 5.6: Verbose algorithm and Poisson-loop coupling",
+        "pdf_pages": "23–26",
+        "coverage_note": "Joint law of erased based loops and CRSF, randomized loop splitting, Poisson point process of unbased loops."
+      },
+      {
+        "unit": "Section 5.7: Heaps, pyramids, runtime identities",
+        "pdf_pages": "26–30",
+        "coverage_note": "Heap and pyramid definitions, loop-pyramid bijection, unique heap decomposition, heap/trivial-heap and Poisson-pyramid MGF representations."
+      },
+      {
+        "unit": "Section 6: Extremal partial rejection sampling and resampling counts",
+        "pdf_pages": "30–37",
+        "coverage_note": "Product variables and cycle constraints, extremality, first-bad-scope resampling, auxiliary paths and unique heaps, termination and conditioned-product output law, Theorem 6.4 and Corollary 3."
+      },
+      {
+        "unit": "Sections 7–8 and Appendix proof of Proposition 3",
+        "pdf_pages": "37–39",
+        "coverage_note": "Simulation setup/results distinguished from proofs; conclusion; complete determinantal cycle-incidence proof."
+      },
+      {
+        "unit": "References",
+        "pdf_pages": "39–41",
+        "coverage_note": "Complete bibliography read; cited loop, spanning-forest, magnetic-Laplacian, and PRS sources recorded as references, not substitute read proofs."
+      }
+    ],
+    "rendered_pages": [
+      4,
+      11,
+      15,
+      16,
+      21,
+      22,
+      32,
+      37
+    ],
+    "review_anchor_note": "Rendered source pages are listed for theorem/formula checks; independent R04 review remains pending."
+  },
+  {
+    "local_id": "AUX-W07-CYCLE-MATROIDS-2024",
+    "title": "Cycle Matroids of Graphings: From Convergence to Duality",
+    "local_pdf": "evidence/fulltexts/AUX-W07-CYCLE-MATROIDS-2024.pdf",
+    "sha256": "c57ef51bafad319a47f7b6dddb4a8755b9600f18f5ef66d67b87e0acb0942be0",
+    "physical_pdf_pages": 19,
+    "fulltext_read": true,
+    "section_coverage": [
+      {
+        "unit": "Title, abstract, introduction, and main theorem statements",
+        "pdf_pages": "1–6",
+        "coverage_note": "Graphing cycle-matroid rank; quotient-convergence; hyperfinite forests and exposed points; restricted planar graphing duality; open questions and scope."
+      },
+      {
+        "unit": "Section 2: Submodularity, graphings, hyperfiniteness, cost, convergence notions",
+        "pdf_pages": "6–8",
+        "coverage_note": "Graphing and edge measure definitions; hyperfinite-treeing criterion; cost inequalities; local and local-global convergence; quotient profile."
+      },
+      {
+        "unit": "Section 3: Local-global continuity and local-only counterexample",
+        "pdf_pages": "8–10",
+        "coverage_note": "Theorem 3.2 colored-partition proof of quotient convergence; proof of Theorem 1.1; expander/girth example showing local convergence alone insufficient."
+      },
+      {
+        "unit": "Section 4.1: Measures, densities, forest restrictions",
+        "pdf_pages": "10–11",
+        "coverage_note": "Minorizing/base measures, Radon–Nikodym densities, and Lemma 4.1 characterizing hyperfinite forests by edge-restriction measures."
+      },
+      {
+        "unit": "Section 4.2: Exposed-point characterization",
+        "pdf_pages": "11–13",
+        "coverage_note": "Theorems 4.2 and 4.4; weighted invasion algorithm; mass-transport token proof; superlevel sets and layer-cake maximization."
+      },
+      {
+        "unit": "Sections 4.3–4.4: Weak exposure and forest/base equivalences",
+        "pdf_pages": "13–14",
+        "coverage_note": "Weak exposure, strong exposure corollary, open extreme-point question, Theorems 1.2–1.3 proof."
+      },
+      {
+        "unit": "Section 4.5: Independent sets, exchange, submodularity",
+        "pdf_pages": "14–15",
+        "coverage_note": "Measurable matroid axioms for hyperfinite forests; exchange lemma; independent-set rank and submodularity proof."
+      },
+      {
+        "unit": "Section 5: Planar duality, cost, free/wired forests",
+        "pdf_pages": "16–18",
+        "coverage_note": "Restricted dual planar graphing model; cocycle rank; hyperfinite duality proof by exposed points and mass transport; non-hyperfinite cost theorem; free/wired exposed-base theorem."
+      },
+      {
+        "unit": "Acknowledgments and references",
+        "pdf_pages": "18–19",
+        "coverage_note": "Acknowledgments and complete bibliography read."
+      }
+    ],
+    "rendered_pages": [
+      4,
+      5,
+      12,
+      13,
+      17,
+      18
+    ],
+    "review_anchor_note": "Rendered source pages are listed for theorem/formula checks; independent R04 review remains pending."
+  }
+]

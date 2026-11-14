@@ -1,0 +1,17 @@
+{
+  "scope": "formula checks only; not a proof audit",
+  "q_prime_equals_sec_identity_sympy_residual": "0",
+  "q_prime_formula": "q'(s) = sec^2(pi*s/4)/(1-tan^2(pi*s/4)) = sec(pi*s/2), 0<=s<1",
+  "Riesz_angular_mass_simplified": "2/pi",
+  "Riesz_angular_mass_input": "Gamma((n+1)/2)/pi^((n+1)/2) times the standard sphere integral 2*pi^((n-1)/2)/Gamma((n+1)/2) for |theta_j|",
+  "Davis_a_closed_50dps": "0.742453745421544325907927960798879942437721837",
+  "Davis_a_integral_50dps": "0.742453745421544325907927960798879942437721837",
+  "Davis_a_abs_difference": "0.0",
+  "K_D_closed_50dps": "1.34688525199940659518200755544110779471525163",
+  "scalar_subordination_example_r": "1.7",
+  "scalar_subordination_example_s": "2.4",
+  "subordination_lhs": "0.3529411764705882352941176470588235294118",
+  "subordination_rhs": "0.3529411764705882352941176464898913860888",
+  "subordination_abs_difference": "5.6893214e-28",
+  "interpretation": "The derivative identity, Catalan integral normalization, and scalar Laplace-integral identity agree numerically/symbolically. This does not establish the operator-norm convergence or the weak-(1,1) theorem."
+}

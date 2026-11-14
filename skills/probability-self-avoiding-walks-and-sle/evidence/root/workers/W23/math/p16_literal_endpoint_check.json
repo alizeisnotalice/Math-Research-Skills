@@ -1,0 +1,37 @@
+{
+  "dimension": 2,
+  "length_n": 1,
+  "height_m": 1,
+  "candidate_nearest_neighbour_steps": [
+    [
+      1,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      -1
+    ]
+  ],
+  "bridge_steps": [
+    0,
+    1
+  ],
+  "event_steps": [
+    0,
+    1
+  ],
+  "b1": 1,
+  "event_count": 1,
+  "event_fraction": 1,
+  "literal_source_bound_if_positive_phi1": "1 <= exp(-phi(1))",
+  "contradiction": "For every phi(1)>0, exp(-phi(1))<1, while the exact left side is 1.",
+  "scope": "Finite literal-input counterexample only. It does not refute the separately stated asymptotic qualitative Theorem 1.2 and does not supply a repaired quantitative hypothesis."
+}

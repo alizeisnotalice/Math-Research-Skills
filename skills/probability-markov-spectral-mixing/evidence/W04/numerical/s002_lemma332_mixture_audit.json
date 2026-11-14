@@ -1,0 +1,53 @@
+{
+  "source": "Aldous & Fill, Reversible Markov Chains and Random Walks on Graphs, Lemma 3.32 and following remark, physical PDF p.94",
+  "source_sha256": "8f9b934111c30b3f8fd29d94a18794d4b86f824b19f7a3c27b1153cdfac08e79",
+  "P": [
+    [
+      "1/2",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "1/2"
+    ]
+  ],
+  "P_star": [
+    [
+      "9/10",
+      "1/10"
+    ],
+    [
+      "1/10",
+      "9/10"
+    ]
+  ],
+  "common_stationary_law": [
+    "1/2",
+    "1/2"
+  ],
+  "delta": "4/5",
+  "off_diagonal_domination_holds": true,
+  "Q_from_printed_mixture": [
+    [
+      "-11/10",
+      "21/10"
+    ],
+    [
+      "21/10",
+      "-11/10"
+    ]
+  ],
+  "Q_row_sums": [
+    "1",
+    "1"
+  ],
+  "Q_nonnegative": false,
+  "relaxation_times": {
+    "tau2_P": "1",
+    "tau2_P_star": "5"
+  },
+  "lemma_bound": "tau2(P) <= delta^(-1) tau2(P_star)",
+  "lemma_bound_check": "1 <= 25/4",
+  "result": "The lemma's off-diagonal hypothesis and conclusion hold in this example, but the following remark's proposed Q has negative diagonal entries and is not a Markov kernel.",
+  "scope_limit": "Exact audit of the mixture interpretation only; it does not refute Lemma 3.32. The direct Dirichlet-form comparison needs only the stated off-diagonal domination and common stationary law."
+}

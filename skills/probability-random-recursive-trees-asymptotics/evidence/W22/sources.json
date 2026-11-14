@@ -1,0 +1,1750 @@
+[
+  {
+    "local_id": "RT002",
+    "title": "The Critical Beta-splitting Random Tree I: Heights and Related Results",
+    "authors": [
+      "David Aldous",
+      "Boris Pittel"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.1214/24-AAP2112",
+    "url": "https://doi.org/10.1214/24-AAP2112",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2302.05066"
+    ],
+    "version": "Published title adds “I:”; arXiv v4 dated 6 Sep 2024; AAP publication 2025.",
+    "reason": "Primary direct source for the critical 1/[i(m−i)] split kernel, moment recurrences, CLTs for time/edge height, and correlation of two uniformly sampled leaves in the same realization.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_version_metadata web checked; D04 identity record reused",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT002.pdf",
+    "sha256": "f1981d2bf839e2ef42fd534abac6b66aae3990925949656a035bca9139dae1eb",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pages 1–35 (entire file; sections and references included)",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT002",
+    "source_kind_detail": "original research article",
+    "method_family": "critical Beta-splitting, recursive sum recurrences, leaf heights and random two-leaf correlation",
+    "input_output_interface": "Input: critical Beta binary split of n leaves and continuous-time exponential holding rate h_{m−1}; outputs: height moments/CLTs, random-pair height correlation, split count bounds, subtree size asymptotics.",
+    "transfer_assumptions_and_limits": "Direct only for its random uniform-leaf sampling and own CTCS/DTCS conventions. Its two-random-leaf result is not A127’s fixed circular leaf-distance covariance curve. R03 says DOI/published citation independently confirmed at Berkeley/author list and IMS PDF.",
+    "target_role": "direct_technical",
+    "legal_fulltext_route": {
+      "status": "downloaded_public_author_version_identity_verified",
+      "url": "https://arxiv.org/pdf/2302.05066",
+      "route_note": "ArXiv author manuscript and IMS/Project Euclid open publisher PDF; article, 35 physical PDF pages in the downloaded v4."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "read_role": "critical 1/[i(m−i)] size-dependent split kernel; moment/variance and CLT of leaf heights; correlation of two uniformly sampled leaves in the same tree. Does not prove the fixed circular-distance A127 statement.",
+    "scope_warning": "Direct only for its random uniform-leaf sampling and own CTCS/DTCS conventions. Its two-random-leaf result is not A127’s fixed circular leaf-distance covariance curve. R03 says DOI/published citation independently confirmed at Berkeley/author list and IMS PDF.",
+    "read_version": "arXiv v4, 6 September 2024; published AAP 35(1) (2025), 158–195",
+    "identity_page_count": 35,
+    "reading_card": "evidence/W22/cards/RT002.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT003",
+    "title": "The Critical Beta-splitting Random Tree III: The exchangeable partition representation and the fringe tree",
+    "authors": [
+      "David J. Aldous",
+      "Svante Janson"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2412.09655",
+    "url": "https://arxiv.org/abs/2412.09655",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2412.09655"
+    ],
+    "version": "arXiv:2412.09655v1, officially submitted 12 December 2024 (manuscript date 11 December 2024)",
+    "reason": "Use the growth algorithm, leaf deletion/pruning consistency, exchangeable-partition construction, and fringe distribution as probabilistic constructions for the critical split model.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_version_metadata web checked; D04 identity record reused",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT003.pdf",
+    "sha256": "5715893ed91a1777297e5233929738e35abe60da0d2f7679f69a97e9b8f6635e",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pages 1–43 (entire file; sections and references included)",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT003",
+    "source_kind_detail": "original research article/preprint",
+    "method_family": "critical Beta model growth, exchangeable partitions, random-leaf fringe tree",
+    "input_output_interface": "Input: consistent family CTCS(n) under random-leaf deletion; output: explicit growth coupling and limit-tree/fringe description.",
+    "transfer_assumptions_and_limits": "R03 corrected official submission date to 12 Dec (manuscript date can be 11 Dec). The abstract notes overlap with II; count as a distinct technical work because it develops the construction/fringe route, but deduplicate any repeated overview statement.",
+    "target_role": "direct_technical",
+    "legal_fulltext_route": {
+      "status": "downloaded_public_author_version_identity_verified",
+      "url": "https://arxiv.org/pdf/2412.09655",
+      "route_note": "Official arXiv author manuscript; full 43-page PDF verified by D04."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "read_role": "growth algorithm, random-leaf deletion/pruning consistency, exchangeable partition and fringe-tree method for critical Beta splits.",
+    "scope_warning": "R03 corrected official submission date to 12 Dec (manuscript date can be 11 Dec). The abstract notes overlap with II; count as a distinct technical work because it develops the construction/fringe route, but deduplicate any repeated overview statement.",
+    "read_version": "arXiv v1 submitted 12 December 2024; manuscript date 11 December 2024",
+    "identity_page_count": 43,
+    "reading_card": "evidence/W22/cards/RT003.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT004",
+    "title": "The Critical Beta-splitting Random Tree IV: Mellin analysis of leaf height",
+    "authors": [
+      "David Aldous",
+      "Svante Janson"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.1214/25-EJP1332",
+    "url": "https://doi.org/10.1214/25-EJP1332",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2412.12319"
+    ],
+    "version": "Electronic Journal of Probability 30 (2025), paper 69, 1–39, DOI 10.1214/25-EJP1332; arXiv:2412.12319v1 (16 Dec 2024)",
+    "reason": "Use the harmonic-descent absorption-chain representation, exchangeable random-partition limit, moment-to-Mellin transform and Mellin inversion for sharp leaf-height asymptotics.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_version_metadata web checked; D04 identity record reused",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT004.pdf",
+    "sha256": "727f1d84b92da9b950f1d11c97759ff755cc311fa807765e9ac0faaacd2298b9",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pages 1–44 (entire file; sections and references included)",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT004",
+    "source_kind_detail": "original research article",
+    "method_family": "Mellin transforms, harmonic descent, leaf-height moments and normal approximation",
+    "input_output_interface": "Input: discrete/continuous critical Beta leaf-height law; output: moment, variance, normal-approximation, and large-deviation estimates for a single uniform leaf.",
+    "transfer_assumptions_and_limits": "R03 confirms EJP 30 (2025), paper 69, 39 journal pages and DOI. This single-leaf result does not identify the fixed-separation A127 pair covariance.",
+    "target_role": "direct_technical",
+    "legal_fulltext_route": {
+      "status": "downloaded_public_author_version_identity_verified",
+      "url": "https://arxiv.org/pdf/2412.12319",
+      "route_note": "Official arXiv v1 plus UC eScholarship/IMS EJP open PDF; downloaded arXiv v1 verified as 44 physical pages."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "read_role": "harmonic-descent representation and Mellin analysis for leaf-height moments/variance/normal approximation; single-leaf method, not fixed-distance pair limit.",
+    "scope_warning": "R03 confirms EJP 30 (2025), paper 69, 39 journal pages and DOI. This single-leaf result does not identify the fixed-separation A127 pair covariance.",
+    "read_version": "arXiv v1 submitted 16 December 2024; published EJP 30 (2025), paper 69, 1–39, DOI 10.1214/25-EJP1332",
+    "identity_page_count": 44,
+    "reading_card": "evidence/W22/cards/RT004.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT005",
+    "title": "The harmonic descent chain",
+    "authors": [
+      "David J. Aldous",
+      "Svante Janson",
+      "Xiaodan Li"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.1214/24-ECP645",
+    "url": "https://doi.org/10.1214/24-ECP645",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2405.05102"
+    ],
+    "version": "arXiv:2405.05102v1, submitted 8 May 2024; read the complete 14-physical-page arXiv PDF. Related published article: ECP 29 (2024), paper 77, pp. 1–10, DOI 10.1214/24-ECP645. No page-by-page journal-version comparison claimed.",
+    "reason": "Provides the Markov-chain occupation law underlying the Beta-tree height representation.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_metadata_checked_against_arxiv/publisher_record_and_local_pdf",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT005.pdf",
+    "sha256": "c27ac92628da1e3285d351c9f603269c9a89c187a18a52159a9fcd0358a69383",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pp. 1–14, including §4 direct proof and all references; theorem formula rendered and inspected on p. 2.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT005",
+    "source_kind_detail": "original research article",
+    "method_family": "harmonic descent chain and occupation probabilities",
+    "input_output_interface": "Input: decreasing harmonic descent chain; output: occupation probabilities and chain identity useful to recover height distributional recurrences.",
+    "transfer_assumptions_and_limits": "Direct one-uniform-leaf harmonic-descent occupation law for the critical Beta-splitting tree; not a two-leaf prescribed-separation theorem.",
+    "target_role": "direct_technical",
+    "legal_fulltext_route": {
+      "status": "open_author_and_publisher_fulltext_confirmed",
+      "url": "https://arxiv.org/pdf/2405.05102",
+      "route_note": "Official arXiv and ECP/author repository PDFs; paper 10 pages."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "reading_card": "evidence/W22/cards/RT005.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT007",
+    "title": "Probability distributions on cladograms",
+    "authors": [
+      "David J. Aldous"
+    ],
+    "year": 1996,
+    "kind": "chapter",
+    "doi": "10.1007/978-1-4612-0719-1_1",
+    "url": "https://doi.org/10.1007/978-1-4612-0719-1_1",
+    "alternate_urls": [
+      "https://www.stat.berkeley.edu/~aldous/Papers/me69.pdf"
+    ],
+    "version": "Complete author-hosted chapter manuscript dated 1996-08-22 in Random Discrete Structures (IMA Vol. 76), cited pp. 1-18; local PDF is 20 physical pages and internal pagination reaches p. 20. Not the edited volume.",
+    "reason": "Use the original beta-splitting definition and parameterized split law to locate the critical model within the family.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "publisher_DOI_author_hosted_fulltext_verified",
+    "identity_status": "verified_from_D01_handoff_and_local_SHA",
+    "local_pdf": "evidence/fulltexts/RT007.pdf",
+    "sha256": "e100126d88b6abadd23d3060ef4ba6a2adbddadfc14aa0d8813436115fc94272",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete physical pp. 1–20; see linked complete page-map coverage for sections and visually checked pages.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT007",
+    "source_kind_detail": "chapter",
+    "method_family": "beta-splitting cladogram laws and split-size asymptotics",
+    "input_output_interface": "Input: rooted binary labeled cladogram with symmetric finite-n split law q_n and uniform child label subset; output: recursive tree law and parameter-specific root/branch split and depth/height facts.",
+    "transfer_assumptions_and_limits": "Only compare after exact finite-n kernel, leaf-order sampling and edge-length conventions are matched. No deterministic circular-gap pair law.",
+    "target_role": "direct_beta_splitting_definition_and_model_comparison",
+    "legal_fulltext_route": {
+      "status": "open_author_chapter_confirmed",
+      "url": "https://www.stat.berkeley.edu/~aldous/Papers/me69.pdf",
+      "route_note": "Complete author-hosted 18-page chapter; this is not acquisition of the edited volume. RT007 remains unread and unverified by W22."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "global_source_id": "PR-67cf6b8c20d6",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage1_review_status": "passed",
+    "canonical_source_id": null,
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT007",
+    "card": "evidence/W22/cards/RT007.md",
+    "reading_card": "evidence/W22/cards/RT007.md",
+    "source_helper_record": "evidence/W22/reader_batches/L14_B7/sources_patch.json#RT007",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L14_B7/reading_coverage.json#RT007",
+    "helper_card_sha256": "3a674274f45859ae465649391bd6ef74661db8def33d356d1dd9ee52a5732bbd",
+    "mother_card_sha256": "f2529d5a08e7a4b9a80a187262e812d0ffe9524e67c5fa70b563715156d61b2f",
+    "canonical_reconciliation": "No exact title/DOI match in catalogue/canonical_read_index.json; one complete standalone chapter counts as one work, not a whole book.",
+    "read_role": "Input: rooted binary labeled cladogram with symmetric finite-n split law q_n and uniform child label subset; output: recursive tree law and parameter-specific root/branch split and depth/height facts.",
+    "scope_warning": "Only compare after exact finite-n kernel, leaf-order sampling and edge-length conventions are matched. No deterministic circular-gap pair law.",
+    "math_check_artifacts": [
+      "evidence/W22/checks/L14_B7/finite_checks.py",
+      "evidence/W22/checks/L14_B7/finite_checks.txt"
+    ],
+    "mother_card_change": "Only mother ID/PDF/helper-pass/mother-pending prefix added; mathematical body unchanged.",
+    "physical_pages": 20,
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT009",
+    "title": "Scaling limits of Markov branching trees with applications to Galton–Watson and random unordered trees",
+    "authors": [
+      "Bénédicte Haas",
+      "Grégory Miermont"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1214/11-AOP686",
+    "url": "https://doi.org/10.1214/11-AOP686",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1003.3632"
+    ],
+    "version": "arXiv:1003.3632v3, revised 5 Nov 2012; read complete 80-physical-page PDF. The first page identifies the Annals of Probability 40(6) (2012), 2589–2666, DOI 10.1214/11-AOP686 citation; no separate typesetting comparison claimed.",
+    "reason": "Provides a general split-kernel to fragmentation-tree scaling-limit framework and explicit hypotheses for rare macroscopic splits.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_metadata_checked_against_arxiv/publisher_record_and_local_pdf",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT009.pdf",
+    "sha256": "eccc5c5565fbf8942856072070485dcb4133a7c175c5dd788e146e577603a88f",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pp. 1–80; all six sections, full conditioned-GW/unordered-tree application proofs and references read; Theorems 5–6 pages 13–14 rendered and inspected.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT009",
+    "source_kind_detail": "original research article",
+    "method_family": "Markov-branching partition kernels, scaling limits and tree topology",
+    "input_output_interface": "Input: Markov-branching family encoded by integer partition laws; output: self-similar fragmentation-tree limits in Gromov–Hausdorff–Prokhorov topology.",
+    "transfer_assumptions_and_limits": "General leaf- and vertex-counted Markov-branching scaling limits under weighted rare-macroscopic-split hypothesis (H); model/topology gates needed before transfer.",
+    "target_role": "transferable_model_method",
+    "legal_fulltext_route": {
+      "status": "open_arxiv_and_publisher_fulltext_confirmed",
+      "url": "https://arxiv.org/pdf/1003.3632",
+      "route_note": "Official arXiv manuscript and IMS open PDF; complete article."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "reading_card": "evidence/W22/cards/RT009.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT012",
+    "title": "The Wiener Index of simply generated random trees",
+    "authors": [
+      "Svante Janson"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1002/rsa.10074",
+    "url": "https://doi.org/10.1002/rsa.10074",
+    "alternate_urls": [
+      "https://www2.math.uu.se/~svantejs/papers/sj146.pdf"
+    ],
+    "version": "Read the complete 20-physical-page author-hosted manuscript PDF (local metadata creation date 17 Sep 2002). Related published article: Random Structures & Algorithms 22(4) (2003), 337–358, DOI 10.1002/rsa.10074; this manuscript is not claimed identical to the paginated journal version.",
+    "reason": "Use as a source of pairwise distance covariance / Wiener index moment decompositions and Brownian-excursion limits.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_metadata_checked_against_arxiv/publisher_record_and_local_pdf",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT012.pdf",
+    "sha256": "84ce60a7285105186a00c5d5e1a37d85c2704c885aad82603ece852f7383b85b",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pp. 1–20; all seven sections and references read; Theorem 3.1, moment formula and second-moment constants rendered/inspected on pp. 4–5.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT012",
+    "source_kind_detail": "original research article",
+    "method_family": "pair-distance sums, variance, mixed moments",
+    "input_output_interface": "Input: simply-generated/conditioned-GW tree with finite-variance regime; output: mean, variance, higher moments, joint law with internal path length.",
+    "transfer_assumptions_and_limits": "Conditioned critical-GW W-index and pair-distance sums, Brownian-excursion limits and moment methods; pair sample is uniform over vertices, not fixed cyclic leaf separation.",
+    "target_role": "transferable_pair_method",
+    "legal_fulltext_route": {
+      "status": "open_author_fulltext_confirmed",
+      "url": "https://www2.math.uu.se/~svantejs/papers/sj146.pdf",
+      "route_note": "Author-hosted complete paper PDF."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "reading_card": "evidence/W22/cards/RT012.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT013",
+    "title": "The distance profile of rooted and unrooted simply generated trees",
+    "authors": [
+      "Gabriel Berzunza Ojeda",
+      "Svante Janson"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": "10.1017/S0963548321000304",
+    "url": "https://doi.org/10.1017/S0963548321000304",
+    "alternate_urls": [
+      "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B32482FCA00F9FCF73A32330A3396DF3/S0963548321000304a.pdf/the-distance-profile-of-rooted-and-unrooted-simply-generated-trees.pdf"
+    ],
+    "version": "Cambridge publisher version, 43 physical pages; Combinatorics, Probability and Computing 31(3) (2022), 368–410; first online 18 Aug 2021; DOI 10.1017/S0963548321000304.",
+    "reason": "Use the distance-profile functional/continuity and pair-distance measure as a template for converting sampled-pair distances into an empirical pair profile.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_metadata_checked_against_arxiv/publisher_record_and_local_pdf",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT013.pdf",
+    "sha256": "48089404dcdd5e809c858812a1112701b472df89cc0902551d65209c0111b5e1",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pp. 1–43; all §§1–16, Appendix A and terminal pages read; theorem 1.4 p. 2, contour-normalization pp. 21–22, and Theorem 11.2 p. 22 rendered/inspected.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT013",
+    "source_kind_detail": "original research article",
+    "method_family": "two-vertex distance profiles and pair sampling",
+    "input_output_interface": "Input: finite-variance conditioned GW / simply-generated rooted or unrooted trees; output: rescaled pair-distance profile limit and regularity.",
+    "transfer_assumptions_and_limits": "Empirical ordered all-vertex-pair distance profile for finite-variance conditioned GW and unrooted simply generated trees; no fixed cyclic leaf-pair result.",
+    "target_role": "transferable_pair_method",
+    "legal_fulltext_route": {
+      "status": "publisher_open_access_confirmed",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B32482FCA00F9FCF73A32330A3396DF3/S0963548321000304a.pdf/the-distance-profile-of-rooted-and-unrooted-simply-generated-trees.pdf",
+      "route_note": "Cambridge publisher OA article; author/publisher PDF."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "reading_card": "evidence/W22/cards/RT013.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT014",
+    "title": "Profiles of random trees: correlation and width of random recursive trees and binary search trees",
+    "authors": [
+      "Michael Drmota",
+      "Hsien-Kuei Hwang"
+    ],
+    "year": 2005,
+    "kind": "paper",
+    "doi": "10.1239/aap/1118858628",
+    "url": "https://doi.org/10.1239/aap/1118858628",
+    "alternate_urls": [
+      "https://www.dmg.tuwien.ac.at/drmota/correlation-aap.pdf"
+    ],
+    "version": "Advances in Applied Probability 37(2) (2005), 321–341; downloaded author-site PDF is 28 physical pages. No distinct preprint version claimed.",
+    "reason": "Use the bivariate generating-function/singularity-analysis technique to derive covariances between two indexed tree observables, with attention to uniformity and sign transitions.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "publisher_and_author_metadata_checked",
+    "identity_status": "verified_against_D01_identity_checks",
+    "local_pdf": "evidence/fulltexts/RT014.pdf",
+    "sha256": "0544cdc2b4b31811af054f68aaad1ed9b1d75e11eb8e6f1c7d67c4e8b91c62b2",
+    "reading_status": "fulltext_read",
+    "read_pages": "1-28",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT014",
+    "source_kind_detail": "original research article",
+    "method_family": "uniform asymptotics for covariance/correlation of tree profile levels",
+    "input_output_interface": "Input: level-profile bivariate generating functions for random recursive/BST models; output: asymptotic covariance and width estimates.",
+    "transfer_assumptions_and_limits": "Profiles by depth are not leaf circular separation. The generating-function argument transfers only if the Beta model has a derived bivariate recursion and uniform singularity control.",
+    "target_role": "transferable_pair_method",
+    "legal_fulltext_route": {
+      "status": "open_author_fulltext_confirmed",
+      "url": "https://www.dmg.tuwien.ac.at/drmota/correlation-aap.pdf",
+      "route_note": "TU Wien author-hosted complete paper."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 28,
+    "global_source_id": "PR-aa07a681c4ea",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT015",
+    "title": "Profiles of random trees: Limit theorems for random recursive trees and binary search trees",
+    "authors": [
+      "Michael Fuchs",
+      "Hsien-Kuei Hwang",
+      "Ralph Neininger"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.1007/s00453-006-0109-5",
+    "url": "https://doi.org/10.1007/s00453-006-0109-5",
+    "alternate_urls": [
+      "https://web.math.nccu.edu.tw/mfuchs/profile_of_random_recursive_trees.pdf"
+    ],
+    "version": "Complete 40-physical-page author-hosted manuscript dated 2005-08-11; published Algorithmica 46 (2006), 367–407. Local PDF SHA-256 0f4338a6ea2f075329ca9906febc3c982bc0917ef87baf7c9a41782d377558de.",
+    "reason": "Use as a concrete profile-level limit-law and moment-convergence example for growing recursive tree models.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "publisher_DOI_author_fulltext_and_local_front_terminal_pages_checked",
+    "identity_status": "verified_title_authors_publication_identity_physical_page_count_and_sha256",
+    "local_pdf": "evidence/fulltexts/RT015.pdf",
+    "sha256": "0f4338a6ea2f075329ca9906febc3c982bc0917ef87baf7c9a41782d377558de",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete author manuscript physical pp. 1–40, including all theorem proofs, BST section and references.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT015",
+    "source_kind_detail": "original research article",
+    "method_family": "Two-parameter profile recurrences; contraction method; moment asymptotics; characteristic-function Berry–Esseen estimate",
+    "input_output_interface": "Input: a random recursive tree level k with k/λ_n→α, λ_n=max{log n,1}. Output: for α<e a normalized-profile fixed-point limit; the positive moment-convergence assertion for the first m moments when α<m^(1/(m−1)) and all-moment convergence for α∈[0,1]; a derivative limit around k=λ_n with |k−λ_n|→∞ and o(λ_n); and for 1≤k=o(λ_n) a normal approximation with O(sqrt(k/λ_n)) Kolmogorov error.",
+    "transfer_assumptions_and_limits": "Preserve the RRT insertion rule, level-profile observable, and exact positive α/range gates. The literal negative clause about failure of the next moment in Theorem 1(ii) is internally inconsistent with Corollary 2 and is quarantined as a defective source-local sentence; do not cite it or substitute a general failure threshold. Corollary 1’s variance coefficient vanishes at α=0,1: use Var=o(μ²) from second-moment convergence there, not Var∼0; the α=1 centered fine-scale and α=0 lower-fringe results have their own gates. The BST portion is a separate root-splitting model and has its own α window. Neither model establishes a fixed cyclic leaf-separation pair statistic or covariance without a new encoding and approximation proof.",
+    "target_role": "profile_fixed_point_and_tree_specific_limit_theorems",
+    "legal_fulltext_route": {
+      "status": "complete_author_hosted_pdf_identity_verified",
+      "url": "https://web.math.nccu.edu.tw/mfuchs/profile_of_random_recursive_trees.pdf",
+      "route_note": "Complete 40-page author manuscript; title page, terminal page, PDF count and hash checked."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "physical_pages": 40,
+    "global_source_id": "PR-62aca5599e88",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "reader": "L11",
+    "reading_card": "evidence/W22/cards/RT015.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT015",
+    "source_helper_record": "evidence/W22/reader_batches/L11_B6/sourcepatch.json#RT015",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L11_B6/section_coverage.json#RT015",
+    "helper_card_sha256": "4b6c8eb3e65882afaba6118280297aa491bb61ef3f82eb375e8d52d4e1e54ac5",
+    "mother_card_sha256": "298f04170169ac7e197d09732d51abf45a410b58b773cdab59cc2dad5d8357fc",
+    "read_role": "Source-specific RRT/BST level-profile limits, positive moment gates and boundary regimes; use only after matching the insertion law/profile observable.",
+    "scope_warning": "Preserve the RRT insertion rule, level-profile observable, and exact positive α/range gates. The literal negative clause about failure of the next moment in Theorem 1(ii) is internally inconsistent with Corollary 2 and is quarantined as a defective source-local sentence; do not cite it or substitute a general failure threshold. Corollary 1’s variance coefficient vanishes at α=0,1: use Var=o(μ²) from second-moment convergence there, not Var∼0; the α=1 centered fine-scale and α=0 lower-fringe results have their own gates. The BST portion is a separate root-splitting model and has its own α window. Neither model establishes a fixed cyclic leaf-separation pair statistic or covariance without a new encoding and approximation proof.",
+    "version_relation": "Complete 40-physical-page author-hosted manuscript dated 2005-08-11; published Algorithmica 46 (2006), 367–407. Local PDF SHA-256 0f4338a6ea2f075329ca9906febc3c982bc0917ef87baf7c9a41782d377558de.",
+    "math_check_artifacts": [
+      "evidence/W22/checks/L11_B6/verify_examples.py",
+      "evidence/W22/checks/L11_B6/verify_examples.json",
+      "evidence/W22/checks/L11_B6/verify_moment_counter.py",
+      "evidence/W22/checks/L11_B6/verify_moment_counter.json"
+    ],
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT016",
+    "title": "A functional limit theorem for the profile of search trees",
+    "authors": [
+      "Michael Drmota",
+      "Svante Janson",
+      "Ralph Neininger"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1214/07-AAP457",
+    "url": "https://doi.org/10.1214/07-AAP457",
+    "alternate_urls": [
+      "https://www.dmg.tuwien.ac.at/drmota/AAP457.pdf"
+    ],
+    "version": "Annals of Applied Probability 18(1) (2008), 288–333; arXiv:math/0609385 v2 is a preprint version of the same work. Local published PDF is 46 physical pages.",
+    "reason": "Use the contraction method for recursive random analytic/profile-valued objects and the proof’s Hilbert-space metric/tightness interfaces.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "IMS_publisher_author_and_arXiv_metadata_checked",
+    "identity_status": "verified_against_D01_identity_checks",
+    "local_pdf": "evidence/fulltexts/RT016.pdf",
+    "sha256": "b9c4ff13c1c7209a4fe8f87ac48abadf7fe14fc5631c4e618c685b88d6e562f2",
+    "reading_status": "fulltext_read",
+    "read_pages": "1-46",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT016",
+    "source_kind_detail": "original research article",
+    "method_family": "functional profile CLT via contraction in function spaces",
+    "input_output_interface": "Input: random search-tree profile with functional recurrence; output: functional weak limit for normalized profile on a specified α-range.",
+    "transfer_assumptions_and_limits": "Requires the right function-space recurrence, moments, contraction coefficient and model-specific profile normalization; not a theorem for Beta-splitting automatically.",
+    "target_role": "transferable_contraction_method",
+    "legal_fulltext_route": {
+      "status": "open_author_and_publisher_fulltext_confirmed",
+      "url": "https://www.dmg.tuwien.ac.at/drmota/AAP457.pdf",
+      "route_note": "IMS-author PDF and arXiv manuscript; full article."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 46,
+    "global_source_id": "PR-9d3d0558925e",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT017",
+    "title": "A functional limit theorem for the profile of random recursive trees",
+    "authors": [
+      "Alexander Iksanov",
+      "Zakhar Kabluchko"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1214/18-ECP188",
+    "url": "https://doi.org/10.1214/18-ECP188",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1801.04606"
+    ],
+    "version": "Electronic Communications in Probability 23 (2018), Paper 87, 13 published pages, DOI 10.1214/18-ECP188; arXiv:1801.04606 v1 (14 Jan 2018) is the locally read preprint, 10 physical pages. DOI suffix 188 is not the paper number; no equivalence of the 10-page arXiv text with the 13-page VOR is claimed.",
+    "reason": "Use to identify how an increasing tree profile can arise from a CMJ process and yield a Gaussian process limit under a finite-second-moment condition.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "ECP_and_arXiv_metadata_checked",
+    "identity_status": "verified_against_D01_identity_checks",
+    "local_pdf": "evidence/fulltexts/RT017.pdf",
+    "sha256": "111bad73c353b0a2b04e68adce991987fe66780d50ae9ea33a3da1e103ade44d",
+    "reading_status": "fulltext_read",
+    "read_pages": "1-10",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT017",
+    "source_kind_detail": "original research article",
+    "method_family": "functional profile fluctuations through CMJ branching process",
+    "input_output_interface": "Input: RRT level-count process as tree size grows; output: centered/scaled finite-coordinate profile process converging to integrated Brownian motions.",
+    "transfer_assumptions_and_limits": "Target CTCS Beta family has different growth and size dependence; requires constructing the appropriate CMJ embedding and checking birth-characteristic moments.",
+    "target_role": "transferable_CLT_method",
+    "legal_fulltext_route": {
+      "status": "open_arxiv_and_publisher_fulltext_confirmed",
+      "url": "https://arxiv.org/pdf/1801.04606",
+      "route_note": "Official arXiv and ECP full text route."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 10,
+    "global_source_id": "PR-13d7ecb0c0d6",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT018",
+    "title": "Subtree Sizes in Recursive Trees and Binary Search Trees: Berry–Esseen Bounds and Poisson Approximations",
+    "authors": [
+      "Michael Fuchs"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1017/S0963548308009243",
+    "url": "https://doi.org/10.1017/S0963548308009243",
+    "alternate_urls": [
+      "https://web.math.nccu.edu.tw/mfuchs/subtrees_rt_and_bst.pdf"
+    ],
+    "version": "Combinatorics, Probability and Computing 17(5) (2008), 661–680; read the author's 10 June 2008, 19-page manuscript. It is the same work but not asserted byte-identical or page-identical to the journal version.",
+    "reason": "Use the size-indexed fringe-count decomposition to separate normal and Poisson regimes and obtain quantitative error bounds.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "Cambridge_publisher_and_author_metadata_checked",
+    "identity_status": "verified_against_D01_identity_checks",
+    "local_pdf": "evidence/fulltexts/RT018.pdf",
+    "sha256": "5b8b001fdbcecdfe0fdceeb869d06d8000048c991686666ef08c5db5989bc35f",
+    "reading_status": "fulltext_read",
+    "read_pages": "1-19",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT018",
+    "source_kind_detail": "original research article",
+    "method_family": "fringe subtree size counts, Berry–Esseen and Poisson regimes",
+    "input_output_interface": "Input: number of k-size fringe subtrees in RRT/BST as n,k vary; output: optimal Berry–Esseen/local limits in normal regime and Poisson approximation for growing k.",
+    "transfer_assumptions_and_limits": "Beta clade fringe trees are sampled by leaves and clades, not vertices of RRT/BST; rederive factorial moments/couplings for the exact sampling.",
+    "target_role": "transferable_fringe_method",
+    "legal_fulltext_route": {
+      "status": "open_author_fulltext_confirmed",
+      "url": "https://web.math.nccu.edu.tw/mfuchs/subtrees_rt_and_bst.pdf",
+      "route_note": "Author-hosted complete article manuscript; use journal citation for version."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 19,
+    "global_source_id": "PR-be0c1e00fba0",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT019",
+    "title": "Limit laws for functions of fringe trees for binary search trees and recursive trees",
+    "authors": [
+      "Cecilia Holmgren",
+      "Svante Janson"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v20-3627",
+    "url": "https://doi.org/10.1214/EJP.v20-3627",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1406.6883"
+    ],
+    "version": "Electronic Journal of Probability 20 (2015), no. 4, 1–51, DOI 10.1214/EJP.v20-3627; arXiv:1406.6883",
+    "reason": "Use Devroye representation plus Stein/coupling/Cramér–Wold methods for sums of fringe-tree indicators, including joint normality and Poisson approximations.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_version_metadata web checked; D04 identity record reused",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT019.pdf",
+    "sha256": "576db2806ac586a0ba3763040cb483d30ee82b2b240088c6219e580cb06c598b",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pages 1–57 (entire file; sections and references included)",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT019",
+    "source_kind_detail": "original research article",
+    "method_family": "Stein coupling for fringe-tree sums and joint counts",
+    "input_output_interface": "Input: functions/counts of fringes in RRT/BST; output: univariate/multivariate CLT or Poisson limits for specified k regimes.",
+    "transfer_assumptions_and_limits": "Do not identify its random-node fringe sampling with Beta leaves; transfer needs a tree representation that preserves the two-tree coupling and conditional independence.",
+    "target_role": "transferable_fringe_method",
+    "legal_fulltext_route": {
+      "status": "downloaded_public_author_version_identity_verified",
+      "url": "https://arxiv.org/pdf/1406.6883",
+      "route_note": "Official arXiv and EJP author/publication route; D04 verified 57 physical pages for the downloaded arXiv version."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "read_role": "fringe-function sums, Stein coupling, Poisson/normal approximation and joint fixed-fringe counts; transfer only after matching the Beta model sampling/recurrence.",
+    "scope_warning": "Do not identify its random-node fringe sampling with Beta leaves; transfer needs a tree representation that preserves the two-tree coupling and conditional independence.",
+    "read_version": "arXiv author manuscript 26 June 2014; published EJP 20 (2015), no. 4, 1–51, DOI 10.1214/EJP.v20-3627",
+    "identity_page_count": 57,
+    "reading_card": "evidence/W22/cards/RT019.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT020",
+    "title": "Asymptotic normality of fringe subtrees and additive functionals in conditioned Galton–Watson trees",
+    "authors": [
+      "Svante Janson"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.1002/rsa.20568",
+    "url": "https://doi.org/10.1002/rsa.20568",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1312.1211"
+    ],
+    "version": "Random Structures & Algorithms 48(1) (2016), 57–101, DOI 10.1002/rsa.20568; arXiv:1312.1211",
+    "reason": "Use the additive recursion F(T)=sum over root branches F(T_i)+f(T), toll-growth assumptions, and joint CLT for counts of specified fringe trees.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "primary_version_metadata web checked; D04 identity record reused",
+    "identity_status": "verified_title_authors_version_pages_last_page_hash",
+    "local_pdf": "evidence/fulltexts/RT020.pdf",
+    "sha256": "57087897255b68b0991df21977b77e17a8b3ec360a5d0fa3d4a3dd10e32c6ac5",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF physical pages 1–49 (entire file; sections and references included)",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT020",
+    "source_kind_detail": "original research article",
+    "method_family": "additive toll CLT and joint fringe counts",
+    "input_output_interface": "Input: conditioned critical GW with finite-variance offspring and toll not too large; output: additive-functional and fringe-count asymptotic normality.",
+    "transfer_assumptions_and_limits": "Not direct for size-dependent Beta splits unless a conditioned GW representation is proved. Must check ordered/unordered convention and finite-variance conditions; no automatic transfer to A127.",
+    "target_role": "transferable_additive_clt",
+    "legal_fulltext_route": {
+      "status": "downloaded_public_author_version_identity_verified",
+      "url": "https://arxiv.org/pdf/1312.1211",
+      "route_note": "Official arXiv and author-hosted final PDF route; D04 verified 49 physical pages for arXiv v1."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "read_role": "additive toll recurrence CLT and joint fringe count method under conditioned critical GW assumptions; not directly a Beta-splitting theorem.",
+    "scope_warning": "Not direct for size-dependent Beta splits unless a conditioned GW representation is proved. Must check ordered/unordered convention and finite-variance conditions; no automatic transfer to A127.",
+    "read_version": "arXiv v1 dated 4 December 2013; published RSA 48(1) (2016), 57–101, DOI 10.1002/rsa.20568",
+    "identity_page_count": 49,
+    "reading_card": "evidence/W22/cards/RT020.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT021",
+    "title": "Protected nodes and fringe subtrees in some random trees",
+    "authors": [
+      "Luc Devroye",
+      "Svante Janson"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1214/ECP.v19-3048",
+    "url": "https://doi.org/10.1214/ECP.v19-3048",
+    "alternate_urls": [
+      "https://www2.math.uu.se/~svantejs/papers/sj283.pdf"
+    ],
+    "version": "Electronic Communications in Probability 19 (2014), no. 6, 1–10, DOI 10.1214/ECP.v19-3048; arXiv:1310.0665",
+    "reason": "Read the fringe-subtree reduction from annealed/quenched local limits to protected-node frequencies in simply generated, BST, and recursive-tree models.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_official_DOI_and_primary_fulltext_record",
+    "identity_status": "verified_title_authors_local_first_page_physical_pages_sha256",
+    "local_pdf": "evidence/fulltexts/RT021.pdf",
+    "sha256": "51f2cc08ed9952b1f4f701044c077f50669b3f79bee6c794307ad1e8cc4102b9",
+    "reading_status": "fulltext_read",
+    "read_pages": "Read complete physical PDF pp. 1–11, covering all article sections and references; ECP printed pagination is pp. 1–10.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT021",
+    "source_kind_detail": "original research article",
+    "method_family": "local fringe observables and model-to-fringe reduction",
+    "input_output_interface": "Input: fixed-radius local root property; output: limiting annealed/quenched frequency via corresponding fringe law.",
+    "transfer_assumptions_and_limits": "Only local functionals; cannot yield global two-leaf covariance without joint marked-fringe coupling and variance bounds.",
+    "target_role": "transferable_fringe_method",
+    "legal_fulltext_route": {
+      "status": "open_author_and_publisher_fulltext_confirmed",
+      "url": "https://www2.math.uu.se/~svantejs/papers/sj283.pdf",
+      "route_note": "Uppsala author-hosted complete ECP paper; CC BY ECP record."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "physical_pages": 11,
+    "reading_card": "evidence/W22/cards/RT021.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT022",
+    "title": "Fringe trees, Crump–Mode–Jagers branching processes and m-ary search trees",
+    "authors": [
+      "Cecilia Holmgren",
+      "Svante Janson"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.1214/16-PS272",
+    "url": "https://doi.org/10.1214/16-PS272",
+    "alternate_urls": [
+      "https://uu.diva-portal.org/smash/get/diva2%3A1160075/FULLTEXT01.pdf"
+    ],
+    "version": "Probability Surveys 14 (2017), 53–154; complete Uppsala DiVA version is 102 physical PDF pages; arXiv:1601.03691.",
+    "reason": "Use the precise embedding hypotheses and fringe/extended-fringe distributions for RRT, PA, fragmentation and search-tree families.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_against_DiVA_author_or_publisher_PDF_front_matter_and_official_DOI_route",
+    "identity_status": "verified_title_authors_publication_version_physical_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/RT022.pdf",
+    "sha256": "aa574855b4a998e22fc3eb119b990793e12eeab2c681f4de4f5e1b61d0bf8808",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete PDF physical pp. 1–102, including §§1–14, Appendices A–C, and all references; published pagination is pp. 53–154.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT022",
+    "source_kind_detail": "research survey",
+    "method_family": "CMJ fringe tree embeddings and growth process stopped at size/time",
+    "input_output_interface": "Input: family tree of CMJ process stopped at time/size; output: asymptotic random fringe and tree profile/height facts.",
+    "transfer_assumptions_and_limits": "This is a synthesis, not a stand-alone proof for the Beta kernel. Treat it as a map to primary cited theorems; verify stopping rule, birth intensity, and size-conditioning.",
+    "target_role": "context_method_reference",
+    "legal_fulltext_route": {
+      "status": "open_author_and_publisher_fulltext_confirmed",
+      "url": "https://uu.diva-portal.org/smash/get/diva2%3A1160075/FULLTEXT01.pdf",
+      "route_note": "Uppsala institutional repository complete PDF; article/survey."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 102,
+    "global_source_id": "PR-dd6180e29a54",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT023",
+    "title": "Central limit theorems for additive functionals and fringe trees in tries",
+    "authors": [
+      "Svante Janson"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": "10.1214/22-EJP776",
+    "url": "https://doi.org/10.1214/22-EJP776",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2003.02725"
+    ],
+    "version": "Electronic Journal of Probability 27 (2022), paper 47, 1–63, DOI 10.1214/22-EJP776; arXiv:2003.02725",
+    "reason": "Read additive trie CLTs and precise Poissonization/de-Poissonization, entropy, periodic variance, and fringe-frequency formulas as model-specific tools.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_official_DOI_and_primary_fulltext_record",
+    "identity_status": "verified_title_authors_local_first_page_physical_pages_sha256",
+    "local_pdf": "evidence/fulltexts/RT023.pdf",
+    "sha256": "1028d5f17e5fd419953609c87c1f9ee285f28ad7acf0323138247b6d9bb0975f",
+    "reading_status": "fulltext_read",
+    "read_pages": "Read complete physical PDF pp. 1–74, including §§1–8, Appendices A–C and all references; published EJP pagination is pp. 1–63.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT023",
+    "source_kind_detail": "original research article",
+    "method_family": "additive recurrence CLT and explicit asymptotic covariance/variance",
+    "input_output_interface": "Input: random trie generated by independent strings and an additive toll; output: CLT for functionals and fringe-tree proportions with mean/variance constants.",
+    "transfer_assumptions_and_limits": "Trie split process has independent strings and digit-entropy structure; transfer requires proving Beta split recursion satisfies analogous toll bounds and nondegenerate variance.",
+    "target_role": "transferable_additive_clt",
+    "legal_fulltext_route": {
+      "status": "open_arxiv_and_publisher_fulltext_confirmed",
+      "url": "https://arxiv.org/pdf/2003.02725",
+      "route_note": "Official arXiv/EJP open full-text route."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "physical_pages": 74,
+    "reading_card": "evidence/W22/cards/RT023.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT024",
+    "title": "A central limit theorem for additive functionals of increasing trees (local author manuscript: Additive Functionals of d-ary Increasing Trees)",
+    "authors": [
+      "Dimbinaina Ralaivaosaona",
+      "Stephan Wagner"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1017/S0963548318000585",
+    "url": "https://doi.org/10.1017/S0963548318000585",
+    "alternate_urls": [
+      "https://math.sun.ac.za/swagner/increasingFull.pdf"
+    ],
+    "version": "Complete 16-physical-page author manuscript; published CPC 28(4) (2019), 618–637. Author publication page identifies the article as the full version of the 2016 proceedings abstract. Local PDF SHA-256 0513383fdd64fe993af3d3195b3cb38f7143931b070ca1aa2e064f3955f22aa1.",
+    "reason": "Use the exact toll-growth conditions and asymptotic variance construction for additive functionals in increasing-tree families.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "Cambridge_DOI_author_version_lineage_and_local_front_terminal_pages_checked",
+    "identity_status": "verified_local_full_manuscript_identity_physical_page_count_and_sha256",
+    "local_pdf": "evidence/fulltexts/RT024.pdf",
+    "sha256": "0513383fdd64fe993af3d3195b3cb38f7143931b070ca1aa2e064f3955f22aa1",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete author manuscript physical pp. 1–16, including all proofs, applications and references; 2016 proceedings abstract not counted separately.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT024",
+    "source_kind_detail": "original research article",
+    "method_family": "Additive toll function CLT for d-ary increasing trees by multivariate generating functions, singularity analysis, moment induction and truncation",
+    "input_output_interface": "Input: fixed d≥2 uniform d-ary increasing tree and additive toll f satisfying boundedness plus sum_k E|f(T_k)|/k<∞ and E|f(T_n)|→0. Output: exact mean/variance constants, linear variance asymptotics and, if σ²>0, a Gaussian limit. The separate GPORT theorem is stated for fixed α>0 under the same toll gates.",
+    "transfer_assumptions_and_limits": "Do not suppress either C2 clause. Bounded-toll can only be replaced through the paper’s explicit F(T)=O(|T|) remark; shifting f by a constant has the stated deterministic effect. GPORT is a separately weighted model with α>0; its theorem/formulas are stated but its proof is not detailed in this article, so do not represent the written GPORT proof as fully checked. No fixed cyclic leaf-pair observable is established.",
+    "target_role": "candidate_additive_toll_CLT_and_tree_specific_toll_verification",
+    "legal_fulltext_route": {
+      "status": "complete_author_fulltext_and_publisher_metadata_verified",
+      "url": "https://math.sun.ac.za/swagner/increasingFull.pdf",
+      "route_note": "Complete 16-page local author manuscript; Cambridge DOI record confirms published work; proceedings abstract is not treated as a separate full text."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "physical_pages": 16,
+    "global_source_id": "PR-bbe62c9b86ca",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "reader": "L11",
+    "reading_card": "evidence/W22/cards/RT024.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT024",
+    "source_helper_record": "evidence/W22/reader_batches/L11_B6/sourcepatch.json#RT024",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L11_B6/section_coverage.json#RT024",
+    "helper_card_sha256": "ba46097cdadd12360fe468a6135d8d2a75c49ce65bd6753931ed79f063509f77",
+    "mother_card_sha256": "def92fd67daf32fb9dcee1a2f18fd2860b8f9728b750233a45991952df0549c0",
+    "read_role": "Additive toll CLT for fixed-d uniform d-ary increasing trees under C1-C2; GPORT theorem is stated for α>0 but its full proof is not detailed.",
+    "scope_warning": "Do not suppress either C2 clause. Bounded-toll can only be replaced through the paper’s explicit F(T)=O(|T|) remark; shifting f by a constant has the stated deterministic effect. GPORT is a separately weighted model with α>0; its theorem/formulas are stated but its proof is not detailed in this article, so do not represent the written GPORT proof as fully checked. No fixed cyclic leaf-pair observable is established.",
+    "version_relation": "Complete 16-physical-page author manuscript; published CPC 28(4) (2019), 618–637. Author publication page identifies the article as the full version of the 2016 proceedings abstract. Local PDF SHA-256 0513383fdd64fe993af3d3195b3cb38f7143931b070ca1aa2e064f3955f22aa1.",
+    "math_check_artifacts": [
+      "evidence/W22/checks/L11_B6/verify_examples.py",
+      "evidence/W22/checks/L11_B6/verify_examples.json",
+      "evidence/W22/checks/L11_B6/verify_moment_counter.py",
+      "evidence/W22/checks/L11_B6/verify_moment_counter.json"
+    ],
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT025",
+    "title": "Central Limit Theorems for Additive Tree Parameters with Small Toll Functions",
+    "authors": [
+      "Stephan Wagner"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1017/S0963548314000443",
+    "url": "https://doi.org/10.1017/S0963548314000443",
+    "alternate_urls": [
+      "https://math.sun.ac.za/swagner/additive.pdf"
+    ],
+    "version": "Combinatorics, Probability and Computing 24(S1) (2015), 329–353, DOI 10.1017/S0963548314000443",
+    "reason": "Read small-average toll CLTs and distinct analytic proofs for simply generated, Pólya, recursive, and binary-search-tree families.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_official_DOI_and_primary_fulltext_record",
+    "identity_status": "verified_title_authors_local_first_page_physical_pages_sha256",
+    "local_pdf": "evidence/fulltexts/RT025.pdf",
+    "sha256": "490c2d4dc3f9296c90658e4c3ec9cdd9364def25e6e9ba11e83a34695ff77d1b",
+    "reading_status": "fulltext_read",
+    "read_pages": "Read complete physical PDF pp. 1–23, including all theorem proofs, examples, conclusion and references; published CPC pagination is pp. 329–353.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT025",
+    "source_kind_detail": "original research article",
+    "method_family": "small-average toll CLTs across tree classes",
+    "input_output_interface": "Input: random tree model plus additive toll bounded/small on average; output: normal/log-normal limit for specified functionals.",
+    "transfer_assumptions_and_limits": "Requires root-branch additive decomposition; a fixed-size binary split recurrence needs finite-n boundary terms and model-specific toll moments checked.",
+    "target_role": "transferable_additive_clt",
+    "legal_fulltext_route": {
+      "status": "author_fulltext_confirmed",
+      "url": "https://math.sun.ac.za/swagner/additive.pdf",
+      "route_note": "Author-hosted full paper manuscript; Cambridge official metadata/version page."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "physical_pages": 23,
+    "reading_card": "evidence/W22/cards/RT025.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT027",
+    "title": "A central limit theorem for almost local additive tree functionals",
+    "authors": [
+      "Dimbinaina Ralaivaosaona",
+      "Matas Šileikis",
+      "Stephan Wagner"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1007/s00453-019-00622-4",
+    "url": "https://doi.org/10.1007/s00453-019-00622-4",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1810.00467"
+    ],
+    "version": "Algorithmica 82(3) (2020), 642–679, DOI 10.1007/s00453-019-00622-4; arXiv:1810.00467",
+    "reason": "Read the almost-local toll approximation criterion and its conditioned-GW additive CLT with degree-moment and summability gates.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_official_DOI_and_primary_fulltext_record",
+    "identity_status": "verified_title_authors_local_first_page_physical_pages_sha256",
+    "local_pdf": "evidence/fulltexts/RT027.pdf",
+    "sha256": "708c44632607074a70f63fce167d56a4288ab8dfb36453dfd08be5755bdbaff2",
+    "reading_status": "fulltext_read",
+    "read_pages": "Read complete physical PDF pp. 1–28, including §6 examples and all references; journal page span is 642–679.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT027",
+    "source_kind_detail": "original research article",
+    "method_family": "approximate-local tolls and conditioned-GW additive CLT",
+    "input_output_interface": "Input: conditioned GW tree and additive toll approximable by bounded-radius local tolls; output: CLT for almost-local additive parameter.",
+    "transfer_assumptions_and_limits": "Critical Beta size-dependent split law is not conditioned-GW unless represented; need new conditioning/variance and boundary analysis.",
+    "target_role": "transferable_additive_clt",
+    "legal_fulltext_route": {
+      "status": "open_arxiv_fulltext_confirmed",
+      "url": "https://arxiv.org/pdf/1810.00467",
+      "route_note": "Official arXiv author manuscript; journal DOI version distinct only as publication version of same work."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "physical_pages": 28,
+    "reading_card": "evidence/W22/cards/RT027.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "accepted",
+      "mother_review_status": "accepted"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT028",
+    "title": "Multivariate normal limit laws for the numbers of fringe subtrees in m-ary search trees and preferential attachment trees",
+    "authors": [
+      "Cecilia Holmgren",
+      "Svante Janson",
+      "Matas Šileikis"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.37236/6374",
+    "url": "https://arxiv.org/abs/1603.08125",
+    "alternate_urls": [
+      "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v24i2p51/pdf/"
+    ],
+    "version": "Electronic Journal of Combinatorics 24(2) (2017), P2.51; complete journal PDF, physical pp. 1–49; arXiv:1603.08125 is a related manuscript.",
+    "reason": "Use generalized Pólya-urn embedding to get joint normal limits for fixed fringe shapes and protected-node counts.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_against_official_EJC_record_and_complete_journal_PDF",
+    "identity_status": "verified_title_authors_DOI_version_physical_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/RT028.pdf",
+    "sha256": "2ab707eb8d8093e807b7dcddb84dd32b0362eb4dc7f918aea1f436db33787813",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete EJC PDF physical pp. 1–49, including all urn construction/proof sections, variance examples, degree profiles, and references.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT028",
+    "source_kind_detail": "original research article",
+    "method_family": "multivariate fringe count CLTs via generalized Pólya urns",
+    "input_output_interface": "Input: finite-dimensional fringe-count vector in m-ary search/linear PA tree; output: multivariate Gaussian covariance matrix under the model’s urn eigenvalue conditions.",
+    "transfer_assumptions_and_limits": "The Beta tree has recursive size splits rather than local growing urn dynamics. Need show a suitable urn state and spectral conditions before use.",
+    "target_role": "transferable_covariance_clt",
+    "legal_fulltext_route": {
+      "status": "open_arxiv_and_journal_fulltext_confirmed",
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v24i2p51/pdf/",
+      "route_note": "Official EJC journal PDF / arXiv; complete paper."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 49,
+    "global_source_id": "PR-1ed61b47713d",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT029",
+    "title": "Fringe Trees for Random Trees with Given Vertex Degrees",
+    "authors": [
+      "Gabriel Berzunza Ojeda",
+      "Cecilia Holmgren",
+      "Svante Janson"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.1002/rsa.70001",
+    "url": "https://doi.org/10.1002/rsa.70001",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2312.04243"
+    ],
+    "version": "Read official arXiv:2312.04243v1 dated 7 Dec 2023, 41 physical PDF pages; same work published online in Random Structures & Algorithms on 1 July 2025, DOI 10.1002/rsa.70001. No journal-page equivalence claimed.",
+    "reason": "Exact cyclic degree-word factorial moments and multivariate Gao–Wormald route for fixed fringe trees, only after deriving a matching target degree-profile model.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "Official arXiv and Wiley DOI metadata checked; local fulltext identity rechecked against D01",
+    "identity_status": "verified_title_authors_version_pages_hash",
+    "local_pdf": "evidence/fulltexts/RT029.pdf",
+    "sha256": "d8e3b3eb17a966e0548454efc6b29db4b7eea4d3b6ad1ed2c98215ce45d3d60d",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete PDF physical pp. 1–41, §§1–8, Appendices A–B, references; visually checked pp. 4, 15, 33.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT029",
+    "source_kind_detail": "original research article",
+    "method_family": "Fixed-fringe count CLT from exact degree-sequence factorial moments",
+    "input_output_interface": "Input: uniform rooted plane trees conditioned on prescribed degree profile with empirical law converging to p. Output: fixed fringe-count mean/covariance asymptotics and Gaussian limits under positive-probability and factorial-moment hypotheses.",
+    "transfer_assumptions_and_limits": "No critical Beta clade-tree representation or prescribed circular leaf-gap pair law is established. A127 needs a derived target degree/order representation and exact two-marked-pattern formula.",
+    "target_role": "auxiliary_factorial_moment_CLT_template",
+    "legal_fulltext_route": {
+      "status": "official_arxiv_author_fulltext_identity_verified",
+      "url": "https://arxiv.org/pdf/2312.04243",
+      "route_note": "D01 had complete file; reader did not download duplicate."
+    },
+    "global_dedupe": {
+      "status": "D01 global identity reused; canonical_read_index had no accepted full-read entry at preflight; no duplicate version/work counted."
+    },
+    "global_source_id": "PR-ee9c9bb5cec5",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 41,
+    "reading_card": "evidence/W22/cards/RT029.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT029",
+    "source_helper_record": "evidence/W22/reader_batches/L12_B5/sourcepatch.json#RT029",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L12_B5/section_coverage.json#RT029",
+    "reviewed_helper_card_sha256": "632c20852530b9d2cbe8f3e1b393fc48675e2351f517bf5a9b87bc8d028d72e3",
+    "helper_reader": "L12",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT030",
+    "title": "Large fringe trees for random trees with given vertex degrees",
+    "authors": [
+      "Gabriel Berzunza Ojeda",
+      "Cecilia Holmgren",
+      "Svante Janson"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.48550/arXiv.2604.06012",
+    "url": "https://arxiv.org/abs/2604.06012",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2604.06012"
+    ],
+    "version": "Read official arXiv:2604.06012v2, revised 3 Nov 2026, 36 physical pages; arXiv preprint, no refereed publication claimed. Old W22 v1/34-page description is stale; current D01 record and PDF agree.",
+    "reason": "Exact growing-shape factorial moments, degree-position Stein coupling, and finite-population local limit estimates with source hypotheses retained.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "Official current arXiv v2 record checked; local 36-page fulltext/hash checked",
+    "identity_status": "verified_title_authors_v2_pages_hash",
+    "local_pdf": "evidence/fulltexts/RT030.pdf",
+    "sha256": "42bb1005fce749990c81ea63d281e8826255d48926585cf960b7fbae9b539ef9",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete PDF physical pp. 1–36, §§1–6, Appendices A–B, references; visually checked pp. 8, 21, 30.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT030",
+    "source_kind_detail": "original research article/preprint",
+    "method_family": "Growing fringe counts: factorial moments, Stein coupling, finite-population LLT",
+    "input_output_interface": "Input: uniform plane tree with prescribed degree profile and a growing target shape/profile/size. Output: conditional Poisson or normal regimes, TV bounds, and size-count Poisson limits under exact asymptotic conditions.",
+    "transfer_assumptions_and_limits": "Unrefereed preprint. The model does not identify CTCS circular leaf-gap counts; A127 needs a law-preserving target recursion/count identity and proof of pair sampling measure.",
+    "target_role": "auxiliary_growing_fringe_and_finite_population_methods",
+    "legal_fulltext_route": {
+      "status": "official_arxiv_fulltext_identity_verified",
+      "url": "https://arxiv.org/pdf/2604.06012",
+      "route_note": "D01 current v2 file reused; reader did not download duplicate."
+    },
+    "global_dedupe": {
+      "status": "One work; v1/v2 are versions of the same work; v2 is the actual read file; no accepted canonical full-read entry at preflight."
+    },
+    "global_source_id": "PR-2ed2fdfb690d",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 36,
+    "reading_card": "evidence/W22/cards/RT030.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT030",
+    "source_helper_record": "evidence/W22/reader_batches/L12_B5/sourcepatch.json#RT030",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L12_B5/section_coverage.json#RT030",
+    "reviewed_helper_card_sha256": "c596079418ff72e9b7865ed4ab2186ea1882910bde7cd70ae750f71d84af4c0d",
+    "helper_reader": "L12",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT031",
+    "title": "Fringe subtrees of split trees and fractional split trees",
+    "authors": [
+      "Cecilia Holmgren",
+      "Jasper Ischebeck",
+      "Svante Janson"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.4230/LIPIcs.AofA.2026.19",
+    "url": "https://doi.org/10.4230/LIPIcs.AofA.2026.19",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2603.21780"
+    ],
+    "version": "arXiv:2603.21780v1 (submitted 23 March 2026; manuscript title page dated 24 March), complete author manuscript, 62 physical PDF pages. Same work published as LIPIcs AofA 2026, paper 19, 17 pages, DOI 10.4230/LIPIcs.AofA.2026.19, published 13 July 2026; no page-by-page equivalence claimed.",
+    "reason": "Use additive small-toll functionals on split trees and fractional split trees, including Beta-distributed splitters, with explicit LLN/variance/contraction regimes.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_against_official_arXiv_and_Dagstuhl_LIPIcs_records_and_local_fulltext",
+    "identity_status": "verified_title_authors_arxiv_and_proceedings_version_relation_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/RT031.pdf",
+    "sha256": "aa3db9b40ac20bbc9097440d829b5003ba8b5a5fa9196a62b9f639cc7c5a94ff",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete arXiv PDF physical pp. 1–62, all theorem statements/proofs and references; the 17-page LIPIcs version is the same work, not separately read or counted.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT031",
+    "source_kind_detail": "original research article",
+    "method_family": "split-vector toll recurrences, fringe limits, contraction method",
+    "input_output_interface": "Input: split-tree vector (including Beta splitter where specified) plus toll; output: asymptotic first moments, weak laws, or contraction-method distribution limits.",
+    "transfer_assumptions_and_limits": "Closest transfer candidate in split-vector language, but its split-tree stopping/box allocation model is not the critical Beta clade-size kernel. Prove the exact coupling and keep any fractional-tree assumptions.",
+    "target_role": "high_value_transfer_method",
+    "legal_fulltext_route": {
+      "status": "publisher_open_access_and_arxiv_confirmed",
+      "url": "https://arxiv.org/pdf/2603.21780",
+      "route_note": "Official Dagstuhl LIPIcs CC BY 4.0 paper plus arXiv preprint; one work, not two."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 62,
+    "global_source_id": "PR-0ea5521d329f",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT034",
+    "title": "Random Recursive Trees and Preferential Attachment Trees are Random Split Trees",
+    "authors": [
+      "Svante Janson"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1017/S0963548318000226",
+    "url": "https://doi.org/10.1017/S0963548318000226",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1706.05487"
+    ],
+    "version": "arXiv:1706.05487v1 submitted 17 June 2017; complete author manuscript, 18 physical PDF pages. Published CPC 28(1) (2019), 81–99, DOI 10.1017/S0963548318000226.",
+    "reason": "Use the split-tree representation and its application to sum over pairs of nodes of their common ancestor counts.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "verified_against_Cambridge_DOI_route_arXiv_record_and_complete_PDF_front_matter",
+    "identity_status": "verified_title_author_version_physical_pages_and_sha256",
+    "local_pdf": "evidence/fulltexts/RT034.pdf",
+    "sha256": "83682982a65dfd22bd2005f76ff12e14d56bab954d9593253266dedc3f945808",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete arXiv author manuscript physical pp. 1–18, including both alternative proof appendices and references.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT034",
+    "source_kind_detail": "original research article",
+    "method_family": "split-tree representation and common-ancestor pair statistic",
+    "input_output_interface": "Input: linear preferential attachment/RRT growth; output: embedding as infinite-branching split tree and pair-common-ancestor expectation.",
+    "transfer_assumptions_and_limits": "Only the RRT/PAT law admits the shown split-tree construction. Critical Beta splitting requires its own exchangeable clade growth; this source may guide marked-pair decomposition, not assert equivalence.",
+    "target_role": "transferable_pair_method",
+    "legal_fulltext_route": {
+      "status": "open_arxiv_fulltext_confirmed",
+      "url": "https://arxiv.org/pdf/1706.05487",
+      "route_note": "Official arXiv author manuscript; CPC published version metadata."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 18,
+    "global_source_id": "PR-608ee87a4a99",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT035",
+    "title": "Functional limit theorems for multitype branching processes and generalized Pólya urns",
+    "authors": [
+      "Svante Janson"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.1016/j.spa.2003.12.002",
+    "url": "https://doi.org/10.1016/j.spa.2003.12.002",
+    "alternate_urls": [
+      "https://www2.math.uu.se/~svantejs/papers/sj154_2.pdf"
+    ],
+    "version": "Complete revised 68-physical-page author preprint sj154_2.pdf, distinct from superseded 59-page sj154.pdf; published SPA 110(2) (2004), 177–245. Local SHA-256 ef314184d671c6390dfbde7998146897dd575b23b8ac09a091e3c804397e6772.",
+    "reason": "Use continuous-time embedding and explicit covariance formulas when a tree’s growth state is an urn or multitype branching process.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "official_journal_DOI_author_publication_page_and_revised_local_fulltext_checked",
+    "identity_status": "verified_revised_version_title_author_citation_physical_count_and_sha256",
+    "local_pdf": "evidence/fulltexts/RT035.pdf",
+    "sha256": "ef314184d671c6390dfbde7998146897dd575b23b8ac09a091e3c804397e6772",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete revised author manuscript physical pp. 1–68, including all result sections, proofs, applications and references; superseded first version not counted as another work.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT035",
+    "source_kind_detail": "original research article",
+    "method_family": "Athreya–Karlin continuous-time multitype branching embedding; spectral/Jordan functional CLTs; urn stopping and covariance formulas",
+    "input_output_interface": "Input: finite-type activity-weighted urn/branching model, finite second moments and exact A1–A6 dominance/spectral/initial-state assumptions. Output: continuous-time spectral functional limits and, through the embedding or dummy-ball stopping transform, urn composition/draw-count limits; Gaussian √n covariance only when Re λ₂<λ₁/2, with separate critical and supercritical regimes.",
+    "transfer_assumptions_and_limits": "Preserve A orientation, A1 tenability, finite second moments, simple positive λ₁, initial dominating type, λ₁ in dominating class, conditioning on essential non-extinction, and b·v₁>0 for stopped versions. In the continuous-time embedding, a type-i ball has exponential lifetime with rate a_i; zero-activity types are inactive. Extensions beyond A1 are explicitly separate. No urn state or limit for fixed circular leaf separation is supplied.",
+    "target_role": "candidate_spectral_urn_CLT_and_covariance_interface",
+    "legal_fulltext_route": {
+      "status": "complete_revised_author_preprint_and_official_publication_metadata_verified",
+      "url": "https://www2.math.uu.se/~svantejs/papers/sj154_2.pdf",
+      "route_note": "The revised file is distinguished from the first version on the author page; full 68-page PDF was read."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "physical_pages": 68,
+    "global_source_id": "PR-d91e8fd53443",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "reader": "L11",
+    "reading_card": "evidence/W22/cards/RT035.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT035",
+    "source_helper_record": "evidence/W22/reader_batches/L11_B6/sourcepatch.json#RT035",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L11_B6/section_coverage.json#RT035",
+    "helper_card_sha256": "d3862189d923f9fff432f02efff15c31ae7f32869b3b003b6754f5d5d2d9d75f",
+    "mother_card_sha256": "512fa1fbc785f5247162bae9bc69273960201d8166652eef11a29d0553dd0bbf",
+    "read_role": "Finite-type activity-weighted urn/branching functional limits with A1-A6 and exact spectral/dominance gates; lifetime rate is a_i.",
+    "scope_warning": "Preserve A orientation, A1 tenability, finite second moments, simple positive λ₁, initial dominating type, λ₁ in dominating class, conditioning on essential non-extinction, and b·v₁>0 for stopped versions. In the continuous-time embedding, a type-i ball has exponential lifetime with rate a_i; zero-activity types are inactive. Extensions beyond A1 are explicitly separate. No urn state or limit for fixed circular leaf separation is supplied.",
+    "version_relation": "Complete revised 68-physical-page author preprint sj154_2.pdf, distinct from superseded 59-page sj154.pdf; published SPA 110(2) (2004), 177–245. Local SHA-256 ef314184d671c6390dfbde7998146897dd575b23b8ac09a091e3c804397e6772.",
+    "math_check_artifacts": [
+      "evidence/W22/checks/L11_B6/verify_examples.py",
+      "evidence/W22/checks/L11_B6/verify_examples.json",
+      "evidence/W22/checks/L11_B6/verify_moment_counter.py",
+      "evidence/W22/checks/L11_B6/verify_moment_counter.json"
+    ],
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT037",
+    "title": "Tree limits and limits of random trees",
+    "authors": [
+      "Svante Janson"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": "10.1017/S0963548321000055",
+    "url": "https://doi.org/10.1017/S0963548321000055",
+    "alternate_urls": [
+      "https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/tree-limits-and-limits-of-random-trees/79B2934A78D3B54A0077E178688FEE56",
+      "https://uu.diva-portal.org/smash/get/diva2%3A1641312/FULLTEXT01.pdf"
+    ],
+    "version": "Combinatorics, Probability and Computing 30(6) (2021), printed pp. 849-893; Cambridge open-access full article, 45 physical pages.",
+    "reason": "Use definitions and proof interfaces for local limits, fringe trees, and topology-dependent convergence of random finite trees.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "Cambridge_publisher_and_author_institution_fulltext_verified",
+    "identity_status": "verified_from_D01_handoff_and_local_SHA",
+    "local_pdf": "evidence/fulltexts/RT037.pdf",
+    "sha256": "1df6dc3e25962a9e4358c65edce2dfe5d9fd6796b9600870f4220b41bf1f5172",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete physical pp. 1–45; see linked complete page-map coverage for sections and visually checked pages.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT037",
+    "source_kind_detail": "paper",
+    "method_family": "metric-sampling tree limits, random tree compactness, GW/split/CMJ asymptotics",
+    "input_output_interface": "Input: measured random tree sequence, a specified sampling law and scaling; output: tree-limit characterization or class-specific twig/CRT limit under theorem hypotheses.",
+    "transfer_assumptions_and_limits": "Must prove the CTCS target has the same tree representation and sampling measure; no fixed circular-gap law or beta-specific covariance is proved.",
+    "target_role": "auxiliary_metric_tree_limit_criteria",
+    "legal_fulltext_route": {
+      "status": "publisher_open_access_route_confirmed",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/79B2934A78D3B54A0077E178688FEE56/S0963548321000055a.pdf/tree_limits_and_limits_of_random_trees.pdf",
+      "route_note": "Cambridge open PDF; complete paper."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "global_source_id": "PR-dc0d8daa980c",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage1_review_status": "passed",
+    "canonical_source_id": null,
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT037",
+    "card": "evidence/W22/cards/RT037.md",
+    "reading_card": "evidence/W22/cards/RT037.md",
+    "source_helper_record": "evidence/W22/reader_batches/L14_B7/sources_patch.json#RT037",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L14_B7/reading_coverage.json#RT037",
+    "helper_card_sha256": "6115aa045384b22d13c409ead8196c2e753e62f7afcd7231f1782729b670a8ae",
+    "mother_card_sha256": "4e958b250c2d9a7665d5adcbfba47a838d48e7574e37cd6ccff53fc88f355763",
+    "canonical_reconciliation": "No exact title/DOI match in catalogue/canonical_read_index.json; publisher PDF and institutional copy are one article, counted once.",
+    "read_role": "Input: measured random tree sequence, a specified sampling law and scaling; output: tree-limit characterization or class-specific twig/CRT limit under theorem hypotheses.",
+    "scope_warning": "Must prove the CTCS target has the same tree representation and sampling measure; no fixed circular-gap law or beta-specific covariance is proved.",
+    "math_check_artifacts": [
+      "evidence/W22/checks/L14_B7/finite_checks.py",
+      "evidence/W22/checks/L14_B7/finite_checks.txt"
+    ],
+    "mother_card_change": "Only mother ID/PDF/helper-pass/mother-pending prefix added; mathematical body unchanged.",
+    "physical_pages": 45,
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT038",
+    "title": "The size of random fragmentation trees",
+    "authors": [
+      "Svante Janson",
+      "Ralph Neininger"
+    ],
+    "year": 2008,
+    "kind": "paper",
+    "doi": "10.1007/s00440-007-0110-1",
+    "url": "https://doi.org/10.1007/s00440-007-0110-1",
+    "alternate_urls": [
+      "https://www.math.uni-frankfurt.de/~neiningr/fragmentation.pdf"
+    ],
+    "version": "Read complete author-hosted manuscript, 41 physical pages; published in Probability Theory and Related Fields 142(3–4) (2008), 399–442, DOI 10.1007/s00440-007-0110-1; also arXiv math/0609350. No page-equivalence claim.",
+    "reason": "Conditional normalized-recursion contraction proof only if target equation, coefficient contraction, moments, centering and small-subproblem hypotheses are verified.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "DOI citation checked against author publication list; local author-manuscript identity/hash/pages checked",
+    "identity_status": "verified_title_authors_manuscript_pages_hash",
+    "local_pdf": "evidence/fulltexts/RT038.pdf",
+    "sha256": "5f88a5adcafb9e9d1089a9dd4c732b815644e572e6aa19c83a91935b7fe5c2fd",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete author manuscript physical pp. 1–41, §§1–9 and references; rendered phase, variance, contraction and example pages recorded in status.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT038",
+    "source_kind_detail": "original research article",
+    "method_family": "Continuous conservative fragmentation renewal and contraction phase transition",
+    "input_output_interface": "Input: fixed-b conservative mass split vector on simplex, threshold count and exact recursive distributional equation. Output: root-dependent Gaussian or log-periodic limits and conditional contraction method.",
+    "transfer_assumptions_and_limits": "Paper explicitly leaves rigorous transfer to discrete split trees open. It proves neither critical Beta clade results nor fixed circular leaf-separation pair laws.",
+    "target_role": "auxiliary_conditional_contraction_template",
+    "legal_fulltext_route": {
+      "status": "author_hosted_complete_fulltext_identity_verified",
+      "url": "https://www.math.uni-frankfurt.de/~neiningr/fragmentation.pdf",
+      "route_note": "D01 author manuscript reused; author publication list confirms citation."
+    },
+    "global_dedupe": {
+      "status": "One work across manuscript/arXiv/journal lineage; no accepted canonical full-read entry at preflight."
+    },
+    "global_source_id": "PR-35d3980c5d6e",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage2_review_status": "passed",
+    "physical_pages": 41,
+    "reading_card": "evidence/W22/cards/RT038.md",
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT038",
+    "source_helper_record": "evidence/W22/reader_batches/L12_B5/sourcepatch.json#RT038",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L12_B5/section_coverage.json#RT038",
+    "reviewed_helper_card_sha256": "e0342cd2bda855f8f3a2cd0110cf408def265bbfe31fcc55879d5c23ecd711da",
+    "helper_reader": "L12",
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  },
+  {
+    "local_id": "RT042",
+    "title": "Recursive functions on conditional Galton-Watson trees",
+    "authors": [
+      "Nicolas Broutin",
+      "Luc Devroye",
+      "Nicolas Fraiman"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1002/rsa.20921",
+    "url": "https://doi.org/10.1002/rsa.20921",
+    "alternate_urls": [
+      "https://arxiv.org/abs/1805.09425",
+      "https://arxiv.org/pdf/1805.09425",
+      "https://fraiman.web.unc.edu/wp-content/uploads/sites/12620/2018/06/recursive.pdf"
+    ],
+    "version": "Complete arXiv:1805.09425v4, first-page date 2020-03-23, 13 physical pages; journal version RSA 57 (2020), 304-316. Same work, no page-identity claim.",
+    "reason": "Use recursion-at-root framework for state-valued tolls and random leaf labels, with conditions for limit behavior.",
+    "topics": [
+      "A127"
+    ],
+    "metadata_status": "Wiley_DOI_and_official_arXiv_metadata_verified",
+    "identity_status": "verified_from_D01_handoff_and_local_SHA",
+    "local_pdf": "evidence/fulltexts/RT042.pdf",
+    "sha256": "5a352d6a5ec7962931caa12a0cdfa67952c102f0c25f2e0826be4420cf3fbb46",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete physical pp. 1–13; see linked complete page-map coverage for sections and visually checked pages.",
+    "review_status": "passed_for_immutable_R02_scope",
+    "source_pool_id": "RT042",
+    "source_kind_detail": "paper",
+    "method_family": "coalescent spine-chain limits for finite-state recursive functions on conditioned GW trees",
+    "input_output_interface": "Input: critical finite-variance conditioned GW tree and finite-state node update whose common-noise spine chain coalesces; output: stationary Kesten-spine law and conditioned-root limit.",
+    "transfer_assumptions_and_limits": "No GW representation or finite-state recursive update for CTCS/A127 established. Source-internal edge/vertex path-length convention mismatch is isolated in card; Theorem 2 remains a separate claim.",
+    "target_role": "auxiliary_finite_state_recursive_function_limit",
+    "legal_fulltext_route": {
+      "status": "open_arxiv_fulltext_confirmed",
+      "url": "https://arxiv.org/pdf/1805.09425",
+      "route_note": "Official arXiv author manuscript; journal metadata."
+    },
+    "global_dedupe": {
+      "status": "no_exact_title_or_doi_match_in_master_or_canonical_read_index"
+    },
+    "global_source_id": "PR-d5a981a62a54",
+    "mother_review_status": "accepted_by_R02_W22-mirror30",
+    "helper_stage1_review_status": "passed",
+    "canonical_source_id": null,
+    "section_coverage_file": "evidence/W22/reading_coverage.json#RT042",
+    "card": "evidence/W22/cards/RT042.md",
+    "reading_card": "evidence/W22/cards/RT042.md",
+    "source_helper_record": "evidence/W22/reader_batches/L14_B7/sources_patch.json#RT042",
+    "helper_section_coverage_file": "evidence/W22/reader_batches/L14_B7/reading_coverage.json#RT042",
+    "helper_card_sha256": "09091910377878fa0d023d72ab470f59d85e220537e0a4c062dc8a58591587a7",
+    "mother_card_sha256": "4762f5f3f9ffb93bd1561c27bee62ba2999d1883d372f1af8d21587b9f7b65cb",
+    "canonical_reconciliation": "No exact title/DOI match in catalogue/canonical_read_index.json; arXiv v4 and journal publication are versions of one work, counted once.",
+    "read_role": "Input: critical finite-variance conditioned GW tree and finite-state node update whose common-noise spine chain coalesces; output: stationary Kesten-spine law and conditioned-root limit.",
+    "scope_warning": "No GW representation or finite-state recursive update for CTCS/A127 established. Source-internal edge/vertex path-length convention mismatch is isolated in card; Theorem 2 remains a separate claim.",
+    "math_check_artifacts": [
+      "evidence/W22/checks/L14_B7/finite_checks.py",
+      "evidence/W22/checks/L14_B7/finite_checks.txt"
+    ],
+    "mother_card_change": "Only mother ID/PDF/helper-pass/mother-pending prefix added; mathematical body unchanged.",
+    "physical_pages": 13,
+    "historical_status_before_R02_W22_mirror30": {
+      "review_status": "pending",
+      "mother_review_status": "pending"
+    },
+    "source_binding_manifest": "evidence/W22/review_scope/source_decisions.json",
+    "source_binding_sha256": "9b88b032d97f597daf89e0d42c15f31a7c7d62c192ef3cb5ad347321e5fbe043",
+    "final_release_status": "pending_final_portable_hash_and_approval",
+    "qualifies_for_tool_source_count": true,
+    "review_scope": "immutable_W22_final"
+  }
+]

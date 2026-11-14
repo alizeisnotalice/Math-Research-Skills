@@ -1,0 +1,406 @@
+{
+  "worker": "W13",
+  "tool": "probability-prophet-online-selection",
+  "reader": "W13",
+  "status": "minimum_fulltext_target_met_pending_independent_review",
+  "as_of": "2026-11-14",
+  "assigned_source_range": {
+    "first": "M0034",
+    "last": "M0090",
+    "original_rows": 57
+  },
+  "supplementary_rows": 19,
+  "source_inventory_count": 76,
+  "selected_for_skill_count": 54,
+  "selected_kind_counts": {
+    "paper": 52,
+    "book": 2
+  },
+  "assigned_kind_counts": {
+    "paper": 39,
+    "book": 13,
+    "software": 5
+  },
+  "local_pdf_path_record_count": 51,
+  "local_pdf_valid_header_count": 51,
+  "local_pdf_sha256_matches": 51,
+  "reading_status_counts": {
+    "fulltext_read": 30,
+    "not_read": 25,
+    "pdf_acquired_not_yet_read": 15,
+    "partial_read": 5,
+    "selected_chapters_read": 1
+  },
+  "deep_partial_cards": [
+    "M0054",
+    "M0065"
+  ],
+  "proof_cards_written_count": 34,
+  "fulltext_read_count": 30,
+  "selected_chapters_read_count": 1,
+  "selected_chapters_read": [
+    {
+      "source_local_id": "M0073",
+      "units": [
+        "Chapter 1, physical PDF pp. 1–8, complete",
+        "Chapter 3, physical PDF pp. 24–36, complete"
+      ],
+      "source_pdf": "evidence/fulltexts/M0073.pdf",
+      "source_sha256": "d4c0c58ed653e69069068673f119cfe309b8eb7acb38bcf9526ba4d539cf3434",
+      "complete_book_acquired": true
+    }
+  ],
+  "front_page_only_read_count": 3,
+  "review_status": "All W13 source review_status fields remain pending. L09 batch1 reading evidence separately passed R07; batches 2 and 3 await R07. Do not promote source review fields.",
+  "key_open_interfaces": [
+    "A001: k>1 IID inf_n ratio versus n-limit remains open; M0037 proves equality only for k=1, and M0038 provides an asymptotic lower bound with a finite-n loss.",
+    "A002: M0062 proves the static threshold utilization calibration, while stockout calibration remains an explicit conjecture for k>1.",
+    "A005: M0060 unit-density online guarantee is numerically reported as 0.3557 against UP(H), with upper bound (1−e^(−2))/2≈0.4323; the gap remains open.",
+    "Benchmark interfaces: M0060 OCRS guarantees are LP-relative and model-specific; do not replace UP(H) with the integral offline knapsack value or transfer to almighty/adaptive order adversaries.",
+    "B058: S019 Corollary 6.5 gives O(log r log n/log log n) for general monotone norms, while §7 leaves the O(log r) factor over Ω(log n/log log n) open; the cited lower-bound proof was not read in this partial pass."
+  ],
+  "resolved_update": "B052 is characterized optimally for all f≥0 by current arXiv v3 (revised 2026-10-12), including 0<f<1 via an implicit ODE; no global elementary closed form is claimed.",
+  "remaining_work": [
+    "Minimum reading target met: 30 fulltext_read source records plus one complete-book selected-chapter reading unit. The broader curated set contains 54 selected_for_skill records, many still unread or partial.",
+    "Read remaining assigned primary sources and supplements; use current PDF routes and record exact theorem locations/assumptions.",
+    "Route integrated L09 batch 2 and batch 3 cards to R07; preserve all source review_status fields as pending until independent review is recorded.",
+    "B058 S019 remains a selected-page partial read; continue only if needed and preserve its partial status."
+  ],
+  "numeric_evidence": {
+    "artifact": "evidence/W13/math_check_poisson_threshold_constants.py",
+    "output": "evidence/W13/math_check_poisson_threshold_constants.out",
+    "scope": "Python standard-library Fraction check: exact rational coefficients in E[UT_k(Pois(k))] and E[AR_k(Pois(k))] match 1−P(Pois(k)=k) for k=1,…,20; additionally numerical evaluation of the M0060 constants. Finite-k algebra checks and decimal evaluations only; not a proof for all k.",
+    "additional_prior_artifact": {
+      "artifact": "evidence/W13/numeric_probe_a002.py",
+      "output": "evidence/W13/numeric_probe_a002.out",
+      "scope": "Exhaustive finite-outcome sums for generated {0,1,H} distributions, evaluated in floating point; tie-probability bisection is numerical. No counterexample in 1,191 feasible instances (k=1; min ratio 0.645871), 644 (k=2; 0.793117), or 13 (k=3; 0.912443). Restricted family and limited random search; not an exact-rational certificate or proof."
+    },
+    "additional_batch_artifact": {
+      "artifact": "evidence/W13/math_check_s001_s006_identities.py",
+      "output": "evidence/W13/math_check_s001_s006_identities.out",
+      "scope": "Python standard-library floating-point evaluation sampled the S001 threshold identity at 11 points, computed S006 Theorem 4.2 explicit alpha values for L=2,…,8, and compared Simpson quadrature to the elementary exponential integral for L=2,3,5. It is numerical sanity evidence only; source assumptions and proofs were independently read and page-checked."
+    },
+    "additional_terminal_correction_check": {
+      "artifact": "evidence/W13/math_check_terminal_corrections.py",
+      "output": "evidence/W13/math_check_terminal_corrections.out",
+      "scope": "Exact Fraction arithmetic verifies M0048 Remark 3.2 ratio/gap at beta=1/10 and the algebraic limit identity, plus one finite atomic tie example whose effective-count PMF equals the independent Bernoulli convolution. This checks examples/identities only, not a universal prophet theorem."
+    }
+  },
+  "downloads_handoff": "downloads/D01/handoff.json (M0037 and M0057 reused with W13 as reader/source owner)",
+  "card_files": [
+    "M0034",
+    "M0036",
+    "M0037",
+    "M0038",
+    "M0041",
+    "M0042",
+    "M0046",
+    "M0047",
+    "M0048",
+    "M0049",
+    "M0050",
+    "M0051",
+    "M0054",
+    "M0060",
+    "M0062",
+    "M0065",
+    "M0073",
+    "S001",
+    "S002",
+    "S003",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "S016",
+    "S017",
+    "S018",
+    "S019"
+  ],
+  "first_batch_status": "Minimum target reached: 30 source records are fulltext_read and M0073 was acquired as a complete 155-page book with Chapters 1 and 3 read as complete selected units. Five L09 batch-1 reading records passed R07 evidence review (metadata unchecked); L09 batches 2 and 3 are integrated and await review; all source review_status fields remain pending.",
+  "recent_fulltext_batch": {
+    "completed": [
+      "M0036",
+      "M0037",
+      "M0038",
+      "M0060",
+      "M0062"
+    ],
+    "readers": "W13",
+    "read_pages": {
+      "M0036": "1–27 physical PDF pages, inclusive",
+      "M0037": "1–59 physical PDF pages, inclusive",
+      "M0038": "1–39 physical PDF pages, inclusive",
+      "M0060": "1–66 physical PDF pages, inclusive",
+      "M0062": "1–46 physical PDF pages, inclusive"
+    },
+    "theorem_page_renders_viewed": {
+      "M0036": "PDF pp. 12, 14 (printed pp. 1463, 1465)",
+      "M0037": "PDF p. 31",
+      "M0038": "PDF pp. 3–4",
+      "M0060": "PDF pp. 20, 30, 66",
+      "M0062": "PDF pp. 5, 8, 17, 24"
+    },
+    "review_status": "pending",
+    "additional_partial": {
+      "S019": "PDF pp. 1–2, 4, 13–15, 38–39, 45–47; formal120 B058 mapping; full source remains unread outside those pages."
+    }
+  },
+  "recent_supplemental_fulltext_batch": {
+    "completed": [
+      "S001",
+      "S002",
+      "S003",
+      "S005",
+      "S006"
+    ],
+    "readers": "W13",
+    "read_pages": {
+      "S001": "1–16 physical PDF pages, inclusive",
+      "S002": "1–44 physical PDF pages, inclusive",
+      "S003": "1–84 physical PDF pages, inclusive",
+      "S005": "1–28 physical PDF pages, inclusive",
+      "S006": "1–67 physical PDF pages, inclusive"
+    },
+    "theorem_page_renders_viewed": {
+      "S002": "PDF p. 4",
+      "S003": "PDF pp. 10, 14",
+      "S005": "PDF pp. 6, 8, 18",
+      "S006": "PDF pp. 27, 30, 34–35"
+    },
+    "review_status": "pending",
+    "math_validation": "evidence/W13/math_check_s001_s006_identities.py and .out; symbolic/calculus identity and numerical formula checks only, separate from source proofs",
+    "render_artifacts": [
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S002-p04.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S003-p10.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S003-p14.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S005-p06.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S005-p08.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S005-p18.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S006-p27.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S006-p30.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/S006-p35.png"
+    ]
+  },
+  "full_book_acquisition_update": {
+    "source_local_id": "M0073",
+    "complete_book_acquired": true,
+    "pages": 155,
+    "sha256": "d4c0c58ed653e69069068673f119cfe309b8eb7acb38bcf9526ba4d539cf3434",
+    "component_manifest": "downloads/D01/M0073-book-components.json",
+    "reader": "W13",
+    "read_scope": [
+      "Chapter 1, physical PDF pp. 1–8",
+      "Chapter 3, physical PDF pp. 24–36"
+    ],
+    "unread_scope": "Chapters 2 and 4–7, Solutions, References, Index",
+    "render_artifacts": [
+      "evidence/W13/reader_batches/W13_batch_current/rendered/M0073-p01.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/M0073-p08.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/M0073-p24.png",
+      "evidence/W13/reader_batches/W13_batch_current/rendered/M0073-p36.png"
+    ]
+  },
+  "recent_L09_batch1_integration": {
+    "sources": [
+      "S007",
+      "S008",
+      "S010",
+      "S011",
+      "S012"
+    ],
+    "reader": "L09",
+    "integrated_by": "W13",
+    "physical_pages_total": 143,
+    "reviewer": "R07",
+    "reading_evidence_decision": "passed for all five",
+    "source_review_status_fields": "pending",
+    "review_manifest": "reviews/R07/L09_batch1_hash_manifest.json",
+    "integration_note": "evidence/W13/integration_notes_L09_batch1.md",
+    "nonblocking_edits": {
+      "S007": "Clarifies that an expected-value atom contribution is value times atom probability mass, not mass alone.",
+      "S011": "Corrects Theorem 5.9 to Corollary 5.9."
+    },
+    "batch_evidence_preserved": "evidence/W13/reader_batches/L09_batch1/",
+    "review_manifest_hashes_verified": true
+  },
+  "recent_D01_batch4": {
+    "identity_routed_sources": [
+      "M0034",
+      "M0041",
+      "M0042",
+      "M0046",
+      "M0047",
+      "M0048",
+      "M0049",
+      "M0050",
+      "M0051"
+    ],
+    "fulltext_read": [
+      "M0034",
+      "M0041",
+      "M0042",
+      "M0046",
+      "M0047",
+      "M0048",
+      "M0049",
+      "M0050",
+      "M0051"
+    ],
+    "acquired_unread": [],
+    "read_pages": {
+      "M0034": "1–10",
+      "M0046": "1–17",
+      "M0048": "1–8",
+      "M0049": "1–18",
+      "M0050": "1–32",
+      "M0041": "1–6",
+      "M0042": "1–33",
+      "M0047": "1–8",
+      "M0051": "1–34"
+    },
+    "reader": "W13",
+    "source_pdf_identity": "downloads/D01/identity.json; all routed hashes/header/page counts verified",
+    "render_artifacts": [
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0034-p02.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0034-p06.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0034-p08.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0046-p02.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0046-p08.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0046-p13.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0048-p05.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0048-p07.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0049-p07.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0049-p08.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0049-p11.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0050-p08.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0050-p17.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0050-p24.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0050-p29.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0050-p30.png",
+      "evidence/W13/reader_batches/D01_batch4/rendered/M0050-p32.png",
+      "evidence/W13/reader_batches/terminal_audit/rendered/M0048-p08.png"
+    ],
+    "pages_viewed": [
+      "M0034 p02",
+      "M0034 p06",
+      "M0034 p08",
+      "M0046 p02",
+      "M0046 p08",
+      "M0046 p13",
+      "M0048 p05",
+      "M0048 p07",
+      "M0049 p07",
+      "M0049 p08",
+      "M0049 p11",
+      "M0050 p08",
+      "M0050 p17",
+      "M0050 p24",
+      "M0050 p29",
+      "M0050 p30",
+      "M0050 p32",
+      "M0048 p08"
+    ],
+    "math_evidence": {
+      "script": "evidence/W13/math_check_d01_batch4.py",
+      "output": "evidence/W13/math_check_d01_batch4.out",
+      "scope": "exact finite M0048 n=3 Bernoulli check; exact M0049 factor identity; numerical M0034 n=2 root residual; no universal proof"
+    },
+    "review_status": "pending; full-text reading complete for all nine routed article sources, with source review fields pending.",
+    "integration_note": "evidence/W13/integration_notes_D01_batch4.md"
+  },
+  "recent_L09_batch2_integration": {
+    "sources": [
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "reader": "L09",
+    "integrated_by": "W13",
+    "fulltext_pages_total": 216,
+    "page_counts": {
+      "S013": 23,
+      "S014": 28,
+      "S015": 46,
+      "S016": 89,
+      "S017": 30
+    },
+    "review_status": "pending for all five; no R07 pass recorded",
+    "critical_scope_notes": [
+      "S013 concentration bound uses down-scaled Bernoulli input.",
+      "S014 fixed-order and random-order ex-ante matchoid guarantees are distinct; batch extension assumes independent batches and at most one active element per batch.",
+      "S015 benchmark is average of top ell values; dynamic multi-choice result is one-sided asymptotic.",
+      "S016 Algorithm 2 accepts addable active element only with probability rho_e/x_e.",
+      "S017 2/3 is relative to philosopher; 1/2 is relative to prophet."
+    ],
+    "source_artifacts": "evidence/W13/reader_batches/L09_batch2/",
+    "review_status_fields": "pending",
+    "integration_note": "evidence/W13/integration_notes_L09_batch2.md"
+  },
+  "recent_L09_batch3_integration": {
+    "sources": [
+      "M0041",
+      "M0042",
+      "M0047",
+      "M0051",
+      "S018"
+    ],
+    "reader": "L09",
+    "integrated_by": "W13",
+    "physical_pages_total": 108,
+    "page_counts": {
+      "M0041": 6,
+      "M0042": 33,
+      "M0047": 8,
+      "M0051": 34,
+      "S018": 27
+    },
+    "source_hashes_verified": {
+      "M0041": {
+        "sha256": "8a00346086b977c8ff211b9c3c406147078fb8e464471fa23b4be5eb97836ad9",
+        "pdf_pages": 6
+      },
+      "M0042": {
+        "sha256": "198536c337b7b561c01b9ddae6b15bc051cb03d779ae0df7d5e0f2f7aff361c6",
+        "pdf_pages": 33
+      },
+      "M0047": {
+        "sha256": "a33b39886e4009de3df10df78aa3ea098e14cd538ac7c5245418f10074dcf78f",
+        "pdf_pages": 8
+      },
+      "M0051": {
+        "sha256": "15311c9faf443bac56611570af8096d3b8bd261248fe6ac819a4e028e11b37c4",
+        "pdf_pages": 34
+      },
+      "S018": {
+        "sha256": "4f7b40f4477bc8fb72a09d37c935a2e771806b454041a64085e4548941b19967",
+        "pdf_pages": 27
+      }
+    },
+    "full_consecutive_page_read_ranges_verified": true,
+    "review_status_fields": "pending for all five; independent R07 review pending",
+    "source_artifacts": "evidence/W13/reader_batches/L09_batch3/",
+    "integration_note": "evidence/W13/integration_notes_L09_batch3.md"
+  },
+  "terminal_review_corrections": {
+    "M0048": "Remark 3.2 corrected to impossibility direction at physical PDF p.8/printed p.1091; it rules out a uniform guarantee strictly above 4/5 and gives no 4/5 algorithm.",
+    "M0051": "Theorem 6 strict threshold equation scoped to footnote 11 no-point-masses assumption; source only says slight modifications for atoms.",
+    "M0062": "Utilization, expected-demand, and stockout calibrations consistently use effective tie count D_t,p; strict D_t only in atom-free or p=0 case.",
+    "M0042": "Added missing title/author/abstract coverage for physical p.1.",
+    "review_status": "All W13 source review fields remain pending; R07 review artifacts were not edited."
+  },
+  "terminal_audit_render_artifacts": [
+    "evidence/W13/reader_batches/terminal_audit/rendered/M0042-p01.png",
+    "evidence/W13/reader_batches/terminal_audit/rendered/M0062-p05.png",
+    "evidence/W13/reader_batches/terminal_audit/rendered/M0062-p08.png",
+    "evidence/W13/reader_batches/L09_batch3/rendered/M0051-p10.png"
+  ]
+}

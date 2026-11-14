@@ -1,0 +1,1892 @@
+[
+  {
+    "local_id": "W06-001",
+    "title": "50 Years of First-Passage Percolation",
+    "authors": [
+      "Antonio Auffinger",
+      "Michael Damron",
+      "Jack Hanson"
+    ],
+    "year": 2016,
+    "kind": "book",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1511.03262",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1511.03262"
+    ],
+    "version": null,
+    "reason": "Survey/monograph: exact hypotheses, known results, and the archived open questions; selected chapters read.",
+    "topics": [
+      "C081",
+      "C084",
+      "C087",
+      "C088",
+      "C089",
+      "C090",
+      "C091",
+      "C092",
+      "C093",
+      "C097",
+      "C098",
+      "C099",
+      "C100",
+      "C101",
+      "C102"
+    ],
+    "metadata_status": "source identity cross-checked on title page; publication metadata pending",
+    "identity_status": "title-page match; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-001.pdf",
+    "sha256": "89ab8416bc42814c3d529475ad7e5608a7c67ba368fcf7c6192c54eb82bf424d",
+    "reading_status": "selected_sections_read",
+    "read_pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-001",
+    "read_units": [
+      {
+        "unit": "§§2.1–2.3",
+        "physical_pdf_pages": [
+          8,
+          19
+        ],
+        "complete": true,
+        "coverage_note": "Defines passage-time and time-constant setup, establishes the norm/shape framework and states foundational limit-shape results used by later FPP arguments."
+      },
+      {
+        "unit": "§3.3 selected proof discussion",
+        "physical_pdf_pages": [
+          34,
+          45
+        ],
+        "complete": false,
+        "coverage_note": "Read the stated argument and model discussion through p.45; the subsection continues onto p.46, which was not read, so no complete-subsection claim is made."
+      },
+      {
+        "unit": "§§3.6–3.7",
+        "physical_pdf_pages": [
+          65,
+          72
+        ],
+        "complete": true,
+        "coverage_note": "Surveys large-deviation and fluctuation estimates, separating assumptions for upper/lower tails and recording the limits of existing bounds."
+      },
+      {
+        "unit": "§4.1",
+        "physical_pdf_pages": [
+          73,
+          77
+        ],
+        "complete": true,
+        "coverage_note": "Introduces the geodesic framework and uniqueness/direction questions used in planar FPP."
+      },
+      {
+        "unit": "§§4.4–4.5",
+        "physical_pdf_pages": [
+          90,
+          106
+        ],
+        "complete": true,
+        "coverage_note": "Develops directional geodesic and coalescence results, with differentiability/uniqueness hypotheses tracked separately from conjectural behavior."
+      },
+      {
+        "unit": "Chapter 5, §§5.1–5.6",
+        "physical_pdf_pages": [
+          107,
+          127
+        ],
+        "complete": true,
+        "coverage_note": "Introduces Busemann limits, their existence mechanisms and uses for infinite geodesics and directional structure."
+      },
+      {
+        "unit": "Chapter 6, §§6.1–6.5",
+        "physical_pdf_pages": [
+          128,
+          137
+        ],
+        "complete": true,
+        "coverage_note": "Treats Eden/Richardson growth and competing growth, including the growth rule and its relation to passage-time models."
+      },
+      {
+        "unit": "§7.1",
+        "physical_pdf_pages": [
+          138,
+          145
+        ],
+        "complete": true,
+        "coverage_note": "Sets up max-flow/min-cut formulations and the principal flow asymptotics discussed in the survey."
+      },
+      {
+        "unit": "Open problems",
+        "physical_pdf_pages": [
+          146,
+          148
+        ],
+        "complete": true,
+        "coverage_note": "Checked the survey’s open-question statements relevant to archived FPP, geodesic and growth problems."
+      },
+      {
+        "unit": "References",
+        "physical_pdf_pages": [
+          149,
+          160
+        ],
+        "complete": true,
+        "coverage_note": "Read for source tracing and to distinguish cited theorems from the survey’s own discussion."
+      }
+    ],
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-001"
+  },
+  {
+    "local_id": "W06-002",
+    "title": "Coexistence for Richardson Type Competing Spatial Growth Models",
+    "authors": [
+      "Christopher Hoffman"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/math/0405377",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/math/0405377"
+    ],
+    "version": null,
+    "reason": "Primary coexistence theorem and a precise exceptional-parameter/monotonicity boundary for growth models.",
+    "topics": [
+      "C101",
+      "C102"
+    ],
+    "metadata_status": "source identity cross-checked on title page; publication metadata pending",
+    "identity_status": "title-page match; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-002.pdf",
+    "sha256": "cc8ad6c9d34a53053b8e52a6c215f105ff8bb621d012e90c45343f36e5c4abc2",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-002",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-002"
+  },
+  {
+    "local_id": "W06-003",
+    "title": "First Passage Percolation Has Sublinear Distance Variance",
+    "authors": [
+      "Itai Benjamini",
+      "Gil Kalai",
+      "Oded Schramm"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/math/0203262",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/math/0203262"
+    ],
+    "version": null,
+    "reason": "Primary two-point product-space variance bound; assumptions delimit what later general-distribution results need.",
+    "topics": [
+      "C087",
+      "C089",
+      "C090"
+    ],
+    "metadata_status": "source identity cross-checked on title page; publication metadata pending",
+    "identity_status": "title-page match; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-003.pdf",
+    "sha256": "ced62f244e34547f2a79ef15a87f10fb6f49d9c76b8f0dafb5384f32a4e09724",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-003",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-003"
+  },
+  {
+    "local_id": "W06-004",
+    "title": "Multiple Geodesics with the Same Direction",
+    "authors": [
+      "David Coupier"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1104.1321",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1104.1321"
+    ],
+    "version": null,
+    "reason": "Directed exponential LPP comparison source for direction quantifiers; not undirected FPP.",
+    "topics": [
+      "C097",
+      "C098"
+    ],
+    "metadata_status": "source identity cross-checked on title page; publication metadata pending",
+    "identity_status": "title-page match; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-004.pdf",
+    "sha256": "0c1a2e2065973d19ff5c0a4a3b1a5c7696bc9ceb6f9e613289ae8e368ae382b1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-004",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-004"
+  },
+  {
+    "local_id": "W06-005",
+    "title": "Speed of Convergence in First Passage Percolation and Geodesicity of the Average Distance",
+    "authors": [
+      "Romain Tessera"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1410.1701",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1410.1701"
+    ],
+    "version": null,
+    "reason": "Quantitative limit shape under exponential moments and positive mean-distance assumptions.",
+    "topics": [
+      "C081"
+    ],
+    "metadata_status": "source identity cross-checked on title page; publication metadata pending",
+    "identity_status": "title-page match; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-005.pdf",
+    "sha256": "7cb52bd065526d549e50ce673ea5581d65d44aa3fb7494d1eb08e93bd13be87c",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-005",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-005"
+  },
+  {
+    "local_id": "W06-006",
+    "title": "Asymptotics for 2D Critical First Passage Percolation",
+    "authors": [
+      "Michael Damron",
+      "Wai-Kit Lam",
+      "Xuan Wang"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1505.07544",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1505.07544"
+    ],
+    "version": null,
+    "reason": "Planar critical-FPP comparison: verifies which invasion/RSW results are specifically two-dimensional and cannot settle the 3D archive question.",
+    "topics": [
+      "C091"
+    ],
+    "metadata_status": "source identity cross-checked on title page; publication metadata pending",
+    "identity_status": "title-page match; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-006.pdf",
+    "sha256": "07eb0023eebf9703521af8ce160a256c41f18c2c7a78b5a9e90729fdd16e27d6",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-006",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-006"
+  },
+  {
+    "local_id": "W06-007",
+    "title": "Construction of a Short Path in High-Dimensional First Passage Percolation",
+    "authors": [
+      "Olivier Couronné",
+      "Nathanaël Enriquez",
+      "Lucas Gerin"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.1214/ECP.v16-1595",
+    "url": "https://arxiv.org/abs/1008.5069",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1008.5069",
+      "https://doi.org/10.1214/ECP.v16-1595"
+    ],
+    "version": "arXiv:1008.5069v2, revised 2011-02-23",
+    "reason": "High-dimensional exponential-FPP time bounds and a d≥35 Eden-shape counterexample.",
+    "topics": [
+      "C100"
+    ],
+    "metadata_status": "Official arXiv record confirms title, authors, v2 date and ECP 16 (2011), 22–28 journal reference; DOI verified against record",
+    "identity_status": "Local title page/arXiv identifier matched official arXiv record; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-007.pdf",
+    "sha256": "81fcf21128b77f7eb2bd39b8d3c34cad235891b509f6703233634fbc9a77cfce",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-007",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-007"
+  },
+  {
+    "local_id": "W06-008",
+    "title": "Dimension Improvement in Dhar's Refutation of the Eden Conjecture",
+    "authors": [
+      "Quentin Bertrand",
+      "Jules Pertinand"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": "10.1016/j.physleta.2018.01.025",
+    "url": "https://arxiv.org/abs/1705.08143",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1705.08143",
+      "https://doi.org/10.1016/j.physleta.2018.01.025"
+    ],
+    "version": "arXiv:1705.08143v2, revised 2018-01-31",
+    "reason": "Computer-assisted finite recursion improves the first non-Euclidean Eden dimension to 22; it leaves the low-dimensional universal claim open.",
+    "topics": [
+      "C100"
+    ],
+    "metadata_status": "Official arXiv record confirms title, authors, v2 date and related DOI 10.1016/j.physleta.2018.01.025; journal venue metadata not independently confirmed",
+    "identity_status": "Local title page/arXiv identifier matched official arXiv record; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-008.pdf",
+    "sha256": "bf6e56f65c7a614ee5c307bc3cfc78f816eb798655a0bbe992d720d8cd2d05f5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-008",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-008"
+  },
+  {
+    "local_id": "W06-009",
+    "title": "Inhomogeneous First-Passage Percolation",
+    "authors": [
+      "Daniel Ahlberg",
+      "Michael Damron",
+      "Vladas Sidoravicius"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1311.4058",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1311.4058"
+    ],
+    "version": "arXiv:1311.4058v1 (submitted 2013-11-16; 25 pp.). The local title page also says “October 18, 2018”; chronology/version discrepancy retained.",
+    "reason": "Auxiliary shape theorem for two half-plane weight laws; contrasts the homogeneous i.i.d. questions.",
+    "topics": [
+      "C081",
+      "C084"
+    ],
+    "metadata_status": "Official arXiv record confirms title, authors, v1 submission date, and 25-page length; local title-page date differs and publication metadata is not established.",
+    "identity_status": "Local PDF title/header/authors and 25-page count match arXiv:1311.4058v1; title-page date “October 18, 2018” conflicts with the 2013 submission chronology and remains unresolved.",
+    "local_pdf": "evidence/fulltexts/W06-009.pdf",
+    "sha256": "df99825219f142a6aff59b73e007de8ed5b426c050d2388e740f3812e39b1790",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-009",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-009"
+  },
+  {
+    "local_id": "W06-010",
+    "title": "Negative Correlation of Adjacent Busemann Increments",
+    "authors": [
+      "Ian Alevy",
+      "Arjun Krishnan"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2102.06337",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2102.06337"
+    ],
+    "version": "arXiv:2102.06337v2 (revised 2021-03-12)",
+    "reason": "Directed LPP only; candidate correlation technique, not an undirected-FPP theorem.",
+    "topics": [
+      "C097",
+      "C098"
+    ],
+    "metadata_status": "Official arXiv record checked for title, authors, date/version and page-count/abstract; journal/publication metadata not verified",
+    "identity_status": "Local PDF title/author/arXiv version matched official arXiv record; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-010.pdf",
+    "sha256": "c0cf564821b58361d3ffb830353394659fadf4c922ca8a5fb9097d861a336c31",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–22 (entire text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-010",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-010"
+  },
+  {
+    "local_id": "W06-011",
+    "title": "Differentiability at the Edge of the Percolation Cone and Related Results in First-Passage Percolation",
+    "authors": [
+      "Antonio Auffinger",
+      "Michael Damron"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": "10.1007/s00440-012-0425-4",
+    "url": "https://arxiv.org/abs/1105.4172",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1105.4172"
+    ],
+    "version": "arXiv:1105.4172v2 (2012-02-28; 32 pp.); journal PTRF 156 (2013), 193–227",
+    "reason": "Planar percolation-cone endpoint differentiability under an atom-at-minimum/oriented-percolation hypothesis.",
+    "topics": [
+      "C084"
+    ],
+    "metadata_status": "Matched against official arXiv v2 record and journal citation/DOI; pending independent review",
+    "identity_status": "Local PDF title/authors/version and 32-page count matched to official arXiv PDF; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-011.pdf",
+    "sha256": "aa0b2cd695d1f46f4982307bf25fab80ea147ffb2938509a1477fc2d45964735",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-011",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-011"
+  },
+  {
+    "local_id": "W06-012",
+    "title": "Limiting Geodesics for First-Passage Percolation on Subsets of Z^2",
+    "authors": [
+      "Antonio Auffinger",
+      "Michael Damron",
+      "Jack Hanson"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1214/13-AAP999",
+    "url": "https://arxiv.org/abs/1302.5413",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1302.5413",
+      "https://doi.org/10.1214/13-AAP999"
+    ],
+    "version": "arXiv:1302.5413v2 (last revised 2015-01-23; 34-page local reprint); Annals of Applied Probability 25(1) (2015), 373–405, DOI 10.1214/13-AAP999.",
+    "reason": "Directional limiting geodesics on planar subgraphs; hypotheses and domain boundaries matter.",
+    "topics": [
+      "C093",
+      "C097"
+    ],
+    "metadata_status": "Official arXiv record confirms title with Z^2, authors, v2 revision date, journal citation, and DOI.",
+    "identity_status": "Local PDF arXiv v2 header, title/authors, journal reprint metadata, and 34 physical-page count match the official record; pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-012.pdf",
+    "sha256": "0e8dd3e6aadcabe553e2a1f2a3edad3e808ad805e7492cacf0f0c30a7bb7a529",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-012",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-012"
+  },
+  {
+    "local_id": "W06-013",
+    "title": "On the Distribution of the Length of the Longest Increasing Subsequence of Random Permutations",
+    "authors": [
+      "Jinho Baik",
+      "Percy Deift",
+      "Kurt Johansson"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/math/9810105",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/math/9810105"
+    ],
+    "version": "arXiv:math/9810105v2, revised 1999-03-26; J. Amer. Math. Soc. 12 (1999), no. 4, 1119–1178",
+    "reason": "Integrable random-matrix benchmark; not standard FPP evidence.",
+    "topics": [
+      "C094"
+    ],
+    "metadata_status": "Official arXiv record confirms v2 date, title/authors, 60 pp, and JAMS journal reference; DOI not independently verified.",
+    "identity_status": "Local PDF header/version/title/authors match the official arXiv record; pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-013.pdf",
+    "sha256": "0a432946234949c12a3e379e42d8f79fa646b9002810ffe97817d52aca184a7a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–60 (entire article)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-013",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-013"
+  },
+  {
+    "local_id": "W06-014",
+    "title": "Pinched-up Periodic KPZ Fixed Point",
+    "authors": [
+      "Jinho Baik",
+      "Zhipeng Liu"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2403.01624",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2403.01624"
+    ],
+    "version": null,
+    "reason": "Modern KPZ fixed-point result; a universality comparison, not a lattice-FPP exponent theorem.",
+    "topics": [
+      "C094"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-014.pdf",
+    "sha256": "4c4efd3459dfed7f0c413e98e351f9ef5959b9a1b10fdddff3cf4b1c0adc18eb",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-015",
+    "title": "Law of large numbers for the maximal flow through a domain of R^d in first passage percolation",
+    "authors": [
+      "Raphaël Cerf",
+      "Marie Théret"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0907.5504",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0907.5504"
+    ],
+    "version": "arXiv:0907.5504v1 (submitted 2009-07-31)",
+    "reason": "Auxiliary undirected max-flow LLN in regular continuum domains; model differs from directed Bernoulli flow.",
+    "topics": [
+      "A030"
+    ],
+    "metadata_status": "Official arXiv record checked for title, authors, date/version and page-count/abstract; journal/publication metadata not verified",
+    "identity_status": "Local PDF title/author/arXiv version matched official arXiv record; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-015.pdf",
+    "sha256": "e89d65caf6e2343bee94839ab0c0f7b9a5b773a30efe3a9c48c90ce57cc7adff",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–41 (entire text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-015",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-015"
+  },
+  {
+    "local_id": "W06-016",
+    "title": "Lower Large Deviations for the Maximal Flow through a Domain in First-Passage Percolation",
+    "authors": [
+      "Raphaël Cerf",
+      "Marie Théret"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0907.5501",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0907.5501"
+    ],
+    "version": "arXiv:0907.5501v1 (submitted 2009-07-31; 23 pp.)",
+    "reason": "Auxiliary surface-order lower-tail result for undirected capacity flow.",
+    "topics": [
+      "A030"
+    ],
+    "metadata_status": "Matched against official arXiv v1 record and local front matter; publication metadata not independently located",
+    "identity_status": "Local PDF title/authors/version/page count matched to official arXiv PDF; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-016.pdf",
+    "sha256": "0215863fe2d703e802d721608cf47aa259110ce68afef38801d5d7b0be591f1f",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-016",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-016"
+  },
+  {
+    "local_id": "W06-017",
+    "title": "Upper Large Deviations for the Maximal Flow through a Domain of R^d in First-Passage Percolation",
+    "authors": [
+      "Raphaël Cerf",
+      "Marie Théret"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.1214/10-AAP732",
+    "url": "https://arxiv.org/abs/0907.5499",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0907.5499",
+      "https://doi.org/10.1214/10-AAP732"
+    ],
+    "version": "arXiv:0907.5499v2 (revised 2012-02-17; 35 pp.); Ann. Appl. Probab. 21(6) (2011), 2075–2108",
+    "reason": "Auxiliary upper-deviation theorem for undirected max-flow; not a p-up-to-1 asymptotic.",
+    "topics": [
+      "A030"
+    ],
+    "metadata_status": "Matched against official arXiv record and journal front matter/DOI; pending independent review",
+    "identity_status": "Local reprint title/authors/version/page count match official arXiv PDF and journal front matter; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-017.pdf",
+    "sha256": "63dd1b9e431ad83eb73c1f6c60aafe62f08b2556064e8f1b1711aae57f765e1d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-017",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-017"
+  },
+  {
+    "local_id": "W06-018",
+    "title": "Central Limit Theorem for First-Passage Percolation Time across Thin Cylinders",
+    "authors": [
+      "Sourav Chatterjee",
+      "Partha S. Dey"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0911.5702",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0911.5702"
+    ],
+    "version": "arXiv:0911.5702v4, revised 2012-05-15; 40 pp; final version accepted in Probability Theory and Related Fields (per arXiv comments)",
+    "reason": "Thin-cylinder CLT and explicit width threshold; open maximal-width question matches the archive.",
+    "topics": [
+      "C092"
+    ],
+    "metadata_status": "Official arXiv record confirms v4 date, title/authors and 40-page comment; journal/DOI metadata not verified.",
+    "identity_status": "Local PDF header/version/title/authors match the official arXiv record; pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-018.pdf",
+    "sha256": "875a332b1a96b1f93794ebdf79204a1bb226e4d0c08dd32e09664fa16241703a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–40 (entire article)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-018",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-018"
+  },
+  {
+    "local_id": "W06-019",
+    "title": "The Universal Relation between Scaling Exponents in First-Passage Percolation",
+    "authors": [
+      "Sourav Chatterjee"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": "10.4007/annals.2013.177.2.7",
+    "url": "https://arxiv.org/abs/1105.4566",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1105.4566",
+      "https://doi.org/10.4007/annals.2013.177.2.7"
+    ],
+    "version": "arXiv:1105.4566v3 (last revised 2012-08-17; 33 pp.); Annals of Mathematics 177 (2013), no. 2, 663–701, DOI 10.4007/annals.2013.177.2.7.",
+    "reason": "Conditional KPZ relation under strong exponent-existence definitions; does not prove exponent values.",
+    "topics": [
+      "C087",
+      "C090",
+      "C094"
+    ],
+    "metadata_status": "Official arXiv record confirms title, author, v3 date, and 33-page length; journal metadata/DOI are recorded in the local bibliographic record.",
+    "identity_status": "Local PDF title/authors/arXiv v3 header and 33 physical pages match the official v3 record; pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-019.pdf",
+    "sha256": "e8a8b1aad02a838a59ceeb29331649363c39fec59099a6999e48c92bf690adae",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-019",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-019"
+  },
+  {
+    "local_id": "W06-020",
+    "title": "Brownian Gibbs Property for Airy Line Ensembles",
+    "authors": [
+      "Ivan Corwin",
+      "Alan Hammond"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1108.2291",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1108.2291"
+    ],
+    "version": null,
+    "reason": "Integrable KPZ/Airy line-ensemble background only.",
+    "topics": [
+      "C094"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-020.pdf",
+    "sha256": "6c428acac5fb33c309295c0fbadad6e60b69ba4a9c16ce482ae1c5dc5e372247",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-021",
+    "title": "KPZ Equation Tails for General Initial Data",
+    "authors": [
+      "Ivan Corwin",
+      "Promit Ghosal"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1214/20-EJP467",
+    "url": "https://arxiv.org/abs/1810.07129",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1810.07129",
+      "https://doi.org/10.1214/20-EJP467"
+    ],
+    "version": null,
+    "reason": "KPZ equation one-point tail bounds for a specified initial-data class; not FPP.",
+    "topics": [
+      "C094"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-021.pdf",
+    "sha256": "a097f0c5a31aeabd77d2e2be5821e7c69342d5b9963131b72f0944d80607f3c1",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-022",
+    "title": "Bigeodesics in First-Passage Percolation",
+    "authors": [
+      "Jack Hanson",
+      "Michael Damron"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1512.00804",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1512.00804"
+    ],
+    "version": "arXiv:1512.00804v2 (revised 2016-07-01); related DOI 10.1007/s00220-016-2743-3",
+    "reason": "Planar no-bigeodesic result with differentiability assumptions; adjacent geodesic-direction evidence.",
+    "topics": [
+      "C097",
+      "C098"
+    ],
+    "metadata_status": "Official arXiv record checked for title, authors, date/version and page-count/abstract; journal/publication metadata not verified; related DOI also confirmed",
+    "identity_status": "Local PDF title/author/arXiv version matched official arXiv record; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-022.pdf",
+    "sha256": "63c7b9b8aaeb0f54163d14e2cd45477e6216c4736ecd384c7a05ff331db73ba8",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–28 (entire text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-022",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-022"
+  },
+  {
+    "local_id": "W06-023",
+    "title": "Busemann Functions and Infinite Geodesics in Two-Dimensional First-Passage Percolation",
+    "authors": [
+      "Michael Damron",
+      "Jack Hanson"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1209.3036",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1209.3036"
+    ],
+    "version": "Local PDF header says arXiv:1209.3036v1 (2012-09-13); title page dated 2018-11-08; local PDF is 50 pp, while official arXiv record lists 52 pp; exact local version unresolved. Journal reference: Comm. Math. Phys. 325 (2014), no. 3, 917–963.",
+    "reason": "Planar Busemann-distribution framework and directed-ray/coalescence results.",
+    "topics": [
+      "C093",
+      "C097",
+      "C098"
+    ],
+    "metadata_status": "Official arXiv record confirms title/authors, submission date, 52-page record and journal reference; discrepancy with local 50-page copy/title-page date is unresolved.",
+    "identity_status": "Local header/title/authors match the arXiv record, but local physical page count and title-page date conflict with its version record; exact version unresolved, pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-023.pdf",
+    "sha256": "1bd7cc9f750cdf9f49de8363278748f214f936006444302b31355ff7f672b1a6",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Local PDF physical pp. 1–50 (entire local copy; version caveat applies)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-023",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-023"
+  },
+  {
+    "local_id": "W06-024",
+    "title": "Universality of the Time Constant for 2D Critical First-Passage Percolation",
+    "authors": [
+      "Michael Damron",
+      "Jack Hanson",
+      "Wai-Kit Lam"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1904.12009",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1904.12009"
+    ],
+    "version": "arXiv:1904.12009v1 (submitted 2019-04-26)",
+    "reason": "Triangular-lattice critical case; explicitly keep lattice and dimension separate from C091.",
+    "topics": [
+      "C091"
+    ],
+    "metadata_status": "Official arXiv record checked for title, authors, date/version and page-count/abstract; journal/publication metadata not verified",
+    "identity_status": "Local PDF title/author/arXiv version matched official arXiv record; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-024.pdf",
+    "sha256": "311891e56e3df9b26f2d23997ac5d7e0dcbabacbc0be0f5a226d79a5b3032421",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–29 (entire text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-024",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-024"
+  },
+  {
+    "local_id": "W06-025",
+    "title": "Subdiffusive Concentration in First-Passage Percolation",
+    "authors": [
+      "Michael Damron",
+      "Jack Hanson",
+      "Philippe Sosoe"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v19-3680",
+    "url": "https://arxiv.org/abs/1401.0917",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1401.0917"
+    ],
+    "version": "arXiv:1401.0917v2 (revised 2014-11-10; 31 pp.; manuscript title page dated 2018-07-19); Electron. J. Probab. 19 (2014), no. 109, 1–27",
+    "reason": "General-distribution concentration under exponential moments; used as a bound, not an exponent.",
+    "topics": [
+      "C087",
+      "C089"
+    ],
+    "metadata_status": "Matched against official arXiv v2 record and journal metadata/DOI; title-page date discrepancy retained; pending independent review",
+    "identity_status": "Local PDF matches official 31-page arXiv v2 title/header; title-page date discrepancy unresolved",
+    "local_pdf": "evidence/fulltexts/W06-025.pdf",
+    "sha256": "2654e92cef3b5e79631253497c218ac6c15c27a7c1dba760bd20817482b9132d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-025",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-025"
+  },
+  {
+    "local_id": "W06-026",
+    "title": "Sublinear Variance in First-Passage Percolation for General Distributions",
+    "authors": [
+      "Michael Damron",
+      "Jack Hanson",
+      "Philippe Sosoe"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1007/s00440-014-0591-7",
+    "url": "https://arxiv.org/abs/1306.1197",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1306.1197"
+    ],
+    "version": "arXiv:1306.1197v2 (revised 2014-10-23; 32 pp.); journal PTRF 163 (2015), no. 1, DOI 10.1007/s00440-014-0591-7",
+    "reason": "General weight-law variance bound with stated logarithmic moment condition.",
+    "topics": [
+      "C087",
+      "C089",
+      "C090"
+    ],
+    "metadata_status": "Matched against official arXiv v2 record and journal metadata/DOI; pending independent review",
+    "identity_status": "Local PDF title/authors/version/page count matched official arXiv PDF; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-026.pdf",
+    "sha256": "6d2fc6eb8f9f52ddfcef99e231d6c02bdcffec2ebcce93a885af0a4b81775ca5",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-026",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-026"
+  },
+  {
+    "local_id": "W06-027",
+    "title": "Rate of Convergence in First-Passage Percolation under Low Moments",
+    "authors": [
+      "Michael Damron",
+      "Naoki Kubota"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1406.3105",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1406.3105"
+    ],
+    "version": "arXiv:1406.3105v3 (corrected version, revised 2016-04-20)",
+    "reason": "Low-moment lower-tail concentration and shape-rate estimates; distinguishes moment/exponent scales.",
+    "topics": [
+      "C087",
+      "C090"
+    ],
+    "metadata_status": "Official arXiv record checked for title, authors, date/version and page-count/abstract; journal/publication metadata not verified",
+    "identity_status": "Local PDF title/author/arXiv version matched official arXiv record; pending independent review",
+    "local_pdf": "evidence/fulltexts/W06-027.pdf",
+    "sha256": "483ccfc000bfcabb4f985bdc9adb57fea43a1a93e615f3db0681d4420a0df991",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–13 (entire text)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-027",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-027"
+  },
+  {
+    "local_id": "W06-028",
+    "title": "Coalescence of Geodesics and the BKS Midpoint Problem in Planar First-Passage Percolation",
+    "authors": [
+      "Barbara Dembin",
+      "Dor Elboim",
+      "Ron Peled"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2204.02332",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2204.02332"
+    ],
+    "version": "arXiv:2204.02332v5 (last revised 2024-01-30; 54 pp.); v5 comments note referee-driven changes to Proposition 3.1, Claim 4.4, and Proposition 1.8.",
+    "reason": "Planar coalescence/BKS midpoint results under absolute continuity, exponential moments, and >32 extreme points.",
+    "topics": [
+      "C087",
+      "C098",
+      "C099"
+    ],
+    "metadata_status": "Official arXiv record confirms title, authors, v5 date, and referee-comment revision note.",
+    "identity_status": "Local PDF title/authors/v5 header and 54 physical pages match the official v5 record; pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-028.pdf",
+    "sha256": "6868646910f480f3771bc07a6c4c9ecd0e74ac3dc2fca2b64f0fbec740f98e03",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-028",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-028"
+  },
+  {
+    "local_id": "W06-029",
+    "title": "Optimal Tail Exponents in General Last Passage Percolation via Bootstrapping and Geodesic Geometry",
+    "authors": [
+      "Shirshendu Ganguly",
+      "Milind Hegde"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2007.03594",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2007.03594"
+    ],
+    "version": null,
+    "reason": "General directed LPP conditional tail-exponent theorem; not undirected FPP.",
+    "topics": [
+      "C094"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-029.pdf",
+    "sha256": "059b11c5c124c802fc505c1da69fb83447ac85c74228bb9f7517af628c914bdd",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-030",
+    "title": "Geodesics and the Competition Interface for the Corner Growth Model",
+    "authors": [
+      "Nicos Georgiou",
+      "Firas Rassoul-Agha",
+      "Timo Seppäläinen"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1510.00860",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1510.00860"
+    ],
+    "version": "arXiv:1510.00860v2 (last revised 2016-07-24; 32 pp.). The official v2 record says the detailed coalescence proof from v1 Appendix A was omitted; the local v2 PDF itself contains a distinct “Appendix A: Auxiliary technical results” on physical p. 30, which was read.",
+    "reason": "Directed LPP geodesics/interface theorems; use only as a model-specific comparison.",
+    "topics": [
+      "C097",
+      "C098"
+    ],
+    "metadata_status": "Official arXiv record confirms title, authors, v2 date, 32-page length, journal status, and omitted-Appendix-A notice.",
+    "identity_status": "Local PDF title/authors/v2 header and 32 physical pages match the official v2 record. The local v2 auxiliary Appendix A (A.1–A.2, physical p. 30) was read; the distinct detailed coalescence proof from v1 Appendix A is absent and remains unread.",
+    "local_pdf": "evidence/fulltexts/W06-030.pdf",
+    "sha256": "01827617eef63cc2f7de8aa3fa4766e7edad01ab35dbb922a7084c477c0ac219",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-030",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-030"
+  },
+  {
+    "local_id": "W06-031",
+    "title": "Stationary Cocycles and Busemann Functions for the Corner Growth Model",
+    "authors": [
+      "Nicos Georgiou",
+      "Firas Rassoul-Agha",
+      "Timo Seppäläinen"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1510.00859",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1510.00859"
+    ],
+    "version": "arXiv:1510.00859v2, revised 2016-07-24; 44 pp",
+    "reason": "Directed LPP stationary cocycles and shape-regularity-dependent Busemann limits.",
+    "topics": [
+      "C093",
+      "C097",
+      "C098"
+    ],
+    "metadata_status": "Official arXiv record confirms v2 date, title/authors and 44-page comment; current journal/publication metadata not independently checked.",
+    "identity_status": "Local PDF header/version/title/authors and 44-page count match the official arXiv record; pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-031.pdf",
+    "sha256": "3122d75c756f95bf1ab2ce3c0084ad0d367d7e7bf9df964f234778b55d434d4a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–44 (entire article)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-031",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-031"
+  },
+  {
+    "local_id": "W06-032",
+    "title": "Stationary Cocycles for the Corner Growth Model",
+    "authors": [
+      "Nicos Georgiou",
+      "Firas Rassoul-Agha",
+      "Timo Seppäläinen"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1404.7786",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1404.7786"
+    ],
+    "version": null,
+    "reason": "Directed LPP variational/cocycle results; not an undirected FPP transfer theorem.",
+    "topics": [
+      "C093",
+      "C097",
+      "C098"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-032.pdf",
+    "sha256": "e4c5a73d07964ccbb41028ec1fdd456a069a1776c6bf92f6e8b1be6fa380f749",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-033",
+    "title": "Variational Formulas and Cocycle Solutions for Directed Polymer and Percolation Models",
+    "authors": [
+      "Nicos Georgiou",
+      "Firas Rassoul-Agha",
+      "Timo Seppäläinen"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1311.3016",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1311.3016"
+    ],
+    "version": "arXiv:1311.3016v4 (last revised 2016-01-21; official record says 41 pp., accepted in Communications in Mathematical Physics); local PDF has 42 physical pages with a blank final p. 42.",
+    "reason": "Directed polymer/LPP variational formulas; useful boundary for exact solvability claims.",
+    "topics": [
+      "C081",
+      "C093"
+    ],
+    "metadata_status": "Official arXiv record confirms title, authors, v4 date, 41-page nominal length, and acceptance in Communications in Mathematical Physics.",
+    "identity_status": "Local PDF title/authors/v4 header match the official record; physical p. 42 is blank, so the 42-page scan contains 41 pages of article text.",
+    "local_pdf": "evidence/fulltexts/W06-033.pdf",
+    "sha256": "47ea01965b98a24907088bbf3003aca2db110efacd2bd24ede1af77f82ef2237",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "review_status": "pending",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-033",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-033"
+  },
+  {
+    "local_id": "W06-034",
+    "title": "Shape Fluctuations and Random Matrices",
+    "authors": [
+      "Kurt Johansson"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": "10.1007/s002200050027",
+    "url": "https://arxiv.org/abs/math/9903134",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/math/9903134"
+    ],
+    "version": "arXiv:math/9903134v2, revised 1999-10-27; 51 pp; Comm. Math. Phys. 209 (2000), 437–476",
+    "reason": "Integrable corner-growth/LPP fluctuation benchmark; no inference to undirected FPP.",
+    "topics": [
+      "C094"
+    ],
+    "metadata_status": "Official arXiv record confirms v2 date, title/authors, 51 pp, journal reference, and related DOI.",
+    "identity_status": "Local PDF header/version/title/authors and 51-page count match the official arXiv record; pending independent review.",
+    "local_pdf": "evidence/fulltexts/W06-034.pdf",
+    "sha256": "7ec8ed86cd46123c5a47f2c798791713a81c763dd46518cce37f6e080cc1d8f6",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–51 (entire article)"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-034",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-034"
+  },
+  {
+    "local_id": "W06-035",
+    "title": "Large Deviation Principle at Speed n^d for the Random Metric in First-Passage Percolation",
+    "authors": [
+      "Julien Verges"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2404.09589",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2404.09589"
+    ],
+    "version": null,
+    "reason": "Upper LDP for bounded and bounded-away-from-zero weights; not an explicit time-constant solution.",
+    "topics": [
+      "C081"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-035.pdf",
+    "sha256": "15736cf021e66cbe4cba0a02cccdb98092e33e4909feb7636ff84bbdfa7c51a9",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-036",
+    "title": "Variational Formulas, Busemann Functions, and Fluctuation Exponents for the Corner Growth Model with Exponential Weights",
+    "authors": [
+      "Timo Seppäläinen"
+    ],
+    "year": 2020,
+    "kind": "book",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1709.05771",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1709.05771"
+    ],
+    "version": null,
+    "reason": "Lecture notes on exactly solvable directed corner growth; compare only after checking model assumptions.",
+    "topics": [
+      "C094"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-036.pdf",
+    "sha256": "fc1849abfa90f90921af69e147384b876e7aee96278b6f522aee9ad86f15b2c0",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-037",
+    "title": "Large Deviation Principle at Speed n for the Random Metric in First-Passage Percolation",
+    "authors": [
+      "Julien Verges"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2412.03320",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2412.03320"
+    ],
+    "version": null,
+    "reason": "Lower-tail metric LDP under all exponential moments, with weaker-moment estimates.",
+    "topics": [
+      "C081"
+    ],
+    "metadata_status": "arXiv id/title metadata from local PDF header; publication metadata pending",
+    "identity_status": "arXiv id in PDF header; pending independent title-page review",
+    "local_pdf": "evidence/fulltexts/W06-037.pdf",
+    "sha256": "dadbbfec4690093a15a76582e442c46c5c1d49674d2be608ec7523ff7af1d25e",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending"
+  },
+  {
+    "local_id": "W06-038",
+    "title": "A Discrete Hammersley Process as an Extreme Case of Oriented Percolation Flows",
+    "authors": [
+      "David Aldous"
+    ],
+    "year": null,
+    "kind": "web_reference",
+    "doi": null,
+    "url": "https://www.stat.berkeley.edu/~aldous/Research/OP/hammersley_flow.html",
+    "alternate_urls": [],
+    "version": "unpublished web note; version/date not stated",
+    "reason": "Primary statement and Poisson/Hammersley heuristic for A030; the two-limit interchange is explicitly the open obstruction.",
+    "topics": [
+      "A030"
+    ],
+    "metadata_status": "title/author verified on source page; date absent",
+    "identity_status": "source-page title/author match; pending independent review",
+    "local_pdf": null,
+    "sha256": null,
+    "local_html": "evidence/W06/data/aldous-hammersley-oriented-flow.html",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "entire HTML note"
+    ],
+    "review_status": "pending",
+    "quota_eligible": false,
+    "source_caveats": "Source webpage has reversed Poisson spatial scaling and an additional displayed path-cover coefficient inconsistency; source-stated conjecture is retained as conjecture only.",
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-038",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-038"
+  },
+  {
+    "local_id": "W06-039",
+    "title": "Hammersley’s Interacting Particle Process and Longest Increasing Subsequences",
+    "authors": [
+      "David Aldous",
+      "Persi Diaconis"
+    ],
+    "year": 1995,
+    "kind": "paper",
+    "doi": "10.1007/BF01204214",
+    "url": "https://escholarship.org/uc/item/2s22m5b4",
+    "alternate_urls": [
+      "https://escholarship.org/content/qt2s22m5b4/qt2s22m5b4.pdf",
+      "https://sites.stat.washington.edu/jaw/COURSES/EMPIR/593C.06/Hammersley.pdf",
+      "https://doi.org/10.1007/BF01204214"
+    ],
+    "version": "Existing local 21-page manuscript scan; title page cites Probability Theory and Related Fields 103 (1995), 199–213; exact relation to final journal layout unresolved.",
+    "reason": "Primary proof of the exact continuum Poisson/Hammersley constant 2 and local Poisson equilibrium; does not prove the discrete Bernoulli-flow approximation in A030.",
+    "topics": [
+      "A030"
+    ],
+    "metadata_status": "Title/authors and printed publication citation match the journal record; exact manuscript-to-journal version relation remains unresolved; pending independent review.",
+    "identity_status": "The actual read file is evidence/fulltexts/W06-039.pdf (21 physical pages; SHA-256 bound below); title/authors and printed journal citation match, exact version relation unresolved.",
+    "local_pdf": "evidence/fulltexts/W06-039.pdf",
+    "sha256": "a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "section_coverage_path": "evidence/W06/reading_coverage.json#W06-039",
+    "review_status": "pending",
+    "version_note": "The 21-page local manuscript scan is the reading copy; the distinct eScholarship PDF has 16 physical pages including its repository cover and was not used for this reading map.",
+    "section_coverage": "evidence/W06/reading_coverage.json#W06-039"
+  }
+]

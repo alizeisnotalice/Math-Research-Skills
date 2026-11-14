@@ -1,0 +1,221 @@
+[
+  {
+    "problem_id": "A121",
+    "tool": "nonlinear probability-law dynamics on a finite simplex",
+    "role": "direct",
+    "needed_lemma": "Starting from the finite-state kernel family K_{θ,j,k}, derive the outer map Φ(θ)=π_{j,k}(θ) exactly on simplex strata, then prove that almost every initial point has ω-limit consisting only of the ubiquitous one-point or equal two-point fixed laws. The proof needs a global orbit argument (for example a strict Lyapunov function plus exclusion of nontrivial recurrent sets), and a measure/basin argument; a finite numerical orbit search is not enough.",
+    "source_local_ids": [
+      "W21-001",
+      "W21-002"
+    ],
+    "unproved_interface": "W21-001 Theorem 1 solves only the inner chain with θ fixed. W21-002 Conjecture 5 states the outer almost-everywhere problem but does not prove it. Need prove any formula/regularity for Φ, treatment of simplex boundary/support strata, no cycles or other ω-limit sets, and Lebesgue-a.e. convergence. Exact rational evaluation from πK=π is a proposed finite reduction and must be checked per stratum; it is not a conclusion of the papers."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "finite-state stationary-law elimination and perturbation analysis",
+    "role": "auxiliary",
+    "needed_lemma": "For a fixed finite metric/order type, write each transition entry of K_{θ,j,k} as a degree-k polynomial in θ, solve the normalized linear system πK_θ=π, and establish the exact rational formula and its regularity on each support face/interior. Use stationary-kernel perturbation bounds only after their irreducibility/uniqueness and norm hypotheses are checked.",
+    "source_local_ids": [
+      "W21-001"
+    ],
+    "unproved_interface": "Theorem 1 supplies uniqueness and a fixed-θ uniform TV rate, but not an explicit formula or strict contraction for θ↦π(θ). Rationality, boundary extension, derivative bounds, and any contraction constant must be independently derived."
+  },
+  {
+    "problem_id": "A122",
+    "tool": "nonlinear-kernel invariant-law and support analysis",
+    "role": "direct",
+    "needed_lemma": "Use uniqueness of the stationary law to identify θ=π_{j,k}(θ) with θK_{θ,j,k}=θ, then decide existence/nonexistence within the full-support class for every allowed (j,k). Any exclusion must apply to arbitrary full-support Borel laws, including singular ones, unless the claim is expressly restricted to densities.",
+    "source_local_ids": [
+      "W21-001",
+      "W21-002"
+    ],
+    "unproved_interface": "W21-001 Theorem 4 proves only k=2 (and Theorem 3 transfers between j=1 and j=2); W21-002 adds a density-only criterion for some (j,k). Neither proves the all-(j,k), all-measure question. The fixedpoint equation resembles nonlinear Markov invariant-measure equations, but the exact kernel and support class must be matched."
+  },
+  {
+    "problem_id": "A122",
+    "tool": "fixed-point existence theorem with topology and support constraints",
+    "role": "auxiliary",
+    "needed_lemma": "For a positive existence approach, verify that the actual map on a compact convex invariant subset of P([0,1]) is continuous and maps that subset into itself; for nonexistence, seek a measure-level endpoint/order inequality that does not assume a density. Track whether the selected closed class truly contains full-support laws and is preserved.",
+    "source_local_ids": [
+      "W21-001",
+      "W21-002"
+    ],
+    "unproved_interface": "W21-002 Proposition 2 (statement PDF p.7; proof pp.8–9) gives continuity only at laws with no distance ties; the full-support set is not closed in the weak topology. A Schauder/Kakutani argument on all P([0,1]) cannot be invoked unless global continuity/upper-semicontinuity and convexity hypotheses are proved; density exclusion cannot rule out singular full-support laws."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "finite-simplex/QSO dynamics candidate methods",
+    "role": "auxiliary",
+    "needed_lemma": "If the exact stationary-law map can be shown to belong to a QSO, Volterra, group-indexed, or doubly-stochastic class, test the corresponding Lyapunov, omega-limit, periodic-orbit, or a.e.-basin theorem under its full class hypotheses.",
+    "source_local_ids": [
+      "W21-015",
+      "W21-016",
+      "W21-017",
+      "W21-018",
+      "W21-019",
+      "W21-020",
+      "W21-021",
+      "W21-022",
+      "W21-044"
+    ],
+    "unproved_interface": "W21-015, W21-018, W21-019 and W21-021 are full-text reads; W21-016/017/020/022 remain candidate-only. W21-015 states nonconvergent Cesaro averages for its exact three-coordinate map, but Theorem 2 depends on the unverified eventual-avoidance step in Theorem 1; Note 1 conflicts with connectedness of bounded Cesaro cluster sets. W21-019 has an explicit global transversal-Volterra standing scope and no main-theorem proof; its intro’s displayed cyclic map is actually Volterra/transversal despite the “non-Volterra” label. W21-021’s normalized doubly-stochastic coefficient-slice criteria remain a separate method; do not apply without proving the target’s QSO structure. W21-018 Theorem 3.9 approaches uniformity on the current support coset, which can move periodically; its printed Theorem 3.11 log-log expression is undefined near zero, while the proof recurrence gives a separately derived quadratic bound. A121 Phi is not known to be a QSO; no polynomial-class theorem applies until its exact coefficients and class restrictions are derived. Candidate results distinguish convergence of iterates from Cesaro/mean ergodicity. W21-044 adds a full-text centered-QSO comparison: its averaging-plus-independent-noise structure is not established for the target, and only the conditional weak-continuity fixedpoint argument is relevant. Theorem 5 also assumes the noise-factor weak limit exists; its local modulus bound alone does not establish existence."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "nonlinear Markov and stationary-law perturbation candidates",
+    "role": "auxiliary",
+    "needed_lemma": "Obtain an explicit cross-parameter bound for pi(K_theta)-pi(K_eta), using a theorem whose unique-class/uniform-ergodicity hypotheses hold over each simplex stratum; separately check whether a nonlinear-Markov map exactly matches Phi. W21-039 Theorems 3.1–3.2/Corollary 3.1 supply stationary-law perturbation bounds under their exact mixing assumptions; the card derives the separate k-sample row-kernel bound.",
+    "source_local_ids": [
+      "W21-003",
+      "W21-004",
+      "W21-005",
+      "W21-007",
+      "W21-012",
+      "W21-037",
+      "W21-038",
+      "W21-039",
+      "W21-040"
+    ],
+    "unproved_interface": "W21-003 studies the continuous-time flow m˙=mQ(m), not the discrete stationary map. W21-004 Theorem 2.2 is now full-text read and proves a sharp Dobrushin criterion for μ↦μP_μ; A122 has the equation form θK_θ=θ if P_μ=K_μ, but the target overlap and law-Lipschitz hypotheses remain unverified. W21-007 passes invariant laws across an N→∞ fixed-time deterministic-process limit, not a fixed outer iteration. W21-012 contracts specified diffusion semigroups/McKean–Vlasov flows; no target diffusion representation exists. W21-005 and W21-037 remain candidate-only; W21-039 is now full-text read and gives uniform-ergodic perturbation bounds plus a separately proved rank-kernel row estimate, but uniform mixing over the target parameter region remains unproved; W21-038 and W21-040 are full-text sensitivity tools, but their hypotheses and kernel-variation interface remain unproved for the target. No result proves A121 outer convergence or supplies its contraction constant. For W21-040, the source uses n∈N then defines N_0; under the positive-integer reading, use C′=max(C,1) in both theorem proofs because the telescoping sums include P^0."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "RDE contraction and global law-iteration candidate methods",
+    "role": "auxiliary",
+    "needed_lemma": "Use RDE contraction/monotonicity or tree-recursion methods only after deriving an exact independent-copy distributional identity for Phi or a mathematically verified conjugacy/reduction.",
+    "source_local_ids": [
+      "W21-024",
+      "W21-025",
+      "W21-026",
+      "W21-027",
+      "W21-028",
+      "W21-029",
+      "W21-030",
+      "W21-031",
+      "W21-032",
+      "W21-033",
+      "W21-034",
+      "W21-035",
+      "W21-036",
+      "W21-041",
+      "W21-042",
+      "W21-043",
+      "W21-045"
+    ],
+    "unproved_interface": "W21-024, W21-025, W21-027, W21-030, W21-031, W21-032, W21-034, W21-035, and W21-036 are full-text reads; W21-026, W21-028, and W21-033 remain candidate-only; W21-029 is now a full-text affine-RDE contraction source, but no recursive-copy identity is derived for the target. Their operators are respectively weighted-sum smoothing, generalized smoothing, centered Quicksort cost, multivariate/scalar recursive transfer, degenerate logarithmic recursion, deterministic weighted-sum branching, weighted min/max, urn-derived systems (including phase-periodic limits), and Poisson d-th-minimum. No independent-copy recursive representation has been derived for Φ or the A122 map; each source metric, weights, moments, support, and normalization must be matched before transfer. W21-029 §9 also studies a function-valued Find-process operator; its printed sufficient coefficient and independent disjoint-support contraction calculation are distinct from its affine-RDE Theorem 3. W21-041/045 classify exact weighted smoothing/min-type transforms, W21-042 treats regular-variation tails for finite-mean weighted-sum RDEs, and W21-043 gives the elementary BRW fixedpoint criterion and conditioned moment/contraction tools; its arXiv-v1 Proposition 1(b) all-scale regular-variation and Proposition 3(c) all-fixedpoint assertions are isolated after neutral adjudication, and the later journal version was not compared. These are full-text source-level methods; no target weight/branching/independent-child identity is established."
+  },
+  {
+    "problem_id": "A122",
+    "tool": "measure-valued nonlinear operator and nonlinear Markov fixedpoint candidates",
+    "role": "auxiliary",
+    "needed_lemma": "For any transfer, check whether the candidate map acts on arbitrary Borel laws on [0,1], and whether its fixedpoint identity includes singular continuous and mixed laws; prove continuity/closedness on the chosen invariant class.",
+    "source_local_ids": [
+      "W21-003",
+      "W21-004",
+      "W21-005",
+      "W21-007",
+      "W21-023",
+      "W21-044"
+    ],
+    "unproved_interface": "W21-003 and W21-004 are full-text reads; W21-005 remains candidate-only; W21-007 concerns invariant limits of varying stochastic systems, not a fixed target map. W21-004 gives a directly matching nonlinear-kernel invariant-law equation when P_μ=K_μ, but no Dobrushin constants have been proved for the target. W21-023 has conflicting p/q conventions and unsupported unrestricted endpoint convergence; only its separately qualified continuous-section CDF algebra is retained. None proves the target fixedpoint exists without checking its own assumptions. W21-044 is a centered QSO with explicit averaging and independent noise, not the target kernel; the general weak-limit/fixedpoint implication still requires target continuity."
+  },
+  {
+    "problem_id": "A122",
+    "tool": "RDE classification and contraction candidates",
+    "role": "auxiliary",
+    "needed_lemma": "If a proposed transform for an interval fixed law has a proved independent-copy RDE form, compare its fixedpoint classification hypotheses (support, moments, weights, independence, and normalization) before using the classification.",
+    "source_local_ids": [
+      "W21-024",
+      "W21-025",
+      "W21-026",
+      "W21-027",
+      "W21-028",
+      "W21-029",
+      "W21-030",
+      "W21-031",
+      "W21-032",
+      "W21-033",
+      "W21-034",
+      "W21-035",
+      "W21-036",
+      "W21-041",
+      "W21-042",
+      "W21-043",
+      "W21-045"
+    ],
+    "unproved_interface": "W21-024, W21-025, W21-027, W21-030, W21-031, W21-032, W21-034, W21-035, and W21-036 are full-text reads; W21-026, W21-028, and W21-033 remain candidate-only; W21-029 is now a full-text affine-RDE contraction source, but no recursive-copy identity is derived for the target. The full-text results apply only to their listed weighted-sum, recursive-cost, affine/degenerate RDE, deterministic weighted-branching, weighted order-statistic, urn-system, or Poisson-minimum operators. A122 is not shown to be any of these; exact identity, topology, moments, weights, and support conditions remain unproved. W21-029 §9 Find-process is a distinct function-valued operator; its printed Lp sufficient coefficient fails at p=3, while a direct disjoint-support calculation supplies a separately derived factor. Neither this operator nor its regular-version step transfers to A121/A122 without an exact representation. W21-041/045 are smoothing-transform classifications, W21-042 is a tail theorem for the finite-mean weighted-sum RDE, and W21-043 gives an infinite-summand BRW elementary fixedpoint criterion; its read arXiv-v1 all-scale regular-variation and all-fixedpoint claims are isolated after neutral adjudication. These sources are eligible provisionally for the tool class but none supplies the missing A122 recursion."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "stationary-regime limit under fixed-time deterministic approximation",
+    "role": "auxiliary",
+    "needed_lemma": "If the target finite model is approximated by stochastic systems indexed by N, prove fixed-time conditional convergence from every converging initial sequence and tightness of invariant laws; identify the limiting deterministic process and its invariant probabilities.",
+    "source_local_ids": [
+      "W21-007"
+    ],
+    "unproved_interface": "W21-007 Theorem 1 says weak limits of invariant probabilities are invariant for the deterministic limit process. It does not prove convergence of θ↦π(K_θ) iterates for one fixed model or identify that map with a stochastic-process scaling limit."
+  },
+  {
+    "problem_id": "A122",
+    "tool": "nonlinear Markov invariant-law Dobrushin criterion",
+    "role": "auxiliary",
+    "needed_lemma": "Set P_μ=K_μ and verify globally that sup_{μ,ν}d_TV(P_μ(x),P_ν(y))≤2(1−α), together with d_TV(P_μ(x),P_ν(x))≤λd_TV(μ,ν) for λ≤α; then W21-004 yields existence, uniqueness, and the corresponding convergence rate for μ↦μP_μ.",
+    "source_local_ids": [
+      "W21-004"
+    ],
+    "unproved_interface": "The equation θK_θ=θ is an invariant law of the nonlinear update when P_μ=K_μ, but the required overlap and law-sensitivity constants are not yet proved for the target. This theorem does not establish A121’s nested outer-map convergence."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "diffusion-semigroup and McKean–Vlasov coupling contraction",
+    "role": "candidate_method_only",
+    "needed_lemma": "A diffusion representation would need the source one-sided curvature, Lyapunov drift, interaction Lipschitz and small-coupling assumptions; state the metric and prove the reflection-coupling differential inequality for the target law flow.",
+    "source_local_ids": [
+      "W21-012"
+    ],
+    "unproved_interface": "W21-012 is a full-text read, but no diffusion or McKean–Vlasov representation of the finite-state stationary-law map θ↦π(K_θ) has been established. Its contraction constants apply only to the stated diffusion semigroups/law flows."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "multivariate Zolotarev transfer and recursive-sequence normal limits",
+    "role": "auxiliary",
+    "needed_lemma": "Only if an exact recursive-copy system is derived, verify the accompanying-sequence recursion, L_s coefficient/toll convergence, strict coefficient contraction, and small-index/self-index boundary conditions (W21-030); for a degenerate one-branch normalization, separately prove the negative log-index drift and stated L3/mean/variance/toll estimates (W21-031).",
+    "source_local_ids": [
+      "W21-030",
+      "W21-031"
+    ],
+    "unproved_interface": "No such recursive decomposition or logarithmic-index model has been derived for Φ. These theorems do not establish global A121 convergence; W21-031’s multi-branch proof is sketched."
+  },
+  {
+    "problem_id": "A122",
+    "tool": "deterministic weighted-sum and weighted-minimum RDE classification",
+    "role": "auxiliary",
+    "needed_lemma": "If an exact independent-copy identity is proved, match the deterministic weights, series convergence, characteristic exponent, multiplicative group, drift/support assumptions, and continuous versus discrete group case before applying W21-032 or W21-034.",
+    "source_local_ids": [
+      "W21-032",
+      "W21-034"
+    ],
+    "unproved_interface": "The target equation θK_θ=θ is not shown to be a deterministic weighted-sum or weighted-infimum recursion. The stable/Weibull classifications do not apply to arbitrary Borel fixed laws without that operator identity."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "urn-derived RDE systems and periodic-limit diagnostic",
+    "role": "auxiliary",
+    "needed_lemma": "If a target has a tree recursion, derive its coefficient/toll laws, prescribed moment classes and contraction coefficient; check for a residual phase variable or rotating component before asserting convergence to one fixed law, as in the cyclic-urn example.",
+    "source_local_ids": [
+      "W21-035"
+    ],
+    "unproved_interface": "W21-035 derives its recursion and Dirichlet coefficients from balanced urns. A121 is not an urn recursion, and the example is a caution about oscillatory limits, not a theorem for Φ."
+  },
+  {
+    "problem_id": "A121",
+    "tool": "finite-state MFG fixedpoint correspondence and myopic adjustment",
+    "role": "auxiliary",
+    "needed_lemma": "Only if the target can be represented as the finite-state/action MFG in W21-013/014: identify the reward and generator maps, prove A1, verify the best-response set, and (for the dynamic results) verify the exact set-valued myopic-adjustment inclusion and its local or two-policy global hypotheses.",
+    "source_local_ids": [
+      "W21-013",
+      "W21-014"
+    ],
+    "unproved_interface": "W21-013 Theorem 4.1 is a stationary-MFE Kakutani existence theorem for a game-specific strategy correspondence. Its Theorem 5.2 additionally assumes irreducibility for every deterministic stationary generator and uses occupation-array mixing for the reverse inclusion. W21-014 studies a continuous-time differential inclusion. Neither is the discrete nested map Phi(theta)=pi(K_theta), and no equivalence with A121 has been proved."
+  }
+]

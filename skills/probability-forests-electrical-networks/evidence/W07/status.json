@@ -1,0 +1,231 @@
+{
+  "worker": "W07",
+  "tool": "probability-forests-electrical-networks",
+  "status": "L13_final4_integrated_pending_R04",
+  "as_of": "2026-11-14",
+  "candidate_source_count": 41,
+  "local_fulltext_pdf_count": 32,
+  "fulltext_read_count": 30,
+  "selected_chapters_read_count": 0,
+  "partial_read_count": 1,
+  "downloaded_not_read_count": 1,
+  "metadata_only_count": 9,
+  "cards_written": [
+    "AL2007",
+    "ALEX1995MSF",
+    "AUX-W07-WCD-2015",
+    "BKPS2004",
+    "BLPS2001",
+    "BP1993",
+    "HL2003",
+    "HN2017USF",
+    "HN2019PLANAR",
+    "HP2019COMP",
+    "HUTCH2020TUP",
+    "LIYU2026",
+    "LMS2008WUSFEnds",
+    "LPS2006MSF",
+    "LPS2020IND",
+    "LYO2003DPP",
+    "MORRIS2003",
+    "PEM1991",
+    "PTN2026",
+    "TIMAR2006FMSF",
+    "TIMAR2018MSF",
+    "AUX-W07-LYONS-RANDOM-COMPLEXES-2009",
+    "AUX-W07-TEUFL-WAGNER-FORESTS-ELECTRICAL-2009",
+    "AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023",
+    "AUX-W07-INTERLACEMENTS-2015",
+    "AUX-W07-UNIVERSALITY-2018",
+    "AUX-W07-ENDS-2023",
+    "AUX-W07-REFLECTED-INFINITY-2025",
+    "AUX-W07-HARMONIC-DIRICHLET-2017",
+    "AUX-W07-CYCLE-FORESTS-2024",
+    "AUX-W07-CYCLE-MATROIDS-2024"
+  ],
+  "formal120_problem_mappings": 14,
+  "review_status": "pending for every source and mapping",
+  "skill_validation": {
+    "command": "python scripts/quick_validate_all.py skills/probability-forests-electrical-networks",
+    "result": "passed: Skill is valid!",
+    "skill_sha256": "fd3252a044a12ec3e54fc0b15eb7cf28fa98fd629d9309d793e836d4609ed8db"
+  },
+  "remaining_work": [
+    "The ledger now contains 41 candidates, 32 local full-text PDFs, and 30 complete article reads; all four L13_final4 additions and their mapping remain pending independent R04 review.",
+    "PTN2026 remains partial: the assigned complete Chapters 8–11 reading units are not finished and are not counted as selected_chapters_read. Doyle–Snell remains acquired but unread; complete its assigned book units before counting it.",
+    "Nine sources remain metadata-only. Continue checking theorem interfaces against primary sources; preserve C105 as unresolved because WUSF results do not establish minimal-forest connectivity."
+  ],
+  "scope_exclusions": [
+    "A027 tree-flow stationarity/ergodicity, tree-biased random walks, harmonic measure, B076, and B148 are assigned to W20.",
+    "A021/A022-style random-tree and SIRSN spatial geometry is outside W07."
+  ],
+  "important_current_update": "Li–Yu arXiv:2610.00938 (2026 preprint) proves the zero-one law for swap-invariant FSF/WSF events on every connected locally finite infinite network. It makes component count and total excessive ends a.s. constant, but does not establish A025 mutual singularity. PTN Corollary 10.19 singularity requires every vertex to have an infinite orbit.",
+  "local_math": {
+    "script": "evidence/W07/examples/verify_finite_examples.py",
+    "result": "evidence/W07/examples/verify_finite_examples.json",
+    "run": "python3 evidence/W07/examples/verify_finite_examples.py",
+    "result_summary": "Exact weighted-triangle transfer-current check passed; 3,628,800 MST label orders reproduced the published positive-correlation counterexample."
+  },
+  "local_fulltext_available_count": 32,
+  "acquired_unread_count": 1,
+  "metadata_only_or_unacquired_count": 9,
+  "d05_handoff_imported": "All local_pdf paths, page counts, PDF hashes, and identity evidence matched downloads/D05/handoff.json; D05 reading_status records acquisition only.",
+  "selected_sections_read_count": 0,
+  "work_products": [
+    "evidence/W07/cards/AL2007.md",
+    "evidence/W07/cards/ALEX1995MSF.md",
+    "evidence/W07/cards/BLPS2001.md",
+    "evidence/W07/cards/BP1993.md",
+    "evidence/W07/cards/HL2003.md",
+    "evidence/W07/cards/HN2019PLANAR.md",
+    "evidence/W07/cards/HUTCH2020TUP.md",
+    "evidence/W07/cards/LPS2006MSF.md",
+    "evidence/W07/cards/LYO2003DPP.md",
+    "evidence/W07/cards/TIMAR2018MSF.md",
+    "evidence/W07/mapping.json",
+    "evidence/W07/reading_coverage.json",
+    "evidence/W07/sources.json",
+    "evidence/W07/status.json",
+    "evidence/W07/cards/HP2019COMP.md",
+    "evidence/W07/cards/MORRIS2003.md",
+    "evidence/W07/cards/AUX-W07-WCD-2015.md",
+    "evidence/W07/revision-response.md",
+    "evidence/W07/search-log.md",
+    "evidence/W07/cards/AUX-W07-LYONS-RANDOM-COMPLEXES-2009.md",
+    "evidence/W07/cards/AUX-W07-TEUFL-WAGNER-FORESTS-ELECTRICAL-2009.md",
+    "evidence/W07/cards/AUX-W07-NACHMIAS-ARCHER-SHALEV-TANG-USF-UNION-2023.md",
+    "evidence/W07/cards/AUX-W07-INTERLACEMENTS-2015.md",
+    "evidence/W07/cards/AUX-W07-UNIVERSALITY-2018.md",
+    "evidence/W07/cards/AUX-W07-ENDS-2023.md",
+    "evidence/W07/cards/AUX-W07-REFLECTED-INFINITY-2025.md",
+    "evidence/W07/cards/AUX-W07-HARMONIC-DIRICHLET-2017.md",
+    "evidence/W07/cards/AUX-W07-CYCLE-FORESTS-2024.md",
+    "evidence/W07/cards/AUX-W07-CYCLE-MATROIDS-2024.md",
+    "evidence/W07/l13_final4_mother_sync_manifest.json",
+    "evidence/W07/reader_batches/L13_final4/reading_coverage.json",
+    "evidence/W07/reader_batches/L13_final4/sourcepatch.json",
+    "evidence/W07/provenance/AUX-W07-UNIVERSALITY-2018.before-markdown-serialization-fix.md",
+    "evidence/W07/provenance/AUX-W07-UNIVERSALITY-2018.markdown-serialization-fix.json"
+  ],
+  "bp1993_read_copy_update": {
+    "local_pdf": "evidence/fulltexts/BP1993.pdf",
+    "sha256": "5ac77ebeb5a5e81b043c13563717fdf6a203dfbb18a9ee9cd30bbded7bba39a0",
+    "physical_pdf_pages": 50,
+    "read_scope": "complete arXiv math/0404048v1 author submission, physical pp. 1–50; printed article pp. 1–49 on physical pp. 2–50",
+    "source_count_change": 0,
+    "review_status": "pending"
+  },
+  "latest_source_corrections": {
+    "BP1993": {
+      "Theorem_1_1": "D01 local physical p. 4 / printed article p. 3",
+      "Corollary_4_4": "D01 local physical p. 19 / printed article p. 18",
+      "Theorem_5_3": "D01 local physical p. 26 / printed article p. 25; proof pp. 27–28",
+      "rendered_pages": [
+        4,
+        19,
+        26,
+        27,
+        28
+      ],
+      "review_status": "pending"
+    },
+    "BLPS2001_Theorem_13_7": {
+      "proof_note": "Add self-loops to equalize weighted vertex conductances before (13.6); the adjusted walk spectral radius may differ from the original but remains below 1.",
+      "rendered_pdf_page": 59,
+      "review_status": "pending"
+    },
+    "HP2019COMP_round4": {
+      "Theorem_1_1": "higher-dimensional ubiquity implies lower-dimensional ubiquity; separating witness is lower-only",
+      "definitions_pdf_page_5": "coarsening merges edges and preserves vertices; quotient merges vertices and bijectively maps edges",
+      "rendered_pdf_pages": [
+        3,
+        5
+      ],
+      "review_status": "pending"
+    },
+    "MORRIS2003_round4": {
+      "Lemma_4": "fixed-edge C(e)=1 normalization; general C_eff=C(e)/P(e in T), R_eff=P(e in T)/C(e)",
+      "Corollary_10_cutoff": "edge resistance 1/C(e)",
+      "rendered_pdf_pages": [
+        2,
+        4
+      ],
+      "review_status": "pending"
+    },
+    "HP2019COMP_round10": {
+      "Proposition_2_2": "simultaneous event: each K_i internally connected and the components containing distinct indexed sets are pairwise distinct; bound C product spread^{-(d-4)} with stated dependence",
+      "rendered_pdf_page": 10,
+      "review_status": "pending"
+    },
+    "HP2019COMP_Prop2_2_R04_supplement": {
+      "exact_event": "For a finite family (K_i) indexed by finite I, E=intersection over i,j of {F(K_i∪K_j) iff i=j}; every K_i lies within one USF component and components for different indices are pairwise distinct. The sets need not be disjoint.",
+      "proof": "Wilson algorithm gives event inclusion in the intersection of independent per-index connection events; independence and Theorem 2.1 give the product bound.",
+      "rendered_pdf_page": 10,
+      "review_status": "pending"
+    },
+    "R04_batch10_followup_2026-11-14": {
+      "AUX-W07-INTERLACEMENTS-2015_Theorem_1_1": "PDF p. 2: AB_t(I)={−e_t(v):v∈V}; the minus reverses the trajectory edge that first enters v, orienting the WUSF edge from v to its predecessor.",
+      "AUX-W07-UNIVERSALITY-2018_Theorem_1_5": "PDF p. 12: retain controlled stationary measure in addition to d-Ahlfors regularity for d>4 and Gaussian heat-kernel estimates.",
+      "AUX-W07-UNIVERSALITY-2018_Theorem_1_6": "PDF p. 13: retain controlled stationary measure, finite bubble norm, and uniform ballisticity.",
+      "AUX-W07-ENDS-2023_Proposition_12": "PDF p. 16 (not 15).",
+      "AUX-W07-ENDS-2023_Theorems_14_15": "PDF p. 18 (not 14).",
+      "rendered_pages": [
+        2,
+        12,
+        13,
+        16,
+        18
+      ],
+      "review_status": "pending"
+    }
+  },
+  "latest_reading_batch": {
+    "source_ids": [
+      "AUX-W07-REFLECTED-INFINITY-2025",
+      "AUX-W07-HARMONIC-DIRICHLET-2017",
+      "AUX-W07-CYCLE-FORESTS-2024",
+      "AUX-W07-CYCLE-MATROIDS-2024"
+    ],
+    "fulltext_read_count_added": 4,
+    "review_status": "pending",
+    "reader": "L13",
+    "scope_note": "Integrated four complete D05-supplied article reads with physical-page coverage and source cards. The sources cover reflected walk/FUSF applications, planar harmonic-Dirichlet isomorphism, finite weighted CRSF, and graphing cycle matroids. No source is counted as a PTN or Doyle–Snell book unit."
+  },
+  "l13_final4_integration": {
+    "helper_batch": "evidence/W07/reader_batches/L13_final4",
+    "source_ids": [
+      "AUX-W07-REFLECTED-INFINITY-2025",
+      "AUX-W07-HARMONIC-DIRICHLET-2017",
+      "AUX-W07-CYCLE-FORESTS-2024",
+      "AUX-W07-CYCLE-MATROIDS-2024"
+    ],
+    "helper_fulltext_reads": 4,
+    "mother_fulltext_reads_after_integration": 30,
+    "mother_source_records_after_integration": 41,
+    "review_status": "pending",
+    "path_sync_manifest": "evidence/W07/l13_final4_mother_sync_manifest.json",
+    "formal_mapping_added": [
+      "A025 auxiliary: planar HD witness under strict packing hypotheses"
+    ],
+    "no_formal_mapping_added_for": [
+      "AUX-W07-REFLECTED-INFINITY-2025",
+      "AUX-W07-CYCLE-FORESTS-2024",
+      "AUX-W07-CYCLE-MATROIDS-2024"
+    ],
+    "book_status_preserved": {
+      "PTN2026": "partial_read",
+      "DOYLE_SNELL1984": "acquired_unread"
+    },
+    "sync_manifest_sha256_after_helper_path_correction": "775025511f7594ca02f5739f74c3c27a49a6fb74e213c536942bf59a00283c71"
+  },
+  "mapping_row_count": 20,
+  "unique_problem_mapping_count": 14,
+  "universality_card_serialization_fix": {
+    "card": "evidence/W07/cards/AUX-W07-UNIVERSALITY-2018.md",
+    "backup": "evidence/W07/provenance/AUX-W07-UNIVERSALITY-2018.before-markdown-serialization-fix.md",
+    "backup_sha256": "5d6c9e62c58a4e6d311786f87f124117c9690c52ee9627482fc2b96edd6e1f98",
+    "fixed_sha256": "ba07adf0964131a5d9faf483a0ced1f5b5178f26f307b7965f03fa0e6185c974",
+    "transform": "Converted 36 unambiguous serialized \\n line-break escapes to real LF; preserved the one TeX control word \\ni in the conductance sum. TeX backslashes were byte-checked and left unchanged because the file contains no doubled backslash pairs.",
+    "review_status": "pending; math content unchanged"
+  }
+}

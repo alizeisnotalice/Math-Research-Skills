@@ -1,0 +1,9 @@
+Exact two-state witness for the positive-integer convention:
+Ideal P has both rows delta_0; p_0 = p_tilde_0 = delta_0; V~=1; delta=L=1/2.
+For every n>=1: tau(P^n)=0 <= C*rho^n for any C>0, rho=1/2.
+Theorem 3.1 witness: P_tilde rows delta_1, gamma=kappa=1, C=1/10.
+  n=1 true W distance = 1; printed RHS = 1/10; repaired C'=max(C,1) RHS = 1.
+Theorem 3.2 witness: P_tilde rows (19/20 delta_0 + 1/20 delta_1), gamma=1/10, C=1/10000.
+  Source TV convention gives true n=1 distance = 1/10; Decimal-evaluated printed RHS = 0.03694650540180104976076562179944813621888
+  Decimal-evaluated RHS after C'=max(C,1) = 2.017210845127907793133731745038838257012
+The examples isolate the zero-power constant issue under n in N = positive integers; the arithmetic is not a substitute for the theorem proofs.

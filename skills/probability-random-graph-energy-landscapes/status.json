@@ -1,0 +1,111 @@
+{
+  "package": "W24-final-v1",
+  "worker": "W24",
+  "skill": "probability-random-graph-energy-landscapes",
+  "scope_status": "R05_final_revision2_approved_staged_pending_H0",
+  "mother_binding_status": "R05_passed_for_source_integration",
+  "mother_review": "audit/R05_motherfinal/review.json",
+  "mother_review_sha256": "ae6bd6370895827c60b5878a6018290e5cddd40e49b95d9b0539363abfaf46fe",
+  "publication_approved": true,
+  "release_or_install_approved": false,
+  "source_count_target": [
+    30,
+    100
+  ],
+  "source_records": 31,
+  "canonical_unique_works": 31,
+  "fulltext_read_unique_works": 31,
+  "canonical_reuse_usage_credits": 0,
+  "R05_accepted_complete_reads": 31,
+  "R05_scoped_method_eligible": 30,
+  "tool_quota_met": true,
+  "eligible_source_ids": [
+    "PGEL-001",
+    "PGEL-002",
+    "PGEL-003",
+    "PGEL-004",
+    "PGEL-005",
+    "PGEL-006",
+    "PGEL-007",
+    "PGEL-008",
+    "PGEL-009",
+    "PGEL-010",
+    "PGEL-011",
+    "PGEL-012",
+    "PGEL-015",
+    "PGEL-016",
+    "PGEL-017",
+    "PGEL-018",
+    "PGEL-019",
+    "PGEL-020",
+    "PGEL-021",
+    "PGEL-022",
+    "PGEL-023",
+    "PGEL-024",
+    "PGEL-026",
+    "PGEL-030",
+    "PGEL-031",
+    "PGEL-032",
+    "PGEL-033",
+    "PGEL-040",
+    "PGEL-041",
+    "PGEL-045"
+  ],
+  "excluded_background_source_ids": [
+    "PGEL-029"
+  ],
+  "source_reading_status_counts": {
+    "fulltext_read": 31
+  },
+  "source_review_status_counts": {
+    "R05_motherfinal_passed": 31
+  },
+  "source_kind_counts": {
+    "paper_or_research_contribution": 31,
+    "whole_monographs_read": 0
+  },
+  "PGEL_040_counting_note": "Exact SHA-scoped R05 override: canonical kind=paper / formal publisher research contribution, kind_declared=book, full_book_acquired=false, no whole-volume read claimed.",
+  "PGEL_024_counting_note": "Counted by independent R05 method-eligibility approval; historic R08 quota_approved=false is retained and is not the basis for inclusion.",
+  "PGEL_029_counting_note": "Complete read accepted as background; tool_quota_eligibility=false and excluded from the 30.",
+  "source_identity_and_page_validation": "31 local PDFs rehashed against the mother ledger; pypdf physical page counts match all 31 records; coverage retains complete physical-page read ranges and per-section summaries.",
+  "complete_current_final_proof_snapshot": "audit/evidence_bundle.tar.gz",
+  "exact_R05_snapshot_files": 653,
+  "independent_skill_scope_review": "R05_passed_final_revision2",
+  "open_problem_interfaces": [
+    "C118 target signed complete-graph threshold remains unresolved; see mapping.json and references/problem-boundaries.md."
+  ],
+  "review_history_note": "R05 final revision2 scope review passed. This staging package awaits H0 stage review; no publisher, publication, or installation is claimed.",
+  "integrity": "file_hash_manifest.json and freeze_manifest.json; package root SHA-256 is in freeze_manifest.sha256.",
+  "reading_coverage": "reading_coverage.json",
+  "coverage_note": "coverage-readme.md",
+  "portable_all_read_source_PDFs": "source_pdf_manifest.json",
+  "package_revision": 2,
+  "active_file_hash_manifest": "file_hash_manifest_v2.json",
+  "active_freeze_manifest": "freeze_manifest_v2.json",
+  "revision1_freeze_preserved": {
+    "manifest": "freeze_manifest.json",
+    "sha256_file": "freeze_manifest.sha256",
+    "manifest_sha256": "8468fe5b867d8db4907749d1db8c6c29aa77d1ba82ba90dc0750029ce548ed03",
+    "digest_file_value": "8468fe5b867d8db4907749d1db8c6c29aa77d1ba82ba90dc0750029ce548ed03",
+    "file_hash_manifest": "file_hash_manifest.json",
+    "historical_revision_only": true
+  },
+  "R05_migration_finding_status": "corrected_and_approved_by_R05_final_revision2",
+  "R05_final_scope_review_snapshot": "evidence/review/review.json",
+  "R05_final_scope_review_sha256": "43b5372468d8c5ac42dde347db94debff9be9cb30d42e8e7c4b761d07a4c5a06",
+  "R05_raw_file_hash_manifest_snapshot": "evidence/review/R05_file_hash_manifest.json",
+  "R05_raw_file_hash_manifest_sha256": "5c50cdcc0fbe8f047dd61370c1daa3958f6622bd1071f296c31be80ac8bf4998",
+  "stage_review_status": "pending_H0",
+  "publisher_status": "publisher_pending_W24_scope_wiring",
+  "publication_performed": false,
+  "installation_performed": false,
+  "stage_projection_note": "Only stale review-status fields/text were updated in this staged copy. The exact approved candidate bytes, including the previous status text, remain in evidence/reviewed-original.zip.",
+  "pre_projection_status_snapshot": {
+    "scope_status": "complete_revision2_candidate_pending_R05_final_scope_recheck",
+    "publication_approved": false,
+    "release_or_install_approved": false,
+    "independent_skill_scope_review": "pending_R05_final_scope_review",
+    "review_history_note": "R05 mother-final acceptance is separate from this final-scope skill review. Earlier helper/mother status values are retained in audit/evidence_bundle.tar.gz and provenance overlays; this package does not claim publication approval.",
+    "R05_migration_finding_status": "corrected_19_card_relative_coverage_paths; pending R05 recheck"
+  }
+}

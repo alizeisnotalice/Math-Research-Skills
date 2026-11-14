@@ -1,0 +1,151 @@
+# 数学研究技能目录
+
+共 108 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+
+## 研究总入口
+
+| 技能 | 用途 |
+| --- | --- |
+| [math-research](../skills/math-research/SKILL.md) | 统筹数学研究、证明核验与计算实验：按问题选择数学方法技能、MATLAB、Python 或 Mathematica，并在需要时选择文件、浏览器或电脑操作工具。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。 |
+
+## 计算与绘图工具
+
+| 技能 | 用途 |
+| --- | --- |
+| [mathematica-math](../skills/mathematica-math/SKILL.md) | 用 Mathematica/Wolfram Language 进行可复现的数学符号推导、数值计算、优化与绘图，并核验结果；数学任务需要实际调用 Mathematica 时使用，不用于一般 Notebook 编辑。 |
+| [mathematica-research](../skills/mathematica-research/SKILL.md)（兼容 → mathematica-math） | 兼容旧版 Mathematica 研究调用名；指定该入口时使用 mathematica-math 的计算与核验流程。 |
+| [matlab-plotting](../skills/matlab-plotting/SKILL.md) | 使用本机 MATLAB 实际运行脚本，制作或修改论文与数学建模图；支持 CSV、Excel、MAT 和公式，检查中文、公式与排版，交付 PNG/PDF、可编辑 FIG 和可复现 .m 源码。用户要求 MATLAB 绘图、论文图美化、多子图或已有 MATLAB 图修改时使用。 |
+| [python-math](../skills/python-math/SKILL.md) | 使用本机 Python 实际执行数学运算、SymPy 符号推导、NumPy/SciPy 数值计算与优化、有限枚举及结果验证；先选择已有解释器和数学库，再保存脚本、运行并检查结果。用户要求用 Python 跑计算或研究任务适合 Python 时使用。 |
+
+## 数学方法（A–N）
+
+| 技能 | 用途 |
+| --- | --- |
+| [math-a01-fractional-normalization](../skills/math-a01-fractional-normalization/SKILL.md) | 审查齐次归一化与分式规划中的正分母、Charnes–Cooper 变换、松弛方向及达到条件。 |
+| [math-a02-outer-relaxation-budget](../skills/math-a02-outer-relaxation-budget/SKILL.md) | 构造或审查外放松映射，核对正支配、约束保持、界方向和误差预算。 |
+| [math-a03-compactness-concentration](../skills/math-a03-compactness-concentration/SKILL.md) | 分析近极值序列的紧性、集中、逃逸与极限传递，核对归一化和质量保持。 |
+| [math-a04-shared-nonanticipative-mip](../skills/math-a04-shared-nonanticipative-mip/SKILL.md) | 审查共同选择的混合整数模型与非前视约束，检查不同情形是否由同一决策实现。 |
+| [math-b01-lagrange-farkas](../skills/math-b01-lagrange-farkas/SKILL.md) | 推导或核验 Lagrange 对偶与 Farkas 证书，检查约束资格、对偶方向及不可行性证据。 |
+| [math-b02-semi-infinite-exchange](../skills/math-b02-semi-infinite-exchange/SKILL.md) | 处理半无限规划与约束生成，核对分离子问题、交换步骤、停止条件和全域覆盖。 |
+| [math-b03-generalized-moments](../skills/math-b03-generalized-moments/SKILL.md) | 用广义矩问题组织概率或解析界，核对矩约束、对偶多项式和达到条件。 |
+| [math-b04-qualification-facial-minimax](../skills/math-b04-qualification-facial-minimax/SKILL.md) | 检查约束资格、面约化及极小极大交换，定位强对偶或量词交换所需的假设。 |
+| [math-c01-semidefinite-lifting](../skills/math-c01-semidefinite-lifting/SKILL.md) | 审查半定提升的建模、秩约束与松弛方向，区分 SDP 界和原问题可行解。 |
+| [math-c02-completely-positive-copositive](../skills/math-c02-completely-positive-copositive/SKILL.md) | 分析完全正锥和共正锥表述，核对锥对偶、有限近似及最优性证书范围。 |
+| [math-c03-moment-sos-certificates](../skills/math-c03-moment-sos-certificates/SKILL.md) | 构建或核验矩与 SOS 层级，检查正多项式证书、截断阶数、紧性和解恢复。 |
+| [math-c04-branch-and-bound](../skills/math-c04-branch-and-bound/SKILL.md) | 组织分支定界中的可行界、松弛界、剪枝和终止证书，检查全局覆盖。 |
+| [math-d01-kantorovich-duality](../skills/math-d01-kantorovich-duality/SKILL.md) | 核验 Kantorovich 输运对偶及势函数，检查代价、可积性和原始对偶可行性。 |
+| [math-d02-gibbs-entropy-duality](../skills/math-d02-gibbs-entropy-duality/SKILL.md) | 推导 Gibbs 变分与熵对偶，检查参考测度、归一化、有限熵和等号条件。 |
+| [math-d03-parameterized-free-energy](../skills/math-d03-parameterized-free-energy/SKILL.md) | 分析指定参数的自由能弱式，核对参数范围、变分方向和与目标问题的接口。 |
+| [math-d04-entropy-chain-rule](../skills/math-d04-entropy-chain-rule/SKILL.md) | 使用熵链式分解分析联合与条件分布，核对可测性、条件核和积分合法性。 |
+| [math-e01-occupation-measure-flow-lp](../skills/math-e01-occupation-measure-flow-lp/SKILL.md) | 建立占用测度 LP 与流守恒模型，核对真实过程、边界通量和可实现性。 |
+| [math-e02-nonlocal-hjb-supersolution](../skills/math-e02-nonlocal-hjb-supersolution/SKILL.md) | 构造或审查非局部 HJB 超解，核对生成元、边界条件与验证不等式方向。 |
+| [math-e03-tree-bellman-cross-layer-budget](../skills/math-e03-tree-bellman-cross-layer-budget/SKILL.md) | 分析树 Bellman 跨层预算势，核对层间递推、公共预算与终端结算。 |
+| [math-e04-snell-envelope-optimal-stopping](../skills/math-e04-snell-envelope-optimal-stopping/SKILL.md) | 处理最优停止与 Snell 包络，核对滤过、可积性、停止时及极限传递。 |
+| [math-f01-geometric-mean-kernel-two-winner-audit](../skills/math-f01-geometric-mean-kernel-two-winner-audit/SKILL.md) | 审查几何平均核与两赢家分支估计，检查同输入耦合和分支选择条件。 |
+| [math-f02-tensor-fourier-positivity-soft-square-supremum](../skills/math-f02-tensor-fourier-positivity-soft-square-supremum/SKILL.md) | 核验张量 Fourier 正性及软度平方上确界估计，区分频域正性与所需最大界。 |
+| [math-f03-hilbert-schmidt-radial-layer-square-envelope](../skills/math-f03-hilbert-schmidt-radial-layer-square-envelope/SKILL.md) | 审查 Hilbert–Schmidt 径向层叠与平方包络，检查层间求和和核的适用条件。 |
+| [math-f04-poisson-gamma-abel-square-function](../skills/math-f04-poisson-gamma-abel-square-function/SKILL.md) | 使用 Poisson–Gamma 与 Abel 平方函数方法，核对参数积分、权重和接口条件。 |
+| [math-f05-l2-spectral-parameter-schur-test](../skills/math-f05-l2-spectral-parameter-schur-test/SKILL.md) | 推导 L² 谱参数估计与 Schur 检验，检查核界、测度、权重和常数依赖。 |
+| [math-f06-menshov-rademacher-maximal-partial-sums](../skills/math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md) | 核验 Rademacher–Menshov 最大部分和估计，检查正交性、索引与对数损失。 |
+| [math-f07-marcinkiewicz-zygmund-vector-extension](../skills/math-f07-marcinkiewicz-zygmund-vector-extension/SKILL.md) | 审查 Marcinkiewicz–Zygmund 向量值延拓，核对算子类型、指数范围和随机化条件。 |
+| [math-g01-carleson-measure-box-and-tent-test](../skills/math-g01-carleson-measure-box-and-tent-test/SKILL.md) | 检验 Carleson 测度的盒、帐篷与嵌入条件，核对几何族、尺度及常数。 |
+| [math-g02-outer-lp-size-and-tree-stopping](../skills/math-g02-outer-lp-size-and-tree-stopping/SKILL.md) | 使用外测度 Lp、大小函数和树停止方法，核对外测度结构与嵌入假设。 |
+| [math-g03-directional-capture-tree-quadratic-audit](../skills/math-g03-directional-capture-tree-quadratic-audit/SKILL.md) | 审查方向性捕获树的二次型及来源算子，核对方向、选择器和耦合结构。 |
+| [math-g04-rubio-de-francia-square-function-scope-check](../skills/math-g04-rubio-de-francia-square-function-scope-check/SKILL.md) | 核验树上 Rubio de Francia 平方函数估计的适用范围与频率几何条件。 |
+| [math-g05-tree-carleson-square-function-tc-a4-audit](../skills/math-g05-tree-carleson-square-function-tc-a4-audit/SKILL.md) | 审查 TC-A4 Carleson 型平方函数界，核对树结构、输入范围和具体假设。 |
+| [math-h01-uniform-cramer-moderate-deviations](../skills/math-h01-uniform-cramer-moderate-deviations/SKILL.md) | 核验一致 Cramér 中偏差和三角阵尾估计，检查一致参数范围、矩条件和误差。 |
+| [math-h02-exponential-tilting-saddlepoint](../skills/math-h02-exponential-tilting-saddlepoint/SKILL.md) | 分析指数倾斜与鞍点尾近似，核验鞍点、精确倾斜恒等式、Mills 界及误差范围。 |
+| [math-h03-fan-grama-liu-martingale-expansion](../skills/math-h03-fan-grama-liu-martingale-expansion/SKILL.md) | 应用或审查 Fan–Grama–Liu 鞅展开，核对条件矩、滤过及展开误差。 |
+| [math-h04-exact-rate-function-variance-strata](../skills/math-h04-exact-rate-function-variance-strata/SKILL.md) | 计算或核对精确率函数与方差分层，保持参数域和各层尾估计的一致性。 |
+| [math-h05-chernoff-hoeffding-bernstein](../skills/math-h05-chernoff-hoeffding-bernstein/SKILL.md) | 选择和核验 Chernoff、Hoeffding、Bernstein 尾界，检查独立性、矩条件和常数。 |
+| [math-i01-ordered-increment-conditional-bernstein](../skills/math-i01-ordered-increment-conditional-bernstein/SKILL.md) | 在有序滤过下核验条件 Bernstein 矩并推导指数超鞅与尾界，区分条件和无条件假设。 |
+| [math-i02-filtration-projections-compensators](../skills/math-i02-filtration-projections-compensators/SKILL.md) | 处理滤过、可选或可预测投影及补偿子，核对适应性、可积性和版本。 |
+| [math-i03-fourth-moment-suffix-maximal-comparison](../skills/math-i03-fourth-moment-suffix-maximal-comparison/SKILL.md) | 审查后缀四阶矩与最大值到末端比较，核对过程结构、矩界及比较范围。 |
+| [math-i04-random-carleson-occupancy-llogl](../skills/math-i04-random-carleson-occupancy-llogl/SKILL.md) | 分析随机 Carleson 占用与 LlogL 条件，检查随机测度、占用结构和可积性。 |
+| [math-j01-inhomogeneous-jump-generator](../skills/math-j01-inhomogeneous-jump-generator/SKILL.md) | 推导非齐次跳跃过程的真实生成元，核对时间依赖、跳核及状态空间。 |
+| [math-j02-killed-process-duhamel-first-jump](../skills/math-j02-killed-process-duhamel-first-jump/SKILL.md) | 使用杀死过程、Duhamel 或首次跳跃标签分解，核对杀死项和边界结算。 |
+| [math-j03-nonlocal-balayage-exit-measure](../skills/math-j03-nonlocal-balayage-exit-measure/SKILL.md) | 分析非局部 balayage 与退出测度，核对退出规则、调和条件和核表示。 |
+| [math-j04-jump-compensation-fubini-exit-settlement](../skills/math-j04-jump-compensation-fubini-exit-settlement/SKILL.md) | 核验跳跃补偿、随机 Fubini 与退出财富结算，检查可积性及停止边界项。 |
+| [math-j05-frozen-coordinate-iterated-compensation-interface](../skills/math-j05-frozen-coordinate-iterated-compensation-interface/SKILL.md) | 审查非齐次跳跃中的冻结坐标与迭代补偿，核对条件结构、标签和合法换序。 |
+| [math-k01-chan-lai-asymptotically-gaussian-fields](../skills/math-k01-chan-lai-asymptotically-gaussian-fields/SKILL.md) | 核验 Chan–Lai 渐近高斯场方法，检查局部协方差、尾近似和一致性条件。 |
+| [math-k02-pickands-piterbarg-double-sum](../skills/math-k02-pickands-piterbarg-double-sum/SKILL.md) | 使用 Pickands–Piterbarg 双重求和分析极值尾，核对局部结构、重叠项和余项。 |
+| [math-k03-dirksen-mixed-tail-generic-chaining](../skills/math-k03-dirksen-mixed-tail-generic-chaining/SKILL.md) | 应用 Dirksen 混合尾泛链界，检查增量尾、半度量、熵或泛链泛函。 |
+| [math-k04-anti-concentration-empirical-process](../skills/math-k04-anti-concentration-empirical-process/SKILL.md) | 审查反集中与经验过程估计，核对指标集、过程假设和概率误差范围。 |
+| [math-k05-talagrand-convex-concentration](../skills/math-k05-talagrand-convex-concentration/SKILL.md) | 核验 Talagrand 凸集中方法，检查乘积结构、凸距离及所用版本。 |
+| [math-l01-lower-bound-test-parameters](../skills/math-l01-lower-bound-test-parameters/SKILL.md) | 选择下界测试参数向量，核对输入可行性、归一化和可认证的下界范围。 |
+| [math-l02-adversarial-input-search](../skills/math-l02-adversarial-input-search/SKILL.md) | 开展对抗输入优化与反例搜索，区分有限搜索证据、可行构造和全局断言。 |
+| [math-l03-rational-and-interval-certificates](../skills/math-l03-rational-and-interval-certificates/SKILL.md) | 构造或核验区间算术、有理对偶与证明型数值证书，检查舍入和全域覆盖。 |
+| [math-l04-mathematical-programming-workflow](../skills/math-l04-mathematical-programming-workflow/SKILL.md) | 组织数学规划软件的建模与结果核验，检查求解器、容差、可行性和界方向。 |
+| [math-l05-csp-sat-smt-encoding](../skills/math-l05-csp-sat-smt-encoding/SKILL.md) | 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、完备性及可检查证书。 |
+| [math-m01-convex-hull-extreme-points](../skills/math-m01-convex-hull-extreme-points/SKILL.md) | 使用 Carathéodory 与 Krein–Milman 极点方法，核对凸包、拓扑与紧性条件。 |
+| [math-m02-separation-support-certificate](../skills/math-m02-separation-support-certificate/SKILL.md) | 构造 Hahn–Banach 分离或支撑函数证书，检查闭性、拓扑和分离方向。 |
+| [math-m03-near-extremizer-stability](../skills/math-m03-near-extremizer-stability/SKILL.md) | 分析近极值稳定性与刚性，核对亏损量、对称性、距离和紧性缺口。 |
+| [math-m04-measurable-supremum-selection](../skills/math-m04-measurable-supremum-selection/SKILL.md) | 处理可测上确界、解析投影和可测选择，核对参数空间、可测性及选择器范围。 |
+| [math-n01-john-loewner-ellipsoid](../skills/math-n01-john-loewner-ellipsoid/SKILL.md) | 使用 John 或 Löwner 椭球与容量方法，核对凸体假设、归一化和常数依赖。 |
+| [math-n02-log-concave-marginal-inequalities](../skills/math-n02-log-concave-marginal-inequalities/SKILL.md) | 核验 Prékopa–Leindler、BBL 与对数凹边际不等式，检查指数、积分和等号条件。 |
+| [math-n03-oscillation-and-geometric-remainder](../skills/math-n03-oscillation-and-geometric-remainder/SKILL.md) | 分析 van der Corput、半密度与振荡抵消的几何余项，核对相位和一致参数范围。 |
+| [math-n04-summable-error-entropy-descent](../skills/math-n04-summable-error-entropy-descent/SKILL.md) | 组织可求和误差与熵递减论证，检查逐层预算、收敛传递和累计误差。 |
+
+## 概率研究专题
+
+| 技能 | 用途 |
+| --- | --- |
+| [probability-analytic-endpoint-methods](../skills/probability-analytic-endpoint-methods/SKILL.md) | Audit weak-type endpoints, Lorentz and Hardy endpoint methods, and Riesz-transform claims by matching exact input class, output norm, domain, and theorem hypotheses. |
+| [probability-bandit-information-bounds](../skills/probability-bandit-information-bounds/SKILL.md) | Analyze stochastic bandit regret and best-arm identification using KL change of measure, structured alternatives, RKHS confidence regions, and sampling allocations; use for direct Bernoulli-mean kernel bandits or fixed-budget versus fixed-confidence distinctions. |
+| [probability-bernoulli-factory](../skills/probability-bernoulli-factory/SKILL.md) | Analyze exact Bernoulli factories, finite coin-flipping degree, and stopping-time tail or moment claims with their model assumptions explicit. |
+| [probability-boolean-fourier-invariance](../skills/probability-boolean-fourier-invariance/SKILL.md) | Analyze Boolean-cube Fourier, coordinate influence, noise stability, low-influence invariance, and bounded-independence PTF questions. Use when the model is a Boolean function or product-space polynomial transfer; use the Gaussian approximation skill for sharp Hermite or Gaussian sign-approximation constants. |
+| [probability-brownian-potential-fractals](../skills/probability-brownian-potential-fractals/SKILL.md) | Analyze Brownian path geometry, Hausdorff dimension and capacity, planar SLE/conformal tools, or reflected Brownian couplings. Apply when a problem turns on the exact random set, coupling rule, or potential kernel. |
+| [probability-concentration-chaining](../skills/probability-concentration-chaining/SKILL.md) | Apply and audit concentration inequalities, large-deviation bounds, empirical-process/chaining estimates, and anti-concentration results while preserving model assumptions and the distinction between upper tails and small-ball bounds. |
+| [probability-first-passage-growth](../skills/probability-first-passage-growth/SKILL.md) | Analyze first-passage percolation, geodesics and Busemann functions, random growth and competition, and max-flow questions when the exact weight law, lattice, dimension, or direction hypotheses matter. |
+| [probability-forests-electrical-networks](../skills/probability-forests-electrical-networks/SKILL.md) | Analyze uniform and minimal spanning forests, electrical networks, mass transport, unimodular random networks, and related finite spanning-tree inequalities. |
+| [probability-gaussian-polynomial-approximation](../skills/probability-gaussian-polynomial-approximation/SKILL.md) | Analyze Hermite expansions, Gaussian polynomial moments and tails, anti-concentration, and approximation of Gaussian sign or indicator functions. Use when the input is a real polynomial under standard Gaussian measure; keep low-influence invariance and PTF boundary results within their stated hypotheses. |
+| [probability-information-cluster-expansion](../skills/probability-information-cluster-expansion/SKILL.md) | Analyze entropy-rate variational problems, synchronization and deletion-channel capacity, renewal polling limits, and convergence of cluster or asymptotic expansions. |
+| [probability-integer-polynomial-factorization](../skills/probability-integer-polynomial-factorization/SKILL.md) | Analyze finite-support integer convolution and the unfair 0–1 polynomial factorization problem, including exact coefficient recurrences and bounded semialgebraic searches. Use when a 0–1 polynomial is factored into monic nonnegative real polynomials; epsilon-relaxations with signed factors require an explicit boundary check. |
+| [probability-logconcave-moment-geometry](../skills/probability-logconcave-moment-geometry/SKILL.md) | Analyze moment comparisons, centroid-body expansion, convex geometry, and transport or functional inequalities for log-concave laws. |
+| [probability-markov-spectral-mixing](../skills/probability-markov-spectral-mixing/SKILL.md) | Analyze finite reversible Markov-chain mixing and spectral gaps, especially heat-bath Glauber dynamics for ferromagnetic Ising models; use when a claim depends on update clocks, graph geometry, or correlation inequalities. |
+| [probability-martingale-stopping](../skills/probability-martingale-stopping/SKILL.md) | Analyze martingales, stopping rules, maximal inequalities, stochastic integrals, and martingale-problem limits with explicit filtration and integrability checks. |
+| [probability-measure-convergence](../skills/probability-measure-convergence/SKILL.md) | Analyze weak convergence, tightness, conditional laws, changing integrands, and martingale-problem limits. Use when a proof passes from stochastic models to limits of probability measures or needs a precise convergence mode. |
+| [probability-nonlinear-law-dynamics](../skills/probability-nonlinear-law-dynamics/SKILL.md) | Analyze fixed points and iteration of probability-law operators, including nested stationary-law maps, nonlinear Markov updates, and recursive distributional equations; use when the proof needs operator-specific existence, uniqueness, stability, or global convergence. |
+| [probability-optimization-certificates](../skills/probability-optimization-certificates/SKILL.md) | Build and audit finite-dimensional optimization bounds and proof certificates used inside probability arguments, including duality, interval validation, and exact LP/MIP checks. |
+| [probability-percolation-renormalization](../skills/probability-percolation-renormalization/SKILL.md) | Analyze percolation, bootstrap infection, block renormalization, essential enhancements, and related zero-forcing or random-graph propagation questions while keeping model assumptions explicit. |
+| [probability-poset-counting-sampling](../skills/probability-poset-counting-sampling/SKILL.md) | Count linear extensions and related finite poset families, derive entropy bounds, or build exact samplers; also use for finite graph-labeling peak constraints that admit a verifiable counting recurrence. |
+| [probability-prophet-online-selection](../skills/probability-prophet-online-selection/SKILL.md) | Analyze prophet inequalities, optimal thresholds, online resource allocation, and stochastic matching while preserving the arrival model and benchmark. |
+| [probability-queueing-heavy-traffic](../skills/probability-queueing-heavy-traffic/SKILL.md) | Analyze queueing-network stability and heavy-traffic limits using fluid/Lyapunov methods, polling models, state-space collapse, BAR, and reflected diffusions. |
+| [probability-random-graph-energy-landscapes](../skills/probability-random-graph-energy-landscapes/SKILL.md) | Analyze synchronization, phase-locking, and energy-landscape claims for graph-coupled oscillator models; choose a theorem only when its graph, coupling, symmetry, quotient, and probability hypotheses match. |
+| [probability-random-matrix-tensor](../skills/probability-random-matrix-tensor/SKILL.md) | Prove or audit random matrix and tensor norm bounds, Banach type-2 estimates, and noncommutative martingale inequalities. Use when the norm, covariance model, or row/column square-function assumptions need precise source-based checking. |
+| [probability-random-recursive-trees-asymptotics](../skills/probability-random-recursive-trees-asymptotics/SKILL.md) | Analyze asymptotic moments, profiles, fringe statistics, and limit laws for size-dependent or recursively grown random trees while preserving the construction, sampling rule, and theorem hypotheses. |
+| [probability-random-spatial-tree-geometry](../skills/probability-random-spatial-tree-geometry/SKILL.md) | Analyze random spatial networks, SIRSN route geometry, tree-biased random walks, and harmonic measure on tree boundaries; use when the model’s route law, bias convention, or boundary metric must be checked. |
+| [probability-self-avoiding-walks-and-sle](../skills/probability-self-avoiding-walks-and-sle/SKILL.md) | Analyze rigorous self-avoiding-walk growth and graph methods, and audit proposed links from planar lattice walks to continuum SLE. |
+
+## 文献检索与获取
+
+| 技能 | 用途 |
+| --- | --- |
+| [academic-literature-search](../skills/academic-literature-search/SKILL.md) | 检索、筛选和核验中英文学术文章，输出相关性说明、可追溯来源及 BibTeX 引用。 用于查论文、找相关研究、了解研究进展、补充参考文献，以及按需查找主张的文献证据。 |
+| [cnki-search](../skills/cnki-search/SKILL.md) | 在中国知网（CNKI）上检索学术论文并导出参考文献。Use when Codex needs to find CNKI papers, search Chinese academic literature, retrieve paper metadata/details/references, or produce GB/T 7714-style citations from queries mentioning 知网, CNKI, 中国知网, 文献检索, 论文搜索, 参考文献, 期刊论文, 学位论文, or 会议论文. |
+| [literature-download](../skills/literature-download/SKILL.md)（兼容 → literature-search-download） | 兼容按题录或 DOI 清单批量下载文献的旧入口；使用 literature-search-download 的按清单获取流程。 |
+| [literature-search-download](../skills/literature-search-download/SKILL.md) | 检索中英文学术文献、核验题录与版本、下载可获取的论文全文，交付 PDF、BibTeX 和可追溯清单。用于“找论文并下载”、按 DOI/题名/文献表批量获取全文，也支持只检索或只下载；不自动扩展为论文翻译或系统综述。 |
+
+## 论文写作、翻译与表达
+
+| 技能 | 用途 |
+| --- | --- |
+| [academic-paper-translator](../skills/academic-paper-translator/SKILL.md) | 将数学、物理、计算机领域的英文学术文献忠实翻译为简体中文，支持 PDF、Word、网页和粘贴文本，保留公式与图表，默认交付中文 Word 和 PDF。 用于英文论文翻译、文献汉化、整篇或指定章节翻译；长文可由多个 subagent 分工。单纯文献检索、摘要提炼或论文润色不触发本技能。 |
+| [academic-paper-writing](../skills/academic-paper-writing/SKILL.md) | 起草、修改和点评中英文学术论文（academic paper writing / scientific writing），按需拆解范文并建立有出处的句式库。 适用于科研论文的章节写作、结构诊断与写作训练；单纯文献检索、论文翻译或竞赛论文排版使用对应专项 skill。 |
+| [anti-defensive-writing](../skills/anti-defensive-writing/SKILL.md) | 起草或修订论文、摘要、引言、讨论及技术说明时，删去重复自我否定、无信息免责声明和层叠保留语，直接表达有证据的观点；保留影响结论成立的假设、范围、方法限制和真实不确定性。 |
+| [math-paper-writing](../skills/math-paper-writing/SKILL.md) | 以用户提供的《数学论文写作规范_动机结构与自然表达》PDF 为准，起草、修改和点评中英文数学研究论文，落实文章结构、方法动机、证明与自然表达，检查量词和计算证据。 尤其适用于调和分析、极大算子、概率与随机过程、几何分析、优化及计算辅助证明；纯文献检索、逐篇翻译和单纯竞赛排版使用对应技能。 |
+| [pdf-paper-translate](../skills/pdf-paper-translate/SKILL.md)（兼容 → academic-paper-translator） | 兼容学术论文 PDF 翻译的旧入口；转入 academic-paper-translator，保留指定的输出格式与排版要求。 |
+
+## 数学建模竞赛
+
+| 技能 | 用途 |
+| --- | --- |
+| [math-modeling-audit](../skills/math-modeling-audit/SKILL.md) | 审计数学建模竞赛项目的模型假设、算法结论、实验账本与论文数值，恢复多版本项目的可信状态。适用于检查建模结果是否可靠、核对论文与代码数据、区分历史重算和新实验、定位证据缺口；不用于单纯论文排版或替代用户开展新实验。 |
+| [math-modeling-delivery](../skills/math-modeling-delivery/SKILL.md) | 将数学建模结果组织为题目要求的 Excel、论文图表、附录和可复现支撑包。适用于核对输出采样与精度、同步结果及源码、清理重复材料、制作 ZIP/RAR 和提交前一致性核验；不自动代签、上传或重跑正式实验。 |
+| [math-modeling-paper](../skills/math-modeling-paper/SKILL.md) | 编排或局部修订中文数学建模竞赛论文，处理页数口径、页码与页脚、摘要精确加粗、图表位置、附录及 PDF 最小改动验收。适用于保留指定基线格式、修复大块空白、按 Word 标注修改摘要或生成数学建模排版提示词；不用于改写未经授权的模型结论。 |
+
+## 指定模型咨询
+
+| 技能 | 用途 |
+| --- | --- |
+| [astra-delegate](../skills/astra-delegate/SKILL.md) | 在用户请求 Astra 协助证明、审查或分析时，优先使用可用的 Codex Astra 子 Agent；需要使用用户自己的 OpenAI Platform API 时，执行独立的 Astra 模型咨询。 |

@@ -1,0 +1,68 @@
+[
+  {
+    "problem_id": "A020",
+    "tool": "probability-brownian-potential-fractals",
+    "role": "direct",
+    "needed_lemma": "Construct or rule out a coupling of two Neumann-reflected Brownian motions in the specified acute triangle that preserves both marginals and achieves the stated asymptotic tail exponent at the problem’s exact μ₂ normalization.",
+    "source_local_ids": [
+      "W08-R004",
+      "W08-R002",
+      "W08-R012",
+      "M0224",
+      "W08-R009"
+    ],
+    "unproved_interface": "W08-R004 only proves mirror-coupling efficiency/inefficiency in its stated triangle cases and does not exclude arbitrary couplings; the μ₂ versus generator-rate normalization conflict in the source example must be resolved against the problem’s operator convention. Eberle (W08-R009) gives an auxiliary Euclidean reflection-contraction method under a radial curvature condition; its smooth bounded convex-domain remark does not cover a nonsmooth acute triangle or the problem-specific spectral tail. Eberle reflection is in driving-Brownian space along e=σ^{-1}(X−Y)/|σ^{-1}(X−Y)| for general σ; the smooth bounded convex-domain extension explicitly fixes G=I_d and uses diameter fallback for empty infima."
+  },
+  {
+    "problem_id": "B060",
+    "tool": "probability-brownian-potential-fractals",
+    "role": "auxiliary",
+    "needed_lemma": "For the planar Brownian hull K, determine whether the trace after removing the boundaries of complementary components is totally disconnected in the Euclidean topology.",
+    "source_local_ids": [
+      "W08-R001",
+      "M0224"
+    ],
+    "unproved_interface": "No read source proves the continuum topological claim. The exact complement-component family, boundary subtraction, and total-disconnectedness of the residual random set need a separate argument; pixel approximations cannot certify it."
+  },
+  {
+    "problem_id": "B061",
+    "tool": "probability-brownian-potential-fractals",
+    "role": "direct",
+    "needed_lemma": "Evaluate the infimum of Hausdorff dimensions over all Jordan arcs J contained in planar Brownian trace B[0,1] with at least two points.",
+    "source_local_ids": [
+      "M0171",
+      "M0172",
+      "M0175",
+      "M0179",
+      "M0224",
+      "W08-R001",
+      "W08-R006",
+      "W08-R007",
+      "W08-R013",
+      "W08-R014",
+      "W08-R005",
+      "M0177",
+      "M0192",
+      "M0193",
+      "M0196",
+      "M0201",
+      "M0205",
+      "M0206"
+    ],
+    "unproved_interface": "Frontier dimension 4/3 and labyrinth-dimension supremum 2 do not give the infimum. Zhan+Beffara may supply an upper bound via a radial/chordal and stopped-time transfer; no checked source here proves an arc of dimension 1 or a matching lower bound beyond the universal Jordan-arc bound. LSW (W08-R013) proves a discrete planar LERW scaling limit, while Zhan (W08-R014) proves discrete-to-continuous LERW convergence in finitely connected domains under stated target/boundary assumptions; neither itself proves the Jordan-arc infimum or substitutes for W08-R007’s continuous Brownian loop-erasure theorem. Bishop–Jones–Pemantle–Peres (W08-R005) proves only a frontier lower bound above one under its tile criterion, not a Jordan-arc infimum; M0177 compares specified stopped filled hulls/frontiers and does not give equality of full traces. M0192 proves existence of cut points but no dimension for them; M0193 establishes exponent existence/invariance without evaluating the Brownian Jordan-arc family; M0196 gives only large-packet exponent asymptotics; M0201 applies only to CCI bridge measures and leaves SAW/percolation scaling assumptions heuristic. M0205/M0206 complete the planar frontier exponent and frontier dimension 4/3, which still does not evaluate the Jordan-arc infimum."
+  },
+  {
+    "problem_id": "B062",
+    "tool": "probability-brownian-potential-fractals",
+    "role": "direct",
+    "needed_lemma": "In the problem’s bounded smooth connected multiply-connected planar domain, determine whether synchronous inward-normal reflected Brownian coupling can have positive probability of limsup separation greater than zero.",
+    "source_local_ids": [
+      "W08-R003",
+      "W08-R011",
+      "W08-R012",
+      "W08-R008",
+      "W08-R010"
+    ],
+    "unproved_interface": "Keep synchronous and mirror reflection couplings distinct and retain bounded smooth multiply-connected domain hypotheses; the separate exterior-of-disks construction is not an immediate counterexample. Fully read W08-R008 Theorem 4.3 requires a bounded convex planar domain with C1 boundary and no line segments, while W08-R010 treats bounded convex domains only for co-adapted couplings; neither directly covers the stated smooth multiply-connected domain. W08-R015 is also co-adapted and its planar extension assumes simple connectivity, so it does not cover holes. The desired positive-probability limsup-separation conclusion remains unproved. W08-R008 Theorem 4.3 is only for the paper’s default Markov-coupling class: both coordinates and pair Markov with matching marginals, plus the conditional-future condition for X; it is not a theorem for arbitrary couplings or a comparison that strengthens co-adapted scope."
+  }
+]

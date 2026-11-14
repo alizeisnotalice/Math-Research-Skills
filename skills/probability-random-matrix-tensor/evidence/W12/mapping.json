@@ -1,0 +1,88 @@
+[
+  {
+    "problem_id": "C120",
+    "tool": "probability-random-matrix-tensor",
+    "role": "direct",
+    "needed_lemma": "Compare the Rademacher/Gaussian type-2 constant of the full multilinear ell_p injective norm with the diagonal symmetric injective norm, then obtain a dimension exponent d^(1/2-1/p) up to polylogarithmic factors for every fixed r,p>=2.",
+    "source_local_ids": [
+      "W12-001",
+      "W12-002",
+      "W12-003"
+    ],
+    "context_source_local_ids": [
+      "W12-004",
+      "W12-005",
+      "W12-006",
+      "W12-009",
+      "W12-010",
+      "W12-014",
+      "W12-015",
+      "W12-017",
+      "W12-011",
+      "W12-012",
+      "W12-027"
+    ],
+    "unproved_interface": "W12-002 proves matching dimension exponents only for p>=2r; for 2<=p<2r its general upper bound loses a fixed power of d. W12-003 is variance-profile-sensitive and does not by itself reduce to the target sum_i ||T_i||_sym(I_p)^2. Symmetric/full norm equivalence costs only r^r/r! for fixed r, but does not close the low-p exponent gap. Matrix spectral norm identification is confined to r=p=2."
+  },
+  {
+    "problem_id": "C205",
+    "formal120_display_id": "C38",
+    "tool": "probability-random-matrix-tensor",
+    "role": "direct",
+    "needed_lemma": "For arbitrary Wishart scale Sigma, real alpha>p-1, disjoint principal diagonal blocks and arbitrary nonnegative real powers, prove E product_i det(X_ii)^nu_i >= product_i E det(X_ii)^nu_i.",
+    "source_local_ids": [
+      "W12-028",
+      "W12-029",
+      "W12-031"
+    ],
+    "unproved_interface": "W12-029 proves the two-block case. W12-031 computes every finite-block joint moment only for nonnegative integer exponents; exact evaluation does not prove the sign of the GPI difference and does not cover arbitrary real exponents. The nearby completely-monotone-function bounds in W12-028 concern a different function class. A scalar Gaussian product inequality for linear coordinates is not a determinant-moment theorem. W12-030 is a trace-Wishart boundary comparator only: its Conjecture 1 is for block traces and its proved completely-monotone/Laplace-order results do not establish determinant moments.",
+    "boundary_source_local_ids": [
+      "W12-030"
+    ]
+  },
+  {
+    "problem_id": "C206",
+    "formal120_display_id": "C39",
+    "tool": "probability-random-matrix-tensor",
+    "role": "direct",
+    "needed_lemma": "Prove the lower-orthant group association inequality for determinant sublevel events of disjoint Wishart principal blocks, for all positive thresholds and every split k.",
+    "source_local_ids": [
+      "W12-028"
+    ],
+    "boundary_source_local_ids": [
+      "W12-032",
+      "W12-030"
+    ],
+    "unproved_interface": "Conjecture 3.8 is a distributional event statement and is not equivalent to C205. Completely-monotone Laplace-transform inequalities do not automatically apply to determinant-sublevel indicators. W12-032's title/authors/abstract/version/hash match the official arXiv record and v1 PDF by D03; its theorem concerns jointly Gaussian scalar coordinates, whereas Wishart block determinants are nonlinear functions. A targeted search found no direct resolution, but this is not an exhaustive proof of current open status. W12-030 concerns trace-Wishart block traces; it supplies no determinant lower-orthant event result."
+  },
+  {
+    "problem_id": "B171",
+    "dossier": "isolated dossier clue; not a formal120 problem",
+    "tool": "probability-random-matrix-tensor",
+    "role": "auxiliary",
+    "needed_lemma": "In a semifinite tracial von Neumann algebra, under the exact Delta_2 and L1-bounded martingale assumptions, obtain one row/column decomposition x=y+z controlling the stated Phi(mu_t(S_c(y))) and Phi(mu_t(S_r(z))) quantities simultaneously for every t>0.",
+    "source_local_ids": [
+      "W12-024",
+      "W12-023",
+      "W12-022",
+      "W12-018",
+      "W12-025"
+    ],
+    "unproved_interface": "The 2015 survey states this as an endpoint question. Weak Phi-moment transform/BDG results and strong Lp Burkholder-Gundy square-function equivalences do not construct the same decomposition uniformly over all thresholds. The post-2015 endpoint literature has not been fully audited here; this is a method clue, not a claim that it remains open. W12-025 gives all-threshold K-functional row/column decompositions under an Lp lower-Khintchine hypothesis; this is related technique, not the dossier-specific weak-Phi modular tail conclusion."
+  },
+  {
+    "problem_id": "B172",
+    "dossier": "isolated dossier clue; not a formal120 problem",
+    "tool": "probability-random-matrix-tensor",
+    "role": "auxiliary",
+    "needed_lemma": "Extend the upper side of the noncommutative Orlicz Burkholder inequality to every 1<p_Phi<=q_Phi<infinity while retaining the precise diagonal, column and row Phi-moment terms and semifinite filtration hypotheses.",
+    "source_local_ids": [
+      "W12-024",
+      "W12-021",
+      "W12-022",
+      "W12-018",
+      "W12-025"
+    ],
+    "unproved_interface": "The checked 2015 theorem covers Boyd indices lying wholly below 2 or wholly above 2. Interpolation of Orlicz norms does not automatically prove the same Phi-modular inequality across 2. Later coverage has not been exhaustively audited; retain this only as an isolated endpoint lead. W12-025 gives one decomposition for all p>1 in strong Lp norms, not the Phi-modular cross-2 inequality."
+  }
+]

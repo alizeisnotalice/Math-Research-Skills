@@ -1,0 +1,1390 @@
+[
+  {
+    "local_id": "M0001",
+    "title": "Permutations with given peak set",
+    "authors": [
+      "Sara Billey",
+      "Krzysztof Burdzy",
+      "Bruce E. Sagan"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://cs.uwaterloo.ca/journals/JIS/VOL16/Billey/billey2.html",
+    "alternate_urls": [],
+    "version": "arXiv:1209.0693",
+    "reason": "一维排列固定峰集的精确公式与递推；对方格只作低维基准，端点/图峰定义不可混同。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0001.pdf",
+    "sha256": "222b5395164154ca4ede6579e6c3e67db2f934e86251ab4022fb817cc911f98b",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–18 (complete article; all sections and references)"
+    ],
+    "review_status": "pending",
+    "identity_note": "Compared the local PDF first page (title, authors, arXiv:1209.0693v1) with the publisher record at https://cs.uwaterloo.ca/journals/JIS/VOL16/Billey/billey2.html; title and all three authors match.",
+    "metadata_note": "Publisher record verifies Journal of Integer Sequences, Vol. 16 (2013), Article 13.6.1, published 5 June 2013; local PDF is the 2012 arXiv v1 manuscript. Full local source is 18 pages.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0001"
+  },
+  {
+    "local_id": "M0002",
+    "title": "Counting peaks on graphs",
+    "authors": [
+      "Alexander Diaz-Lopez",
+      "Lucas Everham",
+      "Pamela E. Harris",
+      "Erik Insko",
+      "Vincent Marcantonio",
+      "Mohamed Omar"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/pdf/1708.08493v1",
+    "alternate_urls": [
+      "https://ajc.maths.uq.edu.au/pdf/75/ajc_v75_p174.pdf"
+    ],
+    "version": "Local 11-page arXiv:1708.08493v1 manuscript (2017); later journal publication: Australasian Journal of Combinatorics 75(2) (2019), 174–189 (16-page pagination; not the read copy).",
+    "reason": "固定峰集在一般图上的递归构造，边界度至少2定义在自由方格n≥2一致；可作小图计数对照。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0002.pdf",
+    "sha256": "99b293f4ea4b56ba0c067f47a65a48d0895505aa1c52e75264621e22b2a43932",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Complete local arXiv v1 PDF, physical pp. 1–11; theorem/proof coverage detailed in evidence/W09/reading_coverage.json."
+    ],
+    "review_status": "pending",
+    "identity_note": "Local PDF first page identifies title, all six authors, and arXiv:1708.08493v1 dated 28 Aug 2017.",
+    "metadata_note": "Later journal citation verified separately: Australasian Journal of Combinatorics 75(2) (2019), pp. 174–189; the 16-page journal PDF is not the local read copy.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0002"
+  },
+  {
+    "local_id": "M0003",
+    "title": "Floodings of metric graphs",
+    "authors": [
+      "Krzysztof Burdzy",
+      "Soumik Pal"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1007/s00440-020-00974-x",
+    "url": "https://arxiv.org/abs/1708.03825",
+    "alternate_urls": [
+      "https://link.springer.com/article/10.1007/s00440-020-00974-x"
+    ],
+    "version": "arXiv:1708.03825",
+    "reason": "小峰数随机标号在细分度量图上的极限与熵最大化；仅作一维细分/熵框架背景。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0003.pdf",
+    "sha256": "1eb943f6a5369ad3d2619f58b313549572da3333a119bf5007073f19dcbe910c",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–37 (complete article, including all sections and references)"
+    ],
+    "review_status": "pending",
+    "identity_note": "Local PDF first page matches the arXiv record for title/authors/version 1708.03825v1; Springer publication page confirms the same article.",
+    "metadata_note": "Springer record verifies Probability Theory and Related Fields 177 (2020), pp. 577–620, DOI 10.1007/s00440-020-00974-x; complete local article is 37 pages.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0003"
+  },
+  {
+    "local_id": "M0004",
+    "title": "Twin peaks",
+    "authors": [
+      "Krzysztof Burdzy",
+      "Soumik Pal"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1002/rsa.20883",
+    "url": "https://arxiv.org/abs/1606.08025",
+    "alternate_urls": [
+      "https://onlinelibrary.wiley.com/doi/10.1002/rsa.20883"
+    ],
+    "version": "arXiv:1606.08025v2",
+    "reason": "单峰自由方格、双峰树与环面结果；明确区分图族以防把树或环面结论转移到自由边界双峰方格。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0004.pdf",
+    "sha256": "0c18403431de50d53950c8797f008fd76b5e74f1fb2c613555fc66e338fb606d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–28 (complete article, including Section 7 proof and references)"
+    ],
+    "review_status": "pending",
+    "identity_note": "Local PDF first page verifies title, authors, and arXiv:1606.08025v2 (23 Feb 2017); Wiley publisher record verifies this is the same article.",
+    "metadata_note": "Wiley record verifies Random Structures & Algorithms 56(2) (2020), pp. 432–460, DOI 10.1002/rsa.20883; complete local manuscript is 28 pages.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0004"
+  },
+  {
+    "local_id": "M0006",
+    "title": "Two poset polytopes",
+    "authors": [
+      "Richard P. Stanley"
+    ],
+    "year": 1986,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://math.mit.edu/~rstan/pubs/pubfiles/66.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "order polytope体积等于线性扩张数/n!；用于固定比较约束的精确计数，不把析取峰条件当单个偏序。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0006.pdf",
+    "sha256": "5e5bc631f9f36377f80c6f39d3ff19660f3d21ed16aff655960141fde9a61f28",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–15 (complete article); key statements PDF pp. 6–10"
+    ],
+    "review_status": "pending",
+    "identity_note": "Local PDF first page verifies title and author Richard P. Stanley; article footer/head verifies journal citation and pagination.",
+    "metadata_note": "First page gives Discrete & Computational Geometry 1 (1986), pp. 9–23; complete local article is 15 PDF pages.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0006"
+  },
+  {
+    "local_id": "M0007",
+    "title": "Counting Linear Extensions",
+    "authors": [
+      "Graham Brightwell",
+      "Peter Winkler"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.math.ucdavis.edu/~deloera/MISC/LA-BIBLIO/trunk/BrightwellGraham/brightwelllinext.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "一般偏序线性扩张计数复杂性；界定精确计数基线的限制。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0007.pdf",
+    "sha256": "0555b28282bd2d6c14dbefee4db795fa933d4074feb527a9e000fcce6a4fb645",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Searchable article text exposed by the institutional-mirror PDF parser: indexed lines 0–359 cover printed pp. 225–242; local PDF is a 10-page two-up scan used for identity only, and the next article after p. 242 was excluded."
+    ],
+    "review_status": "pending",
+    "identity_note": "Local scan first page visually checked by R05; complete searchable PDF text at the same institutional-mirror URL read over the whole article, printed pp. 225–242.",
+    "metadata_note": "Journal identity, title, authors, year, and pagination checked against the institutional mirror and journal citation.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0007"
+  },
+  {
+    "local_id": "M0008",
+    "title": "Entropy and Sorting",
+    "authors": [
+      "Jeff Kahn",
+      "Jeong Han Kim"
+    ],
+    "year": 1995,
+    "kind": "paper",
+    "doi": "10.1006/jcss.1995.1077",
+    "url": "https://www.sciencedirect.com/science/article/pii/S002200008571077X",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "偏序熵与排序/线性扩张数量的比较；只提供数量级及排序问题背景，不给峰距结论。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "出版社页与DOI核对身份；未取得全文首页。",
+    "metadata_note": "ScienceDirect DOI元数据页核对题名、作者、期刊、卷期、页码。"
+  },
+  {
+    "local_id": "M0009",
+    "title": "Exact sampling with coupled Markov chains and applications to statistical mechanics",
+    "authors": [
+      "James Gary Propp",
+      "David Bruce Wilson"
+    ],
+    "year": 1996,
+    "kind": "paper",
+    "doi": "10.1002/(SICI)1098-2418(199608/09)9:1/2<223::AID-RSA14>3.0.CO;2-O",
+    "url": "https://www.stat.berkeley.edu/~aldous/206-RWG/RWGpapers/propp_wilson.pdf",
+    "alternate_urls": [
+      "https://www.stat.berkeley.edu/~aldous/206-RWG/RWGpapers/propp_wilson.pdf",
+      "https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1098-2418(199608/09)9:1/2%3C223::AID-RSA14%3E3.0.CO;2-O"
+    ],
+    "version": null,
+    "reason": "CFTP随机映射、合并与完美采样的通用正确性框架；需另证目标链保持目标条件分布。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0009.pdf",
+    "sha256": "29e8ed8f7cd07a74b9d87d4338bad28f1caecd7ac17d86bf2ef4c51d0ba5665d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Complete searchable PDF pp. 1–27; matched page by page against local scan"
+    ],
+    "review_status": "pending",
+    "identity_note": "Matched the local scan cover and full searchable Berkeley PDF (title and both authors) against the Wiley publisher record.",
+    "metadata_note": "Wiley record verifies Random Structures & Algorithms 9(1–2) (1996), pp. 223–252, first published August–September 1996, and DOI 10.1002/(SICI)1098-2418(199608/09)9:1/2<223::AID-RSA14>3.0.CO;2-O.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0009"
+  },
+  {
+    "local_id": "M0010",
+    "title": "Path Coupling: A Technique for Proving Rapid Mixing in Markov Chains",
+    "authors": [
+      "Russ Bubley",
+      "Martin Dyer"
+    ],
+    "year": 1997,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.math.ucdavis.edu/~deloera/MISC/LA-BIBLIO/trunk/Dyer/Dyer2.pdf",
+    "alternate_urls": [
+      "https://www.math.cmu.edu/~af1p/Teaching/Markov_Chain_Mixing/Papers/Pathcouple.pdf"
+    ],
+    "version": "FOCS 1997 proceedings version; complete 9-page searchable PDF mirror",
+    "reason": "固定偏序线性扩张相邻交换链的path coupling快速混合；近似采样基准，不能越过双峰约束。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0010.pdf",
+    "sha256": "90ef44bf9059c6b053cc463d74665ef920312d8ac6d21f57c603cca139d7f0ef",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Complete searchable proceedings PDF physical pp. 1–9; obtained from the CMU-hosted alternate URL in alternate_urls; theorem coverage detailed in evidence/W09/reading_coverage.json."
+    ],
+    "review_status": "pending",
+    "identity_note": "Complete searchable PDF mirror first page checked for title/authors; compared with the textless seed scan, which has the same paper identity.",
+    "metadata_note": "Proceedings copy identifies FOCS 1997; DOI remains null in this record.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0010"
+  },
+  {
+    "local_id": "M0011",
+    "title": "Faster random generation of linear extensions",
+    "authors": [
+      "Russ Bubley",
+      "Martin Dyer"
+    ],
+    "year": 1999,
+    "kind": "paper",
+    "doi": "10.1016/S0012-365X(98)00333-1",
+    "url": "https://www.math.cmu.edu/users/af1p/Teaching/MCC17/Papers/linext.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "固定偏序线性扩张相邻转置链的path coupling O(n^3 log(n/ε))；近似均匀采样基准。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0011.pdf",
+    "sha256": "31159ff97949b13c8a0e5131b6c8e89abb6fafde835e4553311562d1f62f6164",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–8; complete paper; Section 3 mixing derivation pp. 2–5; Appendix A Theorem 1 and Corollary 1 pp. 7–8."
+    ],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：verified_from_extracted_title_page",
+    "metadata_note": "旧状态说明：seed_bibliography_plus_title_page",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0011"
+  },
+  {
+    "local_id": "M0012",
+    "title": "Fast perfect sampling from linear extensions",
+    "authors": [
+      "Mark Huber"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www1.cmc.edu/pages/faculty/MHuber/Research/papers/huber2006b.pdf",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "线性扩张的bounding-chain CFTP完美采样；精确针对单个偏序，未自动处理精确双峰外层混合。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0012.pdf",
+    "sha256": "165c818167122ec947eb618a2a68e4e186905a9a1c698cfd9e2311941315378d",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–9; complete paper; Theorem 3 pp. 4–5; Theorem 5 pp. 6–7; Theorem 8 pp. 7–8; Lemma 10 p. 8."
+    ],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：verified_from_extracted_title_page",
+    "metadata_note": "旧状态说明：seed_bibliography_plus_title_page",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0012"
+  },
+  {
+    "local_id": "M0013",
+    "title": "Practical graph isomorphism, II",
+    "authors": [
+      "Brendan D. McKay",
+      "Adolfo Piperno"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": "10.1016/j.jsc.2013.09.003",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0747717113001193",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "带色图规范编码/同构判定的实现背景，可用于状态对称性约简。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0013.pdf",
+    "sha256": "2173fcd10d99c269eec4d28d2089887452eb972456c52a1b961a2bf186194029",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–22 (complete article, including all sections and references)"
+    ],
+    "review_status": "pending",
+    "identity_note": "Local PDF first page verifies title, both authors, and arXiv:1301.1493v1; publisher record confirms the same article.",
+    "metadata_note": "ScienceDirect verifies Journal of Symbolic Computation 60 (2014), pp. 94–112, DOI 10.1016/j.jsc.2013.09.003; complete local manuscript is 22 pages.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0013"
+  },
+  {
+    "local_id": "M0014",
+    "title": "Three tutorial lectures on entropy and counting",
+    "authors": [
+      "David Galvin"
+    ],
+    "year": 2014,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1406.7872",
+    "alternate_urls": [],
+    "version": "arXiv:1406.7872",
+    "reason": "熵链式法则、Shearer引理和计数应用；提供局部熵上界模板，不能由单独上界推出峰距集中。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0014.pdf",
+    "sha256": "e4bb6110ed418b92eb4bf6fb99b3021677d83219dace3cfd847534d7b5404919",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Complete local physical PDF pp. 1–36; card locators now distinguish physical PDF pages from printed page numbers (e.g. printed p. 5 is physical PDF p. 7); section coverage in evidence/W09/reading_coverage.json."
+    ],
+    "review_status": "pending",
+    "identity_note": "Local PDF first page verifies title, author David Galvin, and arXiv:1406.7872; arXiv record matches manuscript.",
+    "metadata_note": "arXiv record verifies manuscript identifier 1406.7872 and 2014 version; complete local manuscript is 36 pages.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0014"
+  },
+  {
+    "local_id": "M0015",
+    "title": "Computing automorphisms and canonical labellings of graphs",
+    "authors": [
+      "Brendan D. McKay"
+    ],
+    "year": 1978,
+    "kind": "book",
+    "doi": "10.1007/BFb0062536",
+    "url": "https://doi.org/10.1007/bfb0062536",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "规范标号与图自同构的经典算法来源；轨道压缩需恢复正确重数。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：no_local_fulltext_obtained",
+    "metadata_note": "旧状态说明：seed_bibliography_unconfirmed_locally"
+  },
+  {
+    "local_id": "M0016",
+    "title": "A random polynomial-time algorithm for approximating the volume of convex bodies",
+    "authors": [
+      "Martin Dyer",
+      "Alan Frieze",
+      "Ravi Kannan"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": "10.1145/102782.102783",
+    "url": "https://www2.stat.duke.edu/~scs/Courses/Stat376/Papers/ConvergeRates/Dyer.pdf",
+    "alternate_urls": [
+      "https://doi.org/10.1145/102782.102783"
+    ],
+    "version": null,
+    "reason": "凸体积估计及采样、近似计数互归约；只作偏序多面体计算扩展。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0016.pdf",
+    "sha256": "c67dc011b787b4e15fc6fe3545a4ef52e14ff1486fd3421cbb99cac072882952",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Complete 17-page article: local scan and the complete searchable public PDF (Duke mirror), PDF pp. 1–17; theorem and algorithm sections reread against source."
+    ],
+    "review_status": "pending",
+    "identity_note": "Compared the local PDF title page and the complete public Duke-mirror PDF first page: title and all three authors match; both copies contain 17 pages. Full source identity confirmed.",
+    "metadata_note": "Publisher/DOI record verifies Journal of the ACM 38(1), 1–17 (1991), DOI 10.1145/102782.102783. The public Duke mirror is a complete searchable copy of the same 17-page article; full-text reading includes the abstract, Introduction, algorithm, mixing theorem, conductance proof, and remarks.",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0016"
+  },
+  {
+    "local_id": "M0017",
+    "title": "Optimizing Linear Extensions",
+    "authors": [
+      "Bridget Eileen Tenner"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.1137/090759276",
+    "url": "https://doi.org/10.1137/090759276",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "线性扩张优化与峰集研究的单独支线；不能替代随机条件计数。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0017.pdf",
+    "sha256": "76eaefdb115b44cf30fe9ff1ea7fd4f77bb331aedc7cca860d7b3d6b106e15fb",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–5"
+    ],
+    "review_status": "pending",
+    "identity_note": "核对本地PDF首页的标题、作者及出版/预印本标识；PDF文本提取页数与文件页数一致。",
+    "metadata_note": "通过首页与来源机构/出版方页面交叉核对题名、作者、年份/版本。",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0017"
+  },
+  {
+    "local_id": "M0018",
+    "title": "On meteors, earthworms and WIMPs",
+    "authors": [
+      "Sara Billey",
+      "Krzysztof Burdzy",
+      "Soumik Pal",
+      "Bruce E. Sagan"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1214/14-AAP1035",
+    "url": "https://arxiv.org/abs/1308.2183",
+    "alternate_urls": [],
+    "version": "arXiv:1308.2183",
+    "reason": "圆图上的质量再分配/meteor过程及峰统计，和方格均匀条件标号分布不同，仅作分布/模型边界对照。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0018.pdf",
+    "sha256": "25865026dbea485514ab24bf3a9f71b19198d89ca912d1cf9310ff010e5431a8",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–54; complete read"
+    ],
+    "review_status": "pending",
+    "identity_note": "本地PDF首页题名、四位作者、arXiv:1308.2183v2与期刊标识均核对一致；全文54页。",
+    "metadata_note": "首页期刊信息为 Annals of Applied Probability 25(4), 1729–1779 (2015), DOI 10.1214/14-AAP1035。",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0018"
+  },
+  {
+    "local_id": "M0019",
+    "title": "Poset Entropy Versus Number of Linear Extensions: The Width-2 Case",
+    "authors": [
+      "Samuel Fiorini",
+      "Selim Rexhep"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1007/s11083-015-9346-z",
+    "url": "https://doi.org/10.1007/s11083-015-9346-z",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "宽度2偏序熵与线性扩张数比较；仅适用于宽度2偏序，不推出网格峰距结论。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0019.pdf",
+    "sha256": "b88be4c14d966e245ac1f6935c1edb8694d6b006732270c77e1137aa5e897118",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–18"
+    ],
+    "review_status": "pending",
+    "identity_note": "核对本地PDF首页的标题、作者及出版/预印本标识；PDF文本提取页数与文件页数一致。",
+    "metadata_note": "通过首页与来源机构/出版方页面交叉核对题名、作者、年份/版本。",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0019"
+  },
+  {
+    "local_id": "M0020",
+    "title": "Entropic Uniform Sampling of Linear Extensions in Series-Parallel Posets",
+    "authors": [
+      "Olivier Bodini",
+      "Matthieu Dien",
+      "Antoine Genitrini",
+      "Frédéric Peschanski"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.1007/978-3-319-58747-9_9",
+    "url": "https://doi.org/10.1007/978-3-319-58747-9_9",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "series-parallel偏序上的线性扩张等概率采样；仅作为结构特例 sampler。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0020.pdf",
+    "sha256": "9cf72b454a48375aaacc118bda62543350af7875113496b3fc474d3869aa3498",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–19"
+    ],
+    "review_status": "pending",
+    "identity_note": "核对本地PDF首页的标题、作者及出版/预印本标识；PDF文本提取页数与文件页数一致。",
+    "metadata_note": "通过首页与来源机构/出版方页面交叉核对题名、作者、年份/版本。",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0020"
+  },
+  {
+    "local_id": "M0021",
+    "title": "A Sequential Importance Sampling Algorithm for Estimating Linear Extensions",
+    "authors": [
+      "Isabel Beichl",
+      "Alathea Jensen"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.1145/3385650",
+    "url": "https://arxiv.org/abs/1902.01704",
+    "alternate_urls": [
+      "https://doi.org/10.1145/3385650"
+    ],
+    "version": "arXiv:1902.01704v2",
+    "reason": "线性扩张计数的序贯重要性采样；作为带权估计备选，不是精确/均匀采样保证。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0021.pdf",
+    "sha256": "7770eea888b101dc0bf21a6446ec114063590487b0c0e1e16062e94a51385558",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–14"
+    ],
+    "review_status": "pending",
+    "identity_note": "本地arXiv PDF首页核对题名/作者；标题与种子目录初始记录不同，已依原文纠正。",
+    "metadata_note": "arXiv v2 首页核对日期与作者，DOI与出版记录另列。",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "M0021"
+  },
+  {
+    "local_id": "M0022",
+    "title": "Modern Graph Theory",
+    "authors": [
+      "Béla Bollobás"
+    ],
+    "year": 1998,
+    "kind": "book",
+    "doi": "10.1007/978-1-4612-0619-4",
+    "url": "https://doi.org/10.1007/978-1-4612-0619-4",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "图论基础、图距离与连通结构；辅助统一自由边界格定义。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：no_local_fulltext_obtained",
+    "metadata_note": "旧状态说明：seed_bibliography_unconfirmed_locally"
+  },
+  {
+    "local_id": "M0023",
+    "title": "Introduction to Lattices and Order, 2nd ed.",
+    "authors": [
+      "B. A. Davey",
+      "H. A. Priestley"
+    ],
+    "year": 2002,
+    "kind": "book",
+    "doi": "10.1017/CBO9780511809088",
+    "url": "https://doi.org/10.1017/CBO9780511809088",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "order ideals及有限格/偏序语言；支撑理想格动态规划表示。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：no_local_fulltext_obtained",
+    "metadata_note": "旧状态说明：seed_bibliography_unconfirmed_locally"
+  },
+  {
+    "local_id": "M0024",
+    "title": "Counting, Sampling and Integrating: Algorithms and Complexity",
+    "authors": [
+      "Mark Jerrum"
+    ],
+    "year": 2003,
+    "kind": "book",
+    "doi": "10.1007/978-3-0348-8005-3",
+    "url": "https://doi.org/10.1007/978-3-0348-8005-3",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "计数、采样与积分算法的复杂度/互归约；为确数与近似数分层。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：no_local_fulltext_obtained",
+    "metadata_note": "旧状态说明：seed_bibliography_unconfirmed_locally"
+  },
+  {
+    "local_id": "M0025",
+    "title": "Analytic Combinatorics",
+    "authors": [
+      "Philippe Flajolet",
+      "Robert Sedgewick"
+    ],
+    "year": 2009,
+    "kind": "book",
+    "doi": null,
+    "url": "https://sedgewick.io/books/analytic-combinatorics/",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "组合分解后的生成函数与渐近分析；只有获得合法组合分解后才能应用。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：no_local_fulltext_obtained",
+    "metadata_note": "旧状态说明：seed_bibliography_unconfirmed_locally"
+  },
+  {
+    "local_id": "M0026",
+    "title": "Enumerative Combinatorics, Volume 1, 2nd ed.",
+    "authors": [
+      "Richard P. Stanley"
+    ],
+    "year": 2012,
+    "kind": "book",
+    "doi": null,
+    "url": "https://math.mit.edu/~rstan/ec/ec1/",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "偏序、理想格、线性扩张与容斥的教材基准；选择相关章节阅读。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0026.pdf",
+    "sha256": "f669d7b0d78730b7c812794a437fb6a78e0c182c10dfd520bc26d627cf45a1d5",
+    "reading_status": "partial_read",
+    "read_pages": [
+      "Ch. 3 §§3.1–3.5, printed pp. 277–298; §3.6 begins on p. 299; not a complete chapter."
+    ],
+    "review_status": "pending",
+    "identity_note": "本地完整电子版核对扉页、目录及总页数；已阅读的为注明章节。",
+    "metadata_note": "作者/出版社书目信息与完整PDF扉页交叉核对。"
+  },
+  {
+    "local_id": "M0027",
+    "title": "Markov Chains and Mixing Times, 2nd ed.",
+    "authors": [
+      "David A. Levin",
+      "Yuval Peres",
+      "Elizabeth L. Wilmer"
+    ],
+    "year": 2017,
+    "kind": "book",
+    "doi": null,
+    "url": "https://pages.uoregon.edu/dlevin/MARKOV/",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "Markov链平稳性、coupling、path coupling与CFTP章节；检查采样正确性与适用条件。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0027.pdf",
+    "sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+    "reading_status": "partial_read",
+    "read_pages": [
+      "Ch. 4 §§4.2–4.3, printed pp. 49–54; Ch. 5 §5.4, pp. 69–71; Ch. 14 §§14.1–14.2, pp. 201–206; Ch. 25 §25.3, pp. 353–354; all are selected sections, not complete chapters."
+    ],
+    "review_status": "pending",
+    "identity_note": "本地完整电子版核对扉页、目录及总页数；已阅读的为注明章节。",
+    "metadata_note": "作者/出版社书目信息与完整PDF扉页交叉核对。"
+  },
+  {
+    "local_id": "M0028",
+    "title": "Probability on Trees and Networks",
+    "authors": [
+      "Russell Lyons",
+      "Yuval Peres"
+    ],
+    "year": 2017,
+    "kind": "book",
+    "doi": "10.1017/9781316672815",
+    "url": "https://doi.org/10.1017/9781316672815",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "树与网络的概率结构；仅作树上双峰结果对照，不能迁移至方格。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：no_local_fulltext_obtained",
+    "metadata_note": "旧状态说明：seed_bibliography_unconfirmed_locally"
+  },
+  {
+    "local_id": "M0029",
+    "title": "Enumerative Combinatorics, Volume 2, 2nd ed.",
+    "authors": [
+      "Richard P. Stanley"
+    ],
+    "year": 2024,
+    "kind": "book",
+    "doi": null,
+    "url": "https://math.mit.edu/~rstan/ec/",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "偏序/枚举组合专题备查；仅在结构与计数式匹配时使用。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/M0029.pdf",
+    "sha256": "3b9670f7863953d84377bbcfafa109254a4f9e352032d083afae6c6b2b02f8ec",
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "扉页可识别书名；本地文件只有8页前言/摘录，不是完整第二卷。",
+    "metadata_note": "扉页与MIT EC2主页核对。",
+    "document_completeness": "partial_book_excerpt_8_pages"
+  },
+  {
+    "local_id": "W09-X001",
+    "title": "Linear extensions of finite posets",
+    "authors": [
+      "Swee Hong Chan",
+      "Igor Pak"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.4171/EMSS/97",
+    "url": "https://arxiv.org/abs/2311.02743",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2311.02743"
+    ],
+    "version": "arXiv:2311.02743v4; published EMS Surveys in Mathematical Sciences (2025)",
+    "reason": "偏序线性扩张计数、界与复杂性综述；作为选择精确/近似计数与熵比较方法的导航。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "旧状态说明：web_title_authors_abstract_verified; local_fulltext_not_yet_obtained",
+    "metadata_note": "旧状态说明：verified_primary_arXiv_and_publisher_search_2026-11-13"
+  },
+  {
+    "local_id": "W09-X002",
+    "title": "Counting Linear Extensions of Sparse Posets",
+    "authors": [
+      "Kustaa Kangas",
+      "Teemu Hankala",
+      "Teppo Mikael Niinimäki",
+      "Mikko Koivisto"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://ijcai.org/proceedings/2016/92",
+    "alternate_urls": [
+      "https://www.ijcai.org/Proceedings/16/Papers/092.pdf",
+      "https://www.cs.helsinki.fi/u/mkhkoivi/publications/ijcai-2016.pdf"
+    ],
+    "version": "IJCAI-16 proceedings, pp. 603–608",
+    "reason": "理想格动态规划、连通分解和 cover-graph treewidth 参数化计数；直接支撑小图精确递推的复杂度选择。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "identity_status": "verified",
+    "local_pdf": "evidence/fulltexts/W09-X002.pdf",
+    "sha256": "ffab7150f8d6e5b3bf27ef1ca109887c67e5e74db8908c91218f02205128b7ed",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–7"
+    ],
+    "review_status": "pending",
+    "identity_note": "核对本地PDF首页的标题、作者及出版/预印本标识；PDF文本提取页数与文件页数一致。",
+    "metadata_note": "通过首页与来源机构/出版方页面交叉核对题名、作者、年份/版本。",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X002"
+  },
+  {
+    "local_id": "M0030",
+    "title": "nauty and Traces",
+    "authors": [
+      "Brendan D. McKay",
+      "Adolfo Piperno"
+    ],
+    "year": null,
+    "kind": "software",
+    "doi": null,
+    "url": "https://pallini.di.uniroma1.it/",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "A022：按带色图的同构类压缩状态、计算峰对轨道",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "尚未下载/本地存档官方文档。",
+    "metadata_note": "待读取本轮官方动态文档并记录版本/访问日期。"
+  },
+  {
+    "local_id": "M0031",
+    "title": "NetworkX",
+    "authors": [
+      "NetworkX developers"
+    ],
+    "year": null,
+    "kind": "software",
+    "doi": null,
+    "url": "https://networkx.org/documentation/stable/",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "A022：方格/环面/树构图、最短路、边界分类、自动同构前处理",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "尚未下载/本地存档官方文档。",
+    "metadata_note": "待读取本轮官方动态文档并记录版本/访问日期。"
+  },
+  {
+    "local_id": "M0032",
+    "title": "OR-Tools CP-SAT",
+    "authors": [
+      "Google OR-Tools team"
+    ],
+    "year": null,
+    "kind": "software",
+    "doi": null,
+    "url": "https://developers.google.com/optimization/cp/cp_solver",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "A022：AlDifferent 标签、峰布尔变量和精确小图可行性/枚举；寻找反例",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "尚未下载/本地存档官方文档。",
+    "metadata_note": "待读取本轮官方动态文档并记录版本/访问日期。"
+  },
+  {
+    "local_id": "M0033",
+    "title": "SageMath: finite posets and combinatorics",
+    "authors": [
+      "SageMath developers"
+    ],
+    "year": null,
+    "kind": "software",
+    "doi": null,
+    "url": "https://doc.sagemath.org/html/en/reference/combinat/sage/combinat/posets/posets.html",
+    "alternate_urls": [],
+    "version": null,
+    "reason": "A022：偏序、理想、线性扩张、群作用与精确整数计数原型",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "pending",
+    "identity_status": "pending",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "identity_note": "尚未下载/本地存档官方文档。",
+    "metadata_note": "待读取本轮官方动态文档并记录版本/访问日期。"
+  },
+  {
+    "local_id": "W09-X003",
+    "title": "Counting Linear Extensions of Restricted Posets",
+    "authors": [
+      "Samuel Dittmer",
+      "Igor Pak"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1802.06312",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1802.06312"
+    ],
+    "version": "arXiv:1802.06312v1",
+    "reason": "比较一般及受限偏序线性扩张确数的复杂度；防止错误宣称结构性多项式算法。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "与本地标题页及arXiv记录核对。",
+    "identity_status": "verified",
+    "identity_note": "本地PDF首页核对题名、作者与arXiv版本。",
+    "local_pdf": "evidence/fulltexts/W09-X003.pdf",
+    "sha256": "b625f3af81de60aaf4a4532f369d255d56649d29f02f6432698881c72c291e3a",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–34"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X003"
+  },
+  {
+    "local_id": "W09-X004",
+    "title": "Counting Linear Extensions: Parameterizations by Treewidth",
+    "authors": [
+      "E. Eiben",
+      "R. Ganian",
+      "K. Kangas",
+      "S. Ordyniak"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1007/s00453-018-0496-4",
+    "url": "https://doi.org/10.1007/s00453-018-0496-4",
+    "alternate_urls": [
+      "https://link.springer.com/article/10.1007/s00453-018-0496-4"
+    ],
+    "version": "Algorithmica 81 (2019), 1657–1683",
+    "reason": "区分cover graph与incomparability graph的参数化计数复杂度；结构参数不可混用。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "首页及Springer页面核对。",
+    "identity_status": "verified",
+    "identity_note": "PDF首页核对题名、作者、DOI及期刊信息；Springer开放全文。",
+    "local_pdf": "evidence/fulltexts/W09-X004.pdf",
+    "sha256": "4576c62fc80b4819b35f5a415945d90eb58211f7ab75906c3a524a023ed26127",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–27"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X004"
+  },
+  {
+    "local_id": "W09-X005",
+    "title": "Sorting under Partial Information (without the Ellipsoid Algorithm)",
+    "authors": [
+      "Jean Cardinal",
+      "Samuel Fiorini",
+      "Gwenaël Joret",
+      "Raphaël M. Jungers",
+      "J. Ian Munro"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0911.0086",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0911.0086"
+    ],
+    "version": "arXiv:0911.0086v3",
+    "reason": "熵引导偏序排序比较复杂度；仅辅助熵/扩张数关系，不给目标峰距结论。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地首页和arXiv记录核对题名、作者、版本。",
+    "identity_status": "verified",
+    "identity_note": "本地PDF首页核对。",
+    "local_pdf": "evidence/fulltexts/W09-X005.pdf",
+    "sha256": "95fa173e00c8301cbe91d5240e17efe916c8a44b6de4bbb4d1ac65a1199f76dd",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–29"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X005"
+  },
+  {
+    "local_id": "W09-X006",
+    "title": "On Entropy and Extensions of Posets",
+    "authors": [
+      "Tom Leighton",
+      "Ankur Moitra"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://people.csail.mit.edu/moitra/docs/poset_entropy.pdf",
+    "alternate_urls": [],
+    "version": "author PDF, September 12, 2011",
+    "reason": "由线性扩张边际约束推出全局熵上界；适用前须证明相应局部边际稳定条件。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "作者PDF首页核验。",
+    "identity_status": "verified",
+    "identity_note": "本地作者PDF首页核对题名、作者及日期。",
+    "local_pdf": "evidence/fulltexts/W09-X006.pdf",
+    "sha256": "33d8f46fa105e6ae19cab15232de9934d70ac908b41f0dc8397cb8072794aeff",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–13"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X006"
+  },
+  {
+    "local_id": "W09-X007",
+    "title": "A Scalable Scheme for Counting Linear Extensions",
+    "authors": [
+      "Topi Talvitie",
+      "Kustaa Kangas",
+      "Teppo Niinimäki",
+      "Mikko Koivisto"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://ijcai.org/proceedings/2018/79",
+    "alternate_urls": [
+      "https://www.ijcai.org/Proceedings/2018/0079.pdf"
+    ],
+    "version": "IJCAI-18 proceedings",
+    "reason": "线性扩张的relaxation Tootsie Pop近似计数与基于poset的采样；精度依赖算法条件/实验。",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地首页及IJCAI会议论文集核对。",
+    "identity_status": "verified",
+    "identity_note": "PDF首页核对题名、作者、会议。",
+    "local_pdf": "evidence/fulltexts/W09-X007.pdf",
+    "sha256": "ee5511cfb50b480392839b13ea406347e1db037a844d42cc07f38156b26eb435",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–7; complete paper; Theorem 1 p. 3; Theorem 2 p. 4; Lemma 1 and Theorem 3 p. 5."
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X007"
+  },
+  {
+    "local_id": "W09-X008",
+    "title": "Markov Chains for Linear Extensions, the Two-Dimensional Case",
+    "authors": [
+      "Stefan Felsner",
+      "Lorenz Wernisch"
+    ],
+    "year": 1997,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://page.math.tu-berlin.de/~felsner/Paper/markov-lin-ext.pdf",
+    "alternate_urls": [
+      "https://page.math.tu-berlin.de/~felsner/publist.html"
+    ],
+    "version": "SODA 1997, pp. 239–247",
+    "reason": "two-dimensional orders admit monotone CFTP for uniform linear-extension sampling; width-two mixing/coupling bound, distinct hypotheses from free square peaks.",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地PDF首页与arXiv/作者机构出版页交叉核对题名、作者、年份或版本。",
+    "identity_status": "verified",
+    "identity_note": "核对本地PDF首页标题、作者及版本标识；pdfinfo显示完整页数，Swift PDFKit逐页文本提取成功。",
+    "local_pdf": "evidence/fulltexts/W09-X008.pdf",
+    "sha256": "17f7e72d0b346f1fc769c41e7fac3a898a16ab037fff7a00be8494863e60229c",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–13"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X008"
+  },
+  {
+    "local_id": "W09-X009",
+    "title": "Using TPA to count linear extensions",
+    "authors": [
+      "Jacqueline Banks",
+      "Scott Garrabrant",
+      "Mark L. Huber",
+      "Anne Perizzolo"
+    ],
+    "year": 2018,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1010.4981",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1010.4981"
+    ],
+    "version": "arXiv:1010.4981v2; Journal of Discrete Algorithms 51 (2018), 1–11",
+    "reason": "continuous embedding + Tootsie Pop Algorithm approximates a poset’s number of linear extensions using a weighted exact sampler; not a sampler for peak-conditioned labelings.",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地PDF首页与arXiv/作者机构出版页交叉核对题名、作者、年份或版本。",
+    "identity_status": "verified",
+    "identity_note": "核对本地PDF首页标题、作者及版本标识；pdfinfo显示完整页数，Swift PDFKit逐页文本提取成功。",
+    "local_pdf": "evidence/fulltexts/W09-X009.pdf",
+    "sha256": "03dcce364c99c2f7d16ac2ff6d6199f5356588b6b9a61c0b459775264509da60",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–17"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X009"
+  },
+  {
+    "local_id": "W09-X010",
+    "title": "Generating uniform linear extensions using few random bits",
+    "authors": [
+      "Mark Huber"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2506.14725",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2506.14725"
+    ],
+    "version": "arXiv:2506.14725v1",
+    "reason": "new bounding-chain/CFTP random-scan scheme for exact uniform LE with expected operation and fair-bit bounds; general poset state space only.",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地PDF首页与arXiv/作者机构出版页交叉核对题名、作者、年份或版本。",
+    "identity_status": "verified",
+    "identity_note": "核对本地PDF首页标题、作者及版本标识；pdfinfo显示完整页数，Swift PDFKit逐页文本提取成功。",
+    "local_pdf": "evidence/fulltexts/W09-X010.pdf",
+    "sha256": "6446e4a2d98e6a6bf033b47007dc65fd3b0ba4cdfc5175c1a5085919b0c5e438",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–16"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X010"
+  },
+  {
+    "local_id": "W09-X011",
+    "title": "An efficient data structure for counting all linear extensions of a poset, calculating its jump number, and the likes",
+    "authors": [
+      "Marcel Wild"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1704.07708",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1704.07708"
+    ],
+    "version": "arXiv:1704.07708v1 (manuscript dated 2018)",
+    "reason": "compressed ideal-lattice representation and ideal-by-ideal recurrence for LE/rank statistics/jump number; paper explicitly presents numerical evidence rather than a formal complexity theorem.",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地PDF首页与arXiv/作者机构出版页交叉核对题名、作者、年份或版本。",
+    "identity_status": "verified",
+    "identity_note": "核对本地PDF首页标题、作者及版本标识；pdfinfo显示完整页数，Swift PDFKit逐页文本提取成功。",
+    "local_pdf": "evidence/fulltexts/W09-X011.pdf",
+    "sha256": "f27046bc87b133fdea1e08bc1cc6af27d6f1bbaa01c31c5178f004577c81d045",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–9"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X011"
+  },
+  {
+    "local_id": "W09-X012",
+    "title": "Poset probability in two-row partition posets",
+    "authors": [
+      "Albin Jaldevik",
+      "Jan Snellman"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2501.11073",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2501.11073"
+    ],
+    "version": "arXiv:2501.11073v5 (16 Jun 2026)",
+    "reason": "exact order-probability formulae for two-row cell posets via blocking ideals and hook/determinantal formulas; pairwise order event only, no grid-peak inference.",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地首页核对v5/作者；arXiv条目核对题录。文件名曾以错误ID候选下载后已按首页纠正并替换为正确主文件。",
+    "identity_status": "verified",
+    "identity_note": "核对本地PDF首页标题、作者及版本标识；pdfinfo显示完整页数，Swift PDFKit逐页文本提取成功。",
+    "local_pdf": "evidence/fulltexts/W09-X012.pdf",
+    "sha256": "2e07c2da9beb7aad3ed9edbea716f1bc2cb976b34b1ac8834f8eb58c1cc987f1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "Complete arXiv v5 physical PDF pp. 1–27; Theorem 4.7 is on physical p. 18 and Theorem 4.11 on p. 21; section coverage in evidence/W09/reading_coverage.json."
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X012"
+  },
+  {
+    "local_id": "W09-X013",
+    "title": "Linear Extensions of N-free Orders",
+    "authors": [
+      "Stefan Felsner",
+      "Thibault Manneville"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1311.1612",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/1311.1612"
+    ],
+    "version": "arXiv:1311.1612v1; Order 32 (2015), pp. 147–155",
+    "reason": "active-set dynamic programming for N-free posets; polynomial for bounded activity, relevant as a special-structure counting interface only.",
+    "topics": [
+      "A022"
+    ],
+    "metadata_status": "verified",
+    "metadata_note": "本地PDF首页与arXiv/作者机构出版页交叉核对题名、作者、年份或版本。",
+    "identity_status": "verified",
+    "identity_note": "核对本地PDF首页标题、作者及版本标识；pdfinfo显示完整页数，Swift PDFKit逐页文本提取成功。",
+    "local_pdf": "evidence/fulltexts/W09-X013.pdf",
+    "sha256": "8b5a9564aba9f8905acc83f70f2db38b343f19553c32f01cba70a2483a75a372",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      "PDF pp. 1–11"
+    ],
+    "review_status": "pending",
+    "section_coverage_path": "evidence/W09/reading_coverage.json",
+    "section_coverage_key": "W09-X013"
+  }
+]

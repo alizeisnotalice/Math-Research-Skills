@@ -1,0 +1,13 @@
+# R02 independent adjudication: LPW15.10 alternative proof
+
+Decision: accepted as an independently derived alternate proof, under exactly the finite zero-field homogeneous Ising law, finite beta>=0, uniform-site single heat bath and uniform selection among b covering blocks, with the same stationary law and discrete clocks specified in the integration note. This is not approval of the incomplete printed congestion simplification or automatic acceptance of the remaining book reading evidence.
+
+I independently viewed original physical240/printed224: the penultimate coefficient is2(n/b)M Mstar4^M exp(2betaDelta(M+1)); n/b<=M alone does not give its next displayed coefficient4M²Mstar exp(2betaDelta(M+1)). This identifies an unsupported proof step; it does not refute the theorem.
+
+For completeness, the conditional variance comparison is valid in the stated direction. Var_mu f=inf_c sum_x mu(x)(f(x)-c)^2 <= A Var_nu f by taking the nu-mean. For an unordered i-edge {x,y}, E_mu Var_i contributes exactly mu(x)mu(y)/(mu(x)+mu(y)) times(f(x)-f(y))². Both masses are at least a2^-m; monotonicity of uv/(u+v) makes this coefficient at least a2^(-m-1), which is a times the uniform coefficient. Product variance tensorization gives Var_nu f<=sum_i E_nu Var_i f. Combining these two inequalities yields Var_mu f<=(A/a)sum_i E_mu Var_i f, without a missing m factor.
+
+Conditional energy oscillation is at most2betaDelta m: only edges touching the block can vary, there are at mostDelta m of them, and each spin product changes by at most2. The conditional partition function cancels in A/a. Conditional-coordinate heat bath agrees with the global one after fixing the outside. Averaging, summing blocks and charging multiplicity at mostMstar therefore gives E_block<=(n/b)Mstar exp(2betaDelta M) E_single. Coverage gives n<=bM, even allowing empty blocks. Thus E_block<=M Mstar exp(2betaDelta M)E_single.
+
+Finally let f minimize the single-site Rayleigh quotient. The block infimum is at most its quotient at this f, which is at most the derived coefficient times gamma_single. Hence the direction gamma_block<=C gamma_single is correct. The derived C is at most the source coefficient since their ratio is4M exp(2betaDelta)>=1. All conditional laws are strictly positive because beta and graph are finite; no hard constraints or unbounded fields were inserted.
+
+Copied and ran the actual SymPy script in R02: harmonic-mean numerator c*u+c*v+2*u*v is nonnegative, and uniform m-bit random-site kernels have exact gaps1/m for m=1,2,3,4. These finite checks corroborate algebra/clock normalization; the argument above, rather than finite enumeration, proves the general comparison.

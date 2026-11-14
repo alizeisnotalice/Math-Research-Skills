@@ -1,0 +1,121 @@
+[
+  {
+    "problem_id": "B051",
+    "tool": "probability-information-cluster-expansion",
+    "role": "direct",
+    "needed_lemma": "Kanoria–Montanari's binary i.i.d. deletion-channel capacity expansion through d^2 with its fixed-ε O(d^(3−ε)) remainder, together with the source's explicit higher-order/convergence question.",
+    "source_local_ids": [
+      "I03"
+    ],
+    "unproved_interface": "I03 proves no A3 coefficient, all-orders recursion, or convergence radius. Uniform control of high-order terms, run-tail interactions, entropy-rate limits, and the optimizing input law remains missing."
+  },
+  {
+    "problem_id": "B051",
+    "tool": "probability-information-cluster-expansion",
+    "role": "auxiliary",
+    "needed_lemma": "Deletion-channel converse comparators and finite auxiliary-channel bounds, each used only in its stated deletion model and asymptotic regime.",
+    "source_local_ids": [
+      "I07",
+      "I08",
+      "I10",
+      "I11"
+    ],
+    "unproved_interface": "These are genie-aided or analytical upper bounds, not the I03 d^2 expansion proof. They establish neither higher-order coefficients nor a convergence radius. I07's auxiliary channel is a finite fixed-block model, not a run-length channel. I11 uses finite auxiliary DMC computations and a heuristic run-law score; its valid lower bound comes from substituting a selected law into the cited rigorous construction, and it proves no small-d all-orders expansion."
+  },
+  {
+    "problem_id": "B051",
+    "tool": "probability-information-cluster-expansion",
+    "role": "auxiliary",
+    "needed_lemma": "Constructive achievable-rate lower-bound comparisons from typical-output/run-law codes, preserving each source's exact channel, input class, and theorem scope.",
+    "source_local_ids": [
+      "I05",
+      "I09",
+      "I14"
+    ],
+    "unproved_interface": "These lower bounds do not establish exact capacity or higher-order deletion-only asymptotics. I09's TR-07-04 states Theorem 1 and Corollary 1 but defers their detailed proofs to a full version. I14's numerical search is not a global optimizer certificate."
+  },
+  {
+    "problem_id": "B051",
+    "tool": "probability-information-cluster-expansion",
+    "role": "auxiliary",
+    "needed_lemma": "Adjacent-model comparisons for small-error synchronization channels; retain the independent substitution/insertion parameters and order of limits.",
+    "source_local_ids": [
+      "I12",
+      "I13"
+    ],
+    "unproved_interface": "I12 includes substitutions and I13 treats insertion channels; neither yields a higher-order expansion for the deletion-only capacity in I03."
+  },
+  {
+    "problem_id": "B051",
+    "tool": "probability-information-cluster-expansion",
+    "role": "auxiliary",
+    "needed_lemma": "Information-rate definitions and stationary-source entropy/capacity facts for formulating a variational deletion-channel objective.",
+    "source_local_ids": [
+      "I01",
+      "I02",
+      "I15",
+      "I16"
+    ],
+    "unproved_interface": "These results do not justify exchanging the supremum over stationary inputs with a small-d limit or series. I02 is partial and I15 has one complete selected chapter (Chapter 2) plus partial Chapter 9 sections; it does not cover the whole book."
+  },
+  {
+    "problem_id": "B051",
+    "tool": "probability-information-cluster-expansion",
+    "role": "auxiliary",
+    "needed_lemma": "An absolute convergence criterion for a specified abstract-polymer/Gibbs expansion, only if a valid model representation and uniform activity bound can be constructed.",
+    "source_local_ids": [
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C07",
+      "C08",
+      "C13",
+      "C05",
+      "C12",
+      "C15"
+    ],
+    "unproved_interface": "No polymer representation of the optimized deletion-channel information rate has been verified. The read criteria have different objects and hypotheses and do not establish capacity convergence on their own. A channel-specific representation, event/dependency structure where relevant, and uniform bounds remain unproved. C07 concerns stable, tempered continuous pair-potential gases; it supplies no deletion-channel representation. C05 is a finite repulsive lattice-gas/LLL theorem, C12 an abstract hard-core polymer criterion, and C15 a stable measurable pair-potential expansion; none supplies a deletion-channel representation or uniform activity bounds. C14 is an unverified title/DOI citation candidate; do not treat it as a validated distinct work or conflate it with C15."
+  },
+  {
+    "problem_id": "A007",
+    "tool": "probability-information-cluster-expansion",
+    "role": "direct",
+    "needed_lemma": "Correct statement of the open problem separating the proved Poisson large-switch-over result from the general-renewal conjecture, including the stated branching-type model context.",
+    "source_local_ids": [
+      "R01"
+    ],
+    "unproved_interface": "Conjecture 4.2/Open Problem 2 is not proved by the source. The formal dossier additionally asks for steady-state fluid scaling and an induced waiting-time law, which must not be inferred from the conjecture without proof."
+  },
+  {
+    "problem_id": "A007",
+    "tool": "probability-information-cluster-expansion",
+    "role": "auxiliary",
+    "needed_lemma": "Renewal-reward, residual-life, branching-type polling and large-switch-over comparators under the assumptions stated by each source.",
+    "source_local_ids": [
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13"
+    ],
+    "unproved_interface": "Polling epochs need not be regeneration epochs under renewal input. The residual-age process and stationary-to-fluid limit exchange require new tightness and dependence arguments; adjacent heavy-traffic, branching-type, and Poisson results do not settle A007. Unread candidates in this list remain retrieval/reading leads, not theorem evidence. R13 is a canonical-reuse example of a two-queue adaptive stability criterion involving a service-time Laplace transform; it is not a large-setup or general-renewal limit result, and its W16 usage evidence is pending review."
+  },
+  {
+    "problem_id": "B051",
+    "tool": "probability-information-cluster-expansion",
+    "role": "auxiliary",
+    "needed_lemma": "A classical stable-potential-gas example of finite- and infinite-volume virial-radius bounds from cluster-coefficient majorants, with exact constants and the analytic-continuation condition kept attached.",
+    "source_local_ids": [
+      "C10"
+    ],
+    "unproved_interface": "Lebowitz–Penrose concerns pressure/density expansions of a classical gas with stability, finite Mayer integral, and (for the thermodynamic-limit continuation result) a regular analytic continuation on a bounded simply connected domain. No polymer representation, cluster coefficients, uniformity in input laws, or analytic continuation has been established for the optimized deletion-channel information rate in B051; this is a structural analogy only."
+  }
+]

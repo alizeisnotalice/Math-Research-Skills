@@ -1,0 +1,2897 @@
+{
+  "worker": "W15",
+  "coverage_basis": "Actual reader page lists are bound to the local PDF SHA-256 in sources.json. Section/page ranges and summaries were checked against the page-labeled local full text and W15 source cards; rendered_source_pages lists only locally rendered source pages. W15-025 records selected chapters only, not a full-book read. The W15-023/-026/-029 records were integrated from the completed L13_final6half page-by-page helper batch; helper page-marked text remains preserved under evidence/W15/reader_batches/L13_final6half/text/.",
+  "sources": [
+    {
+      "local_id": "W15-001",
+      "reader": "W15",
+      "pdf_sha256": "0b655b1f5e6c6726133f4635e73a3019f97eb64678237592653bcd7a8656316e",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Original direct-mean Bernoulli RKHS problem statement and context."
+        },
+        {
+          "section": "§2 Problem Formulation",
+          "physical_pdf_pages": "2–3",
+          "coverage": "Action/function class, feedback, regret, and concentration setup."
+        },
+        {
+          "section": "§3 Open Problems, §§3.1–3.3",
+          "physical_pdf_pages": "3–5",
+          "coverage": "Three Bernoulli-kernel questions, including finite-action instance-dependent log-regret question."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "5–6",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-001.md"
+    },
+    {
+      "local_id": "W15-002",
+      "reader": "W15",
+      "pdf_sha256": "b4ac2abc47775aec175486f9fb450102f3eaea7946ea2a927df1f86893965135",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction/problem formulation",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Fixed-budget best-arm identification objective and motivation."
+        },
+        {
+          "section": "§2 Fixed-confidence setting and known results",
+          "physical_pdf_pages": "2–3",
+          "coverage": "Comparison with fixed-confidence stopping-time formulations."
+        },
+        {
+          "section": "Discussion on potential algorithm class",
+          "physical_pdf_pages": "3–4",
+          "coverage": "Author's proposed algorithmic question and limits of existing results."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "5",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-002.md"
+    },
+    {
+      "local_id": "W15-003",
+      "reader": "W15",
+      "pdf_sha256": "d6f06647161e63108693678696fbdd370ad27d75296b29c80c2b15d19c89a9a8",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction, §§1.1–1.2",
+          "physical_pdf_pages": "1–7",
+          "coverage": "Problem definitions, fixed-budget/fixed-confidence complexities, related work, and paper map."
+        },
+        {
+          "section": "§2 Generic lower bound in fixed-confidence setting, §§2.1–2.2",
+          "physical_pdf_pages": "7–10",
+          "coverage": "Change-of-measure lemma, PAC sample-complexity lower bounds, exponential-family specialization."
+        },
+        {
+          "section": "§3 Improved lower bounds for two-armed bandits",
+          "physical_pdf_pages": "10–13",
+          "coverage": "Two-arm fixed-confidence lower-bound refinements and information quantities."
+        },
+        {
+          "section": "§4 Matching algorithms for two-armed bandits, §§4.1–4.2",
+          "physical_pdf_pages": "13–17",
+          "coverage": "Gaussian α-Elimination and Bernoulli SGLRT algorithms and guarantees."
+        },
+        {
+          "section": "§5 Fixed-budget setting, §§5.1–5.2",
+          "physical_pdf_pages": "17–21",
+          "coverage": "Distinct fixed-budget error-exponent quantities and lower bounds."
+        },
+        {
+          "section": "§6 Numerical experiments and §7 Conclusion",
+          "physical_pdf_pages": "21–24",
+          "coverage": "Experiments and synthesis of the fixed-budget/fixed-confidence comparison."
+        },
+        {
+          "section": "Appendix A: Changes of distributions",
+          "physical_pdf_pages": "24–28",
+          "coverage": "Stopping-time transcript KL and related change-of-measure lemmas."
+        },
+        {
+          "section": "Appendix B: Burnetas–Katehakis lower bound proof",
+          "physical_pdf_pages": "28–30",
+          "coverage": "Short proof of the classical asymptotic regret lower bound."
+        },
+        {
+          "section": "Appendices C–G",
+          "physical_pdf_pages": "30–41",
+          "coverage": "Exponential-family information geometry; proofs for confidence algorithms, two-arm algorithms, and fixed-budget results."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "41–42",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-003.md"
+    },
+    {
+      "local_id": "W15-004",
+      "reader": "W15",
+      "pdf_sha256": "6ad45d19aa4867fe21f5dcb223ad647bbed3748491afe3197c5ddd9ef21f5bdd",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "coverage": "Fixed-confidence BAI model, objectives, and contribution."
+        },
+        {
+          "section": "§2 Lower bounds, §§2.1–2.2",
+          "physical_pdf_pages": "3–6",
+          "coverage": "Characteristic time, change of measure, and computation/structure of optimal proportions."
+        },
+        {
+          "section": "§3 Track-and-Stop, §§3.1–3.2",
+          "physical_pdf_pages": "7–9",
+          "coverage": "C-/D-tracking allocation rules and Chernoff stopping statistic."
+        },
+        {
+          "section": "§4 Choosing the threshold",
+          "physical_pdf_pages": "9–11",
+          "coverage": "Bernoulli and exponential-family PAC thresholds and proofs/sketches."
+        },
+        {
+          "section": "§5 Sample complexity analysis, §§5.1–5.2",
+          "physical_pdf_pages": "11–13",
+          "coverage": "Almost-sure and expected asymptotic stopping-time bounds."
+        },
+        {
+          "section": "§6 Discussion and numerical experiments; §7 Conclusion; acknowledgments",
+          "physical_pdf_pages": "13–14",
+          "coverage": "Experiments and conclusion."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "15–16",
+          "coverage": "Complete bibliography."
+        },
+        {
+          "section": "Appendix A: Characterization of optimal proportions",
+          "physical_pdf_pages": "17–20",
+          "coverage": "Proof of the characteristic-time and allocation formulas."
+        },
+        {
+          "section": "Appendix B: Tracking results",
+          "physical_pdf_pages": "20–25",
+          "coverage": "Deterministic tracking lemmas and convergence of proportions."
+        },
+        {
+          "section": "Appendix C: PAC guarantees",
+          "physical_pdf_pages": "25–27",
+          "coverage": "Validity of the stopping thresholds."
+        },
+        {
+          "section": "Appendix D: Expected sample complexity analysis",
+          "physical_pdf_pages": "27–30",
+          "coverage": "Proof of the asymptotic expected stopping-time result."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-004.md"
+    },
+    {
+      "local_id": "W15-005",
+      "reader": "W15",
+      "pdf_sha256": "8cde52518fdb9e1403c8a3b43547c84536f94f6e88fbf17a4074eb23fb85bf4d",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–4",
+          "coverage": "Bounded stochastic bandits and the KL-UCB motivation."
+        },
+        {
+          "section": "§2 KL-UCB Algorithm",
+          "physical_pdf_pages": "4–5",
+          "coverage": "Index definition and algorithm."
+        },
+        {
+          "section": "§3 Regret bounds and optimality",
+          "physical_pdf_pages": "5–6",
+          "coverage": "Asymptotic Bernoulli optimality and finite-time pull-count theorem."
+        },
+        {
+          "section": "§4 KL-UCB for parametric reward families",
+          "physical_pdf_pages": "6–8",
+          "coverage": "Canonical exponential-family divergence and extension."
+        },
+        {
+          "section": "§5 Numerical experiments, §§5.1–5.3",
+          "physical_pdf_pages": "8–12",
+          "coverage": "Three experimental scenarios."
+        },
+        {
+          "section": "§6 Proof of Theorem 2",
+          "physical_pdf_pages": "12–15",
+          "coverage": "Finite-time count proof and decomposition of exceptional events."
+        },
+        {
+          "section": "§7 Conclusion and References",
+          "physical_pdf_pages": "15–16",
+          "coverage": "Conclusions and bibliography."
+        },
+        {
+          "section": "Appendix A: KL deviations for bounded variables",
+          "physical_pdf_pages": "16–18",
+          "coverage": "Self-normalized deviation results, including Bernoulli MGF domination and parametric-family extension."
+        }
+      ],
+      "rendered_source_pages": [
+        16,
+        17,
+        18
+      ],
+      "card": "evidence/W15/cards/W15-005.md"
+    },
+    {
+      "local_id": "W15-006",
+      "reader": "W15",
+      "pdf_sha256": "8cbc1be8c00c15e336ea8d3315e93ad1d6df3ce7f439dfa86950ac703aa5e620",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Kernelized bandit setting and contributions."
+        },
+        {
+          "section": "§2 Problem Statement",
+          "physical_pdf_pages": "2–3",
+          "coverage": "RKHS, predictable observations, conditional sub-Gaussian noise, and posterior notation."
+        },
+        {
+          "section": "§3 Algorithms, §§3.1–3.2",
+          "physical_pdf_pages": "3–4",
+          "coverage": "IGP-UCB and GP-TS algorithms."
+        },
+        {
+          "section": "§4 Main Results, §§4.1–4.2",
+          "physical_pdf_pages": "4–6",
+          "coverage": "Self-normalized confidence, regret theorems, and assumptions."
+        },
+        {
+          "section": "§5 Overview of Techniques",
+          "physical_pdf_pages": "6–7",
+          "coverage": "Proof mechanisms for self-normalization and regret bounds."
+        },
+        {
+          "section": "§6 Experiments and §7 Conclusion",
+          "physical_pdf_pages": "7–9",
+          "coverage": "Experiments and discussion."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "9–10",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [
+        4
+      ],
+      "card": "evidence/W15/cards/W15-006.md"
+    },
+    {
+      "local_id": "W15-007",
+      "reader": "W15",
+      "pdf_sha256": "c3e9c1e088538a0da5b0115979936cb7cb88af0ac0e7d8501963391739b70e65",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §§1–2 Introduction/model",
+          "physical_pdf_pages": "1–5",
+          "coverage": "Complete main-text model, assumptions, setup and related work."
+        },
+        {
+          "section": "§3 Main results and Theorem 1 lower bound",
+          "physical_pdf_pages": "6–7",
+          "coverage": "Definition of consistency, instance-dependent lower bound, local-growth specialization and source exponent statements."
+        },
+        {
+          "section": "§4 Algorithm and Theorem 2 upper bound; §5 conclusion",
+          "physical_pdf_pages": "8–9",
+          "coverage": "Partition-tree algorithm, upper theorem/proposition and conclusions; source has two inconsistent printed exponent expressions recorded in card."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "10–11",
+          "coverage": "Complete bibliography."
+        },
+        {
+          "section": "Appendix A: notation and preliminaries",
+          "physical_pdf_pages": "12",
+          "coverage": "Kernel/RKHS/Matérn, probability and packing definitions."
+        },
+        {
+          "section": "Appendix B: Theorem 1 lower-bound proof",
+          "physical_pdf_pages": "13–19",
+          "coverage": "Bump alternatives, KL/change-of-measure, Proposition 3 and annular packing; physical p.16 adds whole-ball feasibility, and pp.17–18 have the bump-amplitude/KL mismatch recorded in the card."
+        },
+        {
+          "section": "Appendix C: local-growth lower bound",
+          "physical_pdf_pages": "20",
+          "coverage": "Proposition 1 packing and volume argument."
+        },
+        {
+          "section": "Appendices D–E: upper bound proofs",
+          "physical_pdf_pages": "21–25",
+          "coverage": "Algorithm conditions, confidence event, layer regret accounting, Theorem 2 and Proposition 2 proofs."
+        },
+        {
+          "section": "Appendices F–G",
+          "physical_pdf_pages": "26",
+          "coverage": "Lipschitz-bandit discussion and additional figure."
+        }
+      ],
+      "rendered_source_pages": [
+        2,
+        3,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25
+      ],
+      "card": "evidence/W15/cards/W15-007.md"
+    },
+    {
+      "local_id": "W15-008",
+      "reader": "W15",
+      "pdf_sha256": "c39027ff7c50ebd8c5aa81a272e8947287d6fb68e39d13acb2577b023f630c94",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "section_coverage": [
+        {
+          "section": "§1, §§1.1–1.2",
+          "physical_pdf_pages": "1–3",
+          "coverage": "Model, objectives, related work, simple and cumulative regret."
+        },
+        {
+          "section": "§2",
+          "physical_pdf_pages": "3–6",
+          "coverage": "Theorems 1–2 and comparisons; rendered p.4 for exact assumptions and formulas."
+        },
+        {
+          "section": "§3",
+          "physical_pdf_pages": "6–7",
+          "coverage": "Hard-function/bump construction and hidden-cell identification."
+        },
+        {
+          "section": "§4, §§4.1–4.2",
+          "physical_pdf_pages": "7–11",
+          "coverage": "Fourier RKHS norm, restriction to compact domain, SE and Matérn scales."
+        },
+        {
+          "section": "§5, §§5.1–5.4",
+          "physical_pdf_pages": "11–18",
+          "coverage": "Gaussian KL, change of measure, Lemmas 5–7, averaging and regret lower bounds, constant-probability implication."
+        },
+        {
+          "section": "Appendix A",
+          "physical_pdf_pages": "19",
+          "coverage": "Pinsker step supporting Lemma 5; rendered."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "19–20",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [
+        4,
+        5,
+        11,
+        12,
+        15,
+        17,
+        19
+      ],
+      "card": "evidence/W15/cards/W15-008.md"
+    },
+    {
+      "local_id": "W15-009",
+      "reader": "W15",
+      "pdf_sha256": "12dea552a4e9f6f1c65fcb95056cf04b91d88ca6bbb92a05189b331cb01cb741",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Standard and robust Gaussian-process bandit lower-bound questions."
+        },
+        {
+          "section": "§2 Problem Setup, §§2.1–2.3",
+          "physical_pdf_pages": "2–4",
+          "coverage": "Standard, corrupted-sample, and corrupted-output models."
+        },
+        {
+          "section": "§3 Main Results, §§3.1–3.3",
+          "physical_pdf_pages": "4–6",
+          "coverage": "Simple/cumulative regret and robust lower bounds with separate quantifiers."
+        },
+        {
+          "section": "§4 Proofs and analysis, §§4.1–4.7",
+          "physical_pdf_pages": "6–10",
+          "coverage": "Bump constructions, change of measure, standard and robust proof analyses."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "10–11",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [
+        4
+      ],
+      "card": "evidence/W15/cards/W15-009.md"
+    },
+    {
+      "local_id": "W15-010",
+      "reader": "W15",
+      "pdf_sha256": "555c969e6f04c5b5a0763d2405edcbce0264993b9e4e0e2e06627521a4e399d0",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "section_coverage": [
+        {
+          "section": "§1",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Problem, motivation, contributions and fixed-budget error exponent."
+        },
+        {
+          "section": "§2",
+          "physical_pdf_pages": "3–7",
+          "coverage": "Information quantities, main inequalities, Bernoulli and other model specializations."
+        },
+        {
+          "section": "§3",
+          "physical_pdf_pages": "8–11",
+          "coverage": "Successive-rejects phases, Chernoff rate, Corollary 4 and assumptions."
+        },
+        {
+          "section": "§4",
+          "physical_pdf_pages": "12–15",
+          "coverage": "Consistency, balanced/pruning/monotone strategy restrictions, normality, Theorems 10/13/14."
+        },
+        {
+          "section": "Acknowledgments and references",
+          "physical_pdf_pages": "15–17",
+          "coverage": "Acknowledgment and full reference list."
+        },
+        {
+          "section": "Appendix A",
+          "physical_pdf_pages": "17–21",
+          "coverage": "General convexity, support endpoint and strict/non-strict KL facts."
+        },
+        {
+          "section": "Appendix B.1–B.4",
+          "physical_pdf_pages": "21–26",
+          "coverage": "Cramér–Chernoff proof, grid lemma, successive-rejects exponent and gap bound."
+        },
+        {
+          "section": "Appendix C.1–C.4",
+          "physical_pdf_pages": "26–34",
+          "coverage": "Variational KL/Fenchel relation, P[0,1] and exponential-family equivalence, general sufficient conditions."
+        },
+        {
+          "section": "Appendix D.1–D.5",
+          "physical_pdf_pages": "34–40",
+          "coverage": "Full proofs of Lemma 7 and Theorems 10, 13 and 14."
+        },
+        {
+          "section": "Appendix E.1–E.2",
+          "physical_pdf_pages": "40–46",
+          "coverage": "Carpentier–Locatelli minimax discussion and Bretagnolle–Huber/Gaussian corollary."
+        }
+      ],
+      "rendered_source_pages": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        14,
+        15,
+        25,
+        28,
+        37,
+        38,
+        39,
+        45
+      ],
+      "card": "evidence/W15/cards/W15-010.md"
+    },
+    {
+      "local_id": "W15-011",
+      "reader": "W15",
+      "pdf_sha256": "d82888f837f1076c5ab5de38748f40f2e48c799bb19e764ab3bd61665639b502",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "section_coverage": [
+        {
+          "section": "§1 and §§1.1–1.3",
+          "physical_pdf_pages": "1–5",
+          "coverage": "Identification tasks, fixed-confidence/fixed-budget distinction, Assumption 1, complexity and difficulty ratio definitions."
+        },
+        {
+          "section": "§2",
+          "physical_pdf_pages": "6–7",
+          "coverage": "Static proportions, Theorem 1 and LDP rate, oracle difficulty, consistency classes and bounded difficulty."
+        },
+        {
+          "section": "§3",
+          "physical_pdf_pages": "7–9",
+          "coverage": "Finite-T Theorem 2, asymptotic Theorem 3, Corollary 4 and proof mechanism."
+        },
+        {
+          "section": "§4 and §§4.1–4.2",
+          "physical_pdf_pages": "9–11",
+          "coverage": "Universal upper bound K, positivity extremizer and Gaussian local-boundary theorem."
+        },
+        {
+          "section": "§5 and §§5.1–5.2",
+          "physical_pdf_pages": "11–13",
+          "coverage": "Gaussian K-arm logarithmic lower bound and Bernoulli two-arm no-complexity theorem."
+        },
+        {
+          "section": "§6, acknowledgments, references",
+          "physical_pdf_pages": "13–15",
+          "coverage": "Conclusions/open problems and complete references."
+        },
+        {
+          "section": "Appendix A",
+          "physical_pdf_pages": "15–16",
+          "coverage": "Theorem 1 from empirical-mean LDP."
+        },
+        {
+          "section": "Appendix B",
+          "physical_pdf_pages": "16–18",
+          "coverage": "Theorem 2 change-of-measure proof; Theorem 3 and bounded-difficulty corollary."
+        },
+        {
+          "section": "Appendix C",
+          "physical_pdf_pages": "18–21",
+          "coverage": "Gaussian half-space static oracle, local-ball perturbation and Theorem 7."
+        },
+        {
+          "section": "Appendix D",
+          "physical_pdf_pages": "21–24",
+          "coverage": "Gaussian/ Bernoulli BAI ratio constructions, exponential-family static oracle and Theorem 10 proof."
+        }
+      ],
+      "rendered_source_pages": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        17,
+        18,
+        22,
+        24
+      ],
+      "card": "evidence/W15/cards/W15-011.md",
+      "numerical_check": {
+        "script": "evidence/W15/bernoulli_complexity_counterexample.py",
+        "output": "evidence/W15/bernoulli_complexity_counterexample_results.txt",
+        "evidence_scope": "Finite numerical witness at x=1e-9; not a proof of the general theorem or its limit."
+      }
+    },
+    {
+      "local_id": "W15-012",
+      "reader": "W15",
+      "pdf_sha256": "596bcef7a862fc58d07e2149c4c6969b625ca17a1a40b7d9303425f16ae7ec5c",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract, §1, §§1.1–1.4",
+          "physical_pdf_pages": "1–4",
+          "coverage": "Fixed-budget BAI formulation, error exponent, complexity question, ranking-and-selection context, prior work and contribution."
+        },
+        {
+          "section": "§2, §§2.1–2.2",
+          "physical_pdf_pages": "4–5",
+          "coverage": "Unique-best mean vectors, consistent algorithm families, static-oracle KL rate and hardness, complexity/difficulty ratio, Degenne change-of-measure Theorem 1."
+        },
+        {
+          "section": "§3 Gaussian rewards",
+          "physical_pdf_pages": "5–8",
+          "coverage": "Gaussian KL, static-oracle Lemma 1, Theorem 2, baseline/alternative construction, Lemma 2 bounds, Eq. (2), max-min allocation and logarithmic lower bound."
+        },
+        {
+          "section": "§4 Extension to Natural Exponential Families",
+          "physical_pdf_pages": "8–12",
+          "coverage": "Regular one-parameter NEF definition, locally uniform quadratic KL Lemma 3, Theorem 3 five-step rescaling proof."
+        },
+        {
+          "section": "§5 Discussion and acknowledgments",
+          "physical_pdf_pages": "12",
+          "coverage": "No-complexity consequence and alternative fixed-budget criteria/open directions."
+        },
+        {
+          "section": "Appendix A: Proofs and A.1 Auxiliary Lemmas",
+          "physical_pdf_pages": "12–16",
+          "coverage": "Gaussian static-oracle projection proof, explicit allocation Lemma 2, NEF Taylor/mean-value argument, simplex Lemma A.1 and logarithmic comparison Lemma A.2."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "16–17",
+          "coverage": "Full bibliography read."
+        }
+      ],
+      "rendered_source_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rendered_files": [
+        "evidence/W15/rendered/W15-012-p5.png",
+        "evidence/W15/rendered/W15-012-p6.png",
+        "evidence/W15/rendered/W15-012-p7.png",
+        "evidence/W15/rendered/W15-012-p8.png",
+        "evidence/W15/rendered/W15-012-p9.png",
+        "evidence/W15/rendered/W15-012-p11.png",
+        "evidence/W15/rendered/W15-012-p12.png",
+        "evidence/W15/rendered/W15-012-p15.png",
+        "evidence/W15/rendered/W15-012-p16.png"
+      ],
+      "card": "evidence/W15/cards/W15-012.md"
+    },
+    {
+      "local_id": "W15-013",
+      "reader": "W15",
+      "pdf_sha256": "0d7088cd277a6c53539cdda5e6b69fcaaf8f5d727ea021d275422d2cc4706917",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Preliminaries, §§1.1–1.3",
+          "physical_pdf_pages": "1–3",
+          "coverage": "Logistic bandit setting, optimistic algorithms, and MLE."
+        },
+        {
+          "section": "§2 Challenges and Contributions",
+          "physical_pdf_pages": "3–4",
+          "coverage": "Variance-local confidence motivation and results overview."
+        },
+        {
+          "section": "§3 Improved Prediction Guarantees, §§3.1–3.3",
+          "physical_pdf_pages": "4–7",
+          "coverage": "Self-normalized martingale tail, likelihood confidence set, prediction error bounds."
+        },
+        {
+          "section": "§4 Algorithms and Regret Bounds, §§4.1–4.2",
+          "physical_pdf_pages": "7–8",
+          "coverage": "Logistic-UCB-1 and Logistic-UCB-2 guarantees and proof ideas."
+        },
+        {
+          "section": "§5 Discussion and References",
+          "physical_pdf_pages": "8–9",
+          "coverage": "Limitations and bibliography."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-013.md",
+      "reading_status": "fulltext_read",
+      "coverage_scope": "Complete main proceedings/body PDF plus the officially matched supplementary PDF. Main physical pages remain bound to the main PDF hash; supplementary physical pages and page lists are recorded separately. Theorem 1 proof and Appendices A–D were read from the official PMLR supplement; physical supplement pp.1–9 duplicate the main proceedings text.",
+      "supplementary_documents": [
+        {
+          "document_id": "D02-W15-R07-S013-SUPP",
+          "original_source_id": "W15-013",
+          "batch_id": "D02-W15-R07",
+          "file_path": "evidence/shared/downloads/D02/papers/W15-013_FauryEtAl_PMLR119_supplement.pdf",
+          "source_version": "Official ICML 2020 / PMLR 119 supplementary PDF",
+          "pdf_pages": 26,
+          "sha256": "7133ec80e2ce91aa60fd84978dd0bfea1c948188469aae1156e99ac63ca31214",
+          "pdf_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "reader": "W15",
+          "reading_status": "fulltext_read",
+          "counted_as_independent_work": false,
+          "coverage": [
+            {
+              "section": "Body duplicated from the PMLR proceedings version",
+              "physical_pdf_pages": "supplement physical pp. 1–9",
+              "coverage": "Compared the normalized page text with W15-013 main PDF pp. 1–9; the same body is not counted as an additional work."
+            },
+            {
+              "section": "Appendix A: proof of Theorem 1 and auxiliary concentration results",
+              "physical_pdf_pages": "supplement physical pp. 10–15",
+              "coverage": "Read the full self-normalized martingale proof, including the variance-sensitive exponential-moment step and auxiliary lemmas."
+            },
+            {
+              "section": "Appendix B: auxiliary lemmas",
+              "physical_pdf_pages": "supplement physical pp. 15–22",
+              "coverage": "Read Lemmas 8–13, including local logistic curvature/Hessian comparisons, confidence-set consequences, and the local-width summation used by the regret analysis."
+            },
+            {
+              "section": "Appendix C: proofs of Theorems 2–3",
+              "physical_pdf_pages": "supplement physical pp. 23–25",
+              "coverage": "Read both Logistic-UCB regret proofs and their reduction to the body lemmas; inspected rendered pp. 23–25."
+            },
+            {
+              "section": "Appendix D: determinant/trace auxiliary lemmas",
+              "physical_pdf_pages": "supplement physical p. 26",
+              "coverage": "Read Lemmas 15–16, including the determinant-trace inequality."
+            }
+          ],
+          "text_extract_path": "evidence/W15/text/W15-013-supp.txt",
+          "rendered_pages": [
+            "evidence/W15/rendered/W15-013-supp-p10.png",
+            "evidence/W15/rendered/W15-013-supp-p14.png",
+            "evidence/W15/rendered/W15-013-supp-p23.png",
+            "evidence/W15/rendered/W15-013-supp-p24.png",
+            "evidence/W15/rendered/W15-013-supp-p25.png",
+            "evidence/W15/rendered/W15-013-supp-p26.png"
+          ]
+        }
+      ],
+      "rendered_supplement_pages": [
+        "evidence/W15/rendered/W15-013-supp-p10.png",
+        "evidence/W15/rendered/W15-013-supp-p14.png",
+        "evidence/W15/rendered/W15-013-supp-p23.png",
+        "evidence/W15/rendered/W15-013-supp-p24.png",
+        "evidence/W15/rendered/W15-013-supp-p25.png",
+        "evidence/W15/rendered/W15-013-supp-p26.png"
+      ],
+      "supplementary_text_extract": "evidence/W15/text/W15-013-supp.txt"
+    },
+    {
+      "local_id": "W15-014",
+      "reader": "W15",
+      "pdf_sha256": "4763d293c2d81fab2e82682da16f85f2f179bf725aafe908c3a00aab3ffbb59a",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract, §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "coverage": "Fixed-confidence Gaussian BAI with means in [0,1], δ-correct definition, characteristic-time lower bound, Track-and-Stop context and contributions."
+        },
+        {
+          "section": "§2 EBS strategy and theoretical results",
+          "physical_pdf_pages": "3–5",
+          "coverage": "Gap/optimal-weight definitions, conservative rectangular confidence-set optimization, Algorithms 1–2, time-uniform Lemma 2, GLR, Proposition 4, Lemma 3, Theorems 5–6."
+        },
+        {
+          "section": "§3 Optimization, bounds, monotonicity and regularity",
+          "physical_pdf_pages": "5–7",
+          "coverage": "Pairwise Gaussian information objective, root equation, closed-form weights/characteristic time, Newton computation, explicit bounds, monotonicity lemmas, Theorem 14 and Proposition 15."
+        },
+        {
+          "section": "§4 Numerical experiments; §5 Conclusion; References",
+          "physical_pdf_pages": "7–11",
+          "coverage": "EBS/Track-and-Stop/Chernoff-Racing/LUCB++ comparisons, empirical settings and tables/figures, conclusion and full bibliography."
+        },
+        {
+          "section": "Appendix outline and Appendix A",
+          "physical_pdf_pages": "11–12",
+          "coverage": "Track-and-Stop C-tracking description and forced-exploration baseline."
+        },
+        {
+          "section": "Appendix B",
+          "physical_pdf_pages": "11–12",
+          "coverage": "Time-uniform Gaussian confidence-region proof via iid sample sequence and dyadic peeling."
+        },
+        {
+          "section": "Appendix C, C.1–C.6",
+          "physical_pdf_pages": "12–21",
+          "coverage": "Full proofs of the pairwise optimizer, root formula, bounds/tightness, Newton procedure, monotonicity, EBS optimistic-bandit Proposition 1, and regularity."
+        },
+        {
+          "section": "Appendix D",
+          "physical_pdf_pages": "21–25",
+          "coverage": "Theorem 5 proof: confidence event and sample-count floor, proportion tracking, event inclusion, Gaussian tail and truncated expectation bounds."
+        },
+        {
+          "section": "Appendix E, E.1–E.4",
+          "physical_pdf_pages": "25–27",
+          "coverage": "Deterministic tracking error, exploration/count bound, Gaussian deviation and tail-sum/integral estimates."
+        },
+        {
+          "section": "Appendix F, F.1–F.3",
+          "physical_pdf_pages": "28–31",
+          "coverage": "Square-root exploration lemma, almost-sure convergence of estimates/proportions, Theorem 30 and Theorem 6 asymptotic analyses."
+        },
+        {
+          "section": "Appendix G",
+          "physical_pdf_pages": "31–32",
+          "coverage": "Additional simulations of stopping-time behavior as confidence parameter δ varies."
+        }
+      ],
+      "rendered_source_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        31
+      ],
+      "rendered_files": [
+        "evidence/W15/rendered/W15-014-p3.png",
+        "evidence/W15/rendered/W15-014-p4.png",
+        "evidence/W15/rendered/W15-014-p5.png",
+        "evidence/W15/rendered/W15-014-p6.png",
+        "evidence/W15/rendered/W15-014-p7.png",
+        "evidence/W15/rendered/W15-014-p21.png",
+        "evidence/W15/rendered/W15-014-p22.png",
+        "evidence/W15/rendered/W15-014-p23.png",
+        "evidence/W15/rendered/W15-014-p24.png",
+        "evidence/W15/rendered/W15-014-p25.png",
+        "evidence/W15/rendered/W15-014-p29.png",
+        "evidence/W15/rendered/W15-014-p30.png"
+      ],
+      "card": "evidence/W15/cards/W15-014.md",
+      "numerical_check": {
+        "script": "evidence/W15/gaussian_characteristic_time_check.py",
+        "output": "evidence/W15/gaussian_characteristic_time_check_results.txt",
+        "evidence_scope": "Floating-point single-instance check of the Proposition 8 root/weights/characteristic-time identity against the paper figure; not a proof."
+      }
+    },
+    {
+      "local_id": "W15-015",
+      "reader": "W15",
+      "pdf_sha256": "f717266867cb793472cab31d9b5eaf4778f1925f6273e61d19de1ebcf85486de",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "coverage": "Structured stochastic bandit model and regret lower-bound motivation."
+        },
+        {
+          "section": "§2 Related Work and §3 Examples",
+          "physical_pdf_pages": "3–4",
+          "coverage": "Relevant prior lower bounds and structured-bandit examples."
+        },
+        {
+          "section": "§4 Regret Lower Bound",
+          "physical_pdf_pages": "4–5",
+          "coverage": "Confusing alternatives and semi-infinite LP lower bound."
+        },
+        {
+          "section": "§5 OSSB Algorithm",
+          "physical_pdf_pages": "5–6",
+          "coverage": "Algorithm, assumptions, and asymptotic upper-bound theorem."
+        },
+        {
+          "section": "§6 Finite Time Analysis of OSSB",
+          "physical_pdf_pages": "6–8",
+          "coverage": "Finite-time remainder terms and proof argument."
+        },
+        {
+          "section": "§7 Numerical Experiments and §8 Conclusion",
+          "physical_pdf_pages": "8–9",
+          "coverage": "Experiments, discussion, and conclusion."
+        },
+        {
+          "section": "Appendices: proofs A–B",
+          "physical_pdf_pages": "10–13",
+          "coverage": "Theorem 1/2 proof material; Appendix B.2 explicitly passes from Λ′ to its closure on p.12."
+        }
+      ],
+      "rendered_source_pages": [
+        11,
+        12
+      ],
+      "card": "evidence/W15/cards/W15-015.md"
+    },
+    {
+      "local_id": "W15-016",
+      "reader": "W15",
+      "pdf_sha256": "7e59cd0fe8d0781d124cb285e1f21a23b1dadfc77c6c01ab96ac25bccc7bdea8",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Linear logistic model and confidence-bound motivation."
+        },
+        {
+          "section": "§2 Improved Confidence Intervals",
+          "physical_pdf_pages": "2–4",
+          "coverage": "Fixed-design MLE concentration theorem and comparison with previous confidence intervals."
+        },
+        {
+          "section": "§3 Transductive Pure Exploration, §§3.1–3.2",
+          "physical_pdf_pages": "4–7",
+          "coverage": "RAGE-GLM allocation/sample complexity, experiments, and lower-bound discussion."
+        },
+        {
+          "section": "§4 1/κ₀ Is Necessary and §5 Discussion/Future Work",
+          "physical_pdf_pages": "7–9",
+          "coverage": "Pure-exploration lower bound and limitations."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "9–10",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [
+        2
+      ],
+      "card": "evidence/W15/cards/W15-016.md",
+      "reading_status": "fulltext_read",
+      "coverage_scope": "Complete main proceedings/body PDF plus the officially matched supplementary PDF. Main physical pages remain bound to the main PDF hash; supplementary physical pages and page lists are recorded separately. Read the entire official PMLR supplement, Appendices A–H (31 physical supplement pages); page ranges distinguish supplement physical pages from article printed pagination.",
+      "supplementary_documents": [
+        {
+          "document_id": "D02-W15-R07-S016-SUPP",
+          "original_source_id": "W15-016",
+          "batch_id": "D02-W15-R07",
+          "file_path": "evidence/shared/downloads/D02/papers/W15-016_JunEtAl_PMLR139_supplement.pdf",
+          "source_version": "Official ICML 2021 / PMLR 139 supplementary PDF",
+          "pdf_pages": 31,
+          "sha256": "f70981268b2d173809d84ff1bf86c7d88f4ab34551a5cc06786ab252134ca8ea",
+          "pdf_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "reader": "W15",
+          "reading_status": "fulltext_read",
+          "counted_as_independent_work": false,
+          "coverage": [
+            {
+              "section": "Appendix A: proof of Theorem 1, including A.1–A.2",
+              "physical_pdf_pages": "supplement physical pp. 1–6 (printed pp. 11–16)",
+              "coverage": "Read Theorem 1 proof, (1+D)Q control, and auxiliary results; verified the fixed-design premise and square-root confidence width against the rendered source."
+            },
+            {
+              "section": "Appendix B: κ⁻¹-free conditioning for Theorem 5",
+              "physical_pdf_pages": "supplement physical pp. 6–7 (printed pp. 16–17)",
+              "coverage": "Read the stated Gaussian-measurement/burn-in construction and its design/norm qualifications."
+            },
+            {
+              "section": "Appendix C: proofs for GLM-RAGE",
+              "physical_pdf_pages": "supplement physical pp. 7–12 (printed pp. 17–22)",
+              "coverage": "Read the concentration, allocation, elimination, and sample-complexity proof components for the transductive pure-exploration method."
+            },
+            {
+              "section": "Appendix D: RAGE-GLM-2, D.1–D.2",
+              "physical_pdf_pages": "supplement physical pp. 12–16 (printed pp. 22–26)",
+              "coverage": "Read the confidence-bound review and sample-complexity proof/rounding details."
+            },
+            {
+              "section": "Appendix E: lower bounds",
+              "physical_pdf_pages": "supplement physical pp. 16–24 (printed pp. 26–34)",
+              "coverage": "Read the instance-dependent Bernoulli-KL fixed-point lower bound and the 1/κ₀ construction proofs."
+            },
+            {
+              "section": "Appendix F: comments on Li et al. construction",
+              "physical_pdf_pages": "supplement physical pp. 24–25 (printed pp. 34–35)",
+              "coverage": "Read the discussion identifying the dependence issue in the cited construction."
+            },
+            {
+              "section": "Appendix G: SupLogistic proofs and G.1",
+              "physical_pdf_pages": "supplement physical pp. 25–29 (printed pp. 35–39)",
+              "coverage": "Read the bucketed fixed-design argument, burn-in and auxiliary lemmas, and the theorem proof."
+            },
+            {
+              "section": "Appendix H: additional empirical insights",
+              "physical_pdf_pages": "supplement physical pp. 29–31 (printed pp. 39–41)",
+              "coverage": "Read the complete final empirical-insights section and supplement end matter."
+            }
+          ],
+          "text_extract_path": "evidence/W15/text/W15-016-supp.txt",
+          "rendered_pages": [
+            "evidence/W15/rendered/W15-016-supp-p1.png",
+            "evidence/W15/rendered/W15-016-supp-p6.png",
+            "evidence/W15/rendered/W15-016-supp-p17.png",
+            "evidence/W15/rendered/W15-016-supp-p18.png",
+            "evidence/W15/rendered/W15-016-supp-p24.png",
+            "evidence/W15/rendered/W15-016-supp-p25.png",
+            "evidence/W15/rendered/W15-016-supp-p29.png",
+            "evidence/W15/rendered/W15-016-supp-p31.png"
+          ]
+        }
+      ],
+      "rendered_supplement_pages": [
+        "evidence/W15/rendered/W15-016-supp-p1.png",
+        "evidence/W15/rendered/W15-016-supp-p6.png",
+        "evidence/W15/rendered/W15-016-supp-p17.png",
+        "evidence/W15/rendered/W15-016-supp-p18.png",
+        "evidence/W15/rendered/W15-016-supp-p24.png",
+        "evidence/W15/rendered/W15-016-supp-p25.png",
+        "evidence/W15/rendered/W15-016-supp-p29.png",
+        "evidence/W15/rendered/W15-016-supp-p31.png"
+      ],
+      "supplementary_text_extract": "evidence/W15/text/W15-016-supp.txt"
+    },
+    {
+      "local_id": "W15-017",
+      "reader": "W15",
+      "pdf_sha256": "37ddec26cfce414e4de85174f33e128055db003b10a6b11ade4ca1e32063d6e7",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §§1–2.2",
+          "physical_pdf_pages": "1–3",
+          "coverage": "Logistic Bernoulli bandit model, regret objective, κ sensitivity, related work and setup."
+        },
+        {
+          "section": "§3 Algorithms and main statistical/computational results",
+          "physical_pdf_pages": "4–6",
+          "coverage": "Algorithms 1–2, Theorem 1, Propositions 1–3, ECOLog confidence sets, warm-up/adaptive proof sketches."
+        },
+        {
+          "section": "§4 adaptive method, Theorem 2, experiments; §5 and references",
+          "physical_pdf_pages": "7–9",
+          "coverage": "Predictable C1 filter, contextual regret theorem, cost statement, experiments, conclusions and bibliography."
+        },
+        {
+          "section": "Supplementary contents and Appendix A",
+          "physical_pdf_pages": "10–11",
+          "coverage": "Appendix roadmap and logistic/self-concordance preliminaries."
+        },
+        {
+          "section": "Appendix B: warm-up and online estimation",
+          "physical_pdf_pages": "12–14",
+          "coverage": "Warm-up set diameter, Lemma 2 and ECOLog/ONS comparison."
+        },
+        {
+          "section": "Appendix C: confidence-set proofs",
+          "physical_pdf_pages": "15–23",
+          "coverage": "Theorem 3 and full concentration/confidence-set proof, including local quadratic loss bounds and data-dependent version."
+        },
+        {
+          "section": "Appendix D.1: Theorem 1 proof",
+          "physical_pdf_pages": "24–26",
+          "coverage": "Theorem 1 restatement and proof; unlike main p.4, Appendix D states and derives the leading log outside the square root."
+        },
+        {
+          "section": "Appendix D.2: TS-ECOLog",
+          "physical_pdf_pages": "26–28",
+          "coverage": "TS algorithm and regret statement/proof; physical p.28 top completes D.2 proof, then D.3 begins later on the same page."
+        },
+        {
+          "section": "Appendix D.3: Theorem 2 proof",
+          "physical_pdf_pages": "28–30",
+          "coverage": "Contextual theorem restatement and proof; D.3 begins after the D.2 proof at the top of p.28; p.30 conclusion places the leading log outside the square root."
+        },
+        {
+          "section": "Appendix E: computation",
+          "physical_pdf_pages": "31–32",
+          "coverage": "Algorithmic cost propositions."
+        },
+        {
+          "section": "Appendix F: auxiliary results",
+          "physical_pdf_pages": "33–34",
+          "coverage": "Elliptical potential, matrix, convex-optimization and projection facts."
+        },
+        {
+          "section": "Appendix G: additional experiments",
+          "physical_pdf_pages": "35",
+          "coverage": "Supplementary experimental results."
+        }
+      ],
+      "rendered_source_pages": [
+        4,
+        8,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30
+      ],
+      "card": "evidence/W15/cards/W15-017.md"
+    },
+    {
+      "local_id": "W15-018",
+      "reader": "W15",
+      "pdf_sha256": "c86fa604bd1acaaa2a72880313f1e2a660997882885c57a95755944645c645a8",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Kernelized contextual-bandit setting and effective-dimension motivation."
+        },
+        {
+          "section": "§2 Background, §§2.1–2.4",
+          "physical_pdf_pages": "2–4",
+          "coverage": "Model, kernel ridge estimates, UCB algorithms, linear-bandit context, related work."
+        },
+        {
+          "section": "§3 Kernelised UCB",
+          "physical_pdf_pages": "4–6",
+          "coverage": "SupKernelUCB algorithm and effective-dimension definition."
+        },
+        {
+          "section": "§4 Analysis, §4.1 Relationship with GP-UCB",
+          "physical_pdf_pages": "6–9",
+          "coverage": "Theorem 1 and proof via independent layers and Gram/effective-dimension bounds."
+        },
+        {
+          "section": "§5 Conclusion, §6 Acknowledgements, References",
+          "physical_pdf_pages": "9–10",
+          "coverage": "Conclusions and bibliography."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-018.md"
+    },
+    {
+      "local_id": "W15-019",
+      "reader": "W15",
+      "pdf_sha256": "981a17a4d356ac79c19864440fa2d56bbece59057dbeddfa20609b470b741c29",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Bayesian and agnostic GP bandit objectives."
+        },
+        {
+          "section": "§2 Problem Statement and Background, §§2.1–2.2",
+          "physical_pdf_pages": "2–4",
+          "coverage": "GP/RKHS model, information gain, and experimental design."
+        },
+        {
+          "section": "§3 GP-UCB Algorithm and §4 Regret Bounds",
+          "physical_pdf_pages": "4–6",
+          "coverage": "Finite/continuous-domain and agnostic RKHS regret results."
+        },
+        {
+          "section": "§5 Bounding the Information Gain, §§5.1–5.2",
+          "physical_pdf_pages": "6–8",
+          "coverage": "Submodularity, spectral arguments, and common-kernel rates."
+        },
+        {
+          "section": "§6 Experiments, §7 Conclusions, acknowledgments, References",
+          "physical_pdf_pages": "7–9",
+          "coverage": "Experiments, closing discussion, and bibliography."
+        },
+        {
+          "section": "Appendix: theorem and information-gain proof details",
+          "physical_pdf_pages": "10–17",
+          "coverage": "Confidence and regret proofs, information-gain estimates, and eigenvalue/spectral bounds."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-019.md"
+    },
+    {
+      "local_id": "W15-020",
+      "reader": "W15",
+      "pdf_sha256": "7a07f9bc9468fc4a480ef7a3ed3c7bf951fab9aa5169450d689abf1b82c06347",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1",
+          "coverage": "Linear-bandit fixed-confidence best-arm identification motivation and problem."
+        },
+        {
+          "section": "§2 Preliminaries",
+          "physical_pdf_pages": "2",
+          "coverage": "Finite action linear mean, bounded i.i.d. noise, unique optimum/gap, fixed/adaptive OLS concentration and design notation."
+        },
+        {
+          "section": "§3 Complexity and oracle",
+          "physical_pdf_pages": "3–4",
+          "coverage": "Cones, stopping conditions, oracle allocation, H_LB/N* and Lemmas 1–2."
+        },
+        {
+          "section": "§4 Static allocation strategies",
+          "physical_pdf_pages": "5",
+          "coverage": "Empirical stopping criterion, G/XY allocations and Theorems 1–2."
+        },
+        {
+          "section": "§5 XY-adaptive allocation",
+          "physical_pdf_pages": "6–7",
+          "coverage": "Dominance lemma, phase allocations, M*, Theorem 3 and sample complexity."
+        },
+        {
+          "section": "§6 simulations and §7 conclusion; references",
+          "physical_pdf_pages": "8–9",
+          "coverage": "Simulation design/results, conclusion, acknowledgments and references."
+        },
+        {
+          "section": "Appendix A and Appendix B",
+          "physical_pdf_pages": "10–12",
+          "coverage": "G/XY numerical design examples and proofs of lemmas/equivalence theorem/complexity bounds."
+        },
+        {
+          "section": "Appendix C: allocation implementations",
+          "physical_pdf_pages": "13–14",
+          "coverage": "Rounding, continuous/greedy design methods and Lemmas 5–7."
+        },
+        {
+          "section": "Appendix D: adaptive theorem proof",
+          "physical_pdf_pages": "15–17",
+          "coverage": "Phase-length Lemma 8, adaptive sample-complexity argument and supporting inequalities; its final proof continuation is on p.17 before Appendix E begins."
+        },
+        {
+          "section": "Appendix E: Additional Empirical Results",
+          "physical_pdf_pages": "17",
+          "coverage": "Figure 5 allocation/sample-budget comparison and accompanying discussion."
+        }
+      ],
+      "rendered_source_pages": [
+        2,
+        4,
+        5,
+        7,
+        11,
+        17
+      ],
+      "card": "evidence/W15/cards/W15-020.md"
+    },
+    {
+      "local_id": "W15-021",
+      "reader": "W15",
+      "pdf_sha256": "e9203b0ec778a3ca6d876ed8af9b0a2dec24a7add4f24834d62e2c527efb2cc7",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Motivation, related work and contributions for finite- and continuous-action linear BAI."
+        },
+        {
+          "section": "§2 Model and objective; §3.1 information lower bound",
+          "physical_pdf_pages": "2–3",
+          "coverage": "Gaussian linear feedback, filtration/PAC definitions, fixed-confidence allocation lower bound, and optimizer-set Lemmas 1–2."
+        },
+        {
+          "section": "§§3.2–3.4 estimation, tracking and stopping",
+          "physical_pdf_pages": "4–5",
+          "coverage": "Least-squares concentration, forced exploration, tracking/lazy condition, GLR formula and determinant threshold."
+        },
+        {
+          "section": "Algorithm 1 and §3.5 sample complexity",
+          "physical_pdf_pages": "6–7",
+          "coverage": "Lazy Track-and-Stop, Theorems 2–3 and quantitative condition needed for expected-time guarantee."
+        },
+        {
+          "section": "§4 continuous sphere-arm results; §5 experiments",
+          "physical_pdf_pages": "7–8",
+          "coverage": "Approximate-PAC sphere lower bound, round-robin rule, stopping condition, Proposition 3/Theorem 5 statements and finite-arm experiment."
+        },
+        {
+          "section": "§6 conclusion",
+          "physical_pdf_pages": "9",
+          "coverage": "Summary and future directions, including nonasymptotic gap."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "10–11",
+          "coverage": "Complete bibliography."
+        },
+        {
+          "section": "Appendix A: additional experiments",
+          "physical_pdf_pages": "12–13",
+          "coverage": "Complete experimental setup, additional sample-complexity/runtime/support tables and discussion."
+        },
+        {
+          "section": "Appendix B: properties of ψ",
+          "physical_pdf_pages": "14",
+          "coverage": "Proofs of Lemmas 1–2, continuity and maximum-theorem conditions."
+        },
+        {
+          "section": "Appendix C: least-squares estimator",
+          "physical_pdf_pages": "15–16",
+          "coverage": "Self-normalized inequalities and complete consistency/concentration proofs for Lemmas 3–4."
+        },
+        {
+          "section": "Appendix D: stopping rule",
+          "physical_pdf_pages": "17–19",
+          "coverage": "Closed-form GLR proof, Corollary 1, stopped self-normalized error guarantee and Corollary 2."
+        },
+        {
+          "section": "Appendix E: sampling rule",
+          "physical_pdf_pages": "20–24",
+          "coverage": "Forced-exploration lemma, set-valued tracking proof and Proposition 1 convergence."
+        },
+        {
+          "section": "Appendix F: sample complexity",
+          "physical_pdf_pages": "25–29",
+          "coverage": "Almost-sure and expected Theorem 2 and 3 proofs with bad-event summability."
+        },
+        {
+          "section": "Appendix G.1: sphere lower bound",
+          "physical_pdf_pages": "30–33",
+          "coverage": "Confusing alternatives, geometric reduction and trace/eigenvalue argument; theorem p.7 says denominator 20 while proof concludes denominator 40 on p.33."
+        },
+        {
+          "section": "Appendix G.2: stopping correctness",
+          "physical_pdf_pages": "34–35",
+          "coverage": "Proof of Proposition 3 with time-uniform confidence and eigenvalue condition."
+        },
+        {
+          "section": "Appendix G.3: sphere sample complexity",
+          "physical_pdf_pages": "35–37",
+          "coverage": "Almost-sure and expected Theorem 5 proofs."
+        }
+      ],
+      "rendered_source_pages": [
+        3,
+        6,
+        7,
+        33
+      ],
+      "card": "evidence/W15/cards/W15-021.md"
+    },
+    {
+      "local_id": "W15-022",
+      "reader": "W15",
+      "pdf_sha256": "f643c26032295dcb9c30dfea167a252f059d6febd53513e3814e40f8e33bc3a7",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–4",
+          "coverage": "GLM pure-exploration motivation, related work, contribution and article plan."
+        },
+        {
+          "section": "§2 model and objective; §3 algorithm start",
+          "physical_pdf_pages": "5–6",
+          "coverage": "Exponential-family mean-link model, approximate PAC objective, boundedness/link-derivative assumptions and gap notation."
+        },
+        {
+          "section": "§3.1 confidence sets and Algorithms 1–3",
+          "physical_pdf_pages": "7–8",
+          "coverage": "MLE gap estimate, derivative-scaled covariance confidence radius, gap selection and LP-based action allocation."
+        },
+        {
+          "section": "§3.2 sampling logic",
+          "physical_pdf_pages": "9",
+          "coverage": "Pessimistic gap selection and LP frequency tracking for the chosen feature direction."
+        },
+        {
+          "section": "§4.1 confidence and correctness proofs",
+          "physical_pdf_pages": "10–12",
+          "coverage": "Proposition 1 proof, time-uniform union bound/Theorem 1, and Theorem 2 approximate correctness."
+        },
+        {
+          "section": "§4.2 stopping-time bound and proof",
+          "physical_pdf_pages": "12–17",
+          "coverage": "Hε complexity, Theorem 3, Lemmas 1–4 and complete Theorem 4/Theorem 3 derivation."
+        },
+        {
+          "section": "§5.1 experimental details",
+          "physical_pdf_pages": "17–18",
+          "coverage": "Binary logistic simulation assumptions, parameter tuning and confidence results."
+        },
+        {
+          "section": "§5.2 synthetic experiments",
+          "physical_pdf_pages": "18–20",
+          "coverage": "Data generation, figures and comparisons with independent-arm GapE."
+        },
+        {
+          "section": "§5.3 drug-design experiments",
+          "physical_pdf_pages": "20–23",
+          "coverage": "ChEMBL construction, artificial binary outcome conversion, results and limitations."
+        },
+        {
+          "section": "§6 conclusion and references",
+          "physical_pdf_pages": "23–26",
+          "coverage": "Conclusions, acknowledgments and complete bibliography; no separate appendix in this version."
+        }
+      ],
+      "rendered_source_pages": [
+        6,
+        7,
+        10,
+        13
+      ],
+      "card": "evidence/W15/cards/W15-022.md"
+    },
+    {
+      "local_id": "W15-025",
+      "reader": "W15",
+      "pdf_sha256": "b71acb03034d73ca0ea148c9c6a91c34a88dd8c7ab8471af38035b34399bad9f",
+      "pdf_pages_read": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422
+      ],
+      "section_coverage": [
+        {
+          "section": "Chapter 10: The Upper Confidence Bound Algorithm: Bernoulli Noise",
+          "physical_pdf_pages": "142–152",
+          "coverage": "Complete chapter: Bernoulli KL concentration, KL-UCB, regret analysis, notes, bibliography, and exercises."
+        },
+        {
+          "section": "Adjacent Part III opening pages; read incidentally, not counted as a selected chapter",
+          "physical_pdf_pages": "153–156",
+          "coverage": "Part III introduction and opening adversarial-bandit discussion; outside the Chapter 10 unit."
+        },
+        {
+          "section": "Chapter 14: Foundations of Information Theory",
+          "physical_pdf_pages": "195–206",
+          "coverage": "Complete chapter: entropy/coding, relative entropy, data-processing/Bretagnolle–Huber tools, notes, bibliography, and exercises."
+        },
+        {
+          "section": "Chapter 15: Minimax Lower Bounds",
+          "physical_pdf_pages": "207–214",
+          "coverage": "Complete chapter: minimax lower bounds, divergence decomposition, notes, bibliography, and exercises."
+        },
+        {
+          "section": "Chapter 16, §§16.1–16.2",
+          "physical_pdf_pages": "215–220",
+          "coverage": "Unstructured asymptotic and finite-time regret lower bounds; finite-sample assumptions."
+        },
+        {
+          "section": "Chapter 33, §§33.2–33.3",
+          "physical_pdf_pages": "414–422",
+          "coverage": "Fixed-confidence BAI and fixed-budget sequential-halving results."
+        }
+      ],
+      "rendered_source_pages": [
+        142,
+        195,
+        196,
+        214
+      ],
+      "card": "evidence/W15/cards/W15-025.md",
+      "reading_status": "selected_chapters_read",
+      "coverage_scope": "Complete selected Chapters 10, 14, and 15 plus selected sections in Chapters 16 and 33; incidental pages 153–156 are identified separately; not a whole-book read."
+    },
+    {
+      "local_id": "W15-027",
+      "reader": "W15",
+      "pdf_sha256": "20f803be77ffac4fa1a5e009b9e1e6f96dc0aad48a4c72a38dda3489dcca1742",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction/Related Work",
+          "physical_pdf_pages": "1–3",
+          "coverage": "Linear BAI objective, G-design context, and contribution."
+        },
+        {
+          "section": "§2 Preliminaries",
+          "physical_pdf_pages": "3–4",
+          "coverage": "G-optimal design, estimator, and concentration setup."
+        },
+        {
+          "section": "§3 Main Theorems on the Estimator, §§3.1–3.4",
+          "physical_pdf_pages": "3–6",
+          "coverage": "New estimator, key lemma, per-arm error and significant-arm bounds."
+        },
+        {
+          "section": "§4 Algorithms, §§4.1–4.4",
+          "physical_pdf_pages": "6–8",
+          "coverage": "X-dependent, Y-dependent, and fully data-dependent elimination algorithms."
+        },
+        {
+          "section": "§5 Experiments, §6 Conclusion, References",
+          "physical_pdf_pages": "7–10",
+          "coverage": "Synthetic/real-data experiments, conclusion, and bibliography."
+        }
+      ],
+      "rendered_source_pages": [
+        7
+      ],
+      "card": "evidence/W15/cards/W15-027.md",
+      "reading_status": "fulltext_read",
+      "coverage_scope": "Complete main proceedings/body PDF plus the officially matched supplementary PDF. Main physical pages remain bound to the main PDF hash; supplementary physical pages and page lists are recorded separately. Read all four pages of the official PMLR supplement, Appendices A–G, including Appendix F and the proof of Theorem 22.",
+      "supplementary_documents": [
+        {
+          "document_id": "D02-W15-R07-S027-SUPP",
+          "original_source_id": "W15-027",
+          "batch_id": "D02-W15-R07",
+          "file_path": "evidence/shared/downloads/D02/papers/W15-027_TaoBlancoZhou_PMLR80_supplement_AppA-G.pdf",
+          "source_version": "Official ICML 2018 / PMLR 80 supplementary PDF",
+          "pdf_pages": 4,
+          "sha256": "8eec9c1e7fe5559dbfb0ced142da0c84f3475c665dc292c6d545fd25427e92f3",
+          "pdf_pages_read": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "reader": "W15",
+          "reading_status": "fulltext_read",
+          "counted_as_independent_work": false,
+          "coverage": [
+            {
+              "section": "Appendix A: proof of Lemma 10",
+              "physical_pdf_pages": "supplement physical p. 1",
+              "coverage": "Read the simplification of the estimator error bound using Lemma 7 and G-design leverage."
+            },
+            {
+              "section": "Appendices B–E: proofs of Theorem 12, Theorem 15, Lemma 17, and Lemma 20",
+              "physical_pdf_pages": "supplement physical pp. 1–3",
+              "coverage": "Read the uniform estimation guarantee, pairwise-gap result, elimination argument, and significant-arm counting proof."
+            },
+            {
+              "section": "Appendix F: proof of Theorem 22",
+              "physical_pdf_pages": "supplement physical pp. 3–4",
+              "coverage": "Read the ALBA level-elimination proof; it yields the sum over i=2,…,d without an extra leading d."
+            },
+            {
+              "section": "Appendix G: computing λ*_X",
+              "physical_pdf_pages": "supplement physical p. 4",
+              "coverage": "Read the entropic mirror-descent implementation details for the design."
+            }
+          ],
+          "text_extract_path": "evidence/W15/text/W15-027-supp.txt",
+          "rendered_pages": [
+            "evidence/W15/rendered/W15-027-supp-p3.png",
+            "evidence/W15/rendered/W15-027-supp-p4.png"
+          ]
+        }
+      ],
+      "rendered_supplement_pages": [
+        "evidence/W15/rendered/W15-027-supp-p3.png",
+        "evidence/W15/rendered/W15-027-supp-p4.png"
+      ],
+      "supplementary_text_extract": "evidence/W15/text/W15-027-supp.txt"
+    },
+    {
+      "local_id": "W15-028",
+      "reader": "W15",
+      "pdf_sha256": "5f17b872489c8aec6c130f732a7aeb8b34e4d4343e99535f1109df598db5e8b7",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Kernel-regularity adaptation motivation, contribution, model-space distinctions and paper map."
+        },
+        {
+          "section": "Table 1 and §2 Related Work",
+          "physical_pdf_pages": "3–4",
+          "coverage": "Summary of regret exponents, related adaptation literature, start of RKHS/Fourier and continuum-bandit model."
+        },
+        {
+          "section": "§3 model; §4 norm equivalence and Theorem 3",
+          "physical_pdf_pages": "4–5",
+          "coverage": "Additive sub-Gaussian cumulative-regret model, Fourier decay/RKHS balls, Sobolev equivalence and main adaptivity lower bound."
+        },
+        {
+          "section": "§4.2 proof sketch, Sobolev/Matérn consequences; §5 start",
+          "physical_pdf_pages": "5–6",
+          "coverage": "Bump/Pinsker proof plan, Corollary 5 conditions and regularity conversion."
+        },
+        {
+          "section": "§5.1–§5.2 adaptive upper bounds",
+          "physical_pdf_pages": "7–8",
+          "coverage": "Minimax base algorithms, UCB-Meta Theorem 6, CORRAL Theorem 7 and RBBE comparison."
+        },
+        {
+          "section": "§6 Hӧlder connection, §7 discussion, acknowledgments",
+          "physical_pdf_pages": "8–9",
+          "coverage": "Sobolev embedding consequence and explicit dimension/empirical limitations."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "9–11",
+          "coverage": "Complete references."
+        },
+        {
+          "section": "Appendix A.1–A.3 and Theorems 9–11",
+          "physical_pdf_pages": "12–13",
+          "coverage": "Sobolev/RKHS seminorm proof, full radius-feasible lower bound, RBBE statement and Sobolev theorem."
+        },
+        {
+          "section": "Appendix B.1: proof of Theorem 9",
+          "physical_pdf_pages": "14–16",
+          "coverage": "Nested Sobolev balls, compact bump construction, derivative calculations, Lemmas 12–13 and feasibility constraints."
+        },
+        {
+          "section": "Appendix B.1: alternative family and regret/KL argument",
+          "physical_pdf_pages": "17–19",
+          "coverage": "Localized hypotheses, Pinsker and source Eq. (55), optimization of M/Delta, and final radius checks."
+        },
+        {
+          "section": "Appendix B.2–B.4",
+          "physical_pdf_pages": "20–21",
+          "coverage": "Corollary 5 exponent derivation, Theorem 6 embedding proof and CORRAL Theorem 7 proof."
+        },
+        {
+          "section": "Appendix B.5",
+          "physical_pdf_pages": "22–23",
+          "coverage": "Full RBBE play-ratio and regret-exponent derivation."
+        }
+      ],
+      "rendered_source_pages": [
+        5,
+        12,
+        13,
+        17,
+        19,
+        20
+      ],
+      "card": "evidence/W15/cards/W15-028.md"
+    },
+    {
+      "local_id": "W15-031",
+      "reader": "W15",
+      "pdf_sha256": "94acdb14d015bdf5f4668c64054727fee8f9516927e4ecbf67c2afb2ea22fb71",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Finite-support bandit model and asymptotic optimality question."
+        },
+        {
+          "section": "§2 Preliminaries",
+          "physical_pdf_pages": "2–3",
+          "coverage": "Support model, divergence, and lower-bound definitions."
+        },
+        {
+          "section": "§3 An Asymptotically Optimal Policy",
+          "physical_pdf_pages": "3–4",
+          "coverage": "DMED policy and the asymptotic upper-bound statement."
+        },
+        {
+          "section": "§4 Analyses on Minimum Divergence, §§4.1–4.3",
+          "physical_pdf_pages": "4–6",
+          "coverage": "Duality, continuity, differentiability, and equality of minimum divergence."
+        },
+        {
+          "section": "§5 A Proof of Theorem 4",
+          "physical_pdf_pages": "6–12",
+          "coverage": "Unique-best-arm logarithmic count proof and instance-dependent remainder."
+        },
+        {
+          "section": "§6 Experiments and §7 Conclusion",
+          "physical_pdf_pages": "12–13",
+          "coverage": "Empirical results and closing discussion."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "13",
+          "coverage": "Complete bibliography."
+        }
+      ],
+      "rendered_source_pages": [
+        6,
+        7
+      ],
+      "card": "evidence/W15/cards/W15-031.md"
+    },
+    {
+      "local_id": "W15-033",
+      "reader": "W15",
+      "pdf_sha256": "7408f1288172e3ac2b67ee731a2b9a5071ed1774d487fe0ea5aaae43428caac1",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "section_coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "Finite-dimensional logistic bandit model and instance-dependent regret question."
+        },
+        {
+          "section": "§2 Preliminaries, §§2.1–2.3",
+          "physical_pdf_pages": "2–4",
+          "coverage": "Setting, related work, and contribution outline."
+        },
+        {
+          "section": "§3 Algorithm, §§3.1–3.2",
+          "physical_pdf_pages": "4–5",
+          "coverage": "OFULog confidence set, optimism, and algorithm."
+        },
+        {
+          "section": "§4 Main Results",
+          "physical_pdf_pages": "5–6",
+          "coverage": "Permanent/transient regret upper bounds and local minimax lower bound."
+        },
+        {
+          "section": "§5 High-Level Ideas",
+          "physical_pdf_pages": "6–7",
+          "coverage": "Proof mechanisms for upper and lower bounds."
+        },
+        {
+          "section": "§6 Tractability through Convex Relaxations",
+          "physical_pdf_pages": "7–8",
+          "coverage": "Convex planning relaxation and finite-action computation."
+        },
+        {
+          "section": "§7 Conclusion and References",
+          "physical_pdf_pages": "8–9",
+          "coverage": "Conclusion and bibliography."
+        }
+      ],
+      "rendered_source_pages": [],
+      "card": "evidence/W15/cards/W15-033.md",
+      "reading_status": "fulltext_read",
+      "coverage_scope": "Complete main proceedings/body PDF plus the officially matched supplementary PDF. Main physical pages remain bound to the main PDF hash; supplementary physical pages and page lists are recorded separately. Read all 41 physical pages of the official PMLR supplement; pp.1–9 duplicate the body, pp.10–41 contain the complete A–H appendices and organization page.",
+      "supplementary_documents": [
+        {
+          "document_id": "D02-W15-R07-S033-SUPP",
+          "original_source_id": "W15-033",
+          "batch_id": "D02-W15-R07",
+          "file_path": "evidence/shared/downloads/D02/papers/W15-033_AbeilleEtAl_PMLR130_supplement.pdf",
+          "source_version": "Official AISTATS 2021 / PMLR 130 supplementary PDF",
+          "pdf_pages": 41,
+          "sha256": "27cccb28f0a796f1181265fc06f322b0a9b19b0536959bd0f112cf1e0c485f1d",
+          "pdf_pages_read": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "reader": "W15",
+          "reading_status": "fulltext_read",
+          "counted_as_independent_work": false,
+          "coverage": [
+            {
+              "section": "Repeated body and appendix contents map",
+              "physical_pdf_pages": "supplement physical pp. 1–10",
+              "coverage": "Compared physical pp.1–9 with the W15-033 main proceedings PDF (normalized text matches pagewise; p.2 has a minor spacing/hyphen extraction difference); read p.10 appendix organization/contents."
+            },
+            {
+              "section": "Appendix A: notation and auxiliary inequalities",
+              "physical_pdf_pages": "supplement physical p. 11",
+              "coverage": "Read the notation and preliminary inequalities used by the subsequent proofs."
+            },
+            {
+              "section": "Appendix B: proof of the confidence-set result",
+              "physical_pdf_pages": "supplement physical pp. 12–16",
+              "coverage": "Read the confidence-set proof and its use of logistic likelihood curvature."
+            },
+            {
+              "section": "Appendix C: proofs of regret upper bounds",
+              "physical_pdf_pages": "supplement physical pp. 17–26",
+              "coverage": "Read the decomposition and proof of permanent/transient regret terms, including the detrimental-arm argument."
+            },
+            {
+              "section": "Appendix D: local minimax lower bound",
+              "physical_pdf_pages": "supplement physical pp. 27–35",
+              "coverage": "Read the local alternatives, KL/Pinsker reduction, and lower-bound proof."
+            },
+            {
+              "section": "Appendix E: convex planning relaxation",
+              "physical_pdf_pages": "supplement physical p. 36",
+              "coverage": "Read the finite-action convex-optimization relaxation and guarantee transfer."
+            },
+            {
+              "section": "Appendix F: self-concordance lemmas",
+              "physical_pdf_pages": "supplement physical pp. 37–38",
+              "coverage": "Read auxiliary self-concordance results."
+            },
+            {
+              "section": "Appendix G: auxiliary technical results",
+              "physical_pdf_pages": "supplement physical pp. 39–40",
+              "coverage": "Read polynomial/determinant/elliptical-potential auxiliary bounds."
+            },
+            {
+              "section": "Appendix H: numerical experiments",
+              "physical_pdf_pages": "supplement physical p. 41",
+              "coverage": "Read the full supplementary experiments section."
+            }
+          ],
+          "text_extract_path": "evidence/W15/text/W15-033-supp.txt",
+          "rendered_pages": [
+            "evidence/W15/rendered/W15-033-supp-p10.png",
+            "evidence/W15/rendered/W15-033-supp-p17.png",
+            "evidence/W15/rendered/W15-033-supp-p21.png",
+            "evidence/W15/rendered/W15-033-supp-p22.png",
+            "evidence/W15/rendered/W15-033-supp-p27.png",
+            "evidence/W15/rendered/W15-033-supp-p30.png",
+            "evidence/W15/rendered/W15-033-supp-p33.png",
+            "evidence/W15/rendered/W15-033-supp-p35.png",
+            "evidence/W15/rendered/W15-033-supp-p36.png",
+            "evidence/W15/rendered/W15-033-supp-p37.png",
+            "evidence/W15/rendered/W15-033-supp-p39.png",
+            "evidence/W15/rendered/W15-033-supp-p41.png"
+          ]
+        }
+      ],
+      "rendered_supplement_pages": [
+        "evidence/W15/rendered/W15-033-supp-p10.png",
+        "evidence/W15/rendered/W15-033-supp-p17.png",
+        "evidence/W15/rendered/W15-033-supp-p21.png",
+        "evidence/W15/rendered/W15-033-supp-p22.png",
+        "evidence/W15/rendered/W15-033-supp-p27.png",
+        "evidence/W15/rendered/W15-033-supp-p30.png",
+        "evidence/W15/rendered/W15-033-supp-p33.png",
+        "evidence/W15/rendered/W15-033-supp-p35.png",
+        "evidence/W15/rendered/W15-033-supp-p36.png",
+        "evidence/W15/rendered/W15-033-supp-p37.png",
+        "evidence/W15/rendered/W15-033-supp-p39.png",
+        "evidence/W15/rendered/W15-033-supp-p41.png"
+      ],
+      "supplementary_text_extract": "evidence/W15/text/W15-033-supp.txt"
+    },
+    {
+      "local_id": "W15-023",
+      "reader": "W15",
+      "pdf_sha256": "8b542bad63bd1fbfdcae396f69c0ed7d750d08fdc7e2040735b7fb86b747ff05",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "section_coverage": [
+        {
+          "section": "Title page, abstract, keywords",
+          "physical_pdf_pages": "1",
+          "coverage": "首页核对题名作者、arXiv v6标识和投稿页脚；完整读摘要。"
+        },
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": "2–3",
+          "coverage": "动机、simple regret与连续臂方向；全文阅读。"
+        },
+        {
+          "section": "§2 Problem setup, notation, structure",
+          "physical_pdf_pages": "4–5",
+          "coverage": "有限臂模型、分配/推荐随机化、simple/cumulative regret定义。"
+        },
+        {
+          "section": "§3 The smaller the cumulative regret, the larger the simple regret",
+          "physical_pdf_pages": "6–10",
+          "coverage": "Theorem 1、两个推论、完整置换/零回报/似然比证明。"
+        },
+        {
+          "section": "Finite-arm allocation and recommendation algorithms",
+          "physical_pdf_pages": "11–12",
+          "coverage": "Uniform/UCB(α)分配及EDP/EBA/MPA推荐策略定义。"
+        },
+        {
+          "section": "§4.1 Uniform allocation; Proposition 1 and Corollary 3",
+          "physical_pdf_pages": "13–15",
+          "coverage": "Uniform+EBA Proposition 1及Corollary 3的经验最优推荐固定在物理页13–14所述round K floor(n/K)；各臂只取floor(n/K)样本，余数轮次不参与该推荐。"
+        },
+        {
+          "section": "§4.2 UCB(α) analysis; Theorems 2–3 and proofs",
+          "physical_pdf_pages": "15–17",
+          "coverage": "Theorem 2–3与证明；Thm3两项有限时刻界与源中另写的O化简分开记录，直接由显示的第二项推出目标率需要α≥5/4。"
+        },
+        {
+          "section": "§4.2.2 Other recommendation strategies",
+          "physical_pdf_pages": "17–18",
+          "coverage": "EDP和EBA结合UCB的结果及其依据。"
+        },
+        {
+          "section": "§5 Finite-arm comparison and simulations",
+          "physical_pdf_pages": "18–21",
+          "coverage": "界比较与模拟设置/结果；模拟仅作经验描述。"
+        },
+        {
+          "section": "§6 X-armed model and Theorem 4",
+          "physical_pdf_pages": "20–22",
+          "coverage": "环境/连续均值模型、explorable等定义、Lemma 2、Theorem 4/Corollary 4陈述。"
+        },
+        {
+          "section": "§6.3–6.5 proofs and uniform-bound remark",
+          "physical_pdf_pages": "23–30",
+          "coverage": "Lemma 2与Theorem 4的完整构造、可分/不可分两方向及附加备注。"
+        },
+        {
+          "section": "Appendix A.1–A.2",
+          "physical_pdf_pages": "31–33",
+          "coverage": "Proposition 1第二式的完整证明及有限臂启发式讨论。"
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "34–35",
+          "coverage": "完整阅读末尾参考文献。"
+        }
+      ],
+      "rendered_source_pages": [
+        1,
+        6,
+        7,
+        13,
+        14,
+        15,
+        22,
+        32,
+        33,
+        35
+      ],
+      "card": "evidence/W15/cards/W15-023.md",
+      "reading_status": "fulltext_read",
+      "coverage_scope": "Complete local PDF, physical pp. 1–35; no missing supplement known from this supplied source. All listed pages read.",
+      "text_extract_path": "evidence/W15/reader_batches/L13_final6half/text/W15-023.txt",
+      "rendered_source_page_files": [
+        "evidence/W15/rendered/W15-023-p01.png",
+        "evidence/W15/rendered/W15-023-p06.png",
+        "evidence/W15/rendered/W15-023-p07.png",
+        "evidence/W15/rendered/W15-023-p13.png",
+        "evidence/W15/rendered/W15-023-p14.png",
+        "evidence/W15/rendered/W15-023-p15.png",
+        "evidence/W15/rendered/W15-023-p22.png",
+        "evidence/W15/rendered/W15-023-p32.png",
+        "evidence/W15/rendered/W15-023-p33.png",
+        "evidence/W15/rendered/W15-023-p35.png"
+      ],
+      "reader_batch_evidence": "evidence/W15/reader_batches/L13_final6half",
+      "helper_coverage_record_sha256": "e429a09ab8805bac6befd5c28afe4d6875cabb47a04d93542c6ef7f3c74374c0"
+    },
+    {
+      "local_id": "W15-026",
+      "reader": "W15",
+      "pdf_sha256": "5563e7cfa516fe4538107d01dd93748c1dc90d78a7398e9408519b88d2285dce",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "section_coverage": [
+        {
+          "section": "Title, abstract, §1 Introduction",
+          "physical_pdf_pages": "1–2",
+          "coverage": "首页身份、PAC/fixed-budget设定、Explore-m目标和文章路线。"
+        },
+        {
+          "section": "§2 Complexity measure for Explore-m",
+          "physical_pdf_pages": "2–4",
+          "coverage": "误差容忍复杂度、Bernoulli KL及Chernoff information、目标复杂度比较。"
+        },
+        {
+          "section": "§3 Racing and LUCB algorithms",
+          "physical_pdf_pages": "4–6",
+          "coverage": "通用CI/采样/停止/推荐规则、Racing接受/淘汰、LUCB critical-arm选择。"
+        },
+        {
+          "section": "§4.1 Chernoff concentration; Theorem 1",
+          "physical_pdf_pages": "6–8",
+          "coverage": "Theorem 1及Chernoff浓缩链；记录common c∈(0,1)、排除p_m=p_{m+1}=0或1，Lemma1–2另要求p_a≠c。"
+        },
+        {
+          "section": "§4.2 Theorems 2–3 and discussion",
+          "physical_pdf_pages": "8–10",
+          "coverage": "KL-Racing高概率样本界、KL-LUCB停止时间界、开放复杂度缺口与区间端点印刷问题。"
+        },
+        {
+          "section": "§4.3 Proof of Theorem 3",
+          "physical_pdf_pages": "10–11",
+          "coverage": "分层计数、充分探索/停止时尾概率到期望界的推导。"
+        },
+        {
+          "section": "§5 Numerical experiments; §6 Conclusion",
+          "physical_pdf_pages": "11–13",
+          "coverage": "算法实验图表和结论；仅实验比较，不宣称下界最优。"
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "14–15",
+          "coverage": "完整参考文献。"
+        },
+        {
+          "section": "Appendix A. PAC guarantees",
+          "physical_pdf_pages": "16–17",
+          "coverage": "Theorem 1的置信事件与PAC证明、辅助引理。"
+        },
+        {
+          "section": "Appendix B. KL-Racing sample complexity",
+          "physical_pdf_pages": "17–18",
+          "coverage": "Theorem 2完整高概率复杂度证明。"
+        },
+        {
+          "section": "Appendix C. Concentration Lemmas",
+          "physical_pdf_pages": "17–20",
+          "coverage": "Lemma 1–2的Chernoff/KL浓缩证明与辅助算式。"
+        },
+        {
+          "section": "Appendix D. Proposition 1",
+          "physical_pdf_pages": "20–21",
+          "coverage": "固定预算算法概率上界的证明。"
+        },
+        {
+          "section": "Appendix E. Upper bound on T1",
+          "physical_pdf_pages": "21–22",
+          "coverage": "LUCB样本尾界与辅助停止时分析。"
+        },
+        {
+          "section": "Appendix F. KL-LUCB for fixed budget",
+          "physical_pdf_pages": "22–24",
+          "coverage": "KL-LUCB-E算法及误差概率分析；区分于PAC停止时间版本。"
+        }
+      ],
+      "rendered_source_pages": [
+        1,
+        4,
+        7,
+        8,
+        15,
+        16,
+        24
+      ],
+      "card": "evidence/W15/cards/W15-026.md",
+      "reading_status": "fulltext_read",
+      "coverage_scope": "Complete local PDF, physical pp. 1–24; no missing supplement known from this supplied source. All listed pages read.",
+      "text_extract_path": "evidence/W15/reader_batches/L13_final6half/text/W15-026.txt",
+      "rendered_source_page_files": [
+        "evidence/W15/rendered/W15-026-p01.png",
+        "evidence/W15/rendered/W15-026-p04.png",
+        "evidence/W15/rendered/W15-026-p07.png",
+        "evidence/W15/rendered/W15-026-p08.png",
+        "evidence/W15/rendered/W15-026-p15.png",
+        "evidence/W15/rendered/W15-026-p16.png",
+        "evidence/W15/rendered/W15-026-p24.png"
+      ],
+      "reader_batch_evidence": "evidence/W15/reader_batches/L13_final6half",
+      "helper_coverage_record_sha256": "e228db44c5b940eb774f21b1ec0bfc6caf09deb9fdd6c0f84b877bd59f656e2f"
+    },
+    {
+      "local_id": "W15-029",
+      "reader": "W15",
+      "pdf_sha256": "369c557c7f7157cab0c6a5eb39858ea83c7a9044b3b6bf36881a4320654d4d12",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "section_coverage": [
+        {
+          "section": "Title, abstract, §1 Introduction",
+          "physical_pdf_pages": "1–3",
+          "coverage": "首页身份、研究动机、paper outline。"
+        },
+        {
+          "section": "§2 Problem Definition",
+          "physical_pdf_pages": "3–4",
+          "coverage": "Bernoulli未知偏置、任意停止策略、(ε,δ)-正确性。"
+        },
+        {
+          "section": "§3 Lower Bound on Sample Complexity",
+          "physical_pdf_pages": "4–7",
+          "coverage": "Theorem 1、辅助引理及n/ε² log(1/δ)最坏情形换测证明。"
+        },
+        {
+          "section": "§4 General-probability and instance-dependent bounds",
+          "physical_pdf_pages": "7–14",
+          "coverage": "Theorem 5集合M/N、详细似然比证明、Theorem 8偏置变换扩展。"
+        },
+        {
+          "section": "§5 Bayesian Setting",
+          "physical_pdf_pages": "14–15",
+          "coverage": "先验正确性定义与Theorem 9及证明。"
+        },
+        {
+          "section": "§6 Regret Bounds",
+          "physical_pdf_pages": "15–18",
+          "coverage": "记载Thm10源陈述为∃p∀t，证明实际固定t；附all-horizon online超长轮换块反例及§2 a.s.-stopping与§6在线延续接口限制，不推广到停止PAC类。"
+        },
+        {
+          "section": "§7.1 Unknown permutation: expected-time upper bound",
+          "physical_pdf_pages": "18–20",
+          "coverage": "q*已知、median-elimination加验证算法、Theorem 11与终止/期望分析。"
+        },
+        {
+          "section": "§7.2 Expected-time lower bound",
+          "physical_pdf_pages": "20–24",
+          "coverage": "Theorem 13、三假设约简、两条下界拼接和双过程证明。"
+        },
+        {
+          "section": "§7.3 Pathwise Sample Complexity",
+          "physical_pdf_pages": "24–25",
+          "coverage": "路径最坏样本复杂度定义、Theorem 14和归约证明。"
+        },
+        {
+          "section": "§8 Concluding Remarks and acknowledgments",
+          "physical_pdf_pages": "25",
+          "coverage": "结论、可推广猜测范围、致谢。"
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": "26",
+          "coverage": "完整参考文献。"
+        }
+      ],
+      "rendered_source_pages": [
+        1,
+        4,
+        7,
+        8,
+        13,
+        16,
+        20,
+        21,
+        24,
+        25,
+        26
+      ],
+      "card": "evidence/W15/cards/W15-029.md",
+      "reading_status": "fulltext_read",
+      "coverage_scope": "Complete local PDF, physical pp. 1–26; no missing supplement known from this supplied source. All listed pages read.",
+      "text_extract_path": "evidence/W15/reader_batches/L13_final6half/text/W15-029.txt",
+      "rendered_source_page_files": [
+        "evidence/W15/rendered/W15-029-p01.png",
+        "evidence/W15/rendered/W15-029-p04.png",
+        "evidence/W15/rendered/W15-029-p07.png",
+        "evidence/W15/rendered/W15-029-p08.png",
+        "evidence/W15/rendered/W15-029-p13.png",
+        "evidence/W15/rendered/W15-029-p16.png",
+        "evidence/W15/rendered/W15-029-p20.png",
+        "evidence/W15/rendered/W15-029-p21.png",
+        "evidence/W15/rendered/W15-029-p24.png",
+        "evidence/W15/rendered/W15-029-p25.png",
+        "evidence/W15/rendered/W15-029-p26.png"
+      ],
+      "reader_batch_evidence": "evidence/W15/reader_batches/L13_final6half",
+      "helper_coverage_record_sha256": "3e59918b7a9d75f7c9be18535044002834e98ca7e5b024199580fd92fd60e681"
+    }
+  ]
+}

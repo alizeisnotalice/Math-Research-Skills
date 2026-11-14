@@ -1,0 +1,43 @@
+{
+  "scope": "All canonical monic 0-1 polynomials with constant term 1 of degrees 1..8 (the support-normalized case); all nontrivial rational factor splits obtained by distributing irreducible factors. Factor splits are oriented.",
+  "exact_arithmetic": "SymPy Poly over QQ; coefficient sign and binary checks are exact.",
+  "counts_by_degree": [
+    {
+      "degree": 1,
+      "polynomials": 1
+    },
+    {
+      "degree": 2,
+      "polynomials": 2
+    },
+    {
+      "degree": 3,
+      "polynomials": 4
+    },
+    {
+      "degree": 4,
+      "polynomials": 8
+    },
+    {
+      "degree": 5,
+      "polynomials": 16
+    },
+    {
+      "degree": 6,
+      "polynomials": 32
+    },
+    {
+      "degree": 7,
+      "polynomials": 64
+    },
+    {
+      "degree": 8,
+      "polynomials": 128
+    }
+  ],
+  "total_polynomials": 255,
+  "total_nontrivial_rational_factor_splits": 326,
+  "splits_with_both_factors_nonnegative": 98,
+  "nonbinary_nonnegative_rational_splits": [],
+  "limitation": "Canonical support-normalized polynomials have constant term 1; finite degrees and rational factors only. Factor splits are oriented. Does not rule out irrational real nonnegative factors or prove A175."
+}

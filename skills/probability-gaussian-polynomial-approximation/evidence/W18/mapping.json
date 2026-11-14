@@ -1,0 +1,184 @@
+[
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "direct",
+    "needed_lemma": "The identity E[(|p|-1)^2]=||p-sgn p||²₂ and the Hermite-tail theorem for Gaussian sign functions yield only the known Ω(d^(-1/2)) lower-order bound after a variance-transfer case split. M0250 is kept in a separate auxiliary mapping: its Hermite basis/operator correspondence is normalization support only, not a B167 extremal bound. M0230 Theorem 7 has the ratio max(q,1)/max(r,1); its Theorem 8 prints Cq for q>0 but fails the constant-polynomial check when q<1, so use that statement only for q≥1 (e.g. q=d).",
+    "source_local_ids": [
+      "M0110",
+      "W18-X003",
+      "M0111",
+      "M0226",
+      "M0227",
+      "M0230",
+      "M0232",
+      "M0235",
+      "M0236",
+      "M0237",
+      "M0245",
+      "M0246",
+      "M0253",
+      "M0254",
+      "M0256",
+      "M0257"
+    ],
+    "unproved_interface": "The sharp leading asymptotic constant over all dimensions and all real degree≤d polynomials with Var≥1 is not determined by the read sources or this deduction. Exact Hermite normalization, extremizing sequences, and a dimension-uniform matching upper construction require further work. M0230 Theorem 8’s printed q<1 range is inconsistent with p≡1, α=1; no max(q,1) repair is inferred. The B167 use is restricted to q≥1."
+  },
+  {
+    "problem_id": "C168",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Gaussian/Hermite expansions may provide an orthogonal basis representation for the kernel/operator, subject to an explicit derivation for sin⟨x,y⟩ exp(−(||x||²+||y||²)/2).",
+    "source_local_ids": [
+      "M0226",
+      "M0227",
+      "M0250",
+      "M0254"
+    ],
+    "unproved_interface": "No card derives a Hermite diagonalization or proves that the B167 sign-approximation theorem controls the bilinear extremum; the n=2 optimal sign partition remains open in this mapping."
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Use these papers only for the specific interfaces identified in each card: Gaussian noise-stability rigidity (M0244); variance-1/2 Hermite normalization/isometry (M0250); deterministic near-zero-set covering and moment-learning architecture (W18-X012); nonnegative quadratic lower-tail sanity check (W18-X014, source theorem assumes nonzero degree two / positive expectation; the card’s degree-at-most-two extension is a separate deduction); weak arbitrary-degree interval anti-concentration (W18-X015); Gaussian multilinear PTF sensitivity (W18-X018; keep the Gaussian and Boolean models separate and isolate its defective printed large-noise endpoint); Gaussian/Boolean PTF sensitivity in arXiv v1 (W18-X019). None proves the B167 sharp asymptotic constant. M0235 is canonical-use context only: if a separate reduction verifies its independent-coordinate, multilinearity, moment-matching/hypercontractivity, degree, variance, individual-influence, and smoothing hypotheses, its invariance/distributional comparisons may be used for that structured instance; no such reduction is currently established for arbitrary B167 p.",
+    "source_local_ids": [
+      "M0244",
+      "M0250",
+      "W18-X012",
+      "W18-X014",
+      "W18-X015",
+      "W18-X018",
+      "W18-X019",
+      "M0235"
+    ],
+    "unproved_interface": "B167 requires the sharp asymptotic infimum of E[(|p(Z)|−1)^2] over all n and real deg(p)≤d with Z~N(0,I_n), Var(p(Z))≥1. The PTF sensitivity papers do not apply directly to arbitrary signed, nonhomogeneous, non-multilinear polynomials in B167; W18-X018’s printed large-noise endpoint must not be used globally. These sources do not establish a dimension-uniform reduction from this objective to noise stability/sensitivity, near-zero covering, or interval anti-concentration; they do not provide a matching lower and upper leading constant. Any proposed bridge must preserve the standard-normal versus variance-1/2 Hermite normalization and handle arbitrary (nonhomogeneous, potentially signed, non-multilinear) p. R06 accepted M0235’s conditional B167 use card; its hypotheses are not implied by B167’s degree/variance constraints.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Gaussian dilation and Gaussian Banach-valued linear-series moment comparison (Theorem 1 and Corollary 3).",
+    "source_local_ids": [
+      "M0228"
+    ],
+    "unproved_interface": "The source treats symmetric convex sets and linear Gaussian series; it does not reduce E[(|p(Z)|−1)^2] for arbitrary low-degree p to either statement. No B167 lower bound or leading constant follows.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Order-only Lp/tail control for decoupled chaos with nonnegative coefficients and independent positive log-concave-tail variables.",
+    "source_local_ids": [
+      "M0231"
+    ],
+    "unproved_interface": "B167 concerns signed Gaussian polynomials and a nonlinear absolute-value objective. The positive-coefficient product-chaos norm is not shown to represent or dominate that objective.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Independent-coordinate subgaussian linear-image small-ball estimate with exact stable-rank exponent; random-polytope operator-net applications.",
+    "source_local_ids": [
+      "M0233"
+    ],
+    "unproved_interface": "A general polynomial of Z is not the linear image Aξ in Theorem 2.5 under the stated independent-coordinate hypotheses. No anti-concentration estimate for p(Z), nor bound for E[(|p(Z)|−1)^2], is established.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Additive Gaussian approximation for Lp norms of independent symmetric variance-one sums with log-concave tails, error p||a||∞.",
+    "source_local_ids": [
+      "M0234"
+    ],
+    "unproved_interface": "The summands in a polynomial of one Gaussian vector are dependent monomials, and the target is an L2 loss of |p| relative to one. No reduction to independent linear sums or to that nonlinear objective is supplied.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Partition-indexed coefficient-norm moment/tail estimates for decoupled symmetric chaos (lower all orders, upper d≤3 or all d for symmetric exponential coordinates).",
+    "source_local_ids": [
+      "M0238"
+    ],
+    "unproved_interface": "These bounds estimate Lp norms of specific homogeneous/decoupled chaos variables; they do not optimize E[(|p(Z)|−1)^2] over dimension or control arbitrary nonhomogeneous powers under B167's variance constraint. The d>3 general log-concave-tail upper bound is explicitly unavailable.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Potential auxiliary background only: M0240 degree-dependent Gaussian polynomial moment/tail comparison; M0241 Gaussian correlation for symmetric convex events; M0242 HMO-supported log-convex-survival (N=-ln survival concave) chaos moments, with the source's opposite p.2 definition isolated; M0247 canonical Banach-valued Gaussian-chaos moments; M0248 structured Gaussian matrix operator norms; M0251 finite Gaussian-maximum anti-concentration/comparison. Each card states the exact hypothesis and proved scope.",
+    "source_local_ids": [
+      "M0240",
+      "M0241",
+      "M0242",
+      "M0248",
+      "M0251",
+      "M0247"
+    ],
+    "unproved_interface": "B167 asks for the sharp asymptotic leading constant in inf E[(|p(Z)|−1)^2] over all finite dimensions, real degree≤d polynomials, Z~N(0,I), Var(p(Z))≥1. None of these sources proves a reduction from that scalar non-polynomial sign-distance objective to its stated Gaussian event, chaos, matrix, or maximum bound, nor a matching lower/upper construction. No B167 sharp constant is resolved. M0247 helper-stage usage was accepted; its W18 mother path/card reconciliation remains pending R06 and it is not a new full-text read.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Fixed-order fixed-chaos CLT iff fourth moment tends to 3 iff all self-contractions vanish.",
+    "source_local_ids": [
+      "W18-X020"
+    ],
+    "unproved_interface": "B167 optimizes E[(|p(Z)|−1)^2] over all real polynomials of degree at most d and all dimensions; no fixed-chaos CLT sequence or asymptotic-normality hypothesis is given. No reduction from this objective to a fourth-moment/contraction test is proved.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Fixed-chaos Malliavin-derivative criterion and projection-level Gaussian CLT for general L2 sequences.",
+    "source_local_ids": [
+      "W18-X021"
+    ],
+    "unproved_interface": "The derivative criterion answers when a specified fixed-chaos sequence is asymptotically Gaussian; it does not provide a dimension-uniform lower bound for the B167 absolute-value loss or identify its extremizers.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Quantitative Malliavin–Stein normal/Gamma bounds, fourth-moment/contraction criteria and fixed-chaos limit diagnostics.",
+    "source_local_ids": [
+      "W18-X022"
+    ],
+    "unproved_interface": "Stein bounds compare laws once a Gaussian/Gamma target and a chaos defect are specified. B167 asks for a sharp expectation of a nonsmooth function of an arbitrary bounded-degree polynomial; the source gives no such reduction or sharp constant.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Multivariate Malliavin–Stein Wasserstein estimate and contraction bounds for Gaussian-chaos vectors.",
+    "source_local_ids": [
+      "W18-X023"
+    ],
+    "unproved_interface": "The theorem requires a finite vector of centered Malliavin-differentiable functionals and a positive-definite Gaussian covariance target. B167 is a scalar optimization over arbitrary dimensions and has no supplied Gaussian-limit condition.",
+    "review_status": "pending"
+  },
+  {
+    "problem_id": "B167",
+    "tool": "probability-gaussian-polynomial-approximation",
+    "role": "auxiliary",
+    "needed_lemma": "Low-influence invariance and moment/contraction criteria transferring homogeneous-sum Gaussian approximation.",
+    "source_local_ids": [
+      "W18-X024"
+    ],
+    "unproved_interface": "The invariance and quantitative bounds require diagonal-free homogeneous sums, independent input sequences, moment conditions and/or vanishing influences. B167 allows arbitrary inhomogeneous Gaussian polynomials and does not assume low influence. No sharp objective transfer follows.",
+    "review_status": "pending"
+  }
+]

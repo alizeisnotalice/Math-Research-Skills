@@ -1,0 +1,67 @@
+{
+  "check": "forward equation and filtered-martingale identity for a two-state CTMC with constant observation",
+  "generator_rows": [
+    [
+      -2,
+      2
+    ],
+    [
+      1,
+      -1
+    ]
+  ],
+  "initial_law": [
+    1,
+    0
+  ],
+  "observation_map": "constant; observation filtration is trivial",
+  "test_function": "f(x)=1_{x=1}",
+  "derivation": "p_1(t)=2/3(1-exp(-3t)); (Af)(0)=2, (Af)(1)=-1; nu_s Af=2 exp(-3s); hence p_1(t)-p_1(0)=integral_0^t nu_s Af ds.",
+  "rows": [
+    {
+      "t": 0.0,
+      "nu_t_f": 0.0,
+      "nu_0_f_plus_integral_nu_s_Af_ds": 0.0,
+      "instantaneous_forward_derivative": 2.0,
+      "absolute_forward_identity_error": 0.0
+    },
+    {
+      "t": 0.1,
+      "nu_t_f": 0.17278785287885473,
+      "nu_0_f_plus_integral_nu_s_Af_ds": 0.17278785287885473,
+      "instantaneous_forward_derivative": 1.481636441363436,
+      "absolute_forward_identity_error": 0.0
+    },
+    {
+      "t": 0.5,
+      "nu_t_f": 0.5179132265677134,
+      "nu_0_f_plus_integral_nu_s_Af_ds": 0.5179132265677134,
+      "instantaneous_forward_derivative": 0.4462603202968597,
+      "absolute_forward_identity_error": 0.0
+    },
+    {
+      "t": 1.0,
+      "nu_t_f": 0.6334752877547574,
+      "nu_0_f_plus_integral_nu_s_Af_ds": 0.6334752877547574,
+      "instantaneous_forward_derivative": 0.0995741367357279,
+      "absolute_forward_identity_error": 0.0
+    },
+    {
+      "t": 2.0,
+      "nu_t_f": 0.6650141652155557,
+      "nu_0_f_plus_integral_nu_s_Af_ds": 0.6650141652155557,
+      "instantaneous_forward_derivative": 0.0049575043533329755,
+      "absolute_forward_identity_error": 0.0
+    },
+    {
+      "t": 5.0,
+      "nu_t_f": 0.6666664627317863,
+      "nu_0_f_plus_integral_nu_s_Af_ds": 0.6666664627317863,
+      "instantaneous_forward_derivative": 6.118046410596989e-07,
+      "absolute_forward_identity_error": 0.0
+    }
+  ],
+  "max_absolute_error": 0.0,
+  "runtime": "Python 3.15.0",
+  "scope_limit": "finite example only; it does not prove Theorem 3.2, Markov uniqueness, or any queueing-model interface"
+}

@@ -1,0 +1,1408 @@
+[
+  {
+    "local_id": "W02-S002",
+    "pdf_sha256": "56bd37e5f6bdf191f73ca53b1f7b3f75a27a53b3902098db7f0e7c42b6c29b63",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1",
+        "content_and_proof_mechanism": "States the discrete Doob convergence formalization goals and probabilistic setup."
+      },
+      {
+        "section": "1.1 Martingales and convergence",
+        "pdf_pages": "2",
+        "content_and_proof_mechanism": "Reviews measure-theoretic martingale definitions and the convergence results being formalized."
+      },
+      {
+        "section": "1.2 Formalization in mathlib",
+        "pdf_pages": "3",
+        "content_and_proof_mechanism": "Explains the Lean constructions and formal-library organization used by the paper."
+      },
+      {
+        "section": "2 Definitions and conditional expectation",
+        "pdf_pages": "4–7",
+        "content_and_proof_mechanism": "Defines conditional expectation and UI/process/martingale notions, then records the library-level hypotheses and total-function caveats."
+      },
+      {
+        "section": "3 Doob convergence theorems",
+        "pdf_pages": "8–12",
+        "content_and_proof_mechanism": "Formalizes almost-sure convergence via upcrossings, L1 convergence under UI, and the Levy/Borel–Cantelli results."
+      },
+      {
+        "section": "4 Conclusion and references",
+        "pdf_pages": "13–14",
+        "content_and_proof_mechanism": "Summarizes the formalization and lists dependencies; no additional probabilistic theorem is proved here."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S003",
+    "pdf_sha256": "c16b91ee97ccd0ff62c17e3cca16f165581dde1189f34cd4c678beef85e69da5",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–4",
+        "content_and_proof_mechanism": "Motivates transferring controlled martingale problems through weak convergence and states the paper’s scope."
+      },
+      {
+        "section": "2 Martingale Problem Method Revisited",
+        "pdf_pages": "5–15",
+        "content_and_proof_mechanism": "Sets the abstract weak/strong convergence setup, dense-time test identities, control-law compactness, and transfer theorem with UI requirements."
+      },
+      {
+        "section": "3 Existing results and extensions",
+        "pdf_pages": "16–22",
+        "content_and_proof_mechanism": "Derives applications to Ethier–Kurtz, Volterra and semimartingale-characteristic formulations, identifying each added compactness and test-function hypothesis."
+      },
+      {
+        "section": "4 Fixed discontinuities",
+        "pdf_pages": "23–36",
+        "content_and_proof_mechanism": "Establishes fixed-jump-time convergence: tightness and jump control precede passage of test identities; the semimartingale result uses modified second characteristic tilde-C and stopped moment bounds."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "37–38",
+        "content_and_proof_mechanism": "Lists cited weak-convergence and martingale-problem sources."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S004",
+    "pdf_sha256": "74f1977b6e8f7768c9aa0f543e85553dba0db12668c33e1aafc1f388a7bf4595",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction; fast–slow model",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "Defines the deterministic fast–slow skew product, standard pairs, and the centered observable."
+      },
+      {
+        "section": "2 Main results and preliminaries",
+        "pdf_pages": "4–6",
+        "content_and_proof_mechanism": "States averaging and fluctuation limits, Green–Kubo covariance and direction-wise coboundary nondegeneracy."
+      },
+      {
+        "section": "3 Standard pairs and conditioning",
+        "pdf_pages": "7–10",
+        "content_and_proof_mechanism": "Builds standard pairs and conditional estimates used to control the deterministic fast dynamics."
+      },
+      {
+        "section": "4 Conditional averaging",
+        "pdf_pages": "9–11",
+        "content_and_proof_mechanism": "Proves conditioning and averaging estimates needed for the law of large numbers."
+      },
+      {
+        "section": "5 Averaging law of large numbers",
+        "pdf_pages": "11–13",
+        "content_and_proof_mechanism": "Bounds generator-test errors and identifies the ODE limit through tightness and uniqueness."
+      },
+      {
+        "section": "6 Recap/bridge",
+        "pdf_pages": "14",
+        "content_and_proof_mechanism": "Collects the averaging estimates used before the CLT argument."
+      },
+      {
+        "section": "7 Fluctuation CLT",
+        "pdf_pages": "14–23",
+        "content_and_proof_mechanism": "Proves tightness, derives the Green–Kubo diffusion matrix and martingale-problem limit; covariance positivity requires every nonzero scalar projection to avoid a smooth coboundary."
+      },
+      {
+        "section": "Appendix A",
+        "pdf_pages": "24",
+        "content_and_proof_mechanism": "Supplies the geometric estimates for standard-pair evolution."
+      },
+      {
+        "section": "Appendix B",
+        "pdf_pages": "25",
+        "content_and_proof_mechanism": "Proves the shadowing estimates used in the fast–slow approximation."
+      },
+      {
+        "section": "Appendix C",
+        "pdf_pages": "26",
+        "content_and_proof_mechanism": "Collects martingale, operator and Itô calculations supporting the fluctuation proof."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "27–28",
+        "content_and_proof_mechanism": "Lists the cited dynamics and martingale-limit literature."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S005",
+    "pdf_sha256": "51f17db7951702ea0e536e38325a8da33eeabe0c57472e41d266bd9bced4d332",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction and setup",
+        "pdf_pages": "1–4",
+        "content_and_proof_mechanism": "Introduces bounded martingale differences and the tail-probability problem."
+      },
+      {
+        "section": "2 Growth condition",
+        "pdf_pages": "5–6",
+        "content_and_proof_mechanism": "Relates the conditional variance process to the theorem’s growth assumption."
+      },
+      {
+        "section": "3 Transform",
+        "pdf_pages": "7",
+        "content_and_proof_mechanism": "Constructs the exponential transform used to turn the crossing event into a supermartingale event."
+      },
+      {
+        "section": "4 Tail inequalities",
+        "pdf_pages": "8–13",
+        "content_and_proof_mechanism": "Proves finite-horizon and maximal variance-budget bounds, including the Freedman inequality."
+      },
+      {
+        "section": "5 Tauberian argument",
+        "pdf_pages": "14",
+        "content_and_proof_mechanism": "Converts transform estimates into tail asymptotics."
+      },
+      {
+        "section": "6 Law of the iterated logarithm",
+        "pdf_pages": "14–15",
+        "content_and_proof_mechanism": "Applies the maximal bounds to an LIL conclusion."
+      },
+      {
+        "section": "7 Central limit theorem",
+        "pdf_pages": "16–17",
+        "content_and_proof_mechanism": "Gives the martingale CLT application under the stated conditional variance setup."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "18–19",
+        "content_and_proof_mechanism": "Bibliographic material."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S006",
+    "pdf_sha256": "7d0a6788b11fe9bbcc36ae19b0c7c18cf39d9e12ab82c6cce59834244efa7cd2",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–8",
+        "content_and_proof_mechanism": "Motivates time-uniform concentration, reviews the nonnegative-supermartingale approach, and states the organization and scope of the local arXiv v8 manuscript."
+      },
+      {
+        "section": "2.1–2.2 Main results and theorem statements",
+        "pdf_pages": "9–12",
+        "content_and_proof_mechanism": "Defines the sub-ψ pair and intrinsic-time setup, states Theorem 1(a)–(d) and the principal corollaries; Theorem 1(a) is the line-crossing bound."
+      },
+      {
+        "section": "2.3 Proof of Theorem 1",
+        "pdf_pages": "13–17",
+        "content_and_proof_mechanism": "Applies Ville’s inequality to the dominating nonnegative supermartingale for part (a), then uses convex duality and slope optimization to derive equivalence of the four formulations; proof is here, not in Section 6."
+      },
+      {
+        "section": "2.4–2.6 Interpretation, time-uniform confidence sequences, and discussion",
+        "pdf_pages": "18–20",
+        "content_and_proof_mechanism": "Explains the geometric line/curve interpretations, develops time-uniform confidence-sequence applications, and closes the main results before sufficient conditions."
+      },
+      {
+        "section": "3 Sufficient conditions",
+        "pdf_pages": "21–29",
+        "content_and_proof_mechanism": "Shows how conditional mgfs, mixture methods and matrix trace-exponential inequalities yield the required exponential-supermartingale domination."
+      },
+      {
+        "section": "4 Applications",
+        "pdf_pages": "30–40",
+        "content_and_proof_mechanism": "Derives confidence-sequence, self-normalized, matrix, Banach-space, continuous-time and sequential-testing corollaries from the master crossing result."
+      },
+      {
+        "section": "5 Discussion",
+        "pdf_pages": "41–44",
+        "content_and_proof_mechanism": "Discusses assumptions, comparison with existing bounds and open directions."
+      },
+      {
+        "section": "6.1–6.3 Proofs of Lemma 1 and Propositions 1–2",
+        "pdf_pages": "45–47",
+        "content_and_proof_mechanism": "Proves Ville’s inequality by stopping at the first crossing and passing from bounded horizons; compares ψ functions by Taylor expansion and pointwise domination to establish sufficient-condition propositions."
+      },
+      {
+        "section": "6.4 Intermediate condition for sub-ψ processes",
+        "pdf_pages": "48–49",
+        "content_and_proof_mechanism": "Derives a transfer-rule condition for conditional matrix mgfs and constructs the required supermartingale domination for the sub-ψ framework."
+      },
+      {
+        "section": "6.5–6.8 Proofs of Lemma 3 and Corollaries 2, 3, 10",
+        "pdf_pages": "49–53",
+        "content_and_proof_mechanism": "Uses Lieb concavity/trace-exponential transfer and dilation for matrix bounds, convex-transform identities for the boundary variants, and the smooth-Banach-space cosh estimate for its application."
+      },
+      {
+        "section": "6.9–6.12 Proofs of Corollary 13, Proposition 3, Corollary 14, Proposition 4",
+        "pdf_pages": "53–55",
+        "content_and_proof_mechanism": "Connects asymptotic discrete crossings to Brownian boundary crossing, proves lower-bound criteria using a nonnegative martingale, uses time-change and the LIL for continuous local martingales, and proves tangent-line boundary statements."
+      },
+      {
+        "section": "Appendix A: Sharpened pre-factors based on rank",
+        "pdf_pages": "60",
+        "content_and_proof_mechanism": "Projects the positive-semidefinite matrix process to its common rank-r subspace; spectral preservation gives the same crossing argument with leading factor l0=r."
+      },
+      {
+        "section": "Appendix B: Relation to the Dubins–Savage inequality",
+        "pdf_pages": "60",
+        "content_and_proof_mechanism": "States the discrete martingale variance-clock Dubins–Savage bound and optimizes its line to recover an Uspensky-type inequality; compares what is lost by uniformization."
+      },
+      {
+        "section": "Appendix C: Graphical comparison of ψ functions",
+        "pdf_pages": "61",
+        "content_and_proof_mechanism": "Plots the five standard ψ proxies and records their parameterized order for a common variance process, noting that differing clocks/assumptions prevent comparisons from ψ alone."
+      },
+      {
+        "section": "Appendix D: A more general boundary-crossing result",
+        "pdf_pages": "61–62",
+        "content_and_proof_mechanism": "Replaces ψ(λ)ΔV by a concave-in-clock function f(λ,ΔV) in the exponential domination assumption; applies the generalized crossing theorem to CGF-like processes and bounded-increment martingales."
+      },
+      {
+        "section": "Appendix E: Equivalent sub-exponential conditions",
+        "pdf_pages": "62–63",
+        "content_and_proof_mechanism": "Proves equivalence of the one-sided Bernstein-type log-mgf condition and a quadratic sub-exponential condition by Taylor expansion and parameter adjustment; two-sided control requires the same for −X."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "56–59",
+        "content_and_proof_mechanism": "Bibliography for the local v8 manuscript."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S007",
+    "pdf_sha256": "048bfe95a33fe7e79a22541b53b7e0685108d054e8a37d6cdabcddc2d97ab7e1",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "Compares prior martingale tail bounds and motivates the paper’s conditional exponential-normalizer criterion."
+      },
+      {
+        "section": "2 Main results",
+        "pdf_pages": "4–8",
+        "content_and_proof_mechanism": "States Theorem 2.1 and Corollaries 2.2–2.7: realized-square/V budgets, negative-third-moment, lower-increment, Bernstein, symmetry-truncation, and one-sided sub-Gaussian variants."
+      },
+      {
+        "section": "3 Applications",
+        "pdf_pages": "9–12",
+        "content_and_proof_mechanism": "Applies the correctly matched inequalities to regression, autoregression and branching-process estimators via explicit martingale representations."
+      },
+      {
+        "section": "4 Proof of Theorem 2.1 and Corollaries 2.2–2.5",
+        "pdf_pages": "13–17",
+        "content_and_proof_mechanism": "Uses stopped likelihood/change of measure, cubic negative-part control, conditional Bernstein expansion and symmetric truncation; this is the true source of the S007 general normalizer result."
+      },
+      {
+        "section": "5 Proof of Theorem 2.6 and Corollary 2.7",
+        "pdf_pages": "17–19",
+        "content_and_proof_mechanism": "Builds an exponential supermartingale from the intrinsic-time mgf condition and proves the piecewise variance-proxy estimate."
+      },
+      {
+        "section": "6 Proofs of applications",
+        "pdf_pages": "19–21",
+        "content_and_proof_mechanism": "Verifies conditional moment and increment assumptions for the regression, autoregression and Galton–Watson examples."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "21–22",
+        "content_and_proof_mechanism": "Bibliography of the 22-page EJP paper."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S008",
+    "pdf_sha256": "a6e215ea2623c82f1e3b2b17016eb093d37a3d18a81a463d0e2f3f44d6e943a6",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "Sets up one-sided supermartingale deviations and the conditional-square budget."
+      },
+      {
+        "section": "2 Main results",
+        "pdf_pages": "4–7",
+        "content_and_proof_mechanism": "States the exact finite-n and simplified Hoeffding-type variance-budget inequalities."
+      },
+      {
+        "section": "3 Proofs of main inequalities",
+        "pdf_pages": "8–14",
+        "content_and_proof_mechanism": "Uses an exponential change of measure and conditional mgf estimates, retaining the finite-horizon normalizer."
+      },
+      {
+        "section": "4 Proofs of corollaries",
+        "pdf_pages": "15–17",
+        "content_and_proof_mechanism": "Derives the applications and simplified forms from the main maximal inequality."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "18–20",
+        "content_and_proof_mechanism": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S009",
+    "pdf_sha256": "d349bcb7490d61cf14a0751fcc46f4a101be94725fdde491e98736eec77451b7",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1",
+        "content_and_proof_mechanism": "States the unbounded-increment maximal-deviation problem and optimal exponent motivation."
+      },
+      {
+        "section": "2 Main Results",
+        "pdf_pages": "2–3",
+        "content_and_proof_mechanism": "Gives exponential-moment maximal bounds, bracket-budget alternative and optimality examples."
+      },
+      {
+        "section": "3 Proof of Theorem 2.1",
+        "pdf_pages": "3–6",
+        "content_and_proof_mechanism": "Splits centered increments at a threshold; combines bounded Azuma, L2 maximal control and exponential-moment tail estimates, then constructs a stationary sharpness example."
+      },
+      {
+        "section": "4 Proof of Theorem 2.2",
+        "pdf_pages": "7",
+        "content_and_proof_mechanism": "Truncates positive jumps, applies a Freedman-type inequality to the truncated sequence and controls the discarded tail."
+      },
+      {
+        "section": "5 Proof of Corollary 2.1",
+        "pdf_pages": "8",
+        "content_and_proof_mechanism": "Splits by the terminal bracket and optimizes the bracket cutoff using its exponential moment."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "9",
+        "content_and_proof_mechanism": "Bibliographic material."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S010",
+    "pdf_sha256": "8dfcc8ef6c48f47ef7071c1a091563d6ff9c1fc9ec03985826a984862d1ca076",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–2",
+        "content_and_proof_mechanism": "Introduces Dzhaparidze–van Zanten type bounds and the positive-jump truncation budget."
+      },
+      {
+        "section": "2 Main inequalities",
+        "pdf_pages": "3–5",
+        "content_and_proof_mechanism": "States the crossing estimates, truncation quantities and moment corollaries for supermartingale differences."
+      },
+      {
+        "section": "3 Self-normalized applications",
+        "pdf_pages": "6",
+        "content_and_proof_mechanism": "Applies the main inequalities to self-normalized deviations."
+      },
+      {
+        "section": "4 Proof of Theorem 2.1",
+        "pdf_pages": "7–9",
+        "content_and_proof_mechanism": "Constructs and controls the truncated exponential process for the crossing event."
+      },
+      {
+        "section": "5 Proof of Theorem 2.2",
+        "pdf_pages": "9–10",
+        "content_and_proof_mechanism": "Uses the one-sided exponential inequality and conditional negative-part moments."
+      },
+      {
+        "section": "6 Proof of Theorem 2.3 and auxiliary lemmas",
+        "pdf_pages": "11–13",
+        "content_and_proof_mechanism": "Completes the comparison and records the beta-moment argument, with its explicit 1<beta<2 range."
+      },
+      {
+        "section": "Acknowledgements and references",
+        "pdf_pages": "14–15",
+        "content_and_proof_mechanism": "Closing material and bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S011",
+    "pdf_sha256": "46138b2ed0e4d49943c50766a7630db89d64b3d6e36d000352cddb6d44d5adbc",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "Motivates nonuniform normal approximation for martingale arrays, states the conditional Bernstein and bracket-concentration conditions, and compares exponential versus polynomial tail rates."
+      },
+      {
+        "section": "2 Main Results",
+        "pdf_pages": "4–7",
+        "content_and_proof_mechanism": "States Theorem 2.1, Corollary 2.2 and the strengthened tail Theorem 2.3; records normal-range Cramér expansion, bracket-fluctuation extension, and limitations."
+      },
+      {
+        "section": "3 Applications in Statistics",
+        "pdf_pages": "8–10",
+        "content_and_proof_mechanism": "Proves a regression-estimator transfer and a self-normalized bound for independent symmetric increments; gives their distinct design/symmetry assumptions."
+      },
+      {
+        "section": "4 Proofs of Theorems 2.1–2.3",
+        "pdf_pages": "10–17",
+        "content_and_proof_mechanism": "Builds exponential tilting, controls tilted drift and cumulant, compares a tilted martingale CLT to a Gaussian tail, and removes the bracket constraint by variance-filling/Rademacher extension."
+      },
+      {
+        "section": "5 Proofs of Theorems 3.1–3.2",
+        "pdf_pages": "18–19",
+        "content_and_proof_mechanism": "Normalizes the regression estimator and verifies Bernstein/bracket conditions; reveals squared increments to obtain conditional symmetry in the self-normalized proof."
+      },
+      {
+        "section": "Appendix A",
+        "pdf_pages": "19–20",
+        "content_and_proof_mechanism": "Derives the tilted CLT comparison from an earlier Fan–Grama–Liu lemma and transfers it to the centered tilted variable."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "20–21",
+        "content_and_proof_mechanism": "Lists the external ingredients, including de la Peña, Hall–Heyde, Fan–Grama–Liu (2013), and the regression/self-normalization references."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S013",
+    "pdf_sha256": "a3e2357596f3eb7f52bc152e990bb34659578414a502518167592bb7cec5cd77",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–2",
+        "content_and_proof_mechanism": "Motivates martingale Cramér deviations, distinguishes the conditional-Cramér assumption from the 2013 Bernstein condition, and states the scope of the short note."
+      },
+      {
+        "section": "2 Main Results",
+        "pdf_pages": "2–3",
+        "content_and_proof_mechanism": "Defines the predictable bracket and (A1)–(A2); Theorem 2.1 gives both positive- and negative-tail ratios, and the MDP display applies to every Borel subset of R using interior and closure bounds."
+      },
+      {
+        "section": "3 Sketch of the proof",
+        "pdf_pages": "3–5",
+        "content_and_proof_mechanism": "Introduces exponential tilting, tilted drift and centered martingale, states Lemmas 3.1–3.4, and reduces the main theorem proof to the 2013 Bernstein-condition article; the detailed proof of Lemma 3.4 is not supplied."
+      },
+      {
+        "section": "Acknowledgements and References",
+        "pdf_pages": "5",
+        "content_and_proof_mechanism": "Acknowledges reviewers and identifies the external Cramér, Bernstein-condition and tilted-CLT proof dependencies."
+      },
+      {
+        "section": "Additional proof: Lemma 3.2",
+        "pdf_pages": "6",
+        "content_and_proof_mechanism": "Bounds the tilted drift above and below by Taylor expansion, the conditional moment series, and the almost-sure bracket control."
+      },
+      {
+        "section": "Additional proof: Lemma 3.3",
+        "pdf_pages": "7",
+        "content_and_proof_mechanism": "Expands the log conditional moment generating function around its quadratic term and controls the remainder by Lemma 3.1 and the bracket error."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S016",
+    "pdf_sha256": "b2d6984a752b840b2043883969507a2abd6fc372b1e52425699ed44012beacf0",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–4",
+        "content_and_proof_mechanism": "Defines the martingale bracket and Kolmogorov distance, reviews known rates, and states conditions A1–A2 and the exact-rate motivation."
+      },
+      {
+        "section": "2 Main Results",
+        "pdf_pages": "4–7",
+        "content_and_proof_mechanism": "States bracket-close and random-bracket Berry–Esseen bounds, sharpness examples, and the two bracket-crossing stopping indices."
+      },
+      {
+        "section": "3 Proof of Theorem 2.1",
+        "pdf_pages": "8–14",
+        "content_and_proof_mechanism": "Reduces rho by conditional Hölder, modifies predictable variance, and telescopes Gaussian-smoothed tests; conditional moment and bracket estimates control remainders."
+      },
+      {
+        "section": "3.2 Proof of Corollary 2.1",
+        "pdf_pages": "14–15",
+        "content_and_proof_mechanism": "Separates last-before and first-after bracket crossings and bounds the overshoot through the conditional variance assumption."
+      },
+      {
+        "section": "3.3 Proof of Theorem 2.2",
+        "pdf_pages": "15–16",
+        "content_and_proof_mechanism": "Stops near bracket one, adds independent Rademacher increments to fill the bracket, applies Theorem 2.1 and controls the added tail by Burkholder."
+      },
+      {
+        "section": "Appendix",
+        "pdf_pages": "17",
+        "content_and_proof_mechanism": "States technical lemmas used in the smoothing proof."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "18",
+        "content_and_proof_mechanism": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S017",
+    "pdf_sha256": "5a7bb4e396c37014b10257afdb1b6fd251fbd2433a62872d1f5368ed01b8ac13",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction and definitions",
+        "pdf_pages": "1–5",
+        "content_and_proof_mechanism": "Defines demimartingales through inequalities against coordinatewise nondecreasing functions and sets the optional-sampling framework."
+      },
+      {
+        "section": "2 Bounded stopping times",
+        "pdf_pages": "6–8",
+        "content_and_proof_mechanism": "Proves Doob-type sampling inequalities for bounded stopping indices under the required monotonicity of stopping-event indicators."
+      },
+      {
+        "section": "3 Unbounded Doob-type results",
+        "pdf_pages": "9",
+        "content_and_proof_mechanism": "Passes from finite to unbounded stopping under the paper’s integrability/limit conditions."
+      },
+      {
+        "section": "4 Applications",
+        "pdf_pages": "10–14",
+        "content_and_proof_mechanism": "Applies the bounds to maxima and associated sequences, then to Wald-type identities with explicit centering assumptions."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "15–16",
+        "content_and_proof_mechanism": "Bibliography and publication metadata."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S018",
+    "pdf_sha256": "a35003649db447192f4ab2676d41e9be580f65f1f30dd6c903785e18a566ac33",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–2",
+        "content_and_proof_mechanism": "Motivates direct constructions of the martingale compensator and quadratic variation using subsequence methods."
+      },
+      {
+        "section": "2 Existence of the compensator",
+        "pdf_pages": "2–8",
+        "content_and_proof_mechanism": "Constructs the predictable finite-variation compensator by localization and subsequence convergence; Theorem 2.3 gives uniqueness under the stated local integrability, with the difference a predictable finite-variation local martingale."
+      },
+      {
+        "section": "3 Existence of quadratic variation",
+        "pdf_pages": "8–12",
+        "content_and_proof_mechanism": "Constructs increasing [M] so that M²−[M] is a local martingale and identifies jump squares; proof reduces to bounded martingales and localizes."
+      },
+      {
+        "section": "4 Discussion",
+        "pdf_pages": "12–14",
+        "content_and_proof_mechanism": "Contrasts the compensator-based construction with predictable/inaccessible decomposition and discusses its direct use in defining stochastic integrals; Appendix A starts on p.14."
+      },
+      {
+        "section": "Appendix A: Auxiliary results",
+        "pdf_pages": "14–15",
+        "content_and_proof_mechanism": "Proves an expectation limsup lemma for uniformly integrable variables and monotone convergence lemmas for càdlàg maps/series, used in the existence arguments."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "16",
+        "content_and_proof_mechanism": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S019",
+    "pdf_sha256": "47ce785925aa8f2c062c8f464c9874294ad1fc7dcd4b7f8af4cc4b1a6fc95aa3",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1",
+        "content_and_proof_mechanism": "Introduces martingale functional CLT motivation, continuous-limit setting and outline of the applications."
+      },
+      {
+        "section": "2 Main results",
+        "pdf_pages": "2–5",
+        "content_and_proof_mechanism": "States Hypothesis 2.1 and the continuous-limit theorem, including diagonal limiting brackets, auxiliary martingale conditions and continuity/jump controls; proof identifies the Brownian limit under those hypotheses."
+      },
+      {
+        "section": "3.1 Brownian occupation times",
+        "pdf_pages": "6–7",
+        "content_and_proof_mechanism": "Uses Brownian local time and inverse local time to illustrate random-clock limits."
+      },
+      {
+        "section": "3.2 Random-walk occupation times",
+        "pdf_pages": "7–8",
+        "content_and_proof_mechanism": "Derives the corresponding occupation-time limit for a random walk."
+      },
+      {
+        "section": "3.3 Random-comb scaling limit",
+        "pdf_pages": "8–9",
+        "content_and_proof_mechanism": "Applies the continuous-limit framework to the random comb process."
+      },
+      {
+        "section": "4 Volatility processes",
+        "pdf_pages": "9–13",
+        "content_and_proof_mechanism": "Proves tightness and convergence results for volatility models under the stated clock and bracket conditions."
+      },
+      {
+        "section": "Appendix A.1: Some useful results",
+        "pdf_pages": "14–15",
+        "content_and_proof_mechanism": "Collects Lenglart’s inequality, Aldous’ criterion and bracket/martingale tightness criteria; Theorem A.3 relates C-tightness of martingales, quadratic variations and compensators under its moment hypotheses."
+      },
+      {
+        "section": "Appendix A.2: Expression for μ_v",
+        "pdf_pages": "16",
+        "content_and_proof_mechanism": "Algebraically derives alternative expressions for μ_v and c_v² from the finite-support occupation weights V, including its relation to B_V."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "16–18",
+        "content_and_proof_mechanism": "Bibliography begins after Appendix A.2 on physical p.16 and continues through p.18."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S020",
+    "pdf_sha256": "a652ce850f79785940892921856962e0f0b87e8ecab8a7f64dece0fda9d65272",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "Introduces simplified semimartingale calculus, multiplicative compensators and change-of-measure aims."
+      },
+      {
+        "section": "2 Setup and notation",
+        "pdf_pages": "4–9",
+        "content_and_proof_mechanism": "Defines the stochastic-integrability class, real-coordinate calculus for complex processes, stochastic exponentials/logarithms and semimartingale representation."
+      },
+      {
+        "section": "3 Multiplicative compensator",
+        "pdf_pages": "10–13",
+        "content_and_proof_mechanism": "Proves the interval-local martingale result and global extension under specialness; retains the jump exclusion ΔB^{L(Z)}≠−1."
+      },
+      {
+        "section": "4 Independent increments",
+        "pdf_pages": "14–20",
+        "content_and_proof_mechanism": "Works out the independent-increment case and its multiplicative compensator."
+      },
+      {
+        "section": "5 Change of measure",
+        "pdf_pages": "21–28",
+        "content_and_proof_mechanism": "Establishes the density/martingale transfer under its integrability and nonvanishing assumptions."
+      },
+      {
+        "section": "6 Conclusion and references",
+        "pdf_pages": "28–30",
+        "content_and_proof_mechanism": "Summarizes scope and cites sources."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S021",
+    "pdf_sha256": "80406995e906c6699b08fb1d23c9266526ab2c5f0991c5335c1bd9a28d5986d1",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1. L2 martingales",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "States the discrete atomless-innovation decomposition; Theorem 1.2 records the best-independent-L2 approximation lemma imported from [4], and the main proof sums the conditionally independent innovation series, checks the L2 energy identity, and uses characteristic functions for fixed-component increment independence."
+      },
+      {
+        "section": "2. Closed L2 martingales",
+        "pdf_pages": "3–4",
+        "content_and_proof_mechanism": "Extends the discrete result to closed L2 martingales by reducing to a terminal variable and passing an L2 approximation; the conditional atomlessness hypothesis remains in force."
+      },
+      {
+        "section": "3. Continuous-time martingales",
+        "pdf_pages": "4–7",
+        "content_and_proof_mechanism": "Develops the Brownian predictable-integrand decomposition. Lemma 3.1 and its iteration produce deterministic time factors; Proposition 3.2 characterizes scalar independent-increment Brownian martingales, and Theorem 3.4 applies Brownian martingale representation to decompose any scalar L2 Brownian martingale."
+      },
+      {
+        "section": "4. A financial interpretation",
+        "pdf_pages": "7",
+        "content_and_proof_mechanism": "Explains the gain-process interpretation under a risk-neutral measure and notes the component martingales need not be mutually independent."
+      },
+      {
+        "section": "5. Continuous-time martingales in more dimensions",
+        "pdf_pages": "7–10",
+        "content_and_proof_mechanism": "Uses Kunita–Watanabe representation and measurable matrix polar decomposition to obtain Theorem 5.4, a sum of Gaussian martingales with deterministic positive-semidefinite matrix factors and predictable orthogonal factors."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "10–11",
+        "content_and_proof_mechanism": "Bibliography; includes the earlier source [4] for the best-independent-L2 approximation lemma used but not proved in this note."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S023",
+    "pdf_sha256": "44c2855f0d5bbff434951a7b76dac0dce5e198dc034baad9859f4115f46cc9de",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–2",
+        "content_and_proof_mechanism": "Introduces single-jump processes and the distinction among local martingales, semimartingales and endpoint integrability."
+      },
+      {
+        "section": "2 Analytic preliminaries",
+        "pdf_pages": "3–6",
+        "content_and_proof_mechanism": "Defines locally absolutely continuous paths, the A_F^G integral and the finite-variation decomposition used for endpoint analysis."
+      },
+      {
+        "section": "3 Endpoint classification",
+        "pdf_pages": "7–15",
+        "content_and_proof_mechanism": "Classifies local-martingale, sub/supermartingale and H¹ behavior before the endpoint; separates endpoint atoms from nonintegrable jumps."
+      },
+      {
+        "section": "4 Stochastic-integration counterexample",
+        "pdf_pages": "16–18",
+        "content_and_proof_mechanism": "Constructs a bounded deterministic integrand whose integral against a UI, non-H¹ martingale is strict local; the proof completes on p.18 by a dyadic-step lower bound on the integral."
+      },
+      {
+        "section": "Appendix A: Elements of real analysis",
+        "pdf_pages": "18–19",
+        "content_and_proof_mechanism": "Gives elementary left-continuous step-integral approximation for infinite-variation paths, used in the counterexample."
+      },
+      {
+        "section": "Appendix B: Elements of (semi-)martingale theory",
+        "pdf_pages": "19–20",
+        "content_and_proof_mechanism": "Defines elementary predictable processes and their stochastic integrals; Lemma B.5 gives convergence in probability for uniformly vanishing integrands against a semimartingale, while Lemma B.6 uses this to rule out a semimartingale on an event of positive probability where paths equal a deterministic infinite-variation function."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "20–21",
+        "content_and_proof_mechanism": "Bibliography starts in the lower part of physical p.20 after Appendix B and continues through p.21."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S024",
+    "pdf_sha256": "db7350b06e390122213ea8e70375eb42de9d4801e19146645b5c271ad8e5d310",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction and Fourier-multiplier statements",
+        "pdf_pages": "1–6",
+        "content_and_proof_mechanism": "States differential-subordination multiplier bounds and sharp scalar first-order Riesz transform estimates/stability questions."
+      },
+      {
+        "section": "2.1 Background and martingale statements",
+        "pdf_pages": "6–9",
+        "content_and_proof_mechanism": "Defines Hilbert-valued bracket, differential subordination and orthogonality; states sharp Burkholder and orthogonal inequalities and Bellman sufficient conditions."
+      },
+      {
+        "section": "2.2 Discrete sharpness example",
+        "pdf_pages": "9–11",
+        "content_and_proof_mechanism": "Builds a finite martingale pair attaining the constants used in the stability estimates."
+      },
+      {
+        "section": "2.3–2.4 Stability for nonorthogonal martingales",
+        "pdf_pages": "12–19",
+        "content_and_proof_mechanism": "Constructs Bellman functions and proves near-extremizer stability below and above p=2."
+      },
+      {
+        "section": "2.5–2.6 Orthogonal stability",
+        "pdf_pages": "20–30",
+        "content_and_proof_mechanism": "Uses superharmonic/convex Bellman functions for the sharp orthogonal constants and preserves the p=2 failure boundary."
+      },
+      {
+        "section": "3.1 Fourier-multiplier proofs",
+        "pdf_pages": "31–34",
+        "content_and_proof_mechanism": "Uses Lévy-process representations, differential subordination and limiting arguments to prove multiplier inequalities."
+      },
+      {
+        "section": "3.2 Beurling–Ahlfors sharpness",
+        "pdf_pages": "34–37",
+        "content_and_proof_mechanism": "Uses laminates and rank-one convexity to establish multiplier sharpness."
+      },
+      {
+        "section": "3.3 First-order Riesz transforms",
+        "pdf_pages": "37–38",
+        "content_and_proof_mechanism": "Represents scalar R_j by background-radiation Brownian integrals, applies the Bellman inequality and passes to the limit by Fatou."
+      },
+      {
+        "section": "3.4 Sharpness and references",
+        "pdf_pages": "38–42",
+        "content_and_proof_mechanism": "Proves sharpness of the scalar transform conclusions and lists references."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S025",
+    "pdf_sha256": "dcda9e5b9edd61942aad3df1849da2d079b14c81aac79e25e2cb0ff85f73b0cf",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1. Introduction",
+        "pdf_pages": "1–5",
+        "content_and_proof_mechanism": "States sharp suprema for countable stochastic convolutions, Burkholder–Rosenthal martingale bounds, OU estimates, and parameter-Hölder applications; preview statements are generalized and proved in §§3–10."
+      },
+      {
+        "section": "2. Preliminaries and notation",
+        "pdf_pages": "5–7",
+        "content_and_proof_mechanism": "Defines metric, 2-smooth Banach, gamma-radonifying, stochastic-integral and martingale notation used in the estimates."
+      },
+      {
+        "section": "3. Optimal bounds for the supremum of multiple stochastic processes",
+        "pdf_pages": "7–11",
+        "content_and_proof_mechanism": "§3.1 proves the stochastic-convolution maximum using a single-process exponential tail, three stopping times, good-lambda and union bound; §3.2 proves the countable martingale Burkholder–Rosenthal estimate under conditional symmetry."
+      },
+      {
+        "section": "4. Long-time Ornstein–Uhlenbeck bounds",
+        "pdf_pages": "11–13",
+        "content_and_proof_mechanism": "Uses exponential semigroup stability and two applications of Theorem 3.1 to get the source-stated joint dependence on p, the horizon and decay rate."
+      },
+      {
+        "section": "5. Generalized Holder spaces",
+        "pdf_pages": "13–15",
+        "content_and_proof_mechanism": "Defines admissible moduli and generalized Holder seminorms; records scaling and dyadic growth conditions needed for the embeddings."
+      },
+      {
+        "section": "6. Minkowski/doubling dimensions and chaining",
+        "pdf_pages": "15–18",
+        "content_and_proof_mechanism": "Relates metric covering numbers, finite Minkowski dimension and finite doubling dimension; establishes the neighbor-count controls required by chaining."
+      },
+      {
+        "section": "7. Ciesielski-type embedding",
+        "pdf_pages": "18–22",
+        "content_and_proof_mechanism": "Constructs a countable sequence of parameter pairs and proves equivalence between the generalized Holder seminorm and a weighted supremum of increments, including a Euclidean specialization."
+      },
+      {
+        "section": "8. Kolmogorov–Chentsov theorem",
+        "pdf_pages": "22–23",
+        "content_and_proof_mechanism": "Combines the embedding with a summability lemma to obtain continuous modifications and Holder estimates under p>d and beta<alpha-d/p."
+      },
+      {
+        "section": "9. Holder regularity of parameter-dependent stochastic integrals",
+        "pdf_pages": "23–25",
+        "content_and_proof_mechanism": "Applies the countable-supremum estimate and metric embedding to a progressive gamma-radonifying integrand family, yielding a continuous modification and generalized Holder seminorm estimate."
+      },
+      {
+        "section": "10. 1D parabolic Anderson model",
+        "pdf_pages": "25–27",
+        "content_and_proof_mechanism": "Applies Theorem 9.1 with an adapted space-time metric and a logarithmically corrected modulus; assumes p>4 and C2 initial data in Lp."
+      },
+      {
+        "section": "Appendix A. Regularity of the Green function",
+        "pdf_pages": "27–28",
+        "content_and_proof_mechanism": "Proves Green-kernel derivative and increment estimates used to bound the parabolic Anderson stochastic convolution."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "28–29",
+        "content_and_proof_mechanism": "Bibliography for the martingale, Banach-space, chaining and SPDE estimates."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S026",
+    "pdf_sha256": "1fd3611ce73c9da3ef0dc483be97d9672715de99fab936dcea7599cbb1cc1895",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–2",
+        "content_and_proof_mechanism": "Poses the Doob–Meyer compensator question for Snell envelopes and previews generator-domain and duality applications."
+      },
+      {
+        "section": "2.1 General framework",
+        "pdf_pages": "3–6",
+        "content_and_proof_mechanism": "Defines the finite-horizon gains class via E sup |G|<∞, Snell envelope, class D decomposition and canonical special-semimartingale variation split."
+      },
+      {
+        "section": "2.2 Markov setting",
+        "pdf_pages": "6–8",
+        "content_and_proof_mechanism": "Introduces right processes, extended martingale generator and path-functional Markov extensions."
+      },
+      {
+        "section": "3.1 General compensator result",
+        "pdf_pages": "8–12",
+        "content_and_proof_mechanism": "Assumption 3.2 is S1 and H1_loc; Theorem 3.3 proves dA=μ dD−, 0≤μ≤1 by partition approximation, conditional Snell comparison and Komlós averaging."
+      },
+      {
+        "section": "3.2 Markovian generator result",
+        "pdf_pages": "12–14",
+        "content_and_proof_mechanism": "Under right-process, payoff integrability and g∈D(L), proves the value V lies in D(L) by identifying the compensator density."
+      },
+      {
+        "section": "4.1 Duality",
+        "pdf_pages": "14–15",
+        "content_and_proof_mechanism": "States Rogers’ UI-martingale dual and identifies the Doob–Meyer martingale optimizer."
+      },
+      {
+        "section": "4.2 Smooth fit",
+        "pdf_pages": "16–21",
+        "content_and_proof_mechanism": "Proves smooth-fit conclusions for specified regular one-dimensional diffusions using scale/harmonic transform, generalized Itô and local time."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "22–25",
+        "content_and_proof_mechanism": "Bibliography."
+      },
+      {
+        "section": "Appendix A",
+        "pdf_pages": "26–27",
+        "content_and_proof_mechanism": "Provides proofs for preliminary Markov-extension and localization lemmas."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S028",
+    "pdf_sha256": "295b0c9d7dce14c293d5ca962790e2f8092d44e03aff33f4f72146581ba75aae",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1. Introduction",
+        "pdf_pages": "1–2",
+        "content_and_proof_mechanism": "States the Brownian-filtration martingale-transport problem with a stopping payoff and summarizes the measure-valued controller approach."
+      },
+      {
+        "section": "2. Problem formulation",
+        "pdf_pages": "2–5",
+        "content_and_proof_mechanism": "Represents the martingale as the mean of its conditional terminal law; in finite support derives Brownian probability-weight controls, boundary absorption, time change and recursive lower-face value functions."
+      },
+      {
+        "section": "3. Viscosity characterization via stochastic Perron",
+        "pdf_pages": "5–13",
+        "content_and_proof_mechanism": "For each finite simplex face proves the obstacle PDE characterization by stochastic sub/supersolutions and comparison; Ito/Tanaka and recursive boundary values identify the projected value as the concave envelope."
+      },
+      {
+        "section": "4. Examples",
+        "pdf_pages": "13–16",
+        "content_and_proof_mechanism": "Works out call-spread and Brownian-exit examples to illustrate explicit strategies and value formulas; examples do not assert a general optimizer."
+      },
+      {
+        "section": "Appendix A. Proof of Lemma 2.1",
+        "pdf_pages": "16–17",
+        "content_and_proof_mechanism": "Proves continuity and time-invariance of the value by time rescaling, coupling/disintegration of the finite-dimensional laws and optional sampling."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "17–18",
+        "content_and_proof_mechanism": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S029",
+    "pdf_sha256": "dc4c75ab5a20aa34340c524c5810c940a43cae6de58bac65f6b818bbf70c03de",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1. Introduction",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "Introduces the finite-horizon Snell value, Rogers dual and the distinction between weakly and surely optimal martingales."
+      },
+      {
+        "section": "2. Characterization of optimal martingales",
+        "pdf_pages": "3–8",
+        "content_and_proof_mechanism": "Defines weak/sure optimality and the Doob martingale; Lemmas 2.3–2.4 and Theorem 2.7 characterize weak optimizers via martingale perturbations, while Corollary 2.8 gives the additional sure-optimality constraints."
+      },
+      {
+        "section": "3. Randomized dual martingale representations",
+        "pdf_pages": "8–10",
+        "content_and_proof_mechanism": "Proposition 3.1 proves the dual lower bound and pathwise equality criterion; Theorem 3.2 uses independent centered randomizers with density near 1 to make every non-Doob weak optimizer strictly suboptimal."
+      },
+      {
+        "section": "4. Proofs",
+        "pdf_pages": "10–19",
+        "content_and_proof_mechanism": "Supplies proofs of the Snell characterization, perturbation constraints, Theorem 2.7, single-date criteria, dual bound and strict-randomization result using conditional expectations, optional sampling and the support condition on the randomizers."
+      },
+      {
+        "section": "5. Numerical examples",
+        "pdf_pages": "19–26",
+        "content_and_proof_mechanism": "Gives stylized and Bermudan-call examples for the randomized dual algorithm; computational illustrations only."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "27",
+        "content_and_proof_mechanism": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S030",
+    "pdf_sha256": "c7a4dec8102c2b5b63bb6c62f4cdab69271cb89fdcf184d039d5487ae3c49f8d",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction and classical main theorem",
+        "pdf_pages": "1–6",
+        "content_and_proof_mechanism": "Defines the six mixed-norm regimes and states the Lq-valued compensated-Poisson maximal integral isomorphism and independent Rosenthal estimate."
+      },
+      {
+        "section": "2 Lq-valued Rosenthal inequalities",
+        "pdf_pages": "6–16",
+        "content_and_proof_mechanism": "Proves independent-sum estimates by symmetrization, mixed-norm decompositions and duality."
+      },
+      {
+        "section": "3 Classical Poisson stochastic integrals",
+        "pdf_pages": "16–24",
+        "content_and_proof_mechanism": "Defines simple adapted integrands, imposes independence of future Poisson increments from the past, and proves Theorem 1.1 by Doob, UMD decoupling, Rosenthal estimates and duality."
+      },
+      {
+        "section": "4 Noncommutative Lq preliminaries",
+        "pdf_pages": "24–27",
+        "content_and_proof_mechanism": "Introduces row/column spaces, duality and noncommutative integration notation."
+      },
+      {
+        "section": "5 Noncommutative Rosenthal inequalities",
+        "pdf_pages": "27–36",
+        "content_and_proof_mechanism": "Establishes independent-sum inequalities for noncommutative Lq-valued variables needed for the jump integral theorem."
+      },
+      {
+        "section": "6 Random matrices",
+        "pdf_pages": "36–40",
+        "content_and_proof_mechanism": "Derives operator-norm moment estimates for sums of independent random matrices and records dimension/logarithmic growth."
+      },
+      {
+        "section": "7 Noncommutative Itô isomorphism",
+        "pdf_pages": "40–44",
+        "content_and_proof_mechanism": "States Theorem 7.1 with row/column square functions, proves it via decoupling and duality, and compares with earlier upper bounds."
+      },
+      {
+        "section": "Appendix A",
+        "pdf_pages": "44–46",
+        "content_and_proof_mechanism": "Proves the UMD decoupling inequality used for Poisson integrals."
+      },
+      {
+        "section": "Appendix B",
+        "pdf_pages": "46–49",
+        "content_and_proof_mechanism": "Supplies remaining classical Rosenthal regimes used in the proof."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "49–51",
+        "content_and_proof_mechanism": "Bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S031",
+    "pdf_sha256": "838e89ac3ef9070a523b1211f3e1ae66afa7eafbd7f4325f94dcca2a97414c38",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1. Introduction and main statements",
+        "pdf_pages": "1–9",
+        "content_and_proof_mechanism": "Defines the half-space martingale problem and states well-posedness, weak-SDE strong Markov and one-dimensional marginal mimicking theorems; surveys prior results and proof plan."
+      },
+      {
+        "section": "2.1. Cycloidal and parabolic Holder spaces",
+        "pdf_pages": "9–11",
+        "content_and_proof_mechanism": "Defines weighted/cycloidal Holder norms adapted to degeneracy at the boundary and relates them to standard parabolic norms away from it."
+      },
+      {
+        "section": "2.2. Coefficients",
+        "pdf_pages": "11–13",
+        "content_and_proof_mechanism": "States the boundary inward-drift, near-boundary ellipticity and cycloidal regularity, far-field x_d a ellipticity/parabolic regularity and linear-growth conditions."
+      },
+      {
+        "section": "2.3. Degenerate-parabolic PDE theorem",
+        "pdf_pages": "13",
+        "content_and_proof_mechanism": "Recalls, rather than proves, the companion-paper Schauder theorem for a unique weighted-Holder PDE solution and a priori estimate; notes no separate boundary condition is needed on the degenerate boundary portion."
+      },
+      {
+        "section": "3.1. Existence",
+        "pdf_pages": "13–16",
+        "content_and_proof_mechanism": "Extends coefficients and uses a positive-part/smoothing argument to preserve the half-space, then constructs martingale-problem and weak-SDE solutions."
+      },
+      {
+        "section": "3.2. Uniqueness and strong Markov property",
+        "pdf_pages": "16–24",
+        "content_and_proof_mechanism": "Uses the PDE solution in a duality argument; shifts the process by epsilon so the degenerate second derivatives are controlled, applies Ito with localization and moment bounds, lets epsilon decrease to zero, and time-augments for the strong Markov conclusion."
+      },
+      {
+        "section": "3.3. Matching one-dimensional marginals",
+        "pdf_pages": "24–25",
+        "content_and_proof_mechanism": "Applies a conditional-expectation Ito identity to the source Ito process and compares backward PDE identities to prove equality of the one-time distributions."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "25–27",
+        "content_and_proof_mechanism": "Bibliography, including the companion PDE paper [26] on which Theorem 2.5 relies."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S033",
+    "pdf_sha256": "cfb774d17351855496df9bf7efb57987e9a8bcbd851484feb0df540b35260427",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–5",
+        "content_and_proof_mechanism": "Motivates UMD-space BDG theory and previews Gaussian covariance characteristics and applications."
+      },
+      {
+        "section": "2 Discrete-time BDG",
+        "pdf_pages": "6–7",
+        "content_and_proof_mechanism": "States/proves the discrete martingale baseline used in continuous-time arguments."
+      },
+      {
+        "section": "3 Gaussian characteristics",
+        "pdf_pages": "8–14",
+        "content_and_proof_mechanism": "Defines the Gaussian-radonifying covariance functional and proves monotonicity, nonnorm and finite-dimensional properties."
+      },
+      {
+        "section": "4 Preliminaries",
+        "pdf_pages": "15–16",
+        "content_and_proof_mechanism": "Records Banach-valued martingale and quadratic-variation facts."
+      },
+      {
+        "section": "5 Continuous-time BDG",
+        "pdf_pages": "17–20",
+        "content_and_proof_mechanism": "Proves the main UMD-valued local-martingale equivalence using the Gaussian covariance characteristic and localization."
+      },
+      {
+        "section": "6 Ramifications",
+        "pdf_pages": "21–23",
+        "content_and_proof_mechanism": "Separates continuous and purely discontinuous ranges, independent-increment cases and one-sided estimates."
+      },
+      {
+        "section": "7 Applications",
+        "pdf_pages": "24–35",
+        "content_and_proof_mechanism": "Treats Itô isomorphisms, Poisson random measures, UMD necessity, domination, approximations, canonical decomposition and covariation."
+      },
+      {
+        "section": "8 UMD Banach function spaces",
+        "pdf_pages": "35–38",
+        "content_and_proof_mechanism": "Specializes/extends results to UMD Banach function spaces."
+      },
+      {
+        "section": "Acknowledgement and references",
+        "pdf_pages": "38–43",
+        "content_and_proof_mechanism": "Closing acknowledgements and bibliography."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S014",
+    "pdf_sha256": "f0f8ac43c027b3b06824d34e3c403e7b1d5b7ff1d6a1cc836ce308111229a5f2",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "1–3",
+        "content_and_proof_mechanism": "Introduces one-sided martingale Cramér moderate deviations and the quantile-coupling and mixing applications."
+      },
+      {
+        "section": "2 Main results",
+        "pdf_pages": "3–5",
+        "content_and_proof_mechanism": "States the one-sided conditional moment and bracket hypotheses, Theorem 1 tail-ratio bounds, the reduced validity ranges, and the nonnegative-side MDP."
+      },
+      {
+        "section": "3 Applications: quantile coupling and mixing",
+        "pdf_pages": "5–9",
+        "content_and_proof_mechanism": "Derives the Gaussian quantile coupling and beta-/psi-mixing block results; the coupling theorem imports an external result, while beta mixing uses Berbee coupling and psi mixing uses covariance bounds and martingale approximation."
+      },
+      {
+        "section": "4 Preliminary lemmas",
+        "pdf_pages": "9–12",
+        "content_and_proof_mechanism": "Builds the exponential tilt, drift and cumulant estimates, and tilted Berry–Esseen input; the proof of Lemma 4 is deferred to the cited supplement."
+      },
+      {
+        "section": "5 Proof of Theorem 1",
+        "pdf_pages": "12–16",
+        "content_and_proof_mechanism": "Matches the exponential tilt to the threshold; separate upper- and lower-drift equations, with a small/large-tilt split for the lower tail, produce the logarithmic Gaussian-tail ratio."
+      },
+      {
+        "section": "6 Proof of Corollary 2",
+        "pdf_pages": "17–18",
+        "content_and_proof_mechanism": "Transfers the one-sided tail estimate to the stated moderate-deviation principle, restricting the Borel sets to the nonnegative half-line."
+      },
+      {
+        "section": "7 Proof of Theorem 2",
+        "pdf_pages": "18–20",
+        "content_and_proof_mechanism": "Combines the one-sided expansion, martingale exponential bounds, and the cited quantile-coupling theorem to bound the coupling error."
+      },
+      {
+        "section": "8 Proof of Theorem 3",
+        "pdf_pages": "21–22",
+        "content_and_proof_mechanism": "Uses Berbee coupling to independent interlaced blocks, then applies Theorem 1 and controls the coupling and block-bracket errors."
+      },
+      {
+        "section": "9 Proof of Theorem 4",
+        "pdf_pages": "22–23",
+        "content_and_proof_mechanism": "Uses psi-mixing covariance bounds and a martingale-difference approximation; the rho=1 case is stated to follow similarly rather than repeated in detail."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "24",
+        "content_and_proof_mechanism": "Lists the cited supplement and external coupling/mixing results on which parts of the proof rely."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S022",
+    "pdf_sha256": "020260a5fca4f4df4f08b77b889f311a370d5b188ba582e8a55b249e3cb52f0b",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "1 Introduction and martingale-solution setup",
+        "pdf_pages": "1–4",
+        "content_and_proof_mechanism": "States the 3D nonhomogeneous stochastic Navier–Stokes problem, weak formulation, filtered-space/noise requirements, coefficient assumptions, and existence theorem."
+      },
+      {
+        "section": "2 Preliminaries",
+        "pdf_pages": "5–7",
+        "content_and_proof_mechanism": "Introduces the function spaces, stochastic calculus and Lévy-Itô formula; Lemma 2.4 quotes scalar càdlàg BDG with an unspecified p-dependent constant. Lemma 2.4 prints angle brackets and calls them quadratic variation without specifying predictable versus optional variation for jumps; the card records that ambiguity."
+      },
+      {
+        "section": "3.1 Galerkin approximation",
+        "pdf_pages": "8–9",
+        "content_and_proof_mechanism": "Constructs finite-dimensional approximations and establishes the initial energy setup."
+      },
+      {
+        "section": "3.2 A priori estimates",
+        "pdf_pages": "10–20",
+        "content_and_proof_mechanism": "Localizes the density-weighted kinetic energy at tau_N, applies Itô, BDG, Young and Gronwall for uniform estimates, then derives higher moments and negative-Sobolev time-increment bounds."
+      },
+      {
+        "section": "4.1 Tightness",
+        "pdf_pages": "20–23",
+        "content_and_proof_mechanism": "Combines the uniform energy and time-increment bounds with compactness criteria to obtain tightness of the Galerkin laws."
+      },
+      {
+        "section": "4.2 Convergence and identification",
+        "pdf_pages": "23–29",
+        "content_and_proof_mechanism": "Uses weak compactness and a Jakubowski–Skorokhod representation; identifies the limiting Brownian motion and Poisson random measure, passes deterministic terms by convergence/UI, and passes stochastic integrals directly using mollification, duality/isometry, and Vitali convergence."
+      },
+      {
+        "section": "Acknowledgements and references",
+        "pdf_pages": "29–32",
+        "content_and_proof_mechanism": "Closing material and bibliography; no additional general martingale theorem is established."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S027",
+    "pdf_sha256": "1de97d7700ddbf8cb99c03f6753a2dd371ebc4e47ed5bffdaad4cec2eb80aa4e",
+    "reading_status": "fulltext_read",
+    "coverage": [
+      {
+        "section": "Front matter (title, author, abstract, contents start)",
+        "pdf_pages": "1",
+        "content_and_proof_mechanism": "Identifies the paper/version and author, states the abstract-level claims, and begins the contents; not a separate theorem proof."
+      },
+      {
+        "section": "1 Introduction",
+        "pdf_pages": "2–5",
+        "content_and_proof_mechanism": "Defines the type-I/type-II asymmetry and previews the counterexample, Chernoff–Stein ceiling, and horizon-dependent design rule."
+      },
+      {
+        "section": "2 Setup and notation",
+        "pdf_pages": "5–11",
+        "content_and_proof_mechanism": "Defines filtered and i.i.d. models, e-variables, test supermartingales, fixed/sequential type-II functionals, and the Cramér exponent; proves Ville and elementary exponent bounds."
+      },
+      {
+        "section": "3 e-power alone does not bound the type-II error",
+        "pdf_pages": "11–16",
+        "content_and_proof_mechanism": "Constructs a catastrophic first bet with fixed conditional e-power and near-unit finite-horizon nonrejection probability; separates failure of a uniform bound from eventual rejection in a fixed i.i.d. model."
+      },
+      {
+        "section": "4 The ceiling: matching upper and lower bounds",
+        "pdf_pages": "16–27",
+        "content_and_proof_mechanism": "Develops unconditional and conditional Rényi quantities; proves the arbitrary-filtration conditional-Hölder upper bound, the i.i.d. flattened-family lower bound and nonattainment, and treats both divergence ceilings."
+      },
+      {
+        "section": "5 What to bet at a finite horizon",
+        "pdf_pages": "27–35",
+        "content_and_proof_mechanism": "Optimizes the flattened likelihood-ratio family, derives its exact likelihood-ratio test threshold and horizon crossover, gives asymptotic expansion under extra inverse-moment/variance assumptions, and studies Gaussian and wealth-adaptive illustrations."
+      },
+      {
+        "section": "6 Discussion, acknowledgements, and references",
+        "pdf_pages": "35–38",
+        "content_and_proof_mechanism": "Summarizes the scope and open questions, then supplies bibliographic references."
+      },
+      {
+        "section": "Appendix A: Beyond the i.i.d. model",
+        "pdf_pages": "38–44",
+        "content_and_proof_mechanism": "Extends conditional-Hölder bounds to general filtrations; conditional sharpness needs deterministic conditional divergences, and identifying the actual exponent requires an information-spectrum assumption."
+      },
+      {
+        "section": "Appendix B: Results quoted from the literature",
+        "pdf_pages": "45–47",
+        "content_and_proof_mechanism": "States external results used in the paper (including Kolmogorov, Cramér, Chernoff–Stein, and Rényi facts) without proving them."
+      }
+    ]
+  },
+  {
+    "local_id": "W02-S001",
+    "pdf_sha256": "53deb50892600899a091d0cdbdc859d653954b3cf275f981cd7880c73aa3c591",
+    "reading_status": "fulltext_read",
+    "document_type": "course_notes",
+    "coverage": [
+      {
+        "section": "Front matter (title, author, provenance, date, contents)",
+        "pdf_pages": "1",
+        "content_and_proof_mechanism": "Identifies the University of Bristol course notes, author, date and source provenance, and lists all eleven numbered sections; records document identity/scope rather than a theorem proof."
+      },
+      {
+        "section": "§1 A quick summary of some parts of measure theory",
+        "pdf_pages": "2–5",
+        "content_and_proof_mechanism": "Defines algebras, σ-algebras, probability measures, measurable random variables and expectation; proves the continuity characterization of probability measures and gives construction examples, while Carathéodory extension is stated without proof."
+      },
+      {
+        "section": "§2 Conditional expectation and a toy example",
+        "pdf_pages": "5–7",
+        "content_and_proof_mechanism": "States existence/uniqueness-a.s. of conditional expectation for integrable variables, computes conditional averages on a finite partition, illustrates independence from a σ-algebra, and states the tower rule without proof."
+      },
+      {
+        "section": "§3 Probability toolbox",
+        "pdf_pages": "8–12",
+        "content_and_proof_mechanism": "Proves Borel–Cantelli, monotone/Fatou/dominated convergence, Tonelli/Fubini, Jensen, Hölder and Minkowski results used later; proof routes include tail events, truncation by simple functions, nonnegative monotone limits, convex supporting lines and Hölder."
+      },
+      {
+        "section": "§4 Modes of convergence",
+        "pdf_pages": "13–15",
+        "content_and_proof_mechanism": "Defines weak, in-probability, a.s. and Lp convergence; proves an a.s.-Cauchy criterion and a.s.→probability→weak and Lp→probability implications, then gives counterexamples to converse implications."
+      },
+      {
+        "section": "§5 Martingales, stopping times",
+        "pdf_pages": "15–18",
+        "content_and_proof_mechanism": "Defines discrete filtrations, adapted martingales, predictable transforms/stochastic integrals and stopping times; proves stopped-process preservation by a predictable indicator, optional stopping by limit passage under bounded T, bounded X with T finite, or bounded increments plus ET<∞, and the nonnegative-supermartingale version by Fatou."
+      },
+      {
+        "section": "§6 Martingale convergence",
+        "pdf_pages": "19–20",
+        "content_and_proof_mechanism": "Proves Doob upcrossing via a predictable on/off transform, obtains a.s. finite convergence for L1-bounded supermartingales, and derives the L2 martingale criterion/convergence from orthogonal increments and a Pythagorean identity."
+      },
+      {
+        "section": "§7 Doob decomposition",
+        "pdf_pages": "20–21",
+        "content_and_proof_mechanism": "Constructs A_n=Σ_{k≤n}E[ΔX_k|F_{k−1}] and M_n=X_n−X_0−A_n, proves a.s. uniqueness and the submartingale iff A is nondecreasing criterion; for an L2 martingale from zero, identifies the predictable bracket compensator with increments E[(ΔM_n)^2|F_{n−1}]."
+      },
+      {
+        "section": "§8 Uniform integrability",
+        "pdf_pages": "21–23",
+        "content_and_proof_mechanism": "Defines pth-power UI and proves absolute continuity of an L1 integral using Borel–Cantelli/Fatou; Theorem 8.3 states the Lp/UI/norm-moment equivalences under convergence in probability, while the notes supply only partial proofs (the p=1 UI directions, norm convergence, higher-moment-to-UI, domination-to-Lp) and explicitly skip the converse of Scheffé."
+      },
+      {
+        "section": "§9 Uniformly integrable martingales",
+        "pdf_pages": "23–25",
+        "content_and_proof_mechanism": "Proves UI martingale convergence and representation as conditional expectations, Lévy upward/downward convergence using UI and event-integral identities, Kolmogorov’s 0–1 law through conditional expectations, and the iid L1 strong law using a decreasing tail filtration."
+      },
+      {
+        "section": "§10 Doob’s submartingale inequality",
+        "pdf_pages": "25–26",
+        "content_and_proof_mechanism": "For nonnegative discrete submartingales, partitions the maximal event by first crossing times F_k∈F_k and applies E[Z_n;F_k]≥E[Z_k;F_k]≥cP(F_k), yielding P(max_{k≤n}Z_k≥c)≤E[Z_n;max≥c]/c≤EZ_n/c; includes convex transforms and a cashier/random-walk application."
+      },
+      {
+        "section": "§11 A discrete Black–Scholes option pricing formula",
+        "pdf_pages": "26–29",
+        "content_and_proof_mechanism": "In a finite independent binary-return model with −1<a<r<b, p=(r−a)/(b−a), and self-financing predictable holdings, proves discounted wealth is a martingale and every martingale has a unique predictable representation against the centered binary walk; conditional replication gives unique call price (1+r)^{−N}E_p[(S_N−K)^+] and monotonicity gives nonnegative stock holdings."
+      },
+      {
+        "section": "References",
+        "pdf_pages": "29",
+        "content_and_proof_mechanism": "Lists Shiryaev and Williams as the cited foundational references; no additional theorem is established."
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "worker": "W22",
+  "batch": "R02 stage-1 targeted correction pass",
+  "review_status": "pending_R02_targeted_rereview",
+  "new_fulltexts_read": 0,
+  "fulltext_count_stays": 5,
+  "source_pdf_sha256": {
+    "RT002": "f1981d2bf839e2ef42fd534abac6b66aae3990925949656a035bca9139dae1eb",
+    "RT003": "5715893ed91a1777297e5233929738e35abe60da0d2f7679f69a97e9b8f6635e",
+    "RT004": "727f1d84b92da9b950f1d11c97759ff755cc311fa807765e9ac0faaacd2298b9",
+    "RT020": "57087897255b68b0991df21977b77e17a8b3ec360a5d0fa3d4a3dd10e32c6ac5"
+  },
+  "checked_source_pdf_pages": {
+    "RT002": [
+      6,
+      24
+    ],
+    "RT003": [
+      9
+    ],
+    "RT004": [
+      3,
+      8,
+      36
+    ],
+    "RT020": [
+      40
+    ]
+  },
+  "source_render_sha256": {
+    "evidence/W22/checks/rendered/RT002-p6.png": "fcd5041bde3077d40d1b697b732bbfc6ca1cbad9f7c775992952991194964400",
+    "evidence/W22/checks/rendered/RT002-p24.png": "41c070676a25dff26dde438a041ea98c7a782cfb47f38c019bd8a1aaeda27920",
+    "evidence/W22/checks/rendered/RT003-p9.png": "961f2d5c7628b9d47453cc410e0352ccf2cd61e5c7be249a42311c686aa531ef",
+    "evidence/W22/checks/rendered/RT004-p3.png": "6824608fed7564edc77336d4def2dc3656a2baeda32f10ecc4e371ed27214f53",
+    "evidence/W22/checks/rendered/RT004-p8.png": "47c53e4ba393341f070fe04a8f79d86de56dc2c6f840d5bce43307e1998c7724",
+    "evidence/W22/checks/rendered/RT004-p36.png": "51c94c8cdf19669f7e4fee98d03d330e99fc6a53b64198cc6fb18a20e877044b",
+    "evidence/W22/checks/rendered/RT020-p40.png": "043ab5f6d0b56479e228cc7c55ff001cc09580733a952aa20dafc073696786d3"
+  },
+  "artifact_sha256": {
+    "evidence/W22/cards/RT002.md": "357476305d2871afe957ec3cfad85f739cd0181e48648db476b71a709e281433",
+    "evidence/W22/cards/RT003.md": "b34cb9b1bb42ac00ea738354e04e5416ce45c09f68e5016a8e4d3614e83566c9",
+    "evidence/W22/cards/RT004.md": "51cc28be4ab8245bba3e0972ab13c4e1261864da37212c05b92383947ea138a7",
+    "evidence/W22/cards/RT020.md": "d2db07e75b959f4c10d9b400278e3a4eba99f990f9e2233deaa8a3b26ac03a7d",
+    "evidence/W22/reading_coverage.json": "4299c9ab67842991dfb32fb56d95e8e97f010c261de119354be2f8ba2390c160",
+    "evidence/W22/sources.json": "72d9ece6bf37381e088b11aceb5441378f81cb3a9f132c3a8e9cea63b2d2788f",
+    "evidence/W22/candidate_ledger.json": "fb73734e488e8fd972bd40ea83291894419b1a0364b42382a326313345fa23e2",
+    "evidence/W22/status.json": "3b0796e83608a3eebf2a83895812725d3846209879bc174a2071f42c71d62005",
+    "evidence/W22/search-log.md": "97523365eeebaced4dda4b04cc0602001d35f867b5980cd860613087322cad94",
+    "evidence/W22/revision-response.md": "5c8bd1ce09fd5ffbac91a5bff1b921caec7aa2ae32b1f6002fab928833334102",
+    "evidence/W22/checks/kernel_recurrence_check.py": "f9cdda03da5893148737bf93d55a037bbe4baaa81959b3634ae24d560d209976",
+    "evidence/W22/checks/kernel_recurrence_check.txt": "b262eb165d4c719082fa01d4944f5d1df44dc694388bc3db655d6ce7e531b7e2",
+    "evidence/W22/checks/targeted_projection_limit_check.py": "5a30f5986e1ecaba922a9b61e455ef1a9364a4f78a2d36a78ea8079f17a525da",
+    "evidence/W22/checks/targeted_projection_limit_check.txt": "a4232ace87606251fd244ecc7071f7e4fd03a323ea62f900621d961fa1a1f754",
+    "skills/probability-random-recursive-trees-asymptotics/SKILL.md": "3a5f1093ee64526496147ee2534ce40c37bd9bc86bf8690fe4a9d408e044d38f",
+    "skills/probability-random-recursive-trees-asymptotics/references/method.md": "f9b8156184b44a06659abb7e39db3f6f916203cea8feda1a35d6fa7a4f1372ea",
+    "skills/probability-random-recursive-trees-asymptotics/references/sources.md": "e5cdca953af04ca249b17a0f44ec8552b592c29ce7c3b8a132f977f1959790c7",
+    "skills/probability-random-recursive-trees-asymptotics/examples/negative.md": "9887b156f90fe5f7d8f8de546e149a34e88a556454dc9085fcbe09feacd55ebb"
+  },
+  "math_check_runtime": "Python 3.15.0, SymPy 1.14.0, project .runtime",
+  "review_files_changed": false,
+  "rt019_card_or_coverage_changed": false,
+  "manifest_excludes_self": true
+}

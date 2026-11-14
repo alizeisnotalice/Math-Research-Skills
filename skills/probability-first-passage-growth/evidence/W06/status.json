@@ -1,0 +1,69 @@
+{
+  "worker": "W06",
+  "skill": "probability-first-passage-growth",
+  "stage": "pending_review",
+  "as_of_utc": "2026-11-13",
+  "source_count": 39,
+  "source_count_target": [
+    30,
+    100
+  ],
+  "source_count_target_met": true,
+  "acquired_pdf_count": 38,
+  "acquired_html_full_text_count": 1,
+  "fulltext_read_source_count": 30,
+  "fulltext_read_papers_count": 29,
+  "fulltext_read_html_count": 1,
+  "not_fully_read_count": 8,
+  "reading_status_counts": {
+    "selected_sections_read": 1,
+    "fulltext_read": 30,
+    "not_read": 8
+  },
+  "cards_count": 31,
+  "mapped_problem_count": 17,
+  "review_status": "pending",
+  "all_review_status_pending": true,
+  "reading_goal_met": true,
+  "remaining_to_30_full_text_reads_including_full_html": 0,
+  "mathematical_validation": {
+    "tool": "MATLAB via local MCP run_matlab_file",
+    "script": "evidence/W06/fpp_flow_exact_small.m",
+    "result": "evidence/W06/math-validation.txt",
+    "actual_run": "2026-11-13 UTC",
+    "scope": "Enumerated all 16 n=2 and 4096 n=3 oriented-square Bernoulli edge states; evaluated finite-state expected max flow at p=0,.9,.99,.999,1.",
+    "limitation": "Finite-volume/floating-point check only; does not prove the infinite-volume limit or the p-up-to-1 asymptotic.",
+    "thin_cylinder_exponent_check": {
+      "tool": "Python standard-library Fraction; local MATLAB MCP and SymPy attempts unavailable in this session",
+      "result": "45 exact rational substitutions across d=2..10 and p∈{3,4,5,8,20} agree after θ=d−1; d=2,p=4 gives α threshold 1/4. The p→∞ simplification to 1/(d+1) follows by direct algebra.",
+      "scope": "Arithmetic consistency check of Theorem 2.1 exponent against Theorem 1.1; not a proof of either theorem or sharpness.",
+      "actual_run": "2026-11-13 UTC",
+      "limitations": "A general algebraic identity is evident by substituting θ=d−1; the finite rational grid is corroborative only. MATLAB MCP returned jupyter.Idler parse error and SymPy is not installed."
+    },
+    "continuum_reciprocal_rate_check": {
+      "tool": "Python standard-library fractions.Fraction",
+      "result": "evidence/W06/math-validation.txt",
+      "actual_run": "2026-11-13 18:53 UTC",
+      "scope": "Exact-arithmetic check of equation (20) on physical p. 15 for a reciprocal-invariant finite law supported on {1/2,1,2}; confirms inequality direction in this example only.",
+      "limitation": "Finite-law illustration only; the general negative-correlation inequality is supplied by the source proof and antitonicity, not this calculation."
+    }
+  },
+  "main_gaps": [
+    "Inventory: 39 sources (36 papers, two books, one HTML/web reference), including 38 local PDFs. Eligible full-text quota is 30 items excluding HTML: 29 complete paper reads plus one book with complete selected sections; this meets the 30-item paper-or-monograph target. A paper-only quota remains short by one. The HTML note is reported separately.",
+    "There are 8 sources not fully read: 7 papers and one book. Independent review remains pending for every W06 source. W06-023 remains bound to the local 50-page PDF; its v1 header, 2018 title-page date, and mismatch with the official 52-page record leave exact version identity unresolved. Theorem 1.10 is limited to each fixed deterministic v and may use a v-dependent probability-one event.",
+    "W06-039 remains bound to the actual local 21-page archive scan at evidence/fulltexts/W06-039.pdf, SHA-256 a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c. Its exact relation to final journal pagination remains unresolved; the separate 16-page eScholarship copy is not the read copy.",
+    "C100 evidence remains bounded to exponential edge-clock FPP: Bertrand–Pertinand proves the strict comparison at d=22 and Couronné–Enriquez–Gerin states d≥35. Do not infer d≥22 from the single-d theorem. The cited/read W06 results do not resolve dimensions 2–21 of the archived statement; this records the boundary of this evidence set, not current global open-problem status. The survey’s uniform-frontier vertex-clock Eden model is different.",
+    "The read 2D triangular-lattice vertex-FPP critical results do not settle the 3D Bernoulli edge-FPP question C091.",
+    "A030 remains unresolved at its discrete interface: W06-038 retains its source scaling/coefficient defects and conjectural status; W06-039 proves the continuum Poisson chain constant c=2 and a continuum chain-cover consequence, but does not prove the discrete Bernoulli edge-disjoint-flow approximation or the two-limit interchange.",
+    "Potential primary works not acquired include Dhar (1988), Hammersley–Welsh (1965), Chayes–Chayes–Durrett (1986), and Chayes (1991). D05 owns lawful-source availability triage; W06 performed no downloads in this batch."
+  ],
+  "next_reading_priorities": [
+    "After independent review, complete one additional high-relevance paper to reach 30 full-text-read papers; do not count the HTML note or a selected book section toward a paper-only count.",
+    "Continue toward the 30–100 source range only with relevant acquired sources and precise version/page coverage; keep W06-023 and W06-039 version caveats visible.",
+    "Use directed corner-growth cocycle results only for model-specific comparison; do not transfer them to undirected edge-FPP."
+  ],
+  "selected_sections_read_count": 1,
+  "remaining_to_30_full_text_papers": 1,
+  "qualifying_literature_read_count_excluding_html": 30,
+  "qualifying_literature_count_note": "29 papers read in full plus one book with complete selected sections; the HTML note is excluded. Thus the 30 paper-or-book item quota is met, while a paper-only count is 29/30."
+}

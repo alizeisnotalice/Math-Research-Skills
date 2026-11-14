@@ -1,0 +1,212 @@
+[
+  {
+    "problem_id": "A030",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "A uniform near-p=1 approximation of the directed Bernoulli max-flow/min-cut by the rescaled Poisson/Hammersley process, with control strong enough to identify the coefficient sqrt(2(1-p)).",
+    "source_local_ids": [
+      "W06-038",
+      "W06-039"
+    ],
+    "unproved_interface": "Aldous's web note supplies the conjecture and identifies the limit-interchange obstruction. Aldous–Diaconis Theorem 5 proves the continuum Poisson LIS constant c=2; Dilworth gives the same constant for the minimum continuum monotone point-chain cover. Still missing: a uniform, p-dependent comparison from the discrete Bernoulli closed-edge cover with edge-disjoint paths to that continuum cover, including boundary/discretization errors strong enough to exchange n→∞ and p↑1. Cerf–Théret is only an undirected max-flow comparator; MATLAB enumerations are finite-volume evidence."
+  },
+  {
+    "problem_id": "C081",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "A nondegenerate i.i.d. undirected edge-weight law on a specified lattice with a rigorously explicit axial time constant.",
+    "source_local_ids": [
+      "W06-001"
+    ],
+    "unproved_interface": "The read survey W06-001 distinguishes existence of the shape/time-constant norm from computing an explicit nondegenerate axial value. W06-035 and W06-037 remain unread candidates and are not evidence in this mapping.",
+    "candidate_unread_source_local_ids": [
+      "W06-035",
+      "W06-037"
+    ]
+  },
+  {
+    "problem_id": "C084",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Rule out any flat boundary segment outside the oriented-percolation cone for the exact Mp law class in the archive.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-011"
+    ],
+    "unproved_interface": "Auffinger–Damron prove differentiability at flat-edge endpoints under the minimum-atom/oriented-percolation hypotheses and non-polygonality; endpoint differentiability is not strict convexity or absence of other flat edges."
+  },
+  {
+    "problem_id": "C087",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Establish the archived fluctuation-exponent assertions for the stated non-integrable FPP laws, including existence of the exponents under the source definition.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-003",
+      "W06-019",
+      "W06-025",
+      "W06-026",
+      "W06-028"
+    ],
+    "unproved_interface": "The cited variance/concentration bounds and conditional scaling relation do not prove chi<1/2 or chi=1/3 for ordinary undirected FPP. The planar midpoint/influence bound in W06-028 is auxiliary and does not establish a polynomial variance exponent or the archived exponent existence claim."
+  },
+  {
+    "problem_id": "C088",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "A dimension-uniform argument establishing whether chi(d) tends to zero, conditional on existence in the exact source sense.",
+    "source_local_ids": [
+      "W06-001"
+    ],
+    "unproved_interface": "The survey records this as an open question; no read source here supplies the dimension-dependent exponent."
+  },
+  {
+    "problem_id": "C089",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "A polynomial-scale fluctuation lower bound sufficient for strict positivity of the exponent under the archived assumptions.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-026"
+    ],
+    "unproved_interface": "Newman–Piza logarithmic variance lower bounds are far below a positive power; general sublinear-variance upper bounds do not imply lower fluctuation exponents."
+  },
+  {
+    "problem_id": "C090",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Prove equality of chi_2 and chi_(2+delta) for some delta>0 using the exact moment-scaled exponent definitions in the survey.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-019",
+      "W06-026",
+      "W06-027"
+    ],
+    "unproved_interface": "The sources provide concentration, variance, or a conditional chi–xi relation; none establishes the required equality between moment-based fluctuation exponents."
+  },
+  {
+    "problem_id": "C091",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "For 3D Bernoulli edge weights with P(tau=0)=p_c(3), obtain matching logarithmic bounds for E T(0,partial B(n)).",
+    "source_local_ids": [
+      "W06-001",
+      "W06-006",
+      "W06-024"
+    ],
+    "unproved_interface": "The fully read invasion/RSW theorem is for 2D square lattice; the other critical source is 2D triangular lattice. Neither transfers to 3D."
+  },
+  {
+    "problem_id": "C092",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Determine the largest cylinder-width exponent gamma_F(d) for which the normalized passage time still has a Gaussian limit, preserving the source moment and geometry hypotheses.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-018"
+    ],
+    "unproved_interface": "The source poses the optimal-width question; the known sufficient width and a conditional extension under fluctuation/curvature assumptions do not identify the general maximum."
+  },
+  {
+    "problem_id": "C093",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Show the infimum passage time is attained by a finite path for all pairs in d>=3 for arbitrary finite nonnegative i.i.d. weights, including critical zero clusters.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-012",
+      "W06-022",
+      "W06-023"
+    ],
+    "unproved_interface": "Known geodesic existence results require dimension/law conditions or concern planar subsets; they leave the critical zero-cluster case in higher dimensions open."
+  },
+  {
+    "problem_id": "C094",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Construct an undirected i.i.d. lattice-FPP law satisfying every clause of the strong exponent definition (4.19) in the source survey.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-019",
+      "W06-013",
+      "W06-031",
+      "W06-034"
+    ],
+    "unproved_interface": "Integrable directed LPP/KPZ exponents are different models. The conditional KPZ relation alone cannot produce an undirected FPP example meeting all clauses of (4.19). W06-036 remains an unread candidate and is not part of the verified evidence route.",
+    "candidate_unread_source_local_ids": [
+      "W06-036"
+    ]
+  },
+  {
+    "problem_id": "C097",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "For each deterministic direction θ fixed in advance, prove almost-sure uniqueness of the directed ray from each fixed starting point in the archived planar continuous-weight setup, extending the result from a deterministic full-Lebesgue-measure set D to every θ individually. The probability-one event may depend on θ (and the fixed starting point); the target is not one common event for all directions.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-004",
+      "W06-022",
+      "W06-023",
+      "W06-012"
+    ],
+    "unproved_interface": "Theorem 4.20 in the survey gives a deterministic full-measure direction set D for each fixed starting point, and C097 asks whether D can be all [0,2π), meaning P(Aθ)=1 for each fixed deterministic θ. This is distinct from P(Aθ for every θ)=1, which the archived question does not ask. Directed LPP and half-plane/subgraph results do not prove the undirected full-plane per-direction extension."
+  },
+  {
+    "problem_id": "C098",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Extend the source same-direction coalescence conclusion from d=2 to the stated d>2 setting while preserving the continuity and ray-direction hypotheses.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-004",
+      "W06-028",
+      "W06-030"
+    ],
+    "unproved_interface": "Available coalescence inputs here use planar ordering or directed LPP structure; higher-dimensional topology is not supplied."
+  },
+  {
+    "problem_id": "C099",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Determine growth of the count of edges at radius r used by infinitely many selected point-to-point geodesics, with the archive construction and quantifiers.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-028"
+    ],
+    "unproved_interface": "A planar expected covered-area bound under additional assumptions is not the requested edge-count growth law for the Hammersley–Welsh tree."
+  },
+  {
+    "problem_id": "C100",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "For every d>=2, compare exponential-FPP axial and equal-Euclidean-distance diagonal speeds strictly.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-007",
+      "W06-008"
+    ],
+    "unproved_interface": "C100 is i.i.d. exponential edge-weight FPP / edge-clock growth. The 2011 CEG paper states a d≥35 non-ball corollary (its displayed numerical comparison is at d=35); Bertrand–Pertinand Theorem 1 directly proves the strict axis/diagonal comparison at d=22. Do not infer d≥22 from that single-d theorem. The survey Question 33 uses exponential vertex weights and uniform choice among distinct frontier vertices, so that passage is not evidence for this edge-FPP archive. The cited/read results here do not resolve dimensions 2–21 of the archived statement; this is a boundary of this evidence set, not a claim about current global open status."
+  },
+  {
+    "problem_id": "C101",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Show that two finite seeds cannot both occupy infinitely many sites for every pair of distinct positive growth rates in the stated two-type lattice model.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-002"
+    ],
+    "unproved_interface": "The survey reports an all-but-countably-many parameter result and leaves the exceptional rates. Hoffman stationary FPP theorem concerns same-environment coexistence and does not settle unequal rates."
+  },
+  {
+    "problem_id": "C102",
+    "tool": "probability-first-passage-growth",
+    "role": "direct",
+    "needed_lemma": "Prove monotonicity in lambda_2 of the coexistence probability for the exact lattice Richardson process and parameter interval in the archive.",
+    "source_local_ids": [
+      "W06-001",
+      "W06-002"
+    ],
+    "unproved_interface": "The survey formulates the monotonicity question and notes counterexamples on other graphs; the same-rate coexistence theorem does not prove this coupling monotonicity."
+  }
+]

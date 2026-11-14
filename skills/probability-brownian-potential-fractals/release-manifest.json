@@ -1,0 +1,453 @@
+{
+  "skill": "probability-brownian-potential-fractals",
+  "worker": "W08",
+  "eligible_reviewed_sources": 31,
+  "source_review_manifest": "reviews/R05/w08_final_version_hashes.json",
+  "path_base": "All runtime JSON file paths are relative to the skill root.",
+  "transformed_files": [
+    "references/method.md",
+    "references/sources.md",
+    "evidence/W08/cards/W08-R004.md",
+    "evidence/W08/sources.json"
+  ],
+  "fulltexts": [
+    {
+      "local_id": "M0171",
+      "path": "evidence/fulltexts/M0171.pdf",
+      "sha256": "fb26f839a770d659d5417aec1942503b5bbba1760a6284e1e0e8e85c5927584b",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0172",
+      "path": "evidence/fulltexts/M0172.pdf",
+      "sha256": "f57dea508d5181caa7da2c5f9f30c34ff23a3a067750fdaffe1222567decfe6d",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0175",
+      "path": "evidence/fulltexts/M0175.pdf",
+      "sha256": "314e642173e77593e329dff4b3af522434fd7bd29998abcf3c04a27b20dbad71",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0177",
+      "path": "evidence/fulltexts/M0177.pdf",
+      "sha256": "54dbe827b62f581db81e7420cb527e176c94303af913c15d607ab03fe702442d",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0178",
+      "path": "evidence/fulltexts/M0178.pdf",
+      "sha256": "c788482c084e3f5ed74085f3550f233aa640e94038280278bcce25878e2381c6",
+      "reading_status": "downloaded_not_fulltext_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "M0179",
+      "path": "evidence/fulltexts/M0179.pdf",
+      "sha256": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0180",
+      "path": "evidence/fulltexts/M0180.pdf",
+      "sha256": "a0fa3c0d61185f878d55d9a60d151a10f23a9ad0ef0fffcf8e05cc22eae44e2c",
+      "reading_status": "downloaded_not_fulltext_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "M0181",
+      "path": "evidence/fulltexts/M0181.pdf",
+      "sha256": "dc50958363a581874c109988fb10ed4638bc90455befd688bfa4d959c042751a",
+      "reading_status": "downloaded_not_fulltext_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "M0182",
+      "path": "evidence/fulltexts/M0182.pdf",
+      "sha256": "565871952936bfc79206ecb081df39895363c05b99a92543aba7a94f915edd94",
+      "reading_status": "downloaded_not_fulltext_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "M0185",
+      "path": "evidence/fulltexts/M0185.pdf",
+      "sha256": "611901a291f5d0264a7833263e5789fda3e14c022f266659edd47dc52d8b3ba5",
+      "reading_status": "downloaded_not_fulltext_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "M0192",
+      "path": "evidence/fulltexts/M0192.pdf",
+      "sha256": "b5a56fb09e62a134bce5c1e3e5d654de55cf59a07f08e8b439e408c604995eee",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0193",
+      "path": "evidence/fulltexts/M0193.pdf",
+      "sha256": "43233829fd61c948b480c2bf6ac32cb8749770ad74ce303fbcdebd1e38087c8e",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0195",
+      "path": "evidence/fulltexts/M0195.pdf",
+      "sha256": "c23e1fbb0af2c968e8d6ee45acc75abf5801991aab6ed8fef35798a8e7eab583",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0196",
+      "path": "evidence/fulltexts/M0196.pdf",
+      "sha256": "f1240f6b31a20cf9dd3a2b37c36336309e048cf198d3874bb51b875f27e6a8fe",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0197",
+      "path": "evidence/fulltexts/M0197.pdf",
+      "sha256": "1c4ff688aeabefcd96f799b757120328be3bbe04890469c42b6df02ee3cc5097",
+      "reading_status": "downloaded_not_fulltext_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "M0201",
+      "path": "evidence/fulltexts/M0201.pdf",
+      "sha256": "7d869add16229e3968f1bd306e948ea47e5d6d9eca966527dc5895f65b490cb0",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0204",
+      "path": "evidence/fulltexts/M0204.pdf",
+      "sha256": "2cd15441a5dfa07f005a5c6d213030989e69e61b5bcd8b414c6608e17f94e1ac",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0205",
+      "path": "evidence/fulltexts/M0205.pdf",
+      "sha256": "059b0dd5507556b87ced0951c121557cf99a7a99a03e5d6a27795e1d27f087c5",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0206",
+      "path": "evidence/fulltexts/M0206.pdf",
+      "sha256": "66c4b13bab4ecea29cf52615dbe0458a700c9f5ac44eb95e1e2bc919290c8e85",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0207",
+      "path": "evidence/fulltexts/M0207.pdf",
+      "sha256": "197fd197c6d00a8e052da173121d4bd4a4dedf72fb0c202ffe60d58c437f83a0",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0208",
+      "path": "evidence/fulltexts/M0208.pdf",
+      "sha256": "c941c48b5ecc98b8d1946ad55bfc87ef56ab16f9c6ec3bc57bab9f9de20a9611",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0218",
+      "path": "evidence/fulltexts/M0218.pdf",
+      "sha256": "762fc50c9bf592d76e3a028223bdaafe94668a16a99180de6279d040989047d2",
+      "reading_status": "downloaded_not_fulltext_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "M0224",
+      "path": "evidence/fulltexts/M0224.pdf",
+      "sha256": "e850e30e824d33494e40c63faba0e23e364c8ccd80f58cee0d85732277071681",
+      "reading_status": "selected_chapters_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R001",
+      "path": "evidence/fulltexts/W08-R001.pdf",
+      "sha256": "7455ec6265b6f9e8b898c8268f8b8e7b1f5adc6d6ddb6a6d5e3911bfa84283ea",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R002",
+      "path": "evidence/fulltexts/W08-R002.pdf",
+      "sha256": "b364bdd3c41b1ef28f4ff704f6704316e886d7c1494524b500e8339bb2f3db22",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R003",
+      "path": "evidence/fulltexts/W08-R003.pdf",
+      "sha256": "c42eed7b83ef3d7c364b891ad76bf81f55051911e09853e091d0b31800a5828e",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R004",
+      "path": "evidence/fulltexts/W08-R004.pdf",
+      "sha256": "12380a4a56f086a0b77e92ebd84455b77c85dd3af75b75567c57d39c57b84ccb",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R005",
+      "path": "evidence/fulltexts/W08-R005.pdf",
+      "sha256": "814295f91479e910c4fdb25803dfe47b9d5a1ecb937e131e57bacebfbe41ad71",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R006",
+      "path": "evidence/fulltexts/W08-R006.pdf",
+      "sha256": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R007",
+      "path": "evidence/fulltexts/W08-R007.pdf",
+      "sha256": "b79363ec0b16201d6c3002751a610e8655727ab180a51c099a30a248adc6ea47",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R008",
+      "path": "evidence/fulltexts/W08-R008.pdf",
+      "sha256": "67f00f8a2c6ba0af54458a0adc1761aec3ebb157c809c93d348a8789a70d17e1",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R009",
+      "path": "evidence/fulltexts/W08-R009.pdf",
+      "sha256": "93263a5a09dcf2409f2483c6196042296c2c14fd47d8643ba5e35209ef7be634",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R010",
+      "path": "evidence/fulltexts/W08-R010.pdf",
+      "sha256": "8e8ce284efa1542db9be62047ed73d6842e5049abe57cff14eac05975e3df28d",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R011",
+      "path": "evidence/fulltexts/W08-R011.pdf",
+      "sha256": "1ca885d3d928a3a5e934ddbd03532e7dd48dce7707c0eb97157a2f675fd4b966",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R012",
+      "path": "evidence/fulltexts/W08-R012.pdf",
+      "sha256": "279a5ac504f45622b8500bdac161671ae1369f5026a95a5c617615fa6bcf5796",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R013",
+      "path": "evidence/fulltexts/W08-R013.pdf",
+      "sha256": "58038a74579c28d16e2d5265b2a0881b88f91c3dbdf27ad0ab0f1e802a71f7a4",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R014",
+      "path": "evidence/fulltexts/W08-R014.pdf",
+      "sha256": "bfb386fc4a8b4f9b17e7b01eb6c8c2a819ed62998a4aa30e4dc65f94c633e5a8",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W08-R015",
+      "path": "evidence/fulltexts/W08-R015.pdf",
+      "sha256": "3b40baa61eb82ee9ec51834d4a7d20e57b731f2a36700b3a8dd4050429702b2f",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    }
+  ],
+  "files": {
+    "SKILL.md": "0d1dc8c998dc9ef6edbcc4347b1e1194287d020ebaf23537fd96852d3e1f9731",
+    "evidence/reviewed-original.zip": "f91b116997c98386ce8fb795bd8dcef300e8d6a9126b9dd12166de52c61ed526",
+    "references/method.md": "3e5592213b1247e7500b8dbae93c24ca997fa39b5e8382ff0ca3bab3813dabad",
+    "references/sources.md": "adad95725f2fb58876f55a4df0c0f462c685d7ff8bb01e8753380e2c1064d286",
+    "examples/positive.md": "3a13dd7491efb56a850143865bf9f9a92816869a12607cddd36c47cc3480cf16",
+    "examples/negative.md": "e2b7126862f6ef802136146a6541ec907af0815e6ee7c75954cc74c4adcfe409",
+    "evidence/W08/sources.json": "5ae5b6d0b0ac893bfa713d9de295b2f3ce5005229115d5eb90c463bdaed0da16",
+    "evidence/W08/reading_coverage.json": "399fa911522b5ed6f060878be56e6ca2db69a548efe9ab32fcc23d9b9355edbc",
+    "evidence/W08/mapping.json": "a3a114272dad7b15487db67a23b95519fbe0dd01090a9222fd2efaebdd7f83d3",
+    "evidence/review/w08_final_version_hashes.json": "94f907283cce644eaaa73dfe7c01830902e8fd4bb976fd5a408e0ceb8fc40434",
+    "evidence/review/W08-R004.txt": "6ab6da442a73891e51fbb16d9747c9a65a0eae12aeced3e390c84f4b0ac2e7ad",
+    "evidence/review/W08-R007.txt": "6d6a10717b29a647e8ab74c3692834e813715391e9fbf5280ec1deffc3500a02",
+    "evidence/review/review.md": "dabf872145d5cf85b801c4fe762565ee8834d404dd6777239b5fadc734485917",
+    "evidence/review/review.json": "fdc2bfb472d6c753ad4cbec1ee7fb4a860ff53fdb1115562397ee698e702253e",
+    "evidence/fulltexts/M0207.pdf": "197fd197c6d00a8e052da173121d4bd4a4dedf72fb0c202ffe60d58c437f83a0",
+    "evidence/fulltexts/M0171.pdf": "fb26f839a770d659d5417aec1942503b5bbba1760a6284e1e0e8e85c5927584b",
+    "evidence/fulltexts/M0206.pdf": "66c4b13bab4ecea29cf52615dbe0458a700c9f5ac44eb95e1e2bc919290c8e85",
+    "evidence/fulltexts/M0204.pdf": "2cd15441a5dfa07f005a5c6d213030989e69e61b5bcd8b414c6608e17f94e1ac",
+    "evidence/fulltexts/M0172.pdf": "f57dea508d5181caa7da2c5f9f30c34ff23a3a067750fdaffe1222567decfe6d",
+    "evidence/fulltexts/M0205.pdf": "059b0dd5507556b87ced0951c121557cf99a7a99a03e5d6a27795e1d27f087c5",
+    "evidence/fulltexts/M0201.pdf": "7d869add16229e3968f1bd306e948ea47e5d6d9eca966527dc5895f65b490cb0",
+    "evidence/fulltexts/W08-R008.pdf": "67f00f8a2c6ba0af54458a0adc1761aec3ebb157c809c93d348a8789a70d17e1",
+    "evidence/fulltexts/M0177.pdf": "54dbe827b62f581db81e7420cb527e176c94303af913c15d607ab03fe702442d",
+    "evidence/fulltexts/W08-R009.pdf": "93263a5a09dcf2409f2483c6196042296c2c14fd47d8643ba5e35209ef7be634",
+    "evidence/fulltexts/M0175.pdf": "314e642173e77593e329dff4b3af522434fd7bd29998abcf3c04a27b20dbad71",
+    "evidence/fulltexts/W08-R013.pdf": "58038a74579c28d16e2d5265b2a0881b88f91c3dbdf27ad0ab0f1e802a71f7a4",
+    "evidence/fulltexts/W08-R007.pdf": "b79363ec0b16201d6c3002751a610e8655727ab180a51c099a30a248adc6ea47",
+    "evidence/fulltexts/M0178.pdf": "c788482c084e3f5ed74085f3550f233aa640e94038280278bcce25878e2381c6",
+    "evidence/fulltexts/M0193.pdf": "43233829fd61c948b480c2bf6ac32cb8749770ad74ce303fbcdebd1e38087c8e",
+    "evidence/fulltexts/M0192.pdf": "b5a56fb09e62a134bce5c1e3e5d654de55cf59a07f08e8b439e408c604995eee",
+    "evidence/fulltexts/M0179.pdf": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+    "evidence/fulltexts/W08-R006.pdf": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+    "evidence/fulltexts/W08-R012.pdf": "279a5ac504f45622b8500bdac161671ae1369f5026a95a5c617615fa6bcf5796",
+    "evidence/fulltexts/W08-R004.pdf": "12380a4a56f086a0b77e92ebd84455b77c85dd3af75b75567c57d39c57b84ccb",
+    "evidence/fulltexts/W08-R010.pdf": "8e8ce284efa1542db9be62047ed73d6842e5049abe57cff14eac05975e3df28d",
+    "evidence/fulltexts/M0185.pdf": "611901a291f5d0264a7833263e5789fda3e14c022f266659edd47dc52d8b3ba5",
+    "evidence/fulltexts/W08-R011.pdf": "1ca885d3d928a3a5e934ddbd03532e7dd48dce7707c0eb97157a2f675fd4b966",
+    "evidence/fulltexts/W08-R005.pdf": "814295f91479e910c4fdb25803dfe47b9d5a1ecb937e131e57bacebfbe41ad71",
+    "evidence/fulltexts/M0224.pdf": "e850e30e824d33494e40c63faba0e23e364c8ccd80f58cee0d85732277071681",
+    "evidence/fulltexts/M0218.pdf": "762fc50c9bf592d76e3a028223bdaafe94668a16a99180de6279d040989047d2",
+    "evidence/fulltexts/M0208.pdf": "c941c48b5ecc98b8d1946ad55bfc87ef56ab16f9c6ec3bc57bab9f9de20a9611",
+    "evidence/fulltexts/W08-R001.pdf": "7455ec6265b6f9e8b898c8268f8b8e7b1f5adc6d6ddb6a6d5e3911bfa84283ea",
+    "evidence/fulltexts/W08-R015.pdf": "3b40baa61eb82ee9ec51834d4a7d20e57b731f2a36700b3a8dd4050429702b2f",
+    "evidence/fulltexts/M0181.pdf": "dc50958363a581874c109988fb10ed4638bc90455befd688bfa4d959c042751a",
+    "evidence/fulltexts/M0195.pdf": "c23e1fbb0af2c968e8d6ee45acc75abf5801991aab6ed8fef35798a8e7eab583",
+    "evidence/fulltexts/M0180.pdf": "a0fa3c0d61185f878d55d9a60d151a10f23a9ad0ef0fffcf8e05cc22eae44e2c",
+    "evidence/fulltexts/W08-R014.pdf": "bfb386fc4a8b4f9b17e7b01eb6c8c2a819ed62998a4aa30e4dc65f94c633e5a8",
+    "evidence/fulltexts/W08-R002.pdf": "b364bdd3c41b1ef28f4ff704f6704316e886d7c1494524b500e8339bb2f3db22",
+    "evidence/fulltexts/M0196.pdf": "f1240f6b31a20cf9dd3a2b37c36336309e048cf198d3874bb51b875f27e6a8fe",
+    "evidence/fulltexts/M0182.pdf": "565871952936bfc79206ecb081df39895363c05b99a92543aba7a94f915edd94",
+    "evidence/fulltexts/M0197.pdf": "1c4ff688aeabefcd96f799b757120328be3bbe04890469c42b6df02ee3cc5097",
+    "evidence/fulltexts/W08-R003.pdf": "c42eed7b83ef3d7c364b891ad76bf81f55051911e09853e091d0b31800a5828e",
+    "evidence/W08/cards/M0179.md": "49b81ce5b225697e5865118740ee57f015fc5478a88860d5dd753ee396ef2610",
+    "evidence/W08/cards/W08-R014.md": "e751248deeafbba943d97942da8cccea34e259fa77a5c991b0d087d6b7db02dd",
+    "evidence/W08/cards/M0177.md": "6517da6bd89706cd9f1130c3e11d77f6b0031e80661ef0c58ac118acafae4bf4",
+    "evidence/W08/cards/M0205.md": "32c9c69af3ecc051b932777ec66e0314d886578719f8c524888b3365a1e1aa67",
+    "evidence/W08/cards/W08-R004.md": "2bdfb084e93b5dd07320838db2a449b722979fa62947a2ee8f16078dfc938ee2",
+    "evidence/W08/cards/W08-R010.md": "5856bbfa8611f5b49b5393633da0fc4f3e8674304489df9b553b037d45a9cc7c",
+    "evidence/W08/cards/M0201.md": "459ff495a8a3de21e5180278ad71f32721cefa610ee2c78d58d5517a1ff0ade1",
+    "evidence/W08/cards/W08-R011.md": "830fb2263fe553c7b0ada4ede743112a8d2ab087839fb12911a602e994525d2b",
+    "evidence/W08/cards/M0224.md": "b9a5f2dd7a4bc1e1e7c59594050694464784ec16f3b31e93c392c1c962e4ea99",
+    "evidence/W08/cards/M0172.md": "5f9aeb0f34a3c90ae754180a5d245b665cadf3063fbef4a4b7c46a4d3af68b65",
+    "evidence/W08/cards/W08-R001.md": "74e52a82d53b76c41815eedda0ee6e5491a1c99118890fcb4a1063e9603dc44d",
+    "evidence/W08/cards/W08-R015.md": "85d0d42f05868106536602f622203c1db60ef214c13d94fcf3093e7163c6aa38",
+    "evidence/W08/cards/M0195.md": "32b668403ffc13c4987f04fa8b40cc00c4c59cc86f3503bec1440c86b919fbf1",
+    "evidence/W08/cards/M0204.md": "0bb97f39efac06aae8be93979893ddf5cf37e506cfddf8b34234095af1732123",
+    "evidence/W08/cards/W08-R005.md": "6b42d1d2373e4628205921f436ed5d309951be41d9a2aba08acf419e810a5365",
+    "evidence/W08/cards/W08-R012.md": "4eb00dcddc0d18e382cbdd8a9cec9e29a166f425ddfe6b873a406e1d52ccd98a",
+    "evidence/W08/cards/M0171.md": "f201adf3399b2ca4c3a7d62bc8fbd38880057437d4e8e0001b3d4496aef0a0b6",
+    "evidence/W08/cards/M0192.md": "bae192f2b64b9366411d068e6bee51cc96309e4865e5f39aa5d75952e79df495",
+    "evidence/W08/cards/W08-R002.md": "9b01d498b7965e0266e337c1ff3d0615e33186dbcbbd977d128055c66d648acc",
+    "evidence/W08/cards/M0175.md": "a2651f4bf54a96d60f2c23e0508e74d17f6f0865c1e974a472a04ef321d8b780",
+    "evidence/W08/cards/M0207.md": "b73359c632a811b5f40a6473b1117f051b09a3337debd4b9b148f211e09afa5e",
+    "evidence/W08/cards/M0196.md": "2234acebbf83ba8c2b659c5f7914116f9b1cd9d286045afd9021df14bf496f49",
+    "evidence/W08/cards/W08-R006.md": "626145a0cf5dc552dd9059850a9334272dc7ee3e9c1b318b190e524d407de882",
+    "evidence/W08/cards/M0206.md": "ce2a055ad59153754c6ad1ef11775c4b3246a0387f8bc46662c0fc4bc105f48e",
+    "evidence/W08/cards/W08-R007.md": "d0d872b1f7092015504839fba5ee1b6c26837b2900dbd07e3399a7912255590c",
+    "evidence/W08/cards/W08-R013.md": "28f3f3372b3aa91d62e5d7c3c63f19872e8eec5a2088f1f17aa1f0f63bd46dd9",
+    "evidence/W08/cards/M0193.md": "186957805393eef699310e78976dc77240768ceac258ba47d573534fda384572",
+    "evidence/W08/cards/W08-R003.md": "24dceda28710fcd1c4569feaf2dc7baceb921835f64eb50b586843c798407f03",
+    "evidence/W08/cards/W08-R008.md": "3d4771fe8d27f58363830de90e58d4a25f5f3734a060d41800af891e3d2f3d44",
+    "evidence/W08/cards/W08-R009.md": "6f74b271fcbace7a21c2ef43bae90ba6e970fc0ca91b634dd7f0b3207176d702",
+    "evidence/W08/cards/M0208.md": "939e81711e4917b1dc8317217f48a984e9f4c97777ad8f802f7a06b8a845dd78",
+    "evidence/W08/calculations/A020_generator_scale.md": "6323328eae1ce984014b7f05978276e43b5fd1c447a610fec004236af0c90cce"
+  },
+  "reviewed_original_archive": {
+    "path": "evidence/reviewed-original.zip",
+    "members": {
+      "reviews/R05/w08_batch4/coverage_hash_checks.json": "8fa8eacb7f2007ce164b54ad6285d82e8d4c9928e7e0449ac82b76ae7227a828",
+      "reviews/R05/w08_coverage_spotchecks.json": "3f8d87a789fb7a1578ca7194f129262f0b4b4cc540eb68ced677392c1daee04f",
+      "reviews/R05/w08_formula_checks.json": "bbfa328aa7697875beccb20a72de34b494adc654458328fcacdb09847af484e2",
+      "skills/probability-brownian-potential-fractals/SKILL.md": "0d1dc8c998dc9ef6edbcc4347b1e1194287d020ebaf23537fd96852d3e1f9731",
+      "skills/probability-brownian-potential-fractals/examples/negative.md": "e2b7126862f6ef802136146a6541ec907af0815e6ee7c75954cc74c4adcfe409",
+      "skills/probability-brownian-potential-fractals/examples/positive.md": "3a13dd7491efb56a850143865bf9f9a92816869a12607cddd36c47cc3480cf16",
+      "skills/probability-brownian-potential-fractals/references/method.md": "79250ac55b7d60fe749b2189904622e7b8689319105d58d37c002e926c393030",
+      "skills/probability-brownian-potential-fractals/references/sources.md": "83843bfd8f17a1f8eaa5e42163d9d5641b2ac9e16cb29aee9f11e043979472a3",
+      "workers/W08/calculations/A020_generator_scale.md": "6323328eae1ce984014b7f05978276e43b5fd1c447a610fec004236af0c90cce",
+      "workers/W08/cards/M0171.md": "f201adf3399b2ca4c3a7d62bc8fbd38880057437d4e8e0001b3d4496aef0a0b6",
+      "workers/W08/cards/M0172.md": "5f9aeb0f34a3c90ae754180a5d245b665cadf3063fbef4a4b7c46a4d3af68b65",
+      "workers/W08/cards/M0175.md": "a2651f4bf54a96d60f2c23e0508e74d17f6f0865c1e974a472a04ef321d8b780",
+      "workers/W08/cards/M0177.md": "6517da6bd89706cd9f1130c3e11d77f6b0031e80661ef0c58ac118acafae4bf4",
+      "workers/W08/cards/M0179.md": "49b81ce5b225697e5865118740ee57f015fc5478a88860d5dd753ee396ef2610",
+      "workers/W08/cards/M0192.md": "bae192f2b64b9366411d068e6bee51cc96309e4865e5f39aa5d75952e79df495",
+      "workers/W08/cards/M0193.md": "186957805393eef699310e78976dc77240768ceac258ba47d573534fda384572",
+      "workers/W08/cards/M0195.md": "32b668403ffc13c4987f04fa8b40cc00c4c59cc86f3503bec1440c86b919fbf1",
+      "workers/W08/cards/M0196.md": "2234acebbf83ba8c2b659c5f7914116f9b1cd9d286045afd9021df14bf496f49",
+      "workers/W08/cards/M0201.md": "459ff495a8a3de21e5180278ad71f32721cefa610ee2c78d58d5517a1ff0ade1",
+      "workers/W08/cards/M0204.md": "0bb97f39efac06aae8be93979893ddf5cf37e506cfddf8b34234095af1732123",
+      "workers/W08/cards/M0205.md": "32c9c69af3ecc051b932777ec66e0314d886578719f8c524888b3365a1e1aa67",
+      "workers/W08/cards/M0206.md": "ce2a055ad59153754c6ad1ef11775c4b3246a0387f8bc46662c0fc4bc105f48e",
+      "workers/W08/cards/M0207.md": "b73359c632a811b5f40a6473b1117f051b09a3337debd4b9b148f211e09afa5e",
+      "workers/W08/cards/M0208.md": "939e81711e4917b1dc8317217f48a984e9f4c97777ad8f802f7a06b8a845dd78",
+      "workers/W08/cards/M0224.md": "b9a5f2dd7a4bc1e1e7c59594050694464784ec16f3b31e93c392c1c962e4ea99",
+      "workers/W08/cards/W08-R001.md": "74e52a82d53b76c41815eedda0ee6e5491a1c99118890fcb4a1063e9603dc44d",
+      "workers/W08/cards/W08-R002.md": "9b01d498b7965e0266e337c1ff3d0615e33186dbcbbd977d128055c66d648acc",
+      "workers/W08/cards/W08-R003.md": "24dceda28710fcd1c4569feaf2dc7baceb921835f64eb50b586843c798407f03",
+      "workers/W08/cards/W08-R004.md": "50e58dc34f83e7d36a214df4758f2f05839bb1fbb23590bd58c6b16893d12bd4",
+      "workers/W08/cards/W08-R005.md": "6b42d1d2373e4628205921f436ed5d309951be41d9a2aba08acf419e810a5365",
+      "workers/W08/cards/W08-R006.md": "626145a0cf5dc552dd9059850a9334272dc7ee3e9c1b318b190e524d407de882",
+      "workers/W08/cards/W08-R007.md": "d0d872b1f7092015504839fba5ee1b6c26837b2900dbd07e3399a7912255590c",
+      "workers/W08/cards/W08-R008.md": "3d4771fe8d27f58363830de90e58d4a25f5f3734a060d41800af891e3d2f3d44",
+      "workers/W08/cards/W08-R009.md": "6f74b271fcbace7a21c2ef43bae90ba6e970fc0ca91b634dd7f0b3207176d702",
+      "workers/W08/cards/W08-R010.md": "5856bbfa8611f5b49b5393633da0fc4f3e8674304489df9b553b037d45a9cc7c",
+      "workers/W08/cards/W08-R011.md": "830fb2263fe553c7b0ada4ede743112a8d2ab087839fb12911a602e994525d2b",
+      "workers/W08/cards/W08-R012.md": "4eb00dcddc0d18e382cbdd8a9cec9e29a166f425ddfe6b873a406e1d52ccd98a",
+      "workers/W08/cards/W08-R013.md": "28f3f3372b3aa91d62e5d7c3c63f19872e8eec5a2088f1f17aa1f0f63bd46dd9",
+      "workers/W08/cards/W08-R014.md": "e751248deeafbba943d97942da8cccea34e259fa77a5c991b0d087d6b7db02dd",
+      "workers/W08/cards/W08-R015.md": "85d0d42f05868106536602f622203c1db60ef214c13d94fcf3093e7163c6aa38",
+      "workers/W08/mapping.json": "a3a114272dad7b15487db67a23b95519fbe0dd01090a9222fd2efaebdd7f83d3",
+      "workers/W08/papers/M0178_kozma_lerw3d_scaling.pdf": "c788482c084e3f5ed74085f3550f233aa640e94038280278bcce25878e2381c6",
+      "workers/W08/papers/M0181_kemppainen_smirnov.pdf": "dc50958363a581874c109988fb10ed4638bc90455befd688bfa4d959c042751a",
+      "workers/W08/papers/M0182_shiraishi_lerw3d.pdf": "565871952936bfc79206ecb081df39895363c05b99a92543aba7a94f915edd94",
+      "workers/W08/papers/M0185_seed.pdf": "611901a291f5d0264a7833263e5789fda3e14c022f266659edd47dc52d8b3ba5",
+      "workers/W08/papers/M0193_seed.pdf": "43233829fd61c948b480c2bf6ac32cb8749770ad74ce303fbcdebd1e38087c8e",
+      "workers/W08/papers/M0196_seed.pdf": "f1240f6b31a20cf9dd3a2b37c36336309e048cf198d3874bb51b875f27e6a8fe",
+      "workers/W08/papers/M0201_seed.pdf": "7d869add16229e3968f1bd306e948ea47e5d6d9eca966527dc5895f65b490cb0",
+      "workers/W08/papers/M0206_LSW_Analyticity_2002_arxiv.pdf": "66c4b13bab4ecea29cf52615dbe0458a700c9f5ac44eb95e1e2bc919290c8e85",
+      "workers/W08/papers/atar_burdzy_mirror.pdf": "b364bdd3c41b1ef28f4ff704f6704316e886d7c1494524b500e8339bb2f3db22",
+      "workers/W08/papers/beffara_sle_dimension.pdf": "2b3b24b13b5770b05590588764be1805d862ad6a9e70cb010bfc3dc4ead33ffc",
+      "workers/W08/papers/bishop_jones_frontier_gt1.pdf": "814295f91479e910c4fdb25803dfe47b9d5a1ecb937e131e57bacebfbe41ad71",
+      "workers/W08/papers/bramson_burdzy_kendall_shy_cat0.pdf": "3b40baa61eb82ee9ec51834d4a7d20e57b731f2a36700b3a8dd4050429702b2f",
+      "workers/W08/papers/burdzy_chen_coalescence_sync.pdf": "1ca885d3d928a3a5e934ddbd03532e7dd48dce7707c0eb97157a2f675fd4b966",
+      "workers/W08/papers/burdzy_chen_jones_sync.pdf": "c42eed7b83ef3d7c364b891ad76bf81f55051911e09853e091d0b31800a5828e",
+      "workers/W08/papers/burdzy_cut_points.pdf": "b5a56fb09e62a134bce5c1e3e5d654de55cf59a07f08e8b439e408c604995eee",
+      "workers/W08/papers/burdzy_kendall_efficient.pdf": "12380a4a56f086a0b77e92ebd84455b77c85dd3af75b75567c57d39c57b84ccb",
+      "workers/W08/papers/burdzy_labyrinth.pdf": "7455ec6265b6f9e8b898c8268f8b8e7b1f5adc6d6ddb6a6d5e3911bfa84283ea",
+      "workers/W08/papers/burdzy_neumann_brownian_couplings_review.pdf": "279a5ac504f45622b8500bdac161671ae1369f5026a95a5c617615fa6bcf5796",
+      "workers/W08/papers/burdzy_percolation_dimension_fractals.pdf": "fb26f839a770d659d5417aec1942503b5bbba1760a6284e1e0e8e85c5927584b",
+      "workers/W08/papers/eberle_reflection_contraction.pdf": "93263a5a09dcf2409f2483c6196042296c2c14fd47d8643ba5e35209ef7be634",
+      "workers/W08/papers/fargason_percolation_r3.pdf": "1c4ff688aeabefcd96f799b757120328be3bbe04890469c42b6df02ee3cc5097",
+      "workers/W08/papers/kendall_brownian_convex_shy.pdf": "8e8ce284efa1542db9be62047ed73d6842e5049abe57cff14eac05975e3df28d",
+      "workers/W08/papers/lawler_cut_points.pdf": "c23e1fbb0af2c968e8d6ee45acc75abf5801991aab6ed8fef35798a8e7eab583",
+      "workers/W08/papers/lawler_frontier.pdf": "f57dea508d5181caa7da2c5f9f30c34ff23a3a067750fdaffe1222567decfe6d",
+      "workers/W08/papers/lsw_conformal_lerw_ust.pdf": "58038a74579c28d16e2d5265b2a0881b88f91c3dbdf27ad0ab0f1e802a71f7a4",
+      "workers/W08/papers/lsw_conformal_restriction.pdf": "54dbe827b62f581db81e7420cb527e176c94303af913c15d607ab03fe702442d",
+      "workers/W08/papers/lsw_frontier_4_3.pdf": "314e642173e77593e329dff4b3af522434fd7bd29998abcf3c04a27b20dbad71",
+      "workers/W08/papers/lsw_intersection_exponents_half_plane.pdf": "2cd15441a5dfa07f005a5c6d213030989e69e61b5bcd8b414c6608e17f94e1ac",
+      "workers/W08/papers/lsw_intersection_exponents_plane.pdf": "059b0dd5507556b87ced0951c121557cf99a7a99a03e5d6a27795e1d27f087c5",
+      "workers/W08/papers/lsw_intersection_exponents_two_sided.pdf": "c941c48b5ecc98b8d1946ad55bfc87ef56ab16f9c6ec3bc57bab9f9de20a9611",
+      "workers/W08/papers/lsw_sharp_nonintersection.pdf": "197fd197c6d00a8e052da173121d4bd4a4dedf72fb0c202ffe60d58c437f83a0",
+      "workers/W08/papers/moerters_peres_brownian_book.pdf": "e850e30e824d33494e40c63faba0e23e364c8ccd80f58cee0d85732277071681",
+      "workers/W08/papers/rohde_schramm_basic_sle.pdf": "c99b1f570d8f7f2ad3aec13cdd918d81050f8cdac50bc6296e1790c06bafb622",
+      "workers/W08/papers/schramm_scaling_lerw_ust.pdf": "a0fa3c0d61185f878d55d9a60d151a10f23a9ad0ef0fffcf8e05cc22eae44e2c",
+      "workers/W08/papers/shiraishi_brownian_percolation_3d_2026.pdf": "762fc50c9bf592d76e3a028223bdaafe94668a16a99180de6279d040989047d2",
+      "workers/W08/papers/shy_couplings.pdf": "67f00f8a2c6ba0af54458a0adc1761aec3ebb157c809c93d348a8789a70d17e1",
+      "workers/W08/papers/zhan_lerw_finitely_connected.pdf": "bfb386fc4a8b4f9b17e7b01eb6c8c2a819ed62998a4aa30e4dc65f94c633e5a8",
+      "workers/W08/papers/zhan_loop_erasure_bm.pdf": "b79363ec0b16201d6c3002751a610e8655727ab180a51c099a30a248adc6ea47",
+      "workers/W08/reading_coverage.json": "399fa911522b5ed6f060878be56e6ca2db69a548efe9ab32fcc23d9b9355edbc",
+      "workers/W08/sources.json": "4d074ad9ad6ff0629ca8f906867c8bb442767720c97f7fe6c83065ab0e23a5a3"
+    }
+  }
+}

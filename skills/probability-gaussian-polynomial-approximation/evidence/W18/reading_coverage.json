@@ -1,0 +1,1809 @@
+{
+  "scope": "probability-gaussian-polynomial-approximation",
+  "sources": {
+    "M0244": {
+      "batch": "L02_gaussian_B5",
+      "reader": "L02",
+      "sha256": "7f71d184ef6a19ac028b935e8d820932a62ed943f7aa897fe2211fa99c235d53",
+      "physical_page_count": 50,
+      "coverage": [
+        {
+          "section": "front matter and §1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            12
+          ],
+          "pdf_pages_as_read": "1–12",
+          "summary": "Problem setup, Borell/J-functional statements, deficit definitions, quantitative stability main theorems and overview."
+        },
+        {
+          "section": "§2 Proof of Borell theorem",
+          "physical_pdf_pages": [
+            12,
+            14
+          ],
+          "pdf_pages_as_read": "12–14",
+          "summary": "OU interpolation; Lemma 2.2 derivative as a positive-kernel expectation of squared gradient difference; p.14 top carries the proof tail/transition before §3 begins mid-page."
+        },
+        {
+          "section": "§3 Equality case",
+          "physical_pdf_pages": [
+            14,
+            15
+          ],
+          "pdf_pages_as_read": "14–15",
+          "summary": "§3 starts mid-p.14; rigidity from derivative vanishing, full-support conditional Gaussian law and affine common-gradient classification; semigroup inversion."
+        },
+        {
+          "section": "§4 Robustness: approximation for large t",
+          "physical_pdf_pages": [
+            15,
+            21
+          ],
+          "pdf_pages_as_read": "15–21",
+          "summary": "Gaussian Poincare/Hermite control, reverse Holder and smoothing estimates leading to quantitative closeness."
+        },
+        {
+          "section": "§5 Robustness: time-reversal",
+          "physical_pdf_pages": [
+            22,
+            27
+          ],
+          "pdf_pages_as_read": "22–27",
+          "summary": "Half-space comparison and semigroup time-reversal estimates transferring smoothed closeness to sets."
+        },
+        {
+          "section": "§6 Optimal dependence on rho",
+          "physical_pdf_pages": [
+            28,
+            36
+          ],
+          "pdf_pages_as_read": "28–36",
+          "summary": "Refines correlation dependence; controls gradient/Hessian terms and derives the improved robustness statements."
+        },
+        {
+          "section": "§7 Robust Majority Is Stablest",
+          "physical_pdf_pages": [
+            37,
+            42
+          ],
+          "pdf_pages_as_read": "37–42",
+          "summary": "Multilinear cube extension, smoothing and stability-to-halfspace comparison under the section hypotheses."
+        },
+        {
+          "section": "§8 Spherical noise stability",
+          "physical_pdf_pages": [
+            43,
+            48
+          ],
+          "pdf_pages_as_read": "43–48",
+          "summary": "Spherical harmonics/rotation-invariant operators, cap comparison and rounding application."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            49,
+            50
+          ],
+          "pdf_pages_as_read": "49–50",
+          "summary": "Full reference list read; final physical page contains the end of the bibliography."
+        }
+      ],
+      "rendered_original_pages": [
+        5,
+        6,
+        14,
+        15,
+        20,
+        21,
+        23,
+        25,
+        27,
+        28,
+        30,
+        32,
+        33,
+        35,
+        36,
+        38,
+        40,
+        41,
+        42,
+        43,
+        45,
+        46,
+        47,
+        48
+      ],
+      "helper_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B5/reading_coverage.json#entries.M0244"
+    },
+    "M0250": {
+      "batch": "L02_gaussian_B5",
+      "reader": "L02",
+      "sha256": "0cdb9d4213efa9dbcb6ca706bf4d01a6429d8a75198f6785c7bbb0b88d6eec73",
+      "physical_page_count": 13,
+      "coverage": [
+        {
+          "section": "§1 Introduction and normalization",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "pdf_pages_as_read": "1–3",
+          "summary": "Defines variance-1/2 Gaussian measure, Hermite polynomial/function bases and OU/oscillator eigenvalues; explains correspondence question."
+        },
+        {
+          "section": "§2 Main results",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "pdf_pages_as_read": "3–5",
+          "summary": "Weighted maximal-operator criteria, Riesz transforms, Banach-valued extensions, UMD and weighted A2 assertions."
+        },
+        {
+          "section": "§3 Technical lemmas",
+          "physical_pdf_pages": [
+            5,
+            9
+          ],
+          "pdf_pages_as_read": "5–9",
+          "summary": "Mehler kernel, direct isometry U, generator/semigroup intertwining and polynomial/function Riesz kernel comparisons."
+        },
+        {
+          "section": "§4 Proofs of main results",
+          "physical_pdf_pages": [
+            10,
+            12
+          ],
+          "pdf_pages_as_read": "10–12",
+          "summary": "Proves weighted maximal and Riesz results from semigroup/kernel estimates and technical equivalences."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            13,
+            13
+          ],
+          "pdf_pages_as_read": "13",
+          "summary": "Complete bibliography read."
+        }
+      ],
+      "rendered_original_pages": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "helper_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B5/reading_coverage.json#entries.M0250"
+    },
+    "W18-X012": {
+      "batch": "L02_gaussian_B5",
+      "reader": "L02",
+      "sha256": "c091b6b03a10a54a26e8bf7480eb4cc182ef688c3ee1b8c977866b95981d3c4e",
+      "physical_page_count": 56,
+      "coverage": [
+        {
+          "section": "Abstract and §1 Introduction (1.1–1.5)",
+          "physical_pdf_pages": [
+            1,
+            10
+          ],
+          "pdf_pages_as_read": "1–10",
+          "summary": "Motivation, approach, informal cover theorem, latent-variable learning applications and paper roadmap."
+        },
+        {
+          "section": "§2 Preliminaries (2.1–2.2)",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "pdf_pages_as_read": "11–12",
+          "summary": "Coefficient norms, polynomial Lipschitz/tensor facts, hypercontractivity, tails, Carbery–Wright and Hermite basics."
+        },
+        {
+          "section": "§3 Main Geometric Result (3.1–3.2)",
+          "physical_pdf_pages": [
+            13,
+            22
+          ],
+          "pdf_pages_as_read": "13–22",
+          "summary": "Theorem 15 and recursive proof: coordinate cylinders, restriction singular values, good/bad points, reduction to a subspace with codimension at least m-prime/2, Gram determinant contradiction and algorithmic form."
+        },
+        {
+          "section": "§4 Overall Strategy for Learning Applications (4.1–4.2)",
+          "physical_pdf_pages": [
+            23,
+            26
+          ],
+          "pdf_pages_as_read": "23–26",
+          "summary": "Moment-form construction, heavy-component cover via top eigenvectors, degree-one reduction, clustering/template interfaces."
+        },
+        {
+          "section": "§5 Mixtures of Spherical Gaussians (5.1–5.7)",
+          "physical_pdf_pages": [
+            27,
+            32
+          ],
+          "pdf_pages_as_read": "27–32",
+          "summary": "Setup, rough clustering, moment computation, dimension reduction, cover and density/parameter estimation."
+        },
+        {
+          "section": "§6 Positive Linear Combinations of ReLUs (6.1–6.6)",
+          "physical_pdf_pages": [
+            33,
+            37
+          ],
+          "pdf_pages_as_read": "33–37",
+          "summary": "Moment estimation, dimension reduction, covers, hypothesis construction and assembly of learning algorithm."
+        },
+        {
+          "section": "§7 Positive Linear Combinations of Generalized Linear Models (7.1–7.3)",
+          "physical_pdf_pages": [
+            37,
+            38
+          ],
+          "pdf_pages_as_read": "37–38",
+          "summary": "Moment estimates and finishing argument for GLM combinations."
+        },
+        {
+          "section": "§8 Mixtures of Linear Regressions (8.1–8.11)",
+          "physical_pdf_pages": [
+            39,
+            46
+          ],
+          "pdf_pages_as_read": "39–46",
+          "summary": "Setup, moments, iteration, clustering, dimension reduction, covers, estimation and sample lower bound."
+        },
+        {
+          "section": "§9 Mixtures of Hyperplanes (9.1–9.5)",
+          "physical_pdf_pages": [
+            47,
+            49
+          ],
+          "pdf_pages_as_read": "47–49",
+          "summary": "Parameter-estimation setup, moment computation, dimension reduction, cover and clustering."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            50,
+            53
+          ],
+          "pdf_pages_as_read": "50–53",
+          "summary": "Full bibliography read."
+        },
+        {
+          "section": "Appendix A.1–A.4",
+          "physical_pdf_pages": [
+            54,
+            56
+          ],
+          "pdf_pages_as_read": "54–56",
+          "summary": "Codimension fact, tensor proof of Lemma 11, product-inner-product claim, Pinsker/VC/Hermite facts."
+        }
+      ],
+      "rendered_original_pages": [
+        13,
+        15
+      ],
+      "helper_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B5/reading_coverage.json#entries.W18-X012"
+    },
+    "W18-X014": {
+      "batch": "L02_gaussian_B5",
+      "reader": "L02",
+      "sha256": "6d836a3f30fbd5fbc4bdc37e5ae5e8b0ddd8ddf1cb4af2062b3cec5276e69d56",
+      "physical_page_count": 6,
+      "coverage": [
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "pdf_pages_as_read": "1",
+          "summary": "Compares Carbery–Wright to the special nonnegative degree-two target and states Theorems 1.1–1.2."
+        },
+        {
+          "section": "§2 Proof of Theorem 1.2",
+          "physical_pdf_pages": [
+            1,
+            5
+          ],
+          "pdf_pages_as_read": "1–5",
+          "summary": "PSD quadratic representation, Gaussian Laplace-transform bound, Schur complement, determinant/trace Chernoff step, linear-dominant case and perturbation limit."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "pdf_pages_as_read": "6",
+          "summary": "Complete reference page read."
+        }
+      ],
+      "rendered_original_pages": [
+        1,
+        2
+      ],
+      "helper_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B5/reading_coverage.json#entries.W18-X014"
+    },
+    "W18-X015": {
+      "batch": "L02_gaussian_B5",
+      "reader": "L02",
+      "sha256": "4f13f2aa6a6fce0f145fb7ace6d0c22e7268c23553138cbad8a2d987cdaf7a9e",
+      "physical_page_count": 14,
+      "coverage": [
+        {
+          "section": "§1 Introduction and proof overview",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "pdf_pages_as_read": "1–4",
+          "summary": "States Gaussian and general-distribution bounds; outlines difference/Cauchy–Schwarz and degree induction proof."
+        },
+        {
+          "section": "§2 Preliminaries",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "pdf_pages_as_read": "5–6",
+          "summary": "Hermite decomposition, finite-difference and PSD anti-concentration tools."
+        },
+        {
+          "section": "§3 Reduction to set-multilinear polynomials",
+          "physical_pdf_pages": [
+            6,
+            11
+          ],
+          "pdf_pages_as_read": "6–11",
+          "summary": "Reduction from homogeneous/multilinear components and recursive small-interval estimates."
+        },
+        {
+          "section": "§4 Bound for set-multilinear polynomials",
+          "physical_pdf_pages": [
+            11,
+            12
+          ],
+          "pdf_pages_as_read": "11–12",
+          "summary": "Induction and quadratic base; displays the weak exponent recursion."
+        },
+        {
+          "section": "§5 Bound for general distributions",
+          "physical_pdf_pages": [
+            12,
+            13
+          ],
+          "pdf_pages_as_read": "12–13",
+          "summary": "Transfers the argument when D−D has PSD anti-concentration; Gaussian scaling example."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            13,
+            14
+          ],
+          "pdf_pages_as_read": "13–14",
+          "summary": "Full references and report footer read."
+        }
+      ],
+      "rendered_original_pages": [
+        2,
+        11,
+        12
+      ],
+      "helper_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B5/reading_coverage.json#entries.W18-X015"
+    },
+    "W18-X018": {
+      "batch": "L02_gaussian_B5",
+      "reader": "L02",
+      "sha256": "453cec2b860979e64be0747b2f5d5762235ff13dc36a33b24da4b7e1eb05d4d6",
+      "physical_page_count": 31,
+      "coverage": [
+        {
+          "section": "Abstract and §1 Introduction (1.1–1.6)",
+          "physical_pdf_pages": [
+            1,
+            6
+          ],
+          "pdf_pages_as_read": "1–6",
+          "summary": "Defines sensitivity, gives Gaussian/Boolean main theorem statements and agnostic-learning motivation/proof techniques."
+        },
+        {
+          "section": "§2 Definitions and Background (2.1–2.2)",
+          "physical_pdf_pages": [
+            7,
+            9
+          ],
+          "pdf_pages_as_read": "7–9",
+          "summary": "Defines both Gaussian and cube noise conventions; records anti-concentration, hypercontractive and invariance tools."
+        },
+        {
+          "section": "§3 Gaussian Average Sensitivity",
+          "physical_pdf_pages": [
+            9,
+            11
+          ],
+          "pdf_pages_as_read": "9–11",
+          "summary": "Proves Gaussian AS for multilinear PTFs using derivative/anti-concentration decomposition."
+        },
+        {
+          "section": "§4 Gaussian Noise Sensitivity",
+          "physical_pdf_pages": [
+            12,
+            13
+          ],
+          "pdf_pages_as_read": "12–13",
+          "summary": "Bounds polynomial difference in L2 and balances CW small-value probability with hypercontractive tail."
+        },
+        {
+          "section": "§5 Boolean Average Sensitivity (5.1–5.7)",
+          "physical_pdf_pages": [
+            14,
+            22
+          ],
+          "pdf_pages_as_read": "14–22",
+          "summary": "Regularity, critical index, random restrictions and separate regular/small-/large-critical-index cases."
+        },
+        {
+          "section": "§6 Fourier-Analytic Bound on Boolean Average Sensitivity",
+          "physical_pdf_pages": [
+            23,
+            25
+          ],
+          "pdf_pages_as_read": "23–25",
+          "summary": "Influence identities and degree induction for a Boolean-cube bound."
+        },
+        {
+          "section": "§7 Boolean Average Sensitivity vs Noise Sensitivity",
+          "physical_pdf_pages": [
+            26,
+            27
+          ],
+          "pdf_pages_as_read": "26–27",
+          "summary": "Reduction from average sensitivity to noise sensitivity via random restrictions/hybrid arguments."
+        },
+        {
+          "section": "§8 Application to Agnostic Learning",
+          "physical_pdf_pages": [
+            28,
+            29
+          ],
+          "pdf_pages_as_read": "28–29",
+          "summary": "Polynomial regression and noise-sensitivity-based learning guarantees for the stated PTF classes."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            29,
+            31
+          ],
+          "pdf_pages_as_read": "29–31",
+          "summary": "Complete reference list read."
+        }
+      ],
+      "rendered_original_pages": [
+        1,
+        4
+      ],
+      "helper_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B5/reading_coverage.json#entries.W18-X018"
+    },
+    "W18-X019": {
+      "batch": "L02_gaussian_B5",
+      "reader": "L02",
+      "sha256": "87b80d1930cca577aece9e5e966267e6f0659bec83acc7b19dba5b47491d5e7c",
+      "physical_page_count": 21,
+      "coverage": [
+        {
+          "section": "Abstract and §1 Introduction (1.1–1.4)",
+          "physical_pdf_pages": [
+            1,
+            4
+          ],
+          "pdf_pages_as_read": "1–4",
+          "summary": "Definitions, Gaussian/Boolean theorem statements, version-specific proof outline and related work."
+        },
+        {
+          "section": "§2 Learning Theory Applications (2.1)",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "pdf_pages_as_read": "5–6",
+          "summary": "Agnostic-learning consequences from PTF noise-sensitivity bounds."
+        },
+        {
+          "section": "§3 Notation and Preliminaries (3.1)",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "pdf_pages_as_read": "6–8",
+          "summary": "Polynomial notation, hypercontractivity, Carbery–Wright and invariance principles."
+        },
+        {
+          "section": "§4 Gaussian Noise-Sensitivity of PTFs",
+          "physical_pdf_pages": [
+            8,
+            9
+          ],
+          "pdf_pages_as_read": "8–9",
+          "summary": "Gaussian small-ball plus polynomial-difference/Markov optimization proof."
+        },
+        {
+          "section": "§5 Random Restrictions of PTFs (5.1–5.2)",
+          "physical_pdf_pages": [
+            9,
+            12
+          ],
+          "pdf_pages_as_read": "9–12",
+          "summary": "Critical-index/regularity structure and proof lemmas for restrictions."
+        },
+        {
+          "section": "§6 Noise sensitivity of PTFs (6.1–6.2)",
+          "physical_pdf_pages": [
+            12,
+            16
+          ],
+          "pdf_pages_as_read": "12–16",
+          "summary": "Regular and arbitrary Boolean PTF cases, invariance and restriction decomposition."
+        },
+        {
+          "section": "§7 Average sensitivity of PTFs (7.1–7.2)",
+          "physical_pdf_pages": [
+            16,
+            21
+          ],
+          "pdf_pages_as_read": "16–21",
+          "summary": "Elementary combinatorial and stronger invariance-based average-sensitivity arguments; final page ends proof."
+        }
+      ],
+      "rendered_original_pages": [
+        1,
+        3
+      ],
+      "helper_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B5/reading_coverage.json#entries.W18-X019"
+    },
+    "M0228": {
+      "batch": "L02_gaussian_B7",
+      "reader": "L02",
+      "sha256": "045d8e9eca362bf602ff6b734e7e467460da7bb552331e6144ce629c37d592f9",
+      "physical_page_count": 17,
+      "coverage": [
+        {
+          "section": "§1 Main theorem, definitions, Theorems 1–3",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "pdf_pages_as_read": "1–3",
+          "summary": "States the equal-Gaussian-measure dilation comparison; reduces its proof to finite-dimensional Gaussian measure; introduces Gaussian perimeter and width; proves Theorem 3 by Ehrhard-concave slicing and Gaussian isoperimetry."
+        },
+        {
+          "section": "Corollaries 1–3 and Gaussian-series moment comparison",
+          "physical_pdf_pages": [
+            3,
+            5
+          ],
+          "pdf_pages_as_read": "3–5",
+          "summary": "Derives dilation consequences and the sharp ratio of p- and q-moments for an a.s.-convergent Gaussian series in a separable Banach space. Rechecked Corollary 1 on physical PDF p. 3: its lower bound is the nonlinear symmetric-strip-profile formula involving Ψ and Ψ⁻¹."
+        },
+        {
+          "section": "Proof of Theorem 2: Gaussian-tail lemmas 1–13",
+          "physical_pdf_pages": [
+            5,
+            13
+          ],
+          "pdf_pages_as_read": "5–13",
+          "summary": "Establishes monotonicity/convexity inequalities for Gaussian tails, interval comparisons, and finite-grid bounds used in the two-dimensional perimeter argument; includes source tables left for reader verification."
+        },
+        {
+          "section": "Completion of Theorem 2 proof and references",
+          "physical_pdf_pages": [
+            13,
+            17
+          ],
+          "pdf_pages_as_read": "13–17",
+          "summary": "Uses the perimeter derivative, tangent-line comparison and a finite table contradiction to prove the special planar profile inequality; reads acknowledgments and complete references."
+        }
+      ],
+      "rendered_original_pages": [
+        1,
+        2,
+        3
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0231": {
+      "batch": "L02_gaussian_B7",
+      "reader": "L02",
+      "sha256": "130f68bbc7763d93950d2d955abaeeed77d24cebdd0ab31ef55cbe0bd17fbf68",
+      "physical_page_count": 16,
+      "coverage": [
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            1
+          ],
+          "pdf_pages_as_read": "1",
+          "summary": "Motivates deterministic moment and tail estimates for positive-coefficient decoupled chaos with logarithmically concave tails."
+        },
+        {
+          "section": "§2 Notation and main results",
+          "physical_pdf_pages": [
+            2,
+            5
+          ],
+          "pdf_pages_as_read": "2–5",
+          "summary": "Defines independent positive coordinates, convex normalized tail-rate functions and the coefficient functional; states the order-only moment equivalence and two-sided tail estimate, with exponential example and scope remarks."
+        },
+        {
+          "section": "§3 One-dimensional case",
+          "physical_pdf_pages": [
+            5,
+            8
+          ],
+          "pdf_pages_as_read": "5–8",
+          "summary": "Proves the d=1 comparison using tail-rate inverse transport, product-measure concentration, tail integration and finite-family maximal control."
+        },
+        {
+          "section": "§4 Multidimensional case",
+          "physical_pdf_pages": [
+            8,
+            15
+          ],
+          "pdf_pages_as_read": "8–15",
+          "summary": "Inducts on chaos order: conditioning gives the lower bound; ordering coefficient fibers and splitting index sets into sparse/dyadic blocks plus entropy/maximal estimates proves the upper bound."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            15,
+            16
+          ],
+          "pdf_pages_as_read": "15–16",
+          "summary": "Reads the full bibliography and publication-end matter."
+        }
+      ],
+      "rendered_original_pages": [
+        2,
+        3
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0233": {
+      "batch": "L02_gaussian_B7",
+      "reader": "L02",
+      "sha256": "7dcb3e366adb80063041d1569fa896554fd396f9747029ce34b6c096b413368d",
+      "physical_page_count": 29,
+      "coverage": [
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "pdf_pages_as_read": "1–3",
+          "summary": "Explains random subgaussian polytopes, geometric goals and paper organization."
+        },
+        {
+          "section": "§2.1–2.2 Preliminaries and subgaussian vectors",
+          "physical_pdf_pages": [
+            3,
+            6
+          ],
+          "pdf_pages_as_read": "3–6",
+          "summary": "Defines Banach–Mazur/covering notation, coordinate subgaussian constants and variance assumptions; proves norm and rectangular singular-value facts for the random vector matrix."
+        },
+        {
+          "section": "§2.3 Main results",
+          "physical_pdf_pages": [
+            6,
+            9
+          ],
+          "pdf_pages_as_read": "6–9",
+          "summary": "States random-polytope Banach–Mazur and projection theorems, the linear-image small-ball theorem, Gaussian strengthening and covering consequence."
+        },
+        {
+          "section": "§3 Euclidean estimates",
+          "physical_pdf_pages": [
+            9,
+            12
+          ],
+          "pdf_pages_as_read": "9–12",
+          "summary": "Proves Theorem 2.5 by symmetrization, off-diagonal Hanson–Wright and a diagonal-square deviation bound; includes Gaussian proposition proof sketch and dependence counterexample. Theorem 2.5 proof on physical p. 10 contains a Gram-matrix direction/convention ambiguity (printed B=AAᵀ followed by |Aθ|²=⟨Bθ,θ⟩); a standard column-vector derivation uses AᵀA and preserves the spectral/HS bounds."
+        },
+        {
+          "section": "§4 General convex-body estimates",
+          "physical_pdf_pages": [
+            12,
+            16
+          ],
+          "pdf_pages_as_read": "12–16",
+          "summary": "Combines small-ball with Euclidean entropy/volume covering to bound probability of a linear image entering a symmetric convex body; derives an operator/convex-hull corollary."
+        },
+        {
+          "section": "§5 Banach–Mazur distances for subgaussian polytopes",
+          "physical_pdf_pages": [
+            16,
+            20
+          ],
+          "pdf_pages_as_read": "16–20",
+          "summary": "Builds good events, a net of operators, fixed-operator estimates and approximation to prove the typical-pair distance theorem."
+        },
+        {
+          "section": "§6 Mixing operators and projection norms",
+          "physical_pdf_pages": [
+            21,
+            26
+          ],
+          "pdf_pages_as_read": "21–26",
+          "summary": "Uses conditional small-ball estimates, weak-dependence decoupling, operator nets and approximation to prove lower bounds for norms of mixing operators and projections."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            27,
+            29
+          ],
+          "pdf_pages_as_read": "27–29",
+          "summary": "Reads the complete bibliography and author addresses."
+        }
+      ],
+      "rendered_original_pages": [
+        8,
+        10
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0234": {
+      "batch": "L02_gaussian_B7",
+      "reader": "L02",
+      "sha256": "1f7325378ac0070943dc8f1c58bf093c42dcb3405f963379e45bdef052ce07bd",
+      "physical_page_count": 6,
+      "coverage": [
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "pdf_pages_as_read": "1–2",
+          "summary": "Reviews Rademacher and log-concave-tail moment estimates and states the Gaussian approximation motivation."
+        },
+        {
+          "section": "§2 Results and proofs",
+          "physical_pdf_pages": [
+            2,
+            6
+          ],
+          "pdf_pages_as_read": "2–6",
+          "summary": "Proves extremality of Bernoulli/exponential sums, characteristic-function comparison and scalar recurrences; derives the sorted-coefficient theorem, two-sided split estimates, and the additive Gaussian moment approximation."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            6,
+            6
+          ],
+          "pdf_pages_as_read": "6",
+          "summary": "Reads the complete references on the final physical page."
+        }
+      ],
+      "rendered_original_pages": [
+        4,
+        6
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0238": {
+      "batch": "L02_gaussian_B7",
+      "reader": "L02",
+      "sha256": "86a0e5081350ed3ecdcc45d491ec495897bd334c8bc65525a9ae346cfb15bcb9",
+      "physical_page_count": 34,
+      "coverage": [
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "pdf_pages_as_read": "1–3",
+          "summary": "Defines diagonal-free homogeneous chaos, states the decoupling reduction and extension to tetrahedral polynomials; describes the paper roadmap."
+        },
+        {
+          "section": "§2 Definitions and notation",
+          "physical_pdf_pages": [
+            3,
+            4
+          ],
+          "pdf_pages_as_read": "3–4",
+          "summary": "Defines normalized symmetric log-concave tails, truncated quadratic rate N-hat, partition-indexed coefficient functionals and order-dependent constants. Rechecked the physical PDF p. 3 definition: N_i^j(t)=−log P(|X_i^j|≥t), with the absolute-value tail."
+        },
+        {
+          "section": "§3 Main results",
+          "physical_pdf_pages": [
+            4,
+            5
+          ],
+          "pdf_pages_as_read": "4–5",
+          "summary": "States lower and order-three upper moment bounds, tail corollary, explicit Gaussian specialization and the arbitrary-order symmetric-exponential upper theorem. Rechecked Corollary 3.3 on physical PDF p. 5: the upper tail factor is L_d exp(−t L_d), while the lower is L_d⁻¹ exp(−t/L_d)."
+        },
+        {
+          "section": "§4 Proof of Theorem 3.1",
+          "physical_pdf_pages": [
+            5,
+            6
+          ],
+          "pdf_pages_as_read": "5–6",
+          "summary": "Proves the lower bound by induction, conditioning on partition blocks, Jensen/supremum steps, and a separate one-block hypercontractive argument."
+        },
+        {
+          "section": "§5.1 Additional notation",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "pdf_pages_as_read": "6–7",
+          "summary": "Defines Gaussian, symmetric-exponential and mixed-process metrics used to control chaos coefficient suprema."
+        },
+        {
+          "section": "§5.2 Entropy estimates",
+          "physical_pdf_pages": [
+            7,
+            10
+          ],
+          "pdf_pages_as_read": "7–10",
+          "summary": "Proves mixed Gaussian/exponential small-ball mass and covering-number bounds through product convolutions and induction on tensor order."
+        },
+        {
+          "section": "§5.3 Concentration for linear combinations",
+          "physical_pdf_pages": [
+            11,
+            13
+          ],
+          "pdf_pages_as_read": "11–13",
+          "summary": "Imports/proves vector-valued log-concave-tail supremum estimates and union/centering controls needed later."
+        },
+        {
+          "section": "§6 Suprema of Gaussian processes",
+          "physical_pdf_pages": [
+            13,
+            18
+          ],
+          "pdf_pages_as_read": "13–18",
+          "summary": "Bounds order-three Gaussian process suprema by entropy chaining, Dudley integration, Slepian comparison and recursive partitions."
+        },
+        {
+          "section": "§7 Partition theorem",
+          "physical_pdf_pages": [
+            18,
+            20
+          ],
+          "pdf_pages_as_read": "18–20",
+          "summary": "Transfers Gaussian-process partitions to independent mean-zero empirical processes using symmetrization and fourth-moment comparison."
+        },
+        {
+          "section": "§8 Proof of Theorem 3.2",
+          "physical_pdf_pages": [
+            20,
+            27
+          ],
+          "pdf_pages_as_read": "20–27",
+          "summary": "Closes the d=3 upper bound by conditioning, order-two estimates and lemmas bounding the remaining coefficient suprema."
+        },
+        {
+          "section": "§9 Proof of Theorem 3.4",
+          "physical_pdf_pages": [
+            27,
+            33
+          ],
+          "pdf_pages_as_read": "27–33",
+          "summary": "For symmetric exponentials, converts functionals to partition norms and proves arbitrary-order upper moments by induction, Gaussian comparison and contraction."
+        },
+        {
+          "section": "Appendix: proof of Proposition 1.2",
+          "physical_pdf_pages": [
+            32,
+            34
+          ],
+          "pdf_pages_as_read": "32–34",
+          "summary": "Appendix begins on physical p. 32 with the proof of Proposition 1.2, and the proof continues through p. 34; references are on the final page p. 34."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            34,
+            34
+          ],
+          "pdf_pages_as_read": "34",
+          "summary": "Reads the complete bibliography on the final physical page."
+        }
+      ],
+      "rendered_original_pages": [
+        3,
+        4,
+        5,
+        31,
+        32
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0240": {
+      "batch": "L06_gaussian_B7",
+      "reader": "L06",
+      "sha256": "00fb74644efec56f890269062dff624b0ff55fdc9fa42702bbc235e751583e0a",
+      "physical_page_count": 56,
+      "coverage": [
+        {
+          "section": "Front matter and §1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            9
+          ],
+          "pdf_pages_as_read": "1–9",
+          "summary": "Setup, Theorems 1.1–1.4, motivating tensor partition norms, scope and proof roadmap."
+        },
+        {
+          "section": "§2 Notation",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "pdf_pages_as_read": "9–10",
+          "summary": "Defines derivative tensors, partition norms and multilinear notation."
+        },
+        {
+          "section": "§3 Concentration inequality for non-Lipschitz functions",
+          "physical_pdf_pages": [
+            10,
+            17
+          ],
+          "pdf_pages_as_read": "10–17",
+          "summary": "Sobolev-family hypotheses; Latała chaos input; iterative derivative argument; proof of Theorems 3.3–3.4."
+        },
+        {
+          "section": "§3.1 Applications of Theorem 1.2",
+          "physical_pdf_pages": [
+            17,
+            26
+          ],
+          "pdf_pages_as_read": "17–26",
+          "summary": "Polynomial, additive-functional/U-statistic and linear-eigenvalue applications; Wigner application uses Hoffman–Wielandt, tensorized LSI and semicircle approximation."
+        },
+        {
+          "section": "§4 Two-sided estimates of moments for Gaussian polynomials",
+          "physical_pdf_pages": [
+            26,
+            30
+          ],
+          "pdf_pages_as_read": "26–30",
+          "summary": "Kwapień reduction, Hermite expansion and tetrahedral approximation proving Theorem 1.3."
+        },
+        {
+          "section": "§5 Polynomials in independent sub-Gaussian random variables",
+          "physical_pdf_pages": [
+            30,
+            47
+          ],
+          "pdf_pages_as_read": "30–47",
+          "summary": "Partition restrictions and Lemmas 5.1–5.4; decoupling/contraction proof of Theorem 1.4; triangle and fixed-cycle applications."
+        },
+        {
+          "section": "§6 Refined modified-log-Sobolev inequalities",
+          "physical_pdf_pages": [
+            47,
+            52
+          ],
+          "pdf_pages_as_read": "47–52",
+          "summary": "Weibull chaos norms, Proposition 6.2 range restriction and unresolved Bobkov–Ledoux implication."
+        },
+        {
+          "section": "Appendix §§7.1–7.2",
+          "physical_pdf_pages": [
+            52,
+            53
+          ],
+          "pdf_pages_as_read": "52–53",
+          "summary": "U-statistic decoupling and Lemma 5.4 proof by tail comparison, quantile coupling, contraction and Jensen."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            53,
+            56
+          ],
+          "pdf_pages_as_read": "53–56",
+          "summary": "Bibliography and final reference pages."
+        }
+      ],
+      "rendered_original_pages": [
+        6,
+        7
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L06_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0241": {
+      "batch": "L06_gaussian_B7",
+      "reader": "L06",
+      "sha256": "2f726f857343b54fd0c78fedc5ccf3558d97110eb120ae8ea647794428d6e658",
+      "physical_page_count": 10,
+      "coverage": [
+        {
+          "section": "Abstract and §1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "pdf_pages_as_read": "1–2",
+          "summary": "GCI statement, Theorem 1 wording, coordinate-strip reduction, Theorem 2 and scope caveat."
+        },
+        {
+          "section": "§2 Proof of Theorem 2",
+          "physical_pdf_pages": [
+            2,
+            4
+          ],
+          "pdf_pages_as_read": "2–4",
+          "summary": "Block covariance interpolation, squared-coordinate event, Laplace determinant expansion and Schur-complement monotonicity."
+        },
+        {
+          "section": "§3 Auxiliary Lemmas 4–8",
+          "physical_pdf_pages": [
+            4,
+            9
+          ],
+          "pdf_pages_as_read": "4–9",
+          "summary": "Quadratic Gaussian Laplace transform, block determinant facts, differentiation, multivariate gamma density, inverse transform and boundary integration."
+        },
+        {
+          "section": "References and author information",
+          "physical_pdf_pages": [
+            9,
+            10
+          ],
+          "pdf_pages_as_read": "9–10",
+          "summary": "Complete bibliography and affiliations."
+        }
+      ],
+      "rendered_original_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L06_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0242": {
+      "batch": "L06_gaussian_B7",
+      "reader": "L06",
+      "sha256": "be25739f951bfd184b804c707c55c2471780e8e23973f73ea8de757a7c0820fc",
+      "physical_page_count": 8,
+      "coverage": [
+        {
+          "section": "§1 Introduction and main results",
+          "physical_pdf_pages": [
+            1,
+            6
+          ],
+          "pdf_pages_as_read": "1–6",
+          "summary": "Physical p.2 explicitly says N=-ln survival is convex but also includes heavy Weibull r<1, for which N=t^r is concave; abstract says log-concave tails while title/theorems use log-convex tails. Theorem 1 and decoupling; conflict isolated."
+        },
+        {
+          "section": "§2 Proofs",
+          "physical_pdf_pages": [
+            6,
+            7
+          ],
+          "pdf_pages_as_read": "6–7",
+          "summary": "Rendered physical p.6 Theorem 3/Corollary 4: HMO order-one formula under independent symmetric log-convex-survival inputs, i.e. N concave; cited HMO source checked. Conditional induction into Proposition 5, Gaussian-chaos Theorem 6, and Corollary 2 proof on pp.6–7."
+        },
+        {
+          "section": "References",
+          "physical_pdf_pages": [
+            8,
+            8
+          ],
+          "pdf_pages_as_read": "8",
+          "summary": "Complete reference page."
+        }
+      ],
+      "rendered_original_pages": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L06_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0248": {
+      "batch": "L06_gaussian_B7",
+      "reader": "L06",
+      "sha256": "a14bc9d92b37d7816c58895903cd6614de0f5852f53c0aa418e86327f5869bd3",
+      "physical_page_count": 42,
+      "coverage": [
+        {
+          "section": "§1 Introduction and main theorem",
+          "physical_pdf_pages": [
+            1,
+            8
+          ],
+          "pdf_pages_as_read": "1–8",
+          "summary": "Defines Log 0=1 and Log x=1 vee ln x for x>0; Theorem 2 has p*,q in [2,infinity) (so 1<p<=2<=q<infinity), while p=1 and q=infinity are separate §1 identities. Both deletion profiles carry sqrt(Log k), including k=0."
+        },
+        {
+          "section": "§2 Proof of Theorem 2 and corollaries",
+          "physical_pdf_pages": [
+            8,
+            14
+          ],
+          "pdf_pages_as_read": "8–14",
+          "summary": "Propositions 19–21, block-diagonal norm lemma, deletion/truncation and matrix corollaries."
+        },
+        {
+          "section": "§3 Dimension-dependent bounds",
+          "physical_pdf_pages": [
+            14,
+            27
+          ],
+          "pdf_pages_as_read": "14–27",
+          "summary": "Sparse/flat vector decomposition, concentration, exponent reduction and Propositions 16/18."
+        },
+        {
+          "section": "§4 Proposition 16 implies Proposition 17",
+          "physical_pdf_pages": [
+            27,
+            31
+          ],
+          "pdf_pages_as_read": "27–31",
+          "summary": "Block decomposition into diagonal bands and weighted-entry remainder estimate."
+        },
+        {
+          "section": "§5 Estimates for p*,q in [2,4)",
+          "physical_pdf_pages": [
+            31,
+            41
+          ],
+          "pdf_pages_as_read": "31–41",
+          "summary": "Slepian–Fernique comparison, nets, flat-vector estimates and completion of Proposition 16."
+        },
+        {
+          "section": "References and affiliations",
+          "physical_pdf_pages": [
+            41,
+            42
+          ],
+          "pdf_pages_as_read": "41–42",
+          "summary": "Complete bibliography and affiliations."
+        }
+      ],
+      "rendered_original_pages": [
+        2
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L06_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "M0251": {
+      "batch": "L06_gaussian_B7",
+      "reader": "L06",
+      "sha256": "e27b7c360f648e4b8652a696b4c19bf4cdea1e1c681de54514776ce46db90716",
+      "physical_page_count": 22,
+      "coverage": [
+        {
+          "section": "Title leaf, abstract and §1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "pdf_pages_as_read": "1–3",
+          "summary": "Title/abstract; Slepian comparison theorem, one-sided error bound and notation; §2 starts on p.3."
+        },
+        {
+          "section": "§2 Anti-concentration inequalities for Gaussian maxima",
+          "physical_pdf_pages": [
+            3,
+            10
+          ],
+          "pdf_pages_as_read": "3–10",
+          "summary": "Joint CDF, weighted gradient, maximum-density bound, Hessian theorem and conditional-Gaussian/rank-event proof."
+        },
+        {
+          "section": "§3 Comparison of Gaussian distribution functions",
+          "physical_pdf_pages": [
+            10,
+            12
+          ],
+          "pdf_pages_as_read": "10–12",
+          "summary": "Covariance interpolation, smoothed maximum and proof of Theorem 1."
+        },
+        {
+          "section": "§4 Higher-order anti-concentration",
+          "physical_pdf_pages": [
+            12,
+            20
+          ],
+          "pdf_pages_as_read": "12–20",
+          "summary": "Theorems 5–7; Gram–Schmidt/sparse-eigenvalue reduction, mixed derivatives and repeated third derivative; references begin near p.20."
+        },
+        {
+          "section": "References and author information",
+          "physical_pdf_pages": [
+            20,
+            22
+          ],
+          "pdf_pages_as_read": "20–22",
+          "summary": "Complete bibliography and affiliation."
+        }
+      ],
+      "rendered_original_pages": [
+        3,
+        5,
+        7,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L06_gaussian_B7/reading_coverage.json",
+      "helper_review_decision": "passed",
+      "mother_review_status": "passed"
+    },
+    "W18-X020": {
+      "batch": "L02_gaussian_B12",
+      "reader": "L02",
+      "sha256": "b8c80cb9b03b016da921316239d0acaed6594fc9303a6176c860fe25db173ea9",
+      "physical_page_count": 18,
+      "coverage": [
+        {
+          "section": "Front matter and §1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "pdf_pages_as_read": "1–2",
+          "summary": "Verifies article identity and motivates fixed-order chaos CLTs and the fourth-moment criterion."
+        },
+        {
+          "section": "§2 Main result and Corollary 2",
+          "physical_pdf_pages": [
+            2,
+            3
+          ],
+          "pdf_pages_as_read": "2–3",
+          "summary": "Defines the isonormal process, multiple-integral isometry and contractions; states the fixed-order fourth-moment/vanishing-contraction/normal-limit equivalence and nonnormality of a nonzero higher-chaos integral."
+        },
+        {
+          "section": "§2.1 Brownian case and Proposition 3 proof",
+          "physical_pdf_pages": [
+            3,
+            10
+          ],
+          "pdf_pages_as_read": "3–10",
+          "summary": "Builds ordered iterated-integral formulation; proves equivalences by DDS time change, product formula, stochastic Fubini, symmetrized contraction expansion, positivity and permutation counting."
+        },
+        {
+          "section": "§2.2 Transfer to a general separable Hilbert space",
+          "physical_pdf_pages": [
+            10,
+            11
+          ],
+          "pdf_pages_as_read": "10–11",
+          "summary": "Uses an isometry into Brownian L2 to transfer normalization, contractions and convergence in law."
+        },
+        {
+          "section": "§3.1 Fractional Brownian quadratic functionals",
+          "physical_pdf_pages": [
+            11,
+            15
+          ],
+          "pdf_pages_as_read": "11–15",
+          "summary": "Derives weighted-square Wiener-chaos expansion and CLTs/noncentral limits by checking contractions; the CLT requires H>1/2 in the stated near-critical regime."
+        },
+        {
+          "section": "§3.2 Brownian-sheet quadratic functionals and references",
+          "physical_pdf_pages": [
+            15,
+            18
+          ],
+          "pdf_pages_as_read": "15–18",
+          "summary": "States two Brownian-sheet quadratic-functional limits; reads acknowledgments and all references."
+        }
+      ],
+      "rendered_original_pages": [
+        3,
+        5
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B12/reading_coverage.json#entries.W18-X020",
+      "physical_pages_read": [
+        1,
+        18
+      ],
+      "complete_pdf_read": true,
+      "reading_method": "Full selectable text was read page-by-page; critical theorem pages rendered and visually checked.",
+      "helper_review_decision": "passed",
+      "helper_reading_evidence_accepted": true,
+      "mother_review_status": "passed"
+    },
+    "W18-X021": {
+      "batch": "L02_gaussian_B12",
+      "reader": "L02",
+      "sha256": "bac85efa0b68206eefdd43e5d71fabb2500c1d24143cb72f3b33ae45e2c40abc",
+      "physical_page_count": 16,
+      "coverage": [
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            2
+          ],
+          "pdf_pages_as_read": "1–2",
+          "summary": "States Malliavin-derivative criterion and paper roadmap; distinguishes fixed chaos from the general projection-level result."
+        },
+        {
+          "section": "§2 Preliminaries and Lemmas 1–2",
+          "physical_pdf_pages": [
+            2,
+            5
+          ],
+          "pdf_pages_as_read": "2–5",
+          "summary": "Sets isonormal chaos, contractions and Malliavin operators. The source uses a modified symmetric-tensor norm ||f||_{H^{⊙q},mod}=sqrt(q!)||f||_{H^{⊗q}}; its p. 6 derivative identity is q times the squared modified norm, equivalently q E[F^2]=q q!||f||_{ordinary}^2 under ordinary tensor norm."
+        },
+        {
+          "section": "§3 Fixed-chaos CLT: Lemma 3 and Theorem 4",
+          "physical_pdf_pages": [
+            6,
+            8
+          ],
+          "pdf_pages_as_read": "6–8",
+          "summary": "States the normalized fixed-chaos fourth-moment/contraction/derivative criterion; the characteristic-function argument uses δD=−L and yields phi prime = −t phi. The p. 6 norm identity is read in the source’s modified symmetric-tensor convention and converted with q! when written in ordinary tensor norm."
+        },
+        {
+          "section": "§4 Multidimensional case: Lemma 6 and Theorem 7",
+          "physical_pdf_pages": [
+            8,
+            11
+          ],
+          "pdf_pages_as_read": "8–11",
+          "summary": "Controls cross derivative inner products by contraction Cauchy–Schwarz and uses vector characteristic functions for the Gaussian limit."
+        },
+        {
+          "section": "§5 General centered square-integrable sequence, Theorem 8 and Remark 9",
+          "physical_pdf_pages": [
+            11,
+            13
+          ],
+          "pdf_pages_as_read": "11–13",
+          "summary": "Truncates Wiener-chaos expansions; combines fixed-level Gaussian limits, asymptotic independence, projection derivative convergence and uniform tail-variance control."
+        },
+        {
+          "section": "§6 Fractional-Brownian odd-power example and references",
+          "physical_pdf_pages": [
+            13,
+            16
+          ],
+          "pdf_pages_as_read": "13–16",
+          "summary": "Proves joint convergence with an independent Brownian limit by finite-dimensional projection criteria, ergodic theorem and tightness; reads the full bibliography."
+        }
+      ],
+      "rendered_original_pages": [
+        2,
+        6,
+        8,
+        10,
+        12
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B12/reading_coverage.json#entries.W18-X021",
+      "physical_pages_read": [
+        1,
+        16
+      ],
+      "complete_pdf_read": true,
+      "reading_method": "Full selectable text was read page-by-page; critical theorem pages rendered and visually checked.",
+      "helper_review_decision": "passed",
+      "helper_reading_evidence_accepted": true,
+      "mother_review_status": "passed"
+    },
+    "W18-X022": {
+      "batch": "L02_gaussian_B12",
+      "reader": "L02",
+      "sha256": "530d2de5c7a4cd11c3ab3f9ecb391743dfdb554e30e48fa55e0649f9d514e277",
+      "physical_page_count": 39,
+      "coverage": [
+        {
+          "section": "§1 Introduction and one-dimensional Stein setup",
+          "physical_pdf_pages": [
+            1,
+            8
+          ],
+          "pdf_pages_as_read": "1–8",
+          "summary": "Introduces normal and centered-Gamma targets, Stein equations and test-function distance classes; develops the one-dimensional Stein framework and its integrability restrictions."
+        },
+        {
+          "section": "§2 Wiener chaos and Malliavin calculus",
+          "physical_pdf_pages": [
+            9,
+            11
+          ],
+          "pdf_pages_as_read": "9–11",
+          "summary": "Defines the isonormal process, chaos expansion, Malliavin derivative/divergence, OU generator and integration-by-parts identities; §3 begins on physical p. 11."
+        },
+        {
+          "section": "§3.1 Normal approximation on Wiener chaos",
+          "physical_pdf_pages": [
+            11,
+            15
+          ],
+          "pdf_pages_as_read": "11–15",
+          "summary": "States the general Malliavin–Stein bounds (Theorem 3.1), the fixed-chaos defect expansion (Proposition 3.2), fixed-chaos CLT equivalences (Theorem 3.3), Mehler/Stein factor remark and finite-sum implication (Proposition 3.7)."
+        },
+        {
+          "section": "§3.2–§3.3 Centered-Gamma and chi-square approximation",
+          "physical_pdf_pages": [
+            16,
+            20
+          ],
+          "pdf_pages_as_read": "16–20",
+          "summary": "Develops centered-Gamma Stein-factor bounds, including Theorem 3.11 with its absolute-continuity and integer-parameter conditions, and chi-square/multiple-integral criteria and examples."
+        },
+        {
+          "section": "§4.1 General setup for the Breuer–Major application",
+          "physical_pdf_pages": [
+            20,
+            21
+          ],
+          "pdf_pages_as_read": "20–21",
+          "summary": "Defines fBm, normalized increments and their correlation, the paper’s scaled Hermite polynomial convention, and scalar normalized sum Z_n; source normalization uses (1/q!) Σ rho_H(t)^q, consistent with this H_q convention."
+        },
+        {
+          "section": "§4.2 Scalar Berry–Esséen bound and proof of Theorem 4.1",
+          "physical_pdf_pages": [
+            21,
+            26
+          ],
+          "pdf_pages_as_read": "21–26",
+          "summary": "Theorem 4.1 (p.22) is a scalar Kolmogorov-distance bound, not a vector Wasserstein theorem. The proof represents Z_n as a qth multiple integral, expands the derivative defect into contraction terms A_r(n), uses Lemma 4.3 decay and splits index quadruples into fifteen patterns to obtain n^{-1}+n^{2H-2}+n^{2qH-2q+1}; the scalar bound follows from Theorem 3.1."
+        },
+        {
+          "section": "§5 Chi-square approximation for double integrals",
+          "physical_pdf_pages": [
+            27,
+            28
+          ],
+          "pdf_pages_as_read": "27–28",
+          "summary": "Gives a double-integral chi-square approximation statement and quadratic-functional examples."
+        },
+        {
+          "section": "§6 Unified one-dimensional Stein characterization",
+          "physical_pdf_pages": [
+            29,
+            33
+          ],
+          "pdf_pages_as_read": "29–33",
+          "summary": "Develops a density-based Stein kernel on an interval and characterizes Pearson-type distributions, with endpoint, support and density assumptions."
+        },
+        {
+          "section": "§7 Two proofs, acknowledgments and references",
+          "physical_pdf_pages": [
+            33,
+            39
+          ],
+          "pdf_pages_as_read": "33–39",
+          "summary": "Supplies detailed proofs for earlier normal/Gamma results and reads all end matter and references; the source has no appendix."
+        }
+      ],
+      "rendered_original_pages": [
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        37
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B12/reading_coverage.json#entries.W18-X022",
+      "physical_pages_read": [
+        1,
+        39
+      ],
+      "complete_pdf_read": true,
+      "reading_method": "PDF text extraction is Type3-garbled and was not relied on; all 39 physical pages were rendered and visually read, including the corrected theorem pages 11–17 and all end matter.",
+      "helper_review_decision": "passed",
+      "helper_reading_evidence_accepted": true,
+      "mother_review_status": "passed"
+    },
+    "W18-X023": {
+      "batch": "L02_gaussian_B12",
+      "reader": "L02",
+      "sha256": "86dd8675da1e86750411aa8d9c40546e78a77c6d54056d4b8ba85df6158078a4",
+      "physical_page_count": 18,
+      "coverage": [
+        {
+          "section": "§1 Introduction",
+          "physical_pdf_pages": [
+            1,
+            3
+          ],
+          "pdf_pages_as_read": "1–3",
+          "summary": "Motivates quantitative multivariate Gaussian approximation and states the Wasserstein/Malliavin strategy."
+        },
+        {
+          "section": "§2 Preliminaries and Malliavin operators",
+          "physical_pdf_pages": [
+            4,
+            7
+          ],
+          "pdf_pages_as_read": "4–7",
+          "summary": "Defines chaos, contractions, D, divergence, OU semigroup and generator; records integration-by-parts and matrix norm conventions."
+        },
+        {
+          "section": "§3 Multivariate Stein characterization and Theorem 3.5",
+          "physical_pdf_pages": [
+            7,
+            10
+          ],
+          "pdf_pages_as_read": "7–10",
+          "summary": "Proves covariance-positive-definite Stein equation and Hessian bound by Gaussian semigroup/whitening; derives Malliavin covariance-defect Wasserstein bound by integration by parts."
+        },
+        {
+          "section": "§3 Corollary 3.6, Lemma 3.7, Theorems 3.9–3.10",
+          "physical_pdf_pages": [
+            10,
+            13
+          ],
+          "pdf_pages_as_read": "10–13",
+          "summary": "Expands derivatives in contraction norms, proves fixed-order multivariate CLT equivalences and Wasserstein metrization for positive-definite covariance."
+        },
+        {
+          "section": "§4.1 Functional Breuer–Major application",
+          "physical_pdf_pages": [
+            13,
+            15
+          ],
+          "pdf_pages_as_read": "13–15",
+          "summary": "Theorem 4.1 (p.14) is for normalized sums of the standard H_q of fBm unit increments, not arbitrary Hermite-rank-q functions. Transcribe the source literally: sigma^2=q! Σ rho_H(r)^2, while p.13 defines rho_H as ordinary increment correlation. The exact covariance identity for standard H_q is q! rho_H(r)^q; for q=3 this is 6 rho^3, and at H=3/4 the printed rho^2 series diverges although rho^3 is summable. This is an unresolved source normalization discrepancy for general q; q=2 is consistent. The source-stated vector Wasserstein rates are recorded as literal statements but are not treated as verified general-q normalization results."
+        },
+        {
+          "section": "§4.2 Finite Gaussian-vector applications",
+          "physical_pdf_pages": [
+            15,
+            16
+          ],
+          "pdf_pages_as_read": "15–16",
+          "summary": "Derives a multivariate second-order Poincare-type estimate and Gaussian-vector covariance comparison."
+        },
+        {
+          "section": "Acknowledgments and references",
+          "physical_pdf_pages": [
+            16,
+            18
+          ],
+          "pdf_pages_as_read": "16–18",
+          "summary": "Reads all final acknowledgments, references and terminal end matter."
+        }
+      ],
+      "rendered_original_pages": [
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B12/reading_coverage.json#entries.W18-X023",
+      "physical_pages_read": [
+        1,
+        18
+      ],
+      "complete_pdf_read": true,
+      "reading_method": "Full selectable text was read page-by-page; critical theorem pages rendered and visually checked.",
+      "helper_review_decision": "passed",
+      "helper_reading_evidence_accepted": true,
+      "mother_review_status": "passed"
+    },
+    "W18-X024": {
+      "batch": "L02_gaussian_B12",
+      "reader": "L02",
+      "sha256": "455455d80bd0499c6520bbabbfbf3ad1a7bc3f7c4421b37378d2f590c5fb2cbc",
+      "physical_page_count": 40,
+      "coverage": [
+        {
+          "section": "§1 Introduction, main theorems and counterexamples",
+          "physical_pdf_pages": [
+            1,
+            12
+          ],
+          "pdf_pages_as_read": "1–12",
+          "summary": "Defines diagonal-free homogeneous sums, variance and influence; states universality, normal/chi-square CLT criteria, de Jong refinements and counterexamples showing order-one/non-low-influence failures."
+        },
+        {
+          "section": "§2 Wiener chaos preliminaries",
+          "physical_pdf_pages": [
+            12,
+            14
+          ],
+          "pdf_pages_as_read": "12–14",
+          "summary": "Defines Hermite/Wiener chaos, tensor kernels, contractions, multiplication formula and finite-chaos hypercontractivity."
+        },
+        {
+          "section": "§3 Normal and centered chi-square bounds on Wiener chaos",
+          "physical_pdf_pages": [
+            14,
+            18
+          ],
+          "pdf_pages_as_read": "14–18",
+          "summary": "Proves fourth-moment normal distance bounds, contraction/chaos identities and even-order chi-square moment-contraction criterion."
+        },
+        {
+          "section": "§4 Low influences and Lindeberg replacement",
+          "physical_pdf_pages": [
+            18,
+            21
+          ],
+          "pdf_pages_as_read": "18–21",
+          "summary": "States matched-moment replacement criteria and uniform-moment assumptions; Theorem 4.1(3), visually checked on PDF p. 18, has the finite-n bound ||phi^{(3)}||_infty (30 beta)^d d! sqrt(max_i Inf_i(f_n))."
+        },
+        {
+          "section": "§5 Quantitative normal approximation of homogeneous sums",
+          "physical_pdf_pages": [
+            21,
+            24
+          ],
+          "pdf_pages_as_read": "21–24",
+          "summary": "Combines Gaussian replacement with fourth-moment/low-influence controls; Theorem 5.1 is visually checked for the square roots and influence exponents."
+        },
+        {
+          "section": "§6 Chi-square approximation of homogeneous sums",
+          "physical_pdf_pages": [
+            24,
+            26
+          ],
+          "pdf_pages_as_read": "24–26",
+          "summary": "Transfers even-order centered chi-square bounds through third/fourth moments and low influences."
+        },
+        {
+          "section": "§7.1 Multivariate bounds and convex-set smoothing",
+          "physical_pdf_pages": [
+            26,
+            32
+          ],
+          "pdf_pages_as_read": "26–32",
+          "summary": "Derives a multivariate invariance bound and explicit contraction quantities Delta_ij; Gaussian interpolation and covariance integration by parts control the Gaussian part."
+        },
+        {
+          "section": "§7.2 Multivariate universality and Theorems 7.5–7.6",
+          "physical_pdf_pages": [
+            32,
+            34
+          ],
+          "pdf_pages_as_read": "32–34",
+          "summary": "Shows vector CLT universality from component chaos contraction criteria and low-influence replacement, including nonnegative covariance matrices."
+        },
+        {
+          "section": "§8 Malliavin–Stein proof details",
+          "physical_pdf_pages": [
+            34,
+            38
+          ],
+          "pdf_pages_as_read": "34–38",
+          "summary": "Supplies chain rule, divergence duality and detailed proofs of the normal/chi-square bounds using product formula and orthogonality."
+        },
+        {
+          "section": "Acknowledgments and references",
+          "physical_pdf_pages": [
+            38,
+            40
+          ],
+          "pdf_pages_as_read": "38–40",
+          "summary": "Reads all acknowledgments, bibliography and terminal author information."
+        }
+      ],
+      "rendered_original_pages": [
+        5,
+        8,
+        15,
+        17,
+        18,
+        21,
+        26,
+        28,
+        33,
+        37,
+        38
+      ],
+      "helper_reading_coverage_path": "evidence/W18/reader_batches/L02_gaussian_B12/reading_coverage.json#entries.W18-X024",
+      "physical_pages_read": [
+        1,
+        40
+      ],
+      "complete_pdf_read": true,
+      "reading_method": "Full selectable text was read page-by-page; critical theorem pages rendered and visually checked.",
+      "helper_review_decision": "passed",
+      "helper_reading_evidence_accepted": true,
+      "mother_review_status": "passed"
+    }
+  },
+  "canonical_reuses": {
+    "M0235": {
+      "canonical_source_id": "PR-0493b4701433",
+      "canonical_worker": "W10",
+      "canonical_card": "evidence/W10/cards/MOO2010.md",
+      "canonical_pdf_sha256": "9921329b11b0343888adf35ad7a0257655340f27cc6f14775def083639cc2f2c",
+      "canonical_physical_page_count": 50,
+      "canonical_fulltext_coverage": "W10 canonical full-page read; see canonical index accepted_reads and workers/W10/reader_batches/L10_W10_six/reading_coverage.json#M0235",
+      "prior_W18_partial_pages": [
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        21,
+        22
+      ],
+      "usage_card": "evidence/W18/cards/M0235.md",
+      "usage_review_status": "passed_R06",
+      "usage_evidence_accepted": true,
+      "counting_note": "Not a new W18 full-text read. R06 accepted the B167-specific conditional usage card; record as accepted canonical reuse only under canonical-reuse quota rules."
+    },
+    "M0247": {
+      "canonical_source_id": "PR-91b06cdd7c9d",
+      "canonical_worker": "W12",
+      "canonical_card": "evidence/W12/cards/W12-005.md",
+      "canonical_pdf_sha256": "ed59e260666c23b0b563afa9a31df4c933ad4bf707f16741cd78cc5e387f0896",
+      "canonical_physical_page_count": 38,
+      "canonical_fulltext_coverage": "Accepted canonical W12-005 full read; source id PR-91b06cdd7c9d and accepted-read evidence are recorded in catalogue/canonical_read_index.json and evidence/review/review.json.",
+      "local_seed_pdf_path": "evidence/fulltexts/M0247.pdf",
+      "local_seed_pdf_sha256": "170ac8f9e8444d7ed839d449b375766a2d4437c8f03a01506f92f9043871527a",
+      "local_seed_physical_page_count": 36,
+      "version_boundary": "The W18 seed is the published 36-page EJP copy; canonical read is the 38-page arXiv v1 manuscript. Bibliographic identity is shared, but no page-by-page version equivalence is claimed and the seed was not reread.",
+      "helper_usage_card": "evidence/W18/reader_batches/L06_gaussian_B7/cards/M0247.md",
+      "usage_card": "evidence/W18/cards/M0247.md",
+      "helper_review_decision": "passed",
+      "helper_usage_evidence_accepted": true,
+      "usage_review_status": "passed_R06",
+      "usage_evidence_accepted": true,
+      "counting_note": "Not a new W18 full-text read. R06 accepted the canonical W12-005 usage and mother path/card binding; count as a B167 canonical reuse only under the canonical-reuse quota rules."
+    }
+  }
+}

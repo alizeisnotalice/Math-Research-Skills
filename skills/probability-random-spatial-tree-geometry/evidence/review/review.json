@@ -1,0 +1,2043 @@
+{
+  "reviewer": "R04",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "workers": [
+    "W07",
+    "W20"
+  ],
+  "source_decisions": [
+    {
+      "worker": "W07",
+      "local_id": "PTN2026",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF 1, contents, final p716: full 716-page book acquired",
+        "PDF 296 Th8.7; 298–300 Th8.10/Cor8.11; 304–305 Prop8.18/Th8.19",
+        "PDF 331 Prop9.3;334 Th9.5;335–336 Th9.7",
+        "PDF365 Cor10.5;369 Prop10.14/Th10.15;374 Cor10.19;392 Th10.45",
+        "PDF417 Th11.11/11.12;418–419 Th11.15;422 Th11.23;142 Conj4.10"
+      ],
+      "reason": "Original requested corrections independently rechecked against local PDF. Accepted as partial_read only; no complete-paper/chapter credit.",
+      "full_book_acquired": true,
+      "full_book_page_count": 716
+    },
+    {
+      "worker": "W07",
+      "local_id": "BLPS2001",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Local PDF p1; page count and SHA256 checked"
+      ],
+      "reason": "Version correction accepted against p1; remains unread, no theorem pass."
+    },
+    {
+      "worker": "W07",
+      "local_id": "AL2007",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 version 28 Dec2005",
+        "PDF10–12 Def2.1/Prop2.2 proof",
+        "PDF14–15 Th3.1 normalization"
+      ],
+      "reason": "Original requested corrections independently rechecked against local PDF. Accepted as partial_read only; no complete-paper/chapter credit."
+    },
+    {
+      "worker": "W07",
+      "local_id": "LYO2003DPP",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1–3 identity/inclusion definition",
+        "PDF20–21 Th6.5/Cor6.6;32–33 Th8.1 positive contractions"
+      ],
+      "reason": "Original requested corrections independently rechecked against local PDF. Accepted as partial_read only; no complete-paper/chapter credit."
+    },
+    {
+      "worker": "W07",
+      "local_id": "LPS2006MSF",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title DOI",
+        "PDF3 Th1.1/1.3;9 Prop3.6;11–12 Th3.12;16 Th3.22",
+        "PDF20–21 Prop5.1 and probabilities 331/1260,109/1575"
+      ],
+      "reason": "Round2 requested correction rechecked against original: a.e. p uniqueness, explicit induced graph I_G, Th4.1 domination coupling, original Aldous–Broder/backward LERW construction respectively. Reading level stays as ledger states."
+    },
+    {
+      "worker": "W07",
+      "local_id": "LMS2008WUSFEnds",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF13–14 Prop5.1",
+        "PDF15–17 Th6.1/Lem6.3",
+        "PDF17–20 Th7.1/Cor7.3/Th7.4",
+        "Author erratum 14Mar2020 p1 https://rdlyons.pages.iu.edu/errata/ends.pdf"
+      ],
+      "reason": "Identity/hash and continuous complete coverage with section mechanisms accepted under light-review protocol; skill-used theorem statements and key proof steps independently checked. Fulltext evidence acceptance is not reviewer full rereading.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "f7c15e516cf5ec4766e3d2b01d6be5b569a9d3f354832cc0905da0aa4ded8d1c",
+      "coverage_units_checked": [
+        "§1 introduction and model",
+        "§2 preliminaries and background",
+        "§3 root-cluster exploration",
+        "§4 examples and applications",
+        "§5 general network criterion",
+        "§6 resistance/isoperimetric estimates",
+        "§7 consequences",
+        "references and erratum context"
+      ],
+      "local_pdf_verified": "workers/W07/fulltext/lyons_morris_schramm_ends_wusf.pdf",
+      "sha256_verified": "f8c895a4966dc490a4659136503d464649ba8b39b412660336046c05d1166f41",
+      "physical_pdf_pages_verified": 23,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "HN2017USF",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF1 date October8 2018",
+        "PDF10–13 Th1.9–1.12 component properties",
+        "PDF21–24 proof sampled"
+      ],
+      "reason": "Identity/hash and continuous complete coverage with section mechanisms accepted under light-review protocol; skill-used theorem statements and key proof steps independently checked. Fulltext evidence acceptance is not reviewer full rereading.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "b849dd23d793979e8713f637e69f56ae2ecc33b6d78852e24fffcc70e34147e4",
+      "coverage_units_checked": [
+        "§1 introduction, hypotheses, and component properties",
+        "§2 FUSF",
+        "§3 FUSF component-count dichotomy",
+        "§4 WUSF",
+        "acknowledgements and references"
+      ],
+      "local_pdf_verified": "workers/W07/fulltext/hutchcroft_nachmias_usf_indistinguishability.pdf",
+      "sha256_verified": "543b5d23642a4d79db72d4b4f3693b97e485794e7b0ff1b6276be04388558bcb",
+      "physical_pdf_pages_verified": 43,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "TIMAR2006FMSF",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF1–6 complete paper; Th1.2 p2; Lem2.1 pp3–4; Lem2.2 p4; proof pp4–5"
+      ],
+      "reason": "Identity/hash and continuous complete coverage with section mechanisms accepted under light-review protocol; skill-used theorem statements and key proof steps independently checked. Fulltext evidence acceptance is not reviewer full rereading.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "83c3256f83a8d1901291bae754c24ed300d51ba333b602b0a8d0a220f79e23ec",
+      "coverage_units_checked": [
+        "§1 introduction and hypotheses",
+        "§2 proof of the FMSF end theorem",
+        "references"
+      ],
+      "local_pdf_verified": "workers/W07/fulltext/timas_ends_free_msf.pdf",
+      "sha256_verified": "6bcc8fc2dbf0ede65d2638fbc788701ba07b4db73e534a7ddd6f97782fd6a845",
+      "physical_pdf_pages_verified": 6,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "TIMAR2018MSF",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF2 Th1.1/1.2;4 Def1 WIT;5 Lem1.4/Cor1.5;9–10 Th3.1/3.3;14–17 Th4.3",
+        "Round4 revised card compared against previously checked unchanged original PDF and exact hash"
+      ],
+      "reason": "Round3 correction independently checked against original cited pages: exact author/martingale, remote deleted edge, spatial/strict uniqueness hypotheses, or typical-pair variable respectively. Full-read evidence accepted within exact corrected scope.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "2aeb0d0cb38cf28fd7857c53c86f177fa5a1f27f357da2ee0e16acecb0fa3601",
+      "coverage_units_checked": [
+        "§1 introduction and weak insertion tolerance",
+        "§2 setup and mass transport",
+        "§3 ends and component count",
+        "§4 indistinguishability",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W07-Timar-2018-Random-Spanning-Forests.pdf",
+      "sha256_verified": "0ed888682bede1efddbcb1da2c27e0eefb75b4b121381ee491c8dcc811dd7a1a",
+      "physical_pdf_pages_verified": 18,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "PEM1991",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF11–13 Lem3.1 second-moment estimates",
+        "PDF18–21 Th4.2 LERW connection proof",
+        "PDF22–23 Th4.3 ends"
+      ],
+      "reason": "Round2 requested correction rechecked against original: a.e. p uniqueness, explicit induced graph I_G, Th4.1 domination coupling, original Aldous–Broder/backward LERW construction respectively. Reading level stays as ledger states.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "186b5e5cf4730035b56b5480d74bb660c001cb1d0f168f70ac23d6223f752e30",
+      "coverage_units_checked": [
+        "§1 introduction",
+        "§2 finite random-walk construction and electrical comparison",
+        "§3 loop-erased random walk",
+        "§4 number and shape of components",
+        "references and repository note"
+      ],
+      "local_pdf_verified": "workers/W07/fulltext/pemantle_choosing_lattice_spanning_tree_uniformly.pdf",
+      "sha256_verified": "dfde394b1108f6c570ab7cfd4672eab9e865f357e68e8795fba979c79de2073e",
+      "physical_pdf_pages_verified": 24,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "BKPS2004",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF2 Th1.1/1.2",
+        "PDF14 Th4.1 domination coupling;14–16 Th4.2",
+        "PDF22–24 composition, domination, tail argument"
+      ],
+      "reason": "Round2 requested correction rechecked against original: a.e. p uniqueness, explicit induced graph I_G, Th4.1 domination coupling, original Aldous–Broder/backward LERW construction respectively. Reading level stays as ledger states.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "c77ddaf52a1a9a4ee1d40771f8c541bfde4794fe35f29b594606ff88976a302c",
+      "coverage_units_checked": [
+        "§1 introduction and main theorems",
+        "§2 stochastic dimension",
+        "§3 tail triviality and restricted composition",
+        "§4 USF relation geometry and stochastic domination",
+        "§5–6 applications, refinements, and conjectures",
+        "references"
+      ],
+      "local_pdf_verified": "workers/W07/fulltext/benjamini_kesten_peres_schramm_usf_geometry.pdf",
+      "sha256_verified": "719330c1def8671f1293cee5bf6e3db52cd3090bcd79d3e5aa8a0945c2c6bd30",
+      "physical_pdf_pages_verified": 28,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "LPS2020IND",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "Local PDF p1; page count and SHA256 checked"
+      ],
+      "reason": "Round2 requested correction rechecked against original: a.e. p uniqueness, explicit induced graph I_G, Th4.1 domination coupling, original Aldous–Broder/backward LERW construction respectively. Reading level stays as ledger states.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "90a4f0ae25e5a24dbd2d8664a88d60be7e680f0482bdfb33a7e1598dc1f9e6ca",
+      "coverage_units_checked": [
+        "§1 introduction and main claims",
+        "§2 preliminaries",
+        "§3 recurrence",
+        "§4 resistance",
+        "§5 resampling and counterexample",
+        "references"
+      ],
+      "local_pdf_verified": "workers/W07/fulltext/lyons_peres_sun_induced_wsf.pdf",
+      "sha256_verified": "b9eda43ca18c8d6856216fdbc4041f0a2b2161bb29cacc34a45bbcd0ec21b231",
+      "physical_pdf_pages_verified": 13,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "LIYU2026",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF1–7 complete preprint;Th1.2 p2;Lem2.5 p4;martingale p5;Cor3.2/3.3 pp5–6"
+      ],
+      "reason": "Identity/hash and continuous complete coverage with section mechanisms accepted under light-review protocol; skill-used theorem statements and key proof steps independently checked. Fulltext evidence acceptance is not reviewer full rereading.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "7899cd7d7d813a7a47ab72c51437e48fe2dec140f7f59446580ce6df50edb73f",
+      "coverage_units_checked": [
+        "§1 introduction and zero-one theorem",
+        "§2 proof",
+        "§3 applications",
+        "references"
+      ],
+      "local_pdf_verified": "workers/W07/fulltext/li_yu_swap_invariant_zero_one.pdf",
+      "sha256_verified": "9a743a44e1ee84a5adb0a50edf45ec38484a4f410aef1c112e170e3b0eecfa8c",
+      "physical_pdf_pages_verified": 7,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "BP1993",
+      "decision": "not_reviewed",
+      "identity_verified": true,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [
+        "Local PDF p1; page count and SHA256 checked"
+      ],
+      "reason": "No theorem reading claimed; identity inspection does not count as full reading."
+    },
+    {
+      "worker": "W07",
+      "local_id": "ALDOUS1990",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "WILSON1996",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "NW1959",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "SW1991",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "LYONS1983",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "THOMASSEN1990",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "MORRIS2003",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "HL2003",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF1 author Deborah Heicklen;3 Th1.4;7–9 I(x),h(x),Wn,Eq3.4/Th3.3",
+        "Round4 revised card compared against previously checked unchanged original PDF and exact hash"
+      ],
+      "reason": "Round3 correction independently checked against original cited pages: exact author/martingale, remote deleted edge, spatial/strict uniqueness hypotheses, or typical-pair variable respectively. Full-read evidence accepted within exact corrected scope.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "9dff942fb66b15c6010536d618ef3f9b5435581c2154c956ae83ec84a4f06008",
+      "coverage_units_checked": [
+        "§1 model and main criterion",
+        "§2 ray-percolation comparison",
+        "§3 martingale and second moment",
+        "remaining proof and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W07-Heicklen-Lyons-2003-Change-Intolerance.pdf",
+      "sha256_verified": "c80f52b9d3023adbe3609e47c690119e66390ac817952c1ab3e8855e02994f03",
+      "physical_pdf_pages_verified": 12,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "BLPS1999GIP",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "LS1999IND",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "HUTCH2020TUP",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF3 Th1.2 and preceding redundancy remark;4–12 tail/mixing/Wilson proof;12–13 limitations"
+      ],
+      "reason": "Identity/hash and continuous complete coverage with section mechanisms accepted under light-review protocol; skill-used theorem statements and key proof steps independently checked. Fulltext evidence acceptance is not reviewer full rereading.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "71143d0182ac3a8b817e74417e860af69b4cc486ea442925e40e20d39302b4a0",
+      "coverage_units_checked": [
+        "§1 definitions and main theorems",
+        "§2 proof",
+        "§3 limitations and examples",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W07-Hutchcroft-2020-USF-Tree-Indistinguishability.pdf",
+      "sha256_verified": "6ae78fc7c44530c4ffb625114d4fa7011b4a0794216210be9674df4d776502b6",
+      "physical_pdf_pages_verified": 14,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "HP2019COMP",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "HN2019PLANAR",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF2 Th1.1/1.2;5–6 quantitative theorems;13–19 one-end proof;22–34 tail proofs"
+      ],
+      "reason": "Identity/hash and continuous complete coverage with section mechanisms accepted under light-review protocol; skill-used theorem statements and key proof steps independently checked. Fulltext evidence acceptance is not reviewer full rereading.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "7cb8d300e1bc303000b6ae3871fdb44043762172bcdfdf4bdba45a15dd10a0d6",
+      "coverage_units_checked": [
+        "§1 introduction and theorem statements",
+        "§2 preliminaries",
+        "§3 WUSF one-endedness and dual connectivity",
+        "§4 quantitative path/past estimates",
+        "§5 examples and open questions",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W07-Hutchcroft-Nachmias-2019-Planar-USF.pdf",
+      "sha256_verified": "b0b28509f05baaa418e00cd0cf8cb58ca16dc5e22ef738a37bcac61bf1fe3f15",
+      "physical_pdf_pages_verified": 39,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "ALEX1995MSF",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF7–8 Th2.5/2.6;14–16 Th4.2;17–18 Th5.1",
+        "Round4 revised card compared against previously checked unchanged original PDF and exact hash"
+      ],
+      "reason": "Round3 correction independently checked against original cited pages: exact author/martingale, remote deleted edge, spatial/strict uniqueness hypotheses, or typical-pair variable respectively. Full-read evidence accepted within exact corrected scope.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W07/reading_coverage.json",
+      "coverage_entry_sha256": "96bec6b5a219282ea9d5cb22ac44ce6a92bceb0cdf6a6329a205a9253e83c82b",
+      "coverage_units_checked": [
+        "§1 introduction and MSF construction",
+        "§2 edge characterizations and structural theorem",
+        "§3 stationary arguments",
+        "§4 invasion percolation",
+        "§5 finite-box stability",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W07-Alexander-1995-Minimal-Spanning-Forests.pdf",
+      "sha256_verified": "a8354c571eaeb9404a1a5c1e0cbdcd4e1eabf2bc724c33ac88446041ab3da3a7",
+      "physical_pdf_pages_verified": 19,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W07",
+      "local_id": "DOYLE_SNELL1984",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W07",
+      "local_id": "REIMER2000",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Metadata-only candidate; no local original read or identity verification."
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0091",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF1–4 complete overview axioms, hierarchy construction, proposed models and endnotes"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "7b7f332880229558714b15f310c955ddb760dbdd63335f08d082ef851471173e",
+      "coverage_units_checked": [
+        "complete overview note"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0091-Aldous-Ganesan-2013-author.pdf",
+      "sha256_verified": "ea7d60844e0282ed4c8e8ff8552bf1480a5ce661353fcbf92d79de6fea1dee63",
+      "physical_pdf_pages_verified": 4,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0092",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF8–11 route/feasibility axioms;15–16 Prop2;22–28 hierarchy/forcing/randomization;37–38 Prop18/Lem20;50 OP34/35;52–56 appendix/references"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "ec15125e9d28b3beb6cf3db4110d5f38a4ccc8e2bd7848f2649e4e9729fd7c8b",
+      "coverage_units_checked": [
+        "§§1–3 model and binary-hierarchy construction",
+        "§§4–7 geometry and route-network bounds",
+        "§8 open problems",
+        "appendix and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0092-Aldous-2014-arxiv.pdf",
+      "sha256_verified": "b5e0a0e4df8244772e0b42612799d851beee0b34ef637570eb4e620e9e2a567c",
+      "physical_pdf_pages_verified": 56,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0093",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF4–7 model/intensity;11–15 Th3.1 diameter proof;20–24 uniqueness/many-directions;25–28 Th5.1 and delta<gamma-1 moment proof;29–32 Th6.1/6.2"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "1e5ca8eb0fdf30d6c1ba65ae21668cd24d96968b044de08dbd98e0dd735c14ae",
+      "coverage_units_checked": [
+        "§§1–2 model and geodesic metric",
+        "§3 diameter bounds",
+        "§4 uniqueness",
+        "§5 route-length moments",
+        "§6 Poisson network",
+        "appendix and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0093-Kahn-2016-arxiv.pdf",
+      "sha256_verified": "84af8a3084755d70c20a16f5de08e06129542058a88ff7d2f16399e5bfafe18c",
+      "physical_pdf_pages_verified": 34,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0094",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF14–18 compact path space;19–25 existence;31–37 planar uniqueness;37–44 mean length;45–48 coalescence/pre-SIRSN"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "53ff69a5b58ba18428621c2379f94a09ebf2ce7e145ec955648c4f2d6054928d",
+      "coverage_units_checked": [
+        "cover and model introduction",
+        "§2 compactness and escape prevention",
+        "§3 path existence and measurability",
+        "§4 uniqueness",
+        "§5 specified-route length",
+        "§6 infinite geodesics and Poisson network",
+        "references and repository matter"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0094-Kendall-2017-Warwick-author.pdf",
+      "sha256_verified": "d9362787d56b7bca921911531c3f6f88471dd9dff4d76cd9d4819e7eef39386b",
+      "physical_pdf_pages_verified": 50,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0095",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF2–4 model demand/exponents/Th1;5–10 hierarchical upper/lower bounds;10–11 speed variant"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "a8e76b08b6dd78f764711a1f1ebe04a5e5c28b7bcf94c4f0e68c9cd69ac11e83",
+      "coverage_units_checked": [
+        "§1 model and efficiency criterion",
+        "§§2–3 network construction and cost bounds",
+        "§4 speed-design variant",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0095-Aldous-2008-author.pdf",
+      "sha256_verified": "b642a3884e8fd39c754e2572f6c1a25a38fd89cff8219429f0e7de420586953f",
+      "physical_pdf_pages_verified": 12,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0096",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF2–4 Def1.1;22–23 Th3.6 Cauchy/scattering;29–30 Th4.3 stationary law;33–34 Th5.2/5.3"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "32e9c781c662b5459b8c7ba9fd0798d133a3b4f66679847d6037c94254af8c68",
+      "coverage_units_checked": [
+        "§1 setup and SIRSN definition",
+        "§2 random flights and abstract scattering",
+        "§3 scale-invariant RRF",
+        "§4 relative-environment stationarity",
+        "§5 speed recurrence",
+        "§6 conclusion and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0096-Kendall-2020-author.pdf",
+      "sha256_verified": "73449d1b2e5b6aa141088f5167fcedf257d06be2315a8ac214d2ddb2628c6593",
+      "physical_pdf_pages_verified": 37,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0097",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 identity;8–9 Lem1 normalized length/degree integral;10–11 tradeoff;11–13 distinctions/simulation limits"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "e486c2c0e4f243613ad8e3d2d646408f1e15796261c3e60246cfe0133c37af50",
+      "coverage_units_checked": [
+        "§1 introduction and purpose",
+        "§2 connected-network models and normalized length",
+        "§3 route-efficiency statistic",
+        "§4 tractable networks and calculations",
+        "§5 optimal trade-off",
+        "§6 remarks and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0097-Aldous-Shun-2010-author.pdf",
+      "sha256_verified": "fb6607e74c70df2bc5c8dbe70a4c88835523fa9d965dae6486f2a57d1921789d",
+      "physical_pdf_pages_verified": 14
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0098",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 manuscript title/all authors;4–5 Neveu exchange;7 Lem2;8–9 Th1;10–12 estimators/Th2/3;12–15 rates;16–22 simulation/references",
+        "Official University of Ulm publications 2011 entry: https://www.uni-ulm.de/index.php?id=4821 line705, journal Stochastic Models27,141–167"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "6f49ff2e530d2d6929b06349694843561254b1b7fad38aac0e5a34ad1eea4dc1",
+      "coverage_units_checked": [
+        "§1 model motivation and paper outline",
+        "§2 stochastic model and Palm identities",
+        "§3.1 distribution and density of C*",
+        "§§3.2–3.5 estimator theory",
+        "§4 simulation methods",
+        "§5 numerical study, discussion and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0098-Voss-et-al-2009-Ulm-author.pdf",
+      "sha256_verified": "9be3aa281d898785071814c15e67ea53d21a4da656737bd1193deffbadab75dc",
+      "physical_pdf_pages_verified": 22
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0099",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 identity;2 fixed-direction Th1;4 Th2 branch expectations;4–17 modified FPP shielding/area-perimeter proof;18–21 directed-forest approximation, moment/UI upgrade"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "7b0420509faade29fc187c3ee1cddda1104890729ee3ff742d9955e1c5b47d3a",
+      "coverage_units_checked": [
+        "§1 model and main results",
+        "§2 adapted Burton–Keane argument",
+        "§3 geometric shield construction",
+        "§4 proof of Theorem 2 and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0099-Coupier-Hirsch-2016-arxiv.pdf",
+      "sha256_verified": "019c472c3b8a823886153a69cdf501f5e2feebd1d6c879ff10b24ff03aad4551",
+      "physical_pdf_pages_verified": 21
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0100",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF2 Th2 tail and infinite mean;3–8 centroid/color/Peierls lemmas;9 typical-pair definition chi(r,d)=P(Dr>=d);9–10 MST/weak-limit remarks",
+        "Round4 revised card compared against previously checked unchanged original PDF and exact hash"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "5e4f79032ac3b8c3937f16fc395caf9de52b0cad4b1b7b1030480c89f958705a",
+      "coverage_units_checked": [
+        "§1 introduction and definitions",
+        "§2.1 technical lemmas",
+        "§2.2 proof of Theorem 2",
+        "§3 remarks and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0100-Aldous-2021-arxiv.pdf",
+      "sha256_verified": "942fb21291dba57e7214dcea915e6338b7907669d9d2f872940bfdec5b397bd7",
+      "physical_pdf_pages_verified": 11,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0101",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 identity;4–6 assumptions/Th1 influence-zone rate;7 Th2 gap condition;16–18 upper bound/Mecke/exceptional scores;22–27 lower rare box construction;27–29 condensation"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "69f24188636f4d723d8420d521a47cf22e03bbc93bd0c7a49e06e340391d1f06",
+      "coverage_units_checked": [
+        "§1 model, scores, hypotheses and main theorems",
+        "§3 applications to kNN and β-skeletons",
+        "§4 finite-condensate applications",
+        "§5 proof of Theorem 1",
+        "§6 proof of Theorem 2",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0101-Hirsch-Willhalm-2022-arxiv.pdf",
+      "sha256_verified": "08289f4034854fc895d61d5197c59b324f65a116491b93486bfe3cd4be796d10",
+      "physical_pdf_pages_verified": 30
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0102",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF3–5 Th1/2 hubs/frame;8–20 coalescence;20–26 star bound;27–31 epsilon-road/no-pause proof;32–45 Mecke and Borel–Cantelli hub proof;46–55 cut locus/appendix"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "a7b7ab0ec487524f80e2da9f177912e38ef45fa89f3d6b2c4eeb1c24e2997953",
+      "coverage_units_checked": [
+        "introduction and main theorems",
+        "§1 model and scaling",
+        "§2 coalescence",
+        "§3 bounded star order",
+        "§4 no-pausing theorem",
+        "§§5.1–5.2 frame and hubs",
+        "§6 cut locus",
+        "§7 appendix and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0102-Blanc-Curien-Kahn-2024-arxiv.pdf",
+      "sha256_verified": "957ef6f9bc3fd16859bb4cf6dc71ba8165696b25f6bff9b66d648e34ae719c9a",
+      "physical_pdf_pages_verified": 57,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0103",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0104",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0105",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0106",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0107",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0108",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 arXiv1511.03262v2/banner23Sep2016,title26Sep2016;160 final references complete book",
+        "PDF8–13 Th2.1/subadditive proof;15–18 Th2.16 shape;88–89 conditional/exponent caveat;138–140 maxflow/mincut",
+        "Round6 current card/source diff rechecked: exactcutoff,psi derivative sign,Fibonacci child,added-parent event,or2016 localversion respectively; original hashes unchanged"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "workers/W06/data/50-years-first-passage-percolation.pdf",
+      "sha256_verified": "89ab8416bc42814c3d529475ad7e5608a7c67ba368fcf7c6192c54eb82bf424d",
+      "physical_pdf_pages_verified": 160,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "dac836fbf7aae4062552cc252fa53a2f0096fcf4e22061ccf7c4ff604c821d6c",
+      "coverage_units_checked": [
+        "front matter and introduction",
+        "§2.1",
+        "§2.2",
+        "§2.3",
+        "§§2.4–2.5",
+        "§§2.6–2.9",
+        "§3.1",
+        "§3.2",
+        "§3.3",
+        "§3.4",
+        "§3.5",
+        "§§3.6–3.7",
+        "§4.1",
+        "§§4.2–4.3",
+        "§4.4",
+        "§4.5",
+        "§§5.1–5.3",
+        "§5.4",
+        "§5.5",
+        "§5.6",
+        "§6",
+        "§7.1",
+        "§§7.2–7.2.3",
+        "§8",
+        "references"
+      ],
+      "coverage_evidence_accepted": true,
+      "full_book_acquired": true,
+      "full_book_page_count": 160,
+      "full_book_version_verified": "complete arXiv1511.03262v2 title26Sep2016/banner23Sep2016;separate2017AMS publication",
+      "full_book_reading_coverage_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "M0109",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 fullbook title/authors/version21Aug2017;3–4 contents;305 final index: complete305page book acquired",
+        "PDF38–49 completeCh4 §§4.1–4.5;39 Th4.1 count-recursion;40 factorial measure different indices/not necessarily distinct locations;42–44 Th4.4/4.5 finite intensity and proper process proof;44–48 Janossy/factorial moments/determinacy;49 final exercises"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "selected_chapters_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "147544d65f0ecd9c40a28446bc85cb300c427d11051b96b45e5e52625a3b2b65",
+      "coverage_units_checked": [
+        "Chapter 4 opening and §4.1; Theorem 4.1",
+        "§4.2; factorial measures and Theorems 4.4–4.5",
+        "§4.3; Janossy measures",
+        "§4.4; factorial moments",
+        "Proposition 4.12 and complete §4.5 exercises"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/M0109-Last-Penrose-2017-author-book.pdf",
+      "sha256_verified": "04423f7ad07ca1d07178c307c14558df7d6a309519759a4229396c11945d9c3e",
+      "physical_pdf_pages_verified": 305,
+      "full_book_acquired": true,
+      "full_book_page_count": 305,
+      "full_book_version_verified": "21 August 2017 author prepublication version",
+      "read_units_reviewed": [
+        {
+          "unit": "Chapter 4, §§4.1–4.5, The Mecke Equation and Factorial Measures",
+          "physical_pdf_pages": "38–49",
+          "printed_pages": "26–37",
+          "complete": true
+        }
+      ],
+      "selected_unit_coverage_accepted": true,
+      "selected_reading_only": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "LYONS1990RWPT",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "Original scanned images PDF2 title/author;12 Th4.1;14 Cor4.2/Th4.3;15 proof/critical-equality examples;23 Th6.2 percolation cutset/martingale proof; complete scan29pages hash checked"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "434e2fb01eb7b5c924e0ab07a143af5b4795053e4b2b5a0494d8b10bd69ae19a",
+      "coverage_units_checked": [
+        "Scanned journal cover and title-page identity",
+        "Introduction, branching number, cutsets and flows",
+        "Electrical networks and biased walks",
+        "Spectral growth comparisons",
+        "Percolation and random-tree/conductance applications"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W20-Lyons-1990-Random-Walks-Percolation-Trees.pdf",
+      "sha256_verified": "df29dc8ef0fcb7f2fc15a28a4cd74a56e4f29d9381419e8f0882f3a09ab4b234",
+      "physical_pdf_pages_verified": 29
+    },
+    {
+      "worker": "W20",
+      "local_id": "LPP1995ERGODIC",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "LPP1996BIASED",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 complete19page author version22May1996",
+        "PDF5–9 Th3.1 regeneration speed;9–11 Th4.1 bushes;12–13 Th5.1/Lem5.2 dimension and singularity proof;14–18 confinement/parameter questions"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-LPP1996-Biased-Walks-author.pdf",
+      "sha256_verified": "c233e9139b1baff7e46ccbf4ffd8090aedbf4ce868fb769507088bc9b31325d5",
+      "physical_pdf_pages_verified": 19,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "2affa104442e8d442d43c7a3c9077dd37fe8f44808cbb6b2cb0dd127e45b5a83",
+      "coverage_units_checked": [
+        "Title, abstract, §1 introduction and model convention",
+        "§2 Green-function and range estimates",
+        "§3 regeneration epochs and positive speed",
+        "§4 outward-biased walk with leaves",
+        "§5 harmonic-measure dimension and confinement",
+        "§6 parameter questions and Proposition 6.1",
+        "References and affiliations"
+      ],
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "PZ2008CLT",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1–2 model/Th1;4–6 corrector/IGW/IGWR density;7–8 Lem2 detailed balance and bracket;8–18 corrector estimates;19–26 GW coupling;28 Th3 transient CLT"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "20ed7bc7017a29d5c58f83a73f58987215ea0e24481480e1dcf6ca5d6bab392a",
+      "coverage_units_checked": [
+        "§1: model, phases and Theorem 1",
+        "§2: marked-ray GW trees and Theorem 2",
+        "§3: martingale, stationary measures and proof roadmap",
+        "§4: proof of Proposition 1",
+        "§5: auxiliary computations and proof of bracket identity",
+        "§6: transfer from IGW to ordinary GW",
+        "§7: transient case and Theorem 3",
+        "Acknowledgments and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W20-Peres-Zeitouni-2008-Biased-Walk-CLT.pdf",
+      "sha256_verified": "c0124603b6bb062171f27c9b5cd74e6bbafe63a6ddbb8c77bf826b353a7b4d5c",
+      "physical_pdf_pages_verified": 34
+    },
+    {
+      "worker": "W20",
+      "local_id": "AIDEKON2014SPEED",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title/author/local2018 date;2 Th1.1 exact denominator/speed;8–10 fresh-epoch reversal;11–14 Th4.1 density/Lem4.2 integrability;18–21 environment limit/speed proof"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "1efe659247b21b3218ab1e30ed072058884356ec525ec2a40d493de9eb81009f",
+      "coverage_units_checked": [
+        "§1 model, regimes and speed formula",
+        "§2 tree and backward-tree preliminaries",
+        "§3 fresh epochs and regeneration",
+        "§4 invariant environment and conductance",
+        "§5 speed proof and references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W20-Aidekon-2014-Biased-Walk-Speed.pdf",
+      "sha256_verified": "541ff7432d7a9726a3c04350829b57db00192aea496a3aa04c8b6ff9d030f6f0",
+      "physical_pdf_pages_verified": 22
+    },
+    {
+      "worker": "W20",
+      "local_id": "LIN2017HARMONIC",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF1–3 leafless model,visual metric,Th1/2,Question1;4–11 conductance and stationary laws;11–14 entropy/FKG/end limits;14–17 path-degree comparisons"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "bfc28181f0b275c73dd4c67c6b0e900c06c1803199f2d448a4d89c7aadfcaa94",
+      "coverage_units_checked": [
+        "§1 model and main theorems",
+        "§2 escape probability and effective conductance",
+        "§3 stationary environment law",
+        "§4 harmonic-stationary law",
+        "§5 dimension formula and limits",
+        "§6 path offspring averages",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W20-Lin-2017-Harmonic-Measure.pdf",
+      "sha256_verified": "85e80f14cbe4572a84b8c272590185ef5c8d4e2dc4e4001b9751992c876501af",
+      "physical_pdf_pages_verified": 18,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "ROUSSELIN2017HARMONIC",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF p1 title/authors/version inspected; local SHA256 and complete page count verified",
+        "PDF10–13 flow recursion,h-identities,kappa,Th3.2 proof;16–19 Th4.1 density/dimension;22–25 Prop5.1/Th5.2;32–35 Th5.8 and metric dimension proof"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "8253bb2eb1160206ff1b44800bfba3526d3c10e3c3800d42e28c2ba4ad260e7b",
+      "coverage_units_checked": [
+        "§1 introduction and marked-GW model",
+        "§2 flow rule and algebraic conditions",
+        "§3 invariant-measure theorem",
+        "§4 biased harmonic measure",
+        "§5 recursive lengths and dimension drop",
+        "references"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W20-Rousselin-2017-Harmonic-Measure.pdf",
+      "sha256_verified": "2d1f6a9bb7230e9c6c23d40136dce22e001951af8176e3e53e6fb9a317f57b8e",
+      "physical_pdf_pages_verified": 37,
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "BAFS2014HIGHBIAS",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "SONG2025LOWBIAS",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "BAFGH2012LEAVES",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1–4 model/Th1.1–1.4;9–11 trap measure/height tail;12–14 deep-trap reduction;28–35 normalized Z_infty;36–40 triangular-array Levy;41–48 final limits"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "ff924a599e757dae2fcd6470a4deabe3a4c2a4fd12093af7c038c06635ff50cc",
+      "coverage_units_checked": [
+        "§1: model and Theorems 1.1–1.4",
+        "§2: environment, backbone walk and regeneration",
+        "§3: trap construction",
+        "§4: proof overview",
+        "§5: time in large traps",
+        "§6: visits to a large trap",
+        "§7: independence across traps",
+        "§8: excursions at trap bottoms",
+        "§9: limiting large-trap delay",
+        "§10: sums of iid variables",
+        "§11: limit theorems",
+        "References"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W20-BenArous-Fribergh-Gantert-Hammond-2012-Leaves.pdf",
+      "sha256_verified": "28d6baaf27bffde3e7ed8bfce67f2dd28a207ac821d348b913aeb3611ed0b96b",
+      "physical_pdf_pages_verified": 49
+    },
+    {
+      "worker": "W20",
+      "local_id": "CURIENLEGALL2017BALLHARM",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1–3 model/Th1/Cor2;6 Th3;7–8 reciprocal conductance RDE/Prop4;20–37 spine/stationary ergodic cocycle;38–58 discrete convergence and conditioning;63–65 appendix"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "coverage_evidence_accepted": true,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "3e9a81a208ddf2c1f487c0de8830f7f885ce8b30de8ca9c9c0641ddd288d0ac4",
+      "coverage_units_checked": [
+        "§1: model and main theorems",
+        "§2: reduced tree, Yule tree, conductance and flow",
+        "§3: proof of continuous exact-dimension theorem",
+        "§4.1–4.4: discrete model and main result",
+        "§5: complements",
+        "Appendix",
+        "References"
+      ],
+      "local_pdf_verified": "downloads/D05/papers/W20-Curien-LeGall-2017-Harmonic-Balls.pdf",
+      "sha256_verified": "d344a60969603d29698e64f5615e65699241c1e639e686d67479bf4284c2db8c",
+      "physical_pdf_pages_verified": 66
+    },
+    {
+      "worker": "W20",
+      "local_id": "TOKUSHIGE2018SPEEDREG",
+      "decision": "not_reviewed",
+      "identity_verified": false,
+      "metadata_verified": false,
+      "reading_evidence_accepted": false,
+      "checked_locations": [],
+      "reason": "Scope/mapping-only review as assigned. Acquired PDF or shared canonical record is not independently accepted usage; all W20 sources remain unread."
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-MEHRDAD-SEN-ZHU-2015",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 identity;2 Th1/1.3 ordered coupling;3 Th4 cutoff23/4+delta",
+        "PDF4–7 coupled treewalk/auxiliary Z walk/regeneration ratios;9–13 inequalities3.8/3.19;15–16 Th4 tuple proof;16–17 references",
+        "Round6 current card/source diff rechecked: exactcutoff,psi derivative sign,Fibonacci child,added-parent event,or2016 localversion respectively; original hashes unchanged"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Mehrdad-Sen-Zhu-2015-high-bias-arxiv.pdf",
+      "sha256_verified": "f47954c8ff8b555eeeda35ae9542eb5ee856d7d5b6ea82c8258993411e08f388",
+      "physical_pdf_pages_verified": 17,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "bd8d5b5c470de8ffaa40dd5720e60a69006bd24aa81e821cdce137384435dd85",
+      "coverage_units_checked": [
+        "Front matter and model",
+        "Main comparisons and refinements",
+        "Coupling construction",
+        "Theorem 1 proof",
+        "Corollary 5 and Theorem 4 proofs",
+        "Acknowledgments and references"
+      ],
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-FARAUD-HU-SHI-2011",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 version13May2011;3–5 psi regimes/Th1.1/1.2/constants",
+        "PDF7 Th1.4 V-moment inequality;8 many-to-one;8–15 min ancestral potential proof;15–19 reflected Mogulskii;19–34 walk escape/spine;34–40 appendix/references",
+        "Round6 current card/source diff rechecked: exactcutoff,psi derivative sign,Fibonacci child,added-parent event,or2016 localversion respectively; original hashes unchanged"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Faraud-Hu-Shi-2011-stochastically-biased-walks-arxiv.pdf",
+      "sha256_verified": "fdcb44ed6f217b7a2af1290089384ef46f83b5085461c079911cb9a7f8b37a8d",
+      "physical_pdf_pages_verified": 40,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "9117f8bf25b1472253687701c0b6f95663e1c5ca2199fde613433608100328d3",
+      "coverage_units_checked": [
+        "Front matter, model and regimes",
+        "Potential walk, escape probability and branching-random-walk minimum",
+        "One-dimensional reflected-walk small deviations",
+        "Noncritical displacement proof",
+        "Critical upper bound",
+        "Critical lower bound and spinal decomposition",
+        "Appendix and references"
+      ],
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-BOWDITCH-TOKUSHIGE-2020",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title/version4May2020;3 Th1.1 interval(sqrtlambda_c,mu);6–9 Prop3.1 approximation;10–15 Girsanov/score/gaussian response;16–31 regeneration moment/trap engine;31–33 references"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Bowditch-Tokushige-2020-speed-differentiability-arxiv.pdf",
+      "sha256_verified": "c3b303079a2f4acfca3b3460f04bce181f338febbd5b411282fabb89e27deb51",
+      "physical_pdf_pages_verified": 33,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "7f5ea160053a3007fca06ba888ede73ded29d28865a5d8c1f9ebb00519b40e96",
+      "coverage_units_checked": [
+        "Title, abstract, §1 model, Theorem 1.1 and Girsanov identity",
+        "§2 regeneration structure and moment propositions",
+        "§3 finite-n derivative approximation and discrete Girsanov proof",
+        "§4 no-leaves uniform regeneration moments and escape continuity",
+        "§5 subcritical GW generation-size moments",
+        "§6 trap excursion moments and completion of Proposition 2.5",
+        "Acknowledgments and references"
+      ],
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-ALDOUS-LINEAR-ROUTE-2021",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title/version22Jun2021;4–6 frozen-core hypothesis/Th1/Cor2",
+        "PDF6–16 block/oriented percolation/route conversion and all-moment pair sum;16–20 RNG decreasing-chain proof;21–22 references"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Aldous-2021-linear-route-lengths-author.pdf",
+      "sha256_verified": "f67857d710b6060a6e2f46196b0c3021260982acdd3cc21f937e68e1ed51492b",
+      "physical_pdf_pages_verified": 22,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "d65c8bbdc7cf93f9ba8536eba185af5b2968411c822834e4cb0dd4c6cb769497",
+      "coverage_units_checked": [
+        "Title, abstract, §1 model and linearity definitions",
+        "§2.1 oriented-percolation input and §2.2 blocks",
+        "§2.3–§2.4 route plan and affine lattices",
+        "§2.5–§2.7 global/local route construction and theorem",
+        "§3 RNG proposition, deterministic lemmas, examples and limits",
+        "References"
+      ],
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-ALDOUS-SHAPE-2009",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 banner2009/title2018;3–5 A1–A3,L2 pair-sum,Th1;7–10 missing-point/array reduction;10–11 Conj3;11–15 Prop4 Kingman penalty proof;16 references"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Aldous-2009-shape-theorem-arxiv.pdf",
+      "sha256_verified": "cf7135208cea2652417e5985880501c37449cc5d58111bf5a83a8aca55883efc",
+      "physical_pdf_pages_verified": 16,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "929931d087593d18c1f9538362869e173d539a62a6a791ddf723ea4dbfadd8ef",
+      "coverage_units_checked": [
+        "Title, abstract, §1 setup and Theorem 1",
+        "§2 reduction to subadditivity",
+        "§2.1 conjectured a.s. shape theorem and §2.2 counterexample",
+        "§3 missing-values Kingman theorem and proof",
+        "References"
+      ],
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-LPP-TREE-OPEN-1997",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 independent contribution pp223–238/version25Oct2025;16 references/affiliation: complete work",
+        "PDF5 Fibonacci type1->type2;9 Question3.4;10 entropy-chain and conductance recursion;11–15 Th4.1 distribution fixed-point/iteration proof",
+        "Round6 current card/source diff rechecked: exactcutoff,psi derivative sign,Fibonacci child,added-parent event,or2016 localversion respectively; original hashes unchanged"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Lyons-Pemantle-Peres-1997-open-problems-chapter-author.pdf",
+      "sha256_verified": "c0f8a5ad83d1cac171acd4dff892da72ab15bf270789cf5e63fd1b2f2cd647c0",
+      "physical_pdf_pages_verified": 16,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "d652bc068ce2a2d4eab8c16a955c5488763016028d6732726368220d4f3814c1",
+      "coverage_units_checked": [
+        "Title, abstract and §1 model definitions",
+        "§2 speed questions and examples",
+        "§3 harmonic-measure dimensions and sampling",
+        "§4 conductance recursion, Theorem 4.1 and Question 4.1",
+        "References and affiliations"
+      ],
+      "coverage_evidence_accepted": true,
+      "full_book_acquired": false,
+      "document_type_verified": "complete independently authored edited-volume contribution",
+      "independent_work_count_accepted": true,
+      "whole_containing_volume_read": false
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-AIDEKON-LDV-2010",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1 title/authors/DOI/published159–189;2 D(e) parent crossing definition;3 Th1.2–1.4 andProp1.3",
+        "PDF4–17 regeneration tails;18–29 branching speedup/slowdown andProp3.3 conditional-to-unconditional transfer;30–31 subexponential theorem/references",
+        "Round6 current card/source diff rechecked: exactcutoff,psi derivative sign,Fibonacci child,added-parent event,or2016 localversion respectively; original hashes unchanged"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Aidekon-2010-RWRE-large-deviations-Numdam.pdf",
+      "sha256_verified": "041931fd686d7666191c611f21114c509841552532218363d98e5b657c4018f2",
+      "physical_pdf_pages_verified": 31,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "a5a214f5081c106f947dbe26a8cc6475fed7aa790e32745a00c6d8553a228e45",
+      "coverage_units_checked": [
+        "Front matter and theorem statements",
+        "Regeneration-time tails",
+        "Annealed and quenched large-deviation principles",
+        "Subexponential slowdown and references"
+      ],
+      "coverage_evidence_accepted": true
+    },
+    {
+      "worker": "W20",
+      "local_id": "AUX-AIDEKON-TRANSIENT-RWRE-2008",
+      "decision": "passed",
+      "identity_verified": true,
+      "metadata_verified": true,
+      "reading_evidence_accepted": true,
+      "checked_locations": [
+        "PDF1–3 vector environment,uniform child marginal/ellipticity/transience,Lambda;4–5 Th1.1/1.3/1.5",
+        "PDF6–10 regular-tree finite occupation/conductance recursion;10–26 regeneration/pipe/skeleton displacement;26 Th1.1;26–30 binary reinforced case;30–36 potential calculations/references"
+      ],
+      "reason": "Final W20 bounded-use source acceptance: original identity/version/hash/path and full declared reading-unit coverage verified; skill-used statements/proof dependencies checked across R04 rounds; current corrections accepted. Not a solution of the listed open targets.",
+      "local_pdf_verified": "downloads/D05/papers/W20-Aidekon-2008-transient-RWRE-GW-arxiv.pdf",
+      "sha256_verified": "b1e775520efa1f221c3cf9c86e226a0b20d1d4551eae17619793564a09e65d7f",
+      "physical_pdf_pages_verified": 36,
+      "reading_status_reviewed": "fulltext_read",
+      "reading_coverage_file": "workers/W20/reading_coverage.json",
+      "coverage_entry_sha256": "70361311a55d38d368820f6e77ac0b4e9b4bf9013fb9449b39e04baaf1d5e038",
+      "coverage_units_checked": [
+        "Front matter, model and main results",
+        "Notation, visited-generation bound and regular-tree speed proof",
+        "Regeneration structure and upper displacement bound",
+        "Technical lemmas and RWRE comparison",
+        "Lower displacement bound",
+        "Speed criterion and reinforced-walk cases",
+        "Parameter calculations and references"
+      ],
+      "coverage_evidence_accepted": true
+    }
+  ],
+  "skill_decisions": [
+    {
+      "skill": "probability-forests-electrical-networks",
+      "decision": "needs_revision",
+      "reason": "W07 latest further reading/final release deliberately outside this round; no final W07 approval issued.",
+      "stage_hash_manifest": "reviews/R04/stage_hash_manifest_round4.json"
+    },
+    {
+      "skill": "probability-random-spatial-tree-geometry",
+      "decision": "passed",
+      "reason": "Final frozen W20 method library passes30 typed-source quota, exact source/proof/coverage checks, corrected mathematical statements and honest mapping/case boundaries. A136/B076 remain unproved; auxiliary/candidate/not-covered routes are not theorem coverage.",
+      "file_hash_manifest": "reviews/R04/w20_final_file_hash_manifest.json",
+      "approved_source_units": 30
+    }
+  ],
+  "mapping_decisions": [
+    {
+      "problem_id": "A023",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "needs_revision",
+      "reason": "Keep provisional: exact source lemma/model transfer or remaining regime/current status needs verification; candidate list alone is not coverage."
+    },
+    {
+      "problem_id": "A025",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "A141",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B063",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B064",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B065",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B067",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B068",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B069",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B070",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Corrected Timar WIT/matching inequality regimes support partial mapping; equal-forest/WMSF/nonunimodular interfaces remain explicitly unproved. No current-status certification."
+    },
+    {
+      "problem_id": "B071",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "B072",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Corrected Timar WIT/matching inequality regimes support partial mapping; equal-forest/WMSF/nonunimodular interfaces remain explicitly unproved. No current-status certification."
+    },
+    {
+      "problem_id": "B073",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "confirmed",
+      "reason": "Confirmed method relevance and explicitly unproved interface only; does not certify current worldwide open status or solve target."
+    },
+    {
+      "problem_id": "C105",
+      "tool": "probability-forests-electrical-networks",
+      "decision": "needs_revision",
+      "reason": "Keep provisional: exact source lemma/model transfer or remaining regime/current status needs verification; candidate list alone is not coverage."
+    },
+    {
+      "problem_id": "A124",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0109 Chapter 4 supplies Mecke/factorial identities for Poisson occurrence counts only; it gives no growing-ball cover-time variance, optimizer, or diameter-uniform concentration theorem. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "A125",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0109 Chapter 4 gives Poisson counting identities, not an extremal theorem for a dynamic covering-time functional or its Haar optimizer. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "A127",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: The W20 read set contains no beta-splitting/CTCS leaf-height theorem; the inherited generic-geometric textbook IDs are unacquired and are not evidence for this model. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "not_covered"
+    },
+    {
+      "problem_id": "A136",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0092 is the exact SIRSN Open Problem 34 source; M0091 and the read route papers provide model axioms/adjacent route statistics with explicit incompatible random variables. None proves integrability of the fixed-origin iid-endpoint supremum. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "exact_primary_question_open"
+    },
+    {
+      "problem_id": "A137",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0091 gives SIRSN axioms and a finite one-route mean; M0092 states the route-subnetwork construction and its intensity context. Neither proves the asserted expectation asymptotic for the binomial k-point sample. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "candidate_scope_only"
+    },
+    {
+      "problem_id": "A147",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: The cited cards concern biased harmonic measure on GW trees, invariant measures in a different GW setup, critical finite-radius tree exit measure, and the exact GW monotonicity question. None identifies the two deterministic Cantor coding measures or proves their mutual singularity. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "B049",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: W20 has no read source for the cited one-dimensional online matching theorem; its spatial-network optimization and telecom-route cards do not establish the server-redundancy threshold. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "not_covered"
+    },
+    {
+      "problem_id": "B076",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: AUX-LPP-TREE-OPEN-1997 Question 3.4 is the exact GW harmonic-dimension monotonicity question; LPP1996/Lin/Rousselin give fixed-parameter dimension results or formulas only. Speed/RWRE and finite-ball sources are comparators; d(λ) monotonicity remains open. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "exact_primary_question_open"
+    },
+    {
+      "problem_id": "B126",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0109 Chapter 4 supplies Poisson Mecke/factorial-count identities for counts, but no dynamic circle-covering extreme-value theorem, clustering estimate, or Gumbel centering. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "B133",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0091–M0092 define the SIRSN class and route-length objective; M0097 and Aldous’s two read papers give mean-stretch or pair-summed results. They do not prove compactness/attainment for ℓ*(Δ) or the requested strict bound. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "candidate_scope_only"
+    },
+    {
+      "problem_id": "B134",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0091 records finite mean length for a specified route; M0093 gives a Poisson-line SIRSN and truncated-network intensity; M0094 gives pre-SIRSN local-finiteness results. None establishes local finiteness of the dossier’s β-weighted traffic measure on the SIRSN main-route set. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "B135",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: M0091–M0092 specify SIRSN and route-network structure; M0102 studies geodesic hubs/cut loci in a Poisson-road metric. These do not prove connectivity or uniqueness for E(∞,1) under arbitrary SIRSN axioms. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "candidate_scope_only"
+    },
+    {
+      "problem_id": "B138",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: Lyons gives electrical/branching criteria for ordinary reversible walks on trees; LPP1996 treats a tree-biased Markov walk. The dossier walk changes its allowed axis by first-visit status and is non-Markov on Z², so those electrical criteria do not apply without a new state-space/reversibility argument. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "B140",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: Lyons’s branching-number results are intrinsic to a fixed tree and do not identify its branching number with ambient group growth for every geodesic spanning tree. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "C108",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: W20 has no read source for self-avoiding-walk connective constants on supercritical percolation clusters; lattice FPP, route-geodesic and Poisson-road sources concern different path ensembles. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "not_covered"
+    },
+    {
+      "problem_id": "C112",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: W20 has no read mirror-ray or rational-angle billiard source; generic Poisson process identities do not supply ray dynamics or a diffusion theorem. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "not_covered"
+    },
+    {
+      "problem_id": "C113",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: W20 has no read source on Manhattan mirror billiards or localization for every q; spatial route networks and tree walks are different processes. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "not_covered"
+    },
+    {
+      "problem_id": "C139",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: The listed read sources prove transience, speed, CLT, displacement or RWRE results on trees under their own offspring, bias and environment hypotheses. They provide model comparators only; no source establishes the Cayley-graph dead-end depth/tail estimate or a transfer to this radial conductance walk. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "C142",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: Lyons’s percolation/electrical results concern trees and branching number, not arbitrary Cayley graphs or all infinite clusters; the required comparison of effective resistance on the cluster is absent. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "C143",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: The read walk sources are tree-based; none compares original-group and percolation-cluster speeds or proves either implication for general Cayley graphs. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "C144",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: Lyons’s theorem gives the percolation threshold p_c=1/br(T) for trees. It is not a uniqueness-threshold result for one-ended quasi-transitive graphs and supplies no p_u<1 bound here. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "auxiliary_only"
+    },
+    {
+      "problem_id": "C146",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: W20 has no read bootstrap-percolation source; its tree percolation/electrical criteria do not prove the group-amenability characterization. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "not_covered"
+    },
+    {
+      "problem_id": "C149",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: W20 has no read source for the Euclidean TSP CLT; route-network length averages, FPP passage times and Poisson-road geodesics are different functionals. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "not_covered"
+    },
+    {
+      "problem_id": "A027",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: Empty-source, unverified auxiliary candidate explicitly retained as a gap; no theorem coverage claimed. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "scope-routed auxiliary candidate; source theorem and exact problem statement not yet validated"
+    },
+    {
+      "problem_id": "B148",
+      "tool": "probability-random-spatial-tree-geometry",
+      "decision": "confirmed",
+      "reason": "Confirmed accuracy of stated scope only: Empty-source, unverified auxiliary candidate explicitly retained as a gap; no theorem coverage claimed. No claim of solving the target or certifying worldwide current status.",
+      "scope_reviewed": "scope-routed auxiliary candidate; source theorem and exact problem statement not yet validated"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "W20 approval applies only to exact files in final manifest; any edit/hash mismatch requires corresponding renewed review.",
+    "All30 W20source reading units accepted:28 complete papers/contributions,one whole2016monograph,one complete LastPenroseCh4. LPP edited-volume contribution is independent work, not acquired containing volume.",
+    "Eight unacquired countable candidates and quarantinedM0107 remain not_reviewed/noquota credit.",
+    "Mapping decisions confirm accuracy of scope labels only:2exact primary-question-open,3candidate_scope_only,11auxiliary_only,7not_covered,2empty-source unverifiedauxiliary.",
+    "A136supremum integrability and B076harmonic dimension monotonicity are not proved; no worldwide current-status certification.",
+    "W07 final review remains outside scope and incomplete.",
+    "Local exact Fraction/Sympy checks independently run and bound in manifest; no finite check promoted to infinite theorem."
+  ],
+  "review_complete": false,
+  "resolved_findings": [
+    {
+      "priority": "high",
+      "worker": "W07",
+      "source_local_id": "PTN2026",
+      "file": "workers/W07/cards/PTN2026.md",
+      "issue": "Cor10.19 weakened every vertex has infinite orbit to an infinite orbit; many theorem page locators are wrong.",
+      "required_fix": "Use every-vertex hypothesis exactly; replace locators with actual locations in checked_locations, audit every remaining locator against this hash. Do not assert equivalence of one/every infinite orbit without proof."
+    },
+    {
+      "priority": "high",
+      "worker": "W07",
+      "source_local_id": "PTN2026",
+      "file": "workers/W07/sources.json",
+      "issue": "selected_chapters_read ranges do not match full chapter boundaries; ch8 initial material omitted, ch10/11 boundary ranges inconsistent with contents.",
+      "required_fix": "Record exact complete selected sections or finish each designated complete chapter. Until then mark partial_read, or identify fully read sections rather than whole chapters."
+    },
+    {
+      "priority": "high",
+      "worker": "W07",
+      "source_local_id": "AL2007",
+      "file": "workers/W07/cards/AL2007.md",
+      "issue": "Th3.1 iff unimodular statement omits sum_i |Stab(o_i)|^-1 finite.",
+      "required_fix": "State finite normalization c and root probability c^-1 |Stab(x)|^-1, plus fixed connected locally finite graph setting."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "HN2017USF",
+      "file": "workers/W07/sources.json",
+      "issue": "Local PDF date differs from asserted version; Th1.9 begins p10.",
+      "required_fix": "Identify actual Oct8 2018 manuscript version and adjust card/source read ranges and locators."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "BLPS2001",
+      "file": "workers/W07/sources.json",
+      "issue": "Local author version27 Jan2009 differs from listed1 Jun2005.",
+      "required_fix": "Correct version against p1; inspect errata for eventual card."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "LPS2020IND",
+      "file": "workers/W07/sources.json",
+      "issue": "Volume/issue wrong: PDF56(4),2732–2744.",
+      "required_fix": "Correct local edition metadata."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "LPS2006MSF",
+      "file": "workers/W07/sources.json",
+      "issue": "Card uses Th3.22 p16 but declared read_pages excludes it.",
+      "required_fix": "Add p16 only after actual reading, and give proof chain; preserve partial status."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "LYO2003DPP",
+      "file": "workers/W07/cards/LYO2003DPP.md",
+      "issue": "Theorem index reading used for broad theorem list without exact locators or proof steps.",
+      "required_fix": "Read and cite Th6.5/Cor6.6 pp20–21, Th8.1 pp32–33 as needed; preserve partial_read and detail proof dependence."
+    },
+    {
+      "priority": "high",
+      "worker": "W07",
+      "source_local_id": "LPS2020IND",
+      "file": "workers/W07/cards/LPS2020IND.md",
+      "issue": "Card Th1.1/1.3 and displayed Th1.5 omit induced graph notation. Raw WSF trees were already recurrent in all dimensions; FSF of a raw tree is trivially itself. Original results concern added ambient edges within components.",
+      "required_fix": "Define I_G(F) induced-component graph explicitly. State recurrence/resistance on I_G(T_v), and FSF(I_G(F_w(G)))=WSF(G), FSF(I_G(F_f(G)))=FSF(G). Propagate operation to every resampling/counterexample statement. Recheck rendered original pp2–3/11–12 because extraction drops overbars."
+    },
+    {
+      "priority": "high",
+      "worker": "W07",
+      "source_local_id": "LPS2006MSF",
+      "file": "workers/W07/cards/LPS2006MSF.md",
+      "issue": "Revised Prop3.6 uses a.s. uniqueness without almost-everywhere parameter quantifier.",
+      "required_fix": "Restore almost-everywhere uniqueness and explicitly define Lebesgue-a.e. p, at most one infinite cluster a.s.; exceptional critical parameters are not excluded."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "BKPS2004",
+      "file": "workers/W07/cards/BKPS2004.md",
+      "issue": "Final proof paragraph infers m-edge bound from independent USF-copy union; that union has no such direct bound.",
+      "required_fix": "State Th4.1 domination of the relation {N(x,y)<=m} by composition of m+1 independent component relations; combine coupling with tail upgrade. Preserve distinction between relation composition and union paths."
+    },
+    {
+      "priority": "low",
+      "worker": "W07",
+      "source_local_id": "PEM1991",
+      "file": "workers/W07/cards/PEM1991.md",
+      "issue": "Finite-box Wilson constructions attributed to 1991 original proof.",
+      "required_fix": "Use original random-walk tree/Aldous–Broder construction with backward loop-erasure; if giving modern Wilson proof label it as a separate reformulation."
+    },
+    {
+      "priority": "medium",
+      "worker": "W20",
+      "source_local_id": null,
+      "file": "workers/W20/mapping.json",
+      "issue": "25 mappings remain candidate associations; B138 non-Markov walk, C146 bootstrap, A127 Beta trees, C112/C113 mirrors and C149 TSP are distinct from the named core SIRSN/GW tools. Source lists are broad, often not theorem-specific.",
+      "required_fix": "Keep all provisional. Supply an exact primary theorem and model transfer per mapping before promoting direct; use auxiliary or not_covered when only generic geometric context exists. Name B076 dimension target separately from speed sources, and retain A027/B148 empty-source gaps."
+    },
+    {
+      "priority": "high",
+      "worker": "W20",
+      "source_local_id": "M0100",
+      "file": "workers/W20/cards/M0100.md",
+      "issue": "D_r defined as global all-pairs supremum; source p9 explicitly defines typical-pair tail chi(r,d)=P(D_r>=d). Same mistake appears SKILL/method/mapping A136.",
+      "required_fix": "Replace with route length between typical Poisson points conditional on separation<=r, explain Palm/pair-intensity sampling using original frequency ratio. Retain E D_r=infinity and tail beta r/d; do not claim a.s.infinity or global maximum. Update all propagated copies; A136 remains unproved."
+    },
+    {
+      "priority": "high",
+      "worker": "W07",
+      "source_local_id": "TIMAR2018MSF",
+      "file": "workers/W07/cards/TIMAR2018MSF.md",
+      "issue": "WIT locality is reversed: source Def1 p4 requires deleting f in C_x outside B(x,r), not preserving forest outside B(x,r).",
+      "required_fix": "Define pi_e^f as insertion of e and deletion of f (or none), with measurable f in C_x intersect B(x,r)^c; retain positive-measure image condition. State main Th1.2 inequality regime separately from theta(pc)=0 in Lem1.4 and explain Cor1.5."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "HL2003",
+      "file": "workers/W07/cards/HL2003.md",
+      "issue": "PDF author is Deborah Heicklen; I(x) is deterministic harmonic ray mass, h(x)=P_Perc(x in omega), Wn sums over t_n. Card instead calls I indicator/h harmonic mass.",
+      "required_fix": "Correct author in every metadata copy and rewrite derivative W_n(t)=sum_{x in t_n}I(x)/h(x) and its two laws. Cite Eq3.4 p9; cover final DPP section in section_coverage accurately."
+    },
+    {
+      "priority": "medium",
+      "worker": "W07",
+      "source_local_id": "ALEX1995MSF",
+      "file": "workers/W07/cards/ALEX1995MSF.md",
+      "issue": "Th2.6 not generic planar consequence: requires ambiguity-free lattice-like labeled graph in R2. Th4.2 requires strict simultaneous uniqueness.",
+      "required_fix": "Spell out lattice-like premise/definition and strict simultaneous uniqueness wherever invoking invasion equivalence; retain spatial stationary finite density assumptions."
+    },
+    {
+      "priority": "high",
+      "worker": "W20",
+      "source_local_id": "PZ2008CLT",
+      "file": "workers/W20/cards/PZ2008CLT.md",
+      "issue": "IGWR density relative to IGW must be (m+d_o)/(2d_o), not merely proportional to m+d_o. Missing random denominator breaks stationary law.",
+      "required_fix": "State dIGWR/dIGW=(m+d_o)/(2d_o), IGWR root law (m+k)p_k/(2m), versus IGW kp_k/m. Correct Lemma2/Cor1 proof attribution; preserve critical lambda=m input. Exact finite offspring example in round4_math_checks.json demonstrates discrepancy."
+    },
+    {
+      "priority": "medium",
+      "worker": "W20",
+      "source_local_id": "BAFGH2012LEAVES",
+      "file": "workers/W20/cards/BAFGH2012LEAVES.md",
+      "issue": "Finite expected trap measure claim under beta fprime(q)>1 confuses raw conductance-weighted trap mass (infinite mean) with bottom-normalized S_infty/Z_infty integrability.",
+      "required_fix": "Specify raw trap mass versus normalized measure centered at trap bottom, cite exact S_infty moment lemma. Remove inference that beta fprime(q)>1 makes raw trap mass finite in mean; retain correct subballistic/Levy results."
+    },
+    {
+      "priority": "medium",
+      "worker": "W20",
+      "source_local_id": "M0109",
+      "file": "workers/W20/cards/M0109.md",
+      "issue": "General s-finite-intensity factorial measure counts distinct indices/occurrences, not necessarily distinct spatial positions. Card claims arbitrary point process but says distinct points without multiplicity caveat.",
+      "required_fix": "Use distinct indices of atoms counted with multiplicity; locations may coincide for atomic intensity. State distinct spatial positions only for simple/diffuse processes. Show proper Mecke removal on LHS eta minus deltas when RHS unchanged. Fullbook acquisition and complete selected chapter coverage accepted separately."
+    },
+    {
+      "priority": "low",
+      "worker": "W20",
+      "source_local_id": "M0098",
+      "file": "workers/W20/cards/M0098.md",
+      "issue": "Original manuscript identity and mathematics verified; later journal attribution to Methodology and Computing in Applied Probability is inconsistent with DOI record indications. Primary publisher unavailable during this pass; metadata not accepted.",
+      "required_fix": "Verify publisher/author publication list and correct journal/version mapping; retain local manuscript title Density estimation of shortest path lengths... separately from later published Densities... . No need to repeat the mathematical reading."
+    },
+    {
+      "priority": "high",
+      "worker": "W20",
+      "source_local_id": "AUX-MEHRDAD-SEN-ZHU-2015",
+      "file": "workers/W20/cards/AUX-MEHRDAD-SEN-ZHU-2015.md",
+      "issue": "Th4 cutoff transcribed23/(4ell)+delta but original23/4+delta; only beta1 is raised1/ell.",
+      "required_fix": "Replace Th4 bound by beta>max{K beta1^(1/ell),23/4+delta};retain tuple coupling/internal iid and nonstrict speed inequality; beta1=c_delta min{ratio1,ratio2+1}. Recheck all derived method references."
+    },
+    {
+      "priority": "high",
+      "worker": "W20",
+      "source_local_id": "AUX-FARAUD-HU-SHI-2011",
+      "file": "workers/W20/cards/AUX-FARAUD-HU-SHI-2011.md",
+      "issue": "Th1.4 psi derivative sign reversed. Original E sum Vexp(-V)<=0 implies psi prime(1)>=0, not<=0.",
+      "required_fix": "State original V-moment condition then equivalent psi prime(1)>=0. Preserve theta∈(0,1],zero-inf condition and constants; distinguish negative-derivative polynomial displacement regime."
+    },
+    {
+      "priority": "medium",
+      "worker": "W20",
+      "source_local_id": "AUX-LPP-TREE-OPEN-1997",
+      "file": "workers/W20/cards/AUX-LPP-TREE-OPEN-1997.md",
+      "issue": "Fibonacci tree type1 unique child wrongly labeledtype1; originaltype2.",
+      "required_fix": "Use type1->type2, type2->one type1 and one type2, matching sourcep5/p10. Contribution classification accepted as independent paper; containing-volume acquisition remainsfalse."
+    },
+    {
+      "priority": "medium",
+      "worker": "W20",
+      "source_local_id": "AUX-AIDEKON-LDV-2010",
+      "file": "workers/W20/cards/AUX-AIDEKON-LDV-2010.md",
+      "issue": "S^e no-return event described as no return to root; originalD(e)=first e-to-parent crossing, so event avoids added parent.",
+      "required_fix": "Define D(e)=inf{k>=1:X_{k-1}=e,X_k=parent(e)} and S^e=Q^e(.|D(e)=infty). Returns to e are permitted; update root/parent conditioning wording."
+    },
+    {
+      "priority": "medium",
+      "worker": "W20",
+      "source_local_id": "M0108",
+      "file": "workers/W20/sources.json",
+      "issue": "Local source is complete2016 prepublication160page monograph; source.version=null/card only2017 published citation fails exact local-version record.",
+      "required_fix": "Record exact localpreprint2016 version in ledger/card, distinguish2017 published monograph; whole160page work and fullbook acquisition already verified, no need redo reading."
+    },
+    {
+      "priority": "high",
+      "worker": "W20",
+      "source_local_id": null,
+      "file": "workers/W20/mapping.json",
+      "issue": "23 direct roles remain copied provisional matrix associations; e.g.A124/125/127,B049,C112/113,B138 have no checked direct theorem for their distinct covering/Beta/matching/mirror/nonMarkov models. Final source quota is not final direct coverage.",
+      "required_fix": "Keep unsupported routes explicitly candidate_scope_only/auxiliary or not_covered, list exact missing source and model interface. Only A136/B076 exact primary question/model use is confirmed (unproved target remains). Do not mark all25 mappings confirmed as theorem coverage. Skill may release as scoped candidate tool only after unsupported direct assertions are removed/downgraded."
+    }
+  ],
+  "review_round": 6,
+  "w20_reading_units_audited": 30,
+  "worker_review_complete": {
+    "W07": false,
+    "W20": true
+  },
+  "w20_release_status_sync_verified": {
+    "scope": "Two runtime prose files approval-state synchronization only; no mathematical/count/version/role change",
+    "patch_record": "catalogue/w20_release_status_patch.json",
+    "verification": "Reverse exact replacements reconstructed original manifest hashes byte-for-byte; remaining74 bound files recalculated and unchanged.",
+    "changed_files": [
+      {
+        "file": "skills/probability-random-spatial-tree-geometry/SKILL.md",
+        "before_sha256": "73186981e7073968502462731a877cd18bf450ac2bb8aa4b495e5d13daa799f5",
+        "after_sha256": "e5f3bb41d673e95a6ff58ec3b7d7bbe621d701386c3306ed83940d9d339be84e"
+      },
+      {
+        "file": "skills/probability-random-spatial-tree-geometry/references/sources.md",
+        "before_sha256": "3a8b6c10417e93e0b99cd8b2d6238fe9ebcc3150c6cf9bb7d73524e75fe4cccb",
+        "after_sha256": "d5ae60a7a2cd6119efdb5717c71e2b7269a993ea87275ecfb49eb855dc31e69e"
+      }
+    ]
+  }
+}

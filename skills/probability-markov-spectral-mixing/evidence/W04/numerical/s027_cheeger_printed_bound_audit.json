@@ -1,0 +1,155 @@
+{
+  "source": "Diaconis & Stroock (1991), Proposition 6, printed p.52 / local scan physical p.18",
+  "model": "Four-state path with symmetric edge conductances (1/10, 2, 10), plus self-loop conductance 1/1000 times each original weighted degree; normalize q_raw by its total to obtain pi(x)P(x,y).",
+  "q_raw": [
+    [
+      "1/10000",
+      "1/10",
+      "0",
+      "0"
+    ],
+    [
+      "1/10",
+      "21/10000",
+      "2",
+      "0"
+    ],
+    [
+      "0",
+      "2",
+      "3/250",
+      "10"
+    ],
+    [
+      "0",
+      "0",
+      "10",
+      "1/100"
+    ]
+  ],
+  "normalization_total": "121121/5000",
+  "pi": [
+    "1/242",
+    "21/242",
+    "60/121",
+    "50/121"
+  ],
+  "transition_matrix": [
+    [
+      "1/1001",
+      "1000/1001",
+      "0",
+      "0"
+    ],
+    [
+      "1000/21021",
+      "1/1001",
+      "20000/21021",
+      "0"
+    ],
+    [
+      "0",
+      "500/3003",
+      "1/1001",
+      "2500/3003"
+    ],
+    [
+      "0",
+      "0",
+      "1000/1001",
+      "1/1001"
+    ]
+  ],
+  "irreducible": true,
+  "aperiodic": true,
+  "eigenvalue_characteristic_polynomial": "(lambda - 1)*(1001*lambda + 999)*(5738733*lambda**2 - 11466*lambda - 227267)/5744471733",
+  "second_largest_eigenvalue_exact": "(21 + 500*sqrt(70))/21021",
+  "second_largest_eigenvalue_decimal": "0.2000047634589400",
+  "conductance_cut_enumeration": [
+    {
+      "vertices": [
+        0
+      ],
+      "stationary_mass": "1/242",
+      "unnormalized_row_mass": "1001/10000",
+      "cut_flow_unnormalized": "1/10",
+      "flow_over_mass": "1000/1001"
+    },
+    {
+      "vertices": [
+        1
+      ],
+      "stationary_mass": "21/242",
+      "unnormalized_row_mass": "21021/10000",
+      "cut_flow_unnormalized": "21/10",
+      "flow_over_mass": "1000/1001"
+    },
+    {
+      "vertices": [
+        0,
+        1
+      ],
+      "stationary_mass": "1/11",
+      "unnormalized_row_mass": "11011/5000",
+      "cut_flow_unnormalized": "2",
+      "flow_over_mass": "10000/11011"
+    },
+    {
+      "vertices": [
+        2
+      ],
+      "stationary_mass": "60/121",
+      "unnormalized_row_mass": "3003/250",
+      "cut_flow_unnormalized": "12",
+      "flow_over_mass": "1000/1001"
+    },
+    {
+      "vertices": [
+        0,
+        2
+      ],
+      "stationary_mass": "1/2",
+      "unnormalized_row_mass": "121121/10000",
+      "cut_flow_unnormalized": "121/10",
+      "flow_over_mass": "1000/1001"
+    },
+    {
+      "vertices": [
+        3
+      ],
+      "stationary_mass": "50/121",
+      "unnormalized_row_mass": "1001/100",
+      "cut_flow_unnormalized": "10",
+      "flow_over_mass": "1000/1001"
+    },
+    {
+      "vertices": [
+        0,
+        3
+      ],
+      "stationary_mass": "101/242",
+      "unnormalized_row_mass": "101101/10000",
+      "cut_flow_unnormalized": "101/10",
+      "flow_over_mass": "1000/1001"
+    },
+    {
+      "vertices": [
+        1,
+        3
+      ],
+      "stationary_mass": "1/2",
+      "unnormalized_row_mass": "121121/10000",
+      "cut_flow_unnormalized": "121/10",
+      "flow_over_mass": "1000/1001"
+    }
+  ],
+  "h_exact": "10000/11011",
+  "h_decimal": "0.9081827263645445",
+  "printed_upper_bound_threshold_1_minus_h2": "21242121/121242121",
+  "printed_bound_violation_beta1_minus_threshold_exact": "500*(-126726 + 17303*sqrt(70))/363726363",
+  "printed_bound_violation_decimal": "0.02480062792587720",
+  "safe_threshold_from_source_displayed_proof_1_minus_h2_over_2": "71242121/121242121",
+  "safe_bound_holds_exactly": true,
+  "conclusion": "Exact counterexample to the printed Proposition 6 upper inequality beta_1 <= 1-h^2 as transcribed from the scanned page; the paper's displayed short proof (equation (3.4), physical p.24) supports the weaker beta_1 <= 1-h^2/2. Use the weaker proved form pending independent review; this does not affect the canonical-path or lower Cheeger statements.",
+  "evidence_type": "exact rational cut enumeration plus exact algebraic eigenvalue comparison; not floating-point-only evidence"
+}

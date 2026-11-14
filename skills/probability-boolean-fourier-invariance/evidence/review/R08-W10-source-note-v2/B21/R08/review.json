@@ -1,0 +1,73 @@
+{
+  "reviewer": "R08",
+  "batch": "W10/L09_problem_sources_B21",
+  "helperstage_decision": "passed",
+  "fulltext_read_decision": "both accepted as background full reads",
+  "source_decisions": [
+    {
+      "source_key": [
+        "W10",
+        "M0110"
+      ],
+      "decision": "passed",
+      "identity_verified": true,
+      "hash_verified": true,
+      "pdf_sha256": "d56fc4aa92c3826e59679cab1cc474ff2dca7e715c1abb5a4b564ac17ff3f2ab",
+      "physical_pages": 35,
+      "full_read_evidence_accepted": true,
+      "continuous_all_page_coverage_verified": true,
+      "card_statement_and_quantifiers_checked": true,
+      "proof_status": "problem collection; cited proof papers not audited",
+      "checked_locations": [
+        "p1 identity; p2–4 uniform cube and normalization; p10 singleton premise/address remark; p11 Gaussian variance and c/sqrt(d); p28–35 bibliography"
+      ],
+      "quota_credit": 0,
+      "card_sha256": "446e0830ace3b734824ac170f3037408677af568102621dabfac5dd8349eebb2"
+    },
+    {
+      "source_key": [
+        "W10",
+        "M0147"
+      ],
+      "decision": "passed",
+      "identity_verified": true,
+      "hash_verified": true,
+      "pdf_sha256": "e06971245914947f152550dee59bbb29fe0e798f0c51b2bc2557f824c2f9a44a",
+      "physical_pages": 62,
+      "full_read_evidence_accepted": true,
+      "continuous_all_page_coverage_verified": true,
+      "card_statement_and_quantifiers_checked": true,
+      "proof_status": "problem collection; cited proof papers not audited",
+      "checked_locations": [
+        "p1–2 identity, original-numbering policy and December2025 update; p16 Problem28/example; p61 ref310; p62 final address"
+      ],
+      "quota_credit": 0
+    }
+  ],
+  "findings": [
+    {
+      "id": "R08-B21-M0110-character-literal",
+      "severity": "low",
+      "scope": "new helper card source note",
+      "status": "closed",
+      "detail": "Actual physical p2 printed character exponent is product, not sum. Card attributes the standard sum formula to literal source. Mark product as source-local typo/inconsistent with asserted orthonormal Walsh basis; use standard intended Walsh convention explicitly. Singleton calculations unaffected.",
+      "resolution": "Card and coverage explicitly separate literal product from standard intended sum, supported by original p2 image and orthonormal-basis context. Both agree on singleton exponents; selector-zero conclusion retained."
+    },
+    {
+      "id": "R08-B21-published-address-scope",
+      "severity": "medium",
+      "scope": "existing published card, outside helper mutation",
+      "status": "confirmed_correction_recommended",
+      "detail": "Same-hash published PDF p10 only asserts nonzero x/data singleton coefficients. All r selector singletons vanish; addressing does not meet A165 all n premise. Published card incorrectly says all first-level coefficients nonzero and assigns p11 to two headings actually on p10."
+    }
+  ],
+  "quota_credit": 0,
+  "formal_problem_additions": 0,
+  "current_2026_open_status_checked": false,
+  "mapping_decision": "A165/B167/A175 problem provenance only; no theorem, current-status certification, automatic100-problem admission, quota or release expansion.",
+  "stage_binding": {
+    "freeze_sha256": "a9a962470e274d65c2fb3a018212deceb2b1354d2bead829274afda57d5dbeb6",
+    "helper_entries_verified": 22
+  },
+  "actual_computation": "Both review-copy scripts executed; parsed JSON equals reader JSON. Independent full Walsh transform r1..3 gives support5/17/65, data coefficients -1/4,-1/8,-1/16, selector0. General selector-zero follows E_x f=1/2, not finite extrapolation."
+}

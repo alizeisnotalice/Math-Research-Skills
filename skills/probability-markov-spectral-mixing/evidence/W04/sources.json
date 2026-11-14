@@ -1,0 +1,1278 @@
+[
+  {
+    "local_id": "W04S001",
+    "title": "Markov Chains and Mixing Times, second edition",
+    "authors": [
+      "David A. Levin",
+      "Yuval Peres",
+      "Elizabeth L. Wilmer"
+    ],
+    "year": 2017,
+    "kind": "book",
+    "doi": null,
+    "url": "https://pages.uoregon.edu/dlevin/MARKOV/markovmixing.pdf",
+    "alternate_urls": [
+      "https://pages.uoregon.edu/dlevin/MARKOV/"
+    ],
+    "version": "Second edition, 2017",
+    "reason": "A040 primary open-problem statement; reversible spectral definitions, Ising Glauber tools, and Chapter 26 Question 2. Theorem 15.10 is retained as a source-printed statement with its p.240 proof discrepancy explicitly flagged.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S001.pdf",
+    "sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+    "reading_status": "selected_chapters_read",
+    "read_pages": "PDF pp.177–181 (§§12.1–12.2 complete; §12.2 ends in the upper portion of p.181 and §12.3 begins lower on p.181), plus additional selected §12.3 material on pp.181–185 and the opening of §12.4 on p.185; 231–247 (complete Chapter 15); and 375–376 / print pp.359–360 (Chapter 26 Question 2).",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [
+      {
+        "unit": "Chapter 12 §§12.1–12.2",
+        "physical_pdf_pages": "177–181",
+        "complete": true,
+        "content": "Theorem/lemma route: reversible spectral representation, absolute gap and relaxation-time definitions, variance decay and mixing-time comparisons. Section 12.2 ends in the upper portion of physical p.181; §12.3 starts below it on that same page."
+      },
+      {
+        "unit": "Additional selected pages from Chapter 12",
+        "physical_pdf_pages": "181–185 (additional selected material; p.181 overlaps the §12.2 unit)",
+        "complete": true,
+        "content": "Read selected examples from §12.3 (random transpositions, cycle spectrum, quotient-path eigenfunctions) and the opening of §12.4 on p.185. On p.181, §12.2 ends in the upper part and §12.3 begins below; these additional selected pages are not complete §12.3 or §12.4 units."
+      },
+      {
+        "unit": "Chapter 15, The Ising Model",
+        "physical_pdf_pages": "231–247",
+        "complete": true,
+        "content": "Complete Chapter 15: zero-field random-site heat-bath setup; high-temperature path coupling; graph-specific examples; edge-deletion and block-gap comparisons; square-lattice fault-line bottleneck; exercises and notes. Theorem 15.10 statement (p.239) prints factor 4, but its displayed proof (p.240) counts 4^M pairs and the intermediate bound does not yield the final printed line for general M. Separately, R02 accepted a library-derived conditional-variance alternate proof under finite homogeneous zero-field Ising and matching uniform discrete clocks; it is not attributed to LPW or a repair of the author proof."
+      },
+      {
+        "unit": "Chapter 26, Question 2",
+        "physical_pdf_pages": "375–376 (print pp.359–360)",
+        "complete": true,
+        "content": "Open arbitrary-graph zero-field edgewise Ising-gap monotonicity question and cited special case."
+      }
+    ],
+    "selected_chapters_read": [
+      "Chapter 15"
+    ],
+    "selected_sections_read": [
+      "Chapter 12 §§12.1–12.2",
+      "Chapter 26 Question 2"
+    ],
+    "document_pages": 461,
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S001",
+    "usage_card": "evidence/W04/cards/W04S001.md",
+    "read_scope_note": "The complete 461-page book was acquired; only the listed complete units and selected pages were read. Chapter 15 is a complete chapter read, not a whole-book read.",
+    "derived_proof_evidence": {
+      "type": "library_derived_alternate_proof",
+      "decision": "accepted_by_R02_independent_adjudication",
+      "scope": "finite zero-field homogeneous Ising; finite beta>=0; uniform-site single heat bath and uniform block selection among covering blocks; common stationary law; same discrete-time per-update clocks",
+      "derived_bound": "gamma_block <= M Mstar exp(2 beta Delta M) gamma_single",
+      "proof_note": "evidence/shared/catalogue/integration_math_checks/lpw_block_comparison_repair.md",
+      "finite_check": "evidence/shared/catalogue/integration_math_checks/lpw_block_comparison_check.py and .json",
+      "adjudication": "evidence/shared/reviews/R02/batch18-lpw-block-adjudication.md",
+      "hash_manifest": "evidence/shared/reviews/R02/batch18-lpw-repair-hashes.json",
+      "author_proof_attribution": false,
+      "pack_review_status": "pending_final_W04_review"
+    }
+  },
+  {
+    "local_id": "W04S002",
+    "title": "Reversible Markov Chains and Random Walks on Graphs",
+    "authors": [
+      "David Aldous",
+      "James Allen Fill"
+    ],
+    "year": 2014,
+    "kind": "book",
+    "doi": null,
+    "url": "https://www.stat.berkeley.edu/~aldous/RWG/book.pdf",
+    "alternate_urls": [],
+    "version": "Unfinished monograph, original 2002; recompiled 2014",
+    "reason": "Selected sections give reversible-chain Dirichlet forms, variational characterization of relaxation time, and comparison methods.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S002.pdf",
+    "sha256": "8f9b934111c30b3f8fd29d94a18794d4b86f824b19f7a3c27b1153cdfac08e79",
+    "reading_status": "selected_sections_read",
+    "read_pages": "PDF pp.87–94 (Chapter 3 §§3.6.1–3.6.4) and 131–141 (Chapter 4 §4.4).",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [
+      {
+        "unit": "Chapter 3 §§3.6.1–3.6.4",
+        "physical_pdf_pages": "87–94",
+        "complete": true,
+        "content": "Dirichlet form and CT L2 derivative; Theorem 3.25 Rayleigh–Ritz; Lemma 3.26 CT contraction; Lemma 3.29 direct edge/vertex-weight comparison (proof ends p.94). The source-printed lower factor has reversed extrema; its proof derives min_i(w_i/w_i*)/max_e(w_e/w_e*) instead. An exact two-state audit is linked from the card. Examples 3.30–3.31 show sensitivity; Lemma 3.32 is same-stationary-law entrywise comparison. Lemma 3.32 on p.94 remains valid by direct Dirichlet-form comparison under common π and off-diagonal domination; the source remark’s residual-kernel mixture may fail nonnegativity without full-entry domination, as recorded in the card and exact audit."
+      },
+      {
+        "unit": "Chapter 4 §4.4",
+        "physical_pdf_pages": "131–141",
+        "complete": true,
+        "content": "Relaxation/hitting-time comparisons with CT and DT clocks separated; stationary maximal correlation/variance; algorithmic burn-in plus averaging; Theorem 4.32 distinguished paths. §4.4 begins mid-page 131 after the preceding section ends."
+      }
+    ],
+    "selected_sections_read": [
+      "Chapter 3 §§3.6.1–3.6.4",
+      "Chapter 4 §4.4"
+    ],
+    "selected_chapters_read": [],
+    "document_pages": 516,
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S002",
+    "usage_card": "evidence/W04/cards/W04S002.md",
+    "read_scope_note": "The complete 516-page unfinished monograph was acquired; both listed section units were read fully. No whole-book reading claim is made."
+  },
+  {
+    "local_id": "W04S003",
+    "title": "Glauber Dynamics on the Cycle is Monotone",
+    "authors": [
+      "Serban Nacu"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1007/s00440-003-0279-x",
+    "url": "https://arxiv.org/abs/math/0305056",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00440-003-0279-x"
+    ],
+    "version": "arXiv:math/0305056; PTRF 127(2), 177–185 (2003)",
+    "reason": "Direct special-case theorem for arbitrary positive edge couplings on a finite cycle; fixes random-site discrete clock and its per-site-rate-one continuous-time rescaling.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S003.pdf",
+    "sha256": "820d64bc5998baed3334ebb5df08fb798ab494fed81af746bb85f04f805feeed",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–10 (complete paper); model/clock pp.1–2; Lemmas 3–4 pp.3–4; invariant spin subspace and Perron reduction pp.5–6; Lemma 7 / equations (8)–(9), Proposition 8, Lemma 9 and derivative equations (10)–(12) pp.6–8.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S003",
+    "document_pages": 10
+  },
+  {
+    "local_id": "W04S004",
+    "title": "Relaxation Time Is Monotone in Temperature in the Mean-Field Ising Model",
+    "authors": [
+      "Vladislav Kargin"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.1016/j.spl.2011.03.001",
+    "url": "https://arxiv.org/abs/1103.0327",
+    "alternate_urls": [
+      "https://doi.org/10.1016/j.spl.2011.03.001"
+    ],
+    "version": "arXiv:1103.0327; Stat. Probab. Lett. 81(8), 1094–1097 (2011)",
+    "reason": "Source Theorem 1 states a homogeneous complete-graph result with uniform field, but the audited reflection step on PDF p.5 only supports the zero-field subcase. Use only H=0 pending a corrected/independent nonzero-field proof; this proof limitation is not a counterexample. The common coupling, not one edge, is varied.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S004.pdf",
+    "sha256": "c04a56cbde84fa812351728e6a12ddec964df9cd9668477d660551a92e715760",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–6 (complete arXiv v1); Theorem 1 p.3; magnetization reduction p.4; Lemmas 5–6 and reflection step p.5; derivative/sign calculation p.6.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S004",
+    "document_pages": 6
+  },
+  {
+    "local_id": "W04S005",
+    "title": "A remark on monotonicity for the Glauber dynamics on finite graphs",
+    "authors": [
+      "Tomoyuki Shirai"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": "10.3792/pjaa.86.33",
+    "url": "https://doi.org/10.3792/pjaa.86.33",
+    "alternate_urls": [
+      "https://catalog.lib.kyushu-u.ac.jp/opac_download_md/26428/3329_1829.pdf"
+    ],
+    "version": "Proc. Japan Acad. Ser. A Math. Sci. 86(2), 33–37 (2010)",
+    "reason": "Proves failure of a stronger fixed-time single-spin expectation monotonicity on graphs containing a length-3 path; distinguishes this from the open spectral-gap question.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S005.pdf",
+    "sha256": "b74bdc4ebb6bbb6b2fb49ab67d00ffc500d98554fb6290c87350ed002a76485f",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–6 (complete paper); killed-walk reduction and Theorem 1 p.3; P3 asymptotic calculation pp.4–5; Corollary 5 and lazy-chain derivative pp.5–6.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S005",
+    "document_pages": 6
+  },
+  {
+    "local_id": "W04S006",
+    "title": "Correlation Inequalities on Some Partially Ordered Sets",
+    "authors": [
+      "C. M. Fortuin",
+      "P. W. Kasteleyn",
+      "J. Ginibre"
+    ],
+    "year": 1971,
+    "kind": "paper",
+    "doi": "10.1007/BF01651330",
+    "url": "https://doi.org/10.1007/BF01651330",
+    "alternate_urls": [
+      "https://math.bme.hu/~balint/oktatas/perkolacio/percolation_papers/fortuin_kasteleyn_ginibre.pdf"
+    ],
+    "version": "Commun. Math. Phys. 22, 89–103 (1971)",
+    "reason": "Primary FKG theorem: positive correlation of increasing observables under a positive log-supermodular measure on a finite distributive lattice; includes Ising ferromagnets.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S006.pdf",
+    "sha256": "d9dc36d19ce699521e1660872c70163ba91a2ecd16d0fa3d83e3a43940944309",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–15 (complete paper); Proposition 1 p.3 and induction proof pp.3–5; Ising application pp.10–11.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S006",
+    "document_pages": 15
+  },
+  {
+    "local_id": "W04S007",
+    "title": "Remarks on the FKG Inequalities",
+    "authors": [
+      "Richard Holley"
+    ],
+    "year": 1974,
+    "kind": "paper",
+    "doi": "10.1007/BF01645980",
+    "url": "https://doi.org/10.1007/BF01645980",
+    "alternate_urls": [
+      "https://math.bme.hu/~balint/oktatas/perkolacio/percolation_papers/holley.pdf"
+    ],
+    "version": "Commun. Math. Phys. 36, 227–231 (1974)",
+    "reason": "Holley comparison theorem supplies monotone coupling / stochastic domination under a cross log-supermodularity condition; static measure comparison only.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S007.pdf",
+    "sha256": "d2fb6441fc7ceb6f1c7f80244a3f17386d16954e7ad3d2d29a7740b7b4c1af04",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–6 (complete paper); generator/coupling proof pp.1–5; Theorem 6 pp.3–4; Corollaries 11–12 pp.4–5.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S007",
+    "document_pages": 6
+  },
+  {
+    "local_id": "W04S008",
+    "title": "Inequalities for Higher Order Ising Spins and for Continuum Fluids",
+    "authors": [
+      "Joel L. Lebowitz",
+      "James L. Monroe"
+    ],
+    "year": 1972,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://cmsr.rutgers.edu/images/people/lebowitz_joel/publications/jll.pub_89.pdf",
+    "alternate_urls": [
+      "https://sites.math.rutgers.edu/~lebowitz/PUBLIST/jll.pub_89.pdf"
+    ],
+    "version": "Commun. Math. Phys. 28, 301–311 (1972)",
+    "reason": "Clarifies distinct scopes of GKS and FKG; states sufficient coefficient conditions for FKG in higher-order spin systems.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S008.pdf",
+    "sha256": "f7cdd69e7587c040bd80efb062d9daa8560e36d60b832d94a948377064673336",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–12 (complete paper); model and GKS/FKG distinction pp.1–3; Theorem 1 and lattice-condition proof pp.3–5; examples pp.6–8; continuum extension pp.8–11.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S008",
+    "document_pages": 12
+  },
+  {
+    "local_id": "W04S009",
+    "title": "Correlations in Ising Ferromagnets. I",
+    "authors": [
+      "Robert B. Griffiths"
+    ],
+    "year": 1967,
+    "kind": "paper",
+    "doi": "10.1063/1.1705219",
+    "url": "https://doi.org/10.1063/1.1705219",
+    "alternate_urls": [
+      "https://pubs.aip.org/aip/jmp/article/8/3/478/436286/Correlations-in-Ising-Ferromagnets-I"
+    ],
+    "version": "J. Math. Phys. 8(3), 478–483 (1967)",
+    "reason": "Primary GKS source for zero-field ferromagnetic Ising spin-product correlations and monotonicity of equilibrium correlations in a coupling.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "publisher_metadata_web_checked; fulltext_not_obtained",
+    "identity_status": "metadata_only_no_pdf",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "not_obtained",
+    "retrieval_note": "Publisher PDF attempt returned HTTP 403; publisher metadata checked, no full text counted."
+  },
+  {
+    "local_id": "W04S010",
+    "title": "Correlations in Ising Ferromagnets. II. External Magnetic Fields",
+    "authors": [
+      "Robert B. Griffiths"
+    ],
+    "year": 1967,
+    "kind": "paper",
+    "doi": "10.1063/1.1705220",
+    "url": "https://doi.org/10.1063/1.1705220",
+    "alternate_urls": [
+      "https://pubs.aip.org/aip/jmp/article/8/3/484/436287/Correlations-in-Ising-Ferromagnets-II-External"
+    ],
+    "version": "J. Math. Phys. 8(3), 484–489 (1967)",
+    "reason": "GKS extension to nonnegative parallel field and + boundary constraints; records field hypotheses.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "publisher_metadata_web_checked; fulltext_not_obtained",
+    "identity_status": "metadata_only_no_pdf",
+    "local_pdf": null,
+    "sha256": null,
+    "reading_status": "not_read",
+    "read_pages": [],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "not_obtained",
+    "retrieval_note": "Publisher PDF attempt returned HTTP 403; publisher metadata checked, no full text counted."
+  },
+  {
+    "local_id": "W04S011",
+    "title": "Comparison Theorems for Reversible Markov Chains",
+    "authors": [
+      "Persi Diaconis",
+      "Laurent Saloff-Coste"
+    ],
+    "year": 1993,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://pi.math.cornell.edu/~lsc/papers/comp-rev.pdf",
+    "alternate_urls": [
+      "http://www.jstor.org/stable/2959685"
+    ],
+    "version": "Ann. Appl. Probab. 3(3), 696–730 (1993); complete local PDF includes JSTOR cover sheet.",
+    "reason": "Dirichlet-form/eigenvalue comparison is a general route to gap bounds once conductance comparison constants are proved.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S011.pdf",
+    "sha256": "2b52c200e491c37c7350254e626d2ae40e6d713328a23dbf4dc25292206118bb",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      36
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [
+      {
+        "unit": "Complete local PDF including JSTOR cover, article sections, acknowledgments and references",
+        "pdf_pages": [
+          1,
+          36
+        ],
+        "coverage": "full_document_read",
+        "notes": "Article starts on physical PDF p. 2; p. 1 is provenance cover."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S011",
+    "usage_card": "evidence/W04/cards/W04S011.md",
+    "read_scope_note": "36-page count and SHA-256 match the existing source record.",
+    "document_pages": 36
+  },
+  {
+    "local_id": "W04S012",
+    "title": "Path Coupling: a Technique for Proving Rapid Mixing in Markov Chains",
+    "authors": [
+      "Russ Bubley",
+      "Martin Dyer"
+    ],
+    "year": 1997,
+    "kind": "paper",
+    "doi": "10.1109/SFCS.1997.646111",
+    "url": "https://www.math.cmu.edu/~af1p/Teaching/Markov_Chain_Mixing/Papers/Pathcouple.pdf",
+    "alternate_urls": [
+      "https://doi.org/10.1109/SFCS.1997.646111"
+    ],
+    "version": "FOCS 1997, pp.223–231",
+    "reason": "Original Theorem 1 is a Hamming-distance contraction criterion on the full product space Ω=C^V with coordinate-resampling kernel; keep it distinct from the separately labeled general path-metric extension derived in the source card.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S012.pdf",
+    "sha256": "90ef44bf9059c6b053cc463d74665ef920312d8ac6d21f57c603cca139d7f0ef",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–9 (complete paper); original General Path Coupling Theorem 1 and Hamming/product-space hypotheses PDF p.3 (printed p.225); product-space setup p.2; Metropolis Theorem 2 pp.3–5; applications pp.5–8.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S012",
+    "document_pages": 9
+  },
+  {
+    "local_id": "W04S013",
+    "title": "A General Lower Bound for Mixing of Single-Site Dynamics on Graphs",
+    "authors": [
+      "Thomas P. Hayes",
+      "Alistair Sinclair"
+    ],
+    "year": 2007,
+    "kind": "paper",
+    "doi": "10.1214/105051607000000104",
+    "url": "https://arxiv.org/abs/math/0507517",
+    "alternate_urls": [
+      "https://doi.org/10.1214/105051607000000104"
+    ],
+    "version": "arXiv:math/0507517v2 (1 Aug 2007); Ann. Appl. Probab. 17(3), 931–952 (2007).",
+    "reason": "Uniform Ω(n log n) mixing-time lower bound for nonredundant single-site dynamics on bounded-degree graphs.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S013.pdf",
+    "sha256": "8f81d0ea7dc33b4894fecc451ea7714afcfaaab74fc9ae5bdf33bedd0cd3aa9e",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      24
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [
+      {
+        "unit": "Complete article including examples, variations, acknowledgments and references",
+        "pdf_pages": [
+          1,
+          24
+        ],
+        "coverage": "full_document_read",
+        "notes": "Theorem assumptions, time conversion and hard-constraint proof were checked against the original PDF."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S013",
+    "usage_card": "evidence/W04/cards/W04S013.md",
+    "read_scope_note": "24-page count and SHA-256 match the existing source record.",
+    "document_pages": 24
+  },
+  {
+    "local_id": "W04S014",
+    "title": "Matrix Norms and Rapid Mixing for Spin Systems",
+    "authors": [
+      "Martin Dyer",
+      "Leslie Ann Goldberg",
+      "Mark Jerrum"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.1214/08-AAP532",
+    "url": "https://arxiv.org/abs/math/0702744",
+    "alternate_urls": [
+      "https://doi.org/10.1214/08-AAP532"
+    ],
+    "version": "arXiv:math/0702744v3 (27 Feb 2009); Ann. Appl. Probab. 19(1), 71–107 (2009).",
+    "reason": "Dobrushin-type dependency-matrix conditions for random-update and systematic-scan Glauber rapid mixing.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S014.pdf",
+    "sha256": "a6c17635d9152334c917657e56972653017d2614f6c1072f8acc9c09bc491e07",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      38
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [
+      {
+        "unit": "Complete article including matrix-norm proofs, sparse-coloring application and references",
+        "pdf_pages": [
+          1,
+          38
+        ],
+        "coverage": "full_document_read",
+        "notes": "The arXiv PDF warns that reprint and journal pagination differ; reported locators are physical PDF pages."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S014",
+    "usage_card": "evidence/W04/cards/W04S014.md",
+    "read_scope_note": "38-page count and SHA-256 match the existing source record.",
+    "document_pages": 38
+  },
+  {
+    "local_id": "W04S015",
+    "title": "Can Extra Updates Delay Mixing?",
+    "authors": [
+      "Yuval Peres",
+      "Peter Winkler"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://math.dartmouth.edu/~pw/papers/block-soda.pdf",
+    "alternate_urls": [],
+    "version": "arXiv:1112.0603v1 (2011); Commun. Math. Phys. 323(3), 1007–1016 (2013), DOI 10.1007/s00220-013-1776-0.",
+    "reason": "Censoring theorem for monotone systems from extremal starts; relevant to mixing proofs, not J-edge derivatives.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S015.pdf",
+    "sha256": "7a9542c24fb4d735f6f8a7ee81a86cb0f968818920b210ece3d73c879630d824",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–12 (complete manuscript); Theorem 1.1 pp.4,7; Lemmas 2.1–2.4 and Theorem 2.5 pp.5–7; applications pp.8–10.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S015",
+    "document_pages": 12
+  },
+  {
+    "local_id": "W04S016",
+    "title": "Mixing time for the Ising model: a uniform lower bound for all graphs",
+    "authors": [
+      "Jian Ding",
+      "Yuval Peres"
+    ],
+    "year": 2011,
+    "kind": "paper",
+    "doi": "10.1214/10-AIHP402",
+    "url": "https://arxiv.org/abs/0909.5162",
+    "alternate_urls": [
+      "https://doi.org/10.1214/10-AIHP402"
+    ],
+    "version": "arXiv:0909.5162v2 (last revised 2013-09-25; includes appendix added after original version); Ann. Inst. H. Poincaré Probab. Stat. 47(4), 1020–1028 (2011), DOI 10.1214/10-AIHP402.",
+    "reason": "For zero-field ferromagnetic Ising with arbitrary nonnegative couplings, proves a uniform (1/4+o(1))n log n all-plus mixing lower bound.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S016.pdf",
+    "sha256": "2e046ae56ceb10cb40deb251d71d0a97e43ab717f548d43ef99c117732ff2d95",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–12 (complete arXiv v2, including added appendix); Theorem 1 and setup pp.1–3; main proof pp.3–10; sharpened appendix proof pp.11–12.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S016",
+    "document_pages": 12
+  },
+  {
+    "local_id": "W04S017",
+    "title": "The Mixing Time Evolution of Glauber Dynamics for the Mean-Field Ising Model",
+    "authors": [
+      "Jian Ding",
+      "Eyal Lubetzky",
+      "Yuval Peres"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.1007/s00220-009-0781-9",
+    "url": "https://arxiv.org/abs/0806.1906",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00220-009-0781-9"
+    ],
+    "version": "arXiv:0806.1906v2 (12 Jun 2008); Commun. Math. Phys. 289, 725–764 (2009).",
+    "reason": "Curie–Weiss / complete-graph analysis across high-temperature, critical, and low-temperature windows.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S017.pdf",
+    "sha256": "042a790a86e4bc10d6e4f1e0a53fdc42404ea5a214cdfba4e6a49eb815341f13",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      43
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [
+      {
+        "unit": "Complete paper including high-temperature, critical and low-temperature proofs and references",
+        "pdf_pages": [
+          1,
+          43
+        ],
+        "coverage": "full_document_read",
+        "notes": "Printed theorem hypotheses/formulas checked on physical pp. 3–4; section coverage records proof pages."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S017",
+    "usage_card": "evidence/W04/cards/W04S017.md",
+    "read_scope_note": "43-page count and SHA-256 match the existing source record.",
+    "document_pages": 43
+  },
+  {
+    "local_id": "W04S018",
+    "title": "Censored Glauber Dynamics for the Mean Field Ising Model",
+    "authors": [
+      "Jian Ding",
+      "Eyal Lubetzky",
+      "Yuval Peres"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.1007/s10955-009-9859-1",
+    "url": "https://arxiv.org/abs/0812.0633",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s10955-009-9859-1"
+    ],
+    "version": "arXiv:0812.0633v1 (3 Dec 2008); J. Stat. Phys. 137, 407–458 (2009).",
+    "reason": "Censored Curie–Weiss theorem: for β=1+δ and δ²n→∞, the censored spectral gap has order δ/n.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S018.pdf",
+    "sha256": "bbeb795d0e3a65e3a4acb44aad8c41fbf0250e2c1985ae76f0da95929115efb1",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      55
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [
+      {
+        "unit": "Complete local arXiv v1 paper including fixed-temperature extension, conjectures and references",
+        "pdf_pages": [
+          1,
+          55
+        ],
+        "coverage": "full_document_read",
+        "notes": "Theorem 1's near-critical hypothesis is distinguished from the fixed-δ extension in §7; §8 conjectures are not promoted to theorems."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S018",
+    "usage_card": "evidence/W04/cards/W04S018.md",
+    "read_scope_note": "55-page count and SHA-256 match the existing source record.",
+    "document_pages": 55
+  },
+  {
+    "local_id": "W04S019",
+    "title": "Glauber Dynamics on Trees: Boundary Conditions and Mixing Time",
+    "authors": [
+      "Fabio Martinelli",
+      "Alistair Sinclair",
+      "Dror Weitz"
+    ],
+    "year": 2004,
+    "kind": "paper",
+    "doi": "10.1007/s00220-004-1147-y",
+    "url": "https://arxiv.org/abs/math/0307336",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00220-004-1147-y"
+    ],
+    "version": "Commun. Math. Phys. 250, 301–334 (2004)",
+    "reason": "Plus-boundary regular-tree theorem gives a gap lower bound uniform in n at every temperature and field.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S019.pdf",
+    "sha256": "90ff84338ac44547a04f113b689fa2fc9abc44482e03067251b733058a14fdbc",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      32
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S019",
+    "usage_card": "evidence/W04/cards/W04S019.md",
+    "read_scope_note": "Independent continuous read of all physical PDF pages, including appendices and references where present; see the section-by-section coverage map and source card.",
+    "document_pages": 32
+  },
+  {
+    "local_id": "W04S020",
+    "title": "Critical Ising on the Square Lattice Mixes in Polynomial Time",
+    "authors": [
+      "Eyal Lubetzky",
+      "Allan Sly"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1007/s00220-012-1460-9",
+    "url": "https://arxiv.org/abs/1001.1613",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00220-012-1460-9"
+    ],
+    "version": "Commun. Math. Phys. 313(3), 815–836 (2012)",
+    "reason": "At βc on finite square-lattice boxes with any fixed boundary condition, inverse gap is polynomial in side length.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S020.pdf",
+    "sha256": "8a8fc37fe3059e350e8700ac7da0d587eec33b2820160e69f9fb448229ffb5ce",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      26
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S020",
+    "usage_card": "evidence/W04/cards/W04S020.md",
+    "read_scope_note": "Independent continuous read of all physical PDF pages, including appendices and references where present; see the section-by-section coverage map and source card.",
+    "document_pages": 26
+  },
+  {
+    "local_id": "W04S021",
+    "title": "Cutoff for the Ising Model on the Lattice",
+    "authors": [
+      "Eyal Lubetzky",
+      "Allan Sly"
+    ],
+    "year": 2013,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0909.4320",
+    "alternate_urls": [
+      "https://math.nyu.edu/~eyal/papers/isingcutoff.pdf"
+    ],
+    "version": "Invent. Math. 191, 719–755 (2013)",
+    "reason": "High-temperature lattice Glauber cutoff theorem uses the infinite-volume spectral gap to locate cutoff under continuous time.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S021.pdf",
+    "sha256": "2c72ec3ebe84c0e38eef3815ab6c50899d0b937934aab3ff6ee8cf56687782ac",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      34
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S021",
+    "usage_card": "evidence/W04/cards/W04S021.md",
+    "read_scope_note": "Independent continuous read of all physical PDF pages, including appendices and references where present; see the section-by-section coverage map and source card.",
+    "document_pages": 34
+  },
+  {
+    "local_id": "W04S022",
+    "title": "A Spectral Condition for Spectral Gap: Fast Mixing in High-Temperature Ising Models",
+    "authors": [
+      "Ronen Eldan",
+      "Frederic Koehler",
+      "Ofer Zeitouni"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2007.08200",
+    "alternate_urls": [
+      "https://doi.org/10.48550/arXiv.2007.08200"
+    ],
+    "version": "PTRF 182 (2022); arXiv:2007.08200",
+    "reason": "For symmetric PSD interaction 0≼J≺I, Poincaré inequality yields gap at least 1−||J||op for natural per-site continuous-time Glauber.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S022.pdf",
+    "sha256": "ba6d2d463da33ba14bec6ad551c92456c7c0f52c6e8b795bf10eba72e82e8336",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      15
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S022",
+    "usage_card": "evidence/W04/cards/W04S022.md",
+    "read_scope_note": "Independent continuous read of all physical PDF pages, including appendices and references where present; see the section-by-section coverage map and source card.",
+    "document_pages": 15
+  },
+  {
+    "local_id": "W04S023",
+    "title": "Spectral Independence, Coupling with the Stationary Distribution, and the Spectral Gap of the Glauber Dynamics",
+    "authors": [
+      "Vishesh Jain",
+      "Huy Tuan Pham",
+      "Thuy Duong Vuong"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": "10.1016/j.ipl.2022.106268",
+    "url": "https://arxiv.org/abs/2105.01201",
+    "alternate_urls": [],
+    "version": "arXiv:2105.01201v1 (2021); final journal title: “Spectral independence, coupling, and the spectral gap of the Glauber dynamics,” Information Processing Letters 177 (2022), article 106268; DOI 10.1016/j.ipl.2022.106268.",
+    "reason": "Spectral-independence-based lower bound on Glauber gap for q-spin systems with maximum degree Δ; examples focus on colorings, hard-core and matchings.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S023.pdf",
+    "sha256": "2c3ce8d43f674eda23d0e9777c3c3c908f96d497bd4b127cbe96e785115e863f",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–19 (complete arXiv v1); Theorem 1.1 p.5; definitions and section 2; proof sections 2–3 pp.8–17 including Appendix A pp.14–17; applications pp.6–7,13–14.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S023",
+    "document_pages": 19
+  },
+  {
+    "local_id": "W04S024",
+    "title": "Rapid Mixing of Glauber Dynamics via Spectral Independence for All Degrees",
+    "authors": [
+      "Xiaoyu Chen",
+      "Weiming Feng",
+      "Yitong Yin",
+      "Xinyuan Zhang"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2105.15005",
+    "alternate_urls": [],
+    "version": "arXiv:2105.15005v3 (2021); SIAM J. Comput. publication (2023)",
+    "reason": "Spectral independence / field-dynamics results yield gap and mixing bounds for two-spin models in uniqueness regimes including Ising.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "pdf_front_page_checked; web_primary_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S024.pdf",
+    "sha256": "82926e94027697f24e642e548eb2dbe4a07631a2e19c6630498ec2ec846ac841",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      62
+    ],
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "downloaded_pdf",
+    "retrieval_note": "",
+    "read_units": [],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S024",
+    "usage_card": "evidence/W04/cards/W04S024.md",
+    "read_scope_note": "Independent continuous read of all physical PDF pages, including appendices and references where present; see the section-by-section coverage map and source card.",
+    "document_pages": 62
+  },
+  {
+    "local_id": "W04S025",
+    "title": "Markov chains and mappings of distributions on compact spaces",
+    "authors": [
+      "David J. Aldous",
+      "Shi Feng"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": "10.30757/ALEA.v21-53",
+    "url": "https://arxiv.org/abs/2404.01348",
+    "alternate_urls": [
+      "https://alea.impa.br/articles/v21/21-53.pdf",
+      "https://doi.org/10.30757/ALEA.v21-53"
+    ],
+    "version": "arXiv:2404.01348v1 (31 Mar 2024); ALEA 21, 1407–1416 (2024)",
+    "reason": "Cross-tool result for the fixed-parameter nearest-order-statistic Markov kernel: unique stationary law and a total-variation coupling bound; its interval k=2 theorem is a partial A122 boundary, not an Ising gap result.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "front_page_checked; arXiv_and_journal_primary_records_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S025.pdf",
+    "sha256": "82a5a440004f967038f7603420b0f9881e0c783663487ef55a19d4cd07ef0a91",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–15, complete paper; Theorem 1 coupling and interval proof formulas rendered on pp.5,10–11.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "copied_from_project_legacy_source",
+    "retrieval_note": "Copied locally from /Volumes/data/CodexProjects/T/output/probability_open_problems_20261112/sources/compact_mapping.pdf; original archival path was read-only.",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S025",
+    "document_pages": 15
+  },
+  {
+    "local_id": "W04S026",
+    "title": "Markov chains and mappings of distributions on compact spaces II: Numerics and Conjectures",
+    "authors": [
+      "David J. Aldous",
+      "Madelyn Cruz",
+      "Shi Feng"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2403.18153",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/2403.18153"
+    ],
+    "version": "arXiv:2403.18153v1, 26 Mar 2024; informal author manuscript, explicitly not intended for formal publication",
+    "reason": "Primary source for formal120 A121 Conjecture 5 and A122 §7.3 question; numerical trajectories are not proofs and the paper-II source is cross-tool for W04.",
+    "topics": [
+      "A121",
+      "A122"
+    ],
+    "metadata_status": "front_page_checked; arXiv_primary_record_checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S026.pdf",
+    "sha256": "b6d6a98febfd612528f2aec1e23a1989ff1caaba588f95d0efb32f461eaa078f",
+    "reading_status": "partial_read",
+    "read_pages": "PDF pp.1–3, 14–15, 21–22; Conjecture 5 and §7.3 question boundary only.",
+    "review_status": "pending",
+    "primary_worker": "W04",
+    "download_status": "copied_from_project_legacy_source",
+    "retrieval_note": "Copied locally from /Volumes/data/CodexProjects/T/output/probability_open_problems_20261112/sources/compact_mapping_numerics.pdf; no full-paper read is claimed.",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S026",
+    "document_pages": 29
+  },
+  {
+    "local_id": "W04S027",
+    "title": "Geometric Bounds for Eigenvalues of Markov Chains",
+    "authors": [
+      "Persi Diaconis",
+      "Daniel Stroock"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": "10.1214/aoap/1177005980",
+    "url": "https://doi.org/10.1214/aoap/1177005980",
+    "alternate_urls": [
+      "https://projecteuclid.org/journals/annals-of-applied-probability/volume-1/issue-1/Geometric-Bounds-for-Eigenvalues-of-Markov-Chains/10.1214/aoap/1177005980.pdf",
+      "https://www2.stat.duke.edu/courses/Spring06/sta395/DiacStro1991.pdf"
+    ],
+    "version": "Ann. Appl. Probab. 1(1) (1991), 36–61; DOI 10.1214/aoap/1177005980. D04 file is a 27-page scanned copy.",
+    "reason": "Core spectral reference now read in full: establishes geometric Poincaré and Cheeger methods, odd-return-path lower endpoint, and TV convergence. Its printed Proposition 6 upper Cheeger half β1≤1−h² is contradicted by an exact four-state reversible-chain audit and exceeds the displayed h²/2 proof; W04 uses only the weaker proof-supported bound pending independent review. Graph random-walk corollaries are not Ising gap monotonicity results.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "D04 visually checked scanned PDF title page; Project Euclid/publisher bibliographic record checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S027.pdf",
+    "sha256": "87cd8a3c3b6f326a887eff52dd1bf4882f1521796fcfb5c772b509692b87355a",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–27 (complete scan; p.1 JSTOR front sheet, pp.2–27 printed pp.36–61); §3 Cheeger spans physical pp.18–24, Proposition 6 statement p.18, weak equation (3.4) p.22, derivation pp.22–24; Proposition 1 statement/proof pp.3–4. These formula pages were rendered and visually checked.",
+    "review_status": "pending",
+    "download_status": "downloaded_pdf_supplied_by_D04",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S027",
+    "document_pages": 27
+  },
+  {
+    "local_id": "W04S028",
+    "title": "Some Inequalities for Reversible Markov Chains",
+    "authors": [
+      "David J. Aldous"
+    ],
+    "year": 1982,
+    "kind": "paper",
+    "doi": "10.1112/jlms/s2-25.3.564",
+    "url": "https://doi.org/10.1112/jlms/s2-25.3.564",
+    "alternate_urls": [
+      "https://www2.stat.duke.edu/~scs/Courses/Stat376/Papers/ConvergeRates/Aldous1982.pdf"
+    ],
+    "version": "J. London Math. Soc. (2) 25(3) (1982), 564–576; DOI 10.1112/jlms/s2-25.3.564. Local D04 scan is 13 physical pages.",
+    "reason": "Core reversible-chain context now read in full: compares worst-start TV mixing, exact-stationarity stopping times, and mean hitting-time parameters; nonreversible comparison incurs log(1/π_min) losses.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "D04 first-page text and Wiley journal record checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S028.pdf",
+    "sha256": "ae7e609798e2b4590c75f60d42fb49bdc16338a6de2cc1f2f34aa98758d3a584",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–13 (complete paper); printed pp.564–576. Opening pp.1–4 define a finite-state continuous-time chain with rate matrix Q and semigroup p_ij(t); Proposition 8: printed p.566 / PDF p.3, rendered; Theorems 5–6: printed pp.565–567 / PDF pp.2–4; Lemma 38: printed pp.573–574 / PDF pp.10–11; canonical stopping-time section and examples checked.",
+    "review_status": "pending",
+    "download_status": "downloaded_pdf_supplied_by_D04",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S028",
+    "document_pages": 13
+  },
+  {
+    "local_id": "W04S029",
+    "title": "Cheeger’s Inequalities for General Symmetric Forms and Existence Criteria for Spectral Gap",
+    "authors": [
+      "Mu-Fa Chen",
+      "Feng-Yu Wang"
+    ],
+    "year": 2000,
+    "kind": "paper",
+    "doi": "10.1214/aop/1019160118",
+    "url": "https://arxiv.org/abs/math/9804150",
+    "alternate_urls": [
+      "https://doi.org/10.1214/aop/1019160118",
+      "https://www.imstat.org/publications/aop/aop_28_1/aop_28_1.pdf"
+    ],
+    "version": "arXiv:math/9804150v1 (14 Apr 1998); Ann. Probab. 28(1) (2000), 235–257; DOI 10.1214/aop/1019160118.",
+    "reason": "Core general-form result now read in full: Cheeger inequalities and criteria for a symmetric Dirichlet form to have a spectral gap; application requires its scaling/domain hypotheses.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "D04 PDF first page and arXiv/IMS journal metadata checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S029.pdf",
+    "sha256": "0c19cf5a4f25871afd32d73e6b725dbe72acea1669826efb90a00db1a72deee1",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–21 (complete arXiv v1); Theorems 1.1–1.5 pp.3–5; proof sections and appendix pp.6–21.",
+    "review_status": "pending",
+    "download_status": "downloaded_pdf_supplied_by_D04",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S029",
+    "document_pages": 21
+  },
+  {
+    "local_id": "W04S030",
+    "title": "L²-spectral gaps for time discrete reversible Markov chains",
+    "authors": [
+      "Achim Wübker"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/0908.0897",
+    "alternate_urls": [
+      "https://arxiv.org/pdf/0908.0897"
+    ],
+    "version": "arXiv:0908.0897v1 (6 Aug 2009), preprint; no journal publication verified. PDF body also prints “October 26, 2018,” retained as file-internal date, not treated as a version identifier.",
+    "reason": "Core discrete-time boundary result now read in full: reversible L² gap equivalence requires both upper-edge conductance and exclusion of near-periodicity at −1.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "D04 PDF first page and official arXiv record checked; publication status unverified",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S030.pdf",
+    "sha256": "9a009c8b281d5e8278f007e151569b0d080250f7a4b5818ae846c0284092afdb",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–14 (complete arXiv v1); Theorem 2 and estimate (13) PDF p.5; Lemmas 1–7, Propositions 1–2 and complete proof pp.5–13. Spectral statements are interpreted on the centered restriction L²_0(π), as defined by the source.",
+    "review_status": "pending",
+    "download_status": "downloaded_pdf_supplied_by_D04",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S030",
+    "document_pages": 14
+  },
+  {
+    "local_id": "W04S031",
+    "title": "Markov chain comparison",
+    "authors": [
+      "Martin Dyer",
+      "Leslie Ann Goldberg",
+      "Mark Jerrum",
+      "Russell Martin"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.1214/154957806000000041",
+    "url": "https://arxiv.org/abs/math/0410331",
+    "alternate_urls": [
+      "https://doi.org/10.1214/154957806000000041",
+      "https://projecteuclid.org/journals/probability-surveys/volume-3/issue-none/Markov-chain-comparison/10.1214/154957806000000041.pdf"
+    ],
+    "version": "arXiv:math/0410331v2 (3 May 2006); Probability Surveys 3 (2006), 89–111; DOI 10.1214/154957806000000041.",
+    "reason": "Core comparison survey now read in full: Dirichlet-form comparisons and odd-flow spectral/mixing comparison, with explicit limits for nonreversible discrete-time mixing.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "D04 PDF first page and arXiv/Project Euclid primary metadata checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S031.pdf",
+    "sha256": "834c8fe69c07fa6c9ac9d8c6cf53fb03e2a46fd47756367d4535a24b39e6a1fe",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–24 (complete arXiv v2); Theorems 1–2 PDF p.5/printed p.93; Theorem 5 p.6/printed p.94; Theorems 7–8 p.8/printed p.96; Theorem 10 p.10/printed p.98; Theorem 17 p.13/printed p.101; Theorem 19 p.16/printed p.104; Theorem 22 p.18/printed p.106; Theorem 23 p.20/printed p.108; Lemma 27 p.22/printed p.110; examples and references.",
+    "review_status": "pending",
+    "download_status": "downloaded_pdf_supplied_by_D04",
+    "section_coverage_path": "evidence/W04/reading_coverage.json#W04S031",
+    "document_pages": 24
+  },
+  {
+    "local_id": "W04S032",
+    "title": "Logarithmic Sobolev inequalities for finite spin systems and applications",
+    "authors": [
+      "Holger Sambale",
+      "Arthur Sinulis"
+    ],
+    "year": 2020,
+    "kind": "paper",
+    "doi": "10.3150/19-BEJ1172",
+    "url": "https://arxiv.org/abs/1807.07765",
+    "alternate_urls": [
+      "https://doi.org/10.3150/19-BEJ1172",
+      "https://www.imstat.org/publications/bej/bej_26_3/bej_26_3.pdf"
+    ],
+    "version": "arXiv:1807.07765v2 (revised 26 Feb 2019; 23-page local manuscript); journal version Bernoulli 26(3) (2020), 1863–1890, DOI 10.3150/19-BEJ1172. Physical PDF page locators refer to the arXiv v2 file.",
+    "reason": "Full-text evidence supports a finite-spin weak-dependence route to modified log-Sobolev, entropy-decay and Glauber mixing bounds when both the all-partial-conditionals lower bound and the interdependence-matrix norm bound hold. This is an auxiliary sufficient regime, not an arbitrary-graph Ising theorem or edgewise gap-monotonicity result.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "D04 PDF title page plus official arXiv and Bernoulli journal metadata checked",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S032.pdf",
+    "sha256": "3fb8a554db60988eaa442252dc614207256007a8bc655160e2da50f8eefe6a92",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      23
+    ],
+    "review_status": "pending",
+    "download_status": "downloaded_pdf_supplied_by_D04",
+    "document_pages": 23,
+    "read_units": [
+      {
+        "unit": "Complete arXiv v2 manuscript including all proofs and references",
+        "pdf_pages": [
+          1,
+          23
+        ],
+        "coverage": "full_document_read",
+        "notes": "Sequentially read all physical pages; formula pages 5, 11, 15, 16 rendered and visually checked.",
+        "content": " Corollary 2.3 is stated on physical p.5 and proved on p.16."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S032",
+    "usage_card": "evidence/W04/cards/W04S032.md"
+  },
+  {
+    "local_id": "W04S033",
+    "title": "Concentration inequalities for Markov chains by Marton couplings and spectral methods",
+    "authors": [
+      "Daniel Paulin"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1214/EJP.v20-4039",
+    "url": "https://arxiv.org/abs/1212.2015",
+    "alternate_urls": [
+      "https://doi.org/10.1214/EJP.v20-4039",
+      "https://projecteuclid.org/journals/electronic-journal-of-probability/volume-20/issue-none/Concentration-inequalities-for-Markov-chains-by-Marton-couplings-and-spectral/10.1214/EJP.v20-4039.full",
+      "https://arxiv.org/pdf/1212.2015v5"
+    ],
+    "version": "arXiv:1212.2015v5 (revised 13 Nov 2018; 42-page local author manuscript). Journal version: Electron. J. Probab. 20 (2015), no. 79, pp. 1–32, DOI 10.1214/EJP.v20-4039; use v5 physical-page locators. The v5 manuscript explicitly corrects the general-state Bernstein proof from the published version.",
+    "reason": "Auxiliary fixed-chain interface for Markov concentration, reversible/pseudo-spectral-gap versus mixing bounds, and bounded-difference concentration under mixing-time control. It does not prove Ising edgewise gap monotonicity.",
+    "topics": [
+      "A040"
+    ],
+    "metadata_status": "Official arXiv v5 history/version and EJP DOI record checked; local manuscript title/author verified.",
+    "identity_status": "verified_pdf_identity",
+    "local_pdf": "evidence/fulltexts/W04S033.pdf",
+    "sha256": "7a54a70c47954687e87800c5e7dcc9df37a47568ed13f35c5c170a5728d92a82",
+    "reading_status": "fulltext_read",
+    "read_pages": [
+      1,
+      42
+    ],
+    "document_pages": 42,
+    "review_status": "pending",
+    "read_units": [
+      {
+        "unit": "Complete arXiv v5 manuscript including proofs and references",
+        "pdf_pages": [
+          1,
+          42
+        ],
+        "coverage": "full_document_read",
+        "notes": "Sequentially read all 42 physical pages. Rendered pp.3, 9, 14, 16, 17 for the version correction note and central theorem formulas."
+      }
+    ],
+    "selected_sections_read": [],
+    "selected_chapters_read": [],
+    "section_coverage_path": "evidence/W04/reading_coverage.json#sources.W04S033",
+    "usage_card": "evidence/W04/cards/W04S033.md",
+    "download_status": "downloaded_pdf_supplied_by_D04"
+  }
+]

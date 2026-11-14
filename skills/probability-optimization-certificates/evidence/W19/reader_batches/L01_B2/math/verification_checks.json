@@ -1,0 +1,62 @@
+{
+  "S016_ball_linearization": {
+    "symbolic_difference": "0",
+    "identity_holds": true,
+    "interpretation": "||x-c||^2 <= rho^2 iff ||x||^2 <= rho^2-||c||^2+2c^T x."
+  },
+  "S018_localizing_matrix": {
+    "matrix": [
+      [
+        "4",
+        "8",
+        "8"
+      ],
+      [
+        "8",
+        "28",
+        "12"
+      ],
+      [
+        "8",
+        "12",
+        "28"
+      ]
+    ],
+    "principal_minors": [
+      "4",
+      "28",
+      "28",
+      "48",
+      "48",
+      "640",
+      "512"
+    ],
+    "matches_rendered_formula_2_15_up_to_factor_2": true,
+    "interpretation": "One exact n=2,d=1,A=I coefficient check only."
+  },
+  "M0349_theorem_14_2_fixed_trial_expression_check": {
+    "primal": "minimize 0*x1-100*x2 subject to x1,x2>=0 and x1+x2=1",
+    "true_optimum": "-100",
+    "known_feasible_point": [
+      "1",
+      "0"
+    ],
+    "pointwise_caps": [
+      "1",
+      "0"
+    ],
+    "trial_dual_y": "0",
+    "D_scalar_blocks": [
+      "0",
+      "-100"
+    ],
+    "valid_lower_eigenvalue_bounds_d": [
+      "0",
+      "-100"
+    ],
+    "fixed_trial_expression_from_14_8": "0",
+    "fixed_trial_expression_is_a_lower_bound": false,
+    "printed_infimum_domain_specified_in_theorem_sentence": false,
+    "interpretation": "The feasible-point cap (1,0) does not cap the other feasible points. Thus the fixed trial expression 0 is not itself a lower bound for p*=-100. The source prints an infimum in (14.8), but the theorem sentence does not specify its index set; this check does not refute an independently defined infimum over a domain that enforces suitable uniform caps."
+  }
+}

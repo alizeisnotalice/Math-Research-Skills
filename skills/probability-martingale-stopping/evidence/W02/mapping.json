@@ -1,0 +1,34 @@
+[
+  {
+    "problem_id": "A127",
+    "tool": "probability-martingale-stopping",
+    "role": "auxiliary",
+    "needed_lemma": "A martingale functional CLT may identify Gaussian time-change limits after tightness, bracket convergence, jump control and stated UI/orthogonality assumptions.",
+    "source_local_ids": [
+      "W02-S019",
+      "W02-S003"
+    ],
+    "unproved_interface": "Need a joint approximation for both random leaf heights, bracket limit at random circular separation, and UI for covariance normalization. Marginal CLTs do not prove the correlation law."
+  },
+  {
+    "problem_id": "C112",
+    "tool": "probability-martingale-stopping",
+    "role": "auxiliary",
+    "needed_lemma": "A martingale problem may identify a weak diffusion candidate after tightness, passage of test identities and uniqueness. W02-S031 supplies only the specialized half-space degenerate-parabolic result under its PDE regularity hypotheses.",
+    "source_local_ids": [
+      "W02-S003",
+      "W02-S031"
+    ],
+    "unproved_interface": "W02-S031 assumes coefficient regularity, boundary inward drift and growth conditions, and its Theorem 2.5 is imported from companion paper [26]. It does not establish tightness under the conditioned unbounded-path law, derive the effective generator/covariance, prove uniqueness for that conditioned model, or establish positive finite variance. Those interfaces remain unproved."
+  },
+  {
+    "problem_id": "C207",
+    "tool": "probability-martingale-stopping",
+    "role": "auxiliary",
+    "needed_lemma": "The formal120 target is the exact best constant A_p, for all d, in ||(sum_{j=1}^d |R_j f|^2)^(1/2)||_p <= A_p ||f||_p (Cotlar martingale transforms and related singular integrals, §5.2, PDF p. 28). W02-S024 equation (1.6) on p. 5 recalls the sharp scalar-component bound cot(pi/(2 p*)); Theorem 2.2 records the corresponding sharp orthogonal-martingale constant. Section 3.3 uses the background-radiation Brownian representation: R_j is a limit of T^y_{A_j}, obtained by pairing a Brownian martingale transform of the Poisson extension with the terminal boundary data. This gives a scalar lower benchmark A_p >= cot(pi/(2 p*)) already in d=1; Theorem 1.2 and Theorem 3.5/Lemma 3.7 prove scalar near-extremizer stability, not the vector norm theorem. For p>=2, componentwise Minkowski gives only a crude sqrt(d)-dependent upper bound.",
+    "source_local_ids": [
+      "W02-S024"
+    ],
+    "unproved_interface": "No W02 source proves the sharp dimension-free vector upper bound or identifies exact A_p. The probabilistic route needs a joint ℓ2 estimate for the d Brownian martingale transforms along the common path and a proof that the terminal conditional-expectation/projection step does not enlarge the candidate constant; scalar projection bounds alone can lose sharpness. A compatible vector Bellman inequality and matching sharpness construction remain missing. The scalar-coordinate estimate is only a lower bound and cannot be promoted to the requested vector constant."
+  }
+]

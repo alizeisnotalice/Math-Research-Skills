@@ -1,0 +1,75 @@
+{
+  "generated_utc": "2026-11-13 14:40:08 UTC",
+  "engine": "MATLAB R2026b Update 1; double precision eig for gaps; Symbolic Math Toolbox vpa(50) for Shirai derivative",
+  "kernel": "P=(1/n) sum_v K_v, random-site discrete-time heat-bath, zero field",
+  "gap_clock": "gap_P=1-lambda_2(P); per-site-rate-one CT gap=n*gap_P",
+  "scan_scope": "all connected labelled simple graphs n=2,3,4; 12 seeded connected n=5 samples; fixed other edge couplings, varied one edge over [0,0.1,0.4,1,2,4]",
+  "connected_graphs_exhaustive_n2_to_n4": 43,
+  "sampled_n5_graphs": 12,
+  "varied_edges": 224,
+  "spectral_gap_evaluations": 1344,
+  "maximum_adjacent_gap_increment": -8.32404811745846E-9,
+  "positive_increment_count_above_1e_10": 0,
+  "worst_increment_record": {
+    "n": 5,
+    "edges": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "edge_index": 1,
+    "J_at_record": [
+      4,
+      1.6306531157408444,
+      0.87401534066454989,
+      1.9607383725725787,
+      0.93366011513818,
+      1.8237894863152071,
+      1.9666688216422272
+    ],
+    "J_left": 0,
+    "J_right": 0.1,
+    "gap_left": 1.0859154925935144E-5,
+    "gap_right": 1.0850830877817685E-5
+  },
+  "shirai_path_P3": {
+    "x_edges_2J": [
+      28,
+      14,
+      14
+    ],
+    "vertex": 2,
+    "time_steps": 3,
+    "mean_at_point_vpa50": "0.99999999999977312058170266965311943859043786699857",
+    "derivative_d_mean_d_x2_vpa50": "-0.0000000000000054009946881482729740285884584245520963633523137719",
+    "full_16_state_mean_at_point_vpa50": "0.99999999999977312058170266965311943859043786699857",
+    "full_16_state_derivative_d_mean_d_x2_vpa50": "-0.0000000000000054009946881482729740285884584245520963633523139214",
+    "reduction_derivative_difference_vpa50": "-1.4951014033641547237409027784247519146860740395274e-61"
+  },
+  "interpretation": "Numerical checks only. No finite scan proves the arbitrary-graph edgewise gap conjecture."
+}

@@ -1,0 +1,378 @@
+{
+  "skill": "probability-poset-counting-sampling",
+  "worker": "W09",
+  "eligible_reviewed_sources": 30,
+  "source_review_manifest": "reviews/R05/w09_final_version_hashes.json",
+  "path_base": "All runtime JSON file paths are relative to the skill root.",
+  "transformed_files": [
+    "references/sources.md",
+    "examples/positive.md",
+    "evidence/W09/cards/M0009.md",
+    "evidence/W09/cards/M0002.md",
+    "evidence/W09/cards/M0001.md",
+    "evidence/W09/cards/M0010.md",
+    "evidence/W09/sources.json",
+    "evidence/W09/reading_coverage.json"
+  ],
+  "fulltexts": [
+    {
+      "local_id": "M0001",
+      "path": "evidence/fulltexts/M0001.pdf",
+      "sha256": "222b5395164154ca4ede6579e6c3e67db2f934e86251ab4022fb817cc911f98b",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0002",
+      "path": "evidence/fulltexts/M0002.pdf",
+      "sha256": "99b293f4ea4b56ba0c067f47a65a48d0895505aa1c52e75264621e22b2a43932",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0003",
+      "path": "evidence/fulltexts/M0003.pdf",
+      "sha256": "1eb943f6a5369ad3d2619f58b313549572da3333a119bf5007073f19dcbe910c",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0004",
+      "path": "evidence/fulltexts/M0004.pdf",
+      "sha256": "0c18403431de50d53950c8797f008fd76b5e74f1fb2c613555fc66e338fb606d",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0006",
+      "path": "evidence/fulltexts/M0006.pdf",
+      "sha256": "5e5bc631f9f36377f80c6f39d3ff19660f3d21ed16aff655960141fde9a61f28",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0007",
+      "path": "evidence/fulltexts/M0007.pdf",
+      "sha256": "0555b28282bd2d6c14dbefee4db795fa933d4074feb527a9e000fcce6a4fb645",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0009",
+      "path": "evidence/fulltexts/M0009.pdf",
+      "sha256": "29e8ed8f7cd07a74b9d87d4338bad28f1caecd7ac17d86bf2ef4c51d0ba5665d",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0010",
+      "path": "evidence/fulltexts/M0010.pdf",
+      "sha256": "90ef44bf9059c6b053cc463d74665ef920312d8ac6d21f57c603cca139d7f0ef",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0011",
+      "path": "evidence/fulltexts/M0011.pdf",
+      "sha256": "31159ff97949b13c8a0e5131b6c8e89abb6fafde835e4553311562d1f62f6164",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0012",
+      "path": "evidence/fulltexts/M0012.pdf",
+      "sha256": "165c818167122ec947eb618a2a68e4e186905a9a1c698cfd9e2311941315378d",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0013",
+      "path": "evidence/fulltexts/M0013.pdf",
+      "sha256": "2173fcd10d99c269eec4d28d2089887452eb972456c52a1b961a2bf186194029",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0014",
+      "path": "evidence/fulltexts/M0014.pdf",
+      "sha256": "e4bb6110ed418b92eb4bf6fb99b3021677d83219dace3cfd847534d7b5404919",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0016",
+      "path": "evidence/fulltexts/M0016.pdf",
+      "sha256": "c67dc011b787b4e15fc6fe3545a4ef52e14ff1486fd3421cbb99cac072882952",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0017",
+      "path": "evidence/fulltexts/M0017.pdf",
+      "sha256": "76eaefdb115b44cf30fe9ff1ea7fd4f77bb331aedc7cca860d7b3d6b106e15fb",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0018",
+      "path": "evidence/fulltexts/M0018.pdf",
+      "sha256": "25865026dbea485514ab24bf3a9f71b19198d89ca912d1cf9310ff010e5431a8",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0019",
+      "path": "evidence/fulltexts/M0019.pdf",
+      "sha256": "b88be4c14d966e245ac1f6935c1edb8694d6b006732270c77e1137aa5e897118",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0020",
+      "path": "evidence/fulltexts/M0020.pdf",
+      "sha256": "9cf72b454a48375aaacc118bda62543350af7875113496b3fc474d3869aa3498",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0021",
+      "path": "evidence/fulltexts/M0021.pdf",
+      "sha256": "7770eea888b101dc0bf21a6446ec114063590487b0c0e1e16062e94a51385558",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0026",
+      "path": "evidence/fulltexts/M0026.pdf",
+      "sha256": "f669d7b0d78730b7c812794a437fb6a78e0c182c10dfd520bc26d627cf45a1d5",
+      "reading_status": "partial_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0027",
+      "path": "evidence/fulltexts/M0027.pdf",
+      "sha256": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+      "reading_status": "partial_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "M0029",
+      "path": "evidence/fulltexts/M0029.pdf",
+      "sha256": "3b9670f7863953d84377bbcfafa109254a4f9e352032d083afae6c6b2b02f8ec",
+      "reading_status": "not_read",
+      "source_review_passed": false
+    },
+    {
+      "local_id": "W09-X002",
+      "path": "evidence/fulltexts/W09-X002.pdf",
+      "sha256": "ffab7150f8d6e5b3bf27ef1ca109887c67e5e74db8908c91218f02205128b7ed",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X003",
+      "path": "evidence/fulltexts/W09-X003.pdf",
+      "sha256": "b625f3af81de60aaf4a4532f369d255d56649d29f02f6432698881c72c291e3a",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X004",
+      "path": "evidence/fulltexts/W09-X004.pdf",
+      "sha256": "4576c62fc80b4819b35f5a415945d90eb58211f7ab75906c3a524a023ed26127",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X005",
+      "path": "evidence/fulltexts/W09-X005.pdf",
+      "sha256": "95fa173e00c8301cbe91d5240e17efe916c8a44b6de4bbb4d1ac65a1199f76dd",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X006",
+      "path": "evidence/fulltexts/W09-X006.pdf",
+      "sha256": "33d8f46fa105e6ae19cab15232de9934d70ac908b41f0dc8397cb8072794aeff",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X007",
+      "path": "evidence/fulltexts/W09-X007.pdf",
+      "sha256": "ee5511cfb50b480392839b13ea406347e1db037a844d42cc07f38156b26eb435",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X008",
+      "path": "evidence/fulltexts/W09-X008.pdf",
+      "sha256": "17f7e72d0b346f1fc769c41e7fac3a898a16ab037fff7a00be8494863e60229c",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X009",
+      "path": "evidence/fulltexts/W09-X009.pdf",
+      "sha256": "03dcce364c99c2f7d16ac2ff6d6199f5356588b6b9a61c0b459775264509da60",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X010",
+      "path": "evidence/fulltexts/W09-X010.pdf",
+      "sha256": "6446e4a2d98e6a6bf033b47007dc65fd3b0ba4cdfc5175c1a5085919b0c5e438",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X011",
+      "path": "evidence/fulltexts/W09-X011.pdf",
+      "sha256": "f27046bc87b133fdea1e08bc1cc6af27d6f1bbaa01c31c5178f004577c81d045",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X012",
+      "path": "evidence/fulltexts/W09-X012.pdf",
+      "sha256": "2e07c2da9beb7aad3ed9edbea716f1bc2cb976b34b1ac8834f8eb58c1cc987f1",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    },
+    {
+      "local_id": "W09-X013",
+      "path": "evidence/fulltexts/W09-X013.pdf",
+      "sha256": "8b5a9564aba9f8905acc83f70f2db38b343f19553c32f01cba70a2483a75a372",
+      "reading_status": "fulltext_read",
+      "source_review_passed": true
+    }
+  ],
+  "files": {
+    "SKILL.md": "c0c6577d24d893d3f8ca84655fd499e1374908b192ce16e4d3496ce13c47bca2",
+    "evidence/reviewed-original.zip": "7be6c2c37936dbdff99df4949b732c76c4519b9e3d202e7a28db0df0c8329064",
+    "references/method.md": "10e4679a0af4d06b6e57d3a182d0ba0c80eec99c58586e3f3cbfdb152fa1a47e",
+    "references/sources.md": "b756044d80f087ad343a45d9fb73d7e8c7fb74591c2fd9a78172392d6f4dbb46",
+    "examples/positive.md": "8472431e03217a3eefdfba92e2d044f1c02a3ff8da9cd672ca3b2c1ad69838a7",
+    "examples/negative.md": "1d26d4d75e128cd3b4e55fbb53999fcb35c9f7254c7d4bc862459852d696565d",
+    "evidence/W09/sources.json": "d55e4ce5b8db8c2d406182612840619caf36b585238f5ed088b67cd108ecdf64",
+    "evidence/W09/verify_counts.py": "b27cf6f0301410b4dbd3b365339d0c348aa4b634e922e97399fbc4db43c219ea",
+    "evidence/W09/reading_coverage.json": "d7b5353781130d0cc41056749058558f863e3ce36a076f17de24b7e0351b1d5a",
+    "evidence/W09/mapping.json": "e86e49a1958922dcc837e257e91c7a9e164f22aee97d43cbac2628fea47651a1",
+    "evidence/W09/verification_results.json": "f5a5fabdb722c0e26b5ac342ea24ab796403109c9ed4917eaa0aecc3e81699ff",
+    "evidence/review/review.md": "03b92edaf3e3931e8a4eb8b652f1de7a58cc2be57f8ee03207351f57088b9e13",
+    "evidence/review/review.json": "949e5756723437d4551e06742589cbc75482783780dd227a81fbb0d6846e8d81",
+    "evidence/review/w09_final_version_hashes.json": "e96a38d72e26ad493c85e34eb947718f199bf6d95b5114a4262d8508ae3c53fb",
+    "evidence/fulltexts/W09-X009.pdf": "03dcce364c99c2f7d16ac2ff6d6199f5356588b6b9a61c0b459775264509da60",
+    "evidence/fulltexts/W09-X008.pdf": "17f7e72d0b346f1fc769c41e7fac3a898a16ab037fff7a00be8494863e60229c",
+    "evidence/fulltexts/M0011.pdf": "31159ff97949b13c8a0e5131b6c8e89abb6fafde835e4553311562d1f62f6164",
+    "evidence/fulltexts/M0010.pdf": "90ef44bf9059c6b053cc463d74665ef920312d8ac6d21f57c603cca139d7f0ef",
+    "evidence/fulltexts/M0004.pdf": "0c18403431de50d53950c8797f008fd76b5e74f1fb2c613555fc66e338fb606d",
+    "evidence/fulltexts/M0012.pdf": "165c818167122ec947eb618a2a68e4e186905a9a1c698cfd9e2311941315378d",
+    "evidence/fulltexts/M0006.pdf": "5e5bc631f9f36377f80c6f39d3ff19660f3d21ed16aff655960141fde9a61f28",
+    "evidence/fulltexts/M0007.pdf": "0555b28282bd2d6c14dbefee4db795fa933d4074feb527a9e000fcce6a4fb645",
+    "evidence/fulltexts/M0013.pdf": "2173fcd10d99c269eec4d28d2089887452eb972456c52a1b961a2bf186194029",
+    "evidence/fulltexts/M0017.pdf": "76eaefdb115b44cf30fe9ff1ea7fd4f77bb331aedc7cca860d7b3d6b106e15fb",
+    "evidence/fulltexts/M0003.pdf": "1eb943f6a5369ad3d2619f58b313549572da3333a119bf5007073f19dcbe910c",
+    "evidence/fulltexts/M0002.pdf": "99b293f4ea4b56ba0c067f47a65a48d0895505aa1c52e75264621e22b2a43932",
+    "evidence/fulltexts/M0016.pdf": "c67dc011b787b4e15fc6fe3545a4ef52e14ff1486fd3421cbb99cac072882952",
+    "evidence/fulltexts/M0014.pdf": "e4bb6110ed418b92eb4bf6fb99b3021677d83219dace3cfd847534d7b5404919",
+    "evidence/fulltexts/M0029.pdf": "3b9670f7863953d84377bbcfafa109254a4f9e352032d083afae6c6b2b02f8ec",
+    "evidence/fulltexts/M0001.pdf": "222b5395164154ca4ede6579e6c3e67db2f934e86251ab4022fb817cc911f98b",
+    "evidence/fulltexts/M0018.pdf": "25865026dbea485514ab24bf3a9f71b19198d89ca912d1cf9310ff010e5431a8",
+    "evidence/fulltexts/M0019.pdf": "b88be4c14d966e245ac1f6935c1edb8694d6b006732270c77e1137aa5e897118",
+    "evidence/fulltexts/M0027.pdf": "9ef39f9467d9647ff3f5e8747b9ce24b7a90d13be2f8156fbd827b95b661a772",
+    "evidence/fulltexts/M0026.pdf": "f669d7b0d78730b7c812794a437fb6a78e0c182c10dfd520bc26d627cf45a1d5",
+    "evidence/fulltexts/M0021.pdf": "7770eea888b101dc0bf21a6446ec114063590487b0c0e1e16062e94a51385558",
+    "evidence/fulltexts/M0009.pdf": "29e8ed8f7cd07a74b9d87d4338bad28f1caecd7ac17d86bf2ef4c51d0ba5665d",
+    "evidence/fulltexts/M0020.pdf": "9cf72b454a48375aaacc118bda62543350af7875113496b3fc474d3869aa3498",
+    "evidence/fulltexts/W09-X011.pdf": "f27046bc87b133fdea1e08bc1cc6af27d6f1bbaa01c31c5178f004577c81d045",
+    "evidence/fulltexts/W09-X005.pdf": "95fa173e00c8301cbe91d5240e17efe916c8a44b6de4bbb4d1ac65a1199f76dd",
+    "evidence/fulltexts/W09-X004.pdf": "4576c62fc80b4819b35f5a415945d90eb58211f7ab75906c3a524a023ed26127",
+    "evidence/fulltexts/W09-X010.pdf": "6446e4a2d98e6a6bf033b47007dc65fd3b0ba4cdfc5175c1a5085919b0c5e438",
+    "evidence/fulltexts/W09-X006.pdf": "33d8f46fa105e6ae19cab15232de9934d70ac908b41f0dc8397cb8072794aeff",
+    "evidence/fulltexts/W09-X012.pdf": "2e07c2da9beb7aad3ed9edbea716f1bc2cb976b34b1ac8834f8eb58c1cc987f1",
+    "evidence/fulltexts/W09-X013.pdf": "8b5a9564aba9f8905acc83f70f2db38b343f19553c32f01cba70a2483a75a372",
+    "evidence/fulltexts/W09-X007.pdf": "ee5511cfb50b480392839b13ea406347e1db037a844d42cc07f38156b26eb435",
+    "evidence/fulltexts/W09-X003.pdf": "b625f3af81de60aaf4a4532f369d255d56649d29f02f6432698881c72c291e3a",
+    "evidence/fulltexts/W09-X002.pdf": "ffab7150f8d6e5b3bf27ef1ca109887c67e5e74db8908c91218f02205128b7ed",
+    "evidence/W09/cards/M0009.md": "5e9faf6f74224ddd8515bfec64392ee2971f12571a2314f8159d9b5907de71ca",
+    "evidence/W09/cards/M0019.md": "637a9eff187dd9df55214f2b68ddc349fc7df5d43b14d2a4a46cc25bb26d0c35",
+    "evidence/W09/cards/W09-X009.md": "60daf9c7bd88794c179c6e88def3a8193f8897746f8865ffbf61f6a866ce5322",
+    "evidence/W09/cards/W09-X008.md": "2b364fc7a907b2f2a3662f5431aeef980267eee1b2ab2ad0d2a182eccd6a856f",
+    "evidence/W09/cards/M0018.md": "a95107837ca14003810782fcc6e7e0dcd522efca9149118e46e0c27b0d815ecf",
+    "evidence/W09/cards/W09-X007.md": "17c43ec840c0811d7dc2571286ab7522cf59771c38936f17fadf152e00d8e3e5",
+    "evidence/W09/cards/M0003.md": "886fa88b6fd92c3a29f05c2284a066e182418f63464363142499ae4ac8b90aac",
+    "evidence/W09/cards/M0013.md": "79610f5f80ddf49ff137373fc1194f09a62ef3028892ba157664df749f8d2678",
+    "evidence/W09/cards/M0027.md": "845d337c7b73a1184e6f7efab9e482fe71cd585ad9024c3ca917e590968dc6c3",
+    "evidence/W09/cards/M0007.md": "cead8f14aa4f4f1cf34e2dba01048774a4837a40f75f79fcd8ba4b7db62ffc59",
+    "evidence/W09/cards/W09-X003.md": "fec2fae7fe4baccec244d1e50a040e7840f8c2b1bb6d65b372331af0bcf9c4b0",
+    "evidence/W09/cards/W09-X013.md": "510b3adbdeab17d35d02bd4e1d0fb0037ddda82733a871fb0247bae89f15dddc",
+    "evidence/W09/cards/M0017.md": "f7fcb8f02551ea387f565e7d4923b0b27a1eef72192e30e0c50f74aa6290b599",
+    "evidence/W09/cards/M0006.md": "04163cd320c545de6a2b044726fbc7f84e34c44c528d591731b46ef8821f292c",
+    "evidence/W09/cards/W09-X002.md": "5033625c6dec176660867e8f0b5d900b023422ca14b7799dc5d75af700cbb3f9",
+    "evidence/W09/cards/W09-X012.md": "b7cb74bb86e59b827d9d9846fcde4c8dca475291ea8d3947171f9bb558c55e56",
+    "evidence/W09/cards/M0016.md": "0ebf36a8070beddd5633952d9e9694c9362c34d45a1041b0c2498fde57ba944a",
+    "evidence/W09/cards/W09-X006.md": "396f870496ccce8fcedc6f466e8ff0fabf5ee30837913f96dc01c00bd1df6ae7",
+    "evidence/W09/cards/M0002.md": "7750ad9628c404b99c84ee2f0e83db23849c17588439005b99564d83c1daee69",
+    "evidence/W09/cards/M0012.md": "61bba10592595c1ebc2f043511d6a377f79ee70d7164c44c32a38c7c9e01196f",
+    "evidence/W09/cards/M0026.md": "2d089310a856c9440bb98b3ac8d6253eef13721c9c237995d74cc58ef84921d3",
+    "evidence/W09/cards/M0021.md": "b1f0bca80cba996db60dc87dc628f6a1dc7ccdae5b8189068e3b7c617edcda08",
+    "evidence/W09/cards/W09-X011.md": "8367bc5b8f0be63a69db0cb2e47e644fbb2419abbfdc475a36e297fd9eb45105",
+    "evidence/W09/cards/M0001.md": "7259fcdd25b2e19cdc1d00651e29331dacca13f70d7cb0d804f298d327023300",
+    "evidence/W09/cards/W09-X005.md": "9dfec7a68b20583c780f059babebb04efbbcabb9affc77312ad52e5d28e521a3",
+    "evidence/W09/cards/M0011.md": "b4db0a0e7b30b47467ed283f28ac1d43d81cdd6980abace33355ab9b315ef60e",
+    "evidence/W09/cards/W09-X004.md": "6f306ffc9aade60670617b084103a9d5c812269de224ca104132de09cf0f3503",
+    "evidence/W09/cards/M0010.md": "806a8201fc4076d677cd1e56d5b84893362b5487e6222dde9761f17904648bc9",
+    "evidence/W09/cards/M0004.md": "3b4936e62ed7549ced77ef6f0d99addfd7c063b80a843c7b31c925d990691912",
+    "evidence/W09/cards/M0020.md": "9514ebe285cdb3080bed5236a9e49a635b1156df5ed53cd86476d8e90a730683",
+    "evidence/W09/cards/M0014.md": "05b1b9c1ccd831327e55d2a935afd81337e03085b5b91627e3dd3589ce713265",
+    "evidence/W09/cards/W09-X010.md": "f9cee9f3340528dd0d0e9c3f0852316540c4181116e56eafa4140ca714d174ee"
+  },
+  "reviewed_original_archive": {
+    "path": "evidence/reviewed-original.zip",
+    "members": {
+      "skills/probability-poset-counting-sampling/SKILL.md": "c0c6577d24d893d3f8ca84655fd499e1374908b192ce16e4d3496ce13c47bca2",
+      "skills/probability-poset-counting-sampling/references/method.md": "10e4679a0af4d06b6e57d3a182d0ba0c80eec99c58586e3f3cbfdb152fa1a47e",
+      "skills/probability-poset-counting-sampling/references/sources.md": "28183abb349a1903b852d49b0ffe7b5027033d503d7f77df5b1baa68b6241c5d",
+      "skills/probability-poset-counting-sampling/examples/positive.md": "90b877d10d4073bfd9192a87f8699d94207f1df32e3c6954a4ac7080e6b2ff32",
+      "skills/probability-poset-counting-sampling/examples/negative.md": "1d26d4d75e128cd3b4e55fbb53999fcb35c9f7254c7d4bc862459852d696565d",
+      "workers/W09/sources.json": "a36e9d665740f070fe61adc2f642a488d0230ea4069a411034ae55d967fd5bb6",
+      "workers/W09/reading_coverage.json": "eaa2098d5bcf98eb02f12ae89b7720eef09d03b56617b873eef68aaa10f007ba",
+      "workers/W09/mapping.json": "e86e49a1958922dcc837e257e91c7a9e164f22aee97d43cbac2628fea47651a1",
+      "workers/W09/verify_counts.py": "b27cf6f0301410b4dbd3b365339d0c348aa4b634e922e97399fbc4db43c219ea",
+      "workers/W09/verification_results.json": "f5a5fabdb722c0e26b5ac342ea24ab796403109c9ed4917eaa0aecc3e81699ff",
+      "workers/W09/cards/M0009.md": "c04e5be26f4639751f074393a72c48f9d9de0cd4e085e8cbaeae36ee60f38714",
+      "workers/W09/cards/M0019.md": "637a9eff187dd9df55214f2b68ddc349fc7df5d43b14d2a4a46cc25bb26d0c35",
+      "workers/W09/cards/W09-X009.md": "60daf9c7bd88794c179c6e88def3a8193f8897746f8865ffbf61f6a866ce5322",
+      "workers/W09/cards/W09-X008.md": "2b364fc7a907b2f2a3662f5431aeef980267eee1b2ab2ad0d2a182eccd6a856f",
+      "workers/W09/cards/M0018.md": "a95107837ca14003810782fcc6e7e0dcd522efca9149118e46e0c27b0d815ecf",
+      "workers/W09/cards/W09-X007.md": "17c43ec840c0811d7dc2571286ab7522cf59771c38936f17fadf152e00d8e3e5",
+      "workers/W09/cards/M0003.md": "886fa88b6fd92c3a29f05c2284a066e182418f63464363142499ae4ac8b90aac",
+      "workers/W09/cards/M0013.md": "79610f5f80ddf49ff137373fc1194f09a62ef3028892ba157664df749f8d2678",
+      "workers/W09/cards/M0027.md": "845d337c7b73a1184e6f7efab9e482fe71cd585ad9024c3ca917e590968dc6c3",
+      "workers/W09/cards/M0007.md": "cead8f14aa4f4f1cf34e2dba01048774a4837a40f75f79fcd8ba4b7db62ffc59",
+      "workers/W09/cards/W09-X003.md": "fec2fae7fe4baccec244d1e50a040e7840f8c2b1bb6d65b372331af0bcf9c4b0",
+      "workers/W09/cards/W09-X013.md": "510b3adbdeab17d35d02bd4e1d0fb0037ddda82733a871fb0247bae89f15dddc",
+      "workers/W09/cards/M0017.md": "f7fcb8f02551ea387f565e7d4923b0b27a1eef72192e30e0c50f74aa6290b599",
+      "workers/W09/cards/M0006.md": "04163cd320c545de6a2b044726fbc7f84e34c44c528d591731b46ef8821f292c",
+      "workers/W09/cards/W09-X002.md": "5033625c6dec176660867e8f0b5d900b023422ca14b7799dc5d75af700cbb3f9",
+      "workers/W09/cards/W09-X012.md": "b7cb74bb86e59b827d9d9846fcde4c8dca475291ea8d3947171f9bb558c55e56",
+      "workers/W09/cards/M0016.md": "0ebf36a8070beddd5633952d9e9694c9362c34d45a1041b0c2498fde57ba944a",
+      "workers/W09/cards/W09-X006.md": "396f870496ccce8fcedc6f466e8ff0fabf5ee30837913f96dc01c00bd1df6ae7",
+      "workers/W09/cards/M0002.md": "7eacbeab3021a05be8f22d87f3b6e3acd0b94cf437d6e96ffbad8e3c2e6976ab",
+      "workers/W09/cards/M0012.md": "61bba10592595c1ebc2f043511d6a377f79ee70d7164c44c32a38c7c9e01196f",
+      "workers/W09/cards/M0026.md": "2d089310a856c9440bb98b3ac8d6253eef13721c9c237995d74cc58ef84921d3",
+      "workers/W09/cards/M0021.md": "b1f0bca80cba996db60dc87dc628f6a1dc7ccdae5b8189068e3b7c617edcda08",
+      "workers/W09/cards/W09-X011.md": "8367bc5b8f0be63a69db0cb2e47e644fbb2419abbfdc475a36e297fd9eb45105",
+      "workers/W09/cards/M0001.md": "818a5863876bb789b3b92e1222d2f190b6c9f376eaf4a100a07b841591c6b060",
+      "workers/W09/cards/W09-X005.md": "9dfec7a68b20583c780f059babebb04efbbcabb9affc77312ad52e5d28e521a3",
+      "workers/W09/cards/M0011.md": "b4db0a0e7b30b47467ed283f28ac1d43d81cdd6980abace33355ab9b315ef60e",
+      "workers/W09/cards/W09-X004.md": "6f306ffc9aade60670617b084103a9d5c812269de224ca104132de09cf0f3503",
+      "workers/W09/cards/M0010.md": "b7eca72872aabe46daba1dbf7e0b6a45cfb0efd666e8c911a5012443112710a3",
+      "workers/W09/cards/M0004.md": "3b4936e62ed7549ced77ef6f0d99addfd7c063b80a843c7b31c925d990691912",
+      "workers/W09/cards/M0020.md": "9514ebe285cdb3080bed5236a9e49a635b1156df5ed53cd86476d8e90a730683",
+      "workers/W09/cards/M0014.md": "05b1b9c1ccd831327e55d2a935afd81337e03085b5b91627e3dd3589ce713265",
+      "workers/W09/cards/W09-X010.md": "f9cee9f3340528dd0d0e9c3f0852316540c4181116e56eafa4140ca714d174ee"
+    }
+  }
+}

@@ -1,0 +1,2430 @@
+[
+  {
+    "local_id": "ab87",
+    "title": "Sharpness of the Phase Transition in Percolation Models",
+    "authors": [
+      "Michael Aizenman",
+      "David J. Barsky"
+    ],
+    "year": 1987,
+    "kind": "paper",
+    "doi": "10.1007/BF01212322",
+    "url": "https://doi.org/10.1007/BF01212322",
+    "alternate_urls": [
+      "https://doi.org/10.1007/BF01212322"
+    ],
+    "version": "Commun. Math. Phys. 108 (1987), 489–526; journal PDF",
+    "reason": "Sharpness framework for independent percolation on homogeneous lattices; no automatic transfer to directed-flow or dependent infection models.",
+    "topics": [
+      "A030",
+      "C108",
+      "C142",
+      "C144"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/ab87.pdf",
+    "sha256": "47ae1af48674f5d6b20cf58b756ca173360596ac969a396bd683a6f645bc1eba",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–38 (complete journal PDF; printed pp. 489–526)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 38,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/ab87",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–38 (complete journal PDF; printed pp. 489–526)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1007/bf01212322",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/ab87.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "f155e44adac5475906476df4ab2aebf82855eb0db64c82f0cf672453529a4060",
+        "card_sha256": "9d94d9c77e364c5634039c716c4a95b3ed61aecca61feb1caef4d89e9e4af7bb",
+        "coverage_item_sha256": "61d5e8e060f4d1a2006592514167800047e13376063dca3d7be8c011debf42e3",
+        "pdf_sha256": "47ae1af48674f5d6b20cf58b756ca173360596ac969a396bd683a6f645bc1eba",
+        "pdf_pages": 38,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "ag91",
+    "title": "Strict Monotonicity for Critical Points in Percolation and Ferromagnetic Models",
+    "authors": [
+      "Michael Aizenman",
+      "Geoffrey Grimmett"
+    ],
+    "year": 1991,
+    "kind": "paper",
+    "doi": "10.1007/BF01029985",
+    "url": "https://doi.org/10.1007/BF01029985",
+    "alternate_urls": [
+      "https://doi.org/10.1007/BF01029985"
+    ],
+    "version": "J. Stat. Phys. 63, nos. 5/6 (1991), 817–835",
+    "reason": "Essential-enhancement criterion and pivotal differential inequality; C116 needs a valid local path surgery to establish essentiality.",
+    "topics": [
+      "C116"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/ag91.pdf",
+    "sha256": "7d92e9f60906be1940887327125c7e66417686c301236de33e44c2d9e224999b",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–19 (complete paper; printed pp. 817–835; percolation Theorem 1 p. 3, Lemma 2 proof pp. 12–15, Ising theorem p. 5 and random-current proof pp. 16–19)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 19,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/ag91",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–19 (complete paper; printed pp. 817–835; percolation Theorem 1 p. 3, Lemma 2 proof pp. 12–15, Ising theorem p. 5 and random-current proof pp. 16–19)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1007/bf01029985",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/ag91.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "e54fb7569d3da2b7ae6cd0947252cb985fb995559c13917a18311da8614b4ecc",
+        "card_sha256": "42f90f7a8a5877cf25fcb245fbc313d09a6acf9acc34a06584fabbb942640cbc",
+        "coverage_item_sha256": "b056606a54d4cae9bef46ee4b7c4767a8828a214b744028059e9d2ae6ce3b29a",
+        "pdf_sha256": "7d92e9f60906be1940887327125c7e66417686c301236de33e44c2d9e224999b",
+        "pdf_pages": 19,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "al88",
+    "title": "Metastability Effects in Bootstrap Percolation",
+    "authors": [
+      "Michael Aizenman",
+      "Joel L. Lebowitz"
+    ],
+    "year": 1988,
+    "kind": "paper",
+    "doi": "10.1088/0305-4470/21/19/017",
+    "url": "https://doi.org/10.1088/0305-4470/21/19/017",
+    "alternate_urls": [
+      "https://doi.org/10.1088/0305-4470/21/19/017"
+    ],
+    "version": "J. Phys. A: Math. Gen. 21(19) (1988), 3801–3813",
+    "reason": "Critical-droplet and finite-volume bootstrap context; auxiliary, not a general infection-time-tail theorem.",
+    "topics": [
+      "B179",
+      "A200"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/al88.pdf",
+    "sha256": "efe0b30dcd3eda5c41050dded083c215d03343e13815138afc4066097ec87f87",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–14 (complete local scan; article text pp. 2–14, printed pp. 3801–3813)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 14,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/al88",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–14 (complete local scan; article text pp. 2–14, printed pp. 3801–3813)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1088/0305-4470/21/19/017",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/al88.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "867f8a3b5f6968b887e2d9400e2900d0738b65416692e75c3d398af80c6cc880",
+        "card_sha256": "3bb1b47127708c402f3774755675d40023b3cfb11567c1540cc6876ea3bb4c9a",
+        "coverage_item_sha256": "842a62d088b01805205c98e8b23d11c2e114e6294491edee641bca265c48427c",
+        "pdf_sha256": "efe0b30dcd3eda5c41050dded083c215d03343e13815138afc4066097ec87f87",
+        "pdf_pages": 14,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "aldous95",
+    "title": "Hammersley’s Interacting Particle Process and Longest Increasing Subsequences",
+    "authors": [
+      "David Aldous",
+      "Persi Diaconis"
+    ],
+    "year": 1995,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://doi.org/10.1007/BF01204214",
+    "alternate_urls": [],
+    "version": "Author-hosted journal scan, Probab. Theory Relat. Fields 103 (1995), 199–213; title/abstract verified on PDF p. 1",
+    "reason": "LIS/Hammersley hydrodynamic limit and concentration; auxiliary path-growth background for A030, not a percolation comparison.",
+    "topics": [
+      "A030"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_title_page_pdf_p1",
+    "local_pdf": "evidence/fulltexts/aldous95.pdf",
+    "sha256": "a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete 21-page local scan, visually read PDF pp. 1–21 (the text layer is blank)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 21,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/aldous95",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "Complete 21-page local scan, visually read PDF pp. 1–21 (the text layer is blank)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "work:hammersleysinteractingparticleprocessandlongestincreasingsubsequences|davidaldous,persidiaconis|1995",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/aldous95.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "995eb3504b79b4da6a70fd3cb3d4eeaace0c8f7f17b3ade2cccdd0a2b274d5b9",
+        "card_sha256": "96b937e460ad0401a9857efbc4b873361bf9abd5fafde769bea374761f5fb089",
+        "coverage_item_sha256": "28762d6077aad7c2f6598c50f6cd42e13c75a5e8db0c341284a1eb546ebbe027",
+        "pdf_sha256": "a57f3a54dcb215b5913fb1f03e75190af3eff465570f13fdf19a7fd7dc47126c",
+        "pdf_pages": 21,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "ap96",
+    "title": "On the Chemical Distance for Supercritical Bernoulli Percolation",
+    "authors": [
+      "Peter Antal",
+      "Agoston Pisztora"
+    ],
+    "year": 1996,
+    "kind": "paper",
+    "doi": "10.1214/aop/1039639377",
+    "url": "https://www.stat.berkeley.edu/~aldous/206-SNET/Papers/antal_pisztora.pdf",
+    "alternate_urls": [
+      "https://doi.org/10.1214/aop/1039639377"
+    ],
+    "version": "Ann. Probab. 24(2) (1996), 1036–1048; author-hosted scan",
+    "reason": "Complete block-renormalization/path-repair argument for iid bond percolation on Z^d; transfer requires model-specific good-block domination.",
+    "topics": [
+      "C108",
+      "C142",
+      "C143",
+      "C144"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/ap96.pdf",
+    "sha256": "ff0b2b4bda6cd34dfb132c478138a0fe56a6a566f503f4776dda54ab0fe4d411",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–14",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 14,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/ap96",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp.1–14",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1214/aop/1039639377",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/ap96.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "90ef0edfcd394db4d4e4a758d1969e0c62118081e73a81bc16d30f050b2bbb08",
+        "card_sha256": "28c210cf0c8bffdd8b1779b710ca5a9d6bd931547466ae7803666612580f437e",
+        "coverage_item_sha256": "565beefc3304897d21c3c9af574186864512a245720f4654a87876f24c0fb262",
+        "pdf_sha256": "ff0b2b4bda6cd34dfb132c478138a0fe56a6a566f503f4776dda54ab0fe4d411",
+        "pdf_pages": 14,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "balister16",
+    "title": "Subcritical U-Bootstrap Percolation Models Have Non-Trivial Phase Transitions",
+    "authors": [
+      "Paul Balister",
+      "Béla Bollobás",
+      "Michał Przykucki",
+      "Paul Smith"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.1090/tran/6586",
+    "url": "https://arxiv.org/abs/1311.5883",
+    "alternate_urls": [
+      "https://doi.org/10.1090/tran/6586"
+    ],
+    "version": "arXiv:1311.5883; Trans. AMS 368(10) (2016), 7385–7411",
+    "reason": "Positive critical probability for every subcritical 2D update family; not the proposed exponential upper tail.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/balister16.pdf",
+    "sha256": "7eff74194c26a771125ef87b41a2a68d949c52c1b1402788f71e44b1419fe9d2",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–27 (complete paper; Theorem 1 PDF p. 4, barrier/cover proof §§4–5 pp. 10–23)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 27,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/balister16",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–27 (complete paper; Theorem 1 PDF p. 4, barrier/cover proof §§4–5 pp. 10–23)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1090/tran/6586",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/balister16.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "b922e2dcacaf8da2e0551bf83c1733f9165f46808172becdde8ffc7d32168ece",
+        "card_sha256": "1bd620323cc4775513aff7091ca54c779cc0d8535face39b13a18d16a8a811ab",
+        "coverage_item_sha256": "64a591492fb2524ea98242dc89ef5f14b75ca3adaf2289b7d99763a0643bd9bd",
+        "pdf_sha256": "7eff74194c26a771125ef87b41a2a68d949c52c1b1402788f71e44b1419fe9d2",
+        "pdf_pages": 27,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bbm3d09",
+    "title": "Bootstrap Percolation in Three Dimensions",
+    "authors": [
+      "József Balogh",
+      "Béla Bollobás",
+      "Robert Morris"
+    ],
+    "year": 2009,
+    "kind": "paper",
+    "doi": "10.1214/08-AOP433",
+    "url": "https://arxiv.org/abs/0806.4485",
+    "alternate_urls": [
+      "https://doi.org/10.1214/08-AOP433"
+    ],
+    "version": "arXiv:0806.4485v2 (31 Aug 2009); Ann. Probab. 37(4) (2009), 1329–1380",
+    "reason": "Sharp critical-probability asymptotic for 3-neighbour vertex bootstrap on [n]^3; model-specific context, not a general infection-time result.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bbm3d09.pdf",
+    "sha256": "25f6de418c1896a3c7a5c7565803445211a02b4aedc8563af921f73461867d14",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete PDF pp. 1–53",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 53,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bbm3d09",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "Complete PDF pp. 1–53",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1214/08-aop433",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bbm3d09.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "655f16f0d9e6d9e929c224a7c8485d93c266df290f9b4c2490940ed4e4d9fc08",
+        "card_sha256": "b489920db4cf99113f776e787b6589f2504517dfff1a3038aa4667f8c1336bba",
+        "coverage_item_sha256": "a37ddf9497970331edee5821a4b1a064aa6cfe9e9f80e425a7c3bbacaecfea47",
+        "pdf_sha256": "25f6de418c1896a3c7a5c7565803445211a02b4aedc8563af921f73461867d14",
+        "pdf_pages": 53,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bbm12",
+    "title": "Graph Bootstrap Percolation",
+    "authors": [
+      "József Balogh",
+      "Béla Bollobás",
+      "Robert Morris"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1002/rsa.20458",
+    "url": "https://arxiv.org/abs/1107.1381",
+    "alternate_urls": [
+      "https://doi.org/10.1002/rsa.20458"
+    ],
+    "version": "arXiv:1107.1381v2 (2012); Random Struct. Algorithms 41 (2012), 413–440",
+    "reason": "Typical random-graph percolation thresholds, distinct from maximal running time.",
+    "topics": [
+      "C189"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bbm12.pdf",
+    "sha256": "d3835e6e8274f94eb883d1f58c6451ba457f634c1c32fa14af7bd1a7a54db2f6",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–27 (complete corrected arXiv v2; note correcting published Proposition 23 claim on p. 3)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 27,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bbm12",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–27 (complete corrected arXiv v2; note correcting published Proposition 23 claim on p. 3)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1002/rsa.20458",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bbm12.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "ffadc47f4ba7055a580fe77e4f4ee9916dd55d30fd60d382d40f528a6b9b1495",
+        "card_sha256": "f2966647f001aebe1030def8317da76b6f2a271e65a48631cfffeab1f3a73ac9",
+        "coverage_item_sha256": "b58a842d19267dbb35bfa3a5b5a449f03ec857ddceeda9d8c949e1af6912b47e",
+        "pdf_sha256": "d3835e6e8274f94eb883d1f58c6451ba457f634c1c32fa14af7bd1a7a54db2f6",
+        "pdf_pages": 27,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bbmhd10",
+    "title": "Bootstrap Percolation in High Dimensions",
+    "authors": [
+      "József Balogh",
+      "Béla Bollobás",
+      "Robert Morris"
+    ],
+    "year": 2010,
+    "kind": "paper",
+    "doi": "10.1017/S0963548310000271",
+    "url": "https://arxiv.org/abs/0907.3097",
+    "alternate_urls": [
+      "https://doi.org/10.1017/S0963548310000271"
+    ],
+    "version": "arXiv:0907.3097v3 (14 Jul 2010); Combin. Probab. Comput. 19(5–6) (2010), 643–692",
+    "reason": "Sharp critical-probability asymptotics for 2-neighbour vertex bootstrap on [n]^d when d is much larger than log n; no infection-time claim.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bbmhd10.pdf",
+    "sha256": "6d08d1fac61c45173971194526b8d867c481656ee805462f638ab558761e56b8",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete PDF pp. 1–51",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 51,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bbmhd10",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "Complete PDF pp. 1–51",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1017/s0963548310000271",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bbmhd10.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "8ca52c7663a6eda5479ba8dcfd1cc15b9ef261d07fdff24dc6238689c71fff66",
+        "card_sha256": "32cb70f5f560f559f6419028901052460122359b8a9c9f399c438553e540a8e9",
+        "coverage_item_sha256": "4b98647fc378bd174e9041a1efd9e17dffbc3b645464d72232eeaf6f4775f6de",
+        "pdf_sha256": "6d08d1fac61c45173971194526b8d867c481656ee805462f638ab558761e56b8",
+        "pdf_pages": 51,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bpp06",
+    "title": "Bootstrap Percolation on Infinite Trees and Non-Amenable Groups",
+    "authors": [
+      "József Balogh",
+      "Yuval Peres",
+      "Gábor Pete"
+    ],
+    "year": 2006,
+    "kind": "paper",
+    "doi": "10.1017/S0963548306007619",
+    "url": "https://arxiv.org/abs/math/0311125",
+    "alternate_urls": [
+      "https://doi.org/10.1017/S0963548306007619"
+    ],
+    "version": "arXiv:math/0311125 final version; Combin. Probab. Comput. 15 (2006), 715–730",
+    "reason": "Branching-number thresholds and positive k-rule critical probability on 2k-regular non-amenable graphs; not a converse characterization of amenability.",
+    "topics": [
+      "C146"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bpp06.pdf",
+    "sha256": "3c9e234c2c73baf8b1547107878bd496d3ab3f0ac096dbc53c8c1185c6b5cb1b",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–17 (complete paper; Theorems 1.1–1.4 and their proofs §§2–4 pp. 5–13)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 17,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bpp06",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–17 (complete paper; Theorems 1.1–1.4 and their proofs §§2–4 pp. 5–13)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1017/s0963548306007619",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bpp06.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "5cb6cd08643bb69026f68fcac74fd4f31a80441fb037932ee0138fbc1d9bf2ce",
+        "card_sha256": "91db3d3af47583fde934cc5326cdba9d67a8555cc21f88db30bf6ff2e7ceea72",
+        "coverage_item_sha256": "168038b9475e08e57c3771d8a5ef2360c96ae8e474f73729687e3cb985e54274",
+        "pdf_sha256": "3c9e234c2c73baf8b1547107878bd496d3ab3f0ac096dbc53c8c1185c6b5cb1b",
+        "pdf_pages": 17,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bbdm12",
+    "title": "The Sharp Threshold for Bootstrap Percolation in All Dimensions",
+    "authors": [
+      "József Balogh",
+      "Béla Bollobás",
+      "Hugo Duminil-Copin",
+      "Robert Morris"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1090/S0002-9947-2011-05552-2",
+    "url": "https://arxiv.org/abs/1010.3326",
+    "alternate_urls": [
+      "https://doi.org/10.1090/S0002-9947-2011-05552-2"
+    ],
+    "version": "arXiv:1010.3326; Trans. AMS 364(5) (2012), 2667–2701",
+    "reason": "Sharp finite-grid threshold for fixed d≥r≥2; distinct from general update families and graph-bootstrap running time.",
+    "topics": [
+      "B179",
+      "A200"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bbdm12.pdf",
+    "sha256": "5599d289240e3f2ba310f9bcb29f9ef9309ab3aafbd46056ae76997569ae4b1d",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–36; complete physical PDF including references and final affiliations, no appendix",
+    "review_status": "R03 helper reading passed; R03 strict-v2 scope review passed",
+    "page_count": 36,
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp.1–36",
+      "declared_by": "L05",
+      "completed_previous_status": "partial_read",
+      "new_work_count": 0,
+      "note": "R03 independently accepted the complete-reading evidence in helper stage; this is the existing bbdm12 work. The strict-v2 combined scope is pending review."
+    },
+    "r03_independent_review": {
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/source_approvals/W05/bbdm12/final_R03_review/review.json",
+      "review_file_sha256": "6b02d07804eb80ecdfe36e990268896fbc493a517d504c6c6a37bbff3d7f010b",
+      "stage_hash_manifest": "scope/source_approvals/W05/bbdm12/final_R03_review/stage_hashes.json",
+      "reading_evidence_accepted": true,
+      "decision": "passed_helper_stage",
+      "quota_eligible_for_completed_existing_work": true,
+      "mother_integration_eligible": true,
+      "combined_scope_review": "pending"
+    },
+    "historical_partial_record": {
+      "reading_status": "partial_read",
+      "read_pages": "PDF pp.1–5",
+      "source_snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-W05-sources-snapshot.json",
+      "source_snapshot_row_sha256": "35f39e6fe4c8bc8eef9cc0165d799d8378a306550aa5862d1feece552040f4a6",
+      "old_r03_binding": {
+        "source_item_sha256": "e5366e49bb47da39b2045c7d4f7ba83c920ceec874ca14ef933884b499a3a2c8",
+        "card_sha256": "929999206d862c28b181f218cd098fd4888288c97ce4f40a620c633ab0249c6d",
+        "coverage_item_sha256": null,
+        "pdf_sha256": "5599d289240e3f2ba310f9bcb29f9ef9309ab3aafbd46056ae76997569ae4b1d",
+        "pdf_pages": 36,
+        "hash_matches": true
+      }
+    },
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bbdm12",
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1090/s0002-9947-2011-05552-2",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bbdm12.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bsu15",
+    "title": "Monotone Cellular Automata in a Random Environment",
+    "authors": [
+      "Béla Bollobás",
+      "Paul Smith",
+      "Andrew Uzzell"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": "10.1017/S0963548315000012",
+    "url": "https://arxiv.org/abs/1204.3980",
+    "alternate_urls": [
+      "https://doi.org/10.1017/S0963548315000012"
+    ],
+    "version": "arXiv:1204.3980v4; Combin. Probab. Comput. 24 (2015), 687–722",
+    "reason": "Classifies two-dimensional finite update families; helps scope the model, not a proof of the infection-time conjecture.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bsu15.pdf",
+    "sha256": "3803d598341080269f4b95ba764167fa8bb281869ba82e241818288c9832e089",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–33 (complete article)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 33,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bsu15",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–33 (complete article)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1017/s0963548315000012",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bsu15.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "88fc22ba9f2a3e349e171383c096a0b134e7e41fd18157df8966f7eb662d0315",
+        "card_sha256": "a552b261d58da71b4f95d20ff9c619c985a0a62717c360dda3417ea1b3cb38eb",
+        "coverage_item_sha256": "990e7e2784e886670e5246e35a9c6fb75ccb44844ef685a2ca8be6fa26f7aca3",
+        "pdf_sha256": "3803d598341080269f4b95ba764167fa8bb281869ba82e241818288c9832e089",
+        "pdf_pages": 33,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bpr17",
+    "title": "On the Maximum Running Time in Graph Bootstrap Percolation",
+    "authors": [
+      "Béla Bollobás",
+      "Michal Przykucki",
+      "Oliver Riordan",
+      "Julian Sahasrabudhe"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1510.07096",
+    "alternate_urls": [],
+    "version": "arXiv:1510.07096v1 (2015); Electron. J. Combin. 24(2) (2017), P2.16",
+    "reason": "Primary baseline for M_H(n): exact K4 maximum and lower bounds for cliques; some later general-H questions remain open.",
+    "topics": [
+      "A188",
+      "A190",
+      "A193",
+      "A199",
+      "C189",
+      "C197",
+      "C198"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bpr17.pdf",
+    "sha256": "e5b9cfa59cebf8349becbe7b99a701caea7c963f956affb0d130a05f815fb8cd",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–17 (complete paper; Theorems 1–2 p. 3, K4 upper proof pp. 3–5, random chain proof pp. 6–13, deterministic constructions pp. 14–15)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 17,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bpr17",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–17 (complete paper; Theorems 1–2 p. 3, K4 upper proof pp. 3–5, random chain proof pp. 6–13, deterministic constructions pp. 14–15)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "work:onthemaximumrunningtimeingraphbootstrappercolation|blabollobs,michalprzykucki,oliverriordan,juliansahasrabudhe|2017",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bpr17.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "682ed20c9a789c0772553b5939cf5b37570c2b2a72057f2150231abd268120aa",
+        "card_sha256": "f2541a7329297cd552078a4e8ac33913b434451a5bed1c6f3a65f9638eec35f6",
+        "coverage_item_sha256": "e83937d588e5cb4ce70002a1bf4bbcb7eb2ef65ecc1cd44276c5087c62a39ad9",
+        "pdf_sha256": "e5b9cfa59cebf8349becbe7b99a701caea7c963f956affb0d130a05f815fb8cd",
+        "pdf_pages": 17,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "curtis22",
+    "title": "Zero Forcing with Random Sets",
+    "authors": [
+      "Bryan Curtis",
+      "Luyining Gan",
+      "Jamie Haddock",
+      "Rachel Lawrence",
+      "Sam Spiro"
+    ],
+    "year": 2022,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2208.12899",
+    "alternate_urls": [],
+    "version": "arXiv:2208.12899v1 (2022)",
+    "reason": "Random initial sets for zero forcing; analogous activation process with a distinct forcing rule.",
+    "topics": [
+      "B177",
+      "B178"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/curtis22.pdf",
+    "sha256": "0aea49f53c850eb66fd288442167e526834d5138b954b8f8d68d22e7f51b99e1",
+    "reading_status": "partial_read",
+    "read_pages": "PDF pp.1–4, 20–21",
+    "review_status": "R03_passed_prior_snapshot_item_changed_rebind_required",
+    "page_count": 22,
+    "reader_declaration": {
+      "status": "partial_read",
+      "read_pages": "PDF pp.1–4, 20–21",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": false,
+      "classification": "not_counted_partial_or_nonarticle_source",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/curtis22.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": null,
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "ea29fbb4310ea6f78359cb70bb7d469a8648f2d484f2f04df8329bdff16c3f97",
+        "card_sha256": "9ef7619590dd1224cc013650945e11a86b0c7e632887fe096e8d78353cee08e7",
+        "coverage_item_sha256": null,
+        "pdf_sha256": "0aea49f53c850eb66fd288442167e526834d5138b954b8f8d68d22e7f51b99e1",
+        "pdf_pages": 22,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "dctgen15",
+    "title": "A New Proof of the Sharpness of the Phase Transition for Bernoulli Percolation and the Ising Model",
+    "authors": [
+      "Hugo Duminil-Copin",
+      "Vincent Tassion"
+    ],
+    "year": 2015,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/1502.03050",
+    "alternate_urls": [],
+    "version": "arXiv:1502.03050; general transitive-graph version",
+    "reason": "Sharpness for independent percolation on locally finite transitive graphs; no claim for dependent infection rules.",
+    "topics": [
+      "C142",
+      "C144"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/dctgen15.pdf",
+    "sha256": "8c204312d67bfd156d09ac803316922bffa629c64c65f9c6a1121d95123aae04",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–23 (complete arXiv v3)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 23,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/dctgen15",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–23 (complete arXiv v3)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "work:anewproofofthesharpnessofthephasetransitionforbernoullipercolationandtheisingmodel|hugoduminilcopin,vincenttassion|2015",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/dctgen15.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "384cfec97d8d33484308dfc9d0c5008bac98e8ac69562ee3f0d079f4ac12c0ad",
+        "card_sha256": "c343ca72e4aa15d84d56c89170672201394df060d62ba00fbc38f2861b9c4a54",
+        "coverage_item_sha256": "d1254115a4a6b4c240e3d8169b0dc0b6f6a9c70b34d7bb69a21724a28d78d7da",
+        "pdf_sha256": "8c204312d67bfd156d09ac803316922bffa629c64c65f9c6a1121d95123aae04",
+        "pdf_pages": 23,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "dctzd16",
+    "title": "A New Proof of the Sharpness of the Phase Transition for Bernoulli Percolation on Z^d",
+    "authors": [
+      "Hugo Duminil-Copin",
+      "Vincent Tassion"
+    ],
+    "year": 2016,
+    "kind": "paper",
+    "doi": "10.4171/LEM/62-1/2-12",
+    "url": "https://arxiv.org/abs/1502.03051",
+    "alternate_urls": [
+      "https://doi.org/10.4171/LEM/62-1/2-12"
+    ],
+    "version": "arXiv:1502.03051v1 (2015); Enseign. Math. 62 (2016), 199–206",
+    "reason": "Finite-set criterion proof of subcritical exponential decay and supercritical lower bound for nearest-neighbour iid bond percolation on Z^d.",
+    "topics": [
+      "A030",
+      "C108",
+      "C142"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/dctzd16.pdf",
+    "sha256": "addd81ba90c02368ea064a67ac638e0e813fd38addedb8e652cd176bef3a7b27",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–6",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 6,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/dctzd16",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp.1–6",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.4171/lem/62-1/2-12",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/dctzd16.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "1e3bb49e19c00dde362bb9d9055c110084c934018bd77d83f9c2f30a3f8125f1",
+        "card_sha256": "690d9ad1e0dea038ed13ae10b272f0546d294b1f42c16e82e2a08d3a6215130d",
+        "coverage_item_sha256": "85c7b903ec275cb03dbc060d94c68ee2d357e6cbda0981d17cd02816af73ec00",
+        "pdf_sha256": "addd81ba90c02368ea064a67ac638e0e813fd38addedb8e652cd176bef3a7b27",
+        "pdf_pages": 6,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "durrett84",
+    "title": "Oriented Percolation in Two Dimensions",
+    "authors": [
+      "Richard Durrett"
+    ],
+    "year": 1984,
+    "kind": "paper",
+    "doi": "10.1214/aop/1176993140",
+    "url": "https://doi.org/10.1214/aop/1176993140",
+    "alternate_urls": [
+      "https://doi.org/10.1214/aop/1176993140"
+    ],
+    "version": "Ann. Probab. 12(4) (1984), 999–1040; IMS/author scan",
+    "reason": "Oriented iid percolation survival, duality and subcritical decay; comparison only for dependent directions and strategic games.",
+    "topics": [
+      "C115",
+      "B177",
+      "B178",
+      "B179"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/durrett84.pdf",
+    "sha256": "d04e2889157dd82d92d7d668445c8ad580558e340fc5f66457d6b90c535b5c31",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–43 (complete local scan; article text pp. 2–43, printed pp. 999–1040)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 43,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/durrett84",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–43 (complete local scan; article text pp. 2–43, printed pp. 999–1040)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1214/aop/1176993140",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/durrett84.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "d06c3d35a967d2dfc33409608590e66610d0016309d5938fa567414bcdf9ae14",
+        "card_sha256": "b7630b829b66140c5e8c2555dde9f3720e79c94feed1b91479411420730040dc",
+        "coverage_item_sha256": "6ab0dc616944ac0a0b7520b774844983a3513df08ad5fec47238fcccc6840830",
+        "pdf_sha256": "d04e2889157dd82d92d7d668445c8ad580558e340fc5f66457d6b90c535b5c31",
+        "pdf_pages": 43,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "english21",
+    "title": "Probabilistic Zero Forcing on Random Graphs",
+    "authors": [
+      "Sean English",
+      "Calum MacRury",
+      "Paweł Prałat"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": "10.1016/j.ejc.2020.103207",
+    "url": "https://arxiv.org/abs/1909.06568",
+    "alternate_urls": [
+      "https://doi.org/10.1016/j.ejc.2020.103207"
+    ],
+    "version": "arXiv:1909.06568; Eur. J. Combin. 91 (2021), 103207",
+    "reason": "Propagation-time results for probabilistic zero forcing on G(n,p), analogous tool with different rule and randomness.",
+    "topics": [
+      "B177",
+      "B178"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/english21.pdf",
+    "sha256": "cc972918976151dcdb97873daab837a99cff4c009015469af2894aac4dcc196c",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–27 (complete paper; Theorem 1.3 p. 5, dense lower bound pp. 15–17, sparse lower bound pp. 18–23, auxiliary lemma proofs pp. 23–24)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 27,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/english21",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–27 (complete paper; Theorem 1.3 p. 5, dense lower bound pp. 15–17, sparse lower bound pp. 18–23, auxiliary lemma proofs pp. 23–24)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1016/j.ejc.2020.103207",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/english21.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "3ac000a8c8b3b8181f31e28b383b9ee58f418ff768df2feac6fb4e4d879a178d",
+        "card_sha256": "aceee80b0751b949d5605074e08a0fcebae6253da5bd30863ba49126d39cff38",
+        "coverage_item_sha256": "db12bab84588cdac50a458d72f2cba1bc163300181fc0e887a5f510e61bc8a08",
+        "pdf_sha256": "cc972918976151dcdb97873daab837a99cff4c009015469af2894aac4dcc196c",
+        "pdf_pages": 27,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "fabian26",
+    "title": "Graph Bootstrap Percolation — A Discovery of Slowness",
+    "authors": [
+      "David Fabian",
+      "Patrick Morris",
+      "Tibor Szabó"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.1017/9781009766012.006",
+    "url": "https://arxiv.org/abs/2602.12736",
+    "alternate_urls": [
+      "https://doi.org/10.1017/9781009766012.006"
+    ],
+    "version": "arXiv:2602.12736v2 (16 Mar 2026); Surveys in Combinatorics 2026, 141–188",
+    "reason": "Full survey of synchronous graph-bootstrap maximum running times, useful for current theorem routing and open-problem map; cited theorem statements remain attributed to primary papers.",
+    "topics": [
+      "A188",
+      "A190",
+      "A193",
+      "A199",
+      "C189",
+      "C197",
+      "C198"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/fabian26.pdf",
+    "sha256": "11d4c4e4454b37f5a9f420457cd92a4a984ae57999dac57071bc8c6e17ff043d",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete PDF pp. 1–42",
+    "review_status": "R03_needs_revision_worker_fix_submitted_recheck_required",
+    "page_count": 42,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/fabian26",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "Complete PDF pp. 1–42",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1017/9781009766012.006",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/fabian26.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "8891d8de56f2db564bbb7082c902d2735ce28c7cecd0a73e174e71d3c5598f7c",
+        "card_sha256": "3665b40974e30d8cf07816c64f5465df78fc9ac9e98f0a100aa0f84d6039dcf7",
+        "coverage_item_sha256": "7abec1465c5577bc9f00f6814b39bfdc12ab6d13bb122e0d05046cd4df531e5d",
+        "pdf_sha256": "11d4c4e4454b37f5a9f420457cd92a4a984ae57999dac57071bc8c6e17ff043d",
+        "pdf_pages": 42,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "fabian24",
+    "title": "Slow Graph Bootstrap Percolation II: Accelerating Properties",
+    "authors": [
+      "David Fabian",
+      "Patrick Morris",
+      "Tibor Szabó"
+    ],
+    "year": 2025,
+    "kind": "paper",
+    "doi": "10.1016/j.jctb.2024.12.006",
+    "url": "https://arxiv.org/abs/2311.18786",
+    "alternate_urls": [
+      "https://doi.org/10.1016/j.jctb.2024.12.006"
+    ],
+    "version": "arXiv:2311.18786v2 (17 Dec 2024); JCTB 172 (2025), 44–79",
+    "reason": "Tree running-time upper bound quadratic in tree size; does not prove the star-sharp conjecture.",
+    "topics": [
+      "A188",
+      "A193"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/fabian24.pdf",
+    "sha256": "d9891438ae432a8119676b24c5d1746ff4b717a1d1155e6bd6f8850d79daccf3",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–27 (complete paper; Theorem 1.2 p. 2, tree proof §3 pp. 7–11, further bounds §§4–7 pp. 12–23)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 27,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/fabian24",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–27 (complete paper; Theorem 1.2 p. 2, tree proof §3 pp. 7–11, further bounds §§4–7 pp. 12–23)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1016/j.jctb.2024.12.006",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/fabian24.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "9ad367265278747c11835db80ef3bdfeafc9a93c45286f209bbfc5281db4ec43",
+        "card_sha256": "c2efca53067a5760a1b87869e9ded61d50e88b5188f9a95f23dd78848f4adaa8",
+        "coverage_item_sha256": "09d1b6d3e2fc4d07d2e5c44edfa54af6b66353ef192b7798078655b2c2e4c9f0",
+        "pdf_sha256": "d9891438ae432a8119676b24c5d1746ff4b717a1d1155e6bd6f8850d79daccf3",
+        "pdf_pages": 27,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "fabian23",
+    "title": "Slow Graph Bootstrap Percolation I: Cycles",
+    "authors": [
+      "David Fabian",
+      "Patrick Morris",
+      "Tibor Szabó"
+    ],
+    "year": 2023,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2308.00498",
+    "alternate_urls": [],
+    "version": "arXiv:2308.00498v3 (22 Jun 2026)",
+    "reason": "Exact running-time growth for cycle rules; cannot settle the general fixed-rule exponent limit.",
+    "topics": [
+      "C197"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/fabian23.pdf",
+    "sha256": "4210bf6c42a9ff3cee56a544285fab646384c4f6e56a1411a275381e78eacd7b",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–26 (complete paper; Theorem 1.2 p. 3, lower bounds §§5 pp. 9–13, upper bounds §§6 pp. 13–21)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 26,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/fabian23",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–26 (complete paper; Theorem 1.2 p. 3, lower bounds §§5 pp. 9–13, upper bounds §§6 pp. 13–21)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "work:slowgraphbootstrappercolationicycles|davidfabian,patrickmorris,tiborszab|2023",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/fabian23.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "3ad61a400249f808612c9160e9e507d6af8cdf3f9f527c5ea34dc19f7cec6099",
+        "card_sha256": "561fa87eda6886c2c0ab25fba7d5887bbe4de14dc367486c3a5b801491da848e",
+        "coverage_item_sha256": "9636fbc7c6ca2fbace7cf7279f39a06443800b4bfc0fedaf35168e775a8a436d",
+        "pdf_sha256": "4210bf6c42a9ff3cee56a544285fab646384c4f6e56a1411a275381e78eacd7b",
+        "pdf_pages": 26,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "gravner17",
+    "title": "Neighborhood Growth Dynamics on the Hamming Plane",
+    "authors": [
+      "Janko Gravner",
+      "David Sivakoff",
+      "Erik Slivken"
+    ],
+    "year": 2017,
+    "kind": "paper",
+    "doi": "10.37236/6400",
+    "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v24i4p29",
+    "alternate_urls": [
+      "https://doi.org/10.37236/6400"
+    ],
+    "version": "arXiv:1609.07202v1 (23 Sep 2016); Electron. J. Combin. 24(4) (2017), P4.29",
+    "reason": "Primary results on minimum spanning seeds and product-measure rates for the Hamming-plane Young-diagram rule; directly relevant to A200, including the rectangle-to-plane spanning equivalence and finite-box minimum-seed reduction.",
+    "topics": [
+      "A200"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/gravner17.pdf",
+    "sha256": "47db59ad443a71031066aa7b296bb7b2ca5fc66b33c9615e4e8babc4a97925c8",
+    "reading_status": "fulltext_read",
+    "read_pages": "Complete PDF pp. 1–55",
+    "review_status": "R03_needs_revision_worker_fix_submitted_recheck_required",
+    "page_count": 55,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/gravner17",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "Complete PDF pp. 1–55",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.37236/6400",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/gravner17.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "0ece038fc93668a42cbecfa434be9a762c07874b85535ed7d4efcfee1371c5ff",
+        "card_sha256": "717f42641f0751445332fcff153584b54e61f607d64beb2a97241f91bf65eed2",
+        "coverage_item_sha256": "6169e361a228828f2cc2c9ba4610805da110b7a968eb40d4018ef330f666194e",
+        "pdf_sha256": "47db59ad443a71031066aa7b296bb7b2ca5fc66b33c9615e4e8babc4a97925c8",
+        "pdf_pages": 55,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "gravner19",
+    "title": "Maximal Spanning Time for Neighborhood Growth on the Hamming Plane",
+    "authors": [
+      "Janko Gravner",
+      "J. E. Paguyo",
+      "Erik Slivken"
+    ],
+    "year": 2019,
+    "kind": "paper",
+    "doi": "10.1137/17M1153807",
+    "url": "https://arxiv.org/abs/1708.01855",
+    "alternate_urls": [
+      "https://doi.org/10.1137/17M1153807"
+    ],
+    "version": "arXiv:1708.01855v1 (2017); SIAM J. Discrete Math. 33(2) (2019), 976–993",
+    "reason": "Time-extremal results for related Hamming-plane dynamics; auxiliary to the seed-size question.",
+    "topics": [
+      "A200"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/gravner19.pdf",
+    "sha256": "8779c413da4ec12f02adb8ad9bca20d2114ebcff12e822755d3c306e126daafb",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–22 (complete arXiv v1; Theorems 1.1–1.4 and proofs)",
+    "review_status": "R03_passed_prior_snapshot_item_changed_rebind_required",
+    "page_count": 22,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/gravner19",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–22 (complete arXiv v1; Theorems 1.1–1.4 and proofs)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1137/17m1153807",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/gravner19.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "226b5eb3c920470c8794e79dd522dfcc374fdd8f3fa319320483c5266e28af10",
+        "card_sha256": "716be68c4f54cdba0b1d2a5c44f4025017eeeab91aa1e94b414e4b93f7e243e4",
+        "coverage_item_sha256": "813128617d4502025acdcfd6102a2c3a42dc4a2f7cffaa653e6da0499e9d9333",
+        "pdf_sha256": "8779c413da4ec12f02adb8ad9bca20d2114ebcff12e822755d3c306e126daafb",
+        "pdf_pages": 22,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "gm90",
+    "title": "The Supercritical Phase of Percolation is Well Behaved",
+    "authors": [
+      "Geoffrey R. Grimmett",
+      "John M. Marstrand"
+    ],
+    "year": 1990,
+    "kind": "paper",
+    "doi": "10.1098/rspa.1990.0100",
+    "url": "https://doi.org/10.1098/rspa.1990.0100",
+    "alternate_urls": [
+      "https://doi.org/10.1098/rspa.1990.0100"
+    ],
+    "version": "Proc. R. Soc. Lond. A 430 (1990), 439–457; author PDF",
+    "reason": "Slab approximation in supercritical iid percolation; requires a separate domination argument to transfer.",
+    "topics": [
+      "C108",
+      "C142",
+      "C143",
+      "C144"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/gm90.pdf",
+    "sha256": "83b65ef74a60243f2b5a62530c8db9bb976667802226a9316d4d932e848d73ad",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–20 (complete local scan; article text pp. 2–20, printed pp. 439–457)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 20,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/gm90",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–20 (complete local scan; article text pp. 2–20, printed pp. 439–457)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1098/rspa.1990.0100",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/gm90.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "1d47e80113fb34737b2026f2adecd9f050999570cb89a8a1fcecca665b549537",
+        "card_sha256": "4d67331167afca2207b02aeb4e8ca6f3cacc6db2bef585a47ffe8a48701061fe",
+        "coverage_item_sha256": "dd7c1bc43b6a78db338f4c78f988faaec5f26808990d06b9e765c6bde0f36e31",
+        "pdf_sha256": "83b65ef74a60243f2b5a62530c8db9bb976667802226a9316d4d932e848d73ad",
+        "pdf_pages": 20,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "grimmett-problems",
+    "title": "Selected Problems in Probability",
+    "authors": [
+      "Geoffrey R. Grimmett"
+    ],
+    "year": null,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.statslab.cam.ac.uk/~grg1000/papers/selected-problems.pdf",
+    "alternate_urls": [],
+    "version": "Author-hosted selected-problems PDF; publication year not established",
+    "reason": "Author-selected problems, including percolation/enhancement; not the Percolation textbook.",
+    "topics": [
+      "C116",
+      "C115"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/grimmett-problems.pdf",
+    "sha256": "5d13ba96c4e6cc1d549b9320db03a355742fbc027bd640714922f5d26ce4e3c4",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–15 (complete author-selected problems paper; §6 Question 6.1 pp. 10–11)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 15,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/grimmett-problems",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–15 (complete author-selected problems paper; §6 Question 6.1 pp. 10–11)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "work:selectedproblemsinprobability|geoffreyrgrimmett|None",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/grimmett-problems.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "0c4c3eb460c42ccccc22fc7db77dbf178e2bd6aea4190ec6d40fe0009d8497cc",
+        "card_sha256": "9dda59bb77b12a195b3af3ff1e1f630560accd9bec4ee97c98fb6721c454b6db",
+        "coverage_item_sha256": "a5175daa496f4e00a0e57cb3272b7d05bd1b099573d460a818a795d16762bf72",
+        "pdf_sha256": "5d13ba96c4e6cc1d549b9320db03a355742fbc027bd640714922f5d26ce4e3c4",
+        "pdf_pages": 15,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "hartarsky21",
+    "title": "U-Bootstrap Percolation: Critical Probability, Exponential Decay and Applications",
+    "authors": [
+      "Ivailo Hartarsky"
+    ],
+    "year": 2021,
+    "kind": "paper",
+    "doi": "10.1214/20-AIHP1112",
+    "url": "https://arxiv.org/abs/1806.11405",
+    "alternate_urls": [
+      "https://doi.org/10.1214/20-AIHP1112"
+    ],
+    "version": "arXiv:1806.11405v4 (11 Jun 2020); AIHP 57(3) (2021), 1255–1280",
+    "reason": "Theorem 3.5 gives exponential decay above auxiliary threshold q̃_c; q_c≤q̃_c leaves a possible gap for B179.",
+    "topics": [
+      "B179",
+      "C115"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/hartarsky21.pdf",
+    "sha256": "98276f50f7adff93ec69cecb946026a8e0cc43f141728ac7e567e9a19ada153d",
+    "reading_status": "partial_read",
+    "read_pages": "PDF pp.1–16, 32–34",
+    "review_status": "R03_passed_prior_snapshot_item_changed_rebind_required",
+    "page_count": 43,
+    "reader_declaration": {
+      "status": "partial_read",
+      "read_pages": "PDF pp.1–16, 32–34",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": false,
+      "classification": "not_counted_partial_or_nonarticle_source",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/hartarsky21.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": null,
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "aee4cd44d25761551f04ca4eb3ff093b830d8f61ab6e3541209d7fed6e8d06b6",
+        "card_sha256": "e8612df3a78e861a918109586326aef912641f52221cbb161a18017016defede",
+        "coverage_item_sha256": null,
+        "pdf_sha256": "98276f50f7adff93ec69cecb946026a8e0cc43f141728ac7e567e9a19ada153d",
+        "pdf_pages": 43,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "holroyd03",
+    "title": "Sharp Metastability Threshold for Two-Dimensional Bootstrap Percolation",
+    "authors": [
+      "Alexander E. Holroyd"
+    ],
+    "year": 2003,
+    "kind": "paper",
+    "doi": "10.1007/s00440-002-0239-x",
+    "url": "https://arxiv.org/abs/math/0206132",
+    "alternate_urls": [
+      "https://doi.org/10.1007/s00440-002-0239-x"
+    ],
+    "version": "arXiv:math/0206132; Probab. Theory Relat. Fields 125 (2003), 195–224",
+    "reason": "Sharp two-dimensional nearest-neighbour two-neighbour bootstrap threshold and finite-time origin-activation threshold; exact constant and proof route checked in the full paper.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/holroyd03.pdf",
+    "sha256": "3670dee8d74bd8cdcd8f1ed0094f3260c3445320cabab7980bf4d4e0a84f2767",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–40 (complete paper; Theorem 1 p. 2, Theorems 3–4 p. 3, beta/g definitions pp. 8–9, hierarchy upper-bound exponent p. 37)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 40,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/holroyd03",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–40 (complete paper; Theorem 1 p. 2, Theorems 3–4 p. 3, beta/g definitions pp. 8–9, hierarchy upper-bound exponent p. 37)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1007/s00440-002-0239-x",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/holroyd03.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "1bd27cc332e5cbf51bcc3cda2024d73d55f70494598a66007d2893beb30ed574",
+        "card_sha256": "8e8fee11859248b5c20c8f0d08f7ded5c4b7b88512a471e3b949c431b15b7c70",
+        "coverage_item_sha256": "618afe416be8c0e8479f8c8c40785ecb1d99336aa8a7c3ae02f93b2096bf9eef",
+        "pdf_sha256": "3670dee8d74bd8cdcd8f1ed0094f3260c3445320cabab7980bf4d4e0a84f2767",
+        "pdf_pages": 40,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "janson12",
+    "title": "Bootstrap Percolation on the Random Graph G_{n,p}",
+    "authors": [
+      "Svante Janson",
+      "Tomasz Łuczak",
+      "Tatyana Turova",
+      "Thomas Vallier"
+    ],
+    "year": 2012,
+    "kind": "paper",
+    "doi": "10.1214/11-AAP822",
+    "url": "https://arxiv.org/abs/1012.3535",
+    "alternate_urls": [
+      "https://doi.org/10.1214/11-AAP822"
+    ],
+    "version": "arXiv:1012.3535v2 (19 Oct 2012); Ann. Appl. Probab. 22(5), 1989–2047",
+    "reason": "Final activated set and threshold on random graphs; does not give lattice infection-time tail.",
+    "topics": [
+      "B179"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/janson12.pdf",
+    "sha256": "b5e9b50bc1eb5752959f9b0f3f8c3bacef8873c961c768d6e3fe8d6979440d37",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–59 (complete electronic reprint; Theorems 3.1–3.2 pp. 9–10, Theorem 3.4 p. 10, external-infection Theorem 4.4 p. 16; journal pagination differs from reprint)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 59,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/janson12",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–59 (complete electronic reprint; Theorems 3.1–3.2 pp. 9–10, Theorem 3.4 p. 10, external-infection Theorem 4.4 p. 16; journal pagination differs from reprint)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1214/11-aap822",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/janson12.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "8c8a263de6084d7970662e8b73f162ab77b23e10bed11d64ffa5b2549f2eae42",
+        "card_sha256": "7e9537063f74785493429d1801a3d44bfc5f0470743cc2648104da01efb49420",
+        "coverage_item_sha256": "60f34aeb8ae00c424a192416f28b7bc5ba08c3438b6ea7925265c60727800cf0",
+        "pdf_sha256": "b5e9b50bc1eb5752959f9b0f3f8c3bacef8873c961c768d6e3fe8d6979440d37",
+        "pdf_pages": 59,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "kalinichenko24",
+    "title": "Weak Saturation Numbers in Random Graphs",
+    "authors": [
+      "Olga Kalinichenko",
+      "Meysam Miralaei",
+      "Ali Mohammadian",
+      "Behruz Tayfeh-Rezaie"
+    ],
+    "year": 2024,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2306.10375",
+    "alternate_urls": [],
+    "version": "arXiv:2306.10375v3 (10 Mar 2024)",
+    "reason": "Random-host weak saturation uses sequential edge order; not the synchronous maximum-time M_H(n) process.",
+    "topics": [
+      "A190",
+      "A199",
+      "C189"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/kalinichenko24.pdf",
+    "sha256": "e46ef8c3d67abb2720ce7406e2f5ad009b87bd7990ab3c573d3c4e4d05293cd6",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–13 (complete arXiv v3; Theorems 1.3–1.4 and 4.2)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 13,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/kalinichenko24",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–13 (complete arXiv v3; Theorems 1.3–1.4 and 4.2)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "work:weaksaturationnumbersinrandomgraphs|olgakalinichenko,meysammiralaei,alimohammadian,behruztayfehrezaie|2024",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/kalinichenko24.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "dcb0b24716ea38e30ed29673f58155aa32019b9334f0d1fcc1825e3f410f53e0",
+        "card_sha256": "ad64050542c2892164fbd85ca67b71e46bbb7e366850e3d8f2bbb376553baf30",
+        "coverage_item_sha256": "8f47d02830c4fca05a2832f33a40381d2e0a76b600a27154737457478779de36",
+        "pdf_sha256": "e46ef8c3d67abb2720ce7406e2f5ad009b87bd7990ab3c573d3c4e4d05293cd6",
+        "pdf_pages": 13,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "kesten82",
+    "title": "Percolation Theory for Mathematicians",
+    "authors": [
+      "Harry Kesten"
+    ],
+    "year": 1982,
+    "kind": "book",
+    "doi": "10.1007/978-1-4899-2730-9",
+    "url": "https://doi.org/10.1007/978-1-4899-2730-9",
+    "alternate_urls": [
+      "https://doi.org/10.1007/978-1-4899-2730-9"
+    ],
+    "version": "Birkhäuser monograph (1982); full author-hosted 432-page scan",
+    "reason": "Full book acquired; complete Chapter 4 Increasing Events (printed pp.69–80) read for FKG, Russo formula, and product-measure monotonicity.",
+    "topics": [
+      "A030",
+      "C108",
+      "C116",
+      "C142",
+      "C143",
+      "C144"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_title_page_pdf_p3; complete 432-page book scan",
+    "local_pdf": "evidence/fulltexts/kesten82.pdf",
+    "sha256": "09f54c11196f1a36d30d535bcf3ba1ae169df45c71dfba3464cf5d4179fad5d2",
+    "reading_status": "selected_chapters_read",
+    "read_pages": "Complete Chapter 4, printed pp.69–80 / PDF pp.77–88",
+    "review_status": "R03_passed_prior_snapshot_item_changed_rebind_required",
+    "page_count": 432,
+    "reader_declaration": {
+      "status": "selected_chapters_read",
+      "read_pages": "Complete Chapter 4, printed pp.69–80 / PDF pp.77–88",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1007/978-1-4899-2730-9",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/kesten82.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "6c3069f202ce980458e8d2b1b40d4d090bd349dc96eca1ac57ecd53afd1ac9fa",
+        "card_sha256": "0d5f06da5b039d688cf9b95a01b4be81028545888dd4bfbd21c6ab56a88cbc2a",
+        "coverage_item_sha256": "7c9fa4fae6731985b772e81fe5152696591c4cb6f1869c637933ab139238101b",
+        "pdf_sha256": "09f54c11196f1a36d30d535bcf3ba1ae169df45c71dfba3464cf5d4179fad5d2",
+        "pdf_pages": 432,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "liu26",
+    "title": "Upper Bounds on the Running Time of Bootstrap Percolation",
+    "authors": [
+      "Weichan Liu",
+      "Xiangxiang Nie",
+      "Simón Piga",
+      "Bjarne Schülke"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://arxiv.org/abs/2604.22630",
+    "alternate_urls": [],
+    "version": "arXiv:2604.22630v2 (31 Aug 2026)",
+    "reason": "Full short paper gives Turán-density upper bounds; the K5 coefficient remains order n² and does not imply o(n²).",
+    "topics": [
+      "C189",
+      "A188",
+      "A193",
+      "A199",
+      "C197",
+      "C198"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/liu26.pdf",
+    "sha256": "47dd93834662a84454d6f9bb94f26bc879e2c052655a818029494a57d303672d",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–8",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 8,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/liu26",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp.1–8",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "work:upperboundsontherunningtimeofbootstrappercolation|weichanliu,xiangxiangnie,simnpiga,bjarneschlke|2026",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/liu26.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "4640ca127928724c9de2b7c1e1ec4ab26a20db1ee5a6a5b50c954effa23201ba",
+        "card_sha256": "cf5b77e8e54d4a21e0c3cfe0539df7f60bfc85652d6d191022dc1a49cd8621ee",
+        "coverage_item_sha256": "594e5626bcf679fccaaf67b6e217aaf0b34e959fb57defd7f81bcd0acfe3707c",
+        "pdf_sha256": "47dd93834662a84454d6f9bb94f26bc879e2c052655a818029494a57d303672d",
+        "pdf_pages": 8,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "pete-notes",
+    "title": "Notes from the First Problem Session — Bootstrap Percolation and Related Topics",
+    "authors": [
+      "Gábor Pete (notes; multiple speakers named in text)"
+    ],
+    "year": null,
+    "kind": "paper",
+    "doi": null,
+    "url": null,
+    "alternate_urls": [],
+    "version": "Informal first problem-session notes; date/venue not established",
+    "reason": "Problem provenance for amenability, geography games, infection-time tails, graph-bootstrap time and Hamming seeds; notes warn of possible errors.",
+    "topics": [
+      "C146",
+      "B177",
+      "B178",
+      "B179",
+      "A188",
+      "A199",
+      "A200"
+    ],
+    "metadata_status": "PDF title page and named speaker sections checked; original venue/date not established",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/pete-notes.pdf",
+    "sha256": "edd939c2bf0b6eae6c75a02a1d1856afed7dedae9cee2c1a2fef149d73da7069",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp.1–4",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 4,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/pete-notes",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp.1–4",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": false,
+      "classification": "background_provenance_notes_only",
+      "reason": "Informal four-page problem-session notes are not counted as an independent scholarly paper; retain for provenance and question history only.",
+      "background_only": true
+    },
+    "portable_project_path": "evidence/fulltexts/pete-notes.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "9648e3990b089e1d73cba01b18a168e7f70a5a79821b2bebc681704481510433",
+        "card_sha256": "50f0d3a751e83b1fffe50d5f9ad1f5331db7aa60d8d2905f4d9e9f8b3d0b4009",
+        "coverage_item_sha256": "dc020ba5adcd4c09a74e536ba7e565b3d529f9cf07e68ff59f877c3da70f3f67",
+        "pdf_sha256": "edd939c2bf0b6eae6c75a02a1d1856afed7dedae9cee2c1a2fef149d73da7069",
+        "pdf_pages": 4,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "aldous-flow",
+    "title": "A Discrete Hammersley Process as an Extreme Case of Oriented Percolation Flows",
+    "authors": [
+      "David Aldous"
+    ],
+    "year": null,
+    "kind": "paper",
+    "doi": null,
+    "url": "https://www.stat.berkeley.edu/~aldous/Research/OP/hammersley_flow.html",
+    "alternate_urls": [],
+    "version": "Author research webpage, date not stated; local HTML snapshot",
+    "reason": "Primary author problem note states v(p) limit and the conjecture 1−v(p)~√(2(1−p)); its argument is heuristic, not a proof.",
+    "topics": [
+      "A030"
+    ],
+    "metadata_status": "title/authors verified from PDF first page or primary author/arXiv/publisher page; see search-log.md",
+    "identity_status": "verified_author_webpage",
+    "local_pdf": null,
+    "sha256": "1c3078bb05b25554b7ab7bc12e6d8567b777407b6c6ad24fecfc89715088a301",
+    "reading_status": "partial_read",
+    "read_pages": "Author webpage statement and heuristic; local HTML snapshot",
+    "review_status": "R03_passed_prior_snapshot_without_exact_card_binding_rebind_required",
+    "page_count": null,
+    "local_html": "evidence/W05/papers/hammersley-flow-note.html",
+    "reader_declaration": {
+      "status": "partial_read",
+      "read_pages": "Author webpage statement and heuristic; local HTML snapshot",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": false,
+      "classification": "not_counted_partial_or_nonarticle_source",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": null,
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": null,
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "ccbc578758fa3b119de80b2cf046978835298aee2f9e1495cca0a91173e0cc8f",
+        "card_sha256": "d3bad6f1f9e1b5ed08fd89839a1d20e7ff3d74cb8fbd8c260cf99c346f549ba7",
+        "coverage_item_sha256": null
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  },
+  {
+    "local_id": "bkp26",
+    "title": "The Maximum Length of K_r-Bootstrap Percolation",
+    "authors": [
+      "József Balogh",
+      "Gal Kronenberg",
+      "Alexey Pokrovskiy",
+      "Tibor Szabó"
+    ],
+    "year": 2026,
+    "kind": "paper",
+    "doi": "10.1090/proc/15130",
+    "url": "https://arxiv.org/abs/1907.04559",
+    "alternate_urls": [
+      "https://discovery.ucl.ac.uk/id/eprint/10160841",
+      "https://doi.org/10.1090/proc/15130"
+    ],
+    "version": "arXiv:1907.04559; Proc. Amer. Math. Soc. 154 (2026), 1359–1371",
+    "reason": "Disproves the proposed universal o(n²) bound for every r≥6 and improves the K5 lower bound; it does not decide whether M_K5(n)=o(n²).",
+    "topics": [
+      "C189"
+    ],
+    "metadata_status": "arXiv, DOI and UCL accepted manuscript verified 2026-11-13",
+    "identity_status": "verified_pdf_first_page",
+    "local_pdf": "evidence/fulltexts/bkp26.pdf",
+    "sha256": "dd122366f97677603fa06945a715487c328f255b791d00041409b412ba6b9db7",
+    "reading_status": "fulltext_read",
+    "read_pages": "PDF pp. 1–10 (complete arXiv v1; key lemma §§2–4, Theorems 4–5)",
+    "review_status": "R03_passed_prior_snapshot_coverage_file_changed_rebind_required",
+    "page_count": 10,
+    "section_coverage": "evidence/W05/reading_coverage.json#/sources/bkp26",
+    "reader_declaration": {
+      "status": "fulltext_read",
+      "read_pages": "PDF pp. 1–10 (complete arXiv v1; key lemma §§2–4, Theorems 4–5)",
+      "declared_by": "W05 reader",
+      "note": "Reader declaration; independent evidence acceptance is recorded separately under r03_independent_review."
+    },
+    "r03_independent_review": {
+      "status": "historical original-scope decision; does not approve new strict-v2 composition",
+      "reviewer": "R03",
+      "review_file": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "review_file_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "historical_decision": "passed",
+      "historical_reading_evidence_accepted": true,
+      "strict_v2_combined_scope_review": "pending"
+    },
+    "strict_v2_decision": {
+      "quota_eligible": true,
+      "classification": "counted_distinct_work",
+      "canonical_work_key": "doi:10.1090/proc/15130",
+      "scope_review_status": "pending_independent_R03_strict_v2_review"
+    },
+    "portable_project_path": "evidence/fulltexts/bkp26.pdf",
+    "candidate_record_status": "strict_v2_scope_approved_pending_installation",
+    "historical_r03_decision_summary": {
+      "decision": "passed",
+      "reading_evidence_accepted": true,
+      "mathematics_decision": "passed",
+      "snapshot_path": "evidence/review/candidate-scope/scope/original_approval_snapshot/R03-review.json",
+      "snapshot_sha256": "89ce4ce9129f56594a3d8135b40fc1b21b90170c5129639b41cc1e1d0959c092",
+      "old_final_binding": {
+        "source_item_sha256": "cd212db1f3b6509244eb777c03bfa28875dd99bfb3ba078c4b0dcbca11827c5c",
+        "card_sha256": "ca50845b083287ccfe637457f3457fb4fd0247242544c49a0a9c25174171b7f3",
+        "coverage_item_sha256": "03cbb341000f384709ade2e2b60530d71b4821aa8c5000d0e4cf8bd3aa31d1fe",
+        "pdf_sha256": "dd122366f97677603fa06945a715487c328f255b791d00041409b412ba6b9db7",
+        "pdf_pages": 10,
+        "hash_matches": true
+      }
+    },
+    "portable_path_base": "project root for portable_project_path; skill root for local_pdf and section_coverage",
+    "current_scope_review_snapshot": "evidence/review/R03-W05-strict-v2-review.json",
+    "current_scope_review_status": "passed_R03_new_version_approved"
+  }
+]

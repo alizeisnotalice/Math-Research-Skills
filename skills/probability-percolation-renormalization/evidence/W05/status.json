@@ -1,0 +1,102 @@
+{
+  "worker": "W05",
+  "skill": "probability-percolation-renormalization",
+  "stage": "strict_v2_candidate_pending_independent_R03_scope_review",
+  "updated_at_utc": "2026-11-14",
+  "counts": {
+    "source_records": 34,
+    "local_pdfs": 33,
+    "local_html_snapshots": 1,
+    "fulltext_read": 30,
+    "selected_chapters_read": 1,
+    "partial_read": 3,
+    "unread": 0,
+    "proof_cards": 34,
+    "mapped_formal_questions": 28,
+    "mapped_direct": 20,
+    "mapped_auxiliary": 8,
+    "strict_v2_counted_distinct_works": 30,
+    "strict_v2_counted_research_papers": 29,
+    "strict_v2_counted_book_works": 1,
+    "background_only_notes": 1
+  },
+  "math_validation": {
+    "artifact": "evidence/W05/math-validation.md",
+    "script": "evidence/W05/verify_k4_bootstrap.py",
+    "scope": "Exhaustive labeled K4-bootstrap initial graphs only for n=3,4,5,6; finite evidence, not an all-n proof.",
+    "supplementary_script": "evidence/W05/check_highdim_lambda.py",
+    "supplementary_artifact": "evidence/W05/highdim_lambda_check.txt",
+    "supplementary_scope": "Decimal bisection of the k≤25 truncation of the BBM λ series plus exact n=2 coefficient reduction; numerical/algebraic consistency only."
+  },
+  "completed": [
+    "Read the WORK_PROTOCOL and skill-creator instructions; source metadata, page counts, and local PDF hashes are retained in sources.json.",
+    "Corrected the four R03 mathematical/scope findings in AG91, Holroyd, Janson, and English cards; added section coverage for the previous nine full-paper cards as well.",
+    "Completed the third reading batch: five papers and a selected problem volume were read with cards and section coverage; this historical batch is reflected in the current total, and the reviewed-scope corrections remain documented.",
+    "Rendered source pages to verify the BPP06 anchored-expansion theorem, Fabian23 exact cycle theorem, and Fabian24 Proposition 3.3; retained previous root-maintained K4/AP validation artifacts unchanged.",
+    "Historical checkpoint before R03 round-7 decisions: Applied R03 round-3 scope/page corrections to dctzd16, bpr17, english21 coverage and to BPP Proposition 1.2 / Fabian II Theorem 1.2 cards; review statuses remain pending.",
+    "Read 19 complete papers plus Kesten Chapter 4; complete-paper section coverage is recorded in evidence/W05/reading_coverage.json and linked from each of the 19 fulltext_read source records.",
+    "Completed the fourth reading batch without downloads: Aizenman–Lebowitz (1988), Bollobás–Smith–Uzzell (2015), Duminil-Copin–Tassion (transitive-graph version), Durrett (1984), and Grimmett–Marstrand (1990). Added five proof cards and actual section-by-section physical-page coverage.",
+    "Rendered theorem/formula pages for the fourth batch: AL PDF p.4; BSU pp.6,30; DCT transitive p.2; Durrett pp.6,8,29–30,34,40; GM p.10. Claims retain model and transfer limits; no finite computation is used as an all-size theorem.",
+    "Historical checkpoint before R03 round-7 decisions: Rechecked and retained the round-3 corrections for dctzd16, bpr17, english21, bpp06, and fabian24; independent reading evidence and all source reviews remain pending until the reviewers assess the current file versions.",
+    "Corrected the R03 round-4 Durrett, DCT transitive, and Grimmett–Marstrand claims against the original PDFs: singleton edge speed is survival-conditioned; DCT §1.5/§2.6 are the √h and h^(1/3) field bounds; the original GM slice uses F=Z², with the codimension-one thickening kept distinct.",
+    "Historical checkpoint before R03 round-7 decisions: Completed a fifth no-download reading batch from staged local PDFs: Aizenman–Barsky (38 pages), Balogh–Bollobás–Morris (27), Balogh–Kronenberg–Pokrovskiy–Szabó (10), Kalinichenko et al. (13), and Gravner–Paguyo–Slivken (22). Added five proof cards and actual section-by-section physical-page coverage; all five source reviews remain pending.",
+    "Rendered and visually checked the AB87 theorem/differential inequalities (PDF pp. 4–5, 20–21), BBM12 threshold bounds and correction note (p. 3; variance/sprinkling step p. 21), BKPS maximum-time construction (pp. 2, 6, 9), Kalinichenko Theorems 1.3/1.4 and 4.2 (pp. 4, 9, 11), and Gravner Theorems 1.1–1.4 and the upper/lower proof mechanisms (pp. 4–5, 17–19).",
+    "Corrected the final three R03 batch-5 source findings against rendered originals: AB87 Theorem 4.2 is only for small h; BKPS Definition 7 is its custom hyperedge-containment condition, not ordinary 2-skeleton induced-freeness; Kalinichenko Theorem 1.4 gives eventual exact weak-saturation equality under its structural linear lower-bound hypothesis and stated sparse-p threshold.",
+    "Completed a sixth no-download reading batch: Aldous–Diaconis (21-page visual scan), Balogh–Bollobás–Morris 3D (53 pages), Balogh–Bollobás–Morris high dimensions (51 pages), Fabian–Morris–Szabó survey (42 pages), and Gravner–Sivakoff–Slivken Hamming-plane growth (55 pages). Added complete cards and section-by-section physical-page coverage for every paper.",
+    "Confirmed Kesten’s full author-hosted book is a 432-page scan from the PDF title leaf and page count; the evidence remains a complete reading of Chapter 4 only, not the whole book.",
+    "Rendered and visually checked the key formulas/results for all five new readings and Kesten identity; ran a Decimal bisection/truncated-series and exact coefficient consistency calculation for the high-dimensional threshold constant. The output is labeled numerical/algebraic evidence only.",
+    "Historical round-7 checkpoint, superseded by the final W05 verdict: Rechecked R03 findings against rendered originals; Gravner17 PDF p. 4 and Theorem 1.2 support the same-rule rectangle-to-plane criterion and finite seed reduction; Corollary 5.2 (p. 26) requires fixed α,β∈[0,1] and min{a,b}→∞; Fabian26 Theorem 4.2 is proved in this survey (§4.3, statement p. 15, proof pp. 17–21); Kesten’s title page is physical PDF p. 3. The files were later independently bound and passed in the final W05 review.",
+    "Historical original-release decision (not this strict-v2 candidate): R03 final W05 decision: skill passed; all 34 source decisions passed; accepted quota is 29 complete papers plus Kesten Chapter 4, exactly 30 distinct works. Four partial readings are excluded. The combined R03 review remains pending W06. Final decision: ../../scope/original_approval_snapshot/R03-review.json; exact file bindings: ../../scope/original_approval_snapshot/R03-final-W05-bindings.json.",
+    "Built a portable strict-v2 candidate overlay: 28 previously approved scholarly papers plus the unchanged Kesten monograph work and the R03-approved completion of existing bbdm12; Pete notes are background only. No publication or installation was performed; the combined strict-v2 source set is pending independent R03 review."
+  ],
+  "gaps": [
+    "Three local source records remain partial and are excluded from the strict-v2 30-work candidate; Pete’s four-page notes are preserved as background but excluded by document type.",
+    "A030 still needs a uniform finite-size/near-one error estimate.",
+    "B179 still needs control in the possible interval q_c<q≤q-tilde_c or a theorem proving equality of thresholds for the required class; Balister et al. proves positive p_c only for subcritical two-dimensional update families.",
+    "C116 still needs a valid uniform, dimension-appropriate path-surgery lemma before the essential-enhancement comparison applies; Grimmett records the historical site-model gap for d≥4.",
+    "C189 remains unresolved: available K5 evidence gives an n^(2-o(1)) lower bound and only a constant-fraction n^2 upper bound; it does not establish o(n^2).",
+    "Probabilistic zero forcing results remain scoped to G(n,p) with pn≫log n and do not resolve the boundary p=c log n/n or transfer automatically to geography games."
+  ],
+  "files": {
+    "sources": "evidence/W05/sources.json",
+    "search_log": "evidence/W05/search-log.md",
+    "mapping": "evidence/W05/mapping.json",
+    "cards": "evidence/W05/cards/",
+    "skill": "skills/probability-percolation-renormalization/",
+    "reading_coverage": "evidence/W05/reading_coverage.json",
+    "r03_final_decision": "../../scope/original_approval_snapshot/R03-review.json",
+    "r03_final_bindings": "../../scope/original_approval_snapshot/R03-final-W05-bindings.json",
+    "r03_historical_decision": "../../scope/original_approval_snapshot/R03-review.json",
+    "r03_historical_bindings": "../../scope/original_approval_snapshot/R03-final-W05-bindings.json",
+    "bbdm12_helper_review": "../../scope/source_approvals/W05/bbdm12/final_R03_review/review.json",
+    "candidate_source_set": "../../scope/strict_v2_source_set.json",
+    "candidate_scope_manifest": "../../candidate_scope_manifest.json",
+    "reviewed_original_archive": "../../scope/v1-original/reviewed-original.zip",
+    "historical_release_manifest": "../../scope/v1-original/release-manifest.json"
+  },
+  "validation": {
+    "candidate_integrity": "pending_local_validation",
+    "math_validation": "Copied unchanged from the independently accepted historical W05 scope; finite calculations are not proofs of general theorems.",
+    "scope_review": "pending_independent_R03_review",
+    "publication_or_installation": "not_performed"
+  },
+  "review_state": {
+    "reader_declarations": {
+      "fulltext_read_records": 30,
+      "selected_chapters_read_book_works": 1,
+      "partial_read_records": 3,
+      "unread": 0
+    },
+    "strict_v2_candidate": {
+      "research_papers": 29,
+      "book_works": 1,
+      "distinct_works": 30,
+      "background_notes_excluded": [
+        "pete-notes"
+      ]
+    },
+    "historical_original_W05_R03_decision": "passed on immutable old scope snapshot; it does not approve the new strict-v2 composition",
+    "bbdm12_helper_decision": "passed; same existing work completed, R03 source/read stage approved",
+    "combined_strict_v2_scope_decision": "pending independent R03 review"
+  }
+}

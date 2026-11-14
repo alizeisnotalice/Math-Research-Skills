@@ -1,0 +1,30 @@
+{
+  "source_local_id": "W21-015",
+  "candidate_id": "C013",
+  "source_pdf": "downloads/D03/W21_batch03/papers/C013.pdf",
+  "source_sha256": "c27d3d2bbb3b4b54609f28be9854049dcf7bd6038eb771df5724d3646453c634",
+  "purpose": "Exact symbolic cross-check of the displayed simplex map and the three multiplicative factors used in the source proof for strict product descent.",
+  "tool": "SymPy 1.14.0 from project .runtime (PYTHONPATH=.runtime)",
+  "input_symbols": [
+    "x",
+    "y",
+    "z"
+  ],
+  "constraints_used_in_interpretation": "x,y,z > 0 and x+y+z=1; this file computes algebraic identities only.",
+  "computed_identities": {
+    "sum_of_image_coordinates": "(x + y + z)**2",
+    "sum_of_product_factors": "3",
+    "factors": [
+      "y - z + 1",
+      "-x + z + 1",
+      "x - y + 1"
+    ],
+    "map_coordinates": [
+      "x**2 + 2*x*y",
+      "y**2 + 2*y*z",
+      "2*x*z + z**2"
+    ]
+  },
+  "mathematical_readout": "On the simplex, each factor is positive: 1+y-z=x+2y, 1+z-x=y+2z, 1+x-y=z+2x. Their sum is 3, so AM-GM gives product <= 1 with equality only when all three factors are 1, which forces x=y=z=1/3. Thus for an interior point other than M0, phi(Va)<phi(a). The AM-GM argument is a hand proof; the symbolic output only checks the algebraic identities and is not itself a proof.",
+  "status": "calculation_evidence_not_proof"
+}

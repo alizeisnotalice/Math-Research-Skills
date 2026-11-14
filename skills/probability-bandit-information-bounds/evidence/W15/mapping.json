@@ -1,0 +1,100 @@
+[
+  {
+    "problem_id": "B056",
+    "tool": "probability-bandit-information-bounds",
+    "role": "direct",
+    "needed_lemma": "Preserve the exact direct-mean model Y_t|x_t ~ Ber(f(x_t)), finite action set, bounded RKHS ball and cumulative mean regret. The original paper asks for structure-sensitive instance-dependent log(T) regret expressed through Bernoulli KL, matched to a structured lower bound.",
+    "source_local_ids": [
+      "W15-001"
+    ],
+    "unproved_interface": "The question is open in W15-001 §3.3. Do not count unstructured KL-UCB as structural resolution."
+  },
+  {
+    "problem_id": "B056",
+    "tool": "probability-bandit-information-bounds",
+    "role": "auxiliary",
+    "needed_lemma": "A structured change-of-measure / minimal-exploration LP and candidate asymptotically optimal sampling theorem for finite arms with Bernoulli observations.",
+    "source_local_ids": [
+      "W15-015",
+      "W15-003",
+      "W15-004",
+      "W15-005",
+      "W15-025",
+      "W15-031"
+    ],
+    "unproved_interface": "OSSB (W15-015) is a candidate transfer only. Prove the RKHS evaluation-image parameter class fits its compact known Θ model; check unique best arm and unique LP solution; handle the algorithm's empirical parameter estimate; give a computable oracle for its semi-infinite LP; and separate its asymptotic log(T) coefficient from finite-time remainder constants."
+  },
+  {
+    "problem_id": "B056",
+    "tool": "probability-bandit-information-bounds",
+    "role": "auxiliary",
+    "needed_lemma": "Model-separation comparison for the logistic-link Bernoulli cumulative-regret results in W15-017: local sensitivity, confidence geometry, and regret proof structure under a finite-dimensional sigmoid-linear score.",
+    "source_local_ids": [
+      "W15-017"
+    ],
+    "unproved_interface": "W15-017 has a logistic mean link and finite-dimensional score, not direct mean Ber(f(x)) with f in an RKHS. Its cumulative-regret theorem is an adjacent model result only; it does not prove B056."
+  },
+  {
+    "problem_id": "B056",
+    "tool": "probability-bandit-information-bounds",
+    "role": "auxiliary",
+    "needed_lemma": "Model-separation comparison for W15-022 finite-dimensional GLM approximate-PAC identification: derivative-scaled pairwise confidence and feature-space LP sampling.",
+    "source_local_ids": [
+      "W15-022"
+    ],
+    "unproved_interface": "W15-022 is a pure-exploration stopping-time result under a known GLM link, not cumulative regret. Its Eq. (4) estimate must be well-defined and the derivative lower bound verified along the actual parameter segment before relying on the confidence chain; it is not the direct-mean Bernoulli RKHS model."
+  },
+  {
+    "problem_id": "B056",
+    "tool": "probability-bandit-information-bounds",
+    "role": "auxiliary",
+    "needed_lemma": "Kernel self-normalized concentration and RKHS regularity-adaptation/lower-bound constructions under their stated additive subgaussian/Gaussian feedback models; use to identify exactly what is missing for Bernoulli KL.",
+    "source_local_ids": [
+      "W15-006",
+      "W15-007",
+      "W15-008",
+      "W15-009",
+      "W15-018",
+      "W15-019",
+      "W15-028"
+    ],
+    "unproved_interface": "W15-006/-007/-008/-009/-018/-019/-028/-034 do not all use direct Ber(f(x)); W15-028 additionally writes an exact quadratic trajectory KL in Eq. (55) that is not implied by subgaussianity alone. W15-034 Bernoulli specialization uses a logistic mean link. Transfer to direct mean Bernoulli requires a valid KL argument and the exact B056 structured geometry.",
+    "excluded_unapproved_context_ids": [
+      "W15-034"
+    ]
+  },
+  {
+    "problem_id": "B050",
+    "tool": "probability-bandit-information-bounds",
+    "role": "direct",
+    "needed_lemma": "Keep the fixed-budget best-arm error exponent separate from fixed-confidence expected stopping time; define the exact uniform or pointwise optimality quantifier.",
+    "source_local_ids": [
+      "W15-002"
+    ],
+    "unproved_interface": "The original problem is a question, not a general theorem. BAI limits from later sources depend on number of arms, reward family, and optimality quantifiers."
+  },
+  {
+    "problem_id": "B050",
+    "tool": "probability-bandit-information-bounds",
+    "role": "auxiliary",
+    "needed_lemma": "Compare static allocation information exponents, adaptive sample allocation, and lower-bound changes of measure under the matching fixed-budget or fixed-confidence regime. W15-023 concerns finite-arm/continuous-arm pure exploration and terminal simple regret; W15-026 concerns Chernoff-information Explore-m confidence/fixed-budget guarantees; W15-029 concerns Bernoulli PAC sample-complexity lower bounds and separate regret quantifiers.",
+    "source_local_ids": [
+      "W15-003",
+      "W15-004",
+      "W15-010",
+      "W15-011",
+      "W15-012",
+      "W15-014",
+      "W15-020",
+      "W15-021",
+      "W15-023",
+      "W15-026",
+      "W15-027",
+      "W15-029"
+    ],
+    "unproved_interface": "No universal equivalence between fixed-confidence and fixed-budget complexity is assumed. W15-023 simple regret is not cumulative regret; W15-026 Chernoff complexity is not an online Bernoulli-KL regret objective; W15-029 stopping-PAC and all-horizon regret quantifiers remain separate. Verify each theorem’s instance-wise/uniform quantifiers and whether an algorithm achieves the proposed exponent.",
+    "excluded_unapproved_context_ids": [
+      "W15-032"
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "worker": "W12",
+  "skill": "probability-random-matrix-tensor",
+  "status": "draft_pending_independent_review",
+  "sources_total": 33,
+  "pdfs_downloaded": 33,
+  "complete_local_pdfs": 33,
+  "pdf_text_extracts": 33,
+  "total_pdf_pages": 1099,
+  "sha256_recorded": 33,
+  "identity_checked_from_local_title_page": 33,
+  "partial_read": 0,
+  "identity_page_only": 3,
+  "fulltext_read": 30,
+  "selected_book_chapters_read": 0,
+  "source_cards": 30,
+  "math_checks": [
+    {
+      "file": "evidence/W12/checks/norms_lp.m",
+      "method": "2,000,001-point MATLAB grid for p=4 norms, compared with exact analytic values",
+      "result_file": "checks/norms_lp.out",
+      "proof_note": "evidence/W12/checks/norms_lp-proof.md",
+      "status": "executed"
+    },
+    {
+      "file": "evidence/W12/checks/wishart_scalar_recursion.m",
+      "method": "MATLAB scalar p=1 evaluation of the stated Wishart Stein recursion at alpha=2.5, Sigma=1.7, n=4 against the closed Gamma moment",
+      "result_file": "checks/wishart_scalar_recursion.out",
+      "result": "both values 5191.35215625 at printed precision; relative error 0",
+      "status": "executed"
+    },
+    {
+      "file": "evidence/W12/checks/maitre_2025_thm14_scalar_diagnostic.m",
+      "method": "MATLAB exact Gaussian-moment arithmetic for scalar Brownian integrals; checks the original p=2 second-moment bound and falsifies the two incorrect power placements",
+      "result_file": "checks/maitre_2025_thm14_scalar_diagnostic.out",
+      "proof_note": "evidence/W12/checks/maitre_2025_thm14_scalar_diagnostic-proof.md",
+      "result": "original bound 2<=6; erroneous 2p-moment variant 12<=6 false; variant with p-th-power integrand at c=1/2 gives 0.5<=0.375 false",
+      "status": "executed"
+    }
+  ],
+  "review_status": "pending",
+  "gaps": [
+    "R06 batch 5 accepted worker full-text evidence for W12-007/008/011/012/013/019/020/025/030. It returned 20 records for section-level coverage and W12-027 for an incorrect Theorem 1.4 transcription. Coverage maps were added to W12-001/002/003/004/005/006/009/010/014/015/017/018/021/022/023/024/028/029/031/032; the W12-027 formula and skill references were corrected. These responses await R06 re-review. The 30 full-text flags remain worker reading records, not 30 independent reviewer certifications.",
+    "W12-032 identity/version was matched to the official arXiv abstract page and v1 PDF by D03, including title, authors, abstract, version, page count and PDF hash. The local mathematical theorem remains limited to its scalar jointly-Gaussian coordinate statement and is not a Wishart determinant theorem.",
+    "C206 current-status search is targeted but not exhaustive; no inference from W12-032's scalar Gaussian-coordinate theorem establishes a Wishart determinant lower-orthant event inequality.",
+    "B171 and B172 remain isolated historical endpoint leads from 2015, separate from formal120 C205/C206 (display IDs C38/C39). Post-2015 endpoint coverage has not been exhaustively ruled out.",
+    "W12-016, W12-026 and W12-033 remain identity-page-only; no selected book chapter has been read. Independent review remains pending and the skill is still a draft."
+  ],
+  "download_failures_or_substitutions": [
+    "Default-shell DNS failed for arXiv; the approved elevated curl path returned HTTP 200, so this was treated as an environment-path issue rather than a source outage.",
+    "A MIMUW mirror for the Latała–van Handel–Youssef paper returned 403; the arXiv full-text copy was used instead.",
+    "A Project Euclid PDF attempt for a related 2003 Junge–Xu paper returned 403; it was omitted rather than counted as acquired full text.",
+    "The arXiv identifier 2205.00588v5 was caught as an unrelated Jiang–Ma–Zhang prophet-inequality paper and excluded from the Randomstrasse/W12 source set."
+  ]
+}

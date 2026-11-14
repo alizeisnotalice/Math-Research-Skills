@@ -1,0 +1,4 @@
+interface:
+  display_name: "英文学术文献翻译"
+  short_description: "忠实翻译数学、物理和计算机英文文献，支持多代理协作并交付中文 Word 与 PDF"
+  default_prompt: "使用 $academic-paper-translator 将这篇英文文献完整翻译为简体中文，保留公式和原图，交付 Word 和 PDF。"
