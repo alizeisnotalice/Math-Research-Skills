@@ -18,7 +18,7 @@
     "methods": 64,
     "modeling": 3,
     "orchestration": 1,
-    "tools": 4,
+    "tools": 5,
     "probability": 26
   },
   "skills": [
@@ -844,6 +844,13 @@
       "description": "使用本机 Python 实际执行数学运算、SymPy 符号推导、NumPy/SciPy 数值计算与优化、有限枚举及结果验证；先选择已有解释器和数学库，再保存脚本、运行并检查结果。用户要求用 Python 跑计算或研究任务适合 Python 时使用。",
       "category": "tools",
       "path": "skills/python-math/SKILL.md"
+    },
+    {
+      "name": "remote-math-compute",
+      "title": "远程数学计算",
+      "description": "通过雷电桥或其他网络调用用户授权的远程电脑进行数学计算；核验 SSH 主机身份、发现远程 Python/MATLAB/Mathematica、分配独立任务并收集可复现结果。适用于 Mac mini 借用 MacBook 等跨机器研究计算。",
+      "category": "tools",
+      "path": "skills/remote-math-compute/SKILL.md"
     }
   ]
 }

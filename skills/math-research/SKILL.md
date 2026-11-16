@@ -19,6 +19,7 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | --- | --- |
 | 不确定该用什么数学方法 | 按 [数学方法索引](references/math-methods.md) 的主题检索，再读最相关的 1–2 个技能 |
 | 概率模型、随机过程或概率论证明 | 按 [概率专题索引](references/probability.md) 选择；涉及对偶、区间等步骤再加读相应数学方法 |
+| 借用其他电脑进行数学计算 | `remote-math-compute`，核验远端身份、环境与结果 |
 | 用 Python 运行数学计算 | `python-math`，检查已有环境后实际运行 |
 | 符号/数值计算、优化或计算辅助证明 | 读 [计算与电脑工具选择](references/tools.md)，选择本轮实际可用的工具；需要推导或结果验证时主动实际运行合适的本机计算 |
 | 找论文、按清单下载或核对引用 | 只检索用 `academic-literature-search`；检索并下载或按清单获取用 `literature-search-download`；知网用 `cnki-search` |

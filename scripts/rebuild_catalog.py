@@ -26,7 +26,7 @@ def category(name):
     if re.match(r'math-[a-n]\d\d-',name): return 'methods'
     if name.startswith('probability-'): return 'probability'
     if name.startswith('math-modeling-'): return 'modeling'
-    if name in {'python-math','mathematica-math','mathematica-research','matlab-plotting'}: return 'tools'
+    if name in {'python-math','mathematica-math','mathematica-research','matlab-plotting','remote-math-compute'}: return 'tools'
     if name in {'academic-literature-search','cnki-search','literature-download','literature-search-download'}: return 'literature'
     if name == 'astra-delegate': return 'collaboration'
     return 'writing'

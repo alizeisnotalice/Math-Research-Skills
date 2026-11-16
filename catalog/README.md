@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 108 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 109 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -16,6 +16,7 @@
 | [mathematica-research](../skills/mathematica-research/SKILL.md)（兼容 → mathematica-math） | 兼容旧版 Mathematica 研究调用名；指定该入口时使用 mathematica-math 的计算与核验流程。 |
 | [matlab-plotting](../skills/matlab-plotting/SKILL.md) | 使用本机 MATLAB 实际运行脚本，制作或修改论文与数学建模图；支持 CSV、Excel、MAT 和公式，检查中文、公式与排版，交付 PNG/PDF、可编辑 FIG 和可复现 .m 源码。用户要求 MATLAB 绘图、论文图美化、多子图或已有 MATLAB 图修改时使用。 |
 | [python-math](../skills/python-math/SKILL.md) | 使用本机 Python 实际执行数学运算、SymPy 符号推导、NumPy/SciPy 数值计算与优化、有限枚举及结果验证；先选择已有解释器和数学库，再保存脚本、运行并检查结果。用户要求用 Python 跑计算或研究任务适合 Python 时使用。 |
+| [remote-math-compute](../skills/remote-math-compute/SKILL.md) | 通过雷电桥或其他网络调用用户授权的远程电脑进行数学计算；核验 SSH 主机身份、发现远程 Python/MATLAB/Mathematica、分配独立任务并收集可复现结果。适用于 Mac mini 借用 MacBook 等跨机器研究计算。 |
 
 ## 数学方法（A–N）
 
