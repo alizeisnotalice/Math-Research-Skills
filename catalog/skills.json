@@ -15,10 +15,10 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
+    "tools": 6,
     "methods": 64,
     "modeling": 3,
     "orchestration": 1,
-    "tools": 5,
     "probability": 26
   },
   "skills": [
@@ -63,6 +63,13 @@
       "description": "在中国知网（CNKI）上检索学术论文并导出参考文献。Use when Codex needs to find CNKI papers, search Chinese academic literature, retrieve paper metadata/details/references, or produce GB/T 7714-style citations from queries mentioning 知网, CNKI, 中国知网, 文献检索, 论文搜索, 参考文献, 期刊论文, 学位论文, or 会议论文.",
       "category": "literature",
       "path": "skills/cnki-search/SKILL.md"
+    },
+    {
+      "name": "ipad-math-node",
+      "title": "iPad 数学计算节点",
+      "description": "通过 USB 数据线使用 iPad Math Node 应用执行支持的数学计算；核验设备和应用状态，提交有界任务并保存实际结果。适用于用户要求利用 iPad CPU 辅助研究。",
+      "category": "tools",
+      "path": "skills/ipad-math-node/SKILL.md"
     },
     {
       "name": "literature-download",
