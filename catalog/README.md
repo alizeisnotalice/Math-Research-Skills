@@ -1,18 +1,20 @@
 # 数学研究技能目录
 
-共 110 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 112 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
 | 技能 | 用途 |
 | --- | --- |
-| [math-research](../skills/math-research/SKILL.md) | 统筹数学研究、证明核验与计算实验：按问题选择数学方法技能、MATLAB、Python 或 Mathematica，并在需要时选择文件、浏览器或电脑操作工具。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。 |
+| [math-research](../skills/math-research/SKILL.md) | 统筹数学研究、证明核验与计算实验：按问题选择数学方法和概率专题，衔接数学计算、文献、写作和交付技能。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。 |
 
 ## 计算与绘图工具
 
 | 技能 | 用途 |
 | --- | --- |
 | [ipad-math-node](../skills/ipad-math-node/SKILL.md) | 通过 USB 数据线使用 iPad Math Node 应用执行支持的数学计算；核验设备和应用状态，提交有界任务并保存实际结果。适用于用户要求利用 iPad CPU 辅助研究。 |
+| [local-hybrid-math](../skills/local-hybrid-math/SKILL.md) | 合理调度本机 CPU 与 GPU，实测并优化 MATLAB、Mathematica/Wolfram Language、Python 的矩阵、数组、FFT、批量模拟等数学计算。用于 Apple Silicon/Metal、PyTorch MPS、GPUArray/gpuArray、加速、线程数、内存与精度问题；按规模、精度和含传输的实测耗时选择后端，保存运行证据，MATLAB 用后及时关闭。 |
+| [math-tool-router](../skills/math-tool-router/SKILL.md) | 按任务、精度和实际可用性调用本机数学工具，执行或核验数学推导、符号计算、数值计算、优化及计算实验。适用于在 Python、MATLAB、Mathematica/Wolfram、本机 CPU/GPU 和已授权设备间选路，也支持直接指定工具。 |
 | [mathematica-math](../skills/mathematica-math/SKILL.md) | 用 Mathematica/Wolfram Language 进行可复现的数学符号推导、数值计算、优化与绘图，并核验结果；数学任务需要实际调用 Mathematica 时使用，不用于一般 Notebook 编辑。 |
 | [mathematica-research](../skills/mathematica-research/SKILL.md)（兼容 → mathematica-math） | 兼容旧版 Mathematica 研究调用名；指定该入口时使用 mathematica-math 的计算与核验流程。 |
 | [matlab-plotting](../skills/matlab-plotting/SKILL.md) | 使用本机 MATLAB 实际运行脚本，制作或修改论文与数学建模图；支持 CSV、Excel、MAT 和公式，检查中文、公式与排版，交付 PNG/PDF、可编辑 FIG 和可复现 .m 源码。用户要求 MATLAB 绘图、论文图美化、多子图或已有 MATLAB 图修改时使用。 |

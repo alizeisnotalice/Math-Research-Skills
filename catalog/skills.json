@@ -15,7 +15,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "tools": 6,
+    "tools": 8,
     "methods": 64,
     "modeling": 3,
     "orchestration": 1,
@@ -85,6 +85,13 @@
       "description": "检索中英文学术文献、核验题录与版本、下载可获取的论文全文，交付 PDF、BibTeX 和可追溯清单。用于“找论文并下载”、按 DOI/题名/文献表批量获取全文，也支持只检索或只下载；不自动扩展为论文翻译或系统综述。",
       "category": "literature",
       "path": "skills/literature-search-download/SKILL.md"
+    },
+    {
+      "name": "local-hybrid-math",
+      "title": "本机 CPU / GPU 协同数学计算",
+      "description": "合理调度本机 CPU 与 GPU，实测并优化 MATLAB、Mathematica/Wolfram Language、Python 的矩阵、数组、FFT、批量模拟等数学计算。用于 Apple Silicon/Metal、PyTorch MPS、GPUArray/gpuArray、加速、线程数、内存与精度问题；按规模、精度和含传输的实测耗时选择后端，保存运行证据，MATLAB 用后及时关闭。",
+      "category": "tools",
+      "path": "skills/local-hybrid-math/SKILL.md"
     },
     {
       "name": "math-a01-fractional-normalization",
@@ -629,9 +636,27 @@
     {
       "name": "math-research",
       "title": "数学研究总入口",
-      "description": "统筹数学研究、证明核验与计算实验：按问题选择数学方法技能、MATLAB、Python 或 Mathematica，并在需要时选择文件、浏览器或电脑操作工具。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。",
+      "description": "统筹数学研究、证明核验与计算实验：按问题选择数学方法和概率专题，衔接数学计算、文献、写作和交付技能。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。",
       "category": "orchestration",
-      "path": "skills/math-research/SKILL.md"
+      "path": "skills/math-research/SKILL.md",
+      "requires": [
+        "math-tool-router"
+      ]
+    },
+    {
+      "name": "math-tool-router",
+      "title": "数学工具引导",
+      "description": "按任务、精度和实际可用性调用本机数学工具，执行或核验数学推导、符号计算、数值计算、优化及计算实验。适用于在 Python、MATLAB、Mathematica/Wolfram、本机 CPU/GPU 和已授权设备间选路，也支持直接指定工具。",
+      "category": "tools",
+      "path": "skills/math-tool-router/SKILL.md",
+      "requires": [
+        "python-math",
+        "mathematica-math",
+        "matlab-plotting",
+        "local-hybrid-math",
+        "remote-math-compute",
+        "ipad-math-node"
+      ]
     },
     {
       "name": "mathematica-math",

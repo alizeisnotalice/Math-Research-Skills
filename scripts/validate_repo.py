@@ -8,7 +8,7 @@ import re
 import sys
 from urllib.parse import unquote
 import yaml
-from rebuild_catalog import ALIASES, frontmatter
+from rebuild_catalog import ALIASES, RUNTIME_SKILLS, frontmatter
 from skill_common import load_repository
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -44,6 +44,9 @@ def main():
             errors.append('stale catalog description: '+name)
         if re.search(r'^\s*\[TODO:[^\n]*\]\s*$',body,re.M):
             errors.append('unfinished skill scaffold: '+name)
+        dependencies = skill.get('requires', [])
+        if dependencies != RUNTIME_SKILLS.get(name, []) or any(dep not in names for dep in dependencies):
+            errors.append('stale or missing runtime dependency: '+name)
         config=path.parent/'agents/openai.yaml'
         if config.exists():
             metadata=yaml.safe_load(config.read_text())

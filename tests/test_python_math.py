@@ -29,6 +29,19 @@ class PythonExecutionTests(unittest.TestCase):
         self.assertEqual(len(paths),1)
         return json.loads(paths[0].read_text())
 
+    def test_default_log_root_stays_on_data(self):
+        code = (
+            'import runpy,sys; '
+            'entry=runpy.run_path(sys.argv[1]); print(entry["default_log_root"]())'
+        )
+        keys = ('MATH_RESEARCH_RUN_DIR', 'TMPDIR', 'TMP', 'TEMP', 'XDG_CACHE_HOME')
+        environment = dict(os.environ, **dict.fromkeys(keys, '/private/tmp'))
+        result = subprocess.check_output([sys.executable, '-c', code, str(RUN)], text=True, env=environment)
+        self.assertEqual(result.strip(), '/Volumes/data/CodexTemp/Math-Research-Skills/python-math-runs')
+        environment['TEMP'] = '/Volumes/data/CodexTemp'
+        result = subprocess.check_output([sys.executable, '-c', code, str(RUN)], text=True, env=environment)
+        self.assertEqual(result.strip(), '/Volumes/data/CodexTemp/python-math-runs')
+
     def test_exact_calculation_and_process_exit(self):
         self.script.write_text('from fractions import Fraction\nprint(Fraction(1,3)+Fraction(1,6))\n')
         result=subprocess.run(self.command('--require','fractions'),capture_output=True,text=True,timeout=20)

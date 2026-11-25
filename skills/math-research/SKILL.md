@@ -1,6 +1,6 @@
 ---
 name: math-research
-description: "统筹数学研究、证明核验与计算实验：按问题选择数学方法技能、MATLAB、Python 或 Mathematica，并在需要时选择文件、浏览器或电脑操作工具。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。"
+description: "统筹数学研究、证明核验与计算实验：按问题选择数学方法和概率专题，衔接数学计算、文献、写作和交付技能。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。"
 ---
 
 # 数学研究总入口
@@ -19,15 +19,11 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | --- | --- |
 | 不确定该用什么数学方法 | 按 [数学方法索引](references/math-methods.md) 的主题检索，再读最相关的 1–2 个技能 |
 | 概率模型、随机过程或概率论证明 | 按 [概率专题索引](references/probability.md) 选择；涉及对偶、区间等步骤再加读相应数学方法 |
-| 使用 USB 连接的 iPad 参与计算 | `ipad-math-node`，仅按应用当前支持的任务执行 |
-| 借用其他电脑进行数学计算 | `remote-math-compute`，核验远端身份、环境与结果 |
-| 用 Python 运行数学计算 | `python-math`，检查已有环境后实际运行 |
-| 符号/数值计算、优化或计算辅助证明 | 读 [计算与电脑工具选择](references/tools.md)，选择本轮实际可用的工具；需要推导或结果验证时主动实际运行合适的本机计算 |
+| 符号/数值计算、优化、计算辅助证明、绘图或设备算力 | 读 [数学工具引导](../math-tool-router/SKILL.md)，选择并实际调用合适的本机工具。 |
 | 找论文、按清单下载或核对引用 | 只检索用 `academic-literature-search`；检索并下载或按清单获取用 `literature-search-download`；知网用 `cnki-search` |
 | 写数学研究论文 | `math-paper-writing`；一般学术文章用 `academic-paper-writing`；翻译用 `academic-paper-translator` |
 | 论文或技术说明的表达精简 | `anti-defensive-writing`，保留数学条件、证据范围和真实缺口 |
 | 数学建模竞赛的审计、排版或提交包 | 分别用 `math-modeling-audit`、`math-modeling-paper`、`math-modeling-delivery` |
-| 论文数据绘图 | MATLAB 工作流用 `matlab-plotting`；其他图按当前目标选择可复现工具 |
 | 明确要求 Astra 协助 | `astra-delegate`；不从普通数学请求推导自动委派 |
 
 以上名称都在本机已安装技能中查找，或在仓库 `skills/<name>/SKILL.md` 中读取。相关技能没安装时先使用现有能力继续可独立的工作，报告缺少的具体依赖；不把名称当作已经执行的工具。
@@ -40,4 +36,4 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 4. 分开表述严格证明、数值证据、猜想、否定结果与待核验。有限网格、浮点最优状态、软件化简、历史阅读统计及文件哈希都不自动成为全域数学证明。需要严格数值结论时核对精确/区间证书及其适用条件。
 5. 最终交付用户所需的论证、代码或文件，简述真实执行的工具、关键输入/输出、证据范围和剩余缺口；不要只交工具选择清单。
 
-来源附件或旧审核记录的处理见 [证据与迁移说明](references/evidence.md)。跨软件的操作步骤见 [工作流衔接](references/workflows.md)。
+文件、网页和应用操作见 [电脑工具选择](references/tools.md#何时操作电脑)。来源附件或旧审核记录的处理见 [证据与迁移说明](references/evidence.md)。跨软件的操作步骤见 [工作流衔接](references/workflows.md)。

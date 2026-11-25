@@ -1,13 +1,13 @@
 # Math-Research-Skills
 
-面向本机数学研究的技能库，共 **110 个技能入口**：新建研究总入口与 Python 数学计算技能，整理本机原有技能，并迁入 Math-Research 的 64 项方法及来源记录。
+面向本机数学研究的技能库，共 **112 个技能入口**：新建研究总入口与 Python 数学计算技能，整理本机原有技能，并迁入 Math-Research 的 64 项方法及来源记录。
 
 从 **[`math-research`](skills/math-research/SKILL.md)** 开始。它按问题选择数学方法、概率专题、Python / MATLAB / Mathematica、文献与写作工作流；需要操作文件、网页或原生应用时，先检查当前可用工具。详细目录见 [全部技能](catalog/README.md)。
 
 | 类别 | 数量 | 内容 |
 | --- | ---: | --- |
 | 研究总入口 | 1 | `math-research` |
-| 计算与绘图工具 | 6 | `ipad-math-node`、`remote-math-compute`、`python-math`、`mathematica-math`、Mathematica 旧名兼容入口、`matlab-plotting` |
+| 计算与绘图工具 | 8 | `math-tool-router`、`local-hybrid-math`、 `ipad-math-node`、`remote-math-compute`、`python-math`、`mathematica-math`、Mathematica 旧名兼容入口、`matlab-plotting` |
 | 数学方法 | 64 | A–N：归一化、对偶、锥规划、熵、Bellman、Fourier、Carleson、概率尾界、跳跃过程、随机场、计算证书、凸几何等 |
 | 概率研究专题 | 26 | 测度收敛、鞅、集中、随机矩阵、Markov 混合、渗流、随机树、SLE、在线选择等 |
 | 文献检索与获取 | 4 | 主题检索、知网、检索与下载、旧下载入口 |
@@ -17,7 +17,7 @@
 
 ## 使用与安装
 
-在 Codex 中调用 `$math-research`；需要 Python 运算时可直接调用 `$python-math`。技能名保持不变，原有引用仍可使用。三个兼容入口汇入对应主流程，避免维护相互冲突的默认行为。
+在 Codex 中调用 `$math-research`；需要选用和执行数学工具时直接调用 `$math-tool-router`，需要 Python 运算时也可调用 `$python-math`。技能名保持不变，原有引用仍可使用。三个兼容入口汇入对应主流程，避免维护相互冲突的默认行为。
 
 安装默认先预览，不删除本机原有文献、证据、缓存和其他技能：
 

@@ -53,9 +53,20 @@ def install(repo, target, names, apply, backup_root):
     selected = set(names) if names else set(available)
     unknown = selected-set(available)
     if unknown: raise ValueError('unknown skills: '+', '.join(sorted(unknown)))
-    for name in list(selected):
-        if available[name].get('alias_for'): selected.add(available[name]['alias_for'])
-    if 'math-research' in available: selected.add('math-research')
+    if 'math-research' in available:
+        selected.add('math-research')
+    pending = list(selected)
+    while pending:
+        skill = available[pending.pop()]
+        dependencies = list(skill.get('requires', []))
+        if skill.get('alias_for'):
+            dependencies.append(skill['alias_for'])
+        for dependency in dependencies:
+            if dependency not in available:
+                raise ValueError(f"unknown dependency for {skill['name']}: {dependency}")
+            if dependency not in selected:
+                selected.add(dependency)
+                pending.append(dependency)
     target = target.expanduser().resolve()
     assert_storage(target)
     operations=[]

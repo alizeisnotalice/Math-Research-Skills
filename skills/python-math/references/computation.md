@@ -16,6 +16,6 @@
 
 ## 运行记录与内存
 
-执行器先做模块导入预检，成功后才启动用户脚本。每次运行生成独立日志目录：`run.json`、`stdout.txt`、`stderr.txt` 和输入脚本快照。日志根优先显式参数或 `MATH_RESEARCH_RUN_DIR`，再使用 TMPDIR/TMP/TEMP/XDG_CACHE_HOME 指定的位置；本机未配置时使用 `/Volumes/data/CodexTemp/Math-Research-Skills`。data 不可用时不回退系统盘。
+执行器先做模块导入预检，成功后才启动用户脚本。每次运行生成独立日志目录：`run.json`、`stdout.txt`、`stderr.txt` 和输入脚本快照。日志根优先显式参数或 `MATH_RESEARCH_RUN_DIR`，再检查 TMPDIR/TMP/TEMP/XDG_CACHE_HOME。环境变量仅在解析后位于 data 盘时作为默认日志根；否则使用 `/Volumes/data/CodexTemp/Math-Research-Skills`。data 不可用时不回退系统盘。
 
 超时和取消只终止本次创建的进程组，写明结果可能不完整。普通任务由短命令行子进程执行，计算完自动释放进程内存；大型数组不跨无关任务保留在长期交互会话。读取 stdout/stderr 的实际内容后再解释结果，执行器的成功状态只代表脚本正常退出。

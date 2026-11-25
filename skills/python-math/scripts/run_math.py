@@ -26,6 +26,16 @@ def check_data_mount(path):
         raise ValueError('data is not mounted; refusing to fall back to the system disk')
 
 
+def default_log_root():
+    base = Path('/Volumes/data')
+    for key in ('MATH_RESEARCH_RUN_DIR', 'TMPDIR', 'TMP', 'TEMP', 'XDG_CACHE_HOME'):
+        if value := os.environ.get(key):
+            candidate = Path(value).expanduser().resolve()
+            if candidate.is_relative_to(base):
+                return candidate / 'python-math-runs'
+    return base / 'CodexTemp/Math-Research-Skills/python-math-runs'
+
+
 def environment_candidates(explicit, workdir):
     if explicit:
         return [explicit]
@@ -103,9 +113,7 @@ def main(argv=None):
         check_data_mount(workdir)
         explicit = args.interpreter or os.environ.get('MATH_RESEARCH_PYTHON')
         executable, runtime, attempts = select_environment(environment_candidates(explicit, workdir), modules)
-        default_root = next((os.environ[key] for key in ('MATH_RESEARCH_RUN_DIR','TMPDIR','TMP','TEMP','XDG_CACHE_HOME') if os.environ.get(key)),
-                            '/Volumes/data/CodexTemp/Math-Research-Skills')
-        log_root = (args.log_root or Path(default_root) / 'python-math-runs').expanduser().absolute()
+        log_root = (args.log_root or default_log_root()).expanduser().absolute()
         check_data_mount(log_root)
         log_root.mkdir(parents=True, exist_ok=True)
         log_root = log_root.resolve()

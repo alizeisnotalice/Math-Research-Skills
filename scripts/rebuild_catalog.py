@@ -11,6 +11,13 @@ ROOT = Path(__file__).resolve().parents[1]
 ALIASES = {'mathematica-research':'mathematica-math',
            'literature-download':'literature-search-download',
            'pdf-paper-translate':'academic-paper-translator'}
+RUNTIME_SKILLS = {
+    'math-research': ['math-tool-router'],
+    'math-tool-router': [
+        'python-math', 'mathematica-math', 'matlab-plotting',
+        'local-hybrid-math', 'remote-math-compute', 'ipad-math-node',
+    ],
+}
 LABELS = {'orchestration':'研究总入口','tools':'计算与绘图工具','methods':'数学方法（A–N）',
           'probability':'概率研究专题','literature':'文献检索与获取','writing':'论文写作、翻译与表达',
           'modeling':'数学建模竞赛','collaboration':'指定模型咨询'}
@@ -26,7 +33,7 @@ def category(name):
     if re.match(r'math-[a-n]\d\d-',name): return 'methods'
     if name.startswith('probability-'): return 'probability'
     if name.startswith('math-modeling-'): return 'modeling'
-    if name in {'python-math','mathematica-math','mathematica-research','matlab-plotting','remote-math-compute','ipad-math-node'}: return 'tools'
+    if name in {'math-tool-router','local-hybrid-math','python-math','mathematica-math','mathematica-research','matlab-plotting','remote-math-compute','ipad-math-node'}: return 'tools'
     if name in {'academic-literature-search','cnki-search','literature-download','literature-search-download'}: return 'literature'
     if name == 'astra-delegate': return 'collaboration'
     return 'writing'
@@ -53,6 +60,7 @@ def main():
                 'path':str(entry.relative_to(ROOT))}
         if item['category']=='methods': item['family']=name[5]
         if name in ALIASES: item['alias_for']=ALIASES[name]
+        if name in RUNTIME_SKILLS: item['requires'] = RUNTIME_SKILLS[name]
         skills.append(item)
     counts = dict(Counter(s['category'] for s in skills))
     write_json(ROOT/'catalog/skills.json',{'schema_version':1,'entry_skill':'math-research',

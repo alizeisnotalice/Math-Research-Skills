@@ -62,6 +62,20 @@ class InstallationTests(unittest.TestCase):
         self.assertEqual(self.evidence.read_bytes(),b'local evidence must survive')
         self.assertEqual(self.call('--restore',str(journal),'--apply')['files'],0)
 
+    def test_partial_install_includes_runtime_dependencies(self):
+        catalog = self.repo/'catalog/skills.json'
+        document = json.loads(catalog.read_text())
+        document['skills'].extend([
+            {'name':'math-research', 'requires':['router']},
+            {'name':'router', 'requires':['backend-alias']},
+            {'name':'backend-alias', 'alias_for':'backend'},
+            {'name':'backend'},
+            {'name':'unrelated'},
+        ])
+        catalog.write_text(json.dumps(document))
+        result = self.call('--skill', 'demo-math')
+        self.assertEqual(result['skills'], 5)
+
     def test_reinstall_is_idempotent(self):
         self.call('--apply')
         modified=self.old.stat().st_mtime_ns

@@ -1,0 +1,4 @@
+interface:
+  display_name: "本机 CPU/GPU 协同数学计算"
+  short_description: "实测调度 MATLAB、Mathematica 与 Python 的 CPU 和 GPU"
+  default_prompt: "使用 $local-hybrid-math 为本次数学计算选择并验证 CPU/GPU 路径，优化端到端耗时，保存精度、计时与运行证据，MATLAB 用后及时关闭。"

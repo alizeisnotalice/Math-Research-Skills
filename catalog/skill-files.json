@@ -194,6 +194,102 @@
       "mode": 420
     },
     {
+      "path": "skills/local-hybrid-math/SKILL.md",
+      "sha256": "fc9ded6a3a597bfe2cb6fc5787762743abe086b2c9de314916e620755eaf423e",
+      "bytes": 4085,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/agents/openai.yaml",
+      "sha256": "f3a7b77a195fa13afdb23f7904fbcf910999940b90c71e2987c364d6fd5a84c3",
+      "bytes": 339,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/references/host.md",
+      "sha256": "8585c4d9c0a1e308ae73b7a777fd6fa82021d91ab5f1eddf7b67f588ea1d1999",
+      "bytes": 1748,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/references/matlab.md",
+      "sha256": "b158ea54d694af11899ec1aa69d766edc07f387f9b8be45cfead5911b12ed420",
+      "bytes": 2467,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/references/python.md",
+      "sha256": "96df833e2bef92fca5f78277e25e3d1a16979a13a60f8465939c15352b98bd4b",
+      "bytes": 3741,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/references/scheduling.md",
+      "sha256": "d19f4a417ad77bc4397cfd66d23f232b68be2de0243e1b3a327e1e98bbe4a758",
+      "bytes": 2793,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/references/sources.md",
+      "sha256": "e3843dea684fc64b80a880d368e69b3d46bf9838180174276cccd932e09e32fe",
+      "bytes": 1225,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/references/wolfram.md",
+      "sha256": "7aea53a5432f2e1dd7d522ed564d9209f23ba81f232c8295bfffe803b61ad6d0",
+      "bytes": 2318,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/LocalGPUMath.wl",
+      "sha256": "6d5acff5d2cfa2d43305f00e1189e245357a3f666cd2f379e81d1eecbe9428d4",
+      "bytes": 2971,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/benchmark_residency.py",
+      "sha256": "02dcec2db46bdd67003d61cfc76a71b05f04054113e2171a77294a528c660498",
+      "bytes": 3473,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/gpu_math.py",
+      "sha256": "133476d42f1c49a845688595ec414b0e0de3cef3189f21dc118b59419aabe48a",
+      "bytes": 12582,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/hybrid_math.py",
+      "sha256": "33def8a0136d046cc138f3d8ca8d7b915eda44f3f2ac74491c1672b29d69f48b",
+      "bytes": 14937,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/local_compute.m",
+      "sha256": "bdb89abd45d19da77a6b0adc5c2f5c75b25979b91cd5e170f932dd1e3b130be6",
+      "bytes": 3683,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/local_gpu.m",
+      "sha256": "91bdc28a9e653f19c2ac096c265a502c2f982af5e21be04d74c5febcb7eb12b2",
+      "bytes": 4072,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/run_matlab_batch.py",
+      "sha256": "45783a8f6791580052b25147bf37eb77ba710cf3a38398f38c49e212975fbdcf",
+      "bytes": 3614,
+      "mode": 420
+    },
+    {
+      "path": "skills/local-hybrid-math/scripts/run_wolfram_batch.py",
+      "sha256": "1a74823f6ccde240ef4cb95bacb69e17bb9a3eaee33b143d8442cbecab1f89c3",
+      "bytes": 2221,
+      "mode": 420
+    },
+    {
       "path": "skills/math-a01-fractional-normalization/SKILL.md",
       "sha256": "afc2593969d4b7b934e14a40e22ddfaf122c63ff81edb08b498fab23cef823d9",
       "bytes": 4163,
@@ -6393,8 +6489,8 @@
     },
     {
       "path": "skills/math-research/SKILL.md",
-      "sha256": "092af3e6d0526f0f9404e0b6533a8fd0490ba9f1bbd5a9c75a6c804cc9f996ca",
-      "bytes": 4381,
+      "sha256": "84d044dc21dd3a72f71065e3aace01516a8dfd5b32f7bf4dd76a621b02ccf34d",
+      "bytes": 4003,
       "mode": 420
     },
     {
@@ -6423,8 +6519,8 @@
     },
     {
       "path": "skills/math-research/references/tools.md",
-      "sha256": "af7377db02d15b26af72b817bcf0ae5ba08cc27aa7a42359a0df1e9939801812",
-      "bytes": 4829,
+      "sha256": "860974f5e23dd2bb887212a4e2906f45d51657b56ee81914e08d18bddef0cbfb",
+      "bytes": 1955,
       "mode": 420
     },
     {
@@ -6440,9 +6536,21 @@
       "mode": 420
     },
     {
+      "path": "skills/math-tool-router/SKILL.md",
+      "sha256": "c77fabfe0d501c4ec1d5a1d15a22b5a37e46e89575fb5108cbf28fd49e5055f2",
+      "bytes": 2947,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-tool-router/agents/openai.yaml",
+      "sha256": "abd8f470e1b396c9592c94a6f5c6ef981170517605734cae1d7546ef1ea64ecc",
+      "bytes": 247,
+      "mode": 420
+    },
+    {
       "path": "skills/mathematica-math/SKILL.md",
-      "sha256": "3e698d06a7bab99ca01573a3b2566b3dccb6f554b6f21b5de7c11417d2b4cd35",
-      "bytes": 4040,
+      "sha256": "6f0362056e2eb495bc043588f294360544f0421153bf8420b0591c2329c7b636",
+      "bytes": 3447,
       "mode": 420
     },
     {
@@ -6453,8 +6561,8 @@
     },
     {
       "path": "skills/matlab-plotting/SKILL.md",
-      "sha256": "7d386ed23386378d7de63e73b09114a60d4ee25b7d90cf8f4a1acadda7e99a27",
-      "bytes": 8355,
+      "sha256": "0ab675c28cbfd0d56115dcbb8efeb2f508f6ee0987cb15d4c4cfe7957b749030",
+      "bytes": 7281,
       "mode": 420
     },
     {
@@ -14295,14 +14403,14 @@
     },
     {
       "path": "skills/python-math/references/computation.md",
-      "sha256": "acb595ee8dfb6bbaec1bb63354e228e15880e5798effabfe4a9e0931cca43815",
-      "bytes": 2285,
+      "sha256": "8295c99ea50dc792f2f3b7120bc38628b17c70c32ecf86eb0aee14dfae4d2cfe",
+      "bytes": 2326,
       "mode": 420
     },
     {
       "path": "skills/python-math/scripts/run_math.py",
-      "sha256": "31f0c15bee2fb7a599cd0387ffa45903fbbb62b985d9ebc867427d24766606fc",
-      "bytes": 7721,
+      "sha256": "ff60bfa52b1fe1c3c993b8117dff8d7ace1dd0a6bea33ab848b2fc93dd88d744",
+      "bytes": 7891,
       "mode": 420
     },
     {

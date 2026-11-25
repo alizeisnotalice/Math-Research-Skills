@@ -1,0 +1,4 @@
+interface:
+  display_name: "数学工具引导"
+  short_description: "选择并实际调用合适的本机数学工具"
+  default_prompt: "使用 $math-tool-router 选择合适的数学工具，执行计算，保存结果并说明核验范围。"

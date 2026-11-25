@@ -1,36 +1,10 @@
-# 计算与电脑工具选择
+# MATLAB 与电脑工具说明
 
-## 先发现，再调用
+数学计算的后端选择和探测由 [数学工具引导](../../math-tool-router/SKILL.md) 负责。
 
-查看本轮暴露的工具及其说明。连接器、专用 MCP 或可靠 CLI 足够时优先使用；需要界面时使用本轮存在的浏览器/电脑工具并先读其当前文档。配置文件、可执行路径和历史日志只能提供线索，不证明本轮工具可调用。
+## MATLAB
 
-`python3 <math-research技能目录>/scripts/probe_tools.py` 可只读检查命令、本机应用候选及当前 Python 数学库。它默认不启动 MATLAB/Wolfram，也不安装依赖。可用 `--python /path/to/python` 检查项目已有解释器；`--smoke python` 或 `--smoke wolfram` 执行短计算以验证运行能力。结果留在当前任务记录中，不写回技能目录。
-
-## 按问题选数学后端
-
-| 需要的能力 | 首选依据 | 实际执行与边界 |
-| --- | --- | --- |
-| 精确整数/有理数、有限枚举、数据处理 | Python 标准库；已有 SymPy/NumPy/SciPy 则按需使用 | 检查当前解释器，不把另一虚拟环境的库当成已导入；严格有限断言需完整枚举与可检查判据 |
-| 矩阵、数值线性代数、ODE、优化、MAT 数据 | 当前 MATLAB MCP/已有 MATLAB，或已有 Python 数值栈 | 检查工具箱/求解器和状态，独立核对候选可行性与残差；浮点解不等于全局证书 |
-| 符号化简、精确求解、高精度积分与参数表达式 | 当前可用 Mathematica/Wolfram 或 SymPy | 指定假设、定义域、分支和精度；Mathematica 详细过程读 `mathematica-math` |
-| 论文 MATLAB 图与 FIG | `matlab-plotting` | 源码实际执行，检查导出图；不能用其他库图片冒充 MATLAB |
-| 全局界、SOS/矩松弛、LP/MIP/SMT | 对应数学方法技能及实际已有求解器 | 明确模型与原问题的关系、上下界方向、容差和证书；缺少求解器时先完成模型，不能声称已求解 |
-
-用户明确指定工具时优先落实；不可用时报告具体原因。普通研究不强制所有软件都运行；验证关键结果时选择有独立意义的第二种检查。
-
-### MATLAB
-
-发现当前 `detect_matlab_toolboxes`/`evaluate_matlab_code`/`run_matlab_file` 等实际工具名及参数。首次确认版本和所需工具箱；长代码存 `.m` 后运行。使用局部变量或函数，避免污染用户会话；不要 `clear all`、`close all`、`restoredefaultpath` 或未保存工作直接退出已有会话。计算、导出与核验结束后先保存脚本、结果及必要工作区，再及时退出 MATLAB 并核对进程结束，释放内存；保留用户原有未保存工作。命令行优先用自动退出的 `-batch`。MCP 连接在退出后可能断开，下次按实际状态重连。仅关闭本次创建的图。MCP 不可用时按 `matlab-plotting` 的 CLI 指南选择已安装 MATLAB，不默认其存在于 PATH。
-
-### Mathematica
-
-读取 `mathematica-math`。先发现 MCP，否则找 `wolframscript` 和实际内核；必要时仅对当前命令设置 `WolframKernel`。脚本用精确输入，避免把机器数提升标称精度当作新增有效位。许可或内核报错如实保留，不静默安装软件或修改全局配置。`mathematica-research` 是保留旧调用名的兼容入口。
-
-### Python
-
-读取 `python-math` 的环境选择、执行器和计算核验流程。
-
-优先当前项目已有环境，必要时检查用户已有且任务相关的解释器。先测试实际导入，再运行核心计算。不要为这次选择工具自动安装一整套依赖。缺少数组库时，能用标准库精确完成的小任务直接做；需要矩阵或符号库则选择已可用后端。
+发现当前 `detect_matlab_toolboxes`/`evaluate_matlab_code`/`run_matlab_file` 等实际工具名及参数。首次确认版本和所需工具箱；长代码存 `.m` 后运行。使用局部变量或函数，避免污染用户会话；不要 `clear all`、`close all`、`restoredefaultpath` 或未保存工作直接退出已有会话。保存脚本与核验后的结果。命令行优先使用自动退出的 `-batch`。核对本次启动的软件已退出，对既有会话只释放本次创建的资源。MCP 不可用时按 `matlab-plotting` 的 CLI 指南选择已安装 MATLAB，不默认其存在于 PATH。
 
 ## 何时操作电脑
 
