@@ -39,3 +39,5 @@ PSD和归一化不自动推出rank-one；丢弃秩约束通常只给界。变量
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+已有有限 PSD 因式分解而需要控制因子尺度时，用[最大行列式归一化](references/psd-factor-normalization.md)。

@@ -18,7 +18,7 @@
     "collaboration": 1,
     "research-specialists": 8,
     "tools": 8,
-    "methods": 77,
+    "methods": 82,
     "modeling": 3,
     "orchestration": 1,
     "probability": 41
@@ -629,6 +629,46 @@
       "description": "用固定仿射切片上的简单极方程零点核验复数域的仿射行列式表示尺寸下界，含系数极限模型。检查方向、简单性、左右核和多齐次计数。",
       "category": "methods",
       "path": "skills/math-l08-determinantal-polar-certificates/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l09-deletion-trace-rank-moments",
+      "title": "删除信道秩矩与局部比较",
+      "description": "对独立删除信道的秩统计、矩生成函数恒等式与局部 TV/Hellinger 比较做精确推导或审计；不用于直接认可一般 trace reconstruction 定理。",
+      "category": "methods",
+      "path": "skills/math-l09-deletion-trace-rank-moments/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l10-prefix-code-decompositions",
+      "title": "前缀码分裂与线性部分恢复",
+      "description": "用前缀码 episode 的 split identity 与同字 Boolean-affine recovery，构造或审计有限状态/有限向量空间的序列图语言；不用于认可来源的任何整体星高结论或复杂度界。",
+      "category": "methods",
+      "path": "skills/math-l10-prefix-code-decompositions/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l11-gaussian-projection-density",
+      "title": "L11 · 精确 Gaussian 投影密度与共同标签",
+      "description": "在精确 Gaussian 线性观测下建立或审查局部质量到投影密度、共同标签纤维与有限状态选择界。用于有限状态回归下界的局部几何步骤，不把预印本中的完整流式下界当作默认定理。",
+      "category": "methods",
+      "path": "skills/math-l11-gaussian-projection-density/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l12-automata-relation-monoids",
+      "title": "自动机关系幺半群接口",
+      "description": "对有限自动机的局部计算接口、有限关系幺半群角限制同构与上下文分离做精确推导或审计；不用于直接断言一般状态下界。",
+      "category": "methods",
+      "path": "skills/math-l12-automata-relation-monoids/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l13-finite-graph-refinement",
+      "title": "L13 · 有限图的元组颜色与奇偶提升",
+      "description": "复核两个显式有限简单图的 Weisfeiler–Leman 元组颜色，区分联合替换与分离多重集，或按 F2 线性系统核对有限图同态的奇偶提升。",
+      "category": "methods",
+      "path": "skills/math-l13-finite-graph-refinement/SKILL.md",
       "family": "l"
     },
     {

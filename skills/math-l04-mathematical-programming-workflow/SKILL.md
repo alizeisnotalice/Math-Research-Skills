@@ -34,3 +34,5 @@ description: 组织数学规划软件的建模与结果核验，检查求解器�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+度量设施选址的代理数量与 LP 舍入建模，读[设施质量拆分与阈值预算](references/metric-facility-audits.md)。

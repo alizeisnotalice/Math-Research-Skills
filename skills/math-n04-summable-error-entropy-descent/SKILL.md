@@ -37,3 +37,5 @@ description: 组织可求和误差与熵递减论证，检查逐层预算、收�
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
 
 本轮数列望远镜推导与两篇邻接全文的边界记录见 [当前审核](references/audit-current-lmn-20261007.md)；论文全文阅读不等于它们支持N04递推。
+
+分析固定输入的随机指标块时，用[子集和缺损与无放回方差](references/subset-sum-deficiency.md)核对按指标计数和重叠条件。

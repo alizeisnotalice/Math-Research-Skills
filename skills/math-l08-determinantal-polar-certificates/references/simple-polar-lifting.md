@@ -21,3 +21,10 @@ n\ge\frac{h+1}{4e}\mu^{1/(h+1)}.
 本机 SymPy 以 \(Q(x,y)=xy-1\) 和 \(w=(1,1)\) 验证两个复简单根 \((\pm\mathrm i,\mp\mathrm i)\)。核向量为 \((1,-x)\)，二乘二简单性行列式为 \(y-x\)，\(n=2,h=1\) 的多齐次系数为 3。
 
 OpenAI 预印本 PDF 27–31 页，Lemma 8.2、Proposition 8.3 的局部核提升与计数。用于永久式的特定光滑切片构造需再核对。SHA-256 9eb71358fe8d9e08b450286ec6f40cb9f1452f3a49ed7801429485c2676526a6。[A cubic lower bound for border determinantal complexity of the permanent](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/A-cubic-lower-bound-for-border-determinantal-complexity-of-the-permanent-September-24-2026/A-cubic-lower-bound-for-border-determinantal-complexity-of-the-permanent-September-24-2026.pdf)
+
+
+## 整系数秩证书跨特征零域
+
+由整系数多项式、乘法及普通微分构造的有限线性算子，在单项式基中的矩阵可直接用整数生成。每个子式是整数，非零性在任意特征零域上保持。因此这种矩阵的复数域秩界，只要确实是同一个算子，便可传给其它特征零域。若来源使用带权正规化基，核对那一步为复数域内的可逆换基。作为最小核验，本机 SymPy 得二阶微分作用在 \(x^2\) 的系数为 2，在特征零上的一阶子式非零，在特征二变零。线路复杂度上界或特定矩阵族的秩估计仍各自需要证明。
+
+- OpenAI 预印本 PDF 19 页，Corollary 6.1 使用整数秩传递。SHA-256 c8b7c21cad425efeb1d244695e92c3e790448ff1a2c624fda0d988a043abacf9。[Homogeneous depth-five lower bounds for iterated matrix multiplication](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Homogeneous-depth-five-lower-bounds-for-iterated-matrix-multiplication-September-25-2026/Homogeneous-depth-five-lower-bounds-for-iterated-matrix-multiplication-September-25-2026.pdf)

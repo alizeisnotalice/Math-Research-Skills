@@ -23,3 +23,5 @@ description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边�
 核对素数参数差分问题的等差限制时，读 [原文构件](references/local-root-restriction.md)。
 
 若计数对象有多个算术见证，用 [同值见证的并集去重](references/totient-witness-unions.md) 核对共享阈值空间和跨前缀碰撞。
+
+构造特征二的显式有限域或核对一元商代数的乘法迹时，按[有限域扩张与一元乘法迹](references/finite-algebra-operations.md)保留域与判别条件。

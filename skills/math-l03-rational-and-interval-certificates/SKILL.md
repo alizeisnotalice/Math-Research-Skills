@@ -43,3 +43,5 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+将已核验的周期积分不等式转到有限均匀网格时，按[周期网格与分母误差](references/periodic-grid-transfer.md)保留导数界及正分母下界。

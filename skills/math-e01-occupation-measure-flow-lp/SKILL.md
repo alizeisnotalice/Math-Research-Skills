@@ -13,3 +13,5 @@ description: 建立占用测度、有限时域概率流和流守恒 LP，核对�
 - 针对扩散、均场、峰值 ES、切换和旧中心立方体模型，按[模型假设与原文核验](references/model-evidence.md)逐条选用。来源版本和适用范围见[来源与阅读状态](references/provenance.md)，原文定位见[便携证据索引](references/handoff-evidence-index.csv)。
 
 输出原始问题、流平衡式以及证明或证书所支持的方向与可达到性。有限模型的可行性只能在其已证明的还原条件下传回原过程。
+
+对子串次数构造分层有向多图时，使用[子串计数与 Euler 日程](references/hierarchical-word-flow.md)核对守恒、支持连通性和追加字符的输出。

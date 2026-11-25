@@ -51,3 +51,7 @@ description: 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+三个并行机器的单位作业有序分解，使用[三元槽位的路径式排程见证](references/three-machine-schedule-certificates.md)验证间隙与跨分块前置关系。
+
+局部填充和擦除定义有限状态图时，读[分阶段互反的局部证书](references/reciprocal-transcript-transitions.md)。

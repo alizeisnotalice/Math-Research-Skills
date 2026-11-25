@@ -87,6 +87,11 @@
 - [math-l06-tensor-rank-accounting](../../math-l06-tensor-rank-accounting/SKILL.md)：审查矩阵乘法张量提取中的直接和形状、辅助张量秩收费、共享腿分离与固定参数容量账本。用于有明确有限秩证书的张量退化；不把熵计算或数值搜索单独当作指数证明。
 - [math-l07-noncommutative-matrix-tests](../../math-l07-noncommutative-matrix-tests/SKILL.md)：对非交换公式或无环路径程序，按特征、是否含逆门及树模型选择有理/有限域矩阵 hitting point 或 hitting list，并核验截断字级数与 affine-pencil 定义域条件。不要用于共享电路或未承诺的 rational expression。
 - [math-l08-determinantal-polar-certificates](../../math-l08-determinantal-polar-certificates/SKILL.md)：用固定仿射切片上的简单极方程零点核验复数域的仿射行列式表示尺寸下界，含系数极限模型。检查方向、简单性、左右核和多齐次计数。
+- [math-l09-deletion-trace-rank-moments](../../math-l09-deletion-trace-rank-moments/SKILL.md)：对独立删除信道的秩统计、矩生成函数恒等式与局部 TV/Hellinger 比较做精确推导或审计；不用于直接认可一般 trace reconstruction 定理。
+- [math-l10-prefix-code-decompositions](../../math-l10-prefix-code-decompositions/SKILL.md)：用前缀码 episode 的 split identity 与同字 Boolean-affine recovery，构造或审计有限状态/有限向量空间的序列图语言；不用于认可来源的任何整体星高结论或复杂度界。
+- [math-l11-gaussian-projection-density](../../math-l11-gaussian-projection-density/SKILL.md)：在精确 Gaussian 线性观测下建立或审查局部质量到投影密度、共同标签纤维与有限状态选择界。用于有限状态回归下界的局部几何步骤，不把预印本中的完整流式下界当作默认定理。
+- [math-l12-automata-relation-monoids](../../math-l12-automata-relation-monoids/SKILL.md)：对有限自动机的局部计算接口、有限关系幺半群角限制同构与上下文分离做精确推导或审计；不用于直接断言一般状态下界。
+- [math-l13-finite-graph-refinement](../../math-l13-finite-graph-refinement/SKILL.md)：复核两个显式有限简单图的 Weisfeiler–Leman 元组颜色，区分联合替换与分离多重集，或按 F2 线性系统核对有限图同态的奇偶提升。
 ## M · 凸性、极点与选择
 
 - [math-m01-convex-hull-extreme-points](../../math-m01-convex-hull-extreme-points/SKILL.md)：用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。

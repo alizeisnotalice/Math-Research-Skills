@@ -15,6 +15,8 @@ When differentiating a reversible family with Gibbs law `pi_theta`, state the fi
 
 Treat finite enumeration, floating-point eigensolvers, and high-precision point checks as search evidence only. They can locate candidate behavior but cannot prove an all-graphs theorem.
 
+For an exact-uniform output from a finite rational kernel, after separately certifying a sufficiently accurate finite-time law, use the rare residual correction in [references/exact-residual-sampling.md](references/exact-residual-sampling.md). It requires a concrete size bound, a total-variation/pointwise certificate, and an integer denominator `qP`, then samples the residual only on an exponentially rare branch. This is an exact-sampling wrapper, not a new spectral-gap or switch-chain mixing theorem; it does not establish the hypotheses needed to use it for an arbitrary graph-switch chain.
+
 ## Source-use boundary
 
 Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.

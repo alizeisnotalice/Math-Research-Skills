@@ -36,3 +36,5 @@ description: 推导 Gibbs 变分与熵对偶，检查参考测度、归一化、
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+对块质量固定的熵正则更新，用[组内变差与熵势函数](references/fixed-block-entropy-updates.md)去掉各块的共同成本变化，核对真实组内范围。
