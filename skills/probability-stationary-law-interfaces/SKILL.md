@@ -48,3 +48,7 @@ Use the method-selection guide（本机附件：`references/method_selection.md`
 ## References and examples
 
 Read the method-selection guide（本机附件：`references/method_selection.md`）, then its linked usage card and the [method contract](references/method.md) before using a theorem. The source index（本机附件：`references/source_index.md`） defines the exact 31-work accepted scope; the [source ledger](references/sources.md) records reading and provenance, including held and zero-credit items. Use the [positive examples](examples/positive.md) for source-matched constructions and the [negative examples](examples/negative.md) to test missing hypotheses and prevent invalid transfers.
+
+For stationary square-integrable scalar sequences, use [dyadic chord energy](references/dyadic-chord-energy.md) to obtain a summable finite-block deviation budget before applying a model-specific cocycle or regeneration argument.
+
+For a deterministic finite path prefix in an iid or finite-range random environment, use [departure-row factorization](references/departure-row-factorization.md) before identifying a future-dependent regeneration cut. The required independence is a statement about rows used at departures, not an annealed strong Markov property at the cut.

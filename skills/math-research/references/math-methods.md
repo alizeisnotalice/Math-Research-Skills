@@ -43,6 +43,8 @@
 - [math-f05-l2-spectral-parameter-schur-test](../../math-f05-l2-spectral-parameter-schur-test/SKILL.md)：推导 L² 谱参数估计与 Schur 检验，检查核界、测度、权重和常数依赖。
 - [math-f06-menshov-rademacher-maximal-partial-sums](../../math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md)：核验 Rademacher–Menshov 最大部分和估计，检查正交性、索引与对数损失。
 - [math-f07-marcinkiewicz-zygmund-vector-extension](../../math-f07-marcinkiewicz-zygmund-vector-extension/SKILL.md)：审查 Marcinkiewicz–Zygmund 向量值延拓，核对算子类型、指数范围和随机化条件。
+- [math-f08-matrix-trace-energy](../../math-f08-matrix-trace-energy/SKILL.md)：核验有限维 PSD Gram 矩阵的 \(\operatorname{tr}(P^{3/2})\) Hessian、Loewner 比较与正能量望远镜，并在需要时检查有限维 trace Young 等号。
+- [math-f09-positive-resolvent-densities](../../math-f09-positive-resolvent-densities/SKILL.md)：在凸数值域上构造或审计正的边界 resolvent 密度与共同压缩表示，核对外部坐标、度量收缩和所有系数尺寸的量词。
 ## G · Carleson 与树结构
 
 - [math-g01-carleson-measure-box-and-tent-test](../../math-g01-carleson-measure-box-and-tent-test/SKILL.md)：检验 Carleson 测度的盒、帐篷与嵌入条件，核对几何族、尺度及常数。
@@ -77,6 +79,7 @@
 - [math-k03-dirksen-mixed-tail-generic-chaining](../../math-k03-dirksen-mixed-tail-generic-chaining/SKILL.md)：应用 Dirksen 混合尾泛链界，检查增量尾、半度量、熵或泛链泛函。
 - [math-k04-anti-concentration-empirical-process](../../math-k04-anti-concentration-empirical-process/SKILL.md)：审查反集中与经验过程估计，核对指标集、过程假设和概率误差范围。
 - [math-k05-talagrand-convex-concentration](../../math-k05-talagrand-convex-concentration/SKILL.md)：核验 Talagrand 凸集中方法，检查乘积结构、凸距离及所用版本。
+- [math-k06-random-greedy-priority-unfolding](../../math-k06-random-greedy-priority-unfolding/SKILL.md)：核验有限线性三角超图中的优先级贪心删边、成对存活递归、独立展开和首次重复耦合；只在已给定的局部模板与访问预算下转移到有限过程。
 ## L · 计算搜索与严格证书
 
 - [math-l01-lower-bound-test-parameters](../../math-l01-lower-bound-test-parameters/SKILL.md)：选择下界测试参数向量，核对输入可行性、归一化和可认证的下界范围。
@@ -97,6 +100,10 @@
 - [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md)：审查或应用素数筛中的有限局部条件、尾部剔除、Kummer 完全分裂与加权区间到稠密度转移；显式保留条件性解析输入，不把分裂判别或有限算例写成素数密度定理。
 - [math-l17-filtered-linear-algebra-certificates](../../math-l17-filtered-linear-algebra-certificates/SKILL.md)：精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。
 - [math-l18-multiplicative-kernel-tensorization](../../math-l18-multiplicative-kernel-tensorization/SKILL.md)：用素数指数分解核验整数族的乘法 GCD 核估计；检查局部集中、Euler 乘积与临界指数。适用于含 LCM、GCD 或约化乘积的非负双序列估计。
+- [math-l19-coordinate-ring-certificates](../../math-l19-coordinate-ring-certificates/SKILL.md)：验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。
+- [math-l20-binary-character-congruences](../../math-l20-binary-character-congruences/SKILL.md)：在有限初等二群角色族中寻找与零顶点同余的非零顶点。适用于 2-adic 群环求值和有限个指定系数的精确匹配，要求核验二进制维数、精度和测试数。
+- [math-l21-local-to-global-lattice-certificates](../../math-l21-local-to-global-lattice-certificates/SKILL.md)：用有限商模的主分解拼接指定局部整格，并核对乘子阶、最大阶饱和与局部单位陪集。适用于数域中的 order-ideal 或局部格计数。
+- [math-l22-arithmetic-progression-certificates](../../math-l22-arithmetic-progression-certificates/SKILL.md)：用二进尺度求和把有限无等差数列密度界转为加权界，或用已验证的循环着色构造长区间无单色等差数列的证书。
 ## M · 凸性、极点与选择
 
 - [math-m01-convex-hull-extreme-points](../../math-m01-convex-hull-extreme-points/SKILL.md)：用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。
@@ -104,6 +111,8 @@
 - [math-m03-near-extremizer-stability](../../math-m03-near-extremizer-stability/SKILL.md)：分析近极值稳定性与刚性，核对亏损量、对称性、距离和紧性缺口。
 - [math-m04-measurable-supremum-selection](../../math-m04-measurable-supremum-selection/SKILL.md)：处理可测上确界、解析投影和可测选择，核对参数空间、可测性及选择器范围。
 - [math-m05-cut-metric-construction](../../math-m05-cut-metric-construction/SKILL.md)：在有限树分解上拼接二元 cut law，构造嵌套 cut 坐标图，或把有限 Lp 度量精确离散到有限坐标，核对边缘、零质量、重参数化与距离公式。
+- [math-m06-covering-space-obstructions](../../math-m06-covering-space-obstructions/SKILL.md)：核验覆盖空间、秩一局部系与有限复形中的拓扑或全纯凸性障碍，重点检查提升、扭曲同调、周期覆盖与 CW 维数是否真正匹配。
+- [math-m07-planar-current-height-duality](../../math-m07-planar-current-height-duality/SKILL.md)：在有限平面 XY 图上把整数 Fourier 电流精确转为 Bessel 高度与积分连接，核对边界、源项、孔洞周期和规范变换。适用于有限图身份，不给出临界指数或尺度极限。
 ## N · 凸几何、振荡与误差
 
 - [math-n01-john-loewner-ellipsoid](../../math-n01-john-loewner-ellipsoid/SKILL.md)：使用 John 或 Löwner 椭球与容量方法，核对凸体假设、归一化和常数依赖。
@@ -117,3 +126,4 @@
 - [math-n09-soft-slab-variance](../../math-n09-soft-slab-variance/SKILL.md)：对偶次线性形式的强凸软 slab 势构造或审查方差界。核对矩坐标证书、逐项 Hessian 正性与张量估计，输出可用于参数对数凹性的有限维方差结论。
 - [math-n10-dirichlet-slab-energy](../../math-n10-dirichlet-slab-energy/SKILL.md)：用中心高斯路径相关估算凸域加入多条带约束的 Dirichlet 本征值代价，并由所有对角权重的界构造同一个逐坐标能量见证。
 - [math-n11-solenoidal-localization-and-packets](../../math-n11-solenoidal-localization-and-packets/SKILL.md)：将局部轴对称不可压缩模型嵌入受迫 Navier--Stokes 场，或审查光滑 Euler 母流上的高频波包输运。区分外力、解类和仅主导项的 WKB 账本；不认证爆破结论。
+- [math-n12-frostman-energy-preprocessing](../../math-n12-frostman-energy-preprocessing/SKILL.md)：将有界支撑测度的 Frostman 球质量界、有限 Riesz 能量、紧限制与随机正交投影相互转换，并核对维数范围。

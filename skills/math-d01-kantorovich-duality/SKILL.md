@@ -37,3 +37,5 @@ description: 核验 Kantorovich 输运对偶及势函数，检查代价、可积
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+处理有限个分离胞腔上的 Monge 选择、或固定质量的 Laguerre 胞腔时，另读[有限胞腔选择与截距证书](references/finite-monge-selection.md)。该页只给出明确的有限分区与正质量条件下的局部工具。

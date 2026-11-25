@@ -18,7 +18,7 @@
     "collaboration": 1,
     "research-specialists": 8,
     "tools": 8,
-    "methods": 87,
+    "methods": 97,
     "modeling": 3,
     "orchestration": 1,
     "probability": 41
@@ -362,6 +362,22 @@
       "family": "f"
     },
     {
+      "name": "math-f08-matrix-trace-energy",
+      "title": "F08 · 矩阵迹能量与望远镜证书",
+      "description": "核验有限维 PSD Gram 矩阵的 \\(\\operatorname{tr}(P^{3/2})\\) Hessian、Loewner 比较与正能量望远镜，并在需要时检查有限维 trace Young 等号。",
+      "category": "methods",
+      "path": "skills/math-f08-matrix-trace-energy/SKILL.md",
+      "family": "f"
+    },
+    {
+      "name": "math-f09-positive-resolvent-densities",
+      "title": "F09 · 正 resolvent 密度与共同边界表示",
+      "description": "在凸数值域上构造或审计正的边界 resolvent 密度与共同压缩表示，核对外部坐标、度量收缩和所有系数尺寸的量词。",
+      "category": "methods",
+      "path": "skills/math-f09-positive-resolvent-densities/SKILL.md",
+      "family": "f"
+    },
+    {
       "name": "math-g01-carleson-measure-box-and-tent-test",
       "title": "G01 · Carleson 测度",
       "description": "检验 Carleson 测度的盒、帐篷与嵌入条件，核对几何族、尺度及常数。",
@@ -568,6 +584,14 @@
       "family": "k"
     },
     {
+      "name": "math-k06-random-greedy-priority-unfolding",
+      "title": "K06 · 随机贪心的优先级独立展开",
+      "description": "核验有限线性三角超图中的优先级贪心删边、成对存活递归、独立展开和首次重复耦合；只在已给定的局部模板与访问预算下转移到有限过程。",
+      "category": "methods",
+      "path": "skills/math-k06-random-greedy-priority-unfolding/SKILL.md",
+      "family": "k"
+    },
+    {
       "name": "math-l01-lower-bound-test-parameters",
       "title": "L01 · 下界测试参数向量",
       "description": "选择下界测试参数向量，核对输入可行性、归一化和可认证的下界范围。",
@@ -712,6 +736,38 @@
       "family": "l"
     },
     {
+      "name": "math-l19-coordinate-ring-certificates",
+      "title": "坐标环的显式消元证书",
+      "description": "验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。",
+      "category": "methods",
+      "path": "skills/math-l19-coordinate-ring-certificates/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l20-binary-character-congruences",
+      "title": "二进制角色族的同余匹配",
+      "description": "在有限初等二群角色族中寻找与零顶点同余的非零顶点。适用于 2-adic 群环求值和有限个指定系数的精确匹配，要求核验二进制维数、精度和测试数。",
+      "category": "methods",
+      "path": "skills/math-l20-binary-character-congruences/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l21-local-to-global-lattice-certificates",
+      "title": "L21 · 局部到整体的格子证书",
+      "description": "用有限商模的主分解拼接指定局部整格，并核对乘子阶、最大阶饱和与局部单位陪集。适用于数域中的 order-ideal 或局部格计数。",
+      "category": "methods",
+      "path": "skills/math-l21-local-to-global-lattice-certificates/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l22-arithmetic-progression-certificates",
+      "title": "等差数列的加权上界与着色证书",
+      "description": "用二进尺度求和把有限无等差数列密度界转为加权界，或用已验证的循环着色构造长区间无单色等差数列的证书。",
+      "category": "methods",
+      "path": "skills/math-l22-arithmetic-progression-certificates/SKILL.md",
+      "family": "l"
+    },
+    {
       "name": "math-m01-convex-hull-extreme-points",
       "title": "M01 · 凸组合与极点",
       "description": "用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。",
@@ -749,6 +805,22 @@
       "description": "在有限树分解上拼接二元 cut law，构造嵌套 cut 坐标图，或把有限 Lp 度量精确离散到有限坐标，核对边缘、零质量、重参数化与距离公式。",
       "category": "methods",
       "path": "skills/math-m05-cut-metric-construction/SKILL.md",
+      "family": "m"
+    },
+    {
+      "name": "math-m06-covering-space-obstructions",
+      "title": "M06 · 覆盖空间障碍",
+      "description": "核验覆盖空间、秩一局部系与有限复形中的拓扑或全纯凸性障碍，重点检查提升、扭曲同调、周期覆盖与 CW 维数是否真正匹配。",
+      "category": "methods",
+      "path": "skills/math-m06-covering-space-obstructions/SKILL.md",
+      "family": "m"
+    },
+    {
+      "name": "math-m07-planar-current-height-duality",
+      "title": "M07 · 平面整数电流与高度对偶",
+      "description": "在有限平面 XY 图上把整数 Fourier 电流精确转为 Bessel 高度与积分连接，核对边界、源项、孔洞周期和规范变换。适用于有限图身份，不给出临界指数或尺度极限。",
+      "category": "methods",
+      "path": "skills/math-m07-planar-current-height-duality/SKILL.md",
       "family": "m"
     },
     {
@@ -858,6 +930,14 @@
       "description": "将局部轴对称不可压缩模型嵌入受迫 Navier--Stokes 场，或审查光滑 Euler 母流上的高频波包输运。区分外力、解类和仅主导项的 WKB 账本；不认证爆破结论。",
       "category": "methods",
       "path": "skills/math-n11-solenoidal-localization-and-packets/SKILL.md",
+      "family": "n"
+    },
+    {
+      "name": "math-n12-frostman-energy-preprocessing",
+      "title": "N12 · Frostman 能量与投影预处理",
+      "description": "将有界支撑测度的 Frostman 球质量界、有限 Riesz 能量、紧限制与随机正交投影相互转换，并核对维数范围。",
+      "category": "methods",
+      "path": "skills/math-n12-frostman-energy-preprocessing/SKILL.md",
       "family": "n"
     },
     {
