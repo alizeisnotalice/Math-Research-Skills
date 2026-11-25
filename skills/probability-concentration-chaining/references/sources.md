@@ -35,4 +35,10 @@ Current source inventory for `probability-concentration-chaining`, cross-bound t
 
 ## Held, not active
 
-- **P028.** Main article PDF is bundled only to identify the held source; the missing supplementary proof remains a blocker. It is not an accepted use.
+- **P028.** The bundled 24-page arXiv v1 is the held historical source. The journal version and supplement are identified below.
+
+## P028 source versions
+
+- The local read copy is [arXiv:2309.05266v1](https://arxiv.org/abs/2309.05266v1). Its Corollary 2.2 and the R03 hold are recorded in the historical source card.
+- The formal publication is Fan and Shao, *Bernoulli* 31(1) (2025), 130–161, [DOI 10.3150/24-BEJ1722](https://doi.org/10.3150/24-BEJ1722). The publisher separately identifies the [supplement](https://doi.org/10.3150/24-BEJ1722SUPP) as preliminary lemmas for the published Theorems 4.1 and 4.2.
+- For a journal citation, use its own theorem numbering, hypotheses, and scale. The Rademacher counterexample is against the condition printed in the arXiv v1 card. Its transfer to any publication claim requires comparing the stated condition in that version.

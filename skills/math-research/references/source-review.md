@@ -26,7 +26,7 @@
 | Bernoulli 工厂 | [arXiv:1610.01448v2](https://arxiv.org/abs/1610.01448v2) 与 [arXiv:2004.07471v3](https://arxiv.org/abs/2004.07471v3) | 第一篇用于 Bernstein 偏差估计。第二篇限于给定分解下的 two-coin/portkey 接受规则，统一循环尾界须有 beta<1。 |
 | 随机空间树 | [Blanc、Curien、Kahn，Proc. Lond. Math. Soc. 131 (2025), e70070](https://doi.org/10.1112/plms.70070) | 正式发表。技能引用 Theorem 1 的平面路径及紧内时间区间结论，本机阅读材料为作者稿。 |
 | Boolean Fourier | [arXiv:2610.03086v1](https://arxiv.org/abs/2610.03086v1) | 连续立方体单调分支限定为存在某一可强制输出。指定输出、非单调函数及离散低影响问题须另行处理。 |
-| 集中与泛链 | [arXiv:2309.05266](https://arxiv.org/abs/2309.05266)，P028 | 补充材料未闭合，维持待审。 |
+| 集中与泛链 | P028，正式发表于 [Bernoulli 31(1), 130–161](https://doi.org/10.3150/24-BEJ1722)，另有[正式补充材料](https://doi.org/10.3150/24-BEJ1722SUPP) | 作者稿 v1 的旧审查仍维持待审，反例针对该稿所印条件。正式版引用按该版本的编号与条件。 |
 | 森林与电网络 | [arXiv:2404.14803v3](https://arxiv.org/abs/2404.14803v3)，Propositions 5–7 | 有限连通加权图，括入原文环权与假设 1、3。随机步数和实际运行成本分别核对。 |
 | 森林与电网络 | [arXiv:2506.18827v2](https://arxiv.org/abs/2506.18827v2)，Theorems 1.15、1.17 | 只使用给定的 c-free 森林与连通或空的映射结论。 |
 | 森林与电网络 | [arXiv:2406.08945v3](https://arxiv.org/abs/2406.08945v3)，Theorems 1.3、1.6 | 保留 hyperfinite graphing 与相应平面对偶前提。 |
