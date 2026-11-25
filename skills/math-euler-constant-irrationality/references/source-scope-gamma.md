@@ -224,8 +224,8 @@
 
 - 版本与身份。arXiv:0902.1768v2 \[math.NT\], 2009-02-28; local file hash-verified (94,905 bytes); no journal version was identified in this audit. SHA-256 为 `84f09b5f2122f9fe01ce1fd9e75fe6c7bdbcbb322c8b24912b485fc45ddffa16`。
 - 本机原文定位。local PDF pp. 2–4, equations (2), (3), (8)–(11)
-- 核对范围。Validated finite factorial-normalized determinant identity and recurrence. Printed (9) and (10)–(11) imply asymptotic constant (4e)^(-3/8) for the normalized mixed form, while (3) prints four times that constant. Use only source-local finite algebra; the separate published Rivoal theorem supports its own joint gamma–Gompertz claim.
-- 依赖与状态。Tulyakov 2009 (ref. 13) on source sequence integrality / Aptekarev–Tulyakov ref. 14 on factorial lattice determinants / refs. 11–12 on solution asymptotics; printed normalization/constant unresolved held-asymptotics; finite determinant replay only
+- 核对范围。Validated finite factorial-normalized determinant identity and recurrence. Printed (9) and (10)–(11) imply a leading constant one quarter of (3). Under the same recurrence, Tulyakov’s published small branch is of order 16^(-n)/n, so the printed nonzero limit of 16^n g_n is also incompatible with its cited source. Adopt finite algebra only.
+- 依赖与状态。Tulyakov DOI 10.4213/mzm5260 for sequence integrality / Aptekarev–Tulyakov DOI 10.1090/S0077-1554-09-00175-7 for factorial lattice determinants / Tulyakov DOI 10.4213/spm16, eqs. (3)–(4), contradicts printed small-branch scale; actual g branch normalization remains to be established finite determinant replay only; printed asymptotic estimates excluded
 - 调用入口。[精确混合行列式与渐近审计](mixed-log-height-audit.md)
 
 ### 32 · On Rational Approximations to Euler's Constant and to γ + log(q)
