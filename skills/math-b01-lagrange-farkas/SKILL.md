@@ -30,6 +30,8 @@ description: 推导或核验 Lagrange 对偶与 Farkas 证书，检查约束资�
 10. 非闭锥来源P-5ae169908ed70fca限Hilbert与bounded linear A、bounded closed convex generator K∋0：cl A(coneK)的零support方向测试只证明∀ε>0近似可解；exact A(coneK)另需一个共同C使∀y ⟨b,y⟩≤Cσ_K(A*y)。ε>0 dual唯一不推ε=0 dual达到；general support-face inclusion需同时回验残差/normal，H/E恢复原非凸锥是额外条件。该文Remark1.7的上半连续声明由ℓ²反例否定；本例只否定该声明，不据此声称一般下半连续。Prop4.1由PDF p.22核得的校正比例为 λ*/σ_K(A*y)，且需要σ_K(A*y)>0和源中共享法向/稳定性假设；平方根比例是原文错误。精确标量例与适用范围见references/verification-log-20261007.md。
 11. 对只含齐次项 `v_j^T A_jv_j`、各 `v_j` 相互独立的二次 Lagrangian，先把全部等式乘子代入后再计算 `g=inf L`，不能只靠一阶驻点筛选。若 `A_j=μ_jI−M`，在域 `v_j≠0` 上有限下界的充要条件是每个 `A_j⪰0`：若存在负方向，沿其任意非零倍数趋于无穷可令该项趋于 `−∞`；若 `A_j⪰0`，该项下确界为0，但当 `A_j` 正定时下确界不达到。不要把有限下确界、达到的极小点和特征值驻点混为一谈。E1258 的局部核验见 `references/verification-log-20261007.md`。
 
+对于有限有理线性不等式，若需要精确且支撑极小的可行或不可行性见证，使用 [齐次化与最小支撑证书](references/minimal-support-lp.md)。
+
 ## 证据与失败处理
 
 有限维Farkas不证明一般锥/非凸强对偶。DC-composite原文存在已定位的量词缺口：逐μ选λ不是共同乘子，须修正或另证minimax/鞍点条件。 该有限LP扰动证明的共同小ε与固定working-set子序列已做局部补足，原文Step1计数须加终端检查；不得将rank假设移植为Farkas矩阵限制或无限维强对偶。

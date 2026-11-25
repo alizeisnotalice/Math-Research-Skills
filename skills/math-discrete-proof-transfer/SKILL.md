@@ -15,3 +15,7 @@ description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边�
 - 固定二叉 DR 与连续 Cantelli：读 [递推与变换](references/probability.md)。
 - A022 首触传输、A30 非负卷积、A28 相位匹配：读 [离散结构](references/discrete.md)。
 - 版本、形式化范围与项目基线：读 [来源](references/sources.md)。
+
+- 需要精确 DFT 的等宽矩阵变换时，读 [Newton–Toeplitz 分解](references/exact-fourier.md)，检查根的阶与所用域。
+
+- 审查有限域分解时，用 [Frobenius 固定子代数的分离元](references/finite-field-separation.md) 核对特征多项式和精确 gcd。

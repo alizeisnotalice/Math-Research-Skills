@@ -36,3 +36,5 @@ Guo Th2.6完整printed渐近及低阶R、Th2.2精确主项和Lelechenko约束搜
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+若已构造满足辅助二维变量椭圆不等式的非负能量，可使用 [两圆环传播接口](references/annular-propagation.md) 核对势的预算与传播损失。
