@@ -13,13 +13,13 @@
 则令 \(F_p\) 为原始的已过滤 \(48p\times48p\) 矩阵，
 
 \[
-\det(p^2F_p)=p^{2\(48p\)}\Delta_p
+\det(p^2F_p)=p^{2(48p)}\Delta_p
 \]
 
 是 \(p\)-进单位。因此
 
 \[
-v_p(\Delta_p)=-2\(48p\)=-96p.
+v_p(\Delta_p)=-2(48p)=-96p.
 \]
 
 这里不能写成“\(p^2\Delta_p\) 是单位”。因矩阵有 \(48p\) 阶，标量 \(p^2\) 对行列式贡献 \(p^{96p}\)。
@@ -33,7 +33,7 @@ U_\ell(w)=(2w)^\ell(1+w^2)^{p-1-\ell},\qquad
 Q_i(w)=w^i\sum_{j=0}^{p-i-1}w^{2j}.
 \]
 
-写 \(Q_i=\sum_\ell a_{\ell i}U_\ell\)，并用 \(Q'_0=0,\ Q'_i=Q_{p-i}\)（\(i>0\)），并展开 \(Q'_i=\sum_\ell b_{\ell i}U_\ell\)。低次项三角性给出
+写 \(Q_i=\sum_\ell a_{\ell i}U_\ell\)，另设 \(Q'_0=0,\ Q'_i=Q_{p-i}\)（\(i>0\)）并展开 \(Q'_i=\sum_\ell b_{\ell i}U_\ell\)。低次项三角性给出
 
 \[
 a_{\ell i}=0\ (\ell<i),\qquad a_{ii}=2^{-i},\qquad
@@ -67,7 +67,7 @@ L_p=a^\mathsf T\otimes B_0+b^\mathsf T\otimes B_1.
 乘以 \((a^\mathsf T)^{-1}\otimes I\) 后，
 
 \[
-L_p\((a^\mathsf T)^{-1}\otimes I\)
+L_p\big((a^\mathsf T)^{-1}\otimes I\big)
 =I_p\otimes B_0+\Pi^\mathsf T\otimes B_1.
 \]
 
@@ -91,7 +91,7 @@ L_p\((a^\mathsf T)^{-1}\otimes I\)
 
 另以 SymPy 1.14.0 对 \(p=3,5,7,11\) 逐一核对：两个回文基的三角展开、上述 \(E(t)w^i\) 恒等式、Kronecker 行列式分解，以及所有剩余类的过滤恒等式。它们是有限代数复放，不能验证任意素数上的数位化简。
 
-未独立覆盖的瓶颈是手稿 PDF 11--13 页 Lemma 3.1：全部 \((i,j)\) 的 \(p^2M_0\((i,j)\)\)、\(p^2Z_0\((i,j)\)\) 同余、\(i'=-1\) 边界及局部整性。调用本页前须把它当作已明确定位的前提，而非本页的独立证明。
+未独立覆盖的瓶颈是手稿 PDF 11--13 页 Lemma 3.1：全部 \((i,j)\) 的 \(p^2M_0(i,j)\)、\(p^2Z_0(i,j)\) 同余、\(i'=-1\) 边界及局部整性。调用本页前须把它当作已明确定位的前提，而非本页的独立证明。
 
 ## 欧拉常数的迁移条件
 
