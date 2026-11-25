@@ -25,3 +25,5 @@ Theorem 1.2 在 x=1 给出绝对误差 O(exp(−4n^(3/4)+n^(1/2)+3n^(1/4)/8))。
 要移植到新正交族，先重做权函数、矩消失和分支的推导。通过递推推断主导解时，核对初值、递推起点和投影系数。高精度残差仅用于猜测符号及选择指标；严格非零须有积分符号、行列式或认证区间。
 
 需要 Aptekarev 或 Rivoal 的独立递推作对照时，读 [两条精确对照递推](references/comparison.md)。
+
+从 Gamma 导数矩、Bernoulli 正矩或 Legendre 修正矩开始，读 [三类矩和 Padé 输入](references/legendre-pade-moments.md)。按分支保留余项、归一化和分母门槛。
