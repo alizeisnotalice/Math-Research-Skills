@@ -18,7 +18,7 @@
     "collaboration": 1,
     "research-specialists": 8,
     "tools": 8,
-    "methods": 97,
+    "methods": 99,
     "modeling": 3,
     "orchestration": 1,
     "probability": 41
@@ -235,6 +235,14 @@
       "description": "使用熵链式分解分析联合与条件分布，核对可测性、条件核和积分合法性。",
       "category": "methods",
       "path": "skills/math-d04-entropy-chain-rule/SKILL.md",
+      "family": "d"
+    },
+    {
+      "name": "math-d05-finite-block-matrix-entropy",
+      "title": "D05 · 有限三块矩阵熵证书",
+      "description": "为有限维三块 Gram 矩阵核验零块熵下界，使用 log-det 表示、Schur 补和符号平均分离块内熵与标量熵。",
+      "category": "methods",
+      "path": "skills/math-d05-finite-block-matrix-entropy/SKILL.md",
       "family": "d"
     },
     {
@@ -821,6 +829,14 @@
       "description": "在有限平面 XY 图上把整数 Fourier 电流精确转为 Bessel 高度与积分连接，核对边界、源项、孔洞周期和规范变换。适用于有限图身份，不给出临界指数或尺度极限。",
       "category": "methods",
       "path": "skills/math-m07-planar-current-height-duality/SKILL.md",
+      "family": "m"
+    },
+    {
+      "name": "math-m08-hamiltonian-fixed-locus-transfer",
+      "title": "M08 · Hamiltonian 有限阶固定子流形迁移",
+      "description": "用有限阶或 involution Hamiltonian 映射上的不变小扰动，将干净固定子流形的固定点问题转为其上的临界点问题，并核验短周期排除与非退化块。",
+      "category": "methods",
+      "path": "skills/math-m08-hamiltonian-fixed-locus-transfer/SKILL.md",
       "family": "m"
     },
     {

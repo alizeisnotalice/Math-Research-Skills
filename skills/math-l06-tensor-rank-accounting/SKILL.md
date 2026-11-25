@@ -93,6 +93,8 @@ description: 审查矩阵乘法张量提取中的直接和形状、辅助张量�
 
 本机使用 \(M=2,3,4,5\) 和分别含所需单位根的有限域，对 978 组索引精确检查了相位和权重筛选。这个计算核对有限 Fourier 消去，张量变换和指数结论仍使用相应的数学条件。
 
+对同一放置下的等值约束、价格运输、普通和、固定格式闭包、齐次分量 border 投影和双线性化，读 [谱价格的有限转移](references/spectral-price-transfers.md)。该页不建立任何 VP/VNP 分离、矩阵乘法指数或 rank–border-rank 等价。
+
 ## 来源与范围
 
 - *Staggered extraction for exact matrix multiplication over every field*，PDF pp. 4–5（相同有向直接和的精确秩不等式），pp. 9–13、26–27（固定有理参数、正容量及极限顺序）。本机 SHA-256 `85aa655473a156ad16db5bc59190d487a55db864d1014af0610c9c1f5b08490b`。[固定版本 PDF](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Staggered-extraction-for-exact-matrix-multiplication-over-every-field-September-24-2026/Staggered-extraction-for-exact-matrix-multiplication-over-every-field-September-24-2026.pdf)

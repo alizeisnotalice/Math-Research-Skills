@@ -1766,6 +1766,24 @@
       "mode": 420
     },
     {
+      "path": "skills/math-d05-finite-block-matrix-entropy/SKILL.md",
+      "sha256": "2006be68abc778437ddb2edc6e8b395b54b74085e28962800826a8c96be024c3",
+      "bytes": 2774,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-d05-finite-block-matrix-entropy/references/zero-block-proof.md",
+      "sha256": "0932e18d167cb408791cb457bb57e7230e595d028b61ffda7175efafa504da54",
+      "bytes": 2111,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-d05-finite-block-matrix-entropy/scripts/check_zero_block_entropy.py",
+      "sha256": "3aafeaf5ff610c8aa36d6216e2062e2ee4c1570f5f97c9608f46ab9bd1ef2287",
+      "bytes": 2574,
+      "mode": 420
+    },
+    {
       "path": "skills/math-discrete-proof-transfer/SKILL.md",
       "sha256": "cea3a33883bfb4dad176bbc2709559fbe08ba76aa3163447a625a5292e541fe1",
       "bytes": 2668,
@@ -5913,8 +5931,14 @@
     },
     {
       "path": "skills/math-l06-tensor-rank-accounting/SKILL.md",
-      "sha256": "75bba54a101d42b19c2ee73599786877fd3845c81a2f361376c63ea87d44ffcd",
-      "bytes": 7711,
+      "sha256": "dea1abaf801faccb6ac7420bcf8ce129b2a6bc1229ce7ea3ab5467f0f99cbcd2",
+      "bytes": 8002,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l06-tensor-rank-accounting/references/spectral-price-transfers.md",
+      "sha256": "73414fda06389bfb177a04f8a74887d1e19bd4c9ba2b4560094d4ab9bc1e4aca",
+      "bytes": 6522,
       "mode": 420
     },
     {
@@ -6039,8 +6063,14 @@
     },
     {
       "path": "skills/math-l13-finite-graph-refinement/SKILL.md",
-      "sha256": "d689a4fb795e9b96c3195eb8a34466e7e3c1671de3d575ad6cd08679556ae780",
-      "bytes": 713,
+      "sha256": "b8f292a79da440837329c1c7995e9814caca457b76f49db1dcb332b2eff9acc6",
+      "bytes": 1036,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l13-finite-graph-refinement/references/finite-kernel-pinning.md",
+      "sha256": "61e000730949c3856e79c1f022654134996cd5d1f12aa1e93d394bd7baa7f8f9",
+      "bytes": 3890,
       "mode": 420
     },
     {
@@ -6087,8 +6117,14 @@
     },
     {
       "path": "skills/math-l16-prime-sieve-certified-transfers/SKILL.md",
-      "sha256": "d2ef7a0c1ca2b2100bf119cc010a9f3d1b5da4a5b3f33d3856ff1d65528b1f87",
-      "bytes": 5129,
+      "sha256": "edd09e790176ce299a53ac72f2a97f32c4cea4490607f36bd763a4612c09d5f2",
+      "bytes": 5411,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l16-prime-sieve-certified-transfers/references/fourier-residue-separation.md",
+      "sha256": "d151c2ac37e316f1ace1db1693c39bc69701b94e0d0e6511da72d3d4d87dbdf8",
+      "bytes": 3513,
       "mode": 420
     },
     {
@@ -6689,6 +6725,18 @@
       "path": "skills/math-m07-planar-current-height-duality/scripts/check_current_height.py",
       "sha256": "f5371d0af970f7a5ffa4a1c71feb76c6a1a6703639a6c756236f6ec33e060a65",
       "bytes": 2875,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m08-hamiltonian-fixed-locus-transfer/SKILL.md",
+      "sha256": "b7ee456eb3d3edd67df35ca56bfec1519b64f774452d1267f62dcedbb1741fac",
+      "bytes": 4987,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m08-hamiltonian-fixed-locus-transfer/scripts/check_linearized_involution.py",
+      "sha256": "8ea98737dfd56b239db06bd66e4b0fa79257c104136a176401e081b5186ef73f",
+      "bytes": 1432,
       "mode": 420
     },
     {
@@ -7329,8 +7377,8 @@
     },
     {
       "path": "skills/math-n11-solenoidal-localization-and-packets/SKILL.md",
-      "sha256": "a50152c07a87076d66cebf587128db1f8d26db2b02eae5c9ca6aa9348ac6d5cd",
-      "bytes": 2613,
+      "sha256": "3b106a8d28efb3e045b21607ff697bedc0f144358d86002e3534c67f2afc4f22",
+      "bytes": 3669,
       "mode": 420
     },
     {
@@ -7343,6 +7391,18 @@
       "path": "skills/math-n11-solenoidal-localization-and-packets/references/forced-navier-localization.md",
       "sha256": "cb68163e46b0c24cdd4676142dd45748429f771b14ced6ea24a48a5fbd74221b",
       "bytes": 3339,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n11-solenoidal-localization-and-packets/references/prescribed-velocity-forcing.md",
+      "sha256": "cfaf20b807abb6c5f15f39574d5fd14d12c5e9aca52d31e416a0b051c74cb2f8",
+      "bytes": 6603,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n11-solenoidal-localization-and-packets/scripts/check_prescribed_velocity.py",
+      "sha256": "dfb8766727bdd353f2de6503eb608b9082795ca6293e525026eb0716174d20ab",
+      "bytes": 2225,
       "mode": 420
     },
     {
@@ -7497,14 +7557,14 @@
     },
     {
       "path": "skills/math-research/references/math-methods.md",
-      "sha256": "35bccd9372af6574ab442ecbee3accdcc4f74a58b4b7f2b1d3b16f0a0c00c6a3",
-      "bytes": 23248,
+      "sha256": "b42ffc4331e388b788a3416ea4bbaee26dce68945b8eb8b1d6ee411329f4c135",
+      "bytes": 23770,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/method-selection.md",
-      "sha256": "bbceb0922f9e2e5ecdbf5397de9ad650eee42a24a97d767cea303448b04659c9",
-      "bytes": 5210,
+      "sha256": "476653a297850d8eaee81bc39b89f673f44739b3f7fb83a0fd2446bb3ab0c2d5",
+      "bytes": 5371,
       "mode": 420
     },
     {
@@ -12759,8 +12819,8 @@
     },
     {
       "path": "skills/probability-percolation-renormalization/SKILL.md",
-      "sha256": "4aba8052cc91042aacf98b68e08058b71f1e9ddbbb885215fe09e8d9236ff8d8",
-      "bytes": 7054,
+      "sha256": "5647543b1fc99446baea776eefe28e646b186fd87e2eda4518234b65d10a228c",
+      "bytes": 7381,
       "mode": 420
     },
     {
@@ -13043,6 +13103,12 @@
       "path": "skills/probability-percolation-renormalization/examples/positive.md",
       "sha256": "a7ef0fc7f7bb1b80aadfee67a1e5567b7df104822ad6895459a2c0f98f6dfb48",
       "bytes": 2562,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-percolation-renormalization/references/finite-ising-contour-realization.md",
+      "sha256": "eb06be3ab170377ad600d2fa4478029c7b1637bc4ccc7103251b7331a43eb7b5",
+      "bytes": 4626,
       "mode": 420
     },
     {
@@ -15693,8 +15759,8 @@
     },
     {
       "path": "skills/probability-spectral-perturbation-certificates/SKILL.md",
-      "sha256": "0690baa8e59dc556056f0c62544cbf998a589161cc8cbe09c3b754836e4e2641",
-      "bytes": 3755,
+      "sha256": "fd48615d41be9c377955f521388419c181286a6138153c13c75feb5ad97fa692",
+      "bytes": 4008,
       "mode": 420
     },
     {
@@ -15710,9 +15776,21 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-spectral-perturbation-certificates/references/regular-graph-rational-inertia.md",
+      "sha256": "882fd7362a382b55e824dc02d0dab7c288a89a16c0b283df61891d769761d29f",
+      "bytes": 2353,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-spectral-perturbation-certificates/references/sources.md",
       "sha256": "f0057ef8757c0c69b238561cc3b1897641c1d8eecde1ed046cb0c4344a67fe3d",
       "bytes": 118975,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-spectral-perturbation-certificates/scripts/check_regular_graph_inertia.py",
+      "sha256": "069c253b4c2645819e9e0103dea62818b94063b30cb2b8e53d3da0808bc2a883",
+      "bytes": 3536,
       "mode": 420
     },
     {

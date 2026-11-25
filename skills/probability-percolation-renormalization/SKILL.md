@@ -37,4 +37,6 @@ Read [method routing](references/method.md) before reusing an inequality. Check 
 
 The full per-source scope index links the approved card, exact local PDF, and independent R14 report. The historical source card and read-coverage record are archived separately and retain their original hashes. Do not promote excluded theorem branches in those historical cards to current high review.
 
+For a finite Ising interface encoded by a dual contour, or a finite tree factor represented with private centered bits, read [finite Ising contour and bit realizations](references/finite-ising-contour-realization.md). It applies only with its stated boundary completion, finite tree, positivity, and pin-incidence conditions.
+
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。

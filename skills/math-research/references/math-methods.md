@@ -26,6 +26,7 @@
 - [math-d02-gibbs-entropy-duality](../../math-d02-gibbs-entropy-duality/SKILL.md)：推导 Gibbs 变分与熵对偶，检查参考测度、归一化、有限熵和等号条件。
 - [math-d03-parameterized-free-energy](../../math-d03-parameterized-free-energy/SKILL.md)：分析指定参数的自由能弱式，核对参数范围、变分方向和与目标问题的接口。
 - [math-d04-entropy-chain-rule](../../math-d04-entropy-chain-rule/SKILL.md)：使用熵链式分解分析联合与条件分布，核对可测性、条件核和积分合法性。
+- [math-d05-finite-block-matrix-entropy](../../math-d05-finite-block-matrix-entropy/SKILL.md)：为有限维三块 Gram 矩阵核验零块熵下界，使用 log-det 表示、Schur 补和符号平均分离块内熵与标量熵。
 ## E · 占用测度、Bellman 与停止
 
 - [math-e01-occupation-measure-flow-lp](../../math-e01-occupation-measure-flow-lp/SKILL.md)：建立占用测度、有限时域概率流和流守恒 LP，核对真实过程、边界通量、终止时刻、风险原子与可实现性。
@@ -113,6 +114,7 @@
 - [math-m05-cut-metric-construction](../../math-m05-cut-metric-construction/SKILL.md)：在有限树分解上拼接二元 cut law，构造嵌套 cut 坐标图，或把有限 Lp 度量精确离散到有限坐标，核对边缘、零质量、重参数化与距离公式。
 - [math-m06-covering-space-obstructions](../../math-m06-covering-space-obstructions/SKILL.md)：核验覆盖空间、秩一局部系与有限复形中的拓扑或全纯凸性障碍，重点检查提升、扭曲同调、周期覆盖与 CW 维数是否真正匹配。
 - [math-m07-planar-current-height-duality](../../math-m07-planar-current-height-duality/SKILL.md)：在有限平面 XY 图上把整数 Fourier 电流精确转为 Bessel 高度与积分连接，核对边界、源项、孔洞周期和规范变换。适用于有限图身份，不给出临界指数或尺度极限。
+- [math-m08-hamiltonian-fixed-locus-transfer](../../math-m08-hamiltonian-fixed-locus-transfer/SKILL.md)：用有限阶或 involution Hamiltonian 映射上的不变小扰动，将干净固定子流形的固定点问题转为其上的临界点问题，并核验短周期排除与非退化块。
 ## N · 凸几何、振荡与误差
 
 - [math-n01-john-loewner-ellipsoid](../../math-n01-john-loewner-ellipsoid/SKILL.md)：使用 John 或 Löwner 椭球与容量方法，核对凸体假设、归一化和常数依赖。

@@ -61,6 +61,10 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 
 这只核验有限恒等式和程序实现；不验证大素数 tail、prime reservoir、零点自由区或任一无限素数密度结论。
 
+对数坐标上的固定维平滑同余条件，及 channel 投影后留下的 Ramanujan
+残余因子，见[Fourier 与残余类分离](references/fourier-residue-separation.md)。前者
+只提供有限维 Fourier 系数的截断控制，后者只计算给定的有限残余和。
+
 ## 严格边界
 
 - 永远区分 local splitting equivalence、有限筛恒等式、tail hypothesis、prime-density lower bound 与连续 prime-gap count。

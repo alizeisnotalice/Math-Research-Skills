@@ -17,6 +17,8 @@ Choose a certified enclosure route only when its full hypotheses and index-ident
 
 Report exact arithmetic, validated interval arithmetic, and floating-point exploration separately. A finite exact calculation checks its displayed instance; it does not prove a uniform parameter claim or a general theorem.
 
+For a supplied regular graph whose claimed nontrivial spectrum is bounded by the Ramanujan threshold, read [有理惯性验收](references/regular-graph-rational-inertia.md). It checks one finite adjacency matrix and does not construct a graph family.
+
 ## Source-use boundary
 
 Use the documented theorem only within the model and interface in its source-use card. For formally published work, verify the citation and the cited statement against the publication. Verify the active claim and relevant proof steps for a preprint-only result. Historical review notes retain the scope of their original versions. Keep source-card gaps, unavailable evidence, and open transfers as research leads.
