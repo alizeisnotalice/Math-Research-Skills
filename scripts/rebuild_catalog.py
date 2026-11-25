@@ -13,6 +13,7 @@ ALIASES = {'mathematica-research':'mathematica-math',
            'pdf-paper-translate':'academic-paper-translator'}
 RUNTIME_SKILLS = {
     'math-euler-constant-irrationality': [
+        'math-openai-arithmetic-determinants',
         'math-sondow-log-fractional-certificate',
         'math-gamma-multiple-laguerre-approximants',
         'math-gamma-meijer-cmf',
@@ -36,7 +37,7 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
 def category(name):
     if name == 'math-research': return 'orchestration'
     if re.match(r'math-[a-n]\d\d-',name): return 'methods'
-    if name in {'math-centered-cube-endpoint-budget','math-discrete-proof-transfer','euclidean-tensor-geometry','math-euler-constant-irrationality','math-sondow-log-fractional-certificate','math-gamma-multiple-laguerre-approximants','math-gamma-meijer-cmf'}:
+    if name in {'math-centered-cube-endpoint-budget','math-discrete-proof-transfer','euclidean-tensor-geometry','math-euler-constant-irrationality','math-sondow-log-fractional-certificate','math-gamma-multiple-laguerre-approximants','math-gamma-meijer-cmf','math-openai-arithmetic-determinants'}:
         return 'research-specialists'
     if name.startswith('probability-'): return 'probability'
     if name.startswith('math-modeling-'): return 'modeling'

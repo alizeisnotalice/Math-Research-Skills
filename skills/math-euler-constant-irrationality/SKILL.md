@@ -14,6 +14,8 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 - 从参数轨迹、对偶矩阵和预备的换基得到递推，用 [Meijer G 保守矩阵场](../math-gamma-meijer-cmf/SKILL.md)。
 - 对 E/G 函数、1-求和与算术和乐候选路线，读 [算术 Gevrey 与 CDT 接口](references/arithmetic-gevrey.md)。
 
+- 设计行列式或研究伴随常数的局部消元时，读 [OpenAI 算术行列式构造](../math-openai-arithmetic-determinants/SKILL.md)。先证明目标矩与消元机制对应。
+
 ## 推进证明
 
 1. **写清恒等式。** 固定指标、基底、初值、积分区域或分支。目标若写成 Rₙ=qₙγ−pₙ，先证明没有未经消去的 log、ζ 值或其他常数。递推须有等价的初值和极限识别；发现程序与数值吻合属于候选证据。
