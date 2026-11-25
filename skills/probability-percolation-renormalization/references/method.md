@@ -1,77 +1,30 @@
-# Method and transfer checks
+# Method routing and proof checks
 
-## 1. Lock the model before choosing a theorem
+## 1. Define the object before choosing a theorem
 
-Write down (a) what is randomized and its law, (b) the update rule and whether updates are synchronous, (c) the graph/lattice and boundary conditions, and (d) the requested observable. Classify the task before importing a result:
+Write down the graph/lattice, site/bond state space, probability law, dependence, boundary, update rule, seed convention, clock, and target quantity. If any of these changes between a source and the target problem, state a separate coupling or comparison proof rather than carrying over the conclusion.
 
-| Model | Random object | Update/observable | Typical source in this set |
-|---|---|---|---|
-| Bernoulli bond/site percolation | iid open edges/sites | connectivity, threshold, chemical distance | Kesten; Duminil-Copin–Tassion; Antal–Pisztora |
-| Oriented percolation | iid oriented bonds/sites | survival, directed connection, edge speed | Durrett; Aldous flow note |
-| Bootstrap infection | iid initial infected sites; deterministic finite update family | closure, one-arm event, infection time | Balister et al.; Hartarsky |
-| Graph-bootstrap process | initial host edges; fixed graph rule H | synchronous rounds until stabilization | Bollobás et al.; Fabian et al.; Liu et al. |
-| Random-set zero forcing | iid initial blue vertices; deterministic unique-white-neighbour rule | probability initial set forces graph | Curtis et al. |
-| Probabilistic zero forcing | fixed initial blue set; random forcing events | random propagation time | English–MacRury–Prałat |
-| Percolation geography game | iid blocked sites plus players’ strategies | win/loss/draw under optimal play | problem-session notes; oriented-percolation analogies only |
+## 2. Product inequalities and sharpness
 
-If a claimed theorem changes any row entry, state and prove the transfer map; model similarity is not a proof.
+For independent Bernoulli variables, use monotone coupling and FKG only on product laws. Russo differentiation is directly finite-coordinate unless an additional limit argument is proved. The Duminil-Copin–Tassion source row admits its final finite-set inequality and sharpness route; it does not admit the literal intermediate display that was isolated in review. Its finite-range assumption is needed for spatial exponential decay. For Aizenman–Barsky, preserve the summable translation-invariant coupling assumptions and the small-field range. A finite numerical check of a candidate set cannot certify a general threshold criterion.
 
-## 2. Block renormalization
+## 3. Coarse graining
 
-For a supercritical geometric problem, a usable block proof needs all of these pieces:
+A valid block reduction needs (a) a block event implying an original connection, (b) a dependence range or conditional domination theorem, (c) a count and probability bound for bad contours/clusters, and (d) a transfer of the estimate back to the original observable. Antal–Pisztora uses nearest-neighbour iid bond percolation above pc and a joint chemical-distance event. Durrett constructs a high-density finite-range-dependent oriented process then pays for contour dependence explicitly. A one-dependent good-block field cannot be treated as iid from its marginal alone.
 
-1. Fix a block scale L and define a finite-coordinate good event that includes every crossing/connection property used later.
-2. Prove the good-block probability is high in the target parameter regime, with the dependencies between neighboring blocks stated explicitly.
-3. Obtain a valid stochastic domination or a mixing/decoupling substitute. High marginal probability alone does not dominate iid percolation.
-4. Prove a tail for connected clusters of bad blocks (often using sharpness after the domination step).
-5. Give deterministic path repair and charge the added microscopic length to the bad blocks; then derive the required tail or moment estimate.
+## 4. Enhancement
 
-Antal–Pisztora executes this for nearest-neighbour iid bond percolation on \(\mathbb Z^d\), p>p_c. For a new graph, dependent orientation, or bootstrap closure, redo items 1–5 rather than citing chemical-distance conclusions wholesale.
+For a finite connection event increasing in activation variables s, without assuming monotonicity in original p, keep both signed derivatives:
 
-For iid site percolation, Grimmett–Marstrand’s Theorem A says that if an infinite connected \(F\subset\mathbb Z^d\) has \(p_c(F)<1\), then \(p_c(2kF+B(k))\le p_c(\mathbb Z^d)+\eta\) for suitable \(k\). Their original slice \(S(k)=\{x:0\le x_j\le k\ (j>2)\}\) comes from \(F=\mathbb Z^2\) and has two unrestricted coordinates. Applying the theorem to \(F=\mathbb Z^{d-1}\times\{0\}\) gives a separate codimension-one thickening, which is a different geometry when \(d\ge4\).
+- ∂p r = E(Np+) − E(Np−),
+- ∂s r = E(Ns+).
 
-## 3. Sharpness and pivotality
+No sign for ∂p r is assumed. The strict-shift integration requires the source's separate, uniform local surgery comparison and a positive comparison factor on the integration region. The radius and non-touching path requirements must hold uniformly over exterior configurations. If the surgery cannot be supplied, report the conditional interface only.
 
-For a finite increasing event under a product measure, check finite-coordinate dependence and monotonicity before applying Russo’s formula. A sharpness argument additionally needs an appropriate finite-set criterion, pivotal boundary estimate and integrable differential inequality. Duminil-Copin–Tassion’s six-page \(\mathbb Z^d\) note is for nearest-neighbour iid bond percolation; its constants and conclusions are not assertions for arbitrary update rules. Their separate transitive-graph paper also proves ghost-field bounds: the Bernoulli ghost connection is at least \(c\sqrt h\) at criticality, and the Ising magnetization is at least \(ch^{1/3}\), by combining its differential inequalities with external-field derivatives.
+## 5. Bootstrap and random host
 
-Aizenman–Barsky’s sharpness proof assumes independent variables and summable, translation-invariant couplings; the ghost vertex encodes cluster-size Laplace transforms, Russo’s formula controls the first derivative, and a graph decomposition plus van den Berg–Kesten controls the second. The critical square-root ghost-field lower bound is local in h: the theorem says “for small h,” so record an interval 0<h≤h₀ rather than a global bound. Their discrete-time contact-process result comes from a space-time oriented-percolation representation; they explicitly leave the continuous-time extension open. For oriented percolation, distinguish the right edge from a single seed from the edge generated by the whole left half-line. Durrett’s Kingman-type limit and its large-deviation theorem concern the enlarged half-line edge unconditionally; the singleton right/left edge limits hold only on the infinite-path event because the singleton cluster can become empty.
+Check whether the theorem is synchronous, sequential, or a closure statement. For two-neighbour lattice results preserve dimension, box geometry, and iid seeds. For graph rules, distinguish vertices from edges and keep weak saturation separate from round time. For the Janson independent-mark exploration, fixed seeds must be chosen independently of G(n,p), and an exploration step count is not the synchronous generation count. For PZF, compare processes on the same host and preserve the exposure filtration; host-edge addition is not generally monotone for zero forcing.
 
-FKG applies to increasing events under product measures (and under the specified hypotheses for extensions). It does not turn a non-product infection history into independent blocks.
+## 6. Record the proof boundary
 
-## 4. Enhancements
-
-Before invoking Aizenman–Grimmett, verify the enhancement is local and translation invariant, the original model satisfies the paper’s parameter assumptions, and the proposed modification is **essential**: it must create the required doubly infinite path in a configuration where the original has none. For a path-surgery problem, quantify the radius uniformly over all allowed external configurations and check self-avoidance/separation. A finite SAT search can falsify a small case or find a witness, but cannot prove a universal surgery lemma.
-
-## 5. Bootstrap criticality and infection time
-
-Fix whether p denotes infection density or healthy density; different papers reverse this convention. Distinguish:
-
-- \(q_c\): onset of almost-sure full infection;
-- \(\widetilde q_c\): Hartarsky’s threshold for the relevant exponential-decay/finite-volume one-arm quantities;
-- \(\mathbb P_q(\tau_0\ge n)\): an infection-time tail;
-- \(\theta_n(q)\): a finite-volume one-arm/noninfection probability.
-
-For 2D finite update families Hartarsky proves exponential decay above \(\widetilde q_c\) and a polynomial lower infection-time tail below it, while recording \(q_c\le\widetilde q_c\) and leaving equality open in general. A claim for every q>q_c needs an extra argument for the possible interval. Check dimension and whether the family is subcritical before importing this result.
-
-## 6. Graph bootstrap and weak saturation
-
-For H-bootstrap, define \(G_{t+1}\) by adding all missing edges that complete a copy of H using \(G_t\); \(M_H(n)\) maximizes the non-stationary synchronous rounds over all initial graphs. A weakly H-saturated graph instead has a sequential ordering of missing edges, each creating a new copy. Their sizes/orderings do not identify running times. In Balogh–Kronenberg–Pokrovskiy–Szabó, “induced H-free” for a uniform hypergraph means every H-copy in the 2-skeleton lies in one hyperedge, whether or not that copy is induced in the 2-skeleton; never replace this by ordinary graph induced-freeness.
-
-Read theorem scope carefully: fixed H vs varying H, all initial graphs vs those whose closure is complete, and order bounds vs exact equality. For random weak saturation, Kalinichenko et al. Theorem 1.4 gives exact equality only when wsat(n,F)≥(δ(F)−1)n+D holds for every n and p is above its stated polynomial-log threshold; their fixed-p Theorem 1.3 gives only a (1+o(1)) asymptotic. For C189, the available K5 lower bound \(n^{2-o(1)}\) and constant-fraction \(n^2\) upper bound do not decide o(n²). Finite enumeration is an audit aid for small n, not a substitute for the all-n induction or extremal proof.
-
-## 7. Zero forcing and random graphs
-
-Random-set zero forcing samples the initial blue set, then uses deterministic forces; probabilistic zero forcing randomizes each force. Keep that distinction in statements and simulations. A random host G(n,p), a random seed set on a fixed graph, and a random blocked lattice are three separate sources of randomness. Record all of them and the order of conditioning.
-
-## 8. Model-specific infection results and clocks
-
-Use a theorem only after matching both its random object and its update rule:
-
-- Holroyd’s Theorems 1 and 3 give the strict-side constant \(\lambda=\pi^2/18\) for iid initial density \(p\), nearest-neighbour two-neighbour bootstrap on \(\mathbb Z^2\): respectively, internal spanning of a finite square at scale \(p\log L\), and origin activation by time \(t\) at scale \(p\log t\). The modified rule has \(\lambda'=\pi^2/6\). Neither statement is a theorem for arbitrary update families or random hosts.
-- Janson–Łuczak–Turova–Vallier analyze deterministic seeds of size \(a\) in \(G(n,p)\), threshold \(r\), and an exploration clock \(T\) at which \(A(T)=T\). In \(n^{-1}\ll p\ll n^{-1/r}\), the bottleneck scales \(t_c,a_c\) control the final size. This exploration time is not the synchronous generation count; use their separate generation result if round time is the observable.
-- English–MacRury–Prałat study probabilistic zero forcing from a fixed blue vertex on \(G(n,p)\), requiring \(pn\gg\log n\). Their propagation-time bounds use logarithms with the bases printed in Theorem 1.3 and do not cover \(p=c\log n/n\) or another forcing rule by automatic transfer.
-- Bollobás et al. study synchronous **edge** K\(_r\)-bootstrap. Their exact \(M_4(n)=n-3\) and lower bound for each fixed r \(M_r(n)\ge n^{2-\alpha_r-o(1)}\) for \(r\ge5\) do not imply an \(o(n^2)\) upper bound for K5, and cannot be recast as vertex bootstrap or zero forcing.
-
-## 9. Evidence standard
-
-State whether a source was full-text read, partially read, or only identified/downloaded. Record theorem number, paper/PDF pages, assumptions, proof ingredients and the exact missing transfer step. A numerical check can verify a finite example or a candidate constant; label its range and never upgrade it to a general theorem.
+For each application, cite the exact source card in [sources.md](sources.md), state each hypothesis, and label any new implication as derived. In particular preserve: conditional versus joint probability; strict versus non-strict inequalities; finite versus infinite volume; all limiting orders; constants depending on the model; and whether a source statement is only a sufficient condition. When a condition fails, either stop or prove a separate replacement lemma.

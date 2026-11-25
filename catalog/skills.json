@@ -21,7 +21,7 @@
     "methods": 64,
     "modeling": 3,
     "orchestration": 1,
-    "probability": 26
+    "probability": 41
   },
   "skills": [
     {
@@ -726,9 +726,16 @@
       "path": "skills/probability-bandit-information-bounds/SKILL.md"
     },
     {
+      "name": "probability-bernoulli-extremal-orders",
+      "title": "Bernoulli extremalization and order checks",
+      "description": "Audit independent Bernoulli sums, fixed-mean and fixed-moment extrema, dependence-sensitive convex order, log-concavity, exact tail comparisons, and approximation budgets.",
+      "category": "probability",
+      "path": "skills/probability-bernoulli-extremal-orders/SKILL.md"
+    },
+    {
       "name": "probability-bernoulli-factory",
       "title": "Bernoulli-factory analysis",
-      "description": "Analyze exact Bernoulli factories, finite coin-flipping degree, and stopping-time tail or moment claims with their model assumptions explicit.",
+      "description": "Select and audit exact coin factories, fixed-depth event representations, and random-stopping constructions with assumptions, output types, and cost clocks explicit.",
       "category": "probability",
       "path": "skills/probability-bernoulli-factory/SKILL.md"
     },
@@ -741,8 +748,8 @@
     },
     {
       "name": "probability-brownian-potential-fractals",
-      "title": "Brownian geometry and potential tools",
-      "description": "Analyze Brownian path geometry, Hausdorff dimension and capacity, planar SLE/conformal tools, or reflected Brownian couplings. Apply when a problem turns on the exact random set, coupling rule, or potential kernel.",
+      "title": "Brownian path, potential, and coupling methods",
+      "description": "Analyze Brownian path sets, planar SLE and loop-erasure interfaces, potential-capacity comparisons, or reflected Brownian couplings using the exact source scopes in the accompanying references.",
       "category": "probability",
       "path": "skills/probability-brownian-potential-fractals/SKILL.md"
     },
@@ -754,11 +761,25 @@
       "path": "skills/probability-concentration-chaining/SKILL.md"
     },
     {
+      "name": "probability-determinantal-dependence",
+      "title": "Determinantal dependence and measure singularity",
+      "description": "Audit determinantal laws, negative dependence, and singularity claims for spanning-tree and forest measures.",
+      "category": "probability",
+      "path": "skills/probability-determinantal-dependence/SKILL.md"
+    },
+    {
       "name": "probability-first-passage-growth",
       "title": "First-passage percolation and growth models",
       "description": "Analyze first-passage percolation, geodesics and Busemann functions, random growth and competition, and max-flow questions when the exact weight law, lattice, dimension, or direction hypotheses matter.",
       "category": "probability",
       "path": "skills/probability-first-passage-growth/SKILL.md"
+    },
+    {
+      "name": "probability-flow-poset-growth",
+      "title": "Directed flow, poset covers and sparse growth",
+      "description": "Audit finite directed capacity flows, edge-disjoint path covers, Dilworth chain covers, LIS/RSK and sparse Poisson growth; keep boundary, model and double-limit hypotheses explicit.",
+      "category": "probability",
+      "path": "skills/probability-flow-poset-growth/SKILL.md"
     },
     {
       "name": "probability-forests-electrical-networks",
@@ -775,6 +796,27 @@
       "path": "skills/probability-gaussian-polynomial-approximation/SKILL.md"
     },
     {
+      "name": "probability-generating-function-boundaries",
+      "title": "Probability Generating Functions and Complex Boundary Methods",
+      "description": "Audit two-dimensional queue-length PGF equations and complex boundary reductions while preserving event epochs, empty-boundary terms, analytic hypotheses, and probability admissibility.",
+      "category": "probability",
+      "path": "skills/probability-generating-function-boundaries/SKILL.md"
+    },
+    {
+      "name": "probability-harmonic-measure-coding",
+      "title": "Harmonic measures, tree boundaries, and coding comparisons",
+      "description": "Analyze harmonic and boundary measures on trees, symbolic codings, exact dimensions, and equivalence versus singularity of pushforward measures on a common metric space.",
+      "category": "probability",
+      "path": "skills/probability-harmonic-measure-coding/SKILL.md"
+    },
+    {
+      "name": "probability-infection-witness-methods",
+      "title": "Infection witnesses and closure certificates",
+      "description": "Build and audit finite causal witnesses for deterministic monotone infection closures, with separate model routes for random-set zero forcing, synchronous graph-H bootstrap, and Hamming-plane Young growth.",
+      "category": "probability",
+      "path": "skills/probability-infection-witness-methods/SKILL.md"
+    },
+    {
       "name": "probability-information-cluster-expansion",
       "title": "Probability: information, renewal, and expansions",
       "description": "Analyze entropy-rate variational problems, synchronization and deletion-channel capacity, renewal polling limits, and convergence of cluster or asymptotic expansions.",
@@ -784,7 +826,7 @@
     {
       "name": "probability-integer-polynomial-factorization",
       "title": "Integer convolution and 0–1 polynomial factors",
-      "description": "Analyze finite-support integer convolution and the unfair 0–1 polynomial factorization problem, including exact coefficient recurrences and bounded semialgebraic searches. Use when a 0–1 polynomial is factored into monic nonnegative real polynomials; epsilon-relaxations with signed factors require an explicit boundary check.",
+      "description": "Analyze finite-support integer convolution through probability-generating polynomials, monic nonnegative-real factors, and exact bounded algebraic certificates; preserve support gaps and coefficient-domain assumptions.",
       "category": "probability",
       "path": "skills/probability-integer-polynomial-factorization/SKILL.md"
     },
@@ -817,6 +859,13 @@
       "path": "skills/probability-measure-convergence/SKILL.md"
     },
     {
+      "name": "probability-moment-polynomial-duality",
+      "title": "Finite moments and polynomial duality",
+      "description": "Build finite-support probability bounds for Boolean k-wise laws, event/count moment data, and degree-bounded polynomial duals. Use when the support and full constrained marginal or moment map can be stated; route Fourier and invariance proofs to the existing Boolean skill, and treat tensor/tree recursion as uncovered here.",
+      "category": "probability",
+      "path": "skills/probability-moment-polynomial-duality/SKILL.md"
+    },
+    {
       "name": "probability-nonlinear-law-dynamics",
       "title": "Nonlinear probability-law dynamics",
       "description": "Analyze fixed points and iteration of probability-law operators, including nested stationary-law maps, nonlinear Markov updates, and recursive distributional equations; use when the proof needs operator-specific existence, uniqueness, stability, or global convergence.",
@@ -832,10 +881,24 @@
     },
     {
       "name": "probability-percolation-renormalization",
-      "title": "Percolation and infection methods",
-      "description": "Analyze percolation, bootstrap infection, block renormalization, essential enhancements, and related zero-forcing or random-graph propagation questions while keeping model assumptions explicit.",
+      "title": "Percolation and renormalization methods",
+      "description": "Analyze iid percolation, finite-range block arguments, bootstrap closure, and random-host propagation only after matching the model, observable, and hypotheses to an exact source interface.",
       "category": "probability",
       "path": "skills/probability-percolation-renormalization/SKILL.md"
+    },
+    {
+      "name": "probability-permutation-subset-sums",
+      "title": "Permutation cycles and random subset sums",
+      "description": "Analyze invariant k-subsets of random permutations through cycle counts, Poisson limits, and random subset-sum reachability while keeping fixed-k limits separate from adjacent-k monotonicity.",
+      "category": "probability",
+      "path": "skills/probability-permutation-subset-sums/SKILL.md"
+    },
+    {
+      "name": "probability-planar-isoperimetry",
+      "title": "Planar graph isoperimetry and discrete curvature",
+      "description": "Analyze isoperimetric profiles and curvature methods on planar graphs or tessellations when the boundary statistic, embedding, and theorem hypotheses can be matched.",
+      "category": "probability",
+      "path": "skills/probability-planar-isoperimetry/SKILL.md"
     },
     {
       "name": "probability-poset-counting-sampling",
@@ -854,7 +917,7 @@
     {
       "name": "probability-queueing-heavy-traffic",
       "title": "Queueing stability and heavy traffic",
-      "description": "Analyze queueing-network stability and heavy-traffic limits using fluid/Lyapunov methods, polling models, state-space collapse, BAR, and reflected diffusions.",
+      "description": "Analyze queueing-network stability and heavy-traffic limits using fluid/Lyapunov methods, polling models, state-space collapse, BAR, and reflected diffusions. Renewal/Palm epoch conversion and exact coupling/total-variation questions are out of scope here.",
       "category": "probability",
       "path": "skills/probability-queueing-heavy-traffic/SKILL.md"
     },
@@ -881,10 +944,24 @@
     },
     {
       "name": "probability-random-spatial-tree-geometry",
-      "title": "Random spatial networks, trees, and harmonic measure",
-      "description": "Analyze random spatial networks, SIRSN route geometry, tree-biased random walks, and harmonic measure on tree boundaries; use when the model’s route law, bias convention, or boundary metric must be checked.",
+      "title": "Random spatial networks, tree walks, and boundary measures",
+      "description": "Route questions across spatial network geometry, random-tree walks and boundary measures only after fixing the exact model; use the locally scoped, independently reviewed theorem interfaces and keep open maximum, monotonicity, and cross-model transfers explicit.",
       "category": "probability",
       "path": "skills/probability-random-spatial-tree-geometry/SKILL.md"
+    },
+    {
+      "name": "probability-reflected-diffusion-coupling",
+      "title": "Reflected diffusion couplings",
+      "description": "Model and audit couplings of reflected diffusions when boundary geometry, the coupling class, coalescence, meeting tails, or Neumann spectra affect the proof.",
+      "category": "probability",
+      "path": "skills/probability-reflected-diffusion-coupling/SKILL.md"
+    },
+    {
+      "name": "probability-renewal-palm-coupling",
+      "title": "Renewal, Palm, and exact coupling",
+      "description": "Analyze renewal and Palm sampling, queueing recurrence and stationary limits, and when a coupling yields exact or total-variation convergence.",
+      "category": "probability",
+      "path": "skills/probability-renewal-palm-coupling/SKILL.md"
     },
     {
       "name": "probability-self-avoiding-walks-and-sle",
@@ -892,6 +969,34 @@
       "description": "Analyze rigorous self-avoiding-walk growth and graph methods, and audit proposed links from planar lattice walks to continuum SLE.",
       "category": "probability",
       "path": "skills/probability-self-avoiding-walks-and-sle/SKILL.md"
+    },
+    {
+      "name": "probability-spectral-perturbation-certificates",
+      "title": "Spectral perturbation and strict gap certificates",
+      "description": "Audit finite-dimensional parameter-dependent eigenvalues and reversible Markov spectral gaps, including changing stationary measures, crossings, Poisson response, and rigorous interval enclosures.",
+      "category": "probability",
+      "path": "skills/probability-spectral-perturbation-certificates/SKILL.md"
+    },
+    {
+      "name": "probability-stationary-law-interfaces",
+      "title": "Stationary-law interfaces",
+      "description": "Prove or audit stationary laws for Markov environments, tree flows, IPS and drift-jump systems; use for generator/core, flux, coupling, Palm/occupation, regeneration, or projective-limit arguments.",
+      "category": "probability",
+      "path": "skills/probability-stationary-law-interfaces/SKILL.md"
+    },
+    {
+      "name": "probability-stochastic-geometry-localization",
+      "title": "Stochastic geometry, coverage, and localization",
+      "description": "Prove or audit Poisson growing-ball cover-time and spatial-network localization claims, including measure optimization, Poissonization, and boundary tails, while checking the exact model and transfer hypotheses.",
+      "category": "probability",
+      "path": "skills/probability-stochastic-geometry-localization/SKILL.md"
+    },
+    {
+      "name": "probability-variational-limits",
+      "title": "Probability variational limits",
+      "description": "Audit limits of stochastic optimization values, expectations, minimax problems, and selected optimizer laws; match weak convergence, uniform integrability, Gamma convergence, LDP/Laplace principles, and second-parameter estimates to their exact hypotheses.",
+      "category": "probability",
+      "path": "skills/probability-variational-limits/SKILL.md"
     },
     {
       "name": "python-math",

@@ -78,6 +78,8 @@ def main():
     (ROOT/'catalog/README.md').write_text('\n'.join(index))
     for kind,filename,title in [('methods','math-methods.md','数学方法索引'),('probability','probability.md','概率研究专题索引')]:
         lines=['# '+title,'','先检索当前问题的对象与方法，只读取相关技能。以下描述用于选路，具体定理与假设以技能及原文为准。','']
+        if kind == 'probability':
+            lines.extend(['先核对技能中适用的来源卡。候选、待审和研究专用分支可用于检查假设与证据；正式引用或采用结论时应满足当前版本的来源范围。见[来源核对](source-review.md)。',''])
         previous = None
         for item in skills:
             if item['category']!=kind: continue

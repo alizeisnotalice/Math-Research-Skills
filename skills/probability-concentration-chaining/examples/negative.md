@@ -1,104 +1,95 @@
-# Negative examples (W03 interim)
+# Negative cases: do not enlarge an admitted interface
 
-## Dependence mismatch and anti-concentration mismatch
+## Dependence and anti-concentration mismatch
 
-**Unsafe claim:** “The summands are exchangeable, so Tropp's independent matrix Bernstein inequality applies; its upper-tail estimate also proves the maximum is not concentrated in a short interval.”
+**Unsafe claim:** “The summands are exchangeable, so the independent matrix Bernstein bound applies; that upper-tail estimate also bounds the probability of a short interval.”
 
-**Why this fails:** P001 Theorem 1.4 assumes independent summands and gives an upper tail for a maximum eigenvalue. Exchangeability does not supply independence, and an upper-tail inequality does not bound `P(|Y-t|<=epsilon)`.
+**Why this fails:** P001 assumes independent summands and controls an upper tail. Exchangeability does not supply independence, and a one-sided tail does not bound `P(|Y−t|≤ε)`.
 
-**Repair:** Find a theorem matching the dependence and matrix hypotheses, and prove any reduction explicitly. For short intervals, use a separately verified anti-concentration result. P012 Theorem 2.1 applies only to a separable centered Gaussian process with unit marginal variances and finite supremum; it cannot be applied directly to an arbitrary dependent or non-Gaussian maximum.
+**Repair:** Verify the dependence assumptions of the selected source. For interval probabilities, use a separately admitted anti-concentration interface, such as P012 only for a separable centered Gaussian process with unit marginal variances and finite supremum.
 
-## Coupling without anti-concentration
+## Copula refinement without its source conditions
 
-**Unsafe claim:** “The empirical supremum is close to a Gaussian supremum, therefore their CDFs are uniformly close.”
+**Unsafe claim:** “The common marginal law and a convex-looking model let me use P019's improved convex-diagonal estimate.”
 
-**Why this fails:** P018 gives a coupling error for the statistics, but a small perturbation can still change a CDF substantially where the Gaussian statistic places significant mass in a short interval.
+**Why this fails:** The current P019 admission is only the arbitrary-copula pointwise interval extrema for a common CDF. It excludes the convex-diagonal refinement and nonidentical marginals.
 
-**Repair:** Verify a modulus/anti-concentration bound for the Gaussian target (for example P012 under its unit-variance separable Gaussian assumptions), then combine that bound with the coupling error. Keep the coupling and concentration-function terms separate.
+**Repair:** Use only the common-CDF bounds in the scope register, or establish a separately reviewed source interface before invoking another refinement.
 
-## Dropping the copula or spectral assumptions
+## Using P020's held upper-bound chain
 
-**Unsafe claim:** “The sharp copula maximum bound automatically improves for any dependence,” or “the Gaussian Hilbert-ball anti-concentration bound depends only on the largest covariance eigenvalue.”
+**Unsafe claim:** “P020's Gaussian order-statistic theorem supplies the desired upper concentration bound.”
 
-**Why this fails:** P019's improved theorem requires a convex copula diagonal; its arbitrary-copula extrema can scale linearly in dimension. P022's scale also depends on a second eigenvalue/eigenvalue tail; a rank-one example has short squared-norm bands of order `√ε`.
+**Why this fails:** The admitted P020 result is only the independently completed finite-variance concentration-function lower bound. The negative-`s` sum-closure step in the upper-bound proof remains an unresolved proof concern in this review. This package does not declare the stated upper theorem false.
 
-**Repair:** Verify the diagonal-convex condition before using P019 Theorem 2. For P022, compute the stated `κ(Σ)` and keep any infinite/degenerate scale visible; distinguish squared-norm bands from radius bands.
+**Repair:** Use P020 only for its lower bound, or provide a separate proof of the upper statement and its hypotheses.
 
-## Turning concentration tails into an LDP
+## Promoting the P022 squared-norm bound to norm comparison
 
-**Unsafe claim:** “A Chernoff or Gaussian upper-tail inequality proves the proposed large-deviation principle and rate function.”
+**Unsafe claim:** “The two largest covariance eigenvalues give the full Gaussian Hilbert-norm comparison scale.”
 
-**Why this fails:** An LDP needs both closed-set upper and open-set lower bounds at a specified speed and topology. P016 is a survey and its different model classes use different rate functions and proof mechanisms.
+**Why this fails:** P022's admitted result is an explicit density bound for a shifted squared norm when `λ₁≥λ₂>0`; it does not establish full spectral comparison, and rank one is outside the finite density bound.
 
-**Repair:** Verify both LDP bounds, the rate function's lower semicontinuity/goodness when needed, the correct model assumptions and speed. Use a matching primary LDP theorem; a one-event tail bound alone is insufficient.
+**Repair:** Apply only `sup_x f_{||G+h||²}(x)≤1/(2√(λ₁λ₂))` with its trace-class and rank-at-least-two hypotheses. Preserve that the conclusion concerns the squared norm and short bands derived from its density.
 
-## Summing negative-s-concave functions
+## Coupling without an anti-concentration step
 
-**Unsafe claim:** “Each conditional term in an order-statistic density is `s`-concave, so the sum is `s`-concave for `s<0`; apply P020 Theorem 1's upper bound.”
+**Unsafe claim:** “P018 makes two finite-vector statistics close, therefore their distribution functions are close uniformly.”
 
-**Why this fails:** P020 Lemma 7 (PDF p. 18) asserts this unrestricted sum closure, but for `s=−1` the functions `f_1(x)=exp(−(x−3)^2)` and `f_2(x)=exp(−(x+3)^2)` are individually `−1`-concave while their sum fails the midpoint inequality: `2exp(−9)<1+exp(−36)`. Proposition 4 uses Lemma 7 to obtain `s`-concavity for the order-statistic law and its uniform smoothing (PDF pp. 18–19); Proposition 5 and the Theorem 1 upper-bound proof then rely on this. Theorem 2's upper-bound proof passes through Theorem 1.
+**Why this fails:** A coupling controls distance on its coupling space. CDF error also depends on how much mass the comparison statistic places in short intervals. P018's admitted scope is finite-vector Theorem 4.1/Corollary 4.1, not a full empirical-process, bootstrap, or anti-concentration theorem.
 
-**Repair:** Do not use P020's upper-bound chain as established until an independent proof repairs or bypasses this closure step. This counterexample refutes Lemma 7's stated generality, not the main theorem statements. The lower-bound assertion in Remark 1 is separate.
+**Repair:** Add a separately justified interval-modulus bound for the comparison statistic and keep the coupling error and anti-concentration term distinct.
 
-## Treating a printed metric-space constant as settled
+## Confusing the P027 tilt lemma with a Cramér theorem
 
-**Unsafe claim:** “P003 Theorem 4.6 follows from Theorem 3.2 with exactly the displayed Lipschitz and `ψ₁`-diameter factors, so its constants can be plugged in directly.”
+**Unsafe claim:** “P027 proves a uniform martingale Cramér expansion, including the smoothing step, for either sign of `λ`.”
 
-**Why this fails:** The PDF p. 8 display uses `Δ₁=||d(X,X′)||_(ψ₁)` and denominator `4eL²ΣΔ₁²+2et maxΔ₁`; direct substitution of the p. 3 Theorem 3.2 expression appears to give `4e²L²ΣΔ₁²+2eLt maxΔ₁`. The paper's stated implication and its printed formula do not match that direct derivation.
+**Why this fails:** The admitted P027 use is Lemma 4.4's tilted-moment/bracket concentration under `0≤λ`, the stated `λε, λδ→0` regime, and `y≥4λδ`; the supplement-based smoothing step is not admitted. P028 remains held because its central proof supplement was unavailable.
 
-**Repair:** Use only P003 Theorems 3.1–3.3 as transcribed in the card unless you independently resolve the P004.6 discrepancy against its proof or a corrected source. Keep the source's statement distinct from a derived estimate.
+**Repair:** Use only P027's exact Lemma 4.4 interface with nonnegative tilt and the source's parameter range. Do not use P028 or promote this lemma to a Cramér/MDP result.
 
-## Confusing predictable and realized brackets
+## P029/P030 asymptotics as finite-threshold bounds
 
-**Unsafe claim:** “A theorem for `S_n/sqrt([S]_n)` applies as soon as the predictable bracket `<S>_n` is close to its target,” or “a theorem normalized by `sqrt(<S>_n)` is automatically self-normalized.”
+**Unsafe claim:** “The local Gaussian block limit or fixed-neighborhood localization gives the complete Pickands/manifold asymptotic or a nonasymptotic bound at a fixed threshold.”
 
-**Why this fails:** P025 and P027 use the predictable quadratic characteristic in the normalization/interface; P025 assumes a deterministic terminal-bracket tolerance, while P027 assumes a probabilistic sub-Gaussian bracket-deviation bound. P028 uses the realized square bracket `[S]_n` in its statistic and separately controls `<S>_n` while requiring conditional `(2+ρ)` moments. These are different denominators and different assumptions.
+**Why this fails:** P029 contributes only the fixed-`T` local block Lemma 4 with its stated constant and the separately completed `w`-dependent domination. P030 contributes only fixed-neighborhood localization under a uniform strict variance gap. Neither admission includes the full double-sum or manifold-stratum conclusion.
 
-**Repair:** Write both brackets explicitly, identify which one is observed in the target statistic, verify the exact theorem's conditional moment and bracket hypotheses, and preserve its range. P028's main proof is in a separate supplement and should not be described as reproduced in the article.
+**Repair:** Keep each local statement at its admitted scope and asymptotic regime; do not infer a full high-excursion theorem or finite-threshold inequality.
 
-## Promoting Gaussian extreme-value asymptotics to finite-threshold bounds
+## The P008 proof branch and the 1/8 route
 
-**Unsafe claim:** “The Pickands equivalent gives a rigorous upper-tail bound for every fixed threshold,” or “a one-dimensional stationary theorem applies unchanged to a nonstationary field on a manifold.”
+**Unsafe claim:** “The published P008 `1/4` modified-log-Sobolev MGF chain follows from the printed ordered-sum bound.”
 
-**Why this fails:** P029 Theorem 4 is an `u→∞` equivalent for a continuous centered stationary Gaussian process with the exact local covariance expansion and `r(t)<1` at every positive lag. P030 treats nonstationary fields only after separate entropy, anisotropic-correlation, variance-loss and manifold assumptions; its homogeneous-like, transition and Talagrand regimes have different leading terms.
+**Why this fails:** At `n=3` with the identity permutation and `R={I₃}`, the printed Eq. (4.3) squared-decrement bound fails (`24>18`). R14's corrected `4(n−1)S` bound supports the same route with a `1/8` range, not `1/4`. This does not affect the separately admitted independent first-positive-increment proof of Theorem 3.3.
 
-**Repair:** Keep the conclusion asymptotic and verify every local/global condition. For P030 determine the maximum-variance manifold dimension and the `h_{1t}` regime before choosing a proposition; for a finite threshold use an independently established nonasymptotic inequality.
+**Repair:** Use P008 only for Theorem 3.3's nonnegative single-permutation statistic and retain its exact finite-array assumptions. Keep the 1/8 repair as a separate proof note; do not restore Lemma 4.2's full MGF or the unchanged downstream 1/4 constants.
 
-## Using a convex Gaussian lower-deviation result as concentration
+## P003 printed constant versus the checked entropy route
 
-**Unsafe claim:** “P011 proves a stronger Gaussian upper-tail bound for every convex Lipschitz function.”
+**Unsafe claim:** “The displayed entropy argument proves P003's printed `32e` constant.”
 
-**Why this fails:** Theorems 1.1 and 2.8 lower-bound `P(|f−med(f)|≥tL)` and need a positive variance-to-Lipschitz ratio. They address when the classical Gaussian concentration bound is tight, not a universally improved upper tail.
+**Why this fails:** The checked p. 9 argument gives the `64e` constant. The difference is recorded as a proof/statement mismatch; the source's theorem is not declared false.
 
-**Repair:** Preserve the direction of the inequality, median center, convexity, and variance hypotheses. Use a separate upper-tail theorem if the target is `P(f−med(f)≥t)`.
+**Repair:** Use the independently derived `64e` route under the stated product-law and coordinate-replacement conditions. Do not use the printed `32e` line as though the displayed proof established it. The separate Theorem 4.6 metric-scale issue remains held.
 
-## Promoting finite candidate validation to a global optimizer certificate
+## Using P005's mis-scaled display for a sum
 
-**Unsafe claim:** “Hoeffding control for the sampled C168 candidate partitions proves the best candidate is the supremum over all measurable sign partitions.”
+P005 defines `\bar M_n²=M_n²/n` and proves the sum inequality in Eq. (23). Its later Eq. (28) prints `exp(−n(t/\bar M_n)²/2)` for `S_n≥t`. For two independent Rademacher signs and `t=2`, the event has probability `1/4` while that right side is `e^(−4)`.
 
-**Why this fails:** The finite-list union bound only controls the scores for candidates fixed before the independent validation sample. It supplies neither a covering bound for all measurable partitions nor an approximation error for the candidate discretization. Reusing validation data to choose candidates also invalidates the stated conditional independence argument.
+**Repair:** Retain Eq. (23), or rewrite its exponent using `M_n²=n\bar M_n²`. The later display may not be substituted as a sum-tail inequality.
 
-**Repair:** Freeze the finite list before validation (or select it from independent training data), report the simultaneous finite-list error with the `(2π)^n` scale, and keep global optimality and candidate-approximation error as separate proof obligations. See `evidence/W03/validation/C168_finite_candidate_holdout.md`.
+## Hoeffding under dependence and finite-list selection
 
+**Unsafe claim:** “Hoeffding's independent-coordinate proof applies to exchangeable inputs,” or “validation of finitely many C168 candidates proves the global measurable-partition optimum.”
 
-## Using a printed MDP scale without checking the theorem range
+**Why this fails:** Independence is the tensorization condition. The C168 validation bound covers only candidates fixed before an independent validation sample; it supplies neither a covering of all measurable partitions nor a discretization error.
 
-**Unsafe claim:** “P027/P028 Corollary 2.2 proves an MDP whenever `a_n min{ε_n,δ_n}→0` or `a_n min{γ_n,δ_n}→0`.”
+**Repair:** Establish independence before using the exact bounded Hoeffding bound. For C168, freeze the finite candidate list before validation and report the simultaneous finite-list error only.
 
-**Why this fails:** The source assumptions do not force the two error sequences to be comparable. For independent Rademacher differences normalized by `√n`, choose the moment parameter `ε_n` (or `γ_n`) as `n^(−1/2)` and the bracket concentration parameter `δ_n=e^(−n)`. The bracket is deterministic and the conditional moment hypotheses hold, yet with `a_n=n` the printed minimum condition holds while the normalized statistic divided by `a_n` is bounded by `n^(−1/2)`. The MDP lower bound for `(1,2)` fails. The counterexample refutes the printed corollary condition/conclusion, not the main tail theorem.
+## Replacing Freedman's predictable variance
 
-**Repair:** Preserve the source's literal minimum condition in the audit. A separate sufficient scale derived from the main tail theorem is `a_n max{ε_n,δ_n}→0` (P027) or `a_n max{γ_n,δ_n}→0` (P028), conditional on that theorem and the standard tail-to-LDP argument; do not silently substitute it for the source statement.
+**Unsafe claim:** “Freedman's one-sided crossing bound remains valid after replacing `V_n=Σ E[X_i²|F_{i−1}]` by realized `ΣX_i²` or unconditional variance.”
 
-## Treating exchangeability and without-replacement proof statements as interchangeable
+**Why this fails:** The admitted theorem uses a predictable conditional-variance budget and a deterministic one-sided increment cap `X_i≤c`. Lower tails also require a reflected increment cap.
 
-**Unsafe claim:** “Every weighted exchangeable sample has the iid Hoeffding bound,” or “P008's Bennett statement is proved with the exact printed constants on p. 4.”
-
-**Why this fails:** P007 demonstrates that arbitrary weights do not inherit the iid bound; its no-inflation result requires nonnegative weights, while the general finite-exchangeable theorem retains `ε_N`. In P008, the proof of Theorem 2.2 assumes `32t≥C_1C_2 E\widetildeΣ²` but the next intermediate bound prints denominator `C_1²`; a later line returns to `C_1C_2`.
-
-**Repair:** Check the weight sign and finite-population centering in P007. For P008, preserve the stated theorem separately from the inconsistent proof line; verify the large-deviation argument independently before claiming that exact proof chain is established.
-
-### Using P005's later `n`-scaled display as a sum-tail bound
-
-P005 defines `\bar M_n²=M_n²/n` and first proves the sum inequality `P(S_n≥t)≤exp(−t²/(2M_n²))` in (23). Its later (28) prints `exp(−n(t/\bar M_n)²/2)` for the event `S_n≥t`. For two independent Rademacher signs and `t=2`, the event probability is `1/4` but that displayed RHS is `e^(−4)`, so the printed scaling cannot be used for that sum event.
-
-**Repair:** retain (23), or rewrite it as `exp(−t²/(2n\bar M_n²))`. An exponent `−nt²/(2\bar M_n²)` corresponds to a sample-mean event when the sum inequality is applied at threshold `nt`.
+**Repair:** Verify the exact filtration, conditional means, cap, and predictable `V_n` event before applying the bound. Prove any alternative variance substitution separately.

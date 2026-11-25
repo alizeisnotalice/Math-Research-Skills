@@ -1,58 +1,53 @@
-# Source index
+# Accepted source index (portable scope)
 
-W14 curates 44 direct or near-direct source records for A006/A007/A008/A011/B054/B157. R07 independently accepted 30 complete paper sources; the [final review](../evidence/review/review.json) binds their versions. Reader-ledger pending labels remain historical declarations, and unread candidates are excluded from the completed quota. Reading status reflects this work pass, not inherited catalog claims. At this checkpoint 30 full-text PDF records have been read (856 physical pages), with distinct recorded PDF hashes; D01 global title/DOI/SHA preflight found W14-044 to be a new work; R07 independently confirmed 30 distinct works and their 856-page complete coverage. One HTML source is partial, and 13 records remain metadata-only. The two-page Dai–Williams correction is nested under W14-022 and does not count as an independent source. See `evidence/W14/search-log.md` for acquisition failures and status-search limits.
+When matching the global catalogue, use canonical `source_id` values in the active source-use index（本机附件：`references/accepted_scope_index.json`）; `W14-...` values in the first column are local display aliases. This index is restricted to the 30 R06-accepted queueing use rows. Every row links to its local PDF, canonical identity/reading card, and exact L06 use card. The use card controls the operational theorem interface, assumptions, proof scope, and transfer limits. The `R06 method IDs` column records reviewed method interfaces; G09/G16 identifiers do not grant L06 method-ownership credit.
 
-| ID | Source | Year | Topics | Reading status | Local text/PDF | Source card |
-|---|---|---:|---|---|---|---|
-| W14-001 | On open problems in polling systems — Marko Boon, Onno J. Boxma, Erik M. M. Winands | 2014 | A006, A007 | full paper read | [local copy](local-assets.md#asset-4052366cdd47) | [card](../evidence/W14/cards/W14-001.md) |
-| W14-002 | On the Stability of a Polling System with an Adaptive Service Mechanism — Natalia Chernova, Sergey Foss, Bara Kim | 2011 | A008 | full paper read | [local copy](local-assets.md#asset-72af40032248) | [card](../evidence/W14/cards/W14-002.md) |
-| W14-003 | Some open problems related to stability — Sergey Foss | 2009 | A011 | partial read | [local copy](local-assets.md#asset-dbb725e54c35) | [card](../evidence/W14/cards/W14-003.md) |
-| W14-004 | A polling system whose stability region depends on a whole distribution of service times — Natalia Chernova, Sergey Foss, Bara Kim | 2012 | A008 | full paper read | [local copy](local-assets.md#asset-4c9772327c2e) | [card](../evidence/W14/cards/W14-004.md) |
-| W14-005 | Heavy Traffic Joint Queue Length Distribution without Resource Pooling — Prakirt Raj Jhunjhunwala, Siva Theja Maguluri | 2022 | B054 | full paper read | [local copy](local-assets.md#asset-55b2e4d72a77) | [card](../evidence/W14/cards/W14-005.md) |
-| W14-006 | On deciding stability of multiclass queueing networks under buffer priority scheduling policies — David Gamarnik, Dmitriy Katz | 2009 | B157 | full paper read | [local copy](local-assets.md#asset-b592100cc549) | [card](../evidence/W14/cards/W14-006.md) |
-| W14-007 | On deciding stability of scheduling policies in queueing systems — David Gamarnik | 2000 | B157 | metadata only; not read | — | — |
-| W14-008 | On positive Harris recurrence of multiclass queueing networks: a unified approach via fluid limit models — J. G. Dai | 1995 | A008, A011 | full paper read | [local copy](local-assets.md#asset-bd1d7f38b53e) | [card](../evidence/W14/cards/W14-008.md) |
-| W14-009 | Stability and Convergence of Moments for Multiclass Queueing Networks via Fluid Limit Models — Jim G. Dai, Sean P. Meyn | 1995 | A008, A011 | full paper read | [local copy](local-assets.md#asset-e5610b78a6c2) | [card](../evidence/W14/cards/W14-009.md) |
-| W14-010 | Stability and instability of fluid models for reentrant lines — J. G. Dai, Gideon Weiss | 1996 | A008 | full paper read | [local copy](local-assets.md#asset-d125eff3410f) | [card](../evidence/W14/cards/W14-010.md) |
-| W14-011 | Instability in Stochastic and Fluid Queueing Networks — David Gamarnik, John J. Hasenbein | 2004 | A008, B157 | full paper read | [local copy](local-assets.md#asset-b97e6cd81300) | [card](../evidence/W14/cards/W14-011.md) |
-| W14-012 | MaxWeight Scheduling in a Generalized Switch: State Space Collapse and Workload Minimization in Heavy Traffic — Alexander L. Stolyar | 2004 | B054 | full paper read | [local copy](local-assets.md#asset-00fa8965288f) | [card](../evidence/W14/cards/W14-012.md) |
-| W14-013 | Queue Length Behavior in a Switch under the MaxWeight Algorithm — Siva Theja Maguluri, R. Srikant | 2016 | B054 | full paper read | [local copy](local-assets.md#asset-b50d09bea4f0) | [card](../evidence/W14/cards/W14-013.md) |
-| W14-014 | Heavy-Traffic Analysis of Queueing Systems with no Complete Resource Pooling — Daniela Hurtado-Lange, Siva Theja Maguluri | 2022 | B054 | full paper read | [local copy](local-assets.md#asset-05408db66620) | [card](../evidence/W14/cards/W14-014.md) |
-| W14-015 | MaxWeight Scheduling: Asymptotic Behavior of Unscaled Queue-Differentials in Heavy Traffic — Rahul Singh, Alexander L. Stolyar | 2015 | B054 | full paper read | [local copy](local-assets.md#asset-6f2a4000cad6) | [card](../evidence/W14/cards/W14-015.md) |
-| W14-016 | Asymptotically Tight Steady-State Queue Length Bounds Implied By Drift Conditions — Atilla Eryilmaz, R. Srikant | 2012 | B054 | full paper read | [local copy](local-assets.md#asset-6fbe7ae606d8) | [card](../evidence/W14/cards/W14-016.md) |
-| W14-017 | Heavy Traffic Queue Length Behavior in Switches with Reconfiguration Delay — Chang-Heng Wang, Siva Theja Maguluri, Tara Javidi | 2021 | B054 | full paper read | [local copy](local-assets.md#asset-e1f54ac60633) | [card](../evidence/W14/cards/W14-017.md) |
-| W14-018 | Supermarket Queueing System in the Heavy Traffic Regime: Short Queue Dynamics — Patrick Eschenfeldt, David Gamarnik | 2017 | B054 | full paper read | [local copy](local-assets.md#asset-98b05785bd6e) | [card](../evidence/W14/cards/W14-018.md) |
-| W14-019 | Pseudo-conservation laws in cyclic-service systems — O. J. Boxma, W. P. Groenendijk | 1987 | A006, A007, A008 | full paper read | [local copy](local-assets.md#asset-81006fa185e7) | [card](../evidence/W14/cards/W14-019.md) |
-| W14-020 | Polling systems and multitype branching processes — J. A. C. Resing | 1993 | A006, A007 | full report read | [local copy](local-assets.md#asset-4d45c53459af) | [card](../evidence/W14/cards/W14-020.md) |
-| W14-021 | Reflected Brownian motion in an orthant: Numerical methods for steady-state analysis — J. G. Dai, J. Michael Harrison | 1992 | B054 | full paper read | [local copy](local-assets.md#asset-5dff7508243a) | [card](../evidence/W14/cards/W14-021.md) |
-| W14-022 | Existence and Uniqueness of Semimartingale Reflecting Brownian Motions in Convex Polyhedrons — J. G. Dai, R. J. Williams | 1995 | B054 | full paper read | [local copy](local-assets.md#asset-aedb434177b6) | [card](../evidence/W14/cards/W14-022.md) |
-| W14-023 | Positive Recurrence of Reflecting Brownian Motion in Three Dimensions — Maury Bramson, J. G. Dai, J. Michael Harrison | 2010 | B054 | full paper read | [local copy](local-assets.md#asset-8ea19cc4006d) | [card](../evidence/W14/cards/W14-023.md) |
-| W14-024 | A Lyapunov view on positive Harris recurrence of multiclass queueing networks — Michael Schönlein | 2015 | A008 | full paper read | [local copy](local-assets.md#asset-1e63707c8089) | [card](../evidence/W14/cards/W14-024.md) |
-| W14-025 | Reflected Brownian Motion in an Orthant — J. Michael Harrison, Martin I. Reiman | 1981 | B054 | metadata only; not read | — | — |
-| W14-026 | Multidimensional Reflected Brownian Motions Having Exponential Stationary Distributions — J. Michael Harrison, R. J. Williams | 1987 | B054 | metadata only; not read | — | — |
-| W14-027 | Lyapunov functions for semimartingale reflecting Brownian motions — Paul Dupuis, R. J. Williams | 1994 | B054 | metadata only; not read | — | — |
-| W14-028 | Open queueing networks in heavy traffic — Martin I. Reiman | 1984 | B054 | metadata only; not read | — | — |
-| W14-029 | On Queues in Heavy Traffic — J. F. C. Kingman | 1962 | B054 | metadata only; not read | — | — |
-| W14-030 | Multiple channel queues in heavy traffic. I — Donald L. Iglehart, Ward Whitt | 1970 | A011, B054 | full paper read | [article-only PDF](local-assets.md#asset-bc57365465da) | [card](../evidence/W14/cards/W14-030.md) |
-| W14-031 | Multiple channel queues in heavy traffic. II: Sequences, networks, and batches — Donald L. Iglehart, Ward Whitt | 1970 | A011, B054 | full paper read | [article-only PDF](local-assets.md#asset-3fac5f41970a) | [card](../evidence/W14/cards/W14-031.md) |
-| W14-032 | Ergodicity of stochastic processes describing the operation of open queueing networks — A. N. Rybko, A. L. Stolyar | 1992 | A008, B157 | metadata only; not read | — | — |
-| W14-033 | Fundamentals of Queueing Networks: Performance, Asymptotics, and Optimization — H. Chen, David D. Yao | 2001 | A006, A007, A008, A011, B054, B157 | metadata only; not read | — | — |
-| W14-034 | Markov Chains and Stochastic Stability, 2nd ed. — Sean P. Meyn, Richard L. Tweedie | 2009 | A008, A011, B157 | metadata only; not read | — | — |
-| W14-035 | Applied Probability and Queues, 2nd ed. — Søren Asmussen | 2003 | A006, A007, A011 | metadata only; not read | — | — |
-| W14-036 | Stability of Queueing Networks — Maury Bramson | 2008 | A008 | metadata only; not read | — | — |
-| W14-037 | Stochastic-Process Limits: An Introduction to Stochastic-Process Limits and Their Application to Queues — Ward Whitt | 2002 | A007, B054 | metadata only; not read | — | — |
-| W14-038 | Analysis of Polling Systems — Hiroyuki Takagi | 1986 | A006, A007, A008 | metadata only; not read | — | — |
-| W14-039 | On Deciding Stability of Constrained Homogeneous Random Walks and Queueing Systems — David Gamarnik | 2002 | A008, B157 | full paper read | [local PDF](local-assets.md#asset-dff93c261723) | [card](../evidence/W14/cards/W14-039.md) |
-| W14-040 | On Positive Recurrence of Constrained Diffusion Processes — Rami Atar, Amarjit Budhiraja, Paul Dupuis | 2001 | B054 | full preprint read (arXiv v1) | [local PDF](local-assets.md#asset-a42a6477aa81) | [card](../evidence/W14/cards/W14-040.md) |
-| W14-041 | Stability Properties of Constrained Jump-Diffusion Processes — Rami Atar, Amarjit Budhiraja | 2002 | B054 | full paper read | [local PDF](local-assets.md#asset-34f1bfe802f0) | [card](../evidence/W14/cards/W14-041.md) |
-| W14-042 | The BAR Approach for Multiclass Queueing Networks with SBP Service Policies — Anton Braverman, J. G. Dai, Masakiyo Miyazawa | 2025 | B054 | full article read | [article-only PDF](local-assets.md#asset-9c48360dbb3b) | [card](../evidence/W14/cards/W14-042.md) |
-| W14-043 | A Positive Recurrent Reflecting Brownian Motion with Divergent Fluid Path — Maury Bramson | 2010 | B054 | full preprint read (arXiv v1) | [local PDF](local-assets.md#asset-141800467cd6) | [card](../evidence/W14/cards/W14-043.md) |
+- Baseline: 30 distinct complete papers / 856 physical pages; no new full-read or global-read credit in this continuation.
+- W14-003 remains partial HTML and is excluded. Metadata-only books were not read as used units; `book_units` is empty.
+- The two-page Dai–Williams correction is nested under W14-022 and is not a 31st source.
+- Whole-entry science scope passed R06 delta03; this portable candidate still requires independent portability review.
+- Wider claims retained only in archived records are history-only and are not active instructions or method credit.
 
-| W14-044 | Construction of positive recurrent semimartingale reflecting Brownian motions with divergent fluid paths using predator–prey models — Curtis Heyda | 2026 | B054 | full version of record read | [local PDF](local-assets.md#asset-16611d30707e) | [card](../evidence/W14/cards/W14-044.md) |
+| Local ID | Canonical source | Year | R06 method IDs | Exact use card | Source PDF | Identity/read record | PDF SHA-256 |
+|---|---|---:|---|---|---|---|---|
+| W14-001 | PR-cd7070330810 | 2014 | G09.01 | use（本机附件：`cards/uses/W14-001.md`） | PDF（本机附件：`sources/pdfs/W14-001.pdf`） | identity（本机附件：`cards/identity/W14-001.md`） | `8071919c7b7182597728c1d6fde6ec33ee675457af9dc472a7e64a023fa34b93` |
+| W14-002 | PR-fe6856833df2 | 2011 | G11.02, G11.03 | use（本机附件：`cards/uses/W14-002.md`） | PDF（本机附件：`sources/pdfs/W14-002.pdf`） | identity（本机附件：`cards/identity/W14-002.md`） | `cf77f04f2754956e78b0fa1c32f5ff1f9af366ca49c494d083e953be223885d1` |
+| W14-004 | PR-9e6384b2ee2f | 2012 | G11.01, G11.04 | use（本机附件：`cards/uses/W14-004.md`） | PDF（本机附件：`sources/pdfs/W14-004.pdf`） | identity（本机附件：`cards/identity/W14-004.md`） | `3fc736b0e13167a3515a1e66357c87eea2808e0881672b9338bb47042dccbc92` |
+| W14-005 | PR-bd6f528f6e26 | 2022 | G09.06 | use（本机附件：`cards/uses/W14-005.md`） | PDF（本机附件：`sources/pdfs/W14-005.pdf`） | identity（本机附件：`cards/identity/W14-005.md`） | `3cb38458d93d1c196148ca21b7d778b24902962fb476fb790c121bd0faf6eaeb` |
+| W14-006 | PR-835007ee8bd7 | 2009 | legacy / no new method ID | use（本机附件：`cards/uses/W14-006.md`） | PDF（本机附件：`sources/pdfs/W14-006.pdf`） | identity（本机附件：`cards/identity/W14-006.md`） | `9b25510d9c80d2a8de8d74caac2fcf13b26857b508623ca388653f47a861e039` |
+| W14-008 | PR-e9b1eb342c6a | 1995 | G11.02, G11.03 | use（本机附件：`cards/uses/W14-008.md`） | PDF（本机附件：`sources/pdfs/W14-008.pdf`） | identity（本机附件：`cards/identity/W14-008.md`） | `b9f204de686a3ad66d55882bd0be481b8afd9edbd32c5ff92aba2091814136ac` |
+| W14-009 | PR-feab9dd5dcf2 | 1995 | G11.02, G11.03 | use（本机附件：`cards/uses/W14-009.md`） | PDF（本机附件：`sources/pdfs/W14-009.pdf`） | identity（本机附件：`cards/identity/W14-009.md`） | `518833dda3ed2999f5ffffa2ccd2ef9855da640a2e792b71d9d5c330d2700342` |
+| W14-010 | PR-1c9a13921bc0 | 1996 | G11.02 | use（本机附件：`cards/uses/W14-010.md`） | PDF（本机附件：`sources/pdfs/W14-010.pdf`） | identity（本机附件：`cards/identity/W14-010.md`） | `c6996d4db0bd840c13a0ee8b9d778d234291d311ffdf7b7f1bcabb84e2214706` |
+| W14-012 | PR-a57ed24122d4 | 2004 | G16.01 | use（本机附件：`cards/uses/W14-012.md`） | PDF（本机附件：`sources/pdfs/W14-012.pdf`） | identity（本机附件：`cards/identity/W14-012.md`） | `60291ce2831345cd6fb0aece8d02f3a8ec2cb4108c244036251cd0f9ef3140a3` |
+| W14-013 | PR-c92026ba04be | 2016 | G11.01 | use（本机附件：`cards/uses/W14-013.md`） | PDF（本机附件：`sources/pdfs/W14-013.pdf`） | identity（本机附件：`cards/identity/W14-013.md`） | `a68bfb58d63ef4ab05832ec16486d425562f86f3072c8e5368733a9995bcf1b2` |
+| W14-014 | PR-6df45db5b568 | 2022 | G11.01 | use（本机附件：`cards/uses/W14-014.md`） | PDF（本机附件：`sources/pdfs/W14-014.pdf`） | identity（本机附件：`cards/identity/W14-014.md`） | `8b7e0289568dd2c34afc000c6a10b249e1e8fac6b992446f00c9e2153361d7bc` |
+| W14-015 | PR-c1c135776299 | 2015 | G11.03, G11.06 | use（本机附件：`cards/uses/W14-015.md`） | PDF（本机附件：`sources/pdfs/W14-015.pdf`） | identity（本机附件：`cards/identity/W14-015.md`） | `10c86700fd49e9f57a6f2fe3ad8dfa2712405d8e78ef1d175502a5a90911978a` |
+| W14-016 | PR-1b62e72f2b3b | 2012 | G11.01 | use（本机附件：`cards/uses/W14-016.md`） | PDF（本机附件：`sources/pdfs/W14-016.pdf`） | identity（本机附件：`cards/identity/W14-016.md`） | `fe42b39f75c1032842f37260e7c7dd5ac54617b5cbab30f29d8776e417305303` |
+| W14-017 | PR-ab607acaf0a5 | 2021 | G11.01 | use（本机附件：`cards/uses/W14-017.md`） | PDF（本机附件：`sources/pdfs/W14-017.pdf`） | identity（本机附件：`cards/identity/W14-017.md`） | `ea0e4f407840c7873471182d5887c93a65a58ab2e18cb04f34bb232d1ae2a469` |
+| W14-018 | PR-876bc6830e48 | 2017 | G10.06 | use（本机附件：`cards/uses/W14-018.md`） | PDF（本机附件：`sources/pdfs/W14-018.pdf`） | identity（本机附件：`cards/identity/W14-018.md`） | `4e501bfe4eddd5af47608d9e1d27b862d7df78dfc8b2f01ffea6be57e7d033a0` |
+| W14-019 | PR-32f5ebe7607c | 1987 | G10.02, G10.04 | use（本机附件：`cards/uses/W14-019.md`） | PDF（本机附件：`sources/pdfs/W14-019.pdf`） | identity（本机附件：`cards/identity/W14-019.md`） | `7df23d50dc922a7748eab69e56176f5ae9557466ac791f58f57255381996d660` |
+| W14-020 | PR-e193a03e210b | 1993 | G11.04 | use（本机附件：`cards/uses/W14-020.md`） | PDF（本机附件：`sources/pdfs/W14-020.pdf`） | identity（本机附件：`cards/identity/W14-020.md`） | `a19bcd6990530c31d5f3d22cc9674e7b21b087dd59796d96afce35270afec16b` |
+| W14-022 | PR-dbf8c65c554f | 1995 | G16.01 | use（本机附件：`cards/uses/W14-022.md`） | PDF（本机附件：`sources/pdfs/W14-022.pdf`） | identity（本机附件：`cards/identity/W14-022.md`） | `aaa759a14a0a6a584bbfb32aec84e3e0e46412b834e22917ae6d7e74af3fc742` |
+| W14-030 | PR-5e1da062cce3 | 1970 | G12.01 | use（本机附件：`cards/uses/W14-030.md`） | PDF（本机附件：`sources/pdfs/W14-030.pdf`） | identity（本机附件：`cards/identity/W14-030.md`） | `f75a803fcf52309fdb722a1bf55b17110cfa01f8664c275e86ec8874be6c52cc` |
+| W14-039 | PR-f0d9dd37bd43 | 2002 | legacy / no new method ID | use（本机附件：`cards/uses/W14-039.md`） | PDF（本机附件：`sources/pdfs/W14-039.pdf`） | identity（本机附件：`cards/identity/W14-039.md`） | `e7d81511e3a1a379f19d7a5527dd1eee89da13c67fcafbc89efc94435b7b8666` |
+| W14-021 | PR-4104ae121b71 | 1992 | legacy / no new method ID | use（本机附件：`cards/uses/W14-021.md`） | PDF（本机附件：`sources/pdfs/W14-021.pdf`） | identity（本机附件：`cards/identity/W14-021.md`） | `362a9db1e321b219de1493ccec473f9f5f13a8f1fdc6ce75f81dd9886a975e0f` |
+| W14-023 | PR-0d39140d1227 | 2010 | legacy / no new method ID | use（本机附件：`cards/uses/W14-023.md`） | PDF（本机附件：`sources/pdfs/W14-023.pdf`） | identity（本机附件：`cards/identity/W14-023.md`） | `f41d7a35e663fcde0723956f1a582c8fd24262653c9b2c216f519a6885db8fd5` |
+| W14-024 | PR-6299375b7044 | 2015 | G11.01, G11.03 | use（本机附件：`cards/uses/W14-024.md`） | PDF（本机附件：`sources/pdfs/W14-024.pdf`） | identity（本机附件：`cards/identity/W14-024.md`） | `67c9fac291f5dd656178f6f5e7cc1a07c1ef78e746cb2fdadc249a96f3032580` |
+| W14-031 | PR-79052d9aa9db | 1970 | G12.01 | use（本机附件：`cards/uses/W14-031.md`） | PDF（本机附件：`sources/pdfs/W14-031.pdf`） | identity（本机附件：`cards/identity/W14-031.md`） | `9c1601349d97c804f1a123bbe144f5f980b9d6a322830ee3f1ccb3cce58dfb10` |
+| W14-011 | PR-2cea472b1695 | 2004 | G11.02 | use（本机附件：`cards/uses/W14-011.md`） | PDF（本机附件：`sources/pdfs/W14-011.pdf`） | identity（本机附件：`cards/identity/W14-011.md`） | `2fc271b4896469bd2211e754a0656b368c2b473de3b321f799ec060f34e77681` |
+| W14-040 | PR-8fe2bbd7bfe7 | 2001 | G11.02, G16.01 | use（本机附件：`cards/uses/W14-040.md`） | PDF（本机附件：`sources/pdfs/W14-040.pdf`） | identity（本机附件：`cards/identity/W14-040.md`） | `7d81d08341e14b89b21b4f85b851d29cc25c3867f59e65a44df5d04f3ad7adac` |
+| W14-041 | PR-7e427348e957 | 2002 | G16.01 | use（本机附件：`cards/uses/W14-041.md`） | PDF（本机附件：`sources/pdfs/W14-041.pdf`） | identity（本机附件：`cards/identity/W14-041.md`） | `0a54915251b9825dbb20c113cec7263a075362de1129f92af8cb1eda3d1c2e29` |
+| W14-042 | PR-2d1b8c64633a | 2025 | G10.02, G10.03 | use（本机附件：`cards/uses/W14-042.md`） | PDF（本机附件：`sources/pdfs/W14-042.pdf`） | identity（本机附件：`cards/identity/W14-042.md`） | `b7551d94624aaaa872ddb5db63ca3b60a7d92dd25a4dca35094032d51d64ea3f` |
+| W14-044 | PR-1f3bf8a5a135 | 2026 | legacy / no new method ID | use（本机附件：`cards/uses/W14-044.md`） | PDF（本机附件：`sources/pdfs/W14-044.pdf`） | identity（本机附件：`cards/identity/W14-044.md`） | `7cced2fb87d5e1d7299df6c9849f31d7adf4a53877cd3ef073f242b7b1895361` |
+| W14-043 | PR-26f7f7c69865 | 2010 | G11.01, G11.03 | use（本机附件：`cards/uses/W14-043.md`） | PDF（本机附件：`sources/pdfs/W14-043.pdf`） | identity（本机附件：`cards/identity/W14-043.md`） | `cdf3ae437a2f3eedfcf40eb4d7ddb9fa2e901344e93cc10ea19369739999976a` |
 
-## Use limits
+See machine-readable accepted scope（本机附件：`references/accepted_scope_index.json`） for every accepted row condition, transfer limit, and original evidence hash.
 
-- `full paper read` means the full local article text was read; source cards note exact page coverage. Foss is a partial HTML section, not a full paper read. The 30 fulltext_read PDF records have section-by-section physical-page evidence in [reading coverage](../evidence/W14/reading_coverage.json).
-- `partial read` cards only claim what was inspected. At this stage W14-003 (HTML §1.1 only) remains partial; every fulltext_read PDF has full-paper coverage. Metadata-only entries are discovery leads, not distilled evidence.
-- Books are metadata-only; no chapter is counted as read. The W14-022 correction note is recorded as a read companion supplement, not a new source. See problem-specific source cards before reusing any theorem.
-- Duplicate copies in `data/` were not counted as additional sources: `ordos_primary_104/105`, `ordos_primary_123/queue_joint`, `polling_distribution2012/chernova_foss_kim12_distribution`, `singh_stolyar15/stolyar_switch_differentials`, and `gamarnik_stolyar02_instability/gamarnik_stolyar02_queue_instability`.
+## Formal citations for local read versions
+
+- W14-011: *Annals of Applied Probability* 15 (2005), 1652–1690.
+- W14-015: [SIGMETRICS 2015](https://doi.org/10.1145/2745844.2745878).
+- W14-040: *Annals of Probability* 29 (2001), 979–1000. The local copy is [math/0501018v1](https://arxiv.org/abs/math/0501018v1).
+- W14-043: *Annals of Applied Probability* 21 (2011), 951–986.
+
+Page references in the existing use cards refer to their corresponding local read copies.

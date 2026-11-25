@@ -39,6 +39,12 @@ then recurse. If the integer draw is uniform, each complete target order has pro
 
 To sample a statistic such as the distance between the two peaks, augment the state with enough information to identify the first and second selected peak vertices, or compute a separate exact count indexed by that statistic. Verify that the augmentation does not merge states with different future completion counts.
 
+### Separate source-based recursion for a prescribed peak set
+
+The subset dynamic program `D(R,k)` above is the skill's direct finite recurrence. It is distinct from the M0002 `GraphPeakSetAlgorithm`. **The peak predicates differ:** the direct recurrence calls `v` a peak whenever every neighbor is lower, so it includes leaves and isolated vertices; M0002's physical-p.2 source definition excludes vertices of degree 0 or 1 from being peaks. Do not use that source algorithm to count the direct recurrence's target without reconciling the difference. R05 accepted the latter only for a finite simple graph with a **known `G`-admissible** required peak set `S`, with `V_{<2}(G)⊆L⊆V`. For an exact-set call initialize `L=V_{<2}(G)` and use the source's update `L←(L∪N(v))∩(V\{v})`. Keep separate branch-local copies of `S`, `L`, and the labeling state, and collect every recursion leaf.
+
+Required vertices having degree at least two and `S` being independent are necessary checks, not a complete test of `G`-admissibility. Do not pass an arbitrary set through the source recursion on the strength of these two checks alone. This scoped use provides no polynomial-time guarantee or sampler. Exact accepted conditions and locators are in the M0002 scope row（本机附件：`references/accepted_scope_register.md`）.
+
 ## 3. Linear extensions of a fixed poset
 
 For a finite poset `P`, every linear extension ends in a maximal element. Hence

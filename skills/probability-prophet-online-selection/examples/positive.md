@@ -6,4 +6,4 @@ Suppose values are independent, shown in uniform random order, and the offline c
 - expected effective demand `E[D_{t,p}]`, and
 - stockout probability `P(D_{t,p}≥k)`.
 
-These are different functionals. Theorem 2 of M0062 supports a `gamma_k` guarantee when the first equals `gamma_k`. Theorem 3 covers a condition on the second. Its §5.2 conjecture concerns the third. If numerical root-finding chooses p to meet the third target, report only the numerical instance result until a proof of the universal comparison is supplied.
+These are different functionals. Under the stated independent-value, uniform-random-order model, the corrected M0062 Theorem 2 gives `gamma_k` when expected utilization equals `gamma_k`; the physical-p.5 literal `k` target is a source typo. For expected demand `k`, retain only the reduced `inf_{m≥k} E AR_k(Bin(m,k/m))` bound, the separately proved `k=1` half guarantee, and the IID `gamma_k` guarantee. The unrestricted all-k closed form is proof-held. Its §5.2 stockout target remains conjectural for `k>1`. Meeting that third target numerically is only a finite numerical observation, not a universal guarantee.

@@ -5,7 +5,7 @@ description: Analyze uniform and minimal spanning forests, electrical networks, 
 
 # Probability on forests and electrical networks
 
-本次整理与历史阅读/审核状态的区别，以及可选本地附件的访问方式，见 [证据与迁移说明](../math-research/references/evidence.md)。
+本次修订的来源范围、原文链接与审核状态，见 [来源与审核状态](references/sources.md)。
 
 Use this skill for uniform spanning trees/forests (UST, FSF, WSF), minimal spanning forests (FMSF, WMSF), electrical networks, MTP/unimodularity, and invariant random structures on graphs.
 
@@ -21,4 +21,12 @@ For A141, projection-determinantal formulas, rooted-forest determinants, and eff
 
 This W07 skill covers the forest/electrical/MTP portion of the formal 120-question set. Tree-biased walks, harmonic measure, and SIRSN random spatial geometry belong to W20; do not duplicate them here.
 
-The corpus remains in progress: 41 candidates, 32 local PDFs, 30 full-text reads, 1 partial read, and 1 acquired unread (see `evidence/W07/status.json` and `evidence/W07/reading_coverage.json`). The four L13_final4 reads are integrated with complete article coverage; PTN and Doyle–Snell book units remain incomplete. All new source and mapping reviews remain pending.
+The 30-use forest cohort in calibration r5 and batch2 revision2 has passed R10 source-use review. The Schramm 2011 Selected Works chapter is L10’s one new full read. Supplemental HD planar use is accepted without extra quota credit; the corrected AL mass-transport/root-law use card v4 (Definition 2.1, PDF pp. 10–11) is accepted for this scoped use. PTN2026 remains partial and supplies no active positive theorem; its Chapter 11 caveat stays in a non-counted appendix. Final package decisions are recorded by the independent package reviews.
+
+For finite checks use Python 3 with SymPy 1.14.0. Run the local check runner（本机附件：`scripts/run_finite_checks.py`） with `--output-dir` in the current research project or its data-volume temporary directory.
+
+## Source-use boundary
+
+Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.
+
+全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。

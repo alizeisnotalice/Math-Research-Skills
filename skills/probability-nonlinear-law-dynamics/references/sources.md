@@ -1,91 +1,284 @@
-# Source map and reading status
+# W21 scoped source ledger
 
-The W21 ledger has 45 entries: 31 complete full-text reads and 14 candidate-only records. The original 38 screened candidate works include 24 full-text reads and 14 candidate-only records; five additional full-text method sources are supplementary IDs outside C001–C038. W21-001 and W21-002 are two distinct works also canonicalized under W04; each counts once within W21, but neither adds a new global unique work. The five SUP sources are provisionally eligible for the tool-level count because they prove results for the skill's exact smoothing-transform or centered-QSO classes; they are not A121/A122 target-interface evidence. R02 stage22 records 27 full-text entries passed, four requiring revision (W21-041/043/044/045), and 14 candidate-only sources unread. The four corrections are submitted for R02 re-review; R02 decisions, not this ledger, control independent review acceptance. D03 batch01 supplied five reads, batch02 ten, batch03 eight (C027/C036/C038 read by L12; C011/C012/C013/C017/C019 read by L11), and batch05 six full-text sources (C037 plus five supplements) read by L08 and mother-integrated here. Batch03 and batch05 cards and physical-page coverage are integrated. Candidate screening is not theorem verification; source-row `review_status` values may remain pending while the next R02 review binding is prepared.
+R15 high-effort targeted review accepted all 31 exact source-use rows in this ledger. This is 31 distinct pre-existing works in the old W21 baseline, not 31 new reads or credits and not approval of each complete legacy card. Each row below binds an exact PDF, one scoped usage view, hypotheses, and transfer limits.
 
-## Full-text reads
+R02 historical attribution remains low-effort. R13 v7 checked exact inheritance/preservation and was not a proof re-audit. New G21.01–.07 method mappings remain empty with zero source credit. See [the entry method gates](method.md#7-new-g21-method-interfaces-pending-source-review), the exact R15 admission union（本机附件：`evidence/review_authority/W21_all31_scoped_union.json`）, and the review scope summary（本机附件：`evidence/review_authority_scope.md`）.
 
-- **W21-039 — Sensitivity and Convergence of Uniformly Ergodic Markov Chains**. [Cambridge publisher record and PDF](https://www.cambridge.org/core/journals/journal-of-applied-probability/article/sensitivity-and-convergence-of-uniformly-ergodic-markov-chains/26A9854BCB8D103B3A63A9B272616EC0) · [DOI](https://doi.org/10.1239/jap/1134587812) [local PDF](local-assets.md#asset-0b7ebd65b8c0); PDF pp.1–12, complete, including Appendix A and references; Theorems 3.1–3.2 visually checked on pp.3–6. SHA-256 `3a7a9c35f0a130181c03ff7c24311e849435cc27dbdf77885b26e6ec98c9fddb`. The stationary sensitivity theorem is conditional on base uniform ergodicity (or `tau(P^m)<1`) and an invariant perturbed law; the rank-kernel product-coupling estimate is separately derived. [proof card](../evidence/W21/cards/W21-039.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-039). Review pending.
+## W21-001 — PR-452b1dea025a
 
-- **W21-001 — Markov chains and mappings of distributions on compact spaces**. [primary record](https://arxiv.org/abs/2404.01348) · [DOI](https://doi.org/10.30757/ALEA.v21-53); PDF pp.1–15, complete paper; Theorem 1 and interval proof formulas rendered and visually checked on PDF pp.5,10–11. SHA-256 82a5a440004f967038f7603420b0f9881e0c783663487ef55a19d4cd07ef0a91. [proof card](../evidence/W21/cards/W21-001.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-001). Review pending.
-- **W21-002 — Markov chains and mappings of distributions on compact spaces II: Numerics and Conjectures**. [primary record](https://arxiv.org/abs/2403.18153); PDF pp.1–29, complete manuscript; key A122 density-only criterion rendered and visually checked on PDF p.22. SHA-256 b6d6a98febfd612528f2aec1e23a1989ff1caaba588f95d0efb32f461eaa078f. [proof card](../evidence/W21/cards/W21-002.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-002). Review pending.
-- **W21-003 — Nonlinear Markov Chains with Finite State Space: Invariant Distributions and Long-Term Behaviour**. [primary record](https://arxiv.org/abs/2007.02555) · [DOI](https://doi.org/10.1017/jpr.2022.23) [acquired PDF](local-assets.md#asset-aa8935193dea); PDF pp.1–16. SHA-256 554d3dedd465ca892e090174774a7aa04e1810ff4bb7a1b6ed3565e00bc76767. [proof card](../evidence/W21/cards/W21-003.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-003). Review pending.
-- **W21-018 — (G,mu)-Quadratic Stochastic Operators**. [primary record](https://arxiv.org/abs/1307.1265) · [DOI](https://doi.org/10.1080/10236198.2014.906591) [acquired PDF](local-assets.md#asset-8cb94a6cc1b6); PDF pp.1–10. SHA-256 3ecdbb61e9ec2b70fd077b5d2336938af389dab34c91050481e37cfde504ef90. [proof card](../evidence/W21/cards/W21-018.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-018). Review pending.
-- **W21-023 — On the Lebesgue Nonlinear Transformations**. [primary record](https://arxiv.org/abs/1601.01757) · [DOI](https://doi.org/10.4134/BKMS.b160212) [acquired PDF](local-assets.md#asset-c40120182619); PDF pp.1–11. SHA-256 5e203cc0ed675eaf72132febaaa564e7a3eaa3dc5d45c5ff467d8ebefbd24418. [proof card](../evidence/W21/cards/W21-023.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-023). Review pending.
-- **W21-024 — Fixed Points of the Smoothing Transformation**. [primary record](https://doi.org/10.1007/BF00532962) [acquired PDF](local-assets.md#asset-c83cf3d2b09b); PDF pp.1–27. SHA-256 35568fd1ca08b1c804ed47a0432e1b99b66b1e2aafc31d3db6e0599e93144499. [proof card](../evidence/W21/cards/W21-024.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-024). Review pending.
-- **W21-036 — Solutions to Recursive Distributional Equations for the Mean-Field TSP and Related Problems**. [primary record](https://arxiv.org/abs/1405.1316) · [DOI](https://doi.org/10.48550/arXiv.1405.1316) [acquired PDF](local-assets.md#asset-34a9f7719c85); PDF pp.1–17. SHA-256 93774aa86f61e3855c1d0a4afc55a1864bab49e8beff3597b08a5f3c74bdca63. [proof card](../evidence/W21/cards/W21-036.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-036). Review pending.
+- Version: arXiv:2404.01348v1 (31 Mar 2024); ALEA 21 (2024), 1407–1416
+- Exact PDF: `W21-001.pdf`（本机附件：`evidence/source_pdfs/W21-001.pdf`） (SHA-256 `82a5a440004f967038f7603420b0f9881e0c783663487ef55a19d4cd07ef0a91`)
+- Exact reviewed view: `W21-001.md`（本机附件：`evidence/usage_views/active/W21-001.md`）; byte-exact admission view `W21-001.md`（本机附件：`evidence/usage_views/raw/W21-001.md`） (SHA-256 `9f01d4278ea656a465726a6cf67c9b5a922bfe2488a4bfae3d4a387de9025fa1`)
+- Accepted interface: Frozen compact-space rank-selector existence/support/uniform inner mixing; corrected k=2 interval use and finite binary-tree strictness supplement
+- Conditions: Exact compact metric finite-k frozen selection kernel and original tie convention; tree branch only finite binary tree with at least3 leaves, full-support invariant law and distinct leaf-distance ordering; strictness1/2-C=b(1/2-b)+c(1/2-c)>0.
+- Transfer limits: No arbitrary tree/metric extension or convergence of the outer stationary selector.
 
-- **W21-004 — On Ergodic Properties of Nonlinear Markov Chains and Stochastic McKean–Vlasov Equations**. [official arXiv record](https://arxiv.org/abs/1311.6367) · [SIAM DOI](https://doi.org/10.1137/S0040585X97986825) [acquired PDF](local-assets.md#asset-50db08aff5b9); PDF pp.1–17, complete; assumptions/Theorem 2.2 visually checked on pp.3–4. SHA-256 eab8ab19fb5369ba740e317508b9d76572d3b03586ba4f31ec35925b76aabf5c. [proof card](../evidence/W21/cards/W21-004.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-004). Review pending.
-- **W21-007 — On Mean Field Convergence and Stationary Regime**. [official arXiv record](https://arxiv.org/abs/1111.5710) [acquired PDF](local-assets.md#asset-ddf2ef33103d); PDF pp.1–6, complete. SHA-256 5a5bcec67c3bab51e4fdc29dfbe33a9562315fc46cf130af6b3d99321e25a8b0. [proof card](../evidence/W21/cards/W21-007.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-007). Review pending.
-- **W21-012 — Quantitative Harris-Type Theorems for Diffusions and McKean–Vlasov Processes**. [official arXiv record](https://arxiv.org/abs/1606.06012) · [AMS DOI](https://doi.org/10.1090/trans/7576) [acquired PDF](local-assets.md#asset-757c567508ff); PDF pp.1–45, complete; multiplicative contraction and McKean–Vlasov formulas checked on pp.11 and 15. SHA-256 13142f48f4c12936e39a967a897d626c1ea5a67def83767ce724252759836791. [proof card](../evidence/W21/cards/W21-012.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-012). Review pending.
-- **W21-025 — Fixed Points of a Generalized Smoothing Transformation and Applications to Branching Processes**. [official Numdam archive](https://www.numdam.org/item/PSMIR_1995___2_A9_0/) [acquired PDF](local-assets.md#asset-1f1609119e70); physical pp.1–55, complete (archive cover plus printed article pp.1–54); root/classification formulas checked on pp.7–10. SHA-256 99ae9d43bc6303ec09d3d15912b63242f72e3e5f5656a5bca2a9ca5916ae48dd. [proof card](../evidence/W21/cards/W21-025.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-025). Review pending.
-- **W21-027 — A Limit Theorem for “Quicksort”**. [official Numdam archive](https://www.numdam.org/item/ITA_1991__25_1_85_0/) · [DOI](https://doi.org/10.1051/ita/1991250100851) [acquired PDF](local-assets.md#asset-2fc972b0b30e); physical pp.1–17, complete (archive cover plus printed article pp.85–100); contraction proof checked on pp.8–9. SHA-256 7366d2107b761d254b8b1cfe697f9ddb9501836e2054b6c8f2c9b4d0cb765bbb. [proof card](../evidence/W21/cards/W21-027.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-027). Review pending.
-- **W21-029 — The Contraction Method for Recursive Algorithms**. [Freiburg author publication page](https://www.stochastik.uni-freiburg.de/de/emeriti/rueschendorf/publications/algorithms) · [DOI](https://doi.org/10.1007/BF02679611) [acquired complete 35-page author PDF](local-assets.md#asset-cb1afddd7c71); all physical pages read; Lemma 1/Theorem 3 rendered on pp.6–7, asymptotic-normality and Find-process limits checked on pp.20–21 and 29–30. The p.29 printed Find-process sufficient coefficient fails at p=3; a separate disjoint-support integral gives a strict factor and is recorded in the card/check. SHA-256 4537f1a96c4081f4522c09be566c00c65a9a6a5b48597cb69ea1300fdbcd6f29. Publisher citation: Algorithmica 29 (2001), 3–33; publisher-layout equivalence not checked. [proof card](../evidence/W21/cards/W21-029.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-029). Review pending.
-- **W21-038 — Perturbation of the Stationary Distribution Measured by Ergodicity Coefficients**. [Cambridge publisher PDF](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2B4FC2C53EF03D6B3835F1FB175D91F1/S0001867800018012a.pdf/perturbation-of-the-stationary-distribution-measured-by-ergodicity-coefficients.pdf) · [DOI](https://doi.org/10.2307/1427277); PDF pp.1–3, complete; equations (3)–(4) visually checked on pp.1–2. SHA-256 02ea5da334d253223b9bc1ec059f98faf8c2250012e7f0d551c79047d0778674. [proof card](../evidence/W21/cards/W21-038.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-038). Review pending.
-- **W21-040 — Perturbation Theory for Markov Chains via Wasserstein Distance**. [official arXiv v3 record](https://arxiv.org/abs/1503.04123) · [Bernoulli DOI](https://doi.org/10.3150/17-BEJ938) [acquired 31-page v3 PDF](local-assets.md#asset-33083ab4d550); Assumption 2.1 and the `N`/`N_0` notation rendered on p.5; Theorem 3.1/proof checked on pp.6–7; Theorem 3.2 checked on pp.13–15. Under the positive-integer reading of `N`, both proofs use a zero-power term and require `C'=max(C,1)`; exact witnesses are saved with the card. SHA-256 816321be63f77e1bb8f8e9da8cd8b5ca18279030d2d4f6f706921b64d063c480. Published counterpart Bernoulli 24(4A) (2018), 2610–2639; text equivalence not checked. [proof card](../evidence/W21/cards/W21-040.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-040). Review pending.
+## W21-002 — PR-4124d7b68725
 
-- **W21-030 — A General Limit Theorem for Recursive Algorithms and Combinatorial Structures**. [Project Euclid record](https://projecteuclid.org/journals/annals-of-applied-probability/volume-14/issue-1/A-general-limit-theorem-for-recursive-algorithms-and-combinatorial-structures/10.1214/aoap/1075828056.full); [acquired author manuscript](local-assets.md#asset-25c5a1555b97); PDF pp.1–41, complete; theorem pages 11 and 20 visually checked. SHA-256 `2118f65acc30bab639237391c4753d6ec4f70e503756749edae64043511ecd83`. Manuscript pagination; published counterpart AAP 14(1) (2004), 378–418, DOI 10.1214/aoap/1075828056; no line-by-line comparison. [proof card](../evidence/W21/cards/W21-030.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-030). Review pending.
-- **W21-031 — On the Contraction Method with Degenerate Limit Equation**. [official arXiv record](https://arxiv.org/abs/math/0410177) · [DOI](https://doi.org/10.1214/009117904000000171) [acquired PDF](local-assets.md#asset-41f5345cad17); PDF pp.1–19, complete; Theorem 2.1 p.5 visually checked. SHA-256 `831f3d086dc6105f3e66b6bff8f36ff76c0645dd7bb4005324b193f975087343`. Institutional author-hosted published-layout PDF, no publisher text-equivalence comparison. [proof card](../evidence/W21/cards/W21-031.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-031). Review pending.
-- **W21-032 — A Stochastic Fixed Point Equation Related to Weighted Branching with Deterministic Weights**. [EJP record](https://doi.org/10.1214/EJP.v11-296) [acquired open PDF](local-assets.md#asset-11ec214d2cb6); PDF pp.1–30, complete; central classification pages 15, 16, 24, 26 visually checked. SHA-256 `81a5c6047a02ffaa2c9cfa0d5870203dc09c228866282acf93a30ff73cca18bf`. EJP 11 (2005), paper 2, pp.27–56; journal record publication date 2006-01-26 retained separately. [proof card](../evidence/W21/cards/W21-032.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-032). Review pending.
-- **W21-034 — A Stochastic Fixed Point Equation for Weighted Minima and Maxima**. [official Numdam record](https://numdam.org/articles/10.1214/07-AIHP104/) · [DOI](https://doi.org/10.1214/07-AIHP104) [acquired publication PDF](local-assets.md#asset-861d87d5ab6c); PDF pp.1–15, complete; Theorem 4.2 and proof continuation pp.12–13 visually checked. SHA-256 `0ad6ade5513644b6aa7c99580d59201fdb54cf8a074d6336283f36c8823a0f70`. [proof card](../evidence/W21/cards/W21-034.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-034). Review pending.
-- **W21-035 — Pólya Urns Via the Contraction Method**. [official arXiv record](https://arxiv.org/abs/1301.3404) · [DOI](https://doi.org/10.1017/S0963548314000364) [acquired PDF](local-assets.md#asset-5ea6f52e08b1); PDF pp.1–39, complete; system contraction and cyclic fixed-point formula pages 14, 16, 22, 30–32 visually checked. SHA-256 `8a91f5e68bbff5afb750581b6f59552684c5a80268215f1ee4aff914106339f5`. Bytes match arXiv v3 and publication citation; front page says 2021 while arXiv history ends 2013, discrepancy unresolved. [proof card](../evidence/W21/cards/W21-035.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-035). Review pending.
+- Version: arXiv:2403.18153v1 (26 Mar 2024); author manuscript states that it is not intended for formal publication
+- Exact PDF: `W21-002.pdf`（本机附件：`evidence/source_pdfs/W21-002.pdf`） (SHA-256 `b6d6a98febfd612528f2aec1e23a1989ff1caaba588f95d0efb32f461eaa078f`)
+- Exact reviewed view: `W21-002.md`（本机附件：`evidence/usage_views/active/W21-002.md`）; byte-exact admission view `W21-002.md`（本机附件：`evidence/usage_views/raw/W21-002.md`） (SHA-256 `b99f6edd9bcafd6413e87316728601da5b0267a9be6ef700e34c34ade6026a88`)
+- Accepted interface: No-distance-tie weak continuity of stationary selector for each fixed finite k
+- Conditions: Compact metric space, exact rank selector, no limiting distance ties under the dominated current-state/fresh-sample law; couple current state and all k independent sampled coordinates; parameter-independent inner mixing tail.
+- Transfer limits: Density-only criterion remains author-stated proof-omitted; no outer almost-everywhere convergence or density-only reduction.
 
-- **W21-013 — Stationary Equilibria of Mean Field Games with Finite State and Action Space**. [official arXiv v2 record](https://arxiv.org/abs/1901.08803) · [published DOI](https://doi.org/10.1007/s13235-019-00345-9) [reused complete 35-page PDF](local-assets.md#asset-0e5ed2df8630); Theorem 4.1 p.14 and Theorem 5.2 p.17 rendered. The latter requires irreducibility for every deterministic stationary strategy, not only optimal policies; its convex-hull reverse inclusion uses mixed occupation arrays. SHA-256 014c6d4facfe99ec2a09455111c1f552f2da290af338ab5d70f97b871a963a4b. ArXiv header date 19 Sep 2019 and title-page date 20 Sep 2019 are both retained; no publisher-PDF comparison. [proof card](../evidence/W21/cards/W21-013.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-013). Review pending.
-- **W21-014 — A Myopic Adjustment Process for Mean Field Games with Finite State and Action Space**. [official arXiv v1 record](https://arxiv.org/abs/2008.13420) · [published DOI](https://doi.org/10.1007/s00182-023-00866-z) [acquired complete 24-page PDF](local-assets.md#asset-3fc98ed0e2b7); Theorems 3.2, 4.2, 4.4 and 5.1 visually checked on pp.7, 10, 12 and 17. SHA-256 2c39e47ba180136308c0795c9ddc54196a1516511f152a8f23da64c385050ac9. No publisher-text comparison. [proof card](../evidence/W21/cards/W21-014.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-014). Review pending.
-- **W21-015 — On the Behaviour of Trajectories and the Ergodic Hypothesis for Quadratic Mappings of a Simplex**. [official MathNet record and English PDF](https://www.mathnet.ru/eng/rm3594) · [DOI](https://doi.org/10.1070/RM1978v033n06ABEH003890) [acquired complete 2-page translation](local-assets.md#asset-161612215650); both theorem displays and proofs were rendered. Theorem 1's product-ratio estimate is outside a center neighborhood; its eventual-avoidance step is asserted but not independently justified here, and Theorem 2 depends on it. Note 1's cluster-set claim is contradictory under the stated fixed-point interpretation. SHA-256 c27d3d2bbb3b4b54609f28be9854049dcf7bd6038eb771df5724d3646453c634. Translation citation: Russian Math. Surveys 33:6 (1978), 265–266; translated from Uspekhi Mat. Nauk 33:6, 207–208. [proof card](../evidence/W21/cards/W21-015.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-015). Review pending.
-- **W21-019 — On Regularity, Transitivity, and Ergodic Principle for Quadratic Stochastic Volterra Operators**. [official arXiv v1 record](https://arxiv.org/abs/1111.3101) [acquired complete 5-page PDF](local-assets.md#asset-e9af3551bca8); intro map formula, definitions, and unnumbered theorem checked on pp.2, 4–5. The theorem's transversal scope is a global standing assumption; its proof is absent and [3–4] remain unaudited. The introduction's displayed “non-Volterra” example factors into Volterra form and is cyclic/transversal, so its label conflicts with its formula. SHA-256 4a031b498ba069d3f055a0a2bb6c1ff2fb4525e1f5205ebeb8aebf3d19e64c5c. No separate published version identified. [proof card](../evidence/W21/cards/W21-019.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-019). Review pending.
-- **W21-021 — Doubly Stochastic Quadratic Operators and Birkhoff’s Problem**. [official arXiv v1 record](https://arxiv.org/abs/0802.1100) · [published DOI](https://doi.org/10.1016/j.laa.2009.07.002) [acquired complete 18-page PDF](local-assets.md#asset-682f36dff28b); The U_1 definition p.4 and Theorem 3.4 p.7, Theorem 3.6 pp.10–11, Theorem 4.1 pp.14–15 and Corollary 4.3 p.16 visually checked. SHA-256 7311c84fd87829adf4c994e509970684ea9967f54bc1b3a9390df132e417a0e4. The printed Theorem 3.4 normalization scope is flagged for R02 review, not classified as an author error. [proof card](../evidence/W21/cards/W21-021.md) · [section/page coverage](../evidence/W21/reading_coverage.json#W21-021). Review pending.
+## W21-003 — PR-81eb005a402e
 
-### Version and scope notes
+- Version: arXiv:2007.02555v1 (6 Jul 2020); Cambridge confirms same title/author in J. Appl. Probab. 60(1) (2023), 30–44, DOI 10.1017/jpr.2022.23; local preprint not publisher layout.
+- Exact PDF: `W21-003.pdf`（本机附件：`evidence/source_pdfs/W21-003.pdf`） (SHA-256 `554d3dedd465ca892e090174774a7aa04e1810ff4bb7a1b6ed3565e00bc76767`)
+- Exact reviewed view: `W21-003.md`（本机附件：`evidence/usage_views/active/W21-003.md`）; byte-exact admission view `W21-003.md`（本机附件：`evidence/usage_views/raw/W21-003.md`） (SHA-256 `f95f21caad5a36a01722651d0594b0c51e8b3a1fee7f347c2725837f04d088df`)
+- Accepted interface: Finite nonlinear generator flow and stationary-law existence; corrected degree uniqueness under original hypotheses
+- Conditions: Finite conservative generators with nonnegative off-diagonals; Lipschitz coordinates for flow, continuity for Kakutani; uniqueness additionally every Q(m) irreducible, reduced selector difference C1 and nonsingular reduced Jacobian on simplex; true reduced barycenter c=(1/S)ones with correct reduced codomain.
+- Transfer limits: Continuous-time nonlinear flow only; no nested stationary-law iteration; printed reference homotopy not adopted. Unlisted small-state branches not needed by this row.
 
-- W21-001 and W21-002 are exact source PDFs also recorded under W04; each is distilled once within W21 and is not counted again globally.
-- W21-003 is the arXiv v1; Cambridge metadata matches the 2023 article identity, but no publisher-text comparison was performed.
-- W21-018 is arXiv v1; Taylor & Francis title/authors/citation metadata match, but no line-by-line publisher comparison was performed.
-- W21-023 is arXiv v1; KCI metadata matches the journal record, but no text-equivalence/correction comparison was performed. Its opposite finite/continuous p/q conventions, expanding-interval proof gap, endpoint-support counterexample, domain mismatch, and undefined strong-limit topology are called out in the card.
-- W21-024 is the author-hosted PDF with the complete published 275–301 pagination.
-- W21-036 is the complete arXiv v1; no separate journal version was identified.
-- W21-004 is arXiv v1; SIAM confirms the publication citation/DOI, but no publisher text comparison was made.
-- W21-007 is arXiv v1; the official arXiv record lists no journal reference/DOI, and no other published version was identified.
-- W21-012 is arXiv v2; AMS confirms the publication citation/DOI, but no publisher text comparison was made. The displayed statement of Theorem 2.2 repeats assumption 2.2; the setup and proof use 2.1, 2.2 and 2.4.
-- W21-025 and W21-027 are official Numdam archive PDFs; the archive cover accounts for one additional physical page in each local PDF.
+## W21-004 — PR-d85aece9e23d
 
-## Candidate-only records
+- Version: arXiv:1311.6367v1 (25 Nov 2013), 17-page preprint; SIAM metadata identifies the published counterpart as Theory of Probability & Its Applications 58(4) (2014), 661–674, DOI 10.1137/S0040585X97986825. No publisher-layout PDF/text-equivalence comparison was made.
+- Exact PDF: `W21-004.pdf`（本机附件：`evidence/source_pdfs/W21-004.pdf`） (SHA-256 `eab8ab19fb5369ba740e317508b9d76572d3b03586ba4f31ec35925b76aabf5c`)
+- Exact reviewed view: `W21-004.md`（本机附件：`evidence/usage_views/active/W21-004.md`）; byte-exact admission view `W21-004.md`（本机附件：`evidence/usage_views/raw/W21-004.md`） (SHA-256 `8f877733300e35ee5efdb06c5f4c4c75b359deb44bbff2bfbc8da8147da841d7`)
+- Accepted interface: Discrete Th2.2 nonlinear Dobrushin common-part contraction, stationary uniqueness and convergence
+- Conditions: Law update mu->mu P_mu, full variation=2sup_A; cross-state/law distance<=2(1-alpha), alpha>0; same-state sensitivity<=lambda TV(mu,nu),0<=lambda<=alpha. Strict rate2(1-alpha+lambda)^n; endpointlambda=alpha>0 rate2/(lambda n). Sharpness uses actual beta<1 under advertisedlambda1 upper bound.
+- Transfer limits: Literal SDE Th3.1 proof chain held at truncated-W2 to TV² inference; additional TV-Lip only repairs local step; no whole-source refutation.
 
-These works are screened leads only. Do not attribute audited theorem statements to them until the exact version is acquired and read.
+## W21-007 — PR-bf78ae2e2705
 
-| Candidate | Ledger ID | Year | Work | Method family | Status |
-|---|---:|---:|---|---|---|
-| C003 | W21-005 | 2016 | Ergodicity of Nonlinear Markov Operators on the Finite Dimensional Space | finite-dimensional nonlinear Markov operators | candidate-only |
-| C004 | W21-006 | 2008 | A Class of Mean Field Interaction Models for Computer and Communication Systems | finite-population mean-field law dynamics | candidate-only |
-| C006 | W21-008 | 1966 | A Class of Markov Processes Associated with Nonlinear Parabolic Equations | nonlinear measure-valued evolution | candidate-only |
-| C007 | W21-009 | 1984 | A Martingale Approach to the Law of Large Numbers for Weakly Interacting Stochastic Processes | mean-field limit and propagation of chaos | candidate-only |
-| C008 | W21-010 | 1992 | McKean-Vlasov Ito-Skorohod Equations, and Nonlinear Diffusions with Discrete Jump Sets | nonlinear Markov process existence and uniqueness | candidate-only |
-| C009 | W21-011 | 2003 | Convergence to Equilibrium for Granular Media Equations and Their Euler Schemes | nonlinear measure-flow convergence | candidate-only |
-| C014 | W21-016 | 1993 | Quadratic Stochastic Operators, Lyapunov Functions, and Tournaments | simplex Lyapunov methods | candidate-only |
-| C015 | W21-017 | 2004 | On a Necessary Condition for the Ergodicity of Quadratic Operators Defined on the Two-Dimensional Simplex | simplex dynamics obstructions | candidate-only |
-| C018 | W21-020 | 2020 | Ganikhodzhaev's Conjecture on Mean Ergodicity of Quadratic Stochastic Operators | simplex dynamics counterexamples | candidate-only |
-| C020 | W21-022 | 2016 | Dynamics of Doubly Stochastic Quadratic Operators on a Finite-Dimensional Simplex | simplex convergence under majorization | candidate-only |
-| C024 | W21-026 | 1998 | Fixed Points of a Generalized Smoothing Transformation and Applications to the Branching Random Walk | RDE fixedpoint classification and convergence | candidate-only |
-| C026 | W21-028 | 1992 | A Fixed Point Theorem for Distributions | contractive distributional transforms | candidate-only |
-| C031 | W21-033 | 2007 | A Stochastic Maximin Fixed-Point Equation Related to Game Tree Evaluation | nonlinear min-max distributional recursion | candidate-only |
-| C035 | W21-037 | 1968 | Perturbation Theory and Finite Markov Chains | stationary-law sensitivity | candidate-only |
+- Version: arXiv:1111.5710v1 (24 Nov 2011), 6-page author preprint. The official arXiv record lists no journal reference or DOI; no separate published version was identified in this pass.
+- Exact PDF: `W21-007.pdf`（本机附件：`evidence/source_pdfs/W21-007.pdf`） (SHA-256 `5a5bcec67c3bab51e4fdc29dfbe33a9562315fc46cf130af6b3d99321e25a8b0`)
+- Exact reviewed view: `W21-007.md`（本机附件：`evidence/usage_views/active/W21-007.md`）; byte-exact admission view `W21-007.md`（本机附件：`evidence/usage_views/raw/W21-007.md`） (SHA-256 `89244d014ecf0c8c346a6fcd0b1e9c1de638c9e47c6ee107261619ef6962f042`)
+- Accepted interface: Invariant-law weak-limit passage under subsequence-stable fixed-time mean-field approximation
+- Conditions: For every subsequence N_k->infinity and every x_k in E_Nk with x_k->x, each fixedt conditional law Y^(Nk)(t)|x_k converges to delta_phi_t(x); exact metric-state/stationary setup and continuous limiting semiflow. For a global-attractor conclusion additionally prove the stated global-attraction assumptions.
+- Transfer limits: Full-index-only approximation is not accepted as sufficient for the subsequence step; no fixed outer-map convergence theorem.
 
-## Supplementary full-text methods
+## W21-013 — PR-55ff8d56de8f
 
-These five distinct papers count provisionally toward the **tool-level** source count because they prove operator-specific results in the existing smoothing-transform or centered-QSO adapters. Their `quota_eligible_for_A121_A122` fields remain false: none supplies the target's exact recursive or averaging/noise interface. They do not replace the unavailable C020 source. R02 stage22 accepted W21-042 and returned W21-041/043/044/045 for targeted revision; those four corrections are submitted for independent re-review. Their row-level `review_status` values remain pending until R02 binds the next decision.
+- Version: Official arXiv:1901.08803v2 author preprint, 35 pages; D03 record says last revised 19 Sep 2019, while the title page says 20 Sep 2019. DOI 10.1007/s13235-019-00345-9 identifies the published counterpart; no publisher-PDF text comparison. Reused existing D03 file without copying.
+- Exact PDF: `W21-013.pdf`（本机附件：`evidence/source_pdfs/W21-013.pdf`） (SHA-256 `014c6d4facfe99ec2a09455111c1f552f2da290af338ab5d70f97b871a963a4b`)
+- Exact reviewed view: `W21-013.md`（本机附件：`evidence/usage_views/active/W21-013.md`）; byte-exact admission view `W21-013.md`（本机附件：`evidence/usage_views/raw/W21-013.md`） (SHA-256 `0eb606a6e8e5057d01ce5f5f3c780698b83089bab43120358a157e498043b959`)
+- Accepted interface: Frozen discounted finite-MFG response convexity/Kakutani existence, cut balance and irreducible stationary convex-hull interface
+- Conditions: Finite states/actions, conservative Lipschitz rate coordinates, continuous rewards, discountbeta in(0,1); optimality for every initial law; positive uniformization even allrates0; occupation-array mixture with any optimal-action probability row at zero mass; stationary convex-hull branch requires every deterministic policy generator irreducible at frozenm, including nonoptimal policies.
+- Transfer limits: Ordinary policy mixtures do not produce ordinary stationary-law mixtures; no game parameter classification, uniqueness or outer selector convergence.
 
-- **W21-041 — A Simple Method to Find All Solutions to the Functional Equation of the Smoothing Transform**. [Author publication page](https://www.math.univ-toulouse.fr/~bmallein/en/publications/smoothtran.html) · [DOI/published counterpart](https://doi.org/10.1007/s10959-021-01151-z) [local submitted manuscript](local-assets.md#asset-4ffa51e6644e); all 33 physical pages read. Theorems 1.2/1.5 use a left-continuous solution class and left-continuous periodic `h`; Proposition 4.1 has the centered finite-variance, right-continuity, killed-boundary and growth conditions recorded in the card, including a source-text mismatch in the displayed growth bound. SHA-256 `81d9c45efed6618e3031936f47939fd27781bbda37b227acf4918992edd5d6e4`. [proof card](../evidence/W21/cards/W21-041.md) · [coverage](../evidence/W21/reading_coverage.json#W21-041). Review pending.
-- **W21-042 — Regular Variation of Fixed Points of the Smoothing Transform**. [HAL full-text record](https://hal.science/hal-02487852/document) · [published DOI](https://doi.org/10.1016/j.spa.2019.11.011) [local v1 manuscript](local-assets.md#asset-0a510f3648bf); all 33 physical pages read. Theorem 1.1 transfers regularly varying tails for a finite-mean weighted-sum RDE under `α>1`, `ρ(α)<1`, and a finite `(α+δ)` weight moment; Theorem 1.2 is a one-way integrated-tail result under its own `ρ′(1)` and integrability conditions. SHA-256 `7b689a4d692222ec2e3052f2059df7b1fe4e51a98632d1ca71cdfe8e35e92c67`. [proof card](../evidence/W21/cards/W21-042.md) · [coverage](../evidence/W21/reading_coverage.json#W21-042). Review pending.
-- **W21-043 — Elementary Fixed Points of the BRW Smoothing Transforms with Infinite Number of Summands**. [arXiv v1 record](https://arxiv.org/abs/math/0310244) · [Elsevier record](https://www.sciencedirect.com/science/article/pii/S0304414904000924) [local v1 PDF](local-assets.md#asset-1b83d0bf33a1); all 31 physical pages read. Theorem 2 gives the α-elementary existence criterion with full walk drift; Proposition 3(a)–(b) gives uniqueness within the elementary class. A neutral review isolates the literal Prop. 1(b) regular-variation and Prop. 3(c) all-fixedpoint claims as contradicted for this arXiv v1 only; the journal version was not compared. SHA-256 `1abcd228c69683b086ae10a5e2d6db92376234ff687c3683d809d8307925db2c`. [proof card](../evidence/W21/cards/W21-043.md) · [coverage](../evidence/W21/reading_coverage.json#W21-043). Review pending.
-- **W21-044 — Weak Stability of Centred Quadratic Stochastic Operators**. [Springer OA article](https://link.springer.com/article/10.1007/s40840-017-0575-8) · [DOI](https://doi.org/10.1007/s40840-017-0575-8) [local publisher-layout PDF](local-assets.md#asset-b93cafd54c21); all 18 physical pages read. Theorem 1 gives the weak-limit/fixedpoint implication for the exact centered map `Q_G(F)=Law((X_1+X_2)/2+η)`. Theorem 5's exponential-decay result also assumes the noise-factor weak limit exists; local modulus decay alone does not imply it. SHA-256 `6e8b3da935c63aa7253bd7e846ccf6439f6a35a2284ee99cfa39bedb1c6f8620`. [proof card](../evidence/W21/cards/W21-044.md) · [coverage](../evidence/W21/reading_coverage.json#W21-044). Review pending.
-- **W21-045 — The Functional Equation of the Smoothing Transform**. [IMS full article](https://www.uni-muenster.de/Stochastik/Meiners/Publikationen/FEqofST.pdf) · [DOI](https://doi.org/10.1214/11-AOP670) [local final-article PDF](local-assets.md#asset-0f0be5e3608c); all 37 physical pages read. Theorem 2.2 classifies nontrivial decreasing solutions under A1–A5; A4a includes `E[(Σ_i T_i^α)log⁺(Σ_i T_i^α)]<∞`. Corollary 2.3–2.4 restrict the Laplace/survival subclasses; Theorem 8.3 gives BRW disintegration/endogeny. SHA-256 `097bc799a1ddf418a04dcd3b28b8717b3b99fe297022f99dd4a866d96b069e7d`. [proof card](../evidence/W21/cards/W21-045.md) · [coverage](../evidence/W21/reading_coverage.json#W21-045). Review pending.
+## W21-015 — PR-d70ccb8cf482
 
-## Acquisition handoff
+- Version: Official MathNet English translation, Communications of the Moscow Mathematical Society 33:6 (1978), pp.265–266; translated from Uspekhi Mat. Nauk 33:6, pp.207–208. DOI 10.1070/RM1978v033n06ABEH003890.
+- Exact PDF: `W21-015.pdf`（本机附件：`evidence/source_pdfs/W21-015.pdf`） (SHA-256 `c27d3d2bbb3b4b54609f28be9854049dcf7bd6038eb771df5724d3646453c634`)
+- Exact reviewed view: `W21-015.md`（本机附件：`evidence/usage_views/active/W21-015.md`）; byte-exact admission view `W21-015.md`（本机附件：`evidence/usage_views/raw/W21-015.md`） (SHA-256 `36c7345bd6ef2c21aa9fc86d9d97e3f54502ed4069022a8f8a9e437ed69184fd`)
+- Accepted interface: Exact cyclic QSO ordinary-orbit nonconvergence by product Lyapunov and invading coordinate
+- Conditions: V(x,y,z)=(x²+2xy,y²+2yz,z²+2zx), closed2-simplex; interior noncenter initialpoint; productxyz strictly decreases offcenter, tends0; any convergent orbit must be fixed, and invading coordinate excludes vertices.
+- Transfer limits: Cesaro nonconvergence/block-duration theorem and Note1/epsilon extension remain unproved by this audit; ordinary nonconvergence only.
 
-D03 batch01 identity-verified and delivered C001, C016, C021, C022, and C034; W21 read all five complete PDFs. D03 batch02 identity-verified and delivered ten PDFs; W21 read C002, C005, C010, C023, and C025, and L11 read C028, C029, C030, C032, and C033. D03 batch03 supplied identity-checked PDFs for C027/C036/C038 (read by L12) and C012/C013/C017/C019 (read by L11); C011 reused the already acquired D03 batch02 considered_not_counted PDF. All eight L12/L11 batch03 reads and all six L08 batch05 reads are integrated into mother cards and full page coverage; batch05 C037 upgrades the existing C037/W21-039 record, and the five SUP IDs are not aliases or substitutes for C020. The remaining first-batch requests C003, C014, C015, C026, and C035 were not acquired in that batch. Consult the D03 batch01–03 acquisition records and search logs for identity, version, SHA, and access details.
+## W21-018 — PR-b94b5f7eb81a
 
-## Reading and inference boundary
+- Version: arXiv:1307.1265v1 (4 Jul 2013); Taylor & Francis metadata matches title/authors in J. Difference Equations Appl. 20(8) (2014), 1258–1267, DOI 10.1080/10236198.2014.906591; no text comparison.
+- Exact PDF: `W21-018.pdf`（本机附件：`evidence/source_pdfs/W21-018.pdf`） (SHA-256 `3ecdbb61e9ec2b70fd077b5d2336938af389dab34c91050481e37cfde504ef90`)
+- Exact reviewed view: `W21-018.md`（本机附件：`evidence/usage_views/active/W21-018.md`）; byte-exact admission view `W21-018.md`（本机附件：`evidence/usage_views/raw/W21-018.md`） (SHA-256 `73e305a3f330f516269dfa276b2c742c25b2fee4eea0e8051948029fd36de5c5`)
+- Accepted interface: Finite Abelian convolution-QSO support/coset dynamics, current-support uniformization and quadratic error
+- Conditions: Finite Abelian group, fixed probabilitymu, Vx=mu*x*x. After support size stabilizes, subgroupU fixed and coset may move; epsilon_next<=|U|epsilon², zeroerror handleddirectly; periodic orbit converse fromTh3.9+periodicity/Prop3.13, not literalTh3.12.
+- Transfer limits: No arbitrary QSO extension; literal loglog(error) excluded; odd prime need not be orbitperiod; current coset is not a fixed global target.
 
-- Full-text cards state theorem hypotheses and proof chains; coverage records list every section/appendix and physical PDF pages read.
-- Candidate metadata, abstracts, and screening statements are not proof evidence.
-- A121 outer almost-everywhere convergence and A122 general-parameter arbitrary-Borel full-support existence/nonexistence remain unresolved in the audited sources.
-- The independent skill draft is pending review and is not installed or released.
+## W21-019 — PR-fa35dea8934d
+
+- Version: Official arXiv:1111.3101v1 author preprint, submitted 14 Nov 2011, 5 pages. No journal reference or DOI appears in the record; no separate published version identified in this pass.
+- Exact PDF: `W21-019.pdf`（本机附件：`evidence/source_pdfs/W21-019.pdf`） (SHA-256 `4a031b498ba069d3f055a0a2bb6c1ff2fb4525e1f5205ebeb8aebf3d19e64c5c`)
+- Exact reviewed view: `W21-019.md`（本机附件：`evidence/usage_views/active/W21-019.md`）; byte-exact admission view `W21-019.md`（本机附件：`evidence/usage_views/raw/W21-019.md`） (SHA-256 `2d36e41f23760ada51f965527a412e370791ff32d57dd21563f8685b590ebbb8`)
+- Accepted interface: R15-derived transitive-Volterra sufficient direction to support-winning vertex
+- Conditions: Exact finite Volterra QSO x_i next=x_i(1+sum_j aij xj), skew coefficients within stochastic admissible bounds; standing transversality retained; transitive tournament restricted to positive initial support has winnerw with a_wi>0. xw_next>=xw[1+a_min(1-xw)] yields convergence to winner, same-support ergodic principle and asymptotic regularity.
+- Transfer limits: Proof-free four-way equivalence and converses not accepted; source has no asserted not-Volterra label for introductory map; no tie/zero-edge extension.
+
+## W21-024 — PR-dd5c0a8b0398
+
+- Version: Author-hosted PDF matches published article, Z. Wahrscheinlichkeitstheorie verw. Gebiete 64(3) (1983), 275–301, DOI 10.1007/BF00532962; local 27-page PDF has full published pagination.
+- Exact PDF: `W21-024.pdf`（本机附件：`evidence/source_pdfs/W21-024.pdf`） (SHA-256 `35568fd1ca08b1c804ed47a0432e1b99b66b1e2aafc31d3db6e0599e93144499`)
+- Exact reviewed view: `W21-024.md`（本机附件：`evidence/usage_views/active/W21-024.md`）; byte-exact admission view `W21-024.md`（本机附件：`evidence/usage_views/raw/W21-024.md`） (SHA-256 `47f175affe35383a8c028438401792fc184424b571d5f149c45355419ec9b266`)
+- Accepted interface: Finite-mean nonnegative smoothing-transform existence, W1 iteration/scale uniqueness and moment criterion
+- Conditions: Finite fixed N, nonnegative joint weightvector with arbitrary internal dependence; iid children independent of entire vector; m(1)=E sumWi=1,vprime(1)<0,EWi^gamma<infinity for somegamma>1. Finite-mean initial laws; beta>1 moment criterion uses m(beta)<1 and its finite weightmoments.
+- Transfer limits: Root necessity, critical derivative0, infinite-mean classification/exclusion, full lattice/nonlattice families and tail asymptotics remain outside acceptance.
+
+## W21-038 — PR-035bbf5b7ba1
+
+- Version: Official Cambridge publisher PDF, 3 physical pages: Advances in Applied Probability 20 (1988), 228–230, DOI 10.2307/1427277.
+- Exact PDF: `W21-038.pdf`（本机附件：`evidence/source_pdfs/W21-038.pdf`） (SHA-256 `02ea5da334d253223b9bc1ec059f98faf8c2250012e7f0d551c79047d0778674`)
+- Exact reviewed view: `W21-038.md`（本机附件：`evidence/usage_views/active/W21-038.md`）; byte-exact admission view `W21-038.md`（本机附件：`evidence/usage_views/raw/W21-038.md`） (SHA-256 `7f859854314a16fb522cfd78e2cf66912a32399e6c3325d04bd92874f7ba9c7c`)
+- Accepted interface: Finite-chain stationary sensitivity via zero-sum ergodicity coefficient
+- Conditions: Finite row-stochastic P/Ptilde with unique-class/stationary laws, induced right-action row p norm; tau_p(P)<1. Delta(I-P)=pitilde(Ptilde-P), ||Delta||p<=||Ptilde-P||p/(1-tau_p(P)). Maximum absolute rowsum is induced row norm only forp1.
+- Transfer limits: Outer-map use additionally needs kernel sensitivity and uniform denominator margin; generalp cannot usep1 rowsum formula.
+
+## W21-039 — PR-330a0e5f0a08
+
+- Version: Official Cambridge publisher-layout PDF, Journal of Applied Probability 42(4) (2005), 1003–1014, 12 physical pages; first/last identity verified by D03, no alternate-version comparison.
+- Exact PDF: `W21-039.pdf`（本机附件：`evidence/source_pdfs/W21-039.pdf`） (SHA-256 `3a7a9c35f0a130181c03ff7c24311e849435cc27dbdf77885b26e6ec98c9fddb`)
+- Exact reviewed view: `W21-039.md`（本机附件：`evidence/usage_views/active/W21-039.md`）; byte-exact admission view `W21-039.md`（本机附件：`evidence/usage_views/raw/W21-039.md`） (SHA-256 `ff64d6fafdb565c416d698140d7ddc75928f195ef4123149392cde3beb0e7f4a`)
+- Accepted interface: Full-variation finite-time telescoping and stationary sensitivity under uniform ergodicity
+- Conditions: Exact source full variation norm, tau/base mixing bounds with C>=1 normalized; perturbed invariant law exists for stationary branch; finite-time power telescoping and product-sample coupling separately derived; m-skeleton branch retains its invariance/mixing assumptions.
+- Transfer limits: Prior beta-mixing-only acceptance is not reused as stationary proof; uniform parameter margins, actual kernel sensitivity and strict outer constant remain unproved.
+
+## W21-012 — PR-a0977052ad49
+
+- Version: arXiv:1606.06012v2 (last revised 9 Oct 2017), 45-page author preprint. AMS metadata identifies the published counterpart as Transactions of the AMS 371 (2019), 7135–7173, DOI 10.1090/trans/7576. No publisher-layout PDF/text-equivalence comparison was made.
+- Exact PDF: `W21-012.pdf`（本机附件：`evidence/source_pdfs/W21-012.pdf`） (SHA-256 `13142f48f4c12936e39a967a897d626c1ea5a67def83767ce724252759836791`)
+- Exact reviewed view: `W21-012.md`（本机附件：`evidence/usage_views/active/W21-012.md`）; byte-exact admission view `W21-012.md`（本机附件：`evidence/raw_delta_views/W21-012.md`） (SHA-256 `8b7ea205bd3def659554196411987f4e884a25b02543f52f46b57f5ea940e0fa`)
+- Accepted interface: Exact diffusion/Harris and McKean–Vlasov coupling interfaces only in globally Lipschitz drift/directly justified short-distance subclass
+- Conditions: Retain bound source theorem assumptions, Lyapunov/curvature and cost-specific constants. Th2.2 S1={Vx+Vy<=2C/lambda},S2={Vx+Vy<=4C(1+lambda)/lambda},Ri=sup_Si|x-y|, its own Q(epsilon),phi,(2.25). McKV finite second moments, signed kappa with negative limsup at infinity, interaction vartheta globally Lipschitz in both coordinates, |tau|K<c, cost f linear beyond its own R2(2.41–2.42). Th2.4 forallR existstau0(R), all-initial estimate extra moment-squared term. Subgeometric Assumptions2.8–2.9/proof positive beta_eta; displayed tailTV=sup_A, double forfullvariation.
+- Transfer limits: No general-local-Lip cutoff proof admitted, either R15 or L13. No merging of theorem radii or tail-bound to W_rho1-contraction promotion; target diffusion representation unproved.
+
+## W21-014 — PR-8a935ebf6927
+
+- Version: Official arXiv:2008.13420v1 author preprint, submitted 31 Aug 2020, 24 pages. DOI 10.1007/s00182-023-00866-z identifies published counterpart; no publisher PDF or text-equivalence comparison.
+- Exact PDF: `W21-014.pdf`（本机附件：`evidence/source_pdfs/W21-014.pdf`） (SHA-256 `2c39e47ba180136308c0795c9ddc54196a1516511f152a8f23da64c385050ac9`)
+- Exact reviewed view: `W21-014.md`（本机附件：`evidence/usage_views/active/W21-014.md`）; byte-exact admission view `W21-014.md`（本机附件：`evidence/raw_delta_views/W21-014.md`） (SHA-256 `78569b7c17a307658d924581aa15a5de9d42e39a9212f9db0f49e54a4c634a7d`)
+- Accepted interface: Finite-MFG inclusion existence/local stability, and global two-flow normal-sign conclusions conditional on exact piecewise F gate
+- Conditions: Finite-policy conservative regular generator/reward hypotheses and corrected finite-gap/stable-tangent proofs. Global branch: C2 g=(Vd2-Vd1)dot1, fi=(Qdi)^T m, F={f1} ifg<0,{f2} ifg>0,conv(f1,f2) ifg0; nongradientzero on switching set; each underlying flow converges from every initiallaw. Pair a=f1dotgradg,b=f2dotgrad(-g): a>0>b or a<0<b gives deterministic-MFE convergence; a,b>=0 gives deterministic-MFE convergence or eventual boundary-following alternative.
+- Transfer limits: U-size2 alone cannot certify the gate; explicit source neighborhood/basis constants unapproved; boundary-following does not prove mixed-equilibrium convergence; no discrete outer-map transfer.
+
+## W21-021 — PR-9d4ebf14061c
+
+- Version: Official arXiv:0802.1100v1 author preprint, submitted 8 Feb 2008, 18 pages. Published counterpart: Linear Algebra and its Applications 432 (2010), pp.24–35, DOI 10.1016/j.laa.2009.07.002; no publisher-PDF text comparison.
+- Exact PDF: `W21-021.pdf`（本机附件：`evidence/source_pdfs/W21-021.pdf`） (SHA-256 `7311c84fd87829adf4c994e509970684ea9967f54bc1b3a9390df132e417a0e4`)
+- Exact reviewed view: `W21-021.md`（本机附件：`evidence/usage_views/active/W21-021.md`）; byte-exact admission view `W21-021.md`（本机附件：`evidence/raw_delta_views/W21-021.md`） (SHA-256 `c3ee7d086ee528e1ee53f91d7fd070d5a30992f8fe8786a13b1b3b9693686e9e`)
+- Accepted interface: Normalized Th3.6 coordinate bounds, compatible row-capped Th3.8 bounds, constructive Th4.1 completion
+- Conditions: m>=2, symmetric nonnegative A, all principal subset sums<=subsetsize and fullsum=m forU1. Tk has entries in[0,1] and rowsumk; Uk consists of symmetrizations; joint use requires explicit compatible row-capped witnesses. Constructive completion Ai=(E-A1)/(m-1),Ti=(E-T1)/(m-1) fori>=2,E allones.
+- Transfer limits: Cor4.3 general sufficiency independently rejected by bound R14 neutral; no general completion/Cor4.4 or extreme-point counts. Safe interfaces do not imply orbit convergence.
+
+## W21-023 — PR-5884d6dad63d
+
+- Version: arXiv:1601.01757v1 (8 Jan 2016); KCI metadata matches title/authors in Bull. Korean Math. Soc. 54(2) (2017), 607–618, DOI 10.4134/BKMS.b160212; local arXiv version is 11 pages, no text comparison.
+- Exact PDF: `W21-023.pdf`（本机附件：`evidence/source_pdfs/W21-023.pdf`） (SHA-256 `5e203cc0ed675eaf72132febaaa564e7a3eaa3dc5d45c5ff467d8ebefbd24418`)
+- Exact reviewed view: `W21-023.md`（本机附件：`evidence/usage_views/active/W21-023.md`）; byte-exact admission view `W21-023.md`（本机附件：`evidence/raw_delta_views/W21-023.md`） (SHA-256 `f40bc3cfd7d2a10862b7d1964d5dfbbcb31030fd562e4f647565aab374f896db`)
+- Accepted interface: Declared valid endpoint-choice CDF/RN recursion and actual-support-endpoint weak limit
+- Conditions: Compact closed I=[a,b],lower-parent probabilityell in[0,1],upper1-ell; H0=F,Hn+1=Gell(Hn),Gell(u)=u²+2ell u(1-u). For atomless initialmu,RN Dn=product_j0..n-1 Gellprime(Hj),Gellprime=2u+2ell(1-2u). CDF recurrence holds with atoms; weak limit is actualsupportinf forell>1/2,actualsupportsup forell<1/2.
+- Transfer limits: No silent p/q convention merger; malformed source kernel/global-endpoint claims excluded; atomless-to-atom convergence is weak rather thanTV; no rank-selector representation.
+
+## W21-025 — PR-7c548623fa11
+
+- Version: Official Numdam archival article: Publications de l’Institut de recherche mathématiques de Rennes, Fascicule de probabilités, no. 2 (1995), printed pp.1–54. The 55-page local PDF includes one archive cover page.
+- Exact PDF: `W21-025.pdf`（本机附件：`evidence/source_pdfs/W21-025.pdf`） (SHA-256 `99ae9d43bc6303ec09d3d15912b63242f72e3e5f5656a5bca2a9ca5916ae48dd`)
+- Exact reviewed view: `W21-025.md`（本机附件：`evidence/usage_views/active/W21-025.md`）; byte-exact admission view `W21-025.md`（本机附件：`evidence/usage_views/raw/W21-025.md`） (SHA-256 `3a1e2e5e77b05ca828d620f3b183888a23dad026db3ea18b7a72cb270ee87d87`)
+- Accepted interface: Lemma7.3 strict-moment local-to-global Laplace comparison via branching products
+- Conditions: finite nonnegative iid weight vectors across tree vertices, independent child laws, p(a)=E sum A_i^a<1 for some a>0; phi<=psi for all0<t<=t0
+- Transfer limits: No p(a)=1 critical case, root necessity, existence, totality/tail classification or target selector representation.
+
+## W21-027 — PR-27a8f6d183fa
+
+- Version: Official Numdam archival PDF of RAIRO Informatique théorique et applications 25(1) (1991), printed pp.85–100, DOI 10.1051/ita/1991250100851. Local PDF has 17 physical pages including one archive cover.
+- Exact PDF: `W21-027.pdf`（本机附件：`evidence/source_pdfs/W21-027.pdf`） (SHA-256 `7366d2107b761d254b8b1cfe697f9ddb9501836e2054b6c8f2c9b4d0cb765bbb`)
+- Exact reviewed view: `W21-027.md`（本机附件：`evidence/usage_views/active/W21-027.md`）; byte-exact admission view `W21-027.md`（本机附件：`evidence/usage_views/raw/W21-027.md`） (SHA-256 `30a2d40df21ebe2806ecd5aa44197faa728620c807ca81793d2b353e6de78140`)
+- Accepted interface: Th2.1 centered Quicksort-law W2 contraction and unique centered P2 fixedpoint
+- Conditions: iid centered P2 children independent of U uniform[0,1]; exact C(u) with EC=0; q=sqrt(2/3); generic Cauchy prefactor1/(1-q)
+- Transfer limits: No finite Quicksort recursion transfer or all exponential/tail results; no source prefactor3 reliance or target outer contraction.
+
+## W21-029 — PR-c98bba6ec6fd
+
+- Version: Complete 35-physical-page author-hosted paper linked from Ludger Rüschendorf’s Freiburg publication page. Publisher metadata: Algorithmica 29 (2001), 3–33, DOI 10.1007/BF02679611. Publisher-layout text equivalence not established.
+- Exact PDF: `W21-029.pdf`（本机附件：`evidence/source_pdfs/W21-029.pdf`） (SHA-256 `4537f1a96c4081f4522c09be566c00c65a9a6a5b48597cb69ea1300fdbcd6f29`)
+- Exact reviewed view: `W21-029.md`（本机附件：`evidence/usage_views/active/W21-029.md`）; byte-exact admission view `W21-029.md`（本机附件：`evidence/usage_views/raw/W21-029.md`） (SHA-256 `9314545f8509d0131f2a02a4153c3a49a1d7c5131e13ab67ceccefa86fb9a5fc`)
+- Accepted interface: Lemma1/Th3 centered affine RDE W2 contraction, with dependent coefficient entries allowed
+- Conditions: iid centered P2 children independent of entire coefficient/toll family, EC=0, EC²<infinity, sum ET_i²<1; countable sum defined in L2
+- Transfer limits: No finite-recursion approximation, function-valued Find proof or arbitrary law-map transfer.
+
+## W21-030 — PR-b34cb697b0ef
+
+- Version: Author-hosted Freiburg manuscript, AAP 2003 Vol. 0 No. 0 pp. 1-41; published counterpart AAP 14(1) (2004), 378-418, DOI 10.1214/aoap/1075828056. Local pagination is manuscript pagination; no line-by-line comparison.
+- Exact PDF: `W21-030.pdf`（本机附件：`evidence/source_pdfs/W21-030.pdf`） (SHA-256 `2118f65acc30bab639237391c4753d6ec4f70e503756749edae64043511ecd83`)
+- Exact reviewed view: `W21-030.md`（本机附件：`evidence/usage_views/active/W21-030.md`）; byte-exact admission view `W21-030.md`（本机附件：`evidence/usage_views/raw/W21-030.md`） (SHA-256 `9e5b783c918c5a3552fde8b857217d3df3b6ef8fd9135b0086f331abbd83ec7d`)
+- Accepted interface: Lemma3.1 ideal zeta_s contraction and centered Cor3.4 fixedpoint classes
+- Conditions: finite K,0<s<=3,s-integrable independent tuple/children; xi=E sum||Ar||op^s<1; mean0/Eb0 only for s>1; covarianceI and EbbT+E sum ArArT=I only for s>2
+- Transfer limits: Only centered classes; no nonzero-mean formulas, L2 remark, main finite-recursion transfer or automatic target representation.
+
+## W21-031 — PR-269e0aba4b8d
+
+- Version: Institutional author-hosted published-layout PDF; Annals of Probability 32(3B) (2004), 2838-2856, DOI 10.1214/009117904000000171. No publisher text-equivalence comparison.
+- Exact PDF: `W21-031.pdf`（本机附件：`evidence/source_pdfs/W21-031.pdf`） (SHA-256 `831f3d086dc6105f3e66b6bff8f36ff76c0645dd7bb4005324b193f975087343`)
+- Exact reviewed view: `W21-031.md`（本机附件：`evidence/usage_views/active/W21-031.md`）; byte-exact admission view `W21-031.md`（本机附件：`evidence/usage_views/raw/W21-031.md`） (SHA-256 `96e0f3b37627a0ba18cd79fbd335ede920a19c9a1a6f14fe37f649a2075cbba0`)
+- Accepted interface: Lemma3.1 negative log-index drift closes nonnegative error recursion
+- Conditions: I_n in0..n, self-index probability<1 eventually, limsup Elog((I_n vee1)/n)<-epsilon; gamma>0,1<beta<1+gamma,sufficiently small delta; exact L_delta-weighted error recursion with r_n=O(log^-beta n)
+- Transfer limits: No full one-branch CLT residual proof or multi-branch sketch certification; no conclusion from degenerate fixedpoint identity alone.
+
+## W21-034 — PR-9c3443d14d4e
+
+- Version: Official Numdam/IMSTAT publication PDF; Annales de l'Institut Henri Poincare Probabilites et Statistiques 44(1) (2008), 89-103, DOI 10.1214/07-AIHP104.
+- Exact PDF: `W21-034.pdf`（本机附件：`evidence/source_pdfs/W21-034.pdf`） (SHA-256 `0ad6ade5513644b6aa7c99580d59201fdb54cf8a074d6336283f36c8823a0f70`)
+- Exact reviewed view: `W21-034.md`（本机附件：`evidence/usage_views/active/W21-034.md`）; byte-exact admission view `W21-034.md`（本机附件：`evidence/usage_views/raw/W21-034.md`） (SHA-256 `53e168d2f29b9068f7f7769d86688381d953a800f3ba32937a16c92f2fce7ca3`)
+- Accepted interface: Lemma2.1 positive-min support barrier and Prop2.3 A1/A3 fixed-law classifications
+- Conditions: positive deterministic weights,at least2 iid children; inf T<1 excludes positive fixedlaw; >=2 unit weights force Dirac; exactly1 unit,c=inf others>1 iff0<ell<=u<infinity and c>=u/ell; Prop2.3(A1) classification also explicitly requires standing inf_j T_j>=1, as in scoped view body and batch03_scope_precision_delta01.
+- Transfer limits: No A2,A4,Choquet–Deny/Weibull,sign/random-weight classification; singleton identity is separate.
+
+## W21-040 — PR-9dafc36d9816
+
+- Version: Official arXiv:1503.04123v3 (submitted 13 Mar 2015; last revised 23 Feb 2017), complete 31-page author preprint. ArXiv notes acceptance at Bernoulli; published counterpart Bernoulli 24(4A) (2018), 2610–2639, DOI 10.3150/17-BEJ938. Publisher-layout text equivalence not checked.
+- Exact PDF: `W21-040.pdf`（本机附件：`evidence/source_pdfs/W21-040.pdf`） (SHA-256 `816321be63f77e1bb8f8e9da8cd8b5ca18279030d2d4f6f706921b64d063c480`)
+- Exact reviewed view: `W21-040.md`（本机附件：`evidence/usage_views/active/W21-040.md`）; byte-exact admission view `W21-040.md`（本机附件：`evidence/usage_views/raw/W21-040.md`） (SHA-256 `2f72e46295221ecc17392dbeb931b36f83ef2b29813a879db1d51104db4df459`)
+- Accepted interface: Th3.1 weighted Wasserstein finite-time two-kernel perturbation and finite-moment stationary consequence
+- Conditions: Polish G,lsc metric; tau(P^n)<=C rho^n alln>=0,C>=1; Ptilde V<=delta V+L,V>=1,ptilde0V finite; gamma weighted kernel error finite; stationary cor requires invariantlaws,finiteW,finitepitildeV
+- Transfer limits: No full-TV Th3.2; common uniform parameter constants and strict outer sensitivity remain unproved.
+
+## W21-044 — PR-5e9ac2af265b
+
+- Version: Springer open-access publisher-layout PDF, BMMS 42 (2019), 1813–1830, 18 physical pages; publication version identity confirmed, no alternate-text comparison.
+- Exact PDF: `W21-044.pdf`（本机附件：`evidence/source_pdfs/W21-044.pdf`） (SHA-256 `6e8b3da935c63aa7253bd7e846ccf6439f6a35a2284ee99cfa39bedb1c6f8620`)
+- Exact reviewed view: `W21-044.md`（本机附件：`evidence/usage_views/active/W21-044.md`）; byte-exact admission view `W21-044.md`（本机附件：`evidence/usage_views/raw/W21-044.md`） (SHA-256 `ec1d7190efb440507ca3d7fd485f381ba414e409d678c4d4a927addc8d47ac1a`)
+- Accepted interface: Exact centered averaging/noise factorization, weak-limit=>fixedpoint, Th3/4 existence and conditional Th5 regularization
+- Conditions: iid parental average plus independent fixed noise; Th3 finite2nd/mean0; Th4 local logarithm bound exponent1+epsilon; Th5 local modulus bound plus noise-factor weaklimit existence
+- Transfer limits: No full dyadic/heavytail classification; modulus alone does not imply existence; no rank-selector factorization.
+
+## W21-032 — PR-25ea6e93136f
+
+- Version: EJP 11 (2005), paper 2, pp. 27-56; journal record publication date 2006-01-26; DOI 10.1214/EJP.v11-296. Both issue year and record date retained.
+- Exact PDF: `W21-032.pdf`（本机附件：`evidence/source_pdfs/W21-032.pdf`） (SHA-256 `81a5c6047a02ffaa2c9cfa0d5870203dc09c228866282acf93a30ff73cca18bf`)
+- Exact reviewed view: `W21-032.md`（本机附件：`evidence/usage_views/active/W21-032.md`）; byte-exact admission view `W21-032.md`（本机附件：`evidence/usage_views/raw/W21-032.md`） (SHA-256 `ea31f56e4fd27e160dacc72139a2561d78683e5dd5dfef29f7b700ee8e311b14`)
+- Accepted interface: Deterministic signed-weight finite-variance Gaussian fixed-law classification via weighted-tree characteristic products
+- Conditions: Real deterministic coefficients,r=sup|Tj|<1,sumTj²=1,atleast2nonzero; iid finite-variance children; centered sum inL2; any nonzero meanm also needs fixed coefficient order sumTj=s and m(s−1)=0. Finite-variance fixedlaws are Gaussians in the permitted mean class.
+- Transfer limits: Full Levy/Choquet/stable/group classification, alpha<2 and all nonzero-constant cases not certified; known positive Gaussian-exponent display excluded; no random-coefficient/selector transfer.
+
+## W21-035 — PR-01109a3110f5
+
+- Version: Official arXiv 1301.3404v3; arXiv history last revised 2013-11-19; published CPC 23 (2014), 1148-1186, DOI 10.1017/S0963548314000364. PDF front page says August 9, 2021; discrepancy explicitly unresolved.
+- Exact PDF: `W21-035.pdf`（本机附件：`evidence/source_pdfs/W21-035.pdf`） (SHA-256 `8a91f5e68bbff5afb750581b6f59552684c5a80268215f1ee4aff914106339f5`)
+- Exact reviewed view: `W21-035.md`（本机附件：`evidence/usage_views/active/W21-035.md`）; byte-exact admission view `W21-035.md`（本机附件：`evidence/usage_views/raw/W21-035.md`） (SHA-256 `ccda2caaebb062b7c5f5c516f9b494352b9c93de6cd108e7c6bfb127dcb22b11`)
+- Accepted interface: Th5.3 complex prescribed-mean product-W2 contraction and cyclic Lem6.8/.9 scalar-law identification
+- Conditions: Finite system/finite children; complex coefficient/toll vectors square-integrable and independent of mutually independent children; Eb_i+sum EA_ir gamma_pi=gamma_i; max_i sum E|A_ir|²<1. Cyclic case m>=7,omega=e^(2pi i/m),lambda=Reomega>1/2,U uniform,EX=2/[m Gamma(omega+1)],iid children independent ofU.
+- Transfer limits: No joint covariance inference from marginal system, no finite-urn Th6.10 transfer/all urn regimes; exact complex fixedpoint law does not imply one nonrotating real limit.
+
+## W21-041 — PR-ee35b8b059e9
+
+- Version: Author-hosted submitted manuscript, 33 physical pages. Official author publication page links the 2022 Journal of Theoretical Probability counterpart; no publisher-PDF text comparison.
+- Exact PDF: `W21-041.pdf`（本机附件：`evidence/source_pdfs/W21-041.pdf`） (SHA-256 `81d9c45efed6618e3031936f47939fd27781bbda37b227acf4918992edd5d6e4`)
+- Exact reviewed view: `W21-041.md`（本机附件：`evidence/usage_views/active/W21-041.md`）; byte-exact admission view `W21-041.md`（本机附件：`evidence/usage_views/raw/W21-041.md`） (SHA-256 `d7a2d6615a09e7317921401b3a24d88dbdf41621b082c5c5ce609d7d169c1bfc`)
+- Accepted interface: Conditional regular-case disintegration and nonarithmetic bounded tilted-harmonic identification with explicit tameness
+- Conditions: Finite offspring,nonnegative iid weight vectors across vertices,m(alpha)=1; maxpathproduct->0 a.s.,Wn=sumL^alpha->W inL1,EW1; f positive<=1 nonincreasing leftcont,f0+=1,solves product equation; -logf(t)<=Ct^alpha near0; F=E[-logM] leftcont. Correct G=e^(+alpha x)F(e^-x); tilted increment closed support groupR; named Choquet–Deny dependency. Thenf(t)=Eexp(-cWt^alpha).; f(0)=1; logarithmic increments only forT_i>0;empty products1,generation sums0. Given f representation is not automatic Laplace admissibility for arbitraryalpha.
+- Transfer limits: Derived correction of physical15 tilt/sign accepted by R12 narrow neutral; no full tameness necessity/Th1.2/arithmetic profiles; boundary Prop4.1 and boundary classification excluded.
+
+## W21-042 — PR-05e5bd963ceb
+
+- Version: HAL author manuscript hal-02487852v1, submitted 21 February 2020, 33 physical pages; publication in SPA 130 (2020), 4104–4140; no publication-byte/text comparison.
+- Exact PDF: `W21-042.pdf`（本机附件：`evidence/source_pdfs/W21-042.pdf`） (SHA-256 `7b689a4d692222ec2e3052f2059df7b1fe4e51a98632d1ca71cdfe8e35e92c67`)
+- Exact reviewed view: `W21-042.md`（本机附件：`evidence/usage_views/active/W21-042.md`）; byte-exact admission view `W21-042.md`（本机附件：`evidence/usage_views/raw/W21-042.md`） (SHA-256 `26842aa77264972d9db2de406258021577a3aec23de3a09cbf7c21bd749d01ed`)
+- Accepted interface: Noninteger1<alpha<2 Laplace-remainder renewal comparison and bidirectional tail multiplier1/[1-rho(alpha)]
+- Conditions: Nonnegative weights,finite-or-countable N,EY=EZ=1,Z=d sumAiZi,iid children independent ofvector;1<alpha<2,rho(alpha)<1,rho(alpha+delta0)<infinity; EY^gamma,EZ^gamma finite for every1<=gamma<alpha. Use |EKj|<=Cs^(beta+epsilon),sizebiasedM,finite-margin Holder and Potter domination by rho(alpha±epsilon)^k.
+- Transfer limits: Local sign display neutral accepted by R12 narrow neutral; no integer/higher-alpha theorem proof or Th1.2 integrated-tail converse; source weight-moment margin retained; no selector representation.
+
+## W21-043 — PR-a1158497b080
+
+- Version: Local PDF is arXiv:math/0310244v1 (submitted 16 October 2003), 31 physical pages. The publication is SPA 114(1) (2004), pp.27–50, DOI confirmed on Elsevier record; no text-equivalence comparison.
+- Exact PDF: `W21-043.pdf`（本机附件：`evidence/source_pdfs/W21-043.pdf`） (SHA-256 `1abcd228c69683b086ae10a5e2d6db92376234ff687c3683d809d8307925db2c`)
+- Exact reviewed view: `W21-043.md`（本机附件：`evidence/usage_views/active/W21-043.md`）; byte-exact admission view `W21-043.md`（本机附件：`evidence/usage_views/raw/W21-043.md`） (SHA-256 `f62ecd223d304affeb23a7824f0495f74d38b6356f6cf67420ebc13fc452fdf5`)
+- Accepted interface: Prop6 integral characteristic-metric contraction on fixed-mean finite-p nonnegative laws
+- Conditions: Nonnegative point-process weights possiblycountable,S=sumXi,ES1,ES^p finite,rho_p=E sumXi^p<1,1<p<2; iid nonnegative meanm>0 finite-p children independent ofwhole process; rp=integral s^-p-1|phi−psi|ds; correctfactorrho_p=E B^(p−1). Named metric-completeness dependency; direct product bound/Tonelli/change-of-variable proof.
+- Transfer limits: New printed factor issue accepted by R12 narrow neutral; prior R07-confirmed Prop1b all-scale RV and Prop3c all-fixedpoint exclusion remain isolated for exactv1; no elementary/critical/tail classification or journal-version claim.
+
+## W21-045 — PR-1939b4f9663e
+
+- Version: University-hosted final Annals of Probability 40(5) (2012), pp.2069–2105, 37 physical pages; first/last pages identify the final article, but a publisher-byte comparison was not performed.
+- Exact PDF: `W21-045.pdf`（本机附件：`evidence/source_pdfs/W21-045.pdf`） (SHA-256 `097bc799a1ddf418a04dcd3b28b8717b3b99fe297022f99dd4a866d96b069e7d`)
+- Exact reviewed view: `W21-045.md`（本机附件：`evidence/usage_views/active/W21-045.md`）; byte-exact admission view `W21-045.md`（本机附件：`evidence/usage_views/raw/W21-045.md`） (SHA-256 `31b5a944c4c26ef916bbf8ff4a184b6c6f9980452a98aee0352c2a9a24d68234`)
+- Accepted interface: Endogenous finite-mean conditional projection and same-marginal same-innovation pathwise identification
+- Conditions: Nonnegative iid tree innovations,m(alpha)=1,exact invariantRTP and independent iid generation children. Finite-mean projection additionally endogeny and c=EW in(0,infinity). Pathwise identification needs two finite nonnegative endogenous RTPs on same innovations with independently established same marginal laws or known scaled marginals. UI additiveWn gives endogenous mean-one construction.; endogeny interpreted nodewise with respect to each innovation subtree for the all-node conclusion.
+- Transfer limits: No automatic endogeny for arbitrary RTP, no general marginal-law uniqueness or fullA1–A5 classification/critical/infinite-mean claims; no selector recursion identified.
+
+## W21-036 — PR-6076caa59fcb
+
+- Version: arXiv:1405.1316v1 (6 May 2014); sole identified arXiv version / arXiv-issued DOI 10.48550/arXiv.1405.1316; no separate journal version identified.
+- Exact PDF: `W21-036.pdf`（本机附件：`evidence/source_pdfs/W21-036.pdf`） (SHA-256 `93774aa86f61e3855c1d0a4afc55a1864bab49e8beff3597b08a5f3c74bdca63`)
+- Exact reviewed view: `W21-036.md`（本机附件：`evidence/usage_views/active/W21-036.md`）; byte-exact admission view `W21-036.md`（本机附件：`evidence/usage_views/raw/W21-036.md`） (SHA-256 `b376c314fbcbcce516929cdf74c35da62899df96888976aad412dafedc30732e`)
+- Accepted interface: For rate-one Poisson points xi with iid real child values X_i, the d-th minimum's survival transform is T F=P_d(I_F), where I_F(x)=integral_{-x}^infinity F(t)dt and P_d(y)=exp(-y) sum_{j=0}^{d-1} y^j/j!. The Poisson count of points satisfying xi-X_i<=x has mean I_F(x), yielding the exact order-statistic recursion. I_F is locally absolutely continuous for any initial proper F; its derivative is interpreted almost everywhere. P'_d has absolute value at most one, giving the stated smoothing regularity. The reflected shift identity is T(S_a F)=S_{-a}(T F). Under the source's smooth-class and bounded shift-envelope gates, one application of T reflects the shift interval [m,M] to [-M,-m]. Applying T twice gives nondecreasing lower envelopes and nonincreasing upper envelopes along the even iterates; these monotone bounds alone do not prove that the interval width tends to zero. For d=1, F_*(x)=1/(1+exp(x)) is fixed, and nonzero shifts give exact two-cycles.
+- Conditions: Positive integer d; rate-one Poisson points; iid independent real children; proper complementary CDF F with integral_0^infinity F<infinity. The shift-envelope lemma additionally requires F in D1 and finite global bounds m<=hatF<=M.
+- Transfer limits: The full all-d tightness/strictness/Arzela–Ascoli proof of Theorem 1 and global envelope-width collapse are not admitted. Even-iterate envelope monotonicity alone does not establish collapse. The d=1 logistic fixed point and shifted cycles are exact subcases; d>=2 endogeny and the target recursion representation are not supplied.

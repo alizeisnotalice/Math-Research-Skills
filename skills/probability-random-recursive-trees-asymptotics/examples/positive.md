@@ -1,21 +1,28 @@
-# Positive example: derive the uniform-leaf Beta-splitting recurrence
+# Positive examples: source-matched recurrence and scoped routes
 
-Suppose the target is (D_n), the continuous-time height of one uniformly chosen leaf in the critical Beta-splitting tree. Preserve the ordered split kernel
-\[
-q(n,i)=\frac{n}{2h_{n-1}i(n-i)}
-\]
-and the independent root holding time (	au_n\sim\operatorname{Exp}(h_{n-1})). Given a split of sizes (i,n-i), a uniform leaf enters the first child with probability (i/n), otherwise the second. By symmetry, the probability that its selected child has size (k) is
-\[
-2q(n,k)\frac{k}{n}=\frac1{h_{n-1}(n-k)}.
-\]
-Therefore, with (D_1=0),
-\[
-D_n\overset d=\tau_n+D_{K_n},\quad \mathbb P(K_n=k)=\frac1{h_{n-1}(n-k)},\quad 1\le k<n,
-\]
-and hence
-\[
-\mathbb ED_n=\frac1{h_{n-1}}\left(1+\sum_{k<n}\frac{\mathbb ED_k}{n-k}\right).
-\]
-This is the recurrence in RT002, PDF p. 6, equation (2.3); RT002's proof supplies the needed asymptotics and CLT. The kernel and small-(n) recurrence checks in W22's saved numeric artifact are verification aids, not a replacement for that proof.
+## Critical Beta-splitting CTCS mean recurrence
 
-The statement is source-matched because it retains critical Beta kernel, CTCS time, one uniform leaf and the source boundary value. It says nothing by itself about the maximum height or any pair covariance.
+Use the critical split kernel
+\[
+q(n,i)=\frac{n}{2H_{n-1}i(n-i)},\qquad 1\le i<n,
+\]
+with independent root holding time `τ_n ~ Exp(H_(n−1))`. If one leaf is selected uniformly, the probability that its child has size `k` is
+\[
+\mathbb P(K_n=k)=2q(n,k)\frac{k}{n}=\frac{1}{H_{n-1}(n-k)}.
+\]
+Thus, with `D_1=0`,
+\[
+D_n\overset d=\tau_n+D_{K_n},\qquad
+\mathbb E D_n=\frac1{H_{n-1}}\left(1+\sum_{k=1}^{n-1}\frac{\mathbb E D_k}{n-k}\right).
+\]
+This is the exact recurrence admitted from RT002, physical p. 6, Eqs. (2.1)–(2.3). RT004's separately accepted finite harmonic-binomial identity gives
+\[
+\mathbb E D_n=\sum_{j=1}^{n-1}\frac{(-1)^{j-1}\binom{n-1}{j}}{H_j}.
+\]
+The finite identity has the R10-audited convolution proof; the Mellin route in RT004 additionally requires its stated strip, integrability and fixed-truncation conditions. This interface does not certify RT002's held p. 24 uniform edge-variance remainder, a CLT, or a pair theorem.
+
+The L12 exact-rational check at recursive_cases.py（本机附件：`evidence/calculations/recursive_cases.py`） verifies normalization, size-biasing and equality of the two mean expressions for `n=2,…,20`; the output is saved here（本机附件：`evidence/calculations/recursive_cases.actual.json`）. The finite calculation is not the proof of either source theorem.
+
+## Weighted recursive comparison: one lineage only
+
+For the exact Kolesnik uniform-leaf child-size law `P(I_n=i)=1/[H_(n−1)(n−i)]`, a nonnegative finite sequence with the stated `ell_n=log(n)+1_(n=1)` weight, finite initial bounds and forcing `O(log^(-5/2)n)` satisfies the admitted Claim 3.5 comparison error `O(log^(-1/2+epsilon)n)` for sufficiently small `epsilon>0`. This is one G23.03 lineage interface. It supplies neither the paper's unaccepted CTCS coefficient/adaptation nor a two-leaf fixed-gap limit. See the internal Kolesnik usage card（本机附件：`evidence/r12_usage_cards/EXSRC-3a876a54df00ac46.md`）.
