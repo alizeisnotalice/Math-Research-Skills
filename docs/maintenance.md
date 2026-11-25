@@ -2,6 +2,14 @@
 
 规范文件位于 `skills/<name>/`，`catalog/skills.json` 提供分类、名称与兼容目标，`catalog/skill-files.json` 列出公开文件、SHA-256 和大小。源仓库修改后先重建清单并验证，再安装到本机。
 
+## 数学工具技能的登记与发布
+
+适用于为本机数学研究创建计算工具、后端适配器或工具引导技能。先在 Math-Research-Skills 的 skills/<name>/SKILL.md 维护规范入口。已有同类技能能覆盖时优先改进或复用，旧名称需要保留时登记兼容入口。
+
+1. 在 scripts/rebuild_catalog.py 登记工具类别。把新的可选能力接到 math-tool-router 的对应决策分支。只有部分安装实际依赖该能力时才添加 RUNTIME_SKILLS 依赖；兼容别名用 ALIASES。运行 scripts/rebuild_catalog.py，生成 catalog/README.md、catalog/skills.json 和 catalog/skill-files.json。
+2. 用 skill-creator 的 quick_validate.py 和仓库 scripts/validate_repo.py 检查技能、索引和公开包。运行代表性计算，保存最小输入、实际版本、输出和核验结果；检查本次启动的进程已退出。工具不可用时据实记录。先预览选定技能的安装，再备份、安装并核验文件哈希和调用入口。
+3. 只暂存明确核对的技能、必要脚本、索引和测试文件。原文 PDF、本机证据备份、下载件、凭据和临时日志留在本地。提交后推送到 Math-Research-Skills 的现有 GitHub origin，并核对远端包含本次提交。已提交但未推送成功时保留本地提交和真实状态。对其他仓库、其他类别技能和未授权公开的内容，沿用当前任务约定。
+
 ## 安装与恢复
 
 `python3 scripts/install_skills.py` 只预览。加 `--apply` 后更新清单内文件，相同字节不重写；未在清单中的本地全文、证据和其他文件保留。部分安装也包含总入口和工具引导的依赖及兼容入口对应的主技能。根目录中已有的 CODEX_HOME 符号链接按真实位置解析；技能内部被替换路径出现符号链接时拒绝写入，避免误改其他目录。
