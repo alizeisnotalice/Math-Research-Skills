@@ -30,3 +30,5 @@ For finite checks use Python 3 with SymPy 1.14.0. Run the local check runner（�
 Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+要同时保留割上界与生成树打包时，读 [原文构件](references/packing-preserving-sparsification.md)。

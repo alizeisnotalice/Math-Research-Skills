@@ -19,3 +19,5 @@ description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边�
 - 需要精确 DFT 的等宽矩阵变换时，读 [Newton–Toeplitz 分解](references/exact-fourier.md)，检查根的阶与所用域。
 
 - 审查有限域分解时，用 [Frobenius 固定子代数的分离元](references/finite-field-separation.md) 核对特征多项式和精确 gcd。
+
+核对素数参数差分问题的等差限制时，读 [原文构件](references/local-root-restriction.md)。
