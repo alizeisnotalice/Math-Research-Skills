@@ -21,3 +21,5 @@ description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边�
 - 审查有限域分解时，用 [Frobenius 固定子代数的分离元](references/finite-field-separation.md) 核对特征多项式和精确 gcd。
 
 核对素数参数差分问题的等差限制时，读 [原文构件](references/local-root-restriction.md)。
+
+若计数对象有多个算术见证，用 [同值见证的并集去重](references/totient-witness-unions.md) 核对共享阈值空间和跨前缀碰撞。
