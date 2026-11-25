@@ -18,7 +18,7 @@
     "collaboration": 1,
     "research-specialists": 8,
     "tools": 8,
-    "methods": 71,
+    "methods": 73,
     "modeling": 3,
     "orchestration": 1,
     "probability": 41
@@ -246,8 +246,8 @@
     },
     {
       "name": "math-e01-occupation-measure-flow-lp",
-      "title": "E01 · 占用测度 LP 与流守恒",
-      "description": "建立占用测度 LP 与流守恒模型，核对真实过程、边界通量和可实现性。",
+      "title": "E01 · 占用测度与流守恒",
+      "description": "建立占用测度、有限时域概率流和流守恒 LP，核对真实过程、边界通量、终止时刻、风险原子与可实现性。",
       "category": "methods",
       "path": "skills/math-e01-occupation-measure-flow-lp/SKILL.md",
       "family": "e"
@@ -274,6 +274,14 @@
       "description": "处理最优停止与 Snell 包络，核对滤过、可积性、停止时及极限传递。",
       "category": "methods",
       "path": "skills/math-e04-snell-envelope-optimal-stopping/SKILL.md",
+      "family": "e"
+    },
+    {
+      "name": "math-e05-mean-payoff-potential-certificates",
+      "title": "E05 · 均值收益势函数证书",
+      "description": "为有限确定性二人均值收益博弈构造或审查权重扰动、闭合势函数区域及逐路径高低收益证书；不用于认证求解复杂度或随机博弈结论。",
+      "category": "methods",
+      "path": "skills/math-e05-mean-payoff-potential-certificates/SKILL.md",
       "family": "e"
     },
     {
@@ -730,6 +738,14 @@
       "description": "用中心高斯路径相关估算凸域加入多条带约束的 Dirichlet 本征值代价，并由所有对角权重的界构造同一个逐坐标能量见证。",
       "category": "methods",
       "path": "skills/math-n10-dirichlet-slab-energy/SKILL.md",
+      "family": "n"
+    },
+    {
+      "name": "math-n11-solenoidal-localization-and-packets",
+      "title": "N11 · 无散度局部化与高频波包",
+      "description": "将局部轴对称不可压缩模型嵌入受迫 Navier--Stokes 场，或审查光滑 Euler 母流上的高频波包输运。区分外力、解类和仅主导项的 WKB 账本；不认证爆破结论。",
+      "category": "methods",
+      "path": "skills/math-n11-solenoidal-localization-and-packets/SKILL.md",
       "family": "n"
     },
     {

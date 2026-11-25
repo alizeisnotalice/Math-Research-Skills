@@ -1791,8 +1791,8 @@
     },
     {
       "path": "skills/math-e01-occupation-measure-flow-lp/SKILL.md",
-      "sha256": "04b68fd799574078e764eec283e2958a52301bf8ddf13f387d12385bc1ecd5cb",
-      "bytes": 10912,
+      "sha256": "e8439b4fdcd49ddd08be9bff33639f280e85b136b3c8e632cabac14f33ce1c0b",
+      "bytes": 1755,
       "mode": 420
     },
     {
@@ -1820,6 +1820,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-e01-occupation-measure-flow-lp/references/finite-forward-flow.md",
+      "sha256": "2a61e86ff9c49216d1389c0035c1777b78e8baf0fb348a14a0a32b787f18176e",
+      "bytes": 2094,
+      "mode": 420
+    },
+    {
       "path": "skills/math-e01-occupation-measure-flow-lp/references/frozen-source-locators.md",
       "sha256": "513a7144f81ffd8b61a83e6f5fd11f0b2726f98b52ea8afb3786987b7e27dc28",
       "bytes": 64444,
@@ -1835,6 +1841,12 @@
       "path": "skills/math-e01-occupation-measure-flow-lp/references/method.md",
       "sha256": "ee83644b0338db4deefd846f9a39147cefbd90a4556f4308d3608ff121b0fce6",
       "bytes": 4778,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e01-occupation-measure-flow-lp/references/model-evidence.md",
+      "sha256": "49e013c740fd7a17fd7cd6a2f8ff45f8ad26230d6149bfcdffcf7b462b06c662",
+      "bytes": 10743,
       "mode": 420
     },
     {
@@ -2129,6 +2141,24 @@
       "path": "skills/math-e04-snell-envelope-optimal-stopping/references/verification-log-20261006.md",
       "sha256": "c396e8e0f6203e810480365237590868daee2cf11a61a82ce4a20d066bfbb7e9",
       "bytes": 2562,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e05-mean-payoff-potential-certificates/SKILL.md",
+      "sha256": "40322e79780ccbea786e223586aca4a294e9bde9ebf9610eee60fc3c607d80a7",
+      "bytes": 5488,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e05-mean-payoff-potential-certificates/references/sources.md",
+      "sha256": "1d57d0c163c8022b68ebc3baf168f965bd05b081df62b3efe58f1baf327dcf08",
+      "bytes": 2801,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e05-mean-payoff-potential-certificates/scripts/check_finite_certificates.py",
+      "sha256": "877d22abae3f56ee15565be03f41ff9104695c132e00947e46419741fd43e084",
+      "bytes": 1556,
       "mode": 420
     },
     {
@@ -5601,8 +5631,8 @@
     },
     {
       "path": "skills/math-l05-csp-sat-smt-encoding/SKILL.md",
-      "sha256": "ec76486545418ee9d6cd54bc59ecc51d26d7ffdc2963ecd464bc785ccf050464",
-      "bytes": 5130,
+      "sha256": "e9cffb370124f73fe1fa70449ce3fed9ec03a81c587954efb65b05b4df8c8bf0",
+      "bytes": 5367,
       "mode": 420
     },
     {
@@ -5639,6 +5669,12 @@
       "path": "skills/math-l05-csp-sat-smt-encoding/references/handoff-evidence-index.csv",
       "sha256": "441e82930dc11bce5d169a1e1f71430f598635d8b8159f0258888aef8a2b927c",
       "bytes": 33225,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l05-csp-sat-smt-encoding/references/label-consistency.md",
+      "sha256": "eff308a7ae8af412fde58f7b0a3b575a15993b591e4e860c6b96d1de48bae513",
+      "bytes": 4817,
       "mode": 420
     },
     {
@@ -6105,8 +6141,14 @@
     },
     {
       "path": "skills/math-m05-cut-metric-construction/SKILL.md",
-      "sha256": "9c93911a5016612140e4919c3bedc3491a2812f4e57ac66c901b30bac4fcbfda",
-      "bytes": 4820,
+      "sha256": "fb6bd6de31716877cb523eafff85d607ef5b3852fa5d32fab7ef3e04f70df86b",
+      "bytes": 5576,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/references/finite-edit-metric-tools.md",
+      "sha256": "9197b6862a207ecb1e411f30cb348082f43977fba49a19c5c9bb9b583c06adad",
+      "bytes": 5715,
       "mode": 420
     },
     {
@@ -6770,21 +6812,51 @@
       "mode": 420
     },
     {
+      "path": "skills/math-n11-solenoidal-localization-and-packets/SKILL.md",
+      "sha256": "a50152c07a87076d66cebf587128db1f8d26db2b02eae5c9ca6aa9348ac6d5cd",
+      "bytes": 2613,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n11-solenoidal-localization-and-packets/references/euler-wkb-packets.md",
+      "sha256": "3f3b132418d7f025f509afa5c9a9fe99d8b334ca4943a158274b5fb3496711b8",
+      "bytes": 2435,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n11-solenoidal-localization-and-packets/references/forced-navier-localization.md",
+      "sha256": "cb68163e46b0c24cdd4676142dd45748429f771b14ced6ea24a48a5fbd74221b",
+      "bytes": 3339,
+      "mode": 420
+    },
+    {
       "path": "skills/math-openai-arithmetic-determinants/SKILL.md",
-      "sha256": "4ba11eec3996e951cf1c55f7c8cc57c39efb2838e6ece3d2e66da93923038843",
-      "bytes": 2066,
+      "sha256": "3669740bf5ecca950d74abc22bd48e4bc449d02dad3e739f437c4d14d81aa48b",
+      "bytes": 2342,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-openai-arithmetic-determinants/references/catalan-digit-reductions.md",
+      "sha256": "fdd5c61cc718ba10716d99528a6cc108e9578b84cd3b1438b7953f1f503374ad",
+      "bytes": 4595,
       "mode": 420
     },
     {
       "path": "skills/math-openai-arithmetic-determinants/references/catalan-growing-blocks.md",
-      "sha256": "fa8a4e362d48a084805cce409ac66a6f048d597ef608f5093d6b341f13bd55e7",
-      "bytes": 4139,
+      "sha256": "960e29327b754a9066bf89dd293e557b33dae44c7ec2c9e34287d6c100e58ac7",
+      "bytes": 4162,
       "mode": 420
     },
     {
       "path": "skills/math-openai-arithmetic-determinants/references/constructions.md",
       "sha256": "b1c5309503213a6b7437855fc8101810a0c3ea2c863abdb95f7ced2fdb9ebf6d",
       "bytes": 5299,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-openai-arithmetic-determinants/references/pi-log-denominator-certificate.md",
+      "sha256": "5168039f4010bd8cadb733296eaafd25ab1ded3f3f2b7a2e0bf545ce1bd5f041",
+      "bytes": 6575,
       "mode": 420
     },
     {
@@ -6803,6 +6875,12 @@
       "path": "skills/math-openai-arithmetic-determinants/scripts/check_taylor_contact.py",
       "sha256": "e027693ce0406313206daaa2052f77952c61bf3d2a683a33f8790d4fe45e4387",
       "bytes": 2233,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-openai-arithmetic-determinants/scripts/replay_digit_reductions.py",
+      "sha256": "da93ede17df8492fc2159d81273b4b2aa7cfcb435b350e3c6eb1535d237c19ce",
+      "bytes": 2906,
       "mode": 420
     },
     {
@@ -6885,14 +6963,14 @@
     },
     {
       "path": "skills/math-research/references/math-methods.md",
-      "sha256": "d3052aa9552945503544d482228c4ffb71bc1598e17585377d6846fd9c1c10bb",
-      "bytes": 15719,
+      "sha256": "a195a87147b81a105eb8adb7bd6d0af7db348e4e26be57d4ecaa087fc858a730",
+      "bytes": 16372,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/method-selection.md",
-      "sha256": "2a59e418b21a2f0fe36cbeb9dcc4c1e402d34a7a90fef87c5d7102c2259c427e",
-      "bytes": 2800,
+      "sha256": "57e38951ea06cfa13e096610361c0676563ccb90f35a04913d8c54286d2bed6f",
+      "bytes": 3148,
       "mode": 420
     },
     {

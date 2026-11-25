@@ -28,10 +28,11 @@
 - [math-d04-entropy-chain-rule](../../math-d04-entropy-chain-rule/SKILL.md)：使用熵链式分解分析联合与条件分布，核对可测性、条件核和积分合法性。
 ## E · 占用测度、Bellman 与停止
 
-- [math-e01-occupation-measure-flow-lp](../../math-e01-occupation-measure-flow-lp/SKILL.md)：建立占用测度 LP 与流守恒模型，核对真实过程、边界通量和可实现性。
+- [math-e01-occupation-measure-flow-lp](../../math-e01-occupation-measure-flow-lp/SKILL.md)：建立占用测度、有限时域概率流和流守恒 LP，核对真实过程、边界通量、终止时刻、风险原子与可实现性。
 - [math-e02-nonlocal-hjb-supersolution](../../math-e02-nonlocal-hjb-supersolution/SKILL.md)：构造或审查非局部 HJB 超解，核对生成元、边界条件与验证不等式方向。
 - [math-e03-tree-bellman-cross-layer-budget](../../math-e03-tree-bellman-cross-layer-budget/SKILL.md)：分析树 Bellman 跨层预算势，核对层间递推、公共预算与终端结算。
 - [math-e04-snell-envelope-optimal-stopping](../../math-e04-snell-envelope-optimal-stopping/SKILL.md)：处理最优停止与 Snell 包络，核对滤过、可积性、停止时及极限传递。
+- [math-e05-mean-payoff-potential-certificates](../../math-e05-mean-payoff-potential-certificates/SKILL.md)：为有限确定性二人均值收益博弈构造或审查权重扰动、闭合势函数区域及逐路径高低收益证书；不用于认证求解复杂度或随机博弈结论。
 ## F · Fourier、谱与平方函数
 
 - [math-f01-geometric-mean-kernel-two-winner-audit](../../math-f01-geometric-mean-kernel-two-winner-audit/SKILL.md)：审查几何平均核与两赢家分支估计，检查同输入耦合和分支选择条件。
@@ -101,3 +102,4 @@
 - [math-n08-ruled-cylinder-finite-approximation](../../math-n08-ruled-cylinder-finite-approximation/SKILL.md)：将带迹零、非椭圆横向微分的三维线段扫掠转成有限柱面覆盖，并核对垂直底面积。适用于有限化可变方向线段族，不用于一般柱面覆盖猜想或任意速度场。
 - [math-n09-soft-slab-variance](../../math-n09-soft-slab-variance/SKILL.md)：对偶次线性形式的强凸软 slab 势构造或审查方差界。核对矩坐标证书、逐项 Hessian 正性与张量估计，输出可用于参数对数凹性的有限维方差结论。
 - [math-n10-dirichlet-slab-energy](../../math-n10-dirichlet-slab-energy/SKILL.md)：用中心高斯路径相关估算凸域加入多条带约束的 Dirichlet 本征值代价，并由所有对角权重的界构造同一个逐坐标能量见证。
+- [math-n11-solenoidal-localization-and-packets](../../math-n11-solenoidal-localization-and-packets/SKILL.md)：将局部轴对称不可压缩模型嵌入受迫 Navier--Stokes 场，或审查光滑 Euler 母流上的高频波包输运。区分外力、解类和仅主导项的 WKB 账本；不认证爆破结论。
