@@ -4,6 +4,8 @@
 
 从 **[`math-research`](skills/math-research/SKILL.md)** 开始。它按问题选择数学方法、概率专题、Python / MATLAB / Mathematica、文献与写作工作流；需要操作文件、网页或原生应用时，先检查当前可用工具。详细目录见 [全部技能](catalog/README.md)。
 
+按 OpenAI 题名、家族编号或 SHA-256 查询，可进入 [OpenAI 文献逐篇索引](skills/math-research/references/openai-sources/README.md)，按学科定位方法、适用条件与当前核验范围。
+
 | 类别 | 内容 |
 | --- | --- |
 | 研究总入口 | `math-research` |

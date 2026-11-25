@@ -1,0 +1,234 @@
+{
+  "subjects": [
+    {
+      "id": "arithmetic",
+      "label": "数论与算术几何",
+      "ranges": [
+        [
+          1,
+          31
+        ],
+        [
+          142,
+          142
+        ],
+        [
+          182,
+          182
+        ]
+      ]
+    },
+    {
+      "id": "algebraic-geometry",
+      "label": "代数几何与复几何",
+      "ranges": [
+        [
+          32,
+          69
+        ]
+      ]
+    },
+    {
+      "id": "harmonic-analysis",
+      "label": "调和分析与几何测度",
+      "ranges": [
+        [
+          71,
+          86
+        ]
+      ]
+    },
+    {
+      "id": "convex-geometry",
+      "label": "凸几何、度量与测度不等式",
+      "ranges": [
+        [
+          87,
+          101
+        ]
+      ]
+    },
+    {
+      "id": "algorithms",
+      "label": "算法、复杂性与优化",
+      "ranges": [
+        [
+          102,
+          141
+        ],
+        [
+          174,
+          174
+        ],
+        [
+          378,
+          380
+        ]
+      ]
+    },
+    {
+      "id": "dynamical-systems",
+      "label": "动力系统、遍历与自相似测度",
+      "ranges": [
+        [
+          143,
+          154
+        ]
+      ]
+    },
+    {
+      "id": "combinatorics",
+      "label": "组合数学、图论与离散几何",
+      "ranges": [
+        [
+          155,
+          173
+        ],
+        [
+          175,
+          181
+        ],
+        [
+          183,
+          192
+        ]
+      ]
+    },
+    {
+      "id": "algebra",
+      "label": "交换代数、群代数与表示论",
+      "ranges": [
+        [
+          193,
+          210
+        ]
+      ]
+    },
+    {
+      "id": "probability",
+      "label": "概率、随机几何与统计力学",
+      "ranges": [
+        [
+          211,
+          239
+        ]
+      ]
+    },
+    {
+      "id": "logic",
+      "label": "逻辑、集合论与可计算性",
+      "ranges": [
+        [
+          240,
+          245
+        ]
+      ]
+    },
+    {
+      "id": "geometric-group-theory",
+      "label": "几何群论",
+      "ranges": [
+        [
+          246,
+          259
+        ]
+      ]
+    },
+    {
+      "id": "mathematical-physics",
+      "label": "数学物理、相对论与量子信息",
+      "ranges": [
+        [
+          260,
+          284
+        ]
+      ]
+    },
+    {
+      "id": "operator-algebras",
+      "label": "算子理论和算子代数",
+      "ranges": [
+        [
+          285,
+          303
+        ]
+      ]
+    },
+    {
+      "id": "topology",
+      "label": "几何拓扑与代数拓扑",
+      "ranges": [
+        [
+          304,
+          321
+        ]
+      ]
+    },
+    {
+      "id": "functional-analysis",
+      "label": "泛函分析与 Banach 空间几何",
+      "ranges": [
+        [
+          322,
+          332
+        ]
+      ]
+    },
+    {
+      "id": "differential-geometry",
+      "label": "微分、黎曼与辛几何",
+      "ranges": [
+        [
+          333,
+          361
+        ]
+      ]
+    },
+    {
+      "id": "pde-and-transport",
+      "label": "偏微分方程、反问题与最优输运",
+      "ranges": [
+        [
+          362,
+          377
+        ]
+      ]
+    }
+  ],
+  "source_overrides": {
+    "0548f28606fea1a4654626c7680805abd227419c5de2dd633f35a3ddd0e0aede": "arithmetic",
+    "0a053000a7f46b984d86572de898d92a00751462cd39518586538eaaa0029a45": "algebraic-geometry",
+    "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f": "pde-and-transport",
+    "1a8212bf07eeb82de51663b4b63e9f6a326f4705adfa8dededf08b2378ca1c99": "differential-geometry",
+    "205469761edcdec997e34ca32fbdb91b209972530d9df08250669fa80996a18b": "algebraic-geometry",
+    "2f4c17af2ad54b95b3dae77eaf932bca3d004ea4d3c5a60521f6084e8b11711f": "arithmetic",
+    "30a19e63876306f8b8f9572ec524ff24ed9e6a679bb8640480d162e805fdf669": "probability",
+    "321f226c82e27e55597f0ae6587b06d59e218534836e621b211938596423a14e": "differential-geometry",
+    "47ce0d33a918fe9d79f3d74cf67ca4bcd43a3eb450afb58609c18db2ed5c1513": "probability",
+    "48515a3987802b299886e728a6e9f8394ccb2a359754259de64ce9b88a4a281b": "algebraic-geometry",
+    "61535cc6bd7e4f457f94c7db63f1038b35da807b6898581318ea0adcc08eff32": "differential-geometry",
+    "745d038ee6c94dcfa4338029a8e93f162bd419c5d7e302fe4c30d7529bdb8774": "arithmetic",
+    "8911defe691a678c9417ca73c7e93357aceba3567089be560715596c67228466": "arithmetic",
+    "8e46fd4f5d330e8befe0a8a81e2bdd405d1105afb09dc705cd157cb923d0f8e8": "algebraic-geometry",
+    "8f7bb3efb8fc6142c47924a8fcf211b192367991fece406935e886dc2d26f824": "algebraic-geometry",
+    "a0c234518e6c489e16996805023eb2e75c00b7c03455f7a3a5be2c124954bfdd": "pde-and-transport",
+    "a5c07d8591d5d5cd93620c429e4ba4f9e86cf0ff5b6c3a5f213d36edcd94e811": "algorithms",
+    "a6a00fc2a23a2b340ebbb883a5d80a9afd46706cae8f0efe556f26e8f3dcc27e": "algebraic-geometry",
+    "a91f1bbcc0af368d4e4fe31323cc5eab26429080c144ea5ba374f550a34f326c": "arithmetic",
+    "ac000b352a0abe8e1a2dfd99bef21dcbf232fae995e2395048a528c02157270c": "algebraic-geometry",
+    "b3fe604d79a470086510106e82fa55911982147005389b6a31303c18b1379de6": "arithmetic",
+    "b8bdfb9767cc20f2748c8efe396068e9e540b3e675aa9726b1b0a53bbe35640c": "algebraic-geometry",
+    "c488298811518fab399cfe6a1a0d34569c627252a29e5eb1a11c78d934bff280": "arithmetic",
+    "c73c3a84ea6dbd5cc4a83f3b2fa210edcf5277c234c2ddec7c838bb2e5a73ece": "arithmetic",
+    "d806931927d97e69aa980b5c6efb6a3216b0ccbab014371ce2988d9d53255c66": "probability",
+    "e92807014d890b8f6114b6b51fd70bc8e70322a465494a590b2311282687e386": "arithmetic",
+    "eebdac4f1582b2648a59ae6caf74955f674c0300774a9bba7c8597827d1efa67": "algebraic-geometry",
+    "ef2428fde699d046033669ce92129753b4e6114617f25e24cdc871a28c3e99b6": "pde-and-transport",
+    "ef66240969f38c9a8c81c7d6821ba205b8a6055c0e0fcabea738c00d3623f56a": "algebraic-geometry",
+    "f49fd478907ff70167d437a3bce721d9a0e31031b7efd320d36ca4dd4e82026f": "algebraic-geometry",
+    "f83c462b3ca416624299948232e5f4b1c50a9f025624195c9960c65fc979eaa7": "probability",
+    "f87af0a74a71d808dfd26f66237e39fa61cfc1a2432ff09d5e7824d6164e2056": "algebraic-geometry",
+    "f9c3a77d59893f720a382e6dbf34fbb93adcdfd27af3dcdf4e4336157143defb": "arithmetic",
+    "ffcba9d51a9e7c396d858688e9853daf854d9fc49dd261ba6e25dc8b9523e3f7": "arithmetic"
+  }
+}
