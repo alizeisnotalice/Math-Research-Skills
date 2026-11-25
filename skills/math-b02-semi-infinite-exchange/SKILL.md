@@ -27,6 +27,10 @@ description: 处理半无限规划与约束生成，核对分离子问题、交�
 7. GSIP先区分g≥0或h̄>0的原问题与g≥0或h̄≥0的闭松弛；f*=f_L需另证。P-646526af87253fe6两反例说明全局GSIP LLP min g subject h̄≤0甚至每轮全局AUX LLP都不足以分离松弛SIP；实际松弛分离须检inf_Y max{g,h̄}。严格对角负值不能推出所有未来迭代也负。
 8. 非紧U同次化先用closure(U₀)；替换为更大球面集合Ũ须核closed-at-infinity。否则对最小化是更强约束、值可能增大甚至不可行，不是等价变换。
 
+## 基多面体的分离 Oracle
+
+对显式给出整数次模秩的有限基多面体，用[次模秩约束的精确分离](references/polymatroid-base-separation.md)返回确切违例集合。
+
 ## 证据与失败处理
 
 有限采样、局部分离及浮点SDP值均不构成全约束认证。原文精确收敛是定性结果，无迭代误差率；非紧索引的u₀=0方向与closed-at-infinity不可省略。 普通SIP固定分离比例不能替换为α_k→0；GSIP的strict-boundary、松弛同值及正确分离目标必须逐项核验，已纠错外部算法不得沿用原下界收敛主张。

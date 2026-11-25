@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 144 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 148 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -46,6 +46,7 @@
 | [math-e03-tree-bellman-cross-layer-budget](../skills/math-e03-tree-bellman-cross-layer-budget/SKILL.md) | 分析树 Bellman 跨层预算势，核对层间递推、公共预算与终端结算。 |
 | [math-e04-snell-envelope-optimal-stopping](../skills/math-e04-snell-envelope-optimal-stopping/SKILL.md) | 处理最优停止与 Snell 包络，核对滤过、可积性、停止时及极限传递。 |
 | [math-e05-mean-payoff-potential-certificates](../skills/math-e05-mean-payoff-potential-certificates/SKILL.md) | 为有限确定性二人均值收益博弈构造或审查权重扰动、闭合势函数区域及逐路径高低收益证书；不用于认证求解复杂度或随机博弈结论。 |
+| [math-e06-online-metric-lazy-following](../skills/math-e06-online-metric-lazy-following/SKILL.md) | 将任意按请求可见的 k-server 模拟配置轨迹转为强惰性实际服务，并以最小匹配势逐路径核验移动账本；不用于断言全局竞争比或构造模拟轨迹。 |
 | [math-f01-geometric-mean-kernel-two-winner-audit](../skills/math-f01-geometric-mean-kernel-two-winner-audit/SKILL.md) | 审查几何平均核与两赢家分支估计，检查同输入耦合和分支选择条件。 |
 | [math-f02-tensor-fourier-positivity-soft-square-supremum](../skills/math-f02-tensor-fourier-positivity-soft-square-supremum/SKILL.md) | 核验张量 Fourier 正性及软度平方上确界估计，区分频域正性与所需最大界。 |
 | [math-f03-hilbert-schmidt-radial-layer-square-envelope](../skills/math-f03-hilbert-schmidt-radial-layer-square-envelope/SKILL.md) | 审查 Hilbert–Schmidt 径向层叠与平方包络，检查层间求和和核的适用条件。 |
@@ -82,6 +83,9 @@
 | [math-l03-rational-and-interval-certificates](../skills/math-l03-rational-and-interval-certificates/SKILL.md) | 构造或核验区间算术、有理对偶与证明型数值证书，检查舍入和全域覆盖。 |
 | [math-l04-mathematical-programming-workflow](../skills/math-l04-mathematical-programming-workflow/SKILL.md) | 组织数学规划软件的建模与结果核验，检查求解器、容差、可行性和界方向。 |
 | [math-l05-csp-sat-smt-encoding](../skills/math-l05-csp-sat-smt-encoding/SKILL.md) | 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、完备性及可检查证书。 |
+| [math-l06-tensor-rank-accounting](../skills/math-l06-tensor-rank-accounting/SKILL.md) | 审查矩阵乘法张量提取中的直接和形状、辅助张量秩收费、共享腿分离与固定参数容量账本。用于有明确有限秩证书的张量退化；不把熵计算或数值搜索单独当作指数证明。 |
+| [math-l07-noncommutative-matrix-tests](../skills/math-l07-noncommutative-matrix-tests/SKILL.md) | 对非交换公式或无环路径程序，按特征、是否含逆门及树模型选择有理/有限域矩阵 hitting point 或 hitting list，并核验截断字级数与 affine-pencil 定义域条件。不要用于共享电路或未承诺的 rational expression。 |
+| [math-l08-determinantal-polar-certificates](../skills/math-l08-determinantal-polar-certificates/SKILL.md) | 用固定仿射切片上的简单极方程零点核验复数域的仿射行列式表示尺寸下界，含系数极限模型。检查方向、简单性、左右核和多齐次计数。 |
 | [math-m01-convex-hull-extreme-points](../skills/math-m01-convex-hull-extreme-points/SKILL.md) | 用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。 |
 | [math-m02-separation-support-certificate](../skills/math-m02-separation-support-certificate/SKILL.md) | 构造 Hahn–Banach 分离或支撑函数证书，检查闭性、拓扑和分离方向。 |
 | [math-m03-near-extremizer-stability](../skills/math-m03-near-extremizer-stability/SKILL.md) | 分析近极值稳定性与刚性，核对亏损量、对称性、距离和紧性缺口。 |

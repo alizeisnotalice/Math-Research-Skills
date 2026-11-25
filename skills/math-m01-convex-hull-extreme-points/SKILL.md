@@ -9,6 +9,8 @@ description: 用仿射相关消元压缩有限凸组合，用 Krein–Milman 定
 2. 对有限维的有限凸组合，找支撑点的仿射依赖，沿依赖移动权重直到至少一个系数归零。重复后至多保留仿射维数加一项。标准单纯形的重心达到此上界，每个顶点本身只需一项。见[消元证明和锐性](references/method.md)。
 3. 要用 Krein–Milman，核对集合非空、紧且凸，以及环境空间为 Hausdorff 局部凸空间。得到的是其极点的闭凸包表示。若还要求有限支撑或积分表示，另证相应结论。
 
+有限无环多重图的完美匹配多面体遇到紧奇割时，可用[奇割上的匹配律拼接](references/odd-cut-matching-gluing.md)：两侧收缩图的匹配律须在每条割边的边缘概率上完全一致；这是该多面体的专用结论，并非一般凸多面体的粘合原则。
+
 若已知向量之和为零并且两两内积非正，用 [Gram 与带权 Laplacian](references/gram-laplacian.md)由内积图的连通性读出线性依赖和仿射维数。
 
 采用 Bachir 的暴露点变体时按[来源与阅读状态](references/provenance.md)核对其紧可度量、函数分离及 Φ-凸条件。历史来源的物理位置见[便携证据索引](references/handoff-evidence-index.csv)和[审核账本定位](references/portable-audit-access.md)。旧中心立方体课题可按[课题接口](references/cube-interface.md)核对附加条件。

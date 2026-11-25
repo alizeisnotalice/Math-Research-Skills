@@ -24,3 +24,7 @@ Use the current, versioned source-use cards for any theorem-specific application
 The portable free-boundary square calculation covers n=2,3,4, with independent permutation enumeration through n=3 and one finite exact branch-sampler trace. This is finite evidence, not an asymptotic result. Torus/cycle, Eden-growth, regular-tree, and fixed-metric-graph-subdivision results do not imply a growing free-boundary square theorem without a separate proof.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## 有限随机位预算
+
+固定公平位数内近似抽取有限均匀索引时，用[固定随机位的均匀索引逼近](references/fixed-bit-uniform-draw.md)计算全变差和逐次调用的总预算。

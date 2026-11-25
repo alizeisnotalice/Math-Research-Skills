@@ -819,8 +819,8 @@
     },
     {
       "path": "skills/math-b02-semi-infinite-exchange/SKILL.md",
-      "sha256": "c0ce18119f1d8aceef3f3c3b92496f009b747ecdfef188830c6f1f50a9369d4b",
-      "bytes": 4143,
+      "sha256": "f831d2a556188c9f65dd57ee6812800ef30c3ca32843bc84f64d273d5e762f38",
+      "bytes": 4337,
       "mode": 420
     },
     {
@@ -881,6 +881,12 @@
       "path": "skills/math-b02-semi-infinite-exchange/references/papers/TEAM_AB-P-646526af87253fe6.json",
       "sha256": "92bdd3a92bbbdf7015508851509e26b3cb2c19e8c52aa580eca67341f5928ec2",
       "bytes": 8064,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-b02-semi-infinite-exchange/references/polymatroid-base-separation.md",
+      "sha256": "7170898b23f3bf1f42bb7043ab4940345772b58383cc008417aa65f82bb17f2c",
+      "bytes": 1713,
       "mode": 420
     },
     {
@@ -2159,6 +2165,24 @@
       "path": "skills/math-e05-mean-payoff-potential-certificates/scripts/check_finite_certificates.py",
       "sha256": "877d22abae3f56ee15565be03f41ff9104695c132e00947e46419741fd43e084",
       "bytes": 1556,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e06-online-metric-lazy-following/SKILL.md",
+      "sha256": "157f19ea68fdbc65fc5b1692cedb5473b99ad189fa5cd618c42d0dca96bf1876",
+      "bytes": 3154,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e06-online-metric-lazy-following/references/pathwise-lazy-following.md",
+      "sha256": "e6d4e2a1b8292b2a991e264f5773f6230397eef6859778ef1815e1f8622995c1",
+      "bytes": 3618,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e06-online-metric-lazy-following/scripts/check_finite_lazy_following.py",
+      "sha256": "a190b2a52f3e337ddb6050d818e2a841e397e218d1f90bf994bba3fa7415c155",
+      "bytes": 2887,
       "mode": 420
     },
     {
@@ -5397,8 +5421,8 @@
     },
     {
       "path": "skills/math-l03-rational-and-interval-certificates/SKILL.md",
-      "sha256": "6f56923e7d50abd8e4b000fc7ca91ff038ec84177c01ff6d686ef7e3b18a9b47",
-      "bytes": 3405,
+      "sha256": "6356a5988c54b1e8029efd78c9589ad5dcbe72484cbdcfa5c2a94aa236ad308a",
+      "bytes": 3669,
       "mode": 420
     },
     {
@@ -5429,6 +5453,12 @@
       "path": "skills/math-l03-rational-and-interval-certificates/references/cube-interface.md",
       "sha256": "764b98f99801a38b35ebeab5b3a934d5f8b31842ad3f94ff68da3b4844fe64a6",
       "bytes": 653,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l03-rational-and-interval-certificates/references/dyadic-newton.md",
+      "sha256": "b9b989c2861d30afcda2c6830f4ff3b0413e1e06d707e61d6e2e8276cd61a50f",
+      "bytes": 2707,
       "mode": 420
     },
     {
@@ -5504,9 +5534,15 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l03-rational-and-interval-certificates/scripts/replay_dyadic_newton.py",
+      "sha256": "68d52f42fa1921e8aa204eba3f404e59f9475451bcc928a318f173606b50767c",
+      "bytes": 2683,
+      "mode": 420
+    },
+    {
       "path": "skills/math-l04-mathematical-programming-workflow/SKILL.md",
-      "sha256": "e3f22580a1e151bb0e49893e057fe9b398a894db6083c83c7d047940543b9c7e",
-      "bytes": 1936,
+      "sha256": "3e61a7486aa15407f71560c519e96f1046bf5f6cb7138dfb828f6bdafc4a4641",
+      "bytes": 2143,
       "mode": 420
     },
     {
@@ -5531,6 +5567,12 @@
       "path": "skills/math-l04-mathematical-programming-workflow/references/audit-sol_hn.md",
       "sha256": "b1d654ac2289a1654ca284210aeee1e457315874bcf63e52ca8fbf8bd3bcc3b8",
       "bytes": 2001,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l04-mathematical-programming-workflow/references/bin-packing-configuration-lp.md",
+      "sha256": "383013f8ae218824aa09ef3d006a4ed4452ab3f3a804d1aeca3c2c5626e54870",
+      "bytes": 1895,
       "mode": 420
     },
     {
@@ -5631,8 +5673,8 @@
     },
     {
       "path": "skills/math-l05-csp-sat-smt-encoding/SKILL.md",
-      "sha256": "e9cffb370124f73fe1fa70449ce3fed9ec03a81c587954efb65b05b4df8c8bf0",
-      "bytes": 5367,
+      "sha256": "1ca193ce50e8d3a222e1d13fd592dcd4be92ddf73fb3708d9e9743495de2f7d0",
+      "bytes": 6035,
       "mode": 420
     },
     {
@@ -5663,6 +5705,18 @@
       "path": "skills/math-l05-csp-sat-smt-encoding/references/cube-interface.md",
       "sha256": "a4ea65787916e103487ad2f0b9eadf66137d8b5d5e179b4db9cf64e514d4a6e9",
       "bytes": 693,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l05-csp-sat-smt-encoding/references/disjoint-cnf-sunflowers.md",
+      "sha256": "841bbda07458481802446dbde69399a2b439dee6057120a0e9af9953bb39f5c9",
+      "bytes": 3085,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l05-csp-sat-smt-encoding/references/graph-gadget-certificates.md",
+      "sha256": "c0b05e4a8fb6e8f2ecd97434e197b7506b21c9b7925c01948ba38926ae0d28a7",
+      "bytes": 8203,
       "mode": 420
     },
     {
@@ -5708,6 +5762,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l05-csp-sat-smt-encoding/references/perfect-matching-degree-reduction.md",
+      "sha256": "baaafd32061a5b04ad2d0d737ea85eea4f12ac786fb2153817b1ae968b403d7d",
+      "bytes": 1453,
+      "mode": 420
+    },
+    {
       "path": "skills/math-l05-csp-sat-smt-encoding/references/portable-audit-access.md",
       "sha256": "c24b4e8f0de785ca16ef4c740d89ced6ae49ecdddb6d73fbe6084c40650b8494",
       "bytes": 5975,
@@ -5732,9 +5792,45 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l06-tensor-rank-accounting/SKILL.md",
+      "sha256": "75bba54a101d42b19c2ee73599786877fd3845c81a2f361376c63ea87d44ffcd",
+      "bytes": 7711,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l07-noncommutative-matrix-tests/SKILL.md",
+      "sha256": "cbb722d219d27ae3d30bbe6c993c410ca93507041b37befffe06f517a91c730d",
+      "bytes": 3453,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l07-noncommutative-matrix-tests/references/sources.md",
+      "sha256": "853920ed29a4bd2ae45e39cf2146ad8c4885b24538a7c99df43d40173b24a6c1",
+      "bytes": 4464,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l07-noncommutative-matrix-tests/scripts/replay_truncation.py",
+      "sha256": "3b523b2298321b8a24333c93c28d56e4fc6e41600d118e19ba5516d07e76d76b",
+      "bytes": 1627,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l08-determinantal-polar-certificates/SKILL.md",
+      "sha256": "50168d018298c2cbcb6d1d409c83d374fa12d327208399463c200411a2493d86",
+      "bytes": 898,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l08-determinantal-polar-certificates/references/simple-polar-lifting.md",
+      "sha256": "ea1cc469dbaf7d349499750bb98111db5c3c067510a34ffeae1db48ad7ce5a94",
+      "bytes": 3021,
+      "mode": 420
+    },
+    {
       "path": "skills/math-m01-convex-hull-extreme-points/SKILL.md",
-      "sha256": "d4f5cd5d08fba641c8d13bcddfafa9e64ba522d39cc4b3980805567c2357684d",
-      "bytes": 1515,
+      "sha256": "ee279a9d782ba9545c46d2d88e58a41eb603ad652c5f9b464fec843c2cfce6b0",
+      "bytes": 1816,
       "mode": 420
     },
     {
@@ -5789,6 +5885,12 @@
       "path": "skills/math-m01-convex-hull-extreme-points/references/method.md",
       "sha256": "57cdb0d5950be9be77808eff884de6c5dce1ced0b3d6c50c6b9fec0a3c74281f",
       "bytes": 2024,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m01-convex-hull-extreme-points/references/odd-cut-matching-gluing.md",
+      "sha256": "d837658d78d2dfff161acee32d6be4ca392c9dcd0f3e43db38bcd79b6acb64fb",
+      "bytes": 4245,
       "mode": 420
     },
     {
@@ -6141,8 +6243,8 @@
     },
     {
       "path": "skills/math-m05-cut-metric-construction/SKILL.md",
-      "sha256": "fb6bd6de31716877cb523eafff85d607ef5b3852fa5d32fab7ef3e04f70df86b",
-      "bytes": 5576,
+      "sha256": "e9780d9cc15d7d5a416543b5e6b831d555fd61465126f6f574e431c5b7af6584",
+      "bytes": 5732,
       "mode": 420
     },
     {
@@ -6173,6 +6275,12 @@
       "path": "skills/math-m05-cut-metric-construction/references/tree-gluing.md",
       "sha256": "22bc1d2d909c754958b56b95b7e3c695e57380770b96a91d4abc40a867986619",
       "bytes": 2094,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/references/uniform-cut-demands.md",
+      "sha256": "5df15a834880f5d7b336138aa31b749155773314e800f430576a471bc2e4bfb4",
+      "bytes": 3896,
       "mode": 420
     },
     {
@@ -6963,14 +7071,14 @@
     },
     {
       "path": "skills/math-research/references/math-methods.md",
-      "sha256": "a195a87147b81a105eb8adb7bd6d0af7db348e4e26be57d4ecaa087fc858a730",
-      "bytes": 16372,
+      "sha256": "3beba2a753bfbbbbd296f0894162c01ed7126bac193080cba8057b34c793e409",
+      "bytes": 17628,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/method-selection.md",
-      "sha256": "57e38951ea06cfa13e096610361c0676563ccb90f35a04913d8c54286d2bed6f",
-      "bytes": 3148,
+      "sha256": "cd29f141ed55e6c754670bab661516cf62e959b87ab2a3f7cc07c2f2d7f7d5c0",
+      "bytes": 3525,
       "mode": 420
     },
     {
@@ -8517,8 +8625,8 @@
     },
     {
       "path": "skills/probability-concentration-chaining/SKILL.md",
-      "sha256": "46c5b2a853ff908a793245a90e132ab06ead4e5914752fdd3d3954833eeb3e3b",
-      "bytes": 17698,
+      "sha256": "e669099578259da8638770ab41d631ef8ba21b1b0d3c1778102a1530cbfa7f71",
+      "bytes": 18652,
       "mode": 420
     },
     {
@@ -8795,6 +8903,12 @@
       "path": "skills/probability-concentration-chaining/examples/positive.md",
       "sha256": "14023db3e5511329211eb850dbdaa046d51bc797bae6da9302a373eec748854d",
       "bytes": 3761,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-concentration-chaining/references/adaptive-positive-certificates.md",
+      "sha256": "8dba51b36e7047e351597225ed3a292f60b90e2b47cd7ef5c0088578732e528c",
+      "bytes": 5251,
       "mode": 420
     },
     {
@@ -12543,8 +12657,8 @@
     },
     {
       "path": "skills/probability-poset-counting-sampling/SKILL.md",
-      "sha256": "88267ffbc2d3038b5578534d081f7599d1e4e2aff8c3ae65a96861146857489e",
-      "bytes": 3972,
+      "sha256": "89a1356fcb3ca4aba477ab36fe2e21b902f4a5e6176eea1bad8b651830f3bfac",
+      "bytes": 4181,
       "mode": 420
     },
     {
@@ -12779,6 +12893,12 @@
       "path": "skills/probability-poset-counting-sampling/examples/positive.md",
       "sha256": "6febab3ccd6a6b99489d7e79b71cbdd5ed8915be90a5b9fa2a8cf55875b72b20",
       "bytes": 4856,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-poset-counting-sampling/references/fixed-bit-uniform-draw.md",
+      "sha256": "241ffeb5e56b7ccee5d91cdb2552c351ce36f69949431a055e9375259f473c12",
+      "bytes": 1358,
       "mode": 420
     },
     {
@@ -15123,8 +15243,14 @@
     },
     {
       "path": "skills/probability-spectral-perturbation-certificates/SKILL.md",
-      "sha256": "c12e592121404a0303fca443885cf387ea74cf344b0b5403dd7b74d1e5c510bb",
-      "bytes": 3148,
+      "sha256": "0690baa8e59dc556056f0c62544cbf998a589161cc8cbe09c3b754836e4e2641",
+      "bytes": 3755,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-spectral-perturbation-certificates/references/lazy-chain-mixing.md",
+      "sha256": "b92a1199e9cebdc21a686c4dd5f881b1a59ce27e1e24c30bf957607386e67a0d",
+      "bytes": 7625,
       "mode": 420
     },
     {

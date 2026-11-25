@@ -33,6 +33,14 @@ description: 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、�
 
 涉及有限投影游戏、共同见证或抽样后标签兼容时，读[纤维标签与顺序对齐](references/label-consistency.md)。核对可达输出、跨表示的一致性及抽样律的量词。
 
+若要把已明确的有限约束或 permutation constraint 变成图目标，或审计这类变换的局部值保持性质，读[局部图 gadget 证书](references/graph-gadget-certificates.md)。它只覆盖其中逐项列出的构造和前提；不得据此推出任何一般 hardness gap 或近似阈值。
+
+## 有界宽度的 CNF 分解
+
+需对满足集分块计数、且分块不得重叠时，读[向日葵分支的互斥性与稀疏预算](references/disjoint-cnf-sunflowers.md)。侧条件与活跃子句分开记录。
+
+需要最大度三的完美匹配实例时，读[匹配奇偶路径与见证恢复](references/perfect-matching-degree-reduction.md)。
+
 ## 证据与失败处理
 
 满足赋值只证明编码模型成立。定义域写错、漏约束、用实数放松或未经核验的求解器状态都会使数学结论失效。Fourier 扩张 FE_c 只在 Boolean 顶点编码0/1违约；超出变量盒时可能为负，故全空间目标要按来源平方 FE_c 并取 α>0。
