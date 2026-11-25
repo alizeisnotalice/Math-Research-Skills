@@ -7,6 +7,13 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 
 目标是证明 γ=limₙ(Hₙ−log n) 不属于 Q。先注明本轮目标，例如复现一个式子、改善一个整化界、证明相邻余项的分离，或核对一条完整证明。引用最新成果前查一手版本。[方法和来源选择](references/methods.md) 提供分支及起始材料。
 
+## 按输入调用论文工具
+
+- 从整数指标生成对数权重、认证有限分母排除，用 [Sondow 证书](../math-sondow-log-fractional-certificate/SKILL.md)。
+- 生成精确多重 Laguerre 系数及原始/约分整数对，或用 Rivoal、Aptekarev 递推作同尺度比较，读 [多重 Laguerre 逼近](../math-gamma-multiple-laguerre-approximants/SKILL.md)。
+- 从参数轨迹、对偶矩阵和预备的换基得到递推，用 [Meijer G 保守矩阵场](../math-gamma-meijer-cmf/SKILL.md)。
+- 对 E/G 函数、1-求和与算术和乐候选路线，读 [算术 Gevrey 与 CDT 接口](references/arithmetic-gevrey.md)。
+
 ## 推进证明
 
 1. **写清恒等式。** 固定指标、基底、初值、积分区域或分支。目标若写成 Rₙ=qₙγ−pₙ，先证明没有未经消去的 log、ζ 值或其他常数。递推须有等价的初值和极限识别；发现程序与数值吻合属于候选证据。

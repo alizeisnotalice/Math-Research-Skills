@@ -2091,14 +2091,20 @@
     },
     {
       "path": "skills/math-euler-constant-irrationality/SKILL.md",
-      "sha256": "051d4a8428da2187d7ec55f04761b6852c9a8dd855251d64c339f6c4573bd7e6",
-      "bytes": 2844,
+      "sha256": "9073f3b322712def48943c69e46105d3c6263c64dca90a787bbe0efff97e5580",
+      "bytes": 3483,
       "mode": 420
     },
     {
       "path": "skills/math-euler-constant-irrationality/agents/openai.yaml",
       "sha256": "ca2891748aa0549e2fd0498b5c4cd962a3af1f660a5af8dda8bd396ac8c45f2f",
       "bytes": 297,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-euler-constant-irrationality/references/arithmetic-gevrey.md",
+      "sha256": "8ab662bd12ec79b01b37e5c250885709b235cba511b1a196f814e667e9a541fd",
+      "bytes": 2837,
       "mode": 420
     },
     {
@@ -3347,6 +3353,42 @@
       "path": "skills/math-g05-tree-carleson-square-function-tc-a4-audit/references/verification-log-20261007.md",
       "sha256": "c47555f526ee577962d2044d00ad24484b2c24ba36c49f599fd18f8f8e958fd6",
       "bytes": 1760,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-meijer-cmf/SKILL.md",
+      "sha256": "cdca53ac6515d2685f77f95255864d403aa6849caee52ff1a158b9fab4b77727",
+      "bytes": 2100,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-meijer-cmf/scripts/cmf_pairs.py",
+      "sha256": "ed9f79f73890ac4ac2fd9513da681525a1171e5adb8d22241ee9b3b31e6680c0",
+      "bytes": 1421,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-multiple-laguerre-approximants/SKILL.md",
+      "sha256": "58cd040288c5b23de8284a8d1f77aaa529e6cca9664cb35b45c85b6dedcf1627",
+      "bytes": 2440,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-multiple-laguerre-approximants/references/comparison.md",
+      "sha256": "c677468d91378aaf8498f8df757a32b9cb9737271cfecc7841cd64b975465e18",
+      "bytes": 992,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-multiple-laguerre-approximants/scripts/comparison_pairs.py",
+      "sha256": "dc24c7aa714a7e3bb84578ab10c51cbd68fee9462b2d7c921c5a43407283ec77",
+      "bytes": 1520,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-multiple-laguerre-approximants/scripts/laguerre_pairs.py",
+      "sha256": "de0ec657d34050079bf62fe04f7e3705e83ee71d4557f92c5895c4ccf393fe27",
+      "bytes": 1536,
       "mode": 420
     },
     {
@@ -6623,6 +6665,18 @@
       "path": "skills/math-research/scripts/probe_tools.py",
       "sha256": "0480761c890c8186bc12165452572813d486c6a38be5f043e38264de599b774c",
       "bytes": 5665,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/SKILL.md",
+      "sha256": "4c5f230f6bf92a08c363f15a0535009adfe56acb249862f2a1b8b696504ddfbe",
+      "bytes": 2355,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/scripts/sondow_certificate.py",
+      "sha256": "569a751e06ee16e5b235c8e64addf474c7df3a95768bd9a933c9be3dbfbd822f",
+      "bytes": 2595,
       "mode": 420
     },
     {

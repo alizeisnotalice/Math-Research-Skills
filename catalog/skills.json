@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 4,
+    "research-specialists": 7,
     "tools": 8,
     "methods": 64,
     "modeling": 3,
@@ -281,7 +281,12 @@
       "title": "欧拉常数无理性",
       "description": "研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计 γ 的 Padé、多重正交、超几何、递推、整数线性形式、分母消去与 Sondow 型判据，也用于核对 E/G 函数、算术 Gevrey 与 Stokes 常数方法能否转移到 γ。",
       "category": "research-specialists",
-      "path": "skills/math-euler-constant-irrationality/SKILL.md"
+      "path": "skills/math-euler-constant-irrationality/SKILL.md",
+      "requires": [
+        "math-sondow-log-fractional-certificate",
+        "math-gamma-multiple-laguerre-approximants",
+        "math-gamma-meijer-cmf"
+      ]
     },
     {
       "name": "math-f01-geometric-mean-kernel-two-winner-audit",
@@ -378,6 +383,20 @@
       "category": "methods",
       "path": "skills/math-g05-tree-carleson-square-function-tc-a4-audit/SKILL.md",
       "family": "g"
+    },
+    {
+      "name": "math-gamma-meijer-cmf",
+      "title": "Meijer G 保守矩阵场工具",
+      "description": "用 Kalisch 等的 Meijer G 保守矩阵场构造欧拉常数 γ 的 Apéry 型候选逼近。复跑已知三阶轨迹，核对对偶矩阵、CVM 换基、收敛判据和约分后的算术质量。",
+      "category": "research-specialists",
+      "path": "skills/math-gamma-meijer-cmf/SKILL.md"
+    },
+    {
+      "name": "math-gamma-multiple-laguerre-approximants",
+      "title": "多重 Laguerre 逼近的算术工作台",
+      "description": "用 Wolfs–Van Assche 的混合型多重 Laguerre 显式有限和生成欧拉常数有理逼近，并审计算术整化、约分、余项和渐近障碍。",
+      "category": "research-specialists",
+      "path": "skills/math-gamma-multiple-laguerre-approximants/SKILL.md"
     },
     {
       "name": "math-h01-uniform-cramer-moderate-deviations",
@@ -672,6 +691,13 @@
       "requires": [
         "math-tool-router"
       ]
+    },
+    {
+      "name": "math-sondow-log-fractional-certificate",
+      "title": "Sondow 对数分数部分证书",
+      "description": "从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。",
+      "category": "research-specialists",
+      "path": "skills/math-sondow-log-fractional-certificate/SKILL.md"
     },
     {
       "name": "math-tool-router",
