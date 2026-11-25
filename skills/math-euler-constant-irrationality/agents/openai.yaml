@@ -1,0 +1,4 @@
+interface:
+  display_name: "欧拉常数无理性研究"
+  short_description: "审计欧拉常数逼近、整化、非消失和无理性判据"
+  default_prompt: "使用 $math-euler-constant-irrationality 审查这条欧拉常数研究路线，给出严格成立的步骤和最小缺失引理。"

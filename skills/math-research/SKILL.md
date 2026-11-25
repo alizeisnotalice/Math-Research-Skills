@@ -20,7 +20,7 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | 不确定该用什么数学方法 | 按 [数学方法索引](references/math-methods.md) 的主题检索，再读最相关的 1–2 个技能 |
 | 概率模型、随机过程或概率论证明 | 按 [概率专题索引](references/probability.md) 选择；涉及对偶、区间等步骤再加读相应数学方法 |
 | 符号/数值计算、优化、计算辅助证明、绘图或设备算力 | 读 [数学工具引导](../math-tool-router/SKILL.md)，选择并实际调用合适的本机工具。 |
-| 找论文、按清单下载或核对引用 | 只检索用 `academic-literature-search`；检索并下载或按清单获取用 `literature-search-download`；知网用 `cnki-search` |
+| 欧拉–马歇罗尼常数的无理性、逼近和整化 | 使用 [欧拉常数无理性研究](../math-euler-constant-irrationality/SKILL.md)。 |\n| 找论文、按清单下载或核对引用 | 只检索用 `academic-literature-search`；检索并下载或按清单获取用 `literature-search-download`；知网用 `cnki-search` |
 | 写数学研究论文 | `math-paper-writing`；一般学术文章用 `academic-paper-writing`；翻译用 `academic-paper-translator` |
 | 论文或技术说明的表达精简 | `anti-defensive-writing`，保留数学条件、证据范围和真实缺口 |
 | 数学建模竞赛的审计、排版或提交包 | 分别用 `math-modeling-audit`、`math-modeling-paper`、`math-modeling-delivery` |

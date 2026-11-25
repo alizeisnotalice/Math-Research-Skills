@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 3,
+    "research-specialists": 4,
     "tools": 8,
     "methods": 64,
     "modeling": 3,
@@ -275,6 +275,13 @@
       "category": "methods",
       "path": "skills/math-e04-snell-envelope-optimal-stopping/SKILL.md",
       "family": "e"
+    },
+    {
+      "name": "math-euler-constant-irrationality",
+      "title": "欧拉常数无理性",
+      "description": "研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计 γ 的 Padé、多重正交、超几何、递推、整数线性形式、分母消去与 Sondow 型判据，也用于核对 E/G 函数、算术 Gevrey 与 Stokes 常数方法能否转移到 γ。",
+      "category": "research-specialists",
+      "path": "skills/math-euler-constant-irrationality/SKILL.md"
     },
     {
       "name": "math-f01-geometric-mean-kernel-two-winner-audit",
