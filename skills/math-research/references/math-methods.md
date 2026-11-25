@@ -84,13 +84,16 @@
 - [math-l05-csp-sat-smt-encoding](../../math-l05-csp-sat-smt-encoding/SKILL.md)：将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、完备性及可检查证书。
 ## M · 凸性、极点与选择
 
-- [math-m01-convex-hull-extreme-points](../../math-m01-convex-hull-extreme-points/SKILL.md)：使用 Carathéodory 与 Krein–Milman 极点方法，核对凸包、拓扑与紧性条件。
+- [math-m01-convex-hull-extreme-points](../../math-m01-convex-hull-extreme-points/SKILL.md)：用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。
 - [math-m02-separation-support-certificate](../../math-m02-separation-support-certificate/SKILL.md)：构造 Hahn–Banach 分离或支撑函数证书，检查闭性、拓扑和分离方向。
 - [math-m03-near-extremizer-stability](../../math-m03-near-extremizer-stability/SKILL.md)：分析近极值稳定性与刚性，核对亏损量、对称性、距离和紧性缺口。
 - [math-m04-measurable-supremum-selection](../../math-m04-measurable-supremum-selection/SKILL.md)：处理可测上确界、解析投影和可测选择，核对参数空间、可测性及选择器范围。
+- [math-m05-cut-metric-construction](../../math-m05-cut-metric-construction/SKILL.md)：在有限树分解上拼接一致二元 cut law，或审查嵌套 cut 坐标图，核对边缘、零质量、重参数化与局部 L1 度量公式。
 ## N · 凸几何、振荡与误差
 
 - [math-n01-john-loewner-ellipsoid](../../math-n01-john-loewner-ellipsoid/SKILL.md)：使用 John 或 Löwner 椭球与容量方法，核对凸体假设、归一化和常数依赖。
 - [math-n02-log-concave-marginal-inequalities](../../math-n02-log-concave-marginal-inequalities/SKILL.md)：核验 Prékopa–Leindler、BBL 与对数凹边际不等式，检查指数、积分和等号条件。
 - [math-n03-oscillation-and-geometric-remainder](../../math-n03-oscillation-and-geometric-remainder/SKILL.md)：分析 van der Corput、半密度与振荡抵消的几何余项，核对相位和一致参数范围。
 - [math-n04-summable-error-entropy-descent](../../math-n04-summable-error-entropy-descent/SKILL.md)：组织可求和误差与熵递减论证，检查逐层预算、收敛传递和累计误差。
+- [math-n05-translative-covering-density](../../math-n05-translative-covering-density/SKILL.md)：用带缓冲的窗口周期化研究凸体平移覆盖密度。适用于从有限基本域证明覆盖上界、从所有有限余类的排除推出下界，以及核对重叠计数、余类去重和单格点阵的同步剪切与补全。
+- [math-n06-projection-body-volume](../../math-n06-projection-body-volume/SKILL.md)：审查投影体的未极化体积泛函、凸多面体的直积恒等式与一阶变分测度。适用于构造或核对投影体体积比、单纯形比较及椭球下界接口。

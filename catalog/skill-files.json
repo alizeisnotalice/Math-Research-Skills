@@ -1071,8 +1071,8 @@
     },
     {
       "path": "skills/math-c01-semidefinite-lifting/SKILL.md",
-      "sha256": "19f8052c44f214c34ce96033c8a778210809f83302362a170c0e55faf5b3af4d",
-      "bytes": 3825,
+      "sha256": "9512876914fd6404ca46490cf23a4d4497f657688dd3c5e7cdadce5b475fa359",
+      "bytes": 4105,
       "mode": 420
     },
     {
@@ -1103,6 +1103,12 @@
       "path": "skills/math-c01-semidefinite-lifting/references/evidence-guide.md",
       "sha256": "17eb16faaa9c96d68549be9e0b8c5188fa973cb6a93ddf64cdf3ba68a89c861c",
       "bytes": 6605,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-c01-semidefinite-lifting/references/exact-lift-boundary.md",
+      "sha256": "d26e77177ceb2c7c667ff4a53fa99898ff6591a0445f2f2039dedece29fa4cf3",
+      "bytes": 4072,
       "mode": 420
     },
     {
@@ -5361,8 +5367,8 @@
     },
     {
       "path": "skills/math-l03-rational-and-interval-certificates/SKILL.md",
-      "sha256": "205fb24022fae1f9a91ff1fc9a2c1f2a2dfbd478b7e1d8e4374db56a7513b0f1",
-      "bytes": 3184,
+      "sha256": "6f56923e7d50abd8e4b000fc7ca91ff038ec84177c01ff6d686ef7e3b18a9b47",
+      "bytes": 3405,
       "mode": 420
     },
     {
@@ -5393,6 +5399,12 @@
       "path": "skills/math-l03-rational-and-interval-certificates/references/cube-interface.md",
       "sha256": "764b98f99801a38b35ebeab5b3a934d5f8b31842ad3f94ff68da3b4844fe64a6",
       "bytes": 653,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l03-rational-and-interval-certificates/references/finite-tail-inverse.md",
+      "sha256": "8b4fb0b2bada0a87c70f4e347ae76a38a706be9b56864f28a62f65028592aaf6",
+      "bytes": 1954,
       "mode": 420
     },
     {
@@ -5685,8 +5697,8 @@
     },
     {
       "path": "skills/math-m01-convex-hull-extreme-points/SKILL.md",
-      "sha256": "ae3e0b2719303d68da178714a92f052e60f0d258f6ce79bba6277b92e506dd54",
-      "bytes": 4096,
+      "sha256": "eb0c20145d1571565e477d5a3242ffbc7fc6dd2e5bfa2a9e5efdfe9695e4f90f",
+      "bytes": 1339,
       "mode": 420
     },
     {
@@ -5733,8 +5745,8 @@
     },
     {
       "path": "skills/math-m01-convex-hull-extreme-points/references/method.md",
-      "sha256": "e2322cb9585459de73b5d6599bc2fc7c049981c9b6c5cc833499cb23cd95315a",
-      "bytes": 3197,
+      "sha256": "57cdb0d5950be9be77808eff884de6c5dce1ced0b3d6c50c6b9fec0a3c74281f",
+      "bytes": 2024,
       "mode": 420
     },
     {
@@ -5769,8 +5781,8 @@
     },
     {
       "path": "skills/math-m02-separation-support-certificate/SKILL.md",
-      "sha256": "a448b3b7a83ed0de64a5dc79ab68f5c773a1249b044c38cc53fd8c37aac7c830",
-      "bytes": 2986,
+      "sha256": "b714a4140f1154a0894f20c1f06cd99f454e579baa7cd2461bae2f3e59d4bb95",
+      "bytes": 3197,
       "mode": 420
     },
     {
@@ -5822,6 +5834,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-m02-separation-support-certificate/references/polar-sum-volume.md",
+      "sha256": "dee7643671386a4e127fbf633540c48c0bd8b3f081b04f6a7088534201dfe284",
+      "bytes": 2504,
+      "mode": 420
+    },
+    {
       "path": "skills/math-m02-separation-support-certificate/references/portable-audit-access.md",
       "sha256": "78146bbb764b8d5e9ba606d9748a811e6bbe5db693b3e2415d76d3db9d0488bd",
       "bytes": 5985,
@@ -5847,8 +5865,8 @@
     },
     {
       "path": "skills/math-m03-near-extremizer-stability/SKILL.md",
-      "sha256": "e1004b52b982feb0898bc801f807a0c699a40672098fa6d1fadafa09119a7a73",
-      "bytes": 3520,
+      "sha256": "64eb7cc6ba953df7cac04a07845b9439e74f2f3aa060b748c3635a55e565ef04",
+      "bytes": 3784,
       "mode": 420
     },
     {
@@ -5885,6 +5903,12 @@
       "path": "skills/math-m03-near-extremizer-stability/references/handoff-evidence-index.csv",
       "sha256": "1c20d4e4084356573444597b75d9f6e2fbd806d4cd5c6006e8a92055e5d6f0d3",
       "bytes": 24025,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m03-near-extremizer-stability/references/lexicographic-energy.md",
+      "sha256": "9aa739d9128c7654e261236258cb7b1deca0b9fc3da3cb6eb3d137f1906bff78",
+      "bytes": 2010,
       "mode": 420
     },
     {
@@ -6065,6 +6089,36 @@
       "path": "skills/math-m04-measurable-supremum-selection/references/verification-log-20261006.md",
       "sha256": "c005b745299aeda06d20ffbe99f9167b395996c5707bd873a3d4b1ebd978771f",
       "bytes": 842,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/SKILL.md",
+      "sha256": "634fac74c8b2c9d7ecb081744ade1275035f773f848ab840d27efad244c71d8e",
+      "bytes": 4175,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/references/nested-charts.md",
+      "sha256": "675a91787efc476031c846a169b866999a4fc75b6bdca01666bb15e85695933d",
+      "bytes": 1391,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/references/sources.md",
+      "sha256": "7b02ea33bd4988c6b0b443c9a3e8d4538bc469e42421dc8ac43c208717e90a2b",
+      "bytes": 1765,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/references/tree-gluing.md",
+      "sha256": "22bc1d2d909c754958b56b95b7e3c695e57380770b96a91d4abc40a867986619",
+      "bytes": 2094,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/scripts/check_gluing.py",
+      "sha256": "5fe5d5a060447376505027081d721f0d9db0c98bb4eaf429676b93bfb2fc9111",
+      "bytes": 2532,
       "mode": 420
     },
     {
@@ -6590,6 +6644,48 @@
       "mode": 420
     },
     {
+      "path": "skills/math-n05-translative-covering-density/SKILL.md",
+      "sha256": "eb2b4eb2a1d063dd63d2267bfea5a73cc7c4ce0d82cd968b3a2cc4747a70a284",
+      "bytes": 1619,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n05-translative-covering-density/references/periodization.md",
+      "sha256": "4c2f09e052a2685d932a4d3e05a44935b606e15a36bee60946acd584ce4c7f71",
+      "bytes": 3072,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n05-translative-covering-density/references/simultaneous-shear.md",
+      "sha256": "dc084158961a81a54dc224515f5cc62bbcda22b5e1f00e96f7d1726718061bd0",
+      "bytes": 3981,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n06-projection-body-volume/SKILL.md",
+      "sha256": "387d8da598fb7790f6c4fa6a03c40ef8d9ee60369abaa1bb021c3ad05797285a",
+      "bytes": 1805,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n06-projection-body-volume/references/exact-replay.md",
+      "sha256": "775bafaab08b839ab7abda06164990f64e83cd93189e961ca222a7376b315de0",
+      "bytes": 1385,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n06-projection-body-volume/references/polytope-products.md",
+      "sha256": "c5afb9db709b2714b91f7602d63f1cf32553af9f10d755bebeb2e27e14ba02bb",
+      "bytes": 1653,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n06-projection-body-volume/references/projection-measures.md",
+      "sha256": "60326df95e2f0ff1f0d3543f1fae3643332e4aaa5ff7c3d5b48c34a86ac058be",
+      "bytes": 1523,
+      "mode": 420
+    },
+    {
       "path": "skills/math-openai-arithmetic-determinants/SKILL.md",
       "sha256": "7577b23ba2fbe647d576219f37754a07a257e94ff557942fcdd1d685b7b54d50",
       "bytes": 1871,
@@ -6681,8 +6777,8 @@
     },
     {
       "path": "skills/math-research/SKILL.md",
-      "sha256": "37b2e0114033f8b63271e820ccc9afdd26d635f196a94a24e2b6388632de2f89",
-      "bytes": 4503,
+      "sha256": "c28f72e45739315d53f2f1a63c68fd487bb31a0c198effc4093185e387a7578f",
+      "bytes": 4502,
       "mode": 420
     },
     {
@@ -6699,14 +6795,14 @@
     },
     {
       "path": "skills/math-research/references/math-methods.md",
-      "sha256": "2679e32befb48348eca5f0fe652922690c6c6763bf00bbf9303fc97d0af919fe",
-      "bytes": 13584,
+      "sha256": "618dd526ae8f5a10bdb734f81c15dc20f318747e07226f2262efd18b5976647b",
+      "bytes": 14470,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/method-selection.md",
-      "sha256": "6e8fa18e9a7b5872f8697305844c697409b1aa90d9afbcb4b083dbcae80db869",
-      "bytes": 1980,
+      "sha256": "10590a6ead0de5e8342740350c00a5a18e6bfbd72956f1aa1aee8532ecc41aa6",
+      "bytes": 2478,
       "mode": 420
     },
     {
@@ -8253,8 +8349,8 @@
     },
     {
       "path": "skills/probability-concentration-chaining/SKILL.md",
-      "sha256": "40e9d744201711e85a7e794aee494cec61bc0a030a54223b5a16e2f9d9eebc1c",
-      "bytes": 16944,
+      "sha256": "46c5b2a853ff908a793245a90e132ab06ead4e5914752fdd3d3954833eeb3e3b",
+      "bytes": 17698,
       "mode": 420
     },
     {
@@ -8537,6 +8633,12 @@
       "path": "skills/probability-concentration-chaining/references/method.md",
       "sha256": "f1cfeb3db902449026ebc0d98266ee151b15c9d789cc57412696d6b5cba27745",
       "bytes": 1135,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-concentration-chaining/references/poisson-witness-lower-tail.md",
+      "sha256": "295e163912ae23f45f1eac90562869e3053be301ce7b101a0f2e42ac6dbe1991",
+      "bytes": 5988,
       "mode": 420
     },
     {
