@@ -1761,8 +1761,8 @@
     },
     {
       "path": "skills/math-discrete-proof-transfer/SKILL.md",
-      "sha256": "e068296c7b2c586bd6f8363c3abc8c2d38aabae79ef61ff3786f7458e7a1142c",
-      "bytes": 2474,
+      "sha256": "cea3a33883bfb4dad176bbc2709559fbe08ba76aa3163447a625a5292e541fe1",
+      "bytes": 2668,
       "mode": 420
     },
     {
@@ -1796,6 +1796,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-discrete-proof-transfer/references/periodic-component-bounds.md",
+      "sha256": "5ea393effde0cbd36291e57a2c6f6e091bed463e64add037be46c00599309061",
+      "bytes": 2760,
+      "mode": 420
+    },
+    {
       "path": "skills/math-discrete-proof-transfer/references/probability.md",
       "sha256": "92683b4ab65ee59b259ee725ac15ca1b788590aa06f2752921c5a3109e414f28",
       "bytes": 2805,
@@ -1811,6 +1817,12 @@
       "path": "skills/math-discrete-proof-transfer/references/totient-witness-unions.md",
       "sha256": "3fb9849edeabb4a8d9451a2dc8149ef5b5e68f153a6988591adc1c342421626b",
       "bytes": 2258,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-discrete-proof-transfer/scripts/check_periodic_components.py",
+      "sha256": "e51f4aa76669acdba1473245b97a5061d8ac3296702f3c792f537dffdff1cff2",
+      "bytes": 1316,
       "mode": 420
     },
     {
@@ -5984,6 +5996,78 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l14-nonarchimedean-cover-descent/SKILL.md",
+      "sha256": "a9669fe24c4ee9ff70d74385a655918182f14232b40bccc5b269835ea85d632f",
+      "bytes": 3777,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l14-nonarchimedean-cover-descent/references/source-audit.md",
+      "sha256": "7308b2e42e5441e49332f116c3706a2282cfdcf53cfc1948c66c605b5215b270",
+      "bytes": 2831,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l15-exact-unit-fraction-transforms/SKILL.md",
+      "sha256": "685b66a9ed47ce8144c62071fe54c42d257025aa6d755f7079673161e26fc1aa",
+      "bytes": 2412,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l15-exact-unit-fraction-transforms/references/source-audit.md",
+      "sha256": "6ad73de8cc06908afa0359c58a476c1a232df9f22c7bdab4081e926fc31b212b",
+      "bytes": 2497,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l15-exact-unit-fraction-transforms/scripts/replay_unit_fractions.py",
+      "sha256": "fe3ff1b5baa03489d56ba36b9580d9c0379d9b042542e99ba52e4f15cae2d5a7",
+      "bytes": 3962,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l16-prime-sieve-certified-transfers/SKILL.md",
+      "sha256": "d2ef7a0c1ca2b2100bf119cc010a9f3d1b5da4a5b3f33d3856ff1d65528b1f87",
+      "bytes": 5129,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l16-prime-sieve-certified-transfers/references/sources.md",
+      "sha256": "dcbac1de60006e6ddc9c1a2d24424ac743a739d51553847f8db4e3f56d6b77cb",
+      "bytes": 1656,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l16-prime-sieve-certified-transfers/scripts/check_finite_instances.py",
+      "sha256": "a07174d208322b5d7a284073cba5409850dbd57b286bed2dfdf446f80c70e367",
+      "bytes": 2146,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l17-filtered-linear-algebra-certificates/SKILL.md",
+      "sha256": "07495bc332f7ca490054af24416b85496cfa415bba22fb283837c91e57598dfc",
+      "bytes": 5194,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l17-filtered-linear-algebra-certificates/scripts/check_finite_instances.py",
+      "sha256": "838efe8e628a4854ba70778f0815008dd45e76dcd56067452f0cedcfeedf95c5",
+      "bytes": 6183,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l18-multiplicative-kernel-tensorization/SKILL.md",
+      "sha256": "953f3a41f68ed6bcf99d9185e3eac1597a82482e93848f93967a8d80a023408c",
+      "bytes": 3794,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l18-multiplicative-kernel-tensorization/scripts/check_kernel.py",
+      "sha256": "bf7cd78476f0a2e18fc21a3a58965f6a1629d7a3cad35c74d5e9c44d22253cb2",
+      "bytes": 1040,
+      "mode": 420
+    },
+    {
       "path": "skills/math-m01-convex-hull-extreme-points/SKILL.md",
       "sha256": "ee279a9d782ba9545c46d2d88e58a41eb603ad652c5f9b464fec843c2cfce6b0",
       "bytes": 1816,
@@ -7233,14 +7317,14 @@
     },
     {
       "path": "skills/math-research/references/math-methods.md",
-      "sha256": "c94f1cf0e02208a171f96ea268cda635ef4a62691e64686c98a0f90c7afb0eb2",
-      "bytes": 19056,
+      "sha256": "bb2607d41b48237911bad85b72dc683b976f045ba957f6a6e64c379314af9d9d",
+      "bytes": 20520,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/method-selection.md",
-      "sha256": "db8c15d82cea5e4742a61b78b404e0c1bb04e237e73d36055e3200814c07ff54",
-      "bytes": 3844,
+      "sha256": "6b0a535c96dac829afa430e7a60f38e5b695d09aa20740ba5b7c01ca0b3357ce",
+      "bytes": 4413,
       "mode": 420
     },
     {

@@ -18,7 +18,7 @@
     "collaboration": 1,
     "research-specialists": 8,
     "tools": 8,
-    "methods": 82,
+    "methods": 87,
     "modeling": 3,
     "orchestration": 1,
     "probability": 41
@@ -240,7 +240,7 @@
     {
       "name": "math-discrete-proof-transfer",
       "title": "离散与概率课题的论文迁移审计",
-      "description": "为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。不要因同名 Fourier、稳定性或张量术语就迁移结论。",
+      "description": "为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。另用于周期图的有限连通分支与例外顶点预算。不要因同名 Fourier、稳定性或张量术语就迁移结论。",
       "category": "research-specialists",
       "path": "skills/math-discrete-proof-transfer/SKILL.md"
     },
@@ -669,6 +669,46 @@
       "description": "复核两个显式有限简单图的 Weisfeiler–Leman 元组颜色，区分联合替换与分离多重集，或按 F2 线性系统核对有限图同态的奇偶提升。",
       "category": "methods",
       "path": "skills/math-l13-finite-graph-refinement/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l14-nonarchimedean-cover-descent",
+      "title": "L14 · 非阿基米德覆盖分支与环域单位根",
+      "description": "在完备代数闭非阿基米德域上，核对有限 étale Galois 覆盖在指定连通域的分支稳定子度数，并在素于残余特征的条件下传递环域单位的根；不用于断言全局覆盖存在。",
+      "category": "methods",
+      "path": "skills/math-l14-nonarchimedean-cover-descent/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l15-exact-unit-fraction-transforms",
+      "title": "L15 · 精确单位分数变换",
+      "description": "对严格介于 0 和 1 的有理数，精确去除单位分数重复项，或以有界贪心步骤把剩余分母推进到指定区间；不用于和等于 1 的展开。",
+      "category": "methods",
+      "path": "skills/math-l15-exact-unit-fraction-transforms/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l16-prime-sieve-certified-transfers",
+      "title": "L16 · 素数筛的认证转移",
+      "description": "审查或应用素数筛中的有限局部条件、尾部剔除、Kummer 完全分裂与加权区间到稠密度转移；显式保留条件性解析输入，不把分裂判别或有限算例写成素数密度定理。",
+      "category": "methods",
+      "path": "skills/math-l16-prime-sieve-certified-transfers/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l17-filtered-linear-algebra-certificates",
+      "title": "L17 · 首项基与共同降算子证书",
+      "description": "精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。",
+      "category": "methods",
+      "path": "skills/math-l17-filtered-linear-algebra-certificates/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l18-multiplicative-kernel-tensorization",
+      "title": "整数约化乘积的核估计",
+      "description": "用素数指数分解核验整数族的乘法 GCD 核估计；检查局部集中、Euler 乘积与临界指数。适用于含 LCM、GCD 或约化乘积的非负双序列估计。",
+      "category": "methods",
+      "path": "skills/math-l18-multiplicative-kernel-tensorization/SKILL.md",
       "family": "l"
     },
     {

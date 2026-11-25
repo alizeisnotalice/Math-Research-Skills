@@ -1,6 +1,6 @@
 ---
 name: math-discrete-proof-transfer
-description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。不要因同名 Fourier、稳定性或张量术语就迁移结论。
+description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。另用于周期图的有限连通分支与例外顶点预算。不要因同名 Fourier、稳定性或张量术语就迁移结论。
 ---
 
 # 离散与概率课题的论文迁移审计
@@ -25,3 +25,5 @@ description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边�
 若计数对象有多个算术见证，用 [同值见证的并集去重](references/totient-witness-unions.md) 核对共享阈值空间和跨前缀碰撞。
 
 构造特征二的显式有限域或核对一元商代数的乘法迹时，按[有限域扩张与一元乘法迹](references/finite-algebra-operations.md)保留域与判别条件。
+
+周期图逐分支控制用 [有限位移证书](references/periodic-component-bounds.md) 检查闭路位移和有限例外点。

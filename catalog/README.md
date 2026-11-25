@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 153 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 158 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -91,6 +91,11 @@
 | [math-l11-gaussian-projection-density](../skills/math-l11-gaussian-projection-density/SKILL.md) | 在精确 Gaussian 线性观测下建立或审查局部质量到投影密度、共同标签纤维与有限状态选择界。用于有限状态回归下界的局部几何步骤，不把预印本中的完整流式下界当作默认定理。 |
 | [math-l12-automata-relation-monoids](../skills/math-l12-automata-relation-monoids/SKILL.md) | 对有限自动机的局部计算接口、有限关系幺半群角限制同构与上下文分离做精确推导或审计；不用于直接断言一般状态下界。 |
 | [math-l13-finite-graph-refinement](../skills/math-l13-finite-graph-refinement/SKILL.md) | 复核两个显式有限简单图的 Weisfeiler–Leman 元组颜色，区分联合替换与分离多重集，或按 F2 线性系统核对有限图同态的奇偶提升。 |
+| [math-l14-nonarchimedean-cover-descent](../skills/math-l14-nonarchimedean-cover-descent/SKILL.md) | 在完备代数闭非阿基米德域上，核对有限 étale Galois 覆盖在指定连通域的分支稳定子度数，并在素于残余特征的条件下传递环域单位的根；不用于断言全局覆盖存在。 |
+| [math-l15-exact-unit-fraction-transforms](../skills/math-l15-exact-unit-fraction-transforms/SKILL.md) | 对严格介于 0 和 1 的有理数，精确去除单位分数重复项，或以有界贪心步骤把剩余分母推进到指定区间；不用于和等于 1 的展开。 |
+| [math-l16-prime-sieve-certified-transfers](../skills/math-l16-prime-sieve-certified-transfers/SKILL.md) | 审查或应用素数筛中的有限局部条件、尾部剔除、Kummer 完全分裂与加权区间到稠密度转移；显式保留条件性解析输入，不把分裂判别或有限算例写成素数密度定理。 |
+| [math-l17-filtered-linear-algebra-certificates](../skills/math-l17-filtered-linear-algebra-certificates/SKILL.md) | 精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。 |
+| [math-l18-multiplicative-kernel-tensorization](../skills/math-l18-multiplicative-kernel-tensorization/SKILL.md) | 用素数指数分解核验整数族的乘法 GCD 核估计；检查局部集中、Euler 乘积与临界指数。适用于含 LCM、GCD 或约化乘积的非负双序列估计。 |
 | [math-m01-convex-hull-extreme-points](../skills/math-m01-convex-hull-extreme-points/SKILL.md) | 用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。 |
 | [math-m02-separation-support-certificate](../skills/math-m02-separation-support-certificate/SKILL.md) | 构造 Hahn–Banach 分离或支撑函数证书，检查闭性、拓扑和分离方向。 |
 | [math-m03-near-extremizer-stability](../skills/math-m03-near-extremizer-stability/SKILL.md) | 分析近极值稳定性与刚性，核对亏损量、对称性、距离和紧性缺口。 |
@@ -114,7 +119,7 @@
 | --- | --- |
 | [euclidean-tensor-geometry](../skills/euclidean-tensor-geometry/SKILL.md) | Apply or audit OpenAI family 379 Euclidean tensor prices, Strassen spectral invariants, and common-placement network bounds in arithmetic complexity and combinatorics. 中文触发：欧几里得张量几何、张量价格、渐近谱、跨割下界。Do not use for generic tensor numerics or classical maximal operators without a proved model bridge. |
 | [math-centered-cube-endpoint-budget](../skills/math-centered-cube-endpoint-budget/SKILL.md) | Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima. |
-| [math-discrete-proof-transfer](../skills/math-discrete-proof-transfer/SKILL.md) | 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。不要因同名 Fourier、稳定性或张量术语就迁移结论。 |
+| [math-discrete-proof-transfer](../skills/math-discrete-proof-transfer/SKILL.md) | 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。另用于周期图的有限连通分支与例外顶点预算。不要因同名 Fourier、稳定性或张量术语就迁移结论。 |
 | [math-euler-constant-irrationality](../skills/math-euler-constant-irrationality/SKILL.md) | 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计 γ 的 Padé、多重正交、超几何、递推、整数线性形式、分母消去与 Sondow 型判据，也用于核对 E/G 函数、算术 Gevrey 与 Stokes 常数方法能否转移到 γ。 |
 | [math-gamma-meijer-cmf](../skills/math-gamma-meijer-cmf/SKILL.md) | 用 Kalisch 等的 Meijer G 保守矩阵场构造欧拉常数 γ 的 Apéry 型候选逼近。复跑已知三阶轨迹，核对对偶矩阵、CVM 换基、收敛判据和约分后的算术质量。 |
 | [math-gamma-multiple-laguerre-approximants](../skills/math-gamma-multiple-laguerre-approximants/SKILL.md) | 用 Wolfs–Van Assche 的混合型多重 Laguerre 显式有限和生成欧拉常数有理逼近，并审计算术整化、约分、余项和渐近障碍。 |

@@ -92,6 +92,11 @@
 - [math-l11-gaussian-projection-density](../../math-l11-gaussian-projection-density/SKILL.md)：在精确 Gaussian 线性观测下建立或审查局部质量到投影密度、共同标签纤维与有限状态选择界。用于有限状态回归下界的局部几何步骤，不把预印本中的完整流式下界当作默认定理。
 - [math-l12-automata-relation-monoids](../../math-l12-automata-relation-monoids/SKILL.md)：对有限自动机的局部计算接口、有限关系幺半群角限制同构与上下文分离做精确推导或审计；不用于直接断言一般状态下界。
 - [math-l13-finite-graph-refinement](../../math-l13-finite-graph-refinement/SKILL.md)：复核两个显式有限简单图的 Weisfeiler–Leman 元组颜色，区分联合替换与分离多重集，或按 F2 线性系统核对有限图同态的奇偶提升。
+- [math-l14-nonarchimedean-cover-descent](../../math-l14-nonarchimedean-cover-descent/SKILL.md)：在完备代数闭非阿基米德域上，核对有限 étale Galois 覆盖在指定连通域的分支稳定子度数，并在素于残余特征的条件下传递环域单位的根；不用于断言全局覆盖存在。
+- [math-l15-exact-unit-fraction-transforms](../../math-l15-exact-unit-fraction-transforms/SKILL.md)：对严格介于 0 和 1 的有理数，精确去除单位分数重复项，或以有界贪心步骤把剩余分母推进到指定区间；不用于和等于 1 的展开。
+- [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md)：审查或应用素数筛中的有限局部条件、尾部剔除、Kummer 完全分裂与加权区间到稠密度转移；显式保留条件性解析输入，不把分裂判别或有限算例写成素数密度定理。
+- [math-l17-filtered-linear-algebra-certificates](../../math-l17-filtered-linear-algebra-certificates/SKILL.md)：精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。
+- [math-l18-multiplicative-kernel-tensorization](../../math-l18-multiplicative-kernel-tensorization/SKILL.md)：用素数指数分解核验整数族的乘法 GCD 核估计；检查局部集中、Euler 乘积与临界指数。适用于含 LCM、GCD 或约化乘积的非负双序列估计。
 ## M · 凸性、极点与选择
 
 - [math-m01-convex-hull-extreme-points](../../math-m01-convex-hull-extreme-points/SKILL.md)：用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。
