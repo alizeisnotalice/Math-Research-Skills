@@ -18,7 +18,7 @@
     "collaboration": 1,
     "research-specialists": 8,
     "tools": 8,
-    "methods": 99,
+    "methods": 100,
     "modeling": 3,
     "orchestration": 1,
     "probability": 41
@@ -773,6 +773,14 @@
       "description": "用二进尺度求和把有限无等差数列密度界转为加权界，或用已验证的循环着色构造长区间无单色等差数列的证书。",
       "category": "methods",
       "path": "skills/math-l22-arithmetic-progression-certificates/SKILL.md",
+      "family": "l"
+    },
+    {
+      "name": "math-l23-packed-nonnegative-recurrences",
+      "title": "非负整数递推的定宽打包",
+      "description": "核验用单个自然数的定宽数位计算非负整数递推。用于移位叠加、模截断、分拆表及逐字段进位检查。",
+      "category": "methods",
+      "path": "skills/math-l23-packed-nonnegative-recurrences/SKILL.md",
       "family": "l"
     },
     {

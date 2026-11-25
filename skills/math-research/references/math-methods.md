@@ -105,6 +105,7 @@
 - [math-l20-binary-character-congruences](../../math-l20-binary-character-congruences/SKILL.md)：在有限初等二群角色族中寻找与零顶点同余的非零顶点。适用于 2-adic 群环求值和有限个指定系数的精确匹配，要求核验二进制维数、精度和测试数。
 - [math-l21-local-to-global-lattice-certificates](../../math-l21-local-to-global-lattice-certificates/SKILL.md)：用有限商模的主分解拼接指定局部整格，并核对乘子阶、最大阶饱和与局部单位陪集。适用于数域中的 order-ideal 或局部格计数。
 - [math-l22-arithmetic-progression-certificates](../../math-l22-arithmetic-progression-certificates/SKILL.md)：用二进尺度求和把有限无等差数列密度界转为加权界，或用已验证的循环着色构造长区间无单色等差数列的证书。
+- [math-l23-packed-nonnegative-recurrences](../../math-l23-packed-nonnegative-recurrences/SKILL.md)：核验用单个自然数的定宽数位计算非负整数递推。用于移位叠加、模截断、分拆表及逐字段进位检查。
 ## M · 凸性、极点与选择
 
 - [math-m01-convex-hull-extreme-points](../../math-m01-convex-hull-extreme-points/SKILL.md)：用仿射相关消元压缩有限凸组合，用 Krein–Milman 定位紧凸集的极点闭凸包；核对拓扑、紧性与表示类型。
