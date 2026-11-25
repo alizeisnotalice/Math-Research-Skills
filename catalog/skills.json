@@ -18,7 +18,7 @@
     "collaboration": 1,
     "research-specialists": 8,
     "tools": 8,
-    "methods": 67,
+    "methods": 71,
     "modeling": 3,
     "orchestration": 1,
     "probability": 41
@@ -625,8 +625,8 @@
     },
     {
       "name": "math-m05-cut-metric-construction",
-      "title": "M05 · 有限 cut-metric 构造",
-      "description": "在有限树分解上拼接一致二元 cut law，或审查嵌套 cut 坐标图，核对边缘、零质量、重参数化与局部 L1 度量公式。",
+      "title": "M05 · 有限 cut 与 Lp 度量构造",
+      "description": "在有限树分解上拼接二元 cut law，构造嵌套 cut 坐标图，或把有限 Lp 度量精确离散到有限坐标，核对边缘、零质量、重参数化与距离公式。",
       "category": "methods",
       "path": "skills/math-m05-cut-metric-construction/SKILL.md",
       "family": "m"
@@ -698,6 +698,38 @@
       "description": "审查投影体的未极化体积泛函、凸多面体的直积恒等式与一阶变分测度。适用于构造或核对投影体体积比、单纯形比较及椭球下界接口。",
       "category": "methods",
       "path": "skills/math-n06-projection-body-volume/SKILL.md",
+      "family": "n"
+    },
+    {
+      "name": "math-n07-pair-energy-fourier-bounds",
+      "title": "N07 · Fourier pair-energy lower bounds",
+      "description": "Derive lower bounds for planar pair energies from Fourier-positive Schwartz minorants and transfer all Gaussian bounds to nonnegative completely monotone potentials. Use for locally finite configurations with centered disk density, including singular potentials and extended energies.",
+      "category": "methods",
+      "path": "skills/math-n07-pair-energy-fourier-bounds/SKILL.md",
+      "family": "n"
+    },
+    {
+      "name": "math-n08-ruled-cylinder-finite-approximation",
+      "title": "N08 · 受控线段扫掠的有限柱面逼近",
+      "description": "将带迹零、非椭圆横向微分的三维线段扫掠转成有限柱面覆盖，并核对垂直底面积。适用于有限化可变方向线段族，不用于一般柱面覆盖猜想或任意速度场。",
+      "category": "methods",
+      "path": "skills/math-n08-ruled-cylinder-finite-approximation/SKILL.md",
+      "family": "n"
+    },
+    {
+      "name": "math-n09-soft-slab-variance",
+      "title": "N09 · 软 slab 势的矩坐标方差",
+      "description": "对偶次线性形式的强凸软 slab 势构造或审查方差界。核对矩坐标证书、逐项 Hessian 正性与张量估计，输出可用于参数对数凹性的有限维方差结论。",
+      "category": "methods",
+      "path": "skills/math-n09-soft-slab-variance/SKILL.md",
+      "family": "n"
+    },
+    {
+      "name": "math-n10-dirichlet-slab-energy",
+      "title": "N10 · Dirichlet 条带能量",
+      "description": "用中心高斯路径相关估算凸域加入多条带约束的 Dirichlet 本征值代价，并由所有对角权重的界构造同一个逐坐标能量见证。",
+      "category": "methods",
+      "path": "skills/math-n10-dirichlet-slab-energy/SKILL.md",
       "family": "n"
     },
     {

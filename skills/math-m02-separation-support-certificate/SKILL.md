@@ -29,6 +29,8 @@ description: 构造 Hahn–Banach 分离或支撑函数证书，检查闭性、�
 
 涉及极体、直和凸体或 Hanner 候选族时，按[支撑函数与直和体积积](references/polar-sum-volume.md)核对固定原点、对偶坐标、直积与凸包两种构造。
 
+遇到平移极体的锥 Laplace 归约，或需将原点对称凸体有限条带化时，读[平移极体的锥归约与有限条带逼近](references/polar-cone-and-approximation.md)。先区分 Santaló 中心的平移最小化与原点对称假设，再选择相应公式。
+
 ## 证据与失败处理
 
 支撑超平面可能与集合接触而不能严格分离外点；无限维空间中泛函连续性和闭性假设不可省略。

@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 138 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 142 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -85,13 +85,17 @@
 | [math-m02-separation-support-certificate](../skills/math-m02-separation-support-certificate/SKILL.md) | 构造 Hahn–Banach 分离或支撑函数证书，检查闭性、拓扑和分离方向。 |
 | [math-m03-near-extremizer-stability](../skills/math-m03-near-extremizer-stability/SKILL.md) | 分析近极值稳定性与刚性，核对亏损量、对称性、距离和紧性缺口。 |
 | [math-m04-measurable-supremum-selection](../skills/math-m04-measurable-supremum-selection/SKILL.md) | 处理可测上确界、解析投影和可测选择，核对参数空间、可测性及选择器范围。 |
-| [math-m05-cut-metric-construction](../skills/math-m05-cut-metric-construction/SKILL.md) | 在有限树分解上拼接一致二元 cut law，或审查嵌套 cut 坐标图，核对边缘、零质量、重参数化与局部 L1 度量公式。 |
+| [math-m05-cut-metric-construction](../skills/math-m05-cut-metric-construction/SKILL.md) | 在有限树分解上拼接二元 cut law，构造嵌套 cut 坐标图，或把有限 Lp 度量精确离散到有限坐标，核对边缘、零质量、重参数化与距离公式。 |
 | [math-n01-john-loewner-ellipsoid](../skills/math-n01-john-loewner-ellipsoid/SKILL.md) | 使用 John 或 Löwner 椭球与容量方法，核对凸体假设、归一化和常数依赖。 |
 | [math-n02-log-concave-marginal-inequalities](../skills/math-n02-log-concave-marginal-inequalities/SKILL.md) | 核验 Prékopa–Leindler、BBL 与对数凹边际不等式，检查指数、积分和等号条件。 |
 | [math-n03-oscillation-and-geometric-remainder](../skills/math-n03-oscillation-and-geometric-remainder/SKILL.md) | 分析 van der Corput、半密度与振荡抵消的几何余项，核对相位和一致参数范围。 |
 | [math-n04-summable-error-entropy-descent](../skills/math-n04-summable-error-entropy-descent/SKILL.md) | 组织可求和误差与熵递减论证，检查逐层预算、收敛传递和累计误差。 |
 | [math-n05-translative-covering-density](../skills/math-n05-translative-covering-density/SKILL.md) | 用带缓冲的窗口周期化研究凸体平移覆盖密度。适用于从有限基本域证明覆盖上界、从所有有限余类的排除推出下界，以及核对重叠计数、余类去重和单格点阵的同步剪切与补全。 |
 | [math-n06-projection-body-volume](../skills/math-n06-projection-body-volume/SKILL.md) | 审查投影体的未极化体积泛函、凸多面体的直积恒等式与一阶变分测度。适用于构造或核对投影体体积比、单纯形比较及椭球下界接口。 |
+| [math-n07-pair-energy-fourier-bounds](../skills/math-n07-pair-energy-fourier-bounds/SKILL.md) | Derive lower bounds for planar pair energies from Fourier-positive Schwartz minorants and transfer all Gaussian bounds to nonnegative completely monotone potentials. Use for locally finite configurations with centered disk density, including singular potentials and extended energies. |
+| [math-n08-ruled-cylinder-finite-approximation](../skills/math-n08-ruled-cylinder-finite-approximation/SKILL.md) | 将带迹零、非椭圆横向微分的三维线段扫掠转成有限柱面覆盖，并核对垂直底面积。适用于有限化可变方向线段族，不用于一般柱面覆盖猜想或任意速度场。 |
+| [math-n09-soft-slab-variance](../skills/math-n09-soft-slab-variance/SKILL.md) | 对偶次线性形式的强凸软 slab 势构造或审查方差界。核对矩坐标证书、逐项 Hessian 正性与张量估计，输出可用于参数对数凹性的有限维方差结论。 |
+| [math-n10-dirichlet-slab-energy](../skills/math-n10-dirichlet-slab-energy/SKILL.md) | 用中心高斯路径相关估算凸域加入多条带约束的 Dirichlet 本征值代价，并由所有对角权重的界构造同一个逐坐标能量见证。 |
 
 ## 专项研究核验
 

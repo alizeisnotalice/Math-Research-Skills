@@ -5697,8 +5697,8 @@
     },
     {
       "path": "skills/math-m01-convex-hull-extreme-points/SKILL.md",
-      "sha256": "eb0c20145d1571565e477d5a3242ffbc7fc6dd2e5bfa2a9e5efdfe9695e4f90f",
-      "bytes": 1339,
+      "sha256": "d4f5cd5d08fba641c8d13bcddfafa9e64ba522d39cc4b3980805567c2357684d",
+      "bytes": 1515,
       "mode": 420
     },
     {
@@ -5735,6 +5735,12 @@
       "path": "skills/math-m01-convex-hull-extreme-points/references/cube-interface.md",
       "sha256": "ba6bb394119357e03a692bfd8ed40e15a91105d060a00741e451da60863744c2",
       "bytes": 659,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m01-convex-hull-extreme-points/references/gram-laplacian.md",
+      "sha256": "cc3616d4537add2dc1158bba6ce198222e67ee507d363bcd92d61bfb727d71c0",
+      "bytes": 1694,
       "mode": 420
     },
     {
@@ -5781,8 +5787,8 @@
     },
     {
       "path": "skills/math-m02-separation-support-certificate/SKILL.md",
-      "sha256": "b714a4140f1154a0894f20c1f06cd99f454e579baa7cd2461bae2f3e59d4bb95",
-      "bytes": 3197,
+      "sha256": "25b1e8fdcff26629af03dc34f6e580a13fec308fb8097f9ddfa01dac0dc572b9",
+      "bytes": 3477,
       "mode": 420
     },
     {
@@ -5831,6 +5837,12 @@
       "path": "skills/math-m02-separation-support-certificate/references/papers/LN-P-e5fa7cd5c5cb5db8.json",
       "sha256": "fa3ae0de46d6925f8ca860cd462f2a95a6923d42616b5086190a386934df3946",
       "bytes": 10703,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m02-separation-support-certificate/references/polar-cone-and-approximation.md",
+      "sha256": "52b9cbaf69defb811e1aaa4528f7045852478c8f60258790fa57e4b2a8b000be",
+      "bytes": 5071,
       "mode": 420
     },
     {
@@ -6093,8 +6105,14 @@
     },
     {
       "path": "skills/math-m05-cut-metric-construction/SKILL.md",
-      "sha256": "634fac74c8b2c9d7ecb081744ade1275035f773f848ab840d27efad244c71d8e",
-      "bytes": 4175,
+      "sha256": "9c93911a5016612140e4919c3bedc3491a2812f4e57ac66c901b30bac4fcbfda",
+      "bytes": 4820,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-m05-cut-metric-construction/references/lp-discretization.md",
+      "sha256": "3c779a9a4e19e9fccb9f520a1f4653d104b0b7143ee2e4fcacbd72f17cdc273b",
+      "bytes": 2775,
       "mode": 420
     },
     {
@@ -6686,9 +6704,81 @@
       "mode": 420
     },
     {
+      "path": "skills/math-n07-pair-energy-fourier-bounds/SKILL.md",
+      "sha256": "3adace79980f156520400faef39a0d22cdd2d493455d7b67eefe714ef8c929ca",
+      "bytes": 2229,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n07-pair-energy-fourier-bounds/references/density-and-mixtures.md",
+      "sha256": "76f6a22124a92fef15225e7b5918db7c13311d768a61d36cb643be72ceeefdcc",
+      "bytes": 5414,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n08-ruled-cylinder-finite-approximation/SKILL.md",
+      "sha256": "620f729f03d4079ec6ce1b4b58e98cc10aec80630d02ae59339e02daf57ef833",
+      "bytes": 1930,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n08-ruled-cylinder-finite-approximation/references/application-boundaries.md",
+      "sha256": "de75fd1b8b9090662e1f658bf39c41d275075e3089cdcf408efad17aeca4c0f8",
+      "bytes": 2550,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n08-ruled-cylinder-finite-approximation/references/frozen-square-tiling.md",
+      "sha256": "aa99687fa137e7ce66402418f2cd3ee2830c9259d9c6ec04ea206a3d8c24926f",
+      "bytes": 2930,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n08-ruled-cylinder-finite-approximation/references/radial-alignment.md",
+      "sha256": "742e8de75ea410261575d66399b30f32ab1757f1574e4aed6aa09d0d434297e7",
+      "bytes": 2276,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n09-soft-slab-variance/SKILL.md",
+      "sha256": "e12eda7a609c5b9eadf4130bf8ac24917af310dd82229bf9607741d5f9342359",
+      "bytes": 2373,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n09-soft-slab-variance/references/moment-coordinate-certificate.md",
+      "sha256": "135d295050080c262e6f20069885e2ad811f0b25358563117b276a6e89188483",
+      "bytes": 3760,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n09-soft-slab-variance/references/tensor-variance-proof.md",
+      "sha256": "2b62743264a53c54576f9e889943a92db7640faa7d81a435ec404199b4867a93",
+      "bytes": 2669,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n10-dirichlet-slab-energy/SKILL.md",
+      "sha256": "d51b50090de1b255a99eb3707934e9392bd6aa7ce18072f901beb7a1982d060a",
+      "bytes": 771,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n10-dirichlet-slab-energy/references/dirichlet-energy.md",
+      "sha256": "cde53fb9a2430e0ffced53bf1f46435de8e40a198054bb9346c4e8be88a75f3d",
+      "bytes": 3464,
+      "mode": 420
+    },
+    {
       "path": "skills/math-openai-arithmetic-determinants/SKILL.md",
-      "sha256": "7577b23ba2fbe647d576219f37754a07a257e94ff557942fcdd1d685b7b54d50",
-      "bytes": 1871,
+      "sha256": "4ba11eec3996e951cf1c55f7c8cc57c39efb2838e6ece3d2e66da93923038843",
+      "bytes": 2066,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-openai-arithmetic-determinants/references/catalan-growing-blocks.md",
+      "sha256": "186dbbca2fb6b5be838489a3fb733f699c87ed520f4eed77a0bb047ed14c8b40",
+      "bytes": 4309,
       "mode": 420
     },
     {
@@ -6795,14 +6885,14 @@
     },
     {
       "path": "skills/math-research/references/math-methods.md",
-      "sha256": "618dd526ae8f5a10bdb734f81c15dc20f318747e07226f2262efd18b5976647b",
-      "bytes": 14470,
+      "sha256": "d3052aa9552945503544d482228c4ffb71bc1598e17585377d6846fd9c1c10bb",
+      "bytes": 15719,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/method-selection.md",
-      "sha256": "10590a6ead0de5e8342740350c00a5a18e6bfbd72956f1aa1aee8532ecc41aa6",
-      "bytes": 2478,
+      "sha256": "2a59e418b21a2f0fe36cbeb9dcc4c1e402d34a7a90fef87c5d7102c2259c427e",
+      "bytes": 2800,
       "mode": 420
     },
     {
@@ -10131,8 +10221,8 @@
     },
     {
       "path": "skills/probability-logconcave-moment-geometry/SKILL.md",
-      "sha256": "ed5a22f0caaafd786e79b3270e631dff849ffaf40e4f9ff08b5ca94367e157c5",
-      "bytes": 3377,
+      "sha256": "b645db678a4617a160dc9fa4e89b2e1412ebaa5722f9d9b980debd1d0b4697b1",
+      "bytes": 3765,
       "mode": 420
     },
     {
@@ -10385,6 +10475,12 @@
       "path": "skills/probability-logconcave-moment-geometry/examples/positive.md",
       "sha256": "9329330d1a3c4c7ac564cec02a86ea06d567644d429763d34ebc17ee6b790d1e",
       "bytes": 1149,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-logconcave-moment-geometry/references/curvature-and-cone-transfer.md",
+      "sha256": "e0512c9dfeee92bd10ff6490a223dfd09e9d0913f5d1ad5799252aacbaf90437",
+      "bytes": 4608,
       "mode": 420
     },
     {
