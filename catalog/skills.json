@@ -5,6 +5,7 @@
     "orchestration": "研究总入口",
     "tools": "计算与绘图工具",
     "methods": "数学方法（A–N）",
+    "research-specialists": "专项研究核验",
     "probability": "概率研究专题",
     "literature": "文献检索与获取",
     "writing": "论文写作、翻译与表达",
@@ -15,6 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
+    "research-specialists": 3,
     "tools": 8,
     "methods": 64,
     "modeling": 3,
@@ -63,6 +65,13 @@
       "description": "在中国知网（CNKI）上检索学术论文并导出参考文献。Use when Codex needs to find CNKI papers, search Chinese academic literature, retrieve paper metadata/details/references, or produce GB/T 7714-style citations from queries mentioning 知网, CNKI, 中国知网, 文献检索, 论文搜索, 参考文献, 期刊论文, 学位论文, or 会议论文.",
       "category": "literature",
       "path": "skills/cnki-search/SKILL.md"
+    },
+    {
+      "name": "euclidean-tensor-geometry",
+      "title": "欧几里得张量几何",
+      "description": "Apply or audit OpenAI family 379 Euclidean tensor prices, Strassen spectral invariants, and common-placement network bounds in arithmetic complexity and combinatorics. 中文触发：欧几里得张量几何、张量价格、渐近谱、跨割下界。Do not use for generic tensor numerics or classical maximal operators without a proved model bridge.",
+      "category": "research-specialists",
+      "path": "skills/euclidean-tensor-geometry/SKILL.md"
     },
     {
       "name": "ipad-math-node",
@@ -190,6 +199,13 @@
       "family": "c"
     },
     {
+      "name": "math-centered-cube-endpoint-budget",
+      "title": "中心立方体极大算子的弱端点工具",
+      "description": "Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima.",
+      "category": "research-specialists",
+      "path": "skills/math-centered-cube-endpoint-budget/SKILL.md"
+    },
+    {
       "name": "math-d01-kantorovich-duality",
       "title": "D01 · Kantorovich 输运对偶",
       "description": "核验 Kantorovich 输运对偶及势函数，检查代价、可积性和原始对偶可行性。",
@@ -220,6 +236,13 @@
       "category": "methods",
       "path": "skills/math-d04-entropy-chain-rule/SKILL.md",
       "family": "d"
+    },
+    {
+      "name": "math-discrete-proof-transfer",
+      "title": "离散与概率课题的论文迁移审计",
+      "description": "为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。不要因同名 Fourier、稳定性或张量术语就迁移结论。",
+      "category": "research-specialists",
+      "path": "skills/math-discrete-proof-transfer/SKILL.md"
     },
     {
       "name": "math-e01-occupation-measure-flow-lp",
@@ -456,7 +479,7 @@
     {
       "name": "math-j05-frozen-coordinate-iterated-compensation-interface",
       "title": "J05 · 非齐次跳跃的冻结坐标与迭代补偿接口",
-      "description": "审查非齐次跳跃中的冻结坐标与迭代补偿，核对条件结构、标签和合法换序。",
+      "description": "审查用户明确提供项目契约的非齐次跳跃冻结坐标与迭代补偿，核对条件结构、标签和合法换序。通用补偿公式使用跳事件补偿技能。",
       "category": "methods",
       "path": "skills/math-j05-frozen-coordinate-iterated-compensation-interface/SKILL.md",
       "family": "j"

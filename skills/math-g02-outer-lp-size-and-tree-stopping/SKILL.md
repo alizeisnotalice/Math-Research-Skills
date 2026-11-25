@@ -24,7 +24,7 @@ description: 使用外测度 Lp、大小函数和树停止方法，核对外测�
 4. P-c0cdd27d39fd5e63 Theorem4.1在其R×(0,∞) tents与指定核/size下强型1<p≤∞；square size另需均值零等条件。
 5. 其Theorem5.1的相位空间strong p>2、p=2仅weak，参数0<|α|≤1、|β|≤0.9、b≤2^{-8}及Fourier支持须匹配；常数允许依赖α,β,b,φ,p。
 6. 外对偶、插值和配对依据具体size定理；不套普通Lp对偶，也不从参数依赖界推参数一致性。
-7. 新增全文P-eb102a6795f6ce4e的Theorem1.3限σ-finite (X,μ,ω)、μ-null⇒ω-null及标准ellr size：p>a用sup局部La,q刻画，p≤a须sup-inf且B⊂A满足μ(A\B)≤μ(A)/2；参数常数C(a,p,q,r)不宣称端点一致。
+7. Fraccaroli 的 [正式发表版](https://nyjm.albany.edu/j/2026/32-14.html)（New York J. Math. 32, 2026, 321–348）Theorem 1.3限σ-finite (X,μ,ω)、μ-null⇒ω-null及标准ellr size：p>a用sup局部La,q刻画，p≤a须sup-inf且B⊂A满足μ(A\B)≤μ(A)/2；参数常数C(a,p,q,r)不宣称端点一致。
 8. 不能把被删部分条件换成μ(B)≥μ(A)/2：已检查有限μ(nonempty)=1、ω计数、f=1、r=2、q∞时，真weaknorm和正确K′均sqrt(m)，错误K″=1；比值无界。
 9. 同源Theorem2.1对一般size须p有限且p>a并保分割常数K；p∞推广另需Remark4.3的size–mass不等式。新源原定理为sourceclaim，有限反例是checkedderivation，中心立方体接口仅推断。
 10. 新全文P-aaa03e027f21d631的finite outerellr统一对偶限1<p≤∞、1≤r<∞或p=r=1/∞；p1,r>1有树反例非一致。指定R^d半空间box费用、ω=t^−1的对偶范围才完整1≤p,r≤∞，tent等价另保几何与维数常数。
@@ -37,8 +37,8 @@ description: 使用外测度 Lp、大小函数和树停止方法，核对外测�
 
 复用 P-e8f8d143f231a4b3 前，必须先读 [有效来源合同与函数空间纠正](references/source-contract-P-e8f8.md)，再按 active 来源卡核条件；不得用历史 little Bloch 误名替代原文 B˚={f∈B:f(0)=0}。
 
-先读 [来源与阅读状态](references/provenance.md)。只有实际阅读并核对的定理才能作为文献结论引用；候选题录及自动转换不证明其适用。
-需要完整数学步骤时读 [方法说明](references/method.md)；涉及当前课题时读 [课题接口](references/cube-interface.md)。
+引用定理前按 [来源与阅读状态](references/provenance.md) 定位版本和证据。只有预印本支持的陈述须核对实际依赖的结论、证明步骤和假设。来源或适用范围未核实时，保留已独立推导的部分，并将相应陈述留作研究线索。
+需要完整步骤时读 [方法说明](references/method.md)。只有当前请求明确涉及对应的中心立方体研究任务时，才使用 [历史课题接口](references/cube-interface.md)，并先复核当前问题与该接口的假设。
 遇到定义缺失、条件不满足或来源未核验，指出具体缺项，保留可证明的弱结论。不得将迁移推断写成原文定理。
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 

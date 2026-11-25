@@ -28,7 +28,7 @@ description: 审查共同选择的混合整数模型与非前视约束，检查�
 
 先读 [来源与阅读状态](references/provenance.md) 与 [逐项复核日志](references/verification-log-20261007.md)。P-56 的本地全文/页码映射和 `AD-P-56e47d0d5a099c44.json` 阅读卡位于交付包 `evidence/`；卡片绑定原文与提取缓存 SHA。只有实际阅读并核对的定理才能作为文献结论引用；候选题录及自动转换不证明其适用。
 本地或已安装 Skill 需要访问这些来源时，按 [便携来源解析说明](references/source-access.md) 通过 `EVIDENCE_ROOT`（交付包根目录）或用户登记的 root ID 调用校验器；不要依赖 Skill 目录外的相对路径。
-需要完整数学步骤时读 [方法说明](references/method.md)；涉及当前课题时读 [课题接口](references/cube-interface.md)。
+需要完整步骤时读 [方法说明](references/method.md)。只有当前请求明确涉及对应的中心立方体研究任务时，才使用 [历史课题接口](references/cube-interface.md)，并先复核当前问题与该接口的假设。
 遇到定义缺失、条件不满足或来源未核验，指出具体缺项，保留可证明的弱结论。不得将迁移推断写成原文定理。
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 

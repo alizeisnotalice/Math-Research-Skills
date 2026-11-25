@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 112 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 115 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -70,7 +70,7 @@
 | [math-j02-killed-process-duhamel-first-jump](../skills/math-j02-killed-process-duhamel-first-jump/SKILL.md) | 使用杀死过程、Duhamel 或首次跳跃标签分解，核对杀死项和边界结算。 |
 | [math-j03-nonlocal-balayage-exit-measure](../skills/math-j03-nonlocal-balayage-exit-measure/SKILL.md) | 分析非局部 balayage 与退出测度，核对退出规则、调和条件和核表示。 |
 | [math-j04-jump-compensation-fubini-exit-settlement](../skills/math-j04-jump-compensation-fubini-exit-settlement/SKILL.md) | 核验跳跃补偿、随机 Fubini 与退出财富结算，检查可积性及停止边界项。 |
-| [math-j05-frozen-coordinate-iterated-compensation-interface](../skills/math-j05-frozen-coordinate-iterated-compensation-interface/SKILL.md) | 审查非齐次跳跃中的冻结坐标与迭代补偿，核对条件结构、标签和合法换序。 |
+| [math-j05-frozen-coordinate-iterated-compensation-interface](../skills/math-j05-frozen-coordinate-iterated-compensation-interface/SKILL.md) | 审查用户明确提供项目契约的非齐次跳跃冻结坐标与迭代补偿，核对条件结构、标签和合法换序。通用补偿公式使用跳事件补偿技能。 |
 | [math-k01-chan-lai-asymptotically-gaussian-fields](../skills/math-k01-chan-lai-asymptotically-gaussian-fields/SKILL.md) | 核验 Chan–Lai 渐近高斯场方法，检查局部协方差、尾近似和一致性条件。 |
 | [math-k02-pickands-piterbarg-double-sum](../skills/math-k02-pickands-piterbarg-double-sum/SKILL.md) | 使用 Pickands–Piterbarg 双重求和分析极值尾，核对局部结构、重叠项和余项。 |
 | [math-k03-dirksen-mixed-tail-generic-chaining](../skills/math-k03-dirksen-mixed-tail-generic-chaining/SKILL.md) | 应用 Dirksen 混合尾泛链界，检查增量尾、半度量、熵或泛链泛函。 |
@@ -89,6 +89,14 @@
 | [math-n02-log-concave-marginal-inequalities](../skills/math-n02-log-concave-marginal-inequalities/SKILL.md) | 核验 Prékopa–Leindler、BBL 与对数凹边际不等式，检查指数、积分和等号条件。 |
 | [math-n03-oscillation-and-geometric-remainder](../skills/math-n03-oscillation-and-geometric-remainder/SKILL.md) | 分析 van der Corput、半密度与振荡抵消的几何余项，核对相位和一致参数范围。 |
 | [math-n04-summable-error-entropy-descent](../skills/math-n04-summable-error-entropy-descent/SKILL.md) | 组织可求和误差与熵递减论证，检查逐层预算、收敛传递和累计误差。 |
+
+## 专项研究核验
+
+| 技能 | 用途 |
+| --- | --- |
+| [euclidean-tensor-geometry](../skills/euclidean-tensor-geometry/SKILL.md) | Apply or audit OpenAI family 379 Euclidean tensor prices, Strassen spectral invariants, and common-placement network bounds in arithmetic complexity and combinatorics. 中文触发：欧几里得张量几何、张量价格、渐近谱、跨割下界。Do not use for generic tensor numerics or classical maximal operators without a proved model bridge. |
+| [math-centered-cube-endpoint-budget](../skills/math-centered-cube-endpoint-budget/SKILL.md) | Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima. |
+| [math-discrete-proof-transfer](../skills/math-discrete-proof-transfer/SKILL.md) | 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。不要因同名 Fourier、稳定性或张量术语就迁移结论。 |
 
 ## 概率研究专题
 

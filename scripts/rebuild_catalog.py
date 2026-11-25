@@ -19,7 +19,7 @@ RUNTIME_SKILLS = {
     ],
 }
 LABELS = {'orchestration':'研究总入口','tools':'计算与绘图工具','methods':'数学方法（A–N）',
-          'probability':'概率研究专题','literature':'文献检索与获取','writing':'论文写作、翻译与表达',
+          'research-specialists':'专项研究核验','probability':'概率研究专题','literature':'文献检索与获取','writing':'论文写作、翻译与表达',
           'modeling':'数学建模竞赛','collaboration':'指定模型咨询'}
 FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交换','c':'锥规划、SOS 与全局优化',
             'd':'输运、熵与自由能','e':'占用测度、Bellman 与停止','f':'Fourier、谱与平方函数',
@@ -31,6 +31,8 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
 def category(name):
     if name == 'math-research': return 'orchestration'
     if re.match(r'math-[a-n]\d\d-',name): return 'methods'
+    if name in {'math-centered-cube-endpoint-budget','math-discrete-proof-transfer','euclidean-tensor-geometry'}:
+        return 'research-specialists'
     if name.startswith('probability-'): return 'probability'
     if name.startswith('math-modeling-'): return 'modeling'
     if name in {'math-tool-router','local-hybrid-math','python-math','mathematica-math','mathematica-research','matlab-plotting','remote-math-compute','ipad-math-node'}: return 'tools'

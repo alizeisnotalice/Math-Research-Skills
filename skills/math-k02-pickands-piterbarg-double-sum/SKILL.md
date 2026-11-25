@@ -27,8 +27,8 @@ description: 使用 Pickands–Piterbarg 双重求和分析极值尾，核对局
 
 常数取决于局部相关、方差峰和索引维度；单块渐近不能在无联合界时直接乘块数。 Michna首个完整double-sum来源的局部条件极限需uniform entropy/Borell domination，不能省固定域依赖；远距相关隙应在紧区间[ε/4,p]取min，不能用全半轴inf。Theorem1的Hα显式下界只有外引证明；作者整体证明的中距uniform量词尚未独立补齐。
 
-先读 [来源与阅读状态](references/provenance.md)。只有实际阅读并核对的定理才能作为文献结论引用；候选题录及自动转换不证明其适用。
-需要完整数学步骤时读 [方法说明](references/method.md)；涉及当前课题时读 [课题接口](references/cube-interface.md)。
+引用定理前按 [来源与阅读状态](references/provenance.md) 定位版本和证据。只有预印本支持的陈述须核对实际依赖的结论、证明步骤和假设。来源或适用范围未核实时，保留已独立推导的部分，并将相应陈述留作研究线索。
+需要完整步骤时读 [方法说明](references/method.md)。只有当前请求明确涉及对应的中心立方体研究任务时，才使用 [历史课题接口](references/cube-interface.md)，并先复核当前问题与该接口的假设。
 遇到定义缺失、条件不满足或来源未核验，指出具体缺项，保留可证明的弱结论。不得将迁移推断写成原文定理。
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 

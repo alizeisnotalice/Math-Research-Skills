@@ -28,8 +28,8 @@ description: 选择和核验 Chernoff、Hoeffding、Bernstein 尾界，检查独
 
 界的适用结构和范围/矩母函数假设不能省略；优化参数超出 mgf 定义域无效。 Har-Peled P-c918dd6c7cd3df44只自含证明6M独立faircoins的P(≤M)≤2^−M，QuickSort3/4条件收缩仅remark未细证。Hertz有效部分是单向mgf和Eq23，打印的归一化尾公式不能直接用。
 
-先读 [来源与阅读状态](references/provenance.md)。只有实际阅读并核对的定理才能作为文献结论引用；候选题录及自动转换不证明其适用。
-需要完整数学步骤时读 [方法说明](references/method.md)；涉及当前课题时读 [课题接口](references/cube-interface.md)。
+引用定理前按 [来源与阅读状态](references/provenance.md) 定位版本和证据。只有预印本支持的陈述须核对实际依赖的结论、证明步骤和假设。来源或适用范围未核实时，保留已独立推导的部分，并将相应陈述留作研究线索。
+需要完整步骤时读 [方法说明](references/method.md)。只有当前请求明确涉及对应的中心立方体研究任务时，才使用 [历史课题接口](references/cube-interface.md)，并先复核当前问题与该接口的假设。
 遇到定义缺失、条件不满足或来源未核验，指出具体缺项，保留可证明的弱结论。不得将迁移推断写成原文定理。
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 

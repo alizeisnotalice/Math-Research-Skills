@@ -26,6 +26,10 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | 数学建模竞赛的审计、排版或提交包 | 分别用 `math-modeling-audit`、`math-modeling-paper`、`math-modeling-delivery` |
 | 明确要求 Astra 协助 | `astra-delegate`；不从普通数学请求推导自动委派 |
 
+跨方法重叠时读 [重叠方法与证据选择](references/method-selection.md)。
+
+中心立方体端点、离散迁移和张量专题在用户明确提出对应研究对象时分别使用 math-centered-cube-endpoint-budget、math-discrete-proof-transfer 和 euclidean-tensor-geometry。项目结论及预印本迁移按当前证据核查。
+
 以上名称都在本机已安装技能中查找，或在仓库 `skills/<name>/SKILL.md` 中读取。相关技能没安装时先使用现有能力继续可独立的工作，报告缺少的具体依赖；不把名称当作已经执行的工具。
 
 ## 执行与核验

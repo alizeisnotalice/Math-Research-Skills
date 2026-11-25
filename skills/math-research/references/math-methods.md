@@ -67,7 +67,7 @@
 - [math-j02-killed-process-duhamel-first-jump](../../math-j02-killed-process-duhamel-first-jump/SKILL.md)：使用杀死过程、Duhamel 或首次跳跃标签分解，核对杀死项和边界结算。
 - [math-j03-nonlocal-balayage-exit-measure](../../math-j03-nonlocal-balayage-exit-measure/SKILL.md)：分析非局部 balayage 与退出测度，核对退出规则、调和条件和核表示。
 - [math-j04-jump-compensation-fubini-exit-settlement](../../math-j04-jump-compensation-fubini-exit-settlement/SKILL.md)：核验跳跃补偿、随机 Fubini 与退出财富结算，检查可积性及停止边界项。
-- [math-j05-frozen-coordinate-iterated-compensation-interface](../../math-j05-frozen-coordinate-iterated-compensation-interface/SKILL.md)：审查非齐次跳跃中的冻结坐标与迭代补偿，核对条件结构、标签和合法换序。
+- [math-j05-frozen-coordinate-iterated-compensation-interface](../../math-j05-frozen-coordinate-iterated-compensation-interface/SKILL.md)：审查用户明确提供项目契约的非齐次跳跃冻结坐标与迭代补偿，核对条件结构、标签和合法换序。通用补偿公式使用跳事件补偿技能。
 ## K · 随机场极值与集中
 
 - [math-k01-chan-lai-asymptotically-gaussian-fields](../../math-k01-chan-lai-asymptotically-gaussian-fields/SKILL.md)：核验 Chan–Lai 渐近高斯场方法，检查局部协方差、尾近似和一致性条件。
