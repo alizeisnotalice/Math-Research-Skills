@@ -39,3 +39,7 @@ description: 核验 Kantorovich 输运对偶及势函数，检查代价、可积
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
 
 处理有限个分离胞腔上的 Monge 选择、或固定质量的 Laguerre 胞腔时，另读[有限胞腔选择与截距证书](references/finite-monge-selection.md)。该页只给出明确的有限分区与正质量条件下的局部工具。
+
+## 有限加权树的输运证书
+
+输入本身为加权树时，按 [树度量证书](references/tree-metric-transport.md) 构造精确耦合并核对子树切割失衡和对偶势。一般图的距离和最优生成树条件须另证。

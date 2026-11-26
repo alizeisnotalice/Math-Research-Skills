@@ -5,7 +5,7 @@ description: 分析指数倾斜与鞍点尾近似，核验鞍点、精确倾斜�
 
 # H02 · 指数倾斜与鞍点
 
-当前证据状态：**部分可用**。一般倾斜恒等式与标准 Gaussian Mills 界可直接推导。Niu–Ray Choudhury–Katsevich 的已深读结果是一个条件独立数组的 Lugannani–Rice 相对误差定理；在该定理之外，简化的 `u⁻¹` 前因子仍须单独核对模型和渐近区间。具体结论、条件和来源定位见[来源与阅读状态](references/provenance.md)及[方法说明](references/method.md)。旧入口已存档于 `references/history/SKILL.pre-evidence-revision-20261007.md`。
+当前证据状态：**部分可用**。一般倾斜恒等式与标准 Gaussian Mills 界可直接推导。Niu–Ray Choudhury–Katsevich 的已深读结果是一个条件独立数组的 Lugannani–Rice 相对误差定理；在该定理之外，简化的 `u⁻¹` 前因子仍须单独核对模型和渐近区间。具体结论、条件和来源定位见[来源与阅读状态](references/provenance.md)及[方法说明](references/method.md)。
 
 ## 输入与产出
 
@@ -35,3 +35,7 @@ description: 分析指数倾斜与鞍点尾近似，核验鞍点、精确倾斜�
 鞍点不存在/不唯一、`K″=0`、矩母函数越界、方向符号不匹配、阈值不满足来源条件或 LR 与简化式的适用区间未核实时，报告精确恒等式或已证明的弱结论并指出缺项。数值案例只检查个别输入，不能代替渐近证明。用[适用案例](examples/positive.md)和[条件缺失案例](examples/negative.md)检查边界。
 
 H–I 操作步骤与来源定理的逐项证据、证明状态及未覆盖接口见[H–I 操作证据与共享审计文件定位说明](references/portable-audit-access.md)。
+
+## 有限状态终点条件桥
+
+给定有理转移矩阵、初始律和固定时域，按 [终点桥证书](references/aguilar-gatto-finite-bridge.md) 核验可达性、条件路径律及终点重加权的绝对连续方向。

@@ -309,8 +309,8 @@
     },
     {
       "path": "skills/math-a01-fractional-normalization/SKILL.md",
-      "sha256": "b4009415275aedfdab806e7f7319b44b893d8d9446eb606682204f59bc4adfb4",
-      "bytes": 4380,
+      "sha256": "22161530bc4ce4ebf35d06c419148c6a467b1b2c2ddfa87083b0154e403f6cae",
+      "bytes": 4602,
       "mode": 420
     },
     {
@@ -320,9 +320,27 @@
       "mode": 420
     },
     {
+      "path": "skills/math-a01-fractional-normalization/examples/b0-zero-out-of-scope.json",
+      "sha256": "14bc6e399afcd4ccdfbce3a30635bf17839578de531e3e5e337d0586b8c979d5",
+      "bytes": 50,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-a01-fractional-normalization/examples/han-paper-example.json",
+      "sha256": "50b6c23c1c97002513b9ba6b6e1e11c264e13caec17ac334cb50a79c0c368dd0",
+      "bytes": 50,
+      "mode": 420
+    },
+    {
       "path": "skills/math-a01-fractional-normalization/examples/negative.md",
       "sha256": "8c647632d06742283afd994d6b931e5821e12f196e64c773132faeff42098853",
       "bytes": 312,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-a01-fractional-normalization/examples/not-submodular.json",
+      "sha256": "7ac5c3ef5b29c56546edf4faa7160c0384ffadd9816a66e23828bf077a5d946b",
+      "bytes": 52,
       "mode": 420
     },
     {
@@ -347,6 +365,12 @@
       "path": "skills/math-a01-fractional-normalization/references/frozen-source-locators.md",
       "sha256": "29a6d5ef05ac04e3b984e8cbf568d1da2bfc86754243c4a298db85766c951db3",
       "bytes": 15821,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-a01-fractional-normalization/references/han-2020-submodularity.md",
+      "sha256": "79b0cc076869b95172b057ca6220397dc9e950fa05b1786b47de663191f379fd",
+      "bytes": 3134,
       "mode": 420
     },
     {
@@ -437,6 +461,12 @@
       "path": "skills/math-a01-fractional-normalization/references/verification-log-20261007.md",
       "sha256": "8972bfca8f16e7ae207ff8188a6317eeba4b4fa0ab9f1d68e97dd4e99c04b253",
       "bytes": 1295,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-a01-fractional-normalization/scripts/check_han_single_ratio.py",
+      "sha256": "1ea594bb6f8856b695a4674991cdcbdd8983b65faef1b07eeba98e280bbc49c2",
+      "bytes": 8467,
       "mode": 420
     },
     {
@@ -1479,8 +1509,8 @@
     },
     {
       "path": "skills/math-d01-kantorovich-duality/SKILL.md",
-      "sha256": "99bbeaff445c547ad9c7903be5a100ed239e430897506eb1832f6618ec7fdc90",
-      "bytes": 4468,
+      "sha256": "26f80058f1ef85ab6218a72f2830bf3a418ac63a3a0246d42120952cd878643e",
+      "bytes": 4708,
       "mode": 420
     },
     {
@@ -1499,6 +1529,18 @@
       "path": "skills/math-d01-kantorovich-duality/examples/positive.md",
       "sha256": "7efb6d66ade214acd4f60fcba6e70947f3d9a32a52604b37342ea78d3eb29fb6",
       "bytes": 406,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-d01-kantorovich-duality/examples/tree-transport-cycle-rejected.json",
+      "sha256": "16f6a08bd72e2824c933fca1cf5ecde34713eef4968c0e837c66d1dd8f4b8c66",
+      "bytes": 229,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-d01-kantorovich-duality/examples/tree-transport-positive.json",
+      "sha256": "3062048d7ff96dff97ef55e064434462e8edc75939104f6a07be56d78abe3198",
+      "bytes": 262,
       "mode": 420
     },
     {
@@ -1556,9 +1598,21 @@
       "mode": 420
     },
     {
+      "path": "skills/math-d01-kantorovich-duality/references/tree-metric-transport.md",
+      "sha256": "559ca5daef57216e76ca6f670769689bcb56d7a0277a4028331b25ea6a237e52",
+      "bytes": 2365,
+      "mode": 420
+    },
+    {
       "path": "skills/math-d01-kantorovich-duality/references/verification-log-20261006.md",
       "sha256": "9b947fc4942b16580af6364e10e964d18edcbbe6c55fea9908274b49fce5819b",
       "bytes": 2545,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-d01-kantorovich-duality/scripts/tree_metric_transport_certificate.py",
+      "sha256": "26ad8ce76933ed67729a1e2c4076ab652fcc39b9ec8fd16fddb841c727b1375d",
+      "bytes": 11376,
       "mode": 420
     },
     {
@@ -2367,8 +2421,8 @@
     },
     {
       "path": "skills/math-euler-constant-irrationality/SKILL.md",
-      "sha256": "6e99c85680b722e482fb1d4e39f22f04a54d380c1d14222534cf1f7f7f4d012c",
-      "bytes": 4955,
+      "sha256": "09c452b58da58079db1eeae74c4002430c9a007a8e893c4589b74abf4a423709",
+      "bytes": 5075,
       "mode": 420
     },
     {
@@ -2393,6 +2447,12 @@
       "path": "skills/math-euler-constant-irrationality/references/e-operator-holonomy-admission.md",
       "sha256": "bbfa91dd8d3c04395e64d3729afe074ed4c4e25bf6ebedb20a8a600b30fa3a20",
       "bytes": 5577,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-euler-constant-irrationality/references/elsner-transform.md",
+      "sha256": "0bd391af8d4b29f7615041b62805a93f186e1e222c65ef78925b7e9b592f8107",
+      "bytes": 2084,
       "mode": 420
     },
     {
@@ -2441,6 +2501,12 @@
       "path": "skills/math-euler-constant-irrationality/scripts/check_extended_e_approximation.py",
       "sha256": "1cefc14048872fb09afb0a27bdaf5d4465aeecf46deca41168201f2233d3e52c",
       "bytes": 2602,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-euler-constant-irrationality/scripts/elsner_transform_interval.py",
+      "sha256": "ba615710e8ac2a085b64b13c0791f4e69ac18cad1185214ab47b270fb850ad5a",
+      "bytes": 4231,
       "mode": 420
     },
     {
@@ -3933,14 +3999,26 @@
     },
     {
       "path": "skills/math-h02-exponential-tilting-saddlepoint/SKILL.md",
-      "sha256": "e59a91d108fd050fb088445d3ef2edaf7970924d6d40a4dc341e69fd2de9360c",
-      "bytes": 4358,
+      "sha256": "6ff8a2fa3be6d38c882d6131db265b58dbb86616f78e09f5a4172155b4506a6e",
+      "bytes": 4501,
       "mode": 420
     },
     {
       "path": "skills/math-h02-exponential-tilting-saddlepoint/agents/openai.yaml",
       "sha256": "045e5f5970ab0ebe30c6f8b079d314590021d8215cd0b7635db04d70770ca8f0",
       "bytes": 363,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-h02-exponential-tilting-saddlepoint/examples/markov-bridge-impossible-target.json",
+      "sha256": "520eaaa90dc00dee25ce32b77c5874d085c6082f8a6f71854eb3d749e33e414a",
+      "bytes": 111,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-h02-exponential-tilting-saddlepoint/examples/markov-bridge-positive.json",
+      "sha256": "e95002489983996ede32acb2acc48f6383a6d57a02a65b85ec22c4b84a0dede4",
+      "bytes": 267,
       "mode": 420
     },
     {
@@ -3953,6 +4031,12 @@
       "path": "skills/math-h02-exponential-tilting-saddlepoint/examples/positive.md",
       "sha256": "1e2edb5c94bdef747df58ede3b5a2834e14ce86038b30c064df41947b7d2105f",
       "bytes": 835,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-h02-exponential-tilting-saddlepoint/references/aguilar-gatto-finite-bridge.md",
+      "sha256": "0ee24b5138fc3133b54796b0649634c1940fb934c49ae57e8ca7390942c61d50",
+      "bytes": 3899,
       "mode": 420
     },
     {
@@ -4013,6 +4097,12 @@
       "path": "skills/math-h02-exponential-tilting-saddlepoint/references/verification-log-20261006.md",
       "sha256": "87f61e76642418243015583fc949674ed2a213a8e4f36dae2f7b60747f00ccf6",
       "bytes": 3065,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-h02-exponential-tilting-saddlepoint/scripts/finite_markov_bridge.py",
+      "sha256": "26f7729cb650408fb45bcc817e249f996291832d2416e5fc2e1378b44d3d2c40",
+      "bytes": 12211,
       "mode": 420
     },
     {
@@ -7971,8 +8061,8 @@
     },
     {
       "path": "skills/math-research/references/historical-sources/README.md",
-      "sha256": "6781e854bdf01d92f163f176acd5e44c94492bd5f4109dc74df56c4b2968c0b4",
-      "bytes": 787,
+      "sha256": "23ab3519f479362491a5250adf3d8fff8dc021d8de1d091b1ae46eb37ba57159",
+      "bytes": 924,
       "mode": 420
     },
     {
@@ -8003,6 +8093,30 @@
       "path": "skills/math-research/references/historical-sources/probability.md",
       "sha256": "29480d433d6401b4b07b45e6d6fb879dd89ff65cf8d72bf51f03ec7d8b6cdb8e",
       "bytes": 196493,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-02/README.md",
+      "sha256": "003c4a14fce512476da2818ba4fe4b734ab5ba110be86ce6cfbb11c20d3aa876",
+      "bytes": 676,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-02/analysis.md",
+      "sha256": "10ca2f9fc7579cc4061300fd5cc54c276ccc73aad9058bc953e77394c0e47e43",
+      "bytes": 103323,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-02/optimization.md",
+      "sha256": "f48cb297f04eccffd377e05f5eb5349e82e18c18e25195571ec1979d3fc1c820",
+      "bytes": 124761,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-02/probability.md",
+      "sha256": "f3e4b8dbe3ccbc5e94ff3b385755e7effa3fe9969d4e2400fca368bb663a914c",
+      "bytes": 349680,
       "mode": 420
     },
     {
@@ -8121,8 +8235,8 @@
     },
     {
       "path": "skills/math-research/references/supplemental-sources/recovered-compendium.md",
-      "sha256": "45595f809f84b94065e381dc5d5dfc6070d15b067ad03f65e669b357b2ec5a23",
-      "bytes": 50053,
+      "sha256": "a7410154ad60ce15462601385a73e2706a7d77307a28187b52ef777a4c2b3a9f",
+      "bytes": 49926,
       "mode": 420
     },
     {
@@ -8187,8 +8301,8 @@
     },
     {
       "path": "skills/math-tool-router/SKILL.md",
-      "sha256": "f30767dabb356fcf0854e68902273413724644403510127b03fe944241993810",
-      "bytes": 4489,
+      "sha256": "5af8b437f038d5f39d6a978e0d1581e1cd29acf8daf0d4b6634627fc016a81ce",
+      "bytes": 4863,
       "mode": 420
     },
     {

@@ -16,6 +16,7 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 - 从参数轨迹、对偶矩阵和预备的换基得到递推，用 [Meijer G 保守矩阵场](../math-gamma-meijer-cmf/SKILL.md)。
 - 需要给定输入的严格数值区间、\(q\gamma-p\) 的有限符号或分母排除时，用 [Brent–McMillan 有理区间](references/brent-mcmillan-enclosure.md)。
 - 从 Poisson 调和数的单对数展开认证有限残差符号，用 [Poisson 调和区间](references/poisson-harmonic-enclosures.md)。
+- 按 \(d,m\) 生成显式整系数变换和严格有理区间，用 [Elsner 变换](references/elsner-transform.md)。
 - 对逐尺度对数项、Euler–Gompertz 辅助常数或很快的有理逼近，用 [混合形式和高度](references/mixed-log-height-audit.md)。
 - 对二进制级数和有限 Gregory 恒等式，用 [有限有理级数](references/finite-rational-series.md)。
 - 当整系数余项及高度已有证明，用 [整数线性形式的指数率](../math-integer-linear-form-rates/SKILL.md) 推导逼近下界和无理性指数门槛。

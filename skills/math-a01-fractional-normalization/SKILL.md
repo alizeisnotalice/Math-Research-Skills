@@ -37,3 +37,7 @@ description: 审查齐次归一化与分式规划中的正分母、Charnes–Coo
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 单个二元比值的子模性
+
+给定正分母的单个二元比值和向下封闭可行族时，用 [Han 的精确判据](references/han-2020-submodularity.md) 检查所有可行二阶差，并输出失败见证。

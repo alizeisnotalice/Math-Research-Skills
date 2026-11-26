@@ -135,3 +135,5 @@
 ## 历史文献按数学方法复核
 
 查 [历史文献索引](../skills/math-research/references/historical-sources/README.md) 和 [本轮验收记录](historical-source-reviews-2026-11-26.md)。来源卡记录用法和范围。可调用构件由对应技能提供复现脚本。
+
+[第二批历史文献与四个构件验收](historical-wave2-2026-11-26.md)继续覆盖剩余原件，并记录实际计算范围。
