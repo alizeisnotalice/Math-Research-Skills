@@ -19,3 +19,7 @@ python3 scripts/find_literature_source.py --status adopted
 ~~~
 
 状态字段反映历史来源卡上明示的分类。已采用构件另有 adoption_recorded 标记，可与同篇原件中仍待审的其他命题同时存在。其他来源分册各有自身的证据字段，直接查对应页。
+
+存在逐项依赖复核记录时，检索结果把这条记录排在前面。状态筛选使用它的当前处置，较早的卡仍可用来追溯。已采用筛选根据明确登记的构件记录定位，适用条件以所链接的技能正文为准。[依赖复核索引](historical-sources/dependency-recheck/README.md)
+
+旧证据包缺少 PDF 时，可用其索引中的完整 SHA-256 加上参数 --archive-root /Volumes/共享/Math_Research_Literature。返回的 verified_archive_pdf 是实算哈希匹配的一个现有文件。未找到时该字段为空。SHA 核对不认证缺失的原审核表、案例或证明。

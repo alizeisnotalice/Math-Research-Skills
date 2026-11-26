@@ -4,7 +4,7 @@ description: 审查半定提升的建模、秩约束与松弛方向，区分 SDP
 ---
 
 > **本轮审核状态（2026-10-07）**：Burer 主文已逐页阅读，Wang–Guo 作为相邻 SOS/矩背景也已逐页阅读；C-D 题录的逐项相关性筛查仍在进行。两球特定精确性只在下列条件内可用，不能由这些阅读状态推出更广的 Shor 提升精确性。
-> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包默认将 `EVIDENCE_ROOT` 设为包内 `evidence/`；单独安装时由调用方传入 `EVIDENCE_ROOT`，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
+> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包中 `EVIDENCE_ROOT` 指向完整包根（同时含 `workspace_revised/`、`audit_current/` 与 `evidence/`）；单独安装时由调用方传入该包根，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
 
 
 # C01 · 半定提升（SDP lifting）
@@ -45,3 +45,7 @@ PSD和归一化不自动推出rank-one；丢弃秩约束通常只给界。变量
 ## SDP 与秩一切平面 LP 的同值证书
 
 对给定有理 SDP、已列出的秩一切以及原可行点，用[同值证书](references/roux-carr-ravi-rank-one-cut-certificates.md)核验对偶松弛分解和共同目标值。先分别核对 SDP 的可行性与 LP 切的方向。
+
+## 有限二次规划与 Shor 松弛的共同最优值
+
+给定有理秩一可行点与非负乘子时，用[齐次化 QCQP 证书](references/arima-kim-kojima-finite-qcqp-certificate.md)检查锚点、目标同值和精确 PSD 松弛。

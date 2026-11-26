@@ -11,7 +11,9 @@ metadata:
 
 Use this skill for information capacity with synchronization errors, entropy-rate variational arguments, renewal/regenerative limits in polling systems, and convergence questions for cluster or higher-order expansions.
 
-Read [references/method.md](references/method.md) when working on a proof, asymptotic claim, or source-to-problem mapping. Use [references/sources.md](references/sources.md), `evidence/W16/reading_coverage.json`, and the source cards under the W16 dossier for exact theorem statements, physical-page coverage, and reading limits. The strict v2 candidate has 30 distinct source uses: 28 retained from the installed floor after excluding teaching fragments R02/R03, plus post-v1 R13 and Resing R07 canonical uses. R13 was separately accepted by R08; R04 accepted the canonical source uses in this candidate. The combined v2 scope remains pending independent review, and neither reuse adds a new full-text read. The complete 324-page Gray book remains acquired; its full read unit is Chapter 2 §§2.1–2.7, with the separately partial Chapter 9 inspection retained.
+## Active sources and historical provenance
+
+Read [references/method.md](references/method.md) when working on a proof, asymptotic claim, or source-to-problem mapping. Use [references/sources.md](references/sources.md), `evidence/W16/reading_coverage.json`, and the source cards under the W16 dossier for exact theorem statements, physical-page coverage, and reading limits. The strict v2 source snapshot has 30 distinct source uses: 28 retained from the installed floor after excluding teaching fragments R02/R03, plus post-v1 R13 and Resing R07 canonical uses. R13 was separately accepted by R08; R04 accepted the canonical source uses in that snapshot. Neither reuse adds a new full-text read. The complete 324-page Gray book remains acquired; its full read unit is Chapter 2 §§2.1–2.7, with the separately partial Chapter 9 inspection retained. The old independent-review state is historical provenance only.
 
 ## Preserve the model
 

@@ -4,7 +4,7 @@ description: 推导 Gibbs 变分与熵对偶，检查参考测度、归一化、
 ---
 
 > **本轮审核状态（2026-10-07）**：de Oliveira–Salinas 物理论文已逐页阅读，但不作为一般 Donsker–Varadhan 定理的证明来源。下面有限域恒等式按概率密度直接推导；候选来源相关性筛查仍在进行。
-> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包默认将 `EVIDENCE_ROOT` 设为包内 `evidence/`；单独安装时由调用方传入 `EVIDENCE_ROOT`，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
+> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包中 `EVIDENCE_ROOT` 指向完整包根（同时含 `workspace_revised/`、`audit_current/` 与 `evidence/`）；单独安装时由调用方传入该包根，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
 
 
 # D02 · Gibbs 变分与熵对偶

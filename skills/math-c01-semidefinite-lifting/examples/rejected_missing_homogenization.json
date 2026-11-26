@@ -1,0 +1,9 @@
+{
+  "Q": [["0", "-1/2"], ["-1/2", "0"]],
+  "constraints": [[ ["-1", "0"], ["0", "1"] ]],
+  "certificate": {
+    "lower_bound": "-1",
+    "multipliers": ["1/2"],
+    "candidate_z": ["1", "1"]
+  }
+}

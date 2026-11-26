@@ -13,4 +13,6 @@ Use [the method reference](references/method.md) to separate Hermite-tail lower 
 
 Do not infer a sharp leading constant from a big-$\Omega$ Hermite-tail theorem or a one-dimensional trial polynomial. The B167 source states a sharp-constant problem; this stage derives only the $d^{-1/2}$ lower-order bound. The Gaussian kernel problem C168 is mapped here only as auxiliary Hermite-expansion context, not as a consequence of the B167 result.
 
-**Evidence stage:** 28 distinct full-text reads plus two R06-accepted canonical-use records give 30 tool-specific evidence entries. The latest W18 mother snapshot still needs final independent R06 hash binding and a release decision; do not self-approve. Source rows may retain `review_status=pending` under the ledger convention. `evidence/W18/status.json` records the separate read and reuse counts.
+## Historical provenance status
+
+**Evidence stage:** 28 distinct full-text reads plus two R06-accepted canonical-use records give 30 tool-specific evidence entries. The W18 mother snapshot lacks a recorded final independent R06 hash binding; source rows may retain `review_status=pending` under the ledger convention. `evidence/W18/status.json` records the separate read and reuse counts. The former release-decision wording is historical provenance only.

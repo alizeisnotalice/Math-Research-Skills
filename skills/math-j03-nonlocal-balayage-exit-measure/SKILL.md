@@ -37,3 +37,7 @@ description: 分析非局部 balayage 与退出测度，核对退出规则、调
 ## 有限截断的退出与占用区间
 
 生成元已写成有限有理矩阵时，用 [ETFSP 有限证书](references/etfsp-finite-certificate.md) 分开跟踪真实退出和截断弃置质量，计算有理概率与占用区间。映射到原链须先核验首次弃置前的耦合。
+
+## 有限链的全时域退出
+
+已知有限吸收链与物理退出类时，用[相型退出证书](references/finite-exit-phase-type.md)检查图可达性，并精确计算 Green 占用矩阵、退出类概率、退出时间矩和 Laplace 变换。

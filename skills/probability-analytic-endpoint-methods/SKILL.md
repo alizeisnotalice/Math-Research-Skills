@@ -11,9 +11,9 @@ metadata:
 
 Use this skill when a proof or claim depends on a weak-type endpoint, weak-Lp/Lorentz bound, martingale endpoint inequality, Hardy-space endpoint, or Riesz-transform estimate.
 
-## Current evidence stage
+## Historical provenance status
 
-R01 approved the exact W25 mother set of 30 distinct papers and 686 physical pages. The standalone candidate is assembled in this directory; its final scope review and release are still pending. Source binding confirms identity, full-text evidence, cards, and coverage. It does not certify every theorem proof or erase source-specific defects. Check the per-source approval matrix and read the card before relying on a result.
+R01 approved the exact W25 mother set of 30 distinct papers and 686 physical pages. Source binding confirms identity, full-text evidence, cards, and coverage. It does not certify every theorem proof or erase source-specific defects. Check the per-source approval matrix and read the card before relying on a result; the prior standalone-candidate review state is historical provenance only.
 
 ## Workflow
 
@@ -37,4 +37,4 @@ R01 approved the exact W25 mother set of 30 distinct papers and 686 physical pag
 - [Condition-missing cases](examples/condition-missing.md)
 - Source records, per-source R01 decisions, PDF paths/hashes, and page-level coverage: [evidence/W25](evidence/W25/)
 
-This directory is a review candidate, not an installed or released skill.
+The prior review-candidate designation is historical provenance only; use the scoped method and source cards above for this installed entry.

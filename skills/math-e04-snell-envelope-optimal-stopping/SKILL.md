@@ -4,7 +4,7 @@ description: 处理最优停止与 Snell 包络，核对滤过、可积性、停
 ---
 
 > **当前审核状态（2026-10-07）**：P-faa1738580ee2154（15 页）已全文核读，识别出随机化停止质量不足以代表强制停止的边界、τ*=0 时打印优化器映射的端点问题，以及 singular-control 跳点逆映射的约定缺口；普通有限离散 Snell 递推另作独立验证。其他候选文献仍待相关性筛查。页覆盖和原文定位见 `audit_current/e/source-reading/` 与 `claims.json`。
-> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包默认将 `EVIDENCE_ROOT` 设为包内 `evidence/`；单独安装时由调用方传入 `EVIDENCE_ROOT`，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
+> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包中 `EVIDENCE_ROOT` 指向完整包根（同时含 `workspace_revised/`、`audit_current/` 与 `evidence/`）；单独安装时由调用方传入该包根，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
 
 
 > **Portable evidence access.** A complete unpacked bundle has sibling `workspace_revised/`, `audit_current/`, and `evidence/` directories; the shared resolver is `<package-root>/audit_current/delivery/resolve_evidence.py`. From an installed Skill, obtain the absolute package root from the unique `math64-20261007` entry in `${CODEX_HOME:-$HOME/.codex}/math-skill-evidence-roots.json` (configure the example registry with the actual absolute root first; never leave `${MATH64_SOURCE_PACKAGE_ROOT}` unresolved). These commands derive paths from that registry, not the current directory; each resolver call clears any inherited `EVIDENCE_ROOT` so it cannot override the selected registry root. `set -e` makes a missing claims file, cases file, or evidence PDF stop the block immediately. If the registry/root/bundle/index is missing or ambiguous, report the configuration gap instead of guessing. Resolver `PASS` checks paths and current bytes, not reading or proof correctness.

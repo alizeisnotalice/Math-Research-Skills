@@ -4,7 +4,7 @@ description: 分析完全正锥和共正锥表述，核对锥对偶、有限近�
 ---
 
 > **本轮审核状态（2026-10-10）**：C02-HIER-02 的条件迁移已针对 `K=R₊ⁿ`、`f_A(x)=xᵀAx` 与乘积 Exp(1) 测度核验：支撑恰为闭正交锥、所有多项式加权积分有限，且每个坐标的每个固定移位 Carleman 级数发散。使用的非紧正性结果为 Lasserre arXiv:1009.0125v1（2010-09-01）Theorem 3.3，PDF pp.6–7；后续 v2/v3 将对应结果编号为 Theorem 3.4。无限交结论仍为标准引用结果：Berg Proposition 2.1 与 Nussbaum 的 Carleman 扩展未被独立重证。有限维 `CP=COP*` 等式由下文独立证明闭合；不主张有限阶精确性或收敛率。候选来源相关性筛查仍在进行。
-> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包默认将 `EVIDENCE_ROOT` 设为包内 `evidence/`；单独安装时由调用方传入 `EVIDENCE_ROOT`，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
+> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包中 `EVIDENCE_ROOT` 指向完整包根（同时含 `workspace_revised/`、`audit_current/` 与 `evidence/`）；单独安装时由调用方传入该包根，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
 
 
 # C02 · 完全正锥与共正锥

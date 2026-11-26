@@ -1,0 +1,10 @@
+{
+  "Q": [["0", "-1/2"], ["-1/2", "0"]],
+  "homogenization": {"anchor_index": 1, "anchor_value": "1"},
+  "constraints": [[ ["-1", "0"], ["0", "1"] ]],
+  "certificate": {
+    "lower_bound": "-1",
+    "multipliers": ["1/4"],
+    "candidate_z": ["1", "1"]
+  }
+}

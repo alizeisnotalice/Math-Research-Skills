@@ -86,9 +86,9 @@ For Backhoff–Bartl–Beiglböck–Eder (B17-012), use only Lemma 7.1 (PDF pp. 
 
 For Feehan–Pop, the admitted result is only the independent, unshifted compactly supported `C²` one-time weak forward identity obtained by conditional projection of the given half-space-valued Itô process. It uses the source’s initial and coefficient assumptions, integrability of the drift and covariance, measurable conditional coefficients, and compactly supported `C²` test functions. The full mimicking, weak-existence, uniqueness, and strong-Markov conclusions are held: the finite-ε estimate in the source has a gap, and this identity does not depend on that estimate or on an imported PDE result. Equality of one-time marginals does not identify the path law.
 
-## Reviewed continuation interfaces (2026-11-16)
+## Historical continuation provenance
 
-R03 high-review matched all 31 distinct works in the existing source cohort for scoped uses. The exact theorem interfaces, assumptions, locators, and transfer limits for every admitted source are in the frozen scope register（本机附件：`references/scope_register.md`） and the machine-readable source admissions（本机附件：`evidence/scoped_uses.json`）. The registry governs any source-specific claim above. It does not approve every theorem or every claim in a cited work, and at this immutable candidate freeze, whole-entry scientific review, case review, and portable review remain pending; publication/install status is tracked separately by the root release receipt.
+R03 high-review matched all 31 distinct works in the existing source cohort for scoped uses. The exact theorem interfaces, assumptions, locators, and transfer limits for every admitted source are in the frozen scope register（本机附件：`references/scope_register.md`） and the machine-readable source admissions（本机附件：`evidence/scoped_uses.json`）. The registry governs any source-specific claim above. It does not approve every theorem or every claim in a cited work. The candidate-freeze review and release records are historical provenance only.
 
 The W01-L12 continuation includes a separately derived graph/BL/countable-partition representation route under the source’s original separable-metric and Borel-map hypotheses. It uses a new common probability space and needs no completeness, Radon, or regular conditional distribution assumption. See its card and the independent R03 review in the evidence index; do not restore its older held Lusin proof.
 
@@ -101,8 +101,8 @@ The W01-L12 continuation includes a separately derived graph/BL/countable-partit
 - **Equal marginals do not imply equal paths:** two processes may have the same law at every fixed time and different joint laws over multiple times; Feehan–Pop’s output is a one-time-marginal statement.
 - **Joint weak convergence does not identify conditional kernels:** a conditional law is a versioned, support-sensitive object. Supply continuity/selection or local-ratio assumptions from the theorem being used.
 
-## Evidence status
+## Historical evidence status
 
-The 2026-11-16 reader candidate binds 31/31 distinct works in the existing measure-convergence cohort to scoped R03 high-review admissions. It remains a candidate: whole-entry scientific review, case review, portable review, publication, and installation are pending. No new complete read or global reading credit was added in this continuation. Kurtz 2007 (B17-003) remains a predecessor dependency with zero separate work-family credit and is not double-counted with the 2014 rewrite. The original 197-file manifest has no preimage and is not reconstructed. The already-installed `probability-variational-limits v5` was not changed.
+The 2026-11-16 reader snapshot binds 31/31 distinct works in the existing measure-convergence cohort to scoped R03 high-review admissions. No new complete read or global reading credit was added in this continuation. Kurtz 2007 (B17-003) remains a predecessor dependency with zero separate work-family credit and is not double-counted with the 2014 rewrite. The original 197-file manifest has no preimage and is not reconstructed. The prior review, publication, and installation state is historical provenance only.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。

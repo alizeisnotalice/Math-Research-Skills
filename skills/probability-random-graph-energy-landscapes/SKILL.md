@@ -9,7 +9,9 @@ metadata:
 
 本次整理与历史阅读/审核状态的区别，以及可选本地附件的访问方式，见 [证据与迁移说明](../math-research/references/evidence.md)。
 
-This is an independent W24 final-scope candidate, not an installed or published skill. R05 accepted the mother binding for 31 distinct full-text reads and 30 scoped method sources; PGEL-029 is retained as a read background source outside the quota. R05's final revision2 skill review has passed. This first-publication package is staged pending H0 review; publication and installation have not been performed. See [status](status.json), [source guide](references/source-guide.md), [method guide](references/method.md), and [problem boundaries](references/problem-boundaries.md).
+## Historical provenance status
+
+**Historical source audit.** The W24 final-scope record has 31 distinct full-text reads and 30 scoped method sources; PGEL-029 is retained as a read background source outside the quota. R05's final revision2 skill review passed. The H0 staging record is provenance only. See [status](status.json), [source guide](references/source-guide.md), [method guide](references/method.md), and [problem boundaries](references/problem-boundaries.md).
 
 # Choose methods by the actual model
 

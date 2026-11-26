@@ -1,0 +1,17 @@
+{
+  "state_labels": ["a", "b", "left_exit", "right_exit"],
+  "generator": [
+    ["-2", "1", "1", "0"],
+    ["0", "-2", "0", "2"],
+    ["0", "0", "0", "0"],
+    ["0", "0", "0", "0"]
+  ],
+  "transient": ["a", "b"],
+  "exit_classes": {
+    "left": ["left_exit"],
+    "right": ["right_exit"]
+  },
+  "initial": ["1", "0", "0", "0"],
+  "max_moment": 2,
+  "laplace_points": ["0", "1"]
+}

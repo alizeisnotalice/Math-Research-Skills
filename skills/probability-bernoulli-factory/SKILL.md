@@ -9,7 +9,7 @@ metadata:
 
 Use this skill when a problem asks for an exact output from biased coins, a finite-depth event representation, or a stopping-time factory. Start by fixing the unknown parameter set, the input coin model, allowed auxiliary randomness, output type, endpoint values, and the cost clock. A Bernoulli factory for `f` must return a bit with probability exactly `f(p)`; a nonnegative unbiased estimator, a categorical/vector output, or an exponential acceptance event is a different output contract.
 
-There is no single algorithm behind the 30 admitted source uses. Choose a method only when the source card’s theorem, hypotheses, randomness, and output agree with the problem. The **source-use index** and 30 scoped use cards are the controlling evidence; each card states what was accepted and what remains outside its scope.
+Choose a method by its assumptions, randomness, output, and cost clock. Use the source cards to verify which theorem supports the selected construction.
 
 ## Source-use boundary
 
@@ -30,6 +30,10 @@ See [method selection](references/method.md), cost and assumptions（本机附�
 
 ## Evidence scope
 
-The active index contains 30 distinct complete-read works with current, narrowly scoped use decisions: 27 new R13 high audits and 3 exact matched prior high uses. This is not a claim that every theorem in every paper passed High review. There are zero new full reads and zero new 198-method closures in this whole-entry stage. The skill leaves the sharp/effective degree problem A202, the general moment-classification claim C204, and unapproved method branches open. See the outer evidence freeze for exact reviewer records and hashes.
+For debiasing, the compatible-envelope existence and rate are supplied by the [HNP dependency audit](references/hnp-envelope-adjudication.md). The operational proof also needs the actual coefficient arrays, remainder bound, and starting index for the selected function. The sharp degree and general moment-classification problems remain open in the historical project scope.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## 有限支撑随机截断的精确账本
+
+给定有限 Bernstein 下系数、有理参数与有限支撑截断时，用[去偏账本](references/finite_debiased_ledger.md)核对路径范围、有限期望恒等式、目标点偏差和未知硬币成本。

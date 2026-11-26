@@ -4,7 +4,7 @@ description: 组织分支定界中的可行界、松弛界、剪枝和终止证�
 ---
 
 > **本轮审核状态（2026-10-10）**：Dym 与 Mohammadi–Peet 两个主源均已逐页阅读。qBnB 结论按各自明确的光滑性、定义域、节点与搜索条件使用；SOS-BnB 的有限阶与收敛主张仍是条件化的，未由案例数值验证替代。历史 Skill hash `a90566ded7b12c19817910cc501658b0f83af1591d2abc568fbb192deb4730b7` 的原始字节未验证找到；本次只绑定当前版本，不主张与历史版本等价。
-> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包默认将 `EVIDENCE_ROOT` 设为包内 `evidence/`；单独安装时由调用方传入 `EVIDENCE_ROOT`，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
+> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包中 `EVIDENCE_ROOT` 指向完整包根（同时含 `workspace_revised/`、`audit_current/` 与 `evidence/`）；单独安装时由调用方传入该包根，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
 
 
 # C04 · 分支定界

@@ -159,7 +159,7 @@ This entry distinguishes six method interfaces:
 
 Other unresolved steps include full bidisc continuation, general nonzero-index RH solvability, external map and Fredholm proofs, partial-fraction/state reconstruction requiring global complex growth, infinite compensation-series convergence outside each source's stated region, and coefficientwise nonnegativity after reconstruction. These are explicit gaps, not assumed defaults.
 
-## Review status
+## Historical review status
 
 The frozen R05 formal cohort selected for this G09 entry has 32 scoped rows: 30 eligible uses across 30 distinct work families and 2 zero-increment support rows. This is the source-level cohort status in source-index.md（本机附件：`references/source-index.md`）, not a cross-lane global transaction. Root's exact-cohort capture and whole-entry R05 review remain separate steps. This draft is not portable, published, or installed.
 

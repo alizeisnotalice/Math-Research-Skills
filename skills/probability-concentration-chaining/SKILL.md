@@ -5,7 +5,7 @@ description: Apply and audit concentration inequalities, large-deviation bounds,
 
 # Concentration, large deviations, and chaining
 
-**Historical W03 release:** R02’s prior release and file hashes are preserved unchanged. For this continuation candidate, R03 accepted scoped uses for 29 of the original 30-work cohort; P028 remains held because the key proof is in an unavailable supplement. A distinct canonical Freedman (1975) source adds one concentration-tool use, bringing the current scoped-use count to 30. This is not a full-source approval: follow `references/scope_register.md` for exact admitted methods, and retain P028 as held. P033 remains non-quota course notes; P032 is incomplete; P013/P014 remain unavailable. At this immutable candidate freeze, whole-entry, case, and portable review remain pending; publication/install status is tracked separately by the root release receipt. The audited Poisson-witness component below is outside that historical W03 cohort.
+**Historical W03 source audit:** R02’s prior release and file hashes are preserved unchanged. R03 accepted scoped uses for 29 of the original 30-work cohort; P028 remains held because the key proof is in an unavailable supplement. A distinct canonical Freedman (1975) source adds one concentration-tool use, bringing the scoped-use count to 30. This is not a full-source approval: follow `references/scope_register.md` for exact admitted methods, and retain P028 as held. P033 remains non-quota course notes; P032 is incomplete; P013/P014 remain unavailable. The historical whole-entry, case, portable, publication, and installation records do not alter this active source scope. The audited Poisson-witness component below is outside that historical W03 cohort.
 
 ## Source-use boundary
 
@@ -72,8 +72,8 @@ The following are reading and acquisition records, not blanket theorem endorseme
 - P031 coverage is the complete Chapter 2 only (physical PDF pp. 33–66) of a 341-page prepublication. The full author PDF is bundled for this local personal package; only Chapter 2 is a claimed read unit.
 - Source-specific historical read notes, held findings, exact theorem locators, proof notes, and computational artifacts are preserved in the evidence index. They must not be used to infer an unlisted theorem scope.
 
-## Continuation review and package status
+## Historical continuation review and package status
 
-The R03 continuation has 30 distinct scoped concentration uses after work/version dedup (29 from the original cohort plus Freedman 1975); P028 remains held. This reader package is an immutable candidate snapshot. At this freeze, whole-entry scientific review, case review, and portable review remain pending; publication/install status is tracked separately by the root release receipt. Exact source PDFs are bundled locally, with source paths and SHA-256 values recorded in the source register. The 341-page P031 book is bundled for local use, but the recorded read unit remains Chapter 2 only.
+The R03 continuation has 30 distinct scoped concentration uses after work/version dedup (29 from the original cohort plus Freedman 1975); P028 remains held. This reader package is an immutable historical snapshot. Exact source PDFs are bundled locally, with source paths and SHA-256 values recorded in the source register. The 341-page P031 book is bundled for local use, but the recorded read unit remains Chapter 2 only. Its former whole-entry, case, portable, publication, and installation states are historical provenance only.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。

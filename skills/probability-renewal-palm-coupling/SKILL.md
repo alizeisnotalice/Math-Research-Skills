@@ -5,7 +5,9 @@ description: Analyze renewal and Palm sampling, queueing recurrence and stationa
 
 # Renewal, Palm, and exact coupling
 
-**Candidate status.** R06 accepted the complete G10/G11/G12 entry and cases for the exact 32 source/work-family scopes below. Format and relocation review is pending; this candidate is not installed. Three method-fit holds remain uncounted; Ferrari–Martin remains on its R07 read gate; Boon is boundary context; Zverkina has two printed K=k=2 polynomial-rate claims rejected in a scoped non-entry and no admitted method use.
+## Historical provenance status
+
+**Historical source audit.** R06 accepted the complete G10/G11/G12 entry and cases for the exact 32 source/work-family scopes below. Three method-fit holds remain uncounted; Ferrari–Martin remains on its R07 read gate; Boon is boundary context; Zverkina has two printed K=k=2 polynomial-rate claims rejected in a scoped non-entry and no admitted method use. Historical format and relocation review records are provenance only.
 
 Use this skill when a proof moves between renewal, Palm, cycle, or arbitrary-time sampling; establishes queue stability or a stationary limit; or uses coupling to claim convergence. First name the input law, the complete state, the observation epoch, and the requested conclusion. Keep these targets distinct:
 

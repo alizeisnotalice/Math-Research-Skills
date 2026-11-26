@@ -5,7 +5,7 @@ description: Analyze isoperimetric profiles and curvature methods on planar grap
 
 # Planar graph isoperimetry and discrete curvature
 
-This portable candidate has one active entry, this root `SKILL.md`; its evidence and references are adjacent package files. Use it only after specifying the graph, embedding, set family, and exact boundary statistic. A theorem about one statistic is not automatically a theorem about another. The reviewed source map below contains 30 narrowly admitted works; it does not settle the unrestricted outer-vertex profile A023, the conditional count A022, or the unrestricted infection interface A193.
+This installed entry has one active root, `SKILL.md`. Use it only after specifying the graph, embedding, set family, and exact boundary statistic. A theorem about one statistic is not automatically a theorem about another. The reviewed source map below contains 30 narrowly admitted works; it does not settle the unrestricted outer-vertex profile A023, the conditional count A022, or the unrestricted infection interface A193.
 
 
 ## Source-use boundary
@@ -407,4 +407,6 @@ For A022, map the conditioned configurations to the counted sets and compare dis
 
 For A193, first prove the particular rule graph has a compatible plane embedding, then show that the witness process is controlled by the exact boundary statistic. A degree constraint does not imply a face-degree condition.
 
-This is a whole-entry candidate synchronized to R09 union02: 30 distinct locally eligible works plus one held source. It is not an installation or publication approval. Root identity deduplication and independent whole-entry/portable review remain required.
+## Historical provenance status
+
+R09 union02 is the historical source snapshot: 30 distinct locally eligible works plus one held source. Root identity-deduplication and independent whole-entry/portable review records remain provenance only.

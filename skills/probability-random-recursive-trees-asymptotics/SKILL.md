@@ -5,6 +5,8 @@ description: Analyze asymptotic moments, profiles, fringe statistics, and limit 
 
 # Random recursive-tree asymptotics
 
+## Historical provenance status
+
 **Evidence state:** The immutable R02 baseline contains 30 accepted source works: 29 research articles and one complete standalone formal chapter (RT007), not the edited book; RT025/RT026 count once. R10 has now accepted exact scoped-use overlays for all 30 legacy works (239 aggregate binding checks, zero failures), reusing W22 complete-read evidence and adding zero new full-read or source credit. R12 has also accepted nine restricted G23 use rows; RT004 is the one work shared with the baseline, so the current accepted-use matrix records 39 rows over 38 distinct source works. These are source-specific admissions, not broad theorem approvals or whole-entry approval. Conditions, versions and transfer limits are listed in [the source ledger](references/sources.md) and method-condition matrix（本机附件：`references/method_coverage.json`）. RT030 remains Eq. 5.3 mean-only; RT035 and RT037 retain their precise gates. A127's fixed circular-separation joint law/covariance remains unproved; publication and installation approval are separate root decisions.
 
 Use this skill when a random-tree problem asks for height/profile moments, a fringe or additive statistic, pair distances/covariances, or a limit theorem. Start with the exact tree construction and statistic. Choose the proof route only after the model and sampling rule match the cited theorem.

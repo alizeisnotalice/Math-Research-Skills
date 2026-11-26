@@ -4,7 +4,7 @@ description: 构建或核验矩与 SOS 层级，检查正多项式证书、截�
 ---
 
 > **本轮审核状态（2026-10-07）**：Lasserre 系数 `ℓ₁` 最佳 SOS 逼近论文已逐页阅读；它只支持该特定逼近问题。一般紧半代数集的 SOS 收敛、证书次数及原子提取仍须逐一定理核验；候选来源筛查仍在进行。
-> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包默认将 `EVIDENCE_ROOT` 设为包内 `evidence/`；单独安装时由调用方传入 `EVIDENCE_ROOT`，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
+> 外部文献证据由第二证据包提供，是独立数据输入，不随单个 Skill 安装。合并交接包中 `EVIDENCE_ROOT` 指向完整包根（同时含 `workspace_revised/`、`audit_current/` 与 `evidence/`）；单独安装时由调用方传入该包根，按本地[证据索引](references/handoff-evidence-index.csv)中的 `portable_path` 查找。无需全局安装，也不要把外部 PDF 当作 Skill 内文件。
 
 
 # C03 · 矩层级、平方和与正多项式证书

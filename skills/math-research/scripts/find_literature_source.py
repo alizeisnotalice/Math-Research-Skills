@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 from collections import defaultdict
 from dataclasses import dataclass
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -44,6 +45,7 @@ class Occurrence:
     evidence: str
     classification: str | None = None
     adoption_recorded: bool = False
+    dependency_rechecked: bool = False
 
 
 def normalize(value: str) -> str:
@@ -80,14 +82,16 @@ def section_occurrences(path: Path, lines: list[str], collection: str, identity_
             if line.startswith(identity_prefix) and (digest := SHA.search(line)):
                 classification = None
                 adopted = False
+                rechecked = False
                 if collection == "historical":
                     for entry in body:
                         if entry.startswith("- "):
                             label = entry[2:].partition("。")[0]
                             classification = classification or HISTORICAL_CLASSES.get(label)
                             adopted |= label == "已采用构件"
+                            rechecked |= label == "依赖复核"
                 yield Occurrence(digest[0].lower(), title, path, index+1, collection,
-                                 "\n".join([title, *body]).strip(), classification, adopted)
+                                 "\n".join([title, *body]).strip(), classification, adopted, rechecked)
                 break
 
 
@@ -106,11 +110,15 @@ def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | 
            classification: str | None = None):
     matches: dict[str, list[Occurrence]] = defaultdict(list)
     skill_marker = re.compile(rf"(?<![a-z0-9-]){re.escape(skill)}(?![a-z0-9-])") if skill else None
-    for item in source_occurrences(selected):
+    occurrences = list(source_occurrences(selected))
+    latest = {item.sha256: item for item in occurrences if item.dependency_rechecked}
+    adopted = {item.sha256 for item in occurrences if item.adoption_recorded}
+    for item in occurrences:
+        current = latest.get(item.sha256, item)
         if classification == "adopted":
-            if not item.adoption_recorded:
+            if item.sha256 not in adopted:
                 continue
-        elif classification and classification != item.classification:
+        elif classification and classification != current.classification:
             continue
         if sha_prefix and not item.sha256.startswith(sha_prefix):
             continue
@@ -122,7 +130,25 @@ def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | 
             if not all(term in body for term in terms):
                 continue
         matches[item.sha256].append(item)
+    for items in matches.values():
+        items.sort(key=lambda item: not item.dependency_rechecked)
     return matches
+
+
+
+def find_archive_pdf(root: Path, sha256: str) -> str | None:
+    root = root.expanduser().resolve()
+    if not root.is_dir():
+        raise ValueError("archive root must be an existing directory")
+    candidates = sorted(path for path in root.rglob("*") if path.suffix.lower() == ".pdf" and path.is_file())
+    named = [path for path in candidates if sha256[:16] in path.name.lower()]
+    visited = set(named)
+    for group in (named, (path for path in candidates if path not in visited)):
+        for path in group:
+            with path.open("rb") as handle:
+                if hashlib.file_digest(handle, "sha256").hexdigest() == sha256:
+                    return str(path)
+    return None
 
 
 def main() -> None:
@@ -132,12 +158,15 @@ def main() -> None:
     parser.add_argument("--skill", help="exact skill slug named by the recorded evidence")
     parser.add_argument("--collection", action="append", choices=sorted(COLLECTIONS))
     parser.add_argument("--status", choices=[*HISTORICAL_CLASSES.values(), "adopted"],
-                        help="filter explicit historical card classifications or recorded adoptions")
+                        help="filter current historical classifications or recorded adoptions")
+    parser.add_argument("--archive-root", type=Path, help="locate a local PDF by a full SHA-256 in this directory")
     parser.add_argument("--limit", type=int, default=20, help="maximum distinct original identities printed")
     args = parser.parse_args()
     terms = normalize(args.text).split()
     if args.sha and not re.fullmatch(r"[0-9a-fA-F]{8,64}", args.sha):
         parser.error("--sha requires at least 8 and at most 64 hex digits")
+    if args.archive_root and len(args.sha) != 64:
+        parser.error("--archive-root requires a full --sha SHA-256")
     if args.limit < 1:
         parser.error("--limit must be positive")
     if not any((args.sha, terms, args.skill, args.collection, args.status)):
@@ -150,14 +179,21 @@ def main() -> None:
     records = [
         {"sha256": digest, "locations": [
             {"title": item.title, "collection": item.collection, "path": str(item.path), "line": item.line,
-             **({"classification": item.classification, "adoption_recorded": item.adoption_recorded}
+             **({"classification": item.classification, "adoption_recorded": item.adoption_recorded,
+                 "dependency_rechecked": item.dependency_rechecked}
                 if item.classification else {})}
             for item in items
         ]}
         for digest, items in ordered[:args.limit]
     ]
-    print(json.dumps({"matched_originals": len(matches), "returned_originals": len(records),
-                      "records": records}, ensure_ascii=False, indent=2))
+    result = {"matched_originals": len(matches), "returned_originals": len(records), "records": records}
+    if args.archive_root:
+        try:
+            result["verified_archive_pdf"] = find_archive_pdf(args.archive_root, args.sha.lower())
+        except (ValueError, OSError) as error:
+            parser.error(str(error))
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+
 
 
 if __name__ == "__main__":
