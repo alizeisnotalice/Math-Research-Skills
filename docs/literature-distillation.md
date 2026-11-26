@@ -127,3 +127,7 @@
 ## 同期其他公开稿
 
 [95 份逐篇来源核对](../skills/math-research/references/recent-non-openai-sources.md)保留作者公开身份、原文页、方法与依赖，按八类主题可查。编入工具的是定宽整数递推、模素数余秩估值、Löwner 差商的有限 Gram 特例。已分别运行精确字段比较和有理线性代数回放，论文中的全局指数与形式化声称保留其证据边界。
+
+## 现行引用与补取来源
+
+[本轮蒸馏和复核记录](active-citations-and-recovered-methods-2026-11-26.md)收录 371 份活跃引用核查、63 份补取版本、可调用工具及数学验收。

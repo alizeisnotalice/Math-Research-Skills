@@ -16,12 +16,12 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 15,
+    "research-specialists": 16,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
     "orchestration": 1,
-    "probability": 41
+    "probability": 42
   },
   "skills": [
     {
@@ -335,6 +335,13 @@
         "math-gamma-continued-fraction-recurrence",
         "math-integer-linear-form-rates"
       ]
+    },
+    {
+      "name": "math-euler-maclaurin-quadrature-certificates",
+      "title": "Euler--Maclaurin 求积误差证书",
+      "description": "为满足端点消失条件的多项式 Euler--Maclaurin 求积构造精确余项与可复核误差包围；不用于未经认证的一般浮点积分。",
+      "category": "research-specialists",
+      "path": "skills/math-euler-maclaurin-quadrature-certificates/SKILL.md"
     },
     {
       "name": "math-f01-geometric-mean-kernel-two-winner-audit",
@@ -1370,6 +1377,13 @@
       "description": "Prove or audit Poisson growing-ball cover-time and spatial-network localization claims, including measure optimization, Poissonization, and boundary tails, while checking the exact model and transfer hypotheses.",
       "category": "probability",
       "path": "skills/probability-stochastic-geometry-localization/SKILL.md"
+    },
+    {
+      "name": "probability-unimodal-tail-certificates",
+      "title": "标准化单峰分布的尖锐尾界",
+      "description": "用 Ion–Klaassen–van den Heuvel 的结果核验标准化标量单峰分布的尖锐单侧及非对称双侧尾界，精确检查阈值、公式及取等构造。",
+      "category": "probability",
+      "path": "skills/probability-unimodal-tail-certificates/SKILL.md"
     },
     {
       "name": "probability-variational-limits",

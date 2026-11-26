@@ -37,7 +37,7 @@ When matching the global catalogue, use canonical `source_id` values in the acti
 | W14-011 | PR-2cea472b1695 | 2004 | G11.02 | use（本机附件：`cards/uses/W14-011.md`） | PDF（本机附件：`sources/pdfs/W14-011.pdf`） | identity（本机附件：`cards/identity/W14-011.md`） | `2fc271b4896469bd2211e754a0656b368c2b473de3b321f799ec060f34e77681` |
 | W14-040 | PR-8fe2bbd7bfe7 | 2001 | G11.02, G16.01 | use（本机附件：`cards/uses/W14-040.md`） | PDF（本机附件：`sources/pdfs/W14-040.pdf`） | identity（本机附件：`cards/identity/W14-040.md`） | `7d81d08341e14b89b21b4f85b851d29cc25c3867f59e65a44df5d04f3ad7adac` |
 | W14-041 | PR-7e427348e957 | 2002 | G16.01 | use（本机附件：`cards/uses/W14-041.md`） | PDF（本机附件：`sources/pdfs/W14-041.pdf`） | identity（本机附件：`cards/identity/W14-041.md`） | `0a54915251b9825dbb20c113cec7263a075362de1129f92af8cb1eda3d1c2e29` |
-| W14-042 | PR-2d1b8c64633a | 2025 | G10.02, G10.03 | use（本机附件：`cards/uses/W14-042.md`） | PDF（本机附件：`sources/pdfs/W14-042.pdf`） | identity（本机附件：`cards/identity/W14-042.md`） | `b7551d94624aaaa872ddb5db63ca3b60a7d92dd25a4dca35094032d51d64ea3f` |
+| W14-042 | PR-2d1b8c64633a | 2025（2024-05-02 在线） | G10.02, G10.03 | use（本机附件：`cards/uses/W14-042.md`） | PDF（本机附件：`sources/pdfs/W14-042.pdf`） | identity（本机附件：`cards/identity/W14-042.md`） | `b7551d94624aaaa872ddb5db63ca3b60a7d92dd25a4dca35094032d51d64ea3f` |
 | W14-044 | PR-1f3bf8a5a135 | 2026 | legacy / no new method ID | use（本机附件：`cards/uses/W14-044.md`） | PDF（本机附件：`sources/pdfs/W14-044.pdf`） | identity（本机附件：`cards/identity/W14-044.md`） | `7cced2fb87d5e1d7299df6c9849f31d7adf4a53877cd3ef073f242b7b1895361` |
 | W14-043 | PR-26f7f7c69865 | 2010 | G11.01, G11.03 | use（本机附件：`cards/uses/W14-043.md`） | PDF（本机附件：`sources/pdfs/W14-043.pdf`） | identity（本机附件：`cards/identity/W14-043.md`） | `cdf3ae437a2f3eedfcf40eb4d7ddb9fa2e901344e93cc10ea19369739999976a` |
 
@@ -51,3 +51,5 @@ See machine-readable accepted scope（本机附件：`references/accepted_scope_
 - W14-043: *Annals of Applied Probability* 21 (2011), 951–986.
 
 Page references in the existing use cards refer to their corresponding local read copies.
+
+W14-042 的正式引文使用 *Stochastic Systems* 15(1), 1–49 (2025)。在线发布日期为 2024 年 5 月 2 日。[期刊版](https://doi.org/10.1287/stsy.2023.0011)

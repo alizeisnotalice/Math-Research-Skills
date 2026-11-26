@@ -12,7 +12,7 @@
 
 6. 来源BFS有限终止需紧立方体、连续f、最长边二分及统一gap模量ψ(r)→0；维数收缩q_d=√((d−3/4)/d)，并无维数多项式复杂度。最终精确另需有限个非退化最小点。 这只是摘要；完整的全局极小点保留、统一模量、完整代公平搜索、经认证界与停止间隙条件，必须逐项通过当前 [Skill 的 C04-BFS-TERM-06 gate](../SKILL.md)，否则报告 gate 未满足。当前 exact-source 对应 P-922909d5e8e47a30 Appendix A, Algorithm 1/Theorem 2, PDF pp.19–20。
 
-7. P-deb72842d1067b4f原PDF完整，两栏续文的截断判断已撤回；Lemma3严格要求a≤c<d≤b。完整SOS层/收敛及外引仍待数学审核，见[完整性更正](source-completeness-correction.md)。有理/区间证书与浮点heuristic分开，中心立方体有限构型搜索不等于解析全尺度极大界。
+7. P-deb72842d1067b4f原PDF完整，两栏续文的截断判断已撤回；Lemma3严格要求a≤c<d≤b。理想 GLB 步骤 (12) 在非空紧盒上取严格正约束的上确界。有限阶 SOS 松弛 (8) 检查截断二次模成员关系。完整 SOS 层、收敛及外引仍待数学审核，见[完整性更正](source-completeness-correction.md)。有理/区间证书与浮点heuristic分开，中心立方体有限构型搜索不等于解析全尺度极大界。
 
 ## 不可省略的限制
 

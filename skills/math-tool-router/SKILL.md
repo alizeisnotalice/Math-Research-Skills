@@ -13,6 +13,8 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | 欧拉常数的有理区间、连分数和对数线性形式 | 按所给输入选择 [欧拉常数工具](../math-euler-constant-irrationality/SKILL.md)，运行相应的精确 Python 脚本。 |
 | 有理博弈策略、单色矩形互补块、有限图边卡组 | 按 [Google Cogentic 构件索引](../math-research/references/google-cogentic-2026-11-25.md) 选择精确算术或枚举脚本。 |
 | Diophantine 逼近的精确有限证书 | 用 [整数线性形式](../math-integer-linear-form-rates/SKILL.md) 转换已证高度与余项界，用 [Hankel–Padé](../math-hankel-pade-certificates/SKILL.md) 审查有限系数，用 [交错倒数连分数](../math-alternating-reciprocal-criteria/SKILL.md) 核对分母增长与截断。 |
+| 有端点消失条件的 Euler–Maclaurin 求积 | 用 [求积误差证书](../math-euler-maclaurin-quadrature-certificates/SKILL.md) 检查多项式、网格及误差的有理包围。 |
+| 标准化单峰分布的尖锐尾界 | 用 [单峰尾界证书](../probability-unimodal-tail-certificates/SKILL.md) 检查事件方向、阈值和取等构造。 |
 | 符号求导、恒等式、参数求解、高精度 | `mathematica-math` 或 `python-math` 的已验证符号环境。声明定义域、分支与精确输入。 |
 | 数值线性代数、ODE、优化、MAT 数据 | 按工具箱、已有代码和精度在当前 MATLAB MCP、MATLAB CLI 或 Python 数值栈之间选择。MATLAB 执行细节见 [MATLAB 工具说明](../math-research/references/tools.md#matlab)。 |
 | MATLAB 绘图和 FIG | `matlab-plotting`。保存可复现源码及实际导出文件。 |

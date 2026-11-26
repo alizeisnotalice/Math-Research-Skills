@@ -37,3 +37,7 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 在 JSON 的可选 `theorem_2_1` 段填入 `B`、`C`、`d`、`b` 和 `nonvanishing_prefix`，脚本会精确审计有限个 `m`。无论前缀多长，输出都会标为 `finite_prefix_only`；函数方程和无限子序列必须由独立证明材料承担。不要从“没有发现零点”、浮点近似或有限 Hankel 表推出定理的结论。
 
 输入格式及原文定位见 [references/source-and-scope.md](references/source-and-scope.md)。
+
+## 正矩的行列式整化
+
+若输入来自有限正测度的矩，另用 [Zudilin 正矩整化与容量检查](references/moment-hankel-irrationality-gates.md)。逐项核对无穷支撑、分母整除链、分母增长及容量衰减，再判断是否产生严格的无理性证书。

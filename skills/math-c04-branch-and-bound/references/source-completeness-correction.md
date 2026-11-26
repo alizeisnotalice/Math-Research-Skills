@@ -17,3 +17,5 @@
 独立receipt：`evidence/reviews/AUDIT_AB/round2-cd/P-deb-scoped-correction.json`，SHA-256 `77e9f8bd9edba61e4b1e606530f34770abad1ffcd8b00093e4d3348bb59b22fc`。
 
 原PDF SHA-256：`deb72842d1067b4fa98ad54677019c6a61e469f3b205f7fb4839659b59e447d1`。
+
+原文物理页 4 的理想 GLB 步骤 (12) 印为严格正约束下的最大值。对于非空紧盒上的连续 \(f\)，逐点严格正等价于 \(\lambda<\min f\)，因此应取上确界。原文物理页 3 的有限阶 SOS 松弛 (8) 检查 \(f-\lambda\in M^{(k)}\)，其中包括零多项式。例如 \(f=0\) 时允许 \(\lambda=0\)。[原稿](https://arxiv.org/abs/1609.01019v2)
