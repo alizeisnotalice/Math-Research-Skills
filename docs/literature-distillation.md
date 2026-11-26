@@ -131,3 +131,7 @@
 ## 现行引用与补取来源
 
 [本轮蒸馏和复核记录](active-citations-and-recovered-methods-2026-11-26.md)收录 371 份活跃引用核查、63 份补取版本、可调用工具及数学验收。
+
+## 历史文献按数学方法复核
+
+查 [历史文献索引](../skills/math-research/references/historical-sources/README.md) 和 [本轮验收记录](historical-source-reviews-2026-11-26.md)。来源卡记录用法和范围。可调用构件由对应技能提供复现脚本。

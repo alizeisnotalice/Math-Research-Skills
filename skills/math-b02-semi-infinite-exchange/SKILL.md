@@ -33,7 +33,7 @@ description: 处理半无限规划与约束生成，核对分离子问题、交�
 
 ## 非紧索引的截断检查
 
-用 [Gale 例的截断与尾部约束](references/gale-truncation-boundary.md) 复现一个有限截断最优值恒为 1、而全域对偶值为 0 的算例，并用精确见证检查下一条约束。
+用 [Gale 例的截断与尾部约束](references/gale-truncation-boundary.md) 复现一个有限截断最优值恒为 1、而全域对偶值为 0 的算例，并用精确见证检查下一条约束。 同一说明中的 Basu–Martin–Ryan 例用于检查可数约束的序列空间及有限支撑对偶。
 
 ## 证据与失败处理
 

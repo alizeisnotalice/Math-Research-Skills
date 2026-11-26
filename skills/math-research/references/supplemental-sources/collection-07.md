@@ -46,6 +46,7 @@
 - 原件。arXiv:2003.10616v1。PDF 物理页 1, 2, 3, 4, 5。SHA-256 8f599e72b8609f5be4a978f2aeb727d41a676b758478ebefb1114dde92c26c41。
 - Hankel 行列式有理逼近。Theorem 1; gamma example。正矩泛函与单项式完备性推出 Hankel 行列式比值单调收敛到泛函常数；文中为 gamma、Euler--Gompertz 常数和 zeta 值构造下逼近。
 - 构件候选。依赖 Hilbert 空间完备性及正性；gamma 例给出有理矩和指数尾核以验证假设。 已核对定理与 gamma 例，尚未分析行列式增长/误差，不能作为无理性证书。
+- 已验收构件。[正矩投影及三个常数的有理下界](../../../math-hankel-pade-certificates/references/hankel-projection-bounds.md)。
 
 ## EXT-0026 · Generalized factorials characterized by Dirichlet convolution
 

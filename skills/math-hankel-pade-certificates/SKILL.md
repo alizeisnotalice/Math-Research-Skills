@@ -1,6 +1,6 @@
 ---
 name: math-hankel-pade-certificates
-description: 对整数幂级数做精确 Hankel 行列式与 Padé 有限证书，并审计 Mahler–Hankel 定理的独立准入门槛；不以有限计算断言超越性或无理度指数。
+description: 对整数幂级数做精确 Hankel 行列式与 Padé 有限证书，核验正矩投影的有理下界，并审计 Mahler–Hankel 定理的独立准入门槛；不以有限计算断言超越性或无理度指数。
 ---
 
 # Hankel–Padé 有限证书
@@ -41,3 +41,7 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 ## 正矩的行列式整化
 
 若输入来自有限正测度的矩，另用 [Zudilin 正矩整化与容量检查](references/moment-hankel-irrationality-gates.md)。逐项核对无穷支撑、分母整除链、分母增长及容量衰减，再判断是否产生严格的无理性证书。
+
+## 正矩投影下界
+
+当目标值是未知的零阶矩、其余所需矩可精确计算时，用 [正矩投影的 Hankel 比值](references/hankel-projection-bounds.md) 求下界。对 γ、Euler–Gompertz 常数及 ζ(k) 可直接运行。报告有限的 Gram 子式检查和所用解析收敛条件。

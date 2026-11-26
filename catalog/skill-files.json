@@ -837,8 +837,8 @@
     },
     {
       "path": "skills/math-b02-semi-infinite-exchange/SKILL.md",
-      "sha256": "7de00d8919d4c786678d998bc5942a777f4c482ef3d551106de3e41048b4b3d0",
-      "bytes": 4733,
+      "sha256": "f8335a1f8a939e1c7c55c6e8d98a1cf072d78d59ce86e812817cbf6b175546d5",
+      "bytes": 4840,
       "mode": 420
     },
     {
@@ -873,8 +873,8 @@
     },
     {
       "path": "skills/math-b02-semi-infinite-exchange/references/gale-truncation-boundary.md",
-      "sha256": "6a27b2473ff5d5938d11ef542ed662438d707e69b11b30dd591bf10bdf75c108",
-      "bytes": 1559,
+      "sha256": "ed62b0bfd3484626fa56f1e07ac1d8b6ee8d5abf005d0dde2b222d774488ffe5",
+      "bytes": 2837,
       "mode": 420
     },
     {
@@ -2205,8 +2205,8 @@
     },
     {
       "path": "skills/math-e04-snell-envelope-optimal-stopping/SKILL.md",
-      "sha256": "87c87a9860391fc68de95a13d09d0d9d8161e0919c1c2bc2e3fbbe3b1b47c536",
-      "bytes": 7553,
+      "sha256": "114fa9bcdacc5618e7c889ce37a1f03ffdc833b7cdda23786a499f417c966034",
+      "bytes": 7837,
       "mode": 420
     },
     {
@@ -2231,6 +2231,12 @@
       "path": "skills/math-e04-snell-envelope-optimal-stopping/references/cube-interface.md",
       "sha256": "627b3f8dbe6473df3c57dc64c506a80206324989e23019a4f852b3f10fc38250",
       "bytes": 827,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e04-snell-envelope-optimal-stopping/references/finite-atomic-posterior-tree.md",
+      "sha256": "12f079334f319e935c5588abf41e8b69341261cf76c65fe9b962cd9f9b89445b",
+      "bytes": 2251,
       "mode": 420
     },
     {
@@ -2267,6 +2273,12 @@
       "path": "skills/math-e04-snell-envelope-optimal-stopping/references/verification-log-20261006.md",
       "sha256": "c396e8e0f6203e810480365237590868daee2cf11a61a82ce4a20d066bfbb7e9",
       "bytes": 2562,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e04-snell-envelope-optimal-stopping/scripts/check_finite_posterior_tree.py",
+      "sha256": "a89c81602245fe69cd6b7bb0fefdc083dcb67b3f07729260d5341e1e2bb0e5ad",
+      "bytes": 9536,
       "mode": 420
     },
     {
@@ -2355,8 +2367,8 @@
     },
     {
       "path": "skills/math-euler-constant-irrationality/SKILL.md",
-      "sha256": "766f2d8020e0996926d8f50505e6f3035463da00a9db9e18ad07bb01ef57261a",
-      "bytes": 4754,
+      "sha256": "6e99c85680b722e482fb1d4e39f22f04a54d380c1d14222534cf1f7f7f4d012c",
+      "bytes": 4955,
       "mode": 420
     },
     {
@@ -2391,8 +2403,8 @@
     },
     {
       "path": "skills/math-euler-constant-irrationality/references/methods.md",
-      "sha256": "0100de0f4b0e80acda1f0472ded11a5dd9ab09ac94ea9c8f13d531eedbb28f1a",
-      "bytes": 3073,
+      "sha256": "988ef21198d370a4b49ce34b2e332774224902b9d4526c8b59afac6d4abd80c7",
+      "bytes": 3421,
       "mode": 420
     },
     {
@@ -4293,8 +4305,8 @@
     },
     {
       "path": "skills/math-hankel-pade-certificates/SKILL.md",
-      "sha256": "bc1a5cd35908551e43acb9cadcf3e73bd05dae975336e9a8dfe0229b6db2d2ad",
-      "bytes": 2986,
+      "sha256": "b3f7c74a68a8fc4e3c2ab3f7fd050fd50cf3c0700019fd52148dbc25ebcc7e50",
+      "bytes": 3330,
       "mode": 420
     },
     {
@@ -4307,6 +4319,12 @@
       "path": "skills/math-hankel-pade-certificates/examples/positive-catalan.json",
       "sha256": "4f9563a355780a5b36c3369fc948d035a9ad15db995e85729c0d898408042a3e",
       "bytes": 346,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-hankel-pade-certificates/references/hankel-projection-bounds.md",
+      "sha256": "32bd6aeb50ed4f8ec539e4f3b742b8d5161aacd41e7e770f6be2f58e38515291",
+      "bytes": 3601,
       "mode": 420
     },
     {
@@ -4325,6 +4343,12 @@
       "path": "skills/math-hankel-pade-certificates/scripts/hankel_pade_certificate.py",
       "sha256": "5d95406e7783a1141adae6390c81e32d67bf0ae9530655991be5776b80b1ae06",
       "bytes": 9893,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-hankel-pade-certificates/scripts/hankel_projection_bounds.py",
+      "sha256": "e5475ac5bdc7fbf3ea3b50114e553cbd72c8ead336f706af188c84dd25c78ac0",
+      "bytes": 4173,
       "mode": 420
     },
     {
@@ -5961,14 +5985,26 @@
     },
     {
       "path": "skills/math-l04-mathematical-programming-workflow/SKILL.md",
-      "sha256": "1c6cd2c2d4d3bdb4c95c7842b03b8142fb8d037ec4306c05227c5301cef99a1d",
-      "bytes": 2279,
+      "sha256": "fdfe4db640c7b5057694100deee65df04a5dfc1e043b0f9d7f53bacbe474ffef",
+      "bytes": 2520,
       "mode": 420
     },
     {
       "path": "skills/math-l04-mathematical-programming-workflow/agents/openai.yaml",
       "sha256": "c31dc6f4ccaecf2ad26942b2a1be8aa39e7c7c414b79eda9c72111237825704c",
       "bytes": 340,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l04-mathematical-programming-workflow/examples/graver-augmentation-incomplete-directions.json",
+      "sha256": "01650b7b23bbdce5abea645b1c79494d85f98f2c2331751b2a91f2a07815932e",
+      "bytes": 251,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l04-mathematical-programming-workflow/examples/graver-augmentation-positive.json",
+      "sha256": "0e23c5173f6acd8f48028c7f9b222ca81343577b0cd200905262682ed4899783",
+      "bytes": 315,
       "mode": 420
     },
     {
@@ -5999,6 +6035,12 @@
       "path": "skills/math-l04-mathematical-programming-workflow/references/cube-interface.md",
       "sha256": "8e5b08b8109553d02ba9b7e7503e0ed8d8b9c340461dbd23982d3be860291ca3",
       "bytes": 647,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l04-mathematical-programming-workflow/references/graver-augmentation.md",
+      "sha256": "2a6f3d990cf6926d51a7e85c3eb39b273d1f40da42f3b45477294ddc462e8f6e",
+      "bytes": 2501,
       "mode": 420
     },
     {
@@ -6095,6 +6137,12 @@
       "path": "skills/math-l04-mathematical-programming-workflow/references/verification-log-20261006.md",
       "sha256": "4983effd75ab7adc1e9a96d525e0a7979c9ab0bf27b270511545cfc2afa1f33b",
       "bytes": 953,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l04-mathematical-programming-workflow/scripts/graver_augmentation_certificate.py",
+      "sha256": "73ee56f82f3a7178ea90da2a2c104f35f2294c6631a4657cacefa1e3b1b48e19",
+      "bytes": 11818,
       "mode": 420
     },
     {
@@ -7893,8 +7941,8 @@
     },
     {
       "path": "skills/math-research/SKILL.md",
-      "sha256": "8bf423617f288518b73d40ad0e3d3478504139cfb5cb1b0cde404c2ae6ba20f0",
-      "bytes": 5492,
+      "sha256": "cde84369da84db62a0e2fdef69e387cc784d55bfb40bd93145acf4de72e7ba34",
+      "bytes": 5680,
       "mode": 420
     },
     {
@@ -7919,6 +7967,42 @@
       "path": "skills/math-research/references/google-cogentic-2026-11-25.md",
       "sha256": "41cf3708971be0c8e252a38714c944db1b9233b05617db9ff11771b54c19431f",
       "bytes": 5980,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/README.md",
+      "sha256": "6781e854bdf01d92f163f176acd5e44c94492bd5f4109dc74df56c4b2968c0b4",
+      "bytes": 787,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/analysis.md",
+      "sha256": "95e7b815d84184e2a53980648f0b082b7cbd99661c044b725a132b21e30b72e4",
+      "bytes": 66252,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/arithmetic.md",
+      "sha256": "b6e943dbfe5465b1ddb1cd1d857ebfb7a6a4fb4b27460f524b4a2e3de3428fc5",
+      "bytes": 10343,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/optimization.md",
+      "sha256": "798044d4043e4cd84d78ddc2ed13aa611cdc798152235ef299d7ddf6fa52e51b",
+      "bytes": 95635,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/other.md",
+      "sha256": "a51def7e66e449921cfd21fb72ecb2ef35185a5063d88854d9c0f3721910b3ba",
+      "bytes": 20487,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/probability.md",
+      "sha256": "29480d433d6401b4b07b45e6d6fb879dd89ff65cf8d72bf51f03ec7d8b6cdb8e",
+      "bytes": 196493,
       "mode": 420
     },
     {
@@ -8019,8 +8103,8 @@
     },
     {
       "path": "skills/math-research/references/supplemental-sources/collection-07.md",
-      "sha256": "89f00b6692d142101ca1ed54d1b55db063b432ed4615f8bcdf108d37e2b0c126",
-      "bytes": 373233,
+      "sha256": "29d3f3a62e15f1bdc6c564ba74d67218d9de963021405087621cc54f242639ec",
+      "bytes": 373380,
       "mode": 420
     },
     {
@@ -8103,8 +8187,8 @@
     },
     {
       "path": "skills/math-tool-router/SKILL.md",
-      "sha256": "d88378ff8a343fb20208862dead23c93fe90d4746e573dc50373dea5c4ce07aa",
-      "bytes": 4045,
+      "sha256": "f30767dabb356fcf0854e68902273413724644403510127b03fe944241993810",
+      "bytes": 4489,
       "mode": 420
     },
     {

@@ -19,6 +19,7 @@ RUNTIME_SKILLS = {
         'math-gamma-meijer-cmf',
         'math-gamma-continued-fraction-recurrence',
         'math-integer-linear-form-rates',
+        'math-hankel-pade-certificates',
     ],
     'math-research': ['math-tool-router'],
     'math-tool-router': [

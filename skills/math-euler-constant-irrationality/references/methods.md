@@ -7,6 +7,7 @@
 | Padé、多重正交、超几何积分与递推 | 固定归一化，导出系数表达式和余项，复现小指标，再分开计算逼近误差、分母、原始系数高度和约分后整数线性形式。Wolfs–Van Assche 的多重正交构造提供公开基准。 [正式版](https://doi.org/10.2140/cnt.2025.14.141) |
 | 递推发现、连分数与 Meijer G | 从候选递推恢复初值及趋向 γ 的证明，核对整数增益。Kalisch 等的 Apéry 型递推族用于生成和比较候选，所用分支须回到原文。 [arXiv v1](https://arxiv.org/abs/2610.13919v1) |
 | 分数部分与对数形式 | Sondow 给出与 γ 无理性相关的分数部分判据。例如 {log Sₙ}>2⁻ⁿ 对无穷多个 n 成立即可，Sₙ 取原文定义。有限验证须列明排除的是哪些分母以及量词。 [作者稿 v2，列正式期刊题录](https://arxiv.org/abs/math/0209070v2) |
+| 正矩、Hankel 与容量 | 由 [Ferguson 正矩投影](../../math-hankel-pade-certificates/references/hankel-projection-bounds.md) 获得单调有理下界。准备用 [Zudilin 整化](../../math-hankel-pade-certificates/references/moment-hankel-irrationality-gates.md) 时，另核对共同正测度支撑、分母链与统一容量衰减。 |
 | 指数算子和算术 Gevrey | 用对象所属的环、连接系数、取值点和奇点类型匹配定理。Fischler–Rivoal 的相关丢番图后果含明确猜想条件，先把依赖关系图写出来。 [J. Number Theory 261 (2024), 36–54 的作者稿](https://arxiv.org/abs/2301.13518v1) |
 | 查旧结果或已知错误 | 先读 Lagarias 的综述定位历史工作。怀疑现有证明的定理转移或分母结论时，核对原文和勘误。 [Lagarias 综述](https://arxiv.org/abs/1303.1856v6) · [Coffey–Sondow 反驳](https://arxiv.org/abs/1202.3093v4) |
 

@@ -45,6 +45,10 @@ description: 处理最优停止与 Snell 包络，核对滤过、可积性、停
 6. singular-control 跳点逆映射须明确 `dG=e^ξdξ` 和 Stieltjes 积分使用的前/后跳值。按源 Problem 2.4 的字面 post-jump 被积函数 `e^{-ξ(s)}` 解释时，单位 `G` 原子不能由有限 `ξ` 跳满足该关系；原文没有明确这一跳值约定，故将 Theorem 4.2(d) 的 jump optimizer correspondence 保持为 convention-dependent unresolved，不把条件性计算泛化为对所有解释的反例。
 
 7. 连续时间Snell需右连续、class-D等适用假设；一般信息流论文没有证明经典Snell最小超鞅定理，不能充当该定理来源。
+## 有限原子终端律的后验树
+
+给定有限树、节点后验和可测停时，用 [后验树与停止证书](references/finite-atomic-posterior-tree.md) 精确检查每步重心、停止后的终端律和该树内的 Snell 值。连续控制问题另需核对可采纳类。
+
 ## 证据与失败处理
 
 有限离散Snell是已检查构件。一般信息流来源允许随机化剩余质量，有限T负奖励给其值等价反例；缺终端质量/未停收益约定时不引用该等价。连续时间和无界停止需独立正则性及可选抽样条件。
