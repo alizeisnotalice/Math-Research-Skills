@@ -18,6 +18,7 @@ RUNTIME_SKILLS = {
         'math-gamma-multiple-laguerre-approximants',
         'math-gamma-meijer-cmf',
         'math-gamma-continued-fraction-recurrence',
+        'math-integer-linear-form-rates',
     ],
     'math-research': ['math-tool-router'],
     'math-tool-router': [
@@ -38,7 +39,7 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
 def category(name):
     if name == 'math-research': return 'orchestration'
     if re.match(r'math-[a-n]\d\d-',name): return 'methods'
-    if name in {'math-centered-cube-endpoint-budget','math-discrete-proof-transfer','euclidean-tensor-geometry','math-euler-constant-irrationality','math-sondow-log-fractional-certificate','math-gamma-multiple-laguerre-approximants','math-gamma-meijer-cmf','math-gamma-continued-fraction-recurrence','math-openai-arithmetic-determinants','math-bimatrix-kite-mixing','math-logrank-rectangle-rank-halving','math-edge-deck-reconstruction-audit'}:
+    if name in {'math-centered-cube-endpoint-budget','math-discrete-proof-transfer','euclidean-tensor-geometry','math-euler-constant-irrationality','math-sondow-log-fractional-certificate','math-gamma-multiple-laguerre-approximants','math-gamma-meijer-cmf','math-gamma-continued-fraction-recurrence','math-openai-arithmetic-determinants','math-bimatrix-kite-mixing','math-logrank-rectangle-rank-halving','math-edge-deck-reconstruction-audit','math-integer-linear-form-rates','math-hankel-pade-certificates','math-alternating-reciprocal-criteria'}:
         return 'research-specialists'
     if name.startswith('probability-'): return 'probability'
     if name.startswith('math-modeling-'): return 'modeling'

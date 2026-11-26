@@ -118,6 +118,12 @@
 
 [Google Cogentic 数学论文蒸馏与验收](../skills/math-research/references/google-cogentic-2026-11-25.md)记录六份固定版本、实际依赖、三个新增入口和有限群证书。
 
+## 补充文献与 Diophantine 逼近工具
+
+[补充文献索引](../skills/math-research/references/supplemental-sources/README.md)记录已查物理页、版本与范围。[Diophantine 构件验收](supplemental-diophantine-acceptance.md)记录新增和扩展的四条数学接口。
+
+[既有技能的来源复核](existing-skills-source-recheck-2026-11-26.md)收录可测选择的 HK/HKP 范围修订与 Cramér 中偏差的模型分流。
+
 ## 同期其他公开稿
 
 [95 份逐篇来源核对](../skills/math-research/references/recent-non-openai-sources.md)保留作者公开身份、原文页、方法与依赖，按八类主题可查。编入工具的是定宽整数递推、模素数余秩估值、Löwner 差商的有限 Gram 特例。已分别运行精确字段比较和有理线性代数回放，论文中的全局指数与形式化声称保留其证据边界。

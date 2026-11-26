@@ -22,7 +22,7 @@ description: 分析完全正锥和共正锥表述，核对锥对偶、有限近�
 1. CP 定义为有限和 `Σ_k v_kv_kᵀ`（`v_k≥0`），COP 定义为 `xᵀAx≥0` 对所有 `x≥0`；采用迹内积。CP=COP* 可由有限维锥对偶直接证明：CP 的迹 1 截面是紧集 `B={uuᵀ:u≥0,‖u‖=1}` 的凸包，因而紧；若 `X_j∈CP` 且 `X_j→X`，令 `t_j=tr X_j`，当 `t_j→0` 时 PSD 性给 `X=0∈CP`，当 `t_j→t>0` 时将 `X_j/t_j` 取迹 1 截面的收敛子列，得 `X∈CP`，故 CP 闭。迹内积下 `CP*=COP` 由定义，双极定理得 `COP*=CP**=CP`。先验证提升保留非负可实现性。
 2. 不把逐项非负PSD(DNN)普遍视为CP；需要可行非负分解或适用的低维定理。
 3. P-8656e750bc1e0cf5以R₊ⁿ上独立均值1指数测度构造y_α=∏α_i!及C_d={A:M_d((xᵀAx)y)⪰0}。
-4. 方向为 `C₀⊇C₁⊇…⊇COP` 且 `∩_d C_d=COP`；固定 `d` 可行仅是 COP 必要条件，不能当有限阶共正证书。C02 来源 P-8656 Theorem 2.1（PDF pp.4–5）所引 [12, Theorem 3.3] 的精确全文版本为 Lasserre arXiv:1009.0125v1（2010-09-01），Theorem 3.3（PDF pp.6–7）；后续 v2/v3 与 repository author copy 将对应结果编号为 Theorem 3.4。对 `K=R₊ⁿ`、`f=f_A`、`dμ=∏ᵢe^(−xᵢ)1_{xᵢ≥0}dxᵢ`、`y_α=∏ᵢαᵢ!`，闭性、连续性、`supp μ=K`、每个 `x^αf_A` 的绝对可积性和每个坐标每个固定整数移位 `s≥0` 的 Carleman 发散均已核验；`M_d(z)=M_d(f_Ay)`，故此处可引用其无限交结论。证明仍依赖未独立重证的 Berg Proposition 2.1 与 Nussbaum Carleman 扩展；不升级为独立证明。
+4. 方向为 `C₀⊇C₁⊇…⊇COP` 且 `∩_d C_d=COP`；固定 `d` 可行仅是 COP 必要条件，不能当有限阶共正证书。C02 来源 P-8656 的 PDF p.4 印作 [12, Theorem 3.2]，该紧集定理无法覆盖非紧正交锥。这里实际使用的非紧版本为 Lasserre arXiv:1009.0125v1（2010-09-01），Theorem 3.3（PDF pp.6–7）；后续 v2/v3 与 repository author copy 将对应结果编号为 Theorem 3.4。对 `K=R₊ⁿ`、`f=f_A`、`dμ=∏ᵢe^(−xᵢ)1_{xᵢ≥0}dxᵢ`、`y_α=∏ᵢαᵢ!`，闭性、连续性、`supp μ=K`、每个 `x^αf_A` 的绝对可积性和每个坐标每个固定整数移位 `s≥0` 的 Carleman 发散均已核验；`M_d(z)=M_d(f_Ay)`，故此处可引用其无限交结论。证明仍依赖未独立重证的 Berg Proposition 2.1 与 Nussbaum Carleman 扩展；不升级为独立证明。
 5. 对偶C_d*是CP的嵌套内逼近，保留PSD矩像的闭包及CP=cl(∪C_d*)；不能删cl或声称任意CP矩阵有限阶可表示。
 6. 写明PSD基大小binom(n+d,d)与阶数，不把渐近收敛说成速度或普遍有限终止；核验每个优化界方向与数值证书。
 

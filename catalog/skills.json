@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 12,
+    "research-specialists": 15,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -133,6 +133,13 @@
       "category": "methods",
       "path": "skills/math-a04-shared-nonanticipative-mip/SKILL.md",
       "family": "a"
+    },
+    {
+      "name": "math-alternating-reciprocal-criteria",
+      "title": "交错倒数和的连分数判据",
+      "description": "用 Sondow 的交错倒数和—连分数判据，严格区分可证明的无理性、有限前缀核验，以及需要整条简单连分数假设的超越性结论。适用于 Pierce 展开或快速增长分母的交错倒数和；不用于仅凭数值近似宣称无理或超越。",
+      "category": "research-specialists",
+      "path": "skills/math-alternating-reciprocal-criteria/SKILL.md"
     },
     {
       "name": "math-b01-lagrange-farkas",
@@ -325,7 +332,8 @@
         "math-sondow-log-fractional-certificate",
         "math-gamma-multiple-laguerre-approximants",
         "math-gamma-meijer-cmf",
-        "math-gamma-continued-fraction-recurrence"
+        "math-gamma-continued-fraction-recurrence",
+        "math-integer-linear-form-rates"
       ]
     },
     {
@@ -502,6 +510,13 @@
       "family": "h"
     },
     {
+      "name": "math-hankel-pade-certificates",
+      "title": "Hankel–Padé 有限证书",
+      "description": "对整数幂级数做精确 Hankel 行列式与 Padé 有限证书，并审计 Mahler–Hankel 定理的独立准入门槛；不以有限计算断言超越性或无理度指数。",
+      "category": "research-specialists",
+      "path": "skills/math-hankel-pade-certificates/SKILL.md"
+    },
+    {
       "name": "math-i01-ordered-increment-conditional-bernstein",
       "title": "I01 · 有序增量条件 Bernstein 矩",
       "description": "在有序滤过下核验条件 Bernstein 矩并推导指数超鞅与尾界，区分条件和无条件假设。",
@@ -532,6 +547,13 @@
       "category": "methods",
       "path": "skills/math-i04-random-carleson-occupancy-llogl/SKILL.md",
       "family": "i"
+    },
+    {
+      "name": "math-integer-linear-form-rates",
+      "title": "整数线性形式的高度与余项",
+      "description": "用已经证明的整数线性形式高度与双边余项界，生成给定分母的有理逼近下界或推导无理性指数上界。适用于核对 Apéry 型证据和同时逼近的非消失条件。",
+      "category": "research-specialists",
+      "path": "skills/math-integer-linear-form-rates/SKILL.md"
     },
     {
       "name": "math-j01-inhomogeneous-jump-generator",

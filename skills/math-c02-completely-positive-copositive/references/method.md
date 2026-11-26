@@ -17,7 +17,7 @@
 
 4. 来源 P-8656e750bc1e0cf5 的 Theorem 2.1 (PDF pp.4–5) 给出
    `C₀⊇C₁⊇…⊇COP` 及 `∩_d C_d=COP`；固定 `d` 可行仅是 COP 必要条件，
-   不能当有限阶共正证书。该文所引 [12, Theorem 3.3] 的精确全文版本为
+   不能当有限阶共正证书。该文 PDF p.4 印作 [12, Theorem 3.2]，适用非紧正交锥的定理实际来自
    Lasserre arXiv:1009.0125v1 (2010-09-01), Theorem 3.3 (PDF pp.6–7)；后续
    v2/v3 与 repository author copy 将对应结果编号为 Theorem 3.4。对本层级取
    `K=R₊ⁿ`、`f=f_A`、`dμ=∏ᵢe^(−xᵢ)1_{xᵢ≥0}dxᵢ`、`y_α=∏ᵢαᵢ!`：`K` 闭、

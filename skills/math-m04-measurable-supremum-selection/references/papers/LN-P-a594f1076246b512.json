@@ -88,7 +88,7 @@
       "assumptions": [
         "Γ:[0,1]→cwk(X) is scalar measurable, X any Banach space."
       ],
-      "statement": "Γ is Henstock–Kurzweil–Pettis integrable iff every scalar-measurable selection of Γ is Henstock integrable; the HKP multivalued integral equals the set of integrals of its HKP-integrable selections on each interval.",
+      "statement": "The theorem statement uses Henstock integrability for the selections, while the displayed proof obtains scalar HK inequalities and identifies an HKP-integrable selection. Keep the closure in the integral-set formula and consult the later scoped source recheck for the limits of this evidence.",
       "start_line": 330,
       "end_line": 393,
       "pdf_pages": [
@@ -102,7 +102,8 @@
       ],
       "gaps": [
         "Proof is explicitly a sketch and invokes prior measurable-selection results and James characterization.",
-        "This uses a fixed linear functional exposed face, not a measurable selector of maximizers over a general parameterized optimization problem."
+        "This uses a fixed linear functional exposed face, not a measurable selector of maximizers over a general parameterized optimization problem.",
+        "PDF pp. 8–9: the proof does not establish strong norm Henstock integrability or a closure-free integral-set equality."
       ]
     },
     {

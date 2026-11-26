@@ -17,6 +17,7 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 - 从 Poisson 调和数的单对数展开认证有限残差符号，用 [Poisson 调和区间](references/poisson-harmonic-enclosures.md)。
 - 对逐尺度对数项、Euler–Gompertz 辅助常数或很快的有理逼近，用 [混合形式和高度](references/mixed-log-height-audit.md)。
 - 对二进制级数和有限 Gregory 恒等式，用 [有限有理级数](references/finite-rational-series.md)。
+- 当整系数余项及高度已有证明，用 [整数线性形式的指数率](../math-integer-linear-form-rates/SKILL.md) 推导逼近下界和无理性指数门槛。
 - 对 E/G 函数、1-求和与算术和乐候选路线，读 [算术 Gevrey 与 CDT 接口](references/arithmetic-gevrey.md)。需要检查普通 E-逼近、含对数扩展或和乐界能否应用时，用 [E-算子与和乐界准入](references/e-operator-holonomy-admission.md)。
 
 - 设计行列式或研究伴随常数的局部消元时，读 [OpenAI 算术行列式构造](../math-openai-arithmetic-determinants/SKILL.md)。先证明目标矩与消元机制对应。

@@ -6,7 +6,7 @@
 
 来源是 OpenAI, *The irrationality exponent of pi is 2*，2026-09-24，Lemma 3.1、式 (3.1)--(3.8)，PDF 12--13 页。本机原件为
 
-`/Volumes/data/Math_Research_Literature/02_Recent_Math_Papers/OpenAI/current/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf`
+`/Volumes/共享/Math_Research_Literature/02_Recent_Math_Papers/OpenAI/current/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf`
 
 其 SHA-256 是 `26eec5de7ac9dc49d28183fdea458e0858bc3323b5ba93c3d41bb105d8e3eab6`。页级提取件是
 
