@@ -1,0 +1,25 @@
+{
+  "rows": [[1, 1, 0], [1, 1, 1], [0, 1, 1]],
+  "tree": {
+    "kind": "split",
+    "a_rows": [0, 1],
+    "b_cols": [0, 1],
+    "low_rank_branch": "A_x_Bc",
+    "low_child": {
+      "kind": "split",
+      "a_rows": [0],
+      "b_cols": [2],
+      "low_rank_branch": "A_x_Bc",
+      "low_child": null,
+      "residual_child": {"kind": "leaf"}
+    },
+    "residual_child": {
+      "kind": "split",
+      "a_rows": [2],
+      "b_cols": [1, 2],
+      "low_rank_branch": "A_x_Bc",
+      "low_child": {"kind": "leaf"},
+      "residual_child": null
+    }
+  }
+}

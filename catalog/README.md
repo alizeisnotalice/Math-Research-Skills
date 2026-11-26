@@ -145,7 +145,7 @@
 | [math-hbl-finite-presentation](../skills/math-hbl-finite-presentation/SKILL.md) | 对已给定的有理有限子空间图和边权，精确核验 HBL 有效表示并分解平衡边流；不搜索表示或计算一般 HBL 常数。 |
 | [math-honeycomb-finite-boundary-flux](../skills/math-honeycomb-finite-boundary-flux/SKILL.md) | 在有限、单连通蜂窝三角形域中认证零环权重的带相位边界通量恒等式及凸域正性界；不用于条带渐近、桥质量或一般自避游走。 |
 | [math-integer-linear-form-rates](../skills/math-integer-linear-form-rates/SKILL.md) | 用已经证明的整数线性形式高度与双边余项界，生成给定分母的有理逼近下界或推导无理性指数上界。适用于核对 Apéry 型证据和同时逼近的非消失条件。 |
-| [math-logrank-rectangle-rank-halving](../skills/math-logrank-rectangle-rank-halving/SKILL.md) | 从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把已给定的矩形密度界转为 rank-halving 协议递推。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。 |
+| [math-logrank-rectangle-rank-halving](../skills/math-logrank-rectangle-rank-halving/SKILL.md) | 从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。 |
 | [math-openai-arithmetic-determinants](../skills/math-openai-arithmetic-determinants/SKILL.md) | 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。 |
 | [math-sondow-log-fractional-certificate](../skills/math-sondow-log-fractional-certificate/SKILL.md) | 从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。 |
 

@@ -33,3 +33,7 @@ Bimatrix Games*，本机原件 SHA-256
 ## 策略舍入
 
 策略迭代需要有理格点时，用[精确分母单纯形舍入](references/simplex-denominator-rounding.md)。给定维数 \(d\) 和分母 \(D\)，舍入保持总质量、采用固定规则处理并列，且 \(\ell^1\) 误差至多 \(d/D\)。
+
+## 双矩阵博弈的零和安全值
+
+给定两个零和 LP 的有理解时，使用 [安全值证书](references/security-screen-certificate.md) 核对原始与对偶可行性、最优值匹配，以及对应 minimax 策略对的精确后悔上界。

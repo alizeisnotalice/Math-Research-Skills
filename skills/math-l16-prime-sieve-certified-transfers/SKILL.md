@@ -78,3 +78,9 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 ## 有限算术级数上的筛坐标
 
 给定互异筛素数、整数区间与非退化等差参数时，用 [CRT 与容斥](references/jacobsthal-progression-coordinate-crt.md)核对排除剩余类、有限幸存数以及周期平均的误差。
+
+## 平方根见证与给定指数的有限分裂
+
+已提供奇整数的完整素数幂分解、参考根和固定掩码时，用 [Dixon 平方根概率](references/cogentic-dixon-transcript.md) 核验平方同余，按 CRT 和二元秩计算条件分裂概率。
+
+已提供正整数指数 \(E\)、单位底数 \(a\bmod n\) 和待检的素因子 \(q\mid E\) 时，用 [给定指数的分裂检查](references/cogentic-supplied-exponent-splitting.md) 核对 \(a^E\equiv1\pmod n\) 和 \(\gcd(a^{E/q}-1,n)\)。介于 \(1\) 和 \(n\) 之间的 gcd 是因子证书。

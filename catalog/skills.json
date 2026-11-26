@@ -852,7 +852,7 @@
     {
       "name": "math-logrank-rectangle-rank-halving",
       "title": "单色矩形与秩减半接口",
-      "description": "从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把已给定的矩形密度界转为 rank-halving 协议递推。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。",
+      "description": "从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。",
       "category": "research-specialists",
       "path": "skills/math-logrank-rectangle-rank-halving/SKILL.md"
     },

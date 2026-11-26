@@ -59,3 +59,5 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 ## 模整数的线性关系
 
 给定完整的有限矩阵关系时，调用[模整数线性消元](references/modular-unimodular-relations.md)，用 Bézout 行操作寻找可逆主元，并检查消元后的多余行及原始方程残差。
+
+若关系来自一个已经给定的有限循环单位群，且需要同时核对群等式与由满张成关系推出的指数，读[有限循环关系证书](references/cogentic-cyclic-relation-certificates.md)。检查器要求每个群元素的指数模数幂为一，逐条复算关系，再执行模线性消元并复算结论幂等式。

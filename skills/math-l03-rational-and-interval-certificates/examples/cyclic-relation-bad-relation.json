@@ -1,0 +1,10 @@
+{
+  "group_modulus": 17,
+  "exponent_modulus": 16,
+  "generator": 3,
+  "elements": [5, 10],
+  "relations": [
+    {"coefficients": [2, 3], "rhs": 4},
+    {"coefficients": [1, 1], "rhs": 8}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "n": 45,
+  "prime_powers": [[3, 2], [5, 1]],
+  "reference_roots": [2, 7],
+  "trials": [
+    {"indices": [0], "target": 2},
+    {"indices": [1], "target": 7},
+    {"indices": [0, 1], "target": 14}
+  ]
+}

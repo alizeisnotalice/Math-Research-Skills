@@ -13,6 +13,22 @@
 
 本机来源目录名为 `10_Google_Cogentic_2026-11-25/PDF/`。11 月 26 日与仓库主分支比较，五篇 PDF 的字节一致。双矩阵博弈更新版仍为 41 页，SHA-256 为 `32196e6a64d13fbd216c7e7353a3b44a46e8389eb3d15bad48ffb3dd926cc337`，更新了 Li–Li 的既有结果比较及出处。两版的 kite 定义、Lemma 2.3(a) 与其证明一致。[更新版论文目录](https://github.com/google-research/google-research/tree/master/cogentic_research_papers/bimatrix_nash_equilibrium)
 
+
+## 第三次蒸馏与实际验收
+
+本机的六份原件 SHA-256 和 274 个物理页已重新核对。以 Google Research 主分支解析到的固定提交 `3f540f420bfa` 重新获取原稿，五篇逐字节一致，双矩阵博弈的 41 页修订版哈希为 `32196e6a64d13fbd216c7e7353a3b44a46e8389eb3d15bad48ffb3dd926cc337`。本轮核对的 Lemma 2.2 零和原始及对偶 LP 与推导在两版一致。六份原稿的说明仍将 Lean 4 工程指向伴随发布，本轮没有取得工程进行编译。[本轮核对的固定 Google Research 目录](https://github.com/google-research/google-research/tree/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers)
+
+| 原件 | 原文定位与本轮接入 | 实际调用结果 |
+| --- | --- | --- |
+| 01 整数分解 | 物理页 44，Lemma 5.3。核对给定分解、平方根与掩码，按 CRT 和二元秩计算给定记录下的概率。共用隐藏根的多掩码推导另列。[Dixon 条件概率](../../math-l16-prime-sieve-certified-transfers/references/cogentic-dixon-transcript.md) | 对模数 15、45、105 枚举根集合，精确比对 180 组输入。样例三条相关掩码的秩为 2，至少一次分裂的概率为 \(3/4\)。 |
+| 02 离散对数 | 物理页 30–31，Lemma 6.3(2)。在给定单位群中代回每条乘积关系、模线性消元和最终幂等式。[循环关系证书](../../math-l03-rational-and-interval-certificates/references/cogentic-cyclic-relation-certificates.md) | 模 17 得到指数 \((5,3)\)，检测了错误关系和欠定系统。 |
+| 03 双矩阵博弈 | 物理页 6–7，Lemma 2.2。用两组有理零和 LP 对偶见证，得到 minimax 策略对的后悔上界。[零和安全值证书](../../math-bimatrix-kite-mixing/references/security-screen-certificate.md) | 枚举核验 256 个 \(2\times2\) 零一收益矩阵对，并拒绝了篡改的 minimax 见证。 |
+| 04 确定性整数分解 | 物理页 55–57。检查给定的指数、底数和待检素因子，并认证 gcd 分裂结果。[给定指数分裂](../../math-l16-prime-sieve-certified-transfers/references/cogentic-supplied-exponent-splitting.md) | 对 \(n=91,a=2,E=12\)，\(q=2\) 给出因子 7，\(q=3\) 得到 gcd 1，合数输入 \(q=4\) 被拒绝。 |
+| 05 Log-Rank | 物理页 35–36，Proposition A.3。逐节点核验给定递归的单色块、交叉块秩及完全覆盖。[协议分割树证书](../../math-logrank-rectangle-rank-halving/references/protocol-tree-certificate.md) | \(3\times3\) 样例有 3 个分割节点、5 个单色叶。非单色叶被拒绝。 |
+| 06 边重构 | 物理页 10–11，Lemma 2.3。在已知原图无孤立点且 \(4\le n\le6,m\ge4\) 的有限接口中，从边卡组用三角反演恢复顶点删除卡组。[顶点卡组恢复](../../math-edge-deck-reconstruction-audit/references/vertex-deck-from-edge-deck.md) | 核对了 26 个 \(n=4,5\) 的无标号图及六环样例，并拒绝有孤立点的图输入。 |
+
+六个构件均用本机 Python 3.13.18 执行整数或有理数回放。原稿中的全局复杂度、\(1/5\) 近似保证、统一单色矩形密度与一般线性密度边重构分别留有独立证明依赖。本机欧拉常数专题可复用整数同余或有限群证书；这批原稿没有给出 \(\gamma\) 的整数线性形式或全指标的非零与衰减界。
+
 ## 博弈、通信复杂性与图
 
 - **双矩阵博弈的 \(1/5\) 近似。** 物理页 2–3，Theorem 1.1，原稿声称有理收益的确定性多项式时间保证。采用的是物理页 7–10 的 Lemma 2.3(a)。对已有策略，认证 kite 条件后做一次精确最佳回应混合。滤波、Volterra 不等式和全域有理代数证书构成主定理的未独立核验链。[双矩阵 kite 混合](../../math-bimatrix-kite-mixing/SKILL.md)
