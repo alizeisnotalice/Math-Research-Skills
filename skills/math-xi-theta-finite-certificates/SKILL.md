@@ -18,3 +18,5 @@ Read the source contracts before use:
 - [Mesh-to-polynomial positivity gate](references/van-hemert-theta-mesh-gate.md)
 - [Exact degree-10 cross-endpoint polynomial sublemma](references/van-hemert-degree10-sublemma.md)
 - [Wronskian-to-Hankel-minor transfer](references/sra-wronskian-hankel-transfer.md)
+
+- [Sra v1 的有限 PF_10 回放](references/sra-riem-xi-v1-pf10-replay.md)

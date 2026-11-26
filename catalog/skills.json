@@ -776,7 +776,7 @@
     {
       "name": "math-finite-graph-family-witnesses",
       "title": "Finite graph-family witnesses",
-      "description": "Reproduce exact finite graph-family witnesses for triameter/peripherality and decorated-tree independence-polynomial sign separation.",
+      "description": "核验显式有限图族的三直径、装饰树独立多项式、后继色路径与 Mycielski 张量图的奇窗口着色见证。",
       "category": "research-specialists",
       "path": "skills/math-finite-graph-family-witnesses/SKILL.md",
       "specialty": "discrete-combinatorics-games",
@@ -811,8 +811,8 @@
     },
     {
       "name": "math-free-group-presentation-traces",
-      "title": "Finite Andrews--Curtis presentation traces",
-      "description": "Verify a finite Andrews--Curtis trace on an ordered free-group presentation using exact free reduction and reversible move semantics; not a search engine or a decision procedure.",
+      "title": "Free-group transformations and group word certificates",
+      "description": "核验有限 Andrews–Curtis 自由群表示轨迹，以及已给成员关系时的带并自由积正规形见证。",
       "category": "research-specialists",
       "path": "skills/math-free-group-presentation-traces/SKILL.md",
       "specialty": "algebra-representation-operator-cohomology",
@@ -2220,8 +2220,8 @@
     },
     {
       "name": "probability-forests-electrical-networks",
-      "title": "Probability on forests and electrical networks",
-      "description": "Analyze uniform and minimal spanning forests, electrical networks, mass transport, unimodular random networks, and related finite spanning-tree inequalities.",
+      "title": "Forests, electrical networks, and random walks",
+      "description": "Analyze finite or infinite spanning forests, electrical networks, random walks and resistance using the stated graph, boundary, measure, and source-specific transfer conditions.",
       "category": "probability",
       "path": "skills/probability-forests-electrical-networks/SKILL.md"
     },
@@ -2242,14 +2242,14 @@
     {
       "name": "probability-harmonic-measure-coding",
       "title": "Harmonic measures, tree boundaries, and coding comparisons",
-      "description": "Analyze harmonic and boundary measures on trees, symbolic codings, exact dimensions, and equivalence versus singularity of pushforward measures on a common metric space.",
+      "description": "Analyze harmonic and boundary measures on trees, symbolic codings, exact dimensions, and equivalence or singularity of pushforward measures on a common metric space.",
       "category": "probability",
       "path": "skills/probability-harmonic-measure-coding/SKILL.md"
     },
     {
       "name": "probability-infection-witness-methods",
       "title": "Infection witnesses and closure certificates",
-      "description": "Build and audit finite causal witnesses for deterministic monotone infection closures, with separate model routes for random-set zero forcing, synchronous graph-H bootstrap, and Hamming-plane Young growth.",
+      "description": "Build and audit finite activation witnesses for specified deterministic infection, zero-forcing, graph-bootstrap, or Young zero-set rules while keeping the host, update clock, and target observable fixed.",
       "category": "probability",
       "path": "skills/probability-infection-witness-methods/SKILL.md"
     },
@@ -2350,7 +2350,7 @@
     {
       "name": "probability-prophet-online-selection",
       "title": "Prophet inequalities and online selection",
-      "description": "Analyze prophet inequalities, optimal thresholds, online resource allocation, and stochastic matching while preserving the arrival model and benchmark.",
+      "description": "Analyze prophet inequalities, thresholds, online allocation, and stochastic matching while preserving the arrival model and benchmark.",
       "category": "probability",
       "path": "skills/probability-prophet-online-selection/SKILL.md"
     },
@@ -2385,7 +2385,7 @@
     {
       "name": "probability-random-spatial-tree-geometry",
       "title": "Random spatial networks, tree walks, and boundary measures",
-      "description": "Route questions across spatial network geometry, random-tree walks and boundary measures only after fixing the exact model; use the locally scoped, independently reviewed theorem interfaces and keep open maximum, monotonicity, and cross-model transfers explicit.",
+      "description": "Analyze spatial-network routes, random-tree walks, and boundary measures after fixing the exact model, observable, bias convention, and sampling law.",
       "category": "probability",
       "path": "skills/probability-random-spatial-tree-geometry/SKILL.md"
     },
@@ -2398,8 +2398,8 @@
     },
     {
       "name": "probability-renewal-palm-coupling",
-      "title": "Renewal, Palm, and exact coupling",
-      "description": "Analyze renewal and Palm sampling, queueing recurrence and stationary limits, and when a coupling yields exact or total-variation convergence.",
+      "title": "Renewal, Palm, and coupling routes",
+      "description": "Analyze renewal and Palm sampling, queue recurrence and stationary limits, and couplings that establish exact or total-variation convergence.",
       "category": "probability",
       "path": "skills/probability-renewal-palm-coupling/SKILL.md"
     },
@@ -2413,21 +2413,21 @@
     {
       "name": "probability-spectral-perturbation-certificates",
       "title": "Spectral perturbation and strict gap certificates",
-      "description": "Audit a parameterized family of finite reversible chains or other finite-dimensional spectral problems for eigenvalue crossings, derivatives, Poisson response, changing stationary measures or rigorous parameter intervals.",
+      "description": "Audit finite reversible chains and finite-dimensional spectral families for gap, crossing, derivative, response, or rigorously enclosed eigenvalue claims.",
       "category": "probability",
       "path": "skills/probability-spectral-perturbation-certificates/SKILL.md"
     },
     {
       "name": "probability-stationary-law-interfaces",
       "title": "Stationary-law interfaces",
-      "description": "Prove or audit stationary laws for Markov environments, tree flows, IPS and drift-jump systems; use for generator/core, flux, coupling, Palm/occupation, regeneration, or projective-limit arguments.",
+      "description": "Prove or audit stationary laws for Markov environments, tree flows, interacting systems, and drift-jump processes through generator, flux, coupling, Palm, regeneration, or prefix methods.",
       "category": "probability",
       "path": "skills/probability-stationary-law-interfaces/SKILL.md"
     },
     {
       "name": "probability-stochastic-geometry-localization",
       "title": "Stochastic geometry, coverage, and localization",
-      "description": "Prove or audit Poisson growing-ball cover-time and spatial-network localization claims, including measure optimization, Poissonization, and boundary tails, while checking the exact model and transfer hypotheses.",
+      "description": "Prove or audit Poisson growing-ball coverage and spatial-network localization claims while checking the point-process model, observable, and transfer conditions.",
       "category": "probability",
       "path": "skills/probability-stochastic-geometry-localization/SKILL.md"
     },

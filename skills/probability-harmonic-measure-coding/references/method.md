@@ -94,4 +94,6 @@ These branching results can be used only when the target model has the matching 
 
 ## 7. Source-use boundary
 
+G25.07 has zero currently mapped accepted source uses. It is therefore **proof-held** as a research lead, not a source-backed route; do not attach a theorem credit or transfer claim to it until a source, hypotheses, and proof boundary have been separately recorded.
+
 The current cards give narrow interfaces only: Rousselin’s random-environment exact-dimension theorem; LPP1995/LPP1996 and Lin's biased or simple-walk Galton–Watson harmonic-flow methods; Curien–Le Gall's distinct critical-tree dimension mechanism; the R13-v8-accepted Liu/Kinnison–Mörters branching-measure dimension and spectrum uses; Liu (1993)'s R13-accepted corrected support-gauge interface, counted as one conservative work family with only the 1993 artifact read; PTN2026 Chapter 16 capacity/energy and open Question 16.7; KLW2003 as a negative-scope comparison; the conditional BHM/Tanaka equivalence routes; Dussaule–Yang’s common-Floyd exact-dimension route for `λ≥λ₀`; and Le Prince’s existential Hausdorff-singularity construction. Boundary singularity transfers to the coded target only with a class-preserving map or an explicit target separator. No source presently resolves A147’s nu2 versus nu3 question. Full source and page/unit status is in [sources.md](sources.md).

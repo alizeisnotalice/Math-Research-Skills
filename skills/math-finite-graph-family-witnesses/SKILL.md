@@ -1,11 +1,11 @@
 ---
 name: math-finite-graph-family-witnesses
-description: Reproduce exact finite graph-family witnesses for triameter/peripherality and decorated-tree independence-polynomial sign separation.
+description: 核验显式有限图族的三直径、装饰树独立多项式、后继色路径与 Mycielski 张量图的奇窗口着色见证。
 ---
 
 # Finite graph-family witnesses
 
-Use this skill for the two source-level finite tasks below.
+Use these exact checks for a supplied graph, graph family, or colouring.
 
 ```sh
 python3 -B scripts/check_hko.py --example g1
@@ -18,6 +18,9 @@ The HKO check computes distances, diameter, peripheral vertices, triameter tripl
 These are finite witness checks. They do not establish HKO minimality/uniqueness, the distance-hereditary structural theorem, arbitrary tree antichains in the independence-polynomial order, the root-interval lemma, or any claimed Lean artifact.
 
 ## 文献复核采用的构件
+
+- [Odd folded-window certificate for tensor products](references/odd-fold-window-certificate.md)
+- [Successor-colour reachability on an edge deletion](references/successor-colour-paths.md)
 
 - [Source note: decorated-tree polynomial signs](references/decorated-tree-sign-witnesses.md)
 - [Source note: HKO finite witnesses](references/hko-explicit-witnesses.md)

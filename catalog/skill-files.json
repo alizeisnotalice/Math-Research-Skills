@@ -5871,8 +5871,20 @@
     },
     {
       "path": "skills/math-finite-graph-family-witnesses/SKILL.md",
-      "sha256": "7b20cb22d11a6b7f81a28fb7ed3291d2d7ee721c7c1ec01a5739d015a7c77b55",
-      "bytes": 1224,
+      "sha256": "80aa9a12eb3c44302578d6245a49a6da8136b750467dcd13c44a433de19c6a01",
+      "bytes": 1425,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-finite-graph-family-witnesses/examples/successor-k5.json",
+      "sha256": "c769ff11e1c6d424e433daa561117a161d2f507bf5cd1f22e68566035b879140",
+      "bytes": 154,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-finite-graph-family-witnesses/examples/successor-recolour.json",
+      "sha256": "e4dde67c6bac8f555b62d0abc849ef6b0d3607ef12d0e308919c5b5a900c552b",
+      "bytes": 92,
       "mode": 420
     },
     {
@@ -5888,6 +5900,18 @@
       "mode": 420
     },
     {
+      "path": "skills/math-finite-graph-family-witnesses/references/odd-fold-window-certificate.md",
+      "sha256": "58c311cb25744f228c493e2cba2ed11ef18402a461689569473b1b85b572b801",
+      "bytes": 2917,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-finite-graph-family-witnesses/references/successor-colour-paths.md",
+      "sha256": "4d0b19a2162f51bf288e2dc7e60dbcf5c83350400e9b4c549d0a6a23ed177044",
+      "bytes": 2616,
+      "mode": 420
+    },
+    {
       "path": "skills/math-finite-graph-family-witnesses/scripts/check_decorated.py",
       "sha256": "0c89a5293df4cabfea1cc158a678c128cf809b6aad0a2e6f8007f417c5d09209",
       "bytes": 1447,
@@ -5897,6 +5921,24 @@
       "path": "skills/math-finite-graph-family-witnesses/scripts/check_hko.py",
       "sha256": "c467722f43d73b3c77d48a5ae9f39ccde3a7d7cd4e6a3cd0beb45ef4bf9d2b1a",
       "bytes": 1554,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-finite-graph-family-witnesses/scripts/check_successor_colour_paths.py",
+      "sha256": "fe92e45d3b7ea7f7b62901290977e54281c6f288ff689a6baa5711c08e1722d2",
+      "bytes": 3712,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-finite-graph-family-witnesses/scripts/replay_fold_windows.py",
+      "sha256": "d5f8a7d58e93f5fa7a95e45e2188914be57eab96ac6123975fa9eb921631baae",
+      "bytes": 3022,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-finite-graph-family-witnesses/scripts/verify_window_coloring.py",
+      "sha256": "cd863375333656a8a02dc0115c282adbaf8255c56846f34b23972699cfbe9740",
+      "bytes": 3255,
       "mode": 420
     },
     {
@@ -6009,8 +6051,8 @@
     },
     {
       "path": "skills/math-free-group-presentation-traces/SKILL.md",
-      "sha256": "e1a578586a6bb38cbc2f83b5c1ebb35d517720853d5d4e003430f5140a14691f",
-      "bytes": 1057,
+      "sha256": "7238ea74c1cb36f408b6e667085e4953b53f8c04b5213dfaa6303999416a7deb",
+      "bytes": 1121,
       "mode": 420
     },
     {
@@ -6029,6 +6071,12 @@
       "path": "skills/math-free-group-presentation-traces/examples/right-multiply-reduction.json",
       "sha256": "9e41463a517a4a92273b46f82ebac2ed0316f0cf07ae0e1b9aa291ba459850e0",
       "bytes": 185,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-free-group-presentation-traces/references/amalgam-word-source.md",
+      "sha256": "7acb905f74f78168ec9c852b5a7be15a370fc5533fc09a55f372e929b4da43ba",
+      "bytes": 1768,
       "mode": 420
     },
     {
@@ -8235,8 +8283,8 @@
     },
     {
       "path": "skills/math-i01-ordered-increment-conditional-bernstein/SKILL.md",
-      "sha256": "c51f79b79250632a44b3b3703eafb5dc16f92b9c093d717d5cb0162cf46699e8",
-      "bytes": 3838,
+      "sha256": "767077c54b2acd936090ae02d9a42009ff253a0f4e0f55602520ed3f0c2f3d56",
+      "bytes": 3756,
       "mode": 420
     },
     {
@@ -10155,8 +10203,8 @@
     },
     {
       "path": "skills/math-l03-rational-and-interval-certificates/SKILL.md",
-      "sha256": "f1789bee657fe16e319cb7cd1dd0de8b87700d428d916e81e1d5f4f13c27e4dd",
-      "bytes": 8186,
+      "sha256": "8a8a99197285f3deb87ef7b9834ecd5e71310307683def9b07f99dd48d242a3b",
+      "bytes": 8266,
       "mode": 420
     },
     {
@@ -10316,6 +10364,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l03-rational-and-interval-certificates/examples/replay-all.md",
+      "sha256": "9ffe8d7fc3fa648ea72095e054b0dfaf91eb6b4aee456d03980a03ee4bc9986e",
+      "bytes": 302,
+      "mode": 420
+    },
+    {
       "path": "skills/math-l03-rational-and-interval-certificates/examples/sawtooth-phase-positive.json",
       "sha256": "0c923fc601f1918c5cb586054c4486d390a2d8444929a7b797ad91cfc727c8b0",
       "bytes": 60,
@@ -10409,6 +10463,12 @@
       "path": "skills/math-l03-rational-and-interval-certificates/references/ext-0372-pandigital-replay.md",
       "sha256": "0b35fd2c28f0d7dc5f89554ff401dbf75f2fe8b7ac87ad030844ef9e717213f0",
       "bytes": 1056,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l03-rational-and-interval-certificates/references/ext-0436-section7.md",
+      "sha256": "a6b587021f8670e332a347cab3d8700f8af163385d4fa1cf004075a1b5081202",
+      "bytes": 1996,
       "mode": 420
     },
     {
@@ -10673,6 +10733,12 @@
       "path": "skills/math-l03-rational-and-interval-certificates/scripts/replay_dyadic_newton.py",
       "sha256": "68d52f42fa1921e8aa204eba3f404e59f9475451bcc928a318f173606b50767c",
       "bytes": 2683,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l03-rational-and-interval-certificates/scripts/replay_section7_bounds.py",
+      "sha256": "bb47e652828c998ebe34b571b9f2ce87eaadf6dacd716643d2079bb22d5fac5b",
+      "bytes": 5903,
       "mode": 420
     },
     {
@@ -12087,8 +12153,8 @@
     },
     {
       "path": "skills/math-l19-coordinate-ring-certificates/SKILL.md",
-      "sha256": "202a97874d7dd55f2c0a5b771d2fcd06bc4c2fd314839574ecc99cc113941a6a",
-      "bytes": 2693,
+      "sha256": "a8bd5c33d081824e81dfe9f6daf36fc38ebbec85c360b7243785e4d9abaff57a",
+      "bytes": 2828,
       "mode": 420
     },
     {
@@ -12155,6 +12221,12 @@
       "path": "skills/math-l19-coordinate-ring-certificates/references/stable-coordinate-four-variables.md",
       "sha256": "91f84b71224538fd813fe0b50edb8d4ec1d96a1eb673e7e7cdef64b96c236ad1",
       "bytes": 1495,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l19-coordinate-ring-certificates/references/v21-quartic-compilation-ledger.md",
+      "sha256": "9d3a420614c55936adf4826783e235fe215f0c8bcfb4cbec362ad430df0bf892",
+      "bytes": 1755,
       "mode": 420
     },
     {
@@ -15543,20 +15615,20 @@
     },
     {
       "path": "skills/math-research/references/probability.md",
-      "sha256": "c4c1cb634e34a2bede778014fe8a42b8220ed4dda64f0a069e9e6a84e01e557d",
-      "bytes": 13409,
+      "sha256": "01930c09473251c7694c1007ed96fafa10c5daff554cb474c44beb1f0bfc76fc",
+      "bytes": 13166,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/recent-non-openai-sources.md",
-      "sha256": "b8027a0c0bfb5016e411554f83fa4d990eec434e1faa57b6f9a0f44f84aad101",
-      "bytes": 278813,
+      "sha256": "41d9874ab483286ade5d15828e023a332acaf8ad1e8a1ba2a3d6167d1fe05be7",
+      "bytes": 289068,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/research-specialists.md",
-      "sha256": "11f6c4a36aa7f95e46adaf2d0c8874004d4e287b168730a8c7cf719aaeeb1696",
-      "bytes": 33918,
+      "sha256": "0b71e16247b8061a24a8dce49e1f55fb7d85337e4e7630971bd9b829ae4b7784",
+      "bytes": 33855,
       "mode": 420
     },
     {
@@ -15597,14 +15669,14 @@
     },
     {
       "path": "skills/math-research/references/supplemental-sources/collection-07.md",
-      "sha256": "1fdb060cccf2c0a89ed5316b87d8813c6f215f41746b615fa84302374a55eb5f",
-      "bytes": 1000861,
+      "sha256": "53328471843b3c4fdf1d08e44a910e48dfe6472e7b3931afabb9f0018508c9b5",
+      "bytes": 1003899,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/supplemental-sources/collection-08.md",
-      "sha256": "52d06c35e9d9daec667e39466de0062ed4ad8acdcfe025a9af1799b8ab520e3d",
-      "bytes": 119627,
+      "sha256": "5153fc2c560ce7d037fa1c4259513ad9908de2a995ab67b3f7ac79b47de5c7b8",
+      "bytes": 122687,
       "mode": 420
     },
     {
@@ -16029,8 +16101,14 @@
     },
     {
       "path": "skills/math-xi-theta-finite-certificates/SKILL.md",
-      "sha256": "401b84744303eb40c2d3539a0dbf5be2ed4b34b2c5b21c85168dbd3ec38dcf42",
-      "bytes": 1164,
+      "sha256": "fda296b425c0be85326f0ebc0fe5210203fba9508aa284e3a08116f54021a63e",
+      "bytes": 1241,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-xi-theta-finite-certificates/references/sra-riem-xi-v1-pf10-replay.md",
+      "sha256": "c8cedbeb657f8427580a8e7bd6cadd0123ebe7602ed1d49522baf4c0766e23e9",
+      "bytes": 2044,
       "mode": 420
     },
     {
@@ -16905,8 +16983,8 @@
     },
     {
       "path": "skills/probability-bernoulli-factory/SKILL.md",
-      "sha256": "8a73aea59fa7a7eff789cb6409094d5a471606d94c364b05cb2857748b5965b8",
-      "bytes": 4190,
+      "sha256": "4a277fa7a4578d22cdd2c42153c5c4d8c0d9683a742ac4ebcda326672d0f44ba",
+      "bytes": 2740,
       "mode": 420
     },
     {
@@ -17559,8 +17637,8 @@
     },
     {
       "path": "skills/probability-brownian-potential-fractals/SKILL.md",
-      "sha256": "ff02ff3f101f511396b9e21a7c026734600b06595bba30ff264572e6efc76ff4",
-      "bytes": 3873,
+      "sha256": "ca73c3bf795aee42f7659ca48b08cc5470af2586b448ee2c2ebeedc7fa7f84be",
+      "bytes": 1706,
       "mode": 420
     },
     {
@@ -18237,8 +18315,8 @@
     },
     {
       "path": "skills/probability-first-passage-growth/SKILL.md",
-      "sha256": "9a671d4742abcad9d1cebc77078a1384f2ec5ac8a48aaf408dbc0629af97f701",
-      "bytes": 4482,
+      "sha256": "e575abf6c74bda7757a87aa1402e0bf80df6616512c5cd5f7b0b2c11fa992674",
+      "bytes": 1966,
       "mode": 420
     },
     {
@@ -18495,8 +18573,8 @@
     },
     {
       "path": "skills/probability-flow-poset-growth/SKILL.md",
-      "sha256": "e3ade24f9c6916eab5b08f4ed48e04138608374edfacb28bb7a85f3811b4c324",
-      "bytes": 11020,
+      "sha256": "b5beac13caa0bb1922d991b0f7696d38d28b3ed3a49b3a28573c1087e2348430",
+      "bytes": 1970,
       "mode": 420
     },
     {
@@ -18513,8 +18591,8 @@
     },
     {
       "path": "skills/probability-forests-electrical-networks/SKILL.md",
-      "sha256": "68013a7790ba26304ea0c1725dbe81a56f1ed95ed4c60be35ef70565751311fb",
-      "bytes": 4874,
+      "sha256": "09191a850128e100cc9323145f9b955e53ce5e42111bd2aa2d83e180d1d97429",
+      "bytes": 1621,
       "mode": 420
     },
     {
@@ -19119,8 +19197,8 @@
     },
     {
       "path": "skills/probability-generating-function-boundaries/SKILL.md",
-      "sha256": "6ef98c373a40ef1a9576a8d75bd9fea58e1cc3e7ccbef9f83e28382256639921",
-      "bytes": 5160,
+      "sha256": "4fa8c7a170620dcbfca12e9ff3b5fd40a22aef121692f1a0d133cfa15120331b",
+      "bytes": 5128,
       "mode": 420
     },
     {
@@ -19143,8 +19221,8 @@
     },
     {
       "path": "skills/probability-harmonic-measure-coding/SKILL.md",
-      "sha256": "36a336c16c05fb8a6999dbd5eba19b1ccb2468eef5f137b846e4c9d667d2d7c6",
-      "bytes": 10693,
+      "sha256": "4b36cd32f2f8931f71f4eec89134bae6f41bb79371a12b12922882ee3c4bb92e",
+      "bytes": 3160,
       "mode": 420
     },
     {
@@ -19161,8 +19239,8 @@
     },
     {
       "path": "skills/probability-harmonic-measure-coding/references/method.md",
-      "sha256": "6a297af59268efe0739bcfbbc38dc804170945aa336fac0f66e7c2d14315ef92",
-      "bytes": 19601,
+      "sha256": "c8bc7b92acec219ae68a73c47661a6b6c8b32f6346ecb6c94cc8a0ac063cd0c3",
+      "bytes": 19868,
       "mode": 420
     },
     {
@@ -19179,8 +19257,8 @@
     },
     {
       "path": "skills/probability-infection-witness-methods/SKILL.md",
-      "sha256": "d7c7a82f9cd0d8564de2a98b975aa6fbef2f1fa81432d6951438458641044ec4",
-      "bytes": 12937,
+      "sha256": "e3844fa06255515c754cd2cd774a462d21cd525c71a0bf2fb7393a3f3a68ce6c",
+      "bytes": 2550,
       "mode": 420
     },
     {
@@ -20091,8 +20169,8 @@
     },
     {
       "path": "skills/probability-markov-spectral-mixing/SKILL.md",
-      "sha256": "582ac588c6b6b1fbafe956a4f27efd4c7b33bbfc97ecf85be3f11476554451ff",
-      "bytes": 6156,
+      "sha256": "117f98c9128a7bc5f3d347b33c63f6b9e43ab6afc39ef2491fcbed404096ba73",
+      "bytes": 2316,
       "mode": 420
     },
     {
@@ -21327,8 +21405,8 @@
     },
     {
       "path": "skills/probability-nonlinear-law-dynamics/SKILL.md",
-      "sha256": "5fdc1d2b5a7035d8880d691e7aac92c83052c7de3ca7ccc0e9e299753263a6ac",
-      "bytes": 5045,
+      "sha256": "17b0cb5be5bb8511e5002fae75ff65ef4abb1ee22ea47a871a95d918783a884c",
+      "bytes": 2159,
       "mode": 420
     },
     {
@@ -21981,8 +22059,8 @@
     },
     {
       "path": "skills/probability-percolation-renormalization/SKILL.md",
-      "sha256": "ef94142ed60687a03349355c23f159602115d8fb6f7a41c8bfaeed5054988f9c",
-      "bytes": 7706,
+      "sha256": "bbde54cd9198596a06a842055fd620c6d30ce82419a041830e0c01e75b38ff53",
+      "bytes": 2877,
       "mode": 420
     },
     {
@@ -22341,8 +22419,8 @@
     },
     {
       "path": "skills/probability-permutation-subset-sums/SKILL.md",
-      "sha256": "38747c54cb62f127fdba8b5bbf5d1c8edfe20a644ce6633714b265e203a469b8",
-      "bytes": 9712,
+      "sha256": "1fef5f253c0ebfefb953c17ed82b77c51e95fd36246f4b6003167c6a24fbfcd6",
+      "bytes": 2964,
       "mode": 420
     },
     {
@@ -22389,8 +22467,8 @@
     },
     {
       "path": "skills/probability-poset-counting-sampling/SKILL.md",
-      "sha256": "9e106ec2671090be49983e7e629b18e7983de54a7f198e345cc46675f2fe13cd",
-      "bytes": 4161,
+      "sha256": "1b94c3450ff556a6012a4a11b630ef5836ba3909a33d66f6687a298b74706e88",
+      "bytes": 2024,
       "mode": 420
     },
     {
@@ -22659,8 +22737,8 @@
     },
     {
       "path": "skills/probability-prophet-online-selection/SKILL.md",
-      "sha256": "d5540f1ab7b0cd4bfebaa4c26eb859540894c706467439919307dd76cd37d8ee",
-      "bytes": 9611,
+      "sha256": "099bc266042e564aabde90f30cec3d48dfa5b303f52f529befbd20de656cde10",
+      "bytes": 3344,
       "mode": 420
     },
     {
@@ -22923,8 +23001,8 @@
     },
     {
       "path": "skills/probability-prophet-online-selection/references/method.md",
-      "sha256": "f15f7e1e17e12ba76ebe6366bc13d8cada43c051f6bc160bcdd5ce3b697096fe",
-      "bytes": 36238,
+      "sha256": "42e8e61697ea80b9eb5cb36a75790a93b3e491f86bb9cb5d3c7aa7963342305a",
+      "bytes": 37875,
       "mode": 420
     },
     {
@@ -22947,8 +23025,8 @@
     },
     {
       "path": "skills/probability-queueing-heavy-traffic/SKILL.md",
-      "sha256": "ad5bda3f2bc7f9a30e65faafcd44606cdd7a8bf97cb0f2de16196bc29e0b12e1",
-      "bytes": 4059,
+      "sha256": "9b1956d3bd2c0f2fb715415a3d1ecd275cbf7e2b225e7f74680d450c24253da9",
+      "bytes": 1947,
       "mode": 420
     },
     {
@@ -24015,8 +24093,8 @@
     },
     {
       "path": "skills/probability-random-recursive-trees-asymptotics/SKILL.md",
-      "sha256": "9f45978a07283f8441e1025296ac066898a16c590ee183fef88c43536958320d",
-      "bytes": 7446,
+      "sha256": "38d0e88394860f56a078ea3d3522a8778d31c96693afd83838914af5004e6293",
+      "bytes": 2122,
       "mode": 420
     },
     {
@@ -24351,8 +24429,8 @@
     },
     {
       "path": "skills/probability-random-spatial-tree-geometry/SKILL.md",
-      "sha256": "4db723586b7e0f92cc62c7ac72ac2cb8e258daf760d341afa68db17e988265c2",
-      "bytes": 5386,
+      "sha256": "df8600e2f53ef617019918a106f2c585d8bc98688d343bcea573d584b696e584",
+      "bytes": 2735,
       "mode": 420
     },
     {
@@ -24627,8 +24705,8 @@
     },
     {
       "path": "skills/probability-renewal-palm-coupling/SKILL.md",
-      "sha256": "1a88e767a002016a6765eecc912bb6ffd021bef3bb87a48b597d1c4eb408efb8",
-      "bytes": 4185,
+      "sha256": "91750829d1a61437fe692a2819058e53be3f750adfde2bf954f8ef2ba694323d",
+      "bytes": 2287,
       "mode": 420
     },
     {
@@ -25119,8 +25197,8 @@
     },
     {
       "path": "skills/probability-spectral-perturbation-certificates/SKILL.md",
-      "sha256": "e5fd423f48b54bab85b460d109c1a98274c173d5d72d2eddb6457765a3901bba",
-      "bytes": 3923,
+      "sha256": "22d569e1b7fcac51ab353f2b7c912bef8af07d9e9cb88ff1f76034a4c5e84611",
+      "bytes": 2063,
       "mode": 420
     },
     {
@@ -25155,8 +25233,8 @@
     },
     {
       "path": "skills/probability-stationary-law-interfaces/SKILL.md",
-      "sha256": "300569d2040352c1205e7e1ff25634fe23c977d5bb0cc1789551a7f6b4417bfe",
-      "bytes": 9726,
+      "sha256": "58ac91f29b700e42364e5b9a97fd2e7a2e82392a3d93db2d919ce2e3e1f82ecb",
+      "bytes": 3606,
       "mode": 420
     },
     {
@@ -25197,8 +25275,8 @@
     },
     {
       "path": "skills/probability-stochastic-geometry-localization/SKILL.md",
-      "sha256": "1455980fb7d2a661444e13546b3c1b18432364ac9256a267336e93c31f7929c4",
-      "bytes": 3718,
+      "sha256": "56746a5878719bbfa9f7a6aa9e0d1a79f2b9502bd2d0c8df50a71d8195f30f91",
+      "bytes": 2492,
       "mode": 420
     },
     {

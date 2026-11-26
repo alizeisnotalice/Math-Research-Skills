@@ -56,6 +56,24 @@ In M0060's unit-density special case, each request's reward equals its size, req
 
 ## Online allocation and OCRS transfer audit
 
+## Preserved narrow use gates from the historical review
+
+### M0067: balanced Bernoulli capacity
+
+Use the balanced reduction only for atomless marginals, or with the adjusted independent tie indicators of the reviewed construction. Lemma 4 fixes \(\delta=\phi_k^*\), not an arbitrary \(\phi\); Lemma 5 is a separate fixed-\(\delta\) subproblem. A Lemma 6 Poisson step retains the balanced-optimum assumptions, including \(\phi_k^*\ge 1/2\). The accepted compactness/subsequence/unique-Poisson-root repair supplies no quantitative constants. Price calibration is order-oblivious, but allocation and welfare may depend on a fixed arrival order.
+
+### M0058: constrained order
+
+This route requires independent nonnegative values, one irrevocable acceptance, and a preselected finite permutation family. The exact \(\phi^{-1}\) threshold ratio in Theorem 3.4 requires \(n\ge3\) and is distinct from the Theorem 3.1 lower bound; retain its randomized tie convention. It transfers neither a \(k>1\) stockout calibration nor a Palm or dynamic-programming certificate.
+
+### M0072: copies
+
+Treat copies as resource/market augmentation while capacity remains one. The expected-reward claim in Theorem 1 depends on its cited Theorem 2.2; Proposition 4's \(1/(60\varepsilon)\) and \(\Theta\)-claims are only for \(\varepsilon\downarrow0\). The targeted revision remains **proof-held**.
+
+### M0055: submodular sampling
+
+The usable statement is \(\mathbb E_T[F(\mathbf 1_T/2)]\ge F(x)/16\), not a raw \(\mathbb E[f(T)]\) bound. No repaired constant is available for the source's Theorem 5.2 \(O(1)\) statement; in particular, do not infer \(1/6400\).
+
 Before using an OCRS or prophet result, answer all of these:
 
 - Is the offline relaxation ex-ante feasible for the same downward-closed family and same capacity constraints?

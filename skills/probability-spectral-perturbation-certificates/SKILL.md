@@ -1,26 +1,37 @@
 ---
 name: probability-spectral-perturbation-certificates
-description: Audit a parameterized family of finite reversible chains or other finite-dimensional spectral problems for eigenvalue crossings, derivatives, Poisson response, changing stationary measures or rigorous parameter intervals.
+description: Audit finite reversible chains and finite-dimensional spectral families for gap, crossing, derivative, response, or rigorously enclosed eigenvalue claims.
 ---
 
 # Spectral perturbation and strict gap certificates
 
-**Historical source scope (2026-11-16).** R01 accepted 32 distinct source works across six G03 method interfaces. Use the [source register](references/sources.md) to locate the scoped claims. The original source-use snapshot and detailed coverage map belong to the historical evidence archive.
+Use this skill for a finite reversible kernel or finite-dimensional self-adjoint
+family.  State the state space, matrix convention, stationary law, inner
+product, update clock, parameter, and target.  The scoped source interfaces
+are in [method notes](references/method.md) and [sources](references/sources.md).
 
-Use this entry when a finite reversible Markov kernel or a finite-dimensional self-adjoint matrix varies with a parameter and the task asks for a spectral derivative, ordered gap, crossing, or certified eigenvalue interval. Start by fixing the state space, matrix convention, stationary law, inner product, update clock, and exact target (Poincaré gap, absolute gap, generator gap, or indexed eigenvalue).
+For a fixed reversible kernel, use the Dirichlet form and Rayleigh quotient for
+the Poincaré gap.  When the stationary law moves, differentiate the symmetric
+conjugate or work in the moving weighted inner product.  At a repeated
+eigenvalue, use an isolated spectral subspace and its directional compression.
+A stationary-law derivative or a static correlation inequality does not give a
+spectral-gap derivative.
 
-For reversible kernels, the Dirichlet form and Rayleigh quotient give the fixed-kernel Poincaré gap. If the stationary law moves, either differentiate the full symmetric conjugate or work in the moving weighted inner product; at a repeated eigenvalue use an isolated spectral subspace and the directional compression. A stationary-law derivative or static correlation inequality alone is not a spectral-gap derivative.
+## Match the certificate to the conclusion
 
-For a fixed finite reversible chain, distinguish a **full-chain mixing** request from an estimate only for a chosen observable. The former needs a Poincaré (or conductance) inequality on every function and a laziness/absolute-spectrum condition before converting it to convergence of powers. The latter may use a restricted inequality after an explicitly specified $L^2(\pi)$-orthogonal projection $Q$, but only for observables $G=QG$; it does not certify the full spectral gap or total-variation mixing. Read [the finite lazy-chain branch](references/lazy-chain-mixing.md) when either route is relevant.
+- Full-chain mixing needs a Poincaré or conductance inequality on all functions
+  and a laziness or absolute-spectrum condition.  A restricted inequality after
+  a projection applies only to the stated projected observables.
+- An ordered eigenvalue needs an all-index enclosure with strict separation.
+  A residual estimate, an invariant-block interval, or overlapping clusters
+  do not identify its order by themselves.
+- Record exact arithmetic, validated intervals, and floating-point exploration
+  separately.  A finite instance does not establish a uniform parameter claim.
 
-Choose a certified enclosure route only when its full hypotheses and index-identification step are available. An all-index interval inclusion plus strict disjointness can isolate an ordered eigenvalue; a nearest-spectrum residual bound, an invariant-block interval, or an overlapping cluster inclusion cannot do so by itself. The source-specific conditions and limits are in the operator routes（本机附件：`references/l01-operator-perturbation-tools.md`） and [the source register](references/sources.md). See the method map（本机附件：`references/method_coverage.md`）, worked positive and failure cases（本机附件：`references/cases.md`）, and [the derivations and proof workflow](references/method.md).
+Read [the finite lazy-chain branch](references/lazy-chain-mixing.md) for a
+mixing conclusion.  For a supplied regular graph with a claimed Ramanujan-type
+bound, use [rational inertia](references/regular-graph-rational-inertia.md).
+It checks one adjacency matrix and does not construct a family.
 
-Report exact arithmetic, validated interval arithmetic, and floating-point exploration separately. A finite exact calculation checks its displayed instance; it does not prove a uniform parameter claim or a general theorem.
-
-For a supplied regular graph whose claimed nontrivial spectrum is bounded by the Ramanujan threshold, read [有理惯性验收](references/regular-graph-rational-inertia.md). It checks one finite adjacency matrix and does not construct a graph family.
-
-## Source-use boundary
-
-Use the documented theorem only within the model and interface in its source-use card. For formally published work, verify the citation and the cited statement against the publication. Verify the active claim and relevant proof steps for a preprint-only result. Historical review notes retain the scope of their original versions. Keep source-card gaps, unavailable evidence, and open transfers as research leads.
-
-The optional attachments named here are available in the original local installation or the central literature archive. See [evidence and local attachments](../math-research/references/evidence.md).
+Historical evidence outside the installed package is located through
+[the evidence guide](../math-research/references/evidence.md).

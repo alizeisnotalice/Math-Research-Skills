@@ -14,8 +14,21 @@ from skill_common import load_repository
 ROOT=Path(__file__).resolve().parents[1]
 
 
+def without_fenced_examples(text):
+    fence = "```"
+    return re.sub(f"{fence}.*?{fence}|~~~.*?~~~", "", text, flags=re.S)
+
+
+def inline_resource_paths(body):
+    """Portable relative files named inline in an installed skill entrypoint."""
+    return re.findall(
+        r"\x60((?:references|examples|evidence|sources|scripts)/[^\x60\s<>*{}#]+\.[A-Za-z0-9]+)(?:#[^\x60\s]+)?\x60",
+        without_fenced_examples(body),
+    )
+
+
 def visible_markdown(text):
-    text=re.sub(r'```.*?```|~~~.*?~~~','',text,flags=re.S)
+    text=without_fenced_examples(text)
     text=re.sub(r'`[^`]*`','',text)
     return re.sub(r'\$\$.*?\$\$|(?<!\\)\$[^$\n]+\$|\\\[.*?\\\]|\\\(.*?\\\)','',text,flags=re.S)
 
@@ -29,6 +42,7 @@ def main():
         return 1
     names={s['name'] for s in catalog['skills']}
     if len(names)!=len(catalog['skills']): errors.append('duplicate skill names')
+    managed_paths = {ROOT / item['path'] for item in files}
     for skill in catalog['skills']:
         path=ROOT/skill['path']
         data,body=frontmatter(path)
@@ -44,6 +58,9 @@ def main():
             errors.append('stale catalog description: '+name)
         if re.search(r'^\s*\[TODO:[^\n]*\]\s*$',body,re.M):
             errors.append('unfinished skill scaffold: '+name)
+        for resource in inline_resource_paths(body):
+            if (path.parent / unquote(resource)).resolve() not in managed_paths:
+                errors.append(f'unavailable skill resource: {name} -> {resource}')
         dependencies = skill.get('requires', [])
         if dependencies != RUNTIME_SKILLS.get(name, []) or any(dep not in names for dep in dependencies):
             errors.append('stale or missing runtime dependency: '+name)

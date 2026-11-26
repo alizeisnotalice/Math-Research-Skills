@@ -1,25 +1,46 @@
 ---
 name: probability-stochastic-geometry-localization
-description: Prove or audit Poisson growing-ball cover-time and spatial-network localization claims, including measure optimization, Poissonization, and boundary tails, while checking the exact model and transfer hypotheses.
+description: Prove or audit Poisson growing-ball coverage and spatial-network localization claims while checking the point-process model, observable, and transfer conditions.
 ---
 
 # Stochastic geometry, coverage, and localization
 
-Use this skill for growing-ball Poisson cover processes, optimization of their seed law, or asymptotics of random spatial-network spans. Choose the route by the point-process law and the observable. Read the method gates（本机附件：`references/methods.md`） for the relevant proof obligations and [the source ledger](references/sources.md) for source status.
+Use this skill for a Poisson growing-ball cover process, seed-law optimization,
+or spatial-network span/localization problem.  State the point-process law,
+growth speed, metric, boundary, observation window, and target observable.
+The scoped source interfaces and their hypotheses are in
+[sources](references/sources.md).
 
-## Historical provenance status
+## Choose the route
 
-**Historical source audit:** R12 checkpoint 2 accepts a deduplicated union of 31 distinct work families and 31 distinct PDFs for this skill; all 341 path/hash bindings pass. The source13 addition is one narrow G22.02 Poisson-energy interface. The exact source/use conditions are in [the 31-row source ledger](references/sources.md), bound matrix（本机附件：`references/source_bound_matrix.json`）, and scope snapshot（本机附件：`evidence/entry_scope.json`）. Five method IDs still lack an accepted source row: G22.05, G22.06, G24.03, G24.05, and G24.06. Keep them as explicit gaps or conditional gates. B42 support remains 0. Source12 Thm.3.3 remains limited to deterministic local deletion-cost; its [1]/[19] tail dependencies remain unverified. A124, A125, A136, and A137 remain open. The former whole-entry, publication, and installation state is historical provenance only.
+1. **Growing-ball coverage.** Write the marked process as `dt × μ(dx)`.  Keep
+   the event that one fixed point remains uncovered separate from failure to
+   cover the whole space.  An optimality statement for Haar or another seed law
+   needs existence and the exact averaging inequality for the cover-time
+   functional.
+2. **Spatial networks.** Identify the particular SIRSN or other network law,
+   endpoint sampling, whether one network realization is shared, the finite
+   window observable, and normalization.  Stationarity, isotropy, scaling, or
+   finite intensity alone do not give stabilization.
+3. **Poissonization.** State the Poisson and fixed-size functionals separately.
+   Supply a coupling or de-Poissonization estimate, control boundary and
+   window-exit terms, and establish the required uniform integrability before
+   transferring expectations.
+4. **Maxima.** A one-route marginal and a finite pair expectation do not bound
+   the supremum over countably many endpoints in one network.  Preserve the
+   maximum as open until a maximal or tail estimate is proved.
 
-1. **Growing-ball cover (G22):** write the marked Poisson process as `dt × μ(dx)`, specify growth speed, metric, boundary, and cover time. Separate the probability one fixed point remains uncovered from the event the entire space is not covered. For measure optimization, establish existence and prove the exact averaging inequality for the cover-time functional before concluding that Haar measure is optimal.
-2. **Spatial network (G24):** identify the actual SIRSN or other network law, endpoint sampling design, shared network realization, finite-window observable, and normalization. Do not infer stabilization from stationarity, isotropy, scaling, or finite intensity.
-3. **Poisson-to-fixed-size transfer:** state the Poisson functional and fixed-k functional separately. Prove a coupling or de-Poissonization estimate for the target observable, then control window-exit routes, boundary contributions, and uniform integrability before transferring expectations.
-4. **Unresolved maximum:** for a countable family of endpoints in one network, keep a one-route marginal, finite pair expectation, and the supremum over all endpoints as separate random quantities. Without a proved maximal or tail estimate, preserve the open status.
+This skill excludes recursive-tree two-leaf limits.  Route that problem to
+`probability-random-recursive-trees-asymptotics`.  Use
+[positive examples](examples/positive.md) and [negative transfers](examples/negative.md)
+to check the model match.
 
-The skill does not cover recursive-tree two-leaf limits; route A127 to `probability-random-recursive-trees-asymptotics`. See [positive usage](examples/positive.md) and [negative transfers](examples/negative.md).
+The **G22.05**, **G22.06**, **G24.03**, **G24.05**, and **G24.06** method
+branches have no accepted portable source interface; leave them conditional
+instead of filling them from an adjacent coverage or network result.  The
+open A124/A125/A136/A137 transfers remain outside this skill.  In particular,
+**A127** is the excluded recursive-tree route above, not a spatial-network
+consequence.
 
-## Source-use boundary
-
-Use the documented theorem only within the model and interface in its source-use card. For formally published work, verify the citation and the cited statement against the publication. Verify the active claim and relevant proof steps for a preprint-only result. Historical review notes retain the scope of their original versions. Keep source-card gaps, unavailable evidence, and open transfers as research leads.
-
-The optional attachments named here are available in the original local installation or the central literature archive. See [evidence and local attachments](../math-research/references/evidence.md).
+For historical PDFs and evidence held outside the installed package, use
+[the evidence guide](../math-research/references/evidence.md).

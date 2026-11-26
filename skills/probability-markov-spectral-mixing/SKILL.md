@@ -5,39 +5,15 @@ description: Analyze mixing, spectral gaps and update clocks for a specified fin
 
 # Markov spectral gaps and Ising Glauber dynamics
 
-## Historical provenance status
+Use this skill for finite reversible-chain mixing or spectral-gap questions, including Ising heat-bath Glauber dynamics. State the state space, stationary law and fields, update rule, vertex rates, clock convention, generator/kernel, and Dirichlet form before comparing gaps. Read [formulas and correlation hypotheses](references/method.md) and [source scopes](references/sources.md).
 
-**Historical source audit (2026-11-16):** the R02 W04 release/source-file ledger is historical completeness evidence; that review used low reasoning effort, not current high-scoped source review. R01 has now accepted exact scoped uses for all 30 W04 baseline works (28 complete papers plus two acquired books with completed used units), and its aggregate contains 37 distinct eligible works including seven expansion sources. Every accepted use is limited to the exact row conditions and transfer limits in the 37-work accepted-use register（本机附件：`references/accepted_scope_register.md`）; source-level high matching does not certify every old theorem or claim. No new full-text/global credit is claimed. The earlier 11-row L01 expansion count is historical: R01 now unions those interfaces with 26 newly high-scoped W04 baseline works for 37 distinct accepted works. The separate 32-work G03 entry is not merged into this count. Whole-entry and release records are historical provenance only.
+For Ising edge-parameter claims, keep stationary correlation monotonicity, finite-time behaviour, and eigenvalue monotonicity distinct. The arbitrary-graph nonzero-field gap route remains unresolved in the recorded sources. A static correlation sign does not establish a spectral-gap sign.
 
-Use this skill for finite-state reversible-chain spectral-gap or mixing questions, with focused guidance for Ising heat-bath Glauber dynamics and the accepted FKG/Holley association interfaces. Before applying a theorem, pin down the state space, Gibbs law and fields, update rule, vertex rates, and discrete-time versus continuous-time convention. Write the generator or kernel and its Dirichlet form explicitly; compare gaps only under a common clock. Read [references/method.md](references/method.md) for exact formulas and correlation-inequality hypotheses.
+For a differentiable reversible family with Gibbs law \(\pi_\theta\), account for both density factors in the symmetric conjugate. Along a simple normalised eigenbranch, evaluate the full scalar derivative. At a repeated eigenvalue use an isolated spectral subspace and a directional compressed derivative. Finite enumeration and floating-point spectra are search evidence.
 
-For Ising edge-parameter claims, distinguish stationary correlation monotonicity from finite-time behavior and from eigenvalue monotonicity. A040 remains open here for arbitrary finite graphs: Nacu verifies cycles at zero field. Kargin's printed theorem states a uniform-field homogeneous result, but the audited proof's reflection step `f_k=-f_(n-k)` is certified here only at zero field. The nonzero-field proof remains unresolved; this is not a refutation. Shirai's counterexample concerns a stronger fixed-time spin-expectation claim, not the spectral-gap question. Use [references/sources.md](references/sources.md) for theorem scope and page locators.
+- Use [exact residual sampling](references/exact-residual-sampling.md) only after a finite rational kernel has an explicit total-variation or pointwise certificate and denominator. It is an exact-sampling wrapper.
+- Use the [finite Chernoff certificate](references/finite-markov-chernoff.md) for a supplied tilted-operator bound on a stationary rational chain.
+- Use the [stationary increment audit](references/openai_critical_slowing_stationary_increment.md) for the stated discrete second moment and Dirichlet form.
+- For bounded lazy clocks, retain the fixed-shift and uniformity requirements in [the shifted-Poisson interface](references/openai_shifted_poisson_clock.md).
 
-When differentiating a reversible family with Gibbs law `pi_theta`, state the fixed state space and regularity. A symmetric conjugate `D_theta^(1/2)P_theta D_theta^(-1/2)` has derivative terms from both `D_theta` factors as well as `P_theta`. Along a differentiable normalized simple eigenbranch those measure/eigenvector terms cancel in the scalar eigenvalue derivative; at a repeated eigenvalue use an isolated spectral subspace and a directional compressed derivative. A stationary-law bound and static correlation signs alone do not establish gap monotonicity. See the L01 perturbation supplement（本机附件：`references/l01-perturbation-boundaries.md`） and the continuation audit（本机附件：`references/l01-continuation-audit.md`） for the current source-use state.
-
-Treat finite enumeration, floating-point eigensolvers, and high-precision point checks as search evidence only. They can locate candidate behavior but cannot prove an all-graphs theorem.
-
-For an exact-uniform output from a finite rational kernel, after separately certifying a sufficiently accurate finite-time law, use the rare residual correction in [references/exact-residual-sampling.md](references/exact-residual-sampling.md). It requires a concrete size bound, a total-variation/pointwise certificate, and an integer denominator `qP`, then samples the residual only on an exponentially rare branch. This is an exact-sampling wrapper, not a new spectral-gap or switch-chain mixing theorem; it does not establish the hypotheses needed to use it for an arbitrary graph-switch chain.
-
-## Finite stationary additive tails
-
-For a finite stationary reversible chain with a rational kernel and an integer observable, use the [exact Chernoff certificate](references/finite-markov-chernoff.md) to verify a proposed tilted operator upper bound and its resulting additive upper-tail bound.
-
-For a stationary reversible chain and an explicitly given real observable, use the [exact stationary increment audit](references/openai_critical_slowing_stationary_increment.md) to check the discrete \(k\)-step second moment and the one-step Dirichlet-form bound.
-
-## Source-use boundary
-
-Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.
-
-全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
-
-For bounded clock observables, the OpenAI Lemma 2.3 reference transfers convergence of every fixed shifted Poisson average to the Binomial(M,q) lazy-clock average. Check q in (0,1), a common bound, all fixed shifts, and the uniform versions of those inputs before invoking it; the lemma does not create the underlying continuous-time mixing bound.
-
-## OpenAI 原稿中的方法
-
-- [Conditional convolution and affiliated transport reference (Wave 4 geometry-a-1)](references/openai-wave4-geometry-a1-convolution.md)
-- [Wave 4 PA3: transfer-gap and finite-box references](references/openai-wave4-pa3.md)
-- [Odd labels on a finite reversible marked chain](references/wave4-geoa3-odd-markov-labels.md)
-- [Critical-SK support-profile interface](references/wave4-probability-b-critical-sk.md)
-
-- [OpenAI SK finite interfaces](references/openai-sk-finite-interfaces.md)
+Further current finite interfaces are listed in [the OpenAI source cards](references/openai-wave4-pa3.md) and [SK interfaces](references/openai-sk-finite-interfaces.md). Historical material is located through [the central evidence guide](../math-research/references/evidence.md).

@@ -81,6 +81,5 @@ reconstruction remain open gates.
 ## Supporting references
 
 - [Method and source notes](references/method.md)
-- Exact mathematical evidence: `references/math-evidence.md`
-- Frozen source index: `references/source-index.md`
+- [Model branches and derivations](references/model-branches-and-derivations.md)
 - [OpenAI rooted planar-map corner substitution](references/wave4-pa2-rooted-corner-substitution.md)
