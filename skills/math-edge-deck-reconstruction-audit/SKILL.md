@@ -29,3 +29,7 @@ python3 scripts/edge_deck_audit.py G.json --pattern F.json
 ## Google Cogentic 的有限证书
 
 - [等边卡组的 Möbius 重叠奇偶性](references/mobius-overlap-parity.md)
+
+## Google Cogentic 有限构件
+
+- [度有序 Kruskal 非桥分量证书](references/degree-ordered-kruskal-nonbridge.md)

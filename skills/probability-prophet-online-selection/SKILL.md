@@ -50,3 +50,7 @@ When a threshold policy creates a random demand count, define its independent ef
 A G05 count or tail bound is a risk input, not a prophet policy theorem. It does not by itself prove an online/offline reward ratio or close the k>1 stockout-calibration conjecture. Preserve the acceptance capacity, arrival model, tie handling, information constraints, and benchmark denominator when composing with a separate prophet guarantee. None of these four G05 works is added to the separate R07 Prophet/G06 31-unit baseline.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## Google Cogentic 有限构件
+
+- [组合拍卖静态价格的有限 LP 证书](references/cogentic-subadditive-static-price-lp-certificate.md)

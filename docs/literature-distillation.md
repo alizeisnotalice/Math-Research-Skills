@@ -126,7 +126,7 @@
 
 ## Google Cogentic 六篇原稿
 
-[Google Cogentic 数学论文蒸馏与验收](../skills/math-research/references/google-cogentic-2026-11-25.md)记录六份固定版本、实际依赖、四轮蒸馏的有限构件及验收范围。第四轮追加六个精确构件，并对照双矩阵稿所用页的引文编号变动。
+[Google Cogentic 数学论文蒸馏与验收](../skills/math-research/references/google-cogentic-2026-11-25.md)记录六份下载原稿和修订版本。11 月 26 日补充玩家换位、协议树平衡、度有序 Kruskal 和组合拍卖静态价格 LP 四种有限证书。组合拍卖稿当天更新引文，当前官方版本单独登记。
 
 ## 补充文献与 Diophantine 逼近工具
 

@@ -1,0 +1,18 @@
+{
+  "item_count": 1,
+  "mechanism_metadata": {
+    "arrival_order": "fixed buyer order supplied by caller",
+    "tie_rule": "fixed rule supplied by caller"
+  },
+  "values": [
+    {"subset": [], "value": "0"},
+    {"subset": [0], "value": "1"}
+  ],
+  "marginal_caps": ["1/2"],
+  "lambda": [
+    {"subset": [], "probability": "1/2"},
+    {"subset": [0], "probability": "1/2"}
+  ],
+  "prices": ["1/2"],
+  "gamma": "1/4"
+}

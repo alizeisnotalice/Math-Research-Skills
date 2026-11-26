@@ -1803,8 +1803,20 @@
     },
     {
       "path": "skills/math-bimatrix-kite-mixing/SKILL.md",
-      "sha256": "8ec57377169e5e491e9b6b275069357c006d12d3a9ec57e47375bbab827af63d",
-      "bytes": 2344,
+      "sha256": "f65f984cda19ae92ec99c8c35cd01cde5bdaa70422bdb4e0a5e3f83c60705de9",
+      "bytes": 2469,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-bimatrix-kite-mixing/examples/player-role-normalization-invalid.json",
+      "sha256": "33167218bd8be2ef8d46a05e9feec3ad30030529235eb13760bbd2e350e1c799",
+      "bytes": 133,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-bimatrix-kite-mixing/examples/player-role-normalization-swap.json",
+      "sha256": "53b2957546cf29145c798090a08ead504db50ab960a77a4657c1d237da4be93e",
+      "bytes": 166,
       "mode": 420
     },
     {
@@ -1838,6 +1850,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-bimatrix-kite-mixing/references/player-role-normalization.md",
+      "sha256": "07d533123c61c6f923cc6bef564e65373ef7a4467a954f605d5ede970fce1345",
+      "bytes": 2383,
+      "mode": 420
+    },
+    {
       "path": "skills/math-bimatrix-kite-mixing/references/row-kite-example.json",
       "sha256": "066a206e6b24402ce0dd9500f9f034f1b5e173705181585e86ded7ac3d87f96b",
       "bytes": 125,
@@ -1865,6 +1883,12 @@
       "path": "skills/math-bimatrix-kite-mixing/references/wave5-google03-dual-separator.md",
       "sha256": "dd8ae3b14620fe36c918034c1ae94d44c95c63f677a9aa3b07d17946e671032b",
       "bytes": 2764,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-bimatrix-kite-mixing/scripts/check_player_role_normalization.py",
+      "sha256": "6cae97530c2969dec5f69240b7473c8a3b24bb4e4d24e296d4bc271e7663fce5",
+      "bytes": 2004,
       "mode": 420
     },
     {
@@ -4233,8 +4257,8 @@
     },
     {
       "path": "skills/math-edge-deck-reconstruction-audit/SKILL.md",
-      "sha256": "bfb9eaeffecaae83edf0f482a3d2defdd17348921059162e63070ddc7fa60377",
-      "bytes": 2459,
+      "sha256": "8c9c5e3f7981ec6c96be524e9531106f2a55b757f7f9b1376c43d3b95ff3771b",
+      "bytes": 2582,
       "mode": 420
     },
     {
@@ -4247,6 +4271,12 @@
       "path": "skills/math-edge-deck-reconstruction-audit/examples/boundary-star-isolate.json",
       "sha256": "c3b521a1529652800cc597609b27b64a60ac56c0fa540a0947649dc35cfd4a5a",
       "bytes": 36,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/examples/kruskal-nonregular.json",
+      "sha256": "5e7a54dd88aa4a109b77f0b4a4a971881b56a35e0b50c15b13e01009eb9ea8d3",
+      "bytes": 74,
       "mode": 420
     },
     {
@@ -4322,6 +4352,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-edge-deck-reconstruction-audit/references/degree-ordered-kruskal-nonbridge.md",
+      "sha256": "19a18bf333d35dca5e0e193832e519b9ee4bcab37e8dbce6d6cf63a7e6f4fc3b",
+      "bytes": 1912,
+      "mode": 420
+    },
+    {
       "path": "skills/math-edge-deck-reconstruction-audit/references/edge-deck-reconstruction.md",
       "sha256": "b5905e6cc52218cf0cfd9e0c296d92ef5ca30298467c35cdabaf3ea17069ddd1",
       "bytes": 2405,
@@ -4343,6 +4379,12 @@
       "path": "skills/math-edge-deck-reconstruction-audit/references/vertex-deck-from-edge-deck.md",
       "sha256": "2256fdfd998f9511bd18b337cc56b6a07addb0e250ab7460e1593151aa32e2b7",
       "bytes": 1682,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/scripts/check_degree_ordered_kruskal.py",
+      "sha256": "d2ad63ddfd46a217b6e9bbc697558cfd70ed9a666d887cf3777115ec8b109019",
+      "bytes": 11094,
       "mode": 420
     },
     {
@@ -12249,8 +12291,8 @@
     },
     {
       "path": "skills/math-logrank-rectangle-rank-halving/SKILL.md",
-      "sha256": "9c3b84d58466e878cd19a59740ae68bb99aa68965552a8f0460f508b1e19b32a",
-      "bytes": 3520,
+      "sha256": "c96b0185088a4af73e0683c64f0bd864727daf8babf93b6c03ba5e86254aafbd",
+      "bytes": 3637,
       "mode": 420
     },
     {
@@ -12266,6 +12308,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-logrank-rectangle-rank-halving/examples/not-full-binary.json",
+      "sha256": "67e5ef4a8efdaf8af52b1de9dba12fe454f1cd8ebf5dad97618956a5221498b8",
+      "bytes": 37,
+      "mode": 420
+    },
+    {
       "path": "skills/math-logrank-rectangle-rank-halving/examples/not-monochromatic.json",
       "sha256": "fc8cbed14c87cec958e82699bdfe5d387f9b507f97d2ef570b1c81a36178d5dd",
       "bytes": 88,
@@ -12275,6 +12323,12 @@
       "path": "skills/math-logrank-rectangle-rank-halving/examples/positive.json",
       "sha256": "6f33c9fe9089399d09555736f217524f29cb258d59fd1fd626eea91077b0dcbc",
       "bytes": 88,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-logrank-rectangle-rank-halving/examples/seven-leaf-skew.json",
+      "sha256": "4df05d7df47d72724fc5bf8c033edc9d60f668f204b7fc2c25f51bf9fd8618fd",
+      "bytes": 331,
       "mode": 420
     },
     {
@@ -12290,6 +12344,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-logrank-rectangle-rank-halving/references/protocol-tree-balancing.md",
+      "sha256": "5a87b300a9215c776e4a7f2452e704007388370f27c4369e503c5a94e68b6b6c",
+      "bytes": 2894,
+      "mode": 420
+    },
+    {
       "path": "skills/math-logrank-rectangle-rank-halving/references/protocol-tree-certificate.md",
       "sha256": "c6d9e3befaed4d78a9e9388c172101214013500f7a57dbcc981314145a328a91",
       "bytes": 1168,
@@ -12299,6 +12359,12 @@
       "path": "skills/math-logrank-rectangle-rank-halving/references/source-audit.md",
       "sha256": "78cf3c2293359c5f8f2af4210b1663123b3b50466e430ce80f8ae72f20a7ed9c",
       "bytes": 2799,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-logrank-rectangle-rank-halving/scripts/check_protocol_tree_balancing.py",
+      "sha256": "75a65fb9edfb7b8b41e38c2f1abbab42473ab4ef8dcd8d6e3e173fc93dc5174a",
+      "bytes": 5627,
       "mode": 420
     },
     {
@@ -15021,8 +15087,8 @@
     },
     {
       "path": "skills/math-research/SKILL.md",
-      "sha256": "cf1dbe88211b2f1e6fe80350cf7ca9095bf0f4ace1e0ee69da4e6772911f359e",
-      "bytes": 8609,
+      "sha256": "8060b882e7803dd2ed39ee62619634ad9caa050e214999d11f60dd43463b10e8",
+      "bytes": 8630,
       "mode": 420
     },
     {
@@ -15045,8 +15111,8 @@
     },
     {
       "path": "skills/math-research/references/google-cogentic-2026-11-25.md",
-      "sha256": "fb3994bab7d56961cc3378da9ec00e626a0ebfec73f6460ea91a82da556e09df",
-      "bytes": 15906,
+      "sha256": "ef5fab4c525419d44cef4ac8ea12a51e6d04d957e26d0512ea77329d7c8e16dd",
+      "bytes": 18353,
       "mode": 420
     },
     {
@@ -15603,8 +15669,8 @@
     },
     {
       "path": "skills/math-tool-router/SKILL.md",
-      "sha256": "37196f485a2d9a82ecf15939e1c7b51e31d355c853fe9ac460263252e46b2dc1",
-      "bytes": 10052,
+      "sha256": "9e80a28294434e00972f1c8fd56dd5763d8a8b6a3bd987d77521fd4a7d522272",
+      "bytes": 10070,
       "mode": 420
     },
     {
@@ -22377,8 +22443,8 @@
     },
     {
       "path": "skills/probability-prophet-online-selection/SKILL.md",
-      "sha256": "75e8320bda10887b93bf474617d009548e41960259a4aba75cdf8f6778210adf",
-      "bytes": 9465,
+      "sha256": "d5540f1ab7b0cd4bfebaa4c26eb859540894c706467439919307dd76cd37d8ee",
+      "bytes": 9611,
       "mode": 420
     },
     {
@@ -22616,6 +22682,12 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-prophet-online-selection/examples/cogentic-static-price-single-item.json",
+      "sha256": "d4bdde067938511ce779b40122627ace838e1e268391aaa96f14073a3b9628f2",
+      "bytes": 419,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-prophet-online-selection/examples/negative.md",
       "sha256": "3ef0988a4266c5c3b0f20f3d36434cc8d9ffbc81e8b5ee23d7d1ebbbb4639332",
       "bytes": 1310,
@@ -22625,6 +22697,12 @@
       "path": "skills/probability-prophet-online-selection/examples/positive.md",
       "sha256": "6e5215671404d4095fffd6ff5ea406ca98414ad39a07ffce8da823d0281f47b8",
       "bytes": 1293,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-prophet-online-selection/references/cogentic-subadditive-static-price-lp-certificate.md",
+      "sha256": "b00eba85f20305384b93e49e0b3fc0af123e8af13709fc8645c2dd9f11294e00",
+      "bytes": 2821,
       "mode": 420
     },
     {
@@ -22643,6 +22721,12 @@
       "path": "skills/probability-prophet-online-selection/release-manifest.json",
       "sha256": "b10d1ef6dd9c8d78177ec625f62c2ad3b0da824fbfbd1a0ab7e87da524a0bf60",
       "bytes": 135319,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-prophet-online-selection/scripts/check_static_price_lp_certificate.py",
+      "sha256": "427ff3fb7cf1d902ba9225300be396bf48bdc04d7821ad0a2fb90a9b3e26d350",
+      "bytes": 4295,
       "mode": 420
     },
     {

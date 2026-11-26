@@ -56,3 +56,7 @@ python3 scripts/check_rank_halving_tree.py examples/nonmonochromatic-leaf.json
 ## Google Cogentic 的有限证书
 
 - [低密度乘积测度下的零单色矩形](references/cogentic-low-density-zero-rectangle.md)
+
+## Google Cogentic 有限构件
+
+- [全二叉协议树的叶数平衡证书](references/protocol-tree-balancing.md)

@@ -41,3 +41,7 @@ Bimatrix Games*，本机原件 SHA-256
 ## Google Cogentic 的有限证书
 
 - [固定行锚点的严格 LP 对偶分离](references/wave5-google03-dual-separator.md)
+
+## Google Cogentic 有限构件
+
+- [玩家角色归一化的精确后悔值传递](references/player-role-normalization.md)

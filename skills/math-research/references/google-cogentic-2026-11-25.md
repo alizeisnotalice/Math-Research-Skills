@@ -89,3 +89,20 @@
 | 版本 | 页数 | SHA-256 | 论文 | 相关技能 | 处理状态 |
 | --- | ---: | --- | --- | --- | --- |
 | Google Research 修订稿 | 41 | `32196e6a64d13fbd216c7e7353a3b44a46e8389eb3d15bad48ffb3dd926cc337` | An Exact Polynomial-Time Algorithm for 1/5-Approximate Nash Equilibria in Bimatrix Games | [math-bimatrix-kite-mixing](../../math-bimatrix-kite-mixing/SKILL.md) | 已采用构件 |
+
+## 11 月 26 日补充蒸馏
+
+用本机 Python 复算归档六份 PDF 的 SHA-256 和 274 个物理页。对照当日官方固定目录，五份现行稿与下载件完全相同，双矩阵稿仍为上述已登记修订。目录同一提交修订了另一篇组合拍卖论文。[Google Research 当日目录](https://github.com/google-research/google-research/tree/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers)
+
+| 来源 | 原文定位 | 采用的有限构件 | 本机精确回放 |
+| --- | --- | --- | --- |
+| 03 双矩阵博弈 | 物理页 11，MaximinKiteNE Step 2 | [交换玩家角色的后悔值传递](../../math-bimatrix-kite-mixing/references/player-role-normalization.md) | 非方阵例子把后悔值 `(5/32,5/24)` 精确换为 `(5/24,5/32)`。收益越出归一化区间时拒绝。 |
+| 05 Log-Rank | 物理页 35，Proposition A.3 的首段证明 | [全二叉协议树的叶数平衡](../../math-logrank-rectangle-rank-halving/references/protocol-tree-balancing.md) | 2 至 10 叶的 6,917 种有序全二叉树均通过整数划分核验。 |
+| 06 边重构 | 物理页 12–14，Lemma 3.1(1a–c) | [度有序 Kruskal 构件](../../math-edge-deck-reconstruction-audit/references/degree-ordered-kruskal-nonbridge.md) | 核验了全部 38 个四顶点连通标号图及一个五顶点非正则图。 |
+| Google 组合拍卖修订 | 物理页 6–7，Lemma 2.1 | [组合拍卖静态价格 LP 不等式](../../probability-prophet-online-selection/references/cogentic-subadditive-static-price-lp-certificate.md) | 单物品正例的两个子集约束均以 \(1/4\) 取等。把价格改成零会违反约束。 |
+
+组合拍卖原稿首发于 11 月 24 日。11 月 26 日北京时间 07:54 的官方修订补入独立并行工作引文。两个官方 PDF 均为 36 页，采用的局部不等式一致。此处登记当前版，首发稿留作版本对照。[官方修订提交](https://github.com/google-research/google-research/commit/3f540f420bfae7e6ce48365a68d0ae003feb2f87)
+
+| 版本 | 页数 | SHA-256 | 论文 | 相关技能 | 处理状态 |
+| --- | ---: | --- | --- | --- | --- |
+| Google Research 修订稿（独立论文） | 36 | `f49ea5630c1aaead322a0b7f87ac145181af4e86c574df5965cf9e30ba7b31aa` | Nearly Tight O(log log log m) Prophet Inequalities for Subadditive Combinatorial Auctions | [probability-prophet-online-selection](../../probability-prophet-online-selection/SKILL.md) | 已采用构件 |
