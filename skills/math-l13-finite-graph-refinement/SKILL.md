@@ -29,3 +29,7 @@ description: 复核两个显式有限简单图的 Weisfeiler–Leman 元组颜�
 - [Augmented matching and rank-factorization route](references/openai-seymour-augmented-matching.md)
 
 - [MUB6 finite terminal graph checks](references/openai-mub6-terminal-search-2026.md)
+
+## 文献复核采用的构件
+
+- [Finite individualization--refinement canonical-form contract](references/active-01-individualization-refinement-canonical.md)

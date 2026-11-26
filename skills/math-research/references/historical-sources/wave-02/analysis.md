@@ -247,6 +247,8 @@
 - 构件候选。The manuscript frames code-derived 0–1 sequences through normalized Gram-matrix spectral behavior and states central-limit results for linear spectral statistics of monomials under code-distance conditions.。
 - 适用范围。This is a recent local manuscript; the exact code ensemble, distance threshold, and proof dependencies must be verified before any random-matrix tool or general CLT claim is created.。
 - 已采用构件。采用均匀二元线性码行的低阶边缘判据。谱定理另核。[使用说明](../../../../probability-boolean-fourier-invariance/references/binary-code-marginals.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current probability-boolean-fourier-invariance binary-code-marginals.md already proves and implements the finite low-order uniform-marginal/dual-distance test. It correctly does not promote the manuscript's random-matrix spectral theorems.。定位。Uniform code-row model and main spectral-statistics setup pp.1--5; existing skill only adopts the finite linear-algebra marginal interface.。全卷 34 页。后续条件。Any spectral-statistics use needs the exact code ensemble, sampling rule, aspect-ratio regime, dual-distance threshold, and an independently checked random-matrix theorem.。
 
 ## On the Hardy--Littlewood maximal function for the cube
 
@@ -402,6 +404,8 @@
 - 构件候选。For a minimal stable conservative countable-state CTMC satisfying (1.13), Theorem 1.1 gives lower approximations to exit and occupation measures, computable total-variation error bounds, monotonicity under expanding truncations, and convergence under the stated exhaustion/time conditions.。
 - 适用范围。A reusable method would need the source's rate-matrix, initial-integrability, explosion, domain, and truncation assumptions. The occupation-measure bound involves E[tau] and is not generally computable without additional certification; this is a candidate, not an installed method.。
 - 已采用构件。有限增广生成元上的真实退出、截断弃置与占用区间。[使用说明](../../../../math-j03-nonlocal-balayage-exit-measure/references/etfsp-finite-certificate.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-j03-nonlocal-balayage-exit-measure ETFSP finite certificate already separates physical exit from truncation loss and uses this source's finite-time lower-bound boundary without overstating the countable-state convergence theorem.。定位。Theorem overview p.2; definitions and Theorem 1.1 p.4; error, monotonicity, and convergence clauses pp.4--5.。全卷 26 页。后续条件。For Theorem 1.1 convergence, verify a minimal stable conservative countable CTMC, initial rate integrability, exhaustive truncations, time horizon conditions, and the additional occupation integrability condition.。
 
 ## The Geometric Approach to the Classification of Signals via a Maximal Set of Signals
 

@@ -10,6 +10,10 @@ description: 用广义矩问题组织概率或解析界，核对矩约束、对�
 
 当前证据状态：**部分可用**。条件矩变量变换、逐点 majorant 的弱对偶及 `σ>0,t<μ` 的条件尾均值上确界可按所列定义执行；强对偶、有限原子表示和矩锥闭性仅在对应源条件及已列依赖可用。源外引不完整证明仍标为缺口，不将完整文献证明状态由主文覆盖推断。
 
+## 证明类型与交接
+
+本 Skill 是[证书类型分类](../probability-optimization-certificates/references/proof-type-taxonomy.md)的 **C 类**：未知概率测度、广义矩、条件比值和测度层面的弱/强对偶。若支持已完整列举且输入是 Boolean/count/marginal 矩约束，优先交给 [有限矩多项式对偶](../probability-moment-polynomial-duality/SKILL.md)；若只需核验已给的有理或区间见证，用 [L03](../math-l03-rational-and-interval-certificates/SKILL.md)。这些有限工具不能替代本 Skill 的事件分母、矩锥内点、闭性或达到条件。
+
 ## 输入与产出
 
 支持集或结构类、测度质量、已知矩 E[h_j(X)]=q_j、待界定事件 Ξ 与目标 g。

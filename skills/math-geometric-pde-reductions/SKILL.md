@@ -17,6 +17,8 @@ description: 核对给定几何模型的高度方程、标量曲率归一化、N
 
 ## OpenAI 原稿中的方法
 
+- [maximal-crossing special-Lagrangian torus](references/openai-final-wave7.md)
+
 - [Proposed primitive: zero-slope apex transport](references/openai-residual-02-wave5.md)
 - [Weighted Cartan-box calculus](references/openai-wave5-weighted-cartan-boxes.md)
 

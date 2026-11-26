@@ -27,6 +27,8 @@
 - 本机原文定位。\['local PDF pp.11-13, (2.28)-(2.33) and conclusion', 'arXiv:2511.21102 (submitted 26 Nov 2025)'\]
 - 核对范围。The local text uses heuristic ≃ substitutions to propose logarithm/factorial/gamma approximations. Its own p.12 reports gamma approximately 0.5736309333 with about 0.6% error, while p.13 subsequently asserts 0.577215664901; it supplies no controlled remainder resolving that conflict. It is not usable as a proof or as an irrationality input.
 - 依赖与状态。heuristic replacement of finite sums by integrals / truncated expansion with omitted higher powers / empirical fitted corrections; no rigorous error bound hold-unverified-heuristic
+- 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
+- 本次依据。The undated 13-page local preprint uses approximation signs and replaces finite sums by integrals without a controlled remainder. Its own p.12 reports 0.5736309333 (about -0.6% from gamma), while p.13 later prints 0.577215664901 after further unsupported omissions. No finite certificate or proof input is available.。定位。local PDF pp.11-13, (2.28)-(2.33), p.12 error admission, and conclusion。全卷 13 页。后续条件。A separately proved finite error bound for every approximation/replacement, with the exact local version identified, would be required before a computational interface could be adopted.。
 
 ### 10 · Approximations to Euler's constant
 
@@ -48,6 +50,8 @@
 - 本机原文定位。local arXiv:1303.1856v6 pp. 1–3 (Introduction; Conjectures 1.0.1–1.0.2), table of contents pp. 1–2; the γ Diophantine-approximation survey is §3.15
 - 核对范围。Historical and modern survey. It records, rather than resolves, the irrationality conjecture and the stronger non-period/transcendence conjecture; its value here is source routing and status control.
 - 依赖与状态。Broadly dependent on the cited literature; it is not a self-contained proof source for the surveyed results. / No numerical or proof claim from a survey subsection should be promoted without checking the cited primary paper. held: status/bibliography anchor only; no standalone tool rule extracted.
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。Published survey/status source, not a source for an independent callable proof rule. It explicitly records gamma irrationality as unknown and routes numerical/Diophantine material to primary papers.。定位。local arXiv:1303.1856v6 pp.1-3, Conjectures 1.0.1-1.0.2; pp.65-66, section 3.15 and Theorem 3.15.1。全卷 93 页。后续条件。Use only after checking any cited primary theorem; no adoption from this survey.。
 
 ### 20 · Fast convergences towards Euler-Mascheroni constant
 
@@ -62,6 +66,8 @@
 - 本机原文定位。08:G50; local slides 1, 37–38; https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/EulerConstant.pdf
 - 核对范围。Actual local item is a 77-slide lecture note dated 2 Mar 2023. Its “Irrationality of Euler’s constant” slide labels irrationality a conjecture and reports only computational continued-fraction data plus a lower bound on a hypothetical denominator.
 - 依赖与状态。numerical continued-fraction computation/OEIS data / cited surveys and known transcendence results held — status/reference source only; numerical observations and a conditional denominator lower bound are not a proof mechanism.
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。77-slide lecture/status presentation. It labels irrationality a conjecture; the displayed continued fraction and hypothetical-denominator lower bound are reported numerical results, not a reproducible derivation in this source.。定位。local slides 1 and 37-38, especially slide 38 'Irrationality of Euler's constant'。全卷 77 页。后续条件。Consult the cited primary computation before adding a numerical or continued-fraction method.。
 
 ### 35 · Precise error estimate of the Brent–McMillan algorithm for the computation of Euler's constant
 
@@ -83,6 +89,8 @@
 - 本机原文定位。Local author-hosted PDF p.1 only (explicitly an abstract/comments page). Formal article: Math. Comp. 34 (1980), 305-312, DOI 10.1090/S0025-5718-1980-0551307-4.
 - 核对范围。The available local source reports algorithms for high-precision computation and conditional continued-fraction denominator lower bounds if gamma or exp(gamma) is rational. It is numerical/computational evidence and does not establish irrationality; the full formal article was not present in the audited local PDF.
 - 依赖与状态。Only the abstract-level Bessel-function algorithm and computed regular continued fractions are locally verified. Any exact algorithmic theorem, error bound, or reproduction step must be checked against the 1980 primary article before use. held-version-only
+- 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
+- 本次依据。The local PDF is explicitly a one-page author-hosted abstract/comments sheet, not the 1980 article. It reports the Bessel algorithm and conditional denominator statement but contains no definitions, error theorem, or proof that could be replayed safely.。定位。local PDF p.1 only, abstract/comments and reference [2]。全卷 1 页。后续条件。Obtain and inspect the complete Brent--McMillan Math. Comp. 34 (1980), 305-312 primary article before extracting an algorithmic component; existing modern Brent--McMillan sources remain the usable route.。
 
 ### 51 · The Euler constant: γ
 
@@ -90,7 +98,8 @@
 - 本机原文定位。04:P03a; local PDF pp. 1–8 (Gourdon–Sebah, dated 2004-04-14)
 - 核对范围。Expository/computational note only: defines γ, records bounds and algorithms. Its formula (7) labels the Brent–McMillan O(e^{-8n}) remainder as empirical, and it explicitly says irrationality/transcendence of γ is unknown; it supplies no irrationality criterion.
 - 依赖与状态。Euler–Maclaurin expansion, exponential-integral and Bessel-function algorithms; formula (7) is attributed to Brent–McMillan but explicitly not proved in this note. held — retain solely as historical computation/background, not as a proof or a source of a certified γ irrationality tool.
-
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。Unrefereed 8-page 2004 web essay. It presents computation history and formulas but calls the Brent--McMillan O(exp(-8n)) term empirical rather than proving it; it itself preserves the open irrationality/transcendence status.。定位。local PDF pp.4-6, formulas (5)-(7) and explicit empirical qualification of (7); pp.7-8 computation record/references。全卷 8 页。后续条件。For certified computation use the already checked Brent--Johansson/Demailly primary error analyses, not this exposition.。
 
 ## 积分、级数、分数部分与判据
 
@@ -154,6 +163,8 @@
 - 核对范围。Actual local statement: Zlobin proves m-fold integral identities (Theorems 3–4) expressing them through the Lerch transcendent; gamma and log(4/pi) occur only as special representations. This is an analytic-representation source, not an irrationality theorem.
 - 依赖与状态。Lerch transcendent Phi and its shift/differentiation identities (local (1)–(2)) / Guillera–Sondow double-integral formulas cited as the m=2 antecedent held — retain only for verified integral/Lerch identities; no integer coefficients, denominator clearing, or nonzero shrinking linear form is supplied.
 - 调用入口。[高维正积分](../../math-sondow-log-fractional-certificate/references/double-integral-extensions.md)
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The full preprint proof of the m-dimensional Lerch identities and the gamma positive-integral specialization is already source-pinned in the installed math-sondow-log-fractional-certificate reference. It is a representation/positive-kernel interface, not an irrationality criterion.。定位。local arXiv:math/0606287v3 pp.1-2, Theorems 3-4; p.3, Example 2; pp.3-5, proof via simplex substitution and analytic continuation。全卷 6 页。后续条件。Existing interface only: any later denominator or irrationality use needs a separately derived finite rational/integer transform, nonvanishing, and shrinking bound.。
 
 ### 22 · Integrals Over Polytopes, Multiple Zeta Values and Polylogarithms, and Euler's Constant
 
@@ -161,6 +172,8 @@
 - 本机原文定位。04:P10; local pp. 1, 5–6, 11–12; https://arxiv.org/abs/0705.0732; https://doi.org/10.1134/S0001434608090290
 - 核对范围。Actual local Theorem 1 expresses triangle integrals as integer linear combinations of MZVs and polynomials in zeta values; Proposition 2 gives gamma as an integral involving generalized binomial coefficients. The gamma material is representational, while the MZV application includes explicitly conditional algebraic-independence reasoning.
 - 依赖与状态。multiple-zeta identities proved from the triangle integral (local Lemma 1/Theorem 1) / Sondow 2003 criterion/integral formulas are cited for the separate gamma approximation discussion / the conditional part depends on algebraic independence of pi,zeta(3),zeta(5),... held — usable as a cited integral/MZV source only; it provides no gamma integer-form irrationality certificate and its conditional claims must retain their hypothesis.
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。The verified polytope-integral and generalized-binomial representation of gamma is useful provenance, but it supplies neither common-denominator integer forms nor an irrationality criterion. The MZV algebraic-independence discussion is explicitly conditional.。定位。physical pp. 1, 5--6, 11--12; Theorem 5 and Propositions 1--2; arXiv:0705.0732v2; published Mathematical Notes DOI 10.1134/S0001434608090290。全卷 19 页。后续条件。For any new use, separately prove a same-scaling arithmetic form, a nonzero statement, and decay after that scaling; retain every stated MZV algebraic-independence hypothesis.。
 
 ### 25 · New Vacca-Type Rational Series for Euler's Constant and Its "Alternating" Analog ln(4/Pi)
 
@@ -169,6 +182,8 @@
 - 核对范围。Actual local Theorem 1 proves binary-digit rational series for gamma and log(4/pi); Theorem 2 gives a base-q/additive acceleration. These are convergent representations, not a rationality contradiction.
 - 依赖与状态。Vacca’s series and binary digit-count identities / Addison’s series/general base-q Vacca construction candidate — use the exact series identities; held for irrationality because convergence of rational partial sums gives neither the requisite denominator control nor a nonzero integer linear form.
 - 调用入口。[Vacca 有理级数](finite-rational-series.md)
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The binary-digit Vacca identities and their finite rational tail certificate are already implemented by math-euler-constant-irrationality/references/finite-rational-series.md; this source adds no distinct safe interface.。定位。physical pp. 1--4; Theorems 1--2 and Lemmas 1--3; arXiv:math/0508042v1; published Additive Number Theory (2010), 331--340。全卷 6 页。后续条件。Use the existing Vacca finite-sum and rational-tail route; for irrationality additionally prove denominator-scaled smallness and nonvanishing, which these series do not provide.。
 
 ### 30 · On irrationality of Euler’s constant and related asymptotic formulas
 
@@ -176,6 +191,8 @@
 - 本机原文定位。04:附录; local pp. 1, 5–9; https://arxiv.org/abs/2312.00295
 - 核对范围。The local preprint claims gamma irrationality from Sondow’s criterion, but its proof is not valid. Lemma 3 is concluded from computer checks only through n=200; Lemma 4 is explicitly conditional on a conjectured formula in another answer and uses “numerics suggest”; the final step substitutes d_{2n}~e^{2n} inside a fractional-part expression and then asserts a limit 0. None establishes Sondow’s required fractional-part condition or an integer-form contradiction.
 - 依赖与状态。Sondow 2003, Criteria for irrationality of Euler’s constant (the criterion invoked) / Sondow 2005 double-integral identity / unproved all-n identities/asymptotics and a non-rigorous fractional-part limit held — do not route as an irrationality proof. The claimed conclusion must remain disputed/withheld unless replaced by a valid all-n integer-form, nonvanishing, and decay argument.
+- 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
+- 本次依据。The asserted gamma-irrationality argument is not valid: its all-n Lemma 3 is only computer checked through n=200, Lemma 4 is conditional on an external conjectured formula, and the final fractional-part limit replaces a quantity inside braces by an uncontrolled asymptotic.。定位。physical pp. 1, 5--9; equations (37), (42), (47), (55)--(58); arXiv:2312.00295v1。全卷 10 页。后续条件。A replacement route needs a proved all-n identity/asymptotic, an exact denominator-scaled integer form, nonvanishing, and a justified fractional-part or smallness conclusion.。
 
 ### 44 · Rebuttal of Kowalenko's paper as concerns the irrationality of Euler's constant
 
@@ -271,6 +288,8 @@
 - 核对范围。For x&gt;0, Theorem 1 constructs factorial-height rational-function approximants to log(x)+gamma with a subexponential error and nonvanishing infinitely often; x=1 gives gamma. Theorem 2 supplies simultaneous rational approximations to gamma and zeta(2)-gamma^2. These approximation statements do not make an integral linear form tend to zero, and Conjecture 1 (the stronger n! denominator) remains a conjecture.
 - 依赖与状态。Selected construction uses simultaneous Pade approximants to Euler functions, recurrence/asymptotic analysis, and the stated denominator bounds. For gamma, retain the paper's explicit obstruction: its Aptekarev-type linear forms are not small enough after clearing denominators; do not promote convergence or nonvanishing to irrationality. candidate-with-obstruction
 - 调用入口。[Gamma 多 Laguerre 矩](../../math-gamma-multiple-laguerre-approximants/references/legendre-pade-moments.md)
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The Rivoal Gamma-derivative moment/recurrence data are already routed by math-gamma-multiple-laguerre-approximants/references/legendre-pade-moments.md and comparison.md, including the paper-specific published citation and scope boundary.。定位。physical pp. 1--5, 8; Theorems 1--2, Corollary 1, Proposition 1; Trans. Amer. Math. Soc. 361 (2009), 6115--6149, DOI 10.1090/S0002-9947-09-04905-8。全卷 37 页。后续条件。Use the existing Gamma-moment route with its stated normalization; any irrationality claim must overcome the source's explicit factorial-height versus subexponential-error obstruction.。
 
 ### 42 · Rational approximations for values of the digamma function and a denominators conjecture
 
@@ -278,7 +297,9 @@
 - 本机原文定位。Local arXiv PDF pp.1,3-7,19: abstract; Theorem 1; Corollaries 1-6; bibliography. arXiv:1004.0578v1 (2010-04-05).
 - 核对范围。For a,b in Q with a&gt;-1 and b&gt;0, Theorem 1 gives Jacobi-Laguerre rational approximants to log(b)-psi(a+1), including gamma at (a,b)=(0,1), and exact numerator/denominator formulas. Corollary 2 specializes to rational digamma arguments; Corollaries 5-6 establish the stated denominator divisibilities for the Rivoal-related sequences. The gamma specialization is an approximation result, not an irrationality proof.
 - 依赖与状态。The selected proof chain is the generalized Jacobi-Laguerre polynomial identity, hypergeometric numerator/denominator formulas, and Lemmas 3-5 asymptotics; the Rivoal denominator comparison is Theorem 2/Corollaries 5-6. Neither the displayed exponential ratio error nor the denominator statements alone supply a vanishing integer linear form in gamma. candidate-with-obstruction
-
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。The a=0,b=1 specialization (5) supplies exact finite Aptekarev gamma coefficient pairs and is a genuine extension of the existing multiple-Laguerre workspace. The Theorem 1/Lemma 3 proof chain was read on pp. 3--4 and 8--10; its finite formula is replayed with SymPy.。定位。physical pp. 3--4, 8--10; Theorem 1, specialization (5), Lemmas 1--3; arXiv:1004.0578v1。全卷 19 页。后续条件。For general rational a,b, separately define and audit the arithmetic normalization. Any irrationality application must additionally prove denominator-cleared nonzero linear forms and smallness after the same scaling; the source's asymptotic approximation alone is insufficient.。
+- 已采用构件。物理页 3, 4, 8, 9, 10。Exact finite coefficient generation for the gamma specialization only. It does not evaluate gamma, certify an error or asymptotic, establish nonvanishing, or prove irrationality. [方法说明](../../math-gamma-multiple-laguerre-approximants/references/jacobi-laguerre-aptekarev-gamma-pairs.md)。
 
 ## 相邻常数、digamma、有限类似物与 Gamma 商
 
@@ -288,6 +309,8 @@
 - 本机原文定位。published local PDF pp. 2671–2673 (definition and Theorems 1–4), pp. 2675–2677 (Lemmas 8–12), pp. 2678–2679 (§3 proof of Theorem 1)
 - 核对范围。For Euler–Lehmer constants γ(a,q), proves that at most one number in the infinite list γ(a,q), 1≤a&lt;q, q≥2, is algebraic; conditionally describes the γ(2,4)=γ/4 exception if γ is algebraic. This is a result on generalized constants, not irrationality of γ.
 - 依赖与状态。Gauss/digamma formulas in Lemma 8 and Baker's linear-forms theorem, stated as Lemma 9 and used through Lemma 10. / Theorem 1's proof is local §3 but its transcendence step depends essentially on Baker's theorem; the paper also imports earlier results as Lemmas 11–12. held: rigorous contextual result for Euler–Lehmer constants; no direct γ-irrationality tool component.
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。The published Euler--Lehmer result gives an at-most-one-algebraic statement for a family of generalized constants, not a decision for Euler's constant. Its archimedean Baker-logarithm mechanism is already retained as contextual scope in the gamma source map.。定位。physical pp. 1--3, 5--9; Theorems 1--4 and Lemmas 8--12; J. Number Theory 130 (2010), 2671--2682, DOI 10.1016/j.jnt.2010.07.004。全卷 12 页。后续条件。A concrete use must define the Euler--Lehmer parameters and separately check the Gauss/digamma reduction and every Baker/logarithm-independence premise; do not infer gamma irrationality from the at-most-one qualifier.。
 
 ### 18 · Expansions of generalized Euler's constants into the series of polynomials in π^{-2} and into the formal enveloping series with rational coefficients only
 
@@ -324,6 +347,9 @@
 - 本机原文定位。local PDF p. 1, abstract and equations (1)–(3); p. 2, equations (4)–(9) and the stated imported arithmetic claims; p. 5 proof of the divergent-series uniqueness calculation
 - 核对范围。The paper studies the analytic/Borel-summation uniqueness of α=1/e in γ+αδ and records γ+δ/e=Ein(1). It explicitly says neither γ nor δ is known irrational. Its statements about transcendence/disjunctive transcendence are imported from other work; they cannot be promoted to a γ-only result. The exact coefficient is 1/e and δ=−e Ei(−1), not an arbitrary rational coefficient.
 - 依赖与状态。Hardy's exponential-integral identity (PDF p. 1, (1)–(3)) / claimed prior Powers (2025) E-function/Siegel–Shidlovskii work for the arithmetic assertions (PDF p. 2, (iii)–(v)) / absolute convergence of the rearranged double series in the uniqueness calculation (PDF p. 5) preprint-audited-with-external-dependency; keep only the α=1/e analytic identity/uniqueness component, with arithmetic claims held pending audit of the cited predecessor
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。SHA and six physical pages verified: arXiv:2510.00315v1. Pages 1 and 5 give the exact analytic interface gamma+delta/e=Ein(1) and prove that the Borel-summable divergent-series cancellation occurs only at alpha=1/e; no gamma-only irrationality claim is used.。定位。physical pp.1--2, Hardy identity (1)--(3); p.5, Proposition 1 uniqueness calculation。全卷 6 页。后续条件。Any arithmetic use of the asserted transcendence/disjunctive-transcendence statements requires audit of the cited external Powers/Rivoal results; the local adoption is only the analytic cancellation identity.。
+- 已采用构件。物理页 1, 2, 5。The analytic Borel-cancellation identity concerns the pair (gamma, delta): gamma+delta/e=Ein(1), with alpha=1/e unique in the source's stated divergent-series combination. It is not a gamma-only irrationality route. [方法说明](ein-gamma-delta-uniqueness-ext0360.md)。
 
 ### 37 · Rational approximants for the Euler-Gompertz constant
 
@@ -338,6 +364,9 @@
 - 本机原文定位。Local arXiv PDF pp.1-2,6-7,15-16: abstract; Theorem 4.1; Theorems 7.1-7.2. arXiv:2210.06768v2 (2024-09-22).
 - 核对范围。The paper proves convergence and bracketing of a continued fraction for F(x)=e^x E_1(x), and develops rational approximations to the Euler-Gompertz constant delta=F(1). Its proposed irrationality route is conditional on proving delta B_i-A_i is nonzero for every i. It concerns delta, not Euler's constant gamma.
 - 依赖与状态。For the only irrationality implication, Theorem 7.2 additionally requires the unproved nonvanishing of every constructed delta B_i-A_i; Theorems 4.1 and 7.1 merely give denominator growth/convergence. Do not transfer delta statements to gamma or suppress this nonvanishing condition. held-adjacent-conditional
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。SHA and 18 pages verified: arXiv:2210.06768v2. The local proof gives explicit P_n,Q_n recurrences, positive denominator lower bounds, and a convergent bracket for F(x)=e^x E_1(x); it is a reusable continued-fraction enclosure for delta=F(1), not Euler's gamma.。定位。physical pp.6--7, (3.2), (4.1)--(4.4), Theorem 4.1; pp.15--16, Theorems 7.1--7.2。全卷 18 页。后续条件。For an irrationality conclusion one must prove the source's separate nonvanishing delta B_i-A_i for every constructed difference; the paper does not establish it.。
+- 已采用构件。物理页 1, 6, 7, 15, 16。For x>0, construct the source's P_n(x),Q_n(x) continued-fraction convergents for F(x)=e^xE_1(x); delta=F(1) only. The irrationality implication requires independently proving every delta B_i-A_i is nonzero. [方法说明](../../math-gamma-continued-fraction-recurrence/references/euler-gompertz-cf-bracketing-ext0035.md)。
 
 ### 46 · Series and Product Representations of Gamma, Pseudogamma and Inverse Gamma Functions
 
@@ -345,6 +374,10 @@
 - 本机原文定位。Local PDF pp.1-2,3-5,9: abstract; Theorems 2.1-2.2 and 2.6; Corollary 2.7; Conjecture 3.1. Formal article: Maple Transactions 5(1) (2025), Article 16090, DOI 10.5206/mt.v5i1.16090.
 - 核对范围。The formally proved Newton-series identities include 1/Gamma(x+1) for x&gt;0 (Theorem 2.1) and the Gamma Newton series for real x&gt;=1 (Theorem 2.6); Corollary 2.7 gives a rational-term series for Euler's constant. The inverse-Gamma Newton series is explicitly Conjecture 3.1. None of the identities is an irrationality proof for gamma.
 - 依赖与状态。Use only the stated convergence domains and the Laguerre/Newton interpolation bounds. Do not invoke the inverse-Gamma proposal as a theorem, and do not infer arithmetic information about the sum of the rational gamma series without a separately proved denominator/error certificate. candidate-computational-identity
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。SHA and ten pages verified against the formal Maple Transactions article (5(1), Article 16090, DOI 10.5206/mt.v5i1.16090). Theorem 2.6 and Corollary 2.7 provide a rational-term Newton-series representation of gamma with a stated convergence derivation; inverse-Gamma is explicitly only Conjecture 3.1.。定位。physical pp.3,5, Theorems 2.1, 2.6 and Corollary 2.7; p.9, Conjecture 3.1。全卷 10 页。后续条件。To use the rational series in irrationality work, separately provide denominator/height and nonzero error bounds along an infinite index set; the identity alone supplies neither.。
+- 已采用构件。物理页 1, 3, 5, 9。Evaluate the published rational-term Newton series for gamma under its stated real convergence domain. It is an exact identity, not an irrationality certificate; inverse-Gamma Newton series remains conjectural. [方法说明](rational-newton-gamma-series-ext0023.md)。
+- 精确复算。由正项积分另证尾差小于 4/N，N 为有限截断指标。
 
 ### 50 · The Digamma function, Euler-Lehmer constants and their p-adic counterparts
 
@@ -394,7 +427,9 @@
 - 本机原文定位。08:P39-01; local PDF pp. 1–4 (especially Theorem 2.1 and its warning), pp. 5–16
 - 核对范围。This is the other P39 PDF, not a Chowla–Selberg irrationality-measure paper. It produces elegant rapidly convergent continued fractions, including a CF for (Γ(1/4)/Γ(3/4))^4 in Theorem 2.1 and period/quasiperiod quotients. The authors explicitly state that it gives no new irrationality results; for the displayed γ quotient the common denominators are too large for such a conclusion.
 - 依赖与状态。Actual preprint derivations use Apéry acceleration/continued-fraction transformations, Ramanujan gamma-quotient CFs, Euler–Beukers integrals with creative telescoping, and Chowla–Selberg/modular period evaluations; the relevant obstruction is the denominator growth explained on local PDF p. 4. held — retain as a continued-fraction discovery/recurrence source, but prohibit use as an irrationality proof or as evidence about Euler's γ; title corrected from the mixed P39 bundle.
-
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。SHA and 16 pages verified: arXiv:2501.10090v3. Theorem 2.1 gives a specific shifted-Apery continued fraction and recurrence for (Gamma(1/4)/Gamma(3/4))^4, with two local derivations; p.4 supplies the exact common-denominator obstruction to an irrationality inference.。定位。physical pp.1--4, Theorem 2.1, recurrence (1), and denominator-growth warning。全卷 16 页。后续条件。Use a separate denominator-growth certificate before attempting any arithmetic conclusion; source explicitly says it provides no new irrationality results and it is not a result about Euler's gamma.。
+- 已采用构件。物理页 1, 2, 3, 4。Use the shifted-Apery recurrence/continued fraction only to approximate (Gamma(1/4)/Gamma(3/4))^4. The source proves no irrationality result and explicitly records inadequate common-denominator growth. [方法说明](../../math-gamma-continued-fraction-recurrence/references/apery-shifted-gamma-quotient-cf-ext039.md)。
 
 ## 算术 Gevrey、特殊函数与指数动机
 
@@ -411,6 +446,8 @@
 - 本机原文定位。local 2024 preprint pp. 277–284 (§12.8): integral (12.8.0.1), Definition 12.8.2, period matrix §12.8.5, Proposition 12.8.7, Corollaries 12.8.8, 12.8.12
 - 核对范围。Constructs an exponential motive M(γ), a nontrivial extension 0→Q(0)→M(γ)→Q(−1)→0, whose displayed period matrix contains γ. The algebraic-independence/transcendence conclusions in Corollaries 12.8.8/12.8.12 are conditional on the exponential period conjecture.
 - 依赖与状态。The construction depends on the preceding development of the exponential-motive category and comparison isomorphism (Chs. 2–8), plus rapid-decay/de Rham computations in §12.8. / The γ integral identity is attributed to Belkale–Brosnan in §12.8; Proposition 12.8.7 has a local proof, whereas corollaries explicitly assume Conjecture 8.2.6. held: rigorous conditional motivic framework, not an unconditional irrationality/transcendence method; preserve the period-conjecture premise.
+- 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
+- 本次依据。SHA and 301 physical pages verified for the authors' 2024 preprint. Section 12.8 explicitly constructs M(gamma) and proves it is a non-split exponential-motive extension with gamma in its period data; its transcendence corollaries are explicitly conditional on the exponential period conjecture.。定位。physical pp.277--284, especially (12.8.0.1), Definition 12.8.2, Proposition 12.8.7, Corollaries 12.8.8 and 12.8.12。全卷 301 页。后续条件。A usable motive tool needs a formal caller interface for exponential motives, realizations and comparison maps; any arithmetic conclusion additionally requires the exponential period conjecture (Conjecture 8.2.6).。
 
 ### 23 · Is Euler's constant a value of an arithmetic special function?
 
@@ -418,6 +455,8 @@
 - 本机原文定位。07:EXT-0606; local pp. 1–4, 10–11; https://hal.science/hal-01619235v2; https://rivoal.perso.math.cnrs.fr/articles/cteuler.pdf
 - 核对范围。Actual local abstract and discussion explicitly say that no representation proves gamma is an E-, G-, or M-function value at an algebraic point; the note argues this is plausibly impossible and supplies representation/series context. It is a 10-page survey note, not a proof of irrationality or transcendence.
 - 依赖与状态。Siegel–Shidlovsky, Chudnovsky and Nishioka results are discussed but not applicable to gamma / known Vacca-type identities and cited E/G/M-function arithmetic theory held — route only as a status/obstruction source; do not infer arithmetic properties of gamma from its representations.
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。SHA and 11 pages verified: HAL hal-01619235v2. This is an unpublished survey/status note; its extractable abstract explicitly says no displayed representation proves gamma an E-, G-, or M-function value at an algebraic point. The local text encoding is unsuitable for theorem-level operational extraction and the paper itself presents no such tool.。定位。physical pp.1--2 (HAL cover and abstract/status statement); p.10 (survey conclusion)。全卷 11 页。后续条件。Use only as a pointer/status citation; for any arithmetic-function admission test, supply a primary proof source with explicit function, algebraic point, differential/functional equation, and normalization.。
 
 ### 45 · Relations between values of arithmetic Gevrey series, and applications to values of the Gamma function
 

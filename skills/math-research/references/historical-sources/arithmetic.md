@@ -69,6 +69,8 @@
 - 适用范围。The construction needs a Laurent-series continued fraction, the nonvanishing A(b^{d^m})B(b^{d^m}) condition for every m, irrationality of f(b), and proof of periodic cancellation data. Finite Hankel values or finite gap search cannot certify the theorem. It does not apply to γ.。
 - 相关技能。[math-hankel-pade-certificates](../../../math-hankel-pade-certificates/SKILL.md)。
 - 已采用构件。由已认证的有限间隙做齐次 Mahler 的一步有理多项式传播。[使用说明](../../../math-hankel-pade-certificates/references/badziahin-mahler-gap-transfer.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The exact homogeneous Mahler gap propagation is already a live, source-matched reference in math-hankel-pade-certificates, references/badziahin-mahler-gap-transfer.md, including its global nonvanishing and periodicity gates.。定位。Theorem 1 (pp. 1--2), Lemmas 1--4 (pp. 5, 8--10), and Proposition 2 (pp. 10--16)。全卷 19 页。后续条件。Use the existing route only after proving the homogeneous Mahler equation, all evaluation nonvanishing conditions, and eventual cancellation periodicity.。
 
 ## On the irrationality exponent of the regular paperfolding numbers
 

@@ -157,6 +157,8 @@
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)
 - 其余依赖。A usable replacement must state a parameter regime and domains, prove extremizer existence and nondegeneracy modulo symmetries, and replace the false global weighted bounds with valid graph-norm estimates; re-audit a corrected edition before transfer.
 - [主来源 1](https://arxiv.org/abs/2504.16245)
+- 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
+- 本次依据。The source's transfer from an unweighted Lp norm to a weighted norm is false in its stated generality, and the stability route separately assumes extremizer existence and coercivity of a second variation. It cannot supply an M03 theorem.。定位。Stability claims (pp. 16--17); variational assumptions (pp. 19--21); global weighted transfer (p. 22); later kernel/Sobolev uses (pp. 24--30)。全卷 32 页。后续条件。A corrected edition must give a parameter/domain-specific graph-norm estimate, extremizer existence, and nondegeneracy modulo symmetries before re-review.。
 
 ## Finite-dimensional Approximations of Push-forwards on Locally Analytic Functionals
 
@@ -193,6 +195,8 @@
 - 相关技能。[math-n03-oscillation-and-geometric-remainder](../../../../math-n03-oscillation-and-geometric-remainder/SKILL.md)
 - 其余依赖。Recover/audit the actual implementation or make a rational-interval search that logs every outer polygon, feasibility decision, lower/upper objective bound, tolerance, and active-node certificate.
 - [主来源 1](https://arxiv.org/abs/1402.1993) · [主来源 2](https://doi.org/10.2478/ausi-2014-0014)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。math-n03-oscillation-and-geometric-remainder already carries a full source card for this SHA: exact A/BA projective maps and the contraction are retained, while its constrained-search pseudocode is quarantined pending a global certificate.。定位。Projective maps (pp. 1--3), contraction lemma (p. 6), constrained search and caveat (pp. 7--8)。全卷 11 页。后续条件。Use the existing card with feasible-incumbent filtering, signed denominator checks, and an explicit active-node lower/upper-bound termination certificate.。
 
 ## Local Affine Selections of Convex Multifunctions
 
@@ -230,6 +234,8 @@
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)
 - 其余依赖。Fix a dimension and derive a quantitative deficit-to-distance statement modulo permutations/signs, including the odd-dimensional equality orbit; only then consider a narrowly scoped stability interface.
 - [主来源 1](https://arxiv.org/abs/2601.18436)
+- 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
+- 本次依据。Pages 12--13 give a clean zero-sum L1 extremum and equality orbit, but this has no present target-specific projection-normal interface and does not provide a deficit-to-distance estimate for M03.。定位。Cauchy--Minkowski reduction (pp. 11--12) and Proposition 1.4 proof (p. 13)。全卷 16 页。后续条件。Specify the regular-simplex projection normalization and a quantitative distance-to-equality objective before turning the equality calculation into a stability interface.。
 
 ## On the Fourier transform of the symmetric decreasing rearrangements
 
@@ -288,6 +294,8 @@
 - 相关技能。[math-f06-menshov-rademacher-maximal-partial-sums](../../../../math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md)
 - 其余依赖。Compare the published edition for a correction; otherwise replace all second moments by Hermitian covariances E(X_n overline{X_m}) and reprove the maximal and convergence statements with the appropriate positivity/boundedness assumptions.
 - [主来源 1](https://arxiv.org/abs/2103.09594) · [主来源 2](https://doi.org/10.5802/crmath.225)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The live F06 source card records a checked Hermitian finite maximal lemma and a conservative 16L repair, while explicitly withholding the printed 8L and covariance corollaries. A duplicate source record would be misleading.。定位。Lemma 1 (pp. 3--4), Theorem 1 proof (pp. 4--6), later corollaries (pp. 7--9)。全卷 10 页。后续条件。Use math-f06-menshov-rademacher-maximal-partial-sums with Hermitian moments and its stated absolute-energy hypotheses; do not import the printed complex bilinear formulation.。
 
 ## Sparse bounds for maximal rough singular integrals
 
@@ -324,6 +332,9 @@
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)
 - 其余依赖。To reuse it, define an explicitly scoped projection-normal tool with normalization and symmetry orbit fixed; separately audit the p in (1,infinity) comparison/tail arguments before claiming their constants.
 - [主来源 1](https://arxiv.org/abs/2608.21787)
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。The p=infinity branch is an exact, finite-dimensional deficit certificate conditional only on the projection-volume identity. Its variance proof is fully source-local and adds a narrowly scoped M03 example rather than a generic stability assertion.。定位。Theorem 1(b) (p. 2), projection formula (4) (p. 3), and variance proof (p. 4)。全卷 15 页。后续条件。Caller must supply the central-projection normalization and the p=infinity Cauchy projection identity; the finite-p branches are not adopted.。
+- 已采用构件。物理页 2, 3, 4。An exact p=infinity central-hyperplane-projection deficit conditional on the stated projection-volume identity and normalized ordered nonnegative normal; it is not a general M03 stability theorem. [方法说明](../../../../math-m03-near-extremizer-stability/references/wave7-historical-01-linf-projection-deficit.md)。
 
 ## Sunrise strategy for the continuity of maximal operators
 
@@ -407,3 +418,5 @@
 - 相关技能。[math-n03-oscillation-and-geometric-remainder](../../../../math-n03-oscillation-and-geometric-remainder/SKILL.md)
 - 其余依赖。Audit the d≥2 Fourier branch against a fixed Gaussian regularization and verify cited Bessel source [5], before promoting any exact N03 constant or Bessel branch.
 - [主来源 1](https://arxiv.org/abs/2402.08391)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。math-n03-oscillation-and-geometric-remainder already retains the verified one-dimensional Fourier-normal-form coefficient and explicitly holds the branch-sensitive multidimensional and Bessel-dependent portions.。定位。Theorem 2.1 and normal form (pp. 3--5); Theorem 2.6 (pp. 9--10); Bessel application (pp. 11--12)。全卷 15 页。后续条件。For a multidimensional application, fix a Gaussian/Fourier branch and separately audit the imported Bessel estimates before using a constant.。

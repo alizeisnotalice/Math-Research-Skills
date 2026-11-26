@@ -48,3 +48,7 @@ description: 分析近极值稳定性与刚性，核对亏损量、对称性、�
 ## OpenAI 原稿中的方法
 
 - [Scoped reference. Attained radial defect and aligned chords](references/wave4-geoa3-tingley-defect-alignment.md)
+
+## 文献复核采用的构件
+
+- [Exact deficit for projections of the \(\ell_\infty\) ball](references/wave7-historical-01-linf-projection-deficit.md)

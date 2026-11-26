@@ -45,6 +45,8 @@
 - 适用范围。No active route may treat boundedness as a replacement for independence, conditional MGF control, martingale differences, or an explicit dependence/mixing theorem. This source supplies neither such a hypothesis nor proof, and its appendix contradicts the p.2 assertion.
 - 其余依赖。Use a concentration theorem whose stated dependence regime is verified (e.g. a conditional-MGF martingale or a quantitatively specified mixing/blocking result) before any time-series warning conclusion is admitted.
 - [主来源 1](https://arxiv.org/abs/2512.08851) · [主来源 2](https://arxiv.org/pdf/2512.08851)
+- 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
+- 本次依据。arXiv:2512.08851v1 asserts bounded dependent observations admit the independent Hoeffding tail, while its appendix assumes independence. The exact duplicated-Bernoulli counterexample disproves the asserted dependent-data inequality.。定位。independence/serial-correlation assertion p. 2; appendix independence assumption p. 9。全卷 16 页。后续条件。Replace the assertion with a theorem whose stated dependence regime is verified, such as conditional-MGF martingale or quantitative mixing/blocking concentration.。
 
 ## Algorithm for Solving Optimization Problems with Interval Valued Probability Measure
 
@@ -112,6 +114,9 @@
 - 适用范围。A numerical spectral radius from sample points or partition-refinement stability is explicitly only empirical (p.11). The source does not furnish an input system that constructs an admissible Markov partition, certified directed derivative extrema, distortion constants, and interval Perron-root/rounding proof for arbitrary maps.
 - 其余依赖。A dedicated rigorous-dynamics component must require a finite Markov graph, expansion metric/constant, interval enclosures for every directed inverse derivative, and verified Perron-root root brackets; only then may it return rounded dimension intervals.
 - [主来源 1](https://doi.org/10.1353/ajm.1998.0031) · [主来源 2](https://dash.harvard.edu/server/api/core/bitstreams/7312037c-490c-6bd4-e053-0100007fdf3b/content) · [主来源 3](https://muse.jhu.edu/article/803)
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。The published AJM 120(4) (1998), 691-721 method gives a narrow, nonduplicate certified interface: inverse-derivative interval matrices on a finite expanding Markov partition bracket the dimension through Perron roots. The source proof and its explicit distinction between rigorous bounds and empirical samples were checked.。定位。Markov/eigenvalue setup pp. 7-8; Theorem 2.2 and rigorous bounds pp. 9-10; empirical limitation p. 11。全卷 39 页。后续条件。Caller must provide an admissible finite expanding Markov partition, interval derivative extrema on every directed block, an expansion proof, and a certified Perron-root solve.。
+- 已采用构件。物理页 7, 8, 9, 10, 11。Finite expanding-Markov partition dimension bracket from certified inverse-derivative intervals only; does not construct the partition or certify sample-point calculations. [方法说明](../../../../math-conformal-dimension-perron-brackets/references/mcmullen-perron-dimension-brackets.md)。
 
 ## Information from coincidences
 
@@ -156,6 +161,8 @@
 - 适用范围。Theorem 1 also requires a genuinely original AC-OTS feasible reconstruction; rank appearance, local Knitro status, rounded binary values and an approximate slack spectrum cannot establish binary feasibility, rank/reconstruction, dual feasibility, or equality of the strengthened relaxation with the original model.
 - 其余依赖。Require the complete instance and lifted model, an exact/interval original binary feasible point, exact s_1=1 and cone constraints, an interval PSD certificate for the unmodified dual slack, rigorous objective enclosure, and a proof of relaxation-to-original reconstruction before any C01-style certificate is released.
 - [主来源 1](https://arxiv.org/abs/2609.38435) · [主来源 2](https://arxiv.org/pdf/2609.38435)
+- 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
+- 本次依据。arXiv:2609.38435v1 does not furnish a valid low-rank SDP certificate: its post-hoc s1 correction breaks the unbounded dual derivation when s1 != 1, and reported negative slack eigenvalues are not PSD certificates.。定位。RLT/lift pp. 3-5; Lagrange bound p. 6; s1 correction p. 7; negative slack spectrum Table III p. 8。全卷 8 页。后续条件。Provide exact/interval original binary feasibility, exact s1 and cone constraints, an unmodified interval-PSD dual slack, rigorous objective bounds, and a relaxation-to-original reconstruction proof.。
 
 ## On the Banach--Mazur Type for Normed Spaces
 
@@ -178,6 +185,8 @@
 - 适用范围。No local proof of the imported localization/size-to-energy conversion or row/column estimates was recovered. A cardinality factor N^epsilon cannot be silently upgraded to a uniform-in-N scalar interval estimate, and the theorem neither covers nonsmooth cutoffs nor spatial trees.
 - 其余依赖。Independently prove the referenced localization and row/column energy estimates for the finite tri-tile model, including all alpha/epsilon bookkeeping, before a distinct bounded tool can be released.
 - [主来源 1](https://arxiv.org/abs/2606.22134)
+- 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
+- 本次依据。arXiv:2606.22134v1 supplies a restricted smooth-disjoint-strip bilinear square-function mechanism with positive cardinality loss, but it delegates the decisive localization to an external reference. It is not a scalar Rubio-de-Francia transfer.。定位。smooth strip theorem pp. 3-4; finite model pp. 6-7; delegated localization and Theorem 6.2 pp. 14-15。全卷 18 页。后续条件。Prove the imported localization and row/column size-energy estimates for the finite tri-tile model, including alpha/epsilon bookkeeping, before release.。
 
 ## Operational Interpretations of the Chernoff Inequality
 
@@ -199,6 +208,8 @@
 - 适用范围。A finite sieve is only an illustration; the asymptotic prime-power argument is the counterexample. It does not resolve the Mertens problem or rule out a differently stated, proved arithmetic dependence theorem.
 - 其余依赖。Replace Assertion 1.10 with a precisely formulated and proved arithmetic statement; then rederive each claimed asymptotic without treating a random surrogate as the Mobius function.
 - [主来源 1](https://arxiv.org/abs/2604.23517)
+- 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
+- 本次依据。arXiv:2604.23517v1 relies on an independence premise false for the Mobius/squarefree variables it uses: conditioning Omega(n)=1 asymptotically selects primes among prime powers, unlike the unconditional squarefree density. Its Mertens route is invalid.。定位。Assertion 1.10 p. 4; use as input p. 5; Mertens consequences pp. 6-8。全卷 10 页。后续条件。Replace Assertion 1.10 by a precise proved arithmetic dependence theorem and rederive every claimed consequence without an independent surrogate.。
 
 ## Similarity-Sensitive Entropy under Representation Change and Inference
 
@@ -255,6 +266,8 @@
 - 适用范围。The argument depends indispensably on Assumption 2.3, the measurable disintegration/fallback machinery, Lemma 4.2 truncation, Lemma 5.2 augmentation, and the paper's divergence conventions. This audit intentionally does not duplicate the separate finite causal-OT implementation work.
 - 其余依赖。Audit Assumption 2.3 and prove the finite forms of Lemmas 4.2 and 5.2 (including singular mass) before converting this candidate into an independent tool.
 - [主来源 1](https://arxiv.org/abs/2604.10274)
+- 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
+- 本次依据。arXiv:2604.10274v1 has a conditional truncation/augmentation exchange that lowers a strictly convex divergence and then proves convex-integrand optimality. It depends on measurable disintegration, Assumption 2.3, Lemmas 4.2 and 5.2, and is intentionally not a duplicate of finite causal-OT work.。定位。one-sided setup pp. 9-10; Theorem 6.2 pp. 29-32; Theorem 6.3 and Corollary 6.4 pp. 32-35。全卷 75 页。后续条件。Audit Assumption 2.3 and give finite forms of truncation and augmentation, including singular mass and the source divergence conventions.。
 
 ## Well-posedness, Regularity, and Strong Approximations of Superlinear Stochastic Reaction-Diffusion Equation
 

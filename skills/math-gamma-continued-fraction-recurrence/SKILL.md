@@ -39,3 +39,8 @@ Theorem 1 的 \(p_n/q_n-\gamma\sim2\pi e^{-4\sqrt n}\) 是次指数收敛；\(D_
 ## 补充来源中的方法
 
 - [Exact folding of a polynomial continued-fraction layer](references/supp-14-esma-folding-transform.md)
+
+## 文献复核采用的构件
+
+- [Shifted Apéry recurrence for a Gamma quotient](references/apery-shifted-gamma-quotient-cf-ext039.md)
+- [Continued-fraction brackets for `e^x E_1(x)`](references/euler-gompertz-cf-bracketing-ext0035.md)

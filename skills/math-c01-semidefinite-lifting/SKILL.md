@@ -11,6 +11,10 @@ description: 审查半定提升的建模、秩约束与松弛方向，区分 SDP
 
 当前证据状态：**条件化可用**。已读主源支持特定两球 Beta 提升定理；剩余题录筛查、外引极射线引理及实际模型逐项验证仍须完成。此状态不表示整组来源覆盖已结束。
 
+## 证明类型与交接
+
+本 Skill 是[证书类型分类](../probability-optimization-certificates/references/proof-type-taxonomy.md)的 **B 类**：从二次/秩一模型到 PSD 外松弛或经证明的精确提升。有限有理残差或原/对偶数据可由 [L03](../math-l03-rational-and-interval-certificates/SKILL.md)复核，但 L03 不提供提升、rank-one 恢复或 SDP 精确性。未知概率测度的矩问题转 [B03](../math-b03-generalized-moments/SKILL.md)，有限 Boolean/count 矩 LP 转 [有限矩多项式对偶](../probability-moment-polynomial-duality/SKILL.md)。
+
 ## 输入与产出
 
 实/复二次型、全部原约束、变量域、优化方向、归一化条件，以及要证明的外松弛或精确性声明。

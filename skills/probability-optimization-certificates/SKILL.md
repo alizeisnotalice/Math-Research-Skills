@@ -1,28 +1,28 @@
 ---
 name: probability-optimization-certificates
-description: Build and audit finite-dimensional optimization bounds and proof certificates used inside probability arguments, including duality, interval validation, and exact LP/MIP checks.
+description: Assemble and audit a finite optimization certificate inside a probability proof after the stochastic model, encoded finite problem, proof type, and remaining transfer are explicit.
 metadata:
-  short-description: Certified optimization bounds for probability proofs
+  short-description: Certificate assembly for probability proofs
 ---
 
 # Probability optimization certificates
 
-Use this skill when a probability argument relies on a finite LP, convex program, SDP, or integer program as a rigorous bound or computational certificate. Keep the encoded finite problem distinct from the stochastic, asymptotic, or infinite-dimensional statement it is intended to support.
+Use this skill when a probability argument needs a finite optimization encoding **and** a ledger explaining what the certificate proves about the stochastic model. It is an assembly and transfer skill, not the default implementation route for every LP, SDP, moment problem, interval computation, or integer program.
 
-First record the objective direction, variables and domains, all constraints, coefficient type, sign conventions, and the precise claim being certified. Derive weak duality for that model. Treat strong duality, attainment, complementary slackness, minimax exchange, and convergence as separate claims with their own hypotheses.
+First freeze the finite item set, variables/domains, objective direction, coefficient type, sign conventions, rounding, and precise encoded claim. Separately state the model-to-process reduction and every unproved stochastic, asymptotic, infinite-dimensional, convergence, minimax, or attainment step. A certificate for the encoding does not establish that the encoding models the desired process.
 
-Treat solver output as a candidate. For rational finite models, check feasibility, signs, branch coverage, certificate identities, and objective gaps with exact arithmetic where practical. For floating-point input, use outward-rounded intervals or a proved residual bound. Report exploratory numerics separately from exact or interval-certified evidence. An exact finite certificate says nothing by itself about a model encoding, an all-size theorem, or a limit.
+## Choose the proof type before an algorithm
 
-For conic and polynomial models, identify the cone, dual cone, compactness or Archimedean assumptions, face-reduction conditions, degree, and relaxation order. SOS is an SDP certificate; DSOS/SDSOS are conservative inner certificates. In branch-and-bound, prove that pruning preserves a globally minimizing point or covers every feasible integer branch.
+Read [the proof-type taxonomy](references/proof-type-taxonomy.md), then delegate the certificate kernel:
 
-Read [references/method.md](references/method.md) for detailed certificate routes and failure boundaries. Use [references/sources.md](references/sources.md) for the exact source identities, accepted theorem scopes, page locators, and evidence links. The original W19 baseline has 30 current R04 high-reviewed scoped uses (29 complete papers and one acquired book with complete Chapter 5 read). Six existing R15 G32 uses are listed separately and do not substitute for or enlarge the original baseline count. Source-by-source scopes, not the mere presence of a PDF or a source-wide citation, govern transfer.
+- exact rational residuals, finite LP/cone primal-dual witnesses, or directed interval enclosures to [L03](../math-l03-rational-and-interval-certificates/SKILL.md);
+- quadratic/rank/PSD lift, Shor SDP, or rank-one recovery to [C01](../math-c01-semidefinite-lifting/SKILL.md);
+- unknown-law generalized moment measure, conditional ratio, or measure-level attainment/duality to [B03](../math-b03-generalized-moments/SKILL.md);
+- fully enumerated Boolean/count/marginal moment laws with pointwise polynomial duals to [finite moment duality](../probability-moment-polynomial-duality/SKILL.md); and
+- polynomial SOS/moment hierarchies to [moment-SOS certificates](../math-c03-moment-sos-certificates/SKILL.md).
 
-For finite infection or online-selection encodings, state the finite item set, variables, domains, constraints, objective direction, rounding convention, and checker. A certificate for that encoding does not establish that it models the desired process. Use the exact finite cover, interval, SOS, Sturm, SAT/SMT, Krawczyk, and enumeration interfaces only within the conditions in [the method guide](references/method.md) and the accepted scoped records in [the source register](references/sources.md).
+For a finite cover, MIP, branch tree, SAT/SMT, Sturm, Krawczyk, or source-specific probability encoding, retain this skill's [method guide](references/method.md). Check exact feasibility, signs, branch coverage, certificate identity, and objective direction; solver output is only a candidate. Treat strong duality, attainment, complementary slackness, relaxation exactness, and limiting transfer as separate claims.
 
-The [positive cases](examples/positive.md) and [negative cases](examples/negative.md) give executable rational certificates and common missing-condition failures. The cases verify only their displayed finite instances.
+## Evidence and source scope
 
-## Source-use boundary
-
-Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.
-
-全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+[Source records](references/sources.md) govern theorem-specific use; the original W19 baseline has 30 current R04 high-reviewed scoped uses, while six prior R15 G32 uses remain supplemental. [Positive](examples/positive.md) and [negative](examples/negative.md) cases are executable finite examples only. See [evidence access](../math-research/references/evidence.md) for local attachments.

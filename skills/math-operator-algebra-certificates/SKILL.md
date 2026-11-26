@@ -34,3 +34,7 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 
 - [Finite Heisenberg matrix-unit sector](references/openai-direct-wave-2.md)
 - [Finite symmetry, Fock, CP, and loop-trace components](references/openai-finite-symmetry-fock-cp-2026.md)
+
+## 文献复核采用的构件
+
+- [Finite-rank inertia count by a Schur complement](references/recent07-inertia-count.md)

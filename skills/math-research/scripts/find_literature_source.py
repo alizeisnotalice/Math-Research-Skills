@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 from collections import Counter, defaultdict
 from dataclasses import dataclass
+from datetime import datetime
 import hashlib
 import json
 from pathlib import Path
@@ -32,6 +33,7 @@ SUPPLEMENTAL_CLASSES = {
     "构件候选": "candidate", "条件或证据待查": "hold",
     "版本与引用": "citation", "归档定位": "adjacent",
 }
+REVIEW_SCOPES = {"component", "statement", "citation", "context", "dependency"}
 ADOPTION_LABELS = {"已采用方法", "已采用构件", "已验收构件", "可调用工具"}
 ACTIVE_CLASSES = {
     "限域采用": "scoped-reference", "引用与范围相符": "scoped-reference",
@@ -74,6 +76,8 @@ class Occurrence:
     classification: str | None = None
     adoption_recorded: bool = False
     dependency_rechecked: bool = False
+    reviewed_at: datetime | None = None
+    review_scope: str | None = None
 
 
 def normalize(value: str) -> str:
@@ -182,6 +186,31 @@ def section_status(collection: str, entries: list[str], labels: list[str], adopt
     return None
 
 
+def read_current_review(entries: list[str], location: str) -> tuple[datetime, str, str] | None:
+    latest = None
+    for entry in entries:
+        if not entry.startswith("复核记录。"):
+            continue
+        parts = entry.rstrip("。").split("。")
+        if len(parts) != 4:
+            raise ValueError(f"invalid review record at {location}")
+        _, timestamp, status, scope = parts
+        if status not in STATUS_CHOICES or status == "adopted" or scope not in REVIEW_SCOPES:
+            raise ValueError(f"invalid review status or scope at {location}")
+        try:
+            reviewed_at = datetime.fromisoformat(timestamp)
+        except ValueError as error:
+            raise ValueError(f"invalid review date at {location}") from error
+        if reviewed_at.tzinfo is None:
+            raise ValueError(f"review date requires a time zone at {location}")
+        review = (reviewed_at, status, scope)
+        if latest is not None and reviewed_at == latest[0] and review != latest:
+            raise ValueError(f"conflicting review records at {location}")
+        if latest is None or reviewed_at >= latest[0]:
+            latest = review
+    return latest
+
+
 def table_occurrences(path: Path, lines: list[str], collection: str):
     for number, line in enumerate(lines, 1):
         if not line.startswith("| "):
@@ -222,8 +251,13 @@ def section_occurrences(path: Path, lines: list[str], collection: str, identity_
         classification = section_status(collection, entries, labels, adopted)
         adopted = adopted or (collection == "recent" and classification == "adopted-local")
         rechecked = collection == "historical" and "依赖复核" in labels
+        review = read_current_review(entries, f"{path}:{index + 1}")
+        reviewed_at = review_scope = None
+        if review:
+            reviewed_at, classification, review_scope = review
         yield Occurrence(identity[0].lower(), title, path, index + 1, collection,
-                         "\n".join([title, *body]).strip(), classification, adopted, rechecked)
+                         "\n".join([title, *body]).strip(), classification, adopted, rechecked,
+                         reviewed_at, review_scope)
 
 
 def source_occurrences(selected: list[str]):
@@ -242,9 +276,20 @@ def current_records(occurrences: list[Occurrence]) -> dict[tuple[str, str], Occu
     for item in occurrences:
         key = item.sha256, item.collection
         previous = current.get(key)
-        if previous is None or item.dependency_rechecked or (
-            not previous.dependency_rechecked
-            and (previous.classification is None or item.adoption_recorded)
+        if previous is None:
+            current[key] = item
+        elif item.reviewed_at is not None:
+            if previous.reviewed_at is None or item.reviewed_at > previous.reviewed_at:
+                current[key] = item
+            elif item.reviewed_at == previous.reviewed_at and (
+                item.classification, item.review_scope
+            ) != (previous.classification, previous.review_scope):
+                raise ValueError(f"conflicting review records for {item.sha256} in {item.collection}")
+        elif previous.reviewed_at is None and (
+            item.dependency_rechecked or (
+                not previous.dependency_rechecked
+                and (previous.classification is None or item.adoption_recorded)
+            )
         ):
             current[key] = item
     return current
@@ -279,7 +324,9 @@ def search_occurrences(occurrences: list[Occurrence], sha_prefix: str, terms: li
                 continue
         matches[item.sha256].append(item)
     for items in matches.values():
-        items.sort(key=lambda item: not item.dependency_rechecked)
+        items.sort(key=lambda item: (
+            item is not latest[item.sha256, item.collection], not item.dependency_rechecked
+        ))
     return matches
 
 
@@ -321,6 +368,19 @@ def find_archive_pdf(root: Path, sha256: str) -> str | None:
     return None
 
 
+def location_fields(item: Occurrence, current: Occurrence) -> dict:
+    result = {"title": item.title, "collection": item.collection,
+              "path": str(item.path), "line": item.line}
+    if item.classification or item.adoption_recorded or item.dependency_rechecked:
+        result.update(classification=item.classification, adoption_recorded=item.adoption_recorded,
+                      dependency_rechecked=item.dependency_rechecked)
+    if current.reviewed_at is not None:
+        result["current"] = item is current
+    if item.reviewed_at is not None:
+        result.update(reviewed_at=item.reviewed_at.isoformat(), review_scope=item.review_scope)
+    return result
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--sha", default="", help="SHA-256 prefix of at least 8 hex digits")
@@ -344,20 +404,20 @@ def main() -> None:
     if not any((args.sha, terms, args.skill, args.collection, args.status, args.summary)):
         parser.error("provide --sha, --text, --skill, --collection, --status, or --summary")
     selected = list(dict.fromkeys(args.collection or COLLECTIONS))
-    occurrences = list(source_occurrences(selected))
-    matches = search_occurrences(occurrences, args.sha.lower(), terms, args.skill, args.status)
+    try:
+        occurrences = list(source_occurrences(selected))
+        matches = search_occurrences(occurrences, args.sha.lower(), terms, args.skill, args.status)
+    except ValueError as error:
+        parser.error(str(error))
     result = {"matched_originals": len(matches)}
     if args.summary:
         result["collections"] = summarize(matches, occurrences)
     else:
         ordered = sorted(matches.items(), key=lambda pair: (normalize(pair[1][0].title), pair[0]))
+        latest = current_records(occurrences)
         records = [
             {"sha256": digest, "locations": [
-                {"title": item.title, "collection": item.collection, "path": str(item.path), "line": item.line,
-                 **({"classification": item.classification, "adoption_recorded": item.adoption_recorded,
-                     "dependency_rechecked": item.dependency_rechecked}
-                    if item.classification or item.adoption_recorded or item.dependency_rechecked else {})}
-                for item in items
+                location_fields(item, latest[item.sha256, item.collection]) for item in items
             ]}
             for digest, items in ordered[:args.limit]
         ]

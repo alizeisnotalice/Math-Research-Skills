@@ -709,6 +709,8 @@
 - 构件候选。The manuscript separates e-power from finite-horizon type-II control: its counterexample varies the testing model, while its conditional Hölder argument bounds the exponent for a filtered betting sequence; these two scopes should be preserved if distilled.。
 - 适用范围。This is an unversioned 2026 manuscript. The exponent-to-error interpretation and i.i.d. attainability use additional hypotheses; it does not produce a uniform finite-horizon type-II bound from e-power alone.。
 - 已采用构件。有限独立调度二元乘子的逆矩、固定时域及序贯 II 类错误。[使用说明](../../../../probability-martingale-stopping/references/finite_inverse_moment_type_ii.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current probability-martingale-stopping reference `finite_inverse_moment_type_ii.md` already keeps the useful finite scope: conditionally valid e-variables with a supplied negative-moment bound yield a fixed-horizon Type-II bound, with an exact rational independent-binary audit subcase. The original manuscript's Theorem 3.7 varies the testing problem and design, while Remark 3.12 and Theorem 4.9 supply the lower-tail/conditional-Hölder direction; the existing reference preserves that quantifier boundary and does not falsely derive finite Type-II control from e-power alone.。定位。Theorem 3.7, physical pp. 3 and 12--15; Remark 3.12, physical p. 15; conditional Hölder Theorem 4.9, physical pp. 18--19; live route probability-martingale-stopping/references/finite_inverse_moment_type_ii.md.。全卷 47 页。后续条件。Use the existing route only after specifying the filtration, conditional e-variable property, horizon, rejection convention, and a verified conditional negative-moment bound.。
 
 ## The Variational Principle for a Marked Gibbs Point Process with Infinite-Range Multibody Interactions
 
@@ -2565,6 +2567,8 @@
 - 适用范围。Candidate only: it is an unversioned v1 manuscript in the archive and concerns finite independent Bernoulli sums and strict atom reversal; no transfer to tail, convex, or dependent-sum orders.。
 - 相关技能。[probability-bernoulli-extremal-orders](../../../../probability-bernoulli-extremal-orders/SKILL.md)。
 - 已采用构件。有限独立 Bernoulli 的严格原子反转和距离二均值阈值。[使用说明](../../../../probability-bernoulli-extremal-orders/references/kleiner_distance_two_exact.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current probability-bernoulli-extremal-orders reference `kleiner_distance_two_exact.md` already records the exact finite independent-Bernoulli threshold, the strict-versus-infimum direction, the distance-two staircase parameter, and rational audit/boundary checks. The local v1 Theorem 1.1 gives precisely these thresholds; its reduction and boundary analysis confirm that the result is about strict atom reversal, not a converse, tail order, or dependent sums.。定位。Theorem 1.1, physical pp. 1--2; shifted-binomial reduction, p. 3; r>=3 argument, p. 5; staircase optimizer and boundary ties, pp. 7--8; live route probability-bernoulli-extremal-orders/references/kleiner_distance_two_exact.md.。全卷 11 页。后续条件。For a caller instance, verify finite independence and the exact atom comparison; use the existing exact calculator only for rational parameters and retain that a mean above the threshold is not sufficient for reversal.。
 
 ## An Asymptotically Optimal Bernoulli Factory for Certain Functions That Can Be Expressed as Power Series
 

@@ -62,6 +62,7 @@ SPECIALIST_TOPICS = {
         'math-hankel-pade-certificates',
     ),
     '调和分析、动力系统与几何方程': (
+        'math-conformal-dimension-perron-brackets',
         'math-bessel-cross-product-recurrence',
         'math-subanalytic-preparation',
         'math-asymptotic-midpoint-moduli',
@@ -77,6 +78,8 @@ SPECIALIST_TOPICS = {
         'math-lienard-half-arc-matching',
     ),
     '算子代数、上同调与代数几何': (
+        'math-nonnegative-matrix-path-certificates',
+        'math-finite-nonassociative-algebra-audits',
         'math-holomorphic-local-to-global-transfer',
         'math-algebraic-transfer-certificates',
         'math-ag-divisor-intersection-ledger',

@@ -101,7 +101,7 @@
 - [math-l14-nonarchimedean-cover-descent](../../math-l14-nonarchimedean-cover-descent/SKILL.md)：在完备代数闭非阿基米德域上，核对有限 étale Galois 覆盖在指定连通域的分支稳定子度数，并在素于残余特征的条件下传递环域单位的根；不用于断言全局覆盖存在。
 - [math-l15-exact-unit-fraction-transforms](../../math-l15-exact-unit-fraction-transforms/SKILL.md)：对严格介于 0 和 1 的有理数，精确去除单位分数重复项，或以有界贪心步骤把剩余分母推进到指定区间；不用于和等于 1 的展开。
 - [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md)：审查或应用素数筛中的有限局部条件、尾部剔除、Kummer 完全分裂与加权区间到稠密度转移；显式保留条件性解析输入，不把分裂判别或有限算例写成素数密度定理。
-- [math-l17-filtered-linear-algebra-certificates](../../math-l17-filtered-linear-algebra-certificates/SKILL.md)：精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。
+- [math-l17-filtered-linear-algebra-certificates](../../math-l17-filtered-linear-algebra-certificates/SKILL.md)：精确核验有限维空间的首项基、共同降算子过滤以及整系数对称矩阵的 Krylov 列秩；不把有限样例或几何预印本主定理当作一般证明。
 - [math-l18-multiplicative-kernel-tensorization](../../math-l18-multiplicative-kernel-tensorization/SKILL.md)：用素数指数分解核验整数族的乘法 GCD 核估计；检查局部集中、Euler 乘积与临界指数。适用于含 LCM、GCD 或约化乘积的非负双序列估计。
 - [math-l19-coordinate-ring-certificates](../../math-l19-coordinate-ring-certificates/SKILL.md)：验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。 包含线性多项式结式与专门化最大公因数的有限检查。
 - [math-l20-binary-character-congruences](../../math-l20-binary-character-congruences/SKILL.md)：在有限初等二群角色族中寻找与零顶点同余的非零顶点。适用于 2-adic 群环求值和有限个指定系数的精确匹配，要求核验二进制维数、精度和测试数。

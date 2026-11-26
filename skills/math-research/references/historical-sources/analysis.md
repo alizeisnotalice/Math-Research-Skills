@@ -553,6 +553,8 @@
 - 适用范围。The paper’s definition of submodularity already includes monotonicity, two-sided sequential continuity, finiteness, and v(∅)=0. The total-order generating condition is essential. The proof line beginning on p. 6 reverses the displayed A,B inclusion relative to Theorem 4, so any import must retain the theorem’s B⊂A orientation and independently audit that typographical inconsistency. It does not establish generic measurable argmax selection.。
 - 相关技能。[math-m04-measurable-supremum-selection](../../../math-m04-measurable-supremum-selection/SKILL.md)。
 - 已采用构件。有限原子代数上的支配测度构造与指定子集取等。一般 σ-代数的扩张仍按原定理核查。[使用说明](../../../math-b02-semi-infinite-exchange/references/polymatroid-base-separation.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The finite atomic calibration and its source boundary are already documented in math-b02-semi-infinite-exchange, references/polymatroid-base-separation.md. The general sigma-algebra extension remains outside a generic selector API.。定位。Theorem 4 (p. 5) and its construction/proof (pp. 6--8)。全卷 9 页。后续条件。For a general sigma-algebra, retain the source's totally ordered generator and two sequential-continuity hypotheses, including the theorem's B subset A orientation.。
 
 ## Composition of analytic paraproducts
 

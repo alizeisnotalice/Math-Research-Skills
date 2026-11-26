@@ -16,6 +16,8 @@ description: 核验链复形权截断、Mayer–Vietoris 条件、图状神经�
 
 ## OpenAI 原稿中的方法
 
+- [Albanese-maximal group-extension obstruction](references/openai-final-wave7.md)
+
 - [Nearby-cycle specialization detection](references/nearby-cycle-specialization-detection-arithmetic-1.md)
 - [Scoped transfer patterns from OpenAI arithmetic-2 sources](references/openai-arithmetic-2.md)
 - [Unitary fixed-space incidence interface](references/openai-group-unitary-incidence-wave4-spectral2.md)

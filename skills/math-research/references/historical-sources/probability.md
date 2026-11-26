@@ -46,6 +46,8 @@
 - 构件候选。For finite probability measures on a connected weighted graph, weak non-degeneracy on every nonempty proper vertex subset yields a unique Kantorovich potential up to constants. Given an optimal rooted spanning tree, formula (1.4) computes it from signed subtree mass imbalances; Theorem 3.3 proves the claim.。
 - 适用范围。The construction presupposes finite support, a graph-shortest-path ground metric and an already optimal spanning tree. The source version and its spanning-tree minimization dependency require publication/version review before operational promotion.。
 - 相关技能。[math-d01-kantorovich-duality](../../../math-d01-kantorovich-duality/SKILL.md)。
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-d01-kantorovich-duality tree-metric-transport.md gives the exact finite-tree transport/potential certificate and explicitly records that the source's general-graph conclusion additionally requires an optimal spanning tree and weak non-degeneracy. The local source is arXiv v1 while the current record notes a later v2.。定位。Tree potential formula (1.4) and weak non-degeneracy p.3; Proposition 2.6 p.10; Theorem 3.3 p.17.。全卷 37 页。后续条件。For a general weighted graph, certify graph distances, a spanning tree attaining the graph transport optimum, and every graph-edge Lipschitz inequality before transferring the tree potential.。
 
 ## Kantorovich type topologies on spaces of measures and convergence of barycenters
 
@@ -238,6 +240,8 @@
 - 构件候选。The paper gives explicit likelihood-ratio estimators for exponential tilting and backward bridges of a fixed-horizon discrete Markov process. The tilted parameter is selected from a log-MGF derivative equation in the random-walk case.。
 - 适用范围。Estimator unbiasedness and bridge construction require the stated absolute-continuity/support conditions and known transition structure. Reported variance behavior in examples is not a universal efficiency theorem.。
 - 相关技能。[math-h02-exponential-tilting-saddlepoint](../../../math-h02-exponential-tilting-saddlepoint/SKILL.md)。
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-h02-exponential-tilting-saddlepoint Aguilar--Gatto finite bridge reference provides an exact rational finite-state Doob-transform certificate, support-direction checks, and a boundary rejection case, using this source with its formal publication record.。定位。Tilt/saddlepoint setup p.9; bridge terminal-law conditions p.16; executable source algorithms SM1.1--SM1.3 pp.32--33.。全卷 35 页。后续条件。For use, provide a finite row-stochastic kernel, horizon, initial law, nonzero target probability, and the needed absolute-continuity direction. Continuous/infinite-state and efficiency claims require separate analysis.。
 
 ## Level 2.5 large deviations and uncertainty relations for self-interacting diffusions
 

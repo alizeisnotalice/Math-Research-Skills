@@ -663,6 +663,8 @@
 - 适用范围。This is an approximation/reformulation route, not exact exchange: feasibility for the original SIP needs a one-sided error allowance or an independently certified approximation bound. The SOS assertions quoted here are univariate and, for interval nonnegativity, use the stated weighted representations.。
 - 相关技能。[math-b02-semi-infinite-exchange](../../../../math-b02-semi-infinite-exchange/SKILL.md)。
 - 已采用构件。一元有理多项式在闭区间上的显式平方和恒等式，或一个严格负值见证。[使用说明](../../../../math-b02-semi-infinite-exchange/references/papp-univariate-interval-positivity.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-b02-semi-infinite-exchange papp-univariate-interval-positivity.md implements the explicit rational interval SOS identity/negative-witness check and preserves the interpolation-error and SIP feasibility gates.。定位。Chebyshev error Proposition 1 p.5; interval SOS representations p.6; Hermite PSD interpolation Theorem 5 p.7; scaling discussion p.8.。全卷 23 页。后续条件。To transfer an interpolant certificate to the original SIP function, provide a one-sided uniform approximation error in the correct direction; general SDP, multivariate SOS, and exchange convergence are separate.。
 
 ## Semi-Infinite Programs for Robust Control and Optimization: Efficient Solutions and Extensions to Existence Constraints
 
@@ -800,6 +802,8 @@
 - 适用范围。The exact matching set uses information from an optimal dual SDP solution, so it is not an a priori replacement for solving the SDP. Any reusable method must keep strict-feasibility, commutativity/initialization, and approximation assumptions explicit.。
 - 相关技能。[math-c01-semidefinite-lifting](../../../../math-c01-semidefinite-lifting/SKILL.md)。
 - 已采用构件。给定有理原可行点及秩一切组合时，认证当前 SDP 与 LP 同值。[使用说明](../../../../math-c01-semidefinite-lifting/references/roux-carr-ravi-rank-one-cut-certificates.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-c01-semidefinite-lifting reference `roux-carr-ravi-rank-one-cut-certificates.md` already contains the strictly narrower, independently checkable finite certificate: a supplied nonnegative rank-one slack decomposition and primal witness prove equality of one specified LP and SDP. The local arXiv v3 states Observation 1 under primal/dual strict feasibility and an optimal dual slack, and Appendix A gives the spectral decomposition proof. The live reference records the 2025 Mathematical Programming Computation publication and distinguishes its certificate from an a-priori SDP-to-LP reduction.。定位。Observation 1, physical p. 4; proof in Appendix A, physical p. 44; live route math-c01-semidefinite-lifting/references/roux-carr-ravi-rank-one-cut-certificates.md.。全卷 54 页。后续条件。For a new instance, supply exact primal affine feasibility, PSD witness, nonnegative rank-one slack decomposition, and common objective value to the existing finite checker.。
 
 ## Lower Bounds on the Size of Semidefinite Programming Relaxations
 

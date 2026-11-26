@@ -1,0 +1,6 @@
+{
+  "prime": 5,
+  "lambda": 2,
+  "operation": "x*y = (1-lambda)*x + lambda*y (mod prime)",
+  "replay": "scripts/check_recent05_affine_prime_medial_rack.py --self-test"
+}

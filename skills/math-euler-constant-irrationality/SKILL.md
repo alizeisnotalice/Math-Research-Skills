@@ -34,3 +34,8 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 - [Quantitative size gate for a Nilsson--Gevrey decomposition](references/supp08-g-operator-size.md)
 - [Hypergeometric mod-℘ Frobenius gate](references/supp08-hypergeometric-frobenius.md)
 - [Strict E-function logarithm admission gate](references/supp19-e-function-logarithm-admission.md)
+
+## 文献复核采用的构件
+
+- [`Ein(1)` as the unique analytic cancellation of gamma and delta](references/ein-gamma-delta-uniqueness-ext0360.md)
+- [Rational-term Newton series for Euler's constant](references/rational-newton-gamma-series-ext0023.md)

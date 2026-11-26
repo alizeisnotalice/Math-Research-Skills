@@ -8,6 +8,10 @@ description: Build finite-support probability bounds for Boolean k-wise laws, ev
 Use this skill when a probability question has a finite support or explicit finite moment model and the goal is a sharp event bound, a one-sided polynomial certificate, or a justified k-wise Boolean reduction.
 
 
+## Proof-type route
+
+This is **type D** in the shared [proof-type taxonomy](../probability-optimization-certificates/references/proof-type-taxonomy.md): an enumerated finite Boolean/count/marginal law and a pointwise polynomial or atom-LP dual. It is not a replacement for [B03 generalized moments](../math-b03-generalized-moments/SKILL.md) when the support/law is not fully finite or a conditional measure-level ratio is at issue, nor for [C01 SDP lifting](../math-c01-semidefinite-lifting/SKILL.md) when rank/PSD relaxation is the proof object. Use [L03](../math-l03-rational-and-interval-certificates/SKILL.md) to independently check supplied exact rational or interval witness arithmetic.
+
 ## Source-use boundary
 
 Use the documented theorem only within the model and interface in its source-use card. For formally published work, verify the citation and the cited statement against the publication. Verify the active claim and relevant proof steps for a preprint-only result. Historical review notes retain the scope of their original versions. Keep source-card gaps, unavailable evidence, and open transfers as research leads.

@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 213 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 216 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -98,7 +98,7 @@
 | [math-l14-nonarchimedean-cover-descent](../skills/math-l14-nonarchimedean-cover-descent/SKILL.md) | 在完备代数闭非阿基米德域上，核对有限 étale Galois 覆盖在指定连通域的分支稳定子度数，并在素于残余特征的条件下传递环域单位的根；不用于断言全局覆盖存在。 |
 | [math-l15-exact-unit-fraction-transforms](../skills/math-l15-exact-unit-fraction-transforms/SKILL.md) | 对严格介于 0 和 1 的有理数，精确去除单位分数重复项，或以有界贪心步骤把剩余分母推进到指定区间；不用于和等于 1 的展开。 |
 | [math-l16-prime-sieve-certified-transfers](../skills/math-l16-prime-sieve-certified-transfers/SKILL.md) | 审查或应用素数筛中的有限局部条件、尾部剔除、Kummer 完全分裂与加权区间到稠密度转移；显式保留条件性解析输入，不把分裂判别或有限算例写成素数密度定理。 |
-| [math-l17-filtered-linear-algebra-certificates](../skills/math-l17-filtered-linear-algebra-certificates/SKILL.md) | 精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。 |
+| [math-l17-filtered-linear-algebra-certificates](../skills/math-l17-filtered-linear-algebra-certificates/SKILL.md) | 精确核验有限维空间的首项基、共同降算子过滤以及整系数对称矩阵的 Krylov 列秩；不把有限样例或几何预印本主定理当作一般证明。 |
 | [math-l18-multiplicative-kernel-tensorization](../skills/math-l18-multiplicative-kernel-tensorization/SKILL.md) | 用素数指数分解核验整数族的乘法 GCD 核估计；检查局部集中、Euler 乘积与临界指数。适用于含 LCM、GCD 或约化乘积的非负双序列估计。 |
 | [math-l19-coordinate-ring-certificates](../skills/math-l19-coordinate-ring-certificates/SKILL.md) | 验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。 包含线性多项式结式与专门化最大公因数的有限检查。 |
 | [math-l20-binary-character-congruences](../skills/math-l20-binary-character-congruences/SKILL.md) | 在有限初等二群角色族中寻找与零顶点同余的非零顶点。适用于 2-adic 群环求值和有限个指定系数的精确匹配，要求核验二进制维数、精度和测试数。 |
@@ -141,6 +141,7 @@
 | [math-centered-cube-endpoint-budget](../skills/math-centered-cube-endpoint-budget/SKILL.md) | Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima. |
 | [math-clique-free-random-multiplier](../skills/math-clique-free-random-multiplier/SKILL.md) | Construct and exactly check the finite-support random multiplier from the clique-free neighborhood recursion for a supplied finite weighted K_r-free graph. |
 | [math-cohomological-transfer](../skills/math-cohomological-transfer/SKILL.md) | 核验链复形权截断、Mayer–Vietoris 条件、图状神经上链延拓以及已给代数或谱数据上的局部化与张量消失。 |
+| [math-conformal-dimension-perron-brackets](../skills/math-conformal-dimension-perron-brackets/SKILL.md) | 对给定扩张共形 Markov 分区、认证导数区间和有理比较向量，验证非负转移矩阵的谱半径界并判断指数与维数的方向。 |
 | [math-conformal-domain-estimates](../skills/math-conformal-domain-estimates/SKILL.md) | Manage gated conformal-domain coordinate-energy and univalent inverse-integral-means transfers. Use only with the specified normalization, boundary, and source-model hypotheses; not for arbitrary holomorphic maps or planar compactness. |
 | [math-dirichlet-l-derivative-sine-reduction](../skills/math-dirichlet-l-derivative-sine-reduction/SKILL.md) | 对给定偶周期有理数据，精确生成 Dirichlet 型级数在零点导数的形式对数权重。核对周期、对称性、零索引和分母。 |
 | [math-discrete-proof-transfer](../skills/math-discrete-proof-transfer/SKILL.md) | 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。另用于周期图的有限连通分支与例外顶点预算。不要因同名 Fourier、稳定性或张量术语就迁移结论。 |
@@ -149,6 +150,7 @@
 | [math-euler-maclaurin-quadrature-certificates](../skills/math-euler-maclaurin-quadrature-certificates/SKILL.md) | 为满足端点消失条件的多项式 Euler--Maclaurin 求积构造精确余项与可复核误差包围；不用于未经认证的一般浮点积分。 |
 | [math-euler-series-continued-fraction](../skills/math-euler-series-continued-fraction/SKILL.md) | Convert a finite nondegenerate rational series segment to Euler generalized continued-fraction data exactly. Use for finite algebraic identity checks, not for convergence or irrationality claims. |
 | [math-f2-group-ring-cancellation](../skills/math-f2-group-ring-cancellation/SKILL.md) | Verify a finite characteristic-two group-ring cancellation certificate from two labelled components and a supplied exact group-label product oracle; it does not establish torsion-freeness or nonzero factors. |
+| [math-finite-nonassociative-algebra-audits](../skills/math-finite-nonassociative-algebra-audits/SKILL.md) | 核验指定有理轴代数乘法表、消去后的线性泛函，或素域上的仿射 medial rack 恒等式和见证。 |
 | [math-function-field-period-transcendence](../skills/math-function-field-period-transcendence/SKILL.md) | 在已给定的正特征 Drinfeld 模、t-motive 与解析平凡化数据下，定位周期、准周期、第三类周期和 Carlitz 张量周期的条件性超越/代数独立接口。 |
 | [math-gamma-continued-fraction-recurrence](../skills/math-gamma-continued-fraction-recurrence/SKILL.md) | 用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。 |
 | [math-gamma-gregory-series-interval](../skills/math-gamma-gregory-series-interval/SKILL.md) | 用 Gregory 系数的 Fontana–Mascheroni 级数计算欧拉常数 γ 的严格有理区间，核对精确系数、剩余质量和给定有理候选。 |
@@ -167,6 +169,7 @@
 | [math-logrank-rectangle-rank-halving](../skills/math-logrank-rectangle-rank-halving/SKILL.md) | 从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。 |
 | [math-mzv-newton-harmonic-relations](../skills/math-mzv-newton-harmonic-relations/SKILL.md) | Check finite Newton/binomial duality for positive multiple-harmonic indices exactly. Use to prepare finite inputs for Kawashima-type MZV relations, not to prove MZV independence or Euler-constant claims. |
 | [math-nonarchimedean-analytic-transfer](../skills/math-nonarchimedean-analytic-transfer/SKILL.md) | 在完备非阿基米德环境中，核对有理或形式的有限阶解析 jet 转移、近似根余项及稠密压缩逆塔上的 Roos 差分。 |
+| [math-nonnegative-matrix-path-certificates](../skills/math-nonnegative-matrix-path-certificates/SKILL.md) | Verify the odd-power path certificate for finite entrywise-nonnegative symmetric matrices, with exact finite arithmetic where the inputs are rational. |
 | [math-openai-arithmetic-determinants](../skills/math-openai-arithmetic-determinants/SKILL.md) | 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。 |
 | [math-operator-algebra-certificates](../skills/math-operator-algebra-certificates/SKILL.md) | 核验算子代数中的幺正压缩修复、平移卷积核、谱相位迹、自伴谱编码及 C* 截断转运。按已给投影、严格谱隙、迹或比较见证选择。 |
 | [math-projective-induction-cocycle-certificates](../skills/math-projective-induction-cocycle-certificates/SKILL.md) | 用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。 |
@@ -206,7 +209,7 @@
 | [probability-measure-convergence](../skills/probability-measure-convergence/SKILL.md) | Analyze weak convergence, tightness, conditional laws, changing integrands, and martingale-problem limits. Use when a proof passes from stochastic models to limits of probability measures or needs a precise convergence mode. |
 | [probability-moment-polynomial-duality](../skills/probability-moment-polynomial-duality/SKILL.md) | Build finite-support probability bounds for Boolean k-wise laws, event/count moment data, and degree-bounded polynomial duals. Use when the support and full constrained marginal or moment map can be stated; route Fourier and invariance proofs to the existing Boolean skill, and treat tensor/tree recursion as uncovered here. |
 | [probability-nonlinear-law-dynamics](../skills/probability-nonlinear-law-dynamics/SKILL.md) | Analyze fixed points and iteration of probability-law operators, including nested stationary-law maps, nonlinear Markov updates, and recursive distributional equations; use when the proof needs operator-specific existence, uniqueness, stability, or global convergence. |
-| [probability-optimization-certificates](../skills/probability-optimization-certificates/SKILL.md) | Build and audit finite-dimensional optimization bounds and proof certificates used inside probability arguments, including duality, interval validation, and exact LP/MIP checks. |
+| [probability-optimization-certificates](../skills/probability-optimization-certificates/SKILL.md) | Assemble and audit a finite optimization certificate inside a probability proof after the stochastic model, encoded finite problem, proof type, and remaining transfer are explicit. |
 | [probability-percolation-renormalization](../skills/probability-percolation-renormalization/SKILL.md) | Analyze iid percolation, finite-range block arguments, bootstrap closure, and random-host propagation only after matching the model, observable, and hypotheses to an exact source interface. |
 | [probability-permutation-subset-sums](../skills/probability-permutation-subset-sums/SKILL.md) | Analyze invariant k-subsets of random permutations through cycle counts, Poisson limits, and random subset-sum reachability while keeping fixed-k limits separate from adjacent-k monotonicity. |
 | [probability-planar-isoperimetry](../skills/probability-planar-isoperimetry/SKILL.md) | Analyze planar-graph or tessellation isoperimetry when the embedding, set class, and exact perimeter convention can be matched to a scoped method. |

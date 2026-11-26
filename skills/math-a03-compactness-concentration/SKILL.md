@@ -35,3 +35,7 @@ L¹有界不保证一致可积；无紧性时近极值并不产生真实极值�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 文献复核采用的构件
+
+- [Paired functional at a compatible collapsed limit](references/wave7-historical-01-paired-functional-collapse.md)

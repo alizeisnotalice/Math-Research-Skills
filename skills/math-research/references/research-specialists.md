@@ -23,6 +23,7 @@
 
 ## 调和分析、动力系统与几何方程
 
+- [math-conformal-dimension-perron-brackets](../../math-conformal-dimension-perron-brackets/SKILL.md) · 对给定扩张共形 Markov 分区、认证导数区间和有理比较向量，验证非负转移矩阵的谱半径界并判断指数与维数的方向。
 - [math-bessel-cross-product-recurrence](../../math-bessel-cross-product-recurrence/SKILL.md) · 在已给定的 Bessel/modified-Bessel 定义域内，使用离散 Riccati 恒等式与二阶交叉积递推；不把有限递推代数当作圆板谱重数或超越性证明。
 - [math-subanalytic-preparation](../../math-subanalytic-preparation/SKILL.md) · 用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。
 - [math-asymptotic-midpoint-moduli](../../math-asymptotic-midpoint-moduli/SKILL.md) · 在已认证的树、段森林或 Daugavet-L1 结构上，调用渐近中点模量与可数分支 diamond 失真界；不把有限算术或抽象范数当作结构证书。
@@ -39,6 +40,8 @@
 
 ## 算子代数、上同调与代数几何
 
+- [math-nonnegative-matrix-path-certificates](../../math-nonnegative-matrix-path-certificates/SKILL.md) · Verify the odd-power path certificate for finite entrywise-nonnegative symmetric matrices, with exact finite arithmetic where the inputs are rational.
+- [math-finite-nonassociative-algebra-audits](../../math-finite-nonassociative-algebra-audits/SKILL.md) · 核验指定有理轴代数乘法表、消去后的线性泛函，或素域上的仿射 medial rack 恒等式和见证。
 - [math-holomorphic-local-to-global-transfer](../../math-holomorphic-local-to-global-transfer/SKILL.md) · Transfer specified holomorphic local data to descent, gluing, integrability, or universal-cover product conclusions only after the matching geometric gate has been established. Not for arbitrary local charts or holomorphic distributions.
 - [math-algebraic-transfer-certificates](../../math-algebraic-transfer-certificates/SKILL.md) · 核对已给定的余留映射、整系数转移、链提升、格拼接或有限对称张量资料。适用于 Gersten 与 Milnor 障碍、升 HNN 扩张的同调输入和纤维函子条件。
 - [math-ag-divisor-intersection-ledger](../../math-ag-divisor-intersection-ledger/SKILL.md) · 对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。 支持点吹起中零循环的整系数推拉。

@@ -43,6 +43,8 @@
 - 原文位置。p.1 问题及 Hilbert 空间设置；相关闭像/对偶结论见 pp.7--12；p.22 Proposition 4.1 的缩放式及其推导。
 - 当前用法。B01/B04 只在 Hilbert、bounded A、bounded closed convex K 等合同下使用近似可解和有限条件；把 Prop.4.1 印刷的平方根缩放限制为已作局部校正，并不以此声称全文证明已核。
 - 证据待查。现行技能已正确标出关键风险：该预印本的必要前提不能删去，且 p.22 的显示缩放与随后的标量关系不相容，故只能在 σ_K(A*y)>0 与共享法向/稳定性条件下采用 λ*/σ_K(A*y) 的局部修补。预印本其余关键论证未独立复证。依据。Proposition 4.1 及其 p.22 推导；相关闭像/normal 条件。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。SHA and all 29 physical pages verified. The arXiv:2603.11859v1 source has the p.22 square-root scaling typo, while current B01/B04 already preserve the directly checked ratio correction λ*/σ_K(A*y), its positivity/shared-normal/stability gates, and the p.7 upper-semicontinuity counterexample correction.。定位。physical pp.7, 12, 22--23; Remark 1.7, auxiliary dual setup, Proposition 4.1 derivation and counterexample。全卷 29 页。后续条件。Use math-b01-lagrange-farkas and math-b04-qualification-facial-minimax current contracts; do not extend the local scaling repair to an unreviewed general dual-attainment theorem.。
 
 ## 02ea5da334d2 · Perturbation of the stationary distribution measured by ergodicity coefficients
 
@@ -115,6 +117,8 @@
 - 原文位置。p.1 摘要与连续时间 martingale 假设；p.3 主定理设置；pp.8、13 对应结论/应用。
 - 当前用法。G05/I04 只把它当作具有广义 Cauchy--Riemann 协变条件的连续鞅 L² 常数 e 结果，并明确它不提供有限 laminar tree、随机 Carleson 或 LlogL 端点。
 - 证据待查。匹配：原件的对象是特殊协变的连续鞅系统；当前没有错误地把它变成任意随机树嵌入或 LlogL endpoint 定理。预印本证明未独立复证。依据。主 stochastic Carleson embedding theorem。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。SHA and all 15 physical pages verified. The current G05 entry already reproduces the p.3 Theorem 2.1 continuous-martingale contract, including usual filtration conditions, structural stable-subspace representation and conditional tail-mass condition, and excludes an arbitrary-tree constant-e transfer.。定位。physical pp.3, 8, 13; Theorem 2.1, Riesz representation, and vector pairing step。全卷 15 页。后续条件。Use math-g05-tree-carleson-square-function-tc-a4-audit only after supplying every theorem hypothesis; its Riesz application also needs the p.8--13 Brownian/Gundy--Varopoulos and pairing inputs.。
 
 ## 6c5bcc98b643 · Remarks on Pickands theorem
 
@@ -139,6 +143,8 @@
 - 原文位置。p.1 摘要；§2 的一维广义矩框架及后续候选生成/全局核验。
 - 当前用法。B03 将它标为“全文已读、尚待独立审阅”，仅记录候选生成后全局证书核验路线，不授权为默认能力。
 - 证据待查。匹配：原文提出广义矩问题的 primal-dual 框架，但其可行域、有限候选化和最优性证书带有专门假设。当前的 hold 文案没有把该框架说成一般强对偶、原子数或普适数值法。依据。§2 的 generalized moment primal-dual framework。
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。SHA and all 56 physical pages verified. arXiv:2201.01445v3 supplies specialized candidate-support/dual-global-nonnegativity workflows, but its Theorem 2 is for a particular nonnegative first/t-th-moment upper-partial-moment problem and its general finite reduction invokes external results. Current B03 correctly retains it as a conditional source record rather than a default generalized-moment solver.。定位。physical pp.14, 16, 23, 30, 34; Theorem 2, Proposition 1, primal-dual certificate step, and specialized algorithms。全卷 56 页。后续条件。For any adoption, fix the precise moment class, verify primal feasibility and a global dual majorant, and independently discharge the cited strong-duality/extreme-point result; do not infer a universal finite-atom or strong-duality rule.。
 
 ## 7c5071d32603 · Anti-concentration of Suprema of Gaussian Processes and Gaussian Order Statistics
 
@@ -163,6 +169,8 @@
 - 原文位置。pp.7--10 变换与 Theorem 1；p.14 Proposition 1；pp.24--27 Theorems 2--3。
 - 当前用法。B03 正确保留 Q(Ω)=α、Q(Ξ)=1 的有限测度变换；强对偶、原子数和 DRO 分支均写出额外条件或未核外引。
 - 证据待查。匹配：条件化变换不能把 Q 当概率测度；Theorem 1 需要有界 g、统一正事件概率及矩锥条件。Proposition 1 的 σ>0 前提也与现行分支一致。该预印本的外部 conic duality/Popescu 依赖尚未独立核。依据。Theorem 1、Proposition 1、Theorems 2--3。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。SHA and all 43 physical pages verified. The arXiv:2401.00090v1 transformation and strong-duality assumptions match current B03 exactly: Q is a finite nonnegative measure with Q(Ω)=α and Q(Ξ)=1, and the strong branch retains bounded g, a uniform event-probability lower bound, and the moment-cone interior condition. The σ=0 branch remains an independent direct correction, not a claim from Proposition 1.。定位。physical pp.7, 9--10, 14, 24--26, 33; equations (4)--(7), Theorem 1, Proposition 1, and DRO theorem conditions。全卷 43 页。后续条件。Use math-b03-generalized-moments; retain A1--A3 and any mixture-generator/conic-representability assumptions, and separately verify the imported conic-duality results for a new function space.。
 
 ## 922909d5e8e4 · Quasi Branch and Bound for Smooth Global Optimization
 
@@ -620,6 +628,9 @@
 - 原文位置。p.1 abstract/introduction。
 - 当前用法。poset-counting-sampling registers an interface for colored finite-graph refinement/individualization and automorphism pruning.。
 - 证据待查。仅身份和算法主题可核；当前条目没有精确 theorem/section locator，不能把“accepted interface”升级为已验证的 general canonical-search guarantee。依据。Practical refinement/individualization methods, contingent on stated node invariants and stabilizers.。
+- 复核记录。2026-11-26T18:11:16+08:00。adopted-local。component。
+- 本次依据。SHA and all 22 physical pages verified. The supplied arXiv:1301.1493v1 corresponds to the published Journal of Symbolic Computation 60 (2014), 94--112 version. Its refinement/target-cell/node-invariant conditions give a finite canonical-form contract that is not currently documented by the narrowly WL/parity-focused L13 skill.。定位。physical pp.5--10; refinement and target conditions, Lemmas 1 and 4, Theorem 5, and equitable-refinement realization。全卷 22 页。后续条件。For a concrete canonicalizer, provide an equivariant refinement, target selection, leaf-complete search or one of the source's explicitly allowed pruning operations, and a node invariant satisfying φ1--φ3.。
+- 已采用构件。物理页 5, 6, 7, 8, 9, 10。Finite exhaustive coloured-graph canonical form only after explicit relabelling-equivariant refinement/target/invariant contracts; no complexity, arbitrary-pruning, or general solver guarantee. [方法说明](../../math-l13-finite-graph-refinement/references/active-01-individualization-refinement-canonical.md)。
 
 ## 21cdac95bef0 · Strong duality and sensitivity analysis in semi-infinite linear programming
 
@@ -636,6 +647,8 @@
 - 原文位置。p.1 abstract/introduction; current citation names Theorems 1.1, 2.2 and Corollary 2.3。
 - 当前用法。poset-counting-sampling cites exact peak-polynomial recurrences for a fixed admissible peak set and excludes endpoints.。
 - 证据待查。身份和问题匹配；本批没有重读所列定理页，故不将递推公式作为本次已证结论。端点排除与 admissibility must remain explicit.。依据。Theorems 1.1/2.2 and Corollary 2.3, pending theorem-page check.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。SHA and all 18 physical pages verified. The supplied arXiv:1209.0693v1 matches the current exact M0001 card, including later Journal of Integer Sequences 16 (2013), Article 13.6.1 metadata. Current poset-counting-sampling already gives Theorem 1.1/2.2 and Corollary 2.3 only for fixed admissible permutation-index peak sets and excludes endpoints.。定位。physical pp.2--4, 7; Theorem 1.1, Theorem 2.2/Corollary 2.3 and explicit recurrence examples。全卷 18 页。后续条件。Use probability-poset-counting-sampling/evidence/W09/cards/M0001.md; retain S⊆{2,...,n−1}, fixed/admissible S, n>max(S) for nonempty S, and do not transfer path peaks to graph-local maxima.。
 
 ## 22e8303b48a2 · An Occupation-Measure and Frank--Wolfe Framework for Heterogeneous Mean-Field Control
 
@@ -660,6 +673,8 @@
 - 原文位置。p.1 abstract; current use confines itself to Proposition 3.1 and pp.10--15。
 - 当前用法。permutation-subset-sums claims a narrowly repaired G27.02 use: m≥3 cycle-vector reachability/local-to-global comparison; later δ_m result is excluded.。
 - 证据待查。限缩方向正确，但 Proposition 3.1 and the cited local corrections were not independently re-proved in this audit. Treat as a preprint-dependent gate, not a certified general invariant-set result.。依据。Proposition 3.1 plus separately cited EFG15b Proposition 2.1; later Theorem 1.4/Kou10 chain excluded.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。SHA and all 34 physical pages verified. The supplied arXiv:1605.01068v2 has the published Discrete Analysis 2016:12, DOI 10.19086/da.849 version. Current permutation-subset-sums contains a stronger exact scoped card for Proposition 3.1 and its completed pp.10--15 local-to-global proof, while explicitly excluding the later δ_m chain.。定位。physical pp.10--15; definition of L_m, Proposition 3.1, Lemmas 3.2--3.5 and both local-to-global bounds。全卷 34 页。后续条件。Use probability-permutation-subset-sums source card EXSRC-23e5783355f841bc; retain fixed m≥3, ordered k-vector summing to n, disjoint allocation, the Poisson comparison, and the stated balance restriction for the two-sided result.。
 
 ## 25865026dbea · On meteors, earthworms and WIMPs
 
@@ -668,6 +683,8 @@
 - 原文位置。p.1 abstract。
 - 当前用法。poset-counting-sampling records the stationary finite-cycle meteor model and a crater/cyclic-peak interface.。
 - 证据待查。主题与 published identity 匹配；本次只核身份/范围，未复核 crater identification and exact run probabilities theorem-by-theorem.。依据。Meteor-process stationary law and the paper-specific permutation-statistics identification.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The published article's stationary crater/rank correspondence and the two distinct cycle-run probabilities are physically confirmed and already preserved with the finite-cycle and stationarity gates in probability-poset-counting-sampling.。定位。PDF pp.20, 22-23: Proposition 3.8(v), Theorem 4.1, and its permutation-peak proof.。全卷 54 页。后续条件。none。
 
 ## 2602e6e39b9a · Majorizing Measures: The Generic Chaining
 
@@ -700,6 +717,8 @@
 - 原文位置。physical p.1 CWI report cover: title, author and Report BS-R9429 (September 1994); content pages remain unreviewed。
 - 当前用法。stochastic-geometry-localization only records the scanned report and expressly does not assume journal-VOR equivalence.。
 - 证据待查。封面页已实际渲染并核对，确认 Molchanov、题名和 1994 CWI 报告身份；未核验任何定理，故仅保留版本说明及 hold。依据。Unknown theorem content pending OCR/visual page review.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The image-only CWI scan was physically rendered; Theorem 4.1 gives the conditional scaled-vacancy containment functional under its explicit high-intensity and convexity hypotheses, matching the current narrow Boolean-model card.。定位。physical PDF p.3 abstract/model; pp.11-12, Theorem 4.1 and proof conclusion.。全卷 24 页。后续条件。none。
 
 ## 279a5ac504f4 · Neumann eigenfunctions and Brownian couplings
 
@@ -748,6 +767,8 @@
 - 原文位置。p.1 abstract; current use is Theorem 2.8 only。
 - 当前用法。permutation-subset-sums uses a conditional Ewens/no-long-cycles quantitative TV interface and already states the printed Lemma 3.10 saddle-root approximation is false.。
 - 证据待查。正确地限缩为 conditional model and independently repaired rate; original printed Lemma 3.10 cannot support an unqualified rate. Theorem 2.8 application itself was not re-proved here.。依据。Theorem 2.8; separate true-root/Chernoff/coefficient-ratio repair is a non-source dependency.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。Theorem 2.8 and its weighted-Poisson conditioning proof are already routed to the conditional Ewens/no-macroscopic-cycles interface. The current card correctly preserves the separately repaired rate boundary because the printed Lemma 3.10 root approximation cannot be treated as verified source support.。定位。PDF p.6, Theorem 2.8; p.15, exact conditioning identity (3.25); pp.19-20, Lemma 3.10 and its use.。全卷 25 页。后续条件。The existing independent true-root, Chernoff, and coefficient-ratio repair remains necessary for either quoted rate.。
 
 ## 2a57ad2731b7 · Self-normalized Cramér-type Moderate Deviation of Stochastic Gradient Langevin Dynamics
 
@@ -756,6 +777,8 @@
 - 原文位置。p.1--3 model and assumptions; current skill identifies incompatibility on p.3。
 - 当前用法。H01 treats it only as proof-architecture inspiration and rejects Theorems 2.4--2.6 as usable evidence because its jointly printed global dissipativity and global uncentered-gradient sub-Gaussian hypotheses are incompatible.。
 - 证据待查。匹配现有保守处理。此预印本的 decisive theorem route is not independently verified and the stated hypothesis gate fails as read; it cannot establish a general uniform Cramér tail-ratio theorem.。依据。Theorems 2.4--2.6 are preprint-dependent; hypothesis consistency is an unmet gate.。
+- 复核记录。2026-11-26T18:11:16+08:00。adjacent。context。
+- 本次依据。The source jointly states global dissipativity and a global uncentered-gradient sub-Gaussian assumption, so its stated SGLD conclusions cannot be imported. The staged H01 skill already records this compatibility failure and retains only the proof architecture as adjacent context.。定位。PDF p.3, Assumptions 2.1-2.2; p.4, Theorems 2.4-2.6.。全卷 23 页。后续条件。A consistent SGLD hypothesis set plus an independent proof would be required before using Theorems 2.4-2.6.。
 
 ## 2aa898e771f4 · Guaranteed Lower Eigenvalue Bounds for Spectral Galerkin Methods with Application to Schrödinger Operators
 
@@ -1100,6 +1123,8 @@
 - 原文位置。p.1 abstract; p.2 introduction; p.3 eigenvalue problems。
 - 当前用法。probability-spectral-perturbation-certificates uses moving-domain de Rham/Maxwell transplantation and a conditional normalized eigenfield derivative interface.。
 - 证据待查。本地版本与声明版本一致，摘要/开篇覆盖 Lipschitz deformations、variable coefficients、mixed boundary problems；完整关键推导仍含外部 mixed-boundary/compactness依赖，不能升级为一般 multiple-eigenvalue differentiability。依据。文中的 transplantation/unitary equivalence 与其正则性、边界、谱假设。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The local arXiv v3 is physically matched to the current source card. Its Part I transplantation/unitary-equivalence branch and conditional normalized-eigenfield formula are already retained with the crucial differentiability assumption and without any general multiple-eigenvalue claim.。定位。PDF pp.1-2, version and Part I/II boundary; p.19, Theorem 3.11; pp.20-22, conditional Theorems 4.1-4.2 and the simple-eigenvalue caveat.。全卷 29 页。后续条件。For a rigorous general multiple-eigenvalue conclusion, use the separately audited Part II/abstract Hellmann-Feynman route and its external mixed-boundary/compactness hypotheses.。
 
 ## 473597b9e358 · A Computational Status Update for Exact Rational Mixed Integer Programming
 
@@ -1390,6 +1415,8 @@
 - 原文位置。p.4 Theorem 0.5; p.5–6 references and proceedings-style ending.。
 - 当前用法。probability-permutation-subset-sums sources.md:70 仅记录 Theorem 0.5：uniform S_n 的前 r 个循环计数与独立 Pois(1/j) 的 TV 近似，sqrt(n log n)≤r≤n；并明确不授予方法使用信用。
 - 证据待查。匹配且正确保留门槛：p.4 陈述 Theorem 0.5 及其范围和 TV 公式，但文字明确把证明细节留待其他场合；现行条目已标明“states but does not prove”和不作 scoped method use。依据。Theorem 0.5 的陈述；其决定性渐近证明未在该6页 proceedings 文本中核验。
+- 复核记录。2026-11-26T18:11:16+08:00。citation。citation。
+- 本次依据。The proceedings article states the uniform-permutation/independent-Poisson TV formula, but explicitly defers proof details. It remains a correctly scoped citation only, with no transferable method credit.。定位。PDF p.4, Theorem 0.5 and the statement that proof details will be discussed elsewhere.。全卷 6 页。后续条件。An actual proof source or an independent reconstruction of Theorem 0.5 is required for method use.。
 
 ## 66ba88e13a42 · Concentration of Lipschitz functionals of determinantal and other strong Rayleigh measures
 
@@ -1558,6 +1585,8 @@
 - 原文位置。pp.1–2 abstract and definitions。
 - 当前用法。概率偏序计数技能把它列为用不交和、序和及显式 Q_(i,j,m) 族构造精确线性扩张数的可实现性/计数递推库。
 - 证据待查。已核对题名、版本及问题对象；抽查页只支持 λ(n) 最小规模与线性扩张定义，未在本轮从原文定位 Q_(i,j,m) 构造。因此该具体接口不能由本次已核页面确认。依据。须逐条定位该文的 disjoint/ordinal sum 乘法/二项交织公式及 Q_(i,j,m) 构造。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The exact five-page source verifies the disjoint/ordinal-sum counting identities and the explicit Q_(i,j,m) extension-count construction already retained as a realizability/count-recursion library in probability-poset-counting-sampling.。定位。PDF p.2, Lemma 2.2 and Proposition 2.4; p.3, Q_(i,j,m), its exact count, and Proposition 3.1; p.4, Theorem 3.2.。全卷 5 页。后续条件。none。
 
 ## 7770eea888b1 · A Sequential Importance Sampling Algorithm for Estimating Linear Extensions
 
@@ -1810,6 +1839,8 @@
 - 原文位置。扫描件前两页（无可可靠文本层）。
 - 当前用法。spectral-perturbation-certificates 只登记 exact publisher scan。
 - 证据待查。PDF 是图像扫描，页面数与版本记录相符；本轮无法从可靠文本层核验其多参数特征值/特征向量定理，更不能据此支持数值认证。依据。如需调用，须人工核对扫描原文中的具体定理及参数/重根假设。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The frozen held state is obsolete. The exact 14-page publisher scan rehashes to the assigned SHA; visual inspection of physical p.12 shows Theorem 4.1, its real-analytic symmetric-matrix and isolated-multiplicity setup, and the compressed derivative relation (4.6). The current spectral-perturbation source card already admits the narrower first-order compressed-cluster interface, with the finite-dimensional/orthonormal-eigenspace/separation gates and no numerical-certification overclaim.。定位。Sun, Theorem 4.1 and (4.6), physical p.12 (printed p.362); current probability-spectral-perturbation-certificates/references/sources.md EXSRC-8ae92494bfc03225.。全卷 14 页。后续条件。No new adoption. A caller seeking a numerical statement must still provide a certified eigenspace, derivative and spectral separation; higher-order or global parameter claims need separate evidence.。
 
 ## 8b5a9564aba9 · Linear Extensions of N-free Orders
 
@@ -1850,6 +1881,8 @@
 - 原文位置。前两页扫描/OCR 不可靠。
 - 当前用法。brownian-potential-fractals 仅登记该 source PDF。
 - 证据待查。文件版本与 arXiv 标识可辨，但本地 OCR 损坏，未能可靠读取其耦合/凸性结论；现行来源行没有暴露具体数学断言。依据。若需使用 shy coupling 或凸区域结果，须基于可读版本逐定理复核维数、区域几何和耦合定义。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The frozen OCR hold is obsolete. The 15-page arXiv v3 PDF rehashes correctly; rendered physical pp.4 and 6 visibly give Lemma 4's separated-pair potential criterion and Theorem 7's bounded-convex/no-boundary-segment no-co-adapted-shy conclusion. The current Brownian skill has an exact source row and a scope card restricting the result to co-adapted reflected Brownian motions and the stated geometry.。定位。Kendall, Lemmas 4--6, physical pp.4--6; Theorem 7, pp.6--8; current probability-brownian-potential-fractals/references/sources.md row 21.。全卷 15 页。后续条件。No new adoption. Do not transfer to arbitrary/non-co-adapted couplings, general convex domains with boundary segments in dimension above two, or spectral-tail estimates.。
 
 ## 8f1143c5c5b2 · Fast Verification for All Eigenpairs in Symmetric Positive Definite Generalized Eigenvalue Problems
 
@@ -1922,6 +1955,8 @@
 - 原文位置。摘要与§1。
 - 当前用法。poset-counting-sampling 使用有限 poset 的 graph-entropy 与线性扩张计数比较。
 - 证据待查。原文输入是有限 poset，目标为比较驱动的排序；其算法/graph entropy 论断服务于 log e(P) 复杂度。当前若写成 n H_inc(P)≤2 log₂ e(P)，需逐页核对符号归一化与使用的 incidence graph；摘要本身不足以证实该精确系数。依据。只能在有限 poset、原文定义的 graph entropy 和线性扩张计数下使用；精确常数尚需定位。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The source and exact entropy normalization are already present. The local 29-page manuscript rehashes correctly; p.3 gives the distinct comparison-complexity rows and p.7 states Theorem 2 verbatim as n H(incomparability(P)) <= 2 log_2 e(P). The current poset skill/card retains finite-poset, binary-log, incomparability-graph scope and refuses to turn comparison sorting into counting or uniform sampling.。定位。Cardinal--Fiorini--Joret--Jungers--Munro, Table 1 physical p.3 and Theorem 2 p.7; current probability-poset-counting-sampling/evidence/W09/cards/W09-X005.md.。全卷 29 页。后续条件。No new adoption. Any use outside adaptive comparison sorting must independently supply its counting/sampling reduction.。
 
 ## 9693d4a7a84a · A Note Related to the CS Decomposition and the BK Inequality for Discrete Determinantal Processes
 
@@ -2331,6 +2366,8 @@
 - 原文位置。physical pp. 1--2 checked; no searchable title/author text in the scan。
 - 当前用法。The active skill contains this only as a source-table row referring to separate use and identity cards, not as a stated queueing theorem.。
 - 证据待查。scope gate: SHA identifies the attached object, but the present audit could not independently recover bibliographic identity or any theorem from the image-only first pages. The table row alone is not evidence for a mathematical transfer.。依据。No active mathematical dependency in the cited line; the referenced external use/identity cards remain the gate.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The frozen bibliographic-identity hold is obsolete and contradicted by the actual scan: it is J. G. Dai, On positive Harris recurrence of multiclass queueing networks: a unified approach via fluid limit models, Annals of Applied Probability 5(1) (1995), 49--77. The 29-page scan rehashes correctly and its rendered first page gives the title/author. The current queueing skill identifies it as W14-008 and already records the conditional actual-fluid-limit-to-positive-Harris interface; it no longer relies on a title-free table row.。定位。Dai, title/abstract physical p.1; Theorem 3.1 p.12, Theorems 4.1--4.2 pp.18--20; current probability-queueing-heavy-traffic/evidence/W14/cards/W14-008.md and references/method.md.。全卷 29 页。后续条件。No new adoption. Preserve Dai's full primitive, state, compactness, uniform-integrability and spread-out assumptions; a trajectory only in a larger associated fluid-model set is insufficient.。
 
 ## ba2136b0727e · Extrapolation of Solvability of the Regularity and the Poisson Regularity Problems in Rough Domains
 
@@ -2339,6 +2376,8 @@
 - 原文位置。physical pp. 1, 4, 6, 18--19, 27: stated rough-domain framework, tent atoms and atomic decomposition。
 - 当前用法。The skill records this as a warning-bound source for rough-domain regularity extrapolation and expressly declines to use its printed atomic estimate as an authenticated Gamma/Abel-semigroup input.。
 - 证据待查。scoped: the PDF does concern corkscrew domains with n-AR boundary and regularity/Poisson-regularity extrapolation, but this bounded check does not establish the claimed p.18/p.21 normalization-budget inconsistency nor validate a transfer to a semigroup square-function problem. The skill's non-transfer warning is appropriate.。依据。Paper's internal localization/atomic-decomposition and extrapolation results; any PDE-to-semigroup transfer needs an independent contract.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The 48-page arXiv v2 PDF rehashes correctly and its actual pp.18--19 give the domain tent-space definition and Theorem 2.19 atomic decomposition. Current F04 already preserves it only as a rough-domain PDE interface and explicitly withholds the printed atom theorem from the Gamma/Abel-semigroup route because the normalization/budget transfer is not authenticated. This is the required non-transfer boundary, not a missing skill component.。定位。Gallegos--Mourgoglou--Tolsa, rough-domain framework pp.1,4,6; tent atoms/Theorem 2.19 pp.18--19; current math-f04-poisson-gamma-abel-square-function/SKILL.md items 7 and 9.。全卷 48 页。后续条件。No new adoption. A semigroup-square-function use needs an independent operator, kernel, measure, atom-normalization, convergence and comparison contract; do not infer it from rough-domain extrapolation.。
 
 ## bae82db430fb · Generalizations of Menchov-Rademacher Theorem and Existence of Wave Operators in Schrödinger Evolution
 
@@ -2363,6 +2402,8 @@
 - 原文位置。physical pp. 1--2 and 88: Theorem 1.1 asymptotic; p.20: printed Lemma 5.7; p.71: later use of it。
 - 当前用法。The skill uses the smooth log-periodic main asymptotic only under explicit locally derived supplements, and reports an unverified/locally repaired issue with Lemma 5.7 and a later high-frequency step.。
 - 证据待查。scoped: Theorem 1.1 does give p(k)=(1+o(1))f({log₂k})k^{-δ}(log k)^{-3/2} with smooth positive f. Lemma 5.7 is printed at p.20 and is used later, but this audit did not independently prove the alleged common-input defect or the local repair; neither repair is source-provided.。依据。Theorem 1.1 for the asymptotic; any adjacent-difference or coupling step additionally depends on separately archived derived proofs.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The 116-page preprint rehashes correctly. Its abstract states the smooth positive log-periodic asymptotic, and the proof conclusion at physical p.88 derives the smooth limit factor from (15.34)--(15.36). The current permutation skill/source row already admits that asymptotic under its source-specific supplements and explicitly says a relative o(1) asymptotic does not control adjacent differences; it retains the printed Lemma 5.7 and high-frequency defects as independently derived, not source-provided, repairs.。定位。Green--Sawhney, abstract physical p.1; main-theorem completion pp.80--88 (especially (15.34)--(15.36) on p.88); current probability-permutation-subset-sums/references/sources.md item 2.。全卷 116 页。后续条件。No new adoption. Adjacent-difference, monotonicity, and any coupling comparison require their separate derived proof supplements; the source asymptotic alone is not sufficient.。
 
 ## bf0f91277a58 · Negative Dependence and the Geometry of Polynomials
 
@@ -2475,6 +2516,8 @@
 - 原文位置。physical pp. 1--2: title, abstract and model assumptions。
 - 当前用法。The active line is only a queueing-source table record referring to separate use and identity cards.。
 - 证据待查。scope gate: the physical source identity is verified, but the cited line has no theorem statement. Its fluid-model results should not be imported into a heavy-traffic claim without the referenced use card and its assumptions.。依据。No active mathematical dependency in the cited table row.。
+- 复核记录。2026-11-26T18:11:16+08:00。scoped-reference。statement。
+- 本次依据。The frozen source-table-only status is obsolete. The 20-page published paper rehashes correctly; pp.5--8 state the fluid-stability definition, forward stochastic transfer and max-of-linear drainage lemma, and pp.11--14 establish the Lu--Kumar boundary. Current queueing method text already gives the narrow reentrant-line Lyapunov interface and distinguishes fluid instability from stochastic transience. One citation precision note remains: printed Theorem 5.1 says m2+m4>1 (p.11), while its proof p.13 separately shows equality produces a periodic, hence unstable, fluid solution; current wording should cite theorem-plus-proof rather than call the inclusive boundary the literal theorem statement.。定位。Dai--Weiss, Definition 1.3/Theorem 1.1 physical p.5; Lemma 3.2 and three-buffer proof pp.7--8; Theorem 5.1 p.11 and equality periodicity p.13; current probability-queueing-heavy-traffic/evidence/W14/cards/W14-010.md.。全卷 20 页。后续条件。No new adoption. Retain actual route, nonidling/fluid equations and Theorem 1.1 primitive assumptions for positive-Harris transfer; resolve the theorem/proof attribution note when editing the canonical card.。
 
 ## c6dace1707fa · Effective Perturbation Theory for Simple Isolated Eigenvalues of Linear Operators
 

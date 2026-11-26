@@ -1,6 +1,6 @@
 ---
 name: math-l17-filtered-linear-algebra-certificates
-description: 精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。
+description: 精确核验有限维空间的首项基、共同降算子过滤以及整系数对称矩阵的 Krylov 列秩；不把有限样例或几何预印本主定理当作一般证明。
 ---
 
 # L17 · 首项基与共同降算子证书
@@ -114,3 +114,7 @@ python3 scripts/check_finite_instances.py
 ## 补充来源中的方法
 
 - [Modular rank certificates and endpoint propagation](references/wave5-c08-01-modular-rank-transfer.md)
+
+## 文献复核采用的构件
+
+- [Exact Krylov certificate for switched main eigenvalues](references/recent-04-switching-krylov.md)

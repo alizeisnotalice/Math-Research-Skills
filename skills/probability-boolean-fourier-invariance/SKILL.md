@@ -31,3 +31,7 @@ For a finite r-uniform Fourier-support hypergraph, use [the hypergraph-support-c
 ## OpenAI 原稿中的方法
 
 - [Product-basis influence identities and multiscale threshold selection](references/openai-direct-wave-2.md)
+
+## 文献复核采用的构件
+
+- [Walsh-support product gate for conditional FEI](references/walsh-product-conditional-fei.md)

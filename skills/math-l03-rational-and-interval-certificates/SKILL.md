@@ -11,6 +11,10 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 > **本项边界：** 账本 L03-RAT-01、L03-LP-WD-01、L03-CONE-WD-01 分别覆盖有理端点平方比较、有限维 LP 弱对偶、锥对偶弱对偶。L03-API-01 仍未验证任何带向外舍入保证的浮点区间库；不能声称通用区间 API 已测试。
 
+## 证明类型与交接
+
+本 Skill 是[证书类型分类](../probability-optimization-certificates/references/proof-type-taxonomy.md)的 **A 类**：核验一个已给定的有限精确/区间/LP/锥见证。它不建模秩松弛、未知测度或 Boolean 全边缘约束；这些分别交给 [C01 SDP 提升](../math-c01-semidefinite-lifting/SKILL.md)、[B03 广义矩](../math-b03-generalized-moments/SKILL.md) 和 [有限矩多项式对偶](../probability-moment-polynomial-duality/SKILL.md)。即使由其他技能生成候选，也仍须在这里逐操作确认精确算术或实际向外舍入。
+
 ## 输入与产出
 
 精确数学主张、可用的有理输入、浮点候选、区间/对偶证书格式及舍入约定。
@@ -88,3 +92,8 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 ## Google Cogentic 的有限证书
 
 - [Frobenius 不可约性判别](references/google-cogentic-frobenius-irreducibility.md)
+
+## 文献复核采用的构件
+
+- [Exact cubic bracket for a cograph distance eigenvalue](references/cograph-distance-cubic-bracket.md)
+- [Exact sawtooth/Hermite phase certificate](references/sawtooth-hermite-phase-certificate.md)

@@ -16,6 +16,8 @@ description: 核对已给定的余留映射、整系数转移、链提升、格�
 
 ## OpenAI 原稿中的方法
 
+- [anisotropic-local finite-defect reduction](references/openai-final-wave7.md)
+
 - [equivalence from fully faithful cancellation](references/openai-last-b-wave6.md)
 
 - [residue gluing for a cyclic Milnor-page lattice](references/openai-residual-02-wave5.md)

@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 47,
+    "research-specialists": 50,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -269,6 +269,13 @@
       "path": "skills/math-cohomological-transfer/SKILL.md"
     },
     {
+      "name": "math-conformal-dimension-perron-brackets",
+      "title": "共形 Markov 分区的 Perron 根区间",
+      "description": "对给定扩张共形 Markov 分区、认证导数区间和有理比较向量，验证非负转移矩阵的谱半径界并判断指数与维数的方向。",
+      "category": "research-specialists",
+      "path": "skills/math-conformal-dimension-perron-brackets/SKILL.md"
+    },
+    {
       "name": "math-conformal-domain-estimates",
       "title": "Conformal-domain estimates",
       "description": "Manage gated conformal-domain coordinate-energy and univalent inverse-integral-means transfers. Use only with the specified normalization, boundary, and source-model hypotheses; not for arbitrary holomorphic maps or planar compactness.",
@@ -494,6 +501,13 @@
       "description": "Verify a finite characteristic-two group-ring cancellation certificate from two labelled components and a supplied exact group-label product oracle; it does not establish torsion-freeness or nonzero factors.",
       "category": "research-specialists",
       "path": "skills/math-f2-group-ring-cancellation/SKILL.md"
+    },
+    {
+      "name": "math-finite-nonassociative-algebra-audits",
+      "title": "小型非结合代数的恒等式证书",
+      "description": "核验指定有理轴代数乘法表、消去后的线性泛函，或素域上的仿射 medial rack 恒等式和见证。",
+      "category": "research-specialists",
+      "path": "skills/math-finite-nonassociative-algebra-audits/SKILL.md"
     },
     {
       "name": "math-function-field-period-transcendence",
@@ -923,7 +937,7 @@
     {
       "name": "math-l17-filtered-linear-algebra-certificates",
       "title": "L17 · 首项基与共同降算子证书",
-      "description": "精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。",
+      "description": "精确核验有限维空间的首项基、共同降算子过滤以及整系数对称矩阵的 Krylov 列秩；不把有限样例或几何预印本主定理当作一般证明。",
       "category": "methods",
       "path": "skills/math-l17-filtered-linear-algebra-certificates/SKILL.md",
       "family": "l"
@@ -1194,6 +1208,13 @@
       "description": "在完备非阿基米德环境中，核对有理或形式的有限阶解析 jet 转移、近似根余项及稠密压缩逆塔上的 Roos 差分。",
       "category": "research-specialists",
       "path": "skills/math-nonarchimedean-analytic-transfer/SKILL.md"
+    },
+    {
+      "name": "math-nonnegative-matrix-path-certificates",
+      "title": "Nonnegative matrix path certificates",
+      "description": "Verify the odd-power path certificate for finite entrywise-nonnegative symmetric matrices, with exact finite arithmetic where the inputs are rational.",
+      "category": "research-specialists",
+      "path": "skills/math-nonnegative-matrix-path-certificates/SKILL.md"
     },
     {
       "name": "math-openai-arithmetic-determinants",
@@ -1498,7 +1519,7 @@
     {
       "name": "probability-optimization-certificates",
       "title": "Probability optimization certificates",
-      "description": "Build and audit finite-dimensional optimization bounds and proof certificates used inside probability arguments, including duality, interval validation, and exact LP/MIP checks.",
+      "description": "Assemble and audit a finite optimization certificate inside a probability proof after the stochastic model, encoded finite problem, proof type, and remaining transfer are explicit.",
       "category": "probability",
       "path": "skills/probability-optimization-certificates/SKILL.md"
     },

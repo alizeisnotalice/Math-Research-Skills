@@ -149,6 +149,8 @@
 - 构件候选。A reusable finite certificate is available for h(S)=sum_{i∈S}a_i/(b_0+sum_{i∈S}b_i): under b_0>0 and A1–A3, Theorem 1 makes submodularity equivalent to the displayed pair test h(S∪{i})+h(S∪{j})≤a_i/b_i+a_j/b_j. Monotonicity implies that test. This is an exact finite predicate suitable for a future binary-ratio checker.。
 - 适用范围。The theorem is for one ratio, downward-closed F, nonnegative numerators, b_0≥0 and b_i>0 under A1–A3. It does not prove a greedy approximation for arbitrary F or convert a multi-ratio objective into a jointly submodular one. With b_0=0, Proposition 3 shows generic failure when a feasible set has three distinct a_i/b_i values.。
 - 相关技能。[math-a01-fractional-normalization](../../../math-a01-fractional-normalization/SKILL.md)。
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-a01-fractional-normalization reference han-2020-submodularity.md already implements the exact single-ratio finite predicate, including the b0>0 scope boundary and direct second-difference cross-check.。定位。Theorem 1 pp.5--6, Proposition 1 p.6, and the b0=0/nonmonotone boundary pp.7--8.。全卷 18 页。后续条件。For use, supply one ratio, a downward-closed feasible family, nonnegative numerators, positive bi, and b0>0. Multiple-ratio sums and greedy guarantees remain separate.。
 
 ## Fractional Euler-Lagrange differential equations via Caputo derivatives
 
@@ -310,6 +312,8 @@
 - 适用范围。Need the paper's locally convex measure topology, face identification and all affine constraints. This abstract-level card does not certify the grid algorithm or Moment–SOS equality.。
 - 相关技能。[math-b03-generalized-moments](../../../math-b03-generalized-moments/SKILL.md)。
 - 已采用构件。列全有限原子与线性约束时的极点秩判据和有理中点反证。[使用说明](../../../math-b03-generalized-moments/references/finite-moment-face-guide.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-b03-generalized-moments finite-moment-face-guide.md already exposes the finite listed-atom rank/midpoint certificate and records this exact local v1 PDF versus current online-draft distinction.。定位。Abstract and finite-atomic/extreme-face setup pp.1--2; current B03 reference limits its use to the paper's finite-dimensional shared consequences.。全卷 17 页。后续条件。The caller must fully enumerate atoms and supply only affine constraints or separately encode active inequalities; no Borel-measure or Moment--SOS conclusion follows.。
 
 ## Generalized truncated moment problems with unbounded sets
 
@@ -335,6 +339,8 @@
 - 适用范围。The reverse-convex theorem needs its compact feasible formulation, affine rank and stated shape constraints. It gives a finite structural reduction, not a generic SOS or general moment-cone theorem.。
 - 相关技能。[math-b03-generalized-moments](../../../math-b03-generalized-moments/SKILL.md)。
 - 已采用构件。有限概率向量的对数凹、几何分段和 IFR 精确检验。[使用说明](../../../math-b03-generalized-moments/references/discrete-shape-exact-guide.md)
+- 复核记录。2026-11-26T18:11:16+08:00。existing。statement。
+- 本次依据。The current math-b03-generalized-moments discrete-shape-exact-guide.md already supplies the independently justified finite log-concavity, IFR tail, and geometric-piece checks while retaining the source's nonconvex-optimality boundary.。定位。Theorem 3.6 p.10 and Theorems 4.1--4.2 pp.15--16, with the discrete model introduced on pp.1--2.。全卷 31 页。后续条件。For source-level extreme-point claims, provide the compact feasible formulation, affine-rank hypotheses, moment constraints, and precise shape class; the current checker is only for a supplied finite vector.。
 
 ## The Effective Countable Generalized Moment Problem
 
