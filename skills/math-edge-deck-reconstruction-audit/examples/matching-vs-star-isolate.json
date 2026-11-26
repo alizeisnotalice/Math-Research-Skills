@@ -1,0 +1,5 @@
+{
+  "first": {"n": 4, "edges": [[0, 1], [2, 3]]},
+  "second": {"n": 4, "edges": [[0, 1], [0, 2]]},
+  "expected": "same unlabelled edge deck, non-isomorphic, m=2; suitable for the finite Möbius-overlap replay"
+}

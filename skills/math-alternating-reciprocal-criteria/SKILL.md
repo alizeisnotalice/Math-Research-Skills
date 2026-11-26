@@ -61,3 +61,7 @@ python3 scripts/alternating_reciprocal.py type-ii 2 3 4 5
 ## 补充来源中的方法
 
 - [Euler T-sums by tangent--digamma residues (EXT-0055)](references/euler-t-residue-reduction-ext0055.md)
+
+## 补充来源中的方法
+
+- [Continued-fraction limsup formulas](references/sondow-continued-fraction-limsup.md)

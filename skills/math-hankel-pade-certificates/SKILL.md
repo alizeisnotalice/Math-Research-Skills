@@ -57,3 +57,8 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 ## 补充来源中的方法
 
 - [Hecke--Mahler sparse finite-difference audit](references/hecke-mahler-sparse-difference.md)
+
+## 补充来源中的方法
+
+- [Fermat-reciprocal Mahler--Padé lifting](references/fermat-mahler-pade-wave5-c07-09.md)
+- [Sparse exponent support admission](references/sparse-exponent-transcendence-admission.md)

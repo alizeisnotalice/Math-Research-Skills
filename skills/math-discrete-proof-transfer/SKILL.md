@@ -43,3 +43,7 @@ For finite data in the progression-compatible intersective normalization, use `s
 - [Periodic hitting sets from finite routing tables](references/openai-direct-wave-3.md)
 
 - [Four-slope integer reconstruction and quadratic cancellation](references/openai-direct-wave-2.md)
+
+## 补充来源中的方法
+
+- [Geometric-offspring generalized Derrida–Retaux closure](references/geometric-offspring-dr-closure-wave5-supp-attached02.md)

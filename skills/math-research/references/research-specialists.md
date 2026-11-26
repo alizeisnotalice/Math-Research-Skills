@@ -4,6 +4,10 @@
 
 ## 欧拉常数、丢番图逼近与算术
 
+- [math-euler-series-continued-fraction](../../math-euler-series-continued-fraction/SKILL.md) · Convert a finite nondegenerate rational series segment to Euler generalized continued-fraction data exactly. Use for finite algebraic identity checks, not for convergence or irrationality claims.
+- [math-mzv-newton-harmonic-relations](../../math-mzv-newton-harmonic-relations/SKILL.md) · Check finite Newton/binomial duality for positive multiple-harmonic indices exactly. Use to prepare finite inputs for Kawashima-type MZV relations, not to prove MZV independence or Euler-constant claims.
+- [math-zeta-arithmetic-estimates](../../math-zeta-arithmetic-estimates/SKILL.md) · 根据指定的 ζ 函数采样、平滑核和参数区间接入等差级数矩比较与光滑数零点修正。适用于检查扭权、测量模型和误差来源。
+- [math-function-field-period-transcendence](../../math-function-field-period-transcendence/SKILL.md) · 在已给定的正特征 Drinfeld 模、t-motive 与解析平凡化数据下，定位周期、准周期、第三类周期和 Carlitz 张量周期的条件性超越/代数独立接口。
 - [math-euler-constant-irrationality](../../math-euler-constant-irrationality/SKILL.md) · 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计 γ 的 Padé、多重正交、超几何、递推、整数线性形式、分母消去与 Sondow 型判据，也用于核对 E/G 函数、算术 Gevrey 与 Stokes 常数方法能否转移到 γ。
 - [math-sondow-log-fractional-certificate](../../math-sondow-log-fractional-certificate/SKILL.md) · 从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。
 - [math-gamma-continued-fraction-recurrence](../../math-gamma-continued-fraction-recurrence/SKILL.md) · 用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。
@@ -17,18 +21,23 @@
 
 ## 调和分析、动力系统与几何方程
 
+- [math-asymptotic-midpoint-moduli](../../math-asymptotic-midpoint-moduli/SKILL.md) · 在已认证的树、段森林或 Daugavet-L1 结构上，调用渐近中点模量与可数分支 diamond 失真界；不把有限算术或抽象范数当作结构证书。
+- [math-conformal-domain-estimates](../../math-conformal-domain-estimates/SKILL.md) · Manage gated conformal-domain coordinate-energy and univalent inverse-integral-means transfers. Use only with the specified normalization, boundary, and source-model hypotheses; not for arbitrary holomorphic maps or planar compactness.
+- [math-tube-maximal-transfer](../../math-tube-maximal-transfer/SKILL.md) · Transfer a specified three-dimensional tube or curved extension packet estimate through its declared maximal, capacity, and level-set interfaces. Not a generic Kakeya, restriction, or incidence certificate.
 - [math-centered-cube-endpoint-budget](../../math-centered-cube-endpoint-budget/SKILL.md) · Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima.
 - [math-euler-maclaurin-quadrature-certificates](../../math-euler-maclaurin-quadrature-certificates/SKILL.md) · 为满足端点消失条件的多项式 Euler--Maclaurin 求积构造精确余项与可复核误差包围；不用于未经认证的一般浮点积分。
 - [math-hbl-finite-presentation](../../math-hbl-finite-presentation/SKILL.md) · 对已给定的有理有限子空间图和边权，精确核验 HBL 有效表示并分解平衡边流；不搜索表示或计算一般 HBL 常数。
 - [math-torus-packet-spectral-density](../../math-torus-packet-spectral-density/SKILL.md) · 对给定有理分段仿射扭转与有限角向 Fourier 包，精确计算模一推前的阶梯谱密度、色间正交门槛和可选 L1 密度差。
 - [math-cat0-inductive-barycenters](../../math-cat0-inductive-barycenters/SKILL.md) · Transfer a finite centred distribution in a complete CAT(0) metric cone into an inductive-barycenter energy bound, with exact Euclidean finite-support replay. Use for certified cone geometry, not generic group-action or sampling claims.
-- [math-geometric-pde-reductions](../../math-geometric-pde-reductions/SKILL.md) · 核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。
+- [math-geometric-pde-reductions](../../math-geometric-pde-reductions/SKILL.md) · 核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。 包含固定顶点倾斜比较与给定加权幂零坐标的局部检查。
 - [math-lattice-heat-asymptotics](../../math-lattice-heat-asymptotics/SKILL.md) · Prove and safely use the first large-time correction for the continuous-time nearest-neighbor lattice heat kernel. Use for the exact dispersion 2(1-cos k), tensor-product dimensions, and clearly separated physical scaling.
 - [math-lienard-half-arc-matching](../../math-lienard-half-arc-matching/SKILL.md) · 将已验证的 Lienard 半平面弧坐标匹配转化为周期轨道与孤立零点问题；不用于未经认证的数值积分或周期数上界。
 
 ## 算子代数、上同调与代数几何
 
-- [math-ag-divisor-intersection-ledger](../../math-ag-divisor-intersection-ledger/SKILL.md) · 对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。
+- [math-holomorphic-local-to-global-transfer](../../math-holomorphic-local-to-global-transfer/SKILL.md) · Transfer specified holomorphic local data to descent, gluing, integrability, or universal-cover product conclusions only after the matching geometric gate has been established. Not for arbitrary local charts or holomorphic distributions.
+- [math-algebraic-transfer-certificates](../../math-algebraic-transfer-certificates/SKILL.md) · 核对已给定的余留映射、整系数转移、链提升、格拼接或有限对称张量资料。适用于 Gersten 与 Milnor 障碍、升 HNN 扩张的同调输入和纤维函子条件。
+- [math-ag-divisor-intersection-ledger](../../math-ag-divisor-intersection-ledger/SKILL.md) · 对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。 支持点吹起中零循环的整系数推拉。
 - [math-cohomological-transfer](../../math-cohomological-transfer/SKILL.md) · 核验链复形权截断、Mayer–Vietoris 条件、图状神经上链延拓以及已给代数或谱数据上的局部化与张量消失。
 - [math-f2-group-ring-cancellation](../../math-f2-group-ring-cancellation/SKILL.md) · Verify a finite characteristic-two group-ring cancellation certificate from two labelled components and a supplied exact group-label product oracle; it does not establish torsion-freeness or nonzero factors.
 - [math-nonarchimedean-analytic-transfer](../../math-nonarchimedean-analytic-transfer/SKILL.md) · 在完备非阿基米德环境中，核对有理或形式的有限阶解析 jet 转移、近似根余项及稠密压缩逆塔上的 Roos 差分。

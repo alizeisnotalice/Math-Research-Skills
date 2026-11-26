@@ -72,6 +72,8 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 ## OpenAI 原稿中的方法
 
+- [Rational recovery from a real effective divisor](references/openai-residual-02-wave5.md)
+
 - [Bounded two-increment recurrence](references/wave4-probability-b-turing-recurrence.md)
 
 - [Strict-witness bracketing](references/openai-semidecidable-bracketing.md)
@@ -80,3 +82,7 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 - [Parameter-gated binomial supercongruences (EXT-0054)](references/p-adic-binomial-supercongruences-ext0054.md)
 - [Mod-p-cubed binomial master formulas (EXT-0065)](references/p-adic-binomial-supercongruences-ext0065.md)
+
+## Google Cogentic 的有限证书
+
+- [Frobenius 不可约性判别](references/google-cogentic-frobenius-irreducibility.md)

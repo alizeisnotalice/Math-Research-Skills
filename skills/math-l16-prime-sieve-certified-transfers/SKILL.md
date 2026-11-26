@@ -94,3 +94,8 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 - [Twist and Kummer local interfaces](references/twist-kummer-local-interfaces.md)
 
 - [Rough-cell Buchstab proxies](references/rough-cell-buchstab-proxies.md)
+
+## Google Cogentic 的有限证书
+
+- [3-adic 代数平方见证](references/cogentic-3adic-algebraic-square-certificate.md)
+- [偶数与完全幂的因子预检查](references/cogentic-perfect-power-precheck-wave5.md)

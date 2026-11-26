@@ -6,6 +6,8 @@
 
 按 OpenAI 题名、家族编号或 SHA-256 查询，可进入 [OpenAI 文献逐篇索引](skills/math-research/references/openai-sources/README.md)，按学科定位方法、适用条件与当前核验范围。
 
+查本机六篇原稿和精确复算入口，可进入 [Google Cogentic 论文索引](skills/math-research/references/google-cogentic-2026-11-25.md)。
+
 | 类别 | 内容 |
 | --- | --- |
 | 研究总入口 | `math-research` |

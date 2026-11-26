@@ -23,3 +23,13 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 - [A p-adic contraction gate and rising-factorial denominator ledger](references/beukers-padic-contraction-and-denominators.md)
 - [Scoped reference. p-adic L-value dimension bound](references/supp-remaining-b-padic-l-values.md)
 - [Scoped reference. Vector Nesterenko criterion](references/supp-remaining-b-vector-nesterenko.md)
+
+## 补充来源中的方法
+
+- [Separated-index selection from a vector rank bound](references/fischler-separated-zeta-index-selection.md)
+- [Higher-twist arithmetic-progression divisibility](references/sprang-higher-twist-divisibility.md)
+- [Scoped reference. Shifted Legendre kernels for finite Beukers-style checks](references/supp-c07-08-shifted-legendre-moments.md)
+- [Dominant-root recurrence linear-form reduction](references/supp-c07-10-recurrence-log-reduction.md)
+- [Mellin matrices, denominators, and a Minkowski criterion](references/wave5-c08-01-mellin-transfinite-diameter.md)
+- [A Minkowski bound behind a linear-independence criterion](references/wave5-c08-01-nesterenko-fischler-zudilin.md)
+- [Normalized odd-zeta forms and span dimension](references/wave5-c08-01-rivoal-odd-zeta.md)

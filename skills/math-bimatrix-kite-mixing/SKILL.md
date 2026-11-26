@@ -37,3 +37,7 @@ Bimatrix Games*，本机原件 SHA-256
 ## 双矩阵博弈的零和安全值
 
 给定两个零和 LP 的有理解时，使用 [安全值证书](references/security-screen-certificate.md) 核对原始与对偶可行性、最优值匹配，以及对应 minimax 策略对的精确后悔上界。
+
+## Google Cogentic 的有限证书
+
+- [固定行锚点的严格 LP 对偶分离](references/wave5-google03-dual-separator.md)

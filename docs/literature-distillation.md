@@ -102,7 +102,7 @@
 
 ## OpenAI 逐篇索引
 
-现行稿件默认按原文陈述和适用条件直接蒸馏。逐篇索引登记构件整理及安装进度。此前复核结果属于历史记录。[OpenAI 余下批次与补充文献](openai-direct-wave-4-2026-11-26.md)。[上一批文献与技能交付](openai-direct-wave-3-2026-11-26.md)。[原稿直接蒸馏与方法整合](openai-direct-wave-2-2026-11-26.md)。[上一轮工具与来源进度](source-routing-and-finite-tools-2026-11-26.md)。
+现行稿件默认按原文陈述和适用条件直接蒸馏。逐篇索引登记构件整理及安装进度。此前复核结果属于历史记录。[本轮 Google、OpenAI 与补充文献交付](source-distillation-wave-5-2026-11-26.md)。[OpenAI 余下批次与补充文献](openai-direct-wave-4-2026-11-26.md)。[上一批文献与技能交付](openai-direct-wave-3-2026-11-26.md)。[原稿直接蒸馏与方法整合](openai-direct-wave-2-2026-11-26.md)。[上一轮工具与来源进度](source-routing-and-finite-tools-2026-11-26.md)。
 
 [本机研究入口的逐篇索引](../skills/math-research/references/openai-sources/README.md)覆盖 763 份 PDF 和 17 个主题。731 份现行文稿均有构件、范围或版本记录。32 份历史稿按撤回、替换或身份待查保留，每份附原文定位。
 
@@ -118,7 +118,7 @@
 
 ## Google Cogentic 六篇原稿
 
-[Google Cogentic 数学论文蒸馏与验收](../skills/math-research/references/google-cogentic-2026-11-25.md)记录六份固定版本、实际依赖、三轮蒸馏的有限构件及验收范围。第三轮为六篇原稿各接入一个精确检查器，并对照 Google Research 当前固定提交。
+[Google Cogentic 数学论文蒸馏与验收](../skills/math-research/references/google-cogentic-2026-11-25.md)记录六份固定版本、实际依赖、四轮蒸馏的有限构件及验收范围。第四轮追加六个精确构件，并对照双矩阵稿所用页的引文编号变动。
 
 ## 补充文献与 Diophantine 逼近工具
 

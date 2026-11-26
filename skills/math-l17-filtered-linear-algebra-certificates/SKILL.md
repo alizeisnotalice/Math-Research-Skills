@@ -86,6 +86,8 @@ python3 scripts/check_finite_instances.py
 
 ## OpenAI 原稿中的方法
 
+- [Finite rational-grid polarization](references/finite-rational-grid-polarization-wave5.md)
+
 - [Crystalline filtered lifting](references/crystalline-filtered-lifting-arithmetic-1.md)
 - [OpenAI algebra wave 200--206](references/openai-algebra-200-206.md)
 - [Radial harmonic transfer comparison](references/openai-radial-harmonic-transfer.md)
@@ -108,3 +110,7 @@ python3 scripts/check_finite_instances.py
 ## 补充来源中的方法
 
 - [Weight-five Euler sums at one half (EXT-0067)](references/weight-five-half-euler-linear-system-ext0067.md)
+
+## 补充来源中的方法
+
+- [Modular rank certificates and endpoint propagation](references/wave5-c08-01-modular-rank-transfer.md)

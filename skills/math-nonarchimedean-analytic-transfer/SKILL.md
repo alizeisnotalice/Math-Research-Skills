@@ -9,3 +9,8 @@ description: 在完备非阿基米德环境中，核对有理或形式的有限�
 
 - [超度量解析 jet 的有限阶转移](references/finite-analytic-jets.md)。在完备赋值域上核对真实解析 germ、可逆线性 jet 及逐次数匹配。
 - [可数完备逆塔的 Roos 差分](references/roos-difference-contraction.md)。要求每层映射是稠密严格压缩，明确构造误差序列。
+
+## 补充来源中的方法
+
+- [Third-kind coordinates for abelian t-modules](references/chen-namoijam-third-kind-periods.md)
+- [v-adic period dimension interface](references/hartl-juschka-v-adic-period-dimension.md)

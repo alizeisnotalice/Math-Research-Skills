@@ -1,6 +1,6 @@
 ---
 name: math-geometric-pde-reductions
-description: 核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。
+description: 核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。 包含固定顶点倾斜比较与给定加权幂零坐标的局部检查。
 ---
 
 # 几何偏微分方程与变分归约
@@ -16,6 +16,9 @@ description: 核对给定几何模型的高度方程、标量曲率归一化、N
 - [单相极小子的降维与悬挂](references/descent-suspension.md)。对经典 Dirichlet–正相体积能量，验证紧支撑竞争者及全局极小性。
 
 ## OpenAI 原稿中的方法
+
+- [Proposed primitive: zero-slope apex transport](references/openai-residual-02-wave5.md)
+- [Weighted Cartan-box calculus](references/openai-wave5-weighted-cartan-boxes.md)
 
 - [Block-barrier weighted inverse](references/openai-block-barrier-weighted-inverse.md)
 - [Hard-sphere delta-plane slice bounds](references/openai-hard-sphere-delta-plane-slices.md)

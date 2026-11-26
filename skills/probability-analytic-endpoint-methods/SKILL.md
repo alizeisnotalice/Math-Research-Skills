@@ -38,3 +38,7 @@ R01 approved the exact W25 mother set of 30 distinct papers and 686 physical pag
 - Source records, per-source R01 decisions, PDF paths/hashes, and page-level coverage: [evidence/W25](evidence/W25/)
 
 The prior review-candidate designation is historical provenance only; use the scoped method and source cards above for this installed entry.
+
+## 补充来源中的方法
+
+- [Sharp asymmetric second-moment tail bounds](references/sharp-asymmetric-moment-bounds-wave5-supp-attached02.md)

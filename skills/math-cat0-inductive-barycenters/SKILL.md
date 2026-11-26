@@ -20,4 +20,6 @@ See [the proof and source boundary](references/inductive-barycenter-energy.md).
 
 ## OpenAI 原稿中的方法
 
+- [CAT(0) finite four-point diagnostic from an Artin-action obstruction](references/openai-wave5-artin-cat0.md)
+
 - [CAT(0) cube-grid bound to thin triangles](references/wave4-geoa3-grid-thinness.md)

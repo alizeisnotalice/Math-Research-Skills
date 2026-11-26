@@ -52,3 +52,7 @@ python3 scripts/check_rank_halving_tree.py examples/nonmonochromatic-leaf.json
 ## 单步递归的行列分块
 
 原单步检查器同时输出低秩互补块与余块的行列索引，并核验各块面积与余块缩减。可用输入字段 low_rank_branch 指定支路。省略时选精确秩较小的一支。[证明与适用范围](references/source-audit.md)
+
+## Google Cogentic 的有限证书
+
+- [低密度乘积测度下的零单色矩形](references/cogentic-low-density-zero-rectangle.md)

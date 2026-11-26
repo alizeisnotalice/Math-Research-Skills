@@ -103,7 +103,7 @@
 - [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md)：审查或应用素数筛中的有限局部条件、尾部剔除、Kummer 完全分裂与加权区间到稠密度转移；显式保留条件性解析输入，不把分裂判别或有限算例写成素数密度定理。
 - [math-l17-filtered-linear-algebra-certificates](../../math-l17-filtered-linear-algebra-certificates/SKILL.md)：精确核验有限维空间的首项基证书及共同降算子过滤比较；不把有限样例或几何预印本主定理当作一般证明。
 - [math-l18-multiplicative-kernel-tensorization](../../math-l18-multiplicative-kernel-tensorization/SKILL.md)：用素数指数分解核验整数族的乘法 GCD 核估计；检查局部集中、Euler 乘积与临界指数。适用于含 LCM、GCD 或约化乘积的非负双序列估计。
-- [math-l19-coordinate-ring-certificates](../../math-l19-coordinate-ring-certificates/SKILL.md)：验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。
+- [math-l19-coordinate-ring-certificates](../../math-l19-coordinate-ring-certificates/SKILL.md)：验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。 包含线性多项式结式与专门化最大公因数的有限检查。
 - [math-l20-binary-character-congruences](../../math-l20-binary-character-congruences/SKILL.md)：在有限初等二群角色族中寻找与零顶点同余的非零顶点。适用于 2-adic 群环求值和有限个指定系数的精确匹配，要求核验二进制维数、精度和测试数。
 - [math-l21-local-to-global-lattice-certificates](../../math-l21-local-to-global-lattice-certificates/SKILL.md)：用有限商模的主分解拼接指定局部整格，并核对乘子阶、最大阶饱和与局部单位陪集。适用于数域中的 order-ideal 或局部格计数。
 - [math-l22-arithmetic-progression-certificates](../../math-l22-arithmetic-progression-certificates/SKILL.md)：用二进尺度求和把有限无等差数列密度界转为加权界，或用已验证的循环着色构造长区间无单色等差数列的证书。

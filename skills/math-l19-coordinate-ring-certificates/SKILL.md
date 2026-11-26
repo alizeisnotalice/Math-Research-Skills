@@ -1,6 +1,6 @@
 ---
 name: math-l19-coordinate-ring-certificates
-description: 验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。
+description: 验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。 包含线性多项式结式与专门化最大公因数的有限检查。
 ---
 
 # 坐标环的显式消元证书
@@ -46,3 +46,9 @@ description: 验证坐标环构造中的 cusp 关系、非单位除法消元和�
 - [Exact Jordan strata after determinant normalization](references/openai-arithmetic-2.md)
 
 - [Stable coordinate in four variables](references/stable-coordinate-four-variables.md)
+
+## 补充来源中的方法
+
+- [Quartic rational Diophantine quadruple source model](references/c07-07-euler-surface.md)
+- [Resultant gcd screen for a linear factor and polynomial](references/c07-07-resultant-gcd.md)
+- [Effective unit-equation enumeration in a coordinate ring](references/evertse-gyory-unit-equation-enumeration.md)

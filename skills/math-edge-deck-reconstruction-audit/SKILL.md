@@ -25,3 +25,7 @@ python3 scripts/edge_deck_audit.py G.json --pattern F.json
 对至少四条边的有限简单图，使用[星计数与度序列](references/edge-kelly-degree-sequence.md)。输入可提供每张卡片的度多重集，证书用 Edge–Kelly 恒等式、二项反演和星图分支恢复原图的度数多重集。
 
 当卡组来自无孤立点图、\(4\le n\le6\)、\(m\ge4\)，并且需要恢复整个顶点删除卡组时，使用 [边卡组到顶点卡组](references/vertex-deck-from-edge-deck.md) 的三角反演。它只从单边删除卡的规范码恢复每一种 \((n-1)\)-顶点无标号图的重数，再以原图直接生成的顶点卡组交叉核验。它不适用于含孤立点的原图，也不延伸为一般边重构定理。
+
+## Google Cogentic 的有限证书
+
+- [等边卡组的 Möbius 重叠奇偶性](references/mobius-overlap-parity.md)

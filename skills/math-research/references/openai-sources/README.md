@@ -6,9 +6,9 @@ OpenAI 现行未撤回稿件默认按原文陈述与假设直接蒸馏。这里�
 | 分类 | 数量 | 页面 |
 | --- | ---: | --- |
 | 已安装构件 | 353 | [installed.md](installed.md) |
-| 限定参考 | 294 | [scoped-reference.md](scoped-reference.md) |
-| 待蒸馏构件 | 14 | [candidate.md](candidate.md) |
-| 待整理来源 | 26 | [held.md](held.md) |
+| 限定参考 | 323 | [scoped-reference.md](scoped-reference.md) |
+| 待蒸馏构件 | 3 | [candidate.md](candidate.md) |
+| 待整理来源 | 8 | [held.md](held.md) |
 | 仅版本或题录核对 | 19 | [version-only.md](version-only.md) |
 | 邻近材料 | 25 | [adjacent.md](adjacent.md) |
 | 待标构件位置 | 0 | [pending.md](pending.md) |

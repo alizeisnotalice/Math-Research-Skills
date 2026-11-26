@@ -26,3 +26,7 @@ python3 scripts/em_certificate.py --self-test
 ## 与其他技能的关系
 
 本技能提供的是特定的 Euler--Maclaurin 余项分解和精确有限输入检查。若需要通用有理/区间证书、向外舍入或优化对偶证书，转用 `math-l03-rational-and-interval-certificates`；不要把该技能替代为本技能，也不要反过来把 L03 的通用框架当作本论文定理的实现。
+
+## 补充来源中的方法
+
+- [C07-05 special-function evaluation](references/supp-c07-05-special-functions.md)

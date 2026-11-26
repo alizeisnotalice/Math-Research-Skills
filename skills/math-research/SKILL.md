@@ -20,7 +20,7 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | 不确定该用什么数学方法 | 按 [通用数学方法](references/math-methods.md) 或 [专项数学方法](references/research-specialists.md) 检索，再读最相关的 1–2 个技能。 |
 | 跨批次查原件或查某技能引用的论文 | 用 [来源检索](references/literature-source-lookup.md) 按题名、SHA-256 或技能名定位。 |
 | 已有 OpenAI 论文的题名、编号或 PDF | 在 [OpenAI 逐篇索引](references/openai-sources/README.md) 查版本、SHA-256 和构件。按物理页提取原文陈述和适用条件，按构件链接调用已有工具。 |
-| 查 Google Cogentic 论文或调用其数学构件 | 在 [Google Cogentic 来源索引](references/google-cogentic-2026-11-25.md) 查版本与范围，按原稿定位安全值、协议树、卡组反演或有限算术证书。 |
+| 查 Google Cogentic 论文或调用其数学构件 | 在 [Google Cogentic 来源索引](references/google-cogentic-2026-11-25.md) 查原件及修订版本。按原稿定位对偶分离、零单色矩形、卡组反演或有限算术证书。 |
 | 查补充无理性、超越性及研究方向论文 | 在 [补充数学文献索引](references/supplemental-sources/README.md) 按归档、版本和原文页码定位。 |
 | 查文献当前蒸馏状态或批次覆盖 | 用[逐篇检索器](references/literature-source-lookup.md)按集合与状态筛选。加 `--summary` 获取按原件去重的统计。 |
 | 核对既有技能的原文或活跃引用 | 在 [现行技能来源复核](references/active-citation-audit-2026-11.md) 按题名或 SHA-256 定位所查页码、采用范围与缺口。 |
@@ -56,3 +56,7 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 ## 补充来源中的方法
 
 - [Scoped reference. Exponential algebraicity and derivation closure](references/supp-remaining-b-exponential-algebraicity.md)
+
+## 补充来源中的方法
+
+- [C13--15: conditional exponential-polynomial reduction](references/supp-c13-15.md)

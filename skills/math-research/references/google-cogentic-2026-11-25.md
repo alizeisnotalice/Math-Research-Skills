@@ -2,14 +2,14 @@
 
 2026 年 11 月 25 日 Google Research 仓库发布六篇 Cogentic 原稿。六份本机下载件均与固定提交 `4a7bc8ab0bc7` 逐字节一致，合计 274 个 PDF 物理页。独立审阅限于下列采用的构件、适用条件和全局主张的入口依赖。目录与各篇 README 将 Lean 4 工程列为后续伴随材料，当前发布记录没有可供本次编译的项目。[固定发布提交](https://github.com/google-research/google-research/commit/4a7bc8ab0bc7)
 
-| 本机原件 | 页数 | SHA-256 | 论文 | 相关技能 |
-| --- | ---: | --- | --- | --- |
-| 01_integer_factorization.pdf | 54 | `9ac07593ca90c0f315af0b0214320823a43e7c905e6700948261ebb09a4d537d` | Unconditional Integer Factorization in Time L_N[1/3, O(1)] | [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md) |
-| 02_discrete_logarithm.pdf | 36 | `fba12f4d5e98152d52226887c4af2606039725f898bffecbc8a4d91ccaf9d0d7` | Discrete Logarithms in Finite Fields of Fixed Characteristic in Sub-Quasi-Polynomial Time | [math-l03-rational-and-interval-certificates](../../math-l03-rational-and-interval-certificates/SKILL.md) |
-| 03_bimatrix_nash_equilibrium.pdf | 41 | `ed65664e8817e323a1613f95f4fc98689719c86fb2708974bb69cc1edc139485` | An Exact Polynomial-Time Algorithm for 1/5-Approximate Nash Equilibria in Bimatrix Games | [math-bimatrix-kite-mixing](../../math-bimatrix-kite-mixing/SKILL.md) |
-| 04_deterministic_factoring_l34.pdf | 59 | `0ccf115516dab3cbeee15167f2dea62fcb29d03a19224cb4a9ae69a5ce402993` | Unconditional Deterministic Subexponential Integer Factoring and Quadratic Nonresidue Construction | [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md) |
-| 05_logrank_conjecture.pdf | 37 | `9c941a918c5e5cea1624adee676c010efb85b60b3cd77455640cd578f54f6bc9` | Breaking the Square-Root Barrier for the Log-Rank Conjecture | [math-logrank-rectangle-rank-halving](../../math-logrank-rectangle-rank-halving/SKILL.md) |
-| 06_edge_reconstruction.pdf | 47 | `170b2fc1f241cc8325e0b5573d444e061b1b7bb8fb3083a3ac88cabd0ce4f196` | Unconditional Edge Reconstruction of Simple Graphs of Linear Density | [math-edge-deck-reconstruction-audit](../../math-edge-deck-reconstruction-audit/SKILL.md) |
+| 本机原件 | 页数 | SHA-256 | 论文 | 相关技能 | 处理状态 |
+| --- | ---: | --- | --- | --- | --- |
+| 01_integer_factorization.pdf | 54 | `9ac07593ca90c0f315af0b0214320823a43e7c905e6700948261ebb09a4d537d` | Unconditional Integer Factorization in Time L_N[1/3, O(1)] | [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md) | 已采用构件 |
+| 02_discrete_logarithm.pdf | 36 | `fba12f4d5e98152d52226887c4af2606039725f898bffecbc8a4d91ccaf9d0d7` | Discrete Logarithms in Finite Fields of Fixed Characteristic in Sub-Quasi-Polynomial Time | [math-l03-rational-and-interval-certificates](../../math-l03-rational-and-interval-certificates/SKILL.md) | 已采用构件 |
+| 03_bimatrix_nash_equilibrium.pdf | 41 | `ed65664e8817e323a1613f95f4fc98689719c86fb2708974bb69cc1edc139485` | An Exact Polynomial-Time Algorithm for 1/5-Approximate Nash Equilibria in Bimatrix Games | [math-bimatrix-kite-mixing](../../math-bimatrix-kite-mixing/SKILL.md) | 已采用构件 |
+| 04_deterministic_factoring_l34.pdf | 59 | `0ccf115516dab3cbeee15167f2dea62fcb29d03a19224cb4a9ae69a5ce402993` | Unconditional Deterministic Subexponential Integer Factoring and Quadratic Nonresidue Construction | [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md) | 已采用构件 |
+| 05_logrank_conjecture.pdf | 37 | `9c941a918c5e5cea1624adee676c010efb85b60b3cd77455640cd578f54f6bc9` | Breaking the Square-Root Barrier for the Log-Rank Conjecture | [math-logrank-rectangle-rank-halving](../../math-logrank-rectangle-rank-halving/SKILL.md) | 已采用构件 |
+| 06_edge_reconstruction.pdf | 47 | `170b2fc1f241cc8325e0b5573d444e061b1b7bb8fb3083a3ac88cabd0ce4f196` | Unconditional Edge Reconstruction of Simple Graphs of Linear Density | [math-edge-deck-reconstruction-audit](../../math-edge-deck-reconstruction-audit/SKILL.md) | 已采用构件 |
 
 本机来源目录名为 `10_Google_Cogentic_2026-11-25/PDF/`。11 月 26 日与仓库主分支比较，五篇 PDF 的字节一致。双矩阵博弈更新版仍为 41 页，SHA-256 为 `32196e6a64d13fbd216c7e7353a3b44a46e8389eb3d15bad48ffb3dd926cc337`，更新了 Li–Li 的既有结果比较及出处。两版的 kite 定义、Lemma 2.3(a) 与其证明一致。[更新版论文目录](https://github.com/google-research/google-research/tree/master/cogentic_research_papers/bimatrix_nash_equilibrium)
 
@@ -70,3 +70,22 @@
 | 06 边重构 | 物理页 8–10 Lemmas 2.2–2.3。从完整卡组的度数恢复原图度多重集，单独处理星图及孤立点。对 4 至 6 顶点、至少 4 边的 33,062 个标号简单图进行精确回放。[度序列](../../math-edge-deck-reconstruction-audit/references/edge-kelly-degree-sequence.md) |
 
 上述有限构件可独立调用。六篇论文的全局主定理及其完整复杂度和形式化证明仍待独立验收。
+
+## 第四次蒸馏与实际验收
+
+本机六份下载件在北京时间 11 月 26 日上午进入归档。Google Research 仓库将首发标在 11 月 25 日。本轮从当前可查的固定提交逐篇复算原件与远端 PDF 的 SHA-256 及页数。五份字节一致，双矩阵稿修订了引文，所用物理页 8–10 的提取文本仅有两处引文编号变动。[首发提交](https://github.com/google-research/google-research/commit/4a7bc8ab0bc770e71a259b7966c500496b99010a)。[版本目录](https://github.com/google-research/google-research/tree/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers)。
+
+| 本机原件 | 原文定位 | 本轮接入方法 | 本机精确验收 |
+| --- | --- | --- | --- |
+| 01_integer_factorization.pdf | 物理页 43–44，Lemma 5.2 | [3-adic 代数平方见证](../../math-l16-prime-sieve-certified-transfers/references/cogentic-3adic-algebraic-square-certificate.md) | 模 9 穷举 729 个剩余类，正例恰有两根，改动后的目标无根。 |
+| 02_discrete_logarithm.pdf | 物理页 34，Lemma 2.1(3) | [Frobenius 不可约性判别](../../math-l03-rational-and-interval-certificates/references/google-cogentic-frobenius-irreducibility.md) | 在二元域穷举首一四次及以下多项式，与直接试除一致。 |
+| 03_bimatrix_nash_equilibrium.pdf | 物理页 8–10，Lemma 2.3(b) | [固定行锚点的严格 LP 对偶分离](../../math-bimatrix-kite-mixing/references/wave5-google03-dual-separator.md) | 有理见证的最小分离裕量为 7/20。等号边界被拒绝。 |
+| 04_deterministic_factoring_l34.pdf | 物理页 57，Theorem 1.1 证明的步骤 1–2 | [偶数与完全幂的因子预检查](../../math-l16-prime-sieve-certified-transfers/references/cogentic-perfect-power-precheck-wave5.md) | 27 给出因子 3。91 的结果为未判定。 |
+| 05_logrank_conjecture.pdf | 物理页 12–13，Lemma 3.2(1) | [低密度乘积测度下的零单色矩形](../../math-logrank-rectangle-rank-halving/references/cogentic-low-density-zero-rectangle.md) | 给定三阶矩阵的实秩为 2，最大零矩形测度为 4/9。 |
+| 06_edge_reconstruction.pdf | 物理页 8–9，Lemma 2.2(1) | [等边卡组的 Möbius 重叠奇偶性](../../math-edge-deck-reconstruction-audit/references/mobius-overlap-parity.md) | 在经典小图碰撞上，4 个子集的奇偶恒等式与排列下界均通过精确核验。 |
+
+工具以给定小规模输入核验各自有限结论。原稿的全局复杂度、近似保证、单色矩形结果及线性密度下的边重构仍按论文所载主张登记，伴随 Lean 工程仍待取得。
+
+| 版本 | 页数 | SHA-256 | 论文 | 相关技能 | 处理状态 |
+| --- | ---: | --- | --- | --- | --- |
+| Google Research 修订稿 | 41 | `32196e6a64d13fbd216c7e7353a3b44a46e8389eb3d15bad48ffb3dd926cc337` | An Exact Polynomial-Time Algorithm for 1/5-Approximate Nash Equilibria in Bimatrix Games | [math-bimatrix-kite-mixing](../../math-bimatrix-kite-mixing/SKILL.md) | 已采用构件 |

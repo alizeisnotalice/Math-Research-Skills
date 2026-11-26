@@ -1,0 +1,5 @@
+{
+  "terms": [[1, 1], [-1, 3], [1, 5], [-1, 7], [1, 9]],
+  "expected_partial_sum": [263, 315],
+  "note": "Finite alternating harmonic partial sum; it is not a certificate for pi without a separate alternating-series tail bound."
+}

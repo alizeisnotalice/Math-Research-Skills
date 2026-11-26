@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 34,
+    "research-specialists": 43,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -137,9 +137,16 @@
     {
       "name": "math-ag-divisor-intersection-ledger",
       "title": "有限除子—交叉数账本",
-      "description": "对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。",
+      "description": "对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。 支持点吹起中零循环的整系数推拉。",
       "category": "research-specialists",
       "path": "skills/math-ag-divisor-intersection-ledger/SKILL.md"
+    },
+    {
+      "name": "math-algebraic-transfer-certificates",
+      "title": "代数转移与有限证书",
+      "description": "核对已给定的余留映射、整系数转移、链提升、格拼接或有限对称张量资料。适用于 Gersten 与 Milnor 障碍、升 HNN 扩张的同调输入和纤维函子条件。",
+      "category": "research-specialists",
+      "path": "skills/math-algebraic-transfer-certificates/SKILL.md"
     },
     {
       "name": "math-alternating-reciprocal-criteria",
@@ -147,6 +154,13 @@
       "description": "用 Sondow 的交错倒数和—连分数判据，严格区分可证明的无理性、有限前缀核验，以及需要整条简单连分数假设的超越性结论。适用于 Pierce 展开或快速增长分母的交错倒数和；不用于仅凭数值近似宣称无理或超越。",
       "category": "research-specialists",
       "path": "skills/math-alternating-reciprocal-criteria/SKILL.md"
+    },
+    {
+      "name": "math-asymptotic-midpoint-moduli",
+      "title": "渐近中点模量与分支 diamond 审计",
+      "description": "在已认证的树、段森林或 Daugavet-L1 结构上，调用渐近中点模量与可数分支 diamond 失真界；不把有限算术或抽象范数当作结构证书。",
+      "category": "research-specialists",
+      "path": "skills/math-asymptotic-midpoint-moduli/SKILL.md"
     },
     {
       "name": "math-b01-lagrange-farkas",
@@ -246,6 +260,13 @@
       "description": "核验链复形权截断、Mayer–Vietoris 条件、图状神经上链延拓以及已给代数或谱数据上的局部化与张量消失。",
       "category": "research-specialists",
       "path": "skills/math-cohomological-transfer/SKILL.md"
+    },
+    {
+      "name": "math-conformal-domain-estimates",
+      "title": "Conformal-domain estimates",
+      "description": "Manage gated conformal-domain coordinate-energy and univalent inverse-integral-means transfers. Use only with the specified normalization, boundary, and source-model hypotheses; not for arbitrary holomorphic maps or planar compactness.",
+      "category": "research-specialists",
+      "path": "skills/math-conformal-domain-estimates/SKILL.md"
     },
     {
       "name": "math-d01-kantorovich-duality",
@@ -375,6 +396,13 @@
       "path": "skills/math-euler-maclaurin-quadrature-certificates/SKILL.md"
     },
     {
+      "name": "math-euler-series-continued-fraction",
+      "title": "Euler series to a generalized continued fraction",
+      "description": "Convert a finite nondegenerate rational series segment to Euler generalized continued-fraction data exactly. Use for finite algebraic identity checks, not for convergence or irrationality claims.",
+      "category": "research-specialists",
+      "path": "skills/math-euler-series-continued-fraction/SKILL.md"
+    },
+    {
       "name": "math-f01-geometric-mean-kernel-two-winner-audit",
       "title": "F01 · 几何平均核与两赢家（GP-BRANCH）",
       "description": "审查几何平均核与两赢家分支估计，检查同输入耦合和分支选择条件。",
@@ -454,6 +482,13 @@
       "path": "skills/math-f2-group-ring-cancellation/SKILL.md"
     },
     {
+      "name": "math-function-field-period-transcendence",
+      "title": "正特征函数域周期超越性",
+      "description": "在已给定的正特征 Drinfeld 模、t-motive 与解析平凡化数据下，定位周期、准周期、第三类周期和 Carlitz 张量周期的条件性超越/代数独立接口。",
+      "category": "research-specialists",
+      "path": "skills/math-function-field-period-transcendence/SKILL.md"
+    },
+    {
       "name": "math-g01-carleson-measure-box-and-tent-test",
       "title": "G01 · Carleson 测度",
       "description": "检验 Carleson 测度的盒、帐篷与嵌入条件，核对几何族、尺度及常数。",
@@ -524,7 +559,7 @@
     {
       "name": "math-geometric-pde-reductions",
       "title": "几何偏微分方程与变分归约",
-      "description": "核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。",
+      "description": "核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。 包含固定顶点倾斜比较与给定加权幂零坐标的局部检查。",
       "category": "research-specialists",
       "path": "skills/math-geometric-pde-reductions/SKILL.md",
       "requires": [
@@ -591,6 +626,13 @@
       "description": "对已给定的有理有限子空间图和边权，精确核验 HBL 有效表示并分解平衡边流；不搜索表示或计算一般 HBL 常数。",
       "category": "research-specialists",
       "path": "skills/math-hbl-finite-presentation/SKILL.md"
+    },
+    {
+      "name": "math-holomorphic-local-to-global-transfer",
+      "title": "Holomorphic local-to-global transfer",
+      "description": "Transfer specified holomorphic local data to descent, gluing, integrability, or universal-cover product conclusions only after the matching geometric gate has been established. Not for arbitrary local charts or holomorphic distributions.",
+      "category": "research-specialists",
+      "path": "skills/math-holomorphic-local-to-global-transfer/SKILL.md"
     },
     {
       "name": "math-honeycomb-finite-boundary-flux",
@@ -876,7 +918,7 @@
     {
       "name": "math-l19-coordinate-ring-certificates",
       "title": "坐标环的显式消元证书",
-      "description": "验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。",
+      "description": "验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。 包含线性多项式结式与专门化最大公因数的有限检查。",
       "category": "methods",
       "path": "skills/math-l19-coordinate-ring-certificates/SKILL.md",
       "family": "l",
@@ -1021,6 +1063,13 @@
       "description": "编排或局部修订中文数学建模竞赛论文，处理页数口径、页码与页脚、摘要精确加粗、图表位置、附录及 PDF 最小改动验收。适用于保留指定基线格式、修复大块空白、按 Word 标注修改摘要或生成数学建模排版提示词；不用于改写未经授权的模型结论。",
       "category": "modeling",
       "path": "skills/math-modeling-paper/SKILL.md"
+    },
+    {
+      "name": "math-mzv-newton-harmonic-relations",
+      "title": "Newton--harmonic duality for MZV relation inputs",
+      "description": "Check finite Newton/binomial duality for positive multiple-harmonic indices exactly. Use to prepare finite inputs for Kawashima-type MZV relations, not to prove MZV independence or Euler-constant claims.",
+      "category": "research-specialists",
+      "path": "skills/math-mzv-newton-harmonic-relations/SKILL.md"
     },
     {
       "name": "math-n01-john-loewner-ellipsoid",
@@ -1200,11 +1249,25 @@
       "path": "skills/math-torus-packet-spectral-density/SKILL.md"
     },
     {
+      "name": "math-tube-maximal-transfer",
+      "title": "Tube and maximal transfer",
+      "description": "Transfer a specified three-dimensional tube or curved extension packet estimate through its declared maximal, capacity, and level-set interfaces. Not a generic Kakeya, restriction, or incidence certificate.",
+      "category": "research-specialists",
+      "path": "skills/math-tube-maximal-transfer/SKILL.md"
+    },
+    {
       "name": "math-weil-deligne-purity-lfactor",
       "title": "Pure Weil–Deligne local-factor certificate",
       "description": "Certify the local L-factor half-plane and Frobenius determinant consequence of supplied pure weight-zero Frobenius-semisimple Weil–Deligne data. Use only after the Weil–Deligne representation, inertia invariants, and purity witnesses have been established externally.",
       "category": "research-specialists",
       "path": "skills/math-weil-deligne-purity-lfactor/SKILL.md"
+    },
+    {
+      "name": "math-zeta-arithmetic-estimates",
+      "title": "ζ 函数的算术平均与光滑数误差",
+      "description": "根据指定的 ζ 函数采样、平滑核和参数区间接入等差级数矩比较与光滑数零点修正。适用于检查扭权、测量模型和误差来源。",
+      "category": "research-specialists",
+      "path": "skills/math-zeta-arithmetic-estimates/SKILL.md"
     },
     {
       "name": "mathematica-math",

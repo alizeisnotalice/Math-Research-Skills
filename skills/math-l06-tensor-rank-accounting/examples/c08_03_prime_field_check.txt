@@ -1,0 +1,5 @@
+python3 -B scripts/check_c08_03_polynomial_separator.py --M 3 --n 4 --p 7
+
+Expected structural scope: F_7 has ell=6 distinct interpolation points, while
+this finite check validates only evaluation and substitution identities. It does
+not instantiate arbitrary tensor blocks or prove an exponent bound.

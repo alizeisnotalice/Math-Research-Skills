@@ -7,12 +7,14 @@
 - 原件。Claude manuscript; abstract says Lean formalization, but the formal artifact was not inspected。PDF 物理页 1, 2。SHA-256 882f5eefb1e067cc8c99ddfe660c10d1d67f9fcee7b69364bd0bab06c0c1f97c。
 - arithmetic-circuit lower bounds。Abstract; Theorem 1.1 (physical p.2)。在任意特征下对 Hamiltonian-cycle 多项式、且特征非二时对 permanent，声称算术电路规模具有 m^{c(log m)^{1/3}} 下界；这是算术而非布尔电路结论。
 - 条件或证据待查。全域下界证明及所称 Lean 工件均未逐项审计。 仅核对题名、摘要和主定理陈述；未核对证明、代码库、形式化范围或与现有工具的可迁移性。
+- 第五批定向筛选。unresolved。The asserted VP != VNP result is said to be Lean-formalized, but no Lean project, commit, theorem name, or dependency manifest is included in the raw paper; the primary proof dependency is therefore unavailable. 后续条件。Acquire the Lean repository/commit and build instructions, reproduce the theorem, and isolate any standalone finite algebraic lemma.
 
 ## A03 · A 2^o(n) Time Algorithm for 3-SAT
 
 - 原件。Claude manuscript dated 2026-10-26; Lean 4 formalization claim uninspected。PDF 物理页 1, 2。SHA-256 7af518b09342c967ea371c74b8989806684c5d02aabe5763ca08554aff5025a0。
 - exact exponential algorithms。Abstract; Theorem 1 (physical p.1)。声称对 k-CNF 计数给出 2^{o(n)} 确定性算法，因此按文中定义否定 ETH；对象是输入变量数与子句数均须跟踪的计数问题。
 - 条件或证据待查。算法递归、运行时间常数及 Lean 形式化工件未审计。 不能由摘要或定理页确认 ETH 反例；未形成可调用数学工具。
+- 第五批定向筛选。unresolved。The asserted subexponential #3-SAT algorithm is said to be Lean-formalized, but no formal artifact or executable recurrence/cost certificate is included in the raw source for independent dependency checking. 后续条件。Acquire the Lean project/commit and exact algorithm specification; reproduce its asymptotic and finite-cost bounds before considering adoption.
 
 ## A09 · Discovering state-of-the-art quantum circuits with large language models
 
@@ -31,30 +33,36 @@
 - 原件。arXiv:2610.41622。PDF 物理页 1, 2。SHA-256 48b490c8412fe8b8724b8ee607135f0781417ba99376b2932e56443d640bc4ad。
 - 3-SAT asymptotic crossover analysis。Abstract and introductory main-result paragraph (physical p.1)。对所称 Anthropic #3-SAT 递归的显式常数和分组参数作交叉点估计，声称降低若干渐近界的实际交叉规模。
 - 条件或证据待查。关键递归及 2^{o(n)} 基础结果依赖 A03，且各常数推导未逐页复核。 不能将数值交叉点或 ETH 结论当作已核验的算法证书。
+- 第五批定向筛选。unresolved。Its crossover estimates explicitly depend on the unverified A03 recursion and its proved constants; without that upstream formal/executable artifact the claimed numerical crossover interface has no checked dependency chain. 后续条件。First resolve A03 with its Lean/executable proof artifacts, then obtain the integer tables and recurrence inputs used for this crossover calculation.
 
 ## A26 · A Mathematical Theory of the Jacobian Lens
 
 - 原件。arXiv:2610.31955 preprint。PDF 物理页 1, 3, 4。SHA-256 89454dc3ee81ba4a6e354eee08eec603dc8fad86f953b0f4ce8d112b92203d90。
 - dynamical-systems analysis of neural representations。Abstract; Sections 1–2 and displayed bound (8) (physical pp.1,3–4)。把 transformer 深度与 token 位移下的 Jacobian 平均联系到有限时间/对流 Lyapunov 模态；在上下文残差重叠受控等假设下，平均抑制不相干方向。
 - 条件或证据待查。结论取决于文中 Jacobian 分解、独立上下文重叠界及前序 J-lens 定义；均未完整审计。 只核对局部数学叙述，未验证模型实验或把该不等式移用于其他网络。
+- 第五批定向筛选。unresolved。The J-lens paper is model- and data-dependent. This screen found no standalone finite mathematical interface whose hypotheses can be checked without the cited architecture, trained models, and empirical setup. 后续条件。Provide the precise J-lens definition, model checkpoints/data, and a bounded theorem with all dynamical assumptions isolated.
 
 ## A27 · Hilbert Series in Four Variables and Linear Factors of High Multiplicity
 
 - 原件。arXiv:2608.24797v4。PDF 物理页 1, 2。SHA-256 cb6b597a08a65e5bd5f433f32d6dcea41b00cc19a48590a8abbe8db1d04d4498。
 - commutative algebra and Hilbert series。Abstract; Theorem 1.1 and Corollary 1.2 (physical p.2)。在特征零四元多项式环中，定理对一般 quintic 或 septic 形式的任意个数给出 Fröberg 预测 Hilbert 级数；另给出高重线性因子情形的阻碍。
 - 条件或证据待查。一般位置、逆系统和文中 exact certificates 的证明/计算输入未复核。 仅核对主陈述；未验证证书，不能推广到其他次数、变量数或正特征。
+- 第五批定向筛选。adopt。The paper proves an elementary modular-rank-to-characteristic-zero transfer and specifies endpoint propagation; the full quintic/septic result relies on ancillary certificate files not present here, so adoption is restricted to the proved transfer interface. 后续条件。For full Hilbert-series claims, acquire and run the named quintic/septic verifier sources and certificate JSON, then verify their reported maximal minors.
+- 已采用方法。物理页 2, 3, 4, 5, 6, 7。A nonzero maximal minor after integral specialization modulo a prime certifies the corresponding characteristic-zero rank locus; endpoint injectivity/surjectivity propagates under the stated multiplication-map hypotheses. [方法说明](../../../math-l17-filtered-linear-algebra-certificates/references/wave5-c08-01-modular-rank-transfer.md)。
 
 ## A28 · Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation
 
 - 原件。arXiv:2611.06962v1, work in progress。PDF 物理页 1, 2。SHA-256 23946706504bf7f0252e619a8f4fbee9d92746177c7775f3f4ea3ba126d0f13a。
 - formalized inverse problems。Abstract; introduction (physical pp.1–2)。介绍 AutoIP 的 Lean 4 正则化理论库，并强调形式证明只认证已编码陈述，仍须核对自然语言命题与假设是否一致。
 - 条件或证据待查。库覆盖度、接口和每项形式化定理均未检查。 可作形式化审阅流程线索；不把工作进行中的库视为已安装或已验证工具。
+- 第五批定向筛选。hold。arXiv:2611.06962v1 calls AutoIP work in progress. The overview correctly limits formal certification to statements actually encoded, but it supplies no stable repository revision or checked theorem interface to distill. 定位。physical pp. 1-2; 13-page PDF 后续条件。Pin a public Lean repository revision, identify a theorem with its exact types and hypotheses, and compile it before creating a formalization route.
 
 ## G13 · Applications of a theorem by A. B. Shidlovski
 
 - 原件。public-source copy per inventory; scanned PDF has no extractable text。PDF 物理页 1。SHA-256 0e39a6cbb76c8357b7ffe6eb4a5ec6765aa19cf0f2eb567a88a9c69470ae70c0。
 - E-functions and Shidlovskii theory。physical p.1 image-only; no machine-readable theorem locator。库存题名表明主题为 Shidlovskii 定理的应用，但该副本 25 页均无可提取文本，未能从原页确认作者、版本或命题。
 - 条件或证据待查。不可读的源文本阻断对所用 E-函数假设和外部定理的审计。 需人工视觉定位或可检索版本后再提取；当前不得采用任何数学结论。
+- 第五批定向筛选。hold。Mahler's 1968 Proceedings of the Royal Society paper is formally published (DOI 10.1098/rspa.1968.0111), but this local 25-page scan is image-only and no theorem or hypothesis could be verified from the actual copy. 定位。physical p. 1 (image-only); 25-page PDF 后续条件。Acquire searchable authoritative text or manually transcribe and verify the specific Shidlovskii application before use.
 
 ## G18 · How can we escape Thomae's relations?
 
@@ -69,18 +77,23 @@
 - symbolic experimental irrationality search。Abstract/package list (physical p.1); introductory workflow (p.2)。以 Maple 包自动产生若干积分或对数常数的候选小线性形式，并区分可完全自动化的例子与仍需人工证明的步骤。
 - 构件候选。每个包的正确性、整数性、误差界和非零性均须按具体常数另审，本文概述不构成通用证明。 候选是“搜索与审计分离”的工作流，不部署脚本、不采纳任一自动发现结论。
 - 相关入口。[math-tool-router](../../../math-tool-router/SKILL.md)。
+- 第五批定向筛选。unresolved。The PDF identifies its concrete automatic outputs as external Maple packages; those packages and their generated certificates are not in the assigned raw bundle, so the claimed automated proof/measure dependencies cannot be checked here. 后续条件。Acquire the cited ALLADI/GAT/BEUKERS/SALIKHOV package sources and representative output certificates; then screen their exact recurrences and integrality bounds.
 
 ## G21 · Mellin transforms, transfinite diameter and rational approximations of integrals
 
 - 原件。arXiv:2604.20741。PDF 物理页 1, 2。SHA-256 fcbcc22ee7504b9e057c534c0e5fae3f3812af8548d132cd2018ce4857a20bef。
 - periods and multivariate rational approximation。Abstract; Section 1 and Theorem 1.1 (physical p.2)。提出用 Mellin 积分像的多变量 transfinite diameter 控制周期的小线性形式，并以 M0,5 上 ζ(2) 的五参数积分作为示例。
 - 构件候选。从行列式/直径估计到可用有理线性形式仍依赖分母清除、非零性及后续定理；本次未完整复核。 仅保留一般候选路线，不能转用于 γ 或其他周期而不逐项满足其解析与算术假设。
+- 第五批定向筛选。adopt。The PDF proves a finite matrix/Minkowski irrationality interface and states its denominator and nonzero-determinant hypotheses explicitly; the adopted reference is restricted to that conditional criterion. 后续条件。For a period application, supply a verified Mellin family, basis of periods, denominator matrices, and determinant/transfinite-diameter bounds.
+- 已采用方法。物理页 4, 5, 21, 22。For a Mellin-integral matrix Q with nonzero determinant and verified denominator factor delta_N, the stated transfinite-diameter/Minkowski condition gives a conditional irrationality or period-space dimension conclusion. [方法说明](../../../math-integer-linear-form-rates/references/wave5-c08-01-mellin-transfinite-diameter.md)。
 
 ## G27 · A class of relations among multiple zeta values
 
 - 原件。arXiv:math/0702824v3 (2009-01-28)。PDF 物理页 1, 2, 3。SHA-256 23bf9292e11c2dd178c702e87d9408f7d936148a2587dd4a32384373047d904b。
 - multiple zeta value relations。Abstract; Sections 1 and 5 discussion (physical pp.1–3)。以有限多重调和和的 Newton 级数导出包含 Ohno 关系的一类 MZV 线性关系；文中固定权重独立数目的公式是相对该类关系的计数。
 - 条件或证据待查。Newton 级数收敛、关键有限和对偶公式与关系推导未完整复核。 不能把相对关系空间的维数与全部 MZV 的线性独立维数混同。
+- 第五批定向筛选。adopt。The published Journal of Number Theory 129 (2009), 755-788 paper supplies an exact finite multiple-harmonic binomial-duality identity and a Newton-coefficient interface. The adopted Corollaries 3.9-3.10 were checked with their stated Theorem 3.8 generating-function induction, and do not assert MZV independence. 定位。physical pp. 2-3, 14-15; 36-page PDF 后续条件。For any infinite Newton-series or MZV conclusion, separately verify convergence and the relevant product/derivative hypotheses; finite identity checks are insufficient.
+- 已采用方法。物理页 2, 3, 14, 15。Exact finite multiple-harmonic binomial duality and Newton coefficients only; no claim of complete MZV relations or linear independence. [方法说明](../../../math-mzv-newton-harmonic-relations/references/kawashima-newton-harmonic-duality.md)。
 
 ## G27 · A note on Kawashima functions
 
@@ -121,18 +134,21 @@
 - logarithmic linear independence。Abstract; Theorems 1–4 setup (physical pp.1–2)。在所列 holonomy 定理条件下声称若干 q 范围内 1、两个对数及其乘积的 Q-线性无关，并用 Hermite–Padé 形式和区间证书处理一个微分算子。
 - 条件或证据待查。作者明确把核心 holonomy 结果及一个算子不可约步骤作为假设/继承项；这些决定性依赖未闭合。 不得采纳四项线性无关或相关无理性结论；仅记录条件性路线。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第五批定向筛选。hold。The local 2026 preprint makes its logarithm-product conclusions conditional on arithmetic-holonomy and irreducibility inputs. Those decisive inputs were not closed, so no linear-independence claim is reusable. 定位。physical pp. 1-2; 27-page PDF 后续条件。Verify the exact holonomy theorem and the required differential-operator irreducibility for each proposed application.
 
 ## G42 · Linear independence of odd zeta values using Siegel's lemma
 
 - 原件。author preprint dated 2026-03-26; publication status not established。PDF 物理页 1, 2, 4。SHA-256 1576b611c8c0771fb63406274faf022898d568a085f243a469dda1c0f7ece7f5。
 - zeta linear independence via Siegel lemma。Abstract; Theorem 1 (physical p.2); Section 2 roadmap (p.4)。声称对充分大奇 s，1 与 ζ(3),…,ζ(s) 的 Q-张成维数至少为 0.21√(s/log s)，路线是非显式 Siegel 引理线性形式、精化线性独立判据和 Shidlovskii 型重数估计。
 - 条件或证据待查。新判据、重数估计及常数优化的证明链未逐项复核。 不能把渐近维数下界转用于 γ、单个奇 ζ 值或有限 s。
+- 第五批定向筛选。hold。This 2026 author preprint's asymptotic odd-zeta span bound depends on its refined Siegel-lemma criterion and Shidlovskii-type multiplicity estimate; neither proof chain was adopted or independently checked. 定位。physical pp. 1-2, 4; 46-page PDF 后续条件。Audit the non-explicit linear forms, multiplicity estimate, and all parameter ranges before using the stated asymptotic bound.
 
 ## G42 · Linear independence of values of Dirichlet L-functions
 
 - 原件。arXiv:2512.02612v2 per inventory。PDF 物理页 1, 3, 4。SHA-256 5a4e375dc4a5ee848780175b61d155875d84d7bf0f7db59f45ef90162013b283。
 - Dirichlet L-value linear independence。Abstract; introduction remarks and construction roadmap (physical pp.1,3–4)。对 Dirichlet character 的相反奇偶性 L 值，声称在 Q(ζ_{φ(N)}) 上给出约 √(s/log s) 的张成维数下界，并推广 Fischler 的主特征情形。
 - 条件或证据待查。依赖精化 Siegel 引理、线性独立判据和 Shidlovskii 型引理，且关联的 Fischler 结果未在本次闭合审计。 不从此推出单个 L 值的无理性，亦不转移到 γ。
+- 第五批定向筛选。hold。arXiv:2512.02612v2 is a preprint whose Dirichlet-L span claim imports the same refined Siegel-lemma and multiplicity machinery. It gives neither a direct Euler-constant tool nor a checked standalone finite certificate. 定位。physical pp. 1, 3-4; 36-page PDF 后续条件。Verify the cited Fischler extension, multiplicity lemma, and character/parity assumptions for any selected L-value application.
 
 ## G48 · Computing hypergeometric functions rigorously
 
@@ -140,6 +156,7 @@
 - rigorous hypergeometric interval computation。Abstract; Theorem 1 (physical p.7)。为 pFq 级数首项后的尾部给出在 p≤q+1 与 Re(b_i+N)>0 条件下的几何级数上界，服务于任意精度区间计算。
 - 构件候选。完整算法还依赖参数变换、分支选择及 Arb/实现的定向区间保证；本次未运行或审计代码。 可作为带条件的尾界线索；不能把其实现能力等同于本机现有区间 API 已验证。
 - 相关入口。[math-l03-rational-and-interval-certificates](../../../math-l03-rational-and-interval-certificates/SKILL.md)。
+- 第五批定向筛选。unresolved。The paper describes an Arb-based arbitrary-precision implementation, but its required implementation/library dependency is not part of this input and no bounded self-contained algorithmic certificate was isolated in this screen. 后续条件。Provide the referenced Arb source/version and a target-function test suite with interval outputs; then distill a verified evaluation interface.
 
 ## G52 · Transcendence results for Γ^(n)(1) and related sequences of generalized constants
 
@@ -147,6 +164,7 @@
 - Gamma derivatives and generalized constants。Abstract; identities (5)–(10) (p.2); Theorem 1 (p.5)。定义 γ^(n)、δ^(n)、η^(n) 的 Gumbel 矩序列并陈述偶阶导数的有理张成关系、无穷多 γ^(n) 超越及 γ 与 γ^(2) 的析取超越结论；不推出 γ 自身无理性。
 - 条件或证据待查。算术部分使用 Shidlovskii 定理及生成函数论证；其适用和所有外部前提未独立复核。 保留 γ+δ/e=η 型身份的背景，不将析取结论强化为 γ 的结论。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第五批定向筛选。no-adopt。The arXiv:2511.01849v7 source gives useful Gumbel-moment identities, but its gamma-derivative Bell-polynomial content is already represented by the installed gamma recurrence tooling. Its transcendence claims depend on Shidlovskii applications and do not establish irrationality of gamma. 定位。physical pp. 1-2, 5; 15-page PDF 后续条件。A distinct adoption would need a new, fully specified generalized-constant computation not reducible to the existing Bell/gamma-zeta interface.
 
 ## G57 · Special values of derivatives of L-series and generalized Stieltjes constants
 
@@ -154,6 +172,7 @@
 - generalized Stieltjes constants and L-derivatives。Abstract; Theorems 1.1–1.2 and Corollary 2 (physical pp.3–4)。把 L′(1,f) 与广义 Stieltjes 常数联系；对 p>7 的结论明确以 Gun–Ram Murty–Rath 猜想为条件，才得到一批 γ_1(a,p) 的超越性。
 - 条件或证据待查。决定性的 Conjecture 1 未证明，且 L′(1,f) 到常数的线性关系须保留其周期函数假设。 不转化为通常 Euler 常数 γ 的无理/超越结论，也不删除条件。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第五批定向筛选。no-adopt。The formal Acta Arithmetica 2018 paper (DOI 10.4064/aa170615-13-3) derives its generalized-Stieltjes transcendence count conditional on the Gun-Ram-Murty-Rath conjecture. It is not a statement about ordinary gamma and creates no new unconditional local tool. 定位。physical pp. 3-4; 11-page PDF 后续条件。Any use must retain Conjecture 1 and verify periodic-function, parity, and nonvanishing hypotheses for the specified L-series.
 
 ## O22 · A gauge-invariant measure for lattice chiral fermions
 
@@ -166,18 +185,22 @@
 - 原件。2026-10 shepherding-committee statement (not the proof)。PDF 物理页 1, 2。SHA-256 dbab31f0f954ac8265a3fc1c1a29664c7fa0b7f16c616d58012e65896557bd12。
 - quantum Yang--Mills status statement。committee statement, pp. 1--2。委员会仅报告 OpenAI 声称构造含费米子的量子 Yang--Mills 连续极限；同时明确质量隙与禁闭仍未解决，正式证明及 Lean 对应仍待发布和核对。
 - 条件或证据待查。该文本本身不含定义、RG 估计或证明；结论依赖尚未公开的 OpenAI 手稿与未来审查。 未阅 OpenAI 原证明、形式化文件或委员会后续评估。
+- 第五批定向筛选。no-adopt。This two-page committee statement reports an unreviewed OpenAI claim but supplies neither definitions nor proof artifacts. It explicitly leaves mass gap and confinement unresolved. 定位。physical pp. 1-2; 2-page PDF 后续条件。Wait for a public primary manuscript/formalization and a theorem-level review before any mathematical tool is distilled.
 
 ## O27 · A Proof of the Linear Hadwiger Conjecture
 
 - 原件。arXiv:2610.05291 (PDF first page)。PDF 物理页 1, 2, 5。SHA-256 12075e4195b3f3cd899ab0e2bfdf546144aa68fdbffeb5eec48de15330bfd34e。
 - graph minors and colouring。Theorems 2--4; §2.1。对 Hadwiger 数 h(G)<t 的图，作者声称存在绝对 C 使 χ(G)≤C h(G)；路线先处理 |V|≤t(log t)^{1/2-ε}，再用既有归约提升到 polylog 规模。
 - 条件或证据待查。关键归约显式依赖 Delcourt--Postle 的定理；小图范围的两个关键引理及 bootstrap 尚未逐项核验。 仅核对开篇定理和 §2.1 路线，未核验关键引理、常数或完整 preprint。
+- 第五批定向筛选。hold。The 41-page arXiv:2610.05291v1 preprint's Theorems 4-5 give a clear small-order-to-polylog bootstrap, but adoption would rely on the central Theorem 5 proof and Delcourt-Postle reduction; those proof dependencies were not fully checked in this screening pass. 定位。physical pp. 1-2, 5; 41-page PDF 后续条件。Verify Theorem 5's exponent-boost proof and the exact imported Delcourt-Postle reduction before adding a graph-colouring component.
 
 ## O28 · The occupation time of a random walk generated by the uniform random permutation -- a GPT-6 Astra proof
 
 - 原件。arXiv:2609.25102v1 (20 Sep 2026)。PDF 物理页 1, 2, 3。SHA-256 f23fafe8c40fe263d3158924171a4c8e403a7cf1a8833f5bce7a225db004c78c。
 - permutation random walks and arcsine laws。Theorem 0.1; equations (0.3)--(0.7)。对均匀排列诱导的 ±1 路径，奇数时刻正性把占据边数写成 2#{k:T_k>0}；由环形差分构造得到 i.i.d. 连续对称增量 T，遂以 Sparre--Andersen 给出离散 arcsine 分布。
 - 构件候选。决定步骤是 U_j 的模一差分 V_j 仍为 i.i.d. Uniform 及由此的路径恒等式；最后调用 Sparre--Andersen。 可作为“排列路径到 i.i.d. 对称增量”的专用转移工具；尚未独立复核变换的测度保持细节和引用定理的适用条件。
+- 第五批定向筛选。adopt。The four-page source gives a complete pathwise reduction to i.i.d. continuous symmetric increments and states the final Sparre-Anderson dependency; the adopted scope ends at that reduction and law invocation. 后续条件。For any variant, prove the transformed increments are i.i.d., continuous, and symmetric before invoking Sparre-Anderson.
+- 已采用方法。物理页 1, 2, 3。Uniform-permutation ascent walks of even length reduce pathwise to occupation time of an iid continuous symmetric-increment walk. [方法说明](../../../probability-permutation-subset-sums/references/wave5-c08-01-permutation-walk-arcsine.md)。
 
 ## O29 · FrontierMath Erdős
 
@@ -203,36 +226,42 @@
 - 原件。2026 preprint (PDF first page; exact repository version unverified)。PDF 物理页 1, 3, 14。SHA-256 60a892c1f5d0a70d608976e21b88dc232ec68284f385b313072964b3c747e6f3。
 - Falconer distance and microlocal energy。Theorem 1.1; §§3--8。声称对紧集 E⊂R^d、dim_H E>d/2 证明距离集有正 Lebesgue 测度；证明组织为距离测度、microlocal Mattila 积分及左右分支区间切割。
 - 条件或证据待查。主结论依赖多尺度分支切割、M/E 状态转换及 Proposition 2.2；仅定位章节结构，未核验这些估计。 未检查全部频率分解、端点/紧性处理或与原 OpenAI 证明的实际依赖。
+- 第五批定向筛选。hold。This is a third-party explanatory arXiv:2611.13789v1 manuscript, not an OpenAI original. Its Falconer proof depends on Proposition 2.2 and the multiscale M/E transition estimates, which were not checked; existing Frostman preprocessing remains the only admitted local component. 定位。physical pp. 1, 3, 14; 20-page PDF 后续条件。Verify Proposition 2.2 and the full branching-energy induction, or use an audited primary OpenAI source, before extending Falconer tooling.
 
 ## O33 · The satisfiability conjecture for random k-SAT formulas: Human-friendly exposition of the recent OpenAI resolution
 
 - 原件。arXiv:2611.10139v1 (PDF dated 10 Nov 2026)。PDF 物理页 1, 3, 11。SHA-256 c1177271fde645c12e239c4f9b8763143091957c6e925b3c16b1c7ca9fdb820e。
 - random k-SAT threshold。Abstract; §3 roadmap and technical propositions。文本阐释随机 k-SAT 的可满足性阈值：固定子句/变量比附近概率急剧转变；其路线讨论条件下解数集中、超可加变体及相变窗口。
 - 条件或证据待查。核心阈值论证依赖文中 Proposition 3.7、3.10 及所引用 OpenAI/Carenini 结果，未逐条审计。 未核验一般 k 的定量窗口、原始解析论证或预印本间的版本关系。
+- 第五批定向筛选。hold。The arXiv:2611.10139v1 human-oriented k-SAT exposition cites OpenAI/Carenini results and rests on technical Propositions 3.7 and 3.10. It has no independently checked primary threshold proof or finite SAT certificate. 定位。physical pp. 1, 3, 11; 19-page PDF 后续条件。Compare with the cited primary proof, then verify the concentration and superadditivity propositions with all fixed-k and density-window hypotheses.
 
 ## O34 · A Note on OpenAI's Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture
 
 - 原件。2026 preprint (PDF dated 21 Oct 2026)。PDF 物理页 1, 2, 19。SHA-256 39b63a11775dde74d822328f4faf738dadb6b93a20f780e27e6eee989144915c。
 - group algebras and direct finiteness。Abstract; §1 and construction section。作者给出特征 2 非直接有限群代数的说明，并声称可推广为每个素数 p 存在双曲群 G_p 使 F_p[G_p] 非直接有限。
 - 条件或证据待查。必须核验群的演示、元素 a,b 的 ab=1≠ba 计算及双曲性证明；这些不由摘要或历史背景推出。 未逐行复算群环乘法或核查其与原 OpenAI 构造的依赖。
+- 第五批定向筛选。exclude。SHA matches the local 32-page preprint dated 21 Oct 2026, bibliographically arXiv:2611.08268v1. Its pp.1--5 state the characteristic-p direct-finiteness construction and matrix reduction, but a reusable witness needs the source-specific group presentation, the explicit group-ring a,b product calculation, and the hyperbolicity proof; no finite generic input contract is supplied. 定位。O34 physical pp.1--5, especially the stated reduction through Mat_nd(F_p[G]). 后续条件。Audit the full presentation and ab=1 != ba computation for a named p, then independently check the group-theoretic/hyperbolicity chain before exposing any witness checker.
 
 ## O35 · The geometric case of the Erdős Similarity Conjecture: a human exposition of the OpenAI proof
 
 - 原件。arXiv:2611.02454 (PDF first page)。PDF 物理页 1, 2, 4。SHA-256 19f0529a050ee61878889ff77e69248e59e3f8ab64e7ca2b044d8829d581eb84。
 - random covering and geometric similarity。Abstract; construction overview。对固定 q∈(0,1)，文本声称构造测度可任意接近 1 的紧集，避免所有平移缩放的 {q^n}；机制是嵌套网格随机树与有限代表 dilation 的并界。
 - 条件或证据待查。决定步骤是每个拷贝的独立命中机会、依赖范围控制以及从有限代表到全部 dilation 的离散化；均需完整估计。 可考虑发展为随机树覆盖工具，但尚未核验网格尺度、常数、可数化和极限传递。
+- 第五批定向筛选。exclude。SHA matches the local arXiv:2611.02454 preprint. Proposition 2.1 on p.4 is a useful target statement, but the all-dilation conclusion depends on the nested-grid geometry, finite representative net, tree stopping calculation, and exceptional-base-point repair in later sections. None is a standalone finite interface here. 定位。O35 physical pp.1--4; Proposition 2.1 on p.4. 后续条件。A future extraction must fix q,p, all grid and tree parameters, prove the finite-representative-to-continuum cover transfer, and give the exact stopping probability bound.
 
 ## O36 · Deterministic Polynomial-Time Primality Testing with a Single Binomial Congruence
 
 - 原件。arXiv:2611.02280 (PDF dated 30 Oct 2026)。PDF 物理页 1, 2, 5。SHA-256 dfdd6e53577a94fede588a075057377c693483ac18fa756b6507331b07b2e8fa。
 - primality testing and binomial congruences。Abstract; Theorem 1.1; main congruence discussion。提出在 C_n[X]/(X^r-b(Y)) 检验单一二项式同余；有限域根计数和格界意在推出接受数是素数幂，再排除完美幂。参数构造依赖 Dedekind ζ 的统一零点自由区。
 - 条件或证据待查。算法正确性依赖零点自由定理、参数 b 构造、根计数及格界的量化衔接；并非仅靠同余式。 未复算复杂度、输入编码或外部零点自由定理/Lean 声明；不应作为无条件素性工具部署。
+- 第五批定向筛选。exclude。SHA matches arXiv:2611.02280v1. Theorem 2.3 on pp.3--5 gives only the conditional acceptance-to-prime-power algebraic criterion after identities (3)--(5) and size condition (8); the advertised deterministic construction of b and L^(32+o(1)) bound rely on the external uniform Dedekind-zeta zero-free theorem and later Jacobi-sum construction. 定位。O36 physical pp.1--5; equations (3)--(8), Lemmas 2.1--2.2, Theorem 2.3. 后续条件。Check the exact version and proof/formalization status of the cited zero-free theorem, then audit parameter construction, input encoding, perfect-power preprocessing, and all complexity bounds before using as a primality algorithm.
 
 ## O37 · A remark on the AI proof of the Deligne--Drinfeld conjecture
 
 - 原件。arXiv:2611.01745 (PDF first page)。PDF 物理页 1, 2, 8。SHA-256 afb6f82b5a6694c3f1708d9a61d97533946c631692194348947886d4b03994f6。
 - associators in characteristic two。Abstract; Lemma 1.5 and reconstruction discussion。文章把特征 2 论证中的投影/重构解释为 z↦z^2 双覆盖与填补穿孔，并给出归一化 level-two associator 图像上的显式重构。
 - 条件或证据待查。依赖 OpenAI 的约化方程、cabling 恒等式及 pro-2 关联子理论；Lemma 1.5 只覆盖其中的 augmentation-algebra 接口。 未核验 associator 定义、重构逆与完整 Deligne--Drinfeld 结论。
+- 第五批定向筛选。exclude。SHA matches arXiv:2611.01745. The arrangement augmentation Lemma 1.5 (p.3) and normalized level-two formulas (p.5) are only interfaces to the cited OpenAI reduced/cabling equations and pro-2 associator framework. The existing operator-algebra skill already holds the narrow finite Lie-lattice interface. 定位。O37 physical pp.1--5, Lemma 1.5 and Proposition 2.1. 后续条件。A new transfer would require the exact associator input, cabling identities, coefficient reconstruction inverse, and compatibility with the claimed Deligne--Drinfeld conclusion.
 
 ## O38 · Limits and Constants of OpenAI's Claimed ETH Refutation
 
@@ -245,36 +274,43 @@
 - 原件。arXiv:2610.34444 (PDF dated 6 Nov 2026)。PDF 物理页 1, 2, 9。SHA-256 8eb7d67e87163d02a37e32ae18ac3ac7967a4a52255d758576584547351209ea。
 - graph crossing numbers。Abstract; introductory reduction discussion。文本声称任意 K_n 绘制的交叉数等于经典 floor-product，并将 OpenAI 论证改写为较短的 exposition，还讨论其他图族的推论。
 - 条件或证据待查。完整下界需核验 drawing reductions、关键计数不等式和所有 n 的边界情形；本次未完成。 未核验原 proof、计算辅助小 n 情形或导出图族结论。
+- 第五批定向筛选。exclude。SHA matches the local 16-page preprint dated 6 Nov 2026. The headline lower crossing-number statement on p.1 is obtained through drawing reductions and a global crossing-counting argument. The small displayed constructions do not give an input-parameterized finite certificate usable independently of those reductions. 定位。O39 physical pp.1--3, Theorem 1 and start of its proof. 后续条件。Audit the drawing model, reduction lemmas, all-n counting inequality, and boundary cases before extracting a crossing-number tool.
 
 ## O40 · On OpenAI's proof of the Nagata conjecture
 
 - 原件。arXiv:2610.30050v1 (PDF first page)。PDF 物理页 1, 3, 9。SHA-256 347c49db68edac09689c18fd5a31ac30fe2ffd726505730258e744c23899a9ce。
 - algebraic geometry and interpolation。Abstract; Proposition 2.4 examples。路线把一般点的 fat-point 插值转为退化椭圆曲线/正常锥上的单项式方案，最终到三角晶格点插值；样例将满秩矩阵用于排除指定次数曲线。
 - 条件或证据待查。决定依赖 theta 函数结点退化、插值对偶与 Proposition 2.4 的秩结论；图示有限矩阵例子不能替代一般点定理。 未核验退化族、genericity、矩阵秩一般证明或与原稿的对应。
+- 第五批定向筛选。exclude。SHA matches arXiv:2610.30050v1. The fat-point interpolation route depends on a degeneration family, theta-function nodes, genericity, dual interpolation, and a general-rank theorem. A finite matrix example cannot certify the generic Nagata step. 定位。O40 physical pp.1, 3, 9; Proposition 2.4 examples. 后续条件。Verify the degeneration family and Proposition 2.4 with its genericity and rank hypotheses, then compare it to the original OpenAI proof before any reusable interpolation interface.
 
 ## O41 · Brennan's Conjecture and the Universal Integral Means Spectrum
 
 - 原件。arXiv:2610.23853 (PDF first page)。PDF 物理页 1, 2, 3。SHA-256 415931c428e582ec42c0df3204b93dac57fcb7aaaf022753e2d858ee7b9150a5。
 - conformal integral means spectrum。Abstract; equations (4)--(5) and §1.2。作者称在验证两份 OpenAI 预印本时得到更短且更强的谱结果；论证用对数超调和的势、临界点目标映射、Jacobian 符号和加权有向面积不等式。
 - 条件或证据待查。主结论依赖势函数构造、临界值计数和 signed-area 不等式；原文也将背景中的 OpenAI 预印本作为前置。 未逐项核验 Brennan 范围、Kraetzer 反例或所有解析边界条件。
+- 第五批定向筛选。exclude。SHA matches arXiv:2610.23853. The claimed integral-means spectrum improvement depends on a logarithmic-superharmonic potential, critical-value accounting, Jacobian sign, and signed-area inequality, with OpenAI preprints as inputs. The source does not isolate a finite checkable component with independent scope. 定位。O41 physical pp.1--3; introduction and displayed spectrum equations (4)--(5). 后续条件。Audit the potential construction and every boundary/critical-point hypothesis, then verify the signed-area estimate and the cited OpenAI dependencies at their precise versions.
 
 ## O42 · Primes between 8th powers?
 
 - 原件。2026 preprint (PDF first page)。PDF 物理页 1, 4, 5。SHA-256 af0717cf0727451bc842f985e5186521cd2c7fe34799873cc7d7355ecc5d8ba2。
 - conditional prime gaps。Abstract; conditional implications。在假定所称 7/8 版 quasi-Riemann hypothesis 成立时，文章推出每个 n 的 (n^8,(n+1)^8) 等区间含素数及更短区间版本。
 - 条件或证据待查。所有新结论条件于未在本文证明的 QRH 声称；需要显式公式和误差项才可审计。 未核验 QRH 来源、零点范围、有限 n 检查或不等式常数。
+- 第五批定向筛选。exclude。SHA matches the local 11-page preprint. Its p.4 eighth-power interval statement is explicitly conditional on the asserted QRH_7/8 and uses imported explicit Chebyshev-function bounds. It provides no unconditional prime-gap method. 定位。O42 primes preprint physical pp.1--5; QRH assumptions on p.3 and theorem (3.1) on p.4. 后续条件。Verify the QRH source and the explicit-formula/error constants, then separately certify the finite numerical range before using a conditional interval conclusion.
 
 ## O42 · Polynomial Separation of a Shared Tensor Leg and Matrix Multiplication in Arbitrary Characteristic
 
 - 原件。2026 preprint (PDF dated 9 Oct 2026)。PDF 物理页 1, 2, 4。SHA-256 b9f5231c18a786b07819150152072c75ddb50caf68453c57538c92b9fe34567f。
 - tensor degeneration and polynomial separation。Abstract; §1 replacement; characteristic discussion。对共享第一空间而其余 matched sectors 独立的 M 个 tensor blocks，文章声称以 M+n−1 个和块退化为带 n 维 dot-product 的全直和；构造避免单位根/阶乘分母，并拟将矩阵乘法指数上界延至任意特征。
 - 条件或证据待查。核心是多项式插值与截断局部代换的 degeneration 证书；最终 ω≤9/4 另依赖引用预印本的谱/离散增长论证。 未核对 degeneration 的边界项、域中不同元素数量、任意特征转移或引用论文的关键依赖。
+- 第五批定向筛选。adopt。SHA matches the local 5-page preprint dated 9 Oct 2026 and identified as arXiv:2610.18914v1. Proposition 2.1 on pp.2--3 is a self-contained, finite shared-leg separation construction using polynomial evaluation and truncated substitution. It replaces the installed Fourier separator when the field has at least M+n-1 elements and avoids roots of unity and factorial denominators. The later omega <= 9/4 claim in pp.4--5 is expressly not adopted because it depends on the cited OpenAI spectral, discrete-growth and detecting-character chain. 定位。O42 polynomial-separation preprint, arXiv:2610.18914v1, physical pp.1--3, Proposition 2.1 and equations (2.1)--(2.4). 后续条件。For a concrete tensor use, provide the matched-sector tensor A, its three-leg spaces, a field with at least M+n-1 distinct elements, and explicit polynomial-multiplication restriction/rank accounting. Independently prove every subsequent character or exponent step.
+- 已采用方法。物理页 1, 2, 3。For M matched tensor blocks A_h:X x Y_h x Z_h over a field containing at least M+n-1 distinct elements, degenerate A^(direct sum M+n-1) to direct-sum_h(A_h tensor B_X(n)). Use only with supplied matched Y_h/Z_h sectors, explicit distinct field points, and the polynomial-multiplication rank restriction. It avoids the Fourier separator's root-of-unity and characteristic assumptions. It does not certify the source's spectral inequality, entropy passage, detecting-character argument, or omega <= 9/4 headline. [方法说明](../../../math-l06-tensor-rank-accounting/references/c08-03-polynomial-shared-leg-separator.md)。
 
 ## O43 · Finite-Time Blowup for Navier--Stokes with Smooth Forcing, Part I
 
 - 原件。2026 preprint (PDF first page)。PDF 物理页 1, 2, 5。SHA-256 fed9da4bbcdb3deb0c37da1139275db9d97724730d4b4f6c5f4004c9631a6551。
 - forced Navier--Stokes similarity construction。Abstract; contents and leading-order construction。Part I 声称构造轴对称近自相似背景场，残差分为散度形式项与在固定 similarity sectors 平坦的余项，并以 admissible stress/shear cone 为接口。
 - 条件或证据待查。后续结论依赖 Part II 的振荡脉冲残差校正及长篇 profile/stress 估计；Part I 本身未证明最终 blowup。 未核验全部 182 页构造、PDE 正则性、cone 条件或 Part II 拼接。
+- 第五批定向筛选。exclude。SHA matches the local 182-page Part I preprint. The paper supplies a profile/stress construction and cone interface, but its own introduction says the final residual cancellation requires later oscillatory-pulse work. Part I alone is not a blowup proof or a portable PDE certificate. 定位。O43 Navier--Stokes Part I physical pp.1--5 and p.8, especially equations (1.5), (1.13)--(1.15). 后续条件。Audit all profile regularity, moment corrections, uniform cone estimates, and the Part II pulse/gluing construction before considering a scoped PDE interface.
 
 ## O43 · Self-similar swirl between contracting porous walls: the GD1998 exact Navier--Stokes solution revisited
 
@@ -287,6 +323,7 @@
 - 原件。preprint dated 25 Sep 2026。PDF 物理页 1, 2, 8。SHA-256 1104c7598fb0102413e87dd0712087d2e7715d538e3e187a270160715b4afc3b。
 - extremal tree embedding。Theorem 1; reveal-and-stop exposition。声称平均度大于 t−2 的有限简单图含每棵 t 顶点树；正文以随机顶点序、early neighbors、reveal-and-stop 与交换组织归纳。
 - 条件或证据待查。需要核验跳边/期望计数引理到所有树的归纳闭合；视觉化例子不构成一般证明。 未逐步审计归纳、严格阈值与所谓 Lean 对应文件。
+- 第五批定向筛选。exclude。SHA matches the local 27-page visual exposition dated 25 Sep 2026. It restates the same Erdős--Sós tree-embedding route as O43 but provides worked visual cases rather than a distinct general-purpose proof interface. The more compact O43 source already contains the formal jumping-edge statement. 定位。O43 visual exposition physical pp.1--3 and worked reveal-and-stop setup. 后续条件。Use the O43 formal theorem route if a finite tree-embedding contract is later created; do not treat visual examples or an asserted Lean correspondence as a general proof certificate.
 
 ## O43 · The Erdős--Sós Theorem
 
@@ -299,6 +336,7 @@
 - 原件。preprint dated 8 Oct 2026。PDF 物理页 1, 2, 5。SHA-256 7c0c00147aef984df69ea90b5c11f71ccf3a1f049cb13c4b463dbf44e9a8427d。
 - extremal tree and oriented-tree embedding。Theorems 2, 4--6, 8。以随机排序中的 T-jumping edges 给出树嵌入证明，并扩展到反定向树和 Eulerian 有向树；定理还声称刻画若干极值图。
 - 条件或证据待查。关键是随机排序下 jumping-edge 期望下界及额外的 Eulerian 引理；其证明和外部原结果均未完全核验。 未复核全部树方向、极值分类、或与另两篇 exposition 的版本/依赖关系。
+- 第五批定向筛选。exclude。SHA matches the local 14-page preprint dated 8 Oct 2026. Theorem 7's jumping-edge expectation proof on pp.3--4 is an interesting self-contained exposition, but a separate tree-embedding skill would overlap the specialized source theorem and needs a clear input contract for host graph, rooted target tree, ordering involution, and induction witness data. No existing target skill owns that contract. 定位。O43 short proof physical pp.1--5; Theorems 7--8 and their proofs. 后续条件。If this becomes a new skill, formalize the finite graph/tree input and exact jump predicate, independently check the induction and involution for all root-degree cases, and retain directed/Eulerian extensions separately.
 
 ## P10 · Méthode de Mahler : relations linéaires, transcendance et applications aux nombres automatiques
 
@@ -351,6 +389,8 @@
 - integer linear-form criteria。Theorems 1.1–1.2; §2。给出 Siegel、Nesterenko 及 Fischler–Zudilin 型整数线性形式判据：系数高度与非零值的双侧指数控制可推出目标数的 Q 线性维数下界。
 - 构件候选。应用必须对同一无穷序列证明整系数、下界和上界，以及 σ(n+1)/σ(n)→1；仅有数值小余项或有限秩不能代入。 尚未把任一 γ 构造验证为满足该判据；后续应只蒸馏明确版本及必要量词。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第五批定向筛选。adopt。Published article; its proof gives a concrete Minkowski convex-body bound on coefficient/linear-form parameters. The adopted interface records only this finite-dimensional criterion. 后续条件。For a new instance, provide integer coefficient forms, nonvanishing values, growth bounds A_n,B_n,Q_n, and the rank/number-of-forms parameters.
+- 已采用方法。物理页 1, 4, 5, 6, 7。Integer linear forms with the source's A_n, B_n, Q_n and rank hypotheses yield the stated quantitative coefficient lower bound via a Minkowski body. [方法说明](../../../math-integer-linear-form-rates/references/wave5-c08-01-nesterenko-fischler-zudilin.md)。
 
 ## P28 · A geometric introduction to transcendence questions on values of modular forms
 
@@ -370,12 +410,15 @@
 - 原件。arXiv:math/0008051v1 (2000)。PDF 物理页 1, 2, 3, 4。SHA-256 f9921534f4a2fc32b4579ed01e9791db3b8b2b8545f669385efd4957eaf927c6。
 - odd-zeta hypergeometric linear forms。Lemme 1; §3 proof of Théorème 1。构造 S_n(1) 的有理函数级数并利用对称性消去偶 ζ，清分母后得到奇 ζ 的整数线性形式；结合 Nesterenko 判据给出维数至少按 log(a) 增长。
 - 构件候选。结论同时需要偏分式恒等式、积分/鞍点渐近、LCM 整性和判据的两侧尺度；该论文不涉及 γ。 尚未提取可执行的通用参数化或复核所有引理的渐近常数。
+- 第五批定向筛选。adopt。The four-page preprint contains the stated linear-form construction, integrality normalization, and the Nesterenko-criterion deduction. The adoption is limited to its displayed lower-dimension-bound parameter transfer. 后续条件。For reuse, independently provide the rational functions, integer normalization, asymptotic alpha/beta bounds, and a valid linear-independence criterion invocation.
+- 已采用方法。物理页 1, 2, 3, 4。The supplied normalized zeta linear forms and asymptotic alpha/beta estimates feed a Nesterenko-style lower bound for the rational span dimension. [方法说明](../../../math-integer-linear-form-rates/references/wave5-c08-01-rivoal-odd-zeta.md)。
 
 ## P32 · Irrationalité d’une infinité de valeurs de la fonction zêta aux entiers impairs
 
 - 原件。2002 scan; authors Keith Ball and Tanguy Rivoal; formal publication/version unverified。PDF 物理页 1, 2。SHA-256 53b13a8f8c6db6fe97085f92e8c6831060e970ff61124e858ff85c10f0a10a57。
 - odd-zeta simultaneous Padé linear forms。Introduction; Théorèmes 1–2。证明 δ(a)=dim_Q⟨1,ζ(3),…,ζ(a)⟩ 至少为 (1/3)log a，并渐近达到 log(a)/(1+log 2)；还给出某奇 j≤169 使 1、ζ(3)、ζ(j) 线性无关。
 - 构件候选。路线以 Nikishin 型多对数第一类 Padé、奇偶消去、分母控制与 Nesterenko 判据组成；每项缺失都不能推出维数下界。 只核对扫描件引言和两条主定理；尚未逐页复核后续 Padé 系数和渐近优化。
+- 第五批定向筛选。unresolved。The assigned supplement's text encoding is not reliably extractable with the available bundled reader, so its difference from the preceding zeta source and its internal dependency chain cannot be established from this pass. 后续条件。Provide a searchable/OCR-clean copy or a publisher PDF; compare theorem statements, normalization, and proof dependencies against P31 before adoption.
 
 ## P36 · The Unbounded Denominators Conjecture
 

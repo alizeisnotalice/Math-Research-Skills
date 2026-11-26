@@ -7,6 +7,8 @@
 - 原件。本地 arXiv:2208.08813v2（2022-10-10）；书目列正式版 DOI 10.1007/s11749-022-00844-9，未逐页比对正式版。PDF 物理页 1, 3, 5, 11, 12, 13。SHA-256 fa7a746d63ff91496ea45cf1258842568f20a587ce5bb455ef3fd9b45a4009a6。
 - 形状约束的尖锐矩尾界。§2 Thm.2.2；§5 Thm.5.2--5.4；§6 Thm.6.1--6.3。对均值0、方差1变量给出不对称两侧尾的分段尖锐上界；在单峰或单峰且众数=均值等附加形状条件下，给出比一般 Chebyshev/Cantelli 更强的单侧与不对称界及达到等号的分布。
 - 构件候选。一般界由平移缩放后的二阶矩界；单峰界依赖 Vysochanskiĭ--Petunin 或 Khintchine 单峰表示及随后一维优化。 仅核对本地 v2 的陈述、极值构造和证明路线；正式版文本及附录长证明未逐项复核。若建工具，须把分布类别、标准化、阈值分段和端点等号条件作为强制输入，不能泛化为任意浓缩界。
+- 第五批定向筛选。adopt。The final published version is identified and the exact Theorem 2.2 statement and shifted-Chebyshev proof were checked in local arXiv v2; it yields a finite rational branch evaluator. 后续条件。Supply mean-zero/unit-variance normalization, 0<v<=u, and any extra shape assumption before using sharper branches.
+- 已采用方法。物理页 1, 3, 5, 11, 12, 13。Sharp standardized asymmetric second-moment bound, with shape constraints and branches kept explicit. [方法说明](../../../probability-analytic-endpoint-methods/references/sharp-asymmetric-moment-bounds-wave5-supp-attached02.md)。
 
 ## Centered_Cube/Aubrun_Maximal_Inequality_High_Dimensional_Cubes.pdf · Maximal inequality for high-dimensional cubes
 
@@ -49,6 +51,7 @@
 - 早期二元 DR 生成函数迭代。摘要；II--IV 的生成函数判据。扫描件研究概率生成函数映射的迭代，并按 F(2)−2F'(2) 的符号讨论向0/1的极限及临界情形；它是后续固定二叉 DR 临界判据的历史来源。
 - 版本与引用。基于生成函数系数非负、解析延拓和导数差的迭代关系；本地 OCR 对核心公式损坏，不能从本扫描件提取精确可部署常数。 只完成身份和主题级核对；应以可读正式版重核公式、假设与页码后再作为定理来源。
 - 相关入口。[math-discrete-proof-transfer](../../../math-discrete-proof-transfer/SKILL.md)。
+- 第五批定向筛选。no_new_component。The local CERN report SHA and pages are valid, and CERN identifies a 1984 CMP publication with DOI 10.1007/BF01224830, but available catalogue metadata conflict on the CMP volume while the local scan has damaged core formulas; this is insufficient for a precisely deployed theorem component. 后续条件。Obtain/read the final CMP version, resolve the volume/page record, and transcribe the PGF recurrence plus its exact phase criterion from clean pages.
 
 ## Derrida_Retaux/Derrida_Shi_Toy_Model_Depinning.pdf · Results and conjectures on a toy model of depinning
 
@@ -56,9 +59,12 @@
 - DR 模型综述与开放问题。§2--§8；§10。综述固定二叉 DR 的临界存活、条件分布、PGF、自由能和树表示；明确列出 n^(−2) 常数、条件几何律和 BKT 型自由能等尚未完全解决的猜想，并区分已知较弱结果与启发。
 - 版本与引用。该文主要汇总既有结果和猜想；树/open-path 表示及重尾分支依赖被引用的原始论文，非本综述的新证明组件。 不把综述中的预测转成技能定理；正式版本和所引用原始定理须在实际采用时分别核对。
 - 相关入口。[math-discrete-proof-transfer](../../../math-discrete-proof-transfer/SKILL.md)。
+- 第五批定向筛选。no_new_component。Version identity is verified as Mosc. Math. J. 20(4) (2020), 695–709, DOI 10.17323/1609-4514-2020-20-4-695-709, but this article is a review of results and conjectures, not a new independently deployable proof component. 后续条件。When a claimed DR fact is needed, verify the original cited theorem and its exact offspring/initial-law hypotheses.
 
 ## Derrida_Retaux/Li_Zhang_Generalized_DR_Asymptotic.pdf · Asymptotic behavior of the generalized Derrida–Retaux recursive model
 
 - 原件。Journal of Statistical Physics 192:98 (2025), DOI 10.1007/s10955-025-03480-3；本地页同时标 arXiv:2411.13068v3（2025-08-18）。PDF 物理页 1, 2, 3, 4, 5。SHA-256 487ec3f399cdf48298d7855a4be016612235cc05b736d91da7cf791293c328fe。
 - 几何子代广义 DR 的闭合族渐近。(1.3)、Thm.1.1--1.3、Cor.1.5--1.8。当子代数服从均值 m 的几何分布且初始律为几何型 G(r0,p0) 时，律族在广义 DR 递推下闭合为二维递推 (r_n,p_n)；按极限参数分出超临界、次临界和临界，并给出生存概率、矩、条件律和 PGF 的高阶渐近。
 - 构件候选。决定性步骤是几何子代 PGF 与 G(r,p) 的闭合、随后二维参数递推及离散渐近分析；随机几何子代与现有固定二叉 DR 不是同一模型。 正式论文作版本/结论级核对；尚未逐审 Thm.1.1 的闭合计算及 Thm.1.3 的完整渐近证明。若建新工具，必须限定几何子代和 G(r,p) 初值，不能外推到任意子代或任意初值。
+- 第五批定向筛选。adopt。Published version and DOI verified; Theorem 1.1's actual probability-generating-function and memoryless proof was checked locally, giving an exact two-parameter closure operation. 后续条件。Require geometric offspring and an exact G(r,p) initial law before invoking the recurrence.
+- 已采用方法。物理页 1, 3, 6, 7, 8, 9。Exact geometric-offspring and G(r,p)-initial-law closure only; it does not cover fixed-binary DR. [方法说明](../../../math-discrete-proof-transfer/references/geometric-offspring-dr-closure-wave5-supp-attached02.md)。

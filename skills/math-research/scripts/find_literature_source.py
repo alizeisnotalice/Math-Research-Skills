@@ -83,8 +83,12 @@ def table_occurrences(path: Path, lines: list[str], collection: str):
         if linked:
             title = linked[1]
         status = path.stem if collection == "openai" and path.stem in OPENAI_CLASSES else None
+        adopted = status == "installed"
+        if collection == "cogentic" and len(cells) >= 6 and cells[5] in ADOPTION_LABELS:
+            status = "existing"
+            adopted = True
         yield Occurrence(digest[0].lower(), title, path, number, collection, line,
-                         classification=status, adoption_recorded=status == "installed")
+                         classification=status, adoption_recorded=adopted)
 
 
 def section_occurrences(path: Path, lines: list[str], collection: str, identity_prefix: str):

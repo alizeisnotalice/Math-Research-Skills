@@ -1,6 +1,6 @@
 ---
 name: math-ag-divisor-intersection-ledger
-description: 对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。
+description: 对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。 支持点吹起中零循环的整系数推拉。
 ---
 
 # 有限除子—交叉数账本
@@ -33,6 +33,10 @@ python3 scripts/ag_divisor_intersection_ledger.py examples/negative_form_mismatc
 使用[光滑一维因子的赋值扩张](references/smooth-factor-valuation.md)。给定有限正 log-discrepancy 的除子赋值，核对 Gauss 扩张后长度主项和归一化。
 
 ## OpenAI 原稿中的方法
+
+- [Big/nef canonical ledger to ampleness](references/big-nef-no-rational-curves-ampleness-wave5.md)
+- [Integral `CH_0` under point blowup](references/integral-ch0-point-blowup-wave5.md)
+- [Weak-factorization divisorial ledger](references/weak-factorization-divisorial-ledger-wave5.md)
 
 - [OpenAI: local complement and Cartier-section reductions](references/openai-wave4-algebra3-complements.md)
 - [OpenAI Wave 4 — adjoint and Iitaka source models](references/openai-wave4-arithmetic3.md)

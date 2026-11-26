@@ -45,3 +45,7 @@ p_{n+2}-2(n+2)p_{n+1}+(n+1)^2p_n=-\frac n{n+2}.
 Theorem 1 给出 \(p_n/q_n-\gamma\sim2\pi e^{-4\sqrt n}\)。这是次指数收敛，不能直接成为无理性判据。定理的 \(D_np_n\in\mathbb Z\) 也不使 \(D_n(p_n-\gamma q_n)\) 趋于零。超过有限有理逼近的结论，必须另证整系数线性形式、非零子列和清分母余项趋零。
 
 参见[平衡次数多项式连分数的阶乘约化](references/pcf-factorial-reduction-admission.md)。
+
+## 补充来源中的方法
+
+- [q-scaled symmetric orthogonal-polynomial recurrence gate (EXT-0621)](references/supp-c07-12-rogers-ramanujan-ops.md)

@@ -50,3 +50,12 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 - [E-value normalization and singularity gate](references/e-value-normalization-gate.md)
 - [Factorial fractional-part criterion for the Euler--Mascheroni constant](references/hancl-kristensen-factorial-fractional-criterion.md)
 - [Rational harmonic Euler sums by finite residues (EXT-0062)](references/rational-harmonic-residue-algorithm-ext0062.md)
+
+## 补充来源中的方法
+
+- [Twice-corrected harmonic approximation with an all-`n` gamma enclosure](references/c07-multiple-correction-certified-gamma-bound.md)
+- [Microsolutions and rational inverse Laplace transfer](references/microsolution-rational-laplace-admission.md)
+- [C07-05 linear forms and generalized constants](references/supp-c07-05-linear-forms.md)
+- [C07-05 Mahler specialization](references/supp-c07-05-mahler.md)
+- [Harmonic-zeta/log-sine approximation: scoped analytic interface](references/supp-c07-09.md)
+- [Non-holonomic sequence rejection boundary](references/supp-c07-10-nonholonomic-sequences.md)

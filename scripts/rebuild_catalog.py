@@ -44,6 +44,10 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
 
 SPECIALIST_TOPICS = {
     '欧拉常数、丢番图逼近与算术': (
+        'math-euler-series-continued-fraction',
+        'math-mzv-newton-harmonic-relations',
+        'math-zeta-arithmetic-estimates',
+        'math-function-field-period-transcendence',
         'math-euler-constant-irrationality',
         'math-sondow-log-fractional-certificate',
         'math-gamma-continued-fraction-recurrence',
@@ -56,6 +60,9 @@ SPECIALIST_TOPICS = {
         'math-hankel-pade-certificates',
     ),
     '调和分析、动力系统与几何方程': (
+        'math-asymptotic-midpoint-moduli',
+        'math-conformal-domain-estimates',
+        'math-tube-maximal-transfer',
         'math-centered-cube-endpoint-budget',
         'math-euler-maclaurin-quadrature-certificates',
         'math-hbl-finite-presentation',
@@ -66,6 +73,8 @@ SPECIALIST_TOPICS = {
         'math-lienard-half-arc-matching',
     ),
     '算子代数、上同调与代数几何': (
+        'math-holomorphic-local-to-global-transfer',
+        'math-algebraic-transfer-certificates',
         'math-ag-divisor-intersection-ledger',
         'math-cohomological-transfer',
         'math-f2-group-ring-cancellation',

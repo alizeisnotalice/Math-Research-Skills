@@ -108,3 +108,7 @@ description: 审查矩阵乘法张量提取中的直接和形状、辅助张量�
 - [Even-spin tensor saturation](references/openai-spin-204.md)
 
 - [Equal-or-far finite-field filter](references/openai-equal-or-far-filter.md)
+
+## 补充来源中的方法
+
+- [Polynomial shared-leg separator in arbitrary characteristic](references/c08-03-polynomial-shared-leg-separator.md)

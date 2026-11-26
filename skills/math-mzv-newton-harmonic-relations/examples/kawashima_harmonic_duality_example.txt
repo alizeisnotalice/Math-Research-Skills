@@ -1,0 +1,6 @@
+Reproduction command (Python 3.13.18):
+
+  python3 scripts/check_kawashima_harmonic_duality.py
+
+The program uses Fraction arithmetic and asserts Corollary 3.9 for five
+indices and n=0,...,7. These are finite identity checks only.

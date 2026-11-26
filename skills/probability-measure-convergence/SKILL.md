@@ -24,3 +24,7 @@ For stochastic optimization objectives with changing decision sets and laws, use
 - [Scoped FK metric and conformal convergence interfaces](references/wave4-pa2-fk-metric-convergence.md)
 
 - [Critical-SK conditional-law references](references/openai-critical-sk-conditioning.md)
+
+## 补充来源中的方法
+
+- [Continued-fraction limit laws: two scoped references](references/wave5-c07-11-continued-fraction-laws.md)
