@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "kind": "common_resolution_forms",
+      "attestations": {"common_smooth_resolution": true, "proper_normal_integral_resolution": true, "forms_trivialize_stated_boundaries": true},
+      "degree": 1,
+      "pulled_back_divisor_theta_x": {"E": 0},
+      "pulled_back_divisor_theta_y": {"E": 1}
+    },
+    {
+      "kind": "intersection_zero_sum",
+      "attestations": {"effective_nef_cartier_divisor": true, "ample_cartier_divisor": true, "complete_prime_component_list": true},
+      "components": [{"id": "T", "multiplicity": 1, "degree": 1}]
+    }
+  ]
+}

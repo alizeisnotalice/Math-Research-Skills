@@ -1,0 +1,9 @@
+{
+  "nodes": [
+    {"id": "o", "parent": null, "P": 0, "Q": 0, "P_prime": 1, "Q_prime": 1},
+    {"id": "a", "parent": "o", "P": 0, "Q": 0, "P_prime": "3/5", "Q_prime": "3/5"},
+    {"id": "b4", "parent": "o", "P": 0, "Q": 0, "P_prime": "4/5", "Q_prime": "4/5"},
+    {"id": "a3", "parent": "a", "P": 0, "Q": 0, "P_prime": "3/5", "Q_prime": "3/5"}
+  ],
+  "selected_leaves": ["a3", "b4"]
+}

@@ -31,3 +31,6 @@ For noncommutative martingale estimates, preserve the row/column square-function
 
 The current inventory has 33 complete local PDFs: 30 full-text sources and their theorem/proof cards have passed R06 independent review. W12-016, W12-026 and W12-033 have identity-page checks only and are excluded from the completed-source quota. No book chapter is claimed as a selected full reading. D03 matched W12-032's title, authors, abstract, version, page count, and PDF hash to the official arXiv record and v1 PDF; the 27 July date with identifier prefix 2609 is retained as a chronology anomaly, not an identity mismatch. Its theorem is used only within the scalar jointly-Gaussian-coordinate scope and does not imply Wishart determinant claims. Read [sources](references/sources.md) for exact evidence coverage before relying on a claim.
 
+## 对称二点乘积模型的有限余秩律
+
+给定独立上三角二点律和有理对称偏移时，用[余秩尾界](references/symmetric-binary-corank-tail.md)在小维数中枚举实际余秩，并核对主子块的并集上界。

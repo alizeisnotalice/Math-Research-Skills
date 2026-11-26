@@ -5,12 +5,12 @@
 
 | 分类 | 数量 | 页面 |
 | --- | ---: | --- |
-| 已安装构件 | 171 | [installed.md](installed.md) |
-| 限定参考 | 7 | [scoped-reference.md](scoped-reference.md) |
-| 候选构件 | 425 | [candidate.md](candidate.md) |
-| 保留，依赖待审 | 102 | [held.md](held.md) |
-| 仅版本或题录核对 | 17 | [version-only.md](version-only.md) |
-| 邻近材料 | 9 | [adjacent.md](adjacent.md) |
+| 已安装构件 | 184 | [installed.md](installed.md) |
+| 限定参考 | 13 | [scoped-reference.md](scoped-reference.md) |
+| 候选构件 | 312 | [candidate.md](candidate.md) |
+| 保留，依赖待审 | 178 | [held.md](held.md) |
+| 仅版本或题录核对 | 19 | [version-only.md](version-only.md) |
+| 邻近材料 | 25 | [adjacent.md](adjacent.md) |
 | 待进行证明核对 | 0 | [pending.md](pending.md) |
 | 历史版本或状态待确认 | 32 | [archive.md](archive.md) |
 

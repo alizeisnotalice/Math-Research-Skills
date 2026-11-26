@@ -38,3 +38,7 @@ Request the two finite supports, exact coefficient field, normalization, degree 
 The optional finite-check script requires Python 3 with SymPy 1.14.0; use an existing local mathematical environment.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## 偶次数三项式
+
+对 \(1+a x^2+x^k\) 且 \(k\ge4\) 为偶数、\(0<a<1\) 的候选因子，按[奇偶分拆与递推证书](references/even-trinomial-obstruction.md)检查 Boolean 卷积的必然冲突。

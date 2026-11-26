@@ -36,3 +36,7 @@ description: 分析完全正锥和共正锥表述，核对锥对偶、有限近�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 单困难坐标的共正检验
+
+当去掉一个坐标后的矩阵块正定时，用[单困难坐标证书](references/one-difficult-coordinate.md)核验精确最小值所需的非负矩形域、KKT 与边界输入。

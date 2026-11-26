@@ -37,3 +37,7 @@ description: 处理可测上确界、解析投影和可测选择，核对参数�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 有理单纯形上的局部仿射选择
+
+给定顶点、对应值和严格内部点时，用[仿射选择证书](references/local-affine-simplex-selector.md)认证重心坐标及选值。提供凸图的有理半空间表可核验图成员关系；仅声明凸图时输出为条件式。

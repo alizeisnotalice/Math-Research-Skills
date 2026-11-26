@@ -41,3 +41,7 @@ description: 构建或核验矩与 SOS 层级，检查正多项式证书、截�
 ## 单项归一的 \(x\)-对称双二次型
 
 用 [Kronecker Gram 核验](references/qi-cui-xu-monic-xsymmetric-gram.md)对照显式张量系数与两个有理 PSD 小块。核对目标多项式的逐项一致性和可构造 SOS 的秩上界。
+
+## 对角占优双二次型的 SOS 分解
+
+用[对角占优证书](references/biquadratic-dd-sos.md)核对交叉项分配、系数余量和 SOS 展开。

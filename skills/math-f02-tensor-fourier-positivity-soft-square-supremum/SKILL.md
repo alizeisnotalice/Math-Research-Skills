@@ -37,3 +37,7 @@ description: 核验张量 Fourier 正性及软度平方上确界估计，区分�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 仿射张量乘积的导数界
+
+给定逐因子的指数阻尼和导数控制时，用[乘积公式及证书](references/product-derivative-certificate.md)把各阶权重对称和转为维数无关的符号上界。

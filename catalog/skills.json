@@ -16,12 +16,12 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 18,
+    "research-specialists": 20,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
     "orchestration": 1,
-    "probability": 42
+    "probability": 43
   },
   "skills": [
     {
@@ -133,6 +133,13 @@
       "category": "methods",
       "path": "skills/math-a04-shared-nonanticipative-mip/SKILL.md",
       "family": "a"
+    },
+    {
+      "name": "math-ag-divisor-intersection-ledger",
+      "title": "有限除子—交叉数账本",
+      "description": "对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。",
+      "category": "research-specialists",
+      "path": "skills/math-ag-divisor-intersection-ledger/SKILL.md"
     },
     {
       "name": "math-alternating-reciprocal-criteria",
@@ -1084,6 +1091,13 @@
       ]
     },
     {
+      "name": "math-torus-packet-spectral-density",
+      "title": "有限环面包谱密度",
+      "description": "对给定有理分段仿射扭转与有限角向 Fourier 包，精确计算模一推前的阶梯谱密度、色间正交门槛和可选 L1 密度差。",
+      "category": "research-specialists",
+      "path": "skills/math-torus-packet-spectral-density/SKILL.md"
+    },
+    {
       "name": "mathematica-math",
       "title": "Mathematica 数学计算与验证",
       "description": "用 Mathematica/Wolfram Language 进行可复现的数学符号推导、数值计算、优化与绘图，并核验结果；数学任务需要实际调用 Mathematica 时使用，不用于一般 Notebook 编辑。",
@@ -1392,6 +1406,13 @@
       "description": "Prove or audit Poisson growing-ball cover-time and spatial-network localization claims, including measure optimization, Poissonization, and boundary tails, while checking the exact model and transfer hypotheses.",
       "category": "probability",
       "path": "skills/probability-stochastic-geometry-localization/SKILL.md"
+    },
+    {
+      "name": "probability-switch-network-cylinders",
+      "title": "有限匹配开关的条件运行",
+      "description": "对有限完美匹配开关网络核验暴露路径、固定开关坐标、自由槽位的条件置换核及精确能量演化。",
+      "category": "probability",
+      "path": "skills/probability-switch-network-cylinders/SKILL.md"
     },
     {
       "name": "probability-unimodal-tail-certificates",

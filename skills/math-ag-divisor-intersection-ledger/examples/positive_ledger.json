@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    {
+      "kind": "intersection_zero_sum",
+      "attestations": {"effective_nef_cartier_divisor": true, "ample_cartier_divisor": true, "complete_prime_component_list": true},
+      "components": [{"id": "T1", "multiplicity": 2, "degree": 0}, {"id": "T2", "multiplicity": 3, "degree": "0/1"}]
+    },
+    {
+      "kind": "common_resolution_forms",
+      "attestations": {"common_smooth_resolution": true, "proper_normal_integral_resolution": true, "forms_trivialize_stated_boundaries": true},
+      "degree": 2,
+      "pulled_back_divisor_theta_x": {"E1": "-2", "E2": "1"},
+      "pulled_back_divisor_theta_y": {"E1": "-2", "E2": "1"}
+    },
+    {
+      "kind": "vertical_divisor",
+      "attestations": {"contraction_of_normal_projective_varieties": true, "normal_projective_generic_fibre": true, "complete_prime_divisor_support": true},
+      "components": [{"id": "F0", "location": "vertical", "coefficient": 3}, {"id": "F1", "location": "vertical", "coefficient": "-1"}, {"id": "H0", "location": "horizontal", "coefficient": 0}]
+    },
+    {
+      "kind": "same_degree_principal_descent",
+      "attestations": {"geometrically_integral_normal_projective": true, "characteristic_zero": true, "integral_weil_divisor": true, "base_change_indexing_verified": true},
+      "base_changed_divisor": {"P1": 2, "P2": -2},
+      "principal_witness_divisor": {"P1": 2, "P2": -2}
+    },
+    {
+      "kind": "mixed_intersection_table",
+      "attestations": {"smooth_projective_source": true, "birational_map_to_normal_projective_target": true, "globally_generated_cartier_D": true, "very_ample_cartier_A": true, "exceptional_divisors_complete": true, "base_pairing_established_geometrically": true},
+      "dimension": 4,
+      "image_dimension": 1,
+      "base_dimension": 2,
+      "exceptional_pairings": {"E1": 0, "E2": "0/1"},
+      "semiample_pairing": 0,
+      "base_pairing": "5/2"
+    }
+  ]
+}

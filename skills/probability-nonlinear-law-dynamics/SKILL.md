@@ -27,3 +27,7 @@ Use the current, versioned source-use cards for any theorem-specific application
 This revision adds checklists for Markov-chain tree formulas, local stability, Lyapunov/recurrence arguments, order contractions, transfer operators, certified cycles, and semialgebraic basins. These are method gates, **not accepted theorem applications**: the current W21 read set does not supply a source for all seven new interfaces, and the new-method source credit remains zero pending exact primary-source reads and R13 review. See the [method gates](references/method.md#7-new-g21-method-interfaces-pending-source-review) and zero-mapping crosswalk（本机附件：`evidence/G21_new_method_zero_mapping.md`）.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## 归一化平方与尾质量
+
+给定有限概率向量时，用[纯度更新证书](references/finite-purity-squaring.md)检查平方迭代中的缺陷下降与最大原子尾质量。小根分支要求当前缺陷严格小于 \(1/2\)。

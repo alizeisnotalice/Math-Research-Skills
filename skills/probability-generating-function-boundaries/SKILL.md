@@ -161,7 +161,7 @@ Other unresolved steps include full bidisc continuation, general nonzero-index R
 
 ## Historical review status
 
-The frozen R05 formal cohort selected for this G09 entry has 32 scoped rows: 30 eligible uses across 30 distinct work families and 2 zero-increment support rows. This is the source-level cohort status in source-index.md（本机附件：`references/source-index.md`）, not a cross-lane global transaction. Root's exact-cohort capture and whole-entry R05 review remain separate steps. This draft is not portable, published, or installed.
+The frozen R05 formal cohort selected for this G09 entry has 32 scoped rows: 30 eligible uses across 30 distinct work families and 2 zero-increment support rows. The source-level decisions for the frozen R05 cohort are recorded in source-index.md（本机附件：`references/source-index.md`）. Whole-entry validation of that frozen draft was a separate archival review.
 
 ## Supporting references
 

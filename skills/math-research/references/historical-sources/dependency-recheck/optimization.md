@@ -4,26 +4,26 @@
 
 ## A Moment-SOS Hierarchy for Robust Polynomial Matrix Inequality Optimization with SOS-Convexity
 
-- 原件 c5f8382a8abdf2fd9f3860040cb8e2fd24c0997ecda894bf90475a72c4718a98。Local PDF arXiv:2304.12628v5, 38 physical pages, SHA-256 c5f8382a8abdf2fd9f3860040cb8e2fd24c0997ecda894bf90475a72c4718a98.。物理页 1, 2, 9, 10, 17, 18, 19, 20, 21, 22。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2304.12628v5, last revised 8 October 2024; the checked record lists related DOI 10.1287/moor.2023.0361, but no byte comparison to that edition was made.
-- 构件候选。The reusable bounded contract is a robust-PMI hierarchy only under stated SOS-convexity, compact uncertainty and Slater assumptions: construct matrix moment/localizing PSD constraints and obtain monotone decreasing SDP bounds. A flat extension plus the theorem's matching feasibility/equality conditions yields an atomic matrix-valued measure and optimizer extraction.
-- 结论位置。Local pp.1–2 define RPMIO and Assumption 1; pp.9–10 define the matrix moment/localizing cone and quote matrix flat extension; pp.17–18 impose Slater and derive conic reformulation; pp.19–22 define the hierarchy and prove convergence/flat-extraction directions.
-- 适用范围。The proof depends on the imported matrix flat-extension theorem [28, Theorem 6.2] and an SOS-convex optimization result [33, Theorem 3.3]. Flatness alone is insufficient, and an entrywise scalar Lasserre substitute does not establish the robust matrix-PMI claims.
+- 原件 c5f8382a8abdf2fd9f3860040cb8e2fd24c0997ecda894bf90475a72c4718a98。local arXiv:2304.12628v5, 38 physical pages。物理页 1, 2, 9, 10, 17, 18, 19, 20, 21, 22。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2304.12628v5; related DOI 10.1287/moor.2023.0361 has not been byte-compared
+- 待核。For supplied matrix moments, the paper's displayed trace identities reduce a matrix SOS/localizing test to PSD moment matrices. The hierarchy's exactness and atom recovery invoke the quoted matrix flat-extension theorem together with Slater and SOS-convexity assumptions.
+- 结论位置。Pages 1--2 state the robust PMI model and SOS-convexity assumptions. Pages 9--10 introduce the matrix moment/localizing cones and quote the flat-extension theorem. Pages 17--22 impose Slater and derive the hierarchy, its convergence, and conditional flat extraction.
+- 适用范围。The local paper does not independently prove the imported matrix flat-extension theorem or the quoted SOS-convex optimization result. It therefore does not certify a general robust-PMI hierarchy or a C03 flat-extraction call.
 - 相关技能。[math-c03-moment-sos-certificates](../../../../math-c03-moment-sos-certificates/SKILL.md)
-- 其余依赖。Read and verify those two imported theorems in their exact formulations, then implement RPMIO degree encoders, Assumptions 1–3 checks, primal/dual hierarchy construction, matrix flatness, atom recovery and certified PSD/residual validation.
+- 其余依赖。Verify the exact hypotheses of the cited flat-extension and SOS-convex theorems, then implement an RPMIO encoder that checks compactness, Slater, degree truncation, primal/dual residuals, flat rank, recovered atoms, and all PMI constraints.
 - [主来源 1](https://arxiv.org/abs/2304.12628)
 
 ## Adaptive Metrics for Norm-Minimization-Based Outer Approximation in Convex Vector Optimization
 
-- 原件 67390e5e27908c306cf188094be34cb7d57e6302960cd0be72e7d2baebed22b4。Local 27-page PDF labels itself July 2026 and matches the assigned SHA-256; its text presents an epsilon-regularized uniformly conditioned metric theorem.。物理页 1, 14, 15, 16, 17, 18, 19。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。Unresolved. arXiv:2605.14320 current v3 is authoritative metadata, but its checked primary abstract retains a strictly-convex-boundary/dispersion theorem that the local PDF's pp. 15–19 explicitly supersedes or rejects; the local bytes were not matched to the official v3 PDF.
-- 待核。The local document contains a coherent bounded construction: exact norm-minimization scalarizations and valid dual cuts preserve the compact upper-image slice; a selected external vertex is removed; uniform spectral bounds yield Euclidean Hausdorff convergence and the stated asymptotic rate. However, the primary arXiv v3 abstract currently describes a materially different dispersion/curvature theorem and associated experimental claim, so the local source cannot yet be safely identified with that public revision.
-- 结论位置。Local p. 14 Lemma 11 gives selected-vertex removal; pp. 15–16 Theorem 12 gives qualitative Hausdorff convergence; pp. 17–18 Theorem 14 and Remark 6 derive the rate from mI<=M_k<=MI; p. 19 records the corrected experimental qualification.
-- 适用范围。The source-family identity conflict blocks citation or implementation of its rate/performance claims. Even the local proof assumes a compact slice, exact solves, valid dual pairs/cuts, farthest-vertex selection, and a k-independent positive conditioning lower bound; it is not generic OA. A02 does not assert its rate, dispersion, or performance claims, so no false active claim was found.
+- 原件 67390e5e27908c306cf188094be34cb7d57e6302960cd0be72e7d2baebed22b4。local 27-page PDF labels itself July 2026 and matches the assigned SHA-256。物理页 1, 14, 15, 16, 17, 18, 19。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。Unresolved local revision. arXiv:2605.14320 has a current v3 record, but the local theorem text was not byte-matched to that official version.
+- 待核。Conditional on exact scalarization, valid generated halfspaces, compact slices, and uniform bounds mI<=M_k<=MI, the local text gives a qualitative Hausdorff-convergence argument and a conditioning-dependent rate derivation.
+- 结论位置。Page 14 proves selected-vertex removal, pp. 15--16 state qualitative Hausdorff convergence and metric conditioning, and pp. 17--18 derive the rate from uniform spectral bounds. Page 19 records experimental qualifications absent from the claimed general certificate.
+- 适用范围。The local manuscript asserts a revised dispersion-free result while the public record cannot yet be byte-matched. The full algorithmic guarantee also depends on cut validity, exact scalarizations, compactness, and the cited general rate theorem. No active A02 claim uses it.
 - 相关技能。[math-a02-outer-relaxation-budget](../../../../math-a02-outer-relaxation-budget/SKILL.md)
-- 其余依赖。Download and byte-compare the official arXiv v3 PDF (and any publisher text) with the local file; reconcile the dispersion/curvature and experimental statements before rechecking the full proof chain.
+- 其余依赖。Obtain and compare the official arXiv v3 or published bytes with the local PDF, reconcile theorem statements, and independently check the cut-validity and rate-theorem hypotheses before using either convergence result.
 - [主来源 1](https://arxiv.org/abs/2605.14320) · [主来源 2](https://arxiv.org/pdf/2605.14320)
 
 ## Algebraic Farkas Lemma and Strong Duality for Perturbed Conic Linear Programming
@@ -40,14 +40,14 @@
 
 ## Augmentation Approaches for Mixed Integer Programming
 
-- 原件 d9b756f8eea5f0231655aed07b96f43ce6375d5238eecdbd4afb37a1abdf6a9b。Local 25-page PDF matching arXiv:2507.08525v2 (2025-09-29)。物理页 1, 2, 3, 10, 11, 12, 15, 20, 21, 22。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2507.08525v2; no published version identified
-- 构件候选。For one fixed mixed-integer matrix A=(A_R|A_I), Theorem 9 gives a finite universal augmentation test set through padded circuits and finitely enumerated coefficient directions. This is a bounded, independently checkable candidate only after each direction is tested for exact feasibility and objective improvement.
-- 结论位置。Model/infinite-set issue (pp.2–3); finite construction scope (pp.10–12); Lemma 6 and finite coefficients (pp.15,20–21); Theorem 9 (p.22).
-- 适用范围。The proof depends on the cited universal MIP-Graver test-set result, its nondegeneracy/basis-path construction, and Algorithm 4 enumeration; it promises neither a small black-box list nor polynomial-time construction. It is not installed as an L04 method.
+- 原件 d9b756f8eea5f0231655aed07b96f43ce6375d5238eecdbd4afb37a1abdf6a9b。local arXiv:2507.08525v2 (29 Sep 2025), 25 pages。物理页 1, 2, 3, 10, 11, 12, 15, 20, 21, 22。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2507.08525v2
+- 构件候选。For one fixed mixed-integer matrix, the source gives a finite universal augmentation set by combining padded circuits with finitely many basic-integer directions and finite coefficient paths. The final theorem is a matrix-specific finite-test-set statement, rather than a generic solver guarantee.
+- 结论位置。Pages 1--3 define universal test sets. Pages 10--12 describe the finite construction through projected integer directions and padded circuits, pp. 15 and 20--21 prove the finite coefficient mechanism, and p. 22 states Theorem 9.
+- 适用范围。The construction uses imported results on universal test sets and padded circuits and assumes exact basis and feasibility arithmetic. It does not make test-set enumeration practical in arbitrary size or certify an optimization result without the complete direction enumeration.
 - 相关技能。[math-l04-mathematical-programming-workflow](../../../../math-l04-mathematical-programming-workflow/SKILL.md)
-- 其余依赖。Verify the cited universal-test-set result and Lemma 6 hypotheses, then implement a matrix-specific exact enumerator with retained feasibility/improvement certificates.
+- 其余依赖。Verify the cited universal-test-set and padded-circuit statements in their exact forms, then implement a fixed-matrix rational enumerator that retains each basis, coefficient path, feasibility check, and objective-improvement certificate.
 - [主来源 1](https://arxiv.org/abs/2507.08525)
 
 ## Benders Decomposition with Partial Non-Anticipativity Relaxation for Multi-Stage Stochastic Clean Energy Transition Planning
@@ -65,38 +65,38 @@
 ## Causal Optimal Transport and Its Links to Enlargement of Filtrations and Continuous-Time Stochastic Optimization
 
 - 原件 e6358fcb0f1598334408a9e27b2a8e28f2122f391b338b74fbbe573b018f1498。local arXiv:1611.02610v2 (12 Dec 2017), 33 pages。物理页 1, 8, 9, 11, 13, 26。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。Stochastic Processes and their Applications 130(5) (2020), 2918–2953, DOI 10.1016/j.spa.2019.08.009
-- 构件候选。A defensible discrete transferable core is the nonanticipativity constraint: on a finite time grid, require a coupling's conditional law of target prefixes given a source path to depend only on the matching source prefix, then solve the resulting constrained LP. The paper's continuous result connects that causal condition, under Wiener reference and nu≪gamma, to an enlarged-filtration Brownian decomposition; it separately establishes causal duality with a weak-continuity assumption.
-- 结论位置。PDF p. 1 abstract; pp. 8–9 enlargement/semimartingale direction; p. 11 Theorem 3.4; p. 13 Theorem 3.8; p. 26 Theorem 5.6 causal duality.
-- 适用范围。The continuous theorems require filtrations, causality direction, path-space Wiener reference, absolute continuity, adapted drift/Orlicz conditions and cost growth. They do not validate static D01 OT or arbitrary stochastic path couplings.
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。Stochastic Processes and their Applications 130(5) (2020), 2918--2953, DOI 10.1016/j.spa.2019.08.009
+- 构件候选。The source's causal duality is a useful continuous target for finite nonanticipative LPs, but it requires causal-plan closedness and the source's weak-continuity property. Its enlargement claims add path-space Brownian and absolute-continuity assumptions.
+- 结论位置。Pages 8--9 establish the enlargement and finite-variation setup. Theorem 3.4 on p. 11 and Theorem 3.8 on p. 13 add absolute-continuity, convexity, and integrability hypotheses. Page 26 proves causal duality under lower semicontinuity and the weak-continuity property.
+- 适用范围。It does not itself produce a finite-grid encoding or certify a general stochastic-process transport calculation. Existing D01 finite constrained transport lacks the pathwise causal and filtration contract required here.
 - 相关技能。[math-d01-kantorovich-duality](../../../../math-d01-kantorovich-duality/SKILL.md)
-- 其余依赖。Verify finite-grid causal constraints against the source definition and LP dual; for continuous use reconcile v2 with the 2020 journal theorem, then check the weak-continuity property and every Brownian/absolute-continuity hypothesis.
+- 其余依赖。Specify a finite time grid, verify each nonanticipativity equality and marginal constraint, derive its LP dual, and separately verify the continuous weak-continuity and filtration assumptions before invoking the journal theorem.
 - [主来源 1](https://arxiv.org/abs/1611.02610) · [主来源 2](https://www.sciencedirect.com/science/article/pii/S0304414918303995)
 
 ## Conditional Optimal Transport on Function Spaces
 
 - 原件 870ae0faefdc7627c50e64b1af4217c145cc64db3c97202ba3a2aba21b8d712c。local 33-page manuscript, PDF created 6 Feb 2024。物理页 4, 5, 12, 14, 15, 16。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。SIAM/ASA Journal on Uncertainty Quantification 13(1) (2025), 304–338, DOI 10.1137/23M1618922; arXiv:2311.05672v3
-- 构件候选。The reusable finite/transferable contract is conditional OT by strata: retain the conditioning coordinate, couple only samples within a fixed stratum, and use the infinite cost chi(y,z) to prohibit cross-stratum mass. Proposition 3.6 derives the associated partial-c-transform duality under Polish/disintegration and lsc bounded-below cost; Proposition 3.8 reduces a unique conditional map to Monge solvability on the conditionals.
-- 结论位置。PDF pp. 4–5 conditional problem and Theorems 1.6–1.7; p. 12 infinite equality-enforcing cost; pp. 14–16 Proposition 3.6 duality and conditional Monge proof route.
-- 适用范围。It is not ordinary OT on the product: finite feasibility, the fixed equality coordinate, disintegration, and reference-conditional regularity are indispensable. The local manuscript was not byte-compared with the journal version.
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。SIAM/ASA Journal on Uncertainty Quantification 13(1) (2025), 304--338, DOI 10.1137/23M1618922; arXiv:2311.05672v3
+- 构件候选。The equality-enforcing cost c_chi makes a conditional coupling an ordinary transport problem only after the common conditioning marginal and Assumption 3.1 are fixed. The dual formula then follows from standard OT, and the map result additionally requires solvability between conditional laws.
+- 结论位置。Pages 4--5 formulate conditional Monge/Kantorovich transport and state duality. Page 12 converts equality of the conditioning coordinate into an infinite-cost ordinary OT problem. Pages 14--16 prove the duality and describe the conditional Monge route.
+- 适用范围。This does not yield a generic conditional-law or Monge-map interface. Polish spaces, regular conditional laws, feasible finite cost, and the specific cost/regularity hypotheses are essential. The local preprint has not been diffed against the 2025 journal version.
 - 相关技能。[math-d01-kantorovich-duality](../../../../math-d01-kantorovich-duality/SKILL.md)
-- 其余依赖。Diff the local manuscript against the published version and, for any proposed use, certify the conditional-coordinate law, Polish regular conditional distributions, feasibility, cost assumptions and the conditional Monge theorem separately.
+- 其余依赖。Compare the local manuscript with the journal theorem and implement a finite-strata certificate that checks common conditioning marginals, each stratum coupling, finite costs, primal/dual equality, and any claimed map uniqueness separately.
 - [主来源 1](https://arxiv.org/abs/2311.05672) · [主来源 2](https://epubs.siam.org/doi/10.1137/23M1618922)
 
 ## Converging Outer Approximations to Global Attractors Using Semidefinite Programming
 
-- 原件 6b26fbd168b3aff091ff344da20a7881f3c036333e11c43d4cd57ffbd05d78a0。arXiv:2005.03346v3 (4 Oct 2023), local 22-page PDF with assigned SHA-256。物理页 1, 8, 9, 14, 15, 16。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。Schlosser and Korda, Automatica 134 (2021) 109900, DOI 10.1016/j.automatica.2021.109900; arXiv v3 identity was checked, while the publisher page returned 403 and the publisher bytes were not compared
-- 构件候选。A precise specialized outer-approximation construction is verified. Any feasible dual triple gives A contained in {w>=1}; with the stated polynomial dynamics and SOS hierarchy, Theorem 6 gives A subset X_k subset Y_k and Lebesgue volume of Y_k minus A tending to zero. The proof order is containment first, then volume convergence.
-- 结论位置。Local pp. 8–9 Theorem 2 gives dual no-gap and containment; p. 14 supplies the polynomial/basic-semialgebraic SOS setup; p. 15 Theorem 5 gives SDP-value convergence; p. 16 Theorem 6 proves outer containment and volume-discrepancy convergence.
-- 适用范围。This is global-attractor certification, not an objective-error or generic MINLP OA result. It requires the paper's continuous/discrete dynamical assumptions, polynomial dynamics, compact basic semialgebraic set with the required SOS/Archimedean condition, and exact feasible SDP/SOS certificates. It establishes volume, not Hausdorff convergence or a finite relaxation certificate. A02 makes none of those stronger claims.
+- 原件 6b26fbd168b3aff091ff344da20a7881f3c036333e11c43d4cd57ffbd05d78a0。arXiv:2005.03346v3 (4 October 2023), local 22-page PDF。物理页 8, 9, 14, 15, 16。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。Schlosser and Korda, Automatica 134 (2021) 109900, DOI 10.1016/j.automatica.2021.109900. The local preprint is arXiv:2005.03346v3.
+- 构件候选。The attractor route has a clear certificate interface: a feasible polynomial SOS dual triple certifies the outer inclusions, while convergence is only asymptotic in Lebesgue volume. It is substantively different from generic outer approximation because it requires forward and backward dynamical Liouville inequalities.
+- 结论位置。Theorem 2 on pp.8–9 gives no duality gap and feasible-dual containment. Pages 14–16 specify the polynomial compact semialgebraic SOS relaxation, prove value convergence in Theorem 5, and prove A subset X_k subset Y_k with volume discrepancy tending to zero in Theorem 6.
+- 适用范围。It applies to the paper's continuous or discrete dynamical systems, polynomial vector/map data, compact basic semialgebraic X and the Archimedean/SOS assumptions. It neither yields a finite volume-error bound nor Hausdorff convergence, and cannot certify a generic MINLP relaxation.
 - 相关技能。[math-a02-outer-relaxation-budget](../../../../math-a02-outer-relaxation-budget/SKILL.md)
-- 其余依赖。If added, create a separate attractor-SOS interface that verifies all dynamics/set assumptions and reports certified containment with volume-only convergence; do not fold it into generic A02 termination logic.
-- [主来源 1](https://arxiv.org/abs/2005.03346) · [主来源 2](https://www.sciencedirect.com/science/article/pii/S0005109821004234)
+- 其余依赖。Implement an attractor-SOS certificate checker that receives the dynamics, defining polynomials, a feasible triple and explicit SOS Gram witnesses. Independently verify every Liouville inequality and report containment separately from unquantified asymptotic volume convergence.
+- [主来源 1](https://doi.org/10.1016/j.automatica.2021.109900) · [主来源 2](https://arxiv.org/abs/2005.03346)
 
 ## Convex Optimal Uncertainty Quantification
 
@@ -112,50 +112,50 @@
 
 ## Copositive and completely positive cones over symmetric cones of rank at least 5
 
-- 原件 eeaf5dbad4c207b58e1e8eb5c4a6f012a7a407bd0bdb21300919f872cec69d0a。arXiv:2602.23725v3 (20 Jul 2026), byte-matched local 39-page PDF。物理页 1, 3, 11, 30, 32。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2602.23725v3; no publisher edition was identified in the checked arXiv record
-- 构件候选。The preprint supports a sharply bounded obstruction. For a symmetric cone K of rank r>=5, p.11 embeds COP_r as a linear section using pairwise orthogonal extreme-ray generators, then states non-spectrahedral-shadow status. For a five-ray Horn transformation, p.30 obtains an exposed COP(K) ray by a cone automorphism, while p.32 gives a direct restriction argument showing q_H(x^2) is not SOS of quadratic forms and therefore H is not in I_0. C02 does not misstate this as a finite-level result for its R_+^n moment hierarchy.
-- 结论位置。PDF pp. 1 and 3 state the rank-at-least-five symmetric-cone setting; p.11 proves the embedded COP_r lemma and Theorem 3.2; p.30 proves the exposed Horn-ray result; p.32 proves exclusion from the zeroth SOS inner level.
-- 适用范围。The proofs use Euclidean-Jordan-algebra structure, rank at least five, the non-spectrahedrality input for COP_r, and the classical five-dimensional Horn non-SOS result. They say nothing about ranks 3–4, nor do they establish arbitrary-level nonmembership or finite-level exactness of C02's Lasserre hierarchy.
+- 原件 eeaf5dbad4c207b58e1e8eb5c4a6f012a7a407bd0bdb21300919f872cec69d0a。arXiv:2602.23725v3 (20 July 2026), byte-matched local 39-page PDF。物理页 3, 11, 30, 32。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2602.23725v3. No journal edition was identified.
+- 构件候选。For a supplied Euclidean Jordan algebra with five pairwise orthogonal extreme-ray generators, the paper reduces a symmetric-cone copositivity obstruction to the five-variable Horn form. The restriction proof is a bounded diagnostic for nonmembership in I_0(E_+), provided the frame and the Horn non-SOS premise are independently certified.
+- 结论位置。Page 11 proves the COP_r linear-section identity from a Jordan frame. Page 30 constructs the exposed Horn transformation ray, and p.32 restricts a putative SOS identity to the classical Horn quartic to exclude the zeroth inner SOS level.
+- 适用范围。Rank at least five and a valid Jordan-frame representation are indispensable. The argument does not decide copositivity, describe ranks below five, or establish nonmembership at arbitrary hierarchy levels. The non-spectrahedral conclusion separately imports the known non-spectrahedrality of COP_r.
 - 相关技能。[math-c02-completely-positive-copositive](../../../../math-c02-completely-positive-copositive/SKILL.md)
-- 其余依赖。To make an obstruction tool, formalize the Jordan frame and five orthogonal extreme-ray inputs, independently check the inherited COP_r and Horn non-SOS references, and state the result only as an I_0/exposed-ray diagnostic for the specified symmetric cone.
+- 其余依赖。Build exact Jordan-frame and quadratic-representation inputs, then independently certify the five-variable Horn non-SOS obstruction and the COP_r reference before exposing an I_0-only diagnostic.
 - [主来源 1](https://arxiv.org/abs/2602.23725)
 
 ## Copositive Matrices with Ordered Off-Diagonal Entries
 
-- 原件 05990838c18871a47d433307d452dcc18e9c528011a686a602b1f3e30c08218e。arXiv:2605.15970v1 (15 May 2026), byte-matched local 17-page PDF。物理页 1, 2, 5, 6, 11, 12, 13。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2605.15970v1; no publisher edition was identified in the checked arXiv record
-- 构件候选。A bounded special-case construction is verified. For a symmetric A whose off-diagonal entries satisfy the paper's two-index monotonicity defining M_n, pp. 5–6 reduce a copositive A recursively by either deletion or a positive-diagonal Schur complement, preserve M_n, and invoke the n<=4 COP=SPN base; hence A in COP intersect M_n implies A in SPN. The same pages make the ordering test a concrete guard, and pp. 11–13 correctly restrict St-QP/DNN exactness to the compatible Q class. C02 makes no false general-copositivity claim from this source.
-- 结论位置。PDF pp. 1–2 state the ordered-entry/SPN and St-QP aims; pp. 5–6 state and prove Theorem 3.5; pp. 11–12 give the CP/COP and DNN/SPN value relation; p. 13 states the separable-QP application.
-- 适用范围。The theorem presupposes copositivity and does not decide it for arbitrary matrices. The proof is an existence proof through COP-preserving deletion/Schur steps and does not itself output rational PSD-plus-nonnegative factors; the relaxation statement also requires the shift-invariant objective class rather than merely an ordered Q.
+- 原件 05990838c18871a47d433307d452dcc18e9c528011a686a602b1f3e30c08218e。arXiv:2605.15970v1 (15 May 2026), byte-matched local 17-page PDF。物理页 5, 6, 11, 12, 13。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2605.15970v1. No journal edition was identified.
+- 构件候选。There is a potentially executable guarded route. A symmetric matrix that can be permuted into M_n can be recognized by the acyclicity graph on p.11. Given an independently certified copositivity premise, the proof reduces through deletion or a positive-pivot Schur complement to COP_4=SPN_4.
+- 结论位置。Pages 5–6 give the deletion/Schur-complement induction proving COP intersect M_n is contained in SPN. Page 11 turns a permutation test for M_n into topological sorting, while pp.12–13 state the compatible DNN exactness and separable St-QP consequence.
+- 适用范围。The M_n test does not prove copositivity. The induction establishes existence of an SPN representation and supplies no rational PSD-plus-entrywise-nonnegative factorization. DNN exactness requires the stated shift-compatible objective class, beyond mere ordering.
 - 相关技能。[math-c02-completely-positive-copositive](../../../../math-c02-completely-positive-copositive/SKILL.md)
-- 其余依赖。Implement a guarded finite route that first verifies symmetry and M_n (including an allowed permutation/rescaling), then requires an independent COP witness or a separately specified St-QP exactness hypothesis; add exact PSD/nonnegative factor recovery and a checkable recursion trace before exposing an SPN certificate.
+- 其余依赖。Implement exact ordering recognition, copositivity premises and recursive PSD/nonnegative factor recovery with a replayable trace. Verify the base COP_4=SPN factorization before issuing an SPN certificate.
 - [主来源 1](https://arxiv.org/abs/2605.15970)
 
 ## Disjunctive Sum of Squares
 
-- 原件 6e6581b0fab0b52347c7ec6e7bc00a2ee8cad7f51cc79a383625bde81ae81c4c。Local PDF arXiv:2605.28674v1 dated 27 May 2026, 45 physical pages, SHA-256 6e6581b0fab0b52347c7ec6e7bc00a2ee8cad7f51cc79a383625bde81ae81c4c.。物理页 1, 8, 14, 25, 26, 29。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2605.28674v1, submitted 27 May 2026; no journal edition was identified in the checked authoritative record.
-- 构件候选。For fixed dimension and even degree, Theorem 1 gives a bounded-degree-per-branch strict-positivity construct; Theorem 10 verifies that its union cones yield nondecreasing lower bounds converging for the cited compact-POP framework. The Horn-matrix two-cone calculation on p.29 is a finite, checkable disjunctive nonnegativity witness.
-- 结论位置。Local p.8 states the fixed-(n,d) disjunctive Positivstellensatz; p.14 shows one degree-preserving SOS transformation; pp.25–26 define the compact-POP hierarchy and Theorem 10; p.29 provides a concrete copositivity disjunction.
-- 适用范围。Finite-stage membership concerns strict positivity, not arbitrary boundary nonnegativity. The POP conclusion imports the compact reduction in reference [2] and also needs a radius/compactness contract; it does not license ordinary single-cone SOS completeness.
+- 原件 6e6581b0fab0b52347c7ec6e7bc00a2ee8cad7f51cc79a383625bde81ae81c4c。arXiv:2605.28674v1 (27 May 2026), local 45-page PDF。物理页 8, 14, 25, 26, 29。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2605.28674v1. No journal edition was identified.
+- 构件候选。The two p.29 decompositions provide a finite checkable disjunctive nonnegativity certificate for the Horn quadratic form on two displayed simplicial cones. The full strict-positivity and compact-POP convergence claims require the net construction and an imported reduction rather than ordinary SOS completeness.
+- 结论位置。Page 8 states the fixed-dimension/even-degree disjunctive Positivstellensatz. Page 14 begins the net-based proof. Pages 25–26 import the compact POP reduction and prove the nested lower-bound hierarchy, while p.29 gives two explicit Horn-matrix cone identities.
+- 适用范围。Finite disjunctive membership has strict-positivity scope. The lower-bound hierarchy needs a compactness radius, the exact reduction of reference [2], and all branch certificates. It does not certify arbitrary boundary nonnegativity or a single-cone SOS proof.
 - 相关技能。[math-c03-moment-sos-certificates](../../../../math-c03-moment-sos-certificates/SKILL.md)
-- 其余依赖。Audit Theorems 2, 4, 8 and 9 plus the rest of Theorem 1's construction, then independently read reference [2], Theorems 2.1 and 2.4, before implementing any lower-bound hierarchy.
+- 其余依赖。For a reusable tool, encode a finite list of simplicial generators and exact PSD/nonnegative branch identities, then separately audit the net construction and the cited compact-POP reduction before claiming hierarchy convergence.
 - [主来源 1](https://arxiv.org/abs/2605.28674)
 
 ## Enhancing Presolve in Mixed Integer Programming by Combining Probing and Dual Fixing
 
-- 原件 3bf4856c846a0a634e0a356a50ffb92aa94e0e71f80b3ae99f34b1071a2a7b09。Local 15-page manuscript matching arXiv:2607.10767v1 (2026-07-12)。物理页 1, 5, 8, 9, 13。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2607.10767v1; checked record says accepted for Mathematical Programming Computation, but no version of record/DOI identified
-- 构件候选。The reusable finite guard is Theorem 1's auxiliary-MIP lower/upper-bound reachability test: together with the stated objective-sign rule it permits a generalized dual fixing only after the appropriate exact bound and propagation implication have been certified.
-- 结论位置。Algorithm 1 (p.5); Theorem 1 and reachability proof (pp.8–9); benchmark conclusion (p.13).
-- 适用范围。The method is model- and convention-dependent; a solver status, heuristic propagation, or benchmark speedup is not a proof that a new variable fixing preserves an optimum. No active A01/A04/L04 claim relies on it.
+- 原件 3bf4856c846a0a634e0a356a50ffb92aa94e0e71f80b3ae99f34b1071a2a7b09。arXiv:2607.10767v1 (12 July 2026), local 15-page PDF。物理页 5, 8, 9, 13。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2607.10767v1. The manuscript reports acceptance by Mathematical Programming Computation, while no version of record or DOI was identified.
+- 构件候选。The paper isolates a finite preservation guard for generalized dual fixing: each fixing needs the correctly directed auxiliary MIP bound and a sound propagation implication. This is useful only if every solver-derived conclusion is replaced by independently retained certificates.
+- 结论位置。Algorithm 1 on p.5 defines the alternating propagation/dual-fixing loop. Theorem 1 and its reachability argument on pp.8–9 provide the soundness condition. Page 13 is empirical benchmarking only.
+- 适用范围。Heuristic propagation, a solver status, and benchmark speedups do not prove preservation of an optimum. Rules R1–R4 depend on the exact MIP convention and objective sign, and this source does not furnish portable certificates for an arbitrary solver run.
 - 相关技能。[math-l04-mathematical-programming-workflow](../../../../math-l04-mathematical-programming-workflow/SKILL.md)
-- 其余依赖。Verify rules R1–R4 and bound directions on the target MIP, retain certificates for every auxiliary optimization, and recover the publisher version before citation-level use.
+- 其余依赖。Specify a target rational MIP certificate format for every auxiliary bound and propagation implication, then replay the proof of Theorem 1 with the selected R1–R4 convention before exposing a presolve action.
 - [主来源 1](https://arxiv.org/abs/2607.10767)
 
 ## Exact SDP Relaxations for a Class of Quadratic Programs with Finite and Infinite Quadratic Constraints
@@ -173,15 +173,15 @@
 
 ## Examples of inconsistency in optimization by expected improvement
 
-- 原件 9613fdac4553e3a2e1296c42ea97484cfac5641069de66fc69d13a01fa899eb3。arXiv:1109.1320v2 (2012-04-02; 21 local PDF pages)。物理页 1, 6, 7, 16, 19。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。Yarotsky, Journal of Global Optimization 56(4) (2013), 1773-1790, DOI 10.1007/s10898-012-9936-x; arXiv:1109.1320v2 is the checked manuscript
-- 构件候选。The defensible finite counterexample template is exact EI on D=[-1,1] with a stationary kernel satisfying Theorem 2, objective f=-G, and initial point x1=0: Theorem 3 proves the selected design points converge to 0 and hence are not dense. The proof's key finite identity is that the posterior mean equals f because f=-G(.-x1). The smooth Gaussian-kernel failure is obtained only after a separate modification argument.
-- 结论位置。Local PDF pp. 6-7 Theorems 2-3 and Gaussian-kernel corollary; p. 16 exact-EI posterior identity; p. 19 induction giving convergence of the selected points to zero.
-- 适用范围。This does not say arbitrary EI, arbitrary GP priors, arbitrary initializations, or arbitrary smooth objectives fail. The analytic objective f=-G is distinct from the C-infinity modified objective used for the Gaussian-kernel inconsistency corollary.
+- 原件 9613fdac4553e3a2e1296c42ea97484cfac5641069de66fc69d13a01fa899eb3。arXiv:1109.1320v2 (2 April 2012), local 21-page PDF。物理页 6, 7, 16, 19。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。Yarotsky, Journal of Global Optimization 56(4) (2013), 1773–1790, DOI 10.1007/s10898-012-9936-x.
+- 构件候选。The paper gives a rigorously delimited counterexample family for exact expected improvement, including the crucial posterior-mean identity after the first observation. It is a valid adversarial-search test target once a kernel, noiseless GP convention and tie rule are supplied exactly.
+- 结论位置。Theorems 2–3 on pp.6–7 state the spectral-density kernel condition and the non-dense EI construction. Page 16 gives the posterior identity for f=-G, and p.19 completes the induction showing selected points converge to zero.
+- 适用范围。It says nothing about arbitrary EI implementations, kernels, noise models, initial designs or tie-breaking. The analytic f=-G construction is distinct from the later smooth modification used for the Gaussian-kernel corollary.
 - 相关技能。[math-l02-adversarial-input-search](../../../../math-l02-adversarial-input-search/SKILL.md)
-- 其余依赖。Any L02 adversarial audit must specify the kernel/spectral-density hypotheses, tie-breaking and exact EI acquisition rule, initial design, and whether it uses the analytic f=-G construction or the separate C-infinity modification; certify those finite choices before extrapolating.
-- [主来源 1](https://arxiv.org/abs/1109.1320) · [主来源 2](https://doi.org/10.1007/s10898-012-9936-x)
+- 其余依赖。Create a finite symbolic/numerical EI replay with an explicit kernel satisfying Theorem 2, exact noiseless posterior formulas, specified tie handling and a clear distinction between the analytic construction and the smooth Gaussian modification.
+- [主来源 1](https://doi.org/10.1007/s10898-012-9936-x) · [主来源 2](https://arxiv.org/abs/1109.1320)
 
 ## Exploiting Ideal-sparsity in the Generalized Moment Problem with Application to Matrix Factorization Ranks
 
@@ -198,14 +198,14 @@
 
 ## Facial structure of copositive and completely positive cones over a second-order cone
 
-- 原件 5f9131bfa83088d87854d91842ca15c71752e137db9929e4d02f3c9b6b6e8341。arXiv:2502.04006v2 (16 Apr 2026), byte-matched local 40-page PDF。物理页 1, 3, 10, 15, 20。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2502.04006v2; no journal edition was identified in the checked arXiv record
-- 构件候选。The v2 identity and a limited facial classification are verified. With L_n the second-order cone, an interior defining vector (1;v), ||v||<1, gives subfaces S_+(X) and exposedness in Theorem 3.1. On the boundary, Theorem 3.9 and Proposition 3.10 distinguish S_+(X) from S_+(X)+R_+J_n and make exposedness conditional on (1;-v) not lying in X; p.20 explicitly exhibits boundary rank-one rays as non-exposed. This is a useful case-split template, not an active C02 dependency.
-- 结论位置。PDF pp. 1 and 3 delimit COP(L_n)/CP(L_n) and the second-order-cone scope; p. 10 gives Theorem 3.1 and proof; p. 15 gives Theorem 3.9/Proposition 3.10; p. 20 identifies the boundary rank-one non-exposed rays.
-- 适用范围。Every displayed conclusion uses the special representation of COP(L_n), the Lorentz-cone interior/boundary split and the cited preliminary lemmas. It neither classifies faces of COP(R_+^n) nor general symmetric-cone CP/COP faces, and it is not a finite CP-factorization procedure.
+- 原件 5f9131bfa83088d87854d91842ca15c71752e137db9929e4d02f3c9b6b6e8341。arXiv:2502.04006v2 (16 April 2026), byte-matched local 40-page PDF。物理页 3, 10, 15, 20。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2502.04006v2. No journal edition was identified.
+- 构件候选。The paper supplies a precise interior/boundary case split for COP(L_n). Given an independently verified representation COP(L_n)=S_+^n+R_+J_n and explicit subspace witnesses, it distinguishes S_+(X), S_+(X)+R_+J_n and the non-exposed boundary rank-one rays.
+- 结论位置。Page 10 proves the interior-vector subface and exposedness classification. Page 15 gives the boundary cases and the exposedness criterion. Page 20 identifies boundary rank-one rays as non-exposed.
+- 适用范围。These conclusions are restricted to second-order cones and rely on Lemmas 2.3–2.8 plus the special cone representation. They do not classify faces over nonnegative orthants or general symmetric cones and do not compute a CP factorization.
 - 相关技能。[math-c02-completely-positive-copositive](../../../../math-c02-completely-positive-copositive/SKILL.md)
-- 其余依赖。Before adding a facial tool, independently verify the COP(L_n)=S_+^n+R_+J_n representation and Lemmas 2.3–2.8, then implement the interior/boundary tests with explicit witnesses H(V); retain separate output states for exposed and non-exposed cases.
+- 其余依赖。Independently certify the Lorentz-cone representation and required witness H(V), then implement exact interior/boundary tests and retain distinct exposed and non-exposed output states.
 - [主来源 1](https://arxiv.org/abs/2502.04006)
 
 ## Free Energy and Phase Transition for 2D Directed Polymers with Critical Spatial Correlations
@@ -233,14 +233,14 @@
 
 ## Isoperimetric Problems Related to Extremal Diameter Graphs in 3D: Theoretical and Numerical Aspects
 
-- 原件 e112ec7f105cf4cf7fcf6aa1008cbd7668460072730e6fd7e982bee8a397c618。arXiv:2608.26395v1, submitted 26 August 2026; local 30-page PDF has matching v1 front matter.。物理页 1, 2, 7, 8, 9, 10, 11, 12, 15, 16, 20, 21, 23, 28, 29, 30。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2608.26395v1 (only version on the checked primary record).
-- 构件候选。A narrowly reusable collision-handling construction is verified: an exact convergent sequence of finite extremal unit-diameter configurations, after merging coincidences and taking the diameter-graph core, yields an extremal core. For dual-pair functionals, Proposition 5 gives only lower semicontinuity under compatible convergence, and equality needs stability plus axis-vanishing of the cost. The paper explicitly says arbitrary collision compatibility/stability is unproved.
-- 结论位置。PDF pp. 7--9 prove the exact-limit/core Proposition 2; pp. 10--12 state the added compatible/stable dual-pair hypotheses and prove their lower-semicontinuity/continuity consequences; pp. 15--16 prove the tetrahedral additive minimum; pp. 20--21 prove the spherical-product supremal reformulation; pp. 23 and 28--30 delimit numerical conclusions.
-- 适用范围。This does not establish general concentration compactness, feasibility of approximate numerical solver output, or attainment of intrinsic dual-edge functionals. The 10,644-graph experiment uses local optimization and expressly does not certify a fixed graph's global maximum; the K4/constant-width claims remain conjectural.
+- 原件 e112ec7f105cf4cf7fcf6aa1008cbd7668460072730e6fd7e982bee8a397c618。arXiv:2608.26395v1 (26 August 2026), local 30-page PDF。物理页 7, 8, 10, 11, 12, 15, 16, 20, 21, 28。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2608.26395v1. No journal edition was identified.
+- 构件候选。For an exact convergent sequence of finite extremal unit-diameter configurations, merging coincidences followed by the diameter-graph core preserves extremality. Under supplied compatible exposed-pair lifts, a nonnegative dual-pair functional is lower semicontinuous. Stable lifts plus axis-vanishing of the cost yield continuity.
+- 结论位置。Pages 7–9 prove the collision/core proposition. Pages 10–12 define compatible/stable dual-pair convergence and prove lower semicontinuity or continuity under its added conditions. Pages 15–16 prove the additive tetrahedral minimum, and pp.20–21 prove the spherical-product reformulation. Page 28 limits the numerical work.
+- 适用范围。The result is in three-dimensional extremal diameter geometry. Compatibility and stability are extra hypotheses and the paper explicitly does not prove them for arbitrary collisions. Approximate numerical configurations, fixed-graph local optima and the K4/constant-width conjectures are outside the result.
 - 相关技能。[math-a03-compactness-concentration](../../../../math-a03-compactness-concentration/SKILL.md)
-- 其余依赖。Any use must supply an exact convergent configuration sequence or a validated numerical certificate, reconstruct the unit-distance core and exposed pairs, and separately prove compatibility/stability for the target class before passing a functional to the limit.
+- 其余依赖。Encode exact configurations, core reconstruction and exposed-pair witnesses. Require a proof of compatibility/stability for the target family before applying the functional limit theorem, and keep numerical feasibility certificates separate.
 - [主来源 1](https://arxiv.org/abs/2608.26395)
 
 ## Learning-enabled Acceleration of Scenario-based Model Predictive Control
@@ -270,13 +270,13 @@
 ## Monge Solutions and Uniqueness in Multi-Marginal Optimal Transport with Hierarchical Jumps
 
 - 原件 4e4f65485ed8c30eae404e5693b9cd6761e5e9723ccbfff42d91c086116ea495。local arXiv:2512.14072v3, revised 25 Jun 2026, 22 pages。物理页 4, 5, 9, 10, 14, 15, 16。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
 - 规范版本。arXiv:2512.14072v3
-- 构件候选。A bounded finite implementation lead is explicit: add one isolated skip state per optional intermediate stage, enumerate active paths, minimize the displayed path cost while optimizing intermediate marginals, and require the paper's coercive tightness guard. The source proves attainment under that guard and proves a Monge path only after singleton optimal continuations follow from sequential twist plus local control.
-- 结论位置。PDF pp. 4–5 augmented skip-point path cost; p. 9 Theorem 2.2 attainment; pp. 10 and 14–16 sequential-twist/local-control definitions and Theorem 3.1 proof.
-- 适用范围。The model is not standard MOT: mass may bypass intermediate spaces and their marginals are optimization variables. The claimed uniqueness depends on Kellerer-dual/cyclic-monotonicity support, sequential twist, and strong coercivity, none of which D01 currently implements.
+- 构件候选。The checked skip-state construction is a finite modelling lead when every active path, marginal and path cost is explicitly supplied. Its infinite-space attainment uses tightness, and its uniqueness proof uses a support set plus sequential twist and local control.
+- 结论位置。Local pp. 4–5 define the isolated skip states and path cost; p. 9 proves attainment from coercivity; pp. 10 and 14–16 define sequential twist/local control and deduce the Monge map.
+- 适用范围。The hierarchical-jump model optimizes intermediate marginals and permits bypassing stages. It does not reduce to the existing fixed-marginal finite constrained-transport LP without a separately verified finite active-path reduction.
 - 相关技能。[math-d01-kantorovich-duality](../../../../math-d01-kantorovich-duality/SKILL.md)
-- 其余依赖。Audit Lemma 3.1 and the Kellerer-duality/c-cyclical-monotonicity route producing the support set, then supply a finite active-index test and separate coercivity/twist verification before any new branch.
+- 其余依赖。Provide a finite active-index LP encoding and independently prove its relation to the source path model. Keep Polish-space tightness, Kellerer duality and the sequential-twist uniqueness theorem outside that finite branch.
 - [主来源 1](https://arxiv.org/abs/2512.14072)
 
 ## Multistage Distributionally Robust Mixed-Integer Programming with Decision-Dependent Moment-Based Ambiguity Sets
@@ -306,25 +306,26 @@
 ## New Outer Approximation Algorithms for Nonsmooth Convex MINLP Problems
 
 - 原件 69909f6afc65e3b2954766721918786782fc880653a9198fb07caea45dc1d34c。arXiv:2602.04122v1 (Zhou Wei, He-Yi Liu, Bo Zeng; 4 Feb 2026)。物理页 1, 6, 7, 10, 11, 12, 13, 14。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2602.04122v1; the checked primary record has one version and the local 25-page PDF has the assigned SHA-256
-- 构件候选。A reusable bounded contract is independently read: under A1 and selected KKT-compatible subgradients/multipliers, feasible cuts preserve the fixed-integer NLP optimum; Proposition 3.3 excludes an infeasible integer assignment; Theorem 3.2 identifies the full master with the stated MINLP; and the termination proof requires finite Y intersect Z^p and no master assignment repeat.
-- 结论位置。Local p. 6 states Slater A1 and feasible subproblem KKT conditions; p. 7 proves the feasible-cut implication; pp. 10–11 formulate/prove infeasible-assignment exclusion; p. 12 Theorem 3.2 gives master equivalence; pp. 13–14 prove termination by nonrepetition.
-- 适用范围。The theorem does not follow from arbitrary subgradients or generic nonlinear-solver output. It needs a bounded closed polyhedral X, finite integer choices, Slater for every feasible fixed-integer subproblem, solved feasibility problems, and the particular rho/subgradient/multiplier conditions. A02 already requires global masters and valid cuts, but does not falsely advertise this nonsmooth finite-termination theorem.
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2602.04122v1, local 25-page file has the reviewed SHA-256
+- 构件候选。The feasible and infeasible cut calculations are internally consistent under the displayed selected subgradients and KKT multipliers. Finite termination follows only after every integer assignment has a globally solved subproblem and the master cannot repeat an assignment.
+- 结论位置。Local p. 6 states Slater A1 and KKT setup, p. 7 proves the feasible fixed-integer cut, pp. 10–11 prove exclusion of an infeasible integer assignment, p. 12 identifies the full master, and pp. 13–14 prove nonrepetition termination.
+- 适用范围。Arbitrary nonsmooth solver output does not establish the required multiplier, subgradient or rho conditions. The source requires bounded closed polyhedral X, finite Y intersect integer lattice, Slater for feasible subproblems and an exact infeasibility solve.
 - 相关技能。[math-a02-outer-relaxation-budget](../../../../math-a02-outer-relaxation-budget/SKILL.md)
-- 其余依赖。Provide an implementable certificate for the KKT-compatible subgradients, multipliers, rho choices, and infeasibility solve before adding a nonsmooth A02 subroutine.
+- 其余依赖。Create a rational KKT/subgradient certificate format and an exact finite-integer master checker before adding an A02 branch.
 - [主来源 1](https://arxiv.org/abs/2602.04122) · [主来源 2](https://arxiv.org/pdf/2602.04122)
 
 ## On Computing the Copositive Minimum and its Representatives
 
 - 原件 673f26accc0cd74ed08fceae15ee0ad05f6381cbc8eb573dab336f6878d1a732。arXiv:2509.23696v1 (28 Sep 2025), byte-matched local 19-page PDF。物理页 1, 2, 3, 4, 7, 8, 12, 13, 15。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2509.23696v1; no publisher edition was identified in the checked arXiv record
-- 构件候选。Two limited claims are checked. Theorem 2.3's full pp.3–4 calculation gives a deterministic Subset-Sum reduction to the integer strictly-copositive MinCOP decision instance. Separately, the pp.12–13 one-difficult-coordinate contract is constructive: when the leading block is positive definite, compute f(1)=min{Q(x):x>=0,x_n=1}; homogeneity gives f(s)=s^2f(1), hence an exact upper bound on integral x_n under Q[x]<=lambda before ordinary finite enumeration of the remaining coordinates. This is a candidate certificate route, not a claim of an efficient general COP optimizer.
-- 结论位置。PDF pp. 1–2 define MinCOP and strict copositivity; pp. 3–4 prove the Subset-Sum reduction in Theorem 2.3; pp. 7–8 give exact LDLT completion-of-squares; pp. 12–13 prove the one-difficult-coordinate finite bound and state the SPN special case; p.15 records the general bound obstruction.
-- 适用范围。The paper's practical implementation uses floating-point bounds and heuristics, and the general difficult-coordinate bounding problem is explicitly nonconvex/NP-hard on p.15. The SPN route additionally needs an exact S+N decomposition; an LDLT factorization alone neither proves strict copositivity nor provides a rigorous finite search bound.
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2509.23696v1; no formal publication identified in the checked source record
+- 已有技能。A reusable exact finite certificate was independently derived and implemented in overlays/04: with a rational SPD leading block, rational nonnegative KKT minimizer for the slice x_n=1, and rational spectral lower bound, f(s)=s^2 f(1) bounds x_n. Completing the square bounds remaining coordinates, so direct rational enumeration covers every nonnegative integer x with Q[x]<=lambda. The source example gives f(1)=3/2, x_n<=1 and nonzero minimum 2. The checker matched brute-force enumeration in 90 seeded rational instances.
+- 结论位置。Local pp. 7–8 give exact LDLT completion of squares. Pages 12–13 prove Lemma 5.1 and the one-difficult-coordinate bound. Page 15 records the general multicoordinate obstruction.
+- 适用范围。The interface requires the supplied positive-definiteness, KKT and spectral certificates. It does not decide copositivity, create an SPN decomposition or handle several difficult coordinates.
 - 相关技能。[math-c02-completely-positive-copositive](../../../../math-c02-completely-positive-copositive/SKILL.md)
-- 其余依赖。For a reusable finite certificate, require rational Q, a proof that the selected leading block is positive definite, an exact rational/interval solution or certified lower bound for f(1)>0, and exact enumeration checks; keep general multi-difficult-coordinate and numerical-performance claims out of the skill.
+- 已采用构件。给定正定主块、谱下界和单坐标切片 KKT 证人的有限整数最小值枚举。 [math-c02-completely-positive-copositive](../../../../math-c02-completely-positive-copositive/references/one-difficult-coordinate.md)
+- 其余依赖。Integrate the overlay script, examples and reference into C02, then independently rerun positive, invalid-KKT and finite-enumeration checks in the release package.
 - [主来源 1](https://arxiv.org/abs/2509.23696)
 
 ## On the Monge-Kantorovich Problem with Additional Linear Constraints
@@ -342,87 +343,87 @@
 
 ## Outer Approximations of Core Points for Integer Programming
 
-- 原件 3971b19fd8672edb6d104fa7c15ac24261e14e965991a717c0c36a6217d96570。Local 31-page PDF, arXiv:2007.10863v7 dated 5 May 2025; local front matter matches that identifier and author list.。物理页 1, 3, 12, 13, 14, 24, 25。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2007.10863v7 (checked primary record; it supersedes the earlier v1 citation).
-- 构件候选。Lemma 3.9 is verified for a transitive permutation-symmetric ILP with objective normalized to <1,x>: if l is the LP-optimum floor, checking the n integer layers l-n<j<=l decides infeasibility or locates an optimal feasible layer. Its proof uses orbit averaging into Fix_R(G)=span(1), then the integral fixed point on a layer divisible by n and convexity. This is a bounded symmetry-aware layer reduction, not a premise of A02's general outer-relaxation inequalities.
-- 结论位置。PDF p. 12 states and proves Lemma 3.9; pp. 13--14 delimit finite essential sets and Algorithm 1 subproblems; pp. 24--25 give the direct-product algorithm and its stated symmetry scope.
-- 适用范围。It requires an actual bounded LP relaxation, exact transitive coordinate-permutation invariance, this objective normalization, and globally solved integer subproblems. The finite essential-set inequalities are outer approximations; the source itself permits non-core integer points satisfying them, so they do not provide a generic symmetry-breaking or relaxation-error certificate.
+- 原件 3971b19fd8672edb6d104fa7c15ac24261e14e965991a717c0c36a6217d96570。local 31-page PDF, arXiv:2007.10863v7 dated 5 May 2025。物理页 1, 3, 12, 13, 14, 24, 25。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2007.10863v7
+- 构件候选。Lemma 3.9 supplies a bounded symmetry-aware layer reduction for a transitive coordinate-permutation ILP with objective <1,x>: layers l-n<j<=l suffice once l is the floor of the LP optimum. The proof uses exact orbit averaging and a fixed integral layer.
+- 结论位置。Local p. 12 states and proves Lemma 3.9; pp. 13–14 delimit finite essential sets; pp. 24–25 state the direct-product construction.
+- 适用范围。It needs a bounded LP relaxation, exact transitive coordinate symmetry, the normalized objective and globally solved integral layers. Essential-set inequalities alone allow non-core integer points and do not provide a generic relaxation error certificate.
 - 相关技能。[math-a02-outer-relaxation-budget](../../../../math-a02-outer-relaxation-budget/SKILL.md)
-- 其余依赖。Implement exact group/model-invariance and layer checks plus global subproblem certification; separately prove any bridge from this special ILP construction to A02's set-map and objective-error framework.
+- 其余依赖。Implement exact group/model-invariance and layer certificates, then prove any intended connection to A02's outer-relaxation interface.
 - [主来源 1](https://arxiv.org/abs/2007.10863)
 
 ## Piecewise SOS-Convex Moment Optimization and Applications via Exact Semi-Definite Programs
 
-- 原件 ec78cd78268be31b62458211841946b2fa513fdf2974656b371fc86340e71fee。arXiv:2402.07064v6, 2 July 2024; local 30-page PDF front matter matches v6.。物理页 1, 2, 9, 10, 11, 12, 13, 14。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。EURO Journal on Computational Optimization 12 (2024), article 100094, DOI 10.1016/j.ejco.2024.100094; checked e-print version arXiv:2402.07064v6.
-- 构件候选。Theorem 3.4 supports equality of the stated moment optimum and SOS/SDP dual only with a minimizer and Assumptions 3.2--3.3 (including interior and compact strictly feasible projected-spectrahedron conditions and SOS-convex data). The recovery result is narrower: Theorem 3.6 additionally assumes strong (R)--(S) duality, nonnegative zeroth moments, and signs for inactive k. B03 presently does not use this paper, and neither B02 exchange nor L02 finite search gains a general guarantee from it.
-- 结论位置。PDF pp. 1--2 define the projected-spectrahedron piecewise SOS-convex moment model; pp. 9--11 state/prove Theorem 3.4; pp. 12--14 state/prove Theorem 3.6 and Corollary 3.7 on recovery.
-- 适用范围。This is not generic moment-SOS exactness and Theorem 3.4 alone does not recover a measure from a numerical SDP. The proof uses the paper's representation theorem and conic-duality appendix; recovery has its own strong-duality and sign conditions.
+- 原件 ec78cd78268be31b62458211841946b2fa513fdf2974656b371fc86340e71fee。arXiv:2402.07064v6, 2 July 2024; local 30-page PDF matches v6 front matter。物理页 1, 2, 9, 10, 11, 12, 13, 14。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。EURO Journal on Computational Optimization 12 (2024), article 100094; reviewed e-print arXiv:2402.07064v6
+- 构件候选。Theorem 3.4 supports its exact moment/SDP equality only after the stated minimizer, interior and compact strictly feasible projected-spectrahedron hypotheses. Theorem 3.6 recovery adds strong duality, nonnegative zeroth moments and inactive-index sign assumptions.
+- 结论位置。Local pp. 1–2 define the projected-spectrahedron model, pp. 9–11 state and prove Theorem 3.4, and pp. 12–14 state Theorem 3.6 recovery conditions.
+- 适用范围。The result is not generic moment-SOS exactness, and a numerical SDP solution alone does not recover a measure. The proof invokes a representation theorem and conic-duality results not reproduced in the operational interface.
 - 相关技能。[math-b03-generalized-moments](../../../../math-b03-generalized-moments/SKILL.md)
-- 其余依赖。Translate every Assumption 3.2--3.3 and Theorem 3.6 recovery condition into a preflight checklist, then separately audit the invoked representation and conic-duality inputs before an exact-SDP/recovery interface is added.
+- 其余依赖。Convert Assumptions 3.2–3.3 and every recovery condition into a checkable preflight schema, then audit the representation and duality imports before an exact B03 branch.
 - [主来源 1](https://arxiv.org/abs/2402.07064) · [主来源 2](https://doi.org/10.1016/j.ejco.2024.100094)
 
 ## Polyhedral Outer-Approximations for MISOCP: Geometry and Cutting Planes
 
-- 原件 8c3ba961d10739df057624c0b1f80e52d2adf0bbda9fee10d6d6bb5a72b76436。Local 36-page author PDF by Yongzheng Dai with assigned SHA-256; title/abstract differ from the checked arXiv record's current title.。物理页 1, 4, 5, 6, 7, 9, 10。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。Unresolved. The checked arXiv:2608.10055v2 is titled 'Polyhedral Outer Approximation for MISOCP: Geometry and Progressive Integrality'; the local author PDF was not byte-matched to v1, v2, or a publisher version.
-- 待核。One local finite geometric identity was checked: Proposition 2.1 makes the normalized projection support inequality simultaneously a deepest, supporting, and gradient SOC cut. The local document also states angular marginal-effect bounds. But the local title/abstract and the official v2 title/scope differ, and the local proof itself refers key results to appendices not read in this pass, so this cannot yet be attached to an A02 module.
-- 结论位置。Local p. 4 Proposition 2.1 identifies the SOC projection/deepest/gradient cut; pp. 5–7 give marginal-direction and bounded-volume statements; pp. 9–10 describe progressive integrality and only its relaxation/bound motivations.
-- 适用范围。The official arXiv v2 advertises progressive-integrality transfer and experiments, whereas the local source is an unbyte-matched author version. Any claims about novelty, finite convergence, residual feasibility, or runtime transfer remain MISOCP-specific and unverified here. A02 has no active candidate-specific MISOCP claim, so there is no false active claim to retract.
+- 原件 8c3ba961d10739df057624c0b1f80e52d2adf0bbda9fee10d6d6bb5a72b76436。local 36-page author PDF by Yongzheng Dai。物理页 1, 4, 5, 6, 7, 9, 10。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。unresolved: local title and scope differ from arXiv:2608.10055v2, and local bytes have not been matched to an official edition
+- 待核。The displayed normalized SOC supporting cut has a direct local geometric interpretation. The controlling appendices are absent from the inspected local pages, while the official v2 identity and scope remain unresolved.
+- 结论位置。Local p. 4 states Proposition 2.1 on the SOC projection/deepest/gradient cut. Pages 5–7 state angular marginal claims, and pp. 9–10 describe progressive integrality.
+- 适用范围。No transfer of convergence, residual feasibility, progressive-integrality or runtime claims is justified from this author manuscript. Current A02 makes none of these source-specific claims.
 - 相关技能。[math-a02-outer-relaxation-budget](../../../../math-a02-outer-relaxation-budget/SKILL.md)
-- 其余依赖。Byte-compare local PDF with arXiv v1/v2 and recover the publisher version; then audit the cited appendices and exact global-master, cut-validity, lower/upper-bound, and residual-feasibility hypotheses.
+- 其余依赖。Byte-compare the local file against arXiv versions or recover a formal edition, then inspect the appendices and master/cut/residual hypotheses.
 - [主来源 1](https://arxiv.org/abs/2608.10055) · [主来源 2](https://arxiv.org/pdf/2608.10055)
 
 ## Positive Semidefinite and Sum of Squares Biquadratic Polynomials
 
-- 原件 2c37bb1f76571f695475ea033c8f65691b4f6a14b098267e664597df3952a91e。Local 24-page manuscript dated 18 July 2025, SHA-256 2c37bb1f76571f695475ea033c8f65691b4f6a14b098267e664597df3952a91e.。物理页 1, 4, 5, 13。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2506.17260v4, last revised 17 July 2025; no journal edition was identified in the checked authoritative record.
-- 构件候选。The defensible narrow transfer is existential: via the stated reduction of a 2×2 biquadratic to a ternary quartic and Hilbert's ternary-quartic result, the source claims PSD 2×2 biquadratic forms are SOS. Its Section 4 itself constructs only three restricted cross-term configurations.
-- 结论位置。Local p.1 gives the claimed 2×2 consequence; pp.4–5 state the biquadratic/tripartite transformations; p.13 specifies which 2×2 constructive subcases are actually covered.
-- 适用范围。The local pages do not yield a general Gram-construction algorithm: the hard full-cross plus two-neighbor-half-cross configuration is expressly left out of the explicit constructions, and the key ternary-quartic SOS theorem is imported rather than proved.
+- 原件 2c37bb1f76571f695475ea033c8f65691b4f6a14b098267e664597df3952a91e。local 24-page manuscript dated 18 July 2025。物理页 1, 4, 5, 13。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2506.17260v4, last revised 17 July 2025; no formal publication identified
+- 构件候选。The paper gives a useful 2x2 existential route through a ternary quartic reduction, while its explicit constructions cover only stated cross-term patterns. This does not duplicate the installed monic x-symmetric Gram checker.
+- 结论位置。Local p. 1 states the 2x2 PSD-to-SOS consequence; pp. 4–5 give the tripartite transformation; p. 13 lists the restricted explicit constructions and excludes the hard full-cross case.
+- 适用范围。The missing full-cross plus neighboring-half-cross configuration lacks a local constructor, and the key Hilbert ternary-quartic theorem is imported. The local manuscript was not byte-matched to the cited v4 PDF.
 - 相关技能。[math-c03-moment-sos-certificates](../../../../math-c03-moment-sos-certificates/SKILL.md)
-- 其余依赖。Byte-compare/recover the official arXiv v4 PDF, then independently formalize the homogenize/dehomogenize equivalence and the imported Hilbert theorem before admitting a 2×2-only constructor.
+- 其余依赖。Recover and compare the v4 source, then formalize the homogenize/dehomogenize reduction and imported SOS theorem before accepting a general 2x2 constructor.
 - [主来源 1](https://arxiv.org/abs/2506.17260)
 
 ## Refined Outer-Approximation Algorithms for Monotonic Optimisation
 
-- 原件 2004c934d1c055c87b75e8c77f28178d8a7a2f59bdc960d33b3defa63d77e3f7。arXiv:2608.13694v1 (13 Aug 2026); local PDF and checked arXiv record identify v1。物理页 1, 3, 8, 9, 10, 11, 12, 13。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2608.13694v1; checked arXiv record lists only v1
-- 构件候选。Raw SHA and 21-page count match. This v1 supplies a concrete, proof-backed finite construction: with exact projections onto the eroded normal set, the δ-relaxed polyblock algorithm returns a δ-relaxed ε-optimal point or detects emptiness, and nonfinal tree edges lose at least δ coordinate sum, yielding the stated finite node-depth/count bound. It is a useful candidate addition to A02, whose current text already prevents misreading residual tolerances as original-objective error.
-- 结论位置。Local p. 3 fixes the bounded normal/co-normal monotonic model; pp. 8–10 define balanced anchors, δ-relaxation, and Algorithm 2; Lemmas 1–2 on pp. 10–11 and their counting argument on p. 12 prove finite termination; p. 13 gives the vectorized extension
-- 适用范围。The guarantee is only for the defined bounded normal/co-normal monotonic maximization framework, exact feasibility/projection oracle, and δ-eroded feasible set. It is not a generic outer-relaxation guarantee, nor a floating-point certificate or an ε-objective bound for the unrelaxed problem.
+- 原件 2004c934d1c055c87b75e8c77f28178d8a7a2f59bdc960d33b3defa63d77e3f7。arXiv:2608.13694v1 (13 Aug 2026), local PDF identified as v1。物理页 1, 3, 8, 9, 10, 11, 12, 13。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2608.13694v1
+- 构件候选。For the stated bounded monotonic model, exact projections onto the eroded normal set yield a delta-relaxed epsilon-optimal solution or emptiness, and each nonfinal tree edge loses delta coordinate sum. The counting proof supplies a finite node bound.
+- 结论位置。Local p. 3 fixes the normal/co-normal model; pp. 8–10 define balanced anchors and delta relaxation; pp. 10–12 prove termination and the node bound; p. 13 gives vectorization.
+- 适用范围。This requires the exact projection oracle, normal/co-normal sets and the delta-eroded feasibility model. It does not certify a floating-point implementation or original-problem epsilon optimality.
 - 相关技能。[math-a02-outer-relaxation-budget](../../../../math-a02-outer-relaxation-budget/SKILL.md)
-- 其余依赖。Before implementation, establish a numerical projection-oracle invariant strong enough to preserve the strict δ coordinate descent and distinguish the δ feasibility relaxation from all original feasibility/objective errors.
+- 其余依赖。Specify a directed projection-oracle certificate that preserves strict delta descent, then encode the relaxed feasibility/objective distinction before an A02 implementation.
 - [主来源 1](https://arxiv.org/abs/2608.13694)
 
 ## Separation, Constraint Qualifications, and Cycling in Outer Approximation
 
-- 原件 36c55973344a6d115da3bf8ecac8a7d4256794e82350c5b87d0a8146c9aa64e0。arXiv:2606.26897v1 (Erik Tamm and Jan Kronqvist; 25 Jun 2026)。物理页 1, 6, 9, 10, 11, 12, 16。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2606.26897v1; the checked primary record has one version and the local 16-page PDF has the assigned SHA-256
-- 构件候选。A concrete limited fallback is verified. At a CQ-satisfying optimal fixed-integer NLP, Lemma 6 establishes the no-descent inequality used by OA cuts. Theorem 7's constructed convex-MINLP scheme uses infeasibility OA cuts, OA cuts at optimal assignments, and ECP cuts at the other feasible assignments; p. 12 explains a repeat-detection ECP fallback. This supports the existing A02 warning that an approximate NLP point need not separate the MILP iterate.
-- 结论位置。Local pp. 6 and 9 identify CQ-dependent separation failure; pp. 10–12 state the relaxed-CQ/ECP construction and prove its finite convergence; p. 16 gives the ECP algorithm.
-- 适用范围。The proof is for the paper's finite-integer, convex differentiable MINLP construction with exact theoretical cut/subproblem semantics. Its practical fallback still says that optimal assignments must be solved accurately enough and gives no residual-to-separation certificate. A02 itself does not claim this theorem or finite convergence under loose solver tolerances, so no false active claim was found.
+- 原件 36c55973344a6d115da3bf8ecac8a7d4256794e82350c5b87d0a8146c9aa64e0。arXiv:2606.26897v1, 16 physical pages; local bytes and page count rechecked.。物理页 1, 3, 6, 10, 11, 12, 16。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2606.26897v1 (25 June 2026). No formal publication was identified in the checked source record.
+- 构件候选。Theorem 7 is a genuine finite-convergence result for the constructed compact-convex, finite-integer MINLP scheme. It distinguishes infeasible assignments, unknown optimal assignments using OA cuts, and other feasible assignments using ECP cuts. Lemma 6 is the exact CQ-dependent implication needed to retain an optimal fixed-integer value after an OA cut.
+- 结论位置。Pages 10--12 define the three-case OA/ECP construction and prove Theorem 7. Page 11 proves the CQ-dependent no-descent Lemma 6. Page 16 gives the ECP iteration, while p.12 explains the repeat-detection fallback.
+- 适用范围。The theorem presupposes exact theoretical subproblem/cut semantics and an inaccessible set of optimal integer assignments. Page 12's practical repeated-assignment rule still requires optimal assignments to be solved accurately enough. It provides no residual-to-separation implication for an ordinary nonlinear solver.
 - 相关技能。[math-a02-outer-relaxation-budget](../../../../math-a02-outer-relaxation-budget/SKILL.md)
-- 其余依赖。Specify and independently certify a subproblem accuracy/separation test, and prove that repeat detection has the cut semantics of Theorem 7 before integrating the fallback.
+- 其余依赖。Define a certified primal/dual subproblem accuracy condition and prove that a detected repeat implements the theorem's three-case cut semantics before adding a finite-termination route to A02.
 - [主来源 1](https://arxiv.org/abs/2606.26897) · [主来源 2](https://arxiv.org/pdf/2606.26897)
 
 ## Solving Stochastic Constraints by Oracle-based Gradient Descent and Interval Arithmetic
 
-- 原件 05f5202493ea0d79313dce16155209e328695bd85d49502ac1d74eb4b65c9cf5。Local 30-page manuscript matching arXiv:2604.17275v1 (2026-04-19)。物理页 1, 2, 5, 6, 7, 26。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2604.17275v1; no journal version identified in checked record
-- 构件候选。The strongest defensible finite component is pointwise: under compactness, computable masses for disjoint axis-aligned boxes, and sound interval constraint propagation, the mass of proven inner boxes is B(x;epsilon)≤V_phi(x), and retained boundary-box mass gives a local upper enclosure. This yields a lower bound on the global optimum only through max_x V_phi(x)≥B(x;epsilon), not a global upper certificate.
-- 结论位置。Problem/framework (pp.1–2); assumptions (p.5); Definition 1 and Theorem 1 enclosure (pp.6–7); adaptive-oracle proof step (p.26).
-- 适用范围。The preprint invokes interval arithmetic/ICP and a box-mass oracle but does not furnish an audited directed-rounding implementation, input-error enclosure, or distribution-mass API. Its SGD result additionally rests on oracle/concentration assumptions. No active L03 claim uses this method.
+- 原件 05f5202493ea0d79313dce16155209e328695bd85d49502ac1d74eb4b65c9cf5。arXiv:2604.17275v1, 30 physical pages; local bytes and page count rechecked.。物理页 1, 2, 5, 6, 7, 26。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2604.17275v1, submitted 19 April 2026. No formal publication was identified in the checked source record.
+- 构件候选。For a fixed parameter and a sound box classifier, the disjoint certified-inner boxes have total mass B less than or equal to the satisfaction probability. The retained boundary boxes furnish a local upper enclosure B plus epsilon. Thus B is also a lower bound on the global optimum, because the optimum dominates every fixed-point value.
+- 结论位置。Pages 5--7 state compactness and computable-box-mass assumptions, define the inner and boundary box quantities, and prove the pointwise enclosure. Page 26 is an oracle-concentration proof step.
+- 适用范围。The source supplies neither a directed-rounding implementation nor a verified distributional box-mass oracle. The upper enclosure is local to a fixed parameter, not a global upper bound. Its stochastic-gradient conclusion additionally depends on oracle and concentration hypotheses outside the finite box calculation.
 - 相关技能。[math-l03-rational-and-interval-certificates](../../../../math-l03-rational-and-interval-certificates/SKILL.md)
-- 其余依赖。Audit a concrete outward-rounded engine and exact/validated box-mass oracle, then separately verify the stochastic-oracle assumptions and distinguish the local enclosure from global optimization bounds.
-- [主来源 1](https://arxiv.org/abs/2604.17275)
+- 其余依赖。Specify a concrete outward-rounded interval/constraint engine and a validated box-mass oracle, then verify the local/global notation and the separate stochastic-oracle assumptions before integration into L03.
+- [主来源 1](https://arxiv.org/abs/2604.17275) · [主来源 2](https://arxiv.org/pdf/2604.17275)
 
 ## Sparsity Constrained Nonlinear Optimization: Optimality Conditions and Algorithms
 
@@ -463,75 +464,76 @@
 
 ## Sum of Squares Decompositions for Structured Biquadratic Forms
 
-- 原件 0866821532b1970e753a4228b30402966ff9a495bb954c2fbecf01d728c1c1ab。arXiv:2512.02734v2 (11 Dec 2025), byte-matched local 13-page PDF。物理页 1, 3, 4, 5, 7, 9。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2512.02734v2; no journal edition was identified in the checked arXiv record
-- 构件候选。A finite SOS construction is verified for the stated diagonal-dominance class. Given the symmetric tensor convention on p.3 and inequality (2), the coefficient matrix M indexed by (i,j) is symmetric diagonally dominant with nonnegative diagonal (p.4), hence PSD; an exact factorization of M yields B(x,y)=z^T Mz as a sum of squares of bilinear forms in z_(i,j)=x_i y_j. This is directly compatible with C03's Gram-matrix workflow and does not create a false general nonnegative-implies-SOS claim.
-- 结论位置。PDF p.1 identifies v2; pp.3–4 state and prove Theorem 2.1 by forming the mn-by-mn coefficient matrix; p.5 explicitly labels M- and B0-biquadratic SOS assertions as conjectures; pp.7 and 9 give the monic-symmetric PSD and vertex-SOS route.
-- 适用范围。The construction is only as valid as the tensor symmetries and exact diagonal-dominance inequality. The source's M-biquadratic and B0-biquadratic extensions are conjectures on p.5 and cannot be imported; the monic-symmetric branch has separate parameter conventions and must not be conflated with the diagonal-dominant criterion.
+- 原件 0866821532b1970e753a4228b30402966ff9a495bb954c2fbecf01d728c1c1ab。arXiv:2512.02734v2, 13 physical pages; local bytes and page count rechecked.。物理页 3, 4, 5。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2512.02734v2, 11 December 2025. No formal publication was identified in the checked source record.
+- 已有技能。Theorem 2.1 has a self-contained finite certificate. If the coefficient matrix is symmetric, satisfies a_ijkl=a_kjil, has nonnegative diagonal and is row diagonally dominant, then z^T M z has the explicit exact decomposition sum_p d_p z_p^2 plus sum_{p<q}|M_pq|(z_p+sign(M_pq)z_q)^2 for z_(i,j)=x_i y_j. The private overlay checker validates the tensor symmetries, rational diagonal slacks and reconstruction of this bilinear-square decomposition.
+- 结论位置。Pages 3--4 state and prove Theorem 2.1 by forming M_(i,j),(k,l)=a_ijkl and converting the tensor condition to symmetric diagonal dominance. Page 5 explicitly labels the M-biquadratic and B0-biquadratic extensions as conjectures.
+- 适用范围。It certifies exactly the supplied symmetric diagonally-dominant coefficient tensor. It does not decide arbitrary PSD or SOS biquadratic forms and excludes the source's M-biquadratic and B0-biquadratic conjectures.
 - 相关技能。[math-c03-moment-sos-certificates](../../../../math-c03-moment-sos-certificates/SKILL.md)
-- 其余依赖。Implement an exact rational checker for symmetry and (2), construct M, certify M PSD by a rational LDL^T/Gram factorization, then expand the bilinear-square identity. Treat the M/B0 conjectures and any floating Gram output as excluded.
-- [主来源 1](https://arxiv.org/abs/2512.02734)
+- 已采用构件。验证双二次型结构与逐行对角占优，生成并逐项重构有限 SOS。 [math-c03-moment-sos-certificates](../../../../math-c03-moment-sos-certificates/references/biquadratic-dd-sos.md)
+- 其余依赖。The overlay at overlays/05 supplies a runnable exact JSON contract. Before release, place its script, reference and positive/rejected examples in C03 and run the repository and installation acceptance suite.
+- [主来源 1](https://arxiv.org/abs/2512.02734) · [主来源 2](https://arxiv.org/pdf/2512.02734v2)
 
 ## Sum of Squares Submodularity
 
-- 原件 22ee0c0eb9f8ca40979a7eee88dbb7d655bda13c4952d974f0946eb29b66439f。Local PDF arXiv:2510.24550v2, 49 physical pages, SHA-256 22ee0c0eb9f8ca40979a7eee88dbb7d655bda13c4952d974f0946eb29b66439f.。物理页 1, 6, 7, 10, 30, 32。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2510.24550v2, submitted 28 October 2025 and revised 26 June 2026; no journal edition was identified in the checked authoritative record.
-- 构件候选。A finite transferable component is the Boolean-ideal Gram test: for every pair i!=j, reduce −d²F/(dx_i dx_j) modulo I2[x_{−i,j}] and seek a degree-t SOS Gram representation. Proposition 6 gives fixed-t polynomial-size SDP verification, while the p.32 telescoping/ideal calculation explains why these pairwise certificates imply diminishing marginal derivatives and hence submodularity.
-- 结论位置。Local pp.6–7 define the Boolean ideal and t-SOS submodularity; p.10 is Proposition 6; p.30 gives a finite Gram-SDP instance; p.32 starts the proof that t-SOS submodularity implies submodularity.
-- 适用范围。This applies only to a set function's multilinear extension on the Boolean variety and the stated reduced ideal. It neither supplies a general semialgebraic SOS hierarchy nor turns a floating PSD matrix into an exact certificate.
+- 原件 22ee0c0eb9f8ca40979a7eee88dbb7d655bda13c4952d974f0946eb29b66439f。arXiv:2510.24550v2, 49 physical pages; local bytes and page count rechecked.。物理页 6, 7, 10, 30, 32。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2510.24550v2, 26 June 2026. No formal publication was identified in the checked source record.
+- 构件候选。The Boolean-ideal criterion is a meaningful specialized SOS route. An exact certificate that every negative mixed second derivative is t-SOS modulo the reduced Boolean ideal yields the first-order SOS certificate used to establish submodularity of the multilinear extension.
+- 结论位置。Definition 5 gives the Boolean ideal on p.6, Definition 6 gives t-SOS submodularity on p.7, Proposition 6 states fixed-t SDP sizes on p.10, and the proof of Theorem 1 on p.32 turns the derivative certificate into submodularity.
+- 适用范围。The statement is confined to a set function's multilinear extension on the Boolean cube, the specified reduced ideal, and an explicit degree t. It does not establish finite-order completeness, generic semialgebraic SOS convergence, or reliability of floating Gram matrices.
 - 相关技能。[math-c03-moment-sos-certificates](../../../../math-c03-moment-sos-certificates/SKILL.md)
-- 其余依赖。Implement an explicit set-function-to-multilinear-polynomial encoder, ideal reduction and coefficient-matching Gram SDP; validate returned Gram matrices by rational reconstruction or directed intervals.
-- [主来源 1](https://arxiv.org/abs/2510.24550)
+- 其余依赖。Implement a Boolean-set-function encoder, exact coefficient reduction modulo the Boolean ideal, and exact PSD Gram checks for each mixed derivative before exposing this as a distinct C03 route.
+- [主来源 1](https://arxiv.org/abs/2510.24550) · [主来源 2](https://arxiv.org/pdf/2510.24550v2)
 
 ## The Effective Countable Generalized Moment Problem
 
-- 原件 858d0c6799128b324a1a303b2521f19c47b0540b6fd8b4358d3e0826f87f56d2。arXiv:2501.09385v4, 1 September 2025; local 27-page PDF front matter matches v4.。物理页 1, 2, 8, 9, 10, 12, 13, 14。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2501.09385v4 (checked primary record; no journal version was identified in the checked record).
-- 构件候选。Under Assumptions 1.3, 1.9, and 2.1, the inspected proof gives quantitative Moment-SoS gaps; Corollary 2.5 calls Proposition 1.8 for GMP strong duality. Theorem 2.13 additionally requires a unique GMP minimizer to conclude weak-star convergence of canonical truncated optimizers. This is a real countable-constraint/vector-of-measures extension, not support for B03's current finite-moment workflow.
-- 结论位置。PDF pp. 1--2 set the countable-GMP assumptions; p. 8 states the effective Positivstellensatz input; pp. 9--10 derive the rate and invoke GMP strong duality; pp. 12--13 control truncated feasibility sets; p. 14 states and begins the weak-star optimizer-convergence proof.
-- 适用范围。Neither countable constraint enumeration, S-fullness, weighted functional spaces, dual attainment, nor the effective Positivstellensatz constants are implemented by B03. Hence its rates and weak-star convergence cannot be inferred for a finite numerical hierarchy merely from PSD feasibility or a small objective gap.
+- 原件 858d0c6799128b324a1a303b2521f19c47b0540b6fd8b4358d3e0826f87f56d2。arXiv:2501.09385v4, 27 physical pages; local bytes and page count rechecked.。物理页 1, 2, 8, 9, 10, 12, 13, 14。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2501.09385v4, 1 September 2025. No formal publication was identified in the checked source record.
+- 构件候选。The source gives a genuine countable-index, vector-of-measures Moment--SOS extension. Its rate and canonical-optimizer convergence use countable GMP strong duality, S-fullness and weighted spaces, while Theorem 2.13 also assumes a unique minimizer.
+- 结论位置。Pages 8--10 state the effective Positivstellensatz input and quantitative rate after the source's GMP duality. Pages 12--14 control truncated feasible sets and state the unique-minimizer weak-star convergence result.
+- 适用范围。B03's finite-moment workflow does not encode the countable constraints, weighted spaces, S-fullness, dual-attainment proof or effective Positivstellensatz constants. A small truncated PSD residual alone cannot import the rate or weak-star conclusion.
 - 相关技能。[math-b03-generalized-moments](../../../../math-b03-generalized-moments/SKILL.md)
-- 其余依赖。Formally map a target GMP to the paper's countable-index/vector-of-measures setting, prove Assumptions 1.3/1.9/2.1 and uniqueness where needed, and obtain the required Positivstellensatz constants before use.
-- [主来源 1](https://arxiv.org/abs/2501.09385)
+- 其余依赖。Map a concrete target GMP to Assumptions 1.3, 1.9 and 2.1, provide the required Positivstellensatz constants and duality data, and verify uniqueness where optimizer convergence is wanted.
+- [主来源 1](https://arxiv.org/abs/2501.09385) · [主来源 2](https://hal.science/hal-04885482v4)
 
 ## The Fundamental Theorem of Weak Optimal Transport
 
-- 原件 cf4106429915f4a29b6b5d433c53028694884c472785b9c70cb8c0c9cccb7553。local arXiv:2501.16316v1 (27 Jan 2025), 38 pages。物理页 1, 2, 6, 15, 32。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2501.16316v1; official record lists v1 only
-- 构件候选。The transferable component is a finite lifted-plan certificate: represent a weak conditional law rho explicitly, optimize a cost C(x,rho), and record complementary slackness against the lifted plan rather than an ordinary edge coupling. Theorem 2.15 states relaxed primal/dual attainment under p-weak lsc and an integrable affine lower bound, with dual attainment only under (B),(C).
-- 结论位置。PDF pp. 1–2 ordinary/WOT setup; p. 6 announces relaxed nonconvex formulation; p. 15 Theorem 2.15; p. 32 verifies its hypotheses in a later application.
-- 适用范围。This is not an unlifted ordinary Kantorovich theorem. The source itself says non-relaxed nonconvex WOT duality can fail; Theorem 2.15 relies on earlier relaxed duality/lifting material rather than a proof on its statement page.
+- 原件 cf4106429915f4a29b6b5d433c53028694884c472785b9c70cb8c0c9cccb7553。arXiv:2501.16316v1, 38 physical pages; local bytes and page count rechecked.。物理页 1, 2, 6, 15, 32。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2501.16316v1, submitted 27 January 2025. The checked record lists v1 only.
+- 待核。Theorem 2.15 states relaxed lifted-plan primal attainment and equality to a C-transform dual under measurable p-weakly lower-semicontinuous cost and an integrable affine lower bound. Dual attainment needs (B) and (C), and complementary slackness is formulated P(dx,d rho)-almost surely.
+- 结论位置。Pages 1--2 define weak transport and conditions (A)--(C); p.6 introduces the relaxed non-convex formulation; p.15 states Theorem 2.15; p.32 invokes it in a later application.
+- 适用范围。The statement page attributes the relaxed duality to earlier Theorem 3.1 and says the generalization follows another proof line by line. This batch did not independently close that lifting, compactification, p-moment topology or projection to ordinary couplings. It therefore cannot support D01's ordinary finite coupling duality.
 - 相关技能。[math-d01-kantorovich-duality](../../../../math-d01-kantorovich-duality/SKILL.md)
-- 其余依赖。Audit cited Theorem 3.1 and the lifting/compactification construction; then define the finite rho representation, p-moment topology, (B)/(C) checks, and the exact projection back to ordinary couplings.
-- [主来源 1](https://arxiv.org/abs/2501.16316)
+- 其余依赖。Read and verify the cited relaxed-duality theorem and its lifting construction, then give an explicit finite rho representation and certify every (B)/(C) and p-moment condition before implementing WOT.
+- [主来源 1](https://arxiv.org/abs/2501.16316) · [主来源 2](https://arxiv.org/pdf/2501.16316)
 
 ## The Interacting 2D Bose Gas and Nonlinear Gibbs Measures
 
-- 原件 139a7e2dcb60ec7c8dce46d2d19e57f388b0b4b2b2aafe32933fd326e7dbceee。arXiv:1805.03506v1 (4 May 2018)。物理页 1, 2, 3, 4。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:1805.03506v1; no later version listed on the checked arXiv record
-- 待核。The active D02 skill does not rely on this note for its finite-domain Gibbs identity; its provenance correctly treats it as a four-page announcement. The note defines a Bose-gas free-energy minimizer and announces a renormalized nonlinear-Gibbs limit, but p. 3 says the detailed proof will appear in a future paper.
-- 结论位置。Local pp. 1–3: announced high-temperature theorem, free-energy/Gibbs-state setup, and explicit statement that proof/details are postponed.
-- 适用范围。No theorem proof occurs in this four-page source, so it cannot validate the source-specific quantum/field limit. A related later proof publication was located bibliographically as Lewin–Nam–Rougerie, Classical field theory limit of many-body quantum Gibbs states in 2D and 3D, Invent. Math. 224 (2021), 315–444, DOI 10.1007/s00222-020-01010-4, but its theorem-to-note correspondence and proof were not read here.
+- 原件 139a7e2dcb60ec7c8dce46d2d19e57f388b0b4b2b2aafe32933fd326e7dbceee。arXiv:1805.03506v1, 4 physical pages; local bytes and page count rechecked.。物理页 1, 2, 3, 4。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:1805.03506v1, 4 May 2018. The checked record lists v1 only.
+- 引用核对。This is a checked four-page announcement and model definition. D02's finite-domain Gibbs identity does not rely on the announcement's quantum-field limit.
+- 结论位置。Pages 1--2 define the Fock-space free energy, Gibbs state and announced high-temperature limit. Page 3 explicitly postpones the detailed discussion and proof. Page 4 is bibliography.
+- 适用范围。The source expressly defers its theorem proof. It cannot substantiate a renormalized nonlinear-Gibbs limit or a quantum Bose-gas variational theorem.
 - 相关技能。[math-d02-gibbs-entropy-duality](../../../../math-d02-gibbs-entropy-duality/SKILL.md)
-- 其余依赖。If the quantum Bose-gas limit is ever made an active skill dependency, read the cited 2021 full proof and map its exact assumptions and conclusions; otherwise retain this source as non-proof background.
-- [主来源 1](https://arxiv.org/abs/1805.03506)
+- 其余依赖。If a later task needs the quantum limit, audit the full 2021 Lewin--Nam--Rougerie proof and map its exact hypotheses and conclusion before adding an active route.
+- [主来源 1](https://arxiv.org/abs/1805.03506) · [主来源 2](https://arxiv.org/pdf/1805.03506)
 
 ## The Unified Separation Condition: A General Constraint Qualification for Smooth and Nonsmooth Optimization
 
-- 原件 3ddb21fea039dbe46d48d0da0c34b7d61bcf9753e03c11ce5d25934a6e1aceeb。arXiv:2609.16981v1, submitted 15 September 2026; local 16-page PDF front matter matches v1.。物理页 1, 2, 5, 6, 7, 8, 9, 10。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2609.16981v1 (only version on the checked primary record).
-- 构件候选。A limited local nonsmooth-CQ component is verified: for the stated finite max-type violation function, Lemma 3.1 derives phi_down(x)=-dist(0,partial phi(x)), and the displayed MFCQ/LICQ arguments give local uniform separation. This is adjacent to B04's finite-dimensional closed-conic LP/facial-reduction scope and does not support a minimax or strong-duality claim there.
-- 结论位置。PDF pp. 5--8 connect USC to the quoted Demyanov exact-penalty conditions; pp. 6--7 prove the lower-derivative/subdifferential distance identity for the displayed max-type violation function; p. 8 states Theorem 3.4; pp. 9--10 prove MFCQ/LICQ imply local USC.
-- 适用范围。Theorem 3.4 is not self-contained: it explicitly invokes Demyanov exact-penalty theorems, whose hypotheses include lower boundedness, attainment of penalized infima, a neighborhood descent condition, and local Lipschitzness. The text's assertion that these are automatic after localization needs an independently checked local theorem; USC is not a general conic duality qualification.
+- 原件 3ddb21fea039dbe46d48d0da0c34b7d61bcf9753e03c11ce5d25934a6e1aceeb。arXiv:2609.16981v1, 16 physical pages; local bytes and page count rechecked.。物理页 5, 6, 7, 8, 9, 10。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2609.16981v1, submitted 15 September 2026. No formal publication was identified in the checked source record.
+- 构件候选。For a finite maximum of smooth constraint functions, the source proves the geometric identity phi_down=-dist(0,partial phi), then derives a local uniform separation bound from MFCQ or LICQ. The MFCQ proof is a direct convex-hull argument and provides a distinct local qualification diagnostic.
+- 结论位置。Page 5 records the exact-penalty assumptions invoked by Theorems 2.2--2.3. Pages 6--7 prove the finite smooth-max lower-derivative identity. Page 8 derives Theorem 3.4 from those cited results, while pp.9--10 prove MFCQ/LICQ imply local USC.
+- 适用范围。The exact-penalty conclusion imports the attainment, lower-boundedness, descent-neighborhood and local-Lipschitz hypotheses of the stated Demyanov results. USC is a local nonlinear condition and cannot widen B04's conic strong-duality or minimax assertions.
 - 相关技能。[math-b04-qualification-facial-minimax](../../../../math-b04-qualification-facial-minimax/SKILL.md)
-- 其余依赖。Retrieve and verify the cited Demyanov local exact-penalty result with its topology and attainment assumptions, then build a separate finite-dimensional nonsmooth-CQ checker rather than widen B04's PPS/facial-minimax interface.
-- [主来源 1](https://arxiv.org/abs/2609.16981)
+- 其余依赖。Implement exact finite gradient/active-set separation checks together with certified neighborhood continuity bounds, and independently verify the local exact-penalty theorem before creating a separate nonsmooth-CQ route.
+- [主来源 1](https://arxiv.org/abs/2609.16981) · [主来源 2](https://arxiv.org/pdf/2609.16981)
 
 ## Truncated Hausdorff Moment Problem and Analytic Solution of the Time-Optimal Problem for One Class of Nonlinear Control Systems
 
@@ -547,12 +549,12 @@
 
 ## Two-Thread Coverage MCTS for SAT and XSAT
 
-- 原件 7658d5ec4efa90569b4e4577e8562f2114785929275e9dc7609648335a3310d7。Local 11-page PDF bearing arXiv:2607.15834v2 (2026-07-20); original submission v1 was 2026-07-17。物理页 1, 2, 3, 4, 5, 6, 7, 8, 10, 11。
-- 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2607.15834v2
-- 构件候选。The defensible finite statement is the two-start Hamming identity d_H(sigma,tau)+d_H(not-sigma,tau)=n: every satisfying assignment is within floor(n/2) of one complementary start. It is a coverage invariant, not a solver guarantee.
-- 结论位置。Theorem 2/proof (p.3); algorithm and budget (pp.4–5,10–11); empirical/limitations (pp.6–8).
-- 适用范围。The MCTS search is nonexhaustive and returns Unknown after budget exhaustion; its experiments are not reproducible correctness or UNSAT evidence. It supplies no proof trace, completeness, or polynomial-time SAT guarantee. No active L05 claim relies on it.
+- 原件 7658d5ec4efa90569b4e4577e8562f2114785929275e9dc7609648335a3310d7。arXiv:2607.15834v1, 17 July 2026。物理页 1, 2, 3, 4, 8, 10, 11。
+- 依赖复核。已核对本轮采用范围与剩余依赖。
+- 规范版本。arXiv:2607.15834v2, 20 July 2026. The local 11-page PDF states v2 and its SHA-256 and page count were recomputed.
+- 邻近材料。For complementary Boolean starts sigma and not-sigma, d_H(sigma,tau)+d_H(not-sigma,tau)=n. Thus every assignment is within floor(n/2) of one start. This elementary coverage identity is correct, but is already directly usable in a SAT encoding and does not supply a distinct solver or certificate component.
+- 结论位置。Local pp. 1-4 give the complementary-start discussion and finite Hamming-distance identity. Pp. 8 and 10-11 specify nonexhaustive rollout and expansion-budget termination.
+- 适用范围。The MCTS procedure returns Unknown when both expansion budgets end. Its Hamming coverage is not a completeness, satisfiability, unsatisfiability, proof-trace, or runtime guarantee. Unit propagation also accounts for some reported zero-playout cases.
 - 相关技能。[math-l05-csp-sat-smt-encoding](../../../../math-l05-csp-sat-smt-encoding/SKILL.md)
-- 其余依赖。If used, keep only the coverage lemma; independently rerun code with assignment rechecking and use proof-producing SAT/SMT machinery for all SAT/UNSAT certificates.
+- 其余依赖。Any solver claim needs independently runnable code plus exact assignment checking for SAT and proof-producing SAT/SMT machinery for UNSAT. No active L05 statement relies on this paper.
 - [主来源 1](https://arxiv.org/abs/2607.15834)

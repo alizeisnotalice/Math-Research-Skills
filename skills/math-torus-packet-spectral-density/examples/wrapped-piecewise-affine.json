@@ -1,0 +1,15 @@
+{
+  "arc": ["0", "3/4"],
+  "phi_segments": [
+    {"left": "0", "right": "1/4", "slope": "1", "intercept": "0"},
+    {"left": "1/4", "right": "3/4", "slope": "2", "intercept": "-1/4"}
+  ],
+  "packets": [
+    {"color": "red", "frequency": 2, "support": ["1/8", "3/8"], "mass_density": "4"},
+    {"color": "blue", "frequency": 3, "support": ["1/4", "1/2"], "mass_density": "6"}
+  ],
+  "comparison_packets": [
+    {"color": "comparison", "frequency": 2, "support": ["1/8", "3/8"], "mass_density": "2"},
+    {"color": "comparison", "frequency": 3, "support": ["1/4", "1/2"], "mass_density": "3"}
+  ]
+}

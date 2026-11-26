@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 182 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 185 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -131,6 +131,7 @@
 | 技能 | 用途 |
 | --- | --- |
 | [euclidean-tensor-geometry](../skills/euclidean-tensor-geometry/SKILL.md) | Apply or audit OpenAI family 379 Euclidean tensor prices, Strassen spectral invariants, and common-placement network bounds in arithmetic complexity and combinatorics. 中文触发：欧几里得张量几何、张量价格、渐近谱、跨割下界。Do not use for generic tensor numerics or classical maximal operators without a proved model bridge. |
+| [math-ag-divisor-intersection-ledger](../skills/math-ag-divisor-intersection-ledger/SKILL.md) | 对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。 |
 | [math-alternating-reciprocal-criteria](../skills/math-alternating-reciprocal-criteria/SKILL.md) | 用 Sondow 的交错倒数和—连分数判据，严格区分可证明的无理性、有限前缀核验，以及需要整条简单连分数假设的超越性结论。适用于 Pierce 展开或快速增长分母的交错倒数和；不用于仅凭数值近似宣称无理或超越。 |
 | [math-bimatrix-kite-mixing](../skills/math-bimatrix-kite-mixing/SKILL.md) | 核验双矩阵博弈的后悔值、s-kite 条件与精确最佳回应混合。适用于已有候选策略的局部改进与有限证书，不把尚未独立复核的全局近似 Nash 声明当作可用定理。 |
 | [math-centered-cube-endpoint-budget](../skills/math-centered-cube-endpoint-budget/SKILL.md) | Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima. |
@@ -148,6 +149,7 @@
 | [math-logrank-rectangle-rank-halving](../skills/math-logrank-rectangle-rank-halving/SKILL.md) | 从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。 |
 | [math-openai-arithmetic-determinants](../skills/math-openai-arithmetic-determinants/SKILL.md) | 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。 |
 | [math-sondow-log-fractional-certificate](../skills/math-sondow-log-fractional-certificate/SKILL.md) | 从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。 |
+| [math-torus-packet-spectral-density](../skills/math-torus-packet-spectral-density/SKILL.md) | 对给定有理分段仿射扭转与有限角向 Fourier 包，精确计算模一推前的阶梯谱密度、色间正交门槛和可选 L1 密度差。 |
 
 ## 概率研究专题
 
@@ -193,6 +195,7 @@
 | [probability-spectral-perturbation-certificates](../skills/probability-spectral-perturbation-certificates/SKILL.md) | Audit finite-dimensional parameter-dependent eigenvalues and reversible Markov spectral gaps, including changing stationary measures, crossings, Poisson response, and rigorous interval enclosures. |
 | [probability-stationary-law-interfaces](../skills/probability-stationary-law-interfaces/SKILL.md) | Prove or audit stationary laws for Markov environments, tree flows, IPS and drift-jump systems; use for generator/core, flux, coupling, Palm/occupation, regeneration, or projective-limit arguments. |
 | [probability-stochastic-geometry-localization](../skills/probability-stochastic-geometry-localization/SKILL.md) | Prove or audit Poisson growing-ball cover-time and spatial-network localization claims, including measure optimization, Poissonization, and boundary tails, while checking the exact model and transfer hypotheses. |
+| [probability-switch-network-cylinders](../skills/probability-switch-network-cylinders/SKILL.md) | 对有限完美匹配开关网络核验暴露路径、固定开关坐标、自由槽位的条件置换核及精确能量演化。 |
 | [probability-unimodal-tail-certificates](../skills/probability-unimodal-tail-certificates/SKILL.md) | 用 Ion–Klaassen–van den Heuvel 的结果核验标准化标量单峰分布的尖锐单侧及非对称双侧尾界，精确检查阈值、公式及取等构造。 |
 | [probability-variational-limits](../skills/probability-variational-limits/SKILL.md) | Audit limits of stochastic optimization values, expectations, minimax problems, and selected optimizer laws; match weak convergence, uniform integrability, Gamma convergence, LDP/Laplace principles, and second-parameter estimates to their exact hypotheses. |
 

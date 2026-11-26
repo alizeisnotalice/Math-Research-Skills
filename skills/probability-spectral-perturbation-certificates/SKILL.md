@@ -5,7 +5,7 @@ description: Audit finite-dimensional parameter-dependent eigenvalues and revers
 
 # Spectral perturbation and strict gap certificates
 
-**Stage status (2026-11-16):** R01's compiler accepted 32 distinct source works for this entry, meeting the 30-work floor. The current source-use snapshot and all six G03 method interfaces are recorded in `evidence/accepted_source_uses.json`, `references/sources.md`, and `references/method_coverage.md`. The whole-entry review and root publication checks remain open; this is not released or installed.
+**Historical source scope (2026-11-16).** R01 accepted 32 distinct source works across six G03 method interfaces. Use the [source register](references/sources.md) to locate the scoped claims. The original source-use snapshot and detailed coverage map belong to the historical evidence archive.
 
 Use this entry when a finite reversible Markov kernel or a finite-dimensional self-adjoint matrix varies with a parameter and the task asks for a spectral derivative, ordered gap, crossing, or certified eigenvalue interval. Start by fixing the state space, matrix convention, stationary law, inner product, update clock, and exact target (Poincaré gap, absolute gap, generator gap, or indexed eigenvalue).
 

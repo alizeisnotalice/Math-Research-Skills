@@ -154,6 +154,9 @@ def load_audits(root: Path, inventory: dict[str, dict[str, Any]]) -> dict[str, d
             missing = AUDIT_FIELDS - review.keys()
             if missing or any(not isinstance(review[key], str) for key in AUDIT_FIELDS):
                 raise ValueError(f"invalid audit fields at {path}:{number}: missing {sorted(missing)}")
+            route = review.get("route", "")
+            if not isinstance(route, str) or (route and not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", route)):
+                raise ValueError(f"invalid related skill at {path}:{number}: {route!r}")
             digest = review["sha256"]
             if not isinstance(digest, str) or digest not in inventory:
                 raise ValueError(f"unknown source SHA at {path}:{number}: {digest!r}")
@@ -205,6 +208,7 @@ def classify(
             "locator": str(review["locator"]),
             "component": str(review["component"]),
             "dependency": str(review["dependency"]),
+            "route": review.get("route", ""),
         }
     return "archive" if historical else "pending", {}
 
@@ -233,6 +237,8 @@ def source_row(source: dict[str, Any], category: str, detail: dict[str, str]) ->
             f"定位 {md(detail['locator'])}<br>构件 {md(detail['component'])}"
             f"<br>依赖或边界 {md(detail['dependency'])}"
         )
+        if skill := detail.get("route"):
+            note += f"<br>相关技能 [{md(skill)}](../../../{skill}/SKILL.md)"
     elif category == "pending":
         note = "已完成来源清单与字节身份核对，尚未完成本轮证明构件审阅。"
     else:
