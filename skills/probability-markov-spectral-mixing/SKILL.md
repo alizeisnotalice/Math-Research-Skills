@@ -1,6 +1,6 @@
 ---
 name: probability-markov-spectral-mixing
-description: Analyze finite reversible Markov-chain mixing and spectral gaps, especially heat-bath Glauber dynamics for ferromagnetic Ising models; use when a claim depends on update clocks, graph geometry, or correlation inequalities.
+description: Analyze mixing, spectral gaps and update clocks for a specified finite reversible Markov chain, including heat-bath Glauber dynamics, graph geometry and ferromagnetic Ising correlation bounds.
 ---
 
 # Markov spectral gaps and Ising Glauber dynamics

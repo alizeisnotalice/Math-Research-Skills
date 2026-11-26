@@ -1,13 +1,13 @@
 ---
 name: probability-martingale-stopping
-description: Analyze martingales, stopping rules, maximal inequalities, stochastic integrals, and martingale-problem limits with explicit filtration and integrability checks.
+description: Analyze martingales, stopping rules, maximal inequalities, and stochastic integrals. Check filtration, brackets and integrability for a specified process or before passing to a process limit.
 ---
 
 # Martingales, stopping, and stochastic integration
 
 本次整理与历史阅读/审核状态的区别，以及可选本地附件的访问方式，见 [证据与迁移说明](../math-research/references/evidence.md)。
 
-Use this skill when a probability argument depends on a martingale or supermartingale, a stopping time, a Doob/BDG bound, stochastic integration, or a diffusion martingale problem.
+Use this skill when a probability argument depends on a martingale or supermartingale, a stopping time, a Doob/BDG bound, or stochastic integration.
 
 ## First checks
 
@@ -27,8 +27,7 @@ Keep classical martingale OST separate from demimartingale inequalities, which r
 - For stochastic integrals, state predictability and integrability before defining the integral; distinguish existence from a norm estimate. The compensated-Poisson (L^q)-valued isomorphism uses simple adapted integrands, future-increment independence, UMD decoupling, and the appropriate intersection/sum of mixed norms; do not substitute scalar continuous-martingale BDG.
 - For Snell envelopes, distinguish the class-D Doob–Meyer decomposition from generic OST. The compensator domination (dA\le dD^-) needs the source's special-semimartingale and (S^1\cap H^1_{loc}) hypotheses; the Markov generator and smooth-fit consequences have additional right-process or diffusion assumptions.
 - For unbounded martingale increments, choose the tail theorem matching the moment and clock: S009's two-sided exponential-moment maximal theorem differs from its positive-part exponential-moment/Freedman truncation theorem. For a quantitative martingale CLT, retain both the conditional ((2+\rho))-moment condition and the predictable-bracket error, plus any maximum-increment term.
-- For a martingale problem, specify the operator/test functions, prove tightness separately, pass identities with continuity and UI, and prove uniqueness before claiming a unique limit.
-- For weak-limit martingale problems with controls or fixed jumps, carry the control laws, canonical test versions, determining class, uniform integrability, dense-time identities, and path-control assumptions through the limit step; J1 weak convergence alone does not identify a martingale problem.
+- For process convergence, derive the prelimit conditional identities and uniform-integrability estimates here. Use [probability measure convergence](../probability-measure-convergence/SKILL.md) for tightness and identification of martingale problems, including controls and fixed jumps.
 
 Read [method.md](references/method.md) for proof routes and assumption audits, [sources.md](references/sources.md) for evidence and source status, and the positive/negative examples for tested use patterns. The strict W02 v2 candidate has 29 retained scholarly sources plus one approved Aldous canonical use (30 candidates); the full course-notes read remains background and excluded. The combined candidate is pending independent scope review. Finite enumeration is computational evidence only, not a proof of an infinite-time theorem.
 

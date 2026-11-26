@@ -48,6 +48,8 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 
 ## 齐次 Mahler 方程的单步间隙
 
+给定一阶右因子候选时，用 [Mahler Riccati 余项](references/ext0344-mahler-right-factor.md) 精确核对因子恒等式。
+
 若前置论证已认证 Laurent 连分式的相邻分母次数，用[Mahler 间隙转移](references/badziahin-mahler-gap-transfer.md)做有理多项式约分，核对新间隙的端点和严格增长条件。
 
 ## 补充来源的方法
@@ -64,5 +66,7 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 - [Sparse exponent support admission](references/sparse-exponent-transcendence-admission.md)
 
 ## 文献复核采用的构件
+
+- [Milne's finite r_16 divisor-convolution check](references/milne-r16-divisor-convolution.md)
 
 - [Type-II apwenian substitution admission](references/apwenian-type-ii-substitution-admission-wave8.md)

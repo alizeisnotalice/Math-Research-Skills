@@ -100,6 +100,10 @@
 - 376 三篇作为 N11 的指定速度残差、慢时钟、压力投影和有限盒输运构件。六篇相关研究稿的编译条件留在各自的来源记录。
 - 379 五篇共用 L06 的 state-sum 扁平化、谱价格运输、共享标签和次数投影。分别保留秩、边界复杂度、底域和正规点。
 
+## 近期复核
+
+[近期、历史与补充文献复核及技能整合](source-distillation-wave-9-2026-11-26.md)登记本轮 196 份原件、欧拉常数区间和概率技能的分流校正。
+
 ## OpenAI 逐篇索引
 
 现行稿件默认按原文陈述和适用条件直接蒸馏。逐篇索引登记构件整理及安装进度。此前复核结果属于历史记录。[补充文献复核与分析、概率技能整合](source-distillation-wave-8-2026-11-26.md)。[来源复核与数学证书整合](source-distillation-wave-7-2026-11-26.md)。[全库哈希复核与补充分册蒸馏](source-distillation-wave-6-2026-11-26.md)。[本轮 Google、OpenAI 与补充文献交付](source-distillation-wave-5-2026-11-26.md)。[OpenAI 余下批次与补充文献](openai-direct-wave-4-2026-11-26.md)。[上一批文献与技能交付](openai-direct-wave-3-2026-11-26.md)。[原稿直接蒸馏与方法整合](openai-direct-wave-2-2026-11-26.md)。[上一轮工具与来源进度](source-routing-and-finite-tools-2026-11-26.md)。

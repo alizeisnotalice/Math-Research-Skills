@@ -47,6 +47,8 @@
 - [主来源 1](https://arxiv.org/abs/2512.08851) · [主来源 2](https://arxiv.org/pdf/2512.08851)
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。arXiv:2512.08851v1 asserts bounded dependent observations admit the independent Hoeffding tail, while its appendix assumes independence. The exact duplicated-Bernoulli counterexample disproves the asserted dependent-data inequality.。定位。independence/serial-correlation assertion p. 2; appendix independence assumption p. 9。全卷 16 页。后续条件。Replace the assertion with a theorem whose stated dependence regime is verified, such as conditional-MGF martingale or quantitative mixing/blocking concentration.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The source allows serial correlation while using the independent Hoeffding tail. For X1=X2=Z with Bernoulli(1/2) Z, the event at n=2 and t=1/2 has probability 1/2, exceeding exp(-1). Its appendix instead assumes independence.。定位。Physical p. 2 dependent-observation assertion and p. 9 appendix independence assumption.。全卷 16 页。后续条件。Use a concentration theorem with verified independence, conditional MGF, martingale-difference, or quantitative mixing hypotheses before accepting a time-series warning conclusion.。
 
 ## Algorithm for Solving Optimization Problems with Interval Valued Probability Measure
 
@@ -163,6 +165,8 @@
 - [主来源 1](https://arxiv.org/abs/2609.38435) · [主来源 2](https://arxiv.org/pdf/2609.38435)
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。arXiv:2609.38435v1 does not furnish a valid low-rank SDP certificate: its post-hoc s1 correction breaks the unbounded dual derivation when s1 != 1, and reported negative slack eigenvalues are not PSD certificates.。定位。RLT/lift pp. 3-5; Lagrange bound p. 6; s1 correction p. 7; negative slack spectrum Table III p. 8。全卷 8 页。后续条件。Provide exact/interval original binary feasibility, exact s1 and cone constraints, an unmodified interval-PSD dual slack, rigorous objective bounds, and a relaxation-to-original reconstruction proof.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The numerical result does not give a valid PSD dual certificate. The post-hoc s1 correction breaks the displayed infimum derivation unless s1 is exactly one, and Table III reports negative slack eigenvalues.。定位。Physical pp. 3-5 lift and RLT, p. 6 dual bound, p. 7 s1 correction, and p. 8 Table III.。全卷 8 页。后续条件。Provide exact or interval original binary feasibility, exact s1 and cone constraints, interval PSD slack for the unmodified dual, rigorous objective enclosures, and a relaxation-to-original reconstruction proof.。
 
 ## On the Banach--Mazur Type for Normed Spaces
 
@@ -187,6 +191,8 @@
 - [主来源 1](https://arxiv.org/abs/2606.22134)
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。arXiv:2606.22134v1 supplies a restricted smooth-disjoint-strip bilinear square-function mechanism with positive cardinality loss, but it delegates the decisive localization to an external reference. It is not a scalar Rubio-de-Francia transfer.。定位。smooth strip theorem pp. 3-4; finite model pp. 6-7; delegated localization and Theorem 6.2 pp. 14-15。全卷 18 页。后续条件。Prove the imported localization and row/column size-energy estimates for the finite tri-tile model, including alpha/epsilon bookkeeping, before release.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The paper gives a smooth disjoint-strip bilinear square-function estimate with a positive cardinality loss. Its finite tri-tile reduction imports the decisive localization and row/column energy bounds from an external reference, so the available source does not yet support a callable boundedness certificate.。定位。physical pp. 3--4, 6--7, and 14--15, especially Theorems 1.1, 2.6, and 6.2。全卷 18 页。后续条件。Independently establish the imported localization and row/column size-energy estimates, including the alpha/epsilon bookkeeping.。
 
 ## Operational Interpretations of the Chernoff Inequality
 
@@ -210,6 +216,8 @@
 - [主来源 1](https://arxiv.org/abs/2604.23517)
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。arXiv:2604.23517v1 relies on an independence premise false for the Mobius/squarefree variables it uses: conditioning Omega(n)=1 asymptotically selects primes among prime powers, unlike the unconditional squarefree density. Its Mertens route is invalid.。定位。Assertion 1.10 p. 4; use as input p. 5; Mertens consequences pp. 6-8。全卷 10 页。后续条件。Replace Assertion 1.10 by a precise proved arithmetic dependence theorem and rederive every claimed consequence without an independent surrogate.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。Assertion 1.10(IH-A) is false for the stated uniform-integer model. Since Omega(n)=1 selects primes, squarefreeness conditional on Omega(n)=1 is one, while its unconditional density is below one. The proposed Mertens route cannot use this independence premise.。定位。Physical p. 4 Assertion 1.10, p. 5 use of the premise, and pp. 6-8 conditional Mertens consequences.。全卷 10 页。后续条件。Replace IH-A with a precise proved arithmetic dependence statement and rederive every asymptotic without treating a probabilistic surrogate as the Mobius function.。
 
 ## Similarity-Sensitive Entropy under Representation Change and Inference
 
@@ -268,6 +276,8 @@
 - [主来源 1](https://arxiv.org/abs/2604.10274)
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。arXiv:2604.10274v1 has a conditional truncation/augmentation exchange that lowers a strictly convex divergence and then proves convex-integrand optimality. It depends on measurable disintegration, Assumption 2.3, Lemmas 4.2 and 5.2, and is intentionally not a duplicate of finite causal-OT work.。定位。one-sided setup pp. 9-10; Theorem 6.2 pp. 29-32; Theorem 6.3 and Corollary 6.4 pp. 32-35。全卷 75 页。后续条件。Audit Assumption 2.3 and give finite forms of truncation and augmentation, including singular mass and the source divergence conventions.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The strict-convexity exchange argument is a potentially reusable measurable-relation mechanism, while the installed finite transport and selection skills do not encode its measurable disintegration, divergence, or augmentation hypotheses.。定位。Physical pp. 9--10 one-sided setup; pp. 29--35, Theorems 6.2--6.3 and Corollary 6.4.。全卷 75 页。后续条件。Establish a finite or measurable interface for Assumption 2.3, truncation, augmentation including singular mass, and the paper's divergence conventions.。
 
 ## Well-posedness, Regularity, and Strong Approximations of Superlinear Stochastic Reaction-Diffusion Equation
 

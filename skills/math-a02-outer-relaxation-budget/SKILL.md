@@ -35,3 +35,7 @@ description: 构造或审查外放松映射，核对正支配、约束保持、�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 文献复核采用的构件
+
+- [Exact rational second-order-cone support cut](references/soc-support-cut.md)

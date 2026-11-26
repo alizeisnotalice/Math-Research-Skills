@@ -4,6 +4,8 @@
 
 ## 欧拉常数、丢番图逼近与算术
 
+- [math-ax-schanuel-dimension-defect](../../math-ax-schanuel-dimension-defect/SKILL.md) · 对已明确的平坦联络、模 j、Hodge 周期映射或矩阵指数数据，选择相应 Ax--Schanuel 维数缺陷定理并核对不可省略的几何前提。
+- [math-hofstadter-nested-recurrences](../../math-hofstadter-nested-recurrences/SKILL.md) · 用精确整数递推计算广义 Hofstadter 函数 F_k 的有限前缀，并核对已给出的点态比较。
 - [math-order-two-casoratian-audit](../../math-order-two-casoratian-audit/SKILL.md) · Audit supplied rational second-order recurrences by exact Casoratian and consecutive quotient identities. It certifies finite identities only.
 - [math-prevost-hurwitz-pade-remainder](../../math-prevost-hurwitz-pade-remainder/SKILL.md) · Construct and audit Prévost's finite [n/m] exp(-t) Padé coefficients and its signed Euler-constant/Hurwitz-zeta remainder; preserve all auxiliary zeta and logarithm terms.
 - [math-q-series-rational-approximants](../../math-q-series-rational-approximants/SKILL.md) · 对给定有理 q 和 z 生成 Tschakaloff 递推的精确多项式系数，核验有限整数化缩放及余项分离。
@@ -27,6 +29,8 @@
 
 ## 调和分析、动力系统与几何方程
 
+- [math-strip-poisson-smoothing](../../math-strip-poisson-smoothing/SKILL.md) · Transfer a symmetric complex-center profile in a fixed strip to complete monotonicity using hyperbolic-secant Poisson smoothing.
+- [math-semiclassical-orthogonal-deformations](../../math-semiclassical-orthogonal-deformations/SKILL.md) · 对给定半经典正交权及移动奇点，核验递推系数的 Toda 变形方程和 Freud 权的 Painleve IV 化简。
 - [math-nevanlinna-functional-transcendence](../../math-nevanlinna-functional-transcendence/SKILL.md) · 核对非恒定整函数的 Nevanlinna 特征分离、测度有限的异常集及源定理给出的函数域超越次数。
 - [math-conformal-dimension-perron-brackets](../../math-conformal-dimension-perron-brackets/SKILL.md) · 对给定扩张共形 Markov 分区、认证导数区间和有理比较向量，验证非负转移矩阵的谱半径界并判断指数与维数的方向。
 - [math-bessel-cross-product-recurrence](../../math-bessel-cross-product-recurrence/SKILL.md) · 在已给定的 Bessel/modified-Bessel 定义域内，使用离散 Riccati 恒等式与二阶交叉积递推；不把有限递推代数当作圆板谱重数或超越性证明。
@@ -45,6 +49,8 @@
 
 ## 算子代数、上同调与代数几何
 
+- [math-linear-difference-hypertranscendence](../../math-linear-difference-hypertranscendence/SKILL.md) · 对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。
+- [math-symmetric-polynomial-ratio-certificates](../../math-symmetric-polynomial-ratio-certificates/SKILL.md) · Evaluate finite complete-homogeneous and Schur Turan ratios exactly on rational inputs, preserving the stated partition and positivity domains.
 - [math-nonnegative-matrix-path-certificates](../../math-nonnegative-matrix-path-certificates/SKILL.md) · Verify the odd-power path certificate for finite entrywise-nonnegative symmetric matrices, with exact finite arithmetic where the inputs are rational.
 - [math-finite-nonassociative-algebra-audits](../../math-finite-nonassociative-algebra-audits/SKILL.md) · 核验指定有理轴代数乘法表、消去后的线性泛函，或素域上的仿射 medial rack 恒等式和见证。
 - [math-holomorphic-local-to-global-transfer](../../math-holomorphic-local-to-global-transfer/SKILL.md) · Transfer specified holomorphic local data to descent, gluing, integrability, or universal-cover product conclusions only after the matching geometric gate has been established. Not for arbitrary local charts or holomorphic distributions.
@@ -59,6 +65,12 @@
 
 ## 图、组合、博弈与复杂性
 
+- [math-two-generator-graded-semigroup-certificates](../../math-two-generator-graded-semigroup-certificates/SKILL.md) · 对互素双生成数值半群的总度分层进行精确计数，并核验对应 T-graded 广义数值半群的 Wilf 型有限不等式。
+- [math-one-special-parking-equality](../../math-one-special-parking-equality/SKILL.md) · Enumerate the invariant one-special-preference parking set for a finite positive length list and check the subset-sum equality criterion.
+- [math-cycle-weighted-permanent](../../math-cycle-weighted-permanent/SKILL.md) · Compute finite Macdonald cycle-weighted permanents and their scalar normalizations exactly for rational q and t.
+- [math-graded-character-order](../../math-graded-character-order/SKILL.md) · Certify finite graded multiplicity comparisons through cumulative coefficient differences and optimal ordered matching.
+- [math-quantum-permanent-score](../../math-quantum-permanent-score/SKILL.md) · Check finite partition-score lower bounds from a supplied nonnegative orbital coefficient profile.
+- [math-cycle-type-likelihood-bounds](../../math-cycle-type-likelihood-bounds/SKILL.md) · Compare two supplied finite cycle-type laws under an explicit iid observation model, with Hellinger affinity and Bayes-error bounds.
 - [euclidean-tensor-geometry](../../euclidean-tensor-geometry/SKILL.md) · Apply or audit OpenAI family 379 Euclidean tensor prices, Strassen spectral invariants, and common-placement network bounds in arithmetic complexity and combinatorics. 中文触发：欧几里得张量几何、张量价格、渐近谱、跨割下界。Do not use for generic tensor numerics or classical maximal operators without a proved model bridge.
 - [math-discrete-proof-transfer](../../math-discrete-proof-transfer/SKILL.md) · 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。另用于周期图的有限连通分支与例外顶点预算。不要因同名 Fourier、稳定性或张量术语就迁移结论。
 - [math-bimatrix-kite-mixing](../../math-bimatrix-kite-mixing/SKILL.md) · 核验双矩阵博弈的后悔值、s-kite 条件与精确最佳回应混合。适用于已有候选策略的局部改进与有限证书，不把尚未独立复核的全局近似 Nash 声明当作可用定理。

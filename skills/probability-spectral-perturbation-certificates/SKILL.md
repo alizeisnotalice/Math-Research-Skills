@@ -1,6 +1,6 @@
 ---
 name: probability-spectral-perturbation-certificates
-description: Audit finite-dimensional parameter-dependent eigenvalues and reversible Markov spectral gaps, including changing stationary measures, crossings, Poisson response, and rigorous interval enclosures.
+description: Audit a parameterized family of finite reversible chains or other finite-dimensional spectral problems for eigenvalue crossings, derivatives, Poisson response, changing stationary measures or rigorous parameter intervals.
 ---
 
 # Spectral perturbation and strict gap certificates

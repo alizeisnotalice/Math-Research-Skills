@@ -95,6 +95,10 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 ## 文献复核采用的构件
 
+- [Finite residue certificate for a lattice-simplex covering](references/css-covering-residue-certificate.md)
+- [Parity midpoint triples in a lattice polytope](references/quantitative-helly-parity-midpoints.md)
+- [Certified stochastic box-mass enclosure](references/stochastic-box-mass-enclosure.md)
+
 - [Hypergeometric tail certificate (G48)](references/g48-hypergeometric-tail-bound-wave8.md)
 
 - [Exact cubic bracket for a cograph distance eigenvalue](references/cograph-distance-cubic-bracket.md)

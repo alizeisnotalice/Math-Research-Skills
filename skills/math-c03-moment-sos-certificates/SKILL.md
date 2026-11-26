@@ -47,5 +47,7 @@ description: 构建或核验矩与 SOS 层级，检查正多项式证书、截�
 
 ## 文献复核采用的构件
 
+- [Split full-cross Gram certificate](references/split-full-cross-biquadratic.md)
+
 - [Boolean SOS mixed-derivative gate for submodularity](references/historical-03-boolean-sos-submodularity.md)
 - [Congruence-to-diagonal-dominance Gram certificate](references/recent01-congruence-diagonal-dominance.md)

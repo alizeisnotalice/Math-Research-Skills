@@ -11,4 +11,7 @@ description: 用显式极点数据、带权 q 展开和经证实的 valence 界�
 
 ## 文献复核采用的构件
 
+- [Sporadic recurrence congruence through a supplied CM coefficient](references/ext0290-sporadic-cm-congruence.md)
+- [Interpolated Apéry sequences and critical L-values](references/osburn-straub-critical-l-values-ext0553.md)
+
 - [Meromorphic-modular creative telescoping (EXT-0304)](references/ext0304-modular-holonomic-telescoping-wave8.md)

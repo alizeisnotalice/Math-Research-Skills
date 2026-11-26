@@ -29,5 +29,9 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 
 ## 文献复核采用的构件
 
+- [Binary-form unit-solution count with an explicit discriminant gate](references/akhtari-binary-form-unit-bound-ext0447.md)
+- [Restricted E-function second-kind Padé interpolation](references/efunction-feldman-pade-interpolation.md)
+- [Zudilin hypergeometric zeta(2) linear-form scope](references/zudilin-zeta2-hypergeometric-ext0551.md)
+
 - [p-adic linear-form rate gate](references/hold-04-padic-irrationality-rate-gate.md)
 - [Rank transfer through multiplication by an irrational scalar](references/hold-04-rank-multiplication-lemma.md)

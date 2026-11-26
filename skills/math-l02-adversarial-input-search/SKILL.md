@@ -35,3 +35,7 @@ description: 开展对抗输入优化与反例搜索，区分有限搜索证据�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 文献复核采用的构件
+
+- [Exact simplex-corner certificate for a Minkowski-length lower bound](references/minkowski-length-corner-certificate.md)

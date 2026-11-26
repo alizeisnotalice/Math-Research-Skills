@@ -19,3 +19,7 @@ python3 scripts/formal_log_sine_weights.py --input examples/q2_singleton_rationa
 ## 补充来源中的方法
 
 - [Even periodic Dirichlet-type data: formal log-sine reduction at `s=0`](references/dirichlet-l-derivative-log-sine-reduction.md)
+
+## 文献复核采用的构件
+
+- [Exact periodic \(L(1,f)\) criterion data](references/periodic-l1-exact-criterion-ext0421.md)

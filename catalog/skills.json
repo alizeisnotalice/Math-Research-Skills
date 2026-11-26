@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 55,
+    "research-specialists": 67,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -163,6 +163,13 @@
       "path": "skills/math-asymptotic-midpoint-moduli/SKILL.md"
     },
     {
+      "name": "math-ax-schanuel-dimension-defect",
+      "title": "Ax--Schanuel 维数缺陷分流",
+      "description": "对已明确的平坦联络、模 j、Hodge 周期映射或矩阵指数数据，选择相应 Ax--Schanuel 维数缺陷定理并核对不可省略的几何前提。",
+      "category": "research-specialists",
+      "path": "skills/math-ax-schanuel-dimension-defect/SKILL.md"
+    },
+    {
       "name": "math-b01-lagrange-farkas",
       "title": "B01 · Lagrange 对偶与 Farkas 证书",
       "description": "推导或核验 Lagrange 对偶与 Farkas 证书，检查约束资格、对偶方向及不可行性证据。",
@@ -283,6 +290,20 @@
       "path": "skills/math-conformal-domain-estimates/SKILL.md"
     },
     {
+      "name": "math-cycle-type-likelihood-bounds",
+      "title": "Cycle-type likelihood bounds",
+      "description": "Compare two supplied finite cycle-type laws under an explicit iid observation model, with Hellinger affinity and Bayes-error bounds.",
+      "category": "research-specialists",
+      "path": "skills/math-cycle-type-likelihood-bounds/SKILL.md"
+    },
+    {
+      "name": "math-cycle-weighted-permanent",
+      "title": "Cycle-weighted permanents",
+      "description": "Compute finite Macdonald cycle-weighted permanents and their scalar normalizations exactly for rational q and t.",
+      "category": "research-specialists",
+      "path": "skills/math-cycle-weighted-permanent/SKILL.md"
+    },
+    {
       "name": "math-d01-kantorovich-duality",
       "title": "D01 · Kantorovich 输运对偶",
       "description": "核验 Kantorovich 输运对偶及势函数，检查代价、可积性和原始对偶可行性。",
@@ -399,6 +420,10 @@
       "path": "skills/math-euler-constant-irrationality/SKILL.md",
       "requires": [
         "math-openai-arithmetic-determinants",
+        "math-prevost-hurwitz-pade-remainder",
+        "math-order-two-casoratian-audit",
+        "math-euler-series-continued-fraction",
+        "math-alternating-reciprocal-criteria",
         "math-sondow-log-fractional-certificate",
         "math-gamma-multiple-laguerre-approximants",
         "math-gamma-meijer-cmf",
@@ -595,6 +620,13 @@
       ]
     },
     {
+      "name": "math-graded-character-order",
+      "title": "Graded character order",
+      "description": "Certify finite graded multiplicity comparisons through cumulative coefficient differences and optimal ordered matching.",
+      "category": "research-specialists",
+      "path": "skills/math-graded-character-order/SKILL.md"
+    },
+    {
       "name": "math-grid-piecewise-translation-embedding",
       "title": "Finite grid piecewise-translation embedding",
       "description": "Certify a finite cellwise translation embedding between two strict-size subsets of a specified square cell grid. Use after a geometric argument has supplied an allowable common grid; it does not polygonize sets or prove a general equidecomposition theorem.",
@@ -661,6 +693,13 @@
       "description": "对已给定的有理有限子空间图和边权，精确核验 HBL 有效表示并分解平衡边流；不搜索表示或计算一般 HBL 常数。",
       "category": "research-specialists",
       "path": "skills/math-hbl-finite-presentation/SKILL.md"
+    },
+    {
+      "name": "math-hofstadter-nested-recurrences",
+      "title": "广义 Hofstadter 嵌套递推",
+      "description": "用精确整数递推计算广义 Hofstadter 函数 F_k 的有限前缀，并核对已给出的点态比较。",
+      "category": "research-specialists",
+      "path": "skills/math-hofstadter-nested-recurrences/SKILL.md"
     },
     {
       "name": "math-holomorphic-local-to-global-transfer",
@@ -1008,6 +1047,13 @@
       "path": "skills/math-lienard-half-arc-matching/SKILL.md"
     },
     {
+      "name": "math-linear-difference-hypertranscendence",
+      "title": "线性差分方程的超越性接口",
+      "description": "对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。",
+      "category": "research-specialists",
+      "path": "skills/math-linear-difference-hypertranscendence/SKILL.md"
+    },
+    {
       "name": "math-logrank-rectangle-rank-halving",
       "title": "单色矩形与秩减半接口",
       "description": "从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。",
@@ -1231,6 +1277,13 @@
       "path": "skills/math-nonnegative-matrix-path-certificates/SKILL.md"
     },
     {
+      "name": "math-one-special-parking-equality",
+      "title": "One-special-preference parking equality",
+      "description": "Enumerate the invariant one-special-preference parking set for a finite positive length list and check the subset-sum equality criterion.",
+      "category": "research-specialists",
+      "path": "skills/math-one-special-parking-equality/SKILL.md"
+    },
+    {
       "name": "math-openai-arithmetic-determinants",
       "title": "算术行列式构造与验收",
       "description": "从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。",
@@ -1280,6 +1333,13 @@
       "path": "skills/math-q-series-rational-approximants/SKILL.md"
     },
     {
+      "name": "math-quantum-permanent-score",
+      "title": "Quantum-permanent score certificates",
+      "description": "Check finite partition-score lower bounds from a supplied nonnegative orbital coefficient profile.",
+      "category": "research-specialists",
+      "path": "skills/math-quantum-permanent-score/SKILL.md"
+    },
+    {
       "name": "math-research",
       "title": "数学研究总入口",
       "description": "统筹数学研究、证明核验与计算实验：按问题选择数学方法和概率专题，衔接数学计算、文献、写作和交付技能。研究任务需要确定方法和执行工具时使用；单纯语言润色与普通电脑操作使用各自技能。",
@@ -1290,6 +1350,13 @@
       ]
     },
     {
+      "name": "math-semiclassical-orthogonal-deformations",
+      "title": "半经典正交多项式变形",
+      "description": "对给定半经典正交权及移动奇点，核验递推系数的 Toda 变形方程和 Freud 权的 Painleve IV 化简。",
+      "category": "research-specialists",
+      "path": "skills/math-semiclassical-orthogonal-deformations/SKILL.md"
+    },
+    {
       "name": "math-sondow-log-fractional-certificate",
       "title": "Sondow 对数分数部分证书",
       "description": "从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。",
@@ -1297,11 +1364,25 @@
       "path": "skills/math-sondow-log-fractional-certificate/SKILL.md"
     },
     {
+      "name": "math-strip-poisson-smoothing",
+      "title": "Strip Poisson smoothing",
+      "description": "Transfer a symmetric complex-center profile in a fixed strip to complete monotonicity using hyperbolic-secant Poisson smoothing.",
+      "category": "research-specialists",
+      "path": "skills/math-strip-poisson-smoothing/SKILL.md"
+    },
+    {
       "name": "math-subanalytic-preparation",
       "title": "次解析族的定参幂次预备",
       "description": "用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。",
       "category": "research-specialists",
       "path": "skills/math-subanalytic-preparation/SKILL.md"
+    },
+    {
+      "name": "math-symmetric-polynomial-ratio-certificates",
+      "title": "Finite symmetric-polynomial ratio certificates",
+      "description": "Evaluate finite complete-homogeneous and Schur Turan ratios exactly on rational inputs, preserving the stated partition and positivity domains.",
+      "category": "research-specialists",
+      "path": "skills/math-symmetric-polynomial-ratio-certificates/SKILL.md"
     },
     {
       "name": "math-three-strip-token-bound",
@@ -1338,6 +1419,13 @@
       "description": "Transfer a specified three-dimensional tube or curved extension packet estimate through its declared maximal, capacity, and level-set interfaces. Not a generic Kakeya, restriction, or incidence certificate.",
       "category": "research-specialists",
       "path": "skills/math-tube-maximal-transfer/SKILL.md"
+    },
+    {
+      "name": "math-two-generator-graded-semigroup-certificates",
+      "title": "双生成分层半群证书",
+      "description": "对互素双生成数值半群的总度分层进行精确计数，并核验对应 T-graded 广义数值半群的 Wilf 型有限不等式。",
+      "category": "research-specialists",
+      "path": "skills/math-two-generator-graded-semigroup-certificates/SKILL.md"
     },
     {
       "name": "math-weil-deligne-purity-lfactor",
@@ -1402,7 +1490,10 @@
       "title": "Bernoulli sums, extremal laws and stochastic orders",
       "description": "Compute or compare independent Bernoulli sum laws exactly, apply fixed-mean and fixed-moment extremal reductions, and check dependence-sensitive convex order, atom comparisons, or Poisson approximation budgets.",
       "category": "probability",
-      "path": "skills/probability-bernoulli-extremal-orders/SKILL.md"
+      "path": "skills/probability-bernoulli-extremal-orders/SKILL.md",
+      "requires": [
+        "probability-moment-polynomial-duality"
+      ]
     },
     {
       "name": "probability-bernoulli-factory",
@@ -1519,16 +1610,19 @@
     {
       "name": "probability-markov-spectral-mixing",
       "title": "Markov spectral gaps and Ising Glauber dynamics",
-      "description": "Analyze finite reversible Markov-chain mixing and spectral gaps, especially heat-bath Glauber dynamics for ferromagnetic Ising models; use when a claim depends on update clocks, graph geometry, or correlation inequalities.",
+      "description": "Analyze mixing, spectral gaps and update clocks for a specified finite reversible Markov chain, including heat-bath Glauber dynamics, graph geometry and ferromagnetic Ising correlation bounds.",
       "category": "probability",
       "path": "skills/probability-markov-spectral-mixing/SKILL.md"
     },
     {
       "name": "probability-martingale-stopping",
       "title": "Martingales, stopping, and stochastic integration",
-      "description": "Analyze martingales, stopping rules, maximal inequalities, stochastic integrals, and martingale-problem limits with explicit filtration and integrability checks.",
+      "description": "Analyze martingales, stopping rules, maximal inequalities, and stochastic integrals. Check filtration, brackets and integrability for a specified process or before passing to a process limit.",
       "category": "probability",
-      "path": "skills/probability-martingale-stopping/SKILL.md"
+      "path": "skills/probability-martingale-stopping/SKILL.md",
+      "requires": [
+        "probability-measure-convergence"
+      ]
     },
     {
       "name": "probability-measure-convergence",
@@ -1652,7 +1746,7 @@
     {
       "name": "probability-spectral-perturbation-certificates",
       "title": "Spectral perturbation and strict gap certificates",
-      "description": "Audit finite-dimensional parameter-dependent eigenvalues and reversible Markov spectral gaps, including changing stationary measures, crossings, Poisson response, and rigorous interval enclosures.",
+      "description": "Audit a parameterized family of finite reversible chains or other finite-dimensional spectral problems for eigenvalue crossings, derivatives, Poisson response, changing stationary measures or rigorous parameter intervals.",
       "category": "probability",
       "path": "skills/probability-spectral-perturbation-certificates/SKILL.md"
     },

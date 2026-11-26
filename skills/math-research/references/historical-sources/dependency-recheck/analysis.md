@@ -159,6 +159,8 @@
 - [主来源 1](https://arxiv.org/abs/2504.16245)
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The source's transfer from an unweighted Lp norm to a weighted norm is false in its stated generality, and the stability route separately assumes extremizer existence and coercivity of a second variation. It cannot supply an M03 theorem.。定位。Stability claims (pp. 16--17); variational assumptions (pp. 19--21); global weighted transfer (p. 22); later kernel/Sobolev uses (pp. 24--30)。全卷 32 页。后续条件。A corrected edition must give a parameter/domain-specific graph-norm estimate, extremizer existence, and nondegeneracy modulo symmetries before re-review.。
+- 复核记录。2026-11-26T19:04:42+08:00。excluded。statement。
+- 本次依据。The global multiplier bound asserted in the proof of Proposition 5.6 fails on its stated Schwartz domain. Translate a fixed unit-L2 compactly supported smooth bump from (0,1) to (R,R+1). Its L2 norm stays one while its x-weighted L2 norm is at least R. This refutes the claimed proof transfer at p=beta=2, alpha=1; nearest-extremizer stability would require a separate proof.。定位。Physical pp. 7--11 for the asserted extremizer route, pp. 16--17 for uniqueness and stability, pp. 19--21 for the assumed second variation/coercivity, pp. 22--23 for the false global weighted transfer, and pp. 24--30 for its downstream uses.。全卷 32 页。后续条件。For adoption, supply a nonvacuous parameter domain, a valid graph-norm or restricted transfer estimate, and the extremizer existence and nondegeneracy needed by the stability claim.。
 
 ## Finite-dimensional Approximations of Push-forwards on Locally Analytic Functionals
 
@@ -236,6 +238,9 @@
 - [主来源 1](https://arxiv.org/abs/2601.18436)
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。Pages 12--13 give a clean zero-sum L1 extremum and equality orbit, but this has no present target-specific projection-normal interface and does not provide a deficit-to-distance estimate for M03.。定位。Cauchy--Minkowski reduction (pp. 11--12) and Proposition 1.4 proof (p. 13)。全卷 16 页。后续条件。Specify the regular-simplex projection normalization and a quantitative distance-to-equality objective before turning the equality calculation into a stability interface.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The regular-simplex reduction yields an exact zero-sum l1 extremizer with an explicit equality orbit. The component is finite dimensional and uses exact rational coordinate squares.。定位。Physical pp. 11--12 Cauchy--Minkowski/simplex reduction and p. 13 Proposition 1.4.。全卷 16 页。后续条件。For projection-volume use, provide the simplex normalization and Cauchy--Minkowski factor. A quantitative deficit-to-distance statement remains a separate stability task.。
+- 已采用构件。物理页 11, 12, 13。For a normalized zero-sum coordinate vector, computes the sign-split equality data for the l1 extremizer. It needs a separately supplied projection normalization and gives no quantitative stability estimate. [方法说明](../../../../math-m03-near-extremizer-stability/references/simplex-zero-sum-projection-extremizers.md)。
 
 ## On the Fourier transform of the symmetric decreasing rearrangements
 

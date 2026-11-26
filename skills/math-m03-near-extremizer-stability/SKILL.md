@@ -51,4 +51,6 @@ description: 分析近极值稳定性与刚性，核对亏损量、对称性、�
 
 ## 文献复核采用的构件
 
+- [Zero-sum \(\ell^1\) extremizers for regular-simplex hyperplane projections](references/simplex-zero-sum-projection-extremizers.md)
+
 - [Exact deficit for projections of the \(\ell_\infty\) ball](references/wave7-historical-01-linf-projection-deficit.md)

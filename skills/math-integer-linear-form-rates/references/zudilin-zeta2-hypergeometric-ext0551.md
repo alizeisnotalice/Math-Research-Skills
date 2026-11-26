@@ -1,0 +1,5 @@
+# Zudilin hypergeometric zeta(2) linear-form scope
+
+The published source fixes a specific Barnes--Mellin family \(r_n=q_n\zeta(2)-p_n\), proves its denominator ledger and asymptotic constants, and derives \(\mu(\zeta(2))\le5.09541178\ldots\). Its finite algebra is reusable only after a caller supplies the exact parameter family, integral representation, common-denominator factors, and all-index asymptotic and nonvanishing bounds. A numerical evaluation of a hypergeometric sum does not replace that ledger.
+
+The local source is W. Zudilin, *Two hypergeometric tales and a new irrationality measure of zeta(2)*, arXiv:1310.1526v3, physical pp. 1, 6--8, 14--15, SHA-256 `d0fea29a3f8293933e58bff36f20afdfe0aff71e2bf53349b9dfe7d1e5cda1d4`. It appeared in *Annales mathematiques du Quebec* 38 (2014), 101--117, DOI `10.1007/s40316-014-0016-0`. The local v3 states the theorem and its parameter, denominator and rate steps. An 80-decimal numerical check of the paper's \({}_3F_2(1/2,1/2,1/2;1,1;1)\) gamma evaluation agreed with the displayed gamma expression.

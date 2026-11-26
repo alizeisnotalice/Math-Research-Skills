@@ -50,6 +50,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The stated best-first priority L(P)+w d(P) and the bounded-search conclusion are concrete finite-search patterns, but all reported effectiveness and even the Andrews--Curtis pool scope depend on external presentations, move normalisation, verifier, snapshots, tie rule and machine budget. No installed skill supplies that group-presentation contract.。定位。Physical pp. 1--3: abstract, equation (1), move semantics and scope; p. 12: Proposition 5 bounded decision statement。全卷 18 页。后续条件。Provide a fixed finite state graph, exact move generator/canonicalisation, target, priority/tie rule, admission boundary and independently replayable search trace before extracting a generic search procedure or any non-existence conclusion.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The printed bounded-search propositions are valid finite-state statements once the presentation, move generator, length, admission rule and termination trace are fixed, but the manuscript supplies no portable instance of that contract.。定位。Physical pp. 1--3 define the move and priority setting; pp. 6--7 give Propositions 1--2; p. 12 gives the bounded decision formulation.。全卷 18 页。后续条件。A fixed finite state graph with exact Andrews--Curtis moves, canonicalisation, target, priority and tie rule, plus an independently replayable exhaustion trace.。
 
 ### The Verdict Is Free: A Saturated Benchmark for Equational Implication, and What It Leaves to Prove
 
@@ -60,6 +62,9 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。Proposition 1 is a printed, elementary constancy rewrite for a variable occurring on only one side of an equation, but the benchmark saturation/coverage claims need the external Equational Theories Project lattice, dataset, harness and Lean judge. There is no installed equational-implication proof-object route to receive it.。定位。Physical pp. 1--5: benchmark boundary, Proposition 1, and certificate-stage scope。全卷 11 页。后续条件。Fix a typed equational syntax and a kernel-checked target proof language, then implement and test the one-occurrence rewrite against positive and non-applicable equations; independently pin the dataset/lattice before making any coverage claim.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Proposition 1 has a self-contained two-substitution proof. The finite checker first verifies the supplied universal magma identity and then verifies the resulting constancy for every assignment.。定位。Physical pp. 3--5 define accepted certificates and state and prove Proposition 1.。全卷 11 页。后续条件。The source's benchmark counts and Lean-certificate coverage still require the pinned ETP dataset, harness and judge.。
+- 已采用构件。物理页 4, 5。A finite magma checker for the constancy consequence of an already verified universally quantified identity. It does not prove Lean certificate acceptance or benchmark coverage. [方法说明](../../math-l05-csp-sat-smt-encoding/references/one-occurrence-constancy-rewrite.md)。
 
 ## 数论、特殊函数与丢番图逼近
 
@@ -82,6 +87,8 @@
 - 审阅状态。held — do not use either claimed resolution as a mathematical tool; the primary inverse-history proof and its Lean sources require separate, independent audit.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The claimed Applegate--Lagarias and 3x+1 conclusions are downstream of the paper's imported Theorem 2.2 and unrefereed human-readable sources. The PDF itself notes that kernel checking is not independent mathematical review, so no inverse-history result is adopted.。定位。Physical pp. 1, 3--5, 7--11, 13: dependency diagram, imported theorem, inverse-history estimates and stated caveat。全卷 15 页。后续条件。Independently audit the imported theorem and all inverse-history/Lean dependencies, then verify the positive- and negative-target reductions before treating either conjecture claim as reusable.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The claimed Applegate–Lagarias and growth-exponent conclusions are downstream of an imported positive-target theorem and a new 3x-1 predecessor argument. The author records that the human-readable upstream proofs and the new account have not been independently refereed.。定位。Physical pp. 1 and 3–5 give the dependency diagram and imported theorem; pp. 7–11 give the 3x-1 and reduction arguments; p. 13 states the independent-review caveat.。全卷 15 页。后续条件。Independently audit the imported theorem, every inverse-history estimate and the positive/negative target reductions before adopting either conjectural conclusion.。
 
 ### An irrationality measure for Catalan’s constant
 
@@ -100,6 +107,9 @@
 - 审阅状态。held—empirical method, not a proof-producing Galois-group identification tool or a universal accuracy theorem.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The factor-at-small-primes classifier is explicitly empirical: group profiles, labels, 600-case evaluation and the 60-prime independence approximation are external. Chebotarev supplies asymptotic equidistribution, not a certified finite-prime degree-24 Galois-group identification method.。定位。Physical pp. 1--2: abstract and classifier scope; pp. 9--10: external corpus/evaluation and Table 4; pp. 15--16: stated non-effective Chebotarev limitation。全卷 16 页。后续条件。Provide exact group profiles, a source of independently verified labels, a finite-prime error theorem or a clearly bounded empirical protocol, and a rejection/abstention certificate before using the classifier beyond diagnostics.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Physical pp. 5–8 give a self-contained finite iid product-law calculation: exact supplied cycle-type laws determine the Hellinger affinity and two Bayes-error bounds. The adopted tool exposes that calculation only and never turns finite selected-prime factorizations into certified iid samples or Galois-group labels.。定位。Physical pp. 5–8, Definition 1, Definition 2, Proposition 1 and Corollary 2; p. 9 states the finite-prime iid/profile limitations.。全卷 16 页。后续条件。For a finite-prime Galois-group conclusion, independently provide exact profiles, a justified sampling model for the chosen primes, and a separate identification certificate.。
+- 已采用构件。物理页 5, 6, 7, 8, 9。Exact Hellinger affinity and Bayes-error bounds for two caller-supplied finite iid cycle-type laws. The tool does not certify finite-prime Chebotarev sampling, group profiles, or Galois-group identification. [方法说明](../../math-cycle-type-likelihood-bounds/references/chebotarev-cycle-likelihood-scope.md)。
 
 ### Exact Zero Detection and Compact Arithmetic Realizations for the Riemann Xi Function
 
@@ -110,6 +120,8 @@
 - 审阅状态。held—retain only conditional diagnostics; reject any reading as a proof of RH, zero simplicity, or an effective zero detector without the missing global estimate.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The source records conditional/diagnostic Xi constructions, while its abstract and main-results overview explicitly leave the global bound excluding off-line modes open. No installed Xi/Weil-form skill carries the required analytic-number-theory inputs or the missing positivity estimate.。定位。Physical pp. 1, 5--6, 9, 17, 204--205: abstract, Theorems 31/97/100/106--112 overview, missing global estimate and conclusions。全卷 208 页。后续条件。Prove the paper's global positivity/source-upper-bound statement and supply an independently checkable construction of its arithmetic operators before promoting any zero-detection statement to an RH consequence.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The manuscript explicitly leaves several global bounds open that would exclude off-line Xi zeros. Its local packet and energy constructions do not supply the missing all-height arithmetic upper bound or a finite zero detector.。定位。Physical pp. 5–6 give the claimed mechanisms, p. 17 identifies the missing global positivity step, and pp. 204–205 enumerate the still-open sufficient estimates.。全卷 208 页。后续条件。Prove one of the global upper bounds listed in the conclusion and verify the full analytic chain from arithmetic source to the Xi/Weil-form conclusion.。
 
 ### Hanna's OEIS congruence conjectures: eleven proved, three more resolved
 
@@ -120,6 +132,8 @@
 - 审阅状态。candidate—local elementary congruence arguments can be distilled, while OEIS identity/version and full Lean-validation claims must remain separately checked.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The locally printed Frobenius, x-adic uniqueness and differentiated-composition arguments are concrete formal-power-series congruence proofs. They are not adopted because no active skill has the required typed formal-power-series/finite-field interface, and the claimed OEIS identities and Lean builds remain external to this PDF review.。定位。Physical pp. 3--7: Lemmas 1--3, Theorems 4--13 and written proofs; pp. 8--9: formalization scope and limitations。全卷 11 页。后续条件。For adoption, define a finite-field formal-series input schema, implement exact truncation/uniqueness checks with positive and failing fixtures, and separately verify every claimed OEIS defining equation and any Lean build.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The author preprint supplies explicit reduction modulo 2 or 3, Frobenius, formal derivative and x-adic uniqueness arguments for thirteen named equations, but a reusable tool requires a typed finite-field formal-series specification and distinct treatment of its OEIS identification claims.。定位。Physical pp. 1--2 table of equations and pp. 3--7 theorem proofs; pp. 8--9 distinguish Lean mathematics from OEIS metadata.。全卷 11 页。后续条件。Specify a finite-field formal-series input schema and independently verify the selected defining equation, normalization and coefficient conclusion before extracting a general congruence checker.。
 
 ### Irrationality measures from Löwner determinants
 
@@ -138,6 +152,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The three-page addendum proves only a conditional transfer from P(a), while importing its one-sided interval lemma and (FB1)/(FB2)/(FB4) from the October manuscript. It neither proves P(a) nor RH, and no finite self-contained checker is supplied.。定位。Physical pp. 1--3: Theorem 1, hypothesis P(a), imported (FB1)/(FB2)/(FB4), and stated parameter restrictions。全卷 3 页。后续条件。Prove P(a), independently audit every imported October lemma, and supply the fixed q,H,h/a,b range before any Möbius-energy conclusion is used.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The three-page addendum transfers P(a) to an energy estimate only after importing a one-sided interval lemma and (FB1)–(FB4)/(FB6) from separate manuscripts. Its claim of an external RH resolution is not an independently usable premise in this corpus.。定位。Physical pp. 1–3, especially Theorem 1 and its use of P(a), the imported October identities, and the stated external references.。全卷 3 页。后续条件。Supply an independently checked proof of P(a), the interval lemma, and each quoted fixed-band identity with its q, H, h and a,b hypotheses.。
 
 ### On some positivity properties of the Riemann Xi function
 
@@ -148,6 +164,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The paper has a narrow finite-order reciprocal-Xi positivity route, but its large PF order depends on a published verified-height input, selected zero enclosures, directed Arb calculations and exact covers. These certificate payloads are not in a current reusable skill and the finite PF statement is not RH.。定位。Physical pp. 1--3: Theorems 1.1--1.3 and verified-height premise; pp. 44--46: Lemmas C.23--C.26 and interval-certificate route。全卷 53 页。后续条件。Export the Arb interval certificates, zero-enclosure source/version and exact covering data; then independently replay each differential-sign inequality before creating a finite PF-order checker. Keep the result distinct from RH.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The finite high-order Pólya-frequency statement depends on a verified zeta-height source, selected zero enclosures, directed Arb intervals and exact covers that are not exported as a reusable certificate.。定位。physical pp. 1--4 and 44--46, Theorems 1.1--1.3, verified-height premise and Appendix C route。全卷 53 页。后续条件。Preserve the referenced zero data and interval-cover payload, then replay every directed differential-sign inequality. Keep finite PF order distinct from RH.。
 
 ### Sharp order-four sign regularity of a Jacobi theta kernel
 
@@ -158,6 +176,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The v1 preprint reduces the order-3/4 Wronskian claims to computer-assisted tail and interval signs, but explicitly adopts an interval-arithmetic trust model; no supplied certificate or independent replay was located.。定位。physical pp. 1-2 (claim and kernel); p. 4 (reduction and Assumption 1.5)。全卷 11 页。后续条件。Obtain and rerun the exact Python/SymPy/mpmath.iv sign certificate, then check the Wronskian-to-Hankel-minor reduction under its stated normalization.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The Wronskian-to-Hankel reduction is readable, but the order-three and order-four theta signs rely on a computer-assisted interval certificate and its stated trust model. No certificate source was supplied for replay.。定位。Physical pp. 1--4, Theorems 1.1--1.2, Lemma 2.2, and Assumption 1.5.。全卷 11 页。后续条件。Obtain and rerun the exact SymPy and mpmath.iv program, then check the normalization in the Wronskian-to-minor transfer.。
 
 ### Simple critical zeros in a weighted family of Dirichlet L-functions
 
@@ -168,6 +188,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The 0.9322-epsilon simple-zero proportion is a preprint claim whose route combines a positive Toeplitz majorant/large sieve with classical inputs; the stated finite-height thresholds are enormous and no replayed majorant or dependency audit accompanies this screening.。定位。physical p. 1 (Theorem 1.1 claim); p. 3 (two proof routes); p. 5 (finite-height threshold discussion)。全卷 74 页。后续条件。Pin the cited large-sieve and form-factor inputs, then independently reproduce the Toeplitz-majorant inequality and certified optimization before extracting a scoped zero-density tool.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The 74-page September 2026 author manuscript gives a precise weighted-family theorem, but its claimed theorem-level verification depends on an unavailable Lean development and ancillary exact-rational and interval programs. The paper's principal analytic step still requires checking the all-vector positive Toeplitz majorant and its large-sieve constant, together with the cited zero-density input.。定位。physical pp. 1--5 state the weighted scope and theorem; p. 4 distinguishes formal and computer-assisted inputs; pp. 14--15 give the per-character certificate; pp. 43--45 require ancillary rational and interval certificates; Table 2 on pp. 4--5 lists the dependency chain。全卷 74 页。后续条件。Pin and execute the paper's Lean source plus certify.py, ctplus_arb.py and their input/output certificates. Then audit the correspondence of the formal statement with the weighted family, and independently check the Toeplitz-majorant and large-sieve hypotheses before extracting a reusable zero-density component.。
 
 ### Some positivity properties of Riemann Xi under smoothing
 
@@ -178,6 +200,9 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The stated complete-monotonicity conclusion at half-variance pi^2/288 depends on a computer-assisted Guinand-Weil/primes certificate with directed-rounding quadrature and tail bounds; it is not independently replayed here.。定位。physical pp. 1-2 (smoothing definition and claimed widths); p. 5, Theorem 2.5 and proof summary。全卷 35 页。后续条件。Recover the certificate inputs and rerun its directed interval proof, including the prime-power cutoff and x>=60 tail, before adopting any CM implication.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The hyperbolic-secant shifted-density formula gives a bounded strip-smoothing interface. Its pointwise positive formula and the profile-to-Laplace transformation are explicitly stated, with convergence retained as a caller premise for a new infinite family.。定位。physical pp. 3--5, Proposition 2.2, Theorem 2.3, and Lemma 2.4。全卷 35 页。后续条件。Prime-based width improvements require the directed certificate inputs. A zero-family application needs its strip bound, pairing, and convergence justification.。
+- 已采用构件。物理页 3, 4, 5。Strip Poisson smoothing under caller-supplied pairing and convergence conditions, excluding narrower computational certificates. [方法说明](../../math-strip-poisson-smoothing/references/strip-poisson-smoothing.md)。
 
 ### The decomposition lengths of a numerical semigroup form an interval
 
@@ -188,6 +213,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。This short author preprint states an attractive normal-form/exchange route for decomposition lengths, but the universal special-gap cover and each repair exchange are not formally or independently checked in this pass.。定位。physical p. 1 (Theorem 1 and exchange summary); p. 2 (definitions and theorem statement); p. 4 (normal form/exchange setup)。全卷 9 页。后续条件。Verify the special-gap cover lemma and replay the normalizing/replacement exchange on finite numerical semigroups; a formal Lean artifact would be an acceptable alternative.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The normalizing exchange relies on the special-gap cover lemma and source-specific irreducible-oversemigroup conventions. These dependencies were not independently established in this bounded review.。定位。Physical pp. 1--2 statement and definitions, pp. 3--5 normal form and exchange argument.。全卷 9 页。后续条件。Verify the special-gap cover lemma and replay the replacement/repair exchange on finite numerical semigroups before extracting an interval-of-lengths tool.。
 
 ### The generalized Wilf conjecture for semigroups graded by a two-generated numerical semigroup
 
@@ -198,6 +225,9 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。For T=<a,b> the layer-count formulas and generator description are potentially reusable, but the paper is an author preprint and its cited inputs plus claimed Lean derivation were not built or audited here.。定位。physical p. 1 (scope and claim); p. 2 (T-graded definitions and cited inputs); p. 4 (layer formulas and proof sketch)。全卷 9 页。后续条件。Verify the two-generated-semigroup layer formulas from definitions, check each cited minimal-generator input, and build the referenced Lean proof before extracting a dimension-uniform Wilf component.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。For supplied coprime a<b and dimension d, the paper gives explicit total-degree layer formulas for c, n and e. Exact integer arithmetic reproduces the parameter certificate d*c<=e*n, including the formerly uncovered example (a,b,d)=(3,4,3).。定位。Physical pp. 2--5 Theorem 1, Proposition 1 and the finite binomial inequalities in Propositions 2--3.。全卷 9 页。后续条件。The adopted command is limited to the stated two-generator total-degree-graded family. General GNS classification and the external Lean formalization are not used as runtime evidence.。
+- 已采用构件。物理页 2, 3, 4, 5。Exact parameter certificate for coprime two-generator total-degree-graded semigroups only. [方法说明](../../math-two-generator-graded-semigroup-certificates/references/recent-01-graded-wilf.md)。
 
 ### Z is Diophantine in Q, version 21
 
@@ -208,6 +238,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。Version 21 is an 833-page preprint asserting a Diophantine definition with a very large multi-part dependency chain; its displayed quartic construction explicitly inherits prior project constructions and is far outside a bounded local proof audit.。定位。physical p. 1 (global claim and scale); p. 4 (multi-part table of contents/dependencies); p. 11 (inherited explicit quartic construction)。全卷 833 页。后续条件。First produce a dependency graph and isolate a small fully specified polynomial/lemma with independently checkable rational semantics; do not transfer the global Z-in-Q conclusion meanwhile.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The local v21 original is an 833-page dependency-heavy project manuscript. The displayed global Diophantine conclusion and quartic constructions inherit many arithmetic, modularity, and height components outside this bounded source review.。定位。physical pp. 1--4, project claims and dependency table。全卷 833 页。后续条件。Build a dependency graph and isolate one fully specified polynomial transformation whose rational projection semantics can be independently checked before adopting a component.。
 
 ### A roadmap of the claimed Lean proof of the Riemann hypothesis and GRH for Dirichlet L-functions
 
@@ -226,6 +258,9 @@
 - 审阅状态。hold as conditional exposition; do not promote RH or distill it into a theorem tool. The explicit blocker is the unproved (M) input chain, not merely lack of prose polish.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。This working draft itself says the main inequality (M) is not proved in the text and identifies thirteen hypotheses/Lean-sourced inputs; it cannot supply a human-audited RH transfer component in its current form.。定位。physical p. 1 (working-draft claim); p. 3 (M not yet proved in text); pp. 28-30 (remaining hypotheses and source limitations)。全卷 265 页。后续条件。Obtain a pinned Lean checkout and run its kernel build, then map the formal theorem to the intended analytic statement and separately audit the cited external theorems before any extraction.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The working draft explicitly disclaims a complete proof of its main inequality (M), but it supplies a self-contained proof of the narrow one-sided Mellin transfer from a smoothed prime-power upper bound on arbitrarily large full intervals to zero exclusion. That transfer is reusable and is kept independent of the unproved RH route.。定位。physical pp. 5--7 define G and F and state the one-sided criteria; pp. 30--31 give the differentiated-kernel proof on intervals; pp. 1--3 and 193--208 state that (M) and the hypotheses remain unproved in the draft。全卷 265 页。后续条件。For any use, provide the exact Mellin identity, pole accounting, and a rigorously uniform interval upper bound in the stated normalization. The broader RH claim still requires a pinned Lean build and verification of all thirteen hypotheses and their external sources.。
+- 已采用构件。物理页 5, 6, 7, 30, 31。Scoped reference only: transfer a supplied uniform upper bound for the stated smoothed prime-power remainder on arbitrarily large full intervals to a zeta zero-exclusion half-plane. It does not prove the draft's inequality (M), the thirteen hypotheses, or RH. [方法说明](../../math-openai-arithmetic-determinants/references/rubinstein-one-sided-mellin-interval.md)。
 
 ## 图论、组合概率与离散结构
 
@@ -238,6 +273,8 @@
 - 审阅状态。hold as a related preprint/formalization claim; no reusable theorem skill until statement-to-source and pinned Lean replay are independently audited.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The paper states a strong low-degree influence bound and says it has a Lean formalization, but the referenced external repository, exact revision, and kernel build were not available in this local screening; the current Boolean-Fourier skill does not contain this exact checked result.。定位。physical p. 1 (Theorem 1.1 claim); p. 2 (formalization assertion and repository); p. 6 (original-normalization corollary)。全卷 60 页。后续条件。Pin and build the cited aaronson-ambainis Lean repository, inspect its theorem interface against Theorem 1.1/Corollary 1.2, and then check any nonformal analytic dependencies.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The PSI paper reports a Lean formalization of its strong influence bound, but the cited repository revision and kernel replay are absent from the supplied material.。定位。physical pp. 1--2 and 6。全卷 60 页。后续条件。Pin and build the cited Lean repository, match its theorem statement to Theorem 1.1 and Corollary 1.2, then audit any remaining analytic dependencies.。
 
 ### Critical bond percolation on the integer lattice
 
@@ -248,6 +285,8 @@
 - 审阅状态。hold; record as a major formalization candidate only. No theorem skill or factual promotion without source checkout/build, dependency review, and statement audit.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The guide describes a potentially important Lean result but explicitly says neither it nor the development has independent human review and that kernel checking alone does not establish statement-to-mathematics correspondence. The current percolation skill remains only a generic iid interface, not this theorem.。定位。physical p. 1 (claim and review limitation); p. 3 (reproduction/audit instructions); p. 5 (statement-to-mathematics warning); p. 14 (build description)。全卷 15 页。后续条件。Pin the formal repository, reproduce the documented Lean/comparator build, and audit Challenge.lean's graph, law, critical-parameter, and theta definitions against the claimed Z^d theorem.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。This guide is an important formalization lead, but it expressly distinguishes kernel checking from semantic and independent mathematical review. Its theorem and intermediary objects live in a pinned external Lean development that was not built in this review.。定位。Physical pp. 1--5 state the claim and review limitations; pp. 6--14 describe the formal objects and build route.。全卷 15 页。后续条件。Checkout and build the documented revision, then audit the Challenge.lean graph, Bernoulli law, critical parameter and theta definitions against the stated nearest-neighbour Z^d theorem.。
 
 ### A negative answer to a question of Carenini on almost independent sets in regular graphs
 
@@ -258,6 +297,8 @@
 - 审阅状态。candidate — preprint-audited counterexample/counting route only; keep its n,d,gamma divisibility and threshold hypotheses, and do not imply the unanswered range is resolved.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The finite triangular-prism counterexample and the fixed-gamma>1/8 asymptotic construction could be useful graph-counting probes, but the latter uses qualitative Cramer asymptotics with no explicit threshold and the paper leaves gamma in (0,1/8] open.。定位。physical p. 1 (counterexample and universal claim); p. 2 (Carenini bound/context); p. 4, Theorem D and scope limitations。全卷 20 页。后续条件。Reproduce the finite enumeration exactly, then derive/check the tail comparison under the fixed-gamma>1/8 hypothesis before extracting a narrowly scoped counterexample or enumeration tool.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The triangular-prism count and the threshold formulation are concrete, while the fixed-gamma asymptotic comparison invokes external large-deviation and biclique results and the paper leaves the range 0<gamma<=1/8 open.。定位。Physical p. 1 abstract and definitions, pp. 2--4 Theorem A and the scope of the open range.。全卷 20 页。后续条件。Reproduce the finite subset count and separately certify the tail comparison under a fixed gamma>1/8 before exposing an asymptotic regular-graph counterexample interface.。
 
 ### A product inequality for Walsh coefficients and two conditional Fourier entropy–influence bounds
 
@@ -279,6 +320,8 @@
 - 审阅状态。candidate—finite graph mechanism and stated scope are explicit; literature priority and kernel check need independent source/repository verification.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The two 8-vertex explicit graphs are checkable, but the minimality/uniqueness claims rely on exhaustive enumeration and Theorem C imports the Bandelt--Mulder four-point theorem; the external Lean corpus was not replayed.。定位。Theorems A--C, physical p.2; version-correction note p.1.。全卷 13 页。后续条件。Independent graph-enumeration certificate and primary verification of the stated four-point extension result.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The two explicitly listed eight-vertex graphs allow direct distance and triameter checks, but the uniqueness/minimality claims use external exhaustive enumeration and the distance-hereditary implication imports the Bandelt--Mulder four-point theorem.。定位。Physical pp. 1--2 definitions and Theorems A--C; subsequent sections contain the source proof route.。全卷 13 页。后续条件。Provide an independently replayable graph-enumeration certificate and verify the cited four-point extension theorem before promoting the structural theorem.。
 
 ### Arbitrarily large antichains of trees of equal order in the independence polynomial order
 
@@ -289,6 +332,8 @@
 - 审阅状态。candidate—construction and quantifier n≥11 are stated and proof route is local; retain cited order theory as an explicit dependency.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The decorated-path construction is explicit but incomparability needs the supplied root-location and gadget polynomial comparisons across the entire family; the reported formalization was not available.。定位。Abstract and order definition, physical p.1; Theorem 1 begins in the introduction.。全卷 10 页。后续条件。Read and independently certify the decorated-path identities and both negative evaluation/root-interval inequalities.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The gadget independence polynomials, transfer recursion and opposite signs at -1/10 and -1/6 are printed explicitly, but incomparability in the source order also needs the source root-interval comparison theorem and the all-word zero-free proof.。定位。Physical pp. 1--2 theorem and construction, pp. 3--5 gadget identities and transfer/root arguments.。全卷 10 页。后续条件。Independently certify the transfer inequalities and verify the exact comparison-order premise for the declared root interval.。
 
 ### Connected cographs with distance eigenvalues just below −2
 
@@ -310,6 +355,8 @@
 - 审阅状态。candidate—proof architecture is explicit, but the imported graph theorems remain mandatory dependencies.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The equality-rigidity theorem depends indispensably on Choi--Sieniawski counting, Kim--Picollelli constructions, and Gao--Huo--Liu--Ma arithmetic-progression paths; none was independently verified here.。定位。Theorems 1--2 and dependency roadmap, physical p.1.。全卷 13 页。后续条件。Primary-source verification of each imported graph theorem and the full equality-case configuration chain.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The equality-rigidity argument imports counting, critical-graph construction, and arithmetic-progression path theorems, while its claimed Lean proof is external to the local material.。定位。physical pp. 1--3 and pp. 5--10。全卷 13 页。后续条件。Verify each named primary theorem and the full equality-case configuration chain before exposing the lower-bound or uniqueness theorem.。
 
 ### Fourteen new weights of the Reed–Muller code RM(7,14)
 
@@ -320,6 +367,9 @@
 - 审阅状态。held—individual explicit examples are local, but broad weight-set claims require the absent witness corpus and Lean replay.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。Individual polynomial weights are finite, but the claimed 14-weight and interval conclusions require the absent 7,901-object witness corpus/Lean replay and cited middle-interval reductions.。定位。Abstract and RM(7,14) definition, physical p.1; claimed witness discussion pp.4--5 and pp.8--9.。全卷 13 页。后续条件。Obtain the complete witness corpus with hashes, verify each codeword weight, and audit the Lou--Wang reduction.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Physical p. 4 supplies an exact finite inclusion-exclusion formula and explicit degree-seven Boolean ANFs. The extracted checker reproduces the table's weight-354 witness by both formula and complete truth-table evaluation.。定位。physical p. 4, Lemma 2.1 and Table 1。全卷 13 页。后续条件。The full 14-new-weight spectrum, middle-interval assertions, and non-existence results still require the reported 7,901-witness corpus, Lean replay, and cited reductions.。
+- 已采用构件。物理页 4。Exact finite Boolean ANF Hamming weight by inclusion-exclusion and truth-table replay. [方法说明](../../probability-boolean-fourier-invariance/references/rm714-source.md)。
 
 ### Maximal energy of integral circulant graphs of order p^a q^b when one prime is 3 or one exponent is at most 2: the orders p^(2r)·3^(2s+1), pq^m and p²q^b; for exponents of equal parity, every order p^a q^b with min(a,b) ≤ 2, and every order in which one of the primes is 3
 
@@ -330,6 +380,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The 33-page author manuscript's maximal-energy claims depend on its weighted Ramanujan sign-matrix potential proof and a conditional Jiang--Yang reduction; the withdrawn computer-assisted range is expressly not a formal proof.。定位。Version 3 abstract, physical p.1.。全卷 33 页。后续条件。Audit the transform conventions, potential inequality, all restricted prime/exponent cases, and the external Jiang--Yang reduction.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The manuscript gives explicit weighted Ramanujan-transform and sign-matrix conventions for restricted integral-circulant energy, while its global maximizer claims also invoke an external conditional reduction and an unavailable Lean development.。定位。physical pp. 1--3, Theorems 1--5; pp. 13--15, transform reduction。全卷 33 页。后续条件。Implement and cross-check the stated divisor-set transform on supplied finite orders, then verify the Jiang--Yang reduction and the source's full potential inequality before using a maximizer theorem.。
 
 ### Multisets of bars that do not tile a 2 × n rectangle: the optimal growth order
 
@@ -351,6 +403,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The induced-obstruction route depends on cited non-word-representability theorems and an unrerun orientation-colouring check; no finite embedding certificate was supplied in this review.。定位。Abstract and tensor-product definitions, physical p.1; Theorems 1--3 on pp.1--8.。全卷 9 页。后续条件。Verify explicit induced embeddings, the cited obstruction theorem versions, and the five-edge orientation computation.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The elementary induced-subgraph and tensor-homomorphism lemmas are explicit, but the non-word-representability conclusion still needs cited obstruction theorems and an unprovided orientation-colouring computation.。定位。physical pp. 1--3, Theorems 1--3 and Lemmas 2.1--2.2。全卷 9 页。后续条件。Verify the stated induced embeddings on supplied graph data, check the cited obstruction theorem versions, and replay the five-edge orientation computation.。
 
 ### The Macdonald (q,t)-permanent II: Probability laws and their regions of validity
 
@@ -361,6 +415,9 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The v1 preprint distinguishes proven and conjectural matrix-law regions and relies on CM derivative criteria and Wishart/Schur machinery; no bounded standalone probability-law interface was isolated.。定位。Abstract and definitions (1.1), physical p.1; claimed theorem range pp.1--18.。全卷 27 页。后续条件。Audit the exact theorem/proof for a chosen scalar or fixed-dimension matrix regime and its complete-monotonicity conditions.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Proposition 2.2 supplies exact scalar normalization, rank-one, block, and diagonal identities. They are directly testable finite arithmetic and share the cycle-weighted-permanent interface with Paper I.。定位。physical pp. 3--5, Propositions 2.1--2.3。全卷 27 页。后续条件。Matrix-law existence still requires the complete-monotonicity conditions in the stated dimension and is not inferred from finite evaluations.。
+- 已采用构件。物理页 3, 4, 5。Exact scalar normalization and finite rank-one or block identities; no matrix-law existence claim. [方法说明](../../math-cycle-weighted-permanent/references/macperm2-scalar-normalization.md)。
 
 ### The equality case of Chen's bound for invariant parking with one special preference
 
@@ -371,6 +428,9 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。11-page author draft gives a parking-gap/subset-sum equality characterization, but its claimed Lean verification was not replayed and it imports Chen’s ordered positive-length model and equality bound.。定位。PDF pp. 2--6 (Theorems 1--2; Lemmas 1, 6--10).。全卷 11 页。后续条件。Replay the cited Lean package or independently verify Chen’s model, the residual recursion and the superdecreasing-tail classification before exposing a counting interface.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The manuscript gives a finite parking definition, residual recurrence, subset-sum criterion, and two four-car examples. The extracted direct enumerator reproduces both examples and agrees with the stated criterion on 1,364 positive lists of length at most five with entries at most four.。定位。physical pp. 1--6, Theorem 1 and Lemmas 1--7。全卷 11 页。后续条件。The general equality theorem remains a source claim until the reported Lean repository is pinned and built. Each supplied finite instance is certified by direct enumeration.。
+- 已采用构件。物理页 1, 2, 3, 4, 5, 6。Direct finite enumeration of W(y) and separate evaluation of the source subset-sum criterion. [方法说明](../../math-one-special-parking-equality/references/one-special-parking-source.md)。
 
 ### The largest domination roots of friendship graphs and of joins with repeated petals
 
@@ -381,6 +441,8 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。11-page author draft states the root-radius scale for J_m=K_a join mB with c=1+delta(B) and exact closed-neighborhood multiplicity s; the local analytic zero argument remains source-specific.。定位。PDF pp. 1--6 (Theorem 2, propositions and root equation).。全卷 11 页。后续条件。For a reusable asymptotic calculator, independently certify the join domination-polynomial identity, branch/log estimates, and a supplied fixed B,a,c,s instance.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The join domination-polynomial identity and root equation are explicit, but the sharp lower root-radius asymptotic uses a source-specific logarithmic branch argument and nonquantitative holomorphic zero lemma.。定位。Physical pp. 1--3 theorem and join formula, pp. 4--6 root equation and upper/lower asymptotic construction.。全卷 11 页。后续条件。Build a directed complex enclosure for a fixed B and a, then replay the branch, tail and zero-existence estimates before adopting a root-radius assertion.。
 
 ### The maximum Manhattan length of a path through all lattice points of a box
 
@@ -391,6 +453,8 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。10-page author draft gives the exact Manhattan Hamiltonian-order formula through centered-coordinate loss and parity-seed inflation, but depends on Yuan’s coordinatewise bound and an unreplayed formal construction.。定位。PDF pp. 1--3, 5--7 (Theorem 1 and ordering lemmas).。全卷 10 页。后续条件。Provide a concrete box, verify the imported upper bound, and replay a construction certificate before an optimizer can claim optimality.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The centring identity is an explicit finite ordering identity, but the announced exact optimum combines source-specific construction seeds with the imported coordinatewise bound of Yuan.。定位。Physical pp. 3--4 Theorem 1 and pp. 5--7 centring identity, endpoint-loss bound and inflation lemmas.。全卷 10 页。后续条件。Encode a supplied box ordering and independently prove or source-check the coordinatewise upper bound and each construction seed before using the formula as an optimizer certificate.。
 
 ### The minimum order of a counterexample to a conjecture on integral generalized sun graphs
 
@@ -401,6 +465,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。18-page author draft’s minimum-order generalized-sun classification expressly rests on source-specific Lean finite classifications and Braga--Moraes--Santos reduction that were not replayed.。定位。PDF pp. 1--3, 4--7, 9--12 (main theorem, spectral lemmas and classification).。全卷 18 页。后续条件。Replay the claimed finite proof and verify the imported spectral reduction before adopting any pruning or minimum-order conclusion.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The minimum-order classification expressly delegates the length-three, length-six, and length-ten cases to external formal finite classifications and imports a spectral reduction.。定位。physical pp. 1--3, 4--7, and 9--12。全卷 18 页。后续条件。Replay the claimed finite proof and verify the Braga--Moraes--Santos reduction before adopting pruning or minimum-order conclusions.。
 
 ### The switching conjecture for main eigenvalues holds for trees of diameter at most 4
 
@@ -422,6 +488,8 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。8-page v2 preprint’s four-row/widest-strip recurrence proves the trinomial case only after a conjugate-growth contradiction using its Appendix-A Fourier estimate; no independently certified finite interface was obtained.。定位。PDF pp. 1--5 (Theorem 1; Lemmas 2--3; Proposition 4).。全卷 8 页。后续条件。Audit the Fourier-kernel bound and algebraic-conjugate step, then supply a normalized finite-support coefficient recurrence before implementing a binary-factor certificate.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The v2 preprint includes a detailed widest-strip proof, but its use of the Appendix-A Fourier coefficient bound and the algebraic-conjugate reduction has not been independently certified in a reusable finite interface.。定位。Physical pp. 1--5 state Theorem 1, Lemmas 2--3 and Proposition 4; pp. 5--8 contain the Fourier-bound proof and formalization note.。全卷 8 页。后续条件。Audit Proposition 4 and its Appendix-A summability estimate, then expose a normalized finite-support coefficient-array recurrence and its algebraic conjugate assumptions.。
 
 ## 代数、半群与对称函数
 
@@ -434,6 +502,8 @@
 - 审阅状态。candidate — preprint-audited MTP2/tilting template, usable only with the symmetry, inverse-M, positivity, and finite-moment hypotheses retained.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。9-page draft proves a permanent Koteljanskii inequality only for positive-diagonally symmetrizable inverse M-matrices, via Gaussian moments, Ginibre correlation and MTP2/FKG tilting; it includes a nonsymmetrizable counterexample.。定位。PDF pp. 1--6 (Theorem 1.1, Proposition 2.2, Lemma 2.3 and counterexample).。全卷 9 页。后续条件。Independently audit the Gaussian moment representation, Ginibre and Karlin--Rinott inputs and certify inverse-M, positive-diagonal similarity and finiteness hypotheses for any matrix caller.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The Koteljanskii conclusion uses Gaussian permanent moments, Ginibre correlation and MTP2 tilted FKG. The source itself gives a nonsymmetrizable counterexample.。定位。physical pp. 1--6, Theorem 1.1, Proposition 2.2 and Lemma 2.3。全卷 9 页。后续条件。Certify inverse-M and positive diagonal symmetrizability for a caller matrix, then independently audit the Gaussian, Ginibre and Karlin--Rinott inputs and finite-moment premise.。
 
 ### A Proof of McLeod's 1959 Conjecture on Complete Homogeneous Symmetric Ratios
 
@@ -444,6 +514,9 @@
 - 审阅状态。candidate — preprint-audited symmetric-polynomial/queueing technique; keep x in R_+^n, ell&gt;=0, r&gt;=1 and the stated homogeneous-ratio normalization.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。11-page draft states convexity/subadditivity of (h_{ell+r}/h_ell)^(1/r) on R_+^n, using closed-queue throughput plus auxiliary-variable tensorization; the queue and curvature coupling are not independently audited.。定位。PDF pp. 1--6 (Theorem 1.1, queueing and tensorization proof).。全卷 11 页。后续条件。Audit the finite-state closed-queue formula and tensorization/Poincare limiting argument before promoting a symmetric-polynomial inequality routine.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The formula h_(ell+r)/h_ell is a self-contained finite rational expression. Its exact evaluation can be separated from the draft's global queueing and tensorization proof.。定位。physical pp. 1--6, Theorem 1.1 and complete-homogeneous ratio definition。全卷 11 页。后续条件。Global convexity and subadditivity still require the source theorem or an independent proof of the closed-queue and tensorization steps.。
+- 已采用构件。物理页 1, 2, 3, 4, 5, 6。Exact finite evaluation of h_(ell+r)/h_ell for a supplied nonnegative rational vector. The global convexity and subadditivity claim is excluded. [方法说明](../../math-symmetric-polynomial-ratio-certificates/references/wave9-mcleod-finite-ratio.md)。
 
 ### A new proof of van der Waerden's inequality, and beyond
 
@@ -454,6 +527,8 @@
 - 审阅状态。candidate — preprint-audited entropy/averaging framework, conditional on the precise Alexandrov–Fenchel or Lorentzian hypothesis and not a replacement for those inputs.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。31-page draft’s pair-averaging entropy proof of van der Waerden and extensions takes quadratic Alexandrov--Fenchel as the decisive input; it is not a replacement proof of that inequality.。定位。PDF pp. 1, 5--7, 11--12 (permanent theorem, averaging and extension).。全卷 31 页。后续条件。For any application, state the precise Alexandrov--Fenchel or Lorentzian contraction premise and audit entropy-duality/averaging conditions.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The draft's entropy monotonicity is explicitly reduced to its quadratic Alexandrov--Fenchel inequality, including the pair-averaging step used for the permanent bound.。定位。physical pp. 1, 5--7 and 11--12, Theorem 1.1, pair averaging and Lorentzian extension。全卷 31 页。后续条件。Certify the exact quadratic Alexandrov--Fenchel premise for the supplied coefficient form and separately audit the Gibbs-duality and pair-averaging hypotheses.。
 
 ### A sharp Brégman–Minc bound for permanents
 
@@ -464,6 +539,8 @@
 - 审阅状态。candidate — preprint-audited permanent/Gamma-function module; preserve phi's exact normalization and all row-stochastic/nonnegative hypotheses.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。12-page draft states per(phi[A]) <= 1 for nonnegative row-stochastic A with phi(x)=Gamma(1+1/x)^(-x), but its scalar simplex inequality and Gamma/Tonelli proof route have not been independently audited.。定位。PDF pp. 1--3, 7--8 (Theorem 1.1, Gamma lemma, simplex completion and equality).。全卷 12 页。后续条件。Audit the scalar simplex lemma and equality induction while retaining square, nonnegative, row-stochastic normalization and exact phi(0)=0 convention.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The stated row-stochastic permanent bound depends on the scalar simplex inequality derived through the Gamma-product and integral representation, followed by the equality induction.。定位。physical pp. 1--3 and 7--8, Theorem 1.1, scalar lemma and simplex completion。全卷 12 页。后续条件。Independently verify the scalar simplex lemma, its Tonelli justification and the equality induction while retaining square, nonnegative, row-stochastic input and phi(0)=0.。
 
 ### A simple primitive axial algebra with a disconnected non-annihilation graph, and a decomposable axial block
 
@@ -485,6 +562,8 @@
 - 审阅状态。held — finite computational certificate only; require the data file, parser and independent exact replay before treating A_7 as verified.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The manuscript describes a 2,520-point Lean certificate, but the checked PDF gives neither a pinned source revision nor the certificate data needed to reproduce the asserted terrace.。定位。Abstract (p. 1); construction and Lean-data discussion (pp. 4--5)。全卷 9 页。后续条件。Versioned Lean source and data files, plus an actual Lean build of the listed construction.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The paper reduces the A7 terrace claim to finite conditions R1, R2, and S, but the PDF does not contain the 2,520-row data, a pinned Lean source tree, or a replayable certificate.。定位。Physical pp. 2 and 4--5, Theorem 1, Lemma 1, and its stated R1/R2/S certificate reduction.。全卷 9 页。后续条件。Obtain a versioned data and Lean repository, build it with the stated toolchain, and independently check the stored permutations and quotient matching.。
 
 ### An axial algebra whose automorphism group does not preserve its Frobenius form: an answer to a question of Shpectorov
 
@@ -495,6 +574,9 @@
 - 审阅状态。candidate—finite explicit algebra component only; theorem claim remains dependent on the separately hosted Lean artefact.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The finite F_11 multiplication table and form constraints are concrete, but a useful transfer needs a separate exact finite-field solver for every associative bilinear form and a source-specific replay of the claimed axial data.。定位。Displayed algebra and form data (pp. 2--4)。全卷 6 页。后续条件。Implement and test the F_11 table/form linear-system replay; verify the linked Lean formalization only if it is invoked as evidence.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The displayed F_11 multiplication table, diagonal form and basis swap yield a closed finite calculation. Exact modular replay verifies the Frobenius identities, one-dimensional associative-form space, swap automorphism, sign change and invertibility of the four axis multiplications.。定位。Physical pp. 2--4 displayed product, form, eigenvector computation and proof of Theorem 1.。全卷 6 页。后续条件。The bounded replay needs no external dependency. Fusion-law conventions and any claim about the external Lean build remain outside the checker.。
+- 已采用构件。物理页 2, 3, 4。Exact replay of the supplied four-dimensional F_11 multiplication table and form identities only. [方法说明](../../math-finite-nonassociative-algebra-audits/references/recent-01-axial-f11-frobenius.md)。
 
 ### Complete mappings of the Brauer and partial Brauer monoids
 
@@ -505,6 +587,8 @@
 - 审阅状态。candidate—explicit finite-semigroup construction is auditable in the text, with external reduction/formalization dependencies retained.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The checked author manuscript invokes reduction results and diagram terminology external to the supplied proof; the exact partial-Brauer definition/version must be settled before a reusable mapping checker can be scoped.。定位。Theorem 1.1 and reduction setup (pp. 2--5)。全卷 16 页。后续条件。A stable published or corrected version and the precise external reduction and partial-Brauer conventions used by the theorem.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The asserted complete-mapping classification depends on external Rees-principal-factor conventions, Hall--Paige reductions, and a reported Lean formalization that were not supplied for replay.。定位。physical pp. 1--5, Theorem 1.1 and Table 1。全卷 16 页。后续条件。Fix the exact principal-factor and partial-Brauer conventions, then build the cited Lean release or independently verify the rank-two and rank-three reductions.。
 
 ### Inverse Problem in Difference Galois Theory
 
@@ -515,6 +599,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。This is an arXiv preprint whose inverse-difference-Galois construction depends on broad external difference-Galois machinery and a non-finite singularity construction; no bounded operation is supplied for independent replay here.。定位。Abstract and main theorem statement (pp. 1--2)。全卷 14 页。后续条件。Check the cited difference-Galois prerequisites and isolate a finite constructive subroutine with explicit input/output semantics.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The inverse difference-Galois realization is a preprint-level global construction over C(x), depending on Picard–Vessiot prerequisites, singularity conditions, rigidity and a generating-curve construction. It does not specify a bounded finite construction for a supplied group.。定位。Physical pp. 1–3 give the theorem and imported coefficient-group criterion; pp. 4–13 give rigidity, singularity and construction arguments.。全卷 14 页。后续条件。Check the stated difference-Galois prerequisites and derive an explicit finite construction with input representation, coefficient output and independently verified Galois-group certificate.。
 
 ### Irreducibility Testing of Sparse Polynomials over Integers is NP-hard and Probabilistic Polynomial Time
 
@@ -525,6 +611,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The preprint's sparse-irrationality conclusion uses quantitative input attributed to external results; the required parameter ranges and the actually used preprint versions need proof-chain checking before any transfer.。定位。Abstract and stated quantitative setup (pp. 1--3)。全卷 18 页。后续条件。Verify the cited quantitative sparse-polynomial and irrationality estimates at the stated ranges, including their preprint versions.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The sparse irreducibility hardness and PP claim depend on the displayed exact-3-CNF reduction plus recent quantitative zero-free and prime-ideal estimates. The Lean account explicitly retains those literature estimates as hypotheses, so it does not independently certify the unconditional complexity conclusion.。定位。Physical pp. 2–3 state Theorems 2 and 4 plus formalization scope; pp. 8–13 use the external analytic estimates and cutoff; pp. 16–18 describe retained hypotheses.。全卷 18 页。后续条件。Verify the cited zero-free and effective prime-ideal theorems at the required parameters and audit the reduction/cutoff proof, including the actual formalization build if it is to serve as evidence.。
 
 ### Medial racks and quandles of prime order: a proof of a conjecture of Vojtěchovský and Yang
 
@@ -546,6 +634,9 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The symmetric-function inequality has a clear statement, but its useful computational specialization depends on the paper's bialternant and maximum-principle machinery; no finite symbolic certificate or parameter interface is isolated yet.。定位。Main theorem and proof setup (pp. 1--4)。全卷 10 页。后续条件。Specify a finite partition/specialization input model and independently replay the cited symmetric-function identities in that model.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。For rational specializations the Schur Turan ratio has an exact Jacobi--Trudi determinant evaluation, independent of the draft's maximum-principle proof.。定位。physical pp. 1--4, Theorem 1.1, Turan-ratio definition and Toda proof setup。全卷 10 页。后续条件。The all-x monotonicity theorem still requires the bialternant/Toda maximum-principle proof. The manuscript's Macdonald conclusion remains conjectural.。
+- 已采用构件。物理页 1, 2, 3, 4。Exact finite comparison of two rational Schur Turan-ratio specializations. Whole-interval monotonicity and the conjectural Macdonald extension are excluded. [方法说明](../../math-symmetric-polynomial-ratio-certificates/references/wave9-schur-turan-finite-ratio.md)。
 
 ### On a Rank Nullstellensatz Conjecture for Noncommutative Polynomials
 
@@ -556,6 +647,9 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The short note gives finite rank manipulations, but its key Nullstellensatz equivalence is credited to an external theorem and is not re-established in the supplied source.。定位。Proposition and proof (pp. 2--3)。全卷 3 页。后续条件。Verify the precise cited rank-Nullstellensatz theorem and then isolate a finite matrix instance checker with its hypotheses exposed.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The explicit nonhomogeneous counterexample reduces to the finite identity rank(I-XY)=rank(I-YX), which the exact rational verifier checks for supplied matrices. The source clearly limits the ideal-membership equivalence to homogeneous generators.。定位。Physical pp. 2--3, Theorem 2.2 and Proposition 3.1 with its kernel-map proof.。全卷 3 页。后续条件。The homogeneous rank-to-ideal direction requires the externally cited Salomon--Shalit--Shamovich Nullstellensatz over its stated algebraically closed characteristic-zero field.。
+- 已采用构件。物理页 2, 3。Exact verification of rank(I-XY)=rank(I-YX) for supplied rational square matrices and an explicit nonhomogeneous boundary. It does not certify the external homogeneous Nullstellensatz. [方法说明](../../math-l07-noncommutative-matrix-tests/references/rank-nullstellensatz-homogeneous-boundary.md)。
 
 ### On majorization inequalities for normalized Jack and Macdonald polynomials
 
@@ -566,6 +660,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The Jack/Macdonald majorization theorem is explicit, but the argument depends on external integral and recursion formulas; a bounded symbolic tool requires those dependencies and normalization conventions to be checked first.。定位。Theorem statement and proof dependencies (pp. 1--6)。全卷 20 页。后续条件。Verify the cited integral/recursion formulas and build a finite partition evaluator with an explicit normalization contract.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The Jack majorization proof imports the positive Gelfand--Tsetlin integral and Dixon--Anderson recursion. The finite-q Macdonald claims have only the stated restricted scopes.。定位。physical pp. 1--6, Theorems 1.1--1.2 and Gelfand--Tsetlin integral setup。全卷 20 页。后续条件。Verify the integral and recursion normalizations before exposing a finite partition evaluator. Preserve alpha>0, positive variables and dominance for Jack, plus each stated finite-q restriction.。
 
 ### On the asymptotic Makar-Limanov rank conjecture
 
@@ -576,6 +672,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The 22-page author manuscript proves an asymptotic normalized-rank infimum through symbolic differential fields, finite-precision residual improvement, compression, and descent (physical pp. 11--21). It supplies no finite caller interface whose proof dependencies can be isolated here; its stated Lean alignment is not an independent replay.。定位。physical pp. 1--2 (statement/scope), 11--15 (residual improvement), 18--21 (compression, descent, conclusion)。全卷 22 页。后续条件。Independently verify the residual-improvement iteration and the finite compression/descent chain, including its constants, before extracting any component.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The asymptotic normalized-rank theorem relies on symbolic differential fields, residual-improvement induction, finite truncation, matrix compression and descent. The displayed 3-by-3 illustration is insufficient to expose a general finite certified interface.。定位。Physical p. 2 states the theorem and finite illustration; pp. 5–15 develop differential-symbol/residual machinery; pp. 18–21 give compression, descent and conclusion.。全卷 22 页。后续条件。Independently audit the residual-improvement iteration and the compression/descent constants, then isolate a finite input/output certificate for a fixed free polynomial and rank target.。
 
 ### On the rank of groups of equivariant permutations: a counterexample to an upper bound
 
@@ -596,6 +694,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。This 20-page v1 preprint's fusion-defect Schur-positivity claim is representation-theoretic and imports the Macdonald/fusion identifications needed to state the module. No finite coefficient calculator or independently checked proof segment is supplied by this review.。定位。physical pp. 1--4 (statement and definitions), 4--18 (fusion/module argument)。全卷 20 页。后续条件。Verify the cited Macdonald-module and fusion-product identifications, then produce a bounded symmetric-function input/output routine if needed.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The fusion-defect positivity statement is built on Garsia--Haiman and fusion-product identifications. The preprint gives its module construction, but no finite symmetric-function input/output contract was recovered independently.。定位。physical pp. 1--4, Theorem 1.2 and its construction。全卷 20 页。后续条件。Verify the Macdonald-module and fusion-product identifications for the chosen normalization, then supply a bounded character evaluator or an explicit module witness.。
 
 ### The q-Foulkes problem II: Schur positivity with high probability
 
@@ -606,6 +706,9 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The 32-page v1 preprint reformulates a q-Foulkes positivity question through Plancherel/regular-module and concentration arguments. The high-probability conclusion is not a coefficientwise positivity certificate and its representation-theoretic and probabilistic prerequisites remain external.。定位。physical pp. 1--4 (main statements and scope), 5--29 (probability and representation steps)。全卷 32 页。后续条件。Check the stated wreath/regular-module reductions and concentration bounds before considering a finite sampler or bound checker.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The conditional degree-law identity and exact ordered-matching deficiency are finite statements with a proof from cumulative sums and nested neighborhoods. They yield a reusable checker for caller-supplied multiplicity arrays.。定位。physical pp. 3--6, Propositions 2.2--2.3 and Theorem 3.4。全卷 32 页。后续条件。The high-probability q-Foulkes conclusion still needs the paper's wreath-induction and character-ratio/concentration argument.。
+- 已采用构件。物理页 3, 4, 5, 6。Exact order and matching check for caller-supplied finite nonnegative equal-mass multiplicity arrays. [方法说明](../../math-graded-character-order/references/q-foulkes-graded-order.md)。
 
 ### The q-Foulkes problem III: On Foulkes' conjecture with a graded inner factor
 
@@ -616,6 +719,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The 18-page v1 preprint explicitly leaves the graded q-Foulkes route conditional/open; the threshold statement depends on prior external work. It is not a certified operator for the general conjecture.。定位。physical pp. 1--4 (conditional statements and threshold), 5--16 (graded construction)。全卷 18 页。后续条件。Obtain and verify the conditional graded-map premise and the cited threshold result before extracting a specialized test.。
+- 复核记录。2026-11-26T19:04:42+08:00。citation。citation。
+- 本次依据。The canonical-map threshold b >= (a-1)^2 is presented with an internal polarization proof, while its graded Macdonald consequence uses the Garsia--Haiman identification and other parts remain conditional. It is retained as a scoped source theorem rather than a standalone character calculator.。定位。physical pp. 1--7, Theorems 1.2--1.3 and Corollary 2.4。全卷 18 页。后续条件。For a claimed Schur-positivity application, provide the canonical-map regime and independently identify the required graded module and its character.。
 
 ### The Macdonald (q,t)-permanent I: Algebra and positivity
 
@@ -626,6 +731,9 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。This 28-page v1 preprint's Macdonald permanent positivity route relies on Macdonald identities, immanant positivity, and Haar/Gaussian arguments. No standalone finite certificate has been verified here.。定位。physical pp. 1--3 (main claims), 4--14 (algebra/positivity construction)。全卷 28 页。后续条件。Audit the kernel-to-immanant positivity implication and identify a finite rational specialization with independently checkable premises.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The defining finite cycle-weighted permutation sum and its hook-content decomposition are explicit. A rational enumerator provides a nonduplicative finite specialization interface while leaving the all-size kernel sign theorem outside its scope.。定位。physical pp. 1--6, definition and finite immanant expansion。全卷 28 页。后续条件。For PSD or all-size positivity, establish the paper's rank and parameter hypotheses and the needed immanant sign premise.。
+- 已采用构件。物理页 1, 3, 4, 5, 6。Exact finite permutation sums for supplied rational q, t, and matrix entries; no global PSD positivity claim. [方法说明](../../math-cycle-weighted-permanent/references/macperm1-finite-cycle-sum.md)。
 
 ### The integer group determinants of the Heisenberg group of order 125
 
@@ -636,6 +744,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The 13-page author draft's 5-adic group-determinant classification imports the Mossinghoff--Pinner cyclotomic factorization/congruences and Panraksa seed elements. The claimed formalization was not independently replayed and the visible-prime condition is specific to Z[zeta_5].。定位。physical pp. 1--7 (Theorem 1, factorization and valuation/construction steps)。全卷 13 页。后续条件。Verify the imported cyclotomic factorization and the seed constructions before separating a finite 5-adic valuation checker.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The 5-adic classification imports the cyclotomic factorization and congruence results of Mossinghoff--Pinner and seed constructions of Panraksa. The supplied PDF does not make those dependencies independently replayable.。定位。Physical pp. 1--7, Theorem 1 and Propositions 1 and 3--5.。全卷 13 页。后续条件。Verify the imported factorization and seed elements, then isolate a finite Z[zeta_5] valuation and visibility checker.。
 
 ## 矩阵不等式、算子与分析
 
@@ -648,6 +758,8 @@
 - 审阅状态。held — unrefereed author manuscript; retain the route as a candidate research lead only, not as a certified uniform-bound module.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The 29-page author manuscript's dimension-independent commutator assembly invokes Marcus--Spielman--Srivastava selection, block-Sylvester estimates, and a recursive compression construction. Those analytic inputs and the claimed formal declarations have not been independently verified.。定位。physical p. 2 (Theorem 1.1), pp. 10--17 (compression and induction closure), pp. 23--27 (formal declarations)。全卷 29 页。后续条件。Verify Lemma 3.8/Proposition 3.9 and the induction-closing estimates before extracting a finite-dimensional construction module.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The claimed dimension-independent single-commutator bound closes a recursive construction with Marcus–Spielman–Srivastava vector selection and block estimates. Neither that external input nor the induction constants have been independently certified here.。定位。Physical pp. 2–3 state the result; pp. 10–17 construct the compression/induction branch; pp. 23–27 describe the claimed formal material.。全卷 29 页。后续条件。Verify Lemma 3.8, Proposition 3.9, the MSS input and the induction-closing norm estimates before exposing a uniform commutator constructor.。
 
 ### A Proof of Petz's Conjecture on the Scalar Curvature of the Kubo–Mori Metric
 
@@ -658,6 +770,8 @@
 - 审阅状态。candidate — preprint-audited concavity/Stieltjes method only; Petz's global conclusion remains conditional on the cited Dittmann reduction and independent checking of the long sign computation.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The 17-page v1 preprint contains a concrete Stieltjes-to-strict-concavity template on a positive cone, but its key boundary-sign calculation and slit-plane/keyhole reconstruction have not been independently checked; the scalar-curvature conclusion also imports Dittmann's reduction.。定位。physical pp. 2--7 (concavity reduction), 8--12 (analytic continuation/reconstruction), 13--17 (boundary-sign inequalities)。全卷 17 页。后续条件。Audit the boundary-sign chain on physical pp. 9--17 and Dittmann's exact reduction before adopting a positive-cone concavity component.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The strict-concavity route uses slit-plane continuation, keyhole reconstruction and a long boundary-sign calculation, while the curvature conclusion imports Dittmann's reduction.。定位。physical pp. 2, 7--12 and 13--17, Theorem 1.1, Stieltjes reconstruction and boundary signs。全卷 17 页。后续条件。Audit the boundary-sign chain and reconstruction on the positive cone and verify the exact Dittmann reduction before using the scalar-curvature conclusion.。
 
 ### A Spectral Blakley–Roy Inequality for Nonnegative Matrices
 
@@ -679,6 +793,8 @@
 - 审阅状态。held — preprint argument with layered unpublished/external dependencies; do not promote the uniform finite-von-Neumann claim to a tool theorem.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The asserted uniform single-commutator bound for finite von Neumann algebras depends on the imported dimension-independent matrix theorem, simultaneous compression, II_1 factor construction, measurable selection, and separable reduction; none is independently certified here.。定位。Theorems 1.1--1.2 and construction plan (physical pp. 1--3); Proposition 3.2 (physical p. 5)。全卷 23 页。后续条件。Verify the cited matrix base case and every factor/decomposition step before treating the absolute constant as a callable theorem.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The finite von Neumann algebra theorem imports the claimed finite-dimensional uniform commutator result and adds factor compression, projection comparison, measurable selection and central decomposition. The layered unpublished and external dependencies are not independently certified.。定位。Physical pp. 1–3 state the theorem and dependency plan; p. 5 gives the initial factor proposition; pp. 10 and 17–21 carry the assembly and central-decomposition arguments.。全卷 23 页。后续条件。Verify the matrix base case and every factor/decomposition/selection step, including measurability and the absolute-constant accounting.。
 
 ### An Explicit Polynomial Counterexample to Connes' Embedding Conjecture
 
@@ -689,6 +805,8 @@
 - 审阅状态。held — extraordinary unrefereed claim with deep external dependencies; no Connes-embedding counterexample or reusable separation theorem is accepted pending full independent verification.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The explicit polynomial separation claim is extraordinary and its matrix lower bound relies on the external Alekseev--Liu--Thom reconstruction/rigidity input plus a long finite-constant chain; the local manuscript is not an independently verified certificate.。定位。Theorem 1.1 and construction setup (physical pp. 1--5)。全卷 46 页。后续条件。Independently audit the cited group-ultraproduct obstruction and the quantitative reconstruction estimates before using the displayed polynomial as a separation witness.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The asserted Connes-embedding separation relies on the preprint Alekseev–Liu–Thom reconstruction, functional-calculus and spectral-gap estimates, and a long quantitative encoding chain. The displayed polynomial is not accepted as a separation witness without those proof dependencies.。定位。Physical pp. 1–5 state the claimed separation and setup; pp. 17–21 use reconstruction; p. 36 concludes the polynomial claim; pp. 39–45 give encoding and rounded trace bounds.。全卷 46 页。后续条件。Independently verify the group/von-Neumann evaluation, the reconstruction theorem and all quantitative rounding and trace estimates before using the polynomial as a certificate.。
 
 ### Beyond Small Balls: A Determinant Inequality for Functions of Matrix Gaussian Series
 
@@ -699,6 +817,8 @@
 - 审阅状态。held—proof chain has substantial external analytic and computer-checked ingredients; do not promote κ=13/5 as independently audited from this PDF.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The claimed determinant comparison at dilation 13/5 rests on a matrix-weighted Poincare input and an Akbas--Sra lemma, with appendix numerical/interval components not independently rerun.。定位。Main determinant inequality and assumptions (physical pp. 1--3); proof roadmap (physical pp. 3--10)。全卷 30 页。后续条件。Audit the weighted Poincare inequality, the localization reduction, and the stated interval computations before adopting the 13/5 constant.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The determinant comparison at dilation 13/5 depends on a matrix-weighted Poincare input, an Akbas--Sra localization lemma, and appendix interval computations that were not supplied as an independently replayable chain.。定位。Physical pp. 1--10, Theorems 2.1--2.2 and the moment, localization, and hinge-reduction steps.。全卷 30 页。后续条件。Audit the weighted Poincare inequality, the hinge-localization reduction, and each stated interval calculation before adopting the 13/5 conclusion.。
 
 ### Lower bounds for the quantum permanent
 
@@ -709,6 +829,9 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The quantum-permanent lower bounds use positive-bistochastic orbital distributions plus recursively imported low-dimensional exact certificates; their numerical seeds and external positivity results were not independently certified.。定位。Theorem 1.2 (physical p. 2); Propositions 2.1 and Lemmas 2.2--2.3 (physical pp. 3--4)。全卷 30 页。后续条件。Reproduce the exact small-dimensional certificates and verify every inherited compression constraint before using either global lower bound.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Proposition 2.1 isolates a finite rational score calculation from a supplied partition profile and square-free floor. The resulting lower bound is independently reproduced by exact fraction arithmetic.。定位。physical pp. 2--4, orbital profile and Proposition 2.1。全卷 30 页。后续条件。Establish that a profile is produced by a positive bistochastic map and independently supply the square-free floor before transferring the numerical lower bound to a map.。
+- 已采用构件。物理页 3, 4。Exact partition-profile score arithmetic conditional on a supplied nonnegative profile and square-free floor. [方法说明](../../math-quantum-permanent-score/references/quantum-permanent-score.md)。
 
 ### On Lin's Arithmetic–Geometric Means Conjecture for Singular Values
 
@@ -730,6 +853,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The Hua--Bellman positive-definiteness and metric claims rely on alpha-permanent representation theory, Gindikin/Wallach characterizations, and an asserted 60-digit counterexample; those external and numerical pieces are not independently certified.。定位。Counterexample and Theorem 2.1 (physical pp. 2--5)。全卷 12 页。后续条件。For a particular use, independently certify the exponent class and the relevant alpha-permanent or cone theorem; rerun a directed certificate for the counterexample if needed.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The claimed positive-definiteness ranges rely on alpha-permanent representation theory, the Gindikin/Wallach characterization, and a 60-digit counterexample whose interval certificate is absent.。定位。Physical pp. 2--6, the Bellman counterexample, Theorem 2.1, and the alpha-permanent expansion.。全卷 12 页。后续条件。For a particular use, certify the exponent class and the relevant alpha-permanent or cone theorem. For the counterexample, supply a directed interval certificate for a negative quadratic form.。
 
 ### The p-Bures-Wasserstein distance via 3x3 block matrices (with application to p-Bures-Wasserstein barycenters)
 
@@ -740,6 +865,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The asserted p-Bures--Wasserstein metric and barycenter claims use a Schatten partition inequality, support/convexity arguments, and numerical appendix comparisons; the full preprint proof chain and external inputs remain unverified.。定位。Theorems 1.1--1.3 and setup (physical pp. 1--3); appendices identify additional numerical claims (physical pp. 14--20)。全卷 20 页。后续条件。Independently certify the stated partition inequality for the requested p, support assumptions, and barycenter fixed-point derivation before using the claimed metricity or convergence statements.。
+- 复核记录。2026-11-26T19:04:42+08:00。citation。citation。
+- 本次依据。The stated metric proof reduces to a Schatten partition inequality whose intermediate-p case invokes complex interpolation of Schatten and vector-valued spaces. The current corpus has no certified implementation of that analytic input.。定位。physical pp. 1--6, Theorems 1.1--1.3 and proof of Theorem 1.2。全卷 20 页。后续条件。For a metric or barycenter use, verify the requested p-range and reproduce the interpolation and support-limit argument with the relevant finite-dimensional hypotheses.。
 
 ### The generalized Lax conjecture holds for mixed determinants
 
@@ -750,6 +877,8 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The paper gives a concrete inductive spectrahedral-cone construction: rank-one affine identities and a Schur-complement exit threshold. However its general mixed-determinant theorem depends on Borcea--Branden real-rootedness/interlacing and a full induction not independently certified.。定位。Theorem 1.1 overview (physical pp. 1--3); Lemmas 2.1--2.5 (physical pp. 4--6); induction discussion (physical pp. 6--10)。全卷 31 页。后续条件。To use it, verify the exact mixed-determinant definition, the external stability/interlacing theorem, the base pencil, and each unital completely-positive/decomposable-map induction invariant.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。This 31-page author preprint states a constructive completely-positive pencil for mixed-determinant cones, but the induction uses Borcea--Branden stability/hyperbolicity results, boundary kernels and a substantial source-specific construction that is not encoded in an installed reproducible interface.。定位。Physical pp. 1--4 definition and Theorem 1.1; pp. 7--18 induction and pencil construction.。全卷 31 页。后续条件。Fix a small d,m instance, reproduce the stated CP maps and check the cone equality against the primary Borcea--Branden inputs before creating a mixed-determinant SDP certificate.。
 
 ### Tsallis Metrics on Density Matrices via the S-Divergence
 
@@ -760,6 +889,8 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The source states an explicit metric range for the Tsallis centroid divergence and gives a four-point S-divergence proof route, but the claimed global metric theorem is a recent author preprint and its integral/trace-power transitions remain unverified.。定位。Theorems 1.1--1.2 and reduction (physical pp. 1--2); four-point proof and sharpness construction (physical pp. 3--5)。全卷 14 页。后续条件。Verify the four-point log-det kernel argument, the trace-power integral representation, and the tensoring endpoint transfer for the specific alpha range.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The metric result relies on a four-point log-determinant kernel, a trace-power integral representation and a tensoring transfer across the stated alpha range.。定位。physical pp. 1--5, Theorems 1.1--1.2, Theorem 3.2 reduction and four-point argument。全卷 14 页。后续条件。Audit the four-point kernel argument, integral representation and endpoint transfer for the caller's positive-definite density matrices and precise alpha range.。
 
 ### Weak positivity of Schur forms under decomposable curvature
 
@@ -770,6 +901,8 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。The decomposable-curvature route is a concrete candidate, but it relies on Gurvits's Gaussian determinant identity and Finski's quotient/incidence formula; the source explicitly does not prove unrestricted positive-map or general Schur-form positivity.。定位。Main scope and Theorem 5.3 description (physical pp. 1--2); hereditary determinant positivity interface (physical pp. 3--5)。全卷 37 页。后续条件。Verify decomposability for the supplied curvature map and independently check the Gurvits and Finski inputs before concluding weak Schur-form nonnegativity.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The decomposable-curvature conclusion uses a quaternionic-Gaussian determinant representation and Finski's incidence formula, each external to the finite source interface.。定位。physical pp. 1--5 and 19--21, Theorem 2.3, determinant interface and applications。全卷 37 页。后续条件。Verify a supplied curvature map's Kraus decomposability, then check the Gurvits determinant identity and Finski quotient/incidence input before concluding weak Schur-form nonnegativity.。
 
 ### Wigner–Yanase–Dyson Metrics Have Monotone Curvature
 
@@ -780,6 +913,8 @@
 - 审阅状态。candidate
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。Physical 20-page author v1 verified. Theorem 1.1 has non-explicit epsilon and its Stieltjes route depends on Dittmann's formula and a companion p=1 boundary inequality; it is not a finite certificate for a supplied metric parameter.。定位。Theorem 1.1 (p.2); reduction (pp.3,8--10); completion/failure at p=2/3 (p.15).。全卷 20 页。后续条件。Audit the companion p=1 source and Dittmann formula, then provide explicit epsilon and a certified boundary-sign verifier.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The monotone-curvature theorem supplies only a non-explicit epsilon. Its Stieltjes reduction depends on the companion p=1 boundary estimate and Dittmann's formula, so it cannot yet certify a supplied numerical WYD parameter.。定位。physical pp. 1--4 and 8--16, Theorem 1.1 and Stieltjes reduction。全卷 20 页。后续条件。Audit the companion boundary theorem and Dittmann formula, then derive an explicit epsilon and a finite boundary-sign certificate.。
 
 ## 几何、覆盖与极大算子
 
@@ -792,6 +927,8 @@
 - 审阅状态。held — author/AI workflow draft; do not use its strict-net conclusion or formalization claim without a reproducible Lean-source audit.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。Physical 10-page author manuscript verified. The coordinate statement is explicit, but strict-net use needs unavailable external Lean sources/build and textual facet, cut-tree, and disk-topology arguments.。定位。Formal Theorems 1--2 and maps (p.3); tooling disclosure (p.9).。全卷 10 页。后续条件。Obtain the pinned Lean source, certificate, and toolchain; replay it and check the formal objects against crossed-roof topology.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The coordinate charts are explicit, but the strict-net claim relies on unavailable Lean sources and the unformalized facet, cut-tree, disk-topology, and simple-polygon assertions.。定位。Physical pp. 3--4 for coordinate charts and contacts, and pp. 6--9 for the formalization boundary.。全卷 10 页。后续条件。Obtain the frozen Lean source, certificate, and toolchain; replay them and compare their formal objects to the crossed-roof topology.。
 
 ### A non-hollow lattice 4-simplex of covering radius 2 outside the equality list of a conjecture of Codenotti, Santos and Schymura
 
@@ -802,6 +939,9 @@
 - 审阅状态。held — retain as an unverified candidate counterexample, not as a settled refutation or a reusable lattice-covering theorem.
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。Physical 10-page author manuscript verified. It gives a small residue proof for a radius-2 simplex, but the counterexample/equality-list claim depends on un-replayed Lean material and non-Lean Lemma 4.。定位。Residue Lemma 3 and Proposition 1 (p.4); equality-family Lemma 4 (p.5); Lean claim (p.9).。全卷 10 页。后续条件。Independently replay the residue computation, certify covering and interior-point steps, and check equality-list comparison against primary CSS definitions.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The 1296-residue Lemma 3 is an explicit finite statement with a printed exhaustive Python formulation. Its use as a full radius/equality-list result has separate affine and structural dependencies.。定位。Physical p. 4, Lemma 3 and the residue step of Proposition 1.。全卷 10 页。后续条件。Use the finite checker only after fixing modulus, weights, and score threshold. Covering-radius and equality-list conclusions require their separate geometric arguments.。
+- 已采用构件。物理页 4。Exact finite residue minimax check for supplied integer modulus, weights, threshold, and optional witness. [方法说明](../../math-l03-rational-and-interval-certificates/references/css-covering-residue-certificate.md)。
 
 ### Bounds for the weak type (1,1) constant of the centred maximal operator over squares
 
@@ -812,6 +952,8 @@
 - 审阅状态。candidate—use as a router-level certified-computation pattern only; numerical constants require replay of the external exact certificates.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。Physical 12-page author-hosted manuscript verified. It specifies a concrete kernel and exact-certificate architecture, but its 1,181 dyadic coefficients and certificate programs are external; the numerical bounds cannot be re-certified from PDF alone.。定位。Theorems 1.2--1.3 and parameters (p.2); upper design (pp.6--8); lower design (pp.8--9); formalization (p.12).。全卷 12 页。后续条件。Fetch and pin the stated certificate bundle, then replay the Bernstein/ball-arithmetic and periodic-union exact computations.。
+- 复核记录。2026-11-26T19:04:42+08:00。candidate。dependency。
+- 本次依据。The author-hosted paper fixes alpha, R and h and describes upper and lower certificate architectures, but the 1,181 coefficients, source programs and exact lower covering data are absent from the PDF.。定位。Physical p. 2 states Theorems 1.2--1.3 and parameters; pp. 6--9 describe the upper and lower certificates; p. 12 describes formalization.。全卷 12 页。后续条件。Pin and replay the stated certificate bundle, including Bernstein or ball-arithmetic positivity and periodic-union exact computations.。
 
 ### Centred maximal constants for squares: c₂ &lt; 4
 
@@ -822,6 +964,9 @@
 - 审阅状态。held—retain only the conditional transfer lemma; do not record c₂&lt;4 as a locally instantiated proof.
 - 复核记录。2026-11-26T18:11:16+08:00。candidate。dependency。
 - 本次依据。Physical 9-page explanatory manuscript verified. Its Theorem 1 is a caller-premise transfer: an even integrable K majorizing the diamond with A_alpha K>=0 off zero yields c2<=integral(K)/2 after its normalization. No concrete strict kernel is supplied.。定位。Theorem 1 and partial-balayage steps (p.1); minimum-principle conclusion (pp.5--6).。全卷 9 页。后续条件。Supply a concrete kernel plus a certified off-origin fractional-operator sign proof. Current nonlocal-balayage skill is adjacent but has no square-maximal comparison certificate.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Theorem 1 is a usable caller-premise comparison transfer. Its stated nonlocal-kernel hypotheses and normalization are now recorded at the existing centered-square endpoint entry. The strict constant needs a separate sign certificate.。定位。Physical p. 1 states Theorem 1; pp. 5--8 give the partial-balayage, minimum-principle and comparison steps; pp. 8--9 state the numerical candidate.。全卷 9 页。后续条件。A concrete kernel with a certified off-origin A_alpha sign calculation is required for any numerical c2 bound.。
+- 已采用构件。物理页 1, 5, 6, 7, 8。A caller-premise two-dimensional square-maximal transfer with a supplied even majorant and certified off-origin nonlocal sign. It does not certify a strict numerical constant. [方法说明](../../math-centered-cube-endpoint-budget/references/lin-square-comparison-premise.md)。
 
 ### Continuous planar isotropy (extended manuscript)
 
@@ -853,6 +998,8 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。Physical 8-page author manuscript verified. The coordinate prism/cube trichotomy is narrow and its upper-bound claim relies on external Lean; it yields no general illumination bound.。定位。Theorem 1 (p.2); lower-bound argument (p.3); Lean mapping/provenance (pp.6--7).。全卷 8 页。后续条件。Obtain/replay Lean package and separately inspect written upper bound for compact convex K between exact P,Q,E.。
+- 复核记录。2026-11-26T19:04:42+08:00。held。dependency。
+- 本次依据。The prism/cube trichotomy has an explicit coordinate statement, but the claimed all-compact-convex-body upper bounds are delegated to an unavailable Lean project and its accompanying geometric premises.。定位。Physical pp. 1--6, Theorem 1, the lower-bound construction, and the Lean mapping.。全卷 8 页。后续条件。Replay the pinned Lean package and inspect the written compactness and illumination-direction proof for the exact P, Q, and E assumptions.。
 
 ### Lattice simplices whose Minkowski length exceeds the lattice diameter, and dilates whose Minkowski length is not quasi-linear
 
@@ -863,6 +1010,9 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。Physical 11-page author manuscript verified. It states explicit tetrahedra and finite packing arguments, but claimed formal verification is external and problem-resolution claims require checking the cited primary edition and full finite certificates.。定位。Theorems 1--2 and citation caveat (p.2); corner/T certificate (pp.3--4); U proof (p.5); Lean map (p.9).。全卷 11 页。后续条件。Verify cited problem statements, then certify lattice points/no-cube table/packing inequalities or replay pinned Lean project.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Lemma 1 gives a complete elementary equivalence between a translated sum of integer segments and its finitely many corners. Exact barycentric containment supplies a reusable lower-bound certificate.。定位。Physical p. 3, Lemma 1 and the lower-bound construction in Proposition 1.。全卷 11 页。后续条件。Exact Minkowski lengths, the upper packing bound, lattice diameter, and the quasi-linearity counterexample require their separately stated arguments.。
+- 已采用构件。物理页 3。Exact rational barycentric check that all segment-sum corners lie in a supplied integer simplex, proving only the associated lower bound. [方法说明](../../math-l02-adversarial-input-search/references/minkowski-length-corner-certificate.md)。
 
 ### The Chaise Longue Theorem
 
@@ -873,6 +1023,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。Physical 82-page author v12 verified. Algebraic group-ring dimension claims need a large un-replayed Lean project; geometric consequences also call on Pham and Degtyarev--Shimada inputs. The manuscript is unrefereed.。定位。Abstract/result table (pp.1--2); reduction (pp.3--4); Theorem B/A (pp.6--7); certificate scope (pp.62--67).。全卷 82 页。后续条件。For bounded algebraic use, replay exact Lean sources and audit characteristic-p reduction; for geometry also verify primary topological results and source-to-formalization correspondence.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The v12 author manuscript separates a Lean-claimed algebraic quotient theorem from the topological transfer needed for Fermat-lattice primitivity. Neither the asserted Lean project nor the cited Pham and Degtyarev--Shimada inputs were available to run or compare with the manuscript's group-ring objects.。定位。physical pp. 1--3 state the algebraic theorem, its Lean claim, and the topological transfer; p. 2 tabulates which conclusion depends on external topology; pp. 62--67 describe certificates and their stated scope。全卷 82 页。后续条件。Obtain a pinned Lean 4/Mathlib project and reproduce the algebraic theorem with its exact statement. For the geometric conclusion, verify the relevant Pham homology theorem and Degtyarev--Shimada intersection/topological identifications against the source-to-formalization map.。
 
 ### The Coordinate Pythagorean Theorem from Planar Isotropy (distinct historical manuscript)
 
@@ -883,6 +1035,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The local five-page author/AI-disclosure draft explicitly presents conditional coordinate Pythagorean results; the claimed Lean formalization is not a supplied, replayed build, so its stated assumptions and the formal artifact cannot become a reusable certificate.。定位。1, 2, 3, 4, 5。全卷 5 页。后续条件。Pinned Lean source and reproducible build, plus an independently specified interface for the six geometric assumptions.。
+- 复核记录。2026-11-26T19:04:42+08:00。citation。citation。
+- 本次依据。This five-page historical disclosure presents a conditional coordinate Pythagorean implication from six rigid-action assumptions, without a reusable finite interface beyond those supplied axioms.。定位。physical pp. 1--5, Theorems 2.1 and 3.1。全卷 5 页。后续条件。A pinned Lean source and a precise executable interface for all six geometric assumptions would be needed for a certificate tool.。
 
 ### The Watermark in Every Even Dimension
 
@@ -893,6 +1047,8 @@
 - 审阅状态。hold
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The author v2 manuscript's group-ring discriminant claims explicitly pass through Pham/Looijenga, Shioda, Degtyarev--Shimada and the unrefereed BRR input; no self-contained finite verifier can be extracted without rechecking those dependencies.。定位。1, 2, 3, 14, 15。全卷 16 页。后续条件。Primary versions and checked hypotheses for the cited Hodge-lattice and BRR results.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The 16-page unrefereed v2 derives the general discriminant formula through the Hodge-lattice identifications, the earlier Chaise Longue theorem, and Bezrukavnikov--Riche--Rider Proposition 2.12. Its own summary says the formula is a lower bound without the latter count, while listed machine checks cover only finitely many cells.。定位。physical pp. 1--4 state Theorems 1--3, the formula and group-ring identification; p. 2 lists dependencies and open status; pp. 14--15 distinguish the unconditional lower-bound portion, the BRR-dependent equality, and finite machine checks。全卷 16 页。后续条件。Verify primary Pham/Looijenga, Shioda/Ran, Degtyarev--Shimada and BRR hypotheses for the stated Fermat family, then reproduce the group-ring and Hilbert-function bridge. A pinned check of the cited Chaise Longue formalization is also needed for the asserted primitivity input.。
 
 ### The discrete quantitative Helly number for five common lattice points
 
@@ -903,6 +1059,9 @@
 - 审阅状态。held
 - 复核记录。2026-11-26T18:11:16+08:00。held。dependency。
 - 本次依据。The parity/midpoint charging argument is readable, but the claimed quantitative Helly conclusions also require Averkov et al.'s polytope characterization and low-dimensional finite tables/Lean checks that were not supplied as replayable certificates.。定位。2, 3, 4, 5, 6。全卷 12 页。后续条件。The cited polytope characterization and the exact enumerations or a pinned Lean project with a successful build.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The parity midpoint and triple-recovery formulas prove a finite injection independently of the claimed low-dimensional tables or the Helly transfer. They admit exact integer replay on supplied residue classes.。定位。Physical pp. 4--5, Lemmas 1--2 and Proposition 2.。全卷 12 页。后续条件。The sharp n=2 and n=3 constants need the capacity tables, and quantitative Helly conclusions additionally need the cited polytope characterization.。
+- 已采用构件。物理页 4, 5。Exact midpoint-triple injection for a supplied finite mod-two residue class, excluding global capacity and Helly conclusions. [方法说明](../../math-l03-rational-and-interval-certificates/references/quantitative-helly-parity-midpoints.md)。
 
 ## 算法复杂性与机器学习
 
@@ -925,6 +1084,8 @@
 - 审阅状态。hold; do not promote ETH refutation or install a theorem skill without a pinned source replay and independent audit of reductions/model translation.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The PDF asserts a subexponential 3-SAT/#3-SAT algorithm and refers to a Lean formalization, but the claimed Hexagon v1 source is not the unrelated arXiv:2610.00577 record and no pinned formal release is present; no bounded exact component is independently installable.。定位。1, 2, 3, 40, 44。全卷 49 页。后续条件。Canonical Hexagon/Lean repository revision, build instructions, and a selected finite lemma with executable inputs.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The preprint asserts a deterministic 2^o(n) algorithm and gives Lean-facing statements, but the supplied PDF does not include a pinned proof release or a bounded executable lemma that can be separated from the sparsification, tensor and machine-model reductions.。定位。Physical pp. 1--5 state the algorithm and consequences; pp. 40--44 give the Lean-facing appendix.。全卷 49 页。后续条件。A canonical formal repository revision and build instructions, followed by a selected finite lemma with executable inputs and an audit of the prose-to-Lean reduction interface.。
 
 ### VP is not equal to VNP
 
@@ -935,6 +1096,8 @@
 - 审阅状态。hold; do not promote VP≠VNP, border-complexity consequences, or a theorem skill until independently replayed and statement/dependency-audited.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The PDF states a broad VP≠VNP lower bound and names Lean declarations, but its Hexagon v1 identifier is not the unrelated arXiv:2611.00954 record. The named Lean development is absent, so the extensive paper route does not yield a standalone verified tool.。定位。1, 2, 66, 67, 68, 69, 70。全卷 70 页。后续条件。Canonical formalization revision and a replayed build, followed by a narrowly scoped finite algebraic-circuit subcertificate.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The Anthropic preprint states a general arithmetic-circuit lower bound and delegates material proof details to a named Lean development that is not present in the local source bundle.。定位。physical pp. 1--2, 11, 17, and 60--70。全卷 70 页。后续条件。Obtain a pinned formalization revision, replay its build, and trace the theorem interface through the flat and contracting cases before exposing a lower-bound route.。
 
 ### Place Value, Not Position: Length Generalisation Limits in Neural Modular Arithmetic
 
@@ -957,6 +1120,8 @@
 - 审阅状态。hold as an unrefereed preprint; numerical and analytic claims are not independently verified and are not a reusable mathematics-skill theorem.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The weak-coupling Hawking--Page calculation depends on a three-loop QFT renormalization and many external field-theory inputs. Its PDF's Hexagon v1 label is not arXiv:2611.00175, which belongs to an unrelated paper; no finite independently executable remainder/counterterm certificate is supplied.。定位。1, 5, 6, 22, 23, 24, 26, 27。全卷 42 页。后续条件。Canonical source/code for the three-loop calculation, fixed conventions, and a finite symbolic or interval-checked coefficient certificate.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The reported weak-coupling coefficient relies on a three-loop renormalized field-theory computation, fixed conventions and numerical truncations. The supplied PDF has no self-contained symbolic or interval certificate for a reusable mathematics tool.。定位。Physical pp. 1, 5--8 and 20--27 state the calculation, its scope, checks and remaining discrepancy.。全卷 42 页。后续条件。Canonical source and code, fixed gauge and counterterm conventions, and a finite symbolic or interval-checked coefficient certificate.。
 
 ### The Spinless Modular Bootstrap
 
@@ -967,3 +1132,5 @@
 - 审阅状态。hold; no general CFT conclusion or skill promotion beyond the stated functional class and unverified computational certificate.
 - 复核记录。2026-11-26T18:11:16+08:00。hold。dependency。
 - 本次依据。The 131-page modular-bootstrap preprint gives exact and computer-assisted claims, but it expressly notes an unverified external proof in its comparison route and supplies no runnable numerical certificate. Its Hexagon v1 label is not arXiv:2611.00174, an unrelated control paper.。定位。1, 3, 4, 5, 120, 121, 122, 123, 124, 125, 126。全卷 131 页。后续条件。Pinned code/data for the certified functional and interval bounds, plus rechecked external theorem inputs for any general duality/attainment tool.。
+- 复核记录。2026-11-26T19:04:42+08:00。hold。dependency。
+- 本次依据。The 131-page preprint limits its strongest result to a specified functional class and uses computer-assisted Arb interval bounds. Its exact functional, executable certificates and a checked dependency path for the external comparison input are not present locally.。定位。Physical pp. 1--5 define the claimed functional-class scope; pp. 120--126 describe the computer-assisted certificates and dependencies.。全卷 131 页。后续条件。Pinned source code and parameter data for the interval proof, together with a replay of the functional and a source-level audit of the external duality or attainment input.。

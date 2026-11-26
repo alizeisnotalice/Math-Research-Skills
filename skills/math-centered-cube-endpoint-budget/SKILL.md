@@ -22,3 +22,7 @@ description: "Audit or extend centered axis-parallel cube Hardy–Littlewood wea
 - **上界**：先证明比较或对偶证书的可行性蕴含全量词目标，再验证空间变量 $x$、参数、奇异区、分段接缝、无穷尾都被覆盖；有限约束 LP 的最优点不自动给连续上界。二维旋转比较法可以作为候选证书，不可直接升维。见 [出版源与迁移边界](references/source-transfer.md)。
 
 最终把每项标成已证恒等式、引用结果（包含所需精确假设）、数值证书、数值实验或待证。固定维数上下界只与**同几何、同中心化、同归一化**比较。OpenAI 的圆盘 Sobolev 端点、管状 Kakeya、凸体格覆盖和欧几里得张量定价都不是这里的立方体 $L^1\to L^{1,\infty}$ 上界。
+
+## 文献复核采用的构件
+
+- [Square-maximal comparison premise from a nonlocal kernel](references/lin-square-comparison-premise.md)

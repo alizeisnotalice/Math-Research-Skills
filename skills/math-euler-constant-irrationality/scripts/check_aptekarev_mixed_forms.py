@@ -38,7 +38,10 @@ def delta(a, b, n):
 
 
 def approximate_residuals(p, q, r):
-    import mpmath as mp
+    try:
+        import mpmath as mp
+    except ImportError as error:
+        raise SystemExit("--numeric requires mpmath in the selected Python environment") from error
 
     mp.mp.dps = 320
     gompertz = mp.e * mp.e1(1)

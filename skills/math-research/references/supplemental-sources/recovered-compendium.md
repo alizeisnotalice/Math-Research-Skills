@@ -162,6 +162,9 @@
 - 相关入口。[math-integer-linear-form-rates](../../../math-integer-linear-form-rates/SKILL.md)。
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。The arXiv paper proves a zeta(2)-specific hypergeometric linear-form route, but its irrationality exponent depends on the complete Barnes--Mellin transformations, lcm/prime valuations, and parameter optimization; one generic identity is itself labelled expected outside the special parameter choice.。定位。physical p. 1, Theorem 1; p. 2 (Barnes--Mellin/integer-valued-polynomial inputs); p. 10 (expected generic identity); p. 14 (specific valuation ledger)。全卷 17 页。后续条件。For a new zeta(2) tool, replay the special-parameter integral transformation, integrality/valuation ledger and asymptotic optimization; do not extrapolate the expected generic identity.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The published zeta(2) construction supplies a rigorously scoped hypergeometric linear-form and denominator/rate route that fits the existing integer-linear-form gate.。定位。physical pp. 1, 6--8 and 14--15, Theorem 1, Proposition 1, parameter family and rate/denominator steps。全卷 17 页。后续条件。The caller must supply the source-specific integral, parameter family, denominator ledger, all-index asymptotics and nonzero remainder; finite hypergeometric evaluations remain finite evidence.。
+- 已采用构件。物理页 1, 6, 7, 8, 14, 15。Scoped source-specific hypergeometric linear-form route for zeta(2); it requires the full all-index arithmetic and asymptotic ledger. [方法说明](../../../math-integer-linear-form-rates/references/zudilin-zeta2-hypergeometric-ext0551.md)。
 
 ## EXT-0552 · Group automorphisms with few and with many periodic points
 
@@ -176,6 +179,9 @@
 - 构件候选。模同余步骤取决于模参数化和 Verrill 定理；L 值恒等式还使用超几何求和、Chowla--Selberg/Damerell 等输入，须为每个序列单独满足参数与分支条件 已核对表中对象、主恒等式和一段证明；未核验全部模参数化、p-adic Gamma 同余或 L 值文献，因此不能当作任意递推的自动识别器
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。The paper gives sharply scoped critical-L-value evaluations for six interpolated sequences, but the bridge requires sequence-specific modular parametrizations and external Verrill, Chowla--Selberg, and Damerell inputs; it is not an automatic recurrence recognizer.。定位。physical p. 2 (initial identity and limitations); pp. 4-6, Theorems 2.2-2.3 and modular-parametrization proof; p. 11 (special-value dependencies)。全卷 23 页。后续条件。A caller must provide the exact sequence label, modular function/form, derivative identity, level exclusions, and a verified special-value theorem for that form.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The published source adds a narrow modular-parametrization and interpolation route to the existing modular holonomic skill, with table-labelled sequences and explicit theorem separation.。定位。physical pp. 3--11 and 15--20, Theorems 2.1--2.3, tables and outlook。全卷 23 页。后续条件。Provide the exact source sequence label, binomial interpolation, modular parametrization, derivative identity, level exclusions and a proof of the relevant modular hypothesis.。
+- 已采用构件。物理页 3, 4, 5, 6, 7, 8, 9, 11, 15, 20。Scoped table-labelled interpolation and modular-parametrization route; it does not identify modular data for an arbitrary recurrence. [方法说明](../../../math-modular-holonomic-telescoping/references/osburn-straub-critical-l-values-ext0553.md)。
 
 ## EXT-0555 · A determinantal approach to irrationality
 
@@ -229,6 +235,8 @@
 - 构件候选。必须有可定义参数化、代数部分识别、Pila--Wilkie 计数和扭点 Galois 轨道下界；定量常数不由该摘要式框架自动给出 核对主定理、策略和周期集引理；未审计 Pila--Wilkie/Masser 输入及一般 abelian uniformity，不能直接用于任意特殊点计数
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。The Pila--Zannier strategy is clearly delimited for a number-field abelian variety and combines periodic-analytic geometry, Pila--Wilkie counting and Masser Galois-orbit lower bounds, but there is no current effective input contract for that chain.。定位。physical pp. 1-3 (abstract, strategy and Theorem 1.1*); p. 7 (periodic-analytic corollary); p. 11 (no quantitative output)。全卷 12 页。后续条件。Specify the abelian variety/subvariety, analytic uniformization and definability certificate, counting bound, and torsion-orbit lower bound before applying the torsion-order contradiction.。
+- 复核记录。2026-11-26T19:04:42+08:00。citation。citation。
+- 本次依据。The Pila--Zannier proof route needs definability, a periodic analytic uniformization, counting bounds and Galois-orbit lower bounds that the source does not package as a finite input contract.。定位。physical pp. 1--3, abstract, Theorem 1.1 and strategy; p. 7 periodic-analytic theorem。全卷 12 页。后续条件。Provide the abelian variety/subvariety, definable analytic lift, algebraic-part certificate, Pila--Wilkie count and torsion-orbit lower bound.。
 
 ## EXT-0575 · Dynamics on P1: Preperiodic Points and Pairwise Stability
 
@@ -264,6 +272,9 @@
 - 相关入口。[math-research](../../../math-research/SKILL.md)。
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。The Mahler hypertranscendence criterion has an exact scope, but it needs a certified difference-Galois group containing SL_n(C), monomial end-coefficient quotient and parametrized Picard--Vessiot machinery. The existing Hankel--Mahler tool does not establish those hypotheses.。定位。physical pp. 2-4 (Mahler equation, theorem and derivation choice); pp. 5-6 (PV prerequisites); p. 24, Theorem 4.3; p. 25, Theorem 4.6。全卷 26 页。后续条件。For a target Mahler system, certify its rational matrix/system, ordinary difference-Galois group and end-coefficient condition, then verify the parametrized-PV hypotheses before using the conclusion.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The published Mahler theorem yields a reusable conditional parametrized-difference-Galois gate and explicit Baum--Sweet/Rudin--Shapiro examples.。定位。physical p. 3, main theorem; pp. 17 and 23--25, Theorems 4.3--4.6 and applications。全卷 26 页。后续条件。Give an exact Mahler system, a proof its classical difference-Galois group contains SL_n, a monomial end-coefficient quotient and a nonzero Laurent solution.。
+- 已采用构件。物理页 3, 17, 23, 24, 25。Conditional Mahler derivative-independence route with a certified ordinary difference-Galois premise. [方法说明](../../../math-linear-difference-hypertranscendence/references/mahler-parametrized-galois-ext0587.md)。
 
 ## EXT-0588 · Hypertranscendence and linear difference equations
 
@@ -273,6 +284,9 @@
 - 相关入口。[math-research](../../../math-research/SKILL.md)。
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。The source gives strong either-base-field-or-hypertranscendental criteria, but every branch depends on a specified difference field, derivation, equation, and parametrized Galois hypothesis; no safe one-click predicate was isolated.。定位。Theorems 1.2--1.5 and the case setup on pp. 3--7。全卷 30 页。后续条件。Fix one of the shift, q-difference, or Mahler cases and verify its field, constants, singular/exceptions set, and Galois premise.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The source proves a general but tightly domain-qualified rational-or-hypertranscendental dichotomy for shift, q-difference and Mahler equations.。定位。physical pp. 3--7, Cases S0/S-infinity/Q/M and Theorems 1.2--1.5。全卷 30 页。后续条件。Fix one of Cases S0, S-infinity, Q or M with its exact K, F0, operator, derivation, Laurent or meromorphic membership and coefficient data.。
+- 已采用构件。物理页 3, 4, 5, 6, 7。Conditional dichotomy for a solution already in one of the paper's four exact difference-field settings. [方法说明](../../../math-linear-difference-hypertranscendence/references/linear-difference-dichotomy-ext0588.md)。
 
 ## EXT-0593 · Auxiliary functions in transcendental number theory
 
@@ -317,6 +331,9 @@
 - 构件候选。结论依赖正规性、互异奇点及非整数留数；从 Schlesinger 方程读出递推系数方程 已定位原始定理但未逐式复算 Θ/Ω 定义、边界弧及退化权重；不应用于任意正交多项式
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。Theorem 2 provides explicit Toda equations for a generic generalized-Jacobi weight, but its Theta/Omega data, branch arcs, regularity, distinct-singularity, and nonintegral-residue assumptions prevent a generic orthogonal-polynomial interface.。定位。Generic definition (p. 6), Theorem 1 (p. 11), and Theorem 2 equations (25)--(26) (p. 13)。全卷 29 页。后续条件。For a fixed weight, derive Theta_n and Omega_n from (12)--(15), specify arcs/branches, and verify the generic hypotheses.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。The published source gives explicit Toda deformation equations for generic generalized-Jacobi weights and a checkable Freud-to-Painleve-IV specialization.。定位。physical pp. 6, 11--13 and 18--19, definitions, Theorems 1--2 and Freud example。全卷 29 页。后续条件。Specify the weight, arcs and branches, regularity, distinct singularities, nonintegral residues and source-defined Theta/Omega data; initial or boundary conditions select the solution.。
+- 已采用构件。物理页 6, 11, 12, 13, 18, 19。Toda/Painleve interface only for specified semiclassical weights, branches and recurrence normalizations. [方法说明](../../../math-semiclassical-orthogonal-deformations/references/magnus-semiclassical-toda-ext0612.md)。
 
 ## EXT-0613 · Unearthing the Visions of a Master: Harmonic Maass Forms and Number Theory
 
@@ -344,6 +361,9 @@
 - 构件候选。精确恒等式依赖本文特定 theta 归一化及 Lambert 系列；不能从低阶 Jacobi 公式直接外推高阶而忽略 cusp 项 已核对主张与代表性恒等式，尚未逐核 125 页中各行列式常数、收敛域和预印本后续正式版本
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。The source has broad exact theta/Lambert families, but its normalization and the 125-page determinant machinery were not reduced to one bounded interface; beyond eight squares cusp-form contributions are material.。定位。Introduction (pp. 2--4) and elliptic/Lambert expansions including (2.47)--(2.54) (p. 15)。全卷 125 页。后续条件。Choose one named representation family and audit its theta normalization, determinant constants, convergence range, and any cusp-form correction.。
+- 复核记录。2026-11-26T19:04:42+08:00。adopted-local。component。
+- 本次依据。Theorem 1.7 supplies a self-contained exact r_16 divisor-convolution identity. It can be checked against the finite theta-power coefficients without using the source's general determinant machinery.。定位。Theorem 1.7, formulas (1.26)--(1.27), physical pp. 6--7。全卷 125 页。后续条件。The general 4n^2 and 4n(n+1) determinant families require separate normalization, convergence, and cusp-form audits.。
+- 已采用构件。物理页 6, 7。Exact finite verification of the stated r_16 divisor-convolution identity through a caller-supplied coefficient cutoff. [方法说明](../../../math-hankel-pade-certificates/references/milne-r16-divisor-convolution.md)。
 
 ## EXT-0620 · Paramodular abelian varieties of odd conductor
 
@@ -372,6 +392,8 @@
 - 构件候选。必须逐一认证 primitive 子群的 good 性与下界；该测度界不是自动给出 Diophantine 指数 已核定两条定理及假设；未为具体映射建立 good 性或验证所有常数
 - 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
 - 本次依据。The quantitative nondivergence bound is a reusable conditional theorem, but an application must certify goodness and a rank-weighted lower bound for every primitive integer subgroup; those are the substantive problem-specific steps.。定位。Theorems 0.1--0.2 (pp. 2--3) and the covering proof step (p. 9)。全卷 26 页。后续条件。For a specified h and measure, certify every subgroup's (C,alpha)-goodness and the rho^rank lower bound, then instantiate the explicit dimensional constant.。
+- 复核记录。2026-11-26T19:04:42+08:00。citation。citation。
+- 本次依据。Theorem 2.2 gives a precise conditional quantitative-nondivergence inequality, yet its application requires a uniform goodness proof and a lower bound for every primitive subgroup. These source-specific hypotheses cannot be certified from only numeric parameters.。定位。Theorem 2.2 and proof, physical pp. 9--10; Diophantine application conditions, physical p. 12。全卷 26 页。后续条件。Supply an N-Besicovitch space, D-Federer measure certificate, a ball, h, and proofs for every primitive subgroup of the (C,alpha)-good and rho^rank lower-bound conditions.。
 
 ## EXT-0628 · Hypergeometric functions over finite fields
 

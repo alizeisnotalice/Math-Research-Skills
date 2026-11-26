@@ -14,5 +14,7 @@ description: 核验指定有理轴代数乘法表、消去后的线性泛函，�
 
 ## 文献复核采用的构件
 
+- [Four-dimensional F_11 axial-algebra replay](references/recent-01-axial-f11-frobenius.md)
+
 - [A four-dimensional axial-algebra replay](references/recent-05-axial-nonannihilation.md)
 - [Prime-order affine medial-rack replay](references/recent-05-medial-racks.md)

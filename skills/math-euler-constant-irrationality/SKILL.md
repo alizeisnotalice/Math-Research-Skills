@@ -11,9 +11,11 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 
 - **Sondow 分数部分或对数线性形式：** 用 [Sondow 证书](../math-sondow-log-fractional-certificate/SKILL.md)；有限 \(n\) 只排除列明的有理分母，门槛必须在无穷子列上证明。
 - **Hessami Pilehrood 收敛子和非简单连分数：** 用 [欧拉常数连分数递推](../math-gamma-continued-fraction-recurrence/SKILL.md) 生成精确有限对象；它不自行给出无理性。
-- **Padé、多重 Laguerre、Hankel、Meijer G 或行列式候选：** 分别用 [多重 Laguerre 逼近](../math-gamma-multiple-laguerre-approximants/SKILL.md)、[Hankel 正矩工具](../math-hankel-pade-certificates/SKILL.md)、[Meijer G 保守矩阵场](../math-gamma-meijer-cmf/SKILL.md) 或 [OpenAI 算术行列式构造](../math-openai-arithmetic-determinants/SKILL.md)。先分开记录原始系数、共同约分、余项和高度。
+- **有限 \([n/m]\) 指数 Padé 与 Hurwitz 余项：** 用 [Prévost–Hurwitz](../math-prevost-hurwitz-pade-remainder/SKILL.md) 核对接触阶及有符号余项，保留 \(H_s\)、对数和 Hurwitz 值。
+- **多重 Laguerre、Hankel、Meijer G 或行列式候选：** 分别用 [多重 Laguerre 逼近](../math-gamma-multiple-laguerre-approximants/SKILL.md)、[Hankel 正矩工具](../math-hankel-pade-certificates/SKILL.md)、[Meijer G 保守矩阵场](../math-gamma-meijer-cmf/SKILL.md) 或 [OpenAI 算术行列式构造](../math-openai-arithmetic-determinants/SKILL.md)。先分开记录原始系数、共同约分、余项和高度。
 - **给定指标的严格有限证据：** 用 [Brent–McMillan 有理区间](references/brent-mcmillan-enclosure.md)、[Poisson 调和区间](references/poisson-harmonic-enclosures.md)、[Elsner 变换](references/elsner-transform.md)、[混合形式和高度](references/mixed-log-height-audit.md)、[有限有理级数](references/finite-rational-series.md) 或 [Gregory 系数区间](../math-gamma-gregory-series-interval/SKILL.md)。
 - **有限 Euler 级数转广义连分数：** 用 [Euler 级数连分数](../math-euler-series-continued-fraction/SKILL.md)；它只认证选择的有限恒等式。
+- **给定二阶递推和相邻解商：** 用 [Casoratian 精确检查](../math-order-two-casoratian-audit/SKILL.md) 核对 Wronskian 型数量的传播与商增量，再独立确认目标极限。
 - **交错倒数/Pierce 级数：** 用 [交错倒数连分数判据](../math-alternating-reciprocal-criteria/SKILL.md)；必须证明其全指标增长或整条简单连分数条件。
 - **已得到整系数形式的高度与余项界：** 用 [整数线性形式的指数率](../math-integer-linear-form-rates/SKILL.md)。
 
@@ -36,6 +38,10 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 - [Strict E-function logarithm admission gate](references/supp19-e-function-logarithm-admission.md)
 
 ## 文献复核采用的构件
+
+- [Brent--McMillan B1 的有限递推](references/brent-mcmillan-b1-1980.md)
+- [E-function exceptional-value admission](references/e-function-exceptional-value-admission.md)
+- [Euler--Mascheroni 指数动机的条件结论门槛](references/exponential-motive-conditional-gate-fresan-jossen.md)
 
 - [`Ein(1)` as the unique analytic cancellation of gamma and delta](references/ein-gamma-delta-uniqueness-ext0360.md)
 - [Rational-term Newton series for Euler's constant](references/rational-newton-gamma-series-ext0023.md)

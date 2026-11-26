@@ -35,3 +35,5 @@ For a finite r-uniform Fourier-support hypergraph, use [the hypergraph-support-c
 ## 文献复核采用的构件
 
 - [Walsh-support product gate for conditional FEI](references/walsh-product-conditional-fei.md)
+
+由代数正规形计算给定布尔函数的 Hamming 重量时，使用 [有限 ANF 权重证书](references/rm714-source.md) 的精确容斥与真值表回放。

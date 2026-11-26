@@ -11,4 +11,6 @@ description: 核对非恒定整函数的 Nevanlinna 特征分离、测度有限�
 
 ## 文献复核采用的构件
 
+- [Toroidal nondegeneracy for semi-abelian Ax--Schanuel](references/ext0106-torus-nondegeneracy.md)
+
 - [Growth separation for functional transcendence](references/growth-separation-functional-transcendence-ext0084.md)

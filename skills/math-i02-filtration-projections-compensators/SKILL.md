@@ -34,3 +34,7 @@ description: 处理滤过、可选或可预测投影及补偿子，核对适应�
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
 
 H–I 操作步骤与来源定理的逐项证据、证明状态及未覆盖接口见[H–I 操作证据与共享审计文件定位说明](references/portable-audit-access.md)。
+
+## 文献复核采用的构件
+
+- [Canonical p-variation stability for compensator integrals](references/kennerberg-compensator-pvariation.md)

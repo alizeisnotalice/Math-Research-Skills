@@ -26,8 +26,9 @@ The source proves that for real \(s>-1\),
 +\varepsilon_{n,m}^{(s)},
 \end{aligned}\tag{H}
 \]
-where \(H_s\) is the ordinary harmonic number when \(s\) is a nonnegative
-integer, and
+Here \(H_s=\int_0^1 (1-x^s)/(1-x)\,dx\) is the generalized harmonic
+number. For \(s\) a nonnegative integer it equals the finite sum
+\(\sum_{k=1}^{s}1/k\). The signed remainder satisfies
 \[
 0<(-1)^{n+1}\varepsilon_{n,m}^{(s)}
 \le {\zeta(m+n+1,s+1)\over(m+n+1){m+n\choose n}}.\tag{R}
@@ -36,11 +37,11 @@ integer, and
 For a supplied rational \(s>-1\), the checker verifies the Padé contact
 through degree \(m+n\), emits the exact coefficients, and bounds
 \(\zeta(r,s+1)\) by \((s+1)^{-r}+(s+1)^{1-r}/(r-1)\).
-For \(s=0\) it reports a strict rational interval if every Hurwitz coefficient
+The checker leaves \(H_s\) symbolic for nonintegral \(s\). For \(s=0\) it reports a strict rational interval if every Hurwitz coefficient
 vanishes. [Replay inputs](examples/replay.md) show both cases.
 
 The signed remainder is a rigorous finite bracket only after every displayed
-auxiliary \(\log\) and Hurwitz-zeta value has its own rigorous enclosure or
+auxiliary \(H_s\), logarithm and Hurwitz-zeta value has its own rigorous enclosure or
 algebraic reduction.  Do not discard those terms, infer an integer linear
 form in \(\gamma\) alone, or claim irrationality.  The installed
 Sondow/Legendre--Padé certificate remains the appropriate tool for its own

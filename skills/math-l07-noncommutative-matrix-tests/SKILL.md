@@ -50,3 +50,7 @@ python3 scripts/replay_truncation.py --dimension 7
 ## OpenAI 原稿中的方法
 
 - [Reciprocal-kernel finite CND certificate](references/openai-reciprocal-kernel-cnd.md)
+
+## 文献复核采用的构件
+
+- [Rank–ideal boundary for homogeneous noncommutative polynomials](references/rank-nullstellensatz-homogeneous-boundary.md)

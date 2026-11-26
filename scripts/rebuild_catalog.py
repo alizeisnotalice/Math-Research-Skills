@@ -14,6 +14,10 @@ ALIASES = {'mathematica-research':'mathematica-math',
 RUNTIME_SKILLS = {
     'math-euler-constant-irrationality': [
         'math-openai-arithmetic-determinants',
+        'math-prevost-hurwitz-pade-remainder',
+        'math-order-two-casoratian-audit',
+        'math-euler-series-continued-fraction',
+        'math-alternating-reciprocal-criteria',
         'math-sondow-log-fractional-certificate',
         'math-gamma-multiple-laguerre-approximants',
         'math-gamma-meijer-cmf',
@@ -24,6 +28,8 @@ RUNTIME_SKILLS = {
         'math-l03-rational-and-interval-certificates',
     ],
     'math-research': ['math-tool-router'],
+    'probability-martingale-stopping': ['probability-measure-convergence'],
+    'probability-bernoulli-extremal-orders': ['probability-moment-polynomial-duality'],
     'math-geometric-pde-reductions': ['python-math'],
     'math-l03-rational-and-interval-certificates': ['python-math'],
     'math-l19-coordinate-ring-certificates': ['python-math'],
@@ -44,6 +50,8 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
 
 SPECIALIST_TOPICS = {
     '欧拉常数、丢番图逼近与算术': (
+        'math-ax-schanuel-dimension-defect',
+        'math-hofstadter-nested-recurrences',
         'math-order-two-casoratian-audit',
         'math-prevost-hurwitz-pade-remainder',
         'math-q-series-rational-approximants',
@@ -66,6 +74,8 @@ SPECIALIST_TOPICS = {
         'math-hankel-pade-certificates',
     ),
     '调和分析、动力系统与几何方程': (
+        'math-strip-poisson-smoothing',
+        'math-semiclassical-orthogonal-deformations',
         'math-nevanlinna-functional-transcendence',
         'math-conformal-dimension-perron-brackets',
         'math-bessel-cross-product-recurrence',
@@ -83,6 +93,8 @@ SPECIALIST_TOPICS = {
         'math-lienard-half-arc-matching',
     ),
     '算子代数、上同调与代数几何': (
+        'math-linear-difference-hypertranscendence',
+        'math-symmetric-polynomial-ratio-certificates',
         'math-nonnegative-matrix-path-certificates',
         'math-finite-nonassociative-algebra-audits',
         'math-holomorphic-local-to-global-transfer',
@@ -96,6 +108,12 @@ SPECIALIST_TOPICS = {
         'math-weil-deligne-purity-lfactor',
     ),
     '图、组合、博弈与复杂性': (
+        'math-two-generator-graded-semigroup-certificates',
+        'math-one-special-parking-equality',
+        'math-cycle-weighted-permanent',
+        'math-graded-character-order',
+        'math-quantum-permanent-score',
+        'math-cycle-type-likelihood-bounds',
         'euclidean-tensor-geometry',
         'math-discrete-proof-transfer',
         'math-bimatrix-kite-mixing',

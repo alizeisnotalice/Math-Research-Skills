@@ -55,3 +55,7 @@ description: 核验 Kantorovich 输运对偶及势函数，检查代价、可积
 ## 条件层与路径因果约束
 
 给定层标签或有限时间网格上的路径时，使用[有限信息约束输运](references/finite-information-transport.md)生成层匹配、单向因果或双向因果等式，并核对精确原始与对偶见证。
+
+## 文献复核采用的构件
+
+- [凸弱最优输运的普通耦合对偶](references/wave9-convex-weak-transport-duality.md)

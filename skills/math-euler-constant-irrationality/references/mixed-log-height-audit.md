@@ -178,7 +178,7 @@ Theorem 6.2（PDF p. 20）断言，对 \(d\ge42\)，存在只依赖
 
 ### 采用范围
 
-有限构造可直接使用。运行 [精确回放](../scripts/check_aptekarev_mixed_forms.py)，检查 \(0\le n\le40\) 的 123 个规范化整数行列式与递推 (2) 完全一致。加 `--numeric` 可重放上述有限高精度比较。
+有限构造可直接使用。运行 [精确回放](../scripts/check_aptekarev_mixed_forms.py)，检查 \(0\le n\le40\) 的 123 个规范化整数行列式与递推 (2) 完全一致。选用已安装 `mpmath` 的 Python 并加 `--numeric` 可重放上述有限高精度比较。默认精确检查只用 Python 标准库。
 
 原文对 \(p,q,r\) 的整性调用 [13]，对行列式整化调用 [14]，对 (9) 调用 [11] 与 [12]。从原文引用追踪时保留相应的序列、第三解初值与 \((n!)^2\) 归一化。本页仅采用恒等式与精确有限复算，将 P16 的全指标估值和渐近结论保留为待核材料。[Tulyakov 正式版](https://doi.org/10.4213/mzm5260) [Aptekarev–Lysov 的 \(f_n\) 渐近](https://doi.org/10.1134/S0081543811030126) [Aptekarev–Tulyakov 格行列式](https://doi.org/10.1090/S0077-1554-09-00175-7)
 
