@@ -24,7 +24,7 @@ AUDIT_FIELDS = {
     "dependency",
     "disposition",
 }
-REVIEW_DISPOSITIONS = {"candidate", "held", "version-only"}
+REVIEW_DISPOSITIONS = {"candidate", "held", "version-only", "adjacent"}
 CURRENT_SOURCES = {"catalogued", "standalone-official-CDN"}
 
 STATUS_LABELS = {
@@ -33,6 +33,7 @@ STATUS_LABELS = {
     "candidate": "候选构件",
     "held": "保留，依赖待审",
     "version-only": "仅版本或题录核对",
+    "adjacent": "邻近材料",
     "pending": "待进行证明核对",
     "archive": "历史版本或状态待确认",
 }
@@ -329,7 +330,8 @@ def main() -> None:
         "- 限定参考。现有技能可参照指定段落，仍保留列出的前置条件或依赖。",
         "- 候选构件。逐页审阅发现可进一步蒸馏的局部方法，尚未成为已安装技能。",
         "- 保留，依赖待审。来源含有可定位的路线，但本轮没有接受为可调用构件。",
-        "- 仅版本或题录核对。记录来源身份，未对证明作正向采用。",
+        "- 仅版本或题录核对。记录来源身份及引用范围。",
+        "- 邻近材料。记录已核查的模型、量词、版本或适用范围差异。",
         "- 待进行证明核对。清单、哈希和官方链接已处理，尚缺本轮实际证明阅读。",
         "- 历史版本或状态待确认。撤回、替换或目录外版本保留追溯，不能据此调用结论。",
         "",

@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 16,
+    "research-specialists": 18,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -523,6 +523,20 @@
       "description": "对整数幂级数做精确 Hankel 行列式与 Padé 有限证书，核验正矩投影的有理下界，并审计 Mahler–Hankel 定理的独立准入门槛；不以有限计算断言超越性或无理度指数。",
       "category": "research-specialists",
       "path": "skills/math-hankel-pade-certificates/SKILL.md"
+    },
+    {
+      "name": "math-hbl-finite-presentation",
+      "title": "有限 HBL 图表示核验",
+      "description": "对已给定的有理有限子空间图和边权，精确核验 HBL 有效表示并分解平衡边流；不搜索表示或计算一般 HBL 常数。",
+      "category": "research-specialists",
+      "path": "skills/math-hbl-finite-presentation/SKILL.md"
+    },
+    {
+      "name": "math-honeycomb-finite-boundary-flux",
+      "title": "蜂窝有限边界通量",
+      "description": "在有限、单连通蜂窝三角形域中认证零环权重的带相位边界通量恒等式及凸域正性界；不用于条带渐近、桥质量或一般自避游走。",
+      "category": "research-specialists",
+      "path": "skills/math-honeycomb-finite-boundary-flux/SKILL.md"
     },
     {
       "name": "math-i01-ordered-increment-conditional-bernstein",

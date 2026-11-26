@@ -74,3 +74,7 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 ## 已认证有限子群指数的整除传递
 
 当素域中的子群指数已有上界、且生成元满足共同幂等式时，按[有限子群指数传递](references/cogentic-finite-arithmetic.md)核对整个素域单位群阶的整除结论。
+
+## 有限算术级数上的筛坐标
+
+给定互异筛素数、整数区间与非退化等差参数时，用 [CRT 与容斥](references/jacobsthal-progression-coordinate-crt.md)核对排除剩余类、有限幸存数以及周期平均的误差。

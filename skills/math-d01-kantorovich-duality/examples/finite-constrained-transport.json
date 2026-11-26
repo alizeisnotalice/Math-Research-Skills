@@ -1,0 +1,14 @@
+{
+  "marginals": [["1/2", "1/2"], ["1/2", "1/2"]],
+  "cost": ["0", "2", "2", "0"],
+  "primal_plan": ["1/4", "1/4", "1/4", "1/4"],
+  "constraints": [
+    {
+      "name": "signed_diagonal_balance",
+      "values": ["1", "-1", "-1", "1"],
+      "target": "0"
+    }
+  ],
+  "dual_potentials": [["1/2", "1/2"], ["1/2", "1/2"]],
+  "equality_multipliers": ["-1"]
+}

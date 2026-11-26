@@ -26,6 +26,8 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | 核对既有技能的原文或活跃引用 | 在 [现行技能来源复核](references/active-citation-audit-2026-11.md) 按题名或 SHA-256 定位所查页码、采用范围与缺口。 |
 | 查按数学方法归档的历史文献 | 在 [历史文献主题索引](references/historical-sources/README.md) 按题名、哈希或技能入口定位版本、所查页及范围。 |
 | 查 Anthropic 及其他近期原稿 | 在 [近期其他数学文献索引](references/recent-non-openai-sources.md) 核对题名、发布身份、原文页码及可用构件 |
+| 已给定 Hölder–Brascamp–Lieb 的有理子空间图 | 用 [有限 HBL 图表示](../math-hbl-finite-presentation/SKILL.md)检查子空间像、边流和证人。 |
+| 给定蜂窝格有限区域及入边中点 | 用 [有符号边界通量](../math-honeycomb-finite-boundary-flux/SKILL.md) 枚举路径，在圆分域精确核验有限通量。 |
 | 概率模型、随机过程或概率论证明 | 按 [概率专题索引](references/probability.md) 选择；涉及对偶、区间等步骤再加读相应数学方法 |
 | 符号/数值计算、优化、计算辅助证明、绘图或设备算力 | 读 [数学工具引导](../math-tool-router/SKILL.md)，选择并实际调用合适的本机工具。 |
 | 欧拉–马歇罗尼常数的无理性、逼近和整化 | 使用 [欧拉常数无理性研究](../math-euler-constant-irrationality/SKILL.md)。 |

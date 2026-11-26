@@ -28,14 +28,14 @@
 
 ## Almost Everywhere Convergence of Mock Fourier Series for the Middle-Fourth Cantor Measure
 
-- 原件 c0bccdafb2038f83254f1b0c3c9e6bd8b473515b7fc59102f027f39a557ce1e2。local PDF matches arXiv:2607.27796v2 (15 pages; 31 Aug 2026)。物理页 1, 3, 13, 14。
+- 原件 c0bccdafb2038f83254f1b0c3c9e6bd8b473515b7fc59102f027f39a557ce1e2。local arXiv:2607.27796v2 (31 Aug 2026), 15 physical pages。物理页 1, 3, 12, 13, 14。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2607.27796v2; no journal publication identified in the checked arXiv record。
-- 构件候选。Theorem 1.3 is supported by the printed proof: after a source-specific decomposition, Lemma 5.1 turns weak-(1,1) bounds for positive operators T_r into one for their weighted sum when sum_r sqrt(a_r C_r) is finite; p. 13 verifies this with geometric p^r weights, then p. 14 derives a.e. convergence by density。
-- 结论位置。pp. 1 and 3, Theorem 1.3; p. 13, Lemma 5.1 and its application; p. 14, density conclusion。
-- 适用范围。This is a new 2026 preprint and its theorem is confined to the canonical spectrum of the middle-fourth Cantor measure. It is not an active premise of F06, whose current finite ordered-orthogonal estimate is independently derived by dyadic blocks; the paper cannot certify a general Menshov–Rademacher inequality。
+- 规范版本。arXiv:2607.27796v2; no formal publication identified in the checked authoritative record
+- 构件候选。The strongest transferable subargument is Lemma 5.1: a positive-operator weighted sum has a weak-(1,1) estimate when each component has a stated weak bound C_r and sum_r sqrt(a_r C_r) is finite. The source applies it after a Cantor-spectrum-specific decomposition with geometrically decaying weights, then obtains a.e. convergence from weak type and density.
+- 结论位置。Theorem 1.3 is stated on p.3; Lemma 5.1 and the weighted weak-(1,1) aggregation occur on pp.12--13; the density argument to almost-everywhere convergence is on p.14.
+- 适用范围。The mock-Fourier theorem depends on the canonical spectrum and self-similar cylinder structure of the middle-fourth Cantor measure. It is not a general orthogonal-series or Menshov--Rademacher theorem, and F06's active finite ordered-orthogonal proof is independent of it.
 - 相关技能。[math-f06-menshov-rademacher-maximal-partial-sums](../../../../math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md)
-- 其余依赖。To extract the aggregation lemma, separately specify positive/sublinear operators, established weak-(1,1) constants C_r, and summability of sqrt(a_r C_r); verify the source decomposition rather than importing the Cantor result。
+- 其余依赖。A reusable implementation must state positivity/sublinearity, verify every individual weak-(1,1) constant, prove the square-root weighted summability, and independently construct the target decomposition before invoking the aggregation lemma.
 - [主来源 1](https://arxiv.org/abs/2607.27796)
 
 ## Best constants for a family of Carleson sequences
@@ -76,37 +76,38 @@
 
 ## Dimension-free estimates for discrete maximal functions over cubes in Z^d
 
-- 原件 01a4d818f5fb3fd69257039b3189812d48d3c13fe5614913b083bc23f724a701。Local PDF matches arXiv:2609.24030v1 (21 Sep 2026), 9 physical pages。物理页 1, 2, 3, 4, 5, 6, 7, 8, 9。
+- 原件 01a4d818f5fb3fd69257039b3189812d48d3c13fe5614913b083bc23f724a701。local arXiv:2609.24030v1 (21 Sep 2026), 9 physical pages。物理页 1, 3, 4, 5, 6, 7, 8, 9。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2609.24030v1; no journal publication identified on the checked primary record。
-- 构件候选。The exact local v1 source proves dimension-free discrete-cube maximal bounds for 1<p<=infinity and the adjacent-average difference bound O_p(N^-1) for 1<p<infinity. Its proof genuinely preserves a one-dimensional probability-mixture tensor structure, uses the exp(-cU) derivative estimate, and then fractional-integration/complex-interpolation to control the difference family. The active F02 skill currently does not invoke this paper's conclusion; its current tensor facts are separately proved。
-- 结论位置。Theorems 1.1–1.2 and product interpolation setup, pp. 1–2; Lemma 2.1, pp. 3–4; Proposition 3.1, pp. 4–5; Proposition 4.1 and the difference-estimate proof, pp. 5–8; references, p. 9。
-- 适用范围。The full maximal theorem imports the dyadic maximal and almost-orthogonality inputs from the 2019 Bourgain–Mirek–Stein–Wrobel work; the new source does not establish weak type (1,1), a continuous centered-cube endpoint, or a general soft-square-supremum bound. The proposed component is therefore only the explicitly parameterized discrete probability-mixture/difference mechanism。
+- 规范版本。arXiv:2609.24030v1; no formal publication identified in the checked authoritative record
+- 构件候选。A defensible finite component is the explicit tensor-mixture derivative estimate: for z_{N,s}=(1-s)a_N+s b_N, the product multiplier m_{N,s}=product_j z_{N,s}(xi_j) has dimension-free bounded s-derivatives on s<=s0. The proof uses u_j=1-|a_N|, the elementary |b_N-a_N|<=7u_j bound, exponential product decay, and e^{-cU}U^k control. The following fractional-integral/complex-interpolation construction produces the p>1 difference estimate.
+- 结论位置。Theorems 1.1--1.2 on pp.1--2; one-dimensional multiplier inequality in Lemma 2.1 on pp.3--4; tensor derivative estimate in Proposition 3.1 on pp.4--5; interpolation proof on pp.6--8.
+- 适用范围。The full discrete maximal theorem is a p>1 result and uses prior dyadic-maximal and almost-orthogonality machinery to pass from the difference family to the final maximal bound. It supplies neither a weak-(1,1) dimension-free estimate nor a continuous centered-cube endpoint, and it does not establish any F02 soft-square-supremum assertion presently active in the skill.
 - 相关技能。[math-f02-tensor-fourier-positivity-soft-square-supremum](../../../../math-f02-tensor-fourier-positivity-soft-square-supremum/SKILL.md)
-- 其余依赖。Before any implementation, independently verify the cited dyadic maximal and almost-orthogonality inputs used to pass from the short variation bound to Theorem 1.1; retain p>1 and the discrete-cube hypotheses。
+- 其余依赖。To implement the candidate, encode the exact discrete probability-mixture multiplier and independently verify the cited dyadic/maximal and almost-orthogonality inputs; retain the discrete-cube and 1<p<infinity restrictions.
 - [主来源 1](https://arxiv.org/abs/2609.24030) · [主来源 2](https://arxiv.org/html/2609.24030v1)
 
 ## Distance Stability for the Integral Hardy and Carleman Inequalities
 
-- 原件 b270e46ae6c105456c18588a04f9667e1e8bd4679667fbf91471d6b285c7e522。arXiv:2606.15056v1, submitted 2026-06-13。物理页 1, 2, 3, 4, 5, 6, 7, 8, 9。
+- 原件 b270e46ae6c105456c18588a04f9667e1e8bd4679667fbf91471d6b285c7e522。arXiv:2606.15056v1; local 9-page PDF marked 13 June 2026。物理页 1, 3, 4, 5, 6, 7, 8, 9。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。local PDF metadata identifies arXiv:2606.15056v1; no journal version located。
-- 构件候选。The preprint's exact reusable finite construction is verified: for nonnegative compactly supported locally bounded f, the Hardy deficit equals the nonnegative Phi_p residual; for p=2, 4∫f²−∫(Hf)²=∫(2f−Hf)². On every finite logarithmic interval, its Q-transform plus Poincare gives an explicit local distance-to-constant estimate. Independently, the displayed Carleman argument proves the stated local Hellinger/variance lower bound under positivity, integrability, and local log-integrability。
-- 结论位置。pp. 3--4 prove Theorem 1 by integration by parts and give the p=2 identity in Theorem 2; p. 5 gives the finite-log-interval Poincare construction; pp. 6--7 prove Lemma 1 and Theorem 3 by AM--GM and Tonelli; p. 8 identifies the local variance/Hellinger distance。
-- 适用范围。This is an unrefereed v1 preprint and is not an M03 active claim. The global virtual extremals x^(-1/p) and 1/x are outside the natural spaces, so only the stated residual or finite-log/local formulation is supported; no general compactness or global near-extremizer theorem follows。
+- 规范版本。arXiv:2606.15056v1; official arXiv record checked and lists v1 only
+- 构件候选。A strongest directly checkable finite component is the p=2 Hardy residual identity: for nonnegative compactly supported locally bounded f, 4 integral f^2 minus integral (Hf)^2 equals integral (2f-Hf)^2 (local pp. 3--5). The same derivation records the nonnegative Phi_p residual for p>1. This is a usable explicit deficit certificate, and its logarithmic Q transform only gives the stated finite-log/local distance mechanism.
+- 结论位置。Local PDF pp. 3--5 prove Theorems 1--2 by the Hardy integration-by-parts identity; pp. 6--9 formulate and prove the finite-log/local Carleman remainder construction.
+- 适用范围。The virtual equality profiles x^(-1/p) and 1/x are not in the global natural spaces. Therefore the source does not give a global Lp distance-to-extremizer or general concentration theorem; endpoint/truncation and finite-log hypotheses remain part of the contract. It is an unrefereed v1 and is not an active M03 result.
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)
-- 其余依赖。Before integration, bind the exact Hardy/Carleman input class and retain the endpoint/truncation extension; independently review the v1 preprint or a later publication for use beyond the displayed finite construction。
+- 其余依赖。To use more than the displayed residual identity, retain an explicit truncation/endpoint argument and prove the required finite-log Poincare/local-distance transfer for the target input class; a subsequent version or independent proof is needed for any global stability assertion.
 - [主来源 1](https://arxiv.org/abs/2606.15056)
 
 ## Errata and Addenda to Enumerative Combinatorics, Volume 1
 
-- 原件 3b9670f7863953d84377bbcfafa109254a4f9e352032d083afae6c6b2b02f8ec。Exact local 8-page PDF; filename/title hint says Enumerative Combinatorics, Volume 2, 2nd ed。物理页 1, 2。
+- 原件 3b9670f7863953d84377bbcfafa109254a4f9e352032d083afae6c6b2b02f8ec。Exact local 8-page scan; physical p. 1 identifies errata for Volume 1 and refers to the 1997 hardcover second printing。物理页 1, 2。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。not identified。
-- 待核。The local document conflicts with its filename and input title hint: it is an errata sheet for Volume 1 rather than an identifiable copy of Volume 2. No poset theorem is present in the inspected material。
-- 结论位置。Physical p.1 names an errata-and-addenda sheet for Volume 1; p.2 continues individual corrections。
-- 适用范围。An errata list cannot validate a counting/sampling claim without the intended edition, the corrected theorem/page, and a verified correspondence to the skill assertion。
-- 其余依赖。Recover the intended book edition and source-use locator, then inspect the corrected statement and its hypotheses。
+- 规范版本。not identified: the official EC1 site has a current 2025 Volume-1 errata record, but the local historic errata sheet must not be merged with it without a byte/version comparison
+- 邻近材料。Raw SHA and eight-page count match. The local bytes are an errata-and-addenda sheet for Stanley's Enumerative Combinatorics, Volume 1, not the Volume 2 book asserted by the filename/input title. The checked official EC1 page independently confirms that the author maintains Volume-1 errata, but no local theorem or source locator for the poset-counting skill is present.
+- 结论位置。Visual inspection of local physical p. 1 identifies the document and its Volume-1/1997 scope; p. 2 continues correction entries
+- 适用范围。Individual corrections cannot be used as a poset-counting/sampling theorem, and neither the intended book edition nor the particular corrected statement is identified. No active probability-poset-counting-sampling claim cites this record.
+- 其余依赖。If a book theorem is needed, recover the intended EC volume/edition and its theorem locator, then consult the matching errata version before relying on it.
+- [主来源 1](https://math.mit.edu/~rstan/ec/ec1/)
 
 ## Estimates for maximal Fourier multiplier operators on R^2 via square functions
 
@@ -144,14 +145,14 @@
 
 ## Extremizers and Stability for Fractional Lp Uncertainty Principles
 
-- 原件 c05bae927a4799b1a0a0ac1681382112a0c77ed2b55c9d28ec934f234115bde1。arXiv:2504.16245v1, submitted 2025-04-22。物理页 1, 4, 7, 8, 11, 16, 17, 19, 20, 21, 22, 24, 25, 28, 29, 30。
+- 原件 c05bae927a4799b1a0a0ac1681382112a0c77ed2b55c9d28ec934f234115bde1。arXiv:2504.16245v1; local 32-page PDF marked 22 April 2025。物理页 1, 7, 8, 16, 17, 19, 20, 21, 22, 24, 25, 28, 29, 30。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。local PDF metadata identifies arXiv:2504.16245v1; no journal version located。
-- 待核。The proposed quantitative stability claim is not independently verified. Its proof of stability invokes unspecified uniqueness results and assumes existence/coercivity of the second variation; it does not establish those requirements. It also asserts a continuous weighted map from Lp to weighted Lbeta without stated parameter/weight hypotheses, and later inserts an unspecified weighted-to-Sobolev estimate. These are proof dependencies, not established steps。
-- 结论位置。pp. 16--17 assert radial uniqueness/stability; pp. 19--21 make the second-variation/coercivity assumptions used for Theorem 5.4; p. 22 assumes unproved weighted operator bounds; pp. 24--25 assume boundedness of an oscillatory kernel; pp. 28--30 introduce an unspecified weighted-to-Sobolev control. The official arXiv page confirms this remains v1。
-- 适用范围。Do not use this source for an M03 stability theorem. The active M03 skill makes no claim based on it: it expressly limits its accepted result to the elementary F(x)=1−x² identity, so no active installed claim needs withdrawal. The source's further dispersive/embedding assertions also depend on unproved or inadequately stated analytic estimates。
+- 规范版本。arXiv:2504.16245v1; official arXiv record checked and lists v1 only
+- 待核。The advertised quantitative stability statement is not independently defensible from v1. Its proof replaces core steps by assumptions or generic phrases: uniqueness is invoked without a supplied theorem, second-variation coercivity is assumed, and the weighted map from Lp to the asserted weighted target spaces is claimed without parameters or a proof. Later dispersive and embedding claims likewise depend on an unproved boundedness assertion for K1 and an unspecified weighted-to-Sobolev estimate.
+- 结论位置。Local pp. 16--17 invoke radial uniqueness and stability; pp. 19--21 assume the coercive second variation used for Theorem 5.4; p. 22 asserts weighted operator bounds; pp. 24--25 assert boundedness of an oscillatory kernel; pp. 28--30 insert an unspecified weighted-to-Sobolev control.
+- 适用范围。Do not use this v1 for M03 stability, extremizer existence, or fractional dispersive/embedding constants. M03's current active claim remains its elementary F(x)=1-x^2 identity and does not rely on this source, so no installed statement must be withdrawn.
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)
-- 其余依赖。A usable result requires a corrected version with a precise parameter regime, a proved concentration-compactness/existence argument, a nondegenerate second-variation theorem modulo all symmetries, and valid weighted mapping/kernel estimates; then reread the proof and compare versions。
+- 其余依赖。A usable source needs a corrected version with explicit parameter ranges, a proved existence/compactness and uniqueness theorem modulo symmetries, a nondegenerate/coercive second variation, and valid weighted mapping plus oscillatory-kernel estimates; those proofs must then be reread rather than inferred from the abstract.
 - [主来源 1](https://arxiv.org/abs/2504.16245)
 
 ## Finite-dimensional Approximations of Push-forwards on Locally Analytic Functionals
@@ -180,26 +181,26 @@
 
 ## Linear Programming over Exponent Pairs
 
-- 原件 b229047f8662ec4ed0e2a952c380f4627155252753f636f4cc29c90b0282c3d7。arXiv:1402.1993v2 (23 Dec 2014)。物理页 1, 2, 6, 7, 8。
+- 原件 b229047f8662ec4ed0e2a952c380f4627155252753f636f4cc29c90b0282c3d7。arXiv:1402.1993v2 (23 December 2014), 11-page local PDF。物理页 1, 6, 7, 8。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:1402.1993v2; the locally hashed 11-page PDF identifies this version on physical p. 1。
-- 待核。The source is identity-verified by its arXiv v2 header and its constrained exponent-pair setting is real: p. 7 explicitly says the proposed greedy constrained modification can miss optimal pairs, while pp. 7–8 instead describe a tolerance-based backtracking procedure using polygon bounds and feasibility predicate R(V,LC). N03's Step 5 correctly keeps the source program/result claims isolated rather than using it as a certified exponent-pair oracle。
-- 结论位置。Local PDF pp. 1–2 define the exponent-pair/constraint problem; pp. 6–8 discuss the limited Graham modification and the recursive backtracking routine L, including the stated finite-accuracy stopping rationale。
-- 适用范围。The inspected paper supplies neither a frozen implementation nor a proof that the program's numerical polygon/constraint tests maintain strict feasibility and certified lower/upper bounds for every supported objective. Its contraction argument explains finite termination at a requested accuracy but does not certify any particular archived output or the greedy variant。
+- 规范版本。Acta Universitatis Sapientiae, Informatica 5(2) (2013), 271–287, DOI 10.2478/ausi-2014-0014; local source is arXiv:1402.1993v2
+- 待核。The source does provide a concrete finite branch-and-bound design: after a polygon outer enclosure V and a linear-feasibility predicate R(V,LC) are supplied, the routine recursively applies A and BA and compares objective upper/lower bounds. Its own p. 7 explicitly says the constrained greedy variant can miss optima. N03 correctly treats source-program outputs as non-certificates and requires strict feasibility plus active-node bounds.
+- 结论位置。Local p. 1 states the exponent-pair setup; p. 6 gives the contraction lemma and warns that unmodified Graham search is not directly global on P; pp. 7–8 describe the constrained greedy failure and tolerance-based backtracking routine.
+- 适用范围。The actual PARI/GP program, its polygon representation and rounding discipline were not included in the read PDF. The contraction argument only supports a requested tolerance and does not prove that every feasibility test preserves strict constraints or that a numerical incumbent is an exact optimal exponent pair.
 - 相关技能。[math-n03-oscillation-and-geometric-remainder](../../../../math-n03-oscillation-and-geometric-remainder/SKILL.md)
-- 其余依赖。Obtain and audit the exact PARI/GP implementation (or independently implement it with rational/interval polygon bounds), prove preservation of every linear constraint and objective bound at each active node, and attach an output certificate before promoting any computed exponent pair。
-- [主来源 1](https://arxiv.org/abs/1402.1993)
+- 其余依赖。Recover and audit the implementation, or implement a rational/interval branch-and-bound whose every active-node polygon, feasibility predicate and objective lower bound is certified; attach the resulting certificate before promoting a computed exponent pair.
+- [主来源 1](https://arxiv.org/abs/1402.1993) · [主来源 2](https://doi.org/10.2478/ausi-2014-0014)
 
 ## Local Affine Selections of Convex Multifunctions
 
-- 原件 fcfb7ddfbb5675f4a50a0993ad2fcaa4983d2e310df9d675d8fb081eef1886a7。arXiv:1611.02584v1 (8 Nov 2016); local PDF labels v1。物理页 1, 3, 4。
+- 原件 fcfb7ddfbb5675f4a50a0993ad2fcaa4983d2e310df9d675d8fb081eef1886a7。arXiv:1611.02584v1; local 5-page PDF marked 8 November 2016。物理页 1, 3, 4。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:1611.02584v1; the checked arXiv record lists only v1。
-- 构件候选。Raw SHA and five-page count match. The primary record confirms the sole v1 identity. Theorem 4 is supported locally: for a convex multifunction on a convex D⊂R^n with nonempty interior and arbitrary real-vector-space codomain, it chooses values at a simplex's vertices, extends affinely, and obtains a local affine selection around each interior point. Proposition 5 separately demonstrates why the infinite-dimensional extension fails. This can serve as a narrowly finite-dimensional construction lead; M04 does not currently assert it as a measurable-selection theorem。
-- 结论位置。Definitions on local p. 1, Lemma 3 and Theorem 4 on p. 3, and the infinite-dimensional obstruction Proposition 5 on p. 4。
-- 适用范围。The paper proves local affine selection, not Borel/graph measurability, measurable argmax selection, a global selector, or an infinite-dimensional result. Thus it does not repair M04's explicitly retained general measurable-selection gap。
+- 规范版本。arXiv:1611.02584v1; official arXiv record checked and lists v1 only
+- 构件候选。The paper proves the finite-dimensional local affine construction: if D is convex with nonempty interior in R^n and a convex multifunction has nonempty values in a real vector space, choose values at vertices of a simplex inside D and extend them affinely; graph convexity keeps the map in the multifunction on that simplex. The source separately gives an infinite-dimensional failure mechanism. This is a narrowly reusable finite construction lead, not an active M04 measurable-selection claim.
+- 结论位置。Local p. 3: Lemma 3 and Theorem 4 use simplex vertices and graph convexity; p. 4: Proposition 5 gives the infinite-dimensional obstruction.
+- 适用范围。A local affine selector does not imply Borel/analytic graph measurability, a measurable argmax selector, a global selector, or an infinite-dimensional theorem. It therefore cannot close M04's retained general measurable-supremum/selection gap.
 - 相关技能。[math-m04-measurable-supremum-selection](../../../../math-m04-measurable-supremum-selection/SKILL.md)
-- 其余依赖。Any use in M04 needs a separate proof that the target domain/value data are finite-dimensional in the theorem's sense and a bridge from local affine selections to the required Borel/analytic measurable selector or finite patching construction。
+- 其余依赖。A use requires a separate verification that the target is genuinely finite-dimensional with the needed interior/simplex patch, and a separate measurable-selection or finite-patching proof if the desired conclusion is Borel/analytic rather than merely local affine.
 - [主来源 1](https://arxiv.org/abs/1611.02584)
 
 ## Nondegeneracy and regularity of polynomial pushforwards
@@ -216,14 +217,14 @@
 
 ## On Extremal Volume Projections of the Simplex and the Cube
 
-- 原件 b7d725d4513eaf8aec916691e99cbc5635aed1ea5ef990e2d926bbbd614bb101。arXiv:2601.18436v1, submitted 26 Jan 2026; the local PDF itself labels v1。物理页 1, 3, 11, 12, 13。
+- 原件 b7d725d4513eaf8aec916691e99cbc5635aed1ea5ef990e2d926bbbd614bb101。Local 16-page PDF labelled arXiv:2601.18436v1 (2026-01-26)。物理页 1, 3, 11, 12, 13。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2601.18436v1; the checked arXiv record lists only v1。
-- 构件候选。Raw SHA and 16-page count match the assigned record. The arXiv identity, title, author, and sole v1 submission are confirmed. The local proof derives the simplex hyperplane-projection formula from Cauchy–Minkowski/surface-area data, then proves the stated min/max directions using the zero-sum constraint and Cauchy–Schwarz. This is a finite, explicitly auditable extremizer construction, but M03 currently makes no active simplex-projection stability claim。
-- 结论位置。Theorem 1.2 and Propositions 1.3–1.4 on local pp. 3–4; proof of the projection formula on p. 11 and extremal-direction proofs on pp. 12–13。
-- 适用范围。The source establishes exact extrema/formulas for the normalized regular simplex (and separate cube statements), not a deficit-versus-distance stability inequality. It therefore cannot certify the general near-extremizer, compactness, or constant API excluded by M03's current scope。
+- 规范版本。arXiv:2601.18436v1; checked record lists only v1
+- 构件候选。For the paper's normalized regular-simplex projection problem, the proof gives an explicitly checkable formula and identifies exact extremizing directions via the zero-sum constraint and Cauchy–Schwarz. This is a finite extremizer construction.
+- 结论位置。Theorem 1.2 and Propositions 1.3–1.4 (pp.3–4); formula proof (p.11); extremizer proofs (pp.12–13).
+- 适用范围。Exact extrema for this simplex/cube setting do not give a deficit-to-distance stability inequality, compactness principle, or general M03 near-extremizer API. No active M03 claim depends on the result.
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)
-- 其余依赖。To use it for M03, derive and verify a quantitative deficit-to-distance estimate modulo the finite extremal direction orbit, with dimensions and normalization fixed; the exact-extremizer proof alone is insufficient。
+- 其余依赖。Derive a dimension- and normalization-fixed quantitative deficit-to-distance estimate modulo the finite extremal orbit before integrating it into M03.
 - [主来源 1](https://arxiv.org/abs/2601.18436)
 
 ## On the Fourier transform of the symmetric decreasing rearrangements
@@ -274,27 +275,27 @@
 
 ## Some applications of the Menshov–Rademacher theorem
 
-- 原件 5ed5e46e2f4a6cd3150d3ca8d6915c2f6fd2363b6eae40b01fe2240878cdcde4。arXiv:2103.09594v1 (17 Mar 2021)。物理页 1, 2, 3, 4, 5, 6, 7, 8。
+- 原件 5ed5e46e2f4a6cd3150d3ca8d6915c2f6fd2363b6eae40b01fe2240878cdcde4。local arXiv:2103.09594v1 (17 Mar 2021), 10 physical pages。物理页 1, 3, 4, 5, 6, 7。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。Comptes Rendus. Mathématique 359(7) (2021), 861–870, DOI 10.5802/crmath.225。
-- 待核。The canonical published article and its local arXiv v1 identity are verified. However, the local proof claims real-or-complex random variables while its key expansion on pp.3–4 writes E|sum a_n X_n|^2 as sums involving a_n a_m E(X_n X_m), without conjugations. That identity is not valid for the stated complex setting; the later covariance formulation has the same ambiguity。
-- 结论位置。Local PDF pp.1–2 state the dependent-series claim; pp.3–4 prove Lemma 1 by dyadic blocks; pp.5–6 prove the convergence theorem; pp.7–8 give covariance/trigonometric corollaries。
-- 适用范围。This does not undermine F06's active finite orthogonal bound, which is independently derived in SKILL.md steps 1–4 and does not cite Safari. It does block treating Safari's dependent-series extension as an active F06 dependency or as a verified complex-valued component without a corrected Hermitian-moment statement/proof。
+- 规范版本。Safari Mukeru, Comptes Rendus. Mathématique 359(7) (2021), 861--870, DOI 10.5802/crmath.225; publisher page was identified but unavailable to this reader
+- 待核。The real-valued dyadic-block layout is a recognizable Menshov--Rademacher-style finite construction, but the source advertises complex random variables while the key L2 expansion on pp.3--4 uses a_n a_m E(X_n X_m) without the needed conjugations. The same ambiguity reaches the later covariance formulation.
+- 结论位置。Dependent-series statement and Lemma 1 on pp.1--4; convergence proof on pp.5--6; covariance corollary on p.7.
+- 适用范围。Thus the local proof does not establish the claimed complex-valued dependent-series theorem. It also does not affect the active F06 finite ordered-orthogonal bound, which is proved directly in that skill and does not cite Safari. The publisher version could not be fetched here to check a correction or erratum.
 - 相关技能。[math-f06-menshov-rademacher-maximal-partial-sums](../../../../math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md)
-- 其余依赖。Check the publisher version for an erratum or corrected sesquilinear formulation; otherwise restrict and reprove the result in a real-valued setting, or replace E(X_n X_m) by the appropriate conjugate covariance throughout。
-- [主来源 1](https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.5802/crmath.225/) · [主来源 2](https://doi.org/10.5802/crmath.225) · [主来源 3](https://arxiv.org/abs/2103.09594)
+- 其余依赖。Obtain and inspect a legible publisher version/erratum; otherwise restrict the result to real variables with an independently checked proof, or rebuild every quadratic/covariance step using the appropriate Hermitian conjugate form.
+- [主来源 1](https://arxiv.org/abs/2103.09594) · [主来源 2](https://comptes-rendus.academie-sciences.fr/mathematique/articles/10.5802/crmath.225/)
 
 ## Sparse bounds for maximal rough singular integrals
 
-- 原件 d47f3d3e158a7692604adcc3367fd4dd774ef3a59b38abfe25dd844f5fb4b2d3。supplied local 2026 manuscript; no e-print identifier printed in the PDF。物理页 1, 3, 4, 5, 8, 14, 17, 27, 33。
+- 原件 d47f3d3e158a7692604adcc3367fd4dd774ef3a59b38abfe25dd844f5fb4b2d3。local arXiv:2609.03751v2 (8 Sep 2026), 40 physical pages。物理页 1, 3, 4, 5, 17, 18, 27, 33。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2609.03751v1 (3 Sep 2026)。
-- 待核。The local manuscript genuinely uses a Rademacher–Menshov signed-sum lemma after an occupancy/prefix construction, but the checked primary arXiv v1 record gives a (p-prime)^4 sparse constant whereas the supplied PDF states linear p-prime dependence. Thus the supplied version cannot currently certify the quantitative claim associated with its recovered public identity。
-- 结论位置。Local PDF pp.1, 3–5 state its sparse theorem/roadmap; p.8 Lemma 2.9 is the signed-sum Rademacher–Menshov lemma; pp.14–17 perform occupancy-to-prefix reduction; p.27 applies the signed estimate; p.33 gives the unbounded-kernel summation。
-- 适用范围。The active F06 core derives its finite orthogonal partial-sum bound independently, so no core F06 assertion was found to rely on Wu. The local-versus-arXiv exponent discrepancy, missing byte/version match, and unverified stopping/microlocal hypotheses block any use of this source as a quantitative dependency。
+- 规范版本。arXiv:2609.03751v2; current record explicitly says the improved sparse bound is p-prime
+- 构件候选。The exact local v2 is now authoritatively pinned and proves the stated linear-p-prime sparse bound for its rough-singular-integral model. Its reusable finite mechanism is explicit: occupancy chains turn each truncation interval into a difference of two prefix sums; a uniform L2 signed-sum estimate feeds Rademacher--Menshov, and amplitude decay absorbs the logarithmic prefix cost. This corrects the prior staged description that treated the local file as an unidentified or v1-mismatched manuscript.
+- 结论位置。Theorem 1.1/roadmap on pp.3--5; occupancy-to-prefix identity on pp.17--18; signed-sum plus Rademacher--Menshov reduction on p.27; angular-amplitude summation on p.33.
+- 适用范围。The component needs the paper's stopping collections, localized testing spaces, cancellation, microlocal estimates, and rough-kernel hypotheses. It cannot by itself improve the independent F06 finite orthogonal-prefix inequality, and no active F06 claim was found to rely on Wu.
 - 相关技能。[math-f06-menshov-rademacher-maximal-partial-sums](../../../../math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md)
-- 其余依赖。Obtain the exact official source version corresponding to the local SHA, reconcile the p-prime versus (p-prime)^4 theorem statements, and then verify all localized-testing and signed-sum hypotheses before integration。
-- [主来源 1](https://arxiv.org/abs/2609.03751)
+- 其余依赖。For transfer, construct an analogous measurable occupancy/prefix representation and prove the required uniform signed L2 estimate with summable amplitude decay; retain all localization, cancellation, and rough-kernel prerequisites.
+- [主来源 1](https://arxiv.org/abs/2609.03751) · [主来源 2](https://arxiv.org/html/2609.03751v2)
 
 ## Square Function Estimates for Cones over Quadratic Manifolds
 
@@ -310,14 +311,14 @@
 
 ## Stability of extremal hyperplane projections of balls in ℓ_p^n(R)
 
-- 原件 c1b3b61ec81c7bee2c24912608a0a1404ba8993d175e9ddd14c8b399705e6020。arXiv:2608.21787v1, submitted 22 Aug 2026; the local PDF itself labels v1。物理页 1, 2, 3, 4, 8, 11, 12。
+- 原件 c1b3b61ec81c7bee2c24912608a0a1404ba8993d175e9ddd14c8b399705e6020。arXiv:2608.21787v1; local 15-page PDF marked 22 August 2026。物理页 1, 2, 3, 4, 8, 11, 12。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2608.21787v1; the checked arXiv record lists only v1。
-- 构件候选。Raw SHA and 15-page count match. The primary arXiv record confirms the title, author, date, and v1 status. The local theorem gives dimension-free stability estimates for central hyperplane-projection volumes of ℓ_p^n balls; the inspected proof of part (b) explicitly reduces its normalized deficit to a variance, while later pages handle the stated p-ranges through Gaussian-mixture/comparison arguments. M03's active text does not currently rely on this source。
-- 结论位置。Theorem 1 on local p. 2, proof roadmap p. 3, variance proof of part (b) p. 4, and proofs for the nontrivial p-regimes on pp. 8–12。
-- 适用范围。The theorem is restricted to the paper's ordered nonnegative normal vectors, its named extremizers, specified p-regimes, and normalized ℓ_p balls. It is not a universal stability theorem and must not be folded into M03's presently unverified general stability API。
+- 规范版本。arXiv:2608.21787v1; official arXiv record checked and lists v1 only
+- 构件候选。The local v1 supplies a bounded geometry-specific stability construction: under ordered nonnegative unit normal coordinates, Theorem 1 gives dimension-free projection-volume deficits for its stated ℓ_p-ball regimes. In particular, the p=infinity case is independently transparent from the Cauchy projection formula and the variance identity on p. 4. Its p-regime arguments use the stated probabilistic projection representation and Gaussian-mixture/comparison inputs. M03 currently does not use this as a general stability API.
+- 结论位置。Local PDF pp. 2--4 state Theorem 1 and prove its p=infinity variance case; pp. 8 and 11--12 give the nontrivial Gaussian-mixture and 1<p<2 proof steps.
+- 适用范围。The result concerns central hyperplane projections of normalized ℓ_p^n balls, ordered nonnegative normals, and the theorem's named extremizers/deficits. It neither proves general near-extremizer compactness nor transfers to arbitrary variational problems, other symmetries, sections, or unnormalized metrics.
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)
-- 其余依赖。Before integration, extract each part of Theorem 1 with its p-range, deficit normalization, and distance term, then verify that a target problem has exactly those symmetries and normalization; a separate transfer proof would be required otherwise。
+- 其余依赖。For any integration, bind a target exactly to the theorem's p-regime, projection normalization, deficit and normal-vector symmetry; then check each imported mixture/comparison lemma or a later peer-reviewed version.
 - [主来源 1](https://arxiv.org/abs/2608.21787)
 
 ## Sunrise strategy for the continuity of maximal operators
@@ -393,12 +394,12 @@
 
 ## Uniform Estimates for Oscillatory Integrals with Parameter-Dependent Phases
 
-- 原件 34015312e4b564e013dfc5f2a4ffc6df46f2777a5d9b44a9e53b9322aa7fe167。arXiv:2402.08391v1 (13 Feb 2024)。物理页 1, 3, 5, 9, 11, 12。
+- 原件 34015312e4b564e013dfc5f2a4ffc6df46f2777a5d9b44a9e53b9322aa7fe167。arXiv:2402.08391v1; local 15-page PDF marked 13 February 2024。物理页 1, 3, 5, 9, 11, 12。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2402.08391v1; the locally hashed 15-page PDF identifies this version on physical p. 1。
-- 待核。The paper and v1 identity are verified. Theorem 2.1 is a one-dimensional normalized stationary-phase statement with d=1, support in B1, phi(0)=phi'(0)=0 and two-sided phi'' bounds; Theorem 2.6 is explicitly d>=2 with compact support and Hessian/derivative hypotheses. The active N03 skill properly retains these dimension and phase conditions and quarantines the printed exact-main-term/normalization branches。
-- 结论位置。Local PDF p. 3 states Theorem 2.1; p. 5 gives its remainder discussion and the printed Theorem 2.2 normalization; p. 9 states Theorem 2.6; pp. 11–12 apply Theorem 2.1 to the Bessel integral。
-- 适用范围。The active skill's precise exclusions remain unresolved by the inspected pages: the printed Theorem 2.2 coefficient/normalization and the Theorem 2.6 exact leading-term/remainder interface have not received an independent phase-normalization audit, and the Bessel application imports earlier result [5]. Thus the source cannot clear those active proof dependencies merely from its stated theorems。
+- 规范版本。arXiv:2402.08391v1; official arXiv record checked and lists v1 only
+- 待核。The source identity and its bounded domains are clear: Theorem 2.1 is one-dimensional with support in B1, phi(0)=phi'(0)=0 and two-sided second-derivative bounds, whereas Theorem 2.6 is explicitly d>=2 with its own compact-support, Hessian and derivative hypotheses. The active N03 skill correctly preserves these conditions and quarantines its exact printed leading-term/normalization paths.
+- 结论位置。Local p. 3 states the normalized one-dimensional Theorem 2.1; p. 5 gives its change-of-variable remainder discussion and Theorem 2.2 normalization; p. 9 states Theorem 2.6; pp. 11--12 apply Theorem 2.1 to Bessel integrals while importing an earlier result.
+- 适用范围。The read pages do not independently certify the printed exact Theorem 2.2 normalization or Theorem 2.6 leading-term/remainder constants, and the Bessel application imports prior result [5]. Thus no general parameter-uniform stationary-phase API, Bessel expansion, or stronger dimensional transfer is cleared by this source alone.
 - 相关技能。[math-n03-oscillation-and-geometric-remainder](../../../../math-n03-oscillation-and-geometric-remainder/SKILL.md)
-- 其余依赖。Independently recompute the changes of variables and Fourier conventions in Theorems 2.1, 2.2 and 2.6, then audit the cited Bessel result [5] and verify that every application preserves the stated support, dimension and nondegeneracy hypotheses。
+- 其余依赖。Recompute all phase changes of variables and Fourier conventions in Theorems 2.1, 2.2 and 2.6, independently audit the cited Bessel input [5], and check preservation of support, dimension and nondegenerate-Hessian hypotheses before admitting an exact-main-term call.
 - [主来源 1](https://arxiv.org/abs/2402.08391)

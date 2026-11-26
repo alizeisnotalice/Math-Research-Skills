@@ -37,3 +37,7 @@ description: 构建或核验矩与 SOS 层级，检查正多项式证书、截�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 单项归一的 \(x\)-对称双二次型
+
+用 [Kronecker Gram 核验](references/qi-cui-xu-monic-xsymmetric-gram.md)对照显式张量系数与两个有理 PSD 小块。核对目标多项式的逐项一致性和可构造 SOS 的秩上界。

@@ -37,13 +37,13 @@
 
 ## A New Application of Hoeffding’s Inequality Can Give Traders Early Warning of Financial Regime Change
 
-- 原件 2c071834af4b4655689e171845ec395a1bbc21e8fb724bfcf01ffcf123dfa3cb。arXiv:2512.08851v1 [q-fin.RM], 9 Dec 2025 (local PDF p. 1)。物理页 1, 2, 9。
+- 原件 2c071834af4b4655689e171845ec395a1bbc21e8fb724bfcf01ffcf123dfa3cb。arXiv:2512.08851v1 (9 Dec 2025); local PDF p. 1 identifies v1。物理页 1, 2, 9。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2512.08851v1, official arXiv record checked。
-- 待核。The local source is the official v1 preprint by Daniel Egger and Jacob Vestal. Its p. 2 assertion that the displayed Hoeffding bound holds for serially correlated observations conflicts with the independent-variable/independent-draw conditions used by the active H05 route and with its own appendix’s independence assumption。
-- 结论位置。Local PDF p. 1 identifies the v1 e-print; p. 2 states the bounded-observation Hoeffding setup but also says serial correlation is allowed; p. 9’s appendix says independence is assumed for its derivation。
-- 适用范围。The cited source cannot support a dependent-data Hoeffding claim. No current operational H05 claim cites it: the active skill instead requires independence or a conditional MGF argument。
-- 其余依赖。A valid dependent-data concentration theorem with explicit dependence/mixing or martingale hypotheses would be required before any regime-warning conclusion can use a Hoeffding-type tail bound。
+- 规范版本。arXiv:2512.08851v1; checked arXiv record lists only v1
+- 待核。Raw SHA and 16-page count match. The source's serial-correlation claim is unsupported by its own derivation: its appendix reintroduces independence. This conflicts with the dependence check required by H05, whose active procedure correctly requires independence or a verified conditional-MGF alternative; H05 does not rely on this paper operationally.
+- 结论位置。Local p. 1 identifies the article/version; p. 2 presents the bounded-observation setup while claiming serial correlation is permitted; p. 9 appendix invokes independent observations for the derivation
+- 适用范围。The preprint cannot justify a Hoeffding bound, p-value, or regime-change alert for serially correlated trading observations. Boundedness alone does not supply the needed factorization/conditional-MGF hypothesis.
+- 其余依赖。Use a concentration theorem whose mixing, martingale, block, or conditional-MGF assumptions are explicitly verified for the time series; then separately calibrate the decision rule.
 - [主来源 1](https://arxiv.org/abs/2512.08851)
 
 ## Algorithm for Solving Optimization Problems with Interval Valued Probability Measure
@@ -80,13 +80,15 @@
 
 ## Finiteness of the Hölder-Brascamp-Lieb Constant Revisited
 
-- 原件 bea725db0a35d152930d77f874ce61c2fec93beebea024c8f32bd5d192244d1a。arXiv:2503.15656v1, submitted 19 March 2025。物理页 1, 2, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18。
+- 原件 bea725db0a35d152930d77f874ce61c2fec93beebea024c8f32bd5d192244d1a。arXiv:2503.15656v1, submitted 2025-03-19。物理页 1, 2, 3, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2503.15656v1 (only version listed on the checked primary arXiv record)。
-- 构件候选。This is a potentially reusable finite construction: for finite-dimensional HBL data it states that finiteness is equivalent to a valid directed graph of subspaces with balanced weights. The inspected forward proof derives the HBL bound by factorization and Fubini; the reverse direction explicitly imports the Bennett--Carbery--Christ--Tao subspace characterization before induction on critical subspaces. It is not an active dependency of N02's PL/BBL slice procedure。
-- 结论位置。PDF p. 3 states Theorem 1; pp. 9--14 give the normalized-edge factorization and valid-presentation-implies-finiteness direction; pp. 14--17 construct a presentation from the BCCT subspace conditions, with the finite vertex bound on p. 18。
-- 适用范围。No implementation or certificate verifier exists here. The converse depends on the externally cited BCCT finiteness criterion, and a claimed graph certificate must still verify exact finite-dimensional subspaces, projection dimensions, nonnegative balanced weights, and the summary-weight condition。
-- 其余依赖。Implement an exact rational-linear-algebra checker for a supplied graph presentation, and separately audit the BCCT criterion used in the reverse implication before presenting this as a complete HBL decision procedure。
+- 规范版本。arXiv:2503.15656v1; the checked official record lists no later arXiv version or journal version
+- 已有技能。The paper gives a concrete finite certificate target for finite-dimensional HBL data: finiteness is equivalent to a valid directed graph of subspaces with nonnegative balanced weights and balanced summary weight. The forward implication is proof-backed by normalized edge-function factorization and Fubini/Hölder estimates. The reverse construction is finite after invoking the external Bennett--Carbery--Christ--Tao subspace criterion and critical-subspace induction.
+- 结论位置。p. 3 states Theorem 1; pp. 9--12 define normalized edge functions and prove the factorization/estimation direction; pp. 13--17 construct presentations by critical-subspace induction; p. 18 gives the finite vertex-count observation; p. 19 references the BCCT input.
+- 适用范围。It is neither a Prékopa--Leindler/BBL slice result nor an active N02 dependency. A purported certificate still needs exact subspaces, projection restrictions, all balance identities, total masses and summary weights checked; the reverse theorem also relies on the externally cited BCCT characterization, not solely this paper.
+- 相关技能。[math-hbl-finite-presentation](../../../../math-hbl-finite-presentation/SKILL.md)
+- 已采用构件。限定接口已写入 [math-hbl-finite-presentation](../../../../math-hbl-finite-presentation/references/finite-witness-guide.md)。
+- 其余依赖。Implement a rational-linear-algebra verifier for a supplied presentation and independently audit the BCCT finiteness theorem plus the critical-subspace induction before presenting an HBL decision procedure.
 - [主来源 1](https://arxiv.org/abs/2503.15656)
 
 ## Geometrical Interpretation of Shannon's Entropy Based on the Born Rule
@@ -102,14 +104,14 @@
 
 ## Hausdorff Dimension and Conformal Dynamics III: Computation of Dimension
 
-- 原件 4d171e6886871c1ba706f4af205e744c2b024f6cfc20ea66ab4dedc45d651991。Local 39-page revised-2003 author/repository PDF, title page dated 3 Oct 1997; byte hash verified。物理页 1, 2, 5, 6。
+- 原件 4d171e6886871c1ba706f4af205e744c2b024f6cfc20ea66ab4dedc45d651991。Curtis T. McMullen author manuscript, title page dated 1997-10-03; local repository copy revised 2003。物理页 1, 2, 5, 6, 7, 8, 9, 10, 11。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。Curtis T. McMullen, American Journal of Mathematics 120(4) (1998), 691–721, DOI 10.1353/ajm.1998.0031; the checked Harvard copy identifies itself as revised 2003。
-- 构件候选。For expanding conformal dynamics with an appropriate Markov partition, the paper forms a transition matrix with derivative weights, solves for the exponent where its spectral radius is one, and states partition refinement improves the dimension estimate. The published identity and DOI are independently corroborated by the Harvard repository and Project MUSE record。
-- 结论位置。Local PDF pp. 1–2 (repository citation/title/abstract) and pp. 5–6 (Markov-partition transition matrix and spectral-radius equation)。
-- 适用范围。The inspected material does not yet establish a reusable rigorous numerical certificate: admissible Markov-partition construction, distortion/error enclosures, monotonic spectral-radius bracketing, and rounding validation have not been fully audited。
-- 其余依赖。Read and check the full §2 proof and its hypotheses/error bounds before implementing a certified conformal-dimension workflow; no current installed skill relies on this source。
-- [主来源 1](https://dash.harvard.edu/server/api/core/bitstreams/7312037c-490c-6bd4-e053-0100007fdf3b/content) · [主来源 2](https://muse.jhu.edu/pub/1/article/803/summary)
+- 规范版本。American Journal of Mathematics 120(4) (1998), 691--721, DOI 10.1353/ajm.1998.0031; local 39-page revised-2003 copy is not asserted byte-identical to the journal edition
+- 构件候选。A bounded rigorous-dynamics construction is actually present: for an expanding finite Markov partition of a conformal dynamical system with invariant density of dimension delta, solve rho(T^alpha)=1 at each refinement. Theorem 2.2 derives exponentially shrinking partition diameter and alpha(R^n P)→delta, with O(N) refinements for N digits under its smooth expansion/distortion conditions.
+- 结论位置。pp. 5--6 specify the Markov-partition transition matrix and spectral-radius algorithm; pp. 7--8 give the conformal Markov-partition and expansion hypotheses; pp. 9--10 state/prove Theorem 2.2 by derivative min/max matrices and monotone spectral radius; p. 11 states practical requirements.
+- 适用范围。The result begins only after a valid expanding Markov partition, inverse branches, derivative evaluations, invariant density, and distortion/metric hypotheses are supplied. The pages read do not produce interval arithmetic, certified root bracketing, or an automated partition construction. No installed skill currently relies on it.
+- 其余依赖。Audit the remaining Section 2 error constants and implement directed interval enclosures for derivative extrema and Perron-root/root-finding before claiming a numerical certificate.
+- [主来源 1](https://doi.org/10.1353/ajm.1998.0031) · [主来源 2](https://muse.jhu.edu/article/803)
 
 ## Information from coincidences
 
@@ -146,13 +148,13 @@
 
 ## Low-Rank and Lifted Semidefinite Programming for Mixed-Integer Polynomial Power Grid Optimization
 
-- 原件 b0204c99397d255147bb0e45fdca6a5df2572d655ff6c6e1f26a0a076981eb7e。arXiv:2609.38435v1 (29 Sep 2026), byte-matched local PDF。物理页 1, 3, 4, 5, 6, 7, 8。
+- 原件 b0204c99397d255147bb0e45fdca6a5df2572d655ff6c6e1f26a0a076981eb7e。arXiv:2609.38435v1, submitted 2026-09-29。物理页 1, 2, 3, 4, 5, 6, 7, 8。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2609.38435v1; primary record says submitted to Allerton 2026, with no published version identified。
-- 待核。The paper supplies a concrete RLT-lifting implementation pattern and a conditional weak-duality check for its trace-bounded convex relaxation. It does not furnish a reusable general global-optimality theorem for mixed-integer polynomial problems: p.6 explicitly says matching low-rank/dual values alone does not establish global optimality of original AC-OTS, and Table III reports negative slack eigenvalues (about 2e-4 in magnitude) rather than an exact PSD dual certificate。
-- 结论位置。PDF pp.3–5 specify the RLT/lift construction and linking constraints; p.6 derives the trace-bounded Lagrange lower bound and expressly distinguishes its relaxation from the original AC-OTS problem; pp.7–8 report only one toy numerical experiment and approximate slack-eigenvalue data。
-- 适用范围。Reported decimal primal/dual agreement, a rank-1-looking voltage profile, or a local Knitro termination is not an exact rank-one, binary-feasible, PSD-dual certificate. The trace bound, s1=1 condition/correction, every lifted/RLT implication, and original-model reconstruction remain necessary。
-- 其余依赖。Require the instance data, exact lifted model, certified original binary feasible point, rational/interval primal objective, PSD dual certificate satisfying the uncorrected conditions, and proof that the strengthened relaxation is exact before any C01 implementation。
+- 规范版本。local byte-verified PDF is arXiv:2609.38435v1; the checked official record says submitted to Allerton 2026 and identifies no publication version
+- 待核。The paper supplies an application pattern only: lift selected monomials, impose binary-filter linking constraints and RLT cuts, then compare a local low-rank solve to a trace-bounded SDP dual lower-bound construction. It does not establish a reusable exactness theorem. Its own p. 6 says a local low-rank solution has no general global guarantee, while Table III has negative minimum dual-slack eigenvalues (reported around minus 2e-4 at the closest ranks), not an exact PSD certificate.
+- 结论位置。pp. 3--5 define the lift, binary exponent filter and linking constraints; p. 6 defines the nonconvex low-rank problem and its trace-bounded dual relaxation; pp. 7--8 report the single experiment and Table III slack-eigenvalue diagnostics.
+- 适用范围。A decimal objective match, rank-one-looking voltage profile, or local Knitro termination does not certify original mixed-integer AC-OTS global optimality. Exact binary feasibility, every lifting/RLT implication, the trace-bound justification, primal reconstruction, and an uncorrected PSD dual certificate remain absent. C01's active instructions already forbid precisely this inference, so no false active C01 claim was found.
+- 其余依赖。Obtain complete instance data and exact lifted model; certify an original binary-feasible point and rational/interval objective; then produce a PSD dual certificate satisfying the unmodified constraints and prove relaxation exactness before any C01 implementation.
 - [主来源 1](https://arxiv.org/abs/2609.38435)
 
 ## On the Banach--Mazur Type for Normed Spaces
@@ -168,13 +170,13 @@
 
 ## On the boundedness for the bilinear quadratic functional given by arbitrary strips
 
-- 原件 05a213f3f0329678652f11e89220882007c522dbec0011f4a46dca15975a15b5。arXiv:2606.22134v1 (local PDF dated 20 June 2026)。物理页 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 15, 18。
+- 原件 05a213f3f0329678652f11e89220882007c522dbec0011f4a46dca15975a15b5。arXiv:2606.22134v1, submitted 2026-06-20。物理页 1, 2, 3, 4, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2606.22134v1 (no publication version identified)。
-- 构件候选。The checked v1 gives a proof-backed, separately reusable candidate: for arbitrary pairwise-disjoint strips and smooth adapted cutoffs, it establishes a uniform bilinear square-function estimate on an ε-neighbourhood of the strict local-L^2 range, with a |S|^ε loss. The proof uses a Whitney reduction to well-distributed strips, tri-tile rows/columns, and modified L^2 energy for the dual sequence。
-- 结论位置。PDF pp. 1–3 define the smooth bilinear strip projectors and state Theorem 1.1; pp. 4–10 reduce to well-distributed strips and define the row/column size-energy machinery; pp. 14–15 use the estimates to prove the main bound, with references on p. 18。
-- 适用范围。It is a 2026 preprint and treats a bilinear, modulation-invariant strip operator; it neither proves G04's scalar arbitrary-interval result nor transfers to a spatial tree. Any new tool must retain smoothness, disjoint-strip geometry, the local-L^2 exponent neighbourhood, and the ε/cardinality loss, and needs independent implementation/audit of the size-energy decomposition。
-- 其余依赖。Independently formalize the tri-tile size/energy decomposition and verify the interpolation and ε-loss bookkeeping before any skill implementation。
+- 规范版本。local byte-verified PDF is arXiv:2606.22134v1; no later or published version appears on the checked primary record
+- 构件候选。The v1 proof supports a bounded candidate only: for smooth cutoffs adapted to pairwise-disjoint parallel strips it proves a bilinear square-function bound in an epsilon-neighbourhood of the strict local-L2 exponent range, with a cardinality loss. The concrete transferable components are the tri-tile reduction, row/column selection, and the modified h-size/L2-energy estimate that pays the cardinality loss.
+- 结论位置。pp. 1--4 define the smooth disjoint parallel-strip operator and state Theorem 1.1; pp. 6--10 give the tri-tile model, interpolation reduction, sizes and energies; pp. 12--17 execute selection/decomposition/localisation and the restricted weak-type summation; p. 18 references prior inputs.
+- 适用范围。This is not G04's scalar arbitrary-frequency-interval theorem and it does not control a spatial tree or maximal operator. The proof imports column/row estimates from an earlier paper, uses smooth adapted symbols, and its exponent neighbourhood plus epsilon/cardinality loss must be retained. G04's active scope expressly makes no such bilinear transfer, so no false active claim was found.
+- 其余依赖。Before any separate tool is added, independently audit the cited row/column estimate and verify the restricted-weak-type interpolation and all epsilon/cardinality exponents for a finite tri-tile input.
 - [主来源 1](https://arxiv.org/abs/2606.22134)
 
 ## Operational Interpretations of the Chernoff Inequality
@@ -189,13 +191,13 @@
 
 ## Picking up the partial sums of the Möbius function problem with probabilistic number theory
 
-- 原件 1dfc27758a5c7459f86cc68437b2ebbb4ed8335b8620dd6c91ce9709a720ea57。arXiv:2604.23517v1 local copy, 10 physical pages。物理页 1, 2, 3, 4, 6, 7, 8。
+- 原件 1dfc27758a5c7459f86cc68437b2ebbb4ed8335b8620dd6c91ce9709a720ea57。arXiv:2604.23517v1 (26 Apr 2026); local PDF metadata and p. 1 identify v1。物理页 1, 2, 3, 6, 7, 8。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2604.23517v1。
-- 待核。The official arXiv record verifies the title, author, and v1 identity, but it also describes the work as exploring results under probabilistic independence assumptions. The local paper’s later Mertens conclusions are conditioned on those assumptions and its heuristic/asymptotic manipulations。
-- 结论位置。Local pp. 1–3 state the probabilistic framing and assumptions; pp. 6–7 explicitly derive subsequent bounds using the hypothesized independence; p. 8 presents claimed Mertens-scale corollaries。
-- 适用范围。The source cannot support an unconditional Mertens statement, nor an H04 large-deviation/rate-function claim. Recovering the arXiv identity fixes the former bibliographic hold but not the mathematical gap: the required arithmetic independence assertions are not established in the consulted source。
-- 其余依赖。A future use would require a precise proved theorem for the asserted arithmetic dependence structure (or an explicitly conditional statement) and an independently checked derivation of every Mertens consequence。
+- 规范版本。arXiv:2604.23517v1; checked arXiv record lists only v1
+- 待核。Raw SHA and ten-page count match, and arXiv confirms the v1 identity. The mathematical dependency remains unresolved: the source's passage from distributional information about Ω(n) to its bounds uses unproved independence/equal-likelihood assertions, then uses those bounds in the Mertens conclusions. H04 has no active claim relying on this paper.
+- 结论位置。Local pp. 1–3 define the arithmetic functions and replace Möbius behavior by iid/independence framing; Theorem 2.2 and its proof on p. 6 explicitly assume the proposed independence properties; pp. 7–8 derive the advertised Mertens-scale consequences
+- 适用范围。Neither the source nor its cited heuristic probabilistic model establishes the needed arithmetic independence. Its Mertens conclusions cannot be used as unconditional rate-function, LDP, or variance-stratification evidence.
+- 其余依赖。A use must either state all conclusions explicitly conditional on a precisely formalized independence hypothesis, or replace that hypothesis with a proved arithmetic correlation/independence theorem and independently recheck every asymptotic transfer.
 - [主来源 1](https://arxiv.org/abs/2604.23517)
 
 ## Similarity-Sensitive Entropy under Representation Change and Inference
@@ -233,23 +235,25 @@
 
 ## Unidentified unreadable PDF (metadata title ch-bounds.dvi)
 
-- 原件 28f62572ba531d5cf47eef69e769f2eb1dc536d1f7387b080beb7047e6a2933d。Exact local 31-page PDF; /Title metadata is ch-bounds.dvi。物理页 1, 2。
+- 原件 28f62572ba531d5cf47eef69e769f2eb1dc536d1f7387b080beb7047e6a2933d。Exact local 31-page author PDF, metadata title ch-bounds.dvi; visual inspection identifies Schmidt, Siegel, and Srinivasan。物理页 1, 4, 5, 6, 10, 11, 13。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。not identified。
-- 待核。The checked local bytes have the assigned SHA and 31 pages, but the actual first pages are not legible enough to establish identity or any theorem-level result。
-- 结论位置。Physical pp.1–2; pypdf extraction is corrupted glyph text and supplies no readable title, author, theorem or citation。
-- 适用范围。No mathematical claim is admitted, and there is no recoverable primary publication identifier from the PDF text/metadata inspected。
-- 其余依赖。Locate a readable original from a bibliographic ledger or rendering/OCR receipt, then bind the exact theorem and version before routing it to any skill。
+- 规范版本。Schmidt–Siegel–Srinivasan, SIAM Journal on Discrete Mathematics 8(2) (1995), 223–250, DOI 10.1137/S089548019223872X
+- 已有技能。Raw SHA and 31-page count match. The formerly unreadable record is a verified accepted source for the active finite-moment skill ledger. The inspected derivation expands a binary sum using elementary symmetric polynomials, so k-wise independence preserves the required expectations. It supports the skill's narrow tail-interface rule: retain the ceiling in Eq. (3)/Theorems 1–2 and the floor conventions in Theorem 5.
+- 结论位置。Local p. 1 abstract/identity; p. 6 derives Eq. (3), where the binary-tail independence order is a ceiling; pp. 10–11 state/prove the k-wise moment bound; p. 13 states and proves Theorem 5, whose displayed regimes use floors
+- 适用范围。This is a concentration interface for bounded [0,1] or binary sums under the paper's stated k-wise conditions. It is neither an exact joint-law factorization nor a pointwise polynomial dual/LP certificate, so it must remain auxiliary in probability-moment-polynomial-duality.
+- 相关技能。[probability-moment-polynomial-duality](../../../../probability-moment-polynomial-duality/SKILL.md)
+- 其余依赖。For a new application, specify the bounded variables, exact k-wise order, mean/variance, deviation regime, and the relevant ceiling/floor branch; no further identity recovery is needed.
+- [主来源 1](https://epubs.siam.org/doi/10.1137/S089548019223872X) · [主来源 2](https://www.cs.umd.edu/~srin/PDF/ch-bounds.pdf)
 
 ## Universal Closest Refinement on Measurable Bipartite Relations
 
-- 原件 8020d830da8961acb2c0c45239c2db096610e97df25139af255101411abe252a。arXiv:2604.10274v1 (T-H. Hubert Chan; original submitted 11 Apr 2026)。物理页 1, 4, 29, 30, 31, 32, 33, 34, 35, 37。
+- 原件 8020d830da8961acb2c0c45239c2db096610e97df25139af255101411abe252a。arXiv:2604.10274v1, submitted 2026-04-11。物理页 1, 2, 4, 29, 30, 31, 32, 33, 34, 35, 37。
 - 依赖复核。根据本轮对原件及现有技能的复核更新。
-- 规范版本。arXiv:2604.10274v1; local 75-page PDF has the assigned SHA-256, while no byte-for-byte official-PDF download was made。
-- 构件候选。The primary arXiv record confirms the identity and abstract. Locally, Theorem 6.2 proves strictly-convex finite-divergence minimizers are level-optimal maximin; its proof explicitly uses the Section 4 truncation lemma and Section 5 augmenting exchange. Theorem 6.3 then turns overflow-profile dominance into optimality for every proper l.s.c. convex integrand, and Corollary 6.4 reduces universal channel-DPI closestness to hockey-stick divergences. This is a potentially reusable finite-refinement construction, not a measurable-argmax theorem。
-- 结论位置。Local PDF p. 4 Theorem 1.1 overview; pp. 29–32 Theorem 6.2 and its truncation/augmentation/strict-convexity proof; pp. 32–35 Theorem 6.3 and Corollary 6.4; p. 37 invokes Theorem 6.3 in the paired construction。
-- 适用范围。It depends on the paper's Assumption 2.3, feasibility/disintegration/augmentation lemmas, divergence convention including singular mass, and its channel-DPI class. The active M04 skill does not cite or rely on this result; its current audited claims remain only finite five-point selectors and one nonmeasurability boundary. Thus no unsupported active M04 claim was found。
-- 其余依赖。Independently audit Assumption 2.3, Lemmas 4.2 and 5.2, Proposition 3.10, and the paired proportional-response theorem before implementing any bounded refinement subtool。
+- 规范版本。local byte-verified 75-page PDF is v1; the checked official record now lists arXiv:2604.10274v2 (2026-10-29), which was not byte or proof compared with this local v1
+- 构件候选。For the local v1 under Assumption 2.3, a precise finite-construction analogue is checked: a finite strictly convex divergence minimizer is level-optimal maximin (Theorem 6.2), and level-optimal maximin minimizes every proper l.s.c. convex divergence (Theorem 6.3). The proof exposes a concrete truncation--augmentation--splicing contract and then converts truncated-mass dominance to overflow-profile dominance and convex optimality.
+- 结论位置。Local p. 4 gives the main overview; pp. 29--32 state and prove Theorem 6.2 using truncation and augmenting exchange; pp. 32--34 prove Theorem 6.3 via overflow profiles and convex-integrand approximation; p. 35 gives Corollary 6.4; p. 37 begins the paired proportional-response step.
+- 适用范围。This is a specialised refinement/disintegration result, not a measurable argmax/selection theorem. It depends on Assumption 2.3 and unreviewed feasibility, truncation, augmenting-exchange, hockey-stick, and proportional-response prerequisites. A newer official v2 exists and has not been compared to the local v1. M04's active claims remain only its audited finite selector and nonmeasurability boundary, so no unsupported active M04 claim was found.
+- 其余依赖。Compare v1 with current v2, then independently audit Assumption 2.3, the Section 4 truncation lemma, Lemma 5.2 augmentation, and Proposition 3.10 before implementing any refinement subtool.
 - [主来源 1](https://arxiv.org/abs/2604.10274)
 
 ## Well-posedness, Regularity, and Strong Approximations of Superlinear Stochastic Reaction-Diffusion Equation

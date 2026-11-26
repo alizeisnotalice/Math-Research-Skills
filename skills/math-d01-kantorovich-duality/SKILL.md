@@ -43,3 +43,7 @@ description: 核验 Kantorovich 输运对偶及势函数，检查代价、可积
 ## 有限加权树的输运证书
 
 输入本身为加权树时，按 [树度量证书](references/tree-metric-transport.md) 构造精确耦合并核对子树切割失衡和对偶势。一般图的距离和最优生成树条件须另证。
+
+## 带附加线性等式的有限输运
+
+给定有理多边缘耦合、逐格代价和附加期望等式时，用 [有限原始对偶证书](references/finite-constrained-transport.md)核验势函数、自由符号乘子、松弛与最优值。

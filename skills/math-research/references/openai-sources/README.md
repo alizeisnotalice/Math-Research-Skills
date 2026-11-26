@@ -5,11 +5,12 @@
 
 | 分类 | 数量 | 页面 |
 | --- | ---: | --- |
-| 已安装构件 | 167 | [installed.md](installed.md) |
-| 限定参考 | 6 | [scoped-reference.md](scoped-reference.md) |
-| 候选构件 | 365 | [candidate.md](candidate.md) |
-| 保留，依赖待审 | 186 | [held.md](held.md) |
-| 仅版本或题录核对 | 7 | [version-only.md](version-only.md) |
+| 已安装构件 | 171 | [installed.md](installed.md) |
+| 限定参考 | 7 | [scoped-reference.md](scoped-reference.md) |
+| 候选构件 | 425 | [candidate.md](candidate.md) |
+| 保留，依赖待审 | 102 | [held.md](held.md) |
+| 仅版本或题录核对 | 17 | [version-only.md](version-only.md) |
+| 邻近材料 | 9 | [adjacent.md](adjacent.md) |
 | 待进行证明核对 | 0 | [pending.md](pending.md) |
 | 历史版本或状态待确认 | 32 | [archive.md](archive.md) |
 
@@ -19,7 +20,8 @@
 - 限定参考。现有技能可参照指定段落，仍保留列出的前置条件或依赖。
 - 候选构件。逐页审阅发现可进一步蒸馏的局部方法，尚未成为已安装技能。
 - 保留，依赖待审。来源含有可定位的路线，但本轮没有接受为可调用构件。
-- 仅版本或题录核对。记录来源身份，未对证明作正向采用。
+- 仅版本或题录核对。记录来源身份及引用范围。
+- 邻近材料。记录已核查的模型、量词、版本或适用范围差异。
 - 待进行证明核对。清单、哈希和官方链接已处理，尚缺本轮实际证明阅读。
 - 历史版本或状态待确认。撤回、替换或目录外版本保留追溯，不能据此调用结论。
 

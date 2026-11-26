@@ -20,6 +20,7 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | 离散矩的形状、有限 e-process、齐次 Mahler 转移 | 分别用 [概率形状](../math-b03-generalized-moments/references/discrete-shape-exact-guide.md)、[逆矩](../probability-martingale-stopping/references/finite_inverse_moment_type_ii.md) 和 [间隙转移](../math-hankel-pade-certificates/references/badziahin-mahler-gap-transfer.md)。 |
 | 齐次化 QCQP、稀疏矩、全时域退出或 Wishart 矩 | 使用 [QCQP 同值](../math-c01-semidefinite-lifting/references/arima-kim-kojima-finite-qcqp-certificate.md)、[原子团分解](../math-b03-generalized-moments/references/ideal-sparse-finite-guide.md)、[相型退出](../math-j03-nonlocal-balayage-exit-measure/references/finite-exit-phase-type.md) 或 [精确 Wishart 矩](../probability-random-matrix-tensor/references/wishart-polynomial-moments.md)。 |
 | 一维分段 ODE 的严格残差界 | 用 [分段 ODE 证书](../math-l03-rational-and-interval-certificates/references/piecewise-ode-residual.md)核对接缝、正零阶系数和端点输入，给出函数误差界。 |
+| 可逆链的指数尾、附加等式输运、结构双二次型 | 用 [有限马尔可夫尾界](../probability-markov-spectral-mixing/references/finite-markov-chernoff.md)、[有限输运证书](../math-d01-kantorovich-duality/references/finite-constrained-transport.md) 或 [双二次 Gram](../math-c03-moment-sos-certificates/references/qi-cui-xu-monic-xsymmetric-gram.md)。 |
 | 有端点消失条件的 Euler–Maclaurin 求积 | 用 [求积误差证书](../math-euler-maclaurin-quadrature-certificates/SKILL.md) 检查多项式、网格及误差的有理包围。 |
 | 标准化单峰分布的尖锐尾界 | 用 [单峰尾界证书](../probability-unimodal-tail-certificates/SKILL.md) 检查事件方向、阈值和取等构造。 |
 | 符号求导、恒等式、参数求解、高精度 | `mathematica-math` 或 `python-math` 的已验证符号环境。声明定义域、分支与精确输入。 |
