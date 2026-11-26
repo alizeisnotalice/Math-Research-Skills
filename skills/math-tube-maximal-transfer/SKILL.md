@@ -19,5 +19,7 @@ Read the relevant tube-maximal or diagonal-extension reference before applying a
 
 ## OpenAI 原稿中的方法
 
+- [fixed-phase curved-Kakeya straightening](references/openai-last-b-wave6.md)
+
 - [Curved extension and elliptic capacity proposal](references/wave5-openai-residual03-extension.md)
 - [Three-dimensional tube-to-maximal proposal](references/wave5-openai-residual03-kakeya3d.md)

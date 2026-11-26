@@ -21,12 +21,14 @@
 - 原件。arXiv:2610.22367。PDF 物理页 1, 29, 46。SHA-256 3607f457c3349db74e10b131abadef23a4a2dea0fefa0cf6ac6d0ed9f37fdfd9。
 - quantum-circuit search。Abstract; Appendix A Proposition A.2; conclusion/appendix endpoint。研究以 LLM 提议和进化搜索量子电路，附录含特定模块算术规则；可见内容是面向实验基准的电路搜索，而非一般数学证明工具。
 - 归档定位。电路评测、搜索实现与量子模型前提未复核。 未审计实验数据或把附录规则外推为通用量子算法。
+- 第六批定向筛选。adjacent。The verified preprint is an empirical LLM-plus-evolutionary quantum-circuit search framework. Its Appendix A decoder rule is architecture-specific and not a general mathematical tool. 定位。Abstract p.1; reversible walk/decoder discussion p.29; Theorem A.6 equation (A11) p.46.。全卷 46 页。 后续条件。A reusable component would require a declared circuit-state representation, gate semantics, and independent evaluator contract.
 
 ## A21 · Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams
 
 - 原件。arXiv:2610.00583, preprint under review。PDF 物理页 1, 9。SHA-256 d57efb1e2019b8ffbe2a19cddc0c50e927b8dc66421150ec53f0654fc791ff7e。
 - multi-agent empirical evaluation。Abstract; Conclusion (physical p.9)。在四类共享资源环境和多模型实验中比较单协调者与分用户代理，报告多代理协作可出现性能下降。
 - 归档定位。结论依赖所列场景、提示和评价协议，未复现实验。 经验性 AI 协作研究，不是数学工具构件。
+- 第六批定向筛选。citation。This under-review empirical multi-agent study reports scenario-dependent coordination failures, not a transferable mathematical proof or computation primitive. 定位。Abstract and experimental setting p.1; safety/implications discussion p.9.。全卷 63 页。 后续条件。Reproduction would require the 77 scenario prompts, model versions, evaluation protocol, and raw episode data.
 
 ## A25 · Lowered crossover points of Anthropic's subexponential 3-SAT algorithm
 
@@ -100,6 +102,7 @@
 - 原件。arXiv:1702.01377v1 (2017-02-05); inventory groups it with G27 but observed title differs。PDF 物理页 1, 3。SHA-256 fed2200529adfe9c15b50a1af1440b4fede19533bb8bd10b89326c030205f0f2。
 - Kawashima functions and MZVs。Abstract; Theorem 2.1 (physical p.3)。综述 Kawashima 函数作为 digamma 函数推广，并记录其积分表达及与 Kawashima 型 MZV 关系的联系。
 - 版本与引用。定理 2.1 的第一积分式明确引自另一文献，其他综述性关系也依赖所引原始工作。 只作为 G27 的背景/题录；未把综述转写为独立证明或数值算法。
+- 第六批定向筛选。existing。Its Newton-series, integral, and finite-harmonic duality interfaces are already covered by math-mzv-newton-harmonic-relations. The physical source is a survey and attributes the integral theorem to prior work. 定位。Survey abstract p.1; Theorem 2.1 with explicit attribution p.3; Newton/integral formulas (2.5)--(2.9) pp.4--5.。全卷 12 页。 后续条件。Use the existing route and its primary Kawashima source for any new MZV claim.
 
 ## G33 · Periods
 
@@ -107,6 +110,7 @@
 - periods survey。Abstract and introduction (physical pp.2–4)。定义代数函数在半代数域上的积分所形成的 periods，并综述其与微分方程、超越论和开放问题的关系。
 - 版本与引用。该文是综述，具体例子和猜想依赖参考文献。 不将“period”身份自动推出代数性、超越性或可判定性。
 - 相关入口。[math-research](../../../math-research/SKILL.md)。
+- 第六批定向筛选。citation。Kontsevich--Zagier is a survey and status source for periods. It explicitly presents conjectural equality verification and does not supply a γ-specific transfer. 定位。Title p.1; abstract and survey scope p.2; introductory conjectural-status discussion p.4.。全卷 38 页。 后续条件。A proposed period identity must be checked against the relevant primary integral/motive source.
 
 ## G39 · Transcendence of values of logarithms of E-functions
 
@@ -114,12 +118,15 @@
 - E-functions and logarithmic values。Abstract; Theorem 1 (physical p.2)。对不经有理缩放同构的超越 E-函数，给出其有理点值相交的有限性；摘要还说明在额外严格 E-函数条件下得到对 log f(ξ) 的算术结论。
 - 版本与引用。适用需核对具体函数的 E-函数性质、例外集与定理的严格系数条件。 正式发表版本仅作题录/定理范围核对；未证明 γ 或候选生成函数满足这些条件。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。adopt。Published Theorem 2 supplies a nonduplicate strict-E logarithm irrationality-measure admission gate, useful for rejecting invalid γ transfers while preserving its hypotheses. 定位。Published abstract p.1; Theorem 2 equation (1.1) and implementation assumptions pp.3--4.。全卷 20 页。 后续条件。A γ candidate must prove an exact ln(f(xi)) representation, strict rational E-function status, regular rational evaluation, positivity, and irrationality.
+- 已采用方法。物理页 1, 3, 4。Strict rational E-functions, a nonzero rational regular point with positive value, and an independently established irrational logarithm. [方法说明](../../../math-euler-constant-irrationality/references/supp19-e-function-logarithm-admission.md)。
 
 ## G40 · The Unbounded Denominators Conjecture
 
 - 原件。J. Amer. Math. Soc. 38 (2025), 627–702; article published 2025-02-06。PDF 物理页 1, 2。SHA-256 867026fbcc5592728173e5c4d6a87f58d57a55b0d0d8b0109b9774e84290ee1e。
 - modular forms and arithmetic holonomicity。Theorem 1.0.1 (physical p.1); contents (p.2)。在文中指定的上半平面全纯、有限指标子群变换及 cusp 亚纯条件下，证明整系数分数 q 幂级数模形式来自 congruence subgroup。
 - 版本与引用。定理适用取决于全部模形式/边界假设；与 γ 线性形式没有已核验桥梁。 已核对正式版本和主定理陈述，不外推为任意递推序列的分母结论。
+- 第六批定向筛选。citation。The formally published unbounded-denominators theorem concerns modular forms and congruence coverings. No verified bridge connects its hypotheses to γ linear forms. 定位。Published Theorem 1.0.1 p.1 and its modular-lambda reformulation p.2.。全卷 76 页。 后续条件。Need a candidate modular form with the complete upper-half-plane, finite-index transformation, cusp-meromorphy, and integral Puiseux hypotheses.
 
 ## G41 · Arithmetic holonomy bounds and effective Diophantine approximation
 
@@ -127,6 +134,7 @@
 - arithmetic holonomy and Diophantine approximation。Abstract; Theorem 1.1 (physical p.1)。对数域、赋值、有限生成乘法群和 ε 的数据，陈述有效高度有界性：满足 |1-Aγ|_v≤H(γ)^{-ε} 的群元素高度受可计算界控制。
 - 版本与引用。算术 holonomy 界及其构造/证明未在本次逐项审计；这与现有 γ 技能中另行审计的来源版本不可自动等同。 仅登记陈述与入口；未建立任何 γ 候选满足其全部函数、分母和维数门槛。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。existing。The Apéry-limit holonomy and denominator-array interfaces are already captured by math-euler-constant-irrationality's E-operator/holonomy admission route. This local ICM-style copy does not displace the already checked primary preprint version. 定位。Theorem 1.1 pp.1--2; Apéry-limit setup and Theorem 2.1 formulas (2.1)--(2.3) pp.3--4.。全卷 20 页。 后续条件。Use the existing gate with an actual Apéry pair, meromorphic pullback, denominator array, holonomicity, and strict derivative threshold.
 
 ## G41 · Products of two logarithms and arithmetic holonomy bounds
 
@@ -179,6 +187,7 @@
 - 原件。arXiv:2610.09093v1 (2026-10-06), prepared for JHEP。PDF 物理页 1, 2, 3。SHA-256 45c8d3eaecb57f220a444192220464af64f00e3a15cab1d50c4719f62e934382。
 - lattice gauge theory。Abstract; contents (physical pp.1–3)。研究四维 Euclidean lattice 上手征费米子的规范不变测度，并将其作为 Standard Model 的非微扰格点定义候选。
 - 归档定位。主构造依赖可接受规范场、局部性和全局可积性条件；未核对证明。 仅目录化物理主题与版本；不蒸馏为当前数学工具。
+- 第六批定向筛选。adjacent。The preprint's gauge-invariant lattice-fermion construction is a physics-specific nonperturbative model with admissibility, locality, and global-integrability conditions, outside the current mathematical-tool routes. 定位。Abstract p.1 and contents/scope pp.2--3.。全卷 126 页。 后续条件。Any adoption needs a dedicated lattice-gauge workflow with explicit admissible-field and chiral-projector contracts.
 
 ## O24 · Proof by OpenAI of the Existence of Quantum Yang--Mills theory
 
@@ -207,6 +216,7 @@
 - 原件。arXiv:2609.25050 (PDF first page)。PDF 物理页 1, 8, 9。SHA-256 49a0289087c9378b02e0a85cded14cc0ce9d8b43a814065af2e54895eef6babc。
 - AI mathematics benchmark。Abstract; Appendix A benchmark list。这是 68 个截至 2026-08 仍开放的 Erdős 问题的 Lean 基准与评测报告，而非某一数学证明；报告称固定预算评测中 GPT-6 Astra 解决比例为 3%。
 - 版本与引用。其数学条目是各题的外部定义与 Lean 任务，论文不提供可迁移的通用证明机制。 未逐题审计 68 个形式化任务、模型运行或基准版本。
+- 第六批定向筛选。citation。This is a Lean benchmark/evaluation report for 68 externally specified open problems, rather than a mathematical proof component. 定位。Abstract and benchmark protocol p.1; problem-list appendix pages 8--9.。全卷 12 页。 后续条件。Individual benchmark problems require their own source statements, Lean artifacts, and proof review.
 
 ## O30 · GPT, the Counterexample Machine
 
@@ -220,6 +230,7 @@
 - 原件。arXiv:2610.17090 (PDF first page)。PDF 物理页 1, 2, 8, 22。SHA-256 812f9ea9ffdb64dc754a4cf241533a0b08550a3436e96c0fccf3ef4b2afe703e。
 - secondary survey of AI-generated mathematics。Abstract; selected family discussions。二次综述尝试把 OpenAI 发布材料拆成引理、构造、不等式和证明机制，并明确把有效性与新颖性留作后续核验；它是线索索引而非独立证明来源。
 - 版本与引用。所有“instrument”均依赖被综述的原始论文；作者也未以本文替代原始论证。 未逐项复核其 38 个问题族与原稿之间的对应关系。
+- 第六批定向筛选。citation。This is a secondary survey that labels its extracted instruments as requiring later validity and novelty review. It is an index, not an independent proof source. 定位。Abstract p.1; survey organization p.2; family table p.8; Hilbert--Smith survey discussion p.22.。全卷 56 页。 后续条件。Use the original OpenAI manuscript for each claimed instrument; do not adopt survey prose as a theorem interface.
 
 ## O32 · On the proof of Falconer distance conjecture
 
@@ -268,6 +279,7 @@
 - 原件。arXiv:2611.00517 (PDF dated Oct 2026)。PDF 物理页 1, 2, 8。SHA-256 a0ee953196f8d0a359809fbe9a0d809c493b9bc69ec4e4dcf5c12e4f7f58a052。
 - asymptotic complexity audit。Abstract; constants analysis。该文审查一项 #k-SAT 亚指数时间声称：区分 tensor-contraction 与 interpolation 指数，并指出隐藏常数下有限规模可能不优于 2^n。
 - 版本与引用。结论条件于被审查的 OpenAI 算法及作者抽取的常数；它提供尺度审计而非独立 ETH 定理。 未复核原始算法、常数推导或实验性阈值计算。
+- 第六批定向筛选。adjacent。This complexity note audits asymptotic constants of another preprint. It supplies scale estimates conditional on that algorithm, not a standalone proof or general computation certificate. 定位。Abstract p.1; algorithm and scope disclaimer p.2; threshold table p.8.。全卷 29 页。 后续条件。Re-use would require the original tensor-contraction proof, fixed cost model, and independent derivation of every hidden constant.
 
 ## O39 · Proof of the Harary--Hill conjecture: an exposition
 
@@ -317,6 +329,7 @@
 - 原件。preprint dated 15 Sep 2026。PDF 物理页 1, 4, 17。SHA-256 a38af23a5873e7671ecf0bcd7f3d4c45851c67689a7551ae0e51203ba166fe95。
 - computational fluid comparison。Abstract; §§4--7 roadmap。文章把旧的 porous-wall exact swirl 与所称 OpenAI 强迫爆破相似变量比较，并报告 Chebyshev collocation、continuation、manufactured/resolution checks 与一个负结果。
 - 版本与引用。数值比较依赖离散化、Newton/continuation 参数和公开代码；它不能验证强迫 Navier--Stokes 有限时爆破。 未重跑数值、检查误差证书、或核验与 OpenAI profile 的变量字典。
+- 第六批定向筛选。candidate。The preprint reports a potentially reusable Chebyshev-collocation/continuation diagnostic, but its own physical pages show unresolved wall-layer eigenvalue nonconvergence, so no validated component is extracted. 定位。Abstract p.1; numerical workflow p.4; unresolved mode variation p.17.。全卷 31 页。 后续条件。Need source code, parameters, residual definitions, convergence criterion, and a numerical error certificate that resolves the stated instability.
 
 ## O43 · The Erdős--Sós Conjecture: A Visual Exposition of the Proof Discovered by GPT-6 Astra
 
@@ -330,6 +343,7 @@
 - 原件。preprint dated 17 Sep 2026。PDF 物理页 1, 2。SHA-256 65c23edb27fe836023ea27fd6c176c43748a88bffd46d8cc8ef4f057a77b428d。
 - extremal tree embedding。Theorem 1; introductory reductions。这是 Erdős--Sós 声称证明的短 exposition；它区分 minimum-degree 贪心结论与平均度严格阈值的真正难点。
 - 条件或证据待查。中心证明依赖引用的 GPT-6 Astra/Lean 结果和文中未在本次逐节复核的计数论证。 未核验主证明、Lean 工件或所有 t≥2 的边界情况。
+- 第六批定向筛选。hold。The exposition states the Erdős--Sós theorem but attributes the proof and Lean verification to external GPT-6/FrontierMath artifacts not physically available here. Its introductory greedy argument only proves a stronger minimum-degree case. 定位。Theorem 1 and contrast with the greedy minimum-degree reduction p.1; Ramsey consequence p.2.。全卷 7 页。 后续条件。Require the cited primary proof/Lean repository and a theorem-to-artifact replay covering every t>=2 boundary case.
 
 ## O43 · A short proof of the Erdős--Sós Conjecture
 
@@ -343,12 +357,14 @@
 - 原件。arXiv:1508.07158v2 (28 Oct 2016)。PDF 物理页 1, 8, 9。SHA-256 d44bec7a6c2b016d4a65971e60e583a9d013e8389948c52393911f5b12b7e7dd。
 - Mahler functions and specialization。abstract; Proposition 2.1。研究 Mahler 函数在非奇异代数点的代数/线性关系专门化；Proposition 2.1 把小代数点的值关系提升为函数域关系，前提含超越度保持与正则扩张。
 - 版本与引用。全局结论依赖 Philippon/Nishioka 型专门化结果与 Mahler 函数方程迭代；并不直接给 E-functions/M-functions 的 2025 结果。 输入目录题名混合了另一来源；未核对期刊版、E/M-function 论文或该方法与 γ 的直接接口。
+- 第六批定向筛选。existing。Mahler specialization/relation lifting is already covered by math-euler-constant-irrationality and math-hankel-pade-certificates with a newer published primary route. This French survey/tutorial adds no nonduplicate executable interface. 定位。Abstract p.1; local-to-global transport discussion p.8; Theorem 3.1 relation-lifting statement pp.10--11.。全卷 46 页。 后续条件。Use the existing Mahler admission only after a homogeneous equation, a regular algebraic in-disk point, and full-orbit nonsingularity are proved.
 
 ## P14 · Open Diophantine Problems
 
 - 原件。arXiv:math/0312440v2 (24 Jan 2004)。PDF 物理页 1, 2, 17。SHA-256 2d3283afda1f3997c1a7a190a7b6a41ace5ca86ad02ab83575ee47c5d363729c。
 - Diophantine and transcendence problem survey。Abstract; contents; selected approximation discussion。这是一份 2004 年问题综述，覆盖丢番图方程、逼近、超越、height 等；它可作历史问题定位，不能当作当前状态或新证明工具。
 - 版本与引用。各开放问题与结果依赖被引用文献，且二十余年后状态可能已变化。 未做逐题现代文献更新，也未将其开放问题直接用于现有研究路线。
+- 第六批定向筛选。citation。Physical pp. 1--2 identify a 2004 open-problem survey; it supplies historical problem taxonomy, not a current theorem or a gamma approximation/linear-form construction. The checked p. 17 discussion concerns Waring and Mahler/Z-number questions, not Euler's constant. 定位。Abstract and contents, physical p. 1; example discussion, physical p. 17.。全卷 58 页。 后续条件。For any listed open problem, use a current primary result and separately verify whether it concerns the target constant.
 
 ## P16 · Galois theory, motives and transcendental numbers
 
@@ -356,6 +372,7 @@
 - motive-period conjectures。§§2,4.1,5.6–5.7。综述以动机 Galois 群描述周期的预期代数关系；对 log(q)、π 与奇 ζ 值的强独立性结论在文中明确是 Grothendieck 周期猜想的推论。
 - 版本与引用。核心等式依赖未证的周期猜想及动机范畴；不是可直接产生 γ 整数线性形式的定理。 未逐章核对其动机形式主义；只核对了与周期猜想和 ζ/log 示例有关的段落。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。candidate。The motive-period discussion makes the stated algebraic-independence consequences explicitly conditional on Grothendieck's period conjecture. It treats rational Gamma values, logarithms, and odd zeta values, but gives no realization of Euler's constant as a covered period or any integer linear form for it. 定位。Grothendieck period conjecture, physical p. 7; Gamma/log/zeta consequences, physical p. 10.。全卷 13 页。 后续条件。A proved realization of Euler's constant in the relevant motivic period category plus an unconditional theorem covering it.
 
 ## P18 · Transcendence and linear relations of 1-Periods
 
@@ -363,6 +380,7 @@
 - 1-motive periods。Abstract; Chs. 1,9–13。专著给出 Deligne 1-motive 周期的超越性、Q 线性关系和周期空间维数的完整描述，属于 1-周期框架。
 - 版本与引用。结论经解析子群定理和 1-motive 比较；适用对象是代数 1-形式沿路径的周期，未给出 γ 的此类实现或整数逼近接口。 未审阅全部 237 页的分类公式；未验证其是否可对 γ 给出新接口。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。adjacent。The monograph's abstract and introduction give a complete framework for periods of algebraic 1-forms along algebraic paths, including transcendence and Q-linear relations. The checked source does not identify Euler's constant as such a 1-period or derive an integer approximation interface for it. 定位。Abstract, physical p. 2; Chapter 1 period-integral setup, physical p. 17.。全卷 237 页。 后续条件。A verified 1-motive/relative-period representation of Euler's constant with its path, form, and field of definition.
 
 ## P19 · Exponential periods and o-minimality
 
@@ -370,18 +388,21 @@
 - exponential periods。Theorem 0.1 / Theorem 12.4。在 k 对 k∩R 代数的条件下，证明 naive、cohomological 与 exponential-Nori 三类指数周期一致，并把实虚部表成相应 o-minimal 可定义集的体积。
 - 版本与引用。等价证明依赖快速衰减同调、twisted de Rham 比较和可定义三角剖分；这是对象刻画，不提供 γ 的近似或无理性判据。 仅检查主定理和技术障碍说明，未逐一审计比较定理的所有前提。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。adjacent。Theorem 0.1 classifies several notions of exponential period under k algebraic over k intersect R, and the paper explains its rapid-decay/de Rham comparison dependencies. This is an object-characterisation result; no gamma representation, denominator statement, or small linear form follows from it. 定位。Theorem 0.1, physical p. 2; technical comparison dependencies, physical pp. 6--7; Theorem 12.4, physical p. 69.。全卷 72 页。 后续条件。An explicit exponential-period representation of the target and an independent arithmetic approximation/denominator mechanism.
 
 ## P21 · Algebraic independence of the exponential and Weierstrass ℘-functions
 
 - 原件。arXiv:2609.15294v1 (2026-09-14)。PDF 物理页 1, 2, 3。SHA-256 8ababca8ca341314e929a25f4b89030bbafe8935356a6329349b4cbb014423f8。
 - semi-elliptic algebraic independence。Theorem 0.1; §§1–2。对具有代数不变量且有 CM 的格，若 t_i 在 Q 上、p_j 在端同态域上分别线性无关且均代数，则 e^{t_i} 与 ℘(p_j) 合在一起代数无关。
 - 条件或证据待查。预印本证明诉诸相应 1-motive 的幂零根 Lie 代数的 Tannakian 描述，并且 CM 与输入的代数性不可删去。 仅检查 v1 的主定理和开头证明路线；未独立复核所引 1-motive Lie 代数结果，也与 γ 无直接连接。
+- 第六批定向筛选。adjacent。The preprint states algebraic independence of selected exponential and Weierstrass values under algebraic invariants, CM, and linear-independence hypotheses. The target constants and hypotheses are disjoint from Euler's constant, and its proof route is through the stated 1-motive/Tannakian decomposition plus imported classical results. 定位。Theorem 0.1 and hypotheses, physical pp. 1--3; imported Philippon--Wüstholz and Lindemann--Weierstrass inputs, physical p. 2.。全卷 12 页。 后续条件。A target-specific bridge to the allowed exponential/elliptic values, or a separately checked theorem for a representation of Euler's constant.
 
 ## P25 · Sur la nature arithmétique des valeurs de fonctions modulaires
 
 - 原件。Astérisque 245 (1997), pp. 105–140。PDF 物理页 1, 2, 3。SHA-256 b59b4644da9387d5144bb357609c0c656518bf37fd032be6af24fb7e293d0eb0。
 - modular-function transcendence survey。Introduction; Théorème 1。综述 Schneider 的代数点 j 值定理、Mahler 型问题与 Ramanujan Eisenstein 级数值的超越度结果。
 - 版本与引用。它主要转述 Schneider、Barré-Sirieix–Diaz–Gramain–Philibert 与 Nesterenko 的定理；没有 γ 的线性形式或误差尺度。 目标读段为引言与第一定理；未核对全部历史引文版本。
+- 第六批定向筛选。citation。The checked pages are a Bourbaki survey introduction and a statement of Schneider's algebraic-point j-value theorem. Its modular-function results are attributed to the cited primary works and provide no Euler-constant approximation or linear-form tool. 定位。Survey identity, physical p. 1; introduction and Schneider theorem, physical pp. 2--3.。全卷 37 页。 后续条件。If modular-function transcendence is needed, use the cited primary theorem with matching hypotheses.
 
 ## P27 · On the criteria for linear independence of Nesterenko, Fischler and Zudilin
 
@@ -397,6 +418,7 @@
 - 原件。arXiv:2011.14401v1 (2020)。PDF 物理页 1, 2, 8。SHA-256 bf3017cb71ede0c21b94c0774ccc7a2009d9a43ab335df6bff9f8706ae2adb37。
 - modular-form transcendence survey。Theorems 1.1, 3.1–3.2。讲解 Ramanujan 微分方程、Nesterenko 的代数独立性及其对 j 值和椭圆周期的解释。
 - 版本与引用。主结论是对既有 Nesterenko 与 Mahler 型结果的说明，D-property/zero lemma 路线要求专门微分系统；未构造 γ 的所需对象。 未审计该讲义的完整证明草图和全部参考文献。
+- 第六批定向筛选。citation。This is an expository source for Nesterenko, Mahler, and modular-form transcendence. The displayed results concern q, Eisenstein-series and modular values; the paper points readers to the primary source and supplies no target-specific gamma construction. 定位。Theorem 1.1 and exposition status, physical pp. 1--2; Theorems 3.1--3.2, physical p. 8.。全卷 27 页。 后续条件。Use the underlying primary theorem only after matching a target object to its differential-system hypotheses.
 
 ## P29 · Linear independence measures for Chowla–Selberg periods
 
@@ -404,6 +426,7 @@
 - simultaneous hypergeometric Padé。Abstract; Theorem 1。对四组特定 (D,d)，由 3F2 的同时 Padé 逼近给出 1、π√d、Ω_D/π、π/Ω_D 的整数线性形式下界，指数 μ_{D,d} 明确。
 - 版本与引用。论证实质依赖作者早先论文的 Ramanujan 型 1/π 公式、显式同时 Padé 构造和 Chowla–Selberg CM 评价；参数表不是一般模板。 未复核所引旧论文的 Padé 系数和渐近估计；与 γ 仅有方法类比。
 - 相关入口。[math-gamma-multiple-laguerre-approximants](../../../math-gamma-multiple-laguerre-approximants/SKILL.md)。
+- 第六批定向筛选。adjacent。Theorem 1 gives an explicit four-constant linear-independence measure for four listed (D,d) pairs, from simultaneous Pade approximants to 3F2. The note declares itself an addendum to its 2005 source and says its arithmetic proof must be adapted for f2, so the present four pages do not independently establish a reusable general Pade/integrality interface. Its constants are Chowla--Selberg periods and pi, not Euler's constant. 定位。Abstract and dependence on [10], physical p. 1; Theorem 1 and denominator caveat, physical p. 2; explicit CM evaluations, physical p. 3.。全卷 4 页。 后续条件。Read and verify the cited 2005 Pade construction, its modified denominator proof for f2, and a separate Euler-constant specialization before adoption.
 
 ## P31 · La fonction zêta de Riemann prend une infinité de valeurs irrationnelles aux entiers impairs
 
@@ -425,24 +448,28 @@
 - 原件。arXiv:2109.09040v4 (2024-09-16)。PDF 物理页 1, 2, 3。SHA-256 9bffb12953db37d237e75451ed659219d955bf57d55da8dbc09ad888f62956ad。
 - noncongruence modular forms。Theorem 1.0.1; Introduction。证明：具有整数 q^{1/N} 展开、有限指标群变换律且尖点亚纯的上半平面全纯函数必为某同余子群的模形式；等价地排除非同余模形式的有界分母。
 - 版本与引用。证明需要算术 holonomicity、Nevanlinna 第二主定理、SL2(Z[1/p]) 同余子群性质及 Fuchsian 一致化；与 γ 的逼近对象不同。 未逐节审计 v4 的长证明或正式发表版本与 v4 的差异。
+- 第六批定向筛选。adjacent。The checked preprint theorem proves the unbounded-denominators conjecture for functions with the exact modular transformation, q-expansion integrality, and cusp-meromorphic hypotheses. The arithmetic-algebraisation mechanism is tied to modular forms; no target gamma q-series satisfying those hypotheses is supplied. 定位。Theorem 1.0.1 and contrapositive, physical p. 2; arithmetic-algebraisation discussion, physical p. 3.。全卷 62 页。 后续条件。A concrete target q-series with all Theorem 1.0.1 hypotheses and a proof that its conclusion yields a relevant arithmetic statement.
 
 ## P40 · Zur Approximation der Exponentialfunktion und des Logarithmus I
 
 - 原件。K. Mahler, J. reine angew. Math. 166 (1931)。PDF 物理页 1。SHA-256 9396946fb3a6dad9c6ef85a4957c15cb0aa0a64636f692fb87596aecd7c639f5。
 - classical exponential-logarithm approximation。title page。Mahler 关于指数函数与对数逼近的第一部分，扫描首页确认论文身份与期刊卷年。
 - 版本与引用。本轮只核对身份，未提取定理及其假设；不能据此把经典逼近法转写为 γ 的无理性工具。 扫描文字不可机器提取，未审阅正文公式和版本关系。
+- 第六批定向筛选。hold。The physical PDF is a scan. Visual inspection of physical p. 1 verifies Mahler's 1931 Part I bibliographic identity, but no theorem, auxiliary function, error estimate, or hypotheses were transcribed and checked from the actual scan. 定位。Title page, physical p. 1 (image scan).。全卷 20 页。 后续条件。A searchable authoritative text or a manually transcribed, page-verified theorem and proof segment with its approximation and integrality conditions.
 
 ## P40 · Zur Approximation der Exponentialfunktion und des Logarithmus II
 
 - 原件。K. Mahler, J. reine angew. Math. 166 (1932)。PDF 物理页 1。SHA-256 1f366a2b5f4f23504dd60143087fab95784aa6380ffa4b61530a79afea9f120f。
 - classical exponential-logarithm approximation。title page / §IV opening。Mahler 第二部分；扫描首页确认其为同题第二篇及期刊来源。
 - 版本与引用。本轮没有逐式核对该部分的辅助函数或误差界，故不能采用为可复用构造。 仅核对可见首页；正文 OCR 不可用，定理编号与适用范围未验证。
+- 第六批定向筛选。hold。The physical PDF is a scan. Visual inspection of physical p. 1 verifies Mahler's 1932 Part II identity and the opening of Section IV, but the displayed definitions have not been fully transcribed, and no applicable error/integrality theorem has been verified. 定位。Part II title and Section IV opening, physical p. 1 (image scan).。全卷 14 页。 后续条件。A searchable authoritative text or a manually transcribed and checked lemma chain, including coefficient arithmetic and asymptotic hypotheses.
 
 ## P40 · On the approximation of π
 
 - 原件。K. Mahler, Proc. Koninkl. Nederl. Akad. Wetensch. Ser. A 56 (1953)。PDF 物理页 1。SHA-256 d5de265eef39bf88389041f65e84e29b9e084ee10462507c16795c81ea10108f。
 - classical irrationality-measure approximation。Theorem 1。定理在有理或代数 α 的条件下，构造有整数系数的多项式并由关于 log(z) 的恒等式导出 π 的近似/无理性测度型界。
 - 版本与引用。其结论依赖该多项式族的非零性和明确高度、余项估计；论文对象为 π/对数而非 γ。 只核对首页定理陈述，未复核后续常数和完整证明。
+- 第六批定向筛选。adjacent。Visual inspection of physical p. 1 confirms Mahler's pi-approximation setup: under its displayed logarithmic-size condition it constructs integer-coefficient polynomials and an identity involving log z to obtain pi bounds. It is a pi/log construction, and no Euler-constant analogue or its required nonzero/height/remainder proof is supplied. 定位。Opening lemma and log-identity setup, physical p. 1 (image scan).。全卷 13 页。 后续条件。A target-specific construction with verified determinant nonvanishing, coefficient heights, and remainders after replacing the logarithm/pi identity.
 
 ## P42 · The Irrationality Measure of Pi is at most 7.103205334137...
 
@@ -450,6 +477,7 @@
 - π irrationality measure via complex integrals。Abstract; Part I strategy; final bound。以 Salikhov 型复路径积分、偏分式与鞍点估计构造 A_n+B_nπ，并在整数化后得到 μ(π)≤7.103205334137…；末页给出该常数计算。
 - 版本与引用。严格结论依赖积分恒等式、整数性、LCM 增长和所有鞍点/系数界，Maple 仅用于发现而非替代证明。 未复核 Maple 包或全文鞍点分析，且没有 γ 的直接迁移。
 - 相关入口。[math-openai-arithmetic-determinants](../../../math-openai-arithmetic-determinants/SKILL.md)。
+- 第六批定向筛选。adjacent。The paper's checked pages give a pi-specific Salikhov complex-integral strategy, its LCM/integrality scaling, and the final asymptotic ratio. Its computer-generated discovery route is explicitly distinguished from the human proof; no Euler-constant integral, arithmetic scaling, or saddle analysis is present, so it is not a nonduplicate gamma tool. 定位。Abstract and scope, physical p. 1; general linear-form strategy, p. 2; Salikhov integral/integrality scheme, p. 3; final integral forms and asymptotics, p. 13.。全卷 13 页。 后续条件。A gamma-specific contour/integral identity and fully verified coefficient integrality, common-divisor, nonzero, and saddle/remainder bounds.
 
 ## P44 · Arbeitsgemeinschaft: Arithmetic Holonomy Bounds and Applications to Irrationality
 

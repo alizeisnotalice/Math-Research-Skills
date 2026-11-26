@@ -27,15 +27,31 @@ HISTORICAL_CLASSES = {
 OPENAI_CLASSES = {"adjacent", "archive", "candidate", "held", "installed", "pending",
                   "scoped-reference", "version-only"}
 SUPPLEMENTAL_CLASSES = {
-    "已采用方法": "existing",
-    "已采用构件": "existing",
-    "已验收构件": "existing",
-    "既有方法覆盖": "existing",
-    "构件候选": "candidate",
-    "条件或证据待查": "hold",
+    "已采用方法": "adopted-local", "已采用构件": "adopted-local",
+    "已验收构件": "adopted-local", "既有方法覆盖": "scoped-reference",
+    "构件候选": "candidate", "条件或证据待查": "hold",
+    "版本与引用": "citation", "归档定位": "adjacent",
 }
 ADOPTION_LABELS = {"已采用方法", "已采用构件", "已验收构件", "可调用工具"}
-STATUS_CHOICES = sorted(set(HISTORICAL_CLASSES.values()) | OPENAI_CLASSES | {"adopted"})
+ACTIVE_CLASSES = {
+    "限域采用": "scoped-reference", "引用与范围相符": "scoped-reference",
+    "背景或历史记录": "citation", "证据待查": "held", "需修正": "needs-correction",
+}
+WAVE6_CLASSES = {
+    "adopt": "adopted-local", "existing": "scoped-reference",
+    "citation": "citation", "adjacent": "adjacent", "candidate": "candidate", "hold": "hold",
+}
+RECENT_PREFIXES = (("candidate", "candidate"), ("held", "held"),
+                   ("hold", "hold"), ("exclude", "excluded"))
+GAMMA_PREFIXES = (("candidate-with-obstruction", "candidate"),
+                  ("candidate-computational-identity", "candidate"),
+                  ("formal statement/version check only", "version-only"),
+                  ("conditional-framework", "scoped-reference"))
+STATUS_CHOICES = sorted(
+    set(HISTORICAL_CLASSES.values()) | OPENAI_CLASSES | set(SUPPLEMENTAL_CLASSES.values())
+    | set(ACTIVE_CLASSES.values()) | set(WAVE6_CLASSES.values())
+    | {"adopted", "excluded"}
+)
 COLLECTIONS = {
     "historical": ("math-research/references/historical-sources/**/*.md", "- 原件"),
     "supplemental": ("math-research/references/supplemental-sources/*.md", "- 原件"),
@@ -63,6 +79,107 @@ class Occurrence:
 def normalize(value: str) -> str:
     value = unicodedata.normalize("NFKC", value).casefold()
     return " ".join(re.sub(r"[\W_]+", " ", value).split())
+
+
+def bullets(body: list[str]) -> list[str]:
+    return [line[2:].strip() for line in body if line.startswith("- ")]
+
+
+def label_of(bullet: str) -> str:
+    return bullet.partition("。")[0].strip()
+
+
+SCREEN_LINE = re.compile(r"^(第[四五六]批定向筛选|本轮筛选)[。:]\s*([^。]+)\s*(?:。|$)")
+OLDER_SCREEN_CLASSES = {
+    "hold": "hold", "held": "hold", "unresolved": "hold", "defer": "hold",
+    "screened_hold": "hold", "duplicate_held": "hold",
+    "reject_preprint": "hold", "reject_implementation_gap": "candidate",
+    "candidate": "candidate", "duplicate_candidate": "candidate",
+    "citation": "citation", "citation_only": "citation", "duplicate_citation": "citation",
+    "adjacent": "adjacent", "background": "adjacent", "background_only": "adjacent",
+    "reject_scope": "adjacent", "reject_specialized": "adjacent", "duplicate_irrelevant": "adjacent",
+    "exclude": "excluded", "excluded-equivalent": "excluded",
+}
+
+
+def screening_status(entries: list[str]) -> str | None:
+    for entry in reversed(entries):
+        matched = SCREEN_LINE.match(entry)
+        if not matched:
+            continue
+        label, decision = matched.groups()
+        decision = decision.strip().casefold()
+        if label == "第六批定向筛选":
+            return WAVE6_CLASSES.get(decision)
+        if decision in OLDER_SCREEN_CLASSES:
+            return OLDER_SCREEN_CLASSES[decision]
+    return None
+
+
+def recent_status(entries: list[str]) -> str | None:
+    for entry in entries:
+        if not entry.startswith("审阅状态。"):
+            continue
+        value = entry.partition("。")[2].lstrip().casefold()
+        for prefix, status in RECENT_PREFIXES:
+            if value.startswith(prefix):
+                return status
+    # These three installed records explicitly delimit a finite component and
+    # link it; they are local use records, not an assertion of the full paper.
+    if any(entry.startswith(("有限齐次整数位宽证明与 Python 精确回放已复核", "采用给定合格缩放和秩证书后的局部行列式估值", "采用有限正原子 Gram 特例"))
+           for entry in entries):
+        return "adopted-local"
+    return None
+
+
+def gamma_status(entries: list[str], adopted: bool) -> str | None:
+    if adopted:
+        return "adopted-local"
+    for entry in entries:
+        if not entry.startswith("依赖与状态。"):
+            continue
+        value = entry.partition("。")[2].casefold()
+        for prefix, status in GAMMA_PREFIXES:
+            if prefix in value:
+                return status
+        if "held" in value or "hold-" in value:
+            return "held"
+        # All remaining gamma entries have an explicit local scope statement.
+        return "scoped-reference"
+    return None
+
+
+def supplemental_status(entries: list[str], labels: list[str]) -> str | None:
+    # The batch disposition is an exact machine-readable review statement;
+    # never infer it from a page range, title, or source venue.
+    status = screening_status(entries)
+    if any(label in ADOPTION_LABELS - {"可调用工具"} for label in labels):
+        return "adopted-local"
+    if status:
+        return "candidate" if status == "adopted-local" else status
+    for disposition in ("scoped-reference", "candidate", "hold", "citation", "adjacent"):
+        if any(SUPPLEMENTAL_CLASSES.get(label) == disposition for label in labels):
+            return disposition
+    return None
+
+
+def section_status(collection: str, entries: list[str], labels: list[str], adopted: bool) -> str | None:
+    if collection == "historical":
+        return next((HISTORICAL_CLASSES[label] for label in labels if label in HISTORICAL_CLASSES), None)
+    if collection == "supplemental":
+        return supplemental_status(entries, labels)
+    if collection == "active":
+        for entry in entries:
+            if entry.startswith("现行复核。"):
+                state = entry.split("。", 2)[1]
+                if state in {"scoped-reference", "citation"}:
+                    return state
+        return next((ACTIVE_CLASSES[label] for label in labels if label in ACTIVE_CLASSES), None)
+    if collection == "recent":
+        return recent_status(entries)
+    if collection == "gamma":
+        return gamma_status(entries, adopted)
+    return None
 
 
 def table_occurrences(path: Path, lines: list[str], collection: str):
@@ -96,22 +213,15 @@ def section_occurrences(path: Path, lines: list[str], collection: str, identity_
     headings.append((len(lines), ""))
     for (index, title), (end, _) in zip(headings, headings[1:]):
         body = lines[index + 1:end]
-        identity = next((match for line in body if line.startswith(identity_prefix)
-                         and (match := SHA.search(line))), None)
+        identity = next((match for line in body if line.startswith(identity_prefix) and (match := SHA.search(line))), None)
         if identity is None:
             continue
-        labels = [entry[2:].partition("。")[0] for entry in body if entry.startswith("- ")]
+        entries = bullets(body)
+        labels = [label_of(entry) for entry in entries]
         adopted = any(label in ADOPTION_LABELS for label in labels)
-        classification = None
+        classification = section_status(collection, entries, labels, adopted)
+        adopted = adopted or (collection == "recent" and classification == "adopted-local")
         rechecked = collection == "historical" and "依赖复核" in labels
-        if collection == "historical":
-            classification = next((HISTORICAL_CLASSES[label] for label in labels
-                                   if label in HISTORICAL_CLASSES), None)
-        if collection == "supplemental":
-            classification = next((status for status in ("existing", "candidate", "hold")
-                                   if any(SUPPLEMENTAL_CLASSES.get(label) == status for label in labels)), None)
-        if collection == "gamma" and adopted:
-            classification = "existing"
         yield Occurrence(identity[0].lower(), title, path, index + 1, collection,
                          "\n".join([title, *body]).strip(), classification, adopted, rechecked)
 
@@ -151,8 +261,13 @@ def search_occurrences(occurrences: list[Occurrence], sha_prefix: str, terms: li
         if classification == "adopted":
             if key not in adopted:
                 continue
-        elif classification and classification != latest[key].classification:
-            continue
+        elif classification:
+            recorded = latest[key].classification
+            supplemental_existing = item.collection == "supplemental" and classification == "existing"
+            if recorded != classification and not (
+                supplemental_existing and recorded in {"adopted-local", "scoped-reference"}
+            ):
+                continue
         if sha_prefix and not item.sha256.startswith(sha_prefix):
             continue
         if skill_marker and not skill_marker.search(item.evidence):

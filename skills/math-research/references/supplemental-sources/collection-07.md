@@ -70,6 +70,7 @@
 - 原件。arXiv:2303.02832v2。PDF 物理页 1, 2。SHA-256 b4e2b7785da9076a6b89afa2713772bffe352956f1eeef95d82d57b1d31aa379。
 - 迭代调和数与迭代对数。Abstract; Section 2 definitions。定义递归调和和与相应迭代对数的差常数，并讨论其整数性猜想与数值证据。
 - 版本与引用。关于高阶迭代调和数整数性的普遍结论仍为猜想。 与经典 gamma 仅为类比；未形成已证的无理性或逼近机制。
+- 第六批定向筛选。candidate。Iterated harmonic numbers and their limiting constants are well-defined rational finite sequences, but the sought broad integrality statement is explicitly conjectural. No independent exact component improves existing rational harmonic tools. 定位。local pp. 1--2, abstract and definitions。全卷 13 页。 后续条件。A proved nontrivial theorem beyond the recurrence/definition, rather than numerical evidence for the conjecture, is needed for adoption.
 
 ## EXT-0029 · Double integrals and infinite products for some classical constants via analytic continuations of Lerch's transcendent
 
@@ -97,12 +98,14 @@
 - 原件。arXiv:1401.3724v3; journal version J. Number Theory 148 (2015), 537--592, DOI 10.1016/J.JNT.2014.08.009。PDF 物理页 1, 2。SHA-256 ff461f31b024c4744cd925defc14ed28bf2c114903cfadd25ad3556540848834。
 - 有理点 Stieltjes 常数闭式。Abstract; Laurent definitions (1)--(5)。正式发表论文给出第一广义 Stieltjes 常数在任意有理参数的闭式评估，并讨论高阶常数、digamma 和 Gamma 对数积分。
 - 版本与引用。结果建立在 Hurwitz zeta Laurent 展开、函数方程和积分表示上。 依正式版说明仅作题录/主结论核对；未重做闭式公式推导，且不解决 gamma 无理性。
+- 第六批定向筛选。citation。Published closed-form evaluation of first generalized Stieltjes constants at rational arguments is verified as a bibliographic and scope reference. It does not supply a finite arithmetic certificate for the present corpus without implementing the lengthy formula system. 定位。local p. 1 abstract; published J. Number Theory 148 (2015), 537--592, DOI 10.1016/J.JNT.2014.08.009。全卷 50 页。 后续条件。Use only after selecting a rational argument and independently transcribing the exact theorem formula and its Gamma/log branch conventions.
 
 ## EXT-0036 · Irrationality of the Deformed Euler Numbers e_{s,t,u}
 
 - 原件。arXiv:2406.15930v3。PDF 物理页 1, 2。SHA-256 1d6167fceb0a581bd3aa130eebe2a69956731dbbc269f24a94d5f9c2e4b49e85。
 - 变形指数数的无理性。Abstract; Section 1。在有理参数和绝对值条件下证明一类由广义 Fibonacci 阶乘定义的变形 e 数无理。
 - 归档定位。结论针对变形指数级数，不涉及 Euler--Mascheroni 常数。 未审查第 4 节证明；名称中的 Euler 不表示 gamma。
+- 第六批定向筛选。adjacent。The arXiv v3 theorem concerns a generalized-Fibonacci deformation of e, not Euler--Mascheroni gamma. Its irrationality proof is a distinct target and was not imported. 定位。local p. 1 abstract and section 4 heading。全卷 14 页。 后续条件。A target-specific specialization and an audit of the section 4 integer-form/nonzero proof would be required.
 
 ## EXT-0037 · Quartic Rational Diophantine Quadruples and the Euler Surface
 
@@ -117,12 +120,14 @@
 - 原件。arXiv:2211.01269v5。PDF 物理页 1, 2。SHA-256 a03d91a7e3fb102984ee142701a667099a63f978a99b9bb823bc888cdd2e4fd3。
 - 周期与积分代数数。Abstract; Main Definition。构造包含周期的可数实闭域，并把 gamma 放入作者定义的 exponential integrated algebraic numbers 类。
 - 版本与引用。结论是数系分类，不给出 gamma 是周期、代数或无理的判定。 未审查 o-minimality 证明；与无理性策略无直接可执行接口。
+- 第六批定向筛选。citation。The v5 preprint gives a definability/classification setting in which Euler's constant is an exponential integrated algebraic number. It makes no rationality, period, or approximant conclusion. 定位。local p. 1 abstract and main-results introduction。全卷 40 页。 后续条件。Adoption would require a task asking for this o-minimal number-class interface and an audit of its proof machinery.
 
 ## EXT-0039 · Some evaluation of parametric Euler sums
 
 - 原件。arXiv:1701.03721v1。PDF 物理页 1, 2。SHA-256 65c1075b3e82a3459752985d9595708dd609624a2c1449bb46e46475f581d254。
 - 参数 Euler 和。Abstract; Section 1 definitions。用围道积分、留数和积分表示评估含调和数的参数 Euler 和，给出若干二次和三次显式式。
 - 版本与引用。依赖围道积分表示和留数计算；常数为 zeta/Hurwitz zeta 型。 未见对 Euler--Mascheroni 常数无理性或直接逼近的专门结论。
+- 第六批定向筛选。adjacent。This v1 preprint derives analytic evaluations of parameterized harmonic Euler sums by residues. The surveyed statements have zeta/Hurwitz-zeta targets and no standalone finite certificate was selected. 定位。local pp. 1--2, abstract and Euler-sum definitions。全卷 23 页。 后续条件。A specific convergent parameter family with a fully checked contour/residue specialization is needed.
 
 ## EXT-0040 · Arithmetic theory of E-operators
 
@@ -136,42 +141,51 @@
 - 原件。arXiv:1001.1891v1。PDF 物理页 1, 2。SHA-256 01e8bae92eebff52809ac5f6a2486317fd66310e9553a0facc5f7ed0e7587eb3。
 - Euler 乘积自然边界。Theorem 1。分类有理局部因子 Euler 乘积的可延拓性与阻塞点/自然边界。
 - 归档定位。依赖 Estermann/Dahlquist 型 Euler 乘积分解和零极点累积分析。 Euler 指乘积而非 Euler--Mascheroni 常数，无直接研究关系。
+- 第六批定向筛选。adjacent。Euler-product continuation/natural-boundary theory is unrelated to a finite Euler--Mascheroni or general arithmetic interface in this wave. 定位。local p. 1 abstract and Theorem 1 setup。全卷 14 页。 后续条件。Would need a supplied rational local factor and a task requiring analytic-continuation classification.
 
 ## EXT-0042 · The Carlitz module and a differential Ax-Lindemann-Weierstrass theorem for the Euler gamma function
 
 - 原件。arXiv:2508.21237v2。PDF 物理页 1, 2。SHA-256 f1945af1f5dd172fd13f6ada020ae45d5b8badccf22a307d28e7f44bdde1a22c。
 - Gamma 函数微分超越性。Theorem A; Corollary B。证明周期亚纯函数域上若干移位 Gamma 函数的微分独立性，并以 Carlitz 型差分模得到 Ax--Lindemann--Weierstrass 结论。
 - 归档定位。依赖差分 Galois 群结构和 Hardouin--Singer 微分代数判据。 Euler gamma function 与 Euler--Mascheroni constant 不同；未给出后者的数论结论。
+- 第六批定向筛选。citation。The v2 preprint proves differential independence for Euler's Gamma function over a meromorphic difference field. Gamma function and Euler--Mascheroni constant are distinct objects, so no transfer is valid. 定位。local p. 1 abstract; Theorem A described in contents/section 6。全卷 32 页。 后续条件。A separate bridge from a requested Gamma-function differential-algebra problem would be required; none is implied for the Euler constant.
 
 ## EXT-0043 · Non-Euclidean Pythagorean triples, a problem of Euler, and rational points on K3 surfaces
 
 - 原件。arXiv:math/0606700v1。PDF 物理页 1, 2, 8。SHA-256 1aceb9377fa066bbda8bcdd4bce81257f88a76012cee2b01b30a56b157ebb717。
 - K3 曲面有理点。Theorem 5.1。把非欧氏勾股组、Euler 的平方差问题与 K3 曲面有理点关联，并证明相应曲面有理点 Zariski 稠密。
 - 归档定位。使用椭圆曲线纤维化与 Euler 的参数化。 Euler 为历史问题标签，与 gamma 无关。
+- 第六批定向筛选。adjacent。The source concerns rational points on a K3 surface and Euler's historical square-difference problem, not an Euler-constant or generic finite-algorithm component. 定位。local p. 1 abstract and problem introduction; Theorem 5.1 indexed in source。全卷 11 页。 后续条件。A K3/rational-point task with the surface and fibration supplied would be needed.
 
 ## EXT-0045 · Accurate Computations of Euler Products over Primes in Arithmetic Progressions
 
 - 原件。arXiv:1911.10991v1。PDF 物理页 1, 2, 3, 7。SHA-256 ffbb4f9dd7e664019dee3943e07cb294032d27ef4546a85336a949491a3be4db。
 - 算术级数上的 Euler 乘积计算。Theorem 2; Section 3 error estimate。用 Dirichlet L 函数和截断公式计算算术级数素数上的 Euler 乘积，并给出误差控制。
 - 版本与引用。依赖特征正交性、Möbius 反演与 L 函数数值计算。 只适于特定 Euler 乘积数值；无 gamma 的线性形式或无理性推论。
+- 第六批定向筛选。candidate。The v1 preprint offers explicit-error computation of Euler products in arithmetic progressions, but using its bounds requires certified Dirichlet-L values and branch/error conventions not present in this isolated corpus. 定位。local pp. 1--2, abstract and product setup; Theorem 2/section 3 indexed。全卷 10 页。 后续条件。Adopt only with a concrete product, a primary proof read of the error theorem, and a directed-interval L-function backend.
 
 ## EXT-0046 · Explicit formulas for Euler's totient function and the number of divisors
 
 - 原件。arXiv:2505.08434v1。PDF 物理页 1, 3, 4。SHA-256 4325bdd4fde139c114c8af0e6829852f1c6442eaeb006243d3a735e4fd2311b9。
 - Euler phi 函数显式公式。Theorems 1--2; Section 3。把 gcd、Euler phi 与除数函数写为取整和有限 gcd 求和的显式公式。
 - 归档定位。使用格点计数和 Menon/Pillai 关系。 Euler 指 phi 函数，和 gamma 无关。
+- 第六批定向筛选。adopt。The preprint's finite gcd-to-floor derivation yields an exact, nonduplicate totient identity. The adopted checker replays its divisibility and independently counts reduced residues. 定位。local p. 4, equations (2)--(3) and their lattice/floor-sum derivation。全卷 9 页。 后续条件。Only the p. 4 gcd/floor relation and reduced-residue-sum step are used; Menon/Pillai and later divisor identities are excluded.
+- 已采用方法。物理页 4。Exact finite checker for phi(n)=4S/((n-1)(n-2)), n>=3; no complexity/factoring claim. [方法说明](../../../math-l16-prime-sieve-certified-transfers/references/pain-totient-floor-formula.md)。
 
 ## EXT-0047 · Euler sums of generalized hyperharmonic numbers
 
 - 原件。arXiv:1701.00391v2。PDF 物理页 1, 6, 7, 10, 11。SHA-256 c5fe39a0ba79385fd9036b293330fad03b11a4b6e77a0ff199cd156921af6ef0。
 - 广义超调和 Euler 和。Theorem 2.2; Theorem 2.6。把广义超调和数化为经典调和数，并将若干 Euler 型和表示为 zeta 值和调和数的有理线性组合。
 - 版本与引用。依赖 polygamma 恒等式、Stirling 数展开及有限分解。 gamma 仅出现在 digamma 背景公式；未见其无理性或逼近结论。
+- 第六批定向筛选。adopt。The preprint supplies a finite generating-function derivative identity for generalized hyperharmonic coefficients. It becomes an exact elementary-symmetric reciprocal-sum evaluator, checked against the p. 6 formulas through order four. 定位。local pp. 4--6, Lemma 2.1, equations (2.3)--(2.11), Theorem 2.2。全卷 13 页。 后续条件。Only the displayed finite coefficient proof is adopted; no infinite Euler-sum/zeta evaluation or irrationality conclusion is used.
+- 已采用方法。物理页 4, 5, 6。Exact finite h_n^(m)(k) coefficients by elementary reciprocal symmetric sums; excludes infinite Euler sums and zeta reductions. [方法说明](../../../math-harmonic-sum-recurrences/references/xu-hyperharmonic-finite-coefficients.md)。
 
 ## EXT-0048 · On the representation of rational numbers via Euler's totient function
 
 - 原件。arXiv:2502.18252v1。PDF 物理页 1, 2。SHA-256 0e115bb37ab6501403c5e95ba86b627e82b94b2a6d4a60fd7b5c90823f695f96。
 - Euler phi 值表示。Abstract; Section 1。证明正有理数可表示为若干 Euler phi 函数值之比，并讨论参数化推广。
 - 归档定位。使用既有 phi 值表示结果与 Dirichlet 定理。 Euler 指 phi 函数，和 Euler--Mascheroni 常数无关。
+- 第六批定向筛选。adjacent。The v1 preprint gives existence representations of positive rationals as ratios of totient values. It is a parameter-existence theorem, not a constructive finite witness interface audited here. 定位。local p. 1 abstract and section 1 setup。全卷 15 页。 后续条件。A requested constructive representation plus the paper's Dirichlet-prime selection proof would be needed.
 
 ## EXT-0050 · p-adic model theory, p-adic integrals, Euler products, and zeta functions of groups
 
@@ -185,12 +199,14 @@
 - 原件。首页未见预印本标识；正式发表状态未核。PDF 物理页 1, 3, 5。SHA-256 5d76130cf8a0642c9117d705dd7a7ec439432346ffcf2c85602b9231e6dbf5fe。
 - Euler/Kolyvagin 系统与 Selmer 复形。摘要与 Introduction 的主结果概述。构造相对 Nekovář–Selmer 复形的 Euler/Kolyvagin 系统理论，并在明确局部条件与表示假设下应用于 Iwasawa 主猜想、Quillen–Lichtenbaum 和 CM 椭圆曲线 BSD 型命题。
 - 版本与引用。应用取决于 p-adic 表示、Greenberg 局部条件及相应 Euler 系统的非平凡性；与欧拉常数/解析 Euler 和无直接工具复用。 仅审阅导言与应用陈述，未逐一核验 148 页中条件和证明。
+- 第六批定向筛选。hold。No preprint/version identifier is visible on the inspected front matter; the 148-page Euler/Kolyvagin-system theory has extensive local-condition and p-adic representation dependencies. Only introduction claims were read. 定位。local pp. 1--5 abstract/introduction only。全卷 148 页。 后续条件。Locate the primary publication/preprint and select a single theorem with all representation, ring, and local-condition hypotheses before use.
 
 ## EXT-0052 · An algorithmic proof of Bachet's conjecture and the Lagrange-Euler method
 
 - 原件。arXiv:1310.5632v1（首页亦标 2018-09-18，日期关系未核）。PDF 物理页 1, 2, 4。SHA-256 d50ec1d52ade4968dc0ac04740bc4576f47301af87b54d575cc8f9d4c3f30f6c。
 - Bachet 四立方问题的算法化下降。Introduction；结尾的构造步骤。以素数初始区间和因子分解顺序替代最小解下降，给出 Bachet 型四立方表示的算法化存在性论证，并仅提出向代数整数推广的设想。
 - 版本与引用。论证依赖唯一分解所给的排序/归约；推广不是定理。 短文的具体算法终止性和原始 Bachet 命题版本尚未独立复核。
+- 第六批定向筛选。hold。The v1 note's descent claim depends on Lemma 2, whose proof is only sketched and invokes Chevalley/Euler identities. The described termination order is not enough by itself to certify the two central lemmas. 定位。local pp. 2--4, Lemmas 1--2 and theorem proof。全卷 4 页。 后续条件。A full proof or an independently verified constructive replacement for Lemmas 1--2 is required before algorithmic adoption.
 
 ## EXT-0053 · On Some Unramified Families of Motivic Euler Sums
 
@@ -242,6 +258,7 @@
 - 原件。arXiv:1902.07002v1。PDF 物理页 1, 3, 8, 11, 31, 37。SHA-256 5ec0743c026a1a8d0d7d56ff24ae47f12a7f885038146eb6f05005cb192b97ad。
 - 高秩 Euler/Kolyvagin/Stark 系统应用。Abstract；Theorems 3.14, 4.21, 5.1；Proposition 6.5。在给定 Selmer 结构与标准局部假设下，用高秩 Euler 系统控制 Fitting ideals，并把若干 eTNC/BSD 型陈述约化为 Bloch–Kato 或 Rubin–Stark Euler 系统的猜想输入。
 - 版本与引用。关键 Bloch–Kato 系统及若干 TNC/BSD 条件仍为猜想/条件；不提供无条件通用算法。 仅定位主要条件结论，未核验前文 general theory 或各特殊表示。
+- 第六批定向筛选。hold。Higher-rank Euler/Kolyvagin/Stark applications remain conditional on specified Selmer structures, Euler-system input, and conjectural Bloch--Kato/Rubin--Stark layers; no finite certificate is isolated. 定位。physical pp. 1, 3, 8, 11, 31, 37; arXiv:1902.07002v1。全卷 48 页。 后续条件。Supply a concrete Gorenstein order, representation, Selmer data, and the required Euler-system or eTNC input before extracting an application-specific audit.
 
 ## EXT-0061 · Special values and integral representations for the Hurwitz-type Euler zeta functions
 
@@ -263,12 +280,14 @@
 - 原件。arXiv:1911.03732v2。PDF 物理页 1, 2, 4。SHA-256 6d5a1c65706f66e277a89a678e662da07c4484d19e93affa51ae693612382606。
 - 数域原子范数倒数发散。Abstract；证明段。若正整数集 X 的倒数和发散，则数域整数环中整除某个 X 元素的原子所生成主理想，其范数^{-1/[K:Q]} 之和也发散。
 - 版本与引用。证明使用 Dedekind 域 Noether/atomic 性和范数乘法性；不涉及特殊值逼近。 未对边界情形、引用的因子分解结果作独立证明核验。
+- 第六批定向筛选。adjacent。The reciprocal-norm divergence transfer for atoms in a number-field integer ring is a qualitative factorization theorem, not an effective transcendence or special-value interface. 定位。physical pp. 1--4; arXiv:1911.03732v2。全卷 4 页。 后续条件。Revisit only for a concrete number field with a specified divergent integer set and a separately certified atomic/factorization setting.
 
 ## EXT-0064 · Euler Characteristics of SL_4(Z) and GL_4(Z), and their cohomological consequences
 
 - 原件。首页未见预印本/期刊标识；版本未核。PDF 物理页 1, 3, 4。SHA-256 077c5d01f90f4673ad2794f9b94cdbdcb41f11bba8ba8309e5a843f780c6d15b。
 - 算术群同调 Euler 特征。Abstract；Wall formula (3)。以 Wall 公式、有限阶元中心化子的 orbifold Euler 特征和 Jacobi–Trudi trace，给出 SL_4(Z)、GL_4(Z) 最高权系数同调 Euler 特征的显式拟多项式/生成函数。
 - 归档定位。结果针对特定秩四算术群和有限维有理系数；不转化为解析 Euler 和工具。 只作主题与主方法核验，未重算表格或同调后果。
+- 第六批定向筛选。adjacent。Wall-formula and centralizer computations are specialized to rank-four arithmetic-group cohomology; the formulas do not transfer to analytic Euler sums or numerical transcendence certificates. 定位。physical pp. 1, 3--4; Wall formula (3)。全卷 59 页。 后续条件。A separate arithmetic-group cohomology task would need an exact highest weight and a reproduction of the torsion-centralizer tables.
 
 ## EXT-0065 · Super congruences involving Bernoulli and Euler polynomials
 
@@ -333,6 +352,7 @@
 - 原件。arXiv:2504.14041v1（首页为提交稿格式）。PDF 物理页 1, 2, 5。SHA-256 84bf1c2ed44f0f983e9914f59b9c79660059d858aec7e846ba941587f7404fa0。
 - 椭圆/拟椭圆函数代数独立性。Abstract；Theorem 3.1 的证明入口。讨论几乎所有复数元组的强 Schanuel 性质，并给出 z、Weierstrass ℘/ζ/σ、指数和第三类积分相关 Serre 函数的代数独立例子与近似条件下的论证。
 - 版本与引用。需区分“几乎处处/满足逼近序列”的定理与一般特殊点猜想；首页仍显示提交状态。 未复核测度论假设、定理 3.1 的完整条件或发表版本。
+- 第六批定向筛选。hold。The submitted preprint gives almost-everywhere and approximation-sequence Schanuel properties for elliptic/quasi-elliptic functions, not an effective test for a specified special point. 定位。physical pp. 1--2, 5; arXiv:2504.14041v1。全卷 26 页。 后续条件。Need the complete Theorem 3.1 hypotheses, its measure/approximation proof chain, and a concrete point satisfying them before a tool can be specified.
 
 ## EXT-0075 · A conjecture in Schanuel style for 1-motives
 
@@ -353,12 +373,15 @@
 - 原件。arXiv:2408.13737v1 (25 Aug 2024)。PDF 物理页 1, 3, 4, 8, 9。SHA-256 7b1bc398cd412025c03077e4f6d2fd875ae540220b712a51eaee8b149487e49a。
 - Dirichlet-type L-derivative and cyclotomic logarithms。Thm. 1.2, 1.4; eqs. (11)--(16); §3。For algebraic-valued even Dirichlet-type periodic f, L'(0,f) is rewritten as an algebraic linear form in log(2 sin(pi a/q)); under the stated restrictions on q this identifies exactly when it vanishes, and prime-power q gives nonzero/transcendental values for nonzero f.
 - 版本与引用。The vanishing classification uses reflection for Gamma and linear independence/dependence of cyclotomic logarithms (Baker/Ramachandra inputs); the later algebraic-independence claims are conditional on Schanuel. Targeted main theorem and its displayed reduction checked; q-hypotheses, cited cyclotomic-unit results, and all conditional §4 consequences were not independently verified.
+- 第六批定向筛选。adopt。For exact even rational residue data, equations (6), (13), and (15) give a nonduplicate finite formal log-sine coefficient reduction for L'(0,f). The adopted preprint proof step was read on pp. 8--9; external cyclotomic-logarithm independence remains a stated gate. 定位。physical pp. 2--3, 6--9; equations (3), (6), (13)--(16), Propositions 2.2--2.4。全卷 12 页。 后续条件。For any nonvanishing/transcendence conclusion, verify the source's Dirichlet-type and modulus hypotheses and independently supply the required cyclotomic-unit/logarithm-independence theorem.
+- 已采用方法。物理页 2, 3, 6, 7, 8, 9。Exact rational coefficient conversion for supplied even reduced-residue data only. It neither evaluates the logarithms nor proves the external cyclotomic-logarithm independence, nonvanishing, or transcendence claims. [方法说明](../../../math-dirichlet-l-derivative-sine-reduction/references/dirichlet-l-derivative-log-sine-reduction.md)。
 
 ## EXT-0078 · On the algebraic independence of periods of abelian varieties and their exponentials
 
 - 原件。arXiv:2309.02800v1 (6 Sep 2023)。PDF 物理页 1, 2, 3, 7, 10, 13, 14。SHA-256 fbdeac03a17fe23b77321472d208f6e043bf27ca0be057cfb674b26fe33611c2。
 - Abelian periods, exponentials and beta values。Thm. 1; Prop. 1; §4--5 applications。Given a period matrix together with selected exponentials, the paper gives a transcendence-type lower bound when the selected field has transcendence degree one; applications force two algebraically independent numbers in certain beta-value/period/exponential collections.
 - 版本与引用。The auxiliary-function proof uses Siegel's lemma, lattice high-order vanishing, and a multivariable Bombieri--Lang Schwarz lemma; it is a lower-bound criterion, not an unconditional algebraic-independence theorem in general. Checked stated theorem, auxiliary construction, and beta examples only; no transfer from rational beta/Gamma values to Euler's constant was established.
+- 第六批定向筛选。candidate。The period/exponential lower-bound route combines Siegel's lemma, high-order lattice vanishing, and a multivariable Bombieri--Lang Schwarz lemma; no safe finite input schema can certify its analytic hypotheses. 定位。physical pp. 1--3, 7, 10, 13--14; arXiv:2309.02800v1。全卷 17 页。 后续条件。First specify a period matrix, chosen exponentials, base field, and the theorem's transcendence-degree-one premise; then audit the auxiliary-function and zero-estimate proof chain.
 
 ## EXT-0079 · A pseudoexponentiation-like structure on the algebraic numbers
 
@@ -394,24 +417,28 @@
 - 原件。version/date not visible on inspected PDF pages 1--5。PDF 物理页 1, 2, 3, 5。SHA-256 340481e81a045a82890f5bde8d15547db2cbc61c483516a3c11fbec64e3a71dd。
 - Jet Ax-Schanuel for mixed period maps。Thm. 1.2, Cor. 1.3--1.4; §2 jet setup。For jets of local mixed-period-map liftings, a Zariski-versus-analytic dimension defect below dim G minus generic jet-stabilizer dimension forces the base projection into a proper weakly special subvariety.
 - 版本与引用。The proof imports the principal-flat-bundle Ax-Schanuel theorem and definability of the mixed period map; its conclusion applies only after the stated admissible graded-polarized VMHS and stabilizer hypotheses are checked. Main jet criterion and setup checked; external flat-connection theorem and every geometric hypothesis were not independently verified.
+- 第六批定向筛选。candidate。The jet Ax--Schanuel statement needs an admissible graded-polarized VMHS, a local period-map lifting, Zariski closure, and generic stabilizer dimensions; none is reducible to a generic numerical check. 定位。physical pp. 1--3, 5; Theorem 1.2 and jet setup。全卷 14 页。 后续条件。Provide a specific VMHS and jet order, then verify the imported flat-principal-bundle theorem and every definability/stabilizer hypothesis.
 
 ## EXT-0084 · Ax-Schanuel Type Theorems on Functional Transcendence via Nevanlinna Theory
 
 - 原件。arXiv:1909.01018v1 (3 Sep 2019)。PDF 物理页 1, 2, 3, 4, 6。SHA-256 064af1c74ecf684efdfd970c07bda31c89003e8d3845b7a8a91b6dbaec041c91。
 - Nevanlinna functional transcendence。Thm. 1.2--1.5; §3.1。For entire inputs satisfying specified characteristic-growth or proximity conditions, composition with a transcendental meromorphic/entire F yields stated lower, and in finite-order cases full, transcendence-degree bounds; the first proof turns a putative polynomial relation into a Nevanlinna-growth contradiction.
 - 版本与引用。The component is valid only with the paper's S(r)-exceptional-set conventions and its growth/proximity hypotheses; it is a functional theorem over C, not a theorem about special numerical values. Main theorem, definitions, and one proof mechanism checked; remaining cases and cited Nevanlinna lemmas were not independently verified.
+- 第六批定向筛选。candidate。Nevanlinna functional-transcendence bounds require whole-function characteristic/proximity growth with exceptional-set conventions; a finite value or finite Taylor data cannot establish them. 定位。physical pp. 1--4, 6; Theorems 1.2--1.5 and §3.1; arXiv:1909.01018v1。全卷 20 页。 后续条件。Define a concrete entire/meromorphic function and prove the stated S(r), growth, and finite-order hypotheses before extracting a theorem application.
 
 ## EXT-0085 · A differential approach to Ax-Schanuel, I
 
 - 原件。version/date not visible on inspected PDF pages 1--3。PDF 物理页 1, 2, 3。SHA-256 0c82e8ae9bb39d6f615bf84e02dbef1be7741859571aacfdc46f25eb015f55be。
 - Flat-connection differential Ax-Schanuel。Theorem A; Corollary B*。For a flat principal G-bundle with sparse differential Galois group, an atypically large analytic intersection of a horizontal leaf with an algebraic subvariety projects into a connection-special subvariety; this recovers several period/uniformization Ax-Schanuel cases.
 - 版本与引用。Sparse Galois group and the horizontal-leaf/intersection dimension inequality are essential; applications require identifying connection-special with the relevant weakly special loci. General theorem and stated recovery route checked; differential-algebraic proof and source version were not independently audited.
+- 第六批定向筛选。candidate。Theorem A is a general differential-connection Ax--Schanuel criterion, but applying it requires a principal bundle, a full Galois group, horizontal leaf, algebraic subvariety, and strict dimension defect. 定位。physical pp. 1--3; Theorem A; arXiv:2102.03384v1。全卷 43 页。 后续条件。Supply those explicit geometric/differential inputs and verify the Galois and special-locus identifications before a bounded auditor is possible.
 
 ## EXT-0086 · Finitely Presented Exponential Fields
 
 - 原件。arXiv:0912.4019v4 (1 Aug 2011; PDF says version 4.0 dated 2018)。PDF 物理页 1, 2, 3, 8, 18。SHA-256 414f962fc4841fd25eeea91e228ac950300bf786060e21a12f181ebaba43943a。
 - ELA-fields and strong extensions。§1 overview; Prop. 2.12; Prop. 5.2。Develops finitely presented ELA-field extensions; in the displayed criterion a free Kummer-generic extension generated by a tuple is strong exactly when its defining variety is rotund.
 - 版本与引用。The field-theoretic conclusion depends on the ELA/full-kernel framework and additive/multiplicative freeness plus Kummer-genericity; claims about C_exp remain conditional on Schanuel where stated. Overview and two structural propositions checked; classification theorem, construction, and publication history were not fully audited.
+- 第六批定向筛选。adjacent。The ELA-field strong-extension/rotundity criterion is a published abstract exponential-algebra result; it supplies no effective rotundity or complex-exponential decision procedure for the present corpus. 定位。physical pp. 1--3, 8, 18; Proposition 2.12 and Proposition 5.2; published Algebra & Number Theory 7(4) (2013), 943--980, DOI 10.2140/ant.2013.7.943。全卷 39 页。 后续条件。An application must encode a finitely generated ELA extension with full kernel, additive/multiplicative freeness, Kummer-genericity, and an independently certified rotund variety.
 
 ## EXT-0087 · Polynomial exponential equations and Zilber's conjecture
 
@@ -426,6 +453,7 @@
 - 原件。arXiv:2208.05182v2 (6 Dec 2023)。PDF 物理页 1, 3, 4, 5, 8, 19, 22。SHA-256 7dda53acde3ba6f35509f7046c8564d49bd4d1a78e6f5fe26ecde7b612c5622e。
 - Period torsors and geometric Ax-Schanuel。Thm. 1.1, 1.3; Thm. 3.3; §4--5。For admissible graded-polarizable integral mixed Hodge variations, a period-torsor Ax-Schanuel inequality yields a geometric Andre--Grothendieck period statement over complex function fields and applications to period maps.
 - 版本与引用。One proof applies the flat-principal-bundle theorem after proving sparse monodromy; the motivic statement also requires the Nori-motive/torsor formalism and is functional, not a numerical period conjecture over Q. Main statements, the imported theorem route, and selected applications checked; all Nori-motive constructions and formal publication status remain unverified.
+- 第六批定向筛选。citation。The functional period-torsor result is a conceptual consumer of flat-principal-bundle Ax--Schanuel and Nori-motive formalism, rather than a standalone finite numerical or symbolic component. 定位。physical pp. 1, 3--5, 8, 19, 22; Theorems 1.1, 1.3, 3.3; arXiv:2208.05182v2。全卷 24 页。 后续条件。A later period-map project must provide an admissible integral mixed Hodge variation, monodromy/sparsity data, and the Nori/torsor setup.
 
 ## EXT-0089 · From Schanuel's Conjecture to Shapiro's Conjecture
 
@@ -439,30 +467,35 @@
 - 原件。arXiv:2203.09131v2 (19 Aug 2022)。PDF 物理页 1, 2, 5, 6, 38, 53。SHA-256 9cfb17f188bbc5006e59e55f39cc08e3d0a898906c6b935c54989fe3167c49da。
 - Function-field CM period symbols。§5.3 period symbols; §6.1; §8.4。Introduces positive-characteristic analogues of Shimura period symbols and determines their algebraic relations; for nondegenerate CM types it yields exact transcendence-degree statements for periods/quasi-periods of CM abelian t-modules.
 - 版本与引用。The conclusion is in the function-field/Drinfeld-t-motive setting and depends on uniformizable CM dual t-motives, Hodge--Pink theory, and the nondegenerate CM-type condition. Main framework, period-symbol construction and one stated application checked; long t-motive/Hodge--Pink proofs and publication status were not independently verified.
+- 第六批定向筛选。existing。The positive-characteristic t-motive/period setting is already routed by math-function-field-period-transcendence. This CM period-symbol paper is a specialized extension, not a replacement for that gate. 定位。physical pp. 1--2, 5--6, 38, 53; §§5.3, 6.1, 8.4; arXiv:2203.09131v2。全卷 70 页。 后续条件。Use the existing route only after specifying a uniformizable CM dual t-motive, nondegenerate CM type, Hodge--Pink input, and its period/quasi-period normalization.
 
 ## EXT-0092 · SEAC from EAC modulo Schanuel: reduction to algebraic exponentials
 
 - 原件。version/date not visible on inspected PDF pages 1--7。PDF 物理页 1, 2, 3, 5, 6, 7。SHA-256 0bceb00c502b92749dc3222567c1218c49f0384e5c9ca2e222f43d719f74dd96。
 - SEAC reduction in exponential algebra。Thm. 1.1; Cor. 1.2; §§1.2--1.3。Assuming Schanuel, it reduces the remaining obstruction from exponential-algebraic closure to non-density of perfectly rotund varieties in finitely generated graph subgroups whose exponential coordinates are algebraic; it does not establish that non-density statement.
 - 条件或证据待查。The reduction uses weak Zilber--Pink, relative Mordell--Lang/Kummer arguments, and assumes both SC and EAC before the final unresolved condition; therefore it cannot be treated as a proof of SEAC. Reduction statement and all displayed conditional layers checked; no claimed final non-density theorem or source version was verified.
+- 第六批定向筛选。hold。The SEAC result is a conditional reduction, not a proof: it assumes Schanuel/EAC and leaves a non-density statement for perfectly rotund varieties unresolved. 定位。physical pp. 1--3, 5--7; Theorem 1.1 and Corollary 1.2。全卷 7 页。 后续条件。A usable component needs an independently proved non-density theorem for a specified finitely generated graph subgroup; absent that, retain only the conditional reduction.
 
 ## EXT-0093 · A Schanuel property for exponentially transcendental powers
 
 - 原件。arXiv:0810.4457v1 (24 Oct 2008)。PDF 物理页 1, 2。SHA-256 56aa23e205a98b4de89bbf8bc4045e83d523deef1885b694ce355210f45a388d。
 - Exponentially transcendental power maps。Thm. 1.1 and definition following it。If a real lambda is exponentially transcendental and positive y is multiplicatively independent, then the stated transcendence degree of (y,y^lambda) over lambda is at least the tuple length; a multivariable field version is announced.
 - 版本与引用。The hypothesis is exponential transcendence in the relevant exponential field, not ordinary transcendence; applying it requires independently certifying that hypothesis. Main statement and definitions checked; generalization/proof and applicability to any concrete lambda were not independently verified.
+- 第六批定向筛选。hold。The power-map lower bound assumes exponential transcendence of the exponent, a non-effective hypothesis not certified by ordinary transcendence or finite numerical data. 定位。physical pp. 1--2; Theorem 1.1; arXiv:0810.4457v1。全卷 5 页。 后续条件。A concrete application must independently certify exponential transcendence in the relevant exponential-field sense and multiplicative independence of the positive inputs.
 
 ## EXT-0094 · Ax-Schanuel for the j-function
 
 - 原件。arXiv:1412.8255v2 (14 Jan 2015)。PDF 物理页 1, 2, 5, 6。SHA-256 da67ca422a980996d9f0217e6d2c3016185c9f9bf31bf8d2bb2657cb709d4513。
 - Modular j functional transcendence。Thm. 1.1--1.3; §§2.3--2.6。For an analytic component of an algebraic intersection with the graph of j, failure of the expected dimension is explained by containment in a proper weakly special locus; the derivative formulation gives the corresponding transcendence-degree inequality.
 - 版本与引用。The theorem is functional on the upper half-plane and requires exclusion/identification of modular weakly special relations; the derivative version uses the third-order differential equation for j and o-minimal definability. Main and derivative formulations plus their equivalence discussion checked; full Pila--Wilkie proof and formal-publication version were not audited.
+- 第六批定向筛选。candidate。13-page arXiv:1412.8255v2 proves an upper-half-plane graph-of-j dimension-defect/weakly-special alternative. Exact installed-SKILL/reference search found no independent method covering this scope; it is not a finite j-value oracle. 定位。PDF pp. 1--2, 5--6 (Theorems 1.1--1.3 and derivative form).。全卷 13 页。 后续条件。Specify algebraic intersection and all weakly-special modular relations; audit derivative/Schwarzian and definability gates before a concrete transfer.
 
 ## EXT-0095 · Schanuel Type Conjectures and Disjointness
 
 - 原件。arXiv:2211.09556v1 (17 Nov 2022)。PDF 物理页 1, 2, 3, 4, 6。SHA-256 3acabfad9c653c717ab11c485d0cbd62d8e3e531fdc5751fc285c4354cadd7b8。
 - Iterated exp/log disjointness。§2 disjointness definitions; Lemma 3.5; Prop. 3.6。Studies fields generated by iterated exponentials and logarithms; under Schanuel it uses convenient generators to obtain disjointness, with modular-j analogues and some specially chosen unconditional initial fields.
 - 条件或证据待查。The displayed generator lemma assumes Schanuel and the construction imports prior Ax-Schanuel/convenient-generator results; the unconditional cases have narrower initial-field hypotheses. Definitions and one conditional mechanism checked; the exact unconditional cases and all imported results were not independently verified.
+- 第六批定向筛选。citation。11-page arXiv:2211.09556v1 gives exp/log and j disjointness conditionally on Schanuel-type conjectures, save narrow initial-field cases; it is not a deployable inference rule. 定位。PDF pp. 1--4, 6 (definitions and generator/disjointness mechanism).。全卷 11 页。 后续条件。Prove the applicable Schanuel-type hypothesis or certify the exact unconditional initial-field case and imported inputs.
 
 ## EXT-0096 · An introduction to Mahler's method for transcendence and algebraic independence
 
@@ -476,18 +509,21 @@
 - 原件。arXiv:1712.05088v1 (14 Dec 2017)。PDF 物理页 1, 2, 3。SHA-256 a60d609ebb57ad818bde9bcfe89cdf2124758cf3e03e53d44a80a7a4cf61cb49。
 - Pure Hodge period-map Ax-Schanuel。Thm. 1.1; §2 volume estimates。For a pure polarized integral variation of Hodge structures, an atypical analytic component in the graph of the period map projects to a proper weak Mumford--Tate subvariety; a Griffiths-transverse volume bound is the new ingredient.
 - 版本与引用。The conclusion is tied to the stated period-domain, weak Mumford--Tate, and codimension hypotheses; it is not an Ax-Schanuel statement for arbitrary special functions. Statement and proof entry point checked; the volume estimate and downstream algebraic-geometric inputs were not independently verified.
+- 第六批定向筛选。candidate。12-page source’s Theorem 1.1 is pure-VHS Ax--Schanuel: strict codimension defect forces a proper weak Mumford--Tate projection. No actual installed SKILL/reference independently implements this period-map scope. 定位。PDF pp. 1--3 (setup, Theorem 1.1 and proof entry).。全卷 12 页。 后续条件。Instantiate the polarized integral variation, period domain, V, U and target; audit the definable fundamental-domain and volume inputs.
 
 ## EXT-0098 · Ax-Schanuel for variations of mixed Hodge structures
 
 - 原件。arXiv:2101.10968v3 (6 Mar 2024)。PDF 物理页 1, 2, 3。SHA-256 b7101d643e996a85c00462b5ba04728d094ab318cdf16ed6e705a704a700d369。
 - Mixed Hodge period-map Ax-Schanuel。Thm. 1.4; §1.3。For an admissible graded-polarized mixed variation, a dimension defect between an analytic subset of the period-map graph and its Zariski closure below dim of the compact dual forces projection into a proper weakly special subvariety.
 - 版本与引用。The induction uses real-split retraction, definability of mixed period maps, and point counting on definable quotients; all VMHS and Hodge-generic assumptions are essential. Main theorem and proof strategy checked; detailed induction and cited definability theorem were not independently verified.
+- 第六批定向筛选。candidate。29-page source treats admissible graded-polarized mixed VMHS with monodromy and mixed period maps. No installed SKILL/reference covers this GPVMHS-specific defect statement or its real-split/definability gates. 定位。PDF pp. 2--4 and Theorem 1.4/section 1.3.。全卷 29 页。 后续条件。Provide GPVMHS/period-map data, verify weakly-special locus and the cited mixed-period-map definability theorem.
 
 ## EXT-0099 · A Schanuel Property for $j$
 
 - 原件。arXiv:1701.05841v2 (1 Oct 2017)。PDF 物理页 1, 2, 8, 10, 12。SHA-256 09dc837b9f0d16c0e75ed9a84167a377444b134058f48cf0d942afa1d449823f。
 - j-fields and j-derivation closure。§5 j-derivations; §6 transcendence results。Builds j-fields and a j-derivation closure pregeometry to formulate a generic Schanuel-type property for j; modular polynomial relations are used to make derivations compatible with j and its derivatives.
 - 版本与引用。The framework relies on Ax-Schanuel for j and on nonsingular modular-relation loci when differentiating; genericity is not a numerical algebraic-independence certificate for a chosen j-value. Definitions, derivation mechanism, and stated aim checked; final §6 theorem details and external Ax-Schanuel proof were not fully audited.
+- 第六批定向筛选。candidate。18-page arXiv:1701.05841v2 constructs j-fields, j-derivations and a generic Schanuel property. No installed SKILL/reference supplies this differential-algebra closure framework; genericity is not a numerical j-value certificate. 定位。PDF pp. 1--3, 10--16 (setup, j-derivations and closure).。全卷 18 页。 后续条件。Give a j-field, certify nonsingular modular loci under differentiation, and retain the imported Ax--Schanuel-for-j theorem.
 
 ## EXT-0100 · Algebraic relations among hyperderivatives of periods and logarithms of Drinfeld modules
 
@@ -501,18 +537,21 @@
 - 原件。version/date not visible on inspected PDF pages 1--3。PDF 物理页 1, 2, 3, 9, 11。SHA-256 631e8ec3c8e29c1b0125672f7512f999e8b25972d0965d8c0c3396af9b4af7d7。
 - p-adic tame geometry and Tate uniformization。Thm. 1.3--1.4; §3 derivations; Cor. 3.2--3.3。Uses Hensel minimality to construct derivations of C_p respecting p-adic exp and Tate uniformization, proves dense blurred-uniformization solutions for rotund varieties, and gives a p-adic likely-intersection density criterion.
 - 条件或证据待查。Statements require the specified 1-h-minimal expansion, p-adic domains/valuations, and rotund or quotient-dimension hypotheses; discussion of p-adic Schanuel is conditional. Main stated results and derivation construction route checked; source version, Hensel-minimality foundations, and all referenced fixes were not independently verified.
+- 第六批定向筛选。candidate。27-page preprint on Hensel-minimal p-adic exponentiation/Tate uniformization; no finite, nonduplicate contract survives its 1-h-minimal and local-domain dependencies. 定位。PDF pp. 1--3, 9--11.。全卷 27 页。 后续条件。Verify primary version/foundations and specify a valued field, expansion, domain and definable functions before extracting an operation.
 
 ## EXT-0102 · Solutions of equations involving the modular $j$ function
 
 - 原件。arXiv:1907.09858v3 (12 Feb 2020)。PDF 物理页 1, 2, 3, 5, 7, 9, 13, 14, 16, 19, 20, 21。SHA-256 538e602367396d90af8f75c7f2f1e1a6a9f3c964f486eb2c6341fc1904c5f091。
 - Algebraic equations in modular j and iterates。Thm. 1.1--1.4; Prop. 6.1; §7。Proves Zariski-dense existence of graph-of-j points on irreducible varieties whose first-coordinate projection is dominant, gives infinitely many solutions for nondegenerate hypersurfaces involving iterates of j, and obtains stated generic-solution results conditionally on modular Schanuel.
 - 版本与引用。The unconditional existence step uses triangular-form reduction and automorphic analytic arguments; genericity needs modular Schanuel (except the explicitly isolated plane-curve case), so conditions cannot be dropped. Main results, triangular reduction, and conditional finishing argument checked; full automorphic existence proposition and formal-publication version were not independently verified.
+- 第六批定向筛选。candidate。25-page arXiv:1907.09858v3 gives modular-j equation existence via triangular reduction, while genericity is modular-Schanuel-dependent. No installed SKILL/reference implements this automorphic-existence route; it is not a general solver. 定位。PDF pp. 1--3, 5--9, 13--16, 19--21.。全卷 25 页。 后续条件。Supply variety/projection and nondegeneracy conditions; retain modular Schanuel for a generic-solution conclusion.
 
 ## EXT-0103 · Ax-Schanuel for $GL_n$
 
 - 原件。arXiv:1905.04364v2; 14 Oct 2021 on p.1; publication status unverified。PDF 物理页 1, 3, 10。SHA-256 4470d1c7b06aa719e7d528368c0d807e292392ea1a021488e9d8dde1a35aaa16。
 - 矩阵指数的函数超越性。Introduction; Weak Ax-Schanuel for U_n and GL_n。For E: gl_n(C)→GL_n(C), dimension inequalities are stated for components of V∩E^{-1}(Z) outside proper weakly special loci, reducing triangular and general matrix cases to scalar Ax-Schanuel.
 - 条件或证据待查。Classical Ax-Schanuel and bi-algebraic/weakly-special characterization are invoked but not independently checked. Only statement and reduction overview checked; definitions, proof, and cited inputs unverified.
+- 第六批定向筛选。candidate。42-page source treats matrix-exponential Ax--Schanuel through matrix weakly-special loci and scalar reduction. No installed SKILL/reference independently covers this noncommutative gl_n-to-GL_n setting. 定位。PDF pp. 1--3, 10--13.。全卷 42 页。 后续条件。Define gl_n/GL_n varieties and a component away from proper weakly-special loci; verify scalar Ax--Schanuel and bi-algebraic imports.
 
 ## EXT-0104 · Identities for Anderson generating functions for Drinfeld modules
 
@@ -534,6 +573,7 @@
 - 原件。arXiv:2203.00470v1; 1 Mar 2022 on p.1; publication status unverified。PDF 物理页 1, 2。SHA-256 468f119fc431c22eb3ed06fa59a5bb584c8f90e900acc2efd80a45a93ae0dfac。
 - 半阿贝尔簇的解析 Ax-Schanuel。Theorems 1.3 and 1.6。For A-nondegenerate entire f:C→Lie(A), the graph (exp_A∘f,f) has Zariski-closure dimension at least dim A+1; a truncated-counting second main theorem for its jet lifts is also stated.
 - 条件或证据待查。Log Bloch–Ochiai and a key estimate are decisive cited inputs, not independently checked. Introduction and stated SMT checked; proof, error terms, and reusable transfer unverified.
+- 第六批定向筛选。candidate。17-page arXiv:2203.00470v1 proves a semi-abelian analytic Ax--Schanuel lower bound with Nevanlinna/jet-lift hypotheses. No installed SKILL/reference implements its A-nondegenerate entire-curve scope. 定位。PDF pp. 1--3, 5--8 (Theorems 1.3/1.6 and ingredients).。全卷 17 页。 后续条件。Specify A and entire f, prove A-nondegeneracy, and audit Log Bloch--Ochiai plus the key estimate before proof reuse.
 
 ## EXT-0107 · On v-adic periods of t-motives
 
@@ -562,6 +602,7 @@
 - 原件。arXiv:1010.6216v3; 30 Mar 2011 on p.1; publication status unverified。PDF 物理页 1, 3。SHA-256 85c16f49ee7aef0104a6f2c1900a0e3ebf8ec0a33d222a22bf288a9ac91c5e42。
 - Schanuel 猜想的条件推论。Theorem 3; Corollary 1。Assuming Schanuel's conjecture, if z,w are neither 0 nor 1 and both z^w,w^z are algebraic, then z,w are either both rational or both transcendental.
 - 版本与引用。The conclusion is conditional on unproved Schanuel, so it is not a deployable unconditional inference rule. Conditional theorem checked; branch conventions and subsidiary propositions unreviewed.
+- 第六批定向筛选。citation。6-page arXiv:1010.6216v3: algebraic-powers dichotomy and corollaries are expressly Schanuel-conditional. 定位。PDF pp. 1--5.。全卷 6 页。 后续条件。Prove Schanuel or relevant special case while fixing complex-power branches and subsidiary hypotheses.
 
 ## EXT-0111 · Algebraic relations among periods and logarithms of rank 2 Drinfeld modules
 
@@ -584,18 +625,21 @@
 - 原件。conference-style PDF; inventory associates arXiv:2504.14413v4, correspondence unverified。PDF 物理页 1, 2, 11。SHA-256 d77a07dd0d7282afc96fae8f222c39f5ab46945a1be87336cbe944e03a6bf8f7。
 - p-adic Skolem 问题与 LRS 零点。Abstract; Problem 1; Theorem 11。For linear recurrence sequences it studies exact p-adic zeros and algorithms whose termination is conditional on p-adic Schanuel; a theorem constrains simultaneous exponential-polynomial zeros by an integral logarithmic relation.
 - 条件或证据待查。Termination and decisive zero structure assume p-adic Schanuel; implementation/reduction details unverified. Problem, abstract, theorem page checked; algorithms, complexity, and conditional reductions unverified.
+- 第六批定向筛选。candidate。23-page p-adic Skolem source has an exact LRS setup, but decisive termination/zero structure relies on p-adic Schanuel and unreviewed implementation. 定位。PDF pp. 2--5 and Theorem 11.。全卷 23 页。 后续条件。Supply finite LRS/decomposition, valuation model and unconditional termination proof or explicit p-adic-Schanuel certificate.
 
 ## EXT-0114 · Zeros of $E$-functions and of exponential polynomials defined over $\overline{\mathbb{Q}}$
 
 - 原件。arXiv:2503.20345v1; 26 Mar 2025 on p.1; publication status unverified。PDF 物理页 1, 2。SHA-256 74c98e4af3e6b7c7637aef0786d67c4516f4611ddcfed98a92ca44c63183b6df。
 - E-函数零点与指数多项式。Theorem 1.2; Corollary 1.3; Conjecture 1.4。If g^m is an E-function and L(g)/g is entire for L∈Q(x)[d/dx], then L(g)/g∈Q[x], giving a special Jossen-conjecture case; broader zero/factorization claims are conjectural or Schanuel-conditional.
 - 条件或证据待查。E-function framework is used and broader conclusions depend on unproved conjectures; background not checked. Early theorem/boundary checked; proof and particular-E-function applicability unverified.
+- 第六批定向筛选。candidate。23-page arXiv:2503.20345v1 E-function quotient theorem needs certified E-function and entire-quotient inputs, while broader factorization/zero claims are conditional or conjectural. 定位。PDF pp. 1--3, Theorem 1.2/Corollary 1.3.。全卷 23 页。 后续条件。Supply E-function differential system, m, L and entire-quotient certificate; audit E-operator/Jossen dependencies.
 
 ## EXT-0115 · p-adic integrals and linearly dependent points on families of curves I
 
 - 原件。arXiv:2206.04304v2; 13 Oct 2023 on p.1; publication status unverified。PDF 物理页 1, 3。SHA-256 3240b0108b374eeabce8ff08133606bd2d882707198fa449aa5ac402d4ab9a85。
 - 族上 Chabauty–Coleman–Kim 低秩点。Theorem 1。For a smooth family of curves over a p-adic base and a rank-d generic-Jacobian subgroup, it states an explicit fiber-power threshold beyond which points of rank at most r are not Zariski dense.
 - 条件或证据待查。Family Chabauty–Coleman–Kim and Ax–Schanuel for foliations are decisive but unverified. Theorem/overview checked; bad-reduction case, rank conventions, and threshold proof unverified.
+- 第六批定向筛选。candidate。62-page arXiv:2206.04304v2 family Chabauty--Coleman--Kim route depends on p-adic comparison, monodromy and foliation Ax--Schanuel; no finite generic interface is supplied. 定位。PDF pp. 1--3, 15--22, 41--55.。全卷 62 页。 后续条件。Choose explicit curve family/place/rank/period map/monodromy calculation and verify every imported comparison theorem.
 
 ## EXT-0116 · Prolongations of t-motives and algebraic independence of periods
 
@@ -617,30 +661,35 @@
 - 原件。inventory associates arXiv:2606.24553v2; PDF p.1 has no visible arXiv tag, correspondence unverified。PDF 物理页 1, 2。SHA-256 821993daf30582f0a32f2b0b06606c25ed2d615c40dce7e25b62031f41ef534f。
 - Böttcher 坐标的双代数几何。Theorem 1.1; definition of f-bialgebraic branches。For non-exceptional polynomials with disconnected Julia set or a nondegenerate locally connected model, it states a classification of f-bialgebraic branches and proves Böttcher-coordinate Ax–Lindemann/Schanuel analogues in the disconnected case.
 - 条件或证据待查。Dynamical hypotheses and cited transcendence results are decisive and unverified. Introduction, definition, initial theorem hypothesis checked; classification/proof and connected-case limits unverified.
+- 第六批定向筛选。candidate。58-page recent Böttcher preprint requires nonexceptional dynamics plus disconnected-Julia or local-connected-model hypotheses, not a finite reusable contract. 定位。PDF pp. 1--4 and classification sections.。全卷 58 页。 后续条件。Verify primary version and fix polynomial, basin/Böttcher branch and the relevant Julia-set hypothesis before a specialised classifier.
 
 ## EXT-0119 · Hodge theory and o-minimality at CIRM
 
 - 原件。arXiv:2502.03071v1; 5 Feb 2025 on p.1; publication status unverified。PDF 物理页 1, 5, 8。SHA-256 9dc8089e007d6b8451501bb12076b12691dcfc75563f8ec6978b4a48b3876bf7。
 - Hodge 理论与 o-minimality 讲义。Abstract; lectures 1–4; cited Theorems 1.10–1.11。Lecture-style survey of o-minimal methods, functional transcendence, Hodge loci and Zilber–Pink applications, with cited examples rather than a single new reusable theorem.
 - 版本与引用。Substantive assertions are attributed to external work; no source proof was audited. Overview and two illustrative statements checked; retained as orientation only.
+- 第六批定向筛选。citation。Raw SHA and 30 physical pages verified. This is arXiv:2502.03071v1 lecture material, with no formal publication identified. Physical pp. 5 and 8 restate results attributed to André, Raynaud, and later work; it supplies orientation on Hodge loci/o-minimality, not an independently usable theorem or procedure. 定位。Lecture 1; physical pp. 5, 8 (Theorems 1.2--1.4, 1.10--1.11)。全卷 30 页。 后续条件。For use, cite and check the original theorem matching the proposed Hodge- or Shimura-variety input.
 
 ## EXT-0120 · What is a closed-form number?
 
 - 原件。arXiv:math/9805045v1; 8 May 1998 on p.1; publication status unverified。PDF 物理页 1, 8。SHA-256 bf86c9a0fa2bf1feefc4aef4d4fb92b5067878076e23a1d8ab7dea23547d8ca9。
 - 闭式数与 elementary number 的定义讨论。§1; §4。The essay proposes a hierarchy-based notion of closed-form/elementary numbers and notes that zero testing in exponential-logarithmic expression fields is conditionally decidable under Schanuel-type assumptions.
 - 版本与引用。It is expository; its algorithmic/transcendence context rests on citations and unproved Schanuel. Motivating definitions/discussion checked; no formal universal definition or proof package extracted.
+- 第六批定向筛选。citation。Raw SHA and 11 physical pages verified. This is arXiv:math/9805045v1, an expository proposal with no formal publication identified. Its zero-testing discussion is conditional on Schanuel's conjecture, so it does not yield a sound closed-form decision tool. 定位。physical pp. 1, 8 (Questions 1--2; equation (3.2); §4 zero-testing discussion)。全卷 11 页。 后续条件。A formal expression grammar plus an unconditional zero-test proof, or an explicitly supplied accepted conjectural assumption.
 
 ## EXT-0121 · Can the quadratrix truly square the circle?
 
 - 原件。inventory associates arXiv:2406.14032v1; PDF p.1 lacks identifier, correspondence unverified。PDF 物理页 1, 7, 15。SHA-256 176c1d90488cd297f106f138e8402afff675a2dbfd9f9f33f4b0f53275589b84。
 - quadratrix 构作与条件超越性。Abstract; §6; Theorem 5。With quadratrix use restricted to angle/segment-ratio conversion without its limiting point, circle squaring is reduced to membership of π in an algebraic-base exponential-logarithmic field and ruled out assuming Schanuel.
 - 版本与引用。The negative answer is explicitly Schanuel-conditional and the construction model needs separate formalization. Conditional theorem and geometric restriction checked; no unconditional constructibility conclusion follows.
+- 第六批定向筛选。adjacent。Raw SHA and 18 physical pages verified. Formal version is Cruz--Koshkin, American Mathematical Monthly 132(7) (2025), 647--665, DOI 10.1080/00029890.2025.2503121. The source's exact negative construction conclusion is conditional on Schanuel; its unconditional content is a restricted quadratrix angle/segment-ratio construction, outside the present algebraic-tool interfaces. 定位。physical pp. 1, 7, 15 (abstract; §6; Lemma 3 and Theorem 5)。全卷 18 页。 后续条件。A precise construction-language model and, for the negative conclusion, an accepted Schanuel assumption.
 
 ## EXT-0122 · A Lindemann-Weierstrass theorem for $E$-functions
 
 - 原件。arXiv:2210.12046v2; 7 Mar 2025 on p.1; publication status unverified。PDF 物理页 1, 2。SHA-256 1f50bbebeabf7f05d7ba4674a329e2d882af5640cc040b9da2fb0adcca41cebd。
 - E-函数值的线性独立。Introduction; Theorems A–C; Definition 1.1。The manuscript announces a linear-independence analogue of Lindemann–Weierstrass for values of one E-function at algebraic arguments, using E-operators and Beukers' algebraic-independence theorem.
 - 条件或证据待查。The exact new theorem and exceptional/singularity hypotheses were not located in this pass; André/Beukers inputs were not audited. Motivation and definition checked; central theorem/proof and hypergeometric corollary unverified.
+- 第六批定向筛选。candidate。Raw SHA and 11 physical pages verified. Formal version is Delaygue, Journal für die reine und angewandte Mathematik 820 (2025), 75--85, DOI 10.1515/crelle-2024-0090. Theorem 1.2 gives Q-linear independence only after verifying E-function status, pairwise-disjoint singular sets S(fi), algebraicity of α, and transcendence of all fi(α); physical p. 4 says the exceptional-value algorithm itself requires an oracle that the input is an E-function. No finite input/certificate interface is supplied here. 定位。physical pp. 2--4 (Definition 1.1; Theorem 1.2; Corollary 1.3; exceptional-value algorithm caveat)。全卷 11 页。 后续条件。A certified E-function/ODE representation, singular-set computation, exceptional-value proof, and an interface that preserves all Theorem 1.2 hypotheses.
 
 ## EXT-0123 · Relative monodromy of ramified sections on abelian schemes
 
@@ -654,6 +703,7 @@
 - 原件。arXiv:2609.16392v1 per inventory; PDF p.1 carries no arXiv tag, correspondence unverified。PDF 物理页 1, 4, 9。SHA-256 97c7087fedace1be2acd76be41e0216cc5247f07e3adb981255c1ceeffbe72e7。
 - LRS 扭曲有理零点与 local-global。Abstract; Theorem 5; Theorem 11。For coprime non-weakly-degenerate LRS, it states a p-adic-Schanuel-conditional local-global principle for simultaneous zeros and analyzes twisted rational zeros versus p-adic zeros.
 - 条件或证据待查。The central local-global theorem is conditional on p-adic Schanuel; the unconditioned prime-detection analysis was not fully checked. Abstract, main theorem page, and definitions checked; reductions, heuristic conjecture, and proofs unverified.
+- 第六批定向筛选。candidate。Raw SHA and 23 physical pages verified. It is arXiv:2609.16392v1, with no formal publication identified. Theorem 5 is explicitly conditional on p-adic Schanuel and requires coprime, non-weakly-degenerate LRS over Z[1/b]; p. 3 also distinguishes correctness from conjectural termination. This is a possible future certificate route, not an unconditional LRS-zero solver. 定位。physical pp. 2--4, 9 (Definitions; Conjecture 2; Theorem 5; Theorem 11)。全卷 23 页。 后续条件。An exact LRS normal-form/coprimality/weak-degeneracy checker, modular nonzero witness format, and an explicit p-adic-Schanuel assumption for termination.
 
 ## EXT-0126 · Algebraic independence of $v$-adic Carlitz multiple polylogarithms via period interpretations
 
@@ -681,18 +731,21 @@
 - 原件。arXiv:2404.06968v1（首页核对）。PDF 物理页 1, 2, 3。SHA-256 af28db132ba1e375bc74473bc623289bf43edcdb24fed8a06980a0a3b2230afb。
 - 正特征幂级数超越性。摘要；Theorem 1.3；§3。在 F_p[[x]] 中以 primitive parts 的线性/幂乘积条件给出 Artin–Hasse 指数复合物的代数独立性，并经迭代微分 Galois 群证明。
 - 版本与引用。关键为 Matzat–van der Put 的迭代微分 Galois 理论；对象在正特征。 只核对主定理入口和方法；不适用于特征零 γ，正式发表状态未核对。
+- 第六批定向筛选。adjacent。Raw SHA and 17 physical pages verified. This is arXiv:2404.06968v1, with no formal publication identified. Its Artin--Hasse assertions are about reduction in F_p[[x]] and use iterative differential Galois theory; they do not transfer to characteristic-zero Euler-constant work or an installed finite-field power-series certificate route. 定位。physical pp. 1--3 (abstract; Artin--Hasse definition; Theorem 1.3 setup)。全卷 17 页。 后续条件。A finite-field formal-power-series representation, primitive-part hypothesis checker, and a separately audited iterative-differential-Galois proof chain.
 
 ## EXT-0130 · Skolem Meets Schanuel
 
 - 原件。arXiv:2204.13417v1（库存；首页未显示版本）。PDF 物理页 1, 2, 3。SHA-256 7ae087136085b9e76f45aab2cc245282b379dd4d45f0409c69038f27545f8560。
 - 线性递推零点判定。摘要；Theorem 1；Skolem Conjecture。研究有理线性递推序列零项的可判定性；把简单 LRBS 的 Bi-Skolem 判定约化到一个模 m 见证猜想。
 - 归档定位。核心结论依赖未证的 Skolem Conjecture，而非可直接调用的超越性判据。 只核对问题与条件性约化；未审计计算复杂度或参考文献。
+- 第六批定向筛选。candidate。Raw SHA and 15 physical pages verified. Formal version is Bilu--Luca--Nieuwveld--Ouaknine--Purser--Worrell, MFCS 2022, LIPIcs 241, Article 20, DOI 10.4230/LIPIcs.MFCS.2022.20. It supplies an LRS algorithm whose output certificate is correct whenever it terminates, but termination depends on the Skolem and p-adic Schanuel conjectures; no certificate grammar or checker is extracted from this screening pass. 定位。physical pp. 1--3 (abstract; Skolem Problem and conditional algorithm discussion)。全卷 15 页。 后续条件。The source's explicit certificate format and an independently implemented verifier; use of guaranteed termination additionally needs both stated conjectures.
 
 ## EXT-0131 · Higher Ramanujan equations and periods of abelian varieties
 
 - 原件。arXiv:1807.11044v2（首页核对）。PDF 物理页 1, 3, 4。SHA-256 89a2bfc9a7508cccf3b0fcaf1b9a121c39891e922e89e02ae154b69ff0ad2229。
 - 阿贝尔簇周期与 Gauss–Manin 方程。摘要；引言；§1。用 Gauss–Manin 联络及 Kodaira–Spencer 同构构造高维 Ramanujan 向量场，并讨论其对 Eisenstein 值代数独立问题的动机。
 - 版本与引用。依赖模叠与退化阿贝尔簇的几何构造；未给 γ 或一般 E-函数值的线性形式。 只作背景引文；121 页主体、正式发表版本及可算法化接口未核对。
+- 第六批定向筛选。citation。Raw SHA and 121 physical pages verified. Formal version is Fonseca, Memoirs of the AMS 281(1391) (2023), DOI 10.1090/memo/1391. The opening results require moduli stacks, Gauss--Manin connection, Kodaira--Spencer data, and degeneration theory; they are contextual to period questions but give no compact certified operation for the current skill set. 定位。physical pp. 1, 3--4 (abstract and introduction)。全卷 121 页。 后续条件。A specified abelian-family/moduli-stack model with verified de Rham frame, Gauss--Manin connection, and Kodaira--Spencer hypotheses.
 
 ## EXT-0132 · Rational Elliptic Period Relations Across Realizations: Complex Lattices, Local p-adic Periods, and Drinfeld Modules
 
@@ -706,6 +759,7 @@
 - 原件。arXiv:2104.02630v2（首页核对）。PDF 物理页 1, 2, 3。SHA-256 15140d5effbf791bfe5fbc5a62dc8a565c4e8f5dabfc69419d08d27bdb4c55cb。
 - Carlitz 周期超越性。摘要；引言既有定理；§2。证明 Carlitz 基本周期及全部 hyperderivatives 在 F_q(θ) 上代数独立，并把它们与 Carlitz 张量幂的周期坐标相连。
 - 版本与引用。关键为正特征 hyperdifferential 与 Carlitz 模；非复数 Euler 常数路线。 未逐证主定理；正式发表状态和对特征零类比均未核对。
+- 第六批定向筛选。adjacent。Raw SHA and 13 physical pages verified. Formal version is Maurischat, Journal of Number Theory 240 (2022), 145--162, DOI 10.1016/j.jnt.2022.01.006. The exact hyperderivation formulas on physical p. 4 are characteristic-p identities, while the main hypertranscendence theorem needs the Carlitz/t-module framework; this does not duplicate or extend a current characteristic-zero route. 定位。physical pp. 2--4 (Theorems 0.1--0.3; Example 1.4 hyperderivation formulas)。全卷 13 页。 后续条件。A finite-field Carlitz-module representation, hyperderivative convention, and audited t-module proof dependencies.
 
 ## EXT-0134 · Algebraic independence of the Carlitz period and the positive characteristic multizeta values at n and (n,n)
 
@@ -719,18 +773,21 @@
 - 原件。arXiv:2603.22610v1（库存；首页未显示版本）。PDF 物理页 1, 2, 3。SHA-256 44c2340d49da65a78f66cd8c9e2923807b277508ca4c9ddaa5c663788f5cb1e9。
 - p-adic Hodge 变形。摘要；目录；引言。构造可变 p-adic Hodge 结构的全局周期映射，讨论特殊点密度、反例及双解析 Ax–Schanuel 猜想。
 - 条件或证据待查。结果建立在该系列前两部分及 p-adic Hodge/刚性几何框架；含猜想性部分。 新近 Part III 只作定位；不提炼为可复用算术工具。
+- 第六批定向筛选。hold。Raw SHA and 38 physical pages verified. This remains arXiv:2603.22610v1; no formal publication identified. Its variation and local-Shimura statements depend essentially on Parts I--II, v-stacks, Fargues--Fontaine geometry, and several conjectural Ax--Schanuel portions, so no isolated tool is warranted. 定位。physical pp. 1--4, 9 (abstract; Theorem 3.1.2 discussion; Theorem 5.2.1; Theorem 2.4.4)。全卷 38 页。 后续条件。Published/checked Parts I--II plus a concrete perfectoid/local-Shimura input and an exact statement separated from the paper's conjectural sections.
 
 ## EXT-0136 · Tannakian duality for Anderson-Drinfeld motives and algebraic independence of Carlitz logarithms
 
 - 原件。arXiv:math/0506078v2（首页核对）。PDF 物理页 1, 2, 3。SHA-256 6b5d3436da4d309fa77de77d23a0ed1781ee7fe90c544e55a229ef5cae026cf3。
 - t-motive Galois 群。摘要；Theorem 1.1.7 的引言定位。将 t-motive 周期矩阵的超越次数识别为 Galois 群维数，从而证明线性独立 Carlitz 对数的代数独立性。
 - 版本与引用。依赖 Anderson–Drinfeld motive、Frobenius 半线性差分方程和 Tannakian 对偶；正特征。 未逐证 §5–6；不混同于特征零对数线性形式。
+- 第六批定向筛选。citation。Raw SHA and 39 physical pages verified. Formal version is Papanikolas, Inventiones Mathematicae 171(1) (2008), 123--174, DOI 10.1007/s00222-007-0073-y. Theorem 1.1.7 exactly relates trdeg of a supplied t-motive period matrix to its Tannakian Galois-group dimension, but its premises require a rigid analytic trivialization and motive data, and it is a characteristic-p framework rather than a current numerical tool. 定位。physical pp. 1--3 (abstract; Theorem 1.1.7; Carlitz-exponential setup)。全卷 39 页。 后续条件。A fully specified rigid analytically trivial t-motive, verified Phi/Psi hypotheses, and a Galois-group dimension proof.
 
 ## EXT-0137 · Zeros of E_2, quasi-periods, and Schwarz maps
 
 - 原件。arXiv:2610.30025v1（库存；首页未显示版本）。PDF 物理页 1, 2, 3。SHA-256 eb377f7cc6d348a79f69a03ce231c7d2c39c64b2315469042e0e908fb4cc0d90。
 - 模形式零点与准周期。摘要；§1；§2。给出 E_2 零点在有理 cusp 附近的计数/分布，并由经典超越定理推出零点处 j 与 λ 超越；ρ 的超越性仍为条件性讨论。
 - 版本与引用。无条件部分依赖 Watson 反演与模函数定理，ρ 的结论依赖 modular Schanuel。 只核对无条件/条件性分界；未验证渐近常数和后续导数结论。
+- 第六批定向筛选。candidate。Raw SHA and 35 physical pages verified. It is arXiv:2610.30025v1, with no formal publication identified. The source states the Watson parametrization and E2 zero-counting formula, but both a certified inverse-branch implementation and the cited Watson input would be needed before it can be turned into a numerical/certified modular-form tool; rho-transcendence remains conditional. 定位。physical pp. 1--3 (abstract; equations (1.1)--(1.2), (2.1)--(2.6); Theorems 1.1--1.4)。全卷 35 页。 后续条件。A validated Watson inversion implementation with error bounds, plus a proof/certificate for the modular and cusp normalization used by the query.
 
 ## EXT-0138 · Restricted Partition Functions as Bernoulli and Euler Polynomials of Higher Order
 
@@ -751,12 +808,14 @@
 - 原件。arXiv:2002.10854v3（首页核对）。PDF 物理页 1, 2, 3。SHA-256 640fa6dca81b4b3cf4af31a9d9879cc832efd13cb9257d28058efb0efa41cdf3。
 - 非交换环面与椭圆曲线秩。摘要；§1；§2。声称与有理椭圆曲线对应的非交换环面，其连分数算术复杂度满足 r(E)=c(A_θ)−1。
 - 条件或证据待查。关键对应与 Brock–Elkies–Jordan variety 的维数同一性未在所查页验证；与本任务的近似/线性形式无直接接口。 仅记录强主张，需独立核对已发表来源及完整证明后才可引用。
+- 第六批定向筛选。hold。Raw SHA and 10 physical pages verified. Formal version is Nikolaev, Journal of Analysis 31(3) (2023), 2115--2126, DOI 10.1007/s41478-023-00554-x. Although physical pp. 2--3 display the continued-fraction/BEJ equations, the asserted elliptic-rank and Tate--Shafarevich identifications require the paper's noncommutative-torus correspondence and external geometric inputs; no audited trustworthy rank algorithm follows. 定位。physical pp. 1--3 (abstract; Theorem 1.1, Corollary 1.3; equations (2.2)--(2.8))。全卷 10 页。 后续条件。An independently checked correspondence from the supplied elliptic curve to its noncommutative torus and a proof of the BEJ dimension/rank and Sha identifications.
 
 ## EXT-0141 · McMullen's Curve, the Weil Locus, and the Hodge Conjecture for Abelian Sixfolds
 
 - 原件。arXiv:2603.20268v1（库存；首页未显示版本）。PDF 物理页 1, 2, 3。SHA-256 f248a1a91516a6989c7648354fae3dd21398433f72d45205a007aeacceeb55c5。
 - Hodge locus 与 CM 点。摘要；目录；引言。预印本声称 McMullen 曲线与 Weil locus 的交有限且为 CM 点，并把非空性归约到有限显式方程；其 Hodge 类代数性仍未解决。
 - 条件或证据待查。使用 André–Oort 与独立超越论证；摘要本身明确现有代数性方法不足。 新近预印本且只核对导言；不能当作 Hodge conjecture 的解决或工具。
+- 第六批定向筛选。hold。Raw SHA and 43 physical pages verified. It remains arXiv:2603.20268v1, with no formal publication identified. The source does not prove a new Hodge-conjecture case: it says the relevant Weil classes remain inaccessible and reduces non-emptiness to 2816 equations. The claimed finiteness/CM description uses Andre--Oort or Ax--Schanuel dependencies that need independent verification. 定位。physical pp. 1--3 (abstract; introduction; Theorems A--B cited from McMullen)。全卷 43 页。 后续条件。A reproducible finite-equation dataset, a certified solver, and separate checks of the Andre--Oort/Ax--Schanuel dependency chain before using any intersection conclusion.
 
 ## EXT-0142 · Effective algebraic independence of values of E-functions
 
@@ -778,6 +837,7 @@
 - 原件。arXiv:2510.27041v1（库存；首页未显示版本）。PDF 物理页 1, 2, 3。SHA-256 0bb819e6c749091b0a7e0119f8a53fa328a74a13b5a91235aa4f61936d8c4245。
 - Flint Hills 级数与 π 逼近。摘要；Definitions 2.1–2.2；Theorem 2.1；Corollary 2.2。以 d(n)=dist(n,πZ) 比较 Flint Hills 部分和并讨论权重级数；原级数收敛仍明确为开放问题。
 - 条件或证据待查。权重收敛的“极小 d(n) 稀疏”需足够的 π 无理度控制；文中所查页未给出可用的无条件一般界。 不把比较不等式或数值实验当作原级数收敛证明；需要逐证 Corollary 2.2。
+- 第六批定向筛选。candidate。The Flint Hills comparison and weighted-series assertions leave the required unconditional control of exceptionally small dist(n,pi Z) open; no convergence certificate follows. 定位。Definitions 2.1--2.2, Theorem 2.1 and Corollary 2.2。全卷 6 页。 后续条件。An explicit unconditional irrationality-measure input for pi sufficient for Corollary 2.2's sparsity bound.
 
 ## EXT-0145 · An effective Linear Independence conjecture for the zeros of the Riemann zeta function and applications
 
@@ -819,6 +879,7 @@
 - 原件。arXiv:1108.1524v2（首页核对）。PDF 物理页 1, 2, 3, 4。SHA-256 515a2f4e4535cb184e8e72f22bda10de9423dfe73c50cbd9c73354dec26797b7。
 - Liouville 加权和分布。摘要；(1)；Definition 1.4。在 RH、零点 LI 和负离散矩条件下研究 L_α(x) 的对数分布与符号偏差。
 - 归档定位。全部分布/密度结论显式依赖 RH、LI 及 zeta 导数负矩假设。 仅记录条件性数论结果；不构成无条件超越性或逼近工具。
+- 第六批定向筛选。citation。The logarithmic distribution and sign-bias conclusions are explicitly conditional on RH, linear independence of zeros and a negative discrete moment hypothesis. 定位。Abstract, equation (1), Definition 1.4。全卷 33 页。 后续条件。Proof or separately declared adoption of RH, LI and the required zeta-derivative moment bound.
 
 ## EXT-0153 · On mixed joint discrete universality for a class of zeta-functions III
 
@@ -861,6 +922,8 @@
 - 原件。arXiv:math/0202064v1。PDF 物理页 1, 2。SHA-256 70f0570f920fb550c317323d52e830e48cb2419ed4caeeb55a5ab57fff2eefd4。
 - 多重积分 ζ 线性形式变换。§1; Théorème 2.1。给出 Vasilyev 型积分 J(p) 与嵌套乘积核积分 K(P) 的显式变量替换恒等式，连接 Beukers/Sorokin 风格 ζ 线性形式。
 - 版本与引用。等式由给定变量替换及积分收敛条件承担；Rhin–Viola 群用于分母改进只是后续策略。 核对定理陈述和参数对应；未审计一般积分的收敛、p-adic 估值或群作用细节。
+- 第六批定向筛选。adopt。Theorem 2.1 gives a concrete integer parameter conversion between Vasilyev and nested-product integral families plus an explicit target finiteness gate, extending the linear-form preparation route without asserting a zeta evaluation. 定位。Theorem 2.1 and Corollary 2.2。全卷 4 页。 后续条件。Any later multiple-zeta expansion, denominator estimate, asymptotic and nonzero integer linear-form proof.
+- 已采用方法。物理页 1, 2。Exact Vasilyev--Sorokin parameter conversion and K(P) convergence gate; no multiple-zeta evaluation, denominator control, or linear-form rate. [方法说明](../../../math-integer-linear-form-rates/references/polyzeta-integral-coordinate-transfer-ext0158.md)。
 
 ## EXT-0159 · A note on the irrationality of $ζ_2(5)$
 
@@ -888,12 +951,14 @@
 - 原件。arXiv:1601.02193v1。PDF 物理页 1, 2。SHA-256 6be8a0f299abc26a0af1c3f67e5e202265aaa4f2dd50d9c3510af849f5395591。
 - Chowla–Milnor/Hurwitz ζ 猜想。Abstract; §1 extended Milnor conjecture。研究 Hurwitz ζ 特殊值的 Milnor 猜想及其数域推广，主要提出与归一化奇 ζ 值相关的线性独立性猜想。
 - 条件或证据待查。关键算术独立性为猜想性输入，并非已给出的通用构造。 核对问题和猜想；未审计后续数域空间结果，且不将猜想转写为工具结论。
+- 第六批定向筛选。citation。The paper formulates a number-field Chowla--Milnor extension/conjectural linear-independence framework, not a verified finite construction or approximation certificate. 定位。Abstract and Section 1 extended Milnor conjecture。全卷 13 页。 后续条件。Proof of the stated arithmetic-independence conjectures or a finite explicit special-value relation with certified coefficients.
 
 ## EXT-0163 · A partial result towards the Chowla--Milnor conjecture
 
 - 原件。arXiv:2505.12687v3。PDF 物理页 1, 2。SHA-256 14f2e4f5970a04e4abe213a132bdd51f3388cc14df2ed7c7ea4aae062e2eac27。
 - Hurwitz ζ 反对称部分线性独立性。Abstract; Theorem 1.2; definitions (1.2)。声称固定 k≥2 时，q→∞ 的 Hurwitz ζ 反对称部分张成维数至少为 (c-o(1))log q，并以新有理函数构造线性形式。
 - 条件或证据待查。维数下界依赖 Ball–Rivoal 型线性形式的整性、渐近和独立性判据。 核对主结论、已知 CDT 特例和空间分解；未逐项复核新有理函数及渐近/分母论证。
+- 第六批定向筛选。candidate。The claimed logarithmic dimension lower bound for antisymmetric Hurwitz-zeta components relies on new Ball--Rivoal rational functions, integrality, asymptotics and a linear-independence criterion not yet reconstructed here. 定位。Abstract, definitions (1.2), Theorem 1.2。全卷 41 页。 后续条件。Read and verify the rational-function construction, denominator ledger and asymptotic/nonvanishing step used by Theorem 1.2.
 
 ## EXT-0164 · A determinant formula for multiple harmonic sums and their linear independence
 
@@ -910,6 +975,7 @@
 - Hankel 行列式与 ζ 线性独立。Abstract; Theorem 1.5 background。声称将 Fauzan 的 Hankel 行列式法与同时 ζ 逼近结合，证明 1,ζ(3),ζ(4) 的 Q 线性独立；引言解释 p-adic 行列式增益。
 - 条件或证据待查。主结论取决于 Fauzan 方法的行列式 p-adic 估值及所选同时逼近的解析界。 仅核对引言和所依赖的近期结果；未逐条审计 Fauzan 预印本及本文的行列式/解析界。
 - 相关入口。[math-openai-arithmetic-determinants](../../../math-openai-arithmetic-determinants/SKILL.md)。
+- 第六批定向筛选。hold。The preprint's 1,zeta(3),zeta(4) independence claim depends on the external Fauzan Hankel p-adic determinant gain and simultaneous-approximation analytic bounds; no complete dependency chain was available. 定位。Abstract and Theorem 1.5 background。全卷 26 页。 后续条件。Obtain and verify Fauzan's determinant valuation input and the paper's simultaneous approximation/error and integrality estimates.
 
 ## EXT-0166 · On the linear independence of $p$-adic polygamma values
 
@@ -923,6 +989,7 @@
 - 原件。arXiv:2511.02843v3。PDF 物理页 1, 2。SHA-256 f22792d88d59961a6f693dee1ee09d1c268a5ba80fef003863d3c2a5f8238c53。
 - 奇 ζ/Dirichlet beta 比值猜想。Abstract; Introduction。汇集积分表示并提出关于 ζ(2n+1)/π^(2n+1) 与 β(2n)/π^(2n) 的线性独立性猜想；未给出所述无理性的证明。
 - 条件或证据待查。中心断言是猜想，积分变换不能单独提供算术结论。 核对摘要和引言；未把启发性表示或猜想纳入可部署工具。
+- 第六批定向筛选。citation。The source collects integral representations and states conjectural arithmetic properties of odd-zeta/pi and beta/pi ratios; it supplies no deployed irrationality proof. 定位。Abstract and Introduction。全卷 15 页。 后续条件。A nonzero integer linear-form construction with denominator and remainder estimates for a specified ratio.
 
 ## EXT-0168 · One of the Odd Zeta Values from $ζ(5)$ to $ζ(25)$ Is Irrational. By Elementary Means
 
@@ -937,6 +1004,7 @@
 - 原件。arXiv:2507.19502v1。PDF 物理页 1, 2。SHA-256 5792cf9845ccc0e09b81c485112af34fd4161793ab1aecc81059dffabe022a87。
 - 连续调和数 Euler 和。Abstract; §1 equations (4)–(6)。计算四个连续调和数乘积的级数并表示为 ζ 值组合，讨论其与 Furdui–Sîntămărian 猜想及 ζ 独立性的关系。
 - 版本与引用。闭式求和依赖后文的级数变换；关于 ζ 独立性的推论是条件性解释。 核对目标级数和已知低阶比较式；未审计闭式推导。
+- 第六批定向筛选。candidate。The four-consecutive-harmonic Euler sum is a plausible exact symbolic-summation component, but its claimed zeta-value closed form uses later transformations not checked here. 定位。Abstract and Section 1 equations (4)--(6)。全卷 10 页。 后续条件。Read and verify the coefficient/extraction or multiple-sum reduction proving equations (4)--(6), then isolate a finite summation identity.
 
 ## EXT-0170 · Irrationalité de valeurs de zêta (d'après Apéry, Rivoal, ...)
 
@@ -950,6 +1018,7 @@
 - 原件。arXiv:2404.08025v1。PDF 物理页 1, 2。SHA-256 cf8a36086bdfa251fe9abc5fd88020c3570cb3922e4ae98ac24de53d47001e2c。
 - q-Hurwitz ζ 与 Stieltjes 常数。Abstract; §1 Laurent expansion。研究 q-Hurwitz ζ 在 s=1 的 Laurent 系数，给出前两项闭式并讨论有理自变量 γ₀(q,x) 的超越/线性独立猜想。
 - 条件或证据待查。超越性陈述依赖 digamma 反射和 Bernoulli 多项式恒等式及外部超越论；部分内容为猜想。 核对对象和摘要主张；未审计 q-定义、闭式推导或任何超越性前提。
+- 第六批定向筛选。citation。The q-generalized Stieltjes paper mixes stated Laurent coefficient formulas with conjectural transcendence/linear-independence claims and no verified transfer to the current gamma workflow. 定位。Abstract and Section 1 Laurent expansion。全卷 15 页。 后续条件。A checked q-Hurwitz definition, closed-form derivation and an independent arithmetic theorem for the selected rational q,x.
 
 ## EXT-0172 · Infinitely many odd zeta values are irrational. By elementary means
 
@@ -964,12 +1033,14 @@
 - 原件。arXiv:0705.1430v1。PDF 物理页 1, 2。SHA-256 d993101ce5a7a4636193d62c4c3cfd800d7e1474058bea64d0788968ac12ed0a。
 - p-adic Hurwitz ζ 无理性。pp.1–2 extraction garbled。文献身份显示为 Pierre Bel 的 p-adic Hurwitz ζ 与无理性研究；现有文本提取损坏，无法可靠定位定理或公式。
 - 条件或证据待查。未能从可读文本确认。 需以原始 PDF 的可视化/OCR 核对首页、主定理和证明依赖后才可蒸馏。
+- 第六批定向筛选。hold。The raw PDF is present and hash/page count match, but its extracted theorem/formula text is garbled; no precise p-adic Hurwitz-zeta claim can safely be routed. 定位。physical PDF first pages; text extraction unreadable。全卷 23 页。 后续条件。Visual/OCR reconstruction of the theorem and proof pages, including all p-adic convergence and integrality hypotheses.
 
 ## EXT-0174 · On motivic multiple $t$ values, Saha's basis conjecture, and generators of alternating MZV's
 
 - 原件。arXiv:2112.14613v1。PDF 物理页 1, 2。SHA-256 137e4bf5d62e17da99b125956549b41d60905bbdedbad741dabafeeec38480fd。
 - motivic multiple t 值。Abstract; Theorem 1.1。在 motivic 层评价正则化 t*({2}^a,1,{2}^b)，并声称 Saha 基线性独立及 Hoffman one-two 元给出基。
 - 条件或证据待查。依赖 motivic coaction/derivations、正则化与分布关系。 核对摘要、定义和首个评价式；未审计 motivic 框架、coaction 计算或基定理。
+- 第六批定向筛选。candidate。Motivic multiple-t evaluations and the Saha-basis claim require motivic coaction, derivations, regularization and distribution relations not represented by a finite classical-zeta interface. 定位。Abstract and Theorem 1.1。全卷 53 页。 后续条件。A supplied motivic period/coaction data model and checked derivation computation for the claimed basis theorem.
 
 ## EXT-0175 · A Linear independence result for $p$-adic $L$-values
 
@@ -1000,12 +1071,14 @@
 - 保守矩阵场与 Apéry 型逼近。§§2–3; Theorems 6.4, 6.16, 7.1; Appendix C。把 Apéry 型递推嵌入有理保守矩阵场，利用对偶收敛与路径分解构造逼近；声称 1,ζ(3),ζ(4) 线性独立、改进 ζ(2),ζ(3) 无理度界及 M≥7165 的 Gregory 加权级数无理。
 - 条件或证据待查。关键数值结论依赖外置 supplementary exact matrices、公共因子密度证书、根隔离/区间算术和 Lean 文件；PDF 内仅指向这些材料。 已审查定义、一般对偶收敛证明和三项应用的陈述/依赖；外置证书及每个计算依赖均未逐条取得和核验。
 - 相关入口。[math-gamma-meijer-cmf](../../../math-gamma-meijer-cmf/SKILL.md)。
+- 第六批定向筛选。candidate。The conservative matrix-field framework is adjacent to the installed gamma Meijer-field skill, but the cited zeta/Gregory applications require external exact matrices, gcd-density certificates, root isolation and Lean artifacts not bundled in the PDF. 定位。Sections 2--3, Theorems 6.4, 6.16, 7.1 and Appendix C。全卷 73 页。 后续条件。Retrieve and verify the external supplementary matrices/certificates for a selected theorem before extending an installed route.
 
 ## EXT-0179 · On Drinfeld modular forms of higher rank VII: Expansions at the boundary
 
 - 原件。arXiv:2311.02131v2。PDF 物理页 1, 2。SHA-256 00e6d12ad46b69d3f543a37cbf36dd66d515f7be2d91fd8e0dcf342837ac6038。
 - 高秩 Drinfeld 模形式边界展开。Introduction; Theorem 10.3 preview。研究高秩 Drinfeld 模形式在边界的 t/u 展开；判别式沿边界的消失阶由部分 ζ 函数在 1-r 的值给出。
 - 归档定位。依赖 Drinfeld 模形式、理想类和部分 ζ 函数理论。 核对身份与引言主定理预览；不属于当前无理性工具蒸馏范围。
+- 第六批定向筛选。adjacent。Boundary t/u-expansions of higher-rank Drinfeld modular forms and partial-zeta vanishing orders are outside the installed function-field period-transcendence input contract. 定位。Introduction and Theorem 10.3 preview。全卷 66 页。 后续条件。A dedicated Drinfeld modular-form boundary-expansion representation and ideal-class/partial-zeta data model.
 
 ## EXT-0180 · Distribution of irrational zeta values
 
@@ -1020,6 +1093,7 @@
 - 原件。arXiv:2603.10376v1。PDF 物理页 1, 3。SHA-256 3ab43a31f6d49436775d131f7f278912966e8149106911f39ddbd8f796d723ee。
 - positive-characteristic multiple Eisenstein series。Abstract; §1.2 and Theorem 1.4。For Drinfeld-space multiple Eisenstein series over F_q, the paper proves linear-independence results, embeds the multiple-zeta q-shuffle algebra into a rank inverse limit, and identifies the Eisenstein q-shuffle algebra with a tensor square; this yields associativity.
 - 版本与引用。Depends on the positive-characteristic q-shuffle construction and t-expansions, not on a characteristic-zero Euler-constant linear form. Only the stated framework and the opening theorem were checked; no transfer to classical zeta or gamma is justified.
+- 第六批定向筛选。adjacent。Positive-characteristic multiple Eisenstein q-shuffle algebra concerns inverse-limit and t-expansion constructions, not the characteristic-zero integer linear-form machinery in scope. 定位。Abstract, Section 1.2 and Theorem 1.4。全卷 25 页。 后续条件。A finite positive-characteristic q-shuffle/t-expansion interface and verification of Theorem 1.4's embeddings.
 
 ## EXT-0182 · The Riemann-zeta function on vertical arithmetic progressions
 
@@ -1041,12 +1115,14 @@
 - 原件。arXiv:2111.12662v4。PDF 物理页 1。SHA-256 a4bff0e1a6696050a900f5c273708b6dc21fbf869e9e1a6644d3fc26be63d17e。
 - Chebyshev bias for sums of two squares。Abstract and §1.1。Studies residue-class bias of integers representable as two squares; under GRH and a Chowla-type nonvanishing assumption it obtains an unusually strong natural-density bias.
 - 版本与引用。Conditional prime-distribution argument, unrelated to an irrationality certificate for gamma. Opening statement only; no detailed proof review.
+- 第六批定向筛选。hold。The two-squares bias theorem is conditional on GRH plus the paper's Chowla-type/nonvanishing input and does not supply a linear-form or irrationality method. 定位。Abstract and conditional bias setup (physical p.1)。全卷 25 页。 后续条件。A target-specific unconditional replacement for the zero/nonvanishing hypotheses would be needed.
 
 ## EXT-0185 · The Distribution of k-Free Effective Divisors and the Summatory Totient Function in Function Fields
 
 - 原件。arXiv:2207.00047v3。PDF 物理页 1。SHA-256 7cb05c3555732b84e7446e119de5ca30ca744a2ec07c7c05e364a8f7b75c735c。
 - function-field k-free and totient error distributions。Abstract and introduction。Expresses function-field summatory k-free/totient errors through zeta zeros and, under linear independence, constructs limiting distributions and sign frequencies; it also studies hyperelliptic-family averages.
 - 版本与引用。Requires the function-field zeta-zero framework and LI for distribution statements. No classical-number-field or gamma transfer checked.
+- 第六批定向筛选。hold。The k-free divisor/totient error distributions are function-field zeta-zero constructions with linear-independence premises, not a transfer to classical irrationality tools. 定位。Abstract and introduction statement (physical p.1)。全卷 37 页。 后续条件。Specify a finite-curve zeta input and verify the source's zero/LI assumptions for it.
 
 ## EXT-0186 · Irrationality of values of L-functions of Dirichlet characters
 
@@ -1060,12 +1136,14 @@
 - 原件。arXiv:1808.09944v1。PDF 物理页 1。SHA-256 961dce64060f06d73f98c068d02ba0d032fe0211df77826f2f4be5dc57a9a929。
 - cyclotomic logarithm linear relations。Abstract and introduction。Disproves Livingston's algebraic-linear-independence conjecture for composite q>=4 and proves the stated conjecture for prime q>=3, in the setting motivated by nonvanishing of periodic L-series.
 - 版本与引用。The conclusion concerns a specific cyclotomic logarithm family and does not furnish a general logarithmic-form lower bound. No proof-level audit beyond the opening theorem statement.
+- 第六批定向筛选。adjacent。The prime/composite dichotomy for a specific family of cyclotomic logarithms is adjacent to logarithmic independence, but it is not a general lower-bound mechanism. 定位。Abstract and opening theorem statement (physical p.1)。全卷 14 页。 后续条件。A concrete target cyclotomic family and proof-level review of the exact relation classification are required.
 
 ## EXT-0188 · The summatory function of the Möbius function in function fields
 
 - 原件。arXiv:1008.4711v2。PDF 物理页 1。SHA-256 4f23c8e4624f5be7863a97a6b88c9577b618ff439f65c01b815bb39330c4e6ef。
 - function-field Möbius summatory growth。Abstract and introduction。Relates the function-field summatory Möbius function to curve zeta zeros, gives a sharp conditional bound under zero linear independence, and studies hyperelliptic-family averages through symplectic characteristic polynomials.
 - 版本与引用。Uses the finite-field curve setting and zero-independence/equidistribution inputs. Not reviewed as a reusable irrationality method.
+- 第六批定向筛选。hold。The function-field Mobius summatory bound depends on curve zeta zeros, their independence condition, and hyperelliptic averaging machinery. 定位。Abstract and zero-independence setup (physical p.1)。全卷 16 页。 后续条件。A concrete curve and a verified zero/equidistribution input are needed.
 
 ## EXT-0189 · Padé approximations for products of functions
 
@@ -1079,6 +1157,7 @@
 - 原件。arXiv:2507.13504v2。PDF 物理页 1。SHA-256 4a5857b89f86b27601e96ae7e59ffc58fd9f107c4f3b410b2da592e52b59d136。
 - correlated prime-counting error distributions。Abstract and contents。Analyzes correlations among normalized weighted prime-counting errors; persistent inequalities are related to RH, and under RH+LI it calculates sign-pattern logarithmic densities.
 - 版本与引用。The density calculations use RH and LI and are unrelated to Diophantine linear forms. Opening statement checked only.
+- 第六批定向筛选。hold。Correlation and sign-density claims for weighted prime errors require RH/LI and are analytic prime-race results, not arithmetic approximation certificates. 定位。Abstract (physical p.1)。全卷 69 页。 后续条件。A separately justified RH/LI model and a target use for the logarithmic densities would be required.
 
 ## EXT-0191 · The threshold for linear independence of multiple zeta values in positive characteristic
 
@@ -1092,12 +1171,15 @@
 - 原件。arXiv:2609.37459v2。PDF 物理页 1, 2。SHA-256 f502565f4fa50a4fd7b8a6a06c429209926adc246151130f8bd0769533b2d3ec。
 - pi irrationality-measure integral family。Status summary and Theorem 1。The preprint parameterizes a complex-integral family of linear forms in 1 and pi, derives a Machin admissibility condition, and reports exact/computational laws including a finite search supporting Bai's parameter point.
 - 条件或证据待查。The source itself labels part of the claimed optimum only computational evidence and explicitly notes no human refereeing; any global-optimality use requires independent exhaustive verification. No deployment: reported numerical range, formal publication status, and all divisibility/asymptotic details remain unverified.
+- 第六批定向筛选。adopt。The unrefereed preprint explicitly labels the Machin configuration equation PROVED; the local proof was read and its P<100 primitive plus-sign list was independently reproduced by exact enumeration. The numerical optimum is excluded. 定位。Theorem 1 admissibility proof (physical pp.1--2); finite configuration list (p.2)。全卷 11 页。 后续条件。For a full irrationality-measure claim, separately prove contour/saddle decay, divisibility and every asymptotic input; do not use the source's VERIFIED/CONJECTURE optimum statements as proofs.
+- 已采用方法。物理页 1, 2。Exact integer test and finite enumeration for the source's contour configuration to produce a 1,pi linear-form angle: P^2-(u^2+v^2)=+/-2Pv with P,v>0. It does not establish contour decay, integrality, an irrationality measure, or any numerical/global optimum. [方法说明](../../../math-openai-arithmetic-determinants/references/supp-06-machin-configuration.md)。
 
 ## EXT-0193 · On the Z_p-ranks of tamely ramified Iwasawa modules
 
 - 原件。arXiv:1103.3916v2。PDF 物理页 1。SHA-256 23845188535b7d693d917519446f32dc33b0c753e29c695372304b5405c2cd69。
 - Iwasawa modules and p-adic logarithms。Abstract and introduction。Computes Z_p-ranks of certain S-ramified Iwasawa modules over Q or imaginary quadratic fields, invoking Brumer's p-adic Baker theorem on algebraic logarithms.
 - 版本与引用。The application is an Iwasawa-module rank calculation, not a reusable Euler-constant approximation. No audit of the cited p-adic Baker input.
+- 第六批定向筛选。adjacent。The p-adic Baker theorem is only an imported ingredient in a tamely ramified Iwasawa-module rank calculation, with no extracted p-adic linear-form contract. 定位。Abstract (physical p.1)。全卷 14 页。 后续条件。Read the cited Brumer theorem and formulate a finite, target-specific p-adic input before reuse.
 
 ## EXT-0194 · Smooth integers and de Bruijn's approximation Lambda
 
@@ -1112,24 +1194,28 @@
 - 原件。arXiv:1909.03975v2。PDF 物理页 1。SHA-256 a6e81e2e73eb553f9fb8091ab21c5be332c543c5f35474ff5cce7279a6333fd6。
 - multiway prime number races。Abstract and §1。Under GRH and a weak zero-linear-independence condition, proves existence of logarithmic densities for simultaneous orderings among arbitrarily many residue classes.
 - 版本与引用。Conditional prime-race distribution theorem; no Diophantine-approximation component. Opening result only.
+- 第六批定向筛选。hold。Multiway prime-race logarithmic densities remain conditional on GRH and weak zero linear independence. 定位。Abstract and introduction (physical p.1)。全卷 13 页。 后续条件。Supply the required analytic hypotheses and a target application beyond prime-race ordering.
 
 ## EXT-0196 · Highly biased prime number races
 
 - 原件。arXiv:1210.6946v2。PDF 物理页 1。SHA-256 7bc4fe238384f05129f1f47ee0ae7a970f0f5986a398095b4038b0322e1453be。
 - extreme Chebyshev bias。Abstract and introduction。Shows conditionally that prime-race densities can approach one and gives criteria for high bias, with stronger refinements under a linear-independence hypothesis.
 - 版本与引用。Main result depends on GRH and a zero-multiplicity hypothesis for a Dedekind zeta function. No relevance beyond contextual analytic-number-theory background.
+- 第六批定向筛选。hold。Highly biased prime races rely on GRH and zero-multiplicity/LI conditions and are only contextual analytic-number-theory material here. 定位。Abstract (physical p.1)。全卷 28 页。 后续条件。A proven target-specific zero hypothesis and a non-race transfer are needed.
 
 ## EXT-0197 · Primes in prime number races
 
 - 原件。arXiv:1809.03033v2。PDF 物理页 1。SHA-256 6a94ce3930cf74c1660fd40dd2aa30870d785fe974fbec9a12e398f2ee6e1808。
 - prime-restricted prime races。Abstract and introduction。Assuming RH and LI, transfers Rubinstein--Sarnak race densities to the subsequence of primes and treats Mertens and Zhang races, including the e^gamma log x normalization.
 - 版本与引用。Requires RH+LI; gamma is only part of Mertens-race normalization. No independent verification of conditional transfer.
+- 第六批定向筛选。citation。The e^gamma log x normalization occurs only inside an RH+LI prime-race transfer to prime arguments; it is a contextual appearance of gamma, not a gamma method. 定位。Abstract (physical p.1)。全卷 14 页。 后续条件。No adoption unless a proposed task actually studies the conditional prime-race normalization.
 
 ## EXT-0198 · The distribution of k-free numbers
 
 - 原件。arXiv:1912.04972v2。PDF 物理页 1。SHA-256 cdb1ed11a7a3250896dfe24555cfe740e23d6d6b109da1b7f439d5f0dd74e98a。
 - k-free error terms and zero independence。Abstract and introduction。Uses weak linear independence of selected zeta zeros to make omega bounds for normalized k-free error terms effective and supplies finite-range numerical bounds for k=2,3.
 - 版本与引用。The oscillation statements rely on the established zero-independence computation and the finite bounds are range-specific. No computational certificate or numerical data re-run.
+- 第六批定向筛选。candidate。The paper may support a finite certified zero-independence/omega-bound checker, but this copy contains no extracted zero data, interval bounds, or reproduced numerical certificate. 定位。Abstract and stated numerical zero-independence program (physical p.1)。全卷 22 页。 后续条件。Obtain the authors' primary numerical data and derive an interval-certified zero-independence contract.
 
 ## EXT-0199 · On the Connection Between Irrationality Measures and Polynomial Continued Fractions
 
@@ -1144,6 +1230,7 @@
 - 原件。arXiv:1710.00088v2。PDF 物理页 1。SHA-256 3be2d074e7bd8d3add5ff2952b9b5722951c344de382b7e26bcd264db93369f4。
 - inclusive prime races under weak LI。Abstract and introduction。Under GRH plus a weaker zero-linear-independence hypothesis, proves inclusive prime races and full support of the limiting distribution.
 - 版本与引用。Conditional explicit-formula/equidistribution method; no irrationality construction. Opening result only.
+- 第六批定向筛选。hold。Inclusive race and full-support statements are conditional explicit-formula/equidistribution results under GRH plus weak LI. 定位。Abstract and introductory race definition (physical p.1)。全卷 44 页。 后续条件。A target analytic L-function with checked hypotheses and an application requiring its limiting support are needed.
 
 ## EXT-0201 · Apéry's theorem and problems for the values of Riemann's zeta function and their q-analogues
 
@@ -1157,24 +1244,28 @@
 - 原件。arXiv:math/0410082v2。PDF 物理页 1。SHA-256 4ccecfbf8b995497dab03947150c2b6065831aaef4a278533db7a2845bddccbf。
 - rational linear forms in logarithms。Title/first physical page。The supplied extraction is character-encoding-corrupted, although it identifies the arXiv version; no theorem content can be safely paraphrased from this copy.
 - 条件或证据待查。Unknown until the original French PDF is visually/OCR verified. Identity follows the supplied inventory, not readable theorem text; do not distill from the corrupted extraction.
+- 第六批定向筛选。hold。The source identity and arXiv version can be read, but theorem statements and hypotheses cannot be safely recovered from this text layer. 定位。Physical pp.1--4 are character-encoding-corrupted in the local PDF extraction。全卷 36 页。 后续条件。Obtain a legible primary PDF or verify visual/OCR theorem text before distillation.
 
 ## EXT-0203 · Chebyshev's bias for analytic L-functions
 
 - 原件。arXiv:1706.06394v4。PDF 物理页 1。SHA-256 abf64b55dc6935ab4e0f593e582562795d94b23b0327cf5af1839677637b7971。
 - analytic-L-function Chebyshev bias。Abstract and introduction。Provides a general framework for Chebyshev bias attached to analytic L-functions and weakens some previous GRH/zero-independence requirements for existence of logarithmic densities.
 - 版本与引用。Conditional/analytic L-function setting rather than a rational linear-form method. Only general theorem statement examined.
+- 第六批定向筛选。hold。The analytic-L-function Chebyshev-bias framework remains a conditional prime-race framework and has no isolated nonduplicate irrationality component. 定位。Abstract (physical p.1)。全卷 32 页。 后续条件。Identify a target analytic L-function and independently validate the framework's analytic and zero hypotheses.
 
 ## EXT-0204 · Voronoi summation formulas, oscillations of Riesz sums, and Ramanujan-Guinand and Cohen type identities
 
 - 原件。arXiv:2410.04506v1。PDF 物理页 1。SHA-256 47a22d5dad4c734e62a3e430c3f95422f46a2394b1e16e55f6e22625306815fd。
 - Voronoi formulas and Riesz-sum oscillations。Abstract and contents。Derives summation formulas for Liouville, Möbius and divisor-square functions, related identities, and conditional oscillation results for Riesz sums.
 - 版本与引用。Several oscillation results assume RH, simple zeros, LI and a Gonek--Hejhal-type condition. No detailed formula/proof audit.
+- 第六批定向筛选。hold。The Voronoi/Riesz formulas and oscillation conclusions retain zero-sum, test-function, and RH/simple-zero/LI/Gonek--Hejhal dependencies; Euler's constant occurs only in a classical divisor formula. 定位。physical pp. 1--3, equations (1.1)--(1.9)。全卷 45 页。 后续条件。Supply a fully specified test-function class and independently verify every contour shift, zero sum, and conditional hypothesis before extracting a transform tool.
 
 ## EXT-0206 · Density of rational points on commutative group varieties and small transcendence degree (long version)
 
 - 原件。arXiv:1011.3368v5。PDF 物理页 1, 8, 9, 10。SHA-256 fbaddc5c6e38bdb5ac80ab56ec3e24b94385166d1b2deabdcbcacc77adf44737。
 - transcendence via algebraic groups and Weil restriction。Abstract; Theorems 1.1.1--1.1.3。Develops a descent/Weil-restriction approach linking algebraic-group transcendence statements to rational-point density, and states applications to algebraic independence and logarithms through Schneider, Baker and analytic-subgroup inputs.
 - 版本与引用。The quoted theorems require detailed group-variety, rank and field hypotheses; the work is not a plug-in bound for a given Euler-constant form. Only introductory criteria checked; the long technical descent proof and applicability conditions were not audited.
+- 第六批定向筛选。hold。The rational-point density/transcendence route depends on commutative group varieties, Weil restriction, ranks, and analytic-subgroup inputs with no finite caller contract. 定位。physical pp. 1, 8--10; Theorems 1.1.1--1.1.3。全卷 106 页。 后续条件。Fix a group-variety/field/rank data model and verify the descent and density hypotheses before a reusable interface.
 
 ## EXT-0207 · Ranks of matrices of logarithms of algebraic numbers I: the theorems of Baker and Waldschmidt–Masser
 
@@ -1182,6 +1273,7 @@
 - algebraic logarithms and matrix ranks。Abstract; Theorems 1.1–1.2 on p. 2。对数代数数的 Q-线性无关可由 Baker 定理提升为代数系数线性无关；其余矩阵秩结论是结构猜想及已知下界的综述。
 - 版本与引用。关键断言依赖经典 Baker 与 Waldschmidt–Masser 定理；本文为说明性整理，未给出可直接接到 γ 整化的线性形式。 未逐章复核 Waldschmidt–Masser 证明；不能据此给出 γ 的 Baker 型有效下界。
 - 相关入口。[math-sondow-log-fractional-certificate](../../../math-sondow-log-fractional-certificate/SKILL.md)。
+- 第六批定向筛选。existing。Its Baker linear-independence statement is already covered by the existing integer-linear-form/logarithmic-height route; the remaining structural-rank material is conjectural or expository and adds no validated input interface. 定位。physical pp. 1--3; Theorems 1.1--1.2 and 1.6。全卷 45 页。 后续条件。Use math-integer-linear-form-rates only after independent exact logarithm, height, and nonzero-linear-form data are supplied.
 
 ## EXT-0208 · Irrationality of ζ_q(1) and ζ_q(2)
 
@@ -1243,6 +1335,8 @@
 - 原件。arXiv:2411.07564v2 (title page)。PDF 物理页 1, 2, 4。SHA-256 fcbcd8b8abce402f98aa273ff53ee0cbe51fb2fb2db5ae99381b792ba588f372。
 - Bessel cross-products and plate spectra。Theorem 1.1; Key Identity 2.5。用 Bessel 交叉积的递推及离散 Riccati 恒等式排除三个不同指标的同时零点，从而约束夹持圆板特征值重数。
 - 条件或证据待查。结论专用于圆板谱的 Bessel 交叉积和指标条件；与 E-函数值的超越性背景不同。 未审计后续零点比较证明，且没有 γ 的逼近、整化或线性形式接口。
+- 第六批定向筛选。adopt。The preprint's actual pp.4--6 proof gives a compact independently reusable algebraic Riccati-to-cross-product recurrence with explicit positive-real denominator gates; no installed Bessel-cross-product route duplicates it. 定位。physical pp. 4--6; Key Identity 2.5, Theorem 3.1, Proposition 4.1。全卷 11 页。 后续条件。Caller must provide Bessel recurrence data, positive-real/index conditions, and nonzero denominators; any common-zero or spectral conclusion needs separate elimination/transcendence evidence.
+- 已采用方法。物理页 4, 5, 6。Positive-real rational-index Bessel cross-product Riccati and second-order recurrence, conditional on supplied nonzero denominators and source recurrences. [方法说明](../../../math-bessel-cross-product-recurrence/references/supp07-bessel-cross-product.md)。
 
 ## EXT-0217 · On Siegel’s problem for E-functions
 
@@ -1250,6 +1344,7 @@
 - E-functions, G-values and gamma constants。Theorem 1; Proposition 1。证明“所有相关 E-函数都属 Siegel 指定超几何类”的正面答案会迫使 G-值环落入由 Gamma、对数和多对数值生成的环；同时明确 Euler 常数在该环描述中出现。
 - 版本与引用。主结论是二择一的结构性条件结论，依赖渐近展开与超几何 E-函数分析，并非 γ 无理性证明。 未核对第 3–7 节的比较证明；不能从该条件性结论推断 γ 的代数性质。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。existing。The conditional E/G-function gate is already documented by math-euler-constant-irrationality; this paper supplies no unconditional gamma arithmetic conclusion or separate executable certificate. 定位。physical pp. 1, 3, 5; Theorem 1 and Proposition 1。全卷 27 页。 后续条件。Apply the existing E/G admission route only after the source's hypergeometric/Siegel classification and asymptotic hypotheses have been certified.
 
 ## EXT-0218 · On the singularities of differential equations satisfied by E-functions
 
@@ -1265,6 +1360,7 @@
 - 原件。arXiv:2105.05809v1 (title page)。PDF 物理页 1, 2, 3, 4, 35。SHA-256 252a98c6824918fc1778eebdab9c0bf38527652e63330b79dbeed587c7d4ec78。
 - transcendental number theory exposition。Abstract and contents。这是从初等指数到超越数论前沿的长篇教材式导览，作者明确说明基本不涵盖有效理论以及 E/G-函数理论。
 - 版本与引用。作为背景叙述，不提供本批可独立核验的 γ 构件。 仅核对导言与目录和一处正文；未将全书中任一历史性论断作为已验定理使用。
+- 第六批定向筛选。citation。This is a broad expository text and explicitly does not furnish an effective or E/G-function tool for the current corpus. 定位。physical pp. 1--4, 35; abstract and contents。全卷 592 页。 后续条件。Cite only for background; select a primary theorem source for any future transfer.
 
 ## EXT-0220 · Representability of G-functions as rational functions in hypergeometric series
 
@@ -1278,12 +1374,14 @@
 - 原件。arXiv:2004.11774v3 (title page)。PDF 物理页 1, 12。SHA-256 cbfb74cc1e19e6e4d831b15799060c1710745d56c427c51117a9a4677c3dc068。
 - hyperbolic prime geodesics and holonomy。Abstract; trace-formula computation in Section 2。对紧双曲三维流形按长度与 holonomy 的收缩区间计数原始闭测地线，并给出有效等分布。
 - 归档定位。依赖 PSL₂(C) 非球面迹公式和谱侧估计，与无理性或 E/G-函数无接口。 只核对身份和代表性公式推导；不对其谱论结论作技能蒸馏。
+- 第六批定向筛选。adjacent。The ambient prime-geodesic theorem is a PSL2(C) trace-formula/spectral estimate with no overlap with the available irrationality or finite-certificate routes. 定位。physical pp. 1, 12; abstract and Section 2 trace-formula setup。全卷 39 页。 后续条件。A separate hyperbolic spectral-geometry workflow would need the trace formula and spectral input encoded.
 
 ## EXT-0222 · Application of abelian holonomy formalism to the elementary theory of numbers
 
 - 原件。arXiv:1005.4299v4 (title page)。PDF 物理页 1。SHA-256 3ed3ce57dbd79f89df036fdd7af8262e9084dca68875604dd3ac56c1bf445104。
 - physics holonomy analogies。Abstract。以二维共形场论的 Abelian holonomy 形式主义讨论 zeta 函数、素数与拓扑类比，并给出关于 RH 的物理性表述。
 - 归档定位。没有在已核页中给出可核验的数论定理或对 γ 的严格构造。 仅作身份与范围筛查；未采用其中的物理类比或 RH 解释。
+- 第六批定向筛选。adjacent。The paper is a physics-holonomy analogy for zeta/RH rather than a stated arithmetic theorem or a certificate-producing method. 定位。physical p. 1; abstract。全卷 50 页。 后续条件。Require a rigorous primary number-theory theorem and explicit hypotheses before any adoption.
 
 ## EXT-0223 · On the Algebraic Independence of E- and G-Functions, I: A p-adic Criterion
 
@@ -1313,18 +1411,21 @@
 - 原件。arXiv:0911.0329v2 (title page)。PDF 物理页 1, 3。SHA-256 98598c0be5ab11908ea62d8c0ea6d6bcf24a8f51fe8780d7815cecc926d8717c。
 - hyperbolic geodesic holonomy distribution。Abstract; Theorem 1。在不可约紧格商的双曲平面乘积上，沿单因子传播的闭测地线 holonomy 随长度趋于无穷时等分布，并给出素测地线计数误差。
 - 归档定位。依赖迹公式和谱隙，和无理性、特殊函数逼近无关。 未阅读完整谱论证明；仅用于排除出本数学工具范围。
+- 第六批定向筛选。adjacent。Closed-geodesic holonomy equidistribution relies on a product-hyperbolic trace formula and spectral gap, outside active skills and the irrationality scope. 定位。physical pp. 1, 3; abstract and Theorem 1。全卷 42 页。 后续条件。A future geometric-dynamics skill would need exact lattice, trace-formula, and gap assumptions.
 
 ## EXT-0227 · The Gamma conjecture for G-functions
 
 - 原件。arXiv:1912.00140v1 (title page)。PDF 物理页 1。SHA-256 da97086d8e6756e59d7effc9ee715e4e72906a36e5939c9805c94516c0bb2ab1。
 - G-functions, mirror symmetry and Gamma conjecture。Abstract。提出带极大幂零单值性的特殊 G-函数的 Gamma 猜想，并以 Calabi–Yau 镜像对称和数值例子支持。
 - 版本与引用。核心为猜想与 Mathematica 数值证据，不是可无条件调用的定理。 未把任何数值例子或猜想性推论用于 γ 或其他无理性结论。
+- 第六批定向筛选。hold。The Gamma conjecture for G-functions is conjectural and supported by mirror-symmetry/numerical examples, not an unconditional callable procedure. 定位。physical p. 1; abstract。全卷 14 页。 后续条件。Separate any proved special case with its exact G-function and monodromy hypotheses from the conjectural statement.
 
 ## EXT-0228 · Bias in the distribution of holonomy on compact hyperbolic 3-manifolds
 
 - 原件。arXiv:2206.14671v1 (title page)。PDF 物理页 1, 2。SHA-256 34254c4c3410f3f35ca8a561d60a30e6d1319a113b105fe3880b396b1c19de4c。
 - hyperbolic holonomy bias。Abstract; smoothed-count formula (1)。研究紧双曲三维流形闭测地线平滑 holonomy 计数的次主项偏差及其归一化分布。
 - 归档定位。依赖闭测地线迹公式和谱参数；与当前无理性工具蒸馏无关。 仅核对问题身份和主公式，未作谱论证明审阅。
+- 第六批定向筛选。adjacent。Smoothed holonomy bias on compact hyperbolic 3-manifolds depends on geodesic trace formulae and spectral parameters, not current number-constant tools. 定位。physical pp. 1--2; abstract and smoothed-count formula (1)。全卷 27 页。 后续条件。Need an independently scoped hyperbolic trace-formula interface.
 
 ## EXT-0229 · A purity theorem for Mahler equations
 
@@ -1368,6 +1469,7 @@
 - 原件。arXiv:2208.06338v4（目录记录；首页无版本行）。PDF 物理页 1, 2, 3。SHA-256 954b5f34892e9e0fdafe908ef1212468c3b3718fd66720329a6056b0632072ce。
 - Zilber–Pink / G-functions。Theorem 1.3; §1.A。对定义于 Q 且在 (∞,…,∞) 相交边界的非特殊曲线，证明 Y(1)^n 中余维至少2特殊子簇交有限；方法经 André G-functions 高度界。
 - 条件或证据待查。核心是乘法退化条件下的高度与 Galois-orbit 界，并接 Pila–Zannier 型论证。 代数几何应用，未给出可直接移植至 γ 的近似/分母机制；仅定点核对。
+- 第六批定向筛选。hold。The Zilber--Pink result requires multiplicative degeneration, Andre G-function height bounds, Galois-orbit estimates, and Pila--Zannier counting; none has a current caller contract. 定位。physical pp. 1--3; Theorem 1.3 and Section 1.A。全卷 42 页。 后续条件。Supply explicit modular-curve degeneration and verified height/orbit/counting inputs before routing.
 
 ## EXT-0235 · A Generalized Closed Form of Ramanujan-Type Fourier Cosine Transform via Meijer's G-Function
 
@@ -1382,12 +1484,14 @@
 - 原件。arXiv:2306.13463v2（目录记录；首页无版本行）。PDF 物理页 1, 2, 3。SHA-256 cb47dda3344646885a845eac0cc2181761a35fe8cf285375d56ae206675194e4。
 - large Galois orbits / G-functions。Theorem 1.1; Corollary 1.2。对具有乘法退化的 Hodge-generic A_g 曲线，给出 unlikely-endomorphism 点的判别式–域次数下界，并推出 A_2 的相应 Zilber–Pink 有限性。
 - 条件或证据待查。依赖 André G-functions 方法、半阿贝尔簇刚性统一化以及作者既有 DO21/DO22。 几何高度定理；不含 γ 线性形式或 Padé 分母可复用部分。
+- 第六批定向筛选。hold。The large-Galois-orbit result depends on multiplicative degeneration, sem-abelian uniformization, prior Daw--Orr inputs, and G-function height bounds. 定位。physical pp. 1--3; Theorem 1.1 and Corollary 1.2。全卷 71 页。 后续条件。Build a certified abelian-family and Galois-orbit-height interface before transferring the theorem.
 
 ## EXT-0237 · On the $v$-adic values of $G$-functions
 
 - 原件。arXiv:2510.11806v2（目录记录；首页无版本行）。PDF 物理页 1, 3, 4, 6。SHA-256 f0c5215fdad0df576cebe32a2caa8fe2b1008e49d45f54b4832c156634ac8592。
 - v-adic G-functions / periods。Theorems 1.1–1.3。从一参数主极化阿贝尔簇族构造 G-function 矩阵，其局部值与复/晶体周期相连，并据 v-adic 接近性给高度控制。
 - 条件或证据待查。依赖 André 的周期–G-function 比较与良约化处晶体比较；结论针对特定阿贝尔簇族。 未验证全部局部比较细节；无面向 γ 的函数或有效近似输出。
+- 第六批定向筛选。hold。The v-adic G-function period and height results require a one-parameter principally polarized abelian family, good reduction/comparison data, Hodge genericity, and global nontriviality; the preprint does not provide a finite reusable certificate. 定位。physical pp. 1, 3, 4, 6; Theorems 1.1--1.3。全卷 69 页。 后续条件。Encode the family, analytic radii, reduction, crystalline-period comparison, and global relation conditions before a future adoption.
 
 ## EXT-0238 · Relations algébriques entre valeurs de E-fonctions ou de M-fonctions
 
@@ -1402,6 +1506,7 @@
 - 原件。arXiv:2611.05764v1（目录记录；首页无版本行）。PDF 物理页 1, 2, 3。SHA-256 5eb4e5867a357ecfb0e363b0c4682dea2ab4e8d70006d7182a3964dc57434cdb。
 - Eisenstein-series second moments。Theorems 1.1, 1.2, 1.4。给出不完备 Eisenstein 级数二阶矩的统一误差界，并用于二次型光锥格点与几何计数。
 - 归档定位。依赖谱/Eisenstein 分解；结果的对象是齐性动力系统计数。 与数论常数无理性工具无直接交集；仅核对主定理。
+- 第六批定向筛选。adjacent。Theorem 1.1/1.2/1.4 concerns second moments of incomplete Eisenstein series and homogeneous-dynamics lattice counting, not a constant approximation or a G/E-function arithmetic transfer. 定位。Theorems 1.1, 1.2, 1.4 (physical pp. 1--3)。全卷 12 页。 后续条件。A separately proved reduction from a target Euler-constant linear form to this spectral-counting setting would be required; none is supplied.
 
 ## EXT-0241 · G-functions, motives, and unlikely intersections -- old and new
 
@@ -1409,6 +1514,7 @@
 - G-functions motives survey。§1–§3 survey discussion。综述 G-operators、Picard–Fuchs 起源、特殊值关系与 unlikely intersections 的动机；陈述的几何起源逆命题仍开放。
 - 版本与引用。综述性材料，依赖 Chudnovsky、Bombieri–Dwork、period conjectures 等外部结果。 不是可独立部署的证明；仅作 G-function 适用边界与引文线索。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。citation。This is a survey of G-functions, motives, and unlikely intersections; it gives motivation and bibliographic pointers, not a self-contained deployable arithmetic criterion. 定位。Introduction and survey sections 1--3 (physical pp. 1--9)。全卷 11 页。 后续条件。Use a primary theorem after fixing the particular differential operator and its geometric/arithmetic hypotheses.
 
 ## EXT-0242 · Algebraic Independence Measures for Values of E-functions and M-functions
 
@@ -1447,12 +1553,14 @@
 - 原件。arXiv:1309.2671v2（首页核对）。PDF 物理页 1, 2, 3, 4。SHA-256 121649a6a3d4002e2a07c9e2fed19470957f87f3905858d009611ee3748cd9fc。
 - K3 Mathieu moonshine。Theorem 1.1; Theorem 2.1。讨论 K3 复椭圆亏格与 M24 虚分次模的兼容性，属月光/顶点算子代数主题。
 - 归档定位。依赖模形式、群论与 K3 几何。 与当前无理性/超越工具无关；未作全文审读。
+- 第六批定向筛选。adjacent。Theorem 1.1 and Theorem 2.1 are about K3 elliptic genera and Mathieu moonshine, with no rational-approximation or Euler-constant interface. 定位。Theorems 1.1 and 2.1 (physical pp. 2--8)。全卷 29 页。 后续条件。A concrete scalar identity connecting the K3 modular data to the proposed target would be required.
 
 ## EXT-0247 · Classification of hyperbolic Dehn fillings I
 
 - 原件。arXiv:2208.09911v3（首页核对）。PDF 物理页 1, 2, 3。SHA-256 2e5dd3b17a8177382642a542398a2809437329a6dd45e5b6bfa89915728414a6。
 - hyperbolic Dehn filling。Theorems 1.1, 1.6; contents。研究多尖点双曲3流形 Dehn filling 的体积/复体积与核测地线全纯量，分类问题部分依赖 Zilber–Pink。
 - 归档定位。依赖 Thurston 与 Neumann–Zagier 渐近、holonomy variety。 拓扑几何专题，不形成 E/G-function 无理性方法。
+- 第六批定向筛选。adjacent。Theorems 1.1 and 1.6 classify hyperbolic Dehn fillings through holonomy/volume asymptotics; their geometric hypotheses do not yield a G/E-function or integer-linear-form tool. 定位。Theorems 1.1 and 1.6 (physical pp. 1--4)。全卷 88 页。 后续条件。An explicit proven translation to an arithmetic special-value problem would be needed.
 
 ## EXT-0248 · Effective Brauer-Siegel on some curves in $Y(1)^n$
 
@@ -1466,6 +1574,7 @@
 - 原件。arXiv:1910.11159v1（目录记录；首页无版本行）。PDF 物理页 1, 2, 3。SHA-256 2e3fd9cb0b98959788aec04893f2f9d9af2e2615380fb38d21109aa7ab8d8939。
 - hyperbolic Dehn filling rigidity。Theorem 1.4; Corollary 1.5。对非对称 cusp-shape 的多尖点双曲流形，足够大 filling 的核测地线 holonomy 乘积确定 filling 斜率。
 - 归档定位。依赖双曲 Dehn filling 渐近与 holonomy 代数关系。 与 γ 或 E/G-function 近似无关。
+- 第六批定向筛选。adjacent。Theorem 1.4 and Corollary 1.5 establish rigidity for hyperbolic Dehn filling slopes, not an arithmetic approximation of a named constant. 定位。Theorem 1.4 and Corollary 1.5 (physical pp. 2--4)。全卷 31 页。 后续条件。A separately proved arithmetic specialization is absent.
 
 ## EXT-0250 · On Non-Uniformly Discrete Orbits
 
@@ -1473,6 +1582,7 @@
 - continued fractions / SL2 orbits。Propositions 1.3–1.4; Theorem 1.6。以 ρ+1 的连分数收敛分母量化 Γ_ρ 轨道非一致离散性，并证明 golden-L 轨道可出现三点任意接近。
 - 版本与引用。依赖非交换幺正元与连分数收敛子；误差对象是轨道几何。 虽用连分数但非常数逼近/线性形式框架，不可直接转作 γ 证据。
 - 相关入口。[math-gamma-continued-fraction-recurrence](../../../math-gamma-continued-fraction-recurrence/SKILL.md)。
+- 第六批定向筛选。adjacent。The continued-fraction estimates quantify non-uniform discreteness of SL(2,R) orbit geometry; a continued fraction alone does not provide a rational approximation or linear form for gamma. 定位。Propositions 1.3--1.4 and Theorem 1.6 (physical pp. 2--5)。全卷 11 页。 后续条件。A proved link from its rho-parameter to gamma and a height/error analysis would be required.
 
 ## EXT-0251 · On the values of G-functions
 
@@ -1487,6 +1597,7 @@
 - 原件。arXiv:2510.09603v2（首页核对）。PDF 物理页 1, 4, 5。SHA-256 1f3c9ede599dfb35d95ce192df68e88b60feb020e2b5b435db35fbe1d443e90e。
 - Zilber–Pink / G-functions。Theorems 1.3, 1.6; height-bound discussion。对边界相交模块曲线证明 Y(1)^3 的新 Zilber–Pink 情形；无边界条件时仅对满足 supersingular-reduction 指数限制的模块点给有限性。
 - 条件或证据待查。依赖 G-functions 高度界、Pila–Zannier 与 Masser–Wüstholz 型同源估计。 包含实质性局部约化条件，不能抽象为普适 G-function 工具。
+- 第六批定向筛选。hold。Theorem 1.3/1.6 use Zilber--Pink, G-function height input, and supersingular-reduction restrictions; the article does not expose a general G-function certificate usable for a gamma route. 定位。Theorems 1.3 and 1.6; height-bound discussion (physical pp. 3--7)。全卷 42 页。 后续条件。An explicit target family satisfying the modular, height, and reduction hypotheses must be supplied and checked.
 
 ## EXT-0253 · Linear independence of values of G-functions, II. Outside the disk of convergence
 
@@ -1509,6 +1620,7 @@
 - 原件。arXiv:2604.26357v4（目录记录；首页无版本行）。PDF 物理页 1, 2, 4, 5。SHA-256 26b6ed01dd64cbac5e44f7e05aef650aadbc2c9113a1bc66ffe3e4f3b4a60966。
 - multiple zeta / double shuffle geometry。Introduction; Propositions 1–2。用 G_m 上 perverse sheaf 的乘法卷积与半 holonomy 同构，几何化正则化多重 ζ 的 double-shuffle 关系。
 - 条件或证据待查。依赖 vanishing cycles、perverse sheaf 卷积与基础群条件。 高阶范畴几何框架；未产生可直接核验的 γ 线性形式。
+- 第六批定向筛选。hold。The double-shuffle statements are established through multiplicative convolution of perverse sheaves and vanishing-cycle data, not a verified gamma linear form. 定位。Introduction and Propositions 1--2 (physical pp. 1--6)。全卷 33 页。 后续条件。A concrete period map plus an independently checked regularization/linear-form step would be needed.
 
 ## EXT-0256 · On a result of Fel'dman on linear forms in the values of some E-functions
 
@@ -1531,12 +1643,14 @@
 - 原件。arXiv:2605.00759v2（目录记录；首页无版本行）。PDF 物理页 1, 2, 3。SHA-256 548e7147893cb85b1de096955afe651ae8cbb067c6929c2b079f30bd0ed61365。
 - Lang–Trotter / unlikely intersections。Theorem 1.1; §§3–5 overview。在给定 CM×两条定义于 Q 的非 CM 椭圆曲线纤维且假设二曲线 Lang–Trotter 猜想时，证明 A_3 曲线上某同源交集有限。
 - 条件或证据待查。结论条件性依赖 Lang–Trotter for pairs；其余使用 G-functions 家族的关系与高度界。 不能将条件性有限性当作无条件工具；与 γ 不直接相连。
+- 第六批定向筛选。hold。Theorem 1.1 is conditional on the Lang--Trotter conjecture for pairs of curves; it cannot become an unconditional Euler-constant method. 定位。Theorem 1.1 and hypotheses (physical pp. 1--4)。全卷 28 页。 后续条件。Even conditionally, a target-specific link to the relevant family and a stated Lang--Trotter assumption would be required.
 
 ## EXT-0259 · Arithmetic differential equations and $E$-functions
 
 - 原件。arXiv:math/0511318v1。PDF 物理页 1, 2, 8, 32, 35。SHA-256 bf51ea639a51377be8b571deb9f59734e7173d79ed09685fcffb5adfd40b1bc9。
 - E-算子与傅里叶-拉普拉斯变换。Theorem 3.1; §6。给出多项式系数算子成为 E-算子的局部解析与 p-adic 半径刻画；充分性由变换后 G-算子的 Bombieri 型控制推出。
 - 版本与引用。必须先验证给定算子的奇点斜率、局部指数和 p-adic 半径条件；该文并未给出这些输入的通用计算器。 只核对了主定理及其证明收束；未核验其对任一具体 E-函数的适用性。
+- 第六批定向筛选。existing。Theorem 3.1's E-operator characterization (Newton--Ramis slopes and p-adic radius/local solution gate) is already represented by the installed e-operator-holonomy-admission route; this source adds no independent gamma criterion. 定位。Theorem 3.1 and its setup (physical pp. 7--8)。全卷 35 页。 后续条件。Use the existing route only after computing the candidate operator, its slopes, local exponents, and p-adic-radius data.
 
 ## EXT-0260 · Local values of G-functions at CM points
 
@@ -1550,18 +1664,22 @@
 - 原件。arXiv:1103.4878v1。PDF 物理页 1, 2, 3, 11, 12, 18。SHA-256 1660a00347240858dc5ab7fd35742eab3032af29fbe5462b7eab2d8513f70c95。
 - 多变量算术形式拉普拉斯变换。Propositions 3.7--3.8, 4.6--4.7。定义适配多变量微分模的形式拉普拉斯变换，并在指数满足指定 p-adic 非整数条件时给出半径和算术 Gevrey 阶的传递。
 - 版本与引用。所用矩阵特征值须落在指定的 p-adic 整数集合且避开整数；多变量微分模表示是必要输入。 未将该形式变换实现为可验证的多变量算术运算。
+- 第六批定向筛选。adjacent。Propositions 3.7--3.8 and 4.6--4.7 give multivariate regular-singular Laplace transfers under nonintegral p-adic exponent conditions, but no connection to gamma or to integer linear forms is supplied. 定位。Propositions 3.7--3.8 (physical pp. 11--12); Propositions 4.6--4.7 (physical p. 18)。全卷 19 页。 后续条件。A genuinely multivariate integrable differential module whose specialization is proven to represent gamma, with all exponent/radius conditions verified, would be required.
 
 ## EXT-0262 · Quantitative problems on the size of $G$-operators
 
 - 原件。arXiv:2109.08737v1。PDF 物理页 1, 2, 3, 6。SHA-256 abcad29ca193e2a486b2abe1d74e49124503717a04cabad1e5b4d76710ff852d。
 - G-算子 size 定量界。Theorem 2; §§2--3。把微分模的 p-adic size 与由 G-函数及导数构成的算子之间的 size 关系定量化，为显式常数提供上界。
 - 版本与引用。需要最小算子及其微分模操作的有效 size 数据；文章结论本身不是对任意级数的独立性证书。 仅复核主问题和主定理，未重算 size 常数或证明其有效实现。
+- 第六批定向筛选。adopt。Theorem 2 gives a nonduplicate quantitative p-adic-size bound for a proved finite Nilsson--Gevrey decomposition; pp. 12--15 verify its module/tensor-product proof and its explicit denominator/log factors. 定位。Theorem 2 (physical p. 3), Proposition 4 and proof of Theorem 2 (physical pp. 12--15)。全卷 21 页。 后续条件。Require the finite decomposition, each summand's G-function proof, and minimal-operator size bounds; a gamma connection and integer linear forms remain separate.
+- 已采用方法。物理页 1, 2, 3, 12, 13, 14, 15。A preprint-only quantitative size bound, usable only after a finite Nilsson--Gevrey decomposition and its G-function/minimal-operator inputs have been independently proved; it supplies no gamma irrationality conclusion. [方法说明](../../../math-euler-constant-irrationality/references/supp08-g-operator-size.md)。
 
 ## EXT-0263 · On the universal deformations for SL_2-representations of knot groups
 
 - 原件。arXiv:1409.4226v2。PDF 物理页 1, 2。SHA-256 3bad4954515ae55f1e2e8ef7d7bb2d068b9b5324b0e8cb69b47b76b0823c5118。
 - 结群 SL2 表示变形。Abstract; Introduction。研究有限生成群（尤其结群）的 SL2 表示通用变形及其与角色概形的联系。
 - 归档定位。对象是结群表示与变形环，与欧拉常数及 G/E-函数算术无直接可复用接口。 仅作身份和主题判定。
+- 第六批定向筛选。adjacent。The paper's universal deformations of knot-group SL2 representations concern deformation rings and character schemes, with no identified scalar approximation interface. 定位。Abstract and introduction (physical pp. 1--3)。全卷 25 页。 后续条件。A specific arithmetic specialization linked to gamma would be needed.
 
 ## EXT-0264 · Periods of E-operators
 
@@ -1575,12 +1693,15 @@
 - 原件。arXiv:1911.09486v3。PDF 物理页 1, 2, 3, 4, 5。SHA-256 f842393c6a7966af0985049469f1ce06bad9d7460249e2caa49133d4059484ef。
 - 超几何 G-函数模 p 代数性。Theorem 1.1; Theorems 2.1, 3.1。对满足非共振参数条件的广义超几何级数，几乎所有可约素数处的模 p 化简代数，次数有 p 的显式幂次上界。
 - 条件或证据待查。证明的决定步骤是强 Frobenius 结构及刚性单值群；要作为工具须外部验证参数、整性和相应结构。 未核验特定超几何参数是否满足整性或刚性假设。
+- 第六批定向筛选。adopt。Published Theorem 1.1 gives an explicit mod-p algebraicity-degree gate for nonresonant rational generalized hypergeometric series; Theorem 2.1 identifies the strong-Frobenius dependency and was physically checked. 定位。Theorem 1.1 (physical p. 4); Theorem 2.1 (physical p. 8)。全卷 40 页。 后续条件。Verify parameters, nonresonance, primewise integrality, the hypergeometric operator, and a separate connection to gamma; modular algebraicity alone is not irrationality evidence.
+- 已采用方法。物理页 1, 4, 5, 8。Published mod-p algebraicity-degree gate for a nonresonant rational generalized hypergeometric series satisfying the stated primewise integrality condition; it does not identify gamma or prove irrationality. [方法说明](../../../math-euler-constant-irrationality/references/supp08-hypergeometric-frobenius.md)。
 
 ## EXT-0266 · On the Normality of Arithmetical Constants
 
 - 原件。arXiv:math/0101055v2。PDF 物理页 1, 2。SHA-256 a2a1171eb9c75c9fa3495ca3c3ceaa33c1d20b722bb56f82adb56d8c308209b9。
 - 算术常数正规性动力学。Abstract; §1。分析 Bailey--Crandall 假设背后的离散动力系统轨道机制，并说明该机制本身不足以推出数位正规性。
 - 版本与引用。文章不证明欧拉常数或相关常数的正规性；其结论是对一个一般机制的限制。 未逐一追踪文中 G-函数特殊值的引用。
+- 第六批定向筛选。adjacent。Physical review confirms that the source gives the perturbed radix orbit relation, not a normality or irrationality proof. No installed gamma route accepts base-b orbit/distribution data, and its theorem does not yield the integer linear forms, height bounds, or remainders required by math-euler-constant-irrationality. 定位。Physical pp. 1, 6--7: abstract, §1, Theorem 3.1 and equation (3.10)。全卷 21 页。 后续条件。Do not invoke it as a normality result; a target-specific irrationality or digit-distribution theorem would be required before any new route exists.
 
 ## EXT-0267 · On the linear independence of values of $G$-functions
 
@@ -1594,12 +1715,14 @@
 - 原件。arXiv:2510.19683v2。PDF 物理页 1, 2。SHA-256 f8e4de2a58374c77884000110572174a2ac3d6ef08db36121189b55937598fa4。
 - QM 点 G-函数关系。Theorem 1.1; §1.1。对具有指定四元数乘法纤维的一参数主极化阿贝尔曲面族，构造 G-函数值关系并给出 QM 点高度界。
 - 条件或证据待查。需 Hodge generic 族、QM 点及 p-adic/archimedean 周期矩阵；不能作为一般 G-函数数值工具。 只核对主定理与构造概述。
+- 第六批定向筛选。hold。Its Theorem 1.1 is confined to Hodge-generic one-parameter principally polarized abelian-surface families with quaternionic-multiplication fibres. No installed skill represents its period matrices, QM fibres, or height comparison, so there is no portable numerical G-function interface to adopt. 定位。Physical pp. 1--2: abstract, §1.1, Theorem 1.1。全卷 27 页。 后续条件。For any future use, specify the family, QM fibre, and the required p-adic and archimedean period-matrix data before independently auditing the height statement.
 
 ## EXT-0269 · Equations différentielles $p$-adiques et Séries Gevrey arithmétiques
 
 - 原件。arXiv:math/0511317v1。PDF 物理页 1, 2。SHA-256 2c316a4afc97a8ccda8473eb83ce92f06679ff1a8eb81ae39bf6b174745a3f22。
 - p-adic E-函数微分方程。§1; main theorem announced。研究湮灭算术 Gevrey 阶 -1 级数的最小微分方程，并证明 André 的一个关于其 p-adic 结构的猜想。
 - 版本与引用。结果是 E-算子理论的结构输入，适用前仍须得到最小算子及其局部数据。 仅核对引言中的定理范围；未逐页复核法语证明。
+- 第六批定向筛选。citation。This is structural E-operator background only. The installed E-operator/holonomy gate requires a concrete representation, minimal annihilator, local data, sector and Stokes information; the inspected introduction states none of those for a caller's candidate and supplies no finite checker. 定位。Physical pp. 1--2: title/abstract and §1 theorem announcement。全卷 28 页。 后续条件。Provide a concrete minimal operator together with its local p-adic data before any E-operator admission route can be instantiated.
 
 ## EXT-0270 · Minimization of differential equations and algebraic values of $E$-functions
 
@@ -1613,12 +1736,14 @@
 - 原件。arXiv:2109.10239v1。PDF 物理页 1, 2。SHA-256 395662b1a1ee93c27f8585168f6db07a5b0f4658dc9c2e5c1825ec7ea1fce017。
 - G-算子结构定理讲义。Résumé; Introduction。硕士讲义系统证明 André--Chudnovsky--Katz 定理：G-函数最小算子的全局幂零性、正则奇点及有理指数等结构。
 - 版本与引用。它是 G-函数工具的理论前提，不能替代对某一算子的最小性和局部数据核验。 只复核摘要与目录/引言；未把讲义作为独立算法来源。
+- 第六批定向筛选。citation。This lecture-note formulation is structural background for the installed differential-operator admission boundary, but it is not an implemented route: the admission documentation separately requires a proved minimal operator, singularity analysis, value-class evidence, and determinant/height/remainder data. The source cannot certify any of them for a caller's fitted operator. 定位。Physical pp. 1--2: résumé and introduction。全卷 68 页。 后续条件。Supply a proved minimal G-operator and separately verify its singularities, exponents, and global data before applying the structural theorem.
 
 ## EXT-0272 · Pairs in discrete lattice orbits with applications to Veech surfaces
 
 - 原件。arXiv:2211.14621v2。PDF 物理页 1, 2。SHA-256 b059f20efde947381b5730b68f735372ff2e5d11a4a944c2b216f8cf80bd31da。
 - Veech 曲面格轨道计数。Abstract; §1。建立离散 SL2 格轨道对的 Siegel--Veech 型积分公式，并应用于鞍连接向量的有效计数和成对界。
 - 归档定位。对象为 Veech 曲面平直几何，与本批 G/E-函数算术目标无直接接口。 仅作身份和主题判定。
+- 第六批定向筛选。adjacent。Its discrete SL(2,R) lattice-orbit pair counting and Veech-surface applications do not furnish an arithmetic-constant or G/E-function tool, and no installed skill has a Veech-surface input contract. 定位。Physical pp. 1--2: abstract and introduction。全卷 42 页。 后续条件。A separate task would need a specified Veech surface and orbit-counting objective; it has no dependency path into the present constant-tool collection.
 
 ## EXT-0273 · On the denominators of the Taylor coefficients of G-functions
 
@@ -1632,6 +1757,7 @@
 - 原件。arXiv:2503.12011v3。PDF 物理页 1, 2。SHA-256 81884e192c3f2a5338fe72413bf0ad8172423887d7a8cd8143f82cedaaf76439。
 - 双尖点双曲 Dehn 填充。Abstract; §1。在两 cusp shape 同属二次域等条件下分类双尖点双曲三维流形的 Dehn 填充。
 - 归档定位。三维双曲流形的 holonomy variety 分类不服务于当前算术常数/G-函数工具线。 仅作身份和主题判定。
+- 第六批定向筛选。adjacent。It classifies two-cusped hyperbolic Dehn fillings under quadratic cusp-shape hypotheses. No installed arithmetic-constant skill accepts hyperbolic holonomy or cusp-shape inputs, so it is outside this tool collection rather than an existing route. 定位。Physical pp. 1--2: abstract and §1。全卷 89 页。 后续条件。A concrete two-cusped hyperbolic 3-manifold and verified cusp-shape hypotheses would be needed for any geometry-specific reuse.
 
 ## EXT-0275 · Geometric G-functions and Atypicality
 
@@ -1645,6 +1771,7 @@
 - 原件。arXiv:2506.07238v1。PDF 物理页 1, 2。SHA-256 d2b16635cac5cc419a564da4f974a8189874b7bb9085e3de8db80a1456346dda。
 - 双曲三维流形 Floer 理论。Abstract; Introduction。在特定闭双曲三维流形及 torsion spin-c 条件下，以闭测地线几何描述单极 Floer 链复形。
 - 归档定位。对象和技术均为三维 Floer 理论，与当前算术常数工具无直接复用关系。 仅作身份和主题判定。
+- 第六批定向筛选。adjacent。Its Floer-chain description under hyperbolic-manifold and torsion spin-c hypotheses has no finite transfer interface for irrationality or transcendence work, and no installed skill encodes those inputs. 定位。Physical pp. 1--2: abstract and introduction。全卷 33 页。 后续条件。A different Floer-theory task would have to supply a closed hyperbolic manifold and its spin-c data; no current arithmetic dependency is missing.
 
 ## EXT-0277 · Unlikely intersections in the Torelli locus and the G-functions method
 
@@ -1658,12 +1785,14 @@
 - 原件。arXiv:2605.00766v2。PDF 物理页 1, 2。SHA-256 3aff542f6085d0b1cdcef650cc57f08ad48b26f23d1eada7306283c77ffddb19。
 - 模曲线特殊交。Theorems 1.2, 1.4; §1。在 Lang--Trotter 型同时 supersingular 稀疏性假设下，得到 Y(1)^n 中 Hodge generic 曲线的 Zilber--Pink 型有限性结论。
 - 条件或证据待查。主要算术输入是明确假设的稀疏性陈述；故不能无条件蒸馏为结论工具。 未检验该稀疏性假设在任何家族中的可用性。
+- 第六批定向筛选。hold。Its main special-intersection conclusions explicitly assume a Lang--Trotter-type simultaneous supersingularity sparsity statement. Neither that hypothesis nor the required Hodge-generic curve data is checked by an installed tool, so no unconditional component can be adopted. 定位。Physical pp. 1--2: abstract, §1, Theorems 1.2 and 1.4。全卷 16 页。 后续条件。For any application, first prove the required sparsity hypothesis for the stated family and verify every Hodge-genericity condition.
 
 ## EXT-0279 · Effective André-Oort for non-compact curves in Hilbert modular varieties
 
 - 原件。arXiv:2101.06412v1。PDF 物理页 1, 2。SHA-256 e7e0f4b72958966c4d2ac10f7fa6befd1577b9d048fce89471b5ce692daf7540。
 - 有效 André--Oort。Theorem 1; Corollary 1。对非紧 Hilbert 模曲线在一般简单性条件下给出有效 André--Oort 结论，以 E-函数估计和 G-函数专门化替代通常的非有效步骤。
 - 版本与引用。输入是模簇曲线与非紧/一般简单性条件；方法引用的 E/G-函数专门化不是单独的常数判别器。 未复核有效常数及几何假设。
+- 第六批定向筛选。hold。Its effective André--Oort theorem needs a non-compact Hilbert modular curve, generic simplicity, and effective height inputs. The citation to E/G-function specialization is not a stand-alone constant criterion, and no installed skill verifies the geometric hypotheses or height chain. 定位。Physical pp. 1--2: abstract, Theorem 1 and Corollary 1。全卷 9 页。 后续条件。Fix a Hilbert modular curve and independently verify non-compactness, generic simplicity, and all effective height inputs before using the theorem.
 
 ## EXT-0280 · Applications of the icosahedral equation for the Rogers-Ramanujan continued fraction
 
@@ -1692,18 +1821,21 @@
 - 原件。arXiv:2211.02954v1。PDF 物理页 1, 2, 3, 4, 6, 7, 20, 23。SHA-256 140285533010cb323d6653c0b72b3fd3737c2fa2ade786f7e986434b300698d2。
 - Selberg 类 L-函数 Riesz 判别。Theorem 2.4; §6。给出 Selberg 类中以 Meijer-G 加权系数和刻画 GRH 的充分判别，并在具有多项式 Euler 积的子类给出必要方向。
 - 条件或证据待查。结论以 Selberg 类公理、零点简单性/收敛及子类 Euler 积假设为前提；不能把它当作 GRH 的无条件验证。 未核对各 L-函数是否属于所定义子类，也未验证零和收敛。
+- 第六批定向筛选。hold。Its Meijer-G weighted Riesz criteria depend on Selberg-class axioms, zero-sum control, and (for one direction) polynomial Euler products. No installed L-function skill verifies these assumptions, and the criteria do not verify GRH or a constant claim unconditionally. 定位。Physical pp. 1--2, 6--7, 20, 23: abstract, §1, Theorem 2.4 and §6。全卷 26 页。 后续条件。Name a specific L-function, prove it lies in the paper's required subclass, and certify the zero-sum and convergence assumptions before a criterion can be evaluated.
 
 ## EXT-0284 · Splitting fields of complex hyperbolic groups: matrix extraction, Hermitian descent, and spectral fields
 
 - 原件。arXiv:2610.10894v1。PDF 物理页 1, 2, 3。SHA-256 ded2a3462fa654c5dc947e7761ce5fc230b288b2bf78ddd16d8a19951bd92230。
 - 复双曲群定义域。Theorems 1.2–1.3; Section 1 program。对含正则双曲元的 Zariski 稠密 Γ<SU(n,1)，迹与该元谱给出 K 上线性实现；标准 Hermitian 型仍可能受局部范数障碍阻挡。
 - 归档定位。结论关键依赖 Vandermonde 型矩阵抽取、Hermitian 型相似与 Landherr 局部不变量；与常数逼近对象不同。 仅核对首三页主定理与作者说明；未核对高维局部分类细节。
+- 第六批定向筛选。adjacent。Its trace/spectral-field result for Zariski-dense complex-hyperbolic groups is geometrically specialized and does not add a portable arithmetic-constant procedure. No installed route accepts a group representation or Hermitian-form local invariants. 定位。Physical pp. 1--3: abstract, Theorems 1.2--1.3 and §1 program。全卷 51 页。 后续条件。Any reuse requires a specified Zariski-dense subgroup, a regular hyperbolic element, and verification of the Hermitian-form local norm conditions.
 
 ## EXT-0285 · On primary pseudo-polynomials (Around Ruzsa's Conjecture)
 
 - 原件。arXiv:2102.01534v2。PDF 物理页 1, 3, 4。SHA-256 59f7c076856af33811de08d8840882eeee12e3b540023544efda1b9b72f17f19。
 - 伪多项式与 G-函数。Introduction, Conjectures 1–2。研究仅有素数模同余的整数序列；增长阈值下可得 G-函数，代数生成函数情形推出序列为多项式，但 Ruzsa 型主猜想仍未解。
 - 条件或证据待查。有效性依赖 Perelli–Zannier 的 G-函数结论及 Hall 表征；文中也明确保留猜想。 未逐项复核外引 G-函数定理；没有与欧拉常数线性形式的直接接口。
+- 第六批定向筛选。hold。Its G-function consequences for primary pseudo-polynomials retain the unresolved Ruzsa-conjecture framework and external Perelli--Zannier/Hall inputs. No installed route checks the prime-modulus congruence, growth, and conjectural transfer, and there is no direct gamma linear-form interface. 定位。Physical pp. 1, 3--4: introduction and Conjectures 1--2。全卷 25 页。 后续条件。A future route would require a concrete integer sequence, verification of its congruence and growth hypotheses, and an unconditional replacement for the conjectural step.
 
 ## EXT-0287 · Horizontal sections of connections on curves and transcendence
 
@@ -1732,12 +1864,14 @@
 - 原件。arXiv:1901.03098v1。PDF 物理页 1, 2, 3。SHA-256 3dc7d1a1acf05b4c3070ecd751ce361bc02a52da460b5ce1254bab846b69bdad。
 - 稀有递推与非合同模形式。Theorem 1; Proposition 2 roadmap。对 Zagier 的 (17,6,72) 稀有序列证明 F((p-1)/2)≡γ(p) mod p，其中 γ 是权 3 新形式系数。
 - 条件或证据待查。从 Beukers 传递引理转为 Atkin–Swinnerton–Dyer 同余，再依赖 Scholl/Deligne ℓ-adic 表示同构。 未核实表示同构证明与外部模性输入；仅是 Apéry 数算术背景。
+- 第六批定向筛选。candidate。The source gives a concrete sporadic-recurrence congruence target, but its usable proof route requires Beukers transfer, Atkin--Swinnerton--Dyer congruences, and a Scholl/Deligne l-adic representation comparison. No installed skill implements or verifies that chain, so it is not an existing integrality route. 定位。Physical pp. 1--3: abstract, Theorem 1 and Proposition 2 roadmap。全卷 9 页。 后续条件。For a candidate sequence, prove identity with the paper's recurrence and independently establish each modular and l-adic representation input before transferring its congruence.
 
 ## EXT-0291 · A few remarks on linear forms involving Catalan's constant
 
 - 原件。arXiv:math/0210423v1。PDF 物理页 1, 2, 5, 8。SHA-256 d48f9cec9b496bebf14087e10be6e481532c49693fc3cc2e3adc99aad455b53c。
 - Catalan 常数 Apéry 型线性形式。Theorems 1–3。证明一类 Catalan 常数线性形式的渐近整性，给出二阶 Apéry 型递推及超几何参数置换群；作者明确说明这些不足以证明 G 的无理性。
 - 版本与引用。核心依赖 Whipple 变换、Zeilberger 创造性望远镜与 Γ 因子置换；整数性只给渐近控制。 未复核置换群所有生成元；对象为 β(2) 而非 γ，不能直接迁移结论。
+- 第六批定向筛选。candidate。The Catalan forms are a possible hypergeometric/creative-telescoping template, but only asymptotic integrality is established and the author notes that it does not prove irrationality. Existing gamma and integer-linear-form routes require exact same-index integer coefficients plus a nonzero real remainder; neither is provided here, and the object is beta(2), not gamma. 定位。Physical pp. 1--2, 5, 8: Theorems 1--3 and concluding scope statement。全卷 10 页。 后续条件。A distinct target would need a proved parameter correspondence, exact integrality/gcd control, and a real remainder bound before this hypergeometric machinery could support an irrationality criterion.
 
 ## EXT-0292 · Modular Forms and Numerical Explorations of Rational Approximations to $ζ(3)$
 
@@ -1779,6 +1913,7 @@
 - 原件。arXiv:2607.17123v1。PDF 物理页 1, 2, 14, 15。SHA-256 487c594fd83297b19d2f073530358796594275ae780c614e6d860c3bfe886310。
 - Eichler 积分无理性判据。Proposition 1.2; pages 14–15 final argument。以 level-6 模形式的 Eichler 积分构造 H(t)=A(t)-ζ(3)B(t)；分支点可去使半径为 17+12√2，系数分母除 D_n^3，故 Beukers 判据给出 ζ(3) 无理性。
 - 条件或证据待查。依赖 Fricke 变换、分支值分析、η-商整性和 Beukers 判据；是 2026 预印本的讲解性证明。 未独立检查模形式变换及分支延拓；无新 γ 成分，不能按正式发表结果处理。
+- 第六批定向筛选。citation。The 2026 preprint is an expository ζ(3) proof. Its Eichler-integral route depends on unverified Fricke transformation, branch analysis, eta-product integrality, and Beukers criterion inputs, and does not add a γ-specific component. 定位。Physical pp. 1, 2, 14–15; Proposition 1.2 and final argument.。全卷 16 页。 后续条件。For a new target, independently certify every modular transformation, singularity/denominator bound, and the required irrationality-criterion hypotheses.
 
 ## EXT-0298 · Density formulas for $p$-adically bounded primes for hypergeometric series with rational and quadratic irrational parameters
 
@@ -1799,6 +1934,7 @@
 - 原件。arXiv:2503.07625v2。PDF 物理页 1, 2, 3, 8。SHA-256 a95ce9f431c4783b3f51645be9a029e09787f15c0db5c7a9f9ca923a6a3581c3。
 - Lean 形式化 Apéry 证明。Introduction contributions; Section 4。报告以 Beukers 三重积分和带误差项的素数定理在 Lean 4 形式化 ζ(3) 无理性；线性形式经 D_{3n} 清分母并由积分上界趋零。
 - 条件或证据待查。可复核性关键在外部 Lean 仓库、Mathlib 与 PrimeNumberTheoremAnd 的已编译声明，而非 PDF 叙述本身。 未拉取、编译或审计 Lean 提交哈希；故不把“formal proof”当作本轮已验证证书。
+- 第六批定向筛选。hold。The paper reports a Lean formalization, but the proof artifact, dependency revisions, and build result were not retrieved or compiled in this review; the PDF alone is not an executable certificate. 定位。Physical pp. 1–3 and 8; abstract, contributions, and formalization section.。全卷 30 页。 后续条件。Pin the public repository commit, Mathlib/PrimeNumberTheoremAnd revisions, and reproduce the Lean build before indexing it as a formal certificate.
 
 ## EXT-0301 · Special values of spectral zeta functions of one-, two-photon quantum Rabi models and non-commutative harmonic oscillators
 
@@ -1855,24 +1991,29 @@
 - 原件。arXiv:1802.08856v2。PDF 物理页 1, 2, 4, 5, 10, 12。SHA-256 04d6ab3e0289d05c8a80eebd717a0eaaa59ef7cee367420789312d7b11c9b057。
 - 超几何变换与奇 ζ 值。Theorems 1–4。建立若干 6F5、3F2、5F4 及 q-超几何变换，利用置换群线性形式证明两个有限奇 ζ 值组合中各至少有一个无理。
 - 条件或证据待查。结果依赖 Rahman/Whipple 变换极限、Γ 因子置换与 Rhin–Viola 型分母分析。 未重验全部变换收敛与置换群算术；结论涉及 ζ 奇值集合，非单独 γ 判定。
+- 第六批定向筛选。existing。The preprint's hypergeometric rational-form and denominator workflow is already covered by the existing integer-linear-form route; its odd-zeta permutation conclusions require the source's transformation and arithmetic-group analysis, with no new current target-specific component. 定位。Physical pp. 1, 2, 4, 5, 10, 12; Theorems 1–4.。全卷 15 页。 后续条件。Use the existing linear-form route after independently deriving the required hypergeometric identity, denominator ledger, and nonvanishing form for a concrete target.
 
 ## EXT-0311 · An elementary proof of the irrationality of Tschakaloff series
 
 - 原件。arXiv:math/0506086v1。PDF 物理页 1, 5。SHA-256 2a2f512086e806c1c4ffc9c4739a3a5683f5b1049b209e1283421d47b681671a。
 - Tschakaloff q-级数无理性。Main Theorem; concluding q-binomial formula。对 |q|>1 的有理 q,z，在 γ=log|q_2|/log|q_1|<(3-√5)/2 条件下证明 T_q(z) 无理，并给出定量逼近下界。
 - 版本与引用。使用 q-超几何有理逼近与 q-二项式给出的多项式整数性；参数阈值不可省略。 未逐式复算 q-二项式证书；结果不涉及 Euler–Mascheroni 常数。
+- 第六批定向筛选。candidate。The q-hypergeometric construction is a genuine irrationality proof for Tschakaloff series, but it is a preprint whose q-binomial integrality and parameter-specific approximation estimates do not currently match any installed target workflow. 定位。Physical pp. 1 and 5; main theorem and concluding q-binomial construction.。全卷 5 页。 后续条件。For a stated q-series target, read and verify the q-binomial denominator proof and instantiate the strict γ<(3−√5)/2 threshold.
 
 ## EXT-0312 · Thue’s Fundamentaltheorem, I: The General Case
 
 - 原件。arXiv:0805.3176v3 (7 Jan 2010)。PDF 物理页 1, 4, 6, 39, 40。SHA-256 429b07e0ba92e93132c36ab446411ec2b2f8a57ddbaefdbe8d59ffa7ee5aeb3c。
 - effective irrationality measures via Thue--hypergeometric forms。Theorems 2.1/2.4; §§7--8。For an algebraic target A(x), explicitly normalized hypergeometric numerator/denominator forms yield |A(x)-p/q|>c^{-1}|q|^{-κ-1} under E>1 and the stated W-domain hypotheses; it extends the construction to imaginary quadratic denominators.
 - 版本与引用。The conclusion depends on integrality/denominator bounds for the hypergeometric forms and the nonzero consecutive determinant; all constants are target-specific. No implementation of the parameter search, arithmetic normalization, or its compatibility with the current constant-focused skills was checked.
+- 第六批定向筛选。adopt。Published Acta Arithmetica version/DOI were verified; Lemma 6.1 and the actual Theorem 2.4 parameter substitution provide a nonduplicate extension of the current linear-form route to imaginary quadratic algebraic integers. 定位。Physical pp. 1, 4, 6, 19, 40–41; Theorems 2.1/2.4 and Lemma 6.1.。全卷 47 页。 后续条件。For use, certify the target-specific hypergeometric forms, integrality/denominators, E,Q>1, and p_rq_{r+1}≠p_{r+1}q_r.
+- 已采用方法。物理页 1, 4, 6, 19, 40, 41。Effective approximation lower bound over Q or an imaginary quadratic field, conditional on certified hypergeometric approximants, E,Q>1, and nonzero consecutive determinants. [方法说明](../../../math-integer-linear-form-rates/references/thue-hypergeometric-imaginary-quadratic-wave6-supp10.md)。
 
 ## EXT-0313 · A rapidly converging Ramanujan-type series for Catalan’s constant
 
 - 原件。arXiv:1207.3139v2。PDF 物理页 1, 5, 6, 9。SHA-256 35d37f445609d7bde480969e270275601a72d0973014024002ee447f06d148bb。
 - hypergeometric series evaluation。Theorem 1 and Corollary 1。A terminating/3F2 reduction proves a central-binomial series for Catalan’s constant and a reindexed Guillera-type variant, with a faster asymptotic decay than the comparisons made in the note.
 - 版本与引用。The decisive step is the cited hypergeometric identity evaluated at x=1/2 plus the Clausen-value computation; fast convergence alone does not prove irrationality. No independent symbolic verification of the cited 3F2 identity or numerical error certificate was made; the paper supplies no irrationality certificate.
+- 第六批定向筛选。citation。The preprint supplies fast Catalan-constant series but explicitly only suggests a possible Apéry-like irrationality proof; convergence acceleration is not an irrationality certificate. 定位。Physical pp. 1, 5, 6, 9; Theorem 1 and Corollary 1.。全卷 11 页。 后续条件。Verify the cited hypergeometric identity and provide an independent integer-linear-form/denominator construction before any irrationality use.
 
 ## EXT-0315 · Lecture notes on Legendre polynomials: their origin and main properties
 
@@ -1894,6 +2035,7 @@
 - 原件。arXiv:2108.06586v2。PDF 物理页 1, 2, 3, 4。SHA-256 2c17b9f53a0dead33dbd504f60eff4337dfccc5351ee5c8e44d7358f63a7f7f8。
 - hypergeometric identification of experimental Beukers integrals。pp. 2--3 examples and reductions。The note identifies several computer-generated multiple-integral constants through 3F2/4F3 or Meijer-G reductions, including cases reducible to gamma values and logarithmic constants.
 - 条件或证据待查。Each proposed irrationality conclusion still depends on a correct identification and on the quantitative approximation construction in the cited Dougherty-Bliss--Koutschan--Zeilberger work. The note is a strategy/example catalogue rather than a general decision procedure; no claimed identification was independently checked.
+- 第六批定向筛选。adjacent。This note is an identification strategy and example catalogue for experimental Beukers integrals; it supplies neither a general decision procedure nor a independently checked target identification. 定位。Physical pp. 1–4; examples and reductions on pp. 2–3.。全卷 4 页。 后续条件。First prove a specific integral/hypergeometric identification and then use the cited rational-approximation construction with its quantitative estimates.
 
 ## EXT-0318 · Apéry-type approximations and irrationality measures for certain q-series
 
@@ -1988,12 +2130,14 @@
 - 原件。arXiv:1205.0961v1。PDF 物理页 1, 3, 5, 8。SHA-256 28ed9d10ddcadc20e103a0ff177c19d2d8c80b5b264441baa071ce5f13e4a7e3。
 - digit complexity from irrationality exponent。main subword-complexity theorem and exponential-period corollaries。A lower bound on base-b subword complexity is derived for real numbers with irrationality exponent 2, yielding such bounds for e and certain exponential periods once their exponent input is available.
 - 版本与引用。The conclusion is conditional on μ(ξ)=2; it transfers Diophantine information to digit complexity rather than proving μ=2 for the named constants. The prerequisite μ=2 was not verified for any target; no digit-complexity computation was performed.
+- 第六批定向筛选。citation。The subword-complexity conclusion transfers an already-established irrationality exponent μ(ξ)=2; it does not establish that prerequisite for the constants under discussion. 定位。Physical pp. 1, 3, 5, 8; main subword-complexity theorem and exponential-period corollaries.。全卷 11 页。 后续条件。Supply a rigorous μ(ξ)=2 result for the target and then invoke the digit-complexity theorem with a fixed base.
 
 ## EXT-0333 · Transcendence measure of e^{1/n}
 
 - 原件。arXiv:2303.05542v1。PDF 物理页 1, 3, 4, 15。SHA-256 4729a0e94ea80cfce088c54b843c58a55fbc607882155aa76b52192f2ec45103。
 - Hermite--Padé transcendence measure。main measure theorem and approximation estimates。The paper improves a Mahler-type transcendence measure for e^(1/n) by constructing and estimating integer linear forms in its powers.
 - 版本与引用。The bound requires the paper’s Hermite--Padé forms, nonvanishing determinant, and common-factor/size estimates for the chosen n and height range. Only the stated construction route was checked; no parameter-specific constants or proof tables were independently validated.
+- 第六批定向筛选。candidate。The Hermite–Padé measure for e^(1/n) is target-specific and the local source is a preprint; no parameter-table or determinant/common-factor audit has been performed for a reusable bound. 定位。Physical pp. 1, 3, 4, 15; main measure theorem and approximation estimates.。全卷 19 页。 后续条件。Fix n,k,H and verify the source's Hermite–Padé determinant, common-factor and size estimates before creating a target-specific certificate.
 
 ## EXT-0334 · Diophantine approximation and continued fraction expansion for quartic power series over F₃
 
@@ -2151,18 +2295,21 @@
 - 原件。arXiv:1912.06146v1 (inventory)。PDF 物理页 1, 2, 10, 71。SHA-256 1c26504d856d67ecc0f8e116b3cdf926ec4eabb82a4bfbe4306f72aa63499fe4。
 - Calabi-Yau arithmetic geometry。Abstract; Appendix B warning。Studies factorization patterns of zeta-function numerators for a one-parameter Calabi-Yau family and rank-two attractor points; the authors explicitly say the appendix's searches and statistical trends prove no theorems.
 - 版本与引用。Most proposed modular/attractor interpretations depend on unproved geometric and computational assumptions. Not a certified general-purpose tool; no theorem-grade component was isolated in this targeted review.
+- 第六批定向筛选。hold。The attractor/modularity interpretations and statistical searches are explicitly conditional or conjectural in the source; no standalone theorem-grade reusable operation was isolated. 定位。Physical pp. 1, 2, 10, 71; abstract and Appendix B warning.。全卷 86 页。 后续条件。Fix a concrete Calabi–Yau family, verify its geometric hypotheses and independently certify the relevant zeta-numerator factorization.
 
 ## EXT-0356 · Heat kernel for the quantum Rabi model II: propagators and spectral determinants
 
 - 原件。arXiv:2008.05354v3 (PDF front page)。PDF 物理页 1, 2, 7, 17。SHA-256 13133096a4ba03dd771c91adc93a45ef28071c70f466192e5ac8be1115b220d5。
 - quantum Rabi spectral analysis。Abstract; Theorem 2.1; Appendix A。Derives explicit heat-kernel/propagator formulas and spectral-determinant relations for the quantum Rabi Hamiltonian and its parity sectors, with Rabi-Bernoulli polynomial identities.
 - 归档定位。The formulas concern the quantum-Rabi model and rely on earlier heat-kernel results and Wick continuation. Outside the mathematical-tool priorities of this arithmetic/transcendence cohort; no further distillation attempted.
+- 第六批定向筛选。adjacent。The heat-kernel and spectral-determinant formulas are specialized to the quantum Rabi Hamiltonian and parity sectors, outside the arithmetic/transcendence skill routes in scope. 定位。Physical pp. 1, 2, 7, 17; Theorems 2.1–2.2 and Appendix A.。全卷 22 页。 后续条件。A QRM-specific modelling request would need the prior heat-kernel paper and a separate convergence/parameter audit.
 
 ## EXT-0357 · Pointwise order of generalized Hofstadter functions G, H and beyond
 
 - 原件。arXiv:2410.00529v2 (PDF front page)。PDF 物理页 1, 2, 5。SHA-256 96f6414135421589a00d50f0eb18368bf7932c7f907de356d8f3bb478d5370b3。
 - nested recurrences and morphic numeration。Abstract; introduction; Rocq-formalization note。For F_k(0)=0 and F_k(n)=n-F_k iterated k times at n-1, proves F_k(n)≤F_{k+1}(n) via generalized Fibonacci morphic words and relates asymptotic slopes to letter frequencies.
 - 版本与引用。The proof route is through word substitutions and their prefix properties; the claimed Rocq development is external to the local PDF and was not checked. A later paper in this same batch gives a shorter proof and stronger strict-order statement; no separate skill is recommended from this version.
+- 第六批定向筛选。existing。This earlier Hofstadter preprint is superseded for this batch by the later numeration/discrepancy treatment and would duplicate any future recurrence-specific review. 定位。Physical pp. 1, 2, 5; abstract, recurrence definition, and pointwise-order theorem.。全卷 26 页。 后续条件。Use the later source only after a concrete F_k/numeration task is specified; preserve the exact recursive convention.
 
 ## EXT-0358 · Some Mizohata-Takeuchi-type estimate for exponential sums
 
@@ -2183,6 +2330,7 @@
 - 原件。arXiv:2104.10540v2 (PDF front page)。PDF 物理页 1, 5, 6, 16。SHA-256 cffa4fa4bf6dc955a9e2b7b716357f4be02f9dd6f63c4a18f515a747031c177e。
 - BPS geometry and twistors。Abstract; main integral formula discussion。Constructs integral/formal-series solutions of heavenly and isomonodromy equations from BPS data and discusses uncoupled structures and noncommutative deformations.
 - 归档定位。Convergence and integrability depend on BPS-structure assumptions; some higher-order identities are checked only in bounded orders or numerically. Physics-specialized material; no generally certified mathematics-tool component extracted.
+- 第六批定向筛选。adjacent。The BPS/twistor integral and formal-series constructions require specialized BPS-structure and convergence assumptions and lie outside the current arithmetic/transcendence routing scope. 定位。Physical pp. 1, 5, 6, 16; abstract and main integral-formula discussion.。全卷 38 页。 后续条件。A BPS geometry task would need a specified finite/uncoupled structure and a separate integrability/convergence audit.
 
 ## EXT-0362 · Generalized hypergeometric G-functions take linear independent values
 
@@ -2203,18 +2351,21 @@
 - 原件。arXiv:2502.12615v5 (inventory; PDF front page checked)。PDF 物理页 1, 2, 4。SHA-256 44f2953b23ce36f1a0c31fbadd89313bd04d48e873048028a1778587dfe2b3ab。
 - nested recurrences, numeration and discrepancy。Abstract; formalization note。Develops numeration systems for generalized Hofstadter functions, determines finite discrepancy exactly for k≤4, and states exact-floor/almost-additivity characterizations, with most results formalized in Coq/Rocq.
 - 版本与引用。The results depend on the associated roots of X^k-X^{k-1}-1 and formalization components; the checked text notes a specifically adapted auxiliary root argument. Closely overlaps the two other Hofstadter papers in this batch; no independent tool split recommended without a use case.
+- 第六批定向筛选。adjacent。The preprint's numeration/discrepancy results for generalized Hofstadter recurrences are outside the currently installed finite-automata relation-monoid interface and have no stated research use case here. 定位。Physical pp. 1, 2, 4; abstract, recurrence definitions, formalization note.。全卷 31 页。 后续条件。A dedicated recurrence/numeration request should first pin the exact F_k convention and, if relying on formalization, a Rocq commit and build artifact.
 
 ## EXT-0365 · Explicit transformations for generalized Lambert series associated with the divisor function σ_a^(N)(n) and their applications
 
 - 原件。arXiv:2304.05923v1 (PDF front page)。PDF 物理页 1, 2, 3, 10。SHA-256 3232b254ba24b505f905c4f95513f607855b4d491a3d66593e4ddff9295a1079。
 - generalized Lambert-series transformations。Abstract; definition (1.6); Theorem 2.7。Derives transformations for ∑σ_a^(N)(n)e^{-ny}, extends them by analytic continuation, and obtains generalized Ramanujan-type odd-zeta identities, eta/Wigert-type formulae and partition asymptotics; Theorem 2.7 is a displayed odd-N specialization.
 - 版本与引用。Uses a generalized Voronoi summation formula, Meijer-G reductions and analytic continuation; parameter domains and branch choices matter. No particular transformation was selected for implementation, and the analytic-continuation proof was not fully reviewed.
+- 第六批定向筛选。candidate。The generalized Lambert-series transforms use analytic continuation and Meijer-G branch/contour choices; no bounded exact interface was isolated without importing those choices. 定位。Theorem 2.7 and its analytic-continuation setup。全卷 41 页。 后续条件。Review Theorem 2.7 together with its Voronoi and analytic-continuation hypotheses for a specified target series.
 
 ## EXT-0366 · Analytic subvarieties with many rational points
 
 - 原件。arXiv:0811.3195v1 (19 Nov 2008)。PDF 物理页 1, 3, 4。SHA-256 032ccaa406993447c0ca73aa9b5f489772b66a944fd7d2689e18baaaf7d30c9c。
 - Schneider–Lang 型超越性与 LG-germ。Abstract; §1 Theorems 1.1 and 1.4。对数域 K 上拟射影簇的有限阶解析映射，若其像 Zariski 稠密且相关代数点处的形式芽满足 LG-germ 条件，则给出有界次数点的计数界，并在共形抛物 Kähler 情形构造相应电流。
 - 版本与引用。结论依赖 LG-germ 定义、抛物/共形抛物几何及值分布估计；本次未逐证其解析几何输入。 仅核对首页身份与主定理陈述；不是欧拉常数或可直接执行的有限算术构造。
+- 第六批定向筛选。adjacent。The LG-germ rational-point estimates are a geometric transcendence route, but no active local tool has a rational-points/LG-germ input model. 定位。Theorems 1.1 and 1.4。全卷 44 页。 后续条件。A concrete project with quasi-projective variety, formal germs, and height-counting target.
 
 ## EXT-0367 · A unified strategy to compute some special functions of number-theoretic interest
 
@@ -2244,6 +2395,7 @@
 - 原件。arXiv:2110.13478v3 (29 Oct 2021)。PDF 物理页 1, 2, 3, 4。SHA-256 f86f54c62eda284ef2c48c90d3699e6a98606d68bf49ecbd250be2e833f97fa3。
 - Robin 不等式与除数和。Proposition 1.1; Theorem 1.3; Corollary 2.5。记录 Robin 判据 σ(n)/n<e^γ log log n（n≥5041）与 RH 等价；给出除有限集合外的显式加性修正界，并把待检验对象约化为 21-full 整数。
 - 版本与引用。RH 等价归于 Robin；文章的新界使用 Chebyshev ϑ 和素数乘积估计。 仅核对正式问题与文中显式陈述，不把特定整数族验证推广为 Robin 判据的证明。
+- 第六批定向筛选。citation。Robin's criterion supplies context for e^gamma in divisor-sum estimates, not an irrationality or approximation method for Euler's constant. 定位。Proposition 1.1, Theorem 1.3, and Corollary 2.5。全卷 6 页。 后续条件。A divisor-sum/Riemann-hypothesis objective requiring the explicit exceptional-set reduction.
 
 ## EXT-0372 · Certified pandigital approximations of π, γ, δ and e
 
@@ -2258,6 +2410,7 @@
 - 原件。arXiv:1110.0708v1 (4 Oct 2011)。PDF 物理页 1, 2, 3, 5。SHA-256 405420c4826964a2e0cf651467fe7752cb9d19005d32fff6acdf03b1f2848c4c。
 - 乘法集合计数与 Euler–Kronecker 常数。§1 Theorems 1–2 and Corollary 1。对满足文中 Condition A/B 的乘法集合，比较 Landau 与 Ramanujan 型计数近似；二阶项由广义 Euler 常数 γ_S 控制，γ_S 与 1/2 的比较决定哪种近似渐近更好。
 - 版本与引用。主渐近依赖集合的素数分布 Condition A/B 与相关 Dirichlet 系列/Euler 乘积；该文自述为综述。 不是 γ 无理性工具；仅核对概述定理，没有复核其引用的集合条件。
+- 第六批定向筛选。citation。This is a survey-level comparison of Landau and Ramanujan approximations; its Euler--Kronecker constants do not give an Euler-constant irrationality interface. 定位。Theorems 1--2 and Corollary 1。全卷 15 页。 后续条件。The cited primary theorem for a chosen multiplicative set satisfying Conditions A/B.
 
 ## EXT-0375 · A New Effective Asymptotic Formula for the Stieltjes Constants
 
@@ -2272,6 +2425,7 @@
 - 原件。arXiv:2306.03347v6 (3 Oct 2023)。PDF 物理页 1, 2, 3, 4。SHA-256 6f59b07072dab6c49db65560355abcede9d894135009b0bfe29db09f164df15d。
 - 粗糙数计数的显式筛法估计。Introduction; Theorem 1.1 and Corollary 1.2。对 y-rough 数计数 Φ(x,y)，以 Buchstab 函数卷积 μ_y(u)x 近似，并给出 x≥y 的显式绝对误差；在 RH 下另给更强条件界。
 - 版本与引用。误差常数依赖素数定理的显式余项与 Buchstab 分析；RH 版本明确为条件性。 仅核对主定理/推论；与 Euler 常数只共享归一化因子 e^γ，未形成逼近或无理性方法。
+- 第六批定向筛选。existing。Its explicit Buchstab/rough-number approximation is already covered by math-l16-prime-sieve-certified-transfers, references/rough-cell-buchstab-proxies.md; adding another generic route would duplicate it. 定位。Theorem 1.1 and Corollary 1.2。全卷 24 页。 后续条件。Use the existing route with the paper's source-specific range and conditional RH clause if rough-number bounds are needed.
 
 ## EXT-0377 · The fourth moment of the Hurwitz zeta function
 
@@ -2293,6 +2447,7 @@
 - 原件。arXiv:1607.03824v2 (26 Jan 2017)。PDF 物理页 1, 2。SHA-256 9f7514ef314c2bbf54f452c25d2c7dba6d557d74826cff54ba3477ca33d72e3c。
 - 结理论谱隙与对数无理性指数。Abstract; §1 Introduction。将结补空间有限循环覆盖的 cellular differential 谱隙渐近与前两 Alexander 多项式根的对数比无理性指数相联系，并据此定义三类 shrinkage type。
 - 版本与引用。依赖 Alexander 多项式、Mahler 测度和有关代数数对数比的 Diophantine 逼近输入。 只核对身份与研究对象；未审核结论分类的证明，且其几何对象不构成 γ 工具。
+- 第六批定向筛选。adjacent。The Diophantine exponent enters a knot-cover spectral-gap classification, but the method requires a specified knot and its Alexander data rather than a reusable Euler-constant interface. 定位。Introduction and main shrinkage-type statements。全卷 18 页。 后续条件。A knot/cyclic-cover task with the required Alexander-polynomial roots and Mahler-measure data.
 
 ## EXT-0380 · Irrationality Exponents and Partial Quotient Growth in Continued Fractions
 
@@ -2307,36 +2462,44 @@
 - 有理对数线性形式的插值行列式。Abstract; §1; stated induction outline。稿件声称：对乘法独立的正有理数 a_1,…,a_n，每 ε>0 存在不可有效 C>0，使非零整数线性形式 h_0+Σh_i log a_i 的绝对值至少为 C·H^{−n−ε}，并称指数 n 最优；证明描述为从一变量出发的插值行列式归纳。
 - 条件或证据待查。归纳步依赖乘法独立、环面上插值行列式非零及曲线不等式；常数明示不可有效。 仅核对摘要和方法概要；没有可见正式发表信息，未逐段核验几何不等式、行列式非零和归纳量词。
 - 相关入口。[math-openai-arithmetic-determinants](../../../math-openai-arithmetic-determinants/SKILL.md)。
+- 第六批定向筛选。candidate。The manuscript's best-exponent logarithmic lower bound is potentially useful, but the necessary interpolation-determinant nonvanishing and induction proof, including its claimed formal support, was not dependency-reviewed. 定位。Abstract, Section 1, and induction outline。全卷 28 页。 后续条件。Obtain and check the claimed Lean ancillary material and the determinant/induction argument before adopting the bound.
 
 ## EXT-0382 · Critical convergence and Hausdorff measures for generalized Flint Hills series
 
 - 原件。manuscript dated 14 Sep 2026。PDF 物理页 1。SHA-256 ffb86a8c1bbf1756a51d3ecaccd3fc1f56c919f666f97adf223b8ab6f6c01141。
 - Flint Hills 级数与无理性指数临界纤维。Abstract。稿件研究 F_{s,t}(x)=Σ n^{−s}|sin(πnx)|^{−t}；声称给出发散集的 Hausdorff 维数、临界无理性指数 τ=1+s/t 上收敛/发散例子及对数校正 Hausdorff 测度律。
 - 条件或证据待查。核心比较依赖连续分数分母子列、双对数估计及临界纤维构造；这些新步骤在本次未审阅证明。 仅审阅摘要和版本；尚未核验其对 Meiburg 猜想的声称、参数范围或外部依赖。
+- 第六批定向筛选。adopt。The proof supplies a two-sided continued-fraction denominator criterion for generalized Flint Hills convergence and an explicit critical-family construction; it is a distinct, bounded diagnostic for irrationality-exponent questions. 定位。Equations (2)--(13), Proposition 3.1, Corollary 3.3, Theorem 4.1, Proposition 5.1。全卷 18 页。 后续条件。Preprint dependency read: the adopted comparison uses continued-fraction best approximations, dyadic block estimates, and sine separation as carried out on pages 3--4.
+- 已采用方法。物理页 3, 4, 5, 6, 7, 8。A continued-fraction denominator criterion for the convergence of F_{s,t}(x), and its explicit critical-fibre construction; it does not prove irrationality of x or of Euler's constant. [方法说明](../../../math-alternating-reciprocal-criteria/references/wave6-supp-11-flint-hills-convergents.md)。
 
 ## EXT-0383 · B′
 
 - 原件。arXiv:2209.00275v1 (1 Sep 2022)。PDF 物理页 1, 2, 3, 4, 5, 6。SHA-256 65ed4118369064c8eb534dba8968d4b35c40f5f4c64bcb84106c1b03662da1db。
 - Baker 型对数线性形式的 B′ 改进。§1 equations (1.2)–(1.10); §2–§6 survey。综述 Baker 型对数线性形式下界中以 B/h*(α_n) 改善 B 的 B′ 参数，说明它可改进某些 Diophantine 方程的有效上界，并讨论 Archimedean/p-adic 与连分数应用。
 - 版本与引用。多项结论归于 Feldman、Baker 等既有工作；文章本身说明主要为综述/应用汇集。 核对 B′ 的定义动机和范围；未把该综述当作可直接调用的统一常数定理。
+- 第六批定向筛选。existing。The B-prime parameter is a survey/application refinement of standard linear-forms-in-logarithms bounds already routed through math-integer-linear-form-rates; this source is not a standalone universal-constant theorem. 定位。Equations (1.2)--(1.10) and Sections 2--6。全卷 28 页。 后续条件。Use the original named lower-bound theorem needed by a concrete Diophantine equation.
 
 ## EXT-0384 · k-Fibonacci numbers which are Narayana’s cows numbers
 
 - 原件。arXiv:2302.09667v1 (19 Feb 2023)。PDF 物理页 1, 2, 4, 5。SHA-256 3476f9a3b9c541078a7c85611bee822bc654503b4ea0d1d39cdbf1cd790f637f。
 - 递推数列交集的 Baker–Davenport 归约。Abstract; Theorem 2.3; §3.2。求广义 k-Fibonacci 与 Narayana cows 数列的交点；先以 Matveev 对非零代数对数线性形式给显式大界，再以 continued-fraction/Baker–Davenport 归约压缩参数并完成有限检查。
 - 版本与引用。归约依赖主根 Binet 近似、线性形式非零论证和 Matveev 常数；最终解集还依赖有限计算。 仅核对方法骨架与一段实际代数数设置；未复算大界、收敛子或穷举。
+- 第六批定向筛选。existing。The Matveev plus Baker--Davenport workflow for intersections of recurrence sequences is already represented by math-integer-linear-form-rates, references/supp-c07-10-recurrence-log-reduction.md. 定位。Theorem 2.3 and Section 3.2。全卷 11 页。 后续条件。Instantiate the existing dominant-root recurrence route with this paper's Binet errors and finite-search range.
 
 ## EXT-0385 · Balancing and Lucas-balancing numbers as difference of two repdigits
 
 - 原件。arXiv:2405.15839v2 (8 Oct 2024)。PDF 物理页 1, 3, 4, 5, 6。SHA-256 adacd6a74c8bccc480f29730cba1ed51aa9d00d0304ac6320d3a3b88ef8b0a02。
 - 递推数列与 repdigit 的指数方程。Abstract; Theorem 2.1; Theorem 3.1; §3 reduction。对 balancing/Lucas-balancing 数等于两个十进制 repdigit 之差的问题，先建立 Matveev 下界，再以 Baker–Davenport 归约与有限检索；例如 Theorem 3.1 给出 balancing 情形仅 B_2=6、B_3=35。
 - 版本与引用。依赖 Binet 公式、对数线性形式 Γ≠0 论证、Matveev 高度界及随后计算机归约。 只核对其中一个主定理和线性形式设置；不认证文中 Mathematica 搜索或全部 Lucas-balancing 情形。
+- 第六批定向筛选。existing。This is another Matveev plus continued-fraction reduction followed by finite search, already covered by the documented dominant-root recurrence reduction route. 定位。Theorems 2.1 and 3.1; Section 3。全卷 13 页。 后续条件。Supply the exact balancing-sequence Binet estimates and independently reproduce any finite search for a new instance.
 
 ## EXT-0386 · Minorations simultanées de formes linéaires de logarithmes de nombres algébriques
 
 - 原件。arXiv:1004.3652v3 (1 Jun 2012)。PDF 物理页 1, 7, 9, 12, 19。SHA-256 41722386b413e66ae4b3e34fe462de57adbe6268d7fbfa0a80dda6edd31f81e3。
 - 代数对数线性形式的同时下界。Résumé; §§3–5。在 Archimedean 或 p-adic 嵌入的数域中，对由代数系数和对数形成的多个 Λ_i 的非零最大值给出显式下界；证明组织为 Baker–Philippon–Waldschmidt 方法与 adelic slopes 的辅助截面。
 - 版本与引用。决定性输入是代数群/辅助截面、斜率理论及 Siegel 型引理的现代版本；常数和适用条件需按具体版本读取。 仅核对摘要及方法章节位置；未逐项核验法文技术假设和显式常数，不作为直接代码接口。
+- 第六批定向筛选。adopt。The formally published theorem gives an explicit simultaneous maximum lower bound for several Archimedean or p-adic algebraic logarithmic forms, extending the existing single/integer-linear-form documentation without claiming a numerical certificate. 定位。Theorem 2.1 and Sections 2.1 and 3。全卷 40 页。 后续条件。Published source checked against its formal edition and exact theorem statement; apply only after constructing its source-defined a, b, e, D, I, and s parameters.
+- 已采用方法。物理页 1, 2, 3, 4, 5, 6, 7, 8。An explicit simultaneous maximum lower bound for source-defined algebraic logarithmic forms at one Archimedean or p-adic place; it is not a ready-made integer-linear-form certificate. [方法说明](../../../math-integer-linear-form-rates/references/wave6-supp-11-gaudron-simultaneous-log-lower.md)。
 
 ## EXT-0387 · On the Diophantine equation F_n-F_m=2^a
 
@@ -2359,12 +2522,14 @@
 - 原件。Acta Math. Univ. Comenianae XC(1) (2021), pp. 7–25。PDF 物理页 1, 2, 4, 5, 6。SHA-256 39ba760e3e9893b6f04dde7c5f47110d61ba9613a5572d082fa0e09a15ce939b。
 - Pell 数列与三 repdigit 和。Theorems 1.1–1.2; §§2–3。正式期刊文分类 Pell 与 Pell–Lucas 数为三个十进制 repdigit 之和的情形；给出的最大值为 P_9=985=888+88+9 及 Q_10=6726=6666+55+5，证明用 Matveev、de Weger 型归约和有限 Maple 搜索。
 - 版本与引用。解的完备性依赖 Pell Binet 公式、Matveev 的 Γ≠0 下界、continued-fraction 归约和搜索范围覆盖。 已核对期刊版本首页、主定理与一个线性形式；未复现 Maple 表或全部归约。
+- 第六批定向筛选。existing。The published Pell/repdigit classification uses the same Matveev, reduction, and finite-search pipeline already represented by the recurrence log-reduction reference. 定位。Theorems 1.1--1.2 and Sections 2--3。全卷 19 页。 后续条件。For a new Pell-style task, prove the nonzero linear form and reproduce the stated finite range rather than reuse the reported search.
 
 ## EXT-0390 · On sums of Fibonacci numbers with few binary digits
 
 - 原件。arXiv:2104.12593v1 (26 Apr 2021)。PDF 物理页 1, 2, 3, 4, 5。SHA-256 9bb932574d1755ff7dba040fac8c7d1943bca65990dc85f0256132c8a508c783。
 - Fibonacci 和的稀疏二进制表示。Abstract; Theorem 1; Theorems 2 and 4。完全求解 F_n+F_m 为五个二幂之和，声称恰有 38 组解且 n≤23、a_1≤14；路线为先有限搜索，再用 Archimedean/p-adic 对数线性形式和 Baker–Davenport/Dujella–Pethő 归约排除 n>1000。
 - 版本与引用。依赖 Matveev、p-adic 对数估计、代数整数局部赋值引理和多阶段有限搜索。 只核对问题、主结论和所用归约定理；未验证附录 38 解、p-adic 常数或搜索代码。
+- 第六批定向筛选。existing。The Fibonacci sparse-binary proof is a source-specific combination of Archimedean/p-adic logarithmic bounds and Baker--Davenport reductions, already within the existing linear-form rate workflow. 定位。Theorems 1, 2, and 4。全卷 20 页。 后续条件。Use the source's p-adic valuation and finite-search arguments only after independently fixing the digit-count and parameter bounds.
 
 ## EXT-0391 · Elementary Bounds on Digital Sums of Powers, Factorials, and LCMs
 
@@ -2393,42 +2558,49 @@
 - 原件。arXiv:2207.11331v2。PDF 物理页 1, 2, 4, 5, 11。SHA-256 cca19fa031b355603ecfcdbf55e613af820c8ec69f0485272e60145955a8fb5a。
 - 递推序列差值的 Pillai 型方程。Theorem 1.1；Lemma 2.2；§3。枚举 Padovan 数与 Fibonacci 数之差具有至少两种表示时的有限常数集合；证明以 Binet 近似、Matveev 型下界及 Dujella–Pethő 连分数消元逐步压缩指标差。
 - 版本与引用。决定性步骤是非零对数线性形式下界和对每个有限差值对的连分数 ε>0 检验；未复算其高精度连分数和枚举表。 未独立复核完整常数列表、有限搜索和文献版次。
+- 第六批定向筛选。existing。The source's usable core is the standard dominant-root reduction: exact Padovan/Fibonacci Binet formulae and bounds (3)–(8) lead to a nonzero logarithmic form, then Matveev and a Dujella–Pethő certificate. This is already documented by math-integer-linear-form-rates, references/supp-c07-10-recurrence-log-reduction.md. The source's finite list of c values is not independently reproduced. 定位。Physical pp.2–5: Theorem 1.1; Binet bounds (3)–(8); Lemma 2.2 and the beginning of the reduction.。全卷 13 页。 后续条件。Any classification must supply the actual nonvanishing proof, number field/heights, every convergent epsilon>0 check, and the final finite enumeration.
 
 ## EXT-0395 · Large common values of generalized Ankeny-Brauer-Chowla recurrences
 
 - 原件。arXiv:2606.27885v1（库存记录；首页未显示 arXiv 标识）。PDF 物理页 1, 2, 3, 9, 11。SHA-256 1e8245043fbc88458e615014b4968ec7d6076733611e18c8f5766165acbd7aa8。
 - 参数递推的公共值。摘要、§1–§4。研究广义 Ankeny–Brauer–Chowla 多项式及其倒数关联的双边递推；声称对充分大参数，两序列至多共有两个充分大的公共值，并通过对数线性形式得到有效指标界。
 - 版本与引用。依赖参数多项式的不可约性/根分离、函数域与 Galois 输入以及 Matveev 型界；只核对叙述与证明框架，未验证定量阈值。 未逐项核验 Theorem 1 的精确条件、参数“充分大”的有效界和版本来源。
+- 第六批定向筛选。candidate。This is not a routine fixed-recurrence reduction: the large-parameter claim relies on generalized ABC-polynomial root separation, irreducibility under specialization, function-field valuations, and Galois input before Baker bounds. The abstract and pp.1–3 confirm these are controlling dependencies rather than a standalone recurrence interface. 定位。Physical pp.1–3: abstract, polynomial (1), recurrence setup (3), and Lemma 1 on Puiseux valuations.。全卷 15 页。 后续条件。Pin an actual version/publication and independently audit Theorem 1's precise sufficiently-large-u threshold, the specialization/irreducibility step, and its effective constants before extracting a parameterized tool.
 
 ## EXT-0396 · Sums of Fibonacci numbers close to a power of 2
 
 - 原件。arXiv:2206.10356v1。PDF 物理页 1, 2, 3。SHA-256 c42d7df5c0dac65ba8758d66acd7c16abaafd0b8da43321d7301fdf312710a54。
 - Fibonacci 和的近幂不等式。Theorem 1.1、Corollary 1.2、§2。对 |F_n+F_m−2^a|<2^{a/2} 给出 52 个解及 n≤42、a≤28；并列出对应 Lucas 近二次幂结论。方法是 Matveev 下界后以连分数消元。
 - 版本与引用。关键为 Binet 误差转成非零对数线性形式，再使用 Dujella–Pethő 引理；未复算 52 个条目。 未核对附录解表、连分数阈值和正式发表信息。
+- 第六批定向筛选。existing。The source explicitly uses Fibonacci Binet bounds, Matveev, Dujella–Pethő, and a brute-force final range. Its transferable portion is already scoped by math-integer-linear-form-rates/references/supp-c07-10-recurrence-log-reduction.md; neither the claimed 52 solutions nor the Appendix has been re-enumerated here. 定位。Physical pp.2–4: Theorem 1.1; Binet (2.1)–(2.2); Matveev Theorem 2.1; Dujella–Pethő Lemma 2.3; Proposition 3.1's finite-search assertion.。全卷 8 页。 后续条件。A result-level use must provide the exact inequality normalization, proof that each form is nonzero, the concrete convergent/epsilon certificate, and a reproducible exhaustive search up to the final bound.
 
 ## EXT-0397 · Members of Narayana's cow sequence that are concatenations of two repdigits
 
 - 原件。arXiv:2210.00926v1。PDF 物理页 1, 2, 3。SHA-256 80fd39f80778698626dd76ea385e17d89943b69c1e71ca85d6c2cb00673daf97。
 - Narayana 递推的十进制拼接。Theorem 1；§2.1–2.2。完全求出可写为两个 repdigit 拼接的 Narayana 数，得到有限列表 {13,19,28,41,60,88,277}；使用三阶 Binet 近似、对数线性形式和 Baker–Davenport 消元。
 - 版本与引用。关键为主根近似误差、Matveev/Bugeaud–Mignotte–Siksek 下界和有限连分数筛除；未复算。 仅核对主定理与工具链，未核验最终枚举及版本状态。
+- 第六批定向筛选。existing。The third-order dominant-root/Binet error and subsequent Matveev plus Baker–Davenport reduction are a direct instance of the installed dominant-root recurrence-log route. The decimal concatenation shape and the final seven-member list are instance-specific and not independently checked. 定位。Physical pp.1–5: decimal repdigit definition, Narayana root/error bounds in p.3, reduction procedure in p.4, and start of the proof in p.5.。全卷 10 页。 后续条件。For any use, derive the exact digit equation, retain digit/block constraints, prove the relevant logarithmic form nonzero, and provide the actual continued-fraction certificate and finite search.
 
 ## EXT-0398 · Perrin numbers that are concatenations of two distinct repdigits
 
 - 原件。arXiv:2105.08515v1。PDF 物理页 1, 2, 3。SHA-256 1ccbe47e019e001ef5a0391f2d62c7f4bfe792139d5f347d9c5e7ff7aa8f1608。
 - Perrin 递推的十进制拼接。Theorem 1；§2。对 Perrin 数等于两个不同 repdigit 拼接给出有限清单 {10,12,17,29,39,51,68,90,119,277,644}；主根/共轭根估计接 Baker 型下界与连分数约化。
 - 版本与引用。关键为 Perrin 特征根的 Galois 共轭论证和后续对数线性形式约化；未独立验证。 未核对清单的逐项搜索、常数和出版版次。
+- 第六批定向筛选。existing。The source's operational ingredient is again a dominant real root with conjugate-error bound, followed by an imported logarithmic-form theorem and finite computation. That reusable reduction is covered by math-integer-linear-form-rates; the Perrin/Galois nonvanishing and claimed repdigit list are not a generic certificate. 定位。Physical pp.2–5: Perrin/Padovan relation, conjugate-root error estimate, imported Theorem 2, and stated Mathematica low-range search.。全卷 11 页。 后续条件。Need a self-contained Perrin root/conjugacy and nonvanishing audit plus executable final-range enumeration before accepting any solution list.
 
 ## EXT-0399 · Exchanging the places p and infinity in the Leopoldt conjecture
 
 - 原件。arXiv:math/0208008v1。PDF 物理页 1, 2, 3, 9, 13。SHA-256 512d1d2d7b658d314b8216b832f7b387c56b6f468f445e5653ca8c27a6cfdf5a。
 - Leopoldt 型对数独立与 Weil 数。§1、Proposition 2.1、Conjecture 3.1、Theorem 3.6。把 Leopoldt 的 p-adic 对数嵌入与无穷处的多值复对数作对偶比较；为 p-Weil 数群的无穷处向量提出独立性猜想，并在特定 Abel 情形借 Baker 定理证明一个实线性独立结论。
 - 版本与引用。Theorem 3.6 的决定性输入是群行列式分解及 Baker 对复对数线性形式的非零性；猜想本身不是已证组件。 未核对所有 Abel 情形的假设、后续文献状态和可计算化。
+- 第六批定向筛选。citation。This source is principally a conjectural comparison of p-adic and archimedean Leopoldt-type logarithmic independence. The actual positive result, Theorem 3.6, is conditional on the Abel situation of 3.5 and invokes a group-determinant decomposition and Baker's theorem; it is not a generally executable independence criterion. 定位。Physical pp.5, 10, 13: Proposition 2.2, Proposition 3.2, and Theorem 3.6.。全卷 18 页。 后续条件。Use only after specifying the CM/Weil-number group, Abel/Galois hypotheses, embeddings, and the exact Baker nonvanishing theorem; do not elevate Conjecture 3.1 to a tool.
 
 ## EXT-0400 · Alan Baker
 
 - 原件。arXiv:2010.10256v1。PDF 物理页 1, 2, 3。SHA-256 3d769ce848528d282edaa10a7fed62f6a5be6a2582d4c3dc91a7357e1958c94b。
 - Baker 工作的历史综述。摘要与 §1。Alan Baker 的生平和线性对数形式工作影响的历史性综述，不提出可直接执行的新数学程序。
 - 版本与引用。综述性材料，无待接入的证明依赖。 未通读传记与全部史料引文。
+- 第六批定向筛选。citation。Alan Baker is a historical/expository article. It records results and their context but supplies no bounded input/output procedure or independently usable proof component for this distillation. 定位。Physical pp.1–3 introduction and biographical survey; later theorem statements are expository.。全卷 31 页。 后续条件。Cite only for historical context; use primary theorem sources for any effective logarithmic-form bound.
 
 ## EXT-0401 · On solutions of the Diophantine equation $L_n+L_m=3^a$
 
@@ -2443,18 +2615,21 @@
 - 原件。arXiv:1409.8514v1。PDF 物理页 1, 2, 3, 14。SHA-256 399a9656a50988bc275527ff86e6c9e2a78e441afdb4aeef1b65afbfadbeaa9a。
 - k-Fibonacci 的二幂表示。Theorem 1 与 §2。分类 F_n^(k)+F_m^(k)=2^a 的解；利用 k-Fibonacci 主根接近 2 的估计、两次 Matveev 下界与小 k 连分数约化。
 - 版本与引用。关键是主根近 2 的显式误差式和约化后的有限检查；未逐条复核。 Theorem 1 的全部分类子情形和正式版本未核验。
+- 第六批定向筛选。existing。The k-Fibonacci proof combines an exact initial-range identity with dominant-root estimates and repeated logarithmic-form/continued-fraction reductions. The general reduction is already covered by math-integer-linear-form-rates/references/supp-c07-10-recurrence-log-reduction.md; the source's k-dependent cases and complete classification have not been independently recomputed. 定位。Physical pp.1–4: Theorem 1, exact identity (4), proof overview, and root growth bound (11).。全卷 15 页。 后续条件。Preserve k's range, derive the small-index identity and root-error hypotheses separately, then furnish all k-dependent height, nonvanishing, reduction, and final-search certificates.
 
 ## EXT-0403 · Powers as Fibonacci Sums
 
 - 原件。arXiv:2608.04445v1。PDF 物理页 1, 2, 3。SHA-256 97e45220b1ef2d1811fc60baf41291492409eae50f4ff886f62b0d7e55987823。
 - Zeckendorf 稀疏表示中的幂。Theorem 1.1 与 §1。把 y^a 为 k 个 Fibonacci 数之和转为 Zeckendorf 表示的位数问题；对 k=3,4,5,6 分别在给定 y 范围内声称给出全部解，并展示逐层 Baker–Davenport 约化。
 - 版本与引用。依赖 Matveev 显式界、Zeckendorf 规范化和最终表格搜索；未逐个核对表格与无限族说明。 仅核对 v1 的声明与框架；完整参数范围外未作结论。
+- 第六批定向筛选。existing。The reduction from a power to a sparse Zeckendorf representation and the ensuing dominant-root logarithmic forms are an instance-level use of the installed recurrence-log route. The source's asserted ranges for k and y, its iterative normalizations, and tables are not portable without their exact finite certificate. 定位。Physical pp.2–5: Zeckendorf reduction, displayed form Lambda_j on p.4, and the cited logarithmic-form theorem on p.5.。全卷 14 页。 后续条件。Verify the Zeckendorf normalization preserves the stated term count, prove every form nonzero, retain all parameter ranges, and rerun the final table search before using a classification.
 
 ## EXT-0404 · Non-Minimality of the Width-$w$ Non-adjacent Form in Conjunction with Trace One $τ$-adic Digit Expansions and Koblitz Curves in Characteristic Two
 
 - 原件。arXiv:1604.01562v2。PDF 物理页 1, 2, 3。SHA-256 39be16f291dfe8e52f4d17a5a911698749a3cc716c2cc4194f48c45816a463c6。
 - Koblitz 曲线的 τ-adic 数位展开。Theorem 2.3–2.4。研究 Koblitz 曲线相关 τ-adic 最小范数数位集，证明大窗口宽度时 width-w NAF 不最小；对象直接涉及椭圆曲线密码实现。
 - 归档定位。密码学专门对象；不提取或接入其实现/优化机制。 仅作身份与主题核对，未审阅密码学实现细节或证明。
+- 第六批定向筛选。hold。The paper's subject is tau-adic digit optimization for Koblitz curves in characteristic two. It is cryptography-specialized, and the source's digit-expansion/width-w NAF mechanisms are outside this pure-mathematics skill-release scope; no implementation or optimization component is extracted. 定位。Physical pp.3–7: digit-expansion definitions, non-minimality statement, and lattice/rectangle construction.。全卷 32 页。 后续条件。If a future non-cryptographic mathematical review is authorized, separate its algebraic non-minimality theorem from any scalar-multiplication implementation context and audit assumptions first.
 
 ## EXT-0405 · The mixed Littlewood conjecture for pseudo-absolute values
 
@@ -2468,12 +2643,14 @@
 - 原件。arXiv:2509.05984v1。PDF 物理页 1, 2, 3。SHA-256 fa346b343c8a1d75be8c16a89802e20af81afbb60c1a3123c3f1c6b653558e64。
 - Tribonacci-Lucas 的回文 repdigit 拼接。Theorem 1 与 §2。声称唯一满足两个不同 repdigit 回文拼接形状的 Tribonacci-Lucas 数为 S_8=131；使用三阶 Binet 近似、线性对数形式与连分数约化。
 - 版本与引用。决定性输入为主根误差界、Matveev 型下界和 Dujella–Pethő 引理；未复算。 未验证最终有限计算或版本后续修订。
+- 第六批定向筛选。existing。The source supplies another third-order recurrence/digit-shape instance: a dominant-root Binet estimate feeds Matveev and a lattice reduction. Its reusable recurrence-log part is already covered by math-integer-linear-form-rates; its LLL basis and finite final test are source-specific and were not reconstructed. 定位。Physical pp.1–4: theorem statement, Binet form/error, logarithmic-form setup, and lattice-reduction Lemma 4.。全卷 12 页。 后续条件。A result-level workflow needs exact Tribonacci-Lucas Binet/error and height data, an explicit lattice scale/reduced basis certificate, and the final enumeration.
 
 ## EXT-0407 · Palindromic concatenations of two distinct repdigits in Narayana's cows sequence
 
 - 原件。arXiv:2312.17571v1。PDF 物理页 1, 2, 3。SHA-256 7c1d76b25dc5fdb79e5f81d277c9a9985224605c0a65064302a2ee3e1a26a8e5。
 - Narayana 数的回文 repdigit 拼接。Theorem 1 与 §2.2。声称 Narayana 序列中唯一两个不同 repdigit 的回文拼接项为 595；证明沿用代数主根近似、Matveev 与 Baker–Davenport 约化。
 - 版本与引用。需主根/系数高度控制与有限约化计算；未独立执行。 未核对最终枚举和潜在正式版本。
+- 第六批定向筛选。existing。This Narayana palindromic-repdigit proof uses the same dominant-root/error, imported Matveev, and Baker–Davenport pipeline already scoped by math-integer-linear-form-rates. The number 595 is a source-specific classification, not independently certified here. 定位。Physical pp.2–5: Theorem 1, Narayana root/error bounds, reduction method, and first size comparison.。全卷 13 页。 后续条件。Provide the exact palindromic digit equation, block constraints, nonzero logarithmic form, convergent epsilon checks, and a reproducible finite search before concluding uniqueness.
 
 ## EXT-0408 · On the Diophantine Equation $F_n=F_l^k(F_l^m-1)$
 
@@ -2487,18 +2664,22 @@
 - 原件。arXiv:2007.12797v2。PDF 物理页 1, 2, 3。SHA-256 e2804524236d5fd8346656923c68cfd734ac2fdf303acd0f3a1ed6a6c7f83e19。
 - Narayana 数与 b-repdigit。Theorem 1、Corollaries 2–3。对 2≤b≤100，研究两个 Narayana 数之和为 b-repdigit；给出有限性、无长度≥7 解及关于单项 repdigit/Mersenne 数的推论。
 - 版本与引用。依赖三阶主根估计、对数线性形式与 Baker–Davenport 约化；未重跑列举。 未审计所有基数的表格、Mersenne 推论链与发表状态。
+- 第六批定向筛选。existing。The source's portable analytic mechanism is the dominant-root/Baker–Davenport reduction already recorded in math-integer-linear-form-rates. Its statement is restricted to bases 2 through 100 and its corollaries depend on a finite table; neither should be silently generalized. 定位。Physical pp.1–6: equation (1), Theorem 1 and corollaries on p.3, recurrence definition, size comparison, and imported logarithmic-form theorem.。全卷 15 页。 后续条件。Keep the base cap and digit/length assumptions explicit; independently reproduce the height, reduction, and table computations before using the no-length-at-least-seven claim or Mersenne corollary.
 
 ## EXT-0410 · Tribonacci numbers that are palindromic concatenations of two distinct repdigits
 
 - 原件。arXiv:2610.15770v1。PDF 物理页 1, 2, 3。SHA-256 84379b3f99020ae4ec816f81f791ddc503be5db45dfd35492ebca5b898a11667。
 - Tribonacci 的回文 repdigit 拼接。Theorem 1.1 与 §2。声称没有 Tribonacci 数具有两个不同 repdigit 的回文拼接形状；以两条独立对数线性形式给出块长/指标界，再做 Baker–Davenport 约化和有限搜索。
 - 版本与引用。决定性步骤是 Tribonacci Binet 余项控制、显式高度与有限搜索；未独立运行。 未核对 v1 全部附录计算及版本后续。
+- 第六批定向筛选。adopt。Physical pp.2–3 isolate a small exact dominant-root component useful before any Baker bound: for Psi(X)=X^3-X^2-X-1 and g(alpha)=alpha/Psi'(alpha), the source derives g(alpha)=(-4-3alpha+5alpha^2)/22, minimal polynomial 44X^3-2X-1, and h(g(alpha))=log(44)/3. I independently verified the inverse identity modulo Psi and the resultant, so this source-gated normalization can be used to supply exact height data; the paper's no-solution theorem is not adopted. 定位。Physical pp.2–3: Binet formulae (2)–(5) and Lemma 2.1.。全卷 9 页。 后续条件。The digit-shape theorem still needs both nonzero linear forms, all Matveev/continued-fraction certificates, and its finite search. Use the adopted identity only when the recurrence and chosen dominant root match exactly.
+- 已采用方法。物理页 2, 3。For Psi=X^3-X^2-X-1 and its positive root alpha only: exact formula, minimal polynomial, and absolute height for g(alpha)=alpha/Psi'(alpha). It is a height-input helper, not a solution classifier or a substitute for nonvanishing/reduction certificates. [方法说明](../../../math-integer-linear-form-rates/references/supp-12-tribonacci-dominant-root-height.md)。
 
 ## EXT-0411 · Prime powers in sums of terms of binary recurrence sequences
 
 - 原件。arXiv:1610.02774v4。PDF 物理页 1, 2, 3, 7。SHA-256 06f4362b357d4e82d49de8663d3ba5efadc86b490d8f623a935ee851d128e000。
 - 二阶递推和等于素数幂。Theorems 1–2 与 §4。对非退化、正判别式二阶递推，给出 u_{n1}+…+u_{nt}=p^z 的有效有限性；并完全求解三个 balancing 数之和为 3 的幂的实例。
 - 版本与引用。关键为主根 Binet 形式、连续差值的对数线性形式和 Dujella–Pethő 约化；未验证一般定理常数。 未检查假设边界、实例计算和正式版差异。
+- 第六批定向筛选。existing。The actual dominant-root/Binet and logarithmic-form strategy is already represented by the installed math-integer-linear-form-rates recurrence-log-reduction reference. The paper's Theorem 1 gives only effective finiteness with an unspecified sequence-dependent C, and its balancing-number classification is a separate finite computation. 定位。physical pp. 1, 3--4; abstract, Theorem 1, and Lemma 3.1。全卷 15 页。 后续条件。For a new instance, certify nondegeneracy, positive discriminant, the dominant-root error bounds, each nonzero logarithmic form and the Dujella--Petho reduction inputs before claiming a complete solution list.
 
 ## EXT-0412 · Linear independence measure of logarithms over affine groups
 
@@ -2512,6 +2693,7 @@
 - 原件。arXiv:1402.4085v1。PDF 物理页 1, 2, 3。SHA-256 a6fcbcf4686dfb921fd0e5fe97b2bc6d8ce2ac2656d9e0b5fa961906ef5b6ce2。
 - 广义 Lucas 序列交集。Theorem 1、Corollaries 1–2。对 k>ℓ≥2 的广义 Lucas 序列分类 L_n^(k)=L_m^(ℓ)，主定理称仅有初始段的平凡重合，并推出交集基数为 ℓ+1。
 - 版本与引用。证明依赖特征根近 2 的估计、对数线性形式与 Baker–Davenport 约化；未复算有限边界。 未验证 “trivial” 的完整定义、参数边界和发表状态。
+- 第六批定向筛选。existing。Its Binet approximation plus Baker--Davenport reduction is a direct specialized use of the existing dominant-root recurrence/logarithmic-form route. Theorem 1 only becomes a classification after the source's finite bounds and reductions, not from the initial-segment identity alone. 定位。physical pp. 1, 3--4; abstract, Theorem 1, Corollaries 1--2, and Lemma 1。全卷 14 页。 后续条件。Supply k, ell, the exact generalized-Lucas initial convention, root isolation, nonzero form certificates and an independently replayed final finite search.
 
 ## EXT-0414 · On the Diophantine Equations $J_n+J_m=L_k$ and $L_n+L_m=J_k$
 
@@ -2525,12 +2707,14 @@
 - 原件。arXiv:1612.05869v1。PDF 物理页 1, 2, 3。SHA-256 0e1628cecbec972efc412d2f76aef281b5fd82262a5867b21fcb1c0f5a8ff9ef。
 - 二阶递推和与素数幂线性组合。Theorems 1–2。对二阶非退化正判别式递推，在线性组合的最大指数分离条件下给出 U_{n1}+…+U_{nt}=Σb_i p_i^{z_i} 的有效有限性；并列出 Fibonacci=2^z1+3^z2 的解。
 - 版本与引用。条件 T_ε 控制同一底数的竞争指数，证明依赖对数线性形式和 Baker–Davenport；未审计常数与列表。 未核对完整假设、显式界或正式发表版本。
+- 第六批定向筛选。existing。The usable portion is the same dominant-root recurrence pre-bound: p_s^{z_s} is controlled by the largest recurrence index under the stated positive-coefficient/order hypotheses. The actual paper makes this explicit in Lemma 3.1, but its full finiteness result additionally depends on the separation condition T_epsilon and logarithmic-form reductions already routed as such. 定位。physical pp. 1, 3--4; abstract, setup (2.2), and Lemma 3.1。全卷 16 页。 后续条件。Check all b_i, p_i and exponent-order hypotheses, the nondegenerate positive-discriminant Binet data, T_epsilon, and certified finite reduction before using it for a solution claim.
 
 ## EXT-0416 · Multiplicative independence in the sequence of $k$-generalized Pell numbers
 
 - 原件。arXiv:2605.17699v2（库存记录；首页未显示 arXiv 标识）。PDF 物理页 1, 2, 3, 9, 10, 12, 13, 16。SHA-256 a20a7bc85d96ffe0f1b1d7ce0ae1a253f899e42392bb756b1a26ab8eee241a00。
 - k-Pell 项的乘法独立性。Theorem 1.1、Propositions 3.2–3.3 与 §3.5。声称对 k≥2、n>m≥2、x<y<n，k-Pell 项满足 (P_n^(k))^x=(P_m^(k))^y 无解；证明分大/中/小 k，结合 Matveev、两对数下界、连分数、LLL 和有限搜索。
 - 版本与引用。小 k 结论依赖给出的 SymPy perfect_power 穷举及 LLL 参数；大 k 依赖渐近 Binet 误差和 Laurent–Mignotte–Nesterenko 界，未复跑。 未核实代码运行、全部阈值和 v2 文献状态。
+- 第六批定向筛选。candidate。The source gives a sharply delimited k-Pell multiplicative-independence theorem, but the early identity P_n^(k)=F_(2n-1) for n<=k+1 is attributed to prior work and the global conclusion depends on Matveev, continued fractions, LLL, and a claimed finite computational verification. No independently checkable all-k certificate or installed route matches the final assertion. 定位。physical pp. 1--3; abstract, Theorem 1.1, and displayed equations (2)--(3)。全卷 17 页。 后续条件。Construct exact recurrence/polynomial root bounds for a supplied k, replay the cited LLL/perfect-power searches with all thresholds, and prove the nonzero logarithmic-form cases before adoption.
 
 ## EXT-0417 · $Ω$-bounds for the partial sums of some modified Dirichlet characters II
 
@@ -2544,12 +2728,14 @@
 - 原件。arXiv:2509.24057v1。PDF 物理页 1, 2, 3。SHA-256 46cde8982adb3f0935713bc34ca97b4c64c353a13d52c0d1955e8982cda61cfa。
 - 线性递推数串接方程。Theorem 1.1; §2 Matveev input。对 k≥3 的 L_n^(k)=L_m^(k)10^d+L_p^(k) 完全分类，仅列出 L_4^(k)=12 (k≥4) 与 L_5^(4)=22。
 - 版本与引用。结论依赖 k-Lucas Binet 近似、Matveev 下界、Dujella–Pethő/LLL 约化及有限计算。 未逐项复算作者的 Sage 有限检验；结果只适用于十进制两段同序列串接。
+- 第六批定向筛选。candidate。The local Binet-like estimate is explicitly cited, while the claimed complete decimal-concatenation classification depends on Matveev, LLL, continued fractions, and Sage verification. It has no finite caller contract beyond a supplied k,m,n,p and digit convention. 定位。physical pp. 1--4; abstract, equation (1.1), and equations (2.6)--(2.8)。全卷 15 页。 后续条件。Fix the base-10 digit predicate and recurrence convention; independently certify the Binet error, nonzero forms, reduction parameters, and exhaustive residual search for each k range.
 
 ## EXT-0419 · Level structure, arithmetic representations, and noncommutative Siegel linearization
 
 - 原件。arXiv:2107.02213v2。PDF 物理页 1, 2, 3。SHA-256 a7efd1cdb705da3291a22281df2c4a9ef5a8738779a50e8883262e3a70313b24。
 - ℓ-adic 算术表示。Theorem 1.1.2; Corollary 1.1.3。对特征不等于 ℓ 的有限生成域上光滑几何连通曲线，足够深模 ℓ^N 平凡的半单算术 π₁ 表示必平凡，并推出函数域 Abelian scheme 的层结构界。
 - 版本与引用。核心是非交换非阿基米德 Siegel 线性化及 ℓ-adic Baker 对数型；常数依赖 X 与 ℓ。 代数几何专题；未核对后续正式发表版本及全部非交换线性化引理。
+- 第六批定向筛选。hold。The theorem is a deep arithmetic-representation statement over a smooth geometrically connected curve; its proof invokes a noncommutative non-Archimedean Siegel linearization and Frobenius-density mechanism. It supplies neither a finite representation-data format nor computable N(X,ell) in the local text. 定位。physical pp. 1--3; abstract, Theorem 1.1.2, Corollary 1.1.3, and proof overview。全卷 14 页。 后续条件。Specify a curve/field/model, semisimple arithmetic representation and level structure, then independently construct the analytic completion, Frobenius action and quantitative radius/linearization data.
 
 ## EXT-0420 · On solutions of the Diophantine equation P_m-L_n=c
 
@@ -2570,18 +2756,21 @@
 - 原件。arXiv:2205.11217v2 (PDF dated 2024-03-02)。PDF 物理页 1, 3。SHA-256 787d87f4a8837955a3203459eee45b5effc5dc4024197724c4cb40e631eb321b。
 - 指数单位方程。摘要；Proposition 1.1。在互素 a,b,c>1 的 a^x+b^y=c^z 中，论文在特定模 c 同余条件下证明 Scott–Styer 型至多一解结论，并给出若干 c 的应用。
 - 版本与引用。基础上界使用二对数 Baker 方法与三假设解的 gap principle；主定理还依赖其同余假设。 未追踪每个 c 的应用表与前作依赖，不能泛化为一般指数方程求解器。
+- 第六批定向筛选。candidate。This is a parameter-specific exponential-unit-equation uniqueness result. Its abstract and introduction restrict it to pairwise coprime a,b,c with additional congruence hypotheses; the key gap-principle and logarithmic estimates are not a general two-variable unit-equation solver. 定位。physical pp. 1--3; abstract and Proposition 1.1 setup。全卷 52 页。 后续条件。Extract the exact congruence and coprimality hypotheses from Proposition 1.1, then certify the relevant two-logarithm and three-solution gap inequalities for a supplied triple before any use.
 
 ## EXT-0423 · A Pillai-Catalan-type problem involving Fibonacci numbers
 
 - 原件。arXiv:2401.08205v3。PDF 物理页 1, 3, 4。SHA-256 e6b69f03c2f7b8d19db4e41142e8afd985510cfce19f2d135062d813c6a72067。
 - Fibonacci-Pillai-Catalan 方程。Theorem 1.1; §3。完全解正整数方程 3^x−F_n^{2y}=1，解为文中列出的七个三元组。
 - 版本与引用。使用 Fibonacci Binet 界、2-adic 同余、Matveev 型下界与 Dujella–Pethő 连分数约化。 仅固定底数 3 与平方指数结构；未独立复算约化和枚举。
+- 第六批定向筛选。candidate。The source's seven-solution conclusion is for the narrowly fixed equation 3^x-F_n^(2y)=1. Its proof route combines Binet estimates, 2-adic congruences, Matveev, and Dujella--Petho reduction, with no independently replayed reduction or finite residual enumeration in this review. 定位。physical pp. 1, 3--4; abstract, Theorem 1.1, and beginning of the reduction setup。全卷 7 页。 后续条件。For any use, retain the exact positivity/index conventions and independently reproduce the p-adic and real logarithmic bounds plus the final finite check; do not generalize to arbitrary bases or exponents.
 
 ## EXT-0424 · inf(M \ L)=3
 
 - 原件。arXiv:2411.06933v1。PDF 物理页 1, 2, 3。SHA-256 62a0fd43d9e94ca0c04b300da3519f7d5e39fbf82a633f7ffdd34a4998960a03。
 - Markov–Lagrange 谱。Theorems 1.1–1.2。证明任意 ε>0 时 M∩(3,3+ε) 与 L∩(3,3+ε) 不同，故 inf(M\L)=3，并给出该差集局部 Hausdorff 维数下界。
 - 版本与引用。依赖 Markov/Lagrange 谱的符号动力学、局部唯一性及组合构造。 非可直接调用的通用计算工具；未复核构造与维数估计常数。
+- 第六批定向筛选。adjacent。The result concerns symbolic dynamics and Hausdorff dimension in the Markov--Lagrange spectrum. Its local theorem proves a qualitative spectral separation near 3, but it does not yield an arithmetic-constant certificate or a finite solver for the current tool routes. 定位。physical pp. 1--4; abstract, Theorems 1.1--1.2, and symbolic setup。全卷 46 页。 后续条件。A separate symbolic-dynamics workflow would need exact word coding, height function, local-uniqueness and dimension estimates before any transfer.
 
 ## EXT-0425 · A p-adic lower bound for a linear form in logarithms
 
@@ -2603,12 +2792,14 @@
 - 原件。arXiv:1402.2005v1。PDF 物理页 1, 2, 3。SHA-256 ad967db0bac8ad8057a638e198f7f7fddc01ba66bf9ba270697ea56a808062eb。
 - 参数三次 Thue 方程。Theorem 1.2。对参数三次型 F_{3,t}(x,y)=1 给出所有整数解的显式列表，并说明 F_{3,-t} 与另一族 GL_2(Z)-等价。
 - 版本与引用。使用根邻近/单位方程分析和参数大时的对数型估计，另对小参数作处理。 只针对指定三次型族；未核验全部小 t 计算。
+- 第六批定向筛选。candidate。The paper provides an explicit parameterized cubic-Thue family, but its complete list combines root interval separation, unit representations, linear forms, lattice reduction, and small-parameter cases. No source-certified code or all-t final enumeration is supplied here. 定位。physical pp. 1--4; abstract, Theorem 1.2 context, discriminant formula, and type intervals。全卷 12 页。 后续条件。Encode F_(3,t), first prove the root interval/type gate for the chosen integer t, then provide exact unit/minor or certified logarithmic-form and lattice-reduction evidence including exceptional t.
 
 ## EXT-0428 · An explicit André-Oort type result for P^1(C) x G_m(C) based on logarithmic forms
 
 - 原件。arXiv:1403.2949v1。PDF 物理页 1, 2, 3。SHA-256 cf6e86dea18a3dd27f568bff61756f4db20b936f36756c802fd5df4fe5b6030b。
 - 显式 André–Oort 界。Theorem 1.1; §2.1。对不含水平或垂直线的数域曲线，给出其特殊点（奇异模与根单位）判别式 |Δ| 和单位根阶 N 的显式上界。
 - 版本与引用。使用 Baker–Wüstholz 复对数型下界、height/degree 控制及 CM 类数事实。 应用依赖曲线方程的 d、δ_i、h(F)；未实现特殊点枚举或核实正式发表版本。
+- 第六批定向筛选。candidate。Theorem 1.1 gives explicit discriminant/order bounds for special points on a curve only after the curve is supplied over a number field with no horizontal or vertical component. The proof's Baker--Wustholz lower bound is instantiated with height/degree quantities but no special-point enumerator is provided. 定位。physical pp. 1--4; abstract, Theorem 1.1, and logarithmic-form estimate in Section 2。全卷 9 页。 后续条件。Input a normalized curve equation and field/degree/height data, prove the geometric exclusions, compute the stated C, then independently enumerate and test singular moduli and roots of unity within the resulting bounds.
 
 ## EXT-0429 · Skolem Meets Bateman-Horn
 
@@ -2622,24 +2813,29 @@
 - 原件。arXiv:2406.05083v1。PDF 物理页 1, 2, 3。SHA-256 93f564016320f7f2577ed6a554f56e8601ff55aafd77f4ff0b9f68d642da99f6。
 - 条件化 abc/abcd 次指数界。Theorems 1.3 and 1.6。在 a≤c exp((log c)^τ/log_2^*c) 的额外大小条件下给出 abc 次指数界，并对四项互素和为零在小两项和条件下给出对应 abcd 界。
 - 条件或证据待查。依赖既有 abc 次指数结果及线性对数形式；结论的强度条件化于 τ 与变量尺度假设。 不作为无条件 abc 工具；需复核引用[9]及常数 κ 的来源。
+- 第六批定向筛选。citation。The paper's carefully qualified subexponential abc/abcd inequalities are useful only as conditional-scale literature facts. Theorem 1.3 assumes a<=c exp((log c)^tau/log_2^* c), and Theorem 1.6 assumes a small pair-sum; neither is an unconditional abc tool. 定位。physical pp. 1--4; Theorems 1.3 and 1.6 and their reductions。全卷 4 页。 后续条件。Before citing an application, verify pairwise coprimality, signs, height/radical conventions and the exact size hypothesis; obtain the underlying two-logarithm theorem if constants matter.
 
 ## EXT-0431 · Mordell's equation: a classical approach
 
 - 原件。arXiv:1311.7077v1。PDF 物理页 1, 8。SHA-256 f3a0ef67ce3624982110085d640116c313b780a8cc214e98d7b7fec859d9cf72。
 - Mordell 方程有限求解。摘要；§3 reduced cubic forms。对所有 0<|k|≤10^7，求解整数 Mordell 方程 Y^2=X^3+k；路线经与三次 Thue 方程的经典对应。
 - 版本与引用。需枚举判别式有界的约化三次型，再以对数型下界与格基约化解 Thue 方程。 固定 |k| 阈值的计算结果；未取得作者数据或重跑大规模枚举。
+- 第六批定向筛选。adopt。The actual classical covariant identity gives a concrete bridge from a cubic Thue solution to a Mordell point, but the claimed all-|k|<=10^7 solution database depends on reduced-form enumeration and external logarithmic/lattice computations. The paper is valuable as a scoped transformation reference, not as a verified large-range solver. 定位。physical pp. 1, 3--4; abstract, Section 2 correspondence, covariant syzygy, and equations following it。全卷 19 页。 后续条件。For a fixed k, enumerate the relevant reduced cubic forms of discriminant -108k, verify the covariant syzygy and parity gate, then replay each Thue solver with reproducible bounds and data.
+- 已采用方法。物理页 4。Scoped reference only: the normalized Hessian/cubic-covariant transformation with an explicit discriminant and parity gate. It is not a large-range Mordell solver or a proof that any supplied Thue enumeration is complete. [方法说明](../../../math-integer-linear-form-rates/references/supp13-mordell-cubic-thue-bridge.md)。
 
 ## EXT-0432 · A note on pencils of norm-form equations
 
 - 原件。arXiv:2104.04544v1。PDF 物理页 1, 2, 3。SHA-256 514847a12df34f84127e9665a3299f34d348b64b4c39b9903980fb559a393a5b。
 - 参数范数型方程。Theorem 1; Theorem 2。对 t>1，参数方程 x^3−(t^3−1)y^3+3(t^3−1)xy+(t^3−1)^2=±1 仅有 (x,y)=(t^2,2t),(t^2,−t)。
 - 版本与引用。使用二对数 Laurent 下界及基本增长论证；参数 t>1 不可删除。 专题范数型族，不应外推到一般 pencil。
+- 第六批定向筛选。candidate。Theorem 1 is an exact but highly specialized parameterized norm-form result for integer t>1. The proof isolates special unit exponents and then invokes an explicit two-logarithm bound; it is not a generic norm-form or Thue-equation routine. 定位。physical pp. 1--4; abstract, Theorem 1, unit-exponent discussion, and explicit two-logarithm estimate。全卷 6 页。 后续条件。For a reusable check, preserve t>1 and the exact cubic equation, derive the unit parametrization, certify the two-logarithm nonvanishing/lower bound and exhaust the remaining m range.
 
 ## EXT-0433 · Pell and Pell-Lucas numbers as sums of two Jacobsthal numbers
 
 - 原件。arXiv:2210.04009v1。PDF 物理页 1, 2, 3。SHA-256 31c3c2bb8f5c8f4899d45ff96a98fdb8ab1ffed10c59551b74fb1957338ba2a1。
 - 二元递推和方程。Theorems 1.1–1.2; §2.4。完全列举 P_k=J_n+J_m 与 Q_k=J_n+J_m（n≥m）的非负整数解。
 - 版本与引用。使用 Pell/Jacobsthal Binet 公式、Matveev 下界及 Dujella–Pethő 约化。 仅三指定序列；未独立复核作者列出的有限解。
+- 第六批定向筛选。existing。SHA and 12 physical pages verified. The arXiv:2210.04009v1 preprint states the two specialized classifications on p.2; pp.3--4 supply the Matveev and continued-fraction gates. Its dominant-root/nonvanishing/reduction structure is already covered, without importing its finite solution table. 定位。physical pp.2--4, Theorems 1.1--1.2 and Theorems 2.1, 2.3。全卷 12 页。 后续条件。Use math-integer-linear-form-rates/references/supp-c07-10-recurrence-log-reduction.md; separately prove Binet error, nonvanishing, heights, reduction hypotheses, and finite search for any new recurrence.
 
 ## EXT-0434 · On a Diophantine Equation with Jacobsthal and Fibonacci Numbers
 
@@ -2653,12 +2849,14 @@
 - 原件。arXiv:1108.2185v1。PDF 物理页 1, 10, 12。SHA-256 2d0cca4261d2998d11bc666f19c9367e5602b6af66b4978263d05a9eb39f1789。
 - 四次 Thue 方程解数上界。摘要；Lemmas 5.1 and 6.1。对二元四次型 |F(x,y)|=1 给出整数解数上界，按根的 signature 分情形，并以对数曲线 φ(x,y) 连接到线性对数形式。
 - 版本与引用。依赖 Mahler 测度、判别式和根邻近界；具体上界有 signature/large-y 阈值。 未抽取首页未显示的完整主定理常数；不宜作为一般 Thue 求解程序。
+- 第六批定向筛选。candidate。SHA and 23 physical pages verified. arXiv:1108.2185v1 gives signature- and discriminant-threshold-dependent bounds for |F(x,y)|=1; the logarithmic curve and small/large-y division cannot be promoted to a general quartic Thue solver from the inspected pages. 定位。physical pp.1, 7, 10, 12; abstract, §4, Lemmas 5.1 and 6.1。全卷 23 页。 后续条件。Obtain the exact discriminant threshold, signature hypotheses, root-separation/Mahler-measure bounds, and audit Lemmas 5.1 and 6.1 before a bounded quartic-Thue component.
 
 ## EXT-0436 · Sum of consecutive powers as a perfect power
 
 - 原件。arXiv:2605.18348v1。PDF 物理页 1, 2, 3。SHA-256 22c4e3fcfa12df53a3fbac7c2fcabe5b92877d377d7fe300d5ce7217de12f87a。
 - 相邻幂和完全幂。Theorem 1.1; §3。当 k≡2 mod 4 且 6≤k≤100 时，x^k+(x+1)^k=y^n (n≥3) 只有 x∈{−1,0} 的平凡解。
 - 条件或证据待查。经 Lebesgue–Nagell 方程化归，使用 Frey 曲线模方法、线性对数形式及 Thue 方程求解。 新预印本且结论只覆盖给定 k 范围；需审计模性、level-lowering 与每个 k 的计算。
+- 第六批定向筛选。candidate。SHA and 17 physical pages verified. The current supplied preprint proves only the stated k congruence/range conclusion, while its proof requires a finite family of Lebesgue--Nagell/Thue computations, modular elimination, and a later logarithmic-form step. 定位。physical pp.2--3, Theorem 1.1 and proof roadmap。全卷 17 页。 后续条件。Pin the public preprint version and repository commit; independently replay the per-k modular/Thue computations and verify the Frey, level-lowering, and final logarithmic-form hypotheses.
 
 ## EXT-0437 · A kit for linear forms in three logarithms
 
@@ -2672,6 +2870,7 @@
 - 原件。arXiv:2512.03498v1。PDF 物理页 1, 2, 3。SHA-256 a19746ba62c004d8baf508eaa646c234e0b37df0b1db97eb0d0331249c81ad7a。
 - 几何级数和集等差数列。Theorem 1; Corollary 1.1。完全分类 S_{a,b}={a^x+b^y} 中五项等差级数，并据此列出仅有的六项等差级数。
 - 条件或证据待查。依赖 S-unit 方程、复及 p-adic 对数型下界、Frey–Hellegouarch 曲线模性和 level lowering。 需核实预印本日期/版本及多层外部深结果；不直接抽象为通用工具。
+- 第六批定向筛选。candidate。SHA and 31 physical pages verified. The supplied preprint's long-progression classification is specialized to S_{a,b} and invokes complex and p-adic logarithmic estimates plus modular/Frey consequences; it is not a parameter-uniform AP detector. 定位。physical pp.1--3, Theorem 1, Corollary 1.1, and initial case reductions。全卷 31 页。 后续条件。Pin authoritative preprint metadata, then audit the cited S-unit and modular theorems and every exceptional-case reduction before extracting a solver route.
 
 ## EXT-0439 · Diophantine Equations with Arithmetic Functions and Binary Recurrences Sequences
 
@@ -2700,6 +2899,7 @@
 - 原件。arXiv:1811.10889v1。PDF 物理页 1, 3, 4。SHA-256 16c3e3377001885512a403b52887cecef531c3031c776faff89140f62a839703。
 - 移位二阶递推完全幂。Theorem 1; identities (7)–(9)。建立移位非退化二次 Lucas–Lehmer 序列完全幂的一般框架，并证明 F_k±2=y^p 时 |k|∈{1,2,3,4,9}。
 - 版本与引用。奇 k 用 Fibonacci–Lucas 分解与既有结果；偶 k 需要实二次域 Frey 曲线、模性与 Archimedean/non-Archimedean 对数下界。 框架的普适部分仍取决于可用的 totally-real 模性；未实现一般 c 的移位求解。
+- 第六批定向筛选。adjacent。SHA and 26 physical pages verified. The published version is Bennett--Patel--Siksek, Research in Number Theory 5 (2019), Article 15; the supplied arXiv:1811.10889v1 derives a Frey curve over a totally real quadratic field and combines it with explicit recurrence identities. That modularity-dependent framework is outside the installed finite recurrence route. 定位。physical pp.1, 3, 5--6; abstract, identities (5)--(9), and small-exponent gates。全卷 26 页。 后续条件。For ordinary recurrence/logarithm work use math-integer-linear-form-rates/references/supp-c07-10-recurrence-log-reduction.md. Any shifted-perfect-power extension needs a separately specified totally-real modularity/Frey pipeline and finite computation certificate.
 
 ## EXT-0443 · Sums of two S-units via Frey-Hellegouarch curves
 
@@ -2720,6 +2920,7 @@
 - 原件。arXiv:2307.03919v1 (header observed, 8 Jul 2023)。PDF 物理页 1, 2。SHA-256 a94c0409c704aa9e9ed9b58840c794c143a2faec011bc7061eb8d5e7f81175b0。
 - intersections of linear recurrence sequences。Abstract; Theorem 1.1; §2.1。Classifies positive solutions of P_n^(k)=N_m for k-generalized Pell and Narayana sequences, using a dominant-root Binet formula, Matveev bounds, continued fractions and Dujella--Petho reduction.
 - 条件或证据待查。The reduction uses external Matveev and Dujella--Petho estimates plus a cited dominant-root proximity lemma; the finite cases are integral to the conclusion. Main classification and setup checked only; no audit of the cited root lemma, reduction constants or finite search.
+- 第六批定向筛选。existing。SHA and 11 physical pages verified. arXiv:2307.03919v1 uses exactly the documented dominant-root approximation plus Matveev/continued-fraction reduction pattern; its complete table remains source-specific. 定位。physical pp.2--4, Theorem 1.1 and Lemmas 2.1--2.2。全卷 11 页。 后续条件。Use math-integer-linear-form-rates/references/supp-c07-10-recurrence-log-reduction.md and independently establish the root-proximity lemma, nonvanishing, heights, reduction constants, and final finite enumeration.
 
 ## EXT-0446 · On a Diophantine Equation Involving Lucas Numbers
 
@@ -2755,114 +2956,134 @@
 - 原件。inventory labels arXiv:2308.11829v2; no arXiv identifier was visible on checked first page。PDF 物理页 1, 5, 6, 7, 9, 15, 17, 18。SHA-256 364177c6fc6380ffa81d88b10ee8944cd7c28eb0778ac45466815fcb21f995e3。
 - experimental polynomial continued fractions。§§2--3.6; §§4.2--4.3。Introduces factorial-reduction search and conservative matrix fields to organize polynomial continued fractions. It proves some parametric identities but explicitly labels many PSLQ matches and the global matrix-field hierarchy as conjectural; its ζ(5) discussion remains open.
 - 条件或证据待查。Discovery uses finite search and PSLQ; a usable theorem requires a separate symbolic identity, convergence proof, integrality/denominator analysis and, for irrationality, a certified decay-versus-height inequality. No independent verification of the claimed identities, implementation or numerical data; conjectural statements must not enter a proof skill.
+- 第六批定向筛选。citation。SHA and 33 physical pages verified. The source corresponds to the published PNAS 121 (2024), e2321440121, but its factorial-reduction search criterion and many matrix-field claims are explicitly heuristic/conjectural; it adds no admissible proof gate beyond the existing PCF admission route. 定位。physical pp.5--7, 15, 17--18; factorial-reduction discussion, PSLQ caveat, and outlook。全卷 33 页。 后续条件。Use math-gamma-continued-fraction-recurrence/references/pcf-factorial-reduction-admission.md; prove an identity, convergence, integrality, and factorial-reduction asymptotic independently for every candidate.
 
 ## EXT-0451 · Automated Search for Conjectures on Mathematical Constants using Analysis of Integer Sequences
 
 - 原件。inventory labels arXiv:2212.09470v2; no arXiv identifier was visible on checked first page。PDF 物理页 1, 3, 4, 6, 9, 10, 11, 16, 18。SHA-256 32f641cc293405fea0ee0b98710aa00a2c47e0bca7bcd6fc7fc79ee019186480。
 - continued-fraction conjecture search。§§2--4; Theorems 1--2; Appendix B。ESMA enumerates signed continued fractions, applies Berlekamp--Massey to sampled partial-denominator sequences, and numerically validates proposed identities. It also proves transformations between signed/interlaced forms, while numerous displayed constant formulas are expressly new and unproven.
 - 条件或证据待查。Finite-digit comparison and recurrence fitting are discovery evidence only; each proposed limit requires an independent identity and convergence proof before it can support a mathematical claim. Algorithm description and formal transformation claims were checked, not its code, all hypotheses of transformations, or any conjectural formula.
+- 第六批定向筛选。adopt。SHA and 31 physical pages verified. The official formal version is ICML 2023/PMLR 202, 28809--28842; supplied arXiv:2212.09470v2 Appendix B.2 gives a directly checkable exact folding identity for a collapsed polynomial matrix layer, distinct from the installed PCF factorial-reduction gate. 定位。physical pp.18--20, Appendix B.2, equations (26)--(29)。全卷 31 页。 后续条件。Before using the transform on an infinite continued fraction, separately prove the product limit, all nonzero e_n conditions, and any claimed constant identity or convergence statement.
+- 已采用方法。物理页 18, 19, 20。Exact finite folding-layer identity for a supplied collapsed 2x2 polynomial matrix with nonzero e_n/e_{n+1}; it excludes infinite-limit, formula-identification, and irrationality conclusions. [方法说明](../../../math-gamma-continued-fraction-recurrence/references/supp-14-esma-folding-transform.md)。
 
 ## EXT-0452 · Applications of the hyperbolic Ax-Schanuel conjecture
 
 - 原件。arXiv:1703.08967v5 (header observed, 11 Oct 2018)。PDF 物理页 1, 2, 3。SHA-256 9f027d57108de6fc81a32e95c565b7b3dfd6e3a8b521c0e4e17f2b6278b731e4。
 - Shimura unlikely intersections。Abstract; §1; Conjecture 1.2。Reduces Zilber--Pink problems for pure Shimura varieties to point counting under hyperbolic Ax--Schanuel and arithmetic assumptions, using Pila--Wilkie in selected cases; it is not a standalone effective procedure.
 - 版本与引用。The applications rely on Ax--Schanuel, large Galois-orbit/arithmetic hypotheses and o-minimal counting; several conclusions are conditional. Introduction-level review only; no conditional implication or cited theorem was independently checked.
+- 第六批定向筛选。adjacent。SHA and 46 physical pages verified. The supplied arXiv:1703.08967v5 matches the published Compositio Mathematica 154 (2018), 1843--1888 version; its advertised reductions require hyperbolic Ax--Schanuel plus stated arithmetic point-counting hypotheses, so it is not an unconditional procedure. 定位。physical pp.1--4, abstract and §1 dependency declarations。全卷 46 页。 后续条件。Supply a concrete Shimura datum, definability/fundamental-domain input, the exact Ax--Schanuel theorem, and the LGO/height hypotheses before an application-specific component is justified.
 
 ## EXT-0453 · Adequate Predimension Inequalities in Differential Fields
 
 - 原件。arXiv:1803.04753v4 (header observed, 15 Aug 2021)。PDF 物理页 1, 2, 3。SHA-256 97f54425958b35d2a6e3a85f75be05ba8192813c5c408278562d8f527b39fa9f。
 - model theory of differential fields。Abstract; §§1--2。Defines adequacy for predimension inequalities and studies Ax--Schanuel examples, including a Hrushovski construction for the j differential equation. It frames existential closedness as the additional requirement beyond the inequality.
 - 版本与引用。The advertised j-equation application relies on Ax--Schanuel and external/joint-work adequacy results; definitions alone do not yield an executable algebraic test. Only scope and introductory dependency declarations checked; no construction or adequacy proof audited.
+- 第六批定向筛选。candidate。SHA and 40 physical pages verified. The supplied arXiv:1803.04753v4 has the formal Journal of Applied Logic 169 (2022), 103030 record; its strong-extension definition is precise, but adequacy relies on a Hrushovski construction and existential-closedness, not a finite algebraic test. 定位。physical pp.4--7, Theorem 1.3 and Definitions 2.7--2.8。全卷 40 页。 后续条件。Fix a differential-field category and encoding, then audit the Ax--Schanuel and existential-closedness inputs plus the construction before creating any model-theoretic tool.
 
 ## EXT-0454 · Positive characteristic Ax-Schanuel
 
 - 原件。arXiv:2311.00546v2 (header observed, 11 Mar 2025)。PDF 物理页 1, 2, 3。SHA-256 e3ded874e7ac0f48c32257844a6c751f01440372f8f826c2a99922e90e76eb08。
 - positive-characteristic functional transcendence survey。Abstract; §§1--2; quoted Ax intersection theorem。An explicitly expository survey of positive-characteristic Ax--Schanuel statements; it contrasts open complex-number Schanuel questions with differential/formal results and recalls Ax's characteristic-zero intersection theorem.
 - 版本与引用。No single new reusable proof component is isolated here; statements depend on the surveyed source theorems and their characteristic-specific hypotheses. Survey material only; bibliography and individual positive-characteristic results were not audited.
+- 第六批定向筛选。existing。SHA and 17 physical pages verified. This arXiv:2311.00546v2 is explicitly expository and contributes a source map rather than a new proof interface; its positive-characteristic period material is already routed conservatively by the function-field-period-transcendence skill. 定位。physical pp.1, 4, 6; abstract and survey dependency discussion。全卷 17 页。 后续条件。Use math-function-field-period-transcendence/references/c07-07-drinfeld-periods.md and supply the exact characteristic, t-motive/Frobenius data, analytic trivialization, and linear-independence gates.
 
 ## EXT-0455 · Enlarged mixed Shimura varieties, bi-algebraic system and some Ax type transcendental results
 
 - 原件。arXiv:1607.07843v3 (header observed, 13 Dec 2018)。PDF 物理页 1, 2, 3。SHA-256 141351b8c2fa88e6f5e3d0a6943b9e5614367faeaab97b8c56140d5554965011。
 - mixed Shimura bi-algebraicity。Abstract; §1.1--1.2。Develops enlarged mixed Shimura varieties and bi-algebraic systems; it proves logarithmic Ax and Ax--Lindemann results while presenting the Ax--Schanuel statement and André--Oort/Zilber--Pink directions partly as conjectural framework.
 - 版本与引用。The arithmetic interpretations invoke analytic subgroup and other cited results; the broader Ax--Schanuel and unlikely-intersection claims are not all established in this source. Only introduction and claimed-status distinctions checked; no theorem proof or external dependency verified.
+- 第六批定向筛选。candidate。SHA and 50 physical pages verified. The supplied arXiv:1607.07843v3 has the formal Forum of Mathematics, Sigma 7 (2019), e16 version; it mixes proved logarithmic Ax/Ax--Lindemann results with a stated Ax--Schanuel conjectural framework, and its definitions do not yield a finite applicability checker. 定位。physical pp.4--8, §§1.4--1.7, Conjecture 1.4 and Theorem 1.6 context。全卷 50 页。 后续条件。Choose one proved theorem, encode the enlarged mixed Shimura datum and uniformization, and verify all analytic subgroup/Hodge-theoretic inputs before a specialized component.
 
 ## EXT-0456 · O-minimality and certain atypical intersections
 
 - 原件。arXiv:1409.0771v1 (header observed, 2 Sep 2014)。PDF 物理页 1, 2, 3。SHA-256 ec372a109d64c81ca0b636f55f210029a04971da33b563fdcfec9d763897bf87。
 - o-minimal point counting and Zilber--Pink。Abstract; §§1--2。Applies o-minimal point counting to atypical intersections: it gives an unconditional curve result in abelian varieties over number fields, but modular and higher-dimensional conclusions use large-Galois-orbit and weak complex Ax assumptions.
 - 版本与引用。The conditional branches require the precisely stated LGO and WCA hypotheses plus Pila--Wilkie; they cannot be promoted to unconditional decision rules. Introductory statements checked only; theorem hypotheses and proofs were not traced.
+- 第六批定向筛选。adjacent。SHA and 41 physical pages verified. The supplied arXiv:1409.0771v1 has the formal Annales scientifiques de l'ENS 49(4) (2016), 813--858 version; it distinguishes an unconditional curve-in-abelian-variety result from modular and higher-dimensional conclusions conditional on LGO/WCA. 定位。physical pp.1--3, 6--7; abstract, introduction, and Conjectures 2.3 and 2.6。全卷 41 页。 后续条件。For a concrete application specify the ambient variety, definable set, height/complexity measure, point-counting bound, and exact LGO/WCA status; keep conditional branches explicit.
 
 ## EXT-0457 · Weak Modular Zilber-Pink with Derivatives
 
 - 原件。arXiv:1803.05895v8 (header observed, 7 May 2021)。PDF 物理页 1, 2, 3。SHA-256 a3e3e314c0336cd80f5aec66792419c74e3ff1ea2cc73e29db0aa2cd1fc36045。
 - differential modular unlikely intersections。Abstract; §1.1。Defines D-special varieties and proves functional/differential weak modular Zilber--Pink and a functional André--Oort-with-derivatives consequence, using differential algebra, analytic geometry and j Ax--Schanuel.
 - 版本与引用。Its key claims rely on the j-function Ax--Schanuel theorem and, for one theorem, an existential-closedness statement; neither is an optional implementation detail. No D-special definitions or proof dependencies beyond the introduction were audited.
+- 第六批定向筛选。candidate。SHA and 37 physical pages verified. The supplied arXiv:1803.05895v8 has the formal Mathematische Annalen 383 (2022), 433--474 version; its D-special machinery depends on j Ax--Schanuel and, for stated branches, existential-closedness, with no finite input contract here. 定位。physical pp.1, 4--6; abstract, Definitions/Conjecture 1.15, and main-results setup。全卷 37 页。 后续条件。Specify the differential field, J-special/D-special encodings, exact j Ax--Schanuel theorem, and EC premise; then audit the relevant main theorem before a narrowly scoped tool.
 
 ## EXT-0458 · Ax-Schanuel and strong minimality for the j-function
 
 - 原件。arXiv:1805.03985v2 (header observed, 5 Aug 2020)。PDF 物理页 1, 2, 3。SHA-256 07f980fb88095120a4f16ffe231271dc9851bac97d2cc841a8b08386ce6a3ac1。
 - differential algebra of the j-function。Abstract; §§1--3。Shows a class of Ax--Schanuel/predimension inequalities implies strong minimality and geometric triviality of fibres; applied to the j differential equation, it recovers the known strong-minimality result.
 - 版本与引用。The j application assumes the Pila--Tsimerman Ax--Schanuel inequality; adequacy/existential-closedness remains a separate issue. Only program and dependency statements checked, not abstract hypotheses or proofs.
+- 第六批定向筛选。candidate。The actual conditional implication from a P-Ax--Schanuel inequality to strong minimality/trivial geometry is clear, but its input is a differential-field relation E, irreducibility and the P-special separation condition; it is not a finite calculation or an interface for numerical transcendence. 定位。Theorem 1.1, physical p.2 (with setup on pp.1--3).。全卷 27 页。 后续条件。Supply a specified differential field, E, nonconstant s, irreducibility certificate, P-special exclusion and the required P-Ax--Schanuel inequality.
 
 ## EXT-0459 · Ax-Schanuel for Linear Differential Equations
 
 - 原件。arXiv:1603.04712v2 (header observed, 5 Oct 2017; manuscript date shown 3 Sep 2018)。PDF 物理页 1, 2, 3。SHA-256 19b0086d725235f13dafc00c6dd86a9465548c6eb9e089848a793fbb08920449。
 - linear differential equations and predimensions。Abstract; Theorem 1.1; §§1--2。Generalises the exponential differential Ax--Schanuel framework to linear constant-coefficient equations and gives a first-order axiomatisation/adequacy result for that setting.
 - 版本与引用。The construction transfers Kirby/Crampin analysis and depends on the paper's differential-field and strong-embedding hypotheses; it is not a numerical ODE algorithm. Main claim reviewed only; formal language, axioms and adequacy proof were not verified.
+- 第六批定向筛选。candidate。The source generalizes predimension/adequacy for linear differential equations, but it is a first-order differential-field construction rather than an algorithm for a concrete linear ODE. 定位。Theorem 1.1 and predimension inequality (1.3), physical p.2; abstract p.1.。全卷 24 页。 后续条件。A formal differential-field presentation, constant field, strong-embedding hypotheses and the paper's adequacy construction; a numerical solution does not meet them.
 
 ## EXT-0460 · Ax-Schanuel for Shimura varieties
 
 - 原件。arXiv:1711.02189v3 (header observed, 20 Sep 2018)。PDF 物理页 1, 2, 3。SHA-256 b3de4f10ea6243fafcfc4a12adc939b1c8c6fab620afa00d2860d5313e1c0167。
 - functional transcendence for pure Shimura varieties。Abstract; Theorem 1.1; §1。For a pure Shimura uniformisation q:Ω→X, an atypical irreducible component of an algebraic set intersected with graph(q) projects into a proper weakly special subvariety; later sections strengthen this with derivatives/differential fields.
 - 版本与引用。Requires the Shimura/uniformisation setting and algebraicity/definability inputs used in the proof; it supplies no criterion outside those hypotheses. Theorem statement and application context checked; proof and derivative formulations were not audited.
+- 第六批定向筛选。candidate。The exact atypical-intersection implication is specific to a pure Shimura uniformisation and relies on weakly-special geometry, o-minimality and monodromy; there is no finite input contract in the paper fragment. 定位。Theorem 1.1, physical p.2.。全卷 29 页。 后续条件。Provide the Hermitian domain, arithmetic quotient/uniformisation, algebraic W and analytic component U, plus a weakly-special containment computation.
 
 ## EXT-0461 · The rational field is not universally definable in pseudo-exponentiation
 
 - 原件。arXiv:1407.1068v2 (header observed, 12 May 2015)。PDF 物理页 1, 2, 3。SHA-256 2ceaeec2f507e44927fa9f4d8e51ac8baa623162eeb9b09d3f7c3cb585ad65b2。
 - definability in pseudo-exponential fields。Abstract; Proposition 2; §1。Proves that Q is not universally definable in Zilber's pseudo-exponential field, via an elementary-extension construction; this is a logical definability result, not a result on numerical irrationality of constants.
 - 版本与引用。The conclusion is tied to the pseudo-exponential-field axioms and model-theoretic construction, including compactness/extension arguments. Proof only sampled at its opening construction; no full model-theoretic argument checked.
+- 第六批定向筛选。citation。This is a pseudo-exponential-model definability counterexample, not a reusable mathematical-computation or Euler-constant tool. The key elementary-extension construction cannot be reduced to finite explicit input data. 定位。Proposition 2 and Corollary 3, physical p.2; abstract p.1.。全卷 7 页。 后续条件。Only use after choosing Zilber's pseudo-exponential structure and reproducing the model-theoretic type/elementary-extension construction.
 
 ## EXT-0462 · The Ax-Schanuel conjecture for variations of mixed Hodge structures
 
 - 原件。arXiv:2101.10938v3 (header observed, 8 Mar 2023)。PDF 物理页 1, 2, 3。SHA-256 cb584dc78ad98ad61b167c4e6aa88b6d91e26c08c144172c502e596b0c50e9a2。
 - mixed-Hodge functional transcendence。Abstract; Theorem 1.1; §1。Proves Ax--Schanuel for admissible graded-polarized integral variations of mixed Hodge structures: the Zariski-excess dimension is bounded below by the dimension of the smallest weak Mumford--Tate subdomain.
 - 版本与引用。The theorem depends on admissibility, the period-map/Mumford--Tate framework and the paper's stabilizer-normality proof; it is not portable to arbitrary analytic maps. Main theorem and setup checked, but no verification of the lengthy dévissage or external Hodge-theoretic inputs.
+- 第六批定向筛选。candidate。The displayed dimension-excess inequality is useful only after a full admissible graded-polarized integral VMHS and weak Mumford--Tate subdomain have been constructed; the source's lengthy normality/devissage argument is not a finite evaluator. 定位。Theorem 1.1, physical p.2; source setup p.1.。全卷 40 页。 后续条件。Specify an admissible VMHS, period map, analytic Z, algebraic closure and computable weak Mumford--Tate orbit; audit the monodromy/stabilizer hypotheses.
 
 ## EXT-0463 · Effective transcendental Zilber-Pink for variations of Hodge structures
 
 - 原件。arXiv:2105.05845v1 (header observed, 12 May 2021)。PDF 物理页 1, 2。SHA-256 3bf23f128cd7ad1ba82a872c6766026b163d21aef10858ad69376d5557991622。
 - effective differential-algebraic unlikely intersections。Abstract; Corollary 1.1; §1。Gives a function-field Zilber--Pink form for variations of Hodge structures: for a Hodge-generic subvariety, nonconstant unlikely points lie in a proper subvariety with degree bounded by an explicitly computable function of degree and dimension.
 - 版本与引用。Effectivity comes through Ax--Schanuel and differential-algebraic degree bounds; the actual bound/function and input encodings must be supplied before use. No effective function, differential-algebraic bound or dependency proof was independently checked.
+- 第六批定向筛选。candidate。Although Corollary 1.1 asserts an explicit degree bound, the computable function C(n)/B is not supplied as an evaluable formula or encoding in the checked statement, and the argument imports Ax--Schanuel/differential-algebraic bounds. 定位。Abstract and Corollary 1.1, physical pp.1--2.。全卷 17 页。 后续条件。An explicit primary bound/function, encoding of the Shimura variety and subvariety, plus the requisite Ax--Schanuel and differential-algebraic degree certificates.
 
 ## EXT-0464 · A note on the axioms for Zilber's pseudo-exponential fields
 
 - 原件。arXiv:1006.0894v2 (header observed, 16 Dec 2011)。PDF 物理页 1, 2。SHA-256 2ea9383559f2a584a6e8b2e5217933097816e63f58b7f5df8bcf929cfc5ee1e9。
 - axioms for pseudo-exponential fields。Abstract; Theorems 2--4。Shows how elementary equivalence would imply Zilber's isomorphism conjecture, characterises strong embeddings as elementary embeddings in the stated class, and describes pseudo-exponential fields as atomic over exponential transcendence bases.
 - 版本与引用。The claims use the specified pseudo-exponential axioms; some broader first-order analysis is explicitly limited by the unresolved CIT/quantifier-elimination situation. Theorems were read from the introduction only; no axiom translation or proof checked.
+- 第六批定向筛选。citation。Theorems concern abstract elementary classes, embeddings and atomicity for pseudo-exponential fields. The paper itself records the CIT/quantifier-elimination limitation, so it is not a source of a finite arithmetic test. 定位。Abstract p.1; Theorem 2 and limitation discussion, physical p.2.。全卷 10 页。 后续条件。A chosen pseudo-exponential model, its infinitary axioms and the relevant strong/closed embeddings; CIT-dependent assertions require that extra input.
 
 ## EXT-0465 · Finite Orbits in Surfaces with a Double Elliptic Fibration and Torsion Values of Sections
 
 - 原件。arXiv:2302.00859v2 (header observed, 9 Feb 2023)。PDF 物理页 1, 2。SHA-256 ee1f577fa4c5fa814b76c782667eee5c90bc3e617c1decbe5080d33fea8f56af。
 - elliptic fibrations and unlikely intersections。Abstract; §1 double elliptic fibration。For a surface with two non-isotrivial elliptic fibrations and nontorsion sections, confines finite orbits of the induced translations to curves under natural conditions; it also proves a new Zilber--Pink case over a two-dimensional base.
 - 版本与引用。Arguments use recent Ax--Schanuel-type results, a Shioda condition and height inequalities; the exact natural conditions must be retained. Only abstract and geometric setup checked; no theorem hypotheses, curve construction or external input audited.
+- 第六批定向筛选。candidate。The finite-orbit confinement result requires the two non-isotrivial elliptic fibrations, sections, domains of rational automorphisms and the source's Ax--Schanuel/height inputs; the checked theorem is not an orbit-computation procedure. 定位。Theorem 1.1 and Corollary 1.2, physical p.3; abstract p.1.。全卷 30 页。 后续条件。Explicit surface/fibrations/sections over a number field, verification of all natural hypotheses and a usable height/Ax--Schanuel certificate.
 
 ## EXT-0466 · Ax-Schanuel for the Drinfeld j-function
 
 - 原件。PDF has no arXiv header; inventory labels arXiv:2609.37595v1 (2026), requiring version confirmation。PDF 物理页 1, 2。SHA-256 48deb322347ac0321f8a5ae3e9197433ca157450fb4fcfdd7c6765d29d2d3eb4。
 - positive-characteristic Drinfeld modular functional transcendence。Abstract; §§1, 3。Claims a positive-characteristic Ax--Schanuel theorem for the Drinfeld j-function and derivatives: atypical graph intersections project to weakly special subvarieties, via Hasse--Schmidt/differential-Galois methods and a foliation argument.
 - 版本与引用。Its conclusion relies on the abstract differential-Galois Ax--Schanuel theorem, the Hasse--Schmidt setup and identification of special loci via Pink; ordinary characteristic-zero differential arguments do not transfer. Only recent-preprint introduction was checked; version, theorem proof and cited inputs remain unverified.
+- 第六批定向筛选。candidate。The positive-characteristic theorem has an exact dimension-excess statement, but it requires an odd-q Drinfeld/Ramanujan Hasse--Schmidt leaf and HS-special classification. The proof depends on the entire Hasse--Schmidt/differential-Galois setup, so no finite generic Ax--Schanuel checker is justified. 定位。Theorem 3.31, physical p.28; Theorem 3.32, p.30; abstract p.1.。全卷 41 页。 后续条件。Supply odd q, the Drinfeld modular data, algebraic V0, product Ramanujan leaf, analytic V, and HS-special-to-weakly-special identification.
 
 ## EXT-0467 · Mixed Ax-Schanuel for the universal abelian varieties and some applications
 
 - 原件。arXiv:1806.01408v2 (header observed, 22 May 2020)。PDF 物理页 1, 2。SHA-256 29e85eda3c0f5c92d706ef4b65cb7b8ef92e76fb353a7ada231698f4b617988c。
 - mixed Shimura functional transcendence。Abstract; Theorem 1.1; §1。Proves mixed Ax--Schanuel for universal abelian varieties (more generally Kuga-type mixed Shimura varieties): Zariski excess of an analytic subvariety of the uniformisation graph is at least the dimension of its smallest bi-algebraic closure; applications include Betti-map rank and Bogomolov-type finiteness.
 - 版本与引用。The conclusion uses the Kuga-type mixed-Shimura uniformisation and bi-algebraic classification; applications require their additional stated hypotheses. Main theorem statement reviewed only; no proof, bi-algebraic classification or application hypotheses independently verified.
+- 第六批定向筛选。candidate。The mixed Ax--Schanuel inequality is confined to a Kuga-type universal abelian variety and smallest bi-algebraic closure. It provides no finite route absent that classification and uniformisation data. 定位。Theorem 1.1, physical p.2; source setup p.1.。全卷 34 页。 后续条件。Specify genus/Kuga datum, uniformisation graph, irreducible analytic Z and a certified bi-algebraic closure; applications additionally need their separate hypotheses.
 
 ## EXT-0468 · Ax-Schanuel condition in arbitrary characteristic
 
 - 原件。arXiv:1402.1951v3 (21 Sep 2017)。PDF 物理页 1, 2, 3。SHA-256 1fc98dfa0956dfedca6c718de8e36dc73a5a34193c61882d6a1baa34d6848dcc。
 - positive-characteristic formal Ax-Schanuel。Introduction, Theorem 1.2 (formal Ax theorem)。For a formal subgroup A and formal K with Zariski closure V, the recalled characteristic-zero bound places A and V in a formal subgroup B with dim B bounded by dim V+dim A−dim K; the paper develops positive-characteristic analogues using formal maps.
 - 条件或证据待查。The proposed extension depends on the paper's special formal-map/A-limit hypotheses and Frobenius factorisation; no standalone numerical or Euler-gamma procedure follows from the checked result. Checked the stated setup and introductory theorem only; the main positive-characteristic hypotheses and all applications remain unverified.
+- 第六批定向筛选。candidate。The formal-subgroup dimension conclusion depends on the source-defined good group/formal map and dense formal subvariety conditions; it is not a generic positive-characteristic rank calculation. 定位。Theorem 1.1, physical p.2; formal-map setup p.1.。全卷 51 页。 后续条件。An explicit formal completion, good commutative algebraic group, special formal map or A-limit certificate and Frobenius-factorisation hypotheses.
 
 ## EXT-0469 · Ax-Schanuel type theorems and geometry of strongly minimal sets in differentially closed fields
 
@@ -2876,6 +3097,7 @@
 - 原件。arXiv:2211.10592v2 (25 Nov 2023)。PDF 物理页 1, 2, 3。SHA-256 92c0626ee5d1a754b046b293e353b3b92f86f534d2a368ae5724a9def8500bc5。
 - likely intersections in definable quotient spaces。Introduction and description of Theorem 3.4。Under an Ax--Schanuel property and additional definable-quotient assumptions, persistently likely intersections with translates of a special subvariety are Euclidean dense in an irreducible Hodge-generic subvariety.
 - 版本与引用。Density requires the paper's quotient presentation, o-minimal definability and Ax--Schanuel assumptions; it is complementary to, not a proof of, Zilber--Pink finiteness. General theorem statement and Shimura specialization inspected; technical assumptions and proof dependencies not audited.
+- 第六批定向筛选。candidate。The paper's Ax--Schanuel condition is a conditional definable-quotient framework, and even its uniformization step needs well-parameterized weakly special families; it is not an independent likely-intersection test. 定位。Definition 2.15 and Lemma 2.16, physical p.8; abstract pp.1--2.。全卷 23 页。 后续条件。A category of definable complex quotient spaces, a definable analytic map, an Ax--Schanuel certificate and a well-parameterized weakly-special family.
 
 ## EXT-0471 · Functional transcendence for the unipotent Albanese map
 
@@ -2889,18 +3111,21 @@
 - 原件。arXiv:1512.04262v3 (14 Mar 2017)。PDF 物理页 1, 3, 4, 5。SHA-256 09afa97e197e203608a7f11f8e521799235440fef2c3c4f927aeec1c4cd0d5ea。
 - pseudo-analytic Γ-fields and quasiminimality。Introduction, Theorems 1.2, 1.6, 1.9。The paper constructs quasiminimal, uncountably categorical pseudo-analytic Γ-fields; for an elliptic curve it relates the analytic ℘-structure to its Schanuel analogue plus strong exponential-algebraic closedness, and proves quasiminimality from Γ-closedness.
 - 版本与引用。These are model-construction/categoricity statements relying on predimension, amalgamation and Γ-closedness, not verified analytic facts about C_exp or ℘. Introductory theorem statements inspected; construction and all claimed equivalences were not proof-audited.
+- 第六批定向筛选。citation。This constructs quasiminimal pseudo-analytic Gamma-fields and relates analytic structures to conjectural Schanuel/strong closure conditions. It is a model-construction result rather than a finite mathematical tool. 定位。Abstract p.1 and Theorem 1.2, physical p.3.。全卷 51 页。 后续条件。A full Gamma-field/predimension/amalgamation specification; any complex-analytic equivalence also needs the named Schanuel and strong exponential-algebraic closure hypotheses.
 
 ## EXT-0473 · A Note on complex p-adic exponential fields
 
 - 原件。arXiv:1811.04683v1 (12 Nov 2018)。PDF 物理页 1, 2, 8, 9。SHA-256 5c394d5b04b88e118e782374222003bfb3f1520a6a9deecf428438b04d6f7cbd。
 - p-adic exponential algebraic dependence。Theorem 1.1 and Section 3.3。For a Q-variety V of dimension n having exponential p-adic points for infinitely many primes, the theorem asserts that outside a finite exceptional set every such point satisfies one of finitely many rational linear dependences among its additive coordinates.
 - 条件或证据待查。The argument uses a non-principal ultraproduct and Ax--Schanuel; it supplies no effective exceptional primes or computable dependence list from the checked statement. Version is only v1; theorem statement and ultraproduct proof outline checked, but no external publication status or uniformity repair was verified.
+- 第六批定向筛选。candidate。The theorem gives only existential finite exceptional primes and rational hyperplanes via a non-principal ultraproduct and Ax--Schanuel. Neither set is computed, so it cannot yield a usable p-adic dependence algorithm. 定位。Theorem 1.1, physical p.2; ultraproduct proof route pp.2 and 8--9.。全卷 9 页。 后续条件。An effective exceptional-prime bound and explicit hyperplane list for the selected Q-variety, together with a checked p-adic exponential-domain membership certificate.
 
 ## EXT-0474 · Intersecting subvarieties of abelian schemes with group subschemes I
 
 - 原件。arXiv:2411.16108v1 (25 Nov 2024)。PDF 物理页 1, 3, 4。SHA-256 0ef80ff438b283a032a245419f8e6772fa9e5642a2248110185e74708f62ed45。
 - bounded height in abelian schemes。Introduction, Theorem C。For a subvariety X in an abelian scheme with nonnegative degeneracy parameter τ(X), a Zariski-open U has bounded total height on U intersected with the small-height points of flat group subschemes of relative dimension at most τ(X).
 - 条件或证据待查。The bounded-height conclusion uses the paper's degeneracy-locus criterion, Ax--Schanuel, adelic intersection theory and homomorphism approximation; it is not an unconditional generic intersection oracle. The family theorem and definition-level setup were checked; proof of Theorem 8.4 and applications were not audited.
+- 第六批定向筛选。hold。Physical 42-page arXiv:2411.16108v1 source verified. Theorem C is a relative bounded-height theorem, but its usable conclusion depends on the source's t-degeneracy locus, Theorem 8.4, Ax--Schanuel, adelic intersection theory, and homomorphism approximation; it is not a finite height or intersection procedure. 定位。Introduction Theorem C (physical p.4); exact main Theorem 8.4 (physical p.35).。全卷 42 页。 后续条件。To adopt, verify the exact definitions of X_deg(t), C(epsilon,A_{<=t}), and the proof inputs to Theorem 8.4; then supply an effective input representation and constants.
 
 ## EXT-0475 · Counting Bessel zeros and applications
 
@@ -2921,42 +3146,50 @@
 - 原件。arXiv:1507.00971v4 (22 Jul 2017); manuscript dated Oct 2018。PDF 物理页 1, 28。SHA-256 2318fb92331a79a2744a03e4305e961e3f95b618ad5b8dff0713574f20f2a0f9。
 - definability in differential-field reducts。Abstract and proof of Theorem 8.2。The paper gives criteria and examples for when the derivation of a differentially closed field is definable in a reduct, including the conditional necessity of model-completeness under inductiveness.
 - 版本与引用。The model-completeness implication is explicitly conditional on inductiveness of the reduct theory and is a logical criterion rather than a derivation algorithm. Abstract and terminal main-theorem proof location checked; intermediate criteria and examples were not individually verified.
+- 第六批定向筛选。adjacent。Physical 34-page arXiv:1507.00971v4 manuscript verified. Theorem 8.2 is a conditional model-theoretic obstruction (inductive reduct theory plus definable derivation implies model completeness), not an algorithm for deciding definability from a presented reduct. 定位。Theorem 8.2 and Lemma 8.3 (physical p.28); terminal application to the exponential differential equation (p.32).。全卷 34 页。 后续条件。Any operational use needs a formal presentation of the reduct theory and independent proofs of inductiveness, definability, and model-completeness/non-completeness.
 
 ## EXT-0478 · Involutions on Zilber fields
 
 - 原件。arXiv:1109.6155v2 (25 May 2013)。PDF 物理页 1, 2, 7。SHA-256 127d1854eaa4c26bc76f1b4073bbd05da9f5a886d7abfa51ad2ca1b6990375ae。
 - Zilber exponential fields with involution。Theorems 1.1--1.2 and construction section。It constructs Zilber fields with an exponential-compatible order-two field automorphism; at continuum cardinality the fixed field can be real closed and the kernel can be 2πiZ.
 - 版本与引用。The construction is a transfinite back-and-forth using rotund varieties, roots and CCP; it establishes an abstract model, not complex conjugation properties of the standard exponential field. The two stated theorems and construction setup were checked, not the inductive invariants or all Zilber axioms.
+- 第六批定向筛选。adjacent。Physical 43-page arXiv:1109.6155v2 source verified. Theorems 1.1--1.2 are existence/construction statements for abstract Zilber fields with an involution; the construction is transfinite and does not furnish finite data for a supplied exponential field. 定位。Abstract and Theorems 1.1--1.2 (physical pp.1--2); construction begins at p.7.。全卷 43 页。 后续条件。A tool would require a finite presentation of the field/exponential map and verified CCP, rotundity, root, and extension invariants; none is supplied as an executable interface.
 
 ## EXT-0479 · The algebraic numbers definable in various exponential fields
 
 - 原件。arXiv:1101.4224v1 (21 Jan 2011)。PDF 物理页 1, 2, 4, 6。SHA-256 f3477db400ba70f9531bdead06c0b6537806086fffeaecb8adbdf859f7e61efe。
 - definable algebraic numbers in exponential fields。Introduction, Theorems 1--2。For exponential fields with cyclic kernel all real abelian algebraic numbers are pointwise definable; in Zilber fields the pointwise definable algebraic numbers are exactly the real abelian ones.
 - 版本与引用。The converse classification is for Zilber fields and uses their extension/automorphism structure (including CCP), so it does not establish the corresponding claim for C_exp. Main statements and the cited structural proposition were inspected; no proof of the automorphism-extension input was audited.
+- 第六批定向筛选。adopt。Physical 8-page arXiv:1101.4224v1 source verified. Its proof of Theorem 1 contains a self-contained finite component: an explicit cyclotomic expression is fixed by the canonical inversion action exactly when its inversion difference vanishes in the cyclotomic quotient. This is distinct from the theorem's global definability conclusion. 定位。Section 2.1 defines sigma_0 on roots of unity (physical p.2); Sections 2.2--2.7 and the displayed proof of Theorem 1 (physical pp.3--4).。全卷 8 页。 后续条件。The finite checker only needs the stated cyclotomic expression. Applying Theorem 1 itself still requires a characteristic-zero exponential field with infinite cyclic kernel.
+- 已采用方法。物理页 2, 3, 4。Exact finite cyclotomic inversion-fixedness for a supplied integral expression only; not a general definability decision procedure. [方法说明](../../../math-l19-coordinate-ring-certificates/references/cyclic-kernel-inversion-fixedness.md)。
 
 ## EXT-0480 · Degeneracy loci and unlikely intersections in abelian schemes
 
 - 原件。arXiv:2610.06518v1 (5 Oct 2026)。PDF 物理页 1, 2, 3, 4。SHA-256 de6865016012808128423ebdecf178f773e4465cef9be1c14c105c74255c0dcb。
 - Pila--Zannier unlikely intersections in abelian schemes。Introduction, Theorem 1.2 and proof outline。Outside the t-degeneracy locus, the claimed theorem gives finiteness of points of X in flat group subschemes of relative dimension below t, based on bounded height, large Galois orbits, o-minimal counting and mixed Ax--Schanuel.
 - 条件或证据待查。The decisive inputs are the stated bounded-height theorem and uniform Galois-orbit/complexity estimates; the result is highly conditional on the precise degeneracy and variation hypotheses. A recent v1 preprint: only statement and proof outline were reviewed; all new arithmetic inputs and the claimed applications require independent checking.
+- 第六批定向筛选。hold。Physical 35-page 2026 arXiv v1 source verified. Theorem 1.2 gives finiteness outside a t-degeneracy locus, but the proof imports a bounded-height theorem, uniform large-Galois-orbit estimates, o-minimal counting, mixed Ax--Schanuel, and a complexity bound. No effective finite representation of these hypotheses is provided. 定位。Abstract and Theorem 1.2 (physical pp.1--2); quoted bounded-height input Theorem 1.3 (p.3).。全卷 35 页。 后续条件。Check the proof of Theorem 6.1 and each imported arithmetic input, beginning with the bounded-height theorem quoted as Theorem 1.3, before routing a concrete abelian-scheme instance.
 
 ## EXT-0481 · Excellence and uncountable categoricity of Zilber's exponential fields
 
 - 原件。arXiv:1305.0493v1 (2 May 2013); manuscript version 1.0 dated Nov 2018。PDF 物理页 1。SHA-256 a6771d2f22fd605b69a14ea8c2b026c6d9fdbf899b334906f64a9b231859b7be。
 - quasiminimal excellence of Zilber fields。Theorem 1。For every exponential transcendence degree λ, the class EC*_{st,ccp} has a unique model up to isomorphism with cardinality λ+ℵ0, hence is categorical in every uncountable cardinal.
 - 版本与引用。The theorem concerns the axiomatised pseudo-exponential class and its excellence proof; it cannot identify C_exp with that model without the separate conjectural bridge. Short source: first page containing the full theorem and axioms list start was reviewed; proof details were not checked.
+- 第六批定向筛选。adjacent。Physical 7-page arXiv:1305.0493v1 source verified. Theorem 1 is an uncountable-categoricity theorem for an axiomatised pseudo-exponential class; it supplies no checkable finite certificate for a concrete exponential structure. 定位。Theorem 1 and class context (physical p.1); strong-extension setup (p.2).。全卷 7 页。 后续条件。Any reuse must independently establish the EC*_{st,ccp} axioms, the specified exponential transcendence degree, and the excellence framework.
 
 ## EXT-0482 · The Existential Closedness and Zilber-Pink Conjectures
 
 - 原件。arXiv:2403.09304v1 (14 Mar 2024)。PDF 物理页 1, 3, 4, 5, 8。SHA-256 b12853f0ffb657034a4f4bd5ee7de970a9f70c565ebfe53975655de4ed49ed9f。
 - survey of exponential/modular EC and Zilber--Pink。Sections 1--4; Theorem 2.11。A survey organizing Schanuel, existential-closedness and Zilber--Pink variants for exp and j, including derivatives; it records a differential EC theorem for commuting derivations and presents conjectural modular counterparts.
 - 版本与引用。Most headline objects are explicitly conjectural; Theorem 2.11 is a cited differential result under its rotundity hypothesis, not a proof of complex exponential EC. Survey-level verification only; cited theorem sources and all new conjectural variants were not independently checked.
+- 第六批定向筛选。citation。Physical 24-page arXiv:2403.09304v1 source verified. This is a survey; its Theorem 2.11 is explicitly attributed to AEK21, so the local survey is useful only as a locator and not as the primary proof source for a tool. 定位。Theorem 2.11, explicitly cited as AEK21 Theorem 4.3 (physical p.8).。全卷 24 页。 后续条件。Read the cited AEK21 Theorem 4.3 primary source and verify its rotundity definitions and proof before any differential-EC adoption.
 
 ## EXT-0483 · A Common Generalisation of the André-Oort and André-Pink-Zannier Conjectures
 
 - 原件。arXiv:2401.03528v1 (7 Jan 2024)。PDF 物理页 1。SHA-256 cf3121026198f69079ebbed98d223fea6c3cad8d5848a7c5a4d7820a2abd74b3。
 - hybrid André--Oort/André--Pink conjectures。Abstract and introduction。Introduces a hybrid Hecke-orbit conjecture subsuming André--Oort and André--Pink--Zannier, proves it follows from Zilber--Pink, and shows it implies Zilber--Pink for hypersurfaces in weakly special subvarieties.
 - 版本与引用。The implications are conjectural-framework reductions and depend on the stated Zilber--Pink premise; no effective intersection procedure is supplied. Abstract/introduction and contents checked; detailed definitions and implication proofs remain unreviewed.
+- 第六批定向筛选。citation。Physical 21-page arXiv:2401.03528v1 source verified. Its headline is a conjectural-framework reduction (hybrid conjecture versus Zilber--Pink), not an unconditional finite intersection method. 定位。Abstract and introduction (physical p.1); auxiliary equivalence Theorem 7.1 (p.11).。全卷 21 页。 后续条件。An adoption would require the exact Hybrid conjecture, Zilber--Pink premise, and a separate proof/algorithm for each effective special-subvariety operation.
 
 ## EXT-0484 · A Buium--Coleman bound for the Zilber--Pink conjecture for curves inside abelian varieties
 
@@ -2970,6 +3203,7 @@
 - 原件。arXiv:2402.09487v3 (24 Jun 2026)。PDF 物理页 1, 2, 3, 9。SHA-256 49e3b14a90951853dfad0c79678692a1c3a9089cad8cc3e8361c57d7193f598e。
 - large Galois orbits in modular unlikely intersections。Introduction, Theorems 1.1--1.5; Assumption 2.6。Establishes large-Galois-orbit statements and consequent Zilber--Pink cases for curves in Y(1)^n under stated boundary-intersection conditions, extending previously asymmetric or multiplicative-degeneration regimes.
 - 条件或证据待查。The argument retains specific boundary/monodromy conditions (including a unipotent-monodromy assumption in the checked setup) and imports Habegger--Pila and Daw--Orr inputs. Main introductory results and a stated monodromy assumption checked; general theorem, all boundary cases, and proof details remain unverified.
+- 第六批定向筛选。hold。Physical 34-page arXiv:2402.09487v3 source verified. The asserted large-Galois-orbit/Zilber--Pink cases retain precise boundary, singular-coordinate, CM, and imported Habegger--Pila/Daw--Orr hypotheses; no finite test of those hypotheses or orbit lower bound is given here. 定位。Abstract and Theorems 1.1--1.4 setup (physical pp.1--2).。全卷 34 页。 后续条件。Read each selected proof and primary input, and encode the boundary/monodromy and CM conditions before treating it as a route for a concrete curve.
 
 ## EXT-0486 · Exponential Sums Equations and Tropical Geometry
 
@@ -2983,24 +3217,28 @@
 - 原件。arXiv:1508.05050v1 (20 Aug 2015)。PDF 物理页 1, 2, 3, 4。SHA-256 b5cc2d432015b6ea33f1bc90881003eacaac0c049522ca3fcb03bcd73f951e45。
 - modular Fermat/unlikely intersections。Introduction and Section 2 proof strategy。Proves a special curve case of Zilber--Pink in a modular-Fermat setting, using uniform o-minimal counting in families against Galois/gonality lower bounds rather than the classical multiplicative unit-equation method.
 - 条件或证据待查。The approach needs the specified modular relations, degree lower bounds and definability/uniformity hypotheses; one discussed extension is conditional on a Habegger--Pila GO1 statement. Introductory claims and strategy were checked; exact modular-Fermat theorem, all exceptional cases and external counting inputs were not independently verified.
+- 第六批定向筛选。hold。Physical 17-page arXiv:1508.05050v1 source verified. The modular-Fermat conclusions use the stated Strong Galois Hypothesis/gonality inputs and o-minimal strategy; they do not yield a standalone equation solver or certificate. 定位。Introduction and main conditional discussion around Theorem 1.1 (physical pp.1--3).。全卷 17 页。 后续条件。For any concrete route, formalize the exact modular relation and independently supply the named degree/gonality and counting hypotheses.
 
 ## EXT-0488 · A note on unlikely intersections in Shimura varieties
 
 - 原件。arXiv:2209.07967v3 (11 Mar 2024)。PDF 物理页 1, 2, 7, 8。SHA-256 7ed635d3bfd9f08d7eecd3562e004c71c230bae5557b668d066275fe67fdff29。
 - Shimura unlikely-intersection implications。Theorems 1.2--1.3。Combines André--Pink--Zannier/Mordell--Lang-type inputs with geometric Zilber--Pink to show finiteness of maximal weakly atypical subvarieties meeting the prescribed special-point and generalized-Hecke-orbit set, with an abelian-type restriction in one theorem.
 - 版本与引用。The result is an implication using André--Pink--Zannier and geometric Zilber--Pink; the abelian-type condition and definition of Σ are essential. Main statements and end-of-proof dependency summary checked; terminology appendix and cited conjecture/proof status not independently audited.
+- 第六批定向筛选。citation。Physical 10-page arXiv:2209.07967v3 source verified. Theorems 1.2--1.3 are implication results relying respectively on André--Pink--Zannier and André--Oort/geometric Zilber--Pink inputs, not independently executable tools. 定位。Theorems 1.2--1.3 and dependency paragraph (physical p.2).。全卷 10 页。 后续条件。Use only after checking the primary proofs of the named conjectural/theorem inputs and encoding the abelian-type and Sigma hypotheses.
 
 ## EXT-0489 · Zilber's Dichotomy for Differentially Closed Fields with an Automorphism
 
 - 原件。arXiv:2006.12673v1 (23 Jun 2020)。PDF 物理页 1, 2, 6, 10。SHA-256 6b17c3093f9ff9b508c7e2dbfc77a33ecac522cf820992f6c04801633699f056。
 - difference-differential Zilber dichotomy。Theorems 1 and 3; Section 4 arc-space construction。For DCF_A, every SU-rank-one type is stated to be either 1-based or nonorthogonal to Fix(σ)∩C; the proof reduces non-locally modular regular types to a definable additive subgroup using arc spaces.
 - 版本与引用。The dichotomy uses properties of the model companion DCF_A and the cited subgroup proposition; it is structural model theory, not a computational test for a supplied equation. The theorem statements and arc-space proof locus were checked; the imported model-companion properties and all generalisations were not audited.
+- 第六批定向筛选。adjacent。Physical 18-page arXiv:2006.12673v1 source verified. Theorem 1 is a structural SU-rank-one dichotomy in the model companion DCF_A; it is not a decision procedure for a presented difference-differential equation. 定位。Theorem 1 (physical p.1); Theorem 3/proof reduction via additive definable subgroups (p.2).。全卷 18 页。 后续条件。A usable implementation would need a computable presentation of DCF_A types, rank, 1-basedness, and nonorthogonality, none of which is supplied as finite input data.
 
 ## EXT-0490 · Unlikely intersections with Hecke translates of a special subvariety
 
 - 原件。arXiv:1710.04092v2 (12 Jul 2018)。PDF 物理页 1, 2, 3, 4。SHA-256 bff1b555e1e020a5712e72b423f8be5a378936f7936d96340a6f64f24a5f9c47。
 - Hecke translates and Pila--Zannier method。Introduction, Theorems 1.3--1.5。Proves finite intersection results for certain curves and Hecke correspondences in A_g×A_g, including an unconditional asymmetric-curve statement under technical hypotheses, while other cases are conditional on arithmetic conjectures.
 - 条件或证据待查。The conditional route uses Habegger--Pila counting and Gao functional transcendence; the unconditional specialization additionally depends on isogeny, height, super-approximation and gonality inputs. Principal theorem statements and dependency paragraph checked; technical hypotheses, exact complexity measures and proofs remain unverified.
+- 第六批定向筛选。hold。Physical 29-page arXiv:1710.04092v2 source verified. The abstract and introduction separate conditional Pila--Zannier results from unconditional specialisations that still require isogeny, height, super-approximation, and gonality inputs. This is not a generic Hecke-intersection finite algorithm. 定位。Abstract and scope of Theorems 1.3--1.4 (physical pp.1--2).。全卷 29 页。 后续条件。Select one theorem, verify all curve/asymmetry/base-field restrictions and every imported arithmetic input, then provide an effective model of the Hecke correspondence.
 
 ## EXT-0491 · A geometric approach to some systems of exponential equations
 
@@ -3014,54 +3252,63 @@
 - 原件。arXiv:1702.05554v2 (30 Jun 2021)。PDF 物理页 1, 2, 4, 5。SHA-256 9b5a02d6d2cee7d401d33723d3969f3ad4b766640007df8a0383a688bb2ddc47。
 - Zariski-structure reducts and field interpretation。Introduction and Theorem 4.33 described in Section 2。Shows that a non-locally modular reduct of the full Zariski structure on an algebraic curve interprets an infinite field; the key sufficient condition is an ample definable family of curves, developed via tangency and group configurations.
 - 版本与引用。The argument is specific to reducts of full Zariski structures on curves and relies on the ample-family/non-local-modularity equivalence plus the later incidence construction. Introductory theorem and definition-level condition checked; characteristic cases and full field-interpretation proof were not audited.
+- 第六批定向筛选。candidate。Physical 45-page arXiv:1702.05554v2 source verified. Theorem 4.33 gives a genuine reconstruction implication from an ample family of curves to a field interpretation, but its group-configuration/tangency construction remains non-effective for a finite presentation. 定位。Definition 2.1 and sufficient-condition discussion (physical p.5); exact Theorem 4.33 (p.41).。全卷 45 页。 后续条件。To become a tool, provide an explicit algebraic curve, a finite encoding of the ample family, and executable certificates for dimension, ampleness, tangency/slope and the interpretation maps.
 
 ## EXT-0493 · Modular Zilber-Pink for geometrically generic varieties
 
 - 原件。arXiv:2509.03160v2, 18 Aug 2026 (inventory year 2025 conflicts with PDF date)。PDF 物理页 1, 6, 8。SHA-256 f0ec3b1b9102d1e0e185ba20331ed3c9ca46ebbe8a44d4e537f90886210b2a88。
 - modular unlikely intersections。Theorem 1.1; §2.2。For an irreducible V⊂Y(1)^n with no d+2-coordinate projection defined over Q and not contained in a proper special subvariety, the indicated high-codimension special intersections are not Zariski dense.
 - 条件或证据待查。The preprint identifies modular Ax–Schanuel and differential-field/model-theoretic inputs as decisive; those imported results were not independently checked. Identity, stated theorem, and cited prerequisites checked; no full proof or transfer to a general Zilber–Pink solver reviewed.
+- 第六批定向筛选。hold。This arXiv:2509.03160v2 preprint supplies a geometrically-generic modular unlikely-intersection theorem, but its actual proof relies on modular Ax-Schanuel and differential-field/model-theoretic inputs; no finite instance verifier or nonduplicate tool was extracted. 定位。Theorem 1.1 and section 2.2, physical pp. 1, 6, 8。全卷 19 页。 后续条件。For a concrete variety, formalize its coordinate projections and special-subvariety hypotheses, then verify the imported Ax-Schanuel and differential-field route.
 
 ## EXT-0494 · Strongly minimal group relics of algebraically closed valued fields
 
 - 原件。arXiv:2401.14618v1, 26 Jan 2024。PDF 物理页 1, 2, 5。SHA-256 4a4ed333d4063e3d7e97879f971f8a607d6d0baeb2358a2e75dfcaa5d28489d9。
 - ACVF strong-minimality。Theorem 1; §2.2。A non-locally modular strongly minimal ACVF group-relic locally equivalent to the additive or multiplicative group interprets a K-definable copy of the ambient algebraically closed field.
 - 条件或证据待查。The conclusion depends on definable plane-curve and analytic replacement machinery in ACVF; the preprint proof chain was not fully audited. Checked identity and statement only; no reusable finite computational component identified.
+- 第六批定向筛选。hold。The arXiv:2401.14618v1 theorem on ACVF strongly-minimal group relics depends on definable plane-curve and analytic replacement machinery. It is a structural interpretation theorem, not an effective construction from finite data. 定位。Theorem 1 and section 2.2, physical pp. 1, 2, 5。全卷 38 页。 后续条件。Specify an ACVF-definable group-relic and independently check the local-equivalence, non-local-modularity, and curve-family hypotheses.
 
 ## EXT-0495 · Multiplicative relations among singular moduli
 
 - 原件。arXiv:1412.8260v1, 29 Dec 2014。PDF 物理页 1, 2, 4。SHA-256 8f004a9ae4452dac30d4eadb88d0be37c7a724845e6a251bdca87e227c4221a9。
 - singular moduli multiplicative dependence。Theorem 1.2; §§2–4。For each n there are finitely many minimal multiplicatively dependent n-tuples of distinct singular moduli; the stated result is ineffective.
 - 版本与引用。Its proof uses the authors' modular Ax–Schanuel theorem together with the Zilber–Pink framework, rather than an executable approximation routine. Statement and setup checked; not a general decision method for multiplicative dependence.
+- 第六批定向筛选。citation。arXiv:1412.8260v1 records an ineffective finiteness theorem for minimal multiplicatively dependent tuples of distinct singular moduli. Its modular Ax-Schanuel/Zilber-Pink proof does not provide a dependence-decision algorithm. 定位。Theorem 1.2 and sections 2-4, physical pp. 1, 2, 4。全卷 19 页。 后续条件。An implementation would require effective height bounds or an independently justified finite search region for a specified tuple size.
 
 ## EXT-0496 · The O-minimal Zilber Conjecture in Higher Dimensions
 
 - 原件。arXiv:2406.09285v1, 13 Jun 2024。PDF 物理页 1, 3, 5。SHA-256 6088ea3861eb476d3ad99193f5638adde9bb8ec532d6087fc3456992adbdc1f7。
 - o-minimal trichotomy。Theorem 1; proof summary §1.3。A non-locally modular strongly minimal relic interpretable in an o-minimal real closed field has ambient dimension two, yielding the stated compact-complex-manifold trichotomy application.
 - 条件或证据待查。It relies on the prior axiomatic t-minimal geometric-structure framework and its curve-family reductions. Preprint theorem and its stated framework checked, not the higher-dimensional proof.
+- 第六批定向筛选。hold。The arXiv:2406.09285v1 o-minimal Zilber theorem is based on the prior axiomatic t-minimal framework and curve-family reductions. It has no finite input interface in the inspected statement. 定位。Theorem 1 and proof summary section 1.3, physical pp. 1, 3, 5。全卷 38 页。 后续条件。Fix a concrete strongly minimal relic and verify interpretability, non-local-modularity, and every t-minimal framework axiom.
 
 ## EXT-0497 · Quasiminimal abstract elementary classes
 
 - 原件。arXiv:1611.07380v7, 12 Jun 2017。PDF 物理页 1, 5, 9。SHA-256 452991146a9b05fd4f395946b2b07d2a58308efd279d3084f3b8438538a41fa6。
 - quasiminimal AECs。Abstract; Theorem 2.10; §4。Defines quasiminimal AECs via four semantic conditions and relates them functorially to quasiminimal pregeometry classes, including redundancy of exchange in the latter definition.
 - 版本与引用。The result is a model-theoretic structural correspondence, not an effective construction from finite data. Targeted theorem/definition inspection only; no full categoricity proof audit.
+- 第六批定向筛选。citation。arXiv:1611.07380v7 gives a semantic correspondence between quasiminimal AECs and pregeometry classes. It is a categoricity framework rather than a computational or arithmetic method. 定位。Theorem 2.10 and section 4, physical pp. 1, 5, 9。全卷 17 页。 后续条件。A future use needs a named class with all four semantic conditions checked and a specified functorial construction.
 
 ## EXT-0498 · Exponentially Closed Fields and the Conjecture on Intersections with Tori
 
 - 原件。arXiv:1108.1075v2, 24 Apr 2014。PDF 物理页 1, 3, 4, 16。SHA-256 887588a633421b6a40c9d6515de21fda7c11c75e9e88320aab88067128591908。
 - pseudo-exponential fields and CIT。Theorems 1.1 and 1.3; §1.4。The paper axiomatizes exponentially closed fields and states that CIT makes the pseudo-exponential-field axioms first order; it separates this conditional model theory from unconditional properties.
 - 条件或证据待查。CIT and the pseudo-exponential-field categoricity/excellence literature are essential imported premises. No unconditional transcendence or numerical tool follows from the inspected statements.
+- 第六批定向筛选。citation。arXiv:1108.1075v2 explicitly makes key pseudo-exponential-field first-order consequences conditional on CIT. It supplies no unconditional numerical or transcendence certificate. 定位。Theorems 1.1 and 1.3 and section 1.4, physical pp. 1, 3, 4, 16。全卷 27 页。 后续条件。Retain CIT and the relevant excellence/categoricity premises, or replace them with a proven theorem for a specified exponential structure.
 
 ## EXT-0499 · Quasiminimal structures and excellence
 
 - 原件。arXiv:1210.2008v3, 27 Oct 2013 (manuscript dated 2018)。PDF 物理页 1, 3, 6, 9。SHA-256 322c413ca5aa68ab6a8939662177de86554543c076e68d2ebbb9e0afce7b6a96。
 - quasiminimal excellence。Theorem 2.3; Proposition 6.2。The excellence axiom follows from the remaining quasiminimal-pregeometry axioms, giving uniqueness of a model in every cardinal dimension for the resulting class.
 - 版本与引用。The derivation uses splitting/isolation of types and prior quasiminimal-class results. Version-date discrepancy retained; proof details not adopted as a standalone procedure.
+- 第六批定向筛选。citation。arXiv:1210.2008v3 proves redundancy of excellence in a quasiminimal-pregeometry setting, but it is a structural theorem that imports splitting/isolation machinery and has no finite checker. 定位。Theorem 2.3 and Proposition 6.2, physical pp. 1, 3, 6, 9。全卷 10 页。 后续条件。For any application, instantiate every quasiminimal-pregeometry axiom and the required type-isolation setting.
 
 ## EXT-0500 · Algebraic types in Zilber's exponential field
 
 - 原件。arXiv:2405.01399v2, 13 Nov 2024。PDF 物理页 1, 3, 6, 9。SHA-256 b87c747c4fd4bd902595e8bfef566abfdc1aa4bc98b9ab6cc107e935d01e9319。
 - algebraic closure in exponential fields。Theorem 1.1; §§3–4。For the stated Zilber exponential field B, model-theoretic acl(B) equals the exponential-algebraic strong hull, with finite-rank torus intersections entering the proof.
 - 条件或证据待查。Laurent's Mordell–Lang theorem for tori and the defining strong exponential-algebraic closure properties are indispensable. Preprint identity and theorem reviewed; no finite algorithm for acl is supplied by this review.
+- 第六批定向筛选。hold。The arXiv:2405.01399v2 acl/strong-hull identity for Zilber's exponential field uses Laurent's torus Mordell-Lang theorem and strong exponential-algebraic closure. It does not yield an algorithm for algebraic closure. 定位。Theorem 1.1 and sections 3-4, physical pp. 1, 3, 6, 9。全卷 14 页。 后续条件。Supply an explicit finitely generated exponential substructure and verify strongness, the finite-rank torus condition, and the imported Mordell-Lang hypotheses.
 
 ## EXT-0504 · Limit laws for rational continued fractions and value distribution of quantum modular forms
 
@@ -3084,6 +3331,7 @@
 - p-adic Euler products。§2 main results; p-adic Euler–Mascheroni formula。Introduces a shadow-function topology in which specified p-adic Dirichlet-series/Euler-product expressions converge and derives a formula for a non-Archimedean Euler–Mascheroni constant.
 - 条件或证据待查。The construction is tied to Kubota–Leopoldt p-adic zeta/Iwasawa functions and a nonstandard topology; it is not an archimedean gamma approximation. Keep p-adic and classical Euler constants separate; formula/proof details and normalization remain unadopted.
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。citation。The published Proceedings of the Edinburgh Mathematical Society 52 (2009), 583-606 article constructs a nonstandard shadow-function topology for p-adic Euler products. Its non-Archimedean Euler-Mascheroni quantity is not an archimedean gamma approximation and no existing target uses this topology. 定位。section 2 and worked construction, physical pp. 1, 3, 15, 21。全卷 24 页。 后续条件。Any adoption requires a specified prime, character and Iwasawa-function normalization satisfying Hypothesis 2.1, plus an implementation of the shadow topology rather than ordinary p-adic convergence.
 
 ## EXT-0530 · On the Extremal Theory of Continued Fractions
 
@@ -3153,12 +3401,14 @@
 - 原件。Annales de l'Institut Fourier 60 (2010), 489–514, DOI 10.5802/aif.2530。PDF 物理页 1, 3, 7, 16。SHA-256 74aa226f52fb1c320049865cb02ef4b29705a19fb293237450b9c1ccddac1c29。
 - rational points on exponential-algebraic surfaces。Theorem 1.1; §2。For the paper's exponential-algebraic surface, the number of bounded-height rational points off the algebraic part is O_ε((log T)^{44+ε}).
 - 版本与引用。The bound relies on mild parametrizations and determinant-method/o-minimal counting inputs tailored to the surface. Checked theorem only; it is not a general rational-point bound for exponential functions.
+- 第六批定向筛选。citation。The published Annales de l'Institut Fourier 60 (2010), 489-514 bound is tailored to one exponential-algebraic surface and imports mild parametrization/determinant-method machinery. It is not a general exponential rational-point routine. 定位。Theorem 1.1 and section 2, physical pp. 1, 3, 7, 16。全卷 27 页。 后续条件。A new application needs a concrete surface, its algebraic part, a verified mild parametrization, and the requisite determinant bounds.
 
 ## EXT-0576 · On the closure of the Hodge locus of positive period dimension
 
 - 原件。Inventiones mathematicae 225 (2021), 857–883, DOI 10.1007/s00222-021-01042-4。PDF 物理页 1, 2, 4, 15。SHA-256 ac9fd13c32ff2626e57a61027ef465fe9ef9f776d58466c7d911ca4f712e76a1。
 - Hodge loci and period maps。Theorem 1.5; §1.2。For a polarizable integral variation with simple adjoint generic Mumford–Tate group, the union of special subvarieties with nonconstant period-map image is either closed algebraic or Zariski dense.
 - 版本与引用。The result uses Hodge-theoretic period maps, generic Mumford–Tate hypotheses, and earlier algebraicity of Hodge loci. Formal theorem checked; no computational test for the dichotomy is provided.
+- 第六批定向筛选。citation。The published Inventiones Mathematicae 225 (2021), 857-883 theorem is a Hodge-theoretic dichotomy under simple-adjoint generic Mumford-Tate hypotheses. It has no computational test for period-map image or Hodge-locus closure. 定位。Theorem 1.5 and section 1.2, physical pp. 1, 2, 4, 15。全卷 27 页。 后续条件。Specify a polarizable integral variation, calculate its generic Mumford-Tate group, and verify the nonconstant-period-map condition.
 
 ## EXT-0578 · Transcendental Nature of Special Values of L-Functions
 
@@ -3166,6 +3416,7 @@
 - L-function special-value transcendence。Theorems 1.1, 1.3, 1.4, 1.6。Proves selected nonvanishing/transcendence results for L-values and derivatives, while several further claims explicitly assume a gamma-value independence or weak Schanuel conjecture.
 - 条件或证据待查。Conditional statements require the named conjectures; unconditional formulas also require the stated parity/eigenform/nonvanishing hypotheses. Do not convert results about digamma/L-function combinations into an irrationality result for Euler's constant.
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。citation。The published Canadian Journal of Mathematics 63 (2011), 136-152 paper has an exact L'/L identity for specified eigenforms but its gamma-related transcendence corollary assumes Schanuel. It neither proves irrationality of ordinary gamma nor adds an unconditioned approximation route. 定位。Theorems 1.1, 1.3, 1.4, 1.6 and Corollary 4.4, physical pp. 1, 2, 3, 10。全卷 17 页。 后续条件。For use, verify normalized eigenform, weight, level and L(k,f) nonvanishing; retain the stated Schanuel or gamma-value-independence hypothesis for transcendence consequences.
 
 ## EXT-0580 · Report on some recent advances in Diophantine approximation
 
@@ -3179,6 +3430,7 @@
 - 原件。Acta Mathematica 225 (2020), 193–225, DOI 10.4310/ACTA.2020.v225.n2.a1。PDF 物理页 1, 2, 5, 20。SHA-256 d5f99c9adc41007a8b7a9aa5ac78ced5e96d919bc16f37cca0ca0f888a0a7e3d。
 - birational dynamics and transcendence。Main theorem; §§1–2。Constructs explicit dominant rational self-maps of P^2 over characteristic not two whose dynamical degree is transcendental under the paper's non-root-of-unity condition on a+b i.
 - 版本与引用。The proof compares degrees of iterates through blowups/toric and birational dynamics; the transcendence criterion is specific to the constructed map. Formal result checked; no general dynamical-degree transcendence test extracted.
+- 第六批定向筛选。citation。The published Acta Mathematica 225 (2020), 193-225 construction gives transcendental dynamical degrees only for its specially constructed birational maps and non-root-of-unity parameter condition. It is not a general degree-transcendence test. 定位。Main theorem and sections 1-2, physical pp. 1, 2, 5, 20。全卷 33 页。 后续条件。A concrete use must reproduce the blowup/toric construction, degree-iterate recurrence, and check the parameter's non-root-of-unity condition.
 
 ## EXT-0590 · A New Proof of Nishioka's Theorem in Mahler's Method
 
@@ -3200,6 +3452,7 @@
 - 原件。Chebyshevskii Sbornik 22(2) (2021), DOI 10.22405/2226-8383-2021-22-2-304-312。PDF 物理页 1, 2, 8。SHA-256 e0ecbd86a59746670fe39955898d573a521b8f361c936a999d569329940b80d5。
 - 多进 Liouville 参数级数。摘要与正文的主定理段。研究带多进 Liouville 参数的 Euler 型级数在各 Q_p 中的无限线性独立性质。
 - 版本与引用。结论直接依赖作者先前的 Hermite–Padé 构造和参数的多进 Liouville 条件；未见与 γ 的整系数线性形式连接。 未逐式复核所引 Hermite–Padé 论文。
+- 第六批定向筛选。citation。The published Chebyshevskii Sbornik 22(2) (2021), 304-312 result concerns polyadic Liouville parameters and p-adic Euler-type F-series. The stated infinite independence relies on earlier Hermite-Pade work and does not map to a gamma integer linear form. 定位。abstract and main-result setup, physical pp. 1, 2, 8。全卷 9 页。 后续条件。A future tool needs a constructive polyadic Liouville parameter, exact p-adic convergence setup, and a checked Hermite-Pade construction from the cited prior work.
 
 ## EXT-0594 · Baker-Type Estimates for Linear Forms in the Values of q-Series
 
@@ -3214,6 +3467,7 @@
 - p-进代数独立。§1 Theorem 1。在技术增长条件下，对 p-进幂级数在特定多进 Liouville 型点的值给出代数独立性结果。
 - 版本与引用。依赖系数非退化、参数序列增长/近似条件及 p-进辅助函数估计；不是一般 C_p 元素的判别法。 现有 L14 只覆盖解析覆盖接口，不包含本代数独立定理；此条作为专门 p-进数论文献，未建议并入。
 - 相关入口。[math-l14-nonarchimedean-cover-descent](../../../math-l14-nonarchimedean-cover-descent/SKILL.md)。
+- 第六批定向筛选。adjacent。SHA and 18 physical pages match the Acta Arithmetica 113.4 (2004) article. Theorem 1 on pp.2--3 is a specialized p-adic algebraic-independence statement with its own coefficient nondegeneracy and multi-index Liouville-growth hypotheses; it is not an input-parameterized C_p decision procedure. 定位。Physical pp.1--3, Section 1 and Theorem 1.。全卷 18 页。 后续条件。To extract a tool, provide a named p-adic series family and prove every coefficient, growth and auxiliary-function estimate in Theorem 1.
 
 ## EXT-0596 · On explicit estimates for linear forms in the values of a class of E-functions
 
@@ -3227,6 +3481,7 @@
 - 原件。Doklady Mathematics 106(1) (2022), 265–267, DOI 10.1134/S106456242204007X。PDF 物理页 1, 2, 3。SHA-256 cb9d33c7ca7d89fd222248c5f96ed4f0c7f79a0c84537e8fa08ced784dea0c96。
 - 多进超越数问题综述。Abstract; problems section。概述多进 Liouville 参数广义超几何级数值的有界无限线性独立，并列出后续问题。
 - 条件或证据待查。明确依赖先前 Hermite–Padé 逼近；本文短文不提供可独立部署的完整证明。 需审计所引构造论文后才可能采用任何具体组件。
+- 第六批定向筛选。citation。SHA and all 3 physical pages match the published Doklady Mathematics 106(1) (2022), DOI 10.1134/S106456242204007X. This is a problem note: it records open polyadic-transcendence questions and refers to prior Hermite--Pade constructions, rather than proving a standalone reusable method. 定位。Physical pp.1--3, abstract and problem statements.。全卷 3 页。 后续条件。Read and audit the cited construction papers before adopting any particular polyadic hypergeometric independence claim.
 
 ## EXT-0599 · Siegel's Problem for E-Functions of Order 2
 
@@ -3234,6 +3489,7 @@
 - 二阶 E-函数 Siegel 问题。Abstract; introduction and main-results section。讨论二阶 E-函数在代数点的算术问题，并以超几何 E-函数为背景给出特定答案。
 - 版本与引用。下载件为预印本版本；任何可迁移结论还需逐条核对最终版本及其 Siegel–Shidlovskii/微分 Galois 输入。 未做预印本依赖审计，故不采纳为技能规则。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。existing。SHA and 15 physical pages match the HAL hal-03327786v1 manuscript. Its order-two E-function/Siegel-problem discussion is already covered by the E-function admission and regular-point routes in math-euler-constant-irrationality; this copy does not add a gamma-specific construction. 定位。Physical pp.1--3 and p.9, introduction and main-results discussion.。全卷 15 页。 后续条件。For any result beyond the existing route, verify the cited final proceedings version and the exact Siegel--Shidlovskii or differential-Galois dependency used.
 
 ## EXT-0605 · Arithmetic properties of the values of some hypergeometric F-series
 
@@ -3249,24 +3505,28 @@
 - Siegel E/G-函数讲义。§1 Padé; later sections on E/G functions。系统讲述 Padé 逼近、E/G-函数及相关超越性背景。
 - 版本与引用。下载件为讲义预印本；作为背景资料而非可直接调用定理，具体结论须回到定理原始来源。 未对讲义所汇集的外部定理逐条复核。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 第六批定向筛选。citation。SHA and 78 physical pages match HAL hal-03807479v1, a lecture-text precursor to the 2024 X-UPS edition. It is broad background on E/G functions and Pade methods; its individual theorems are sourced elsewhere and are not a new certified interface. 定位。Physical pp.1, 9, 20, 40 and 69; lecture-text structure and source attributions.。全卷 78 页。 后续条件。Cite the original theorem source and audit its hypotheses before transferring a particular E/G-function claim.
 
 ## EXT-0613 · Unearthing the Visions of a Master: Harmonic Maass Forms and Number Theory
 
 - 原件。PDF publication year not independently checked。PDF 物理页 1, 4, 17。SHA-256 8df6f8f8ea0ce388dd5b17b0325b1c14e4eb8a050cf101778da1d8a7b39fca9e。
 - 调和 Maass 形式综述。Abstract and overview。综述调和 Maass 形式在分拆、模形式、奇异模数和 L-函数等中的应用。
 - 归档定位。为跨领域综述，结论依赖众多外部模形式结果，且不提供 γ/一般超越数工作流。 只核对身份与摘要范围。
+- 第六批定向筛选。citation。SHA and 98 physical pages match Ken Ono's harmonic-Maass-form survey. The text surveys applications and imports many modular-form theorems; it gives no focused tool contract relevant to the installed number-theory routes. 定位。Physical pp.1, 4 and 17, abstract and overview.。全卷 98 页。 后续条件。Select a named harmonic-Maass theorem and verify its primary publication, modularity, growth and arithmetic hypotheses before a specialized extraction.
 
 ## EXT-0616 · Continuation of Quasi-periodic Invariant Tori
 
 - 原件。Bristol early-version PDF; citation identifies 2004 version of record, DOI 10.1137/040611240。PDF 物理页 1, 2, 5, 8。SHA-256 4850710f8b4540459f121bc11493b3da22a5d142c50f841d0b64fee89b91080c。
 - 拟周期不变环面数值延拓。Abstract; §§2–3 graph-transform method。给出利用图变换延拓拟周期不变环面的数值算法和正常双曲情形的收敛讨论。
 - 归档定位。算法需给定动力系统、局部横向丛和足够法向吸引/排斥；与文献蒸馏的数论主题无交集。 未复算数值例子。
+- 第六批定向筛选。adjacent。SHA and 32 physical pages match an early-version PDF whose first page identifies the 2004 version of record, DOI 10.1137/040611240. The graph-transform continuation applies to supplied quasi-periodic invariant tori with normal-hyperbolicity data, outside the current mathematical-skill routes. 定位。Physical pp.1--2, 5 and 8; graph-transform algorithm and normal-hyperbolicity setting.。全卷 32 页。 后续条件。A numerical dynamics tool would need an explicit map, invariant-bundle bounds, spectral gap and validated continuation residuals.
 
 ## EXT-0617 · Isotropic Polyharmonic B-Splines: Scaling Functions and Wavelets
 
 - 原件。IEEE Transactions on Image Processing 14(11) (2005)。PDF 物理页 1, 3, 5, 14。SHA-256 a33cce7212a3928ae3149985e2b42e7f2db764c06f8e5fd5d177bb6298a75355。
 - 多调和 B-样条小波。Abstract; Definition 1; Riesz-basis section。构造更各向同性的多调和 B-样条及二维 quincunx 小波框架，并讨论 Riesz 基性质。
 - 归档定位。结论基于给定局部化算子、Fourier 条件与采样格；属于图像处理，不适合当前数学工具索引。 未审计工程实现。
+- 第六批定向筛选。adjacent。SHA and 16 physical pages match IEEE Transactions on Image Processing 14(11) (2005). The polyharmonic B-spline/wavelet constructions use a specified localization operator, Fourier conditions and sampling lattice, not a general-purpose mathematical certificate. 定位。Physical pp.1, 3, 5 and 14; abstract, Definition 1 and Riesz-basis discussion.。全卷 16 页。 后续条件。A signal-processing extraction would require the exact operator, lattice, Fourier symbol and Riesz-basis verification.
 
 ## EXT-0621 · Orthogonal Polynomials Associated with the Rogers-Ramanujan Continued Fraction
 
@@ -3282,12 +3542,14 @@
 - 原件。Compositio Mathematica 159 (2023), 1111–1152, DOI 10.1112/S0010437X23007170。PDF 物理页 1, 2, 3, 16。SHA-256 811619d1e066b699fc977f6a88b3eb112966c40fce761c5524a72d0874413990。
 - 模曲线二次 Chabauty。Abstract; introduction; algorithm sections。给出在 Jacobian Mordell–Weil 秩等于 genus 的模曲线上用二次 Chabauty 求有理点的算法与例子。
 - 版本与引用。依赖曲线模型、p-进积分、高度和 Selmer/秩计算；为专门算术几何流程。 未复算案例或审计软件依赖。
+- 第六批定向筛选。candidate。SHA and 43 physical pages match Compositio Mathematica 159 (2023), 1111--1152, DOI 10.1112/S0010437X23007170. Its quadratic-Chabauty algorithm is substantive but needs a modular-curve model, p-adic integration, height, Selmer and Mordell--Weil rank computations unavailable in the present tool inventory. 定位。Physical pp.1--3 and p.16, introduction, algorithm scope and examples.。全卷 43 页。 后续条件。Create a separate arithmetic-geometry interface with explicit curve/Jacobian data, prime, rank/Selmer certificate, Coleman integrals, height data and certified zero isolation.
 
 ## EXT-0627 · Best Simultaneous Diophantine Approximations. II. Behavior of Consecutive Best Approximations
 
 - 原件。Pacific Journal of Mathematics 102(1) (1982)。PDF 物理页 1, 3, 4。SHA-256 81a6d17f17dc40f65f1fd5619765f4043c21a134aaa8c7778e2a69f71ee15638。
 - 最佳同步丢番图逼近。§1 Theorems 1.2–1.3。说明高维连续最佳同步逼近的相邻近似矩阵可长期退化，并在二维 sup 范数构造任意大的行列式。
 - 版本与引用。对象是实向量的最佳同步近似及固定范数；结论不自动给出指定常数的线性形式。 未复核构造细节。
+- 第六批定向筛选。adjacent。SHA and 31 physical pages match Pacific Journal of Mathematics 102(1) (1982). Theorems 1.2--1.3 concern consecutive best simultaneous approximations for specified real vectors and norms; they do not construct integer forms for a chosen constant. 定位。Physical pp.1, 3 and 4, Section 1 and Theorems 1.2--1.3.。全卷 31 页。 后续条件。Supply a fixed approximation norm and vector plus the full source construction before using its determinant-degeneracy phenomenon.
 
 ## EXT-0630 · Equidistribution and Counting Under Equilibrium States in Negative Curvature and Trees: Applications to Non-Archimedean Diophantine Approximation
 
@@ -3295,6 +3557,7 @@
 - 负曲率/树上的平衡态与非阿基米德逼近。title page; table of contents Part III。长篇预印本发展负曲率空间和树上平衡态的计数/等分布，并在后部讨论非阿基米德丢番图逼近。
 - 版本与引用。预印本各应用依赖 Patterson 密度、skin­ning 测度及 Bruhat–Tits 树输入；未逐条审计。 无预印本依赖核对，不作为现有 L14 的新规则。
 - 相关入口。[math-l14-nonarchimedean-cover-descent](../../../math-l14-nonarchimedean-cover-descent/SKILL.md)。
+- 第六批定向筛选。existing。SHA and 319 physical pages match HAL hal-01421211v1. The non-Archimedean approximation applications are a long equilibrium-state/tree framework already adjacent to math-l14-nonarchimedean-cover-descent, and no single application theorem was audited here. 定位。Physical pp.1, 5--6 and contents Part III.。全卷 319 页。 后续条件。Choose one named Bruhat--Tits-tree application and verify its Patterson density, skinning measure, mixing and approximation hypotheses.
 
 ## EXT-0631 · p-adic Hodge theory and values of zeta functions of modular forms
 
@@ -3316,24 +3579,28 @@
 - 原件。Pacific Journal of Mathematics 65(2) (1976)。PDF 物理页 1, 5, 6。SHA-256 6d18c89c846ad458de3e5f60e6f638a62e4d5099e884b0a4319cb65a7fc939e5。
 - 微分代数的 Liouville 理论。Proposition 6 and elementary-antiderivative argument。用微分形式的线性独立性澄清 Liouville 型初等原函数理论中的常数域下降步骤。
 - 版本与引用。须固定微分域、常数域和导子族；不能仅由符号表达式断定初等可积。 未转化为可执行符号积分流程。
+- 第六批定向筛选。candidate。SHA and 11 physical pages match Pacific Journal of Mathematics 65(2) (1976). Proposition 6 supplies a precise differential-algebra constant-field descent step for Liouville elementary-antiderivative arguments, but the repository has no symbolic differential-field input contract. 定位。Physical pp.1, 5 and 6; Proposition 6 and the elementary-antiderivative argument.。全卷 11 页。 后续条件。A new symbolic-integration tool would need a specified differential field, constant field, derivations, differential forms and a proof that the source's independence/descent hypotheses hold.
 
 ## EXT-0640 · Minorations de formes linéaires de logarithmes elliptiques
 
 - 原件。Mémoires de la Société Mathématique de France, 2e série 62 (1995)。PDF 物理页 1, 7, 49。SHA-256 bb0cd62482600fe471603881d9b4af9fc044104ed9a55c66058035a31cb1eb0b。
 - 椭圆对数线性形式显式下界。Introduction; explicit-estimate lemmas。在椭圆情形给出线性形式下界的显式版本，并优化若干辅助函数估计。
 - 版本与引用。依赖椭圆曲线、周期、参数高度和前置零估计；非普通对数或 γ 的自动推广。 未审计全部常数和引用的零估计。
+- 第六批定向筛选。adjacent。SHA and 144 physical pages match Memoires de la SMF, 2e serie 62 (1995). The explicit elliptic-logarithm lower bounds require a given elliptic curve, periods, algebraic points/heights and imported zero estimates; they are not ordinary logarithm or gamma bounds. 定位。Physical pp.1, 7 and 49, introduction and explicit-estimate sections.。全卷 144 页。 后续条件。A dedicated elliptic-log interface needs an explicit Weierstrass model, period lattice, linear form, heights, embeddings and the cited zero-estimate constants.
 
 ## EXT-0643 · Simultaneous Approximations in Transcendental Number Theory
 
 - 原件。University of Amsterdam doctoral thesis (1978)。PDF 物理页 1, 4, 8, 10, 13。SHA-256 ccdc17607b43ebbacb0583d443d8324a44bd7c444f99dbb0b9cbaac723c9ceb8。
 - 超越数的同步逼近。Contents; Chapter 1 theorems。博士论文研究 a、b、a^b 等对象的同步代数逼近度量，并含多变量和 p-进章节。
 - 版本与引用。各结果以 Baker/Gel’fond 型下界和对参数的额外近似条件为前提；不构成通用同步逼近黑箱。 未逐章复核历史引用或勘误。
+- 第六批定向筛选。citation。SHA and 121 physical pages match the 1978 University of Amsterdam doctoral thesis. It collects simultaneous approximation results for named constants under Baker/Gelfond-type lower-bound and auxiliary approximation conditions; it is not a general black-box theorem. 定位。Physical pp.1, 4, 8, 10 and 13; contents and Chapter 1 theorem setup.。全卷 121 页。 后续条件。Use the relevant chapter's original or corrected source and prove all parameter and lower-bound assumptions for the target constants.
 
 ## EXT-0647 · S-integer Dynamical Systems: Periodic Points
 
 - 原件。published article PDF; year not independently checked。PDF 物理页 1, 2, 3, 9, 12。SHA-256 7cc249964907ab43b0eaa6daab2db331007c03c93f36c161d7786d30ec07c8e3。
 - S-整数代数动力系统周期点。Abstract; Theorems 4.1, 6.1; Baker lemma。研究 S-整数对偶动力系统的周期点增长、熵与等分布；在单位圆非根情形用 Baker 型下界控制 ξ^n−1。
 - 版本与引用。结论依赖代数 S-整数系统和 ξ 的代数性，部分无限非双曲例子还以 Artin 猜想的渐近版本为条件。 不将条件性例子或 Baker 引理外推到 γ。
+- 第六批定向筛选。adjacent。SHA and 38 physical pages match the published S-integer dynamical-systems article. Theorems 4.1 and 6.1 use algebraic S-integer dynamics and a Baker-type bound for xi^n-1; conditional nonhyperbolic examples also invoke Artin-type assumptions. This is not a transfer to gamma or generic recurrence analysis. 定位。Physical pp.1--3, 9 and 12; abstract, Theorems 4.1 and 6.1 and Baker-lemma use.。全卷 38 页。 后续条件。A future dynamical tool requires an explicit S-integer system, algebraicity/unit data for xi, all relevant places and a separate check of conditional Artin-type assumptions.
 
 ## EXT-0650 · On the Non-Holonomic Character of Logarithms, Powers, and the nth Prime Function
 

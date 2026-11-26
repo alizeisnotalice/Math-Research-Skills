@@ -5,31 +5,24 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 
 # 整数线性形式的高度与余项
 
-给定实数 \(\xi\) 的一列整数对 \((p_n,q_n)\)，先把误差写成实际整化后的形式 \(\ell_n=q_n\xi-p_n\)。用同一列指标核对高度、余项上界和严格的余项下界。已有 \(p_n/q_n\to\xi\) 时，先乘回得到 \(\ell_n\)，再评估增长率。
+仅在算术前提已由原文或独立证明给出后使用：固定同一序列的实际整数形式 \(\ell_n=q_n\xi-p_n\)，相同指标范围内的高度与双边余项界，以及要证明的结论。完整的归一化、整化、非零、趋零和速率验收见[共享证明门槛](references/integer-linear-form-proof-gates.md)。
 
-- 证明已覆盖所有 \(n\ge n_0\)，且给出 \(0<Lr^n\le|\ell_n|\le Us^n\)、\(0<|q_n|\le QA^n\)，其中 \(0<r\le s<1\le A\)。把这些数据交给 [精确下界工具](scripts/linear_form_bound.py)，返回对该分母的全部分子统一有效的下界。
-- 只有高度上界及 \(\log|\ell_n|/n\) 的严格极限时，读 [指数率与行列式证明](references/rates-and-independence.md)，由整体假设推出无理性指数上界。
-- 有两条共享分母的余项时，逐个固定整数线性组合证明其最终非零。例如严格分离的余项阶可以排除组合消失。不同余项各自非零仍可能互相抵消。
+## 选择后端
 
-算术前提来自原文或独立证明。脚本接受的是这些界的精确数值。观测到的斜率、有限样例和输入格式校验分别记为有限证据。欧拉常数的现有表示先由 [欧拉常数入口](../math-euler-constant-irrationality/SKILL.md) 检查是否已经隔离出单常数整系数形式。
+- 若已证明对全部 \(n\ge n_0\)，有 \(0<Lr^n\le|\ell_n|\le Us^n\)、\(0<|q_n|\le QA^n\)，其中 \(0<r\le s<1\le A\)，用[精确下界工具](scripts/linear_form_bound.py)把已证数据转换为给定分母、全体分子有效的下界。
+- 若只有高度上界及 \(\log|\ell_n|/n\) 的严格极限，读[指数率与行列式证明](references/rates-and-independence.md)；该推导仍要求同一形式和统一量词。
+- 对共享分母的多条余项，逐个证明每个整数线性组合最终非零；单条非零不排除组合抵消。
 
-## 补充来源的方法
+脚本只处理输入的精确已证界；观测斜率、有限样例和格式校验是有限证据。欧拉常数输入先由[欧拉常数入口](../math-euler-constant-irrationality/SKILL.md)核对是否已隔离为单常数整系数形式。
 
-- [Generalized Apéry supercongruences: finite p-adic audit](references/apery-supercongruence-finite-audit.md)
-- [Apéry zeta(3): closing an integral linear-form proof](references/apery-zeta3-integrality-and-contraction.md)
+## 按需来源
 
-## 补充来源中的方法
-
-- [A p-adic contraction gate and rising-factorial denominator ledger](references/beukers-padic-contraction-and-denominators.md)
-- [Scoped reference. p-adic L-value dimension bound](references/supp-remaining-b-padic-l-values.md)
-- [Scoped reference. Vector Nesterenko criterion](references/supp-remaining-b-vector-nesterenko.md)
+[Apéry 超同余有限审计](references/apery-supercongruence-finite-audit.md)、[Apéry \(\zeta(3)\) 完整线性形式](references/apery-zeta3-integrality-and-contraction.md)、[p-adic 收缩和分母账本](references/beukers-padic-contraction-and-denominators.md)、[p-adic L-value 维数界](references/supp-remaining-b-padic-l-values.md)、[向量 Nesterenko 判据](references/supp-remaining-b-vector-nesterenko.md)、[分离指标选择](references/fischler-separated-zeta-index-selection.md)、[高 twist 整除性](references/sprang-higher-twist-divisibility.md)、[移位 Legendre 核](references/supp-c07-08-shifted-legendre-moments.md)、[递推对数约化](references/supp-c07-10-recurrence-log-reduction.md)、[Mellin 矩阵/Minkowski](references/wave5-c08-01-mellin-transfinite-diameter.md)、[Minkowski 独立性准则](references/wave5-c08-01-nesterenko-fischler-zudilin.md)与[奇 \(\zeta\) 形式维数](references/wave5-c08-01-rivoal-odd-zeta.md)。
 
 ## 补充来源中的方法
 
-- [Separated-index selection from a vector rank bound](references/fischler-separated-zeta-index-selection.md)
-- [Higher-twist arithmetic-progression divisibility](references/sprang-higher-twist-divisibility.md)
-- [Scoped reference. Shifted Legendre kernels for finite Beukers-style checks](references/supp-c07-08-shifted-legendre-moments.md)
-- [Dominant-root recurrence linear-form reduction](references/supp-c07-10-recurrence-log-reduction.md)
-- [Mellin matrices, denominators, and a Minkowski criterion](references/wave5-c08-01-mellin-transfinite-diameter.md)
-- [A Minkowski bound behind a linear-independence criterion](references/wave5-c08-01-nesterenko-fischler-zudilin.md)
-- [Normalized odd-zeta forms and span dimension](references/wave5-c08-01-rivoal-odd-zeta.md)
+- [Vasilyev--Sorokin multiple-integral coordinate transfer](references/polyzeta-integral-coordinate-transfer-ext0158.md)
+- [Tribonacci dominant-root height gate](references/supp-12-tribonacci-dominant-root-height.md)
+- [Scoped reference: cubic-Thue to Mordell covariant bridge](references/supp13-mordell-cubic-thue-bridge.md)
+- [Thue–hypergeometric lower bounds over imaginary quadratic fields](references/thue-hypergeometric-imaginary-quadratic-wave6-supp10.md)
+- [Simultaneous lower bounds for algebraic logarithmic forms](references/wave6-supp-11-gaudron-simultaneous-log-lower.md)

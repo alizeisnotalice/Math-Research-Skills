@@ -56,7 +56,4 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 ## 补充来源中的方法
 
 - [Scoped reference. Exponential algebraicity and derivation closure](references/supp-remaining-b-exponential-algebraicity.md)
-
-## 补充来源中的方法
-
 - [C13--15: conditional exponential-polynomial reduction](references/supp-c13-15.md)

@@ -16,7 +16,9 @@ description: 核对已给定的余留映射、整系数转移、链提升、格�
 
 ## OpenAI 原稿中的方法
 
-- [Proposed primitive: residue gluing for a cyclic Milnor-page lattice](references/openai-residual-02-wave5.md)
+- [equivalence from fully faithful cancellation](references/openai-last-b-wave6.md)
+
+- [residue gluing for a cyclic Milnor-page lattice](references/openai-residual-02-wave5.md)
 - [Ascending-torus finiteness interface](references/openai-wave5-ascending-torus.md)
 - [Degree-three ramified Gersten construction](references/openai-wave5-gersten-degree-three.md)
 - [Integral coefficient K-theory transfer obstruction](references/openai-wave5-gersten-integral-transfer.md)

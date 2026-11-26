@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 209 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 213 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -135,12 +135,14 @@
 | [math-algebraic-transfer-certificates](../skills/math-algebraic-transfer-certificates/SKILL.md) | 核对已给定的余留映射、整系数转移、链提升、格拼接或有限对称张量资料。适用于 Gersten 与 Milnor 障碍、升 HNN 扩张的同调输入和纤维函子条件。 |
 | [math-alternating-reciprocal-criteria](../skills/math-alternating-reciprocal-criteria/SKILL.md) | 用 Sondow 的交错倒数和—连分数判据，严格区分可证明的无理性、有限前缀核验，以及需要整条简单连分数假设的超越性结论。适用于 Pierce 展开或快速增长分母的交错倒数和；不用于仅凭数值近似宣称无理或超越。 |
 | [math-asymptotic-midpoint-moduli](../skills/math-asymptotic-midpoint-moduli/SKILL.md) | 在已认证的树、段森林或 Daugavet-L1 结构上，调用渐近中点模量与可数分支 diamond 失真界；不把有限算术或抽象范数当作结构证书。 |
+| [math-bessel-cross-product-recurrence](../skills/math-bessel-cross-product-recurrence/SKILL.md) | 在已给定的 Bessel/modified-Bessel 定义域内，使用离散 Riccati 恒等式与二阶交叉积递推；不把有限递推代数当作圆板谱重数或超越性证明。 |
 | [math-bimatrix-kite-mixing](../skills/math-bimatrix-kite-mixing/SKILL.md) | 核验双矩阵博弈的后悔值、s-kite 条件与精确最佳回应混合。适用于已有候选策略的局部改进与有限证书，不把尚未独立复核的全局近似 Nash 声明当作可用定理。 |
 | [math-cat0-inductive-barycenters](../skills/math-cat0-inductive-barycenters/SKILL.md) | Transfer a finite centred distribution in a complete CAT(0) metric cone into an inductive-barycenter energy bound, with exact Euclidean finite-support replay. Use for certified cone geometry, not generic group-action or sampling claims. |
 | [math-centered-cube-endpoint-budget](../skills/math-centered-cube-endpoint-budget/SKILL.md) | Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima. |
 | [math-clique-free-random-multiplier](../skills/math-clique-free-random-multiplier/SKILL.md) | Construct and exactly check the finite-support random multiplier from the clique-free neighborhood recursion for a supplied finite weighted K_r-free graph. |
 | [math-cohomological-transfer](../skills/math-cohomological-transfer/SKILL.md) | 核验链复形权截断、Mayer–Vietoris 条件、图状神经上链延拓以及已给代数或谱数据上的局部化与张量消失。 |
 | [math-conformal-domain-estimates](../skills/math-conformal-domain-estimates/SKILL.md) | Manage gated conformal-domain coordinate-energy and univalent inverse-integral-means transfers. Use only with the specified normalization, boundary, and source-model hypotheses; not for arbitrary holomorphic maps or planar compactness. |
+| [math-dirichlet-l-derivative-sine-reduction](../skills/math-dirichlet-l-derivative-sine-reduction/SKILL.md) | 对给定偶周期有理数据，精确生成 Dirichlet 型级数在零点导数的形式对数权重。核对周期、对称性、零索引和分母。 |
 | [math-discrete-proof-transfer](../skills/math-discrete-proof-transfer/SKILL.md) | 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。另用于周期图的有限连通分支与例外顶点预算。不要因同名 Fourier、稳定性或张量术语就迁移结论。 |
 | [math-edge-deck-reconstruction-audit](../skills/math-edge-deck-reconstruction-audit/SKILL.md) | 审计有限简单图的无标号单边删除卡组，精确比较候选反例并核对边重构定理的图类和密度门槛。适用于小图枚举、边卡组断言和来源结论的适用范围检查。 |
 | [math-euler-constant-irrationality](../skills/math-euler-constant-irrationality/SKILL.md) | 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计 γ 的 Padé、多重正交、超几何、递推、整数线性形式、分母消去与 Sondow 型判据，也用于核对 E/G 函数、算术 Gevrey 与 Stokes 常数方法能否转移到 γ。 |
@@ -155,6 +157,7 @@
 | [math-geometric-pde-reductions](../skills/math-geometric-pde-reductions/SKILL.md) | 核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。 包含固定顶点倾斜比较与给定加权幂零坐标的局部检查。 |
 | [math-grid-piecewise-translation-embedding](../skills/math-grid-piecewise-translation-embedding/SKILL.md) | Certify a finite cellwise translation embedding between two strict-size subsets of a specified square cell grid. Use after a geometric argument has supplied an allowable common grid; it does not polygonize sets or prove a general equidecomposition theorem. |
 | [math-hankel-pade-certificates](../skills/math-hankel-pade-certificates/SKILL.md) | 对整数幂级数做精确 Hankel 行列式与 Padé 有限证书，核验正矩投影的有理下界，并审计 Mahler–Hankel 定理的独立准入门槛；不以有限计算断言超越性或无理度指数。 |
+| [math-harmonic-sum-recurrences](../skills/math-harmonic-sum-recurrences/SKILL.md) | 用精确有理算术生成和核对广义超调和数的有限系数。适用于需要把嵌套调和定义化为有限递推、初等对称和或普通调和数的场景；不用于无限 Euler 和、zeta 值化简或无理性结论。 |
 | [math-hbl-finite-presentation](../skills/math-hbl-finite-presentation/SKILL.md) | 对已给定的有理有限子空间图和边权，精确核验 HBL 有效表示并分解平衡边流；不搜索表示或计算一般 HBL 常数。 |
 | [math-holomorphic-local-to-global-transfer](../skills/math-holomorphic-local-to-global-transfer/SKILL.md) | Transfer specified holomorphic local data to descent, gluing, integrability, or universal-cover product conclusions only after the matching geometric gate has been established. Not for arbitrary local charts or holomorphic distributions. |
 | [math-honeycomb-finite-boundary-flux](../skills/math-honeycomb-finite-boundary-flux/SKILL.md) | 在有限、单连通蜂窝三角形域中认证零环权重的带相位边界通量恒等式及凸域正性界；不用于条带渐近、桥质量或一般自避游走。 |
@@ -168,6 +171,7 @@
 | [math-operator-algebra-certificates](../skills/math-operator-algebra-certificates/SKILL.md) | 核验算子代数中的幺正压缩修复、平移卷积核、谱相位迹、自伴谱编码及 C* 截断转运。按已给投影、严格谱隙、迹或比较见证选择。 |
 | [math-projective-induction-cocycle-certificates](../skills/math-projective-induction-cocycle-certificates/SKILL.md) | 用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。 |
 | [math-sondow-log-fractional-certificate](../skills/math-sondow-log-fractional-certificate/SKILL.md) | 从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。 |
+| [math-subanalytic-preparation](../skills/math-subanalytic-preparation/SKILL.md) | 用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。 |
 | [math-three-strip-token-bound](../skills/math-three-strip-token-bound/SKILL.md) | Certify the finite three-strip/token boundary bound for a sequence of equal-cardinality planar threshold cuts with matched exchanges; not a halving-line asymptotic solver. |
 | [math-torus-packet-spectral-density](../skills/math-torus-packet-spectral-density/SKILL.md) | 对给定有理分段仿射扭转与有限角向 Fourier 包，精确计算模一推前的阶梯谱密度、色间正交门槛和可选 L1 密度差。 |
 | [math-tube-maximal-transfer](../skills/math-tube-maximal-transfer/SKILL.md) | Transfer a specified three-dimensional tube or curved extension packet estimate through its declared maximal, capacity, and level-set interfaces. Not a generic Kakeya, restriction, or incidence certificate. |

@@ -34,6 +34,8 @@ python3 scripts/ag_divisor_intersection_ledger.py examples/negative_form_mismatc
 
 ## OpenAI 原稿中的方法
 
+- [Stable torus quotient: bounded metric and natural-invariant section return](references/openai-last-b-wave6.md)
+
 - [Big/nef canonical ledger to ampleness](references/big-nef-no-rational-curves-ampleness-wave5.md)
 - [Integral `CH_0` under point blowup](references/integral-ch0-point-blowup-wave5.md)
 - [Weak-factorization divisorial ledger](references/weak-factorization-divisorial-ledger-wave5.md)

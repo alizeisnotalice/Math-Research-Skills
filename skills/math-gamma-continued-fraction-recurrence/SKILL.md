@@ -5,47 +5,37 @@ description: 用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有
 
 # 欧拉常数连分数递推
 
-需要使用 Kh. Hessami Pilehrood 与 T. Hessami Pilehrood 构造的有理序列
-\(p_n/q_n\)，或其非简单连分数时调用。先生成精确有理数，再核验有限恒等式。
+当需要 Hessami Pilehrood 的 \(p_n/q_n\) 或其非简单连分数时使用。先生成精确有理数并核验有限恒等式；原始来源、版本、渐近范围和反例边界见[来源与范围](references/source-and-scope.md)。
 
-来源为 *On a continued fraction expansion for Euler's constant*，
-arXiv:1010.1420v3，2013-12-29。正式发表记录为 *Journal
-of Number Theory* 133(2) (2013)，DOI
-[10.1016/j.jnt.2012.08.016](https://doi.org/10.1016/j.jnt.2012.08.016)。
-原始下载文件为 `04_Attachment_References/PDF/P01-P21/P20_On_a_continued_fraction_expansion_for_Euler_s_constant.pdf`，SHA-256 为
-`0fc9404ea3f673bc2215cbce0858ba8a18a9f8f0c00c73d0465c642953aea0dc`。作渐近或无理性主张前，先读[来源与范围](references/source-and-scope.md)。
-
-## 精确有限构造
-
-取 \(H_0=0\) 且 \(n\geq0\)，原文定义
+取 \(H_0=0\)、\(n\ge0\)，并定义
 
 \[
 q_n=\sum_{k=0}^n\binom nk^2k!,\qquad
 p_n=\sum_{k=0}^n\binom nk^2k!\,(2H_{n-k}-H_k).
 \]
 
-其中 \(D_n=\operatorname{lcm}(1,\ldots,n)\)，约定 \(D_0=1\)。原文证明 \(q_n\in\mathbb Z\)、\(D_np_n\in\mathbb Z\)，并给出
+令 \(D_n=\operatorname{lcm}(1,\ldots,n)\) 且 \(D_0=1\)。原文给出 \(q_n\in\mathbb Z\)、\(D_np_n\in\mathbb Z\)，以及
 
 \[
 q_{n+2}-2(n+2)q_{n+1}+(n+1)^2q_n=0,
-\]
-\[
+\quad
 p_{n+2}-2(n+2)p_{n+1}+(n+1)^2p_n=-\frac n{n+2}.
 \]
 
-运行 `scripts/gamma_continued_fraction.py --through 12`。脚本从 Theorem A
-直接推得有理部分分子和分母，并核验每个收敛子恰为 \(p_n/q_n\)。它接受
-\(n=0\) 的初值案例，拒绝负指标。输出的非简单连分数允许有理部分元素。
-原文还给出一个整系数等价变换，使用该变换时必须依据原文的对应证明单独核对，不能和脚本的有理部分元素逐项混同。
+## 精确有限回放
 
-需要保留 \(\gamma\) 与若干 zeta 值的同时逼近时，读 [Bell 多项式逼近](references/bell-gamma-zeta-approximants.md) 并运行其有限系数脚本。
+运行既有命令：
 
-## 使用范围
+~~~sh
+python3 scripts/gamma_continued_fraction.py --through 12
+~~~
 
-Theorem 1 给出 \(p_n/q_n-\gamma\sim2\pi e^{-4\sqrt n}\)。这是次指数收敛，不能直接成为无理性判据。定理的 \(D_np_n\in\mathbb Z\) 也不使 \(D_n(p_n-\gamma q_n)\) 趋于零。超过有限有理逼近的结论，必须另证整系数线性形式、非零子列和清分母余项趋零。
+脚本由 Theorem A 生成有理部分分子/分母，并核验每个收敛子为 \(p_n/q_n\)。它接受 \(n=0\) 初值、拒绝负指标；输出的非简单连分数允许有理部分元素。原文的整系数等价变换须按原文另行核对，不能与脚本的有理部分元素逐项混同。若要同时逼近 \(\gamma\) 与 \(\zeta\) 值，读 [Bell 多项式逼近](references/bell-gamma-zeta-approximants.md) 并运行其有限系数脚本。
 
-参见[平衡次数多项式连分数的阶乘约化](references/pcf-factorial-reduction-admission.md)。
+## 不可跳过的边界
+
+Theorem 1 的 \(p_n/q_n-\gamma\sim2\pi e^{-4\sqrt n}\) 是次指数收敛；\(D_np_n\in\mathbb Z\) 也不意味着 \(D_n(p_n-\gamma q_n)\to0\)。若意图得到无理性或逼近指数，必须回到[共享整数线性形式门槛](../math-integer-linear-form-rates/references/integer-linear-form-proof-gates.md)，对同一整化后形式证明无穷子列非零与趋零。平衡次数多项式连分数的阶乘约化另见[准入说明](references/pcf-factorial-reduction-admission.md)。
 
 ## 补充来源中的方法
 
-- [q-scaled symmetric orthogonal-polynomial recurrence gate (EXT-0621)](references/supp-c07-12-rogers-ramanujan-ops.md)
+- [Exact folding of a polynomial continued-fraction layer](references/supp-14-esma-folding-transform.md)

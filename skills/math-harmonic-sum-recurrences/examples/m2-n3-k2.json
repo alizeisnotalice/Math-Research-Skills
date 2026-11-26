@@ -1,0 +1,4 @@
+{
+  "command": "python3 -B scripts/hyperharmonic_exact.py 2 3 2",
+  "expect": {"status": "EXACT_HYPERHARMONIC", "value": [3, 2], "source_formula_contact": [3, 2]}
+}

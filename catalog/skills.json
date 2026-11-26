@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 43,
+    "research-specialists": 47,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -195,6 +195,13 @@
       "family": "b"
     },
     {
+      "name": "math-bessel-cross-product-recurrence",
+      "title": "Bessel 交叉积的离散 Riccati 递推",
+      "description": "在已给定的 Bessel/modified-Bessel 定义域内，使用离散 Riccati 恒等式与二阶交叉积递推；不把有限递推代数当作圆板谱重数或超越性证明。",
+      "category": "research-specialists",
+      "path": "skills/math-bessel-cross-product-recurrence/SKILL.md"
+    },
+    {
       "name": "math-bimatrix-kite-mixing",
       "title": "双矩阵博弈 Kite 混合",
       "description": "核验双矩阵博弈的后悔值、s-kite 条件与精确最佳回应混合。适用于已有候选策略的局部改进与有限证书，不把尚未独立复核的全局近似 Nash 声明当作可用定理。",
@@ -307,6 +314,13 @@
       "category": "methods",
       "path": "skills/math-d05-finite-block-matrix-entropy/SKILL.md",
       "family": "d"
+    },
+    {
+      "name": "math-dirichlet-l-derivative-sine-reduction",
+      "title": "周期 Dirichlet 级数的一阶导数",
+      "description": "对给定偶周期有理数据，精确生成 Dirichlet 型级数在零点导数的形式对数权重。核对周期、对称性、零索引和分母。",
+      "category": "research-specialists",
+      "path": "skills/math-dirichlet-l-derivative-sine-reduction/SKILL.md"
     },
     {
       "name": "math-discrete-proof-transfer",
@@ -619,6 +633,13 @@
       "description": "对整数幂级数做精确 Hankel 行列式与 Padé 有限证书，核验正矩投影的有理下界，并审计 Mahler–Hankel 定理的独立准入门槛；不以有限计算断言超越性或无理度指数。",
       "category": "research-specialists",
       "path": "skills/math-hankel-pade-certificates/SKILL.md"
+    },
+    {
+      "name": "math-harmonic-sum-recurrences",
+      "title": "有限调和和递推",
+      "description": "用精确有理算术生成和核对广义超调和数的有限系数。适用于需要把嵌套调和定义化为有限递推、初等对称和或普通调和数的场景；不用于无限 Euler 和、zeta 值化简或无理性结论。",
+      "category": "research-specialists",
+      "path": "skills/math-harmonic-sum-recurrences/SKILL.md"
     },
     {
       "name": "math-hbl-finite-presentation",
@@ -1218,6 +1239,13 @@
       "description": "从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。",
       "category": "research-specialists",
       "path": "skills/math-sondow-log-fractional-certificate/SKILL.md"
+    },
+    {
+      "name": "math-subanalytic-preparation",
+      "title": "次解析族的定参幂次预备",
+      "description": "用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。",
+      "category": "research-specialists",
+      "path": "skills/math-subanalytic-preparation/SKILL.md"
     },
     {
       "name": "math-three-strip-token-bound",

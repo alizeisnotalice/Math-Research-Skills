@@ -4,6 +4,8 @@
 
 ## 欧拉常数、丢番图逼近与算术
 
+- [math-harmonic-sum-recurrences](../../math-harmonic-sum-recurrences/SKILL.md) · 用精确有理算术生成和核对广义超调和数的有限系数。适用于需要把嵌套调和定义化为有限递推、初等对称和或普通调和数的场景；不用于无限 Euler 和、zeta 值化简或无理性结论。
+- [math-dirichlet-l-derivative-sine-reduction](../../math-dirichlet-l-derivative-sine-reduction/SKILL.md) · 对给定偶周期有理数据，精确生成 Dirichlet 型级数在零点导数的形式对数权重。核对周期、对称性、零索引和分母。
 - [math-euler-series-continued-fraction](../../math-euler-series-continued-fraction/SKILL.md) · Convert a finite nondegenerate rational series segment to Euler generalized continued-fraction data exactly. Use for finite algebraic identity checks, not for convergence or irrationality claims.
 - [math-mzv-newton-harmonic-relations](../../math-mzv-newton-harmonic-relations/SKILL.md) · Check finite Newton/binomial duality for positive multiple-harmonic indices exactly. Use to prepare finite inputs for Kawashima-type MZV relations, not to prove MZV independence or Euler-constant claims.
 - [math-zeta-arithmetic-estimates](../../math-zeta-arithmetic-estimates/SKILL.md) · 根据指定的 ζ 函数采样、平滑核和参数区间接入等差级数矩比较与光滑数零点修正。适用于检查扭权、测量模型和误差来源。
@@ -21,6 +23,8 @@
 
 ## 调和分析、动力系统与几何方程
 
+- [math-bessel-cross-product-recurrence](../../math-bessel-cross-product-recurrence/SKILL.md) · 在已给定的 Bessel/modified-Bessel 定义域内，使用离散 Riccati 恒等式与二阶交叉积递推；不把有限递推代数当作圆板谱重数或超越性证明。
+- [math-subanalytic-preparation](../../math-subanalytic-preparation/SKILL.md) · 用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。
 - [math-asymptotic-midpoint-moduli](../../math-asymptotic-midpoint-moduli/SKILL.md) · 在已认证的树、段森林或 Daugavet-L1 结构上，调用渐近中点模量与可数分支 diamond 失真界；不把有限算术或抽象范数当作结构证书。
 - [math-conformal-domain-estimates](../../math-conformal-domain-estimates/SKILL.md) · Manage gated conformal-domain coordinate-energy and univalent inverse-integral-means transfers. Use only with the specified normalization, boundary, and source-model hypotheses; not for arbitrary holomorphic maps or planar compactness.
 - [math-tube-maximal-transfer](../../math-tube-maximal-transfer/SKILL.md) · Transfer a specified three-dimensional tube or curved extension packet estimate through its declared maximal, capacity, and level-set interfaces. Not a generic Kakeya, restriction, or incidence certificate.

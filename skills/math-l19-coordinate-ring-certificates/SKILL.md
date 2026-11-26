@@ -49,6 +49,8 @@ description: 验证坐标环构造中的 cusp 关系、非单位除法消元和�
 
 ## 补充来源中的方法
 
+- [Cyclic-kernel cyclotomic inversion certificate](references/cyclic-kernel-inversion-fixedness.md)
+
 - [Quartic rational Diophantine quadruple source model](references/c07-07-euler-surface.md)
 - [Resultant gcd screen for a linear factor and polynomial](references/c07-07-resultant-gcd.md)
 - [Effective unit-equation enumeration in a coordinate ring](references/evertse-gyory-unit-equation-enumeration.md)

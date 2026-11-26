@@ -28,4 +28,6 @@ description: 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项
 
 ## 补充来源中的方法
 
+- [Exact Machin configuration gate](references/supp-06-machin-configuration.md)
+
 - [Scoped reference. Multiple-harmonic-sum determinant](references/supp-remaining-b-harmonic-determinant.md)

@@ -1,0 +1,9 @@
+{
+  "command": "python3 -B scripts/check_totient_floor_identity.py 5",
+  "expect": {
+    "status": "EXACT_TOTIENT_FLOOR_IDENTITY",
+    "S": 12,
+    "denominator_(n-1)(n-2)": 12,
+    "phi_floor": 4
+  }
+}

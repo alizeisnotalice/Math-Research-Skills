@@ -99,3 +99,7 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 
 - [3-adic 代数平方见证](references/cogentic-3adic-algebraic-square-certificate.md)
 - [偶数与完全幂的因子预检查](references/cogentic-perfect-power-precheck-wave5.md)
+
+## 补充来源中的方法
+
+- [Coprime floor-sum identity for the Euler totient](references/pain-totient-floor-formula.md)

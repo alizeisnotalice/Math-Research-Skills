@@ -27,6 +27,10 @@ For the exact hypotheses, constants, and source-specific constructions, read the
 
 ## OpenAI 原稿中的方法
 
+- [bounded realization of a quadratic Siegel domain](references/openai-last-b-wave6.md)
+- [Quasi-Albanese factorization for the constructed punctured-line fibration](references/quasi-albanese-semiabelian-factorization-wave6.md)
+- [Root-orbifold quadric-fibration gates](references/root-orbifold-quadric-fibration-gates-wave6.md)
+
 - [Buffered holomorphic-spray gluing](references/buffered-spray-contraction-wave5.md)
 - [Finite smooth-cover trace descent](references/finite-smooth-cover-trace-descent-wave5.md)
 - [Product-chart monodromy continuation](references/product-chart-monodromy-continuation-wave5.md)

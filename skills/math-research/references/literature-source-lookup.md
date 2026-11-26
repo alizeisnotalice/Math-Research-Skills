@@ -21,8 +21,8 @@ python3 scripts/find_literature_source.py --summary
 ~~~
 
 - OpenAI 状态取自逐篇索引的分类页。值 `candidate` 表示已有构件候选，`held` 表示还有方法待定位，`installed` 表示已登记当前技能构件。
-- 历史分册有新依赖记录时，筛选使用新记录的处置。匹配项仍给出相符旧卡的位置。补充分册采用已明确登记的构件、候选或待查标记。
-- `adopted` 匹配明确登记的采用记录。源卡的范围和假设仍由对应方法说明给出。
+- 历史分册的新依赖记录优先。现行引用复核、近期原稿和欧拉常数分册的处置直接取自各来源卡的明示状态。补充分册的第六批处置和正式采用链接可以分别过滤。
+- `adopted` 匹配明示采用记录，`adopted-local` 表示有具体的本地构件，`scoped-reference` 表示在来源卡限定的条件下调用。补充分册继续支持 `existing` 作为已采用和已有方法的合并筛选。
 - `--summary` 按原件 SHA 在各分册内去重，汇总所有匹配项。`unclassified` 表示该分册没有脚本可读的状态标注。总数跨分册去重，因此同一原件出现在多本索引时，分册小计可以大于总数。
 
 旧证据包缺少 PDF 时，可用其索引中的完整 SHA-256 加上参数 --archive-root /Volumes/共享/Math_Research_Literature。返回的 verified_archive_pdf 是实算哈希匹配的一个现有文件。未找到时该字段为空。SHA 核对不认证缺失的原审核表、案例或证明。

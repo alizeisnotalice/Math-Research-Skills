@@ -203,6 +203,7 @@
 - 原文位置。PDF p.3 equations (7)–(8); p.4 ideal B&B step (12); pp.6–8 Lemma 2, Theorem 1 and Lemma 3.。
 - 当前用法。C04 uses the strict-positive global-lower-bound caveat, strict nested-box condition a≤c<d≤b, and existential (not rate-explicit) SOS level.。
 - 需修正。The box condition and existential-k limitation are supported. But the paper's ideal B&B line itself prints `max λ` under f−λ>0 (p.4), while the finite SOS program is `max λ` with f−λ∈M^(k) (p.3). Strict positivity normally identifies a supremum rather than an attained maximum; the active warning is mathematically apt but currently attributes strictness to the SOS lower bound rather than the ideal GLB step.。依据。Lemma 3 supplies the one-dimensional localization identity used by Lemma 2; Theorem 1 additionally relies on Putinar/SOS convergence and a finite branch tree.。
+- 现行复核。scoped-reference。理想严格条件与有限 SOS 的等号情形分别表述。 [C04](../../math-c04-branch-and-bound/SKILL.md)。
 
 ## fbc49cdca0a7 · Comparison and Anti-Concentration Bounds for Maxima of Gaussian Random Vectors
 
@@ -1195,6 +1196,7 @@
 - 原文位置。Algorithm 1, Definition 1, Lemma 2 and Theorem 3, physical pp.9–11。
 - 当前用法。Connectivity characterization of sufficient non-anticipativity constraints. Theorem 3's claimed global minimum-cardinality output of Algorithm 1.。
 - 需修正。Physical p.10 contains Lemma 2 (connectivity iff sufficiency) and the stated global-minimum Theorem 3. Its proof asserts that each greedily added edge is necessary but does not rule out alternative paths assembled through constraints from other cuts. Thus the source supports the connectivity characterization, not the unqualified minimality interface.。依据。The alleged minimum-cardinality conclusion is a pivotal preprint argument and is independently contradicted by the skill's shared-edge counterexample.。
+- 现行复核。scoped-reference。采用连通步骤。最小性保留明确范围和反例。 [A04](../../math-a04-shared-nonanticipative-mip/SKILL.md)。
 
 ## 571337373f99 · Rayleigh Matroids
 
@@ -1299,6 +1301,7 @@
 - 原文位置。abstract p.1; Problem 5.1, Theorems 5.3–5.5 pp.10–11; duality appendix p.29。
 - 当前用法。Occupation-measure/SOC upper bound for peak VaR. Theorem 5.5's asserted no-gap statement for the ES measure program.。
 - 需修正。The source supports the upper-bound construction: p.10 explicitly states Theorem 5.4. But its displayed program (29) carries a time-state terminal measure rather than enforcing a common deterministic terminal time, while Theorem 5.5 on p.11 asserts no gap. Accordingly it cannot justify the current skill's literal fixed-time no-gap conclusion; the skill's counterexample-based rejection is warranted.。依据。Recent preprint; the rejected equality is a pivotal unconfirmed/incorrect dependency, whereas the one-sided upper bound remains usable under A2–A4.。
+- 现行复核。scoped-reference。确定终时与终时测度分别检查。仅在适用时使用上界方向。 [E01](../../math-e01-occupation-measure-flow-lp/SKILL.md)。
 
 ## 61325d6612c8 · Convex Optimization
 
@@ -1579,6 +1582,7 @@
 - 原文位置。abstract and §1 setup。
 - 当前用法。现行 determinantal-dependence source table 将其标为“Scoped use”。
 - 需修正。原文摘要确称对有界开集外构型条件下的 generalized Ginibre 条件测度为显式权的正交多项式系综；但快照中指向的 references/cards/EXSRC-77e019f8e1fee753.md 和 PDF 证据对象均不存在，故没有可审计的实际使用、条件或限制。依据。若恢复使用，须明确 generalized Fock projection、外部构型条件及条件核/权的定理定位。
+- 现行复核。scoped-reference。已登记 Fock 投影、窗口条件和原文页位。 [Ginibre](../../probability-determinantal-dependence/SKILL.md)。
 
 ## 783dff58d54a · A Slightly Lifted Convex Relaxation for Nonconvex Quadratic Programming with Ball Constraints
 
@@ -1603,6 +1607,7 @@
 - 原文位置。abstract; stability-preservation proof material p.10。
 - 当前用法。现行 determinantal-dependence table 将其标为“Scoped use”。
 - 需修正。摘要支持 strong Rayleigh/CNA+ 与 Sampford/Pareto sampling 的结论；但快照内相应 source card 和 PDF object 均缺失，无法确定技能实际取用的是哪一条定理或是否满足抽样模型前提。依据。若启用，需明确强 Rayleigh generating polynomial、条件化事件及具体采样设计。
+- 现行复核。scoped-reference。已登记独立输入、条件事件的正概率及定理页位。 [强 Rayleigh](../../probability-determinantal-dependence/SKILL.md)。
 
 ## 7b689a4d6922 · Regular variation of fixed points of the smoothing transform
 
@@ -1635,6 +1640,7 @@
 - 原文位置。abstract/definition p.1; examples/applications p.8。
 - 当前用法。现行 determinantal-dependence table 将其标为“Scoped use”。
 - 需修正。原文确研究 half-plane property、尤其 homogeneous multiaffine generating polynomials；但相应 source card/PDF object 在快照中不存在，无法从现行仓库判定具体使用（稳定性、Rayleigh 或 matroid 分支）与前提。依据。若恢复使用，需指定所用定理及多仿射齐次生成多项式/半平面非零条件。
+- 现行复核。scoped-reference。已登记半平面转换与单向拟阵支撑结论。 [半平面多项式](../../probability-determinantal-dependence/SKILL.md)。
 
 ## 7d81d08341e1 · On Positive Recurrence of Constrained Diffusion Processes
 
@@ -1731,6 +1737,7 @@
 - 原文位置。abstract/Theorem 1.4 summary p.1; Definition 1.8 conditional kernels p.8。
 - 当前用法。现行 determinantal-dependence table 将其标为“Scoped use”。
 - 需修正。原文摘要确有 sampled kernels completeness、conditioning preserves determinantal property 的关键引理；但所指 source card/PDF object 缺失，故无法核定技能到底用 completeness、conditional DPP 还是 local-kernel lemma。依据。若恢复使用，需指定 self-adjoint reproducing kernel、局部有界 Borel 条件化及 Theorem 1.4/Lemma 1.9 或 1.10 的具体接口。
+- 现行复核。scoped-reference。已登记正压缩与投影过程各自适用的定理。 [条件核](../../probability-determinantal-dependence/SKILL.md)。
 
 ## 85720190328b · Concentration Bounds for Geometric Poisson Functionals: Logarithmic Sobolev Inequalities Revisited
 
@@ -2123,6 +2130,7 @@
 - 原文位置。PDF p.1, title and author block。
 - 当前用法。现行 probability-optimization-certificates 仅把该文作为 Carcara/TACAS 版本的来源登记。
 - 需修正。书目信息矛盾：PDF 首页作者为 Bruno Andreotti、Hanna Lachnitt、Haniel Barbosa；现行来源行把首名写成 Guilherme Andreotti。该登记不承载优化证书的数学结论。依据。独立 SMT/Alethe 证明检查器的论文身份；不提供本技能的概率优化定理。
+- 现行复核。citation。现行来源表登记作者 Andreotti、Lachnitt 和 Barbosa。 [Carcara](../../probability-optimization-certificates/SKILL.md)。
 
 ## a89b2a1ccfdb · On the entropy of rectifiable and stratified measures
 
@@ -2563,6 +2571,7 @@
 - 原文位置。PDF p.1 prints report revision and arXiv-v2 stamp; p.6 certification context.。
 - 当前用法。现行条目把该文作为整数规划结果核验的来源与版本记录。
 - 需修正。版本文字混淆：PDF 写“Revised version March 2017”，2019-01-01 是 arXiv v2 日期，不是 report revision 日期。依据。仅文献版本/证书背景。
+- 现行复核。citation。现行来源表分列 2017 年报告修订和 2019 年 arXiv v2。 [ZIB](../../probability-optimization-certificates/SKILL.md)。
 
 ## d05115882f3c · Anti-concentration and honest, adaptive confidence bands
 

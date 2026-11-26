@@ -44,6 +44,8 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
 
 SPECIALIST_TOPICS = {
     '欧拉常数、丢番图逼近与算术': (
+        'math-harmonic-sum-recurrences',
+        'math-dirichlet-l-derivative-sine-reduction',
         'math-euler-series-continued-fraction',
         'math-mzv-newton-harmonic-relations',
         'math-zeta-arithmetic-estimates',
@@ -60,6 +62,8 @@ SPECIALIST_TOPICS = {
         'math-hankel-pade-certificates',
     ),
     '调和分析、动力系统与几何方程': (
+        'math-bessel-cross-product-recurrence',
+        'math-subanalytic-preparation',
         'math-asymptotic-midpoint-moduli',
         'math-conformal-domain-estimates',
         'math-tube-maximal-transfer',

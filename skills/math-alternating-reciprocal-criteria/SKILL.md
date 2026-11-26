@@ -60,6 +60,8 @@ python3 scripts/alternating_reciprocal.py type-ii 2 3 4 5
 
 ## 补充来源中的方法
 
+- [Generalized Flint Hills convergence through convergents](references/wave6-supp-11-flint-hills-convergents.md)
+
 - [Euler T-sums by tangent--digamma residues (EXT-0055)](references/euler-t-residue-reduction-ext0055.md)
 
 ## 补充来源中的方法

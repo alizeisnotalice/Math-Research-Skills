@@ -72,6 +72,8 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 ## OpenAI 原稿中的方法
 
+- [VMRT pseudoindex-five numerical splice](references/openai-last-b-wave6.md)
+
 - [Rational recovery from a real effective divisor](references/openai-residual-02-wave5.md)
 
 - [Bounded two-increment recurrence](references/wave4-probability-b-turing-recurrence.md)

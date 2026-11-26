@@ -89,7 +89,7 @@
 - 原件。Journal of Number Theory 124 (2007), 442–453; DOI 10.1016/j.jnt.2006.10.002。PDF 物理页 1, 2, 3, 4, 5, 9, 10, 12。SHA-256 6de9db636e0e3e13536eba8c5c080b2aba11e69ee69e629535a9899af80f82be。
 - γ 的整系数序列变换与显式余项界。Thms. 4–5、Cor. 4、式 (3)、(7)、(12)–(15)。对 s_n(a) 的二参数二项式整系数变换给出 γ/广义 Stieltjes 常数的显式误差上界；τ=n 时已有几何级收敛界
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
-- 已验收二项式系数、带符号余项和有理对数区间的有限计算接口。对数项的整化或消去另需论证。[Elsner 变换](../../../math-euler-constant-irrationality/references/elsner-transform.md)。
+- 已验收构件。二项式系数、带符号余项和有理对数区间的有限计算接口。对数项的整化或消去另需论证。[Elsner 变换](../../../math-euler-constant-irrationality/references/elsner-transform.md)。
 
 ## EXT-0536 · Computational Strategies for the Riemann Zeta Function
 
