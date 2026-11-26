@@ -17,3 +17,7 @@ description: 建立占用测度、有限时域概率流和流守恒 LP，核对�
 对子串次数构造分层有向多图时，使用[子串计数与 Euler 日程](references/hierarchical-word-flow.md)核对守恒、支持连通性和追加字符的输出。
 
 若只需把固定边上的部分有符号流延拓到有限图其余边，或在森林上精确解散度方程，使用[部分流延拓与树叶消元](references/tree-flow-extension.md)。
+
+## 文献复核采用的构件
+
+- [Scalar-codomain no-gap guard for occupation relaxations](references/scalar-codomain-no-gap-occupation.md)

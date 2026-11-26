@@ -19,4 +19,6 @@ Record the number of trials, the marginal parameters, the dependence model, what
 
 For a pointwise tail objective, check survival at the target threshold. A fixed-mean convex-order result controls convex objectives such as stop-loss. Remove (p_i=0) and shift by (p_i=1) before applying a result that uses odds or requires (0<p_i<1). The exact count calculator accepts both endpoints.
 
-For an online selection policy and offline benchmark, use [prophet inequalities](../probability-prophet-online-selection/SKILL.md). For source-specific hypotheses, historical decisions, and the held Auld–Neammanee auxiliary estimate, consult the [Bernoulli source notes](references/bernoulli-source-notes.md).
+For an online selection policy and offline benchmark, use [prophet inequalities](../probability-prophet-online-selection/SKILL.md). For source-specific hypotheses, historical decisions, and the excluded Auld–Neammanee square-exponential estimate, consult the [Bernoulli source notes](references/bernoulli-source-notes.md).
+
+For standardized independent sums with variance at least one, use the [linear-exponential moment bound and exact counterexample](references/standardized-bernoulli-exponential-moments.md) before transferring a local-limit argument.

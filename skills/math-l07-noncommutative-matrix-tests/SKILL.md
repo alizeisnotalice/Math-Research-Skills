@@ -53,4 +53,6 @@ python3 scripts/replay_truncation.py --dimension 7
 
 ## 文献复核采用的构件
 
+- [Shift-commutator rank-defect replay](references/makar-limanov-commutator-defect.md)
+
 - [Rank–ideal boundary for homogeneous noncommutative polynomials](references/rank-nullstellensatz-homogeneous-boundary.md)

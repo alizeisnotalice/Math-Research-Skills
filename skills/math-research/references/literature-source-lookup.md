@@ -18,7 +18,10 @@ python3 scripts/find_literature_source.py --collection openai --status held --su
 python3 scripts/find_literature_source.py --collection historical --status candidate --skill math-b03-generalized-moments
 python3 scripts/find_literature_source.py --collection supplemental --status adopted
 python3 scripts/find_literature_source.py --summary
+python3 scripts/find_literature_source.py --status candidate --status hold --status held --summary
 ~~~
+
+重复指定 --status 会合并指定状态，命中原件仍按 SHA-256 去重。
 
 - OpenAI 状态取自逐篇索引的分类页。值 `candidate` 表示已有构件候选，`held` 表示还有方法待定位，`installed` 表示已登记当前技能构件。
 - 同一集合的同一原件优先采用最新日期的复核记录，仍可查到较早的来源卡。带日期的记录返回复核时间、适用范围和当前标记。旧卡继续按各分册明示的处置和依赖字段检索。

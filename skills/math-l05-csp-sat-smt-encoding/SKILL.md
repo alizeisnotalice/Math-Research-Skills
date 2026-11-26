@@ -75,6 +75,9 @@ description: 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、�
 
 ## 文献复核采用的构件
 
+- [Exact-3-CNF root-of-unity encoding](references/sparse-cnf-root-unity-encoding.md)
+- [With-replacement k-SAT conditioning](references/with-replacement-k-sat-conditioning.md)
+
 - [One-occurrence constancy rewrite](references/one-occurrence-constancy-rewrite.md)
 
 - [Exact row-split criterion for 2-by-n bar multisets](references/two-row-bar-tiling-row-split.md)

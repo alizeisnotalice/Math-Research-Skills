@@ -45,7 +45,7 @@ def cm_coefficient(modulus: int) -> tuple[int, tuple[int, int] | None]:
 
 
 def check(modulus: int) -> dict[str, object]:
-    if not prime(modulus) or modulus <= 3:
+    if type(modulus) is not int or modulus <= 3 or not prime(modulus):
         raise ValueError("p must be a prime greater than 3")
     gamma, representation = cm_coefficient(modulus)
     index = (modulus - 1) // 2

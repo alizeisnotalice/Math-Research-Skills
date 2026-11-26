@@ -40,6 +40,20 @@ class ReviewRecordsTests(unittest.TestCase):
         self.assertFalse(lookup.search_occurrences([unsupported], "", [], None, "adopted"))
         self.assertIn(SHA, lookup.search_occurrences([callable_record], "", [], None, "adopted"))
 
+    def test_multiple_status_filters_combine_current_dispositions_and_adoptions(self):
+        candidate = source("candidate.md", f"- 复核记录。{FIRST}。candidate。dependency。")
+        held = source("held.md", f"- 复核记录。{FIRST}。held。dependency。", collection="recent")
+        usable = source("usable.md", f"- 复核记录。{FIRST}。scoped-reference。statement。",
+                        "- 已采用构件。见方法。", collection="supplemental")
+        occurrences = [candidate, held, usable]
+        result = lookup.search_occurrences(occurrences, "", [], None, ["candidate", "held"])
+        self.assertCountEqual(result[SHA], [candidate, held])
+        self.assertCountEqual(
+            lookup.search_occurrences(occurrences, "", [], None, ["held", "adopted"])[SHA],
+            [held, usable],
+        )
+        self.assertEqual(lookup.search_occurrences(occurrences, "", [], None, "existing")[SHA], [usable])
+
     def test_equal_timestamp_with_conflicting_dispositions_is_rejected(self):
         old = source("one.md", f"- 复核记录。{FIRST}。hold。dependency。")
         new = source("two.md", f"- 复核记录。{FIRST}。existing。statement。")

@@ -29,6 +29,17 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 
 ## 文献复核采用的构件
 
+- [Bai arctangent partial-fraction denominator gate](references/bai-arctan-partial-fraction-denominators-ext0143.md)
+- [Bel's p-adic Hurwitz--Padé dimension bound](references/bel-padic-hurwitz-dimension-ext0173.md)
+- [Dyson admissibility prerequisite for an auxiliary polynomial](references/bombieri-dyson-admissibility.md)
+- [Antisymmetric Hurwitz-zeta linear-form route](references/chowla-milnor-hurwitz-zeta-criterion-ext0163.md)
+- [Published odd-zeta span lower bound](references/fischler-odd-zeta-siegel-lemma.md)
+- [几何 G-算子的 Taylor 分母界](references/g-function-denominators-ext0273.md)
+- [Conditional logarithm-product holonomy route](references/krisman-log-products-conditional.md)
+- [CMF zeta(3), zeta(4) certificate admission gate](references/leibtag-cmf-zeta34-certificate-gate-ext0178.md)
+- [p-adic polygamma Pade independence gate](references/padic-polygamma-pade-independence-ext0166.md)
+- [Palojärvi--Seppälä p-adic logarithm gate](references/palojarvi-seppala-padic-logarithm-gate.md)
+
 - [Binary-form unit-solution count with an explicit discriminant gate](references/akhtari-binary-form-unit-bound-ext0447.md)
 - [Restricted E-function second-kind Padé interpolation](references/efunction-feldman-pade-interpolation.md)
 - [Zudilin hypergeometric zeta(2) linear-form scope](references/zudilin-zeta2-hypergeometric-ext0551.md)

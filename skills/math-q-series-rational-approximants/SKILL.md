@@ -12,3 +12,6 @@ description: 对给定有理 q 和 z 生成 Tschakaloff 递推的精确多项式
 ## 文献复核采用的构件
 
 - [Tschakaloff finite q-polynomial certificate](references/candidate-04-tschakaloff-polynomial.md)
+
+For a separate finite q-harmonic identity, use the [q-WZ pair](references/amdeberhan-zeilberger-q-wz-harmonic.md).
+Provide the two indices and the allowed parameter, and check both the identity and its summation boundary.

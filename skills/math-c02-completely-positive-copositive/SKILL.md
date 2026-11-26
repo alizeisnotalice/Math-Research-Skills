@@ -44,3 +44,8 @@ description: 分析完全正锥和共正锥表述，核对锥对偶、有限近�
 ## Horn 矩阵的两锥证书
 
 给定该例的分支顺序时，用[有理两锥证书](references/horn-two-cone-spn.md)检查正交体覆盖及各分支的正半定加逐项非负分解。
+
+## 文献复核采用的构件
+
+- [Lorentz-cone copositive facial cases](references/lorentz-copositive-facial-guard.md)
+- [Ordered off-diagonal copositive matrices](references/ordered-offdiagonal-copositive-spn.md)

@@ -38,3 +38,7 @@ For a finite connected weighted spanning tree law, `scripts/check_finite_tree_re
 ## OpenAI 原稿中的方法
 
 - [Finite walk extremal length and traffic](references/wave4-pa2-walk-extremal-length.md)
+
+## 文献复核采用的构件
+
+- [Swap-invariant events in free and wired spanning forests](references/swap-invariant-forest-zero-one.md)

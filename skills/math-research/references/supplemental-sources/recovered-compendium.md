@@ -36,6 +36,8 @@
 - 条件或证据待查。每条可用等式仍须从对应章节的收敛、换序和边界项重新核验；摘要不足以支撑 γ 线性形式 仅确认卷册身份与作者标注的证据级别；未逐项验证公式或发表版本
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed 181-page local author manuscript (18 Feb 2008) explicitly calls itself mainly expository and says only that some formulas are believed new. Its physical pp.1--3 give a formula list and cross-volume contents, not hypotheses or proofs for a selected identity. There is no independently scoped gamma linear form or certificate interface.。定位。physical pp.1--3; abstract and contents。全卷 181 页。后续条件。Choose one named formula and read its stated source section; certify its convergence, interchange and endpoint conditions before routing it to a zeta/harmonic-sum tool.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The local 181-page author manuscript is an identity compendium. The inspected zeta and harmonic-sum formulas require their individual convergence, interchange and endpoint arguments. No single formula was selected with a complete source-level dependency contract in this review。定位。Physical pp. 1--3 describe the volume and contents; p. 54 gives one example of a formula-specific proof chain。全卷 181 页。后续条件。Select one named formula, verify its stated proof and hypotheses in its chapter or primary cited source, then route it to a matching harmonic or zeta tool。
 
 ## EXT-0514 · Multiple-correction and Continued Fraction Approximation (II)
 
@@ -51,6 +53,8 @@
 - 条件或证据待查。任何迁移依赖各式的收敛域、参数范围及换序证明；未给出可整化且趋零的纯 γ 线性形式 只完成来源级初审，未逐页审阅所列 γ 恒等式
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed 185-page Volume II(b) manuscript lists gamma, Stieltjes and Hurwitz--Lerch identities on physical p.1, but characterizes the seven-volume work as mainly expository with some formulas merely believed new. The inspected contents only locate broad sections; it does not establish parameter domains or an integral/integer form usable for Euler's constant.。定位。physical pp.1--3; abstract and contents。全卷 185 页。后续条件。Select a specific gamma/Stieltjes identity and audit its source pages for convergence and a proof; then show how it yields a finite computable object rather than a formal relation.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The manuscript is an expository compilation. Its physical pp. 5, 69, 154 and 160 restate Hasse-type identities and their Hurwitz--Lerch variants, but it gives no new bounded computational interface beyond the already audited primary Hasse/Sondow routes。定位。physical pp. 5, 69, 154 and 160, Hasse/Hurwitz--Lerch formulae。全卷 185 页。后续条件。Use the cited primary source for a particular Hasse or Hurwitz identity. A separate proof of parameter range, interchange, and an integer-form bridge is required for an irrationality application。
 
 ## EXT-0518 · Some Series and Integrals Involving the Riemann Zeta Function, Binomial Coefficients and the Harmonic Numbers, Volume II(a)
 
@@ -60,6 +64,8 @@
 - 相关入口。[math-sondow-log-fractional-certificate](../../../math-sondow-log-fractional-certificate/SKILL.md)。
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed 221-page Volume II(a) manuscript has a broad abstract list involving digamma, Barnes gamma and zeta derivatives, including a Hasse/Sondow-themed contents entry, but the inspected pages do not state a specialized Sondow integral or its denominator/error proof. The existing Sondow skill is based on a separately audited primary source, so this compilation cannot be substituted for it.。定位。physical pp.1--3; abstract and contents。全卷 221 页。后续条件。Audit the indicated II(a) sections and match a single displayed identity to the existing Sondow hypotheses, including all rationality and remainder claims.。
+- 复核记录。2026-11-26T19:33:26+08:00。scoped-reference。statement。
+- 本次依据。Physical pp. 16, 20, 137 and 210 give Hasse/Sondow-derived zeta and gamma identities as an expository compilation. The callable finite Hasse/Sondow route is already provided by math-sondow-log-fractional-certificate from an independently audited primary source。定位。physical pp. 16, 20, 137 and 210, Hasse/Sondow identities and bibliography。全卷 221 页。后续条件。For a new use, identify a single displayed identity and prove its convergence, parameter specialization, and any denominator or remainder assertion independently。
 
 ## EXT-0519 · Apéry-Type Series and Colored Multiple Zeta Values
 
@@ -74,6 +80,8 @@
 - 条件或证据待查。若作计算恒等式库，须逐式复核积分端点与级数换序；未见针对 γ 无理性的整数化构造 只核对卷册身份与摘要的范围，不把未复核公式当作工具依赖
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed 206-page Volume V author manuscript advertises cotangent, cosine-integral, zeta and harmonic-sum formulas but is explicitly mainly expository. The local physical pp.1--3 do not give a selected theorem with endpoint/branch assumptions or any Euler-constant denominator/error mechanism.。定位。physical pp.1--3; abstract and contents。全卷 206 页。后续条件。Pin one cotangent or harmonic identity, then check the actual derivation and all singular-endpoint and interchange conditions before adding a narrow numerical-identity interface.。
+- 复核记录。2026-11-26T19:33:26+08:00。adjacent。context。
+- 本次依据。The Volume V text is a broad expository collection of zeta, cotangent, cosine-integral and harmonic-sum formulas. It has no identified Euler-constant or current-skill computation whose endpoint and interchange hypotheses were separately established。定位。physical pp. 1--3, abstract and table of contents。全卷 206 页。后续条件。Choose an individual formula with its endpoint and branch data and compare it with its cited primary source before creating a numerical or symbolic interface。
 
 ## EXT-0523 · Some Series and Integrals Involving the Riemann Zeta Function, Binomial Coefficients and the Harmonic Numbers, Volume VI
 
@@ -83,6 +91,8 @@
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed 179-page Volume VI manuscript displays bounds and limits for H_n-log n and several zeta-derivative identities, but physical pp.1--3 remain abstract/table-of-contents material from a self-described mainly expository series. No finite remainder sign, denominator growth comparison, or proof of a usable irrationality criterion is fixed there.。定位。physical pp.1--3; abstract and contents。全卷 179 页。后续条件。For any claimed asymptotic, audit the corresponding section for an explicit remainder inequality and combine it with a separately certified denominator-growth estimate.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The Volume VI manuscript records generalized Euler-constant and Hasse identities, including a gamma series at physical p. 101, but presents them as explanatory formulas. Its finite remainder, integer scaling, and denominator-growth requirements are absent from the inspected identity。定位。physical pp. 101 and 152, generalized Euler constant and Hasse identities。全卷 179 页。后续条件。Use a named primary proof with a one-sided finite remainder and separately establish height or denominator growth before a gamma irrationality route can use it。
 
 ## EXT-0526 · Some Series and Integrals Involving the Riemann Zeta Function, Binomial Coefficients and the Harmonic Numbers, Volume III
 
@@ -91,6 +101,8 @@
 - 条件或证据待查。需要针对目标参数重验收敛、解析延拓和积分换序；该卷摘要未给纯 γ 的整系数逼近 来源级审查，未验证各自称的新恒等式
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed 163-page Volume III manuscript gives polylogarithm/binomial-sum identities in its abstract and lists a later Sondow-formula section, but the inspected local pages contain no verified theorem-level bridge from those identities to a gamma linear form. The manuscript itself labels the series mainly expository and some claims merely believed new.。定位。physical pp.1--3; abstract and contents。全卷 163 页。后续条件。Read the exact III/42 Sondow section and compare its proof and domain to the audited Sondow primary source; otherwise retain this only as a discovery bibliography.。
+- 复核记录。2026-11-26T19:33:26+08:00。scoped-reference。statement。
+- 本次依据。Physical pp. 32, 35, 82, 93, 115 and 132 derive Hasse/Sondow and generalized-Euler-constant formulas. The finite denominator-sensitive use remains covered by math-sondow-log-fractional-certificate, while this volume supplies useful bibliography and alternate derivations。定位。physical pp. 32, 35, 82, 93, 115 and 132, Hasse/Sondow and generalized Euler-constant identities。全卷 163 页。后续条件。A distinct callable component would require one formula with all analytic-continuation and integration conditions checked against its primary source。
 
 ## EXT-0531 · Expansion of Euler’s Constant in Terms of Zeta Numbers
 
@@ -147,6 +159,9 @@
 - 条件或证据待查。迁移需核实 Thm. 3.5 的正则化/路径条件和每个 Apéry 和到 CMZV 的专门化；第 7 节也明确含猜想性表述，未给 γ 线性形式 已定位主定理和一个 Apéry 例子，但未审计数据表、Galois descent 猜想或与 γ 的任何桥接
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed arXiv:2201.01676v4 has 38 pages and concerns CMZVs, iterated integrals and S-unit relations. Its abstract/introduction make the target class and conjectural surrounding relation landscape explicit, but provide no gamma linear form, rational approximation, or demonstrated bridge from its CMZV identities to Euler's constant.。定位。physical pp.1--3; abstract and introduction。全卷 38 页。后续条件。Provide a concrete specialization reducing a stated CMZV/iterated integral to the desired gamma expression, and verify all regularization, path and algebraic-argument hypotheses before considering a dedicated interface.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。The arXiv v4 manuscript proves a precise rational-pullback membership criterion for cyclotomic MZVs. Corollary 3.6 supplies a usable conditional interface once the rational-map fiber equality, endpoint conditions and convergence are provided. Its Galois-descent discussion is explicitly separate and partly conjectural。定位。physical pp. 2--5, Theorem 1.2 and Corollary 1.1; p. 14, Theorem 3.5 and Corollary 3.6; p. 35, Proposition 7.12。全卷 38 页。后续条件。Supply the exact level N, rational map, verified fiber equality, form word, endpoint regularization and convergence proof. This membership statement does not produce a gamma linear form or CMZV basis。
+- 已采用构件。物理页 2, 14, 35。Use only after an exact rational-pullback fiber equality, endpoint admissibility and convergence proof are supplied. The interface certifies cyclotomic-MZV membership and excludes Galois-descent conjectures and Euler-constant conclusions. [方法说明](../../../math-cmzv-rational-pullback/references/au-cmzv-rational-pullback.md)。
 
 ## EXT-0548 · Dynamics of Continued Fractions and Distribution of Modular Symbols
 
@@ -251,6 +266,8 @@
 - 构件候选。每一应用需验证范畴公理、defect 条件及所需 André--Oort/Zilber--Pink 输入；结果是特定特殊子簇条件下的有限性，非普适算法 核对引言定理和各应用章节入口；未重检公理推导、引用的 AO/ZP 结果或稿本发表状态
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The undated/preprint-style manuscript establishes an axiomatic distinguished-category framework, but a usable application demands verification of category, defect, base-change and special-subvariety axioms and imports further Shimura/Zilber--Pink results; no narrow independent interface was closed.。定位。physical pp. 1, 3 (framework); pp. 5-6, Theorems 1.1-1.2; p. 37, Theorem 9.6; p. 45 (Legendre application)。全卷 50 页。后续条件。For one named ambient category and curve, formalize the category/defect axioms and verify every imported very-distinguished or special-subvariety result before extracting a finiteness call.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The manuscript's distinguished-category framework is an axiomatic transfer result for unlikely intersections. Its applications import category, defect, base-change and special-subvariety hypotheses that have no specified ambient instance in the current request。定位。physical pp. 1--6, Introduction and Theorems 1.1--1.2; p. 37, Theorem 9.6; p. 45, Legendre application。全卷 50 页。后续条件。For a concrete application, fix an ambient distinguished category and curve, verify its axioms and every imported André--Oort or Zilber--Pink statement, then record the resulting finite conclusion。
 
 ## EXT-0582 · On the Zilber-Pink conjecture for complex abelian varieties
 
@@ -410,6 +427,8 @@
 - 条件或证据待查。任何可执行算法需要对应章节、输入模型、复杂度和实现依赖的逐项核对 仅身份、版本线索、目录和导论级定位；未审阅算法章节，不能据此声称可复现计算
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The re-hashed local arXiv:math/0605244v3/bookarxiv PDF has 438 pages. Physical pp.1--3 identify a computational modular-forms/Galois-representations book, but no algorithm chapter, input encoding, complexity statement or runnable instance was audited. It has no demonstrated Euler-constant connection.。定位。physical pp.1--3; title material。全卷 438 页。后续条件。Name a target chapter and computation, then verify its model, prerequisites, algorithm and complexity against a reproducible small instance before creating a modular-forms tool.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The 438-page book gives computational modular-form and Galois-representation context, but its own early chapters state that several relevant cohomological and polynomial-system tasks lack practical explicit solvers. No standalone algorithm with input encoding and proven complexity was selected for current skills。定位。physical pp. 1--14, contents and introductory algorithms; pp. 58--70, representation-realization limitations; p. 164, numerical lifting discussion。全卷 438 页。后续条件。Select a named chapter algorithm, formalize its input model and prerequisites, and reproduce a bounded instance before extracting a computational modular-forms interface。
 
 ## EXT-0632 · Multiple q-zeta values
 
@@ -482,3 +501,6 @@
 - 相关入口。[math-integer-linear-form-rates](../../../math-integer-linear-form-rates/SKILL.md)。
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The supplied offprint identifies neither a reliably citable formal edition nor an effective universal conclusion; its Dyson lemma is tied to admissible points and degree/multiplicity ratios not fully traced here.。定位。Ineffectivity discussion and Thue theorem (pp. 1--2); height setup (p. 7); Dyson lemma Theorem 1 (p. 10)。全卷 42 页。后续条件。Establish the formal bibliographic version and audit the theorem's admissibility, weight, and auxiliary-polynomial nonvanishing hypotheses for a specified approximation problem.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。The published Bombieri source gives a precise Dyson feasibility inequality for a supplied nonzero bivariate auxiliary-polynomial vanishing space under admissibility and degree-ratio hypotheses. This is a narrow prerequisite audit for auxiliary-polynomial arguments, separate from rate conclusions。定位。physical pp. 1--2, ineffectivity discussion and Thue theorem; p. 10, Theorem 1; p. 11, Dyson's lemma and hypotheses。全卷 42 页。后续条件。Supply the algebraic points, admissibility proof, degrees, multiplicity thresholds, nonzero polynomial and the source's weighted derivative-space definitions. Integrality, heights, nonvanishing and a linear-form remainder still require independent evidence。
+- 已采用构件。物理页 1, 2, 10, 11。Audit feasibility of a supplied bivariate auxiliary polynomial under the theorem's admissibility and weighted multiplicity conditions. It does not derive a linear-form rate without separately proved height, integrality, nonvanishing and remainder estimates. [方法说明](../../../math-integer-linear-form-rates/references/bombieri-dyson-admissibility.md)。

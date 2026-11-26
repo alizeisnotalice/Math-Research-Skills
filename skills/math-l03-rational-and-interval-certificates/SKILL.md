@@ -95,6 +95,9 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 ## 文献复核采用的构件
 
+- [Rational step certificate for a compact variational functional](references/dirichlet-step-variational-certificate.md)
+- [Rogers--Ramanujan algebraic root branch](references/ext0280-icosahedral-root-branch.md)
+
 - [Finite residue certificate for a lattice-simplex covering](references/css-covering-residue-certificate.md)
 - [Parity midpoint triples in a lattice polytope](references/quantitative-helly-parity-midpoints.md)
 - [Certified stochastic box-mass enclosure](references/stochastic-box-mass-enclosure.md)

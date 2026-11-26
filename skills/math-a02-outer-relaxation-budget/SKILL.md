@@ -38,4 +38,8 @@ description: 构造或审查外放松映射，核对正支配、约束保持、�
 
 ## 文献复核采用的构件
 
+- [SOS outer containment for a global attractor](references/attractor-sos-outer-containment.md)
+- [Delta-relaxed monotonic outer approximation](references/delta-relaxed-polyblock-outer-approximation.md)
+- [KKT-gated cuts for nonsmooth convex MINLP](references/nonsmooth-minlp-kkt-outer-cuts.md)
+
 - [Exact rational second-order-cone support cut](references/soc-support-cut.md)

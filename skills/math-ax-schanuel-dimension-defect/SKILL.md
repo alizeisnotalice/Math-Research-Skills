@@ -22,3 +22,10 @@ description: 对已明确的平坦联络、模 j、Hodge 周期映射或矩阵�
 记录所用预印本版本、代数环境、解析对象、闭包所在空间、每个维数和“特殊”定义。核对所有严格不等式、指定投影和结论中的特殊子簇类型。使用源文定理时保留其证明所依赖的定义性、体积、点计数、主丛或标量 Ax--Schanuel 输入。
 
 没有完整的模型数据时，保留为来源引用或候选方法。不要从本技能推导点值的代数独立性、Schanuel 猜想、一般方程可解性或可计算的特殊子簇识别器。
+
+## 文献复核采用的构件
+
+- [Drinfeld j Ax--Schanuel through Hasse--Schmidt leaves](references/ext0466-drinfeld-j-hasse-schmidt.md)
+- [Universal abelian varieties and mixed Ax--Schanuel](references/ext0467-universal-abelian-mixed-ax.md)
+- [Semiabelian exponential differential equations](references/kirby-semiabelian-differential-equations.md)
+- [Effective function-field Zilber--Pink gate](references/pila-scanlon-effective-zilber-pink.md)

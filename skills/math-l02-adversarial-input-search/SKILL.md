@@ -38,4 +38,6 @@ description: 开展对抗输入优化与反例搜索，区分有限搜索证据�
 
 ## 文献复核采用的构件
 
+- [Exact expected-improvement non-density construction](references/yarotsky-fixed-kernel-ei-nondensity.md)
+
 - [Exact simplex-corner certificate for a Minkowski-length lower bound](references/minkowski-length-corner-certificate.md)

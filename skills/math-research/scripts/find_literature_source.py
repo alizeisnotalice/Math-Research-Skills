@@ -296,23 +296,22 @@ def current_records(occurrences: list[Occurrence]) -> dict[tuple[str, str], Occu
 
 
 def search_occurrences(occurrences: list[Occurrence], sha_prefix: str, terms: list[str],
-                       skill: str | None, classification: str | None = None):
+                       skill: str | None, classification: str | list[str] | None = None):
     matches: dict[str, list[Occurrence]] = defaultdict(list)
     skill_marker = re.compile(rf"(?<![a-z0-9-]){re.escape(skill)}(?![a-z0-9-])") if skill else None
     latest = current_records(occurrences)
     adopted = {(item.sha256, item.collection) for item in occurrences if item.adoption_recorded}
+    filters = {classification} if isinstance(classification, str) else set(classification or ())
     for item in occurrences:
         key = item.sha256, item.collection
-        if classification == "adopted":
-            if key not in adopted:
-                continue
-        elif classification:
-            recorded = latest[key].classification
-            supplemental_existing = item.collection == "supplemental" and classification == "existing"
-            if recorded != classification and not (
-                supplemental_existing and recorded in {"adopted-local", "scoped-reference"}
-            ):
-                continue
+        recorded = latest[key].classification
+        supplemental_existing = (
+            item.collection == "supplemental" and "existing" in filters
+            and recorded in {"adopted-local", "scoped-reference"}
+        )
+        matching_adoption = "adopted" in filters and key in adopted
+        if filters and recorded not in filters and not (supplemental_existing or matching_adoption):
+            continue
         if sha_prefix and not item.sha256.startswith(sha_prefix):
             continue
         if skill_marker and not skill_marker.search(item.evidence):
@@ -332,7 +331,7 @@ def search_occurrences(occurrences: list[Occurrence], sha_prefix: str, terms: li
 
 
 def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | None,
-           classification: str | None = None):
+           classification: str | list[str] | None = None):
     occurrences = list(source_occurrences(selected))
     return search_occurrences(occurrences, sha_prefix, terms, skill, classification)
 
@@ -387,8 +386,8 @@ def main() -> None:
     parser.add_argument("--text", default="", help="words to match in titles and source evidence")
     parser.add_argument("--skill", help="exact skill slug named by the recorded evidence")
     parser.add_argument("--collection", action="append", choices=sorted(COLLECTIONS))
-    parser.add_argument("--status", choices=STATUS_CHOICES,
-                        help="filter explicitly recorded classifications or adoptions")
+    parser.add_argument("--status", action="append", choices=STATUS_CHOICES,
+                        help="filter recorded classifications or adoptions; repeat to match any selected status")
     parser.add_argument("--summary", action="store_true",
                         help="count distinct matches and classified states per collection")
     parser.add_argument("--archive-root", type=Path, help="locate a local PDF by a full SHA-256 in this directory")

@@ -10,6 +10,8 @@
 - 第五批定向筛选。unresolved。The asserted VP != VNP result is said to be Lean-formalized, but no Lean project, commit, theorem name, or dependency manifest is included in the raw paper; the primary proof dependency is therefore unavailable. 后续条件。Acquire the Lean repository/commit and build instructions, reproduce the theorem, and isolate any standalone finite algebraic lemma.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The source names its main Lean theorem and Mathlib revision, but the bundled text itself says the printed Lean file contains definitions only and records divergences from the prose route. Without the associated project and a replayed build, the claimed general circuit lower bound cannot yield a standalone verified component.。定位。1, 2, 66, 70。全卷 70 页。后续条件。The canonical Lean release/revision, reproducible build log, and a selected finite circuit lemma with an explicit input/output contract.。
+- 复核记录。2026-11-26T19:33:26+08:00。hold。dependency。
+- 本次依据。The 70-page Claude manuscript states an arithmetic-circuit lower bound and describes a Lean claim, but its own appendix says the supplied Lean material is definitions-only and differs from the prose route. No project revision, theorem declaration, dependency manifest, or reproducible build accompanies the local PDF。定位。Physical pp. 1--2, Theorem 1.1; pp. 66 and 70, Lean appendix and divergence discussion。全卷 70 页。后续条件。A public pinned Lean project with build instructions, followed by a replay and a statement-to-prose audit of a selected circuit lemma。
 
 ## A03 · A 2^o(n) Time Algorithm for 3-SAT
 
@@ -19,6 +21,8 @@
 - 第五批定向筛选。unresolved。The asserted subexponential #3-SAT algorithm is said to be Lean-formalized, but no formal artifact or executable recurrence/cost certificate is included in the raw source for independent dependency checking. 后续条件。Acquire the Lean project/commit and exact algorithm specification; reproduce its asymptotic and finite-cost bounds before considering adoption.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The paper gives an asserted #3-SAT rate, but its Lean appendix describes a definitions-only file and explicitly leaves encoding and machine-simulation steps outside the formal proof. The recursion and a complete finite cost certificate are not supplied as an executable artifact.。定位。1, 2, 40, 44。全卷 49 页。后续条件。Pinned source of the algorithm and Lean proof, plus a finite recurrence/cost verifier that covers the text-to-machine encoding bridge.。
+- 复核记录。2026-11-26T19:33:26+08:00。hold。dependency。
+- 本次依据。The 49-page manuscript asserts a subexponential #3-SAT algorithm but the Lean appendix formalizes definitions while leaving the encoding and machine-simulation bridge outside the claimed proof. The actual recursion and finite cost certificate are unavailable as an executable or formal artifact。定位。Physical pp. 1--2, Theorem 1; pp. 40 and 44, Lean appendix and excluded steps。全卷 49 页。后续条件。A pinned algorithm and Lean source, a successful build, and a finite recurrence-cost checker covering formula encoding and the machine model。
 
 ## A09 · Discovering state-of-the-art quantum circuits with large language models
 
@@ -42,6 +46,8 @@
 - 第五批定向筛选。unresolved。Its crossover estimates explicitly depend on the unverified A03 recursion and its proved constants; without that upstream formal/executable artifact the claimed numerical crossover interface has no checked dependency chain. 后续条件。First resolve A03 with its Lean/executable proof artifacts, then obtain the integer tables and recurrence inputs used for this crossover calculation.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The local arXiv:2610.41622v1 manuscript's crossover calculations and Signed Network Sums analysis explicitly build on the unclosed Anthropic #3-SAT recursion. Although scripts are linked by the record, neither the upstream proof artifact nor the claimed integer tables/schedules are in this assigned bundle.。定位。1, 2, 3, 4, 54, 55, 56。全卷 56 页。后续条件。First close the upstream #3-SAT recurrence; then pin and run the cited scripts with all schedule and integer-table inputs.。
+- 复核记录。2026-11-26T19:33:26+08:00。hold。dependency。
+- 本次依据。The crossover estimates explicitly require the unclosed #3-SAT recurrence from A03 and further schedule and integer-table inputs. The local v1 PDF gives neither a verified upstream proof artifact nor complete replay inputs。定位。Physical pp. 1--4 and 54--56, stated dependence and computational appendices。全卷 56 页。后续条件。Close A03 first, then pin and run the cited scripts with every schedule and integer-table input。
 
 ## A26 · A Mathematical Theory of the Jacobian Lens
 
@@ -51,6 +57,8 @@
 - 第五批定向筛选。unresolved。The J-lens paper is model- and data-dependent. This screen found no standalone finite mathematical interface whose hypotheses can be checked without the cited architecture, trained models, and empirical setup. 后续条件。Provide the precise J-lens definition, model checkpoints/data, and a bounded theorem with all dynamical assumptions isolated.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The local 27-page Jacobian-Lens preprint states a conditional suppression inequality for independent contexts and bounded modal scales, not a generic finite operator certificate. Moreover, arXiv now lists v2 while this local source has no matching current-version identifier, so its scope cannot be promoted from the checked local text.。定位。1, 3, 4。全卷 27 页。后续条件。A pinned version, precise J-lens/Jacobian inputs, and a reproducible finite model/checkpoint dataset that verifies the stated coherence assumptions.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The local Jacobian-Lens preprint gives a model-dependent conditional suppression analysis. It requires the architecture, trained checkpoints, context model, and coherence hypotheses, and its local version lacks a corresponding pinned current version for a transferable mathematical interface。定位。Physical pp. 1, 3--4, abstract, definitions, and suppression inequality。全卷 27 页。后续条件。A pinned paper version, exact J-lens inputs, and reproducible model and data evidence for each stated coherence premise。
 
 ## A27 · Hilbert Series in Four Variables and Linear Factors of High Multiplicity
 
@@ -68,6 +76,8 @@
 - 第五批定向筛选。hold。arXiv:2611.06962v1 calls AutoIP work in progress. The overview correctly limits formal certification to statements actually encoded, but it supplies no stable repository revision or checked theorem interface to distill. 定位。physical pp. 1-2; 13-page PDF 后续条件。Pin a public Lean repository revision, identify a theorem with its exact types and hypotheses, and compile it before creating a formalization route.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The current arXiv v1 overview correctly says that Lean certifies only the statement actually encoded, but it is explicitly work in progress and supplies no pinned AutoIP repository revision or theorem-level interface to inspect and compile.。定位。1, 2。全卷 13 页。后续条件。Public repository revision, exact theorem declarations and dependencies, followed by a successful Lean build and statement-to-prose audit.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。This work-in-progress overview correctly distinguishes formal statements from their natural-language intent but supplies no pinned AutoIP repository revision, theorem declaration, or buildable interface. It is useful as formalization-review context only。定位。Physical pp. 1--2, abstract and review workflow; 13-page PDF。全卷 13 页。后续条件。A public repository revision, theorem declarations and dependencies, a successful build, and a statement-to-prose audit。
 
 ## G13 · Applications of a theorem by A. B. Shidlovski
 
@@ -77,6 +87,8 @@
 - 第五批定向筛选。hold。Mahler's 1968 Proceedings of the Royal Society paper is formally published (DOI 10.1098/rspa.1968.0111), but this local 25-page scan is image-only and no theorem or hypothesis could be verified from the actual copy. 定位。physical p. 1 (image-only); 25-page PDF 后续条件。Acquire searchable authoritative text or manually transcribe and verify the specific Shidlovskii application before use.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The supplied 25-page copy is image-only: actual p.1 has no extractable theorem text. Publication metadata alone cannot identify the statement, hypotheses, or which Shidlovskii application would be usable.。定位。1。全卷 25 页。后续条件。Searchable authoritative text or a checked manual transcription of the selected theorem and all E-function hypotheses.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The local 25-page scan is image-only. Bibliographic metadata identifies Mahler's published 1968 article and its Bessel-derivative E-function theme, but the actual local copy has no searchable theorem text or verified hypotheses. It remains a citation rather than a callable component。定位。Local physical p. 1 and all 25 image-only pages. Publication identity checked as Proceedings of the Royal Society A 305 (1968), 149--173, DOI 10.1098/rspa.1968.0111。全卷 25 页。后续条件。A searchable authoritative text or a manual transcription of a chosen theorem together with all E-function and differential-system hypotheses。
 
 ## G18 · How can we escape Thomae's relations?
 
@@ -159,6 +171,9 @@
 - 第五批定向筛选。hold。The local 2026 preprint makes its logarithm-product conclusions conditional on arithmetic-holonomy and irreducibility inputs. Those decisive inputs were not closed, so no linear-independence claim is reusable. 定位。physical pp. 1-2; 27-page PDF 后续条件。Verify the exact holonomy theorem and the required differential-operator irreducibility for each proposed application.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The source itself makes its logarithm-product independence results conditional on an unrefereed arithmetic-holonomy preprint and an inherited irreducibility step. Its asserted exact/ball certificates are not provided in the PDF bundle, so no independent finite certificate is available.。定位。1, 2。全卷 27 页。后续条件。Pinned certificate data and software, plus a checked version of the holonomy theorem and the order-13 operator irreducibility input.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。The local v1 preprint states a finite-q logarithm-product independence theorem under the explicitly named Calegari--Dimitrov--Tang holonomy theorem. The adopted card preserves that upstream premise and excludes the unverified computer-assisted and broader two-parameter claims。定位。Physical pp. 1--6, dependency statement, Theorem 1, Corollary 2, and method outline。全卷 27 页。后续条件。Independently verify Calegari--Dimitrov--Tang Theorem 7.0.1 before using the finite-q conclusion. The source's interval-arithmetic monodromy work needs its own reproducible certificate for any stronger use。
+- 已采用构件。物理页 1, 2, 3, 4, 5, 6。Use the finite q logarithm-product conclusion only after independently certifying Calegari--Dimitrov--Tang Theorem 7.0.1. Excludes the source's unverified computer-assisted monodromy and two-parameter assertions. [方法说明](../../../math-integer-linear-form-rates/references/krisman-log-products-conditional.md)。
 
 ## G42 · Linear independence of odd zeta values using Siegel's lemma
 
@@ -168,6 +183,9 @@
 - 第五批定向筛选。hold。This 2026 author preprint's asymptotic odd-zeta span bound depends on its refined Siegel-lemma criterion and Shidlovskii-type multiplicity estimate; neither proof chain was adopted or independently checked. 定位。physical pp. 1-2, 4; 46-page PDF 后续条件。Audit the non-explicit linear forms, multiplicity estimate, and all parameter ranges before using the stated asymptotic bound.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The author preprint explicitly bases its asymptotic odd-zeta span lower bound on a new refined linear-independence criterion and a Shidlovskii-type multiplicity estimate. The local theorem page is not a finite-s certificate and no independently checked proof chain or parameter certificate is supplied.。定位。1, 2, 4。全卷 46 页。后续条件。Audit the non-explicit Siegel forms, multiplicity estimate, criterion, and asymptotic parameter ranges before any selected application.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。The local preprint's Theorem 1 agrees with the published 2026 Journal of the London Mathematical Society article. Its asymptotic odd-zeta span lower bound is adopted as a source-scoped conclusion, with no finite cutoff or single-value consequence inferred。定位。Physical pp. 2--4, Theorems 1--2 and proof roadmap。全卷 46 页。后续条件。An effective finite application needs its own linear forms, height and remainder estimates, nonvanishing proof, and a proven numerical threshold。
+- 已采用构件。物理页 2, 3, 4。Use only the published asymptotic odd-zeta span lower bound. It provides neither an effective finite cutoff nor a claim about one selected odd zeta value. [方法说明](../../../math-integer-linear-form-rates/references/fischler-odd-zeta-siegel-lemma.md)。
 
 ## G42 · Linear independence of values of Dirichlet L-functions
 
@@ -177,6 +195,8 @@
 - 第五批定向筛选。hold。arXiv:2512.02612v2 is a preprint whose Dirichlet-L span claim imports the same refined Siegel-lemma and multiplicity machinery. It gives neither a direct Euler-constant tool nor a checked standalone finite certificate. 定位。physical pp. 1, 3-4; 36-page PDF 后续条件。Verify the cited Fischler extension, multiplicity lemma, and character/parity assumptions for any selected L-value application.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The local arXiv:2512.02612v2 matches the current record, but its Dirichlet-L span claim rests on non-explicit Siegel forms, a refined criterion, and a Shidlovskii-type lemma. It provides no direct Euler-constant result or standalone finite L-value certificate.。定位。1, 3, 4。全卷 36 页。后续条件。A checked proof of the cited linear-independence and multiplicity steps together with explicit character, parity, and parameter data for a finite application.。
+- 复核记录。2026-11-26T19:33:26+08:00。candidate。dependency。
+- 本次依据。The local arXiv:2512.02612v2 gives a precise Dirichlet-L span theorem with character and parity restrictions, but the preprint relies on a refined Siegel criterion and a Shidlovskii-type multiplicity lemma that have not been checked in this batch. The theorem is a concrete research route, not a presently verified finite certificate。定位。Physical pp. 1--4, abstract, theorem introduction, and construction roadmap。全卷 36 页。后续条件。Audit the stated linear-independence and multiplicity results and fix the character, conductor, parity, and asymptotic parameters for a selected application。
 
 ## G48 · Computing hypergeometric functions rigorously
 
@@ -224,6 +244,8 @@
 - 第五批定向筛选。no-adopt。This two-page committee statement reports an unreviewed OpenAI claim but supplies neither definitions nor proof artifacts. It explicitly leaves mass gap and confinement unresolved. 定位。physical pp. 1-2; 2-page PDF 后续条件。Wait for a public primary manuscript/formalization and a theorem-level review before any mathematical tool is distilled.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The two physical pages are a shepherding-committee status statement, not a proof: definitions, estimates, primary manuscript, and Lean objects are absent; it expressly leaves mass gap and confinement open.。定位。Committee statement, physical pp. 1--2。全卷 2 页。后续条件。A public primary manuscript or formalization plus theorem-level independent review and replay.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The two-page shepherding statement reports an unreviewed claim and expressly leaves mass gap and confinement unresolved. It provides neither definitions nor a primary proof or formal artifact, so it has no callable mathematical component。定位。Committee statement, physical pp. 1--2。全卷 2 页。后续条件。A public primary manuscript or formalization and theorem-level independent review。
 
 ## O27 · A Proof of the Linear Hadwiger Conjecture
 
@@ -282,6 +304,9 @@
 - 第五批定向筛选。hold。The arXiv:2611.10139v1 human-oriented k-SAT exposition cites OpenAI/Carenini results and rests on technical Propositions 3.7 and 3.10. It has no independently checked primary threshold proof or finite SAT certificate. 定位。physical pp. 1, 3, 11; 19-page PDF 后续条件。Compare with the cited primary proof, then verify the concentration and superadditivity propositions with all fixed-k and density-window hypotheses.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The human-friendly random k-SAT exposition routes the threshold assertion through cited OpenAI/Carenini work and technical Propositions 3.7 and 3.10; no primary proof or finite certificate is supplied by this source.。定位。Roadmap and technical propositions, physical pp. 1, 3, 11。全卷 19 页。后续条件。Compare the cited primary proof and verify the concentration and superadditivity propositions with fixed-k and density-window hypotheses.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。Physical pp. 4--5 define both clause models and print the no-repeated-underlying-variable conditioning transfer. Its exact finite probability is independently derived as ((n)_k/n^k)^m, and the conditional proper-clause law and both transfer inequalities were checked。定位。Physical pp. 4--5: model definitions, NC conditioning, and transfer; p. 3 identifies the separate technical threshold dependencies。全卷 19 页。后续条件。A caller that wants an actual threshold must separately supply the with-replacement zero--one limit with fixed k>=3 and the stated density regime; this component proves neither Proposition 3.7 nor Proposition 3.10。
+- 已采用构件。物理页 4, 5。Exact finite collision probability and conditional-law transfer only; any k-SAT threshold result remains a caller-provided premise. [方法说明](../../../math-l05-csp-sat-smt-encoding/references/with-replacement-k-sat-conditioning.md)。
 
 ## O34 · A Note on OpenAI's Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture
 
@@ -369,6 +394,8 @@
 - 第六批定向筛选。candidate。The preprint reports a potentially reusable Chebyshev-collocation/continuation diagnostic, but its own physical pages show unresolved wall-layer eigenvalue nonconvergence, so no validated component is extracted. 定位。Abstract p.1; numerical workflow p.4; unresolved mode variation p.17.。全卷 31 页。 后续条件。Need source code, parameters, residual definitions, convergence criterion, and a numerical error certificate that resolves the stated instability.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The preprint's collocation/Newton/continuation comparison is explicitly numerical and its own wall-layer eigenvalues fail to converge under refinement and mapped grids, so it supplies no validated PDE diagnostic component.。定位。physical p. 1 (preprint objective); p. 4 (numerical workflow); p. 17 (unresolved grid-dependent eigenvalues)。全卷 31 页。后续条件。Obtain code, exact discretization/continuation parameters and residual norms, then supply a directed numerical error certificate resolving the wall-layer mode instability.。
+- 复核记录。2026-11-26T19:33:26+08:00。hold。dependency。
+- 本次依据。The preprint itself reports nonconvergent, grid-dependent wall-layer eigenvalues at moderate inflow and strong swirl, expressly leaving the spectral-instability question open. The local source supplies no reproducible code or directed numerical error certificate that closes this gap。定位。Physical p. 17: refinement and mapped-grid eigenvalues wander in sign and the source calls the spectral question open; p. 4 introduces the numerical workflow。全卷 31 页。后续条件。Obtain the implementation, collocation/map and continuation parameters, residual norms, and a convergence or interval-error certificate resolving the sonic-line modes。
 
 ## O43 · The Erdős--Sós Conjecture: A Visual Exposition of the Proof Discovered by GPT-6 Astra
 
@@ -385,6 +412,9 @@
 - 第六批定向筛选。hold。The exposition states the Erdős--Sós theorem but attributes the proof and Lean verification to external GPT-6/FrontierMath artifacts not physically available here. Its introductory greedy argument only proves a stronger minimum-degree case. 定位。Theorem 1 and contrast with the greedy minimum-degree reduction p.1; Ramsey consequence p.2.。全卷 7 页。 后续条件。Require the cited primary proof/Lean repository and a theorem-to-artifact replay covering every t>=2 boundary case.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The short Erdős--Sós exposition attributes its claimed proof and Lean verification to unavailable external artifacts. Its elementary greedy discussion addresses only a stronger minimum-degree premise, not the average-degree theorem.。定位。Theorem 1 and minimum-degree contrast, physical pp. 1--2。全卷 7 页。后续条件。The cited primary proof/Lean repository and a theorem-to-artifact replay covering every t>=2 boundary case.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。The finite simple-graph average-degree theorem is stated on p. 1, and physical pp. 2--4 contain a complete counting proof: the ordering count, two explicit injections, and the induction. The extracted interface preserves the strict threshold and returns an independently checkable finite embedding。定位。Physical p. 1: theorem and strict threshold; pp. 2--4: M(G), R(T,r), both injection lemmas, and induction。全卷 7 页。后续条件。The interface is limited to finite simple undirected hosts and tree targets. It does not cover equality, multigraphs, directed graphs, or efficient embedding complexity。
+- 已采用构件。物理页 1, 2, 3, 4。Finite simple undirected host graphs and finite tree targets under the strict average-degree threshold; the executable search certifies concrete inputs only. [方法说明](../../../math-average-degree-tree-embedding/references/average-degree-tree-containment.md)。
 
 ## O43 · A short proof of the Erdős--Sós Conjecture
 
@@ -487,6 +517,8 @@
 - 第五批定向筛选。unresolved。The assigned supplement's text encoding is not reliably extractable with the available bundled reader, so its difference from the preceding zeta source and its internal dependency chain cannot be established from this pass. 后续条件。Provide a searchable/OCR-clean copy or a publisher PDF; compare theorem statements, normalization, and proof dependencies against P31 before adoption.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The 17-page scanned Ball--Rivoal supplement is not reliably machine-readable in the available source copy, so neither its precise theorem normalization nor the Padé/integrality/asymptotic dependency chain was verified.。定位。Scan identity and stated introductory theorems; physical pp. 1--17。全卷 17 页。后续条件。A searchable authoritative copy or a manual page-verified transcription, followed by comparison with P31 and replay of the Padé coefficients, denominator control, and Nesterenko criterion.。
+- 复核记录。2026-11-26T19:33:26+08:00。scoped-reference。statement。
+- 本次依据。The author-hosted authoritative copy identifies the Ball--Rivoal Inventiones article and its odd-zeta dimension theorem. Its reusable rational-form, integer-normalization, asymptotic-rate, and Nesterenko-criterion interface is already exactly scoped in math-integer-linear-form-rates/references/wave5-c08-01-rivoal-odd-zeta.md。定位。Author PDF physical pp. 1--3: introduction and Theorem 1; published version Keith Ball--Tanguy Rivoal, Invent. Math. 146 (2001), 193--207. Existing installed reference gives the checked form and criterion scope。全卷 17 页。后续条件。For a new odd-zeta dimension claim, supply the source-specific rational forms, common-denominator/integrality proof, nonzero asymptotic bounds, and the exact Nesterenko parameters; the existing interface does not infer them from the theorem statement alone。
 
 ## P36 · The Unbounded Denominators Conjecture
 
@@ -503,6 +535,9 @@
 - 第六批定向筛选。hold。The physical PDF is a scan. Visual inspection of physical p. 1 verifies Mahler's 1931 Part I bibliographic identity, but no theorem, auxiliary function, error estimate, or hypotheses were transcribed and checked from the actual scan. 定位。Title page, physical p. 1 (image scan).。全卷 20 页。 后续条件。A searchable authoritative text or a manually transcribed, page-verified theorem and proof segment with its approximation and integrality conditions.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The 20-page Mahler Part I source is an image scan. Physical p. 1 establishes bibliographic identity only; no theorem, auxiliary function, error bound, or integrality condition was transcribed and checked.。定位。Title page, physical p. 1。全卷 20 页。后续条件。A searchable authoritative text or manually transcribed, page-verified lemma chain with approximation and coefficient-arithmetic hypotheses.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。The official EMS reprint makes the original Part I legible: original printed p. 118 (the assigned scan physical p. 1) states the exponential/logarithm--Liouville algebraic-independence theorems. The adopted interface preserves every input restriction and makes no Euler-gamma inference。定位。Assigned original physical p. 1 = printed p. 118; authoritative EMS reprint p. 282 reproduces that page, and p. 281 gives the editorial statement summary. Original: J. Reine Angew. Math. 166 (1931), 118--136; reprint: Documenta Math. Mahler Selecta (2019), 281--314。全卷 20 页。后续条件。A caller must prove algebraicity and Q-linear independence of the exponent parameters and prove the Liouville property; no arbitrary logarithm or Euler constant is admitted。
+- 已采用构件。物理页 1。Qualitative algebraic independence only for the stated algebraic/Q-linearly independent exponent parameters or the stated real rational logarithm/pi, together with a proven Liouville number. [方法说明](../../../math-exponential-logarithm-algebraic-independence/references/mahler-part-i-independence.md)。
 
 ## P40 · Zur Approximation der Exponentialfunktion und des Logarithmus II
 
@@ -512,6 +547,9 @@
 - 第六批定向筛选。hold。The physical PDF is a scan. Visual inspection of physical p. 1 verifies Mahler's 1932 Part II identity and the opening of Section IV, but the displayed definitions have not been fully transcribed, and no applicable error/integrality theorem has been verified. 定位。Part II title and Section IV opening, physical p. 1 (image scan).。全卷 14 页。 后续条件。A searchable authoritative text or a manually transcribed and checked lemma chain, including coefficient arithmetic and asymptotic hypotheses.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。The 14-page Mahler Part II source is an image scan. Its title and Section IV opening are visible, but definitions and an applicable error/integrality theorem have not been completely transcribed.。定位。Title and Section IV opening, physical p. 1。全卷 14 页。后续条件。A searchable authoritative text or manually transcribed and checked lemma chain, including coefficient arithmetic and asymptotic hypotheses.。
+- 复核记录。2026-11-26T19:33:26+08:00。adopted-local。component。
+- 本次依据。The official EMS reprint makes the original Part II legible. Its preceding proof (original p. 149) gives a lower bound with exponent lambda_0 and derives lambda_0<=K^q; hence the adopted statement is |R|>=C(q)H^(-K^q) for nonzero integer-coefficient polynomials at a real rational logarithm or 2pi i. It does not copy the ambiguous/reversed displayed inequality glyph in Satz 5。定位。Assigned original physical p. 14 = printed p. 150; authoritative EMS reprint p. 313/original p. 149 derives lambda_0<=K^q, and p. 314/original p. 150 displays Satz 5. Original: J. Reine Angew. Math. 166 (1932), 137--150; reprint: Documenta Math. Mahler Selecta (2019), 281--314。全卷 14 页。后续条件。A caller must provide a permitted exact z and a nonzero integer-coefficient polynomial; denominator clearing must be separately tracked. This theorem supplies no numerical values for K or C(q), no general logarithm interface, and no Euler-gamma application。
+- 已采用构件。物理页 13, 14。Non-effective lower bound |P(z)|>=C(q)H^(-K^q) only for integer-coefficient P and exactly a real rational logarithm or 2pi i; constants remain existential and it is not a finite numerical certificate. [方法说明](../../../math-exponential-logarithm-algebraic-independence/references/mahler-part-ii-polynomial-lower-bound.md)。
 
 ## P40 · On the approximation of π
 

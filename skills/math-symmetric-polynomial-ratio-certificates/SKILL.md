@@ -27,3 +27,9 @@ python3 scripts/symmetric_ratio_certificates.py examples/wave9-turan-pair.json
 ```
 
 Each output is a finite rational computation. It does not prove convexity, subadditivity, or interval-wide monotonicity.
+
+Use JSON integers for degrees, indices and partition parts. Supply each evaluation point as an integer or an exact rational string.
+
+## 文献复核采用的构件
+
+- [Jack and restricted Macdonald majorization contract](references/sra-jack-majorization.md)

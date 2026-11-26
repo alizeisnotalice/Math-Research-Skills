@@ -10,3 +10,7 @@ description: 对移位、q-差分或 Mahler 线性差分方程，在已给定的
 - 对 shift \(x\mapsto x+h\)、q-difference \(x\mapsto qx\) 和 Mahler \(x\mapsto x^p\) 分支，先核对 [通用二分定理](references/linear-difference-dichotomy-ext0588.md) 中逐项列出的域、常数和 Laurent 前提。若适用，输出只能是解属于基础域或在该基础域上微分超越的二分。
 - 对高阶 Mahler 系统的全部导数代数独立性，另读 [Mahler 参数化 Galois 门槛](references/mahler-parametrized-galois-ext0587.md)。调用方必须提供经典差分 Galois 群包含 \(\mathrm{SL}_n\) 的证明及首末系数商为 monomial 的证明。
 - 值的代数独立性需要单独认证代数点避开奇点和所用专化定理的全部假设。函数微分超越性本身不推出任意点值结论。
+
+## 文献复核采用的构件
+
+- [Elliptic q-difference special-ring criterion](references/elliptic-q-difference-special-ring-ext0353.md)

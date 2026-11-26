@@ -15,3 +15,8 @@ description: 根据指定的 ζ 函数采样、平滑核和参数区间接入等
 
 - [Smooth integers and the zeta-zero correction](references/c07-07-smooth-integers.md)
 - [Vertical arithmetic progression zeta moments](references/c07-07-zeta-progression.md)
+
+## 文献复核采用的构件
+
+- [Hurwitz-zeta fourth moment under a strict irrationality-exponent premise](references/hurwitz-zeta-fourth-moment-ext0377.md)
+- [Conditional discrete mixed-universality admission](references/kacinskaite-matsumoto-discrete-universality-ext0153.md)

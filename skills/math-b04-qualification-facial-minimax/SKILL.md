@@ -37,3 +37,7 @@ description: 检查约束资格、面约化及极小极大交换，定位强对�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 文献复核采用的构件
+
+- [Active-gradient separation without a sphere minimax swap](references/usc-active-gradient-separation.md)

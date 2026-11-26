@@ -61,3 +61,7 @@ description: 构造或审查非局部 HJB 超解，核对生成元、边界条�
 ## OpenAI 原稿中的方法
 
 - [Affine-minimum plateau for mass-action systems](references/wave4-combinatorics-1-mass-action-affine-plateau.md)
+
+## 文献复核采用的构件
+
+- [Conditional weak Fokker--Planck PIDE with common noise](references/conditional-mckean-vlasov-weak-pide.md)

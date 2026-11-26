@@ -51,3 +51,7 @@ description: 用广义矩问题组织概率或解析界，核对矩约束、对�
 ## 显式有限原子测度的团分解
 
 已给出支持原子和非边理想等式时，用[有限稀疏矩分解](references/ideal-sparse-finite-guide.md)检查正权重与非边乘积，将原子分配到极大团并逐项重组所需单项式矩。
+
+## 文献复核采用的构件
+
+- [Effective countable GMP relaxation rate](references/effective-countable-gmp-rate.md)

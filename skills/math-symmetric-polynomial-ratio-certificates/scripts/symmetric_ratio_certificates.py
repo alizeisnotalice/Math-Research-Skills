@@ -10,7 +10,15 @@ import sys
 
 
 def rational(value: str | int) -> Fraction:
-    return Fraction(str(value))
+    if type(value) not in (int, str):
+        raise ValueError("use integers or exact rational strings for evaluation points")
+    return Fraction(value)
+
+
+def integer(value: object, name: str) -> int:
+    if type(value) is not int:
+        raise ValueError(f"{name} must be an integer")
+    return value
 
 
 def complete(values: list[Fraction], degree: int) -> Fraction:
@@ -65,7 +73,8 @@ def text(value: Fraction) -> str:
 
 
 def mcleod_power(data: dict) -> dict:
-    ell, power = int(data["ell"]), int(data["r"])
+    ell = integer(data["ell"], "ell")
+    power = integer(data["r"], "r")
     values = [rational(value) for value in data["x"]]
     if ell < 0 or power < 1 or not values or any(value < 0 for value in values):
         raise ValueError("ell >= 0, r >= 1 and a nonempty nonnegative vector are required")
@@ -78,8 +87,9 @@ def mcleod_power(data: dict) -> dict:
 
 
 def turan_pair(data: dict) -> dict:
-    partition = [int(value) for value in data["lambda"]]
-    count, index = int(data["n"]), int(data["i"])
+    partition = [integer(value, "lambda part") for value in data["lambda"]]
+    count = integer(data["n"], "n")
+    index = integer(data["i"], "i")
     left, right = rational(data["x_left"]), rational(data["x_right"])
     if count < 2 or not 1 <= index < count or not (1 < left < right):
         raise ValueError("need n >= 2, 1 <= i < n and 1 < x_left < x_right")
@@ -111,7 +121,10 @@ def evaluate(data: dict) -> dict:
 def main() -> None:
     if len(sys.argv) != 2:
         raise SystemExit("usage: symmetric_ratio_certificates.py INPUT.json")
-    output = evaluate(json.loads(Path(sys.argv[1]).read_text()))
+    try:
+        output = evaluate(json.loads(Path(sys.argv[1]).read_text()))
+    except (OSError, KeyError, TypeError, ValueError, ZeroDivisionError) as error:
+        raise SystemExit(str(error)) from error
     print(json.dumps(output, ensure_ascii=False, sort_keys=True))
 
 

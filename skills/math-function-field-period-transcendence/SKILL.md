@@ -36,4 +36,11 @@ lambda = -(u F_tau(omega) - omega F_tau(u))/root_{q-1}(-Delta)
 
 ## 文献复核采用的构件
 
+- [Anderson generating series from a Drinfeld module](references/anderson-generating-series-ext0104.md)
+- [Anderson--Thakur omega interface](references/ext-0073-anderson-thakur-omega.md)
+- [Quartic Laurent-series criterion over \(\mathbb F_3\)](references/ext0334-f3-quartic-continuous-fraction.md)
+- [Positive-characteristic MZV threshold](references/positive-characteristic-mzv-threshold-ext0191.md)
+- [Thakur-hypergeometric period admission](references/thakur-hypergeometric-period-interface.md)
+- [Finite-place Carlitz period admission](references/v-adic-carlitz-chowla-selberg-interface.md)
+
 - [Positive-characteristic Mahler specialization](references/hold-03-positive-characteristic-mahler-specialization.md)

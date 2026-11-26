@@ -6,8 +6,9 @@ Kazalicki proves that the integer sequence
  \sum_{j=0}^k\binom kj^3
 \]
 satisfies \(F((p-1)/2)\equiv\gamma(p)\pmod p\) for primes \(p>2\).  The
-published statement gives the CM description used by the checker for primes
-outside the exceptional residue classes \(5,11\pmod {24}\).  If
+published statement also gives a CM description. The checker implements that
+description for primes \(p>3\) outside the residue classes
+\(5,11\pmod {24}\).  If
 \(p=a^2+6b^2\), it uses \(\gamma(p)=2(a^2-6b^2)\).  In the remaining
 covered classes the coefficient is zero.
 

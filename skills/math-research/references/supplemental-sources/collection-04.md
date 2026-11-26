@@ -10,6 +10,8 @@
 - 第五批定向筛选。duplicate_held。SHA and physical pp. 1--3 match collection-04 and supplemental-batch-001 review 04-01. This is the obsolete 2026-08-11 Claude/Anthropic manuscript; its Theorem A and §1.2 (Z)/(P)/(L) rank--trace chain were already held because the block-inertia and second-moment dependencies were not proof-audited. 定位。physical pp. 1--3; Theorem A; §1.2 (Z), (P), (L) 后续条件。No new adoption. If re-opened, audit the author-signed successor's full finite-compression block decomposition, tail estimate, and stated external second-moment inputs.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。This obsolete unsigned manuscript's 2/3 conclusion still needs the noncritical-zero block-inertia decomposition and every cited second-moment estimate; no successor proof was audited.。定位。Theorem A and (Z)/(P)/(L), physical pp.1--3.。全卷 17 页。后续条件。Author-signed successor plus finite-compression block decomposition, tail bound, and primary Aryan/BGSTB inputs.。
+- 复核记录。2026-11-26T19:33:26+08:00。adjacent。context。
+- 本次依据。This unsigned original manuscript is superseded by the author-signed AI03b v2 in the same input batch. Its rank--trace narrative should not create a parallel adopted component。定位。Physical pp. 1--3 contain Theorem A and the (Z)/(P)/(L) proof outline。全卷 17 页。后续条件。Use the successor only after auditing its finite-compression block inertia, normalization, tail estimate, and primary second-moment inputs。
 
 ## AI03b · More than two thirds of the zeta zeros are simple and on the critical line
 
@@ -19,6 +21,8 @@
 - 第五批定向筛选。duplicate_candidate。SHA and physical pp. 1--3 match collection-04 and supplemental-batch-001 review 04-01. The local file is arXiv:2608.13637v2 (2026-08-19); Theorems A--B and Lemma 3.2 were already indexed only as a candidate, not a reusable proof component. 定位。physical pp. 1--3; Theorems A--B; §1.2; Lemma 3.2 后续条件。No new adoption. A preprint adoption requires proof-level review of §§2--6: finite Weil-form block inertia, normalization, tail control, and prime-side Hilbert--Schmidt second moment.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。Verified arXiv:2608.13637v2 preprint. The finite-compression rank/trace criterion is stated, but no safe standalone transfer follows without its zero-block inertia, tail, and prime-side Hilbert--Schmidt arguments.。定位。physical pp. 1--3, Theorems A--B, Section 1.2 and Lemma 3.2。全卷 21 页。后续条件。Audit the actual Sections 2--6 chain: finite Weil-form compression and normalization, zero-block inertia, tail control, and prime-side second moment.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The checked arXiv v2 preprint states the finite-compression rank/trace mechanism, but the claimed zeta-zero consequence remains coupled to its zero-block inertia, tail, normalization, and prime-side Hilbert--Schmidt arguments. The listed Lean artefact does not by itself certify those analytic dependencies here。定位。Physical pp. 1--3 state Theorems A--B and Lemma 3.2; pp. 15--16 describe the formalisation status and its declared assumptions。全卷 21 页。后续条件。Check out and replay the exact Lean tag and independently audit the non-kernel numerical enclosure plus Sections 2--6, including finite Weil-form compression and all second-moment inputs。
 
 ## AI05 · AI for scientific discovery: How researchers use Claude
 
@@ -67,6 +71,8 @@
 - 第五批定向筛选。duplicate_held。SHA and physical pp. 1, 4, 14 match collection-04. The local source is arXiv:2507.03058v1. Its Theorems 6--8 and 19 give harmonic-number Dirichlet-series pole/constant formulas, while §11 only suggests a possible gamma route; the manuscript itself omits proofs for several asserted results. 定位。physical pp. 1, 4, 14; Theorems 6--8, 19; §11 后续条件。No new adoption. Obtain complete proofs and an actual converse arithmetic obstruction (or integer linear forms) before using any Laurent-coefficient observation for gamma irrationality.
 - 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
 - 本次依据。Several harmonic Dirichlet-series assertions are explicitly left without proofs, and Laurent-coefficient rationality supplies no converse obstruction to gamma rationality.。定位。Theorems 6--8,19 and section 11, physical pp.4,14.。全卷 15 页。后续条件。Complete proofs and an integer-linear-form or nonrational Laurent-coefficient obstruction.。
+- 复核记录。2026-11-26T19:33:26+08:00。citation。citation。
+- 本次依据。The preprint's harmonic-number Dirichlet-series formulas are context only: it explicitly omits proofs for relevant assertions, and the proposed Laurent-coefficient observation supplies no converse arithmetic obstruction to rationality of Euler's constant。定位。Physical pp. 4 and 14 give the stated formulas and the section-11 proposed gamma route。全卷 15 页。后续条件。Supply complete proofs and either a certified integer-linear-form route or a genuine nonrational Laurent-coefficient obstruction before use in an Euler-constant irrationality argument。
 
 ## P26 · Three notes on Ser's and Hasse's representations for the zeta-functions
 

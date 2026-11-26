@@ -37,4 +37,8 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 
 ## 文献复核采用的构件
 
+- [Decomposable-curvature Schur-form source contract](references/sra-decomposable-schur-forms.md)
+- [Kubo--Mori scalar-curvature source contract](references/sra-kubo-mori-concavity.md)
+- [Tsallis S-divergence metric source contract](references/sra-tsallis-s-divergence.md)
+
 - [Finite-rank inertia count by a Schur complement](references/recent07-inertia-count.md)

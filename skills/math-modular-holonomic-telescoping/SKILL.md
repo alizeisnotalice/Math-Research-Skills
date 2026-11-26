@@ -11,6 +11,8 @@ description: 用显式极点数据、带权 q 展开和经证实的 valence 界�
 
 ## 文献复核采用的构件
 
+- [E2-zero and Watson-inversion boundary](references/e2-zero-watson-boundary-ext0137.md)
+
 - [Sporadic recurrence congruence through a supplied CM coefficient](references/ext0290-sporadic-cm-congruence.md)
 - [Interpolated Apéry sequences and critical L-values](references/osburn-straub-critical-l-values-ext0553.md)
 

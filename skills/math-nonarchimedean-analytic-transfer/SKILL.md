@@ -14,3 +14,7 @@ description: 在完备非阿基米德环境中，核对有理或形式的有限�
 
 - [Third-kind coordinates for abelian t-modules](references/chen-namoijam-third-kind-periods.md)
 - [v-adic period dimension interface](references/hartl-juschka-v-adic-period-dimension.md)
+
+## 文献复核采用的构件
+
+- [p-adic Tate-uniformization density gate](references/padic-tate-uniformization-density.md)

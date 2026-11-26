@@ -39,6 +39,14 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 
 ## 文献复核采用的构件
 
+- [E-function value-independence gate](references/e-function-lindemann-weierstrass-ext0122.md)
+- [E-function polynomial-quotient gate](references/e-function-polynomial-quotient-ext0114.md)
+- [E-算子的快速衰减周期配对](references/e-operator-period-pairing-ext0264.md)
+- [Lucas-congruence function-independence boundary](references/g-function-lucas-independence-ext0230.md)
+- [G-function values outside the initial disk](references/g-function-outside-disk-dimension-ext0253.md)
+- [Shifted G-function value-space gate](references/g-function-shifted-value-dimension-ext0267.md)
+- [Mellin zeta-series gate](references/zeta-mellin-series-boundary-ext0257.md)
+
 - [Brent--McMillan B1 的有限递推](references/brent-mcmillan-b1-1980.md)
 - [E-function exceptional-value admission](references/e-function-exceptional-value-admission.md)
 - [Euler--Mascheroni 指数动机的条件结论门槛](references/exponential-motive-conditional-gate-fresan-jossen.md)

@@ -4,6 +4,27 @@
 
 ## 欧拉常数、丢番图逼近与算术
 
+- [math-exponential-logarithm-algebraic-independence](../../math-exponential-logarithm-algebraic-independence/SKILL.md) · 核对 Mahler 1931/32 指数与对数代数独立性及多项式非消失下界的精确适用条件。
+- [math-algebraic-group-logarithm-distance](../../math-algebraic-group-logarithm-distance/SKILL.md) · 对给定交换代数群、代数点和代数 Lie 子代数，核对 Gaudron 有理情形对数到 Lie 子空间距离下界的调用前提。
+- [math-baker-runge-height-gates](../../math-baker-runge-height-gates/SKILL.md) · 在已给出射影模型、除子和 S-整模型时，核对 Baker--Runge 型积分点高度界的交叠条件与例外集；不计算未给出的有效常数。
+- [math-cmzv-rational-pullback](../../math-cmzv-rational-pullback/SKILL.md) · Place specified iterated integrals or multiple polylogarithms in a cyclotomic MZV space through a verified rational-pullback criterion.
+- [math-cyclotomic-euler-t-parity](../../math-cyclotomic-euler-t-parity/SKILL.md) · 对满足收敛条件的根单位 cyclotomic Euler T-sum，调用围道留数奇偶归约到较低阶和；不提供未展开余项的数值公式，也不采纳猜想的 multiple-t 奇偶性。
+- [math-differential-operator-minimization](../../math-differential-operator-minimization/SKILL.md) · Minimize a supplied rational-coefficient differential operator for a specified formal solution, after certifying the Ore factor, degree-bound and initial-series subroutines.
+- [math-elliptic-quasielliptic-function-independence](../../math-elliptic-quasielliptic-function-independence/SKILL.md) · 对已给定椭圆格、指数参数和 Serre 函数参数，依据经认证的线性无关条件调用函数层面的代数独立性；不从数值特殊值或“几乎处处”结论推断特定点独立性。
+- [math-exponential-algebraic-methods](../../math-exponential-algebraic-methods/SKILL.md) · 根据指数方程的模型选择复环面或阿贝尔簇上的存在定理，或明确承担 Schanuel、EAC 等前提后的指数多项式与幂映射结论。
+- [math-fibonacci-valuation-reductions](../../math-fibonacci-valuation-reductions/SKILL.md) · 对给定 Fibonacci 指数的精确整除前提，检查 F_l 的精确幂整除并应用三分支的指数约化；不宣称解完原始指数丢番图方程。
+- [math-finite-field-formal-series-congruences](../../math-finite-field-formal-series-congruences/SKILL.md) · Verify finite coefficient windows for elementary formal-series fixed points over a prime field, with explicit truncation boundaries.
+- [math-g-function-restricted-approximation](../../math-g-function-restricted-approximation/SKILL.md) · 对已认证为有理系数非有理 G-函数的有理值，调用有效的固定基底分母逼近下界；也用于限制其 b 进制展开中的长重复数字块。
+- [math-gfunction-representability-obstructions](../../math-gfunction-representability-obstructions/SKILL.md) · Apply a Picard--Vessiot obstruction to a proposed rational representation of a G-function by supplied solution families, singularity bounds and differential-Galois data.
+- [math-lacunary-recurrence-transcendence](../../math-lacunary-recurrence-transcendence/SKILL.md) · Apply a Subspace-Theorem transcendence criterion to lacunary reciprocal series after certifying the conjugate-root representation, sublinear heights and all-index gap condition.
+- [math-mahler-purity-filtration](../../math-mahler-purity-filtration/SKILL.md) · Apply the generalized-Mahler Hahn/Puiseux purity filtration to a supplied Mahler equation, while tracking exceptional arithmetic-growth layers and decomposition hypotheses.
+- [math-mahler-system-admission](../../math-mahler-system-admission/SKILL.md) · Apply scoped basis, lifting and purity theorems for supplied Mahler equations or systems after certifying the coefficient field, transformation, regularity and orbit hypotheses.
+- [math-mixed-littlewood-pseudoadic](../../math-mixed-littlewood-pseudoadic/SKILL.md) · 对满足有限素数支撑和增长条件的伪绝对值序列，调用已发表的混合 Littlewood 存在性定理；不把它当作给定 alpha 的有限逼近算法。
+- [math-motivic-euler-sum-unramifiedness](../../math-motivic-euler-sum-unramifiedness/SKILL.md) · 对已精确匹配的 motivic Euler-sum 字族或已认证余作用账本，调用非分歧判据；不把 motivic 结论误写成数值 period 恒等式。
+- [math-parameterized-norm-form-certificates](../../math-parameterized-norm-form-certificates/SKILL.md) · Verify the published solution families of the Bajpai--Bennett cubic norm-form equation and the Bennett--Ghadermazi extremal cubic Thue equation at supplied integer parameters.
+- [math-primary-pseudopolynomial-certificates](../../math-primary-pseudopolynomial-certificates/SKILL.md) · 精确核对主伪多项式的有限 binomial 变换、素数乘积整除条件和已给出的全指标前提。
+- [math-syracuse-exact-words](../../math-syracuse-exact-words/SKILL.md) · Verify a supplied finite valuation word for the accelerated positive odd 3x−1 Syracuse map, including its exact source and affine identity. Do not use it to infer predecessor density or a Collatz-type conjecture.
+- [math-zeta-polynomial-expansion-coefficients](../../math-zeta-polynomial-expansion-coefficients/SKILL.md) · 精确生成指定 Riemann ζ 多项式展开系数中的 γ、ζ(2),…,ζ(m+1) 与有理余项；不数值求 ζ，也不认证无穷级数收敛。
 - [math-ax-schanuel-dimension-defect](../../math-ax-schanuel-dimension-defect/SKILL.md) · 对已明确的平坦联络、模 j、Hodge 周期映射或矩阵指数数据，选择相应 Ax--Schanuel 维数缺陷定理并核对不可省略的几何前提。
 - [math-hofstadter-nested-recurrences](../../math-hofstadter-nested-recurrences/SKILL.md) · 用精确整数递推计算广义 Hofstadter 函数 F_k 的有限前缀，并核对已给出的点态比较。
 - [math-order-two-casoratian-audit](../../math-order-two-casoratian-audit/SKILL.md) · Audit supplied rational second-order recurrences by exact Casoratian and consecutive quotient identities. It certifies finite identities only.
@@ -29,6 +50,8 @@
 
 ## 调和分析、动力系统与几何方程
 
+- [math-double-elliptic-orbit-confinement](../../math-double-elliptic-orbit-confinement/SKILL.md) · Apply the source-scoped confinement theorem for finite translation orbits on a surface with two elliptic fibrations and non-torsion sections.
+- [math-selberg-riesz-criteria](../../math-selberg-riesz-criteria/SKILL.md) · 对给定 Selberg 类 L-函数数据和经认证的系数渐近，调用 Riesz 型 Meijer-G 判据的 GRH 蕴含或反向判据。
 - [math-strip-poisson-smoothing](../../math-strip-poisson-smoothing/SKILL.md) · Transfer a symmetric complex-center profile in a fixed strip to complete monotonicity using hyperbolic-secant Poisson smoothing.
 - [math-semiclassical-orthogonal-deformations](../../math-semiclassical-orthogonal-deformations/SKILL.md) · 对给定半经典正交权及移动奇点，核验递推系数的 Toda 变形方程和 Freud 权的 Painleve IV 化简。
 - [math-nevanlinna-functional-transcendence](../../math-nevanlinna-functional-transcendence/SKILL.md) · 核对非恒定整函数的 Nevanlinna 特征分离、测度有限的异常集及源定理给出的函数域超越次数。
@@ -49,6 +72,13 @@
 
 ## 算子代数、上同调与代数几何
 
+- [math-fermat-hodge-lattice-quotients](../../math-fermat-hodge-lattice-quotients/SKILL.md) · Reduce a certified Fermat middle-Hodge lattice quotient to an explicit group-ring quotient, while preserving the geometric and arithmetic premises needed for the reduction.
+- [math-geometric-g-function-special-points](../../math-geometric-g-function-special-points/SKILL.md) · 对已给出的一参数代数族、退化、周期矩阵与特殊纤维数据，选择 G-函数局部关系、特殊点高度或模曲线非典型交的定理接口。
+- [math-heisenberg-group-determinant-certificates](../../math-heisenberg-group-determinant-certificates/SKILL.md) · Exactly compute the finite group-determinant matrix of a supplied sparse element of the order-125 Heisenberg group, with a replay for one documented witness.
+- [math-likely-intersections-density](../../math-likely-intersections-density/SKILL.md) · Apply the conditional likely-intersection density theorem for a verified definable complex quotient presentation and its Ax--Schanuel witnesses.
+- [math-modular-unlikely-intersections](../../math-modular-unlikely-intersections/SKILL.md) · Route a specified modular-curve or abelian-family unlikely-intersection problem through the available degeneration, height, Galois-orbit and conditional Lang--Trotter theorems.
+- [math-padic-abelian-intersection-bounds](../../math-padic-abelian-intersection-bounds/SKILL.md) · Apply the source-scoped Buium--Coleman reduction bounds for a smooth p-adic curve inside an abelian variety after an unramified model and jet-space data have been certified.
+- [math-special-point-bound-gates](../../math-special-point-bound-gates/SKILL.md) · Apply Paulin's explicit special-point discriminant and root-of-unity order bounds to a supplied curve in P1 x Gm after checking its field, polynomial and geometric hypotheses.
 - [math-linear-difference-hypertranscendence](../../math-linear-difference-hypertranscendence/SKILL.md) · 对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。
 - [math-symmetric-polynomial-ratio-certificates](../../math-symmetric-polynomial-ratio-certificates/SKILL.md) · Evaluate finite complete-homogeneous and Schur Turan ratios exactly on rational inputs, preserving the stated partition and positivity domains.
 - [math-nonnegative-matrix-path-certificates](../../math-nonnegative-matrix-path-certificates/SKILL.md) · Verify the odd-power path certificate for finite entrywise-nonnegative symmetric matrices, with exact finite arithmetic where the inputs are rational.
@@ -65,6 +95,13 @@
 
 ## 图、组合、博弈与复杂性
 
+- [math-average-degree-tree-embedding](../../math-average-degree-tree-embedding/SKILL.md) · 在有限简单无向图中，按平均度严格阈值核对给定树的嵌入，并返回可检查的顶点映射。
+- [math-finite-permutation-terrace-certificates](../../math-finite-permutation-terrace-certificates/SKILL.md) · Verify a supplied ordering of all even permutations as a finite directed-terrace certificate; includes a reader for the public packed A7 witness format.
+- [math-graph-spectral-moment-certificates](../../math-graph-spectral-moment-certificates/SKILL.md) · Compute adjacency trace moments and short-cycle counts of finite simple graphs, and exact integral circulant spectra and energy by Ramanujan sums.
+- [math-permanent-inequality-contracts](../../math-permanent-inequality-contracts/SKILL.md) · Audit finite permanent inequalities for stochastic matrices and symmetrizable inverse M-matrices, retaining each source theorem's hypotheses and equality scope.
+- [math-petal-join-domination-polynomial](../../math-petal-join-domination-polynomial/SKILL.md) · Exhaustively verify the finite domination-polynomial identity for a clique joined to repeated copies of a small petal graph.
+- [math-regular-graph-low-induced-edge-count](../../math-regular-graph-low-induced-edge-count/SKILL.md) · Exhaustively count finite vertex subsets whose induced subgraph has at most a given number of edges, while checking regularity.
+- [math-unfair-polynomial-trinomial-factors](../../math-unfair-polynomial-trinomial-factors/SKILL.md) · Apply the trinomial case of the unfair 0–1 polynomial theorem after checking its normalized finite-support and nonnegative-coefficient hypotheses.
 - [math-two-generator-graded-semigroup-certificates](../../math-two-generator-graded-semigroup-certificates/SKILL.md) · 对互素双生成数值半群的总度分层进行精确计数，并核验对应 T-graded 广义数值半群的 Wilf 型有限不等式。
 - [math-one-special-parking-equality](../../math-one-special-parking-equality/SKILL.md) · Enumerate the invariant one-special-preference parking set for a finite positive length list and check the subset-sum equality criterion.
 - [math-cycle-weighted-permanent](../../math-cycle-weighted-permanent/SKILL.md) · Compute finite Macdonald cycle-weighted permanents and their scalar normalizations exactly for rational q and t.

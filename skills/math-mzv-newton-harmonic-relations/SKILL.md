@@ -49,4 +49,7 @@ relation family, or any statement about Euler's constant.
 
 ## 文献复核采用的构件
 
+- [Geometric regularized double-shuffle scope](references/ext0255-geometric-double-shuffle.md)
+- [Motivic multiple-t regularisation boundary](references/motivic-multiple-t-regularisation-ext0174.md)
+
 - [Bradley-normalized multiple q-zeta stuffles](references/wave8-candidate-10-q-stuffle.md)
