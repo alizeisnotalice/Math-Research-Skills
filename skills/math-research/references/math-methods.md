@@ -2,6 +2,8 @@
 
 先检索当前问题的对象与方法，只读取相关技能。以下描述用于选路，具体定理与假设以技能及原文为准。
 
+离散研究、算术逼近和专门的证明核验见[专项数学方法](research-specialists.md)。
+
 ## A · 归一化、外放松与紧性
 
 - [math-a01-fractional-normalization](../../math-a01-fractional-normalization/SKILL.md)：审查齐次归一化与分式规划中的正分母、Charnes–Cooper 变换、松弛方向及达到条件。

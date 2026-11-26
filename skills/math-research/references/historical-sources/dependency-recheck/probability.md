@@ -29,14 +29,14 @@
 
 ## A nonuniform local limit theorem for Poisson binomial random variables via Stein’s method
 
-- 原件 bcce7e1d8856d6fe309f3218cd50477d928db08813abecce6ec465f6c4ccbb42。Journal of Inequalities and Applications 2024:10, published 24 January 2024; local 18-page PDF。物理页 1, 3, 5, 6。
+- 原件 bcce7e1d8856d6fe309f3218cd50477d928db08813abecce6ec465f6c4ccbb42。Journal of Inequalities and Applications 2024:10, published 24 January 2024; local 18-page PDF。物理页 3, 7, 8, 9, 10, 11, 12, 13, 14, 15。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。Journal of Inequalities and Applications 2024, article 10, DOI 10.1186/s13660-024-03087-4. The local SHA-256 and page count were recomputed.
-- 待核。The published identity and stated theorem are verified. The active probability route already records that its proof branch cannot be used until its auxiliary high-moment and square-exponential estimates are repaired. The present page check finds no repair of those controlling steps.
-- 结论位置。P. 3 states the independent-Bernoulli nonuniform local-limit claim. Pp. 5-6 set up the standardized Stein equation and auxiliary estimates.
-- 适用范围。A published theorem statement and initial Stein setup do not certify the claimed approximation when its required auxiliary bounds remain invalid. The active route correctly does not expose this as a callable local-limit theorem.
+- 规范版本。Journal of Inequalities and Applications 2024, article 10, DOI 10.1186/s13660-024-03087-4
+- 待核。For S~Bin(n,2/n), n≥4, the variance is 2(1−2/n)≥1. On S=n the standardized W has W²=n(n−2)/2. The nonnegative term (2/n)^n exp(n(n−2)/2) alone diverges as n grows. This refutes the uniform square-exponential estimate in Lemma 3.4, which is used in (3.21) and (3.26).
+- 结论位置。Physical p. 3 states Theorem 1.1; pp. 7--8 state/prove Lemmas 3.3--3.4; pp. 10--12 use Lemma 3.4 in Theorem 3.1; pp. 13--15 use Theorem 3.1 to prove Theorem 1.1.
+- 适用范围。This argument concerns the auxiliary lemma in the 18-page source. Its main local-limit statement still requires a valid proof.
 - 相关技能。[probability-bernoulli-extremal-orders](../../../../probability-bernoulli-extremal-orders/SKILL.md)
-- 其余依赖。Provide a valid proof of each auxiliary moment and square-exponential estimate, or a fully independent proof of the theorem under precisely its independent-Bernoulli hypotheses.
+- 其余依赖。Find an independent correct nonuniform Poisson-binomial local-limit proof, or replace the square-exponential step with a valid estimate sufficient for every use in pp. 10--15.
 - [主来源 1](https://doi.org/10.1186/s13660-024-03087-4)
 
 ## A Note on Talagrand's Variance Bound in Terms of Influences
@@ -124,14 +124,14 @@
 
 ## A zero-one law for swap-invariant events in uniform spanning forests
 
-- 原件 9a743a44e1ee84a5adb0a50edf45ec38484a4f410aef1c112e170e3b0eecfa8c。arXiv:2610.00938v1 (1 Oct 2026)。物理页 1, 3, 4, 5, 6, 7。
+- 原件 9a743a44e1ee84a5adb0a50edf45ec38484a4f410aef1c112e170e3b0eecfa8c。arXiv:2610.00938v1, local PDF dated 2 October 2026。物理页 1, 3, 4, 5, 6, 7。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2610.00938v2 (12 Nov 2026); the local v1-to-v2 proof identity was not verified
-- 待核。The local v1 gives a concrete free-spanning-forest codimension-one argument using a finite path and a unit free current, then a conditional reveal-martingale proof. Its PDPM representation is imported from an external theorem, while the wired case is only a stated extension with an extra component issue.
-- 结论位置。swap-invariant events in free/wired uniform spanning forests
-- 适用范围。The required PDPM coupling and the wired extension were not independently proved, and the canonical arXiv version is v2 rather than the locally inspected v1.
+- 规范版本。arXiv:2610.00938v2 (12 November 2026 according to prior record); local v1/v2 theorem and proof comparison remains absent
+- 待核。The local v1 supplies a credible FSF conditional mechanism conditional on its two imported PDPM theorems: the path-functional calculation makes H1=ker(L|H2) codimension one, hence the stated coupling gives one deletion plus one insertion. The exact triangle UST enumeration verifies this finite conditional pattern (P[e present]=2/3, and each conditional pair differs by a swap). But the WSF extension is asserted in Remark 2.6 without the corresponding projection-space/codimension proof, and the local source is not the recorded v2.
+- 结论位置。Physical pp. 3--4 state the imported PDPM facts and prove the FSF conditional one-swap Lemma 2.5; p. 4 places the WSF extension only in Remark 2.6; p. 5 gives the reveal-martingale conclusion.
+- 适用范围。The triangle calculation is illustrative only and does not prove the FSF/WSF infinite-network representation. The document's direct proof imports Theorem 2.2/2.3, and the WSF component/wiring claim lacks a local detailed derivation.
 - 相关技能。[probability-forests-electrical-networks](../../../../probability-forests-electrical-networks/SKILL.md)
-- 其余依赖。Obtain and compare v2, then verify the cited PDPM/FSF representation at the exact hypotheses and supply a separate WSF component argument before integrating a zero-one-law interface.
+- 其余依赖。Acquire and compare v2, then independently verify the cited PDPM/forest representation and give the missing WSF conditional coupling, including disconnected G-e and finite-condition preservation.
 - [主来源 1](https://arxiv.org/abs/2610.00938)
 
 ## AI's Solution of Conjecture 9.1
@@ -253,14 +253,13 @@
 
 ## Convergence Theorems for Martingales
 
-- 原件 40752072e4edad8c2fcc42eec5b837b60fbbf733f8360ce3dcf5443e7a9caf83。32-page local PDF and University of Cologne-hosted copy; created 17 March 2006; the document prints neither author nor edition。物理页 1, 2。
+- 原件 40752072e4edad8c2fcc42eec5b837b60fbbf733f8360ce3dcf5443e7a9caf83。Unattributed local 32-page PDF; PDF metadata gives only Ghostscript producer and creation date 17 March 2006。物理页 1, 2。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
 - 规范版本。not identified
-- 待核。The locally retained scan is an unattributed, font-encoded lecture-note copy. Its displayed text and provenance do not permit a reliable theorem/assumption extraction suitable for a callable stopping or convergence contract.
-- 结论位置。martingale convergence lecture notes
-- 适用范围。Authorship, edition, canonical bibliographic record, and exact theorem statements remain unverified; the current installed martingale route already excludes this source from accepted provenance.
-- 相关技能。[probability-martingale-stopping](../../../../probability-martingale-stopping/SKILL.md)
-- 其余依赖。Locate an authoritative edition with named author and readable theorem statements, then map one exact stopping/convergence theorem and its filtration/integrability assumptions to a target route.
+- 待核。Byte and page checks recover only a 32-page, unattributed chapter scan. Its metadata does not identify an author or source, and the extract cannot reliably recover hypotheses. No convergence theorem can be promoted from this artifact: even the elementary martingale S_n=sum_{i<=n} epsilon_i has E|S_n| growing on the sqrt(n) scale, showing why a bare martingale framework cannot substitute for the uniform-integrability/Lp/boundedness assumptions needed by a convergence or optional-stopping contract.
+- 结论位置。Physical pp. 1--2 are headed 'Chapter 1 -- Martingales: Basic Properties and Stopping Theory'; the text extraction is font-encoded and neither page supplies author, title page, edition, or an exact convergence/stopping theorem.
+- 适用范围。The random-walk observation is a general boundary check, not evidence about an unreadable source theorem. It leaves every intended chapter result unverified.
+- 其余依赖。Locate an author-attributed readable edition, map a specific theorem and every filtration/integrability/stopping hypothesis to its physical proof pages, and only then assess reuse.
 - [主来源 1](https://www.mi.uni-koeln.de/~moerters/lectures/martingales.pdf)
 
 ## Critical exponential tiltings for size-conditioned multitype Bienaymé--Galton--Watson trees
@@ -597,15 +596,16 @@
 
 ## Reflection of Optimal Supports for k-wise Independent Bits
 
-- 原件 f8669d7cb4c3980d7955945d6cb5d169f37d22ce811d5de592a562be2248c9d1。arXiv:2609.25595v1。物理页 1, 2, 3, 4。
+- 原件 f8669d7cb4c3980d7955945d6cb5d169f37d22ce811d5de592a562be2248c9d1。Local PDF: arXiv:2609.25595v1, 22 September 2026。物理页 1, 2, 3, 4。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2609.25595v1
-- 待核。For even k the note derives a reflection relation by pairing a basis with its complement and then applying Lagrange/binomial reweighting. The central paired-basis characterization is invoked from Berend--Ernst--Kontorovich--Kumar rather than established in the local four-page preprint.
-- 结论位置。reflection of minimal supports for k-wise independent bits
-- 适用范围。Without independently checking that external characterization and its exact hypotheses, the reflection argument is not a verified general moment-duality primitive.
+- 规范版本。arXiv:2609.25595v1; its indispensable paired dual-basis characterization is stated in the formally published Berend--Ernst--Kontorovich--Kumar, Journal of Theoretical Probability 39, article 58 (2026), Theorem 3.3 / DOI 10.1007/s10959-026-01487-4.
+- 已有技能。The earlier external gate closes for the limited even-k reflection interface. The published upstream theorem states precisely that all even-k dual-feasible bases have I=J union {n}, with J a disjoint union of adjacent pairs. From the local moment constraints, independently use the degree-k Lagrange polynomial L_s(x)=(n-x)/(n-s) ell_s^J(x) and E[(n-X)f(X)]=n(1-p)E f(Y), Y~Bin(n-1,p), to obtain w_{n-1-s}^{I*}(1-p)=[p(n-s)/((1-p)(s+1))]w_s^I(p). The multiplier is positive on (0,1), and Q_I(x)=product_{a in J}(x-a)/(n-a) is nonnegative on integer x, proving the stated feasibility/optimal-basis transfer. An exact Fraction Gaussian-elimination replay at n=11,k=4,p=1/3 gave weights on {1,2,4,5,11}: 0,110/243,0,44/81,1/243, matching the local boundary example.
+- 结论位置。Local pp.1--3, especially (1)--(9), Theorem 1 and Lemma 2; p.4 exact n=11,k=4 boundary instance. Published upstream theorem: online physical article section 3.2, Theorem 3.3 (paired even-k dual-feasible bases).
+- 适用范围。This is an exact, narrow interior support-reflection primitive, not a symmetry of M(n,k,p), an endpoint statement, an ordering theorem, or an all-k result. The new four-page preprint remains unrefereed; readiness rests on the displayed derivation plus the checked formal upstream paired-basis statement, not on its AI-use disclosure or its broad numerical sweep. A caller must itself supply a paired dual-feasible even-k basis and solve the remaining n-weight by normalization.
 - 相关技能。[probability-moment-polynomial-duality](../../../../probability-moment-polynomial-duality/SKILL.md)
-- 其余依赖。Verify the cited paired-basis theorem at the needed k-wise-independent support assumptions, then formulate and solve a finite labeled LP example that checks the reflected support and weights exactly.
-- [主来源 1](https://arxiv.org/abs/2609.25595)
+- 已采用构件。偶数阶、相邻成对基的可行权重反射和精确系数。 [probability-moment-polynomial-duality](../../../../probability-moment-polynomial-duality/references/even-count-moment-reflection.md)
+- 其余依赖。For use beyond the primitive, prove the target basis is dual feasible and establish any requested ordering/connectedness or endpoint claim independently; do not infer equality of reflected objective values.
+- [主来源 1](https://arxiv.org/abs/2609.25595) · [主来源 2](https://doi.org/10.48550/arXiv.2609.25595) · [主来源 3](https://doi.org/10.1007/s10959-026-01487-4)
 
 ## Remarks on Viscosity Super-Solutions of Quasi-Variational Inequalities
 
@@ -669,27 +669,27 @@
 
 ## Speed of Random Walks in Dirichlet Environment on a Galton-Watson Tree
 
-- 原件 409d0c8addd04f9050a78b16481fd31436ebbaa6a9265603cb5bf1233564812c。arXiv:2405.11845v1。物理页 1, 5, 6, 18, 21。
+- 原件 409d0c8addd04f9050a78b16481fd31436ebbaa6a9265603cb5bf1233564812c。Local PDF: arXiv:2405.11845v1, 20 May 2024。物理页 1, 4, 5, 6, 18, 19, 20, 21, 22, 23。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2405.11845v1
-- 待核。The inspected text introduces a candidate environment-rooted law and derives a speed/normalizer relation, but its own discussion identifies the invariant-measure conclusion as a future step when the normalizer is not finite. The inspected pages therefore do not supply a verified stationary-law identity for the route.
-- 结论位置。random walks in Dirichlet environment on Galton--Watson trees
-- 适用范围。The exact state-space kernel, integrability/normalization conditions, and invariance proof needed by the stationary-law interface were not established from the local preprint.
+- 规范版本。arXiv:2405.11845v1 (official primary record checked; no formal edition identified in this audit)
+- 待核。The local bytes prove a conditional limiting-law statement: under transience and C<infinity, Corollary 3.10 identifies C^(-1)mu_ER as the distributional limit of the rooted environment/path under P(.|S). The p.18--21 proof is a regeneration/renewal calculation and supplies a useful normalized finite marked-double-tree law only in that model.
+- 结论位置。pp.4--6 define the finite normalizer C and mu_ER; Theorem 3.9 and Corollary 3.10, p.18; pp.19--21 prove weak convergence via renewal/dominated convergence; p.18 expressly defers invariance when (7) fails.
+- 适用范围。Neither the displayed theorem nor its proof verifies a transition kernel invariance equation for the installed stationary-law interface. Convergence from the prescribed initial law is not by itself an invariance proof without a specified Markov kernel and continuity/extension argument. The authors explicitly say their subsequent-paper claim is invariance even when (7) fails; that later claim is not in these local v1 bytes. Scope is directed (alpha_p,alpha_c)-ERRW/RWDE on a transient supercritical Galton--Watson tree under survival conditioning and (7).
 - 相关技能。[probability-stationary-law-interfaces](../../../../probability-stationary-law-interfaces/SKILL.md)
-- 其余依赖。Extract the full Markov kernel and prove or locate the claimed invariance identity under explicit normalizer conditions; separately check whether the required law is probability or sigma-finite before any route integration.
-- [主来源 1](https://arxiv.org/abs/2405.11845)
+- 其余依赖。Locate the promised later invariant-measure paper or independently define the environment-seen-from-particle kernel and prove integral P F d(C^(-1)mu_ER)=integral F d(C^(-1)mu_ER), including its state space and normalizer. Until then do not call this a stationary-law primitive.
+- [主来源 1](https://arxiv.org/abs/2405.11845) · [主来源 2](https://doi.org/10.48550/arXiv.2405.11845)
 
 ## Stability of Compensator Integrals and Nonlinear Operators under Canonical p-th Power Variation Convergence
 
-- 原件 f7f35197558f4bf697497bfac3fd9ba41b2cfabe822183f76266901b082f6a25。arXiv:2605.11783v3。物理页 8, 9, 10, 11, 70, 71。
+- 原件 f7f35197558f4bf697497bfac3fd9ba41b2cfabe822183f76266901b082f6a25。Local PDF: arXiv:2605.11783v3, 21 September 2026。物理页 1, 8, 9, 10, 11, 62, 63, 64, 68, 70, 71。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2605.11783v3
-- 构件候选。Theorem 4.2 gives a sharp, explicitly conditioned candidate contract (LG0, LU, JC and BEp for X, X_n and X_n-X) implying convergence of compensator differences in canonical p-variation. The nearby counterexample independently identifies the important failure mode: convergence of realized p-variation alone need not control predictable p-energy.
-- 结论位置。canonical p-th-power variation and compensator-integral stability
-- 适用范围。This is an 84-page preprint and only the theorem, counterexample, and the proof's small/middle/tail decomposition were inspected; the full proof and every condition-to-route translation remain unverified.
+- 规范版本。arXiv:2605.11783v3 (official record current at audit; no formal edition identified)
+- 构件候选。The checked v3 does give a concrete conditional contract: for three coupled real cadlag processes, predictable integrands and LG0/LU/JC/BEp, Theorem 4.2 transfers realised canonical p-power-variation convergence to the stated compensator-integral conclusion. The inspected proof genuinely separates thresholded jump alignment from the compensator-atom difference; the nearby example confirms that realised variation alone is insufficient to control predictable p-energy.
+- 结论位置。Definition 4.1 and Theorem 4.2, pp.8--9; sharpness construction pp.10--11; the threshold/jump-alignment and compensator-atom proof pieces pp.62--64, 68, 70--71.
+- 适用范围。This remains an 84-page preprint and only the controlling theorem, counterexample and central proof interfaces were independently reread. It is neither a general optional/predictable-projection theorem nor generally a ucp theorem, and no route may silently erase LG0, LU, JC, BEp, common filtration, integrability, or the three-process requirement.
 - 相关技能。[math-i02-filtration-projections-compensators](../../../../math-i02-filtration-projections-compensators/SKILL.md)
-- 其余依赖。For a concrete target process, instantiate LG0/LU/JC/BEp with finite predictable-atom or interval certificates, audit the full proof at that specialization, and add the result only with all three-process hypotheses stated verbatim.
-- [主来源 1](https://arxiv.org/abs/2605.11783)
+- 其余依赖。Audit the remaining tail estimates of Theorem 4.2 in a specified application and translate each named hypothesis to explicit process certificates; only the additional p=2 conditions can support any advertised ucp upgrade.
+- [主来源 1](https://arxiv.org/abs/2605.11783) · [主来源 2](https://doi.org/10.48550/arXiv.2605.11783)
 
 ## Stochastic Calculus for Pathwise Observables of Markov-Jump Processes: Unification of Diffusion and Jump Dynamics
 
@@ -717,15 +717,15 @@
 
 ## Stochastic Fokker-Planck PIDE for conditional McKean-Vlasov jump diffusions and applications to optimal control
 
-- 原件 77a57a121def005a8ca4ed68e1f10e0211e7a4beba2be89f36c74ebac690cd8a。local arXiv:2110.02193v4 (8 Jan 2023), 32 physical pages。物理页 1, 7, 8, 11, 12, 14, 15, 20。
+- 原件 77a57a121def005a8ca4ed68e1f10e0211e7a4beba2be89f36c74ebac690cd8a。Local PDF: arXiv:2110.02193v4, 8 January 2023。物理页 1, 7, 8, 11, 12, 14, 15, 20。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2110.02193v4; no formal publication identified in the checked primary record
-- 待核。For its displayed conditional McKean-Vlasov model, the source conditionally derives a distributional Fokker-Planck PIDE from jump Ito calculus applied to bounded C2 test functions. It does not establish a general nonlocal HJB result. In particular, p.7's assertion that a translated measure is automatically absolutely continuous with respect to the original measure is false in general: translating a point mass by a nonzero shift gives a mutually singular point mass.
-- 结论位置。Theorem 3.3 and its Ito/conditional-expectation derivation are on pp.7-11; p.12 assumes jump-PIDE uniqueness; pp.14-15 give smooth Markov-feedback verification via Dynkin; p.20 gives the density formulation.
-- 适用范围。The proof assumes rather than proves jump-PIDE uniqueness, relies on an external Ito/Dynkin theorem and integrability, and its verification result is for smooth closed-loop Markov controls. The active J04 skill has no dependency on this source.
-- 相关技能。[math-j04-jump-compensation-fubini-exit-settlement](../../../../math-j04-jump-compensation-fubini-exit-settlement/SKILL.md)
-- 其余依赖。Any transfer must use the correct pushforward-measure formulation, prove the target Ito/Dynkin domain and integrability and PIDE uniqueness, and separately establish comparison/viscosity theory for a nonsmooth HJB claim.
-- [主来源 1](https://arxiv.org/abs/2110.02193)
+- 规范版本。arXiv:2110.02193v4 (official primary record checked; no formal edition identified in this audit)
+- 待核。Within its displayed conditional McKean--Vlasov jump model, the source conditionally derives a distributional Fokker--Planck equation for bounded C2 tests and supplies a smooth closed-loop verification argument conditional on Dynkin's formula and a smooth maximizer. It cannot be promoted to a general nonlocal HJB supersolution interface.
+- 结论位置。Theorem 3.3 and Fourier/conditional-expectation derivation pp.7--11; Remark 3.4 p.11 and the assumed uniqueness p.12; smooth Markov-feedback HJB verification Theorem 4.2 pp.14--15; density formulation pp.20--21.
+- 适用范围。The p.11--12 text only establishes existence for its jump Fokker--Planck equation and assumes uniqueness. It invokes rather than proves the needed jump Ito/Dynkin calculus and restricts controls to Markov feedback. Moreover, the local claim that a translated measure is automatically absolutely continuous with respect to the original measure is false: delta_0 translated by any nonzero vector is delta_a, which is mutually singular with delta_0. This source is not an admissible dependency for a general density or viscosity transfer.
+- 相关技能。[math-e02-nonlocal-hjb-supersolution](../../../../math-e02-nonlocal-hjb-supersolution/SKILL.md)
+- 其余依赖。Any target use must use pushforward measures correctly and separately prove the Ito/Dynkin domain, integrability, PIDE uniqueness and, for nonsmooth HJB claims, a suitable comparison/viscosity theorem.
+- [主来源 1](https://arxiv.org/abs/2110.02193) · [主来源 2](https://doi.org/10.48550/arXiv.2110.02193)
 
 ## Stochastic Optimal Transport and Hamilton-Jacobi-Bellman Equations on the Set of Probability Measures
 
@@ -741,27 +741,27 @@
 
 ## T-product Tensor Expander Chernoff Bound
 
-- 原件 d4372618f5671505d4ea5ea54c439a687ba1d591c004b1f1896d39680debdfdd。local arXiv:2109.13831v1 (28 Sep 2021), 35 physical pages。物理页 1, 3, 22, 23, 30, 31, 32。
+- 原件 d4372618f5671505d4ea5ea54c439a687ba1d591c004b1f1896d39680debdfdd。Local PDF: arXiv:2109.13831v1, 28 September 2021。物理页 1, 3, 22, 23, 30, 31, 32。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2109.13831v1; the checked official primary record lists only v1
-- 待核。The printed T-product conclusion is not cleared. Theorem 1.1 requires beta_0(t)<=C/(sigma sqrt(2pi)) exp(-t^2/(2sigma^2)) for all real t, but p.22 gives beta_0(t)=pi/[2(cosh(pi t)+1)]. The latter has exponential tails, so beta_0(t)/exp(-t^2/(2sigma^2)) tends to infinity for every finite sigma; no finite global C exists. The proof on pp.30-32 uses this vacuous premise.
-- 结论位置。p.3 states Theorem 1.1 and its global beta_0 Gaussian-majorant premise; pp.22-23 define beta_0 and prove Theorem 8; pp.30-32 substitute that premise into the Chernoff derivation.
-- 适用范围。This blocks this manuscript's operational tensor Chernoff bound, not the standard scalar Chernoff/Hoeffding/Bernstein rules already in H05; H05 does not cite or rely on this source.
+- 规范版本。arXiv:2109.13831v1 (official primary record lists only v1)
+- 待核。The active H05 skill does not use this source for an operative rule. Independently, its printed global premise has no finite parameters: for t>=0, beta_0(t)>=pi exp(-pi t)/4, so beta_0(t)/exp(-t^2/(2 sigma^2)) tends to infinity for every finite sigma. A local high-precision replay for sigma=1 gives that ratio about 3.699e8 at t=10, 1.171e60 at t=20, and 2.279e293 at t=40. Hence no finite C can satisfy the stated all-real-t Gaussian majorant, and the p.32 Gaussian integration step has an empty hypothesis class as printed.
+- 结论位置。Theorem 1.1 assumption 4, p.3 (repeated p.30); Theorem 8 definition beta_0(t)=pi/[2(cosh(pi t)+1)], p.22; pp.30--32 insert the asserted Gaussian domination into the final integral.
+- 适用范围。This is a vacuity diagnosis of the specialized T-product theorem, not a counterexample to a corrected/restricted tensor inequality and not a defect in the scalar Chernoff/Hoeffding/Bernstein interfaces. The surrounding tensor interpolation/expander proof was not repaired.
 - 相关技能。[math-h05-chernoff-hoeffding-bernstein](../../../../math-h05-chernoff-hoeffding-bernstein/SKILL.md)
-- 其余依赖。Supply a corrected nonvacuous tail integration estimate and independently recheck the T-product interpolation/expander argument before adding any tensor concentration rule.
-- [主来源 1](https://arxiv.org/abs/2109.13831)
+- 其余依赖。Supply a nonvacuous tail domination or rework the beta_0 integral directly, then audit the T-product functional-calculus and expander steps before any H05 extension cites it.
+- [主来源 1](https://arxiv.org/abs/2109.13831) · [主来源 2](https://doi.org/10.48550/arXiv.2109.13831)
 
 ## Tamed Euler Schemes for Singular SDEs with Multiplicative Levy Noise
 
-- 原件 aba7cca952a2a12a43c2cea0efda2004fbefc160a7950f8bb6338f226abe5d42。local arXiv:2607.18862v1 (21 Jul 2026), 83 physical pages。物理页 1, 9, 10, 11, 67, 72, 73。
+- 原件 aba7cca952a2a12a43c2cea0efda2004fbefc160a7950f8bb6338f226abe5d42。Local PDF: arXiv:2607.18862v1, 21 July 2026。物理页 1, 9, 10, 11, 67, 72, 73。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2607.18862v1; only version listed by the checked official primary record
-- 构件候选。Under the paper's H_gsigma, H_b, cH_gsigma and Gamma-integrability assumptions, Proposition 8.7 explicitly separates W8 (compensated jump-martingale freezing) from W9 (nonlocal compensator freezing): for pbar>=2 their displayed contributions are respectively O(n^{-(1-1/q)}) and O(n^{-(1-1/q)(1-d/p)}), with separate pbar<2 exponents. Theorem 2.4 uses this split only inside a model-specific closure.
-- 结论位置。Theorem 2.4 and Corollary 2.9 are on pp.9-11; Proposition 8.7 is p.67; pp.72-73 insert the jump-error bounds into the stochastic-Gronwall closure.
-- 适用范围。These are numerical-SDE estimates with all coefficient regularity, truncation, taming, exponent and drift-approximation hypotheses retained; they are not a general filtration/projection or compensator theorem. Corollary 2.9 also omits a proof segment by reference.
+- 规范版本。arXiv:2607.18862v1 (official record lists v1; no formal edition identified)
+- 构件候选。The source supplies a precise model-specific numerical-SDE decomposition. Under H_gsigma, H_b, cH_gsigma and its displayed Gamma-integrability, Proposition 8.7 separates W8, the compensated-jump martingale freezing error, from W9, the nonlocal compensator freezing error; pp.72--73 insert both into the final stochastic-Gronwall closure. This is a potentially useful scoped design pattern, not a general compensator theorem.
+- 结论位置。Theorem 2.4 pp.9--10, Corollary 2.9 p.11, Proposition 8.7 p.67, and the stochastic-Gronwall closure pp.72--73.
+- 适用范围。The 83-page result retains singular-drift regularity, ellipticity, Levy-measure, truncation/taming, exponent, and drift-approximation assumptions. Corollary 2.9 expressly omits the estimate of varpi_b^n by reference to another paper, so even its packaged rate is not independently closed here. It must not be exposed through I02 as a filtration/projection result.
 - 相关技能。[math-i02-filtration-projections-compensators](../../../../math-i02-filtration-projections-compensators/SKILL.md)
-- 其余依赖。Create a dedicated numerical-Levy-SDE component only after independently auditing the exact conditions and omitted drift estimate; any caller must instantiate the SDE, Levy measure, filtration, freezing convention and both W8/W9 bounds.
-- [主来源 1](https://arxiv.org/abs/2607.18862)
+- 其余依赖。A dedicated numerical-Levy-SDE component would need a full audit of H_gsigma/H_b/cH_gsigma, the external Corollary 2.9 drift estimate, and a user-facing certificate instantiating the SDE, Levy measure, filtration, freezing convention, and both W8/W9 bounds.
+- [主来源 1](https://arxiv.org/abs/2607.18862) · [主来源 2](https://doi.org/10.48550/arXiv.2607.18862)
 
 ## The Accessibility of Convex Bodies and Derandomization of the Hit and Run Algorithm
 
@@ -802,26 +802,26 @@
 
 ## The gap between a variational problem and its occupation measure relaxation
 
-- 原件 1377aa658f9785aa0a5e64970e7e842e8134804ca3d2fde2492864e30605d3c8。local arXiv:2205.14132v4 (30 Apr 2026), 55 physical pages。物理页 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 49, 50。
+- 原件 1377aa658f9785aa0a5e64970e7e842e8134804ca3d2fde2492864e30605d3c8。local arXiv:2205.14132v4, dated 30 Apr 2026, 55 physical pages。物理页 1, 8, 10, 12, 13, 16, 17, 49, 50。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。ESAIM: Control, Optimisation and Calculus of Variations 32 (2026), article 35, DOI 10.1051/cocv/2026018
-- 构件候选。The published source supplies a precise guard, not a blanket exactness theorem: under CV1-CV6 (or OC1-OC6) with scalar codomain it states equality of the classical and relaxed minima, while pp.49-50 exhibit an integral-constraint relaxation gap. This is consistent with E01's existing warning that weak occupation-measure feasibility alone does not recover a process.
-- 结论位置。pp.8-15 state the scalar-codomain CV1-CV6/OC1-OC6 no-gap results and their reduction; pp.16-17 describe the decomposition mechanism; pp.49-50 give integral-constraint gap examples.
-- 适用范围。I checked the formal version, theorem contracts, proof architecture and counterexample but did not independently prove the full superposition/decomposition theorem and all technical lemmas. Compact support, boundary, measurability, convexity/closedness, scalar-codomain and no-extra-integral-constraint conditions remain indispensable.
+- 规范版本。ESAIM: Control, Optimisation and Calculus of Variations 32 (2026), article 35, DOI 10.1051/cocv/2026018 (publication record independently located; local byte is the arXiv v4, not the journal PDF)
+- 构件候选。The source gives a precisely bounded no-gap guard, not general recoverability: for m=1 and CV1--CV6 it states M_c=M_r, and for its controlled formulation it requires OC1--OC6. I independently replayed the p.49--50 inequality-constraint witness with exact rational arithmetic: the mixture (9/10)mu_0+(1/10)mu_1 has H=0 and objective 1/10, while the sole classical feasible constant has objective 1. Thus adding such an integral constraint invalidates an unconditional E01 recovery claim even in n=m=1.
+- 结论位置。Physical pp.8--10 state CV1--CV6, the scalar-codomain superposition statement and Theorems 2.3--2.4; pp.12--13 give OC1--OC6 and Theorem 2.7; pp.16--17 describe/prove the sheet-decomposition route; pp.49--50 give the explicit integral-constraint gap.
+- 适用范围。This audit did not independently prove the central Hardt--Pitts-style superposition/decomposition theorem or its cited measure-theoretic lemmas. The installed E01 text has only a general warning and no executable CV1--CV6/OC1--OC6 gate; it must not infer exactness for non-scalar codomain, missing compact-support/boundary/convex-fiber/closedness hypotheses, or extra integral constraints.
 - 相关技能。[math-e01-occupation-measure-flow-lp](../../../../math-e01-occupation-measure-flow-lp/SKILL.md)
-- 其余依赖。Add the formal-version citation only with a separate E01 guard that explicitly tests CV1-CV6 or OC1-OC6 and rejects integral constraints, higher codimension or any missing hypothesis before claiming exact relaxation.
+- 其余依赖。A future E01 overlay may expose a fail-closed checklist for every CV1--CV6 or OC1--OC6 item and separately reject integral constraints. It would still need either an independently checked proof of the superposition theorem or to remain source-scoped rather than certify an arbitrary occupation-measure model.
 - [主来源 1](https://arxiv.org/abs/2205.14132) · [主来源 2](https://doi.org/10.1051/cocv/2026018)
 
 ## The height of discrete-time critical beta-splitting trees
 
-- 原件 89e8f95a743b9fd78e706b94cad111a79287da48e0e7b4cb4fe25246a3ff842f。local arXiv:2609.14329v2 (16 Sep 2026), 14 physical pages。物理页 1, 2, 10, 12, 13。
+- 原件 89e8f95a743b9fd78e706b94cad111a79287da48e0e7b4cb4fe25246a3ff842f。local arXiv:2609.14329v2, dated 16 Sep 2026, 14 physical pages。物理页 1, 2, 4, 7, 8, 9, 10, 11, 12, 13。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2609.14329v2; no formal publication identified in the checked primary record
-- 构件候选。For the exact discrete-time critical beta-splitting law q(m,i)=[1/i+1/(m-i)]/[2h_{m-1}], the preprint states that maximum root-to-leaf graph height divided by (log n)^2 converges almost surely and in Lp to its stated digamma constant. The checked proof uses an interval-fragmentation representation, occupancy control, a largest-fragment law and a nested descendant lower construction.
-- 结论位置。p.1 states Theorem 1.1 and its exact discrete-time split model; p.2 defines the split law; p.10 supplies the largest-fragment input; pp.12-13 establish the nested-fragment lower bound and complete the proof.
-- 适用范围。This e-print-only theorem is for that labelled DTCS maximum-height observable, not a uniform-leaf height, CTCS time-height, another beta-splitting convention, or the installed route's uniform-cyclic-shift pair covariance. Its proof imports fragmentation and occupancy inputs.
+- 规范版本。arXiv:2609.14329v2; no journal version was located in the checked primary record
+- 邻近材料。Byte/page checks confirm the exact v2 source and its theorem is explicitly about maximum DTCS graph height, not the installed route's CTCS uniform-cyclic-shift pair covariance. I independently checked the finite split kernel normalization in exact rationals for m=2,...,12: sum_{i=1}^{m-1}[1/i+1/(m-i)]/(2H_{m-1})=1. The manuscript's own reduction is coherent at the finite interface: physical p.8 proves eL_n(r)=integral_0^{D_n(r)} H_{N_n(t,U_r)-1}dt and then uses independent Exp(1) marks. These are useful model-identification facts only.
+- 结论位置。Physical p.1 fixes the ordered DTCS split law and states the maximum graph-height theorem; pp.4--5 give the fragmentation/occupancy strategy; pp.7--9 prove the integral representation, exponential-mark comparison and uniform interval occupancy; p.10 identifies the imported largest-fragment LLN; pp.11--13 give the upper/lower construction and L^p conclusion.
+- 适用范围。The asymptotic height proof still depends essentially on external fragmentation representation/consistency, the largest-fragment law, and its selected nested-fragment construction; this review did not independently establish those inputs. More importantly, even a valid maximum-height theorem neither yields a fixed-separation two-leaf law nor transfers to CTCS time height or another labeling/split convention. The source itself is still an e-print.
 - 相关技能。[probability-random-recursive-trees-asymptotics](../../../../probability-random-recursive-trees-asymptotics/SKILL.md)
-- 其余依赖。Match a target's exact finite-n split law, labels and graph-height observable, then independently verify the imported fragmentation/occupancy results or obtain a published proof before integration.
+- 其余依赖。Keep the result adjacent unless a request is exactly the ordered DTCS(n) maximum unit-edge root-to-leaf height with this q(m,i). For the installed A127 target, a separate proof must match the cyclic sampling law and establish the pair-dependence/covariance interface; this source cannot close it.
 - [主来源 1](https://arxiv.org/abs/2609.14329)
 
 ## The Influence of Variables on Boolean Functions
@@ -898,14 +898,14 @@
 
 ## Viscosity Solutions of Stochastic Hamilton–Jacobi–Bellman Equations with Jumps
 
-- 原件 2d74c3b1dfea5078c296371087c33385019be410631aad2a1b17334de9368673。local arXiv:2605.20593v1 (20 May 2026), 31 physical pages。物理页 1, 2, 5, 10, 17, 23, 28, 29, 30, 31。
+- 原件 2d74c3b1dfea5078c296371087c33385019be410631aad2a1b17334de9368673。local arXiv:2605.20593v1, dated 20 May 2026, 31 physical pages。物理页 1, 5, 10, 17, 23, 28, 29。
 - 依赖复核。已核对本轮采用范围与剩余依赖。
-- 规范版本。arXiv:2605.20593v1; no publisher version is listed on the checked official primary record
-- 待核。The claimed global uniqueness route is not cleared. On p.29 Borel-Cantelli produces eventual bounds with an omega-dependent threshold, but the text then upgrades this to uniform-in-omega/L-infinity weighted convergence. That implication does not follow from the displayed almost-sure/L2 estimates. E02 has no active claim depending on this source.
-- 结论位置。pp.1-2 state the BSHJB framework; p.5 gives jump exponential integrability; p.10 gives the DPP/equation; pp.17 and 23 develop weak comparison; pp.28-29 are the uniqueness/approximation proof.
-- 适用范围。The gap concerns this proof of global uniqueness/weak-comparison transfer; it does not itself refute every local calculation in the manuscript. The source is a preprint and the installed E02 provenance remains pending for it.
+- 规范版本。arXiv:2605.20593v1; no published version was located in the checked primary record
+- 待核。The controlling uniqueness gate remains open and the displayed inference on physical p.29 is invalid: Borel--Cantelli gives, on a full-measure set, an omega-dependent threshold M(omega), whereas L-infinity convergence needs a deterministic essential-supremum bound for each approximation index. The implication is false in general: on (0,1], X_m=1_(0,2^{-m}) has sum P(X_m=1)=1 and X_m->0 pointwise for every omega>0, but ||X_m||_infinity=1 for every m. Therefore the paper's asserted upgrade from (5.75) L2 control to weighted L-infinity convergence does not follow from its stated argument, so the uniqueness/weak-comparison transfer is not cleared.
+- 结论位置。Physical p.1 states the BSHJB claim; p.5 gives the integrability assumptions; p.10 states the equation/DPP framework; pp.17 and 23 begin weak comparison and uniqueness; pp.28--29 supply the deferred finite-dimensional approximation and the asserted L2-to-L-infinity upgrade.
+- 适用范围。This identifies a decisive proof gap in the claimed global uniqueness route, not a disproof of every local viscosity or DPP statement. I did not independently audit all deferred approximation claims, Appendix B, or a possible alternative deterministic-envelope argument. The installed E02 already treats this manuscript as inactive provenance, so no active released conclusion is being retracted here.
 - 相关技能。[math-e02-nonlocal-hjb-supersolution](../../../../math-e02-nonlocal-hjb-supersolution/SKILL.md)
-- 其余依赖。Require a corrected deterministic essential-supremum approximation lemma, or a uniqueness argument valid with only the established almost-sure/L2 convergence, before any E02 use is activated.
+- 其余依赖。Require a corrected approximation lemma that actually supplies deterministic essential-supremum weighted error bounds, or a comparison/uniqueness proof formulated with only the established L2/almost-sure convergence. Re-audit all places where that stronger topology is used before activating this source for E02.
 - [主来源 1](https://arxiv.org/abs/2605.20593)
 
 ## Weighted Chernoff Information and Optimal Loss Exponent in Context-Sensitive Hypothesis Testing

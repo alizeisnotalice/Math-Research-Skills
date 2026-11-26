@@ -1,0 +1,9 @@
+{
+  "vertices": ["a", "b", "c", "d"],
+  "edges": [
+    {"u": "a", "v": "c", "capacity": 1},
+    {"u": "c", "v": "d", "capacity": 0},
+    {"u": "b", "v": "d", "capacity": 0}
+  ],
+  "q": 1
+}

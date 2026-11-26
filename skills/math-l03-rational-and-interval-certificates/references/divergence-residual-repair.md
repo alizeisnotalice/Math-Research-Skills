@@ -42,3 +42,10 @@ exact symbolic rational arithmetic, and uses exact Bernstein coefficients to
 certify strict positivity of \(A,\rho,I,D\) and the corrected coefficients.
 The Bernstein gate is sufficient, and can reject a positive rational function
 when its selected representation has mixed Bernstein coefficients.
+
+从本技能目录运行下列命令，输出日志包含 `corrected_residual`。环境选择器加载实际已有的 SymPy。
+
+```sh
+python3 -B ../python-math/scripts/run_math.py --require sympy --workdir . \
+  scripts/check_divergence_residual_repair.py examples/divergence-residual-repair-positive.json
+```

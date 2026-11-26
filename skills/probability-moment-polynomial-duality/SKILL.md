@@ -39,3 +39,7 @@ The optional attachments named here are available in the original local installa
 The current R07 exports contain 30 source-scoped accepted uses with 30 source IDs and 30 work-family IDs distinct within this L07 admission set. Root-wide identity/version reconciliation and quota export remain pending. G13.05 and G13.06 have no admitted source coverage. Individual use acceptance is not whole-skill release approval.
 
 See the positive and negative examples for exact certificates and failure cases.
+
+## 偶阶计数矩的成对支持反射
+
+给定内点有理参数及相邻成对支持时，用[偶阶反射](references/even-count-moment-reflection.md)解两侧矩方程，核对精确反射乘子及每个整数计数点上的对偶可行性。

@@ -1,4 +1,4 @@
-# OpenAI 数学文献 · 待进行证明核对
+# OpenAI 数学文献 · 待标构件位置
 
 [返回 OpenAI 文献索引](README.md)
 

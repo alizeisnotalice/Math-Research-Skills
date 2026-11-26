@@ -74,6 +74,8 @@ For common `Bernoulli(1/2)` margins with arbitrary dependence, Mutti–Semeraro 
 
 The 18-page Auld–Neammanee paper reports a nonuniform normal approximation for a single independent Poisson-binomial point mass when `σ²≥1`. The exact statement and reading evidence are retained in the source card（本机附件：`evidence/project/expansions/20261115/readers/L02/revision6/cards/EXSRC-bcce7e1d8856d6fe.md`）, but R02 and R01 independently confirmed errors in the paper's auxiliary moment and square-exponential bounds used in its proof. Its exact statement is accepted as a transcription; its proof and proposed skill use are held. Do not use this estimate or count it toward G05 until a valid separate proof is independently reviewed. These findings do not show Theorem 1.1 false. The exact finite diagnostic and scope cases are in the examples（本机附件：`examples/auld_local_limit_cases.md`）.
 
+For the 18-page paper's Lemma 3.4, let `S~Bin(n,2/n)` with `n≥4` and `W=(S−2)/sqrt(2(1−2/n))`. Then the variance is at least one. On `S=n`, we have `W²=n(n−2)/2`. Consequently `E exp((1+|W|)²)≥(2/n)^n exp(n(n−2)/2)→∞`. This rules out the claimed uniform square-exponential bound in that lemma. The status of the paper's local-limit estimate is recorded above.
+
 ## Examples and historical provenance status
 
 Exact checks and positive/missing-condition examples are in `examples`（本机附件：`examples`）. The separate method card states the parameters and finite evidence. M0067 remains a prior-read, narrowly qualified G05.01 use with `δ=φ*_k`, atomless marginals or randomized ties, balanced-optimum assumptions, and the R09 proof repair. M0055/M0058/M0072 remain G06-only reuse. No assigned problem is marked solved.

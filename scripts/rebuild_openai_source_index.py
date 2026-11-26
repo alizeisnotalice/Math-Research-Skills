@@ -30,11 +30,11 @@ CURRENT_SOURCES = {"catalogued", "standalone-official-CDN"}
 STATUS_LABELS = {
     "installed": "已安装构件",
     "scoped-reference": "限定参考",
-    "candidate": "候选构件",
-    "held": "保留，依赖待审",
+    "candidate": "待蒸馏构件",
+    "held": "待整理来源",
     "version-only": "仅版本或题录核对",
     "adjacent": "邻近材料",
-    "pending": "待进行证明核对",
+    "pending": "待标构件位置",
     "archive": "历史版本或状态待确认",
 }
 
@@ -242,12 +242,12 @@ def source_row(source: dict[str, Any], category: str, detail: dict[str, str]) ->
     elif category in REVIEW_DISPOSITIONS or "locator" in detail:
         note = (
             f"定位 {md(detail['locator'])}<br>构件 {md(detail['component'])}"
-            f"<br>依赖或边界 {md(detail['dependency'])}"
+            f"<br>适用范围与整理线索 {md(detail['dependency'].replace('Next review:', '后续使用所需：'))}"
         )
         if skill := detail.get("route"):
             note += f"<br>相关技能 [{md(skill)}](../../../{skill}/SKILL.md)"
     elif category == "pending":
-        note = "已完成来源清单与字节身份核对，尚未完成本轮证明构件审阅。"
+        note = "原件和官方链接已登记，构件说明待补。"
     else:
         note = "保留版本记录。按当前目录状态核对后再选择可引用的原文。"
     return f"| {family} | {title_cell} | {source_cell} | {STATUS_LABELS[category]} | {note} |"
@@ -327,8 +327,8 @@ def main() -> None:
     overview = [
         "# OpenAI 数学文献逐篇索引",
         "",
-        f"本索引覆盖本机审计清单中的 {len(inventory)} 份不同 PDF。每个 SHA-256 只在一个分类页出现一次。",
-        "“候选构件”与“保留，依赖待审”均为来源审阅状态，未表示其论文主定理已获独立认证。",
+        f"本索引覆盖本机文献清单中的 {len(inventory)} 份不同 PDF。每个 SHA-256 只在一个分类页出现一次。",
+        "OpenAI 现行未撤回稿件默认按原文陈述与假设直接蒸馏。这里的分类描述构件整理、参考和安装状态。",
         "",
         "| 分类 | 数量 | 页面 |",
         "| --- | ---: | --- |",
@@ -341,11 +341,11 @@ def main() -> None:
         "",
         "- 已安装构件。对应技能已通过该轮结构和本机安装验收。它只覆盖表中说明的局部构件。",
         "- 限定参考。现有技能可参照指定段落，仍保留列出的前置条件或依赖。",
-        "- 候选构件。逐页审阅发现可进一步蒸馏的局部方法，尚未成为已安装技能。",
-        "- 保留，依赖待审。来源含有可定位的路线，但本轮没有接受为可调用构件。",
+        "- 待蒸馏构件。已登记原文位置及可提取方法，等待接入数学技能。",
+        "- 待整理来源。保留原文链接及历史线索，具体方法可按原文陈述和适用条件提取。",
         "- 仅版本或题录核对。记录来源身份及引用范围。",
         "- 邻近材料。记录已核查的模型、量词、版本或适用范围差异。",
-        "- 待进行证明核对。清单、哈希和官方链接已处理，尚缺本轮实际证明阅读。",
+        "- 待标构件位置。原件与官方链接已登记，尚待补充对应页。",
         "- 历史版本或状态待确认。撤回、替换或目录外版本保留追溯，不能据此调用结论。",
         "",
         "生成命令",
@@ -357,7 +357,7 @@ def main() -> None:
         "  --subject-map provenance/openai-family-subjects.json",
         "```",
         "",
-        "输入审计区不进入公开文档。输出只保留官方 PDF 链接、哈希、简短构件定位与公开技能链接。",
+        "公开索引提供官方 PDF 链接、哈希、构件位置和技能链接。历史整理数据留在本机。",
         "",
     ])
     write(args.output_dir / "README.md", overview)

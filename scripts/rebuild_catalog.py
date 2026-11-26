@@ -20,8 +20,11 @@ RUNTIME_SKILLS = {
         'math-gamma-continued-fraction-recurrence',
         'math-integer-linear-form-rates',
         'math-hankel-pade-certificates',
+        'math-l03-rational-and-interval-certificates',
     ],
     'math-research': ['math-tool-router'],
+    'math-geometric-pde-reductions': ['python-math'],
+    'math-l03-rational-and-interval-certificates': ['python-math'],
     'math-tool-router': [
         'python-math', 'mathematica-math', 'matlab-plotting',
         'local-hybrid-math', 'remote-math-compute', 'ipad-math-node',
@@ -37,10 +40,56 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
             'm':'凸性、极点与选择','n':'凸几何、振荡与误差'}
 
 
+SPECIALIST_TOPICS = {
+    '欧拉常数、丢番图逼近与算术': (
+        'math-euler-constant-irrationality',
+        'math-sondow-log-fractional-certificate',
+        'math-gamma-continued-fraction-recurrence',
+        'math-gamma-meijer-cmf',
+        'math-gamma-multiple-laguerre-approximants',
+        'math-openai-arithmetic-determinants',
+        'math-alternating-reciprocal-criteria',
+        'math-integer-linear-form-rates',
+        'math-hankel-pade-certificates',
+    ),
+    '调和分析、动力系统与几何方程': (
+        'math-centered-cube-endpoint-budget',
+        'math-euler-maclaurin-quadrature-certificates',
+        'math-hbl-finite-presentation',
+        'math-torus-packet-spectral-density',
+        'math-cat0-inductive-barycenters',
+        'math-geometric-pde-reductions',
+        'math-lattice-heat-asymptotics',
+        'math-lienard-half-arc-matching',
+    ),
+    '算子代数、上同调与代数几何': (
+        'math-ag-divisor-intersection-ledger',
+        'math-cohomological-transfer',
+        'math-f2-group-ring-cancellation',
+        'math-nonarchimedean-analytic-transfer',
+        'math-operator-algebra-certificates',
+        'math-projective-induction-cocycle-certificates',
+        'math-weil-deligne-purity-lfactor',
+    ),
+    '图、组合、博弈与复杂性': (
+        'euclidean-tensor-geometry',
+        'math-discrete-proof-transfer',
+        'math-bimatrix-kite-mixing',
+        'math-logrank-rectangle-rank-halving',
+        'math-edge-deck-reconstruction-audit',
+        'math-honeycomb-finite-boundary-flux',
+        'math-clique-free-random-multiplier',
+        'math-grid-piecewise-translation-embedding',
+        'math-three-strip-token-bound',
+    ),
+}
+SPECIALIST_NAMES = {name for group in SPECIALIST_TOPICS.values() for name in group}
+
+
 def category(name):
     if name == 'math-research': return 'orchestration'
     if re.match(r'math-[a-n]\d\d-',name): return 'methods'
-    if name in {'math-centered-cube-endpoint-budget','math-discrete-proof-transfer','euclidean-tensor-geometry','math-euler-constant-irrationality','math-sondow-log-fractional-certificate','math-gamma-multiple-laguerre-approximants','math-gamma-meijer-cmf','math-gamma-continued-fraction-recurrence','math-openai-arithmetic-determinants','math-bimatrix-kite-mixing','math-logrank-rectangle-rank-halving','math-edge-deck-reconstruction-audit','math-integer-linear-form-rates','math-hankel-pade-certificates','math-alternating-reciprocal-criteria','math-euler-maclaurin-quadrature-certificates','math-hbl-finite-presentation','math-honeycomb-finite-boundary-flux','math-ag-divisor-intersection-ledger','math-torus-packet-spectral-density','math-cat0-inductive-barycenters','math-clique-free-random-multiplier','math-cohomological-transfer','math-f2-group-ring-cancellation','math-geometric-pde-reductions','math-grid-piecewise-translation-embedding','math-lattice-heat-asymptotics','math-lienard-half-arc-matching','math-nonarchimedean-analytic-transfer','math-operator-algebra-certificates','math-projective-induction-cocycle-certificates','math-three-strip-token-bound','math-weil-deligne-purity-lfactor'}:
+    if name in SPECIALIST_NAMES:
         return 'research-specialists'
     if name.startswith('probability-'): return 'probability'
     if name.startswith('math-modeling-'): return 'modeling'
@@ -87,6 +136,8 @@ def main():
     (ROOT/'catalog/README.md').write_text('\n'.join(index))
     for kind,filename,title in [('methods','math-methods.md','数学方法索引'),('probability','probability.md','概率研究专题索引')]:
         lines=['# '+title,'','先检索当前问题的对象与方法，只读取相关技能。以下描述用于选路，具体定理与假设以技能及原文为准。','']
+        if kind == 'methods':
+            lines.extend(['离散研究、算术逼近和专门的证明核验见[专项数学方法](research-specialists.md)。',''])
         if kind == 'probability':
             lines.extend(['先核对技能中适用的来源卡。候选、待审和研究专用分支可用于检查假设与证据；正式引用或采用结论时应满足当前版本的来源范围。见[来源核对](source-review.md)。',''])
         previous = None
@@ -97,6 +148,14 @@ def main():
                 lines += ['## '+family.upper()+' · '+FAMILIES[family],'']; previous=family
             lines += [f'- [{item["name"]}](../../{item["name"]}/SKILL.md)：{item["description"]}']
         (ROOT/'skills/math-research/references'/filename).write_text('\n'.join(lines)+'\n')
+    by_name = {item['name']: item for item in skills}
+    specialists = ['# 专项数学方法', '', '按对象找到可调用的证明构件和精确检查器。先核对输入及来源的适用范围。']
+    for topic, names in SPECIALIST_TOPICS.items():
+        specialists.extend(['', f'## {topic}', ''])
+        for name in names:
+            item = by_name[name]
+            specialists.append(f'- [{name}](../../{name}/SKILL.md) · {item["description"]}')
+    (ROOT / 'skills/math-research/references/research-specialists.md').write_text('\n'.join(specialists) + '\n')
     files = [{'path':str(p.relative_to(ROOT)),'sha256':digest(p),'bytes':p.stat().st_size,
               'mode':0o755 if p.stat().st_mode & 0o111 else 0o644}
              for p in sorted((ROOT/'skills').rglob('*')) if p.is_file()]

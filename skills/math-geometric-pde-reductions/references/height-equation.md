@@ -30,3 +30,5 @@ requested local or global immersion; it also omits the Gauss--Codazzi/
 reconstruction and domain/boundary data.
 
 命令读取 `x`、`y`、`pi`、精确整数字面量及有理小数，支持四则、幂和 `sin`、`cos`、`exp`、`sqrt`。有理函数用分子多项式判断残差恒等性。若符号化简无法确定非有理式的恒等性，返回 `undecided`。
+
+运行[立体投影算例](../examples/sphere_stereographic.md)时，用 [Python 环境选择](../../python-math/SKILL.md)载入 SymPy。

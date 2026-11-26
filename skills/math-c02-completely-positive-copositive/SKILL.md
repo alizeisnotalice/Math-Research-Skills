@@ -40,3 +40,7 @@ description: 分析完全正锥和共正锥表述，核对锥对偶、有限近�
 ## 单困难坐标的共正检验
 
 当去掉一个坐标后的矩阵块正定时，用[单困难坐标证书](references/one-difficult-coordinate.md)核验精确最小值所需的非负矩形域、KKT 与边界输入。
+
+## Horn 矩阵的两锥证书
+
+给定该例的分支顺序时，用[有理两锥证书](references/horn-two-cone-spn.md)检查正交体覆盖及各分支的正半定加逐项非负分解。

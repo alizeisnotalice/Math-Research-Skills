@@ -4,6 +4,7 @@
 
 - `skills/<name>/SKILL.md` 是规范入口，目录名与 frontmatter `name` 一致。保留已有名称；重叠技能用明确的兼容入口指向主技能。
 - 修改技能前阅读当前可用的 skill-creator。保持触发条件具体，工具按本轮实际可用性发现，不编造 API，不强制所有任务使用同一软件。
+- OpenAI Math 采用现行、未撤回原稿的陈述和显式假设作为默认输入。常规蒸馏直接提取方法、适用条件与构件，验收本地实现和数值或符号证书。只有用户另行要求时安排独立证明复核。
 - 数学方法、研究专题、软件工具和交付工作流分开索引。来源里的旧审核状态属于历史记录；迁移、哈希一致与安装成功均不表示数学结论已经复核。
 - `/Volumes/data/CodexProjects/T` 保持只读。导入来源记录路径、提交与 SHA-256；有差异时记录双方，不能按文件时间决定数学正确性。
 - 项目位于 `/Volumes/data/CodexProjects/Math-Research-Skills`；可再生中间件放 `/Volumes/data/CodexTemp/Math-Research-Skills`。写入前确认 data 已挂载，不回退系统盘。

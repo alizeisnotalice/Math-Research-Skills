@@ -1,0 +1,10 @@
+{
+  "model": "conditional",
+  "source_strata": ["a", "b"],
+  "target_strata": ["a", "b"],
+  "marginals": [["1/2", "1/2"], ["1/2", "1/2"]],
+  "cost": [2, 0, 0, 2],
+  "primal_plan": ["1/2", 0, 0, "1/2"],
+  "dual_potentials": [[2, 2], [0, 0]],
+  "equality_multipliers": [-2]
+}

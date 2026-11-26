@@ -65,3 +65,7 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 ## 散度型方程的精确残差修复
 
 给定一维有理多项式与非零 jet 时，用[修复证书](references/divergence-residual-repair.md)核验散度残差抵消与修正系数的 Bernstein 正性。
+
+## 有理多项式区间定号
+
+给定精确有理多项式和有理分割时，使用[区间定号证书](references/rational-polynomial-sign.md)。外端点可开闭，所有内部结点都按包含处理。

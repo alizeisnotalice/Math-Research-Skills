@@ -40,3 +40,7 @@ description: 组织数学规划软件的建模与结果核验，检查求解器�
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
 
 度量设施选址的代理数量与 LP 舍入建模，读[设施质量拆分与阈值预算](references/metric-facility-audits.md)。
+
+## 分割容量和最小生成树
+
+对给定有理边容量，使用[分割容量证书](references/partition-mst-separation.md)找出最小分割比值，或给出违反分割及对应的最小生成树长度。

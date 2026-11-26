@@ -38,3 +38,7 @@ description: 推导 Gibbs 变分与熵对偶，检查参考测度、归一化、
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
 
 对块质量固定的熵正则更新，用[组内变差与熵势函数](references/fixed-block-entropy-updates.md)去掉各块的共同成本变化，核对真实组内范围。
+
+## 有限倾斜树的 Hessian
+
+给定倾斜概率和节点导数时，用[有限 log-power-mean Hessian](references/log-power-hessian.md)核对递推梯度和条件协方差。

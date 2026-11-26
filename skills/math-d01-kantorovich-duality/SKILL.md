@@ -51,3 +51,7 @@ description: 核验 Kantorovich 输运对偶及势函数，检查代价、可积
 ## 带基点有限度量的系数符号检验
 
 使用[带基点有限度量的系数符号检验](references/coefficient-sign-test.md)。用精确度量表和符号函数见证有限 Lipschitz-free 系数界。
+
+## 条件层与路径因果约束
+
+给定层标签或有限时间网格上的路径时，使用[有限信息约束输运](references/finite-information-transport.md)生成层匹配、单向因果或双向因果等式，并核对精确原始与对偶见证。

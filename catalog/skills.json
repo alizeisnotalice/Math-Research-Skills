@@ -362,7 +362,8 @@
         "math-gamma-meijer-cmf",
         "math-gamma-continued-fraction-recurrence",
         "math-integer-linear-form-rates",
-        "math-hankel-pade-certificates"
+        "math-hankel-pade-certificates",
+        "math-l03-rational-and-interval-certificates"
       ]
     },
     {
@@ -517,7 +518,10 @@
       "title": "几何偏微分方程与变分归约",
       "description": "核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。",
       "category": "research-specialists",
-      "path": "skills/math-geometric-pde-reductions/SKILL.md"
+      "path": "skills/math-geometric-pde-reductions/SKILL.md",
+      "requires": [
+        "python-math"
+      ]
     },
     {
       "name": "math-grid-piecewise-translation-embedding",
@@ -736,7 +740,10 @@
       "description": "构造或核验区间算术、有理对偶与证明型数值证书，检查舍入和全域覆盖。",
       "category": "methods",
       "path": "skills/math-l03-rational-and-interval-certificates/SKILL.md",
-      "family": "l"
+      "family": "l",
+      "requires": [
+        "python-math"
+      ]
     },
     {
       "name": "math-l04-mathematical-programming-workflow",
