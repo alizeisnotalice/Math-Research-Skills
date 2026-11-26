@@ -19,6 +19,7 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | --- | --- |
 | 不确定该用什么数学方法 | 按 [数学方法索引](references/math-methods.md) 的主题检索，再读最相关的 1–2 个技能 |
 | 已有 OpenAI 论文的题名、编号或 PDF | 在 [OpenAI 逐篇索引](references/openai-sources/README.md) 查版本、SHA-256 和构件。已安装构件按链接调用，候选构件先读指定证明页并核验所列依赖 |
+| 查 Google Cogentic 论文或调用其数学构件 | 在 [Google Cogentic 来源索引](references/google-cogentic-2026-11-25.md) 查版本与范围，按对象选择 kite 混合、秩减半或边卡组。 |
 | 查 Anthropic 及其他近期原稿 | 在 [近期其他数学文献索引](references/recent-non-openai-sources.md) 核对题名、发布身份、原文页码及可用构件 |
 | 概率模型、随机过程或概率论证明 | 按 [概率专题索引](references/probability.md) 选择；涉及对偶、区间等步骤再加读相应数学方法 |
 | 符号/数值计算、优化、计算辅助证明、绘图或设备算力 | 读 [数学工具引导](../math-tool-router/SKILL.md)，选择并实际调用合适的本机工具。 |

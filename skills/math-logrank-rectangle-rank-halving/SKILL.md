@@ -1,0 +1,39 @@
+---
+name: math-logrank-rectangle-rank-halving
+description: 从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把已给定的矩形密度界转为 rank-halving 协议递推。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。
+---
+
+# 单色矩形与秩减半接口
+
+输入为有限 \(0/1\) 矩阵 \(M\)、一个非空单色矩形 \(A\times B\)，以及可选的已证明密度下界。先用精确有理消元检查实秩，随后检查 Appendix Proposition A.3 所需的互补块秩分裂：
+
+\[
+ \operatorname{rank}(M_{A,B^c})+\operatorname{rank}(M_{A^c,B})
+ \leq \operatorname{rank}(M)+1.
+\]
+
+因此至少一个互补块的秩不超过 \(\lfloor(r+1)/2\rfloor\)。这给出递归协议或单色矩形分割时可实际调用的 rank-halving 接口。
+
+## 已核对的来源与范围
+
+Google Research `cogentic_research_papers/logrank_conjecture/paper.pdf`，固定提交
+`4a7bc8ab0bc7`，本机原件 SHA-256
+`9c941a918c5e5cea1624adee676c010efb85b60b3cd77455640cd578f54f6bc9`。
+物理 PDF pp. 35–36 的 Proposition A.3 证明该秩分裂，并在假设每个秩至多 \(k\) 的 Boolean 矩阵含密度至少
+\(2^{-C_0 k^{1/2-\varepsilon_0}}\) 的单色矩形时，给出
+\(D_{cc}(M)\le 750C_0r^{1/2-\varepsilon_0}\) 的归约。p. 2 的 Theorem 1.1 是该稿的全局主张。
+
+本技能只把 Proposition A.3 的有限代数接口和条件性归约作为可调用内容。它不独立认证 Theorem 1.1 的高秩结构定理、Gaussian/KL 论证、论文的全部结论，或尚未发布的 Lean 形式化。
+
+## 使用
+
+用 [精确核验脚本](scripts/check_rectangle_rank_halving.py) 读取 JSON。`rows` 为 0/1 行列表，`a_rows` 与 `b_cols` 为零基下标。
+
+```sh
+python3 scripts/check_rectangle_rank_halving.py examples/positive.json
+python3 scripts/check_rectangle_rank_halving.py examples/not-monochromatic.json
+```
+
+第一个调用核对一个 1-单色矩形和秩减半候选。第二个调用以退出码 2 拒绝非单色输入。脚本不会寻找矩形，不能从有限验证推导对任意秩的单色矩形密度定理。
+
+需要把条件性归约用于一条新矩形定理时，另行提供每个 \(k\) 的统一密度界和其证明。只有此界的量词覆盖所有 \(1\leq\operatorname{rank}(M)\leq k\)，Proposition A.3 才能进入协议复杂度结论。

@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 9,
+    "research-specialists": 12,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -167,6 +167,13 @@
       "family": "b"
     },
     {
+      "name": "math-bimatrix-kite-mixing",
+      "title": "双矩阵博弈 Kite 混合",
+      "description": "核验双矩阵博弈的后悔值、s-kite 条件与精确最佳回应混合。适用于已有候选策略的局部改进与有限证书，不把尚未独立复核的全局近似 Nash 声明当作可用定理。",
+      "category": "research-specialists",
+      "path": "skills/math-bimatrix-kite-mixing/SKILL.md"
+    },
+    {
       "name": "math-c01-semidefinite-lifting",
       "title": "C01 · 半定提升（SDP lifting）",
       "description": "审查半定提升的建模、秩约束与松弛方向，区分 SDP 界和原问题可行解。",
@@ -299,6 +306,13 @@
       "category": "methods",
       "path": "skills/math-e06-online-metric-lazy-following/SKILL.md",
       "family": "e"
+    },
+    {
+      "name": "math-edge-deck-reconstruction-audit",
+      "title": "有限图边卡组审计",
+      "description": "审计有限简单图的无标号单边删除卡组，精确比较候选反例并核对边重构定理的图类和密度门槛。适用于小图枚举、边卡组断言和来源结论的适用范围检查。",
+      "category": "research-specialists",
+      "path": "skills/math-edge-deck-reconstruction-audit/SKILL.md"
     },
     {
       "name": "math-euler-constant-irrationality",
@@ -790,6 +804,13 @@
       "category": "methods",
       "path": "skills/math-l23-packed-nonnegative-recurrences/SKILL.md",
       "family": "l"
+    },
+    {
+      "name": "math-logrank-rectangle-rank-halving",
+      "title": "单色矩形与秩减半接口",
+      "description": "从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把已给定的矩形密度界转为 rank-halving 协议递推。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。",
+      "category": "research-specialists",
+      "path": "skills/math-logrank-rectangle-rank-halving/SKILL.md"
     },
     {
       "name": "math-m01-convex-hull-extreme-points",

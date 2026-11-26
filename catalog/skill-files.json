@@ -1076,6 +1076,30 @@
       "mode": 420
     },
     {
+      "path": "skills/math-bimatrix-kite-mixing/SKILL.md",
+      "sha256": "90a9539955a60f6f093a7585fee0266553a7934c59e084ea1b79411a9b10ed97",
+      "bytes": 1698,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-bimatrix-kite-mixing/references/row-kite-example.json",
+      "sha256": "066a206e6b24402ce0dd9500f9f034f1b5e173705181585e86ded7ac3d87f96b",
+      "bytes": 125,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-bimatrix-kite-mixing/references/source-and-scope.md",
+      "sha256": "c882852e32951a59b480f9a0df8f7721c1bdee7fb5c6f2333fe51590ce1cfbfe",
+      "bytes": 2563,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-bimatrix-kite-mixing/scripts/kite_mixing.py",
+      "sha256": "380886c3972fa862d63a5a2c2b68fa0893f2b0b6ee7aa6df2b8839f4cdc155f6",
+      "bytes": 6582,
+      "mode": 420
+    },
+    {
       "path": "skills/math-c01-semidefinite-lifting/SKILL.md",
       "sha256": "5b7964d0c9872af61fd139fd1c01ab1ad2252f05d50edb46fe4e6cbca47403e2",
       "bytes": 4241,
@@ -2249,6 +2273,54 @@
       "path": "skills/math-e06-online-metric-lazy-following/scripts/check_finite_lazy_following.py",
       "sha256": "a190b2a52f3e337ddb6050d818e2a841e397e218d1f90bf994bba3fa7415c155",
       "bytes": 2887,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/SKILL.md",
+      "sha256": "0866c4e8552bf8f8c9ace3de9f6765048fe895deffdaeb1cbecd4971ed399010",
+      "bytes": 1615,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/examples/boundary-matching.json",
+      "sha256": "95b763be26fe6940355fde0448cd7c87c7347f6f3f7927b0c80cdd50d82418ac",
+      "bytes": 36,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/examples/boundary-star-isolate.json",
+      "sha256": "c3b521a1529652800cc597609b27b64a60ac56c0fa540a0947649dc35cfd4a5a",
+      "bytes": 36,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/examples/positive-cycle-relabelled.json",
+      "sha256": "121a1233b2c0163be56ea893e241df27b5aa689008c17c42ebc0d526ce876587",
+      "bytes": 52,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/examples/positive-cycle.json",
+      "sha256": "bf8d1ed6582348ac893ca1773f7513be2cb7b9be5e4053b098f8c9ef7fda23e6",
+      "bytes": 52,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/examples/single-edge.json",
+      "sha256": "423ca4dc3f4d9c757fce37f96c45c566f3c4ae5da535c6cf2cc80346164c1c22",
+      "bytes": 28,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/references/edge-deck-reconstruction.md",
+      "sha256": "b5905e6cc52218cf0cfd9e0c296d92ef5ca30298467c35cdabaf3ea17069ddd1",
+      "bytes": 2405,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-edge-deck-reconstruction-audit/scripts/edge_deck_audit.py",
+      "sha256": "cfbd131b2fcb687b2a3bf378c87602ccaa3b8af3139925e0ba0ae334994a7286",
+      "bytes": 5399,
       "mode": 420
     },
     {
@@ -5619,8 +5691,8 @@
     },
     {
       "path": "skills/math-l03-rational-and-interval-certificates/SKILL.md",
-      "sha256": "93d8469fba2e718dfaf821d24c5b58ff2eafcf16ff07b31c94c4240017aae58d",
-      "bytes": 3843,
+      "sha256": "8fcbb166964fd2d4f7be85ad8a9931066e1b48b7b9744defbd3a81a37c34f752",
+      "bytes": 3973,
       "mode": 420
     },
     {
@@ -5657,6 +5729,12 @@
       "path": "skills/math-l03-rational-and-interval-certificates/references/dyadic-newton.md",
       "sha256": "b9b989c2861d30afcda2c6830f4ff3b0413e1e06d707e61d6e2e8276cd61a50f",
       "bytes": 2707,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l03-rational-and-interval-certificates/references/finite-subgroup-witness.md",
+      "sha256": "95442853b6129dd28c1d1f2806c9d310636470c808dc21cc9743066948956a56",
+      "bytes": 1210,
       "mode": 420
     },
     {
@@ -5735,6 +5813,12 @@
       "path": "skills/math-l03-rational-and-interval-certificates/references/verification-log-20261006.md",
       "sha256": "5a97203940e05e28c66588818156ef12bd955ceb25b4be6006680cf1f44b85a2",
       "bytes": 306,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l03-rational-and-interval-certificates/scripts/check_cyclic_group_certificates.py",
+      "sha256": "d42f40ab2c704e788aed1afeadd9055e8337be1623a8c2f8511ca9e43781f4c5",
+      "bytes": 3135,
       "mode": 420
     },
     {
@@ -6317,6 +6401,36 @@
       "path": "skills/math-l23-packed-nonnegative-recurrences/scripts/check_packed_partitions.py",
       "sha256": "120814da6e11b8b9f336ee41aa0cdf223b7a85bec9b5d63694cb6864331cc998",
       "bytes": 1231,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-logrank-rectangle-rank-halving/SKILL.md",
+      "sha256": "b9c22b905fb3cebe7df06f420a5600ec880617ffc72908260720b96508dc6317",
+      "bytes": 2378,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-logrank-rectangle-rank-halving/examples/not-monochromatic.json",
+      "sha256": "fc8cbed14c87cec958e82699bdfe5d387f9b507f97d2ef570b1c81a36178d5dd",
+      "bytes": 88,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-logrank-rectangle-rank-halving/examples/positive.json",
+      "sha256": "6f33c9fe9089399d09555736f217524f29cb258d59fd1fd626eea91077b0dcbc",
+      "bytes": 88,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-logrank-rectangle-rank-halving/references/source-audit.md",
+      "sha256": "a2c8d7da38032245b2eff49431774595dcbaa8484d6c7553c5a7809ef6e5e701",
+      "bytes": 2001,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-logrank-rectangle-rank-halving/scripts/check_rectangle_rank_halving.py",
+      "sha256": "60c83b2c86b51a7b3a62a7d822896587cf4ce2b20e978fc9e6956f3b6afea636",
+      "bytes": 4599,
       "mode": 420
     },
     {
@@ -7647,8 +7761,8 @@
     },
     {
       "path": "skills/math-research/SKILL.md",
-      "sha256": "1797db6379c1f1a4a92c98e5505fdba09aacd83f765fdfac1756c3b795fd405f",
-      "bytes": 4915,
+      "sha256": "9ea471797081dcdca134beb7f4a7255908ed5cf3d2ff3fef7480a54abb4c5489",
+      "bytes": 5125,
       "mode": 420
     },
     {
@@ -7661,6 +7775,12 @@
       "path": "skills/math-research/references/evidence.md",
       "sha256": "46f393f8395ae0027d5664db148cb2425f19a108f9a0b3e4141ab0ff0e866d99",
       "bytes": 2891,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/google-cogentic-2026-11-25.md",
+      "sha256": "41cf3708971be0c8e252a38714c944db1b9233b05617db9ff11771b54c19431f",
+      "bytes": 5980,
       "mode": 420
     },
     {
@@ -7803,8 +7923,8 @@
     },
     {
       "path": "skills/math-tool-router/SKILL.md",
-      "sha256": "ea14362c321cf18a70eb2ac536c446e4b5d5af04708bad9c874436871b15b990",
-      "bytes": 3145,
+      "sha256": "4367d8cd570d7b9e35ef6386c3cc862ce7f03108200d14cd7d92ebde351ae707",
+      "bytes": 3346,
       "mode": 420
     },
     {
