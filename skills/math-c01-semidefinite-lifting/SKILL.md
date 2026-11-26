@@ -49,3 +49,7 @@ PSD和归一化不自动推出rank-one；丢弃秩约束通常只给界。变量
 ## 有限二次规划与 Shor 松弛的共同最优值
 
 给定有理秩一可行点与非负乘子时，用[齐次化 QCQP 证书](references/arima-kim-kojima-finite-qcqp-certificate.md)检查锚点、目标同值和精确 PSD 松弛。
+
+## OpenAI 原稿中的方法
+
+- [Kernel-gap second-order energy contract](references/openai-kernel-gap-perturbation-2026.md)

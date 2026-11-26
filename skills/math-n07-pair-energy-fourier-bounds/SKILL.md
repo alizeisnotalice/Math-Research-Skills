@@ -15,3 +15,7 @@ Use this skill when a planar locally finite configuration has centered disk dens
 The density hypothesis concerns the centered disks used in the energy definition. It gives no estimate in translated disks or in smaller disks. This skill proves an inequality for the lower energy per particle and does not characterize equality cases, construct the Fourier minorant, or establish a Coulomb, Riesz, or jellium theorem.
 
 The lattice-specific constructions in the cited OpenAI preprints are evidence for particular Gaussian minorants. Their interval certificates, atomic columns, and full interpolation systems require their own source data and are outside this generic entry.
+
+## OpenAI 原稿中的方法
+
+- [Finite-field affine-line second moment](references/openai-direct-wave-2.md)

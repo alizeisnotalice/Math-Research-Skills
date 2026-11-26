@@ -141,14 +141,20 @@
     },
     {
       "path": "skills/euclidean-tensor-geometry/SKILL.md",
-      "sha256": "78c6a2edca4a354a0c9b635693e7007403219867849642a82b51bb14847bca09",
-      "bytes": 4262,
+      "sha256": "642f655a9428982f1a21005782f6fe2efa34cea64dca4f199c8c5428ef9411b3",
+      "bytes": 4374,
       "mode": 420
     },
     {
       "path": "skills/euclidean-tensor-geometry/references/family-379.md",
       "sha256": "7a31d5829ca57e735c78e9ba90d2d33a33457f35856a31547f928cd7fa05432b",
       "bytes": 9515,
+      "mode": 420
+    },
+    {
+      "path": "skills/euclidean-tensor-geometry/references/openai-hermite-spectral-repair.md",
+      "sha256": "3d3b6bedd9e3af2e6edeff29041e81114ee019a3c17a576a89d72a2f2022799f",
+      "bytes": 1139,
       "mode": 420
     },
     {
@@ -729,8 +735,8 @@
     },
     {
       "path": "skills/math-ag-divisor-intersection-ledger/SKILL.md",
-      "sha256": "f99ebf7b420d75ff3080f90f21a1c8e677bb6c7334e2aa9e6fe83eaa4512e984",
-      "bytes": 2278,
+      "sha256": "90d22d09a64608e6def5e56bc39487be310a3ea39b49b9a91f0659a0b8537b77",
+      "bytes": 2400,
       "mode": 420
     },
     {
@@ -743,6 +749,12 @@
       "path": "skills/math-ag-divisor-intersection-ledger/examples/positive_ledger.json",
       "sha256": "54d667a321a06cc8abd48cd411bb828fce4308d4a06947cedc3263348ac222c7",
       "bytes": 1909,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-ag-divisor-intersection-ledger/references/crepant-principal-relation-transfer.md",
+      "sha256": "ea454854a614efbe8c491574bf625a9b447c46eeddd93a0d8d32e71ee3022d2a",
+      "bytes": 1214,
       "mode": 420
     },
     {
@@ -1395,14 +1407,20 @@
     },
     {
       "path": "skills/math-c01-semidefinite-lifting/SKILL.md",
-      "sha256": "242bbb260632d063a8fbdb44277afb190398c84a72b571fd21da796e4f9a5aeb",
-      "bytes": 4815,
+      "sha256": "f0e50a7b4b986d0a43c7b0578bf37773ec6f55a90e886691796cef8b508fff0a",
+      "bytes": 4941,
       "mode": 420
     },
     {
       "path": "skills/math-c01-semidefinite-lifting/agents/openai.yaml",
       "sha256": "730c1e0033ffde3eea24433d716965c5029084011c91e3f118fad8443ba88650",
       "bytes": 338,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-c01-semidefinite-lifting/examples/kernel-gap-diagonal.json",
+      "sha256": "6513eb8ccb8fd6294a3cd2cf28d35f17b3a6d5113d131aee3665913efe5f8e64",
+      "bytes": 118,
       "mode": 420
     },
     {
@@ -1484,6 +1502,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-c01-semidefinite-lifting/references/openai-kernel-gap-perturbation-2026.md",
+      "sha256": "30a4b693b53a601f7808bf3bee1d77b72813282ea67472b0454d5f451b72ad05",
+      "bytes": 1278,
+      "mode": 420
+    },
+    {
       "path": "skills/math-c01-semidefinite-lifting/references/papers/AD-P-783dff58d54a2ee6.json",
       "sha256": "b559556b2dc14a189a44585445ca36977d5454ce360fde63c4225c480a99e5b6",
       "bytes": 9233,
@@ -1523,6 +1547,12 @@
       "path": "skills/math-c01-semidefinite-lifting/references/verification-log-20261006.md",
       "sha256": "279081350cc0acbe95af2357001a4f3dd0073502be7d26cf7bdad96b073b2f67",
       "bytes": 2234,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-c01-semidefinite-lifting/scripts/kernel_gap_perturbation.py",
+      "sha256": "c1e3960d161358dc8ddc3a69a984d0eb140266d059fd3d0f2ab74ae33d6e025f",
+      "bytes": 3238,
       "mode": 420
     },
     {
@@ -1935,8 +1965,8 @@
     },
     {
       "path": "skills/math-cohomological-transfer/SKILL.md",
-      "sha256": "1658cc5e0b67bc33e808aef75a466399152babbd5b1a4cb9410d08b602b726bf",
-      "bytes": 1302,
+      "sha256": "38ff141769b93bbda15a8a8eef13c4c2660e7f4f74c26b2c4536ec11b0105903",
+      "bytes": 1432,
       "mode": 420
     },
     {
@@ -1967,6 +1997,12 @@
       "path": "skills/math-cohomological-transfer/references/mayer-vietoris-survival.md",
       "sha256": "79660f8ae536b6f1a543943e27074b619c922b9fd9f4eaaf96fe513c96886dd7",
       "bytes": 1952,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-cohomological-transfer/references/milnor-k-characteristic-reconstruction.md",
+      "sha256": "3eb464ea9db907885809bfe5facfd20989b6d7fcebfc8a21ab3a8f71b3b4b0e4",
+      "bytes": 2466,
       "mode": 420
     },
     {
@@ -2181,8 +2217,8 @@
     },
     {
       "path": "skills/math-d02-gibbs-entropy-duality/SKILL.md",
-      "sha256": "168f3ab7ee8370dea7fbbf8ac10d168bf249c60babedfb9702f179735970642d",
-      "bytes": 4201,
+      "sha256": "1f6b97687f2bb9a246ada2e1fd3f39fe50e594375be6e9911a07fa5c77d2689c",
+      "bytes": 4325,
       "mode": 420
     },
     {
@@ -2243,6 +2279,12 @@
       "path": "skills/math-d02-gibbs-entropy-duality/references/method.md",
       "sha256": "d3ae8c0b3eac5fc6cf39f720892988a651a6d067b620d5ca5330f40682a35003",
       "bytes": 2667,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-d02-gibbs-entropy-duality/references/openai-fock-entropy-2026.md",
+      "sha256": "3727acad8d780f04bca3fe0a00d0da67e2867416c60de3a457a669f0f32f4700",
+      "bytes": 1001,
       "mode": 420
     },
     {
@@ -2481,8 +2523,8 @@
     },
     {
       "path": "skills/math-discrete-proof-transfer/SKILL.md",
-      "sha256": "24c3742cbc5d3c06c986bb20e9086592dd14834d29a85ee6e06f1bd243745784",
-      "bytes": 3274,
+      "sha256": "8651cd790942b0a56995e53f7491c060953fed792329f2030a1f5989c5af19f4",
+      "bytes": 3406,
       "mode": 420
     },
     {
@@ -2531,6 +2573,12 @@
       "path": "skills/math-discrete-proof-transfer/references/local-root-restriction.md",
       "sha256": "09364b239c33ff425895d1cd065e6091279528e26fb2e1ce35695b6de44d112c",
       "bytes": 2079,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-discrete-proof-transfer/references/openai-direct-wave-2.md",
+      "sha256": "8a3305bb4118d37385d5e26becb707e18e9c17e7e9ee50d2c4662154071b0ae4",
+      "bytes": 1207,
       "mode": 420
     },
     {
@@ -2805,8 +2853,8 @@
     },
     {
       "path": "skills/math-e03-tree-bellman-cross-layer-budget/SKILL.md",
-      "sha256": "14f8de917ad7f4c780bd19999eec99b3d985b0d80001882b425ce4e0cd6bc842",
-      "bytes": 6981,
+      "sha256": "1c2047fb2acceaf5dac3c594e3e86171ea338110e7129cbc9629cc822ea1a66a",
+      "bytes": 7086,
       "mode": 420
     },
     {
@@ -2864,6 +2912,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-e03-tree-bellman-cross-layer-budget/references/openai-direct-wave-2.md",
+      "sha256": "fc010cd5a865706151bbd804b2c7a325c7b6a6a0e9f4ae76b04438e5045707e8",
+      "bytes": 1420,
+      "mode": 420
+    },
+    {
       "path": "skills/math-e03-tree-bellman-cross-layer-budget/references/papers/EG-P-ee5e7f1d2f3397ce.json",
       "sha256": "55ef78a2ee7013a5c28cb5e02573bc50a00eac55653e5d66d20f140cf72d4672",
       "bytes": 8881,
@@ -2897,6 +2951,12 @@
       "path": "skills/math-e03-tree-bellman-cross-layer-budget/scripts/audit_two_recursive_potentials.py",
       "sha256": "5ccdde8f1e4c16124fffa57f88044bd3e778beebf69aaa251615e36ac9677e7c",
       "bytes": 6237,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-e03-tree-bellman-cross-layer-budget/scripts/convexity_deficit.py",
+      "sha256": "f0a0439be2f15346a356879528c609b4c8dcf7282ddb2d6a43b108adc6118f9d",
+      "bytes": 1408,
       "mode": 420
     },
     {
@@ -3123,8 +3183,8 @@
     },
     {
       "path": "skills/math-euler-constant-irrationality/SKILL.md",
-      "sha256": "df9bff0c0b24a1dbbc7cbb4f585154d88ddce5a0f9bdbb8625a96cbb373cf145",
-      "bytes": 5415,
+      "sha256": "9eb46fbc59f7795c3fb35394df4149b5ba0d9c3e554b5495a9730380dc18e129",
+      "bytes": 5637,
       "mode": 420
     },
     {
@@ -3183,8 +3243,8 @@
     },
     {
       "path": "skills/math-euler-constant-irrationality/references/source-scope-gamma.md",
-      "sha256": "6ff444200c3c2bd0c85d8d77459538f8770ef84a39bc157be0c84a1e8ef1a279",
-      "bytes": 69374,
+      "sha256": "ec3da1b5ab6437bdc7f256c4d71ce2030c2ec9d5d027c5ac7eada00012f65557",
+      "bytes": 69610,
       "mode": 420
     },
     {
@@ -3465,8 +3525,8 @@
     },
     {
       "path": "skills/math-f03-hilbert-schmidt-radial-layer-square-envelope/SKILL.md",
-      "sha256": "34802ed24bc2cfd20c953d1b1f08db271a01577dd7776b0d3eebc643bb616460",
-      "bytes": 4158,
+      "sha256": "b8b765ed542ed87d906180657210911b60375f592c01c551d9d21ebb2ed4279d",
+      "bytes": 4293,
       "mode": 420
     },
     {
@@ -3503,6 +3563,12 @@
       "path": "skills/math-f03-hilbert-schmidt-radial-layer-square-envelope/references/method.md",
       "sha256": "ee7e6f81359a2a76fd7e0a5c351366c4b57b80ce9412bce79b6c73e73e57f1a2",
       "bytes": 2085,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-f03-hilbert-schmidt-radial-layer-square-envelope/references/openai-nonnormal-sweep-power.md",
+      "sha256": "332970e86fa4b6afe4d3fc9ef4b4cae8b310632c51c1a4b893983a75220779b2",
+      "bytes": 734,
       "mode": 420
     },
     {
@@ -3663,8 +3729,8 @@
     },
     {
       "path": "skills/math-f05-l2-spectral-parameter-schur-test/SKILL.md",
-      "sha256": "d9e02afdc433cff4037fb1d2217690e82da2de22fe0fbcb7d750589f84a7d43f",
-      "bytes": 5259,
+      "sha256": "f59105e45484aba4962ade99b3c6c765047ccf2cc7ddd7b48bfd24f45d637d17",
+      "bytes": 5370,
       "mode": 420
     },
     {
@@ -3707,6 +3773,12 @@
       "path": "skills/math-f05-l2-spectral-parameter-schur-test/references/method.md",
       "sha256": "2616eec693d069d07387ec79f62e93c79ef9a0acd5aea34cf73b887eeef37008",
       "bytes": 5319,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-f05-l2-spectral-parameter-schur-test/references/openai-ward-laplacian-2026.md",
+      "sha256": "3a5013eb50efe24cd5f1886e00e2bec5cb8420d64b6a29d8f444f1b56e813898",
+      "bytes": 1022,
       "mode": 420
     },
     {
@@ -3765,8 +3837,8 @@
     },
     {
       "path": "skills/math-f06-menshov-rademacher-maximal-partial-sums/SKILL.md",
-      "sha256": "8b61a99815abac23f192c65077e6f7b73ee9194fa2d80b981b9ec8b2f0845aee",
-      "bytes": 3961,
+      "sha256": "7e48071576ea2679b74fc6056882185261630fd0c65ffdcc49e2ed872a064d5b",
+      "bytes": 4084,
       "mode": 420
     },
     {
@@ -3821,6 +3893,12 @@
       "path": "skills/math-f06-menshov-rademacher-maximal-partial-sums/references/method.md",
       "sha256": "add4770f64516ab15e93cdf6ceabe4529175a42745d4928e242332c5c03c67e5",
       "bytes": 2333,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-f06-menshov-rademacher-maximal-partial-sums/references/openai-direct-wave-2.md",
+      "sha256": "1e02a27401060bf8fd7e24c79239515a1f101cb78e82ed5875c5117bc438ca27",
+      "bytes": 1393,
       "mode": 420
     },
     {
@@ -4011,8 +4089,14 @@
     },
     {
       "path": "skills/math-f08-matrix-trace-energy/SKILL.md",
-      "sha256": "09f82bc772de8437a1acba6a6ae37e0b5956f18542d8396cb24e3d81f2a3826c",
-      "bytes": 3298,
+      "sha256": "53b597d9f5271c3297fed25ea9dc7bfd0e3654ef3d7a71de9a4bbf92dffcb2fa",
+      "bytes": 3420,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-f08-matrix-trace-energy/references/openai-matrix-lieb-thirring-2026.md",
+      "sha256": "d59cec071eded94af89fa51f15376063df89cee82eb061f0f9ad5cfae37b90af",
+      "bytes": 933,
       "mode": 420
     },
     {
@@ -4077,8 +4161,8 @@
     },
     {
       "path": "skills/math-g01-carleson-measure-box-and-tent-test/SKILL.md",
-      "sha256": "86e87d6d7430df7c5685072fe2a9984b4ebacc94ce4225c2bd14d1e7e95f688c",
-      "bytes": 6393,
+      "sha256": "1f4a67848426478f738f309a5edeb0933499c9189c20d6f8be58bb48f7295b5b",
+      "bytes": 6502,
       "mode": 420
     },
     {
@@ -4121,6 +4205,12 @@
       "path": "skills/math-g01-carleson-measure-box-and-tent-test/references/method.md",
       "sha256": "35c4b408f69ffd39d105d89e77b92922a1105b85595563021d606b8c0992498d",
       "bytes": 3237,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-g01-carleson-measure-box-and-tent-test/references/openai-direct-wave-2.md",
+      "sha256": "7b0e63f8e6a408281449091eca6e8966a2ced6ea1e047e7f5dbe473f8ee67e32",
+      "bytes": 1465,
       "mode": 420
     },
     {
@@ -4593,14 +4683,20 @@
     },
     {
       "path": "skills/math-gamma-continued-fraction-recurrence/SKILL.md",
-      "sha256": "9cf54b8cf0d94a12456de1ee1dac7d3923b10d40dac62a6dcee03199dbbc978b",
-      "bytes": 2350,
+      "sha256": "2946f7a5ffa796e59e3ed9fc18f5fc5be0f44535e63f3ce43c0174c31d6060a0",
+      "bytes": 2457,
       "mode": 420
     },
     {
       "path": "skills/math-gamma-continued-fraction-recurrence/references/bell-gamma-zeta-approximants.md",
       "sha256": "7db0ce43155f3fac5f9ee6704f614a433eb71bba1438b00530321576d4e46aa1",
       "bytes": 3933,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-continued-fraction-recurrence/references/pcf-factorial-reduction-admission.md",
+      "sha256": "c0ada9d45dcc85de4557c10f8074d69958d2ac4328e94a1ce00d39fe43a59b85",
+      "bytes": 3438,
       "mode": 420
     },
     {
@@ -4665,8 +4761,8 @@
     },
     {
       "path": "skills/math-geometric-pde-reductions/SKILL.md",
-      "sha256": "386534b2b07293146c834b861e7ccb776d109902c2f5503ef3173843f2da2f10",
-      "bytes": 1444,
+      "sha256": "175b381804c39b91fd79c2ac6c2f4e040edadefe53ce0ac0cfe9ea60714e6193",
+      "bytes": 1567,
       "mode": 420
     },
     {
@@ -4712,6 +4808,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-geometric-pde-reductions/references/openai-geometry-wave-2.md",
+      "sha256": "84165e0918bb54bfee5c333c4b989ddc58b223de53bb538b3e29b9c19e76b44c",
+      "bytes": 9795,
+      "mode": 420
+    },
+    {
       "path": "skills/math-geometric-pde-reductions/references/yamabe-reduction.md",
       "sha256": "6dbed223eca2a76465c8a9055b28a0a468415cd69fd93c1dcea638723d67054c",
       "bytes": 2470,
@@ -4721,6 +4823,12 @@
       "path": "skills/math-geometric-pde-reductions/scripts/check_affine_maximal_invariant_box.py",
       "sha256": "d0b2823ee4a51e19dd9ee1a97bf106443f605832d4babdf548b3d4ddbf5416db",
       "bytes": 2145,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-geometric-pde-reductions/scripts/einstein_four_block_check.py",
+      "sha256": "bf36806bc8f61a294a3a01ad4f2de75de9e4693351671d881dda4aeeda92afd7",
+      "bytes": 3154,
       "mode": 420
     },
     {
@@ -7401,8 +7509,8 @@
     },
     {
       "path": "skills/math-l05-csp-sat-smt-encoding/SKILL.md",
-      "sha256": "f6151730ddbb1c6d07975f8e4873617b998e1b5fd2a91dccbaf48177758ad8f9",
-      "bytes": 6356,
+      "sha256": "afd153b4fbbde34df0c832c1ef2865749a4d2682a0120b454fea1927bcd9fe6c",
+      "bytes": 6488,
       "mode": 420
     },
     {
@@ -7463,6 +7571,12 @@
       "path": "skills/math-l05-csp-sat-smt-encoding/references/method.md",
       "sha256": "e35db61655f49983e9ba351cb9a176ddec7ebf946522743b391ddc86bcf33d3a",
       "bytes": 3118,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l05-csp-sat-smt-encoding/references/openai-bounded-occurrence-count-polynomial.md",
+      "sha256": "5f9dc58c4fd3194e5edfd2d69c8d2cba2633e762d4ab87373898dbeb7561b183",
+      "bytes": 1198,
       "mode": 420
     },
     {
@@ -7533,14 +7647,26 @@
     },
     {
       "path": "skills/math-l06-tensor-rank-accounting/SKILL.md",
-      "sha256": "dea1abaf801faccb6ac7420bcf8ce129b2a6bc1229ce7ea3ab5467f0f99cbcd2",
-      "bytes": 8002,
+      "sha256": "a342340989628e5ef03fc51906390b48d0a5261186dc1507c3723de113b73842",
+      "bytes": 8112,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l06-tensor-rank-accounting/references/openai-equal-or-far-filter.md",
+      "sha256": "33a1f4d3d6c29d666db1e1ac5e97e8c4102b22920ce4dff9b78d29c3fd02e8ff",
+      "bytes": 1256,
       "mode": 420
     },
     {
       "path": "skills/math-l06-tensor-rank-accounting/references/spectral-price-transfers.md",
       "sha256": "73414fda06389bfb177a04f8a74887d1e19bd4c9ba2b4560094d4ab9bc1e4aca",
       "bytes": 6522,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l06-tensor-rank-accounting/scripts/check_equal_or_far_filter.py",
+      "sha256": "b404af1eb38f9ac49d2d836b5110df51e86f4622ebe7c3ea0b7e85b6f0ab93c8",
+      "bytes": 1278,
       "mode": 420
     },
     {
@@ -7719,8 +7845,8 @@
     },
     {
       "path": "skills/math-l16-prime-sieve-certified-transfers/SKILL.md",
-      "sha256": "61d11f7ac91dd7a2444bceae4726d6eda465c4088a6489bea7ed16209f99b833",
-      "bytes": 6470,
+      "sha256": "bbb234975cdc31016fcd3887572aa91515e891ea3c8048926146def7d2ad5b34",
+      "bytes": 6576,
       "mode": 420
     },
     {
@@ -7784,6 +7910,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l16-prime-sieve-certified-transfers/references/rough-cell-buchstab-proxies.md",
+      "sha256": "3360d61cdace1a7186234d7391283c2adcad6ddcb1dc4aa07cea533b7b61245a",
+      "bytes": 1644,
+      "mode": 420
+    },
+    {
       "path": "skills/math-l16-prime-sieve-certified-transfers/references/sources.md",
       "sha256": "dcbac1de60006e6ddc9c1a2d24424ac743a739d51553847f8db4e3f56d6b77cb",
       "bytes": 1656,
@@ -7815,8 +7947,8 @@
     },
     {
       "path": "skills/math-l17-filtered-linear-algebra-certificates/SKILL.md",
-      "sha256": "c9fa3297139924b00dd0b2bcd747e42d7e0b41b8e5cc47e55d2fbf5bb2f579c0",
-      "bytes": 6359,
+      "sha256": "a6eea9316637d61d67f2109dd0627f55330db24a212ebc37a98aa1f345b348ed",
+      "bytes": 6476,
       "mode": 420
     },
     {
@@ -7862,6 +7994,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l17-filtered-linear-algebra-certificates/references/openai-direct-wave-2.md",
+      "sha256": "1fef2d96bedefdad08a6aef65ca2f60f888557ef3b84533dbfc212a6814f8046",
+      "bytes": 1028,
+      "mode": 420
+    },
+    {
       "path": "skills/math-l17-filtered-linear-algebra-certificates/scripts/check_affine_line_sums.py",
       "sha256": "cf085a1be4d30c2a7abccb960badb487f16b2f1c873f41fc7beb3f3bebc0096d",
       "bytes": 4423,
@@ -7893,8 +8031,8 @@
     },
     {
       "path": "skills/math-l19-coordinate-ring-certificates/SKILL.md",
-      "sha256": "fa00787b8c3f1808f20e20033610c5e99999002ba62aa767742151cd2563f602",
-      "bytes": 1974,
+      "sha256": "ef3b5a6ad3d9a75a0b93b36c53a0adc1a0ca4dae5c001efc6b8d50f9f971bf44",
+      "bytes": 2093,
       "mode": 420
     },
     {
@@ -7904,9 +8042,21 @@
       "mode": 420
     },
     {
+      "path": "skills/math-l19-coordinate-ring-certificates/references/stable-coordinate-four-variables.md",
+      "sha256": "91f84b71224538fd813fe0b50edb8d4ec1d96a1eb673e7e7cdef64b96c236ad1",
+      "bytes": 1495,
+      "mode": 420
+    },
+    {
       "path": "skills/math-l19-coordinate-ring-certificates/scripts/check_cusp_certificates.py",
       "sha256": "b690e34b8415d585bc9a20be13ff6a2b2139d861532814457b7b1aee70cf72bf",
       "bytes": 1363,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l19-coordinate-ring-certificates/scripts/check_stable_coordinate_substitution.py",
+      "sha256": "97f63fbbc2392275c8d612dd221997c5ada32b0ea516b2ed3833940761be4aa1",
+      "bytes": 1104,
       "mode": 420
     },
     {
@@ -7923,8 +8073,8 @@
     },
     {
       "path": "skills/math-l21-local-to-global-lattice-certificates/SKILL.md",
-      "sha256": "bd35b91141a29a224347860015405fa23c19301e0a0d6336dc7b9dafd2213fe9",
-      "bytes": 4128,
+      "sha256": "26b78cb1ff35e1cd814ea256abeba2f46b782d76c7348895b09119b2b1037a8d",
+      "bytes": 4250,
       "mode": 420
     },
     {
@@ -7937,6 +8087,12 @@
       "path": "skills/math-l21-local-to-global-lattice-certificates/examples/plane_covolume_reject_nonprimitive.json",
       "sha256": "72cbff5556b21eafc57f6a6f7aee2427a9eb96d9c028427f8f384b1d39875fcb",
       "bytes": 72,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-l21-local-to-global-lattice-certificates/references/dyadic-representation-normalization.md",
+      "sha256": "38261b14dbf971faeb7a127d296125e5e3701aecec44dcfb539a9a527f3e5019",
+      "bytes": 2058,
       "mode": 420
     },
     {
@@ -8937,8 +9093,8 @@
     },
     {
       "path": "skills/math-n03-oscillation-and-geometric-remainder/SKILL.md",
-      "sha256": "7ab228b2502a22e020696c033fb15b66ff3c3411c97137fffc31dbfe644ce05b",
-      "bytes": 4149,
+      "sha256": "f99fbd737bb05073188011c70800039cb51709d6acef5b0ded0241f659c79d34",
+      "bytes": 4260,
       "mode": 420
     },
     {
@@ -8987,6 +9143,12 @@
       "path": "skills/math-n03-oscillation-and-geometric-remainder/references/handoff-evidence-index.csv",
       "sha256": "57bbbb9d2bea6fc39abc64bcd3321cd81652bff0a9e0a8a983ee98390a3124c4",
       "bytes": 36065,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n03-oscillation-and-geometric-remainder/references/littlewood-offband-correction.md",
+      "sha256": "a1480c188a8deb224376f52aae10437272efe9e7f90ed04da348d8422ce036fe",
+      "bytes": 1466,
       "mode": 420
     },
     {
@@ -9219,14 +9381,20 @@
     },
     {
       "path": "skills/math-n07-pair-energy-fourier-bounds/SKILL.md",
-      "sha256": "3adace79980f156520400faef39a0d22cdd2d493455d7b67eefe714ef8c929ca",
-      "bytes": 2229,
+      "sha256": "ebf0fa079fcd7a2d10ad16d2a1c38ee614b528ba5564d82e15ee3a99805b3091",
+      "bytes": 2339,
       "mode": 420
     },
     {
       "path": "skills/math-n07-pair-energy-fourier-bounds/references/density-and-mixtures.md",
       "sha256": "76f6a22124a92fef15225e7b5918db7c13311d768a61d36cb643be72ceeefdcc",
       "bytes": 5414,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-n07-pair-energy-fourier-bounds/references/openai-direct-wave-2.md",
+      "sha256": "6449a9f1d161548ed48c00e3ff466df13696cc72c1130e034f59b713441eee3e",
+      "bytes": 880,
       "mode": 420
     },
     {
@@ -9423,8 +9591,8 @@
     },
     {
       "path": "skills/math-operator-algebra-certificates/SKILL.md",
-      "sha256": "cd65ecce2026d6c580966e11bcf88e1a48f7c86e0b32d4944273067345c1eda4",
-      "bytes": 1146,
+      "sha256": "e838b488d04d81c39a7c884b058c325c65bc3c511edd49bbf0154560561b0a64",
+      "bytes": 1362,
       "mode": 420
     },
     {
@@ -9473,6 +9641,18 @@
       "path": "skills/math-operator-algebra-certificates/references/hereditary-cutdown-transport.md",
       "sha256": "940d244cef14a170a6f7c653cf0c9ae534e13ef31f9685d0938b76e829c567cf",
       "bytes": 2689,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-operator-algebra-certificates/references/openai-direct-wave-2.md",
+      "sha256": "bc4bdb2c5f9c32a0344aa508a7142a09fdc9e10bf38b1acbbc33dce19c628345",
+      "bytes": 1148,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-operator-algebra-certificates/references/openai-finite-symmetry-fock-cp-2026.md",
+      "sha256": "7fc1e49e69625604688bb53c0700586cf63e34cd8d4a7fabe9da79c049c49011",
+      "bytes": 2794,
       "mode": 420
     },
     {
@@ -9795,13 +9975,13 @@
     },
     {
       "path": "skills/math-research/references/method-selection.md",
-      "sha256": "aef8f8ba7410bf0a3925c41f79ce11f1680d658f00b5b6c4ceaefacf23066513",
-      "bytes": 5497,
+      "sha256": "6e9b8ed25def9c2f930dbbbb8e824ad0ec5a90b1d09f5796a45d68bea2578612",
+      "bytes": 5608,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/openai-sources/README.md",
-      "sha256": "a3782dd947a63c440ea595075bbdac4645de560662e63184e23e7e3abfe33a9c",
+      "sha256": "ef9f469bba77bb95befadac89eb02728fbc213344cf042f9e662953cc60fd060",
       "bytes": 1920,
       "mode": 420
     },
@@ -9819,8 +9999,8 @@
     },
     {
       "path": "skills/math-research/references/openai-sources/candidate.md",
-      "sha256": "dad36aa22e4956a8b6fa2edf84fcdbe5c1b359762a9275204c1da33174e7668d",
-      "bytes": 354273,
+      "sha256": "f82d90d150945b02005c2d7961293225ff89241cd109f0b276c3eb45e7af57a3",
+      "bytes": 282096,
       "mode": 420
     },
     {
@@ -9831,8 +10011,8 @@
     },
     {
       "path": "skills/math-research/references/openai-sources/installed.md",
-      "sha256": "3a892863265a92495fa47df9ec4f4c5f6bcd8dd4bf4018e7c0f0204b9520ae1c",
-      "bytes": 132325,
+      "sha256": "cc0861a989d9c4c6159184be8252dacc12be4d92f9ad35bdd6ba52c4d73232a4",
+      "bytes": 173483,
       "mode": 420
     },
     {
@@ -9843,8 +10023,8 @@
     },
     {
       "path": "skills/math-research/references/openai-sources/scoped-reference.md",
-      "sha256": "ec97952be67df9cddab5898499fe69f3adec5f670556e39b5daad58984ff0f67",
-      "bytes": 36676,
+      "sha256": "59fd2812600d9e6b12a03664be23f965933ec2e1755160a6a2a0b962dace7487",
+      "bytes": 37465,
       "mode": 420
     },
     {
@@ -9855,8 +10035,8 @@
     },
     {
       "path": "skills/math-research/references/probability.md",
-      "sha256": "b99aee6a0575545eb2efc5804ebbfb8134299bed15885028bade777a6145c1cf",
-      "bytes": 13429,
+      "sha256": "907c6d768fd5b0448d941610968f4ad72b450157679f39f955ad7392537ed709",
+      "bytes": 13468,
       "mode": 420
     },
     {
@@ -9897,8 +10077,8 @@
     },
     {
       "path": "skills/math-research/references/supplemental-sources/collection-07.md",
-      "sha256": "29d3f3a62e15f1bdc6c564ba74d67218d9de963021405087621cc54f242639ec",
-      "bytes": 373380,
+      "sha256": "9ba47265032ffa86afe85645c2167049f17620d2f091c630f3dd6808165f18f7",
+      "bytes": 373704,
       "mode": 420
     },
     {
@@ -9945,14 +10125,26 @@
     },
     {
       "path": "skills/math-sondow-log-fractional-certificate/SKILL.md",
-      "sha256": "bb6d1e4e9a880c2dca7da16fc54733ed0cc43a3a425a92f3632dcae3fba60348",
-      "bytes": 2834,
+      "sha256": "d8745c0c554398d6d9765aa9b032e932f4302d62d0f974ee14a113ce954b98ff",
+      "bytes": 3116,
       "mode": 420
     },
     {
       "path": "skills/math-sondow-log-fractional-certificate/references/double-integral-extensions.md",
       "sha256": "88a2085dd35311d87a44f002d5614c5d0eca1646742ef91b46affc9d5c839860",
       "bytes": 4917,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/references/generalized-q-log-irrationality.md",
+      "sha256": "cc192dd7d365954336200425df546ce53bbae311123be00eaeda54731c970b1e",
+      "bytes": 2640,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/references/prevost-legendre-fractional-gate.md",
+      "sha256": "6c97b5af1c2d26503b6fa07dd3d4dda9d21c5b89dbdde2e124317ac610321f5d",
+      "bytes": 1905,
       "mode": 420
     },
     {
@@ -9965,6 +10157,12 @@
       "path": "skills/math-sondow-log-fractional-certificate/references/rational-kernel-linear-form.md",
       "sha256": "59ba900b45b49359976bfc6855cb51cb27343c371503edcc7d8be366abd9d3ac",
       "bytes": 3476,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/scripts/prevost_fractional_gate.py",
+      "sha256": "6e740293f12656352f926887103e6255a82e160b03c2dd765b495f9345b8f290",
+      "bytes": 4428,
       "mode": 420
     },
     {
@@ -10017,8 +10215,8 @@
     },
     {
       "path": "skills/math-tool-router/SKILL.md",
-      "sha256": "b74129c690dfc5f13fdd2d4af07be6b30c60e04f387dc5813801c21686abcc7d",
-      "bytes": 8605,
+      "sha256": "2d3f755d65e24f469ea5a194082bcf683b35066b9c0b63816b0a6a31cb7371d8",
+      "bytes": 8764,
       "mode": 420
     },
     {
@@ -10797,8 +10995,14 @@
     },
     {
       "path": "skills/probability-bernoulli-extremal-orders/SKILL.md",
-      "sha256": "d1f331f407a2cc872e54fbd150b23c80d2ee1841d03b1e6d9e046b20b3c288b9",
-      "bytes": 44044,
+      "sha256": "e18f91149c96529e26ab727aaebebcc8b8af80538cbf360a9aeb89cb1c5ac9d3",
+      "bytes": 3165,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-bernoulli-extremal-orders/examples/exact-bernoulli-sum-convex.json",
+      "sha256": "3322472d84ecb5da671ee9e988c470e751311a9f541266e5787fa8a98e8b3a6e",
+      "bytes": 76,
       "mode": 420
     },
     {
@@ -10820,15 +11024,33 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-bernoulli-extremal-orders/references/bernoulli-source-notes.md",
+      "sha256": "370ab83f69338a668c5c6f80a20b14f1b0c5138294929d4c8aa739beb21d6802",
+      "bytes": 43792,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-bernoulli-extremal-orders/references/exact-bernoulli-sum.md",
+      "sha256": "86015a567e47332fd0c146f756f6b7f5ce896a214847ba01c0e72164441c8d90",
+      "bytes": 1989,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-bernoulli-extremal-orders/references/kleiner_distance_two_exact.md",
       "sha256": "9a7e2da3dc41018278e199f780eb679a58b0e5033da112dc002a4076f31cf6cc",
       "bytes": 2494,
       "mode": 420
     },
     {
+      "path": "skills/probability-bernoulli-extremal-orders/scripts/exact_bernoulli_sum.py",
+      "sha256": "c16f96a9ae7dcbd156e74f4a7b48e2a9f0767e984c6b697e90e0b18a8138883d",
+      "bytes": 4191,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-bernoulli-extremal-orders/scripts/kleiner_reversal_threshold.py",
-      "sha256": "b4ac9f497475257ef3bb73ceaea434adfc5acb17c4771e79f353803b9b0b7695",
-      "bytes": 7100,
+      "sha256": "a412fa42d72146e7d76b4b5fac4fa7d0423e01728af409978f68e787a754bf21",
+      "bytes": 6104,
       "mode": 420
     },
     {
@@ -11103,8 +11325,8 @@
     },
     {
       "path": "skills/probability-boolean-fourier-invariance/SKILL.md",
-      "sha256": "709e421685b5ea379ab5ac2e928a2a07fdd5492d8cf4e04de424f7c222fc2949",
-      "bytes": 4175,
+      "sha256": "867ea6cb0ef502db453bfb5e238bb4abb9b7e9007dffa951251bbfc7ae1542b2",
+      "bytes": 4316,
       "mode": 420
     },
     {
@@ -11420,6 +11642,12 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-boolean-fourier-invariance/references/openai-direct-wave-2.md",
+      "sha256": "31c052bd9e6e988fb17b1b26745cf8ce961134071dd9f959f67ca0e10167317b",
+      "bytes": 1640,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-boolean-fourier-invariance/references/sources.md",
       "sha256": "874741c646995b549174d79c5dbbcb25a75d0443d75e8892b4868b91fe3d05d3",
       "bytes": 28499,
@@ -11697,8 +11925,8 @@
     },
     {
       "path": "skills/probability-concentration-chaining/SKILL.md",
-      "sha256": "a2cb58570f29bda0b2c7765d0d06d8b3b92b70c0a734b5ee614c7488a7b07545",
-      "bytes": 19571,
+      "sha256": "88b53584c7c1491383acd0e22441f6418481bb170b21b17890ad39fd2582d8cc",
+      "bytes": 19697,
       "mode": 420
     },
     {
@@ -12020,6 +12248,12 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-concentration-chaining/references/openai-200-226.md",
+      "sha256": "28f465f693036c33f9e52892e90421b64baf2ea96bc2d0c1262c3e88f5ff892c",
+      "bytes": 1256,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-concentration-chaining/references/poisson-witness-lower-tail.md",
       "sha256": "295e163912ae23f45f1eac90562869e3053be301ce7b101a0f2e42ac6dbe1991",
       "bytes": 5988,
@@ -12105,8 +12339,8 @@
     },
     {
       "path": "skills/probability-first-passage-growth/SKILL.md",
-      "sha256": "5d4f8b4acb5ee584dbe243e77285ba921ee55b91ded7e77a4298fe5178d8299f",
-      "bytes": 4364,
+      "sha256": "9a671d4742abcad9d1cebc77078a1384f2ec5ac8a48aaf408dbc0629af97f701",
+      "bytes": 4482,
       "mode": 420
     },
     {
@@ -12341,6 +12575,12 @@
       "path": "skills/probability-first-passage-growth/references/method.md",
       "sha256": "33f0d172b3c6313fa84fc44f985a2914c3d3b73202a2d3034bbf49fed170c681",
       "bytes": 13806,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-first-passage-growth/references/openai-200-226.md",
+      "sha256": "d7907afdf96e48625bdcf381829424bae34572a75b1f6253971ac02db76bf5a0",
+      "bytes": 3358,
       "mode": 420
     },
     {
@@ -12657,8 +12897,8 @@
     },
     {
       "path": "skills/probability-gaussian-polynomial-approximation/SKILL.md",
-      "sha256": "ce06350ed54b1d3d044d951c5871d0ae7600c9d31e3ad685d9bbe172c2870743",
-      "bytes": 2534,
+      "sha256": "73afef79886c9185f2baeec74dcf573e2737f355a9dc311329b01001eca03664",
+      "bytes": 2644,
       "mode": 420
     },
     {
@@ -12938,6 +13178,12 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-gaussian-polynomial-approximation/references/openai-direct-wave-2.md",
+      "sha256": "eb33f8c359877734f0946268d28352e3d75063a6b9a19e50d0293cb1fd7b2575",
+      "bytes": 1257,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-gaussian-polynomial-approximation/references/sources.md",
       "sha256": "62aa3345c1a7388c799827d5a0a60266c277ddcaef7dc3c66eae38aa843c9c4d",
       "bytes": 15332,
@@ -13023,8 +13269,8 @@
     },
     {
       "path": "skills/probability-information-cluster-expansion/SKILL.md",
-      "sha256": "3d3eaf0cc32ef5e59291d1a5967241027ef290cbe4ab7203c358135fb7d139c1",
-      "bytes": 3665,
+      "sha256": "6af788a0be069c4f39c8f0da0d33ce7474615a9f95f38c6103ebdbbc9f507cfe",
+      "bytes": 3785,
       "mode": 420
     },
     {
@@ -13265,6 +13511,12 @@
       "path": "skills/probability-information-cluster-expansion/references/method.md",
       "sha256": "63282230e66f5454eec8c71207ffdbd11da39d120e7bfae453760257e58a7d28",
       "bytes": 14425,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-information-cluster-expansion/references/openai-finite-cell-thermodynamics.md",
+      "sha256": "19d8047a3d0eb24fcdce6107ee25bc2ff05b8610522fca33b20dbce626a2c5f3",
+      "bytes": 1104,
       "mode": 420
     },
     {
@@ -13887,8 +14139,8 @@
     },
     {
       "path": "skills/probability-markov-spectral-mixing/SKILL.md",
-      "sha256": "b8b28760ede801055778186e99188b6f24d392189245821e510316062de4eb4d",
-      "bytes": 5670,
+      "sha256": "e11a695274b4089accafaa75f12368a97477da29a6806e007440e518f9a0fefe",
+      "bytes": 5776,
       "mode": 420
     },
     {
@@ -14237,6 +14489,12 @@
       "path": "skills/probability-markov-spectral-mixing/references/method.md",
       "sha256": "7c4396492060c6e28ef317a276bd74e199b2d5cab2bcc470a45755ac6bac19da",
       "bytes": 10848,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-markov-spectral-mixing/references/openai-sk-finite-interfaces.md",
+      "sha256": "be80c9e65c535d802a5b95617cedc1395b9198cb7d5ece58dc56328ac4f97cd0",
+      "bytes": 1851,
       "mode": 420
     },
     {
@@ -15021,8 +15279,8 @@
     },
     {
       "path": "skills/probability-nonlinear-law-dynamics/SKILL.md",
-      "sha256": "8679074c8481c6ef6249fa7d797d82f2f29b7b3440b4513951ca6e55c3e98c05",
-      "bytes": 4929,
+      "sha256": "5fdc1d2b5a7035d8880d691e7aac92c83052c7de3ca7ccc0e9e299753263a6ac",
+      "bytes": 5045,
       "mode": 420
     },
     {
@@ -15338,6 +15596,12 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-nonlinear-law-dynamics/examples/binary-posterior-fusion.json",
+      "sha256": "e59220786a341a8a0800ace8249a9e6ea5c79c84b9772e1f60c00788f787beea",
+      "bytes": 248,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-nonlinear-law-dynamics/examples/negative.md",
       "sha256": "010b7e530c81ffb48a2d6081251ebef749847a262ed1b98c32a63388486f1422",
       "bytes": 12216,
@@ -15368,6 +15632,12 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-nonlinear-law-dynamics/references/openai-tree-posterior-components.md",
+      "sha256": "fb342e452aeb840ed6f77dfccc78d004e9741335a5dbf51e213ae3a6bc34dafc",
+      "bytes": 3780,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-nonlinear-law-dynamics/references/sources.md",
       "sha256": "9a2e2e45e1cd991f70fcf9fa20f3156b888446d9e98c8560e60d7ee565d587da",
       "bytes": 40818,
@@ -15377,6 +15647,12 @@
       "path": "skills/probability-nonlinear-law-dynamics/release-manifest.json",
       "sha256": "1a081921a5fa000e3cc6f00c34b17bf1273254bbb83e16bc4837602dfdcd6cf3",
       "bytes": 115662,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-nonlinear-law-dynamics/scripts/binary_posterior_fusion.py",
+      "sha256": "97679119fbcd1f45f899de64fb6e178c4a1be16858c027e68132103ee2445155",
+      "bytes": 1740,
       "mode": 420
     },
     {
@@ -15651,8 +15927,8 @@
     },
     {
       "path": "skills/probability-percolation-renormalization/SKILL.md",
-      "sha256": "5647543b1fc99446baea776eefe28e646b186fd87e2eda4518234b65d10a228c",
-      "bytes": 7381,
+      "sha256": "13e67bbee22b85d6553ce285773cbfa8452f3d74029712b6c1cdec4fbd9ee07f",
+      "bytes": 7520,
       "mode": 420
     },
     {
@@ -15956,6 +16232,12 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-percolation-renormalization/references/openai-200-226.md",
+      "sha256": "51ff9e92576cbb39195a1dc9588e08656ad5fe13807b8494097dfec7c5b49eb6",
+      "bytes": 2273,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-percolation-renormalization/references/sources.md",
       "sha256": "93fa65ab5c32e99bb660092990c950fc6ed28df797e23e87bb45c165238b130b",
       "bytes": 34290,
@@ -15965,6 +16247,12 @@
       "path": "skills/probability-percolation-renormalization/release-manifest.json",
       "sha256": "1fb5d4597f21ad2bcfa39ac293843be7f8951c67fa59eb23342ec3b1f735e731",
       "bytes": 100034,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-percolation-renormalization/scripts/random_cluster_conditional.py",
+      "sha256": "4069d904a7f47be4bbea3b274f5c41c6e100e7272c53d77dacdffafca602a2d0",
+      "bytes": 844,
       "mode": 420
     },
     {
@@ -17235,8 +17523,8 @@
     },
     {
       "path": "skills/probability-random-matrix-tensor/SKILL.md",
-      "sha256": "f374d8174c251b0df4449c8ff0f918ddd893ac3a3619d757ae260cd606d70cd3",
-      "bytes": 5394,
+      "sha256": "427eb2fec0e2c86f9cbeaf6ff64c883a900e8c28cd741e7c396641420be36aa8",
+      "bytes": 5522,
       "mode": 420
     },
     {
@@ -17525,6 +17813,12 @@
       "path": "skills/probability-random-matrix-tensor/references/method.md",
       "sha256": "5203dbb38a8d1490d5b56a7395b41467975725c66529be7b5a4f4c6f37a7d8ec",
       "bytes": 11285,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-random-matrix-tensor/references/openai-ordered-gaussian-cascade.md",
+      "sha256": "93644ffc4081ccd60d1dfa342e8265639696bfe7875e0d48a33ee75336e6aa67",
+      "bytes": 1008,
       "mode": 420
     },
     {

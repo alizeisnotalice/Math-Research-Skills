@@ -12,3 +12,8 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 - [谱相位迹的乘积次可加性](references/spectral-phase.md)。保留有限迹、Borel 支和单位点的分支约定。
 - [自伴生成元与交换投影的谱编码](references/spectral-encoding-contract.md)。按严格谱隙检查块恢复，或在已给定的交换投影族上使用三进制编码。
 - [遗传 C* 子代数的谱截断转运](references/hereditary-cutdown-transport.md)。输入严格截断阈值和已验证的 Cuntz 比较见证。
+
+## OpenAI 原稿中的方法
+
+- [Finite Heisenberg matrix-unit sector](references/openai-direct-wave-2.md)
+- [Finite symmetry, Fock, CP, and loop-trace components](references/openai-finite-symmetry-fock-cp-2026.md)

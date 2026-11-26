@@ -15,6 +15,8 @@ from fractions import Fraction
 from pathlib import Path
 from typing import Any
 
+from exact_bernoulli_sum import as_text, exact_pmf, parse_fraction
+
 
 def nonnegative_int(value: str) -> int:
     answer = int(value)
@@ -28,35 +30,6 @@ def positive_int(value: str) -> int:
     if answer < 1:
         raise argparse.ArgumentTypeError("must be a positive integer")
     return answer
-
-
-def parse_fraction(value: Any) -> Fraction:
-    if isinstance(value, bool) or isinstance(value, float):
-        raise ValueError("probabilities must be integer or string-rational, never bool/float")
-    if isinstance(value, int):
-        answer = Fraction(value)
-    elif isinstance(value, str):
-        answer = Fraction(value)
-    else:
-        raise ValueError("probabilities must be integer or string-rational")
-    if not 0 <= answer <= 1:
-        raise ValueError("each probability must lie in [0,1]")
-    return answer
-
-
-def as_text(value: Fraction) -> str:
-    return str(value.numerator) if value.denominator == 1 else f"{value.numerator}/{value.denominator}"
-
-
-def exact_pmf(parameters: list[Fraction]) -> list[Fraction]:
-    mass = [Fraction(1)]
-    for probability in parameters:
-        following = [Fraction(0)] * (len(mass) + 1)
-        for index, coefficient in enumerate(mass):
-            following[index] += coefficient * (1 - probability)
-            following[index + 1] += coefficient * probability
-        mass = following
-    return mass
 
 
 def staircase_d(k: int) -> int:

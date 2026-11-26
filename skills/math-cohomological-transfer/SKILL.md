@@ -13,3 +13,7 @@ description: 核验链复形权截断、Mayer–Vietoris 条件、图状神经�
 - [特征二的 primitive 平方根](references/polynomial-hopf-square-roots.md)。核对多项式 Hopf 展示和 primitive 的可分解性，再使用平方根转移。
 - [球谱映射的条件局部化](references/completion-factorization.md)。先验证正高度 Morava-K 局部性，再使用给定的完备化和局部化普遍性质。
 - [连续张量的逐素纤维消失](references/successive-tensor-vanishing.md)。给定 Noetherian 基环、相干性和逐素纤维条件，再核对有限阶段为零的推导。
+
+## OpenAI 原稿中的方法
+
+- [Mod-p Milnor K reconstruction interfaces](references/milnor-k-characteristic-reconstruction.md)

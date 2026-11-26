@@ -26,3 +26,9 @@ description: 从 Sondow 的双积分与对数线性形式构造可严格计算�
 需要从整点极点处的单、二重极点系数提取 \(B\gamma+L-A\) 时，用 [有理核的线性形式](references/rational-kernel-linear-form.md)。需要对 q-对数项或几何指数尾作严格计算时，用 [q-对数路线](references/q-logarithm-path.md)，另核整数缩放与指标范围。
 
 需要扩充正积分核时，读 [高维双积分推广](references/double-integral-extensions.md)，按原文核对支路和参数域，并另证整数系数变形。
+
+## Prévost 的参数族
+
+给定 `0≤m≤n`，用 [Legendre–Padé 分数部分证书](references/prevost-legendre-fractional-gate.md) 计算 `d_n(-1)^mL_{n,m}` 及有限分母排除。
+
+参见[广义 q-对数的无理性定理](references/generalized-q-log-irrationality.md)。

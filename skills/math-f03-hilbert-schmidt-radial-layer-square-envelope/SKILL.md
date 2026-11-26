@@ -38,3 +38,7 @@ HS、Schatten_(2d+1)、平方函数与径向最大值为不同对象；源常数
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Safe Hilbert--Schmidt power bound for a nonnormal sweep](references/openai-nonnormal-sweep-power.md)

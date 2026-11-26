@@ -31,3 +31,7 @@ python3 scripts/ag_divisor_intersection_ledger.py examples/negative_form_mismatc
 ## 光滑一维因子的赋值扩张
 
 使用[光滑一维因子的赋值扩张](references/smooth-factor-valuation.md)。给定有限正 log-discrepancy 的除子赋值，核对 Gauss 扩张后长度主项和归一化。
+
+## OpenAI 原稿中的方法
+
+- [Crepant principal-relation transfer](references/crepant-principal-relation-transfer.md)

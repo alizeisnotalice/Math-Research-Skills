@@ -31,3 +31,7 @@ This revision adds checklists for Markov-chain tree formulas, local stability, L
 ## 归一化平方与尾质量
 
 给定有限概率向量时，用[纯度更新证书](references/finite-purity-squaring.md)检查平方迭代中的缺陷下降与最大原子尾质量。小根分支要求当前缺陷严格小于 \(1/2\)。
+
+## OpenAI 原稿中的方法
+
+- [OpenAI tree-posterior components](references/openai-tree-posterior-components.md)

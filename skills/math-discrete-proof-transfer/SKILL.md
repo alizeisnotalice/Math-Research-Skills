@@ -29,3 +29,7 @@ description: 为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边�
 周期图逐分支控制用 [有限位移证书](references/periodic-component-bounds.md) 检查闭路位移和有限例外点。
 
 For finite data in the progression-compatible intersective normalization, use `scripts/check_intersective_normalization.py` and `references/intersective-normalization-checker.md`. It verifies only the exact CRT and polynomial identities conditional on compatible p-adic roots and their multiplicities; it does not certify intersectivity or a density theorem. The broader formulation is OpenAI, *A power saving for intersective polynomial differences with an exponent depending only on the degree*, Lemma 2.2 and (2.2), pp. 7--8, SHA-256 `d69e417ac953581d7f373c9457e809e47ad4b534c1f79407ff5c0e13f382b605`.
+
+## OpenAI 原稿中的方法
+
+- [Four-slope integer reconstruction and quadratic cancellation](references/openai-direct-wave-2.md)

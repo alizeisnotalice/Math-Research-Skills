@@ -42,3 +42,7 @@ description: 检验 Carleson 测度的盒、帐篷与嵌入条件，核对几何
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [有限树 packing 示例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Common-truncation oscillation packing](references/openai-direct-wave-2.md)

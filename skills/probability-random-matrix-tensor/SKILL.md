@@ -36,3 +36,7 @@ The current inventory has 33 complete local PDFs: 30 full-text sources and their
 给定独立上三角二点律和有理对称偏移时，用[余秩尾界](references/symmetric-binary-corank-tail.md)在小维数中枚举实际余秩，并核对主子块的并集上界。
 
 For a finite rational Hermitian sign series, read [the OpenAI matrix-sign audit](references/openai_matrix_sign_estimate.md) before applying a Rademacher spectral-norm estimate. Its exact checker verifies the supplied sum_i L_i^2 <= vI certificate by principal minors and enumerates the input's even sign trace moment; it reports, but does not replace, the Gaussian moment step in Lemma 3.1 of the pinned OpenAI source.
+
+## OpenAI 原稿中的方法
+
+- [Ordered Gaussian cascade derivative interface](references/openai-ordered-gaussian-cascade.md)

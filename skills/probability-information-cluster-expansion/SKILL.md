@@ -31,3 +31,7 @@ Use available local mathematical tools for coefficient checks, finite examples, 
 
 - [Positive example](examples/positive.md) shows how to handle the B051 higher-order/convergence question and A007 renewal polling question.
 - [Negative example](examples/negative.md) shows common unsupported inferences to reject.
+
+## OpenAI 原稿中的方法
+
+- [Finite-cell thermodynamic interface](references/openai-finite-cell-thermodynamics.md)

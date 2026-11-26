@@ -39,3 +39,7 @@ Hilbert 基或谱分解、参数矩阵/核 A(λ)、输入输出测度、所声�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Ward-Laplacian deletion interface](references/openai-ward-laplacian-2026.md)

@@ -42,3 +42,7 @@ description: 推导 Gibbs 变分与熵对偶，检查参考测度、归一化、
 ## 有限倾斜树的 Hessian
 
 给定倾斜概率和节点导数时，用[有限 log-power-mean Hessian](references/log-power-hessian.md)核对递推梯度和条件协方差。
+
+## OpenAI 原稿中的方法
+
+- [Finite-mode Fock energy and Gibbs regularization](references/openai-fock-entropy-2026.md)

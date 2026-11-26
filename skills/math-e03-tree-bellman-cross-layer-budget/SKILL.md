@@ -59,3 +59,7 @@ description: 分析树 Bellman 跨层预算势，核对层间递推、公共预�
 ## 四个平方递归势的有限能量
 
 给定共同非负增量、每个内点至少一个基准势取等和指定叶的归零条件时，用[双递归势能量证书](references/two_recursive_potential_tree_energy.md)检查四条平方递推与叶能量界。
+
+## OpenAI 原稿中的方法
+
+- [Tree convexity-deficit accounting](references/openai-direct-wave-2.md)

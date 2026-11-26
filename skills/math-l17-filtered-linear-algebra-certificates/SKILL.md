@@ -83,3 +83,7 @@ python3 scripts/check_finite_instances.py
 ## 双次数多项式的降算算子
 
 给定变量组、双次数及可选有理系数时，用[Foulkes–Howe 降算证书](references/foulkes-howe-lowering.md)构造稀疏算子矩阵并核对精确秩。
+
+## OpenAI 原稿中的方法
+
+- [Projective point--hyperplane Gram certificate](references/openai-direct-wave-2.md)

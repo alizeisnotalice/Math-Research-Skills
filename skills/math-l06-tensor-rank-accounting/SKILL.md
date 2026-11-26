@@ -102,3 +102,7 @@ description: 审查矩阵乘法张量提取中的直接和形状、辅助张量�
 - *An Upper Bound of 9/4 for the Matrix Multiplication Exponent*，PDF pp. 4–7（单位根 Fourier 共享腿分离及熵式）。本机 SHA-256 `9c430672ddf2a1d0d2335c55c03b0b1fdea72f5a000c586bf130c2e984f19ae6`。[固定版本 PDF](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Matrix-Multiplication-Nine-Fourths-October-2-2026/paper.pdf)
 
 这些来源是本地预印本；本技能迁移有限构造的条件和账本，不认证其 headline 指数、数值证书或未实际运行的随附验证程序。
+
+## OpenAI 原稿中的方法
+
+- [Equal-or-far finite-field filter](references/openai-equal-or-far-filter.md)

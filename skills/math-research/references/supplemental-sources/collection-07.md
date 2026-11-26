@@ -1028,6 +1028,7 @@
 - polynomial continued fractions and factorial reduction。§2.1--2.2, Theorem 2 and Appendix B。For a balanced-degree polynomial continued fraction with convergent limit, derives a Diophantine approximation exponent from leading coefficients and the exponential growth lambda of gcd(p_n,q_n); factorial reduction is the decisive condition, and Apéry's recurrence is recovered as an example.
 - 构件候选。The formula presupposes convergence, A^2+4B>0 and an independently certified asymptotic gcd growth; several proposed characterizations in the paper are explicitly conjectural/computational. Suitable as an audit layer for recurrences, not a certificate unless the recurrence, gcd divisibility, convergence and error bounds are separately proved.
 - 相关入口。[math-gamma-continued-fraction-recurrence](../../../math-gamma-continued-fraction-recurrence/SKILL.md)。
+- 已采用方法。[平衡次数多项式连分数的阶乘约化](../../../math-gamma-continued-fraction-recurrence/references/pcf-factorial-reduction-admission.md)。
 
 ## EXT-0200 · Inclusive prime number races
 
@@ -1826,6 +1827,7 @@
 - Hankel--Padé irrationality for generalized q-logarithms。definition (3), §4 Hankel determinants, main irrationality theorem。For |p|>1 and the paper’s generic rational x,z hypotheses, Hankel determinants of Padé-type forms establish irrationality of ℓ_p(x,z)=x∑_{n≥1}z^n/(p^n-x), encompassing q-logarithmic specializations.
 - 构件候选。The key nonvanishing/smallness estimate is the q-adic leading term of the Hankel determinant together with rational-parameter denominator control; exceptional specializations must be screened. The exact genericity exclusions, determinant computation, and any implementation for parameter screening were not independently verified; scope is q-series, not Euler γ.
 - 相关入口。[math-sondow-log-fractional-certificate](../../../math-sondow-log-fractional-certificate/SKILL.md)。
+- 已采用方法。[广义 q-对数的无理性定理](../../../math-sondow-log-fractional-certificate/references/generalized-q-log-irrationality.md)。
 
 ## EXT-0337 · Transcendence of Hecke-Mahler Series
 

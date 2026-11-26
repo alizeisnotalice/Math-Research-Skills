@@ -14,3 +14,7 @@ description: 核对给定几何模型的高度方程、标量曲率归一化、N
 - [径向仿射极大方程的不变盒](references/affine-maximal-invariant-box.md)。在给定径向约化、正局部解和有理盒的条件下逐面认证向内符号。
 - [Brakke 型弱流的逐时间代表元](references/all-endpoint-selection.md)。用相同非负测试函数、端点比较和局部可积的输运项恢复逐时间等式。
 - [单相极小子的降维与悬挂](references/descent-suspension.md)。对经典 Dirichlet–正相体积能量，验证紧支撑竞争者及全局极小性。
+
+## OpenAI 原稿中的方法
+
+- [OpenAI geometry wave 2: scoped analytic transfers](references/openai-geometry-wave-2.md)

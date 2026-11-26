@@ -38,3 +38,5 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 ## 核对相邻首项余项的定号
 
 若相邻首项的余项已经化为给定有理多项式，使用 [Bernstein 区间定号](../math-l03-rational-and-interval-certificates/references/rational-polynomial-sign.md) 拆分并核对指定区间，如 \(0<t\le 1/16\)。短核存在性、整化和对无限指标的适用性分别记录。
+
+对 Prévost 带参数 `m` 的 Legendre–Padé 线性形式，用 [有限分母排除](../math-sondow-log-fractional-certificate/references/prevost-legendre-fractional-gate.md) 核验精确余项上界和分数部分。

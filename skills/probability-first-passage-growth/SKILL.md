@@ -28,3 +28,7 @@ For directed Bernoulli edge-flow and poset-cover questions, use the separate `pr
 Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## OpenAI 原稿中的方法
+
+- [OpenAI direct source notes: finite growth interfaces](references/openai-200-226.md)

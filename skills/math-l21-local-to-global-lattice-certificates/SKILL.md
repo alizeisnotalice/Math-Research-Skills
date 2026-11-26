@@ -65,3 +65,7 @@ description: 用有限商模的主分解拼接指定局部整格，并核对乘�
 来源为 OpenAI 预印本 *Equidistribution of primitive quartic torus packets for arbitrary orders*，PDF pp. 6–7，Lemma 2.1。其全文的等分布、局部密度、Fourier 分析及筛法结论都需要额外工作，未由此技能认证。已固定的本机 PDF SHA-256 是 `95c2a937da74097afe5d155a412fa89a2c4560a8231f10c4230244a8c6bed0f5`。[固定原文](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Equidistribution-of-Primitive-Quartic-Torus-Packets-for-Arbitrary-Orders-October-5-2026/quartic-torus-packets.pdf)
 
 **Integral-plane covolume certificate.** For a full-rank row lattice \(\Lambda\subset\mathbb Z^3\) of index \(I\), primitive \(y\), and \(g=\gcd(y\cdot b_1,y\cdot b_2,y\cdot b_3)\), the exact checker verifies \(\det(\Lambda\cap y^\perp)=I|y|/g\) using a unimodular kernel basis. It is a finite certificate only; see `references/integral-plane-covolume.md` and `scripts/check_plane_covolume.py`.
+
+## OpenAI 原稿中的方法
+
+- [Dyadic representation normalization](references/dyadic-representation-normalization.md)

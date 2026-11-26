@@ -41,3 +41,7 @@ L² 空间中的有限正交系 (fₙ)、可选系数、固定次序及前缀个
 ## 加权弱型聚合
 
 已分别证明非负算子的弱 \(1,1\) 界时，用[阈值预算证书](references/weighted-weak-aggregation.md)精确核对加权阈值、并集上界和可数求和的条件。
+
+## OpenAI 原稿中的方法
+
+- [Finite block oscillation and Hilbert van der Corput](references/openai-direct-wave-2.md)

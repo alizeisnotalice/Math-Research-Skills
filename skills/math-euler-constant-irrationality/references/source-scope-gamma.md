@@ -96,10 +96,12 @@
 
 ### 02 · A family of criteria for irrationality of Euler's constant
 
-- 版本与身份。local arXiv:math/0507231v1, 15 pp; no formal publication was located in the checked primary/index sources. SHA-256 为 `2751e941f6c44c0c6a7823e97a10a9614253f5d6ad0d9763ddfe33a1dceb400c`。
+- 版本与身份。Marc Prévost，arXiv:math/0507231v1, 15 pp; no formal publication was located in the checked primary/index sources. SHA-256 为 `2751e941f6c44c0c6a7823e97a10a9614253f5d6ad0d9763ddfe33a1dceb400c`。
 - 本机原文定位。\['local arXiv PDF p.5, Theorems 1-2; p.6, Theorem 3; p.12, proof', 'arXiv:math/0507231v1 (12 Jul 2005)'\]
 - 核对范围。For 0&lt;=m&lt;=n, gamma=A_{n,m}-L_{n,m}+J_{n,m}; Theorem 2 makes rationality equivalent to the stated fractional-part identity, and Theorem 3 says that {d_n(-1)^m L_{n,m}}&gt;=0.707^n infinitely often for one fixed m implies irrationality. The observed n&lt;=1000 data/density language is explicitly only numerical suggestion.
 - 依赖与状态。Padé approximation to log(u)/(1-u) / positivity/total monotonicity of the integral remainder J_{n,m} / Rosser-Schoenfeld LCM bound d_n&lt;=exp(1.039n) preprint-scoped-conditional
+
+- 可调用工具。[Prévost 参数族的有限分母排除](../../math-sondow-log-fractional-certificate/references/prevost-legendre-fractional-gate.md)。对给定 `n,m` 计算严格有理余项界与对数分数部分。
 
 ### 03 · A Hypergeometric Approach, Via Linear Forms Involving Logarithms, to Irrationality Criteria for Euler's Constant
 

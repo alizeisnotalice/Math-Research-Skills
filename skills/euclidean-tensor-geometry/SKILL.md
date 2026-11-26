@@ -23,3 +23,7 @@ This is a theorem-transfer workflow, not an assertion that different problems sh
 - Exactly two local maxima on a grid: geometric prices of grid state sums do not automatically control the conditional probability or separation of peaks; a finite-state reduction must preserve the event, normalization, and statistics before a comparison is useful.
 
 Output the precise claim, the reduction and price inequalities, and what remains unsupported. Cite exact upstream paths, theorem labels or proof sections and Lean scope where material; don't rely on headlines or paper names as proofs.
+
+## OpenAI 原稿中的方法
+
+- [Finite Hermite spectral repair](references/openai-hermite-spectral-repair.md)

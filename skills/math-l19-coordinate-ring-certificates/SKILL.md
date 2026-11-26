@@ -40,3 +40,7 @@ description: 验证坐标环构造中的 cusp 关系、非单位除法消元和�
 若用该消元识别某个特定纤维，再以环境梯度阻止给定多项式成为坐标，必须分开验证。一个临界点只否定该环境中的坐标多项式，因为坐标投影的梯度处处非零。它本身不证明商环同构、稳定坐标性质或取消猜想的结论。
 
 参考 [cusp 消元与临界点验收](references/cusp-elimination.md)，其中固定了本机三篇 OpenAI 预印本的版本、页码和可采用范围。执行 [精确符号复放](scripts/check_cusp_certificates.py) 可复核此技能的恒等式、临界点及有零因子的单位理想系数例。
+
+## OpenAI 原稿中的方法
+
+- [Stable coordinate in four variables](references/stable-coordinate-four-variables.md)

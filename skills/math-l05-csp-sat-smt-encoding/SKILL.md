@@ -55,3 +55,7 @@ description: 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、�
 三个并行机器的单位作业有序分解，使用[三元槽位的路径式排程见证](references/three-machine-schedule-certificates.md)验证间隙与跨分块前置关系。
 
 局部填充和擦除定义有限状态图时，读[分阶段互反的局部证书](references/reciprocal-transcript-transitions.md)。
+
+## OpenAI 原稿中的方法
+
+- [Bounded-occurrence counting polynomial](references/openai-bounded-occurrence-count-polynomial.md)

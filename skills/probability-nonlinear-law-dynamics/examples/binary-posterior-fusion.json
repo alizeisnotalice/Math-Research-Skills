@@ -1,0 +1,1 @@
+{"command":"python3 -B scripts/binary_posterior_fusion.py --p 3/4 --q 2/3","expected":{"-1,-1":"-5/7","-1,+1":"-1/5","+1,-1":"1/5","+1,+1":"5/7"},"rejected_command":"python3 -B scripts/binary_posterior_fusion.py --p 1/2 --q 2/3","rejected_exit":2}

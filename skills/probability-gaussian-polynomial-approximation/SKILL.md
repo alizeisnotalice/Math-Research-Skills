@@ -16,3 +16,7 @@ Do not infer a sharp leading constant from a big-$\Omega$ Hermite-tail theorem o
 ## Historical provenance status
 
 **Evidence stage:** 28 distinct full-text reads plus two R06-accepted canonical-use records give 30 tool-specific evidence entries. The W18 mother snapshot lacks a recorded final independent R06 hash binding; source rows may retain `review_status=pending` under the ledger convention. `evidence/W18/status.json` records the separate read and reuse counts. The former release-decision wording is historical provenance only.
+
+## OpenAI 原稿中的方法
+
+- [Fixed Gaussian partition amplification](references/openai-direct-wave-2.md)

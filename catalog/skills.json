@@ -871,7 +871,10 @@
       "description": "验证坐标环构造中的 cusp 关系、非单位除法消元和环境临界点证书。适用于需要从显式关系证明商环为多项式环的局部代数步骤。",
       "category": "methods",
       "path": "skills/math-l19-coordinate-ring-certificates/SKILL.md",
-      "family": "l"
+      "family": "l",
+      "requires": [
+        "python-math"
+      ]
     },
     {
       "name": "math-l20-binary-character-congruences",
@@ -1241,8 +1244,8 @@
     },
     {
       "name": "probability-bernoulli-extremal-orders",
-      "title": "Bernoulli extremalization and order checks",
-      "description": "Audit independent Bernoulli sums, fixed-mean and fixed-moment extrema, dependence-sensitive convex order, log-concavity, exact tail comparisons, and approximation budgets.",
+      "title": "Bernoulli sums, extremal laws and stochastic orders",
+      "description": "Compute or compare independent Bernoulli sum laws exactly, apply fixed-mean and fixed-moment extremal reductions, and check dependence-sensitive convex order, atom comparisons, or Poisson approximation budgets.",
       "category": "probability",
       "path": "skills/probability-bernoulli-extremal-orders/SKILL.md"
     },

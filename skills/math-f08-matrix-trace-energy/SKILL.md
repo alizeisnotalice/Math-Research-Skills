@@ -63,3 +63,7 @@ description: 核验有限维 PSD Gram 矩阵的 \(\operatorname{tr}(P^{3/2})\) H
 等号当且仅当 \(W=qZ^{q-1}\)。这个等号断言包含零特征子空间，需在有限维谱分解中逐项检查。它只能控制这里的代数密度项，不能取代谱算子、作用泛函或可积性论证。
 
 固定来源和页码、半正定支撑约定及有限 replay 见 [来源与复算](references/sources.md)。运行 [复算脚本](scripts/check_trace_energy.py) 核对二阶差分、Loewner 中点间隙、二叉望远镜和 trace Young 等号。
+
+## OpenAI 原稿中的方法
+
+- [Integrated matrix resolvent comparison](references/openai-matrix-lieb-thirring-2026.md)

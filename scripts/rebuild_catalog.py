@@ -25,6 +25,7 @@ RUNTIME_SKILLS = {
     'math-research': ['math-tool-router'],
     'math-geometric-pde-reductions': ['python-math'],
     'math-l03-rational-and-interval-certificates': ['python-math'],
+    'math-l19-coordinate-ring-certificates': ['python-math'],
     'math-tool-router': [
         'python-math', 'mathematica-math', 'matlab-plotting',
         'local-hybrid-math', 'remote-math-compute', 'ipad-math-node',

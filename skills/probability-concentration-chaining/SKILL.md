@@ -87,3 +87,7 @@ The R03 continuation has 30 distinct scoped concentration uses after work/versio
 ## 相关二元变量的上尾条件取样
 
 使用[相关二元变量的上尾条件取样](references/upper-tail-sampling.md)。在给定有限联合律中核验全成功条件下的尾概率和抽样规模。
+
+## OpenAI 原稿中的方法
+
+- [OpenAI direct source note: isolated-particle spectral cutoff](references/openai-200-226.md)
