@@ -73,3 +73,7 @@ description: 将有界支撑测度的 Frostman 球质量界、有限 Riesz 能�
 本技能独立重列该引理的测度论证明。原文随后所用的线性投影增益、距离集论证和主定理属于其他输入链，未被此技能采用。
 
 运行 [有限模型检查](scripts/check_interval_energy.py) 核对单位区间 Lebesgue 测度的精确 \(I_{1/2}=8/3\)、球界及坐标投影。该检查只是一个有界实例，不代替上述一般证明。
+
+## OpenAI 原稿中的方法
+
+- [Wave 4 PA3: spectral variogram and signed logarithmic energy](references/openai-wave4-pa3.md)

@@ -1,0 +1,5 @@
+# Labelled-copy overlap certificate (Wave 4 geometry-a-1)
+
+**Source.** *An irrational-trace counterexample to reduced Baum–Connes*, OpenAI (23 September 2026), physical pp. 4–5, [official PDF](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/paper.pdf), SHA-256 `4a9f78651b522ce79e99191bec9fe71a2c1ff505c9d3f991e8f401b0283e740e`.
+
+Lemma 2.1 supplies a finite combinatorial admission test: under the source's path-label uniqueness and vertex-injectivity assumptions, two labelled copies have the asserted overlap uniqueness.  The next construction forms distinct coned diagrams using that test.  Reuse by tabulating (i) the label of every path, (ii) the vertex map of every copy, and (iii) the unique recovered path/vertex on each proposed overlap.  The output is an overlap certificate suitable for the subsequent coned-diagram construction, not a claim about arbitrary unlabelled graphs.

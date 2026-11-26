@@ -1,0 +1,5 @@
+# Cosmetic-surgery chain interface
+
+Source: OpenAI, *Purely cosmetic surgery on knots in the three-sphere*, 23 September 2026, [pinned PDF](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Purely-Cosmetic-Surgery-on-Knots-in-the-Three-Sphere-September-23-2026/paper.pdf), SHA-256 `ee916c92b825a8686ddfa5cf1970c320d611899212992da40ca56791bd79fa3d`.
+
+**Scoped reference.** The source claims that distinct Dehn surgery slopes on a nontrivial smooth knot in `S^3` cannot yield orientation-preservingly homeomorphic manifolds. The reusable local interface at the cited locus is a finite square-zero-label filtration which promotes a rational quasi-isomorphism, followed by cap-period and gluing identities for the labelled chain/cocycle terms. Use it only with the source's instanton complex, cap, orientation, and gluing hypotheses in place. The source-level output is the cycle/cocycle identity required by that argument, not a generic Dehn-surgery test. Locus: physical pp. 51--54.

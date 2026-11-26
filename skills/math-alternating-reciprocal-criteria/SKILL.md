@@ -57,3 +57,7 @@ python3 scripts/alternating_reciprocal.py type-ii 2 3 4 5
 ```
 
 对递归定义的无限序列，应在研究笔记中给出归纳步骤，证明其定义在每一步都保持所需全称门槛。脚本的 `type-i` / `type-ii` 输出只是一项有限核验和精确截断恒等式，不是该归纳的替代品。
+
+## 补充来源中的方法
+
+- [Euler T-sums by tangent--digamma residues (EXT-0055)](references/euler-t-residue-reduction-ext0055.md)

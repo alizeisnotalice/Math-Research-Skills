@@ -42,3 +42,8 @@ H_2(Y;L)=0.
 一个常用的可计算情形是复环面 (A) 的覆盖。若某覆盖对应的子群使其余自由阿贝尔商秩为 (r)，则该覆盖同胚于 (\mathbb R^r\times(S^1)^{2g-r})。当它是闭嵌入到一个 Stein 复 (g) 维流形中的复子流形时，若 (H_k\ne0) 且 (k>g)，即可产生矛盾。原文实例的 (g=2,r=1) 给出 (\mathbb R\times(S^1)^3) 与 (H_3\ne0)。这个模板不从“无限基本群像”单独推出结论。
 
 三个构件的版本、页码、精确边界和外部依赖见[来源核验](references/sources.md)。
+
+## OpenAI 原稿中的方法
+
+- [Hyperbolic one-relator hierarchy interfaces](references/openai-one-relator-hierarchy-wave4-spectral2.md)
+- [Triangle-link and Salvetti-coset interfaces](references/openai-triangle-salvetti-wave4-spectral-1.md)

@@ -17,6 +17,25 @@ description: 核对给定几何模型的高度方程、标量曲率归一化、N
 
 ## OpenAI 原稿中的方法
 
+- [Block-barrier weighted inverse](references/openai-block-barrier-weighted-inverse.md)
+- [Hard-sphere delta-plane slice bounds](references/openai-hard-sphere-delta-plane-slices.md)
+- [Isolated crossing cleaning](references/openai-isolated-crossing-cleaning.md)
+- [Mumford–Shah collar localization](references/openai-mumford-shah-collar-localization.md)
+- [Penrose deformation and mass interfaces](references/openai-penrose-interfaces-wave4-spectral2.md)
+- [Small-mass gain bound](references/openai-small-mass-gain-bound.md)
+- [Sobolev homeomorphism regular points](references/openai-sobolev-homeomorphism-regular-points.md)
+- [Two-Cauchy-pair scalarization](references/openai-two-cauchy-pair-scalarization.md)
+- [Affine-maximal section balance in dimensions 3--9](references/openai-wave4-geob2-affine-bernstein-balance.md)
+- [Flow lenses for filtered closed-geodesic Morse data](references/openai-wave4-geob2-closed-geodesic-flow-lenses.md)
+- [Triangular logarithmic-Jacobian correction for a Kähler chart](references/openai-wave4-geob2-kahler-uniformization.md)
+- [Entropy equality: formal-to-smooth Anosov interface](references/openai-wave4-geob2-negative-curvature-entropy.md)
+- [Cumulative Bochner-mass normalization for RCD coordinates](references/openai-wave4-geob2-rcd-bilipschitz-coordinates.md)
+- [Exponentially weighted path selection on Ricci-flat trees](references/openai-wave4-geob2-ricci-flat-tree-path-selection.md)
+- [Surface immersion increments and stabilized scalar comparison maps](references/openai-wave4-geometry-b1-immersions-psc.md)
+- [Scoped OpenAI many-body interfaces (wave4 spectral-3)](references/openai-wave4-spectral3-many-body.md)
+- [Scoped OpenAI relativity interfaces (wave4 spectral-3)](references/openai-wave4-spectral3-relativity.md)
+- [Finite flags and exact graph enlargement](references/wave4-combinatorics-1-planar-limit-cycle-flags.md)
+
 - [Augmented elasticity transport recursion](references/openai-augmented-elasticity-transport.md)
 - [OpenAI geometry wave 3b: source-bound analytic interfaces](references/openai-geometry-wave-3b.md)
 - [Harmonic-frame raising/lowering form](references/openai-harmonic-frame-raising-lowering.md)

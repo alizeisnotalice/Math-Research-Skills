@@ -41,3 +41,9 @@ description: 构造 Hahn–Banach 分离或支撑函数证书，检查闭性、�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Matrix-to-convex-body metric-entropy conversion](references/wave4-geoa3-metric-entropy-matrix-body.md)
+- [Scoped reference. Finite-tree witness for nonexpansive fixed points](references/wave4-geoa3-reflexive-nonexpansive-tree.md)
+- [Evaluation-image criterion and a perturbed quotient lift](references/wave4-geoa3-separable-quotient-evaluation.md)

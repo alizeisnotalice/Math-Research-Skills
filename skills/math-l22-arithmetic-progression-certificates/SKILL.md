@@ -31,3 +31,7 @@ description: 用二进尺度求和把有限无等差数列密度界转为加权�
 
 - OpenAI *Quasipolynomial Bounds for Arithmetic Progressions*, PDF p. 82, Proposition 11.1。仅使用无需密度增量的尺度求和。SHA-256 481eaf7730dc4d581e5270cc4d514c6ee2ec386d5af643cf914e20b4d00c59be。[固定原文](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf)
 - OpenAI *Quantitative Superexponential Bounds for van der Waerden Numbers*, PDF p. 20, Proposition 7.1。基色表的原文构造与本项数位证明分开。SHA-256 042acea33a57b58d17600a9ec5e0d8d6f424787c5edf28b9d8d5f9bd9297bd18。[固定原文](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/paper.pdf)
+
+## OpenAI 原稿中的方法
+
+- [Square-step Fourier fibre contraction](references/wave4-combinatorics2-square-step-contraction.md)

@@ -44,4 +44,6 @@ L² 空间中的有限正交系 (fₙ)、可选系数、固定次序及前缀个
 
 ## OpenAI 原稿中的方法
 
+- [OpenAI: `L log L` Fourier-layer assembly](references/openai-wave4-algebra3-llogl-assembly.md)
+
 - [Finite block oscillation and Hilbert van der Corput](references/openai-direct-wave-2.md)

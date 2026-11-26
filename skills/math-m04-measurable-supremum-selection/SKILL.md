@@ -41,3 +41,7 @@ description: 处理可测上确界、解析投影和可测选择，核对参数�
 ## 有理单纯形上的局部仿射选择
 
 给定顶点、对应值和严格内部点时，用[仿射选择证书](references/local-affine-simplex-selector.md)认证重心坐标及选值。提供凸图的有理半空间表可核验图成员关系；仅声明凸图时输出为条件式。
+
+## OpenAI 原稿中的方法
+
+- [Borel relation compression interface](references/openai-borel-cost-compression-wave4-spectral2.md)

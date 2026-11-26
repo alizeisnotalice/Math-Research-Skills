@@ -42,3 +42,11 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 对 Prévost 带参数 `m` 的 Legendre–Padé 线性形式，用 [有限分母排除](../math-sondow-log-fractional-certificate/references/prevost-legendre-fractional-gate.md) 核验精确余项上界和分数部分。
 
 用 [Prévost 的二进 Padé 有理逼近](../math-sondow-log-fractional-certificate/references/prevost-pade-rational-interval.md)计算给定二进参数的近似分母和有限严格区间。
+
+若需用 Fontana–Mascheroni 的有理级数直接包围 γ，使用 [Gregory 系数区间](../math-gamma-gregory-series-interval/SKILL.md)，输出精确部分和与剩余正质量上界。
+
+## 补充来源中的方法
+
+- [E-value normalization and singularity gate](references/e-value-normalization-gate.md)
+- [Factorial fractional-part criterion for the Euler--Mascheroni constant](references/hancl-kristensen-factorial-fractional-criterion.md)
+- [Rational harmonic Euler sums by finite residues (EXT-0062)](references/rational-harmonic-residue-algorithm-ext0062.md)

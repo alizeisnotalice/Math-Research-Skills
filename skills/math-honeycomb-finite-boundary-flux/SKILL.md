@@ -18,4 +18,6 @@ The source is a preprint. This skill rederives the finite cancellation only; it 
 
 ## OpenAI 原稿中的方法
 
+- [Held honeycomb transfer references](references/wave4-probability-b-held-bridges.md)
+
 - [Scoped honeycomb chord interfaces](references/openai-held-chord-interfaces.md)

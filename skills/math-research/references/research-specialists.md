@@ -7,6 +7,7 @@
 - [math-euler-constant-irrationality](../../math-euler-constant-irrationality/SKILL.md) · 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计 γ 的 Padé、多重正交、超几何、递推、整数线性形式、分母消去与 Sondow 型判据，也用于核对 E/G 函数、算术 Gevrey 与 Stokes 常数方法能否转移到 γ。
 - [math-sondow-log-fractional-certificate](../../math-sondow-log-fractional-certificate/SKILL.md) · 从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。
 - [math-gamma-continued-fraction-recurrence](../../math-gamma-continued-fraction-recurrence/SKILL.md) · 用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。
+- [math-gamma-gregory-series-interval](../../math-gamma-gregory-series-interval/SKILL.md) · 用 Gregory 系数的 Fontana–Mascheroni 级数计算欧拉常数 γ 的严格有理区间，核对精确系数、剩余质量和给定有理候选。
 - [math-gamma-meijer-cmf](../../math-gamma-meijer-cmf/SKILL.md) · 用 Kalisch 等的 Meijer G 保守矩阵场构造欧拉常数 γ 的 Apéry 型候选逼近。复跑已知三阶轨迹，核对对偶矩阵、CVM 换基、收敛判据和约分后的算术质量。
 - [math-gamma-multiple-laguerre-approximants](../../math-gamma-multiple-laguerre-approximants/SKILL.md) · 用 Wolfs–Van Assche 的混合型多重 Laguerre 显式有限和生成欧拉常数有理逼近，并审计算术整化、约分、余项和渐近障碍。
 - [math-openai-arithmetic-determinants](../../math-openai-arithmetic-determinants/SKILL.md) · 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。

@@ -20,3 +20,12 @@ description: 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项
 ## 补充来源的方法
 
 - [Differential-operator admission before determinant arguments](references/differential-operator-admission.md)
+
+## OpenAI 原稿中的方法
+
+- [Compensated Mellin continuation contract](references/compensated-mellin-continuation-arithmetic-1.md)
+- [Mean-square to Mellin zero exclusion](references/mean-square-mellin-zero-exclusion-arithmetic-1.md)
+
+## 补充来源中的方法
+
+- [Scoped reference. Multiple-harmonic-sum determinant](references/supp-remaining-b-harmonic-determinant.md)

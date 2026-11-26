@@ -53,3 +53,7 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 ## 补充来源的方法
 
 - [Finite rationality test for a Mahler function](references/mahler-function-transcendence-admission.md)
+
+## 补充来源中的方法
+
+- [Hecke--Mahler sparse finite-difference audit](references/hecke-mahler-sparse-difference.md)

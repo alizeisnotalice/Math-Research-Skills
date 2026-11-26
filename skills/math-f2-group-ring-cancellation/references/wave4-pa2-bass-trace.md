@@ -1,0 +1,10 @@
+# Scoped Bass trace interfaces
+
+For *The Bass trace conjecture and the characteristic-zero Kaplansky idempotent conjecture* (SHA-256 `1c4d90b5ed4de2ef66b4b07b3d5c3e2bfe8822a538177c64ee1d3c3e091120bf`, pp. 6--9, Theorem 2.1), the input is a countable connected bounded-degree graph, a free vertex action, an invariant complex with finitely many simplex orbits and connected top-simplex supports. For `n>=n_0(D)`, the stated result makes every invariant degree-`n` cocycle vanish on every coinvariant cycle. Its scaled KR metric is `rho(p,q)=n^(-1/2) sup_{Lip ell<=1} sum ell(v)(p(v)-q(v))`. This does not construct the filtrations or make arbitrary group-ring data satisfy these inputs.
+
+For *The ℓ1-Bass Conjecture for Discrete Groups* (SHA-256 `9894680d2ffb10ff5ea369fcc9d41c7cfe63e20f09f8182dcf86c60746139797`, pp. 3--5, Lemma 2.1, Proposition 2.2, Lemma 3.1), an actual `ℓ1` idempotent is similar to one over a finitely generated subgroup with an exponential word-length moment. With `h_{i+k+1}=g h_i`, its tuple weight is `v_{k+1}(h)=tr(prod p(h_i^{-1}h_{i+1}))`; total-weight, twisted-rotation, and insertion/deletion identities apply under absolute convergence. This neither produces the idempotent nor proves Bass-trace conclusions.
+
+## 固定来源
+
+- 物理页 6, 7, 8, 9。Theorem 2.1; equations (2.1), (3.1)--(3.4) SHA-256 `1c4d90b5ed4de2ef66b4b07b3d5c3e2bfe8822a538177c64ee1d3c3e091120bf`。[The Bass trace conjecture and the characteristic-zero Kaplansky idempotent conjecture](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-Bass-trace-conjecture-for-complex-group-rings-September-24-2026/The-Bass-trace-conjecture-for-complex-group-rings-September-24-2026.pdf)
+- 物理页 3, 4, 5。Lemma 2.1; Proposition 2.2; Lemma 3.1 SHA-256 `9894680d2ffb10ff5ea369fcc9d41c7cfe63e20f09f8182dcf86c60746139797`。[The ℓ¹-Bass Conjecture for Discrete Groups](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-l1-Bass-Conjecture-for-Discrete-Groups-October-5-2026/l1-bass-conjecture.pdf)

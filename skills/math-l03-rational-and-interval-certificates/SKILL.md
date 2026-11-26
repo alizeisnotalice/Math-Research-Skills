@@ -72,4 +72,11 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 ## OpenAI 原稿中的方法
 
+- [Bounded two-increment recurrence](references/wave4-probability-b-turing-recurrence.md)
+
 - [Strict-witness bracketing](references/openai-semidecidable-bracketing.md)
+
+## 补充来源中的方法
+
+- [Parameter-gated binomial supercongruences (EXT-0054)](references/p-adic-binomial-supercongruences-ext0054.md)
+- [Mod-p-cubed binomial master formulas (EXT-0065)](references/p-adic-binomial-supercongruences-ext0065.md)

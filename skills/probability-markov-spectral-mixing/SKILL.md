@@ -35,4 +35,9 @@ For bounded clock observables, the OpenAI Lemma 2.3 reference transfers converge
 
 ## OpenAI 原稿中的方法
 
+- [Conditional convolution and affiliated transport reference (Wave 4 geometry-a-1)](references/openai-wave4-geometry-a1-convolution.md)
+- [Wave 4 PA3: transfer-gap and finite-box references](references/openai-wave4-pa3.md)
+- [Odd labels on a finite reversible marked chain](references/wave4-geoa3-odd-markov-labels.md)
+- [Critical-SK support-profile interface](references/wave4-probability-b-critical-sk.md)
+
 - [OpenAI SK finite interfaces](references/openai-sk-finite-interfaces.md)

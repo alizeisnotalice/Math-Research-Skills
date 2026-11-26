@@ -32,6 +32,12 @@ For finite data in the progression-compatible intersective normalization, use `s
 
 ## OpenAI 原稿中的方法
 
+- [Labelled-copy overlap certificate (Wave 4 geometry-a-1)](references/openai-wave4-geometry-a1-labelled-copies.md)
+- [Scoped reference. Mu-constant surface-family topological right triviality](references/wave4-algebra-2-mu-constant-surfaces.md)
+- [Hypercube patch-law and Hall-obstruction boundary](references/wave4-combinatorics2-hypercube-patch-hall.md)
+- [Self-dual infinite-matroid reduction](references/wave4-combinatorics2-infinite-matroid-duality.md)
+- [Directed-diagram and choice reduction references](references/wave4-probability-b-aec-choice.md)
+
 - [Collision-history partition and rooted-forest stopping](references/openai-collision-history-forest-stopping.md)
 - [Contact components and Boolean inversion](references/openai-contact-component-boolean-inversion.md)
 - [Periodic hitting sets from finite routing tables](references/openai-direct-wave-3.md)

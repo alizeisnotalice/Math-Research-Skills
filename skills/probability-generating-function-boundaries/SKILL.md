@@ -168,3 +168,7 @@ The frozen R05 formal cohort selected for this G09 entry has 32 scoped rows: 30 
 - [Method and source notes](references/method.md)
 - Exact mathematical evidence（本机附件：`references/math-evidence.md`）
 - Frozen 30-source index and 2 support-zero rows（本机附件：`references/source-index.md`）
+
+## OpenAI 原稿中的方法
+
+- [Rooted planar-map corner substitution](references/wave4-pa2-rooted-corner-substitution.md)

@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 33,
+    "research-specialists": 34,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -361,6 +361,7 @@
         "math-gamma-multiple-laguerre-approximants",
         "math-gamma-meijer-cmf",
         "math-gamma-continued-fraction-recurrence",
+        "math-gamma-gregory-series-interval",
         "math-integer-linear-form-rates",
         "math-hankel-pade-certificates",
         "math-l03-rational-and-interval-certificates"
@@ -498,6 +499,13 @@
       "description": "用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。",
       "category": "research-specialists",
       "path": "skills/math-gamma-continued-fraction-recurrence/SKILL.md"
+    },
+    {
+      "name": "math-gamma-gregory-series-interval",
+      "title": "欧拉常数的 Gregory 级数区间",
+      "description": "用 Gregory 系数的 Fontana–Mascheroni 级数计算欧拉常数 γ 的严格有理区间，核对精确系数、剩余质量和给定有理候选。",
+      "category": "research-specialists",
+      "path": "skills/math-gamma-gregory-series-interval/SKILL.md"
     },
     {
       "name": "math-gamma-meijer-cmf",
@@ -1273,7 +1281,7 @@
     {
       "name": "probability-concentration-chaining",
       "title": "Concentration, large deviations, and chaining",
-      "description": "Apply and audit concentration inequalities, large-deviation bounds, empirical-process/chaining estimates, and anti-concentration results while preserving model assumptions and the distinction between upper tails and small-ball bounds.",
+      "description": "Select scoped concentration, deviation, chaining, anti-concentration, and certificate methods after matching the probability model, tail regime, and exact parameters.",
       "category": "probability",
       "path": "skills/probability-concentration-chaining/SKILL.md"
     },

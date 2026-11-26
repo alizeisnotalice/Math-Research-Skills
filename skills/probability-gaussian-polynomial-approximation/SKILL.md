@@ -19,4 +19,6 @@ Do not infer a sharp leading constant from a big-$\Omega$ Hermite-tail theorem o
 
 ## OpenAI 原稿中的方法
 
+- [Independent Gaussian-square products](references/openai-wave4-geometry-b1-l1-products.md)
+
 - [Fixed Gaussian partition amplification](references/openai-direct-wave-2.md)

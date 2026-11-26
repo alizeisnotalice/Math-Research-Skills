@@ -40,3 +40,7 @@ description: 审查 Marcinkiewicz–Zygmund 向量值延拓，核对算子类型
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Walsh decay under cotype and the approximation property](references/wave4-geoa3-cotype-walsh-decay.md)

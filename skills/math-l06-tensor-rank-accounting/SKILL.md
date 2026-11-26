@@ -105,4 +105,6 @@ description: 审查矩阵乘法张量提取中的直接和形状、辅助张量�
 
 ## OpenAI 原稿中的方法
 
+- [Even-spin tensor saturation](references/openai-spin-204.md)
+
 - [Equal-or-far finite-field filter](references/openai-equal-or-far-filter.md)

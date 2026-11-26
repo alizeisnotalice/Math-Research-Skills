@@ -43,6 +43,8 @@ For a finite Ising interface encoded by a dual contour, or a finite tree factor 
 
 ## OpenAI 原稿中的方法
 
+- [Wave 4 PA3: annular screening and single-bit planar transfer references](references/openai-wave4-pa3.md)
+
 - [OpenAI wave-3 finite percolation interfaces](references/openai-wave3.md)
 
 - [OpenAI direct source notes: finite planar spin and percolation identities](references/openai-200-226.md)

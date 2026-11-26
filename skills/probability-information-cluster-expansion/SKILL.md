@@ -34,4 +34,6 @@ Use available local mathematical tools for coefficient checks, finite examples, 
 
 ## OpenAI 原稿中的方法
 
+- [Wave 4 PA3: power-mean tree insertion interface](references/openai-wave4-pa3.md)
+
 - [Finite-cell thermodynamic interface](references/openai-finite-cell-thermodynamics.md)

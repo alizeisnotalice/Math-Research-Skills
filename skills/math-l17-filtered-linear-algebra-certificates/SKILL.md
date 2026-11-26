@@ -86,9 +86,25 @@ python3 scripts/check_finite_instances.py
 
 ## OpenAI 原稿中的方法
 
+- [Crystalline filtered lifting](references/crystalline-filtered-lifting-arithmetic-1.md)
+- [OpenAI algebra wave 200--206](references/openai-algebra-200-206.md)
+- [Radial harmonic transfer comparison](references/openai-radial-harmonic-transfer.md)
+- [Rational filtration base change and finite Koszul factor](references/rational-filtration-base-change-arithmetic-1.md)
+- [Wave 4 algebra-1: quiver flavor base change and finite truncation](references/wave4-algebra-1-quiver-truncation.md)
+- [Scoped reference. Positive part of a free contact line](references/wave4-algebra-2-contact-lines.md)
+- [Scoped reference. Quintic Gepner numerical lattice](references/wave4-algebra-2-gepner-numerical-lattice.md)
+- [Stable-action triangular conversion](references/wave4-combinatorics2-ar-triangular-conversion.md)
+- [Finite-rank moment-graph comparison boundary](references/wave4-combinatorics2-kl-moment-graph.md)
+- [Totally-acyclic trivial-extension transfer](references/wave4-combinatorics2-tachikawa-trivial-extension.md)
+- [Sixth-power Foulkes monotonicity](references/wave4-pa2-foulkes-monotonicity.md)
+
 - [Commuting-unipotent coinvariants](references/commuting-unipotent-coinvariants.md)
 - [Compatible vector-field jets and finite-presentation exit](references/free-tangent-jet-algebraization.md)
 - [Jet matrices and ordered-chain bookkeeping](references/openai-jet-and-chain-interfaces.md)
 - [Weighted stable backward recurrence](references/openai-weighted-stable-recurrence.md)
 
 - [Projective point--hyperplane Gram certificate](references/openai-direct-wave-2.md)
+
+## 补充来源中的方法
+
+- [Weight-five Euler sums at one half (EXT-0067)](references/weight-five-half-euler-linear-system-ext0067.md)

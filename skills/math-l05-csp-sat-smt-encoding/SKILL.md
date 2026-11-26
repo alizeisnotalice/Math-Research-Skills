@@ -58,6 +58,10 @@ description: 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、�
 
 ## OpenAI 原稿中的方法
 
+- [Conditional finite selection for sums and products](references/wave4-combinatorics-1-finite-sums-products-selection.md)
+- [Finite congruence-lattice graph criterion](references/wave4-pa2-congruence-graph.md)
+- [SAT and guarded Diophantine operations](references/wave4-probability-b-sat-diophantine.md)
+
 - [Finite-support recovery for Euclidean Ramsey configurations](references/openai-euclidean-ramsey-finite-support.md)
 - [Disjoint probability-tree covering](references/openai-kahn-kalai-tree-covering.md)
 - [Prime-order Ryser construction: finite concentration inputs](references/openai-ryser-cylinder-concentration.md)

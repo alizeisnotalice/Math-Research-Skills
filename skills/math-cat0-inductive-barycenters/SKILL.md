@@ -17,3 +17,7 @@ satisfy `E ||m_t||^2 <= sigma2/t`. This converts a conditional test into a squar
 4. Run `scripts/euclidean_inductive_barycenter.py` only as an exact finite-dimensional Euclidean replay. It rejects nonzero arithmetic barycenter and is not a verifier for arbitrary CAT(0) input.
 
 See [the proof and source boundary](references/inductive-barycenter-energy.md).
+
+## OpenAI 原稿中的方法
+
+- [CAT(0) cube-grid bound to thin triangles](references/wave4-geoa3-grid-thinness.md)

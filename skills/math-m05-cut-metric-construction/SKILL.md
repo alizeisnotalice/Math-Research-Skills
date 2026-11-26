@@ -73,3 +73,8 @@ description: 在有限树分解上拼接二元 cut law，构造嵌套 cut 坐标
 ## 有限有理 ℓ¹ 点集的加权切分解
 
 使用[有限有理 ℓ¹ 点集的加权切分解](references/finite-cut-reconstruction.md)。按坐标阈值生成二元切，恢复原坐标并核对所有配对距离。
+
+## OpenAI 原稿中的方法
+
+- [Scoped reference. Weighted graph spaces and localized free-space linearization](references/wave4-geoa3-free-space-graph-obstruction.md)
+- [Bi-Lipschitz absorption from a lifted correction](references/wave4-geoa3-lifted-lipschitz-absorption.md)

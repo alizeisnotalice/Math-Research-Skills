@@ -68,3 +68,13 @@ description: 用有限阶或 involution Hamiltonian 映射上的不变小扰动�
 - OpenAI, *Three fixed points on the symplectic quadric threefold*, PDF pp. 3–5, Proposition 2.1 和 Lemma 2.2，SHA-256 `bebf04613245ab3cd52f29724c9fe43e2943c07dfabd96fb21fd5394f175c474`。原文的 quadric 与三临界点构造不在本技能的默认结论内。[固定原文](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/A-degenerate-counterexample-to-the-critical-number-Arnold-bound-September-23-2026/paper.pdf)
 - OpenAI, *Hamiltonian Fixed Points Below the Stable Morse Number*, PDF pp. 6–7, Proposition 3.2，SHA-256 `b482e3ec793c52e06a1a3f6cd92f13518a806511e2974cd4f9005eea116f5f0f`。只采用 involution 的分裂和非退化证明。[固定原文](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Hamiltonian-Fixed-Points-Below-the-Stable-Morse-Number-October-5-2026/paper.pdf)
 - OpenAI, *Sharpness of the Cyclic Integral Floer Bound Below the Stable Morse Number*, PDF pp. 6–7, Lemma 3.1 和 Proposition 3.2，SHA-256 `b9fec0a6b56d3a8dd7ffe7ce53bfd6304e3a6560f98d0ee7f73812862b9a1c02`。它独立给出同一 involution 局部机制。循环 Floer 主张未被采用。[固定原文](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Sharpness-of-the-Cyclic-Integral-Floer-Bound-Below-the-Stable-Morse-Number-October-5-2026/sharp-cyclic-integral-floer-bound-below-stable-morse-number.pdf)
+
+## OpenAI 原稿中的方法
+
+- [Augmentation-row handle-cancellation module](references/openai-wave4-geob2-augmentation-row-handle.md)
+- [Quadratic-at-infinity truncation before stable-Morse comparison](references/openai-wave4-geob2-qai-truncation-stable-morse.md)
+- [Buffered Fourier division at resonances](references/wave4-combinatorics-1-billiard-fourier-division.md)
+- [Caustic separation barrier](references/wave4-combinatorics-1-caustic-separation.md)
+- [Lorentz-model geodesic and flat interface](references/wave4-combinatorics-1-lorentz-flat-metric.md)
+- [Standard-map four-point comparison](references/wave4-combinatorics-1-standard-map-four-point.md)
+- [Transverse rigidity for triangular billiards](references/wave4-combinatorics-1-triangular-billiard-rigidity.md)

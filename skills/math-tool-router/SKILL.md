@@ -26,6 +26,8 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | 非阿基米德解析 jet、完备逆塔或 Weil–Deligne 谱输入 | 按[非阿基米德转移](../math-nonarchimedean-analytic-transfer/SKILL.md)或[局部 L 因子证书](../math-weil-deligne-purity-lfactor/SKILL.md)核对完备性、谱数据和取值范围。 |
 | 有理多项式在有理区间上的严格定号 | 用[精确 Bernstein 系数](../math-l03-rational-and-interval-certificates/references/rational-polynomial-sign.md)核对显式分割及开闭端点。 |
 | 有限边连通概率、符号约束的区间及算术幂级数 | 给定独立边和接线规则用[精确连通概率](../probability-percolation-renormalization/references/openai-wave3.md)。核验严格上界记录用[有理区间](../math-l03-rational-and-interval-certificates/references/openai-semidecidable-bracketing.md)。核验有限 Taylor 前缀用[Mahler 的有限 Hankel 阶](../math-hankel-pade-certificates/references/mahler-function-transcendence-admission.md)。 |
+| 两个实轴有限概率律的 Wasserstein–1 | 用[单调耦合与 1-Lipschitz 势函数证书](../probability-measure-convergence/references/finite-scalar-wasserstein.md)精确比较有理原子律。 |
+| 用有理级数核对欧拉常数区间 | [Gregory 系数工具](../math-gamma-gregory-series-interval/SKILL.md)对给定正整数计算精确系数及严格尾界。 |
 | 条件层匹配或有限路径因果输运 | 用[信息约束输运](../math-d01-kantorovich-duality/references/finite-information-transport.md)编译等式并核验有理原始和对偶见证。 |
 | Hardy 算子在有理阶梯函数上的二次亏损 | 用 [亏损证书](../math-m03-near-extremizer-stability/references/hardy-quadratic-deficit.md) 逐段积分，计入无穷尾段并返回精确对数式。 |
 | 有端点消失条件的 Euler–Maclaurin 求积 | 用 [求积误差证书](../math-euler-maclaurin-quadrature-certificates/SKILL.md) 检查多项式、网格及误差的有理包围。 |

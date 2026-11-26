@@ -21,3 +21,7 @@ python3 scripts/check_purity_lfactor.py examples/reject-missing-inclusion.json
 ```
 
 The second invocation must fail.  A successful run certifies only the stated conclusion from the supplied certificate; it never establishes the global Ramanujan/temperedness theorem, local-global compatibility, genericity, or numerical-to-exact spectral conversion.
+
+## OpenAI 原稿中的方法
+
+- [Conditional local-parameter normalization for imaginary-quadratic modularity](references/openai-arithmetic-2.md)

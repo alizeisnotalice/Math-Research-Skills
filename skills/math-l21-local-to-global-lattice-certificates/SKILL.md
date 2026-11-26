@@ -68,6 +68,8 @@ description: 用有限商模的主分解拼接指定局部整格，并核对乘�
 
 ## OpenAI 原稿中的方法
 
+- [Low-Selmer BSD normalization ledger](references/low-selmer-bsd-normalization-arithmetic-1.md)
+
 - [Local and rational lattice stage for hypersurface germs](references/hypersurface-lattice-approximation.md)
 - [Two-adic determinant polynomial law](references/two-adic-determinant-polynomial-law.md)
 

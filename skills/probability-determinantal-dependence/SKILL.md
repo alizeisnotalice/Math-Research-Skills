@@ -46,3 +46,7 @@ See references/method_entry.md for the G18.01–G18.07 method interfaces and iss
 Use the documented theorem only within the model and interface in its source-use card. For formally published work, verify the citation and the cited statement against the publication. Verify the active claim and relevant proof steps for a preprint-only result. Historical review notes retain the scope of their original versions. Keep source-card gaps, unavailable evidence, and open transfers as research leads.
 
 The optional attachments named here are available in the original local installation or the central literature archive. See [evidence and local attachments](../math-research/references/evidence.md).
+
+## OpenAI 原稿中的方法
+
+- [Wave 4 PA3: double-dimer transfer crossing interface](references/openai-wave4-pa3.md)

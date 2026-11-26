@@ -40,3 +40,7 @@ R13 accepted 30 distinct scoped G25 uses: 22 new-paper use credits, seven canoni
 Use the documented theorem only within the model and interface in its source-use card. For formally published work, verify the citation and the cited statement against the publication. Verify the active claim and relevant proof steps for a preprint-only result. Historical review notes retain the scope of their original versions. Keep source-card gaps, unavailable evidence, and open transfers as research leads.
 
 The optional attachments named here are available in the original local installation or the central literature archive. See [evidence and local attachments](../math-research/references/evidence.md).
+
+## OpenAI 原稿中的方法
+
+- [Planar height and current interfaces](references/wave4-probability-b-planar-height-current.md)

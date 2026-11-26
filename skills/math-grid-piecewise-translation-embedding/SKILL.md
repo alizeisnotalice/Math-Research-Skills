@@ -30,3 +30,7 @@ Strict cardinality is essential.  Equality is deliberately rejected, even
 when a bijection happens to exist; use a separately justified equal-area
 equidecomposition argument for that situation.  The finite proof and source
 boundary are in [the comparison note](references/grid-embedding.md).
+
+## OpenAI 原稿中的方法
+
+- [Dyadic two-interval transport](references/openai-dyadic-two-interval-wave4-spectral-1.md)

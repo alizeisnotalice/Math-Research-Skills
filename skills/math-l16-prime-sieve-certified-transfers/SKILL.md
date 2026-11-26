@@ -87,6 +87,8 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 
 ## OpenAI 原稿中的方法
 
+- [Twist selection from congruence and density inputs](references/twist-selection-positive-density-arithmetic-1.md)
+
 - [Finite-field tree comparison](references/finite-field-tree-comparison.md)
 - [Exact dyadic order-trial bookkeeping](references/openai-exact-dyadic-order-trials-2026.md)
 - [Twist and Kummer local interfaces](references/twist-kummer-local-interfaces.md)

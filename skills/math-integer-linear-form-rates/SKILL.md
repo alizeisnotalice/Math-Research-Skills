@@ -17,3 +17,9 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 
 - [Generalized Apéry supercongruences: finite p-adic audit](references/apery-supercongruence-finite-audit.md)
 - [Apéry zeta(3): closing an integral linear-form proof](references/apery-zeta3-integrality-and-contraction.md)
+
+## 补充来源中的方法
+
+- [A p-adic contraction gate and rising-factorial denominator ledger](references/beukers-padic-contraction-and-denominators.md)
+- [Scoped reference. p-adic L-value dimension bound](references/supp-remaining-b-padic-l-values.md)
+- [Scoped reference. Vector Nesterenko criterion](references/supp-remaining-b-vector-nesterenko.md)

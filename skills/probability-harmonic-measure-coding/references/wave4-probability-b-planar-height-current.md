@@ -1,0 +1,12 @@
+# Planar height and current interfaces
+
+For the specified triangular coherent-pair height models, use the integer lift/zero-curl differential, equality-edge constraints, and only the stated full-cell or endpoint-first stopping explorations. The output is the corresponding conditional factorization/cut law; no GFF scaling limit follows from this local operation.
+
+Sources: *Gaussian free-field limits of weighted integer Lipschitz heights*, SHA-256 `3dae0156982e5d205484a60ebb25c02591cf8a67cb7ce0ea0abf5486bdaaa61b`, physical pp. 7--8 and 18; *The Gaussian free field limit of integer Lipschitz heights with two-arc boundary data*, SHA-256 `f0047faf78711628ea4ee59901c37478c00840e166a4ac43504106ca1b385abe`, physical pp. 6--11; *Uniform real Lipschitz surfaces on the triangular lattice*, SHA-256 `dce5ae39087f446aa1a721983682065be578bc7da2d5f25efc8c00960b685cbc`, physical pp. 10--11; and *The joint scaling limit of critical Ashkin--Teller currents*, SHA-256 `cec129cca8c2a0a61462b1ad8173132dc0c3f444fb25dd90e183c68f0aaeb748`, physical pp. 11--13.
+
+## 固定来源
+
+- 物理页 7, 8, 18。Lemmas 2.1, 2.2 and 2.12 SHA-256 `3dae0156982e5d205484a60ebb25c02591cf8a67cb7ce0ea0abf5486bdaaa61b`。[Gaussian free-field limits of weighted integer Lipschitz heights](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-October-6-2026/paper.pdf)
+- 物理页 1, 6, 7, 8, 9, 10, 11。Lemmas 2.1--2.4 and exact cut law SHA-256 `f0047faf78711628ea4ee59901c37478c00840e166a4ac43504106ca1b385abe`。[The Gaussian free field limit of integer Lipschitz heights with two-arc boundary data](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-October-6-2026/paper.pdf)
+- 物理页 10, 11。Lemma 3.5 SHA-256 `dce5ae39087f446aa1a721983682065be578bc7da2d5f25efc8c00960b685cbc`。[Uniform real Lipschitz surfaces on the triangular lattice](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-October-6-2026/paper.pdf)
+- 物理页 11, 12, 13。Lemma 3.1 SHA-256 `cec129cca8c2a0a61462b1ad8173132dc0c3f444fb25dd90e183c68f0aaeb748`。[The joint scaling limit of critical Ashkin-Teller currents](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026/main.pdf)

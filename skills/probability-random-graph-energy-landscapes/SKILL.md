@@ -24,3 +24,7 @@ Read [the method guide](references/method.md) for the hypothesis checklist and r
 State the theorem/source and physical PDF page, model assumptions, constants and all relevant quantifiers. Give the proof mechanism at the level needed for the proposed use, identify cited-but-unchecked inputs and source anomalies, and separate source statements from any derived certificate or local computation. If a hypothesis or transfer step is missing, say exactly which one and give only a conditional conclusion. Numerical or symbolic checks support named finite examples and algebra; they are not asymptotic, probability, or uniform-in-phase proofs.
 
 See [a valid sufficient-regime use](examples/positive.md) and [a missing-interface case](examples/conditions-missing.md).
+
+## OpenAI 原稿中的方法
+
+- [OpenAI SK tail and rooted-tree constructions (Wave 4 geometry-a-1)](references/openai-wave4-geometry-a1-sk.md)

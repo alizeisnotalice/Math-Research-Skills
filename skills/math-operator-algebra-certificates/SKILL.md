@@ -15,6 +15,14 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 
 ## OpenAI 原稿中的方法
 
+- [Conditional finite group and algebra interfaces](references/openai-finite-group-algebra-wave4-spectral-1.md)
+- [Kirchberg--Rordam character criterion](references/openai-wave4-geoa2-kirchberg-rordam.md)
+- [OpenAI operator, field, and free-entropy certificates (Wave 4 geometry-a-1)](references/openai-wave4-geometry-a1-operator.md)
+- [Scoped OpenAI quantum and QAC0 interfaces (wave4 spectral-3)](references/openai-wave4-spectral3-quantum.md)
+- [Rational Satake-orbit decomposition bookkeeping](references/rational-satake-orbit-decomposition-arithmetic-1.md)
+- [Wave 4 algebra-1: two-generator invariant-measure obstruction](references/wave4-algebra-1-invariant-measure.md)
+- [Group-ring idempotent shear determinant ledger](references/wave4-combinatorics2-group-ring-determinant-shear.md)
+
 - [Finite compression and perturbation certificates from OpenAI operator-algebra sources](references/finite-compression-and-stability.md)
 - [Finite spectral block, character, and wedge interfaces](references/openai-finite-spectral-blocks-2026.md)
 - [Ordinary Lie lattice fiber](references/ordinary-lie-lattice-fiber.md)

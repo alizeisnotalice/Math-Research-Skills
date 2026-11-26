@@ -13,6 +13,11 @@ description: 复核两个显式有限简单图的 Weisfeiler–Leman 元组颜�
 
 ## OpenAI 原稿中的方法
 
+- [Finite unit-distance constraints to plane coloring](references/wave4-combinatorics-1-plane-coloring-compactness.md)
+- [Distance-set separator ledger](references/wave4-combinatorics2-distance-separators.md)
+- [Large distance-class fibre preprocessing](references/wave4-combinatorics2-pinned-distance-fibers.md)
+- [Unit-circle cutting and balanced rectangle ledger](references/wave4-combinatorics2-unit-circle-cutting.md)
+
 - [Projector metric and support-complex reduction](references/openai-borsuk-projector-obstruction.md)
 - [Finite matching cancellation for chromatic quasisymmetry](references/openai-chromatic-qsf-matching-cancellation.md)
 - [Signed cycle intersections in a normalized drawing](references/openai-crossing-signed-cycle-intersection.md)

@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 199 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 200 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -144,6 +144,7 @@
 | [math-euler-maclaurin-quadrature-certificates](../skills/math-euler-maclaurin-quadrature-certificates/SKILL.md) | 为满足端点消失条件的多项式 Euler--Maclaurin 求积构造精确余项与可复核误差包围；不用于未经认证的一般浮点积分。 |
 | [math-f2-group-ring-cancellation](../skills/math-f2-group-ring-cancellation/SKILL.md) | Verify a finite characteristic-two group-ring cancellation certificate from two labelled components and a supplied exact group-label product oracle; it does not establish torsion-freeness or nonzero factors. |
 | [math-gamma-continued-fraction-recurrence](../skills/math-gamma-continued-fraction-recurrence/SKILL.md) | 用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。 |
+| [math-gamma-gregory-series-interval](../skills/math-gamma-gregory-series-interval/SKILL.md) | 用 Gregory 系数的 Fontana–Mascheroni 级数计算欧拉常数 γ 的严格有理区间，核对精确系数、剩余质量和给定有理候选。 |
 | [math-gamma-meijer-cmf](../skills/math-gamma-meijer-cmf/SKILL.md) | 用 Kalisch 等的 Meijer G 保守矩阵场构造欧拉常数 γ 的 Apéry 型候选逼近。复跑已知三阶轨迹，核对对偶矩阵、CVM 换基、收敛判据和约分后的算术质量。 |
 | [math-gamma-multiple-laguerre-approximants](../skills/math-gamma-multiple-laguerre-approximants/SKILL.md) | 用 Wolfs–Van Assche 的混合型多重 Laguerre 显式有限和生成欧拉常数有理逼近，并审计算术整化、约分、余项和渐近障碍。 |
 | [math-geometric-pde-reductions](../skills/math-geometric-pde-reductions/SKILL.md) | 核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。 |
@@ -174,7 +175,7 @@
 | [probability-bernoulli-factory](../skills/probability-bernoulli-factory/SKILL.md) | Select and audit exact coin factories, fixed-depth event representations, and random-stopping constructions with assumptions, output types, and cost clocks explicit. |
 | [probability-boolean-fourier-invariance](../skills/probability-boolean-fourier-invariance/SKILL.md) | Analyze Boolean-cube Fourier, coordinate influence, noise stability, low-influence invariance, and bounded-independence PTF questions. Use when the model is a Boolean function or product-space polynomial transfer; use the Gaussian approximation skill for sharp Hermite or Gaussian sign-approximation constants. |
 | [probability-brownian-potential-fractals](../skills/probability-brownian-potential-fractals/SKILL.md) | Analyze Brownian path sets, planar SLE and loop-erasure interfaces, potential-capacity comparisons, or reflected Brownian couplings using the exact source scopes in the accompanying references. |
-| [probability-concentration-chaining](../skills/probability-concentration-chaining/SKILL.md) | Apply and audit concentration inequalities, large-deviation bounds, empirical-process/chaining estimates, and anti-concentration results while preserving model assumptions and the distinction between upper tails and small-ball bounds. |
+| [probability-concentration-chaining](../skills/probability-concentration-chaining/SKILL.md) | Select scoped concentration, deviation, chaining, anti-concentration, and certificate methods after matching the probability model, tail regime, and exact parameters. |
 | [probability-determinantal-dependence](../skills/probability-determinantal-dependence/SKILL.md) | Audit determinantal laws, negative dependence, and singularity claims for spanning-tree and forest measures. |
 | [probability-finite-query-direct-product](../skills/probability-finite-query-direct-product/SKILL.md) | Verify a finite deterministic, adaptively interleaved query tree against an exact capped direct-product bound for independent Boolean-input tasks. |
 | [probability-first-passage-growth](../skills/probability-first-passage-growth/SKILL.md) | Analyze first-passage percolation, geodesics and Busemann functions, random growth and competition, and max-flow questions when the exact weight law, lattice, dimension, or direction hypotheses matter. |

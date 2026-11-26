@@ -41,6 +41,8 @@ HS、Schatten_(2d+1)、平方函数与径向最大值为不同对象；源常数
 
 ## OpenAI 原稿中的方法
 
+- [Random-subspace trace reference](references/wave4-probability-b-random-subspace.md)
+
 - [Four-row permanent tensor interface](references/openai-four-row-permanent.md)
 - [Coordinate-sweep finite interfaces](references/openai-sweep-representation-interfaces.md)
 

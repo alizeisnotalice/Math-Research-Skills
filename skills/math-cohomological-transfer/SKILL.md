@@ -16,4 +16,26 @@ description: 核验链复形权截断、Mayer–Vietoris 条件、图状神经�
 
 ## OpenAI 原稿中的方法
 
+- [Nearby-cycle specialization detection](references/nearby-cycle-specialization-detection-arithmetic-1.md)
+- [Scoped transfer patterns from OpenAI arithmetic-2 sources](references/openai-arithmetic-2.md)
+- [Unitary fixed-space incidence interface](references/openai-group-unitary-incidence-wave4-spectral2.md)
+- [Boundary-only disk-embedding obstruction](references/openai-wave4-geoa2-boundary-disc.md)
+- [Cosmetic-surgery chain interface](references/openai-wave4-geoa2-cosmetic-surgery.md)
+- [Cyclic length and chromatic fixed-point loss](references/openai-wave4-geoa2-cyclic-chromatic.md)
+- [Filtered products and torus compression](references/openai-wave4-geoa2-filtered-products.md)
+- [Elementary expansion for coherator models](references/openai-wave4-geoa2-grothendieck-expansion.md)
+- [Hilbert--Smith p-adic exclusion interface](references/openai-wave4-geoa2-hilbert-smith.md)
+- [Prime-three Kervaire spectral-sequence interface](references/openai-wave4-geoa2-kervaire-three.md)
+- [K(n)-local finite-generation interface](references/openai-wave4-geoa2-kn-local.md)
+- [Marked tensor disk-embedding obstruction](references/openai-wave4-geoa2-marked-tensor-disc.md)
+- [Maximal coarse-assembly kernel interface](references/openai-wave4-geoa2-maximal-coarse.md)
+- [Marked PD4 chamber obstruction](references/openai-wave4-geoa2-pd4-marked-chamber.md)
+- [Varying-prime Smith--Toda interface](references/openai-wave4-geoa2-smith-toda.md)
+- [OpenAI assembly and Hochschild averaging references (Wave 4 geometry-a-1)](references/openai-wave4-geometry-a1-cohomology.md)
+- [Coset-complex stabilizer and intersection ledger](references/wave4-combinatorics2-coset-complex-stabilizers.md)
+- [Chosen-inverse fracture attachment signs](references/wave4-geoa3-fracture-filtration.md)
+- [Ordered K-local cofiber filtration](references/wave4-geoa3-k-local-filtration.md)
+- [Finite solid descent window for compact p-adic analytic groups](references/wave4-geoa3-solid-descent-window.md)
+- [Subdivided attachment comparison in strict higher categories](references/wave4-geoa3-thomason-attachments.md)
+
 - [Mod-p Milnor K reconstruction interfaces](references/milnor-k-characteristic-reconstruction.md)

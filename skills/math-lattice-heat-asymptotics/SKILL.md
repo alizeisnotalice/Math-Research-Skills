@@ -18,3 +18,7 @@ or when a d-dimensional independent-coordinate kernel is its d-th power.  It pro
 Read [the proof and boundaries](references/nearest-neighbor-heat-kernel.md) before transferring this calculation to a physical observable.  State the dispersion, kernel normalization, dimension, and any external time scaling (for example t=beta S).  The calculation proves only the ideal lattice heat-kernel expansion; it does not prove an interaction correction or identify a model-dependent remainder.
 
 For a different finite-range dispersion, do not reuse the coefficient 1/16.  First derive the Taylor jet at its non-degenerate minima and separately control all other frequencies.
+
+## OpenAI 原稿中的方法
+
+- [Primitive sextic packet: scoped cusp-tightness template](references/openai-arithmetic-2.md)

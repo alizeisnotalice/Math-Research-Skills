@@ -57,3 +57,7 @@ description: 构造或审查非局部 HJB 超解，核对生成元、边界条�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Affine-minimum plateau for mass-action systems](references/wave4-combinatorics-1-mass-action-affine-plateau.md)

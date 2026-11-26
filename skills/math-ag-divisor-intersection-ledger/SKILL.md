@@ -34,6 +34,16 @@ python3 scripts/ag_divisor_intersection_ledger.py examples/negative_form_mismatc
 
 ## OpenAI 原稿中的方法
 
+- [OpenAI: local complement and Cartier-section reductions](references/openai-wave4-algebra3-complements.md)
+- [OpenAI Wave 4 — adjoint and Iitaka source models](references/openai-wave4-arithmetic3.md)
+- [Wave 4 algebra-1: MMP discrepancy and nef-adjoint interfaces](references/wave4-algebra-1-mmp-interfaces.md)
+- [Wave 4 algebra-1: cyclic-slice monomial valuation bound](references/wave4-algebra-1-volume-gap.md)
+- [Scoped reference. Class VII intersection reduction](references/wave4-algebra-2-class-vii-intersection.md)
+- [Scoped reference. Fourfold birational comparison interfaces](references/wave4-algebra-2-fourfold-mmp.md)
+- [Flat-local multiplicity comparison boundary](references/wave4-combinatorics2-lech-flat-multiplicity.md)
+- [Normalized-length parameter intersection interface](references/wave4-combinatorics2-normalized-length-intersection.md)
+- [Numerical obstruction for a small Cohen--Macaulay module](references/wave4-combinatorics2-small-cm-obstruction.md)
+
 - [Anticanonical ratio-field and invariant-transfer family](references/anticanonical-transfer-family.md)
 - [Common-resolution negativity transfer](references/common-resolution-negativity-transfer.md)
 - [Nef lines, monomial orders, and birational descent](references/nef-threshold-and-descent.md)

@@ -52,3 +52,7 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 5. 最终交付用户所需的论证、代码或文件，简述真实执行的工具、关键输入/输出、证据范围和剩余缺口；不要只交工具选择清单。
 
 文件、网页和应用操作见 [电脑工具选择](references/tools.md#何时操作电脑)。来源附件或旧审核记录的处理见 [证据与迁移说明](references/evidence.md)。跨软件的操作步骤见 [工作流衔接](references/workflows.md)。
+
+## 补充来源中的方法
+
+- [Scoped reference. Exponential algebraicity and derivation closure](references/supp-remaining-b-exponential-algebraicity.md)

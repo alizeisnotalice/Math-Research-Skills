@@ -1,0 +1,5 @@
+# Marked tensor disk-embedding obstruction
+
+Source: OpenAI, *A marked tensor obstruction to four-dimensional disk embedding*, 24 September 2026, [pinned PDF](https://raw.githubusercontent.com/openai/math/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/paper.pdf), SHA-256 `6453a6d9ab0cf56629cf67b7a90191b6846933691faf1960c9be2fad15e17d28`.
+
+**Scoped reference.** This is a boundary-and-framing-preserving version of the four-dimensional disk-embedding counterexample: the asserted input is immersed discs with framed algebraic dual spheres meeting the standard equivariant intersection and reduced-self-intersection conditions, while the output excludes pairwise disjoint locally flat replacements that preserve boundary maps and induced normal framings. The operation passes through a marked geometric reduction and a square-zero parameter algebra, then uses the stated cubic/gradient-ideal and completed-form comparisons. The locus is physical pp. 1, 6--15, 45--48, and 51--52. No unmarked disc-embedding principle or arbitrary relative-homotopy conclusion is adopted.

@@ -43,3 +43,11 @@ description: 使用熵链式分解分析联合与条件分布，核对可测性�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Bernoulli-convolution prefix realization](references/wave4-combinatorics-1-bernoulli-convolution-prefix.md)
+- [Finite-span tensor packing for selected laws](references/wave4-combinatorics-1-fourfold-tensor-packing.md)
+- [Selected finite-grid laws for mixing averages](references/wave4-combinatorics-1-mixing-selected-laws.md)
+- [Entropy cancellation on dissociated labels](references/wave4-combinatorics-1-rokhlin-entropy-cancellation.md)
+- [Averaged grid entropy calculus](references/wave4-combinatorics-1-self-similar-entropy.md)

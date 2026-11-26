@@ -37,6 +37,9 @@ description: 将局部轴对称不可压缩模型嵌入受迫 Navier--Stokes 场
 
 ## OpenAI 原稿中的方法
 
+- [Bump injection and diffusion budget](references/openai-bump-injection-diffusion-budget.md)
+- [Constructed-flow residual energy identity](references/openai-constructed-flow-residual-energy.md)
+
 - [Positive diagonal compensation path](references/openai-positive-diagonal-compensation.md)
 - [Reciprocal sheet pulses](references/openai-reciprocal-sheet-pulses.md)
 - [Scale-separated curl packet sum](references/openai-scale-separated-curl-sum.md)

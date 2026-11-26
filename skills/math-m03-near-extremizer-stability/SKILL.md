@@ -44,3 +44,7 @@ description: 分析近极值稳定性与刚性，核对亏损量、对称性、�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## OpenAI 原稿中的方法
+
+- [Scoped reference. Attained radial defect and aligned chords](references/wave4-geoa3-tingley-defect-alignment.md)

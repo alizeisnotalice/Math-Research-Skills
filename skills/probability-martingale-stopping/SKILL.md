@@ -35,3 +35,7 @@ Read [method.md](references/method.md) for proof routes and assumption audits, [
 ## 有限 e-process 的逆矩和 II 类错误
 
 对于独立且确定调度的二元乘子，用[有限逆矩审计](references/finite_inverse_moment_type_ii.md)核验条件 e-variable 约束、固定时域和时域内首次跨界的 II 类错误。
+
+## OpenAI 原稿中的方法
+
+- [Wave 4 PA3: massive-interface scalar and martingale interface](references/openai-wave4-pa3.md)

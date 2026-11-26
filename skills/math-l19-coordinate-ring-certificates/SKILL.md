@@ -43,4 +43,6 @@ description: 验证坐标环构造中的 cusp 关系、非单位除法消元和�
 
 ## OpenAI 原稿中的方法
 
+- [Exact Jordan strata after determinant normalization](references/openai-arithmetic-2.md)
+
 - [Stable coordinate in four variables](references/stable-coordinate-four-variables.md)

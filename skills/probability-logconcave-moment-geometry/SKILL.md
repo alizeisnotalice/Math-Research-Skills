@@ -28,3 +28,7 @@ The stored finite-dimensional calculation in evidence/W11/notes/numeric-check.tx
 For a log-concave posterior with an explicit positive quadratic curvature term, or for transferring a verified log-concave entropy inequality to a centered convex body through its cone density, read [curvature and cone transfer](references/curvature-and-cone-transfer.md). These are conditional interfaces with their own normalization and do not extend the general \(Z_p\) routes above.
 
 比较两个平滑强凸 Gibbs 势时，读[同步漂移的 Wasserstein 比较](references/synchronous-drift-comparison.md)。
+
+## OpenAI 原稿中的方法
+
+- [Wave 4 PA3: finite lattice-Gaussian comparison interface](references/openai-wave4-pa3.md)
