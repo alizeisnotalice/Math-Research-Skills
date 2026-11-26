@@ -62,3 +62,7 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 
 - [Fermat-reciprocal Mahler--Padé lifting](references/fermat-mahler-pade-wave5-c07-09.md)
 - [Sparse exponent support admission](references/sparse-exponent-transcendence-admission.md)
+
+## 文献复核采用的构件
+
+- [Type-II apwenian substitution admission](references/apwenian-type-ii-substitution-admission-wave8.md)

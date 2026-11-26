@@ -1,0 +1,7 @@
+Command:
+python3 ../scripts/hypergeometric_tail_bound_wave8.py --a 1 --b 1 --n 0 --z 1
+
+Expected result: nonzero exit after `D = 1`.
+
+At this endpoint the geometric-series denominator 1-D vanishes, so it is
+not a tail certificate.

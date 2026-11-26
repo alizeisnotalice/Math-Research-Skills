@@ -8,6 +8,8 @@
 - arithmetic-circuit lower bounds。Abstract; Theorem 1.1 (physical p.2)。在任意特征下对 Hamiltonian-cycle 多项式、且特征非二时对 permanent，声称算术电路规模具有 m^{c(log m)^{1/3}} 下界；这是算术而非布尔电路结论。
 - 条件或证据待查。全域下界证明及所称 Lean 工件均未逐项审计。 仅核对题名、摘要和主定理陈述；未核对证明、代码库、形式化范围或与现有工具的可迁移性。
 - 第五批定向筛选。unresolved。The asserted VP != VNP result is said to be Lean-formalized, but no Lean project, commit, theorem name, or dependency manifest is included in the raw paper; the primary proof dependency is therefore unavailable. 后续条件。Acquire the Lean repository/commit and build instructions, reproduce the theorem, and isolate any standalone finite algebraic lemma.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The source names its main Lean theorem and Mathlib revision, but the bundled text itself says the printed Lean file contains definitions only and records divergences from the prose route. Without the associated project and a replayed build, the claimed general circuit lower bound cannot yield a standalone verified component.。定位。1, 2, 66, 70。全卷 70 页。后续条件。The canonical Lean release/revision, reproducible build log, and a selected finite circuit lemma with an explicit input/output contract.。
 
 ## A03 · A 2^o(n) Time Algorithm for 3-SAT
 
@@ -15,6 +17,8 @@
 - exact exponential algorithms。Abstract; Theorem 1 (physical p.1)。声称对 k-CNF 计数给出 2^{o(n)} 确定性算法，因此按文中定义否定 ETH；对象是输入变量数与子句数均须跟踪的计数问题。
 - 条件或证据待查。算法递归、运行时间常数及 Lean 形式化工件未审计。 不能由摘要或定理页确认 ETH 反例；未形成可调用数学工具。
 - 第五批定向筛选。unresolved。The asserted subexponential #3-SAT algorithm is said to be Lean-formalized, but no formal artifact or executable recurrence/cost certificate is included in the raw source for independent dependency checking. 后续条件。Acquire the Lean project/commit and exact algorithm specification; reproduce its asymptotic and finite-cost bounds before considering adoption.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The paper gives an asserted #3-SAT rate, but its Lean appendix describes a definitions-only file and explicitly leaves encoding and machine-simulation steps outside the formal proof. The recursion and a complete finite cost certificate are not supplied as an executable artifact.。定位。1, 2, 40, 44。全卷 49 页。后续条件。Pinned source of the algorithm and Lean proof, plus a finite recurrence/cost verifier that covers the text-to-machine encoding bridge.。
 
 ## A09 · Discovering state-of-the-art quantum circuits with large language models
 
@@ -36,6 +40,8 @@
 - 3-SAT asymptotic crossover analysis。Abstract and introductory main-result paragraph (physical p.1)。对所称 Anthropic #3-SAT 递归的显式常数和分组参数作交叉点估计，声称降低若干渐近界的实际交叉规模。
 - 条件或证据待查。关键递归及 2^{o(n)} 基础结果依赖 A03，且各常数推导未逐页复核。 不能将数值交叉点或 ETH 结论当作已核验的算法证书。
 - 第五批定向筛选。unresolved。Its crossover estimates explicitly depend on the unverified A03 recursion and its proved constants; without that upstream formal/executable artifact the claimed numerical crossover interface has no checked dependency chain. 后续条件。First resolve A03 with its Lean/executable proof artifacts, then obtain the integer tables and recurrence inputs used for this crossover calculation.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The local arXiv:2610.41622v1 manuscript's crossover calculations and Signed Network Sums analysis explicitly build on the unclosed Anthropic #3-SAT recursion. Although scripts are linked by the record, neither the upstream proof artifact nor the claimed integer tables/schedules are in this assigned bundle.。定位。1, 2, 3, 4, 54, 55, 56。全卷 56 页。后续条件。First close the upstream #3-SAT recurrence; then pin and run the cited scripts with all schedule and integer-table inputs.。
 
 ## A26 · A Mathematical Theory of the Jacobian Lens
 
@@ -43,6 +49,8 @@
 - dynamical-systems analysis of neural representations。Abstract; Sections 1–2 and displayed bound (8) (physical pp.1,3–4)。把 transformer 深度与 token 位移下的 Jacobian 平均联系到有限时间/对流 Lyapunov 模态；在上下文残差重叠受控等假设下，平均抑制不相干方向。
 - 条件或证据待查。结论取决于文中 Jacobian 分解、独立上下文重叠界及前序 J-lens 定义；均未完整审计。 只核对局部数学叙述，未验证模型实验或把该不等式移用于其他网络。
 - 第五批定向筛选。unresolved。The J-lens paper is model- and data-dependent. This screen found no standalone finite mathematical interface whose hypotheses can be checked without the cited architecture, trained models, and empirical setup. 后续条件。Provide the precise J-lens definition, model checkpoints/data, and a bounded theorem with all dynamical assumptions isolated.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The local 27-page Jacobian-Lens preprint states a conditional suppression inequality for independent contexts and bounded modal scales, not a generic finite operator certificate. Moreover, arXiv now lists v2 while this local source has no matching current-version identifier, so its scope cannot be promoted from the checked local text.。定位。1, 3, 4。全卷 27 页。后续条件。A pinned version, precise J-lens/Jacobian inputs, and a reproducible finite model/checkpoint dataset that verifies the stated coherence assumptions.。
 
 ## A27 · Hilbert Series in Four Variables and Linear Factors of High Multiplicity
 
@@ -58,6 +66,8 @@
 - formalized inverse problems。Abstract; introduction (physical pp.1–2)。介绍 AutoIP 的 Lean 4 正则化理论库，并强调形式证明只认证已编码陈述，仍须核对自然语言命题与假设是否一致。
 - 条件或证据待查。库覆盖度、接口和每项形式化定理均未检查。 可作形式化审阅流程线索；不把工作进行中的库视为已安装或已验证工具。
 - 第五批定向筛选。hold。arXiv:2611.06962v1 calls AutoIP work in progress. The overview correctly limits formal certification to statements actually encoded, but it supplies no stable repository revision or checked theorem interface to distill. 定位。physical pp. 1-2; 13-page PDF 后续条件。Pin a public Lean repository revision, identify a theorem with its exact types and hypotheses, and compile it before creating a formalization route.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The current arXiv v1 overview correctly says that Lean certifies only the statement actually encoded, but it is explicitly work in progress and supplies no pinned AutoIP repository revision or theorem-level interface to inspect and compile.。定位。1, 2。全卷 13 页。后续条件。Public repository revision, exact theorem declarations and dependencies, followed by a successful Lean build and statement-to-prose audit.。
 
 ## G13 · Applications of a theorem by A. B. Shidlovski
 
@@ -65,6 +75,8 @@
 - E-functions and Shidlovskii theory。physical p.1 image-only; no machine-readable theorem locator。库存题名表明主题为 Shidlovskii 定理的应用，但该副本 25 页均无可提取文本，未能从原页确认作者、版本或命题。
 - 条件或证据待查。不可读的源文本阻断对所用 E-函数假设和外部定理的审计。 需人工视觉定位或可检索版本后再提取；当前不得采用任何数学结论。
 - 第五批定向筛选。hold。Mahler's 1968 Proceedings of the Royal Society paper is formally published (DOI 10.1098/rspa.1968.0111), but this local 25-page scan is image-only and no theorem or hypothesis could be verified from the actual copy. 定位。physical p. 1 (image-only); 25-page PDF 后续条件。Acquire searchable authoritative text or manually transcribe and verify the specific Shidlovskii application before use.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The supplied 25-page copy is image-only: actual p.1 has no extractable theorem text. Publication metadata alone cannot identify the statement, hypotheses, or which Shidlovskii application would be usable.。定位。1。全卷 25 页。后续条件。Searchable authoritative text or a checked manual transcription of the selected theorem and all E-function hypotheses.。
 
 ## G18 · How can we escape Thomae's relations?
 
@@ -80,6 +92,8 @@
 - 构件候选。每个包的正确性、整数性、误差界和非零性均须按具体常数另审，本文概述不构成通用证明。 候选是“搜索与审计分离”的工作流，不部署脚本、不采纳任一自动发现结论。
 - 相关入口。[math-tool-router](../../../math-tool-router/SKILL.md)。
 - 第五批定向筛选。unresolved。The PDF identifies its concrete automatic outputs as external Maple packages; those packages and their generated certificates are not in the assigned raw bundle, so the claimed automated proof/measure dependencies cannot be checked here. 后续条件。Acquire the cited ALLADI/GAT/BEUKERS/SALIKHOV package sources and representative output certificates; then screen their exact recurrences and integrality bounds.
+- 复核记录。2026-11-26T18:35:59+08:00。citation。citation。
+- 本次依据。This is the arXiv v1 text with a 2021 journal reference. It explicitly presents four external Maple packages and distinguishes automatic discovery from proof completion; those packages and their generated integrality, error, and nonvanishing certificates are absent here.。定位。1, 2。全卷 10 页。后续条件。Acquire pinned ALLADI/GAT/BEUKERS/SALIKHOV sources and concrete outputs before screening any constant-specific certificate.。
 
 ## G21 · Mellin transforms, transfinite diameter and rational approximations of integrals
 
@@ -143,6 +157,8 @@
 - 条件或证据待查。作者明确把核心 holonomy 结果及一个算子不可约步骤作为假设/继承项；这些决定性依赖未闭合。 不得采纳四项线性无关或相关无理性结论；仅记录条件性路线。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
 - 第五批定向筛选。hold。The local 2026 preprint makes its logarithm-product conclusions conditional on arithmetic-holonomy and irreducibility inputs. Those decisive inputs were not closed, so no linear-independence claim is reusable. 定位。physical pp. 1-2; 27-page PDF 后续条件。Verify the exact holonomy theorem and the required differential-operator irreducibility for each proposed application.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The source itself makes its logarithm-product independence results conditional on an unrefereed arithmetic-holonomy preprint and an inherited irreducibility step. Its asserted exact/ball certificates are not provided in the PDF bundle, so no independent finite certificate is available.。定位。1, 2。全卷 27 页。后续条件。Pinned certificate data and software, plus a checked version of the holonomy theorem and the order-13 operator irreducibility input.。
 
 ## G42 · Linear independence of odd zeta values using Siegel's lemma
 
@@ -150,6 +166,8 @@
 - zeta linear independence via Siegel lemma。Abstract; Theorem 1 (physical p.2); Section 2 roadmap (p.4)。声称对充分大奇 s，1 与 ζ(3),…,ζ(s) 的 Q-张成维数至少为 0.21√(s/log s)，路线是非显式 Siegel 引理线性形式、精化线性独立判据和 Shidlovskii 型重数估计。
 - 条件或证据待查。新判据、重数估计及常数优化的证明链未逐项复核。 不能把渐近维数下界转用于 γ、单个奇 ζ 值或有限 s。
 - 第五批定向筛选。hold。This 2026 author preprint's asymptotic odd-zeta span bound depends on its refined Siegel-lemma criterion and Shidlovskii-type multiplicity estimate; neither proof chain was adopted or independently checked. 定位。physical pp. 1-2, 4; 46-page PDF 后续条件。Audit the non-explicit linear forms, multiplicity estimate, and all parameter ranges before using the stated asymptotic bound.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The author preprint explicitly bases its asymptotic odd-zeta span lower bound on a new refined linear-independence criterion and a Shidlovskii-type multiplicity estimate. The local theorem page is not a finite-s certificate and no independently checked proof chain or parameter certificate is supplied.。定位。1, 2, 4。全卷 46 页。后续条件。Audit the non-explicit Siegel forms, multiplicity estimate, criterion, and asymptotic parameter ranges before any selected application.。
 
 ## G42 · Linear independence of values of Dirichlet L-functions
 
@@ -157,6 +175,8 @@
 - Dirichlet L-value linear independence。Abstract; introduction remarks and construction roadmap (physical pp.1,3–4)。对 Dirichlet character 的相反奇偶性 L 值，声称在 Q(ζ_{φ(N)}) 上给出约 √(s/log s) 的张成维数下界，并推广 Fischler 的主特征情形。
 - 条件或证据待查。依赖精化 Siegel 引理、线性独立判据和 Shidlovskii 型引理，且关联的 Fischler 结果未在本次闭合审计。 不从此推出单个 L 值的无理性，亦不转移到 γ。
 - 第五批定向筛选。hold。arXiv:2512.02612v2 is a preprint whose Dirichlet-L span claim imports the same refined Siegel-lemma and multiplicity machinery. It gives neither a direct Euler-constant tool nor a checked standalone finite certificate. 定位。physical pp. 1, 3-4; 36-page PDF 后续条件。Verify the cited Fischler extension, multiplicity lemma, and character/parity assumptions for any selected L-value application.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The local arXiv:2512.02612v2 matches the current record, but its Dirichlet-L span claim rests on non-explicit Siegel forms, a refined criterion, and a Shidlovskii-type lemma. It provides no direct Euler-constant result or standalone finite L-value certificate.。定位。1, 3, 4。全卷 36 页。后续条件。A checked proof of the cited linear-independence and multiplicity steps together with explicit character, parity, and parameter data for a finite application.。
 
 ## G48 · Computing hypergeometric functions rigorously
 
@@ -165,6 +185,9 @@
 - 构件候选。完整算法还依赖参数变换、分支选择及 Arb/实现的定向区间保证；本次未运行或审计代码。 可作为带条件的尾界线索；不能把其实现能力等同于本机现有区间 API 已验证。
 - 相关入口。[math-l03-rational-and-interval-certificates](../../../math-l03-rational-and-interval-certificates/SKILL.md)。
 - 第五批定向筛选。unresolved。The paper describes an Arb-based arbitrary-precision implementation, but its required implementation/library dependency is not part of this input and no bounded self-contained algorithmic certificate was isolated in this screen. 后续条件。Provide the referenced Arb source/version and a target-function test suite with interval outputs; then distill a verified evaluation interface.
+- 复核记录。2026-11-26T18:35:59+08:00。adopted-local。component。
+- 本次依据。Physical p. 7 states a self-contained ratio-majorant theorem, and its proof reduces the tail to a geometric series. The exact real-rational tail factor is independently replayed locally.。定位。Theorem 1 and proof, physical p. 7。全卷 27 页。后续条件。For a concrete evaluation, supply the exact hypergeometric summand, a certified value/enclosure for T(N), and directed complex arithmetic if parameters are not rational real.。
+- 已采用构件。物理页 7。For a supplied hypergeometric summand, the stated p<=q+1, Re(b_i+N)>0, and D<1 hypotheses certify the explicit geometric tail multiplier; no complex interval implementation is adopted. [方法说明](../../../math-l03-rational-and-interval-certificates/references/g48-hypergeometric-tail-bound-wave8.md)。
 
 ## G52 · Transcendence results for Γ^(n)(1) and related sequences of generalized constants
 
@@ -173,6 +196,8 @@
 - 条件或证据待查。算术部分使用 Shidlovskii 定理及生成函数论证；其适用和所有外部前提未独立复核。 保留 γ+δ/e=η 型身份的背景，不将析取结论强化为 γ 的结论。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
 - 第五批定向筛选。no-adopt。The arXiv:2511.01849v7 source gives useful Gumbel-moment identities, but its gamma-derivative Bell-polynomial content is already represented by the installed gamma recurrence tooling. Its transcendence claims depend on Shidlovskii applications and do not establish irrationality of gamma. 定位。physical pp. 1-2, 5; 15-page PDF 后续条件。A distinct adoption would need a new, fully specified generalized-constant computation not reducible to the existing Bell/gamma-zeta interface.
+- 复核记录。2026-11-26T18:35:59+08:00。scoped-reference。statement。
+- 本次依据。Physical pp. 2 and 5--6 give Gumbel-moment identities and derivative/transcendence statements, but the finite gamma/Bell recurrence interface already covers the computable derivative content. Its arithmetic conclusions do not decide irrationality of Euler's constant.。定位。Definitions and identities (5)--(10), physical p. 2; Theorem 1 and proof, pp. 5--6。全卷 15 页。后续条件。A new admission needs a fully specified generalized-constant computation that is not reducible to the installed gamma/Bell interface; preserve any Shidlovskii hypotheses for arithmetic claims.。
 
 ## G57 · Special values of derivatives of L-series and generalized Stieltjes constants
 
@@ -181,6 +206,8 @@
 - 条件或证据待查。决定性的 Conjecture 1 未证明，且 L′(1,f) 到常数的线性关系须保留其周期函数假设。 不转化为通常 Euler 常数 γ 的无理/超越结论，也不删除条件。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
 - 第五批定向筛选。no-adopt。The formal Acta Arithmetica 2018 paper (DOI 10.4064/aa170615-13-3) derives its generalized-Stieltjes transcendence count conditional on the Gun-Ram-Murty-Rath conjecture. It is not a statement about ordinary gamma and creates no new unconditional local tool. 定位。physical pp. 3-4; 11-page PDF 后续条件。Any use must retain Conjecture 1 and verify periodic-function, parity, and nonvanishing hypotheses for the specified L-series.
+- 复核记录。2026-11-26T18:35:59+08:00。citation。citation。
+- 本次依据。The L-derivative/generalized-Stieltjes conclusions are explicitly conditional on the Gun--Ram Murty--Rath conjecture and concern generalized constants rather than ordinary Euler gamma.。定位。Conjecture 1, Theorems 1.1--1.2 and L'(0,f) relation, physical pp. 2--5。全卷 11 页。后续条件。Retain and separately establish Conjecture 1, plus the periodic-function, parity, and nonvanishing hypotheses for any specified L-series before using its count.。
 
 ## O22 · A gauge-invariant measure for lattice chiral fermions
 
@@ -195,6 +222,8 @@
 - quantum Yang--Mills status statement。committee statement, pp. 1--2。委员会仅报告 OpenAI 声称构造含费米子的量子 Yang--Mills 连续极限；同时明确质量隙与禁闭仍未解决，正式证明及 Lean 对应仍待发布和核对。
 - 条件或证据待查。该文本本身不含定义、RG 估计或证明；结论依赖尚未公开的 OpenAI 手稿与未来审查。 未阅 OpenAI 原证明、形式化文件或委员会后续评估。
 - 第五批定向筛选。no-adopt。This two-page committee statement reports an unreviewed OpenAI claim but supplies neither definitions nor proof artifacts. It explicitly leaves mass gap and confinement unresolved. 定位。physical pp. 1-2; 2-page PDF 后续条件。Wait for a public primary manuscript/formalization and a theorem-level review before any mathematical tool is distilled.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The two physical pages are a shepherding-committee status statement, not a proof: definitions, estimates, primary manuscript, and Lean objects are absent; it expressly leaves mass gap and confinement open.。定位。Committee statement, physical pp. 1--2。全卷 2 页。后续条件。A public primary manuscript or formalization plus theorem-level independent review and replay.。
 
 ## O27 · A Proof of the Linear Hadwiger Conjecture
 
@@ -202,6 +231,8 @@
 - graph minors and colouring。Theorems 2--4; §2.1。对 Hadwiger 数 h(G)<t 的图，作者声称存在绝对 C 使 χ(G)≤C h(G)；路线先处理 |V|≤t(log t)^{1/2-ε}，再用既有归约提升到 polylog 规模。
 - 条件或证据待查。关键归约显式依赖 Delcourt--Postle 的定理；小图范围的两个关键引理及 bootstrap 尚未逐项核验。 仅核对开篇定理和 §2.1 路线，未核验关键引理、常数或完整 preprint。
 - 第五批定向筛选。hold。The 41-page arXiv:2610.05291v1 preprint's Theorems 4-5 give a clear small-order-to-polylog bootstrap, but adoption would rely on the central Theorem 5 proof and Delcourt-Postle reduction; those proof dependencies were not fully checked in this screening pass. 定位。physical pp. 1-2, 5; 41-page PDF 后续条件。Verify Theorem 5's exponent-boost proof and the exact imported Delcourt-Postle reduction before adding a graph-colouring component.
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The 41-page preprint gives a potentially reusable small-order-to-polylog bootstrap, but its asserted linear Hadwiger conclusion depends on central Theorem 5 and an imported Delcourt--Postle reduction not replayed here.。定位。Theorems 2--5 and Section 2.1, physical pp. 1--5。全卷 41 页。后续条件。Verify the exact Delcourt--Postle version and all hypotheses, then replay the exponent-boost proof of Theorem 5 with its constants.。
 
 ## O28 · The occupation time of a random walk generated by the uniform random permutation -- a GPT-6 Astra proof
 
@@ -238,6 +269,8 @@
 - Falconer distance and microlocal energy。Theorem 1.1; §§3--8。声称对紧集 E⊂R^d、dim_H E>d/2 证明距离集有正 Lebesgue 测度；证明组织为距离测度、microlocal Mattila 积分及左右分支区间切割。
 - 条件或证据待查。主结论依赖多尺度分支切割、M/E 状态转换及 Proposition 2.2；仅定位章节结构，未核验这些估计。 未检查全部频率分解、端点/紧性处理或与原 OpenAI 证明的实际依赖。
 - 第五批定向筛选。hold。This is a third-party explanatory arXiv:2611.13789v1 manuscript, not an OpenAI original. Its Falconer proof depends on Proposition 2.2 and the multiscale M/E transition estimates, which were not checked; existing Frostman preprocessing remains the only admitted local component. 定位。physical pp. 1, 3, 14; 20-page PDF 后续条件。Verify Proposition 2.2 and the full branching-energy induction, or use an audited primary OpenAI source, before extending Falconer tooling.
+- 复核记录。2026-11-26T18:35:59+08:00。adjacent。context。
+- 本次依据。This is a third-party Falconer exposition. Its source-stated route uses Proposition 2.2 and multiscale M/E transitions that were not verified, while the existing Frostman-energy preprocessing already covers the only local prerequisite isolated here.。定位。Theorem 1.1; Sections 3--8; Proposition 2.2, physical pp. 1, 3, 14。全卷 20 页。后续条件。An audited primary source, or a full replay of Proposition 2.2 and the branching-energy induction including endpoint and compactness conditions.。
 
 ## O33 · The satisfiability conjecture for random k-SAT formulas: Human-friendly exposition of the recent OpenAI resolution
 
@@ -245,6 +278,8 @@
 - random k-SAT threshold。Abstract; §3 roadmap and technical propositions。文本阐释随机 k-SAT 的可满足性阈值：固定子句/变量比附近概率急剧转变；其路线讨论条件下解数集中、超可加变体及相变窗口。
 - 条件或证据待查。核心阈值论证依赖文中 Proposition 3.7、3.10 及所引用 OpenAI/Carenini 结果，未逐条审计。 未核验一般 k 的定量窗口、原始解析论证或预印本间的版本关系。
 - 第五批定向筛选。hold。The arXiv:2611.10139v1 human-oriented k-SAT exposition cites OpenAI/Carenini results and rests on technical Propositions 3.7 and 3.10. It has no independently checked primary threshold proof or finite SAT certificate. 定位。physical pp. 1, 3, 11; 19-page PDF 后续条件。Compare with the cited primary proof, then verify the concentration and superadditivity propositions with all fixed-k and density-window hypotheses.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The human-friendly random k-SAT exposition routes the threshold assertion through cited OpenAI/Carenini work and technical Propositions 3.7 and 3.10; no primary proof or finite certificate is supplied by this source.。定位。Roadmap and technical propositions, physical pp. 1, 3, 11。全卷 19 页。后续条件。Compare the cited primary proof and verify the concentration and superadditivity propositions with fixed-k and density-window hypotheses.。
 
 ## O34 · A Note on OpenAI's Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture
 
@@ -330,6 +365,8 @@
 - computational fluid comparison。Abstract; §§4--7 roadmap。文章把旧的 porous-wall exact swirl 与所称 OpenAI 强迫爆破相似变量比较，并报告 Chebyshev collocation、continuation、manufactured/resolution checks 与一个负结果。
 - 版本与引用。数值比较依赖离散化、Newton/continuation 参数和公开代码；它不能验证强迫 Navier--Stokes 有限时爆破。 未重跑数值、检查误差证书、或核验与 OpenAI profile 的变量字典。
 - 第六批定向筛选。candidate。The preprint reports a potentially reusable Chebyshev-collocation/continuation diagnostic, but its own physical pages show unresolved wall-layer eigenvalue nonconvergence, so no validated component is extracted. 定位。Abstract p.1; numerical workflow p.4; unresolved mode variation p.17.。全卷 31 页。 后续条件。Need source code, parameters, residual definitions, convergence criterion, and a numerical error certificate that resolves the stated instability.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The preprint's collocation/Newton/continuation comparison is explicitly numerical and its own wall-layer eigenvalues fail to converge under refinement and mapped grids, so it supplies no validated PDE diagnostic component.。定位。physical p. 1 (preprint objective); p. 4 (numerical workflow); p. 17 (unresolved grid-dependent eigenvalues)。全卷 31 页。后续条件。Obtain code, exact discretization/continuation parameters and residual norms, then supply a directed numerical error certificate resolving the wall-layer mode instability.。
 
 ## O43 · The Erdős--Sós Conjecture: A Visual Exposition of the Proof Discovered by GPT-6 Astra
 
@@ -344,6 +381,8 @@
 - extremal tree embedding。Theorem 1; introductory reductions。这是 Erdős--Sós 声称证明的短 exposition；它区分 minimum-degree 贪心结论与平均度严格阈值的真正难点。
 - 条件或证据待查。中心证明依赖引用的 GPT-6 Astra/Lean 结果和文中未在本次逐节复核的计数论证。 未核验主证明、Lean 工件或所有 t≥2 的边界情况。
 - 第六批定向筛选。hold。The exposition states the Erdős--Sós theorem but attributes the proof and Lean verification to external GPT-6/FrontierMath artifacts not physically available here. Its introductory greedy argument only proves a stronger minimum-degree case. 定位。Theorem 1 and contrast with the greedy minimum-degree reduction p.1; Ramsey consequence p.2.。全卷 7 页。 后续条件。Require the cited primary proof/Lean repository and a theorem-to-artifact replay covering every t>=2 boundary case.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The short Erdős--Sós exposition attributes its claimed proof and Lean verification to unavailable external artifacts. Its elementary greedy discussion addresses only a stronger minimum-degree premise, not the average-degree theorem.。定位。Theorem 1 and minimum-degree contrast, physical pp. 1--2。全卷 7 页。后续条件。The cited primary proof/Lean repository and a theorem-to-artifact replay covering every t>=2 boundary case.。
 
 ## O43 · A short proof of the Erdős--Sós Conjecture
 
@@ -373,6 +412,8 @@
 - 版本与引用。核心等式依赖未证的周期猜想及动机范畴；不是可直接产生 γ 整数线性形式的定理。 未逐章核对其动机形式主义；只核对了与周期猜想和 ζ/log 示例有关的段落。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
 - 第六批定向筛选。candidate。The motive-period discussion makes the stated algebraic-independence consequences explicitly conditional on Grothendieck's period conjecture. It treats rational Gamma values, logarithms, and odd zeta values, but gives no realization of Euler's constant as a covered period or any integer linear form for it. 定位。Grothendieck period conjecture, physical p. 7; Gamma/log/zeta consequences, physical p. 10.。全卷 13 页。 后续条件。A proved realization of Euler's constant in the relevant motivic period category plus an unconditional theorem covering it.
+- 复核记录。2026-11-26T18:35:59+08:00。citation。citation。
+- 本次依据。This survey explicitly presents its period-Galois consequences under Grothendieck's period conjecture and gives no Euler--Mascheroni realization or integer linear form. It is contextual, not an unconditional callable theorem.。定位。physical pp. 7-9 (period torsor and conjecture); p. 10 (Gamma-value examples and conditional consequences)。全卷 13 页。后续条件。Require a proved motivic realization of the target plus an unconditional period theorem; do not route an Euler-constant question through the conjectural discussion.。
 
 ## P18 · Transcendence and linear relations of 1-Periods
 
@@ -442,6 +483,8 @@
 - odd-zeta simultaneous Padé linear forms。Introduction; Théorèmes 1–2。证明 δ(a)=dim_Q⟨1,ζ(3),…,ζ(a)⟩ 至少为 (1/3)log a，并渐近达到 log(a)/(1+log 2)；还给出某奇 j≤169 使 1、ζ(3)、ζ(j) 线性无关。
 - 构件候选。路线以 Nikishin 型多对数第一类 Padé、奇偶消去、分母控制与 Nesterenko 判据组成；每项缺失都不能推出维数下界。 只核对扫描件引言和两条主定理；尚未逐页复核后续 Padé 系数和渐近优化。
 - 第五批定向筛选。unresolved。The assigned supplement's text encoding is not reliably extractable with the available bundled reader, so its difference from the preceding zeta source and its internal dependency chain cannot be established from this pass. 后续条件。Provide a searchable/OCR-clean copy or a publisher PDF; compare theorem statements, normalization, and proof dependencies against P31 before adoption.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The 17-page scanned Ball--Rivoal supplement is not reliably machine-readable in the available source copy, so neither its precise theorem normalization nor the Padé/integrality/asymptotic dependency chain was verified.。定位。Scan identity and stated introductory theorems; physical pp. 1--17。全卷 17 页。后续条件。A searchable authoritative copy or a manual page-verified transcription, followed by comparison with P31 and replay of the Padé coefficients, denominator control, and Nesterenko criterion.。
 
 ## P36 · The Unbounded Denominators Conjecture
 
@@ -456,6 +499,8 @@
 - classical exponential-logarithm approximation。title page。Mahler 关于指数函数与对数逼近的第一部分，扫描首页确认论文身份与期刊卷年。
 - 版本与引用。本轮只核对身份，未提取定理及其假设；不能据此把经典逼近法转写为 γ 的无理性工具。 扫描文字不可机器提取，未审阅正文公式和版本关系。
 - 第六批定向筛选。hold。The physical PDF is a scan. Visual inspection of physical p. 1 verifies Mahler's 1931 Part I bibliographic identity, but no theorem, auxiliary function, error estimate, or hypotheses were transcribed and checked from the actual scan. 定位。Title page, physical p. 1 (image scan).。全卷 20 页。 后续条件。A searchable authoritative text or a manually transcribed, page-verified theorem and proof segment with its approximation and integrality conditions.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The 20-page Mahler Part I source is an image scan. Physical p. 1 establishes bibliographic identity only; no theorem, auxiliary function, error bound, or integrality condition was transcribed and checked.。定位。Title page, physical p. 1。全卷 20 页。后续条件。A searchable authoritative text or manually transcribed, page-verified lemma chain with approximation and coefficient-arithmetic hypotheses.。
 
 ## P40 · Zur Approximation der Exponentialfunktion und des Logarithmus II
 
@@ -463,6 +508,8 @@
 - classical exponential-logarithm approximation。title page / §IV opening。Mahler 第二部分；扫描首页确认其为同题第二篇及期刊来源。
 - 版本与引用。本轮没有逐式核对该部分的辅助函数或误差界，故不能采用为可复用构造。 仅核对可见首页；正文 OCR 不可用，定理编号与适用范围未验证。
 - 第六批定向筛选。hold。The physical PDF is a scan. Visual inspection of physical p. 1 verifies Mahler's 1932 Part II identity and the opening of Section IV, but the displayed definitions have not been fully transcribed, and no applicable error/integrality theorem has been verified. 定位。Part II title and Section IV opening, physical p. 1 (image scan).。全卷 14 页。 后续条件。A searchable authoritative text or a manually transcribed and checked lemma chain, including coefficient arithmetic and asymptotic hypotheses.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The 14-page Mahler Part II source is an image scan. Its title and Section IV opening are visible, but definitions and an applicable error/integrality theorem have not been completely transcribed.。定位。Title and Section IV opening, physical p. 1。全卷 14 页。后续条件。A searchable authoritative text or manually transcribed and checked lemma chain, including coefficient arithmetic and asymptotic hypotheses.。
 
 ## P40 · On the approximation of π
 

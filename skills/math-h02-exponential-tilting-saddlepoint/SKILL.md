@@ -7,6 +7,10 @@ description: 分析指数倾斜与鞍点尾近似，核验鞍点、精确倾斜�
 
 当前证据状态：**部分可用**。一般倾斜恒等式与标准 Gaussian Mills 界可直接推导。Niu–Ray Choudhury–Katsevich 的已深读结果是一个条件独立数组的 Lugannani–Rice 相对误差定理；在该定理之外，简化的 `u⁻¹` 前因子仍须单独核对模型和渐近区间。具体结论、条件和来源定位见[来源与阅读状态](references/provenance.md)及[方法说明](references/method.md)。
 
+## 路由边界
+
+本 Skill 的可用 Lugannani–Rice 分支是条件独立数组、缩小 cutoff 的相对误差结论；它不覆盖固定非零倾斜、任意格点修正或一般 Cramér 尾比。独立/三角阵的一致 Cramér 或专项 MDP 转 [H01](../math-h01-uniform-cramer-moderate-deviations/SKILL.md)，Fan–Grama–Liu 鞅相对尾展开转 [H03](../math-h03-fan-grama-liu-martingale-expansion/SKILL.md)，固定时域条件 Bernstein 尾界转 [I01](../math-i01-ordered-increment-conditional-bernstein/SKILL.md)。先按[偏差体制路由](../probability-concentration-chaining/references/deviation-regime-routing.md)固定输出类型。
+
 ## 输入与产出
 
 输入随机变量或和 `S`、对数矩母函数 `K(s)=log E exp(sS)`、尾方向与阈值 `x`，以及独立性/条件独立性、格性、矩母函数定义域和可用来源。产出必须区分恒等式、概率界、有限样本近似与相对误差渐近，并列出条件、常数、方向和缺口。

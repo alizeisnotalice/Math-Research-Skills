@@ -9,6 +9,10 @@ description: 选择和核验 Chernoff、Hoeffding、Bernstein 尾界，检查独
 
 当前证据状态：**部分可用：基础推导已检查，专题证据仍待完整验收**。全文转换、论文阅读和证明核验是三个独立状态。
 
+## 路由边界
+
+默认对象是独立和的固定时域 Chernoff、Hoeffding 或 Bernstein 界。若逐步已独立证明条件 MGF 上界或条件有界性，可在固定终点通过迭代条件期望复用相应 Hoeffding 型推导；必须写出该条件化步骤，且这不自动给出停止、最大值或过程级重叠控制。一般滤过下的条件阶乘矩和确定可预测方差预算转 [I01](../math-i01-ordered-increment-conditional-bernstein/SKILL.md)，相对正态尾展开转 [H03](../math-h03-fan-grama-liu-martingale-expansion/SKILL.md)，有效的时间一致超鞅/交叉界保留在 [浓缩总入口](../probability-concentration-chaining/SKILL.md) 的 P004/P034/Freedman 路线。详见[偏差体制路由](../probability-concentration-chaining/references/deviation-regime-routing.md)。
+
 ## 输入与产出
 
 随机变量/鞅差、独立或条件结构、范围界、方差和矩母函数上界。

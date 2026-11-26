@@ -8,6 +8,8 @@
 - ζ 零点临界线比例的秩—迹方法。Theorem A；§1.2 的 (Z)、(P)、(L) 链。在其列出的显式公式和二阶矩输入下，有限压缩 Weil Hermitian 形式的正惯性/秩—迹不等式把简单临界线零点比例下界化为 2-R(ψ)，指标窗给出 2/3。
 - 条件或证据待查。结论决定性依赖非临界线零点下的块惯性分解、Aryan/BGSTB 的无条件二阶矩及所称 Lean 形式化；本次未逐项复核这些外部输入和全证明。 只核对首三页的陈述和证明架构；旧稿被同批作者署名版本取代，不能作为已部署定理。
 - 第五批定向筛选。duplicate_held。SHA and physical pp. 1--3 match collection-04 and supplemental-batch-001 review 04-01. This is the obsolete 2026-08-11 Claude/Anthropic manuscript; its Theorem A and §1.2 (Z)/(P)/(L) rank--trace chain were already held because the block-inertia and second-moment dependencies were not proof-audited. 定位。physical pp. 1--3; Theorem A; §1.2 (Z), (P), (L) 后续条件。No new adoption. If re-opened, audit the author-signed successor's full finite-compression block decomposition, tail estimate, and stated external second-moment inputs.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。This obsolete unsigned manuscript's 2/3 conclusion still needs the noncritical-zero block-inertia decomposition and every cited second-moment estimate; no successor proof was audited.。定位。Theorem A and (Z)/(P)/(L), physical pp.1--3.。全卷 17 页。后续条件。Author-signed successor plus finite-compression block decomposition, tail bound, and primary Aryan/BGSTB inputs.。
 
 ## AI03b · More than two thirds of the zeta zeros are simple and on the critical line
 
@@ -15,6 +17,8 @@
 - ζ 零点临界线比例的秩—迹方法。Theorems A–B；§1.2，Lemma 3.2 所述秩—迹接口。对 ζ 及固定本原 Dirichlet L 函数，论文声称把有限压缩 Weil 形式的惯性控制与带宽一窗口的 Hilbert–Schmidt 二阶矩结合，推出简单临界线零点至少 (2/3-o(1))N，并给出窗口优化常数。
 - 构件候选。需完整验证有限压缩的零点块分解、尾项、素数侧二阶矩以及 Lemma 3.2 的适用归一化；这些是结论而非单独从摘要可移植的事实。 已核对 v2 身份、主定理和依赖链，未审计 §§2–6 或附带 Lean 工件；只可作为待独立复核的 ζ-零点方法候选。
 - 第五批定向筛选。duplicate_candidate。SHA and physical pp. 1--3 match collection-04 and supplemental-batch-001 review 04-01. The local file is arXiv:2608.13637v2 (2026-08-19); Theorems A--B and Lemma 3.2 were already indexed only as a candidate, not a reusable proof component. 定位。physical pp. 1--3; Theorems A--B; §1.2; Lemma 3.2 后续条件。No new adoption. A preprint adoption requires proof-level review of §§2--6: finite Weil-form block inertia, normalization, tail control, and prime-side Hilbert--Schmidt second moment.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。Verified arXiv:2608.13637v2 preprint. The finite-compression rank/trace criterion is stated, but no safe standalone transfer follows without its zero-block inertia, tail, and prime-side Hilbert--Schmidt arguments.。定位。physical pp. 1--3, Theorems A--B, Section 1.2 and Lemma 3.2。全卷 21 页。后续条件。Audit the actual Sections 2--6 chain: finite Weil-form compression and normalization, zero-block inertia, tail control, and prime-side second moment.。
 
 ## AI05 · AI for scientific discovery: How researchers use Claude
 
@@ -61,6 +65,8 @@
 - 条件或证据待查。多处定理的证明被作者明言省略；从有理性蕴含到 γ 无理性还缺少一个已证的反向算术障碍或非有理 Laurent 系数。 未将未给证明的递推、极点分布或数值观察采纳；不存在整数线性形式趋零或无穷指标分数部分条件。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
 - 第五批定向筛选。duplicate_held。SHA and physical pp. 1, 4, 14 match collection-04. The local source is arXiv:2507.03058v1. Its Theorems 6--8 and 19 give harmonic-number Dirichlet-series pole/constant formulas, while §11 only suggests a possible gamma route; the manuscript itself omits proofs for several asserted results. 定位。physical pp. 1, 4, 14; Theorems 6--8, 19; §11 后续条件。No new adoption. Obtain complete proofs and an actual converse arithmetic obstruction (or integer linear forms) before using any Laurent-coefficient observation for gamma irrationality.
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。Several harmonic Dirichlet-series assertions are explicitly left without proofs, and Laurent-coefficient rationality supplies no converse obstruction to gamma rationality.。定位。Theorems 6--8,19 and section 11, physical pp.4,14.。全卷 15 页。后续条件。Complete proofs and an integer-linear-form or nonrational Laurent-coefficient obstruction.。
 
 ## P26 · Three notes on Ser's and Hasse's representations for the zeta-functions
 

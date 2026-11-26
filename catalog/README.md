@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 216 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 221 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -167,12 +167,17 @@
 | [math-lattice-heat-asymptotics](../skills/math-lattice-heat-asymptotics/SKILL.md) | Prove and safely use the first large-time correction for the continuous-time nearest-neighbor lattice heat kernel. Use for the exact dispersion 2(1-cos k), tensor-product dimensions, and clearly separated physical scaling. |
 | [math-lienard-half-arc-matching](../skills/math-lienard-half-arc-matching/SKILL.md) | 将已验证的 Lienard 半平面弧坐标匹配转化为周期轨道与孤立零点问题；不用于未经认证的数值积分或周期数上界。 |
 | [math-logrank-rectangle-rank-halving](../skills/math-logrank-rectangle-rank-halving/SKILL.md) | 从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。 |
+| [math-modular-holonomic-telescoping](../skills/math-modular-holonomic-telescoping/SKILL.md) | 用显式极点数据、带权 q 展开和经证实的 valence 界检查亚纯模形式导出的 holonomic 递推。 |
 | [math-mzv-newton-harmonic-relations](../skills/math-mzv-newton-harmonic-relations/SKILL.md) | Check finite Newton/binomial duality for positive multiple-harmonic indices exactly. Use to prepare finite inputs for Kawashima-type MZV relations, not to prove MZV independence or Euler-constant claims. |
+| [math-nevanlinna-functional-transcendence](../skills/math-nevanlinna-functional-transcendence/SKILL.md) | 核对非恒定整函数的 Nevanlinna 特征分离、测度有限的异常集及源定理给出的函数域超越次数。 |
 | [math-nonarchimedean-analytic-transfer](../skills/math-nonarchimedean-analytic-transfer/SKILL.md) | 在完备非阿基米德环境中，核对有理或形式的有限阶解析 jet 转移、近似根余项及稠密压缩逆塔上的 Roos 差分。 |
 | [math-nonnegative-matrix-path-certificates](../skills/math-nonnegative-matrix-path-certificates/SKILL.md) | Verify the odd-power path certificate for finite entrywise-nonnegative symmetric matrices, with exact finite arithmetic where the inputs are rational. |
 | [math-openai-arithmetic-determinants](../skills/math-openai-arithmetic-determinants/SKILL.md) | 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。 |
 | [math-operator-algebra-certificates](../skills/math-operator-algebra-certificates/SKILL.md) | 核验算子代数中的幺正压缩修复、平移卷积核、谱相位迹、自伴谱编码及 C* 截断转运。按已给投影、严格谱隙、迹或比较见证选择。 |
+| [math-order-two-casoratian-audit](../skills/math-order-two-casoratian-audit/SKILL.md) | Audit supplied rational second-order recurrences by exact Casoratian and consecutive quotient identities. It certifies finite identities only. |
+| [math-prevost-hurwitz-pade-remainder](../skills/math-prevost-hurwitz-pade-remainder/SKILL.md) | Construct and audit Prévost's finite [n/m] exp(-t) Padé coefficients and its signed Euler-constant/Hurwitz-zeta remainder; preserve all auxiliary zeta and logarithm terms. |
 | [math-projective-induction-cocycle-certificates](../skills/math-projective-induction-cocycle-certificates/SKILL.md) | 用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。 |
+| [math-q-series-rational-approximants](../skills/math-q-series-rational-approximants/SKILL.md) | 对给定有理 q 和 z 生成 Tschakaloff 递推的精确多项式系数，核验有限整数化缩放及余项分离。 |
 | [math-sondow-log-fractional-certificate](../skills/math-sondow-log-fractional-certificate/SKILL.md) | 从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。 |
 | [math-subanalytic-preparation](../skills/math-subanalytic-preparation/SKILL.md) | 用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。 |
 | [math-three-strip-token-bound](../skills/math-three-strip-token-bound/SKILL.md) | Certify the finite three-strip/token boundary bound for a sequence of equal-cardinality planar threshold cuts with matched exchanges; not a halving-line asymptotic solver. |

@@ -33,3 +33,7 @@ lambda = -(u F_tau(omega) - omega F_tau(u))/root_{q-1}(-Delta)
 ## 补充来源中的方法
 
 - [Positive-characteristic period-transcendence source interfaces](references/c07-07-drinfeld-periods.md)
+
+## 文献复核采用的构件
+
+- [Positive-characteristic Mahler specialization](references/hold-03-positive-characteristic-mahler-specialization.md)

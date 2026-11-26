@@ -26,3 +26,8 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 - [Scoped reference: cubic-Thue to Mordell covariant bridge](references/supp13-mordell-cubic-thue-bridge.md)
 - [Thue–hypergeometric lower bounds over imaginary quadratic fields](references/thue-hypergeometric-imaginary-quadratic-wave6-supp10.md)
 - [Simultaneous lower bounds for algebraic logarithmic forms](references/wave6-supp-11-gaudron-simultaneous-log-lower.md)
+
+## 文献复核采用的构件
+
+- [p-adic linear-form rate gate](references/hold-04-padic-irrationality-rate-gate.md)
+- [Rank transfer through multiplication by an irrational scalar](references/hold-04-rank-multiplication-lemma.md)

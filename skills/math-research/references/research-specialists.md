@@ -4,6 +4,10 @@
 
 ## 欧拉常数、丢番图逼近与算术
 
+- [math-order-two-casoratian-audit](../../math-order-two-casoratian-audit/SKILL.md) · Audit supplied rational second-order recurrences by exact Casoratian and consecutive quotient identities. It certifies finite identities only.
+- [math-prevost-hurwitz-pade-remainder](../../math-prevost-hurwitz-pade-remainder/SKILL.md) · Construct and audit Prévost's finite [n/m] exp(-t) Padé coefficients and its signed Euler-constant/Hurwitz-zeta remainder; preserve all auxiliary zeta and logarithm terms.
+- [math-q-series-rational-approximants](../../math-q-series-rational-approximants/SKILL.md) · 对给定有理 q 和 z 生成 Tschakaloff 递推的精确多项式系数，核验有限整数化缩放及余项分离。
+- [math-modular-holonomic-telescoping](../../math-modular-holonomic-telescoping/SKILL.md) · 用显式极点数据、带权 q 展开和经证实的 valence 界检查亚纯模形式导出的 holonomic 递推。
 - [math-harmonic-sum-recurrences](../../math-harmonic-sum-recurrences/SKILL.md) · 用精确有理算术生成和核对广义超调和数的有限系数。适用于需要把嵌套调和定义化为有限递推、初等对称和或普通调和数的场景；不用于无限 Euler 和、zeta 值化简或无理性结论。
 - [math-dirichlet-l-derivative-sine-reduction](../../math-dirichlet-l-derivative-sine-reduction/SKILL.md) · 对给定偶周期有理数据，精确生成 Dirichlet 型级数在零点导数的形式对数权重。核对周期、对称性、零索引和分母。
 - [math-euler-series-continued-fraction](../../math-euler-series-continued-fraction/SKILL.md) · Convert a finite nondegenerate rational series segment to Euler generalized continued-fraction data exactly. Use for finite algebraic identity checks, not for convergence or irrationality claims.
@@ -23,6 +27,7 @@
 
 ## 调和分析、动力系统与几何方程
 
+- [math-nevanlinna-functional-transcendence](../../math-nevanlinna-functional-transcendence/SKILL.md) · 核对非恒定整函数的 Nevanlinna 特征分离、测度有限的异常集及源定理给出的函数域超越次数。
 - [math-conformal-dimension-perron-brackets](../../math-conformal-dimension-perron-brackets/SKILL.md) · 对给定扩张共形 Markov 分区、认证导数区间和有理比较向量，验证非负转移矩阵的谱半径界并判断指数与维数的方向。
 - [math-bessel-cross-product-recurrence](../../math-bessel-cross-product-recurrence/SKILL.md) · 在已给定的 Bessel/modified-Bessel 定义域内，使用离散 Riccati 恒等式与二阶交叉积递推；不把有限递推代数当作圆板谱重数或超越性证明。
 - [math-subanalytic-preparation](../../math-subanalytic-preparation/SKILL.md) · 用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。

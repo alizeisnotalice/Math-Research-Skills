@@ -31,3 +31,7 @@ description: 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项
 - [Exact Machin configuration gate](references/supp-06-machin-configuration.md)
 
 - [Scoped reference. Multiple-harmonic-sum determinant](references/supp-remaining-b-harmonic-determinant.md)
+
+## 文献复核采用的构件
+
+- [Optimized Hermite--Padé determinant gate for \(e^\alpha\)](references/wave8-hold10-exponential-algebraic-transcendence-measure.md)

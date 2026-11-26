@@ -67,3 +67,7 @@ python3 scripts/alternating_reciprocal.py type-ii 2 3 4 5
 ## 补充来源中的方法
 
 - [Continued-fraction limsup formulas](references/sondow-continued-fraction-limsup.md)
+
+## 文献复核采用的构件
+
+- [Flint Hills sine-distance sandwich](references/ext0144-distance-sandwich.md)

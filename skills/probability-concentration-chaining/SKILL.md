@@ -15,6 +15,8 @@ Use this skill to bound a random variable or process only after fixing its law, 
 4. **Transfer mechanism.** Prove how the target produces the theorem's summands, replacements, increments, coupling, or supermartingale. The cited theorem does not furnish this reduction.
 5. **Scope.** Select a theorem row in [accepted theorem scopes](references/accepted-theorem-scopes.md); use its exact hypotheses, normalization, constants, exceptions, and exclusions.
 
+For a sum, martingale, saddlepoint, moderate-deviation, or process-supremum question, first use the [deviation-regime routing table](references/deviation-regime-routing.md). It chooses a proof object; it does not enlarge any source card.
+
 ## Route by problem type
 
 - **Independent scalar, matrix, or permutation statistic:** choose a row that matches boundedness, weights, replacement structure, and finite-array/sampling convention. Do not use iid formulas for merely exchangeable or dependent inputs.

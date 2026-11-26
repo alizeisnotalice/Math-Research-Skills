@@ -103,3 +103,7 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 ## 补充来源中的方法
 
 - [Coprime floor-sum identity for the Euler totient](references/pain-totient-floor-formula.md)
+
+## 文献复核采用的构件
+
+- [等差类欧拉积的对数截断](references/euler-products-ap-explicit-tail-ext0045.md)

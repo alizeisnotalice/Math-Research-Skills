@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 50,
+    "research-specialists": 55,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -1100,6 +1100,13 @@
       "path": "skills/math-modeling-paper/SKILL.md"
     },
     {
+      "name": "math-modular-holonomic-telescoping",
+      "title": "模形式 q 展开与递推消去",
+      "description": "用显式极点数据、带权 q 展开和经证实的 valence 界检查亚纯模形式导出的 holonomic 递推。",
+      "category": "research-specialists",
+      "path": "skills/math-modular-holonomic-telescoping/SKILL.md"
+    },
+    {
       "name": "math-mzv-newton-harmonic-relations",
       "title": "Newton--harmonic duality for MZV relation inputs",
       "description": "Check finite Newton/binomial duality for positive multiple-harmonic indices exactly. Use to prepare finite inputs for Kawashima-type MZV relations, not to prove MZV independence or Euler-constant claims.",
@@ -1203,6 +1210,13 @@
       "family": "n"
     },
     {
+      "name": "math-nevanlinna-functional-transcendence",
+      "title": "Nevanlinna 增长分离与函数域超越次数",
+      "description": "核对非恒定整函数的 Nevanlinna 特征分离、测度有限的异常集及源定理给出的函数域超越次数。",
+      "category": "research-specialists",
+      "path": "skills/math-nevanlinna-functional-transcendence/SKILL.md"
+    },
+    {
       "name": "math-nonarchimedean-analytic-transfer",
       "title": "非阿基米德解析转移与逆极限",
       "description": "在完备非阿基米德环境中，核对有理或形式的有限阶解析 jet 转移、近似根余项及稠密压缩逆塔上的 Roos 差分。",
@@ -1231,6 +1245,13 @@
       "path": "skills/math-operator-algebra-certificates/SKILL.md"
     },
     {
+      "name": "math-order-two-casoratian-audit",
+      "title": "Exact order-two recurrence / Casoratian audit",
+      "description": "Audit supplied rational second-order recurrences by exact Casoratian and consecutive quotient identities. It certifies finite identities only.",
+      "category": "research-specialists",
+      "path": "skills/math-order-two-casoratian-audit/SKILL.md"
+    },
+    {
       "name": "math-paper-writing",
       "title": "数学论文写作",
       "description": "以用户提供的《数学论文写作规范_动机结构与自然表达》PDF 为准，起草、修改和点评中英文数学研究论文，落实文章结构、方法动机、证明与自然表达，检查量词和计算证据。 尤其适用于调和分析、极大算子、概率与随机过程、几何分析、优化及计算辅助证明；纯文献检索、逐篇翻译和单纯竞赛排版使用对应技能。",
@@ -1238,11 +1259,25 @@
       "path": "skills/math-paper-writing/SKILL.md"
     },
     {
+      "name": "math-prevost-hurwitz-pade-remainder",
+      "title": "Prévost--Hurwitz Padé remainder",
+      "description": "Construct and audit Prévost's finite [n/m] exp(-t) Padé coefficients and its signed Euler-constant/Hurwitz-zeta remainder; preserve all auxiliary zeta and logarithm terms.",
+      "category": "research-specialists",
+      "path": "skills/math-prevost-hurwitz-pade-remainder/SKILL.md"
+    },
+    {
       "name": "math-projective-induction-cocycle-certificates",
       "title": "Finite projective-induction certificates",
       "description": "用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。",
       "category": "research-specialists",
       "path": "skills/math-projective-induction-cocycle-certificates/SKILL.md"
+    },
+    {
+      "name": "math-q-series-rational-approximants",
+      "title": "q 级数的有理逼近构造",
+      "description": "对给定有理 q 和 z 生成 Tschakaloff 递推的精确多项式系数，核验有限整数化缩放及余项分离。",
+      "category": "research-specialists",
+      "path": "skills/math-q-series-rational-approximants/SKILL.md"
     },
     {
       "name": "math-research",

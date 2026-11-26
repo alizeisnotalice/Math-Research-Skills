@@ -8,6 +8,10 @@ description: 应用 Dirksen 混合尾泛链界，检查增量尾、半度量、�
 > 审核边界：本流程整理给定对象的定义、前提、推导与证据；它本身不构成专题定理证明。数值或玩具例只核对对应实例。来源结论须在账本列出的条件内使用，未独立核验的迁移必须标注“未证迁移”。本轮逐条断言、原文定位与实际案例记录见工作包 `audit_current/jk/`。
 > 文献定位见 `references/handoff-evidence-index.csv`；完整原文应以工作包 `evidence/papers/<paper_id>/paper.pdf` 及其 SHA-256 为准，自动转换文本只作检索辅助。
 
+## 路由边界
+
+当过程增量已满足同一 \(u\) 下的 \(\sqrt u\,d_2+u\,d_1\) mixed-tail 条件，并且目标是带 \(\gamma_2+\gamma_1\)、直径与基点项的 supremum 结论时，使用本 Skill。仅有单一 sub-Gaussian 增量或另一份指定的 \(\psi_\alpha\) source card 时，先按[偏差体制路由](../probability-concentration-chaining/references/deviation-regime-routing.md)选择总入口的 P015 或 P002；它们不自动给出 Dirksen 的双度量结论。
+
 ## 输入与产出
 
 索引集 T、基点 t₀、随机过程 X_t、两条半度量 d₂,d₁ 及其 γ₂/γ₁ 泛链泛函。

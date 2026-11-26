@@ -44,6 +44,10 @@ FAMILIES = {'a':'归一化、外放松与紧性','b':'对偶、矩问题与交�
 
 SPECIALIST_TOPICS = {
     '欧拉常数、丢番图逼近与算术': (
+        'math-order-two-casoratian-audit',
+        'math-prevost-hurwitz-pade-remainder',
+        'math-q-series-rational-approximants',
+        'math-modular-holonomic-telescoping',
         'math-harmonic-sum-recurrences',
         'math-dirichlet-l-derivative-sine-reduction',
         'math-euler-series-continued-fraction',
@@ -62,6 +66,7 @@ SPECIALIST_TOPICS = {
         'math-hankel-pade-certificates',
     ),
     '调和分析、动力系统与几何方程': (
+        'math-nevanlinna-functional-transcendence',
         'math-conformal-dimension-perron-brackets',
         'math-bessel-cross-product-recurrence',
         'math-subanalytic-preparation',

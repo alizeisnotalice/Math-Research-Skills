@@ -48,3 +48,7 @@ Hilbert 基或谱分解、参数矩阵/核 A(λ)、输入输出测度、所声�
 - [Self-adjoint edge resolvent transfer](references/self-adjoint-edge-resolvent-transfer.md)
 
 - [Ward-Laplacian deletion interface](references/openai-ward-laplacian-2026.md)
+
+## 文献复核采用的构件
+
+- [Finite-scale quadratic exponential-sum tube-weight estimate](references/wave8-hold10-quadratic-sum-tube-weight.md)

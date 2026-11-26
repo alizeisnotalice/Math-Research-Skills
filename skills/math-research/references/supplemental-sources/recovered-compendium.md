@@ -7,6 +7,9 @@
 - 原件。arXiv:2610.17240v1 (12 Oct 2026)。PDF 物理页 1, 2, 3, 10, 13, 16, 30。SHA-256 1e4c1c53dcf36aa229904832debaf88de8ba438d8801b5ad46453f6ba21cc73e。
 - 模形式—holonomic 递推与 Apéry 型线性形式。Thm. 1.2、Prop. 2.1、§5 算法、§2.2。在极点支集受控的亚纯模形式空间上，以 Bol 微分商的有限维性构造移位递推；文中具体得到 ζ(3) 的有理线性形式及 lcm 型分母界
 - 条件或证据待查。迁移须逐项审计 Thm. 1.2 的 Riemann–Roch/Bol 恒等式假设、q 展开整性和所选模参数；ζ(3) 示例的非零与指数界不自动适用于 γ 只核对了 v1 的身份、主定理/算法和 ζ(3) 示例；未审计一般整性命题及任何 γ 专门化
+- 复核记录。2026-11-26T18:35:59+08:00。adopted-local。component。
+- 本次依据。Physical pp. 27--31 contain both the finite-dimensional dependence proof and an explicit q-expansion/valence-bound algorithm. The adopted interface retains all required modular-space and exact-expansion inputs.。定位。Proposition 5.1; proof of Theorem 1.2; Lemma 5.2; Section 5.2 algorithms, physical pp. 27--31。全卷 52 页。后续条件。For any application, supply and verify the group, divisors, modular-space bases, q-expansions, Bol/Riemann--Roch hypotheses, and an exact finite valence check; establish integrality and any arithmetic conclusion separately.。
+- 已采用构件。物理页 27, 28, 29, 30, 31。Given exact meromorphic-modular spaces, divisors, and q-expansions, construct and finite-valence-check a shift recurrence and certificate; parametrization, integrality, nonvanishing, and irrationality remain external obligations. [方法说明](../../../math-modular-holonomic-telescoping/references/ext0304-modular-holonomic-telescoping-wave8.md)。
 
 ## EXT-0305 · Apéry’s Irrationality Proof, Beukers’s Modular Forms and Mirror Symmetry
 
@@ -31,6 +34,8 @@
 - 原件。author manuscript (18 Feb 2008)。PDF 物理页 1, 2。SHA-256 95fd19aa377a94afa1395fd686af81d6dc4e1fd47d0c9a2c0ebe34248ec80cb5。
 - ζ/调和数恒等式汇编。摘要、目录。汇集 Fourier 型积分、ζ 值、二项式与调和数恒等式；作者明示以初等分析推导，部分公式仅称“believed to be new”
 - 条件或证据待查。每条可用等式仍须从对应章节的收敛、换序和边界项重新核验；摘要不足以支撑 γ 线性形式 仅确认卷册身份与作者标注的证据级别；未逐项验证公式或发表版本
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed 181-page local author manuscript (18 Feb 2008) explicitly calls itself mainly expository and says only that some formulas are believed new. Its physical pp.1--3 give a formula list and cross-volume contents, not hypotheses or proofs for a selected identity. There is no independently scoped gamma linear form or certificate interface.。定位。physical pp.1--3; abstract and contents。全卷 181 页。后续条件。Choose one named formula and read its stated source section; certify its convergence, interchange and endpoint conditions before routing it to a zeta/harmonic-sum tool.。
 
 ## EXT-0514 · Multiple-correction and Continued Fraction Approximation (II)
 
@@ -44,6 +49,8 @@
 - 原件。author manuscript (18 Feb 2008)。PDF 物理页 1, 2。SHA-256 eb1ff00f4a66da30b83e15f4eeedde2ffca8285e59944c1bbfc384e5a6182fb6。
 - Stieltjes 常数、Hurwitz ζ 与 γ 恒等式。摘要、目录。包含 γ、Stieltjes 常数、Hurwitz–Lerch ζ 与含对数积分/级数恒等式；文本自称主要为说明性且部分公式待确认
 - 条件或证据待查。任何迁移依赖各式的收敛域、参数范围及换序证明；未给出可整化且趋零的纯 γ 线性形式 只完成来源级初审，未逐页审阅所列 γ 恒等式
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed 185-page Volume II(b) manuscript lists gamma, Stieltjes and Hurwitz--Lerch identities on physical p.1, but characterizes the seven-volume work as mainly expository with some formulas merely believed new. The inspected contents only locate broad sections; it does not establish parameter domains or an integral/integer form usable for Euler's constant.。定位。physical pp.1--3; abstract and contents。全卷 185 页。后续条件。Select a specific gamma/Stieltjes identity and audit its source pages for convergence and a proof; then show how it yields a finite computable object rather than a formal relation.。
 
 ## EXT-0518 · Some Series and Integrals Involving the Riemann Zeta Function, Binomial Coefficients and the Harmonic Numbers, Volume II(a)
 
@@ -51,6 +58,8 @@
 - Hasse/Sondow、Gamma 与调和和恒等式。摘要、目录（II(a) §4 起）。涉及 Hasse/Sondow 方程、digamma/gamma、Euler 和及 Barnes 函数的级数积分恒等式
 - 条件或证据待查。与 Sondow 路线的关系仅为背景；每个公式的证明、参数限制和是否形成整数 γ 形式均未由目录/摘要确证 未将汇编公式部署为证书，也未确认其中“new”公式的独立来源
 - 相关入口。[math-sondow-log-fractional-certificate](../../../math-sondow-log-fractional-certificate/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed 221-page Volume II(a) manuscript has a broad abstract list involving digamma, Barnes gamma and zeta derivatives, including a Hasse/Sondow-themed contents entry, but the inspected pages do not state a specialized Sondow integral or its denominator/error proof. The existing Sondow skill is based on a separately audited primary source, so this compilation cannot be substituted for it.。定位。physical pp.1--3; abstract and contents。全卷 221 页。后续条件。Audit the indicated II(a) sections and match a single displayed identity to the existing Sondow hypotheses, including all rationality and remainder claims.。
 
 ## EXT-0519 · Apéry-Type Series and Colored Multiple Zeta Values
 
@@ -63,6 +72,8 @@
 - 原件。author manuscript (18 Feb 2008)。PDF 物理页 1, 2。SHA-256 79a761d5539caa91ea30160edae25ce36048fc13bb57f84d6317464fbc8e0044。
 - ζ、余切积分与调和和恒等式。摘要、目录。汇集 ζ 值、cotangent 积分、余弦积分及调和数求和公式，并标为主要说明性材料
 - 条件或证据待查。若作计算恒等式库，须逐式复核积分端点与级数换序；未见针对 γ 无理性的整数化构造 只核对卷册身份与摘要的范围，不把未复核公式当作工具依赖
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed 206-page Volume V author manuscript advertises cotangent, cosine-integral, zeta and harmonic-sum formulas but is explicitly mainly expository. The local physical pp.1--3 do not give a selected theorem with endpoint/branch assumptions or any Euler-constant denominator/error mechanism.。定位。physical pp.1--3; abstract and contents。全卷 206 页。后续条件。Pin one cotangent or harmonic identity, then check the actual derivation and all singular-endpoint and interchange conditions before adding a narrow numerical-identity interface.。
 
 ## EXT-0523 · Some Series and Integrals Involving the Riemann Zeta Function, Binomial Coefficients and the Harmonic Numbers, Volume VI
 
@@ -70,12 +81,16 @@
 - γ 渐近、Stieltjes 常数与 ζ 导数恒等式。摘要、目录。列出 H_n−log n 对 γ 的界与极限，以及 ζ 导数、Gamma 函数和 Stirling 数相关恒等式
 - 条件或证据待查。有限渐近式必须逐项核实 Bernoulli 余项/不等式方向；它们本身不控制整化误差乘以分母增长 未完整检查该卷各节，不能据摘要认定任何新的 γ 判据
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed 179-page Volume VI manuscript displays bounds and limits for H_n-log n and several zeta-derivative identities, but physical pp.1--3 remain abstract/table-of-contents material from a self-described mainly expository series. No finite remainder sign, denominator growth comparison, or proof of a usable irrationality criterion is fixed there.。定位。physical pp.1--3; abstract and contents。全卷 179 页。后续条件。For any claimed asymptotic, audit the corresponding section for an explicit remainder inequality and combine it with a separately certified denominator-growth estimate.。
 
 ## EXT-0526 · Some Series and Integrals Involving the Riemann Zeta Function, Binomial Coefficients and the Harmonic Numbers, Volume III
 
 - 原件。author manuscript (18 Feb 2008)。PDF 物理页 1, 2。SHA-256 7a0b09d9e76a7096d3c365d256d2d359da7b3dcbd4183589d55fd64d5592c52c。
 - polylogarithm、ζ 与二项式和恒等式。摘要、目录。给出 polylogarithm、ζ/Hurwitz–Lerch 函数与二项式—调和和之间的一批积分和级数形式
 - 条件或证据待查。需要针对目标参数重验收敛、解析延拓和积分换序；该卷摘要未给纯 γ 的整系数逼近 来源级审查，未验证各自称的新恒等式
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed 163-page Volume III manuscript gives polylogarithm/binomial-sum identities in its abstract and lists a later Sondow-formula section, but the inspected local pages contain no verified theorem-level bridge from those identities to a gamma linear form. The manuscript itself labels the series mainly expository and some claims merely believed new.。定位。physical pp.1--3; abstract and contents。全卷 163 页。后续条件。Read the exact III/42 Sondow section and compare its proof and domain to the audited Sondow primary source; otherwise retain this only as a discovery bibliography.。
 
 ## EXT-0531 · Expansion of Euler’s Constant in Terms of Zeta Numbers
 
@@ -83,6 +98,9 @@
 - γ 的 Padé/ζ 值展开与 Sondow 积分。式 (1.2)–(1.6)、§2、§4–§5。从 log(u)/(u−1) 的 Padé 逼近导出三参数 γ–Hurwitz ζ 展开，并重获 Sondow 型积分、lcm 分母与分数部分条件判据
 - 条件或证据待查。可迁移的关键是 Padé 余项积分、Legendre 多项式系数整性及 d_{2n} 整化；现有页只确认结构，尚未独立复算一般参数误差/符号 未确认正式发表版本，且没有把条件性分数部分判据误写成 γ 无理性证明
 - 相关入口。[math-sondow-log-fractional-certificate](../../../math-sondow-log-fractional-certificate/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。adopted-local。component。
+- 本次依据。The inspected manuscript proves the finite Padé coefficient identity and signed Hurwitz integral. Exact finite validation keeps every auxiliary constant visible. Its (n,m,s)=(1,1,0) branch has no Hurwitz terms.。定位。Local solo-author manuscript physical pp.5–8 Theorem 2 and proof; compare related published Elsner–Prévost DOI 10.1016/j.jmaa.2012.08.065.。全卷 16 页。后续条件。Supply certified auxiliary Hurwitz or logarithmic inputs outside the constant-free branch. Integer scaling and irrationality applications require separate global data.。
+- 已采用构件。物理页 5, 6, 7, 8。Exact finite Pochhammer coefficient and signed remainder interface for the multi-constant gamma--Hurwitz identity. Excludes auxiliary-constant elimination, integer scaling/lcm asymptotics, and any gamma irrationality conclusion. [方法说明](../../../math-prevost-hurwitz-pade-remainder/references/prevost-hurwitz-pade-wave8.md)。
 
 ## EXT-0534 · On a Sequence Transformation with Integral Coefficients for Euler’s Constant, II
 
@@ -127,6 +145,8 @@
 - 原件。arXiv:2201.01676v4 (18 Aug 2026)。PDF 物理页 1, 2, 6, 14, 35。SHA-256 7a54a7cbbe32053ada9b84b9ef937e16e905caaa5ad0a97ea3ba4ca02a11dfca。
 - CMZV、迭代积分与 Apéry 型级数。Cor. 1.1、Thm. 3.5、§1.5、Prop. 7.12。以有理函数拉回的迭代积分表征 cyclotomic MZV，并给部分 Apéry 型中心二项式和的 CMZV 恒等式及低权数据
 - 条件或证据待查。迁移需核实 Thm. 3.5 的正则化/路径条件和每个 Apéry 和到 CMZV 的专门化；第 7 节也明确含猜想性表述，未给 γ 线性形式 已定位主定理和一个 Apéry 例子，但未审计数据表、Galois descent 猜想或与 γ 的任何桥接
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed arXiv:2201.01676v4 has 38 pages and concerns CMZVs, iterated integrals and S-unit relations. Its abstract/introduction make the target class and conjectural surrounding relation landscape explicit, but provide no gamma linear form, rational approximation, or demonstrated bridge from its CMZV identities to Euler's constant.。定位。physical pp.1--3; abstract and introduction。全卷 38 页。后续条件。Provide a concrete specialization reducing a stated CMZV/iterated integral to the desired gamma expression, and verify all regularization, path and algebraic-argument hypotheses before considering a dedicated interface.。
 
 ## EXT-0548 · Dynamics of Continued Fractions and Distribution of Modular Symbols
 
@@ -140,6 +160,8 @@
 - zeta(2) 超几何有理逼近与无理度。Abstract; Theorem 1; §§2--7。以 Barnes--Mellin 型积分和整值多项式分母控制构造 ζ(2) 的线性形式，并经两套超几何构造及参数优化给出 μ(ζ(2)) ≤ 5.09541178...
 - 构件候选。结论依赖整数值多项式的 lcm 分母界、积分恒等式、素数渐近与 Rhin--Viola 型置换群算术；参数选择和全部渐近估计须逐项复算 只核对主定理、构造入口和结论页；未独立重放超几何变换、群作用及最优参数搜索，不能迁移为 γ 的无理性证书
 - 相关入口。[math-integer-linear-form-rates](../../../math-integer-linear-form-rates/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The arXiv paper proves a zeta(2)-specific hypergeometric linear-form route, but its irrationality exponent depends on the complete Barnes--Mellin transformations, lcm/prime valuations, and parameter optimization; one generic identity is itself labelled expected outside the special parameter choice.。定位。physical p. 1, Theorem 1; p. 2 (Barnes--Mellin/integer-valued-polynomial inputs); p. 10 (expected generic identity); p. 14 (specific valuation ledger)。全卷 17 页。后续条件。For a new zeta(2) tool, replay the special-parameter integral transformation, integrality/valuation ledger and asymptotic optimization; do not extrapolate the expected generic identity.。
 
 ## EXT-0552 · Group automorphisms with few and with many periodic points
 
@@ -152,6 +174,8 @@
 - 原件。arXiv:1806.05207v2 (19 Sep 2018; 首页核对)。PDF 物理页 1, 2, 4, 5, 6, 11。SHA-256 edf704b7b6193fb13a8b9cacf1d5fa901a4f2b38ee2ae60f9e7ed8ad339ae181。
 - Apéry 型递推插值与模形式临界 L 值。Abstract; Theorems 2.1--2.3; equations (8)--(25)。对 Zagier 六个 sporadic Apéry 型序列的插值，在指定标签下把 x=-1/2 的值或留数表示为权 3 newform 的临界 L 值，并给出 Brown cellular-integral 系列的奇权推广
 - 构件候选。模同余步骤取决于模参数化和 Verrill 定理；L 值恒等式还使用超几何求和、Chowla--Selberg/Damerell 等输入，须为每个序列单独满足参数与分支条件 已核对表中对象、主恒等式和一段证明；未核验全部模参数化、p-adic Gamma 同余或 L 值文献，因此不能当作任意递推的自动识别器
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The paper gives sharply scoped critical-L-value evaluations for six interpolated sequences, but the bridge requires sequence-specific modular parametrizations and external Verrill, Chowla--Selberg, and Damerell inputs; it is not an automatic recurrence recognizer.。定位。physical p. 2 (initial identity and limitations); pp. 4-6, Theorems 2.2-2.3 and modular-parametrization proof; p. 11 (special-value dependencies)。全卷 23 页。后续条件。A caller must provide the exact sequence label, modular function/form, derivative identity, level exclusions, and a verified special-value theorem for that form.。
 
 ## EXT-0555 · A determinantal approach to irrationality
 
@@ -172,12 +196,17 @@
 - 原件。arXiv:2502.17533v4 (17 Mar 2026); NeurIPS 2025 标注（首页核对）。PDF 物理页 1, 2, 3, 31, 58, 82。SHA-256 f9a49dfcce4350cd795ef2aaff985bbcac1bbaa8fe7f77e05634f7e5660db7d3。
 - 常数公式的计算式聚类与符号统一。Abstract; §§1--2; CMF/UMAPS 方法与附录。论文报告以公式采集、可执行验证、递推规范化和 coboundary 映射聚类为流程，对 π 公式作计算性统一；其对 e、ζ(3)、Catalan 常数的外推是方法展示
 - 条件或证据待查。可复用流程依赖作者的公式语料、代码生成验证、CMF 定义和 UMAPS 实现；“385/360/166”均是该计算管线的输出而非独立通用定理 核对摘要、方法入口和论文内的版本标注；未取得/重跑项目仓库、公式清单、验证日志或证明对象，故不把 AI 输出接入数学技能索引
+- 复核记录。2026-11-26T18:35:59+08:00。citation。citation。
+- 本次依据。The re-hashed arXiv:2502.17533v4 / NeurIPS 2025 PDF has 82 pages. Its abstract and physical pp.1--3 document a formula-harvesting, validation, CMF and UMAPS workflow demonstrated primarily for pi; the counts are outputs of the authors' corpus/code pipeline, not a general mathematical theorem or a gamma-certificate API. The source is useful methodological context only.。定位。physical pp.1--3; title/abstract/method setup。全卷 82 页。后续条件。Obtain a version-pinned formula corpus, executable validation logs and the precise CMF/UMAPS input-output specification before using any claimed clustering result in a mathematical skill.。
 
 ## EXT-0558 · Apéry Limits: Experiments and Proofs
 
 - 原件。arXiv:2011.03400v1 (6 Nov 2020; 首页核对)。PDF 物理页 1, 2, 3, 9, 12, 16。SHA-256 3390126ece668d5dba1d13a63bfbc6c8d7da822b69770613a3a4ba1b3ee5f963。
 - 二阶递推比值极限与连分数。Abstract; equations (1)--(5); §§4--6。以 Apéry ζ(3) 递推和 Delannoy 型 ln(2) 例子说明两个有理解的比值极限、Casoratian、Poincaré--Perron 渐近及连分数之间的对应，并列出证明 Apéry limits 的路线和限制
 - 构件候选。将实验比值升级为定理需给出精确递推、初值、主/次特征根分离、Casoratian 或连分数收敛条件；无理性还需独立分母及误差速率 核对两个示例和方法综述；未对一般多项式系数递推实现根分离或整数性审计，不能把数值猜测当作常数恒等式/无理性证明
+- 复核记录。2026-11-26T18:35:59+08:00。adopted-local。component。
+- 本次依据。The source’s second-order recurrence identities yield an exact generic rational audit; the Delannoy fixture independently checks propagation and quotients, while a vanishing quotient denominator is reported explicitly.。定位。physical p. 9, equation (13) and Lemma 4; p. 10, Poincare--Perron scope。全卷 17 页。后续条件。For a limit, additionally certify coefficient convergence, distinct characteristic-root moduli and the relevant Poincare--Perron hypotheses; for irrationality separately prove integrality, nonzero remainders and rate.。
+- 已采用构件。物理页 9, 10。Exact propagation and quotient-increment certificate for supplied finite rational recurrence arrays. Target identification, normalization and infinite limit require separate proof. [方法说明](../../../math-order-two-casoratian-audit/references/chamberland-straub-casoratian.md)。
 
 ## EXT-0559 · Irrationality measures for certain q-mathematical constants
 
@@ -198,6 +227,8 @@
 - 原件。arXiv:0802.4016v1 (27 Feb 2008; 首页核对)。PDF 物理页 1, 2, 3, 7, 11。SHA-256 99bdfaf017a44bf243a734f720cdb001346a0343e2ac0837778b817e9a8137f8。
 - Pila--Zannier 周期解析集与 Manin--Mumford。Abstract; Theorem 1.1*; §2; periodic-analytic corollary。给出 Manin--Mumford 的 Pila--Zannier 证明路线：把扭点提升为周期解析集中的有理点，以 Pila--Wilkie 上界和 Galois 轨道下界排除无界扭阶，从而使 Zariski 闭包由扭余类组成
 - 构件候选。必须有可定义参数化、代数部分识别、Pila--Wilkie 计数和扭点 Galois 轨道下界；定量常数不由该摘要式框架自动给出 核对主定理、策略和周期集引理；未审计 Pila--Wilkie/Masser 输入及一般 abelian uniformity，不能直接用于任意特殊点计数
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The Pila--Zannier strategy is clearly delimited for a number-field abelian variety and combines periodic-analytic geometry, Pila--Wilkie counting and Masser Galois-orbit lower bounds, but there is no current effective input contract for that chain.。定位。physical pp. 1-3 (abstract, strategy and Theorem 1.1*); p. 7 (periodic-analytic corollary); p. 11 (no quantitative output)。全卷 12 页。后续条件。Specify the abelian variety/subvariety, analytic uniformization and definability certificate, counting bound, and torsion-orbit lower bound before applying the torsion-order contradiction.。
 
 ## EXT-0575 · Dynamics on P1: Preperiodic Points and Pairwise Stability
 
@@ -210,6 +241,8 @@
 - 原件。首页稿本；未见 arXiv/DOI 版本标识。PDF 物理页 1, 3, 5, 6, 37, 45, 46。SHA-256 40dde12f7d4cfddb2786e487dcba67961eabe7d368caa04b3f8b17694fdfbb78。
 - unlikey intersections 的 distinguished-category 公理框架。Abstract; Theorems 1.1--1.2; §§9--14。建立 distinguished/very distinguished categories 的公理框架，证明基变换下若干 Zilber--Pink 推论；特别覆盖不能定义于 Qbar 的 A_2 曲线、Legendre 族纤维幂曲线和半阿贝尔族中的曲线
 - 构件候选。每一应用需验证范畴公理、defect 条件及所需 André--Oort/Zilber--Pink 输入；结果是特定特殊子簇条件下的有限性，非普适算法 核对引言定理和各应用章节入口；未重检公理推导、引用的 AO/ZP 结果或稿本发表状态
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The undated/preprint-style manuscript establishes an axiomatic distinguished-category framework, but a usable application demands verification of category, defect, base-change and special-subvariety axioms and imports further Shimura/Zilber--Pink results; no narrow independent interface was closed.。定位。physical pp. 1, 3 (framework); pp. 5-6, Theorems 1.1-1.2; p. 37, Theorem 9.6; p. 45 (Legendre application)。全卷 50 页。后续条件。For one named ambient category and curve, formalize the category/defect axioms and verify every imported very-distinguished or special-subvariety result before extracting a finiteness call.。
 
 ## EXT-0582 · On the Zilber-Pink conjecture for complex abelian varieties
 
@@ -229,6 +262,8 @@
 - Mahler 方程的参数化差分 Galois 超越性。Abstract; §§2--4; Theorems 4.3 and 4.6。以参数化差分 Galois 群给出 Mahler 方程解及其导数的超代数独立性判别，并对 Baum--Sweet、Rudin--Shapiro 自动序列生成函数给出具体独立性结论
 - 构件候选。实施需精确 Mahler 系统、经典差分 Galois 群的大群条件及参数化可积性排除；推导还用 Picard--Vessiot/参数化 PV 理论 核对对象、主判别和两个应用；未计算任意输入系统的 Galois 群或检查可积性方程，不能把其结论外推至 γ 或一般递推
 - 相关入口。[math-research](../../../math-research/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The Mahler hypertranscendence criterion has an exact scope, but it needs a certified difference-Galois group containing SL_n(C), monomial end-coefficient quotient and parametrized Picard--Vessiot machinery. The existing Hankel--Mahler tool does not establish those hypotheses.。定位。physical pp. 2-4 (Mahler equation, theorem and derivation choice); pp. 5-6 (PV prerequisites); p. 24, Theorem 4.3; p. 25, Theorem 4.6。全卷 26 页。后续条件。For a target Mahler system, certify its rational matrix/system, ordinary difference-Galois group and end-coefficient condition, then verify the parametrized-PV hypotheses before using the conclusion.。
 
 ## EXT-0588 · Hypertranscendence and linear difference equations
 
@@ -236,6 +271,8 @@
 - 线性差分方程解的超越性判别。Abstract; Theorems 1.2--1.5; §§4--5。在 shift、q-difference 与 Mahler 等场景，用参数化差分 Galois 理论给出线性差分方程解“属于基域或微分超越”的判别，并说明 Mahler 特殊值的代数独立性后果
 - 构件候选。需要指定差分/微分域、常数域、方程阶数和 Galois 群假设；特殊值结论还要求代数点避开奇点/例外集 核对主定理架构、Mahler 特殊值段落和证明组织；未逐项复核域扩张及参数化 Galois 引理，不能作为一键超越性判定
 - 相关入口。[math-research](../../../math-research/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The source gives strong either-base-field-or-hypertranscendental criteria, but every branch depends on a specified difference field, derivation, equation, and parametrized Galois hypothesis; no safe one-click predicate was isolated.。定位。Theorems 1.2--1.5 and the case setup on pp. 3--7。全卷 30 页。后续条件。Fix one of the shift, q-difference, or Mahler cases and verify its field, constants, singular/exceptions set, and Galois premise.。
 
 ## EXT-0593 · Auxiliary functions in transcendental number theory
 
@@ -243,6 +280,8 @@
 - 超越数论辅助函数方法综述。Contents; §§1--5; Schneider--Lang criterion; interpolation determinants。系统整理显式辅助函数、Padé/超几何法、插值、Thue--Siegel 抽屉法、Mahler 方法、插值行列式与 slope inequalities 在超越性和线性形式估计中的作用及边界
 - 构件候选。任何迁移必须具体给出函数空间、整系数/高度、零点或导数消失、解析上界和算术下界；综述中的定理分别依赖原始文献条件 核对目录、代表性判别与插值行列式部分；未逐条追溯其引用定理或实现高度常数，不能把综述当成具体常数的证书
 - 相关入口。[math-integer-linear-form-rates](../../../math-integer-linear-form-rates/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。citation。citation。
+- 本次依据。This is a methodological survey of auxiliary functions; it does not supply a source-independent height, integrality, zero-order, and analytic-bound certificate for an implementation.。定位。Contents and Sections 1--5, especially interpolation determinants。全卷 38 页。后续条件。Use an original theorem after fixing the function space, arithmetic lattice, vanishing conditions, analytic upper bound, and arithmetic lower bound.。
 
 ## EXT-0597 · Algebraic independence of an Airy function, its derivative, and antiderivative
 
@@ -255,6 +294,8 @@
 - 原件。Axioms 2021, 10, 289; DOI 10.3390/axioms10040289（首页核对）。PDF 物理页 1, 4, 5, 10, 11。SHA-256 f6223872ad6beb66cf0aa1b1855a3f5dcde1f5792f42b159ffeed53de79fa147。
 - 广义超几何方程解和值的代数独立性。Abstract; Theorems 1--2; Lemmas 11--15。在给定有理参数、代数评值点与若干非等价/非对偶条件下，给出广义超几何方程解及导数、指数值的代数独立性必要充分条件表述，并声称修正既有结果
 - 条件或证据待查。使用前需逐项核验参数不可约性、单调群/对偶条件和评值点避开奇点；文中“修正”须对照被修正定理及同行文献 核对已发表版本、主条件表述和证明所用引理；未审计条件等价性、修正的准确性或与标准超几何 Galois 定理的一致性
+- 复核记录。2026-11-26T18:35:59+08:00。adjacent。context。
+- 本次依据。The re-hashed 11-page published Axioms 2021 article states algebraic-independence conditions for generalized hypergeometric E-functions, but physical pp.1--3 also show that it corrects an earlier theorem via a Bessel/Kummer cogredience counterexample. No Euler-constant specialization or verified transfer to the current gamma routes occurs. Its delicate admissibility, similarity and evaluation-point conditions make it unsuitable as a generic transcendence shortcut.。定位。physical pp.1--3; abstract, conditions and counterexample。全卷 11 页。后续条件。A future use needs a concrete hypergeometric E-function representation of the target constants, exact rational parameter checks, non-cogredience/non-contragredience verification and permitted algebraic evaluation points.。
 
 ## EXT-0610 · 6+infinity new expressions for the Euler-Mascheroni constant
 
@@ -274,6 +315,8 @@
 - 原件。arXiv:math/9307218v1 (1993-07-09)。PDF 物理页 1, 6, 11, 13。SHA-256 71a4115c73c504a1d238da71a4278391d43288167734fb7aa2254dcb475ed1b5。
 - 半经典正交多项式与等单值变形。Abstract; generic-weight definition; Theorems 1–2。对 w'/w 为有理函数的正规半经典正交多项式，固定单值数据并移动奇点时，递推系数 a_n,b_n 满足由 Θ_n,Ω_n 给出的 Toda 型变形方程；广义 Jacobi 权重是明确适用假设
 - 构件候选。结论依赖正规性、互异奇点及非整数留数；从 Schlesinger 方程读出递推系数方程 已定位原始定理但未逐式复算 Θ/Ω 定义、边界弧及退化权重；不应用于任意正交多项式
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。Theorem 2 provides explicit Toda equations for a generic generalized-Jacobi weight, but its Theta/Omega data, branch arcs, regularity, distinct-singularity, and nonintegral-residue assumptions prevent a generic orthogonal-polynomial interface.。定位。Generic definition (p. 6), Theorem 1 (p. 11), and Theorem 2 equations (25)--(26) (p. 13)。全卷 29 页。后续条件。For a fixed weight, derive Theta_n and Omega_n from (12)--(15), specify arcs/branches, and verify the generic hypotheses.。
 
 ## EXT-0613 · Unearthing the Visions of a Master: Harmonic Maass Forms and Number Theory
 
@@ -299,6 +342,8 @@
 - 原件。arXiv:math/0008068v2 (2001-01-07)。PDF 物理页 1, 2, 4, 15。SHA-256 d090641554ecd4bf99163e1314c7cb3a3547254f4b0bbef1b733efa299823828。
 - theta/Lambert 级数与 Hankel 行列式。Abstract; §1 formulas (1.9)–(1.12); §2 elliptic expansions。以 Jacobi 椭圆函数、连分数和 Hankel/Turán 行列式展开 theta 幂，导出 4n² 或 4n(n+1) 平方/三角数表示的精确族；高于 8 平方时会出现 cusp-form 项
 - 构件候选。精确恒等式依赖本文特定 theta 归一化及 Lambert 系列；不能从低阶 Jacobi 公式直接外推高阶而忽略 cusp 项 已核对主张与代表性恒等式，尚未逐核 125 页中各行列式常数、收敛域和预印本后续正式版本
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The source has broad exact theta/Lambert families, but its normalization and the 125-page determinant machinery were not reduced to one bounded interface; beyond eight squares cusp-form contributions are material.。定位。Introduction (pp. 2--4) and elliptic/Lambert expansions including (2.47)--(2.54) (p. 15)。全卷 125 页。后续条件。Choose one named representation family and audit its theta normalization, determinant constants, convergence range, and any cusp-form correction.。
 
 ## EXT-0620 · Paramodular abelian varieties of odd conductor
 
@@ -311,6 +356,8 @@
 - 原件。arXiv:math/0305364v3 (2003-06-27), proceedings version。PDF 物理页 1, 3, 23。SHA-256 7a8d34ad05cbdb13f01cdf9f67194adcdf797378f79aad9f1acbfb9f0d71cde0。
 - NAFF 准周期频率分析。§§2–3; §8。对有限时间采样的准周期信号，以加窗内积最大化逐次提取频率、正交投影振幅并从余项迭代（NAFF）；文中也说明 Nyquist 混叠与多时间尺度限制
 - 构件候选。精度结论要求准周期模型、合适窗函数、足够观测区间和可分离频率；超过 Nyquist 需额外采样信息 已审阅算法描述与别名限制，未复核全部误差阶、窗函数正则性或实现细节
+- 复核记录。2026-11-26T18:35:59+08:00。adjacent。context。
+- 本次依据。NAFF is a numerical quasiperiodic-signal method rather than a current mathematical proof interface; finite-window frequency extraction and its error order require a caller-specified signal model and sampling regime.。定位。Quasiperiodic approximation setup (p. 3), error lemma (p. 8), and Nyquist discussion (p. 23)。全卷 31 页。后续条件。A concrete sampled quasiperiodic dataset, window choice, frequency-separation assumptions, and alias-control information.。
 
 ## EXT-0625 · The logarithmic Sarnak conjecture for ergodic weights
 
@@ -323,24 +370,33 @@
 - 原件。arXiv:math/0508517v3 (2008-05-19)。PDF 物理页 1, 2, 9。SHA-256 0b2d81f3dc4a2e61996051dfcb9872c5992b9c64ecbd4ea12ad82972156f36d0。
 - 齐性空间定量不逃逸。Theorem 0.1; Theorem 2.2。对 h:B→SL_k(R)，若每个整数子群 Γ 的体积函数为 (C,α)-good 且在 B 上有下界 ρ，则短向量格 h(x)Z^k 的坏集测度至多为 const·C(ε/ρ)^α；扩展版把下界按 rk(Γ) 加权并适用于 Federer 测度
 - 构件候选。必须逐一认证 primitive 子群的 good 性与下界；该测度界不是自动给出 Diophantine 指数 已核定两条定理及假设；未为具体映射建立 good 性或验证所有常数
+- 复核记录。2026-11-26T18:35:59+08:00。candidate。dependency。
+- 本次依据。The quantitative nondivergence bound is a reusable conditional theorem, but an application must certify goodness and a rank-weighted lower bound for every primitive integer subgroup; those are the substantive problem-specific steps.。定位。Theorems 0.1--0.2 (pp. 2--3) and the covering proof step (p. 9)。全卷 26 页。后续条件。For a specified h and measure, certify every subgroup's (C,alpha)-goodness and the rho^rank lower bound, then instantiate the explicit dimensional constant.。
 
 ## EXT-0628 · Hypergeometric functions over finite fields
 
 - 原件。arXiv:1510.02575v5 (2022-10-05)。PDF 物理页 1, 6, 52, 54。SHA-256 1d3d52a7fed3d3c2e00d82a9315228ea2b7ca253d374579b4a83d6fe265bc5fc。
 - 有限域超几何函数与 Galois 表示。Theorem 1.1; §7, Theorem 7.1; §7.2。建立有限域超几何周期函数与二维 Galois 表示的对应；给出含 Jacobi 和修正项的有限域 Clausen 公式，并解释其与 CM 椭圆曲线和 Ramanujan 型 1/π 公式的关系
 - 构件候选。字符参数、有限域特征及排除条件（如 C≠φ、S²∉{ε,C,C²}）不可省略；有限域类比不能直接当作复解析恒等式 已核对主表示、Clausen 公式和 1/π 讨论；尚未对整部专著中的字典、符号约定及软件实现作逐条验证
+- 复核记录。2026-11-26T18:35:59+08:00。adjacent。context。
+- 本次依据。Finite-field hypergeometric periods and their Galois representations require character and prime-ideal data not covered by an existing local mathematical tool; the finite-field/complex analogy is not a replacement for a complex identity.。定位。Theorem 1.1 (p. 6) and finite-field Clausen discussion (pp. 52--54)。全卷 113 页。后续条件。Specify rational parameters, denominator field, an unramified prime ideal, character dictionary, and all exclusions before using the trace formula.。
 
 ## EXT-0629 · Computational aspects of modular forms and Galois representations
 
 - 原件。arXiv:math/0605244v3 (2010-03-20); PDF text additionally dated 2024-11-26。PDF 物理页 1, 5, 6, 14。SHA-256 fd332df96839a90ad3ae942d109db597feeb38552f8da9840c9f2035dc90553c。
 - 模形式与 Galois 表示计算。Title page; contents; Chapter 1 headings。438 页计算数论专著，目录涵盖 Schoof 算法、模曲线、Hecke 代数及 Galois 表示；当前检查未定位一项可脱离全书前提的短小工具定理
 - 条件或证据待查。任何可执行算法需要对应章节、输入模型、复杂度和实现依赖的逐项核对 仅身份、版本线索、目录和导论级定位；未审阅算法章节，不能据此声称可复现计算
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The re-hashed local arXiv:math/0605244v3/bookarxiv PDF has 438 pages. Physical pp.1--3 identify a computational modular-forms/Galois-representations book, but no algorithm chapter, input encoding, complexity statement or runnable instance was audited. It has no demonstrated Euler-constant connection.。定位。physical pp.1--3; title material。全卷 438 页。后续条件。Name a target chapter and computation, then verify its model, prerequisites, algorithm and complexity against a reproducible small instance before creating a modular-forms tool.。
 
 ## EXT-0632 · Multiple q-zeta values
 
 - 原件。arXiv:math/0402093v1 (2004-02-06; manuscript dated 2018-10-23)。PDF 物理页 1, 2, 4, 9。SHA-256 39b3f44aee161ed2c85e4ef22f5613847cafb981ada905a61d7dddb69ed18b49。
 - 多重 q-zeta 与 q-shuffle。Abstract; §§2–3。定义多重 q-zeta 值，给出 q-stuffle 乘法与由 Jackson q-积分导出的 q-shuffle，并证明多类 Hoffman、Ohno、Euler 型关系的 q 推广
 - 构件候选。恒等式依赖本文选定的 q-模拟及级数/Jackson 积分收敛约定；不能把经典 MZV 的任意数值关系推断为 q 关系 已核对定义、两类乘法和作者的适用声明；未逐复算广义 q-duality 的全部引理
+- 复核记录。2026-11-26T18:35:59+08:00。adopted-local。component。
+- 本次依据。The q-stuffle identity is an exact algebraic interface for Bradley's explicitly normalized multiple q-zeta series. It extends the live finite MZV relation tool without identifying q-relations with classical MZV relations.。定位。Definition 1 (p. 2), q-stuffle derivation and equation (2.2) (pp. 3--4), Theorem 1 proof (pp. 4--5)。全卷 35 页。后续条件。Preprint proof read: termwise equality splitting and the q-integer identity occur on pp. 3--4; caller must retain 0<q<1 and the source's convergent index conditions.。
+- 已采用构件。物理页 2, 3, 4, 5。Exact formal q-stuffle expansion for Bradley's 0<q<1 convergent multiple q-zeta normalization; it neither proves numerical q-zeta identities by truncation nor transfers relations to classical MZVs. [方法说明](../../../math-mzv-newton-harmonic-relations/references/wave8-candidate-10-q-stuffle.md)。
 
 ## EXT-0634 · Notes on motivic periods
 
@@ -365,6 +421,8 @@
 - 原件。Pacific Journal of Mathematics 65(2) (1976)。PDF 物理页 1, 2, 3, 5, 9。SHA-256 f9cab7cf1e20612f5fcdaa9f3177ae27747bd4e92b1ecd305cfef9d28b6d75a1。
 - 微分代数与初等可积性。Propositions 1–6; Theorem 1。以 Kähler 微分和 Ax 型线性独立性重证 Liouville 理论：在同常数的微分域扩张中，受常数系数对数微分关系约束的元素若非足够超越，则相应微分形式出现常数线性关系
 - 构件候选。须处于特征 0、指定导子族和同常数扩张；这是结构性判别工具而非对任意积分的完备自动算法 核对基础微分形式命题与 Theorem 1；尚未把后续初等积分/方程推论转为可计算的 differential-algebra pipeline
+- 复核记录。2026-11-26T18:35:59+08:00。adjacent。context。
+- 本次依据。The published differential-algebra theorem is structural and requires a concrete differential field, same-constants extension, and logarithmic-derivative relations; no active symbolic differential-algebra admission interface exists.。定位。Propositions 1--6 (pp. 2--5) and Theorem 1 with corollary (pp. 5--6)。全卷 11 页。后续条件。Provide a characteristic-zero differential field, its derivations and constants, and verify the exact hypotheses of Theorem 1.。
 
 ## EXT-0641 · The Galois coaction on φ4 periods
 
@@ -377,6 +435,8 @@
 - 原件。arXiv:1207.2326v4 (2014-05-01)。PDF 物理页 1, 2, 5, 12。SHA-256 d2a8138a6d45dc8f826a60f1c24528342cdb7a8fb3f2bc90d0f2a7db9955ddcc。
 - 正特征多重 zeta 超越性。§1.2; Theorem 2.2.1; Proposition 4.3.1。对函数域 F_q(θ) 的 Thakur MZV，若不同权重单项式集合各自在 k 上线性无关，则并集连同 1 在代数闭包上仍线性无关；从而代数按权重分次并得到 Eulerian dichotomy
 - 构件候选。结论使用 MZ property、Frobenius twisting 与 t-motive 型线性关系提升；仅适用于正特征 Carlitz/Thakur 对象 已核对主定理、MZV 定义和一个 descent 步骤；未审完 MZ property 的构造或迁移到经典 MZV 的任何可能性
+- 复核记录。2026-11-26T18:35:59+08:00。adjacent。context。
+- 本次依据。The positive-characteristic Thakur/Carlitz MZV result uses MZ-property and Frobenius-twist machinery; it does not transfer to classical MZVs or a current skill without a positive-characteristic motive model.。定位。Thakur MZV definition (pp. 2, 5) and MZ-property descent Proposition 4.3.1 (p. 12)。全卷 20 页。后续条件。A Carlitz/Thakur task with verified same-weight MZ-property inputs and associated Frobenius difference systems.。
 
 ## EXT-0648 · Harmonic Sums, Polylogarithms, Special Numbers, and their Generalizations
 
@@ -389,6 +449,8 @@
 - 原件。arXiv:math/0003127v3 (2001-05-25)。PDF 物理页 1, 3, 5, 9。SHA-256 5e88d9ab0cdeeaad218b7a9bab7c51f0a64b099aa90cdc742f85785064ddd971。
 - Mahler 测度与拓扑同调增长。Abstract; Theorem 2.1; §4 construction。对非零 Alexander 多项式 Δ 的 d 分量链，有限阿贝尔分支覆盖的一阶同调挠部分大小 b_Λ 满足 limsup log b_Λ/[Z^d:Λ]=log M(Δ)（d=1 时为极限）；证明把 Alexander 模块对应到代数动力系统的周期点
 - 构件候选。需 Δ 非零及指定有限指标子群趋于无穷；结果是链接拓扑到 Mahler 测度的桥梁，不是 Lehmer 问题的数值下界 核对主定理、覆盖/颜色 shift 构造和示例；未复核趋近定义、limsup 技术或多变量 Mahler 测度数值算法
+- 复核记录。2026-11-26T18:35:59+08:00。adjacent。context。
+- 本次依据。The link-topology-to-Mahler-measure growth theorem is a conditional bridge for Alexander modules, not a Mahler-measure numerical lower-bound or Euler-constant method.。定位。Theorem 2.1 (p. 3), Alexander-module construction (p. 5), and periodic-point example (p. 9)。全卷 14 页。后续条件。A specified oriented link with nonzero multivariable Alexander polynomial and a verified finite-index subgroup approach.。
 
 ## EXT-0651 · On the Thue-Siegel-Dyson theorem
 
@@ -396,3 +458,5 @@
 - 多变量辅助多项式与 Diophantine 逼近。§1; Theorem 1 (Dyson lemma setup)。回顾 Thue–Siegel–Dyson 通过使整系数辅助多项式在多个逼近点高阶消失来限制代数数有理逼近；以 admissible 点与二变量多重度函数给出 Dyson 型必要界
 - 构件候选。有效常数问题在文中明确未被一般解决；多重度界依赖 admissibility、维数/次数比与辅助空间非零性，不能当作 Roth 定理的有效版本 已核对引言的有效性限制和一个 Dyson 引理陈述；尚未审阅全文的权重选择及最终定量常数
 - 相关入口。[math-integer-linear-form-rates](../../../math-integer-linear-form-rates/SKILL.md)。
+- 复核记录。2026-11-26T18:35:59+08:00。hold。dependency。
+- 本次依据。The supplied offprint identifies neither a reliably citable formal edition nor an effective universal conclusion; its Dyson lemma is tied to admissible points and degree/multiplicity ratios not fully traced here.。定位。Ineffectivity discussion and Thue theorem (pp. 1--2); height setup (p. 7); Dyson lemma Theorem 1 (p. 10)。全卷 42 页。后续条件。Establish the formal bibliographic version and audit the theorem's admissibility, weight, and auxiliary-polynomial nonvanishing hypotheses for a specified approximation problem.。

@@ -9,6 +9,10 @@ description: 应用或审查 Fan–Grama–Liu 鞅展开，核对条件矩、滤
 
 当前证据状态：**部分可用**。P-53739dd293f0de1c 是 Fan–Grama–Liu 2012 年 arXiv v3 的 26 页论文，Theorems 2.1–2.2、假设与证明范围均按原文限定；定理证明读过但未独立重证。不要与 P-048bfe95a33fe7e7 混同：后者是 2015 年期刊论文、22 页，给一般条件 MGF / 最大值不等式，只是本项的邻近方法来源。两份 PDF 的 SHA、题录和阅读卡分别登记于来源表。
 
+## 路由边界
+
+本 Skill 是 Fan–Grama–Liu 条件 Bernstein 与可预测方差接近一时的相对正态尾展开入口。它不由 I01 的非渐近 Bernstein 尾界自动推出，也不由独立 Cramér 指数矩自动推出。独立/三角阵的一致 Cramér 选择见 [H01](../math-h01-uniform-cramer-moderate-deviations/SKILL.md)，只需固定终点条件尾界见 [I01](../math-i01-ordered-increment-conditional-bernstein/SKILL.md)，时间一致界见[偏差体制路由](../probability-concentration-chaining/references/deviation-regime-routing.md)中的超鞅分支。
+
 ## 输入与产出
 
 滤过、鞅差列、条件方差/平方变差、增量指数矩或截断矩条件、归一化和目标偏差区间。

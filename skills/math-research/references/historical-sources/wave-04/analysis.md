@@ -2656,6 +2656,7 @@
 - 构件候选。For f≥0 in Lp(0,∞), Theorem 1 gives the exact Hardy deficit identity with convex residual Φp; for p=2 it becomes 4∫f²−∫(Hf)²=∫(2f−Hf)². Theorem 3 proves the Carleman deficit lower bound e∫Dx(f)² dx/x, where Dx is a local weighted Hellinger-type distance to c/x.。
 - 适用范围。This is a source-specific preprint candidate, not an installed general theorem: Hardy needs endpoint/regularity justification before extension, and both virtual extremal families are outside their natural global spaces, so global distance claims require the stated local/logarithmic formulation.。
 - 相关技能。[math-m03-near-extremizer-stability](../../../../math-m03-near-extremizer-stability/SKILL.md)。
+- 后续复核入口。保留以上初始候选记录；该同一 SHA 的已核对版本、采用范围与精确二次 Hardy 亏损构件见 [dependency-recheck/analysis.md](../dependency-recheck/analysis.md) 中同题条目。此指针不改变本卡原始候选状态或其适用范围。
 
 ## Extremal General Affine Surface Areas
 

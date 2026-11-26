@@ -46,3 +46,7 @@ The result is an exact finite identity useful for generating or screening
 Kawashima-relation inputs. It does not establish a multiple-zeta relation
 beyond the cited theorem, linear independence of MZVs, completeness of a
 relation family, or any statement about Euler's constant.
+
+## 文献复核采用的构件
+
+- [Bradley-normalized multiple q-zeta stuffles](references/wave8-candidate-10-q-stuffle.md)

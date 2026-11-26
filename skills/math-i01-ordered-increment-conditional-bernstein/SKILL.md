@@ -9,6 +9,10 @@ description: 在有序滤过下核验条件 Bernstein 矩并推导指数超鞅�
 
 对独立和的常用尾界优先用 H05。本入口用于方差代理随过去变化、必须在滤过下核验条件矩的情形。
 
+## 路由边界
+
+若增量独立，优先用 [H05](../math-h05-chernoff-hoeffding-bernstein/SKILL.md) 的固定时域界。本 Skill 只给条件阶乘矩、共同确定尺度和确定可预测方差预算下的非渐近终点尾界；它不产生相对正态尾、Cramér 展开或停止时间最大值结论。前者转 [H03](../math-h03-fan-grama-liu-martingale-expansion/SKILL.md)，后者须使用[偏差体制路由](../probability-concentration-chaining/references/deviation-regime-routing.md)中 P004/P034/Freedman 的相应超鞅条件。
+
 ## 输入与结论
 
 给定有限序列与滤过 `(F_k)_{k=0}^N`。对每个 `k`，要求 `X_k` 为 `F_k`-可测、`c>0` 为确定常数，`v_k≥0` 为 `F_{k−1}`-可测，并且

@@ -1,0 +1,8 @@
+Command:
+python3 ../scripts/hypergeometric_tail_bound_wave8.py --a 1 --b 2,3 --n 2 --z 1
+
+Expected exact output:
+D = 1/4
+C = 4/3
+
+The premise has p=1 <= q+1=2 and b_i+N=(4,5)>0.

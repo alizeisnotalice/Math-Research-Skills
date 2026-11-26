@@ -9,6 +9,10 @@ description: 核验一致 Cramér 中偏差和三角阵尾估计，检查一致�
 
 当前证据状态：**部分可用**。Rademacher 实例、有限端点共轭和特定来源的假设范围已核；通用一致 Cramér 尾比定理未在本 Skill 中证明。Dai 等人的 H01 相邻来源 P-2a57ad2731b72cd2 已按精确 SHA 全读，但 PDF p.3 联合印出的全域耗散与全域未中心化梯度 sub-Gaussian 假设不相容；它只能提供证明架构线索，不能作为其 Theorems 2.4–2.6 的可用结论。详见[来源与阅读状态](references/provenance.md)。
 
+## 路由边界
+
+本 Skill 处理独立/三角阵的一致 Cramér 窗口及本目录明确列出的模型专项。若鞅分支实际需要 Fan–Grama–Liu 的相对正态尾展开，转 [H03](../math-h03-fan-grama-liu-martingale-expansion/SKILL.md) 并保留其 A1/A2、方差偏差和 \(x\) 范围；非渐近条件 Bernstein 尾界转 [I01](../math-i01-ordered-increment-conditional-bernstein/SKILL.md)。指数矩存在或一个倾斜恒等式本身不产生 Lugannani–Rice 相对误差；该条件独立、缩小阈值路线见 [H02](../math-h02-exponential-tilting-saddlepoint/SKILL.md)。完整选择表在[偏差体制路由](../probability-concentration-chaining/references/deviation-regime-routing.md)。
+
 ## 输入与产出
 
 三角阵或独立和、中心化与方差标准化、对数矩母函数及目标偏差区间。
