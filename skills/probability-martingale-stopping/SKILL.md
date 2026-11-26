@@ -38,3 +38,7 @@ Read [method.md](references/method.md) for proof routes and assumption audits, [
 ## OpenAI 原稿中的方法
 
 - [Wave 4 PA3: massive-interface scalar and martingale interface](references/openai-wave4-pa3.md)
+
+## 文献复核采用的构件
+
+- [Uniformly integrable discrete-time martingale convergence](references/moerters-ui-martingale-convergence.md)

@@ -47,5 +47,7 @@ description: 分析完全正锥和共正锥表述，核对锥对偶、有限近�
 
 ## 文献复核采用的构件
 
+- [Jordan-frame restriction to an orthant copositive cone](references/symmetric-cone-jordan-frame-restriction.md)
+
 - [Lorentz-cone copositive facial cases](references/lorentz-copositive-facial-guard.md)
 - [Ordered off-diagonal copositive matrices](references/ordered-offdiagonal-copositive-spn.md)

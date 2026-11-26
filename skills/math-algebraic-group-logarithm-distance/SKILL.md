@@ -1,6 +1,6 @@
 ---
 name: math-algebraic-group-logarithm-distance
-description: 对给定交换代数群、代数点和代数 Lie 子代数，核对 Gaudron 有理情形对数到 Lie 子空间距离下界的调用前提。
+description: 对给定代数点的对数与代数 Lie 子空间，按交换代数群或仿射代数群模型核对距离下界的各自前提。
 ---
 
 # Algebraic-group logarithm distance bounds
@@ -29,3 +29,7 @@ nonperiodicity premise.
 
 Read [the rational-case source gate](references/gaudron-rational-logarithm-distance-ext0202.md)
 for the exact theorem, its publication identity, and its dependency boundary.
+
+## 仿射代数群分支
+
+在非交换群或矩阵表示情形，用[仿射群度量来源卡](references/huicochea-affine-group-log-distance.md)核对精确嵌入、坐标基、子空间、定量参数及共轭条件。保留该定理自己的范数与高度定义。

@@ -38,6 +38,8 @@ description: 构造或审查外放松映射，核对正支配、约束保持、�
 
 ## 文献复核采用的构件
 
+- [Adaptive-metric outer approximation: conditioned transfer only](references/adaptive-metric-conditioned-transfer.md)
+
 - [SOS outer containment for a global attractor](references/attractor-sos-outer-containment.md)
 - [Delta-relaxed monotonic outer approximation](references/delta-relaxed-polyblock-outer-approximation.md)
 - [KKT-gated cuts for nonsmooth convex MINLP](references/nonsmooth-minlp-kkt-outer-cuts.md)

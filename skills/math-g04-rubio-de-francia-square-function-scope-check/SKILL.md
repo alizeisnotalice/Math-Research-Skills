@@ -39,3 +39,7 @@ Rubio de Francia 名称不能替代任意树平方函数的证明；区间不交
 ## OpenAI 原稿中的方法
 
 - [Buffered refined decoupling with a common time slab](references/openai-direct-wave-3.md)
+
+## 文献复核采用的构件
+
+- [Smooth bilinear strips: finite-model scope gate](references/bilinear-smooth-strip-finite-model.md)

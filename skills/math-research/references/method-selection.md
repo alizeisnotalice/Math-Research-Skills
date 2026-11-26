@@ -35,6 +35,19 @@
 | 有限块熵与 Hamiltonian 固定点 | D05 核对零角 Gram 的 log-det 与熵。M08 核对有限阶映射的固定子流形及小时间法向非退化。 |
 | 整数递推的数位打包 | L23 证明统一的字段位宽，再用精确移位、掩码与普通表逐字段回放。 |
 
+## 专题数学路线
+
+下列领域键用于把对象先送到相应的专项索引，再由单项技能固定定理、版本和输入契约。它们不是定理标签，也不因同一研究领域自动允许迁移结论。
+
+- [欧拉常数、Padé 与整数线性形式](research-specialists.md#euler-gamma-pade) 处理 γ、Padé、连分数和有限行列式逼近。
+- [超越性、丢番图逼近与 G/Mahler 函数](research-specialists.md#transcendence-diophantine-g-functions) 处理代数独立、有效逼近和函数值问题。
+- [解析数论、L 函数、模形式与特殊函数](research-specialists.md#analytic-number-theory-special-functions) 处理 ζ/L、MZV、模形式与特殊函数。
+- [微分差分方程、递推与动力系统](research-specialists.md#differential-difference-dynamics) 处理有明确系数、初值或轨道数据的递推和动力系统。
+- [调和、几何与泛函分析及 PDE](research-specialists.md#analysis-geometry-pde) 处理极大算子、谱/热核、度量几何和几何方程。
+- [代数几何、模空间、p-adic 与非阿基米德几何](research-specialists.md#algebraic-arithmetic-geometry) 处理除子、周期、特殊点和局部几何。
+- [代数、表示论、算子代数与上同调](research-specialists.md#algebra-representation-operator-cohomology) 处理有限代数、表示、链复形和算子证书。
+- [图论、组合、离散几何与博弈](research-specialists.md#discrete-combinatorics-games) 以及[复杂性、张量与离散证明迁移](research-specialists.md#complexity-tensor-transfer) 分别处理有限离散结构和复杂性接口。
+
 ## 来源和使用范围
 
 先定位技能本次实际依赖的陈述及版本。正式出版的结果核对引用位置、假设和结论范围。OpenAI Math 的现行未撤回稿件默认采用原文结论和显式假设，核验具体工具实现。其他仅有预印本支持的陈述须核验实际使用的结论和证明关键步骤。有正式版但当前陈述只出现在旧稿或较新的预印本时，按该陈述实际所用版本处理。候选来源、缺失账本、私有接口和未证推广只作为研究线索。可独立推导的构件按其实际假设使用。

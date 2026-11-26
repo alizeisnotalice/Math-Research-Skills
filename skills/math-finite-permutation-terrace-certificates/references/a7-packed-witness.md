@@ -11,7 +11,9 @@ Horace Dong, *A terrace for the alternating group A7* (author manuscript,
 The source encodes seven zero-based images in 21 bits (three bits per image),
 with 64 rows in each hexadecimal block. `replay_packed_a7.py` verifies that
 format directly, checks the normalized enumeration of all 2,520 even
-permutations, and checks the paper's consecutive-quotient multiplicities.
+permutations and checks Theorem 1's basic terrace multiplicities. An
+involution occurs once, while a pair of distinct inverse elements occurs
+twice in total. The source states that some A7 quotients occur twice.
 
 ## Scope
 

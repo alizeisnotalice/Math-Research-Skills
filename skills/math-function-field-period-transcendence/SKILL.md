@@ -36,6 +36,8 @@ lambda = -(u F_tau(omega) - omega F_tau(u))/root_{q-1}(-Delta)
 
 ## 文献复核采用的构件
 
+- [v-adic Carlitz multiple-polylogarithm period transfer](references/v-adic-carlitz-multiple-polylog-period-transfer-ext0126.md)
+
 - [Anderson generating series from a Drinfeld module](references/anderson-generating-series-ext0104.md)
 - [Anderson--Thakur omega interface](references/ext-0073-anderson-thakur-omega.md)
 - [Quartic Laurent-series criterion over \(\mathbb F_3\)](references/ext0334-f3-quartic-continuous-fraction.md)

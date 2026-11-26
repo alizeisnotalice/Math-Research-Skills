@@ -17,4 +17,6 @@ description: 在完备非阿基米德环境中，核对有理或形式的有限�
 
 ## 文献复核采用的构件
 
+- [Local elliptic comparison-period gates](references/local-elliptic-comparison-period-gates-ext0132.md)
+
 - [p-adic Tate-uniformization density gate](references/padic-tate-uniformization-density.md)

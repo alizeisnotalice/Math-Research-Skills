@@ -25,4 +25,6 @@ description: "Audit or extend centered axis-parallel cube Hardy–Littlewood wea
 
 ## 文献复核采用的构件
 
+- [Exact periodic lower certificate for centred squares](references/tomar-square-periodic-lower.md)
+
 - [Square-maximal comparison premise from a nonlocal kernel](references/lin-square-comparison-premise.md)

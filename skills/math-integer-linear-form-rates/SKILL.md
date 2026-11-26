@@ -29,6 +29,8 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 
 ## 文献复核采用的构件
 
+- [Zeta(2) hypergeometric parameter certificate](references/ext0316-zeta2-2026-parameter-certificate.md)
+
 - [Bai arctangent partial-fraction denominator gate](references/bai-arctan-partial-fraction-denominators-ext0143.md)
 - [Bel's p-adic Hurwitz--Padé dimension bound](references/bel-padic-hurwitz-dimension-ext0173.md)
 - [Dyson admissibility prerequisite for an auxiliary polynomial](references/bombieri-dyson-admissibility.md)

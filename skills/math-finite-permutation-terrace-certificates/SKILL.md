@@ -1,6 +1,6 @@
 ---
 name: math-finite-permutation-terrace-certificates
-description: Verify a supplied ordering of all even permutations as a finite directed-terrace certificate; includes a reader for the public packed A7 witness format.
+description: Verify a supplied ordering of all even permutations as a finite basic-terrace certificate; includes a reader for the public packed A7 witness format.
 ---
 
 # Finite alternating-group terrace certificates
@@ -11,8 +11,10 @@ does not construct terraces or imply a result for other groups.
 
 The JSON input has `degree` and `rows`, where every row is a zero-based image
 list. The checker verifies that the rows are precisely all even permutations,
-begin with the identity, and that the consecutive quotients meet the directed
-terrace count condition. Composition convention is stated in the checker.
+begin with the identity, and satisfy the basic terrace condition. Each
+involution occurs once among consecutive quotients. Each inverse pair of
+distinct elements occurs twice in total. The JSON separately reports whether
+each nonidentity element occurs exactly once, the directed condition.
 
 ```sh
 python3 scripts/check_terrace.py examples/a3-positive.json

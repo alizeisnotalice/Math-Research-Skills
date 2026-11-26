@@ -9,11 +9,11 @@ Use this skill to verify, on small finite instances, the domination polynomial o
 
 `D(J_m,x) = (1+x)^(a+b*m) - (1+x)^(b*m) + D(B,x)^m`,
 
-where `b=|V(B)|`.  This is a finite identity checker, not a locator or asymptotic bound for complex roots.
+where `b=|V(B)|` and `b*m>0`. For `b*m=0`, use `D(K_a,x)=(1+x)^a-1`.  This is a finite identity checker, not a locator or asymptotic bound for complex roots.
 
 ## Procedure
 
-1. Give the simple graph `B` by `n` and zero-based edges, and choose nonnegative `a,m` with `a>=1`.
+1. Give the simple graph `B` by `n` and zero-based edges, and choose `a>=1` and `m>=0`. The empty petal graph is valid.
 2. Run `scripts/check_petal_join.py`.
 3. Preserve the direct and formula coefficient lists, plus the command, as the finite certificate.
 4. If using a transformed root equation, separately state its substitution and nonvanishing domain; this script does not certify root locations.

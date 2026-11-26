@@ -5,18 +5,74 @@
     "orchestration": "研究总入口",
     "tools": "计算与绘图工具",
     "methods": "数学方法（A–N）",
-    "research-specialists": "专项研究核验",
+    "research-specialists": "专题数学研究与证书",
     "probability": "概率研究专题",
     "literature": "文献检索与获取",
     "writing": "论文写作、翻译与表达",
     "modeling": "数学建模竞赛",
     "collaboration": "指定模型咨询"
   },
+  "specialty_fields": [
+    {
+      "key": "euler-gamma-pade",
+      "label": "欧拉常数、Padé 与整数线性形式",
+      "route": "γ 的无理性、特殊值逼近、精确递推或有限 Padé/行列式证书。",
+      "count": 16
+    },
+    {
+      "key": "transcendence-diophantine-g-functions",
+      "label": "超越性、丢番图逼近与 G/Mahler 函数",
+      "route": "代数独立、有效逼近、Mahler/G-函数或指数丢番图问题。",
+      "count": 21
+    },
+    {
+      "key": "analytic-number-theory-special-functions",
+      "label": "解析数论、L 函数、模形式与特殊函数",
+      "route": "ζ/L 函数、模形式、MZV、特殊函数及其有限恒等式。",
+      "count": 15
+    },
+    {
+      "key": "differential-difference-dynamics",
+      "label": "微分差分方程、递推与动力系统",
+      "route": "有限递推、差分 Galois、可积系统、正交多项式或周期轨道。",
+      "count": 7
+    },
+    {
+      "key": "analysis-geometry-pde",
+      "label": "调和、几何与泛函分析及 PDE",
+      "route": "极大算子、Fourier/谱、度量几何、热核、共形或几何 PDE。",
+      "count": 12
+    },
+    {
+      "key": "algebraic-arithmetic-geometry",
+      "label": "代数几何、模空间、p-adic 与非阿基米德几何",
+      "route": "除子、Hodge/period、特殊点、模曲线、p-adic 或非阿基米德资料。",
+      "count": 11
+    },
+    {
+      "key": "algebra-representation-operator-cohomology",
+      "label": "代数、表示论、算子代数与上同调",
+      "route": "有限代数、群与表示、算子代数、链复形或转移证书。",
+      "count": 10
+    },
+    {
+      "key": "discrete-combinatorics-games",
+      "label": "图论、组合、离散几何与博弈",
+      "route": "有限图、计数、permanent、半群、概率组合或有限博弈证书。",
+      "count": 21
+    },
+    {
+      "key": "complexity-tensor-transfer",
+      "label": "复杂性、张量与离散证明迁移",
+      "route": "通信复杂性、张量复杂性或已命名研究项目的有限迁移接口。",
+      "count": 3
+    }
+  ],
   "counts": {
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 104,
+    "research-specialists": 116,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -71,7 +127,9 @@
       "title": "欧几里得张量几何",
       "description": "Apply or audit OpenAI family 379 Euclidean tensor prices, Strassen spectral invariants, and common-placement network bounds in arithmetic complexity and combinatorics. 中文触发：欧几里得张量几何、张量价格、渐近谱、跨割下界。Do not use for generic tensor numerics or classical maximal operators without a proved model bridge.",
       "category": "research-specialists",
-      "path": "skills/euclidean-tensor-geometry/SKILL.md"
+      "path": "skills/euclidean-tensor-geometry/SKILL.md",
+      "specialty": "complexity-tensor-transfer",
+      "specialty_label": "复杂性、张量与离散证明迁移"
     },
     {
       "name": "ipad-math-node",
@@ -139,49 +197,63 @@
       "title": "有限除子—交叉数账本",
       "description": "对已给定的精确除子、公共解消与交叉数表核验局部代数几何接口；不构造几何对象或采纳丰度/Iitaka 主定理。 支持点吹起中零循环的整系数推拉。",
       "category": "research-specialists",
-      "path": "skills/math-ag-divisor-intersection-ledger/SKILL.md"
+      "path": "skills/math-ag-divisor-intersection-ledger/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-algebraic-group-logarithm-distance",
       "title": "Algebraic-group logarithm distance bounds",
-      "description": "对给定交换代数群、代数点和代数 Lie 子代数，核对 Gaudron 有理情形对数到 Lie 子空间距离下界的调用前提。",
+      "description": "对给定代数点的对数与代数 Lie 子空间，按交换代数群或仿射代数群模型核对距离下界的各自前提。",
       "category": "research-specialists",
-      "path": "skills/math-algebraic-group-logarithm-distance/SKILL.md"
+      "path": "skills/math-algebraic-group-logarithm-distance/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-algebraic-transfer-certificates",
       "title": "代数转移与有限证书",
       "description": "核对已给定的余留映射、整系数转移、链提升、格拼接或有限对称张量资料。适用于 Gersten 与 Milnor 障碍、升 HNN 扩张的同调输入和纤维函子条件。",
       "category": "research-specialists",
-      "path": "skills/math-algebraic-transfer-certificates/SKILL.md"
+      "path": "skills/math-algebraic-transfer-certificates/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-alternating-reciprocal-criteria",
       "title": "交错倒数和的连分数判据",
       "description": "用 Sondow 的交错倒数和—连分数判据，严格区分可证明的无理性、有限前缀核验，以及需要整条简单连分数假设的超越性结论。适用于 Pierce 展开或快速增长分母的交错倒数和；不用于仅凭数值近似宣称无理或超越。",
       "category": "research-specialists",
-      "path": "skills/math-alternating-reciprocal-criteria/SKILL.md"
+      "path": "skills/math-alternating-reciprocal-criteria/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-asymptotic-midpoint-moduli",
       "title": "渐近中点模量与分支 diamond 审计",
       "description": "在已认证的树、段森林或 Daugavet-L1 结构上，调用渐近中点模量与可数分支 diamond 失真界；不把有限算术或抽象范数当作结构证书。",
       "category": "research-specialists",
-      "path": "skills/math-asymptotic-midpoint-moduli/SKILL.md"
+      "path": "skills/math-asymptotic-midpoint-moduli/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-average-degree-tree-embedding",
       "title": "Average-degree tree embedding",
       "description": "在有限简单无向图中，按平均度严格阈值核对给定树的嵌入，并返回可检查的顶点映射。",
       "category": "research-specialists",
-      "path": "skills/math-average-degree-tree-embedding/SKILL.md"
+      "path": "skills/math-average-degree-tree-embedding/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-ax-schanuel-dimension-defect",
       "title": "Ax--Schanuel 维数缺陷分流",
       "description": "对已明确的平坦联络、模 j、Hodge 周期映射或矩阵指数数据，选择相应 Ax--Schanuel 维数缺陷定理并核对不可省略的几何前提。",
       "category": "research-specialists",
-      "path": "skills/math-ax-schanuel-dimension-defect/SKILL.md"
+      "path": "skills/math-ax-schanuel-dimension-defect/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-b01-lagrange-farkas",
@@ -220,21 +292,27 @@
       "title": "Baker--Runge 高度界门槛",
       "description": "在已给出射影模型、除子和 S-整模型时，核对 Baker--Runge 型积分点高度界的交叠条件与例外集；不计算未给出的有效常数。",
       "category": "research-specialists",
-      "path": "skills/math-baker-runge-height-gates/SKILL.md"
+      "path": "skills/math-baker-runge-height-gates/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-bessel-cross-product-recurrence",
       "title": "Bessel 交叉积的离散 Riccati 递推",
       "description": "在已给定的 Bessel/modified-Bessel 定义域内，使用离散 Riccati 恒等式与二阶交叉积递推；不把有限递推代数当作圆板谱重数或超越性证明。",
       "category": "research-specialists",
-      "path": "skills/math-bessel-cross-product-recurrence/SKILL.md"
+      "path": "skills/math-bessel-cross-product-recurrence/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-bimatrix-kite-mixing",
       "title": "双矩阵博弈 Kite 混合",
       "description": "核验双矩阵博弈的后悔值、s-kite 条件与精确最佳回应混合。适用于已有候选策略的局部改进与有限证书，不把尚未独立复核的全局近似 Nash 声明当作可用定理。",
       "category": "research-specialists",
-      "path": "skills/math-bimatrix-kite-mixing/SKILL.md"
+      "path": "skills/math-bimatrix-kite-mixing/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-c01-semidefinite-lifting",
@@ -273,70 +351,90 @@
       "title": "CAT(0) inductive barycenters",
       "description": "Transfer a finite centred distribution in a complete CAT(0) metric cone into an inductive-barycenter energy bound, with exact Euclidean finite-support replay. Use for certified cone geometry, not generic group-action or sampling claims.",
       "category": "research-specialists",
-      "path": "skills/math-cat0-inductive-barycenters/SKILL.md"
+      "path": "skills/math-cat0-inductive-barycenters/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-centered-cube-endpoint-budget",
       "title": "中心立方体极大算子的弱端点工具",
       "description": "Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima.",
       "category": "research-specialists",
-      "path": "skills/math-centered-cube-endpoint-budget/SKILL.md"
+      "path": "skills/math-centered-cube-endpoint-budget/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-clique-free-random-multiplier",
       "title": "Clique-free random multiplier",
       "description": "Construct and exactly check the finite-support random multiplier from the clique-free neighborhood recursion for a supplied finite weighted K_r-free graph.",
       "category": "research-specialists",
-      "path": "skills/math-clique-free-random-multiplier/SKILL.md"
+      "path": "skills/math-clique-free-random-multiplier/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-cmzv-rational-pullback",
       "title": "Cyclotomic MZV rational pullbacks",
       "description": "Place specified iterated integrals or multiple polylogarithms in a cyclotomic MZV space through a verified rational-pullback criterion.",
       "category": "research-specialists",
-      "path": "skills/math-cmzv-rational-pullback/SKILL.md"
+      "path": "skills/math-cmzv-rational-pullback/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-cohomological-transfer",
       "title": "同调与上同调的局部转移",
       "description": "核验链复形权截断、Mayer–Vietoris 条件、图状神经上链延拓以及已给代数或谱数据上的局部化与张量消失。",
       "category": "research-specialists",
-      "path": "skills/math-cohomological-transfer/SKILL.md"
+      "path": "skills/math-cohomological-transfer/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-conformal-dimension-perron-brackets",
       "title": "共形 Markov 分区的 Perron 根区间",
       "description": "对给定扩张共形 Markov 分区、认证导数区间和有理比较向量，验证非负转移矩阵的谱半径界并判断指数与维数的方向。",
       "category": "research-specialists",
-      "path": "skills/math-conformal-dimension-perron-brackets/SKILL.md"
+      "path": "skills/math-conformal-dimension-perron-brackets/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-conformal-domain-estimates",
       "title": "Conformal-domain estimates",
       "description": "Manage gated conformal-domain coordinate-energy and univalent inverse-integral-means transfers. Use only with the specified normalization, boundary, and source-model hypotheses; not for arbitrary holomorphic maps or planar compactness.",
       "category": "research-specialists",
-      "path": "skills/math-conformal-domain-estimates/SKILL.md"
+      "path": "skills/math-conformal-domain-estimates/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-cycle-type-likelihood-bounds",
       "title": "Cycle-type likelihood bounds",
       "description": "Compare two supplied finite cycle-type laws under an explicit iid observation model, with Hellinger affinity and Bayes-error bounds.",
       "category": "research-specialists",
-      "path": "skills/math-cycle-type-likelihood-bounds/SKILL.md"
+      "path": "skills/math-cycle-type-likelihood-bounds/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-cycle-weighted-permanent",
       "title": "Cycle-weighted permanents",
       "description": "Compute finite Macdonald cycle-weighted permanents and their scalar normalizations exactly for rational q and t.",
       "category": "research-specialists",
-      "path": "skills/math-cycle-weighted-permanent/SKILL.md"
+      "path": "skills/math-cycle-weighted-permanent/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-cyclotomic-euler-t-parity",
       "title": "Cyclotomic Euler T-sum parity reduction",
       "description": "对满足收敛条件的根单位 cyclotomic Euler T-sum，调用围道留数奇偶归约到较低阶和；不提供未展开余项的数值公式，也不采纳猜想的 multiple-t 奇偶性。",
       "category": "research-specialists",
-      "path": "skills/math-cyclotomic-euler-t-parity/SKILL.md"
+      "path": "skills/math-cyclotomic-euler-t-parity/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-d01-kantorovich-duality",
@@ -383,28 +481,45 @@
       "title": "Differential-operator minimization",
       "description": "Minimize a supplied rational-coefficient differential operator for a specified formal solution, after certifying the Ore factor, degree-bound and initial-series subroutines.",
       "category": "research-specialists",
-      "path": "skills/math-differential-operator-minimization/SKILL.md"
+      "path": "skills/math-differential-operator-minimization/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-dirichlet-l-derivative-sine-reduction",
       "title": "周期 Dirichlet 级数的一阶导数",
       "description": "对给定偶周期有理数据，精确生成 Dirichlet 型级数在零点导数的形式对数权重。核对周期、对称性、零索引和分母。",
       "category": "research-specialists",
-      "path": "skills/math-dirichlet-l-derivative-sine-reduction/SKILL.md"
+      "path": "skills/math-dirichlet-l-derivative-sine-reduction/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
+    },
+    {
+      "name": "math-dirichlet-l-value-span-scope",
+      "title": "Dirichlet L-value span lower-bound scope",
+      "description": "Apply the current preprint's asymptotic Dirichlet L-value span lower bound with the exact conductor, coefficient field, and opposite-parity restrictions.",
+      "category": "research-specialists",
+      "path": "skills/math-dirichlet-l-value-span-scope/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-discrete-proof-transfer",
       "title": "离散与概率课题的论文迁移审计",
       "description": "为固定二叉 Derrida–Retaux/H3、连续 Cantelli、自由边界方格双峰 A022、非负因子 A30/A175、布尔 Fourier 谱维数 A28/A165 审核可迁移引理并制作可独立核验的证书。另用于周期图的有限连通分支与例外顶点预算。不要因同名 Fourier、稳定性或张量术语就迁移结论。",
       "category": "research-specialists",
-      "path": "skills/math-discrete-proof-transfer/SKILL.md"
+      "path": "skills/math-discrete-proof-transfer/SKILL.md",
+      "specialty": "complexity-tensor-transfer",
+      "specialty_label": "复杂性、张量与离散证明迁移"
     },
     {
       "name": "math-double-elliptic-orbit-confinement",
       "title": "Double elliptic orbit confinement",
       "description": "Apply the source-scoped confinement theorem for finite translation orbits on a surface with two elliptic fibrations and non-torsion sections.",
       "category": "research-specialists",
-      "path": "skills/math-double-elliptic-orbit-confinement/SKILL.md"
+      "path": "skills/math-double-elliptic-orbit-confinement/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-e01-occupation-measure-flow-lp",
@@ -459,14 +574,18 @@
       "title": "有限图边卡组审计",
       "description": "审计有限简单图的无标号单边删除卡组，精确比较候选反例并核对边重构定理的图类和密度门槛。适用于小图枚举、边卡组断言和来源结论的适用范围检查。",
       "category": "research-specialists",
-      "path": "skills/math-edge-deck-reconstruction-audit/SKILL.md"
+      "path": "skills/math-edge-deck-reconstruction-audit/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-elliptic-quasielliptic-function-independence",
       "title": "Elliptic and quasi-elliptic function independence",
       "description": "对已给定椭圆格、指数参数和 Serre 函数参数，依据经认证的线性无关条件调用函数层面的代数独立性；不从数值特殊值或“几乎处处”结论推断特定点独立性。",
       "category": "research-specialists",
-      "path": "skills/math-elliptic-quasielliptic-function-independence/SKILL.md"
+      "path": "skills/math-elliptic-quasielliptic-function-independence/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-euler-constant-irrationality",
@@ -474,6 +593,8 @@
       "description": "研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计 γ 的 Padé、多重正交、超几何、递推、整数线性形式、分母消去与 Sondow 型判据，也用于核对 E/G 函数、算术 Gevrey 与 Stokes 常数方法能否转移到 γ。",
       "category": "research-specialists",
       "path": "skills/math-euler-constant-irrationality/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式",
       "requires": [
         "math-openai-arithmetic-determinants",
         "math-prevost-hurwitz-pade-remainder",
@@ -495,28 +616,45 @@
       "title": "Euler--Maclaurin 求积误差证书",
       "description": "为满足端点消失条件的多项式 Euler--Maclaurin 求积构造精确余项与可复核误差包围；不用于未经认证的一般浮点积分。",
       "category": "research-specialists",
-      "path": "skills/math-euler-maclaurin-quadrature-certificates/SKILL.md"
+      "path": "skills/math-euler-maclaurin-quadrature-certificates/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-euler-series-continued-fraction",
       "title": "Euler series to a generalized continued fraction",
       "description": "Convert a finite nondegenerate rational series segment to Euler generalized continued-fraction data exactly. Use for finite algebraic identity checks, not for convergence or irrationality claims.",
       "category": "research-specialists",
-      "path": "skills/math-euler-series-continued-fraction/SKILL.md"
+      "path": "skills/math-euler-series-continued-fraction/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-exponential-algebraic-methods",
       "title": "指数代数方程的方法",
       "description": "根据指数方程的模型选择复环面或阿贝尔簇上的存在定理，或明确承担 Schanuel、EAC 等前提后的指数多项式与幂映射结论。",
       "category": "research-specialists",
-      "path": "skills/math-exponential-algebraic-methods/SKILL.md"
+      "path": "skills/math-exponential-algebraic-methods/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-exponential-logarithm-algebraic-independence",
       "title": "Mahler exponential--logarithm independence",
       "description": "核对 Mahler 1931/32 指数与对数代数独立性及多项式非消失下界的精确适用条件。",
       "category": "research-specialists",
-      "path": "skills/math-exponential-logarithm-algebraic-independence/SKILL.md"
+      "path": "skills/math-exponential-logarithm-algebraic-independence/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
+    },
+    {
+      "name": "math-exponential-order-reduction",
+      "title": "Exponential-equation order reduction",
+      "description": "Compute and verify the finite extended-order reduction used for pairwise-coprime equations a^x+b^y=c^z before any logarithmic or gap-principle argument.",
+      "category": "research-specialists",
+      "path": "skills/math-exponential-order-reduction/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-f01-geometric-mean-kernel-two-winner-audit",
@@ -595,56 +733,90 @@
       "title": "Finite F2 group-ring cancellation",
       "description": "Verify a finite characteristic-two group-ring cancellation certificate from two labelled components and a supplied exact group-label product oracle; it does not establish torsion-freeness or nonzero factors.",
       "category": "research-specialists",
-      "path": "skills/math-f2-group-ring-cancellation/SKILL.md"
+      "path": "skills/math-f2-group-ring-cancellation/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-fermat-hodge-lattice-quotients",
       "title": "Fermat Hodge-lattice quotients",
       "description": "Reduce a certified Fermat middle-Hodge lattice quotient to an explicit group-ring quotient, while preserving the geometric and arithmetic premises needed for the reduction.",
       "category": "research-specialists",
-      "path": "skills/math-fermat-hodge-lattice-quotients/SKILL.md"
+      "path": "skills/math-fermat-hodge-lattice-quotients/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-fibonacci-valuation-reductions",
       "title": "Fibonacci 精确赋值约化",
       "description": "对给定 Fibonacci 指数的精确整除前提，检查 F_l 的精确幂整除并应用三分支的指数约化；不宣称解完原始指数丢番图方程。",
       "category": "research-specialists",
-      "path": "skills/math-fibonacci-valuation-reductions/SKILL.md"
+      "path": "skills/math-fibonacci-valuation-reductions/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
+    },
+    {
+      "name": "math-finite-cyclic-difference-pv",
+      "title": "Finite cyclic difference Picard–Vessiot certificate",
+      "description": "Certify the finite cyclic Picard–Vessiot-ring construction for a caller-supplied finite-order diagonal representation; do not use it to solve general inverse difference-Galois problems.",
+      "category": "research-specialists",
+      "path": "skills/math-finite-cyclic-difference-pv/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-finite-field-formal-series-congruences",
       "title": "Finite-field formal-series congruences",
       "description": "Verify finite coefficient windows for elementary formal-series fixed points over a prime field, with explicit truncation boundaries.",
       "category": "research-specialists",
-      "path": "skills/math-finite-field-formal-series-congruences/SKILL.md"
+      "path": "skills/math-finite-field-formal-series-congruences/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-finite-nonassociative-algebra-audits",
       "title": "小型非结合代数的恒等式证书",
       "description": "核验指定有理轴代数乘法表、消去后的线性泛函，或素域上的仿射 medial rack 恒等式和见证。",
       "category": "research-specialists",
-      "path": "skills/math-finite-nonassociative-algebra-audits/SKILL.md"
+      "path": "skills/math-finite-nonassociative-algebra-audits/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-finite-permutation-terrace-certificates",
       "title": "Finite alternating-group terrace certificates",
-      "description": "Verify a supplied ordering of all even permutations as a finite directed-terrace certificate; includes a reader for the public packed A7 witness format.",
+      "description": "Verify a supplied ordering of all even permutations as a finite basic-terrace certificate; includes a reader for the public packed A7 witness format.",
       "category": "research-specialists",
-      "path": "skills/math-finite-permutation-terrace-certificates/SKILL.md"
+      "path": "skills/math-finite-permutation-terrace-certificates/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
+    },
+    {
+      "name": "math-four-square-witness-certificates",
+      "title": "Four-square witness certificates",
+      "description": "Produce or verify an exact finite four-square witness while explicitly separating that certificate from the incomplete descent in the source note.",
+      "category": "research-specialists",
+      "path": "skills/math-four-square-witness-certificates/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-function-field-period-transcendence",
       "title": "正特征函数域周期超越性",
       "description": "在已给定的正特征 Drinfeld 模、t-motive 与解析平凡化数据下，定位周期、准周期、第三类周期和 Carlitz 张量周期的条件性超越/代数独立接口。",
       "category": "research-specialists",
-      "path": "skills/math-function-field-period-transcendence/SKILL.md"
+      "path": "skills/math-function-field-period-transcendence/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-g-function-restricted-approximation",
       "title": "G-function fixed-base approximation gate",
       "description": "对已认证为有理系数非有理 G-函数的有理值，调用有效的固定基底分母逼近下界；也用于限制其 b 进制展开中的长重复数字块。",
       "category": "research-specialists",
-      "path": "skills/math-g-function-restricted-approximation/SKILL.md"
+      "path": "skills/math-g-function-restricted-approximation/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-g01-carleson-measure-box-and-tent-test",
@@ -691,35 +863,45 @@
       "title": "欧拉常数连分数递推",
       "description": "用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。",
       "category": "research-specialists",
-      "path": "skills/math-gamma-continued-fraction-recurrence/SKILL.md"
+      "path": "skills/math-gamma-continued-fraction-recurrence/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-gamma-gregory-series-interval",
       "title": "欧拉常数的 Gregory 级数区间",
       "description": "用 Gregory 系数的 Fontana–Mascheroni 级数计算欧拉常数 γ 的严格有理区间，核对精确系数、剩余质量和给定有理候选。",
       "category": "research-specialists",
-      "path": "skills/math-gamma-gregory-series-interval/SKILL.md"
+      "path": "skills/math-gamma-gregory-series-interval/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-gamma-meijer-cmf",
       "title": "Meijer G 保守矩阵场工具",
       "description": "用 Kalisch 等的 Meijer G 保守矩阵场构造欧拉常数 γ 的 Apéry 型候选逼近。复跑已知三阶轨迹，核对对偶矩阵、CVM 换基、收敛判据和约分后的算术质量。",
       "category": "research-specialists",
-      "path": "skills/math-gamma-meijer-cmf/SKILL.md"
+      "path": "skills/math-gamma-meijer-cmf/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-gamma-multiple-laguerre-approximants",
       "title": "多重 Laguerre 逼近的算术工作台",
       "description": "用 Wolfs–Van Assche 的混合型多重 Laguerre 显式有限和生成欧拉常数有理逼近，并审计算术整化、约分、余项和渐近障碍。",
       "category": "research-specialists",
-      "path": "skills/math-gamma-multiple-laguerre-approximants/SKILL.md"
+      "path": "skills/math-gamma-multiple-laguerre-approximants/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-geometric-g-function-special-points",
       "title": "几何 G-函数与特殊点",
       "description": "对已给出的一参数代数族、退化、周期矩阵与特殊纤维数据，选择 G-函数局部关系、特殊点高度或模曲线非典型交的定理接口。",
       "category": "research-specialists",
-      "path": "skills/math-geometric-g-function-special-points/SKILL.md"
+      "path": "skills/math-geometric-g-function-special-points/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-geometric-pde-reductions",
@@ -727,6 +909,8 @@
       "description": "核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。 包含固定顶点倾斜比较与给定加权幂零坐标的局部检查。",
       "category": "research-specialists",
       "path": "skills/math-geometric-pde-reductions/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE",
       "requires": [
         "python-math"
       ]
@@ -736,28 +920,36 @@
       "title": "G-function representability obstructions",
       "description": "Apply a Picard--Vessiot obstruction to a proposed rational representation of a G-function by supplied solution families, singularity bounds and differential-Galois data.",
       "category": "research-specialists",
-      "path": "skills/math-gfunction-representability-obstructions/SKILL.md"
+      "path": "skills/math-gfunction-representability-obstructions/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-graded-character-order",
       "title": "Graded character order",
       "description": "Certify finite graded multiplicity comparisons through cumulative coefficient differences and optimal ordered matching.",
       "category": "research-specialists",
-      "path": "skills/math-graded-character-order/SKILL.md"
+      "path": "skills/math-graded-character-order/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-graph-spectral-moment-certificates",
       "title": "Finite graph spectral-moment certificates",
       "description": "Compute adjacency trace moments and short-cycle counts of finite simple graphs, and exact integral circulant spectra and energy by Ramanujan sums.",
       "category": "research-specialists",
-      "path": "skills/math-graph-spectral-moment-certificates/SKILL.md"
+      "path": "skills/math-graph-spectral-moment-certificates/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-grid-piecewise-translation-embedding",
       "title": "Finite grid piecewise-translation embedding",
       "description": "Certify a finite cellwise translation embedding between two strict-size subsets of a specified square cell grid. Use after a geometric argument has supplied an allowable common grid; it does not polygonize sets or prove a general equidecomposition theorem.",
       "category": "research-specialists",
-      "path": "skills/math-grid-piecewise-translation-embedding/SKILL.md"
+      "path": "skills/math-grid-piecewise-translation-embedding/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-h01-uniform-cramer-moderate-deviations",
@@ -804,49 +996,72 @@
       "title": "Hankel–Padé 有限证书",
       "description": "对整数幂级数做精确 Hankel 行列式与 Padé 有限证书，核验正矩投影的有理下界，并审计 Mahler–Hankel 定理的独立准入门槛；不以有限计算断言超越性或无理度指数。",
       "category": "research-specialists",
-      "path": "skills/math-hankel-pade-certificates/SKILL.md"
+      "path": "skills/math-hankel-pade-certificates/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-harmonic-sum-recurrences",
       "title": "有限调和和递推",
       "description": "用精确有理算术生成和核对广义超调和数的有限系数。适用于需要把嵌套调和定义化为有限递推、初等对称和或普通调和数的场景；不用于无限 Euler 和、zeta 值化简或无理性结论。",
       "category": "research-specialists",
-      "path": "skills/math-harmonic-sum-recurrences/SKILL.md"
+      "path": "skills/math-harmonic-sum-recurrences/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-hbl-finite-presentation",
       "title": "有限 HBL 图表示核验",
       "description": "对已给定的有理有限子空间图和边权，精确核验 HBL 有效表示并分解平衡边流；不搜索表示或计算一般 HBL 常数。",
       "category": "research-specialists",
-      "path": "skills/math-hbl-finite-presentation/SKILL.md"
+      "path": "skills/math-hbl-finite-presentation/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-heisenberg-group-determinant-certificates",
       "title": "Finite H5 group-determinant certificate",
       "description": "Exactly compute the finite group-determinant matrix of a supplied sparse element of the order-125 Heisenberg group, with a replay for one documented witness.",
       "category": "research-specialists",
-      "path": "skills/math-heisenberg-group-determinant-certificates/SKILL.md"
+      "path": "skills/math-heisenberg-group-determinant-certificates/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-hofstadter-nested-recurrences",
       "title": "广义 Hofstadter 嵌套递推",
       "description": "用精确整数递推计算广义 Hofstadter 函数 F_k 的有限前缀，并核对已给出的点态比较。",
       "category": "research-specialists",
-      "path": "skills/math-hofstadter-nested-recurrences/SKILL.md"
+      "path": "skills/math-hofstadter-nested-recurrences/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-holomorphic-local-to-global-transfer",
       "title": "Holomorphic local-to-global transfer",
       "description": "Transfer specified holomorphic local data to descent, gluing, integrability, or universal-cover product conclusions only after the matching geometric gate has been established. Not for arbitrary local charts or holomorphic distributions.",
       "category": "research-specialists",
-      "path": "skills/math-holomorphic-local-to-global-transfer/SKILL.md"
+      "path": "skills/math-holomorphic-local-to-global-transfer/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-honeycomb-finite-boundary-flux",
       "title": "蜂窝有限边界通量",
       "description": "在有限、单连通蜂窝三角形域中认证零环权重的带相位边界通量恒等式及凸域正性界；不用于条带渐近、桥质量或一般自避游走。",
       "category": "research-specialists",
-      "path": "skills/math-honeycomb-finite-boundary-flux/SKILL.md"
+      "path": "skills/math-honeycomb-finite-boundary-flux/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
+    },
+    {
+      "name": "math-hypergeometric-padic-prime-density",
+      "title": "Rational hypergeometric p-adic prime density",
+      "description": "Compute the eventual congruence classes and Dirichlet density of p-adically bounded primes for a supplied rational regular-singular hypergeometric series nF_{n-1}.",
+      "category": "research-specialists",
+      "path": "skills/math-hypergeometric-padic-prime-density/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-i01-ordered-increment-conditional-bernstein",
@@ -885,7 +1100,9 @@
       "title": "整数线性形式的高度与余项",
       "description": "用已经证明的整数线性形式高度与双边余项界，生成给定分母的有理逼近下界或推导无理性指数上界。适用于核对 Apéry 型证据和同时逼近的非消失条件。",
       "category": "research-specialists",
-      "path": "skills/math-integer-linear-form-rates/SKILL.md"
+      "path": "skills/math-integer-linear-form-rates/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-j01-inhomogeneous-jump-generator",
@@ -1170,42 +1387,72 @@
       "title": "Lacunary reciprocal recurrence series",
       "description": "Apply a Subspace-Theorem transcendence criterion to lacunary reciprocal series after certifying the conjugate-root representation, sublinear heights and all-index gap condition.",
       "category": "research-specialists",
-      "path": "skills/math-lacunary-recurrence-transcendence/SKILL.md"
+      "path": "skills/math-lacunary-recurrence-transcendence/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
+    },
+    {
+      "name": "math-ladic-level-triviality-gate",
+      "title": "Arithmetic l-adic level-to-triviality gate",
+      "description": "Apply the Kadets--Litt level-to-triviality implication only after an arithmetic semisimple l-adic representation and a certified curve-dependent depth are supplied.",
+      "category": "research-specialists",
+      "path": "skills/math-ladic-level-triviality-gate/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
+    },
+    {
+      "name": "math-lattice-box-manhattan-ordering",
+      "title": "Finite lattice-box Manhattan ordering",
+      "description": "Exhaustively optimize or validate a Manhattan-length ordering of all points in a small integer box.",
+      "category": "research-specialists",
+      "path": "skills/math-lattice-box-manhattan-ordering/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-lattice-heat-asymptotics",
       "title": "Nearest-neighbor lattice heat asymptotics",
       "description": "Prove and safely use the first large-time correction for the continuous-time nearest-neighbor lattice heat kernel. Use for the exact dispersion 2(1-cos k), tensor-product dimensions, and clearly separated physical scaling.",
       "category": "research-specialists",
-      "path": "skills/math-lattice-heat-asymptotics/SKILL.md"
+      "path": "skills/math-lattice-heat-asymptotics/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-lienard-half-arc-matching",
       "title": "Lienard half-arc matching",
       "description": "将已验证的 Lienard 半平面弧坐标匹配转化为周期轨道与孤立零点问题；不用于未经认证的数值积分或周期数上界。",
       "category": "research-specialists",
-      "path": "skills/math-lienard-half-arc-matching/SKILL.md"
+      "path": "skills/math-lienard-half-arc-matching/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-likely-intersections-density",
       "title": "Likely-intersection density",
       "description": "Apply the conditional likely-intersection density theorem for a verified definable complex quotient presentation and its Ax--Schanuel witnesses.",
       "category": "research-specialists",
-      "path": "skills/math-likely-intersections-density/SKILL.md"
+      "path": "skills/math-likely-intersections-density/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-linear-difference-hypertranscendence",
       "title": "线性差分方程的超越性接口",
       "description": "对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。",
       "category": "research-specialists",
-      "path": "skills/math-linear-difference-hypertranscendence/SKILL.md"
+      "path": "skills/math-linear-difference-hypertranscendence/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-logrank-rectangle-rank-halving",
       "title": "单色矩形与秩减半接口",
       "description": "从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。",
       "category": "research-specialists",
-      "path": "skills/math-logrank-rectangle-rank-halving/SKILL.md"
+      "path": "skills/math-logrank-rectangle-rank-halving/SKILL.md",
+      "specialty": "complexity-tensor-transfer",
+      "specialty_label": "复杂性、张量与离散证明迁移"
     },
     {
       "name": "math-m01-convex-hull-extreme-points",
@@ -1276,21 +1523,36 @@
       "title": "Mahler purity filtration",
       "description": "Apply the generalized-Mahler Hahn/Puiseux purity filtration to a supplied Mahler equation, while tracking exceptional arithmetic-growth layers and decomposition hypotheses.",
       "category": "research-specialists",
-      "path": "skills/math-mahler-purity-filtration/SKILL.md"
+      "path": "skills/math-mahler-purity-filtration/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-mahler-system-admission",
       "title": "Mahler-system theorem admission",
       "description": "Apply scoped basis, lifting and purity theorems for supplied Mahler equations or systems after certifying the coefficient field, transformation, regularity and orbit hypotheses.",
       "category": "research-specialists",
-      "path": "skills/math-mahler-system-admission/SKILL.md"
+      "path": "skills/math-mahler-system-admission/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
+    },
+    {
+      "name": "math-mixed-determinant-border-certificates",
+      "title": "Mixed-determinant bordering identity",
+      "description": "Exactly check the finite rank-one bordering identity for a caller-supplied tuple of rational symmetric matrices in the mixed-determinant construction.",
+      "category": "research-specialists",
+      "path": "skills/math-mixed-determinant-border-certificates/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-mixed-littlewood-pseudoadic",
       "title": "伪绝对值混合 Littlewood 门槛",
       "description": "对满足有限素数支撑和增长条件的伪绝对值序列，调用已发表的混合 Littlewood 存在性定理；不把它当作给定 alpha 的有限逼近算法。",
       "category": "research-specialists",
-      "path": "skills/math-mixed-littlewood-pseudoadic/SKILL.md"
+      "path": "skills/math-mixed-littlewood-pseudoadic/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-modeling-audit",
@@ -1314,32 +1576,58 @@
       "path": "skills/math-modeling-paper/SKILL.md"
     },
     {
+      "name": "math-modified-dirichlet-character-omega-bound",
+      "title": "Modified-character partial-sum omega bound",
+      "description": "对有限素数修改的原始 Dirichlet 特征，按解析、Baker 和差异度量门槛调用部分和的对数 Ω 下界。",
+      "category": "research-specialists",
+      "path": "skills/math-modified-dirichlet-character-omega-bound/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
+    },
+    {
+      "name": "math-modular-bootstrap-certification",
+      "title": "Spinless modular-bootstrap certification",
+      "description": "Transfer a verified feasible spinless modular-bootstrap functional to a CFT gap bound under the source's precise admissibility and integrability hypotheses.",
+      "category": "research-specialists",
+      "path": "skills/math-modular-bootstrap-certification/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
+    },
+    {
       "name": "math-modular-holonomic-telescoping",
       "title": "模形式 q 展开与递推消去",
       "description": "用显式极点数据、带权 q 展开和经证实的 valence 界检查亚纯模形式导出的 holonomic 递推。",
       "category": "research-specialists",
-      "path": "skills/math-modular-holonomic-telescoping/SKILL.md"
+      "path": "skills/math-modular-holonomic-telescoping/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-modular-unlikely-intersections",
       "title": "Modular unlikely intersections",
       "description": "Route a specified modular-curve or abelian-family unlikely-intersection problem through the available degeneration, height, Galois-orbit and conditional Lang--Trotter theorems.",
       "category": "research-specialists",
-      "path": "skills/math-modular-unlikely-intersections/SKILL.md"
+      "path": "skills/math-modular-unlikely-intersections/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-motivic-euler-sum-unramifiedness",
       "title": "Motivic Euler-sum unramifiedness",
       "description": "对已精确匹配的 motivic Euler-sum 字族或已认证余作用账本，调用非分歧判据；不把 motivic 结论误写成数值 period 恒等式。",
       "category": "research-specialists",
-      "path": "skills/math-motivic-euler-sum-unramifiedness/SKILL.md"
+      "path": "skills/math-motivic-euler-sum-unramifiedness/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-mzv-newton-harmonic-relations",
       "title": "Newton--harmonic duality for MZV relation inputs",
       "description": "Check finite Newton/binomial duality for positive multiple-harmonic indices exactly. Use to prepare finite inputs for Kawashima-type MZV relations, not to prove MZV independence or Euler-constant claims.",
       "category": "research-specialists",
-      "path": "skills/math-mzv-newton-harmonic-relations/SKILL.md"
+      "path": "skills/math-mzv-newton-harmonic-relations/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-n01-john-loewner-ellipsoid",
@@ -1442,56 +1730,72 @@
       "title": "Nevanlinna 增长分离与函数域超越次数",
       "description": "核对非恒定整函数的 Nevanlinna 特征分离、测度有限的异常集及源定理给出的函数域超越次数。",
       "category": "research-specialists",
-      "path": "skills/math-nevanlinna-functional-transcendence/SKILL.md"
+      "path": "skills/math-nevanlinna-functional-transcendence/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-nonarchimedean-analytic-transfer",
       "title": "非阿基米德解析转移与逆极限",
       "description": "在完备非阿基米德环境中，核对有理或形式的有限阶解析 jet 转移、近似根余项及稠密压缩逆塔上的 Roos 差分。",
       "category": "research-specialists",
-      "path": "skills/math-nonarchimedean-analytic-transfer/SKILL.md"
+      "path": "skills/math-nonarchimedean-analytic-transfer/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-nonnegative-matrix-path-certificates",
       "title": "Nonnegative matrix path certificates",
       "description": "Verify the odd-power path certificate for finite entrywise-nonnegative symmetric matrices, with exact finite arithmetic where the inputs are rational.",
       "category": "research-specialists",
-      "path": "skills/math-nonnegative-matrix-path-certificates/SKILL.md"
+      "path": "skills/math-nonnegative-matrix-path-certificates/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-one-special-parking-equality",
       "title": "One-special-preference parking equality",
       "description": "Enumerate the invariant one-special-preference parking set for a finite positive length list and check the subset-sum equality criterion.",
       "category": "research-specialists",
-      "path": "skills/math-one-special-parking-equality/SKILL.md"
+      "path": "skills/math-one-special-parking-equality/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-openai-arithmetic-determinants",
       "title": "算术行列式构造与验收",
       "description": "从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。",
       "category": "research-specialists",
-      "path": "skills/math-openai-arithmetic-determinants/SKILL.md"
+      "path": "skills/math-openai-arithmetic-determinants/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-operator-algebra-certificates",
       "title": "算子代数中的极分解、谱计算与条件转移",
       "description": "核验算子代数中的幺正压缩修复、平移卷积核、谱相位迹、自伴谱编码及 C* 截断转运。按已给投影、严格谱隙、迹或比较见证选择。",
       "category": "research-specialists",
-      "path": "skills/math-operator-algebra-certificates/SKILL.md"
+      "path": "skills/math-operator-algebra-certificates/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-order-two-casoratian-audit",
       "title": "Exact order-two recurrence / Casoratian audit",
       "description": "Audit supplied rational second-order recurrences by exact Casoratian and consecutive quotient identities. It certifies finite identities only.",
       "category": "research-specialists",
-      "path": "skills/math-order-two-casoratian-audit/SKILL.md"
+      "path": "skills/math-order-two-casoratian-audit/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-padic-abelian-intersection-bounds",
       "title": "p-adic abelian intersection bounds",
       "description": "Apply the source-scoped Buium--Coleman reduction bounds for a smooth p-adic curve inside an abelian variety after an unramified model and jet-space data have been certified.",
       "category": "research-specialists",
-      "path": "skills/math-padic-abelian-intersection-bounds/SKILL.md"
+      "path": "skills/math-padic-abelian-intersection-bounds/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-paper-writing",
@@ -1505,63 +1809,90 @@
       "title": "Parameterized cubic norm-form certificates",
       "description": "Verify the published solution families of the Bajpai--Bennett cubic norm-form equation and the Bennett--Ghadermazi extremal cubic Thue equation at supplied integer parameters.",
       "category": "research-specialists",
-      "path": "skills/math-parameterized-norm-form-certificates/SKILL.md"
+      "path": "skills/math-parameterized-norm-form-certificates/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-permanent-inequality-contracts",
       "title": "Permanent inequality contracts",
       "description": "Audit finite permanent inequalities for stochastic matrices and symmetrizable inverse M-matrices, retaining each source theorem's hypotheses and equality scope.",
       "category": "research-specialists",
-      "path": "skills/math-permanent-inequality-contracts/SKILL.md"
+      "path": "skills/math-permanent-inequality-contracts/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-petal-join-domination-polynomial",
       "title": "Petal-join domination polynomial",
       "description": "Exhaustively verify the finite domination-polynomial identity for a clique joined to repeated copies of a small petal graph.",
       "category": "research-specialists",
-      "path": "skills/math-petal-join-domination-polynomial/SKILL.md"
+      "path": "skills/math-petal-join-domination-polynomial/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-prevost-hurwitz-pade-remainder",
       "title": "Prévost--Hurwitz Padé remainder",
       "description": "Construct and audit Prévost's finite [n/m] exp(-t) Padé coefficients and its signed Euler-constant/Hurwitz-zeta remainder; preserve all auxiliary zeta and logarithm terms.",
       "category": "research-specialists",
-      "path": "skills/math-prevost-hurwitz-pade-remainder/SKILL.md"
+      "path": "skills/math-prevost-hurwitz-pade-remainder/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-primary-pseudopolynomial-certificates",
       "title": "主伪多项式证书",
       "description": "精确核对主伪多项式的有限 binomial 变换、素数乘积整除条件和已给出的全指标前提。",
       "category": "research-specialists",
-      "path": "skills/math-primary-pseudopolynomial-certificates/SKILL.md"
+      "path": "skills/math-primary-pseudopolynomial-certificates/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-projective-induction-cocycle-certificates",
       "title": "Finite projective-induction certificates",
       "description": "用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。",
       "category": "research-specialists",
-      "path": "skills/math-projective-induction-cocycle-certificates/SKILL.md"
+      "path": "skills/math-projective-induction-cocycle-certificates/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-q-series-rational-approximants",
       "title": "q 级数的有理逼近构造",
       "description": "对给定有理 q 和 z 生成 Tschakaloff 递推的精确多项式系数，核验有限整数化缩放及余项分离。",
       "category": "research-specialists",
-      "path": "skills/math-q-series-rational-approximants/SKILL.md"
+      "path": "skills/math-q-series-rational-approximants/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-quantum-permanent-score",
       "title": "Quantum-permanent score certificates",
       "description": "Check finite partition-score lower bounds from a supplied nonnegative orbital coefficient profile.",
       "category": "research-specialists",
-      "path": "skills/math-quantum-permanent-score/SKILL.md"
+      "path": "skills/math-quantum-permanent-score/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
+    },
+    {
+      "name": "math-rees-zero-complete-mappings",
+      "title": "Rees 0-matrix complete mappings",
+      "description": "Verify the explicit even-index complete mapping of a finite Rees 0-matrix semigroup over Z/2Z with identity diagonal.",
+      "category": "research-specialists",
+      "path": "skills/math-rees-zero-complete-mappings/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-regular-graph-low-induced-edge-count",
       "title": "Low-induced-edge counts in finite regular graphs",
       "description": "Exhaustively count finite vertex subsets whose induced subgraph has at most a given number of edges, while checking regularity.",
       "category": "research-specialists",
-      "path": "skills/math-regular-graph-low-induced-edge-count/SKILL.md"
+      "path": "skills/math-regular-graph-low-induced-edge-count/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-research",
@@ -1578,63 +1909,81 @@
       "title": "Selberg 类 Riesz 判据",
       "description": "对给定 Selberg 类 L-函数数据和经认证的系数渐近，调用 Riesz 型 Meijer-G 判据的 GRH 蕴含或反向判据。",
       "category": "research-specialists",
-      "path": "skills/math-selberg-riesz-criteria/SKILL.md"
+      "path": "skills/math-selberg-riesz-criteria/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-semiclassical-orthogonal-deformations",
       "title": "半经典正交多项式变形",
       "description": "对给定半经典正交权及移动奇点，核验递推系数的 Toda 变形方程和 Freud 权的 Painleve IV 化简。",
       "category": "research-specialists",
-      "path": "skills/math-semiclassical-orthogonal-deformations/SKILL.md"
+      "path": "skills/math-semiclassical-orthogonal-deformations/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-sondow-log-fractional-certificate",
       "title": "Sondow 对数分数部分证书",
       "description": "从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。",
       "category": "research-specialists",
-      "path": "skills/math-sondow-log-fractional-certificate/SKILL.md"
+      "path": "skills/math-sondow-log-fractional-certificate/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "math-special-point-bound-gates",
       "title": "Explicit special-point bound gates",
       "description": "Apply Paulin's explicit special-point discriminant and root-of-unity order bounds to a supplied curve in P1 x Gm after checking its field, polynomial and geometric hypotheses.",
       "category": "research-specialists",
-      "path": "skills/math-special-point-bound-gates/SKILL.md"
+      "path": "skills/math-special-point-bound-gates/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
     },
     {
       "name": "math-strip-poisson-smoothing",
       "title": "Strip Poisson smoothing",
       "description": "Transfer a symmetric complex-center profile in a fixed strip to complete monotonicity using hyperbolic-secant Poisson smoothing.",
       "category": "research-specialists",
-      "path": "skills/math-strip-poisson-smoothing/SKILL.md"
+      "path": "skills/math-strip-poisson-smoothing/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-subanalytic-preparation",
       "title": "次解析族的定参幂次预备",
       "description": "用明确给定的次解析族、泛参数域和纤维模型整理有理幂次展开与边界余项；记录常数和阈值的参数依赖。",
       "category": "research-specialists",
-      "path": "skills/math-subanalytic-preparation/SKILL.md"
+      "path": "skills/math-subanalytic-preparation/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-symmetric-polynomial-ratio-certificates",
       "title": "Finite symmetric-polynomial ratio certificates",
       "description": "Evaluate finite complete-homogeneous and Schur Turan ratios exactly on rational inputs, preserving the stated partition and positivity domains.",
       "category": "research-specialists",
-      "path": "skills/math-symmetric-polynomial-ratio-certificates/SKILL.md"
+      "path": "skills/math-symmetric-polynomial-ratio-certificates/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-syracuse-exact-words",
       "title": "Exact 3x−1 Syracuse words",
       "description": "Verify a supplied finite valuation word for the accelerated positive odd 3x−1 Syracuse map, including its exact source and affine identity. Do not use it to infer predecessor density or a Collatz-type conjecture.",
       "category": "research-specialists",
-      "path": "skills/math-syracuse-exact-words/SKILL.md"
+      "path": "skills/math-syracuse-exact-words/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
       "name": "math-three-strip-token-bound",
       "title": "Three-strip token boundary certificate",
       "description": "Certify the finite three-strip/token boundary bound for a sequence of equal-cardinality planar threshold cuts with matched exchanges; not a halving-line asymptotic solver.",
       "category": "research-specialists",
-      "path": "skills/math-three-strip-token-bound/SKILL.md"
+      "path": "skills/math-three-strip-token-bound/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-tool-router",
@@ -1656,49 +2005,72 @@
       "title": "有限环面包谱密度",
       "description": "对给定有理分段仿射扭转与有限角向 Fourier 包，精确计算模一推前的阶梯谱密度、色间正交门槛和可选 L1 密度差。",
       "category": "research-specialists",
-      "path": "skills/math-torus-packet-spectral-density/SKILL.md"
+      "path": "skills/math-torus-packet-spectral-density/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-tube-maximal-transfer",
       "title": "Tube and maximal transfer",
       "description": "Transfer a specified three-dimensional tube or curved extension packet estimate through its declared maximal, capacity, and level-set interfaces. Not a generic Kakeya, restriction, or incidence certificate.",
       "category": "research-specialists",
-      "path": "skills/math-tube-maximal-transfer/SKILL.md"
+      "path": "skills/math-tube-maximal-transfer/SKILL.md",
+      "specialty": "analysis-geometry-pde",
+      "specialty_label": "调和、几何与泛函分析及 PDE"
     },
     {
       "name": "math-two-generator-graded-semigroup-certificates",
-      "title": "双生成分层半群证书",
-      "description": "对互素双生成数值半群的总度分层进行精确计数，并核验对应 T-graded 广义数值半群的 Wilf 型有限不等式。",
+      "title": "数值半群的分层计数与分解长度",
+      "description": "精确计算双生成分层数值半群的 Wilf 型有限不等式，或枚举给定数值半群分解为不可约超半群交集的长度。",
       "category": "research-specialists",
-      "path": "skills/math-two-generator-graded-semigroup-certificates/SKILL.md"
+      "path": "skills/math-two-generator-graded-semigroup-certificates/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-unfair-polynomial-trinomial-factors",
       "title": "Unfair 0–1 polynomials with a trinomial factor",
       "description": "Apply the trinomial case of the unfair 0–1 polynomial theorem after checking its normalized finite-support and nonnegative-coefficient hypotheses.",
       "category": "research-specialists",
-      "path": "skills/math-unfair-polynomial-trinomial-factors/SKILL.md"
+      "path": "skills/math-unfair-polynomial-trinomial-factors/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
     },
     {
       "name": "math-weil-deligne-purity-lfactor",
       "title": "Pure Weil–Deligne local-factor certificate",
       "description": "Certify the local L-factor half-plane and Frobenius determinant consequence of supplied pure weight-zero Frobenius-semisimple Weil–Deligne data. Use only after the Weil–Deligne representation, inertia invariants, and purity witnesses have been established externally.",
       "category": "research-specialists",
-      "path": "skills/math-weil-deligne-purity-lfactor/SKILL.md"
+      "path": "skills/math-weil-deligne-purity-lfactor/SKILL.md",
+      "specialty": "algebraic-arithmetic-geometry",
+      "specialty_label": "代数几何、模空间、p-adic 与非阿基米德几何"
+    },
+    {
+      "name": "math-xi-theta-finite-certificates",
+      "title": "Finite Xi/theta certificate components",
+      "description": "Audit finite Xi/theta positivity components from supplied moment envelopes and exact polynomial inequalities; do not infer a zero-free strip or RH.",
+      "category": "research-specialists",
+      "path": "skills/math-xi-theta-finite-certificates/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-zeta-arithmetic-estimates",
       "title": "ζ 函数的算术平均与光滑数误差",
       "description": "根据指定的 ζ 函数采样、平滑核和参数区间接入等差级数矩比较与光滑数零点修正。适用于检查扭权、测量模型和误差来源。",
       "category": "research-specialists",
-      "path": "skills/math-zeta-arithmetic-estimates/SKILL.md"
+      "path": "skills/math-zeta-arithmetic-estimates/SKILL.md",
+      "specialty": "analytic-number-theory-special-functions",
+      "specialty_label": "解析数论、L 函数、模形式与特殊函数"
     },
     {
       "name": "math-zeta-polynomial-expansion-coefficients",
       "title": "ζ 多项式展开的精确系数",
       "description": "精确生成指定 Riemann ζ 多项式展开系数中的 γ、ζ(2),…,ζ(m+1) 与有理余项；不数值求 ζ，也不认证无穷级数收敛。",
       "category": "research-specialists",
-      "path": "skills/math-zeta-polynomial-expansion-coefficients/SKILL.md"
+      "path": "skills/math-zeta-polynomial-expansion-coefficients/SKILL.md",
+      "specialty": "euler-gamma-pade",
+      "specialty_label": "欧拉常数、Padé 与整数线性形式"
     },
     {
       "name": "mathematica-math",

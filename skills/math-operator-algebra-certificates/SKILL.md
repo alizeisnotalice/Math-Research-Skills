@@ -42,3 +42,7 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 - [Tsallis S-divergence metric source contract](references/sra-tsallis-s-divergence.md)
 
 - [Finite-rank inertia count by a Schur complement](references/recent07-inertia-count.md)
+
+## 斜 Hadamard 有限矩阵族
+
+给定构造层数时，用[斜 Hadamard 递推](references/skew-hadamard-source.md)精确核对斜对称、正交乘积及零对角 Hermitian 归一化。最优铺分与全域交换子界需要另有论证。

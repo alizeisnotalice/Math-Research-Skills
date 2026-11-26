@@ -58,4 +58,6 @@ description: 核验 Kantorovich 输运对偶及势函数，检查代价、可积
 
 ## 文献复核采用的构件
 
+- [Finite overflow order implies convex-divergence order](references/finite-overflow-convex-order.md)
+
 - [凸弱最优输运的普通耦合对偶](references/wave9-convex-weak-transport-duality.md)

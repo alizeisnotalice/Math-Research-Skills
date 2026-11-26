@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify an explicit directed terrace for the alternating group A_n."""
+"""Verify an explicit basic terrace for the alternating group A_n."""
 import json
 import math
 import sys
@@ -27,16 +27,14 @@ def is_even(permutation):
     ) % 2 == 0
 
 
-def main(path):
-    payload = json.loads(Path(path).read_text())
-    degree = payload["degree"]
-    rows = [tuple(row) for row in payload["rows"]]
-    if not isinstance(degree, int) or degree < 3:
+def verify_terrace(degree, rows):
+    if type(degree) is not int or degree < 3:
         raise ValueError("degree must be an integer at least 3")
     expected_size = math.factorial(degree) // 2
     if len(rows) != expected_size:
         raise ValueError(f"expected {expected_size} rows, got {len(rows)}")
-    if any(sorted(row) != list(range(degree)) for row in rows):
+    labels = list(range(degree))
+    if any(any(type(image) is not int for image in row) or sorted(row) != labels for row in rows):
         raise ValueError("every row must be a permutation of 0,...,degree-1")
     if any(not is_even(row) for row in rows):
         raise ValueError("every row must be even")
@@ -60,13 +58,24 @@ def main(path):
                 "terrace quotient count failed for "
                 f"{list(group_element)}: got {total}, expected {expected}"
             )
-    print(json.dumps({
+    return {
         "degree": degree,
         "group": f"A_{degree}",
         "rows": len(rows),
         "consecutive_quotients": len(rows) - 1,
+        "condition": "basic-terrace-inverse-pairs",
+        "directed": all(quotient_counts[element] == 1 for element in rows[1:]),
         "status": "verified",
-    }, sort_keys=True))
+    }
+
+
+def main(path):
+    try:
+        payload = json.loads(Path(path).read_text())
+        result = verify_terrace(payload["degree"], [tuple(row) for row in payload["rows"]])
+    except (KeyError, OSError, TypeError, ValueError) as error:
+        raise SystemExit(str(error)) from error
+    print(json.dumps(result, sort_keys=True))
 
 
 if __name__ == "__main__":

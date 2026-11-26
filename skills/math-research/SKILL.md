@@ -17,7 +17,16 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 
 | 任务 | 下一步 |
 | --- | --- |
-| 不确定该用什么数学方法 | 按 [通用数学方法](references/math-methods.md) 或 [专项数学方法](references/research-specialists.md) 检索，再读最相关的 1–2 个技能。 |
+| 不确定该用什么数学方法 | 按 [通用数学方法](references/math-methods.md) 或 [专题数学方法](references/research-specialists.md) 检索，再读最相关的 1–2 个技能。 |
+| 欧拉常数 γ、Padé、整数线性形式或特殊值逼近 | 从 [欧拉常数、Padé 与整数线性形式](references/research-specialists.md#euler-gamma-pade) 选入口。 |
+| 超越性、丢番图逼近、G/Mahler 或指数方程 | 从 [超越性、丢番图逼近与 G/Mahler 函数](references/research-specialists.md#transcendence-diophantine-g-functions) 选入口。 |
+| ζ/L 函数、模形式、MZV 或特殊函数 | 从 [解析数论、L 函数、模形式与特殊函数](references/research-specialists.md#analytic-number-theory-special-functions) 选入口。 |
+| 微分或差分方程、递推、正交多项式或动力系统 | 从 [微分差分方程、递推与动力系统](references/research-specialists.md#differential-difference-dynamics) 选入口。 |
+| 极大算子、调和分析、共形/度量几何或 PDE | 从 [调和、几何与泛函分析及 PDE](references/research-specialists.md#analysis-geometry-pde) 选入口。 |
+| 代数几何、模空间、特殊点、p-adic 或非阿基米德几何 | 从 [代数几何、模空间、p-adic 与非阿基米德几何](references/research-specialists.md#algebraic-arithmetic-geometry) 选入口。 |
+| 群、表示、算子代数、同调或代数转移 | 从 [代数、表示论、算子代数与上同调](references/research-specialists.md#algebra-representation-operator-cohomology) 选入口。 |
+| 图论、组合计数、离散几何或有限博弈 | 从 [图论、组合、离散几何与博弈](references/research-specialists.md#discrete-combinatorics-games) 选入口。 |
+| 通信复杂性、张量复杂性或已命名旧课题的离散迁移 | 从 [复杂性、张量与离散证明迁移](references/research-specialists.md#complexity-tensor-transfer) 选入口。 |
 | 跨批次查原件或查某技能引用的论文 | 用 [来源检索](references/literature-source-lookup.md) 按题名、SHA-256 或技能名定位。 |
 | 已有 OpenAI 论文的题名、编号或 PDF | 在 [OpenAI 逐篇索引](references/openai-sources/README.md) 查版本、SHA-256 和构件。按物理页提取原文陈述和适用条件，按构件链接调用已有工具。 |
 | 查 Google Cogentic 论文或调用其数学构件 | 在 [Google Cogentic 来源索引](references/google-cogentic-2026-11-25.md) 查原件及修订版本。按原稿定位对偶分离、零单色矩形、卡组反演或有限算术证书。 |

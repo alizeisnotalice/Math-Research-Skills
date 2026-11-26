@@ -67,6 +67,8 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 
 ## 文献复核采用的构件
 
+- [Mahler polynomial-orbit vanishing gate](references/nishioka-tanaka-tanuma-mahler-orbit-vanishing.md)
+
 - [Inhomogeneous Mahler irrationality-exponent transfer](references/inhomogeneous-mahler-irrationality-exponent-ext0325.md)
 
 - [Milne's finite r_16 divisor-convolution check](references/milne-r16-divisor-convolution.md)

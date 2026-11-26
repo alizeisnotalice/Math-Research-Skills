@@ -34,6 +34,8 @@ description: 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项
 
 ## 文献复核采用的构件
 
+- [Zeta(3), zeta(4) Hankel contradiction route](references/ext0165-zeta34-hankel-contradiction.md)
+
 - [One-sided Mellin zero exclusion on long intervals](references/rubinstein-one-sided-mellin-interval.md)
 
 - [Optimized Hermite--Padé determinant gate for \(e^\alpha\)](references/wave8-hold10-exponential-algebraic-transcendence-measure.md)

@@ -64,4 +64,6 @@ description: 构造或审查非局部 HJB 超解，核对生成元、边界条�
 
 ## 文献复核采用的构件
 
+- [Polynomial Lyapunov weight for finite-intensity jump generators](references/polynomial-jump-lyapunov-weight.md)
+
 - [Conditional weak Fokker--Planck PIDE with common noise](references/conditional-mckean-vlasov-weak-pide.md)
