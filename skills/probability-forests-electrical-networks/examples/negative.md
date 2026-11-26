@@ -7,7 +7,7 @@ On the finite graph obtained from (K_4) by replacing two opposite edges by tripl
 \mathbb P(e_1,e_2\in T)=\frac{109}{1575}.
 \]
 
-The joint-to-product ratio is (109872/109561>1): the edge indicators are positively correlated. The exact independent check enumerates all (10!=3{,}628{,}800) strict label orders; output is saved at `workers/W07/examples/verify_finite_examples.json`.
+The joint-to-product ratio is (109872/109561>1): the edge indicators are positively correlated. The exact independent check enumerates all (10!=3{,}628{,}800) strict label orders; output is saved at `workers/W07/examples/verify_finite_examples.json` (earlier archive).
 
 The graph carries the **minimal** spanning-tree measure, not the uniform spanning-tree measure. This example therefore does not refute A141. It shows why UST determinantal negative association cannot be transferred to MSTs.
 

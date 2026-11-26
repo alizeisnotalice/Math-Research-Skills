@@ -37,6 +37,8 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 
 ## 文献复核采用的构件
 
+- [Identity-corner commutator assembly](references/identity-corner-commutator.md)
+
 - [Hua–Bellman counterexample: verified scope](references/hua-counterexample-source.md)
 - [WYD p=2/3 boundary obstruction: verified scope](references/wyd-boundary-obstruction-source.md)
 

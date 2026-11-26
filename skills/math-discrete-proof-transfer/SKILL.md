@@ -47,3 +47,7 @@ For finite data in the progression-compatible intersective normalization, use `s
 ## 补充来源中的方法
 
 - [Geometric-offspring generalized Derrida–Retaux closure](references/geometric-offspring-dr-closure-wave5-supp-attached02.md)
+
+## 文献复核采用的构件
+
+- [Exact three-bit eight-square sign rule](references/eight-square-sign-rule.md)

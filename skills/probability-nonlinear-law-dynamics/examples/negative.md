@@ -20,7 +20,7 @@ A continuous map can have a periodic orbit. On the two-point state space `{0,1}`
 
 `K_p = [[p, 1-p], [p, 1-p]]`.
 
-Every frozen chain reaches its unique stationary law `(p,1-p) = Bernoulli(1-p)` in one step, so the induced stationary-law map is `Phi(p)=1-p`. Its orbit from `p=0` is `0,1,0,1,...`; the omega-limit set `{0,1}` is invariant, but neither point is fixed. Exact symbolic verification is saved in `../evidence/checks/frozen_kernel_two_cycle.txt`.
+Every frozen chain reaches its unique stationary law `(p,1-p) = Bernoulli(1-p)` in one step, so the induced stationary-law map is `Phi(p)=1-p`. Its orbit from `p=0` is `0,1,0,1,...`; the omega-limit set `{0,1}` is invariant, but neither point is fixed. Exact symbolic verification is saved in `../evidence/checks/frozen_kernel_two_cycle.txt` (earlier archive).
 
 This is a synthetic two-state law operator, **not** the nearest-order-statistic kernel in A121/A122. It disproves only the generic inference from frozen-kernel mixing (even one-step mixing), continuity, and compactness to outer-orbit convergence or fixedness of every omega-limit point.
 

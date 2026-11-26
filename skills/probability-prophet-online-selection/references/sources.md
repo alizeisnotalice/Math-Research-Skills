@@ -1,6 +1,6 @@
 # W13 source inventory and reading ledger
 
-The canonical metadata, retrieval URLs, versions, local paths, checksums, and scope fields are in `workers/W13/sources.json`（本机附件：`evidence/project/workers/W13/sources.json`）. This concise ledger exposes acquisition and reading state without treating selection as theorem review. R07's final independent review（本机附件：`evidence/project/reviews/R07/review.json`） accepts 31 source identities and their mathematical/read scopes: 30 complete papers plus one fully acquired book with complete selected Chapters 1 and 3. Publication metadata remains item-specific; historical reader-ledger pending labels do not replace the independent verdict.
+The canonical metadata, retrieval URLs, versions, local paths, checksums, and scope fields are in `workers/W13/sources.json`（[安装版附件](../evidence/W13/sources.json)）. This concise ledger exposes acquisition and reading state without treating selection as theorem review. R07's final independent review（本机附件：`evidence/project/reviews/R07/review.json`） accepts 31 source identities and their mathematical/read scopes: 30 complete papers plus one fully acquired book with complete selected Chapters 1 and 3. Publication metadata remains item-specific; historical reader-ledger pending labels do not replace the independent verdict.
 
 ## Assigned M0034–M0090 (57 rows)
 
@@ -94,40 +94,40 @@ selected_for_skill=true: 54 records (52 papers, 2 books). This is a candidate/cu
 
 ### Cards based on actual theorem / chapter reading
 
-- `M0041`（本机附件：`evidence/project/workers/W13/cards/M0041.md`）
-- `M0042`（本机附件：`evidence/project/workers/W13/cards/M0042.md`）
-- `M0047`（本机附件：`evidence/project/workers/W13/cards/M0047.md`）
-- `M0051`（本机附件：`evidence/project/workers/W13/cards/M0051.md`）
-- `S018`（本机附件：`evidence/project/workers/W13/cards/S018.md`）
-- `M0036`（本机附件：`evidence/project/workers/W13/cards/M0036.md`）
-- `M0037`（本机附件：`evidence/project/workers/W13/cards/M0037.md`）
-- `M0038`（本机附件：`evidence/project/workers/W13/cards/M0038.md`）
-- `M0034`（本机附件：`evidence/project/workers/W13/cards/M0034.md`）
-- `M0046`（本机附件：`evidence/project/workers/W13/cards/M0046.md`）
-- `M0048`（本机附件：`evidence/project/workers/W13/cards/M0048.md`）
-- `M0049`（本机附件：`evidence/project/workers/W13/cards/M0049.md`）
-- `M0050`（本机附件：`evidence/project/workers/W13/cards/M0050.md`）
-- `M0054`（本机附件：`evidence/project/workers/W13/cards/M0054.md`）
-- `M0060`（本机附件：`evidence/project/workers/W13/cards/M0060.md`）
-- `M0062`（本机附件：`evidence/project/workers/W13/cards/M0062.md`）
-- `M0065`（本机附件：`evidence/project/workers/W13/cards/M0065.md`）
-- `M0073`（本机附件：`evidence/project/workers/W13/cards/M0073.md`）
-- `S001`（本机附件：`evidence/project/workers/W13/cards/S001.md`）
-- `S002`（本机附件：`evidence/project/workers/W13/cards/S002.md`）
-- `S003`（本机附件：`evidence/project/workers/W13/cards/S003.md`）
-- `S005`（本机附件：`evidence/project/workers/W13/cards/S005.md`）
-- `S006`（本机附件：`evidence/project/workers/W13/cards/S006.md`）
-- `S007`（本机附件：`evidence/project/workers/W13/cards/S007.md`）
-- `S008`（本机附件：`evidence/project/workers/W13/cards/S008.md`）
-- `S010`（本机附件：`evidence/project/workers/W13/cards/S010.md`）
-- `S011`（本机附件：`evidence/project/workers/W13/cards/S011.md`）
-- `S012`（本机附件：`evidence/project/workers/W13/cards/S012.md`）
-- `S013`（本机附件：`evidence/project/workers/W13/cards/S013.md`）
-- `S014`（本机附件：`evidence/project/workers/W13/cards/S014.md`）
-- `S015`（本机附件：`evidence/project/workers/W13/cards/S015.md`）
-- `S016`（本机附件：`evidence/project/workers/W13/cards/S016.md`）
-- `S017`（本机附件：`evidence/project/workers/W13/cards/S017.md`）
-- `S019`（本机附件：`evidence/project/workers/W13/cards/S019.md`）
+- `M0041`（[安装版附件](../evidence/W13/cards/M0041.md)）
+- `M0042`（[安装版附件](../evidence/W13/cards/M0042.md)）
+- `M0047`（[安装版附件](../evidence/W13/cards/M0047.md)）
+- `M0051`（[安装版附件](../evidence/W13/cards/M0051.md)）
+- `S018`（[安装版附件](../evidence/W13/cards/S018.md)）
+- `M0036`（[安装版附件](../evidence/W13/cards/M0036.md)）
+- `M0037`（[安装版附件](../evidence/W13/cards/M0037.md)）
+- `M0038`（[安装版附件](../evidence/W13/cards/M0038.md)）
+- `M0034`（[安装版附件](../evidence/W13/cards/M0034.md)）
+- `M0046`（[安装版附件](../evidence/W13/cards/M0046.md)）
+- `M0048`（[安装版附件](../evidence/W13/cards/M0048.md)）
+- `M0049`（[安装版附件](../evidence/W13/cards/M0049.md)）
+- `M0050`（[安装版附件](../evidence/W13/cards/M0050.md)）
+- `M0054`（[安装版附件](../evidence/W13/cards/M0054.md)）
+- `M0060`（[安装版附件](../evidence/W13/cards/M0060.md)）
+- `M0062`（[安装版附件](../evidence/W13/cards/M0062.md)）
+- `M0065`（[安装版附件](../evidence/W13/cards/M0065.md)）
+- `M0073`（[安装版附件](../evidence/W13/cards/M0073.md)）
+- `S001`（[安装版附件](../evidence/W13/cards/S001.md)）
+- `S002`（[安装版附件](../evidence/W13/cards/S002.md)）
+- `S003`（[安装版附件](../evidence/W13/cards/S003.md)）
+- `S005`（[安装版附件](../evidence/W13/cards/S005.md)）
+- `S006`（[安装版附件](../evidence/W13/cards/S006.md)）
+- `S007`（[安装版附件](../evidence/W13/cards/S007.md)）
+- `S008`（[安装版附件](../evidence/W13/cards/S008.md)）
+- `S010`（[安装版附件](../evidence/W13/cards/S010.md)）
+- `S011`（[安装版附件](../evidence/W13/cards/S011.md)）
+- `S012`（[安装版附件](../evidence/W13/cards/S012.md)）
+- `S013`（[安装版附件](../evidence/W13/cards/S013.md)）
+- `S014`（[安装版附件](../evidence/W13/cards/S014.md)）
+- `S015`（[安装版附件](../evidence/W13/cards/S015.md)）
+- `S016`（[安装版附件](../evidence/W13/cards/S016.md)）
+- `S017`（[安装版附件](../evidence/W13/cards/S017.md)）
+- `S019`（[安装版附件](../evidence/W13/cards/S019.md)）
 
 ### Acquisition cautions
 

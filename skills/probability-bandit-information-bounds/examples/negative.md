@@ -14,4 +14,4 @@ In W15-022, Eq. (4) states the estimate through an unprojected score equation, w
 (1-\sigma(z))+\tfrac12(1-\sigma(z/2))
 =\frac{e^{z/2}+e^z/2+3/2}{e^{3z/2}+e^{z/2}+e^z+1}>0.
 \]
-Thus the displayed score equation has no finite root for this history. The exact positive form proves the sign; local Decimal values are in `evidence/W15/logistic_mle_well_definedness_check_results.txt`. Before using the confidence proof, require a well-defined estimate and verify the derivative lower bound along the actual segment from the true parameter to the estimate. This exposes a needed algorithm/proof-scope check; it does not establish that the entire paper's theorems are false.
+Thus the displayed score equation has no finite root for this history. The exact positive form proves the sign; local Decimal values are in `evidence/W15/logistic_mle_well_definedness_check_results.txt` (earlier archive). Before using the confidence proof, require a well-defined estimate and verify the derivative lower bound along the actual segment from the true parameter to the estimate. This exposes a needed algorithm/proof-scope check; it does not establish that the entire paper's theorems are false.

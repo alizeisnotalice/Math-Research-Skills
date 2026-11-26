@@ -1,9 +1,41 @@
-# Positive example: direct Bernoulli mean with a finite RKHS feature map
+# Direct Bernoulli allocation on three RKHS arms
 
-Take \(\mathcal X=\{(1,0),(0,1),(1/2,1/2)\}\), linear kernel \(k(x,z)=x^Tz\), \(\theta=(0.7,0.3)\), and \(f_\theta(x)=\theta^Tx\). Then \(f(x)=(0.7,0.3,0.5)\), \(\|\theta\|_2=\sqrt{0.58}<\sqrt2\), and \(\max_x k(x,x)=1\). Observations are **directly** \(Y\sim\mathrm{Ber}(f_\theta(x))\).
+Take the linear kernel on \(\{(1,0),(0,1),(1/2,1/2)\}\), the direct Bernoulli
+mean \(\theta^\mathsf Tx\) with \(\theta=(7/10,3/10)\), and a parameter
+radius of \(\sqrt2\). The best arm has mean \(7/10\), and the other two means
+are \(3/10\) and \(1/2\).
 
-An alternative that keeps the optimal-arm mean fixed and makes arm 2 optimal has \(\lambda=(0.7,q)\), \(q\in(0.7,1]\), so every armwise value remains a valid Bernoulli mean. The three armwise means under \(\lambda\) are \((0.7,q,(0.7+q)/2)\). The structured lower-bound information is therefore
+A confusing alternative keeps the first mean fixed. Its parameter is
+\((7/10,q)\) with \(7/10<q\le1\), which makes arm 2 the best arm. The third
+mean is \((7/10+q)/2\), so it can overtake arm 1 only in the same family.
+All these alternatives are inside the given radius. The information
+constraint and regret cost are
 \[
-\eta_2d(0.3,q)+\eta_3d(0.5,(0.7+q)/2)\ge1\quad\forall q\in(0.7,1],
+\eta_2 d(3/10,q)+\eta_3 d(1/2,(7/10+q)/2)\ge1,\qquad
+(2/5)\eta_2+(1/5)\eta_3,
 \]
-with regret cost \(0.4\eta_2+0.2\eta_3\); sampling the best arm supplies zero information on this confusing alternative. The actual MATLAB script `evidence/W15/rkhs_bernoulli_ossb_demo.m` evaluated a 3,001-point grid including the tie limit. It found \(d(0.3,0.7)=0.338919144155\), \(d(0.5,0.7)=0.087176693572\), and grid allocation \((\eta_2,\eta_3)=(2.950556,0)\), cost \(1.180222501\). This is a finite-grid calculation illustrating the LP, not a proof that the grid enforces the continuum of alternatives or that OSSB conditions hold.
+where \(d\) is the Bernoulli relative entropy and \(\eta_2,\eta_3\ge0\).
+Use only the divergences of sampled arms when evaluating the limiting case \(q=1\).
+
+For each \(p\in(0,1)\), \(d(p,x)\) increases for \(x>p\) because its
+derivative is \((x-p)/(x(1-x))\). Both displayed divergences are therefore
+minimized as \(q\downarrow7/10\). Continuity at the tie gives an equivalent
+single inequality \(A\eta_2+B\eta_3\ge1\), where
+\[
+A=(2/5)\log(7/3),\qquad B=(1/2)\log(25/21).
+\]
+Arm 2 supplies strictly more information per unit regret because
+\(A>2B\). Exponentiating the equivalent logarithmic inequality reduces it
+to the integer comparison \(49\cdot21^5>9\cdot25^5\).
+The optimum is \((\eta_2,\eta_3)=(1/A,0)\), with cost \(1/\log(7/3)\).
+
+From the skill directory run the numerical replay in base MATLAB.
+
+~~~sh
+matlab -batch "run('scripts/replay_rkhs_bernoulli_allocation.m')"
+~~~
+
+It includes a 3,001-point grid and prints the two limiting divergences and
+the allocation. The proof above covers the continuum for this model.
+The general B056 algorithm and its OSSB transfer still require their own
+oracle, estimation and exploration conditions. [MATLAB replay](../scripts/replay_rkhs_bernoulli_allocation.m)

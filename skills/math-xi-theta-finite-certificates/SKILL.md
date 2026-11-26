@@ -20,3 +20,7 @@ Read the source contracts before use:
 - [Wronskian-to-Hankel-minor transfer](references/sra-wronskian-hankel-transfer.md)
 
 - [Sra v1 的有限 PF_10 回放](references/sra-riem-xi-v1-pf10-replay.md)
+
+## 文献复核采用的构件
+
+- [Leading-principal-minor congruence gate](references/sra-leading-congruence-gate.md)

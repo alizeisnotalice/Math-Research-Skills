@@ -18,7 +18,7 @@
 
 ## 本机概率技能附件
 
-标为「本机附件」的文件路径相对原安装包。先在当前技能目录查找；需要核对论文原文时，在 /Volumes/共享/Math_Research_Literature/01_Existing_Skill_Sources 的 02_Skill_to_Paper.csv 中按技能名、source ID 或题名查候选，再用 01_Paper_Index.csv 核对原文 SHA-256 及路径。相同题名的不同版本各有独立记录。若原文或证明依赖无法取得，保留待证状态。
+标为「本机附件」的文件路径相对原安装包。 标为「安装版附件」的链接可在当前安装目录直接打开，指向同一编号的已收录文件。标为「earlier archive」的路径用于查找历史记录。先在当前技能目录查找；需要核对论文原文时，在 共享文献库 Math_Research_Literature 下的 01_Existing_Skill_Sources 的 02_Skill_to_Paper.csv 中按技能名、source ID 或题名查候选，再用 01_Paper_Index.csv 核对原文 SHA-256 及路径。相同题名的不同版本各有独立记录。若原文或证明依赖无法取得，保留待证状态。
 
 ## 本机安装
 

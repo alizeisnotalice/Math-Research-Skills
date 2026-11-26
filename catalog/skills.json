@@ -35,7 +35,7 @@
       "key": "differential-difference-dynamics",
       "label": "微分差分方程、递推与动力系统",
       "route": "有限递推、差分 Galois、可积系统、正交多项式或周期轨道。",
-      "count": 8
+      "count": 9
     },
     {
       "key": "analysis-geometry-pde",
@@ -72,7 +72,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 120,
+    "research-specialists": 121,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -1460,6 +1460,15 @@
       "description": "对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。",
       "category": "research-specialists",
       "path": "skills/math-linear-difference-hypertranscendence/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
+    },
+    {
+      "name": "math-local-bottcher-formal-conjugacy",
+      "title": "Böttcher 形式共轭",
+      "description": "对有理系数首一多项式在无穷远构造并精确检验形式 Böttcher Laurent 共轭。适用于给定多项式和截断阶的系数计算。",
+      "category": "research-specialists",
+      "path": "skills/math-local-bottcher-formal-conjugacy/SKILL.md",
       "specialty": "differential-difference-dynamics",
       "specialty_label": "微分差分方程、递推与动力系统"
     },

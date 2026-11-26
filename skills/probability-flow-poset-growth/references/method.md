@@ -61,7 +61,7 @@ For two directed edge orientations with closed probability (q=1-p), the unmarked
 
 To pass from a fixed-(p) limit to (p\uparrow1), one needs a comparison accurate relative to √q after normalization, along a volume regime that also tends to infinity. The estimate must handle: (a) horizontal/vertical defect marks and the chosen embedding; (b) dependent geometric effects in the boundary path cover; (c) edge-to-point discretization; (d) source/sink boundary and corner losses; and (e) concentration or expectation errors. Pointwise Poisson convergence on every fixed box is not a uniform-in-volume bound and does not justify interchanging the limits.
 
-The local L04 scripts exhaust n=2,3 and give an exact n=4 counterexample. A second exact solver checks the derived lower-bound circulation encoding on that n=4 case: feasible exactly for k≥6, while the width is 5. The scale script checks algebra only. See the saved code, outputs, and R04 independent validation in `cases/` and `../evidence/raw/acceptance_reviews/6f75c03b2a480215_review.json.txt`.
+The local L04 scripts exhaust n=2,3 and give an exact n=4 counterexample. A second exact solver checks the derived lower-bound circulation encoding on that n=4 case: feasible exactly for k≥6, while the width is 5. The scale script checks algebra only. See the saved code, outputs, and R04 independent validation in `cases/` and `../evidence/raw/acceptance_reviews/6f75c03b2a480215_review.json.txt` (earlier archive).
 
 ## 5. Classical HAD versus A17
 

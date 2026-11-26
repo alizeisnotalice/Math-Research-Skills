@@ -128,6 +128,7 @@ SPECIALTY_FIELDS = {
         'math-linear-difference-hypertranscendence',
         'math-hofstadter-nested-recurrences',
         'math-recurrence-finite-screening',
+        'math-local-bottcher-formal-conjugacy',
         'math-lienard-half-arc-matching',
     )},
     'analysis-geometry-pde': {

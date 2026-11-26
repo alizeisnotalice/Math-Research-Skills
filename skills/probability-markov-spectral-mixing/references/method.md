@@ -64,7 +64,7 @@ Keep separate: (a) edge-addition monotonicity on arbitrary graphs, (b) common-te
 
 For small n, enumerate all 2ⁿ configurations, build the actual random-site heat-bath kernel, verify row sums and detailed balance, symmetrize by `S=diag(sqrt(π)) P diag(1/sqrt(π))`, and compute the second-largest eigenvalue. Hold all other couplings fixed while varying one edge. Repeat near multiple eigenvalues at higher precision. Record the exact graph, rates, parameter values, solver precision, and any conditioning issue.
 
-Numerics can reject a conjecture only when a candidate violation is certified; absence of a violation on a finite graph/sample/grid is not proof. The package contains row-bound finite scripts and outputs in `evidence/math_case_manifest.json`, plus R01 exact convention checks for clocks, pinning, the absolute-gap endpoint, and one simple moving-eigenvalue branch. These are finite examples only, not proof of an all-graphs statement.
+Numerics can reject a conjecture only when a candidate violation is certified; absence of a violation on a finite graph/sample/grid is not proof. The package contains row-bound finite scripts and outputs in `evidence/math_case_manifest.json` (earlier archive), plus R01 exact convention checks for clocks, pinning, the absolute-gap endpoint, and one simple moving-eigenvalue branch. These are finite examples only, not proof of an all-graphs statement.
 
 ## 7. General reversible-chain gap and comparison toolkit
 

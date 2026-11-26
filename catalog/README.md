@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 286 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 287 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -202,6 +202,7 @@
 | [math-lienard-half-arc-matching](../skills/math-lienard-half-arc-matching/SKILL.md) | 将已验证的 Lienard 半平面弧坐标匹配转化为周期轨道与孤立零点问题；不用于未经认证的数值积分或周期数上界。 |
 | [math-likely-intersections-density](../skills/math-likely-intersections-density/SKILL.md) | Apply the conditional likely-intersection density theorem for a verified definable complex quotient presentation and its Ax--Schanuel witnesses. |
 | [math-linear-difference-hypertranscendence](../skills/math-linear-difference-hypertranscendence/SKILL.md) | 对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。 |
+| [math-local-bottcher-formal-conjugacy](../skills/math-local-bottcher-formal-conjugacy/SKILL.md) | 对有理系数首一多项式在无穷远构造并精确检验形式 Böttcher Laurent 共轭。适用于给定多项式和截断阶的系数计算。 |
 | [math-logrank-rectangle-rank-halving](../skills/math-logrank-rectangle-rank-halving/SKILL.md) | 从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。 |
 | [math-mahler-purity-filtration](../skills/math-mahler-purity-filtration/SKILL.md) | Apply the generalized-Mahler Hahn/Puiseux purity filtration to a supplied Mahler equation, while tracking exceptional arithmetic-growth layers and decomposition hypotheses. |
 | [math-mahler-system-admission](../skills/math-mahler-system-admission/SKILL.md) | Apply scoped basis, lifting and purity theorems for supplied Mahler equations or systems after certifying the coefficient field, transformation, regularity and orbit hypotheses. |

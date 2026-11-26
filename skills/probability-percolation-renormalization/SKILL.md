@@ -26,3 +26,7 @@ For a finite dual-contour Ising interface or a finite tree factor with private c
 - [Annular screening and single-bit planar transfer](references/openai-wave4-pa3.md)
 - [Finite percolation interfaces](references/openai-wave3.md)
 - [Finite planar spin and percolation identities](references/openai-200-226.md)
+
+## 文献复核采用的构件
+
+- [Exact conditional bridge: additive gluing implies near-one gluing](references/additive-gluing-near-one.md)

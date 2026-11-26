@@ -89,6 +89,7 @@
 - [math-linear-difference-hypertranscendence](../../math-linear-difference-hypertranscendence/SKILL.md) · 对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。
 - [math-hofstadter-nested-recurrences](../../math-hofstadter-nested-recurrences/SKILL.md) · 用精确整数递推计算广义 Hofstadter 函数 F_k 的有限前缀，并核对已给出的点态比较。
 - [math-recurrence-finite-screening](../../math-recurrence-finite-screening/SKILL.md) · Exact bounded residual checks for k-Pell multiplicative dependence, decimal k-Lucas concatenations, and unit-constant two-sided recurrences. Never promotes a finite box to a global recurrence theorem.
+- [math-local-bottcher-formal-conjugacy](../../math-local-bottcher-formal-conjugacy/SKILL.md) · 对有理系数首一多项式在无穷远构造并精确检验形式 Böttcher Laurent 共轭。适用于给定多项式和截断阶的系数计算。
 - [math-lienard-half-arc-matching](../../math-lienard-half-arc-matching/SKILL.md) · 将已验证的 Lienard 半平面弧坐标匹配转化为周期轨道与孤立零点问题；不用于未经认证的数值积分或周期数上界。
 
 <a id="analysis-geometry-pde"></a>

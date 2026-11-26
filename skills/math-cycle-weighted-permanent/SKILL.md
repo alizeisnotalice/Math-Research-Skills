@@ -18,5 +18,7 @@ Run `python3 scripts/cycle_weighted_permanent.py examples/rank-one.json`.
 
 ## 文献复核采用的构件
 
+- [Ryser identity by exact coefficient cancellation](references/ryser-coefficient-cancellation.md)
+
 - [Paper I finite cycle sum](references/macperm1-finite-cycle-sum.md)
 - [Paper II scalar normalization](references/macperm2-scalar-normalization.md)

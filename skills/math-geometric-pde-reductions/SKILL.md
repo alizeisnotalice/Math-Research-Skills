@@ -50,3 +50,7 @@ description: 核对给定几何模型的高度方程、标量曲率归一化、N
 - [Retarded-characteristic Jacobian](references/openai-retarded-characteristic-jacobian.md)
 
 - [OpenAI geometry wave 2: scoped analytic transfers](references/openai-geometry-wave-2.md)
+
+## 文献复核采用的构件
+
+- [O43 / GD1998 swirl: bounded exact reduction audit](references/swirl-implicit-coordinate-derivatives.md)

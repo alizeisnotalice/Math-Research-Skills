@@ -12,7 +12,7 @@ For the binary i.i.d. deletion channel with deletion probability d, normalize in
 
 The stationary-ergodic variational characterization is Lemma 2.2 (PDF p. 5); the i.i.d.-run achievability construction is Lemma 4.1 (PDF p. 8). Section 6 (PDF pp. 26–27) asks whether higher-order terms exist and whether the resulting series converges. The theorem proves neither an A₃ coefficient nor all-orders expansion nor a convergence radius. Keep the logarithm base, fixed-ε quantifier, and ε-dependent range/error constants explicit.
 
-The 50-digit Decimal calculation in `evidence/W16/validate_constants.py` checks finite cutoffs for A₁ and A₂. It is arithmetic evidence only; it is not a rigorous infinite-series tail bound or evidence for capacity-series convergence.
+The 50-digit Decimal calculation in `evidence/W16/validate_constants.py` (earlier archive) checks finite cutoffs for A₁ and A₂. It is arithmetic evidence only; it is not a rigorous infinite-series tail bound or evidence for capacity-series convergence.
 
 ### Achievable bounds and historical context
 
