@@ -9,3 +9,13 @@ python3 scripts/find_literature_source.py --skill math-b03-generalized-moments -
 ~~~
 
 结果返回索引文件的绝对路径和行号。先读对应条目，再据其中的物理页码、版本和外部依赖调用方法。`--text` 会检查标题及来源说明。多次指定 `--collection` 会合并指定的集合。找不到结果时，若已知原件则进一步定位纸面来源或查尚未登记的本机队列。
+
+如需复核历史来源，加入状态筛选，例如：
+
+~~~sh
+python3 scripts/find_literature_source.py --status hold
+python3 scripts/find_literature_source.py --status candidate --skill math-b03-generalized-moments
+python3 scripts/find_literature_source.py --status adopted
+~~~
+
+状态字段反映历史来源卡上明示的分类。已采用构件另有 adoption_recorded 标记，可与同篇原件中仍待审的其他命题同时存在。其他来源分册各有自身的证据字段，直接查对应页。

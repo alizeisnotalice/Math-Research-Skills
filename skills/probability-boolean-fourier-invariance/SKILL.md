@@ -21,3 +21,7 @@ For a finite-cube threshold calculation that needs a weighted Fourier filtration
 Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## 有限域线性码的边缘
+
+若输入是均匀二元线性码行，使用[低阶均匀边缘](references/binary-code-marginals.md)按生成矩阵列关系认证 k-wise independence 或输出确定的异或见证。需要随机矩阵谱结论时，另核码行采样与谱定理假设。

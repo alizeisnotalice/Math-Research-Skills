@@ -1005,8 +1005,8 @@
     },
     {
       "path": "skills/math-b03-generalized-moments/SKILL.md",
-      "sha256": "9e1b41b9170a7a3200283be0daf5ef398df24ceb35e49d0c97b697a1a3a7a0d9",
-      "bytes": 4804,
+      "sha256": "3ecb7c5f9e626ccee4ac26502133d30f248368d3184d950a1c8cfce5f7b0f942",
+      "bytes": 5032,
       "mode": 420
     },
     {
@@ -1028,15 +1028,33 @@
       "mode": 420
     },
     {
+      "path": "skills/math-b03-generalized-moments/examples/ifr_not_lc.json",
+      "sha256": "d9c412d32c4f60532925d5b8d3230ba4ec28b3c884f4eb644ea6301ea5f575be",
+      "bytes": 45,
+      "mode": 420
+    },
+    {
       "path": "skills/math-b03-generalized-moments/examples/infeasible_negative_weight.json",
       "sha256": "daf467851216a770d854febf4bdcfc2ffc06628a1ee6ae38b2b6443f5e86d40c",
       "bytes": 150,
       "mode": 420
     },
     {
+      "path": "skills/math-b03-generalized-moments/examples/lc_two_geometric_pieces.json",
+      "sha256": "61a55299b34250aeab92e8ba3b48e7890fe88cc1ebac82e1c06a6760c2a61824",
+      "bytes": 72,
+      "mode": 420
+    },
+    {
       "path": "skills/math-b03-generalized-moments/examples/negative.md",
       "sha256": "66a1ecf9d2d49e120e795314d7d02fee1a84a3e7383da691c5dc724a1b6c9676",
       "bytes": 627,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-b03-generalized-moments/examples/nonconsecutive_support_rejected.json",
+      "sha256": "7a6f5ff63adf9d119e4a993c52d34e4d4611a308be50313b0ec963a6c4bca634",
+      "bytes": 34,
       "mode": 420
     },
     {
@@ -1058,9 +1076,21 @@
       "mode": 420
     },
     {
+      "path": "skills/math-b03-generalized-moments/examples/singleton_mass.json",
+      "sha256": "2b3daff375675152bfcc20d6c890828f432dab2f899943c1a1a407ea399f8027",
+      "bytes": 47,
+      "mode": 420
+    },
+    {
       "path": "skills/math-b03-generalized-moments/references/cube-interface.md",
       "sha256": "f28169d9a016a53d5012b46cd3f7a47055198bed0017b246e62e22ffc9e176ef",
       "bytes": 717,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-b03-generalized-moments/references/discrete-shape-exact-guide.md",
+      "sha256": "7ac0f0b4e5cdbe7ded7cef728bf15fd4e2ea08db734d38506fa0124c4f235b8b",
+      "bytes": 2823,
       "mode": 420
     },
     {
@@ -1127,6 +1157,12 @@
       "path": "skills/math-b03-generalized-moments/references/verification-log-20261007.md",
       "sha256": "824cdccdb1e92183ba67e7778f759ab8199cc6ef8437afaffec3c794822020ce",
       "bytes": 1829,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-b03-generalized-moments/scripts/discrete_shape_certificate.py",
+      "sha256": "eb8777fb63f53ba6f317582e21ed2235a5ed01bcaa66ab48ed62e88c9e325fe3",
+      "bytes": 7017,
       "mode": 420
     },
     {
@@ -1257,8 +1293,8 @@
     },
     {
       "path": "skills/math-c01-semidefinite-lifting/SKILL.md",
-      "sha256": "5b7964d0c9872af61fd139fd1c01ab1ad2252f05d50edb46fe4e6cbca47403e2",
-      "bytes": 4241,
+      "sha256": "7850780758add5bd656eb75ad5eb4f4dcc71e3e22f7133cec2ccee44dd04a673",
+      "bytes": 4525,
       "mode": 420
     },
     {
@@ -1277,6 +1313,18 @@
       "path": "skills/math-c01-semidefinite-lifting/examples/positive.md",
       "sha256": "80a088cfe47fd48508a532ee697b70da978dded415236e670f8c7482919c50b0",
       "bytes": 604,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-c01-semidefinite-lifting/examples/rejected_bad_slack.json",
+      "sha256": "0251cb0560d53ec610ee4df9f21da76a13f35c0ed21bcce49b258ca6f8360937",
+      "bytes": 249,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-c01-semidefinite-lifting/examples/two_by_two_exact_match.json",
+      "sha256": "a51923bc75f76647fea310489201f97499fc5a169cf42c28ee070ef8702a9f70",
+      "bytes": 249,
       "mode": 420
     },
     {
@@ -1334,6 +1382,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-c01-semidefinite-lifting/references/roux-carr-ravi-rank-one-cut-certificates.md",
+      "sha256": "480dece6eb9fc3ea6774edb3152191c1c398c44205ebcb718279355985d6191b",
+      "bytes": 3311,
+      "mode": 420
+    },
+    {
       "path": "skills/math-c01-semidefinite-lifting/references/sources.json",
       "sha256": "f6613e4152e9879a91c7b28cf064de0b309b846a1fd80ff0fe283a27fbd9a3f1",
       "bytes": 62088,
@@ -1343,6 +1397,12 @@
       "path": "skills/math-c01-semidefinite-lifting/references/verification-log-20261006.md",
       "sha256": "279081350cc0acbe95af2357001a4f3dd0073502be7d26cf7bdad96b073b2f67",
       "bytes": 2234,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-c01-semidefinite-lifting/scripts/verify_psd_lp_matching.py",
+      "sha256": "eb3ac51744c17d58575cb4a18416511c7a726512fd0dfa0c5001191395a87db8",
+      "bytes": 8349,
       "mode": 420
     },
     {
@@ -4515,8 +4575,8 @@
     },
     {
       "path": "skills/math-hankel-pade-certificates/SKILL.md",
-      "sha256": "b3f7c74a68a8fc4e3c2ab3f7fd050fd50cf3c0700019fd52148dbc25ebcc7e50",
-      "bytes": 3330,
+      "sha256": "0d2dd03bb82bf31d2fb3cd67b3a23438ae97107ef4dceefe35f3e24b92362ee6",
+      "bytes": 3582,
       "mode": 420
     },
     {
@@ -4526,9 +4586,27 @@
       "mode": 420
     },
     {
+      "path": "skills/math-hankel-pade-certificates/examples/mahler-gap-not-big.json",
+      "sha256": "15529d348f6d89eddc91159f66e5db9aae0069b6e9820d1b4965b4ffd0f1ad4a",
+      "bytes": 139,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-hankel-pade-certificates/examples/mahler-gap-s2.json",
+      "sha256": "881ecced20a7670023181c678b901c0295a954191f49de4355ac878bea807504",
+      "bytes": 139,
+      "mode": 420
+    },
+    {
       "path": "skills/math-hankel-pade-certificates/examples/positive-catalan.json",
       "sha256": "4f9563a355780a5b36c3369fc948d035a9ad15db995e85729c0d898408042a3e",
       "bytes": 346,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-hankel-pade-certificates/references/badziahin-mahler-gap-transfer.md",
+      "sha256": "6872921d1958e922a41e91262389e18313d21e34f291fb30c93a6b8ce1aeaffa",
+      "bytes": 3032,
       "mode": 420
     },
     {
@@ -4559,6 +4637,12 @@
       "path": "skills/math-hankel-pade-certificates/scripts/hankel_projection_bounds.py",
       "sha256": "e5475ac5bdc7fbf3ea3b50114e553cbd72c8ead336f706af188c84dd25c78ac0",
       "bytes": 4173,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-hankel-pade-certificates/scripts/mahler_gap_step.py",
+      "sha256": "4a6c8c889791185ad68df78f989f9dea92041a70f45632af8d453689ae44f5cf",
+      "bytes": 7120,
       "mode": 420
     },
     {
@@ -8235,8 +8319,8 @@
     },
     {
       "path": "skills/math-research/references/historical-sources/README.md",
-      "sha256": "268273d4caa10a6776c786d7c992e817665f528e3fcd0f1fd8022522468ce15e",
-      "bytes": 1030,
+      "sha256": "dea29ba65fccd3d6394762d2421d76291ed9b5000635954fb7db29b453a96345",
+      "bytes": 1132,
       "mode": 420
     },
     {
@@ -8247,14 +8331,14 @@
     },
     {
       "path": "skills/math-research/references/historical-sources/arithmetic.md",
-      "sha256": "b6e943dbfe5465b1ddb1cd1d857ebfb7a6a4fb4b27460f524b4a2e3de3428fc5",
-      "bytes": 10343,
+      "sha256": "72904e19ed0c49a096a19d2b4cafd9662ac062244cfee40f0bbe00ee428bc2c0",
+      "bytes": 10526,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/historical-sources/optimization.md",
-      "sha256": "2016246d1a8cc15a23ba9291efd457a92fba0f45c8f065d11e65224acbdf67c3",
-      "bytes": 95877,
+      "sha256": "958f793903648edec14c7f3a0c7e9cf95516502a63d73304aaca7180718e78c8",
+      "bytes": 96125,
       "mode": 420
     },
     {
@@ -8277,20 +8361,20 @@
     },
     {
       "path": "skills/math-research/references/historical-sources/wave-02/analysis.md",
-      "sha256": "7545d9d0cef6c1cdcba47ff28f84724881533396ce8a97f380306d0811fcde9b",
-      "bytes": 103511,
+      "sha256": "2aefb2930dfc5fc41b70b740982ab6ee7961b75a90ebea10d57a2fca54ff5e47",
+      "bytes": 103701,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/historical-sources/wave-02/optimization.md",
-      "sha256": "17290713b93643f152e7a3f6dbfd2699fb1f57222e9192dc8425a2bdd5289c70",
-      "bytes": 124987,
+      "sha256": "e5599e581a6130e4776bee800fbfc38de87bc5d23307a8a86d5f4f05a4e2b213",
+      "bytes": 125284,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/historical-sources/wave-02/probability.md",
-      "sha256": "b5e71c472ec1fe08a53dcf0944aa1700b0c7f3469da0f08d1b051997d036da75",
-      "bytes": 349878,
+      "sha256": "0ed89cbf391ccbb49b8cb579edf0f7ec0eadbaae750714d891da0a73582c6d00",
+      "bytes": 350059,
       "mode": 420
     },
     {
@@ -8313,14 +8397,44 @@
     },
     {
       "path": "skills/math-research/references/historical-sources/wave-03/probability.md",
-      "sha256": "6cf63987275ffa4a5d880ce346492ee7982ab191f08624b324f5d524e2a21835",
-      "bytes": 368071,
+      "sha256": "8f2f6fc8953bd5597d7d40afd51d1303c504b35b9140e0cf061802f4124a06f6",
+      "bytes": 368258,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-04/README.md",
+      "sha256": "0ff1f36974ab983ea132d715948d0796cac56bc45e59e2b206d8d0c4ccafe546",
+      "bytes": 731,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-04/analysis.md",
+      "sha256": "de9582291844bd4cc5cb85ee7aa7b6645a235595c1069b76f696a2898e91dd72",
+      "bytes": 265211,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-04/optimization.md",
+      "sha256": "f6c39111e6eb0c5473a85479c3c6be31b97f7f5af193a6d6b020fe639845b169",
+      "bytes": 153708,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-04/other.md",
+      "sha256": "a8837168e191aa4131aebf73f3adc01aa6ef4102dc12ebacf81dca1058d83d0b",
+      "bytes": 85759,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-research/references/historical-sources/wave-04/probability.md",
+      "sha256": "7b9a8dce3be5c2519545e17d62a744ce78d1448ecadb1e70c6d085e19d31860b",
+      "bytes": 531466,
       "mode": 420
     },
     {
       "path": "skills/math-research/references/literature-source-lookup.md",
-      "sha256": "712cb74f47e8c441447554959abf4f96e6b951a14d463e5ff700871cb5025b3d",
-      "bytes": 970,
+      "sha256": "3d71e5e855f981a546cbf11c5cc837b05f6ecdb0a23e5465997c9f6ca101f609",
+      "bytes": 1487,
       "mode": 420
     },
     {
@@ -8457,8 +8571,8 @@
     },
     {
       "path": "skills/math-research/scripts/find_literature_source.py",
-      "sha256": "63cfd05baaa9c05fd54256e67acefc761a507312eead52f9d4e456bd5d039b76",
-      "bytes": 5645,
+      "sha256": "7e1a8009c4e564ad5b84ee915dc9becac5c7ac5c1648072d348da085a35cd6f7",
+      "bytes": 7142,
       "mode": 420
     },
     {
@@ -8511,8 +8625,8 @@
     },
     {
       "path": "skills/math-tool-router/SKILL.md",
-      "sha256": "02d1987257c6dd0f52e1b5fd0f727a53a91a1ad775df98eb31df293b14a1e0a0",
-      "bytes": 5394,
+      "sha256": "75219aa733deb024a45008008978fae035b4d25ae87f93bd10b7adcfb9c1e079",
+      "bytes": 6045,
       "mode": 420
     },
     {
@@ -9507,8 +9621,8 @@
     },
     {
       "path": "skills/probability-boolean-fourier-invariance/SKILL.md",
-      "sha256": "2cbfb515fa3ff9f62887abf3aa6708df4ec0960ad95a949b5c26cd390de58f96",
-      "bytes": 3484,
+      "sha256": "63adab2e4a31be229cb85426b9464c0c386ca4ebcf892a1e2dc6061dcaa8937b",
+      "bytes": 3776,
       "mode": 420
     },
     {
@@ -9764,6 +9878,18 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-boolean-fourier-invariance/examples/binary-code-pairwise.json",
+      "sha256": "d775e52d5077f2b34a42907b89952653bffbb53f1075feead9537191177ee124",
+      "bytes": 51,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-boolean-fourier-invariance/examples/binary-code-triple-witness.json",
+      "sha256": "20b26b39701e94d1d29cd6d65753017ee0c32396bcf62db4d931f12f52ce5ffb",
+      "bytes": 51,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-boolean-fourier-invariance/examples/negative.md",
       "sha256": "25d19c7d9b3a7d54e4ec2c2a0c25a8ae9b147131d710ff3e5b2f99c8a2d13de5",
       "bytes": 2730,
@@ -9773,6 +9899,12 @@
       "path": "skills/probability-boolean-fourier-invariance/examples/positive.md",
       "sha256": "1d880e1cbb32d526b192b2cb6349753d5131bfc4f4942faf06342ae815ab5cfa",
       "bytes": 3462,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-boolean-fourier-invariance/references/binary-code-marginals.md",
+      "sha256": "0cee27f2cc3872a9c8d68f69c88b470b1cebf1f1d895dd99ecd1bb041426284a",
+      "bytes": 2085,
       "mode": 420
     },
     {
@@ -9803,6 +9935,12 @@
       "path": "skills/probability-boolean-fourier-invariance/release-manifest.json",
       "sha256": "e036c7a4cebf806d9fa780c76189ceb61ce738d3545b1e05f38c07411e1dce2e",
       "bytes": 30568,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-boolean-fourier-invariance/scripts/check_binary_code_independence.py",
+      "sha256": "fe46d28a8469f9c56440fbbfc6872bc153266a509bebfb43b236256e7cc30788",
+      "bytes": 2459,
       "mode": 420
     },
     {
@@ -12471,8 +12609,8 @@
     },
     {
       "path": "skills/probability-martingale-stopping/SKILL.md",
-      "sha256": "7bdf945db93ef9c1064c4acb60212402bf199b5a0609c3d1debc49f56ffe3406",
-      "bytes": 5453,
+      "sha256": "5fcf024e7ee6f5c7ad1b37a7cef2a6211da4b036f259ebff1bd3642b1986aa9f",
+      "bytes": 5703,
       "mode": 420
     },
     {
@@ -12698,6 +12836,18 @@
       "mode": 420
     },
     {
+      "path": "skills/probability-martingale-stopping/examples/finite_e_power_failure.json",
+      "sha256": "46b7f491bb4b0f0a8385ba1f27b9094ab55ec43d248c5680fb2bcd93fbabeedd",
+      "bytes": 357,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-martingale-stopping/examples/finite_inverse_moment_bound.json",
+      "sha256": "7980b1a17dbb734cfa6d79697a9ad1b14bfeeba2353011bfd47b0eba35d9be5e",
+      "bytes": 189,
+      "mode": 420
+    },
+    {
       "path": "skills/probability-martingale-stopping/examples/negative.md",
       "sha256": "5a86ca1c16397beddb4b77081447f710b82986bf38024c97a748df9d1692f4ca",
       "bytes": 1577,
@@ -12707,6 +12857,12 @@
       "path": "skills/probability-martingale-stopping/examples/positive.md",
       "sha256": "84634deddea6ad6e9b7b57381746dcae84d534e72095fd993234603edd0bb608",
       "bytes": 3001,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-martingale-stopping/references/finite_inverse_moment_type_ii.md",
+      "sha256": "435b94f9b91d9a06454f35e97954e2ba5f13ead22e6ad9298bccee48277797c8",
+      "bytes": 3301,
       "mode": 420
     },
     {
@@ -12725,6 +12881,12 @@
       "path": "skills/probability-martingale-stopping/release-manifest.json",
       "sha256": "b2de20b17d6146288da39d3bc447176d1c4240ad6ef710f08a1c98f190b1fe56",
       "bytes": 87517,
+      "mode": 420
+    },
+    {
+      "path": "skills/probability-martingale-stopping/scripts/audit_binary_eprocess.py",
+      "sha256": "2db90461c7f12784e7fee4fe94e5597cb897a57733d6a15d3161357facd88388",
+      "bytes": 7196,
       "mode": 420
     },
     {

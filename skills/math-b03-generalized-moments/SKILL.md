@@ -39,3 +39,7 @@ description: 用广义矩问题组织概率或解析界，核对矩约束、对�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 有限概率向量的形状证书
+
+原子位于有限连续整数网格时，用[离散形状检查](references/discrete-shape-exact-guide.md)核验质量向量、对数凹、离散失效率以及零缺口的几何分段。

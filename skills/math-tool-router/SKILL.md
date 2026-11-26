@@ -16,6 +16,8 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | 单比值子模性、有限 Markov 桥、树度量输运 | 分别用 [单比值判据](../math-a01-fractional-normalization/references/han-2020-submodularity.md)、[终点桥](../math-h02-exponential-tilting-saddlepoint/references/aguilar-gatto-finite-bridge.md) 和 [树输运](../math-d01-kantorovich-duality/references/tree-metric-transport.md) 生成精确证书。 |
 | 有限原子后验树的停止证书 | 用 [后验树与停止见证](../math-e04-snell-envelope-optimal-stopping/references/finite-atomic-posterior-tree.md) 校验精确重心、停止后验和树内 Snell 值。 |
 | 一元区间非负、固定原子矩极点、有限链退出、独立 Bernoulli 原子比较 | 分别用 [区间平方和](../math-b02-semi-infinite-exchange/references/papp-univariate-interval-positivity.md)、[矩多面体](../math-b03-generalized-moments/references/finite-moment-face-guide.md)、[ETFSP 区间](../math-j03-nonlocal-balayage-exit-measure/references/etfsp-finite-certificate.md) 和 [精确原子比较](../probability-bernoulli-extremal-orders/references/kleiner_distance_two_exact.md)。 |
+| 二元线性码的均匀边缘、给定 SDP 与秩一切 LP 同值 | 分别用 [低阶列关系](../probability-boolean-fourier-invariance/references/binary-code-marginals.md) 和 [秩一切证书](../math-c01-semidefinite-lifting/references/roux-carr-ravi-rank-one-cut-certificates.md)。 |
+| 离散矩的形状、有限 e-process、齐次 Mahler 转移 | 分别用 [概率形状](../math-b03-generalized-moments/references/discrete-shape-exact-guide.md)、[逆矩](../probability-martingale-stopping/references/finite_inverse_moment_type_ii.md) 和 [间隙转移](../math-hankel-pade-certificates/references/badziahin-mahler-gap-transfer.md)。 |
 | 有端点消失条件的 Euler–Maclaurin 求积 | 用 [求积误差证书](../math-euler-maclaurin-quadrature-certificates/SKILL.md) 检查多项式、网格及误差的有理包围。 |
 | 标准化单峰分布的尖锐尾界 | 用 [单峰尾界证书](../probability-unimodal-tail-certificates/SKILL.md) 检查事件方向、阈值和取等构造。 |
 | 符号求导、恒等式、参数求解、高精度 | `mathematica-math` 或 `python-math` 的已验证符号环境。声明定义域、分支与精确输入。 |

@@ -58,12 +58,12 @@
 - 引用核对。For American put options under jump diffusions, the authors state continuous differentiability of the exercise boundary away from maturity without a prior drift-condition restriction, and higher smoothness under a jump-distribution regularity assumption.。
 - 适用范围。The result is for the stated option-pricing jump-diffusion/free-boundary model; the opening pages do not license use as a generic Snell-envelope theorem.。
 
-## arXiv:math/0411332v1 (title text unreadable in retained PDF)
+## Dimensional properties of the harmonic measure for a random walk on a hyperbolic group
 
-- 原件 0e2891adc129f958533c144767bf771c03536253eb4010a628a51bb28befec97。arXiv:math/0411332v1 (2004-11-15)。物理页 1, 2。
-- unreadable dynamics/probability source assigned to harmonic-measure coding。pp. 1--2 display the arXiv identifier but have a broken embedded font/encoding; text, authors, and theorem statement are not recoverable.。
-- 待核。Only the arXiv identity token is verified from this file; no mathematical assertion is adopted.。
-- 适用范围。A readable rendering or independently checked bibliographic receipt and proof pages are required before any use or route mapping.。
+- 原件 0e2891adc129f958533c144767bf771c03536253eb4010a628a51bb28befec97。Vincent Le Prince，arXiv:math/0411332v1 字节一致。正式版 Trans. AMS 359 (2007)，DOI 10.1090/S0002-9947-07-04108-6。物理页 1, 10。
+- 引用核对。在原文正漂移随机游走中，v1 的 Proposition 2.1 对调和测度几乎处处的上局部维数给出 h/(l log a) 上界，a 为视觉度量参数。[固定预印本](https://arxiv.org/pdf/math/0411332v1)
+- 适用范围。引用 v1 时保留适当不连续的非初等作用、半群生成及一阶矩条件。正式版的维数结论另按其假设定位。
+- 相关技能。[probability-harmonic-measure-coding](../../../../probability-harmonic-measure-coding/SKILL.md)。
 
 ## Asymptotic Results for Uniform Group Drawing in the Coupon Collector's Problem
 
@@ -373,12 +373,12 @@
 - 邻近材料。Studies exponential generators and large-deviation asymptotics for a Lévy-approximation random evolution with locally independent increments.。
 - 适用范围。The inspected source concerns a specific Markov/Lévy singular-perturbation model; it does not verify the filtration-wise conditional Bernstein moment assumptions required by I01.。
 
-## Law of large numbers for the maximal flow through a domain of R^d in first passage percolation
+## Law of large numbers for the maximal flow through a domain of ℝᵈ in first passage percolation
 
-- 原件 e89d65caf6e2343bee94839ab0c0f7b9a5b773a30efe3a9c48c90ce57cc7adff。arXiv:0907.5504v1 (31 Jul 2009); source PDF。物理页 1, 2。
-- first-passage percolation maximal flow。PDF pp. 1–2; the extracted body is character-encoding corrupted although the arXiv header and supplied title are identifiable.。
-- 待核。The source is identifiable as a maximal-flow/first-passage-percolation manuscript, but its hypotheses and theorem text could not be read reliably from the supplied rendering.。
-- 适用范围。Do not use this card for a flow law of large numbers until a readable typeset or published version is checked, including the capacity law, domain regularity, boundary pieces, normalization, and mode of convergence.。
+- 原件 e89d65caf6e2343bee94839ab0c0f7b9a5b773a30efe3a9c48c90ce57cc7adff。Raphaël Cerf 与 Marie Théret，arXiv:0907.5504v1 字节一致。正式版 Trans. AMS 363 (2011), 3665–3702，DOI 10.1090/S0002-9947-2011-05341-9。物理页 1, 3。
+- 引用核对。v1 的 Theorem 1 给出在格距 1/n 的最近邻格上，最大流除以 n^(d−1) 几乎必然趋于有限常数。常数严格正当且仅当零容量概率小于 1−p_c(d)。[固定预印本](https://arxiv.org/pdf/0907.5504v1)
+- 适用范围。限于独立同分布容量有指数矩、Lipschitz 域边界由有限横截 C¹ 超曲面覆盖、进出口相隔正距离且相对边界面积为零的情形。
+- 相关技能。[probability-first-passage-growth](../../../../probability-first-passage-growth/SKILL.md)。
 
 ## Learning Bellman Complete Representations for Offline Policy Evaluation
 

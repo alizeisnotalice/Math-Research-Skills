@@ -45,3 +45,7 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 ## 正矩投影下界
 
 当目标值是未知的零阶矩、其余所需矩可精确计算时，用 [正矩投影的 Hankel 比值](references/hankel-projection-bounds.md) 求下界。对 γ、Euler–Gompertz 常数及 ζ(k) 可直接运行。报告有限的 Gram 子式检查和所用解析收敛条件。
+
+## 齐次 Mahler 方程的单步间隙
+
+若前置论证已认证 Laurent 连分式的相邻分母次数，用[Mahler 间隙转移](references/badziahin-mahler-gap-transfer.md)做有理多项式约分，核对新间隙的端点和严格增长条件。

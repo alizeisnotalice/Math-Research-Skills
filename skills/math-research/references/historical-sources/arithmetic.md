@@ -63,11 +63,12 @@
 
 ## On spectrum of irrationality exponents of Mahler numbers
 
-- 原件 87992e4a5f78c9c1d7b38e55477eb1d1fef3dfd2698fff9916e18395459d0c66。Dzmitry Badziahin, arXiv:1806.02946v1, 8 June 2018, local manuscript dated 8 October 2018, 19 pages.。物理页 1, 2, 3, 4, 8, 9, 10, 16, 18。
+- 原件 87992e4a5f78c9c1d7b38e55477eb1d1fef3dfd2698fff9916e18395459d0c66。本机 arXiv:1806.02946v1。正式版 JTNB 31 (2019), 431–453，DOI 10.5802/jtnb.1090。物理页 1, 2, 3, 4, 8, 9, 10, 16, 18。
 - Laurent-series continued fractions, primitive degree gaps and exact irrationality exponents of Mahler values.。PDF pp. 1–2 state Theorem 1; p. 3 gives the two-sequence approximation estimate; pp. 8–10 define primitive gaps and prove their bounded/eventually periodic reduction; pp. 16–18 work three explicit d=3 families.。
 - 构件候选。This supplies a potentially reusable exact certificate for a restricted homogeneous Mahler equation f(z)=A(z)f(z^d)/B(z): derive continued-fraction denominator degree gaps, reduce to finitely many primitive gaps, and use eventual cancellation periodicity to obtain a rational irrationality exponent. The existing Hankel skill does not implement this Laurent continued-fraction/primitive-gap branch.。
 - 适用范围。The construction needs a Laurent-series continued fraction, the nonvanishing A(b^{d^m})B(b^{d^m}) condition for every m, irrationality of f(b), and proof of periodic cancellation data. Finite Hankel values or finite gap search cannot certify the theorem. It does not apply to γ.。
 - 相关技能。[math-hankel-pade-certificates](../../../math-hankel-pade-certificates/SKILL.md)。
+- 已采用构件。由已认证的有限间隙做齐次 Mahler 的一步有理多项式传播。[使用说明](../../../math-hankel-pade-certificates/references/badziahin-mahler-gap-transfer.md)
 
 ## On the irrationality exponent of the regular paperfolding numbers
 

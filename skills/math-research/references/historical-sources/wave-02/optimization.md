@@ -794,11 +794,12 @@
 
 ## Instance-Specific Linear Relaxations of Semidefinite Optimization Problems
 
-- 原件 6dc834a2467f2aa63765536d22320d72d5d04c7ddde6f7b4547754e7c0d42572。arXiv:2302.08118v3 (20 Feb 2024), 54 pages.。物理页 1, 4。
+- 原件 6dc834a2467f2aa63765536d22320d72d5d04c7ddde6f7b4547754e7c0d42572。arXiv:2302.08118v3。正式版 Mathematical Programming Computation 17 (2025), 385–435，DOI 10.1007/s12532-025-00275-1。物理页 1–5, 44。
 - commutativity-based linear relaxations of SDPs。Abstract and Observation 1, physical pp. 1 and 4.。
 - 构件候选。It proposes LP relaxations of SDPs based on commutativity and gives conditions for equality of LP and SDP values; Observation 1 shows that, under strict feasibility and an optimal dual solution, eigenvectors of the dual slack define a finite linear relaxation matching the SDP value.。
 - 适用范围。The exact matching set uses information from an optimal dual SDP solution, so it is not an a priori replacement for solving the SDP. Any reusable method must keep strict-feasibility, commutativity/initialization, and approximation assumptions explicit.。
 - 相关技能。[math-c01-semidefinite-lifting](../../../../math-c01-semidefinite-lifting/SKILL.md)。
+- 已采用构件。给定有理原可行点及秩一切组合时，认证当前 SDP 与 LP 同值。[使用说明](../../../../math-c01-semidefinite-lifting/references/roux-carr-ravi-rank-one-cut-certificates.md)
 
 ## Lower Bounds on the Size of Semidefinite Programming Relaxations
 

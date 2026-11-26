@@ -704,10 +704,11 @@
 
 ## The Type-II Error of Test Supermartingales: e-Power versus the Chernoff–Stein Exponent
 
-- 原件 1de97d7700ddbf8cb99c03f6753a2dd371ebc4e47ed5bffdaad4cec2eb80aa4e。2026 manuscript (PDF title page; no persistent identifier located)。物理页 1, 3, 4, 7, 8, 14。
+- 原件 1de97d7700ddbf8cb99c03f6753a2dd371ebc4e47ed5bffdaad4cec2eb80aa4e。Patrick Forré，arXiv:2609.27765v1。物理页 1, 3, 4, 7, 8, 12–19, 24。
 - test-supermartingale type-II exponents。PDF pp. 3–4, Theorems 3.7, 4.10, 4.25 and Proposition 4.11; pp. 7–8, Definitions 2.7–2.18; p. 14, proof of Theorem 3.7。
 - 构件候选。The manuscript separates e-power from finite-horizon type-II control: its counterexample varies the testing model, while its conditional Hölder argument bounds the exponent for a filtered betting sequence; these two scopes should be preserved if distilled.。
 - 适用范围。This is an unversioned 2026 manuscript. The exponent-to-error interpretation and i.i.d. attainability use additional hypotheses; it does not produce a uniform finite-horizon type-II bound from e-power alone.。
+- 已采用构件。有限独立调度二元乘子的逆矩、固定时域及序贯 II 类错误。[使用说明](../../../../probability-martingale-stopping/references/finite_inverse_moment_type_ii.md)
 
 ## The Variational Principle for a Marked Gibbs Point Process with Infinite-Range Multibody Interactions
 

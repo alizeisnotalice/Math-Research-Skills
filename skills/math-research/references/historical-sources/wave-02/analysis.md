@@ -242,10 +242,11 @@
 
 ## On the Group Randomness of 0-1 Real Sequences from Binary Linear Codes
 
-- 原件 70e39427d74b9b47e7fbb7bdc092e0b45f4881035832c73d9e37b06478e99e3d。Local 2026 manuscript; no archival identifier visible on checked pages。物理页 1, 3, 5。
+- 原件 70e39427d74b9b47e7fbb7bdc092e0b45f4881035832c73d9e37b06478e99e3d。Chin Hei Chan，arXiv:2607.05418v1，原件与固定 v1 字节一致。物理页 1, 2。
 - binary linear codes; random Gram matrices; spectral statistics。abstract p. 1; main-results setup pp. 3–5。
 - 构件候选。The manuscript frames code-derived 0–1 sequences through normalized Gram-matrix spectral behavior and states central-limit results for linear spectral statistics of monomials under code-distance conditions.。
 - 适用范围。This is a recent local manuscript; the exact code ensemble, distance threshold, and proof dependencies must be verified before any random-matrix tool or general CLT claim is created.。
+- 已采用构件。采用均匀二元线性码行的低阶边缘判据。谱定理另核。[使用说明](../../../../probability-boolean-fourier-invariance/references/binary-code-marginals.md)
 
 ## On the Hardy--Littlewood maximal function for the cube
 

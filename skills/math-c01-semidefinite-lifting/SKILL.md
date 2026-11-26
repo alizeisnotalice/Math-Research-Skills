@@ -41,3 +41,7 @@ PSD和归一化不自动推出rank-one；丢弃秩约束通常只给界。变量
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
 
 已有有限 PSD 因式分解而需要控制因子尺度时，用[最大行列式归一化](references/psd-factor-normalization.md)。
+
+## SDP 与秩一切平面 LP 的同值证书
+
+对给定有理 SDP、已列出的秩一切以及原可行点，用[同值证书](references/roux-carr-ravi-rank-one-cut-certificates.md)核验对偶松弛分解和共同目标值。先分别核对 SDP 的可行性与 LP 切的方向。

@@ -329,11 +329,12 @@
 
 ## The discrete moment problem with nonconvex shape constraints
 
-- 原件 6f0d6890eb9f2625f06fdb1f922d114c85b3ecd9f21244d75da54f8c371c0995。author manuscript dated 8 Aug 2017, 31 pp.。物理页 1, 2, 10, 15, 16。
+- 原件 6f0d6890eb9f2625f06fdb1f922d114c85b3ecd9f21244d75da54f8c371c0995。本机 arXiv:1708.02079v1。正式版 Operations Research 69 (2021), 279–296，DOI 10.1287/opre.2020.1990。物理页 1, 2, 10, 15, 16。
 - Discrete moment optimization under log-concavity or IFR。PDF pp. 1–2 define the discrete DMP; Theorem 3.6 p. 10 and Theorems 4.1–4.2 pp. 15–16 give the extreme-point structure.。
 - 构件候选。For m moment constraints, an optimal discrete log-concave extreme point is piecewise geometric with at most m pieces. The IFR conclusion has a different survival-sequence parametrization and up to m geometric pieces.。
 - 适用范围。The reverse-convex theorem needs its compact feasible formulation, affine rank and stated shape constraints. It gives a finite structural reduction, not a generic SOS or general moment-cone theorem.。
 - 相关技能。[math-b03-generalized-moments](../../../math-b03-generalized-moments/SKILL.md)。
+- 已采用构件。有限概率向量的对数凹、几何分段和 IFR 精确检验。[使用说明](../../../math-b03-generalized-moments/references/discrete-shape-exact-guide.md)
 
 ## The Effective Countable Generalized Moment Problem
 

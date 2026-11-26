@@ -31,3 +31,7 @@ Keep classical martingale OST separate from demimartingale inequalities, which r
 - For weak-limit martingale problems with controls or fixed jumps, carry the control laws, canonical test versions, determining class, uniform integrability, dense-time identities, and path-control assumptions through the limit step; J1 weak convergence alone does not identify a martingale problem.
 
 Read [method.md](references/method.md) for proof routes and assumption audits, [sources.md](references/sources.md) for evidence and source status, and the positive/negative examples for tested use patterns. The strict W02 v2 candidate has 29 retained scholarly sources plus one approved Aldous canonical use (30 candidates); the full course-notes read remains background and excluded. The combined candidate is pending independent scope review. Finite enumeration is computational evidence only, not a proof of an infinite-time theorem.
+
+## 有限 e-process 的逆矩和 II 类错误
+
+对于独立且确定调度的二元乘子，用[有限逆矩审计](references/finite_inverse_moment_type_ii.md)核验条件 e-variable 约束、固定时域和时域内首次跨界的 II 类错误。

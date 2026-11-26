@@ -16,6 +16,13 @@ SKILLS = Path(__file__).resolve().parents[2]
 SHA = re.compile(r"(?<![a-f0-9])[a-f0-9]{64}(?![a-f0-9])", re.IGNORECASE)
 HEADING = re.compile(r"^#{2,3} (.+)$")
 TITLE_LINK = re.compile(r"^\[([^\]]+)\]\(")
+HISTORICAL_CLASSES = {
+    "引用核对": "citation",
+    "已有技能": "existing",
+    "构件候选": "candidate",
+    "邻近材料": "adjacent",
+    "待核": "hold",
+}
 COLLECTIONS = {
     "historical": ("math-research/references/historical-sources/**/*.md", "- 原件"),
     "supplemental": ("math-research/references/supplemental-sources/*.md", "- 原件"),
@@ -35,6 +42,8 @@ class Occurrence:
     line: int
     collection: str
     evidence: str
+    classification: str | None = None
+    adoption_recorded: bool = False
 
 
 def normalize(value: str) -> str:
@@ -69,8 +78,16 @@ def section_occurrences(path: Path, lines: list[str], collection: str, identity_
         body = lines[index + 1:end]
         for line in body:
             if line.startswith(identity_prefix) and (digest := SHA.search(line)):
+                classification = None
+                adopted = False
+                if collection == "historical":
+                    for entry in body:
+                        if entry.startswith("- "):
+                            label = entry[2:].partition("。")[0]
+                            classification = classification or HISTORICAL_CLASSES.get(label)
+                            adopted |= label == "已采用构件"
                 yield Occurrence(digest[0].lower(), title, path, index+1, collection,
-                                 "\n".join([title, *body]).strip())
+                                 "\n".join([title, *body]).strip(), classification, adopted)
                 break
 
 
@@ -85,10 +102,16 @@ def source_occurrences(selected: list[str]):
                 yield from section_occurrences(path, lines, collection, prefix)
 
 
-def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | None):
+def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | None,
+           classification: str | None = None):
     matches: dict[str, list[Occurrence]] = defaultdict(list)
     skill_marker = re.compile(rf"(?<![a-z0-9-]){re.escape(skill)}(?![a-z0-9-])") if skill else None
     for item in source_occurrences(selected):
+        if classification == "adopted":
+            if not item.adoption_recorded:
+                continue
+        elif classification and classification != item.classification:
+            continue
         if sha_prefix and not item.sha256.startswith(sha_prefix):
             continue
         if skill_marker and not skill_marker.search(item.evidence):
@@ -108,6 +131,8 @@ def main() -> None:
     parser.add_argument("--text", default="", help="words to match in titles and source evidence")
     parser.add_argument("--skill", help="exact skill slug named by the recorded evidence")
     parser.add_argument("--collection", action="append", choices=sorted(COLLECTIONS))
+    parser.add_argument("--status", choices=[*HISTORICAL_CLASSES.values(), "adopted"],
+                        help="filter explicit historical card classifications or recorded adoptions")
     parser.add_argument("--limit", type=int, default=20, help="maximum distinct original identities printed")
     args = parser.parse_args()
     terms = normalize(args.text).split()
@@ -115,13 +140,18 @@ def main() -> None:
         parser.error("--sha requires at least 8 and at most 64 hex digits")
     if args.limit < 1:
         parser.error("--limit must be positive")
-    if not any((args.sha, terms, args.skill, args.collection)):
-        parser.error("provide --sha, --text, --skill, or --collection")
-    matches = search(list(dict.fromkeys(args.collection or COLLECTIONS)), args.sha.lower(), terms, args.skill)
+    if not any((args.sha, terms, args.skill, args.collection, args.status)):
+        parser.error("provide --sha, --text, --skill, --collection, or --status")
+    if args.status and args.collection and "historical" not in args.collection:
+        parser.error("--status requires the historical collection")
+    matches = search(list(dict.fromkeys(args.collection or COLLECTIONS)), args.sha.lower(),
+                     terms, args.skill, args.status)
     ordered = sorted(matches.items(), key=lambda pair: (normalize(pair[1][0].title), pair[0]))
     records = [
         {"sha256": digest, "locations": [
-            {"title": item.title, "collection": item.collection, "path": str(item.path), "line": item.line}
+            {"title": item.title, "collection": item.collection, "path": str(item.path), "line": item.line,
+             **({"classification": item.classification, "adoption_recorded": item.adoption_recorded}
+                if item.classification else {})}
             for item in items
         ]}
         for digest, items in ordered[:args.limit]
