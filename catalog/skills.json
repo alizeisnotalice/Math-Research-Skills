@@ -23,7 +23,7 @@
       "key": "transcendence-diophantine-g-functions",
       "label": "超越性、丢番图逼近与 G/Mahler 函数",
       "route": "代数独立、有效逼近、Mahler/G-函数或指数丢番图问题。",
-      "count": 21
+      "count": 22
     },
     {
       "key": "analytic-number-theory-special-functions",
@@ -35,7 +35,7 @@
       "key": "differential-difference-dynamics",
       "label": "微分差分方程、递推与动力系统",
       "route": "有限递推、差分 Galois、可积系统、正交多项式或周期轨道。",
-      "count": 7
+      "count": 8
     },
     {
       "key": "analysis-geometry-pde",
@@ -53,13 +53,13 @@
       "key": "algebra-representation-operator-cohomology",
       "label": "代数、表示论、算子代数与上同调",
       "route": "有限代数、群与表示、算子代数、链复形或转移证书。",
-      "count": 10
+      "count": 11
     },
     {
       "key": "discrete-combinatorics-games",
       "label": "图论、组合、离散几何与博弈",
       "route": "有限图、计数、permanent、半群、概率组合或有限博弈证书。",
-      "count": 21
+      "count": 22
     },
     {
       "key": "complexity-tensor-transfer",
@@ -72,7 +72,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 116,
+    "research-specialists": 120,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -774,6 +774,15 @@
       "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
     },
     {
+      "name": "math-finite-graph-family-witnesses",
+      "title": "Finite graph-family witnesses",
+      "description": "Reproduce exact finite graph-family witnesses for triameter/peripherality and decorated-tree independence-polynomial sign separation.",
+      "category": "research-specialists",
+      "path": "skills/math-finite-graph-family-witnesses/SKILL.md",
+      "specialty": "discrete-combinatorics-games",
+      "specialty_label": "图论、组合、离散几何与博弈"
+    },
+    {
       "name": "math-finite-nonassociative-algebra-audits",
       "title": "小型非结合代数的恒等式证书",
       "description": "核验指定有理轴代数乘法表、消去后的线性泛函，或素域上的仿射 medial rack 恒等式和见证。",
@@ -799,6 +808,15 @@
       "path": "skills/math-four-square-witness-certificates/SKILL.md",
       "specialty": "transcendence-diophantine-g-functions",
       "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
+    },
+    {
+      "name": "math-free-group-presentation-traces",
+      "title": "Finite Andrews--Curtis presentation traces",
+      "description": "Verify a finite Andrews--Curtis trace on an ordered free-group presentation using exact free reduction and reversible move semantics; not a search engine or a decision procedure.",
+      "category": "research-specialists",
+      "path": "skills/math-free-group-presentation-traces/SKILL.md",
+      "specialty": "algebra-representation-operator-cohomology",
+      "specialty_label": "代数、表示论、算子代数与上同调"
     },
     {
       "name": "math-function-field-period-transcendence",
@@ -1875,6 +1893,24 @@
       "path": "skills/math-quantum-permanent-score/SKILL.md",
       "specialty": "discrete-combinatorics-games",
       "specialty_label": "图论、组合、离散几何与博弈"
+    },
+    {
+      "name": "math-rational-logarithm-independence-gate",
+      "title": "Positive-rational power-relation gate",
+      "description": "Exactly test whether positive rational inputs have a nontrivial multiplicative power relation, before applying logarithmic-ratio or linear-form results. It does not prove an irrationality exponent or a lower bound.",
+      "category": "research-specialists",
+      "path": "skills/math-rational-logarithm-independence-gate/SKILL.md",
+      "specialty": "transcendence-diophantine-g-functions",
+      "specialty_label": "超越性、丢番图逼近与 G/Mahler 函数"
+    },
+    {
+      "name": "math-recurrence-finite-screening",
+      "title": "Exact finite recurrence screening",
+      "description": "Exact bounded residual checks for k-Pell multiplicative dependence, decimal k-Lucas concatenations, and unit-constant two-sided recurrences. Never promotes a finite box to a global recurrence theorem.",
+      "category": "research-specialists",
+      "path": "skills/math-recurrence-finite-screening/SKILL.md",
+      "specialty": "differential-difference-dynamics",
+      "specialty_label": "微分差分方程、递推与动力系统"
     },
     {
       "name": "math-rees-zero-complete-mappings",

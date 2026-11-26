@@ -34,6 +34,8 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | 标准化单峰分布的尖锐尾界 | 用 [单峰尾界证书](../probability-unimodal-tail-certificates/SKILL.md) 检查事件方向、阈值和取等构造。 |
 | 符号求导、恒等式、参数求解、高精度 | `mathematica-math` 或 `python-math` 的已验证符号环境。声明定义域、分支与精确输入。 |
 | 给定整数核方向的可分离凸整数优化 | 用 [Graver 增广](../math-l04-mathematical-programming-workflow/references/graver-augmentation.md) 查可行增广及方向表的最优性条件。 |
+| 正有理数的乘法独立、显式整数递推的有限剩余区间 | 运行[素赋值矩阵秩核验](../math-rational-logarithm-independence-gate/SKILL.md)或[有限递推核验](../math-recurrence-finite-screening/SKILL.md)。 |
+| 给定小图的三直径或装饰树独立多项式、自由群表示的给定变换轨迹 | 运行[有限图族见证](../math-finite-graph-family-witnesses/SKILL.md)或[自由群表示轨迹回放](../math-free-group-presentation-traces/SKILL.md)。 |
 | 数值线性代数、ODE、优化、MAT 数据 | 按工具箱、已有代码和精度在当前 MATLAB MCP、MATLAB CLI 或 Python 数值栈之间选择。MATLAB 执行细节见 [MATLAB 工具说明](../math-research/references/tools.md#matlab)。 |
 | MATLAB 绘图和 FIG | `matlab-plotting`。保存可复现源码及实际导出文件。 |
 | 已成为瓶颈的批量数组、矩阵或 FFT | 使用 `local-hybrid-math` 实测 CPU 和可用 GPU 的端到端性能，在满足精度与内存预算的后端中选择。 |

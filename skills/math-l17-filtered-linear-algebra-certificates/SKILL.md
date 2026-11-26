@@ -117,4 +117,6 @@ python3 scripts/check_finite_instances.py
 
 ## 文献复核采用的构件
 
+- [Finite modular nonzero witness for an integer LRS](references/modular-lrs-nonzero-witness-skolem.md)
+
 - [Exact Krylov certificate for switched main eigenvalues](references/recent-04-switching-krylov.md)

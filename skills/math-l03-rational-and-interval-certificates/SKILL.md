@@ -95,6 +95,8 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 
 ## 文献复核采用的构件
 
+- [Pandigital package bounded replay](references/ext-0372-pandigital-replay.md)
+
 - [Rational step certificate for a compact variational functional](references/dirichlet-step-variational-certificate.md)
 - [Rogers--Ramanujan algebraic root branch](references/ext0280-icosahedral-root-branch.md)
 

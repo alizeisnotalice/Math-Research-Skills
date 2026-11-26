@@ -18,5 +18,7 @@ description: 根据指定的 ζ 函数采样、平滑核和参数区间接入等
 
 ## 文献复核采用的构件
 
+- [Fixed-band Mellin--Plancherel transfer](references/van-hemert-fixed-band-mellin-transfer.md)
+
 - [Hurwitz-zeta fourth moment under a strict irrationality-exponent premise](references/hurwitz-zeta-fourth-moment-ext0377.md)
 - [Conditional discrete mixed-universality admission](references/kacinskaite-matsumoto-discrete-universality-ext0153.md)

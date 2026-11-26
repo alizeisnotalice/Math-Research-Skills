@@ -1,0 +1,9 @@
+{
+  "start": ["x", "xy"],
+  "moves": [
+    {"op": "invert", "i": 1},
+    {"op": "right_multiply", "i": 1, "j": 0, "sign": 1},
+    {"op": "invert", "i": 1}
+  ],
+  "target": ["x", "y"]
+}

@@ -42,3 +42,7 @@ For a finite rational Hermitian sign series, read [the OpenAI matrix-sign audit]
 - [OpenAI wave-3 random-matrix interfaces](references/openai-wave3.md)
 
 - [Ordered Gaussian cascade derivative interface](references/openai-ordered-gaussian-cascade.md)
+
+## 文献复核采用的构件
+
+- [Anticommuting Gaussian series: verified scope](references/clifford-series-source.md)

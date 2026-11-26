@@ -37,6 +37,9 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 
 ## 文献复核采用的构件
 
+- [Hua–Bellman counterexample: verified scope](references/hua-counterexample-source.md)
+- [WYD p=2/3 boundary obstruction: verified scope](references/wyd-boundary-obstruction-source.md)
+
 - [Decomposable-curvature Schur-form source contract](references/sra-decomposable-schur-forms.md)
 - [Kubo--Mori scalar-curvature source contract](references/sra-kubo-mori-concavity.md)
 - [Tsallis S-divergence metric source contract](references/sra-tsallis-s-divergence.md)

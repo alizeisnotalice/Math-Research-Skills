@@ -1,6 +1,6 @@
 # 数学研究技能目录
 
-共 282 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
+共 286 个可调用入口。目录按职责分类，保留原技能名。标有兼容入口的技能转入对应主流程。
 
 ## 研究总入口
 
@@ -169,9 +169,11 @@
 | [math-fibonacci-valuation-reductions](../skills/math-fibonacci-valuation-reductions/SKILL.md) | 对给定 Fibonacci 指数的精确整除前提，检查 F_l 的精确幂整除并应用三分支的指数约化；不宣称解完原始指数丢番图方程。 |
 | [math-finite-cyclic-difference-pv](../skills/math-finite-cyclic-difference-pv/SKILL.md) | Certify the finite cyclic Picard–Vessiot-ring construction for a caller-supplied finite-order diagonal representation; do not use it to solve general inverse difference-Galois problems. |
 | [math-finite-field-formal-series-congruences](../skills/math-finite-field-formal-series-congruences/SKILL.md) | Verify finite coefficient windows for elementary formal-series fixed points over a prime field, with explicit truncation boundaries. |
+| [math-finite-graph-family-witnesses](../skills/math-finite-graph-family-witnesses/SKILL.md) | Reproduce exact finite graph-family witnesses for triameter/peripherality and decorated-tree independence-polynomial sign separation. |
 | [math-finite-nonassociative-algebra-audits](../skills/math-finite-nonassociative-algebra-audits/SKILL.md) | 核验指定有理轴代数乘法表、消去后的线性泛函，或素域上的仿射 medial rack 恒等式和见证。 |
 | [math-finite-permutation-terrace-certificates](../skills/math-finite-permutation-terrace-certificates/SKILL.md) | Verify a supplied ordering of all even permutations as a finite basic-terrace certificate; includes a reader for the public packed A7 witness format. |
 | [math-four-square-witness-certificates](../skills/math-four-square-witness-certificates/SKILL.md) | Produce or verify an exact finite four-square witness while explicitly separating that certificate from the incomplete descent in the source note. |
+| [math-free-group-presentation-traces](../skills/math-free-group-presentation-traces/SKILL.md) | Verify a finite Andrews--Curtis trace on an ordered free-group presentation using exact free reduction and reversible move semantics; not a search engine or a decision procedure. |
 | [math-function-field-period-transcendence](../skills/math-function-field-period-transcendence/SKILL.md) | 在已给定的正特征 Drinfeld 模、t-motive 与解析平凡化数据下，定位周期、准周期、第三类周期和 Carlitz 张量周期的条件性超越/代数独立接口。 |
 | [math-g-function-restricted-approximation](../skills/math-g-function-restricted-approximation/SKILL.md) | 对已认证为有理系数非有理 G-函数的有理值，调用有效的固定基底分母逼近下界；也用于限制其 b 进制展开中的长重复数字块。 |
 | [math-gamma-continued-fraction-recurrence](../skills/math-gamma-continued-fraction-recurrence/SKILL.md) | 用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。 |
@@ -227,6 +229,8 @@
 | [math-projective-induction-cocycle-certificates](../skills/math-projective-induction-cocycle-certificates/SKILL.md) | 用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。 |
 | [math-q-series-rational-approximants](../skills/math-q-series-rational-approximants/SKILL.md) | 对给定有理 q 和 z 生成 Tschakaloff 递推的精确多项式系数，核验有限整数化缩放及余项分离。 |
 | [math-quantum-permanent-score](../skills/math-quantum-permanent-score/SKILL.md) | Check finite partition-score lower bounds from a supplied nonnegative orbital coefficient profile. |
+| [math-rational-logarithm-independence-gate](../skills/math-rational-logarithm-independence-gate/SKILL.md) | Exactly test whether positive rational inputs have a nontrivial multiplicative power relation, before applying logarithmic-ratio or linear-form results. It does not prove an irrationality exponent or a lower bound. |
+| [math-recurrence-finite-screening](../skills/math-recurrence-finite-screening/SKILL.md) | Exact bounded residual checks for k-Pell multiplicative dependence, decimal k-Lucas concatenations, and unit-constant two-sided recurrences. Never promotes a finite box to a global recurrence theorem. |
 | [math-rees-zero-complete-mappings](../skills/math-rees-zero-complete-mappings/SKILL.md) | Verify the explicit even-index complete mapping of a finite Rees 0-matrix semigroup over Z/2Z with identity diagonal. |
 | [math-regular-graph-low-induced-edge-count](../skills/math-regular-graph-low-induced-edge-count/SKILL.md) | Exhaustively count finite vertex subsets whose induced subgraph has at most a given number of edges, while checking regularity. |
 | [math-selberg-riesz-criteria](../skills/math-selberg-riesz-criteria/SKILL.md) | 对给定 Selberg 类 L-函数数据和经认证的系数渐近，调用 Riesz 型 Meijer-G 判据的 GRH 蕴含或反向判据。 |

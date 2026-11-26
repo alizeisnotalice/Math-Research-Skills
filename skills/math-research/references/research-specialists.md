@@ -34,6 +34,7 @@
 - [math-exponential-order-reduction](../../math-exponential-order-reduction/SKILL.md) · Compute and verify the finite extended-order reduction used for pairwise-coprime equations a^x+b^y=c^z before any logarithmic or gap-principle argument.
 - [math-four-square-witness-certificates](../../math-four-square-witness-certificates/SKILL.md) · Produce or verify an exact finite four-square witness while explicitly separating that certificate from the incomplete descent in the source note.
 - [math-exponential-logarithm-algebraic-independence](../../math-exponential-logarithm-algebraic-independence/SKILL.md) · 核对 Mahler 1931/32 指数与对数代数独立性及多项式非消失下界的精确适用条件。
+- [math-rational-logarithm-independence-gate](../../math-rational-logarithm-independence-gate/SKILL.md) · Exactly test whether positive rational inputs have a nontrivial multiplicative power relation, before applying logarithmic-ratio or linear-form results. It does not prove an irrationality exponent or a lower bound.
 - [math-algebraic-group-logarithm-distance](../../math-algebraic-group-logarithm-distance/SKILL.md) · 对给定代数点的对数与代数 Lie 子空间，按交换代数群或仿射代数群模型核对距离下界的各自前提。
 - [math-baker-runge-height-gates](../../math-baker-runge-height-gates/SKILL.md) · 在已给出射影模型、除子和 S-整模型时，核对 Baker--Runge 型积分点高度界的交叠条件与例外集；不计算未给出的有效常数。
 - [math-elliptic-quasielliptic-function-independence](../../math-elliptic-quasielliptic-function-independence/SKILL.md) · 对已给定椭圆格、指数参数和 Serre 函数参数，依据经认证的线性无关条件调用函数层面的代数独立性；不从数值特殊值或“几乎处处”结论推断特定点独立性。
@@ -87,6 +88,7 @@
 - [math-differential-operator-minimization](../../math-differential-operator-minimization/SKILL.md) · Minimize a supplied rational-coefficient differential operator for a specified formal solution, after certifying the Ore factor, degree-bound and initial-series subroutines.
 - [math-linear-difference-hypertranscendence](../../math-linear-difference-hypertranscendence/SKILL.md) · 对移位、q-差分或 Mahler 线性差分方程，在已给定的函数域与系数域中应用有理函数或超越函数二分，并核验参数化差分 Galois 前提。
 - [math-hofstadter-nested-recurrences](../../math-hofstadter-nested-recurrences/SKILL.md) · 用精确整数递推计算广义 Hofstadter 函数 F_k 的有限前缀，并核对已给出的点态比较。
+- [math-recurrence-finite-screening](../../math-recurrence-finite-screening/SKILL.md) · Exact bounded residual checks for k-Pell multiplicative dependence, decimal k-Lucas concatenations, and unit-constant two-sided recurrences. Never promotes a finite box to a global recurrence theorem.
 - [math-lienard-half-arc-matching](../../math-lienard-half-arc-matching/SKILL.md) · 将已验证的 Lienard 半平面弧坐标匹配转化为周期轨道与孤立零点问题；不用于未经认证的数值积分或周期数上界。
 
 <a id="analysis-geometry-pde"></a>
@@ -140,6 +142,7 @@
 - [math-algebraic-transfer-certificates](../../math-algebraic-transfer-certificates/SKILL.md) · 核对已给定的余留映射、整系数转移、链提升、格拼接或有限对称张量资料。适用于 Gersten 与 Milnor 障碍、升 HNN 扩张的同调输入和纤维函子条件。
 - [math-cohomological-transfer](../../math-cohomological-transfer/SKILL.md) · 核验链复形权截断、Mayer–Vietoris 条件、图状神经上链延拓以及已给代数或谱数据上的局部化与张量消失。
 - [math-f2-group-ring-cancellation](../../math-f2-group-ring-cancellation/SKILL.md) · Verify a finite characteristic-two group-ring cancellation certificate from two labelled components and a supplied exact group-label product oracle; it does not establish torsion-freeness or nonzero factors.
+- [math-free-group-presentation-traces](../../math-free-group-presentation-traces/SKILL.md) · Verify a finite Andrews--Curtis trace on an ordered free-group presentation using exact free reduction and reversible move semantics; not a search engine or a decision procedure.
 - [math-operator-algebra-certificates](../../math-operator-algebra-certificates/SKILL.md) · 核验算子代数中的幺正压缩修复、平移卷积核、谱相位迹、自伴谱编码及 C* 截断转运。按已给投影、严格谱隙、迹或比较见证选择。
 - [math-projective-induction-cocycle-certificates](../../math-projective-induction-cocycle-certificates/SKILL.md) · 用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。
 
@@ -166,6 +169,7 @@
 - [math-cycle-type-likelihood-bounds](../../math-cycle-type-likelihood-bounds/SKILL.md) · Compare two supplied finite cycle-type laws under an explicit iid observation model, with Hellinger affinity and Bayes-error bounds.
 - [math-bimatrix-kite-mixing](../../math-bimatrix-kite-mixing/SKILL.md) · 核验双矩阵博弈的后悔值、s-kite 条件与精确最佳回应混合。适用于已有候选策略的局部改进与有限证书，不把尚未独立复核的全局近似 Nash 声明当作可用定理。
 - [math-edge-deck-reconstruction-audit](../../math-edge-deck-reconstruction-audit/SKILL.md) · 审计有限简单图的无标号单边删除卡组，精确比较候选反例并核对边重构定理的图类和密度门槛。适用于小图枚举、边卡组断言和来源结论的适用范围检查。
+- [math-finite-graph-family-witnesses](../../math-finite-graph-family-witnesses/SKILL.md) · Reproduce exact finite graph-family witnesses for triameter/peripherality and decorated-tree independence-polynomial sign separation.
 - [math-honeycomb-finite-boundary-flux](../../math-honeycomb-finite-boundary-flux/SKILL.md) · 在有限、单连通蜂窝三角形域中认证零环权重的带相位边界通量恒等式及凸域正性界；不用于条带渐近、桥质量或一般自避游走。
 - [math-clique-free-random-multiplier](../../math-clique-free-random-multiplier/SKILL.md) · Construct and exactly check the finite-support random multiplier from the clique-free neighborhood recursion for a supplied finite weighted K_r-free graph.
 - [math-grid-piecewise-translation-embedding](../../math-grid-piecewise-translation-embedding/SKILL.md) · Certify a finite cellwise translation embedding between two strict-size subsets of a specified square cell grid. Use after a geometric argument has supplied an allowable common grid; it does not polygonize sets or prove a general equidecomposition theorem.
