@@ -41,4 +41,7 @@ HS、Schatten_(2d+1)、平方函数与径向最大值为不同对象；源常数
 
 ## OpenAI 原稿中的方法
 
+- [Four-row permanent tensor interface](references/openai-four-row-permanent.md)
+- [Coordinate-sweep finite interfaces](references/openai-sweep-representation-interfaces.md)
+
 - [Safe Hilbert--Schmidt power bound for a nonnormal sweep](references/openai-nonnormal-sweep-power.md)

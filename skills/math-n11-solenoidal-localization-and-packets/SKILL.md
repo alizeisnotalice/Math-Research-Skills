@@ -34,3 +34,9 @@ description: 将局部轴对称不可压缩模型嵌入受迫 Navier--Stokes 场
 - 仍须独立完成散度校正、压强耦合、截断交换项、误差范数以及母流全时间区间的光滑性检查。不能从这一输运恒等式推出有限时间爆破、BKM 发散或任意解类的结论。
 
 两份来源均为官方 CDN 上的 OpenAI 预印本。本技能提供已定位的局部恒等式和模型迁移范围，引用整体结论时使用原稿的方程、假设和表述。
+
+## OpenAI 原稿中的方法
+
+- [Positive diagonal compensation path](references/openai-positive-diagonal-compensation.md)
+- [Reciprocal sheet pulses](references/openai-reciprocal-sheet-pulses.md)
+- [Scale-separated curl packet sum](references/openai-scale-separated-curl-sum.md)

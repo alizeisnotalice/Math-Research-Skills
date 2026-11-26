@@ -36,3 +36,7 @@ Use [mapping.json](mapping.json) to route C107/C108 and [reading_coverage.json](
 - Numerical MATLAB/Python artifacts are finite algebra/count consistency evidence only. They do not prove asymptotics, strict gaps, tightness, or convergence.
 
 For concrete positive, conditional, and missing-interface patterns, see [examples/positive.md](examples/positive.md), [examples/conditional.md](examples/conditional.md), and [examples/missing-interface.md](examples/missing-interface.md).
+
+## OpenAI 原稿中的方法
+
+- [OpenAI SLE gauge ledgers](references/openai-sle-gauge-ledgers.md)

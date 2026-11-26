@@ -69,3 +69,7 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 ## 有理多项式区间定号
 
 给定精确有理多项式和有理分割时，使用[区间定号证书](references/rational-polynomial-sign.md)。外端点可开闭，所有内部结点都按包含处理。
+
+## OpenAI 原稿中的方法
+
+- [Strict-witness bracketing](references/openai-semidecidable-bracketing.md)

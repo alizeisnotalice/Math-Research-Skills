@@ -46,3 +46,7 @@ python3 scripts/replay_truncation.py --dimension 7
 ## 证据范围
 
 三个主结论来自尚待 scholarly review 的本机预印本；本技能固定其版本和页码，但不把它们升级为独立认证结论。实际实现时报告所走路由、模型承诺、矩阵维度、精确域、命中/未命中及哪些源稿定理被条件性采用。固定来源、可复用命题及不适用边界见 [来源与界限](references/sources.md)。
+
+## OpenAI 原稿中的方法
+
+- [Reciprocal-kernel finite CND certificate](references/openai-reciprocal-kernel-cnd.md)

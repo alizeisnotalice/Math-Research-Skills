@@ -1,0 +1,5 @@
+{
+  "script": "scripts/apery_supercongruence.py",
+  "arguments": ["--a", "2", "--b", "1", "--p", "5", "--m", "1", "--r", "1"],
+  "claim_checked": "one exact finite instance of C(mp^r,2,B)=C(mp^(r-1),2,B) mod p^(2r)"
+}

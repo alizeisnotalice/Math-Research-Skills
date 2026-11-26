@@ -108,3 +108,7 @@ The 2026-11-16 reader snapshot binds 31/31 distinct works in the existing measur
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
 
 已给出联合耦合且两边方差为正时，用[标准化的二阶扰动证书](references/standardization-perturbation.md)核对精确耦合距离。要转移弱极限，另查扰动与基准标准差的比值趋于零。
+
+## OpenAI 原稿中的方法
+
+- [Critical-SK conditional-law references](references/openai-critical-sk-conditioning.md)

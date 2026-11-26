@@ -34,4 +34,8 @@ python3 scripts/ag_divisor_intersection_ledger.py examples/negative_form_mismatc
 
 ## OpenAI 原稿中的方法
 
+- [Anticanonical ratio-field and invariant-transfer family](references/anticanonical-transfer-family.md)
+- [Common-resolution negativity transfer](references/common-resolution-negativity-transfer.md)
+- [Nef lines, monomial orders, and birational descent](references/nef-threshold-and-descent.md)
+
 - [Crepant principal-relation transfer](references/crepant-principal-relation-transfer.md)

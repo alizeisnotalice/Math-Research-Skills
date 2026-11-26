@@ -32,4 +32,8 @@ For finite data in the progression-compatible intersective normalization, use `s
 
 ## OpenAI 原稿中的方法
 
+- [Collision-history partition and rooted-forest stopping](references/openai-collision-history-forest-stopping.md)
+- [Contact components and Boolean inversion](references/openai-contact-component-boolean-inversion.md)
+- [Periodic hitting sets from finite routing tables](references/openai-direct-wave-3.md)
+
 - [Four-slope integer reconstruction and quadratic cancellation](references/openai-direct-wave-2.md)

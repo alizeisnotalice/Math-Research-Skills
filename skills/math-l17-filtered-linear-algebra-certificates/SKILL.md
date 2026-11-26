@@ -86,4 +86,9 @@ python3 scripts/check_finite_instances.py
 
 ## OpenAI 原稿中的方法
 
+- [Commuting-unipotent coinvariants](references/commuting-unipotent-coinvariants.md)
+- [Compatible vector-field jets and finite-presentation exit](references/free-tangent-jet-algebraization.md)
+- [Jet matrices and ordered-chain bookkeeping](references/openai-jet-and-chain-interfaces.md)
+- [Weighted stable backward recurrence](references/openai-weighted-stable-recurrence.md)
+
 - [Projective point--hyperplane Gram certificate](references/openai-direct-wave-2.md)

@@ -15,3 +15,7 @@ Use this only for the exact finite honeycomb setting in [proof and scope](refere
 For an explicitly supplied triangular complex, use [the exact checker](scripts/check_honeycomb_boundary_flux.py). It enumerates its finite branch tree in \(\mathbb Q[z]/(z^8+1)\), checks the disk and port conditions, and reports separate exit and collision fluxes. [The six-triangle example](examples/hexagon-six-triangles.json) has exit flux \((1,0,\ldots,0)\) and zero collision flux. This computation certifies that finite input only.
 
 The source is a preprint. This skill rederives the finite cancellation only; it does not certify its paper’s strip-mass theorem or the mutually dependent Family 237 transfer chain.
+
+## OpenAI 原稿中的方法
+
+- [Scoped honeycomb chord interfaces](references/openai-held-chord-interfaces.md)

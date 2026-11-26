@@ -17,4 +17,12 @@ description: 核对给定几何模型的高度方程、标量曲率归一化、N
 
 ## OpenAI 原稿中的方法
 
+- [Augmented elasticity transport recursion](references/openai-augmented-elasticity-transport.md)
+- [OpenAI geometry wave 3b: source-bound analytic interfaces](references/openai-geometry-wave-3b.md)
+- [Harmonic-frame raising/lowering form](references/openai-harmonic-frame-raising-lowering.md)
+- [Infinity-harmonic linear lift](references/openai-infinity-harmonic-linear-lift.md)
+- [Localized virial interval pairs](references/openai-localized-virial-interval-pairs.md)
+- [Product-Hessian extension test](references/openai-product-hessian-extension.md)
+- [Retarded-characteristic Jacobian](references/openai-retarded-characteristic-jacobian.md)
+
 - [OpenAI geometry wave 2: scoped analytic transfers](references/openai-geometry-wave-2.md)

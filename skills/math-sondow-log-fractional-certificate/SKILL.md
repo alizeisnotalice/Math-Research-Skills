@@ -32,3 +32,7 @@ description: 从 Sondow 的双积分与对数线性形式构造可严格计算�
 给定 `0≤m≤n`，用 [Legendre–Padé 分数部分证书](references/prevost-legendre-fractional-gate.md) 计算 `d_n(-1)^mL_{n,m}` 及有限分母排除。
 
 参见[广义 q-对数的无理性定理](references/generalized-q-log-irrationality.md)。
+
+## 补充来源的方法
+
+- [Prévost 的二进 Legendre–Padé 有理逼近](references/prevost-pade-rational-interval.md)

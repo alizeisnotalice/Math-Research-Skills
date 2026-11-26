@@ -52,4 +52,6 @@ PSD和归一化不自动推出rank-one；丢弃秩约束通常只给界。变量
 
 ## OpenAI 原稿中的方法
 
+- [Coulomb Gram and IMS finite-mode contracts](references/openai-coulomb-gram-ims-2026.md)
+
 - [Kernel-gap second-order energy contract](references/openai-kernel-gap-perturbation-2026.md)

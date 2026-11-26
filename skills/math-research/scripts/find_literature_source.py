@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 import argparse
-from collections import defaultdict
+from collections import Counter, defaultdict
 from dataclasses import dataclass
 import hashlib
 import json
@@ -24,6 +24,18 @@ HISTORICAL_CLASSES = {
     "邻近材料": "adjacent",
     "待核": "hold",
 }
+OPENAI_CLASSES = {"adjacent", "archive", "candidate", "held", "installed", "pending",
+                  "scoped-reference", "version-only"}
+SUPPLEMENTAL_CLASSES = {
+    "已采用方法": "existing",
+    "已采用构件": "existing",
+    "已验收构件": "existing",
+    "既有方法覆盖": "existing",
+    "构件候选": "candidate",
+    "条件或证据待查": "hold",
+}
+ADOPTION_LABELS = {"已采用方法", "已采用构件", "已验收构件", "可调用工具"}
+STATUS_CHOICES = sorted(set(HISTORICAL_CLASSES.values()) | OPENAI_CLASSES | {"adopted"})
 COLLECTIONS = {
     "historical": ("math-research/references/historical-sources/**/*.md", "- 原件"),
     "supplemental": ("math-research/references/supplemental-sources/*.md", "- 原件"),
@@ -70,7 +82,9 @@ def table_occurrences(path: Path, lines: list[str], collection: str):
         linked = TITLE_LINK.match(title)
         if linked:
             title = linked[1]
-        yield Occurrence(digest[0].lower(), title, path, number, collection, line)
+        status = path.stem if collection == "openai" and path.stem in OPENAI_CLASSES else None
+        yield Occurrence(digest[0].lower(), title, path, number, collection, line,
+                         classification=status, adoption_recorded=status == "installed")
 
 
 def section_occurrences(path: Path, lines: list[str], collection: str, identity_prefix: str):
@@ -78,21 +92,24 @@ def section_occurrences(path: Path, lines: list[str], collection: str, identity_
     headings.append((len(lines), ""))
     for (index, title), (end, _) in zip(headings, headings[1:]):
         body = lines[index + 1:end]
-        for line in body:
-            if line.startswith(identity_prefix) and (digest := SHA.search(line)):
-                classification = None
-                adopted = False
-                rechecked = False
-                if collection == "historical":
-                    for entry in body:
-                        if entry.startswith("- "):
-                            label = entry[2:].partition("。")[0]
-                            classification = classification or HISTORICAL_CLASSES.get(label)
-                            adopted |= label == "已采用构件"
-                            rechecked |= label == "依赖复核"
-                yield Occurrence(digest[0].lower(), title, path, index+1, collection,
-                                 "\n".join([title, *body]).strip(), classification, adopted, rechecked)
-                break
+        identity = next((match for line in body if line.startswith(identity_prefix)
+                         and (match := SHA.search(line))), None)
+        if identity is None:
+            continue
+        labels = [entry[2:].partition("。")[0] for entry in body if entry.startswith("- ")]
+        adopted = any(label in ADOPTION_LABELS for label in labels)
+        classification = None
+        rechecked = collection == "historical" and "依赖复核" in labels
+        if collection == "historical":
+            classification = next((HISTORICAL_CLASSES[label] for label in labels
+                                   if label in HISTORICAL_CLASSES), None)
+        if collection == "supplemental":
+            classification = next((status for status in ("existing", "candidate", "hold")
+                                   if any(SUPPLEMENTAL_CLASSES.get(label) == status for label in labels)), None)
+        if collection == "gamma" and adopted:
+            classification = "existing"
+        yield Occurrence(identity[0].lower(), title, path, index + 1, collection,
+                         "\n".join([title, *body]).strip(), classification, adopted, rechecked)
 
 
 def source_occurrences(selected: list[str]):
@@ -106,19 +123,31 @@ def source_occurrences(selected: list[str]):
                 yield from section_occurrences(path, lines, collection, prefix)
 
 
-def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | None,
-           classification: str | None = None):
+def current_records(occurrences: list[Occurrence]) -> dict[tuple[str, str], Occurrence]:
+    current = {}
+    for item in occurrences:
+        key = item.sha256, item.collection
+        previous = current.get(key)
+        if previous is None or item.dependency_rechecked or (
+            not previous.dependency_rechecked
+            and (previous.classification is None or item.adoption_recorded)
+        ):
+            current[key] = item
+    return current
+
+
+def search_occurrences(occurrences: list[Occurrence], sha_prefix: str, terms: list[str],
+                       skill: str | None, classification: str | None = None):
     matches: dict[str, list[Occurrence]] = defaultdict(list)
     skill_marker = re.compile(rf"(?<![a-z0-9-]){re.escape(skill)}(?![a-z0-9-])") if skill else None
-    occurrences = list(source_occurrences(selected))
-    latest = {item.sha256: item for item in occurrences if item.dependency_rechecked}
-    adopted = {item.sha256 for item in occurrences if item.adoption_recorded}
+    latest = current_records(occurrences)
+    adopted = {(item.sha256, item.collection) for item in occurrences if item.adoption_recorded}
     for item in occurrences:
-        current = latest.get(item.sha256, item)
+        key = item.sha256, item.collection
         if classification == "adopted":
-            if item.sha256 not in adopted:
+            if key not in adopted:
                 continue
-        elif classification and classification != current.classification:
+        elif classification and classification != latest[key].classification:
             continue
         if sha_prefix and not item.sha256.startswith(sha_prefix):
             continue
@@ -134,6 +163,28 @@ def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | 
         items.sort(key=lambda item: not item.dependency_rechecked)
     return matches
 
+
+
+def search(selected: list[str], sha_prefix: str, terms: list[str], skill: str | None,
+           classification: str | None = None):
+    occurrences = list(source_occurrences(selected))
+    return search_occurrences(occurrences, sha_prefix, terms, skill, classification)
+
+
+def summarize(matches: dict[str, list[Occurrence]], occurrences: list[Occurrence]) -> dict[str, dict]:
+    matched_keys = {(digest, item.collection) for digest, items in matches.items() for item in items}
+    by_collection = defaultdict(Counter)
+    for key, item in current_records(occurrences).items():
+        if key in matched_keys:
+            by_collection[item.collection][item.classification or "unclassified"] += 1
+    adopted_keys = {(item.sha256, item.collection) for item in occurrences if item.adoption_recorded}
+    adopted = Counter(collection for _, collection in matched_keys & adopted_keys)
+    return {
+        collection: {"originals": counts.total(),
+                     "statuses": dict(sorted(counts.items())),
+                     "recorded_adoptions": adopted[collection]}
+        for collection, counts in sorted(by_collection.items())
+    }
 
 
 def find_archive_pdf(root: Path, sha256: str) -> str | None:
@@ -157,8 +208,10 @@ def main() -> None:
     parser.add_argument("--text", default="", help="words to match in titles and source evidence")
     parser.add_argument("--skill", help="exact skill slug named by the recorded evidence")
     parser.add_argument("--collection", action="append", choices=sorted(COLLECTIONS))
-    parser.add_argument("--status", choices=[*HISTORICAL_CLASSES.values(), "adopted"],
-                        help="filter current historical classifications or recorded adoptions")
+    parser.add_argument("--status", choices=STATUS_CHOICES,
+                        help="filter explicitly recorded classifications or adoptions")
+    parser.add_argument("--summary", action="store_true",
+                        help="count distinct matches and classified states per collection")
     parser.add_argument("--archive-root", type=Path, help="locate a local PDF by a full SHA-256 in this directory")
     parser.add_argument("--limit", type=int, default=20, help="maximum distinct original identities printed")
     args = parser.parse_args()
@@ -169,24 +222,27 @@ def main() -> None:
         parser.error("--archive-root requires a full --sha SHA-256")
     if args.limit < 1:
         parser.error("--limit must be positive")
-    if not any((args.sha, terms, args.skill, args.collection, args.status)):
-        parser.error("provide --sha, --text, --skill, --collection, or --status")
-    if args.status and args.collection and "historical" not in args.collection:
-        parser.error("--status requires the historical collection")
-    matches = search(list(dict.fromkeys(args.collection or COLLECTIONS)), args.sha.lower(),
-                     terms, args.skill, args.status)
-    ordered = sorted(matches.items(), key=lambda pair: (normalize(pair[1][0].title), pair[0]))
-    records = [
-        {"sha256": digest, "locations": [
-            {"title": item.title, "collection": item.collection, "path": str(item.path), "line": item.line,
-             **({"classification": item.classification, "adoption_recorded": item.adoption_recorded,
-                 "dependency_rechecked": item.dependency_rechecked}
-                if item.classification else {})}
-            for item in items
-        ]}
-        for digest, items in ordered[:args.limit]
-    ]
-    result = {"matched_originals": len(matches), "returned_originals": len(records), "records": records}
+    if not any((args.sha, terms, args.skill, args.collection, args.status, args.summary)):
+        parser.error("provide --sha, --text, --skill, --collection, --status, or --summary")
+    selected = list(dict.fromkeys(args.collection or COLLECTIONS))
+    occurrences = list(source_occurrences(selected))
+    matches = search_occurrences(occurrences, args.sha.lower(), terms, args.skill, args.status)
+    result = {"matched_originals": len(matches)}
+    if args.summary:
+        result["collections"] = summarize(matches, occurrences)
+    else:
+        ordered = sorted(matches.items(), key=lambda pair: (normalize(pair[1][0].title), pair[0]))
+        records = [
+            {"sha256": digest, "locations": [
+                {"title": item.title, "collection": item.collection, "path": str(item.path), "line": item.line,
+                 **({"classification": item.classification, "adoption_recorded": item.adoption_recorded,
+                     "dependency_rechecked": item.dependency_rechecked}
+                    if item.classification or item.adoption_recorded or item.dependency_rechecked else {})}
+                for item in items
+            ]}
+            for digest, items in ordered[:args.limit]
+        ]
+        result.update({"returned_originals": len(records), "records": records})
     if args.archive_root:
         try:
             result["verified_archive_pdf"] = find_archive_pdf(args.archive_root, args.sha.lower())

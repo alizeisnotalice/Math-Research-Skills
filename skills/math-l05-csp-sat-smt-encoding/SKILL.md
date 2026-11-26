@@ -58,4 +58,13 @@ description: 将有限数学条件编码为 CSP、SAT 或 SMT，核对量词、�
 
 ## OpenAI 原稿中的方法
 
+- [Finite-support recovery for Euclidean Ramsey configurations](references/openai-euclidean-ramsey-finite-support.md)
+- [Disjoint probability-tree covering](references/openai-kahn-kalai-tree-covering.md)
+- [Prime-order Ryser construction: finite concentration inputs](references/openai-ryser-cylinder-concentration.md)
+- [Bounded Maker-game certificate reconstruction](references/openai-snaky-certificate-reconstruction.md)
+- [Translational-tile period obstruction](references/openai-translational-tile-period-obstruction.md)
+
+- [Finite-product divisibility transfer](references/finite-product-divisibility-transfer.md)
+- [Fresh proper-clause interfaces](references/openai-proper-clause-interfaces.md)
+
 - [Bounded-occurrence counting polynomial](references/openai-bounded-occurrence-count-polynomial.md)

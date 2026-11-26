@@ -43,4 +43,6 @@ For a finite Ising interface encoded by a dual contour, or a finite tree factor 
 
 ## OpenAI 原稿中的方法
 
+- [OpenAI wave-3 finite percolation interfaces](references/openai-wave3.md)
+
 - [OpenAI direct source notes: finite planar spin and percolation identities](references/openai-200-226.md)

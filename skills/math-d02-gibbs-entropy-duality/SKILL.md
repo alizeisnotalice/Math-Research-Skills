@@ -45,4 +45,6 @@ description: 推导 Gibbs 变分与熵对偶，检查参考测度、归一化、
 
 ## OpenAI 原稿中的方法
 
+- [Finite conditional-entropy and fidelity components](references/openai-network-entropy-2026.md)
+
 - [Finite-mode Fock energy and Gibbs regularization](references/openai-fock-entropy-2026.md)

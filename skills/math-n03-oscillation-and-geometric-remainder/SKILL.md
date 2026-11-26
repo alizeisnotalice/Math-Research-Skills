@@ -41,4 +41,7 @@ Guo Th2.6完整printed渐近及低阶R、Th2.2精确主项和Lelechenko约束搜
 
 ## OpenAI 原稿中的方法
 
+- [Cubic Gauss sharp cutoff](references/cubic-gauss-sharp-cutoff.md)
+- [Coulomb dilation/contact comparison](references/openai-coulomb-dilation-contact-2026.md)
+
 - [Littlewood off-band correction](references/littlewood-offband-correction.md)

@@ -1,0 +1,10 @@
+{
+  "command": "python3 -B scripts/prevost_pade_rational_interval.py 7 0 --log-terms 64",
+  "source_condition": "n-m+1=8=2^3",
+  "expected": {
+    "n": 7,
+    "m": 0,
+    "dyadic_base": 8,
+    "dyadic_exponent": 3
+  }
+}

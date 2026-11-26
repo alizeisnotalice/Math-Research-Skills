@@ -15,5 +15,14 @@ description: 核验算子代数中的幺正压缩修复、平移卷积核、谱�
 
 ## OpenAI 原稿中的方法
 
+- [Finite compression and perturbation certificates from OpenAI operator-algebra sources](references/finite-compression-and-stability.md)
+- [Finite spectral block, character, and wedge interfaces](references/openai-finite-spectral-blocks-2026.md)
+- [Ordinary Lie lattice fiber](references/ordinary-lie-lattice-fiber.md)
+- [Projective covariance for a quantized loop-space operator](references/projective-virasoro-covariance.md)
+- [Rank expansion, determinant normalization, and finite paving certificates](references/rank-determinant-and-paving.md)
+- [Trace-cone alignment and approximate-intertwining reference](references/trace-cone-intertwining.md)
+- [Trace, rank, and finite partition interfaces from OpenAI operator-algebra sources](references/trace-rank-and-absorption.md)
+- [Finite positive Virasoro coefficient rule](references/virasoro-coefficient-rule.md)
+
 - [Finite Heisenberg matrix-unit sector](references/openai-direct-wave-2.md)
 - [Finite symmetry, Fock, CP, and loop-trace components](references/openai-finite-symmetry-fock-cp-2026.md)

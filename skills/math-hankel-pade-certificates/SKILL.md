@@ -49,3 +49,7 @@ python3 scripts/hankel_pade_certificate.py examples/ineligible-singular-hankel.j
 ## 齐次 Mahler 方程的单步间隙
 
 若前置论证已认证 Laurent 连分式的相邻分母次数，用[Mahler 间隙转移](references/badziahin-mahler-gap-transfer.md)做有理多项式约分，核对新间隙的端点和严格增长条件。
+
+## 补充来源的方法
+
+- [Finite rationality test for a Mahler function](references/mahler-function-transcendence-admission.md)

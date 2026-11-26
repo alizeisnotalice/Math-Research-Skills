@@ -15,6 +15,7 @@
 - Beukers 积分与计算机搜索。第 3--4 节的参数搜索与整除性讨论。以参数化超几何积分和递推搜索潜在无理性证明；候选常数仍需验证整数化因子和正指数。
 - 条件或证据待查。关键整除性引理及其整数化因子尚是待严格证明的计算性步骤。 只核对了搜索输出的条件性说明，未将计算猜想或 Maple 过程当作定理。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 本轮筛选。not-adopted。The Beukers-integral paper is a candidate-search framework; its useful divisibility lemma and normalization are left as computational/parameter-specific obligations, so no portable theorem-level primitive is available. 后续条件。Obtain an explicit selected parameter tuple, its creative-telescoping certificate, and a proof of the stated integer normalization and decay after normalization.
 
 ## EXT-0013 · Irrationality Measures, Irrationality Bases, and a Theorem of Jarnik
 
@@ -692,6 +693,8 @@
 - 原件。arXiv:1906.05589v1（首页核对）。PDF 物理页 1, 3, 4, 9, 10, 16, 18, 19, 20。SHA-256 b6094c50626e1cd420a09a9656f308a025383936997c7149d4f95be14312c722。
 - E-函数关系理想算法。摘要；§§4–7；Proposition 2；例子。给定由微分方程和足够 Taylor 数据表示的 E-函数，算法计算函数关系理想、指定有理点的值关系理想及例外点；实现路线是 Beukers 提升加 Gröbner 消元。
 - 构件候选。决定性输入为 Beukers 2006 精化 Siegel–Shidlovskii 提升；还需有效微分系统、relation ideal 和奇点处理。 算法的复杂度、实现及正式发表版本未核对；只适用于满足输入表示的 E-函数，不自动覆盖含 log 或 γ。
+- 本轮筛选。adopted_preprint_spot_checked。Read pp. 1-7. Theorem 4, its exact input/output, and its chain through differential-system relation computation, Beukers lifting, and Groebner elimination were checked. Excluded an implementation claim because the source says its differential-Galois component was not implemented.
+- 已采用方法。Preprint spot-check. Relation-ideal algorithm has a differential-system relation computation, Beukers lifting, and Groebner-elimination dependency chain. Admission guard only, explicitly not a runnable E-function decision procedure and not an Euler-gamma result. [方法说明](../../../math-openai-arithmetic-determinants/references/differential-operator-admission.md)。
 
 ## EXT-0143 · The irrationality measure of arctan 1/2 is at most 8.585166
 
@@ -734,6 +737,7 @@
 - 原件。arXiv:math/0206176v2（首页核对）。PDF 物理页 1, 2, 3, 9。SHA-256 c0f6ef1973e580ce6e3d9176f89798d7c8dd52fcf6354d4f6eddbdc940499e0a。
 - 超几何 ζ 线性形式。摘要；§1；Proposition 1。给出含奇 ζ 值的超几何线性形式通法，连接 Apéry、Rhin–Viola、Rivoal 的整性、积分表示及渐近分析。
 - 构件候选。核心为 well-poised 超几何/Meijer G 变换和 Nesterenko 型积分恒等式；具体无理度界还需逐个参数的分母与鞍点审计。 是广泛综述式构造，尚未拆成可执行参数模块；正式版/后续最佳常数未核对。
+- 本轮筛选。not-adopted。The odd-zeta hypergeometric framework is broad but no single parameter family, denominator proof, or saddle-point rate was selected; adding it would be a non-executable survey overlay. 后续条件。Fix a named well-poised specialization and separately audit its Meijer-G/integral identity, LCM inclusion, and asymptotic rate.
 
 ## EXT-0152 · The Distribution of Weighted Sums of the Liouville Function and Pólya's Conjecture
 
@@ -1093,6 +1097,8 @@
 - wide-sense E/G-functions and differential operators。Résumé; Théorème 2。给出广义 G-函数极小算子的局部解基与正则奇点/有理指数结构，并据 Fourier–Laplace 传递到 E-算子。
 - 版本与引用。依赖广义 G-函数算术条件及 André–Chudnovsky–Katz 型结构论；没有针对 γ 的取值或余项结论。 未核验全部局部化与 Fourier–Laplace 证明，不能以此确认某个 γ 构造满足 E-算子条件。
 - 相关入口。[math-euler-constant-irrationality](../../../math-euler-constant-irrationality/SKILL.md)。
+- 本轮筛选。adopted_preprint_spot_checked。Read pp. 1-5. Checked the wide G-function definition, Theorems 1-4, minimal-operator condition, and Galochkin recursion. Adopted only a structural admission boundary, not any claimed gamma application.
+- 已采用方法。Preprint spot-check. Minimal wide-G annihilator structural theorem is recorded only as an operator-admission boundary; no input operator is certified and no value theorem is adopted. [方法说明](../../../math-openai-arithmetic-determinants/references/differential-operator-admission.md)。
 
 ## EXT-0212 · The Siegel–Shidlovskii Method Revisited
 
@@ -1112,6 +1118,8 @@
 - differential determinant nonvanishing。Theorems 3.1–3.2; Corollary 4.1; Theorem 4.4。对满足明确次数不等式的 m 阶微分方程，从任意非零导数线性形式递推生成系数矩阵，并以次数主项证明所有连续 Siegel 型行列式非零；同时得到不可约性准则。
 - 构件候选。需验证每个应用的 N,P_j 次数条件、初始线性形式非零及微分方程的正确归一化；非零性来自次数唯一最高项而非数值秩。 未将该次数判据接入任何 γ 伴随矩阵，亦未核验其高度和小值界。
 - 相关入口。[math-openai-arithmetic-determinants](../../../math-openai-arithmetic-determinants/SKILL.md)。
+- 本轮筛选。adopted_preprint_spot_checked。Read pp. 1-5. Checked recurrences (13)-(14), Theorem 3.1 degree conditions and proof mechanism, and Corollary 4.1. Adopted degree-based determinant nonvanishing only.
+- 已采用方法。Preprint spot-check. The exact degree hypotheses give nonvanishing consecutive polynomial determinants. It does not supply arithmetic integrality, an analytic smallness bound, or a target-constant representation. [方法说明](../../../math-openai-arithmetic-determinants/references/differential-operator-admission.md)。
 
 ## EXT-0215 · Transcendence measure for the values of the logarithmic derivative of the Bessel function J₀ at algebraic arguments
 
@@ -1213,6 +1221,7 @@
 - 原件。arXiv:1603.04187v1 (title page)。PDF 物理页 1, 4, 10。SHA-256 345b05351dd3d0d474379d31655673b5b8db0518ff101753e72b5fe9942265f6。
 - Lucas congruences and G-function algebraic independence。Section 4 criterion; Proposition 3.9。把 p^k-Lucas 系数同余等价转换为 Frobenius 型函数同余，并据无限素数集合上的此性质给出 G-函数代数无关的 Kolchin 型判据。
 - 构件候选。每个应用须证明整系数/局部化、无限多个素数上的 Lucas 同余，并排除幂积落入有理函数域。 未验证 γ 相关序列具有 Lucas 性质；该准则处理函数代数无关而不直接处理常数取值。
+- 本轮筛选。screened_hold。Collection record and named Section 4 criterion/Proposition 3.9 were screened. Not adopted because application needs an infinite-prime Lucas-congruence proof and excludes a direct constant-value or Euler-gamma interface.
 
 ## EXT-0231 · The ring of values of E-functions is not a field
 
@@ -1570,6 +1579,8 @@
 - 原件。arXiv:0906.3413v3。PDF 物理页 1, 3, 4。SHA-256 256eb0988467191b8c5d9ddaaa453d5fb6dabd7c8ebed786f1524807d63fcfd1。
 - Apéry 数超同余。Theorem 1.1; Corollary 1.2。对二项和 C(n,A,B) 在 p>3 给出 p^{3r} 或 p^{2r} 级超同余，并导出与 Hecke 特征形式系数相连的三项同余。
 - 版本与引用。证明以 Coster 型乘积 g_AB、去 p 谐和和的 p-进赋值为核心；不产生新的无理性线性形式。 未逐项验证乘积引理；与当前 γ 逼近的系数族尚未建立同一性。
+- 本轮筛选。adopted。Theorem 1.1 is a concrete published p-adic divisibility mechanism for the explicitly defined C(n,A,B), with an exact finite checker added. 后续条件。For a new irrationality construction, prove its coefficients equal C(n,A,B) and derive a global LCM/gcd improvement that combines with a real linear-form estimate.
+- 已采用方法。Exact finite p-adic audit for C(n,A,B) and its stated p^(3r)/p^(2r) supercongruence. Applies only after proving the candidate coefficient family is this binomial sum; does not itself yield an LCM, gcd, real remainder, or irrationality result. [方法说明](../../../math-integer-linear-form-rates/references/apery-supercongruence-finite-audit.md)。
 
 ## EXT-0290 · Congruences for sporadic sequences and modular forms for non-congruence subgroups
 
@@ -1600,18 +1611,21 @@
 - 原件。arXiv:1405.4445v1。PDF 物理页 1, 3, 4, 5。SHA-256 4b74fc949a5900a257a0badbe7d5519c563195f8c28c0c8159617b733b1b2ab8。
 - 计算搜索 Apéry 型递推。Introduction and irrationality-criterion discussion。把寻找快速有理逼近表述为对积分族运行 Almkvist–Zeilberger 算法并筛选递推/初值；论文定位为 NesApery Maple 包的使用说明。
 - 条件或证据待查。候选结果决定性依赖外部 Maple 包、生成的递推与随后独立的整数性和误差证明。 未取得或执行 NesApery，也未把任何搜索输出升级为证明。
+- 本轮筛选。not-adopted。This is a Maple/NesApery search workflow; search output is not a proof of its recurrence, integrality, or remainder estimate. 后续条件。Reproduce a chosen output with a saved creative-telescoping certificate and independently prove its arithmetic and analytic gates.
 
 ## EXT-0295 · Experimenting with Apery Limits and WZ pairs
 
 - 原件。arXiv:2109.05359v2。PDF 物理页 1, 3, 4, 5。SHA-256 d66966580fde8e6e794f2e2e5bfd035d8582832f8731cfe74a2cbd3efa40ab4a。
 - WZ Apéry 极限实验。Theorems 1–2。对由 WZ 势函数加权的二项和，证明可算法地产生同一多项式系数递推且比值趋于 ζ(2)；文中将更强的“最小递推/决策程序”列为愿景。
 - 条件或证据待查。使用 Zeilberger 的 WZ 递推定理和势函数收敛；结论只保证某个递推与指数收敛。 未运行生成算法，也未核查一般权重下的数值稳定性与整数性。
+- 本轮筛选。not-adopted。Its WZ theorem supplies a recurrence and exponential convergence for selected potential functions, but leaves denominator growth and an exact candidate certificate outside the portable conclusion. 后续条件。Provide the WZ 1-form/potential, a certified recurrence, exact initial data, and a common-denominator proof before routing to integer linear forms.
 
 ## EXT-0296 · A third-order Apery-like recursion for $ζ(5)$
 
 - 原件。arXiv:math/0206178v2。PDF 物理页 1, 2, 4, 5。SHA-256 84489ad052fd7dd5c8bbb9516678d8320126d06d434d4f77941f4a25cc743dc1。
 - ζ(5) 三阶 Apéry 递推。Theorems 1–4。给出同时逼近 ζ(5)、ζ(3) 的三阶递推与快收敛比值；已列出的 D_n 分母界不足以推出 ζ(5) 无理性，另有 ζ(2),ζ(3) 同时逼近。
 - 版本与引用。构造来自超几何级数/Beukers 型积分、Poincaré 差分方程渐近与 LCM 整数性。 未重算特征根和分母界；不能把快速数值收敛表述成 ζ(5) 的无理性证明。
+- 本轮筛选。not-adopted。The third-order zeta(5) recursion explicitly has denominator bounds insufficient for its desired irrationality conclusion, so it is not an adopted proof primitive. 后续条件。Improve the normalized remainder/denominator comparison or prove a new nonzero integer-form sequence for the desired zeta value.
 
 ## EXT-0297 · A Modular Form Proof of the Irrationality of $ζ\left(3\right)$
 
@@ -1630,6 +1644,7 @@
 - 原件。arXiv:1308.2720v3。PDF 物理页 1, 2, 3, 6, 8。SHA-256 fc3cd38da9acbce1bfe8f8f8867275b3740afff1d30ee98e269665d780e11e68。
 - Beukers 单位方形积分。Theorem 1 and integral (2.27)。逐步重述单位方形 Legendre 多项式积分：线性形式落在 Zζ(s)+Z/D_n^s，正积分以指数速度趋零，结合素数定理得到 ζ(2)、ζ(3) 无理性。
 - 版本与引用。依赖分部积分、LCM 分母、积分上界和素数定理；主要为已知证明的教学性变体。 未逐页审计 ζ(3) 部分；不提供高 ζ 值或 γ 的新分母改进。
+- 本轮筛选。excluded-equivalent。Its unit-square Beukers proof has the same isolate-integrality-positive-remainder-LCM closure already distilled more directly from EXT-0303; no distinct primitive was found. 后续条件。None for this overlap; use the EXT-0303 closure reference or develop a genuinely different normalization.
 
 ## EXT-0300 · A Formal Proof of the Irrationality of $ζ(3)$ in Lean 4
 
@@ -1654,6 +1669,8 @@
 - 原件。arXiv:math/0202159v1。PDF 物理页 1, 2, 4, 6。SHA-256 1911eb1caf7cb4160929f48bc3900c45ce1fa9265b794c7f330df133ab88e680。
 - ζ(3) 超几何证明。Abstract; construction and final recurrence argument。以 well-poised 超几何级数和创造性望远镜给出 ζ(3) 无理性的短证明，是经典 Apéry 结论的另一种组织。
 - 版本与引用。核心是超几何线性形式、递推证书和整数性/衰减估计；不声称对其他奇 ζ 值给出同类定理。 本次只核对定理路线，未逐式重验望远镜恒等式。
+- 本轮筛选。adopted。The local archival source gives an explicit one-constant form, denominator inclusion, telescoped recurrence, positive bound, and normalized contraction; a finite exact replay was added. 后续条件。A new target must prove all four supplied gates for its own isolated linear form; the zeta(3) formulas themselves do not transfer.
+- 已采用方法。A complete positive linear-form closure pattern: isolate one constant, prove D_n^3 integrality, retain an all-n positive remainder bound, then compare normalized contraction. Finite replay does not transfer zeta(3) proof to a new target. [方法说明](../../../math-integer-linear-form-rates/references/apery-zeta3-integrality-and-contraction.md)。
 
 ## EXT-0306 · On simultaneous diophantine approximations to $ζ(2)$ and $ζ(3)$
 
@@ -1754,6 +1771,8 @@
 - 原件。arXiv:1511.07530v1。PDF 物理页 1, 2, 3, 4, 5。SHA-256 80829e1a53d2f3cb8d58ecd0bc186f51032c631b2f0f5bdd69840d679341d78f。
 - algorithmic Mahler-function transcendence tests。Figures 1--2; Theorems 1--2 and rational-degree bound。For a k-Mahler function analytic in the unit disc, the eigenvalue test certifies transcendence when its specified characteristic/eigenvalue conditions exclude an integral k-power; a separate finite Hankel-matrix test is universal.
 - 构件候选。The eigenvalue route depends on distinct nonzero roots and asymptotics near z=1; the universal route depends on the rational-degree bound and rank computation of the required initial coefficients. No implementation, exact rank arithmetic, or specialization-to-value theorem was verified; the review concerns function transcendence rather than every value.
+- 本轮筛选。adopted_preprint_spot_checked。Read pp. 1-8. Checked both stated tests, Proposition 2, Lemma 1, and the universal-test proof. Implemented exact finite rank portion and ran the degree-two worked example; no specialization-to-value theorem claimed.
+- 已采用方法。Preprint proof chain spot-check. Exact finite Hankel rank test is implemented. It tests function rationality under externally proved Mahler hypotheses only and makes no specialization-to-value claim. [方法说明](../../../math-hankel-pade-certificates/references/mahler-function-transcendence-admission.md)。
 
 ## EXT-0325 · On the Irrationality Exponents of Mahler Numbers
 
@@ -1876,6 +1895,7 @@
 - 原件。arXiv:2403.11545v3 (inventory; PDF front page checked)。PDF 物理页 1, 8, 14, 75。SHA-256 a20b664157d4b928a677385877afc9f6764931fb6b573b0652e1ccd42871c815。
 - algorithmic Mahler-operator factorization。Abstract; §§2--3; value-specialization discussion。Provides two algorithms for first-order right factors of ∑ℓ_i(x)M^i with Mx=x^bM: a Petkovšek-style method and a generalized-series/Hermite-Padé method, hence detects formal infinite-product solutions and supports differential-transcendence tests.
 - 构件候选。Requires a linear Mahler operator with b≥2 and the paper's difference-ring/generalized-series hypotheses; an implementation must retain exact factor certificates rather than trust numerical Hermite-Padé detection. Algorithm completeness, implementation availability, and all complexity/field restrictions were not fully audited.
+- 本轮筛选。screened_hold。Collection record, abstract and Sections 2-3 scope screened. Held because its factor algorithms need exact difference-ring/generalized-series certificates and no compatible finite certified interface was extracted in this wave.
 
 ## EXT-0345 · On the automaticity of sequences defined by continued fractions
 
@@ -2020,6 +2040,7 @@
 - 原件。arXiv:1410.2953v1 (11 Oct 2014)。PDF 物理页 1, 5, 7, 8, 11。SHA-256 81e7ba0ea454c1134f5f7ab9da0cf3b8f261cd4df2eccfd18ad82501cb114756。
 - 多重校正与有限连分数逼近。§2 Lemma 4; §4 Theorem 1 and equations (4.1)–(4.7)。将多重校正写成带平移平方分母的有限连分数型项；文中以 Landau 常数为完整示例，并说明同一程序改进 Euler–Mascheroni 常数的已有逼近。
 - 构件候选。有效性取决于每次差分残差的精确符号/界及校正参数，文中 γ 结论还引用前作；不能把 Landau 公式直接移植为 γ 公式。 实际检查了方法的 Landau 定理和 γ 的引言声明；未取得本文所称 γ 细化结果的全部显式式。
+- 本轮筛选。not-adopted。Multiple correction produces approximations, but the gamma discussion imports earlier formulas and no self-contained gamma normalization/nonzero certificate was available in this source. 后续条件。Locate the cited gamma precursor and verify the explicit correction, strict residual bound, and denominator behavior there.
 
 ## EXT-0371 · On Robin’s inequality
 
@@ -2143,6 +2164,7 @@
 - 原件。version/date not visible in inspected first page。PDF 物理页 1, 4, 5, 6, 7。SHA-256 d95fa7a24dede05d3f795bc5464112d8a8da245eef12fafdb216b89050d2e062。
 - 进制数字和的初等下界。§1; Theorems 1, 3, 4。以逐步提高整除指数的初等论证，得到幂、阶乘和 lcm 的 b 进制数字和对数下界；Theorem 4 还在 log(d)/log(b) 无理时给 a^n 的下界，末节说明 Stewart 定理的指数对数形式证明。
 - 版本与引用。初等部分依赖基数整除与位块分解；涉及更强 Stewart 结论时另依赖 Baker 对数线性形式。 检查了初等定理陈述；没有验证后续 Stewart 定理的引用或常数最优性。
+- 本轮筛选。not-adopted。Digit-sum lower bounds for factorials and LCMs do not furnish the LCM upper-growth or divisibility-to-linear-form implication needed by the active arithmetic skills. 后续条件。A candidate would need an explicit bridge from its digit/block claim to a sharper denominator or gcd bound for its own coefficients.
 
 ## EXT-0392 · On the Exponential Diophantine Equation (F_{m+1}^{(k)})^x-(F_{m-1}^{(k)})^x=F_n^{(k)}
 
@@ -2828,6 +2850,7 @@
 - 原件。Electronic Journal of Combinatorics 10 (2003), R14, DOI 10.37236/1707。PDF 物理页 1, 2, 3, 4, 5。SHA-256 bec37a81892117649bdfca9c937bbf12448f8a967f0aa69c86937cc7cd3e055e。
 - hypergeometric Catalan recurrences。Theorems 1–3; equations (2)–(6), (15)–(19)。Creative telescoping yields a second-order recurrence whose rational solutions v_n/u_n converge to Catalan's constant; the paper proves stated 2- and lcm-denominator inclusions and an integral formula for u_n G−v_n.
 - 构件候选。The decisive derivation combines a very-well-poised hypergeometric series, partial fractions, Poincaré asymptotics, and prime-number-theorem denominator growth. The paper explicitly notes the resulting integer forms do not tend to zero, so this is not an irrationality proof. A reusable recurrence/denominator-obstruction audit is candidate only; exact creative-telescoping certificate and all asymptotic estimates were not independently rederived.
+- 本轮筛选。not-adopted。The Catalan recurrence is a useful negative example, but its denominator-growth obstruction is already enforced by the live integer-linear-form gate and does not provide a new transferable finite primitive. 后续条件。For reuse, establish a new coefficient-specific divisibility gain sufficient to overcome the paper's stated LCM-normalized non-decay.
 
 ## EXT-0544 · Approximation by special values of harmonic zeta function and log-sine integrals
 
@@ -2903,12 +2926,15 @@
 - 原件。HAL hal-03830022v1 (27 Oct 2022); published C. R. Mathématique 361 (2023), 1011–1028。PDF 物理页 1, 3, 4, 18, 19, 20。SHA-256 0c9ea266634f6535d86568c89b1786477d92f347a8947b7b22a64619bd981935。
 - Mahler-function relation lifting。Theorems 1.1, 1.2, 2.1; proof §§3–4。For a q-Mahler system at a regular algebraic α with 0<|α|<1, algebraic relations among specialized values lift to homogeneous Q[z]-relations; consequently specialization preserves the stated transcendence degree.
 - 构件候选。The proof first lifts linear relations using relation matrices supplied by Hilbert's Nullstellensatz, lifts homogeneous relations via tensor powers, and then compares Hilbert-function growth. Regularity along α^{q^k} is essential. Candidate relation-lifting guardrail only: applicability requires an explicitly verified q-Mahler system, algebraic α in the open disk, and absence of singularities along its orbit.
+- 本轮筛选。adopted_published_verified。Local pp. 1-4 checked for statements and opening proof plan. C. R. Math publisher record verifies Adamczewski-Faverjon, volume 361 (2023), pp. 1011-1028, DOI 10.5802/crmath.458. Adopted solely as a global regular-orbit guardrail.
+- 已采用方法。Published-version audit against the C. R. Math. publisher record. Relation lifting is an external global admission condition for value assertions: algebraic point in the open disk and a regular full orbit. [方法说明](../../../math-hankel-pade-certificates/references/mahler-function-transcendence-admission.md)。
 
 ## EXT-0591 · On Siegel–Shidlovskii's theory for q-difference equations
 
 - 原件。Acta Arithmetica 127.4 (2007)。PDF 物理页 1, 2, 3, 12, 13。SHA-256 71b1f76747dcca9a10f334d25416766936c58d1a767690b62d5abf0a7130207a。
 - q-差分函数值线性独立度量。§2 Theorems 2.1–2.2; §5 Theorem 5.1 and Corollary 5.2。对 q 非单位根且给定有理系数 q-差分系统，建立 Shidlovskii/Chudnovsky 型满秩引理；在额外高度与非奇异条件下推出特定 q-级数值连同 1 的线性独立及定量下界。
 - 构件候选。关键是函数在 K(z) 上线性独立、迭代矩阵行列式非零，以及取值点避开 P(αq^{-k}) 的零点；不能从形式 q-差分系统直接推出任意取值结论。 未把 q-级数对象与现有 γ 线性形式对应；仅核对发表版的定理陈述和证明框架。
+- 本轮筛选。screened_hold_existing_q_boundary。Local pp. 1-3 and published metadata were screened. Held because its q-difference value estimates require independent non-singularity and function-independence proofs, while existing generalized q-log methods already cover the nearby installed use case.
 
 ## EXT-0592 · Arithmetic properties of values at polyadic Liouville points of Euler-type series with polyadic Liouville parameter
 

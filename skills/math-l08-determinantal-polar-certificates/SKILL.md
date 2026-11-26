@@ -8,3 +8,7 @@ description: 用固定仿射切片上的简单极方程零点核验复数域的�
 给定多项式和目标尺寸 \(n\)，固定仿射切片及若干环境方向。先用精确符号或经过认证的零点、Jacobian 证书计出若干个互异简单极方程解。用[核坐标恢复和多齐次界](references/simple-polar-lifting.md)比较该数量与 \(n\) 允许的上限。
 
 切片与方向由待研究多项式给定，与选取某个行列式近似的顺序分开。始终先作环境方向微分，再限制到切片。多齐次界采用复数和简单零点；若同一计数使用重根、正维分量或实数扰动，需另证对应的持续性和计数公式。
+
+## OpenAI 原稿中的方法
+
+- [Rational RHS perturbation to a simple polytope](references/openai-rational-rhs-simple-perturbation.md)

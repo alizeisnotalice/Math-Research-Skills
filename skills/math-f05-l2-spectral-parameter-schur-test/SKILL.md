@@ -42,4 +42,7 @@ Hilbert 基或谱分解、参数矩阵/核 A(λ)、输入输出测度、所声�
 
 ## OpenAI 原稿中的方法
 
+- [Passive port Schur interface](references/openai-passive-port-2026.md)
+- [Self-adjoint edge resolvent transfer](references/self-adjoint-edge-resolvent-transfer.md)
+
 - [Ward-Laplacian deletion interface](references/openai-ward-laplacian-2026.md)

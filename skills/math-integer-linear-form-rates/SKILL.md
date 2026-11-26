@@ -12,3 +12,8 @@ description: 用已经证明的整数线性形式高度与双边余项界，生�
 - 有两条共享分母的余项时，逐个固定整数线性组合证明其最终非零。例如严格分离的余项阶可以排除组合消失。不同余项各自非零仍可能互相抵消。
 
 算术前提来自原文或独立证明。脚本接受的是这些界的精确数值。观测到的斜率、有限样例和输入格式校验分别记为有限证据。欧拉常数的现有表示先由 [欧拉常数入口](../math-euler-constant-irrationality/SKILL.md) 检查是否已经隔离出单常数整系数形式。
+
+## 补充来源的方法
+
+- [Generalized Apéry supercongruences: finite p-adic audit](references/apery-supercongruence-finite-audit.md)
+- [Apéry zeta(3): closing an integral linear-form proof](references/apery-zeta3-integrality-and-contraction.md)

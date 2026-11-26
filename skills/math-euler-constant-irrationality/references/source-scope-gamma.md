@@ -216,6 +216,7 @@
 - 核对范围。Actual local Theorem 1 gives gamma=A_{n,m}-L_{n,m}+J_{n,m}, with explicit logarithmic and rational terms; Theorem 4 proves signed J_{n,m} is totally monotone and O(4^{-n}). The arithmetic section states only sufficient irrationality criteria, not irrationality of gamma.
 - 依赖与状态。shifted Legendre polynomial orthogonality/Rodrigues formula / Markov–Stieltjes integral representation of the weight / Fubini and integrations by parts; arithmetic corollaries require fractional-part conditions not established in the paper candidate — retain the exact identity and certified O(4^{-n}) remainder, but hold every irrationality inference until a valid integrality/LCM and nonvanishing argument is supplied.
 - 调用入口。[Legendre 修正矩](../../math-gamma-multiple-laguerre-approximants/references/legendre-pade-moments.md)
+- 可调用工具。[二进 Padé 有理逼近](../../math-sondow-log-fractional-certificate/references/prevost-pade-rational-interval.md)。
 
 ### 26 · On a continued fraction expansion for Euler's constant
 

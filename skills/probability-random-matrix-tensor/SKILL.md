@@ -39,4 +39,6 @@ For a finite rational Hermitian sign series, read [the OpenAI matrix-sign audit]
 
 ## OpenAI 原稿中的方法
 
+- [OpenAI wave-3 random-matrix interfaces](references/openai-wave3.md)
+
 - [Ordered Gaussian cascade derivative interface](references/openai-ordered-gaussian-cascade.md)

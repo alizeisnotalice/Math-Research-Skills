@@ -16,3 +16,7 @@ description: 从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项
    若已取得模素数的左核证书，用 [局部余秩估值](references/litsey-catalan-corank.md) 核对列块与缩放。若输入是差商矩阵，按 [Löwner 构件](references/loewner-divided-difference-audit.md) 核对轮廓、Gram 权与常数是否被消去。
 4. **应用于 γ 时先交付接口。** 写出 γ 的可用矩恒等式、伴随量及精确消去规则，列出非消失、分母估值和解析界中尚无证明的部分。对数周期、交换变量或更换特殊值都需要给出新推导。
 5. **实际调用。** 运行 [Catalan 行的有理算术检查](scripts/check_taylor_contact.py) 验证整系数、支撑和精确接触阶。需要求有限插值秩时，用本机 SymPy 的有理矩阵或可认证模秩，保存子式。有限核验不替代定理的全指标和全中心量词。
+
+## 补充来源的方法
+
+- [Differential-operator admission before determinant arguments](references/differential-operator-admission.md)
