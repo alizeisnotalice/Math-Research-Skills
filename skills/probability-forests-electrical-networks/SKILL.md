@@ -32,3 +32,5 @@ Use the current, versioned source-use cards for any theorem-specific application
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
 
 要同时保留割上界与生成树打包时，读 [原文构件](references/packing-preserving-sparsification.md)。
+
+For a finite connected weighted spanning tree law, `scripts/check_finite_tree_response.py` exactly audits the covariance-row identity `sum_f |Cov(1_e,1_f)| = 2p_e(1-p_e) <= 1/2` from rational conductances.  The accompanying causal Brownian-sampler contract applies only after separately checking a countable coordinate set, jointly Borel drift, one uniform finite-tilt sup-norm response constant, and the relevant equivariant exhaustion; it is not a finitary-FIID claim.

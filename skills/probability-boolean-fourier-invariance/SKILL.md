@@ -25,3 +25,5 @@ Use the current, versioned source-use cards for any theorem-specific application
 ## 有限域线性码的边缘
 
 若输入是均匀二元线性码行，使用[低阶均匀边缘](references/binary-code-marginals.md)按生成矩阵列关系认证 k-wise independence 或输出确定的异或见证。需要随机矩阵谱结论时，另核码行采样与谱定理假设。
+
+For a finite r-uniform Fourier-support hypergraph, use [the hypergraph-support-capture reference](references/hypergraph-support-capture.md) when a uniformly chosen vertex block must capture between one and k support edges. Check the exact support-size and block inequality with its finite verifier; this combinatorial lemma does not by itself transfer to coordinate influence or a sharp threshold.

@@ -106,3 +106,5 @@ The W01-L12 continuation includes a separately derived graph/BL/countable-partit
 The 2026-11-16 reader snapshot binds 31/31 distinct works in the existing measure-convergence cohort to scoped R03 high-review admissions. No new complete read or global reading credit was added in this continuation. Kurtz 2007 (B17-003) remains a predecessor dependency with zero separate work-family credit and is not double-counted with the 2014 rewrite. The original 197-file manifest has no preimage and is not reconstructed. The prior review, publication, and installation state is historical provenance only.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+已给出联合耦合且两边方差为正时，用[标准化的二阶扰动证书](references/standardization-perturbation.md)核对精确耦合距离。要转移弱极限，另查扰动与基准标准差的比值趋于零。

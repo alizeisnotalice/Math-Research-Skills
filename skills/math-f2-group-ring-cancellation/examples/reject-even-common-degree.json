@@ -1,0 +1,8 @@
+{
+  "label_inverse": {"a": "A", "A": "a", "b": "B", "B": "b", "c": "C", "C": "c"},
+  "A": {"vertices": ["x0", "x1"], "edges": [["x0", "a", "x1"], ["x1", "A", "x0"], ["x0", "b", "x1"], ["x1", "B", "x0"]]},
+  "B": {"vertices": ["y0", "y1"], "edges": [["y0", "a", "y1"], ["y1", "A", "y0"], ["y0", "A", "y1"], ["y1", "a", "y0"], ["y0", "b", "y1"], ["y1", "B", "y0"], ["y0", "c", "y1"], ["y1", "C", "y0"]]},
+  "left_labels": {"x0": "e", "x1": "e"},
+  "right_inverse_labels": {"y0": "e", "y1": "e"},
+  "products": [["e", "e", "e"]]
+}

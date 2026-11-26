@@ -16,12 +16,12 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 20,
+    "research-specialists": 33,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
     "orchestration": 1,
-    "probability": 43
+    "probability": 44
   },
   "skills": [
     {
@@ -220,11 +220,32 @@
       "family": "c"
     },
     {
+      "name": "math-cat0-inductive-barycenters",
+      "title": "CAT(0) inductive barycenters",
+      "description": "Transfer a finite centred distribution in a complete CAT(0) metric cone into an inductive-barycenter energy bound, with exact Euclidean finite-support replay. Use for certified cone geometry, not generic group-action or sampling claims.",
+      "category": "research-specialists",
+      "path": "skills/math-cat0-inductive-barycenters/SKILL.md"
+    },
+    {
       "name": "math-centered-cube-endpoint-budget",
       "title": "中心立方体极大算子的弱端点工具",
       "description": "Audit or extend centered axis-parallel cube Hardy–Littlewood weak-(1,1) bounds: all-scale source/receiver budgets, joint high-capacity remainders, and finite-dimensional square/cube certificates. Use for centered-cube-upper-bound, the Round 830 remainder, or cubical endpoint constants; not for Euclidean balls, Kakeya tubes, or strong rectangular maxima.",
       "category": "research-specialists",
       "path": "skills/math-centered-cube-endpoint-budget/SKILL.md"
+    },
+    {
+      "name": "math-clique-free-random-multiplier",
+      "title": "Clique-free random multiplier",
+      "description": "Construct and exactly check the finite-support random multiplier from the clique-free neighborhood recursion for a supplied finite weighted K_r-free graph.",
+      "category": "research-specialists",
+      "path": "skills/math-clique-free-random-multiplier/SKILL.md"
+    },
+    {
+      "name": "math-cohomological-transfer",
+      "title": "同调与上同调的局部转移",
+      "description": "核验链复形权截断、Mayer–Vietoris 条件、图状神经上链延拓以及已给代数或谱数据上的局部化与张量消失。",
+      "category": "research-specialists",
+      "path": "skills/math-cohomological-transfer/SKILL.md"
     },
     {
       "name": "math-d01-kantorovich-duality",
@@ -424,6 +445,13 @@
       "family": "f"
     },
     {
+      "name": "math-f2-group-ring-cancellation",
+      "title": "Finite F2 group-ring cancellation",
+      "description": "Verify a finite characteristic-two group-ring cancellation certificate from two labelled components and a supplied exact group-label product oracle; it does not establish torsion-freeness or nonzero factors.",
+      "category": "research-specialists",
+      "path": "skills/math-f2-group-ring-cancellation/SKILL.md"
+    },
+    {
       "name": "math-g01-carleson-measure-box-and-tent-test",
       "title": "G01 · Carleson 测度",
       "description": "检验 Carleson 测度的盒、帐篷与嵌入条件，核对几何族、尺度及常数。",
@@ -483,6 +511,20 @@
       "description": "用 Wolfs–Van Assche 的混合型多重 Laguerre 显式有限和生成欧拉常数有理逼近，并审计算术整化、约分、余项和渐近障碍。",
       "category": "research-specialists",
       "path": "skills/math-gamma-multiple-laguerre-approximants/SKILL.md"
+    },
+    {
+      "name": "math-geometric-pde-reductions",
+      "title": "几何偏微分方程与变分归约",
+      "description": "核对给定几何模型的高度方程、标量曲率归一化、Neumann 能量、径向 ODE 不变域、弱流代表元和单相极小子的维数归约。",
+      "category": "research-specialists",
+      "path": "skills/math-geometric-pde-reductions/SKILL.md"
+    },
+    {
+      "name": "math-grid-piecewise-translation-embedding",
+      "title": "Finite grid piecewise-translation embedding",
+      "description": "Certify a finite cellwise translation embedding between two strict-size subsets of a specified square cell grid. Use after a geometric argument has supplied an allowable common grid; it does not polygonize sets or prove a general equidecomposition theorem.",
+      "category": "research-specialists",
+      "path": "skills/math-grid-piecewise-translation-embedding/SKILL.md"
     },
     {
       "name": "math-h01-uniform-cramer-moderate-deviations",
@@ -857,6 +899,20 @@
       "family": "l"
     },
     {
+      "name": "math-lattice-heat-asymptotics",
+      "title": "Nearest-neighbor lattice heat asymptotics",
+      "description": "Prove and safely use the first large-time correction for the continuous-time nearest-neighbor lattice heat kernel. Use for the exact dispersion 2(1-cos k), tensor-product dimensions, and clearly separated physical scaling.",
+      "category": "research-specialists",
+      "path": "skills/math-lattice-heat-asymptotics/SKILL.md"
+    },
+    {
+      "name": "math-lienard-half-arc-matching",
+      "title": "Lienard half-arc matching",
+      "description": "将已验证的 Lienard 半平面弧坐标匹配转化为周期轨道与孤立零点问题；不用于未经认证的数值积分或周期数上界。",
+      "category": "research-specialists",
+      "path": "skills/math-lienard-half-arc-matching/SKILL.md"
+    },
+    {
       "name": "math-logrank-rectangle-rank-halving",
       "title": "单色矩形与秩减半接口",
       "description": "从有限 Boolean 通信矩阵的单色矩形出发，精确核验互补块秩分裂，并把给定矩形或协议分割转为 rank-halving 递归证书。用于审计 Log-Rank 路线的有限接口，不搜索大矩形或认证高秩渐近定理。",
@@ -1045,6 +1101,13 @@
       "family": "n"
     },
     {
+      "name": "math-nonarchimedean-analytic-transfer",
+      "title": "非阿基米德解析转移与逆极限",
+      "description": "在完备非阿基米德环境中，核对有理或形式的有限阶解析 jet 转移、近似根余项及稠密压缩逆塔上的 Roos 差分。",
+      "category": "research-specialists",
+      "path": "skills/math-nonarchimedean-analytic-transfer/SKILL.md"
+    },
+    {
       "name": "math-openai-arithmetic-determinants",
       "title": "算术行列式构造与验收",
       "description": "从 OpenAI 算术预印本提取 Taylor 接触消元、整数多项式行构造、行列式算术下界与解析上界比较。用于设计或审查 Catalan 常数、π 与欧拉常数研究中的行列式候选。",
@@ -1052,11 +1115,25 @@
       "path": "skills/math-openai-arithmetic-determinants/SKILL.md"
     },
     {
+      "name": "math-operator-algebra-certificates",
+      "title": "算子代数中的极分解、谱计算与条件转移",
+      "description": "核验算子代数中的幺正压缩修复、平移卷积核、谱相位迹、自伴谱编码及 C* 截断转运。按已给投影、严格谱隙、迹或比较见证选择。",
+      "category": "research-specialists",
+      "path": "skills/math-operator-algebra-certificates/SKILL.md"
+    },
+    {
       "name": "math-paper-writing",
       "title": "数学论文写作",
       "description": "以用户提供的《数学论文写作规范_动机结构与自然表达》PDF 为准，起草、修改和点评中英文数学研究论文，落实文章结构、方法动机、证明与自然表达，检查量词和计算证据。 尤其适用于调和分析、极大算子、概率与随机过程、几何分析、优化及计算辅助证明；纯文献检索、逐篇翻译和单纯竞赛排版使用对应技能。",
       "category": "writing",
       "path": "skills/math-paper-writing/SKILL.md"
+    },
+    {
+      "name": "math-projective-induction-cocycle-certificates",
+      "title": "Finite projective-induction certificates",
+      "description": "用有限 Cayley 表和有理相位精确核验图子群上的射影诱导校正、乘子、代表元变换和有限指标维数。",
+      "category": "research-specialists",
+      "path": "skills/math-projective-induction-cocycle-certificates/SKILL.md"
     },
     {
       "name": "math-research",
@@ -1074,6 +1151,13 @@
       "description": "从 Sondow 的双积分与对数线性形式构造可严格计算的欧拉常数分母排除证书。用于生成 S_n 对数权重、认证分数部分阈值、估计余项或寻找使判据在无穷多个指标成立的方法。",
       "category": "research-specialists",
       "path": "skills/math-sondow-log-fractional-certificate/SKILL.md"
+    },
+    {
+      "name": "math-three-strip-token-bound",
+      "title": "Three-strip token boundary certificate",
+      "description": "Certify the finite three-strip/token boundary bound for a sequence of equal-cardinality planar threshold cuts with matched exchanges; not a halving-line asymptotic solver.",
+      "category": "research-specialists",
+      "path": "skills/math-three-strip-token-bound/SKILL.md"
     },
     {
       "name": "math-tool-router",
@@ -1096,6 +1180,13 @@
       "description": "对给定有理分段仿射扭转与有限角向 Fourier 包，精确计算模一推前的阶梯谱密度、色间正交门槛和可选 L1 密度差。",
       "category": "research-specialists",
       "path": "skills/math-torus-packet-spectral-density/SKILL.md"
+    },
+    {
+      "name": "math-weil-deligne-purity-lfactor",
+      "title": "Pure Weil–Deligne local-factor certificate",
+      "description": "Certify the local L-factor half-plane and Frobenius determinant consequence of supplied pure weight-zero Frobenius-semisimple Weil–Deligne data. Use only after the Weil–Deligne representation, inertia invariants, and purity witnesses have been established externally.",
+      "category": "research-specialists",
+      "path": "skills/math-weil-deligne-purity-lfactor/SKILL.md"
     },
     {
       "name": "mathematica-math",
@@ -1182,6 +1273,13 @@
       "description": "Audit determinantal laws, negative dependence, and singularity claims for spanning-tree and forest measures.",
       "category": "probability",
       "path": "skills/probability-determinantal-dependence/SKILL.md"
+    },
+    {
+      "name": "probability-finite-query-direct-product",
+      "title": "Finite capped query direct products",
+      "description": "Verify a finite deterministic, adaptively interleaved query tree against an exact capped direct-product bound for independent Boolean-input tasks.",
+      "category": "probability",
+      "path": "skills/probability-finite-query-direct-product/SKILL.md"
     },
     {
       "name": "probability-first-passage-growth",

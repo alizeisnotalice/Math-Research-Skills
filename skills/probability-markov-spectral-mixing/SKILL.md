@@ -30,3 +30,5 @@ For a stationary reversible chain and an explicitly given real observable, use t
 Use the current, versioned source-use cards for any theorem-specific application. For a formally published result, verify the edition and the cited statement. For a claim supported only by a preprint, check the actual claim, relevant proof steps, assumptions and version before relying on it. Unavailable evidence and out-of-scope extensions remain research leads. Review and installation states in historical records refer to their own versions.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+For bounded clock observables, the OpenAI Lemma 2.3 reference transfers convergence of every fixed shifted Poisson average to the Binomial(M,q) lazy-clock average. Check q in (0,1), a common bound, all fixed shifts, and the uniform versions of those inputs before invoking it; the lemma does not create the underlying continuous-time mixing bound.

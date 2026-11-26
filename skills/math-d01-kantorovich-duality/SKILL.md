@@ -47,3 +47,7 @@ description: 核验 Kantorovich 输运对偶及势函数，检查代价、可积
 ## 带附加线性等式的有限输运
 
 给定有理多边缘耦合、逐格代价和附加期望等式时，用 [有限原始对偶证书](references/finite-constrained-transport.md)核验势函数、自由符号乘子、松弛与最优值。
+
+## 带基点有限度量的系数符号检验
+
+使用[带基点有限度量的系数符号检验](references/coefficient-sign-test.md)。用精确度量表和符号函数见证有限 Lipschitz-free 系数界。

@@ -23,3 +23,11 @@ python3 scripts/ag_divisor_intersection_ledger.py examples/negative_form_mismatc
 ```
 
 第二个例子应返回非零状态：公共解消账本中 `E` 的两个系数不等，故不能声称有常数比值；另一个任务也以正的加权度数拒绝逐分量零结论。输入字段、来源页码和每项条件见 [账本契约](references/ledger-contract.md)。
+
+## 取整除子截面的比值域
+
+使用[取整除子截面的比值域](references/rounded-section-ratio-field.md)。检查收缩映射与有理拉回线性等价，再转移到正次数倍数。
+
+## 光滑一维因子的赋值扩张
+
+使用[光滑一维因子的赋值扩张](references/smooth-factor-valuation.md)。给定有限正 log-discrepancy 的除子赋值，核对 Gauss 扩张后长度主项和归一化。

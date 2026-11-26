@@ -77,3 +77,13 @@ The following are reading and acquisition records, not blanket theorem endorseme
 The R03 continuation has 30 distinct scoped concentration uses after work/version dedup (29 from the original cohort plus Freedman 1975); P028 remains held. This reader package is an immutable historical snapshot. Exact source PDFs are bundled locally, with source paths and SHA-256 values recorded in the source register. The 341-page P031 book is bundled for local use, but the recorded read unit remains Chapter 2 only. Its former whole-entry, case, portable, publication, and installation states are historical provenance only.
 
 全文、附件与历史证据的定位见 [本机证据访问说明](../math-research/references/evidence.md)。
+
+## 有限图的展开切分
+
+使用[有限图的展开切分](references/edge-splitting.md)。给定已验证的全割展开下界时，使用随机分色的有限并集界选择参数。
+
+- **Bounded-input participation (OpenAI Math, *Correspondence coloring graphs with a forbidden clique*, Lemma 4.3, PDF pp. 22–23):** For bounded functions of finitely many independent inputs, first declare each function's finite dependence set and range interval. If every input occurs in at most `p≥1` sets, then each one-sided centered sum tail at `a>0` is at most `exp(-2a²/(p Σ b_j²))`; when `Σ b_j²=0`, both tails are zero. Use `scripts/bounded_participation_tail.py` only to audit the declared incidence/range table—it cannot establish independence, functional dependence, or range claims. The DP-coloring application does not transfer.
+
+## 相关二元变量的上尾条件取样
+
+使用[相关二元变量的上尾条件取样](references/upper-tail-sampling.md)。在给定有限联合律中核验全成功条件下的尾概率和抽样规模。

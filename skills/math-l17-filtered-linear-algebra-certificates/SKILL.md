@@ -77,3 +77,5 @@ python3 scripts/check_finite_instances.py
 ## C. 成对交空间与三角矩阵枢轴
 
 对有指定配对的有限子空间族，或按对角线逐项确定的三角矩阵，读[交空间和枢轴证书](references/intersection-rank-certificates.md)。该参考分别给出行列式消失阶数的交空间界，和有限块秩差定义的局部匹配。两种证书都要求精确域上线性代数，不能据此替代几何交数或无限矩阵算子的全局结论。
+
+**Finite-field affine-line pairing (OpenAI 2026, Lemma 2.2; Proposition 2.3 bridge).** For a supplied `GF(2^r)` polynomial of total degree at most `q-2`, use `scripts/check_affine_line_sums.py` to validate the representation and enumerate all affine lines, obtaining exact zero line and full-space sums. In the characteristic-two hole-pairing route, apply this only after independently validating the low-degree interpolation basis and deletion/incidence hypotheses; it does not certify the global group-algebra construction.

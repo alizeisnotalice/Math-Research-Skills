@@ -1,0 +1,11 @@
+{
+  "D": "1",
+  "theta": "2",
+  "points": {"left": ["0", "0"], "right": ["1", "0"]},
+  "inside": ["left"],
+  "states": [
+    {"normal": ["1", "0"], "threshold": "1/2", "marked": ["left"]},
+    {"normal": ["-1", "0"], "threshold": "-1/2", "marked": ["right"]}
+  ],
+  "transfers": [[ ["left", "right"] ]]
+}

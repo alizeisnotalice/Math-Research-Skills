@@ -1,0 +1,11 @@
+{
+  "residue_cardinality": 5,
+  "kernel_inertia_in_m0": true,
+  "graded_spectrum": [
+    {"label": "low", "degree": -2, "modulus_squared": "1/25"},
+    {"label": "mid-a", "degree": 0, "modulus_squared": "1"},
+    {"label": "mid-b", "degree": 0, "modulus_squared": "1"},
+    {"label": "high", "degree": 2, "modulus_squared": "25"}
+  ],
+  "local_factor_labels": ["low", "mid-a"]
+}

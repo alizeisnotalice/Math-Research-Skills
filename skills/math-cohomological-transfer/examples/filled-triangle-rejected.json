@@ -1,0 +1,9 @@
+{
+  "modulus": 2,
+  "vertices": ["a", "b", "c"],
+  "edges": [["a", "b"], ["b", "c"], ["a", "c"]],
+  "triangles": [["a", "b", "c"]],
+  "subgraph_cochain": [
+    {"edge": ["a", "b"], "value": 1}
+  ]
+}

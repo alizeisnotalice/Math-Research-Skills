@@ -22,6 +22,8 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | 一维分段 ODE 的严格残差界 | 用 [分段 ODE 证书](../math-l03-rational-and-interval-certificates/references/piecewise-ode-residual.md)核对接缝、正零阶系数和端点输入，给出函数误差界。 |
 | 可逆链的指数尾、附加等式输运、结构双二次型 | 用 [有限马尔可夫尾界](../probability-markov-spectral-mixing/references/finite-markov-chernoff.md)、[有限输运证书](../math-d01-kantorovich-duality/references/finite-constrained-transport.md) 或 [双二次 Gram](../math-c03-moment-sos-certificates/references/qi-cui-xu-monic-xsymmetric-gram.md)。 |
 | 给定离散开关网络、环面有限谱包或除子表 | 分别使用[条件置换核](../probability-switch-network-cylinders/SKILL.md)、[环面谱密度](../math-torus-packet-spectral-density/SKILL.md)或[除子账本](../math-ag-divisor-intersection-ledger/SKILL.md)精确核验。 |
+| 精确算子代数、有限上同调或几何方程 | 按输入选择[算子代数证书](../math-operator-algebra-certificates/SKILL.md)、[同调与上同调转移](../math-cohomological-transfer/SKILL.md)或[几何方程及归约](../math-geometric-pde-reductions/SKILL.md)。 |
+| 非阿基米德解析 jet、完备逆塔或 Weil–Deligne 谱输入 | 按[非阿基米德转移](../math-nonarchimedean-analytic-transfer/SKILL.md)或[局部 L 因子证书](../math-weil-deligne-purity-lfactor/SKILL.md)核对完备性、谱数据和取值范围。 |
 | Hardy 算子在有理阶梯函数上的二次亏损 | 用 [亏损证书](../math-m03-near-extremizer-stability/references/hardy-quadratic-deficit.md) 逐段积分，计入无穷尾段并返回精确对数式。 |
 | 有端点消失条件的 Euler–Maclaurin 求积 | 用 [求积误差证书](../math-euler-maclaurin-quadrature-certificates/SKILL.md) 检查多项式、网格及误差的有理包围。 |
 | 标准化单峰分布的尖锐尾界 | 用 [单峰尾界证书](../probability-unimodal-tail-certificates/SKILL.md) 检查事件方向、阈值和取等构造。 |

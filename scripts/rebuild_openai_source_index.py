@@ -188,6 +188,7 @@ def classify(
             raise ValueError(f"invalid installed skill name: {digest}")
         return "installed", {
             "skill": record["skill"],
+            "reference": str(record.get("reference", "")),
             "scope": str(record.get("scope", "限定构件已登记。")),
             "commit": str(record.get("latest_commit", "")),
         }
@@ -199,6 +200,7 @@ def classify(
             raise ValueError(f"invalid scoped skill name: {digest}")
         return "scoped-reference", {
             "skill": str(record.get("skill", "")),
+            "reference": str(record.get("reference", "")),
             "scope": str(record.get("scope", "限定参考，依赖仍需核对。")),
             "commit": str(record.get("commit", "")),
         }
@@ -227,6 +229,11 @@ def source_row(source: dict[str, Any], category: str, detail: dict[str, str]) ->
             skill_cell = f"[{md(skill)}](../../../{skill}/SKILL.md)"
         else:
             skill_cell = "限定参考未绑定技能"
+        reference = detail.get("reference", "")
+        if reference and reference != "SKILL.md":
+            if not skill or not re.fullmatch(r"(?:references|scripts)/[a-zA-Z0-9_.-]+(?:/[a-zA-Z0-9_.-]+)*\.(?:md|py)", reference) or ".." in reference.split("/"):
+                raise ValueError(f"invalid public component reference: {digest}")
+            skill_cell += f" · [构件说明](../../../{skill}/{reference})"
         scope = md(detail.get("scope", ""))
         commit = detail.get("commit", "")
         if commit:

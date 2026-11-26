@@ -5,9 +5,9 @@
 
 | 分类 | 数量 | 页面 |
 | --- | ---: | --- |
-| 已安装构件 | 184 | [installed.md](installed.md) |
-| 限定参考 | 13 | [scoped-reference.md](scoped-reference.md) |
-| 候选构件 | 312 | [candidate.md](candidate.md) |
+| 已安装构件 | 206 | [installed.md](installed.md) |
+| 限定参考 | 37 | [scoped-reference.md](scoped-reference.md) |
+| 候选构件 | 266 | [candidate.md](candidate.md) |
 | 保留，依赖待审 | 178 | [held.md](held.md) |
 | 仅版本或题录核对 | 19 | [version-only.md](version-only.md) |
 | 邻近材料 | 25 | [adjacent.md](adjacent.md) |

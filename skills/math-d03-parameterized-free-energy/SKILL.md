@@ -38,3 +38,5 @@ description: 分析指定参数的自由能弱式，核对参数范围、变分�
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+- **Ideal attraction and active supports (OpenAI, 2026 preprint, pp. 8–16; SHA-256 `d53cafa…368587`).** Given an actually verified attained density duality and quadratic coercivity, the `a>0` ideal-attraction transform equals the density variational problem with `+beta*a*d^2/2`; active shifts are precisely maximizing densities and yield the parabolic field bound and the source's convex-hull support formula. See `references/ideal-attraction-supports.md`; this does not supply those analytic hypotheses or a finite-range phase-transition result.
