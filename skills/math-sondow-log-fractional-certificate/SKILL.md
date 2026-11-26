@@ -23,4 +23,6 @@ description: 从 Sondow 的双积分与对数线性形式构造可严格计算�
 
 研究用途可先利用素因子归并以合并对数或控制计算宽度。若研究目标是无穷子列，单列要证明的分数部分下界、差分性质或分布结论。Baker 型下界应用前先核对其衰减尺度能否压过本判据的门槛。
 
+需要从整点极点处的单、二重极点系数提取 \(B\gamma+L-A\) 时，用 [有理核的线性形式](references/rational-kernel-linear-form.md)。需要对 q-对数项或几何指数尾作严格计算时，用 [q-对数路线](references/q-logarithm-path.md)，另核整数缩放与指标范围。
+
 需要扩充正积分核时，读 [高维双积分推广](references/double-integral-extensions.md)，按原文核对支路和参数域，并另证整数系数变形。

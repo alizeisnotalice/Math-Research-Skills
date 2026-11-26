@@ -10,12 +10,14 @@ description: 研究欧拉–马歇罗尼常数 γ 的无理性。构造或审计
 ## 按输入调用论文工具
 
 - 从整数指标生成对数权重、认证有限分母排除，用 [Sondow 证书](../math-sondow-log-fractional-certificate/SKILL.md)。
+- 从阶数直接生成 Hessami Pilehrood 的有理收敛子与非简单连分数，用 [欧拉常数连分数递推](../math-gamma-continued-fraction-recurrence/SKILL.md)。
 - 生成精确多重 Laguerre 系数及原始/约分整数对，或用 Rivoal、Aptekarev 递推作同尺度比较，读 [多重 Laguerre 逼近](../math-gamma-multiple-laguerre-approximants/SKILL.md)。
 - 从参数轨迹、对偶矩阵和预备的换基得到递推，用 [Meijer G 保守矩阵场](../math-gamma-meijer-cmf/SKILL.md)。
 - 需要给定输入的严格数值区间、\(q\gamma-p\) 的有限符号或分母排除时，用 [Brent–McMillan 有理区间](references/brent-mcmillan-enclosure.md)。
+- 从 Poisson 调和数的单对数展开认证有限残差符号，用 [Poisson 调和区间](references/poisson-harmonic-enclosures.md)。
 - 对逐尺度对数项、Euler–Gompertz 辅助常数或很快的有理逼近，用 [混合形式和高度](references/mixed-log-height-audit.md)。
 - 对二进制级数和有限 Gregory 恒等式，用 [有限有理级数](references/finite-rational-series.md)。
-- 对 E/G 函数、1-求和与算术和乐候选路线，读 [算术 Gevrey 与 CDT 接口](references/arithmetic-gevrey.md)。
+- 对 E/G 函数、1-求和与算术和乐候选路线，读 [算术 Gevrey 与 CDT 接口](references/arithmetic-gevrey.md)。需要检查普通 E-逼近、含对数扩展或和乐界能否应用时，用 [E-算子与和乐界准入](references/e-operator-holonomy-admission.md)。
 
 - 设计行列式或研究伴随常数的局部消元时，读 [OpenAI 算术行列式构造](../math-openai-arithmetic-determinants/SKILL.md)。先证明目标矩与消元机制对应。
 

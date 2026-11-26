@@ -10,6 +10,7 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | 工作 | 执行路线 |
 | --- | --- |
 | 精确整数、有理数、有限枚举、数据处理 | `python-math`。优先使用项目已有解释器，能用标准库精确完成时直接运行。 |
+| 欧拉常数的有理区间、连分数和对数线性形式 | 按所给输入选择 [欧拉常数工具](../math-euler-constant-irrationality/SKILL.md)，运行相应的精确 Python 脚本。 |
 | 符号求导、恒等式、参数求解、高精度 | `mathematica-math` 或 `python-math` 的已验证符号环境。声明定义域、分支与精确输入。 |
 | 数值线性代数、ODE、优化、MAT 数据 | 按工具箱、已有代码和精度在当前 MATLAB MCP、MATLAB CLI 或 Python 数值栈之间选择。MATLAB 执行细节见 [MATLAB 工具说明](../math-research/references/tools.md#matlab)。 |
 | MATLAB 绘图和 FIG | `matlab-plotting`。保存可复现源码及实际导出文件。 |

@@ -16,7 +16,7 @@
     "literature": 4,
     "writing": 5,
     "collaboration": 1,
-    "research-specialists": 8,
+    "research-specialists": 9,
     "tools": 8,
     "methods": 100,
     "modeling": 3,
@@ -310,7 +310,8 @@
         "math-openai-arithmetic-determinants",
         "math-sondow-log-fractional-certificate",
         "math-gamma-multiple-laguerre-approximants",
-        "math-gamma-meijer-cmf"
+        "math-gamma-meijer-cmf",
+        "math-gamma-continued-fraction-recurrence"
       ]
     },
     {
@@ -424,6 +425,13 @@
       "category": "methods",
       "path": "skills/math-g05-tree-carleson-square-function-tc-a4-audit/SKILL.md",
       "family": "g"
+    },
+    {
+      "name": "math-gamma-continued-fraction-recurrence",
+      "title": "欧拉常数连分数递推",
+      "description": "用精确递推生成并审查 Hessami Pilehrood 的欧拉常数有理逼近与非简单连分数。适用于有限系数、收敛子和分母高度核对，不用于无理性结论。",
+      "category": "research-specialists",
+      "path": "skills/math-gamma-continued-fraction-recurrence/SKILL.md"
     },
     {
       "name": "math-gamma-meijer-cmf",

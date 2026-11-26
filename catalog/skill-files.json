@@ -2253,8 +2253,8 @@
     },
     {
       "path": "skills/math-euler-constant-irrationality/SKILL.md",
-      "sha256": "aa0e72bee70438fc44ea6f1ce84d0437bcfb9250345197da0a36edab7a50975f",
-      "bytes": 4112,
+      "sha256": "e43c3bc29576993b5011844aa1deb1f66ac19c266835ffd7a40084ca214fc301",
+      "bytes": 4583,
       "mode": 420
     },
     {
@@ -2276,6 +2276,12 @@
       "mode": 420
     },
     {
+      "path": "skills/math-euler-constant-irrationality/references/e-operator-holonomy-admission.md",
+      "sha256": "bbfa91dd8d3c04395e64d3729afe074ed4c4e25bf6ebedb20a8a600b30fa3a20",
+      "bytes": 5577,
+      "mode": 420
+    },
+    {
       "path": "skills/math-euler-constant-irrationality/references/finite-rational-series.md",
       "sha256": "aa9fce00ce29a22d71656e426599f85f4253535e0011c2b098e092fc6505a794",
       "bytes": 7009,
@@ -2294,9 +2300,15 @@
       "mode": 420
     },
     {
+      "path": "skills/math-euler-constant-irrationality/references/poisson-harmonic-enclosures.md",
+      "sha256": "a891e3193efe6750881f9da029263225ef684ad4fa8f2e0109d263f1d7944418",
+      "bytes": 2671,
+      "mode": 420
+    },
+    {
       "path": "skills/math-euler-constant-irrationality/references/source-scope-gamma.md",
-      "sha256": "2fbabb2342bb7f3e363d1e76032b3b8614b94e6cb289677fc05035d33368ad59",
-      "bytes": 68983,
+      "sha256": "6ff444200c3c2bd0c85d8d77459538f8770ef84a39bc157be0c84a1e8ef1a279",
+      "bytes": 69374,
       "mode": 420
     },
     {
@@ -2309,6 +2321,18 @@
       "path": "skills/math-euler-constant-irrationality/scripts/check_aptekarev_mixed_forms.py",
       "sha256": "6fb3dedce4cb01db1e0a15d8e9bbe5cf91b9f7a74c7e19153bb70ade70852e0e",
       "bytes": 2676,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-euler-constant-irrationality/scripts/check_extended_e_approximation.py",
+      "sha256": "1cefc14048872fb09afb0a27bdaf5d4465aeecf46deca41168201f2233d3e52c",
+      "bytes": 2602,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-euler-constant-irrationality/scripts/poisson_harmonic_interval.py",
+      "sha256": "a256d312c86689db6063e2e3e77e13de10fad5a4b7991e7e246d7705ddf90ccf",
+      "bytes": 2694,
       "mode": 420
     },
     {
@@ -3587,6 +3611,24 @@
       "path": "skills/math-g05-tree-carleson-square-function-tc-a4-audit/references/verification-log-20261007.md",
       "sha256": "c47555f526ee577962d2044d00ad24484b2c24ba36c49f599fd18f8f8e958fd6",
       "bytes": 1760,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-continued-fraction-recurrence/SKILL.md",
+      "sha256": "177fcc24564a184003ff2598256c19dfc2e1b4955ddf0ce20d0d624efb0b3469",
+      "bytes": 2181,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-continued-fraction-recurrence/references/source-and-scope.md",
+      "sha256": "f4f60a522ff2926f7b721e47e00caa90a40d00acf67640107043cfbb5d06598e",
+      "bytes": 1715,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-gamma-continued-fraction-recurrence/scripts/gamma_continued_fraction.py",
+      "sha256": "52dddff5545850cf4af7717cd3566752823098e2f274894d2a5c7055cf5534a7",
+      "bytes": 5757,
       "mode": 420
     },
     {
@@ -7719,14 +7761,38 @@
     },
     {
       "path": "skills/math-sondow-log-fractional-certificate/SKILL.md",
-      "sha256": "f2dc3b296b66a539afa7d6d70c4c77f83d9b87f3add001c1ce3133a1d5d68a0b",
-      "bytes": 2525,
+      "sha256": "bb6d1e4e9a880c2dca7da16fc54733ed0cc43a3a425a92f3632dcae3fba60348",
+      "bytes": 2834,
       "mode": 420
     },
     {
       "path": "skills/math-sondow-log-fractional-certificate/references/double-integral-extensions.md",
       "sha256": "88a2085dd35311d87a44f002d5614c5d0eca1646742ef91b46affc9d5c839860",
       "bytes": 4917,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/references/q-logarithm-path.md",
+      "sha256": "0578744fb684c666362e1d5a8c99e8b62fa00deca939172b6982278f47195826",
+      "bytes": 2551,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/references/rational-kernel-linear-form.md",
+      "sha256": "59ba900b45b49359976bfc6855cb51cb27343c371503edcc7d8be366abd9d3ac",
+      "bytes": 3476,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/scripts/q_log_bounds.py",
+      "sha256": "e6021be206a481a90c7e9c54ea97179196061313e7601193193b3ea15ddbcc9d",
+      "bytes": 4284,
+      "mode": 420
+    },
+    {
+      "path": "skills/math-sondow-log-fractional-certificate/scripts/rational_kernel_linear_form.py",
+      "sha256": "cc1924307ce951d3d674976c62858c367909ecaa00b86dd317282e01e0d71b0b",
+      "bytes": 5111,
       "mode": 420
     },
     {
@@ -7737,8 +7803,8 @@
     },
     {
       "path": "skills/math-tool-router/SKILL.md",
-      "sha256": "c77fabfe0d501c4ec1d5a1d15a22b5a37e46e89575fb5108cbf28fd49e5055f2",
-      "bytes": 2947,
+      "sha256": "ea14362c321cf18a70eb2ac536c446e4b5d5af04708bad9c874436871b15b990",
+      "bytes": 3145,
       "mode": 420
     },
     {

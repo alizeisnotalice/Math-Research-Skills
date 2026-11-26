@@ -105,8 +105,9 @@
 
 - 版本与身份。local arXiv:math/0211075v4 (29 Apr 2009), 7 pp; formal version verified as Jonathan Sondow, with appendix by Sergey Zlobin, Math. Slovaca 59(3) (2009), 307-314. SHA-256 为 `a709a732b9101326b55fa927d265ccbb8232960ae74fa22fbd6626bcf51b1517`。
 - 本机原文定位。\['local PDF p.2, Theorem 1; pp.3-5, Lemmas 1-3 and proof', 'published Math. Slovaca 59(3) (2009), 307-314, Theorem 1, doi:10.2478/s12175-009-0127-2'\]
-- 核对范围。For its defined positive integer S_n and hypergeometric integral I_n, the fractional-part equality {log S_n}=d_{2n}I_n for some n (equivalently eventually all n) is equivalent to rationality of gamma. Hence failure of that equality at one n is an irrationality criterion; no local numerical convergence alone supplies it.
+- 核对范围。For its defined positive integer S_n and hypergeometric integral I_n, the fractional-part equality {log S_n}=d_{2n}I_n for some n (equivalently eventually all n) is equivalent to rationality of gamma. Irrationality is equivalent to failure at every positive n, or failure for infinitely many n. A rigorously certified failure at a single n excludes certain denominators only.
 - 依赖与状态。Thomae transformation and the hypergeometric-to-series identity / partial-fraction linear forms in 1,gamma,logarithms / double-integral equality / Sondow's 2003 Beukers-integral criterion published-scoped-conditional
+- 调用入口。[有理核的线性形式](../../math-sondow-log-fractional-certificate/references/rational-kernel-linear-form.md)
 
 ### 06 · An Infinite Product for e^gamma via Hypergeometric Formulas for Euler's Constant, gamma
 
@@ -141,7 +142,8 @@
 - 版本与身份。Published primary: Jonathan Sondow and Wadim Zudilin, Ramanujan J. 12 (2006), no. 2, 225–244, doi:10.1007/s11139-006-0075-1; local file is arXiv v1 (2003-04-02), described by the authors as an extended preprint. SHA-256 为 `80b8fdd56e422cb559f4e0dda4fb38e81eaa512f976ec7285a0918252fa04342`。
 - 本机原文定位。local arXiv:math/0304021v1 pp. 1–2 (q-log definition and prior linear form), pp. 4–8 (Lemmas 1–7), p. 9 (Theorem 2 rationality criterion); published pagination may differ
 - 核对范围。For its explicitly defined I_{n,m}, L_{n,m} and range 2^(n−1)≤m≤2^(n+1), proves the stated fractional-part equality d_{2n}L_{n,m} mod 1 = d_{2n}I_{n,m}; develops q=2/3 formulae and asymptotics. It does not assert an unconditional irrationality proof for γ.
-- 依赖与状态。The local proof derives the representation through Lemmas 1–7, then invokes the prime-number-theorem growth of d_N to ensure 0&lt;d_{2n}I_{n,m}&lt;1 (p. 9). / It explicitly builds on Sondow's earlier criteria; its q&gt;3 damping obstruction is Lemma 14 (local pp. 22–23). candidate: q-log/finite-linear-form criterion component, with range and asymptotic hypotheses retained; no unconditional conclusion.
+- 依赖与状态。The local proof derives the representation through Lemmas 1–7, then invokes the prime-number-theorem growth of d_N to ensure 0&lt;d_{2n}I_{n,m}&lt;1 (p. 9). / It explicitly builds on Sondow's earlier criteria; its q&gt;3 damping obstruction is Lemma 14 (local pp. 22–23). q-对数值和几何指数尾可用有理区间计算。分数部分判据保留指标范围、整数性和渐近前提。
+- 调用入口。[q-对数路线](../../math-sondow-log-fractional-certificate/references/q-logarithm-path.md)
 
 ### 21 · Generalizations of Guillera-Sondow's double integral formulas
 
@@ -218,7 +220,8 @@
 - 版本与身份。Local PDF header: arXiv:1010.1420v3 \[math.NT\], 29 Dec 2013. Published journal record verified: Journal of Number Theory 133(2) (2013), DOI 10.1016/j.jnt.2012.08.016. SHA-256 为 `0fc9404ea3f673bc2215cbce0858ba8a18a9f8f0c00c73d0465c642953aea0dc`。
 - 本机原文定位。04:P20; 07:EXT-0011; 08:G06; local p. 1 and recurrence/continued-fraction sections; https://arxiv.org/abs/1010.1420; https://doi.org/10.1016/j.jnt.2012.08.016
 - 核对范围。Actual local abstract constructs rational approximations/linear forms in 1 and gamma and a non-simple continued fraction converging sub-exponentially. Its Apéry discussion explicitly lists the integer-form conditions that prove irrationality for zeta(3), but it does not establish analogous sufficient integrality and decay for gamma.
-- 依赖与状态。Aptekarev et al. rational approximants / Meijer G-functions, hypergeometric series and creative telescoping / continued-fraction conversion of the inhomogeneous recurrence candidate — retain recurrence/continued-fraction construction; hold all irrationality use absent a separately checked integer-form, denominator and nonvanishing proof.
+- 依赖与状态。Aptekarev et al. rational approximants / Meijer G-functions, hypergeometric series and creative telescoping / continued-fraction conversion of the inhomogeneous recurrence 精确递推和非简单连分数可回放。需要无理性结论时，另证清分母后非零余项趋零。
+- 调用入口。[欧拉常数连分数递推](../../math-gamma-continued-fraction-recurrence/SKILL.md)
 
 ### 31 · On linear forms containing the Euler constant
 
@@ -247,9 +250,9 @@
 
 - 版本与身份。José A. Adell and Alberto Lekuona, Mathematics of Computation 89(325) (2020), 2553–2561, DOI:10.1090/MCOM/3528; local source has pre-publication placeholder front matter, hash-verified (287,905 bytes). SHA-256 为 `02e459a234ae8fbd961e4240142cc70886803e7d40f064e9fade148f81656d25`。
 - 本机原文定位。local PDF p. 2, equations (1.4)–(1.6) and explicit no-irrationality notice; p. 7, Corollary 3.4 and (3.11)–(3.13)
-- 核对范围。For λ=2N it gives an explicit rational expression for γ with error at most 3e^(−λ)/λ after truncating a Poisson/harmonic expectation and a log series. The authors expressly state that the convergence is not sufficient to prove irrationality; there is no controlled common denominator/height comparison supporting such an inference.
+- 核对范围。For λ=2^N it gives an explicit rational expression for γ with error at most 3e^(−λ)/λ after truncating a Poisson/harmonic expectation and a log series. The authors expressly state that the convergence is not sufficient to prove irrationality; there is no controlled common denominator/height comparison supporting such an inference.
 - 依赖与状态。Poisson expectation f(λ)=E H(N_λ)−log λ and its exponential error (PDF p. 2) / finite log expansion log(1+a) used with a=1 (PDF p. 7, (3.10)–(3.13)) / formal statement/version check only formal-version-citation-checked; numerical rational approximation only
-- 调用入口。[几何逼近与有效高度](mixed-log-height-audit.md)
+- 调用入口。[Poisson 调和区间](poisson-harmonic-enclosures.md)及[几何逼近与有效高度](mixed-log-height-audit.md)
 
 ### 40 · Rational approximations for the quotient of gamma values
 
