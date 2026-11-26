@@ -1,0 +1,12 @@
+{
+  "atoms": [
+    {"id": "x=0", "moments": [0]},
+    {"id": "x=1", "moments": [1]},
+    {"id": "x=2", "moments": [2]}
+  ],
+  "weights": ["1/4", "1/2", "1/4"],
+  "target_moments": [1],
+  "inequalities": [
+    {"coefficients": [0, 1, 0], "lower_bound": "1/4"}
+  ]
+}

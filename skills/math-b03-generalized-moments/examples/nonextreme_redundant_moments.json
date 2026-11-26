@@ -1,0 +1,9 @@
+{
+  "atoms": [
+    {"id": "x=0", "moments": [0, 0]},
+    {"id": "x=1", "moments": [1, 2]},
+    {"id": "x=2", "moments": [2, 4]}
+  ],
+  "weights": ["1/4", "1/2", "1/4"],
+  "target_moments": [1, 2]
+}

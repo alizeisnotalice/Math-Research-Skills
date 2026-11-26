@@ -2,14 +2,14 @@
 
 2026 年 11 月 25 日 Google Research 仓库发布六篇 Cogentic 原稿。六份本机下载件均与固定提交 `4a7bc8ab0bc7` 逐字节一致，合计 274 个 PDF 物理页。独立审阅限于下列采用的构件、适用条件和全局主张的入口依赖。目录与各篇 README 将 Lean 4 工程列为后续伴随材料，当前发布记录没有可供本次编译的项目。[固定发布提交](https://github.com/google-research/google-research/commit/4a7bc8ab0bc7)
 
-| 本机原件 | 页数 | SHA-256 |
-| --- | ---: | --- |
-| 01_integer_factorization.pdf | 54 | `9ac07593ca90c0f315af0b0214320823a43e7c905e6700948261ebb09a4d537d` |
-| 02_discrete_logarithm.pdf | 36 | `fba12f4d5e98152d52226887c4af2606039725f898bffecbc8a4d91ccaf9d0d7` |
-| 03_bimatrix_nash_equilibrium.pdf | 41 | `ed65664e8817e323a1613f95f4fc98689719c86fb2708974bb69cc1edc139485` |
-| 04_deterministic_factoring_l34.pdf | 59 | `0ccf115516dab3cbeee15167f2dea62fcb29d03a19224cb4a9ae69a5ce402993` |
-| 05_logrank_conjecture.pdf | 37 | `9c941a918c5e5cea1624adee676c010efb85b60b3cd77455640cd578f54f6bc9` |
-| 06_edge_reconstruction.pdf | 47 | `170b2fc1f241cc8325e0b5573d444e061b1b7bb8fb3083a3ac88cabd0ce4f196` |
+| 本机原件 | 页数 | SHA-256 | 论文 | 相关技能 |
+| --- | ---: | --- | --- | --- |
+| 01_integer_factorization.pdf | 54 | `9ac07593ca90c0f315af0b0214320823a43e7c905e6700948261ebb09a4d537d` | Unconditional Integer Factorization in Time L_N[1/3, O(1)] | [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md) |
+| 02_discrete_logarithm.pdf | 36 | `fba12f4d5e98152d52226887c4af2606039725f898bffecbc8a4d91ccaf9d0d7` | Discrete Logarithms in Finite Fields of Fixed Characteristic in Sub-Quasi-Polynomial Time | [math-l03-rational-and-interval-certificates](../../math-l03-rational-and-interval-certificates/SKILL.md) |
+| 03_bimatrix_nash_equilibrium.pdf | 41 | `ed65664e8817e323a1613f95f4fc98689719c86fb2708974bb69cc1edc139485` | An Exact Polynomial-Time Algorithm for 1/5-Approximate Nash Equilibria in Bimatrix Games | [math-bimatrix-kite-mixing](../../math-bimatrix-kite-mixing/SKILL.md) |
+| 04_deterministic_factoring_l34.pdf | 59 | `0ccf115516dab3cbeee15167f2dea62fcb29d03a19224cb4a9ae69a5ce402993` | Unconditional Deterministic Subexponential Integer Factoring and Quadratic Nonresidue Construction | [math-l16-prime-sieve-certified-transfers](../../math-l16-prime-sieve-certified-transfers/SKILL.md) |
+| 05_logrank_conjecture.pdf | 37 | `9c941a918c5e5cea1624adee676c010efb85b60b3cd77455640cd578f54f6bc9` | Breaking the Square-Root Barrier for the Log-Rank Conjecture | [math-logrank-rectangle-rank-halving](../../math-logrank-rectangle-rank-halving/SKILL.md) |
+| 06_edge_reconstruction.pdf | 47 | `170b2fc1f241cc8325e0b5573d444e061b1b7bb8fb3083a3ac88cabd0ce4f196` | Unconditional Edge Reconstruction of Simple Graphs of Linear Density | [math-edge-deck-reconstruction-audit](../../math-edge-deck-reconstruction-audit/SKILL.md) |
 
 本机来源目录名为 `10_Google_Cogentic_2026-11-25/PDF/`。11 月 26 日与仓库主分支比较，五篇 PDF 的字节一致。双矩阵博弈更新版仍为 41 页，SHA-256 为 `32196e6a64d13fbd216c7e7353a3b44a46e8389eb3d15bad48ffb3dd926cc337`，更新了 Li–Li 的既有结果比较及出处。两版的 kite 定义、Lemma 2.3(a) 与其证明一致。[更新版论文目录](https://github.com/google-research/google-research/tree/master/cogentic_research_papers/bimatrix_nash_equilibrium)
 
@@ -39,3 +39,18 @@
 - 有限群。模 17 的成员见证、非成员充分证书和条件未满足的例子分别给出正确状态。指数证书条件不满足时，成员关系仍待判定。
 
 本轮采用的局部引理与检查器均有明确输入范围。六篇原稿的整体新定理均保留为源文主张。
+
+## 第二次蒸馏与实际验收
+
+六份下载件的 SHA-256 和 274 个物理页已复算。Google 现行的双矩阵博弈稿使用更新后的书目信息，其余五份现行 PDF 与本机原件一致。本批沿用下载件的固定定位。[Google Research 版本目录](https://github.com/google-research/google-research/tree/master/cogentic_research_papers)
+
+| 论文 | 本次采用的有限构件 |
+| --- | --- |
+| 01 整数分解 | 核对物理页 1–6 的算法接口和已给定因子列表的验证。延用素性与乘积检查，记录平滑权、下降和复杂度的依赖。[两篇算术稿复核](../../math-l16-prime-sieve-certified-transfers/references/cogentic-finite-arithmetic.md) |
+| 02 离散对数 | 物理页 31 Lemma 6.3(2)。在给定的模整数关系矩阵上做精确 Bézout 消元，检查余行并代回原方程。模 12 示例认证解 \((5,3)\)，欠定和矛盾示例分别报告状态。[模整数线性关系](../../math-l03-rational-and-interval-certificates/references/modular-unimodular-relations.md) |
+| 03 双矩阵博弈 | 物理页 5–6 Lemma 2.1(b)。最大余数舍入保持总质量，并给出 \(\ell^1\) 误差 \(\le d/D\)。本机用有理数枚举 8,967 个输入，包含余数并列。[单纯形舍入](../../math-bimatrix-kite-mixing/references/simplex-denominator-rounding.md) |
+| 04 确定性分解 | 物理页 55 Lemma 11.1。对已认证的有限子群指数界，核查素域群阶的整除传递。本机整数算术复跑 231 个有限实例。[指数传递](../../math-l16-prime-sieve-certified-transfers/references/cogentic-finite-arithmetic.md) |
+| 05 Log-Rank | 物理页 35–36 Proposition A.3。扩展原秩检查器，给出单色块、低秩交叉块、剩余块的行列索引与精确面积。示例原密度为 \(4/9\)，选中块秩为 1，余块密度为 \(1/3\)。[递归节点](../../math-logrank-rectangle-rank-halving/references/source-audit.md) |
+| 06 边重构 | 物理页 8–10 Lemmas 2.2–2.3。从完整卡组的度数恢复原图度多重集，单独处理星图及孤立点。对 4 至 6 顶点、至少 4 边的 33,062 个标号简单图进行精确回放。[度序列](../../math-edge-deck-reconstruction-audit/references/edge-kelly-degree-sequence.md) |
+
+上述有限构件可独立调用。六篇论文的全局主定理及其完整复杂度和形式化证明仍待独立验收。

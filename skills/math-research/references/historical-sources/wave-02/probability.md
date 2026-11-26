@@ -2563,6 +2563,7 @@
 - 构件候选。It gives sharp mean thresholds for a strict reversal P(S=k+r)>P(S=k): the distance-two case has an explicit staircase optimizer, while r≥3 has threshold k+1; the proof reduces to shifted binomial laws and an exact integer comparison.。
 - 适用范围。Candidate only: it is an unversioned v1 manuscript in the archive and concerns finite independent Bernoulli sums and strict atom reversal; no transfer to tail, convex, or dependent-sum orders.。
 - 相关技能。[probability-bernoulli-extremal-orders](../../../../probability-bernoulli-extremal-orders/SKILL.md)。
+- 已采用构件。有限独立 Bernoulli 的严格原子反转和距离二均值阈值。[使用说明](../../../../probability-bernoulli-extremal-orders/references/kleiner_distance_two_exact.md)
 
 ## An Asymptotically Optimal Bernoulli Factory for Certain Functions That Can Be Expressed as Power Series
 

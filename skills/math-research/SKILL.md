@@ -18,8 +18,9 @@ description: "统筹数学研究、证明核验与计算实验：按问题选择
 | 任务 | 下一步 |
 | --- | --- |
 | 不确定该用什么数学方法 | 按 [数学方法索引](references/math-methods.md) 的主题检索，再读最相关的 1–2 个技能 |
+| 跨批次查原件或查某技能引用的论文 | 用 [来源检索](references/literature-source-lookup.md) 按题名、SHA-256 或技能名定位。 |
 | 已有 OpenAI 论文的题名、编号或 PDF | 在 [OpenAI 逐篇索引](references/openai-sources/README.md) 查版本、SHA-256 和构件。已安装构件按链接调用，候选构件先读指定证明页并核验所列依赖 |
-| 查 Google Cogentic 论文或调用其数学构件 | 在 [Google Cogentic 来源索引](references/google-cogentic-2026-11-25.md) 查版本与范围，按对象选择 kite 混合、秩减半或边卡组。 |
+| 查 Google Cogentic 论文或调用其数学构件 | 在 [Google Cogentic 来源索引](references/google-cogentic-2026-11-25.md) 查版本与范围，按对象选择策略舍入、秩减半、边卡组或有限算术证书。 |
 | 查补充无理性、超越性及研究方向论文 | 在 [补充数学文献索引](references/supplemental-sources/README.md) 按归档、版本和原文页码定位。 |
 | 核对既有技能的原文或活跃引用 | 在 [现行技能来源复核](references/active-citation-audit-2026-11.md) 按题名或 SHA-256 定位所查页码、采用范围与缺口。 |
 | 查按数学方法归档的历史文献 | 在 [历史文献主题索引](references/historical-sources/README.md) 按题名、哈希或技能入口定位版本、所查页及范围。 |

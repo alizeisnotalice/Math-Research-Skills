@@ -37,3 +37,7 @@ python3 scripts/check_rectangle_rank_halving.py examples/not-monochromatic.json
 第一个调用核对一个 1-单色矩形和秩减半候选。第二个调用以退出码 2 拒绝非单色输入。脚本不会寻找矩形，不能从有限验证推导对任意秩的单色矩形密度定理。
 
 需要把条件性归约用于一条新矩形定理时，另行提供每个 \(k\) 的统一密度界和其证明。只有此界的量词覆盖所有 \(1\leq\operatorname{rank}(M)\leq k\)，Proposition A.3 才能进入协议复杂度结论。
+
+## 单步递归的行列分块
+
+脚本同时输出低秩互补块与余块的行列索引，并核验各块面积与余块缩减。可用输入字段 low_rank_branch 指定支路。省略时选精确秩较小的一支。[证明与适用范围](references/source-audit.md)

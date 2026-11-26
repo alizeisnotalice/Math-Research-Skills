@@ -396,10 +396,11 @@
 
 ## The Exit Time Finite State Projection Scheme: Bounding Exit Distributions and Occupation Measures of Continuous-Time Markov Chains
 
-- 原件 0178f07ee92816cf4cba7861597f548038409453a8d2af0fbfb8b4490a9e19a0。source PDF labelled 2018; no arXiv/journal-version marker on inspected pp. 1–2。物理页 1, 2, 4, 5。
+- 原件 0178f07ee92816cf4cba7861597f548038409453a8d2af0fbfb8b4490a9e19a0。本机预印本 arXiv:1801.09507v3。正式版 DOI 10.1137/18M1168261。物理页 1, 2, 4, 5。
 - certified finite-state truncation for CTMC exit laws。PDF p. 1, abstract; p. 2, theorem overview; pp. 4–5, definitions and Theorem 1.1.。
 - 构件候选。For a minimal stable conservative countable-state CTMC satisfying (1.13), Theorem 1.1 gives lower approximations to exit and occupation measures, computable total-variation error bounds, monotonicity under expanding truncations, and convergence under the stated exhaustion/time conditions.。
 - 适用范围。A reusable method would need the source's rate-matrix, initial-integrability, explosion, domain, and truncation assumptions. The occupation-measure bound involves E[tau] and is not generally computable without additional certification; this is a candidate, not an installed method.。
+- 已采用构件。有限增广生成元上的真实退出、截断弃置与占用区间。[使用说明](../../../../math-j03-nonlocal-balayage-exit-measure/references/etfsp-finite-certificate.md)
 
 ## The Geometric Approach to the Classification of Signals via a Maximal Set of Signals
 

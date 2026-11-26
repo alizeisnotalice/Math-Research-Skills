@@ -33,3 +33,7 @@ description: 分析非局部 balayage 与退出测度，核对退出规则、调
 依赖表提供方法路线，不表示所有工具之间存在无条件定理蕴含。
 
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
+
+## 有限截断的退出与占用区间
+
+生成元已写成有限有理矩阵时，用 [ETFSP 有限证书](references/etfsp-finite-certificate.md) 分开跟踪真实退出和截断弃置质量，计算有理概率与占用区间。映射到原链须先核验首次弃置前的耦合。

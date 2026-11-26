@@ -662,6 +662,7 @@
 - 构件候选。A reusable route is available when a semi-infinite constraint is reduced to a univariate function on an interval that admits a controlled polynomial approximation: Theorem 4 represents prescribed values of a globally nonnegative degree-2k interpolant by a PSD Gram matrix, while Theorem 5 extends this to Hermite data. Chebyshev interpolation has the explicit uniform error bound of Proposition 1 under absolute continuity through order k−1 and bounded variation of f^(k).。
 - 适用范围。This is an approximation/reformulation route, not exact exchange: feasibility for the original SIP needs a one-sided error allowance or an independently certified approximation bound. The SOS assertions quoted here are univariate and, for interval nonnegativity, use the stated weighted representations.。
 - 相关技能。[math-b02-semi-infinite-exchange](../../../../math-b02-semi-infinite-exchange/SKILL.md)。
+- 已采用构件。一元有理多项式在闭区间上的显式平方和恒等式，或一个严格负值见证。[使用说明](../../../../math-b02-semi-infinite-exchange/references/papp-univariate-interval-positivity.md)
 
 ## Semi-Infinite Programs for Robust Control and Optimization: Efficient Solutions and Extensions to Existence Constraints
 

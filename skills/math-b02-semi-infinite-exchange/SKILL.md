@@ -29,11 +29,15 @@ description: 处理半无限规划与约束生成，核对分离子问题、交�
 
 ## 基多面体的分离 Oracle
 
-对显式给出整数次模秩的有限基多面体，用[次模秩约束的精确分离](references/polymatroid-base-separation.md)返回确切违例集合。
+对显式给出整数次模秩的有限基多面体，用[次模秩约束的精确分离](references/polymatroid-base-separation.md)返回确切违例集合。 给定显式子集值表时，还可在同一说明中调用有限支配测度构造，使指定子集达到上界。
 
 ## 非紧索引的截断检查
 
 用 [Gale 例的截断与尾部约束](references/gale-truncation-boundary.md) 复现一个有限截断最优值恒为 1、而全域对偶值为 0 的算例，并用精确见证检查下一条约束。 同一说明中的 Basu–Martin–Ryan 例用于检查可数约束的序列空间及有限支撑对偶。
+
+## 闭区间上的多项式非负证书
+
+给定有理多项式和精确平方和分解时，用 [一元区间非负证书](references/papp-univariate-interval-positivity.md) 核验系数恒等式或严格负值点。原函数经插值近似时，另给统一误差界。
 
 ## 证据与失败处理
 

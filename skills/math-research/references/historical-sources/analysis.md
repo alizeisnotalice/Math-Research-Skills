@@ -552,6 +552,7 @@
 - 构件候选。Theorem 4 gives a narrow constructive representation: if a totally ordered class I generates F, then for B⊂A there is a unique dominated measure calibrated on the inserted chain I_{A,B}, attaining v(B). The proof constructs a finitely additive chain-algebra measure and extends it using continuity. This is a candidate source-boundary addition for measurable supremum work.。
 - 适用范围。The paper’s definition of submodularity already includes monotonicity, two-sided sequential continuity, finiteness, and v(∅)=0. The total-order generating condition is essential. The proof line beginning on p. 6 reverses the displayed A,B inclusion relative to Theorem 4, so any import must retain the theorem’s B⊂A orientation and independently audit that typographical inconsistency. It does not establish generic measurable argmax selection.。
 - 相关技能。[math-m04-measurable-supremum-selection](../../../math-m04-measurable-supremum-selection/SKILL.md)。
+- 已采用构件。有限原子代数上的支配测度构造与指定子集取等。一般 σ-代数的扩张仍按原定理核查。[使用说明](../../../math-b02-semi-infinite-exchange/references/polymatroid-base-separation.md)
 
 ## Composition of analytic paraproducts
 

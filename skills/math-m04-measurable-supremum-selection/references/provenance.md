@@ -36,7 +36,7 @@
 |E0688|15_Ganiev_2014_Measurable bundles of Banach algebras.pdf|P-ac330d68984d3133|irrelevant|首面摘要未提出多值映射的可测性、Borel/可测选择、可测最大值或 argmax 选择结论；smooth/continuous selection 单独不满足目标。|
 |E0689|07_Brudnyi_2018_A Note on the Lipschitz Selection.pdf|P-9874097f6977d968|irrelevant|首面摘要未提出多值映射的可测性、Borel/可测选择、可测最大值或 argmax 选择结论；smooth/continuous selection 单独不满足目标。|
 |E0690|14_Kosenko_2024_On a complex-analytic approach to stationary measures on $S^.pdf|P-21071ec2fb7fd3ed|irrelevant|首面摘要未提出多值映射的可测性、Borel/可测选择、可测最大值或 argmax 选择结论；smooth/continuous selection 单独不满足目标。|
-|E0691|01_Hattori_2024_An elementary proof of representation of submodular function.pdf|P-b5e29db2521b2dd2|irrelevant|首面摘要未提出多值映射的可测性、Borel/可测选择、可测最大值或 argmax 选择结论；smooth/continuous selection 单独不满足目标。|
+|E0691|01_Hattori_2024_An elementary proof of representation of submodular function.pdf|P-b5e29db2521b2dd2|irrelevant|主题是次模容量与支配测度。有限原子构造见 [B02](../../math-b02-semi-infinite-exchange/references/polymatroid-base-separation.md)。它不给出可测选择器构造。|
 |E0692|27_Kucik_2016_Carleson measures for Hilbert spaces of analytic functions o.pdf|P-2746ddba1cba07b7|irrelevant|首面摘要未提出多值映射的可测性、Borel/可测选择、可测最大值或 argmax 选择结论；smooth/continuous selection 单独不满足目标。|
 |E0693|38_Michael_2023_Making Sustainability Measurable【题录】.txt|R-bf77d79f6d2dd14a|pending|全文/PDF 本地缺失，题录信息不足以可靠排除或确认相关性；等待原文核对。|
 |E0694|25_Pachl_2011_Measurable centres in convolution semigroups.pdf|P-b10db7304d5052db|irrelevant|首面摘要未提出多值映射的可测性、Borel/可测选择、可测最大值或 argmax 选择结论；smooth/continuous selection 单独不满足目标。|

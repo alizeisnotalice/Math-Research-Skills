@@ -70,3 +70,7 @@ reservoir 的正下界以及 uniform complete-splitting bound 均为外部/重�
 - 永远区分 local splitting equivalence、有限筛恒等式、tail hypothesis、prime-density lower bound 与连续 prime-gap count。
 - 不把 local admissibility、CRT 可解性或一个有限算例提升为正 Euler-product density 或素数定理。
 - 若修改指数范围、允许负/合数 base、改变 `p∤aq`、或使用依赖 `x` 的同余模数，重新做 local compatibility 和 uniformity 审计。
+
+## 已认证有限子群指数的整除传递
+
+当素域中的子群指数已有上界、且生成元满足共同幂等式时，按[有限子群指数传递](references/cogentic-finite-arithmetic.md)核对整个素域单位群阶的整除结论。

@@ -29,3 +29,7 @@ Bimatrix Games*，本机原件 SHA-256
 [范围与验收](references/source-and-scope.md)。这个工具没有实现论文的
 `MaximinKiteNE` 滤波器、Volterra 论证或其 \(1/5\) 的全局主张。正式使用那些
 结论前，需要独立核验整篇证明，或取得并实际编译所声称的 Lean 形式化。
+
+## 策略舍入
+
+策略迭代需要有理格点时，用[精确分母单纯形舍入](references/simplex-denominator-rounding.md)。给定维数 \(d\) 和分母 \(D\)，舍入保持总质量、采用固定规则处理并列，且 \(\ell^1\) 误差至多 \(d/D\)。

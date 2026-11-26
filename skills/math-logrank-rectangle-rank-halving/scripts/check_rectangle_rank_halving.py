@@ -2,8 +2,7 @@
 """Check the finite rank-halving interface in Cogentic log-rank Appendix A.3.
 
 The script accepts a finite Boolean matrix and a proposed nonempty rectangle.
-It makes exact rational row reductions.  It verifies only the finite rank split,
-not the paper's high-rank rectangle theorem or a communication protocol bound.
+It makes exact rational row reductions.  It also checks a single finite recursion step using that split.
 """
 
 from __future__ import annotations
@@ -39,6 +38,33 @@ def exact_rank(rows: list[list[int]]) -> int:
     return pivot_row
 
 
+def recursion_step(a_rows, b_cols, ac_rows, bc_cols, block_ranks, rank_bound, preferred, area):
+    branch = preferred if preferred is not None else min(block_ranks, key=block_ranks.__getitem__)
+    if type(branch) is not str or branch not in block_ranks:
+        raise ValueError("low_rank_branch must be A_x_Bc or Ac_x_B")
+    if branch == "A_x_Bc":
+        low_rows, low_cols = a_rows, bc_cols
+        residual_rows, residual_cols = ac_rows, sorted(b_cols + bc_cols)
+    else:
+        low_rows, low_cols = ac_rows, b_cols
+        residual_rows, residual_cols = sorted(a_rows + ac_rows), bc_cols
+    rectangle_area = len(a_rows) * len(b_cols)
+    low_area = len(low_rows) * len(low_cols)
+    residual_area = len(residual_rows) * len(residual_cols)
+    return {
+        "low_rank_branch": branch,
+        "low_rank": block_ranks[branch],
+        "rank_verified": block_ranks[branch] <= rank_bound,
+        "low_rank_rows": low_rows,
+        "low_rank_columns": low_cols,
+        "residual_rows": residual_rows,
+        "residual_columns": residual_cols,
+        "residual_area_fraction": str(Fraction(residual_area, area)),
+        "area_partition_verified": rectangle_area + low_area + residual_area == area,
+        "residual_area_verified": residual_area <= area - rectangle_area,
+    }
+
+
 def validate(payload: dict) -> dict:
     if not isinstance(payload, dict):
         raise ValueError("input must be a JSON object")
@@ -71,18 +97,25 @@ def validate(payload: dict) -> dict:
     value = values.pop()
     split_bound = rank + value
     smaller = min(rank_first, rank_second)
+    rank_bound = (rank + 1) // 2
+    block_ranks = {"A_x_Bc": rank_first, "Ac_x_B": rank_second}
+    step = recursion_step(
+        a_rows, b_cols, ac_rows, bc_cols, block_ranks, rank_bound,
+        payload.get("low_rank_branch"), len(rows) * width,
+    )
     return {
         "shape": [len(rows), width],
         "matrix_rank": rank,
         "rectangle_value": value,
         "rectangle_uniform_density": f"{len(a_rows) * len(b_cols)}/{len(rows) * width}",
-        "complementary_block_ranks": {"A_x_Bc": rank_first, "Ac_x_B": rank_second},
+        "complementary_block_ranks": block_ranks,
         "rank_split_bound": split_bound,
         "rank_split_verified": rank_first + rank_second <= split_bound,
-        "rank_halving_bound": (rank + 1) // 2,
+        "rank_halving_bound": rank_bound,
         "smaller_complementary_rank": smaller,
-        "rank_halving_verified": smaller <= (rank + 1) // 2,
-        "scope": "Exact finite check of the Appendix A.3 rank-split interface only.",
+        "rank_halving_verified": smaller <= rank_bound,
+        "recursion_step": step,
+        "scope": "One supplied finite rectangle and one Appendix A.3 recursion step.",
     }
 
 
@@ -96,7 +129,11 @@ def main() -> int:
         print(f"error: {error}", file=sys.stderr)
         return 2
     print(json.dumps(result, ensure_ascii=False, indent=2))
-    return 0 if result["rank_split_verified"] and result["rank_halving_verified"] else 1
+    step = result["recursion_step"]
+    verified = result["rank_split_verified"] and result["rank_halving_verified"] and all(
+        step[key] for key in ("rank_verified", "area_partition_verified", "residual_area_verified")
+    )
+    return 0 if verified else 1
 
 
 if __name__ == "__main__":

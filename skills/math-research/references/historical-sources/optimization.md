@@ -304,11 +304,12 @@
 
 ## Extreme points and faces in the moment problem
 
-- 原件 b77447cac7b06cc49ca166f359e0e48e9e72da6fa3047c53f13057f1d49263de。2026 preprint, 17 pp.; local PDF has no arXiv identifier on first page。物理页 1, 2。
+- 原件 b77447cac7b06cc49ca166f359e0e48e9e72da6fa3047c53f13057f1d49263de。本机副本题头为 Draft of June 23, 2026。同题 arXiv:2606.21391v1 与本机排印日期有异，见所采用构件。物理页 1, 2。
 - Extreme points of affinely constrained moment sets。PDF pp. 1–2 state a face/injectivity characterization and applications to finite atomic moment LPs.。
 - 构件候选。Candidate source for an explicit pre-check: restrict the constraint map to the smallest face of the positive-measure cone before asserting extremality. It may sharpen B03's atomic/extreme-point gate.。
 - 适用范围。Need the paper's locally convex measure topology, face identification and all affine constraints. This abstract-level card does not certify the grid algorithm or Moment–SOS equality.。
 - 相关技能。[math-b03-generalized-moments](../../../math-b03-generalized-moments/SKILL.md)。
+- 已采用构件。列全有限原子与线性约束时的极点秩判据和有理中点反证。[使用说明](../../../math-b03-generalized-moments/references/finite-moment-face-guide.md)
 
 ## Generalized truncated moment problems with unbounded sets
 

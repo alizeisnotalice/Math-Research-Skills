@@ -11,10 +11,11 @@ description: 按任务、精度和实际可用性调用本机数学工具，执�
 | --- | --- |
 | 精确整数、有理数、有限枚举、数据处理 | `python-math`。优先使用项目已有解释器，能用标准库精确完成时直接运行。 |
 | 欧拉常数的有理区间、连分数和对数线性形式 | 按所给输入选择 [欧拉常数工具](../math-euler-constant-irrationality/SKILL.md)，运行相应的精确 Python 脚本。 |
-| 有理博弈策略、单色矩形互补块、有限图边卡组 | 按 [Google Cogentic 构件索引](../math-research/references/google-cogentic-2026-11-25.md) 选择精确算术或枚举脚本。 |
+| 有理博弈策略、单色矩形递归、有限图卡组、模整数线性关系 | 按 [Google Cogentic 构件索引](../math-research/references/google-cogentic-2026-11-25.md) 选择精确算术或枚举脚本。 |
 | Diophantine 逼近的精确有限证书 | 用 [整数线性形式](../math-integer-linear-form-rates/SKILL.md) 转换已证高度与余项界，用 [Hankel–Padé](../math-hankel-pade-certificates/SKILL.md) 审查有限系数和正矩投影下界，用 [交错倒数连分数](../math-alternating-reciprocal-criteria/SKILL.md) 核对分母增长与截断。 |
 | 单比值子模性、有限 Markov 桥、树度量输运 | 分别用 [单比值判据](../math-a01-fractional-normalization/references/han-2020-submodularity.md)、[终点桥](../math-h02-exponential-tilting-saddlepoint/references/aguilar-gatto-finite-bridge.md) 和 [树输运](../math-d01-kantorovich-duality/references/tree-metric-transport.md) 生成精确证书。 |
 | 有限原子后验树的停止证书 | 用 [后验树与停止见证](../math-e04-snell-envelope-optimal-stopping/references/finite-atomic-posterior-tree.md) 校验精确重心、停止后验和树内 Snell 值。 |
+| 一元区间非负、固定原子矩极点、有限链退出、独立 Bernoulli 原子比较 | 分别用 [区间平方和](../math-b02-semi-infinite-exchange/references/papp-univariate-interval-positivity.md)、[矩多面体](../math-b03-generalized-moments/references/finite-moment-face-guide.md)、[ETFSP 区间](../math-j03-nonlocal-balayage-exit-measure/references/etfsp-finite-certificate.md) 和 [精确原子比较](../probability-bernoulli-extremal-orders/references/kleiner_distance_two_exact.md)。 |
 | 有端点消失条件的 Euler–Maclaurin 求积 | 用 [求积误差证书](../math-euler-maclaurin-quadrature-certificates/SKILL.md) 检查多项式、网格及误差的有理包围。 |
 | 标准化单峰分布的尖锐尾界 | 用 [单峰尾界证书](../probability-unimodal-tail-certificates/SKILL.md) 检查事件方向、阈值和取等构造。 |
 | 符号求导、恒等式、参数求解、高精度 | `mathematica-math` 或 `python-math` 的已验证符号环境。声明定义域、分支与精确输入。 |

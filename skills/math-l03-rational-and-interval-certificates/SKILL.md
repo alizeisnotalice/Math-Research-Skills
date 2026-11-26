@@ -47,3 +47,7 @@ description: 构造或核验区间算术、有理对偶与证明型数值证书�
 用 [适用案例](examples/positive.md) 与 [条件缺失案例](examples/negative.md) 检查适用边界。
 
 将已核验的周期积分不等式转到有限均匀网格时，按[周期网格与分母误差](references/periodic-grid-transfer.md)保留导数界及正分母下界。
+
+## 模整数的线性关系
+
+给定完整的有限矩阵关系时，调用[模整数线性消元](references/modular-unimodular-relations.md)，用 Bézout 行操作寻找可逆主元，并检查消元后的多余行及原始方程残差。

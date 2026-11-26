@@ -38,6 +38,10 @@ Johnson–Goldschmidt’s convolution result is safe when each summand pmf has c
 
 Tang–Tang is a survey map for cited Hoeffding, majorization, Newton, and Stein–Chen results; it does not reproduce those primary proofs, so do not use it as proof or count it toward those atomic methods. Its exact PGF factorization and recurrence (26) are an auxiliary recipe for computing Poisson-binomial coefficients, checked in the scope example（本机附件：`examples/tang_and_johnson_scope.md`）; that computation has no atomic G05 method ID.
 
+## Strict reversal of two point masses
+
+For a finite sum of independent Bernoulli variables, use [Kleiner’s exact point-mass audit](references/kleiner_distance_two_exact.md) to check the two probabilities and the necessary sharp mean threshold. The distance-two comparison uses rational arithmetic and checks the binomial boundary tie.
+
 ## Dependent common-margin sums
 
 For `X_i~Bernoulli(p)` with a common margin and unrestricted dependence, Fontana–Semeraro Proposition 5.2 identifies the minimal sum law in convex order: support on `{floor(dp),ceil(dp)}` with mean-fixing weights, or `δ_dp` if `dp` is integer. Attainment follows from the explicit exchangeable construction: sample this sum `S`, then choose a uniform subset of `[d]` of size `S`. This is a direct derivation, not a claim that the cited 2020 paper was read. The source theorem is used in its rational-`p` setting. R02 approved this scoped use as G05.02; its broader Theorem 5.1 nonexchangeable construction is excluded pending case-by-case conditions. For `p>1/2`, complementing indicators is a separate affine-transform derivation. This does not apply to independence-only sets, unequal margins, or constrained dependence. See the full proof and boundary card（本机附件：`evidence/project/expansions/20261115/readers/L02/revision6/cards/EXSRC-a475c4dbb3e6991e.md`） and R02 decision（本机附件：`evidence/project/expansions/20261115/reviews/R02/l02_revision3a/review.json`）.

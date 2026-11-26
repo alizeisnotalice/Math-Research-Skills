@@ -1,0 +1,17 @@
+{
+  "state_labels": ["inside", "physical_exit", "truncation_loss"],
+  "generator": [
+    ["-3", "1", "2"],
+    ["0", "0", "0"],
+    ["0", "0", "0"]
+  ],
+  "initial": ["1", "0", "0"],
+  "time": "1",
+  "domain": ["inside"],
+  "physical_exit": ["physical_exit"],
+  "loss_state": "truncation_loss",
+  "uniformization_rate": "3",
+  "terms": 40,
+  "exp_terms": 16,
+  "decimal_digits": 25
+}

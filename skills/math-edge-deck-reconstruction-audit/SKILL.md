@@ -19,3 +19,7 @@ python3 scripts/edge_deck_audit.py G.json --pattern F.json
 对一般理论先检查原文的量词。Google Cogentic 2026-11-25 公开稿所述线性密度范围是 \(n\ge4\) 与 \(|E|\ge1000n\)。该条件不覆盖稀疏小图。二边图 \(2K_2\) 与 \(K_{1,2}\sqcup K_1\) 是同卡组而不同构的边界例。
 
 需要从边卡组进入来源的证明路线时，先读 [来源与有限界](references/edge-deck-reconstruction.md)。它区分 Edge–Kelly 的有限子图计数、孤立点剥离、原文的全局密度结论，以及尚未随公开稿提供的 Lean 形式化。
+
+## 从卡片度数恢复原图度序列
+
+对至少四条边的有限简单图，使用[星计数与度序列](references/edge-kelly-degree-sequence.md)。输入可提供每张卡片的度多重集，证书用 Edge–Kelly 恒等式、二项反演和星图分支恢复原图的度数多重集。
